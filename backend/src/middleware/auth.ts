@@ -165,6 +165,12 @@ export const devAuth = async (
     throw errors.unauthorized('Authentication required');
   }
   
+  // SECURITY: Only allow dev auth bypass in development/test environments
+  // In production, always require authentication
+  if (config.nodeEnv !== 'development' && config.nodeEnv !== 'test') {
+    throw errors.unauthorized('Authentication required');
+  }
+  
   // In development without REQUIRE_AUTH, use real seeded organization
   if (config.nodeEnv === 'development' || config.nodeEnv === 'test') {
     logger.warn('⚠️  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {

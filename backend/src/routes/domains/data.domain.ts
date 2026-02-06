@@ -3,6 +3,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import metricsRoutes from '../metrics.js';
 import alertsRoutes from '../alerts.js';
 import forecastRoutes from '../forecasts.js';
@@ -19,6 +20,10 @@ import horizonRoutes from '../horizon.js';
 import sampleDataRoutes from '../sample-data.js';
 
 const router = Router();
+
+// Apply authentication middleware at domain level for defense-in-depth
+// This ensures all sub-routes are protected even if a child route forgets to apply auth
+router.use(authenticate);
 
 router.use('/metrics', metricsRoutes);
 router.use('/alerts', alertsRoutes);
