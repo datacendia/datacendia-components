@@ -32,7 +32,7 @@ Think of it as **"black box recorder for enterprise decisions"** — like aircra
 **The punchline:** Every one of these regulations creates a new *requirement* to prove how decisions were made. There is no incumbent product that does this.
 
 ### 2. AI Adoption Is Creating a Liability Crisis
-- **87% of enterprises** now use AI to assist decisions (McKinsey, 2025)
+- **87% of enterprises** now use AI to assist decisions (McKinsey Global Survey on AI, 2025 report)
 - **0% of them** have a legally defensible record of what the AI recommended vs. what humans chose
 - When an AI-assisted decision goes wrong (denied loan, missed diagnosis, failed trade), the first question is: *"Show me the decision trail."* Nobody can.
 
