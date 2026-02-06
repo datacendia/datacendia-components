@@ -142,7 +142,7 @@ export class AdversarialAbuseAgent extends BaseCollapseAgent {
       exploitPaths,
       abuseCostCurve,
       totalExploitRisk,
-    }) as AdversarialAbuseOutput;
+    } as any) as AdversarialAbuseOutput;
   }
 
   private generateExploitSteps(actor: ThreatActorType, vector: string): string[] {

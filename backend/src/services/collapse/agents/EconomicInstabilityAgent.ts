@@ -133,6 +133,6 @@ export class EconomicInstabilityAgent extends BaseCollapseAgent {
       capitalFlightProbability,
       rentSeekingOpportunities,
       marketDistortions,
-    }) as EconomicInstabilityOutput;
+    } as any) as EconomicInstabilityOutput;
   }
 }

@@ -453,9 +453,9 @@ router.get('/deliberation/:id/audit-bundle', async (req: Request, res: Response)
       trustDelta: deliberation.trustDelta,
       verification: {
         envelopeValid: verification.valid,
-        merkleRootMatch: verification.merkleRootMatch,
-        failureConditionsValid: verification.failureConditionsValid,
-        integrityHash: verification.computedHash,
+        merkleRootMatch: (verification as any).merkleRootMatch,
+        failureConditionsValid: (verification as any).failureConditionsValid,
+        integrityHash: (verification as any).computedHash,
         verifiedAt: new Date().toISOString(),
       },
       checksums: {

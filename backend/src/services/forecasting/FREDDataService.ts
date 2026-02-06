@@ -105,7 +105,7 @@ class FREDDataService {
         throw new Error(`FRED API error: ${response.status}`);
       }
 
-      const json = await response.json();
+      const json: any = await response.json();
       
       const observations: FREDDataPoint[] = json.observations
         .filter((obs: any) => obs.value !== '.')

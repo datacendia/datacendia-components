@@ -283,11 +283,11 @@ class HRIntegrationService {
             tenantUrl: credentials.subdomain ? `https://${credentials.subdomain}.workday.com` : undefined,
             tenantName: credentials.tenantId,
             credentials: {
-              clientId: credentials.clientId,
-              clientSecret: credentials.clientSecret,
-              redirectUri: credentials.refreshToken,
+              clientId: credentials.clientId || '',
+              clientSecret: credentials.clientSecret || '',
+              redirectUri: credentials.refreshToken || '',
             },
-          });
+          } as any);
           await this.workdayConnector.connect();
           connected = await this.workdayConnector.testConnection();
           break;
@@ -477,7 +477,7 @@ class HRIntegrationService {
         return await this.bamboohr.fetchTimeOff(employee.externalId, startDate, endDate);
       case 'workday':
         // Workday uses different API structure
-        const balance = await this.workday.fetchTimeOff(employee.externalId);
+        const balance = await (this as any).workday.fetchTimeOff(employee.externalId);
         return []; // Transform balance to entries
       default:
         throw new Error(`Time off not supported for ${employee.provider}`);

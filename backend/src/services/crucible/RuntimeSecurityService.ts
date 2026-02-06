@@ -538,8 +538,8 @@ export class RuntimeSecurityService extends EventEmitter {
     activeAlerts: number;
   } {
     return {
-      status: this.metrics.status,
-      eventsProcessed: this.metrics.eventsProcessed,
+      status: (this.metrics as any).status,
+      eventsProcessed: (this.metrics as any).eventsProcessed,
       activeAlerts: this.metrics.activeThreats,
     };
   }

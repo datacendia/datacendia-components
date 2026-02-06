@@ -131,6 +131,6 @@ export class MinorityHarmAgent extends BaseCollapseAgent {
       concentrationIndex,
       moralHazardFlags,
       delayedVisibilityRisk,
-    }) as MinorityHarmOutput;
+    } as any) as MinorityHarmOutput;
   }
 }

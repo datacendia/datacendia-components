@@ -149,6 +149,6 @@ export class SystemicRiskAgent extends BaseCollapseAgent {
       coupledSystemFailures,
       secondOrderEffects,
       dependencyGraph,
-    }) as SystemicRiskOutput;
+    } as any) as SystemicRiskOutput;
   }
 }

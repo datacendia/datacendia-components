@@ -1014,7 +1014,7 @@ export const redisConnector: DataSourceConnector = {
   async testConnection(config, credentials): Promise<ConnectionResult> {
     try {
       const ioredis = await import('ioredis');
-      const Redis = ioredis.default as typeof ioredis.default;
+      const Redis = ioredis.default as any;
       
       const client = new Redis({
         host: config.host as string || 'localhost',

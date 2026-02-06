@@ -377,7 +377,7 @@ router.post('/simulation', async (req: Request, res: Response) => {
         complianceVarianceLevel: ComplianceVariance.MODERATE_COMPLIANCE,
         seed: population.generationSeed,
       },
-      governance: DEFAULT_GOVERNANCE_PRESETS[0]!,
+      governance: DEFAULT_GOVERNANCE_PRESETS[0] as any,
       policies,
       events: eventConfig,
       stressors: stressorSchedule,

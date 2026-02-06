@@ -466,7 +466,7 @@ router.get('/:id/export-pdf', async (req: Request, res: Response, next: NextFunc
         algorithm: 'RSA-SHA256' as const,
         keyId: 'default',
         signature: (packetRecord.signature as any)?.signature || '',
-      } : undefined,
+      } as any : undefined,
     });
 
     res.setHeader('Content-Type', 'application/pdf');

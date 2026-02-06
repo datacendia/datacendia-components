@@ -928,7 +928,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
       { title: 'First Checkpoint Review', description: 'Initial progress assessment and course correction', type: 'pivot' as const, impact: 'neutral' as const },
     ];
 
-    const biasEvents: Record<string, typeof baseEvents> = {
+    const biasEvents: Record<string, Array<{ title: string; description: string; type: TimelineEvent['type']; impact: TimelineEvent['impact'] }>> = {
       aggressive: [
         { title: 'Rapid Scaling Initiated', description: 'Aggressive expansion begins', type: 'milestone', impact: 'positive' },
         { title: 'Competitor Response Detected', description: 'Market players react to your move', type: 'external', impact: 'negative' },

@@ -225,7 +225,7 @@ export class RegulatoryAbsorbV2Service extends BaseService {
     // PDF parsing (requires pdf-parse package)
     if (document.mimeType === 'application/pdf') {
       try {
-        const pdfParse = await import('pdf-parse').then(m => m.default).catch(() => null);
+        const pdfParse = await import('pdf-parse').then((m: any) => m.default).catch(() => null);
         if (pdfParse) {
           const buffer = Buffer.from(content, 'base64');
           const data = await pdfParse(buffer);
@@ -494,7 +494,7 @@ Respond with a JSON array of requirements:`;
       const parsed = JSON.parse(data.response);
       return Array.isArray(parsed) ? parsed : parsed.requirements || [];
     } catch (error) {
-      this.logger.error('LLM extraction failed:', error);
+      this.logger.error('LLM extraction failed:', error as any);
       return [];
     }
   }
@@ -539,11 +539,11 @@ Respond with a JSON array of conflicts (empty array if none):`;
 
       if (!response.ok) return [];
 
-      const data = await response.json() as { response: string };
+      const data: any = await response.json();
       const parsed = JSON.parse(data.response);
       return Array.isArray(parsed) ? parsed : parsed.conflicts || [];
     } catch (error) {
-      this.logger.error('Conflict detection failed:', error);
+      this.logger.error('Conflict detection failed:', error as any);
       return [];
     }
   }
@@ -1111,7 +1111,7 @@ Respond with a JSON array of conflicts (empty array if none):`;
         action,
         actor_id: actorId,
         actor_type: actorType,
-        details,
+        details: details as any,
         previous_hash: previousEntry?.entry_hash,
         entry_hash: entryHash,
         created_at: timestamp,

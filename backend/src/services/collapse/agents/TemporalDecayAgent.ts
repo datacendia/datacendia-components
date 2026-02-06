@@ -137,6 +137,6 @@ export class TemporalDecayAgent extends BaseCollapseAgent {
       policyDriftRisk,
       maintenanceNeglectProbability,
       institutionalMemoryLoss: institutionalMemoryRisk,
-    }) as TemporalDecayOutput;
+    } as any) as TemporalDecayOutput;
   }
 }

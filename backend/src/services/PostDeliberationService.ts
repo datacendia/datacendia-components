@@ -545,7 +545,7 @@ export class PostDeliberationService extends BaseService {
     // Generate statement of facts
     const statementOfFacts = await statementOfFactsService.generateStatementOfFacts(
       deliberationId,
-      deliberation.agentResponses.map(r => ({
+      deliberation.agentResponses.map((r: any) => ({
         agentId: r.agentId,
         agentName: r.agentName,
         agentRole: r.agentRole,

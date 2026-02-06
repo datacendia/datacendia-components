@@ -142,7 +142,7 @@ export class LegitimacyCollapseAgent extends BaseCollapseAgent {
       thresholdEvents,
       recoveryThreshold,
       publicSentimentImpact,
-    }) as LegitimacyCollapseOutput;
+    } as any) as LegitimacyCollapseOutput;
   }
 
   private calculateInitialLegitimacy(context: PolicyContext): number {

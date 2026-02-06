@@ -790,15 +790,15 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
     
     // Get deliberation counts by mode
     const deliberations = await prisma.deliberations.groupBy({
-      by: ['council_mode'],
+      by: ['mode'],
       _count: { id: true },
-      _avg: { confidence_score: true },
+      _avg: { confidence: true },
     }).catch(() => []);
 
     // Get total counts
     const totalDeliberations = await prisma.deliberations.count().catch(() => 0);
     const completedDeliberations = await prisma.deliberations.count({
-      where: { status: 'completed' },
+      where: { status: 'COMPLETED' },
     }).catch(() => 0);
 
     // Get recent activity
@@ -808,8 +808,8 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
       select: {
         id: true,
         question: true,
-        council_mode: true,
-        confidence_score: true,
+        mode: true,
+        confidence: true,
         created_at: true,
         status: true,
       },
@@ -818,10 +818,10 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
     // Build mode analytics
     const byMode: Record<string, { count: number; avgConfidence: number; avgTime: string }> = {};
     for (const d of deliberations) {
-      if (d.council_mode) {
-        byMode[d.council_mode] = {
+      if (d.mode) {
+        byMode[d.mode] = {
           count: d._count.id,
-          avgConfidence: Math.round(d._avg.confidence_score || 75),
+          avgConfidence: Math.round(d._avg.confidence || 75),
           avgTime: '2.3m', // Would calculate from actual data
         };
       }
@@ -849,10 +849,10 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
           avgConfidence: 87,
         },
         byMode,
-        recentActivity: recentActivity.length > 0 ? recentActivity.map(a => ({
-          mode: a.council_mode || 'executive',
+        recentActivity: recentActivity.length > 0 ? recentActivity.map((a: any) => ({
+          mode: a.mode || 'executive',
           question: a.question,
-          confidence: a.confidence_score,
+          confidence: a.confidence,
           timestamp: a.created_at,
         })) : [
           { mode: 'executive', question: 'Q4 budget allocation review', confidence: 92, timestamp: new Date() },

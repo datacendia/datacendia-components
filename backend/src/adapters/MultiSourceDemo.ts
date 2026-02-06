@@ -66,7 +66,7 @@ export class MultiSourceManager extends EventEmitter {
         
         const response = await fetch(`${baseUrl}${endpoint}`, { headers });
         if (!response.ok) throw new Error(`API error: ${response.status}`);
-        return response.json();
+        return response.json() as Promise<T[]>;
       },
       disconnect: async () => {}
     };

@@ -300,7 +300,7 @@ class LegalResearchService extends EventEmitter {
         throw new Error(`eCFR API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data: any = await response.json();
       const results: LegalSearchResult[] = (data.results || []).map((r: CFRSearchResult) => ({
         source: 'ecfr',
         type: 'regulation' as const,
@@ -360,7 +360,7 @@ class LegalResearchService extends EventEmitter {
         throw new Error(`Open States API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data: any = await response.json();
       const results: LegalSearchResult[] = (data.results || []).map((b: {
         id: string;
         identifier: string;
@@ -432,7 +432,7 @@ class LegalResearchService extends EventEmitter {
         throw new Error(`Federal Register API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data: any = await response.json();
       const results: LegalSearchResult[] = (data.results || []).map((d: FederalRegisterDoc) => ({
         source: 'federal-register',
         type: 'rule' as const,
@@ -485,7 +485,7 @@ class LegalResearchService extends EventEmitter {
         throw new Error(`SEC EDGAR API error: ${response.status}`);
       }
 
-      const data = await response.json();
+      const data: any = await response.json();
       const recent = data.filings?.recent;
       if (!recent) return [];
 

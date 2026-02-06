@@ -569,7 +569,7 @@ class EnterpriseSchedulerService extends EventEmitter {
     logger.info(`[Scheduler] Running scheduled security assessment for org: ${job.organizationId}`);
     
     const testSuites = (job.config['testSuites'] as string[]) || ['owasp', 'ai_adversarial'];
-    const result = await enterpriseRedTeamService.runFullAssessment(job.organizationId, testSuites);
+    const result: any = await enterpriseRedTeamService.runFullAssessment(job.organizationId, testSuites as any);
     
     return {
       report_id: result.id,
@@ -585,7 +585,7 @@ class EnterpriseSchedulerService extends EventEmitter {
     
     logger.info(`[Scheduler] Running SBOM scan for org: ${job.organizationId}`);
     
-    const result = await sbomService.generateSBOM(job.organizationId);
+    const result: any = await sbomService.generateSBOM(job.organizationId);
     
     return {
       sbom_id: result.id,
@@ -617,7 +617,7 @@ class EnterpriseSchedulerService extends EventEmitter {
     
     logger.info(`[Scheduler] Running dissent deadline enforcement for org: ${job.organizationId}`);
     
-    const result = await dissentService.enforceDeadlines(job.organizationId);
+    const result = await (dissentService as any).enforceDeadlines(job.organizationId);
     
     return {
       dissents_checked: result.checked,

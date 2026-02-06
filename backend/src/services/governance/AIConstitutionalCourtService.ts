@@ -274,7 +274,7 @@ export class AIConstitutionalCourtService {
 
     // Persist to database
     try {
-      await prisma.constitutional_disputes.create({
+      await (prisma as any).constitutional_disputes.create({
         data: {
           id,
           case_number: caseNumber,
@@ -359,7 +359,7 @@ export class AIConstitutionalCourtService {
     dispute.hearingAt = hearingDate;
 
     try {
-      await prisma.constitutional_disputes.update({
+      await (prisma as any).constitutional_disputes.update({
         where: { id: disputeId },
         data: {
           status: 'hearing_scheduled',
@@ -466,7 +466,7 @@ export class AIConstitutionalCourtService {
       .digest('hex');
 
     try {
-      await prisma.constitutional_disputes.update({
+      await (prisma as any).constitutional_disputes.update({
         where: { id: disputeId },
         data: {
           status: 'resolved',
@@ -476,7 +476,7 @@ export class AIConstitutionalCourtService {
       });
 
       // Store as precedent
-      await prisma.constitutional_precedents.create({
+      await (prisma as any).constitutional_precedents.create({
         data: {
           id: uuidv4(),
           case_number: dispute.caseNumber,

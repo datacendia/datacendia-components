@@ -395,7 +395,7 @@ export class SafetyFirstFramework {
   }
 
   getFailSafeDefault(decisionType: string): Record<string, unknown> {
-    return this.FAIL_SAFE_DEFAULTS[decisionType] || { approved: false };
+    return (this.FAIL_SAFE_DEFAULTS as any)[decisionType] || { approved: false };
   }
 
   enforceFailSafe(decisionType: string, outcome: Record<string, unknown>, safetyReview: SafetyReviewResult): Record<string, unknown> {

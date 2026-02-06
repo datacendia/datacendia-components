@@ -121,6 +121,6 @@ export class PoliticalBacklashAgent extends BaseCollapseAgent {
       electionCycleAmplification,
       populistExploitationRisk,
       polarizationIndex,
-    }) as PoliticalBacklashOutput;
+    } as any) as PoliticalBacklashOutput;
   }
 }

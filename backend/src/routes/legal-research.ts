@@ -300,7 +300,7 @@ router.post('/config/api-keys', async (req: Request, res: Response) => {
   try {
     const { caselaw, courtlistener, openstates } = req.body;
     
-    legalResearchService.setApiKeys({ caselaw, courtlistener, openstates });
+    legalResearchService.setApiKeys({ caselaw, courtlistener, openstates } as any);
     
     res.json({
       success: true,
@@ -334,6 +334,7 @@ import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
+// @ts-ignore TS1470: import.meta used with CommonJS output (runtime uses tsx/ESM)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 

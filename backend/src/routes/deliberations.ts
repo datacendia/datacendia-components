@@ -227,7 +227,7 @@ router.get('/:id/facts', async (req: Request, res: Response) => {
 
       const newStatement = await statementOfFactsService.generateStatementOfFacts(
         req.params.id,
-        deliberation.agentResponses.map(r => ({
+        deliberation.agentResponses.map((r: any) => ({
           agentId: r.agentId,
           agentName: r.agentName,
           agentRole: r.agentRole,

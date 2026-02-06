@@ -12,6 +12,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 // Load workflow scenarios from JSON file
+// @ts-ignore TS1470: import.meta used with CommonJS output (runtime uses tsx/ESM)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 let workflowScenarios: any[] = [];
@@ -367,7 +368,7 @@ router.get('/executions', async (req: Request, res: Response, next: NextFunction
       prisma.workflow_executions.findMany({
         where,
         include: {
-          workflows: { select: { name: true, type: true } },
+          workflows: { select: { name: true } },
         },
         orderBy: { created_at: 'desc' },
         skip: (Number(page) - 1) * Number(limit),

@@ -25,13 +25,15 @@ async function createAuditLog(data: { eventType: string; userId: string; details
       data: {
         id: crypto.randomUUID(),
         organization_id: 'system',
-        event_type: data.eventType,
+        action: data.eventType,
+        resource_type: 'mfa',
+        resource_id: data.userId,
         user_id: data.userId,
         details: JSON.stringify(data.details),
         ip_address: null,
         user_agent: null,
         created_at: new Date(),
-      },
+      } as any,
     });
   } catch (error) {
     logger.error('Failed to create audit log', error);

@@ -797,7 +797,7 @@ router.post('/seed', async (_req: Request, res: Response) => {
       try {
         await prisma.deliberations.upsert({
           where: { id: dlb.id },
-          update: dlb,
+          update: dlb as any,
           create: dlb as any
         });
         results.deliberations++;
@@ -809,7 +809,7 @@ router.post('/seed', async (_req: Request, res: Response) => {
     // Seed agent contributions
     for (const contrib of DEMO_AGENT_CONTRIBUTIONS) {
       try {
-        await prisma.agentContribution.create({
+        await (prisma as any).agentContribution.create({
           data: {
             ...contrib,
             id: `demo-contrib-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`
@@ -824,7 +824,7 @@ router.post('/seed', async (_req: Request, res: Response) => {
     // Seed dissents
     for (const dissent of DEMO_DISSENTS) {
       try {
-        await prisma.dissent.upsert({
+        await (prisma as any).dissents.upsert({
           where: { id: dissent.id },
           update: dissent,
           create: dissent as any
@@ -838,7 +838,7 @@ router.post('/seed', async (_req: Request, res: Response) => {
     // Seed decision events
     for (const event of DEMO_DECISION_EVENTS) {
       try {
-        await prisma.decisionEvent.upsert({
+        await (prisma as any).decisionEvent.upsert({
           where: { id: event.id },
           update: event,
           create: event as any
@@ -893,7 +893,7 @@ router.post('/seed/:scenario', async (req: Request, res: Response) => {
     for (const item of data) {
       try {
         if (scenario === 'chronos') {
-          await prisma.decisionEvent.upsert({
+          await (prisma as any).decisionEvent.upsert({
             where: { id: item.id },
             update: item,
             create: item as any
@@ -950,7 +950,7 @@ router.delete('/clear', async (req: Request, res: Response) => {
 
     // Clear demo contributions
     try {
-      const contribResult = await prisma.agentContribution.deleteMany({
+      const contribResult = await (prisma as any).agentContribution.deleteMany({
         where: { deliberationId: { startsWith: 'demo-' } }
       });
       results.contributions = contribResult.count;
@@ -960,7 +960,7 @@ router.delete('/clear', async (req: Request, res: Response) => {
 
     // Clear demo dissents
     try {
-      const dissentResult = await prisma.dissent.deleteMany({
+      const dissentResult = await (prisma as any).dissents.deleteMany({
         where: { id: { startsWith: 'demo-' } }
       });
       results.dissents = dissentResult.count;
@@ -970,7 +970,7 @@ router.delete('/clear', async (req: Request, res: Response) => {
 
     // Clear demo events
     try {
-      const eventResult = await prisma.decisionEvent.deleteMany({
+      const eventResult = await (prisma as any).decisionEvent.deleteMany({
         where: { id: { startsWith: 'demo-' } }
       });
       results.events = eventResult.count;
@@ -1013,19 +1013,19 @@ router.get('/status', async (req: Request, res: Response) => {
     } catch (e) {}
 
     try {
-      status.contributions = await prisma.agentContribution.count({
+      status.contributions = await (prisma as any).agentContribution.count({
         where: { deliberationId: { startsWith: 'demo-' } }
       });
     } catch (e) {}
 
     try {
-      status.dissents = await prisma.dissent.count({
+      status.dissents = await (prisma as any).dissents.count({
         where: { id: { startsWith: 'demo-' } }
       });
     } catch (e) {}
 
     try {
-      status.events = await prisma.decisionEvent.count({
+      status.events = await (prisma as any).decisionEvent.count({
         where: { id: { startsWith: 'demo-' } }
       });
     } catch (e) {}

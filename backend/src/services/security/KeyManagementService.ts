@@ -165,7 +165,7 @@ export class KeyManagementService {
         throw new Error(`Vault health check failed: ${response.status}`);
       }
 
-      const health = await response.json();
+      const health: any = await response.json();
       logger.info(`HashiCorp Vault connected - sealed: ${health.sealed}, version: ${health.version}`);
 
       // Ensure transit engine is enabled and key exists
@@ -353,7 +353,7 @@ export class KeyManagementService {
         throw new Error(`Vault signing failed: ${response.status} - ${error}`);
       }
 
-      const result = await response.json();
+      const result: any = await response.json();
       const signature = result.data.signature;
 
       // Vault returns signature in format: vault:v1:base64signature
@@ -454,7 +454,7 @@ export class KeyManagementService {
         return false;
       }
 
-      const result = await response.json();
+      const result: any = await response.json();
       return result.data.valid === true;
     } catch (error) {
       logger.error('Vault verification failed:', error);
@@ -525,7 +525,7 @@ export class KeyManagementService {
         throw new Error(`Vault encryption failed: ${response.status}`);
       }
 
-      const result = await response.json();
+      const result: any = await response.json();
 
       return {
         ciphertext: result.data.ciphertext,
@@ -629,7 +629,7 @@ export class KeyManagementService {
         throw new Error(`Vault decryption failed: ${response.status}`);
       }
 
-      const result = await response.json();
+      const result: any = await response.json();
 
       return {
         plaintext: Buffer.from(result.data.plaintext, 'base64'),
@@ -850,7 +850,7 @@ export class KeyManagementService {
         throw new Error(`Failed to get Vault key: ${response.status}`);
       }
 
-      const result = await response.json();
+      const result: any = await response.json();
       const keyData = result.data;
 
       return {

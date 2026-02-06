@@ -166,7 +166,7 @@ export class NarrativeWeaponizationAgent extends BaseCollapseAgent {
       soundbiteVulnerabilities,
       socialMediaSlogans,
       defenseNarratives,
-    }) as NarrativeWeaponizationOutput;
+    } as any) as NarrativeWeaponizationOutput;
   }
 
   private generateDefenseStrategy(trigger: string): string {

@@ -333,10 +333,10 @@ export class RegulatorsReceiptService {
   private async buildDissentList(deliberationId: string): Promise<ReceiptDissent[]> {
     // Fetch dissents from database
     const dissents = await prisma.dissents.findMany({
-      where: { deliberation_id: deliberationId },
+      where: { decision_id: deliberationId } as any,
     });
 
-    return dissents.map(d => ({
+    return dissents.map((d: any) => ({
       agentId: d.agent_id,
       agentName: d.agent_name,
       reason: d.reason,

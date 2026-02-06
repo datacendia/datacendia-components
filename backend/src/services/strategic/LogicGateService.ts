@@ -279,7 +279,7 @@ class LogicGateService {
       type: 'agent' as const,
       handler: async () => {
         // Import ollama dynamically to avoid circular deps
-        const ollama = (await import('../ollama.js')).default;
+        const ollama: any = (await import('../ollama.js')).default;
         return ollama.generate(at.prompt, { model: at.model || 'qwen2.5:7b' });
       },
       priority: agentTasks.length - index,
@@ -352,7 +352,7 @@ Output JSON:
     const unionResult = execution.results.get([...execution.results.keys()][1]);
 
     // Synthesize results
-    const ollama = (await import('../ollama.js')).default;
+    const ollama: any = (await import('../ollama.js')).default;
     const synthesis = await ollama.generate(`
 Synthesize these parallel Red Team and Union analyses:
 

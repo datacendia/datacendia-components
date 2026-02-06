@@ -126,7 +126,7 @@ export class OAuth2Service {
       throw new Error(`OAuth2 token exchange failed: ${error}`);
     }
 
-    const data = await response.json();
+    const data: any = await response.json();
     const token: OAuth2Token = {
       accessToken: data.access_token,
       refreshToken: data.refresh_token,
@@ -172,7 +172,7 @@ export class OAuth2Service {
       throw new Error(`OAuth2 token refresh failed: ${error}`);
     }
 
-    const data = await response.json();
+    const data: any = await response.json();
     const token: OAuth2Token = {
       accessToken: data.access_token,
       refreshToken: data.refresh_token || currentToken.refreshToken,
@@ -242,7 +242,7 @@ export class OAuth2Service {
         if (!retryResponse.ok) {
           throw new Error(`API request failed: ${retryResponse.status}`);
         }
-        return retryResponse.json();
+        return retryResponse.json() as Promise<T>;
       } catch {
         throw new Error('Authentication failed - re-authorization required');
       }
@@ -253,7 +253,7 @@ export class OAuth2Service {
       throw new Error(`API request failed: ${response.status} - ${error}`);
     }
 
-    return response.json();
+    return response.json() as Promise<T>;
   }
 
   /**

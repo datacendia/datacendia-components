@@ -188,10 +188,10 @@ class SynthesisEngineService {
     );
 
     // Phase 3: Generate execution plan if consensus reached
-    if (synthesis.synthesis.consensusLevel > 0.6) {
+    if (synthesis.synthesis && synthesis.synthesis.consensusLevel > 0.6) {
       synthesis.executionPlan = await this.generateExecutionPlan(
         request.question,
-        synthesis.synthesis
+        synthesis.synthesis!
       );
     }
 
@@ -202,7 +202,7 @@ class SynthesisEngineService {
     synthesis.auditTrail.push({
       timestamp: new Date(),
       event: 'SYNTHESIS_COMPLETED',
-      details: `Synthesis completed in ${synthesis.durationMs}ms with ${Math.round(synthesis.synthesis.consensusLevel * 100)}% consensus`
+      details: `Synthesis completed in ${synthesis.durationMs}ms with ${Math.round((synthesis.synthesis?.consensusLevel || 0) * 100)}% consensus`
     });
 
     // Persist to database
@@ -249,8 +249,8 @@ Provide your analysis in JSON format:
     try {
       const response = await ollama.generate(prompt, { 
         model: (agentConfig?.model_config as any)?.model || 'qwen2.5:7b',
-        temperature: mode === 'adversarial' ? 0.8 : 0.5
-      });
+        temperature: mode === 'adversarial' ? 0.8 : 0.5,
+      } as any);
 
       const parsed = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
@@ -507,7 +507,7 @@ Output JSON:
           action: `SYNTHESIS_${event.toUpperCase()}`,
           resource_type: 'synthesis',
           resource_id: synthesisId,
-          details
+          details: details as any
         }
       });
     } catch (error) {
@@ -530,10 +530,10 @@ Output JSON:
           context: {
             contributions: synthesis.contributions,
             auditTrail: synthesis.auditTrail
-          },
+          } as any,
           mode: 'synthesis',
           status: synthesis.status === 'completed' ? 'COMPLETED' : 'IN_PROGRESS',
-          decision: synthesis.synthesis,
+          decision: synthesis.synthesis as any,
           confidence: synthesis.synthesis?.confidence || 0,
           started_at: synthesis.startedAt,
           completed_at: synthesis.completedAt
