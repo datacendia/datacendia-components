@@ -4,7 +4,7 @@
  * Vertical-specific AI command interface client
  */
 
-import { apiClient } from '@/lib/api/client';
+import { api } from '@/lib/api/client';
 
 export type VerticalId = 
   | 'financial'
@@ -100,7 +100,7 @@ class CommandService {
    * Get all available verticals
    */
   async getVerticals(): Promise<VerticalSummary[]> {
-    const response = await apiClient.get<{ success: boolean; data: VerticalSummary[] }>(
+    const response = await api.get<any>(
       `${this.baseUrl}/verticals`
     );
     return response.data.data;
@@ -110,7 +110,7 @@ class CommandService {
    * Get vertical configuration
    */
   async getVerticalConfig(verticalId: VerticalId): Promise<VerticalConfig> {
-    const response = await apiClient.get<{ success: boolean; data: VerticalConfig }>(
+    const response = await api.get<any>(
       `${this.baseUrl}/verticals/${verticalId}`
     );
     return response.data.data;
@@ -121,7 +121,7 @@ class CommandService {
    */
   async getQuickActions(verticalId: VerticalId, category?: string): Promise<QuickAction[]> {
     const params = category ? `?category=${encodeURIComponent(category)}` : '';
-    const response = await apiClient.get<{ success: boolean; data: QuickAction[] }>(
+    const response = await api.get<any>(
       `${this.baseUrl}/verticals/${verticalId}/quick-actions${params}`
     );
     return response.data.data;
@@ -131,7 +131,7 @@ class CommandService {
    * Parse a command to understand intent
    */
   async parseCommand(command: string, context: CommandContext): Promise<{ command: string; intent: CommandIntent }> {
-    const response = await apiClient.post<{ success: boolean; data: { command: string; intent: CommandIntent } }>(
+    const response = await api.post<any>(
       `${this.baseUrl}/parse`,
       { command, context }
     );
@@ -142,7 +142,7 @@ class CommandService {
    * Execute a command
    */
   async executeCommand(command: string, context: CommandContext): Promise<CommandExecution> {
-    const response = await apiClient.post<{ success: boolean; data: CommandExecution }>(
+    const response = await api.post<any>(
       `${this.baseUrl}/execute`,
       { command, context }
     );
@@ -153,7 +153,7 @@ class CommandService {
    * Get command suggestions
    */
   async getSuggestions(partialCommand: string, context: CommandContext): Promise<CommandSuggestion[]> {
-    const response = await apiClient.post<{ success: boolean; data: CommandSuggestion[] }>(
+    const response = await api.post<any>(
       `${this.baseUrl}/suggest`,
       { partialCommand, context }
     );
@@ -165,7 +165,7 @@ class CommandService {
    */
   async getHistory(verticalId: VerticalId, limit?: number): Promise<CommandExecution[]> {
     const params = limit ? `?verticalId=${verticalId}&limit=${limit}` : `?verticalId=${verticalId}`;
-    const response = await apiClient.get<{ success: boolean; data: CommandExecution[] }>(
+    const response = await api.get<any>(
       `${this.baseUrl}/history${params}`
     );
     return response.data.data;
@@ -175,7 +175,7 @@ class CommandService {
    * Get specific execution
    */
   async getExecution(id: string): Promise<CommandExecution> {
-    const response = await apiClient.get<{ success: boolean; data: CommandExecution }>(
+    const response = await api.get<any>(
       `${this.baseUrl}/execution/${id}`
     );
     return response.data.data;
@@ -185,7 +185,7 @@ class CommandService {
    * Check service health
    */
   async checkHealth(): Promise<{ service: string; status: string; verticalCount: number }> {
-    const response = await apiClient.get<{ success: boolean; service: string; status: string; verticalCount: number }>(
+    const response = await api.get<any>(
       `${this.baseUrl}/health`
     );
     return {

@@ -133,7 +133,7 @@ export interface RegulatoryTimeline {
 // API Functions
 export const RegulatorySandboxService = {
   async getHealth() {
-    const response = await api.get('/api/v1/regulatory-sandbox/health');
+    const response = await api.get<any>('/api/v1/regulatory-sandbox/health');
     return response.data;
   },
 
@@ -145,17 +145,17 @@ export const RegulatorySandboxService = {
     if (filters?.jurisdiction) params.append('jurisdiction', filters.jurisdiction);
     if (filters?.status) params.append('status', filters.status);
     
-    const response = await api.get(`/api/v1/regulatory-sandbox/regulations?${params.toString()}`);
+    const response = await api.get<any>(`/api/v1/regulatory-sandbox/regulations?${params.toString()}`);
     return response.data.data;
   },
 
   async getRegulation(id: string): Promise<ProposedRegulation> {
-    const response = await api.get(`/api/v1/regulatory-sandbox/regulations/${id}`);
+    const response = await api.get<any>(`/api/v1/regulatory-sandbox/regulations/${id}`);
     return response.data.data;
   },
 
   async getTimeline(): Promise<RegulatoryTimeline> {
-    const response = await api.get('/api/v1/regulatory-sandbox/timeline');
+    const response = await api.get<any>('/api/v1/regulatory-sandbox/timeline');
     return response.data.data;
   },
 
@@ -168,22 +168,22 @@ export const RegulatorySandboxService = {
     workflowId?: string;
     systemDescription: string;
   }): Promise<SandboxTest> {
-    const response = await api.post('/api/v1/regulatory-sandbox/tests', params);
+    const response = await api.post<any>('/api/v1/regulatory-sandbox/tests', params);
     return response.data.data;
   },
 
   async runTest(testId: string): Promise<SandboxTestResult> {
-    const response = await api.post(`/api/v1/regulatory-sandbox/tests/${testId}/run`);
+    const response = await api.post<any>(`/api/v1/regulatory-sandbox/tests/${testId}/run`);
     return response.data.data;
   },
 
   async getTest(id: string): Promise<SandboxTest> {
-    const response = await api.get(`/api/v1/regulatory-sandbox/tests/${id}`);
+    const response = await api.get<any>(`/api/v1/regulatory-sandbox/tests/${id}`);
     return response.data.data;
   },
 
   async getAllTests(): Promise<SandboxTest[]> {
-    const response = await api.get('/api/v1/regulatory-sandbox/tests');
+    const response = await api.get<any>('/api/v1/regulatory-sandbox/tests');
     return response.data.data;
   },
 };

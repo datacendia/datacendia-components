@@ -59,7 +59,7 @@ class NotificationServiceClient {
     if (options.offset) params.append('offset', options.offset.toString());
     if (options.unread) params.append('unread', 'true');
 
-    const response = await api.get(`${this.baseUrl}?${params.toString()}`);
+    const response = await api.get<any>(`${this.baseUrl}?${params.toString()}`);
     return response.data || [];
   }
 
@@ -74,7 +74,7 @@ class NotificationServiceClient {
    * Get unread count
    */
   async getUnreadCount(): Promise<number> {
-    const response = await api.get(`${this.baseUrl}/unread-count`);
+    const response = await api.get<any>(`${this.baseUrl}/unread-count`);
     return response.data?.count || 0;
   }
 
@@ -98,7 +98,7 @@ class NotificationServiceClient {
    * Get notification preferences
    */
   async getPreferences(): Promise<NotificationPreferences> {
-    const response = await api.get(`${this.baseUrl}/preferences`);
+    const response = await api.get<any>(`${this.baseUrl}/preferences`);
     return response.data || {
       email: true,
       inApp: true,

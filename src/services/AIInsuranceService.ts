@@ -131,12 +131,12 @@ export interface CoverageCertificate {
 // API Functions
 export const AIInsuranceService = {
   async getHealth() {
-    const response = await api.get('/api/v1/ai-insurance/health');
+    const response = await api.get<any>('/api/v1/ai-insurance/health');
     return response.data;
   },
 
   async getCoverageTypes(): Promise<CoverageTypeInfo[]> {
-    const response = await api.get('/api/v1/ai-insurance/coverage-types');
+    const response = await api.get<any>('/api/v1/ai-insurance/coverage-types');
     return response.data.data;
   },
 
@@ -148,7 +148,7 @@ export const AIInsuranceService = {
     coveredSystems?: string[];
     termMonths?: number;
   }): Promise<InsuranceQuote> {
-    const response = await api.post('/api/v1/ai-insurance/quotes', params);
+    const response = await api.post<any>('/api/v1/ai-insurance/quotes', params);
     return response.data.data;
   },
 
@@ -158,17 +158,17 @@ export const AIInsuranceService = {
     coveredDecisionTypes: string[];
     createdBy: string;
   }): Promise<InsurancePolicy> {
-    const response = await api.post('/api/v1/ai-insurance/policies', params);
+    const response = await api.post<any>('/api/v1/ai-insurance/policies', params);
     return response.data.data;
   },
 
   async getPolicy(id: string): Promise<InsurancePolicy> {
-    const response = await api.get(`/api/v1/ai-insurance/policies/${id}`);
+    const response = await api.get<any>(`/api/v1/ai-insurance/policies/${id}`);
     return response.data.data;
   },
 
   async getPoliciesByOrganization(orgId: string): Promise<InsurancePolicy[]> {
-    const response = await api.get(`/api/v1/ai-insurance/policies/organization/${orgId}`);
+    const response = await api.get<any>(`/api/v1/ai-insurance/policies/organization/${orgId}`);
     return response.data.data;
   },
 
@@ -180,12 +180,12 @@ export const AIInsuranceService = {
     decisionValue: number;
     riskFactors?: RiskFactor[];
   }): Promise<DecisionCoverage> {
-    const response = await api.post('/api/v1/ai-insurance/cover-decision', params);
+    const response = await api.post<any>('/api/v1/ai-insurance/cover-decision', params);
     return response.data.data;
   },
 
   async getCoverageByDecision(decisionId: string): Promise<DecisionCoverage> {
-    const response = await api.get(`/api/v1/ai-insurance/coverage/decision/${decisionId}`);
+    const response = await api.get<any>(`/api/v1/ai-insurance/coverage/decision/${decisionId}`);
     return response.data.data;
   },
 
@@ -198,7 +198,7 @@ export const AIInsuranceService = {
     claimType: string;
     supportingDocuments?: string[];
   }): Promise<Claim> {
-    const response = await api.post('/api/v1/ai-insurance/claims', {
+    const response = await api.post<any>('/api/v1/ai-insurance/claims', {
       ...params,
       incidentDate: params.incidentDate.toISOString(),
     });
@@ -206,7 +206,7 @@ export const AIInsuranceService = {
   },
 
   async verifyCertificate(id: string): Promise<{ valid: boolean; certificate?: CoverageCertificate; reason?: string }> {
-    const response = await api.get(`/api/v1/ai-insurance/certificates/${id}/verify`);
+    const response = await api.get<any>(`/api/v1/ai-insurance/certificates/${id}/verify`);
     return response.data.data;
   },
 };

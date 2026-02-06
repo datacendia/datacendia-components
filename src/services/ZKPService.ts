@@ -87,12 +87,12 @@ export interface ComplianceCertificate {
 // API Functions
 export const ZKPService = {
   async getHealth() {
-    const response = await api.get('/api/v1/zkp/health');
+    const response = await api.get<any>('/api/v1/zkp/health');
     return response.data;
   },
 
   async getProofTypes(): Promise<ProofTypeInfo[]> {
-    const response = await api.get('/api/v1/zkp/proof-types');
+    const response = await api.get<any>('/api/v1/zkp/proof-types');
     return response.data.data;
   },
 
@@ -107,36 +107,36 @@ export const ZKPService = {
     privateWitness: Record<string, unknown>;
     requestedBy: string;
   }): Promise<ZKProofRequest> {
-    const response = await api.post('/api/v1/zkp/request', params);
+    const response = await api.post<any>('/api/v1/zkp/request', params);
     return response.data.data;
   },
 
   async generateProof(requestId: string): Promise<ZKProof> {
-    const response = await api.post(`/api/v1/zkp/generate/${requestId}`);
+    const response = await api.post<any>(`/api/v1/zkp/generate/${requestId}`);
     return response.data.data;
   },
 
   async verifyProof(proofId: string, verifiedBy: string): Promise<ProofVerificationResult> {
-    const response = await api.post(`/api/v1/zkp/verify/${proofId}`, { verifiedBy });
+    const response = await api.post<any>(`/api/v1/zkp/verify/${proofId}`, { verifiedBy });
     return response.data.data;
   },
 
   async getProof(id: string): Promise<ZKProof> {
-    const response = await api.get(`/api/v1/zkp/proofs/${id}`);
+    const response = await api.get<any>(`/api/v1/zkp/proofs/${id}`);
     return response.data.data;
   },
 
   async getProofsByOrganization(orgId: string): Promise<ZKProof[]> {
-    const response = await api.get(`/api/v1/zkp/proofs/organization/${orgId}`);
+    const response = await api.get<any>(`/api/v1/zkp/proofs/organization/${orgId}`);
     return response.data.data;
   },
 
   async revokeProof(proofId: string, reason: string): Promise<void> {
-    await api.post(`/api/v1/zkp/revoke/${proofId}`, { reason });
+    await api.post<any>(`/api/v1/zkp/revoke/${proofId}`, { reason });
   },
 
   async getCertificate(id: string): Promise<ComplianceCertificate> {
-    const response = await api.get(`/api/v1/zkp/certificates/${id}`);
+    const response = await api.get<any>(`/api/v1/zkp/certificates/${id}`);
     return response.data.data;
   },
 };
