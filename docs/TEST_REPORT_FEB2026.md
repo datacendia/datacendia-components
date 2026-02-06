@@ -2,7 +2,7 @@
 
 **Generated:** February 4, 2026  
 **Platform Version:** Enterprise Platinum v4.5  
-**Test Framework:** Vitest 2.x
+**Test Framework:** Vitest 4.x
 
 ---
 

@@ -158,7 +158,7 @@ docker build -t datacendia/backend:latest ./backend
 docker compose -f docker-compose.production.yml up -d
 ```
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 
 ### Air-Gapped / On-Premise Deployment
 
@@ -187,7 +187,7 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | Document | Description |
 |----------|-------------|
 | [Quick Reference](docs/QUICK_REFERENCE.md) | Copy-paste commands cheat sheet |
-| [Deployment Guide](DEPLOYMENT.md) | Standard deployment instructions |
+| [Deployment Guide](docs/DEPLOYMENT.md) | Standard deployment instructions |
 | [Docker Guide](docs/DOCKER.md) | Complete Docker configuration reference |
 | [Air-Gapped Deployment](docs/AIRGAPPED_DEPLOYMENT.md) | Offline/on-premise deployment |
 
@@ -197,9 +197,9 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 |----------|-------------|
 | [Enterprise Readiness](docs/ENTERPRISE_READINESS.md) | Production audit & compliance |
 | [Technical Stack](docs/TECH_STACK.md) | Technology choices and architecture |
-| [API Reference](docs/API_REFERENCE.md) | Backend API documentation |
+| [API Reference](docs/API_DOCUMENTATION.md) | Backend API documentation |
 | [Security Audit](docs/SECURITY-AUDIT.md) | Security review and compliance |
-| [Product Bible](docs/DATACENDIA_PRODUCT_BIBLE.md) | Product vision and features |
+| [Product Bible](docs/DATACENDIA_BIBLE.md) | Product vision and features |
 | [Test Report](docs/TEST-REPORT.md) | Test coverage and results |
 
 ## 🔐 Environment Variables

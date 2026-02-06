@@ -31,7 +31,7 @@ docs/
 ├── DATACENDIA_BIBLE.md           # Master product reference
 ├── SERVICE_CATALOG.md            # Complete service catalog
 ├── PRODUCTION_READINESS.md       # Production deployment guide
-├── VERTICAL_AI_AGENTS.md         # 48+ industry AI agents
+├── VERTICAL_AI_AGENTS.md         # 99 industry AI agents across 17 verticals
 ├── WORKFLOWS.md                  # User workflow documentation
 └── ...more docs
 ```
@@ -50,7 +50,7 @@ The `/sales` folder contains all materials for enterprise sales teams:
 
 The `/council` folder contains documentation for the AI Council modes:
 
-- **Cheat Sheet**: Quick reference for all 12 council modes
+- **Cheat Sheet**: Quick reference for all 89 council modes
 - **Demo Guide**: How to demonstrate council capabilities
 - **Marketing**: Positioning and messaging for council features
 

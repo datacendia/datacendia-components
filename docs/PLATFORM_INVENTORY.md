@@ -41,12 +41,12 @@
 
 | Package | Version | Purpose | Status |
 |---------|---------|---------|--------|
-| **Vite** | 5.0.0 | Build tool & dev server | ✅ Production |
+| **Vite** | 7.2.7 | Build tool & dev server | ✅ Production |
 | **TypeScript** | 5.2.2 | Type safety | ✅ Production |
 | **TailwindCSS** | 3.3.5 | Utility-first CSS framework | ✅ Production |
 | **PostCSS** | 8.4.31 | CSS processing | ✅ Production |
 | **Autoprefixer** | 10.4.16 | CSS vendor prefixes | ✅ Production |
-| **Playwright** | 1.57.0 | E2E testing framework | ✅ Production |
+| **Playwright** | 1.58.0 | E2E testing framework | ✅ Production |
 
 ---
 

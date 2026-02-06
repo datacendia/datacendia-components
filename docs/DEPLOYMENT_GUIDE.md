@@ -25,7 +25,7 @@ npm run start:dev  # Starts Docker, backend, and frontend
 ### Demo Environment
 ```bash
 git checkout demo
-cp .env.demo backend/.env
+cp .env.example backend/.env  # Then configure for demo mode
 npm run start:dev
 ```
 - **Login required**
@@ -38,7 +38,7 @@ npm run start:dev
 
 ### Prerequisites
 - Docker Desktop running
-- Node.js 18+
+- Node.js 20+
 - PostgreSQL seeded with demo data
 
 ### Configuration
@@ -49,7 +49,7 @@ npm run start:dev
 
 2. Copy environment config:
    ```bash
-   cp .env.demo backend/.env
+   cp .env.example backend/.env  # Then configure for demo mode
    ```
 
 3. Start services:
@@ -92,7 +92,7 @@ npm run start:dev
    openssl rand -base64 64  # Use for JWT_REFRESH_SECRET
    ```
 
-3. Update `.env.pilot` with client credentials:
+3. Create a `.env` file with client credentials (using `.env.example` as a template):
    ```env
    DATABASE_URL=postgresql://client_user:password@client-db:5432/datacendia
    PILOT_ORGANIZATION_ID=<client-org-id>
@@ -102,7 +102,7 @@ npm run start:dev
 
 4. Copy to backend:
    ```bash
-   cp .env.pilot backend/.env
+   cp .env backend/.env
    ```
 
 5. Run database migrations:
@@ -178,8 +178,9 @@ npm run start:dev
 git checkout production
 cp .env.production .env
 
-# Generate secrets
-./scripts/generate-secrets.sh
+# Generate secrets (replace values in .env)
+openssl rand -base64 64  # Use for JWT_SECRET
+openssl rand -base64 64  # Use for JWT_REFRESH_SECRET
 
 # Start sovereign stack
 docker compose -f infrastructure/docker-compose.sovereign.yml up -d

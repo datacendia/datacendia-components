@@ -533,6 +533,6 @@ docker run --rm -v datacendia_postgres_data:/data -v $(pwd):/backup alpine tar c
 
 ## Related Documentation
 
-- [DEPLOYMENT.md](../DEPLOYMENT.md) - General deployment guide
+- [DEPLOYMENT.md](./DEPLOYMENT.md) - General deployment guide
 - [AIRGAPPED_DEPLOYMENT.md](AIRGAPPED_DEPLOYMENT.md) - Offline deployment
 - [SECURITY-AUDIT.md](SECURITY-AUDIT.md) - Security review

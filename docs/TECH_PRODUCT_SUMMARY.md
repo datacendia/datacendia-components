@@ -213,7 +213,7 @@ React Router 6.20+   - Navigation
 Lucide React         - Icons
 Socket.IO Client     - Real-time
 Cytoscape.js         - Graph Visualization
-Vite 5.0+            - Build Tool
+Vite 7.0+            - Build Tool
 ```
 
 ### Backend
@@ -222,7 +222,7 @@ Node.js 20+          - Runtime
 Express 4.18+        - Web Framework
 TypeScript 5.2+      - Type Safety
 Prisma 5.0+          - ORM
-Socket.IO 4.6+       - WebSocket
+Socket.IO 4.8+       - WebSocket
 JWT                  - Authentication
 Helmet               - Security Headers
 ```
@@ -350,7 +350,7 @@ tests/integration/full-platform.test.ts
 
 ### Documentation
 ```
-docs/DATACENDIA_PRODUCT_BIBLE.md    - Complete product reference
+docs/DATACENDIA_BIBLE.md             - Complete product reference
 docs/TECH_PRODUCT_SUMMARY.md        - This file
 ```
 

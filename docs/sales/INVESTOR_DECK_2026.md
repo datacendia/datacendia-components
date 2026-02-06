@@ -119,7 +119,7 @@ Every year, US businesses lose **$3.1 trillion** to poor decision-making.
 ### Moats
 1. **Multi-agent architecture** - Not single-model chat
 2. **Decision audit trails** - Compliance-ready
-3. **Vertical agents** - 48+ industry-specific AI experts
+3. **Vertical agents** - 99 industry-specific AI experts across 17 verticals
 4. **Sovereign deployment** - Air-gapped for defense/gov
 
 ---

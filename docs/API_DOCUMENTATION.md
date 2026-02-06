@@ -344,7 +344,7 @@ socket.on('deliberation-complete', (summary) => {
 
 For complete API documentation with all endpoints, request/response schemas, and examples:
 
-**Swagger UI:** http://localhost:3001/api/docs (when backend is running)
+**Swagger UI:** http://localhost:3001/api-docs (when backend is running)
 
 ---
 

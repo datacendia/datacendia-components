@@ -200,5 +200,5 @@ These are NOT production code bugs - they require:
 ---
 
 *Report Updated: January 9, 2026 @ 21:48 EST*
-*Test Framework: Vitest 1.x*
+*Test Framework: Vitest 4.x*
 *Coverage: 3452 tests passing (99.8%)*

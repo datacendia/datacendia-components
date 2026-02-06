@@ -149,7 +149,7 @@
 | **CendiaAutoHeal™** | $249/mo | Self-diagnosing AI debugging | All agents (monitoring) |
 | **CendiaPersonaForge™** | $249/mo | Create & manage AI personas | CAIO, Chief |
 | **CendiaSovereign™** | $399/mo | Data sovereignty & residency control | CDO, CISO |
-| **CendiaVerticalAgents™** | $499/mo | Industry-specific AI agents (48+ agents) | All Vertical |
+| **CendiaVerticalAgents™** | $499/mo | Industry-specific AI agents (99 agents across 17 verticals) | All Vertical |
 | **CendiaVideoSimulation™** | $299/mo | Human-like council video deliberations | All Council |
 | **CendiaPolicyEnforce™** | $349/mo | Real-time policy enforcement & veto | CISO, CLO, Risk |
 | **CendiaLoadOptimizer™** | $399/mo | Air-gapped scaling & resource management | CDO, CISO |

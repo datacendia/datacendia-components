@@ -44,6 +44,8 @@ cp backend/.env.example backend/.env
 
 # Start development infrastructure
 docker-compose -f docker-compose.dev.yml up -d
+# Or use the unified compose file:
+# docker-compose -f docker-compose.unified.yml --profile core up -d
 
 # Run database migrations
 cd backend && npx prisma migrate dev && cd ..
