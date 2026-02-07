@@ -18,6 +18,7 @@ import uploadRoutes from '../upload.js';
 import schemaRoutes from '../schema.js';
 import commandRoutes from '../command.js';
 import omnitranslateRoutes from '../omnitranslate.js';
+import envConfigRoutes from '../env-config.js';
 
 const router = Router();
 
@@ -36,5 +37,6 @@ router.use('/upload', uploadRoutes);
 router.use('/schema', schemaRoutes);
 router.use('/command', commandRoutes);
 router.use('/omnitranslate', omnitranslateRoutes);
+router.use('/admin/env-config', envConfigRoutes);
 
 export default router;

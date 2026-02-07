@@ -38,6 +38,7 @@ const AdminAIPage = lazy(() =>
 );
 const SovereignStackPage = lazy(() => import('../pages/admin/SovereignStackPage'));
 const MarketingCMSPage = lazy(() => import('../pages/admin/MarketingCMSPage'));
+const EnvironmentConfigPage = lazy(() => import('../pages/admin/EnvironmentConfigPage').then((m) => ({ default: m.default })));
 
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
@@ -67,6 +68,7 @@ export const adminRoutes: RouteObject[] = [
       { path: 'ai', element: w(AdminAIPage) },
       { path: 'sovereign-stack', element: w(SovereignStackPage) },
       { path: 'marketing', element: w(MarketingCMSPage) },
+      { path: 'env-config', element: w(EnvironmentConfigPage) },
     ],
   },
 ];

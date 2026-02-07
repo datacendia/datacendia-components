@@ -37,6 +37,7 @@ export const AdminLayout: React.FC = () => {
     { id: 'usage', label: 'Usage Analytics', icon: '📈', path: '/admin/usage' },
     { id: 'health', label: 'System Health', icon: '💓', path: '/admin/health' },
     { id: 'features', label: 'Feature Flags', icon: '🚩', path: '/admin/features' },
+    { id: 'env-config', label: 'Environment Config', icon: '⚙️', path: '/admin/env-config' },
   ];
 
   return (
