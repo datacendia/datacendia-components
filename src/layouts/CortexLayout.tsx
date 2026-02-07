@@ -24,6 +24,7 @@ import { useAuth } from '../contexts';
 import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from '../components/navigation';
 import { DemoModeToggle, DemoIndicatorBadge } from '../components/demo';
 import { NotificationBell } from '../components/notifications/NotificationBell';
+import { PlatformAssistant } from '../components/ai-assistant/PlatformAssistant';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -1493,6 +1494,9 @@ const CortexLayoutInner: React.FC = () => {
           </div>
         )}
       </div>
+
+      {/* AI Platform Assistant */}
+      <PlatformAssistant />
     </DataSourceProvider>
   );
 };
