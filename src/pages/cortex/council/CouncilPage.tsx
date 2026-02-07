@@ -1282,6 +1282,28 @@ export const CouncilPage: React.FC = () => {
   const [currentStreamingAgent, setCurrentStreamingAgent] = useState<string | null>(null);
   const [currentPhase, setCurrentPhase] = useState<string>('');
 
+  // WebSocket for real-time deliberation updates
+  const { socket, connected, on, emit } = useWebSocket();
+
+  // WebSocket: Join deliberation room when active
+  useEffect(() => {
+    if (connected && socket && streamingDecision) {
+      emit('join-deliberation', streamingDecision.id);
+      
+      on('deliberation-update', (update: any) => {
+        if (update.phase) {
+          setCurrentPhase(update.phase);
+        }
+        if (update.agentResponse) {
+          setStreamingDecision(prev => prev ? {
+            ...prev,
+            agentResponses: [...(prev.agentResponses || []), update.agentResponse]
+          } : null);
+        }
+      });
+    }
+  }, [connected, socket, streamingDecision, emit, on]);
+
   // C) Progressive disclosure - collapsible sections state
   const [expandedSections, setExpandedSections] = useState<Record<string, Record<string, boolean>>>(
     {}

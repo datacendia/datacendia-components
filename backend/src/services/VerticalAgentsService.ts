@@ -11,6 +11,9 @@
 // =============================================================================
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
+import { redis } from '../../config/redis.js';
+
+const CACHE_TTL = 3600; // 1 hour cache for agent definitions
 
 // =============================================================================
 // TYPES
@@ -863,8 +866,27 @@ export class VerticalAgentsService extends BaseService {
   }
 
   async getAgentsForVertical(verticalId: string): Promise<VerticalAgent[]> {
+    const cacheKey = `vertical-agents:${verticalId}`;
+    
+    try {
+      const cached = await redis.get(cacheKey);
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    } catch (err) {
+      // Redis unavailable, continue without cache
+    }
+    
     const config = VERTICAL_AGENTS[verticalId];
-    return config?.agents || [];
+    const agents = config?.agents || [];
+    
+    try {
+      await redis.setex(cacheKey, CACHE_TTL, JSON.stringify(agents));
+    } catch (err) {
+      // Redis unavailable, continue without caching
+    }
+    
+    return agents;
   }
 
   async getAgent(agentId: string): Promise<VerticalAgent | null> {
@@ -876,10 +898,29 @@ export class VerticalAgentsService extends BaseService {
   }
 
   async getAllAgents(): Promise<{ verticalId: string; agents: VerticalAgent[] }[]> {
-    return Object.entries(VERTICAL_AGENTS).map(([verticalId, config]) => ({
+    const cacheKey = 'vertical-agents:all';
+    
+    try {
+      const cached = await redis.get(cacheKey);
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    } catch (err) {
+      // Redis unavailable, continue without cache
+    }
+    
+    const result = Object.entries(VERTICAL_AGENTS).map(([verticalId, config]) => ({
       verticalId,
       agents: config.agents,
     }));
+    
+    try {
+      await redis.setex(cacheKey, CACHE_TTL, JSON.stringify(result));
+    } catch (err) {
+      // Redis unavailable, continue without caching
+    }
+    
+    return result;
   }
 
   async searchAgents(query: string): Promise<VerticalAgent[]> {

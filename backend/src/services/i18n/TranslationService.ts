@@ -15,6 +15,8 @@ import ollamaService from '../ollama.js';
 import { logger } from '../../utils/logger.js';
 import { redis } from '../../config/redis.js';
 
+const CACHE_TTL = 3600; // 1 hour cache for translations
+
 // =============================================================================
 // SUPPORTED LANGUAGES (24 Languages)
 // =============================================================================
