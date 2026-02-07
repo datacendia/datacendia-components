@@ -101,6 +101,18 @@ const ZKPPage = lazy(() =>
 const AIInsurancePage = lazy(() =>
   import('../../pages/cortex/enterprise/AIInsurancePage').then((m) => ({ default: m.default }))
 );
+const PostQuantumKMSPage = lazy(() =>
+  import('../../pages/cortex/enterprise/PostQuantumKMSPage').then((m) => ({ default: m.default }))
+);
+const CarbonAwareSchedulerPage = lazy(() =>
+  import('../../pages/cortex/enterprise/CarbonAwareSchedulerPage').then((m) => ({ default: m.default }))
+);
+const CrossJurisdictionPage = lazy(() =>
+  import('../../pages/cortex/compliance/CrossJurisdictionPage').then((m) => ({ default: m.default }))
+);
+const ContinuousComplianceMonitorPage = lazy(() =>
+  import('../../pages/cortex/compliance/ContinuousComplianceMonitorPage').then((m) => ({ default: m.default }))
+);
 
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
@@ -135,6 +147,8 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'enterprise/adversarial-redteam', element: w(AdversarialRedTeamPage) },
   { path: 'enterprise/command', element: w(CommandPage) },
   { path: 'enterprise/ai-insurance', element: w(AIInsurancePage) },
+  { path: 'enterprise/post-quantum-kms', element: w(PostQuantumKMSPage) },
+  { path: 'enterprise/carbon-aware', element: w(CarbonAwareSchedulerPage) },
 
   // Governance
   { path: 'governance', element: <Navigate to="/cortex/governance/decision-packets" replace /> },
@@ -144,6 +158,8 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   // Compliance
   { path: 'compliance/regulators-receipt', element: w(RegulatorsReceiptGeneratorPage) },
   { path: 'compliance/regulatory-sandbox', element: w(RegulatorySandboxPage) },
+  { path: 'compliance/cross-jurisdiction', element: w(CrossJurisdictionPage) },
+  { path: 'compliance/continuous-monitor', element: w(ContinuousComplianceMonitorPage) },
 
   // Security (enterprise-related)
   { path: 'security/zkp', element: w(ZKPPage) },

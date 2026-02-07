@@ -386,6 +386,38 @@ const trustLayerFeatures = [
     description: 'Direct liability coverage per AI decision with real-time risk scoring',
     merged: ['Policy Management', 'Decision Coverage', 'Claims'],
   },
+  {
+    id: 'post-quantum-kms',
+    label: 'Post-Quantum KMS',
+    icon: '🔮',
+    path: '/cortex/enterprise/post-quantum-kms',
+    description: 'Quantum-resistant cryptographic signatures (Dilithium, SPHINCS+, Falcon)',
+    merged: ['Key Generation', 'Signing', 'Verification', 'Key Rotation'],
+  },
+  {
+    id: 'carbon-aware',
+    label: 'Carbon-Aware Scheduler',
+    icon: '🌱',
+    path: '/cortex/enterprise/carbon-aware',
+    description: 'Reduce AI carbon footprint with intelligent workload scheduling',
+    merged: ['Carbon Intensity', 'Workload Scheduling', 'ESG Reporting'],
+  },
+  {
+    id: 'cross-jurisdiction',
+    label: 'Cross-Jurisdiction',
+    icon: '🌍',
+    path: '/cortex/compliance/cross-jurisdiction',
+    description: '17-jurisdiction compliance engine for cross-border data transfers',
+    merged: ['Transfer Assessment', 'Conflict Detection', 'Data Residency'],
+  },
+  {
+    id: 'continuous-compliance',
+    label: 'Continuous Compliance',
+    icon: '📊',
+    path: '/cortex/compliance/continuous-monitor',
+    description: 'Real-time monitoring for 10 compliance frameworks',
+    merged: ['EU AI Act', 'GDPR', 'HIPAA', 'SOC 2', 'ISO 27001', 'NIST AI RMF'],
+  },
 ];
 
 // =============================================================================
