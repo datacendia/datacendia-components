@@ -1,0 +1,143 @@
+{
+  "dashboard": {
+    "title": "Datacendia Platform Overview",
+    "tags": ["datacendia", "platform", "overview"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "API Request Rate",
+        "type": "graph",
+        "gridPos": { "x": 0, "y": 0, "w": 12, "h": 8 },
+        "targets": [
+          {
+            "expr": "rate(http_requests_total[5m])",
+            "legendFormat": "{{method}} {{path}}"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "API Response Time (p95)",
+        "type": "graph",
+        "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 },
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m]))",
+            "legendFormat": "p95"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Active Deliberations",
+        "type": "stat",
+        "gridPos": { "x": 0, "y": 8, "w": 6, "h": 4 },
+        "targets": [
+          {
+            "expr": "datacendia_active_deliberations"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Council Agents Online",
+        "type": "stat",
+        "gridPos": { "x": 6, "y": 8, "w": 6, "h": 4 },
+        "targets": [
+          {
+            "expr": "datacendia_agents_online"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Database Connections",
+        "type": "stat",
+        "gridPos": { "x": 12, "y": 8, "w": 6, "h": 4 },
+        "targets": [
+          {
+            "expr": "datacendia_db_connections"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Redis Cache Hit Rate",
+        "type": "stat",
+        "gridPos": { "x": 18, "y": 8, "w": 6, "h": 4 },
+        "targets": [
+          {
+            "expr": "rate(datacendia_cache_hits[5m]) / rate(datacendia_cache_requests[5m])"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Error Rate",
+        "type": "graph",
+        "gridPos": { "x": 0, "y": 12, "w": 12, "h": 8 },
+        "targets": [
+          {
+            "expr": "rate(http_requests_total{status=~\"5..\"}[5m])",
+            "legendFormat": "5xx errors"
+          },
+          {
+            "expr": "rate(http_requests_total{status=~\"4..\"}[5m])",
+            "legendFormat": "4xx errors"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "LLM Response Time",
+        "type": "graph",
+        "gridPos": { "x": 12, "y": 12, "w": 12, "h": 8 },
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(datacendia_llm_duration_seconds_bucket[5m]))",
+            "legendFormat": "p95 LLM response"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Memory Usage",
+        "type": "graph",
+        "gridPos": { "x": 0, "y": 20, "w": 8, "h": 6 },
+        "targets": [
+          {
+            "expr": "process_resident_memory_bytes",
+            "legendFormat": "Memory"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "CPU Usage",
+        "type": "graph",
+        "gridPos": { "x": 8, "y": 20, "w": 8, "h": 6 },
+        "targets": [
+          {
+            "expr": "rate(process_cpu_seconds_total[5m])",
+            "legendFormat": "CPU"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Active WebSocket Connections",
+        "type": "stat",
+        "gridPos": { "x": 16, "y": 20, "w": 8, "h": 6 },
+        "targets": [
+          {
+            "expr": "datacendia_websocket_connections"
+          }
+        ]
+      }
+    ],
+    "refresh": "10s",
+    "schemaVersion": 16,
+    "version": 1
+  }
+}

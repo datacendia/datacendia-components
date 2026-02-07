@@ -1,0 +1,58 @@
+version: '3.8'
+
+# =============================================================================
+# SIMPLIFIED POSTGRESQL HA - Primary + Replica (No PgPool)
+# =============================================================================
+
+services:
+  postgres-primary:
+    image: postgres:16-alpine
+    container_name: datacendia-postgres-primary
+    environment:
+      POSTGRES_USER: cendia
+      POSTGRES_PASSWORD: cendia_sovereign_2025
+      POSTGRES_DB: datacendia
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-primary-data:/var/lib/postgresql/data
+    command: |
+      postgres
+      -c wal_level=replica
+      -c max_wal_senders=3
+      -c max_replication_slots=3
+      -c hot_standby=on
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cendia"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datacendia
+
+  postgres-replica:
+    image: postgres:16-alpine
+    container_name: datacendia-postgres-replica
+    environment:
+      POSTGRES_USER: cendia
+      POSTGRES_PASSWORD: cendia_sovereign_2025
+      PGDATA: /var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-replica-data:/var/lib/postgresql/data
+    depends_on:
+      - postgres-primary
+    restart: unless-stopped
+    networks:
+      - datacendia
+
+volumes:
+  postgres-primary-data:
+  postgres-replica-data:
+
+networks:
+  datacendia:
+    driver: bridge
