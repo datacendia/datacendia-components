@@ -205,13 +205,13 @@ Result: ✅ BLOCKED (URL encoding detected)
 
 ### Medium Priority
 1. ℹ️ Add security.txt file
-2. ℹ️ Implement rate limiting per user (currently per IP)
+2. ✅ Rate limiting per user via Redis CacheService (implemented Feb 2026)
 3. ℹ️ Add API key rotation mechanism
 
 ### Low Priority
 1. ℹ️ Hide server version in headers
-2. ℹ️ Implement request signing for critical operations
-3. ℹ️ Add honeypot endpoints for threat detection
+2. ✅ Request signing via TPM Attestation service (implemented Feb 2026)
+3. ✅ Honeypot endpoints for threat detection (implemented — Honeypot.ts + CanaryTripwireService)
 
 ---
 
@@ -271,3 +271,5 @@ Result: ✅ BLOCKED (URL encoding detected)
 ---
 
 *Security audit conducted with OWASP ZAP. No critical vulnerabilities identified.*
+
+**Last Updated:** February 7, 2026

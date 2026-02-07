@@ -88,10 +88,13 @@ npm run dev
 🚀 Datacendia API running on port 3001
 📊 Environment: development
 ✅ Connected to PostgreSQL
-✅ Connected to Redis
+✅ Performance indexes applied (idempotent)
+✅ Connected to Redis (with fallback to in-memory)
 ✅ Connected to Neo4j
 [WebSocket] Real-time streaming enabled
 ```
+
+> **Note:** Database indexes are automatically applied on startup. No manual SQL required.
 
 **Verified:** ✅ Backend starts successfully on port 3001
 
@@ -131,7 +134,7 @@ After startup, verify all services:
 - [ ] Frontend loads: http://localhost:5173 ✅
 - [ ] Backend health: http://localhost:3001/api/v1/health ✅
 - [ ] Swagger docs: http://localhost:3001/api/docs ✅
-- [ ] Grafana: http://localhost:3100 (admin/datacendia2024) ✅
+- [ ] Grafana: http://localhost:3002 (admin/datacendia2024, dashboards auto-provisioned) ✅
 - [ ] Neo4j: http://localhost:7474 (neo4j/datacendia2024) ✅
 - [ ] Prometheus: http://localhost:9090 ✅
 
@@ -239,11 +242,15 @@ npm run dev
 - **Docs:** http://localhost:3001/api-docs
 
 ### Infrastructure
-- **Grafana:** http://localhost:3100 (admin/datacendia2024)
+- **Grafana:** http://localhost:3002 (admin/datacendia2024) — dashboards auto-provisioned
 - **Neo4j:** http://localhost:7474 (neo4j/datacendia2024)
 - **Prometheus:** http://localhost:9090
-- **Redis:** localhost:6380 (password: datacendia2024)
+- **Redis:** localhost:6379 (password: datacendia2024)
 - **ClickHouse:** localhost:8123 (datacendia/datacendia2024)
+
+### High Availability (Optional)
+- **PgBouncer:** localhost:6432 (connection pooling)
+- Use `docker-compose.ha-simple.yml` instead for production
 
 ---
 
@@ -295,3 +302,5 @@ npm run dev
 **Platform startup: VERIFIED AND VALIDATED**  
 **All steps tested and working**  
 **No third-party software required beyond Node.js and Docker**
+
+**Last Updated:** February 7, 2026

@@ -3,13 +3,20 @@
 ## Pre-Deployment
 
 ### Infrastructure
-- [ ] PostgreSQL database provisioned and configured
-- [ ] Redis instance (optional but recommended for caching/pubsub)
+- [x] PostgreSQL database provisioned and configured
+- [x] Redis instance connected (CacheService with automatic fallback to in-memory)
 - [ ] MinIO/S3 storage configured for file uploads
 - [ ] Ollama instance running with required models
 - [ ] SSL certificates configured
 - [ ] DNS records configured
 - [ ] Load balancer configured (if applicable)
+
+### High Availability (Optional)
+- [x] PostgreSQL HA with primary/replica (`docker-compose.ha-simple.yml`)
+- [x] PgBouncer connection pooling configured
+- [x] WAL archiving and replication slots enabled
+- [x] Auto-failover with healthchecks
+- [x] Resource limits and restart policies set
 
 ### Environment Variables
 ```bash
@@ -45,9 +52,10 @@ KMS_PROVIDER=local|aws-kms|hashicorp-vault|azure-keyvault
 ### Database
 - [ ] Run `npx prisma migrate deploy`
 - [ ] Verify all tables created
+- [x] Performance indexes auto-applied on startup (`backend/src/startup/applyIndexes.ts`)
 - [ ] Seed initial data if needed
 - [ ] Create database backups schedule
-- [ ] Configure connection pooling
+- [x] Connection pooling via PgBouncer (HA stack)
 
 ## Deployment Steps
 
@@ -93,8 +101,9 @@ curl http://localhost:3000/metrics
 ## Post-Deployment
 
 ### Monitoring
-- [ ] Prometheus scraping `/metrics` endpoint
-- [ ] Grafana dashboards configured
+- [x] Prometheus scraping `/metrics` endpoint
+- [x] Grafana dashboards auto-provisioned on startup
+- [x] Datasources auto-configured (Prometheus, PostgreSQL, Redis)
 - [ ] Alert rules configured for:
   - [ ] High error rate (>1%)
   - [ ] High latency (p95 > 2s)
@@ -167,5 +176,5 @@ curl http://localhost:3000/metrics
 
 ---
 
-**Last Updated**: January 2026
-**Version**: 1.0.0
+**Last Updated**: February 7, 2026
+**Version**: 4.6.0

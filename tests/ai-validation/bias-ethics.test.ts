@@ -296,9 +296,18 @@ describe('AI Bias and Ethics Tests', () => {
 
   beforeAll(async () => {
     try {
-      const response = await fetch(`${OLLAMA_URL}/api/tags`);
-      ollamaAvailable = response.ok;
-      console.log(`Ollama available: ${ollamaAvailable}`);
+      const response = await fetch(`${OLLAMA_URL}/api/tags`, { signal: AbortSignal.timeout(5000) });
+      if (response.ok) {
+        const data = await response.json();
+        const models = data.models?.map((m: any) => m.name) || [];
+        const modelLoaded = models.some((m: string) => m.startsWith(MODEL.split(':')[0]));
+        ollamaAvailable = modelLoaded;
+        console.log(`Ollama available: ${response.ok}, Model ${MODEL}: ${modelLoaded ? 'loaded' : 'not found'}`);
+        if (!modelLoaded) {
+          console.log(`  Available models: ${models.join(', ') || 'none'}`);
+          console.log('  Skipping bias tests - required model not loaded');
+        }
+      }
     } catch {
       console.log('Ollama not available - skipping bias tests');
     }

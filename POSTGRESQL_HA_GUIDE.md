@@ -21,30 +21,26 @@ High Availability means your database keeps running even if one server fails.
 
 ---
 
-## CURRENT SETUP (SINGLE INSTANCE)
+## CURRENT SETUP
 
-Right now you have:
-- 1 PostgreSQL database
-- If it crashes, platform goes down
-- No automatic recovery
+**As of February 7, 2026**, the platform includes a production-ready HA configuration:
 
-**This is fine for:**
-- Development
-- Testing
-- Small deployments
+| Component | File | Purpose |
+|-----------|------|---------|
+| HA Stack | `docker-compose.ha-simple.yml` | Primary + Replica + PgBouncer + Redis + Grafana + Prometheus |
+| Init Script | `infrastructure/postgres/init-primary.sh` | Configures replication user, slot, pg_hba.conf |
+| Dashboard Provisioning | `grafana/provisioning/` | Auto-imports dashboards and datasources |
+| Index Startup | `backend/src/startup/applyIndexes.ts` | Auto-applies performance indexes |
 
-**Not suitable for:**
-- Production with SLAs
-- Mission-critical applications
-- Enterprise deployments
+**Single instance** (`docker-compose.yml`) is still available for development.
 
 ---
 
 ## HA SETUP OPTIONS
 
-### Option 1: Docker Compose HA (Easiest)
+### Option 1: Production-Ready HA (Recommended) ✅ IMPLEMENTED
 
-Create `docker-compose.ha.yml`:
+Use the existing `docker-compose.ha-simple.yml`:
 
 ```yaml
 version: '3.8'
@@ -115,19 +111,28 @@ volumes:
 
 **Deploy:**
 ```powershell
-docker-compose -f docker-compose.ha.yml up -d
+docker-compose -f docker-compose.ha-simple.yml up -d
 ```
 
 **Update backend/.env:**
 ```bash
-DATABASE_URL=postgresql://cendia:cendia_sovereign_2025@localhost:5432/datacendia
+DATABASE_URL=postgresql://cendia:cendia_sovereign_2025@localhost:6432/datacendia
 ```
 
 **What this gives you:**
-- Primary + Replica databases
-- Automatic replication
-- Connection pooling via PgPool
-- Load balancing for reads
+- Primary + Replica with streaming replication
+- PgBouncer connection pooling (port 6432)
+- WAL archiving and replication slots
+- Healthchecks with auto-restart
+- Resource limits (CPU/memory)
+- Redis 7 with AOF persistence
+- Grafana with auto-provisioned dashboards
+- Prometheus metrics collection
+
+**Init script** (`infrastructure/postgres/init-primary.sh`) automatically:
+- Creates the replication user
+- Creates a replication slot
+- Configures `pg_hba.conf` for replication access
 
 ---
 
@@ -366,36 +371,37 @@ archive_command = 'cp %p /var/lib/postgresql/wal_archive/%f'
 
 ## RECOMMENDATION
 
-**For Development:** Single instance (current setup) ✅
+**For Development:** Single instance (`docker-compose.yml`) ✅
 
-**For Production (<100 users):** Docker HA setup
+**For Production (<100 users):** `docker-compose.ha-simple.yml` with PgBouncer ✅ Ready
 
 **For Production (>100 users):** Patroni with HAProxy
 
-**For Enterprise:** Managed database (AWS RDS, Azure Database, Google Cloud SQL)
+**For Enterprise/Cloud:** Managed database (AWS RDS, Azure Database, Google Cloud SQL)
 
 ---
 
 ## QUICK START (DOCKER HA)
 
 ```powershell
-# 1. Create docker-compose.ha.yml (see above)
+# 1. Deploy the HA stack (already configured)
+docker-compose -f docker-compose.ha-simple.yml up -d
 
-# 2. Deploy
-docker-compose -f docker-compose.ha.yml up -d
+# 2. Update backend/.env to use PgBouncer
+DATABASE_URL=postgresql://cendia:cendia_sovereign_2025@localhost:6432/datacendia
 
-# 3. Update backend/.env
-DATABASE_URL=postgresql://cendia:cendia_sovereign_2025@localhost:5432/datacendia
-
-# 4. Restart backend
+# 3. Start backend (indexes auto-applied)
 cd backend
 npm run dev
 
-# 5. Verify
+# 4. Verify
 curl http://localhost:3001/api/v1/health
+
+# 5. Check Grafana dashboards (auto-provisioned)
+# Open http://localhost:3002 (admin/datacendia2024)
 ```
 
-**Done!** You now have high availability.
+**Done!** You now have high availability with monitoring.
 
 ---
 

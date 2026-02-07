@@ -413,12 +413,17 @@ describe('Golden Prompt Set - LLM Brain Tests', () => {
 
   beforeAll(async () => {
     try {
-      const response = await fetch(`${OLLAMA_URL}/api/tags`);
-      ollamaAvailable = response.ok;
-      if (ollamaAvailable) {
+      const response = await fetch(`${OLLAMA_URL}/api/tags`, { signal: AbortSignal.timeout(5000) });
+      if (response.ok) {
+        const data = await response.json();
+        const models = data.models?.map((m: any) => m.name) || [];
+        const modelLoaded = models.some((m: string) => m.startsWith(MODEL.split(':')[0]));
+        ollamaAvailable = modelLoaded;
         console.log(`✓ Ollama available at ${OLLAMA_URL}`);
-        const models = await response.json();
-        console.log(`  Available models: ${models.models?.map((m: any) => m.name).join(', ')}`);
+        console.log(`  Available models: ${models.join(', ')}`);
+        if (!modelLoaded) {
+          console.log(`  ✗ Required model ${MODEL} not loaded - skipping LLM tests`);
+        }
       }
     } catch {
       console.log(`✗ Ollama not available at ${OLLAMA_URL}`);

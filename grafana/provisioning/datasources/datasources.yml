@@ -1,0 +1,35 @@
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    isDefault: true
+    editable: true
+    jsonData:
+      httpMethod: POST
+      timeInterval: '15s'
+
+  - name: PostgreSQL
+    type: postgres
+    access: proxy
+    url: postgres-primary:5432
+    database: datacendia
+    user: cendia
+    editable: true
+    secureJsonData:
+      password: ${PG_PASSWORD:-cendia_sovereign_2025}
+    jsonData:
+      sslmode: disable
+      maxOpenConns: 10
+      maxIdleConns: 5
+      connMaxLifetime: 14400
+      postgresVersion: 1600
+      timescaledb: false
+
+  - name: Redis
+    type: redis-datasource
+    access: proxy
+    url: redis:6379
+    editable: true

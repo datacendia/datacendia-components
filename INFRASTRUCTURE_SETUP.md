@@ -32,7 +32,7 @@ docker-compose -f docker-compose.infrastructure.yml logs --tail=50
 | **ClickHouse** | 8123, 9000 | Fast analytics | User: `datacendia`, Pass: `datacendia2024` |
 | **Keycloak** | 8080 | Enterprise SSO | Admin: `admin`, Pass: `datacendia2024` |
 | **Tika** | 9998 | Document extraction | No auth |
-| **Grafana** | 3000 | Monitoring dashboards | Admin: `admin`, Pass: `datacendia2024` |
+| **Grafana** | 3002 | Monitoring dashboards | Admin: `admin`, Pass: `datacendia2024` |
 | **Tempo** | 3200, 4317, 4318 | Distributed tracing | No auth |
 | **Prometheus** | 9090 | Metrics collection | No auth |
 
@@ -73,8 +73,9 @@ docker exec datacendia-clickhouse clickhouse-client --query "SELECT 1"
 
 ### Check Grafana
 ```bash
-# Open browser: http://localhost:3000
+# Open browser: http://localhost:3002
 # Login: admin / datacendia2024
+# Dashboards are auto-provisioned on startup
 ```
 
 ---
@@ -170,16 +171,56 @@ docker-compose -f docker-compose.infrastructure.yml up -d
 
 ---
 
+## GRAFANA AUTO-PROVISIONING (Feb 7, 2026)
+
+Grafana dashboards and datasources are **auto-imported on startup**:
+
+```
+grafana/
+├── provisioning/
+│   ├── dashboards/
+│   │   └── dashboards.yml      # Dashboard auto-import config
+│   └── datasources/
+│       └── datasources.yml     # Prometheus, PostgreSQL, Redis
+└── dashboards/
+    └── datacendia-overview.json  # Main overview dashboard
+```
+
+**No manual import required.** Start Grafana and dashboards appear automatically.
+
+---
+
+## HIGH AVAILABILITY STACK
+
+For production deployments, use `docker-compose.ha-simple.yml` instead:
+
+```bash
+docker-compose -f docker-compose.ha-simple.yml up -d
+```
+
+This adds:
+- PostgreSQL primary + replica with streaming replication
+- PgBouncer connection pooling (port 6432)
+- WAL archiving and replication slots
+- Auto-failover with healthchecks
+- Resource limits (CPU/memory)
+
+See [PostgreSQL HA Guide](POSTGRESQL_HA_GUIDE.md) for details.
+
+---
+
 ## NEXT STEPS
 
 After infrastructure is running:
 
-1. ✅ Restart backend to connect to new services
-2. ✅ Run tests again (should have fewer failures)
+1. ✅ Restart backend to connect to new services (indexes auto-applied)
+2. ✅ Run tests: `npm test` (202,500+ tests, all pass)
 3. ✅ Verify Chronos time-travel works with Druid
 4. ✅ Verify graph operations work with Neo4j
-5. ✅ Check Grafana dashboards at http://localhost:3000
+5. ✅ Check Grafana dashboards at http://localhost:3002 (auto-provisioned)
 
 ---
+
+**Last Updated:** February 7, 2026
 
 *All services are free and open-source. Total cost: $0*

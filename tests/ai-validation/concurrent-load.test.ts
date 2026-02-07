@@ -250,15 +250,22 @@ describe('Concurrent Load Tests', () => {
   beforeAll(async () => {
     // Check services
     try {
-      const health = await fetch(`${API_BASE.replace('/api/v1', '')}/health`);
+      const health = await fetch(`${API_BASE.replace('/api/v1', '')}/health`, { signal: AbortSignal.timeout(5000) });
       servicesAvailable = health.ok;
     } catch {
       servicesAvailable = false;
     }
 
     try {
-      const ollama = await fetch(`${OLLAMA_URL}/api/tags`);
-      ollamaAvailable = ollama.ok;
+      const ollama = await fetch(`${OLLAMA_URL}/api/tags`, { signal: AbortSignal.timeout(5000) });
+      if (ollama.ok) {
+        const data = await ollama.json();
+        const models = data.models?.map((m: any) => m.name) || [];
+        ollamaAvailable = models.some((m: string) => m.startsWith('qwen2.5'));
+        if (!ollamaAvailable) {
+          console.log(`  Ollama running but model not loaded. Available: ${models.join(', ') || 'none'}`);
+        }
+      }
     } catch {
       ollamaAvailable = false;
     }

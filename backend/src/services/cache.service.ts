@@ -6,6 +6,8 @@
  */
 
 import crypto from 'crypto';
+import { redis as redisClient } from '../config/redis.js';
+import { logger } from '../utils/logger.js';
 
 export interface CacheConfig {
   defaultTTL: number;
@@ -37,13 +39,37 @@ class CacheService {
     prefix: 'datacendia:',
   };
   private stats = { hits: 0, misses: 0 };
-  private redisClient: any = null; // Would be ioredis client in production
+  private redisAvailable: boolean = false;
 
   constructor() {
     // Cleanup expired entries every minute
     setInterval(() => this.cleanup(), 60000);
     
-    console.log('[Cache] Initialized with in-memory fallback');
+    // Connect to real Redis
+    this.initRedis();
+  }
+
+  private async initRedis(): Promise<void> {
+    try {
+      const status = redisClient.status;
+      if (status === 'ready' || status === 'connect') {
+        this.redisAvailable = true;
+        logger.info('[Cache] Connected to Redis — distributed caching enabled');
+      } else {
+        // Listen for ready event
+        redisClient.once('ready', () => {
+          this.redisAvailable = true;
+          logger.info('[Cache] Redis became ready — distributed caching enabled');
+        });
+        redisClient.once('error', () => {
+          this.redisAvailable = false;
+          logger.warn('[Cache] Redis unavailable — using in-memory fallback');
+        });
+      }
+    } catch {
+      this.redisAvailable = false;
+      logger.warn('[Cache] Redis unavailable — using in-memory fallback');
+    }
   }
 
   /**
@@ -76,16 +102,16 @@ class CacheService {
     };
 
     // Try Redis first
-    if (this.redisClient) {
+    if (this.redisAvailable) {
       try {
-        await this.redisClient.setex(
+        await redisClient.setex(
           fullKey,
           Math.ceil(ttl / 1000),
           JSON.stringify(entry)
         );
         return;
       } catch (error) {
-        console.warn('[Cache] Redis set failed, using memory:', error);
+        logger.warn('[Cache] Redis set failed, using memory:', error);
       }
     }
 
@@ -105,9 +131,9 @@ class CacheService {
     const fullKey = this.getKey(key);
 
     // Try Redis first
-    if (this.redisClient) {
+    if (this.redisAvailable) {
       try {
-        const data = await this.redisClient.get(fullKey);
+        const data = await redisClient.get(fullKey);
         if (data) {
           const entry = JSON.parse(data) as CacheEntry<T>;
           if (entry.expiresAt > Date.now()) {
@@ -118,7 +144,7 @@ class CacheService {
         this.stats.misses++;
         return null;
       } catch (error) {
-        console.warn('[Cache] Redis get failed, using memory:', error);
+        logger.warn('[Cache] Redis get failed, using memory:', error);
       }
     }
 
@@ -164,11 +190,11 @@ class CacheService {
   async delete(key: string): Promise<boolean> {
     const fullKey = this.getKey(key);
 
-    if (this.redisClient) {
+    if (this.redisAvailable) {
       try {
-        await this.redisClient.del(fullKey);
+        await redisClient.del(fullKey);
       } catch (error) {
-        console.warn('[Cache] Redis delete failed:', error);
+        logger.warn('[Cache] Redis delete failed:', error);
       }
     }
 
@@ -191,15 +217,15 @@ class CacheService {
     }
 
     // Redis (if available)
-    if (this.redisClient) {
+    if (this.redisAvailable) {
       try {
-        const keys = await this.redisClient.keys(fullPattern.replace('*', '*'));
+        const keys = await redisClient.keys(fullPattern.replace('*', '*'));
         if (keys.length > 0) {
-          await this.redisClient.del(...keys);
+          await redisClient.del(...keys);
           deleted += keys.length;
         }
       } catch (error) {
-        console.warn('[Cache] Redis pattern delete failed:', error);
+        logger.warn('[Cache] Redis pattern delete failed:', error);
       }
     }
 
@@ -219,7 +245,7 @@ class CacheService {
       }
     }
 
-    console.log(`[Cache] Deleted ${deleted} entries with tag: ${tag}`);
+    logger.debug(`[Cache] Deleted ${deleted} entries with tag: ${tag}`);
     return deleted;
   }
 
@@ -229,18 +255,18 @@ class CacheService {
   async clear(): Promise<void> {
     this.cache.clear();
     
-    if (this.redisClient) {
+    if (this.redisAvailable) {
       try {
-        const keys = await this.redisClient.keys(`${this.config.prefix}*`);
+        const keys = await redisClient.keys(`${this.config.prefix}*`);
         if (keys.length > 0) {
-          await this.redisClient.del(...keys);
+          await redisClient.del(...keys);
         }
       } catch (error) {
-        console.warn('[Cache] Redis clear failed:', error);
+        logger.warn('[Cache] Redis clear failed:', error);
       }
     }
 
-    console.log('[Cache] Cleared all entries');
+    logger.debug('[Cache] Cleared all entries');
   }
 
   /**
@@ -285,7 +311,7 @@ class CacheService {
     }
 
     if (cleaned > 0) {
-      console.log(`[Cache] Cleaned ${cleaned} expired entries`);
+      logger.debug(`[Cache] Cleaned ${cleaned} expired entries`);
     }
   }
 
@@ -302,7 +328,7 @@ class CacheService {
       this.cache.delete(entries[i][0]);
     }
 
-    console.log(`[Cache] Evicted ${toRemove} oldest entries`);
+    logger.debug(`[Cache] Evicted ${toRemove} oldest entries`);
   }
 
   /**

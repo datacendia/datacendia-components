@@ -1,7 +1,7 @@
 # DATACENDIA API DOCUMENTATION
-**Version:** 4.5  
+**Version:** 4.6  
 **Base URL:** `http://localhost:3001/api/v1`  
-**Last Updated:** February 4, 2026
+**Last Updated:** February 7, 2026
 
 ---
 
@@ -206,6 +206,119 @@ Authorization: Bearer eyJhbGc...
 | POST | `/cross-jurisdiction/compliance-matrix` | Generate compliance matrix | Yes |
 | POST | `/cross-jurisdiction/detect-conflicts` | Detect regulatory conflicts | Yes |
 | POST | `/cross-jurisdiction/data-residency` | Get data residency rules | Yes |
+
+### Sovereign Architecture (`/sovereign-arch`) — 11 Patterns
+
+| Prefix | Service | Key Endpoints |
+|--------|---------|---------------|
+| `/sovereign-arch/diode` | Data Diode | `POST /ingest`, `GET /quarantine`, `POST /release` |
+| `/sovereign-arch/rlhf` | Local RLHF | `POST /feedback`, `POST /dataset/generate`, `POST /train` |
+| `/sovereign-arch/dna` | Decision DNA | `POST /export`, `GET /packets`, `GET /packets/:id` |
+| `/sovereign-arch/shadow` | Shadow Council | `POST /sessions`, `GET /sessions/:id`, `POST /sessions/:id/deliberate` |
+| `/sovereign-arch/replay` | Deterministic Replay | `POST /capture`, `POST /replay`, `GET /states` |
+| `/sovereign-arch/qr` | QR Air-Gap Bridge | `POST /encode`, `POST /decode`, `GET /sequences` |
+| `/sovereign-arch/canary` | Canary Tripwires | `POST /deploy`, `GET /tripwires`, `GET /alerts` |
+| `/sovereign-arch/tpm` | TPM Attestation | `POST /sign`, `POST /verify`, `GET /keys` |
+| `/sovereign-arch/timelock` | Time-Lock | `POST /lock`, `POST /unlock`, `GET /locks` |
+| `/sovereign-arch/mesh` | Federated Mesh | `POST /submit`, `POST /aggregate`, `GET /nodes` |
+| `/sovereign-arch/portable` | Portable Instance | `POST /generate`, `GET /configs` |
+
+### CendiaCascade™ — Butterfly Effect (`/cascade`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/cascade/status` | Service health + graph stats | No |
+| POST | `/cascade/analyze` | Analyze a proposed change | Yes |
+| GET | `/cascade/reports/:id` | Get report details | Yes |
+| GET | `/cascade/reports/:id/export/executive` | Boardroom-ready export | Yes |
+| GET | `/cascade/reports/:id/explain/:nodeId` | Explainability per consequence | Yes |
+| POST | `/cascade/reports/:id/validate-constraints` | Policy no-go line check | Yes |
+| GET | `/cascade/reports/:id/governance` | Audit trail & approval status | Yes |
+| GET | `/cascade/reports/:id/timeline` | Timeline visualization | Yes |
+| GET | `/cascade/reports/:id/evidence` | Evidence bundle | Yes |
+| POST | `/cascade/graph/load` | Load organization graph | Yes |
+| POST | `/cascade/demo/load-sample` | Load sample graph | Yes |
+
+### CendiaLens™ — AI Interpretability (`/lens`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/lens/health` | Service health | No |
+| POST | `/lens/analyze` | Run interpretability analysis | Yes |
+| GET | `/lens/analysis/:id` | Get specific analysis | Yes |
+| GET | `/lens/analyses` | List recent analyses | Yes |
+| GET | `/lens/analysis/:id/visualization` | Export for visualization | Yes |
+| POST | `/lens/compare` | Compare two analyses | Yes |
+
+### Defense & National Security (`/defense`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/defense/agents` | List defense agents (24 total) | Yes |
+| GET | `/defense/council-modes` | List council modes (35 total) | Yes |
+| POST | `/defense/deliberate` | Run defense deliberation | Yes |
+| GET | `/defense/compliance` | Compliance status (FedRAMP/CMMC/ITAR) | Yes |
+
+### Sports/Football Vertical (`/sports`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/sports/agents` | List sports agents (10 total) | Yes |
+| GET | `/sports/agents/:agentId` | Get specific agent | Yes |
+| GET | `/sports/agents/workflow/:workflow` | Get agents for workflow | Yes |
+| POST | `/sports/agents/:agentId/prompt` | Generate agent prompt | Yes |
+| GET | `/sports/workflows` | List workflows (8 total) | Yes |
+| GET | `/sports/knowledge/status` | Knowledge base status | Yes |
+| POST | `/sports/knowledge/query` | Query sports knowledge base | Yes |
+| GET | `/sports/knowledge/provenance` | Citation provenance | Yes |
+
+### Visualization (`/visualization`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/visualization/deliberation/:id` | Live deliberation graph | Yes |
+| GET | `/visualization/replay/:id` | Decision replay timeline | Yes |
+
+### Adversarial Red Team (`/adversarial-redteam`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/adversarial-redteam/sessions` | Start red team session | Yes |
+| GET | `/adversarial-redteam/sessions/:id` | Get session results | Yes |
+| GET | `/adversarial-redteam/perspectives` | List 8 attack perspectives | Yes |
+
+### Regulator's Receipt (`/regulators-receipt`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/regulators-receipt/generate` | Generate court-admissible receipt | Yes |
+| GET | `/regulators-receipt/:id` | Get receipt details | Yes |
+| GET | `/regulators-receipt/:id/verify` | Verify Merkle tree integrity | Yes |
+
+### CendiaVault — Sovereign Storage (`/sovereign/vault`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/sovereign/vault/upload` | Upload file to vault (multipart) | Yes |
+| GET | `/sovereign/vault/download` | Download file from vault | Yes |
+| GET | `/sovereign/vault/list` | List vault files | Yes |
+| DELETE | `/sovereign/vault/delete` | Delete vault file | Yes |
+| GET | `/sovereign/vault/health` | Vault health check | No |
+
+---
+
+## CACHING (Feb 7, 2026)
+
+All GET requests to `/api/v1/*` are cached via Redis with automatic invalidation:
+
+| Route Pattern | Cache TTL | Notes |
+|---------------|-----------|-------|
+| `/i18n/*`, `/integrations`, `/config/*` | 300s | Static configuration |
+| `/agents/*`, `/users/*` | 60s | Moderate refresh |
+| `/council/*`, `/deliberations/*` | 30s | Near real-time |
+| `/health/*`, `/auth/*`, `/generate/*` | N/A | Never cached |
+
+POST/PUT/PATCH/DELETE requests automatically invalidate related cache entries.
 
 ---
 

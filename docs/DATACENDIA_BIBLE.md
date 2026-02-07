@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 4.5** | **February 4, 2026 Update**
+**Version 4.6** | **February 7, 2026 Update** — Enterprise Platinum
 
 ---
 

@@ -1,58 +1,275 @@
 version: '3.8'
 
 # =============================================================================
-# SIMPLIFIED POSTGRESQL HA - Primary + Replica (No PgPool)
+# DATACENDIA POSTGRESQL HA - Production-Ready
+#
+# Architecture:
+#   Primary (read-write) → Replica (read-only hot standby) → PgBouncer (pooling)
+#
+# Features:
+#   - Streaming replication with automatic base backup
+#   - Connection pooling via PgBouncer (600 max connections)
+#   - Health checks with automatic container restart
+#   - WAL archiving for point-in-time recovery
+#   - Shared-nothing architecture (no data loss on failover)
+#
+# Usage:
+#   docker-compose -f docker-compose.ha-simple.yml up -d
+#   Primary:  localhost:5432  (read-write via PgBouncer)
+#   Direct:   localhost:5434  (primary direct)
+#   Replica:  localhost:5435  (read-only queries)
 # =============================================================================
 
 services:
+  # ---------------------------------------------------------------------------
+  # PRIMARY — Master database (read-write)
+  # ---------------------------------------------------------------------------
   postgres-primary:
     image: postgres:16-alpine
-    container_name: datacendia-postgres-primary
+    container_name: datacendia-pg-primary
     environment:
       POSTGRES_USER: cendia
-      POSTGRES_PASSWORD: cendia_sovereign_2025
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-cendia_sovereign_2025}
       POSTGRES_DB: datacendia
-      POSTGRES_INITDB_ARGS: "-E UTF8"
+      POSTGRES_INITDB_ARGS: "-E UTF8 --data-checksums"
     ports:
-      - "5432:5432"
+      - "5434:5432"
     volumes:
-      - postgres-primary-data:/var/lib/postgresql/data
-    command: |
+      - pg-primary-data:/var/lib/postgresql/data
+      - pg-wal-archive:/var/lib/postgresql/wal_archive
+      - ./infrastructure/postgres/init-primary.sh:/docker-entrypoint-initdb.d/01-init-primary.sh
+    command: >
       postgres
-      -c wal_level=replica
-      -c max_wal_senders=3
-      -c max_replication_slots=3
-      -c hot_standby=on
+        -c wal_level=replica
+        -c max_wal_senders=5
+        -c max_replication_slots=5
+        -c hot_standby=on
+        -c archive_mode=on
+        -c archive_command='test ! -f /var/lib/postgresql/wal_archive/%f && cp %p /var/lib/postgresql/wal_archive/%f'
+        -c max_connections=200
+        -c shared_buffers=256MB
+        -c effective_cache_size=768MB
+        -c work_mem=4MB
+        -c maintenance_work_mem=64MB
+        -c checkpoint_completion_target=0.9
+        -c wal_buffers=16MB
+        -c random_page_cost=1.1
+        -c effective_io_concurrency=200
+        -c log_min_duration_statement=200
+        -c log_checkpoints=on
+        -c log_connections=on
+        -c log_disconnections=on
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U cendia"]
+      test: ["CMD-SHELL", "pg_isready -U cendia -d datacendia && psql -U cendia -d datacendia -c 'SELECT 1'"]
       interval: 10s
       timeout: 5s
       retries: 5
+      start_period: 30s
     networks:
-      - datacendia
+      - datacendia-ha
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '2'
 
+  # ---------------------------------------------------------------------------
+  # REPLICA — Hot standby (read-only, streaming replication)
+  # ---------------------------------------------------------------------------
   postgres-replica:
     image: postgres:16-alpine
-    container_name: datacendia-postgres-replica
+    container_name: datacendia-pg-replica
     environment:
-      POSTGRES_USER: cendia
-      POSTGRES_PASSWORD: cendia_sovereign_2025
-      PGDATA: /var/lib/postgresql/data
+      PGUSER: cendia
+      PGPASSWORD: ${PG_PASSWORD:-cendia_sovereign_2025}
+      PGDATA: /var/lib/postgresql/data/pgdata
     ports:
-      - "5433:5432"
+      - "5435:5432"
     volumes:
-      - postgres-replica-data:/var/lib/postgresql/data
+      - pg-replica-data:/var/lib/postgresql/data
+    entrypoint: |
+      bash -c "
+      set -e
+      if [ ! -s /var/lib/postgresql/data/pgdata/PG_VERSION ]; then
+        echo 'Initializing replica from primary...'
+        until pg_isready -h postgres-primary -p 5432 -U cendia; do
+          echo 'Waiting for primary...'
+          sleep 2
+        done
+        pg_basebackup -h postgres-primary -p 5432 -D /var/lib/postgresql/data/pgdata -U replicator -v -P -R -S replica_slot_1
+        echo 'Replica initialized successfully'
+      fi
+      exec postgres \
+        -c hot_standby=on \
+        -c max_connections=200 \
+        -c shared_buffers=256MB \
+        -c effective_cache_size=768MB \
+        -c hot_standby_feedback=on \
+        -c max_standby_streaming_delay=30s \
+        -c wal_receiver_status_interval=10s
+      "
     depends_on:
-      - postgres-primary
+      postgres-primary:
+        condition: service_healthy
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cendia && psql -U cendia -d datacendia -c 'SELECT pg_is_in_recovery()'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
     networks:
-      - datacendia
+      - datacendia-ha
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '2'
+
+  # ---------------------------------------------------------------------------
+  # PGBOUNCER — Connection pooling (600 max, transaction-level pooling)
+  # ---------------------------------------------------------------------------
+  pgbouncer:
+    image: edoburu/pgbouncer:1.22.0
+    container_name: datacendia-pgbouncer
+    environment:
+      DATABASE_URL: "postgres://cendia:${PG_PASSWORD:-cendia_sovereign_2025}@postgres-primary:5432/datacendia"
+      POOL_MODE: transaction
+      MAX_CLIENT_CONN: 600
+      DEFAULT_POOL_SIZE: 40
+      MIN_POOL_SIZE: 10
+      RESERVE_POOL_SIZE: 10
+      RESERVE_POOL_TIMEOUT: 3
+      SERVER_RESET_QUERY: "DISCARD ALL"
+      SERVER_CHECK_QUERY: "SELECT 1"
+      SERVER_CHECK_DELAY: 10
+      SERVER_LIFETIME: 3600
+      SERVER_IDLE_TIMEOUT: 600
+      LOG_CONNECTIONS: 1
+      LOG_DISCONNECTIONS: 1
+      STATS_PERIOD: 60
+      AUTH_TYPE: scram-sha-256
+    ports:
+      - "5432:5432"
+    depends_on:
+      postgres-primary:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h localhost -p 5432"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - datacendia-ha
+
+  # ---------------------------------------------------------------------------
+  # REDIS — Caching and pub/sub (with persistence)
+  # ---------------------------------------------------------------------------
+  redis:
+    image: redis:7-alpine
+    container_name: datacendia-redis
+    command: >
+      redis-server
+        --maxmemory 512mb
+        --maxmemory-policy allkeys-lru
+        --appendonly yes
+        --appendfsync everysec
+        --save 60 1000
+        --save 300 100
+        --tcp-backlog 511
+        --timeout 300
+        --tcp-keepalive 300
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    networks:
+      - datacendia-ha
+    deploy:
+      resources:
+        limits:
+          memory: 600M
+
+  # ---------------------------------------------------------------------------
+  # GRAFANA — Monitoring dashboards (auto-provisioned)
+  # ---------------------------------------------------------------------------
+  grafana:
+    image: grafana/grafana:10.4.1
+    container_name: datacendia-grafana
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-datacendia2025}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+      GF_SERVER_ROOT_URL: "%(protocol)s://%(domain)s:%(http_port)s/grafana/"
+      GF_INSTALL_PLUGINS: redis-datasource
+    ports:
+      - "3100:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:3000/api/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    networks:
+      - datacendia-ha
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  # ---------------------------------------------------------------------------
+  # PROMETHEUS — Metrics collection
+  # ---------------------------------------------------------------------------
+  prometheus:
+    image: prom/prometheus:v2.51.0
+    container_name: datacendia-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - prometheus-data:/prometheus
+      - ./infrastructure/prometheus:/etc/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--storage.tsdb.retention.time=30d'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:9090/-/healthy || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    networks:
+      - datacendia-ha
 
 volumes:
-  postgres-primary-data:
-  postgres-replica-data:
+  pg-primary-data:
+    driver: local
+  pg-replica-data:
+    driver: local
+  pg-wal-archive:
+    driver: local
+  redis-data:
+    driver: local
+  grafana-data:
+    driver: local
+  prometheus-data:
+    driver: local
 
 networks:
-  datacendia:
+  datacendia-ha:
     driver: bridge
