@@ -25,6 +25,7 @@ export const AdminLayout: React.FC = () => {
   const adminNav = [
     { id: 'dashboard', label: 'Dashboard', icon: '📊', path: '/admin' },
     { id: 'marketing', label: 'Marketing CMS', icon: '🌐', path: '/admin/marketing', ownerOnly: true },
+    { id: 'marketing-studio', label: 'Marketing Studio', icon: '🎬', path: '/admin/marketing-studio', ownerOnly: true },
     { id: 'sovereign-stack', label: 'Sovereign Stack', icon: '🖥️', path: '/admin/sovereign-stack' },
     { id: 'control-center', label: 'Control Center', icon: '🎛️', path: '/admin/control-center' },
     { id: 'ai', label: 'Admin AI', icon: '🤖', path: '/admin/ai' },

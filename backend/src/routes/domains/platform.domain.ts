@@ -19,6 +19,7 @@ import schemaRoutes from '../schema.js';
 import commandRoutes from '../command.js';
 import omnitranslateRoutes from '../omnitranslate.js';
 import envConfigRoutes from '../env-config.js';
+import marketingStudioRoutes from '../marketing-studio.js';
 
 const router = Router();
 
@@ -38,5 +39,6 @@ router.use('/schema', schemaRoutes);
 router.use('/command', commandRoutes);
 router.use('/omnitranslate', omnitranslateRoutes);
 router.use('/admin/env-config', envConfigRoutes);
+router.use('/marketing-studio', marketingStudioRoutes);
 
 export default router;
