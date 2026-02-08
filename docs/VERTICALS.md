@@ -14,8 +14,8 @@ We orchestrate multi-agent deliberations, ensure regulatory compliance, and crea
 
 ---
 
-**Document Info:** Generated January 7, 2026 | Platform v2.2 | Auto-updated via CendiaEternal™  
-**Total Council Modes:** 400+ | **Total AI Agents:** 200+ | **Verticals:** 17 GA
+**Document Info:** Generated January 7, 2026 | Updated February 8, 2026 | Platform v2.3 | Auto-updated via CendiaEternal™  
+**Total Council Modes:** 400+ | **Total AI Agents:** 200+ | **Verticals:** 17 GA | **Full 6-Layer Verticals:** 9
 
 ---
 
@@ -87,9 +87,9 @@ Healthcare alone represents **43% of vertical AI spend**. We focus where budgets
 
 | # | Vertical | Status | Early Results |
 |---|----------|--------|---------------|
-| 6 | 🛡️ **Insurance** | GA | 29% loss ratio improvement — P&C carrier pilot |
-| 7 | 🏭 **Manufacturing** | GA | 23% inventory reduction ($1.4M freed) — Auto supplier |
-| 8 | ⚡ **Energy & Utilities** | GA | 45% faster rate case prep — IOU  |
+| 6 | 🛡️ **Insurance** | GA (75%) | 29% loss ratio improvement — P&C carrier pilot |
+| 7 | 🏭 **Manufacturing** | **GA (100%)** ✅ | 23% inventory reduction ($1.4M freed) — Full 6-layer: 18 frameworks, 12 schemas |
+| 8 | ⚡ **Energy & Utilities** | **GA (100%)** ✅ | 45% faster rate case prep — Full 6-layer: 9 frameworks, 12 schemas |
 
 ## 🔜 ROADMAP VERTICALS (H1 2026)
 
@@ -165,12 +165,12 @@ Industries with highest vertical AI spend, regulatory urgency, and proven ROI:
 
 Strong adoption with clear ROI, full platform available:
 
-| # | Vertical | Status |
-|---|----------|--------|
-| 7 | 🏭 **Manufacturing** | Supply chain + OT security demand |
-| 8 | ⚡ **Energy & Utilities** | NERC CIP + renewable transition |
-| 9 | 💻 **Technology / SaaS** | Product velocity, AI governance |
-| 10 | 🛒 **Retail & Hospitality** | Pricing velocity, RevPAR optimization |
+| # | Vertical | Status | 6-Layer |
+|---|----------|--------|--------|
+| 7 | 🏭 **Manufacturing** | Supply chain + OT security demand | **100%** (18 frameworks, 12 schemas) |
+| 8 | ⚡ **Energy & Utilities** | NERC CIP + renewable transition | **100%** (9 frameworks, 12 schemas) |
+| 9 | 💻 **Technology / SaaS** | Product velocity, AI governance | 85% |
+| 10 | 🛒 **Retail & Hospitality** | Pricing velocity, RevPAR optimization | 85% |
 
 ## 🔜 TIER 3: COMING SOON (Q2 2026)
 

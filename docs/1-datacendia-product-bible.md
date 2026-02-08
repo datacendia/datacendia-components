@@ -733,15 +733,15 @@ Each includes:
 
 ---
 
-## V2 Reference Implementations (Roadmap)
+## V2 Reference Implementations
 
-| Implementation | Target Buyer | Timeline |
-|----------------|--------------|----------|
-| Customer Intelligence Hub | CMO, CRO | Q3 |
-| Supply Chain Resilience | COO, Procurement | Q3 |
-| Clinical Data Governance | Healthcare CIO | Q4 |
-| Manufacturing Quality | Plant Manager | Q4 |
-| Public Sector Compliance | Government CIO | Q5 |
+| Implementation | Target Buyer | Status |
+|----------------|--------------|--------|
+| Customer Intelligence Hub | CMO, CRO | Roadmap Q3 |
+| Supply Chain Resilience | COO, Procurement | Roadmap Q3 |
+| Clinical Data Governance | Healthcare CIO | **COMPLETE** (12 frameworks, 12 schemas) |
+| Manufacturing Quality | Plant Manager | **COMPLETE** (18 frameworks, 12 schemas) |
+| Public Sector Compliance | Government CIO | **COMPLETE** (15 frameworks, 12 schemas) |
 
 ---
 

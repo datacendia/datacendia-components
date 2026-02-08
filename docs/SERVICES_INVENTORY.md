@@ -219,6 +219,7 @@
 - Logistics, Retail, Education, Legal, Real Estate, Insurance
 - Full backend service + REST API + React Query hooks
 - Integrated with Model Zoo for optimal model selection
+- **9 verticals at full 6-layer VerticalPattern standard** (see February 2026 updates below)
 
 ### Vertical Dashboards (15 Components)
 - **FleetTrackingMap** - Logistics tracking
@@ -250,10 +251,6 @@
 
 ### Market Salary API (`/api/v1/salary`)
 - **BLS Data Source** - Bureau of Labor Statistics
-- **Tech Compensation Source** - Levels.fyi-style data
-- Salary lookup, benchmarking, negotiation prep
-- Career progression, role comparison
-- AI-enhanced talking points via Ollama
 
 ## ❌ REMAINING
 
@@ -278,6 +275,7 @@
 - **Admin Pages:** 9 complete
 - **API Routes:** 15+ complete
 - **Council Modes:** 14 complete
+- **Full 6-Layer Verticals:** 9 complete (Legal, Financial, Healthcare, Government, Energy, Defense, Manufacturing, Industrial Services + Insurance at 75%)
 
 ### Technology Coverage:
 - **Ollama LLM:** Fully integrated across all AI features

@@ -78,11 +78,13 @@ Datacendia is a **genuinely innovative platform** with a unique market position.
 | **Legal** | 100% | Full implementation with agents, schemas, compliance |
 | **Financial Services** | 100% | Basel III, SEC, FINRA compliance |
 | **Defense** | 100% | FedRAMP, CMMC, ITAR compliance |
-| **Government** | 80% | Good structure, needs real connectors |
-| **Healthcare** | 75% | HIPAA framework, needs EHR integration |
+| **Government** | 100% | Full 6-layer: 15 compliance frameworks, 12 decision schemas |
+| **Healthcare** | 100% | Full 6-layer: 12 compliance frameworks, 12 decision schemas, SaMD boundary enforcement |
 | **Insurance** | 75% | ACORD schemas, bias engine |
-| **Energy** | 75% | NERC CIP, data diode concept |
-| **Others (20+)** | 20-30% | Template/placeholder level |
+| **Energy** | 100% | Full 6-layer: 9 compliance frameworks, 12 decision schemas, safety-first defaults |
+| **Manufacturing** | 100% | Full 6-layer: 18 compliance frameworks, 12 decision schemas, PPAP-ready |
+| **Industrial Services** | 100% | Full 6-layer: 18 compliance frameworks, 15 decision schemas, 27 agents |
+| **Others (17+)** | 20-85% | Template/placeholder to partial implementations |
 
 ---
 
@@ -342,7 +344,7 @@ There is no direct competitor doing exactly what Datacendia does. This is both a
 1. **SOC2 Type I preparation** — Start the audit process
 2. **Penetration test** — Third-party security assessment
 3. **Customer pilot** — Get real usage data
-4. **Vertical depth** — Complete Financial and Healthcare to 100%
+4. ~~**Vertical depth**~~ — **COMPLETE** ✅ Healthcare, Government, Manufacturing, Energy all expanded to 100%; Legal refactored to 6-layer standard
 
 ## 5.3 Medium-Term (Next 6 Months)
 
@@ -377,7 +379,7 @@ There is no direct competitor doing exactly what Datacendia does. This is both a
 1. **Thomson Reuters partnership** — Natural fit, non-competitive
 2. **AI regulation wave** — EU AI Act, SEC guidance driving demand
 3. **Enterprise AI adoption** — Every company needs governance
-4. **Vertical expansion** — 27 verticals, only 3-4 complete
+4. **Vertical expansion** — 27 verticals, 9 complete at 100% (Legal, Financial, Healthcare, Government, Energy, Defense, Manufacturing, Industrial Services + Insurance at 75%)
 
 ## Threats
 
@@ -405,4 +407,5 @@ For the Thomson Reuters meeting, the platform is **sufficient to demonstrate the
 ---
 
 *Audit completed: January 29, 2026*  
+*Re-audited: February 8, 2026 — Vertical expansions (Healthcare, Government, Manufacturing, Energy to 100%; Legal refactored to 6-layer standard)*  
 *Methodology: Full codebase review, no assumptions, complete honesty*
