@@ -14,6 +14,7 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
   DataConnector,
+  DataSource,
   IngestResult,
   ProvenanceRecord,
   VerticalKnowledgeBase,
@@ -40,6 +41,40 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './HealthcareComplianceExpanded.js';
+import {
+  SurgeryAuthorizationDecision,
+  ImagingOrderDecision,
+  LabOrderDecision,
+  SpecialistReferralDecision,
+  ReadmissionRiskDecision,
+  ClinicalTrialEnrollmentDecision,
+  EndOfLifeCareDecision,
+  BehavioralHealthAssessmentDecision,
+  ExpandedHealthcareDecision,
+} from './HealthcareDecisionTypesExpanded.js';
+import {
+  SurgeryAuthorizationSchema,
+  ImagingOrderSchema,
+  LabOrderSchema,
+  SpecialistReferralSchema,
+  ReadmissionRiskSchema,
+  ClinicalTrialEnrollmentSchema,
+  EndOfLifeCareSchema,
+  BehavioralHealthAssessmentSchema,
+} from './HealthcareDecisionSchemasExpanded.js';
+
+// Re-export expanded types
+export type {
+  SurgeryAuthorizationDecision,
+  ImagingOrderDecision,
+  LabOrderDecision,
+  SpecialistReferralDecision,
+  ReadmissionRiskDecision,
+  ClinicalTrialEnrollmentDecision,
+  EndOfLifeCareDecision,
+  BehavioralHealthAssessmentDecision,
+};
 
 // ============================================================================
 // HEALTHCARE DECISION TYPES
@@ -175,7 +210,8 @@ export type HealthcareDecision =
   | DiagnosisSupportDecision 
   | TriageRecommendation 
   | DischargeAssessment 
-  | MedicationRecommendation;
+  | MedicationRecommendation
+  | ExpandedHealthcareDecision;
 
 // ============================================================================
 // CONSENT & OVERRIDE LEDGER
@@ -550,6 +586,10 @@ export class HealthcareDataConnector extends DataConnector<FHIRResource> {
     }
   }
 
+  getSources(): DataSource[] {
+    return Array.from(this.sources.values());
+  }
+
   async ingest(sourceId: string, query?: Record<string, unknown>): Promise<IngestResult<FHIRResource>> {
     const source = this.sources.get(sourceId);
     if (!source || source.connectionStatus !== 'connected') {
@@ -760,7 +800,9 @@ export class HealthcareComplianceMapper extends ComplianceMapper {
         { id: 'jcaho-handoff', name: 'Care Transitions', description: 'Standardized handoff communication', severity: 'high', automatable: true },
         { id: 'jcaho-medication', name: 'Medication Management', description: 'Safe medication practices', severity: 'critical', automatable: true }
       ]
-    }
+    },
+    // Merge expanded compliance frameworks (8 additional)
+    ...EXPANDED_COMPLIANCE_FRAMEWORKS,
   ];
 
   mapToFramework(decisionType: string, frameworkId: string): ComplianceControl[] {
@@ -789,7 +831,9 @@ export class HealthcareComplianceMapper extends ComplianceMapper {
       }
     };
 
-    const controlIds = mappings[decisionType]?.[frameworkId] || [];
+    // Also check expanded mappings
+    const expandedControlIds = EXPANDED_COMPLIANCE_MAPPINGS[decisionType]?.[frameworkId] || [];
+    const controlIds = [...(mappings[decisionType]?.[frameworkId] || []), ...expandedControlIds];
     return framework.controls.filter(c => controlIds.includes(c.id));
   }
 
@@ -958,6 +1002,100 @@ export class DiagnosisSupportSchema extends DecisionSchema<DiagnosisSupportDecis
       hash: crypto.createHash('sha256').update(JSON.stringify(decision)).digest('hex'),
       generatedAt: new Date()
     };
+  }
+}
+
+export class TriageRecommendationSchema extends DecisionSchema<TriageRecommendation> {
+  readonly verticalId = 'healthcare';
+  readonly decisionType = 'triage';
+  readonly requiredFields = ['inputs.patient', 'inputs.presentingComplaint', 'outcome.assignedLevel'];
+  readonly requiredApprovers = ['triage-nurse'];
+
+  validate(decision: Partial<TriageRecommendation>): ValidationResult {
+    const errors: string[] = [];
+    const warnings: string[] = [];
+    if (!decision.inputs?.patient) errors.push('Patient context required');
+    if (!decision.inputs?.presentingComplaint) errors.push('Presenting complaint required');
+    if (!decision.outcome?.assignedLevel) errors.push('Triage level required');
+    if (decision.outcome?.nurseOverride) {
+      warnings.push('Nurse override recorded - ensure documentation complete');
+    }
+    return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
+  }
+
+  async sign(decision: TriageRecommendation, signerId: string, signerRole: string, privateKey: string): Promise<TriageRecommendation> {
+    const hash = this.hashDecision(decision);
+    decision.signatures.push({ signerId, signerRole, signedAt: new Date(), signature: this.generateSignature(hash, privateKey), publicKeyFingerprint: crypto.createHash('sha256').update(privateKey).digest('hex').slice(0, 16) });
+    return decision;
+  }
+
+  async toDefensibleArtifact(decision: TriageRecommendation, artifactType: DefensibleArtifact['type']): Promise<DefensibleArtifact> {
+    const content = { triage: decision.inputs, outcome: decision.outcome, deliberation: decision.deliberation };
+    return { id: uuidv4(), decisionId: decision.metadata.id, type: artifactType, content, hash: crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'), generatedAt: new Date(), expiresAt: new Date(Date.now() + 7 * 365 * 24 * 60 * 60 * 1000) };
+  }
+}
+
+export class DischargeAssessmentSchema extends DecisionSchema<DischargeAssessment> {
+  readonly verticalId = 'healthcare';
+  readonly decisionType = 'discharge';
+  readonly requiredFields = ['inputs.patient', 'inputs.admissionDiagnosis', 'outcome.safeToDischarge'];
+  readonly requiredApprovers = ['attending-physician', 'discharge-planner'];
+
+  validate(decision: Partial<DischargeAssessment>): ValidationResult {
+    const errors: string[] = [];
+    const warnings: string[] = [];
+    if (!decision.inputs?.patient) errors.push('Patient context required');
+    if (!decision.inputs?.admissionDiagnosis) errors.push('Admission diagnosis required');
+    if (typeof decision.outcome?.safeToDischarge !== 'boolean') errors.push('Safety assessment required');
+    if (decision.outcome?.safeToDischarge && !decision.outcome?.physicianApproval) {
+      errors.push('Physician approval required for discharge');
+    }
+    return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
+  }
+
+  async sign(decision: DischargeAssessment, signerId: string, signerRole: string, privateKey: string): Promise<DischargeAssessment> {
+    const hash = this.hashDecision(decision);
+    decision.signatures.push({ signerId, signerRole, signedAt: new Date(), signature: this.generateSignature(hash, privateKey), publicKeyFingerprint: crypto.createHash('sha256').update(privateKey).digest('hex').slice(0, 16) });
+    return decision;
+  }
+
+  async toDefensibleArtifact(decision: DischargeAssessment, artifactType: DefensibleArtifact['type']): Promise<DefensibleArtifact> {
+    const content = { discharge: decision.inputs, outcome: decision.outcome, deliberation: decision.deliberation };
+    return { id: uuidv4(), decisionId: decision.metadata.id, type: artifactType, content, hash: crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'), generatedAt: new Date(), expiresAt: new Date(Date.now() + 7 * 365 * 24 * 60 * 60 * 1000) };
+  }
+}
+
+export class MedicationRecommendationSchema extends DecisionSchema<MedicationRecommendation> {
+  readonly verticalId = 'healthcare';
+  readonly decisionType = 'medication';
+  readonly requiredFields = ['inputs.patient', 'inputs.indication', 'outcome.suggestedMedications', 'outcome.pharmacistReview'];
+  readonly requiredApprovers = ['prescriber', 'pharmacist'];
+
+  validate(decision: Partial<MedicationRecommendation>): ValidationResult {
+    const errors: string[] = [];
+    const warnings: string[] = [];
+    if (!decision.inputs?.patient) errors.push('Patient context required');
+    if (!decision.inputs?.indication) errors.push('Indication required');
+    if (!decision.outcome?.suggestedMedications?.length) errors.push('At least one medication suggestion required');
+    if (typeof decision.outcome?.pharmacistReview !== 'boolean') errors.push('Pharmacist review status required');
+    if (decision.outcome?.prescriberOverride) {
+      warnings.push('Prescriber override recorded - ensure clinical justification documented');
+    }
+    if (decision.outcome?.interactions?.some(i => i.severity === 'major')) {
+      warnings.push('Major drug interactions detected - prescriber review required');
+    }
+    return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
+  }
+
+  async sign(decision: MedicationRecommendation, signerId: string, signerRole: string, privateKey: string): Promise<MedicationRecommendation> {
+    const hash = this.hashDecision(decision);
+    decision.signatures.push({ signerId, signerRole, signedAt: new Date(), signature: this.generateSignature(hash, privateKey), publicKeyFingerprint: crypto.createHash('sha256').update(privateKey).digest('hex').slice(0, 16) });
+    return decision;
+  }
+
+  async toDefensibleArtifact(decision: MedicationRecommendation, artifactType: DefensibleArtifact['type']): Promise<DefensibleArtifact> {
+    const content = { medication: decision.inputs, outcome: decision.outcome, deliberation: decision.deliberation };
+    return { id: uuidv4(), decisionId: decision.metadata.id, type: artifactType, content, hash: crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'), generatedAt: new Date(), expiresAt: new Date(Date.now() + 7 * 365 * 24 * 60 * 60 * 1000) };
   }
 }
 
@@ -1183,7 +1321,7 @@ export class HealthcareDefensibleOutput extends DefensibleOutput<HealthcareDecis
 export class HealthcareVerticalImplementation implements VerticalImplementation<HealthcareDecision> {
   readonly verticalId = 'healthcare';
   readonly verticalName = 'Healthcare';
-  readonly completionPercentage = 85;
+  readonly completionPercentage = 100; // ✅ COMPLETE - Tripled scope: 12 frameworks, 12 decision types
   readonly targetPercentage = 100;
 
   readonly dataConnector: HealthcareDataConnector;
@@ -1204,7 +1342,20 @@ export class HealthcareVerticalImplementation implements VerticalImplementation<
     this.samdBoundaryEnforcer = new SaMDBoundaryEnforcer();
 
     this.decisionSchemas = new Map();
+    // Original 4 schemas
     this.decisionSchemas.set('diagnosis-support', new DiagnosisSupportSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('triage', new TriageRecommendationSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('discharge', new DischargeAssessmentSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('medication', new MedicationRecommendationSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    // Expanded 8 schemas
+    this.decisionSchemas.set('surgery-authorization', new SurgeryAuthorizationSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('imaging-order', new ImagingOrderSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('lab-order', new LabOrderSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('specialist-referral', new SpecialistReferralSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('readmission-risk', new ReadmissionRiskSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('clinical-trial-enrollment', new ClinicalTrialEnrollmentSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('end-of-life-care', new EndOfLifeCareSchema() as unknown as DecisionSchema<HealthcareDecision>);
+    this.decisionSchemas.set('behavioral-health-assessment', new BehavioralHealthAssessmentSchema() as unknown as DecisionSchema<HealthcareDecision>);
 
     this.agentPresets = new Map();
     this.agentPresets.set('clinical-triage', new ClinicalTriageAgentPreset());
@@ -1218,8 +1369,8 @@ export class HealthcareVerticalImplementation implements VerticalImplementation<
     if (this.dataConnector.getConnectedSources().length === 0) {
       missing.push('EHR/FHIR connections (client-provided)');
     }
-    if (this.decisionSchemas.size < 4) {
-      missing.push('Triage, Discharge, Medication schemas');
+    if (this.decisionSchemas.size < 12) {
+      missing.push(`Decision schemas incomplete: ${this.decisionSchemas.size}/12`);
     }
 
     return {
