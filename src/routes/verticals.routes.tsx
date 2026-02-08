@@ -76,6 +76,9 @@ const HospitalityPage = lazy(() =>
 const NonProfitPage = lazy(() =>
   import('../pages/verticals').then((m) => ({ default: m.NonProfitPage }))
 );
+const IndustrialServicesPage = lazy(() =>
+  import('../pages/verticals').then((m) => ({ default: m.IndustrialServicesPage }))
+);
 const SmartCityPage = lazy(() =>
   import('../pages/verticals').then((m) => ({ default: m.SmartCityPage }))
 );
@@ -109,6 +112,7 @@ export const verticalsRoutes: RouteObject[] = [
   { path: '/verticals/construction', element: w(ConstructionPage) },
   { path: '/verticals/hospitality', element: w(HospitalityPage) },
   { path: '/verticals/nonprofit', element: w(NonProfitPage) },
+  { path: '/verticals/industrial-services', element: w(IndustrialServicesPage) },
   { path: '/verticals/smart-city', element: w(SmartCityPage) },
   { path: '/industries', element: w(VerticalsHubPage) },
   { path: '/solutions', element: w(VerticalsHubPage) },

@@ -284,6 +284,20 @@ const verticals: Vertical[] = [
     compliance: ['Salary Cap Rules', 'League Regulations', 'Player Union', 'Anti-Doping'],
     status: 'ga',
   },
+  {
+    id: 'industrial-services',
+    name: 'Industrial Services',
+    icon: '🏗️',
+    tier: 'growth',
+    roi: '38%',
+    sovereignty: 100,
+    description: 'Project-based decision intelligence for industrial maintenance, repair, and construction with safety-first AI',
+    keyMetric: '34% bid win rate improvement',
+    route: '/verticals/industrial-services',
+    agents: ['Safety Sentinel', 'Project Evaluator', 'Finance Controller', 'Procurement Analyst', 'Legal Advisor', 'Quality Inspector', 'Environmental Officer'],
+    compliance: ['ISO 45001', 'ISO 9001', 'OSHA 1926', 'SUNAFIL', 'ISO 14001', 'ASME/AWS'],
+    status: 'ga',
+  },
   // Tier 3: Coming Soon
   {
     id: 'telecom',

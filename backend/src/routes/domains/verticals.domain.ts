@@ -9,6 +9,7 @@ import insuranceRoutes from '../insurance.js';
 import energyRoutes from '../energy.js';
 import defenseRoutes from '../defense.js';
 import sportsRoutes from '../sports.js';
+import industrialServicesRoutes from '../industrial-services.js';
 import verticalAgentsRoutes from '../vertical-agents.js';
 import verticalConfigRoutes from '../vertical-config.js';
 
@@ -20,6 +21,7 @@ router.use('/insurance', insuranceRoutes);
 router.use('/energy', energyRoutes);
 router.use('/defense', defenseRoutes);
 router.use('/sports', sportsRoutes);
+router.use('/industrial-services', industrialServicesRoutes);
 router.use('/vertical-agents', verticalAgentsRoutes);
 router.use('/vertical-config', verticalConfigRoutes);
 

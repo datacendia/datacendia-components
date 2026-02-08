@@ -1084,6 +1084,79 @@ export const pharmaceuticalAgents: VerticalAgentConfig = {
 };
 
 // =============================================================================
+// INDUSTRIAL SERVICES AGENTS
+// =============================================================================
+export const industrialServicesAgents: VerticalAgentConfig = {
+  verticalId: 'industrial-services',
+  verticalName: 'Industrial Services',
+  agents: [
+    {
+      id: 'safety-sentinel',
+      name: 'SafetySentinel',
+      role: 'Chief Safety Officer AI',
+      description: 'Enforces OSHA, ISO 45001, and SUNAFIL safety compliance across all operations',
+      capabilities: ['Hazard identification (IPERC)', 'Risk assessment matrices', 'Permit-to-work evaluation', 'Incident investigation'],
+      specializations: ['OSHA 29 CFR 1926', 'ISO 45001:2018', 'SUNAFIL DS 005-2012-TR', 'Confined space', 'Working at height'],
+      icon: '🦺',
+    },
+    {
+      id: 'project-evaluator',
+      name: 'ProjectEvaluator',
+      role: 'Project Director AI',
+      description: 'Evaluates project bids, resource capacity, schedule feasibility, and historical performance',
+      capabilities: ['Bid/no-bid analysis', 'Resource capacity planning', 'Schedule risk assessment', 'Historical benchmarking'],
+      specializations: ['Industrial maintenance', 'Piping & fabrication', 'Boiler repair', 'Turnaround projects'],
+      icon: '📋',
+    },
+    {
+      id: 'finance-controller',
+      name: 'FinanceController',
+      role: 'Finance Controller AI',
+      description: 'Analyzes costs, margins, ROI, cash flow impacts, and financial viability',
+      capabilities: ['Cost estimation', 'Margin analysis', 'TCO calculation', 'ROI projection'],
+      specializations: ['Project costing', 'Equipment valuation', 'Contract financial terms', 'Currency risk (PEN/USD)'],
+      icon: '💰',
+    },
+    {
+      id: 'procurement-analyst',
+      name: 'ProcurementAnalyst',
+      role: 'Procurement & Vendor AI',
+      description: 'Evaluates subcontractors, vendors, and supply chain risks using multi-criteria scoring',
+      capabilities: ['Vendor scoring', 'Subcontractor qualification', 'Insurance verification', 'Price benchmarking'],
+      specializations: ['Subcontractor management', 'Equipment procurement', 'Materials sourcing', 'Heavy equipment'],
+      icon: '🔗',
+    },
+    {
+      id: 'legal-advisor',
+      name: 'LegalAdvisor',
+      role: 'Legal & Contract AI',
+      description: 'Reviews contract terms, assesses legal risks, and ensures regulatory compliance',
+      capabilities: ['Contract clause analysis', 'Liability assessment', 'Force majeure evaluation', 'Multi-jurisdiction analysis'],
+      specializations: ['Construction contracts', 'Service agreements', 'Peruvian labor law', 'FIDIC contracts'],
+      icon: '⚖️',
+    },
+    {
+      id: 'quality-inspector',
+      name: 'QualityInspector',
+      role: 'Quality & Standards AI',
+      description: 'Ensures ISO 9001, ASME, and AWS compliance for welding and fabrication',
+      capabilities: ['ISO 9001 verification', 'Welding procedure review', 'NDE requirements', 'Quality plan development'],
+      specializations: ['ASME BPVC', 'AWS D1.1', 'ASME IX', 'NDE methods (RT/UT/MT/PT)'],
+      icon: '🔍',
+    },
+    {
+      id: 'environmental-officer',
+      name: 'EnvironmentalOfficer',
+      role: 'Environmental Compliance AI',
+      description: 'Assesses environmental impacts and ensures ISO 14001 compliance',
+      capabilities: ['Environmental impact assessment', 'ISO 14001 compliance', 'Waste management', 'Emissions monitoring'],
+      specializations: ['Mining site environmental rules', 'Peru environmental law (MINAM)', 'Hazardous waste'],
+      icon: '🌿',
+    },
+  ],
+};
+
+// =============================================================================
 // EXPORT ALL AGENTS
 // =============================================================================
 
@@ -1105,6 +1178,7 @@ export const VERTICAL_AGENTS: Record<string, VerticalAgentConfig> = {
   'professional-services': professionalServicesAgents,
   transportation: transportationAgents,
   pharmaceutical: pharmaceuticalAgents,
+  'industrial-services': industrialServicesAgents,
 };
 
 // Helper function to get agents for a vertical

@@ -24,6 +24,9 @@ export { HigherEducationPage } from './HigherEducationPage';
 export { SportsPage } from './SportsPage';
 export { TelecommunicationsPage } from './TelecommunicationsPage';
 
+// Industrial Services
+export { IndustrialServicesPage } from './IndustrialServicesPage';
+
 // Tier 3: Specialized Verticals
 export { AerospacePage } from './AerospacePage';
 export { AgriculturePage } from './AgriculturePage';
