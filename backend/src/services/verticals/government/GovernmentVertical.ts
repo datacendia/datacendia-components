@@ -32,6 +32,39 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './GovernmentComplianceExpanded.js';
+import {
+  PersonnelActionDecision,
+  RegulatoryActionDecision,
+  ITInvestmentDecision,
+  ContractModificationDecision,
+  FOIARequestDecision,
+  IGAuditResponseDecision,
+  EmergencyDeclarationDecision,
+  InteragencyAgreementDecision,
+  ExpandedGovernmentDecision,
+} from './GovernmentDecisionTypesExpanded.js';
+import {
+  PersonnelActionSchema,
+  RegulatoryActionSchema,
+  ITInvestmentSchema,
+  ContractModificationSchema,
+  FOIARequestSchema,
+  IGAuditResponseSchema,
+  EmergencyDeclarationSchema,
+  InteragencyAgreementSchema,
+} from './GovernmentDecisionSchemasExpanded.js';
+
+export type {
+  PersonnelActionDecision,
+  RegulatoryActionDecision,
+  ITInvestmentDecision,
+  ContractModificationDecision,
+  FOIARequestDecision,
+  IGAuditResponseDecision,
+  EmergencyDeclarationDecision,
+  InteragencyAgreementDecision,
+};
 
 // ============================================================================
 // GOVERNMENT DECISION TYPES
@@ -117,7 +150,7 @@ export interface BudgetDecision extends BaseDecision {
   };
 }
 
-export type GovernmentDecision = ProcurementDecision | PolicyDecision | GrantDecision | BudgetDecision;
+export type GovernmentDecision = ProcurementDecision | PolicyDecision | GrantDecision | BudgetDecision | ExpandedGovernmentDecision;
 
 // ============================================================================
 // LAYER 1: GOVERNMENT DATA CONNECTOR
@@ -395,7 +428,8 @@ export class GovernmentComplianceMapper extends ComplianceMapper {
         { id: '2cfr-monitoring', name: 'Subrecipient Monitoring', description: 'Grantee oversight', severity: 'high', automatable: true },
         { id: '2cfr-closeout', name: 'Grant Closeout', description: 'Final reporting', severity: 'medium', automatable: true }
       ]
-    }
+    },
+    ...EXPANDED_COMPLIANCE_FRAMEWORKS,
   ];
 
   mapToFramework(decisionType: string, frameworkId: string): ComplianceControl[] {
@@ -417,7 +451,8 @@ export class GovernmentComplianceMapper extends ComplianceMapper {
       }
     };
 
-    const controlIds = mappings[decisionType]?.[frameworkId] || [];
+    const expandedControlIds = EXPANDED_COMPLIANCE_MAPPINGS[decisionType]?.[frameworkId] || [];
+    const controlIds = [...(mappings[decisionType]?.[frameworkId] || []), ...expandedControlIds];
     return framework.controls.filter(c => controlIds.includes(c.id));
   }
 
@@ -536,6 +571,87 @@ export class ProcurementDecisionSchema extends DecisionSchema<ProcurementDecisio
       generatedAt: new Date(),
       expiresAt: new Date(Date.now() + 6 * 365 * 24 * 60 * 60 * 1000) // 6 years for procurement
     };
+  }
+}
+
+export class PolicyDecisionSchema extends DecisionSchema<PolicyDecision> {
+  readonly verticalId = 'government';
+  readonly decisionType = 'policy';
+  readonly requiredFields = ['inputs.policyId', 'inputs.policyType', 'outcome.approved'];
+  readonly requiredApprovers = ['agency-head', 'general-counsel'];
+
+  validate(decision: Partial<PolicyDecision>): ValidationResult {
+    const errors: string[] = [];
+    const warnings: string[] = [];
+    if (!decision.inputs?.policyId) errors.push('Policy ID required');
+    if (!decision.inputs?.policyType) errors.push('Policy type required');
+    if (typeof decision.outcome?.approved !== 'boolean') errors.push('Approval decision required');
+    return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
+  }
+
+  async sign(decision: PolicyDecision, signerId: string, signerRole: string, privateKey: string): Promise<PolicyDecision> {
+    const hash = this.hashDecision(decision);
+    decision.signatures.push({ signerId, signerRole, signedAt: new Date(), signature: this.generateSignature(hash, privateKey), publicKeyFingerprint: crypto.createHash('sha256').update(privateKey).digest('hex').slice(0, 16) });
+    return decision;
+  }
+
+  async toDefensibleArtifact(decision: PolicyDecision, artifactType: DefensibleArtifact['type']): Promise<DefensibleArtifact> {
+    const content = { policy: decision.inputs, outcome: decision.outcome, deliberation: decision.deliberation };
+    return { id: uuidv4(), decisionId: decision.metadata.id, type: artifactType, content, hash: crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'), generatedAt: new Date(), expiresAt: new Date(Date.now() + 10 * 365 * 24 * 60 * 60 * 1000) };
+  }
+}
+
+export class GrantDecisionSchema extends DecisionSchema<GrantDecision> {
+  readonly verticalId = 'government';
+  readonly decisionType = 'grant';
+  readonly requiredFields = ['inputs.opportunityNumber', 'inputs.requestedAmount', 'outcome.awarded'];
+  readonly requiredApprovers = ['program-officer', 'grants-officer'];
+
+  validate(decision: Partial<GrantDecision>): ValidationResult {
+    const errors: string[] = [];
+    const warnings: string[] = [];
+    if (!decision.inputs?.opportunityNumber) errors.push('Opportunity number required');
+    if (typeof decision.inputs?.requestedAmount !== 'number') errors.push('Requested amount required');
+    if (typeof decision.outcome?.awarded !== 'boolean') errors.push('Award decision required');
+    return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
+  }
+
+  async sign(decision: GrantDecision, signerId: string, signerRole: string, privateKey: string): Promise<GrantDecision> {
+    const hash = this.hashDecision(decision);
+    decision.signatures.push({ signerId, signerRole, signedAt: new Date(), signature: this.generateSignature(hash, privateKey), publicKeyFingerprint: crypto.createHash('sha256').update(privateKey).digest('hex').slice(0, 16) });
+    return decision;
+  }
+
+  async toDefensibleArtifact(decision: GrantDecision, artifactType: DefensibleArtifact['type']): Promise<DefensibleArtifact> {
+    const content = { grant: decision.inputs, outcome: decision.outcome, deliberation: decision.deliberation };
+    return { id: uuidv4(), decisionId: decision.metadata.id, type: artifactType, content, hash: crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'), generatedAt: new Date(), expiresAt: new Date(Date.now() + 10 * 365 * 24 * 60 * 60 * 1000) };
+  }
+}
+
+export class BudgetDecisionSchema extends DecisionSchema<BudgetDecision> {
+  readonly verticalId = 'government';
+  readonly decisionType = 'budget';
+  readonly requiredFields = ['inputs.fiscalYear', 'inputs.requestedAmount', 'outcome.approved'];
+  readonly requiredApprovers = ['budget-officer', 'cfo'];
+
+  validate(decision: Partial<BudgetDecision>): ValidationResult {
+    const errors: string[] = [];
+    const warnings: string[] = [];
+    if (typeof decision.inputs?.fiscalYear !== 'number') errors.push('Fiscal year required');
+    if (typeof decision.inputs?.requestedAmount !== 'number') errors.push('Requested amount required');
+    if (typeof decision.outcome?.approved !== 'boolean') errors.push('Approval decision required');
+    return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
+  }
+
+  async sign(decision: BudgetDecision, signerId: string, signerRole: string, privateKey: string): Promise<BudgetDecision> {
+    const hash = this.hashDecision(decision);
+    decision.signatures.push({ signerId, signerRole, signedAt: new Date(), signature: this.generateSignature(hash, privateKey), publicKeyFingerprint: crypto.createHash('sha256').update(privateKey).digest('hex').slice(0, 16) });
+    return decision;
+  }
+
+  async toDefensibleArtifact(decision: BudgetDecision, artifactType: DefensibleArtifact['type']): Promise<DefensibleArtifact> {
+    const content = { budget: decision.inputs, outcome: decision.outcome, deliberation: decision.deliberation };
+    return { id: uuidv4(), decisionId: decision.metadata.id, type: artifactType, content, hash: crypto.createHash('sha256').update(JSON.stringify(content)).digest('hex'), generatedAt: new Date(), expiresAt: new Date(Date.now() + 10 * 365 * 24 * 60 * 60 * 1000) };
   }
 }
 
@@ -664,7 +780,7 @@ export class GovernmentDefensibleOutput extends DefensibleOutput<GovernmentDecis
 export const governmentVertical = new (class implements VerticalImplementation<GovernmentDecision> {
   readonly verticalId = 'government';
   readonly verticalName = 'Government / Public Sector';
-  readonly completionPercentage = 85;
+  readonly completionPercentage = 100; // ✅ COMPLETE - Tripled scope: 15 frameworks, 12 decision types
   readonly targetPercentage = 100;
 
   readonly dataConnector: DataConnector<unknown> = new GovernmentDataConnector();
@@ -672,6 +788,17 @@ export const governmentVertical = new (class implements VerticalImplementation<G
   readonly complianceMapper: ComplianceMapper = new GovernmentComplianceMapper();
   readonly decisionSchemas: Map<string, DecisionSchema<GovernmentDecision>> = new Map([
     ['procurement', new ProcurementDecisionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['policy', new PolicyDecisionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['grant', new GrantDecisionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['budget', new BudgetDecisionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['personnel-action', new PersonnelActionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['regulatory-action', new RegulatoryActionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['it-investment', new ITInvestmentSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['contract-modification', new ContractModificationSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['foia-request', new FOIARequestSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['ig-audit-response', new IGAuditResponseSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['emergency-declaration', new EmergencyDeclarationSchema() as unknown as DecisionSchema<GovernmentDecision>],
+    ['interagency-agreement', new InteragencyAgreementSchema() as unknown as DecisionSchema<GovernmentDecision>],
   ]);
   readonly agentPresets: Map<string, any> = new Map();
   readonly defensibleOutput: DefensibleOutput<GovernmentDecision> = new GovernmentDefensibleOutput();

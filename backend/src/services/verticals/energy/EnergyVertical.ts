@@ -39,6 +39,35 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './EnergyComplianceExpanded.js';
+import {
+  GenerationDispatchDecision,
+  OutagePlanningDecision,
+  RenewableIntegrationDecision,
+  DemandResponseDecision,
+  TransmissionUpgradeDecision,
+  FuelProcurementDecision,
+  EnvironmentalComplianceDecision,
+  AssetRetirementDecision,
+  ExpandedEnergyDecision,
+} from './EnergyDecisionTypesExpanded.js';
+import {
+  GenerationDispatchSchema,
+  OutagePlanningSchema,
+  RenewableIntegrationSchema,
+  DemandResponseSchema,
+} from './EnergyDecisionSchemasExpanded.js';
+
+export type {
+  GenerationDispatchDecision,
+  OutagePlanningDecision,
+  RenewableIntegrationDecision,
+  DemandResponseDecision,
+  TransmissionUpgradeDecision,
+  FuelProcurementDecision,
+  EnvironmentalComplianceDecision,
+  AssetRetirementDecision,
+};
 
 // ============================================================================
 // ENERGY/UTILITY DATA TYPES
@@ -190,7 +219,8 @@ export type EnergyDecision =
   | MaintenanceDeferral 
   | LoadBalancingDecision 
   | EmergencyResponse 
-  | GridOptimization;
+  | GridOptimization
+  | ExpandedEnergyDecision;
 
 // ============================================================================
 // SAFETY-FIRST DECISION FRAMEWORK
@@ -870,7 +900,8 @@ export class EnergyComplianceMapper extends ComplianceMapper {
         { id: 'bal-001', name: 'Real Power Balancing', description: 'Maintain frequency within limits', severity: 'critical', automatable: true },
         { id: 'var-001', name: 'Voltage Control', description: 'Maintain voltage within limits', severity: 'critical', automatable: true }
       ]
-    }
+    },
+    ...EXPANDED_COMPLIANCE_FRAMEWORKS,
   ];
 
   mapToFramework(decisionType: string, frameworkId: string): ComplianceControl[] {
@@ -899,7 +930,8 @@ export class EnergyComplianceMapper extends ComplianceMapper {
       }
     };
 
-    const controlIds = mappings[decisionType]?.[frameworkId] || [];
+    const expandedControlIds = EXPANDED_COMPLIANCE_MAPPINGS[decisionType]?.[frameworkId] || [];
+    const controlIds = [...(mappings[decisionType]?.[frameworkId] || []), ...expandedControlIds];
     return framework.controls.filter(c => controlIds.includes(c.id));
   }
 

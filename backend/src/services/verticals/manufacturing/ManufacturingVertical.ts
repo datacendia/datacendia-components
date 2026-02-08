@@ -38,6 +38,39 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './ManufacturingComplianceExpanded.js';
+import {
+  ProductLaunchDecision,
+  SupplierQualificationDecision,
+  ProcessChangeDecision,
+  EquipmentQualificationDecision,
+  NCRDispositionDecision,
+  EnvironmentalPermitDecision,
+  WorkforceTrainingDecision,
+  CapitalInvestmentDecision,
+  ExpandedManufacturingDecision,
+} from './ManufacturingDecisionTypesExpanded.js';
+import {
+  ProductLaunchSchema,
+  SupplierQualificationSchema,
+  ProcessChangeSchema,
+  EquipmentQualificationSchema,
+  NCRDispositionSchema,
+  EnvironmentalPermitSchema,
+  WorkforceTrainingSchema,
+  CapitalInvestmentSchema,
+} from './ManufacturingDecisionSchemasExpanded.js';
+
+export type {
+  ProductLaunchDecision,
+  SupplierQualificationDecision,
+  ProcessChangeDecision,
+  EquipmentQualificationDecision,
+  NCRDispositionDecision,
+  EnvironmentalPermitDecision,
+  WorkforceTrainingDecision,
+  CapitalInvestmentDecision,
+};
 
 // ============================================================================
 // Manufacturing DECISION TYPES
@@ -138,7 +171,7 @@ export interface PortfolioRebalance extends BaseDecision {
   };
 }
 
-export type ManufacturingDecision = productionDecision | qualityApproval | safetyEscalation | PortfolioRebalance;
+export type ManufacturingDecision = productionDecision | qualityApproval | safetyEscalation | PortfolioRebalance | ExpandedManufacturingDecision;
 
 // ============================================================================
 // LAYER 1: Manufacturing DATA CONNECTOR
@@ -476,7 +509,8 @@ export class ManufacturingComplianceMapper extends ComplianceMapper {
         { id: 'df-clearing', name: 'Central Clearing', description: 'Derivatives clearing requirements', severity: 'high', automatable: true },
         { id: 'df-margin', name: 'Margin Requirements', description: 'Uncleared swap margins', severity: 'high', automatable: true }
       ]
-    }
+    },
+    ...EXPANDED_COMPLIANCE_FRAMEWORKS,
   ];
 
   mapToFramework(decisionType: string, frameworkId: string): ComplianceControl[] {
@@ -503,7 +537,8 @@ export class ManufacturingComplianceMapper extends ComplianceMapper {
       }
     };
 
-    const controlIds = mappings[decisionType]?.[frameworkId] || [];
+    const expandedControlIds = EXPANDED_COMPLIANCE_MAPPINGS[decisionType]?.[frameworkId] || [];
+    const controlIds = [...(mappings[decisionType]?.[frameworkId] || []), ...expandedControlIds];
     return framework.controls.filter(c => controlIds.includes(c.id));
   }
 
