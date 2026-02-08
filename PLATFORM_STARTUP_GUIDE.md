@@ -134,7 +134,7 @@ After startup, verify all services:
 - [ ] Frontend loads: http://localhost:5173 ✅
 - [ ] Backend health: http://localhost:3001/api/v1/health ✅
 - [ ] Swagger docs: http://localhost:3001/api/docs ✅
-- [ ] Grafana: http://localhost:3002 (admin/datacendia2024, dashboards auto-provisioned) ✅
+- [ ] Grafana: http://localhost:3100 (admin/datacendia2025, dashboards auto-provisioned) ✅
 - [ ] Neo4j: http://localhost:7474 (neo4j/datacendia2024) ✅
 - [ ] Prometheus: http://localhost:9090 ✅
 
@@ -242,7 +242,7 @@ npm run dev
 - **Docs:** http://localhost:3001/api-docs
 
 ### Infrastructure
-- **Grafana:** http://localhost:3002 (admin/datacendia2024) — dashboards auto-provisioned
+- **Grafana:** http://localhost:3100 (admin/datacendia2025) — dashboards auto-provisioned
 - **Neo4j:** http://localhost:7474 (neo4j/datacendia2024)
 - **Prometheus:** http://localhost:9090
 - **Redis:** localhost:6379 (password: datacendia2024)

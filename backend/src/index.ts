@@ -113,6 +113,9 @@ app.get('/readiness', async (_req, res) => {
   res.status(200).send('OK');
 });
 
+// Prometheus metrics - before middleware so scraping works without auth
+app.use('/metrics', prometheusRoutes);
+
 app.use(helmet({
   contentSecurityPolicy: {
     directives: {
@@ -262,9 +265,6 @@ app.use('/api/v1', simulationDomain);  // sgas, scge, collapse
 app.use('/api/v1', workflowsDomain);   // workflows, integrations, scheduler
 app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, gnosis, apotheosis, visualization
 app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
-
-// Special mounts (non-standard paths)
-app.use('/metrics', prometheusRoutes);
 
 // 404 handler
 app.use((_req, res) => {

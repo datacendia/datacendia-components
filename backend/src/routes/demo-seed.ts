@@ -537,6 +537,25 @@ router.post('/seed/tr', async (_req: Request, res: Response) => {
       console.log('Skipping organization: may already exist or table issue');
     }
 
+    // 1b. Seed TR agents (needed for deliberation_messages FK)
+    const trAgents = [
+      { id: 'cfo_advisor', code: 'TR_CFO', name: 'CFO Advisor', role: 'financial', description: 'Financial analysis and Basel III compliance', system_prompt: 'You are the CFO Advisor function for financial compliance review.', capabilities: ['financial_analysis', 'compliance'], constraints: ['Must cite regulations'], model_config: { model: 'deepseek-r1:32b', temperature: 0.7 }, is_active: true },
+      { id: 'risk_analyzer', code: 'TR_RISK', name: 'Risk Analyzer', role: 'risk', description: 'Regulatory risk assessment and dissent', system_prompt: 'You are the Risk Analyzer function for regulatory risk assessment.', capabilities: ['risk_assessment', 'dissent'], constraints: ['Must quantify risk'], model_config: { model: 'deepseek-r1:32b', temperature: 0.7 }, is_active: true },
+      { id: 'legal_counsel', code: 'TR_LEGAL', name: 'Legal Counsel', role: 'legal', description: 'Legal compliance and liability analysis', system_prompt: 'You are the Legal Counsel function for regulatory compliance.', capabilities: ['legal_analysis', 'compliance'], constraints: ['Must cite case law'], model_config: { model: 'deepseek-r1:32b', temperature: 0.7 }, is_active: true },
+      { id: 'compliance_bot', code: 'TR_COMPLIANCE', name: 'Compliance Bot', role: 'compliance', description: 'Automated compliance checks', system_prompt: 'You are the Compliance Bot function for automated regulatory checks.', capabilities: ['aml_screening', 'pep_check'], constraints: ['Must be deterministic'], model_config: { model: 'deepseek-r1:32b', temperature: 0.3 }, is_active: true },
+    ];
+    for (const agent of trAgents) {
+      try {
+        await prisma.agents.upsert({
+          where: { id: agent.id },
+          update: { name: agent.name, updated_at: new Date() },
+          create: { ...agent, updated_at: new Date() }
+        });
+      } catch (e) {
+        console.log(`Skipping agent ${agent.id}:`, e);
+      }
+    }
+
     // 2. Seed deliberation
     try {
       await prisma.deliberations.upsert({

@@ -27,7 +27,7 @@ scrape_configs:
   # Datacendia API
   - job_name: 'datacendia-api'
     static_configs:
-      - targets: ['host.docker.internal:3000']
+      - targets: ['host.docker.internal:3001']
     metrics_path: '/metrics'
     scrape_interval: 10s
 

@@ -32,7 +32,7 @@ docker-compose -f docker-compose.infrastructure.yml logs --tail=50
 | **ClickHouse** | 8123, 9000 | Fast analytics | User: `datacendia`, Pass: `datacendia2024` |
 | **Keycloak** | 8080 | Enterprise SSO | Admin: `admin`, Pass: `datacendia2024` |
 | **Tika** | 9998 | Document extraction | No auth |
-| **Grafana** | 3002 | Monitoring dashboards | Admin: `admin`, Pass: `datacendia2024` |
+| **Grafana** | 3100 | Monitoring dashboards | Admin: `admin`, Pass: `datacendia2025` |
 | **Tempo** | 3200, 4317, 4318 | Distributed tracing | No auth |
 | **Prometheus** | 9090 | Metrics collection | No auth |
 
@@ -73,7 +73,7 @@ docker exec datacendia-clickhouse clickhouse-client --query "SELECT 1"
 
 ### Check Grafana
 ```bash
-# Open browser: http://localhost:3002
+# Open browser: http://localhost:3100
 # Login: admin / datacendia2024
 # Dashboards are auto-provisioned on startup
 ```
@@ -217,7 +217,7 @@ After infrastructure is running:
 2. ✅ Run tests: `npm test` (202,500+ tests, all pass)
 3. ✅ Verify Chronos time-travel works with Druid
 4. ✅ Verify graph operations work with Neo4j
-5. ✅ Check Grafana dashboards at http://localhost:3002 (auto-provisioned)
+5. ✅ Check Grafana dashboards at http://localhost:3100 (auto-provisioned)
 
 ---
 

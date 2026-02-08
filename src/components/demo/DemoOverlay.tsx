@@ -9,7 +9,8 @@
  * - Recording controls
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
+import { router } from '../../routes.lazy';
 import { 
   Play, 
   Pause, 
@@ -48,6 +49,47 @@ export const DemoOverlay: React.FC = () => {
     getCurrentStep,
     getProgress,
   } = useDemoMode();
+
+  // Auto-navigate when step changes
+  useEffect(() => {
+    if (!isActive || !currentDemo) return;
+    const step = currentDemo.steps[currentStepIndex];
+    if (step?.route) {
+      router.navigate(step.route);
+    }
+  }, [isActive, currentDemo, currentStepIndex]);
+
+  // Keyboard shortcuts
+  useEffect(() => {
+    if (!isActive) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      switch (e.key) {
+        case 'ArrowRight':
+          e.preventDefault();
+          nextStep();
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          prevStep();
+          break;
+        case ' ':
+          e.preventDefault();
+          isPlaying ? pause() : play();
+          break;
+        case 'Escape':
+          e.preventDefault();
+          stopDemo();
+          break;
+        case 's':
+          e.preventDefault();
+          toggleScript();
+          break;
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isActive, isPlaying, nextStep, prevStep, play, pause, stopDemo, toggleScript]);
 
   if (!isActive || !currentDemo || !showOverlay) return null;
 

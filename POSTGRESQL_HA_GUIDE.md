@@ -398,7 +398,7 @@ npm run dev
 curl http://localhost:3001/api/v1/health
 
 # 5. Check Grafana dashboards (auto-provisioned)
-# Open http://localhost:3002 (admin/datacendia2024)
+# Open http://localhost:3100 (admin/datacendia2025)
 ```
 
 **Done!** You now have high availability with monitoring.

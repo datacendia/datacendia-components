@@ -226,7 +226,7 @@ Access: http://localhost:9090
 
 ### Grafana Dashboards — ✅ AUTO-PROVISIONED (Feb 7, 2026)
 
-Access: http://localhost:3002 (admin/datacendia2024)
+Access: http://localhost:3100 (admin/datacendia2024)
 
 **Dashboards are auto-imported on startup** via provisioning:
 - `grafana/provisioning/dashboards/dashboards.yml`
