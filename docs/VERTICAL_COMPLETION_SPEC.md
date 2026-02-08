@@ -55,7 +55,51 @@ Everything else is missing 2–4 layers.
 
 ---
 
-## 1️⃣ FINANCIAL SERVICES ✅ COMPLETE
+## 1️⃣ LEGAL SERVICES ✅ COMPLETE (REFACTORED)
+
+### What 100% Looks Like
+**Datacendia = "Privilege-Preserving Legal Intelligence"**
+
+### ✅ Implemented Components (Refactored to 6-Layer Standard)
+
+#### Data Connectors ✅
+- **File**: `backend/src/services/verticals/legal/LegalVertical.ts`
+- **Sources**: Case Law Library (Westlaw/LexisNexis), Matter Management, Document Management (iManage/NetDocuments), Conflicts Database, Billing System, Court Filing System (PACER/ECF)
+- **Status**: 6 sources with provenance enforcement
+
+#### Decision Schemas ✅
+- **Implemented**: 12 decision types
+  - ContractReview, LitigationStrategy, SettlementApproval, PrivilegeDetermination, EDiscoveryProduction, RegulatoryResponse, MADueDiligence, EmploymentDispute, IPProtection, DataPrivacyCompliance, ConflictCheck, ExpertEngagement
+- **Features**: Full validation, privilege protection, citation enforcement
+- **Files**: `LegalDecisionTypes.ts`, `LegalDecisionSchemas.ts`
+
+#### Compliance & Liability Mapping ✅
+- **Frameworks**: 15 total
+  - ABA Model Rules, FRCP, FRE, NY Rules, CA Rules, TX Rules, SEC Rules, GDPR, CCPA, FCPA, Antitrust (Sherman/Clayton), IP Law, Employment Law, Contract Law, Litigation Standards
+- **File**: `LegalComplianceFrameworks.ts`
+
+#### Agent Presets ✅
+- **Presets**: Legal Council with 6-step workflow
+- **Guardrails**: 8 total (4 hard-stops including privilege-gate, conflict-gate, citation-gate, client-approval)
+- **Special Features**: "No source, no claim" citation enforcement, attorney-client privilege gates
+
+#### Defensible Outputs ✅
+- **Regulator Packets**: Bar association and court-ready
+- **Court Bundles**: Privilege-protected with attorney oversight statements
+- **Audit Trails**: Full decision trace with privilege markers
+
+### Killer Asset
+Privilege-preserving AI with citation enforcement: "No source, no claim" + attorney-client privilege gates ensure ethical compliance.
+
+### Refactor Notes
+- **Migrated from**: Custom `LegalVerticalService` (EventEmitter-based)
+- **Migrated to**: 6-layer VerticalPattern standard
+- **Preserved features**: Privilege gates, citation enforcement, matter management, conflict checking
+- **New features**: Compliance frameworks, decision schemas, defensible outputs, comprehensive testing
+
+---
+
+## 2️⃣ FINANCIAL SERVICES ✅ COMPLETE
 
 ### What 100% Looks Like
 **Datacendia = "Decision Evidence Engine for Finance"**
@@ -625,6 +669,6 @@ Signed clinician override + dissent records that reduce malpractice exposure. "W
 
 ---
 
-*Document Version: 1.6*
+*Document Version: 1.7*
 *Last Updated: 2026-02-08*
-*Changes: Added 4 verticals at 100% complete - Industrial Services (18/15/27), Healthcare (12/12), Government (15/12), Manufacturing (18/12), Energy (9/12)*
+*Changes: Refactored Legal to 6-layer standard (15 frameworks, 12 decision types); Expanded 4 verticals - Industrial Services (18/15/27), Healthcare (12/12), Government (15/12), Manufacturing (18/12), Energy (9/12)*
