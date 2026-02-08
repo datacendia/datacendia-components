@@ -4,3 +4,4 @@
 
 export * from './RealEstateAgents.js';
 export * from './RealEstateCouncilModes.js';
+export * from './RealEstateVertical.js';

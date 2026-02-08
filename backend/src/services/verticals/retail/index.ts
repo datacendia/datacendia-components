@@ -4,3 +4,4 @@
 
 export * from './RetailAgents.js';
 export * from './RetailCouncilModes.js';
+export * from './RetailVerticalExpanded.js';
