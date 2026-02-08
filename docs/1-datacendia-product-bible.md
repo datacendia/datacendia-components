@@ -781,6 +781,118 @@ Each Industry Package = Core Platform + Vertical-Specific Reference Implementati
 - **Specialized Agent**: CendiaSafety™ (safety advocate)
 - **Key Entities**: Assets, Grid, Generation, Distribution, Incidents
 
+### Legal Services Package
+- **Reference Implementation**: Privilege-Preserving Legal Intelligence
+- **Additional Compliance**: ABA Model Rules, FRCP, FRE, GDPR, CCPA, FCPA (15 frameworks)
+- **Specialized Agent**: Litigation Governance (privilege gates, citation enforcement)
+- **Key Entities**: Matters, Documents, Conflicts, Billing, Court Filings
+
+### Insurance Package
+- **Reference Implementation**: Claims & Underwriting Truth Layer
+- **Additional Compliance**: NAIC AI Model Governance, Solvency II, IFRS 17, ACORD Standards (8 frameworks)
+- **Specialized Agent**: Underwriting Governance (bias detection, fairness artifacts)
+- **Key Entities**: Policies, Claims, Exposures, Reserves, Reinsurance
+
+### Defense & National Security Package
+- **Reference Implementation**: DIU-Ready Decision Intelligence
+- **Additional Compliance**: FedRAMP High, CMMC Level 3, ITAR, NIST 800-171, LOAC
+- **Specialized Agent**: Mission Governance (OPSEC enforcement, classification guard)
+- **Key Entities**: Missions, Threats, Assets, Personnel, Acquisitions
+
+### Industrial Services Package
+- **Reference Implementation**: Safety-First Decision Intelligence
+- **Additional Compliance**: ISO 45001, OSHA 29 CFR 1926, SUNAFIL, NFPA (18 frameworks)
+- **Specialized Agent**: Industrial Safety Governance (9 hard-stop guardrails)
+- **Key Entities**: Projects, Equipment, Permits, Contractors, Incidents
+
+### Technology / SaaS Package
+- **Reference Implementation**: AI Governance for AI Builders
+- **Additional Compliance**: SOC 2, ISO 27001, GDPR, EU AI Act, NIST AI RMF (6 frameworks)
+- **Specialized Agent**: Model Governance (deployment review, security guardrails)
+- **Key Entities**: Models, Deployments, Incidents, Pipelines, APIs
+
+### Retail & E-Commerce Package
+- **Reference Implementation**: Pricing & Ethics Governor
+- **Additional Compliance**: FTC Act, CCPA/CPRA, PCI DSS, Robinson-Patman (10 frameworks)
+- **Specialized Agent**: Pricing Governance (ethics gate enforcement)
+- **Key Entities**: Products, Pricing, Promotions, Customers, Supply Chain
+
+### Education Package
+- **Reference Implementation**: Assessment & Decision Fairness Engine
+- **Additional Compliance**: FERPA, Title IX, ADA/Section 504, Clery Act, COPPA (10 frameworks)
+- **Specialized Agent**: Admissions Governance (equity guardrails)
+- **Key Entities**: Students, Courses, Assessments, Financial Aid, Faculty
+
+### Real Estate Package
+- **Reference Implementation**: Valuation & Lending Evidence Layer
+- **Additional Compliance**: Fair Housing Act, ECOA, RESPA, TILA, HMDA, USPAP (10 frameworks)
+- **Specialized Agent**: Fair Housing Governance (bias detection)
+- **Key Entities**: Properties, Mortgages, Appraisals, Leases, Transactions
+
+### Agriculture & AgTech Package
+- **Reference Implementation**: Precision Agriculture Decision Engine
+- **Additional Compliance**: FIFRA, Clean Water Act, FSMA, USDA Organic, Farm Bill (10 frameworks)
+- **Specialized Agent**: Precision Agriculture Governance (environmental compliance)
+- **Key Entities**: Crops, Livestock, Parcels, Equipment, Subsidies
+
+### Automotive Package
+- **Reference Implementation**: Vehicle Safety & Compliance Decision Engine
+- **Additional Compliance**: NHTSA FMVSS, EPA Emissions, CARB, ISO 26262, IATF 16949 (10 frameworks)
+- **Specialized Agent**: Vehicle Safety Governance (recall management)
+- **Key Entities**: Vehicles, Parts, Suppliers, Recalls, Emissions
+
+### Construction Package
+- **Reference Implementation**: Construction Safety & Compliance Decision Engine
+- **Additional Compliance**: OSHA, IBC, LEED, Prevailing Wage, DBE/MBE/WBE (10 frameworks)
+- **Specialized Agent**: Construction Safety Governance (OSHA-ready audit trails)
+- **Key Entities**: Projects, Permits, Inspections, Subcontractors, Change Orders
+
+### Pharmaceutical Package
+- **Reference Implementation**: Drug Safety & Regulatory Decision Engine
+- **Additional Compliance**: FDA 21 CFR, ICH Guidelines, EMA, DEA CSA, DSCSA (10 frameworks)
+- **Specialized Agent**: Pharmaceutical Safety Governance (GxP audit trails)
+- **Key Entities**: Drugs, Trials, Adverse Events, Submissions, Manufacturing
+
+### Hospitality Package
+- **Reference Implementation**: Guest Safety & Operations Decision Engine
+- **Additional Compliance**: ADA, FDA Food Code, OSHA, PCI DSS, Liquor Regulations (10 frameworks)
+- **Specialized Agent**: Guest Experience Governance (food safety, accessibility)
+- **Key Entities**: Properties, Guests, Events, F&B, Staff
+
+### Telecom Package
+- **Reference Implementation**: Network & Subscriber Decision Engine
+- **Additional Compliance**: FCC Regulations, CALEA, TCPA, Spectrum Regulations, USF (10 frameworks)
+- **Specialized Agent**: Telecom Network Governance (spectrum, privacy)
+- **Key Entities**: Networks, Subscribers, Spectrum, Towers, Interconnections
+
+### Transportation & Logistics Package
+- **Reference Implementation**: Fleet Safety & Compliance Decision Engine
+- **Additional Compliance**: FMCSA, DOT Hazmat 49 CFR, CBP, EPA SmartWay, IMDG Code (10 frameworks)
+- **Specialized Agent**: Fleet Safety Governance (HOS enforcement, hazmat)
+- **Key Entities**: Drivers, Vehicles, Shipments, Routes, Warehouses
+
+### Media & Entertainment Package
+- **Reference Implementation**: Content & Rights Decision Engine
+- **Additional Compliance**: COPPA, DMCA, Section 230, EU DSA, EU AI Act (10 frameworks)
+- **Specialized Agent**: Content Governance (child safety, rights management)
+- **Key Entities**: Content, Rights, Ads, Talent, Audiences
+
+### Aerospace Package
+- **Reference Implementation**: Aviation Safety & Certification Decision Engine
+- **Additional Compliance**: FAR, EASA, AS9100, DO-178C, ITAR, ICAO Annexes (10 frameworks)
+- **Specialized Agent**: Aviation Safety Governance (airworthiness, certification)
+- **Key Entities**: Aircraft, Parts, Maintenance, Certifications, Flight Operations
+
+### Sports Package
+- **Reference Implementation**: Athletic Governance & Compliance Decision Engine
+- **Additional Compliance**: UEFA FFP, WADA Code, FIFA Regulations, Safeguarding (10 frameworks)
+- **Specialized Agent**: Sports Governance (FFP compliance, player safety)
+- **Key Entities**: Players, Transfers, Contracts, Matches, Venues
+
+---
+
+> **Total: 23 Industry Verticals** — All at 100% with full 6-layer VerticalPattern standard (DataConnector, KnowledgeBase, ComplianceMapper, DecisionSchemas, AgentPresets, DefensibleOutput).
+
 ---
 
 # Part VIII: Technology Stack
