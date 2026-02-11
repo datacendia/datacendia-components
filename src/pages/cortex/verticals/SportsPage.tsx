@@ -6,6 +6,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
   Trophy,
@@ -26,6 +27,9 @@ import {
   DollarSign,
   BarChart3,
   Scale,
+  Gavel,
+  Layers,
+  Activity,
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -265,6 +269,7 @@ const formatCurrency = (amount: number): string => {
 export default function SportsPage() {
   const { t } = useTranslation();
   const { user } = useAuth();
+  const navigate = useNavigate();
   const [decisions, setDecisions] = useState<TransferDecision[]>(MOCK_DECISIONS);
   const [frameworks] = useState<ComplianceFramework[]>(MOCK_FRAMEWORKS);
   const [loading, setLoading] = useState(false);
@@ -319,10 +324,16 @@ export default function SportsPage() {
             Transfer decisions, contract governance, FFP compliance
           </p>
         </div>
-        <Button onClick={handleNewDecision} className="gap-2">
-          <Plus className="h-4 w-4" />
-          New Decision
-        </Button>
+        <div className="flex gap-2">
+          <Button variant="outline" onClick={() => navigate('/cortex/verticals/sports/uefa-walkthrough')} className="gap-2">
+            <Gavel className="h-4 w-4" />
+            UEFA Walkthrough
+          </Button>
+          <Button onClick={handleNewDecision} className="gap-2">
+            <Plus className="h-4 w-4" />
+            New Decision
+          </Button>
+        </div>
       </div>
 
       {/* Stats Cards */}
@@ -398,6 +409,10 @@ export default function SportsPage() {
           <TabsTrigger value="analytics" className="gap-2">
             <BarChart3 className="h-4 w-4" />
             Analytics
+          </TabsTrigger>
+          <TabsTrigger value="crisis" className="gap-2">
+            <Activity className="h-4 w-4" />
+            Crisis Immunization
           </TabsTrigger>
         </TabsList>
 
@@ -666,6 +681,130 @@ export default function SportsPage() {
               </CardContent>
             </Card>
           </div>
+        </TabsContent>
+        {/* Crisis Immunization Tab */}
+        <TabsContent value="crisis" className="space-y-4">
+          <Card className="border-2 border-indigo-200 dark:border-indigo-800">
+            <CardHeader className="bg-indigo-50 dark:bg-indigo-900/20">
+              <CardTitle className="flex items-center gap-2">
+                <Gavel className="h-5 w-5 text-indigo-600" />
+                Crisis Immunization Framework
+              </CardTitle>
+              <CardDescription>
+                Modules designed to make football governance decisions provable, defensible, and CAS-resilient.
+                Click any module to see how it applies to your organization.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="pt-6">
+              <div className="grid gap-4 md:grid-cols-2">
+                {[
+                  {
+                    title: 'Discovery-Time Proof',
+                    target: 'UEFA / CAS',
+                    problem: 'Evidence invalidated by timing disputes',
+                    outcome: 'Cryptographic timestamps lock the moment evidence becomes actionable',
+                    icon: Clock,
+                    color: 'text-blue-600',
+                  },
+                  {
+                    title: 'Mathematical Rule Fairness Ledger',
+                    target: 'FIFA / EU Law',
+                    problem: 'Rules challenged as arbitrary or disproportionate',
+                    outcome: 'Objective rule application with proportionality proofs',
+                    icon: Scale,
+                    color: 'text-purple-600',
+                  },
+                  {
+                    title: 'Continuity Simulation Engine',
+                    target: 'Clubs',
+                    problem: 'Institutional knowledge lost during leadership change',
+                    outcome: 'Decision DNA captures intent, constraints, and trade-offs',
+                    icon: Users,
+                    color: 'text-green-600',
+                  },
+                  {
+                    title: 'Public Verifiability Layer',
+                    target: 'Socios / Members',
+                    problem: 'Trust collapse after governance scandals',
+                    outcome: 'Selective cryptographic disclosure of governance actions',
+                    icon: Eye,
+                    color: 'text-orange-600',
+                  },
+                  {
+                    title: 'Pre-Mortem & Override Ledger',
+                    target: 'Board / Directors',
+                    problem: 'High-value decisions fail without accountability',
+                    outcome: 'Pre-mortem risk capture + immutable override justification',
+                    icon: AlertTriangle,
+                    color: 'text-red-600',
+                  },
+                  {
+                    title: 'Deliberation Synchronization',
+                    target: 'Multi-Director Clubs',
+                    problem: 'Multiple decision-makers, incoherent outcomes',
+                    outcome: 'Synchronized deliberation records with conflict visibility',
+                    icon: Layers,
+                    color: 'text-cyan-600',
+                  },
+                  {
+                    title: 'Rehabilitation-Grade Audit',
+                    target: 'Previously Sanctioned Clubs',
+                    problem: 'Regulator distrust after prior sanctions',
+                    outcome: 'Forward-looking auditability with continuous proof',
+                    icon: Shield,
+                    color: 'text-indigo-600',
+                  },
+                  {
+                    title: 'Compliance Drift Early-Warning',
+                    target: 'PSR / FFP Clubs',
+                    problem: 'Financial breaches detected too late to correct',
+                    outcome: 'Real-time variance detection against regulatory constraints',
+                    icon: TrendingUp,
+                    color: 'text-emerald-600',
+                  },
+                ].map((mod) => (
+                  <Card key={mod.title} className="hover:shadow-md transition-shadow">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-base flex items-center gap-2">
+                        <mod.icon className={`h-5 w-5 ${mod.color}`} />
+                        {mod.title}
+                      </CardTitle>
+                      <div className="flex gap-2">
+                        <Badge variant="outline" className="text-xs">{mod.target}</Badge>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground mb-2">
+                        <strong>Problem:</strong> {mod.problem}
+                      </p>
+                      <p className="text-sm">
+                        <strong>Solution:</strong> {mod.outcome}
+                      </p>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+
+              <div className="mt-6 p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-semibold flex items-center gap-2">
+                      <Gavel className="h-4 w-4 text-indigo-600" />
+                      UEFA Procedural Integrity Walkthrough
+                    </h3>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      Interactive demo showing Discovery-Time Proof, Multi-Agent Deliberation,
+                      Procedural Compliance, and the Regulator's Receipt in action.
+                    </p>
+                  </div>
+                  <Button onClick={() => navigate('/cortex/verticals/sports/uefa-walkthrough')} className="gap-2 shrink-0">
+                    <ChevronRight className="h-4 w-4" />
+                    Launch Walkthrough
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </TabsContent>
       </Tabs>
     </div>
