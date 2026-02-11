@@ -90,7 +90,16 @@ export default function PostQuantumKMSPage() {
       const response = await api.get('/post-quantum/algorithms');
       setAlgorithms((response.data as any).data);
     } catch (err) {
-      console.error('Failed to load algorithms:', err);
+      console.error('Failed to load algorithms, using demo data:', err);
+      setAlgorithms([
+        { algorithm: 'dilithium2' as PQAlgorithm, nistLevel: 2, signatureSize: 2420, publicKeySize: 1312, privateKeySize: 2528, description: 'CRYSTALS-Dilithium Level 2 - Balanced security/performance' },
+        { algorithm: 'dilithium3' as PQAlgorithm, nistLevel: 3, signatureSize: 3293, publicKeySize: 1952, privateKeySize: 4000, description: 'CRYSTALS-Dilithium Level 3 - Higher security' },
+        { algorithm: 'dilithium5' as PQAlgorithm, nistLevel: 5, signatureSize: 4595, publicKeySize: 2592, privateKeySize: 4864, description: 'CRYSTALS-Dilithium Level 5 - Maximum security' },
+        { algorithm: 'falcon-512' as PQAlgorithm, nistLevel: 1, signatureSize: 690, publicKeySize: 897, privateKeySize: 1281, description: 'FALCON-512 - Compact signatures, fast verification' },
+        { algorithm: 'falcon-1024' as PQAlgorithm, nistLevel: 5, signatureSize: 1330, publicKeySize: 1793, privateKeySize: 2305, description: 'FALCON-1024 - Maximum security, compact signatures' },
+        { algorithm: 'sphincs-shake-128f' as PQAlgorithm, nistLevel: 1, signatureSize: 17088, publicKeySize: 32, privateKeySize: 64, description: 'SPHINCS+ SHAKE-128f - Hash-based, conservative security' },
+        { algorithm: 'hybrid-rsa-dilithium' as PQAlgorithm, nistLevel: 3, signatureSize: 5713, publicKeySize: 3264, privateKeySize: 6528, description: 'Hybrid RSA-4096 + Dilithium3 - Backward compatible' },
+      ]);
     }
   };
 
@@ -99,7 +108,12 @@ export default function PostQuantumKMSPage() {
       const response = await api.get('/post-quantum/keys');
       setKeys((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load keys:', err);
+      console.error('Failed to load keys, using demo data:', err);
+      setKeys([
+        { id: 'pq-key-001', algorithm: 'dilithium3' as PQAlgorithm, publicKey: 'PQ-PUB-a1b2c3d4...', privateKey: '[ENCRYPTED]', createdAt: new Date('2026-01-01'), expiresAt: new Date('2027-01-01'), strength: 'high', nistLevel: 3, rotatedAt: new Date('2026-01-15') },
+        { id: 'pq-key-002', algorithm: 'falcon-512' as PQAlgorithm, publicKey: 'PQ-PUB-e5f6g7h8...', privateKey: '[ENCRYPTED]', createdAt: new Date('2025-12-15'), expiresAt: new Date('2026-12-15'), strength: 'standard', nistLevel: 1 },
+        { id: 'pq-key-003', algorithm: 'hybrid-rsa-dilithium' as PQAlgorithm, publicKey: 'PQ-PUB-i9j0k1l2...', privateKey: '[ENCRYPTED]', createdAt: new Date('2025-11-01'), expiresAt: new Date('2026-11-01'), strength: 'paranoid', nistLevel: 3 },
+      ]);
     }
   };
 

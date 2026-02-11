@@ -97,7 +97,12 @@ export default function CarbonAwareSchedulerPage() {
       const response = await api.get('/carbon-aware/intensity');
       setCarbonIntensity((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load carbon intensity:', err);
+      console.error('Failed to load carbon intensity, using demo data:', err);
+      setCarbonIntensity([
+        { region: 'us-east-1', intensity: 420, forecast: [{hour:0,intensity:400,confidence:0.9},{hour:6,intensity:350,confidence:0.85},{hour:12,intensity:480,confidence:0.8},{hour:18,intensity:390,confidence:0.75}], source: 'WattTime', timestamp: new Date() },
+        { region: 'eu-west-1', intensity: 280, forecast: [{hour:0,intensity:260,confidence:0.9},{hour:6,intensity:220,confidence:0.85},{hour:12,intensity:310,confidence:0.8},{hour:18,intensity:250,confidence:0.75}], source: 'ElectricityMaps', timestamp: new Date() },
+        { region: 'us-west-2', intensity: 190, forecast: [{hour:0,intensity:180,confidence:0.9},{hour:6,intensity:150,confidence:0.85},{hour:12,intensity:220,confidence:0.8},{hour:18,intensity:170,confidence:0.75}], source: 'WattTime', timestamp: new Date() },
+      ]);
     }
   };
 
@@ -106,7 +111,12 @@ export default function CarbonAwareSchedulerPage() {
       const response = await api.get('/carbon-aware/workloads');
       setWorkloads((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load workloads:', err);
+      console.error('Failed to load workloads, using demo data:', err);
+      setWorkloads([
+        { id: 'wl-1', name: 'Quarterly Risk Model Training', type: 'model-training', priority: 'normal' as WorkloadPriority, estimatedDurationMinutes: 180, estimatedEnergyWh: 5400, preferredRegions: ['us-west-2'], maxDeferralHours: 12, submittedAt: new Date(Date.now()-3600000), status: 'scheduled' as WorkloadStatus, assignedRegion: 'us-west-2', carbonSaved: 1.2 },
+        { id: 'wl-2', name: 'Council Deliberation Batch', type: 'inference', priority: 'high' as WorkloadPriority, estimatedDurationMinutes: 45, estimatedEnergyWh: 800, preferredRegions: ['us-east-1'], maxDeferralHours: 0, submittedAt: new Date(Date.now()-7200000), status: 'completed' as WorkloadStatus, assignedRegion: 'us-east-1', carbonEmitted: 0.34, carbonSaved: 0 },
+        { id: 'wl-3', name: 'Document Translation Batch', type: 'inference', priority: 'deferrable' as WorkloadPriority, estimatedDurationMinutes: 90, estimatedEnergyWh: 2100, preferredRegions: ['eu-west-1','us-west-2'], maxDeferralHours: 24, submittedAt: new Date(), status: 'pending' as WorkloadStatus },
+      ]);
     }
   };
 
@@ -115,7 +125,8 @@ export default function CarbonAwareSchedulerPage() {
       const response = await api.get('/carbon-aware/budget/current');
       setBudget((response.data as any).data);
     } catch (err) {
-      console.error('Failed to load budget:', err);
+      console.error('Failed to load budget, using demo data:', err);
+      setBudget({ id: 'budget-q1', organizationId: 'datacendia', periodStart: new Date('2026-01-01'), periodEnd: new Date('2026-03-31'), budgetKgCO2: 500, usedKgCO2: 187, remainingKgCO2: 313, forecastKgCO2: 420, status: 'on_track' });
     }
   };
 

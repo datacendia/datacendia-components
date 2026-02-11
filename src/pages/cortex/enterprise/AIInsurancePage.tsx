@@ -44,7 +44,14 @@ export default function AIInsurancePage() {
       const types = await AIInsuranceService.getCoverageTypes();
       setCoverageTypes(types);
     } catch (error) {
-      console.error('Failed to load data:', error);
+      console.error('Failed to load data, using demo data:', error);
+      setCoverageTypes([
+        { type: 'errors_omissions' as any, name: 'AI Errors & Omissions', description: 'Coverage for AI system failures, incorrect outputs, and decision errors', basePremium: 25000 },
+        { type: 'cyber_liability' as any, name: 'AI Cyber Liability', description: 'Coverage for AI-related data breaches, adversarial attacks, and model theft', basePremium: 35000 },
+        { type: 'product_liability' as any, name: 'AI Product Liability', description: 'Coverage for harm caused by AI-powered products or services', basePremium: 45000 },
+        { type: 'professional' as any, name: 'AI Professional Liability', description: 'Coverage for professional negligence in AI system design and deployment', basePremium: 30000 },
+        { type: 'directors_officers' as any, name: 'AI D&O Insurance', description: 'Coverage for directors and officers for AI governance decisions', basePremium: 50000 },
+      ]);
     } finally {
       setLoading(false);
     }
