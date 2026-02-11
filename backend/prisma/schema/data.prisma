@@ -306,6 +306,33 @@ model health_incidents {
   @@index([status])
 }
 
+model chronos_events {
+  id              String   @id @default(uuid())
+  organization_id String
+  event_type      String   // deliberation, decision_outcome, veto, dissent, alert, weight_adjustment, compliance, security, health, snapshot, collection, agent_config, data_source, metric_change
+  category        String   // council, echo, governance, security, data, system, compliance
+  severity        String   @default("info") // info, low, medium, high, critical
+  title           String
+  description     String
+  actor           String?  // user_id or agent_id or 'system'
+  actor_type      String?  // user, agent, system, scheduler
+  resource_type   String?  // deliberation, decision, agent, metric, alert, etc.
+  resource_id     String?  // ID of the affected resource
+  metadata        Json     @default("{}")
+  impact          String?  // positive, negative, neutral, critical
+  magnitude       Int      @default(0) // 0-10 significance score
+  parent_event_id String?  // For event chaining (e.g., deliberation -> outcome)
+  hash            String?  // SHA-256 hash for tamper detection
+  created_at      DateTime @default(now())
+
+  @@index([organization_id, created_at])
+  @@index([event_type])
+  @@index([category])
+  @@index([severity])
+  @@index([resource_type, resource_id])
+  @@index([parent_event_id])
+}
+
 model chronos_snapshots {
   id              String   @id @default(uuid())
   organization_id String

@@ -1294,6 +1294,47 @@ export const echoApi = {
   async getDashboard() {
     return api.get<unknown>('/echo/dashboard');
   },
+
+  async getPendingDecisions(params?: { olderThanDays?: number; limit?: number }) {
+    return api.get<unknown[]>('/echo/pending', params);
+  },
+
+  async getWeightHistory(params?: { agentId?: string; limit?: number }) {
+    return api.get<unknown[]>('/echo/weight-history', params);
+  },
+
+  async scheduleCollection(data: {
+    deliberationId: string;
+    collectionDelayDays?: number;
+    dataSourceIds?: string[];
+    metricKeys?: string[];
+  }) {
+    return api.post<unknown>('/echo/collections/schedule', data);
+  },
+
+  async getCollectionJobs(params?: { status?: string; limit?: number }) {
+    return api.get<unknown[]>('/echo/collections', params);
+  },
+
+  async approveCollection(jobId: string, overrides?: {
+    actualRevenue?: number;
+    actualProfit?: number;
+    actualHeadcount?: number;
+    actualRisk?: number;
+    actualSatisfaction?: number;
+    actualMarketShare?: number;
+    notes?: string;
+  }) {
+    return api.post<unknown>(`/echo/collections/${jobId}/approve`, overrides || {});
+  },
+
+  async cancelCollection(jobId: string) {
+    return api.delete<unknown>(`/echo/collections/${jobId}`);
+  },
+
+  async processCollections() {
+    return api.post<unknown>('/echo/collections/process', {});
+  },
 };
 
 // ============================================================================

@@ -432,13 +432,15 @@ const CollapsePage: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="p-2 bg-red-500/20 rounded-lg">
-              <AlertTriangle className="w-8 h-8 text-red-400" />
+          <div className="flex items-center gap-5 mb-2">
+            <div className="w-12 h-12 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 flex items-center justify-center">
+              <AlertTriangle className="w-6 h-6 text-red-400" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold">Policy Collapse Mode</h1>
-              <p className="text-gray-400">Adversarial Policy Stress-Testing System</p>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                CENDIACOLLAPSE<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+              </h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Adversarial Policy Stress-Testing</p>
             </div>
           </div>
           <p className="text-gray-500 italic mt-2">

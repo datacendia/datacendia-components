@@ -16,6 +16,9 @@ export default defineConfig({
         secure: false,
       },
     },
+    watch: {
+      ignored: ['**/data/**'],
+    },
     // Security headers for development
     headers: {
       'X-Frame-Options': 'DENY',
@@ -88,5 +91,6 @@ export default defineConfig({
   // Optimize deps for faster cold starts
   optimizeDeps: {
     include: ['react', 'react-dom', 'react-router-dom', 'clsx'],
+    exclude: ['data'],
   },
 })

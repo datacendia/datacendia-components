@@ -25,6 +25,17 @@ import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from
 import { DemoModeToggle, DemoIndicatorBadge } from '../components/demo';
 import { NotificationBell } from '../components/notifications/NotificationBell';
 import { PlatformAssistant } from '../components/ai-assistant/PlatformAssistant';
+import {
+  Clock, Ghost, Skull, BarChart3, Eye, Film,
+  ScanEye, PenTool, Landmark, Dna, Flame, Target, ScrollText,
+  Building2, Scale, FlaskConical, Lock, Shield, KeyRound, Leaf,
+  Globe, Activity, Languages, Megaphone, UserCheck, Brain,
+  Infinity, Network, SearchCode, Briefcase, Castle, Settings,
+  Factory, Gavel, HeartPulse, Banknote, Building, ShieldCheck, Pill,
+  Zap, Monitor, ShoppingCart, HardHat, Truck, Clapperboard,
+  GraduationCap, Trophy, Columns,
+  type LucideIcon,
+} from 'lucide-react';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -245,7 +256,7 @@ const coreSuiteFeatures = [
   {
     id: 'chronos',
     label: 'CendiaChronos™',
-    icon: '⏱️',
+    Icon: Clock,
     path: '/cortex/intelligence/chronos',
     description: 'Enterprise Time Machine - Replay past decisions, simulate future crisis scenarios',
     featured: true,
@@ -254,35 +265,35 @@ const coreSuiteFeatures = [
   {
     id: 'ghost-board',
     label: 'Ghost Board™',
-    icon: '👻',
+    Icon: Ghost,
     path: '/cortex/intelligence/ghost-board',
     description: 'Rehearse high-stakes board meetings against AI avatars',
   },
   {
     id: 'pre-mortem',
     label: 'Pre-Mortem Engine',
-    icon: '💀',
+    Icon: Skull,
     path: '/cortex/intelligence/pre-mortem',
     description: 'AI analyzes why your decision will fail before you execute it',
   },
   {
     id: 'decision-debt',
     label: 'Decision Debt™',
-    icon: '📊',
+    Icon: BarChart3,
     path: '/cortex/intelligence/decision-debt',
     description: 'Real-time dashboard of stuck decisions and the financial cost of delay',
   },
   {
     id: 'live-visualization',
     label: 'Live Deliberation',
-    icon: '👁️‍🗨️',
+    Icon: Eye,
     path: '/cortex/council/visualization',
     description: 'Watch AI agents deliberate in real-time with animated avatars',
   },
   {
     id: 'replay-theater',
     label: 'Replay Theater',
-    icon: '🎬',
+    Icon: Film,
     path: '/cortex/council/replay-theater',
     description: 'Watch past deliberations unfold like a movie',
   },
@@ -295,7 +306,7 @@ const trustLayerFeatures = [
   {
     id: 'oversight',
     label: 'CendiaOversight™',
-    icon: '👁️',
+    Icon: ScanEye,
     path: '/cortex/sovereign/panopticon',
     description: 'Real-time Regulatory Radar - FDA, GDPR, DORA frameworks with policy gates',
     merged: ['Govern', 'Audit', 'Veto', 'Regulatory Absorb', 'Panopticon'],
@@ -303,7 +314,7 @@ const trustLayerFeatures = [
   {
     id: 'notary',
     label: 'CendiaNotary™',
-    icon: '✍️',
+    Icon: PenTool,
     path: '/cortex/sovereign/notary',
     description: 'Cryptographic Signing Authority - Signs and authenticates all decisions with customer-owned keys',
     merged: ['Key Management', 'Digital Signatures', 'Non-Repudiation'],
@@ -311,7 +322,7 @@ const trustLayerFeatures = [
   {
     id: 'vault',
     label: 'CendiaVault™',
-    icon: '🏛️',
+    Icon: Landmark,
     path: '/cortex/sovereign/vault',
     description: 'Unified Evidence Storage - Decision packets, audit ledger, evidence bundles, signed reports',
     merged: ['Decision Packets', 'Audit Ledger', 'Evidence Bundles', 'Signed Reports'],
@@ -319,7 +330,7 @@ const trustLayerFeatures = [
   {
     id: 'decision-dna',
     label: 'Decision DNA™',
-    icon: '🧬',
+    Icon: Dna,
     path: '/cortex/intelligence/decision-dna',
     description: 'Immutable Lineage - Cryptographically signed audit packets on local ledger',
     merged: ['Ledger', 'Evidence Vault'],
@@ -327,7 +338,7 @@ const trustLayerFeatures = [
   {
     id: 'crucible',
     label: 'CendiaCrucible™',
-    icon: '🔥',
+    Icon: Flame,
     path: '/cortex/sovereign/crucible',
     description: 'Adversarial Stress Testing - Attack decisions with simulated threats',
     merged: ['RedTeam', 'Echo', 'Apotheosis'],
@@ -335,14 +346,14 @@ const trustLayerFeatures = [
   {
     id: 'adversarial-redteam',
     label: '100 Ways to Fail',
-    icon: '🎯',
+    Icon: Target,
     path: '/cortex/enterprise/adversarial-redteam',
     description: 'Adversarial Red Team - Every agent becomes a devil\'s advocate',
   },
   {
     id: 'regulators-receipt',
     label: "Regulator's Receipt",
-    icon: '📜',
+    Icon: ScrollText,
     path: '/cortex/compliance/regulators-receipt',
     description: 'Audit-Safe Proof - One-click court-admissible decision documentation',
     merged: ['Ledger Export', 'Evidence Bundle', 'Chronos Replay', 'Policy Mapping'],
@@ -350,7 +361,7 @@ const trustLayerFeatures = [
   {
     id: 'sgas',
     label: 'SGAS™',
-    icon: '🏛️',
+    Icon: Building2,
     path: '/cortex/sovereign/sgas',
     description: 'Synthetic Governance Agent System - 5 agent classes for institutional decision verification at societal scale',
     merged: ['Decision Agents', 'Institutional Agents', 'Adversarial Agents', 'Observer Agents', 'Meta-Governance'],
@@ -358,7 +369,7 @@ const trustLayerFeatures = [
   {
     id: 'constitutional-court',
     label: 'AI Constitutional Court',
-    icon: '⚖️',
+    Icon: Scale,
     path: '/cortex/governance/constitutional-court',
     description: 'Formal AI dispute resolution with precedent tracking and binding opinions',
     merged: ['Dispute Filing', 'Precedent Database', 'Constitutional Principles'],
@@ -366,7 +377,7 @@ const trustLayerFeatures = [
   {
     id: 'regulatory-sandbox',
     label: 'Regulatory Sandbox',
-    icon: '🧪',
+    Icon: FlaskConical,
     path: '/cortex/compliance/regulatory-sandbox',
     description: 'Test against proposed regulations before they become law',
     merged: ['EU AI Act', 'Colorado AI Act', 'Gap Analysis', 'Remediation Roadmap'],
@@ -374,7 +385,7 @@ const trustLayerFeatures = [
   {
     id: 'zkp',
     label: 'Zero-Knowledge Proofs',
-    icon: '🔐',
+    Icon: Lock,
     path: '/cortex/security/zkp',
     description: 'Prove compliance without revealing proprietary logic or data',
     merged: ['Compliance Proofs', 'Fairness Proofs', 'Certificates'],
@@ -382,7 +393,7 @@ const trustLayerFeatures = [
   {
     id: 'ai-insurance',
     label: 'AI Insurance',
-    icon: '🛡️',
+    Icon: Shield,
     path: '/cortex/enterprise/ai-insurance',
     description: 'Direct liability coverage per AI decision with real-time risk scoring',
     merged: ['Policy Management', 'Decision Coverage', 'Claims'],
@@ -390,7 +401,7 @@ const trustLayerFeatures = [
   {
     id: 'post-quantum-kms',
     label: 'Post-Quantum KMS',
-    icon: '🔮',
+    Icon: KeyRound,
     path: '/cortex/enterprise/post-quantum-kms',
     description: 'Quantum-resistant cryptographic signatures (Dilithium, SPHINCS+, Falcon)',
     merged: ['Key Generation', 'Signing', 'Verification', 'Key Rotation'],
@@ -398,7 +409,7 @@ const trustLayerFeatures = [
   {
     id: 'carbon-aware',
     label: 'Carbon-Aware Scheduler',
-    icon: '🌱',
+    Icon: Leaf,
     path: '/cortex/enterprise/carbon-aware',
     description: 'Reduce AI carbon footprint with intelligent workload scheduling',
     merged: ['Carbon Intensity', 'Workload Scheduling', 'ESG Reporting'],
@@ -406,7 +417,7 @@ const trustLayerFeatures = [
   {
     id: 'cross-jurisdiction',
     label: 'Cross-Jurisdiction',
-    icon: '🌍',
+    Icon: Globe,
     path: '/cortex/compliance/cross-jurisdiction',
     description: '17-jurisdiction compliance engine for cross-border data transfers',
     merged: ['Transfer Assessment', 'Conflict Detection', 'Data Residency'],
@@ -414,7 +425,7 @@ const trustLayerFeatures = [
   {
     id: 'continuous-compliance',
     label: 'Continuous Compliance',
-    icon: '📊',
+    Icon: Activity,
     path: '/cortex/compliance/continuous-monitor',
     description: 'Real-time monitoring for 10 compliance frameworks',
     merged: ['EU AI Act', 'GDPR', 'HIPAA', 'SOC 2', 'ISO 27001', 'NIST AI RMF'],
@@ -428,8 +439,8 @@ const verticalPacks = [
   // Hub - All Verticals
   {
     id: 'hub',
-    label: '🏭 All Verticals',
-    icon: '🏭',
+    label: 'All Verticals',
+    Icon: Factory,
     path: '/verticals',
     description: 'Browse all 24 industry verticals',
     industry: 'All',
@@ -438,7 +449,7 @@ const verticalPacks = [
   {
     id: 'legal',
     label: 'Legal / Law Firms',
-    icon: '⚖️',
+    Icon: Gavel,
     path: '/verticals/legal',
     description: '49 council modes, 14 AI agents',
     industry: 'Legal',
@@ -446,7 +457,7 @@ const verticalPacks = [
   {
     id: 'healthcare',
     label: 'Healthcare',
-    icon: '🏥',
+    Icon: HeartPulse,
     path: '/verticals/healthcare',
     description: 'HIPAA-compliant clinical intelligence',
     industry: 'Healthcare',
@@ -454,7 +465,7 @@ const verticalPacks = [
   {
     id: 'financial',
     label: 'Financial Services',
-    icon: '💰',
+    Icon: Banknote,
     path: '/verticals/financial-services',
     description: 'Fraud detection & regulatory intel',
     industry: 'Finance',
@@ -462,7 +473,7 @@ const verticalPacks = [
   {
     id: 'government',
     label: 'Government',
-    icon: '🏛️',
+    Icon: Building,
     path: '/verticals/government-legal',
     description: 'Sovereign AI for public sector',
     industry: 'Government',
@@ -470,7 +481,7 @@ const verticalPacks = [
   {
     id: 'insurance',
     label: 'Insurance',
-    icon: '🛡️',
+    Icon: ShieldCheck,
     path: '/verticals/insurance',
     description: 'Underwriting & claims intelligence',
     industry: 'Insurance',
@@ -478,7 +489,7 @@ const verticalPacks = [
   {
     id: 'pharmaceutical',
     label: 'Pharmaceutical',
-    icon: '💊',
+    Icon: Pill,
     path: '/verticals/pharmaceutical',
     description: 'Pipeline & regulatory acceleration',
     industry: 'Pharma',
@@ -487,7 +498,7 @@ const verticalPacks = [
   {
     id: 'manufacturing',
     label: 'Manufacturing',
-    icon: '🏭',
+    Icon: Factory,
     path: '/verticals/manufacturing',
     description: 'Supply chain & operations',
     industry: 'Manufacturing',
@@ -495,7 +506,7 @@ const verticalPacks = [
   {
     id: 'energy',
     label: 'Energy & Utilities',
-    icon: '⚡',
+    Icon: Zap,
     path: '/verticals/energy-utilities',
     description: 'Grid intelligence & compliance',
     industry: 'Energy',
@@ -503,7 +514,7 @@ const verticalPacks = [
   {
     id: 'technology',
     label: 'Technology / SaaS',
-    icon: '💻',
+    Icon: Monitor,
     path: '/verticals/technology',
     description: 'Product velocity & AI governance',
     industry: 'Tech',
@@ -511,7 +522,7 @@ const verticalPacks = [
   {
     id: 'retail',
     label: 'Retail & Hospitality',
-    icon: '🛒',
+    Icon: ShoppingCart,
     path: '/verticals/retail-hospitality',
     description: 'Pricing & revenue optimization',
     industry: 'Retail',
@@ -519,7 +530,7 @@ const verticalPacks = [
   {
     id: 'real-estate',
     label: 'Real Estate',
-    icon: '🏗️',
+    Icon: HardHat,
     path: '/verticals/real-estate',
     description: 'Development & property analytics',
     industry: 'Real Estate',
@@ -527,7 +538,7 @@ const verticalPacks = [
   {
     id: 'transportation',
     label: 'Transportation',
-    icon: '🚚',
+    Icon: Truck,
     path: '/verticals/transportation',
     description: 'Fleet & logistics optimization',
     industry: 'Logistics',
@@ -535,7 +546,7 @@ const verticalPacks = [
   {
     id: 'media',
     label: 'Media & Entertainment',
-    icon: '🎬',
+    Icon: Clapperboard,
     path: '/verticals/media-entertainment',
     description: 'Content & audience intelligence',
     industry: 'Media',
@@ -543,7 +554,7 @@ const verticalPacks = [
   {
     id: 'professional-services',
     label: 'Professional Services',
-    icon: '💼',
+    Icon: Briefcase,
     path: '/verticals/professional-services',
     description: 'Consulting & advisory firms',
     industry: 'Services',
@@ -551,7 +562,7 @@ const verticalPacks = [
   {
     id: 'education',
     label: 'Higher Education',
-    icon: '🎓',
+    Icon: GraduationCap,
     path: '/verticals/higher-education',
     description: 'Academic & research institutions',
     industry: 'Education',
@@ -559,7 +570,7 @@ const verticalPacks = [
   {
     id: 'sports',
     label: 'Sports / Athletics',
-    icon: '🏆',
+    Icon: Trophy,
     path: '/verticals/sports',
     description: '24 agents for sports orgs',
     industry: 'Sports',
@@ -568,7 +579,7 @@ const verticalPacks = [
   {
     id: 'smart-city',
     label: 'Smart City / Municipal',
-    icon: '🏛️',
+    Icon: Columns,
     path: '/verticals/smart-city',
     description: '17 agents, 28 council modes, 3 guardians',
     industry: 'Government',
@@ -582,21 +593,21 @@ const additionalServices = [
   {
     id: 'omni-translate',
     label: 'CendiaOmniTranslate™',
-    icon: '🌍',
+    Icon: Languages,
     path: '/cortex/enterprise/omni-translate',
     description: '100-Language Enterprise Translator',
   },
   {
     id: 'dissent',
     label: 'CendiaDissent™',
-    icon: '✊',
+    Icon: Megaphone,
     path: '/cortex/enterprise/dissent',
     description: 'Protected Dissent & Whistleblower Channel (Council extension)',
   },
   {
     id: 'responsibility',
     label: 'CendiaResponsibility™',
-    icon: '👤',
+    Icon: UserCheck,
     path: '/cortex/enterprise/responsibility',
     description: 'Human Accountability Layer - TPM-signed liability transfer',
   },
@@ -619,7 +630,7 @@ const enterpriseFeatures = [
   {
     id: 'genomics',
     label: 'CendiaGenomics™',
-    icon: '🧬',
+    Icon: Dna,
     path: '/cortex/enterprise/genomics',
     description: 'Healthcare & Life Sciences Pack',
     impact: 'Critical',
@@ -628,7 +639,7 @@ const enterpriseFeatures = [
   {
     id: 'defense-stack',
     label: 'CendiaDefense™',
-    icon: '🛡️',
+    Icon: Shield,
     path: '/cortex/enterprise/defense-stack',
     description: 'Government/Defense Edition',
     impact: 'Critical',
@@ -637,7 +648,7 @@ const enterpriseFeatures = [
   {
     id: 'defense-vertical',
     label: 'Defense Vertical',
-    icon: '🎖️',
+    Icon: Target,
     path: '/cortex/sovereign/defense',
     description: 'DIU-Ready Defense & National Security - 24 agents, 35 council modes',
     impact: 'Critical',
@@ -647,7 +658,7 @@ const enterpriseFeatures = [
   {
     id: 'omni-translate',
     label: 'CendiaOmniTranslate™',
-    icon: '🌍',
+    Icon: Languages,
     path: '/cortex/enterprise/omni-translate',
     description: '100-Language Enterprise Translator',
     impact: 'High',
@@ -656,7 +667,7 @@ const enterpriseFeatures = [
   {
     id: 'dissent',
     label: 'CendiaDissent™',
-    icon: '✊',
+    Icon: Megaphone,
     path: '/cortex/enterprise/dissent',
     description: 'Protected Dissent & Whistleblower Channel (Council extension)',
     impact: 'High',
@@ -665,7 +676,7 @@ const enterpriseFeatures = [
   {
     id: 'responsibility',
     label: 'CendiaResponsibility™',
-    icon: '👤',
+    Icon: UserCheck,
     path: '/cortex/enterprise/responsibility',
     description: 'Human Accountability Layer - TPM-signed liability transfer',
     impact: 'High',
@@ -675,7 +686,7 @@ const enterpriseFeatures = [
   {
     id: 'vertical-config',
     label: 'Vertical Config',
-    icon: '⚙️',
+    Icon: Settings,
     path: '/cortex/admin/vertical-config',
     description: 'Industry Vertical & Service Toggles',
     impact: 'Admin',
@@ -709,7 +720,7 @@ const sovereignFeatures = [
   {
     id: 'eternal',
     label: 'CendiaEternal™',
-    icon: '♾️',
+    Icon: Infinity,
     path: '/cortex/sovereign/eternal',
     description: 'Ultra-Long Horizon Archive (100+ years)',
     impact: 'Strategic',
@@ -718,7 +729,7 @@ const sovereignFeatures = [
   {
     id: 'symbiont',
     label: 'CendiaSymbiont™',
-    icon: '🌐',
+    Icon: Network,
     path: '/cortex/sovereign/symbiont',
     description: 'Partnership & Ecosystem Engine',
     impact: 'High',
@@ -727,7 +738,7 @@ const sovereignFeatures = [
   {
     id: 'shadow-ops',
     label: 'CendiaShadowOps™',
-    icon: '🕵️',
+    Icon: SearchCode,
     path: '/cortex/sovereign/shadow-ops',
     description: 'Competitive Intelligence & Counter-Intelligence - Monitor competitor moves, detect when you\'re being analyzed',
     impact: 'Critical',
@@ -736,7 +747,7 @@ const sovereignFeatures = [
   {
     id: 'succession',
     label: 'CendiaSuccession™',
-    icon: '👔',
+    Icon: Briefcase,
     path: '/cortex/sovereign/succession',
     description: 'Leadership Continuity - AI-powered succession planning & tacit knowledge capture from departing executives',
     impact: 'Strategic',
@@ -745,7 +756,7 @@ const sovereignFeatures = [
   {
     id: 'sanctuary',
     label: 'CendiaSanctuary™',
-    icon: '🏰',
+    Icon: Castle,
     path: '/cortex/sovereign/sanctuary',
     description: 'Crisis Bunker - Air-gapped decision-making during cyber attacks with offline deliberation',
     impact: 'Critical',
@@ -1057,7 +1068,7 @@ const CortexLayoutInner: React.FC = () => {
                     'hover:bg-sovereign-hover hover:text-white hover:border-cyan-500/50 transition-all'
                   )}
                 >
-                  <span>🧠</span>
+                  <Brain className="w-4 h-4" />
                   <span className="hidden md:inline">Core Suite</span>
                   <svg
                     className={cn(
@@ -1086,7 +1097,7 @@ const CortexLayoutInner: React.FC = () => {
                     <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
                       {/* Core Suite Section */}
                       <div className="p-3 bg-gradient-to-r from-cyan-900/30 to-blue-900/30 border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white">🧠 The Core Suite</h3>
+                        <h3 className="font-semibold text-white flex items-center gap-2"><Brain className="w-4 h-4 text-cyan-400" /> The Core Suite</h3>
                         <p className="text-xs text-cyan-400">User-facing decision tools</p>
                       </div>
                       <div className="py-2">
@@ -1103,7 +1114,7 @@ const CortexLayoutInner: React.FC = () => {
                                 'bg-sovereign-active border-l-2 border-cyan-500'
                             )}
                           >
-                            <span className="text-xl">{feature.icon}</span>
+                            <feature.Icon className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
                             <div className="text-left flex-1">
                               <p className="font-medium text-white text-sm">{feature.label}</p>
                               <p className="text-xs text-gray-500">{feature.description}</p>
@@ -1114,7 +1125,7 @@ const CortexLayoutInner: React.FC = () => {
                       
                       {/* Trust Layer Section */}
                       <div className="p-3 bg-gradient-to-r from-amber-900/30 to-orange-900/30 border-t border-sovereign-border-subtle">
-                        <h3 className="font-semibold text-white">🛡️ The Trust Layer</h3>
+                        <h3 className="font-semibold text-white flex items-center gap-2"><Shield className="w-4 h-4 text-amber-400" /> The Trust Layer</h3>
                         <p className="text-xs text-amber-400">Compliance & Proof</p>
                       </div>
                       <div className="py-2">
@@ -1131,7 +1142,7 @@ const CortexLayoutInner: React.FC = () => {
                                 'bg-sovereign-active border-l-2 border-amber-500'
                             )}
                           >
-                            <span className="text-xl">{feature.icon}</span>
+                            <feature.Icon className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                             <div className="text-left flex-1">
                               <p className="font-medium text-white text-sm">{feature.label}</p>
                               <p className="text-xs text-gray-500">{feature.description}</p>
@@ -1157,7 +1168,7 @@ const CortexLayoutInner: React.FC = () => {
                               location.pathname === service.path && 'bg-sovereign-active'
                             )}
                           >
-                            <span className="text-lg">{service.icon}</span>
+                            <service.Icon className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" />
                             <div className="text-left">
                               <p className="font-medium text-white text-sm">{service.label}</p>
                               <p className="text-xs text-gray-500">{service.description}</p>
@@ -1180,7 +1191,7 @@ const CortexLayoutInner: React.FC = () => {
                     'hover:bg-sovereign-hover hover:text-white hover:border-purple-500/50 transition-all'
                   )}
                 >
-                  <span>🏭</span>
+                  <Factory className="w-4 h-4" />
                   <span className="hidden md:inline">Verticals</span>
                   <svg
                     className={cn(
@@ -1208,7 +1219,7 @@ const CortexLayoutInner: React.FC = () => {
                     />
                     <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 max-h-[70vh] flex flex-col">
                       <div className="p-3 bg-gradient-to-r from-purple-900/30 to-violet-900/30 border-b border-sovereign-border-subtle rounded-t-xl flex-shrink-0">
-                        <h3 className="font-semibold text-white">🏭 Industry Verticals</h3>
+                        <h3 className="font-semibold text-white flex items-center gap-2"><Factory className="w-4 h-4 text-purple-400" /> Industry Verticals</h3>
                         <p className="text-xs text-purple-400">
                           17 verticals • 400+ council modes • 200+ AI agents
                         </p>
@@ -1227,7 +1238,7 @@ const CortexLayoutInner: React.FC = () => {
                                 'bg-sovereign-active border-l-2 border-purple-500'
                             )}
                           >
-                            <span className="text-lg">{pack.icon}</span>
+                            <pack.Icon className="w-5 h-5 text-purple-400 shrink-0 mt-0.5" />
                             <div className="text-left flex-1">
                               <div className="flex items-center justify-between">
                                 <p className="font-medium text-white text-sm">{pack.label}</p>
@@ -1248,7 +1259,7 @@ const CortexLayoutInner: React.FC = () => {
                           }}
                           className="w-full text-xs text-purple-400 hover:text-purple-300 text-center"
                         >
-                          ⚙️ Configure Vertical Services
+                          Configure Vertical Services
                         </button>
                       </div>
                     </div>
@@ -1266,7 +1277,7 @@ const CortexLayoutInner: React.FC = () => {
                     'hover:bg-sovereign-hover hover:text-white hover:border-gray-500/50 transition-all'
                   )}
                 >
-                  <span>⚙️</span>
+                  <Settings className="w-4 h-4" />
                   <span className="hidden md:inline">Admin</span>
                   <svg
                     className={cn(
@@ -1294,7 +1305,7 @@ const CortexLayoutInner: React.FC = () => {
                     />
                     <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
                       <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white">⚙️ Administration</h3>
+                        <h3 className="font-semibold text-white flex items-center gap-2"><Settings className="w-4 h-4 text-gray-400" /> Administration</h3>
                         <p className="text-xs text-gray-500">
                           System configuration & management
                         </p>
@@ -1312,7 +1323,7 @@ const CortexLayoutInner: React.FC = () => {
                               'bg-sovereign-active border-l-2 border-cyan-500'
                           )}
                         >
-                          <span className="text-xl">⚙️</span>
+                          <Settings className="w-5 h-5 text-gray-400 shrink-0 mt-0.5" />
                           <div className="text-left">
                             <p className="font-medium text-white text-sm">Vertical Config</p>
                             <p className="text-xs text-gray-500">Industry & service toggles</p>
@@ -1332,7 +1343,7 @@ const CortexLayoutInner: React.FC = () => {
                                 'bg-sovereign-active border-l-2 border-cyan-500'
                             )}
                           >
-                            <span className="text-xl">{feature.icon}</span>
+                            <feature.Icon className="w-5 h-5 text-purple-400 shrink-0 mt-0.5" />
                             <div className="text-left">
                               <p className="font-medium text-white text-sm">{feature.label}</p>
                               <p className="text-xs text-gray-500">{feature.description}</p>
@@ -1406,7 +1417,7 @@ const CortexLayoutInner: React.FC = () => {
                           }}
                           className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-400 hover:bg-sovereign-hover hover:text-white"
                         >
-                          ⚙️ <span>View Settings</span>
+                          <Settings className="w-3.5 h-3.5" /> <span>View Settings</span>
                         </button>
                         <button
                           onClick={async () => {

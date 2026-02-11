@@ -6,6 +6,7 @@
 
 import { Router, Request, Response } from 'express';
 import { chronosAIService } from '../services/ChronosAIService.js';
+import { chronosEventBus } from '../services/ChronosEventBus.js';
 import { prisma } from '../config/database.js';
 import { devAuth } from '../middleware/auth.js';
 
@@ -407,6 +408,144 @@ router.post('/regulatory/items', async (req: Request, res: Response) => {
   } catch (error) {
     console.error('[Regulatory] Item create error:', error);
     res.status(500).json({ success: false, error: 'Failed to create item' });
+  }
+});
+
+// =============================================================================
+// CHRONOS UNIFIED TIMELINE — Full-Platform Event Recording
+// =============================================================================
+
+/**
+ * GET /decision-intel/chronos/timeline
+ * Query the full platform timeline with comprehensive filtering
+ */
+router.get('/chronos/timeline', async (req: Request, res: Response) => {
+  try {
+    const orgId = req.organizationId || (req.query.organization_id as string);
+    if (!orgId) {
+      res.status(400).json({ success: false, error: 'organization_id required' });
+      return;
+    }
+
+    const {
+      start_date,
+      end_date,
+      event_types,
+      categories,
+      severities,
+      resource_type,
+      resource_id,
+      actor,
+      min_magnitude,
+      limit,
+      offset,
+      include_historical,
+    } = req.query;
+
+    const result = await chronosEventBus.getTimeline({
+      organizationId: orgId,
+      startDate: start_date ? new Date(start_date as string) : undefined,
+      endDate: end_date ? new Date(end_date as string) : undefined,
+      eventTypes: event_types ? (event_types as string).split(',') as any[] : undefined,
+      categories: categories ? (categories as string).split(',') as any[] : undefined,
+      severities: severities ? (severities as string).split(',') as any[] : undefined,
+      resourceType: resource_type as string,
+      resourceId: resource_id as string,
+      actor: actor as string,
+      minMagnitude: min_magnitude ? parseInt(min_magnitude as string, 10) : undefined,
+      limit: limit ? parseInt(limit as string, 10) : 100,
+      offset: offset ? parseInt(offset as string, 10) : 0,
+      includeHistorical: include_historical !== 'false',
+    });
+
+    res.json({ success: true, data: result });
+  } catch (error) {
+    console.error('[Chronos] Timeline query error:', error);
+    res.status(500).json({ success: false, error: 'Failed to query timeline' });
+  }
+});
+
+/**
+ * GET /decision-intel/chronos/stats
+ * Get platform-wide timeline statistics
+ */
+router.get('/chronos/stats', async (req: Request, res: Response) => {
+  try {
+    const orgId = req.organizationId || (req.query.organization_id as string);
+    if (!orgId) {
+      res.status(400).json({ success: false, error: 'organization_id required' });
+      return;
+    }
+
+    const stats = await chronosEventBus.getStats(orgId);
+
+    res.json({ success: true, data: stats });
+  } catch (error) {
+    console.error('[Chronos] Stats error:', error);
+    res.status(500).json({ success: false, error: 'Failed to get stats' });
+  }
+});
+
+/**
+ * POST /decision-intel/chronos/backfill
+ * Backfill chronos_events from all historical tables
+ */
+router.post('/chronos/backfill', async (req: Request, res: Response) => {
+  try {
+    const orgId = req.organizationId || req.body.organization_id;
+    if (!orgId) {
+      res.status(400).json({ success: false, error: 'organization_id required' });
+      return;
+    }
+
+    const result = await chronosEventBus.backfill(orgId);
+
+    res.json({ success: true, data: result });
+  } catch (error) {
+    console.error('[Chronos] Backfill error:', error);
+    res.status(500).json({ success: false, error: 'Failed to backfill events' });
+  }
+});
+
+/**
+ * POST /decision-intel/chronos/events
+ * Manually record a custom event to the timeline
+ */
+router.post('/chronos/events', async (req: Request, res: Response) => {
+  try {
+    const orgId = req.organizationId || req.body.organization_id;
+    if (!orgId) {
+      res.status(400).json({ success: false, error: 'organization_id required' });
+      return;
+    }
+
+    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = req.body;
+
+    if (!event_type || !category || !title || !description) {
+      res.status(400).json({ success: false, error: 'event_type, category, title, and description are required' });
+      return;
+    }
+
+    const eventId = await chronosEventBus.emitEvent({
+      organizationId: orgId,
+      eventType: event_type,
+      category,
+      severity: severity || 'info',
+      title,
+      description,
+      actor: req.user?.id,
+      actorType: 'user',
+      resourceType: resource_type,
+      resourceId: resource_id,
+      metadata: metadata || {},
+      impact,
+      magnitude: magnitude || 0,
+    });
+
+    res.json({ success: true, data: { id: eventId } });
+  } catch (error) {
+    console.error('[Chronos] Event record error:', error);
+    res.status(500).json({ success: false, error: 'Failed to record event' });
   }
 });
 

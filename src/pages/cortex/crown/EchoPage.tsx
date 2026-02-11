@@ -23,6 +23,11 @@ import {
   Zap,
   Check,
   X,
+  Clock,
+  AlertTriangle,
+  Link2,
+  Loader2,
+  Download,
 } from 'lucide-react';
 import { echoApi } from '../../../lib/api';
 
@@ -60,6 +65,23 @@ interface DashboardData {
   recommendations: string[];
 }
 
+interface PendingDecision {
+  deliberationId: string;
+  question: string;
+  decidedAt: string;
+  daysSinceDecision: number;
+  mode: string;
+  hasScheduledCollection: boolean;
+}
+
+interface LinkOutcomeForm {
+  deliberationId: string;
+  actualRevenue: string;
+  actualProfit: string;
+  actualHeadcount: string;
+  notes: string;
+}
+
 const EchoPage = () => {
   const [dashboard, setDashboard] = useState<DashboardData | null>(null);
   const [leaderboard, setLeaderboard] = useState<DecisionOutcome[]>([]);
@@ -67,6 +89,17 @@ const EchoPage = () => {
   const [loading, setLoading] = useState(true);
   const [period, setPeriod] = useState<'week' | 'month' | 'quarter' | 'year'>('quarter');
   const [selectedDecision, setSelectedDecision] = useState<string | null>(null);
+
+  // Quick Action state
+  const [activePanel, setActivePanel] = useState<'link' | 'report' | 'failed' | null>(null);
+  const [pendingDecisions, setPendingDecisions] = useState<PendingDecision[]>([]);
+  const [pendingLoading, setPendingLoading] = useState(false);
+  const [linkForm, setLinkForm] = useState<LinkOutcomeForm>({ deliberationId: '', actualRevenue: '', actualProfit: '', actualHeadcount: '', notes: '' });
+  const [linkSubmitting, setLinkSubmitting] = useState(false);
+  const [linkSuccess, setLinkSuccess] = useState<string | null>(null);
+  const [reportGenerating, setReportGenerating] = useState(false);
+  const [generatedReport, setGeneratedReport] = useState<any>(null);
+  const [failedDecisions, setFailedDecisions] = useState<DecisionOutcome[]>([]);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
@@ -125,13 +158,15 @@ const EchoPage = () => {
     <div className="min-h-screen bg-neutral-950 text-white p-6">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center">
-            <Activity className="w-6 h-6" />
+        <div className="flex items-center gap-5 mb-2">
+          <div className="w-12 h-12 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 flex items-center justify-center">
+            <Activity className="w-6 h-6 text-emerald-400" />
           </div>
           <div>
-            <h1 className="text-3xl font-bold">CendiaEcho™</h1>
-            <p className="text-neutral-400">Decision Outcome Engine</p>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+              CENDIAECHO<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+            </h1>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Decision Outcome Engine</p>
           </div>
         </div>
         <p className="text-neutral-500 mt-2 max-w-2xl">
@@ -391,33 +426,366 @@ const EchoPage = () => {
             </div>
 
             <div className="space-y-2">
-              <button className="w-full flex items-center justify-between p-3 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition">
+              <button
+                onClick={async () => {
+                  setActivePanel(activePanel === 'link' ? null : 'link');
+                  setLinkSuccess(null);
+                  if (activePanel !== 'link') {
+                    setPendingLoading(true);
+                    try {
+                      const res = await echoApi.getPendingDecisions({ olderThanDays: 1, limit: 20 });
+                      if (res.success) setPendingDecisions(res.data as PendingDecision[]);
+                    } catch (e) { console.error('Failed to fetch pending:', e); }
+                    setPendingLoading(false);
+                  }
+                }}
+                className={`w-full flex items-center justify-between p-3 rounded-lg transition ${
+                  activePanel === 'link' ? 'bg-green-500/20 border border-green-500/30' : 'bg-neutral-800 hover:bg-neutral-700'
+                }`}
+              >
                 <span className="flex items-center gap-2">
-                  <Check className="w-4 h-4 text-green-400" />
+                  <Link2 className="w-4 h-4 text-green-400" />
                   Link Decision Outcome
                 </span>
-                <ChevronRight className="w-4 h-4 text-neutral-500" />
+                <ChevronRight className={`w-4 h-4 text-neutral-500 transition ${activePanel === 'link' ? 'rotate-90' : ''}`} />
               </button>
 
-              <button className="w-full flex items-center justify-between p-3 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition">
+              <button
+                onClick={async () => {
+                  setActivePanel(activePanel === 'report' ? null : 'report');
+                  setGeneratedReport(null);
+                }}
+                className={`w-full flex items-center justify-between p-3 rounded-lg transition ${
+                  activePanel === 'report' ? 'bg-blue-500/20 border border-blue-500/30' : 'bg-neutral-800 hover:bg-neutral-700'
+                }`}
+              >
                 <span className="flex items-center gap-2">
-                  <FileText className="w-4 h-4 text-blue-400" />
-                  Generate Compliance Report
+                  <Download className="w-4 h-4 text-blue-400" />
+                  Generate Outcome Report
                 </span>
-                <ChevronRight className="w-4 h-4 text-neutral-500" />
+                <ChevronRight className={`w-4 h-4 text-neutral-500 transition ${activePanel === 'report' ? 'rotate-90' : ''}`} />
               </button>
 
-              <button className="w-full flex items-center justify-between p-3 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition">
+              <button
+                onClick={async () => {
+                  if (activePanel === 'failed') {
+                    setActivePanel(null);
+                  } else {
+                    setActivePanel('failed');
+                    const res = await echoApi.getLeaderboard({ period: 'year', limit: 50, sortBy: 'impact' });
+                    if (res.success) {
+                      setFailedDecisions((res.data as DecisionOutcome[]).filter(d => d.status === 'negative'));
+                    }
+                  }
+                }}
+                className={`w-full flex items-center justify-between p-3 rounded-lg transition ${
+                  activePanel === 'failed' ? 'bg-red-500/20 border border-red-500/30' : 'bg-neutral-800 hover:bg-neutral-700'
+                }`}
+              >
                 <span className="flex items-center gap-2">
-                  <X className="w-4 h-4 text-red-400" />
+                  <AlertTriangle className="w-4 h-4 text-red-400" />
                   Review Failed Predictions
                 </span>
-                <ChevronRight className="w-4 h-4 text-neutral-500" />
+                <ChevronRight className={`w-4 h-4 text-neutral-500 transition ${activePanel === 'failed' ? 'rotate-90' : ''}`} />
               </button>
             </div>
           </div>
         </div>
       </div>
+
+      {/* ================================================================== */}
+      {/* QUICK ACTION PANELS                                                */}
+      {/* ================================================================== */}
+
+      {/* Link Decision Outcome Panel */}
+      {activePanel === 'link' && (
+        <div className="mt-6 bg-neutral-900 rounded-xl border border-green-500/30 p-6">
+          <div className="flex items-center gap-3 mb-4">
+            <Link2 className="w-5 h-5 text-green-400" />
+            <h2 className="text-lg font-semibold">Link Decision Outcome</h2>
+            <button onClick={() => setActivePanel(null)} className="ml-auto p-1 hover:bg-neutral-800 rounded">
+              <X className="w-4 h-4 text-neutral-500" />
+            </button>
+          </div>
+
+          {linkSuccess && (
+            <div className="mb-4 p-3 bg-green-500/10 border border-green-500/30 rounded-lg text-green-400 text-sm flex items-center gap-2">
+              <Check className="w-4 h-4" />
+              {linkSuccess}
+            </div>
+          )}
+
+          {/* Pending Decisions List */}
+          <div className="mb-4">
+            <h3 className="text-sm font-medium text-neutral-400 mb-2">
+              Decisions Awaiting Outcome ({pendingDecisions.length})
+            </h3>
+            {pendingLoading ? (
+              <div className="flex items-center gap-2 text-neutral-500 py-4 justify-center">
+                <Loader2 className="w-4 h-4 animate-spin" /> Loading pending decisions...
+              </div>
+            ) : pendingDecisions.length === 0 ? (
+              <p className="text-neutral-500 text-sm py-3 text-center">No pending decisions found. All decisions have outcomes or are too recent.</p>
+            ) : (
+              <div className="max-h-40 overflow-y-auto space-y-1 mb-3">
+                {pendingDecisions.map(d => (
+                  <button
+                    key={d.deliberationId}
+                    onClick={() => setLinkForm({ ...linkForm, deliberationId: d.deliberationId })}
+                    className={`w-full text-left p-2 rounded-lg text-sm transition ${
+                      linkForm.deliberationId === d.deliberationId
+                        ? 'bg-green-500/20 border border-green-500/30'
+                        : 'bg-neutral-800 hover:bg-neutral-700'
+                    }`}
+                  >
+                    <p className="font-medium truncate">{d.question}</p>
+                    <div className="flex items-center gap-3 text-xs text-neutral-500 mt-1">
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3 h-3" />
+                        {d.daysSinceDecision}d ago
+                      </span>
+                      <span>{d.mode}</span>
+                      {d.hasScheduledCollection && (
+                        <span className="text-amber-400 flex items-center gap-1">
+                          <Activity className="w-3 h-3" /> Auto-collection scheduled
+                        </span>
+                      )}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Outcome Form */}
+          {linkForm.deliberationId && (
+            <div className="border-t border-neutral-800 pt-4">
+              <h3 className="text-sm font-medium text-neutral-300 mb-3">Enter Actual Results</h3>
+              <div className="grid grid-cols-3 gap-3 mb-3">
+                <div>
+                  <label className="text-xs text-neutral-500 block mb-1">Actual Revenue ($)</label>
+                  <input
+                    type="number"
+                    value={linkForm.actualRevenue}
+                    onChange={e => setLinkForm({ ...linkForm, actualRevenue: e.target.value })}
+                    placeholder="0"
+                    className="w-full bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-green-500/50"
+                  />
+                </div>
+                <div>
+                  <label className="text-xs text-neutral-500 block mb-1">Actual Profit ($)</label>
+                  <input
+                    type="number"
+                    value={linkForm.actualProfit}
+                    onChange={e => setLinkForm({ ...linkForm, actualProfit: e.target.value })}
+                    placeholder="0"
+                    className="w-full bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-green-500/50"
+                  />
+                </div>
+                <div>
+                  <label className="text-xs text-neutral-500 block mb-1">Actual Headcount</label>
+                  <input
+                    type="number"
+                    value={linkForm.actualHeadcount}
+                    onChange={e => setLinkForm({ ...linkForm, actualHeadcount: e.target.value })}
+                    placeholder="0"
+                    className="w-full bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-green-500/50"
+                  />
+                </div>
+              </div>
+              <div className="mb-3">
+                <label className="text-xs text-neutral-500 block mb-1">Notes</label>
+                <input
+                  type="text"
+                  value={linkForm.notes}
+                  onChange={e => setLinkForm({ ...linkForm, notes: e.target.value })}
+                  placeholder="Optional notes about this outcome..."
+                  className="w-full bg-neutral-800 border border-neutral-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-green-500/50"
+                />
+              </div>
+              <button
+                onClick={async () => {
+                  setLinkSubmitting(true);
+                  try {
+                    const res = await echoApi.linkOutcome({
+                      deliberationId: linkForm.deliberationId,
+                      actualRevenue: linkForm.actualRevenue ? parseFloat(linkForm.actualRevenue) : undefined,
+                      actualProfit: linkForm.actualProfit ? parseFloat(linkForm.actualProfit) : undefined,
+                      actualHeadcount: linkForm.actualHeadcount ? parseFloat(linkForm.actualHeadcount) : undefined,
+                      notes: linkForm.notes || undefined,
+                    });
+                    if (res.success) {
+                      setLinkSuccess('Outcome linked successfully! Agent weights have been adjusted.');
+                      setLinkForm({ deliberationId: '', actualRevenue: '', actualProfit: '', actualHeadcount: '', notes: '' });
+                      setPendingDecisions(prev => prev.filter(d => d.deliberationId !== linkForm.deliberationId));
+                      fetchData();
+                    }
+                  } catch (e) {
+                    console.error('Failed to link outcome:', e);
+                  }
+                  setLinkSubmitting(false);
+                }}
+                disabled={linkSubmitting}
+                className="w-full py-2 bg-green-600 hover:bg-green-500 disabled:opacity-50 rounded-lg text-sm font-medium transition flex items-center justify-center gap-2"
+              >
+                {linkSubmitting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Check className="w-4 h-4" />}
+                {linkSubmitting ? 'Linking...' : 'Link Outcome & Adjust Weights'}
+              </button>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Generate Outcome Report Panel */}
+      {activePanel === 'report' && (
+        <div className="mt-6 bg-neutral-900 rounded-xl border border-blue-500/30 p-6">
+          <div className="flex items-center gap-3 mb-4">
+            <Download className="w-5 h-5 text-blue-400" />
+            <h2 className="text-lg font-semibold">Generate Outcome Report</h2>
+            <button onClick={() => { setActivePanel(null); setGeneratedReport(null); }} className="ml-auto p-1 hover:bg-neutral-800 rounded">
+              <X className="w-4 h-4 text-neutral-500" />
+            </button>
+          </div>
+
+          {!generatedReport ? (
+            <>
+              <p className="text-neutral-400 text-sm mb-3">Select a decision from the leaderboard to generate a cryptographically signed "Was This Right?" report.</p>
+              <div className="max-h-48 overflow-y-auto space-y-1">
+                {leaderboard.map(decision => (
+                  <button
+                    key={decision.id}
+                    onClick={async () => {
+                      setReportGenerating(true);
+                      try {
+                        const res = await echoApi.getOutcomeReport(decision.id);
+                        if (res.success) setGeneratedReport({ ...res.data as any, decisionTitle: decision.decisionTitle });
+                      } catch (e) { console.error('Failed to generate report:', e); }
+                      setReportGenerating(false);
+                    }}
+                    disabled={reportGenerating}
+                    className="w-full text-left p-3 bg-neutral-800 hover:bg-neutral-700 rounded-lg text-sm transition flex items-center justify-between"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium truncate">{decision.decisionTitle}</p>
+                      <p className="text-xs text-neutral-500 mt-1">
+                        {new Date(decision.decisionDate).toLocaleDateString()} · {formatCurrency(decision.dollarImpact)} impact
+                      </p>
+                    </div>
+                    {reportGenerating ? (
+                      <Loader2 className="w-4 h-4 animate-spin text-blue-400 flex-shrink-0" />
+                    ) : (
+                      <FileText className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                    )}
+                  </button>
+                ))}
+                {leaderboard.length === 0 && (
+                  <p className="text-neutral-500 text-sm text-center py-4">No decisions with outcomes yet. Link an outcome first.</p>
+                )}
+              </div>
+            </>
+          ) : (
+            <div>
+              <div className="mb-4 p-3 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                <h3 className="text-sm font-semibold text-blue-300 mb-1">{generatedReport.decisionTitle}</h3>
+                <p className="text-sm text-neutral-300">{generatedReport.summary}</p>
+              </div>
+
+              <div className="space-y-2 mb-4">
+                {generatedReport.sections?.map((section: any, idx: number) => (
+                  <div key={idx} className="p-3 bg-neutral-800 rounded-lg">
+                    <h4 className="text-xs font-semibold text-neutral-400 mb-1">{section.title}</h4>
+                    <p className="text-sm text-neutral-300 whitespace-pre-wrap">{section.content}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Cryptographic Signature */}
+              <div className="p-3 bg-neutral-800/50 border border-neutral-700 rounded-lg">
+                <h4 className="text-xs font-semibold text-emerald-400 mb-2 flex items-center gap-1">
+                  <Check className="w-3 h-3" /> Cryptographic Signature
+                </h4>
+                {typeof generatedReport.signature === 'object' ? (
+                  <div className="font-mono text-xs text-neutral-500 space-y-1">
+                    <p>Algorithm: <span className="text-neutral-300">{generatedReport.signature.algorithm}</span></p>
+                    <p>HMAC: <span className="text-neutral-300 break-all">{generatedReport.signature.hash}</span></p>
+                    <p>Data Hash: <span className="text-neutral-300 break-all">{generatedReport.signature.dataHash}</span></p>
+                    <p>Chain: <span className="text-neutral-300 break-all">{generatedReport.signature.signatureChain}</span></p>
+                    <p>Nonce: <span className="text-neutral-300">{generatedReport.signature.nonce}</span></p>
+                  </div>
+                ) : (
+                  <p className="font-mono text-xs text-neutral-500 break-all">{generatedReport.signature}</p>
+                )}
+              </div>
+
+              <button
+                onClick={() => setGeneratedReport(null)}
+                className="mt-3 w-full py-2 bg-neutral-800 hover:bg-neutral-700 rounded-lg text-sm text-neutral-300 transition"
+              >
+                Generate Another Report
+              </button>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Review Failed Predictions Panel */}
+      {activePanel === 'failed' && (
+        <div className="mt-6 bg-neutral-900 rounded-xl border border-red-500/30 p-6">
+          <div className="flex items-center gap-3 mb-4">
+            <AlertTriangle className="w-5 h-5 text-red-400" />
+            <h2 className="text-lg font-semibold">Failed Predictions</h2>
+            <span className="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded-full">{failedDecisions.length}</span>
+            <button onClick={() => setActivePanel(null)} className="ml-auto p-1 hover:bg-neutral-800 rounded">
+              <X className="w-4 h-4 text-neutral-500" />
+            </button>
+          </div>
+
+          {failedDecisions.length === 0 ? (
+            <div className="text-center py-6">
+              <Check className="w-10 h-10 text-green-500 mx-auto mb-2 opacity-50" />
+              <p className="text-neutral-400 text-sm">No failed predictions found. All decisions are performing as expected.</p>
+            </div>
+          ) : (
+            <div className="space-y-2 max-h-64 overflow-y-auto">
+              {failedDecisions.map((d, idx) => (
+                <div key={d.id} className="p-3 bg-neutral-800 rounded-lg border-l-2 border-red-500">
+                  <div className="flex items-start justify-between">
+                    <div className="flex-1 min-w-0">
+                      <p className="font-medium text-sm truncate">{d.decisionTitle}</p>
+                      <div className="flex items-center gap-3 text-xs text-neutral-500 mt-1">
+                        <span>{new Date(d.decisionDate).toLocaleDateString()}</span>
+                        <span className="text-red-400 font-medium">{formatCurrency(d.dollarImpact)}</span>
+                        <span>ROI: {formatPercent(d.roi * 100)}</span>
+                        <span>{d.councilMode} mode</span>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center">
+                        <ArrowDownRight className="w-4 h-4 text-red-400" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {failedDecisions.length > 0 && accuracy?.recommendations && accuracy.recommendations.length > 0 && (
+            <div className="mt-4 pt-4 border-t border-neutral-800">
+              <h3 className="text-xs font-semibold text-amber-400 mb-2 flex items-center gap-1">
+                <Zap className="w-3 h-3" /> AI Recommendations to Improve
+              </h3>
+              <div className="space-y-1">
+                {accuracy.recommendations.map((rec, idx) => (
+                  <p key={idx} className="text-xs text-neutral-400 flex gap-2">
+                    <span className="text-amber-500 flex-shrink-0">{idx + 1}.</span> {rec}
+                  </p>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 };

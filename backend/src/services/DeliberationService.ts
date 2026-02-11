@@ -8,6 +8,7 @@ import { aiModelSelector } from '../config/aiModels.js';
 import { druidEventStream } from './DruidEventStream.js';
 import { prisma } from '../config/database.js';
 import type { SocketServer } from '../websocket/SocketServer.js';
+import { recordChronosEvent } from './ChronosEventBus.js';
 
 // =============================================================================
 // TYPES
@@ -194,6 +195,30 @@ export class DeliberationService extends BaseService {
       deliberationTimeMs: deliberation.agentResponses.reduce((sum, r) => sum + r.duration, 0),
       department: deliberation.tags?.[0] || 'General',
       tags: deliberation.tags || [],
+    });
+
+    // Record to Chronos universal timeline
+    recordChronosEvent({
+      organizationId: deliberation.organizationId,
+      eventType: 'deliberation_completed',
+      category: 'council',
+      severity: deliberation.confidence < 50 ? 'high' : 'info',
+      title: `Council: ${deliberation.question?.substring(0, 60) || 'Deliberation'}`,
+      description: `Mode: ${deliberation.councilMode} | Confidence: ${deliberation.confidence}% | Agents: ${deliberation.agentResponses.length} | ${deliberation.confidence > 70 ? 'Consensus reached' : 'No consensus'}`,
+      actor: deliberation.userId,
+      actorType: 'user',
+      resourceType: 'deliberation',
+      resourceId: id,
+      impact: deliberation.confidence > 70 ? 'positive' : 'neutral',
+      magnitude: Math.min(10, Math.ceil(deliberation.confidence / 12)),
+      metadata: {
+        councilMode: deliberation.councilMode,
+        confidence: deliberation.confidence,
+        agentCount: deliberation.agentResponses.length,
+        agents: deliberation.agentResponses.map(r => r.agentName),
+        tags: deliberation.tags,
+        consensusReached: deliberation.confidence > 70,
+      },
     });
 
     this.incrementCounter('deliberations_saved', 1);

@@ -7,6 +7,7 @@
 import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { v4 as uuidv4 } from 'uuid';
+import { recordChronosEvent } from '../ChronosEventBus.js';
 
 const prisma = new PrismaClient();
 
@@ -311,9 +312,10 @@ export class HelmService extends BaseService {
       });
 
       if (!existingAlert) {
+        const alertId = uuidv4();
         await prisma.alerts.create({
           data: {
-            id: uuidv4(),
+            id: alertId,
             organization_id: metric.organizationId,
             metric_id: metric.id,
             title: `${metric.name} ${metric.status === 'critical' ? 'Critical' : 'At Risk'}`,
@@ -321,6 +323,22 @@ export class HelmService extends BaseService {
             severity: severity as any,
             source: 'helm',
           },
+        });
+
+        // Record to Chronos timeline
+        recordChronosEvent({
+          organizationId: metric.organizationId,
+          eventType: 'alert_triggered',
+          category: 'data',
+          severity: severity === 'critical' ? 'critical' : 'medium',
+          title: `Alert: ${metric.name} ${metric.status === 'critical' ? 'Critical' : 'At Risk'}`,
+          description: `${metric.name}: ${metric.currentValue}${metric.unit} (target: ${metric.targetValue}${metric.unit})`,
+          actorType: 'system',
+          resourceType: 'alert',
+          resourceId: alertId,
+          impact: severity === 'critical' ? 'critical' : 'negative',
+          magnitude: severity === 'critical' ? 9 : 6,
+          metadata: { metricId: metric.id, metricName: metric.name, currentValue: metric.currentValue, targetValue: metric.targetValue, severity },
         });
       }
     }

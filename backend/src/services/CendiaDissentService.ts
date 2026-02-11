@@ -12,6 +12,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
+import { recordChronosEvent } from './ChronosEventBus.js';
 
 // =============================================================================
 // TYPES
@@ -297,6 +298,24 @@ class CendiaDissentService {
     }
     
     logger.info(`[Dissent] New dissent ${id} filed against decision ${dissentData.decisionId}`);
+
+    // Record to Chronos timeline
+    recordChronosEvent({
+      organizationId,
+      eventType: 'dissent_filed',
+      category: 'governance',
+      severity: dissent.severity === 'blocking' ? 'critical' : dissent.severity === 'formal_objection' ? 'high' : 'medium',
+      title: `Dissent: ${dissent.statement?.substring(0, 60) || 'Formal objection'}`,
+      description: `Type: ${dissent.dissentType} | Severity: ${dissent.severity} | Against: ${dissent.decisionTitle?.substring(0, 40)}`,
+      actor: dissentData.isAnonymous ? undefined : dissent.dissenterId,
+      actorType: 'user',
+      resourceType: 'dissent',
+      resourceId: id,
+      impact: 'negative',
+      magnitude: dissent.severity === 'blocking' ? 9 : dissent.severity === 'formal_objection' ? 7 : 5,
+      parentEventId: dissent.decisionId,
+      metadata: { dissentType: dissent.dissentType, severity: dissent.severity, isAnonymous: dissent.isAnonymous, decisionId: dissent.decisionId },
+    });
     
     return dissent;
   }

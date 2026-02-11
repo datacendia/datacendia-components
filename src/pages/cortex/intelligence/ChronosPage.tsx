@@ -28,6 +28,11 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi, api } from '../../../lib/api';
 import { sovereignApi } from '../../../lib/sovereignApi';
 import { documentExportService, type AuditPackageData } from '../../../services/DocumentExportService';
+import {
+  Rewind, Play, FastForward, Clock, Shield, FileText, Eye, Building2, RotateCcw,
+  Landmark, Lock, BarChart3, FileKey, Bookmark, Share2, LayoutDashboard, GitCompare,
+  Theater, Waypoints, Dice5, Globe, Target, Zap, ChevronRight
+} from 'lucide-react';
 
 // Audit package signing API
 const auditPackageApi = {
@@ -104,7 +109,7 @@ interface BranchTimeline {
 }
 
 type ChronosMode = 'rewind' | 'replay' | 'fastforward';
-type EnhancedView = 'standard' | 'diff' | 'theater' | 'impact' | 'monte-carlo' | 'universes';
+type EnhancedView = 'standard' | 'diff' | 'theater' | 'impact' | 'monte-carlo' | 'universes' | 'echo' | 'cascade';
 
 // =============================================================================
 // UNIVERSE TYPES - "What If" Parallel Timeline Simulation (merged from Horizon)
@@ -3424,11 +3429,11 @@ export const ChronosPage: React.FC = () => {
   const getModeStyles = () => {
     switch (mode) {
       case 'rewind':
-        return { gradient: 'from-amber-600 to-orange-700', accent: 'amber', icon: '⏪' };
+        return { gradient: 'from-amber-600 to-orange-700', accent: 'amber' };
       case 'replay':
-        return { gradient: 'from-purple-600 to-pink-700', accent: 'purple', icon: '🔀' };
+        return { gradient: 'from-purple-600 to-pink-700', accent: 'purple' };
       case 'fastforward':
-        return { gradient: 'from-cyan-600 to-blue-700', accent: 'cyan', icon: '⏩' };
+        return { gradient: 'from-cyan-600 to-blue-700', accent: 'cyan' };
     }
   };
 
@@ -3440,45 +3445,42 @@ export const ChronosPage: React.FC = () => {
       <header className={`bg-gradient-to-r ${styles.gradient} py-6 px-8`}>
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between">
-            <div>
-              <div className="flex items-center gap-4">
-                <span className="text-4xl">⏱️</span>
-                <div>
-                  <h1 className="text-3xl font-bold">CendiaChronos™</h1>
-                  <p className="text-white/80">The Enterprise Time Machine</p>
-                </div>
+            <div className="flex items-center gap-5">
+              <div className="w-12 h-12 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 flex items-center justify-center">
+                <Clock className="w-6 h-6 text-white" />
               </div>
-              {/* Powered by Apache Druid */}
+              <div>
+                <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                  CENDIACHRONOS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                </h1>
+                <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">The Enterprise Time Machine</p>
+              </div>
               <a
                 href="http://localhost:8888"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-3 py-1.5 bg-amber-500/20 border border-amber-500/30 rounded-lg hover:bg-amber-500/30 transition-colors"
+                className="ml-2 flex items-center gap-1.5 px-2.5 py-1 bg-black/20 border border-white/10 rounded-md hover:border-white/20 transition-colors"
               >
-                <span className="text-amber-400 text-xs font-medium">
-                  ⚡ Powered by Apache Druid
-                </span>
+                <Zap className="w-3 h-3 text-amber-400" />
+                <span className="text-[10px] text-white/50 font-medium uppercase tracking-wider">Powered by Apache Druid</span>
               </a>
             </div>
-            <div className="flex items-center gap-2 bg-black/20 rounded-full p-1">
-              {(['rewind', 'replay', 'fastforward'] as ChronosMode[]).map((m) => (
+            <div className="flex items-center gap-1 bg-black/30 backdrop-blur-sm rounded-full p-1 border border-white/10">
+              {([
+                { key: 'rewind' as ChronosMode, label: 'Rewind', icon: Rewind, tip: 'Jump back to a previous decision window' },
+                { key: 'replay' as ChronosMode, label: 'Replay', icon: Play, tip: 'Play every change between two points in time' },
+                { key: 'fastforward' as ChronosMode, label: 'Fast Forward', icon: FastForward, tip: 'Skip ahead to the next major event' },
+              ]).map((m) => (
                 <button
-                  key={m}
-                  onClick={() => handleModeChange(m)}
-                  title={
-                    m === 'rewind'
-                      ? 'Jump back to a previous decision window'
-                      : m === 'replay'
-                        ? 'Play every change between two points in time'
-                        : 'Skip ahead to the next major event (compliance, financial, incident)'
-                  }
-                  className={`px-4 py-2 rounded-full font-medium transition-all ${
-                    mode === m ? 'bg-white text-neutral-900' : 'text-white/80 hover:text-white'
+                  key={m.key}
+                  onClick={() => handleModeChange(m.key)}
+                  title={m.tip}
+                  className={`px-4 py-2 rounded-full font-medium transition-all flex items-center gap-2 text-sm ${
+                    mode === m.key ? 'bg-white text-neutral-900' : 'text-white/70 hover:text-white'
                   }`}
                 >
-                  {m === 'rewind' && '⏪ Rewind'}
-                  {m === 'replay' && '🔀 Replay'}
-                  {m === 'fastforward' && '⏩ Fast Forward'}
+                  <m.icon className="w-3.5 h-3.5" />
+                  {m.label}
                 </button>
               ))}
             </div>
@@ -3709,71 +3711,66 @@ export const ChronosPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <span className="text-sm text-neutral-500 mr-2">Enhanced Views:</span>
-              {[
-                {
-                  id: 'standard',
-                  label: '📊 Standard',
-                  icon: '📊',
-                  tooltip: 'Default timeline view with metrics and events',
-                },
-                {
-                  id: 'diff',
-                  label: '⚖️ Diff View',
-                  icon: '⚖️',
-                  tooltip: 'Side-by-side comparison of two points in time',
-                },
-                {
-                  id: 'theater',
-                  label: '🎬 Council Replay',
-                  icon: '🎬',
-                  tooltip: 'Watch AI council deliberation playback',
-                },
-                {
-                  id: 'impact',
-                  label: '🔗 Impact Trace',
-                  icon: '🔗',
-                  tooltip: 'Trace ripple effects from any decision',
-                },
-                {
-                  id: 'monte-carlo',
-                  label: '🎲 Monte Carlo',
-                  icon: '🎲',
-                  tooltip: 'Run 10,000+ probabilistic simulations',
-                },
-                {
-                  id: 'universes',
-                  label: '🌍 Universes',
-                  icon: '🌍',
-                  tooltip: 'Simulate parallel future timelines',
-                },
-              ].map((view) => (
+              <span className="text-xs uppercase tracking-wider text-neutral-500 mr-1">Views</span>
+              {([
+                { id: 'standard', label: 'Standard', Icon: BarChart3, tooltip: 'Default timeline view with metrics and events' },
+                { id: 'diff', label: 'Diff', Icon: GitCompare, tooltip: 'Side-by-side comparison of two points in time' },
+                { id: 'theater', label: 'Replay', Icon: Theater, tooltip: 'Watch AI council deliberation playback' },
+                { id: 'impact', label: 'Impact', Icon: Waypoints, tooltip: 'Trace ripple effects from any decision' },
+                { id: 'monte-carlo', label: 'Monte Carlo', Icon: Dice5, tooltip: 'Run 10,000+ probabilistic simulations' },
+                { id: 'universes', label: 'Universes', Icon: Globe, tooltip: 'Simulate parallel future timelines' },
+              ] as const).map((view) => (
                 <button
                   key={view.id}
                   onClick={() => setEnhancedView(view.id as EnhancedView)}
                   title={view.tooltip}
-                  className={`px-3 py-1.5 text-sm rounded-lg transition-all ${
+                  className={`px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 ${
                     enhancedView === view.id
                       ? `bg-gradient-to-r ${styles.gradient} text-white`
                       : 'bg-neutral-800 text-neutral-400 hover:text-white'
                   }`}
                 >
+                  <view.Icon className="w-3.5 h-3.5" />
                   {view.label}
                 </button>
               ))}
+
+              {/* Separator */}
+              <div className="w-px h-6 bg-neutral-700 mx-1" />
+              <span className="text-xs uppercase tracking-wider text-neutral-500 mr-1">Navigate</span>
+
+              <button
+                onClick={() => navigate('/cortex/crown/echo')}
+                title="Echo — Decision outcome tracking & feedback loops"
+                className="px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 bg-neutral-800 text-emerald-400 hover:bg-emerald-500/20 border border-transparent hover:border-emerald-500/30"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                Echo
+              </button>
+
+              <button
+                onClick={() => navigate('/cortex/sovereign/collapse')}
+                title="Collapse — Sovereign collapse simulation & stress testing"
+                className="px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 bg-neutral-800 text-red-400 hover:bg-red-500/20 border border-transparent hover:border-red-500/30"
+              >
+                <Shield className="w-3.5 h-3.5" />
+                Collapse
+              </button>
             </div>
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setShowBookmarkModal(true)}
-                className="px-3 py-1.5 text-sm bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors flex items-center gap-1"
+                className="px-3 py-1.5 text-sm bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors flex items-center gap-1.5"
               >
-                🔖 Bookmark
+                <Bookmark className="w-3.5 h-3.5" />
+                Bookmark
               </button>
               <button
                 onClick={copyShareLink}
-                className="px-3 py-1.5 text-sm bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors flex items-center gap-1"
+                className="px-3 py-1.5 text-sm bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors flex items-center gap-1.5"
               >
-                🔗 Share Link
+                <Share2 className="w-3.5 h-3.5" />
+                Share Link
               </button>
               {bookmarks.length > 0 && (
                 <div className="relative group">
@@ -3890,7 +3887,7 @@ export const ChronosPage: React.FC = () => {
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
                 <div className="flex items-center justify-between mb-2">
                   <h2 className="text-xl font-semibold flex items-center gap-2">
-                    <span>{styles.icon}</span>
+                    <Clock className="w-5 h-5 text-amber-400" />
                     Organization State
                   </h2>
                   <div className="flex items-center gap-3">

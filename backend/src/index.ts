@@ -394,6 +394,24 @@ const startServer = async () => {
     } catch (e) {
       logger.warn('Policy engine initialization failed:', e);
     }
+
+    // Start Chronos Event Bus flush scheduler (retries failed event writes)
+    try {
+      const { chronosEventBus } = await import('./services/ChronosEventBus.js');
+      chronosEventBus.startFlushScheduler(30000); // Every 30 seconds
+      logger.info('[Chronos] Event bus flush scheduler started');
+    } catch (e) {
+      logger.warn('[Chronos] Event bus scheduler failed to start:', e);
+    }
+
+    // Start Echo automated outcome collection scheduler
+    try {
+      const { echoService } = await import('./services/echoService.js');
+      echoService.startCollectionScheduler(60 * 60 * 1000); // Every hour
+      logger.info('[Echo] Automated collection scheduler started');
+    } catch (e) {
+      logger.warn('[Echo] Collection scheduler failed to start:', e);
+    }
   } catch (error) {
     logger.error('Failed to start server:', error);
     process.exit(1);

@@ -371,6 +371,28 @@ model agent_weight_history {
   @@index([agent_id])
 }
 
+model echo_collection_jobs {
+  id                        String    @id @default(uuid())
+  organization_id           String
+  deliberation_id           String
+  decision_title            String
+  decision_date             DateTime
+  scheduled_collection_date DateTime
+  data_source_ids           String[]  @default([])
+  metric_keys               String[]  @default([])
+  status                    String    @default("scheduled") // scheduled, collecting, awaiting_review, completed, failed, cancelled
+  collected_data            Json?
+  collected_at              DateTime?
+  error                     String?
+  created_at                DateTime  @default(now())
+  updated_at                DateTime  @default(now()) @updatedAt
+
+  @@index([organization_id])
+  @@index([deliberation_id])
+  @@index([status])
+  @@index([scheduled_collection_date])
+}
+
 model echo_patterns {
   id              String   @id @default(uuid())
   organization_id String
