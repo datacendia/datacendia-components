@@ -30,7 +30,7 @@ import {
   ScanEye, PenTool, Landmark, Dna, Flame, Target, ScrollText,
   Building2, Scale, FlaskConical, Lock, Shield, KeyRound, Leaf,
   Globe, Activity, Languages, Megaphone, UserCheck, Brain,
-  Infinity, Network, SearchCode, Briefcase, Castle, Settings,
+  Infinity, Network, SearchCode, Briefcase, Castle, Settings, Radar, AlertTriangle,
   Factory, Gavel, HeartPulse, Banknote, Building, ShieldCheck, Pill,
   Zap, Monitor, ShoppingCart, HardHat, Truck, Clapperboard,
   GraduationCap, Trophy, Columns,
@@ -296,6 +296,20 @@ const coreSuiteFeatures = [
     Icon: Film,
     path: '/cortex/council/replay-theater',
     description: 'Watch past deliberations unfold like a movie',
+  },
+  {
+    id: 'echo',
+    label: 'CendiaEcho™',
+    Icon: Radar,
+    path: '/cortex/crown/echo',
+    description: 'Decision Outcome Engine - Track what actually happened after each decision',
+  },
+  {
+    id: 'collapse',
+    label: 'CendiaCollapse™',
+    Icon: AlertTriangle,
+    path: '/cortex/sovereign/collapse',
+    description: 'Adversarial Policy Stress-Testing - Find how decisions fail before they do',
   },
 ];
 
