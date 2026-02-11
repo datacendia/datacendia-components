@@ -4830,7 +4830,7 @@
       "name": "Dissent Channel Escalation",
       "category": "Governance",
       "councilMode": "governance",
-      "services": ["CendiaDissent", "CendiaDissent", "CendiaDocket", "CendiaCouncil"],
+      "services": ["CendiaDissent", "CendiaDocket", "CendiaCouncil"],
       "steps": [
         {"order": 1, "action": "Dissent receives anonymous concern", "service": "CendiaDissent", "output": "anonymous_concern"},
         {"order": 2, "action": "CendiaDissent validates concern legitimacy", "service": "CendiaDissent", "output": "legitimacy_check"},
