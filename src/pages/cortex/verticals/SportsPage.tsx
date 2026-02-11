@@ -325,6 +325,10 @@ export default function SportsPage() {
           </p>
         </div>
         <div className="flex gap-2">
+          <Button variant="outline" onClick={() => navigate('/cortex/verticals/sports/fifa-scenarios')} className="gap-2">
+            <Shield className="h-4 w-4" />
+            FIFA/UEFA Scenarios
+          </Button>
           <Button variant="outline" onClick={() => navigate('/cortex/verticals/sports/uefa-walkthrough')} className="gap-2">
             <Gavel className="h-4 w-4" />
             UEFA Walkthrough
@@ -785,22 +789,42 @@ export default function SportsPage() {
                 ))}
               </div>
 
-              <div className="mt-6 p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="font-semibold flex items-center gap-2">
-                      <Gavel className="h-4 w-4 text-indigo-600" />
-                      UEFA Procedural Integrity Walkthrough
-                    </h3>
-                    <p className="text-sm text-muted-foreground mt-1">
-                      Interactive demo showing Discovery-Time Proof, Multi-Agent Deliberation,
-                      Procedural Compliance, and the Regulator's Receipt in action.
-                    </p>
+              <div className="mt-6 space-y-3">
+                <div className="p-4 bg-gray-900 text-white rounded-lg">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-semibold flex items-center gap-2">
+                        <Shield className="h-4 w-4 text-indigo-400" />
+                        FIFA/UEFA Governance Crisis Scenarios
+                      </h3>
+                      <p className="text-sm text-gray-400 mt-1">
+                        5 high-impact scenarios: FFP Crisis, World Cup Host Selection, Match-Fixing Emergency,
+                        Solidarity Disputes, and VAR Policy Reform. Presentation-ready for institutional demo.
+                      </p>
+                    </div>
+                    <Button onClick={() => navigate('/cortex/verticals/sports/fifa-scenarios')} className="gap-2 shrink-0 bg-indigo-600 hover:bg-indigo-700">
+                      <ChevronRight className="h-4 w-4" />
+                      Launch Scenarios
+                    </Button>
                   </div>
-                  <Button onClick={() => navigate('/cortex/verticals/sports/uefa-walkthrough')} className="gap-2 shrink-0">
-                    <ChevronRight className="h-4 w-4" />
-                    Launch Walkthrough
-                  </Button>
+                </div>
+                <div className="p-4 bg-indigo-50 dark:bg-indigo-900/20 rounded-lg border border-indigo-200 dark:border-indigo-800">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-semibold flex items-center gap-2">
+                        <Gavel className="h-4 w-4 text-indigo-600" />
+                        UEFA Procedural Integrity Walkthrough
+                      </h3>
+                      <p className="text-sm text-muted-foreground mt-1">
+                        Interactive demo showing Discovery-Time Proof, Multi-Agent Deliberation,
+                        Procedural Compliance, and the Regulator's Receipt in action.
+                      </p>
+                    </div>
+                    <Button variant="outline" onClick={() => navigate('/cortex/verticals/sports/uefa-walkthrough')} className="gap-2 shrink-0">
+                      <ChevronRight className="h-4 w-4" />
+                      Launch Walkthrough
+                    </Button>
+                  </div>
                 </div>
               </div>
             </CardContent>

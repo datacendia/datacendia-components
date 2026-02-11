@@ -87,6 +87,9 @@ const CommandPage = lazy(() =>
 const UEFAWalkthroughPage = lazy(() =>
   import('../../pages/cortex/verticals/UEFAWalkthroughPage').then((m) => ({ default: m.default }))
 );
+const FIFAGovernanceScenariosPage = lazy(() =>
+  import('../../pages/cortex/verticals/FIFAGovernanceScenariosPage').then((m) => ({ default: m.default }))
+);
 
 // Enterprise Platinum Features
 const ConstitutionalCourtPage = lazy(() =>
@@ -135,6 +138,7 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'enterprise/financial', element: w(FinancialPage) },
   { path: 'verticals/sports', element: w(SportsDecisionPage) },
   { path: 'verticals/sports/uefa-walkthrough', element: w(UEFAWalkthroughPage) },
+  { path: 'verticals/sports/fifa-scenarios', element: w(FIFAGovernanceScenariosPage) },
   { path: 'enterprise/omni-translate', element: w(OmniTranslatePage) },
   { path: 'enterprise/veto', element: w(VetoPage) },
   { path: 'enterprise/union', element: w(UnionPage) },
