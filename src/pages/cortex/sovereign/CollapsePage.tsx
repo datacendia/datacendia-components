@@ -186,7 +186,10 @@ const CollapsePage: React.FC = () => {
   const fetchAgents = async () => {
     try {
       const res = await fetch(`${API_BASE}/agents`);
-      const data = await res.json();
+      if (!res.ok) return;
+      const text = await res.text();
+      if (!text) return;
+      const data = JSON.parse(text);
       if (data.success) {
         setAgents(data.agents);
       }
@@ -198,7 +201,10 @@ const CollapsePage: React.FC = () => {
   const fetchHistory = async () => {
     try {
       const res = await fetch(`${API_BASE}/deliberations`);
-      const data = await res.json();
+      if (!res.ok) return;
+      const text = await res.text();
+      if (!text) return;
+      const data = JSON.parse(text);
       if (data.success) {
         setHistory(data.deliberations);
       }
