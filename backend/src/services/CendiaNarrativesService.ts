@@ -172,7 +172,7 @@ export class CendiaNarrativesService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('CendiaNarratives Service initialized - Report generation ready');
+    this.logger.info('[CendiaNarratives] Report Generation™ initialized');
   }
 
   async shutdown(): Promise<void> {

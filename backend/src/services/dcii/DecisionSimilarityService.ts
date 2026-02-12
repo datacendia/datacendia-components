@@ -1,5 +1,5 @@
 /**
- * CENDIA DECISION SIMILARITY™ SERVICE
+ * CendiaSimilarity™ — Decision Similarity Service
  * 
  * DCII Enhancement for Continuity Memory: Proactive historical decision matching.
  * 
@@ -228,7 +228,7 @@ class DecisionSimilarityService {
   private patterns: Map<string, DecisionPattern> = new Map();
 
   constructor() {
-    logger.info('🔍 Decision Similarity Service initialized');
+    logger.info('[CendiaSimilarity] Decision Similarity Engine™ initialized');
     this.seedDemoData();
   }
 
@@ -249,7 +249,7 @@ class DecisionSimilarityService {
     };
 
     this.decisions.set(id, decision);
-    logger.info(`🔍 Decision recorded: ${record.title} (${id})`);
+    logger.info(`[CendiaSimilarity] Decision recorded: ${record.title} (${id})`);
     return decision;
   }
 
@@ -268,7 +268,7 @@ class DecisionSimilarityService {
     if (lessonsLearned) decision.lessonsLearned = lessonsLearned;
     if (dissenterWasCorrect !== undefined) decision.dissenterWasCorrect = dissenterWasCorrect;
 
-    logger.info(`🔍 Outcome updated for ${decision.title}: ${outcome}`);
+    logger.info(`[CendiaSimilarity] Outcome updated for ${decision.title}: ${outcome}`);
     return decision;
   }
 
@@ -355,7 +355,7 @@ class DecisionSimilarityService {
       .digest('hex');
 
     this.searchResults.set(result.id, result);
-    logger.info(`🔍 Similarity search: ${topMatches.length} matches found in ${result.searchDurationMs}ms`);
+    logger.info(`[CendiaSimilarity] Search: ${topMatches.length} matches found in ${result.searchDurationMs}ms`);
     return result;
   }
 
@@ -668,7 +668,7 @@ class DecisionSimilarityService {
       this.patterns.set(p.id, p);
     }
 
-    logger.info(`🔍 Pattern detection for ${organizationId}: ${detectedPatterns.length} patterns found`);
+    logger.info(`[CendiaSimilarity] Pattern detection for ${organizationId}: ${detectedPatterns.length} patterns found`);
     return detectedPatterns;
   }
 

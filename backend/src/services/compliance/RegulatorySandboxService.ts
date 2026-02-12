@@ -424,7 +424,7 @@ export class RegulatorySandboxService {
   private tests: Map<string, SandboxTest> = new Map();
 
   constructor() {
-    logger.info('RegulatorySandboxService initialized');
+    logger.info('[CendiaSandbox] Regulatory Sandbox™ initialized');
   }
 
   /**

@@ -1,5 +1,5 @@
 /**
- * INSTITUTIONAL IMMUNE SYSTEM SCORE™ (IISS) SERVICE
+ * CendiaIISS™ — Institutional Immune System Score Service
  * 
  * The category-completing innovation for Decision Crisis Immunization Infrastructure.
  * 
@@ -321,7 +321,7 @@ class IISSService {
   private history: Map<string, IISSHistoryEntry[]> = new Map();
 
   constructor() {
-    logger.info('🛡️ IISS Service initialized - Institutional Immune System Score™');
+    logger.info('[CendiaIISS] Institutional Immune System Score™ initialized');
     this.seedDemoData();
   }
 
@@ -407,7 +407,7 @@ class IISSService {
     assessment.score = score;
     assessment.auditTrail.push({ timestamp: new Date(), action: 'assessment_completed', actor: 'system', details: `Score: ${overallScore}, Band: ${band}` });
 
-    logger.info(`🛡️ IISS calculated for ${organizationName}: ${overallScore} (${band})`);
+    logger.info(`[CendiaIISS] Score calculated for ${organizationName}: ${overallScore} (${band})`);
     return score;
   }
 

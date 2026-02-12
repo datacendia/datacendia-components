@@ -47,7 +47,7 @@ export const AuditProvenancePage: React.FC = () => {
                 <Fingerprint className="w-8 h-8" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold">Audit Provenance™</h1>
+                <h1 className="text-3xl font-bold">CendiaProvenance™</h1>
                 <p className="text-indigo-200">Full decision lineage & evidence export</p>
               </div>
             </div>

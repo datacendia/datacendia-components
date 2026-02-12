@@ -1694,18 +1694,18 @@
     "optional": "Optional"
   },
   "dcii": {
-    "title": "Decision Crisis Immunization Infrastructure™",
+    "title": "CendiaDCII™ — Decision Crisis Immunization Infrastructure",
     "subtitle": "9 primitives · IISS scoring · category-defining governance infrastructure",
     "tabs": {
       "overview": "Overview",
-      "iiss": "IISS Score",
-      "media": "Media Auth",
-      "jurisdiction": "Jurisdictions",
-      "timestamps": "Timestamps",
-      "similarity": "Similarity"
+      "iiss": "CendiaIISS™",
+      "media": "CendiaMediaAuth™",
+      "jurisdiction": "CendiaJurisdiction™",
+      "timestamps": "CendiaTimestamp™",
+      "similarity": "CendiaSimilarity™"
     },
     "iiss": {
-      "title": "Institutional Immune System Score™",
+      "title": "CendiaIISS™ — Institutional Immune System Score",
       "calculate": "Calculate IISS",
       "score": "Score",
       "band": "Band",
@@ -1747,7 +1747,7 @@
       "crossJurisdictionCompliance": "Cross-Jurisdiction Compliance"
     },
     "media": {
-      "title": "Synthetic Media Authentication",
+      "title": "CendiaMediaAuth™ — Synthetic Media Authentication",
       "signMedia": "Sign Media",
       "analyzeAuthenticity": "Analyze Authenticity",
       "chainOfCustody": "Chain of Custody",
@@ -1763,7 +1763,7 @@
       }
     },
     "jurisdiction": {
-      "title": "Cross-Jurisdiction Regulatory Conflicts",
+      "title": "CendiaJurisdiction™ — Cross-Jurisdiction Regulatory Conflicts",
       "assess": "Assess Organization",
       "conflicts": "Conflicts Detected",
       "goodFaith": "Good Faith Documentation",
@@ -1784,7 +1784,7 @@
       }
     },
     "timestamps": {
-      "title": "RFC 3161 Timestamp Authority",
+      "title": "CendiaTimestamp™ — RFC 3161 Timestamp Authority",
       "issueTimestamp": "Issue Timestamp",
       "verifyTimestamp": "Verify Timestamp",
       "batchTimestamp": "Batch Timestamp",
@@ -1794,7 +1794,7 @@
       "avgVerification": "Avg Verification Time"
     },
     "similarity": {
-      "title": "Decision Similarity Engine",
+      "title": "CendiaSimilarity™ — Decision Similarity Engine",
       "search": "Find Similar Decisions",
       "searchPlaceholder": "Describe a proposed decision to find similar precedents...",
       "matchStrength": "Match Strength",

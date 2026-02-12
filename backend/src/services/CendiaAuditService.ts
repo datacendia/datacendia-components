@@ -139,7 +139,7 @@ export class CendiaAuditService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('CendiaAudit Service initialized - Compliance logging enabled');
+    this.logger.info('[CendiaAudit] Compliance Logging™ initialized');
     
     // Log service start
     await this.logEvent({

@@ -76,7 +76,7 @@ export default function ZKPPage() {
         <div className="flex items-center gap-3">
           <Shield className="h-8 w-8 text-green-600" />
           <div>
-            <h1 className="text-2xl font-bold">Zero-Knowledge Proofs</h1>
+            <h1 className="text-2xl font-bold">CendiaZKP™</h1>
             <p className="text-muted-foreground">Prove compliance without revealing proprietary logic</p>
           </div>
         </div>

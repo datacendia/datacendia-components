@@ -99,11 +99,11 @@ const BAND_COLORS: Record<string, { bg: string; text: string; border: string; gl
 
 const TABS: { id: TabId; label: string; icon: React.ReactNode; description: string }[] = [
   { id: 'overview', label: 'Overview', icon: <Shield className="w-4 h-4" />, description: 'DCII status & primitives' },
-  { id: 'iiss', label: 'IISS Score', icon: <Award className="w-4 h-4" />, description: 'Institutional Immune System Score' },
-  { id: 'media', label: 'Media Auth', icon: <Camera className="w-4 h-4" />, description: 'Synthetic media authentication' },
-  { id: 'jurisdiction', label: 'Jurisdictions', icon: <Globe className="w-4 h-4" />, description: 'Cross-jurisdiction conflicts' },
-  { id: 'timestamps', label: 'Timestamps', icon: <Timer className="w-4 h-4" />, description: 'RFC 3161 timestamp authority' },
-  { id: 'similarity', label: 'Similarity', icon: <GitBranch className="w-4 h-4" />, description: 'Decision similarity engine' },
+  { id: 'iiss', label: 'CendiaIISS™', icon: <Award className="w-4 h-4" />, description: 'Institutional Immune System Score' },
+  { id: 'media', label: 'CendiaMediaAuth™', icon: <Camera className="w-4 h-4" />, description: 'Synthetic media authentication' },
+  { id: 'jurisdiction', label: 'CendiaJurisdiction™', icon: <Globe className="w-4 h-4" />, description: 'Cross-jurisdiction conflicts' },
+  { id: 'timestamps', label: 'CendiaTimestamp™', icon: <Timer className="w-4 h-4" />, description: 'RFC 3161 timestamp authority' },
+  { id: 'similarity', label: 'CendiaSimilarity™', icon: <GitBranch className="w-4 h-4" />, description: 'Decision similarity engine' },
 ];
 
 const PRIMITIVES = [
@@ -176,7 +176,7 @@ export default function DCIIDashboardPage() {
                 <Shield className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold tracking-tight">Decision Crisis Immunization Infrastructure™</h1>
+                <h1 className="text-2xl font-bold tracking-tight">CendiaDCII™ — Decision Crisis Immunization Infrastructure</h1>
                 <p className="text-sm text-slate-400">9 primitives · IISS scoring · category-defining governance infrastructure</p>
               </div>
             </div>

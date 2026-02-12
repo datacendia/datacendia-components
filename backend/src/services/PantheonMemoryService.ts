@@ -107,7 +107,7 @@ export class PantheonMemoryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('PantheonMemory Service initialized - Agent memory active');
+    this.logger.info('[CendiaPantheon] Agent Memory Service™ initialized');
   }
 
   async shutdown(): Promise<void> {

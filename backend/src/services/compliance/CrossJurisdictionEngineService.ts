@@ -308,7 +308,7 @@ export class CrossJurisdictionEngineService {
 
   constructor() {
     this.initializeCommonConflicts();
-    logger.info('CrossJurisdictionEngineService initialized');
+    logger.info('[CendiaJurisdiction] Cross-Jurisdiction Engine™ initialized');
   }
 
   /**

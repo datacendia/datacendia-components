@@ -1,5 +1,5 @@
 /**
- * CENDIA CROSS-JURISDICTION COMPLIANCE CONFLICT DETECTION™ SERVICE
+ * CendiaJurisdiction™ — Cross-Jurisdiction Compliance Conflict Detection Service
  * 
  * DCII Advanced Primitive: Handling conflicting regulatory requirements.
  * 
@@ -304,7 +304,7 @@ class CrossJurisdictionConflictService {
   private goodFaithDocs: Map<string, GoodFaithDocument> = new Map();
 
   constructor() {
-    logger.info('🌍 Cross-Jurisdiction Compliance Conflict Detection Service initialized');
+    logger.info('[CendiaJurisdiction] Cross-Jurisdiction Compliance Conflict Detection™ initialized');
     this.seedDemoData();
   }
 
@@ -357,7 +357,7 @@ class CrossJurisdictionConflictService {
       .digest('hex');
 
     this.assessments.set(assessment.id, assessment);
-    logger.info(`🌍 Cross-jurisdiction assessment for ${organizationName}: ${conflicts.length} conflicts, risk: ${overallRisk}`);
+    logger.info(`[CendiaJurisdiction] Assessment for ${organizationName}: ${conflicts.length} conflicts, risk: ${overallRisk}`);
     return assessment;
   }
 
@@ -505,7 +505,7 @@ class CrossJurisdictionConflictService {
     conflict.goodFaithDocumentation = doc;
     conflict.status = 'resolution_proposed';
 
-    logger.info(`🌍 Good-faith document generated for conflict ${conflictId}`);
+    logger.info(`[CendiaJurisdiction] Good-faith document generated for conflict ${conflictId}`);
     return doc;
   }
 
@@ -582,7 +582,7 @@ class CrossJurisdictionConflictService {
     packet.integrity.packetHash = crypto.createHash('sha256').update(JSON.stringify({ id: packet.id, jurisdiction, framework })).digest('hex');
     this.evidencePackets.set(packet.id, packet);
 
-    logger.info(`🌍 Evidence packet generated: ${packet.title}`);
+    logger.info(`[CendiaJurisdiction] Evidence packet generated: ${packet.title}`);
     return packet;
   }
 

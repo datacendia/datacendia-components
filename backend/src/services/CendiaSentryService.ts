@@ -111,7 +111,7 @@ export class CendiaSentryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('CendiaSentry Service initialized - AI guardrails active');
+    this.logger.info('[CendiaSentry] AI Guardrails™ initialized');
   }
 
   async shutdown(): Promise<void> {

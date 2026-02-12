@@ -125,7 +125,7 @@ export class CarbonAwareSchedulerService {
   private readonly cacheExpiryMs = 5 * 60 * 1000; // 5 minutes
 
   constructor() {
-    logger.info('CarbonAwareSchedulerService initialized');
+    logger.info('[CendiaCarbon] Carbon-Aware Scheduler™ initialized');
   }
 
   /**

@@ -137,7 +137,7 @@ export class PostQuantumKMSService {
   private hybridEnabled: boolean = true;
 
   constructor() {
-    logger.info('PostQuantumKMSService initialized');
+    logger.info('[CendiaQuantumKMS] Post-Quantum KMS™ initialized');
   }
 
   /**

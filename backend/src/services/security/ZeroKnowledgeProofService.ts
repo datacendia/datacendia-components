@@ -124,7 +124,7 @@ export class ZeroKnowledgeProofService {
   private certificates: Map<string, ComplianceCertificate> = new Map();
 
   constructor() {
-    logger.info('ZeroKnowledgeProofService initialized');
+    logger.info('[CendiaZKP] Zero-Knowledge Proof Service™ initialized');
   }
 
   /**

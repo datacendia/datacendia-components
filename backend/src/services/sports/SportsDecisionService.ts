@@ -259,7 +259,7 @@ export class SportsDecisionService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('Sports Decision Service initialized');
+    this.logger.info('[CendiaSports] Sports Decision Service™ initialized');
     this.logger.info(`Loaded ${SPORTS_DECISION_TEMPLATES.length} decision templates`);
     this.logger.info(`Loaded ${SPORTS_COMPLIANCE_FRAMEWORKS.length} compliance frameworks`);
   }

@@ -151,7 +151,7 @@ export class DeliberationVisualizationService extends EventEmitter {
 
   private constructor() {
     super();
-    logger.info('🎭 DeliberationVisualizationService initialized');
+    logger.info('[CendiaLive] Deliberation Visualization™ initialized');
   }
 
   static getInstance(): DeliberationVisualizationService {

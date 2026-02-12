@@ -27,14 +27,14 @@ router.get('/status', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: {
-      service: 'Decision Crisis Immunization Infrastructure™ (DCII)',
+      service: 'CendiaDCII™ — Decision Crisis Immunization Infrastructure',
       version: '2.0.0',
       modules: {
-        iiss: { status: 'operational', description: 'Institutional Immune System Score™' },
-        syntheticMedia: { status: 'operational', description: 'Synthetic Media Authentication™' },
-        crossJurisdiction: { status: 'operational', description: 'Cross-Jurisdiction Conflict Detection™' },
-        timestampAuthority: { status: 'operational', description: 'RFC 3161 Timestamp Authority™' },
-        decisionSimilarity: { status: 'operational', description: 'Decision Similarity Engine™' },
+        iiss: { status: 'operational', description: 'CendiaIISS™ — Institutional Immune System Score' },
+        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuth™ — Synthetic Media Authentication' },
+        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdiction™ — Cross-Jurisdiction Conflict Detection' },
+        timestampAuthority: { status: 'operational', description: 'CendiaTimestamp™ — RFC 3161 Timestamp Authority' },
+        decisionSimilarity: { status: 'operational', description: 'CendiaSimilarity™ — Decision Similarity Engine' },
       },
       primitives: {
         foundational: ['Discovery-Time Proof', 'Deliberation Capture', 'Override Accountability', 'Continuity Memory', 'Drift Detection'],

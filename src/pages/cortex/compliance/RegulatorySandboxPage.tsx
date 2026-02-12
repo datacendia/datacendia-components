@@ -80,7 +80,7 @@ export default function RegulatorySandboxPage() {
         <div className="flex items-center gap-3">
           <FlaskConical className="h-8 w-8 text-purple-600" />
           <div>
-            <h1 className="text-2xl font-bold">Regulatory Sandbox</h1>
+            <h1 className="text-2xl font-bold">CendiaSandbox™</h1>
             <p className="text-muted-foreground">Test against proposed regulations before they're law</p>
           </div>
         </div>

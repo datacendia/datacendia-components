@@ -1,5 +1,5 @@
 /**
- * CENDIA SYNTHETIC MEDIA AUTHENTICATION™ SERVICE
+ * CendiaMediaAuth™ — Synthetic Media Authentication Service
  * 
  * DCII Advanced Primitive: Proving digital evidence is authentic.
  * 
@@ -221,7 +221,7 @@ class SyntheticMediaAuthService {
   private assessments: Map<string, AuthenticityAssessment> = new Map();
 
   constructor() {
-    logger.info('🎭 Synthetic Media Authentication Service initialized');
+    logger.info('[CendiaMediaAuth] Synthetic Media Authentication™ initialized');
     this.seedDemoData();
   }
 
@@ -298,7 +298,7 @@ class SyntheticMediaAuthService {
     };
 
     this.assets.set(assetId, asset);
-    logger.info(`🎭 Media signed: ${fileName} (${assetId})`);
+    logger.info(`[CendiaMediaAuth] Media signed: ${fileName} (${assetId})`);
     return asset;
   }
 
@@ -368,7 +368,7 @@ class SyntheticMediaAuthService {
 
     this.addCustodyEntry(assetId, 'verified', analyzedBy, 'analyst', `Authenticity analysis: ${verdict} (${confidenceScore}%)`);
 
-    logger.info(`🎭 Authenticity analysis for ${asset.fileName}: ${verdict} (${confidenceScore}%)`);
+    logger.info(`[CendiaMediaAuth] Authenticity analysis for ${asset.fileName}: ${verdict} (${confidenceScore}%)`);
     return assessment;
   }
 

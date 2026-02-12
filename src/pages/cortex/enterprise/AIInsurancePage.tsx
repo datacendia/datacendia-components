@@ -81,7 +81,7 @@ export default function AIInsurancePage() {
         <div className="flex items-center gap-3">
           <Shield className="h-8 w-8 text-blue-600" />
           <div>
-            <h1 className="text-2xl font-bold">AI Insurance</h1>
+            <h1 className="text-2xl font-bold">CendiaInsure™</h1>
             <p className="text-muted-foreground">Direct liability coverage per AI decision</p>
           </div>
         </div>

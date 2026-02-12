@@ -271,7 +271,7 @@ const coreSuiteFeatures = [
   },
   {
     id: 'pre-mortem',
-    label: 'Pre-Mortem Engine',
+    label: 'CendiaPreMortem™',
     Icon: Skull,
     path: '/cortex/intelligence/pre-mortem',
     description: 'AI analyzes why your decision will fail before you execute it',
@@ -285,14 +285,14 @@ const coreSuiteFeatures = [
   },
   {
     id: 'live-visualization',
-    label: 'Live Deliberation',
+    label: 'CendiaLive™',
     Icon: Eye,
     path: '/cortex/council/visualization',
     description: 'Watch AI agents deliberate in real-time with animated avatars',
   },
   {
     id: 'replay-theater',
-    label: 'Replay Theater',
+    label: 'CendiaReplay™',
     Icon: Film,
     path: '/cortex/council/replay-theater',
     description: 'Watch past deliberations unfold like a movie',
@@ -320,7 +320,7 @@ const coreSuiteFeatures = [
   },
   {
     id: 'live-monitor',
-    label: 'Live Agent Monitor',
+    label: 'CendiaPulse™',
     Icon: Monitor,
     path: '/cortex/monitor/live',
     description: 'Mission control - Real-time visualization of agent actions, decisions, and compliance checks',
@@ -334,14 +334,14 @@ const coreSuiteFeatures = [
   },
   {
     id: 'roi-metrics',
-    label: 'ROI Metrics',
+    label: 'CendiaROI™',
     Icon: TrendingUp,
     path: '/cortex/enterprise/roi-metrics',
     description: 'Prove the ROI of governance - Real deliberation throughput, quality, and cost metrics',
   },
   {
     id: 'dcii',
-    label: 'DCII Dashboard™',
+    label: 'CendiaDCII™',
     Icon: Shield,
     path: '/cortex/enterprise/dcii',
     description: 'Decision Crisis Immunization Infrastructure - IISS scoring, 9 primitives, media auth, timestamps',
@@ -378,7 +378,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'audit-provenance',
-    label: 'Audit Provenance™',
+    label: 'CendiaProvenance™',
     Icon: Dna,
     path: '/cortex/intelligence/audit-provenance',
     description: 'Full decision lineage & evidence export - cryptographically signed, court-admissible',
@@ -402,7 +402,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'adversarial-redteam',
-    label: '100 Ways to Fail',
+    label: 'CendiaRedTeam™',
     Icon: Target,
     path: '/cortex/enterprise/adversarial-redteam',
     description: 'Adversarial Red Team - Every agent becomes a devil\'s advocate',
@@ -417,7 +417,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'constitutional-court',
-    label: 'AI Constitutional Court',
+    label: 'CendiaCourt™',
     Icon: Scale,
     path: '/cortex/governance/constitutional-court',
     description: 'Formal AI dispute resolution with precedent tracking and binding opinions',
@@ -425,7 +425,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'regulatory-sandbox',
-    label: 'Regulatory Sandbox',
+    label: 'CendiaSandbox™',
     Icon: FlaskConical,
     path: '/cortex/compliance/regulatory-sandbox',
     description: 'Test against proposed regulations before they become law',
@@ -433,7 +433,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'zkp',
-    label: 'Zero-Knowledge Proofs',
+    label: 'CendiaZKP™',
     Icon: Lock,
     path: '/cortex/security/zkp',
     description: 'Prove compliance without revealing proprietary logic or data',
@@ -441,7 +441,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'ai-insurance',
-    label: 'AI Insurance',
+    label: 'CendiaInsure™',
     Icon: Shield,
     path: '/cortex/enterprise/ai-insurance',
     description: 'Direct liability coverage per AI decision with real-time risk scoring',
@@ -449,7 +449,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'post-quantum-kms',
-    label: 'Post-Quantum KMS',
+    label: 'CendiaQuantumKMS™',
     Icon: KeyRound,
     path: '/cortex/enterprise/post-quantum-kms',
     description: 'Quantum-resistant cryptographic signatures (Dilithium, SPHINCS+, Falcon)',
@@ -457,7 +457,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'carbon-aware',
-    label: 'Carbon-Aware Scheduler',
+    label: 'CendiaCarbon™',
     Icon: Leaf,
     path: '/cortex/enterprise/carbon-aware',
     description: 'Reduce AI carbon footprint with intelligent workload scheduling',
@@ -465,7 +465,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'cross-jurisdiction',
-    label: 'Cross-Jurisdiction',
+    label: 'CendiaJurisdiction™',
     Icon: Globe,
     path: '/cortex/compliance/cross-jurisdiction',
     description: '17-jurisdiction compliance engine for cross-border data transfers',
@@ -473,7 +473,7 @@ const trustLayerFeatures = [
   },
   {
     id: 'continuous-compliance',
-    label: 'Continuous Compliance',
+    label: 'CendiaCompliance™',
     Icon: Activity,
     path: '/cortex/compliance/continuous-monitor',
     description: 'Real-time monitoring for 10 compliance frameworks',

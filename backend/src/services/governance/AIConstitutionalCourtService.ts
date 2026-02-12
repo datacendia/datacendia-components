@@ -237,7 +237,7 @@ export class AIConstitutionalCourtService {
   private caseCounter = 1000;
 
   constructor() {
-    logger.info('AIConstitutionalCourtService initialized');
+    logger.info('[CendiaCourt] AI Constitutional Court™ initialized');
   }
 
   /**

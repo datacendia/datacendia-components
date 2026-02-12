@@ -1,5 +1,5 @@
 /**
- * CENDIA TIMESTAMP AUTHORITY™ SERVICE (RFC 3161)
+ * CendiaTimestamp™ — RFC 3161 External Timestamp Authority Service
  * 
  * DCII Enhancement for Discovery-Time Proof: External cryptographic timestamping.
  * 
@@ -228,7 +228,7 @@ class TimestampAuthorityService {
   private providers: TSAProviderConfig[] = TSA_PROVIDERS;
 
   constructor() {
-    logger.info('⏰ Timestamp Authority Service initialized (RFC 3161)');
+    logger.info('[CendiaTimestamp] RFC 3161 Timestamp Authority™ initialized');
     this.seedDemoData();
   }
 
@@ -300,7 +300,7 @@ class TimestampAuthorityService {
     token.expiresAt = new Date(Date.now() + 10 * 365 * 24 * 60 * 60 * 1000); // 10-year retention
 
     this.tokens.set(tokenId, token);
-    logger.info(`⏰ Timestamp issued: ${tokenId} for "${description}" (${dataType})`);
+    logger.info(`[CendiaTimestamp] Token issued: ${tokenId} for "${description}" (${dataType})`);
     return token;
   }
 
@@ -409,7 +409,7 @@ class TimestampAuthorityService {
     batch.status = batch.tokensIssued.length === items.length ? 'completed' : 'partial_failure';
     batch.completedAt = new Date();
 
-    logger.info(`⏰ Batch timestamp completed: ${batch.tokensIssued.length}/${items.length} tokens`);
+    logger.info(`[CendiaTimestamp] Batch completed: ${batch.tokensIssued.length}/${items.length} tokens`);
     return batch;
   }
 
@@ -541,7 +541,7 @@ class TimestampAuthorityService {
     token.verifiedAt = new Date();
     this.verifications.set(verification.id, verification);
 
-    logger.info(`⏰ Timestamp ${tokenId} verification: ${overallValid ? 'VALID' : 'INVALID'}`);
+    logger.info(`[CendiaTimestamp] Token ${tokenId} verification: ${overallValid ? 'VALID' : 'INVALID'}`);
     return verification;
   }
 

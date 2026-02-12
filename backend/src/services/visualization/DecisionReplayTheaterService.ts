@@ -91,7 +91,7 @@ export class DecisionReplayTheaterService {
   private activeSessions: Map<string, ReplayPlaybackState> = new Map();
 
   private constructor() {
-    logger.info('🎬 DecisionReplayTheaterService initialized');
+    logger.info('[CendiaReplay] Decision Replay Theater™ initialized');
   }
 
   static getInstance(): DecisionReplayTheaterService {

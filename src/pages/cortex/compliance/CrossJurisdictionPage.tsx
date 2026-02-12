@@ -169,7 +169,7 @@ export default function CrossJurisdictionPage() {
         <div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
             <Globe className="w-8 h-8 text-blue-500" />
-            CendiaCrossJurisdiction™
+            CendiaJurisdiction™
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
             Multi-Jurisdiction Compliance Engine

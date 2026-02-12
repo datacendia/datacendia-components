@@ -380,7 +380,7 @@ export const LiveAgentMonitorPage: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  Live Agent Monitor
+                  CendiaPulse™
                 </h1>
                 <p className="text-sm text-gray-400">Real-time AI agent activity • Compliance enforcement • Risk scoring</p>
               </div>

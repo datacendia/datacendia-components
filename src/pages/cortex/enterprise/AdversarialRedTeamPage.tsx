@@ -538,7 +538,7 @@ export const AdversarialRedTeamPage: React.FC = () => {
                 <Target className="w-8 h-8 text-red-400" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold tracking-tight">100 Ways to Fail</h1>
+                <h1 className="text-3xl font-bold tracking-tight">CendiaRedTeam™</h1>
                 <p className="text-red-300/80">Adversarial Red Team Mode &mdash; Every agent becomes a devil's advocate</p>
               </div>
             </div>

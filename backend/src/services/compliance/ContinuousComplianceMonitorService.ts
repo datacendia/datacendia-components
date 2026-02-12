@@ -198,7 +198,7 @@ export class ContinuousComplianceMonitorService {
   private monitoringActive: boolean = false;
 
   constructor() {
-    logger.info('ContinuousComplianceMonitorService initialized');
+    logger.info('[CendiaCompliance] Continuous Compliance Monitor™ initialized');
   }
 
   /**

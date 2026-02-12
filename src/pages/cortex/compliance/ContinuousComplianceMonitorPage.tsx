@@ -220,7 +220,7 @@ export default function ContinuousComplianceMonitorPage() {
         <div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
             <Shield className="w-8 h-8 text-indigo-500" />
-            CendiaContinuousCompliance™
+            CendiaCompliance™
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
             Real-Time Compliance Monitoring

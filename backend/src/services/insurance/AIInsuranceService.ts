@@ -228,7 +228,7 @@ export class AIInsuranceService {
   private policyCounter = 100000;
 
   constructor() {
-    logger.info('AIInsuranceService initialized');
+    logger.info('[CendiaInsure] AI Insurance™ initialized');
   }
 
   /**
