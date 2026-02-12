@@ -583,10 +583,10 @@ const verticalPacks = [
   },
   {
     id: 'sports',
-    label: 'Sports / Athletics',
+    label: 'Sports Governance',
     Icon: Trophy,
-    path: '/verticals/sports',
-    description: '24 agents for sports orgs',
+    path: '/cortex/verticals/sports',
+    description: 'FIFA/UEFA governance scenarios & transfer compliance',
     industry: 'Sports',
   },
   // Smart City / Municipal

@@ -103,10 +103,22 @@ export const SportsPage: React.FC = () => {
               </p>
               <div className="flex gap-4">
                 <button
-                  onClick={() => navigate('/cortex/council?vertical=sports')}
+                  onClick={() => navigate('/cortex/verticals/sports/fifa-scenarios')}
+                  className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>⚖️</span> FIFA/UEFA Governance Scenarios
+                </button>
+                <button
+                  onClick={() => navigate('/cortex/verticals/sports')}
                   className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
                 >
-                  <span>🏛️</span> Launch Sports Council
+                  <span>🏛️</span> Transfer Governance Dashboard
+                </button>
+                <button
+                  onClick={() => navigate('/cortex/verticals/sports/uefa-walkthrough')}
+                  className="px-6 py-3 bg-neutral-700 hover:bg-neutral-600 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🛡️</span> UEFA Walkthrough
                 </button>
               </div>
             </div>
