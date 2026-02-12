@@ -27,6 +27,9 @@ const DecisionDNAPage = lazy(() =>
 const ChronosPage = lazy(() =>
   import('../../pages/cortex/intelligence').then((m) => ({ default: m.ChronosPage }))
 );
+const CendiaLensPage = lazy(() =>
+  import('../../pages/cortex/intelligence').then((m) => ({ default: m.CendiaLensPage }))
+);
 
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
@@ -42,4 +45,5 @@ export const cortexIntelligenceRoutes: RouteObject[] = [
   { path: 'intelligence/regulatory', element: w(RegulatoryAbsorbPage) },
   { path: 'intelligence/decision-dna', element: w(DecisionDNAPage) },
   { path: 'intelligence/chronos', element: w(ChronosPage) },
+  { path: 'intelligence/lens', element: w(CendiaLensPage) },
 ];

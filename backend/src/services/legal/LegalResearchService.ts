@@ -21,6 +21,7 @@ const ECFR_API_BASE = 'https://www.ecfr.gov/api';
 const OPENSTATES_API_BASE = 'https://v3.openstates.org';
 const FEDERAL_REGISTER_API_BASE = 'https://www.federalregister.gov/api/v1';
 const SEC_EDGAR_API_BASE = 'https://data.sec.gov';
+const WESTLAW_API_BASE = 'https://api.thomsonreuters.com/westlaw/v1';
 
 // Retry configuration
 const MAX_RETRIES = 3;
@@ -103,6 +104,8 @@ export interface SECFiling {
 class LegalResearchService extends EventEmitter {
   private courtListenerApiKey: string | null = null;
   private openStatesApiKey: string | null = null;
+  private westlawApiKey: string | null = null;
+  private westlawClientId: string | null = null;
   private toolCallHistory: LegalToolCall[] = [];
   private cache: Map<string, { data: unknown; timestamp: number }> = new Map();
   private CACHE_TTL = 1000 * 60 * 30; // 30 minutes
@@ -111,6 +114,8 @@ class LegalResearchService extends EventEmitter {
     super();
     this.courtListenerApiKey = process.env['COURTLISTENER_API_KEY'] || null;
     this.openStatesApiKey = process.env['OPENSTATES_API_KEY'] || null;
+    this.westlawApiKey = process.env['WESTLAW_API_KEY'] || null;
+    this.westlawClientId = process.env['WESTLAW_CLIENT_ID'] || null;
   }
 
   // ===========================================================================
@@ -120,9 +125,13 @@ class LegalResearchService extends EventEmitter {
   setApiKeys(keys: {
     courtlistener?: string;
     openstates?: string;
+    westlaw?: string;
+    westlawClientId?: string;
   }): void {
     if (keys.courtlistener) this.courtListenerApiKey = keys.courtlistener;
     if (keys.openstates) this.openStatesApiKey = keys.openstates;
+    if (keys.westlaw) this.westlawApiKey = keys.westlaw;
+    if (keys.westlawClientId) this.westlawClientId = keys.westlawClientId;
   }
 
   getStatus(): {
@@ -132,6 +141,7 @@ class LegalResearchService extends EventEmitter {
     ecfr: boolean;
     federalRegister: boolean;
     secEdgar: boolean;
+    westlaw: boolean;
   } {
     return {
       caselaw: true, // Always available (rate limited without key)
@@ -140,6 +150,7 @@ class LegalResearchService extends EventEmitter {
       ecfr: true,
       federalRegister: true,
       secEdgar: true,
+      westlaw: !!this.westlawApiKey,
     };
   }
 
@@ -525,6 +536,154 @@ class LegalResearchService extends EventEmitter {
   }
 
   // ===========================================================================
+  // WESTLAW (Thomson Reuters - requires enterprise API key)
+  // ===========================================================================
+
+  async searchWestlaw(query: string, options?: {
+    jurisdiction?: string;
+    dateMin?: string;
+    dateMax?: string;
+    contentType?: 'cases' | 'statutes' | 'regulations' | 'secondary';
+    limit?: number;
+  }): Promise<LegalSearchResult[]> {
+    const startTime = Date.now();
+    const cacheKey = `westlaw:${query}:${JSON.stringify(options)}`;
+    
+    const cached = this.getFromCache<LegalSearchResult[]>(cacheKey);
+    if (cached) return cached;
+
+    if (!this.westlawApiKey) {
+      const guidance: LegalSearchResult = {
+        source: 'westlaw-guidance',
+        type: 'case',
+        id: 'westlaw-config',
+        title: `Westlaw search: "${query}"`,
+        snippet: 'Westlaw API requires Thomson Reuters enterprise credentials. Set WESTLAW_API_KEY and WESTLAW_CLIENT_ID environment variables. Contact Thomson Reuters for API access: https://legal.thomsonreuters.com/en/products/westlaw',
+        url: 'https://legal.thomsonreuters.com/en/products/westlaw',
+        metadata: { note: 'Enterprise API key required', configRequired: ['WESTLAW_API_KEY', 'WESTLAW_CLIENT_ID'] },
+      };
+      this.logToolCall('searchWestlaw', { query, ...options }, [guidance], Date.now() - startTime);
+      return [guidance];
+    }
+
+    try {
+      const searchPayload: Record<string, unknown> = {
+        query,
+        jurisdiction: options?.jurisdiction || 'all',
+        contentType: options?.contentType || 'cases',
+        maxResults: options?.limit || 10,
+        sortOrder: 'relevance',
+      };
+      if (options?.dateMin) searchPayload.dateRange = { from: options.dateMin, to: options?.dateMax || new Date().toISOString().split('T')[0] };
+
+      const response = await this.fetchWithRetry(
+        `${WESTLAW_API_BASE}/search`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${this.westlawApiKey}`,
+            'X-Client-Id': this.westlawClientId || '',
+            'Accept': 'application/json',
+          },
+          body: JSON.stringify(searchPayload),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`Westlaw API error: ${response.status} ${response.statusText}`);
+      }
+
+      const data = await response.json() as {
+        results: Array<{
+          documentId: string;
+          title: string;
+          citation: string;
+          date: string;
+          court?: string;
+          snippet: string;
+          westlawUrl: string;
+          relevanceScore: number;
+        }>;
+      };
+
+      const results: LegalSearchResult[] = (data.results || []).map((r) => ({
+        source: 'westlaw',
+        type: (options?.contentType === 'statutes' ? 'regulation' : 'case') as LegalSearchResult['type'],
+        id: r.documentId,
+        title: r.title,
+        citation: r.citation,
+        date: r.date,
+        snippet: r.snippet?.substring(0, 300),
+        url: r.westlawUrl,
+        relevanceScore: r.relevanceScore,
+        metadata: { court: r.court, source: 'westlaw' },
+      }));
+
+      this.setCache(cacheKey, results);
+      this.logToolCall('searchWestlaw', { query, ...options }, results, Date.now() - startTime);
+      return results;
+    } catch (error) {
+      this.logToolCall('searchWestlaw', { query, ...options }, undefined, Date.now() - startTime,
+        error instanceof Error ? error.message : 'Unknown error');
+      throw error;
+    }
+  }
+
+  async getWestlawDocument(documentId: string): Promise<LegalSearchResult | null> {
+    if (!this.westlawApiKey) return null;
+
+    const startTime = Date.now();
+    const cacheKey = `westlaw-doc:${documentId}`;
+    const cached = this.getFromCache<LegalSearchResult>(cacheKey);
+    if (cached) return cached;
+
+    try {
+      const response = await this.fetchWithRetry(
+        `${WESTLAW_API_BASE}/documents/${encodeURIComponent(documentId)}`,
+        {
+          headers: {
+            'Authorization': `Bearer ${this.westlawApiKey}`,
+            'X-Client-Id': this.westlawClientId || '',
+            'Accept': 'application/json',
+          },
+        }
+      );
+
+      if (!response.ok) return null;
+
+      const doc = await response.json() as {
+        documentId: string;
+        title: string;
+        citation: string;
+        date: string;
+        fullText: string;
+        westlawUrl: string;
+      };
+
+      const result: LegalSearchResult = {
+        source: 'westlaw',
+        type: 'case',
+        id: doc.documentId,
+        title: doc.title,
+        citation: doc.citation,
+        date: doc.date,
+        snippet: doc.fullText?.substring(0, 500),
+        url: doc.westlawUrl,
+        metadata: { fullDocument: true },
+      };
+
+      this.setCache(cacheKey, result);
+      this.logToolCall('getWestlawDocument', { documentId }, [result], Date.now() - startTime);
+      return result;
+    } catch (error) {
+      this.logToolCall('getWestlawDocument', { documentId }, undefined, Date.now() - startTime,
+        error instanceof Error ? error.message : 'Unknown error');
+      return null;
+    }
+  }
+
+  // ===========================================================================
   // UNIFIED SEARCH
   // ===========================================================================
 
@@ -533,7 +692,7 @@ class LegalResearchService extends EventEmitter {
     jurisdiction?: string;
     limit?: number;
   }): Promise<LegalSearchResult[]> {
-    const sources = options?.sources || ['cases', 'regulations', 'bills', 'federal-register'];
+    const sources = options?.sources || ['cases', 'regulations', 'bills', 'federal-register', 'westlaw'];
     const limit = options?.limit || 5;
     const results: LegalSearchResult[] = [];
 
@@ -563,6 +722,13 @@ class LegalResearchService extends EventEmitter {
     if (sources.includes('federal-register')) {
       searches.push(
         this.searchFederalRegister(query, { limit })
+          .catch(() => [])
+      );
+    }
+
+    if (sources.includes('westlaw')) {
+      searches.push(
+        this.searchWestlaw(query, { jurisdiction: options?.jurisdiction, limit })
           .catch(() => [])
       );
     }
@@ -647,6 +813,20 @@ class LegalResearchService extends EventEmitter {
             }
           );
           return { success: true, results, source: 'sec-edgar' };
+
+        case 'search_westlaw':
+        case 'searchWestlaw':
+          results = await this.searchWestlaw(
+            params.query as string,
+            {
+              jurisdiction: params.jurisdiction as string,
+              dateMin: params.dateMin as string,
+              dateMax: params.dateMax as string,
+              contentType: params.contentType as 'cases' | 'statutes' | 'regulations' | 'secondary',
+              limit: params.limit as number,
+            }
+          );
+          return { success: true, results, source: 'westlaw' };
 
         case 'unified_search':
         case 'unifiedSearch':

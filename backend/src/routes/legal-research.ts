@@ -213,6 +213,61 @@ router.post('/sec', async (req: Request, res: Response) => {
 });
 
 // ===========================================================================
+// WESTLAW (Thomson Reuters)
+// ===========================================================================
+
+router.post('/westlaw', async (req: Request, res: Response) => {
+  try {
+    const { query, jurisdiction, dateMin, dateMax, contentType, limit } = req.body;
+    
+    if (!query) {
+      return res.status(400).json({ success: false, error: 'Query required' });
+    }
+
+    const results = await legalResearchService.searchWestlaw(query, {
+      jurisdiction,
+      dateMin,
+      dateMax,
+      contentType,
+      limit,
+    });
+
+    res.json({
+      success: true,
+      count: results.length,
+      results,
+      formatted: legalResearchService.formatResultsForAgent(results),
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Unknown error',
+    });
+  }
+});
+
+router.get('/westlaw/:documentId', async (req: Request, res: Response) => {
+  try {
+    const documentId = req.params['documentId'];
+    if (!documentId) {
+      return res.status(400).json({ success: false, error: 'Document ID required' });
+    }
+    const result = await legalResearchService.getWestlawDocument(decodeURIComponent(documentId));
+
+    if (!result) {
+      return res.status(404).json({ success: false, error: 'Document not found or Westlaw not configured' });
+    }
+
+    res.json({ success: true, result });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Unknown error',
+    });
+  }
+});
+
+// ===========================================================================
 // UNIFIED SEARCH
 // ===========================================================================
 

@@ -33,7 +33,7 @@ import {
   Infinity, Network, SearchCode, Briefcase, Castle, Settings, Radar, AlertTriangle,
   Factory, Gavel, HeartPulse, Banknote, Building, ShieldCheck, Pill,
   Zap, Monitor, ShoppingCart, HardHat, Truck, Clapperboard,
-  GraduationCap, Trophy, Columns,
+  GraduationCap, Trophy, Columns, FileSignature, TrendingUp, Siren,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -305,11 +305,39 @@ const coreSuiteFeatures = [
     description: 'Decision Outcome Engine - Track what actually happened after each decision',
   },
   {
+    id: 'cendia-lens',
+    label: 'CendiaLens™',
+    Icon: SearchCode,
+    path: '/cortex/intelligence/lens',
+    description: 'AI Interpretability - Token confidence, reasoning chains, bias detection, EU AI Act compliance',
+  },
+  {
     id: 'collapse',
     label: 'CendiaCollapse™',
     Icon: AlertTriangle,
     path: '/cortex/sovereign/collapse',
     description: 'Adversarial Policy Stress-Testing - Find how decisions fail before they do',
+  },
+  {
+    id: 'live-monitor',
+    label: 'Live Agent Monitor',
+    Icon: Monitor,
+    path: '/cortex/monitor/live',
+    description: 'Mission control - Real-time visualization of agent actions, decisions, and compliance checks',
+  },
+  {
+    id: 'crisis',
+    label: 'CendiaCrisis™',
+    Icon: Siren,
+    path: '/cortex/enterprise/crisis',
+    description: 'Incident Response Center - From detection to resolution with complete audit trail',
+  },
+  {
+    id: 'roi-metrics',
+    label: 'ROI Metrics',
+    Icon: TrendingUp,
+    path: '/cortex/enterprise/roi-metrics',
+    description: 'Prove the ROI of governance - Real deliberation throughput, quality, and cost metrics',
   },
 ];
 
@@ -348,6 +376,14 @@ const trustLayerFeatures = [
     path: '/cortex/intelligence/audit-provenance',
     description: 'Full decision lineage & evidence export - cryptographically signed, court-admissible',
     merged: ['Decision DNA', "Regulator's Receipt", 'Ledger', 'Evidence Export'],
+  },
+  {
+    id: 'decision-packets',
+    label: 'Decision Packets',
+    Icon: FileSignature,
+    path: '/cortex/governance/decision-packets',
+    description: 'Browse, verify, and export cryptographically signed decision evidence bundles',
+    merged: ['Signed Packets', 'Merkle Verification', 'Export'],
   },
   {
     id: 'crucible',

@@ -160,6 +160,33 @@ export const LEGAL_TOOL_DEFINITIONS: LegalToolDefinition[] = [
     },
   },
   {
+    name: 'search_westlaw',
+    description: 'Search Westlaw (Thomson Reuters) for case law, statutes, regulations, and secondary sources. Requires enterprise API key.',
+    parameters: {
+      type: 'object',
+      properties: {
+        query: {
+          type: 'string',
+          description: 'Search query for Westlaw (e.g., "fiduciary duty breach", "GDPR enforcement action")',
+        },
+        jurisdiction: {
+          type: 'string',
+          description: 'Jurisdiction filter (e.g., "federal", "california", "uk", "eu")',
+        },
+        contentType: {
+          type: 'string',
+          description: 'Type of legal content to search',
+          enum: ['cases', 'statutes', 'regulations', 'secondary'],
+        },
+        limit: {
+          type: 'number',
+          description: 'Maximum number of results (default: 10)',
+        },
+      },
+      required: ['query'],
+    },
+  },
+  {
     name: 'unified_legal_search',
     description: 'Search across multiple legal sources simultaneously (cases, regulations, bills, Federal Register).',
     parameters: {

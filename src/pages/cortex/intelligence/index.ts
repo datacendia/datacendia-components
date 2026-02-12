@@ -11,3 +11,4 @@ export { RegulatoryAbsorbPage } from './RegulatoryAbsorbPage';
 export { RegulatoryAbsorbPageV2 } from './RegulatoryAbsorbPageV2';
 export { DecisionDNAPage } from './DecisionDNAPage';
 export { ChronosPage } from './ChronosPage';
+export { CendiaLensPage } from './CendiaLensPage';
