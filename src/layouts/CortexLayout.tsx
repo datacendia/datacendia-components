@@ -342,12 +342,12 @@ const trustLayerFeatures = [
     merged: ['Decision Packets', 'Audit Ledger', 'Evidence Bundles', 'Signed Reports'],
   },
   {
-    id: 'decision-dna',
-    label: 'Decision DNA™',
+    id: 'audit-provenance',
+    label: 'Audit Provenance™',
     Icon: Dna,
-    path: '/cortex/intelligence/decision-dna',
-    description: 'Immutable Lineage - Cryptographically signed audit packets on local ledger',
-    merged: ['Ledger', 'Evidence Vault'],
+    path: '/cortex/intelligence/audit-provenance',
+    description: 'Full decision lineage & evidence export - cryptographically signed, court-admissible',
+    merged: ['Decision DNA', "Regulator's Receipt", 'Ledger', 'Evidence Export'],
   },
   {
     id: 'crucible',
@@ -363,14 +363,6 @@ const trustLayerFeatures = [
     Icon: Target,
     path: '/cortex/enterprise/adversarial-redteam',
     description: 'Adversarial Red Team - Every agent becomes a devil\'s advocate',
-  },
-  {
-    id: 'regulators-receipt',
-    label: "Regulator's Receipt",
-    Icon: ScrollText,
-    path: '/cortex/compliance/regulators-receipt',
-    description: 'Audit-Safe Proof - One-click court-admissible decision documentation',
-    merged: ['Ledger Export', 'Evidence Bundle', 'Chronos Replay', 'Policy Mapping'],
   },
   {
     id: 'sgas',

@@ -90,6 +90,9 @@ const UEFAWalkthroughPage = lazy(() =>
 const FIFAGovernanceScenariosPage = lazy(() =>
   import('../../pages/cortex/verticals/FIFAGovernanceScenariosPage').then((m) => ({ default: m.default }))
 );
+const AuditProvenancePage = lazy(() =>
+  import('../../pages/cortex/intelligence/AuditProvenancePage').then((m) => ({ default: m.default }))
+);
 
 // Enterprise Platinum Features
 const ConstitutionalCourtPage = lazy(() =>
@@ -163,8 +166,11 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'governance/decision-packets', element: w(DecisionPacketsPage) },
   { path: 'governance/constitutional-court', element: w(ConstitutionalCourtPage) },
 
-  // Compliance
-  { path: 'compliance/regulators-receipt', element: w(RegulatorsReceiptGeneratorPage) },
+  // Audit Provenance (merged Decision DNA + Regulator's Receipt)
+  { path: 'intelligence/audit-provenance', element: w(AuditProvenancePage) },
+  // Legacy redirects
+  { path: 'intelligence/decision-dna', element: <Navigate to="/cortex/intelligence/audit-provenance" replace /> },
+  { path: 'compliance/regulators-receipt', element: <Navigate to="/cortex/intelligence/audit-provenance" replace /> },
   { path: 'compliance/regulatory-sandbox', element: w(RegulatorySandboxPage) },
   { path: 'compliance/cross-jurisdiction', element: w(CrossJurisdictionPage) },
   { path: 'compliance/continuous-monitor', element: w(ContinuousComplianceMonitorPage) },

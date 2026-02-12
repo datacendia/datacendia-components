@@ -1,6 +1,6 @@
 /**
  * DATACENDIA BRAND LOGO
- * Minimalist text-based logo with spaced lettering
+ * Stylized DATACEND!A with gold accent on exclamation mark
  */
 
 import React from 'react';
@@ -12,9 +12,6 @@ interface LogoProps {
   dark?: boolean;
 }
 
-// Logo aspect ratio for text version: 9:1
-const LOGO_ASPECT_RATIO = 9;
-
 const sizes = {
   sm: { height: 24, fontSize: 14 },
   md: { height: 32, fontSize: 18 },
@@ -22,49 +19,52 @@ const sizes = {
   xl: { height: 56, fontSize: 28 },
 };
 
+const ACCENT_COLOR = '#c9a84c';
+
 export const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full', className = '', dark = true }) => {
   const { height, fontSize } = sizes[size];
-  
-  // Text-based logo matching the uploaded style
+  const baseColor = dark ? '#e8e4e0' : '#1a1a1a';
+
   return (
     <span
       className={className}
       style={{
-        fontFamily: 'Arial, Helvetica, sans-serif',
+        fontFamily: "'Georgia', 'Times New Roman', serif",
         fontSize: `${fontSize}px`,
-        fontWeight: 300,
-        letterSpacing: '0.35em',
-        color: dark ? '#e8e4e0' : '#1a1a1a',
+        fontWeight: 400,
+        letterSpacing: '0.3em',
+        color: baseColor,
         display: 'inline-block',
         lineHeight: `${height}px`,
       }}
     >
-      DATACENDIA
+      DATACEND<span style={{ color: ACCENT_COLOR }}>!</span>A
     </span>
   );
 };
 
-// Same logo for simple contexts
 export const LogoSimple: React.FC<{ size?: number; className?: string; dark?: boolean }> = ({
   size = 40,
   className = '',
   dark = true,
 }) => {
   const fontSize = Math.round(size * 0.55);
+  const baseColor = dark ? '#e8e4e0' : '#1a1a1a';
+
   return (
     <span
       className={className}
       style={{
-        fontFamily: 'Arial, Helvetica, sans-serif',
+        fontFamily: "'Georgia', 'Times New Roman', serif",
         fontSize: `${fontSize}px`,
-        fontWeight: 300,
-        letterSpacing: '0.35em',
-        color: dark ? '#e8e4e0' : '#1a1a1a',
+        fontWeight: 400,
+        letterSpacing: '0.3em',
+        color: baseColor,
         display: 'inline-block',
         lineHeight: `${size}px`,
       }}
     >
-      DATACENDIA
+      DATACEND<span style={{ color: ACCENT_COLOR }}>!</span>A
     </span>
   );
 };
