@@ -2850,6 +2850,33 @@ export const CouncilPage: React.FC = () => {
             )}
           />
 
+          {/* Demo Scenario Quick-Start Templates */}
+          {!queryInput && (
+            <div className="mt-3 mb-2">
+              <p className="text-[10px] text-white/40 uppercase tracking-wider mb-2">Quick-start scenarios</p>
+              <div className="flex flex-wrap gap-1.5">
+                {[
+                  { label: 'Thomson Reuters', icon: '🏦', q: '$2.5M PEP Transfer to Viktor Petrov (Cyprus) — Basel III Compliance Review. The transfer involves a Politically Exposed Person with ties to sanctioned entities. Evaluate AML risk, regulatory exposure, and recommend proceed/block/escalate with full compliance documentation.' },
+                  { label: 'FIFA / UEFA', icon: '⚽', q: 'A top-tier European club has signed a €180M player with payment structured across 6 years. Related-party sponsorship revenue offsets costs. A whistleblower alleges inflated commercial revenue and hidden agent fees. Evaluate FFP compliance, CAS appeal resilience, and recommended sanctions.' },
+                  { label: 'Celtic FC', icon: '🏴', q: 'Should Celtic FC proceed with the £12M acquisition of a 23-year-old Portuguese midfielder from Benfica given current FFP constraints, January transfer window timing, squad depth at CM, and the player\'s loan performance metrics? Include agent fee analysis and sell-on clause recommendations.' },
+                  { label: 'Luxury / ESG', icon: '💎', q: 'Should LUX proceed with sourcing high-value raw materials from Supplier X given recent human rights allegations in their supply chain, pending EU Due Diligence Directive requirements, and brand reputation exposure? Evaluate ESG compliance, alternative sourcing viability, and stakeholder communication strategy.' },
+                  { label: 'VC Investment', icon: '📈', q: 'Should the fund proceed with a $15M Series B investment in an AI governance startup given current market correction (-22% sector valuations), strong product-market fit signals (40% MoM growth), founder concentration risk, and competitive landscape with 3 well-funded competitors? Model 3-year return scenarios.' },
+                  { label: 'M&A Strategy', icon: '🏢', q: 'Should we proceed with the acquisition of DataShield Corp for $50M given regulatory approval risks in 3 jurisdictions, integration complexity with our existing platform, $12M annual synergy target, and current cash position of $80M? Evaluate deal structure, integration timeline, and antitrust exposure.' },
+                ].map((tmpl) => (
+                  <button
+                    key={tmpl.label}
+                    onClick={() => setQueryInput(tmpl.q)}
+                    className="flex items-center gap-1.5 px-2.5 py-1.5 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-lg text-xs text-white/60 hover:text-white/90 transition-all"
+                    title={tmpl.q.substring(0, 120) + '...'}
+                  >
+                    <span>{tmpl.icon}</span>
+                    <span>{tmpl.label}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Document Attachment Section */}
           <div className="mt-3">
             <input

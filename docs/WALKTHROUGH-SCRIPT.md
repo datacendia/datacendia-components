@@ -68,8 +68,8 @@
 ### Live Demo Flow
 
 1. **Show existing deliberations** — point out completed ones with confidence scores
-2. **Start a new deliberation** (choose based on audience — see Section 7)
-3. **Watch agents respond in real-time** — highlight dissent when it occurs
+2. **Use the Quick-Start Scenario Templates** — when the textarea is empty, audience-specific buttons appear below it (Thomson Reuters, FIFA/UEFA, Celtic FC, Luxury/ESG, VC Investment, M&A Strategy). Click the relevant one to pre-load the question.
+3. **Start the deliberation** — watch agents respond in real-time, highlight dissent when it occurs
 4. **Show the final synthesis** — emphasize it captures disagreement, not just consensus
 
 **Key points:**

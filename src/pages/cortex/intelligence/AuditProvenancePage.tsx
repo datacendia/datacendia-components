@@ -104,11 +104,11 @@ export const AuditProvenancePage: React.FC = () => {
         </div>
       </div>
 
-      {/* Content */}
+      {/* Content — embedded mode suppresses sub-page headers */}
       {activeView === 'lineage' ? (
-        <DecisionDNAPage />
+        <DecisionDNAPage embedded />
       ) : (
-        <RegulatorsReceiptPage />
+        <RegulatorsReceiptPage embedded />
       )}
     </div>
   );

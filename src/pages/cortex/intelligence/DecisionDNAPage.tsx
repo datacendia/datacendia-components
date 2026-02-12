@@ -525,7 +525,7 @@ const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
   },
 };
 
-export const DecisionDNAPage: React.FC = () => {
+export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
   const navigate = useNavigate();
   const { user } = useAuth();
   const [decisions, setDecisions] = useState<DecisionSummary[]>([]);
@@ -594,10 +594,10 @@ export const DecisionDNAPage: React.FC = () => {
       
       // Sort by date descending
       allDecisions.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-      setDecisions(allDecisions);
+      setDecisions(allDecisions.length > 0 ? allDecisions : SAMPLE_DECISIONS);
     } catch (error) {
       console.error('Failed to load decisions:', error);
-      setDecisions([]);
+      setDecisions(SAMPLE_DECISIONS);
     } finally {
       setIsLoadingList(false);
     }
@@ -678,6 +678,12 @@ export const DecisionDNAPage: React.FC = () => {
       }
     } catch (error) {
       console.error('Failed to load decision:', error);
+      // Fallback to sample decisions for demo mode
+      if (SAMPLE_DECISIONS_DETAIL[id]) {
+        setSelectedDecision(SAMPLE_DECISIONS_DETAIL[id]);
+        setReplayStep(0);
+        setReplayMode(false);
+      }
     }
     setIsLoading(false);
   };
@@ -767,19 +773,21 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
+    <div className={embedded ? 'bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6' : 'min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6'}>
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="mb-8">
-          <div className="flex items-center gap-3 mb-2">
-            <span className="text-4xl">🧬</span>
-            <h1 className="text-3xl font-bold text-white">Decision DNA</h1>
+        {/* Header — hidden when embedded in Audit Provenance */}
+        {!embedded && (
+          <div className="mb-8">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="text-4xl">🧬</span>
+              <h1 className="text-3xl font-bold text-white">Decision DNA</h1>
+            </div>
+            <p className="text-slate-400 text-lg">
+              Full lifecycle tracking with step-by-step replay. Every decision, every analysis, every
+              outcome.
+            </p>
           </div>
-          <p className="text-slate-400 text-lg">
-            Full lifecycle tracking with step-by-step replay. Every decision, every analysis, every
-            outcome.
-          </p>
-        </div>
+        )}
 
         <div className="grid grid-cols-12 gap-6">
           {/* Left Panel - Decision List */}

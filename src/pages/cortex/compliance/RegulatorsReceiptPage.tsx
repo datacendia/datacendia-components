@@ -222,7 +222,7 @@ const HashDisplay: React.FC<{ label: string; hash: string }> = ({ label, hash })
 // MAIN COMPONENT
 // =============================================================================
 
-export const RegulatorsReceiptPage: React.FC = () => {
+export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
   const { t } = useTranslation();
   const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -301,21 +301,23 @@ export const RegulatorsReceiptPage: React.FC = () => {
   // Deliberation Selection View
   if (!selectedDeliberation) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-        {/* Header */}
-        <div className="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="flex items-center gap-4">
-              <div className="p-3 bg-white/10 rounded-xl">
-                <FileCheck className="w-8 h-8" />
-              </div>
-              <div>
-                <h1 className="text-3xl font-bold">Regulator's Receipt Generator</h1>
-                <p className="text-emerald-200">One-click court-admissible decision documentation</p>
+      <div className={embedded ? 'bg-gray-50 dark:bg-gray-900' : 'min-h-screen bg-gray-50 dark:bg-gray-900'}>
+        {/* Header — hidden when embedded in Audit Provenance */}
+        {!embedded && (
+          <div className="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 text-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+              <div className="flex items-center gap-4">
+                <div className="p-3 bg-white/10 rounded-xl">
+                  <FileCheck className="w-8 h-8" />
+                </div>
+                <div>
+                  <h1 className="text-3xl font-bold">Regulator's Receipt Generator</h1>
+                  <p className="text-emerald-200">One-click court-admissible decision documentation</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Features */}
@@ -391,9 +393,9 @@ export const RegulatorsReceiptPage: React.FC = () => {
 
   // Receipt View
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 text-white">
+    <div className={embedded ? 'bg-gray-50 dark:bg-gray-900' : 'min-h-screen bg-gray-50 dark:bg-gray-900'}>
+      {/* Receipt Header */}
+      <div className={embedded ? 'bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 text-white' : 'bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 text-white'}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -404,8 +406,8 @@ export const RegulatorsReceiptPage: React.FC = () => {
                 <ChevronRight className="w-5 h-5 rotate-180" />
               </button>
               <div>
-                <h1 className="text-2xl font-bold">Regulator's Receipt</h1>
-                {receipt && <p className="text-emerald-200 font-mono text-sm">{receipt.receiptId}</p>}
+                <h1 className="text-2xl font-bold">{embedded ? 'Evidence Export' : "Regulator's Receipt"}</h1>
+                {receipt && <p className={embedded ? 'text-indigo-200 font-mono text-sm' : 'text-emerald-200 font-mono text-sm'}>{receipt.receiptId}</p>}
               </div>
             </div>
             
@@ -455,7 +457,9 @@ export const RegulatorsReceiptPage: React.FC = () => {
                     onClick={() => setActiveTab(tab.id as typeof activeTab)}
                     className={`flex items-center gap-2 py-4 border-b-2 font-medium text-sm transition-colors ${
                       activeTab === tab.id
-                        ? 'border-emerald-500 text-emerald-600 dark:text-emerald-400'
+                        ? embedded
+                          ? 'border-indigo-500 text-indigo-600 dark:text-indigo-400'
+                          : 'border-emerald-500 text-emerald-600 dark:text-emerald-400'
                         : 'border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400'
                     }`}
                   >
