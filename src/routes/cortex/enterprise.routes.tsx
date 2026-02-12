@@ -122,6 +122,9 @@ const CrossJurisdictionPage = lazy(() =>
 const ContinuousComplianceMonitorPage = lazy(() =>
   import('../../pages/cortex/compliance/ContinuousComplianceMonitorPage').then((m) => ({ default: m.default }))
 );
+const DCIIDashboardPage = lazy(() =>
+  import('../../pages/cortex/enterprise/DCIIDashboardPage').then((m) => ({ default: m.default }))
+);
 
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
@@ -160,6 +163,7 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'enterprise/ai-insurance', element: w(AIInsurancePage) },
   { path: 'enterprise/post-quantum-kms', element: w(PostQuantumKMSPage) },
   { path: 'enterprise/carbon-aware', element: w(CarbonAwareSchedulerPage) },
+  { path: 'enterprise/dcii', element: w(DCIIDashboardPage) },
 
   // Governance
   { path: 'governance', element: <Navigate to="/cortex/governance/decision-packets" replace /> },

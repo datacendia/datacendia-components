@@ -339,6 +339,13 @@ const coreSuiteFeatures = [
     path: '/cortex/enterprise/roi-metrics',
     description: 'Prove the ROI of governance - Real deliberation throughput, quality, and cost metrics',
   },
+  {
+    id: 'dcii',
+    label: 'DCII Dashboard™',
+    Icon: Shield,
+    path: '/cortex/enterprise/dcii',
+    description: 'Decision Crisis Immunization Infrastructure - IISS scoring, 9 primitives, media auth, timestamps',
+  },
 ];
 
 // =============================================================================

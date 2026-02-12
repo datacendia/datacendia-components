@@ -1692,5 +1692,130 @@
     "externalLink": "External link",
     "required": "Required field",
     "optional": "Optional"
+  },
+  "dcii": {
+    "title": "Decision Crisis Immunization Infrastructure™",
+    "subtitle": "9 primitives · IISS scoring · category-defining governance infrastructure",
+    "tabs": {
+      "overview": "Overview",
+      "iiss": "IISS Score",
+      "media": "Media Auth",
+      "jurisdiction": "Jurisdictions",
+      "timestamps": "Timestamps",
+      "similarity": "Similarity"
+    },
+    "iiss": {
+      "title": "Institutional Immune System Score™",
+      "calculate": "Calculate IISS",
+      "score": "Score",
+      "band": "Band",
+      "certification": "Certification Level",
+      "percentile": "Percentile",
+      "trend": "Trend",
+      "dimensions": "Dimension Breakdown",
+      "recommendations": "Top Recommendations",
+      "insuranceImpact": "Insurance Impact",
+      "benchmarks": "Industry Benchmarks",
+      "regulatoryReadiness": "Regulatory Readiness",
+      "bands": {
+        "critical": "Critical",
+        "vulnerable": "Vulnerable",
+        "developing": "Developing",
+        "resilient": "Resilient",
+        "exceptional": "Exceptional"
+      },
+      "certifications": {
+        "none": "None",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum"
+      }
+    },
+    "primitives": {
+      "title": "9 DCII Primitives",
+      "foundational": "Foundational",
+      "advanced": "Advanced",
+      "discoveryTimeProof": "Discovery-Time Proof",
+      "deliberationCapture": "Deliberation Capture",
+      "overrideAccountability": "Override Accountability",
+      "continuityMemory": "Continuity Memory",
+      "driftDetection": "Drift Detection",
+      "cognitiveBiasMitigation": "Cognitive Bias Mitigation",
+      "quantumResistantIntegrity": "Quantum-Resistant Integrity",
+      "syntheticMediaAuth": "Synthetic Media Authentication",
+      "crossJurisdictionCompliance": "Cross-Jurisdiction Compliance"
+    },
+    "media": {
+      "title": "Synthetic Media Authentication",
+      "signMedia": "Sign Media",
+      "analyzeAuthenticity": "Analyze Authenticity",
+      "chainOfCustody": "Chain of Custody",
+      "verificationReport": "Verification Report",
+      "c2paSigned": "C2PA Signed",
+      "verdicts": {
+        "authentic": "Authentic",
+        "likely_authentic": "Likely Authentic",
+        "inconclusive": "Inconclusive",
+        "likely_synthetic": "Likely Synthetic",
+        "synthetic": "Synthetic",
+        "tampered": "Tampered"
+      }
+    },
+    "jurisdiction": {
+      "title": "Cross-Jurisdiction Regulatory Conflicts",
+      "assess": "Assess Organization",
+      "conflicts": "Conflicts Detected",
+      "goodFaith": "Good Faith Documentation",
+      "evidencePacket": "Evidence Packet",
+      "profiles": "Jurisdiction Profiles",
+      "severities": {
+        "irreconcilable": "Irreconcilable",
+        "significant": "Significant",
+        "moderate": "Moderate",
+        "minor": "Minor",
+        "theoretical": "Theoretical"
+      },
+      "strategies": {
+        "highest_standard": "Highest Standard",
+        "data_localization": "Data Localization",
+        "contractual_safeguard": "Contractual Safeguard",
+        "good_faith_maximum": "Good Faith Maximum"
+      }
+    },
+    "timestamps": {
+      "title": "RFC 3161 Timestamp Authority",
+      "issueTimestamp": "Issue Timestamp",
+      "verifyTimestamp": "Verify Timestamp",
+      "batchTimestamp": "Batch Timestamp",
+      "providers": "TSA Providers",
+      "blockchainAnchored": "Blockchain Anchored",
+      "totalTokens": "Total Tokens",
+      "avgVerification": "Avg Verification Time"
+    },
+    "similarity": {
+      "title": "Decision Similarity Engine",
+      "search": "Find Similar Decisions",
+      "searchPlaceholder": "Describe a proposed decision to find similar precedents...",
+      "matchStrength": "Match Strength",
+      "riskAssessment": "Risk Assessment",
+      "patterns": "Decision Patterns",
+      "insights": "Aggregate Insights",
+      "outcomeTracking": "Outcome Tracking",
+      "strengths": {
+        "exact": "Exact",
+        "strong": "Strong",
+        "moderate": "Moderate",
+        "weak": "Weak",
+        "tangential": "Tangential"
+      },
+      "outcomes": {
+        "successful": "Successful",
+        "partially_successful": "Partially Successful",
+        "failed": "Failed",
+        "too_early": "Too Early to Tell",
+        "unknown": "Unknown"
+      }
+    }
   }
 }
