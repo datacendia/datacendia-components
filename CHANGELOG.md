@@ -7,6 +7,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added — CendiaDCII™ (Decision Crisis Immunization Infrastructure)
+- **CendiaIISS™** — Institutional Immune System Score (0–1000 scale, 5 dimensions, 5 certification bands)
+  - `backend/src/services/dcii/IISSService.ts` — Score calculation, benchmarking, dimension analysis
+- **CendiaMediaAuth™** — Synthetic Media Authentication
+  - `backend/src/services/dcii/SyntheticMediaAuthService.ts` — C2PA signing, deepfake detection, chain of custody
+- **CendiaJurisdiction™** — Cross-Jurisdiction Compliance Conflict Detection
+  - `backend/src/services/dcii/CrossJurisdictionConflictService.ts` — GDPR vs PIPL conflict detection, good-faith documentation
+- **CendiaTimestamp™** — RFC 3161 External Timestamp Authority
+  - `backend/src/services/dcii/TimestampAuthorityService.ts` — Multi-provider, batch, blockchain anchoring
+- **CendiaSimilarity™** — Decision Similarity Engine
+  - `backend/src/services/dcii/DecisionSimilarityService.ts` — TF-IDF semantic search, outcome-aware, pattern detection
+- **DCII API Routes** — `backend/src/routes/dcii.ts` mounted under governance domain
+- **DCII Frontend Dashboard** — `src/pages/cortex/enterprise/DCIIDashboardPage.tsx` with 6 tabs
+- **DCII Test Suite** — `backend/src/__tests__/services/dcii.test.ts` (52 tests, 100% passing)
+- **DCII i18n** — Full English translations under `dcii` namespace in `src/lib/i18n/locales/en.json`
+
+### Changed — Uniform Cendia™ Branding (37 files, 94 insertions/deletions)
+- **CortexLayout navigation** — 16 labels unified to `Cendia[Name]™` pattern:
+  Pre-Mortem Engine → CendiaPreMortem™, Live Deliberation → CendiaLive™,
+  Replay Theater → CendiaReplay™, Live Agent Monitor → CendiaPulse™,
+  ROI Metrics → CendiaROI™, DCII Dashboard → CendiaDCII™,
+  Audit Provenance → CendiaProvenance™, 100 Ways to Fail → CendiaRedTeam™,
+  AI Constitutional Court → CendiaCourt™, Regulatory Sandbox → CendiaSandbox™,
+  Zero-Knowledge Proofs → CendiaZKP™, AI Insurance → CendiaInsure™,
+  Post-Quantum KMS → CendiaQuantumKMS™, Carbon-Aware Scheduler → CendiaCarbon™,
+  Cross-Jurisdiction → CendiaJurisdiction™, Continuous Compliance → CendiaCompliance™
+- **Backend logger messages** — 18 services unified to `[CendiaName]` bracket prefix format
+- **Frontend page titles** — 10 pages aligned to match navigation labels
+- **Breadcrumbs** — 5 labels updated to match navigation
+- **i18n translations** — DCII namespace titles branded
+
+### Known Limitations (DCII)
+- DCII backend services use **in-memory Maps** (not persisted to database) — data lost on restart
+- DCII API routes do **not enforce authentication** middleware (other platform routes do)
+- Frontend DCII dashboard falls back to **demo data** if backend API is unreachable
+
 ### Security
 - Rotated exposed Redis password from git history
 - Removed `.env.infrastructure` and `.env.production` from git tracking (contained credentials)
@@ -21,6 +57,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added authentication to analytics endpoints
 - Removed 47 hardcoded org ID fallbacks (`|| 'demo'`, `|| 'demo-org'`) across 5 route files
 - Fixed dependency vulnerabilities (67 → 3 low, all unfixable `elliptic` via `keycloak-connect`)
+- Fixed `import crypto from 'crypto'` → `import * as crypto from 'crypto'` in 4 DCII services (non-esModuleInterop)
+- Fixed Map/Set iterator errors in IISSService using `Array.from()` (downlevelIteration compatibility)
 
 ### Changed
 - Relaxed backend `tsconfig.json` strictness options to eliminate 2,200+ style-only errors

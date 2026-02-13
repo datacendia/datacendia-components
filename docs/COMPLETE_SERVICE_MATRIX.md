@@ -1,8 +1,8 @@
 # DATACENDIA COMPLETE SERVICE MATRIX
 ## Cortex Platform, Pillars, Enterprise Suite & Decision Intelligence
 
-**Version:** Enterprise Platinum v4.5  
-**Generated:** February 4, 2026
+**Version:** Enterprise Platinum v4.7  
+**Generated:** February 12, 2026
 
 ---
 
@@ -12,9 +12,10 @@
 2. [The 8 Pillars](#2-the-8-pillars)
 3. [Decision Intelligence Suite](#3-decision-intelligence-suite)
 4. [Enterprise Suite](#4-enterprise-suite)
-5. [AI Council Services](#5-ai-council-services)
-6. [Industry Packages](#6-industry-packages)
-7. [R&D / Experimental Services](#7-rd--experimental-services)
+5. [CendiaDCII™ — Decision Crisis Immunization Infrastructure](#5-cendiadcii--decision-crisis-immunization-infrastructure)
+6. [AI Council Services](#6-ai-council-services)
+7. [Industry Packages](#7-industry-packages)
+8. [R&D / Experimental Services](#8-rd--experimental-services)
 
 ---
 
@@ -92,11 +93,46 @@ Enterprise-grade capabilities for large organizations.
 
 ---
 
-# 5. AI COUNCIL SERVICES
+# 5. CendiaDCII™ — DECISION CRISIS IMMUNIZATION INFRASTRUCTURE
+
+The category-defining governance infrastructure. Measures, proves, and immunizes organizations against institutional crises.
+
+| Service | Description | Backend Service | Status | Tests |
+|---------|-------------|-----------------|--------|-------|
+| **CendiaIISS™** | Institutional Immune System Score — 0–1000 scale measuring crisis resilience across 5 dimensions, 5 certification bands (Critical → Exceptional), industry benchmarking | `IISSService.ts` | In-Memory Demo | 15/15 |
+| **CendiaMediaAuth™** | Synthetic Media Authentication — C2PA content provenance signing, chain of custody, deepfake detection (pixel/audio/metadata analysis), hardware-backed attestation | `SyntheticMediaAuthService.ts` | In-Memory Demo | 10/10 |
+| **CendiaJurisdiction™** | Cross-Jurisdiction Compliance Conflict Detection — Simultaneous multi-framework evaluation, GDPR vs PIPL conflict detection, good-faith maximum compliance documentation | `CrossJurisdictionConflictService.ts` | In-Memory Demo | 10/10 |
+| **CendiaTimestamp™** | RFC 3161 External Timestamp Authority — Multi-provider TSA (DigiCert, Comodo, FreeTSA), batch timestamping, optional blockchain anchoring (Bitcoin/Ethereum), 10-year retention | `TimestampAuthorityService.ts` | In-Memory Demo | 10/10 |
+| **CendiaSimilarity™** | Decision Similarity Engine — TF-IDF semantic search across historical decisions, outcome-aware recommendations, cross-department pattern detection, dissenter accuracy tracking | `DecisionSimilarityService.ts` | In-Memory Demo | 7/7 |
+
+### DCII Primitives
+
+| # | Primitive | Description | Status |
+|---|-----------|-------------|--------|
+| 1 | Discovery-Time Proof | Cryptographic timestamps proving when knowledge became actionable | Implemented |
+| 2 | Deliberation Capture | Multi-agent, multi-perspective decision process recording | Implemented |
+| 3 | Override Accountability | Non-suppressible tracking of recommendation overrides | Implemented |
+| 4 | Continuity Memory | Personnel-independent institutional knowledge preservation | Implemented |
+| 5 | Drift Detection | Continuous compliance degradation monitoring | Implemented |
+| 6 | Cognitive Bias Mitigation | Adversarial challenge of assumptions and rubber-stamp detection | Implemented |
+| 7 | Quantum-Resistant Integrity | Post-quantum cryptographic protection of evidence | Partial |
+| 8 | Synthetic Media Authentication | Content provenance signing and deepfake detection | Implemented |
+| 9 | Cross-Jurisdiction Compliance | Multi-jurisdiction conflict detection and resolution | Implemented |
+
+### Known Limitations
+
+- All DCII services use **in-memory Maps** — data is not persisted to database and is lost on restart
+- DCII API routes do **not enforce authentication** middleware (other platform routes do)
+- Frontend dashboard falls back to **demo data** if backend API is unreachable
+- External TSA providers, blockchain anchoring, and hardware attestation are **simulated** (not connected to real external services)
+
+---
+
+# 6. AI COUNCIL SERVICES
 
 The AI Agent ecosystem powering all intelligence.
 
-## 5.1 Core Council (FREE - Included)
+## 6.1 Core Council (FREE - Included)
 
 | Agent | Code | Purpose | AI Model | Primary Pillars | Industries |
 |-------|------|---------|----------|-----------------|------------|
@@ -115,7 +151,7 @@ The AI Agent ecosystem powering all intelligence.
 | **Investment Intelligence (CIO)** | `cio` | Capital allocation, portfolio management, valuation | llama3.3:70b | Predict, Helm | Finance |
 | **Communications (CCO)** | `cco` | Corporate messaging, PR strategy, crisis communications | llama3.2:3b | Ethics, Helm | All |
 
-## 5.2 Premium Agent Packs
+## 6.2 Premium Agent Packs
 
 | Pack | Price | Agents Included | Industries | Pillars | R&D |
 |------|-------|-----------------|------------|---------|-----|
@@ -128,7 +164,7 @@ The AI Agent ecosystem powering all intelligence.
 
 ---
 
-# 6. INDUSTRY PACKAGES
+# 7. INDUSTRY PACKAGES
 
 Pre-configured bundles optimized for specific industries.
 
@@ -142,7 +178,7 @@ Pre-configured bundles optimized for specific industries.
 
 ---
 
-# 7. R&D / EXPERIMENTAL SERVICES
+# 8. R&D / EXPERIMENTAL SERVICES
 
 Services currently in research and development phase.
 
@@ -210,15 +246,18 @@ Services currently in research and development phase.
 
 | Metric | Count |
 |--------|-------|
-| **Total Services** | 47 |
+| **Total Services** | 52 |
 | **Production Services** | 40 |
+| **DCII Services (In-Memory Demo)** | 5 |
 | **R&D Services** | 7 |
 | **AI Agents (Core)** | 14 |
 | **AI Agents (Premium)** | 16+ |
 | **Pillars** | 8 |
+| **DCII Primitives** | 9 |
 | **Industry Packages** | 5 |
 | **Supported Languages** | 100+ (20 UI localizations) |
-| **Compliance Frameworks** | 5 (SOC2, GDPR, HIPAA, ISO27001, PCI-DSS) |
+| **Compliance Frameworks** | 10 (EU AI Act, GDPR, HIPAA, SOC 2, ISO 27001, NIST AI RMF, PCI-DSS, DORA, CCPA, FDA) |
+| **Supported Jurisdictions** | 17 |
 
 ---
 
@@ -228,6 +267,7 @@ Services currently in research and development phase.
 |----------|-------|--------|
 | **Unit & Integration Tests** | 3,511 | 98% Passing |
 | **Property-Based Fuzzing** | 201,750+ | Verification Steps per Build |
+| **DCII Service Tests** | 52 | 100% Passing |
 | **Collapse Mode Scenarios** | 73 | 100% Passing |
 | **Council Flow Tests** | 44 | 100% Passing |
 | **API Route Coverage** | 100+ endpoints | Full Coverage |

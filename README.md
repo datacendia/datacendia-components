@@ -7,7 +7,16 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
-## ✨ What's New (February 7, 2026)
+## ✨ What's New (February 12, 2026)
+
+### CendiaDCII™ — Decision Crisis Immunization Infrastructure (Feb 12)
+- **CendiaIISS™** — Institutional Immune System Score (0–1000 scale, 5-band certification)
+- **CendiaMediaAuth™** — Synthetic Media Authentication (C2PA signing, deepfake detection, chain of custody)
+- **CendiaJurisdiction™** — Cross-Jurisdiction Compliance Conflict Detection (GDPR vs PIPL, good-faith documentation)
+- **CendiaTimestamp™** — RFC 3161 External Timestamp Authority (multi-provider, batch, blockchain anchoring)
+- **CendiaSimilarity™** — Decision Similarity Engine (TF-IDF semantic search, outcome-aware, pattern detection)
+- **52 DCII tests passing** — Full backend test coverage for all 5 DCII services
+- **Uniform Cendia™ branding** — All 29 navigation items, 18 backend services, 10 frontend pages, breadcrumbs, and i18n aligned to canonical `Cendia[Name]™` standard
 
 ### Enterprise Platinum (Feb 7)
 - **Auto-Apply Database Indexes** — Performance indexes applied automatically on server startup (idempotent)
@@ -22,14 +31,14 @@
 ### Platform v4.5 (Jan 28)
 - **Unified Docker Compose** — Single `docker-compose.unified.yml` with profiles for all services
 - **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
-- **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars
-- **Decision Replay Theater** — Watch past deliberations unfold like a movie
-- **Adversarial Red Team Mode** — "100 Ways This Could Fail" with 8 attack perspectives
+- **CendiaLive™** — Watch AI agents deliberate in real-time with animated avatars
+- **CendiaReplay™** — Watch past deliberations unfold like a movie
+- **CendiaRedTeam™** — Adversarial Red Team with 8 attack perspectives
 - **Regulator's Receipt Generator** — One-click court-admissible PDF with Merkle tree evidence
-- **CendiaPostQuantumKMS™** — Quantum-resistant cryptography (Dilithium, SPHINCS+, Falcon)
-- **CendiaCarbonAware™** — Carbon-aware AI scheduling with multi-region optimization
-- **CendiaContinuousCompliance™** — Real-time compliance monitoring (10 frameworks)
-- **CendiaCrossJurisdiction™** — Multi-jurisdiction compliance engine (17 jurisdictions)
+- **CendiaQuantumKMS™** — Quantum-resistant cryptography (Dilithium, SPHINCS+, Falcon)
+- **CendiaCarbon™** — Carbon-aware AI scheduling with multi-region optimization
+- **CendiaCompliance™** — Real-time compliance monitoring (10 frameworks)
+- **CendiaJurisdiction™** — Multi-jurisdiction compliance engine (17 jurisdictions)
 - **Sports/Football Vertical** — Transfer governance with UEFA FFP, FIFA Agent Regs, Premier League PSR
 
 ## 🚀 Quick Start
@@ -235,7 +244,47 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | AI agent presets | 50+ |
 | i18n locales | 12 |
 
-## �📚 Documentation
+## 🏛️ Cendia™ Product Catalog
+
+### Core Suite (The "Brain")
+
+| Product | Description |
+|---------|-------------|
+| **CendiaChronos™** | Enterprise Time Machine — replay past decisions, simulate future crisis scenarios |
+| **Ghost Board™** | Rehearse high-stakes board meetings against AI avatars |
+| **CendiaPreMortem™** | AI analyzes why your decision will fail before you execute it |
+| **Decision Debt™** | Real-time dashboard of stuck decisions and financial cost of delay |
+| **CendiaLive™** | Watch AI agents deliberate in real-time with animated avatars |
+| **CendiaReplay™** | Watch past deliberations unfold like a movie |
+| **CendiaEcho™** | Decision Outcome Engine — track what actually happened after each decision |
+| **CendiaLens™** | AI Interpretability — token confidence, reasoning chains, bias detection |
+| **CendiaCollapse™** | Adversarial Policy Stress-Testing — find how decisions fail before they do |
+| **CendiaPulse™** | Mission control — real-time agent activity, compliance, risk scoring |
+| **CendiaCrisis™** | Incident Response Center — detection to resolution with complete audit trail |
+| **CendiaROI™** | Prove the ROI of governance with real deliberation throughput and quality metrics |
+| **CendiaDCII™** | Decision Crisis Immunization Infrastructure — IISS, 9 primitives, media auth, timestamps |
+
+### Trust Layer (The "Shield")
+
+| Product | Description |
+|---------|-------------|
+| **CendiaOversight™** | Real-time Regulatory Radar — FDA, GDPR, DORA frameworks with policy gates |
+| **CendiaNotary™** | Cryptographic Signing Authority — customer-owned keys |
+| **CendiaVault™** | Unified Evidence Storage — decision packets, audit ledger, evidence bundles |
+| **CendiaProvenance™** | Full decision lineage & evidence export — court-admissible |
+| **CendiaCrucible™** | Adversarial Stress Testing — attack decisions with simulated threats |
+| **CendiaRedTeam™** | Every agent becomes a devil's advocate |
+| **SGAS™** | Synthetic Governance Agent System — 5 agent classes at societal scale |
+| **CendiaCourt™** | Formal AI dispute resolution with precedent tracking |
+| **CendiaSandbox™** | Test against proposed regulations before they become law |
+| **CendiaZKP™** | Prove compliance without revealing proprietary logic or data |
+| **CendiaInsure™** | Direct liability coverage per AI decision with real-time risk scoring |
+| **CendiaQuantumKMS™** | Quantum-resistant cryptographic signatures (Dilithium, SPHINCS+, Falcon) |
+| **CendiaCarbon™** | Reduce AI carbon footprint with intelligent workload scheduling |
+| **CendiaJurisdiction™** | 17-jurisdiction compliance engine for cross-border data transfers |
+| **CendiaCompliance™** | Real-time monitoring for 10 compliance frameworks |
+
+## 📚 Documentation
 
 ### Deployment
 
@@ -260,6 +309,7 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | [Real-World Value](docs/REAL_WORLD_VALUE.md) | Detailed use case examples |
 | [Performance Guide](PERFORMANCE_OPTIMIZATION_GUIDE.md) | Performance tuning |
 | [Production Checklist](PRODUCTION_CHECKLIST.md) | Deployment readiness checklist |
+| [Complete Service Matrix](docs/COMPLETE_SERVICE_MATRIX.md) | Full service catalog with pricing |
 
 ## 🔐 Environment Variables
 
