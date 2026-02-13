@@ -136,7 +136,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 - **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
 - **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars and confidence meters
-- **Decision Replay Theater** — Watch past deliberations unfold like a movie with timeline scrubbing
+- **Decision CendiaReplay** — Watch past deliberations unfold like a movie with timeline scrubbing
 - **Adversarial Red Team Mode** — "100 Ways This Could Fail" report with 8 attack perspectives
 - **Regulator's Receipt Generator** — One-click court-admissible PDF with Merkle tree evidence chain
 
@@ -780,7 +780,7 @@ Navigate your organization's past and future. Every metric, every decision, ever
 
 **Key Capabilities:**
 - Organizational state snapshots
-- Decision replay theater
+- Decision CendiaReplay
 - Causal chain analysis
 - Monte Carlo future simulation
 - Alternate timeline comparison
@@ -799,7 +799,7 @@ Rehearse high-stakes board meetings against AI avatars of investors, regulators,
 
 ---
 
-## Pre-Mortem Engine
+## CendiaPreMortem
 
 **Structured Failure Analysis**
 
@@ -2737,7 +2737,7 @@ The entire product structure has been reorganized into four clear categories:
 - **The Council™** — Multi-agent deliberation (merged: Autopilot, Voice, Union, Veto)
 - **CendiaChronos™** — Enterprise Time Machine (merged: Horizon, Cascade, Crisis, Lens)
 - **Ghost Board™** — AI board rehearsal
-- **Pre-Mortem Engine** — Failure analysis before execution
+- **CendiaPreMortem** — Failure analysis before execution
 - **Decision Debt™** — Cost of delay tracking
 
 **The Trust Layer (The "Shield")** — Compliance & Proof

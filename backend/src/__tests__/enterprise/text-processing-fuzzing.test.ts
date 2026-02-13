@@ -84,11 +84,11 @@ const toCamelCase = (text: string): string => {
 };
 
 const toSnakeCase = (text: string): string => {
-  return text.replace(/\s+/g, '_').replace(/([A-Z])/g, '_$1').toLowerCase().replace(/^_/, '');
+  return text.replace(/[\s-]+/g, '_').replace(/([A-Z])/g, '_$1').toLowerCase().replace(/^_/, '').replace(/_+/g, '_');
 };
 
 const toKebabCase = (text: string): string => {
-  return text.replace(/\s+/g, '-').replace(/([A-Z])/g, '-$1').toLowerCase().replace(/^-/, '');
+  return text.replace(/[\s_]+/g, '-').replace(/([A-Z])/g, '-$1').toLowerCase().replace(/^-/, '').replace(/-+/g, '-');
 };
 
 const reverse = (text: string): string => {
@@ -102,6 +102,7 @@ const isPalindrome = (text: string): boolean => {
 
 const truncate = (text: string, length: number, suffix: string = '...'): string => {
   if (text.length <= length) return text;
+  if (length <= suffix.length) return text.slice(0, length);
   return text.slice(0, length - suffix.length) + suffix;
 };
 

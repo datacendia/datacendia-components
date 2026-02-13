@@ -76,7 +76,14 @@ const isPathTraversal = (path: string): boolean => {
 };
 
 const normalizePath = (path: string): string => {
-  const parts = path.replace(/\\/g, '/').split('/');
+  // Decode URL-encoded sequences first (handle double-encoding too)
+  let decoded = path;
+  try {
+    while (decoded !== decodeURIComponent(decoded)) {
+      decoded = decodeURIComponent(decoded);
+    }
+  } catch { /* invalid encoding, use as-is */ }
+  const parts = decoded.replace(/\\/g, '/').split('/');
   const result: string[] = [];
   
   for (const part of parts) {

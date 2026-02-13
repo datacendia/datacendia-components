@@ -93,7 +93,7 @@ const detectCommandInjection = (input: string): boolean => {
 };
 
 const detectPathTraversal = (input: string): boolean => {
-  return /\.\./.test(input) || /%2e%2e/i.test(input);
+  return /\.\./.test(input) || /%2e%2e/i.test(input) || /^\/etc\b/i.test(input) || /^[A-Z]:\\/i.test(input);
 };
 
 const hashString = (str: string): string => {

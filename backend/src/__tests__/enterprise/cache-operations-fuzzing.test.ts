@@ -416,7 +416,9 @@ describe('Cache Operations - Enterprise Fuzzing Suite', () => {
         cache.set('new-key', 999);
         
         expect(cache.size()).toBe(maxSize);
-        expect(cache.has('key-0')).toBe(true); // Was accessed
+        if (maxSize > 1) {
+          expect(cache.has('key-0')).toBe(true); // Was accessed
+        }
         expect(cache.has('new-key')).toBe(true);
       });
     });

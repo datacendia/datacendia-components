@@ -65,15 +65,14 @@ const sequential = async <T>(fns: (() => Promise<T>)[]): Promise<T[]> => {
 
 const parallel = async <T>(fns: (() => Promise<T>)[], concurrency: number): Promise<T[]> => {
   const results: T[] = [];
-  const executing: Promise<void>[] = [];
+  const executing: Set<Promise<void>> = new Set();
   
   for (const fn of fns) {
-    const p = fn().then(result => { results.push(result); });
-    executing.push(p);
+    const p = fn().then(result => { results.push(result); }).then(() => { executing.delete(p); });
+    executing.add(p);
     
-    if (executing.length >= concurrency) {
+    if (executing.size >= concurrency) {
       await Promise.race(executing);
-      executing.splice(executing.findIndex(e => e === p), 1);
     }
   }
   

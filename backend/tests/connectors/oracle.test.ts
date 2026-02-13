@@ -15,7 +15,7 @@ describe('OracleConnector', () => {
   it('should return correct metadata', () => {
     const connector = new OracleConnector(testConfig);
     const metadata = connector.getMetadata();
-    expect(metadata.id).toBe('oracle');
+    expect(metadata.id).toBe('oracle-fusion');
     expect(metadata.compatibilityLabel).toBe('native_protocol');
   });
 

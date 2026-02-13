@@ -64,7 +64,7 @@ All critical platform components have been verified to enterprise platinum stand
 | Council | `/cortex/council` | ✅ PASS | Deliberation UI functional |
 | Decision DNA | `/cortex/intelligence/decision-dna` | ✅ PASS | Timeline rendering verified |
 | Regulator's Receipt | `/cortex/compliance/regulators-receipt` | ✅ PASS | PDF generation confirmed |
-| Replay Theater | `/cortex/council/replay-theater` | ✅ PASS | Playback controls working |
+| CendiaReplay | `/cortex/council/replay-theater` | ✅ PASS | Playback controls working |
 | Deliberation Visualization | `/cortex/council/visualization` | ✅ PASS | D3 rendering verified |
 
 ### Database & Infrastructure ✅

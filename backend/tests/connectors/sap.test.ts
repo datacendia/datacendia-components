@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { SapConnector } from '../../src/connectors/enterprise/SapConnector.js';
+import { SAPConnector as SapConnector } from '../../src/connectors/enterprise/SapConnector.js';
 
 describe('SapConnector', () => {
   const testConfig = {

@@ -352,8 +352,9 @@ describe('Rate Limiting - Enterprise Fuzzing Suite', () => {
         const denied = limiter.check(key, now);
         expect(denied.allowed).toBe(false);
         
-        // After window, should be allowed
-        const afterWindow = limiter.check(key, now + config.windowMs + 1);
+        // After window and block duration, should be allowed
+        const waitMs = Math.max(config.windowMs, config.blockDurationMs || 0) + 1;
+        const afterWindow = limiter.check(key, now + waitMs);
         expect(afterWindow.allowed).toBe(true);
       });
     });

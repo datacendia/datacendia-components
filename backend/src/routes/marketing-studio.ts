@@ -89,7 +89,7 @@ router.post('/image-prompt', async (req: Request, res: Response) => {
 Generate an optimized ${platform} prompt for: "${purpose}"
 Style: ${style}
 
-${platformGuidance[platform]}
+${(platformGuidance as Record<string, string>)[platform]}
 
 Output as JSON:
 {
@@ -198,7 +198,7 @@ Generate ${type} copy for Datacendia.
 Topic: ${topic}
 Tone: ${tone}
 
-${typeGuidance[type]}
+${(typeGuidance as Record<string, string>)[type]}
 
 Output as JSON:
 {

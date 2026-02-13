@@ -16,7 +16,7 @@
 | Council | 4 min | Structured challenge mechanism |
 | Decision DNA | 3 min | Evidentiary proof |
 | Regulator's Receipt | 2 min | One-click export |
-| Replay Theater | Optional | Only if asked |
+| CendiaReplay | Optional | Only if asked |
 
 ---
 
@@ -38,7 +38,7 @@ Frontend: http://localhost:5173/cortex/monitor/live
 
 ---
 
-## SECTION 1: LIVE AGENT MONITOR
+## SECTION 1: CendiaPulse
 **URL:** `/cortex/monitor/live`  
 **Duration:** 2 minutes
 
@@ -53,7 +53,7 @@ Frontend: http://localhost:5173/cortex/monitor/live
 - Agent status indicators (green = active, yellow = thinking, red = blocked)
 
 ### What to Say
-> "This is our Live Agent Monitor. Every AI-assisted decision request appears here in real time — before execution — with who participated, what evidence was used, and what required human approvals are outstanding.
+> "This is our CendiaPulse. Every AI-assisted decision request appears here in real time — before execution — with who participated, what evidence was used, and what required human approvals are outstanding.
 >
 > Nothing executes without first passing governance. This is intent review before action, not logging after the fact."
 
@@ -259,7 +259,7 @@ Frontend: http://localhost:5173/cortex/monitor/live
 
 ---
 
-## SECTION 5: DECISION REPLAY THEATER (OPTIONAL)
+## SECTION 5: DECISION CendiaReplay (OPTIONAL)
 **URL:** `/cortex/council/replay-theater`  
 **Duration:** Only if asked
 
@@ -267,7 +267,7 @@ Frontend: http://localhost:5173/cortex/monitor/live
 
 ### Navigation
 1. Click **"Core Suite"** dropdown
-2. Click **"Replay Theater"** under The Council
+2. Click **"CendiaReplay"** under The Council
 3. Or direct URL: `/cortex/council/replay-theater`
 
 ### What You See
@@ -277,7 +277,7 @@ Frontend: http://localhost:5173/cortex/monitor/live
 - Decision point highlights
 
 ### What to Say
-> "This is our Decision Replay Theater. You can replay any historical decision exactly as it happened - who said what, when, and why.
+> "This is our Decision CendiaReplay. You can replay any historical decision exactly as it happened - who said what, when, and why.
 >
 > Perfect for training, auditing, or understanding why a decision went a certain way six months ago."
 
@@ -370,7 +370,7 @@ npm run dev
 | Council | `/cortex/council` |
 | Decision DNA | `/cortex/intelligence/decision-dna` |
 | Regulator's Receipt | `/cortex/compliance/regulators-receipt` |
-| Replay Theater | `/cortex/council/replay-theater` |
+| CendiaReplay | `/cortex/council/replay-theater` |
 
 ### Key Phrases to Use
 - "Cryptographically verifiable record"

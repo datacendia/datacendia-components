@@ -1318,24 +1318,27 @@ export class EnergyDefensibleOutput extends DefensibleOutput<EnergyDecision> {
   }
 
   private generateExecutiveSummary(decision: EnergyDecision): string {
+    const sr = decision.outcome.safetyReview as SafetyReviewResult;
     return `Critical infrastructure ${decision.type} decision (ID: ${decision.metadata.id}). ` +
-      `Safety review: ${decision.outcome.safetyReview.overallSafe ? 'PASSED' : 'FAILED - FAIL-SAFE APPLIED'}. ` +
+      `Safety review: ${sr.overallSafe ? 'PASSED' : 'FAILED - FAIL-SAFE APPLIED'}. ` +
       `Human oversight: ${decision.approvals.length} approvals. ` +
-      `Safety level: ${decision.outcome.safetyReview.safetyLevel}.`;
+      `Safety level: ${sr.safetyLevel}.`;
   }
 
   private generateAuditTrailSummary(decision: EnergyDecision): string[] {
+    const sr = decision.outcome.safetyReview as SafetyReviewResult;
     return [
       `Decision created: ${decision.metadata.createdAt.toISOString()}`,
-      `Safety level: ${decision.outcome.safetyReview.safetyLevel}`,
-      `Fail-safe triggered: ${decision.outcome.safetyReview.failSafeTriggered}`,
+      `Safety level: ${sr.safetyLevel}`,
+      `Fail-safe triggered: ${sr.failSafeTriggered}`,
       ...decision.approvals.map(a => `Approved by ${a.approverRole} at ${a.approvedAt.toISOString()}`)
     ];
   }
 
   private generateFactualBackground(decision: EnergyDecision): string {
+    const sr = decision.outcome.safetyReview as SafetyReviewResult;
     return `This ${decision.type} decision for critical infrastructure was made following safety-first protocols. ` +
-      `The decision underwent mandatory safety review with result: ${decision.outcome.safetyReview.safetyLevel}. ` +
+      `The decision underwent mandatory safety review with result: ${sr.safetyLevel}. ` +
       `All AI recommendations were advisory only; final decisions made by qualified operators.`;
   }
 
@@ -1348,9 +1351,10 @@ export class EnergyDefensibleOutput extends DefensibleOutput<EnergyDecision> {
   }
 
   private generateEvidenceChain(decision: EnergyDecision): string[] {
+    const sr = decision.outcome.safetyReview as SafetyReviewResult;
     return [
       `Input hash: ${this.hashContent(decision.inputs)}`,
-      `Safety review hash: ${decision.outcome.safetyReview.hash}`,
+      `Safety review hash: ${sr.hash}`,
       `Outcome hash: ${this.hashContent(decision.outcome)}`,
       `Full decision hash: ${this.hashContent(decision)}`
     ];

@@ -44,7 +44,7 @@
 
 ---
 
-## Screen 1: Live Agent Monitor (2 minutes)
+## Screen 1: CendiaPulse (2 minutes)
 
 **URL:** `/cortex/monitor/live`
 
@@ -423,14 +423,14 @@ If this transfer is challenged in 2 years by SEC, FINRA, or in litigation, Merid
 
 ---
 
-## STEP 5: Replay Theater (If Time Allows)
+## STEP 5: CendiaReplay (If Time Allows)
 ### **PURPOSE:** Demonstrate deterministic reproducibility for discovery
 
 **URL:** `http://localhost:5173/cortex/council/replay-theater`
 
 ### Navigation
 1. Click **"🧠 Core Suite"** dropdown
-2. Click **"Replay Theater"** (🎬 icon)
+2. Click **"CendiaReplay"** (🎬 icon)
 
 ### What You Do
 1. **Select the Petrov transfer session** from the list
@@ -502,11 +502,11 @@ Use this consistent data throughout all 5 steps:
 
 | Step | Screen | URL |
 |------|--------|-----|
-| 1 | Live Agent Monitor | `/cortex/monitor/live` |
+| 1 | CendiaPulse | `/cortex/monitor/live` |
 | 2 | Council Deliberation | `/cortex/council` |
 | 3 | Decision DNA | `/cortex/intelligence/decision-dna` |
 | 4 | Regulator's Receipt | `/cortex/compliance/regulators-receipt` |
-| 5 | Replay Theater | `/cortex/council/replay-theater` |
+| 5 | CendiaReplay | `/cortex/council/replay-theater` |
 
 ---
 
@@ -753,7 +753,7 @@ npm run dev
 
 | Component | Status | Location |
 |-----------|--------|----------|
-| Live Agent Monitor | ✅ | `src/pages/cortex/monitor/LiveAgentMonitorPage.tsx` |
+| CendiaPulse | ✅ | `src/pages/cortex/monitor/LiveAgentMonitorPage.tsx` |
 | Council Deliberation | ✅ | `src/pages/cortex/council/CouncilPage.tsx` |
 | Dissent Service | ✅ | `backend/src/services/CendiaDissentService.ts` |
 | Decision DNA | ✅ | `src/pages/cortex/intelligence/DecisionDNAPage.tsx` |
@@ -761,7 +761,7 @@ npm run dev
 | Regulator's Receipt | ✅ | `src/pages/cortex/compliance/RegulatorsReceiptPage.tsx` |
 | Receipt Service | ✅ | `backend/src/services/evidence/RegulatorsReceiptService.ts` |
 | Decision Packets | ✅ | `backend/src/services/council/CouncilDecisionPacketService.ts` |
-| Replay Theater | ✅ | `src/pages/cortex/council/DecisionReplayTheaterPage.tsx` |
+| CendiaReplay | ✅ | `src/pages/cortex/council/DecisionReplayTheaterPage.tsx` |
 | Replay Service | ✅ | `backend/src/services/visualization/DecisionReplayTheaterService.ts` |
 
 ### API Routes Verified ✅
@@ -798,11 +798,11 @@ npm run dev
 
 | Screen | URL |
 |--------|-----|
-| Live Agent Monitor | `/cortex/monitor/live` |
+| CendiaPulse | `/cortex/monitor/live` |
 | Council Deliberation | `/cortex/council` |
 | Decision DNA | `/cortex/intelligence/decision-dna` |
 | Regulator's Receipt | `/cortex/compliance/regulators-receipt` |
-| Replay Theater | `/cortex/council/replay-theater` |
+| CendiaReplay | `/cortex/council/replay-theater` |
 | Deliberation Visualization | `/cortex/council/visualization` |
 
 ---
@@ -846,11 +846,11 @@ This is the **regulator-legible, cert-body-friendly** process that auditors expe
 
 | Demo Step | URL | Canonical Steps Covered |
 |-----------|-----|-------------------------|
-| Live Agent Monitor | `/cortex/monitor/live` | 5, 10 (Risk + Monitoring) |
+| CendiaPulse | `/cortex/monitor/live` | 5, 10 (Risk + Monitoring) |
 | Council Deliberation | `/cortex/council` | 6, 7, 8 (Challenge + Human + Auth) |
 | Decision DNA | `/cortex/intelligence/decision-dna` | 9 (Evidence Sealing) |
 | Regulator's Receipt | `/cortex/compliance/regulators-receipt` | 9, 10, 11 (Full Package) |
-| Replay Theater | `/cortex/council/replay-theater` | Forensic Reconstruction |
+| CendiaReplay | `/cortex/council/replay-theater` | Forensic Reconstruction |
 
 ---
 

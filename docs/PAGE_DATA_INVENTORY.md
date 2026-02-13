@@ -73,7 +73,7 @@ These pages properly fetch data from backend APIs:
 | Dissent | `src/pages/cortex/enterprise/DissentPage.tsx` | `/api/v1/dissent` |
 | Apotheosis | `src/pages/cortex/enterprise/ApotheosisPage.tsx` | `/api/v1/apotheosis` |
 | Mesh | `src/pages/cortex/enterprise/MeshPage.tsx` | `/api/v1/mesh` |
-| ROI Metrics | `src/pages/cortex/enterprise/ROIMetricsPage.tsx` | `/api/v1/roi-metrics` |
+| CendiaROI | `src/pages/cortex/enterprise/ROIMetricsPage.tsx` | `/api/v1/roi-metrics` |
 
 ### Sovereign Pages
 | Page | File | API Endpoints Used |

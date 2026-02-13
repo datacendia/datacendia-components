@@ -49,7 +49,7 @@ Ghost Board™ lets executives rehearse critical presentations before facing rea
 
 ---
 
-## 4. PRE-MORTEM ENGINE
+## 4. CendiaPreMortem
 
 ### Logo Design Prompt (Runway AI)
 ```
@@ -60,7 +60,7 @@ Minimalist logo icon, black background, golden skull subtly integrated into a de
 AI analyzes why your decision will fail before you execute it—surface blind spots and hidden risks.
 
 ### Long Description
-The Pre-Mortem Engine flips traditional risk analysis on its head. Instead of asking "what could go wrong," it assumes your decision has already failed catastrophically and works backward to explain why. AI agents role-play as future historians documenting your failure, surfacing blind spots, cognitive biases, and hidden dependencies you missed. Each pre-mortem generates a ranked list of failure modes with mitigation strategies, helping you bulletproof decisions before committing resources.
+The CendiaPreMortem flips traditional risk analysis on its head. Instead of asking "what could go wrong," it assumes your decision has already failed catastrophically and works backward to explain why. AI agents role-play as future historians documenting your failure, surfacing blind spots, cognitive biases, and hidden dependencies you missed. Each pre-mortem generates a ranked list of failure modes with mitigation strategies, helping you bulletproof decisions before committing resources.
 
 ---
 

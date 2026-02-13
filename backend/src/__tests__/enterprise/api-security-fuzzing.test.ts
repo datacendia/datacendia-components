@@ -22,9 +22,14 @@ const isValidAuthHeader = (header: string): boolean => {
   if (!header) return false;
   if (!header.startsWith('Bearer ')) return false;
   const token = header.slice(7);
-  // JWT format: header.payload.signature
+  // JWT format: header.payload.signature (base64url only)
   const parts = token.split('.');
-  return parts.length === 3 && parts.every(p => p.length > 0);
+  if (parts.length !== 3 || !parts.every(p => p.length > 0)) return false;
+  // Each part must be valid base64url with minimum realistic lengths
+  const base64urlRegex = /^[A-Za-z0-9_-]+$/;
+  if (!parts.every(p => base64urlRegex.test(p))) return false;
+  // JWT header and payload must be at least ~20 chars (realistic minimum)
+  return parts[0].length >= 20 && parts[1].length >= 20;
 };
 
 const isValidAPIKey = (key: string): boolean => {
@@ -33,12 +38,12 @@ const isValidAPIKey = (key: string): boolean => {
 };
 
 const sanitizeHeader = (value: string): string => {
-  // Remove CRLF injection attempts
-  return value.replace(/[\r\n]/g, '').trim();
+  // Remove CRLF injection attempts (literal and URL-encoded)
+  return value.replace(/[\r\n]/g, '').replace(/%0[da]/gi, '').trim();
 };
 
 const detectHeaderInjection = (value: string): boolean => {
-  return /[\r\n]/.test(value);
+  return /[\r\n]/.test(value) || /%0[da]/i.test(value);
 };
 
 const detectParameterPollution = (params: Record<string, string | string[]>): boolean => {
@@ -165,6 +170,7 @@ const generateHeaderInjectionPayloads = (): string[] => {
   payloads.push('value%0d%0a%0d%0a<script>alert(1)</script>');
   payloads.push('value\u000d\u000aX-Injected: header');
   payloads.push('value\x0d\x0aX-Injected: header');
+  payloads.push('value%0D%0ATransfer-Encoding: chunked');
   
   return payloads;
 };

@@ -82,13 +82,13 @@
 
 ---
 
-## Act 4: Audit Provenance™ (6 min)
+## Act 4: CendiaProvenance™ (6 min)
 
 **URL:** `/cortex/intelligence/audit-provenance`
 
 ### Script
 
-> "This is Audit Provenance — the answer to 'prove it.' It combines two capabilities: Decision Lineage, which gives you the full lifecycle of every decision from inception through deliberation to outcome, and Evidence Export, which generates court-admissible documentation with cryptographic proof."
+> "This is CendiaProvenance — the answer to 'prove it.' It combines two capabilities: Decision Lineage, which gives you the full lifecycle of every decision from inception through deliberation to outcome, and Evidence Export, which generates court-admissible documentation with cryptographic proof."
 
 ### Demo Flow — Decision Lineage Tab
 
@@ -114,7 +114,7 @@
 
 ---
 
-## Act 5: Pre-Mortem Engine (4 min)
+## Act 5: CendiaPreMortem (4 min)
 
 **URL:** `/cortex/intelligence/pre-mortem`
 
@@ -158,7 +158,7 @@
 **Demo Path:**
 1. Council → Submit Petrov transfer question
 2. Watch compliance agents deliberate (highlight Risk Analyzer dissent)
-3. Audit Provenance → Evidence Export → Generate Regulator's Receipt
+3. CendiaProvenance → Evidence Export → Generate Regulator's Receipt
 4. Show compliance mapping: Basel III, SEC 17a-4, FINRA 3310
 5. Pre-Mortem → Show regulatory exposure analysis
 
@@ -208,7 +208,7 @@
 2. Council → Submit transfer decision
 3. Show agents: Sporting Director AI, Financial Advisor, Legal Counsel, Scout Analyst
 4. Pre-Mortem → "What if the player fails the medical?" / "What if the selling club raises the price?"
-5. Audit Provenance → Generate evidence packet for board review
+5. CendiaProvenance → Generate evidence packet for board review
 
 **Key talking points:**
 - "Your transfer committee gets AI-assisted deliberation, not AI-replaced decision making"
@@ -228,7 +228,7 @@
 1. Council → Submit supply chain governance question
 2. Watch ESG/compliance agents deliberate
 3. Pre-Mortem → Supply chain disruption risks
-4. Audit Provenance → Evidence packet for ESG reporting
+4. CendiaProvenance → Evidence packet for ESG reporting
 5. "When your sustainability report is audited, every sourcing decision is documented"
 
 **Key talking points:**
@@ -250,7 +250,7 @@
 2. Show multi-agent due diligence: Market Analyst, Financial Advisor, Legal, Risk
 3. Ghost Board → Simulate LP advisory committee review
 4. Pre-Mortem → "What if the market corrects 30% in 6 months?"
-5. Audit Provenance → Investment committee documentation
+5. CendiaProvenance → Investment committee documentation
 
 **Key talking points:**
 - "Every investment decision your fund makes has a defensible audit trail"
@@ -272,7 +272,7 @@
 2. Full deliberation with C-suite AI agents
 3. Pre-Mortem → Integration risks, regulatory risks, culture clash
 4. Ghost Board → Simulate board of directors review
-5. Audit Provenance → Full decision packet for legal/compliance
+5. CendiaProvenance → Full decision packet for legal/compliance
 
 ---
 
@@ -309,7 +309,7 @@ Close every demo with these points:
 | Login | 2 min | 2 min |
 | Dashboard | 3 min | 5 min |
 | The Council | 8 min | 13 min |
-| Audit Provenance | 6 min | 19 min |
+| CendiaProvenance | 6 min | 19 min |
 | Pre-Mortem | 4 min | 23 min |
 | Ghost Board | 3 min | 26 min |
 | Audience Scenario | 8 min | 34 min |

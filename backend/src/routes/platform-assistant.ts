@@ -391,7 +391,7 @@ router.get('/suggestions', async (req: Request, res: Response) => {
       ],
     };
 
-    const routeSuggestions = suggestions[currentRoute as string] || [
+    const routeSuggestions = (suggestions as Record<string, string[]>)[currentRoute as string] || [
       'How do I make a decision?',
       'How do I check compliance?',
       'How do I generate marketing content?',

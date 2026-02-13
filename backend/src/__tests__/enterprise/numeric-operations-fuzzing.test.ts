@@ -290,7 +290,12 @@ describe('Numeric Operations - Enterprise Fuzzing Suite', () => {
       exps.forEach((exp, expIndex) => {
         it(`should calculate ${base}^${exp} (#${baseIndex * exps.length + expIndex + 1})`, () => {
           const result = power(base, exp);
-          expect(result).toBeCloseTo(Math.pow(base, exp), 10);
+          const expected = Math.pow(base, exp);
+          if (isNaN(expected)) {
+            expect(isNaN(result)).toBe(true);
+          } else {
+            expect(result).toBeCloseTo(expected, 10);
+          }
         });
       });
     });

@@ -92,9 +92,9 @@ Generate a complete evidence package suitable for regulatory submission.
 
 ---
 
-### Step 5: Decision Replay Theater
+### Step 5: Decision CendiaReplay
 
-**Navigate to:** The Council → Replay Theater
+**Navigate to:** The Council → CendiaReplay
 
 Reconstruct any past decision exactly as it happened — bit-perfect replay.
 
@@ -206,7 +206,7 @@ Evidence packages are designed to be admissible:
 | Council Deliberation | `/cortex/council` |
 | Decision DNA | `/cortex/intelligence/decision-dna` |
 | Regulator's Receipt | `/cortex/compliance/regulators-receipt` |
-| Replay Theater | `/cortex/council/replay-theater` |
+| CendiaReplay | `/cortex/council/replay-theater` |
 | Deliberation Visualization | `/cortex/council/visualization` |
 
 ---

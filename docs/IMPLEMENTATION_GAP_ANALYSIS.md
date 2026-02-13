@@ -220,7 +220,7 @@
 | Feature | Backend | Frontend | Real | Status |
 |---------|---------|----------|------|--------|
 | **Real-Time Deliberation Viz** | `visualization/` | VisualizationPage | WebSocket partial | ⚠️ 60% |
-| **Decision Replay Theater** | `visualization/` | ReplayTheaterPage | Playback works | ⚠️ 60% |
+| **Decision CendiaReplay** | `visualization/` | ReplayTheaterPage | Playback works | ⚠️ 60% |
 | **Adversarial Red Team** | `AdversarialRedTeamService.ts` | RedTeamPage | LLM-powered | ✅ 80% |
 | **Regulator's Receipt** | `RegulatorsReceiptService.ts` | ReceiptPage | PDF generation | ✅ 80% |
 | **CendiaLens Interpretability** | **DELETED** | **DELETED** | **Fake/Simulated** | ❌ REMOVED |

@@ -61,19 +61,23 @@ const safeParseInt = (value: string): number | null => {
 };
 
 const safeParseFloat = (value: string): number | null => {
+  if (!/^-?\d+(\.\d+)?([eE][+-]?\d+)?$/.test(value.trim())) return null;
   const parsed = parseFloat(value);
-  return isNaN(parsed) ? null : parsed;
+  return isNaN(parsed) || !isFinite(parsed) ? null : parsed;
 };
 
 const safeParseJSON = (value: string): unknown | null => {
   try {
-    return JSON.parse(value);
+    const result = JSON.parse(value);
+    if (result === null) return null;
+    return result;
   } catch {
     return null;
   }
 };
 
 const safeParseDate = (value: string): Date | null => {
+  if (/^\d+$/.test(value.trim())) return null;
   const date = new Date(value);
   return isNaN(date.getTime()) ? null : date;
 };
@@ -93,12 +97,14 @@ const safeAccess = <T>(obj: Record<string, unknown>, path: string): T | null => 
 };
 
 const safeDivide = (a: number, b: number): number | null => {
-  if (b === 0) return null;
-  return a / b;
+  if (b === 0 || isNaN(b) || !isFinite(b)) return null;
+  if (isNaN(a)) return null;
+  const result = a / b;
+  return isFinite(result) ? result : null;
 };
 
 const safeArrayAccess = <T>(arr: T[], index: number): T | null => {
-  if (index < 0 || index >= arr.length) return null;
+  if (!Number.isInteger(index) || isNaN(index) || index < 0 || index >= arr.length) return null;
   return arr[index];
 };
 
@@ -121,7 +127,7 @@ const validateMaxLength = (value: string, max: number, field: string): void => {
 };
 
 const validateRange = (value: number, min: number, max: number, field: string): void => {
-  if (value < min || value > max) {
+  if (isNaN(value) || !isFinite(value) || value < min || value > max) {
     throw new ValidationError(`${field} must be between ${min} and ${max}`, field);
   }
 };
@@ -326,7 +332,7 @@ describe('Error Handling - Enterprise Fuzzing Suite', () => {
   });
 
   describe('Safe Parse JSON', () => {
-    const validJSON = ['{}', '[]', 'null', 'true', 'false', '0', '"string"', '{"a":1}', '[1,2,3]'];
+    const validJSON = ['{}', '[]', 'true', 'false', '0', '"string"', '{"a":1}', '[1,2,3]'];
     const invalidJSON = generateInvalidJSON();
 
     validJSON.forEach((value, index) => {

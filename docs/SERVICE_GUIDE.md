@@ -71,7 +71,7 @@ Rehearse board meetings with AI personas before the real thing.
 
 ---
 
-### 4. Pre-Mortem Engine
+### 4. CendiaPreMortem
 **Route**: `/cortex/pre-mortem`  
 **API**: `/api/v1/pre-mortem/*`
 

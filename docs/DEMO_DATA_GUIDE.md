@@ -50,7 +50,7 @@ curl -X POST http://localhost:3001/api/v1/demo/seed/tr
 ```
 
 **Demo Flow:**
-1. **Live Agent Monitor** → Watch Treasury Bot escalate
+1. **CendiaPulse** → Watch Treasury Bot escalate
 2. **Council Page** → See multi-agent deliberation
 3. **Dissent Page** → View formal Risk Analyzer objection
 4. **Decision DNA** → Show cryptographic proof
@@ -264,7 +264,7 @@ const legalDemo = await loadDemoTemplate('legal', 'merger-review');
 ## Demo: [Scenario Name]
 
 ### Setup (2 min)
-- Open Live Agent Monitor
+- Open CendiaPulse
 - Ensure demo data is seeded
 - Have Decision DNA page ready in another tab
 

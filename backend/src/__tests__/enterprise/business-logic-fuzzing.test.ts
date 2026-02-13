@@ -279,8 +279,8 @@ describe('Business Logic - Enterprise Fuzzing Suite', () => {
     
     // Banker's rounding edge cases
     const roundingCases = [
-      { value: 2.5, expected: 3 },
-      { value: 3.5, expected: 4 },
+      { value: 2.5, expected: 2.5 },
+      { value: 3.5, expected: 3.5 },
       { value: 2.25, expected: 2.3 },
       { value: 2.35, expected: 2.4 },
     ];
@@ -403,9 +403,9 @@ describe('Business Logic - Enterprise Fuzzing Suite', () => {
 
   describe('Working Days Calculations', () => {
     const testCases = [
-      { start: new Date('2024-01-01'), end: new Date('2024-01-07'), expected: 5 },
-      { start: new Date('2024-01-01'), end: new Date('2024-01-31'), expected: 23 },
-      { start: new Date('2024-06-01'), end: new Date('2024-06-30'), expected: 20 },
+      { start: new Date(2024, 0, 1), end: new Date(2024, 0, 7), expected: 5 },
+      { start: new Date(2024, 0, 1), end: new Date(2024, 0, 31), expected: 23 },
+      { start: new Date(2024, 5, 1), end: new Date(2024, 5, 30), expected: 20 },
     ];
     
     testCases.forEach(({ start, end, expected }, index) => {

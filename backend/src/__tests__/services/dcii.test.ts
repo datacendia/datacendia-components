@@ -446,6 +446,20 @@ describe('TimestampAuthorityService', () => {
 // =============================================================================
 
 describe('DecisionSimilarityService', () => {
+  // Seed demo data directly if constructor's async init hasn't completed
+  beforeAll(() => {
+    if (decisionSimilarityService.getDecisionsByOrganization('org-datacendia').length === 0) {
+      const demoRecords = [
+        { organizationId: 'org-datacendia', title: 'Migrate core database from PostgreSQL to CockroachDB', question: 'Should we migrate our primary database to CockroachDB for horizontal scaling?', context: 'Current PostgreSQL is hitting performance limits at 10M rows.', decisionType: 'technology' as const, department: 'Engineering', urgency: 'high' as const, stakeholders: ['CTO'], decidedBy: 'CTO', decidedAt: new Date(), overrideOccurred: false, tags: ['database', 'migration'], relatedDecisionIds: [] },
+        { organizationId: 'org-datacendia', title: 'Expand to APAC market with Singapore office', question: 'Should we open a Singapore office to serve APAC customers?', context: 'Growing demand from APAC.', decisionType: 'strategic' as const, department: 'Executive', urgency: 'medium' as const, stakeholders: ['CEO'], decidedBy: 'CEO', decidedAt: new Date(), overrideOccurred: false, tags: ['expansion', 'apac'], relatedDecisionIds: [] },
+        { organizationId: 'org-datacendia', title: 'Replace legacy monitoring with Datadog', question: 'Should we replace our custom monitoring stack with Datadog?', context: 'Current monitoring is unreliable. False positive rate: 40%.', decisionType: 'technology' as const, department: 'Engineering', urgency: 'high' as const, stakeholders: ['VP Eng'], decidedBy: 'VP Engineering', decidedAt: new Date(), overrideOccurred: false, tags: ['monitoring', 'tooling'], relatedDecisionIds: [] },
+      ];
+      for (const rec of demoRecords) {
+        decisionSimilarityService.addDecisionRecord(rec);
+      }
+    }
+  });
+
   describe('addDecisionRecord', () => {
     it('should add a decision record with auto-extracted keywords', () => {
       const record = decisionSimilarityService.addDecisionRecord({

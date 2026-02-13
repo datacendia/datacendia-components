@@ -585,7 +585,7 @@ Board approves the acquisition.
 
 ---
 
-## 5. PRE-MORTEM ENGINE — Find Failures Before They Happen
+## 5. CendiaPreMortem — Find Failures Before They Happen
 
 ### The Real-World Problem (Without Datacendia)
 
@@ -616,7 +616,7 @@ Product lead initiates a Pre-Mortem session: "It's 6 months from now. Our telehe
 
 **Step 2: System forces structured failure analysis**
 
-The Pre-Mortem Engine doesn't ask "what could go wrong?" (people give optimistic answers). It assumes failure already happened and asks "what DID go wrong?"
+The CendiaPreMortem doesn't ask "what could go wrong?" (people give optimistic answers). It assumes failure already happened and asks "what DID go wrong?"
 
 ```
 PRE-MORTEM SESSION: Telehealth Platform Launch

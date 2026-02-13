@@ -5,7 +5,7 @@
 | Service | UI Route | Navigation Path |
 |---------|----------|-----------------|
 | **Decision DNA™** | `/cortex/intelligence/decision-dna` | Trust Layer → Decision DNA™ |
-| **Deterministic Replay** | `/cortex/council/replay-theater` | Core Suite → Replay Theater |
+| **Deterministic Replay** | `/cortex/council/replay-theater` | Core Suite → CendiaReplay |
 | **Chronos (includes Replay)** | `/cortex/intelligence/chronos` | Core Suite → CendiaChronos™ |
 | **Portable Instance** | `/cortex/admin/vertical-config` | Admin → Vertical Config (sovereign services) |
 | **Data Diode** | `/cortex/admin/vertical-config` | Admin → Vertical Config (sovereign services) |
@@ -56,7 +56,7 @@ http://localhost:5173/cortex/intelligence/decision-dna
 
 ---
 
-## 2. Deterministic Replay / Replay Theater
+## 2. Deterministic Replay / CendiaReplay
 
 ### What It Does
 Replays past deliberations like a movie, showing exactly how AI agents reached their conclusions.
@@ -71,7 +71,7 @@ http://localhost:5173/cortex/council/replay-theater
 **Method 2: Navigation**
 1. Login to Datacendia
 2. Click **Core Suite** dropdown in header (🧠 icon)
-3. Select **Replay Theater** (🎬 icon)
+3. Select **CendiaReplay** (🎬 icon)
 
 ### What You'll See
 - List of past deliberations available for replay
@@ -250,7 +250,7 @@ curl -X POST http://localhost:3001/api/v1/sovereign-arch/portable/build/{configI
    - Export the DNA bundle
    - Highlight the Merkle root and hash chain
 
-3. **Go to Replay Theater** (`/cortex/council/replay-theater`)
+3. **Go to CendiaReplay** (`/cortex/council/replay-theater`)
    - Replay the deliberation
    - Pause at key moments
    - Show how you can verify the exact reasoning

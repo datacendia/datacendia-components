@@ -31,7 +31,7 @@ const toNumber = (value: unknown): number => {
   }
   if (typeof value === 'boolean') return value ? 1 : 0;
   if (value === null || value === undefined) return 0;
-  return Number(value) || 0;
+  try { return Number(value) || 0; } catch { return 0; }
 };
 
 const toInteger = (value: unknown): number => {

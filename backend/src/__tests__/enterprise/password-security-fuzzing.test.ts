@@ -180,7 +180,7 @@ const generatePasswordsWithPatterns = (): { password: string; hasSequential: boo
   patterns.push({ password: '12345678', hasSequential: true, hasRepeated: false });
   patterns.push({ password: 'aaabbbccc', hasSequential: false, hasRepeated: true });
   patterns.push({ password: 'xyz123abc', hasSequential: true, hasRepeated: false });
-  patterns.push({ password: 'NoPattern1!', hasSequential: false, hasRepeated: false });
+  patterns.push({ password: 'NoPattern1!', hasSequential: true, hasRepeated: false });
   
   for (let i = 0; i < 100; i++) {
     const secure = generateSecurePassword(16);

@@ -170,7 +170,8 @@ describe('Cryptography - Enterprise Fuzzing Suite', () => {
     // Collision resistance test
     it('should not produce collisions for 1000 random inputs', () => {
       const hashes = new Set<string>();
-      const inputs = generateRandomStrings(1000, 100);
+      // Deduplicate inputs first - duplicate inputs producing the same hash is expected
+      const inputs = [...new Set(generateRandomStrings(1000, 100))];
       
       for (const input of inputs) {
         const hash = hashSHA256(input);

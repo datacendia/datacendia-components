@@ -25,6 +25,8 @@ const isPrivateIP = (ip: string): boolean => {
   if (parts[0] === 127) return true;
   // 169.254.0.0/16 (link-local)
   if (parts[0] === 169 && parts[1] === 254) return true;
+  // 0.0.0.0
+  if (parts[0] === 0 && parts[1] === 0 && parts[2] === 0 && parts[3] === 0) return true;
   
   return false;
 };
@@ -383,6 +385,8 @@ describe('Network Security - Enterprise Fuzzing Suite', () => {
         if (parsed) {
           const isInternal = isPrivateIP(parsed.host) || 
             parsed.host === 'localhost' ||
+            parsed.host === '[::1]' ||
+            parsed.host === '0.0.0.0' ||
             parsed.protocol === 'file:' ||
             parsed.protocol === 'gopher:' ||
             parsed.protocol === 'dict:';

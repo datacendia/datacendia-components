@@ -13,7 +13,10 @@ import { describe, it, expect } from 'vitest';
 
 const isValidURL = (url: string): boolean => {
   try {
-    new URL(url);
+    if (/^https?:\/\/\//.test(url)) return false; // triple slash = no hostname
+    const parsed = new URL(url);
+    if (!['http:', 'https:'].includes(parsed.protocol)) return false;
+    if (!parsed.hostname) return false;
     return true;
   } catch {
     return false;
@@ -152,9 +155,11 @@ const generateURLsWithPorts = (): { url: string; port: string }[] => {
   const urls: { url: string; port: string }[] = [];
   
   const ports = ['80', '443', '8080', '3000', '5000', '8000', '9000'];
+  // Default ports (80 for http, 443 for https) return empty string from URL API
+  const defaultPorts: Record<string, string> = { '443': '' };
   
   for (const port of ports) {
-    urls.push({ url: `https://example.com:${port}`, port });
+    urls.push({ url: `https://example.com:${port}`, port: defaultPorts[port] ?? port });
   }
   
   for (let i = 0; i < 50; i++) {

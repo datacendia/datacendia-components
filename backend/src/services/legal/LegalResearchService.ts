@@ -688,7 +688,7 @@ class LegalResearchService extends EventEmitter {
   // ===========================================================================
 
   async unifiedSearch(query: string, options?: {
-    sources?: ('cases' | 'regulations' | 'bills' | 'federal-register' | 'sec')[];
+    sources?: ('cases' | 'regulations' | 'bills' | 'federal-register' | 'sec' | 'westlaw')[];
     jurisdiction?: string;
     limit?: number;
   }): Promise<LegalSearchResult[]> {

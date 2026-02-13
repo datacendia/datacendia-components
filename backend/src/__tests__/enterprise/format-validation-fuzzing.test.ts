@@ -43,7 +43,7 @@ const validators = {
   slug: (v: string) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(v),
   
   // Date/Time formats
-  dateISO: (v: string) => /^\d{4}-\d{2}-\d{2}$/.test(v),
+  dateISO: (v: string) => /^\d{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\d|3[01])$/.test(v),
   dateUS: (v: string) => /^\d{2}\/\d{2}\/\d{4}$/.test(v),
   dateEU: (v: string) => /^\d{2}\.\d{2}\.\d{4}$/.test(v),
   time24: (v: string) => /^([01]\d|2[0-3]):([0-5]\d)(:([0-5]\d))?$/.test(v),

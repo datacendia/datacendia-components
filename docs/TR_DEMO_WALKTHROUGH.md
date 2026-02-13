@@ -133,9 +133,9 @@ Show output:
 
 ## Step-by-Step
 
-### 1. Navigate to Replay Theater
+### 1. Navigate to CendiaReplay
 - Click **Core Suite** dropdown (🧠 icon) in header
-- Select **Replay Theater** (🎬 icon)
+- Select **CendiaReplay** (🎬 icon)
 - Or go directly to: `http://localhost:5173/cortex/council/replay-theater`
 
 ### 2. Select a Past Deliberation
@@ -213,7 +213,7 @@ Show output:
 |---------|-----------------|------------|
 | The Council | Core Suite → The Council™ | `/cortex/council` |
 | Decision DNA | Trust Layer → Decision DNA™ | `/cortex/intelligence/decision-dna` |
-| Replay Theater | Core Suite → Replay Theater | `/cortex/council/replay-theater` |
+| CendiaReplay | Core Suite → CendiaReplay | `/cortex/council/replay-theater` |
 | Regulator's Receipt | Trust Layer → Regulator's Receipt | `/cortex/compliance/regulators-receipt` |
 | Chronos | Core Suite → CendiaChronos™ | `/cortex/intelligence/chronos` |
 
@@ -243,7 +243,7 @@ Show output:
 
 1. **The Council** (2 min) - Show live deliberation
 2. **Decision DNA** (3 min) - Show audit trail + verification
-3. **Replay Theater** (2 min) - Show reproducibility
+3. **CendiaReplay** (2 min) - Show reproducibility
 4. **Mention Air-Gap** (30 sec) - "All of this runs offline"
 
 **Total: 7-8 minutes** - leaves time for questions

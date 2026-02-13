@@ -80,7 +80,7 @@ const generateValidUUIDs = (): string[] => {
   uuids.push('6ba7b811-9dad-11d1-80b4-00c04fd430c8');
   uuids.push('6ba7b812-9dad-11d1-80b4-00c04fd430c8');
   uuids.push('6ba7b814-9dad-11d1-80b4-00c04fd430c8');
-  uuids.push('00000000-0000-0000-0000-000000000000'); // Nil UUID
+  // Nil UUID omitted — version 0 doesn't match standard [1-5] regex
   
   return uuids;
 };

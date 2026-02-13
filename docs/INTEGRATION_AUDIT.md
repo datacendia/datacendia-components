@@ -54,7 +54,7 @@ File: `/src/lib/api/pillars.ts` (405 lines)
 | Feature | Backend Service | Frontend Page | Uses Real Data? |
 |---------|----------------|---------------|-----------------|
 | **Ghost Board™** | ✅ Exists | ✅ GhostBoardPage | ⚠️ Partial - LLM integration |
-| **Pre-Mortem Engine™** | ✅ Exists | ✅ PreMortemPage | ⚠️ Partial - LLM integration |
+| **CendiaPreMortem™** | ✅ Exists | ✅ PreMortemPage | ⚠️ Partial - LLM integration |
 | **Decision Debt Dashboard™** | ✅ DecisionService | ✅ DecisionDebtPage | ⚠️ Partial |
 | **Live Demo Mode™** | ✅ Exists | ✅ LiveDemoPage | ❓ Needs verification |
 | **Regulatory Absorb™** | ✅ ComplianceService | ✅ RegulatoryAbsorbPage | ⚠️ Partial |
