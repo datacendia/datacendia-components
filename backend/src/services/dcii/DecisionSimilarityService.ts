@@ -20,6 +20,7 @@
 import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -229,7 +230,66 @@ class DecisionSimilarityService {
 
   constructor() {
     logger.info('[CendiaSimilarity] Decision Similarity Engine™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaSimilarity] DB not available, using in-memory demo data');
+      this.seedDemoData();
+    });
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbDecisions = await prisma.dcii_similarity_decisions.findMany();
+      if (dbDecisions.length > 0) {
+        for (const row of dbDecisions) { this.decisions.set(row.id, row.data as unknown as DecisionRecord); }
+        const dbResults = await prisma.dcii_similarity_results.findMany();
+        for (const row of dbResults) { this.searchResults.set(row.id, row.data as unknown as SimilaritySearchResult); }
+        const dbPatterns = await prisma.dcii_similarity_patterns.findMany();
+        for (const row of dbPatterns) { this.patterns.set(row.id, row.data as unknown as DecisionPattern); }
+        logger.info(`[CendiaSimilarity] Loaded ${dbDecisions.length} decisions from database`);
+        return;
+      }
+    } catch { /* DB not available */ }
     this.seedDemoData();
+  }
+
+  private async persistDecision(decision: DecisionRecord): Promise<void> {
+    try {
+      await prisma.dcii_similarity_decisions.upsert({
+        where: { id: decision.id },
+        update: { data: decision as any, outcome: decision.outcome ?? null, tags: decision.tags, keywords: decision.keywords },
+        create: {
+          id: decision.id, organization_id: decision.organizationId, title: decision.title,
+          question: decision.question, context: decision.context, decision_type: decision.decisionType,
+          department: decision.department, urgency: decision.urgency, outcome: decision.outcome ?? null,
+          override: decision.overrideOccurred, decided_by: decision.decidedBy, decided_at: decision.decidedAt,
+          tags: decision.tags, keywords: decision.keywords, data: decision as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaSimilarity] DB persist decision failed (non-fatal):', err); }
+  }
+
+  private async persistSearchResult(result: SimilaritySearchResult): Promise<void> {
+    try {
+      await prisma.dcii_similarity_results.create({
+        data: {
+          id: result.id, organization_id: result.query.organizationId,
+          query_title: result.query.title, match_count: result.matches.length, data: result as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaSimilarity] DB persist result failed (non-fatal):', err); }
+  }
+
+  private async persistPattern(pattern: DecisionPattern): Promise<void> {
+    try {
+      await prisma.dcii_similarity_patterns.upsert({
+        where: { id: pattern.id },
+        update: { data: pattern as any },
+        create: {
+          id: pattern.id, organization_id: pattern.organizationId, pattern_type: pattern.patternType,
+          severity: pattern.severity, confidence: pattern.frequency > 3 ? 0.9 : 0.6, data: pattern as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaSimilarity] DB persist pattern failed (non-fatal):', err); }
   }
 
   // ---------------------------------------------------------------------------
@@ -249,6 +309,7 @@ class DecisionSimilarityService {
     };
 
     this.decisions.set(id, decision);
+    this.persistDecision(decision).catch(() => {});
     logger.info(`[CendiaSimilarity] Decision recorded: ${record.title} (${id})`);
     return decision;
   }
@@ -268,6 +329,7 @@ class DecisionSimilarityService {
     if (lessonsLearned) decision.lessonsLearned = lessonsLearned;
     if (dissenterWasCorrect !== undefined) decision.dissenterWasCorrect = dissenterWasCorrect;
 
+    this.persistDecision(decision).catch(() => {});
     logger.info(`[CendiaSimilarity] Outcome updated for ${decision.title}: ${outcome}`);
     return decision;
   }
@@ -355,7 +417,8 @@ class DecisionSimilarityService {
       .digest('hex');
 
     this.searchResults.set(result.id, result);
-    logger.info(`[CendiaSimilarity] Search: ${topMatches.length} matches found in ${result.searchDurationMs}ms`);
+    this.persistSearchResult(result).catch(() => {});
+    logger.info(`[CendiaSimilarity] Search: ${topMatches.length} matches found in ${result.searchDurationMs}ms`);    
     return result;
   }
 
@@ -666,6 +729,7 @@ class DecisionSimilarityService {
 
     for (const p of detectedPatterns) {
       this.patterns.set(p.id, p);
+      this.persistPattern(p).catch(() => {});
     }
 
     logger.info(`[CendiaSimilarity] Pattern detection for ${organizationId}: ${detectedPatterns.length} patterns found`);

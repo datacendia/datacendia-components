@@ -6,7 +6,7 @@
 // ENHANCED FEATURES:
 // - Diff View: Side-by-side comparison of any two dates
 // - Pivotal Moment Detection: AI identifies critical decision points
-// - Council Replay Theater: Watch deliberations play back like video
+// - CendiaReplay™: Watch deliberations play back like video
 // - Impact Tracing: See ripple effects from any decision
 // - Multi-Branch Compare: Compare 3+ alternate timelines
 // - Bookmark Moments: Save & share timestamps
@@ -7166,7 +7166,7 @@ const DiffView: React.FC<{
   );
 };
 
-// Council Replay Theater
+// CendiaReplay™
 const CouncilTheater: React.FC<{
   replay: CouncilReplay | null;
   onClose: () => void;
@@ -7188,7 +7188,7 @@ const CouncilTheater: React.FC<{
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 text-center">
         <span className="text-6xl mb-4 block">🎬</span>
-        <h2 className="text-xl font-bold mb-2">Council Replay Theater</h2>
+        <h2 className="text-xl font-bold mb-2">CendiaReplay™</h2>
         <p className="text-neutral-400">Select an event with a deliberation to replay</p>
       </div>
     );
@@ -7232,7 +7232,7 @@ const CouncilTheater: React.FC<{
       <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold flex items-center gap-2">🎬 Council Replay Theater</h2>
+            <h2 className="text-xl font-bold flex items-center gap-2">🎬 CendiaReplay™</h2>
             <p className="text-amber-200 text-sm">{replay.query}</p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white">

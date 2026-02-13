@@ -1,5 +1,5 @@
 /**
- * DATACENDIA PLATFORM - AUDIT PROVENANCE™
+ * DATACENDIA PLATFORM - CendiaProvenance™
  * Full decision lineage & evidence export
  * 
  * Merges Decision DNA (decision lifecycle timeline) with 

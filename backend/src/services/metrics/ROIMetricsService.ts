@@ -1,5 +1,5 @@
 // =============================================================================
-// DATACENDIA ROI METRICS SERVICE
+// CendiaROI™ METRICS SERVICE
 // Tracks real metrics to prove ROI claims with actual data
 // =============================================================================
 
@@ -52,7 +52,7 @@ export interface ROISummary {
 }
 
 // =============================================================================
-// ROI METRICS SERVICE
+// CendiaROI™ SERVICE
 // =============================================================================
 
 class ROIMetricsService {

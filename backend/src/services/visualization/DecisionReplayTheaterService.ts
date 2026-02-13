@@ -1,5 +1,5 @@
 /**
- * DATACENDIA DECISION REPLAY THEATER SERVICE
+ * CendiaReplay™ — DECISION REPLAY THEATER SERVICE
  * 
  * Watch past deliberations unfold like a movie:
  * - See exactly what each agent said when
@@ -475,7 +475,7 @@ export class DecisionReplayTheaterService {
 </head>
 <body>
   <div class="header">
-    <h1>🎬 Decision Replay Theater</h1>
+    <h1>🎬 CendiaReplay™</h1>
     <h2>${session.title}</h2>
     <p>Council Mode: ${session.metadata.councilMode} | Agents: ${session.agents.length} | Duration: ${Math.round(session.totalDuration / 1000)}s</p>
   </div>
@@ -521,7 +521,7 @@ export class DecisionReplayTheaterService {
 
 ## OPENING (0:00)
 [FADE IN on Council Chamber visualization]
-NARRATOR: "Welcome to the Datacendia Decision Replay Theater."
+NARRATOR: "Welcome to CendiaReplay™ by Datacendia."
 NARRATOR: "Today we're reviewing a ${session.metadata.councilMode} deliberation."
 
 ## INTRODUCTION (0:05)

@@ -1,5 +1,5 @@
 // =============================================================================
-// DECISION REPLAY THEATER PAGE
+// CendiaReplay™ PAGE
 // Watch past deliberations unfold like a movie
 // =============================================================================
 
@@ -296,7 +296,7 @@ export const DecisionReplayTheaterPage: React.FC = () => {
                 <Film className="w-8 h-8" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold">Decision Replay Theater</h1>
+                <h1 className="text-3xl font-bold">CendiaReplay™</h1>
                 <p className="text-purple-200">Watch past deliberations unfold like a movie</p>
               </div>
             </div>

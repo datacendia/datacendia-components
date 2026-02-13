@@ -21,6 +21,7 @@
 import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -305,7 +306,81 @@ class CrossJurisdictionConflictService {
 
   constructor() {
     logger.info('[CendiaJurisdiction] Cross-Jurisdiction Compliance Conflict Detection™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaJurisdiction] DB not available, using in-memory demo data');
+      this.seedDemoData();
+    });
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbAssessments = await prisma.dcii_jurisdiction_assessments.findMany();
+      if (dbAssessments.length > 0) {
+        for (const row of dbAssessments) { this.assessments.set(row.id, row.data as unknown as CrossJurisdictionAssessment); }
+        const dbConflicts = await prisma.dcii_jurisdiction_conflicts.findMany();
+        for (const row of dbConflicts) { this.conflicts.set(row.id, row.data as unknown as RegulatoryConflict); }
+        const dbPackets = await prisma.dcii_jurisdiction_evidence_packets.findMany();
+        for (const row of dbPackets) { this.evidencePackets.set(row.id, row.data as unknown as JurisdictionEvidencePacket); }
+        const dbDocs = await prisma.dcii_jurisdiction_good_faith_docs.findMany();
+        for (const row of dbDocs) { this.goodFaithDocs.set(row.id, row.data as unknown as GoodFaithDocument); }
+        logger.info(`[CendiaJurisdiction] Loaded ${dbAssessments.length} assessments, ${dbConflicts.length} conflicts from database`);
+        return;
+      }
+    } catch { /* DB not available */ }
     this.seedDemoData();
+  }
+
+  private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+    try {
+      await prisma.dcii_jurisdiction_assessments.upsert({
+        where: { id: assessment.id },
+        update: { data: assessment as any, conflict_count: assessment.conflictCount },
+        create: {
+          id: assessment.id, organization_id: assessment.organizationId,
+          organization_name: assessment.organizationName, jurisdictions: assessment.jurisdictions,
+          assessed_by: 'system', conflict_count: assessment.conflictCount, data: assessment as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaJurisdiction] DB persist assessment failed (non-fatal):', err); }
+  }
+
+  private async persistConflict(conflict: RegulatoryConflict): Promise<void> {
+    try {
+      await prisma.dcii_jurisdiction_conflicts.upsert({
+        where: { id: conflict.id },
+        update: { data: conflict as any, status: conflict.status },
+        create: {
+          id: conflict.id, organization_id: conflict.organizationId, assessment_id: '',
+          severity: conflict.severity, conflict_type: conflict.conflictType,
+          jurisdiction_a: conflict.jurisdictionA, jurisdiction_b: conflict.jurisdictionB,
+          framework_a: conflict.frameworkA, framework_b: conflict.frameworkB,
+          status: conflict.status, data: conflict as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaJurisdiction] DB persist conflict failed (non-fatal):', err); }
+  }
+
+  private async persistEvidencePacket(packet: JurisdictionEvidencePacket): Promise<void> {
+    try {
+      await prisma.dcii_jurisdiction_evidence_packets.create({
+        data: {
+          id: packet.id, organization_id: packet.organizationId,
+          jurisdiction: packet.jurisdiction, framework: packet.framework,
+          packet_type: packet.packetType, generated_by: packet.generatedBy, data: packet as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaJurisdiction] DB persist evidence packet failed (non-fatal):', err); }
+  }
+
+  private async persistGoodFaithDoc(doc: GoodFaithDocument): Promise<void> {
+    try {
+      await prisma.dcii_jurisdiction_good_faith_docs.create({
+        data: {
+          id: doc.id, conflict_id: doc.conflictId, organization_id: doc.organizationId,
+          signed_by: doc.signedBy, data: doc as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaJurisdiction] DB persist good faith doc failed (non-fatal):', err); }
   }
 
   // ---------------------------------------------------------------------------
@@ -357,6 +432,7 @@ class CrossJurisdictionConflictService {
       .digest('hex');
 
     this.assessments.set(assessment.id, assessment);
+    this.persistAssessmentDb(assessment).catch(() => {});
     logger.info(`[CendiaJurisdiction] Assessment for ${organizationName}: ${conflicts.length} conflicts, risk: ${overallRisk}`);
     return assessment;
   }
@@ -399,6 +475,7 @@ class CrossJurisdictionConflictService {
 
         detectedConflicts.push(conflict);
         this.conflicts.set(conflict.id, conflict);
+        this.persistConflict(conflict).catch(() => {});
       }
     }
 
@@ -501,9 +578,11 @@ class CrossJurisdictionConflictService {
 
     doc.integrity.documentHash = crypto.createHash('sha256').update(JSON.stringify(doc)).digest('hex');
     this.goodFaithDocs.set(doc.id, doc);
+    this.persistGoodFaithDoc(doc).catch(() => {});
 
     conflict.goodFaithDocumentation = doc;
     conflict.status = 'resolution_proposed';
+    this.persistConflict(conflict).catch(() => {});
 
     logger.info(`[CendiaJurisdiction] Good-faith document generated for conflict ${conflictId}`);
     return doc;
@@ -581,6 +660,7 @@ class CrossJurisdictionConflictService {
 
     packet.integrity.packetHash = crypto.createHash('sha256').update(JSON.stringify({ id: packet.id, jurisdiction, framework })).digest('hex');
     this.evidencePackets.set(packet.id, packet);
+    this.persistEvidencePacket(packet).catch(() => {});
 
     logger.info(`[CendiaJurisdiction] Evidence packet generated: ${packet.title}`);
     return packet;

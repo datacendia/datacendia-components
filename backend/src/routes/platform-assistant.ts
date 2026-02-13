@@ -296,7 +296,7 @@ PLATFORM CAPABILITIES:
 - Post-Quantum KMS: Quantum-resistant cryptography
 - Carbon-Aware Scheduler: ESG-optimized AI workload scheduling
 - Adversarial Red Team: Find failure modes before they happen
-- Decision Replay Theater: Watch past deliberations
+- CendiaReplay™: Watch past deliberations
 - Environment Config: Edit .env file via UI
 - 20 Industry Verticals: Healthcare, Finance, Legal, Defense, Government, Insurance, Energy, Manufacturing, Retail, Aerospace, Agriculture, Automotive, Construction, Hospitality, Media, Non-Profit, Pharmaceutical, Professional Services, Telecom, Transportation
 

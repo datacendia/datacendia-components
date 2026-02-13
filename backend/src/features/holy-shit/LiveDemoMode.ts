@@ -432,7 +432,7 @@ export class LiveDemoModeService extends BaseService {
   }
 
   // ---------------------------------------------------------------------------
-  // LIVE DELIBERATION
+  // CendiaLive™ DELIBERATION
   // ---------------------------------------------------------------------------
 
   async runLiveDeliberation(request: LiveDemoRequest): Promise<LiveDeliberationResult> {

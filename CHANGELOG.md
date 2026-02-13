@@ -38,10 +38,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Breadcrumbs** — 5 labels updated to match navigation
 - **i18n translations** — DCII namespace titles branded
 
+### Fixed — DCII Enterprise Hardening
+- **Database Persistence** — All 5 DCII services now use write-through cache pattern:
+  in-memory Maps for fast reads + PostgreSQL via Prisma for persistence across restarts.
+  Graceful fallback to in-memory if DB unavailable.
+  - New Prisma schema: `backend/prisma/schema/dcii.prisma` (15 models, 50+ indexes)
+  - Relations added to `organizations` model in `base.prisma`
+- **Authentication Middleware** — `devAuth` middleware applied to all DCII API routes
+  (matches other platform routes; bypasses auth in development, enforces JWT in production)
+- **Branding Cleanup** — Fixed 30+ old branding references across frontend + backend:
+  Pre-Mortem Engine → CendiaPreMortem™, Decision Replay Theater → CendiaReplay™,
+  Live Agent Monitor → CendiaPulse™, ROI Metrics → CendiaROI™,
+  Audit Provenance → CendiaProvenance™, DCII Dashboard → CendiaDCII™
+
 ### Known Limitations (DCII)
-- DCII backend services use **in-memory Maps** (not persisted to database) — data lost on restart
-- DCII API routes do **not enforce authentication** middleware (other platform routes do)
 - Frontend DCII dashboard falls back to **demo data** if backend API is unreachable
+- ~156 old branding references remain in `docs/` markdown files (non-functional, documentation-only)
 
 ### Security
 - Rotated exposed Redis password from git history

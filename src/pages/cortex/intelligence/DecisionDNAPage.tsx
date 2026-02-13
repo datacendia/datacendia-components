@@ -775,7 +775,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
   return (
     <div className={embedded ? 'bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6' : 'min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6'}>
       <div className="max-w-7xl mx-auto">
-        {/* Header — hidden when embedded in Audit Provenance */}
+        {/* Header — hidden when embedded in CendiaProvenance™ */}
         {!embedded && (
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-2">

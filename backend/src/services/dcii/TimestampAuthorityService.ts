@@ -20,6 +20,7 @@
 import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -229,7 +230,67 @@ class TimestampAuthorityService {
 
   constructor() {
     logger.info('[CendiaTimestamp] RFC 3161 Timestamp Authority™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaTimestamp] DB not available, using in-memory demo data');
+      this.seedDemoData();
+    });
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbTokens = await prisma.dcii_timestamp_tokens.findMany();
+      if (dbTokens.length > 0) {
+        for (const row of dbTokens) { this.tokens.set(row.id, row.data as unknown as TimestampToken); }
+        const dbVerifications = await prisma.dcii_timestamp_verifications.findMany();
+        for (const row of dbVerifications) { this.verifications.set(row.id, row.data as unknown as TimestampVerification); }
+        const dbBatches = await prisma.dcii_timestamp_batches.findMany();
+        for (const row of dbBatches) { this.batches.set(row.id, row.data as unknown as BatchTimestampRequest); }
+        logger.info(`[CendiaTimestamp] Loaded ${dbTokens.length} tokens from database`);
+        return;
+      }
+    } catch { /* DB not available */ }
     this.seedDemoData();
+  }
+
+  private async persistToken(token: TimestampToken): Promise<void> {
+    try {
+      await prisma.dcii_timestamp_tokens.upsert({
+        where: { id: token.id },
+        update: { data: token as any, status: token.status },
+        create: {
+          id: token.id, organization_id: token.organizationId, data_hash: token.dataHash,
+          hash_algorithm: token.hashAlgorithm, data_type: token.dataType, description: token.dataDescription,
+          reference_id: token.referenceId ?? null, status: token.status,
+          has_external: !!token.externalTimestamp, has_blockchain: !!token.blockchainAnchor,
+          data: token as any, expires_at: token.expiresAt ?? null,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaTimestamp] DB persist token failed (non-fatal):', err); }
+  }
+
+  private async persistVerification(verification: TimestampVerification): Promise<void> {
+    try {
+      await prisma.dcii_timestamp_verifications.create({
+        data: {
+          id: verification.id, token_id: verification.tokenId,
+          verified_by: verification.verifiedBy, valid: verification.overallValid,
+          data: verification as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaTimestamp] DB persist verification failed (non-fatal):', err); }
+  }
+
+  private async persistBatch(batch: BatchTimestampRequest): Promise<void> {
+    try {
+      await prisma.dcii_timestamp_batches.upsert({
+        where: { id: batch.id },
+        update: { data: batch as any, status: batch.status },
+        create: {
+          id: batch.id, organization_id: batch.organizationId,
+          item_count: batch.items.length, status: batch.status, data: batch as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaTimestamp] DB persist batch failed (non-fatal):', err); }
   }
 
   // ---------------------------------------------------------------------------
@@ -300,7 +361,8 @@ class TimestampAuthorityService {
     token.expiresAt = new Date(Date.now() + 10 * 365 * 24 * 60 * 60 * 1000); // 10-year retention
 
     this.tokens.set(tokenId, token);
-    logger.info(`[CendiaTimestamp] Token issued: ${tokenId} for "${description}" (${dataType})`);
+    this.persistToken(token).catch(() => {});
+    logger.info(`[CendiaTimestamp] Token issued: ${tokenId} for "${description}" (${dataType})`);    
     return token;
   }
 
@@ -388,6 +450,7 @@ class TimestampAuthorityService {
     };
 
     this.batches.set(batchId, batch);
+    this.persistBatch(batch).catch(() => {});
 
     // Issue individual timestamps
     for (const item of items) {
@@ -408,6 +471,7 @@ class TimestampAuthorityService {
 
     batch.status = batch.tokensIssued.length === items.length ? 'completed' : 'partial_failure';
     batch.completedAt = new Date();
+    this.persistBatch(batch).catch(() => {});
 
     logger.info(`[CendiaTimestamp] Batch completed: ${batch.tokensIssued.length}/${items.length} tokens`);
     return batch;
@@ -540,6 +604,8 @@ class TimestampAuthorityService {
     token.status = overallValid ? 'verified' : 'failed';
     token.verifiedAt = new Date();
     this.verifications.set(verification.id, verification);
+    this.persistVerification(verification).catch(() => {});
+    this.persistToken(token).catch(() => {});
 
     logger.info(`[CendiaTimestamp] Token ${tokenId} verification: ${overallValid ? 'VALID' : 'INVALID'}`);
     return verification;

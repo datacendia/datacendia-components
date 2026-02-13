@@ -170,7 +170,7 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'governance/decision-packets', element: w(DecisionPacketsPage) },
   { path: 'governance/constitutional-court', element: w(ConstitutionalCourtPage) },
 
-  // Audit Provenance (merged Decision DNA + Regulator's Receipt)
+  // CendiaProvenance™ (merged Decision DNA + Regulator's Receipt)
   { path: 'intelligence/audit-provenance', element: w(AuditProvenancePage) },
   // Legacy redirects
   { path: 'intelligence/decision-dna', element: <Navigate to="/cortex/intelligence/audit-provenance" replace /> },

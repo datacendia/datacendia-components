@@ -123,6 +123,13 @@ model organizations {
   // Sports Vertical - Football/Soccer Decision Governance
   sports_transfer_decisions sports_transfer_decisions[]
   sports_contract_decisions sports_contract_decisions[]
+
+  // DCII - Decision Crisis Immunization Infrastructure
+  dcii_iiss_scores                dcii_iiss_scores[]
+  dcii_media_assets               dcii_media_assets[]
+  dcii_jurisdiction_assessments   dcii_jurisdiction_assessments[]
+  dcii_timestamp_tokens           dcii_timestamp_tokens[]
+  dcii_similarity_decisions       dcii_similarity_decisions[]
 }
 
 model password_resets {

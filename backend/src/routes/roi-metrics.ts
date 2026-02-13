@@ -1,5 +1,5 @@
 // =============================================================================
-// DATACENDIA ROI METRICS API ROUTES
+// CendiaROI™ API ROUTES
 // Endpoints to expose provable ROI metrics
 // =============================================================================
 

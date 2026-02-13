@@ -302,7 +302,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
   if (!selectedDeliberation) {
     return (
       <div className={embedded ? 'bg-gray-50 dark:bg-gray-900' : 'min-h-screen bg-gray-50 dark:bg-gray-900'}>
-        {/* Header — hidden when embedded in Audit Provenance */}
+        {/* Header — hidden when embedded in CendiaProvenance™ */}
         {!embedded && (
           <div className="bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-600 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

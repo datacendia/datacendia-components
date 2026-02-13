@@ -17,6 +17,7 @@
 import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -222,7 +223,51 @@ class SyntheticMediaAuthService {
 
   constructor() {
     logger.info('[CendiaMediaAuth] Synthetic Media Authentication™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaMediaAuth] DB not available, using in-memory demo data');
+      this.seedDemoData();
+    });
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbAssets = await prisma.dcii_media_assets.findMany();
+      if (dbAssets.length > 0) {
+        for (const row of dbAssets) { this.assets.set(row.id, row.data as unknown as MediaAsset); }
+        const dbAssessments = await prisma.dcii_media_assessments.findMany();
+        for (const row of dbAssessments) { this.assessments.set(row.id, row.data as unknown as AuthenticityAssessment); }
+        logger.info(`[CendiaMediaAuth] Loaded ${dbAssets.length} assets from database`);
+        return;
+      }
+    } catch { /* DB not available */ }
     this.seedDemoData();
+  }
+
+  private async persistAsset(asset: MediaAsset): Promise<void> {
+    try {
+      await prisma.dcii_media_assets.upsert({
+        where: { id: asset.id },
+        update: { data: asset as any, status: asset.status },
+        create: {
+          id: asset.id, organization_id: asset.organizationId, file_name: asset.fileName,
+          media_type: asset.mediaType, mime_type: asset.mimeType, content_hash: asset.contentHash,
+          status: asset.status, created_by: asset.createdBy, data: asset as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaMediaAuth] DB persist asset failed (non-fatal):', err); }
+  }
+
+  private async persistAssessmentDb(assessment: AuthenticityAssessment): Promise<void> {
+    try {
+      await prisma.dcii_media_assessments.create({
+        data: {
+          id: assessment.id, asset_id: assessment.assetId,
+          organization_id: this.assets.get(assessment.assetId)?.organizationId || 'unknown',
+          verdict: assessment.verdict, confidence: assessment.confidenceScore,
+          analyzed_by: assessment.assessedBy, data: assessment as any,
+        },
+      });
+    } catch (err) { logger.debug('[CendiaMediaAuth] DB persist assessment failed (non-fatal):', err); }
   }
 
   // ---------------------------------------------------------------------------
@@ -298,7 +343,8 @@ class SyntheticMediaAuthService {
     };
 
     this.assets.set(assetId, asset);
-    logger.info(`[CendiaMediaAuth] Media signed: ${fileName} (${assetId})`);
+    this.persistAsset(asset).catch(() => {});
+    logger.info(`[CendiaMediaAuth] Media signed: ${fileName} (${assetId})`);    
     return asset;
   }
 
@@ -365,6 +411,8 @@ class SyntheticMediaAuthService {
     asset.authenticity = assessment;
     asset.lastVerifiedAt = new Date();
     this.assessments.set(assessmentId, assessment);
+    this.persistAssessmentDb(assessment).catch(() => {});
+    this.persistAsset(asset).catch(() => {});
 
     this.addCustodyEntry(assetId, 'verified', analyzedBy, 'analyst', `Authenticity analysis: ${verdict} (${confidenceScore}%)`);
 

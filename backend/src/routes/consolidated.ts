@@ -156,19 +156,19 @@ router.post('/ghost-board/rehearse', async (req: Request, res: Response): Promis
 });
 
 // =============================================================================
-// 1c. PRE-MORTEM ENGINE - Analyze failure modes before deciding
+// 1c. CendiaPreMortem™ - Analyze failure modes before deciding
 // =============================================================================
 
 /**
  * GET /api/v1/consolidated/pre-mortem/status
- * Pre-Mortem Engine service status - REAL AI-POWERED
+ * CendiaPreMortem™ service status - REAL AI-POWERED
  */
 router.get('/pre-mortem/status', async (_req: Request, res: Response) => {
   try {
     const status = await preMortemService.getStatus();
     res.json({
       success: true,
-      service: 'Pre-Mortem Engine™',
+      service: 'CendiaPreMortem™',
       description: 'Imagine the decision failed - what went wrong? Identify failure modes before committing.',
       status,
       features: ['Failure mode analysis', 'Risk identification', 'Mitigation planning', 'Scenario simulation'],

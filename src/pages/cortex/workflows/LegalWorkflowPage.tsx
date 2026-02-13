@@ -58,7 +58,7 @@ const WORKFLOW_STEPS = [
     id: 5,
     name: 'Pre-Mortem Analysis',
     description: 'What could go wrong with this strategy?',
-    service: 'Pre-Mortem Engine™',
+    service: 'CendiaPreMortem™',
     endpoint: 'POST /api/v1/consolidated/pre-mortem/analyze',
     path: '/cortex/intelligence/pre-mortem',
     icon: AlertTriangle,

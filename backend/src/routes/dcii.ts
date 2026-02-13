@@ -10,6 +10,7 @@
  */
 
 import { Router, Request, Response } from 'express';
+import { devAuth } from '../middleware/auth.js';
 import { iissService } from '../services/dcii/IISSService.js';
 import { syntheticMediaAuthService } from '../services/dcii/SyntheticMediaAuthService.js';
 import { crossJurisdictionConflictService } from '../services/dcii/CrossJurisdictionConflictService.js';
@@ -18,6 +19,9 @@ import { decisionSimilarityService } from '../services/dcii/DecisionSimilaritySe
 import { logger } from '../utils/logger.js';
 
 const router = Router();
+
+// All DCII routes require authentication (devAuth allows bypass in development)
+router.use(devAuth);
 
 // =============================================================================
 // DCII STATUS
@@ -52,7 +56,7 @@ router.get('/status', (_req: Request, res: Response) => {
 router.post('/iiss/calculate', async (req: Request, res: Response) => {
   try {
     const { organizationId, organizationName } = req.body;
-    const initiatedBy = (req as any).user?.email || 'api-user';
+    const initiatedBy = req.user?.email || 'api-user';
     if (!organizationId || !organizationName) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId and organizationName required' } });
     }
@@ -120,7 +124,7 @@ router.get('/iiss/assessment/:assessmentId', (req: Request, res: Response) => {
 router.post('/media/sign', async (req: Request, res: Response) => {
   try {
     const { organizationId, fileName, mediaType, mimeType, content, origin } = req.body;
-    const createdBy = (req as any).user?.email || 'api-user';
+    const createdBy = req.user?.email || 'api-user';
     if (!organizationId || !fileName || !mediaType) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, fileName, and mediaType required' } });
     }
@@ -139,7 +143,7 @@ router.post('/media/sign', async (req: Request, res: Response) => {
 // Analyze media authenticity (deepfake detection)
 router.post('/media/analyze/:assetId', async (req: Request, res: Response) => {
   try {
-    const analyzedBy = (req as any).user?.email || 'api-user';
+    const analyzedBy = req.user?.email || 'api-user';
     const assessment = await syntheticMediaAuthService.analyzeAuthenticity(req.params.assetId, analyzedBy);
     res.json({ success: true, data: assessment });
   } catch (err: any) {
@@ -180,7 +184,7 @@ router.get('/media/report/:assetId', async (req: Request, res: Response) => {
 // Add custody entry
 router.post('/media/custody/:assetId', (req: Request, res: Response) => {
   const { action, actorRole, details, ipAddress } = req.body;
-  const actor = (req as any).user?.email || 'api-user';
+  const actor = req.user?.email || 'api-user';
   const entry = syntheticMediaAuthService.addCustodyEntry(req.params.assetId, action, actor, actorRole || 'user', details || '', ipAddress);
   if (!entry) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Asset not found' } });
   res.json({ success: true, data: entry });
@@ -194,7 +198,7 @@ router.post('/media/custody/:assetId', (req: Request, res: Response) => {
 router.post('/jurisdiction/assess', async (req: Request, res: Response) => {
   try {
     const { organizationId, organizationName, jurisdictions } = req.body;
-    const assessedBy = (req as any).user?.email || 'api-user';
+    const assessedBy = req.user?.email || 'api-user';
     if (!organizationId || !organizationName || !jurisdictions?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, organizationName, and jurisdictions required' } });
     }
@@ -238,7 +242,7 @@ router.get('/jurisdiction/conflict/:conflictId', (req: Request, res: Response) =
 // Generate good-faith documentation
 router.post('/jurisdiction/good-faith/:conflictId', async (req: Request, res: Response) => {
   try {
-    const signedBy = (req as any).user?.email || 'api-user';
+    const signedBy = req.user?.email || 'api-user';
     const doc = await crossJurisdictionConflictService.generateGoodFaithDocument(req.params.conflictId, signedBy);
     res.json({ success: true, data: doc });
   } catch (err: any) {
@@ -251,7 +255,7 @@ router.post('/jurisdiction/good-faith/:conflictId', async (req: Request, res: Re
 router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response) => {
   try {
     const { organizationId, jurisdiction, framework, packetType } = req.body;
-    const generatedBy = (req as any).user?.email || 'api-user';
+    const generatedBy = req.user?.email || 'api-user';
     if (!organizationId || !jurisdiction || !framework) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, jurisdiction, and framework required' } });
     }
@@ -322,7 +326,7 @@ router.post('/timestamp/batch', async (req: Request, res: Response) => {
 // Verify a timestamp
 router.post('/timestamp/verify/:tokenId', async (req: Request, res: Response) => {
   try {
-    const verifiedBy = (req as any).user?.email || 'api-user';
+    const verifiedBy = req.user?.email || 'api-user';
     const verification = await timestampAuthorityService.verifyTimestamp(req.params.tokenId, verifiedBy);
     res.json({ success: true, data: verification });
   } catch (err: any) {
@@ -404,7 +408,7 @@ router.post('/similarity/decisions', (req: Request, res: Response) => {
     const decision = decisionSimilarityService.addDecisionRecord({
       ...record,
       decidedAt: record.decidedAt ? new Date(record.decidedAt) : new Date(),
-      decidedBy: record.decidedBy || (req as any).user?.email || 'api-user',
+      decidedBy: record.decidedBy || req.user?.email || 'api-user',
       tags: record.tags || [],
       relatedDecisionIds: record.relatedDecisionIds || [],
       overrideOccurred: record.overrideOccurred || false,

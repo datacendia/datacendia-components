@@ -1,5 +1,5 @@
 // =============================================================================
-// DATACENDIA LIVE AGENT MONITOR - WEB DASHBOARD
+// CendiaPulse™ - LIVE AGENT MONITOR WEB DASHBOARD
 // Real-time visualization of agent actions, decisions, and compliance checks
 // Superior to CLI monitors with animations, charts, and drill-down capabilities
 // =============================================================================

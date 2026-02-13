@@ -1,5 +1,5 @@
 // =============================================================================
-// DATACENDIA ROI METRICS DASHBOARD
+// CendiaROI™ DASHBOARD
 // Real metrics to prove ROI claims with actual platform data
 // =============================================================================
 

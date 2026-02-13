@@ -3,7 +3,7 @@
  * 
  * API endpoints for:
  * - Real-Time Deliberation Visualization
- * - Decision Replay Theater
+ * - CendiaReplay™
  */
 
 import { Router, Request, Response } from 'express';
@@ -151,7 +151,7 @@ router.get('/active', (_req: Request, res: Response) => {
 });
 
 // =============================================================================
-// DECISION REPLAY THEATER
+// CendiaReplay™
 // =============================================================================
 
 /**

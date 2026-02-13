@@ -101,6 +101,6 @@ export const cortexCoreRoutes: RouteObject[] = [
   { path: 'bridge/approvals', element: w(ApprovalsPage) },
   { path: 'bridge/integrations', element: w(BridgeIntegrationsPage) },
 
-  // Live Agent Monitor
+  // CendiaPulse™
   { path: 'monitor/live', element: w(LiveAgentMonitorPage) },
 ];

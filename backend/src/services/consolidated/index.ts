@@ -10,7 +10,7 @@ import { keyManagementService } from '../security/KeyManagementService.js';
 import crypto from 'crypto';
 
 // =============================================================================
-// 1. PRE-MORTEM ENGINE™ - Real AI-Powered Failure Analysis
+// 1. CendiaPreMortem™ - Real AI-Powered Failure Analysis
 // =============================================================================
 
 export interface FailureMode {

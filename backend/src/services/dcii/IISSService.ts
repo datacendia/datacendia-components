@@ -29,6 +29,7 @@
 import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -320,9 +321,107 @@ class IISSService {
   private scores: Map<string, IISSScore> = new Map();
   private history: Map<string, IISSHistoryEntry[]> = new Map();
 
+  private dbReady = false;
+
   constructor() {
     logger.info('[CendiaIISS] Institutional Immune System Score™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaIISS] DB not available, using in-memory demo data');
+      this.seedDemoData();
+    });
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbScores = await prisma.dcii_iiss_scores.findMany({ orderBy: { created_at: 'desc' } });
+      if (dbScores.length > 0) {
+        for (const row of dbScores) {
+          this.scores.set(row.id, row.data as unknown as IISSScore);
+        }
+        const dbAssessments = await prisma.dcii_iiss_assessments.findMany();
+        for (const row of dbAssessments) {
+          this.assessments.set(row.id, row.data as unknown as IISSAssessment);
+        }
+        const dbHistory = await prisma.dcii_iiss_history.findMany({ orderBy: { created_at: 'asc' } });
+        const historyMap = new Map<string, IISSHistoryEntry[]>();
+        for (const row of dbHistory) {
+          const entries = historyMap.get(row.organization_id) || [];
+          entries.push(row.data as unknown as IISSHistoryEntry);
+          historyMap.set(row.organization_id, entries);
+        }
+        this.history = historyMap;
+        this.dbReady = true;
+        logger.info(`[CendiaIISS] Loaded ${dbScores.length} scores, ${dbAssessments.length} assessments from database`);
+        return;
+      }
+    } catch {
+      // DB not available
+    }
     this.seedDemoData();
+    this.dbReady = true;
+  }
+
+  private async persistScore(score: IISSScore): Promise<void> {
+    try {
+      await prisma.dcii_iiss_scores.upsert({
+        where: { id: score.id },
+        update: { data: score as any, overall_score: score.overallScore, band: score.band, certification: score.certificationLevel },
+        create: {
+          id: score.id,
+          organization_id: score.organizationId,
+          organization_name: score.organizationName,
+          overall_score: score.overallScore,
+          band: score.band,
+          certification: score.certificationLevel,
+          previous_score: score.previousScore ?? null,
+          previous_band: score.previousBand ?? null,
+          trend: score.trend,
+          change_amount: score.changeFromPrevious,
+          percentile: score.percentile ?? null,
+          assessment_id: score.assessmentId,
+          valid_until: score.validUntil,
+          data: score as any,
+          integrity_hash: score.integrity.scoreHash,
+        },
+      });
+    } catch (err) {
+      logger.debug('[CendiaIISS] DB persist score failed (non-fatal):', err);
+    }
+  }
+
+  private async persistAssessment(assessment: IISSAssessment): Promise<void> {
+    try {
+      await prisma.dcii_iiss_assessments.upsert({
+        where: { id: assessment.id },
+        update: { data: assessment as any, status: assessment.status, completed_at: assessment.completedAt ?? null },
+        create: {
+          id: assessment.id,
+          organization_id: assessment.organizationId,
+          status: assessment.status,
+          initiated_by: assessment.initiatedBy,
+          data: assessment as any,
+          completed_at: assessment.completedAt ?? null,
+        },
+      });
+    } catch (err) {
+      logger.debug('[CendiaIISS] DB persist assessment failed (non-fatal):', err);
+    }
+  }
+
+  private async persistHistory(organizationId: string, entry: IISSHistoryEntry): Promise<void> {
+    try {
+      await prisma.dcii_iiss_history.create({
+        data: {
+          organization_id: organizationId,
+          score: entry.score,
+          band: entry.band,
+          event_type: 'assessment',
+          data: entry as any,
+        },
+      });
+    } catch (err) {
+      logger.debug('[CendiaIISS] DB persist history failed (non-fatal):', err);
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -341,6 +440,7 @@ class IISSService {
       auditTrail: [{ timestamp: new Date(), action: 'assessment_initiated', actor: initiatedBy, details: 'Automated IISS assessment started' }],
     };
     this.assessments.set(assessmentId, assessment);
+    this.persistAssessment(assessment).catch(() => {});
 
     const dimensions = await this.assessDimensions(organizationId);
     const overallScore = this.computeOverallScore(dimensions);
@@ -390,22 +490,26 @@ class IISSService {
     };
 
     this.scores.set(score.id, score);
+    this.persistScore(score).catch(() => {});
 
-    const orgHistory = this.history.get(organizationId) || [];
-    orgHistory.push({
+    const historyEntry: IISSHistoryEntry = {
       assessmentId,
       score: overallScore,
       band,
       calculatedAt: score.calculatedAt,
       dimensions: dimensions.map(d => ({ name: d.name, score: d.normalizedScore })),
-    });
+    };
+    const orgHistory = this.history.get(organizationId) || [];
+    orgHistory.push(historyEntry);
     this.history.set(organizationId, orgHistory);
+    this.persistHistory(organizationId, historyEntry).catch(() => {});
 
     assessment.status = 'completed';
     assessment.completedAt = new Date();
     assessment.expiresAt = score.validUntil;
     assessment.score = score;
     assessment.auditTrail.push({ timestamp: new Date(), action: 'assessment_completed', actor: 'system', details: `Score: ${overallScore}, Band: ${band}` });
+    this.persistAssessment(assessment).catch(() => {});
 
     logger.info(`[CendiaIISS] Score calculated for ${organizationName}: ${overallScore} (${band})`);
     return score;

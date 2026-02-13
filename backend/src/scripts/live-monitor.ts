@@ -1,6 +1,6 @@
 #!/usr/bin/env npx tsx
 /**
- * DATACENDIA LIVE AGENT MONITOR
+ * CendiaPulse™ — LIVE AGENT MONITOR
  * Real-time visualization of agent actions, decisions, and compliance checks
  * 
  * Run: npx tsx src/scripts/live-monitor.ts
@@ -185,7 +185,7 @@ function printHeader(): void {
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ██████╔╝██║  ██║   ██║   ██║  ██║╚██████╗███████╗██║ ╚████║██████╔╝██║██║  ██║                     ${colors.reset}`);
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚══════╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝  ╚═╝                     ${colors.reset}`);
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.brightCyan}${colors.bold}  LIVE AGENT MONITOR                                                              ${now} UTC  ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.brightCyan}${colors.bold}  CendiaPulse™ LIVE AGENT MONITOR                                                              ${now} UTC  ${colors.reset}`);
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
   console.log();
 }

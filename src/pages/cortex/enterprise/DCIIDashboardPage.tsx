@@ -1,5 +1,5 @@
 // =============================================================================
-// DCII DASHBOARD™ — DECISION CRISIS IMMUNIZATION INFRASTRUCTURE
+// CendiaDCII™ — DECISION CRISIS IMMUNIZATION INFRASTRUCTURE
 // The command center for institutional crisis resilience.
 // Visualizes IISS scores, 9 primitives, and all gap-closing modules.
 // =============================================================================
