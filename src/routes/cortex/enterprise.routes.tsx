@@ -126,6 +126,29 @@ const DCIIDashboardPage = lazy(() =>
   import('../../pages/cortex/enterprise/DCIIDashboardPage').then((m) => ({ default: m.default }))
 );
 
+// New DCII Pages
+const NotaryPage = lazy(() =>
+  import('../../pages/cortex/dcii/NotaryPage').then((m) => ({ default: m.NotaryPage }))
+);
+const WitnessPage = lazy(() =>
+  import('../../pages/cortex/dcii/WitnessPage').then((m) => ({ default: m.WitnessPage }))
+);
+const TimestampPage = lazy(() =>
+  import('../../pages/cortex/dcii/TimestampPage').then((m) => ({ default: m.TimestampPage }))
+);
+const SimilarityPage = lazy(() =>
+  import('../../pages/cortex/dcii/SimilarityPage').then((m) => ({ default: m.SimilarityPage }))
+);
+const MemoryPage = lazy(() =>
+  import('../../pages/cortex/dcii/MemoryPage').then((m) => ({ default: m.MemoryPage }))
+);
+const TruthPage = lazy(() =>
+  import('../../pages/cortex/dcii/TruthPage').then((m) => ({ default: m.TruthPage }))
+);
+const StatementOfFactsPage = lazy(() =>
+  import('../../pages/cortex/dcii/StatementOfFactsPage').then((m) => ({ default: m.StatementOfFactsPage }))
+);
+
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
 );
@@ -164,6 +187,15 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'enterprise/post-quantum-kms', element: w(PostQuantumKMSPage) },
   { path: 'enterprise/carbon-aware', element: w(CarbonAwareSchedulerPage) },
   { path: 'enterprise/dcii', element: w(DCIIDashboardPage) },
+
+  // DCII sub-pages
+  { path: 'dcii/notary', element: w(NotaryPage) },
+  { path: 'dcii/witness', element: w(WitnessPage) },
+  { path: 'dcii/timestamp', element: w(TimestampPage) },
+  { path: 'dcii/similarity', element: w(SimilarityPage) },
+  { path: 'dcii/memory', element: w(MemoryPage) },
+  { path: 'dcii/truth', element: w(TruthPage) },
+  { path: 'dcii/statement-of-facts', element: w(StatementOfFactsPage) },
 
   // Governance
   { path: 'governance', element: <Navigate to="/cortex/governance/decision-packets" replace /> },

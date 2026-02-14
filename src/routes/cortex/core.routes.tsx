@@ -55,6 +55,26 @@ const BridgeIntegrationsPage = lazy(() =>
   import('../../pages/cortex/bridge/subpages').then((m) => ({ default: m.BridgeIntegrationsPage }))
 );
 
+// New Council Pages
+const CouncilModesPage = lazy(() =>
+  import('../../pages/cortex/council/CouncilModesPage').then((m) => ({ default: m.CouncilModesPage }))
+);
+const PostDeliberationPanel = lazy(() =>
+  import('../../pages/cortex/council/PostDeliberationPanel').then((m) => ({ default: m.PostDeliberationPanel }))
+);
+const UserInterventionPanel = lazy(() =>
+  import('../../pages/cortex/council/UserInterventionPanel').then((m) => ({ default: m.UserInterventionPanel }))
+);
+const ExecutiveSummaryPage = lazy(() =>
+  import('../../pages/cortex/council/ExecutiveSummaryPage').then((m) => ({ default: m.ExecutiveSummaryPage }))
+);
+const CouncilHistoryPage = lazy(() =>
+  import('../../pages/cortex/council/CouncilHistoryPage').then((m) => ({ default: m.CouncilHistoryPage }))
+);
+const CouncilAnalyticsPage = lazy(() =>
+  import('../../pages/cortex/council/CouncilAnalyticsPage').then((m) => ({ default: m.CouncilAnalyticsPage }))
+);
+
 // WOW Features - Visualization & Replay
 const DeliberationVisualizationPage = lazy(() =>
   import('../../pages/cortex/council/DeliberationVisualizationPage').then((m) => ({ default: m.default }))
@@ -87,6 +107,12 @@ export const cortexCoreRoutes: RouteObject[] = [
   { path: 'decisions', element: w(DecisionsPage) },
   { path: 'council/visualization', element: w(DeliberationVisualizationPage) },
   { path: 'council/replay-theater', element: w(DecisionReplayTheaterPage) },
+  { path: 'council/modes', element: w(CouncilModesPage) },
+  { path: 'council/post-deliberation/:deliberationId?', element: w(PostDeliberationPanel) },
+  { path: 'council/intervene/:deliberationId?', element: w(UserInterventionPanel) },
+  { path: 'council/executive-summary', element: w(ExecutiveSummaryPage) },
+  { path: 'council/history', element: w(CouncilHistoryPage) },
+  { path: 'council/analytics', element: w(CouncilAnalyticsPage) },
 
   // Pulse
   { path: 'pulse', element: w(PulsePage) },
