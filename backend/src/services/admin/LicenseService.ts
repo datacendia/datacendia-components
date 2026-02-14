@@ -18,12 +18,12 @@ export interface License {
   tenantId: string;
   tenantName: string;
   licenseKey: string;
-  type: 'trial' | 'starter' | 'professional' | 'enterprise' | 'sovereign';
+  type: 'pilot' | 'trial' | 'foundation' | 'enterprise' | 'strategic' | 'custom';
   status: 'active' | 'expiring' | 'expired' | 'suspended';
   seats: number;
   seatsUsed: number;
   features: LicenseFeatures;
-  billingCycle: 'monthly' | 'annual';
+  billingCycle: 'annual';
   revenue: number;
   startDate: Date;
   expiresAt: Date;
@@ -59,22 +59,24 @@ class LicenseService {
 
   private mapTypeFromDb(type: LicenseType): License['type'] {
     const mapping: Record<LicenseType, License['type']> = {
+      PILOT: 'pilot',
       TRIAL: 'trial',
-      STARTER: 'starter',
-      PROFESSIONAL: 'professional',
+      FOUNDATION: 'foundation',
       ENTERPRISE: 'enterprise',
-      SOVEREIGN: 'sovereign',
+      STRATEGIC: 'strategic',
+      CUSTOM: 'custom',
     };
     return mapping[type] || 'trial';
   }
 
   private mapTypeToDb(type: License['type']): LicenseType {
     const mapping: Record<License['type'], LicenseType> = {
+      pilot: 'PILOT',
       trial: 'TRIAL',
-      starter: 'STARTER',
-      professional: 'PROFESSIONAL',
+      foundation: 'FOUNDATION',
       enterprise: 'ENTERPRISE',
-      sovereign: 'SOVEREIGN',
+      strategic: 'STRATEGIC',
+      custom: 'CUSTOM',
     };
     return mapping[type] || 'TRIAL';
   }
@@ -124,7 +126,7 @@ class LicenseService {
       seats: dbLicense.seats,
       seatsUsed: dbLicense.seats_used,
       features: Array.isArray(features) ? this.getFeaturesForType(this.mapTypeFromDb(dbLicense.type)) : features,
-      billingCycle: dbLicense.billing_cycle === 'ANNUAL' ? 'annual' : 'monthly',
+      billingCycle: 'annual',
       revenue: Number(dbLicense.revenue) || 0,
       startDate: dbLicense.start_date,
       expiresAt: dbLicense.expires_at,
@@ -145,9 +147,22 @@ class LicenseService {
 
   private getFeaturesForType(type: string): LicenseFeatures {
     const features: Record<string, LicenseFeatures> = {
+      pilot: {
+        pillars: ['council', 'decide', 'dcii'],
+        agents: 15,
+        maxUsers: 25,
+        maxDeliberationsPerMonth: 100,
+        apiAccess: true,
+        ssoEnabled: false,
+        customBranding: false,
+        prioritySupport: false,
+        dedicatedSuccess: false,
+        customIntegrations: false,
+        advancedAnalytics: false,
+      },
       trial: {
-        pillars: ['helm', 'lineage', 'predict'],
-        agents: 3,
+        pillars: ['council', 'decide', 'dcii'],
+        agents: 15,
         maxUsers: 25,
         maxDeliberationsPerMonth: 50,
         apiAccess: false,
@@ -159,36 +174,23 @@ class LicenseService {
         advancedAnalytics: false,
       },
       foundation: {
-        pillars: ['helm', 'lineage', 'predict', 'flow'],
-        agents: 5,
-        maxUsers: 50,
-        maxDeliberationsPerMonth: 200,
+        pillars: ['council', 'decide', 'dcii'],
+        agents: 15,
+        maxUsers: 100,
+        maxDeliberationsPerMonth: 1000,
         apiAccess: true,
         ssoEnabled: false,
         customBranding: false,
-        prioritySupport: false,
-        dedicatedSuccess: false,
-        customIntegrations: false,
-        advancedAnalytics: false,
-      },
-      intelligence: {
-        pillars: ['helm', 'lineage', 'predict', 'flow', 'health', 'guard'],
-        agents: 8,
-        maxUsers: 100,
-        maxDeliberationsPerMonth: 500,
-        apiAccess: true,
-        ssoEnabled: false,
-        customBranding: true,
         prioritySupport: true,
         dedicatedSuccess: false,
         customIntegrations: false,
         advancedAnalytics: true,
       },
-      governance: {
-        pillars: ['helm', 'lineage', 'predict', 'flow', 'health', 'guard', 'ethics'],
-        agents: 12,
-        maxUsers: 200,
-        maxDeliberationsPerMonth: 1000,
+      enterprise: {
+        pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate'],
+        agents: 50,
+        maxUsers: 500,
+        maxDeliberationsPerMonth: -1, // Unlimited
         apiAccess: true,
         ssoEnabled: true,
         customBranding: true,
@@ -197,10 +199,23 @@ class LicenseService {
         customIntegrations: true,
         advancedAnalytics: true,
       },
-      sovereign: {
-        pillars: ['helm', 'lineage', 'predict', 'flow', 'health', 'guard', 'ethics', 'agents'],
-        agents: 26,
-        maxUsers: 500,
+      strategic: {
+        pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate', 'collapse', 'sgas', 'verticals', 'frontier'],
+        agents: -1, // Unlimited
+        maxUsers: -1, // Unlimited
+        maxDeliberationsPerMonth: -1, // Unlimited
+        apiAccess: true,
+        ssoEnabled: true,
+        customBranding: true,
+        prioritySupport: true,
+        dedicatedSuccess: true,
+        customIntegrations: true,
+        advancedAnalytics: true,
+      },
+      custom: {
+        pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate', 'collapse', 'sgas', 'verticals', 'frontier'],
+        agents: -1, // Unlimited
+        maxUsers: -1, // Unlimited
         maxDeliberationsPerMonth: -1, // Unlimited
         apiAccess: true,
         ssoEnabled: true,
@@ -225,7 +240,6 @@ class LicenseService {
     durationMonths: number;
     seats?: number;
     autoRenew?: boolean;
-    billingCycle?: 'monthly' | 'annual';
     notes?: string;
   }): Promise<License> {
     try {
@@ -235,7 +249,7 @@ class LicenseService {
 
       const features = this.getFeaturesForType(data.type);
       const licenseKey = this.generateLicenseKey(data.type);
-      const revenue = this.getRevenue(data.type, data.billingCycle || 'monthly');
+      const revenue = this.getRevenue(data.type);
 
       const dbLicense = await prisma.licenses.create({
         data: {
@@ -243,10 +257,10 @@ class LicenseService {
           license_key: licenseKey,
           type: this.mapTypeToDb(data.type),
           status: 'ACTIVE',
-          seats: data.seats || features.maxUsers,
+          seats: data.seats || (features.maxUsers === -1 ? 9999 : features.maxUsers),
           seats_used: 0,
           features: features as any,
-          billing_cycle: data.billingCycle === 'annual' ? 'ANNUAL' : 'MONTHLY',
+          billing_cycle: 'ANNUAL',
           revenue,
           start_date: now,
           expires_at: expiresAt,
@@ -263,16 +277,17 @@ class LicenseService {
     }
   }
 
-  private getRevenue(type: string, cycle: 'monthly' | 'annual'): number {
-    const monthlyPrices: Record<string, number> = {
+  private getRevenue(type: string): number {
+    // Annual enterprise licensing — not SaaS
+    const annualPrices: Record<string, number> = {
+      pilot: 50000,
       trial: 0,
-      starter: 499,
-      professional: 1499,
-      enterprise: 3999,
-      sovereign: 9999,
+      foundation: 150000,
+      enterprise: 500000,
+      strategic: 2000000,
+      custom: 0, // Negotiated
     };
-    const monthly = monthlyPrices[type] || 0;
-    return cycle === 'annual' ? monthly * 10 : monthly; // 2 months free for annual
+    return annualPrices[type] || 0;
   }
 
   async getLicense(licenseId: string): Promise<License | null> {

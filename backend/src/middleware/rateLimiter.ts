@@ -1,16 +1,16 @@
 /**
  * Rate Limiting Middleware for Datacendia API
  * 
- * Implements per-tier API rate limits:
- * - Free: 100 requests/hour
- * - Pro: 1,000 requests/hour
- * - Enterprise: 10,000 requests/hour
- * - Sovereign: Unlimited (fair use policy)
+ * 3-Tier Architecture rate limits:
+ * - Pilot:       1,000 requests/hour
+ * - Foundation:  10,000 requests/hour
+ * - Enterprise:  100,000 requests/hour
+ * - Strategic:   Unlimited (fair use policy)
+ * - Custom:      Unlimited (fair use policy)
  */
 
 import { Request, Response, NextFunction } from 'express';
-
-export type SubscriptionTier = 'free' | 'pro' | 'enterprise' | 'sovereign';
+import type { SubscriptionTier } from '../core/subscriptions/SubscriptionTiers.js';
 
 interface RateLimitConfig {
   windowMs: number;
@@ -27,27 +27,33 @@ interface RateLimitEntry {
 }
 
 const TIER_LIMITS: Record<SubscriptionTier, RateLimitConfig> = {
-  free: {
+  pilot: {
     windowMs: 60 * 60 * 1000, // 1 hour
-    maxRequests: 100,
-    burstLimit: 10, // 10 requests per minute
-    message: 'Rate limit exceeded. Upgrade to Pro for higher limits.',
-  },
-  pro: {
-    windowMs: 60 * 60 * 1000,
     maxRequests: 1000,
-    burstLimit: 50,
+    burstLimit: 20,
+    message: 'Rate limit exceeded. Upgrade to Foundation for higher limits.',
+  },
+  foundation: {
+    windowMs: 60 * 60 * 1000,
+    maxRequests: 10000,
+    burstLimit: 100,
     message: 'Rate limit exceeded. Upgrade to Enterprise for higher limits.',
   },
   enterprise: {
     windowMs: 60 * 60 * 1000,
-    maxRequests: 10000,
-    burstLimit: 200,
+    maxRequests: 100000,
+    burstLimit: 500,
     message: 'Rate limit exceeded. Contact support for limit increase.',
   },
-  sovereign: {
+  strategic: {
     windowMs: 60 * 60 * 1000,
-    maxRequests: Infinity, // Unlimited
+    maxRequests: Infinity,
+    burstLimit: 1000,
+    message: 'Burst limit exceeded. Please reduce request frequency.',
+  },
+  custom: {
+    windowMs: 60 * 60 * 1000,
+    maxRequests: Infinity,
     burstLimit: 1000,
     message: 'Burst limit exceeded. Please reduce request frequency.',
   },
@@ -72,7 +78,7 @@ setInterval(() => {
 function getUserTier(req: Request): SubscriptionTier {
   // In production, this would come from JWT token or database lookup
   const user = (req as any).user;
-  return user?.tier || 'free';
+  return user?.tier || 'pilot';
 }
 
 /**
@@ -217,7 +223,7 @@ export function getRateLimitStatus(userId: string): {
 } {
   const key = `user:${userId}`;
   const entry = rateLimitStore.get(key);
-  const tier: SubscriptionTier = 'pro'; // Would be looked up from user record
+  const tier: SubscriptionTier = 'foundation'; // Would be looked up from user record
   const config = TIER_LIMITS[tier];
 
   return {

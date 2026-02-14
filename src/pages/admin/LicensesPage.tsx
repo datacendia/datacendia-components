@@ -130,7 +130,7 @@ function getMockLicenses(): License[] {
       key: 'DC-PRO-TECH-2024-YYYY',
       tenantId: 't2',
       tenantName: 'TechStart Inc',
-      type: 'professional',
+      type: 'foundation',
       status: 'active',
       seats: 100,
       seatsUsed: 45,
@@ -146,7 +146,7 @@ function getMockLicenses(): License[] {
       key: 'DC-SOV-GFIN-2023-ZZZZ',
       tenantId: 't3',
       tenantName: 'Global Finance Group',
-      type: 'sovereign',
+      type: 'strategic',
       status: 'active',
       seats: 1000,
       seatsUsed: 320,
@@ -171,7 +171,7 @@ function getMockLicenses(): License[] {
       expiresAt: '2025-01-31T08:00:00Z',
       lastValidatedAt: new Date().toISOString(),
       revenue: 0,
-      billingCycle: 'monthly',
+      billingCycle: 'annual',
     },
     {
       id: 'lic-005',
@@ -194,7 +194,7 @@ function getMockLicenses(): License[] {
       key: 'DC-PRO-RETL-2024-CCCC',
       tenantId: 't6',
       tenantName: 'RetailMax',
-      type: 'professional',
+      type: 'foundation',
       status: 'expired',
       seats: 50,
       seatsUsed: 32,
@@ -214,7 +214,7 @@ function getDefaultMetrics(): LicenseMetrics {
     active: 110,
     expiring: 8,
     expired: 9,
-    byType: { trial: 15, starter: 25, professional: 45, enterprise: 35, sovereign: 7 },
+    byType: { pilot: 15, foundation: 32, enterprise: 45, strategic: 28, custom: 7 },
     totalRevenue: 8420000,
     mrr: 702000,
     arr: 8424000,
@@ -249,14 +249,12 @@ const StatusBadge: React.FC<{ status: License['status'] }> = ({ status }) => {
 const TypeBadge: React.FC<{ type: License['type'] }> = ({ type }) => {
   const typeLower = (type || 'trial').toLowerCase();
   const configs: Record<string, { bg: string; text: string }> = {
-    trial: { bg: 'bg-neutral-700', text: 'text-neutral-300' },
-    starter: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
-    professional: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
-    enterprise: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
-    sovereign: { bg: 'bg-gradient-to-r from-amber-600 to-orange-600', text: 'text-white' },
+    pilot: { bg: 'bg-neutral-700', text: 'text-neutral-300' },
+    trial: { bg: 'bg-cyan-900/50', text: 'text-cyan-300' },
     foundation: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
-    intelligence: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
-    governance: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
+    enterprise: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
+    strategic: { bg: 'bg-gradient-to-r from-amber-600 to-orange-600', text: 'text-white' },
+    custom: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
   };
   const config = configs[typeLower] || configs.trial;
 
@@ -495,11 +493,12 @@ export const LicensesPage: React.FC = () => {
             className="px-3 py-2 bg-neutral-900 border border-neutral-600 rounded-lg text-white focus:outline-none focus:border-amber-500"
           >
             <option value="all">All Types</option>
+            <option value="pilot">Pilot</option>
             <option value="trial">Trial</option>
-            <option value="starter">Starter</option>
-            <option value="professional">Professional</option>
+            <option value="foundation">Foundation</option>
             <option value="enterprise">Enterprise</option>
-            <option value="sovereign">Sovereign</option>
+            <option value="strategic">Strategic</option>
+            <option value="custom">Custom</option>
           </select>
         </div>
 

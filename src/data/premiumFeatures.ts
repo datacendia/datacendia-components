@@ -1,9 +1,15 @@
 // =============================================================================
-// PREMIUM FEATURES & TIERS FOR AI COUNCIL
-// Simplified 3-Tier Structure: Free → Pro → Enterprise
+// DATACENDIA PLATFORM — TIER & FEATURE DEFINITIONS (Frontend)
+// 3-Tier Architecture: Foundation → Enterprise → Strategic
+// Sovereign-first enterprise software. Not SaaS. Annual licenses.
 // =============================================================================
 
-export type PremiumTier = 'free' | 'pro' | 'enterprise';
+export type PremiumTier = 'pilot' | 'foundation' | 'enterprise' | 'strategic';
+
+export type PillarId =
+  | 'council' | 'decide' | 'dcii'
+  | 'stress_test' | 'comply' | 'govern' | 'sovereign' | 'operate'
+  | 'collapse' | 'sgas' | 'verticals' | 'frontier';
 
 export interface PremiumFeature {
   id: string;
@@ -11,8 +17,7 @@ export interface PremiumFeature {
   description: string;
   icon: string;
   tier: PremiumTier;
-  price: number; // Monthly price in USD
-  annualDiscount: number; // Percentage off for annual
+  pillar: PillarId;
   features: string[];
   agentIntegration: string;
   comingSoon?: boolean;
@@ -24,431 +29,316 @@ export interface PremiumBundle {
   description: string;
   icon: string;
   tier: PremiumTier;
-  price: number;
-  annualDiscount: number;
-  includedFeatures: string[]; // Feature IDs
-  savings: number; // Compared to buying separately
+  pillars: PillarId[];
+  annualPricing: string;
+  includedFeatures: string[];
   popular?: boolean;
-  enterprise?: boolean;
 }
 
 // =============================================================================
-// SIMPLIFIED TIER DEFINITIONS
+// 3-TIER DEFINITIONS
 // =============================================================================
 export const PREMIUM_TIERS: Record<
   PremiumTier,
-  { name: string; color: string; bgGradient: string; icon: string; price: number; agents: number }
+  { name: string; color: string; bgGradient: string; icon: string; annualPricing: string; tagline: string; pillarCount: number }
 > = {
-  free: {
-    name: 'Free',
+  pilot: {
+    name: 'DCII Pilot',
     color: '#6B7280',
     bgGradient: 'from-gray-500 to-slate-600',
-    icon: '🆓',
-    price: 0,
-    agents: 15, // Core C-Suite + Devil's Advocate
+    icon: '🧪',
+    annualPricing: '$50,000 (90 days)',
+    tagline: 'Evaluate the full Foundation tier for 90 days',
+    pillarCount: 3,
   },
-  pro: {
-    name: 'Pro',
-    color: '#8B5CF6',
-    bgGradient: 'from-purple-500 to-indigo-600',
-    icon: '⚡',
-    price: 99,
-    agents: 25, // +10 Pro agents
+  foundation: {
+    name: 'Foundation',
+    color: '#3B82F6',
+    bgGradient: 'from-blue-500 to-indigo-600',
+    icon: '🏛️',
+    annualPricing: '$150,000–$500,000/year',
+    tagline: 'Make decisions → Understand them → Prove them',
+    pillarCount: 3,
   },
   enterprise: {
     name: 'Enterprise',
+    color: '#8B5CF6',
+    bgGradient: 'from-purple-500 to-violet-600',
+    icon: '⚡',
+    annualPricing: '$500,000–$1,500,000/year',
+    tagline: 'Harden, automate, and scale across the entire organization',
+    pillarCount: 8,
+  },
+  strategic: {
+    name: 'Strategic',
     color: '#F59E0B',
     bgGradient: 'from-amber-500 to-orange-600',
     icon: '👑',
-    price: 299,
-    agents: 40, // +15 Industry specialists + Custom Builder
+    annualPricing: '$2M–$100M+/year',
+    tagline: 'From enterprise tool to strategic weapon',
+    pillarCount: 12,
   },
 };
 
 // =============================================================================
-// INDIVIDUAL PREMIUM FEATURES
+// PILLAR-BASED FEATURES — organized by tier and pillar
 // =============================================================================
 export const PREMIUM_FEATURES: PremiumFeature[] = [
-  // ===== STANDARD TIER ($99-199) =====
+  // ===== TIER 1: FOUNDATION — Council + DECIDE + DCII =====
   {
-    id: 'export-reporting',
-    name: 'Export & Reporting Pack',
-    description: 'Professional document export with branded templates',
-    icon: '📄',
-    tier: 'pro',
-    price: 99,
-    annualDiscount: 20,
+    id: 'the-council',
+    name: 'THE COUNCIL',
+    description: 'Multi-agent AI deliberation system — the engine that produces decisions',
+    icon: '🧠',
+    tier: 'foundation',
+    pillar: 'council',
     features: [
-      'Export to PDF, Word, PowerPoint',
-      'Professional executive summary formatting',
-      'Branded report templates',
-      'Agent response sections',
-      'Cross-examination summaries',
-      'Scheduled report generation',
+      '15 Core C-Suite Agents (CFO, CTO, CISO, CLO, COO, CMO, etc.)',
+      'Premium Agent Packs (Healthcare, Finance, Legal, Audit)',
+      'CendiaVeto™ Agents — 6 agents with blocking power',
+      'CendiaUnion™ Agents — worker representation voices',
+      'PersonaForge™ — create custom agents',
+      '35+ Council Modes (War Room, Crisis, Due Diligence, etc.)',
+      'CendiaLive™ — watch agents debate in real-time',
+      'CendiaReplay™ — rewatch past deliberations',
     ],
-    agentIntegration:
-      'Each agent response becomes a formatted report section with professional attribution',
+    agentIntegration: '15 C-Suite agents debate decisions with cross-examination, veto powers, and real-time visualization',
   },
   {
-    id: 'analytics-insights',
-    name: 'Analytics & Insights Pack',
-    description: 'Deep analytics on council decisions and agent performance',
-    icon: '📊',
-    tier: 'pro',
-    price: 149,
-    annualDiscount: 20,
+    id: 'decide',
+    name: 'DECIDE',
+    description: 'Intelligence about every decision — before, during, and after',
+    icon: '🔍',
+    tier: 'foundation',
+    pillar: 'decide',
     features: [
-      'Decision history dashboard',
-      'Agent consultation frequency',
-      'Confidence score trends',
-      'Agent agreement/disagreement rates',
-      'Topic clustering analysis',
-      'Expertise gap detection',
+      'CendiaChronos™ — time machine, replay & fork decisions',
+      'CendiaPreMortem™ — predict why decisions will fail',
+      'Ghost Board™ — rehearse against tough AI directors',
+      'Decision Debt™ — cost of NOT deciding ($/day)',
+      'CendiaEcho™ — track outcomes vs. predictions',
+      'CendiaCascade™ — second/third-order consequences',
+      'What-If Scenarios — model multiple futures',
+      'Consensus Builder — multi-stakeholder alignment',
     ],
-    agentIntegration:
-      'Tracks agent usage patterns, measures agreement rates, identifies when no agent addressed a topic',
+    agentIntegration: 'The intelligence layer adds depth to every Council deliberation with predictive analytics and outcome tracking',
   },
   {
-    id: 'custom-modes',
-    name: 'Custom Council Modes',
-    description: 'Design your own council modes with custom behaviors',
-    icon: '🎯',
-    tier: 'pro',
-    price: 179,
-    annualDiscount: 20,
+    id: 'dcii',
+    name: 'DCII — Decision Crisis Immunization Infrastructure',
+    description: 'Prove decisions survive scrutiny — the 9 primitives + cryptographic proof',
+    icon: '💥',
+    tier: 'foundation',
+    pillar: 'dcii',
     features: [
-      'Create unlimited custom modes',
-      'Define default agent selections',
-      'Set agent behavior overrides',
-      'Custom prime directives',
-      'Agent speaking order control',
-      'Mode-specific agent prompts',
-      'Share modes with team',
+      '9 Decision Primitives (P1-P9)',
+      'CendiaVault™ — immutable evidence storage',
+      'CendiaNotary™ — customer-owned key signing',
+      'CendiaIISS™ — 0-1000 institutional resilience score',
+      "Regulator's Receipt™ — one-click court-admissible PDF",
+      'CendiaBiasMitigation™ — 12 cognitive bias types tested',
+      'CendiaJurisdiction™ — 17 jurisdictions',
+      'Decision Packets — cryptographically signed outputs',
     ],
-    agentIntegration:
-      'Customize which agents auto-select, their priority order, and behavior for each mode',
-  },
-  {
-    id: 'agent-builder',
-    name: 'Agent Builder Pack',
-    description: 'Create unlimited custom AI agents',
-    icon: '✨',
-    tier: 'pro',
-    price: 199,
-    annualDiscount: 20,
-    features: [
-      'Unlimited custom agents',
-      'Custom avatars & colors',
-      'Define expertise & system prompts',
-      'Set agent capabilities',
-      'Edit & delete anytime',
-      'Persistent storage',
-    ],
-    agentIntegration:
-      'Build agents with specialized expertise that participate alongside standard council members',
-  },
-  {
-    id: 'document-analysis',
-    name: 'Document Analysis Pack',
-    description: 'Upload documents for council analysis',
-    icon: '📁',
-    tier: 'pro',
-    price: 199,
-    annualDiscount: 20,
-    features: [
-      'Upload PDFs, spreadsheets, contracts',
-      'Agents analyze document content',
-      'Extract domain-specific insights',
-      'Multi-document comparison',
-      'Document-referenced cross-examination',
-      'OCR for scanned documents',
-    ],
-    agentIntegration:
-      'Agents receive document context - CFO analyzes financials, CLO reviews contracts, etc.',
+    agentIntegration: 'Every Council decision gets cryptographic proof infrastructure — when regulators challenge you, DCII is what you show them',
   },
 
-  // ===== PROFESSIONAL TIER ($249-349) =====
+  // ===== TIER 2: ENTERPRISE — StressTest, Comply, Govern, Sovereign, Operate =====
   {
-    id: 'team-collaboration',
-    name: 'Team Collaboration Pack',
-    description: 'Multi-user access with roles and sharing',
-    icon: '👥',
+    id: 'stress-test',
+    name: 'STRESS-TEST',
+    description: 'Attack decisions before reality does',
+    icon: '⚡',
     tier: 'enterprise',
-    price: 249,
-    annualDiscount: 25,
+    pillar: 'stress_test',
     features: [
-      'Up to 10 team members',
-      'Role-based access control',
-      'Shared deliberation workspaces',
-      'Comment threads on decisions',
-      '@mentions and assignments',
-      'Team voting on recommendations',
-      'Activity feed',
+      'CendiaCrucible™ — enterprise red-teaming',
+      'CendiaRedTeam™ — 8 adversarial perspectives',
+      'War Games — competitive scenario modeling',
+      'SCGE — Synthetic Crisis Governance Engine',
+      'Monte Carlo Engine — thousands of simulations',
+      'Runtime Security — live monitoring',
+      'SBOM Service — supply chain security',
     ],
-    agentIntegration:
-      'Assign agent responses to team members, vote on which agent advice to follow',
+    agentIntegration: 'Red-team agents attack every Council decision before it ships',
   },
   {
-    id: 'audit-excellence',
-    name: 'Audit Excellence Pack',
-    description: 'External & Internal Auditor agents',
-    icon: '🔎',
+    id: 'comply',
+    name: 'COMPLY',
+    description: 'Stay legal everywhere, automatically',
+    icon: '✅',
     tier: 'enterprise',
-    price: 299,
-    annualDiscount: 25,
+    pillar: 'comply',
     features: [
-      'External Auditor agent',
-      'Internal Auditor agent',
-      'Financial audit analysis',
-      'Compliance verification',
-      'Control testing expertise',
-      'Fraud detection capabilities',
-      'SOX compliance support',
+      'CendiaPanopticon™ — real-time regulatory radar',
+      'Regulatory Absorb™ V2 — AI learns 500-page regs in 60s',
+      'Compliance Monitor — always-on drift detection',
+      '10 Compliance Frameworks (SOC2, GDPR, HIPAA, etc.)',
+      'Cross-Jurisdiction Engine — 17 jurisdictions',
+      'CendiaSandbox™ — test against PROPOSED regulations',
+      'CendiaInsure™ — per-decision liability coverage',
     ],
-    agentIntegration:
-      'Two specialized auditor agents join your council for compliance and financial oversight',
+    agentIntegration: 'Compliance agents validate every Council decision against active regulations in real-time',
   },
   {
-    id: 'api-access',
-    name: 'API Access Pack',
-    description: 'Programmatic access and integrations',
-    icon: '🔗',
-    tier: 'enterprise',
-    price: 299,
-    annualDiscount: 25,
-    features: [
-      'Full REST API access',
-      'Query specific agents programmatically',
-      'Webhook notifications',
-      'Slack & Teams integration',
-      'Zapier/Make connectivity',
-      '10,000 API calls/month',
-      'Batch processing',
-    ],
-    agentIntegration:
-      'Query agents via API: POST /api/deliberate { agents: ["cfo", "cto"], question: "..." }',
-  },
-  {
-    id: 'compliance-audit',
-    name: 'Compliance & Audit Trail',
-    description: 'Full audit logging for regulatory compliance',
-    icon: '🔒',
-    tier: 'enterprise',
-    price: 349,
-    annualDiscount: 25,
-    features: [
-      'Complete audit log',
-      'Agent consultation timestamps',
-      'User action tracking',
-      'Response version history',
-      'Override tracking',
-      'Data retention policies',
-      'GDPR compliance tools',
-      'Export audit reports',
-    ],
-    agentIntegration:
-      'Logs every agent queried, by whom, when, and tracks if advice was followed or overridden',
-  },
-
-  // ===== ENTERPRISE TIER ($399-599) =====
-  {
-    id: 'healthcare-pack',
-    name: 'Healthcare Industry Pack',
-    description: 'Specialized healthcare AI agents',
-    icon: '🏥',
-    tier: 'enterprise',
-    price: 399,
-    annualDiscount: 30,
-    features: [
-      'Chief Medical Information Officer (CMIO)',
-      'Patient Safety Officer',
-      'Healthcare Compliance Officer',
-      'Clinical Operations Director',
-      'HIPAA compliance expertise',
-      'Clinical workflow analysis',
-      'Patient outcome optimization',
-    ],
-    agentIntegration:
-      '4 healthcare-specialized agents that understand clinical operations, HIPAA, and patient safety',
-  },
-  {
-    id: 'finance-pack',
-    name: 'Finance Industry Pack',
-    description: 'Specialized financial services AI agents',
-    icon: '💰',
-    tier: 'enterprise',
-    price: 399,
-    annualDiscount: 30,
-    features: [
-      'Quantitative Analyst',
-      'Portfolio Manager',
-      'Credit Risk Officer',
-      'Treasury Analyst',
-      'SEC/FINRA compliance',
-      'Risk modeling expertise',
-      'Market analysis capabilities',
-    ],
-    agentIntegration:
-      '4 finance-specialized agents for investment analysis, risk modeling, and regulatory compliance',
-  },
-  {
-    id: 'legal-pack',
-    name: 'Legal Industry Pack',
-    description: 'Specialized legal AI agents',
+    id: 'govern',
+    name: 'GOVERN',
+    description: 'Rules, oversight, and accountability',
     icon: '⚖️',
     tier: 'enterprise',
-    price: 399,
-    annualDiscount: 30,
+    pillar: 'govern',
     features: [
-      'Contract Specialist',
-      'Intellectual Property Counsel',
-      'Litigation Expert',
-      'Regulatory Affairs Counsel',
-      'Contract clause analysis',
-      'Patent/trademark expertise',
-      'Legal risk assessment',
+      'CendiaGovern™ — policy management, RBAC',
+      'CendiaCourt™ — AI dispute resolution',
+      'CendiaDissent™ — protected whistleblower channels',
+      'CendiaAutopilot™ — autonomous AI + human-in-the-loop',
+      'Logic Gate — auto approve/block rules engine',
+      'Real-Time Policy Enforcement',
     ],
-    agentIntegration:
-      '4 legal-specialized agents for contracts, IP, litigation strategy, and regulatory matters',
+    agentIntegration: 'Governance agents enforce policies and track accountability across all Council decisions',
   },
   {
-    id: 'unlimited-team',
-    name: 'Unlimited Team Pack',
-    description: 'Unlimited users with advanced permissions',
-    icon: '🏢',
+    id: 'sovereign',
+    name: 'SOVEREIGN',
+    description: 'Your infrastructure, your keys, your proof',
+    icon: '🔒',
     tier: 'enterprise',
-    price: 499,
-    annualDiscount: 30,
+    pillar: 'sovereign',
     features: [
-      'Unlimited team members',
-      'SSO/SAML integration',
-      'Advanced role permissions',
-      'Department-based access',
-      'Custom approval workflows',
-      'Org-wide analytics',
-      'Priority support',
+      '21 Sovereign Patterns (Data Diode, Shadow Council, etc.)',
+      'Post-Quantum KMS (Dilithium, SPHINCS+, Falcon)',
+      'CendiaBlackBox™ — sealed decision recording',
+      'Federated Mesh — multi-org without sharing data',
+      'Local RLHF — on-prem AI training',
+      'CAC/PIV Auth — military smart card',
+      'Air-gapped deployment options',
     ],
-    agentIntegration:
-      'Enterprise-wide agent access with department-specific permissions and approval workflows',
+    agentIntegration: 'Council runs on customer-owned infrastructure with full data sovereignty',
   },
   {
-    id: 'white-label',
-    name: 'White Label & Branding',
-    description: 'Custom branding and white-label deployment',
-    icon: '🎨',
+    id: 'operate',
+    name: 'CendiaOps™',
+    description: 'AI co-pilots for every department',
+    icon: '�',
     tier: 'enterprise',
-    price: 599,
-    annualDiscount: 30,
+    pillar: 'operate',
     features: [
-      'Custom logo & branding',
-      'Custom domain support',
-      'Remove Datacendia branding',
-      'Custom agent avatars',
-      'Branded email notifications',
-      'Custom color themes',
-      'Embed in your product',
+      '19 Department Co-Pilots (Brand, Revenue, Support, Legal, etc.)',
+      'CendiaOmniTranslate™ — 100+ languages',
+      'CendiaApotheosis™ — nightly AI self-improvement',
+      'CendiaAutoHeal — self-diagnosing debugging',
+      'CendiaPulse — mission control dashboard',
+      'CendiaCommand — CLI platform management',
     ],
-    agentIntegration: 'Your brand, your agents - present the council as your own product',
+    agentIntegration: 'Department co-pilots extend Council intelligence to every corner of the organization',
+  },
+
+  // ===== TIER 3: STRATEGIC — Collapse, SGAS, Verticals, Frontier =====
+  {
+    id: 'collapse',
+    name: 'RESILIENCE',
+    description: 'Institutional survival systems — collapse simulation, recovery, century-grade preservation',
+    icon: '🛡️',
+    tier: 'strategic',
+    pillar: 'collapse',
+    features: [
+      'COLLAPSE Simulation — 18 agents, 7 societal failure domains',
+      'CendiaPhoenix™ — institutional recovery playbooks',
+      'CendiaEternal™ — century-grade knowledge preservation',
+      'CendiaHorizon™ — generational strategic forecasting',
+      'Succession Engine — leadership transition immunity',
+      'Institutional Memory Architecture',
+    ],
+    agentIntegration: 'Resilience agents ensure Council decisions protect against institutional collapse and enable recovery',
   },
   {
-    id: 'dedicated-models',
-    name: 'Dedicated AI Models',
-    description: 'Private LLM instances with fine-tuning',
-    icon: '🤖',
-    tier: 'enterprise',
-    price: 999,
-    annualDiscount: 30,
+    id: 'sgas',
+    name: 'MODEL',
+    description: 'Understand society before you act on it — population modeling, stakeholder voice, policy simulation',
+    icon: '🌐',
+    tier: 'strategic',
+    pillar: 'sgas',
     features: [
-      'Dedicated Ollama instances',
-      'Fine-tuned models on your data',
-      'Custom model training',
-      'No shared resources',
-      'Priority GPU allocation',
-      'Model version control',
-      '99.9% SLA guarantee',
+      'SGAS Population Modeling — 5 agent classes at societal scale',
+      'CendiaVox™ — give voice to affected populations',
+      'CendiaNarratives™ — model how decisions change public discourse',
+      'Synthetic Population Engine — demographic impact simulation',
+      'Policy Impact Simulator — test regulations before they launch',
     ],
-    agentIntegration:
-      'Agents run on dedicated, fine-tuned models trained specifically on your industry and data',
+    agentIntegration: 'Modeling agents simulate societal-scale impacts before Council decisions affect populations',
+  },
+  {
+    id: 'verticals',
+    name: 'DOMINATE',
+    description: 'Own your industry — 8 deep verticals with 48+ modes each',
+    icon: '🏆',
+    tier: 'strategic',
+    pillar: 'verticals',
+    features: [
+      'Legal Vertical — 14 agents, 48 modes, CourtListener, SCOTUS integration',
+      'Healthcare Vertical — clinical, pharma, biotech governance',
+      'Finance Vertical — Basel IV, trade surveillance, portfolio stress-testing',
+      'Sports Vertical — FFP, UEFA/FIFA governance, transfer analytics',
+      'Energy, Defense, Government, Insurance verticals',
+      'CendiaMesh™ M&A — multi-entity governance fusion',
+      'CendiaGlass™ AR — decision augmented reality overlay',
+    ],
+    agentIntegration: 'Industry-specific agents with deep domain knowledge, compliance frameworks, and defensible outputs',
+  },
+  {
+    id: 'frontier',
+    name: 'NATION',
+    description: 'Governance at national scale — policy modeling, multi-agency coordination, sovereign infrastructure',
+    icon: '🌍',
+    tier: 'strategic',
+    pillar: 'frontier',
+    features: [
+      'CendiaNation™ — national economic OS',
+      'National Compliance Framework — multi-agency regulatory coordination',
+      'Multi-Agency Coordination — cross-department governance',
+      'Sovereign National Infrastructure — government-grade deployment',
+      'CendiaOmniShield™ — national cyber-defence grid',
+      'CendiaMarketSovereign™ — central bank governance brain',
+    ],
+    agentIntegration: 'Nation-scale agents for governments, central banks, and civilization-scale governance actors',
   },
 ];
 
 // =============================================================================
-// PREMIUM BUNDLES (Discounted combinations)
+// TIER BUNDLES — each tier is a bundle of pillars
 // =============================================================================
 export const PREMIUM_BUNDLES: PremiumBundle[] = [
   {
-    id: 'starter-bundle',
-    name: 'Starter Bundle',
-    description: 'Essential premium features to supercharge your council',
-    icon: '🚀',
-    tier: 'pro',
-    price: 299,
-    annualDiscount: 25,
-    includedFeatures: ['export-reporting', 'analytics-insights'],
-    savings: 49, // $99 + $149 = $248, but bundled at $299... wait that's more. Let me fix
+    id: 'foundation-bundle',
+    name: 'Foundation License',
+    description: 'Make decisions, understand them, prove them. The minimum viable platform.',
+    icon: '🏛️',
+    tier: 'foundation',
+    pillars: ['council', 'decide', 'dcii'],
+    annualPricing: '$150,000–$500,000/year',
+    includedFeatures: ['the-council', 'decide', 'dcii'],
     popular: true,
   },
   {
-    id: 'creator-bundle',
-    name: 'Creator Bundle',
-    description: 'Full customization: custom agents and custom modes',
-    icon: '🎨',
-    tier: 'pro',
-    price: 299,
-    annualDiscount: 25,
-    includedFeatures: ['agent-builder', 'custom-modes'],
-    savings: 79, // $199 + $179 = $378, bundled at $299 = $79 savings
-  },
-  {
-    id: 'professional-bundle',
-    name: 'Professional Bundle',
-    description: 'Everything a growing team needs',
-    icon: '💼',
+    id: 'enterprise-bundle',
+    name: 'Enterprise License',
+    description: 'Harden, automate, and scale. Everything in Foundation plus 5 enterprise pillars.',
+    icon: '⚡',
     tier: 'enterprise',
-    price: 699,
-    annualDiscount: 30,
-    includedFeatures: ['team-collaboration', 'api-access', 'compliance-audit', 'audit-excellence'],
-    savings: 497, // $249+$299+$349+$299 = $1196, bundled at $699
+    pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate'],
+    annualPricing: '$500,000–$1,500,000/year',
+    includedFeatures: ['the-council', 'decide', 'dcii', 'stress-test', 'comply', 'govern', 'sovereign', 'operate'],
     popular: true,
   },
   {
-    id: 'industry-bundle',
-    name: 'Industry Expert Bundle',
-    description: 'All three industry packs at a massive discount',
-    icon: '🏭',
-    tier: 'enterprise',
-    price: 899,
-    annualDiscount: 35,
-    includedFeatures: ['healthcare-pack', 'finance-pack', 'legal-pack'],
-    savings: 298, // $399*3 = $1197, bundled at $899
-  },
-  {
-    id: 'enterprise-complete',
-    name: 'Enterprise Complete',
-    description: 'Everything. Every feature. No limits.',
+    id: 'strategic-bundle',
+    name: 'Strategic License',
+    description: 'From enterprise tool to strategic weapon. All 12 pillars: Resilience, Model, Dominate, Nation.',
     icon: '👑',
-    tier: 'enterprise',
-    price: 2499,
-    annualDiscount: 40,
-    includedFeatures: [
-      'export-reporting',
-      'analytics-insights',
-      'custom-modes',
-      'agent-builder',
-      'document-analysis',
-      'team-collaboration',
-      'audit-excellence',
-      'api-access',
-      'compliance-audit',
-      'healthcare-pack',
-      'finance-pack',
-      'legal-pack',
-      'unlimited-team',
-      'white-label',
-      'dedicated-models',
-    ],
-    savings: 2689, // All features = $5188, bundled at $2499
-    enterprise: true,
+    tier: 'strategic',
+    pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate', 'collapse', 'sgas', 'verticals', 'frontier'],
+    annualPricing: '$2M–$100M+/year',
+    includedFeatures: ['the-council', 'decide', 'dcii', 'stress-test', 'comply', 'govern', 'sovereign', 'operate', 'collapse', 'sgas', 'verticals', 'frontier'],
   },
 ];
 
@@ -463,18 +353,24 @@ export const getFeaturesByTier = (tier: PremiumTier): PremiumFeature[] => {
   return PREMIUM_FEATURES.filter((f) => f.tier === tier);
 };
 
+export const getFeaturesByPillar = (pillar: PillarId): PremiumFeature[] => {
+  return PREMIUM_FEATURES.filter((f) => f.pillar === pillar);
+};
+
 export const getBundleById = (id: string): PremiumBundle | undefined => {
   return PREMIUM_BUNDLES.find((b) => b.id === id);
 };
 
-export const calculateAnnualPrice = (monthlyPrice: number, discount: number): number => {
-  const annual = monthlyPrice * 12;
-  return Math.round(annual * (1 - discount / 100));
+export const getBundleByTier = (tier: PremiumTier): PremiumBundle | undefined => {
+  return PREMIUM_BUNDLES.find((b) => b.tier === tier);
 };
 
-export const getTotalFeaturesValue = (featureIds: string[]): number => {
-  return featureIds.reduce((total, id) => {
-    const feature = getFeatureById(id);
-    return total + (feature?.price || 0);
-  }, 0);
+export const getPillarDisplayName = (pillarId: PillarId): string => {
+  const names: Record<PillarId, string> = {
+    council: 'THE COUNCIL', decide: 'DECIDE', dcii: 'DCII',
+    stress_test: 'STRESS-TEST', comply: 'COMPLY', govern: 'GOVERN',
+    sovereign: 'SOVEREIGN', operate: 'CendiaOps™',
+    collapse: 'RESILIENCE', sgas: 'MODEL', verticals: 'DOMINATE', frontier: 'NATION',
+  };
+  return names[pillarId] || pillarId;
 };

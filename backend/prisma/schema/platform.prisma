@@ -390,12 +390,12 @@ enum WorkflowStatus {
 }
 
 enum TenantPlan {
-  FREE
+  PILOT
   TRIAL
-  STARTER
-  PROFESSIONAL
+  FOUNDATION
   ENTERPRISE
-  SOVEREIGN
+  STRATEGIC
+  CUSTOM
 }
 
 enum TenantStatus {
@@ -407,11 +407,12 @@ enum TenantStatus {
 }
 
 enum LicenseType {
+  PILOT
   TRIAL
-  STARTER
-  PROFESSIONAL
+  FOUNDATION
   ENTERPRISE
-  SOVEREIGN
+  STRATEGIC
+  CUSTOM
 }
 
 enum LicenseStatus {

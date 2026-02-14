@@ -7,6 +7,18 @@ import { Router, Request, Response } from 'express';
 import { serviceRegistry } from '../core/services/ServiceRegistry.js';
 import { moduleRegistry } from '../core/modules/ModuleRegistry.js';
 import { eventBus } from '../core/events/EventBus.js';
+import {
+  PLATFORM_TIERS,
+  PLATFORM_PILLARS,
+  getPillarsForTier,
+  getServicesForTier,
+  getServiceCountByTier,
+  getTotalServiceCount,
+  getAllPillarIds,
+  getAllTierIds,
+  getPlatformSummary,
+} from '../core/PlatformCatalog.js';
+import type { PlatformTier, PillarId } from '../core/PlatformCatalog.js';
 
 const router = Router();
 
@@ -269,6 +281,130 @@ router.get('/events/history', (req: Request, res: Response) => {
       timestamp: e.timestamp,
       correlationId: e.correlationId,
     })),
+  });
+});
+
+// =============================================================================
+// PLATFORM CATALOG — 3-Tier Architecture Endpoints
+// =============================================================================
+
+/**
+ * GET /api/v1/platform/catalog
+ * Complete platform catalog — 3 tiers, 12 pillars, all services
+ */
+router.get('/catalog', (req: Request, res: Response) => {
+  res.json(getPlatformSummary());
+});
+
+/**
+ * GET /api/v1/platform/catalog/tiers
+ * All tier definitions with pricing
+ */
+router.get('/catalog/tiers', (req: Request, res: Response) => {
+  const tiers = getAllTierIds().map(tid => {
+    const tier = PLATFORM_TIERS[tid];
+    const pillars = getPillarsForTier(tid);
+    return {
+      id: tier.id,
+      name: tier.name,
+      tagline: tier.tagline,
+      description: tier.description,
+      pricing: tier.pricing,
+      color: tier.color,
+      icon: tier.icon,
+      pillarCount: pillars.length,
+      serviceCount: pillars.reduce((s, p) => s + p.services.length, 0),
+      pillars: pillars.map(p => ({ id: p.id, name: p.displayName, tagline: p.tagline })),
+    };
+  });
+
+  res.json({ tierCount: tiers.length, tiers });
+});
+
+/**
+ * GET /api/v1/platform/catalog/tiers/:tierId
+ * Single tier with full pillar and service details
+ */
+router.get('/catalog/tiers/:tierId', (req: Request, res: Response) => {
+  const tierId = req.params.tierId as PlatformTier;
+  const tier = PLATFORM_TIERS[tierId];
+  if (!tier) {
+    return res.status(404).json({ error: `Tier '${tierId}' not found. Valid tiers: foundation, enterprise, strategic` });
+  }
+
+  const pillars = getPillarsForTier(tierId);
+  res.json({
+    ...tier,
+    pillars: pillars.map(p => ({
+      id: p.id,
+      name: p.displayName,
+      tagline: p.tagline,
+      description: p.description,
+      icon: p.icon,
+      color: p.color,
+      serviceCount: p.services.length,
+      services: p.services,
+    })),
+  });
+});
+
+/**
+ * GET /api/v1/platform/catalog/pillars
+ * All 12 pillars with their tier assignments
+ */
+router.get('/catalog/pillars', (req: Request, res: Response) => {
+  const pillars = getAllPillarIds().map(pid => {
+    const p = PLATFORM_PILLARS[pid];
+    return {
+      id: p.id,
+      tier: p.tier,
+      name: p.displayName,
+      tagline: p.tagline,
+      description: p.description,
+      icon: p.icon,
+      color: p.color,
+      serviceCount: p.services.length,
+    };
+  });
+
+  res.json({ pillarCount: pillars.length, pillars });
+});
+
+/**
+ * GET /api/v1/platform/catalog/pillars/:pillarId
+ * Single pillar with full service details
+ */
+router.get('/catalog/pillars/:pillarId', (req: Request, res: Response) => {
+  const pillarId = req.params.pillarId as PillarId;
+  const pillar = PLATFORM_PILLARS[pillarId];
+  if (!pillar) {
+    return res.status(404).json({ error: `Pillar '${pillarId}' not found.` });
+  }
+
+  res.json({
+    id: pillar.id,
+    tier: pillar.tier,
+    name: pillar.displayName,
+    tagline: pillar.tagline,
+    description: pillar.description,
+    icon: pillar.icon,
+    color: pillar.color,
+    serviceCount: pillar.services.length,
+    services: pillar.services,
+  });
+});
+
+/**
+ * GET /api/v1/platform/catalog/stats
+ * Service count statistics
+ */
+router.get('/catalog/stats', (req: Request, res: Response) => {
+  const countByTier = getServiceCountByTier();
+  res.json({
+    totalServices: getTotalServiceCount(),
+    totalPillars: getAllPillarIds().length,
+    totalTiers: 3,
+    servicesByTier: countByTier,
   });
 });
 

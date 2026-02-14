@@ -139,7 +139,7 @@ Authorization: Bearer <token>
             id: { type: 'string', format: 'uuid' },
             name: { type: 'string' },
             slug: { type: 'string' },
-            plan: { type: 'string', enum: ['starter', 'professional', 'enterprise', 'sovereign'] },
+            plan: { type: 'string', enum: ['pilot', 'foundation', 'enterprise', 'strategic', 'custom'] },
             settings: { type: 'object' },
             isActive: { type: 'boolean' },
             createdAt: { type: 'string', format: 'date-time' },

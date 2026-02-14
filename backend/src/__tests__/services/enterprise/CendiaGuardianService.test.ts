@@ -42,14 +42,14 @@ describe('CendiaGuardianService', () => {
   // ===========================================================================
 
   describe('Customer Tiers', () => {
-    it('should support starter tier', () => {
-      const profile: Partial<CustomerProfile> = { tier: 'starter' };
-      expect(profile.tier).toBe('starter');
+    it('should support pilot tier', () => {
+      const profile: Partial<CustomerProfile> = { tier: 'pilot' };
+      expect(profile.tier).toBe('pilot');
     });
 
-    it('should support professional tier', () => {
-      const profile: Partial<CustomerProfile> = { tier: 'professional' };
-      expect(profile.tier).toBe('professional');
+    it('should support foundation tier', () => {
+      const profile: Partial<CustomerProfile> = { tier: 'foundation' };
+      expect(profile.tier).toBe('foundation');
     });
 
     it('should support enterprise tier', () => {
@@ -57,9 +57,9 @@ describe('CendiaGuardianService', () => {
       expect(profile.tier).toBe('enterprise');
     });
 
-    it('should support platinum tier', () => {
-      const profile: Partial<CustomerProfile> = { tier: 'platinum' };
-      expect(profile.tier).toBe('platinum');
+    it('should support strategic tier', () => {
+      const profile: Partial<CustomerProfile> = { tier: 'strategic' };
+      expect(profile.tier).toBe('strategic');
     });
   });
 

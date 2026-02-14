@@ -17,7 +17,7 @@ export interface Tenant {
   id: string;
   name: string;
   slug: string;
-  plan: 'free' | 'trial' | 'starter' | 'professional' | 'enterprise' | 'sovereign';
+  plan: 'pilot' | 'trial' | 'foundation' | 'enterprise' | 'strategic' | 'custom';
   status: 'pending' | 'trial' | 'active' | 'suspended' | 'churned';
   userCount: number;
   userLimit: number;
@@ -90,24 +90,24 @@ class TenantService {
 
   private mapPlanFromDb(plan: TenantPlan): Tenant['plan'] {
     const mapping: Record<TenantPlan, Tenant['plan']> = {
-      FREE: 'free',
+      PILOT: 'pilot',
       TRIAL: 'trial',
-      STARTER: 'starter',
-      PROFESSIONAL: 'professional',
+      FOUNDATION: 'foundation',
       ENTERPRISE: 'enterprise',
-      SOVEREIGN: 'sovereign',
+      STRATEGIC: 'strategic',
+      CUSTOM: 'custom',
     };
     return mapping[plan] || 'trial';
   }
 
   private mapPlanToDb(plan: Tenant['plan']): TenantPlan {
     const mapping: Record<Tenant['plan'], TenantPlan> = {
-      free: 'FREE',
+      pilot: 'PILOT',
       trial: 'TRIAL',
-      starter: 'STARTER',
-      professional: 'PROFESSIONAL',
+      foundation: 'FOUNDATION',
       enterprise: 'ENTERPRISE',
-      sovereign: 'SOVEREIGN',
+      strategic: 'STRATEGIC',
+      custom: 'CUSTOM',
     };
     return mapping[plan] || 'TRIAL';
   }
@@ -172,19 +172,21 @@ class TenantService {
 
   private getDefaultSettings(plan: string): TenantSettings {
     const planLimits: Record<string, Partial<TenantSettings['limits']>> = {
-      trial: { maxUsers: 25, maxAgents: 3, maxDeliberationsPerMonth: 50, maxApiCallsPerDay: 1000, storageGb: 5 },
-      foundation: { maxUsers: 50, maxAgents: 5, maxDeliberationsPerMonth: 200, maxApiCallsPerDay: 10000, storageGb: 25 },
-      intelligence: { maxUsers: 100, maxAgents: 8, maxDeliberationsPerMonth: 500, maxApiCallsPerDay: 50000, storageGb: 100 },
-      governance: { maxUsers: 200, maxAgents: 12, maxDeliberationsPerMonth: 1000, maxApiCallsPerDay: 100000, storageGb: 250 },
-      sovereign: { maxUsers: 500, maxAgents: 26, maxDeliberationsPerMonth: -1, maxApiCallsPerDay: -1, storageGb: 1000 },
+      pilot: { maxUsers: 25, maxAgents: 15, maxDeliberationsPerMonth: 100, maxApiCallsPerDay: 5000, storageGb: 50 },
+      trial: { maxUsers: 25, maxAgents: 15, maxDeliberationsPerMonth: 50, maxApiCallsPerDay: 1000, storageGb: 5 },
+      foundation: { maxUsers: 100, maxAgents: 15, maxDeliberationsPerMonth: 1000, maxApiCallsPerDay: 50000, storageGb: 500 },
+      enterprise: { maxUsers: 500, maxAgents: 50, maxDeliberationsPerMonth: -1, maxApiCallsPerDay: -1, storageGb: 5000 },
+      strategic: { maxUsers: -1, maxAgents: -1, maxDeliberationsPerMonth: -1, maxApiCallsPerDay: -1, storageGb: -1 },
+      custom: { maxUsers: -1, maxAgents: -1, maxDeliberationsPerMonth: -1, maxApiCallsPerDay: -1, storageGb: -1 },
     };
 
     const planFeatures: Record<string, Partial<TenantSettings['features']>> = {
+      pilot: { councilEnabled: true, enterpriseEnabled: false, apiAccess: true, ssoEnabled: false, customBranding: false, advancedAnalytics: false },
       trial: { councilEnabled: true, enterpriseEnabled: false, apiAccess: false, ssoEnabled: false, customBranding: false, advancedAnalytics: false },
-      foundation: { councilEnabled: true, enterpriseEnabled: false, apiAccess: true, ssoEnabled: false, customBranding: false, advancedAnalytics: false },
-      intelligence: { councilEnabled: true, enterpriseEnabled: true, apiAccess: true, ssoEnabled: false, customBranding: true, advancedAnalytics: true },
-      governance: { councilEnabled: true, enterpriseEnabled: true, apiAccess: true, ssoEnabled: true, customBranding: true, advancedAnalytics: true },
-      sovereign: { councilEnabled: true, enterpriseEnabled: true, apiAccess: true, ssoEnabled: true, customBranding: true, advancedAnalytics: true },
+      foundation: { councilEnabled: true, enterpriseEnabled: false, apiAccess: true, ssoEnabled: false, customBranding: false, advancedAnalytics: true },
+      enterprise: { councilEnabled: true, enterpriseEnabled: true, apiAccess: true, ssoEnabled: true, customBranding: true, advancedAnalytics: true },
+      strategic: { councilEnabled: true, enterpriseEnabled: true, apiAccess: true, ssoEnabled: true, customBranding: true, advancedAnalytics: true },
+      custom: { councilEnabled: true, enterpriseEnabled: true, apiAccess: true, ssoEnabled: true, customBranding: true, advancedAnalytics: true },
     };
 
     return {
@@ -237,13 +239,14 @@ class TenantService {
   }
 
   private getPlanMrr(plan: string): number {
+    // Annual licensing converted to MRR (annual / 12)
     const prices: Record<string, number> = {
-      free: 0,
+      pilot: 4167,       // $50K/year
       trial: 0,
-      starter: 2500,
-      professional: 7500,
-      enterprise: 15000,
-      sovereign: 35000,
+      foundation: 12500, // $150K/year (min)
+      enterprise: 41667, // $500K/year (min)
+      strategic: 166667, // $2M/year (min)
+      custom: 0,         // Negotiated
     };
     return prices[plan] || 0;
   }

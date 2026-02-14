@@ -125,6 +125,14 @@ const ROICalculator = lazy(() =>
   import('../../pages/tools').then((m) => ({ default: m.ROICalculator }))
 );
 
+// Profile & Help (MVP)
+const UserProfilePage = lazy(() =>
+  import('../../pages/cortex/profile/UserProfilePage').then((m) => ({ default: m.UserProfilePage }))
+);
+const GettingStartedPage = lazy(() =>
+  import('../../pages/cortex/help/GettingStartedPage').then((m) => ({ default: m.GettingStartedPage }))
+);
+
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
 );
@@ -204,4 +212,9 @@ export const cortexPlatformRoutes: RouteObject[] = [
   { path: 'crown/echo', element: w(EchoPage) },
   { path: 'crown/redteam', element: w(RedTeamPage) },
   { path: 'crown/gnosis', element: w(GnosisPage) },
+
+  // Profile & Help (MVP)
+  { path: 'profile', element: w(UserProfilePage) },
+  { path: 'help', element: w(GettingStartedPage) },
+  { path: 'getting-started', element: <Navigate to="/cortex/help" replace /> },
 ];

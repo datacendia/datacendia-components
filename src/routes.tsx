@@ -76,7 +76,7 @@ import { AdminAIPage } from './pages/admin/AdminAIPage';
 import { ROICalculator } from './pages/tools';
 
 // Cortex Main Pages
-import { DashboardPage } from './pages/cortex/DashboardPage';
+import { MissionControlDashboard as DashboardPage } from './pages/cortex/MissionControlDashboard';
 import { GraphExplorerPage } from './pages/cortex/graph/GraphExplorerPage';
 import { CouncilPage } from './pages/cortex/council/CouncilPage';
 import { PulsePage } from './pages/cortex/pulse/PulsePage';

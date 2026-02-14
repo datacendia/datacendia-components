@@ -318,7 +318,7 @@ router.post('/post-deliberation/session', async (req: Request, res: Response) =>
       deliberationId, 
       userId = 'demo-user', 
       organizationId = 'demo',
-      userPlan = 'professional' 
+      userPlan = 'foundation' 
     } = req.body;
 
     if (!deliberationId) {

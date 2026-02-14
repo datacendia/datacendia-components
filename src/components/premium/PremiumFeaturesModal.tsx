@@ -7,8 +7,6 @@ import {
   PremiumFeature,
   PremiumBundle,
   PremiumTier,
-  calculateAnnualPrice,
-  getTotalFeaturesValue,
   getFeatureById,
 } from '../../data/premiumFeatures';
 
@@ -20,7 +18,6 @@ interface PremiumFeaturesModalProps {
 }
 
 type ViewMode = 'features' | 'bundles' | 'agents';
-type BillingCycle = 'monthly' | 'annual';
 
 const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
   isOpen,
@@ -29,7 +26,6 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
   currentFeatures = [],
 }) => {
   const [viewMode, setViewMode] = useState<ViewMode>('bundles');
-  const [billingCycle, setBillingCycle] = useState<BillingCycle>('annual');
   const [selectedTier, setSelectedTier] = useState<PremiumTier | 'all'>('all');
   const [expandedFeature, setExpandedFeature] = useState<string | null>(null);
 
@@ -42,18 +38,10 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
       ? PREMIUM_FEATURES
       : PREMIUM_FEATURES.filter((f) => f.tier === selectedTier);
 
-  const getPrice = (price: number, discount: number) => {
-    if (billingCycle === 'annual') {
-      return Math.round(price * (1 - discount / 100));
-    }
-    return price;
-  };
-
   const renderFeatureCard = (feature: PremiumFeature) => {
     const tier = PREMIUM_TIERS[feature.tier];
     const isOwned = currentFeatures.includes(feature.id);
     const isExpanded = expandedFeature === feature.id;
-    const displayPrice = getPrice(feature.price, feature.annualDiscount);
 
     return (
       <div
@@ -97,15 +85,12 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
             </div>
           </div>
 
-          {/* Price */}
+          {/* Tier Label */}
           <div className="flex items-baseline gap-2 mb-4">
-            <span className="text-3xl font-bold text-neutral-900">${displayPrice}</span>
-            <span className="text-neutral-500">/month</span>
-            {billingCycle === 'annual' && (
-              <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">
-                Save {feature.annualDiscount}%
-              </span>
-            )}
+            <span className="text-sm font-semibold text-neutral-700">
+              {tier.annualPricing}
+            </span>
+            <span className="text-xs text-neutral-400">annual license</span>
           </div>
 
           {/* Features List */}
@@ -156,8 +141,6 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
     const includedFeatures = bundle.includedFeatures
       .map((id) => getFeatureById(id))
       .filter(Boolean) as PremiumFeature[];
-    const totalValue = getTotalFeaturesValue(bundle.includedFeatures);
-    const displayPrice = getPrice(bundle.price, bundle.annualDiscount);
     const allOwned = bundle.includedFeatures.every((id) => currentFeatures.includes(id));
 
     return (
@@ -166,19 +149,13 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
         className={cn(
           'relative bg-white rounded-xl border-2 overflow-hidden transition-all',
           bundle.popular && 'ring-2 ring-primary-500 ring-offset-2',
-          bundle.enterprise && 'ring-2 ring-amber-500 ring-offset-2',
           allOwned ? 'border-green-300 bg-green-50' : 'border-neutral-200 hover:shadow-xl'
         )}
       >
-        {/* Popular/Enterprise Badge */}
+        {/* Popular Badge */}
         {bundle.popular && (
           <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary-500 text-white text-xs font-bold px-4 py-1 rounded-full">
             ⭐ MOST POPULAR
-          </div>
-        )}
-        {bundle.enterprise && (
-          <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-bold px-4 py-1 rounded-full">
-            👑 BEST VALUE
           </div>
         )}
 
@@ -205,30 +182,17 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
             <p className="text-sm text-neutral-500 mt-1">{bundle.description}</p>
           </div>
 
-          {/* Price */}
+          {/* Annual License Pricing */}
           <div className="text-center mb-4">
             <div className="flex items-baseline justify-center gap-2">
-              <span className="text-4xl font-bold text-neutral-900">${displayPrice}</span>
-              <span className="text-neutral-500">/month</span>
+              <span className="text-2xl font-bold text-neutral-900">{tier.annualPricing}</span>
             </div>
-            <div className="flex items-center justify-center gap-2 mt-2">
-              <span className="text-sm text-neutral-400 line-through">
-                ${totalValue}/mo separately
-              </span>
-              <span className="text-sm bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-semibold">
-                Save ${bundle.savings}/mo
-              </span>
-            </div>
-            {billingCycle === 'annual' && (
-              <p className="text-xs text-green-600 mt-1">
-                + Additional {bundle.annualDiscount}% off with annual billing
-              </p>
-            )}
+            <p className="text-xs text-neutral-500 mt-1">annual enterprise license</p>
           </div>
 
           {/* Included Features */}
           <div className="space-y-2 mb-6">
-            <p className="text-xs font-semibold text-neutral-500">INCLUDES:</p>
+            <p className="text-xs font-semibold text-neutral-500">INCLUDES {includedFeatures.length} PILLARS:</p>
             {includedFeatures.map((feature) => (
               <div
                 key={feature.id}
@@ -236,7 +200,6 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               >
                 <span className="text-lg">{feature.icon}</span>
                 <span className="text-sm font-medium text-neutral-700">{feature.name}</span>
-                <span className="ml-auto text-xs text-neutral-400">${feature.price}/mo</span>
               </div>
             ))}
           </div>
@@ -249,12 +212,10 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               'w-full py-3 rounded-lg font-semibold transition-all text-lg',
               allOwned
                 ? 'bg-green-100 text-green-700 cursor-default'
-                : bundle.enterprise
-                  ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:opacity-90 hover:shadow-lg'
-                  : `bg-gradient-to-r ${tier.bgGradient} text-white hover:opacity-90 hover:shadow-lg`
+                : `bg-gradient-to-r ${tier.bgGradient} text-white hover:opacity-90 hover:shadow-lg`
             )}
           >
-            {allOwned ? '✓ All Features Owned' : `Get ${bundle.name}`}
+            {allOwned ? '✓ All Pillars Licensed' : `License ${bundle.name}`}
           </button>
         </div>
       </div>
@@ -322,41 +283,9 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               </button>
             </div>
 
-            {/* Billing Toggle */}
-            <div className="flex items-center gap-3">
-              <span
-                className={cn(
-                  'text-sm',
-                  billingCycle === 'monthly' ? 'text-white' : 'text-white/60'
-                )}
-              >
-                Monthly
-              </span>
-              <button
-                onClick={() =>
-                  setBillingCycle((prev) => (prev === 'monthly' ? 'annual' : 'monthly'))
-                }
-                className={cn(
-                  'relative w-14 h-7 rounded-full transition-colors',
-                  billingCycle === 'annual' ? 'bg-green-500' : 'bg-white/30'
-                )}
-              >
-                <div
-                  className={cn(
-                    'absolute top-1 w-5 h-5 bg-white rounded-full transition-transform',
-                    billingCycle === 'annual' ? 'translate-x-8' : 'translate-x-1'
-                  )}
-                />
-              </button>
-              <span
-                className={cn(
-                  'text-sm',
-                  billingCycle === 'annual' ? 'text-white' : 'text-white/60'
-                )}
-              >
-                Annual
-                <span className="ml-1 text-green-300 text-xs">Save up to 40%</span>
-              </span>
+            {/* Annual License Badge */}
+            <div className="flex items-center gap-2 bg-white/20 rounded-lg px-4 py-2">
+              <span className="text-sm text-white font-medium">Annual Enterprise License</span>
             </div>
           </div>
         </div>

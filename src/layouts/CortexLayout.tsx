@@ -192,40 +192,164 @@ const Icons = {
 // NAVIGATION STRUCTURE - CONSOLIDATED MASTER LIST
 // =============================================================================
 
-// Main Navigation - Core visible items
-const navigationItems = [
-  {
-    id: 'dashboard',
-    labelKey: 'sidebar.dashboard',
-    icon: Icons.Home,
-    path: '/cortex/dashboard',
-    tooltip: 'Your command center - overview of all metrics, alerts, and recent activity',
-  },
-  {
-    id: 'council',
-    labelKey: 'sidebar.the_council',
-    icon: Icons.Council,
-    path: '/cortex/council',
-    tooltip: 'The Council™ - Multi-agent deliberation with worker representation (Union) and protected whistleblower channels (Dissent)',
-  },
+// =============================================================================
+// TIER-BASED NAVIGATION — matches Page Architecture Blueprint
+// =============================================================================
+
+interface NavItem {
+  id: string;
+  label: string;
+  labelKey?: string;
+  icon: React.FC | LucideIcon;
+  path: string;
+  tooltip?: string;
+}
+
+interface NavGroup {
+  id: string;
+  label: string;
+  color: string; // tier accent
+  items: NavItem[];
+}
+
+// Home
+const homeItem: NavItem = {
+  id: 'dashboard',
+  label: 'Mission Control',
+  labelKey: 'sidebar.dashboard',
+  icon: Icons.Home,
+  path: '/cortex/dashboard',
+  tooltip: 'Mission Control — your institutional command center',
+};
+
+// FOUNDATION TIER (Blue)
+const foundationGroup: NavGroup = {
+  id: 'foundation',
+  label: 'FOUNDATION',
+  color: 'blue',
+  items: [
+    {
+      id: 'council',
+      label: 'The Council',
+      labelKey: 'sidebar.the_council',
+      icon: Brain,
+      path: '/cortex/council',
+      tooltip: 'Multi-Agent Deliberation Engine',
+    },
+    {
+      id: 'decide',
+      label: 'DECIDE',
+      icon: SearchCode,
+      path: '/cortex/intelligence/chronos',
+      tooltip: 'Decision Intelligence — Chronos, PreMortem, Ghost Board',
+    },
+    {
+      id: 'dcii',
+      label: 'DCII',
+      icon: Shield,
+      path: '/cortex/enterprise/dcii',
+      tooltip: 'Decision Crisis Immunization Infrastructure — IISS Score',
+    },
+  ],
+};
+
+// ENTERPRISE TIER (Purple)
+const enterpriseGroup: NavGroup = {
+  id: 'enterprise',
+  label: 'ENTERPRISE',
+  color: 'purple',
+  items: [
+    {
+      id: 'stress-test',
+      label: 'Stress-Test',
+      icon: Flame,
+      path: '/cortex/enterprise/adversarial-redteam',
+      tooltip: 'Adversarial stress testing & red team',
+    },
+    {
+      id: 'comply',
+      label: 'Comply',
+      icon: Activity,
+      path: '/cortex/compliance/continuous-monitor',
+      tooltip: 'Continuous compliance monitoring',
+    },
+    {
+      id: 'govern',
+      label: 'Govern',
+      icon: Scale,
+      path: '/cortex/governance/decision-packets',
+      tooltip: 'Decision governance & constitutional court',
+    },
+    {
+      id: 'sovereign',
+      label: 'Sovereign',
+      icon: Lock,
+      path: '/cortex/enterprise/sovereign',
+      tooltip: 'Sovereign deployment & data residency',
+    },
+    {
+      id: 'operate',
+      label: 'Operate',
+      icon: Monitor,
+      path: '/cortex/monitor/live',
+      tooltip: 'CendiaPulse live operations monitor',
+    },
+  ],
+};
+
+// STRATEGIC TIER (Gold)
+const strategicGroup: NavGroup = {
+  id: 'strategic',
+  label: 'STRATEGIC',
+  color: 'amber',
+  items: [
+    {
+      id: 'collapse',
+      label: 'COLLAPSE',
+      icon: AlertTriangle,
+      path: '/cortex/sovereign/collapse',
+      tooltip: 'Adversarial policy stress-testing',
+    },
+    {
+      id: 'sgas',
+      label: 'SGAS',
+      icon: Building2,
+      path: '/cortex/sovereign/sgas',
+      tooltip: 'Synthetic Governance Agent System',
+    },
+    {
+      id: 'verticals',
+      label: 'Verticals',
+      icon: Factory,
+      path: '/verticals',
+      tooltip: '17 industry verticals',
+    },
+    {
+      id: 'frontier',
+      label: 'Frontier',
+      icon: Globe,
+      path: '/cortex/sovereign/sanctuary',
+      tooltip: 'Crisis bunker & frontier capabilities',
+    },
+  ],
+};
+
+const tierGroups: NavGroup[] = [foundationGroup, enterpriseGroup, strategicGroup];
+
+// Cross-cutting / system
+const systemItems: NavItem[] = [
+  { id: 'data', label: 'Data', labelKey: 'sidebar.data', icon: Icons.Data, path: '/cortex/data' },
+  { id: 'security', label: 'Security', labelKey: 'sidebar.security', icon: Icons.Security, path: '/cortex/security' },
 ];
 
-// HIDDEN: Graph, Pulse, Lens, Bridge - These are features, not products
-// Mention "Real-time Monitoring" (Pulse) and "300+ Integrations" (Bridge) as bullet points
-
-// HIDDEN: 8 Pillars - Helm, Lineage, Predict, Flow, Health, Guard, Ethics, Agents
-const pillarItems: { id: string; labelKey: string; emoji: string; path: string; tooltip: string }[] = []; // Empty - hidden from navigation
-
-// System navigation
-const systemItems = [
-  { id: 'data', labelKey: 'sidebar.data', icon: Icons.Data, path: '/cortex/data' },
-  { id: 'security', labelKey: 'sidebar.security', icon: Icons.Security, path: '/cortex/security' },
+const bottomNavigationItems: NavItem[] = [
+  { id: 'settings', label: 'Settings', labelKey: 'sidebar.settings', icon: Icons.Settings, path: '/cortex/settings' },
+  { id: 'help', label: 'Help', labelKey: 'sidebar.help', icon: Icons.Help, path: '/cortex/help' },
 ];
 
-const bottomNavigationItems = [
-  { id: 'settings', labelKey: 'sidebar.settings', icon: Icons.Settings, path: '/cortex/settings' },
-  { id: 'help', labelKey: 'sidebar.help', icon: Icons.Help, path: '/cortex/help' },
-];
+// Legacy compat
+const navigationItems = [homeItem, ...foundationGroup.items];
+const pillarItems: { id: string; labelKey: string; emoji: string; path: string; tooltip: string }[] = [];
 
 // Get current page for quick actions
 const getCurrentPage = (
@@ -917,45 +1041,94 @@ const CortexLayoutInner: React.FC = () => {
             </button>
           </div>
 
-          {/* Main Navigation */}
-          <nav className="flex-1 py-4 px-2 space-y-1 overflow-y-auto">
-            {/* 5 Spaces */}
-            {navigationItems.map((item) => {
-              const Icon = item.icon;
-              const active = isActive(item.path);
+          {/* Main Navigation — Tier-Based */}
+          <nav className="flex-1 py-3 px-2 space-y-1 overflow-y-auto">
+            {/* Home / Mission Control */}
+            {(() => {
+              const Icon = homeItem.icon;
+              const active = isActive(homeItem.path);
               return (
-                <SimpleTooltip key={item.id} content={item.tooltip} position="right">
+                <SimpleTooltip content={homeItem.tooltip || ''} position="right">
                   <button
-                    onClick={() => navigate(item.path)}
+                    onClick={() => navigate(homeItem.path)}
                     className={cn(
                       'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg',
-                      'transition-colors text-sm font-medium',
+                      'transition-colors text-sm font-semibold',
                       active
                         ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
                         : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                     )}
-                    title={isCollapsed ? t(item.labelKey) : undefined}
+                    title={isCollapsed ? homeItem.label : undefined}
                   >
                     <Icon />
-                    {!isCollapsed && <span>{t(item.labelKey)}</span>}
+                    {!isCollapsed && <span>{homeItem.labelKey ? t(homeItem.labelKey) : homeItem.label}</span>}
                   </button>
                 </SimpleTooltip>
               );
+            })()}
+
+            {/* Tier Groups */}
+            {tierGroups.map((group) => {
+              const tierColorMap: Record<string, { label: string; active: string; dot: string }> = {
+                blue:   { label: 'text-blue-400',   active: 'border-blue-500',   dot: 'bg-blue-400' },
+                purple: { label: 'text-purple-400', active: 'border-purple-500', dot: 'bg-purple-400' },
+                amber:  { label: 'text-amber-400',  active: 'border-amber-500',  dot: 'bg-amber-400' },
+              };
+              const tc = tierColorMap[group.color] || tierColorMap.blue;
+              return (
+                <div key={group.id} className="pt-3 mt-2 border-t border-sovereign-border-subtle">
+                  {!isCollapsed && (
+                    <div className="flex items-center gap-2 px-3 mb-2">
+                      <div className={cn('w-1.5 h-1.5 rounded-full', tc.dot)} />
+                      <p className={cn('text-[10px] font-bold uppercase tracking-widest', tc.label)}>
+                        {group.label}
+                      </p>
+                    </div>
+                  )}
+                  {isCollapsed && (
+                    <div className="flex justify-center mb-1">
+                      <div className={cn('w-6 h-0.5 rounded-full', tc.dot)} />
+                    </div>
+                  )}
+                  {group.items.map((item) => {
+                    const Icon = item.icon;
+                    const active = isActive(item.path);
+                    return (
+                      <SimpleTooltip key={item.id} content={item.tooltip || item.label} position="right">
+                        <button
+                          onClick={() => navigate(item.path)}
+                          className={cn(
+                            'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
+                            'transition-colors text-sm',
+                            active
+                              ? `bg-sovereign-active text-white border-l-2 ${tc.active}`
+                              : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
+                          )}
+                          title={isCollapsed ? item.label : undefined}
+                        >
+                          <Icon className="w-5 h-5" />
+                          {!isCollapsed && <span>{item.labelKey ? t(item.labelKey) : item.label}</span>}
+                        </button>
+                      </SimpleTooltip>
+                    );
+                  })}
+                </div>
+              );
             })}
 
-            {/* 8 Pillars Section */}
-            {!isCollapsed && (
-              <div className="pt-4 mt-4 border-t border-sovereign-border-subtle">
-                <p className="px-3 text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">
-                  {t('sidebar.pillars')}
+            {/* Cross-cutting / System */}
+            <div className="pt-3 mt-2 border-t border-sovereign-border-subtle">
+              {!isCollapsed && (
+                <p className="px-3 text-[10px] font-bold text-gray-600 uppercase tracking-widest mb-2">
+                  SYSTEM
                 </p>
-              </div>
-            )}
-            {pillarItems.map((item) => {
-              const active = isActive(item.path);
-              return (
-                <SimpleTooltip key={item.id} content={item.tooltip} position="right">
+              )}
+              {systemItems.map((item) => {
+                const Icon = item.icon;
+                const active = isActive(item.path);
+                return (
                   <button
+                    key={item.id}
                     onClick={() => navigate(item.path)}
                     className={cn(
                       'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
@@ -964,44 +1137,14 @@ const CortexLayoutInner: React.FC = () => {
                         ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
                         : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                     )}
-                    title={isCollapsed ? t(item.labelKey) : undefined}
+                    title={isCollapsed ? (item.labelKey ? t(item.labelKey) : item.label) : undefined}
                   >
-                    <span className="text-base">{item.emoji}</span>
-                    {!isCollapsed && <span>{t(item.labelKey)}</span>}
+                    <Icon />
+                    {!isCollapsed && <span>{item.labelKey ? t(item.labelKey) : item.label}</span>}
                   </button>
-                </SimpleTooltip>
-              );
-            })}
-
-            {/* System Section */}
-            {!isCollapsed && (
-              <div className="pt-4 mt-4 border-t border-sovereign-border-subtle">
-                <p className="px-3 text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">
-                  {t('sidebar.system')}
-                </p>
-              </div>
-            )}
-            {systemItems.map((item) => {
-              const Icon = item.icon;
-              const active = isActive(item.path);
-              return (
-                <button
-                  key={item.id}
-                  onClick={() => navigate(item.path)}
-                  className={cn(
-                    'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
-                    'transition-colors text-sm',
-                    active
-                      ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
-                      : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
-                  )}
-                  title={isCollapsed ? t(item.labelKey) : undefined}
-                >
-                  <Icon />
-                  {!isCollapsed && <span>{t(item.labelKey)}</span>}
-                </button>
-              );
-            })}
+                );
+              })}
+            </div>
           </nav>
 
           {/* Bottom Navigation */}
@@ -1020,10 +1163,10 @@ const CortexLayoutInner: React.FC = () => {
                       ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
                       : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                   )}
-                  title={isCollapsed ? t(item.labelKey) : undefined}
+                  title={isCollapsed ? (item.labelKey ? t(item.labelKey) : item.label) : undefined}
                 >
                   <Icon />
-                  {!isCollapsed && <span>{t(item.labelKey)}</span>}
+                  {!isCollapsed && <span>{item.labelKey ? t(item.labelKey) : item.label}</span>}
                 </button>
               );
             })}
@@ -1461,12 +1604,21 @@ const CortexLayoutInner: React.FC = () => {
                       <div className="py-1">
                         <button
                           onClick={() => {
+                            navigate('/cortex/profile');
+                            setIsUserMenuOpen(false);
+                          }}
+                          className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-400 hover:bg-sovereign-hover hover:text-white"
+                        >
+                          <Eye className="w-3.5 h-3.5" /> <span>View Profile</span>
+                        </button>
+                        <button
+                          onClick={() => {
                             navigate('/cortex/settings');
                             setIsUserMenuOpen(false);
                           }}
                           className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-400 hover:bg-sovereign-hover hover:text-white"
                         >
-                          <Settings className="w-3.5 h-3.5" /> <span>View Settings</span>
+                          <Settings className="w-3.5 h-3.5" /> <span>Settings</span>
                         </button>
                         <button
                           onClick={async () => {
@@ -1545,7 +1697,7 @@ const CortexLayoutInner: React.FC = () => {
                       )}
                     >
                       <Icon />
-                      <span>{t(item.labelKey)}</span>
+                      <span>{item.labelKey ? t(item.labelKey) : item.label}</span>
                     </button>
                   );
                 })}

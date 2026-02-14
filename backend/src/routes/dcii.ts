@@ -35,6 +35,9 @@ router.get('/status', (_req: Request, res: Response) => {
     data: {
       service: 'CendiaDCII™ — Decision Crisis Immunization Infrastructure',
       version: '3.0.0',
+      pillar: 'dcii',
+      tier: 'foundation',
+      tierDescription: 'Tier 1: Foundation — Make decisions → Understand them → Prove them',
       modules: {
         iiss: { status: 'operational', description: 'CendiaIISS™ — Institutional Immune System Score (9 primitives)' },
         cognitiveBias: { status: 'operational', description: 'CendiaBiasMitigation™ — Cognitive Bias Mitigation (P6)' },

@@ -236,12 +236,12 @@ const SLIDES: Slide[] = [
     title: 'Business Model',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-8">SaaS + Usage-Based Revenue</h2>
+        <h2 className="text-4xl font-bold text-white mb-8">Annual Enterprise Licensing</h2>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {[
-            { tier: 'Starter', price: '$2,500/mo', users: 'Up to 25 users', color: 'slate' },
-            { tier: 'Professional', price: '$7,500/mo', users: 'Up to 100 users', color: 'purple' },
-            { tier: 'Enterprise', price: 'Custom', users: 'Unlimited users', color: 'cyan' },
+            { tier: 'Foundation', price: '$150K–$500K/yr', users: 'Up to 100 users', color: 'slate' },
+            { tier: 'Enterprise', price: '$500K–$2M/yr', users: 'Up to 500 users', color: 'purple' },
+            { tier: 'Strategic', price: '$2M–$100M+/yr', users: 'Unlimited users', color: 'cyan' },
           ].map((plan) => (
             <div
               key={plan.tier}

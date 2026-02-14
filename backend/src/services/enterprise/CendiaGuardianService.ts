@@ -15,7 +15,7 @@ export interface CustomerProfile {
   id: string;
   name: string;
   company: string;
-  tier: 'starter' | 'professional' | 'enterprise' | 'platinum';
+  tier: 'pilot' | 'foundation' | 'enterprise' | 'strategic';
   contractValue: number;
   contractStartDate: Date;
   contractEndDate: Date;
@@ -447,7 +447,7 @@ class CendiaGuardianService {
       });
     }
 
-    if (customer.tier !== 'platinum' && healthScore > 75) {
+    if (customer.tier !== 'strategic' && healthScore > 75) {
       opportunities.push({
         type: 'upsell',
         probability: 0.5,

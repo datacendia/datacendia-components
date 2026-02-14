@@ -32,15 +32,26 @@ const router = Router();
  * Get all Holy Shit features with availability based on subscription tier
  */
 router.get('/features', (req: Request, res: Response) => {
-  const tier = (req.query.tier as SubscriptionTier) || 'free';
-  const holyShitAccess = featureGating.getHolyShitFeatures(tier);
+  const tier = (req.query.tier as SubscriptionTier) || 'pilot';
 
-  const features = Object.entries(HOLY_SHIT_FEATURES).map(([key, feature]) => ({
-    ...feature,
-    available: holyShitAccess[key as keyof typeof holyShitAccess] || false,
-    upgradeRequired: !holyShitAccess[key as keyof typeof holyShitAccess],
-    minimumTier: feature.minimumTier,
-  }));
+  const featureKeyMap: Record<string, keyof import('../core/subscriptions/SubscriptionTiers.js').FeatureAccess> = {
+    preMortem: 'preMortem',
+    ghostBoard: 'ghostBoard',
+    decisionDebtDashboard: 'decisionDebtDashboard',
+    liveDemoMode: 'liveDemoMode',
+    regulatoryInstantAbsorb: 'regulatoryInstantAbsorb',
+  };
+
+  const features = Object.entries(HOLY_SHIT_FEATURES).map(([key, feature]) => {
+    const featureKey = featureKeyMap[key];
+    const available = featureKey ? featureGating.hasFeature(tier, featureKey) : false;
+    return {
+      ...feature,
+      available,
+      upgradeRequired: !available,
+      minimumTier: feature.minimumTier,
+    };
+  });
 
   res.json({
     tier,
@@ -58,7 +69,7 @@ router.get('/tiers', (_req: Request, res: Response) => {
   const tiers = Object.entries(SUBSCRIPTION_TIERS).map(([key, config]) => ({
     id: key,
     name: config.displayName,
-    price: config.price,
+    pricing: config.pricing,
     holyShitFeatures: {
       preMortem: config.features.preMortem,
       ghostBoard: config.features.ghostBoard,

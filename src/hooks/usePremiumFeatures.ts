@@ -13,26 +13,28 @@ import {
   PremiumBundle,
 } from '../data/premiumFeatures';
 
-// Agent ID to Premium Feature mapping
+// Agent ID to Pillar Feature mapping (3-tier architecture)
+// Agents belong to pillars; pillar access is gated by tier
 const AGENT_FEATURE_MAP: Record<string, string> = {
-  // Audit Excellence Pack
-  'agent-ext-auditor': 'audit-excellence',
-  'agent-int-auditor': 'audit-excellence',
-  // Healthcare Industry Pack
-  'agent-cmio': 'healthcare-pack',
-  'agent-pso': 'healthcare-pack',
-  'agent-hco': 'healthcare-pack',
-  'agent-cod': 'healthcare-pack',
-  // Finance Industry Pack
-  'agent-quant': 'finance-pack',
-  'agent-pm': 'finance-pack',
-  'agent-cro-finance': 'finance-pack',
-  'agent-treasury': 'finance-pack',
-  // Legal Industry Pack
-  'agent-contracts': 'legal-pack',
-  'agent-ip': 'legal-pack',
-  'agent-litigation': 'legal-pack',
-  'agent-regulatory': 'legal-pack',
+  // Council Pillar (Foundation)
+  'agent-cfo': 'the-council',
+  'agent-cto': 'the-council',
+  'agent-ciso': 'the-council',
+  'agent-clo': 'the-council',
+  'agent-coo': 'the-council',
+  // DECIDE Pillar (Foundation)
+  'agent-premortem': 'decide',
+  'agent-ghostboard': 'decide',
+  // Enterprise Pillar Agents
+  'agent-crucible': 'stress-test',
+  'agent-redteam': 'stress-test',
+  'agent-compliance': 'comply',
+  // Strategic Pillar Agents — Verticals
+  'agent-healthcare': 'verticals',
+  'agent-finance': 'verticals',
+  'agent-legal': 'verticals',
+  'agent-sports': 'verticals',
+  'agent-defense': 'verticals',
 };
 
 interface PremiumState {

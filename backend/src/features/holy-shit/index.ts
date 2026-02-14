@@ -40,7 +40,7 @@ export const HOLY_SHIT_FEATURES = {
     name: 'The Pre-Mortem',
     icon: '💀',
     tagline: 'Before you decide, let me show you every way this could fail.',
-    minimumTier: 'starter',
+    minimumTier: 'foundation',
     closeRateImpact: 5,
   },
   ghostBoard: {
@@ -48,7 +48,7 @@ export const HOLY_SHIT_FEATURES = {
     name: 'The Ghost Board',
     icon: '👻',
     tagline: 'Rehearse your board meeting with AI directors before the real one.',
-    minimumTier: 'professional',
+    minimumTier: 'foundation',
     closeRateImpact: 5,
   },
   decisionDebtDashboard: {
@@ -56,7 +56,7 @@ export const HOLY_SHIT_FEATURES = {
     name: 'Decision Debt Dashboard',
     icon: '📊',
     tagline: 'See every decision that\'s stuck, who\'s blocking it, and what it\'s costing you per day.',
-    minimumTier: 'professional',
+    minimumTier: 'foundation',
     closeRateImpact: 4,
   },
   liveDemoMode: {
@@ -64,7 +64,7 @@ export const HOLY_SHIT_FEATURES = {
     name: 'Live Demo Mode',
     icon: '⚡',
     tagline: 'Let\'s connect to YOUR data right now and run a real deliberation.',
-    minimumTier: 'enterprise',
+    minimumTier: 'foundation',
     closeRateImpact: 5,
   },
   regulatoryInstantAbsorb: {
@@ -72,7 +72,7 @@ export const HOLY_SHIT_FEATURES = {
     name: 'Regulatory Instant-Absorb',
     icon: '📜',
     tagline: 'Drop in any regulation. The Council knows it in 60 seconds.',
-    minimumTier: 'enterprise',
+    minimumTier: 'foundation',
     closeRateImpact: 4,
   },
 };

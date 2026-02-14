@@ -34,10 +34,10 @@ const LandingPage = () => {
     ASIA: { label: 'Asia', symbol: '$', multiplier: 0.6 },
   };
 
-  const pricing: Record<string, Record<string, number>> = {
-    starter: { US: 299, EU: 279, LATAM: 99, ASIA: 149 },
-    growth: { US: 799, EU: 749, LATAM: 299, ASIA: 399 },
-    business: { US: 1999, EU: 1899, LATAM: 799, ASIA: 999 },
+  const pricing: Record<string, Record<string, string>> = {
+    foundation: { US: '$150K', EU: '€138K', LATAM: '$83K', ASIA: '$113K' },
+    enterprise: { US: '$500K', EU: '€460K', LATAM: '$275K', ASIA: '$375K' },
+    strategic: { US: '$2M+', EU: '€1.8M+', LATAM: '$1.1M+', ASIA: '$1.5M+' },
   };
 
   const [showVideo, setShowVideo] = useState(false);
@@ -446,93 +446,95 @@ const LandingPage = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Starter */}
+            {/* Foundation */}
             <div className="bg-black border border-white/10 p-8 rounded-xl hover:border-white/20 transition-all flex flex-col">
               <div className="mb-4">
-                <h3 className="text-xl font-bold text-white">Starter</h3>
-                <p className="text-slate-500 text-sm">For freelancers & small teams</p>
+                <h3 className="text-xl font-bold text-white">Foundation</h3>
+                <p className="text-slate-500 text-sm">Make decisions → Understand → Prove</p>
               </div>
               <div className="mb-6">
                 <span className="text-4xl font-bold text-white">
-                  {regions[activeRegion].symbol}
-                  {pricing.starter[activeRegion]}
+                  {pricing.foundation[activeRegion]}
                 </span>
-                <span className="text-slate-500">/mo</span>
+                <span className="text-slate-500">/yr</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
                 <li className="flex gap-2 text-sm text-slate-300">
-                  <CheckCircle2 size={16} className="text-slate-500" /> 1 User Seat
+                  <CheckCircle2 size={16} className="text-slate-500" /> THE COUNCIL — 15 C-Suite AI agents
                 </li>
                 <li className="flex gap-2 text-sm text-slate-300">
-                  <CheckCircle2 size={16} className="text-slate-500" /> Foundational Intelligence
-                  Suite
+                  <CheckCircle2 size={16} className="text-slate-500" /> DECIDE — Pre-Mortem, Ghost Board, Chronos
                 </li>
                 <li className="flex gap-2 text-sm text-slate-300">
-                  <CheckCircle2 size={16} className="text-slate-500" /> 3 Cortex Spaces
+                  <CheckCircle2 size={16} className="text-slate-500" /> DCII — 9 Primitives, Evidence Vault
                 </li>
                 <li className="flex gap-2 text-sm text-slate-300">
-                  <CheckCircle2 size={16} className="text-slate-500" /> Standard Support
+                  <CheckCircle2 size={16} className="text-slate-500" /> $50K pilot available (90 days)
                 </li>
               </ul>
               <button
-                onClick={() => navigate('/demo')}
+                onClick={() => navigate('/pricing')}
                 className="w-full py-3 border border-white/20 rounded hover:bg-white hover:text-black transition-colors font-medium"
               >
-                Start Free Trial
+                Start Foundation Pilot
               </button>
             </div>
 
-            {/* Growth */}
+            {/* Enterprise */}
             <div className="bg-slate-900 border border-amber-500/50 p-8 rounded-xl relative flex flex-col shadow-[0_0_30px_rgba(245,158,11,0.1)]">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-amber-500 text-black text-xs font-bold px-3 py-1 rounded-full">
                 MOST POPULAR
               </div>
               <div className="mb-4">
-                <h3 className="text-xl font-bold text-white">Growth</h3>
-                <p className="text-slate-400 text-sm">For growing businesses</p>
+                <h3 className="text-xl font-bold text-white">Enterprise</h3>
+                <p className="text-slate-400 text-sm">Harden, automate, and scale</p>
               </div>
               <div className="mb-6">
                 <span className="text-4xl font-bold text-white">
-                  {regions[activeRegion].symbol}
-                  {pricing.growth[activeRegion]}
+                  {pricing.enterprise[activeRegion]}
                 </span>
-                <span className="text-slate-500">/mo</span>
+                <span className="text-slate-500">/yr</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
                 <li className="flex gap-2 text-sm text-white">
-                  <CheckCircle2 size={16} className="text-amber-500" /> 5 User Seats
+                  <CheckCircle2 size={16} className="text-amber-500" /> All Foundation pillars
                 </li>
                 <li className="flex gap-2 text-sm text-white">
-                  <CheckCircle2 size={16} className="text-amber-500" /> All 6 Apex Packages
+                  <CheckCircle2 size={16} className="text-amber-500" /> Stress-Test, Comply, Govern
                 </li>
                 <li className="flex gap-2 text-sm text-white">
-                  <CheckCircle2 size={16} className="text-amber-500" /> Full Council Access (8
-                  Agents)
+                  <CheckCircle2 size={16} className="text-amber-500" /> Sovereign deploy & 19 co-pilots
                 </li>
                 <li className="flex gap-2 text-sm text-white">
-                  <CheckCircle2 size={16} className="text-amber-500" /> Priority Support
+                  <CheckCircle2 size={16} className="text-amber-500" /> SSO, dedicated success manager
                 </li>
               </ul>
               <button
-                onClick={() => navigate('/demo')}
+                onClick={() => navigate('/pricing')}
                 className="w-full py-3 bg-amber-500 rounded hover:bg-amber-400 text-black font-bold transition-colors"
               >
-                Get Started
+                Contact Sales
               </button>
             </div>
 
-            {/* Enterprise */}
+            {/* Strategic */}
             <div className="bg-black border border-white/10 p-8 rounded-xl hover:border-white/20 transition-all flex flex-col">
               <div className="mb-4">
-                <h3 className="text-xl font-bold text-white">Sovereign</h3>
-                <p className="text-slate-500 text-sm">For regulated organizations</p>
+                <h3 className="text-xl font-bold text-white">Strategic</h3>
+                <p className="text-slate-500 text-sm">From enterprise tool to strategic weapon</p>
               </div>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-white">Custom</span>
+                <span className="text-4xl font-bold text-white">
+                  {pricing.strategic[activeRegion]}
+                </span>
+                <span className="text-slate-500">/yr</span>
               </div>
               <ul className="space-y-3 mb-8 flex-1">
                 <li className="flex gap-2 text-sm text-slate-300">
-                  <CheckCircle2 size={16} className="text-slate-500" /> Unlimited Seats
+                  <CheckCircle2 size={16} className="text-slate-500" /> All 12 pillars
+                </li>
+                <li className="flex gap-2 text-sm text-slate-300">
+                  <CheckCircle2 size={16} className="text-slate-500" /> Resilience, Model, Dominate, Nation
                 </li>
                 <li className="flex gap-2 text-sm text-slate-300">
                   <CheckCircle2 size={16} className="text-slate-500" /> On-Prem / Air-Gapped

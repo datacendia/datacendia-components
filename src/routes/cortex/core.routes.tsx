@@ -7,7 +7,7 @@ import { RouteObject, Navigate } from 'react-router-dom';
 import { SuspenseWrapper } from '../utils';
 
 const DashboardPage = lazy(() =>
-  import('../../pages/cortex/DashboardPage').then((m) => ({ default: m.DashboardPage }))
+  import('../../pages/cortex/MissionControlDashboard').then((m) => ({ default: m.MissionControlDashboard }))
 );
 const GraphExplorerPage = lazy(() =>
   import('../../pages/cortex/graph/GraphExplorerPage').then((m) => ({ default: m.GraphExplorerPage }))

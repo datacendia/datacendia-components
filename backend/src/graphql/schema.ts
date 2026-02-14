@@ -38,10 +38,11 @@ export const typeDefs = gql`
   }
 
   enum SubscriptionTier {
-    FREE
-    PRO
+    PILOT
+    FOUNDATION
     ENTERPRISE
-    SOVEREIGN
+    STRATEGIC
+    CUSTOM
   }
 
   # Agent Types

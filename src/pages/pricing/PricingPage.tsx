@@ -148,55 +148,53 @@ const regions: Region[] = [
 
 const tiers: Tier[] = [
   {
-    id: 'starter',
-    name: 'Starter',
-    basePrice: 36000,
-    description: 'For teams beginning their decision intelligence journey',
+    id: 'foundation',
+    name: 'Foundation',
+    basePrice: 150000,
+    description: 'Make decisions → Understand them → Prove them',
     features: [
-      'Up to 5 users',
-      '100 deliberations/month',
-      '3 Council agents',
-      'Email support',
-      'Basic integrations',
-      'Standard reports',
-    ],
-    cta: 'Start Free Trial',
-    popular: false,
-  },
-  {
-    id: 'professional',
-    name: 'Professional',
-    basePrice: 120000,
-    description: 'For organizations ready to transform decision-making',
-    features: [
-      'Up to 25 users',
-      'Unlimited deliberations',
-      'All 8 Council agents',
+      'THE COUNCIL — 15 C-Suite agents, 35+ modes, CendiaLive™',
+      'DECIDE — Pre-Mortem, Ghost Board, Decision Debt, Chronos',
+      'DCII — 9 Primitives, IISS Scoring, Evidence Vault, Regulator\'s Receipt™',
+      'Up to 100 users',
+      '1,000 deliberations/month',
       'Priority support',
-      'All integrations',
-      'Custom reports',
-      'Decision Debt Dashboard',
-      'Pre-Mortem simulations',
+      '$50K pilot available (90 days)',
     ],
-    cta: 'Get Started',
-    popular: true,
+    cta: 'Start Foundation Pilot',
+    popular: false,
   },
   {
     id: 'enterprise',
     name: 'Enterprise',
-    basePrice: 350000,
-    description: 'For large organizations with complex decision needs',
+    basePrice: 500000,
+    description: 'Foundation + Stress-Test, Comply, Govern, Sovereign, Operate',
     features: [
-      'Unlimited users',
-      'Unlimited deliberations',
-      'All Council features',
-      'Dedicated success manager',
-      'Custom integrations',
-      'Ghost Board access',
-      'Regulatory Instant-Absorb',
-      'Live Demo Mode',
-      'SSO & advanced security',
-      'Custom agent training',
+      'All Foundation pillars',
+      'STRESS-TEST — CendiaCrucible™, Red Team, War Games',
+      'COMPLY — 10 frameworks, 17 jurisdictions, CendiaInsure™',
+      'GOVERN — Policy Engine, Protected Dissent, CendiaCourt™',
+      'SOVEREIGN — 21 patterns, Post-Quantum KMS, Air-Gap',
+      'OPERATE — 19 department co-pilots, CendiaOmniTranslate™',
+      'SSO, CAC/PIV auth & dedicated success manager',
+      'Unlimited deliberations & up to 500 users',
+    ],
+    cta: 'Contact Sales',
+    popular: true,
+  },
+  {
+    id: 'strategic',
+    name: 'Strategic',
+    basePrice: 2000000,
+    description: 'Enterprise + Resilience, Model, Dominate, Nation',
+    features: [
+      'All Enterprise pillars',
+      'RESILIENCE — COLLAPSE simulation, CendiaPhoenix™, CendiaEternal™',
+      'MODEL — SGAS population modeling, CendiaVox™, Policy Impact Simulator',
+      'DOMINATE — 8 industry verticals (48+ modes each), CendiaMesh™ M&A',
+      'NATION — CendiaNation™, multi-agency coordination, sovereign infrastructure',
+      'White-glove support & custom SLA',
+      'Unlimited users, agents & air-gap deploy',
     ],
     cta: 'Contact Sales',
     popular: false,
@@ -204,9 +202,8 @@ const tiers: Tier[] = [
 ];
 
 const commitmentOptions: CommitmentOption[] = [
-  { id: 'monthly', label: 'Monthly', discount: 0, multiplier: 1.0 },
-  { id: 'annual', label: 'Annual', discount: 15, multiplier: 0.85 },
-  { id: 'multi-year', label: '3-Year', discount: 30, multiplier: 0.7 },
+  { id: 'annual', label: 'Annual', discount: 0, multiplier: 1.0 },
+  { id: 'multi-year', label: '3-Year', discount: 20, multiplier: 0.8 },
 ];
 
 const faqs = [
@@ -223,12 +220,12 @@ const faqs = [
     a: 'We accept all major credit cards, wire transfers, and ACH. Enterprise customers can also pay via invoice with NET 30 terms.',
   },
   {
-    q: 'Is there a free trial?',
-    a: 'Yes! All plans include a 14-day free trial with full access to features. No credit card required to start.',
+    q: 'Is there a pilot program?',
+    a: 'Yes! We offer a $50,000 DCII pilot (90 days, 1 business unit) so you can prove value before committing to a Foundation license. Full access to Council, DECIDE, and DCII.',
   },
   {
     q: "What's your refund policy?",
-    a: "We offer a 30-day money-back guarantee on all annual plans. If you're not satisfied, we'll refund your payment in full.",
+    a: "We offer a 30-day satisfaction guarantee on all annual licenses. If you're not satisfied, we'll work with you to resolve any issues or provide a prorated refund.",
   },
   {
     q: 'Do you offer discounts for non-profits or education?',
@@ -238,7 +235,7 @@ const faqs = [
 
 export default function PricingPage() {
   const [selectedRegion, setSelectedRegion] = useState<Region>(regions[0]);
-  const [commitment, setCommitment] = useState<CommitmentOption>(commitmentOptions[1]);
+  const [commitment, setCommitment] = useState<CommitmentOption>(commitmentOptions[0]);
   const [showRegionSelector, setShowRegionSelector] = useState(false);
 
   const formatPrice = (basePrice: number, region: Region, commit: CommitmentOption) => {
@@ -562,18 +559,16 @@ export default function PricingPage() {
                 {formatPrice(tier.basePrice, selectedRegion, commitment)}
               </span>
               <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '16px' }}>
-                /{commitment.id === 'monthly' ? 'mo' : 'yr'}
+                /yr
               </span>
             </div>
 
-            {commitment.id !== 'monthly' && (
-              <div
-                style={{ fontSize: '14px', color: 'rgba(255,255,255,0.4)', marginBottom: '16px' }}
-              >
-                {getMonthlyEquivalent(tier.basePrice, selectedRegion, commitment)}/month billed{' '}
-                {commitment.id === 'annual' ? 'annually' : 'every 3 years'}
-              </div>
-            )}
+            <div
+              style={{ fontSize: '14px', color: 'rgba(255,255,255,0.4)', marginBottom: '16px' }}
+            >
+              {getMonthlyEquivalent(tier.basePrice, selectedRegion, commitment)}/month billed{' '}
+              {commitment.id === 'annual' ? 'annually' : 'every 3 years'}
+            </div>
 
             <p
               style={{

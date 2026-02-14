@@ -215,7 +215,24 @@ class ApiClient {
         }
       }
 
-      const data: ApiResponse<T> = await response.json();
+      // Safe JSON parse — handle empty or malformed responses
+      let data: ApiResponse<T>;
+      const text = await response.text();
+      if (!text || text.trim().length === 0) {
+        data = {
+          success: false,
+          error: { code: 'EMPTY_RESPONSE', message: `Empty response from ${endpoint}` },
+        };
+      } else {
+        try {
+          data = JSON.parse(text);
+        } catch {
+          data = {
+            success: false,
+            error: { code: 'PARSE_ERROR', message: `Invalid JSON from ${endpoint}` },
+          };
+        }
+      }
 
       if (!response.ok && !data.error) {
         data.success = false;

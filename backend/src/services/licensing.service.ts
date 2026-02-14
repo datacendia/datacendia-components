@@ -1,22 +1,23 @@
 /**
  * Licensing Service for Datacendia
  * 
- * Implements comprehensive licensing structure:
- * - Seat-based + Usage hybrid pricing
- * - Named vs Concurrent licensing options
- * - Module-based licensing for individual pillars
- * - Academic/Nonprofit tier (80% discount)
- * - Startup program (free under $1M ARR)
- * - Government/FedRAMP tier
- * - License key validation API
+ * 3-Tier Annual Enterprise Licensing:
+ *   Pilot:      $50,000 (90-day evaluation, 1 business unit)
+ *   Foundation:  $150,000–$500,000/year (Council + DECIDE + DCII)
+ *   Enterprise:  $500,000–$1,500,000/year (+ StressTest, Comply, Govern, Sovereign, Operate)
+ *   Strategic:   $2M–$100M+/year (+ Resilience, Model, Dominate, Nation)
+ *   Custom:      Negotiated (Government, Defense, Platinum)
+ * 
+ * Model: Sovereign-first enterprise software. Not SaaS. Annual licenses.
+ * Customer-owned infrastructure, keys, and proof.
  */
 
 import crypto from 'crypto';
 
 // License Types
 export type LicenseType = 'named' | 'concurrent' | 'site';
-export type LicenseTier = 'free' | 'starter' | 'pro' | 'enterprise' | 'sovereign' | 'academic' | 'nonprofit' | 'startup' | 'government';
-export type BillingCycle = 'monthly' | 'annual';
+export type LicenseTier = 'pilot' | 'foundation' | 'enterprise' | 'strategic' | 'custom';
+export type BillingCycle = 'annual';
 
 export interface LicenseModule {
   id: string;
@@ -71,151 +72,165 @@ export interface LicenseValidation {
   daysRemaining?: number;
 }
 
-// Pricing Configuration
+// Pricing Configuration — Annual Enterprise Licensing
 const TIER_PRICING: Record<LicenseTier, {
-  basePrice: number;
-  seatPrice: number;
+  annualMin: number;
+  annualMax: number;
+  pilotPrice: number;
   apiCallsIncluded: number;
   storageGB: number;
   deliberationsPerMonth: number;
   aiTokensPerMonth: number;
-  discount?: number;
+  pillars: string[];
 }> = {
-  free: {
-    basePrice: 0,
-    seatPrice: 0,
-    apiCallsIncluded: 1000,
-    storageGB: 1,
-    deliberationsPerMonth: 10,
-    aiTokensPerMonth: 10000,
-  },
-  starter: {
-    basePrice: 49,
-    seatPrice: 15,
-    apiCallsIncluded: 10000,
-    storageGB: 10,
+  pilot: {
+    annualMin: 50000,
+    annualMax: 50000,
+    pilotPrice: 50000,
+    apiCallsIncluded: 50000,
+    storageGB: 50,
     deliberationsPerMonth: 100,
-    aiTokensPerMonth: 100000,
+    aiTokensPerMonth: 500000,
+    pillars: ['council', 'decide', 'dcii'],
   },
-  pro: {
-    basePrice: 299,
-    seatPrice: 25,
-    apiCallsIncluded: 100000,
-    storageGB: 100,
+  foundation: {
+    annualMin: 150000,
+    annualMax: 500000,
+    pilotPrice: 50000,
+    apiCallsIncluded: 500000,
+    storageGB: 500,
     deliberationsPerMonth: 1000,
-    aiTokensPerMonth: 1000000,
+    aiTokensPerMonth: 5000000,
+    pillars: ['council', 'decide', 'dcii'],
   },
   enterprise: {
-    basePrice: 1499,
-    seatPrice: 35,
-    apiCallsIncluded: 1000000,
-    storageGB: 1000,
-    deliberationsPerMonth: 10000,
-    aiTokensPerMonth: 10000000,
+    annualMin: 500000,
+    annualMax: 1500000,
+    pilotPrice: 50000,
+    apiCallsIncluded: Infinity,
+    storageGB: 5000,
+    deliberationsPerMonth: Infinity,
+    aiTokensPerMonth: Infinity,
+    pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate'],
   },
-  sovereign: {
-    basePrice: 4999,
-    seatPrice: 50,
+  strategic: {
+    annualMin: 1500000,
+    annualMax: Infinity,
+    pilotPrice: 50000,
     apiCallsIncluded: Infinity,
     storageGB: Infinity,
     deliberationsPerMonth: Infinity,
     aiTokensPerMonth: Infinity,
+    pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate', 'collapse', 'sgas', 'verticals', 'frontier'],
   },
-  academic: {
-    basePrice: 99,
-    seatPrice: 5,
-    apiCallsIncluded: 50000,
-    storageGB: 50,
-    deliberationsPerMonth: 500,
-    aiTokensPerMonth: 500000,
-    discount: 0.80, // 80% discount
-  },
-  nonprofit: {
-    basePrice: 99,
-    seatPrice: 5,
-    apiCallsIncluded: 50000,
-    storageGB: 50,
-    deliberationsPerMonth: 500,
-    aiTokensPerMonth: 500000,
-    discount: 0.80,
-  },
-  startup: {
-    basePrice: 0,
-    seatPrice: 0,
-    apiCallsIncluded: 25000,
-    storageGB: 25,
-    deliberationsPerMonth: 250,
-    aiTokensPerMonth: 250000,
-  },
-  government: {
-    basePrice: 2999,
-    seatPrice: 45,
-    apiCallsIncluded: 500000,
-    storageGB: 500,
-    deliberationsPerMonth: 5000,
-    aiTokensPerMonth: 5000000,
+  custom: {
+    annualMin: 0,
+    annualMax: Infinity,
+    pilotPrice: 0,
+    apiCallsIncluded: Infinity,
+    storageGB: Infinity,
+    deliberationsPerMonth: Infinity,
+    aiTokensPerMonth: Infinity,
+    pillars: ['council', 'decide', 'dcii', 'stress_test', 'comply', 'govern', 'sovereign', 'operate', 'collapse', 'sgas', 'verticals', 'frontier'],
   },
 };
 
-// Available Modules
+// Available Modules — Pillar-based licensing
 const MODULES: LicenseModule[] = [
+  // Tier 1: Foundation Pillars
   {
     id: 'council',
-    name: 'The Council',
-    description: 'AI-powered multi-agent deliberation system',
-    price: 199,
-    features: ['Multi-agent deliberations', 'Cross-examination', 'Synthesis'],
+    name: 'THE COUNCIL',
+    description: 'Multi-agent AI deliberation system — the engine that produces decisions',
+    price: 0, // Included in Foundation
+    features: ['15 C-Suite agents', '35+ Council modes', 'CendiaLive™', 'CendiaReplay™', 'PersonaForge™'],
   },
   {
-    id: 'chronos',
-    name: 'CendiaChronos',
-    description: 'Enterprise time machine for audit and replay',
-    price: 299,
-    features: ['Timeline replay', 'State reconstruction', 'Audit trails'],
+    id: 'decide',
+    name: 'DECIDE',
+    description: 'Intelligence about every decision — before, during, and after',
+    price: 0, // Included in Foundation
+    features: ['CendiaChronos™', 'CendiaPreMortem™', 'Ghost Board™', 'Decision Debt™', 'CendiaEcho™', 'CendiaCascade™'],
   },
   {
-    id: 'graph',
-    name: 'The Graph',
-    description: 'Knowledge graph visualization and analytics',
-    price: 149,
-    features: ['Entity mapping', 'Relationship discovery', 'Graph queries'],
+    id: 'dcii',
+    name: 'DCII',
+    description: 'Decision Crisis Immunization Infrastructure — prove decisions survive scrutiny',
+    price: 0, // Included in Foundation
+    features: ['9 Primitives (P1-P9)', 'CendiaVault™', 'CendiaNotary™', 'CendiaIISS™', 'Regulator\'s Receipt™', 'CendiaBiasMitigation™'],
+  },
+  // Tier 2: Enterprise Pillars
+  {
+    id: 'stress_test',
+    name: 'STRESS-TEST',
+    description: 'Attack decisions before reality does',
+    price: 0, // Included in Enterprise
+    features: ['CendiaCrucible™', 'CendiaRedTeam™', 'War Games', 'SCGE', 'Monte Carlo Engine'],
+    requiredModules: ['council', 'decide', 'dcii'],
   },
   {
-    id: 'pulse',
-    name: 'The Pulse',
-    description: 'Real-time organizational health monitoring',
-    price: 99,
-    features: ['Health metrics', 'Anomaly detection', 'Alerts'],
+    id: 'comply',
+    name: 'COMPLY',
+    description: 'Stay legal everywhere, automatically',
+    price: 0, // Included in Enterprise
+    features: ['CendiaPanopticon™', 'Regulatory Absorb™', 'Compliance Monitor', '10 Frameworks', 'CendiaInsure™'],
+    requiredModules: ['dcii'],
   },
   {
-    id: 'predict',
-    name: 'The Predict',
-    description: 'Monte Carlo simulations and forecasting',
-    price: 249,
-    features: ['Scenario modeling', 'Uncertainty cones', 'What-if analysis'],
-    requiredModules: ['chronos'],
-  },
-  {
-    id: 'guard',
-    name: 'The Guard',
-    description: 'Security and compliance monitoring',
-    price: 199,
-    features: ['Threat detection', 'Compliance scanning', 'Access control'],
-  },
-  {
-    id: 'ethics',
-    name: 'The Ethics',
-    description: 'AI ethics and bias detection',
-    price: 149,
-    features: ['Bias detection', 'Fairness metrics', 'Ethics reports'],
-  },
-  {
-    id: 'agents',
-    name: 'Custom Agents',
-    description: 'Create and deploy custom AI agents',
-    price: 299,
-    features: ['Agent builder', 'Custom personas', 'Specialized expertise'],
+    id: 'govern',
+    name: 'GOVERN',
+    description: 'Rules, oversight, and accountability',
+    price: 0, // Included in Enterprise
+    features: ['CendiaGovern™', 'CendiaCourt™', 'CendiaDissent™', 'CendiaAutopilot™', 'Logic Gate'],
     requiredModules: ['council'],
+  },
+  {
+    id: 'sovereign',
+    name: 'SOVEREIGN',
+    description: 'Your infrastructure, your keys, your proof',
+    price: 0, // Included in Enterprise
+    features: ['21 Sovereign Patterns', 'Post-Quantum KMS', 'CendiaBlackBox™', 'Federated Mesh', 'CAC/PIV Auth'],
+  },
+  {
+    id: 'operate',
+    name: 'OPERATE (CendiaOps™)',
+    description: 'AI co-pilots for every department',
+    price: 0, // Included in Enterprise
+    features: ['19 Department Co-Pilots', 'CendiaOmniTranslate™', 'CendiaApotheosis™', 'CendiaPulse'],
+    requiredModules: ['council'],
+  },
+  // Tier 3: Strategic Pillars
+  {
+    id: 'collapse',
+    name: 'RESILIENCE',
+    description: 'Institutional survival systems — collapse simulation, recovery, century-grade preservation',
+    price: 0, // Included in Strategic
+    features: ['COLLAPSE Simulation', 'CendiaPhoenix™', 'CendiaEternal™', 'CendiaHorizon™', 'Succession Engine', 'Institutional Memory Architecture'],
+    requiredModules: ['council', 'stress_test'],
+  },
+  {
+    id: 'sgas',
+    name: 'MODEL',
+    description: 'Understand society before you act on it — population modeling, stakeholder voice, policy simulation',
+    price: 0, // Included in Strategic
+    features: ['SGAS Population Modeling', 'CendiaVox™', 'CendiaNarratives™', 'Synthetic Population Engine', 'Policy Impact Simulator'],
+    requiredModules: ['council'],
+  },
+  {
+    id: 'verticals',
+    name: 'DOMINATE',
+    description: 'Own your industry — 8 deep verticals with 48+ modes each',
+    price: 0, // Included in Strategic
+    features: ['Legal Vertical', 'Healthcare Vertical', 'Finance Vertical', 'Sports Vertical', 'Energy Vertical', 'Defense Vertical', 'Government Vertical', 'Insurance Vertical', 'CendiaMesh™ M&A', 'CendiaGlass™ AR'],
+    requiredModules: ['council', 'decide', 'comply'],
+  },
+  {
+    id: 'frontier',
+    name: 'NATION',
+    description: 'Governance at national scale — policy modeling, multi-agency coordination, sovereign infrastructure',
+    price: 0, // Included in Strategic
+    features: ['CendiaNation™', 'National Compliance Framework', 'Multi-Agency Coordination', 'Sovereign National Infrastructure'],
+    requiredModules: ['council', 'decide', 'dcii', 'sovereign'],
   },
 ];
 
@@ -249,17 +264,17 @@ class LicensingService {
   }): Promise<License> {
     const tierConfig = TIER_PRICING[options.tier];
     const now = new Date();
-    const durationMonths = options.billingCycle === 'annual' ? 12 : 1;
+    const durationMonths = options.tier === 'pilot' ? 3 : 12;
     
     const license: License = {
       id: `lic_${crypto.randomUUID()}`,
       key: this.generateLicenseKey(),
       organizationId: options.organizationId,
       tier: options.tier,
-      type: options.type || 'named',
-      modules: options.modules || ['council', 'graph', 'pulse'],
-      seats: options.seats || (options.tier === 'free' ? 3 : 10),
-      billingCycle: options.billingCycle || 'monthly',
+      type: options.type || 'site',
+      modules: options.modules || tierConfig.pillars,
+      seats: options.seats || 50,
+      billingCycle: options.billingCycle || 'annual',
       startDate: now,
       expirationDate: new Date(now.getTime() + durationMonths * 30 * 24 * 60 * 60 * 1000),
       isActive: true,
@@ -430,6 +445,7 @@ class LicensingService {
 
   /**
    * Calculate price for a license configuration
+   * All pricing is annual enterprise licensing — not SaaS.
    */
   calculatePrice(options: {
     tier: LicenseTier;
@@ -437,50 +453,20 @@ class LicensingService {
     modules?: string[];
     billingCycle: BillingCycle;
   }): {
-    basePrice: number;
-    seatPrice: number;
-    modulePrice: number;
-    discount: number;
-    subtotal: number;
-    annualDiscount: number;
+    annualMin: number;
+    annualMax: number;
+    pilotPrice: number;
+    pillarsIncluded: string[];
     total: number;
   } {
     const tierConfig = TIER_PRICING[options.tier];
-    
-    const basePrice = tierConfig.basePrice;
-    const seatPrice = options.seats * tierConfig.seatPrice;
-    
-    let modulePrice = 0;
-    if (options.modules) {
-      for (const moduleId of options.modules) {
-        const module = MODULES.find(m => m.id === moduleId);
-        if (module) {
-          modulePrice += module.price;
-        }
-      }
-    }
-
-    let subtotal = basePrice + seatPrice + modulePrice;
-    
-    // Apply tier discount (e.g., academic/nonprofit 80%)
-    const tierDiscount = tierConfig.discount || 0;
-    const discountAmount = subtotal * tierDiscount;
-    subtotal -= discountAmount;
-
-    // Annual discount (20%)
-    const annualDiscount = options.billingCycle === 'annual' ? subtotal * 0.20 : 0;
-    const total = options.billingCycle === 'annual' 
-      ? (subtotal - annualDiscount) * 12 
-      : subtotal;
 
     return {
-      basePrice,
-      seatPrice,
-      modulePrice,
-      discount: discountAmount,
-      subtotal,
-      annualDiscount,
-      total: Math.round(total * 100) / 100,
+      annualMin: tierConfig.annualMin,
+      annualMax: tierConfig.annualMax === Infinity ? 0 : tierConfig.annualMax,
+      pilotPrice: tierConfig.pilotPrice,
+      pillarsIncluded: tierConfig.pillars,
+      total: tierConfig.annualMin,
     };
   }
 
@@ -547,32 +533,17 @@ class LicensingService {
   }
 
   /**
-   * Verify startup eligibility (under $1M ARR)
+   * Get pillars available for a tier
    */
-  async verifyStartupEligibility(organizationId: string, annualRevenue: number): Promise<boolean> {
-    const isEligible = annualRevenue < 1000000;
-    console.log(`[Licensing] Startup eligibility for org ${organizationId}: ${isEligible} (ARR: $${annualRevenue})`);
-    return isEligible;
+  getPillarsForTier(tier: LicenseTier): string[] {
+    return TIER_PRICING[tier]?.pillars || [];
   }
 
   /**
-   * Apply academic/nonprofit discount
+   * Check if a pillar is available for a tier
    */
-  async applyEducationalDiscount(
-    licenseId: string,
-    type: 'academic' | 'nonprofit',
-    verificationDocumentUrl: string
-  ): Promise<boolean> {
-    const license = this.licenses.get(licenseId);
-    if (!license) return false;
-
-    license.tier = type;
-    license.metadata.educationalVerification = verificationDocumentUrl;
-    license.metadata.discountApplied = true;
-    license.updatedAt = new Date();
-
-    console.log(`[Licensing] Applied ${type} discount to license ${licenseId}`);
-    return true;
+  hasPillar(tier: LicenseTier, pillarId: string): boolean {
+    return this.getPillarsForTier(tier).includes(pillarId);
   }
 }
 

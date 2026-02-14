@@ -49,7 +49,7 @@ export interface PostDeliberationAction {
   prerequisites?: string[];
   
   // Permissions
-  requiredPlan: 'starter' | 'professional' | 'enterprise' | 'unlimited';
+  requiredPlan: 'pilot' | 'foundation' | 'enterprise' | 'strategic';
   
   // State
   status: ActionStatus;
@@ -143,7 +143,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'immediate',
     icon: '📅',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'assign-owners',
@@ -154,7 +154,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'TheBridge',
     toolSuite: 'core',
     requiresConfirmation: false,
-    requiredPlan: 'starter',
+    requiredPlan: 'pilot',
   },
   {
     id: 'create-tasks',
@@ -163,7 +163,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'immediate',
     icon: '📋',
     requiresConfirmation: false,
-    requiredPlan: 'starter',
+    requiredPlan: 'pilot',
   },
   {
     id: 'export-report',
@@ -172,7 +172,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'immediate',
     icon: '📄',
     requiresConfirmation: false,
-    requiredPlan: 'starter',
+    requiredPlan: 'pilot',
   },
 
   // =========================================================================
@@ -188,7 +188,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     toolSuite: 'decision-intelligence',
     requiresConfirmation: false,
     estimatedDuration: '3-5 minutes',
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'ghost-board',
@@ -211,7 +211,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'DecisionDNA',
     toolSuite: 'decision-intelligence',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'sensitivity-analysis',
@@ -221,7 +221,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     icon: '📊',
     requiresConfirmation: false,
     estimatedDuration: '2-3 minutes',
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'second-opinion',
@@ -231,7 +231,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     icon: '🔄',
     requiresConfirmation: false,
     estimatedDuration: '5-8 minutes',
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
 
   // =========================================================================
@@ -255,7 +255,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'iterate',
     icon: '➕',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'change-scope',
@@ -264,7 +264,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'iterate',
     icon: '🔍',
     requiresConfirmation: true,
-    requiredPlan: 'starter',
+    requiredPlan: 'pilot',
   },
   {
     id: 'what-if',
@@ -275,7 +275,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'TheLens',
     toolSuite: 'core',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'persona-forge',
@@ -321,7 +321,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'govern',
     icon: '📁',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'risk-register',
@@ -330,7 +330,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'govern',
     icon: '⚠️',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
 
   // =========================================================================
@@ -376,7 +376,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'communicate',
     icon: '📧',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'presentation-deck',
@@ -385,7 +385,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'communicate',
     icon: '🖥️',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
 
   // =========================================================================
@@ -400,7 +400,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'DecisionDebt',
     toolSuite: 'decision-intelligence',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'live-data-mode',
@@ -411,7 +411,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'LiveDemoMode',
     toolSuite: 'decision-intelligence',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'pulse-monitor',
@@ -422,7 +422,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'ThePulse',
     toolSuite: 'core',
     requiresConfirmation: false,
-    requiredPlan: 'starter',
+    requiredPlan: 'pilot',
   },
   {
     id: 'graph-integration',
@@ -433,7 +433,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     integratedTool: 'TheGraph',
     toolSuite: 'core',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'kpi-tracking',
@@ -442,7 +442,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'monitor',
     icon: '📈',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
 
   // =========================================================================
@@ -466,7 +466,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'automate',
     icon: '⚡',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'recurring-review',
@@ -475,7 +475,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'automate',
     icon: '🔁',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
   {
     id: 'escalation-rules',
@@ -484,7 +484,7 @@ const AVAILABLE_ACTIONS: Omit<PostDeliberationAction, 'status'>[] = [
     category: 'automate',
     icon: '🚨',
     requiresConfirmation: false,
-    requiredPlan: 'professional',
+    requiredPlan: 'foundation',
   },
 ];
 
@@ -529,7 +529,7 @@ export class PostDeliberationService extends BaseService {
     deliberationId: string,
     userId: string,
     organizationId: string,
-    userPlan: 'starter' | 'professional' | 'enterprise' | 'unlimited' = 'professional'
+    userPlan: 'pilot' | 'trial' | 'foundation' | 'enterprise' | 'strategic' | 'custom' = 'foundation'
   ): Promise<PostDeliberationSession> {
     this.logger.info(`Creating post-deliberation session for ${deliberationId}`);
 
@@ -553,8 +553,8 @@ export class PostDeliberationService extends BaseService {
       }))
     );
 
-    // Get available actions based on user plan
-    const planHierarchy = ['starter', 'professional', 'enterprise', 'unlimited'];
+    // Get available actions based on user plan (3-tier annual licensing)
+    const planHierarchy = ['trial', 'pilot', 'foundation', 'enterprise', 'strategic', 'custom'];
     const userPlanIndex = planHierarchy.indexOf(userPlan);
     
     const availableActions: PostDeliberationAction[] = AVAILABLE_ACTIONS.map(action => {

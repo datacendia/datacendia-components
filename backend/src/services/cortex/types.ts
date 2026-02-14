@@ -1,8 +1,33 @@
 /**
  * Cortex Core API Types
+ * 
+ * 3-Tier Architecture: Foundation → Enterprise → Strategic
+ * 12 Pillars (IDs → Display Names):
+ *   Foundation:  council (THE COUNCIL), decide (DECIDE), dcii (DCII)
+ *   Enterprise:  stress_test (STRESS-TEST), comply (COMPLY), govern (GOVERN), sovereign (SOVEREIGN), operate (OPERATE)
+ *   Strategic:   collapse (RESILIENCE), sgas (MODEL), verticals (DOMINATE), frontier (NATION)
+ * 
+ * Legacy pillar names (helm, lineage, predict, flow, health, guard, ethics, agents)
+ * are retained for backward compatibility with existing Cortex query routing.
  */
 
-export type PillarName = 'helm' | 'lineage' | 'predict' | 'flow' | 'health' | 'guard' | 'ethics' | 'agents';
+// Legacy pillar names for backward-compatible Cortex query routing
+export type LegacyPillarName = 'helm' | 'lineage' | 'predict' | 'flow' | 'health' | 'guard' | 'ethics' | 'agents';
+
+// New 3-tier pillar names
+export type PlatformPillarName =
+  // Tier 1: Foundation
+  | 'council' | 'decide' | 'dcii'
+  // Tier 2: Enterprise
+  | 'stress_test' | 'comply' | 'govern' | 'sovereign' | 'operate'
+  // Tier 3: Strategic
+  | 'collapse' | 'sgas' | 'verticals' | 'frontier';
+
+// Union type — accepts both legacy and new pillar names
+export type PillarName = LegacyPillarName | PlatformPillarName;
+
+// Platform tier type
+export type PlatformTier = 'foundation' | 'enterprise' | 'strategic';
 
 export interface QueryContext {
   organizationId: string;

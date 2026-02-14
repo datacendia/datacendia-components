@@ -157,7 +157,7 @@ function getMockTenants(): Tenant[] {
       id: 't2',
       name: 'TechStart Inc',
       slug: 'techstart',
-      plan: 'professional',
+      plan: 'foundation',
       status: 'active',
       users: 45,
       maxUsers: 100,
@@ -173,7 +173,7 @@ function getMockTenants(): Tenant[] {
       id: 't3',
       name: 'Global Finance Group',
       slug: 'globalfin',
-      plan: 'sovereign',
+      plan: 'strategic',
       status: 'active',
       users: 320,
       maxUsers: 1000,
@@ -189,7 +189,7 @@ function getMockTenants(): Tenant[] {
       id: 't4',
       name: 'StartupXYZ',
       slug: 'startupxyz',
-      plan: 'starter',
+      plan: 'pilot',
       status: 'trial',
       users: 5,
       maxUsers: 10,
@@ -220,7 +220,7 @@ function getMockTenants(): Tenant[] {
       id: 't6',
       name: 'RetailMax',
       slug: 'retailmax',
-      plan: 'professional',
+      plan: 'foundation',
       status: 'suspended',
       users: 32,
       maxUsers: 50,
@@ -242,7 +242,7 @@ function getDefaultMetrics(): TenantMetrics {
     trial: 12,
     suspended: 8,
     churned: 9,
-    byPlan: { free: 15, starter: 32, professional: 45, enterprise: 28, sovereign: 7 },
+    byPlan: { pilot: 15, foundation: 32, enterprise: 45, strategic: 28, custom: 7 },
     totalUsers: 3482,
     totalDeliberations: 45600,
     totalApiCalls: 12500000,
@@ -275,23 +275,20 @@ const StatusBadge: React.FC<{ status: Tenant['status'] }> = ({ status }) => {
 };
 
 const PlanBadge: React.FC<{ plan: Tenant['plan'] }> = ({ plan }) => {
-  const planLower = (plan || 'free').toLowerCase();
+  const planLower = (plan || 'pilot').toLowerCase();
   const configs: Record<string, { bg: string; text: string }> = {
-    free: { bg: 'bg-neutral-700', text: 'text-neutral-300' },
-    starter: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
-    professional: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
-    enterprise: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
-    sovereign: { bg: 'bg-gradient-to-r from-amber-600 to-orange-600', text: 'text-white' },
+    pilot: { bg: 'bg-neutral-700', text: 'text-neutral-300' },
     trial: { bg: 'bg-cyan-900/50', text: 'text-cyan-300' },
     foundation: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
-    intelligence: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
-    governance: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
+    enterprise: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
+    strategic: { bg: 'bg-gradient-to-r from-amber-600 to-orange-600', text: 'text-white' },
+    custom: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
   };
-  const config = configs[planLower] || configs.free;
+  const config = configs[planLower] || configs.pilot;
 
   return (
     <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase ${config.bg} ${config.text}`}>
-      {plan || 'Free'}
+      {plan || 'Pilot'}
     </span>
   );
 };
@@ -499,11 +496,11 @@ export const TenantsPage: React.FC = () => {
             className="px-3 py-2 bg-neutral-900 border border-neutral-600 rounded-lg text-white focus:outline-none focus:border-amber-500"
           >
             <option value="all">All Plans</option>
-            <option value="free">Free</option>
-            <option value="starter">Starter</option>
-            <option value="professional">Professional</option>
+            <option value="pilot">Pilot</option>
+            <option value="foundation">Foundation</option>
             <option value="enterprise">Enterprise</option>
-            <option value="sovereign">Sovereign</option>
+            <option value="strategic">Strategic</option>
+            <option value="custom">Custom</option>
           </select>
         </div>
       </div>

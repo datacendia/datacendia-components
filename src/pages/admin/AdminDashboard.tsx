@@ -13,7 +13,7 @@ interface Tenant {
   id: string;
   name: string;
   slug: string;
-  tier: 'free' | 'pro' | 'enterprise' | 'sovereign';
+  tier: 'pilot' | 'foundation' | 'enterprise' | 'strategic';
   status: 'active' | 'suspended' | 'trial' | 'churned';
   users: number;
   deliberations: number;
@@ -73,7 +73,7 @@ const mockTenants: Tenant[] = [
     id: 't2',
     name: 'TechStart Inc',
     slug: 'techstart',
-    tier: 'pro',
+    tier: 'foundation',
     status: 'active',
     users: 45,
     deliberations: 890,
@@ -86,7 +86,7 @@ const mockTenants: Tenant[] = [
     id: 't3',
     name: 'Global Finance',
     slug: 'globalfin',
-    tier: 'sovereign',
+    tier: 'strategic',
     status: 'active',
     users: 320,
     deliberations: 5600,
@@ -99,7 +99,7 @@ const mockTenants: Tenant[] = [
     id: 't4',
     name: 'StartupXYZ',
     slug: 'startupxyz',
-    tier: 'free',
+    tier: 'pilot',
     status: 'trial',
     users: 5,
     deliberations: 23,
@@ -267,7 +267,7 @@ const AdminDashboard: React.FC = () => {
     healthyServices: services.filter((s) => s.status === 'healthy').length,
     totalServices: services.length,
     mrr: tenants.reduce((sum, t) => {
-      const prices = { free: 0, pro: 299, enterprise: 1499, sovereign: 4999 };
+      const prices: Record<string, number> = { pilot: 0, foundation: 12500, enterprise: 41667, strategic: 125000 };
       return sum + prices[t.tier];
     }, 0),
   };
@@ -286,11 +286,11 @@ const AdminDashboard: React.FC = () => {
     }
   };
 
-  const tierColors = {
-    free: 'bg-neutral-100 text-neutral-700',
-    pro: 'bg-blue-100 text-blue-700',
+  const tierColors: Record<string, string> = {
+    pilot: 'bg-neutral-100 text-neutral-700',
+    foundation: 'bg-blue-100 text-blue-700',
     enterprise: 'bg-purple-100 text-purple-700',
-    sovereign: 'bg-amber-100 text-amber-700',
+    strategic: 'bg-amber-100 text-amber-700',
   };
 
   const statusColors = {

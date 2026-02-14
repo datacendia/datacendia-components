@@ -19,7 +19,7 @@ export interface DomainAgent {
   defaultPersonality?: PersonalityTraitId[];
   enabledTraits?: PersonalityTraitId[];
   premium?: boolean;
-  premiumTier?: 'pro' | 'enterprise';
+  premiumTier?: 'pilot' | 'foundation' | 'enterprise' | 'strategic';
   premiumPackage?: string;
   premiumPrice?: string;
   isCustom?: boolean;
