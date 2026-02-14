@@ -8,6 +8,7 @@ export { syntheticMediaAuthService } from './SyntheticMediaAuthService.js';
 export { crossJurisdictionConflictService } from './CrossJurisdictionConflictService.js';
 export { timestampAuthorityService } from './TimestampAuthorityService.js';
 export { decisionSimilarityService } from './DecisionSimilarityService.js';
+export { cognitiveBiasMitigationService } from './CognitiveBiasMitigationService.js';
 
 // Re-export types
 export type {
@@ -67,3 +68,12 @@ export type {
   MatchStrength,
   OutcomeStatus,
 } from './DecisionSimilarityService.js';
+
+export type {
+  BiasType,
+  BiasRisk,
+  MitigationStatus,
+  BiasDetection,
+  BiasAnalysis,
+  BiasReport,
+} from './CognitiveBiasMitigationService.js';

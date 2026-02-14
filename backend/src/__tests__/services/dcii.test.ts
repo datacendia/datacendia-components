@@ -1,16 +1,18 @@
 /**
  * DCII - Decision Crisis Immunization Infrastructure™ Tests
  * 
- * Comprehensive test suite for all 5 DCII services:
- * 1. IISSService - Institutional Immune System Score
- * 2. SyntheticMediaAuthService - Media Authentication & Deepfake Detection
- * 3. CrossJurisdictionConflictService - Regulatory Conflict Detection
- * 4. TimestampAuthorityService - RFC 3161 Timestamps
- * 5. DecisionSimilarityService - Proactive Historical Matching
+ * Comprehensive test suite for all 6 DCII services supporting 9 Primitives:
+ * 1. IISSService - Institutional Immune System Score (9 primitives)
+ * 2. CognitiveBiasMitigationService - Cognitive Bias Detection (P6)
+ * 3. SyntheticMediaAuthService - Media Authentication & Deepfake Detection (P8)
+ * 4. CrossJurisdictionConflictService - Regulatory Conflict Detection (P9)
+ * 5. TimestampAuthorityService - RFC 3161 Timestamps (P1)
+ * 6. DecisionSimilarityService - Proactive Historical Matching
  */
 
 import { describe, it, expect, beforeAll } from 'vitest';
 import { iissService } from '../../services/dcii/IISSService.js';
+import { cognitiveBiasMitigationService } from '../../services/dcii/CognitiveBiasMitigationService.js';
 import { syntheticMediaAuthService } from '../../services/dcii/SyntheticMediaAuthService.js';
 import { crossJurisdictionConflictService } from '../../services/dcii/CrossJurisdictionConflictService.js';
 import { timestampAuthorityService } from '../../services/dcii/TimestampAuthorityService.js';
@@ -34,15 +36,19 @@ describe('IISSService', () => {
       expect(['none', 'bronze', 'silver', 'gold', 'platinum']).toContain(score.certificationLevel);
     });
 
-    it('should include 5 dimensions', async () => {
+    it('should include 9 dimensions (all 9 DCII primitives)', async () => {
       const score = await iissService.calculateScore('org-test-dims', 'Dims Corp', 'test-user');
-      expect(score.dimensions).toHaveLength(5);
+      expect(score.dimensions).toHaveLength(9);
       const primitives = score.dimensions.map(d => d.primitive);
       expect(primitives).toContain('discovery_time_proof');
       expect(primitives).toContain('deliberation_capture');
       expect(primitives).toContain('override_accountability');
       expect(primitives).toContain('continuity_memory');
       expect(primitives).toContain('drift_detection');
+      expect(primitives).toContain('cognitive_bias_mitigation');
+      expect(primitives).toContain('quantum_resistant_integrity');
+      expect(primitives).toContain('synthetic_media_authentication');
+      expect(primitives).toContain('cross_jurisdiction_compliance');
     });
 
     it('should include controls per dimension', async () => {
@@ -118,7 +124,7 @@ describe('IISSService', () => {
 
     it('should return dimension definitions', () => {
       const dims = iissService.getDimensionDefinitions();
-      expect(dims).toHaveLength(5);
+      expect(dims).toHaveLength(9);
       const totalWeight = dims.reduce((s, d) => s + d.weight, 0);
       expect(totalWeight).toBeCloseTo(1.0, 5);
     });
@@ -141,7 +147,153 @@ describe('IISSService', () => {
 });
 
 // =============================================================================
-// 2. SYNTHETIC MEDIA AUTH SERVICE TESTS
+// 2. COGNITIVE BIAS MITIGATION SERVICE TESTS (P6)
+// =============================================================================
+
+describe('CognitiveBiasMitigationService', () => {
+  describe('analyzeDeliberation', () => {
+    it('should detect groupthink when unanimous vote with no dissent', async () => {
+      const analysis = await cognitiveBiasMitigationService.analyzeDeliberation({
+        organizationId: 'org-test',
+        deliberationId: 'delib-1',
+        deliberationTitle: 'Test Deliberation',
+        deliberationDurationMinutes: 30,
+        agentCount: 5,
+        dissentCount: 0,
+        devilsAdvocatePresent: false,
+        challengeCount: 0,
+        unanimousVote: true,
+        arguments: [
+          { agentRole: 'CFO', position: 'Approve', evidence: ['data'], sentiment: 'support' },
+          { agentRole: 'CTO', position: 'Approve', evidence: ['data'], sentiment: 'support' },
+          { agentRole: 'CLO', position: 'Approve', evidence: ['data'], sentiment: 'support' },
+          { agentRole: 'COO', position: 'Approve', evidence: ['data'], sentiment: 'support' },
+          { agentRole: 'CMO', position: 'Approve', evidence: ['data'], sentiment: 'support' },
+        ],
+        analyzedBy: 'test-user',
+      });
+      expect(analysis).toBeDefined();
+      expect(analysis.id).toBeDefined();
+      expect(analysis.biasCount).toBeGreaterThan(0);
+      const groupthink = analysis.biasesDetected.find(b => b.biasType === 'groupthink');
+      expect(groupthink).toBeDefined();
+      expect(groupthink!.risk).toBe('high');
+      expect(analysis.groupthinkIndicators.unanimousVote).toBe(true);
+      expect(analysis.groupthinkIndicators.dissentCount).toBe(0);
+      expect(analysis.groupthinkIndicators.devilsAdvocatePresent).toBe(false);
+    });
+
+    it('should detect rubber-stamping when duration too short', async () => {
+      const analysis = await cognitiveBiasMitigationService.analyzeDeliberation({
+        organizationId: 'org-test',
+        deliberationId: 'delib-2',
+        deliberationTitle: 'Quick Approval',
+        deliberationDurationMinutes: 2,
+        agentCount: 5,
+        dissentCount: 1,
+        devilsAdvocatePresent: true,
+        challengeCount: 3,
+        unanimousVote: false,
+        arguments: [
+          { agentRole: 'CFO', position: 'Approve', evidence: [], sentiment: 'support' },
+          { agentRole: 'CTO', position: 'Approve', evidence: [], sentiment: 'support' },
+          { agentRole: 'CLO', position: 'Concern', evidence: [], sentiment: 'oppose' },
+        ],
+        analyzedBy: 'test-user',
+      });
+      expect(analysis.rubberStampDetected).toBe(true);
+      expect(analysis.deliberationDurationMinutes).toBe(2);
+      expect(analysis.minimumExpectedMinutes).toBeGreaterThan(2);
+    });
+
+    it('should include integrity hash', async () => {
+      const analysis = await cognitiveBiasMitigationService.analyzeDeliberation({
+        organizationId: 'org-test',
+        deliberationId: 'delib-3',
+        deliberationTitle: 'Integrity Test',
+        deliberationDurationMinutes: 45,
+        agentCount: 3,
+        dissentCount: 1,
+        devilsAdvocatePresent: true,
+        challengeCount: 5,
+        unanimousVote: false,
+        arguments: [],
+        analyzedBy: 'test-user',
+      });
+      expect(analysis.integrity).toBeDefined();
+      expect(analysis.integrity.analysisHash).toHaveLength(64);
+      expect(analysis.integrity.algorithm).toBe('SHA-256');
+    });
+  });
+
+  describe('mitigateBias', () => {
+    it('should mitigate a detected bias', async () => {
+      const analysis = await cognitiveBiasMitigationService.analyzeDeliberation({
+        organizationId: 'org-test',
+        deliberationId: 'delib-mit',
+        deliberationTitle: 'Mitigation Test',
+        deliberationDurationMinutes: 30,
+        agentCount: 5,
+        dissentCount: 0,
+        devilsAdvocatePresent: false,
+        challengeCount: 0,
+        unanimousVote: true,
+        arguments: [
+          { agentRole: 'CFO', position: 'Yes', evidence: [], sentiment: 'support' },
+          { agentRole: 'CTO', position: 'Yes', evidence: [], sentiment: 'support' },
+          { agentRole: 'CLO', position: 'Yes', evidence: [], sentiment: 'support' },
+          { agentRole: 'COO', position: 'Yes', evidence: [], sentiment: 'support' },
+        ],
+        analyzedBy: 'test-user',
+      });
+      const biasToMitigate = analysis.biasesDetected[0];
+      if (biasToMitigate) {
+        const mitigated = cognitiveBiasMitigationService.mitigateBias(
+          analysis.id, biasToMitigate.id, 'Added Devil\'s Advocate agent and re-ran deliberation', 'test-user'
+        );
+        expect(mitigated).toBeDefined();
+        expect(mitigated!.status).toBe('mitigated');
+        expect(mitigated!.mitigatedBy).toBe('test-user');
+      }
+    });
+  });
+
+  describe('getBiasDefinitions', () => {
+    it('should return all 12 bias type definitions', () => {
+      const defs = cognitiveBiasMitigationService.getBiasDefinitions();
+      expect(Object.keys(defs)).toHaveLength(12);
+      expect(defs.anchoring).toBeDefined();
+      expect(defs.confirmation).toBeDefined();
+      expect(defs.groupthink).toBeDefined();
+      expect(defs.availability).toBeDefined();
+      expect(defs.sunk_cost).toBeDefined();
+      expect(defs.overconfidence).toBeDefined();
+      expect(defs.bandwagon).toBeDefined();
+      expect(defs.framing).toBeDefined();
+      expect(defs.status_quo).toBeDefined();
+      expect(defs.recency).toBeDefined();
+      expect(defs.authority).toBeDefined();
+      expect(defs.survivorship).toBeDefined();
+    });
+  });
+
+  describe('generateReport', () => {
+    it('should generate a bias report for an organization', () => {
+      const from = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
+      const to = new Date();
+      const report = cognitiveBiasMitigationService.generateReport('org-test', from, to);
+      expect(report).toBeDefined();
+      expect(report.id).toBeDefined();
+      expect(report.organizationId).toBe('org-test');
+      expect(report.totalDeliberations).toBeGreaterThanOrEqual(0);
+      expect(typeof report.rubberStampRate).toBe('number');
+      expect(typeof report.devilsAdvocateUsageRate).toBe('number');
+    });
+  });
+});
+
+// =============================================================================
+// 3. SYNTHETIC MEDIA AUTH SERVICE TESTS
 // =============================================================================
 
 describe('SyntheticMediaAuthService', () => {

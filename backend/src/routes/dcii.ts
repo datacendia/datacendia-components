@@ -1,12 +1,13 @@
 /**
  * DCII - Decision Crisis Immunization Infrastructure™ API Routes
  * 
- * Comprehensive API for all 5 DCII gap-closing services:
- * 1. IISS (Institutional Immune System Score)
- * 2. Synthetic Media Authentication
- * 3. Cross-Jurisdiction Compliance Conflict Detection
- * 4. RFC 3161 Timestamp Authority
- * 5. Decision Similarity (Proactive Historical Matching)
+ * Comprehensive API for all 6 DCII services supporting the 9 Primitives:
+ * 1. IISS (Institutional Immune System Score) — scores all 9 primitives
+ * 2. Cognitive Bias Mitigation (P6) — detect & challenge biases
+ * 3. Synthetic Media Authentication (P8) — deepfake detection & C2PA
+ * 4. Cross-Jurisdiction Compliance (P9) — conflict detection
+ * 5. RFC 3161 Timestamp Authority (P1) — cryptographic timestamps
+ * 6. Decision Similarity — proactive historical matching
  */
 
 import { Router, Request, Response } from 'express';
@@ -16,6 +17,7 @@ import { syntheticMediaAuthService } from '../services/dcii/SyntheticMediaAuthSe
 import { crossJurisdictionConflictService } from '../services/dcii/CrossJurisdictionConflictService.js';
 import { timestampAuthorityService } from '../services/dcii/TimestampAuthorityService.js';
 import { decisionSimilarityService } from '../services/dcii/DecisionSimilarityService.js';
+import { cognitiveBiasMitigationService } from '../services/dcii/CognitiveBiasMitigationService.js';
 import { logger } from '../utils/logger.js';
 
 const router = Router();
@@ -32,18 +34,26 @@ router.get('/status', (_req: Request, res: Response) => {
     success: true,
     data: {
       service: 'CendiaDCII™ — Decision Crisis Immunization Infrastructure',
-      version: '2.0.0',
+      version: '3.0.0',
       modules: {
-        iiss: { status: 'operational', description: 'CendiaIISS™ — Institutional Immune System Score' },
-        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuth™ — Synthetic Media Authentication' },
-        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdiction™ — Cross-Jurisdiction Conflict Detection' },
-        timestampAuthority: { status: 'operational', description: 'CendiaTimestamp™ — RFC 3161 Timestamp Authority' },
+        iiss: { status: 'operational', description: 'CendiaIISS™ — Institutional Immune System Score (9 primitives)' },
+        cognitiveBias: { status: 'operational', description: 'CendiaBiasMitigation™ — Cognitive Bias Mitigation (P6)' },
+        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuth™ — Synthetic Media Authentication (P8)' },
+        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdiction™ — Cross-Jurisdiction Conflict Detection (P9)' },
+        timestampAuthority: { status: 'operational', description: 'CendiaTimestamp™ — RFC 3161 Timestamp Authority (P1)' },
         decisionSimilarity: { status: 'operational', description: 'CendiaSimilarity™ — Decision Similarity Engine' },
       },
-      primitives: {
-        foundational: ['Discovery-Time Proof', 'Deliberation Capture', 'Override Accountability', 'Continuity Memory', 'Drift Detection'],
-        advanced: ['Cognitive Bias Mitigation', 'Quantum-Resistant Integrity', 'Synthetic Media Authentication', 'Cross-Jurisdiction Compliance'],
-      },
+      primitives: [
+        { id: 'P1', name: 'Discovery-Time Proof', question: 'When did you know?', service: 'CendiaTimestamp' },
+        { id: 'P2', name: 'Deliberation Capture', question: 'What did you consider?', service: 'Council + CendiaVault' },
+        { id: 'P3', name: 'Override Accountability', question: 'Who decided and why?', service: 'CendiaResponsibility + CendiaNotary' },
+        { id: 'P4', name: 'Continuity Memory', question: 'Is knowledge preserved?', service: 'CendiaMemory + Pantheon' },
+        { id: 'P5', name: 'Drift Detection', question: 'Are you still compliant?', service: 'CendiaDrift' },
+        { id: 'P6', name: 'Cognitive Bias Mitigation', question: 'Did you challenge assumptions?', service: 'CendiaBiasMitigation' },
+        { id: 'P7', name: 'Quantum-Resistant Integrity', question: 'Is the proof future-proof?', service: 'PostQuantumKMS' },
+        { id: 'P8', name: 'Synthetic Media Authentication', question: 'Is the evidence authentic?', service: 'CendiaMediaAuth' },
+        { id: 'P9', name: 'Cross-Jurisdiction Compliance', question: 'Did you comply everywhere?', service: 'CendiaJurisdiction' },
+      ],
     },
   });
 });
@@ -114,6 +124,102 @@ router.get('/iiss/assessment/:assessmentId', (req: Request, res: Response) => {
   const assessment = iissService.getAssessment(req.params.assessmentId);
   if (!assessment) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Assessment not found' } });
   res.json({ success: true, data: assessment });
+});
+
+// =============================================================================
+// COGNITIVE BIAS MITIGATION (P6)
+// =============================================================================
+
+// Analyze a deliberation for cognitive biases
+router.post('/bias/analyze', async (req: Request, res: Response) => {
+  try {
+    const { organizationId, deliberationId, deliberationTitle, deliberationDurationMinutes, agentCount, dissentCount, devilsAdvocatePresent, challengeCount, unanimousVote, arguments: args } = req.body;
+    const analyzedBy = req.user?.email || 'api-user';
+    if (!organizationId || !deliberationId || !deliberationTitle) {
+      return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, deliberationId, and deliberationTitle required' } });
+    }
+    const analysis = await cognitiveBiasMitigationService.analyzeDeliberation({
+      organizationId, deliberationId, deliberationTitle,
+      deliberationDurationMinutes: deliberationDurationMinutes || 0,
+      agentCount: agentCount || 0, dissentCount: dissentCount || 0,
+      devilsAdvocatePresent: devilsAdvocatePresent || false,
+      challengeCount: challengeCount || 0, unanimousVote: unanimousVote || false,
+      arguments: args || [], analyzedBy,
+    });
+    res.json({ success: true, data: analysis });
+  } catch (err: any) {
+    logger.error('Bias analysis failed:', err);
+    res.status(500).json({ success: false, error: { code: 'ANALYSIS_FAILED', message: err.message } });
+  }
+});
+
+// Get bias analysis by ID
+router.get('/bias/analysis/:analysisId', (req: Request, res: Response) => {
+  const analysis = cognitiveBiasMitigationService.getAnalysis(req.params.analysisId);
+  if (!analysis) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Analysis not found' } });
+  res.json({ success: true, data: analysis });
+});
+
+// Get analyses by organization
+router.get('/bias/analyses/:organizationId', (req: Request, res: Response) => {
+  res.json({ success: true, data: cognitiveBiasMitigationService.getAnalysesByOrganization(req.params.organizationId) });
+});
+
+// Get analyses by deliberation
+router.get('/bias/by-deliberation/:deliberationId', (req: Request, res: Response) => {
+  res.json({ success: true, data: cognitiveBiasMitigationService.getAnalysesByDeliberation(req.params.deliberationId) });
+});
+
+// Mitigate a detected bias
+router.post('/bias/mitigate/:analysisId/:biasDetectionId', (req: Request, res: Response) => {
+  const { action } = req.body;
+  const mitigatedBy = req.user?.email || 'api-user';
+  if (!action) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'action required' } });
+  const detection = cognitiveBiasMitigationService.mitigateBias(req.params.analysisId, req.params.biasDetectionId, action, mitigatedBy);
+  if (!detection) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Analysis or bias detection not found' } });
+  res.json({ success: true, data: detection });
+});
+
+// Accept bias risk
+router.post('/bias/accept-risk/:analysisId/:biasDetectionId', (req: Request, res: Response) => {
+  const { justification } = req.body;
+  const acceptedBy = req.user?.email || 'api-user';
+  if (!justification) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'justification required' } });
+  const detection = cognitiveBiasMitigationService.acceptBiasRisk(req.params.analysisId, req.params.biasDetectionId, acceptedBy, justification);
+  if (!detection) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Analysis or bias detection not found' } });
+  res.json({ success: true, data: detection });
+});
+
+// Generate bias report for organization
+router.post('/bias/report', (req: Request, res: Response) => {
+  try {
+    const { organizationId, from, to } = req.body;
+    if (!organizationId) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId required' } });
+    const fromDate = from ? new Date(from) : new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
+    const toDate = to ? new Date(to) : new Date();
+    const report = cognitiveBiasMitigationService.generateReport(organizationId, fromDate, toDate);
+    res.json({ success: true, data: report });
+  } catch (err: any) {
+    logger.error('Bias report generation failed:', err);
+    res.status(500).json({ success: false, error: { code: 'REPORT_FAILED', message: err.message } });
+  }
+});
+
+// Get bias report by ID
+router.get('/bias/report/:reportId', (req: Request, res: Response) => {
+  const report = cognitiveBiasMitigationService.getReport(req.params.reportId);
+  if (!report) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Report not found' } });
+  res.json({ success: true, data: report });
+});
+
+// Get bias definitions (all 12 types)
+router.get('/bias/definitions', (_req: Request, res: Response) => {
+  res.json({ success: true, data: cognitiveBiasMitigationService.getBiasDefinitions() });
+});
+
+// Get all analyses
+router.get('/bias/analyses', (_req: Request, res: Response) => {
+  res.json({ success: true, data: cognitiveBiasMitigationService.getAllAnalyses() });
 });
 
 // =============================================================================

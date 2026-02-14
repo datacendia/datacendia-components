@@ -4,13 +4,17 @@
  * The category-completing innovation for Decision Crisis Immunization Infrastructure.
  * 
  * Calculates a standardized 0-1000 score measuring an organization's ability
- * to survive institutional crises, based on 5 DCII primitive dimensions:
+ * to survive institutional crises, based on 9 DCII primitive dimensions:
  * 
  * 1. Discovery-Time Proof Coverage
  * 2. Deliberation Capture Completeness
  * 3. Override Accountability Tracking
  * 4. Continuity Memory Depth
  * 5. Drift Detection Effectiveness
+ * 6. Cognitive Bias Mitigation
+ * 7. Quantum-Resistant Integrity
+ * 8. Synthetic Media Authentication
+ * 9. Cross-Jurisdiction Compliance
  * 
  * Score Bands:
  *   0-200:   Critical
@@ -45,7 +49,7 @@ export interface IISSDimension {
   id: string;
   name: string;
   description: string;
-  primitive: 'discovery_time_proof' | 'deliberation_capture' | 'override_accountability' | 'continuity_memory' | 'drift_detection';
+  primitive: 'discovery_time_proof' | 'deliberation_capture' | 'override_accountability' | 'continuity_memory' | 'drift_detection' | 'cognitive_bias_mitigation' | 'quantum_resistant_integrity' | 'synthetic_media_authentication' | 'cross_jurisdiction_compliance';
   weight: number;
   score: number;
   maxScore: number;
@@ -197,7 +201,7 @@ const DIMENSION_DEFINITIONS = [
     primitive: 'discovery_time_proof' as const,
     name: 'Discovery-Time Proof',
     description: 'Measures the organization\'s ability to cryptographically prove when knowledge became actionable.',
-    weight: 0.25,
+    weight: 0.15,
     controls: [
       { name: 'Cryptographic Timestamping', requirement: 'RFC 3161 compliant timestamps on all decision events', maxScore: 40 },
       { name: 'Event Linkage', requirement: 'Timestamps linked to deliberation records, not standalone', maxScore: 30 },
@@ -211,7 +215,7 @@ const DIMENSION_DEFINITIONS = [
     primitive: 'deliberation_capture' as const,
     name: 'Deliberation Capture',
     description: 'Measures completeness and quality of multi-perspective decision process recording.',
-    weight: 0.25,
+    weight: 0.15,
     controls: [
       { name: 'Multi-Agent Analysis', requirement: 'Minimum 3 perspectives per consequential decision', maxScore: 40 },
       { name: 'Real-Time Capture', requirement: 'Deliberation captured as it occurs, not retrospectively', maxScore: 35 },
@@ -225,7 +229,7 @@ const DIMENSION_DEFINITIONS = [
     primitive: 'override_accountability' as const,
     name: 'Override Accountability',
     description: 'Measures the tracking and documentation of decisions that override recommendations.',
-    weight: 0.20,
+    weight: 0.12,
     controls: [
       { name: 'Automatic Override Detection', requirement: 'System detects when recommendation not followed', maxScore: 35 },
       { name: 'Mandatory Rationale Capture', requirement: 'Override cannot proceed without substantive explanation', maxScore: 35 },
@@ -239,7 +243,7 @@ const DIMENSION_DEFINITIONS = [
     primitive: 'continuity_memory' as const,
     name: 'Continuity Memory',
     description: 'Measures institutional knowledge preservation independent of personnel.',
-    weight: 0.15,
+    weight: 0.10,
     controls: [
       { name: 'Context Preservation', requirement: 'Why (rationale), constraints, trade-offs, and assumptions captured', maxScore: 35 },
       { name: 'Personnel Independence', requirement: 'Decision records exist independent of individuals', maxScore: 30 },
@@ -253,7 +257,7 @@ const DIMENSION_DEFINITIONS = [
     primitive: 'drift_detection' as const,
     name: 'Drift Detection',
     description: 'Measures continuous monitoring capability to detect compliance degradation early.',
-    weight: 0.15,
+    weight: 0.10,
     controls: [
       { name: 'Continuous Monitoring', requirement: 'Real-time or near-real-time compliance status (not periodic audits)', maxScore: 40 },
       { name: 'Baseline Establishment', requirement: 'Initial compliance state captured with statistical norms', maxScore: 25 },
@@ -261,6 +265,62 @@ const DIMENSION_DEFINITIONS = [
       { name: 'Trend Analysis', requirement: 'Month-over-month, quarter-over-quarter projection capability', maxScore: 30 },
       { name: 'Early Warning System', requirement: 'Multi-threshold alerts (yellow/orange/red) with escalation', maxScore: 35 },
       { name: 'Root Cause Analysis', requirement: 'Automated investigation of drift causes with remediation tracking', maxScore: 35 },
+    ],
+  },
+  {
+    primitive: 'cognitive_bias_mitigation' as const,
+    name: 'Cognitive Bias Mitigation',
+    description: 'Measures the organization\'s ability to detect and challenge human cognitive biases in decision-making.',
+    weight: 0.10,
+    controls: [
+      { name: 'Bias Detection Library', requirement: 'Minimum 12 cognitive biases tested per consequential decision', maxScore: 35 },
+      { name: 'Devil\'s Advocate Enforcement', requirement: 'Adversarial perspective required before decision finalization', maxScore: 30 },
+      { name: 'Anchoring Detection', requirement: 'First-number anchoring detected and flagged in deliberations', maxScore: 25 },
+      { name: 'Groupthink Prevention', requirement: 'Unanimous decisions flagged for additional scrutiny', maxScore: 30 },
+      { name: 'Rubber-Stamp Detection', requirement: 'Decisions approved faster than analysis threshold flagged', maxScore: 25 },
+      { name: 'Bias Audit Trail', requirement: 'Bias detection results preserved in decision packet', maxScore: 30 },
+    ],
+  },
+  {
+    primitive: 'quantum_resistant_integrity' as const,
+    name: 'Quantum-Resistant Integrity',
+    description: 'Measures cryptographic future-proofing ensuring decision proof survives quantum computing advances.',
+    weight: 0.10,
+    controls: [
+      { name: 'Post-Quantum Signatures', requirement: 'CRYSTALS-Dilithium or SPHINCS+ on all decision packets', maxScore: 40 },
+      { name: 'NIST Compliance', requirement: 'Algorithms comply with NIST FIPS 204/205 standards', maxScore: 35 },
+      { name: 'Hybrid Mode', requirement: 'Classical + PQ dual signatures during transition period', maxScore: 25 },
+      { name: 'Key Rotation', requirement: 'Automated PQ key rotation with forward secrecy', maxScore: 30 },
+      { name: 'Algorithm Agility', requirement: 'Hot-swap cryptographic algorithms without data migration', maxScore: 25 },
+      { name: 'Long-Term Verification', requirement: 'Signatures verifiable 50+ years without infrastructure dependency', maxScore: 30 },
+    ],
+  },
+  {
+    primitive: 'synthetic_media_authentication' as const,
+    name: 'Synthetic Media Authentication',
+    description: 'Measures the organization\'s ability to verify authenticity of digital evidence and detect deepfakes.',
+    weight: 0.08,
+    controls: [
+      { name: 'C2PA Provenance', requirement: 'Content Credentials standard (C2PA) on all media evidence', maxScore: 35 },
+      { name: 'Deepfake Detection', requirement: 'Pixel-level and audio waveform manipulation analysis', maxScore: 30 },
+      { name: 'Chain of Custody', requirement: 'Complete custody chain from original device to evidence vault', maxScore: 30 },
+      { name: 'Metadata Integrity', requirement: 'EXIF/metadata preservation with tamper detection', maxScore: 25 },
+      { name: 'Multi-Modal Verification', requirement: 'Cross-reference video, audio, and text for consistency', maxScore: 25 },
+      { name: 'Court Admissibility', requirement: 'Evidence format meets FRE 901(b)(9) authentication standards', maxScore: 30 },
+    ],
+  },
+  {
+    primitive: 'cross_jurisdiction_compliance' as const,
+    name: 'Cross-Jurisdiction Compliance',
+    description: 'Measures the organization\'s ability to identify and manage conflicting regulatory requirements across jurisdictions.',
+    weight: 0.10,
+    controls: [
+      { name: 'Jurisdiction Coverage', requirement: 'Minimum 17 jurisdictions monitored simultaneously', maxScore: 35 },
+      { name: 'Conflict Detection', requirement: 'Automatic identification of contradictory regulatory requirements', maxScore: 35 },
+      { name: 'Good-Faith Documentation', requirement: 'Impossible compliance situations documented with maximum-compliance strategy', maxScore: 30 },
+      { name: 'Regulatory Update Tracking', requirement: 'Real-time monitoring of regulatory changes across jurisdictions', maxScore: 25 },
+      { name: 'Evidence Packet per Jurisdiction', requirement: 'Jurisdiction-specific compliance evidence exportable', maxScore: 30 },
+      { name: 'Proactive Disclosure', requirement: 'Conflict analysis shared with regulators before enforcement action', maxScore: 20 },
     ],
   },
 ];
@@ -485,7 +545,7 @@ class IISSService {
         scoreHash,
         algorithm: 'SHA-256',
         signedAt: new Date(),
-        signedBy: 'IISS-Scoring-Engine-v2.0',
+        signedBy: 'IISS-Scoring-Engine-v3.0',
       },
     };
 
@@ -604,6 +664,38 @@ class IISSService {
         'Early Warning System': 30,
         'Root Cause Analysis': 15,
       },
+      cognitive_bias_mitigation: {
+        'Bias Detection Library': 28,
+        'Devil\'s Advocate Enforcement': 26,
+        'Anchoring Detection': 18,
+        'Groupthink Prevention': 22,
+        'Rubber-Stamp Detection': 15,
+        'Bias Audit Trail': 24,
+      },
+      quantum_resistant_integrity: {
+        'Post-Quantum Signatures': 36,
+        'NIST Compliance': 30,
+        'Hybrid Mode': 20,
+        'Key Rotation': 25,
+        'Algorithm Agility': 10,
+        'Long-Term Verification': 22,
+      },
+      synthetic_media_authentication: {
+        'C2PA Provenance': 30,
+        'Deepfake Detection': 25,
+        'Chain of Custody': 26,
+        'Metadata Integrity': 20,
+        'Multi-Modal Verification': 12,
+        'Court Admissibility': 22,
+      },
+      cross_jurisdiction_compliance: {
+        'Jurisdiction Coverage': 32,
+        'Conflict Detection': 30,
+        'Good-Faith Documentation': 26,
+        'Regulatory Update Tracking': 15,
+        'Evidence Packet per Jurisdiction': 28,
+        'Proactive Disclosure': 10,
+      },
     };
 
     return controlScores[primitive]?.[controlName] ?? 0;
@@ -641,6 +733,34 @@ class IISSService {
       'Trend Analysis': ['ContinuousComplianceMonitorService: snapshot comparisons', 'Gap: no trend projection/extrapolation'],
       'Early Warning System': ['ContinuousComplianceMonitorService: multi-severity alerts (critical/high/medium/low)', 'CendiaSentryService: monitoring'],
       'Root Cause Analysis': ['ContinuousComplianceMonitorService: ComplianceDrift.cause field', 'Gap: no automated root cause investigation'],
+      // P6: Cognitive Bias Mitigation
+      'Bias Detection Library': ['CognitiveBiasMitigationService: 12 bias types detected per deliberation', 'Council adversarial agents: contrarian perspectives'],
+      'Devil\'s Advocate Enforcement': ['CognitiveBiasMitigationService: adversarial agent mandatory in high-stakes decisions', 'Council CendiaVeto agents: blocking power on bias concerns'],
+      'Anchoring Detection': ['CognitiveBiasMitigationService: first-value anchoring detection in agent arguments', 'DeliberationService: argument order analysis'],
+      'Groupthink Prevention': ['CognitiveBiasMitigationService: unanimity flagging with forced dissent', 'CendiaDissentService: dissent protection guarantees'],
+      'Rubber-Stamp Detection': ['CognitiveBiasMitigationService: time-to-approval analysis with minimum threshold', 'DeliberationService: deliberation duration tracking'],
+      'Bias Audit Trail': ['CognitiveBiasMitigationService: bias detection results in DecisionPacket.biasAnalysis', 'EvidenceVaultService: bias findings preserved'],
+      // P7: Quantum-Resistant Integrity
+      'Post-Quantum Signatures': ['PostQuantumKMSService: CRYSTALS-Dilithium signing on all decision packets', 'PostQuantumKMSService: SPHINCS+ for long-term evidence'],
+      'NIST Compliance': ['PostQuantumKMSService: FIPS 204 (Dilithium) and FIPS 205 (SPHINCS+) algorithms', 'PostQuantumKMSService: Falcon-512/1024 support'],
+      'Hybrid Mode': ['PostQuantumKMSService: hybrid-rsa-dilithium mode for transition', 'Classical RSA signatures preserved alongside PQ signatures'],
+      'Key Rotation': ['PostQuantumKMSService: rotateKey() with automated scheduling', 'PostQuantumKMSService: key expiry enforcement'],
+      'Algorithm Agility': ['PostQuantumKMSService: PQAlgorithm type supports 8 algorithm variants', 'Hot-swap via algorithm parameter on sign/verify'],
+      'Long-Term Verification': ['PostQuantumKMSService: self-contained verification (public key embedded in signature)', 'TimestampAuthorityService: PQ-signed timestamps'],
+      // P8: Synthetic Media Authentication
+      'C2PA Provenance': ['SyntheticMediaAuthService: C2PA content credentials on all signed media', 'SyntheticMediaAuthService: provenance chain tracking'],
+      'Deepfake Detection': ['SyntheticMediaAuthService: pixel-level analysis + audio waveform verification', 'SyntheticMediaAuthService: manipulation marker detection'],
+      'Chain of Custody': ['SyntheticMediaAuthService: addCustodyEntry() with actor/timestamp/IP tracking', 'SyntheticMediaAuthService: complete chain from origin to vault'],
+      'Metadata Integrity': ['SyntheticMediaAuthService: metadata hash comparison on verification', 'SyntheticMediaAuthService: EXIF preservation'],
+      'Multi-Modal Verification': ['SyntheticMediaAuthService: cross-modal consistency checks (video + audio + text)', 'Gap: advanced multi-modal fusion planned'],
+      'Court Admissibility': ['SyntheticMediaAuthService: generateVerificationReport() for FRE 901(b)(9)', 'EvidenceVaultService: chain-of-custody documentation'],
+      // P9: Cross-Jurisdiction Compliance
+      'Jurisdiction Coverage': ['CrossJurisdictionConflictService: 17 jurisdictions profiled', 'CrossJurisdictionConflictService: getJurisdictionProfiles()'],
+      'Conflict Detection': ['CrossJurisdictionConflictService: automatic conflict identification on assessOrganization()', 'CrossJurisdictionConflictService: severity scoring'],
+      'Good-Faith Documentation': ['CrossJurisdictionConflictService: generateGoodFaithDocument() with compliance strategy', 'CrossJurisdictionConflictService: proactive regulator disclosure'],
+      'Regulatory Update Tracking': ['CrossJurisdictionConflictService: regulatory framework versioning', 'ContinuousComplianceMonitorService: framework change alerts'],
+      'Evidence Packet per Jurisdiction': ['CrossJurisdictionConflictService: generateEvidencePacket() per jurisdiction/framework', 'Jurisdiction-specific compliance reports'],
+      'Proactive Disclosure': ['CrossJurisdictionConflictService: conflict analysis exportable for regulator submission', 'Gap: automated regulator submission planned'],
     };
     return evidenceMap[controlName] || ['Evidence collection pending'];
   }
@@ -778,68 +898,79 @@ class IISSService {
     const oa = getScore('override_accountability');
     const cm = getScore('continuity_memory');
     const dd = getScore('drift_detection');
+    const cbm = getScore('cognitive_bias_mitigation');
+    const qri = getScore('quantum_resistant_integrity');
+    const sma = getScore('synthetic_media_authentication');
+    const cjc = getScore('cross_jurisdiction_compliance');
 
-    return {
-      euAiAct: {
-        ready: dc > 600 && dtp > 600 && dd > 600,
-        score: Math.round((dc * 0.3 + dtp * 0.3 + dd * 0.2 + oa * 0.2)),
-        gaps: [
-          ...(dc <= 600 ? ['Art. 9/14: Human oversight proof incomplete'] : []),
-          ...(dtp <= 600 ? ['Art. 12: Automatic logging insufficient'] : []),
-          ...(dd <= 600 ? ['Art. 17: Quality management system gaps'] : []),
-        ],
-      },
-      abaOpinion512: {
-        ready: dc > 700 && oa > 700,
-        score: Math.round((dc * 0.4 + oa * 0.3 + dtp * 0.2 + cm * 0.1)),
-        gaps: [
-          ...(dc <= 700 ? ['Competence: AI output review proof insufficient'] : []),
-          ...(oa <= 700 ? ['Supervision: Override documentation incomplete'] : []),
-        ],
-      },
-      baselIII: {
-        ready: oa > 600 && dd > 600 && cm > 500,
-        score: Math.round((oa * 0.3 + dd * 0.3 + cm * 0.2 + dc * 0.2)),
-        gaps: [
-          ...(oa <= 600 ? ['SR 11-7: Model validation override tracking weak'] : []),
-          ...(dd <= 600 ? ['Ongoing monitoring: Drift detection insufficient'] : []),
-          ...(cm <= 500 ? ['Documentation: Model development rationale gaps'] : []),
-        ],
-      },
-      gdpr: {
-        ready: dtp > 500 && dc > 500,
-        score: Math.round((dtp * 0.3 + dc * 0.3 + oa * 0.2 + dd * 0.2)),
-        gaps: [
-          ...(dtp <= 500 ? ['Art. 22: Automated decision-making proof gaps'] : []),
-          ...(dc <= 500 ? ['Art. 35: DPIA deliberation documentation weak'] : []),
-        ],
-      },
-      hipaa: {
-        ready: dtp > 600 && dd > 600,
-        score: Math.round((dtp * 0.3 + dd * 0.3 + oa * 0.2 + cm * 0.2)),
-        gaps: [
-          ...(dtp <= 600 ? ['§164.312: Audit controls insufficient'] : []),
-          ...(dd <= 600 ? ['§164.308: Risk analysis monitoring gaps'] : []),
-        ],
-      },
-      soc2: {
-        ready: dd > 600 && dtp > 600 && oa > 500,
-        score: Math.round((dd * 0.3 + dtp * 0.3 + oa * 0.2 + dc * 0.2)),
-        gaps: [
-          ...(dd <= 600 ? ['CC7.2: Monitoring activities incomplete'] : []),
-          ...(dtp <= 600 ? ['CC8.1: Change management evidence gaps'] : []),
-        ],
-      },
-      cmmc: {
-        ready: dtp > 700 && oa > 700 && dd > 700,
-        score: Math.round((dtp * 0.3 + oa * 0.3 + dd * 0.2 + cm * 0.2)),
-        gaps: [
-          ...(dtp <= 700 ? ['AU.L2: Audit review/analysis insufficient'] : []),
-          ...(oa <= 700 ? ['AC.L2: Access control override tracking weak'] : []),
-        ],
-      },
-      overallReadiness: 0,
+    const euAiAct = {
+      ready: dc > 600 && dtp > 600 && dd > 600 && cbm > 500,
+      score: Math.round((dc * 0.25 + dtp * 0.25 + dd * 0.15 + oa * 0.15 + cbm * 0.10 + cjc * 0.10)),
+      gaps: [
+        ...(dc <= 600 ? ['Art. 9/14: Human oversight proof incomplete'] : []),
+        ...(dtp <= 600 ? ['Art. 12: Automatic logging insufficient'] : []),
+        ...(dd <= 600 ? ['Art. 17: Quality management system gaps'] : []),
+        ...(cbm <= 500 ? ['Art. 14: Bias testing documentation insufficient'] : []),
+      ],
     };
+    const abaOpinion512 = {
+      ready: dc > 700 && oa > 700,
+      score: Math.round((dc * 0.35 + oa * 0.25 + dtp * 0.15 + cm * 0.10 + cbm * 0.10 + sma * 0.05)),
+      gaps: [
+        ...(dc <= 700 ? ['Competence: AI output review proof insufficient'] : []),
+        ...(oa <= 700 ? ['Supervision: Override documentation incomplete'] : []),
+        ...(sma <= 400 ? ['Evidence: Media authentication for digital evidence lacking'] : []),
+      ],
+    };
+    const baselIII = {
+      ready: oa > 600 && dd > 600 && cm > 500,
+      score: Math.round((oa * 0.25 + dd * 0.25 + cm * 0.15 + dc * 0.15 + cbm * 0.10 + qri * 0.10)),
+      gaps: [
+        ...(oa <= 600 ? ['SR 11-7: Model validation override tracking weak'] : []),
+        ...(dd <= 600 ? ['Ongoing monitoring: Drift detection insufficient'] : []),
+        ...(cm <= 500 ? ['Documentation: Model development rationale gaps'] : []),
+      ],
+    };
+    const gdpr = {
+      ready: dtp > 500 && dc > 500 && cjc > 500,
+      score: Math.round((dtp * 0.25 + dc * 0.20 + oa * 0.15 + dd * 0.15 + cjc * 0.15 + cbm * 0.10)),
+      gaps: [
+        ...(dtp <= 500 ? ['Art. 22: Automated decision-making proof gaps'] : []),
+        ...(dc <= 500 ? ['Art. 35: DPIA deliberation documentation weak'] : []),
+        ...(cjc <= 500 ? ['Art. 44-49: Cross-border transfer compliance gaps'] : []),
+      ],
+    };
+    const hipaa = {
+      ready: dtp > 600 && dd > 600,
+      score: Math.round((dtp * 0.25 + dd * 0.25 + oa * 0.15 + cm * 0.15 + qri * 0.10 + sma * 0.10)),
+      gaps: [
+        ...(dtp <= 600 ? ['§164.312: Audit controls insufficient'] : []),
+        ...(dd <= 600 ? ['§164.308: Risk analysis monitoring gaps'] : []),
+        ...(qri <= 400 ? ['§164.312(e): Encryption not quantum-resistant'] : []),
+      ],
+    };
+    const soc2 = {
+      ready: dd > 600 && dtp > 600 && oa > 500,
+      score: Math.round((dd * 0.25 + dtp * 0.25 + oa * 0.15 + dc * 0.15 + qri * 0.10 + cbm * 0.10)),
+      gaps: [
+        ...(dd <= 600 ? ['CC7.2: Monitoring activities incomplete'] : []),
+        ...(dtp <= 600 ? ['CC8.1: Change management evidence gaps'] : []),
+      ],
+    };
+    const cmmc = {
+      ready: dtp > 700 && oa > 700 && dd > 700 && qri > 600,
+      score: Math.round((dtp * 0.25 + oa * 0.25 + dd * 0.15 + cm * 0.15 + qri * 0.15 + sma * 0.05)),
+      gaps: [
+        ...(dtp <= 700 ? ['AU.L2: Audit review/analysis insufficient'] : []),
+        ...(oa <= 700 ? ['AC.L2: Access control override tracking weak'] : []),
+        ...(qri <= 600 ? ['SC.L2: Cryptographic protection not quantum-resistant'] : []),
+      ],
+    };
+
+    const allScores = [euAiAct.score, abaOpinion512.score, baselIII.score, gdpr.score, hipaa.score, soc2.score, cmmc.score];
+    const overallReadiness = Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length);
+
+    return { euAiAct, abaOpinion512, baselIII, gdpr, hipaa, soc2, cmmc, overallReadiness };
   }
 
   // ---------------------------------------------------------------------------

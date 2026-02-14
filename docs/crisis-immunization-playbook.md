@@ -1,160 +1,134 @@
 # Datacendia Crisis Immunization Playbook™
+## Decision Crisis Immunization Infrastructure (DCII) — Version 3.0
 
-**Preventing institutional failure under adversarial scrutiny**
+**The 9 Primitives That Prevent Institutional Failure**
 
 ---
 
 ## Executive Summary
 
-Modern institutions do not fail because of intent. They fail because decisions cannot be proven after the fact.
+Institutions don't fail because of intent. They fail because decisions cannot be proven after the fact.
 
-Datacendia provides verifiable governance primitives that make decisions defensible under audit, appeal, media, and court scrutiny.
+Datacendia provides **Decision Crisis Immunization Infrastructure (DCII)** — the 9 decision primitives that make every consequential decision defensible, traceable, and provable under adversarial scrutiny by regulators, courts, shareholders, and the press.
 
-**What Datacendia is:**
-- Not analytics
-- Not AI decision-making
-- Not compliance paperwork
+**What Datacendia is:** Sovereign-first enterprise software. Not SaaS. Annual licenses. Customer-owned infrastructure, keys, and proof.
 
-**It is decision provenance infrastructure.**
+**What Datacendia is NOT:** Not analytics. Not AI decision-making. Not compliance paperwork. Not a chatbot.
+
+**It is the 9 primitives + cryptographic proof that survives scrutiny.**
 
 ---
 
 ## Why Institutions Fail
 
-Failure patterns are procedural, not moral:
+After studying 50+ institutional failures (Wells Fargo, Boeing 737 MAX, Theranos, FTX, SVB, Post Office Horizon), every crisis traces to the absence of one or more of these 9 questions:
 
-- Evidence exists but discovery timing is disputed
-- Rules are enforced without mathematical proportionality
-- Decisions are made but deliberation is undocumented
-- Overrides occur without recorded rationale
-- Compliance drift is detected too late
+1. **When did you know?** — Discovery timing is disputed
+2. **What did you consider?** — Deliberation is undocumented
+3. **Who decided and why?** — Overrides occur without recorded rationale
+4. **Is knowledge preserved?** — Institutional memory leaves with people
+5. **Are you still compliant?** — Compliance drift is detected too late
+6. **Did you challenge assumptions?** — Cognitive biases operate invisibly
+7. **Is the proof future-proof?** — Cryptographic signatures become forgeable
+8. **Is the evidence authentic?** — Digital evidence can be deepfaked
+9. **Did you comply everywhere?** — Conflicting regulations across jurisdictions
 
 > These failures are invisible during normal operations and catastrophic under challenge.
 
 ---
 
-## The Five Missing Primitives
+## The Nine Primitives
 
-Every resilient institution needs these capabilities:
-
-| # | Primitive | What It Proves |
-|---|-----------|---------------|
-| 1 | **Discovery-Time Proof** | When knowledge became actionable |
-| 2 | **Deliberation Capture** | How the decision was reached |
-| 3 | **Override Accountability** | Who overrode whom, with rationale |
-| 4 | **Continuity Memory** | Institutional knowledge independent of individuals |
-| 5 | **Drift Detection** | When compliance begins to slip |
-
----
-
-## Crisis Immunization Modules
-
-### Module 1: Discovery-Time Proof Infrastructure
-
-**Problem class:** Evidence is invalidated due to disputed discovery timelines.
-
-**Why systems fail:** Most organizations cannot prove *when* knowledge became actionable.
-
-**Datacendia primitive:** Cryptographically anchored discovery timestamps linked to deliberation events.
-
-**Outcome:** Enforcement actions remain valid under appeal and arbitration.
+| # | Primitive | The Question | What It Proves |
+|---|-----------|-------------|---------------|
+| P1 | **Discovery-Time Proof** | When did you know? | WHEN knowledge became actionable — RFC 3161 timestamps, Merkle trees |
+| P2 | **Deliberation Capture** | What did you consider? | WHAT was considered — every argument, dissent, data point |
+| P3 | **Override Accountability** | Who decided and why? | WHO overrode the AI and WHY — signed, TPM-attested |
+| P4 | **Continuity Memory** | Is knowledge preserved? | Institutional knowledge survives leadership changes |
+| P5 | **Drift Detection** | Are you still compliant? | When decisions deviate from established patterns |
+| P6 | **Cognitive Bias Mitigation** | Did you challenge assumptions? | 12 cognitive biases tested, groupthink prevented |
+| P7 | **Quantum-Resistant Integrity** | Is the proof future-proof? | CRYSTALS-Dilithium, SPHINCS+, Falcon (NIST FIPS 204/205) |
+| P8 | **Synthetic Media Authentication** | Is the evidence authentic? | C2PA provenance, deepfake detection, chain of custody |
+| P9 | **Cross-Jurisdiction Compliance** | Did you comply everywhere? | 17 jurisdictions analyzed, conflicts flagged, good-faith documented |
 
 ---
 
-### Module 2: Mathematical Rule Fairness Ledger
+## How The 9 Primitives Work Together
 
-**Problem class:** Rules are challenged as arbitrary or disproportionate.
+```
+P1 (Discovery-Time) ────→ "When did you know?"
+         ↓
+P2 (Deliberation) ──────→ "What did you consider?"
+         ↓
+P3 (Override) ──────────→ "Who decided and why?"
+         ↓
+P4 (Continuity) ────────→ "Is knowledge preserved?"
+         ↓
+P5 (Drift) ─────────────→ "Are you still compliant?"
+         ↓
+P6 (Bias) ──────────────→ "Did you challenge assumptions?"
+         ↓
+P7 (Quantum) ───────────→ "Is the proof future-proof?"
+         ↓
+P8 (Media) ─────────────→ "Is the evidence authentic?"
+         ↓
+P9 (Jurisdiction) ──────→ "Did you comply everywhere?"
+```
 
-**Why systems fail:** Human discretion is undocumented and inconsistent at scale.
-
-**Datacendia primitive:** Objective rule application models with proportionality proofs.
-
-**Outcome:** Rules withstand judicial and competition-law review.
-
----
-
-### Module 3: Continuity Simulation Engine
-
-**Problem class:** Institutional knowledge collapses during leadership change.
-
-**Why systems fail:** Rationale exists only in people, not systems.
-
-**Datacendia primitive:** Decision DNA capturing intent, constraints, and trade-offs.
-
-**Outcome:** Strategic continuity independent of individuals.
-
----
-
-### Module 4: Public Verifiability Layer
-
-**Problem class:** Trust erosion after governance or financial scandals.
-
-**Why systems fail:** Transparency is promised but unverifiable.
-
-**Datacendia primitive:** Selective cryptographic disclosure of governance actions.
-
-**Outcome:** Trust rebuilt through proof, not communication.
+Together, they answer **every question** a regulator, court, or congressional committee could ask.
 
 ---
 
-### Module 5: Decision Pre-Mortem & Override Ledger
+## Implementation Mapping
 
-**Problem class:** High-value decisions fail without accountability.
-
-**Why systems fail:** Risk is diffused and hindsight dominates review.
-
-**Datacendia primitive:** Pre-mortem risk capture + immutable override justification.
-
-**Outcome:** Accountability without decision paralysis.
-
----
-
-### Module 6: Deliberation Synchronization Layer
-
-**Problem class:** Multiple decision-makers produce incoherent outcomes.
-
-**Why systems fail:** Parallel authority without shared context.
-
-**Datacendia primitive:** Synchronized deliberation records with conflict visibility.
-
-**Outcome:** Scalable governance across complex ownership structures.
+| Primitive | Datacendia Service(s) |
+|-----------|----------------------|
+| P1: Discovery-Time Proof | CendiaTimestamp (RFC 3161), TimestampAuthorityService, blockchain anchoring |
+| P2: Deliberation Capture | Council (multi-agent deliberation), CendiaVault, DecisionDNAService |
+| P3: Override Accountability | CendiaResponsibility (TPM-signed records), CendiaNotary, EvidenceVaultService |
+| P4: Continuity Memory | CendiaMemory, PantheonMemoryService, DecisionSimilarityService |
+| P5: Drift Detection | CendiaDrift, ContinuousComplianceMonitorService, CendiaSentryService |
+| P6: Cognitive Bias Mitigation | CognitiveBiasMitigationService (12 bias types), Council adversarial agents |
+| P7: Quantum-Resistant Integrity | PostQuantumKMSService (Dilithium, SPHINCS+, Falcon) |
+| P8: Synthetic Media Authentication | SyntheticMediaAuthService (C2PA, deepfake detection) |
+| P9: Cross-Jurisdiction Compliance | CrossJurisdictionConflictService (17 jurisdictions) |
 
 ---
 
-### Module 7: Rehabilitation-Grade Audit Infrastructure
+## IISS — Institutional Immune System Score
 
-**Problem class:** Regulators distrust previously sanctioned entities.
+All 9 primitives are scored by CendiaIISS™ on a 0-1000 scale:
 
-**Why systems fail:** Assurances cannot be verified structurally.
+| Band | Score | Description |
+|------|-------|-------------|
+| Critical | 0-200 | Cannot defend decisions under scrutiny |
+| Vulnerable | 201-400 | Significant gaps in decision provenance |
+| Developing | 401-600 | Core capabilities in place but incomplete |
+| Resilient | 601-800 | Strong decision infrastructure |
+| Exceptional | 801-1000 | Best-in-class — maximum crisis resilience |
 
-**Datacendia primitive:** Forward-looking auditability with continuous proof.
-
-**Outcome:** Credible compliance rehabilitation.
-
----
-
-### Module 8: Compliance Drift Early-Warning System
-
-**Problem class:** Breaches are detected too late to correct.
-
-**Why systems fail:** Static audits miss dynamic drift.
-
-**Datacendia primitive:** Real-time variance detection against regulatory constraints.
-
-**Outcome:** Prevention of avoidable sanctions.
+**Insurance impact:** IISS >800 qualifies for 20-40% premium reduction.
 
 ---
 
 ## Deployment & Trust
 
 **Deployment models:**
-- Air-gapped (Sovereign)
-- On-premises (Private Cloud)
-- Hybrid (Regulator-facing + Internal)
+- Air-gapped (Sovereign) — bootable USB, QR bridge
+- On-premises (Private Cloud) — zero-copy, customer-owned
+- Hybrid (Regulator-facing + Internal) — bidirectional sync
+- Cloud (Datacendia-hosted) — standard deployment
 
 **Trust posture:**
-- Model-agnostic
-- Cloud-agnostic
-- Vendor-agnostic
+- Model-agnostic — Ollama local-first, multi-model
+- Cloud-agnostic — no vendor lock-in
+- Vendor-agnostic — sovereign adapter architecture
+- Customer-owned infrastructure, keys, and proof
 
-> Datacendia does not replace decision-makers. It ensures their decisions survive scrutiny.
+**Pricing:**
+- $50,000 DCII Pilot (90 days, 1 business unit)
+- $150,000–$500,000 Foundation (full Tier 1)
+- $500,000–$1,500,000 Enterprise (all tiers)
+- Custom Platinum (Government/Defense)
+
+> Datacendia does not replace decision-makers. It immunizes their decisions against crises.
