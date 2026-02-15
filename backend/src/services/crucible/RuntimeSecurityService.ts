@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
- * CendiaCrucibleâ„¢ Runtime Security Monitoring Service
+ * CendiaCrucible™ Runtime Security Monitoring Service
  * 
  * Enterprise/Government Grade Implementation
  * Compliant with: NIST 800-53, FedRAMP, SOC2 Type II
@@ -16,6 +20,7 @@ import { EventEmitter } from 'events';
 import crypto from 'crypto';
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // ============================================================================
 // TYPES
@@ -382,8 +387,8 @@ export class RuntimeSecurityService extends EventEmitter {
             // Already logged
             break;
         }
-      } catch (error: any) {
-        logger.error(`[RuntimeSecurity] Failed to execute ${action}: ${error.message}`);
+      } catch (error: unknown) {
+        logger.error(`[RuntimeSecurity] Failed to execute ${action}: ${getErrorMessage(error)}`);
       }
     }
   }
@@ -407,8 +412,8 @@ export class RuntimeSecurityService extends EventEmitter {
           mitigated_by: event.mitigatedBy,
         },
       });
-    } catch (error: any) {
-      logger.error(`[RuntimeSecurity] Failed to save event: ${error.message}`);
+    } catch (error: unknown) {
+      logger.error(`[RuntimeSecurity] Failed to save event: ${getErrorMessage(error)}`);
     }
   }
 

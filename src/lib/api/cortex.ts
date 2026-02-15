@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Cortex Core API Client
  * Single gateway for all Services to access organizational data
@@ -318,9 +322,9 @@ export const cortexApi = {
    */
   getContext: async (entityType: string, entityId: string, options?: ContextOptions): Promise<ContextResponse> => {
     const params = new URLSearchParams();
-    if (options?.depth) params.append('depth', options.depth.toString());
-    if (options?.include) params.append('include', options.include.join(','));
-    if (options?.exclude) params.append('exclude', options.exclude.join(','));
+    if (options?.depth) {params.append('depth', options.depth.toString());}
+    if (options?.include) {params.append('include', options.include.join(','));}
+    if (options?.exclude) {params.append('exclude', options.exclude.join(','));}
     
     const url = `/cortex/context/${entityType}/${entityId}${params.toString() ? '?' + params.toString() : ''}`;
     const response = await api.get<ContextResponse>(url);

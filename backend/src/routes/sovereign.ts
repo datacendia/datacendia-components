@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // SOVEREIGN STACK API ROUTES (Fixed)
 // Enterprise Platinum Standard - Full data flow integration
@@ -14,6 +18,7 @@ import { vectorService } from '../services/storage/VectorService';
 import { agentQueueService, QUEUE_NAMES } from '../services/queue/AgentQueueService';
 import { analyticsRouter } from '../services/storage/AnalyticsRouter';
 import { CLICKHOUSE_TABLES } from '../services/storage/ClickHouseService';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -53,7 +58,7 @@ const vaultUpload = multer({
 
 /**
  * Query timeline events with auto-routing (Druid or ClickHouse)
- * Powers CendiaChronosâ„¢
+ * Powers CendiaChronos™
  */
 router.post('/druid/timeline', async (req: Request, res: Response) => {
   try {
@@ -77,14 +82,14 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
       backend: result.backend,
       routingReason: result.routingReason,
     });
-  } catch (error: any) {
-    console.error('[Sovereign] Timeline query failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Timeline query failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
 /**
- * Get aggregated metrics with auto-routing (powers CendiaPulseâ„¢)
+ * Get aggregated metrics with auto-routing (powers CendiaPulse™)
  */
 router.post('/druid/metrics', async (req: Request, res: Response) => {
   try {
@@ -98,7 +103,7 @@ router.post('/druid/metrics', async (req: Request, res: Response) => {
       endTime: endTime ? new Date(endTime) : undefined,
       characteristics: {
         forceBackend,
-        isStreaming: granularity === 'minute', // Real-time granularity â†’ Druid
+        isStreaming: granularity === 'minute', // Real-time granularity ? Druid
       },
     });
 
@@ -108,9 +113,9 @@ router.post('/druid/metrics', async (req: Request, res: Response) => {
       backend: result.backend,
       routingReason: result.routingReason,
     });
-  } catch (error: any) {
-    console.error('[Sovereign] Metrics query failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Metrics query failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -133,9 +138,9 @@ router.post('/druid/ingest', async (req: Request, res: Response) => {
       druid: result.druid,
       clickhouse: result.clickhouse,
     });
-  } catch (error: any) {
-    console.error('[Sovereign] Ingest failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Ingest failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -152,8 +157,8 @@ router.get('/druid/health', async (req: Request, res: Response) => {
       preferredBackend: status.preferredBackend,
       lastHealthCheck: status.lastHealthCheck,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -162,7 +167,7 @@ router.get('/druid/health', async (req: Request, res: Response) => {
 // =============================================================================
 
 /**
- * Upload document to MinIO (powers CendiaGnosisâ„¢)
+ * Upload document to MinIO (powers CendiaGnosis™)
  */
 router.post('/storage/upload', async (req: Request, res: Response) => {
   try {
@@ -182,9 +187,9 @@ router.post('/storage/upload', async (req: Request, res: Response) => {
     );
 
     res.json({ success: result.success, data: result });
-  } catch (error: any) {
-    console.error('[Sovereign] MinIO upload failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] MinIO upload failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -204,9 +209,9 @@ router.get('/storage/download/:bucket/:fileName', async (req: Request, res: Resp
     
     res.setHeader('Content-Length', result.size?.toString() || '0');
     result.stream.pipe(res);
-  } catch (error: any) {
-    console.error('[Sovereign] MinIO download failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] MinIO download failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -221,9 +226,9 @@ router.get('/storage/list/:bucket', async (req: Request, res: Response) => {
     const files = await minioService.listObjects(bucket, prefix as string);
     
     res.json({ success: true, data: files });
-  } catch (error: any) {
-    console.error('[Sovereign] MinIO list failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] MinIO list failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -237,9 +242,9 @@ router.get('/storage/stats/:bucket', async (req: Request, res: Response) => {
     const stats = await minioService.getBucketStats(bucket);
     
     res.json({ success: true, data: stats });
-  } catch (error: any) {
-    console.error('[Sovereign] MinIO stats failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] MinIO stats failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -250,8 +255,8 @@ router.get('/storage/health', async (req: Request, res: Response) => {
   try {
     await minioService.initialize();
     res.json({ success: true, available: true });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -320,9 +325,9 @@ router.post('/vault/upload', vaultUpload.single('file'), async (req: Request, re
         metadata,
       },
     });
-  } catch (error: any) {
-    console.error('[Sovereign] Vault upload failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Vault upload failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -345,9 +350,9 @@ router.get('/vault/download', async (req: Request, res: Response) => {
 
     res.setHeader('Content-Length', result.size?.toString() || '0');
     result.stream.pipe(res);
-  } catch (error: any) {
-    console.error('[Sovereign] Vault download failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Vault download failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -377,9 +382,9 @@ router.get('/vault/list', async (req: Request, res: Response) => {
         metadata: {},
       })),
     });
-  } catch (error: any) {
-    console.error('[Sovereign] Vault list failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Vault list failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -393,9 +398,9 @@ router.delete('/vault/delete', async (req: Request, res: Response) => {
     const objectName = String(rawPath).startsWith(`${bucket}/`) ? String(rawPath).slice(String(bucket).length + 1) : String(rawPath);
     const ok = await minioService.deleteObject(bucket, objectName);
     res.json({ success: ok });
-  } catch (error: any) {
-    console.error('[Sovereign] Vault delete failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Vault delete failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -403,8 +408,8 @@ router.get('/vault/health', async (_req: Request, res: Response) => {
   try {
     await minioService.initialize();
     res.json({ success: true, available: true });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -435,9 +440,9 @@ router.post('/vector/store', async (req: Request, res: Response) => {
     }
     
     res.json({ success: true, chunks: storedCount });
-  } catch (error: any) {
-    console.error('[Sovereign] Vector store failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Vector store failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -452,9 +457,9 @@ router.post('/vector/search', async (req: Request, res: Response) => {
     const results = await vectorService.searchDocuments(orgId, query, { limit, threshold });
     
     res.json({ success: true, data: results });
-  } catch (error: any) {
-    console.error('[Sovereign] Vector search failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Vector search failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -474,9 +479,9 @@ router.post('/vector/decision', async (req: Request, res: Response) => {
     });
     
     res.json({ success: true, message: 'Decision context stored' });
-  } catch (error: any) {
-    console.error('[Sovereign] Decision context store failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Decision context store failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -491,9 +496,9 @@ router.post('/vector/decisions/search', async (req: Request, res: Response) => {
     const results = await vectorService.searchDecisions(orgId, query, { limit });
     
     res.json({ success: true, data: results });
-  } catch (error: any) {
-    console.error('[Sovereign] Decision search failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Decision search failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -514,9 +519,9 @@ router.post('/vector/agent-memory', async (req: Request, res: Response) => {
     });
     
     res.json({ success: true, message: 'Agent memory stored' });
-  } catch (error: any) {
-    console.error('[Sovereign] Agent memory store failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Agent memory store failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -531,9 +536,9 @@ router.post('/vector/agent-memory/recall', async (req: Request, res: Response) =
     const memories = await vectorService.retrieveAgentMemory(orgId, agentId, query, { limit });
     
     res.json({ success: true, data: memories });
-  } catch (error: any) {
-    console.error('[Sovereign] Agent memory recall failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Agent memory recall failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -544,8 +549,8 @@ router.get('/vector/health', async (req: Request, res: Response) => {
   try {
     await vectorService.initialize();
     res.json({ success: true, available: true });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -573,9 +578,9 @@ router.post('/queue/deliberation', async (req: Request, res: Response) => {
     }, { priority: priorityMap[priority] || 3 });
     
     res.json({ success: true, jobId: job.id });
-  } catch (error: any) {
-    console.error('[Sovereign] Queue deliberation failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Queue deliberation failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -597,9 +602,9 @@ router.post('/queue/document', async (req: Request, res: Response) => {
     });
     
     res.json({ success: true, jobId: job.id });
-  } catch (error: any) {
-    console.error('[Sovereign] Queue document failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Queue document failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -610,9 +615,9 @@ router.get('/queue/stats', async (req: Request, res: Response) => {
   try {
     const stats = await agentQueueService.getAllQueueStats();
     res.json({ success: true, data: stats });
-  } catch (error: any) {
-    console.error('[Sovereign] Queue stats failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Queue stats failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -628,9 +633,9 @@ router.get('/queue/job/:jobId', async (req: Request, res: Response) => {
     const stats = await agentQueueService.getQueueStats(queueName);
     
     res.json({ success: true, data: { jobId, queueStats: stats } });
-  } catch (error: any) {
-    console.error('[Sovereign] Job status failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Job status failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -641,8 +646,8 @@ router.get('/queue/health', async (req: Request, res: Response) => {
   try {
     await agentQueueService.initialize();
     res.json({ success: true, available: true });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -674,9 +679,9 @@ router.post('/prometheus/query', async (req: Request, res: Response) => {
     
     const data = await response.json() as PrometheusResponse;
     res.json({ success: true, data: data.data });
-  } catch (error: any) {
-    console.error('[Sovereign] Prometheus query failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Prometheus query failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -698,9 +703,9 @@ router.get('/prometheus/metric/:name', async (req: Request, res: Response) => {
     
     const data = await response.json() as PrometheusResponse;
     res.json({ success: true, data: data.data });
-  } catch (error: any) {
-    console.error('[Sovereign] Prometheus metric failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Prometheus metric failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -713,8 +718,8 @@ router.get('/prometheus/health', async (req: Request, res: Response) => {
     const response = await fetch(`${prometheusUrl}/-/healthy`);
     
     res.json({ success: true, available: response.ok });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -744,9 +749,9 @@ router.get('/n8n/workflows', async (req: Request, res: Response) => {
     
     const data = await response.json() as N8nResponse;
     res.json({ success: true, data: data.data || data });
-  } catch (error: any) {
-    console.error('[Sovereign] n8n workflows failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] n8n workflows failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -774,9 +779,9 @@ router.post('/n8n/trigger/:workflowId', async (req: Request, res: Response) => {
     
     const data = await response.json();
     res.json({ success: true, data });
-  } catch (error: any) {
-    console.error('[Sovereign] n8n trigger failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] n8n trigger failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -789,8 +794,8 @@ router.get('/n8n/health', async (req: Request, res: Response) => {
     const response = await fetch(`${n8nUrl}/healthz`);
     
     res.json({ success: true, available: response.ok });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -824,9 +829,9 @@ router.get('/unleash/features', async (req: Request, res: Response) => {
     
     const data = await response.json() as UnleashFeaturesResponse;
     res.json({ success: true, data: data.features || [] });
-  } catch (error: any) {
-    console.error('[Sovereign] Unleash features failed:', error.message);
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    console.error('[Sovereign] Unleash features failed:', getErrorMessage(error));
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -851,7 +856,7 @@ router.get('/unleash/feature/:name', async (req: Request, res: Response) => {
     
     const data = await response.json() as UnleashFeatureResponse;
     res.json({ success: true, enabled: data.enabled ?? false });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.json({ success: true, enabled: false });
   }
 });
@@ -865,8 +870,8 @@ router.get('/unleash/health', async (req: Request, res: Response) => {
     const response = await fetch(`${unleashUrl}/health`);
     
     res.json({ success: true, available: response.ok });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 

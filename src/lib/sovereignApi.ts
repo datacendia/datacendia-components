@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // SOVEREIGN STACK API CLIENT
 // Enterprise Platinum Standard - Full data flow integration
@@ -128,11 +132,11 @@ export const druidApi = {
   }): Promise<any[]> {
     try {
       const params = new URLSearchParams();
-      if (options?.resourceType) params.append('resourceType', options.resourceType);
-      if (options?.actorId) params.append('actorId', options.actorId);
-      if (options?.startTime) params.append('startTime', options.startTime.toISOString());
-      if (options?.endTime) params.append('endTime', options.endTime.toISOString());
-      if (options?.limit) params.append('limit', String(options.limit));
+      if (options?.resourceType) {params.append('resourceType', options.resourceType);}
+      if (options?.actorId) {params.append('actorId', options.actorId);}
+      if (options?.startTime) {params.append('startTime', options.startTime.toISOString());}
+      if (options?.endTime) {params.append('endTime', options.endTime.toISOString());}
+      if (options?.limit) {params.append('limit', String(options.limit));}
       
       const response = await fetch(`${DRUID_API_BASE}/witness/audit?${params}`);
       const data = await response.json();
@@ -205,7 +209,7 @@ export const storageApi = {
   async downloadDocument(bucket: string, fileName: string): Promise<Blob | null> {
     try {
       const response = await fetch(`${SOVEREIGN_API_BASE}/storage/download/${bucket}/${fileName}`);
-      if (!response.ok) return null;
+      if (!response.ok) {return null;}
       return await response.blob();
     } catch {
       return null;

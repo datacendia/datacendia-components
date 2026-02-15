@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Policy Collapse Mode - Adversarial Policy Stress-Testing
  * 
@@ -186,9 +190,9 @@ const CollapsePage: React.FC = () => {
   const fetchAgents = async () => {
     try {
       const res = await fetch(`${API_BASE}/agents`);
-      if (!res.ok) return;
+      if (!res.ok) {return;}
       const text = await res.text();
-      if (!text) return;
+      if (!text) {return;}
       const data = JSON.parse(text);
       if (data.success) {
         setAgents(data.agents);
@@ -201,9 +205,9 @@ const CollapsePage: React.FC = () => {
   const fetchHistory = async () => {
     try {
       const res = await fetch(`${API_BASE}/deliberations`);
-      if (!res.ok) return;
+      if (!res.ok) {return;}
       const text = await res.text();
-      if (!text) return;
+      if (!text) {return;}
       const data = JSON.parse(text);
       if (data.success) {
         setHistory(data.deliberations);
@@ -214,7 +218,7 @@ const CollapsePage: React.FC = () => {
   };
 
   const runDeliberation = async () => {
-    if (!decisionText.trim()) return;
+    if (!decisionText.trim()) {return;}
 
     setLoading(true);
     try {
@@ -249,7 +253,7 @@ const CollapsePage: React.FC = () => {
   };
 
   const downloadEnvelope = async () => {
-    if (!deliberation) return;
+    if (!deliberation) {return;}
     const envelopeId = deliberation.collapseTrack.failureEnvelope.id;
     window.open(`${API_BASE}/envelope/${envelopeId}/export`, '_blank');
   };
@@ -311,13 +315,13 @@ const CollapsePage: React.FC = () => {
   };
 
   const downloadAuditBundle = async () => {
-    if (!deliberation) return;
+    if (!deliberation) {return;}
     window.open(`${API_BASE}/deliberation/${deliberation.id}/audit-bundle`, '_blank');
   };
 
   const handleBundleUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
-    if (!file) return;
+    if (!file) {return;}
 
     try {
       const text = await file.text();
@@ -351,7 +355,7 @@ const CollapsePage: React.FC = () => {
   };
 
   const submitOverride = async () => {
-    if (!deliberation) return;
+    if (!deliberation) {return;}
     if (!overrideAuthority.name || !overrideJustification || acceptedRisks.length === 0 || !riskAcknowledgment) {
       alert('Please fill in all required fields');
       return;
@@ -385,7 +389,7 @@ const CollapsePage: React.FC = () => {
   };
 
   const getAvailableRisks = (): string[] => {
-    if (!deliberation) return [];
+    if (!deliberation) {return [];}
     const risks: string[] = [];
     deliberation.collapseTrack.failureEnvelope.failureConditions.forEach((fc) => {
       if (!risks.includes(fc.category)) {
@@ -404,9 +408,9 @@ const CollapsePage: React.FC = () => {
   };
 
   const getTrustDeltaColor = (delta: number) => {
-    if (delta > 0.3) return 'text-green-500';
-    if (delta > 0.1) return 'text-yellow-500';
-    if (delta > 0) return 'text-orange-500';
+    if (delta > 0.3) {return 'text-green-500';}
+    if (delta > 0.1) {return 'text-yellow-500';}
+    if (delta > 0) {return 'text-orange-500';}
     return 'text-red-500';
   };
 
@@ -427,9 +431,9 @@ const CollapsePage: React.FC = () => {
   };
 
   const getSeverityColor = (severity: number) => {
-    if (severity >= 0.8) return 'bg-red-500';
-    if (severity >= 0.6) return 'bg-orange-500';
-    if (severity >= 0.4) return 'bg-yellow-500';
+    if (severity >= 0.8) {return 'bg-red-500';}
+    if (severity >= 0.6) {return 'bg-orange-500';}
+    if (severity >= 0.4) {return 'bg-yellow-500';}
     return 'bg-green-500';
   };
 
@@ -998,7 +1002,7 @@ const OverrideModal: React.FC<{
   acknowledged,
   setAcknowledged,
 }) => {
-  if (!isOpen || !deliberation) return null;
+  if (!isOpen || !deliberation) {return null;}
 
   return (
     <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
@@ -1138,11 +1142,11 @@ const VerificationPanel: React.FC<{
   result: VerificationResult | null;
   bundle: any;
 }> = ({ isOpen, onClose, result, bundle }) => {
-  if (!isOpen || !result) return null;
+  if (!isOpen || !result) {return null;}
 
   const getScoreColor = (score: number) => {
-    if (score === 100) return 'text-green-400';
-    if (score >= 80) return 'text-yellow-400';
+    if (score === 100) {return 'text-green-400';}
+    if (score >= 80) {return 'text-yellow-400';}
     return 'text-red-400';
   };
 

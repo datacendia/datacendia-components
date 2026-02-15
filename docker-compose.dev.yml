@@ -86,6 +86,24 @@ services:
     #           count: all
     #           capabilities: [gpu]
 
+  # Qdrant - Vector Database for CendiaVector™ semantic search
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: datacendia-dev-qdrant
+    restart: unless-stopped
+    volumes:
+      - qdrant_dev_data:/qdrant/storage
+    ports:
+      - "6333:6333"   # REST API
+      - "6334:6334"   # gRPC
+    environment:
+      QDRANT__SERVICE__GRPC_PORT: 6334
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:6333/healthz || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
   # MinIO - S3-compatible Object Storage (for file uploads)
   minio:
     image: minio/minio:latest
@@ -112,6 +130,7 @@ volumes:
   neo4j_dev_data:
   neo4j_dev_logs:
   ollama_dev_data:
+  qdrant_dev_data:
   minio_dev_data:
 
 networks:

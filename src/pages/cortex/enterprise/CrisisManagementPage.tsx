@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA CRISIS MANAGEMENT™ - INCIDENT RESPONSE CENTER
 // Real-time crisis tracking, war room coordination, and incident lifecycle
@@ -267,9 +271,9 @@ const getTypeIcon = (type: IncidentType) => {
 
 const formatTimeAgo = (date: Date) => {
   const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
-  if (seconds < 60) return 'Just now';
-  if (seconds < 3600) return `${Math.floor(seconds / 60)}m ago`;
-  if (seconds < 86400) return `${Math.floor(seconds / 3600)}h ago`;
+  if (seconds < 60) {return 'Just now';}
+  if (seconds < 3600) {return `${Math.floor(seconds / 60)}m ago`;}
+  if (seconds < 86400) {return `${Math.floor(seconds / 3600)}h ago`;}
   return `${Math.floor(seconds / 86400)}d ago`;
 };
 

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA LICENSE MANAGEMENT - Enterprise Platinum Standard
 // Software licensing, entitlements, and revenue tracking
@@ -72,8 +76,8 @@ const API_BASE = '/admin';
 async function fetchLicenses(filters?: { status?: string; type?: string }): Promise<License[]> {
   try {
     const params = new URLSearchParams();
-    if (filters?.status) params.set('status', filters.status);
-    if (filters?.type) params.set('type', filters.type);
+    if (filters?.status) {params.set('status', filters.status);}
+    if (filters?.type) {params.set('type', filters.type);}
     
     const res = await api.get<any>(`${API_BASE}/licenses?${params.toString()}`);
     return (res as any)?.licenses || (res as any)?.data?.licenses || getMockLicenses();
@@ -399,7 +403,7 @@ export const LicensesPage: React.FC = () => {
 
   const isExpiringSoon = (license: License) => {
     const expiresAt = license.expiresAt;
-    if (!expiresAt) return false;
+    if (!expiresAt) {return false;}
     const days = getDaysUntilExpiry(expiresAt);
     return days > 0 && days <= 30;
   };

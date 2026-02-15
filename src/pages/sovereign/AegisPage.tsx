@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaAegis™ - Strategic Defense Intelligence
  * "Real-time threat detection, containment, and resilience modeling."
@@ -180,7 +184,7 @@ export const AegisPage: React.FC = () => {
 
   // Auto-refresh effect
   useEffect(() => {
-    if (!autoRefresh) return;
+    if (!autoRefresh) {return;}
     const interval = setInterval(() => {
       loadData();
     }, 30000); // Refresh every 30 seconds

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CendiaPulse™ - LIVE AGENT MONITOR WEB DASHBOARD
 // Real-time visualization of agent actions, decisions, and compliance checks
@@ -285,7 +289,7 @@ export const LiveAgentMonitorPage: React.FC = () => {
 
   // Generate actions - includes TR Demo Petrov transfer periodically
   useEffect(() => {
-    if (isPaused) return;
+    if (isPaused) {return;}
 
     // Inject TR Demo action every 10 seconds
     const trDemoInterval = setInterval(() => {
@@ -351,14 +355,14 @@ export const LiveAgentMonitorPage: React.FC = () => {
 
   // Clear new action highlighting
   useEffect(() => {
-    if (newActionIds.size === 0) return;
+    if (newActionIds.size === 0) {return;}
     const timeout = setTimeout(() => setNewActionIds(new Set()), 500);
     return () => clearTimeout(timeout);
   }, [newActionIds]);
 
   const filteredActions = actions.filter(a => {
-    if (filter !== 'all' && a.decision !== filter) return false;
-    if (searchAgent && !a.agentName.toLowerCase().includes(searchAgent.toLowerCase())) return false;
+    if (filter !== 'all' && a.decision !== filter) {return false;}
+    if (searchAgent && !a.agentName.toLowerCase().includes(searchAgent.toLowerCase())) {return false;}
     return true;
   });
 

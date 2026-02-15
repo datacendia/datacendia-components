@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - SHARED DATA SOURCE CONTEXT
 // Enables all Cortex pages to work from the same data source and flow together
@@ -102,7 +106,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   // Load data sources only when authenticated (defer API calls)
   useEffect(() => {
     const token = localStorage.getItem('accessToken');
-    if (!token) return; // Skip if not authenticated
+    if (!token) {return;} // Skip if not authenticated
     
     const loadDataSources = async () => {
       setIsLoading(true);
@@ -141,6 +145,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     };
 
     loadDataSources();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Persist selected data source to URL params
@@ -153,7 +158,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         navigate({ search: params.toString() }, { replace: true });
       }
     }
-  }, [selectedDataSource, location.pathname]);
+  }, [selectedDataSource, location.pathname, location.search, navigate]);
 
   // Restore from URL on mount
   useEffect(() => {
@@ -165,7 +170,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         setSelectedDataSource(source);
       }
     }
-  }, [dataSources, location.search]);
+  }, [dataSources, location.search, selectedDataSource]);
 
   // Sync selected data source with API client header helper
   useEffect(() => {

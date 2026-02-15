@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA RESPONSIBILITY™ — HUMAN ACCOUNTABILITY LAYER
 // Explicit liability transfer, TPM-signed accountability records, delegation chains
@@ -137,7 +141,7 @@ export default function ResponsibilityPage() {
   };
 
   const handleCreateRecord = async () => {
-    if (!user) return;
+    if (!user) {return;}
     
     setIsLoading(true);
     try {

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * SCHEMA MAPPING API ROUTES
@@ -8,6 +12,7 @@
 import { Router, Request, Response } from 'express';
 import { schemaMapper, SchemaMapping } from '../services/schema/index.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -32,11 +37,11 @@ router.get('/mappings/:dataSourceId', async (req: Request, res: Response) => {
       success: true,
       mapping,
     });
-  } catch (error: any) {
-    logger.error('Failed to get schema mapping', { error: error.message });
+  } catch (error: unknown) {
+    logger.error('Failed to get schema mapping', { error: getErrorMessage(error) });
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -63,11 +68,11 @@ router.post('/mappings', async (req: Request, res: Response) => {
       success: true,
       mapping: saved,
     });
-  } catch (error: any) {
-    logger.error('Failed to save schema mapping', { error: error.message });
+  } catch (error: unknown) {
+    logger.error('Failed to save schema mapping', { error: getErrorMessage(error) });
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -96,11 +101,11 @@ router.post('/suggest', async (req: Request, res: Response) => {
       totalTables: tables.length,
       mappedTables: suggestions.length,
     });
-  } catch (error: any) {
-    logger.error('Failed to suggest mappings', { error: error.message });
+  } catch (error: unknown) {
+    logger.error('Failed to suggest mappings', { error: getErrorMessage(error) });
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -153,11 +158,11 @@ router.post('/transform-query', async (req: Request, res: Response) => {
       params,
       sourceTable: `${tableMapping.sourceSchema}.${tableMapping.sourceTable}`,
     });
-  } catch (error: any) {
-    logger.error('Failed to transform query', { error: error.message });
+  } catch (error: unknown) {
+    logger.error('Failed to transform query', { error: getErrorMessage(error) });
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -175,11 +180,11 @@ router.get('/canonical-model', async (_req: Request, res: Response) => {
       entities: CANONICAL_ENTITIES,
       fields: CANONICAL_FIELDS,
     });
-  } catch (error: any) {
-    logger.error('Failed to get canonical model', { error: error.message });
+  } catch (error: unknown) {
+    logger.error('Failed to get canonical model', { error: getErrorMessage(error) });
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -234,11 +239,11 @@ router.post('/validate', async (req: Request, res: Response) => {
       valid: issues.filter((i) => i.type === 'error').length === 0,
       issues,
     });
-  } catch (error: any) {
-    logger.error('Failed to validate mapping', { error: error.message });
+  } catch (error: unknown) {
+    logger.error('Failed to validate mapping', { error: getErrorMessage(error) });
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });

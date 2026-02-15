@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * OPEN STATES API INTEGRATION
  * Free API for state legislative data across all 50 US states + DC + PR
@@ -301,15 +305,15 @@ class OpenStatesService {
       per_page: params.per_page || 20,
     };
 
-    if (params.jurisdiction) queryParams.jurisdiction = params.jurisdiction;
-    if (params.session) queryParams.session = params.session;
-    if (params.chamber) queryParams.chamber = params.chamber;
-    if (params.classification) queryParams.classification = params.classification;
-    if (params.subject) queryParams.subject = params.subject;
-    if (params.updated_since) queryParams.updated_since = params.updated_since;
-    if (params.created_since) queryParams.created_since = params.created_since;
-    if (params.action_since) queryParams.action_since = params.action_since;
-    if (params.q) queryParams.q = params.q;
+    if (params.jurisdiction) {queryParams.jurisdiction = params.jurisdiction;}
+    if (params.session) {queryParams.session = params.session;}
+    if (params.chamber) {queryParams.chamber = params.chamber;}
+    if (params.classification) {queryParams.classification = params.classification;}
+    if (params.subject) {queryParams.subject = params.subject;}
+    if (params.updated_since) {queryParams.updated_since = params.updated_since;}
+    if (params.created_since) {queryParams.created_since = params.created_since;}
+    if (params.action_since) {queryParams.action_since = params.action_since;}
+    if (params.q) {queryParams.q = params.q;}
 
     return this.fetch<OpenStatesSearchResponse<OpenStatesBill>>('/bills', queryParams);
   }
@@ -377,11 +381,11 @@ class OpenStatesService {
       per_page: params.per_page || 20,
     };
 
-    if (params.jurisdiction) queryParams.jurisdiction = params.jurisdiction;
-    if (params.name) queryParams.name = params.name;
-    if (params.party) queryParams.party = params.party;
-    if (params.chamber) queryParams.org_classification = params.chamber;
-    if (params.district) queryParams.district = params.district;
+    if (params.jurisdiction) {queryParams.jurisdiction = params.jurisdiction;}
+    if (params.name) {queryParams.name = params.name;}
+    if (params.party) {queryParams.party = params.party;}
+    if (params.chamber) {queryParams.org_classification = params.chamber;}
+    if (params.district) {queryParams.district = params.district;}
 
     return this.fetch<OpenStatesSearchResponse<OpenStatesPerson>>('/people', queryParams);
   }
@@ -543,7 +547,7 @@ class OpenStatesService {
    * Format state legislation context for agents
    */
   formatForAgentContext(bills: OpenStatesBill[]): string {
-    if (bills.length === 0) return 'No relevant state legislation found.';
+    if (bills.length === 0) {return 'No relevant state legislation found.';}
 
     return bills.map(bill => {
       const summary = this.getBillSummary(bill);

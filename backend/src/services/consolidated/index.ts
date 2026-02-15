@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CONSOLIDATED SERVICES - Enterprise Platinum Standard
 // Real AI-powered services with Ollama + Prisma + KMS integration

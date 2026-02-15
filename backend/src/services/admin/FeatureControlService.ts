@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // FEATURE CONTROL SERVICE - Master Service/Agent/Suite Management
 // Toggle visibility, enable/disable, manage routes, and control public access

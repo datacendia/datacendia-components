@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - REGULATORY INSTANT-ABSORB
 // Upload any regulation and the Council learns it in seconds
@@ -5,6 +9,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -365,7 +370,7 @@ Respond in JSON format:
           });
         }
       } catch (error: unknown) {
-        this.logger.error(`Error extracting requirements from chunk: ${error instanceof Error ? error.message : 'Unknown error'}`);
+        this.logger.error(`Error extracting requirements from chunk: ${error instanceof Error ? getErrorMessage(error) : 'Unknown error'}`);
       }
     }
 
@@ -549,8 +554,8 @@ Respond in JSON format:
     
     // Common penalty patterns
     const penaltyPatterns = [
-      /(?:fine|penalty|sanction)[^.]*(?:â‚¬|Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
-      /(?:â‚¬|Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
+      /(?:fine|penalty|sanction)[^.]*(?:€|£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
+      /(?:€|£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
       /\d+%\s*(?:of\s*)?(?:annual\s*)?(?:turnover|revenue|profit)[^.]*/gi,
     ];
 

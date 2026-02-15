@@ -343,4 +343,41 @@ router.post('/express/remediate', async (req: Request, res: Response) => {
   }
 });
 
+// ===========================================================================
+// 10/10 ENHANCEMENTS — Advanced Compliance Intelligence
+// ===========================================================================
+
+/**
+ * GET /panopticon/conflicts
+ * Cross-framework conflict detection
+ */
+router.get('/conflicts', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const result = await cendiaPanopticonService.detectFrameworkConflicts(orgId);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+/**
+ * POST /panopticon/workflow
+ * Generate compliance remediation workflow
+ */
+router.post('/workflow', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { frameworkCode, severity, maxTasks } = req.body;
+    const result = await cendiaPanopticonService.generateComplianceWorkflow(orgId, {
+      frameworkCode,
+      severity,
+      maxTasks,
+    });
+    res.json({ success: true, data: result });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
 export default router;

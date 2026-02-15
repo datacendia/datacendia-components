@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA APOTHEOSIS™ — ORGANIZATIONAL SUPERINTELLIGENCE ENGINE
 // "We don't just make your company smarter today. We make it literally
@@ -34,8 +38,8 @@ import {
 // =============================================================================
 
 const formatCurrency = (amount: number): string => {
-  if (amount >= 1000000) return `$${(amount / 1000000).toFixed(1)}M`;
-  if (amount >= 1000) return `$${(amount / 1000).toFixed(0)}K`;
+  if (amount >= 1000000) {return `$${(amount / 1000000).toFixed(1)}M`;}
+  if (amount >= 1000) {return `$${(amount / 1000).toFixed(0)}K`;}
   return `$${amount.toFixed(0)}`;
 };
 
@@ -56,8 +60,8 @@ const getTimeRemaining = (deadline: Date | string): string => {
   const hours = Math.floor(diff / (1000 * 60 * 60));
   const days = Math.floor(hours / 24);
 
-  if (days > 0) return `${days} days remaining`;
-  if (hours > 0) return `${hours} hours remaining`;
+  if (days > 0) {return `${days} days remaining`;}
+  if (hours > 0) {return `${hours} hours remaining`;}
   return 'Overdue';
 };
 

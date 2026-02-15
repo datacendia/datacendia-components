@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * LEGAL CASE MANAGEMENT - Legal Vertical
  * Case tracking, matter management, and litigation analytics with AI agents
@@ -73,8 +77,8 @@ const DEADLINES: DeadlineItem[] = [
 // =============================================================================
 
 const formatCurrency = (num: number): string => {
-  if (num >= 1e6) return `$${(num / 1e6).toFixed(1)}M`;
-  if (num >= 1e3) return `$${(num / 1e3).toFixed(0)}K`;
+  if (num >= 1e6) {return `$${(num / 1e6).toFixed(1)}M`;}
+  if (num >= 1e3) {return `$${(num / 1e3).toFixed(0)}K`;}
   return `$${num}`;
 };
 

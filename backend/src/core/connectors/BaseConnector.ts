@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - BASE CONNECTOR
 // Enterprise-grade integration connector foundation
@@ -5,6 +9,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../services/BaseService';
 import { eventBus } from '../events/EventBus';
+import { getErrorMessage, ensureError } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -217,12 +222,12 @@ export abstract class BaseConnector extends BaseService {
           ...this.connectionStatus,
         },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
         latency: Date.now() - startTime,
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
         details: this.connectionStatus,
       };
     }
@@ -288,8 +293,8 @@ export abstract class BaseConnector extends BaseService {
       };
 
       this.logger.info('OAuth token refreshed successfully');
-    } catch (error: any) {
-      this.logger.error('Failed to refresh OAuth token', { error: error.message });
+    } catch (error: unknown) {
+      this.logger.error('Failed to refresh OAuth token', { error: getErrorMessage(error) });
       throw error;
     }
   }
@@ -411,8 +416,8 @@ export abstract class BaseConnector extends BaseService {
     for (let attempt = 0; attempt <= retries; attempt++) {
       try {
         return await operation();
-      } catch (error: any) {
-        lastError = error;
+      } catch (error: unknown) {
+        lastError = ensureError(error);
         
         if (attempt < retries) {
           const delay = Math.min(
@@ -420,7 +425,7 @@ export abstract class BaseConnector extends BaseService {
             this.retryConfig.maxBackoffMs
           );
           this.logger.warn(`Retry ${attempt + 1}/${retries} after ${delay}ms`, { 
-            error: error.message 
+            error: getErrorMessage(error) 
           });
           await this.sleep(delay);
         }

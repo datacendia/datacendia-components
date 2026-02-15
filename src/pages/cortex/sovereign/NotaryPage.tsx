@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { 
@@ -58,6 +62,7 @@ const NotaryPage: React.FC = () => {
 
   useEffect(() => {
     loadNotaryData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const loadNotaryData = async () => {
@@ -203,9 +208,9 @@ const NotaryPage: React.FC = () => {
   ];
 
   const getProviderIcon = (provider: string) => {
-    if (provider.includes('AWS')) return <Cloud className="w-5 h-5 text-orange-400" />;
-    if (provider.includes('Azure')) return <Cloud className="w-5 h-5 text-blue-400" />;
-    if (provider.includes('HashiCorp')) return <Server className="w-5 h-5 text-purple-400" />;
+    if (provider.includes('AWS')) {return <Cloud className="w-5 h-5 text-orange-400" />;}
+    if (provider.includes('Azure')) {return <Cloud className="w-5 h-5 text-blue-400" />;}
+    if (provider.includes('HashiCorp')) {return <Server className="w-5 h-5 text-purple-400" />;}
     return <HardDrive className="w-5 h-5 text-green-400" />;
   };
 

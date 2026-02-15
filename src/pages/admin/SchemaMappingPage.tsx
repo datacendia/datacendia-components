@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Schema Mapping Admin Page
  * Configure how client database schemas map to Datacendia's canonical data model
@@ -216,7 +220,7 @@ export const SchemaMappingPage: React.FC = () => {
   };
 
   const suggestMappings = async () => {
-    if (!selectedDataSource || sourceTables.length === 0) return;
+    if (!selectedDataSource || sourceTables.length === 0) {return;}
 
     setIsLoading(true);
     try {
@@ -249,7 +253,7 @@ export const SchemaMappingPage: React.FC = () => {
   };
 
   const saveMapping = async () => {
-    if (!mapping) return;
+    if (!mapping) {return;}
 
     setIsSaving(true);
     try {
@@ -275,16 +279,16 @@ export const SchemaMappingPage: React.FC = () => {
     sourceColumn: string,
     updates: Partial<ColumnMapping>
   ) => {
-    if (!mapping) return;
+    if (!mapping) {return;}
 
     setMapping({
       ...mapping,
       tableMappings: mapping.tableMappings.map((table) => {
-        if (table.id !== tableId) return table;
+        if (table.id !== tableId) {return table;}
         return {
           ...table,
           columnMappings: table.columnMappings.map((col) => {
-            if (col.sourceColumn !== sourceColumn) return col;
+            if (col.sourceColumn !== sourceColumn) {return col;}
             return { ...col, ...updates, isManual: true };
           }),
         };
@@ -293,7 +297,7 @@ export const SchemaMappingPage: React.FC = () => {
   };
 
   const previewQueryTransform = async (tableMapping: TableMapping) => {
-    if (!selectedDataSource) return;
+    if (!selectedDataSource) {return;}
 
     try {
       const response = await fetch('/api/v1/schema/transform-query', {
@@ -327,14 +331,14 @@ export const SchemaMappingPage: React.FC = () => {
   };
 
   const getConfidenceColor = (confidence: number) => {
-    if (confidence >= 0.8) return 'text-green-400';
-    if (confidence >= 0.5) return 'text-yellow-400';
+    if (confidence >= 0.8) {return 'text-green-400';}
+    if (confidence >= 0.5) {return 'text-yellow-400';}
     return 'text-red-400';
   };
 
   const getConfidenceBg = (confidence: number) => {
-    if (confidence >= 0.8) return 'bg-green-500/20';
-    if (confidence >= 0.5) return 'bg-yellow-500/20';
+    if (confidence >= 0.8) {return 'bg-green-500/20';}
+    if (confidence >= 0.5) {return 'bg-yellow-500/20';}
     return 'bg-red-500/20';
   };
 
@@ -368,7 +372,7 @@ export const SchemaMappingPage: React.FC = () => {
             onChange={(e) => {
               const ds = dataSources.find((d) => d.id === e.target.value);
               setSelectedDataSource(ds || null);
-              if (ds) loadSourceSchema(ds.id);
+              if (ds) {loadSourceSchema(ds.id);}
             }}
             className="flex-1 bg-slate-700 border border-slate-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500"
           >
@@ -515,7 +519,7 @@ export const SchemaMappingPage: React.FC = () => {
                               <select
                                 value={tableMapping.canonicalEntity}
                                 onChange={(e) => {
-                                  if (!mapping) return;
+                                  if (!mapping) {return;}
                                   setMapping({
                                     ...mapping,
                                     tableMappings: mapping.tableMappings.map((t) =>

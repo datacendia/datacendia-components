@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * DATACENDIA - INTERNATIONALIZATION API
@@ -18,6 +22,7 @@ import {
 } from '../services/i18n/TranslationService.js';
 import { logger } from '../utils/logger.js';
 import { cacheService } from '../services/cache/RedisCacheService.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -54,11 +59,11 @@ router.get('/languages', async (req: Request, res: Response) => {
     await cacheService.set(cacheKey, response, 3600);
     
     res.json(response);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Failed to get languages:', error);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -94,11 +99,11 @@ router.get('/translations/:language', async (req: Request, res: Response) => {
       count: Object.keys(translations).length,
       totalAvailable: Object.keys(BASE_TRANSLATIONS).length,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error(`Failed to get translations for ${req.params.language}:`, error);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -143,11 +148,11 @@ router.post('/translate/content', async (req: Request, res: Response) => {
       translated,
       targetLanguage,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Content translation failed:', error);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -196,11 +201,11 @@ router.post('/translate/deliberation', async (req: Request, res: Response) => {
       ...translated,
       targetLanguage,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Deliberation translation failed:', error);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -223,10 +228,10 @@ router.get('/user/preference', async (req: Request, res: Response) => {
         ...languageInfo,
       },
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -268,10 +273,10 @@ router.put('/user/preference', async (req: Request, res: Response) => {
       message: 'Language preference updated',
       language,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -289,10 +294,10 @@ router.post('/cache/clear', async (req: Request, res: Response) => {
       success: true,
       message: language ? `Cache cleared for ${language}` : 'All translation caches cleared',
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -309,10 +314,10 @@ router.get('/stats', async (req: Request, res: Response) => {
       success: true,
       stats,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });

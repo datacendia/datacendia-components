@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA — USER INTERVENTION PANEL
 // =============================================================================
@@ -70,7 +74,7 @@ export const UserInterventionPanel: React.FC = () => {
   }, [isPaused]);
 
   const handleSubmit = async () => {
-    if (!message.trim()) return;
+    if (!message.trim()) {return;}
     const intervention: Intervention = {
       id: `int-${Date.now()}`,
       type: selectedType,

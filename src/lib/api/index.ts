@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Datacendia API - Main Export
  * Unified API client for all Datacendia services
@@ -310,9 +314,9 @@ export const councilApi = {
   },
 
   async getAllDeliberations(limit?: number, status?: string) {
-    const params: any = {};
-    if (limit) params.limit = limit;
-    if (status) params.status = status;
+    const params: Record<string, string | number> = {};
+    if (limit) {params.limit = limit;}
+    if (status) {params.status = status;}
     return api.get<Types.Deliberation[]>('/council/deliberations', params);
   },
 
@@ -337,8 +341,8 @@ export const councilApi = {
   async saveDeliberation(data: {
     question: string;
     mode: string;
-    agentResponses: any[];
-    crossExaminations: any[];
+    agentResponses: unknown[];
+    crossExaminations: unknown[];
     synthesis: string;
     confidence: number;
   }) {
@@ -1448,11 +1452,11 @@ export const druidApi = {
     department?: string;
   }) {
     const query = new URLSearchParams();
-    if (params?.startTime) query.append('startTime', params.startTime);
-    if (params?.endTime) query.append('endTime', params.endTime);
-    if (params?.limit) query.append('limit', String(params.limit));
-    if (params?.riskLevel) query.append('riskLevel', params.riskLevel);
-    if (params?.department) query.append('department', params.department);
+    if (params?.startTime) {query.append('startTime', params.startTime);}
+    if (params?.endTime) {query.append('endTime', params.endTime);}
+    if (params?.limit) {query.append('limit', String(params.limit));}
+    if (params?.riskLevel) {query.append('riskLevel', params.riskLevel);}
+    if (params?.department) {query.append('department', params.department);}
     return api.get<any>(`/druid/chronos/decisions?${query.toString()}`);
   },
 
@@ -1462,9 +1466,9 @@ export const druidApi = {
     granularity?: 'hour' | 'day' | 'week';
   }) {
     const query = new URLSearchParams();
-    if (params?.startDate) query.append('startDate', params.startDate);
-    if (params?.endDate) query.append('endDate', params.endDate);
-    if (params?.granularity) query.append('granularity', params.granularity);
+    if (params?.startDate) {query.append('startDate', params.startDate);}
+    if (params?.endDate) {query.append('endDate', params.endDate);}
+    if (params?.granularity) {query.append('granularity', params.granularity);}
     return api.get<any>(`/druid/chronos/timeline?${query.toString()}`);
   },
 
@@ -1486,12 +1490,12 @@ export const druidApi = {
     limit?: number;
   }) {
     const query = new URLSearchParams();
-    if (params?.resourceType) query.append('resourceType', params.resourceType);
-    if (params?.resourceId) query.append('resourceId', params.resourceId);
-    if (params?.actorId) query.append('actorId', params.actorId);
-    if (params?.startTime) query.append('startTime', params.startTime);
-    if (params?.endTime) query.append('endTime', params.endTime);
-    if (params?.limit) query.append('limit', String(params.limit));
+    if (params?.resourceType) {query.append('resourceType', params.resourceType);}
+    if (params?.resourceId) {query.append('resourceId', params.resourceId);}
+    if (params?.actorId) {query.append('actorId', params.actorId);}
+    if (params?.startTime) {query.append('startTime', params.startTime);}
+    if (params?.endTime) {query.append('endTime', params.endTime);}
+    if (params?.limit) {query.append('limit', String(params.limit));}
     return api.get<any>(`/druid/witness/audit?${query.toString()}`);
   },
 
@@ -1507,10 +1511,10 @@ export const druidApi = {
     endTime?: string;
   }) {
     const query = new URLSearchParams();
-    if (params?.agentId) query.append('agentId', params.agentId);
-    if (params?.granularity) query.append('granularity', params.granularity);
-    if (params?.startTime) query.append('startTime', params.startTime);
-    if (params?.endTime) query.append('endTime', params.endTime);
+    if (params?.agentId) {query.append('agentId', params.agentId);}
+    if (params?.granularity) {query.append('granularity', params.granularity);}
+    if (params?.startTime) {query.append('startTime', params.startTime);}
+    if (params?.endTime) {query.append('endTime', params.endTime);}
     return api.get<any>(`/druid/pulse/agents?${query.toString()}`);
   },
 
@@ -1520,9 +1524,9 @@ export const druidApi = {
 
   async getAlerts(params?: { severity?: string; resolved?: boolean; limit?: number }) {
     const query = new URLSearchParams();
-    if (params?.severity) query.append('severity', params.severity);
-    if (params?.resolved !== undefined) query.append('resolved', String(params.resolved));
-    if (params?.limit) query.append('limit', String(params.limit));
+    if (params?.severity) {query.append('severity', params.severity);}
+    if (params?.resolved !== undefined) {query.append('resolved', String(params.resolved));}
+    if (params?.limit) {query.append('limit', String(params.limit));}
     return api.get<any>(`/druid/pulse/alerts?${query.toString()}`);
   },
 

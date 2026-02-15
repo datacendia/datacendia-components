@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
- * CendiaCrucibleâ„¢ SBOM (Software Bill of Materials) Service
+ * CendiaCrucible™ SBOM (Software Bill of Materials) Service
  * 
  * Enterprise/Government Grade Implementation
  * Compliant with: Executive Order 14028, NIST SSDF, FedRAMP
@@ -19,6 +23,7 @@ import path from 'path';
 // import { execSync } from 'child_process';
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // ============================================================================
 // TYPES
@@ -361,8 +366,8 @@ export class SBOMService extends EventEmitter {
           signature: report.signature,
         },
       });
-    } catch (error: any) {
-      logger.error(`[SBOM] Failed to save report: ${error.message}`);
+    } catch (error: unknown) {
+      logger.error(`[SBOM] Failed to save report: ${getErrorMessage(error)}`);
     }
   }
 

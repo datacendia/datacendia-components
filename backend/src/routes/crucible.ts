@@ -499,4 +499,64 @@ router.get('/express/resilience', devAuth, async (req: Request, res: Response, n
   }
 });
 
+// ===========================================================================
+// 10/10 ENHANCEMENTS — Advanced Simulation Intelligence
+// ===========================================================================
+
+/**
+ * POST /crucible/sensitivity
+ * Sensitivity analysis — how outcomes change when variables shift
+ */
+router.post('/sensitivity', devAuth, async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { simulationId } = req.body;
+    if (!simulationId) {
+      return res.status(400).json({ success: false, error: { message: 'simulationId is required' } });
+    }
+    const result = await cendiaCrucibleService.runSensitivityAnalysis(simulationId);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * POST /crucible/calibrate
+ * Historical calibration — compare predictions vs Echo actuals
+ */
+router.post('/calibrate', devAuth, async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const result = await cendiaCrucibleService.calibrateModel(req.organizationId!);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * POST /crucible/correlations
+ * Scenario correlations — find how scenarios interact
+ */
+router.post('/correlations', devAuth, async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const result = await cendiaCrucibleService.analyzeScenarioCorrelations(req.organizationId!);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /crucible/library
+ * Scenario library — industry presets + saved scenarios
+ */
+router.get('/library', devAuth, async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const result = await cendiaCrucibleService.getScenarioLibrary(req.organizationId!);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    next(error);
+  }
+});
+
 export default router;

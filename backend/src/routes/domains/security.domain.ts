@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // SECURITY DOMAIN ROUTER - Security & Adversarial Defense
 // =============================================================================
@@ -12,17 +16,23 @@ import postQuantumRoutes from '../post-quantum.js';
 import zkpRoutes from '../zkp.js';
 import adversarialRedteamRoutes from '../adversarial-redteam.js';
 import redteamRoutes from '../redteam.js';
+import securityServicesRoutes from '../security-services.js';
+import mfaRoutes from '../mfa.js';
+import sentryRoutes from '../sentry.js';
 
 const router = Router();
 
 router.use('/crucible', crucibleRoutes);
 router.use('/crucible-enterprise', crucibleEnterpriseRoutes);
 router.use('/aegis', aegisRoutes);
+router.use('/sentry', sentryRoutes);
 router.use('/security', sovereignSecurityRoutes);
 router.use('/kms', kmsRoutes);
 router.use('/post-quantum', postQuantumRoutes);
 router.use('/zkp', zkpRoutes);
 router.use('/adversarial-redteam', adversarialRedteamRoutes);
 router.use('/redteam', redteamRoutes);
+router.use('/security-services', securityServicesRoutes);
+router.use('/mfa', mfaRoutes);
 
 export default router;

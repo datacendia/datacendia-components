@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA CRUCIBLE MODES - Stress Test Severity Levels
 // Different intensity levels for stress testing decisions and systems
@@ -763,9 +767,9 @@ export const calculateStressScore = (
   
   // Determine risk level
   let riskLevel = 'Low';
-  if (adjustedScore > 70) riskLevel = 'Critical';
-  else if (adjustedScore > 50) riskLevel = 'High';
-  else if (adjustedScore > 30) riskLevel = 'Medium';
+  if (adjustedScore > 70) {riskLevel = 'Critical';}
+  else if (adjustedScore > 50) {riskLevel = 'High';}
+  else if (adjustedScore > 30) {riskLevel = 'Medium';}
   
   return {
     score: Math.round(adjustedScore),

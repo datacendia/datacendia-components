@@ -1,0 +1,200 @@
+# =============================================================================
+# DATACENDIA — RELEASE MANAGEMENT PIPELINE
+# =============================================================================
+# Enterprise Platinum Standard: Semantic versioning with automated changelogs
+#
+# Triggers:
+#   - Manual dispatch with version bump type (patch/minor/major)
+#   - Creates Git tag, GitHub Release, and changelog
+# =============================================================================
+
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+      prerelease:
+        description: 'Pre-release label (empty for stable)'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout (full history for changelog)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Configure Git
+        run: |
+          git config user.name "Datacendia Release Bot"
+          git config user.email "release@datacendia.com"
+
+      - name: Get current version
+        id: current
+        run: |
+          CURRENT=$(node -p "require('./package.json').version")
+          echo "version=$CURRENT" >> $GITHUB_OUTPUT
+          echo "Current version: $CURRENT"
+
+      - name: Calculate next version
+        id: next
+        run: |
+          CURRENT="${{ steps.current.outputs.version }}"
+          BUMP="${{ inputs.bump }}"
+          PRERELEASE="${{ inputs.prerelease }}"
+          
+          IFS='.' read -r MAJOR MINOR PATCH <<< "${CURRENT%%-*}"
+          
+          case "$BUMP" in
+            major) MAJOR=$((MAJOR + 1)); MINOR=0; PATCH=0 ;;
+            minor) MINOR=$((MINOR + 1)); PATCH=0 ;;
+            patch) PATCH=$((PATCH + 1)) ;;
+          esac
+          
+          if [ -n "$PRERELEASE" ]; then
+            NEXT="${MAJOR}.${MINOR}.${PATCH}-${PRERELEASE}"
+          else
+            NEXT="${MAJOR}.${MINOR}.${PATCH}"
+          fi
+          
+          echo "version=$NEXT" >> $GITHUB_OUTPUT
+          echo "Next version: $NEXT"
+
+      - name: Update package versions
+        run: |
+          NEXT="${{ steps.next.outputs.version }}"
+          
+          # Update root package.json
+          npm version "$NEXT" --no-git-tag-version
+          
+          # Update backend package.json
+          cd backend
+          npm version "$NEXT" --no-git-tag-version
+          cd ..
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          NEXT="${{ steps.next.outputs.version }}"
+          
+          echo "## v${NEXT}" > CHANGELOG_ENTRY.md
+          echo "" >> CHANGELOG_ENTRY.md
+          echo "**Released:** $(date -u +%Y-%m-%d)" >> CHANGELOG_ENTRY.md
+          echo "" >> CHANGELOG_ENTRY.md
+          
+          if [ -n "$PREV_TAG" ]; then
+            RANGE="${PREV_TAG}..HEAD"
+          else
+            RANGE="HEAD"
+          fi
+          
+          # Features
+          FEATURES=$(git log $RANGE --pretty=format:"- %s (%h)" --grep="^feat" --grep="^add" --grep="^new" -i 2>/dev/null || true)
+          if [ -n "$FEATURES" ]; then
+            echo "### ✨ Features" >> CHANGELOG_ENTRY.md
+            echo "$FEATURES" >> CHANGELOG_ENTRY.md
+            echo "" >> CHANGELOG_ENTRY.md
+          fi
+          
+          # Bug fixes
+          FIXES=$(git log $RANGE --pretty=format:"- %s (%h)" --grep="^fix" --grep="^bug" -i 2>/dev/null || true)
+          if [ -n "$FIXES" ]; then
+            echo "### 🐛 Bug Fixes" >> CHANGELOG_ENTRY.md
+            echo "$FIXES" >> CHANGELOG_ENTRY.md
+            echo "" >> CHANGELOG_ENTRY.md
+          fi
+          
+          # Security
+          SECURITY=$(git log $RANGE --pretty=format:"- %s (%h)" --grep="^security" --grep="^sec" -i 2>/dev/null || true)
+          if [ -n "$SECURITY" ]; then
+            echo "### 🔒 Security" >> CHANGELOG_ENTRY.md
+            echo "$SECURITY" >> CHANGELOG_ENTRY.md
+            echo "" >> CHANGELOG_ENTRY.md
+          fi
+          
+          # All other commits
+          OTHER=$(git log $RANGE --pretty=format:"- %s (%h)" --invert-grep --grep="^feat" --grep="^fix" --grep="^bug" --grep="^security" -i 2>/dev/null | head -30 || true)
+          if [ -n "$OTHER" ]; then
+            echo "### 📦 Other Changes" >> CHANGELOG_ENTRY.md
+            echo "$OTHER" >> CHANGELOG_ENTRY.md
+            echo "" >> CHANGELOG_ENTRY.md
+          fi
+          
+          # Stats
+          echo "### 📊 Stats" >> CHANGELOG_ENTRY.md
+          COMMIT_COUNT=$(git log $RANGE --oneline 2>/dev/null | wc -l || echo "0")
+          CONTRIBUTORS=$(git log $RANGE --pretty=format:"%an" 2>/dev/null | sort -u | wc -l || echo "0")
+          echo "- **Commits:** $COMMIT_COUNT" >> CHANGELOG_ENTRY.md
+          echo "- **Contributors:** $CONTRIBUTORS" >> CHANGELOG_ENTRY.md
+          echo "" >> CHANGELOG_ENTRY.md
+          
+          cat CHANGELOG_ENTRY.md
+
+      - name: Commit version bump
+        run: |
+          NEXT="${{ steps.next.outputs.version }}"
+          git add package.json backend/package.json
+          git commit -m "release: v${NEXT}"
+          git tag -a "v${NEXT}" -m "Release v${NEXT}"
+
+      - name: Push tag and commit
+        run: |
+          git push origin main --follow-tags
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.next.outputs.version }}
+          release_name: Datacendia v${{ steps.next.outputs.version }}
+          body_path: CHANGELOG_ENTRY.md
+          draft: false
+          prerelease: ${{ inputs.prerelease != '' }}
+
+      - name: Trigger deployment
+        if: inputs.prerelease == ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy.yml',
+              ref: 'main',
+              inputs: {
+                environment: 'staging'
+              }
+            });

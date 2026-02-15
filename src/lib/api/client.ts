@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Datacendia API Client
  * Production-grade API client with authentication, error handling, and type safety
@@ -277,19 +281,19 @@ class ApiClient {
 
   async post<T>(endpoint: string, body?: unknown): Promise<ApiResponse<T>> {
     const options: RequestInit = { method: 'POST' };
-    if (body) options.body = JSON.stringify(body);
+    if (body) {options.body = JSON.stringify(body);}
     return this.request<T>(endpoint, options);
   }
 
   async put<T>(endpoint: string, body?: unknown): Promise<ApiResponse<T>> {
     const options: RequestInit = { method: 'PUT' };
-    if (body) options.body = JSON.stringify(body);
+    if (body) {options.body = JSON.stringify(body);}
     return this.request<T>(endpoint, options);
   }
 
   async patch<T>(endpoint: string, body?: unknown): Promise<ApiResponse<T>> {
     const options: RequestInit = { method: 'PATCH' };
-    if (body) options.body = JSON.stringify(body);
+    if (body) {options.body = JSON.stringify(body);}
     return this.request<T>(endpoint, options);
   }
 

@@ -1,13 +1,18 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DATACENDIA PLATFORM - AUTO-APPLY DATABASE INDEXES
  * 
  * Runs on server startup after PostgreSQL connects.
  * Uses CREATE INDEX IF NOT EXISTS so it's safe to run repeatedly.
- * Idempotent â€” no-op if indexes already exist.
+ * Idempotent — no-op if indexes already exist.
  */
 
 import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage, getErrorCode } from '../utils/errors.js';
 
 const PERFORMANCE_INDEXES = [
   // Decisions table - Most queried table
@@ -90,16 +95,17 @@ export async function applyPerformanceIndexes(prisma: PrismaClient): Promise<voi
     try {
       await prisma.$executeRawUnsafe(sql);
       applied++;
-    } catch (error: any) {
+    } catch (error: unknown) {
       // 42P07 = relation already exists, 42P01 = table doesn't exist
-      if (error?.code === '42P07') {
+      const code = getErrorCode(error);
+      if (code === '42P07') {
         skipped++;
-      } else if (error?.code === '42P01' || error?.message?.includes('does not exist')) {
-        // Table doesn't exist yet (migrations haven't run) â€” skip silently
+      } else if (code === '42P01' || getErrorMessage(error)?.includes('does not exist')) {
+        // Table doesn't exist yet (migrations haven't run) — skip silently
         skipped++;
       } else {
         failed++;
-        logger.warn(`[Indexes] Failed to apply index: ${sql.substring(0, 80)}...`, error?.message);
+        logger.warn(`[Indexes] Failed to apply index: ${sql.substring(0, 80)}...`, getErrorMessage(error));
       }
     }
   }

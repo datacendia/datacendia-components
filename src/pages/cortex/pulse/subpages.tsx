@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - PULSE SUB-PAGES
 // =============================================================================
@@ -324,13 +328,13 @@ interface Metric {
 
 const formatMetricValue = (value: number, unit: string): string => {
   if (unit === 'USD') {
-    if (value >= 1000000) return `$${(value / 1000000).toFixed(2)}M`;
-    if (value >= 1000) return `$${(value / 1000).toFixed(1)}K`;
+    if (value >= 1000000) {return `$${(value / 1000000).toFixed(2)}M`;}
+    if (value >= 1000) {return `$${(value / 1000).toFixed(1)}K`;}
     return `$${value.toLocaleString()}`;
   }
-  if (unit === 'percent') return `${value}%`;
-  if (unit === 'ms') return `${value}ms`;
-  if (unit === 'count') return value.toLocaleString();
+  if (unit === 'percent') {return `${value}%`;}
+  if (unit === 'ms') {return `${value}ms`;}
+  if (unit === 'count') {return value.toLocaleString();}
   return String(value);
 };
 

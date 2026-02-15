@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * GraphCanvas - Cytoscape.js-based graph visualization component
  */
@@ -269,6 +273,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       cy.destroy();
       cyRef.current = null;
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Update elements when data changes

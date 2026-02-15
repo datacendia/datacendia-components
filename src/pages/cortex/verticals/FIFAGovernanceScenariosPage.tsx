@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DATACENDIA PLATFORM - FIFA/UEFA GOVERNANCE SCENARIOS
  * Presentation-grade crisis scenarios for institutional demo
@@ -65,7 +69,7 @@ const CategoryBadge = ({ category, label }: { category: string; label: string })
 };
 
 const RiskFlagBadge = ({ flag }: { flag?: string }) => {
-  if (!flag) return null;
+  if (!flag) {return null;}
   const colors: Record<string, string> = {
     critical: 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400',
     high: 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400',
@@ -226,8 +230,8 @@ const ScenarioDetail = ({
 
   const toggleAgent = (id: string) => {
     const next = new Set(expandedAgents);
-    if (next.has(id)) next.delete(id);
-    else next.add(id);
+    if (next.has(id)) {next.delete(id);}
+    else {next.add(id);}
     setExpandedAgents(next);
   };
 

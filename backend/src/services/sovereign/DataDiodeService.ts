@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// CENDIA DATA DIODE™ - UNIDIRECTIONAL SOVEREIGN DATA INGEST
+// CENDIA DATA DIODE� - UNIDIRECTIONAL SOVEREIGN DATA INGEST
 // "We never make outbound calls. Data flows in, never out."
 //
 // Enterprise-grade one-way data ingestion for air-gapped environments.
@@ -12,6 +16,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { getErrorMessage, getErrorStack } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -393,19 +398,19 @@ class DataDiodeService extends EventEmitter {
       event.completedAt = new Date();
       this.updateStatistics(event, true);
       
-      logger.info(`[DataDiode] ✓ Ingested ${filename} (${event.recordsExtracted} records)`);
+      logger.info(`[DataDiode] ? Ingested ${filename} (${event.recordsExtracted} records)`);
       this.emit('ingest:completed', event);
       
-    } catch (error: any) {
+    } catch (error: unknown) {
       event.status = 'failed';
-      event.errorMessage = error.message;
-      event.errorStack = error.stack;
+      event.errorMessage = getErrorMessage(error);
+      event.errorStack = getErrorStack(error);
       this.updateStatistics(event, false);
       
       // Move to reject folder
       await this.rejectFile(event);
       
-      logger.error(`[DataDiode] ✗ Failed ${filename}: ${error.message}`);
+      logger.error(`[DataDiode] ? Failed ${filename}: ${getErrorMessage(error)}`);
       this.emit('ingest:failed', event);
     } finally {
       this.processing.delete(filePath);
@@ -535,9 +540,9 @@ class DataDiodeService extends EventEmitter {
       event.signedBy = 'verified'; // In production, extract from certificate
       
       this.emit('ingest:signature_verified', event);
-    } catch (error: any) {
+    } catch (error: unknown) {
       event.signatureValid = false;
-      throw new Error(`Signature verification failed: ${error.message}`);
+      throw new Error(`Signature verification failed: ${getErrorMessage(error)}`);
     }
   }
 
@@ -796,8 +801,8 @@ class DataDiodeService extends EventEmitter {
       
       (event as any).parsedData = result;
       return result.recordCount || 1;
-    } catch (error: any) {
-      throw new Error(`Custom parser failed: ${error.message}`);
+    } catch (error: unknown) {
+      throw new Error(`Custom parser failed: ${getErrorMessage(error)}`);
     }
   }
 
@@ -861,7 +866,7 @@ class DataDiodeService extends EventEmitter {
    */
   private async ingestToPredict(data: any, event: IngestEvent): Promise<void> {
     // In production, this would call the Predict service
-    logger.info(`[DataDiode] → CendiaPredict: ${event.recordsExtracted} records`);
+    logger.info(`[DataDiode] ? CendiaPredict: ${event.recordsExtracted} records`);
     
     // Emit for downstream processing
     this.emit('predict:data', {
@@ -876,7 +881,7 @@ class DataDiodeService extends EventEmitter {
    * Ingest to CendiaGnosis (knowledge base)
    */
   private async ingestToGnosis(data: any, event: IngestEvent): Promise<void> {
-    logger.info(`[DataDiode] → CendiaGnosis: ${event.recordsExtracted} records`);
+    logger.info(`[DataDiode] ? CendiaGnosis: ${event.recordsExtracted} records`);
     
     this.emit('gnosis:data', {
       source: event.sourceName,
@@ -890,7 +895,7 @@ class DataDiodeService extends EventEmitter {
    * Ingest to CendiaPanopticon (regulatory)
    */
   private async ingestToPanopticon(data: any, event: IngestEvent): Promise<void> {
-    logger.info(`[DataDiode] → CendiaPanopticon: ${event.recordsExtracted} records`);
+    logger.info(`[DataDiode] ? CendiaPanopticon: ${event.recordsExtracted} records`);
     
     this.emit('panopticon:data', {
       source: event.sourceName,

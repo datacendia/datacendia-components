@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * UNIFIED CASELAW SERVICE
  * Combines multiple data sources for legal case research:
@@ -171,7 +175,7 @@ class UnifiedCaselawService {
     const seen = new Set<string>();
     const dedupedResults = results.filter(r => {
       const key = r.citation.toLowerCase().replace(/\s+/g, '');
-      if (seen.has(key)) return false;
+      if (seen.has(key)) {return false;}
       seen.add(key);
       return true;
     });

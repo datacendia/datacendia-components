@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - PRE-MORTEM FEATURE
 // AI-powered failure analysis before decisions are made
@@ -6,6 +10,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { eventBus } from '../../core/events/EventBus.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -126,7 +131,7 @@ export const PREMORTEM_AGENTS = {
     id: 'cfo',
     name: 'CFO Agent',
     role: 'Chief Financial Officer',
-    icon: '💰',
+    icon: '??',
     color: '#10B981',
     description: 'Financial risk analysis, ROI, cash flow',
     prompt: `Analyze this decision from a CFO perspective. Focus on:
@@ -140,7 +145,7 @@ export const PREMORTEM_AGENTS = {
     id: 'coo',
     name: 'COO Agent',
     role: 'Chief Operating Officer',
-    icon: '⚙️',
+    icon: '??',
     color: '#F59E0B',
     description: 'Operations, capacity, execution',
     prompt: `Analyze this decision from a COO perspective. Focus on:
@@ -154,7 +159,7 @@ export const PREMORTEM_AGENTS = {
     id: 'cro',
     name: 'CRO Agent',
     role: 'Chief Revenue Officer',
-    icon: '📈',
+    icon: '??',
     color: '#8B5CF6',
     description: 'Revenue impact, sales, market position',
     prompt: `Analyze this decision from a CRO perspective. Focus on:
@@ -168,7 +173,7 @@ export const PREMORTEM_AGENTS = {
     id: 'ciso',
     name: 'CISO Agent',
     role: 'Chief Information Security Officer',
-    icon: '🔒',
+    icon: '??',
     color: '#EF4444',
     description: 'Security, compliance, data protection',
     prompt: `Analyze this decision from a CISO perspective. Focus on:
@@ -182,7 +187,7 @@ export const PREMORTEM_AGENTS = {
     id: 'cto',
     name: 'CTO Agent',
     role: 'Chief Technology Officer',
-    icon: '🔧',
+    icon: '??',
     color: '#06B6D4',
     description: 'Technology feasibility, scalability, integration',
     prompt: `Analyze this decision from a CTO perspective. Focus on:
@@ -196,7 +201,7 @@ export const PREMORTEM_AGENTS = {
     id: 'legal',
     name: 'Legal Agent',
     role: 'General Counsel',
-    icon: '⚖️',
+    icon: '??',
     color: '#6366F1',
     description: 'Legal risks, contracts, liability',
     prompt: `Analyze this decision from a Legal perspective. Focus on:
@@ -210,7 +215,7 @@ export const PREMORTEM_AGENTS = {
     id: 'hr',
     name: 'HR Agent',
     role: 'Chief People Officer',
-    icon: '👥',
+    icon: '??',
     color: '#EC4899',
     description: 'People, culture, talent risks',
     prompt: `Analyze this decision from an HR perspective. Focus on:
@@ -224,7 +229,7 @@ export const PREMORTEM_AGENTS = {
     id: 'market',
     name: 'Market Agent',
     role: 'Market Analyst',
-    icon: '🌍',
+    icon: '??',
     color: '#14B8A6',
     description: 'Market dynamics, competition, trends',
     prompt: `Analyze this decision from a Market perspective. Focus on:
@@ -238,7 +243,7 @@ export const PREMORTEM_AGENTS = {
     id: 'customer',
     name: 'Customer Agent',
     role: 'Voice of Customer',
-    icon: '🎯',
+    icon: '??',
     color: '#F97316',
     description: 'Customer impact, satisfaction, adoption',
     prompt: `Analyze this decision from a Customer perspective. Focus on:
@@ -252,7 +257,7 @@ export const PREMORTEM_AGENTS = {
     id: 'strategist',
     name: 'Strategy Agent',
     role: 'Chief Strategy Officer',
-    icon: '🧭',
+    icon: '??',
     color: '#3B82F6',
     description: 'Strategic alignment, long-term impact',
     prompt: `Analyze this decision from a Strategy perspective. Focus on:
@@ -266,7 +271,7 @@ export const PREMORTEM_AGENTS = {
     id: 'pessimist',
     name: "Devil's Advocate",
     role: 'Critical Analyst',
-    icon: '😈',
+    icon: '??',
     color: '#991B1B',
     description: 'Finds every possible way this could fail',
     prompt: `You are the Devil's Advocate. Your job is to find EVERY possible way this decision could fail. 
@@ -427,7 +432,7 @@ export class PreMortemService extends BaseService {
       this.incrementCounter('analyses_failed', 1);
       eventBus.publish(eventBus.createEvent('pre-mortem', 'analysis.failed', {
         organizationId: request.organizationId,
-        error: error instanceof Error ? error.message : 'Unknown error',
+        error: error instanceof Error ? getErrorMessage(error) : 'Unknown error',
       }));
       throw error;
     }
@@ -758,7 +763,7 @@ ${topRisks.map((r, i) => `${i + 1}. ${r.title} (${r.probability}% probability, $
 RECOMMENDATION: ${recommendation.action.toUpperCase().replace('_', ' ')}
 ${recommendation.reasoning}
 
-${recommendation.conditions.length > 0 ? `CONDITIONS:\n${recommendation.conditions.map(c => `• ${c}`).join('\n')}` : ''}`;
+${recommendation.conditions.length > 0 ? `CONDITIONS:\n${recommendation.conditions.map(c => `� ${c}`).join('\n')}` : ''}`;
   }
 
   private extractTopMitigations(failureModes: FailureMode[]): Mitigation[] {

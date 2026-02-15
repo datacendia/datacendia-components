@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA SOVEREIGN STACK - Infrastructure Management Page
 // Real-time monitoring and control of all sovereign infrastructure services
@@ -495,6 +499,7 @@ export default function SovereignStackPage() {
     // Refresh every 30 seconds
     const interval = setInterval(checkServiceHealth, 30000);
     return () => clearInterval(interval);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const openConsole = (service: SovereignService) => {

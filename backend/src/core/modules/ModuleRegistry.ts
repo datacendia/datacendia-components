@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - MODULE REGISTRY
 // Enterprise-grade feature module system with dependency management
@@ -5,6 +9,7 @@
 
 import { Router } from 'express';
 import { eventBus } from '../events/EventBus';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -13,8 +18,8 @@ import { eventBus } from '../events/EventBus';
 export interface ModuleContext {
   router: Router;
   eventBus: typeof eventBus;
-  services: Map<string, any>;
-  config: Record<string, any>;
+  services: Map<string, unknown>;
+  config: Record<string, unknown>;
   logger: ModuleLogger;
 }
 
@@ -37,16 +42,16 @@ export interface ModuleDefinition {
   routes?: () => Promise<{ default: (ctx: ModuleContext) => Router }>;
   
   /** Services this module provides */
-  services?: () => Promise<{ default: Record<string, any> }>;
+  services?: () => Promise<{ default: Record<string, unknown> }>;
   
   /** API controllers */
-  controllers?: () => Promise<{ default: Record<string, any> }>;
+  controllers?: () => Promise<{ default: Record<string, unknown> }>;
   
   /** Module configuration schema */
-  configSchema?: Record<string, any>;
+  configSchema?: Record<string, unknown>;
   
   /** Default configuration */
-  defaultConfig?: Record<string, any>;
+  defaultConfig?: Record<string, unknown>;
   
   /** Lifecycle hook: Called when module is loaded */
   onLoad?: (context: ModuleContext) => Promise<void>;
@@ -55,7 +60,7 @@ export interface ModuleDefinition {
   onUnload?: (context: ModuleContext) => Promise<void>;
   
   /** Lifecycle hook: Called when module config changes */
-  onConfigChange?: (context: ModuleContext, newConfig: Record<string, any>) => Promise<void>;
+  onConfigChange?: (context: ModuleContext, newConfig: Record<string, unknown>) => Promise<void>;
   
   /** Health check for this module */
   healthCheck?: (context: ModuleContext) => Promise<ModuleHealth>;
@@ -65,12 +70,12 @@ export interface ModuleState {
   status: 'registered' | 'loading' | 'loaded' | 'error' | 'unloading' | 'unloaded';
   loadedAt?: Date;
   error?: string;
-  config?: Record<string, any>;
+  config?: Record<string, unknown>;
 }
 
 export interface ModuleHealth {
   status: 'healthy' | 'degraded' | 'unhealthy';
-  details?: Record<string, any>;
+  details?: Record<string, unknown>;
 }
 
 export interface ModuleInfo {
@@ -86,25 +91,25 @@ export interface ModuleInfo {
 export class ModuleLogger {
   constructor(private moduleId: string) {}
 
-  private format(level: string, message: string, meta?: any): string {
+  private format(level: string, message: string, meta?: unknown): string {
     const timestamp = new Date().toISOString();
     const metaStr = meta ? ` ${JSON.stringify(meta)}` : '';
     return `[${timestamp}] [${level}] [Module:${this.moduleId}] ${message}${metaStr}`;
   }
 
-  debug(message: string, meta?: any): void {
+  debug(message: string, meta?: unknown): void {
     console.debug(this.format('DEBUG', message, meta));
   }
 
-  info(message: string, meta?: any): void {
+  info(message: string, meta?: unknown): void {
     console.log(this.format('INFO', message, meta));
   }
 
-  warn(message: string, meta?: any): void {
+  warn(message: string, meta?: unknown): void {
     console.warn(this.format('WARN', message, meta));
   }
 
-  error(message: string, meta?: any): void {
+  error(message: string, meta?: unknown): void {
     console.error(this.format('ERROR', message, meta));
   }
 }
@@ -117,9 +122,9 @@ class ModuleRegistry {
   private static instance: ModuleRegistry;
   private modules: Map<string, ModuleInfo> = new Map();
   private mainRouter: Router;
-  private globalServices: Map<string, any> = new Map();
+  private globalServices: Map<string, unknown> = new Map();
   private featureFlags: Set<string> = new Set();
-  private globalConfig: Record<string, any> = {};
+  private globalConfig: Record<string, unknown> = {};
 
   private constructor() {
     this.mainRouter = Router();
@@ -139,7 +144,7 @@ class ModuleRegistry {
   /**
    * Set global configuration
    */
-  setConfig(config: Record<string, any>): void {
+  setConfig(config: Record<string, unknown>): void {
     this.globalConfig = { ...this.globalConfig, ...config };
   }
 
@@ -160,7 +165,7 @@ class ModuleRegistry {
   /**
    * Register a global service (accessible by all modules)
    */
-  registerGlobalService(name: string, service: any): void {
+  registerGlobalService(name: string, service: unknown): void {
     this.globalServices.set(name, service);
   }
 
@@ -286,9 +291,9 @@ class ModuleRegistry {
       moduleInfo.state.loadedAt = new Date();
       console.log(`[ModuleRegistry] Module loaded: ${moduleId}`);
 
-    } catch (error: any) {
+    } catch (error: unknown) {
       moduleInfo.state.status = 'error';
-      moduleInfo.state.error = error.message;
+      moduleInfo.state.error = getErrorMessage(error);
       console.error(`[ModuleRegistry] Failed to load module ${moduleId}:`, error);
       throw error;
     }
@@ -306,8 +311,8 @@ class ModuleRegistry {
     for (const [moduleId] of sorted) {
       try {
         await this.load(moduleId);
-      } catch (error: any) {
-        console.error(`[ModuleRegistry] Error loading ${moduleId}:`, error.message);
+      } catch (error: unknown) {
+        console.error(`[ModuleRegistry] Error loading ${moduleId}:`, getErrorMessage(error));
         // Continue loading other modules
       }
     }
@@ -362,9 +367,9 @@ class ModuleRegistry {
       moduleInfo.context = undefined;
       console.log(`[ModuleRegistry] Module unloaded: ${moduleId}`);
 
-    } catch (error: any) {
+    } catch (error: unknown) {
       moduleInfo.state.status = 'error';
-      moduleInfo.state.error = error.message;
+      moduleInfo.state.error = getErrorMessage(error);
       throw error;
     }
   }
@@ -381,8 +386,8 @@ class ModuleRegistry {
       if (moduleInfo.state.status === 'loaded') {
         try {
           await this.unload(moduleId);
-        } catch (error: any) {
-          console.error(`[ModuleRegistry] Error unloading ${moduleId}:`, error.message);
+        } catch (error: unknown) {
+          console.error(`[ModuleRegistry] Error unloading ${moduleId}:`, getErrorMessage(error));
         }
       }
     }
@@ -404,7 +409,7 @@ class ModuleRegistry {
   /**
    * Update module configuration
    */
-  async updateConfig(moduleId: string, config: Record<string, any>): Promise<void> {
+  async updateConfig(moduleId: string, config: Record<string, unknown>): Promise<void> {
     const moduleInfo = this.modules.get(moduleId);
     if (!moduleInfo) {
       throw new Error(`Module not found: ${moduleId}`);
@@ -492,10 +497,10 @@ class ModuleRegistry {
       if (moduleInfo.definition.healthCheck && moduleInfo.context) {
         try {
           results[moduleId] = await moduleInfo.definition.healthCheck(moduleInfo.context);
-        } catch (error: any) {
+        } catch (error: unknown) {
           results[moduleId] = {
             status: 'unhealthy',
-            details: { error: error.message },
+            details: { error: getErrorMessage(error) },
           };
         }
       } else {

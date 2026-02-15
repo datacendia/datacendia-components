@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CENDIA EVIDENCE VAULT SERVICE (Frontend)
  * 
@@ -193,16 +197,16 @@ export const evidenceVaultApi = {
   // Packet retrieval
   async getPackets(params: PacketSearchParams): Promise<{ packets: DecisionPacket[]; total: number }> {
     const queryParams = new URLSearchParams();
-    if (params.dataSourceId) queryParams.set('dataSourceId', params.dataSourceId);
-    if (params.search) queryParams.set('search', params.search);
-    if (params.status) queryParams.set('status', params.status);
-    if (params.mode) queryParams.set('mode', params.mode);
-    if (params.businessUnit) queryParams.set('businessUnit', params.businessUnit);
-    if (params.framework) queryParams.set('framework', params.framework);
-    if (params.dateFrom) queryParams.set('dateFrom', params.dateFrom.toISOString());
-    if (params.dateTo) queryParams.set('dateTo', params.dateTo.toISOString());
-    if (params.limit) queryParams.set('limit', params.limit.toString());
-    if (params.offset) queryParams.set('offset', params.offset.toString());
+    if (params.dataSourceId) {queryParams.set('dataSourceId', params.dataSourceId);}
+    if (params.search) {queryParams.set('search', params.search);}
+    if (params.status) {queryParams.set('status', params.status);}
+    if (params.mode) {queryParams.set('mode', params.mode);}
+    if (params.businessUnit) {queryParams.set('businessUnit', params.businessUnit);}
+    if (params.framework) {queryParams.set('framework', params.framework);}
+    if (params.dateFrom) {queryParams.set('dateFrom', params.dateFrom.toISOString());}
+    if (params.dateTo) {queryParams.set('dateTo', params.dateTo.toISOString());}
+    if (params.limit) {queryParams.set('limit', params.limit.toString());}
+    if (params.offset) {queryParams.set('offset', params.offset.toString());}
 
     const response = await api.get<{ packets: DecisionPacket[]; total: number }>(`${BASE_URL}/packets?${queryParams}`);
     return response.data as { packets: DecisionPacket[]; total: number };
@@ -268,7 +272,7 @@ export const evidenceVaultApi = {
   ): Promise<Attachment> {
     const formData = new FormData();
     formData.append('file', file);
-    if (description) formData.append('description', description);
+    if (description) {formData.append('description', description);}
     formData.append('category', category);
 
     const response = await api.post<Attachment>(`${BASE_URL}/packets/${packetId}/attachments`, formData);

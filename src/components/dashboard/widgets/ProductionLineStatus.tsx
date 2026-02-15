@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * PRODUCTION LINE STATUS - Manufacturing Vertical
  * Real-time factory floor visualization with OEE metrics

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA EVIDENCE VAULT™ — GLOBAL DECISION PACKET ACCESS
 // Universal evidence store with "read anywhere, generate/lock only in context"
@@ -362,7 +366,8 @@ export const EvidenceVaultPage: React.FC = () => {
     } finally {
       setIsLoading(false);
     }
-  }, [selectedDataSource]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     fetchPackets();
@@ -370,7 +375,7 @@ export const EvidenceVaultPage: React.FC = () => {
 
   // Action handlers
   const handleSendToApprovers = async () => {
-    if (!actionPacketId || !approverEmail) return;
+    if (!actionPacketId || !approverEmail) {return;}
     try {
       // await evidenceVaultApi.sendToApprovers(actionPacketId, [{ userId: 'usr-new', email: approverEmail, name: approverEmail.split('@')[0], role: 'Approver' }], approverMessage);
       setShowSendToApprovers(false);
@@ -383,7 +388,7 @@ export const EvidenceVaultPage: React.FC = () => {
   };
 
   const handleAttachEvidence = async () => {
-    if (!actionPacketId || !attachmentFile) return;
+    if (!actionPacketId || !attachmentFile) {return;}
     try {
       // await evidenceVaultApi.attachEvidence(actionPacketId, attachmentFile, '', attachmentCategory);
       setShowAttachEvidence(false);
@@ -395,7 +400,7 @@ export const EvidenceVaultPage: React.FC = () => {
   };
 
   const handleBreakGlassRequest = async () => {
-    if (!actionPacketId || !breakGlassJustification) return;
+    if (!actionPacketId || !breakGlassJustification) {return;}
     try {
       // await evidenceVaultApi.requestBreakGlassExport(actionPacketId, breakGlassJustification, breakGlassUrgency);
       setShowBreakGlass(false);
@@ -485,7 +490,7 @@ export const EvidenceVaultPage: React.FC = () => {
   // RBAC: Check if user can perform action
   const canViewPacket = (_packet: DecisionPacket) => true; // Everyone can view
   const canExportPacket = (packet: DecisionPacket) => {
-    if (currentUserRole === 'auditor') return packet.status === 'locked';
+    if (currentUserRole === 'auditor') {return packet.status === 'locked';}
     return ['decision_owner', 'council_operator', 'approver', 'risk_compliance', 'admin'].includes(currentUserRole);
   };
   const canGeneratePacket = (_packet: DecisionPacket) => {

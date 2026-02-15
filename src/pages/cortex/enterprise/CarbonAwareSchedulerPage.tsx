@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CARBON-AWARE AI SCHEDULER PAGE
 // CendiaCarbonAware™ - Reduce Carbon Footprint of AI Operations
@@ -131,7 +135,7 @@ export default function CarbonAwareSchedulerPage() {
   };
 
   const scheduleWorkload = async () => {
-    if (!workloadName.trim()) return;
+    if (!workloadName.trim()) {return;}
 
     setLoading(true);
     try {
@@ -154,16 +158,16 @@ export default function CarbonAwareSchedulerPage() {
   };
 
   const getIntensityColor = (intensity: number) => {
-    if (intensity < 200) return 'text-green-500';
-    if (intensity < 400) return 'text-yellow-500';
-    if (intensity < 600) return 'text-orange-500';
+    if (intensity < 200) {return 'text-green-500';}
+    if (intensity < 400) {return 'text-yellow-500';}
+    if (intensity < 600) {return 'text-orange-500';}
     return 'text-red-500';
   };
 
   const getIntensityLabel = (intensity: number) => {
-    if (intensity < 200) return 'Very Low';
-    if (intensity < 400) return 'Low';
-    if (intensity < 600) return 'Moderate';
+    if (intensity < 200) {return 'Very Low';}
+    if (intensity < 400) {return 'Low';}
+    if (intensity < 600) {return 'Moderate';}
     return 'High';
   };
 

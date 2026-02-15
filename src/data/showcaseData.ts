@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA SHOWCASE DATA - COMPREHENSIVE DEMO DATA FOR ALL SERVICES
 // =============================================================================
@@ -707,7 +711,7 @@ export const getCompanyProfile = (vertical: Vertical): CompanyProfile => COMPANY
 
 export const getAgentsByVertical = (vertical?: Vertical): AIAgent[] => {
   const generalAgents = AI_AGENTS.filter(a => !a.vertical);
-  if (!vertical) return generalAgents;
+  if (!vertical) {return generalAgents;}
   const verticalAgents = AI_AGENTS.filter(a => a.vertical === vertical);
   return [...generalAgents, ...verticalAgents];
 };
@@ -717,9 +721,9 @@ export const calculateTotalDecisionDebt = (vertical: Vertical): number => {
 };
 
 export const formatCurrency = (value: number): string => {
-  if (value >= 1000000000) return `$${(value / 1000000000).toFixed(1)}B`;
-  if (value >= 1000000) return `$${(value / 1000000).toFixed(1)}M`;
-  if (value >= 1000) return `$${(value / 1000).toFixed(0)}K`;
+  if (value >= 1000000000) {return `$${(value / 1000000000).toFixed(1)}B`;}
+  if (value >= 1000000) {return `$${(value / 1000000).toFixed(1)}M`;}
+  if (value >= 1000) {return `$${(value / 1000).toFixed(0)}K`;}
   return `$${value.toFixed(0)}`;
 };
 

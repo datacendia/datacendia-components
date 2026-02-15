@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DATACENDIA DOMAIN AGENTS - Modular Agent Registry
  * Split into separate files for faster HMR and better organization

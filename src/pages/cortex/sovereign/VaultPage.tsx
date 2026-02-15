@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 import React, { useState, useEffect } from 'react';
 import { 
   Archive, FileText, Shield, Clock, Search, Filter,
@@ -51,6 +55,7 @@ const VaultPage: React.FC = () => {
 
   useEffect(() => {
     loadVaultData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const loadVaultData = async () => {
@@ -196,9 +201,9 @@ const VaultPage: React.FC = () => {
   };
 
   const formatSize = (bytes: number) => {
-    if (bytes < 1024) return `${bytes} B`;
-    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
-    if (bytes < 1024 * 1024 * 1024) return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+    if (bytes < 1024) {return `${bytes} B`;}
+    if (bytes < 1024 * 1024) {return `${(bytes / 1024).toFixed(1)} KB`;}
+    if (bytes < 1024 * 1024 * 1024) {return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;}
     return `${(bytes / (1024 * 1024 * 1024)).toFixed(2)} GB`;
   };
 
@@ -207,7 +212,7 @@ const VaultPage: React.FC = () => {
   };
 
   const filteredArtifacts = artifacts.filter(a => {
-    if (selectedType !== 'all' && a.type !== selectedType) return false;
+    if (selectedType !== 'all' && a.type !== selectedType) {return false;}
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
       return (

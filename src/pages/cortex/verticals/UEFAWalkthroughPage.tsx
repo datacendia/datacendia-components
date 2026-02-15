@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DATACENDIA PLATFORM - UEFA GOVERNANCE WALKTHROUGH
  * Crisis Immunization Demo: Discovery-Time Proof, Regulator's Receipt, Time-Bar Immunity
@@ -243,13 +247,13 @@ export default function UEFAWalkthroughPage() {
 
   const toggleEvidence = (id: string) => {
     const next = new Set(expandedEvidence);
-    if (next.has(id)) next.delete(id); else next.add(id);
+    if (next.has(id)) {next.delete(id);} else {next.add(id);}
     setExpandedEvidence(next);
   };
 
   const toggleStep = (id: string) => {
     const next = new Set(expandedSteps);
-    if (next.has(id)) next.delete(id); else next.add(id);
+    if (next.has(id)) {next.delete(id);} else {next.add(id);}
     setExpandedSteps(next);
   };
 

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - PRE-MORTEM ANALYSIS PAGE
 // AI-powered failure analysis before decisions are made
@@ -50,10 +54,10 @@ export const PreMortemPage: React.FC = () => {
     const contextParam = searchParams.get('context');
     const timeframeParam = searchParams.get('timeframe');
     const budgetParam = searchParams.get('budget');
-    if (decisionParam) setDecision(decisionParam);
-    if (contextParam) setContext(contextParam);
-    if (timeframeParam) setTimeframe(timeframeParam);
-    if (budgetParam) setBudget(budgetParam);
+    if (decisionParam) {setDecision(decisionParam);}
+    if (contextParam) {setContext(contextParam);}
+    if (timeframeParam) {setTimeframe(timeframeParam);}
+    if (budgetParam) {setBudget(budgetParam);}
   }, [searchParams]);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [result, setResult] = useState<PreMortemResult | null>(null);

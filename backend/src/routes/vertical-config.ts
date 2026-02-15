@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CENDIA VERTICAL CONFIGURATION API ROUTES
  * 
@@ -7,6 +11,7 @@
 import { Router, Request, Response } from 'express';
 import { verticalConfigService } from '../services/enterprise/VerticalConfigService.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -28,9 +33,9 @@ router.get('/services', async (_req: Request, res: Response): Promise<void> => {
   try {
     const services = verticalConfigService.getServiceCatalog();
     res.json({ services });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting services:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -47,9 +52,9 @@ router.get('/services/:id', async (req: Request, res: Response): Promise<void> =
       return;
     }
     res.json(service);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting service:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -62,9 +67,9 @@ router.get('/services/category/:category', async (req: Request, res: Response): 
     const category = req.params['category'] as string;
     const services = verticalConfigService.getServicesByCategory(category as any);
     res.json({ services });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting services by category:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -76,9 +81,9 @@ router.get('/verticals', async (_req: Request, res: Response): Promise<void> => 
   try {
     const verticals = verticalConfigService.getVerticalTemplates();
     res.json({ verticals });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting verticals:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -95,9 +100,9 @@ router.get('/verticals/:id', async (req: Request, res: Response): Promise<void> 
       return;
     }
     res.json(vertical);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting vertical:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -110,9 +115,9 @@ router.get('/verticals/:id/recommended', async (req: Request, res: Response): Pr
     const verticalId = req.params['id'] as string;
     const services = verticalConfigService.getRecommendedServices(verticalId);
     res.json({ services });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting recommended services:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -126,9 +131,9 @@ router.get('/verticals/compare/:id1/:id2', async (req: Request, res: Response): 
     const id2 = req.params['id2'] as string;
     const comparison = verticalConfigService.compareVerticals(id1, id2);
     res.json(comparison);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error comparing verticals:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -160,9 +165,9 @@ router.get('/organization', async (req: Request, res: Response): Promise<void> =
     }
     
     res.json(config);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting org config:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -188,9 +193,9 @@ router.post('/organization', async (req: Request, res: Response): Promise<void> 
     );
 
     res.status(201).json(config);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error creating org config:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -210,9 +215,9 @@ router.put('/organization', async (req: Request, res: Response): Promise<void> =
     );
 
     res.json(config);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error updating org config:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -238,9 +243,9 @@ router.post('/organization/switch-vertical', async (req: Request, res: Response)
     );
 
     res.json(config);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error switching vertical:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -272,9 +277,9 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<v
     );
 
     res.json(toggle);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error toggling service:', error);
-    res.status(error.message.includes('Core service') ? 400 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('Core service') ? 400 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -299,9 +304,9 @@ router.post('/toggle-bulk', async (req: Request, res: Response): Promise<void> =
     );
 
     res.json({ results });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error bulk toggling services:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -314,9 +319,9 @@ router.get('/enabled', async (req: Request, res: Response): Promise<void> => {
     const { organizationId } = extractContext(req);
     const services = await verticalConfigService.getEnabledServices(organizationId);
     res.json({ services });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting enabled services:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -329,9 +334,9 @@ router.get('/disabled', async (req: Request, res: Response): Promise<void> => {
     const { organizationId } = extractContext(req);
     const services = await verticalConfigService.getDisabledServices(organizationId);
     res.json({ services });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error getting disabled services:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -345,9 +350,9 @@ router.get('/check/:serviceId', async (req: Request, res: Response): Promise<voi
     const serviceId = req.params['serviceId'] as string;
     const enabled = await verticalConfigService.isServiceEnabled(organizationId, serviceId);
     res.json({ serviceId, enabled });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[VerticalConfig API] Error checking service:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 

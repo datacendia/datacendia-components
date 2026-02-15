@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// LOGICGATEâ„¢ - PARALLEL PROCESSING ARCHITECTURE
+// LOGICGATE™ - PARALLEL PROCESSING ARCHITECTURE
 // Concurrent Agent Execution & Burst Compute
 // "The Accelerator" - Recursive bursts at infrastructure speed
 // =============================================================================
@@ -7,6 +11,7 @@
 import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
+import { getErrorMessage } from '../../utils/errors.js';
 
 const prisma = new PrismaClient();
 
@@ -251,12 +256,12 @@ class LogicGateService {
         completedAt,
         durationMs: completedAt.getTime() - startedAt.getTime()
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       const completedAt = new Date();
       return {
         taskId: task.id,
-        status: error.message === 'Task timeout' ? 'timeout' : 'failed',
-        error: error.message,
+        status: getErrorMessage(error) === 'Task timeout' ? 'timeout' : 'failed',
+        error: getErrorMessage(error),
         startedAt,
         completedAt,
         durationMs: completedAt.getTime() - startedAt.getTime()

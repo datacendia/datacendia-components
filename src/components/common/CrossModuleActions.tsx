@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CrossModuleActions Component
  *
@@ -306,7 +310,7 @@ export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
 }) => {
   const actions = MODULE_INTEGRATIONS[currentModule] || [];
 
-  if (actions.length === 0) return null;
+  if (actions.length === 0) {return null;}
 
   const handleAction = (action: CrossModuleAction) => {
     if (onAction) {
@@ -408,7 +412,7 @@ export const CrossModuleQuickActions: React.FC<{
 }> = ({ currentModule, maxActions = 3, onAction }) => {
   const actions = (MODULE_INTEGRATIONS[currentModule] || []).slice(0, maxActions);
 
-  if (actions.length === 0) return null;
+  if (actions.length === 0) {return null;}
 
   return (
     <div className="flex items-center gap-2 pt-3 border-t border-slate-700/50">

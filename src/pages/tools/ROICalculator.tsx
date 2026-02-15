@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA ROI CALCULATOR - Enterprise Sales Tool
 // =============================================================================
@@ -148,7 +152,7 @@ export default function ROICalculator() {
       roiPercentage,
       paybackMonths,
     };
-  }, [employees, executives, industry, currentAISpend, complianceHeavy]);
+  }, [employees, executives, industry, complianceHeavy]);
 
   const savingsBreakdown = [
     {

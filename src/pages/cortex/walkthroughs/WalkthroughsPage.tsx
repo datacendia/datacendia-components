@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * WalkthroughsPage - Step-by-Step Workflow Guides
  * Interactive walkthroughs that guide users through enterprise decision workflows
@@ -437,20 +441,20 @@ const WalkthroughsPage: React.FC = () => {
 
   const getGroupForCategory = (category: string): string => {
     const c = category.toLowerCase();
-    if (c.includes('security') || c.includes('risk') || c.includes('fraud')) return 'Security & Risk';
+    if (c.includes('security') || c.includes('risk') || c.includes('fraud')) {return 'Security & Risk';}
     if (c.includes('compliance') || c.includes('legal') || c.includes('audit') || c.includes('governance'))
-      return 'Compliance & Legal';
+      {return 'Compliance & Legal';}
     if (c.includes('finance') || c.includes('investor') || c.includes('equity') || c.includes('tax'))
-      return 'Finance & Investor';
+      {return 'Finance & Investor';}
     if (c.includes('human resources') || c.includes('hr') || c.includes('talent') || c.includes('workforce'))
-      return 'People & HR';
+      {return 'People & HR';}
     if (c.includes('manufacturing') || c.includes('facilities') || c.includes('procurement') || c.includes('operations') || c.includes('supply'))
-      return 'Operations';
-    if (c.includes('customer') || c.includes('support') || c.includes('customer experience')) return 'Customer';
-    if (c.includes('sales') || c.includes('marketing') || c.includes('business development')) return 'Sales & Growth';
+      {return 'Operations';}
+    if (c.includes('customer') || c.includes('support') || c.includes('customer experience')) {return 'Customer';}
+    if (c.includes('sales') || c.includes('marketing') || c.includes('business development')) {return 'Sales & Growth';}
     if (c.includes('product') || c.includes('engineering') || c.includes('technology') || c.includes('ai') || c.includes('data') || c.includes('analytics'))
-      return 'Product & Tech';
-    if (c.includes('strategy') || c.includes('executive') || c.includes('mergers')) return 'Strategy & Executive';
+      {return 'Product & Tech';}
+    if (c.includes('strategy') || c.includes('executive') || c.includes('mergers')) {return 'Strategy & Executive';}
     return 'Other';
   };
 

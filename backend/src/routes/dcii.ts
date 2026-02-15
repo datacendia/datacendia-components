@@ -1,13 +1,17 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
- * DCII - Decision Crisis Immunization Infrastructureâ„¢ API Routes
+ * DCII - Decision Crisis Immunization Infrastructure™ API Routes
  * 
  * Comprehensive API for all 6 DCII services supporting the 9 Primitives:
- * 1. IISS (Institutional Immune System Score) â€” scores all 9 primitives
- * 2. Cognitive Bias Mitigation (P6) â€” detect & challenge biases
- * 3. Synthetic Media Authentication (P8) â€” deepfake detection & C2PA
- * 4. Cross-Jurisdiction Compliance (P9) â€” conflict detection
- * 5. RFC 3161 Timestamp Authority (P1) â€” cryptographic timestamps
- * 6. Decision Similarity â€” proactive historical matching
+ * 1. IISS (Institutional Immune System Score) — scores all 9 primitives
+ * 2. Cognitive Bias Mitigation (P6) — detect & challenge biases
+ * 3. Synthetic Media Authentication (P8) — deepfake detection & C2PA
+ * 4. Cross-Jurisdiction Compliance (P9) — conflict detection
+ * 5. RFC 3161 Timestamp Authority (P1) — cryptographic timestamps
+ * 6. Decision Similarity — proactive historical matching
  */
 
 import { Router, Request, Response } from 'express';
@@ -19,6 +23,7 @@ import { timestampAuthorityService } from '../services/dcii/TimestampAuthoritySe
 import { decisionSimilarityService } from '../services/dcii/DecisionSimilarityService.js';
 import { cognitiveBiasMitigationService } from '../services/dcii/CognitiveBiasMitigationService.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -33,18 +38,18 @@ router.get('/status', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: {
-      service: 'CendiaDCIIâ„¢ â€” Decision Crisis Immunization Infrastructure',
+      service: 'CendiaDCII™ — Decision Crisis Immunization Infrastructure',
       version: '3.0.0',
       pillar: 'dcii',
       tier: 'foundation',
-      tierDescription: 'Tier 1: Foundation â€” Make decisions â†’ Understand them â†’ Prove them',
+      tierDescription: 'Tier 1: Foundation — Make decisions ? Understand them ? Prove them',
       modules: {
-        iiss: { status: 'operational', description: 'CendiaIISSâ„¢ â€” Institutional Immune System Score (9 primitives)' },
-        cognitiveBias: { status: 'operational', description: 'CendiaBiasMitigationâ„¢ â€” Cognitive Bias Mitigation (P6)' },
-        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuthâ„¢ â€” Synthetic Media Authentication (P8)' },
-        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdictionâ„¢ â€” Cross-Jurisdiction Conflict Detection (P9)' },
-        timestampAuthority: { status: 'operational', description: 'CendiaTimestampâ„¢ â€” RFC 3161 Timestamp Authority (P1)' },
-        decisionSimilarity: { status: 'operational', description: 'CendiaSimilarityâ„¢ â€” Decision Similarity Engine' },
+        iiss: { status: 'operational', description: 'CendiaIISS™ — Institutional Immune System Score (9 primitives)' },
+        cognitiveBias: { status: 'operational', description: 'CendiaBiasMitigation™ — Cognitive Bias Mitigation (P6)' },
+        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuth™ — Synthetic Media Authentication (P8)' },
+        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdiction™ — Cross-Jurisdiction Conflict Detection (P9)' },
+        timestampAuthority: { status: 'operational', description: 'CendiaTimestamp™ — RFC 3161 Timestamp Authority (P1)' },
+        decisionSimilarity: { status: 'operational', description: 'CendiaSimilarity™ — Decision Similarity Engine' },
       },
       primitives: [
         { id: 'P1', name: 'Discovery-Time Proof', question: 'When did you know?', service: 'CendiaTimestamp' },
@@ -75,9 +80,9 @@ router.post('/iiss/calculate', async (req: Request, res: Response) => {
     }
     const score = await iissService.calculateScore(organizationId, organizationName, initiatedBy);
     res.json({ success: true, data: score });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('IISS calculation failed:', err);
-    res.status(500).json({ success: false, error: { code: 'CALCULATION_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'CALCULATION_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -150,9 +155,9 @@ router.post('/bias/analyze', async (req: Request, res: Response) => {
       arguments: args || [], analyzedBy,
     });
     res.json({ success: true, data: analysis });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Bias analysis failed:', err);
-    res.status(500).json({ success: false, error: { code: 'ANALYSIS_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'ANALYSIS_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -202,9 +207,9 @@ router.post('/bias/report', (req: Request, res: Response) => {
     const toDate = to ? new Date(to) : new Date();
     const report = cognitiveBiasMitigationService.generateReport(organizationId, fromDate, toDate);
     res.json({ success: true, data: report });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Bias report generation failed:', err);
-    res.status(500).json({ success: false, error: { code: 'REPORT_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'REPORT_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -243,9 +248,9 @@ router.post('/media/sign', async (req: Request, res: Response) => {
       origin || { source: 'upload', capturedAt: new Date(), capturedBy: createdBy }
     );
     res.json({ success: true, data: asset });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Media signing failed:', err);
-    res.status(500).json({ success: false, error: { code: 'SIGNING_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'SIGNING_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -255,9 +260,9 @@ router.post('/media/analyze/:assetId', async (req: Request, res: Response) => {
     const analyzedBy = req.user?.email || 'api-user';
     const assessment = await syntheticMediaAuthService.analyzeAuthenticity(req.params.assetId, analyzedBy);
     res.json({ success: true, data: assessment });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Media analysis failed:', err);
-    res.status(500).json({ success: false, error: { code: 'ANALYSIS_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'ANALYSIS_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -284,9 +289,9 @@ router.get('/media/report/:assetId', async (req: Request, res: Response) => {
   try {
     const report = await syntheticMediaAuthService.generateVerificationReport(req.params.assetId);
     res.json({ success: true, data: report });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Report generation failed:', err);
-    res.status(500).json({ success: false, error: { code: 'REPORT_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'REPORT_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -313,9 +318,9 @@ router.post('/jurisdiction/assess', async (req: Request, res: Response) => {
     }
     const assessment = await crossJurisdictionConflictService.assessOrganization(organizationId, organizationName, jurisdictions, assessedBy);
     res.json({ success: true, data: assessment });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Jurisdiction assessment failed:', err);
-    res.status(500).json({ success: false, error: { code: 'ASSESSMENT_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'ASSESSMENT_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -354,9 +359,9 @@ router.post('/jurisdiction/good-faith/:conflictId', async (req: Request, res: Re
     const signedBy = req.user?.email || 'api-user';
     const doc = await crossJurisdictionConflictService.generateGoodFaithDocument(req.params.conflictId, signedBy);
     res.json({ success: true, data: doc });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Good-faith document generation failed:', err);
-    res.status(500).json({ success: false, error: { code: 'GENERATION_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'GENERATION_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -372,9 +377,9 @@ router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response)
       organizationId, jurisdiction, framework, packetType || 'compliance_report', generatedBy
     );
     res.json({ success: true, data: packet });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Evidence packet generation failed:', err);
-    res.status(500).json({ success: false, error: { code: 'GENERATION_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'GENERATION_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -411,9 +416,9 @@ router.post('/timestamp/issue', async (req: Request, res: Response) => {
       { useExternal, useBlockchain, preferredProvider }
     );
     res.json({ success: true, data: token });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Timestamp issuance failed:', err);
-    res.status(500).json({ success: false, error: { code: 'ISSUANCE_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'ISSUANCE_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -426,9 +431,9 @@ router.post('/timestamp/batch', async (req: Request, res: Response) => {
     }
     const batch = await timestampAuthorityService.batchTimestamp(organizationId, items, { useExternal, useBlockchain });
     res.json({ success: true, data: batch });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Batch timestamp failed:', err);
-    res.status(500).json({ success: false, error: { code: 'BATCH_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'BATCH_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -438,9 +443,9 @@ router.post('/timestamp/verify/:tokenId', async (req: Request, res: Response) =>
     const verifiedBy = req.user?.email || 'api-user';
     const verification = await timestampAuthorityService.verifyTimestamp(req.params.tokenId, verifiedBy);
     res.json({ success: true, data: verification });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Timestamp verification failed:', err);
-    res.status(500).json({ success: false, error: { code: 'VERIFICATION_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'VERIFICATION_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -501,9 +506,9 @@ router.post('/similarity/search', async (req: Request, res: Response) => {
       maxResults, minSimilarity, includeOutcomes, includeCrossDepartment,
     });
     res.json({ success: true, data: result });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Similarity search failed:', err);
-    res.status(500).json({ success: false, error: { code: 'SEARCH_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'SEARCH_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -523,9 +528,9 @@ router.post('/similarity/decisions', (req: Request, res: Response) => {
       overrideOccurred: record.overrideOccurred || false,
     });
     res.json({ success: true, data: decision });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Decision record creation failed:', err);
-    res.status(500).json({ success: false, error: { code: 'CREATION_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'CREATION_FAILED', message: getErrorMessage(err) } });
   }
 });
 
@@ -561,9 +566,9 @@ router.post('/similarity/patterns/:organizationId', async (req: Request, res: Re
   try {
     const patterns = await decisionSimilarityService.detectPatterns(req.params.organizationId);
     res.json({ success: true, data: patterns });
-  } catch (err: any) {
+  } catch (err: unknown) {
     logger.error('Pattern detection failed:', err);
-    res.status(500).json({ success: false, error: { code: 'DETECTION_FAILED', message: err.message } });
+    res.status(500).json({ success: false, error: { code: 'DETECTION_FAILED', message: getErrorMessage(err) } });
   }
 });
 

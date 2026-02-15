@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * DEMO MODE TOGGLE COMPONENT
@@ -291,7 +295,7 @@ export const DemoModeToggle: React.FC<DemoModeToggleProps> = ({ className }) => 
 export const DemoIndicatorBadge: React.FC = () => {
   const { isActive, currentDemo } = useDemoMode();
 
-  if (!isActive) return null;
+  if (!isActive) {return null;}
 
   return (
     <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50">

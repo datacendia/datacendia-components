@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - DECISION API ROUTES
 // Full lifecycle management, replay, and audit for enterprise decisions
@@ -8,6 +12,7 @@ import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 import { decisionService } from '../services/DecisionService.js';
 import { preMortemService, ghostBoardService } from '../features/holy-shit/index.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -68,10 +73,10 @@ router.post('/', async (req: Request, res: Response) => {
       success: true,
       decision,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -97,10 +102,10 @@ router.get('/', async (req: Request, res: Response) => {
       decisions,
       count: decisions.length,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -124,10 +129,10 @@ router.get('/:id', async (req: Request, res: Response) => {
       success: true,
       decision,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -157,10 +162,10 @@ router.patch('/:id', async (req: Request, res: Response) => {
       success: true,
       decision,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -204,8 +209,8 @@ router.post('/:id/analyze', async (req: Request, res: Response) => {
       result,
       message: 'Analysis recorded to decision timeline',
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -246,8 +251,8 @@ router.post('/:id/premortem', async (req: Request, res: Response) => {
       decisionId: req.params.id,
       recorded: true,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -288,8 +293,8 @@ router.post('/:id/ghostboard', async (req: Request, res: Response) => {
       decisionId: req.params.id,
       recorded: true,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -315,8 +320,8 @@ router.post('/:id/council', async (req: Request, res: Response) => {
       success: true,
       decision: updated,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -354,8 +359,8 @@ router.post('/:id/decide', async (req: Request, res: Response) => {
       decision: updated,
       auditHash: updated.auditHash,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -403,8 +408,8 @@ router.post('/:id/outcome', async (req: Request, res: Response) => {
       success: true,
       decision: updated,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -432,8 +437,8 @@ router.get('/:id/timeline', async (req: Request, res: Response) => {
       timeline,
       eventCount: timeline.length,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -453,8 +458,8 @@ router.get('/:id/replay', async (req: Request, res: Response) => {
       success: true,
       ...replay,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -474,8 +479,8 @@ router.get('/:id/audit', async (req: Request, res: Response) => {
       success: true,
       ...audit,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -495,8 +500,8 @@ router.get('/org/:orgId/stats', async (req: Request, res: Response) => {
       success: true,
       stats,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 

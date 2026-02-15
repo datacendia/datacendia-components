@@ -2307,6 +2307,581 @@ Provide a quick 3-outcome analysis as JSON:
       mode: 'express',
     };
   }
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS - Advanced Simulation Intelligence
+  // ===========================================================================
+
+  /**
+   * Sensitivity Analysis: Which input variables matter most?
+   * Varies each variable ±10% and measures outcome elasticity.
+   */
+  async runSensitivityAnalysis(
+    simulationId: string
+  ): Promise<{
+    simulationId: string;
+    variables: Array<{
+      variable: string;
+      elasticity: number;
+      impactMagnitude: number;
+      direction: 'positive' | 'negative' | 'neutral';
+      rank: number;
+    }>;
+    mostSensitive: { variable: string; elasticity: number; insight: string };
+    leastSensitive: { variable: string; elasticity: number; insight: string };
+    recommendations: string[];
+    generatedAt: Date;
+  }> {
+    const simulation = await prisma.crucible_simulations.findUnique({
+      where: { id: simulationId },
+    });
+
+    if (!simulation) throw new Error(`Simulation ${simulationId} not found`);
+
+    const config = simulation.config as any as SimulationConfig;
+    const scenario = simulation.scenario_definition as any as ScenarioDefinition;
+    const twin = simulation.digital_twin_snapshot as any as DigitalTwin;
+
+    // Variables to test sensitivity on
+    const testVariables = [
+      { name: 'revenue', base: twin?.financials?.revenue || 1000000 },
+      { name: 'operating_costs', base: (twin?.financials?.revenue || 1000000) * 0.7 },
+      { name: 'headcount', base: twin?.employees?.totalHeadcount || 100 },
+      { name: 'churn_rate', base: twin?.financials?.churnRate || 0.05 },
+      { name: 'cash_flow', base: twin?.financials?.cashFlow || 200000 },
+      { name: 'burn_rate', base: twin?.financials?.burnRate || 50000 },
+      { name: 'engagement', base: twin?.employees?.engagementScore || 70 },
+      { name: 'gross_margin', base: twin?.financials?.grossMargin || 0.6 },
+    ].filter(v => v.base !== 0 && v.base != null);
+
+    const variation = 0.10; // ±10%
+    const sensitivities: Array<{
+      variable: string;
+      elasticity: number;
+      impactMagnitude: number;
+      direction: 'positive' | 'negative' | 'neutral';
+      rank: number;
+    }> = [];
+
+    // Calculate baseline risk score from shocks
+    const baselineScore = this.calculateBaselineRiskScore(scenario.shocks, twin);
+
+    for (const variable of testVariables) {
+      // Simulate +10%
+      const upScore = this.calculateVariedRiskScore(scenario.shocks, twin, variable.name, variable.base * (1 + variation));
+      // Simulate -10%
+      const downScore = this.calculateVariedRiskScore(scenario.shocks, twin, variable.name, variable.base * (1 - variation));
+
+      const impactUp = upScore - baselineScore;
+      const impactDown = downScore - baselineScore;
+      const avgImpact = (Math.abs(impactUp) + Math.abs(impactDown)) / 2;
+      const elasticity = avgImpact / (variation * 100);
+
+      sensitivities.push({
+        variable: variable.name,
+        elasticity: Math.round(elasticity * 100) / 100,
+        impactMagnitude: Math.round(avgImpact * 100) / 100,
+        direction: impactDown > impactUp ? 'negative' : impactDown < impactUp ? 'positive' : 'neutral',
+        rank: 0,
+      });
+    }
+
+    // Sort by elasticity and assign ranks
+    sensitivities.sort((a, b) => b.elasticity - a.elasticity);
+    sensitivities.forEach((s, i) => { s.rank = i + 1; });
+
+    const most = sensitivities[0];
+    const least = sensitivities[sensitivities.length - 1];
+
+    // Generate recommendations via LLM
+    const recPrompt = `Given sensitivity analysis results for a ${simulation.simulation_type} scenario:
+Most sensitive variable: ${most.variable} (elasticity: ${most.elasticity})
+Least sensitive variable: ${least.variable} (elasticity: ${least.elasticity})
+All variables ranked: ${sensitivities.map(s => `${s.variable}: ${s.elasticity}`).join(', ')}
+
+Provide 3-5 actionable recommendations as a JSON array of strings.`;
+
+    let recommendations: string[] = [];
+    try {
+      const resp = await this.llmService.generate(recPrompt, {
+        model: 'llama3.2:3b',
+        systemPrompt: 'You are a risk analyst. Provide actionable recommendations based on sensitivity analysis. Return a JSON array of strings.',
+        temperature: 0.3,
+        maxTokens: 300,
+        format: 'json',
+      });
+      const parsed = JSON.parse(resp);
+      recommendations = Array.isArray(parsed) ? parsed : parsed.recommendations || [];
+    } catch {
+      recommendations = [
+        `Focus risk mitigation on ${most.variable} — it has ${most.elasticity.toFixed(1)}x impact per 10% change`,
+        `${least.variable} has minimal sensitivity — deprioritize in stress testing`,
+        `Monitor ${sensitivities.slice(0, 3).map(s => s.variable).join(', ')} as your top risk drivers`,
+      ];
+    }
+
+    return {
+      simulationId,
+      variables: sensitivities,
+      mostSensitive: {
+        variable: most.variable,
+        elasticity: most.elasticity,
+        insight: `${most.variable} has ${most.elasticity.toFixed(1)}x impact — a 10% change here has disproportionate effect on outcomes`,
+      },
+      leastSensitive: {
+        variable: least.variable,
+        elasticity: least.elasticity,
+        insight: `${least.variable} has minimal impact (${least.elasticity.toFixed(2)}x) — safe to deprioritize`,
+      },
+      recommendations,
+      generatedAt: new Date(),
+    };
+  }
+
+  /**
+   * Calculate baseline risk score from shocks against the digital twin.
+   */
+  private calculateBaselineRiskScore(shocks: Shock[], twin: DigitalTwin | null): number {
+    let score = 50; // Neutral baseline
+    for (const shock of shocks) {
+      const magnitude = Math.abs(shock.value);
+      if (shock.type === 'percentage') score += magnitude * 0.3;
+      else if (shock.type === 'multiplier') score += (shock.value - 1) * 20;
+      else score += magnitude * 0.01;
+    }
+    // Adjust for org health
+    if (twin?.healthScore) score -= (twin.healthScore - 50) * 0.2;
+    return Math.max(0, Math.min(100, score));
+  }
+
+  /**
+   * Calculate risk score with one variable varied.
+   */
+  private calculateVariedRiskScore(
+    shocks: Shock[],
+    twin: DigitalTwin | null,
+    variableName: string,
+    newValue: number
+  ): number {
+    let baseScore = this.calculateBaselineRiskScore(shocks, twin);
+
+    // Apply the variable change effect
+    const shockAffecting = shocks.find(s => s.target.toLowerCase().includes(variableName.replace('_', '')));
+    if (shockAffecting) {
+      const originalMagnitude = Math.abs(shockAffecting.value);
+      const scaledMagnitude = originalMagnitude * (newValue > 0 ? 1.1 : 0.9);
+      baseScore += (scaledMagnitude - originalMagnitude) * 0.5;
+    }
+
+    // Financial resilience effect
+    if (['revenue', 'cash_flow', 'gross_margin'].includes(variableName)) {
+      baseScore -= newValue * 0.00001; // Higher = more resilient
+    } else if (['burn_rate', 'churn_rate', 'operating_costs'].includes(variableName)) {
+      baseScore += newValue * 0.00001; // Higher = more risky
+    }
+
+    return Math.max(0, Math.min(100, baseScore));
+  }
+
+  /**
+   * Historical Calibration: How accurate were past predictions?
+   * Compares past simulation predictions against actual outcomes from Echo.
+   */
+  async calibrateModel(organizationId: string): Promise<{
+    organizationId: string;
+    calibrationData: Array<{
+      simulationId: string;
+      simulationType: string;
+      simulationDate: Date;
+      predictedOutcome: string;
+      predictedSentiment: string;
+      actualOutcome: string | null;
+      actualStatus: string | null;
+      errorMargin: number | null;
+    }>;
+    statistics: {
+      totalSimulations: number;
+      withActualOutcomes: number;
+      meanError: number;
+      medianError: number;
+      bias: number;
+      calibrationFactor: number;
+      accuracy: string;
+    };
+    recommendation: string;
+    generatedAt: Date;
+  }> {
+    // Get completed simulations
+    const simulations = await prisma.crucible_simulations.findMany({
+      where: { organization_id: organizationId, status: 'COMPLETED' },
+      orderBy: { completed_at: 'desc' },
+      take: 50,
+      select: {
+        id: true,
+        simulation_type: true,
+        created_at: true,
+        completed_at: true,
+        results_summary: true,
+      },
+    });
+
+    // Get actual decision outcomes from Echo
+    const outcomes = await prisma.decision_outcomes.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { decision_date: 'desc' },
+      take: 100,
+    });
+
+    const calibrationData: Array<{
+      simulationId: string;
+      simulationType: string;
+      simulationDate: Date;
+      predictedOutcome: string;
+      predictedSentiment: string;
+      actualOutcome: string | null;
+      actualStatus: string | null;
+      errorMargin: number | null;
+    }> = [];
+
+    const errors: number[] = [];
+
+    for (const sim of simulations) {
+      const summary = sim.results_summary as any;
+      const predictedSentiment = summary?.worstCase?.sentiment || summary?.mostLikely?.sentiment || 'UNKNOWN';
+      const predictedOutcome = summary?.mostLikely?.summary || 'No prediction available';
+
+      // Find closest matching outcome (by date proximity)
+      const simDate = sim.completed_at || sim.created_at;
+      const matchingOutcome = outcomes.find(o => {
+        const daysDiff = Math.abs((o.decision_date.getTime() - simDate.getTime()) / (1000 * 60 * 60 * 24));
+        return daysDiff < 90; // Within 90 days
+      });
+
+      let errorMargin: number | null = null;
+      if (matchingOutcome) {
+        // Calculate prediction error
+        const sentimentScores: Record<string, number> = {
+          'CATASTROPHIC': 0, 'NEGATIVE': 25, 'NEUTRAL': 50, 'POSITIVE': 75, 'OPTIMAL': 100,
+        };
+        const statusScores: Record<string, number> = {
+          'failure': 10, 'partial': 40, 'inconclusive': 50, 'pending': 50, 'success': 90,
+        };
+        const predicted = sentimentScores[predictedSentiment] ?? 50;
+        const actual = statusScores[matchingOutcome.status] ?? 50;
+        errorMargin = Math.abs(predicted - actual) / 100;
+        errors.push(errorMargin);
+      }
+
+      calibrationData.push({
+        simulationId: sim.id,
+        simulationType: sim.simulation_type,
+        simulationDate: simDate,
+        predictedOutcome,
+        predictedSentiment,
+        actualOutcome: matchingOutcome?.decision_title || null,
+        actualStatus: matchingOutcome?.status || null,
+        errorMargin,
+      });
+    }
+
+    // Calculate statistics
+    const totalSimulations = simulations.length;
+    const withActualOutcomes = errors.length;
+    const meanError = errors.length > 0 ? errors.reduce((a, b) => a + b, 0) / errors.length : 0;
+    const sortedErrors = [...errors].sort((a, b) => a - b);
+    const medianError = errors.length > 0 ? sortedErrors[Math.floor(errors.length / 2)] : 0;
+
+    // Bias: positive = optimistic, negative = pessimistic
+    const biasValues = calibrationData
+      .filter(d => d.errorMargin !== null)
+      .map(d => {
+        const sentScores: Record<string, number> = { 'CATASTROPHIC': 0, 'NEGATIVE': 25, 'NEUTRAL': 50, 'POSITIVE': 75, 'OPTIMAL': 100 };
+        const statScores: Record<string, number> = { 'failure': 10, 'partial': 40, 'inconclusive': 50, 'pending': 50, 'success': 90 };
+        return ((sentScores[d.predictedSentiment] ?? 50) - (statScores[d.actualStatus || 'pending'] ?? 50)) / 100;
+      });
+    const bias = biasValues.length > 0 ? biasValues.reduce((a, b) => a + b, 0) / biasValues.length : 0;
+    const calibrationFactor = 1 - bias;
+
+    let accuracy: string;
+    let recommendation: string;
+    if (withActualOutcomes < 5) {
+      accuracy = 'Insufficient data';
+      recommendation = `Only ${withActualOutcomes} simulations have matched outcomes. Run more simulations and link decision outcomes via Echo to build calibration data.`;
+    } else if (meanError < 0.15) {
+      accuracy = 'Excellent';
+      recommendation = `Model accuracy: Excellent (${Math.round((1 - meanError) * 100)}%). Predictions are highly reliable. Continue current approach.`;
+    } else if (meanError < 0.30) {
+      accuracy = 'Good';
+      recommendation = `Model accuracy: Good (${Math.round((1 - meanError) * 100)}%). ${bias > 0.1 ? 'Model tends to be optimistic — apply calibration factor of ' + calibrationFactor.toFixed(2) : bias < -0.1 ? 'Model tends to be pessimistic — adjust upward by ' + Math.abs(bias * 100).toFixed(0) + '%' : 'No systematic bias detected.'}`;
+    } else {
+      accuracy = 'Needs Improvement';
+      recommendation = `Model accuracy: ${Math.round((1 - meanError) * 100)}%. Consider adjusting simulation parameters. ${bias > 0 ? 'Reduce optimism in scenario assumptions.' : 'Increase baseline resilience assumptions.'}`;
+    }
+
+    return {
+      organizationId,
+      calibrationData: calibrationData.slice(0, 20),
+      statistics: {
+        totalSimulations,
+        withActualOutcomes,
+        meanError: Math.round(meanError * 1000) / 1000,
+        medianError: Math.round(medianError * 1000) / 1000,
+        bias: Math.round(bias * 1000) / 1000,
+        calibrationFactor: Math.round(calibrationFactor * 1000) / 1000,
+        accuracy,
+      },
+      recommendation,
+      generatedAt: new Date(),
+    };
+  }
+
+  /**
+   * Scenario Correlations: Which bad outcomes happen together?
+   * Analyzes outcome co-occurrence across completed simulations.
+   */
+  async analyzeScenarioCorrelations(organizationId: string): Promise<{
+    organizationId: string;
+    correlations: Array<{
+      pair: [string, string];
+      correlation: number;
+      coOccurrence: number;
+      warning: string | null;
+    }>;
+    clusteredRisks: Array<{
+      cluster: string[];
+      probability: number;
+      warning: string;
+    }>;
+    totalSimulationsAnalyzed: number;
+    generatedAt: Date;
+  }> {
+    const simulations = await prisma.crucible_simulations.findMany({
+      where: { organization_id: organizationId, status: 'COMPLETED' },
+      select: {
+        id: true,
+        simulation_type: true,
+        results_summary: true,
+      },
+    });
+
+    // Build outcome vectors per simulation type
+    const typeOutcomes = new Map<string, { negative: number; total: number }>();
+    for (const sim of simulations) {
+      const summary = sim.results_summary as any;
+      const sentiment = summary?.mostLikely?.sentiment || summary?.worstCase?.sentiment || 'NEUTRAL';
+      const isNegative = ['CATASTROPHIC', 'NEGATIVE'].includes(sentiment);
+
+      const existing = typeOutcomes.get(sim.simulation_type) || { negative: 0, total: 0 };
+      existing.total++;
+      if (isNegative) existing.negative++;
+      typeOutcomes.set(sim.simulation_type, existing);
+    }
+
+    // Calculate pairwise correlations
+    const types = Array.from(typeOutcomes.keys());
+    const correlations: Array<{
+      pair: [string, string];
+      correlation: number;
+      coOccurrence: number;
+      warning: string | null;
+    }> = [];
+
+    for (let i = 0; i < types.length; i++) {
+      for (let j = i + 1; j < types.length; j++) {
+        const a = typeOutcomes.get(types[i])!;
+        const b = typeOutcomes.get(types[j])!;
+        const pA = a.total > 0 ? a.negative / a.total : 0;
+        const pB = b.total > 0 ? b.negative / b.total : 0;
+
+        // Simple co-occurrence correlation
+        const coOccurrence = pA * pB;
+        const correlation = Math.min(1, (pA + pB) / 2 + (pA > 0.5 && pB > 0.5 ? 0.3 : 0));
+
+        correlations.push({
+          pair: [types[i], types[j]],
+          correlation: Math.round(correlation * 100) / 100,
+          coOccurrence: Math.round(coOccurrence * 100) / 100,
+          warning: correlation > 0.7 ? `${types[i]} and ${types[j]} tend to cascade together — prepare for both simultaneously` : null,
+        });
+      }
+    }
+
+    correlations.sort((a, b) => b.correlation - a.correlation);
+
+    // Identify risk clusters (groups of 3+ correlated scenarios)
+    const clusteredRisks: Array<{ cluster: string[]; probability: number; warning: string }> = [];
+    const highCorr = correlations.filter(c => c.correlation > 0.5);
+
+    // Build adjacency for clustering
+    const adjacency = new Map<string, Set<string>>();
+    for (const c of highCorr) {
+      if (!adjacency.has(c.pair[0])) adjacency.set(c.pair[0], new Set());
+      if (!adjacency.has(c.pair[1])) adjacency.set(c.pair[1], new Set());
+      adjacency.get(c.pair[0])!.add(c.pair[1]);
+      adjacency.get(c.pair[1])!.add(c.pair[0]);
+    }
+
+    // Simple connected components
+    const visited = new Set<string>();
+    for (const node of adjacency.keys()) {
+      if (visited.has(node)) continue;
+      const cluster: string[] = [];
+      const queue = [node];
+      while (queue.length > 0) {
+        const current = queue.shift()!;
+        if (visited.has(current)) continue;
+        visited.add(current);
+        cluster.push(current);
+        for (const neighbor of adjacency.get(current) || []) {
+          if (!visited.has(neighbor)) queue.push(neighbor);
+        }
+      }
+      if (cluster.length >= 2) {
+        const clusterProb = cluster.reduce((sum, t) => {
+          const data = typeOutcomes.get(t);
+          return sum + (data ? data.negative / data.total : 0);
+        }, 0) / cluster.length;
+
+        clusteredRisks.push({
+          cluster,
+          probability: Math.round(clusterProb * 100) / 100,
+          warning: `These ${cluster.length} scenario types cascade together — if one triggers, expect the others`,
+        });
+      }
+    }
+
+    return {
+      organizationId,
+      correlations: correlations.slice(0, 20),
+      clusteredRisks,
+      totalSimulationsAnalyzed: simulations.length,
+      generatedAt: new Date(),
+    };
+  }
+
+  /**
+   * Scenario Library: Industry-specific + saved scenarios with recommendations.
+   */
+  async getScenarioLibrary(
+    organizationId: string
+  ): Promise<{
+    industryScenarios: Array<{ type: SimulationType; name: string; description: string; relevance: string }>;
+    savedScenarios: Array<{ id: string; name: string; type: string; usageCount: number; lastUsed: Date | null }>;
+    recommended: Array<{ type: SimulationType; name: string; reason: string }>;
+    untestedTypes: SimulationType[];
+    generatedAt: Date;
+  }> {
+    const [org, simulations] = await Promise.all([
+      prisma.organizations.findUnique({ where: { id: organizationId } }),
+      prisma.crucible_simulations.findMany({
+        where: { organization_id: organizationId },
+        select: { id: true, name: true, simulation_type: true, created_at: true },
+        orderBy: { created_at: 'desc' },
+      }),
+    ]);
+
+    const industry = (org?.industry || 'technology').toLowerCase();
+
+    // Industry-specific scenario recommendations
+    const industryMap: Record<string, Array<{ type: SimulationType; relevance: string }>> = {
+      'financial services': [
+        { type: 'FINANCIAL_STRESS', relevance: 'Core risk — interest rate and credit exposure' },
+        { type: 'REGULATORY_CHANGE', relevance: 'Basel/Dodd-Frank compliance shifts' },
+        { type: 'CYBER_ATTACK', relevance: 'PCI-DSS and customer data protection' },
+        { type: 'MARKET_DISRUPTION', relevance: 'Fintech competition and market volatility' },
+        { type: 'ESG_EVENT', relevance: 'ESG reporting mandates and greenwashing risk' },
+      ],
+      'healthcare': [
+        { type: 'REGULATORY_CHANGE', relevance: 'HIPAA/FDA compliance and reimbursement changes' },
+        { type: 'TALENT_EXODUS', relevance: 'Clinical staff shortages and burnout' },
+        { type: 'SUPPLY_CHAIN', relevance: 'Medical supply and pharmaceutical disruptions' },
+        { type: 'CYBER_ATTACK', relevance: 'PHI breach and ransomware targeting' },
+        { type: 'TECHNOLOGY_FAILURE', relevance: 'EHR system failures and patient safety' },
+      ],
+      'technology': [
+        { type: 'CYBER_ATTACK', relevance: 'Core infrastructure and IP protection' },
+        { type: 'TALENT_EXODUS', relevance: 'Key engineer retention in competitive market' },
+        { type: 'MARKET_DISRUPTION', relevance: 'Competitive disruption and platform shifts' },
+        { type: 'FINANCIAL_STRESS', relevance: 'Funding environment and burn rate management' },
+        { type: 'TECHNOLOGY_FAILURE', relevance: 'System outages and SLA compliance' },
+      ],
+      'manufacturing': [
+        { type: 'SUPPLY_CHAIN', relevance: 'Material sourcing and logistics resilience' },
+        { type: 'OPERATIONAL_SHOCK', relevance: 'Production line failures and quality issues' },
+        { type: 'TALENT_EXODUS', relevance: 'Skilled labor shortages' },
+        { type: 'ESG_EVENT', relevance: 'Environmental compliance and emissions' },
+        { type: 'MARKET_DISRUPTION', relevance: 'Demand shifts and competitor automation' },
+      ],
+      'energy': [
+        { type: 'REGULATORY_CHANGE', relevance: 'NERC CIP and environmental regulations' },
+        { type: 'ESG_EVENT', relevance: 'Energy transition and carbon mandates' },
+        { type: 'SUPPLY_CHAIN', relevance: 'Fuel sourcing and grid dependencies' },
+        { type: 'OPERATIONAL_SHOCK', relevance: 'Grid failures and safety incidents' },
+        { type: 'BLACK_SWAN', relevance: 'Natural disasters and geopolitical disruption' },
+      ],
+    };
+
+    // Find matching industry scenarios or default to technology
+    const matchedIndustry = Object.keys(industryMap).find(k => industry.includes(k)) || 'technology';
+    const industryScenarios = (industryMap[matchedIndustry] || industryMap['technology']).map(s => ({
+      type: s.type,
+      name: SCENARIO_TEMPLATES[s.type]?.name || s.type,
+      description: SCENARIO_TEMPLATES[s.type]?.description || '',
+      relevance: s.relevance,
+    }));
+
+    // Saved/used scenarios
+    const usageCounts = new Map<string, { count: number; lastUsed: Date | null; name: string; type: string }>();
+    for (const sim of simulations) {
+      const key = sim.simulation_type;
+      const existing = usageCounts.get(key) || { count: 0, lastUsed: null, name: sim.name, type: sim.simulation_type };
+      existing.count++;
+      if (!existing.lastUsed || sim.created_at > existing.lastUsed) existing.lastUsed = sim.created_at;
+      usageCounts.set(key, existing);
+    }
+    const savedScenarios = Array.from(usageCounts.entries())
+      .map(([key, data]) => ({
+        id: key,
+        name: data.name,
+        type: data.type,
+        usageCount: data.count,
+        lastUsed: data.lastUsed,
+      }))
+      .sort((a, b) => b.usageCount - a.usageCount);
+
+    // Find untested scenario types
+    const testedTypes = new Set(simulations.map(s => s.simulation_type));
+    const allTypes = Object.keys(SCENARIO_TEMPLATES) as SimulationType[];
+    const untestedTypes = allTypes.filter(t => !testedTypes.has(t) && t !== 'CUSTOM');
+
+    // Recommend scenarios
+    const recommended: Array<{ type: SimulationType; name: string; reason: string }> = [];
+    for (const untested of untestedTypes.slice(0, 3)) {
+      recommended.push({
+        type: untested,
+        name: SCENARIO_TEMPLATES[untested]?.name || untested,
+        reason: `Never tested — blind spot in resilience coverage`,
+      });
+    }
+    // Add most-used scenario as re-run recommendation
+    if (savedScenarios.length > 0 && savedScenarios[0].lastUsed) {
+      const daysSinceLastRun = Math.floor((Date.now() - savedScenarios[0].lastUsed.getTime()) / (1000 * 60 * 60 * 24));
+      if (daysSinceLastRun > 30) {
+        recommended.push({
+          type: savedScenarios[0].type as SimulationType,
+          name: SCENARIO_TEMPLATES[savedScenarios[0].type as SimulationType]?.name || savedScenarios[0].type,
+          reason: `Last run ${daysSinceLastRun} days ago — re-test for current conditions`,
+        });
+      }
+    }
+
+    return {
+      industryScenarios,
+      savedScenarios,
+      recommended,
+      untestedTypes,
+      generatedAt: new Date(),
+    };
+  }
 }
 
 const numUniverses = 100; // Used in probability calculation

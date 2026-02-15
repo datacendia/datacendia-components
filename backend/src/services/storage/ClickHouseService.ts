@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CLICKHOUSE SERVICE - Fast SQL Analytics (Alternative to Druid)
 // =============================================================================
@@ -7,6 +11,7 @@
 // =============================================================================
 
 import { createClient, ClickHouseClient } from '@clickhouse/client';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // ClickHouse connection config
 const CLICKHOUSE_CONFIG = {
@@ -55,8 +60,8 @@ class ClickHouseService {
         database: CLICKHOUSE_CONFIG.database,
       });
       await this.checkAvailability();
-    } catch (error: any) {
-      console.warn('[ClickHouse] Failed to initialize:', error.message);
+    } catch (error: unknown) {
+      console.warn('[ClickHouse] Failed to initialize:', getErrorMessage(error));
       this.isAvailable = false;
     }
   }
@@ -107,12 +112,12 @@ class ClickHouseService {
         totalRows: data.length,
         queryTime,
       };
-    } catch (error: any) {
-      console.error('[ClickHouse] Query error:', error.message);
+    } catch (error: unknown) {
+      console.error('[ClickHouse] Query error:', getErrorMessage(error));
       return {
         success: false,
         data: [],
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   }
@@ -136,8 +141,8 @@ class ClickHouseService {
       });
 
       return { success: data.length, failed: 0 };
-    } catch (error: any) {
-      console.error('[ClickHouse] Insert error:', error.message);
+    } catch (error: unknown) {
+      console.error('[ClickHouse] Insert error:', getErrorMessage(error));
       return { success: 0, failed: data.length };
     }
   }
@@ -218,8 +223,8 @@ class ClickHouseService {
     for (const query of createTableQueries) {
       try {
         await this.client.command({ query });
-      } catch (error: any) {
-        console.error('[ClickHouse] Table creation error:', error.message);
+      } catch (error: unknown) {
+        console.error('[ClickHouse] Table creation error:', getErrorMessage(error));
       }
     }
 
@@ -231,7 +236,7 @@ class ClickHouseService {
   // ===========================================================================
 
   /**
-   * Get decision history (CendiaChronosâ„¢)
+   * Get decision history (CendiaChronos™)
    */
   async getDecisionHistory(
     organizationId: string,
@@ -272,7 +277,7 @@ class ClickHouseService {
   }
 
   /**
-   * Get audit trail (CendiaWitnessâ„¢)
+   * Get audit trail (CendiaWitness™)
    */
   async getAuditTrail(
     organizationId: string,
@@ -323,7 +328,7 @@ class ClickHouseService {
   }
 
   /**
-   * Get agent metrics (CendiaPulseâ„¢)
+   * Get agent metrics (CendiaPulse™)
    */
   async getAgentMetrics(
     organizationId: string,

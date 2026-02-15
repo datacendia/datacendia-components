@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DECISION PACKETS VIEWER PAGE
 // Browse, verify, and export cryptographically signed decision packets
@@ -189,8 +193,8 @@ export const DecisionPacketsPage: React.FC = () => {
         return false;
       }
     }
-    if (filterSigned === 'signed' && !p.hasSignature) return false;
-    if (filterSigned === 'unsigned' && p.hasSignature) return false;
+    if (filterSigned === 'signed' && !p.hasSignature) {return false;}
+    if (filterSigned === 'unsigned' && p.hasSignature) {return false;}
     return true;
   });
 

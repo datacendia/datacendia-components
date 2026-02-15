@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA DOCUMENT EXPORT SERVICE
 // Professional document generation for auditors, compliance, and stakeholders
@@ -832,7 +836,7 @@ class DocumentExportService {
   // ===========================================================================
   
   private escapeHtml(text: any): string {
-    if (text === null || text === undefined) return '';
+    if (text === null || text === undefined) {return '';}
     // Convert to string if not already a string
     const str = typeof text === 'string' ? text : String(text);
     return str
@@ -845,8 +849,8 @@ class DocumentExportService {
   
   private getStatusClass(status: string): string {
     const s = status?.toLowerCase() || '';
-    if (s.includes('complete')) return 'COMPLETED';
-    if (s.includes('error') || s.includes('fail')) return 'ERROR';
+    if (s.includes('complete')) {return 'COMPLETED';}
+    if (s.includes('error') || s.includes('fail')) {return 'ERROR';}
     return 'PENDING';
   }
 

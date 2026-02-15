@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - DECISIONS PAGE
 // View all council decisions and deliberations
@@ -114,10 +118,10 @@ export const DecisionsPage: React.FC = () => {
   };
 
   const getConfidenceColor = (confidence?: number) => {
-    if (!confidence) return 'text-gray-400';
-    if (confidence >= 90) return 'text-green-400';
-    if (confidence >= 70) return 'text-yellow-400';
-    if (confidence >= 50) return 'text-orange-400';
+    if (!confidence) {return 'text-gray-400';}
+    if (confidence >= 90) {return 'text-green-400';}
+    if (confidence >= 70) {return 'text-yellow-400';}
+    if (confidence >= 50) {return 'text-orange-400';}
     return 'text-red-400';
   };
 

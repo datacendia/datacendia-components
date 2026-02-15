@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA DETERMINISTIC REPLAY™ - BIT-PERFECT REPRODUCIBILITY
 // "Re-run any decision years later, get the exact same output."

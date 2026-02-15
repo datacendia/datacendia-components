@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaCommand™ Page
  * 
@@ -106,6 +110,7 @@ export default function CommandPage() {
 
   useEffect(() => {
     loadVerticals();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -179,7 +184,7 @@ export default function CommandPage() {
   };
 
   const executeCommand = async (cmd: string) => {
-    if (!selectedVertical || !cmd.trim()) return;
+    if (!selectedVertical || !cmd.trim()) {return;}
 
     setIsLoading(true);
     setCommand(cmd);

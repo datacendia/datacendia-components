@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * USE DEMO DATA HOOK
@@ -53,7 +57,7 @@ export function useDemoData<T = unknown>(
   const { isActive, currentDemo } = useDemoMode();
 
   const demoData = useMemo(() => {
-    if (!isActive) return null;
+    if (!isActive) {return null;}
     return DEMO_SCENARIOS[scenario] as T;
   }, [isActive, scenario]);
 

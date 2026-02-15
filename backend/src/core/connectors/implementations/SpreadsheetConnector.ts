@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - SPREADSHEET CONNECTOR
 // Universal CSV/Excel file upload connector for enterprise data import
@@ -12,6 +16,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { parse as csvParse } from 'csv-parse/sync';
 import ExcelJS from 'exceljs';
+import { getErrorMessage } from '../../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -187,8 +192,8 @@ export class SpreadsheetConnector extends BaseConnector {
           } else {
             errors.push({ entity: file.name, error: result.errors[0]?.message || 'Parse failed' });
           }
-        } catch (err: any) {
-          errors.push({ entity: file.name, error: err.message });
+        } catch (err: unknown) {
+          errors.push({ entity: file.name, error: getErrorMessage(err) });
         }
       }
 
@@ -198,11 +203,11 @@ export class SpreadsheetConnector extends BaseConnector {
         errors,
         duration: Date.now() - startTime,
       };
-    } catch (err: any) {
+    } catch (err: unknown) {
       return {
         success: false,
         entitiesSynced: 0,
-        errors: [{ entity: 'sync', error: err.message }],
+        errors: [{ entity: 'sync', error: getErrorMessage(err) }],
         duration: Date.now() - startTime,
       };
     }
@@ -276,7 +281,7 @@ export class SpreadsheetConnector extends BaseConnector {
       } else {
         throw new Error(`Unsupported file type: ${ext}`);
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       return {
         success: false,
         filename,
@@ -284,7 +289,7 @@ export class SpreadsheetConnector extends BaseConnector {
         columns: [],
         rows: [],
         rowCount: 0,
-        errors: [{ message: `Parse error: ${err.message}` }],
+        errors: [{ message: `Parse error: ${getErrorMessage(err)}` }],
         warnings: [],
         parseTime: Date.now() - startTime,
       };
@@ -676,14 +681,14 @@ export class SpreadsheetConnector extends BaseConnector {
         warnings,
         duration: Date.now() - startTime,
       };
-    } catch (err: any) {
+    } catch (err: unknown) {
       return {
         success: false,
         tableName,
         rowsImported,
         rowsSkipped,
         columnsCreated: 0,
-        errors: [{ message: `Import failed: ${err.message}` }],
+        errors: [{ message: `Import failed: ${getErrorMessage(err)}` }],
         warnings,
         duration: Date.now() - startTime,
       };
@@ -799,14 +804,14 @@ export class SpreadsheetConnector extends BaseConnector {
         warnings: result.warnings,
         error: result.errors[0]?.message,
       };
-    } catch (err: any) {
+    } catch (err: unknown) {
       return {
         success: false,
         columns: [],
         sampleRows: [],
         totalRows: 0,
         warnings: [],
-        error: err.message,
+        error: getErrorMessage(err),
       };
     }
   }

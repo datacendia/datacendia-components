@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * SUPREME COURT DATABASE (SCDB) INTEGRATION
  * Coded metadata for every SCOTUS decision (1791-present)
@@ -259,7 +263,7 @@ export function getIPLandmarkCases(): typeof LANDMARK_CASES[string][] {
  */
 export function formatLandmarkCase(caseKey: string): string {
   const c = LANDMARK_CASES[caseKey];
-  if (!c) return `Case not found: ${caseKey}`;
+  if (!c) {return `Case not found: ${caseKey}`;}
   
   return `**${c.name}**
 Citation: ${c.citation}
@@ -272,7 +276,7 @@ Relevance: ${c.relevance}`;
  * Format multiple landmark cases for agent context
  */
 export function formatLandmarkCasesForAgent(cases: typeof LANDMARK_CASES[string][]): string {
-  if (cases.length === 0) return 'No landmark cases found.';
+  if (cases.length === 0) {return 'No landmark cases found.';}
   
   return cases.map(c => 
     `**${c.name}** (${c.citation})

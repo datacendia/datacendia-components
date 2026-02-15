@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * FLEET TRACKING MAP - Logistics Vertical
  * Interactive Leaflet map showing live fleet positions, routes, and warehouses

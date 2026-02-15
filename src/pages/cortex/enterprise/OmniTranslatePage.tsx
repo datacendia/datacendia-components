@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA OMNITRANSLATE™ - 100-LANGUAGE ENTERPRISE TRANSLATOR
 // Real-Time Translation for Global Enterprise Operations
@@ -552,7 +556,7 @@ export const OmniTranslatePage: React.FC = () => {
   // Handle document file upload
   const handleDocumentUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
-    if (!file) return;
+    if (!file) {return;}
 
     setIsUploadingDoc(true);
     
@@ -587,12 +591,12 @@ export const OmniTranslatePage: React.FC = () => {
   // Simple language detection based on character patterns
   const detectLanguage = (text: string): string => {
     const sample = text.slice(0, 1000);
-    if (/[\u4e00-\u9fff]/.test(sample)) return 'zh';
-    if (/[\u3040-\u309f\u30a0-\u30ff]/.test(sample)) return 'ja';
-    if (/[\uac00-\ud7af]/.test(sample)) return 'ko';
-    if (/[\u0600-\u06ff]/.test(sample)) return 'ar';
-    if (/[\u0400-\u04ff]/.test(sample)) return 'ru';
-    if (/[\u0900-\u097f]/.test(sample)) return 'hi';
+    if (/[\u4e00-\u9fff]/.test(sample)) {return 'zh';}
+    if (/[\u3040-\u309f\u30a0-\u30ff]/.test(sample)) {return 'ja';}
+    if (/[\uac00-\ud7af]/.test(sample)) {return 'ko';}
+    if (/[\u0600-\u06ff]/.test(sample)) {return 'ar';}
+    if (/[\u0400-\u04ff]/.test(sample)) {return 'ru';}
+    if (/[\u0900-\u097f]/.test(sample)) {return 'hi';}
     // Default to English
     return 'en';
   };
@@ -608,7 +612,7 @@ export const OmniTranslatePage: React.FC = () => {
 
   // Translate document to all selected languages
   const handleTranslateDocument = async () => {
-    if (!uploadedDocument || selectedTargetLanguages.length === 0) return;
+    if (!uploadedDocument || selectedTargetLanguages.length === 0) {return;}
     
     setIsTranslatingDoc(true);
     
@@ -823,7 +827,7 @@ export const OmniTranslatePage: React.FC = () => {
 
   // Export single translation as file
   const exportTranslation = (translation: DocumentTranslation) => {
-    if (!uploadedDocument || !translation.translatedContent) return;
+    if (!uploadedDocument || !translation.translatedContent) {return;}
     
     const fileName = uploadedDocument.name.replace(/\.[^/.]+$/, '') + `_${translation.languageCode}.txt`;
     const blob = new Blob([translation.translatedContent], { type: 'text/plain;charset=utf-8' });
@@ -839,10 +843,10 @@ export const OmniTranslatePage: React.FC = () => {
 
   // Export all translations as ZIP
   const exportAllTranslations = async () => {
-    if (!uploadedDocument || documentTranslations.length === 0) return;
+    if (!uploadedDocument || documentTranslations.length === 0) {return;}
     
     const completedTranslations = documentTranslations.filter(t => t.status === 'complete');
-    if (completedTranslations.length === 0) return;
+    if (completedTranslations.length === 0) {return;}
 
     // For simplicity, export as a combined text file (in production would use JSZip)
     const baseName = uploadedDocument.name.replace(/\.[^/.]+$/, '');

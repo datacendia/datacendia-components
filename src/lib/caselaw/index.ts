@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CASELAW ACCESS PROJECT API INTEGRATION
  * Harvard Law School's free caselaw database
@@ -177,16 +181,16 @@ class CaselawService {
   async searchCases(params: CaselawSearchParams): Promise<CaselawSearchResponse> {
     const queryParams: Record<string, string | number | boolean> = {};
     
-    if (params.search) queryParams.search = params.search;
-    if (params.cite) queryParams.cite = params.cite;
-    if (params.name_abbreviation) queryParams.name_abbreviation = params.name_abbreviation;
-    if (params.jurisdiction) queryParams.jurisdiction = params.jurisdiction;
-    if (params.court) queryParams.court = params.court;
-    if (params.decision_date_min) queryParams.decision_date_min = params.decision_date_min;
-    if (params.decision_date_max) queryParams.decision_date_max = params.decision_date_max;
-    if (params.ordering) queryParams.ordering = params.ordering;
-    if (params.page_size) queryParams.page_size = params.page_size;
-    if (params.full_case) queryParams.full_case = 'true';
+    if (params.search) {queryParams.search = params.search;}
+    if (params.cite) {queryParams.cite = params.cite;}
+    if (params.name_abbreviation) {queryParams.name_abbreviation = params.name_abbreviation;}
+    if (params.jurisdiction) {queryParams.jurisdiction = params.jurisdiction;}
+    if (params.court) {queryParams.court = params.court;}
+    if (params.decision_date_min) {queryParams.decision_date_min = params.decision_date_min;}
+    if (params.decision_date_max) {queryParams.decision_date_max = params.decision_date_max;}
+    if (params.ordering) {queryParams.ordering = params.ordering;}
+    if (params.page_size) {queryParams.page_size = params.page_size;}
+    if (params.full_case) {queryParams.full_case = 'true';}
 
     return this.fetch<CaselawSearchResponse>('/cases/', queryParams);
   }
@@ -196,7 +200,7 @@ class CaselawService {
    */
   async getCase(caseId: number, fullCase: boolean = false): Promise<CaselawCase> {
     const params: Record<string, string> = {};
-    if (fullCase) params.full_case = 'true';
+    if (fullCase) {params.full_case = 'true';}
     
     return this.fetch<CaselawCase>(`/cases/${caseId}/`, params);
   }
@@ -291,7 +295,7 @@ class CaselawService {
    */
   async getCourts(jurisdiction?: string): Promise<{ id: number; slug: string; name: string; name_abbreviation: string }[]> {
     const params: Record<string, string> = {};
-    if (jurisdiction) params.jurisdiction = jurisdiction;
+    if (jurisdiction) {params.jurisdiction = jurisdiction;}
     
     const response = await this.fetch<{ results: { id: number; slug: string; name: string; name_abbreviation: string }[] }>('/courts/', params);
     return response.results;
@@ -310,7 +314,7 @@ class CaselawService {
    * Extract key holdings from case text (basic extraction)
    */
   extractKeyHoldings(caseData: CaselawCase): string[] {
-    if (!caseData.casebody?.data?.opinions) return [];
+    if (!caseData.casebody?.data?.opinions) {return [];}
 
     const holdings: string[] = [];
     const holdingPatterns = [

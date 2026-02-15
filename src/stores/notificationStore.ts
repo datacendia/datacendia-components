@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Notification Store - Real-time notifications and alerts
  *
@@ -113,7 +117,7 @@ function showDesktopNotification(title: string, body: string) {
 }
 
 function isQuietHours(start?: string, end?: string): boolean {
-  if (!start || !end) return false;
+  if (!start || !end) {return false;}
 
   const now = new Date();
   const currentTime = now.getHours() * 60 + now.getMinutes();

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // FRONTEND NOTIFICATION SERVICE
 // Client-side notification API and state management
@@ -55,9 +59,9 @@ class NotificationServiceClient {
    */
   async getAll(options: { limit?: number; offset?: number; unread?: boolean } = {}): Promise<Notification[]> {
     const params = new URLSearchParams();
-    if (options.limit) params.append('limit', options.limit.toString());
-    if (options.offset) params.append('offset', options.offset.toString());
-    if (options.unread) params.append('unread', 'true');
+    if (options.limit) {params.append('limit', options.limit.toString());}
+    if (options.offset) {params.append('offset', options.offset.toString());}
+    if (options.unread) {params.append('unread', 'true');}
 
     const response = await api.get<any>(`${this.baseUrl}?${params.toString()}`);
     return response.data || [];
@@ -171,10 +175,10 @@ class NotificationServiceClient {
     const hours = Math.floor(diff / 3600000);
     const days = Math.floor(diff / 86400000);
 
-    if (minutes < 1) return 'Just now';
-    if (minutes < 60) return `${minutes}m ago`;
-    if (hours < 24) return `${hours}h ago`;
-    if (days < 7) return `${days}d ago`;
+    if (minutes < 1) {return 'Just now';}
+    if (minutes < 60) {return `${minutes}m ago`;}
+    if (hours < 24) {return `${hours}h ago`;}
+    if (days < 7) {return `${days}d ago`;}
     return date.toLocaleDateString();
   }
 }

@@ -1,0 +1,239 @@
+# =============================================================================
+# DATACENDIA — SECURITY & COMPLIANCE PIPELINE
+# =============================================================================
+# Enterprise Platinum Standard: Automated security scanning on every PR + daily
+#
+# Scans:
+#   - npm audit (known vulnerabilities)
+#   - CodeQL (SAST — static application security testing)
+#   - Dependency review (license + vuln on PRs)
+#   - Secret scanning (prevent credential leaks)
+#   - SBOM generation (Software Bill of Materials)
+#   - Docker image scanning (Trivy)
+# =============================================================================
+
+name: Security — Audit & SAST
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  schedule:
+    # Daily at 06:00 UTC — catch newly disclosed CVEs
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: read
+  security-events: write
+  pull-requests: read
+
+concurrency:
+  group: security-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ===========================================================================
+  # DEPENDENCY AUDIT: npm audit + license check
+  # ===========================================================================
+  dependency-audit:
+    name: Dependency Audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --include-workspace-root --workspaces
+
+      - name: Audit root dependencies
+        run: npm audit --audit-level=high --omit=dev || true
+        continue-on-error: false
+
+      - name: Audit backend dependencies
+        run: npm audit --audit-level=high --omit=dev --workspace=backend || true
+        continue-on-error: false
+
+      - name: Check for critical vulnerabilities
+        run: |
+          echo "=== Root Package Audit ==="
+          ROOT_CRITICAL=$(npm audit --json 2>/dev/null | jq '.metadata.vulnerabilities.critical // 0')
+          echo "Root critical vulnerabilities: $ROOT_CRITICAL"
+          
+          echo "=== Backend Package Audit ==="
+          BACKEND_CRITICAL=$(npm audit --json --workspace=backend 2>/dev/null | jq '.metadata.vulnerabilities.critical // 0')
+          echo "Backend critical vulnerabilities: $BACKEND_CRITICAL"
+          
+          TOTAL=$((ROOT_CRITICAL + BACKEND_CRITICAL))
+          if [ "$TOTAL" -gt 0 ]; then
+            echo "::error::$TOTAL critical vulnerabilities found — deployment blocked"
+            exit 1
+          fi
+          echo "✅ No critical vulnerabilities found"
+
+  # ===========================================================================
+  # CODEQL: Static Application Security Testing
+  # ===========================================================================
+  codeql-analysis:
+    name: CodeQL SAST
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [javascript-typescript]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          queries: security-and-quality
+          config: |
+            paths:
+              - src
+              - backend/src
+            paths-ignore:
+              - '**/*.test.ts'
+              - '**/*.spec.ts'
+              - '**/node_modules/**'
+              - '**/dist/**'
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:${{ matrix.language }}"
+
+  # ===========================================================================
+  # DEPENDENCY REVIEW: Block PRs with vulnerable deps
+  # ===========================================================================
+  dependency-review:
+    name: Dependency Review (PR only)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+          deny-licenses: AGPL-3.0, GPL-3.0
+          comment-summary-in-pr: always
+
+  # ===========================================================================
+  # SBOM: Software Bill of Materials generation
+  # ===========================================================================
+  sbom:
+    name: SBOM Generation
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --include-workspace-root --workspaces
+
+      - name: Generate CycloneDX SBOM
+        uses: CycloneDX/gh-node-module-generatebom@v1
+        with:
+          output: sbom.json
+
+      - name: Upload SBOM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbom-cyclonedx
+          path: sbom.json
+          retention-days: 90
+
+  # ===========================================================================
+  # DOCKER IMAGE SCAN: Trivy vulnerability scanner
+  # ===========================================================================
+  docker-scan:
+    name: Docker Image Security Scan
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.event_name == 'pull_request'
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build backend image
+        run: docker build -t datacendia/backend:scan ./backend
+
+      - name: Trivy vulnerability scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'datacendia/backend:scan'
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL,HIGH'
+          exit-code: '0'
+
+      - name: Upload Trivy scan results
+        uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: 'trivy-results.sarif'
+
+      - name: Trivy table output
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'datacendia/backend:scan'
+          format: 'table'
+          severity: 'CRITICAL,HIGH'
+
+  # ===========================================================================
+  # SECRET SCANNING: Prevent credential leaks
+  # ===========================================================================
+  secret-scan:
+    name: Secret Leak Detection
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout (full history for secret detection)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: TruffleHog secret scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --only-verified --results=verified

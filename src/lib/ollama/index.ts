@@ -1,4 +1,8 @@
-﻿// =============================================================================
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
+// =============================================================================
 // DATACENDIA - OLLAMA LLM INTEGRATION
 // Real AI Agent Integration with Local Ollama Instance
 // =============================================================================
@@ -26,7 +30,7 @@ const OLLAMA_BASE_URL =
   'http://localhost:11434';
 
 // =============================================================================
-// CENDIAGUARDâ„¢ - SOVEREIGN SECURITY CONSTITUTION
+// CENDIAGUARD™ - SOVEREIGN SECURITY CONSTITUTION
 // Defense-grade guardrails injected into all LLM interactions
 // =============================================================================
 
@@ -576,28 +580,28 @@ class OllamaService {
     const languageMap: Record<string, string> = {
       // The Americas
       en: '',
-      es: 'Responde en espaÃ±ol.',
-      pt: 'Responda em portuguÃªs.',
+      es: 'Responde en español.',
+      pt: 'Responda em português.',
       // Europe
-      fr: 'RÃ©ponds en franÃ§ais.',
+      fr: 'Réponds en français.',
       de: 'Antworte auf Deutsch.',
       it: 'Rispondi in italiano.',
       pl: 'Odpowiedz po polsku.',
-      tr: 'TÃ¼rkÃ§e olarak cevap ver.',
+      tr: 'Türkçe olarak cevap ver.',
       // Middle East & Africa
-      ar: 'Ø£Ø¬Ø¨ Ø¨Ø§Ù„Ù„ØºØ© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©.',
+      ar: 'أجب باللغة العربية.',
       sw: 'Jibu kwa Kiswahili.',
       // South Asia
-      hi: 'à¤•à¥ƒà¤ªà¤¯à¤¾ à¤¹à¤¿à¤‚à¤¦à¥€ à¤®à¥‡à¤‚ à¤œà¤µà¤¾à¤¬ à¤¦à¥‡à¤‚à¥¤',
-      bn: 'à¦¬à¦¾à¦‚à¦²à¦¾à¦¯à¦¼ à¦‰à¦¤à§à¦¤à¦° à¦¦à¦¿à¦¨à¥¤',
-      ur: 'Ø¨Ø±Ø§Û Ú©Ø±Ù… Ø§Ø±Ø¯Ùˆ Ù…ÛŒÚº Ø¬ÙˆØ§Ø¨ Ø¯ÛŒÚºÛ”',
+      hi: 'कृपया हिंदी में जवाब दें।',
+      bn: 'বাংলায় উত্তর দিন।',
+      ur: 'براہ کرم اردو میں جواب دیں۔',
       // East & Southeast Asia
-      zh: 'è¯·ç”¨ä¸­æ–‡å›žç­”ã€‚',
-      ja: 'æ—¥æœ¬èªžã§å›žç­”ã—ã¦ãã ã•ã„ã€‚',
-      ko: 'í•œêµ­ì–´ë¡œ ë‹µë³€í•´ ì£¼ì„¸ìš”.',
+      zh: '请用中文回答。',
+      ja: '日本語で回答してください。',
+      ko: '한국어로 답변해 주세요.',
       id: 'Jawab dalam Bahasa Indonesia.',
-      vi: 'HÃ£y tráº£ lá»i báº±ng tiáº¿ng Viá»‡t.',
-      th: 'à¸à¸£à¸¸à¸“à¸²à¸•à¸­à¸šà¹€à¸›à¹‡à¸™à¸ à¸²à¸©à¸²à¹„à¸—à¸¢',
+      vi: 'Hãy trả lời bằng tiếng Việt.',
+      th: 'กรุณาตอบเป็นภาษาไทย',
       tl: 'Sumagot sa Tagalog.',
     };
     return languageMap[locale] || '';
@@ -757,7 +761,7 @@ class OllamaService {
         ...responses.map((r) => `## ${r.agent.name}\n${r.response}`),
         ...crossExaminations.map(
           (ce) =>
-            `## Cross-Examination: ${ce.challenger.name} â†’ ${ce.target.name}\nChallenge: ${ce.challenge}\nRebuttal: ${ce.rebuttal}`
+            `## Cross-Examination: ${ce.challenger.name} → ${ce.target.name}\nChallenge: ${ce.challenge}\nRebuttal: ${ce.rebuttal}`
         ),
       ].join('\n\n---\n\n');
 

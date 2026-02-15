@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA DISSENT™ — THE RIGHT TO FORMALLY, SAFELY, IMMUTABLY DISAGREE
 // "Every decision includes the right to disagree — on the record, forever."
@@ -44,9 +48,9 @@ const getTimeRemaining = (deadline: Date | string): string => {
   const hours = Math.floor(diff / (1000 * 60 * 60));
   const days = Math.floor(hours / 24);
 
-  if (diff < 0) return 'Overdue';
-  if (days > 0) return `${days} days remaining`;
-  if (hours > 0) return `${hours} hours remaining`;
+  if (diff < 0) {return 'Overdue';}
+  if (days > 0) {return `${days} days remaining`;}
+  if (hours > 0) {return `${hours} hours remaining`;}
   return 'Due soon';
 };
 
@@ -549,7 +553,7 @@ const RespondView: React.FC<RespondViewProps> = ({ dissents, onRespond }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async () => {
-    if (!selectedDissent || !reasoning.trim()) return;
+    if (!selectedDissent || !reasoning.trim()) {return;}
 
     setIsSubmitting(true);
     try {
@@ -874,7 +878,7 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.statement.trim()) return;
+    if (!formData.statement.trim()) {return;}
 
     setIsSubmitting(true);
     try {

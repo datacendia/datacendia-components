@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // COUNCIL MODE ANALYTICS DASHBOARD - Admin Analytics Page
 // =============================================================================
@@ -51,7 +55,7 @@ export default function ModeAnalytics() {
   }, [selectedPeriod]);
 
   const sortedModes = useMemo(() => {
-    if (!analytics?.byMode) return [];
+    if (!analytics?.byMode) {return [];}
     return Object.entries(analytics.byMode)
       .map(([id, data]) => ({ id, ...data, mode: COUNCIL_MODES[id] }))
       .sort((a, b) => b.count - a.count);

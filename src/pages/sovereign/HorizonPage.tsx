@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaHorizon™ - Predictive Decision Intelligence
  * "What If" Time Machine for Strategic Decisions
@@ -298,7 +302,7 @@ const HorizonPage: React.FC = () => {
   
   // Calculate adjusted probability based on simulation mode and industry
   const getAdjustedProbability = (baseProbability: number) => {
-    if (!currentSimulationMode || !currentIndustry) return { probability: baseProbability, confidence: 0.7, range: [baseProbability - 0.1, baseProbability + 0.1] as [number, number] };
+    if (!currentSimulationMode || !currentIndustry) {return { probability: baseProbability, confidence: 0.7, range: [baseProbability - 0.1, baseProbability + 0.1] as [number, number] };}
     return calculateAdjustedProbability(baseProbability, currentSimulationMode, currentIndustry);
   };
   
@@ -308,7 +312,7 @@ const HorizonPage: React.FC = () => {
 
   // Generate and download audit packet
   const handleDownloadAuditPacket = async () => {
-    if (!simulation) return;
+    if (!simulation) {return;}
     
     setIsGeneratingAudit(true);
     
@@ -398,7 +402,7 @@ const HorizonPage: React.FC = () => {
   };
 
   const runSimulation = async () => {
-    if (!question.trim()) return;
+    if (!question.trim()) {return;}
     
     setIsSimulating(true);
     

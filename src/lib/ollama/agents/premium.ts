@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * PREMIUM AGENTS
  * Foundation tier ($150K-$500K/yr) and Enterprise tier ($500K-$1.5M/yr) agents

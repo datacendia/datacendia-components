@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DCII - Decision Crisis Immunization Infrastructure™ Tests
  * 
@@ -768,15 +772,19 @@ describe('DCII Cross-Service Integration', () => {
     expect(decisionSimilarityService).toBeDefined();
   });
 
-  it('IISS should calculate from all 5 primitives with correct weights', async () => {
+  it('IISS should calculate from all 9 primitives with correct weights', async () => {
     const score = await iissService.calculateScore('org-integration', 'Integration Corp', 'test');
     const weights = score.dimensions.map(d => d.weight);
     expect(weights.reduce((s, w) => s + w, 0)).toBeCloseTo(1.0, 5);
-    expect(score.dimensions.find(d => d.primitive === 'discovery_time_proof')!.weight).toBe(0.25);
-    expect(score.dimensions.find(d => d.primitive === 'deliberation_capture')!.weight).toBe(0.25);
-    expect(score.dimensions.find(d => d.primitive === 'override_accountability')!.weight).toBe(0.20);
-    expect(score.dimensions.find(d => d.primitive === 'continuity_memory')!.weight).toBe(0.15);
-    expect(score.dimensions.find(d => d.primitive === 'drift_detection')!.weight).toBe(0.15);
+    expect(score.dimensions.find(d => d.primitive === 'discovery_time_proof')!.weight).toBe(0.15);
+    expect(score.dimensions.find(d => d.primitive === 'deliberation_capture')!.weight).toBe(0.15);
+    expect(score.dimensions.find(d => d.primitive === 'override_accountability')!.weight).toBe(0.12);
+    expect(score.dimensions.find(d => d.primitive === 'continuity_memory')!.weight).toBe(0.10);
+    expect(score.dimensions.find(d => d.primitive === 'drift_detection')!.weight).toBe(0.10);
+    expect(score.dimensions.find(d => d.primitive === 'cognitive_bias_mitigation')!.weight).toBe(0.10);
+    expect(score.dimensions.find(d => d.primitive === 'quantum_resistant_integrity')!.weight).toBe(0.10);
+    expect(score.dimensions.find(d => d.primitive === 'synthetic_media_authentication')!.weight).toBe(0.08);
+    expect(score.dimensions.find(d => d.primitive === 'cross_jurisdiction_compliance')!.weight).toBe(0.10);
   });
 
   it('timestamp tokens should be retrievable by org', async () => {

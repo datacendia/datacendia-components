@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * COUNCIL VIDEO SIMULATION - Realistic Multi-Agent Deliberation
  * Enterprise Platinum - Human-like avatars with animated deliberation
@@ -325,7 +329,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
 
   // Simulate speaking
   const simulateSpeaking = useCallback(() => {
-    if (!isRunning) return;
+    if (!isRunning) {return;}
 
     const speakerOrder = ['chief', 'cfo', 'risk', 'coo', 'ciso', 'cmo', 'clo', 'ethics', 'devils-advocate'];
     const currentIndex = simulation.elapsedTime % speakerOrder.length;
@@ -377,7 +381,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
 
   // Main simulation loop
   useEffect(() => {
-    if (!isRunning) return;
+    if (!isRunning) {return;}
 
     const interval = setInterval(() => {
       setSimulation(prev => {

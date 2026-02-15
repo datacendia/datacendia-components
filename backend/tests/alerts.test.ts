@@ -26,7 +26,7 @@ describe('Alerts', () => {
   });
 
   describe('GET /alerts', () => {
-    it(.skipIf(!apiAvailable)('should list all alerts', async () => {
+    it.skipIf(!apiAvailable)('should list all alerts', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts', adminToken);
       expect(response.status).toBe(200);
@@ -36,7 +36,7 @@ describe('Alerts', () => {
       expect(Array.isArray(data.data)).toBe(true);
     });
 
-    it(.skipIf(!apiAvailable)('should support severity filter', async () => {
+    it.skipIf(!apiAvailable)('should support severity filter', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts?severity=CRITICAL', adminToken);
       expect(response.status).toBe(200);
@@ -47,7 +47,7 @@ describe('Alerts', () => {
       });
     });
 
-    it(.skipIf(!apiAvailable)('should support status filter', async () => {
+    it.skipIf(!apiAvailable)('should support status filter', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts?status=ACTIVE', adminToken);
       expect(response.status).toBe(200);
@@ -58,7 +58,7 @@ describe('Alerts', () => {
       });
     });
 
-    it(.skipIf(!apiAvailable)('should support pagination', async () => {
+    it.skipIf(!apiAvailable)('should support pagination', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts?page=1&pageSize=10', adminToken);
       expect(response.status).toBe(200);
@@ -70,7 +70,7 @@ describe('Alerts', () => {
   });
 
   describe('GET /alerts/:id', () => {
-    it(.skipIf(!apiAvailable)('should return specific alert', async () => {
+    it.skipIf(!apiAvailable)('should return specific alert', async () => {
       if (!apiAvailable || !adminToken) return;
       const listResponse = await authFetch('/alerts', adminToken);
       const alerts = (await listResponse.json()).data;
@@ -88,7 +88,7 @@ describe('Alerts', () => {
   });
 
   describe('PUT /alerts/:id/acknowledge', () => {
-    it(.skipIf(!apiAvailable)('should acknowledge an alert', async () => {
+    it.skipIf(!apiAvailable)('should acknowledge an alert', async () => {
       if (!apiAvailable || !adminToken) return;
       // Find an active alert
       const listResponse = await authFetch('/alerts?status=ACTIVE&limit=1', adminToken);
@@ -107,7 +107,7 @@ describe('Alerts', () => {
   });
 
   describe('PUT /alerts/:id/resolve', () => {
-    it(.skipIf(!apiAvailable)('should resolve an alert with resolution notes', async () => {
+    it.skipIf(!apiAvailable)('should resolve an alert with resolution notes', async () => {
       if (!apiAvailable || !adminToken) return;
       // Find an acknowledged alert
       const listResponse = await authFetch('/alerts?status=ACKNOWLEDGED&limit=1', adminToken);
@@ -129,7 +129,7 @@ describe('Alerts', () => {
   });
 
   describe('Alert Statistics', () => {
-    it(.skipIf(!apiAvailable)('should return alert statistics', async () => {
+    it.skipIf(!apiAvailable)('should return alert statistics', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts/stats', adminToken);
       

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA GNOSIS™ - Sovereign Education Engine
 // "The Council decides tomorrow's strategy tonight. Gnosis teaches every human

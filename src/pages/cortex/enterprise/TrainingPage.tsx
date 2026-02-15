@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA TRAINING™ - LEARNING MANAGEMENT SYSTEM
 // Onboarding verification, role-based training, and certification tracking
@@ -414,9 +418,9 @@ const formatDate = (date: Date) => {
 
 const getDaysUntil = (date: Date) => {
   const days = Math.ceil((date.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
-  if (days < 0) return `${Math.abs(days)}d overdue`;
-  if (days === 0) return 'Today';
-  if (days === 1) return 'Tomorrow';
+  if (days < 0) {return `${Math.abs(days)}d overdue`;}
+  if (days === 0) {return 'Today';}
+  if (days === 1) {return 'Tomorrow';}
   return `${days} days`;
 };
 
@@ -796,7 +800,7 @@ export const TrainingPage: React.FC = () => {
                   <div className="space-y-2">
                     {cert.courses.map((courseId) => {
                       const course = mockCourses.find((c) => c.id === courseId);
-                      if (!course) return null;
+                      if (!course) {return null;}
                       return (
                         <div
                           key={courseId}

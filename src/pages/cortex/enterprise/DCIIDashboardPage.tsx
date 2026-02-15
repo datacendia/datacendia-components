@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CendiaDCII™ — DECISION CRISIS IMMUNIZATION INFRASTRUCTURE
 // The command center for institutional crisis resilience.
@@ -58,7 +62,7 @@ async function dciiApi(path: string, options?: RequestInit) {
     ...options,
   });
   const data = await res.json();
-  if (!data.success) throw new Error(data.error?.message || 'API error');
+  if (!data.success) {throw new Error(data.error?.message || 'API error');}
   return data.data;
 }
 
@@ -802,7 +806,7 @@ function SimilarityTab({ decisions }: { decisions: any[] }) {
   const [searching, setSearching] = useState(false);
 
   const handleSearch = async () => {
-    if (!searchQuery.trim()) return;
+    if (!searchQuery.trim()) {return;}
     setSearching(true);
     try {
       const result = await dciiApi('/similarity/search', {

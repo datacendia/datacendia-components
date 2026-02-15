@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // ADVERSARIAL RED TEAM MODE PAGE
 // "100 Ways This Could Fail" - Every agent becomes a devil's advocate
@@ -322,7 +326,7 @@ const CascadingFailureChain: React.FC<{ attacks: RedTeamAttack[] }> = ({ attacks
   const highs = attacks.filter(a => a.severity === 'high');
   const chain = [...criticals, ...highs].slice(0, 4);
 
-  if (chain.length < 2) return null;
+  if (chain.length < 2) {return null;}
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
@@ -461,7 +465,7 @@ export const AdversarialRedTeamPage: React.FC = () => {
 
   const loadScenario = (key: string) => {
     const scenario = DEMO_SCENARIOS[key];
-    if (!scenario) return;
+    if (!scenario) {return;}
     setDecision(scenario.decision);
     setContext('');
   };
@@ -491,7 +495,7 @@ export const AdversarialRedTeamPage: React.FC = () => {
   };
 
   const handleAnalyze = async () => {
-    if (!decision.trim()) return;
+    if (!decision.trim()) {return;}
 
     // Check if decision matches a demo scenario
     const matchedKey = Object.keys(DEMO_SCENARIOS).find(k => DEMO_SCENARIOS[k].decision === decision);

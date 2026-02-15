@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DEFENSE & NATIONAL SECURITY VERTICAL PAGE
 // DIU-Ready | FedRAMP High | CMMC Level 3 | ITAR Compliant
@@ -192,9 +196,9 @@ export const DefenseVerticalPage: React.FC = () => {
       const res = await api.get<any>('/defense/summary');
       const payload = res as any;
       if (payload.success) {
-        if (payload.summary) setSummary(payload.summary);
-        if (payload.agents) setAgents(payload.agents);
-        if (payload.modes) setModes(payload.modes);
+        if (payload.summary) {setSummary(payload.summary);}
+        if (payload.agents) {setAgents(payload.agents);}
+        if (payload.modes) {setModes(payload.modes);}
       }
     } catch (error) {
       console.error('Failed to load defense data:', error);

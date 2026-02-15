@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // NOTIFICATION BELL COMPONENT
 // Header notification dropdown with real-time updates
@@ -25,7 +29,7 @@ export function NotificationBell({ className }: NotificationBellProps) {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const fetchNotifications = useCallback(async () => {
-    if (failCount >= 3) return; // Stop polling after 3 failures
+    if (failCount >= 3) {return;} // Stop polling after 3 failures
     setLoading(true);
     try {
       const [notifs, count] = await Promise.all([

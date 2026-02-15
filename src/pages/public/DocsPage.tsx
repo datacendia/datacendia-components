@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Book, Code, Server, Shield, Zap, Users, ArrowRight } from 'lucide-react';
@@ -7,9 +11,9 @@ const ParticleField: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    if (!canvas) {return;}
     const ctx = canvas.getContext('2d');
-    if (!ctx) return;
+    if (!ctx) {return;}
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     const particles: {
@@ -36,10 +40,10 @@ const ParticleField: React.FC = () => {
       particles.forEach((p) => {
         p.x += p.vx;
         p.y += p.vy;
-        if (p.x < 0) p.x = canvas.width;
-        if (p.x > canvas.width) p.x = 0;
-        if (p.y < 0) p.y = canvas.height;
-        if (p.y > canvas.height) p.y = 0;
+        if (p.x < 0) {p.x = canvas.width;}
+        if (p.x > canvas.width) {p.x = 0;}
+        if (p.y < 0) {p.y = canvas.height;}
+        if (p.y > canvas.height) {p.y = 0;}
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
         ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`;

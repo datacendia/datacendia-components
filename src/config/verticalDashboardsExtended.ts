@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * EXTENDED VERTICAL DASHBOARD CONFIGURATIONS
  * Remaining 20 industry verticals (total 24)

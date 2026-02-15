@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Breadcrumbs - Navigation trail for deep links
  * Shows the path hierarchy and allows quick navigation back
@@ -168,7 +172,7 @@ export const BreadcrumbsCompact: React.FC<{ className?: string }> = ({ className
   const location = useLocation();
   const pathSegments = location.pathname.split('/').filter(Boolean);
   
-  if (pathSegments.length <= 2) return null;
+  if (pathSegments.length <= 2) {return null;}
 
   const parentPath = '/' + pathSegments.slice(0, -1).join('/');
   const parentLabel = ROUTE_LABELS[pathSegments[pathSegments.length - 2]] || 

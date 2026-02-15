@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // ENTERPRISE SECURITY ROUTES - Keycloak, Casbin, Tika Integration
 // =============================================================================
@@ -7,6 +11,7 @@ import { protect, optionalAuth, getOrgId, canVeto, canAccessCouncil, Authenticat
 import { policyEngine } from '../security/PolicyEngine';
 import { tikaService } from '../services/document/TikaService';
 import { minioService } from '../services/storage/MinioService';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -62,8 +67,8 @@ router.post('/check-permission', protect(), async (req: AuthenticatedRequest, re
     }
     
     res.json({ success: true, allowed });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -100,8 +105,8 @@ router.post('/documents/extract-from-vault', async (req: Request, res: Response)
       },
       error: result.error,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -116,8 +121,8 @@ router.get('/policies', protect('admin'), async (req: Request, res: Response) =>
   try {
     const policies = await policyEngine.exportPolicies();
     res.json({ success: true, data: policies });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -138,8 +143,8 @@ router.post('/policies/can-approve', optionalAuth, async (req: AuthenticatedRequ
     );
     
     res.json({ success: true, ...result });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -154,8 +159,8 @@ router.post('/policies/can-veto', optionalAuth, async (req: AuthenticatedRequest
     const result = await policyEngine.canVetoDecision(userRoles, decisionType);
     
     res.json({ success: true, ...result });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -185,8 +190,8 @@ router.post('/documents/extract', async (req: Request, res: Response) => {
       },
       error: result.error,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -205,8 +210,8 @@ router.post('/documents/detect-type', async (req: Request, res: Response) => {
       success: true,
       data: { mimeType, formatName },
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -217,8 +222,8 @@ router.get('/documents/formats', async (req: Request, res: Response) => {
   try {
     const types = await tikaService.getSupportedTypes();
     res.json({ success: true, data: types });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -229,8 +234,8 @@ router.get('/documents/health', async (req: Request, res: Response) => {
   try {
     const available = await tikaService.checkAvailability();
     res.json({ success: true, available });
-  } catch (error: any) {
-    res.status(500).json({ success: false, available: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, available: false, error: getErrorMessage(error) });
   }
 });
 
@@ -259,8 +264,8 @@ router.get('/security/status', async (req: Request, res: Response) => {
         stepCa: { enabled: true },
       },
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 

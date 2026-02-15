@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - PILLARS PAGES (The 8 Foundational Data Layers)
 // =============================================================================
@@ -199,6 +203,7 @@ export const HelmPage: React.FC = () => {
       }
     };
     loadHelmData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeframe]);
 
   const getStatusStyle = (status: string) => {
@@ -228,13 +233,13 @@ export const HelmPage: React.FC = () => {
   };
 
   const getCategoryConfig = (name: string | undefined): CategoryConfig => {
-    if (!name) return DEFAULT_CATEGORY_CONFIG;
+    if (!name) {return DEFAULT_CATEGORY_CONFIG;}
     const key = name.toLowerCase();
     return CATEGORY_CONFIG[key] ?? DEFAULT_CATEGORY_CONFIG;
   };
 
   const getCategoryStats = (cat: HelmCategory | null | undefined) => {
-    if (!cat) return { total: 0, onTrack: 0, atRisk: 0, critical: 0, owners: [] };
+    if (!cat) {return { total: 0, onTrack: 0, atRisk: 0, critical: 0, owners: [] };}
     const metrics = cat.metrics || [];
     return {
       total: metrics.length,
@@ -431,7 +436,7 @@ export const HelmPage: React.FC = () => {
               const filteredMetrics =
                 statusFilter === 'all' ? metrics : metrics.filter((m) => m.status === statusFilter);
 
-              if (statusFilter !== 'all' && filteredMetrics.length === 0) return null;
+              if (statusFilter !== 'all' && filteredMetrics.length === 0) {return null;}
 
               return (
                 <button
@@ -896,6 +901,7 @@ export const LineagePage: React.FC = () => {
       }
     };
     loadLineageData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const formatRelativeTime = (dateStr: string) => {
@@ -1100,6 +1106,7 @@ export const PredictPage: React.FC = () => {
       }
     };
     loadPredictData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const activeModels = models.filter((m) => m.status === 'active').length;
@@ -1278,6 +1285,7 @@ export const FlowPage: React.FC = () => {
       }
     };
     loadFlowData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const formatDuration = (ms: number | null) => {
@@ -1473,6 +1481,7 @@ export const HealthPage: React.FC = () => {
       }
     };
     loadHealthData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const formatRelativeTime = (dateStr: string) => {
@@ -1846,6 +1855,7 @@ export const GuardPage: React.FC = () => {
     };
 
     loadSecurityData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Format relative time
@@ -2259,6 +2269,7 @@ export const EthicsPage: React.FC = () => {
       }
     };
     loadEthicsData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const formatDate = (dateStr: string) => {
@@ -2614,6 +2625,7 @@ export const AgentsPage: React.FC = () => {
       }
     };
     loadAgentsData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getAgentIcon = (code: string): string => {

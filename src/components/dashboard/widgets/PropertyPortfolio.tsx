@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * PROPERTY PORTFOLIO - Real Estate Vertical
  * Property performance, occupancy, and investment analytics with AI agents
@@ -74,8 +78,8 @@ const MARKETS: MarketData[] = [
 // =============================================================================
 
 const formatCurrency = (num: number): string => {
-  if (num >= 1e6) return `$${(num / 1e6).toFixed(1)}M`;
-  if (num >= 1e3) return `$${(num / 1e3).toFixed(0)}K`;
+  if (num >= 1e6) {return `$${(num / 1e6).toFixed(1)}M`;}
+  if (num >= 1e3) {return `$${(num / 1e3).toFixed(0)}K`;}
   return `$${num}`;
 };
 

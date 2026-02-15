@@ -1,9 +1,14 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - BASE SERVICE
 // Enterprise-grade service foundation with lifecycle management
 // =============================================================================
 
 import { EventEmitter } from 'events';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -215,9 +220,9 @@ export abstract class BaseService {
       this.state.startedAt = new Date();
       this.logger.info('Service started successfully');
       this.emit('started');
-    } catch (error: any) {
+    } catch (error: unknown) {
       this.state.status = 'stopped';
-      this.logger.error('Failed to start service', { error: error.message });
+      this.logger.error('Failed to start service', { error: getErrorMessage(error) });
       throw error;
     }
   }
@@ -235,8 +240,8 @@ export abstract class BaseService {
       this.state.status = 'stopped';
       this.logger.info('Service stopped successfully');
       this.emit('stopped');
-    } catch (error: any) {
-      this.logger.error('Error during shutdown', { error: error.message });
+    } catch (error: unknown) {
+      this.logger.error('Error during shutdown', { error: getErrorMessage(error) });
       this.state.status = 'stopped';
       throw error;
     }
@@ -272,12 +277,12 @@ export abstract class BaseService {
       }
       
       return health;
-    } catch (error: any) {
+    } catch (error: unknown) {
       const health: ServiceHealth = {
         status: 'unhealthy',
         lastCheck: new Date(),
         latency: Date.now() - startTime,
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
       
       this.state.health = health;

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA TENANTS MANAGEMENT - Enterprise Platinum Standard
 // Multi-tenant organization management with full CRUD operations
@@ -88,9 +92,9 @@ const API_BASE = '/admin';
 async function fetchTenants(filters?: { status?: string; plan?: string; search?: string }): Promise<Tenant[]> {
   try {
     const params = new URLSearchParams();
-    if (filters?.status) params.set('status', filters.status);
-    if (filters?.plan) params.set('plan', filters.plan);
-    if (filters?.search) params.set('search', filters.search);
+    if (filters?.status) {params.set('status', filters.status);}
+    if (filters?.plan) {params.set('plan', filters.plan);}
+    if (filters?.search) {params.set('search', filters.search);}
     
     const res = await api.get<any>(`${API_BASE}/tenants?${params.toString()}`);
     const data = res as any;
@@ -360,7 +364,7 @@ export const TenantsPage: React.FC = () => {
   }, [loadData]);
 
   const handleSuspend = async (tenant: Tenant) => {
-    if (!confirm(`Are you sure you want to suspend ${tenant.name}?`)) return;
+    if (!confirm(`Are you sure you want to suspend ${tenant.name}?`)) {return;}
     try {
       await suspendTenant(tenant.id, 'Admin action');
       loadData();
@@ -389,7 +393,7 @@ export const TenantsPage: React.FC = () => {
   };
 
   const formatBytes = (mb: number) => {
-    if (mb >= 1000) return `${(mb / 1000).toFixed(1)} GB`;
+    if (mb >= 1000) {return `${(mb / 1000).toFixed(1)} GB`;}
     return `${mb} MB`;
   };
 

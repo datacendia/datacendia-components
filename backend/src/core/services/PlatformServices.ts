@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - SERVICE REGISTRATIONS
 // Registers all platform features as monitored services
@@ -8,6 +12,7 @@ import { serviceRegistry } from './ServiceRegistry.js';
 import { prisma } from '../../config/database.js';
 import { redis } from '../../config/redis.js';
 import { neo4j } from '../../config/neo4j.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // DATABASE SERVICE
@@ -42,12 +47,12 @@ class DatabaseService extends BaseService {
         latency: Date.now() - start,
         details: { database: 'postgresql' },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
         latency: Date.now() - start,
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }
@@ -84,12 +89,12 @@ class RedisService extends BaseService {
         lastCheck: new Date(),
         latency: Date.now() - start,
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
         latency: Date.now() - start,
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }
@@ -129,12 +134,12 @@ class GraphService extends BaseService {
         latency: Date.now() - start,
         details: { database: 'neo4j' },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
         latency: Date.now() - start,
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }
@@ -176,7 +181,7 @@ class CouncilService extends BaseService {
           models: data.models?.length || 0,
         },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'degraded',
         lastCheck: new Date(),
@@ -249,11 +254,11 @@ class FlowService extends BaseService {
         latency: Date.now() - start,
         details: { workflows: count },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }
@@ -320,11 +325,11 @@ class BridgeService extends BaseService {
         latency: Date.now() - start,
         details: { connectedSources: count },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }
@@ -361,11 +366,11 @@ class PulseService extends BaseService {
         latency: Date.now() - start,
         details: { activeAlerts },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }

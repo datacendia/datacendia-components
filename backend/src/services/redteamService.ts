@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA REDTEAM™ - THE SOVEREIGN ADVERSARIAL ENGINE
 // "We hired the smartest attacker on earth and gave them your keys — on purpose."

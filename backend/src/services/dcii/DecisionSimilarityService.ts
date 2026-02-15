@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaSimilarity™ — Decision Similarity Service
  * 
@@ -21,6 +25,7 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { vectorDB } from '../vectordb/index.js';
 
 // =============================================================================
 // TYPES
@@ -227,6 +232,7 @@ class DecisionSimilarityService {
   private decisions: Map<string, DecisionRecord> = new Map();
   private searchResults: Map<string, SimilaritySearchResult> = new Map();
   private patterns: Map<string, DecisionPattern> = new Map();
+  private vectorSearchEnabled = false;
 
   constructor() {
     logger.info('[CendiaSimilarity] Decision Similarity Engine™ initialized');
@@ -234,6 +240,51 @@ class DecisionSimilarityService {
       logger.warn('[CendiaSimilarity] DB not available, using in-memory demo data');
       this.seedDemoData();
     });
+    // Initialize vector DB in background (non-blocking)
+    this.initVectorSearch();
+  }
+
+  private async initVectorSearch(): Promise<void> {
+    try {
+      const ready = await vectorDB.initialize();
+      if (ready) {
+        this.vectorSearchEnabled = true;
+        logger.info('[CendiaSimilarity] Neural vector search ENABLED via Qdrant');
+        // Re-index existing decisions into Qdrant
+        this.reindexAllDecisions().catch(err =>
+          logger.warn('[CendiaSimilarity] Background reindex failed (non-fatal):', err)
+        );
+      } else {
+        logger.info('[CendiaSimilarity] Qdrant unavailable — using TF-IDF fallback');
+      }
+    } catch {
+      logger.info('[CendiaSimilarity] Vector search init failed — using TF-IDF fallback');
+    }
+  }
+
+  private async reindexAllDecisions(): Promise<void> {
+    const decisions = Array.from(this.decisions.values());
+    if (decisions.length === 0) return;
+
+    const points = decisions.map(d => ({
+      id: d.id,
+      text: `${d.title} ${d.question} ${d.context}`,
+      payload: {
+        organizationId: d.organizationId,
+        title: d.title,
+        decisionType: d.decisionType,
+        department: d.department,
+        urgency: d.urgency,
+        outcome: d.outcome || 'unknown',
+        overrideOccurred: d.overrideOccurred,
+        dissenterWasCorrect: d.dissenterWasCorrect ?? false,
+        decidedAt: d.decidedAt.toISOString(),
+        tags: d.tags,
+      },
+    }));
+
+    const result = await vectorDB.upsertBatch('decisions', points);
+    logger.info(`[CendiaSimilarity] Reindexed ${result.indexed} decisions into Qdrant (${result.failed} failed)`);
   }
 
   private async initFromDb(): Promise<void> {
@@ -310,6 +361,23 @@ class DecisionSimilarityService {
 
     this.decisions.set(id, decision);
     this.persistDecision(decision).catch(() => {});
+
+    // Index into Qdrant for neural vector search
+    if (this.vectorSearchEnabled) {
+      vectorDB.upsertPoint('decisions', id, fullText, {
+        organizationId: record.organizationId,
+        title: record.title,
+        decisionType: record.decisionType,
+        department: record.department,
+        urgency: record.urgency,
+        outcome: record.outcome || 'unknown',
+        overrideOccurred: record.overrideOccurred,
+        dissenterWasCorrect: record.dissenterWasCorrect ?? false,
+        decidedAt: record.decidedAt.toISOString(),
+        tags: record.tags,
+      }).catch(err => logger.debug('[CendiaSimilarity] Qdrant index failed (non-fatal):', err));
+    }
+
     logger.info(`[CendiaSimilarity] Decision recorded: ${record.title} (${id})`);
     return decision;
   }
@@ -344,19 +412,68 @@ class DecisionSimilarityService {
     const minSimilarity = request.minSimilarity || 0.15;
 
     const queryText = `${request.title} ${request.question} ${request.context}`;
-    const queryTfIdf = textToTfIdf(queryText);
     const queryKeywords = this.extractKeywords(queryText);
 
-    const candidates = Array.from(this.decisions.values())
-      .filter(d => d.organizationId === request.organizationId || request.includeCrossDepartment);
+    // =========================================================================
+    // STRATEGY: Use neural embeddings (Qdrant) if available, TF-IDF fallback
+    // =========================================================================
+    let vectorCandidateIds: Set<string> | null = null;
+    let vectorScores: Map<string, number> = new Map();
+
+    if (this.vectorSearchEnabled && vectorDB.isAvailable()) {
+      try {
+        const vectorResults = await vectorDB.searchForOrganization(
+          'decisions',
+          queryText,
+          request.organizationId,
+          maxResults * 3, // Over-fetch for re-ranking
+          request.includeCrossDepartment ? undefined : undefined,
+          0.1 // Low threshold — let multi-dimensional scoring handle final ranking
+        );
+
+        if (vectorResults.length > 0) {
+          vectorCandidateIds = new Set(vectorResults.map(r => r.id));
+          for (const r of vectorResults) {
+            vectorScores.set(r.id, r.score);
+          }
+          logger.debug(`[CendiaSimilarity] Neural search returned ${vectorResults.length} candidates`);
+        }
+      } catch (err) {
+        logger.warn('[CendiaSimilarity] Neural search failed, falling back to TF-IDF:', err);
+      }
+    }
+
+    // Get candidate set: either from Qdrant pre-filter or full scan
+    let candidates: DecisionRecord[];
+    if (vectorCandidateIds && vectorCandidateIds.size > 0) {
+      // Use Qdrant results as candidate set (much faster at scale)
+      candidates = Array.from(vectorCandidateIds)
+        .map(id => this.decisions.get(id))
+        .filter((d): d is DecisionRecord => d !== undefined);
+    } else {
+      // TF-IDF fallback: scan all in-memory decisions
+      candidates = Array.from(this.decisions.values())
+        .filter(d => d.organizationId === request.organizationId || request.includeCrossDepartment);
+    }
 
     const matches: SimilarityMatch[] = [];
+    const queryTfIdf = textToTfIdf(queryText);
 
     for (const candidate of candidates) {
       const candidateText = `${candidate.title} ${candidate.question} ${candidate.context}`;
       const candidateTfIdf = textToTfIdf(candidateText);
 
-      const semanticScore = cosineSimilarity(queryTfIdf, candidateTfIdf);
+      // Use neural embedding score if available, otherwise TF-IDF
+      const neuralScore = vectorScores.get(candidate.id);
+      const tfidfScore = cosineSimilarity(queryTfIdf, candidateTfIdf);
+      const semanticScore = neuralScore !== undefined
+        ? (neuralScore * 0.7 + tfidfScore * 0.3) // Blend: 70% neural, 30% TF-IDF
+        : tfidfScore;
+
+      const semanticLabel = neuralScore !== undefined
+        ? `Neural embedding: ${(neuralScore * 100).toFixed(1)}% (blended with TF-IDF: ${(tfidfScore * 100).toFixed(1)}%)`
+        : `TF-IDF cosine similarity: ${(tfidfScore * 100).toFixed(1)}%`;
+
       const keywordScore = this.keywordOverlap(queryKeywords, candidate.keywords);
       const contextualScore = this.contextualSimilarity(request, candidate);
       const structuralScore = this.structuralSimilarity(request, candidate);
@@ -364,7 +481,7 @@ class DecisionSimilarityService {
       const temporalDecay = this.calculateTemporalDecay(candidate.decidedAt);
 
       const dimensions: SimilarityDimension[] = [
-        { dimension: 'semantic', score: semanticScore, weight: 0.35, details: `TF-IDF cosine similarity: ${(semanticScore * 100).toFixed(1)}%` },
+        { dimension: 'semantic', score: semanticScore, weight: 0.35, details: semanticLabel },
         { dimension: 'keyword', score: keywordScore, weight: 0.20, details: `Keyword overlap: ${(keywordScore * 100).toFixed(1)}%` },
         { dimension: 'contextual', score: contextualScore, weight: 0.20, details: `Context factors: department, urgency, type match` },
         { dimension: 'structural', score: structuralScore, weight: 0.15, details: `Decision structure similarity` },

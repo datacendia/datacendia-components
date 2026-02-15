@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - REGULATORY INSTANT-ABSORB V2 PAGE
 // Enterprise-grade compliance ingestion with provenance, verification, and review
@@ -208,7 +212,7 @@ export const RegulatoryAbsorbPageV2: React.FC = () => {
 
   // Approve document
   const handleApprove = async () => {
-    if (!result) return;
+    if (!result) {return;}
 
     try {
       const response = await fetch(`/api/v1/premium/regulatory/v2/documents/${result.id}/approve`, {
@@ -228,10 +232,10 @@ export const RegulatoryAbsorbPageV2: React.FC = () => {
 
   // Reject document
   const handleReject = async () => {
-    if (!result) return;
+    if (!result) {return;}
 
     const reason = prompt('Enter rejection reason:');
-    if (!reason) return;
+    if (!reason) {return;}
 
     try {
       const response = await fetch(`/api/v1/premium/regulatory/v2/documents/${result.id}/reject`, {

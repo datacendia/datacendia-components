@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA — EXECUTIVE SUMMARY GENERATOR
 // =============================================================================
@@ -52,7 +56,7 @@ export const ExecutiveSummaryPage: React.FC = () => {
   const [copied, setCopied] = useState(false);
 
   const handleGenerate = async () => {
-    if (!selectedDeliberation) return;
+    if (!selectedDeliberation) {return;}
     setIsGenerating(true);
     setGeneratedSummary(null);
     try {

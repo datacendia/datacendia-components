@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * WEBSOCKET HOOK - Real-Time Connection Management
@@ -43,7 +47,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
   const errorLoggedRef = useRef(false);
 
   useEffect(() => {
-    if (!autoConnect) return;
+    if (!autoConnect) {return;}
 
     setState(prev => ({ ...prev, connecting: true }));
     errorLoggedRef.current = false;

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * VERTICAL COUNCIL ROUTES TESTS
  * Tests for Financial, Healthcare, Insurance, and Energy vertical council modes and agents

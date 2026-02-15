@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CENDIA EVIDENCE VAULT API ROUTES
  * 
@@ -9,6 +13,7 @@ import { Router, Request, Response } from 'express';
 import { evidenceVaultService } from '../services/evidence/EvidenceVaultService.js';
 import { logger } from '../utils/logger.js';
 import multer from 'multer';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } }); // 50MB limit
@@ -65,9 +70,9 @@ router.get('/packets', async (req: Request, res: Response) => {
     });
 
     res.json(result);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error fetching packets:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -89,9 +94,9 @@ router.get('/packets/:id', async (req: Request, res: Response) => {
     }
 
     res.json(packet);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error fetching packet:', error);
-    res.status(error.message.includes('Auditors') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('Auditors') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -128,9 +133,9 @@ router.post('/packets/generate', async (req: Request, res: Response) => {
     );
 
     res.status(201).json(packet);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error generating packet:', error);
-    res.status(error.message.includes('Only') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('Only') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -161,9 +166,9 @@ router.post('/packets/:id/send-to-approvers', async (req: Request, res: Response
     );
 
     res.json(workflow);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error sending to approvers:', error);
-    res.status(error.message.includes('Only') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('Only') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -188,9 +193,9 @@ router.post('/workflows/:id/respond', async (req: Request, res: Response) => {
     );
 
     res.json({ success: true });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error responding to approval:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -228,9 +233,9 @@ router.post('/packets/:id/attachments', upload.single('file'), async (req: Reque
     );
 
     res.status(201).json(attachment);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error attaching evidence:', error);
-    res.status(error.message.includes('permissions') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('permissions') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -253,9 +258,9 @@ router.post('/packets/:id/lock', async (req: Request, res: Response) => {
     );
 
     res.json(packet);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error locking packet:', error);
-    res.status(error.message.includes('Only') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('Only') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -284,9 +289,9 @@ router.post('/packets/:id/break-glass', async (req: Request, res: Response) => {
     );
 
     res.status(201).json(breakGlass);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error requesting break-glass:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -305,9 +310,9 @@ router.post('/break-glass/:id/approve', async (req: Request, res: Response) => {
     );
 
     res.json(breakGlass);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error approving break-glass:', error);
-    res.status(error.message.includes('Only') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('Only') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -322,9 +327,9 @@ router.get('/break-glass/:id/execute', async (req: Request, res: Response) => {
     res.setHeader('Content-Type', 'application/zip');
     res.setHeader('Content-Disposition', `attachment; filename="break-glass-export-${req.params.id}.zip"`);
     res.send(bundle);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error executing break-glass:', error);
-    res.status(error.message.includes('not yet') ? 400 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('not yet') ? 400 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -354,9 +359,9 @@ router.get('/packets/:id/export', async (req: Request, res: Response) => {
     res.setHeader('Content-Type', contentType);
     res.setHeader('Content-Disposition', `attachment; filename="decision-packet-${req.params.id}.${extension}"`);
     res.send(bundle);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error exporting packet:', error);
-    res.status(error.message.includes('cannot') ? 403 : 500).json({ error: error.message });
+    res.status(getErrorMessage(error).includes('cannot') ? 403 : 500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -379,9 +384,9 @@ router.get('/related/:entityType/:entityId', async (req: Request, res: Response)
     );
 
     res.json(related);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error fetching related decisions:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -414,9 +419,9 @@ router.get('/stats', async (req: Request, res: Response) => {
     };
 
     res.json(stats);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[EvidenceVault API] Error fetching stats:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 

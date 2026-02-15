@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - GHOST BOARD FEATURE
 // AI-powered board meeting simulation for executive preparation
@@ -6,6 +10,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { eventBus } from '../../core/events/EventBus.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -113,7 +118,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Victoria Chen',
     role: 'Lead Investor (Series B)',
     persona: 'skeptical_vc',
-    icon: '🎯',
+    icon: '??',
     typicalChallenges: [
       "What's the exit multiple?",
       "How does this affect our runway?",
@@ -128,7 +133,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Robert Martinez',
     role: 'Independent Director',
     persona: 'risk_averse_independent',
-    icon: '🛡️',
+    icon: '???',
     typicalChallenges: [
       "What's our liability exposure?",
       "Have legal reviewed this?",
@@ -143,7 +148,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Sarah Kim',
     role: 'Growth Advisor',
     persona: 'growth_obsessed',
-    icon: '📈',
+    icon: '??',
     typicalChallenges: [
       "Why isn't this bigger?",
       "How do we 10x this?",
@@ -158,7 +163,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Dr. James Thompson',
     role: 'Industry Expert Director',
     persona: 'industry_expert',
-    icon: '🔬',
+    icon: '??',
     typicalChallenges: [
       "Our competitors tried this in 2019...",
       "The industry is moving toward...",
@@ -173,7 +178,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Margaret O\'Brien',
     role: 'Audit Committee Chair',
     persona: 'financial_hawk',
-    icon: '🦅',
+    icon: '??',
     typicalChallenges: [
       "Walk me through the assumptions.",
       "What happens if revenue is 30% lower?",
@@ -188,7 +193,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Michael Park',
     role: 'Operations Advisor',
     persona: 'operations_focused',
-    icon: '⚙️',
+    icon: '??',
     typicalChallenges: [
       "Do we have the capacity?",
       "Who's going to execute this?",
@@ -203,7 +208,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Eleanor Wright',
     role: 'Governance Committee Chair',
     persona: 'governance_stickler',
-    icon: '📋',
+    icon: '??',
     typicalChallenges: [
       "Does this require shareholder approval?",
       "What's the conflict of interest analysis?",
@@ -218,7 +223,7 @@ const BOARD_MEMBERS: Record<BoardPersona, BoardMember> = {
     name: 'Alex Nakamoto',
     role: 'Technology Advisor',
     persona: 'tech_visionary',
-    icon: '🚀',
+    icon: '??',
     typicalChallenges: [
       "Is this future-proof?",
       "What about AI/automation disruption?",
@@ -483,7 +488,7 @@ Return in JSON format:
         commonMistakes: q.commonMistakes || [],
       }));
     } catch (error: unknown) {
-      this.logger.error(`Failed to generate questions for ${member.name}: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      this.logger.error(`Failed to generate questions for ${member.name}: ${error instanceof Error ? getErrorMessage(error) : 'Unknown error'}`);
       // Return default questions based on member's typical challenges
       return member.typicalChallenges.slice(0, 2).map((challenge, idx) => ({
         id: `q-${Date.now()}-${member.id}-${idx}`,

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA — INSTITUTIONAL MISSION CONTROL
 // =============================================================================
@@ -228,8 +232,8 @@ export const MissionControlDashboard: React.FC = () => {
           organizationsApi.getCurrent(),
           authApi.getCurrentUser(),
         ]);
-        if (orgRes.success && orgRes.data) setOrgName(orgRes.data.name || 'Your Organization');
-        if (userRes.success && userRes.data) setUserName(userRes.data.name?.split(' ')[0] || 'User');
+        if (orgRes.success && orgRes.data) {setOrgName(orgRes.data.name || 'Your Organization');}
+        if (userRes.success && userRes.data) {setUserName(userRes.data.name?.split(' ')[0] || 'User');}
       } catch (e) {
         console.error('Mission Control fetch error:', e);
       } finally {
@@ -241,8 +245,8 @@ export const MissionControlDashboard: React.FC = () => {
 
   const getGreeting = () => {
     const hour = new Date().getHours();
-    if (hour < 12) return t('dashboard.greetings.morning');
-    if (hour < 18) return t('dashboard.greetings.afternoon');
+    if (hour < 12) {return t('dashboard.greetings.morning');}
+    if (hour < 18) {return t('dashboard.greetings.afternoon');}
     return t('dashboard.greetings.evening');
   };
 

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - EVENT BUS
 // Enterprise-grade event-driven communication system
@@ -5,6 +9,7 @@
 
 import { EventEmitter } from 'events';
 import { v4 as uuidv4 } from 'uuid';
+import { getErrorMessage, ensureError } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -435,11 +440,11 @@ class EventBus {
         await sub.handler(event);
         this.stats.totalDelivered++;
         return;
-      } catch (error: any) {
-        lastError = error;
+      } catch (error: unknown) {
+        lastError = ensureError(error);
         console.error(
           `[EventBus] Handler error (attempt ${attempt + 1}):`,
-          error.message
+          getErrorMessage(error)
         );
 
         if (attempt < (retryConfig?.maxRetries || 0)) {

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIAVAULT™ - Unified Evidence Storage Service
 // The secure vault for all decision artifacts, audit trails, and evidence bundles

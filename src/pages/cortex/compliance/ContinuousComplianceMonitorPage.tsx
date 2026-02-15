@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CONTINUOUS COMPLIANCE MONITORING PAGE
 // CendiaContinuousCompliance™ - Real-Time Compliance Monitoring
@@ -94,6 +98,7 @@ export default function ContinuousComplianceMonitorPage() {
     loadFrameworks();
     loadScans();
     loadAlerts();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -122,7 +127,7 @@ export default function ContinuousComplianceMonitorPage() {
         { id: 'nist-ai', name: 'NIST AI RMF', version: '1.0', controlCount: 52, implementedCount: 42, compliantCount: 35, status: 'warning', lastScanned: now, driftDetected: false },
       ];
       setFrameworks(demoFrameworks);
-      if (!selectedFramework) setSelectedFramework(demoFrameworks[0].id);
+      if (!selectedFramework) {setSelectedFramework(demoFrameworks[0].id);}
     }
   };
 

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Cortex Core API Types
  * 
@@ -45,7 +49,7 @@ export interface QuerySource {
 export interface StructuredQuery {
   entity: string;
   fields?: string[];
-  filter?: Record<string, any>;
+  filter?: Record<string, unknown>;
   sort?: { field: string; order: 'asc' | 'desc' };
   limit?: number;
   offset?: number;
@@ -60,7 +64,7 @@ export interface QueryParams {
 
 export interface QueryResponse {
   success: boolean;
-  data: any;
+  data: unknown;
   sources: QuerySource[];
   confidence?: number;
   executionMs: number;
@@ -71,8 +75,8 @@ export type AnalysisType = 'impact' | 'risk' | 'trend' | 'anomaly' | 'premortem'
 
 export interface AnalyzeParams {
   type: AnalysisType;
-  subject: { entityType: string; entityId?: string; data?: any };
-  parameters?: { depth?: number; horizon?: string; scenarios?: any[]; threshold?: number };
+  subject: { entityType: string; entityId?: string; data?: unknown };
+  parameters?: { depth?: number; horizon?: string; scenarios?: unknown[]; threshold?: number };
   context: QueryContext;
 }
 
@@ -82,7 +86,7 @@ export interface Finding {
   title: string;
   description: string;
   affectedEntities?: string[];
-  evidence?: any;
+  evidence?: unknown;
 }
 
 export interface Recommendation {
@@ -96,7 +100,7 @@ export interface Recommendation {
 
 export interface AnalyzeResponse {
   success: boolean;
-  analysis: { summary: string; findings: Finding[]; recommendations: Recommendation[]; visualizationData?: any; score?: number };
+  analysis: { summary: string; findings: Finding[]; recommendations: Recommendation[]; visualizationData?: unknown; score?: number };
   pillarsConsulted: PillarName[];
   modelUsed?: string;
   executionMs: number;
@@ -107,8 +111,8 @@ export type SimulationType = 'forecast' | 'scenario' | 'monte_carlo' | 'stress_t
 
 export interface SimulateParams {
   type: SimulationType;
-  baseline: { entityType: string; entityId?: string; currentState?: any };
-  changes: Array<{ variable: string; newValue: any; confidence?: number }>;
+  baseline: { entityType: string; entityId?: string; currentState?: unknown };
+  changes: Array<{ variable: string; newValue: unknown; confidence?: number }>;
   horizon: string;
   iterations?: number;
   context: QueryContext;
@@ -142,7 +146,7 @@ export type GovernanceType = 'compliance' | 'ethics' | 'policy' | 'access' | 'ri
 
 export interface GovernParams {
   action: GovernAction;
-  subject: { entityType: string; entityId: string; data?: any };
+  subject: { entityType: string; entityId: string; data?: unknown };
   governanceType: GovernanceType;
   parameters?: { frameworks?: string[]; policies?: string[]; approvers?: string[]; threshold?: number };
   context: QueryContext;
@@ -179,16 +183,16 @@ export interface ContextOptions {
 
 export interface ContextResponse {
   success: boolean;
-  entity: { id: string; type: string; name: string; attributes: Record<string, any> };
+  entity: { id: string; type: string; name: string; attributes: Record<string, unknown> };
   context: {
-    helm?: { metrics: any[]; health: number; trends: any[] };
-    lineage?: { upstream: any[]; downstream: any[]; quality: number };
-    predict?: { forecasts: any[]; confidence: number };
-    flow?: { workflows: any[]; executions: any[] };
-    health?: { status: string; alerts: any[]; score: number };
-    guard?: { riskScore: number; compliance: any; threats: any[] };
-    ethics?: { lastReview: any; score: number; principles: any[] };
-    agents?: { relevant: any[]; recommendations: any[] };
+    helm?: { metrics: unknown[]; health: number; trends: unknown[] };
+    lineage?: { upstream: unknown[]; downstream: unknown[]; quality: number };
+    predict?: { forecasts: unknown[]; confidence: number };
+    flow?: { workflows: unknown[]; executions: unknown[] };
+    health?: { status: string; alerts: unknown[]; score: number };
+    guard?: { riskScore: number; compliance: unknown; threats: unknown[] };
+    ethics?: { lastReview: unknown; score: number; principles: unknown[] };
+    agents?: { relevant: unknown[]; recommendations: unknown[] };
   };
   relationships: Array<{ type: string; targetId: string; targetName: string }>;
   timeline: Array<{ timestamp: string; event: string; pillar: PillarName }>;

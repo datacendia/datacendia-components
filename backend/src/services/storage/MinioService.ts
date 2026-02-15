@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// MINIO SERVICE - Sovereign Object Storage (CendiaVaultâ„¢)
+// MINIO SERVICE - Sovereign Object Storage (CendiaVault™)
 // =============================================================================
 // S3-compatible object storage that runs locally. No cloud dependencies.
 // Use for: PDFs, Documents, Model files, Backups, Large binary data
@@ -8,6 +12,7 @@
 import { Client, BucketItem } from 'minio';
 import { Readable } from 'stream';
 import * as crypto from 'crypto';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // MinIO connection config
 const MINIO_CONFIG = {
@@ -20,7 +25,7 @@ const MINIO_CONFIG = {
 
 // Bucket names
 export const BUCKETS = {
-  DOCUMENTS: 'cendia-documents',      // PDFs, Office docs for CendiaGnosisâ„¢
+  DOCUMENTS: 'cendia-documents',      // PDFs, Office docs for CendiaGnosis™
   COUNCIL_DOCUMENTS: 'council-documents',
   MODELS: 'cendia-models',            // AI model files
   BACKUPS: 'cendia-backups',          // Database backups
@@ -89,8 +94,8 @@ class MinioService {
             await this.setBucketPublicRead(bucketName);
           }
         }
-      } catch (error: any) {
-        console.error(`[MinIO] Failed to create bucket ${bucketName}:`, error.message);
+      } catch (error: unknown) {
+        console.error(`[MinIO] Failed to create bucket ${bucketName}:`, getErrorMessage(error));
       }
     }
 
@@ -161,13 +166,13 @@ class MinioService {
         versionId: result.versionId ?? undefined,
         size: buffer.length,
       };
-    } catch (error: any) {
-      console.error('[MinIO] Upload error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Upload error:', getErrorMessage(error));
       return {
         success: false,
         bucket,
         objectName,
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   }
@@ -209,13 +214,13 @@ class MinioService {
         versionId: result.versionId ?? undefined,
         size,
       };
-    } catch (error: any) {
-      console.error('[MinIO] Upload stream error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Upload stream error:', getErrorMessage(error));
       return {
         success: false,
         bucket,
         objectName,
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   }
@@ -234,11 +239,11 @@ class MinioService {
         metadata: stat.metaData,
         size: stat.size,
       };
-    } catch (error: any) {
-      console.error('[MinIO] Download error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Download error:', getErrorMessage(error));
       return {
         success: false,
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   }
@@ -256,8 +261,8 @@ class MinioService {
         stream.on('end', () => resolve(Buffer.concat(chunks)));
         stream.on('error', reject);
       });
-    } catch (error: any) {
-      console.error('[MinIO] Download buffer error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Download buffer error:', getErrorMessage(error));
       return null;
     }
   }
@@ -272,8 +277,8 @@ class MinioService {
   ): Promise<string | null> {
     try {
       return await this.client.presignedGetObject(bucket, objectName, expirySeconds);
-    } catch (error: any) {
-      console.error('[MinIO] Presigned URL error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Presigned URL error:', getErrorMessage(error));
       return null;
     }
   }
@@ -288,8 +293,8 @@ class MinioService {
   ): Promise<string | null> {
     try {
       return await this.client.presignedPutObject(bucket, objectName, expirySeconds);
-    } catch (error: any) {
-      console.error('[MinIO] Presigned upload URL error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Presigned upload URL error:', getErrorMessage(error));
       return null;
     }
   }
@@ -301,8 +306,8 @@ class MinioService {
     try {
       await this.client.removeObject(bucket, objectName);
       return true;
-    } catch (error: any) {
-      console.error('[MinIO] Delete error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Delete error:', getErrorMessage(error));
       return false;
     }
   }
@@ -324,8 +329,8 @@ class MinioService {
         stream.on('end', () => resolve(objects));
         stream.on('error', reject);
       });
-    } catch (error: any) {
-      console.error('[MinIO] List error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] List error:', getErrorMessage(error));
       return [];
     }
   }
@@ -378,8 +383,8 @@ class MinioService {
         `/${sourceBucket}/${sourceObject}`
       );
       return true;
-    } catch (error: any) {
-      console.error('[MinIO] Copy error:', error.message);
+    } catch (error: unknown) {
+      console.error('[MinIO] Copy error:', getErrorMessage(error));
       return false;
     }
   }
@@ -389,7 +394,7 @@ class MinioService {
   // ===========================================================================
 
   /**
-   * Upload a document for CendiaGnosisâ„¢
+   * Upload a document for CendiaGnosis™
    */
   async uploadDocument(
     organizationId: string,
@@ -411,7 +416,7 @@ class MinioService {
   }
 
   /**
-   * Upload a court export for CendiaWitnessâ„¢
+   * Upload a court export for CendiaWitness™
    */
   async uploadExport(
     organizationId: string,

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA RESPONSIBILITY™ — FRONTEND SERVICE
 // Human Accountability Layer for AI Decisions
@@ -175,7 +179,7 @@ class ResponsibilityService {
       this.baseUrl + '/record',
       data
     );
-    if (!response.data?.data) throw new Error('Failed to create accountability record');
+    if (!response.data?.data) {throw new Error('Failed to create accountability record');}
     return response.data.data;
   }
 
@@ -187,7 +191,7 @@ class ResponsibilityService {
       this.baseUrl + '/override',
       data
     );
-    if (!response.data?.data) throw new Error('Failed to record override');
+    if (!response.data?.data) {throw new Error('Failed to record override');}
     return response.data.data;
   }
 
@@ -199,7 +203,7 @@ class ResponsibilityService {
       this.baseUrl + '/approve',
       data
     );
-    if (!response.data?.data) throw new Error('Failed to record approval');
+    if (!response.data?.data) {throw new Error('Failed to record approval');}
     return response.data.data;
   }
 
@@ -211,7 +215,7 @@ class ResponsibilityService {
       this.baseUrl + '/reject',
       data
     );
-    if (!response.data?.data) throw new Error('Failed to record rejection');
+    if (!response.data?.data) {throw new Error('Failed to record rejection');}
     return response.data.data;
   }
 
@@ -223,7 +227,7 @@ class ResponsibilityService {
       this.baseUrl + '/delegation',
       data
     );
-    if (!response.data?.data) throw new Error('Failed to create delegation');
+    if (!response.data?.data) {throw new Error('Failed to create delegation');}
     return response.data.data;
   }
 
@@ -265,7 +269,7 @@ class ResponsibilityService {
       this.baseUrl + '/verify',
       { record }
     );
-    if (!response.data?.data) throw new Error('Failed to verify record');
+    if (!response.data?.data) {throw new Error('Failed to verify record');}
     return response.data.data;
   }
 

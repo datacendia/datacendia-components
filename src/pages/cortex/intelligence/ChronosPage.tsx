@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA CHRONOS™ - THE ENTERPRISE TIME MACHINE
 // Premium Package: Time-travel through your organization's history and future
@@ -2841,7 +2845,7 @@ export const ChronosPage: React.FC = () => {
             const dateValue = d.created_at || d.createdAt || new Date();
             const timestamp = new Date(dateValue);
             // Skip if invalid date
-            if (isNaN(timestamp.getTime())) return;
+            if (isNaN(timestamp.getTime())) {return;}
             
             realEvents.push({
               id: d.id,
@@ -2931,13 +2935,13 @@ export const ChronosPage: React.FC = () => {
         const seenTitles = new Set<string>();
         const deduped = realEvents.filter(e => {
           // Skip if we've seen this exact ID
-          if (seenIds.has(e.id)) return false;
+          if (seenIds.has(e.id)) {return false;}
           seenIds.add(e.id);
           
           // Skip if we've seen a very similar title (first 50 chars normalized)
           const titleKey = (e.title || '').substring(0, 50).toLowerCase().replace(/\s+/g, ' ').trim();
-          if (titleKey && seenTitles.has(titleKey)) return false;
-          if (titleKey) seenTitles.add(titleKey);
+          if (titleKey && seenTitles.has(titleKey)) {return false;}
+          if (titleKey) {seenTitles.add(titleKey);}
           
           return true;
         });
@@ -2950,9 +2954,9 @@ export const ChronosPage: React.FC = () => {
         const realIds = new Set(deduped.map(e => e.id));
         const realTitles = new Set(deduped.map(e => (e.title || '').substring(0, 30).toLowerCase()));
         const uniqueGenerated = generatedEvents.filter(e => {
-          if (realIds.has(e.id)) return false;
+          if (realIds.has(e.id)) {return false;}
           const titleKey = (e.title || '').substring(0, 30).toLowerCase();
-          if (realTitles.has(titleKey)) return false;
+          if (realTitles.has(titleKey)) {return false;}
           return true;
         });
         const combined = [...deduped, ...uniqueGenerated];
@@ -3110,17 +3114,17 @@ export const ChronosPage: React.FC = () => {
           // Extract agent display name from various possible fields
           const getAgentDisplayName = (msg: any): string => {
             // Try agentCode first (e.g., "CTO", "CFO", "Strategic Oversight")
-            if (msg.agentCode && msg.agentCode !== 'Agent') return msg.agentCode;
+            if (msg.agentCode && msg.agentCode !== 'Agent') {return msg.agentCode;}
             // Try agents.code if nested
-            if (msg.agents?.code) return msg.agents.code;
+            if (msg.agents?.code) {return msg.agents.code;}
             // Try agents.name if nested
-            if (msg.agents?.name && msg.agents.name !== 'Agent') return msg.agents.name;
+            if (msg.agents?.name && msg.agents.name !== 'Agent') {return msg.agents.name;}
             // Try agentName
-            if (msg.agentName && msg.agentName !== 'Agent') return msg.agentName;
+            if (msg.agentName && msg.agentName !== 'Agent') {return msg.agentName;}
             // Try to extract from content if it starts with [RoleName]
             if (msg.content) {
               const roleMatch = msg.content.match(/^\[([^\]]+)\]/);
-              if (roleMatch) return roleMatch[1];
+              if (roleMatch) {return roleMatch[1];}
             }
             // Final fallback
             return msg.agent_id || 'Council Member';
@@ -4742,10 +4746,10 @@ const TimelineScrubber: React.FC<{
 
   // Handle jump to specific date/time
   const handleJumpToDateTime = () => {
-    if (!jumpDate) return;
+    if (!jumpDate) {return;}
     const [year, month, day] = jumpDate.split('-').map(Number);
     const [hours, minutes] = jumpTime.split(':').map(Number);
-    if (year === undefined || month === undefined || day === undefined) return;
+    if (year === undefined || month === undefined || day === undefined) {return;}
     const targetDate = new Date(year, month - 1, day, hours || 0, minutes || 0);
 
     // Clamp to valid range
@@ -5619,7 +5623,7 @@ const MetricsGrid: React.FC<{
     value: number
   ): { percent: number; isPositive: boolean } | null => {
     const benchmark = orgBenchmarks[key];
-    if (!benchmark) return null;
+    if (!benchmark) {return null;}
     const percent = ((value - benchmark) / benchmark) * 100;
     // For some metrics, lower is better (bugRate, techDebt, prTime, churn, cac, attrition, timeToHire, ar, cycle)
     const lowerIsBetter = [
@@ -5733,7 +5737,7 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
 }) => {
   // Helper to display zeros elegantly
   const displayValue = (value: number, suffix?: string) => {
-    if (value === 0) return <span className="text-neutral-500">—</span>;
+    if (value === 0) {return <span className="text-neutral-500">—</span>;}
     return suffix ? `${value}${suffix}` : value;
   };
 
@@ -5774,9 +5778,9 @@ const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }>
 }) => {
   // Format data points - show "—" if zero, otherwise format nicely
   const formatDataPoints = (value: number) => {
-    if (value === 0) return <span className="text-neutral-500">—</span>;
-    if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
-    if (value >= 1000) return `${(value / 1000).toFixed(1)}K`;
+    if (value === 0) {return <span className="text-neutral-500">—</span>;}
+    if (value >= 1000000) {return `${(value / 1000000).toFixed(1)}M`;}
+    if (value >= 1000) {return `${(value / 1000).toFixed(1)}K`;}
     return value.toLocaleString();
   };
 
@@ -5818,25 +5822,25 @@ const EventsList: React.FC<{
 
   // Filter events by category
   const filterEvents = (e: TimelineEvent) => {
-    if (filter === 'all') return true;
+    if (filter === 'all') {return true;}
     if (filter === 'compliance')
-      return (
+      {return (
         e.type === 'milestone' ||
         e.title.toLowerCase().includes('compliance') ||
         e.title.toLowerCase().includes('soc') ||
         e.title.toLowerCase().includes('gdpr')
-      );
-    if (filter === 'financial') return e.type === 'financial' || e.type === 'metric';
-    if (filter === 'operational') return e.type === 'system' || e.type === 'decision';
-    if (filter === 'people') return e.type === 'personnel';
+      );}
+    if (filter === 'financial') {return e.type === 'financial' || e.type === 'metric';}
+    if (filter === 'operational') {return e.type === 'system' || e.type === 'decision';}
+    if (filter === 'people') {return e.type === 'personnel';}
     if (filter === 'security')
-      return (
+      {return (
         e.title.toLowerCase().includes('security') ||
         e.title.toLowerCase().includes('breach') ||
         e.title.toLowerCase().includes('incident') ||
         e.title.toLowerCase().includes('threat') ||
         e.department === 'Security'
-      );
+      );}
     return true;
   };
 
@@ -7340,8 +7344,8 @@ const ImpactTraceView: React.FC<{
 
   // Helper to get confidence label
   const getConfidenceLabel = (value: number) => {
-    if (value >= 0.8) return { label: 'High', color: 'text-green-400' };
-    if (value >= 0.5) return { label: 'Medium', color: 'text-amber-400' };
+    if (value >= 0.8) {return { label: 'High', color: 'text-green-400' };}
+    if (value >= 0.5) {return { label: 'Medium', color: 'text-amber-400' };}
     return { label: 'Low', color: 'text-red-400' };
   };
 
@@ -7807,11 +7811,11 @@ const PivotalMomentsPanel: React.FC<{
     // Cap at 100 for display purposes
     const cappedValue = Math.min(significance, 100);
     if (cappedValue >= 90)
-      return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: '🔴' };
+      {return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: '🔴' };}
     if (cappedValue >= 70)
-      return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: '🟠' };
+      {return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: '🟠' };}
     if (cappedValue >= 50)
-      return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: '🟡' };
+      {return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: '🟡' };}
     return { label: 'Notable', color: 'bg-neutral-700 text-neutral-300', icon: '🔵' };
   };
 

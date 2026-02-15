@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CIVIC SIMULATION - Government Vertical
  * Hierarchical simulation of towns, districts, cities, and countries
@@ -69,7 +73,7 @@ const generateAgents = (level: CivicEntity['type']): AIAgent[] => {
   };
 
   const config = agentConfigs[level];
-  if (!config) return [];
+  if (!config) {return [];}
   return config.names.map((name, i): AIAgent => {
     const actions = [
       'Analyzing citizen feedback',
@@ -189,10 +193,10 @@ const SAMPLE_HIERARCHY: CivicEntity = {
 // =============================================================================
 
 const formatNumber = (num: number): string => {
-  if (num >= 1e12) return `$${(num / 1e12).toFixed(1)}T`;
-  if (num >= 1e9) return `$${(num / 1e9).toFixed(1)}B`;
-  if (num >= 1e6) return `${(num / 1e6).toFixed(1)}M`;
-  if (num >= 1e3) return `${(num / 1e3).toFixed(1)}K`;
+  if (num >= 1e12) {return `$${(num / 1e12).toFixed(1)}T`;}
+  if (num >= 1e9) {return `$${(num / 1e9).toFixed(1)}B`;}
+  if (num >= 1e6) {return `${(num / 1e6).toFixed(1)}M`;}
+  if (num >= 1e3) {return `${(num / 1e3).toFixed(1)}K`;}
   return num.toString();
 };
 

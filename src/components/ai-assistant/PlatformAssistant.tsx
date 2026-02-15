@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // PLATFORM AI ASSISTANT
 // Conversational guide that helps users navigate the platform and complete tasks
@@ -77,6 +81,7 @@ export function PlatformAssistant() {
         ],
       }]);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -84,7 +89,7 @@ export function PlatformAssistant() {
   }, [messages]);
 
   const handleSend = async () => {
-    if (!input.trim() || loading) return;
+    if (!input.trim() || loading) {return;}
 
     const userMessage: Message = {
       id: Date.now().toString(),

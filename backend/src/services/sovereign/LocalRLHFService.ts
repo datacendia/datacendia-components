@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA LOCAL RLHF™ - ZERO-CLOUD REINFORCEMENT LEARNING FROM HUMAN FEEDBACK
 // "Your AI learns your judgment locally. No data ever leaves."

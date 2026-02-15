@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - NARRATIVE GUIDE COMPONENT
 // Enterprise Platinum: Interactive storyboard/user journey guides
@@ -198,6 +202,7 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
       setIsPlaying(false);
     }
     return undefined;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPlaying, currentStep, narrative.steps.length, autoPlayDelay]);
 
   // Notify parent of step changes

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA — COUNCIL HISTORY BROWSER (ADVANCED)
 // =============================================================================
@@ -94,8 +98,8 @@ export const CouncilHistoryPage: React.FC = () => {
       return matchesSearch && matchesStatus;
     })
     .sort((a, b) => {
-      if (sortBy === 'date') return new Date(b.date).getTime() - new Date(a.date).getTime();
-      if (sortBy === 'consensus') return b.consensusScore - a.consensusScore;
+      if (sortBy === 'date') {return new Date(b.date).getTime() - new Date(a.date).getTime();}
+      if (sortBy === 'consensus') {return b.consensusScore - a.consensusScore;}
       return 0;
     });
 

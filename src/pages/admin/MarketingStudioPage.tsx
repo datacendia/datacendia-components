@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // MARKETING STUDIO PAGE
 // Full-fledged marketing content generation: videos, images, pitches, copy
@@ -113,7 +117,7 @@ export default function MarketingStudioPage() {
   const [marketingCopy, setMarketingCopy] = useState<MarketingCopy | null>(null);
 
   const generateVideoScript = async () => {
-    if (!videoTopic.trim()) return;
+    if (!videoTopic.trim()) {return;}
 
     setLoading(true);
     try {
@@ -131,7 +135,7 @@ export default function MarketingStudioPage() {
   };
 
   const generateImagePrompt = async () => {
-    if (!imagePurpose.trim()) return;
+    if (!imagePurpose.trim()) {return;}
 
     setLoading(true);
     try {
@@ -149,7 +153,7 @@ export default function MarketingStudioPage() {
   };
 
   const generatePitchDeck = async () => {
-    if (!pitchAudience.trim() || !pitchFocus.trim()) return;
+    if (!pitchAudience.trim() || !pitchFocus.trim()) {return;}
 
     setLoading(true);
     try {
@@ -166,7 +170,7 @@ export default function MarketingStudioPage() {
   };
 
   const generateMarketingCopy = async () => {
-    if (!copyTopic.trim()) return;
+    if (!copyTopic.trim()) {return;}
 
     setLoading(true);
     try {

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - FILE UPLOAD ROUTES
 // CSV/Excel upload API for enterprise data import
@@ -8,6 +12,7 @@ import multer from 'multer';
 import * as path from 'path';
 import * as fs from 'fs';
 import { spreadsheetConnector } from '../core/connectors/implementations/SpreadsheetConnector.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -64,10 +69,10 @@ router.get('/status', async (req: Request, res: Response) => {
       supportedFormats: ['.csv', '.xlsx', '.xls'],
       maxFileSizeMB: 100,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -101,10 +106,10 @@ router.post('/preview', upload.single('file'), async (req: Request, res: Respons
       filePath: file.path,
       preview,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -170,10 +175,10 @@ router.post('/import', upload.single('file'), async (req: Request, res: Response
       warnings: [...parseResult.warnings, ...importResult.warnings],
       duration: importResult.duration,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -191,10 +196,10 @@ router.get('/tables', async (req: Request, res: Response) => {
       success: true,
       tables,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -233,10 +238,10 @@ router.get('/tables/:tableName', async (req: Request, res: Response) => {
       limit,
       offset,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -263,10 +268,10 @@ router.post('/tables/:tableName/query', async (req: Request, res: Response) => {
       rows: queryResult.rows,
       total: queryResult.total,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA FEATURE FLAGS - Enterprise Platinum Standard
 // Feature toggles, A/B testing, and progressive rollout management
@@ -74,8 +78,8 @@ const API_BASE = '/admin';
 async function fetchFeatureFlags(filters?: { category?: string; enabled?: boolean }): Promise<FeatureFlag[]> {
   try {
     const params = new URLSearchParams();
-    if (filters?.category) params.set('category', filters.category);
-    if (filters?.enabled !== undefined) params.set('enabled', String(filters.enabled));
+    if (filters?.category) {params.set('category', filters.category);}
+    if (filters?.enabled !== undefined) {params.set('enabled', String(filters.enabled));}
     
     const res = await api.get<any>(`${API_BASE}/features?${params.toString()}`);
     return (res as any)?.features || (res as any)?.data?.features || getMockFlags();

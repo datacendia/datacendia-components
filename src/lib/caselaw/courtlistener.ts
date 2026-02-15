@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * COURTLISTENER API SERVICE
  * Alternative API for accessing CAP data via Free Law Project's CourtListener
@@ -262,12 +266,12 @@ class CourtListenerService {
       type: 'o', // opinions
     };
 
-    if (options?.court) params.court = options.court;
-    if (options?.filed_after) params.filed_after = options.filed_after;
-    if (options?.filed_before) params.filed_before = options.filed_before;
-    if (options?.cited_gt) params.cited_gt = options.cited_gt.toString();
-    if (options?.order_by) params.order_by = options.order_by;
-    if (options?.page) params.page = options.page.toString();
+    if (options?.court) {params.court = options.court;}
+    if (options?.filed_after) {params.filed_after = options.filed_after;}
+    if (options?.filed_before) {params.filed_before = options.filed_before;}
+    if (options?.cited_gt) {params.cited_gt = options.cited_gt.toString();}
+    if (options?.order_by) {params.order_by = options.order_by;}
+    if (options?.page) {params.page = options.page.toString();}
 
     return this.fetch<CourtListenerSearchResponse>('/search/', params);
   }

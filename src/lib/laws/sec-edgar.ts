@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * SEC EDGAR API INTEGRATION
  * Corporate filings, contracts, and disclosure documents
@@ -177,7 +181,7 @@ class SECEdgarService {
     const limit = options?.limit || 50;
 
     for (let i = 0; i < Math.min(recent.accessionNumber.length, limit); i++) {
-      if (options?.form && recent.form[i] !== options.form) continue;
+      if (options?.form && recent.form[i] !== options.form) {continue;}
 
       filings.push({
         accessionNumber: recent.accessionNumber[i],
@@ -195,7 +199,7 @@ class SECEdgarService {
         acceptanceDateTime: recent.acceptanceDateTime[i],
       });
 
-      if (filings.length >= limit) break;
+      if (filings.length >= limit) {break;}
     }
 
     return filings;

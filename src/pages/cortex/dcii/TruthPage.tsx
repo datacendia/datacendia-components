@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA — CendiaTruth™
 // =============================================================================
@@ -41,7 +45,7 @@ export const TruthPage: React.FC = () => {
   const [isVerifying, setIsVerifying] = useState(false);
 
   const handleVerify = async () => {
-    if (!claimInput.trim()) return;
+    if (!claimInput.trim()) {return;}
     setIsVerifying(true);
     try {
       await apiClient.api.post('/decision-intel/verify-claim', { claim: claimInput });

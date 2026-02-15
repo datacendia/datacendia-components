@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // WORKFLOW PICKER - Load Pre-Built Scenarios into Council
 // With Dynamic Variable Customization
@@ -317,7 +321,7 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
 
   // Load scenarios from backend
   useEffect(() => {
-    if (!isOpen) return;
+    if (!isOpen) {return;}
 
     const loadScenarios = async () => {
       setLoading(true);
@@ -378,7 +382,7 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
           scenario.category.toLowerCase().includes(query) ||
           scenario.councilQuestion.toLowerCase().includes(query) ||
           scenario.tags?.some((tag) => tag.toLowerCase().includes(query));
-        if (!matchesSearch) return false;
+        if (!matchesSearch) {return false;}
       }
 
       // Category filter
@@ -407,7 +411,7 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
     return groups;
   }, [filteredScenarios]);
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
@@ -793,7 +797,7 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                     <div className="grid gap-1">
                       {Object.entries(
                         AVAILABLE_AGENTS.reduce((acc, agent) => {
-                          if (!acc[agent.category]) acc[agent.category] = [];
+                          if (!acc[agent.category]) {acc[agent.category] = [];}
                           acc[agent.category].push(agent);
                           return acc;
                         }, {} as Record<string, typeof AVAILABLE_AGENTS>)

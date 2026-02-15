@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // POST-DELIBERATION PANEL - Game-changing post-decision workflow
 // Displays Statement of Facts and allows multiple action selection
@@ -175,11 +179,6 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
   const [expandedClaim, setExpandedClaim] = useState<string | null>(null);
   const [outputs, setOutputs] = useState<unknown[]>([]);
 
-  // Load session
-  useEffect(() => {
-    loadSession();
-  }, [deliberationId]);
-
   const loadSession = async () => {
     try {
       setLoading(true);
@@ -201,6 +200,12 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
       setLoading(false);
     }
   };
+
+  // Load session
+  useEffect(() => {
+    loadSession();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [deliberationId]);
 
   const toggleAction = (actionId: string) => {
     setSelectedActions((prev) => {

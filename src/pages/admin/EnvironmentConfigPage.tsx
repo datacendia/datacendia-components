@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // ENVIRONMENT CONFIGURATION PAGE
 // UI for editing .env file with validation and security
@@ -167,7 +171,7 @@ export default function EnvironmentConfigPage() {
   };
 
   const validateValue = (key: string, value: string, validation?: string): string | null => {
-    if (!validation) return null;
+    if (!validation) {return null;}
     
     switch (validation) {
       case 'url':
@@ -367,7 +371,7 @@ export default function EnvironmentConfigPage() {
       <div className="space-y-6">
         {categories.filter(c => c !== 'All' && (selectedCategory === 'All' || selectedCategory === c)).map((category) => {
           const categoryVars = ENV_SCHEMA.filter(s => s.category === category);
-          if (categoryVars.length === 0) return null;
+          if (categoryVars.length === 0) {return null;}
 
           return (
             <div key={category} className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6">

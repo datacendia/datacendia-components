@@ -252,4 +252,59 @@ router.get('/express/summary', async (req: Request, res: Response) => {
   }
 });
 
+// ===========================================================================
+// 10/10 ENHANCEMENTS — Advanced Threat Intelligence
+// ===========================================================================
+
+/**
+ * GET /aegis/correlate
+ * Signal Correlation Engine — find patterns across threat signals
+ */
+router.get('/correlate', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const result = await cendiaAegisService.correlateSignals(orgId);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+/**
+ * POST /aegis/playbook
+ * Generate NIST 800-61 IR Playbook for an incident type
+ */
+router.post('/playbook', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { incidentType } = req.body;
+    if (!incidentType) {
+      return res.status(400).json({ success: false, error: { message: 'incidentType is required' } });
+    }
+    const result = await cendiaAegisService.generateIRPlaybook(orgId, incidentType);
+    res.json({ success: true, data: result });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+/**
+ * POST /aegis/hunt
+ * Proactive Threat Hunting — hypothesis-driven queries against internal data
+ */
+router.post('/hunt', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { hypothesis, focusArea, lookbackDays } = req.body;
+    const result = await cendiaAegisService.runThreatHunt(orgId, {
+      hypothesis,
+      focusArea,
+      lookbackDays,
+    });
+    res.json({ success: true, data: result });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
 export default router;

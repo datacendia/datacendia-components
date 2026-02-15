@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// CASBIN POLICY ENGINE - Policy-as-Code for CendiaVetoâ„¢ & CendiaGovernanceâ„¢
+// CASBIN POLICY ENGINE - Policy-as-Code for CendiaVeto™ & CendiaGovernance™
 // =============================================================================
 // Enforces RBAC/ABAC policies for:
 // - Decision approvals and vetoes
@@ -10,6 +14,7 @@
 
 import { newEnforcer, Enforcer } from 'casbin';
 import path from 'path';
+import { getErrorMessage } from '../utils/errors.js';
 
 // Policy model definition (PERM: Policy, Effect, Request, Matchers)
 const MODEL_CONF = `
@@ -79,7 +84,7 @@ const ROLE_HIERARCHY = [
   ['council-member', 'viewer'],
 ];
 
-// Decision-specific policies for CendiaVetoâ„¢
+// Decision-specific policies for CendiaVeto™
 export interface DecisionPolicy {
   decisionType: string;
   requiredApprovers: number;
@@ -170,8 +175,8 @@ class PolicyEngine {
 
       this.isInitialized = true;
       console.log('[PolicyEngine] Initialized with', DEFAULT_POLICIES.length, 'policies');
-    } catch (error: any) {
-      console.error('[PolicyEngine] Initialization failed:', error.message);
+    } catch (error: unknown) {
+      console.error('[PolicyEngine] Initialization failed:', getErrorMessage(error));
       throw error;
     }
   }
@@ -191,8 +196,8 @@ class PolicyEngine {
       console.log(`[PolicyEngine] ${subject} ${action} ${object}: ${allowed ? 'ALLOW' : 'DENY'}`);
       
       return allowed;
-    } catch (error: any) {
-      console.error('[PolicyEngine] Enforcement error:', error.message);
+    } catch (error: unknown) {
+      console.error('[PolicyEngine] Enforcement error:', getErrorMessage(error));
       return false;
     }
   }
@@ -266,7 +271,7 @@ class PolicyEngine {
   }
 
   // ===========================================================================
-  // DECISION-SPECIFIC POLICIES (CendiaVetoâ„¢)
+  // DECISION-SPECIFIC POLICIES (CendiaVeto™)
   // ===========================================================================
 
   /**

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // VERTICALS DOMAIN ROUTER - Industry-Specific Verticals
 // =============================================================================
@@ -12,6 +16,7 @@ import sportsRoutes from '../sports.js';
 import industrialServicesRoutes from '../industrial-services.js';
 import verticalAgentsRoutes from '../vertical-agents.js';
 import verticalConfigRoutes from '../vertical-config.js';
+import verticalSentinelsRoutes from '../vertical-sentinels.js';
 
 const router = Router();
 
@@ -24,5 +29,6 @@ router.use('/sports', sportsRoutes);
 router.use('/industrial-services', industrialServicesRoutes);
 router.use('/vertical-agents', verticalAgentsRoutes);
 router.use('/vertical-config', verticalConfigRoutes);
+router.use('/vertical-sentinels', verticalSentinelsRoutes);
 
 export default router;

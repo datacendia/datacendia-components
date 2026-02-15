@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - DECISION DNA TIMELINE
 // Full lifecycle visualization for enterprise decisions
@@ -549,18 +553,19 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
 
   // Filter decisions based on selected filter
   const filteredDecisions = decisions.filter((d) => {
-    if (decisionFilter === 'all') return true;
+    if (decisionFilter === 'all') {return true;}
     if (decisionFilter === 'deciding')
-      return ['draft', 'analyzing', 'deliberating'].includes(d.status);
+      {return ['draft', 'analyzing', 'deliberating'].includes(d.status);}
     if (decisionFilter === 'decided')
-      return ['decided', 'implemented', 'closed'].includes(d.status);
-    if (decisionFilter === 'at-risk') return (d.riskScore || 0) >= 60;
+      {return ['decided', 'implemented', 'closed'].includes(d.status);}
+    if (decisionFilter === 'at-risk') {return (d.riskScore || 0) >= 60;}
     return true;
   });
 
   // Load decisions when user changes
   useEffect(() => {
     loadDecisions();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user?.organizationId]);
 
   const loadDecisions = async () => {
@@ -1646,7 +1651,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
                       const pmEvent = selectedDecision.timeline.find(
                         (e) => e.type === 'premortem_run'
                       );
-                      if (pmEvent) setExpandedEvent(pmEvent.id);
+                      if (pmEvent) {setExpandedEvent(pmEvent.id);}
                     }}
                     className="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-amber-500/50 hover:bg-slate-700/50 transition-all text-left group"
                     title="Click to view Pre-Mortem details in timeline"
@@ -1678,7 +1683,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
                       const csEvent = selectedDecision.timeline.find(
                         (e) => e.type === 'council_session'
                       );
-                      if (csEvent) setExpandedEvent(csEvent.id);
+                      if (csEvent) {setExpandedEvent(csEvent.id);}
                     }}
                     className="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-indigo-500/50 hover:bg-slate-700/50 transition-all text-left group"
                     title="Click to view Council Session details in timeline"
@@ -1700,7 +1705,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
                       const gbEvent = selectedDecision.timeline.find(
                         (e) => e.type === 'ghost_board'
                       );
-                      if (gbEvent) setExpandedEvent(gbEvent.id);
+                      if (gbEvent) {setExpandedEvent(gbEvent.id);}
                     }}
                     className="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-pink-500/50 hover:bg-slate-700/50 transition-all text-left group"
                     title="Click to view Ghost Board details in timeline"

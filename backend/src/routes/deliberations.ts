@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - DELIBERATIONS API ROUTES
 // Save, retrieve, and generate reports for Council deliberations
@@ -7,6 +11,7 @@ import { Router, Request, Response } from 'express';
 import { deliberationService } from '../services/DeliberationService.js';
 import { statementOfFactsService } from '../services/StatementOfFactsService.js';
 import { postDeliberationService } from '../services/PostDeliberationService.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -57,10 +62,10 @@ router.post('/', async (req: Request, res: Response) => {
       success: true,
       deliberation,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -91,10 +96,10 @@ router.get('/', async (req: Request, res: Response) => {
       count: deliberations.length,
       deliberations,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -118,10 +123,10 @@ router.get('/:id', async (req: Request, res: Response) => {
       success: true,
       deliberation,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -142,10 +147,10 @@ router.post('/:id/summary', async (req: Request, res: Response) => {
       success: true,
       summary,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('not found') ? 404 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('not found') ? 404 : 500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -166,10 +171,10 @@ router.post('/:id/minutes', async (req: Request, res: Response) => {
       success: true,
       minutes,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('not found') ? 404 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('not found') ? 404 : 500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -198,10 +203,10 @@ router.get('/:id/report', async (req: Request, res: Response) => {
 
     res.setHeader('Content-Type', 'text/html');
     res.send(html);
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -239,8 +244,8 @@ router.get('/:id/facts', async (req: Request, res: Response) => {
     }
 
     res.json({ success: true, statement });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -252,8 +257,8 @@ router.get('/:id/facts/claims', async (req: Request, res: Response) => {
   try {
     const claims = await statementOfFactsService.getClaims(req.params.id);
     res.json({ success: true, claims });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -276,8 +281,8 @@ router.patch('/:id/facts/claims/:claimId', async (req: Request, res: Response) =
     }
 
     res.json({ success: true, claim });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -299,8 +304,8 @@ router.post('/:id/facts/claims/:claimId/evidence', async (req: Request, res: Res
     }
 
     res.json({ success: true, claim });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -333,8 +338,8 @@ router.post('/post-deliberation/session', async (req: Request, res: Response) =>
     );
 
     res.json(session);
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -351,8 +356,8 @@ router.get('/post-deliberation/session/:sessionId', async (req: Request, res: Re
     }
 
     res.json(session);
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -376,8 +381,8 @@ router.post('/post-deliberation/select', async (req: Request, res: Response) => 
     );
 
     res.json(session);
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -404,8 +409,8 @@ router.post('/post-deliberation/toggle', async (req: Request, res: Response) => 
     );
 
     res.json(session);
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -428,8 +433,8 @@ router.post('/post-deliberation/execute', async (req: Request, res: Response) =>
 
     const session = await postDeliberationService.executeSelectedActions(sessionId);
     res.json(session);
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -441,19 +446,19 @@ router.get('/post-deliberation/actions', async (_req: Request, res: Response) =>
   try {
     // Return the available actions template (without session-specific status)
     const actions = [
-      { id: 'accept-execute', name: 'Accept & Execute', category: 'immediate', icon: '✅' },
-      { id: 'pre-mortem', name: 'Pre-Mortem Analysis', category: 'analyze', icon: '💀' },
-      { id: 'ghost-board', name: 'Ghost Board', category: 'analyze', icon: '🎭' },
-      { id: 'decision-dna', name: 'Decision DNA', category: 'analyze', icon: '🧬' },
-      { id: 'chronos-rewind', name: 'Rewind & Replay', category: 'iterate', icon: '⏪' },
-      { id: 'policy-mapping', name: 'Policy Mapping', category: 'govern', icon: '⚖️' },
-      { id: 'voice-briefing', name: 'Voice Briefing', category: 'communicate', icon: '🎙️' },
-      { id: 'pulse-monitor', name: 'Add to Pulse', category: 'monitor', icon: '💓' },
-      { id: 'autopilot-setup', name: 'Setup Autopilot', category: 'automate', icon: '🤖' },
+      { id: 'accept-execute', name: 'Accept & Execute', category: 'immediate', icon: '?' },
+      { id: 'pre-mortem', name: 'Pre-Mortem Analysis', category: 'analyze', icon: '??' },
+      { id: 'ghost-board', name: 'Ghost Board', category: 'analyze', icon: '??' },
+      { id: 'decision-dna', name: 'Decision DNA', category: 'analyze', icon: '??' },
+      { id: 'chronos-rewind', name: 'Rewind & Replay', category: 'iterate', icon: '?' },
+      { id: 'policy-mapping', name: 'Policy Mapping', category: 'govern', icon: '??' },
+      { id: 'voice-briefing', name: 'Voice Briefing', category: 'communicate', icon: '???' },
+      { id: 'pulse-monitor', name: 'Add to Pulse', category: 'monitor', icon: '??' },
+      { id: 'autopilot-setup', name: 'Setup Autopilot', category: 'automate', icon: '??' },
     ];
     res.json({ success: true, actions });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 

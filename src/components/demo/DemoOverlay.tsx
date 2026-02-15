@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * DEMO OVERLAY COMPONENT
@@ -52,7 +56,7 @@ export const DemoOverlay: React.FC = () => {
 
   // Auto-navigate when step changes
   useEffect(() => {
-    if (!isActive || !currentDemo) return;
+    if (!isActive || !currentDemo) {return;}
     const step = currentDemo.steps[currentStepIndex];
     if (step?.route) {
       router.navigate(step.route);
@@ -61,9 +65,9 @@ export const DemoOverlay: React.FC = () => {
 
   // Keyboard shortcuts
   useEffect(() => {
-    if (!isActive) return;
+    if (!isActive) {return;}
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {return;}
       switch (e.key) {
         case 'ArrowRight':
           e.preventDefault();
@@ -91,7 +95,7 @@ export const DemoOverlay: React.FC = () => {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isActive, isPlaying, nextStep, prevStep, play, pause, stopDemo, toggleScript]);
 
-  if (!isActive || !currentDemo || !showOverlay) return null;
+  if (!isActive || !currentDemo || !showOverlay) {return null;}
 
   const currentStep = getCurrentStep();
   const progress = getProgress();

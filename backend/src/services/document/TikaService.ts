@@ -1,13 +1,18 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // APACHE TIKA SERVICE - Universal Document Extraction
 // =============================================================================
 // Extracts text and metadata from any enterprise document format:
 // PDF, DOCX, PPTX, XLSX, MSG, EML, RTF, HTML, XML, and 1000+ more
-// Powers: CendiaGnosisâ„¢ Instant Ingest feature
+// Powers: CendiaGnosis™ Instant Ingest feature
 // =============================================================================
 
 import fetch from 'node-fetch';
 import FormData from 'form-data';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // Tika server configuration
 const TIKA_CONFIG = {
@@ -159,13 +164,13 @@ class TikaService {
         text: text.trim(),
         metadata,
       };
-    } catch (error: any) {
-      console.error('[Tika] Extraction error:', error.message);
+    } catch (error: unknown) {
+      console.error('[Tika] Extraction error:', getErrorMessage(error));
       return {
         success: false,
         text: '',
         metadata: { contentType: mimeType || 'unknown' },
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   }
@@ -209,13 +214,13 @@ class TikaService {
           wordCount: text.split(/\s+/).filter(w => w.length > 0).length,
         },
       };
-    } catch (error: any) {
-      console.error('[Tika] OCR extraction error:', error.message);
+    } catch (error: unknown) {
+      console.error('[Tika] OCR extraction error:', getErrorMessage(error));
       return {
         success: false,
         text: '',
         metadata: { contentType: mimeType || 'unknown' },
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   }

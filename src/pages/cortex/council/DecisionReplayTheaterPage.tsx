@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CendiaReplay™ PAGE
 // Watch past deliberations unfold like a movie
@@ -241,7 +245,7 @@ export const DecisionReplayTheaterPage: React.FC = () => {
 
   // Listen for replay frame updates
   useEffect(() => {
-    if (!socket) return;
+    if (!socket) {return;}
 
     const handleReplayFrame = (frame: ReplayFrame) => {
       setFrames(prev => [...prev, frame]);
@@ -258,7 +262,7 @@ export const DecisionReplayTheaterPage: React.FC = () => {
 
   // Playback logic
   useEffect(() => {
-    if (!isPlaying || !selectedSession) return;
+    if (!isPlaying || !selectedSession) {return;}
 
     const interval = setInterval(() => {
       setCurrentFrameIndex(prev => {

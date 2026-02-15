@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA AUDIT WORKFLOW™ - COMPLIANCE AUDIT MANAGEMENT
 // T-90 to Post-Audit lifecycle management with automated checklists
@@ -378,8 +382,8 @@ const formatDate = (date: Date) => {
 
 const getDaysUntil = (date: Date) => {
   const days = Math.ceil((date.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
-  if (days < 0) return `${Math.abs(days)}d overdue`;
-  if (days === 0) return 'Today';
+  if (days < 0) {return `${Math.abs(days)}d overdue`;}
+  if (days === 0) {return 'Today';}
   return `${days}d`;
 };
 

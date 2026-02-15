@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // STRATEGIC SERVICES API ROUTES
 // Investor-Aligned Capabilities - Enterprise Platinum Standard
@@ -12,6 +16,7 @@ import { cendiaIngestService } from '../services/strategic/CendiaIngestService.j
 import { warGamesService } from '../services/strategic/WarGamesService.js';
 import { unionService } from '../services/strategic/UnionService.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -40,9 +45,9 @@ router.post('/synthesis/initiate', async (req: Request, res: Response): Promise<
     });
 
     res.json({ success: true, synthesis });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Synthesis initiation failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -55,8 +60,8 @@ router.get('/synthesis/:synthesisId', async (req: Request, res: Response): Promi
       return;
     }
     res.json({ success: true, synthesis });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -66,8 +71,8 @@ router.post('/synthesis/:synthesisId/execute', async (req: Request, res: Respons
     const { approverUserId } = req.body;
     const execution = await synthesisEngineService.initiateExecution(synthesisId, approverUserId);
     res.json({ success: true, execution });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -76,8 +81,8 @@ router.get('/synthesis/history/:organizationId', async (req: Request, res: Respo
     const organizationId = req.params['organizationId'] as string;
     const history = await synthesisEngineService.getSynthesisHistory(organizationId);
     res.json({ success: true, history });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -86,8 +91,8 @@ router.get('/synthesis/metrics/:organizationId', async (req: Request, res: Respo
     const organizationId = req.params['organizationId'] as string;
     const metrics = await synthesisEngineService.getMetrics(organizationId);
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -118,9 +123,9 @@ router.post('/logicgate/execute', async (req: Request, res: Response): Promise<v
     );
 
     res.json({ success: true, execution: { ...execution, results: Object.fromEntries(execution.results) } });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('LogicGate execution failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -130,8 +135,8 @@ router.post('/logicgate/agents', async (req: Request, res: Response) => {
     
     const execution = await logicGateService.executeAgentsInParallel(organizationId, agentTasks, config);
     res.json({ success: true, execution: { ...execution, results: Object.fromEntries(execution.results) } });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -141,8 +146,8 @@ router.post('/logicgate/redteam-union', async (req: Request, res: Response) => {
     
     const result = await logicGateService.executeRedTeamAndUnion(organizationId, scenario, context || {});
     res.json({ success: true, result });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -150,8 +155,8 @@ router.get('/logicgate/metrics', async (_req: Request, res: Response) => {
   try {
     const metrics = logicGateService.getMetrics();
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -170,9 +175,9 @@ router.post('/rdp/package/build', async (req: Request, res: Response): Promise<v
 
     const pkg = await rdpService.buildPackage(organizationId, name, type || 'standard', options);
     res.json({ success: true, package: pkg });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('RDP package build failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -185,8 +190,8 @@ router.get('/rdp/package/:packageId', async (req: Request, res: Response): Promi
       return;
     }
     res.json({ success: true, package: pkg });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -196,8 +201,8 @@ router.post('/rdp/deploy/:packageId', async (req: Request, res: Response) => {
     const { targetEndpoint } = req.body;
     const instance = await rdpService.deploy(packageId, targetEndpoint);
     res.json({ success: true, instance });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -210,8 +215,8 @@ router.get('/rdp/instance/:instanceId', async (req: Request, res: Response): Pro
       return;
     }
     res.json({ success: true, instance });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -220,8 +225,8 @@ router.get('/rdp/instance/:instanceId/health', async (req: Request, res: Respons
     const instanceId = req.params['instanceId'] as string;
     const health = await rdpService.checkInstanceHealth(instanceId);
     res.json({ success: true, health });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -230,8 +235,8 @@ router.post('/rdp/export/:packageId', async (req: Request, res: Response) => {
     const packageId = req.params['packageId'] as string;
     const exportData = await rdpService.exportForAirGap(packageId);
     res.json({ success: true, export: exportData });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -239,8 +244,8 @@ router.get('/rdp/metrics', async (_req: Request, res: Response) => {
   try {
     const metrics = rdpService.getMetrics();
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -261,9 +266,9 @@ router.post('/graph/entity', async (req: Request, res: Response): Promise<void> 
       organizationId, type, name, properties || {}, sourceDocuments || [], confidence || 1.0
     );
     res.json({ success: true, entity });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Graph entity creation failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -280,8 +285,8 @@ router.post('/graph/relationship', async (req: Request, res: Response): Promise<
       organizationId, sourceEntityId, targetEntityId, type, properties || {}, weight || 1.0, confidence || 1.0
     );
     res.json({ success: true, relationship });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -290,8 +295,8 @@ router.post('/graph/query', async (req: Request, res: Response) => {
     const { organizationId, query } = req.body;
     const paths = await cendiaGraphService.queryGraph(organizationId, query);
     res.json({ success: true, paths });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -300,8 +305,8 @@ router.post('/graph/nl-query', async (req: Request, res: Response) => {
     const { organizationId, question } = req.body;
     const result = await cendiaGraphService.naturalLanguageQuery(organizationId, question);
     res.json({ success: true, result });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -310,8 +315,8 @@ router.get('/graph/risks/:organizationId', async (req: Request, res: Response) =
     const organizationId = req.params['organizationId'] as string;
     const risks = await cendiaGraphService.discoverHiddenRisks(organizationId);
     res.json({ success: true, risks });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -320,8 +325,8 @@ router.get('/graph/insights/:organizationId', async (req: Request, res: Response
     const organizationId = req.params['organizationId'] as string;
     const insights = await cendiaGraphService.generateInsights(organizationId);
     res.json({ success: true, insights });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -330,8 +335,8 @@ router.get('/graph/metrics/:organizationId', async (req: Request, res: Response)
     const organizationId = req.params['organizationId'] as string;
     const metrics = cendiaGraphService.getMetrics(organizationId);
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -350,9 +355,9 @@ router.post('/ingest/job', async (req: Request, res: Response): Promise<void> =>
 
     const job = await cendiaIngestService.createIngestJob(organizationId, userId, source);
     res.json({ success: true, job });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Ingest job creation failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -365,8 +370,8 @@ router.get('/ingest/job/:jobId', async (req: Request, res: Response): Promise<vo
       return;
     }
     res.json({ success: true, job });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -375,8 +380,8 @@ router.post('/ingest/search', async (req: Request, res: Response) => {
     const { organizationId, query, limit } = req.body;
     const results = await cendiaIngestService.semanticSearch(organizationId, query, limit || 10);
     res.json({ success: true, results });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -385,8 +390,8 @@ router.get('/ingest/history/:organizationId', async (req: Request, res: Response
     const organizationId = req.params['organizationId'] as string;
     const history = await cendiaIngestService.getJobHistory(organizationId);
     res.json({ success: true, history });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -395,8 +400,8 @@ router.get('/ingest/metrics/:organizationId', async (req: Request, res: Response
     const organizationId = req.params['organizationId'] as string;
     const metrics = await cendiaIngestService.getMetrics(organizationId);
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -408,8 +413,8 @@ router.get('/wargames/scenarios', async (_req: Request, res: Response) => {
   try {
     const scenarios = warGamesService.getAllScenarios();
     res.json({ success: true, scenarios });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -422,8 +427,8 @@ router.get('/wargames/scenario/:scenarioId', async (req: Request, res: Response)
       return;
     }
     res.json({ success: true, scenario });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -438,9 +443,9 @@ router.post('/wargames/simulation/start', async (req: Request, res: Response): P
 
     const simulation = await warGamesService.startSimulation(organizationId, operatorId, scenarioId);
     res.json({ success: true, simulation });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Simulation start failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -450,8 +455,8 @@ router.post('/wargames/simulation/:simulationId/advance', async (req: Request, r
     const { deltaSeconds } = req.body;
     const result = await warGamesService.advanceSimulation(simulationId, deltaSeconds || 60);
     res.json({ success: true, ...result });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -461,8 +466,8 @@ router.post('/wargames/simulation/:simulationId/decide', async (req: Request, re
     const { eventId, optionId, reasoning } = req.body;
     const decision = await warGamesService.submitDecision(simulationId, eventId, optionId, reasoning);
     res.json({ success: true, decision });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -471,8 +476,8 @@ router.post('/wargames/simulation/:simulationId/complete', async (req: Request, 
     const simulationId = req.params['simulationId'] as string;
     const score = await warGamesService.completeSimulation(simulationId);
     res.json({ success: true, score });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -485,8 +490,8 @@ router.get('/wargames/simulation/:simulationId', async (req: Request, res: Respo
       return;
     }
     res.json({ success: true, simulation });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -495,8 +500,8 @@ router.get('/wargames/certification/:operatorId', async (req: Request, res: Resp
     const operatorId = req.params['operatorId'] as string;
     const certification = warGamesService.getOperatorCertification(operatorId);
     res.json({ success: true, certification: certification || null });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -504,8 +509,8 @@ router.get('/wargames/metrics', async (_req: Request, res: Response) => {
   try {
     const metrics = warGamesService.getMetrics();
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -524,9 +529,9 @@ router.post('/union/assessment', async (req: Request, res: Response): Promise<vo
 
     const assessment = await unionService.ingestThreatAssessment(organizationId, source || 'user_report', threats);
     res.json({ success: true, assessment });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Threat assessment failed:', error);
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -536,8 +541,8 @@ router.post('/union/synthesize/:assessmentId', async (req: Request, res: Respons
     const { organizationId } = req.body;
     const strategy = await unionService.synthesizeDefenseStrategy(organizationId, assessmentId);
     res.json({ success: true, strategy });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -550,8 +555,8 @@ router.get('/union/strategy/:strategyId', async (req: Request, res: Response): P
       return;
     }
     res.json({ success: true, strategy });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -561,8 +566,8 @@ router.post('/union/strategy/:strategyId/approve', async (req: Request, res: Res
     const { approverId } = req.body;
     const strategy = await unionService.approveStrategy(strategyId, approverId);
     res.json({ success: true, strategy });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -571,8 +576,8 @@ router.post('/union/strategy/:strategyId/activate', async (req: Request, res: Re
     const strategyId = req.params['strategyId'] as string;
     const strategy = await unionService.activateStrategy(strategyId);
     res.json({ success: true, strategy });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -581,8 +586,8 @@ router.get('/union/posture/:organizationId', async (req: Request, res: Response)
     const organizationId = req.params['organizationId'] as string;
     const posture = unionService.getSecurityPosture(organizationId);
     res.json({ success: true, posture: posture || null });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -591,8 +596,8 @@ router.get('/union/metrics/:organizationId?', async (req: Request, res: Response
     const organizationId = req.params['organizationId'];
     const metrics = unionService.getMetrics(organizationId);
     res.json({ success: true, metrics });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 

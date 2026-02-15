@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // KEYCLOAK AUTHENTICATION SERVICE
 // Enterprise SSO with OIDC/SAML, MFA, Groups/Roles, Conditional Access
@@ -6,6 +10,7 @@
 import { Request, Response, NextFunction } from 'express';
 import Keycloak from 'keycloak-connect';
 import session from 'express-session';
+import { getErrorMessage } from '../utils/errors.js';
 
 // Keycloak configuration
 const KEYCLOAK_CONFIG = {
@@ -197,11 +202,11 @@ export function protect(role?: CendiaRole | CendiaRole[]) {
 
         next();
       });
-    } catch (error: any) {
-      console.error('[Keycloak] Auth error:', error.message);
+    } catch (error: unknown) {
+      console.error('[Keycloak] Auth error:', getErrorMessage(error));
       return res.status(401).json({
         success: false,
-        error: { code: 'AUTH_ERROR', message: error.message },
+        error: { code: 'AUTH_ERROR', message: getErrorMessage(error) },
       });
     }
   };
@@ -239,14 +244,14 @@ export function hasRole(req: AuthenticatedRequest, role: CendiaRole | CendiaRole
 }
 
 /**
- * Check if user can perform action (for CendiaVetoâ„¢ integration)
+ * Check if user can perform action (for CendiaVeto™ integration)
  */
 export function canVeto(req: AuthenticatedRequest): boolean {
   return hasRole(req, ['admin', 'veto-authority']);
 }
 
 /**
- * Check if user can access Council (for CendiaCouncilâ„¢ integration)
+ * Check if user can access Council (for CendiaCouncil™ integration)
  */
 export function canAccessCouncil(req: AuthenticatedRequest): boolean {
   return hasRole(req, ['admin', 'analyst', 'council-member']);

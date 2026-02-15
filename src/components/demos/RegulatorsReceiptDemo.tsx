@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * REGULATOR'S RECEIPT DEMO - ENHANCED VERSION
  * 
@@ -591,7 +595,7 @@ const ConsensusMeter: React.FC<{ value: number; label: string }> = ({ value, lab
 
 // Signing Animation Component
 const SigningAnimation: React.FC<{ isActive: boolean }> = ({ isActive }) => {
-  if (!isActive) return null;
+  if (!isActive) {return null;}
   
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden rounded-xl">
@@ -901,7 +905,7 @@ export const RegulatorsReceiptDemo: React.FC<{
   
   // Handle industry mode change
   const handleIndustryChange = useCallback((newMode: IndustryMode) => {
-    if (isRunning) return; // Don't allow change while running
+    if (isRunning) {return;} // Don't allow change while running
     const config = INDUSTRY_CONFIGS[newMode];
     setIndustryMode(newMode);
     setPhases(config.phases.map(p => ({ ...p, status: 'pending' as const })));
@@ -933,7 +937,7 @@ export const RegulatorsReceiptDemo: React.FC<{
   // Dynamic agent prompts based on industry and agent
   const getAgentPrompt = (agentId: string, phase: 'analysis' | 'debate' | 'vote') => {
     const agent = currentConfig.agents.find(a => a.id === agentId);
-    if (!agent) return '';
+    if (!agent) {return '';}
     
     const industryContext: Record<IndustryMode, string> = {
       pharma: 'clinical trial data for regulatory submission',
@@ -967,7 +971,7 @@ export const RegulatorsReceiptDemo: React.FC<{
 
   // Handle user submitting their input
   const handleUserSubmit = useCallback(async () => {
-    if (!userInput.trim() || !awaitingUserInput) return;
+    if (!userInput.trim() || !awaitingUserInput) {return;}
     
     const userStatement = userInput.trim();
     setUserInput('');
@@ -1009,6 +1013,7 @@ export const RegulatorsReceiptDemo: React.FC<{
     
     // Allow another interjection
     setUserCanInterject(true);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userInput, awaitingUserInput]);
 
   // Generate real LLM response for an agent
@@ -1210,18 +1215,19 @@ export const RegulatorsReceiptDemo: React.FC<{
 
     setIsGenerating(false);
     setCurrentGeneratingAgent(null);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ollamaConnected, generateAgentResponse, transcript]);
 
   // Timer effect
   useEffect(() => {
-    if (!isRunning) return;
+    if (!isRunning) {return;}
     const interval = setInterval(() => setElapsedTime(prev => prev + 1), 1000);
     return () => clearInterval(interval);
   }, [isRunning]);
 
   // Main simulation trigger
   useEffect(() => {
-    if (!isRunning || isGenerating) return;
+    if (!isRunning || isGenerating) {return;}
     
     // Start deliberation when play is pressed
     if (currentPhaseIndex === 0 && phases[0].status === 'pending') {
@@ -1304,6 +1310,7 @@ export const RegulatorsReceiptDemo: React.FC<{
       setShowReceipt(true);
       setIsRunning(false);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [agents, transcript, decisionPacket]);
 
   // Calculate consensus percentage based on phase

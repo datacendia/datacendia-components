@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // ADMIN CONTROL CENTER - Master Platform Configuration
 // Toggle services, agents, suites, visibility, and pricing from one place
@@ -412,7 +416,7 @@ export const ControlCenterPage: React.FC = () => {
   ) => {
     try {
       const feature = features.find((f) => f.id === featureId);
-      if (!feature) return;
+      if (!feature) {return;}
 
       const featureConfig: any = feature.config || {};
       const existingPermissions: Record<string, string[]> = featureConfig.permissions || {};

@@ -25,7 +25,7 @@ describe('Workflows', () => {
   });
 
   describe('GET /workflows', () => {
-    it(.skipIf(!apiAvailable)('should list all workflows', async () => {
+    it.skipIf(!apiAvailable)('should list all workflows', async () => {
       const response = await authFetch('/workflows', adminToken);
       expect(response.status).toBe(200);
       
@@ -34,7 +34,7 @@ describe('Workflows', () => {
       expect(Array.isArray(data.data)).toBe(true);
     });
 
-    it(.skipIf(!apiAvailable)('should support status filter', async () => {
+    it.skipIf(!apiAvailable)('should support status filter', async () => {
       const response = await authFetch('/workflows?status=ACTIVE', adminToken);
       expect(response.status).toBe(200);
       
@@ -44,14 +44,14 @@ describe('Workflows', () => {
       });
     });
 
-    it(.skipIf(!apiAvailable)('should support category filter', async () => {
+    it.skipIf(!apiAvailable)('should support category filter', async () => {
       const response = await authFetch('/workflows?category=Finance', adminToken);
       expect(response.status).toBe(200);
     });
   });
 
   describe('GET /workflows/:id', () => {
-    it(.skipIf(!apiAvailable)('should return specific workflow', async () => {
+    it.skipIf(!apiAvailable)('should return specific workflow', async () => {
       const listResponse = await authFetch('/workflows', adminToken);
       const workflows = (await listResponse.json()).data;
       
@@ -70,7 +70,7 @@ describe('Workflows', () => {
   });
 
   describe('POST /workflows', () => {
-    it(.skipIf(!apiAvailable)('should create new workflow', async () => {
+    it.skipIf(!apiAvailable)('should create new workflow', async () => {
       const response = await authFetch('/workflows', adminToken, {
         method: 'POST',
         body: JSON.stringify({
@@ -96,7 +96,7 @@ describe('Workflows', () => {
       expect(data.data.status).toBe('DRAFT');
     });
 
-    it(.skipIf(!apiAvailable)('should reject workflow without name', async () => {
+    it.skipIf(!apiAvailable)('should reject workflow without name', async () => {
       const response = await authFetch('/workflows', adminToken, {
         method: 'POST',
         body: JSON.stringify({
@@ -110,7 +110,7 @@ describe('Workflows', () => {
   });
 
   describe('PUT /workflows/:id', () => {
-    it(.skipIf(!apiAvailable)('should update workflow', async () => {
+    it.skipIf(!apiAvailable)('should update workflow', async () => {
       const listResponse = await authFetch('/workflows', adminToken);
       const workflows = (await listResponse.json()).data;
       
@@ -131,7 +131,7 @@ describe('Workflows', () => {
   });
 
   describe('Workflow Executions', () => {
-    it(.skipIf(!apiAvailable)('should list workflow executions', async () => {
+    it.skipIf(!apiAvailable)('should list workflow executions', async () => {
       const listResponse = await authFetch('/workflows', adminToken);
       const workflows = (await listResponse.json()).data;
       
@@ -146,7 +146,7 @@ describe('Workflows', () => {
       }
     });
 
-    it(.skipIf(!apiAvailable)('should support execution status filter', async () => {
+    it.skipIf(!apiAvailable)('should support execution status filter', async () => {
       const listResponse = await authFetch('/workflows', adminToken);
       const workflows = (await listResponse.json()).data;
       

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - COMMAND PALETTE (Cmd+K)
 // Global search and quick actions for power users
@@ -150,7 +154,7 @@ export function CommandPalette() {
         keywords: [lang.code, lang.name.toLowerCase(), lang.nativeName.toLowerCase()],
       })),
     ],
-    [navigate, languages, setLanguage]
+    [navigate, languages, setLanguage, t]
   );
 
   // Agent commands
@@ -202,7 +206,7 @@ export function CommandPalette() {
         keywords: ['marketing', 'market', 'growth'],
       },
     ],
-    [navigate]
+    [navigate, t]
   );
 
   // All commands

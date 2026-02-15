@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - POSTGRESQL CONNECTOR
 // Enterprise-grade PostgreSQL database connector
@@ -6,6 +10,7 @@
 import { Pool, PoolClient, QueryResult, QueryResultRow } from 'pg';
 import { BaseConnector, ConnectorConfig, SyncOptions, SyncResult, ConnectionStatus } from '../BaseConnector';
 import { ServiceHealth } from '../../services/BaseService';
+import { getErrorMessage } from '../../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -85,9 +90,9 @@ export class PostgreSQLConnector extends BaseConnector {
 
     // Handle pool errors
     this.pool.on('error', (err) => {
-      this.logger.error('Pool error', { error: err.message });
+      this.logger.error('Pool error', { error: getErrorMessage(err) });
       this.connectionStatus.connected = false;
-      this.connectionStatus.lastError = err.message;
+      this.connectionStatus.lastError = getErrorMessage(err);
     });
 
     // Test connection
@@ -119,9 +124,9 @@ export class PostgreSQLConnector extends BaseConnector {
       this.connectionStatus.latency = Date.now() - start;
       this.connectionStatus.version = result.rows[0]?.version;
       return true;
-    } catch (error: any) {
-      this.logger.error('Connection test failed', { error: error.message });
-      this.connectionStatus.lastError = error.message;
+    } catch (error: unknown) {
+      this.logger.error('Connection test failed', { error: getErrorMessage(error) });
+      this.connectionStatus.lastError = getErrorMessage(error);
       return false;
     }
   }
@@ -320,8 +325,8 @@ export class PostgreSQLConnector extends BaseConnector {
             columns: table.columns,
           });
           entitiesSynced++;
-        } catch (error: any) {
-          errors.push({ entity: table.name, error: error.message });
+        } catch (error: unknown) {
+          errors.push({ entity: table.name, error: getErrorMessage(error) });
         }
       }
 
@@ -331,11 +336,11 @@ export class PostgreSQLConnector extends BaseConnector {
         errors,
         duration: Date.now() - startTime,
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         success: false,
         entitiesSynced,
-        errors: [...errors, { entity: 'database', error: error.message }],
+        errors: [...errors, { entity: 'database', error: getErrorMessage(error) }],
         duration: Date.now() - startTime,
       };
     }
@@ -392,12 +397,12 @@ export class PostgreSQLConnector extends BaseConnector {
           database: this.pgConfig.database,
         },
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         status: 'unhealthy',
         lastCheck: new Date(),
         latency: Date.now() - startTime,
-        errors: [error.message],
+        errors: [getErrorMessage(error)],
       };
     }
   }

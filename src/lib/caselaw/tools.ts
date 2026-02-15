@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CASELAW TOOLS FOR COUNCIL AGENTS
  * These tools allow agents to search and retrieve case law during deliberation

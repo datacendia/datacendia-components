@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * FEDERAL REGISTER API INTEGRATION
  * Daily publication of federal rules, proposed rules, and notices
@@ -108,17 +112,17 @@ class FederalRegisterService {
       page: params.page || 1,
     };
 
-    if (params.term) queryParams['conditions[term]'] = params.term;
-    if (params.agencies) queryParams['conditions[agencies][]'] = params.agencies;
-    if (params.type) queryParams['conditions[type][]'] = params.type;
-    if (params.publication_date_gte) queryParams['conditions[publication_date][gte]'] = params.publication_date_gte;
-    if (params.publication_date_lte) queryParams['conditions[publication_date][lte]'] = params.publication_date_lte;
-    if (params.effective_date_gte) queryParams['conditions[effective_date][gte]'] = params.effective_date_gte;
-    if (params.effective_date_lte) queryParams['conditions[effective_date][lte]'] = params.effective_date_lte;
-    if (params.cfr_title) queryParams['conditions[cfr][title]'] = params.cfr_title;
-    if (params.cfr_part) queryParams['conditions[cfr][part]'] = params.cfr_part;
-    if (params.significant !== undefined) queryParams['conditions[significant]'] = params.significant ? '1' : '0';
-    if (params.order) queryParams.order = params.order;
+    if (params.term) {queryParams['conditions[term]'] = params.term;}
+    if (params.agencies) {queryParams['conditions[agencies][]'] = params.agencies;}
+    if (params.type) {queryParams['conditions[type][]'] = params.type;}
+    if (params.publication_date_gte) {queryParams['conditions[publication_date][gte]'] = params.publication_date_gte;}
+    if (params.publication_date_lte) {queryParams['conditions[publication_date][lte]'] = params.publication_date_lte;}
+    if (params.effective_date_gte) {queryParams['conditions[effective_date][gte]'] = params.effective_date_gte;}
+    if (params.effective_date_lte) {queryParams['conditions[effective_date][lte]'] = params.effective_date_lte;}
+    if (params.cfr_title) {queryParams['conditions[cfr][title]'] = params.cfr_title;}
+    if (params.cfr_part) {queryParams['conditions[cfr][part]'] = params.cfr_part;}
+    if (params.significant !== undefined) {queryParams['conditions[significant]'] = params.significant ? '1' : '0';}
+    if (params.order) {queryParams.order = params.order;}
 
     return this.fetch<FederalRegisterSearchResponse>('/documents.json', queryParams);
   }

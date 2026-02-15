@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // ENTERPRISE DOMAIN ROUTER - Enterprise Services
 // =============================================================================
@@ -14,6 +18,7 @@ import strategicRoutes from '../strategic.js';
 import connectorsRoutes from '../connectors.js';
 import carbonAwareRoutes from '../carbon-aware.js';
 import hrRoutes from '../hr.js';
+import enterpriseConnectorsRoutes from '../enterprise-connectors.js';
 import salaryRoutes from '../salary.js';
 
 const router = Router();
@@ -30,5 +35,6 @@ router.use('/connectors', connectorsRoutes);
 router.use('/carbon-aware', carbonAwareRoutes);
 router.use('/hr', hrRoutes);
 router.use('/salary', salaryRoutes);
+router.use('/enterprise-connectors', enterpriseConnectorsRoutes);
 
 export default router;

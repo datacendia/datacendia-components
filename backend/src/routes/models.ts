@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * DATACENDIA - MODEL MANAGEMENT API
@@ -20,6 +24,7 @@ import {
   type UserModelPreferences,
 } from '../config/models.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -49,12 +54,12 @@ router.get('/', async (req: Request, res: Response) => {
       totalCount: models.length,
       ollamaModels: ollamaData.models || [],
     });
-  } catch (error: any) {
-    logger.error(`Failed to fetch models: ${error.message}`);
+  } catch (error: unknown) {
+    logger.error(`Failed to fetch models: ${getErrorMessage(error)}`);
     res.status(500).json({
       success: false,
       error: 'Failed to fetch models',
-      details: error.message,
+      details: getErrorMessage(error),
     });
   }
 });
@@ -76,10 +81,10 @@ router.get('/agents', async (req: Request, res: Response) => {
       success: true,
       agents,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -133,10 +138,10 @@ router.get('/status', async (req: Request, res: Response) => {
       installedCount: installedModels.length,
       pullCommands: missingModels.map(m => `ollama pull ${m.id}`),
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -171,11 +176,11 @@ router.post('/pull', async (req: Request, res: Response) => {
       message: `Started pulling ${modelId}`,
       modelId,
     });
-  } catch (error: any) {
-    logger.error(`Failed to pull model: ${error.message}`);
+  } catch (error: unknown) {
+    logger.error(`Failed to pull model: ${getErrorMessage(error)}`);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -191,10 +196,10 @@ router.get('/preferences', async (req: Request, res: Response) => {
       success: true,
       preferences,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -221,10 +226,10 @@ router.put('/preferences', async (req: Request, res: Response) => {
       message: 'Preferences updated',
       preferences: getUserModelPreferences(),
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(400).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -269,10 +274,10 @@ router.post('/test', async (req: Request, res: Response) => {
       durationMs: duration,
       ollamaDurationMs: data.total_duration ? data.total_duration / 1000000 : null,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });

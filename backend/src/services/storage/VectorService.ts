@@ -1,11 +1,16 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// VECTOR SERVICE - pgvector for AI Memory (CendiaGnosisâ„¢ RAG)
+// VECTOR SERVICE - pgvector for AI Memory (CendiaGnosis™ RAG)
 // =============================================================================
 // Uses PostgreSQL's pgvector extension for semantic search.
 // Powers: Document retrieval, Decision memory, Agent long-term context
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // Embedding dimensions (match your embedding model)
 const EMBEDDING_DIMENSIONS = {
@@ -97,8 +102,8 @@ class VectorService {
 
       const data = await response.json() as { embedding: number[] };
       return data.embedding;
-    } catch (error: any) {
-      console.error('[Vector] Embedding generation error:', error.message);
+    } catch (error: unknown) {
+      console.error('[Vector] Embedding generation error:', getErrorMessage(error));
       throw error;
     }
   }

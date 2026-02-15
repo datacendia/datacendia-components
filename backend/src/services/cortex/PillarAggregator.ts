@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Pillar Aggregator - Routes queries to appropriate pillars and aggregates results
  * Uses dynamic Prisma access to handle tables that may or may not exist

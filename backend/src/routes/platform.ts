@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - PLATFORM API ROUTES
 // Health, metrics, and system information endpoints
@@ -19,6 +23,7 @@ import {
   getPlatformSummary,
 } from '../core/PlatformCatalog.js';
 import type { PlatformTier, PillarId } from '../core/PlatformCatalog.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -54,10 +59,10 @@ router.get('/health', async (req: Request, res: Response) => {
       uptime: process.uptime(),
       version: process.env.npm_package_version || '1.0.0',
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       status: 'unhealthy',
-      error: error.message,
+      error: getErrorMessage(error),
       timestamp: new Date().toISOString(),
     });
   }
@@ -92,10 +97,10 @@ router.get('/health/ready', async (req: Request, res: Response) => {
       timestamp: new Date().toISOString(),
       services: serviceHealth.healthyServices,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(503).json({
       status: 'not_ready',
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -121,8 +126,8 @@ router.get('/metrics', (req: Request, res: Response) => {
       services: serviceMetrics,
       events: eventStats,
     });
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -180,8 +185,8 @@ router.get('/metrics/prometheus', (req: Request, res: Response) => {
 
     res.set('Content-Type', 'text/plain');
     res.send(output);
-  } catch (error: any) {
-    res.status(500).json({ error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ error: getErrorMessage(error) });
   }
 });
 
@@ -285,12 +290,12 @@ router.get('/events/history', (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// PLATFORM CATALOG â€” 3-Tier Architecture Endpoints
+// PLATFORM CATALOG — 3-Tier Architecture Endpoints
 // =============================================================================
 
 /**
  * GET /api/v1/platform/catalog
- * Complete platform catalog â€” 3 tiers, 12 pillars, all services
+ * Complete platform catalog — 3 tiers, 12 pillars, all services
  */
 router.get('/catalog', (req: Request, res: Response) => {
   res.json(getPlatformSummary());

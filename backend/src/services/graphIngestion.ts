@@ -1,6 +1,11 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 import { Client } from 'pg';
 import { graph } from '../config/neo4j.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 interface PostgresConfig {
   host?: string;
@@ -374,11 +379,11 @@ export async function ingestPostgresDataSourceToGraph(options: IngestPostgresOpt
     logger.info(
       `[GraphIngestion] Completed Postgres schema ingestion for dataSource=${dataSourceId}, org=${organizationId}, tables=${tablesResult.rowCount}, fks=${fkResult.rowCount}`
     );
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('[GraphIngestion] Postgres ingestion failed', {
       dataSourceId,
       organizationId,
-      error: error?.message || String(error),
+      error: getErrorMessage(error) || String(error),
     });
     throw error;
   } finally {

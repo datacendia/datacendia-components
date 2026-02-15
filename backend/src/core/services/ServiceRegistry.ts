@@ -1,9 +1,14 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - SERVICE REGISTRY
 // Centralized service management with dependency injection
 // =============================================================================
 
 import { BaseService, ServiceHealth, ServiceMetrics, ServiceState } from './BaseService';
+import { getErrorMessage, ensureError } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -221,8 +226,8 @@ class ServiceRegistry {
         try {
           await registration.service.start();
           console.log(`[ServiceRegistry] Started: ${name}`);
-        } catch (error: any) {
-          console.error(`[ServiceRegistry] Failed to start ${name}:`, error.message);
+        } catch (error: unknown) {
+          console.error(`[ServiceRegistry] Failed to start ${name}:`, getErrorMessage(error));
           throw error;
         }
       }
@@ -256,9 +261,9 @@ class ServiceRegistry {
       try {
         console.log(`[ServiceRegistry] Stopping: ${name}`);
         await registration.service.stop();
-      } catch (error: any) {
-        console.error(`[ServiceRegistry] Error stopping ${name}:`, error.message);
-        errors.push({ name, error });
+      } catch (error: unknown) {
+        console.error(`[ServiceRegistry] Error stopping ${name}:`, getErrorMessage(error));
+        errors.push({ name, error: ensureError(error) });
       }
     }
 
@@ -300,11 +305,11 @@ class ServiceRegistry {
             unhealthyCount++;
             break;
         }
-      } catch (error: any) {
+      } catch (error: unknown) {
         services[name] = {
           status: 'unhealthy',
           lastCheck: new Date(),
-          errors: [error.message],
+          errors: [getErrorMessage(error)],
         };
         unhealthyCount++;
       }

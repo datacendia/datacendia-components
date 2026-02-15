@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * DEMO MODE CONTEXT
@@ -545,10 +549,10 @@ export const DemoModeProvider: React.FC<DemoModeProviderProps> = ({ children }) 
 
   // Auto-advance timer
   useEffect(() => {
-    if (!state.isPlaying || !state.currentDemo) return;
+    if (!state.isPlaying || !state.currentDemo) {return;}
 
     const currentStep = state.currentDemo.steps[state.currentStepIndex];
-    if (!currentStep || currentStep.waitForClick) return;
+    if (!currentStep || currentStep.waitForClick) {return;}
 
     const timer = setTimeout(() => {
       if (state.currentStepIndex < state.currentDemo!.steps.length - 1) {
@@ -563,7 +567,7 @@ export const DemoModeProvider: React.FC<DemoModeProviderProps> = ({ children }) 
 
   const startDemo = useCallback((demoId: DemoId) => {
     const demo = DEMOS.find(d => d.id === demoId);
-    if (!demo) return;
+    if (!demo) {return;}
 
     setState({
       isActive: true,
@@ -587,7 +591,7 @@ export const DemoModeProvider: React.FC<DemoModeProviderProps> = ({ children }) 
   }, []);
 
   const nextStep = useCallback(() => {
-    if (!state.currentDemo) return;
+    if (!state.currentDemo) {return;}
     if (state.currentStepIndex < state.currentDemo.steps.length - 1) {
       setState(prev => ({ ...prev, currentStepIndex: prev.currentStepIndex + 1 }));
     }
@@ -600,7 +604,7 @@ export const DemoModeProvider: React.FC<DemoModeProviderProps> = ({ children }) 
   }, [state.currentStepIndex]);
 
   const goToStep = useCallback((index: number) => {
-    if (!state.currentDemo) return;
+    if (!state.currentDemo) {return;}
     if (index >= 0 && index < state.currentDemo.steps.length) {
       setState(prev => ({ ...prev, currentStepIndex: index }));
     }
@@ -627,12 +631,12 @@ export const DemoModeProvider: React.FC<DemoModeProviderProps> = ({ children }) 
   }, []);
 
   const getCurrentStep = useCallback((): DemoStep | null => {
-    if (!state.currentDemo) return null;
+    if (!state.currentDemo) {return null;}
     return state.currentDemo.steps[state.currentStepIndex] || null;
   }, [state.currentDemo, state.currentStepIndex]);
 
   const getProgress = useCallback((): number => {
-    if (!state.currentDemo) return 0;
+    if (!state.currentDemo) {return 0;}
     return ((state.currentStepIndex + 1) / state.currentDemo.steps.length) * 100;
   }, [state.currentDemo, state.currentStepIndex]);
 

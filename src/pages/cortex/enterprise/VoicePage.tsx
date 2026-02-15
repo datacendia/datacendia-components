@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA VOICE™ - AI C-SUITE IN REAL-TIME CONVERSATION
 // Your AI Executives Speak in Real-Time Through Voice Agents

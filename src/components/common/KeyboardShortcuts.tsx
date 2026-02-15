@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Keyboard Shortcuts Component
  *
@@ -56,7 +60,7 @@ const KeyboardShortcutsModal: React.FC<{
   isOpen: boolean;
   onClose: () => void;
 }> = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   const categories = [...new Set(SHORTCUTS.map((s) => s.category))];
   const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
@@ -304,7 +308,7 @@ const QuickSearch: React.FC<{
     }
   }, [query]);
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   const typeIcons: Record<string, string> = {
     deliberation: '⚖️',

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * REAL-TIME POLICY ENFORCEMENT - Veto-Based Proactive Governance
  * Enterprise Platinum - Live rule monitoring and automatic holds
@@ -268,9 +272,9 @@ export const RealTimePolicyEnforcement: React.FC<{ className?: string }> = ({ cl
 
   // Generate random violations
   const generateViolation = useCallback(() => {
-    if (rules.length === 0) return;
+    if (rules.length === 0) {return;}
     const randomRule = rules[Math.floor(Math.random() * rules.length)];
-    if (!randomRule) return;
+    if (!randomRule) {return;}
     
     const decisionNames = [
       'Marketing Campaign Budget',

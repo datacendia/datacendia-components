@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - BRIDGE SUB-PAGES
 // =============================================================================
@@ -97,7 +101,7 @@ export const WorkflowsListPage: React.FC = () => {
             runs: { success: w.successCount || 0, failed: w.failedCount || 0 },
             lastRun: w.lastExecutedAt ? new Date(w.lastExecutedAt) : null,
           }));
-          if (mapped.length > 0) setWorkflows(mapped);
+          if (mapped.length > 0) {setWorkflows(mapped);}
         }
       } catch (err) {
         console.log('Using fallback workflows');
@@ -613,7 +617,7 @@ export const BridgeIntegrationsPage: React.FC = () => {
             status: (ds.status || 'pending').toLowerCase(),
             lastSync: ds.last_sync_at ? new Date(ds.last_sync_at) : null,
           }));
-          if (mapped.length > 0) setIntegrations(mapped);
+          if (mapped.length > 0) {setIntegrations(mapped);}
         }
       } catch (err) {
         console.log('Using fallback integrations');

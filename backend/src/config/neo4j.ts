@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 import neo4jDriver, { Driver, Session, QueryResult } from 'neo4j-driver';
 import { config } from './index.js';
 import { logger } from '../utils/logger.js';

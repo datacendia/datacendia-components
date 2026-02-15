@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaRegulatorySandbox™ Frontend Service
  * 
@@ -142,8 +146,8 @@ export const RegulatorySandboxService = {
     status?: RegulationStatus;
   }): Promise<ProposedRegulation[]> {
     const params = new URLSearchParams();
-    if (filters?.jurisdiction) params.append('jurisdiction', filters.jurisdiction);
-    if (filters?.status) params.append('status', filters.status);
+    if (filters?.jurisdiction) {params.append('jurisdiction', filters.jurisdiction);}
+    if (filters?.status) {params.append('status', filters.status);}
     
     const response = await api.get<any>(`/api/v1/regulatory-sandbox/regulations?${params.toString()}`);
     return response.data.data;

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * Auth Store - Zustand-based authentication state management
  *
@@ -241,7 +245,7 @@ export const useAuthStore = create<AuthState>()(
 
       refreshAuth: async () => {
         const { refreshToken } = get();
-        if (!refreshToken) return false;
+        if (!refreshToken) {return false;}
 
         try {
           const response = await authApi<{
@@ -283,10 +287,10 @@ export const useAuthStore = create<AuthState>()(
 
       checkPermission: (permission) => {
         const { user } = get();
-        if (!user) return false;
+        if (!user) {return false;}
 
         // Admins have all permissions
-        if (user.role === 'admin') return true;
+        if (user.role === 'admin') {return true;}
 
         // Check explicit permissions
         return user.permissions?.includes(permission) ?? false;

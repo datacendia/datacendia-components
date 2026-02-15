@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - THE COUNCIL PAGE (Real Ollama Integration)
 // =============================================================================
@@ -2291,14 +2295,14 @@ export const CouncilPage: React.FC = () => {
             {/* Show unlocked industry agents */}
             {allAgents
               .filter((a) => {
-                if (a.isCustom) return false;
-                if (!a.premium) return false;
-                if (a.premiumPackage?.includes('Audit')) return false;
+                if (a.isCustom) {return false;}
+                if (!a.premium) {return false;}
+                if (a.premiumPackage?.includes('Audit')) {return false;}
                 if (
                   a.premiumPackage?.includes('Healthcare') ||
                   a.premiumPackage?.includes('Clinical')
                 )
-                  return false;
+                  {return false;}
                 return premium.hasAgentAccess(a.id);
               })
               .map((agent) => (
@@ -3053,7 +3057,7 @@ export const CouncilPage: React.FC = () => {
             ) : (
               selectedAgents.map((id) => {
                 const agent = agents.find((a) => a.id === id);
-                if (!agent) return null;
+                if (!agent) {return null;}
                 return (
                   <div
                     key={id}
@@ -3308,7 +3312,7 @@ export const CouncilPage: React.FC = () => {
                           onClick={() => {
                             // Scroll to agent response
                             const el = document.getElementById(`agent-response-${result.id}-${ar.agentId}`);
-                            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            if (el) {el.scrollIntoView({ behavior: 'smooth', block: 'center' });}
                           }}
                           className={cn(
                             'flex items-center gap-1.5 px-2 py-1 rounded-lg text-xs transition-all cursor-pointer',
@@ -3406,9 +3410,9 @@ export const CouncilPage: React.FC = () => {
                                 {agentResp.isStreaming ? 'now' : 
                                   agentResp.timestamp ? (() => {
                                     const elapsed = Math.floor((Date.now() - agentResp.timestamp) / 1000);
-                                    if (elapsed < 5) return 'just now';
-                                    if (elapsed < 60) return `${elapsed}s ago`;
-                                    if (elapsed < 3600) return `${Math.floor(elapsed / 60)}m ago`;
+                                    if (elapsed < 5) {return 'just now';}
+                                    if (elapsed < 60) {return `${elapsed}s ago`;}
+                                    if (elapsed < 3600) {return `${Math.floor(elapsed / 60)}m ago`;}
                                     return new Date(agentResp.timestamp).toLocaleTimeString();
                                   })() : 'just now'}
                               </span>
@@ -3462,11 +3466,11 @@ export const CouncilPage: React.FC = () => {
                                         key={emoji}
                                         onClick={() => {
                                           setRecentDecisions(prev => prev.map(d => {
-                                            if (d.id !== result.id) return d;
+                                            if (d.id !== result.id) {return d;}
                                             return {
                                               ...d,
                                               agentResponses: d.agentResponses.map(ar => {
-                                                if (ar.agentId !== agentResp.agentId) return ar;
+                                                if (ar.agentId !== agentResp.agentId) {return ar;}
                                                 const reactions = { ...(ar.reactions || {}) };
                                                 reactions[emoji] = (reactions[emoji] || 0) + 1;
                                                 return { ...ar, reactions };
@@ -3510,8 +3514,8 @@ export const CouncilPage: React.FC = () => {
                               <span className="text-[10px] text-neutral-600">
                                 {(() => {
                                   const elapsed = Math.floor((Date.now() - msg.timestamp) / 1000);
-                                  if (elapsed < 5) return 'just now';
-                                  if (elapsed < 60) return `${elapsed}s ago`;
+                                  if (elapsed < 5) {return 'just now';}
+                                  if (elapsed < 60) {return `${elapsed}s ago`;}
                                   return `${Math.floor(elapsed / 60)}m ago`;
                                 })()}
                               </span>
@@ -3541,10 +3545,10 @@ export const CouncilPage: React.FC = () => {
                           e.preventDefault();
                           const input = e.currentTarget.querySelector('input') as HTMLInputElement;
                           const content = input?.value.trim();
-                          if (!content) return;
+                          if (!content) {return;}
                           
                           setRecentDecisions(prev => prev.map(d => {
-                            if (d.id !== result.id) return d;
+                            if (d.id !== result.id) {return d;}
                             return {
                               ...d,
                               userMessages: [

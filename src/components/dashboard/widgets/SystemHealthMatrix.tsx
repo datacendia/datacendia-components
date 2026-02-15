@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * SYSTEM HEALTH MATRIX - Technology Vertical
  * Status page style service health visualization
@@ -77,9 +81,9 @@ const StatusBar: React.FC<{ uptime: number }> = ({ uptime: _uptime }) => {
   // Generate 90 days of status bars (uptime used for seeding in production)
   const days = Array.from({ length: 90 }, () => {
     const rand = Math.random();
-    if (rand > 0.98) return 'major';
-    if (rand > 0.95) return 'partial';
-    if (rand > 0.92) return 'degraded';
+    if (rand > 0.98) {return 'major';}
+    if (rand > 0.95) {return 'partial';}
+    if (rand > 0.92) {return 'degraded';}
     return 'operational';
   });
 

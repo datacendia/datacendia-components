@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA — CendiaSimilarity™
 // =============================================================================
@@ -45,7 +49,7 @@ export const SimilarityPage: React.FC = () => {
   const [isSearching, setIsSearching] = useState(false);
 
   const handleSearch = async () => {
-    if (!query.trim()) return;
+    if (!query.trim()) {return;}
     setIsSearching(true);
     try {
       const res = await apiClient.api.post<any>('/decision-intel/similar', { query, limit: 10 });

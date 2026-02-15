@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * OFFLINE CASELAW SERVICE
  * Searches locally downloaded caselaw data from Harvard's Caselaw Access Project
@@ -95,7 +99,7 @@ class OfflineCaselawService {
    * Initialize the service by loading metadata
    */
   async initialize(): Promise<void> {
-    if (this.isInitialized) return;
+    if (this.isInitialized) {return;}
 
     try {
       // In browser context, we'd fetch from public folder
@@ -127,7 +131,7 @@ class OfflineCaselawService {
       return 0; // Already indexed
     }
 
-    let casesIndexed = 0;
+    const casesIndexed = 0;
 
     try {
       // This would need to be adapted based on how data is served
@@ -169,7 +173,7 @@ class OfflineCaselawService {
       // Filter by reporter if specified
       if (options?.reporters && options.reporters.length > 0) {
         const [reporter] = key.split('/');
-        if (!options.reporters.includes(reporter)) continue;
+        if (!options.reporters.includes(reporter)) {continue;}
       }
 
       // Filter by jurisdiction
@@ -178,8 +182,8 @@ class OfflineCaselawService {
       }
 
       // Filter by date
-      if (options?.dateMin && caseData.decision_date < options.dateMin) continue;
-      if (options?.dateMax && caseData.decision_date > options.dateMax) continue;
+      if (options?.dateMin && caseData.decision_date < options.dateMin) {continue;}
+      if (options?.dateMax && caseData.decision_date > options.dateMax) {continue;}
 
       // Calculate relevance score
       const { score, matchedTerms } = this.calculateRelevance(caseData, queryTerms);
@@ -280,8 +284,8 @@ class OfflineCaselawService {
 
     // Boost recent cases slightly
     const year = parseInt(caseData.decision_date.substring(0, 4));
-    if (year >= 2010) score *= 1.2;
-    if (year >= 2015) score *= 1.1;
+    if (year >= 2010) {score *= 1.2;}
+    if (year >= 2015) {score *= 1.1;}
 
     return { score, matchedTerms };
   }
@@ -290,7 +294,7 @@ class OfflineCaselawService {
    * Extract key holdings from case text
    */
   extractHoldings(caseData: OfflineCaseData): string[] {
-    if (!caseData.casebody?.data?.opinions) return [];
+    if (!caseData.casebody?.data?.opinions) {return [];}
 
     const holdings: string[] = [];
     const holdingPatterns = [

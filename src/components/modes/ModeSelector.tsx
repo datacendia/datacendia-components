@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // REUSABLE MODE SELECTOR COMPONENT
 // Provides consistent mode selection UI across all service pages
@@ -238,7 +242,7 @@ export const IndustrySelector: React.FC<IndustrySelectorProps> = ({
 
 // Industry insight component
 export const IndustryInsight: React.FC<{ insight: string }> = ({ insight }) => {
-  if (!insight) return null;
+  if (!insight) {return null;}
   
   return (
     <div className="flex items-start gap-2 p-2 bg-blue-500/10 border border-blue-500/20 rounded-lg text-sm">

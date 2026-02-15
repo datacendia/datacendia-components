@@ -1,11 +1,16 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// DRUID API ROUTES - Analytics Data for CendiaChronosâ„¢, CendiaWitnessâ„¢, CendiaPulseâ„¢
+// DRUID API ROUTES - Analytics Data for CendiaChronos™, CendiaWitness™, CendiaPulse™
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
 import { druidService, DRUID_DATASOURCES } from '../services/storage/DruidService';
 import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 // Input validation helpers
 const VALID_GRANULARITIES = ['minute', 'hour', 'day', 'week'] as const;
@@ -45,8 +50,8 @@ router.get('/health', async (_req: Request, res: Response) => {
       available,
       datasources: Object.values(DRUID_DATASOURCES),
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -102,8 +107,8 @@ router.get('/chronos/decisions', async (req: Request, res: Response) => {
       totalRows: result.totalRows,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -157,8 +162,8 @@ router.get('/chronos/timeline', async (req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -175,8 +180,8 @@ router.get('/chronos/risk-trend', async (req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -205,8 +210,8 @@ router.get('/chronos/departments', async (req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -237,8 +242,8 @@ router.get('/witness/audit', async (req: Request, res: Response) => {
       totalRows: result.totalRows,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -267,8 +272,8 @@ router.get('/witness/activity-summary', async (req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -296,8 +301,8 @@ router.get('/pulse/agents', async (req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -310,8 +315,8 @@ router.get('/pulse/system', async (_req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -351,8 +356,8 @@ router.get('/pulse/alerts', async (req: Request, res: Response) => {
       data: result.data,
       queryTime: result.queryTime,
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 
@@ -369,8 +374,8 @@ router.post('/seed', requireRole('ADMIN', 'OWNER'), async (req: Request, res: Re
       success: true,
       message: 'Druid seeding must be run via CLI: npx ts-node scripts/seed-druid.ts',
     });
-  } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
 

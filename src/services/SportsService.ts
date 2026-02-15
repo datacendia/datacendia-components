@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DATACENDIA PLATFORM - SPORTS VERTICAL
  * Frontend Service for Football/Soccer Decision Governance
@@ -323,9 +327,9 @@ export const SportsService = {
     options?: { type?: 'transfer' | 'contract'; status?: string; limit?: number }
   ) {
     const params = new URLSearchParams();
-    if (options?.type) params.append('type', options.type);
-    if (options?.status) params.append('status', options.status);
-    if (options?.limit) params.append('limit', options.limit.toString());
+    if (options?.type) {params.append('type', options.type);}
+    if (options?.status) {params.append('status', options.status);}
+    if (options?.limit) {params.append('limit', options.limit.toString());}
     
     const response = await api.get(`${BASE_URL}/organizations/${orgId}/decisions?${params.toString()}`);
     return response.data as { decisions: Array<TransferDecision | ContractDecision>; count: number };

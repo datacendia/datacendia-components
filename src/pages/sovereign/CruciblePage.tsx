@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaCrucible™ - Synthetic Multiverse Simulation Engine
  *
@@ -552,7 +556,7 @@ const EnhancedResultsPanel: React.FC<{
 }> = ({ simulation, onExport, onShare, onRerun }) => {
   // Calculate simulated metrics from results
   const results = simulation.results_summary;
-  if (!results) return null;
+  if (!results) {return null;}
 
   // Generate synthetic break points based on scenario type
   const breakPoints: SimulationBreakPoint[] = [

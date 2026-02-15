@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA VERTICAL CONFIGURATION PAGE
 // Industry vertical management with toggleable service access
@@ -228,7 +232,7 @@ export const VerticalConfigPage: React.FC = () => {
   // Toggle service
   const toggleService = useCallback((serviceId: string, enabled: boolean) => {
     const service = SERVICE_CATALOG.find(s => s.id === serviceId);
-    if (service?.isCore) return; // Can't toggle core services
+    if (service?.isCore) {return;} // Can't toggle core services
 
     setEnabledServices(prev => {
       const next = new Set(prev);
@@ -279,7 +283,7 @@ export const VerticalConfigPage: React.FC = () => {
 
   // Filter services
   const filteredServices = SERVICE_CATALOG.filter(s => {
-    if (selectedCategory !== 'all' && s.category !== selectedCategory) return false;
+    if (selectedCategory !== 'all' && s.category !== selectedCategory) {return false;}
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       return s.name.toLowerCase().includes(q) || s.description.toLowerCase().includes(q);

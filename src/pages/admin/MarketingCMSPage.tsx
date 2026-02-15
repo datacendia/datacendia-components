@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // MARKETING CMS PAGE - Owner-Only Marketing Website Management
 // Allows Stuart Rainey to update the marketing website from the Admin panel
@@ -107,7 +111,7 @@ export const MarketingCMSPage: React.FC = () => {
   };
 
   const handleSaveContent = async () => {
-    if (!selectedPage) return;
+    if (!selectedPage) {return;}
     
     // In real implementation, commit to GitHub
     console.log('Saving content for:', selectedPage.path);

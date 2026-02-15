@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // TECH TEAM PANEL
 // UI for monitoring and controlling the AI Tech Team
@@ -95,7 +99,7 @@ export const TechTeamPanel: React.FC = () => {
   // Handle requesting a fix with loading state
   const handleRequestFix = useCallback(
     async (errorId: string) => {
-      if (loadingFixes.has(errorId)) return; // Already loading
+      if (loadingFixes.has(errorId)) {return;} // Already loading
 
       setLoadingFixes((prev) => new Set(prev).add(errorId));
       setNotification('Generating fix...');

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA TRANSPORTATION / LOGISTICS VERTICAL
 // Fleet optimization, route intelligence, and supply chain decisions
@@ -261,7 +265,7 @@ const FleetMap: React.FC = () => {
   const mapInstanceRef = useRef<L.Map | null>(null);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
+    if (!mapRef.current || mapInstanceRef.current) {return;}
 
     // Initialize map centered on world view
     const map = L.map(mapRef.current, {

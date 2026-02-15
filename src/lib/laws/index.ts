@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * STATUTORY LAW INTEGRATION
  * 
@@ -91,7 +95,7 @@ class ECFRService {
     }
 
     const response = await fetch(`${ECFR_API_BASE}/versioner/v1/titles`);
-    if (!response.ok) throw new Error(`eCFR API error: ${response.status}`);
+    if (!response.ok) {throw new Error(`eCFR API error: ${response.status}`);}
     
     const data = await response.json();
     const titles = data.titles.map((t: { number: number; name: string; latest_amended_on: string }) => ({
@@ -111,7 +115,7 @@ class ECFRService {
     const response = await fetch(
       `${ECFR_API_BASE}/versioner/v1/structure/current/title-${titleNumber}.json`
     );
-    if (!response.ok) throw new Error(`eCFR API error: ${response.status}`);
+    if (!response.ok) {throw new Error(`eCFR API error: ${response.status}`);}
     return response.json();
   }
 
@@ -122,7 +126,7 @@ class ECFRService {
     const response = await fetch(
       `${ECFR_API_BASE}/renderer/v1/content/current/title-${titleNumber}/part-${part}/section-${section}`
     );
-    if (!response.ok) throw new Error(`eCFR API error: ${response.status}`);
+    if (!response.ok) {throw new Error(`eCFR API error: ${response.status}`);}
     return response.text();
   }
 
@@ -145,7 +149,7 @@ class ECFRService {
     }
 
     const response = await fetch(`${ECFR_API_BASE}/search/v1/results?${params}`);
-    if (!response.ok) throw new Error(`eCFR API error: ${response.status}`);
+    if (!response.ok) {throw new Error(`eCFR API error: ${response.status}`);}
     
     const data = await response.json();
     return {

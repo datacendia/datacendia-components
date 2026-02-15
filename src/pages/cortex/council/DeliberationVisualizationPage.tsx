@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // REAL-TIME DELIBERATION VISUALIZATION PAGE
 // Watch AI agents deliberate in real-time with animated avatars
@@ -140,7 +144,7 @@ const ConfidenceMeter: React.FC<{ value: number; label: string }> = ({ value, la
 );
 
 const SpeechBubble: React.FC<{ agent: AgentVisualization }> = ({ agent }) => {
-  if (!agent.currentStatement || agent.status !== 'speaking') return null;
+  if (!agent.currentStatement || agent.status !== 'speaking') {return null;}
 
   return (
     <div className="absolute left-1/2 -translate-x-1/2 -top-20 w-64 p-3 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 z-10">
@@ -240,7 +244,7 @@ export const DeliberationVisualizationPage: React.FC = () => {
 
   // Listen for real-time deliberation updates
   useEffect(() => {
-    if (!socket) return;
+    if (!socket) {return;}
 
     const handleDeliberationUpdate = (update: any) => {
       // Update agent status based on real-time data
@@ -271,7 +275,7 @@ export const DeliberationVisualizationPage: React.FC = () => {
 
   // Fallback simulation when not connected to real deliberation
   useEffect(() => {
-    if (!isPlaying || connected) return;
+    if (!isPlaying || connected) {return;}
 
     const interval = setInterval(() => {
       setAgents(prev => prev.map(agent => {

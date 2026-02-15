@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
- * CENDIA VERTICAL CONFIGURATION SERVICE™
+ * CENDIA VERTICAL CONFIGURATION SERVICE�
  * 
  * Industry vertical management with toggleable service access
  * Allows customization of service bundles per organization/vertical
@@ -7,6 +11,7 @@
 
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // TYPES
@@ -62,56 +67,56 @@ export interface ServiceToggle {
 
 export const SERVICE_CATALOG: ServiceDefinition[] = [
   // Core Services (Cannot be disabled)
-  { id: 'council', name: 'CendiaCouncil™', description: 'AI-powered multi-agent deliberation engine', category: 'core', icon: '🏛️', tier: 'foundation', isCore: true },
-  { id: 'ledger', name: 'CendiaLedger™', description: 'Immutable decision blockchain for audit trails', category: 'governance', icon: '📒', tier: 'foundation', isCore: true },
-  { id: 'evidence-vault', name: 'Evidence Vault', description: 'Global decision packet management', category: 'governance', icon: '🗄️', tier: 'foundation', isCore: true },
+  { id: 'council', name: 'CendiaCouncil�', description: 'AI-powered multi-agent deliberation engine', category: 'core', icon: '???', tier: 'foundation', isCore: true },
+  { id: 'ledger', name: 'CendiaLedger�', description: 'Immutable decision blockchain for audit trails', category: 'governance', icon: '??', tier: 'foundation', isCore: true },
+  { id: 'evidence-vault', name: 'Evidence Vault', description: 'Global decision packet management', category: 'governance', icon: '???', tier: 'foundation', isCore: true },
   
   // Intelligence Services
-  { id: 'chronos', name: 'CendiaChronos™', description: 'Decision timeline & pivotal moment detection', category: 'intelligence', icon: '⏳', tier: 'foundation', isCore: false },
-  { id: 'decision-dna', name: 'DecisionDNA', description: 'Full decision lifecycle visualization', category: 'intelligence', icon: '🧬', tier: 'foundation', isCore: false },
-  { id: 'ghost-board', name: 'Ghost Board', description: 'What-if scenario simulation', category: 'intelligence', icon: '👻', tier: 'foundation', isCore: false },
-  { id: 'pre-mortem', name: 'Pre-Mortem', description: 'Proactive risk analysis', category: 'intelligence', icon: '🔮', tier: 'foundation', isCore: false },
-  { id: 'cascade', name: 'CendiaCascade™', description: 'Decision consequence engineering', category: 'intelligence', icon: '🌊', tier: 'enterprise', isCore: false },
-  { id: 'horizon', name: 'CendiaHorizon™', description: 'Strategic forecasting & prediction', category: 'intelligence', icon: '🌅', tier: 'enterprise', isCore: false },
-  { id: 'genomics', name: 'CendiaGenomics™', description: 'Decision pattern DNA analysis', category: 'intelligence', icon: '🧬', tier: 'enterprise', isCore: false },
+  { id: 'chronos', name: 'CendiaChronos�', description: 'Decision timeline & pivotal moment detection', category: 'intelligence', icon: '?', tier: 'foundation', isCore: false },
+  { id: 'decision-dna', name: 'DecisionDNA', description: 'Full decision lifecycle visualization', category: 'intelligence', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'ghost-board', name: 'Ghost Board', description: 'What-if scenario simulation', category: 'intelligence', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'pre-mortem', name: 'Pre-Mortem', description: 'Proactive risk analysis', category: 'intelligence', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'cascade', name: 'CendiaCascade�', description: 'Decision consequence engineering', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'horizon', name: 'CendiaHorizon�', description: 'Strategic forecasting & prediction', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'genomics', name: 'CendiaGenomics�', description: 'Decision pattern DNA analysis', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
   
   // Governance Services
-  { id: 'govern', name: 'CendiaGovern™', description: 'Policy-as-code enforcement', category: 'governance', icon: '⚖️', tier: 'foundation', isCore: false },
-  { id: 'veto', name: 'CendiaVeto™', description: 'Human override capability', category: 'governance', icon: '🛑', tier: 'enterprise', isCore: false },
-  { id: 'dissent', name: 'CendiaDissent™', description: 'Protected whistleblower channels', category: 'governance', icon: '✊', tier: 'enterprise', isCore: false },
-  { id: 'regulatory-absorb', name: 'Regulatory Absorb', description: 'Compliance document ingestion', category: 'governance', icon: '📜', tier: 'foundation', isCore: false },
-  { id: 'audit-workflow', name: 'Audit Workflow', description: 'Compliance audit management', category: 'governance', icon: '📋', tier: 'foundation', isCore: false },
+  { id: 'govern', name: 'CendiaGovern�', description: 'Policy-as-code enforcement', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'veto', name: 'CendiaVeto�', description: 'Human override capability', category: 'governance', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'dissent', name: 'CendiaDissent�', description: 'Protected whistleblower channels', category: 'governance', icon: '?', tier: 'enterprise', isCore: false },
+  { id: 'regulatory-absorb', name: 'Regulatory Absorb', description: 'Compliance document ingestion', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'audit-workflow', name: 'Audit Workflow', description: 'Compliance audit management', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
   
   // Security Services
-  { id: 'defense-stack', name: 'CendiaDefenseStack™', description: 'Security posture management', category: 'security', icon: '🛡️', tier: 'enterprise', isCore: false },
-  { id: 'red-team', name: 'RedTeam', description: 'Adversarial AI testing', category: 'security', icon: '🎯', tier: 'enterprise', isCore: false },
-  { id: 'apotheosis', name: 'CendiaApotheosis™', description: 'Self-improving AI with safety rails', category: 'security', icon: '🦋', tier: 'enterprise', isCore: false },
-  { id: 'panopticon', name: 'CendiaPanopticon™', description: 'Real-time observability', category: 'security', icon: '👁️', tier: 'enterprise', isCore: false },
-  { id: 'crisis-management', name: 'Crisis Management', description: 'Incident response coordination', category: 'security', icon: '🚨', tier: 'enterprise', isCore: false },
+  { id: 'defense-stack', name: 'CendiaDefenseStack�', description: 'Security posture management', category: 'security', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'red-team', name: 'RedTeam', description: 'Adversarial AI testing', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'apotheosis', name: 'CendiaApotheosis�', description: 'Self-improving AI with safety rails', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'panopticon', name: 'CendiaPanopticon�', description: 'Real-time observability', category: 'security', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'crisis-management', name: 'Crisis Management', description: 'Incident response coordination', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
   
   // Analytics Services
-  { id: 'echo', name: 'CendiaEcho™', description: 'Decision outcome tracking', category: 'analytics', icon: '📡', tier: 'foundation', isCore: false },
-  { id: 'gnosis', name: 'CendiaGnosis™', description: 'Knowledge graph exploration', category: 'analytics', icon: '🔍', tier: 'foundation', isCore: false },
-  { id: 'voice', name: 'CendiaVoice™', description: 'Executive presentation layer', category: 'analytics', icon: '🎙️', tier: 'enterprise', isCore: false },
-  { id: 'persona-forge', name: 'CendiaPersonaForge™', description: 'Stakeholder simulation', category: 'analytics', icon: '🎭', tier: 'enterprise', isCore: false },
-  { id: 'omni-translate', name: 'CendiaOmniTranslate™', description: '100+ language translation', category: 'analytics', icon: '🌐', tier: 'enterprise', isCore: false },
+  { id: 'echo', name: 'CendiaEcho�', description: 'Decision outcome tracking', category: 'analytics', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'gnosis', name: 'CendiaGnosis�', description: 'Knowledge graph exploration', category: 'analytics', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'voice', name: 'CendiaVoice�', description: 'Executive presentation layer', category: 'analytics', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'persona-forge', name: 'CendiaPersonaForge�', description: 'Stakeholder simulation', category: 'analytics', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'omni-translate', name: 'CendiaOmniTranslate�', description: '100+ language translation', category: 'analytics', icon: '??', tier: 'enterprise', isCore: false },
   
   // Sovereign Services
-  { id: 'sovereign', name: 'CendiaSovereign™', description: 'On-premise air-gapped deployment', category: 'sovereign', icon: '🏰', tier: 'strategic', isCore: false },
-  { id: 'mesh', name: 'CendiaMesh™', description: 'Secure multi-site collaboration', category: 'sovereign', icon: '🕸️', tier: 'enterprise', isCore: false },
-  { id: 'data-diode', name: 'Data Diode', description: 'Unidirectional secure data ingest', category: 'sovereign', icon: '➡️', tier: 'strategic', isCore: false },
-  { id: 'local-rlhf', name: 'Local RLHF', description: 'Zero-cloud AI improvement', category: 'sovereign', icon: '🔄', tier: 'strategic', isCore: false },
-  { id: 'tpm-attestation', name: 'TPM Attestation', description: 'Hardware-signed decisions', category: 'sovereign', icon: '🔐', tier: 'strategic', isCore: false },
-  { id: 'time-lock', name: 'Time-Lock', description: 'Cryptographic decision embargo', category: 'sovereign', icon: '⏰', tier: 'strategic', isCore: false },
-  { id: 'federated-mesh', name: 'Federated Mesh', description: 'Multi-org learning without data sharing', category: 'sovereign', icon: '🌐', tier: 'strategic', isCore: false },
-  { id: 'qr-air-gap', name: 'QR Air-Gap Bridge', description: 'Animated QR for disconnected ops', category: 'sovereign', icon: '📱', tier: 'strategic', isCore: false },
-  { id: 'canary-tripwire', name: 'Canary Tripwire', description: 'Exfiltration detection', category: 'sovereign', icon: '🐤', tier: 'strategic', isCore: false },
-  { id: 'portable-instance', name: 'Portable Instance', description: 'USB-bootable deployment', category: 'sovereign', icon: '💾', tier: 'strategic', isCore: false },
+  { id: 'sovereign', name: 'CendiaSovereign�', description: 'On-premise air-gapped deployment', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'mesh', name: 'CendiaMesh�', description: 'Secure multi-site collaboration', category: 'sovereign', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'data-diode', name: 'Data Diode', description: 'Unidirectional secure data ingest', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'local-rlhf', name: 'Local RLHF', description: 'Zero-cloud AI improvement', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'tpm-attestation', name: 'TPM Attestation', description: 'Hardware-signed decisions', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'time-lock', name: 'Time-Lock', description: 'Cryptographic decision embargo', category: 'sovereign', icon: '?', tier: 'strategic', isCore: false },
+  { id: 'federated-mesh', name: 'Federated Mesh', description: 'Multi-org learning without data sharing', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'qr-air-gap', name: 'QR Air-Gap Bridge', description: 'Animated QR for disconnected ops', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'canary-tripwire', name: 'Canary Tripwire', description: 'Exfiltration detection', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'portable-instance', name: 'Portable Instance', description: 'USB-bootable deployment', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
   
   // Additional Enterprise Services
-  { id: 'autopilot', name: 'CendiaAutopilot™', description: 'Automated decision execution', category: 'intelligence', icon: '✈️', tier: 'enterprise', isCore: false },
-  { id: 'union', name: 'CendiaUnion™', description: 'Multi-agent defensive synthesis', category: 'intelligence', icon: '🤝', tier: 'enterprise', isCore: false },
-  { id: 'training', name: 'Training Center', description: 'User onboarding & certification', category: 'core', icon: '🎓', tier: 'foundation', isCore: false },
+  { id: 'autopilot', name: 'CendiaAutopilot�', description: 'Automated decision execution', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'union', name: 'CendiaUnion�', description: 'Multi-agent defensive synthesis', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'training', name: 'Training Center', description: 'User onboarding & certification', category: 'core', icon: '??', tier: 'foundation', isCore: false },
 ];
 
 // =============================================================================
@@ -123,7 +128,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'financial-services',
     name: 'Financial Services',
     description: 'Banks, Asset Managers, Insurance',
-    icon: '🏦',
+    icon: '??',
     color: '#10B981',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'govern', 'chronos', 'decision-dna', 'regulatory-absorb', 'audit-workflow', 'cascade', 'dissent', 'omni-translate'],
     recommendedServices: ['red-team', 'ghost-board', 'pre-mortem', 'echo', 'crisis-management'],
@@ -133,7 +138,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'healthcare',
     name: 'Healthcare / Life Sciences',
     description: 'Hospitals, Pharma, Biotech',
-    icon: '🏥',
+    icon: '??',
     color: '#EC4899',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'veto', 'dissent', 'regulatory-absorb', 'ghost-board', 'pre-mortem', 'mesh', 'omni-translate', 'apotheosis'],
     recommendedServices: ['chronos', 'decision-dna', 'crisis-management', 'audit-workflow'],
@@ -143,7 +148,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'manufacturing',
     name: 'Manufacturing / Supply Chain',
     description: 'Automotive, Aerospace, CPG',
-    icon: '🏭',
+    icon: '??',
     color: '#F59E0B',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'chronos', 'horizon', 'pre-mortem', 'mesh', 'data-diode', 'ghost-board', 'genomics', 'crisis-management'],
     recommendedServices: ['govern', 'audit-workflow', 'echo'],
@@ -153,7 +158,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'technology',
     name: 'Technology / SaaS',
     description: 'Software Companies, Cloud Providers',
-    icon: '💻',
+    icon: '??',
     color: '#8B5CF6',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'apotheosis', 'red-team', 'chronos', 'ghost-board', 'defense-stack', 'panopticon', 'autopilot', 'crisis-management'],
     recommendedServices: ['cascade', 'genomics', 'echo', 'gnosis'],
@@ -163,7 +168,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'energy',
     name: 'Energy / Utilities',
     description: 'Oil & Gas, Power, Renewables',
-    icon: '⚡',
+    icon: '?',
     color: '#EF4444',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'pre-mortem', 'data-diode', 'qr-air-gap', 'tpm-attestation', 'crisis-management', 'mesh'],
     recommendedServices: ['govern', 'audit-workflow', 'chronos'],
@@ -173,7 +178,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'government',
     name: 'Government / Public Sector',
     description: 'Federal, State, Defense',
-    icon: '🏛️',
+    icon: '???',
     color: '#3B82F6',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'sovereign', 'veto', 'dissent', 'portable-instance', 'federated-mesh', 'local-rlhf', 'time-lock', 'canary-tripwire', 'tpm-attestation'],
     recommendedServices: ['data-diode', 'qr-air-gap', 'govern', 'audit-workflow'],
@@ -183,7 +188,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'legal',
     name: 'Legal / Professional Services',
     description: 'Law Firms, Consulting',
-    icon: '⚖️',
+    icon: '??',
     color: '#6366F1',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'regulatory-absorb', 'omni-translate', 'voice', 'ghost-board', 'pre-mortem', 'persona-forge', 'decision-dna'],
     recommendedServices: ['chronos', 'govern', 'dissent'],
@@ -194,7 +199,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'retail',
     name: 'Retail / E-Commerce',
     description: 'Retailers, D2C Brands, Marketplaces',
-    icon: '🛒',
+    icon: '??',
     color: '#F97316',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'horizon', 'cascade', 'ghost-board', 'crisis-management', 'chronos', 'echo', 'persona-forge'],
     recommendedServices: ['omni-translate', 'autopilot', 'gnosis'],
@@ -204,7 +209,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'real-estate',
     name: 'Real Estate / PropTech',
     description: 'REITs, Property Management, Development',
-    icon: '🏠',
+    icon: '??',
     color: '#84CC16',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'ghost-board', 'decision-dna', 'chronos', 'govern'],
     recommendedServices: ['pre-mortem', 'echo', 'audit-workflow'],
@@ -214,7 +219,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'telecommunications',
     name: 'Telecommunications',
     description: 'Carriers, ISPs, Network Operators',
-    icon: '📡',
+    icon: '??',
     color: '#06B6D4',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'panopticon', 'cascade', 'mesh', 'crisis-management', 'horizon', 'defense-stack', 'chronos'],
     recommendedServices: ['data-diode', 'autopilot', 'echo'],
@@ -224,7 +229,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'hospitality',
     name: 'Hospitality / Travel',
     description: 'Hotels, Airlines, OTAs, Cruise Lines',
-    icon: '✈️',
+    icon: '??',
     color: '#0EA5E9',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'horizon', 'cascade', 'omni-translate', 'persona-forge', 'crisis-management', 'ghost-board', 'chronos'],
     recommendedServices: ['echo', 'voice', 'autopilot'],
@@ -234,7 +239,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'education',
     name: 'Education / EdTech',
     description: 'Universities, K-12, LMS Providers',
-    icon: '📚',
+    icon: '??',
     color: '#A855F7',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'training', 'veto', 'dissent', 'govern', 'decision-dna', 'chronos', 'gnosis'],
     recommendedServices: ['regulatory-absorb', 'omni-translate', 'echo'],
@@ -244,7 +249,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'media',
     name: 'Media / Entertainment',
     description: 'Studios, Streaming, Gaming, Publishing',
-    icon: '🎬',
+    icon: '??',
     color: '#EC4899',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'persona-forge', 'cascade', 'chronos', 'ghost-board', 'horizon', 'voice', 'echo'],
     recommendedServices: ['omni-translate', 'gnosis', 'crisis-management'],
@@ -254,7 +259,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'agriculture',
     name: 'Agriculture / AgTech',
     description: 'Farms, Food Supply Chain, AgTech',
-    icon: '🌾',
+    icon: '??',
     color: '#22C55E',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'horizon', 'data-diode', 'cascade', 'mesh', 'crisis-management', 'chronos', 'pre-mortem'],
     recommendedServices: ['govern', 'echo', 'panopticon'],
@@ -264,7 +269,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'logistics',
     name: 'Logistics / Transportation',
     description: 'Freight, 3PL, Shipping, Fleet',
-    icon: '🚚',
+    icon: '??',
     color: '#F59E0B',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'data-diode', 'crisis-management', 'mesh', 'chronos', 'panopticon'],
     recommendedServices: ['autopilot', 'echo', 'govern'],
@@ -274,7 +279,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'insurance',
     name: 'Insurance (Specialized)',
     description: 'P&C, Reinsurance, InsurTech',
-    icon: '🛡️',
+    icon: '???',
     color: '#14B8A6',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'regulatory-absorb', 'audit-workflow', 'ghost-board', 'pre-mortem', 'decision-dna'],
     recommendedServices: ['echo', 'chronos', 'persona-forge'],
@@ -284,7 +289,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'nonprofit',
     name: 'Non-Profit / NGO',
     description: 'Foundations, Aid Organizations, Charities',
-    icon: '🤝',
+    icon: '??',
     color: '#F472B6',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'veto', 'dissent', 'govern', 'decision-dna', 'chronos', 'omni-translate', 'audit-workflow'],
     recommendedServices: ['echo', 'pre-mortem', 'voice'],
@@ -295,7 +300,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'construction',
     name: 'Construction / Engineering',
     description: 'Contractors, AEC, Infrastructure',
-    icon: '🏗️',
+    icon: '???',
     color: '#78716C',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'pre-mortem', 'data-diode', 'crisis-management', 'mesh', 'chronos', 'horizon'],
     recommendedServices: ['govern', 'audit-workflow', 'echo'],
@@ -305,7 +310,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'mining',
     name: 'Mining / Resources',
     description: 'Mining, Forestry, Natural Resources',
-    icon: '⛏️',
+    icon: '??',
     color: '#A16207',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'sovereign', 'data-diode', 'tpm-attestation', 'crisis-management', 'cascade', 'mesh', 'qr-air-gap'],
     recommendedServices: ['horizon', 'pre-mortem', 'portable-instance'],
@@ -315,7 +320,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'aerospace',
     name: 'Aerospace / Defense',
     description: 'Defense Contractors, Space, Aviation',
-    icon: '🚀',
+    icon: '??',
     color: '#1E3A8A',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'sovereign', 'time-lock', 'tpm-attestation', 'federated-mesh', 'canary-tripwire', 'portable-instance', 'local-rlhf', 'veto', 'dissent'],
     recommendedServices: ['data-diode', 'qr-air-gap', 'crisis-management'],
@@ -325,7 +330,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'pharmaceuticals',
     name: 'Pharmaceuticals (Specialized)',
     description: 'Clinical Trials, Drug Development, R&D',
-    icon: '💊',
+    icon: '??',
     color: '#059669',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'regulatory-absorb', 'chronos', 'veto', 'dissent', 'audit-workflow', 'decision-dna', 'pre-mortem', 'ghost-board'],
     recommendedServices: ['mesh', 'omni-translate', 'echo'],
@@ -335,7 +340,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'automotive',
     name: 'Automotive (Specialized)',
     description: 'OEMs, Tier 1 Suppliers, EV Manufacturers',
-    icon: '🚗',
+    icon: '??',
     color: '#DC2626',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'data-diode', 'mesh', 'crisis-management', 'horizon', 'pre-mortem', 'chronos', 'genomics'],
     recommendedServices: ['govern', 'audit-workflow', 'panopticon'],
@@ -345,7 +350,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'sports',
     name: 'Sports / Entertainment',
     description: 'Leagues, Teams, Venues, Esports',
-    icon: '🏆',
+    icon: '??',
     color: '#7C3AED',
     defaultServices: ['council', 'ledger', 'evidence-vault', 'persona-forge', 'crisis-management', 'cascade', 'ghost-board', 'chronos', 'voice', 'echo'],
     recommendedServices: ['omni-translate', 'horizon', 'gnosis'],
@@ -355,7 +360,7 @@ export const VERTICAL_TEMPLATES: VerticalTemplate[] = [
     id: 'custom',
     name: 'Custom Configuration',
     description: 'Build your own service bundle',
-    icon: '⚙️',
+    icon: '??',
     color: '#6B7280',
     defaultServices: ['council', 'ledger', 'evidence-vault'],
     recommendedServices: [],
@@ -580,8 +585,8 @@ class VerticalConfigService extends EventEmitter {
       try {
         const toggle = await this.toggleService(organizationId, serviceId, enabled, userId);
         results.push(toggle);
-      } catch (error: any) {
-        logger.warn(`[VerticalConfig] Failed to toggle ${serviceId}: ${error.message}`);
+      } catch (error: unknown) {
+        logger.warn(`[VerticalConfig] Failed to toggle ${serviceId}: ${getErrorMessage(error)}`);
       }
     }
 

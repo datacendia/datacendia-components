@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CENDIA VERTICAL CONFIGURATION CONTEXT
  * 
@@ -105,7 +109,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
       if (config) {
         enabledSet = new Set([...coreServices, ...config.enabledServices]);
         config.disabledServices.forEach(s => {
-          if (!coreServices.includes(s)) enabledSet.delete(s);
+          if (!coreServices.includes(s)) {enabledSet.delete(s);}
         });
       } else {
         // Default to core services only if no config
@@ -157,7 +161,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
   const isServiceEnabled = useCallback((serviceId: string): boolean => {
     // Core services are always enabled
     const service = state.serviceCatalog.find(s => s.id === serviceId);
-    if (service?.isCore) return true;
+    if (service?.isCore) {return true;}
     
     return state.enabledServices.has(serviceId);
   }, [state.serviceCatalog, state.enabledServices]);
@@ -185,7 +189,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
       const coreServices = state.serviceCatalog.filter(s => s.isCore).map(s => s.id);
       const enabledSet = new Set([...coreServices, ...config.enabledServices]);
       config.disabledServices.forEach(s => {
-        if (!coreServices.includes(s)) enabledSet.delete(s);
+        if (!coreServices.includes(s)) {enabledSet.delete(s);}
       });
 
       setState(prev => ({
@@ -208,7 +212,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
   ): Promise<ServiceToggle | null> => {
     // Don't allow toggling core services
     const service = state.serviceCatalog.find(s => s.id === serviceId);
-    if (service?.isCore) return null;
+    if (service?.isCore) {return null;}
 
     try {
       const toggle = await verticalConfigApi.toggleService(serviceId, enabled, reason);
@@ -266,7 +270,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
   // ===========================================================================
 
   const getRecommendedServices = useCallback((): ServiceDefinition[] => {
-    if (!state.currentVertical) return [];
+    if (!state.currentVertical) {return [];}
     
     return state.serviceCatalog.filter(s => 
       state.currentVertical!.recommendedServices.includes(s.id) && 

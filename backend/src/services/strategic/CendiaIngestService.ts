@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// CENDIAINGESTâ„¢ - THE VECTORIZATION PIPELINE
+// CENDIAINGEST™ - THE VECTORIZATION PIPELINE
 // Document Processing & Knowledge Extraction
 // "The Onboarding Engine" - How data gets into the graph
 // =============================================================================
@@ -10,6 +14,7 @@ import ollama from '../ollama.js';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import cendiaGraphService, { EntityType, RelationshipType } from './CendiaGraphService.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 const prisma = new PrismaClient();
 
@@ -156,7 +161,7 @@ class CendiaIngestService {
     this.processJob(jobId).catch(err => {
       logger.error(`Ingest job ${jobId} failed:`, err);
       job.status = 'failed';
-      job.errors.push(err.message);
+      job.errors.push(getErrorMessage(err));
     });
 
     return job;
@@ -210,9 +215,9 @@ class CendiaIngestService {
         }
       });
 
-    } catch (error: any) {
+    } catch (error: unknown) {
       job.status = 'failed';
-      job.errors.push(error.message);
+      job.errors.push(getErrorMessage(error));
       logger.error(`Ingest job ${jobId} failed:`, error);
     }
   }

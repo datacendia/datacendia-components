@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - THE MANIFESTO HOMEPAGE
 // The page that closes $100M deals.
@@ -27,7 +31,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
     setIsSubmitted(true);
   };
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/95 backdrop-blur-sm">

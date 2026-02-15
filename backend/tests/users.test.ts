@@ -25,7 +25,7 @@ describe('User Management', () => {
   });
 
   describe('GET /users/me', () => {
-    it(.skipIf(!apiAvailable)('should return current user profile', async () => {
+    it.skipIf(!apiAvailable)('should return current user profile', async () => {
       const response = await authFetch('/users/me', adminToken);
       expect(response.status).toBe(200);
       
@@ -38,7 +38,7 @@ describe('User Management', () => {
   });
 
   describe('PUT /users/me', () => {
-    it(.skipIf(!apiAvailable)('should update current user profile', async () => {
+    it.skipIf(!apiAvailable)('should update current user profile', async () => {
       const response = await authFetch('/users/me', adminToken, {
         method: 'PUT',
         body: JSON.stringify({
@@ -52,7 +52,7 @@ describe('User Management', () => {
       expect(data.data.name).toBe('Updated Admin Name');
     });
 
-    it(.skipIf(!apiAvailable)('should reject empty name', async () => {
+    it.skipIf(!apiAvailable)('should reject empty name', async () => {
       const response = await authFetch('/users/me', adminToken, {
         method: 'PUT',
         body: JSON.stringify({ name: '' }),
@@ -63,7 +63,7 @@ describe('User Management', () => {
   });
 
   describe('GET /users', () => {
-    it(.skipIf(!apiAvailable)('should list organization users (admin only)', async () => {
+    it.skipIf(!apiAvailable)('should list organization users (admin only)', async () => {
       const response = await authFetch('/users', adminToken);
       expect(response.status).toBe(200);
       
@@ -73,7 +73,7 @@ describe('User Management', () => {
       expect(data.data.length).toBeGreaterThan(0);
     });
 
-    it(.skipIf(!apiAvailable)('should support pagination', async () => {
+    it.skipIf(!apiAvailable)('should support pagination', async () => {
       const response = await authFetch('/users?page=1&limit=10', adminToken);
       expect(response.status).toBe(200);
       
@@ -84,7 +84,7 @@ describe('User Management', () => {
   });
 
   describe('GET /users/:id', () => {
-    it(.skipIf(!apiAvailable)('should return specific user by ID', async () => {
+    it.skipIf(!apiAvailable)('should return specific user by ID', async () => {
       // First get user list
       const listResponse = await authFetch('/users', adminToken);
       const users = (await listResponse.json()).data;
@@ -97,19 +97,19 @@ describe('User Management', () => {
       }
     });
 
-    it(.skipIf(!apiAvailable)('should return 404 for non-existent user', async () => {
+    it.skipIf(!apiAvailable)('should return 404 for non-existent user', async () => {
       const response = await authFetch('/users/non-existent-id', adminToken);
       expect(response.status).toBe(404);
     });
   });
 
   describe('Role-Based Access Control', () => {
-    it(.skipIf(!apiAvailable)('should allow admin to access user list', async () => {
+    it.skipIf(!apiAvailable)('should allow admin to access user list', async () => {
       const response = await authFetch('/users', adminToken);
       expect(response.status).toBe(200);
     });
 
-    it(.skipIf(!apiAvailable)('should return proper role in user data', async () => {
+    it.skipIf(!apiAvailable)('should return proper role in user data', async () => {
       const response = await authFetch('/users/me', adminToken);
       const data = await response.json();
       expect(['SUPER_ADMIN', 'ADMIN', 'ANALYST', 'VIEWER']).toContain(data.data.role);

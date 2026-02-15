@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA USAGE ANALYTICS - Enterprise Platinum Standard
 // Platform-wide usage metrics, API analytics, and resource consumption
@@ -297,9 +301,9 @@ export const UsageAnalyticsPage: React.FC = () => {
   }, [loadData]);
 
   const formatNumber = (num: number): string => {
-    if (num >= 1000000000) return `${(num / 1000000000).toFixed(1)}B`;
-    if (num >= 1000000) return `${(num / 1000000).toFixed(1)}M`;
-    if (num >= 1000) return `${(num / 1000).toFixed(1)}K`;
+    if (num >= 1000000000) {return `${(num / 1000000000).toFixed(1)}B`;}
+    if (num >= 1000000) {return `${(num / 1000000).toFixed(1)}M`;}
+    if (num >= 1000) {return `${(num / 1000).toFixed(1)}K`;}
     return num.toString();
   };
 

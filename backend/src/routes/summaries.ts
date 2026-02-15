@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * DATACENDIA - EXECUTIVE SUMMARY & MINUTES API
@@ -9,6 +13,7 @@ import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 import { executiveSummaryService, type SummaryType } from '../services/ExecutiveSummaryService.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -50,11 +55,11 @@ router.post('/generate', async (req: Request, res: Response) => {
       success: true,
       summary,
     });
-  } catch (error: any) {
-    logger.error(`Failed to generate summary: ${error.message}`);
+  } catch (error: unknown) {
+    logger.error(`Failed to generate summary: ${getErrorMessage(error)}`);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -73,11 +78,11 @@ router.post('/minutes', async (req: Request, res: Response) => {
       success: true,
       minutes,
     });
-  } catch (error: any) {
-    logger.error(`Failed to generate minutes: ${error.message}`);
+  } catch (error: unknown) {
+    logger.error(`Failed to generate minutes: ${getErrorMessage(error)}`);
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -116,10 +121,10 @@ router.get('/', async (req: Request, res: Response) => {
       summaries,
       count: summaries.length,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -145,10 +150,10 @@ router.get('/:id', async (req: Request, res: Response) => {
       success: true,
       summary,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -183,10 +188,10 @@ router.get('/:id/export', async (req: Request, res: Response) => {
         summary,
       });
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });

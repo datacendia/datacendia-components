@@ -1,9 +1,13 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA - SEO COMPONENT
 // Dynamic page titles, meta tags, Open Graph, and structured data
 // =============================================================================
 
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 
 // =============================================================================
@@ -165,7 +169,7 @@ export function SEO({
 
   const finalTitle = title || pageConfig.title;
   const finalDescription = description || pageConfig.description;
-  const finalKeywords = [...pageConfig.keywords, ...keywords];
+  const finalKeywords = useMemo(() => [...pageConfig.keywords, ...keywords], [pageConfig.keywords, keywords]);
   const canonicalUrl = `${SITE_URL}${pathname}`;
 
   useEffect(() => {
@@ -250,6 +254,7 @@ export function SEO({
     return () => {
       // Reset to default on page change (optional)
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     finalTitle,
     finalDescription,

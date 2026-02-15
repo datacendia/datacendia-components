@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // OPENTELEMETRY TRACING - Distributed Tracing for Full Observability
 // =============================================================================
@@ -9,6 +13,7 @@ import { NodeSDK } from '@opentelemetry/sdk-node';
 import { getNodeAutoInstrumentations } from '@opentelemetry/auto-instrumentations-node';
 import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-http';
 import { SpanStatusCode, trace, SpanKind } from '@opentelemetry/api';
+import { getErrorMessage, ensureError } from '../utils/errors.js';
 
 // Tracing configuration
 const TRACING_CONFIG = {
@@ -56,8 +61,8 @@ export function initTracing(): void {
         .then(() => console.log('[Tracing] Shutdown complete'))
         .catch((err) => console.error('[Tracing] Shutdown error:', err));
     });
-  } catch (error: any) {
-    console.error('[Tracing] Initialization failed:', error.message);
+  } catch (error: unknown) {
+    console.error('[Tracing] Initialization failed:', getErrorMessage(error));
   }
 }
 
@@ -89,9 +94,9 @@ export async function withSpan<T>(
       const result = await operation();
       span.setStatus({ code: SpanStatusCode.OK });
       return result;
-    } catch (error: any) {
-      span.setStatus({ code: SpanStatusCode.ERROR, message: error.message });
-      span.recordException(error);
+    } catch (error: unknown) {
+      span.setStatus({ code: SpanStatusCode.ERROR, message: getErrorMessage(error) });
+      span.recordException(ensureError(error));
       throw error;
     } finally {
       span.end();

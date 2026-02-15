@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA DISSENT™ — FRONTEND SERVICE
 // The Right to Formally, Safely, Immutably Disagree
@@ -179,7 +183,7 @@ class DissentService {
    */
   async fileDissent(data: FileDissentRequest): Promise<Dissent> {
     const response = await api.post<Dissent>(this.baseUrl, data);
-    if (!response.data) throw new Error('Failed to file dissent');
+    if (!response.data) {throw new Error('Failed to file dissent');}
     return response.data;
   }
 
@@ -196,10 +200,10 @@ class DissentService {
   ): Promise<Dissent[]> {
     try {
       const params = new URLSearchParams();
-      if (options.status) params.append('status', options.status);
-      if (options.userId) params.append('userId', options.userId);
-      if (options.decisionId) params.append('decisionId', options.decisionId);
-      if (options.limit) params.append('limit', options.limit.toString());
+      if (options.status) {params.append('status', options.status);}
+      if (options.userId) {params.append('userId', options.userId);}
+      if (options.decisionId) {params.append('decisionId', options.decisionId);}
+      if (options.limit) {params.append('limit', options.limit.toString());}
 
       const response = await api.get<Dissent[]>(`${this.baseUrl}?${params.toString()}`);
       return response.data ?? this.getMockDissents();
@@ -240,7 +244,7 @@ class DissentService {
    */
   async respondToDissent(id: string, data: RespondToDissentRequest): Promise<Dissent> {
     const response = await api.post<Dissent>(`${this.baseUrl}/${id}/respond`, data);
-    if (!response.data) throw new Error('Failed to respond to dissent');
+    if (!response.data) {throw new Error('Failed to respond to dissent');}
     return response.data;
   }
 
@@ -300,7 +304,7 @@ class DissentService {
         description,
       }
     );
-    if (!response.data) throw new Error('Failed to report retaliation');
+    if (!response.data) {throw new Error('Failed to report retaliation');}
     return response.data;
   }
 
@@ -312,7 +316,7 @@ class DissentService {
       wasRight,
       notes,
     });
-    if (!response.data) throw new Error('Failed to record outcome');
+    if (!response.data) {throw new Error('Failed to record outcome');}
     return response.data;
   }
 

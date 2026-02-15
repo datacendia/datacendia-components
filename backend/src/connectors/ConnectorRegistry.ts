@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * =============================================================================
  * CONNECTOR REGISTRY - Central Management of All Data Connectors
@@ -6,6 +10,7 @@
 
 import { BaseConnector, ConnectorMetadata, ConnectorConfig } from './BaseConnector.js';
 import { logger } from '../utils/logger.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 export class ConnectorRegistry {
   private static instance: ConnectorRegistry;
@@ -49,8 +54,8 @@ export class ConnectorRegistry {
       try {
         const success = await connector.testConnection();
         results.push({ id: connector.getId(), name: connector.getName(), success });
-      } catch (error: any) {
-        results.push({ id: connector.getId(), name: connector.getName(), success: false, error: error.message });
+      } catch (error: unknown) {
+        results.push({ id: connector.getId(), name: connector.getName(), success: false, error: getErrorMessage(error) });
       }
     }
     return results;

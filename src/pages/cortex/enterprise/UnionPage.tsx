@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA UNION™ — EMPLOYEE RIGHTS & ADVOCACY MODULE
 // First AI product marketed as union-grade protection

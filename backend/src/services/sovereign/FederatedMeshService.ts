@@ -1,5 +1,9 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
-// CENDIA FEDERATED MESHâ„¢ - OFFLINE DELTA EXCHANGE FOR FEDERATED COLLABORATION
+// CENDIA FEDERATED MESH™ - OFFLINE DELTA EXCHANGE FOR FEDERATED COLLABORATION
 // "Federated collaboration without live network connectivity."
 //
 // Enables knowledge sharing across multiple air-gapped Datacendia instances
@@ -20,6 +24,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
+import { getErrorMessage } from '../../utils/errors.js';
 
 // =============================================================================
 // FEDERATION POLICY & SUPPLY-CHAIN TYPES
@@ -930,8 +935,8 @@ class FederatedMeshService extends EventEmitter {
         await this.persistDelta(delta);
         imported.push(delta.id);
         
-      } catch (err: any) {
-        errors.push(`Error importing ${deltaId}: ${err.message}`);
+      } catch (err: unknown) {
+        errors.push(`Error importing ${deltaId}: ${getErrorMessage(err)}`);
       }
     }
     
@@ -1247,8 +1252,8 @@ class FederatedMeshService extends EventEmitter {
       logger.info(`[FederatedMesh] Delta ${deltaId} queued as job ${job.id}`);
       this.emit('delta:applied', { delta, result, job });
 
-    } catch (err: any) {
-      result.errors.push(err.message);
+    } catch (err: unknown) {
+      result.errors.push(getErrorMessage(err));
       logger.error(`[FederatedMesh] Failed to apply delta ${deltaId}:`, err);
     }
 

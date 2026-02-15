@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIAMESH™ - M&A CULTURE INTEGRATION INTELLIGENCE
 // "The Cultural Integrator" - AI-powered post-merger integration

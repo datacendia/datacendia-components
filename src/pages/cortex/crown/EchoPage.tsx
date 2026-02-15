@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA ECHO™ - Decision Outcome Engine
 // "Every decision echoes through time. We measure the echo."
@@ -482,7 +486,7 @@ const EchoPage = () => {
                     setPendingLoading(true);
                     try {
                       const res = await echoApi.getPendingDecisions({ olderThanDays: 1, limit: 20 });
-                      if (res.success) setPendingDecisions(res.data as PendingDecision[]);
+                      if (res.success) {setPendingDecisions(res.data as PendingDecision[]);}
                     } catch (e) { console.error('Failed to fetch pending:', e); }
                     setPendingLoading(false);
                   }
@@ -706,7 +710,7 @@ const EchoPage = () => {
                       setReportGenerating(true);
                       try {
                         const res = await echoApi.getOutcomeReport(decision.id);
-                        if (res.success) setGeneratedReport({ ...res.data as any, decisionTitle: decision.decisionTitle });
+                        if (res.success) {setGeneratedReport({ ...res.data as any, decisionTitle: decision.decisionTitle });}
                       } catch (e) { console.error('Failed to generate report:', e); }
                       setReportGenerating(false);
                     }}

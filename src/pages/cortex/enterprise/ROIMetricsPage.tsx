@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CendiaROI™ DASHBOARD
 // Real metrics to prove ROI claims with actual platform data
@@ -119,8 +123,8 @@ export const ROIMetricsPage: React.FC = () => {
         const summaryData = await summaryRes.json();
         const comparisonData = await comparisonRes.json();
 
-        if (summaryData.success) setSummary(summaryData.data);
-        if (comparisonData.success) setComparison(comparisonData.data);
+        if (summaryData.success) {setSummary(summaryData.data);}
+        if (comparisonData.success) {setComparison(comparisonData.data);}
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Unknown error');
       } finally {

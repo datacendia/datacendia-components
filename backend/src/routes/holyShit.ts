@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA PLATFORM - HOLY SHIT FEATURES API ROUTES
 // Enterprise-grade API for premium decision intelligence features
@@ -20,6 +24,7 @@ import {
   FEATURE_DEFINITIONS,
   SubscriptionTier,
 } from '../core/subscriptions/SubscriptionTiers.js';
+import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
@@ -151,11 +156,11 @@ router.post('/pre-mortem/analyze', async (req: Request, res: Response) => {
       success: true,
       result,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('requires') ? 403 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('requires') ? 403 : 500).json({
       success: false,
-      error: error.message,
-      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' : 'ANALYSIS_FAILED',
+      error: getErrorMessage(error),
+      code: getErrorMessage(error).includes('requires') ? 'UPGRADE_REQUIRED' : 'ANALYSIS_FAILED',
     });
   }
 });
@@ -220,11 +225,11 @@ router.post('/ghost-board/session', async (req: Request, res: Response) => {
       success: true,
       session: result,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('requires') ? 403 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('requires') ? 403 : 500).json({
       success: false,
-      error: error.message,
-      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' : 'SESSION_FAILED',
+      error: getErrorMessage(error),
+      code: getErrorMessage(error).includes('requires') ? 'UPGRADE_REQUIRED' : 'SESSION_FAILED',
     });
   }
 });
@@ -277,11 +282,11 @@ router.get('/decision-debt/dashboard', async (req: Request, res: Response) => {
       success: true,
       dashboard,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('requires') ? 403 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('requires') ? 403 : 500).json({
       success: false,
-      error: error.message,
-      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' : 'DASHBOARD_FAILED',
+      error: getErrorMessage(error),
+      code: getErrorMessage(error).includes('requires') ? 'UPGRADE_REQUIRED' : 'DASHBOARD_FAILED',
     });
   }
 });
@@ -299,10 +304,10 @@ router.post('/decision-debt/decision', async (req: Request, res: Response) => {
       success: true,
       decision,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -322,10 +327,10 @@ router.delete('/decision-debt/decision/:id', async (req: Request, res: Response)
       success: true,
       message: 'Decision resolved',
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -372,11 +377,11 @@ router.post('/live-demo/session', async (req: Request, res: Response) => {
       session,
       authUrl,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('requires') ? 403 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('requires') ? 403 : 500).json({
       success: false,
-      error: error.message,
-      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' : 'SESSION_FAILED',
+      error: getErrorMessage(error),
+      code: getErrorMessage(error).includes('requires') ? 'UPGRADE_REQUIRED' : 'SESSION_FAILED',
     });
   }
 });
@@ -401,10 +406,10 @@ router.post('/live-demo/connect', async (req: Request, res: Response) => {
       success: true,
       session,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -451,10 +456,10 @@ router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
       success: true,
       result,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -490,11 +495,11 @@ router.post('/regulatory/absorb', async (req: Request, res: Response) => {
       success: true,
       result,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('requires') ? 403 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('requires') ? 403 : 500).json({
       success: false,
-      error: error.message,
-      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' : 'ABSORPTION_FAILED',
+      error: getErrorMessage(error),
+      code: getErrorMessage(error).includes('requires') ? 'UPGRADE_REQUIRED' : 'ABSORPTION_FAILED',
     });
   }
 });
@@ -587,16 +592,16 @@ router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
       success: true,
       result,
     });
-  } catch (error: any) {
-    const statusCode = error.message.includes('requires') ? 403 
-      : error.message.includes('already absorbed') ? 409 
+  } catch (error: unknown) {
+    const statusCode = getErrorMessage(error).includes('requires') ? 403 
+      : getErrorMessage(error).includes('already absorbed') ? 409 
       : 500;
     
     res.status(statusCode).json({
       success: false,
-      error: error.message,
-      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' 
-        : error.message.includes('already absorbed') ? 'DUPLICATE_DOCUMENT'
+      error: getErrorMessage(error),
+      code: getErrorMessage(error).includes('requires') ? 'UPGRADE_REQUIRED' 
+        : getErrorMessage(error).includes('already absorbed') ? 'DUPLICATE_DOCUMENT'
         : 'ABSORPTION_FAILED',
     });
   }
@@ -625,10 +630,10 @@ router.get('/regulatory/v2/documents', async (req: Request, res: Response) => {
       count: documents.length,
       documents,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -653,10 +658,10 @@ router.get('/regulatory/v2/documents/:id', async (req: Request, res: Response) =
       success: true,
       document,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -676,10 +681,10 @@ router.get('/regulatory/v2/documents/:id/audit', async (req: Request, res: Respo
       count: auditTrail.length,
       integrityVerified: true, // Each entry hash chains to previous
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -706,10 +711,10 @@ router.post('/regulatory/v2/documents/:id/approve', async (req: Request, res: Re
       message: 'Document approved and constraints activated',
       documentId: req.params.id,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('not found') ? 404 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('not found') ? 404 : 500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -736,10 +741,10 @@ router.post('/regulatory/v2/documents/:id/reject', async (req: Request, res: Res
       message: 'Document rejected',
       documentId: req.params.id,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('not found') ? 404 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('not found') ? 404 : 500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -766,10 +771,10 @@ router.post('/regulatory/v2/documents/:id/request-changes', async (req: Request,
       message: 'Changes requested',
       documentId: req.params.id,
     });
-  } catch (error: any) {
-    res.status(error.message.includes('not found') ? 404 : 500).json({
+  } catch (error: unknown) {
+    res.status(getErrorMessage(error).includes('not found') ? 404 : 500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -789,10 +794,10 @@ router.get('/regulatory/v2/conflicts', async (req: Request, res: Response) => {
       count: conflicts.length,
       conflicts,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });
@@ -815,10 +820,10 @@ router.get('/regulatory/v2/knowledge', async (req: Request, res: Response) => {
       count: requirements.length,
       requirements,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({
       success: false,
-      error: error.message,
+      error: getErrorMessage(error),
     });
   }
 });

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // DATACENDIA COUNCIL STREAMING HOOKS
 // React Hooks for Real-time AI Deliberations
@@ -68,6 +72,7 @@ export function useCouncilConnection(options: UseCouncilStreamOptions = {}) {
     return () => {
       unsubscribe();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoConnect]);
 
   const connect = useCallback(async () => {
@@ -208,6 +213,7 @@ export function useDeliberation(
       unsubscribeEvents();
       clientRef.current?.unsubscribe(deliberationId);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deliberationId, currentPhase]);
 
   return {

@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // CENDIA SHADOW COUNCIL™ - PARALLEL WHAT-IF DELIBERATION MODE
 // "Test radical ideas without polluting the ledger."
@@ -385,7 +389,7 @@ class ShadowCouncilService extends EventEmitter {
           agent: agentCode,
           timestamp: new Date(),
         });
-      } catch (err: any) {
+      } catch (err: unknown) {
         logger.error(`[ShadowCouncil] Agent ${agentCode} failed:`, err);
       }
     }

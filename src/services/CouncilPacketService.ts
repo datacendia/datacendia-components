@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 // =============================================================================
 // COUNCIL DECISION PACKET SERVICE (Frontend)
 // Real API calls for cryptographically-signed decision packets - NO FAKES
@@ -152,7 +156,7 @@ export const councilPacketApi = {
       `${BASE_URL}/build`,
       request
     );
-    if (!response.data?.data) throw new Error('Failed to build packet');
+    if (!response.data?.data) {throw new Error('Failed to build packet');}
     return response.data.data;
   },
 
@@ -163,7 +167,7 @@ export const councilPacketApi = {
     const response = await api.post<{ success: boolean; data: DecisionPacket }>(
       `${BASE_URL}/${packetId}/sign`
     );
-    if (!response.data?.data) throw new Error('Failed to sign packet');
+    if (!response.data?.data) {throw new Error('Failed to sign packet');}
     return response.data.data;
   },
 
@@ -174,7 +178,7 @@ export const councilPacketApi = {
     const response = await api.post<{ success: boolean; data: VerificationResult }>(
       `${BASE_URL}/${packetId}/verify`
     );
-    if (!response.data?.data) throw new Error('Failed to verify packet');
+    if (!response.data?.data) {throw new Error('Failed to verify packet');}
     return response.data.data;
   },
 
@@ -185,7 +189,7 @@ export const councilPacketApi = {
     const response = await api.get<{ success: boolean; data: DecisionPacket }>(
       `${BASE_URL}/${packetId}`
     );
-    if (!response.data?.data) throw new Error('Packet not found');
+    if (!response.data?.data) {throw new Error('Packet not found');}
     return response.data.data;
   },
 
@@ -217,7 +221,7 @@ export const councilPacketApi = {
     const response = await api.get<{ success: boolean; data: PublicKeyInfo }>(
       `${BASE_URL}/public-key`
     );
-    if (!response.data?.data) throw new Error('Failed to get public key');
+    if (!response.data?.data) {throw new Error('Failed to get public key');}
     return response.data.data;
   },
 
@@ -229,7 +233,7 @@ export const councilPacketApi = {
       '/kms/sign',
       { data }
     );
-    if (!response.data?.data) throw new Error('Failed to sign data');
+    if (!response.data?.data) {throw new Error('Failed to sign data');}
     return response.data.data;
   },
 
