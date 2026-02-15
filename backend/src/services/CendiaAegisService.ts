@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaAegis™ - Strategic Defense Intelligence
  * 
@@ -825,6 +829,229 @@ Provide:
       pendingCountermeasures,
       topThreats: criticalThreats.slice(0, 5),
       threatFeeds: THREAT_FEEDS.length,
+    };
+  }
+
+  // ===========================================================================
+  // EXPRESS MODE - Standalone outputs WITHOUT Council
+  // ===========================================================================
+
+  /**
+   * Express: Generate quick threat briefing directly (no Council needed)
+   * Returns threat assessment with countermeasures in one fast call.
+   */
+  async getQuickBriefing(
+    organizationId: string,
+    threatId?: string
+  ): Promise<{
+    threat: string;
+    severity: Severity;
+    probability: number;
+    countermeasures: Array<{
+      action: string;
+      priority: number;
+      effort: 'LOW' | 'MEDIUM' | 'HIGH';
+    }>;
+    estimatedImpact: string;
+    summary: string;
+    mode: 'express';
+    generatedAt: Date;
+  }> {
+    const startTime = Date.now();
+
+    if (threatId) {
+      // Briefing for a specific threat
+      const threat = await prisma.aegis_threats.findUnique({
+        where: { id: threatId },
+        include: { countermeasures: true },
+      });
+
+      if (!threat) {
+        throw new Error('Threat not found');
+      }
+
+      // If countermeasures already exist, use them
+      const existingCMs = (threat.countermeasures || []).map((cm: any, i: number) => ({
+        action: cm.title,
+        priority: i + 1,
+        effort: (cm.cost_estimate > 50000 ? 'HIGH' : cm.cost_estimate > 10000 ? 'MEDIUM' : 'LOW') as 'LOW' | 'MEDIUM' | 'HIGH',
+      }));
+
+      if (existingCMs.length > 0) {
+        return {
+          threat: threat.title,
+          severity: threat.severity as Severity,
+          probability: threat.probability,
+          countermeasures: existingCMs,
+          estimatedImpact: `Impact score: ${threat.impact_score}/100. Affected assets: ${(threat.affected_assets as string[]).join(', ') || 'Unknown'}`,
+          summary: threat.description,
+          mode: 'express',
+          generatedAt: new Date(),
+        };
+      }
+
+      // Generate countermeasures with LLM
+      const prompt = `Generate prioritized countermeasures for this threat:
+
+Threat: ${threat.title}
+Type: ${threat.threat_type}
+Severity: ${threat.severity}
+Description: ${threat.description}
+Affected Assets: ${(threat.affected_assets as string[]).join(', ')}
+Attack Vectors: ${(threat.attack_vectors as string[]).join(', ')}
+
+Respond as JSON:
+{
+  "countermeasures": [
+    {"action": "Specific action to take", "priority": 1, "effort": "LOW|MEDIUM|HIGH"}
+  ],
+  "estimatedImpact": "$X-$Y if successful"
+}`;
+
+      try {
+        const response = await this.llmService.generate(prompt, {
+          model: 'llama3.2:3b',
+          systemPrompt: 'You are a threat response expert. Provide specific, actionable countermeasures.',
+          temperature: 0.3,
+          maxTokens: 500,
+          format: 'json',
+        });
+
+        const parsed = JSON.parse(response);
+        const durationMs = Date.now() - startTime;
+        logger.info(`[Aegis Express] Quick briefing generated in ${durationMs}ms`);
+
+        return {
+          threat: threat.title,
+          severity: threat.severity as Severity,
+          probability: threat.probability,
+          countermeasures: parsed.countermeasures || [],
+          estimatedImpact: parsed.estimatedImpact || `Impact score: ${threat.impact_score}/100`,
+          summary: threat.description,
+          mode: 'express',
+          generatedAt: new Date(),
+        };
+      } catch {
+        return {
+          threat: threat.title,
+          severity: threat.severity as Severity,
+          probability: threat.probability,
+          countermeasures: [{ action: 'Initiate incident response procedures', priority: 1, effort: 'HIGH' }],
+          estimatedImpact: `Impact score: ${threat.impact_score}/100`,
+          summary: threat.description,
+          mode: 'express',
+          generatedAt: new Date(),
+        };
+      }
+    }
+
+    // General threat landscape briefing
+    const activeThreats = await this.getActiveThreats(organizationId);
+    const highestThreat = activeThreats[0];
+
+    if (!highestThreat) {
+      return {
+        threat: 'No active threats detected',
+        severity: 'INFORMATIONAL',
+        probability: 0,
+        countermeasures: [{ action: 'Continue monitoring threat feeds', priority: 1, effort: 'LOW' }],
+        estimatedImpact: 'No immediate impact',
+        summary: 'Threat landscape is clear. No active threats detected for this organization.',
+        mode: 'express',
+        generatedAt: new Date(),
+      };
+    }
+
+    const prompt = `Generate a quick threat landscape briefing:
+
+Active Threats: ${activeThreats.length}
+Critical: ${activeThreats.filter(t => t.severity === 'CRITICAL').length}
+High: ${activeThreats.filter(t => t.severity === 'HIGH').length}
+Top Threat: ${highestThreat.title} (${highestThreat.threatType}, ${highestThreat.severity})
+
+Respond as JSON:
+{
+  "summary": "2-3 sentence landscape summary",
+  "countermeasures": [
+    {"action": "Top priority action", "priority": 1, "effort": "LOW|MEDIUM|HIGH"}
+  ],
+  "estimatedImpact": "Overall risk estimate"
+}`;
+
+    try {
+      const response = await this.llmService.generate(prompt, {
+        model: 'llama3.2:3b',
+        systemPrompt: 'You are a threat intelligence analyst. Provide concise, actionable briefings.',
+        temperature: 0.3,
+        maxTokens: 400,
+        format: 'json',
+      });
+
+      const parsed = JSON.parse(response);
+
+      return {
+        threat: highestThreat.title,
+        severity: highestThreat.severity,
+        probability: highestThreat.probability,
+        countermeasures: parsed.countermeasures || [],
+        estimatedImpact: parsed.estimatedImpact || `${activeThreats.length} active threats`,
+        summary: parsed.summary || `${activeThreats.length} active threats detected.`,
+        mode: 'express',
+        generatedAt: new Date(),
+      };
+    } catch {
+      return {
+        threat: highestThreat.title,
+        severity: highestThreat.severity,
+        probability: highestThreat.probability,
+        countermeasures: [{ action: 'Review active threats and prioritize response', priority: 1, effort: 'MEDIUM' }],
+        estimatedImpact: `${activeThreats.length} active threats detected`,
+        summary: `${activeThreats.length} active threats. Highest: ${highestThreat.title} (${highestThreat.severity}).`,
+        mode: 'express',
+        generatedAt: new Date(),
+      };
+    }
+  }
+
+  /**
+   * Express: Get threat summary with risk score (no Council needed)
+   */
+  async getThreatSummary(organizationId: string): Promise<{
+    threatLevel: Severity;
+    activeThreats: number;
+    criticalCount: number;
+    highCount: number;
+    topThreats: Array<{ title: string; type: string; severity: Severity; probability: number }>;
+    riskScore: number;
+    mode: 'express';
+  }> {
+    const threats = await this.getActiveThreats(organizationId);
+
+    const criticalCount = threats.filter(t => t.severity === 'CRITICAL').length;
+    const highCount = threats.filter(t => t.severity === 'HIGH').length;
+
+    const threatLevel: Severity = criticalCount > 0 ? 'CRITICAL'
+      : highCount > 0 ? 'HIGH'
+        : threats.length > 0 ? 'MEDIUM'
+          : 'LOW';
+
+    const riskScore = Math.min(100, Math.round(
+      criticalCount * 30 + highCount * 15 + threats.length * 5
+    ));
+
+    return {
+      threatLevel,
+      activeThreats: threats.length,
+      criticalCount,
+      highCount,
+      topThreats: threats.slice(0, 5).map(t => ({
+        title: t.title,
+        type: t.threatType,
+        severity: t.severity,
+        probability: t.probability,
+      })),
+      riskScore,
+      mode: 'express',
     };
   }
 }

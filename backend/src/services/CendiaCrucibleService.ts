@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaCrucible™ - Synthetic Multiverse Simulation Engine
  * 
@@ -440,7 +444,12 @@ class CendiaCrucibleService {
   /**
    * Start simulation execution
    */
-  async runSimulation(simulationId: string): Promise<SimulationResult> {
+  async runSimulation(
+    simulationId: string,
+    options?: { mode?: 'express' | 'deliberative' }
+  ): Promise<SimulationResult> {
+    const mode = options?.mode || 'deliberative';
+
     // Update status to running
     await prisma.crucible_simulations.update({
       where: { id: simulationId },
@@ -479,13 +488,16 @@ class CendiaCrucibleService {
         universes
       );
 
-      // Generate council deliberations
-      const deliberations = await this.generateCouncilDeliberations(
-        simulationId,
-        scenario,
-        universes,
-        impacts
-      );
+      // Council deliberations: only in deliberative mode
+      let deliberations: CouncilDeliberation[] = [];
+      if (mode === 'deliberative') {
+        deliberations = await this.generateCouncilDeliberations(
+          simulationId,
+          scenario,
+          universes,
+          impacts
+        );
+      }
 
       // Generate summary with AI-powered strategic analysis
       const summary = await this.generateResultSummary(
@@ -2112,6 +2124,188 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
   private calculateTrend(current?: number, previous?: number): number {
     if (!current || !previous || previous === 0) return 0;
     return Math.round(((current - previous) / previous) * 100);
+  }
+
+  // ===========================================================================
+  // EXPRESS MODE - Standalone outputs WITHOUT Council
+  // ===========================================================================
+
+  /**
+   * Express: Run quick scenario analysis directly (no Council needed)
+   * Returns best/most-likely/worst case outcomes in one fast call.
+   */
+  async getQuickSimulation(
+    organizationId: string,
+    scenarioType: SimulationType,
+    description?: string
+  ): Promise<{
+    bestCase: { outcome: string; probability: number; financialImpact?: string };
+    mostLikely: { outcome: string; probability: number; financialImpact?: string };
+    worstCase: { outcome: string; probability: number; financialImpact?: string };
+    recommendation: string;
+    riskScore: number;
+    keyFactors: string[];
+    mode: 'express';
+    generatedAt: Date;
+  }> {
+    const startTime = Date.now();
+
+    // Get org context for grounded analysis
+    const [org, recentSims, metrics] = await Promise.all([
+      prisma.organizations.findUnique({ where: { id: organizationId } }),
+      prisma.crucible_simulations.findMany({
+        where: { organization_id: organizationId, simulation_type: scenarioType },
+        orderBy: { created_at: 'desc' },
+        take: 3,
+        select: { results_summary: true, simulation_type: true },
+      }),
+      prisma.metric_definitions.findMany({
+        where: { organization_id: organizationId },
+        include: { metric_values: { take: 1, orderBy: { timestamp: 'desc' } } },
+        take: 10,
+      }),
+    ]);
+
+    const template = SCENARIO_TEMPLATES[scenarioType];
+    const scenarioName = template?.name || scenarioType;
+    const scenarioDesc = description || template?.description || `${scenarioType} scenario analysis`;
+
+    const metricsContext = metrics.map(m => {
+      const val = m.metric_values?.[0]?.value;
+      return `${m.name}: ${val ?? 'N/A'} ${m.unit || ''}`;
+    }).join('\n');
+
+    const prompt = `Analyze this scenario for ${org?.name || 'the organization'} (${org?.industry || 'Technology'}):
+
+Scenario Type: ${scenarioName}
+Description: ${scenarioDesc}
+
+Current Metrics:
+${metricsContext || 'No metrics available'}
+
+${recentSims.length > 0 ? `Previous simulations of this type: ${recentSims.length} (most recent results available)` : ''}
+
+Provide a quick 3-outcome analysis as JSON:
+{
+  "bestCase": {"outcome": "Description", "probability": 0.0-1.0, "financialImpact": "$X-$Y range"},
+  "mostLikely": {"outcome": "Description", "probability": 0.0-1.0, "financialImpact": "$X-$Y range"},
+  "worstCase": {"outcome": "Description", "probability": 0.0-1.0, "financialImpact": "$X-$Y range"},
+  "recommendation": "1-2 sentence actionable recommendation",
+  "riskScore": 0-100,
+  "keyFactors": ["Factor 1", "Factor 2", "Factor 3"]
+}`;
+
+    try {
+      const response = await this.llmService.generate(prompt, {
+        model: 'llama3.2:3b',
+        systemPrompt: 'You are a risk simulation analyst. Provide quantitative, realistic scenario analysis with specific probabilities and financial estimates.',
+        temperature: 0.4,
+        maxTokens: 600,
+        format: 'json',
+      });
+
+      const parsed = JSON.parse(response);
+      const durationMs = Date.now() - startTime;
+      logger.info(`[Crucible Express] Quick simulation completed in ${durationMs}ms for ${scenarioType}`);
+
+      return {
+        bestCase: parsed.bestCase || { outcome: 'Favorable outcome', probability: 0.15 },
+        mostLikely: parsed.mostLikely || { outcome: 'Expected outcome', probability: 0.60 },
+        worstCase: parsed.worstCase || { outcome: 'Adverse outcome', probability: 0.10 },
+        recommendation: parsed.recommendation || 'Proceed with caution — consider full simulation for detailed analysis.',
+        riskScore: typeof parsed.riskScore === 'number' ? parsed.riskScore : 50,
+        keyFactors: Array.isArray(parsed.keyFactors) ? parsed.keyFactors : [],
+        mode: 'express',
+        generatedAt: new Date(),
+      };
+    } catch (error) {
+      logger.error('[Crucible Express] Quick simulation failed:', error);
+      return {
+        bestCase: { outcome: 'Analysis unavailable', probability: 0.15 },
+        mostLikely: { outcome: 'Analysis unavailable — run full simulation', probability: 0.60 },
+        worstCase: { outcome: 'Analysis unavailable', probability: 0.10 },
+        recommendation: 'Express analysis failed. Run a full Crucible simulation for detailed results.',
+        riskScore: 50,
+        keyFactors: ['Express analysis unavailable'],
+        mode: 'express',
+        generatedAt: new Date(),
+      };
+    }
+  }
+
+  /**
+   * Express: Get resilience score without running full simulation (no Council needed)
+   */
+  async getResilienceScore(organizationId: string): Promise<{
+    overallScore: number;
+    breakdown: Record<string, number>;
+    vulnerabilities: string[];
+    strengths: string[];
+    mode: 'express';
+  }> {
+    // Get real data for grounded analysis
+    const [simulations, dataSources, alerts, workflows] = await Promise.all([
+      prisma.crucible_simulations.findMany({
+        where: { organization_id: organizationId, status: 'COMPLETED' },
+        orderBy: { completed_at: 'desc' },
+        take: 10,
+        select: { simulation_type: true, results_summary: true },
+      }),
+      prisma.data_sources.findMany({
+        where: { organization_id: organizationId },
+        select: { status: true, type: true },
+      }),
+      prisma.alerts.count({
+        where: { organization_id: organizationId, status: 'ACTIVE' },
+      }),
+      prisma.workflows.count({
+        where: { organization_id: organizationId, status: 'ACTIVE' },
+      }),
+    ]);
+
+    const connectedSources = dataSources.filter(ds => ds.status === 'CONNECTED').length;
+    const simulationCoverage = new Set(simulations.map(s => s.simulation_type)).size;
+
+    // Calculate scores based on real data
+    const dataResilience = Math.min(100, (connectedSources / Math.max(dataSources.length, 1)) * 100);
+    const simulationReadiness = Math.min(100, simulationCoverage * 15);
+    const operationalHealth = Math.max(0, 100 - alerts * 10);
+    const automationScore = Math.min(100, workflows * 20);
+
+    const overallScore = Math.round(
+      dataResilience * 0.25 +
+      simulationReadiness * 0.25 +
+      operationalHealth * 0.30 +
+      automationScore * 0.20
+    );
+
+    const vulnerabilities: string[] = [];
+    const strengths: string[] = [];
+
+    if (dataResilience < 50) vulnerabilities.push('Low data source connectivity — potential blind spots');
+    else strengths.push('Strong data source connectivity');
+
+    if (simulationReadiness < 30) vulnerabilities.push('Limited simulation coverage — many scenario types untested');
+    else strengths.push('Good simulation coverage across scenario types');
+
+    if (operationalHealth < 50) vulnerabilities.push('High alert volume — active operational issues');
+    else strengths.push('Low alert volume — stable operations');
+
+    if (automationScore < 30) vulnerabilities.push('Low workflow automation — manual processes at risk');
+    else strengths.push('Healthy workflow automation');
+
+    return {
+      overallScore,
+      breakdown: {
+        dataResilience: Math.round(dataResilience),
+        simulationReadiness: Math.round(simulationReadiness),
+        operationalHealth: Math.round(operationalHealth),
+        automationScore: Math.round(automationScore),
+      },
+      vulnerabilities,
+      strengths,
+      mode: 'express',
+    };
   }
 }
 

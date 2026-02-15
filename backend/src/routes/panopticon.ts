@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaPanopticon™ API Routes
  * Global Regulation Engine
@@ -301,6 +305,39 @@ router.get('/dashboard', async (req: Request, res: Response) => {
     const orgId = (req as any).organizationId;
     const dashboard = await cendiaPanopticonService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// EXPRESS MODE — Quick Intelligence Without Council
+// ===========================================================================
+
+/**
+ * GET /panopticon/express/report
+ * Full compliance report directly (no Council needed)
+ */
+router.get('/express/report', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const report = await cendiaPanopticonService.getComplianceReport(orgId);
+    res.json({ success: true, data: report });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+/**
+ * POST /panopticon/express/remediate
+ * Generate remediation steps without Council
+ */
+router.post('/express/remediate', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { violationIds } = req.body;
+    const result = await cendiaPanopticonService.generateRemediationSteps(orgId, violationIds);
+    res.json({ success: true, data: result });
   } catch (error) {
     res.status(500).json({ success: false, error: { message: String(error) } });
   }

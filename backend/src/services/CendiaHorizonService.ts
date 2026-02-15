@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaHorizon™ - Predictive Decision Intelligence
  * 
@@ -1327,6 +1331,104 @@ class CendiaHorizonServiceClass extends EventEmitter {
     return {
       available: true,
       simulationsCount: this.simulations.size,
+    };
+  }
+
+  // ===========================================================================
+  // EXPRESS MODE - Standalone outputs WITHOUT Council
+  // ===========================================================================
+
+  /**
+   * Express: Quick forecast for a scenario without full multi-agent simulation.
+   * Uses universe templates and historical echo matching for fast results.
+   */
+  async getExpressForecast(
+    question: string,
+    options?: {
+      timeHorizon?: TimeHorizon;
+      organizationId?: string;
+    }
+  ): Promise<{
+    question: string;
+    timeHorizon: TimeHorizon;
+    bestCase: { name: string; probability: number; overallScore: number; keyOutcomes: string[] };
+    mostLikely: { name: string; probability: number; overallScore: number; keyOutcomes: string[] };
+    worstCase: { name: string; probability: number; overallScore: number; keyOutcomes: string[] };
+    historicalEchoes: Array<{ company: string; year: number; situation: string; outcome: string; similarity: number }>;
+    recommendation: string;
+    confidence: number;
+    mode: 'express';
+    generatedAt: Date;
+  }> {
+    const startTime = Date.now();
+    const timeHorizon = options?.timeHorizon || '90d';
+    const horizonDays = this.getHorizonDays(timeHorizon);
+
+    // Step 1: Find historical echoes (fast — no LLM)
+    const echoes = this.findHistoricalEchoes(question);
+
+    // Step 2: Generate lightweight universes (3 only — no agents)
+    const templates = UNIVERSE_TEMPLATES.slice(0, 3); // Bold, Status Quo, Measured
+    const universes = templates.map((template, i) =>
+      this.generateUniverse(`express-${i + 1}`, template, question, undefined, horizonDays, i)
+    );
+
+    // Sort by outcome score
+    const sorted = [...universes].sort((a, b) => b.outcomes.overallScore - a.outcomes.overallScore);
+    const best = sorted[0];
+    const worst = sorted[sorted.length - 1];
+    const mostLikely = sorted.find(u => u.probability === Math.max(...sorted.map(s => s.probability))) || sorted[1];
+
+    const summarizeOutcomes = (u: Universe): string[] => {
+      const outcomes: string[] = [];
+      if (u.outcomes.revenue.change > 0) outcomes.push(`Revenue +${u.outcomes.revenue.change.toFixed(0)}%`);
+      else if (u.outcomes.revenue.change < 0) outcomes.push(`Revenue ${u.outcomes.revenue.change.toFixed(0)}%`);
+      if (u.outcomes.marketShare.change > 0) outcomes.push(`Market share +${u.outcomes.marketShare.change.toFixed(0)}%`);
+      if (u.outcomes.riskExposure.change > 10) outcomes.push(`Risk exposure elevated`);
+      if (u.outcomes.teamMorale.change < -5) outcomes.push(`Team morale decline`);
+      else if (u.outcomes.teamMorale.change > 5) outcomes.push(`Team morale improvement`);
+      if (u.riskProfile.overall === 'critical' || u.riskProfile.overall === 'high') outcomes.push(`${u.riskProfile.overall} risk profile`);
+      return outcomes.length > 0 ? outcomes : ['No significant changes projected'];
+    };
+
+    // Build recommendation from best universe
+    const bestRecommendation = this.generateRecommendation(universes);
+
+    const durationMs = Date.now() - startTime;
+    logger.info(`[Horizon Express] Forecast generated in ${durationMs}ms for "${question.slice(0, 50)}..."`);
+
+    return {
+      question,
+      timeHorizon,
+      bestCase: {
+        name: best.name,
+        probability: best.probability,
+        overallScore: best.outcomes.overallScore,
+        keyOutcomes: summarizeOutcomes(best),
+      },
+      mostLikely: {
+        name: mostLikely.name,
+        probability: mostLikely.probability,
+        overallScore: mostLikely.outcomes.overallScore,
+        keyOutcomes: summarizeOutcomes(mostLikely),
+      },
+      worstCase: {
+        name: worst.name,
+        probability: worst.probability,
+        overallScore: worst.outcomes.overallScore,
+        keyOutcomes: summarizeOutcomes(worst),
+      },
+      historicalEchoes: echoes.map(e => ({
+        company: e.company,
+        year: e.year,
+        situation: e.situation,
+        outcome: e.outcome,
+        similarity: Math.round(e.similarity),
+      })),
+      recommendation: bestRecommendation.reasoning || 'Consider running a full simulation for detailed multi-agent analysis.',
+      confidence: bestRecommendation.confidence,
+      mode: 'express',
+      generatedAt: new Date(),
     };
   }
 }

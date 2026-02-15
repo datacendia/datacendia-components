@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaCrucible™ API Routes
  * 
@@ -207,7 +211,9 @@ router.post('/simulations/:id/run', async (req: Request, res: Response, next: Ne
     }
 
     // Run simulation (this may take time)
-    const result = await cendiaCrucibleService.runSimulation(req.params.id);
+    // mode=express skips Council deliberation, mode=deliberative (default) includes it
+    const mode = req.body?.mode === 'express' ? 'express' : 'deliberative';
+    const result = await cendiaCrucibleService.runSimulation(req.params.id, { mode });
 
     res.json({
       success: true,
@@ -370,8 +376,9 @@ router.post('/quick-simulate', async (req: Request, res: Response, next: NextFun
       }
     );
 
-    // Run immediately
-    const result = await cendiaCrucibleService.runSimulation(simulation.id);
+    // Run immediately — pass mode through
+    const mode = req.body?.mode === 'express' ? 'express' : 'deliberative';
+    const result = await cendiaCrucibleService.runSimulation(simulation.id, { mode });
 
     res.json({
       success: true,
@@ -449,6 +456,44 @@ router.get('/recent', async (req: Request, res: Response, next: NextFunction) =>
       success: true,
       data: recentSimulations,
     });
+  } catch (error) {
+    next(error);
+  }
+});
+
+// ===========================================================================
+// EXPRESS MODE — Quick Intelligence Without Council
+// ===========================================================================
+
+/**
+ * POST /crucible/express/quick-sim
+ * Quick 3-outcome scenario analysis (no Council needed)
+ */
+router.post('/express/quick-sim', devAuth, async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { scenarioType, description } = req.body;
+    if (!scenarioType) {
+      return res.status(400).json({ success: false, error: { message: 'scenarioType is required' } });
+    }
+    const result = await cendiaCrucibleService.getQuickSimulation(
+      req.organizationId!,
+      scenarioType,
+      description
+    );
+    res.json({ success: true, data: result });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /crucible/express/resilience
+ * Resilience score without full simulation (no Council needed)
+ */
+router.get('/express/resilience', devAuth, async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const score = await cendiaCrucibleService.getResilienceScore(req.organizationId!);
+    res.json({ success: true, data: score });
   } catch (error) {
     next(error);
   }

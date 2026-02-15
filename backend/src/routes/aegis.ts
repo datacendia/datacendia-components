@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * CendiaAegis™ API Routes
  * Strategic Defense Intelligence
@@ -210,6 +214,39 @@ router.get('/dashboard', async (req: Request, res: Response) => {
     const orgId = (req as any).organizationId;
     const dashboard = await cendiaAegisService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// EXPRESS MODE — Quick Intelligence Without Council
+// ===========================================================================
+
+/**
+ * GET /aegis/express/briefing
+ * Quick threat briefing directly (no Council needed)
+ */
+router.get('/express/briefing', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const threatId = req.query.threatId as string | undefined;
+    const briefing = await cendiaAegisService.getQuickBriefing(orgId, threatId);
+    res.json({ success: true, data: briefing });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+/**
+ * GET /aegis/express/summary
+ * Threat summary with risk score (no Council needed)
+ */
+router.get('/express/summary', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const summary = await cendiaAegisService.getThreatSummary(orgId);
+    res.json({ success: true, data: summary });
   } catch (error) {
     res.status(500).json({ success: false, error: { message: String(error) } });
   }

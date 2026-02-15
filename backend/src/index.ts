@@ -1,3 +1,7 @@
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// See LICENSE file for details.
+
 /**
  * DATACENDIA PLATFORM - BACKEND API SERVER
  * 
@@ -26,6 +30,7 @@ import { redis } from './config/redis.js';
 import { neo4j } from './config/neo4j.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import { requestLogger } from './middleware/requestLogger.js';
+import cookieParser from 'cookie-parser';
 
 // Security Hardening
 import { 
@@ -49,7 +54,10 @@ import {
 
 // Telemetry & Enterprise Services
 import { initTracing } from './telemetry/tracing.js';
+import { sentry } from './telemetry/sentry.js';
 import { policyEngine } from './security/PolicyEngine.js';
+import { databaseBackupService } from './services/backup/index.js';
+import { vectorDB } from './services/vectordb/index.js';
 
 // Initialize OpenTelemetry tracing (must be before other imports that need instrumentation)
 initTracing();
@@ -75,6 +83,7 @@ import {
 // Special routes that need non-standard mounting
 import prometheusRoutes from './routes/prometheus.js';
 import legalResearchRoutes from './routes/legal-research.js';
+import expressRoutes from './routes/express.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -168,7 +177,6 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Cookie parser for CSRF tokens
-import cookieParser from 'cookie-parser';
 app.use(cookieParser());
 
 // Compression
@@ -265,6 +273,7 @@ app.use('/api/v1', simulationDomain);  // sgas, scge, collapse
 app.use('/api/v1', workflowsDomain);   // workflows, integrations, scheduler
 app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, gnosis, apotheosis, visualization
 app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
+app.use('/api/v1/express', expressRoutes); // Express Intelligence - quick analysis without Council
 
 // 404 handler
 app.use((_req, res) => {
@@ -273,6 +282,11 @@ app.use((_req, res) => {
     error: { code: 'NOT_FOUND', message: 'Resource not found' },
   });
 });
+
+// Sentry error tracking middleware (must be BEFORE errorHandler to capture errors)
+if (sentry.isEnabled()) {
+  app.use(sentry.errorHandler());
+}
 
 // Global error handler
 app.use(errorHandler);
@@ -296,6 +310,12 @@ const shutdown = async (signal: string) => {
       
       await neo4j.close();
       logger.info('Neo4j connection closed');
+
+      await vectorDB.shutdown();
+      logger.info('Qdrant connection closed');
+
+      databaseBackupService.stopScheduler();
+      logger.info('Backup scheduler stopped');
       
       process.exit(0);
     } catch (error) {
@@ -379,6 +399,18 @@ const startServer = async () => {
       logger.warn('Neo4j connection failed - graph features disabled:', e);
     }
 
+    // Qdrant Vector Database (optional - degrades gracefully to TF-IDF)
+    try {
+      const vectorReady = await vectorDB.initialize();
+      if (vectorReady) {
+        logger.info('Connected to Qdrant — CendiaVector™ neural search enabled');
+      } else {
+        logger.warn('Qdrant unavailable — using TF-IDF fallback for similarity search');
+      }
+    } catch (e) {
+      logger.warn('Qdrant initialization failed — vector search disabled:', e);
+    }
+
     // Register platform services with health monitoring
     try {
       await registerPlatformServices();
@@ -411,6 +443,18 @@ const startServer = async () => {
       logger.info('[Echo] Automated collection scheduler started');
     } catch (e) {
       logger.warn('[Echo] Collection scheduler failed to start:', e);
+    }
+
+    // Start automated database backup scheduler (production only)
+    try {
+      if (databaseBackupService.isEnabled()) {
+        databaseBackupService.startScheduler();
+        logger.info('[CendiaBackup] Automated backup scheduler started');
+      } else {
+        logger.info('[CendiaBackup] Backups disabled (set BACKUP_ENABLED=true for production)');
+      }
+    } catch (e) {
+      logger.warn('[CendiaBackup] Backup scheduler failed to start:', e);
     }
   } catch (error) {
     logger.error('Failed to start server:', error);
