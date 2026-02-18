@@ -870,6 +870,367 @@ Respond as JSON:
       totalAssemblies: assemblies,
     };
   }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /**
+   * 10/10: Sentiment Correlation Engine
+   * Finds correlations between stakeholder sentiment shifts and business decisions.
+   * Answers: "When we make X type of decision, which stakeholders react negatively?"
+   */
+  async analyzeSentimentCorrelations(organizationId: string): Promise<{
+    correlations: Array<{
+      stakeholderType: string;
+      decisionPattern: string;
+      sentimentShift: string;
+      strength: number;
+      examples: string[];
+    }>;
+    insights: string[];
+    riskAreas: string[];
+  }> {
+    const [signals, votes, stakeholders] = await Promise.all([
+      prisma.vox_signals.findMany({
+        where: { stakeholder: { organization_id: organizationId } },
+        orderBy: { created_at: 'desc' },
+        take: 200,
+        include: { stakeholder: { select: { stakeholder_type: true, name: true } } },
+      }),
+      prisma.vox_votes.findMany({
+        where: { organization_id: organizationId },
+        orderBy: { created_at: 'desc' },
+        take: 100,
+        include: { stakeholder: { select: { stakeholder_type: true, name: true } } },
+      }),
+      prisma.vox_stakeholders.findMany({
+        where: { organization_id: organizationId, is_active: true },
+      }),
+    ]);
+
+    const signalSummary = signals.slice(0, 50).map(s => ({
+      type: s.stakeholder?.stakeholder_type,
+      sentiment: s.sentiment,
+      urgency: s.urgency,
+      date: s.created_at,
+    }));
+
+    const voteSummary = votes.slice(0, 30).map(v => ({
+      type: v.stakeholder?.stakeholder_type,
+      vote: v.vote_value,
+      veto: v.veto_exercised,
+      decision: v.decision_id,
+    }));
+
+    try {
+      const raw = await this.llmService.generate(
+        `Analyze stakeholder sentiment correlations for an organization.
+
+STAKEHOLDER TYPES: ${stakeholders.map(s => s.stakeholder_type).join(', ')}
+
+RECENT SIGNALS (${signals.length} total):
+${JSON.stringify(signalSummary, null, 2)}
+
+RECENT VOTES (${votes.length} total):
+${JSON.stringify(voteSummary, null, 2)}
+
+Find correlations between decision types and stakeholder sentiment shifts.
+Return JSON ONLY:
+{
+  "correlations": [
+    {
+      "stakeholderType": "EMPLOYEES",
+      "decisionPattern": "description of decision pattern",
+      "sentimentShift": "NEGATIVE" or "POSITIVE",
+      "strength": 0.0-1.0,
+      "examples": ["example1", "example2"]
+    }
+  ],
+  "insights": ["insight about patterns"],
+  "riskAreas": ["areas where stakeholder backlash is likely"]
+}`,
+        {
+          model: 'qwq:32b',
+          systemPrompt: 'You are a stakeholder analytics engine. Analyze sentiment patterns objectively. Return valid JSON only.',
+        }
+      );
+      const result = raw;
+
+      return typeof result === 'string' ? JSON.parse(result) : result;
+    } catch (error) {
+      logger.warn('LLM sentiment correlation failed, using statistical fallback', { error });
+
+      const sentimentByType: Record<string, { positive: number; negative: number; neutral: number }> = {};
+      for (const signal of signals) {
+        const type = signal.stakeholder?.stakeholder_type || 'UNKNOWN';
+        if (!sentimentByType[type]) sentimentByType[type] = { positive: 0, negative: 0, neutral: 0 };
+        if (signal.sentiment === 'POSITIVE' || signal.sentiment === 'VERY_POSITIVE') sentimentByType[type].positive++;
+        else if (signal.sentiment === 'NEGATIVE' || signal.sentiment === 'VERY_NEGATIVE') sentimentByType[type].negative++;
+        else sentimentByType[type].neutral++;
+      }
+
+      const correlations = Object.entries(sentimentByType).map(([type, counts]) => ({
+        stakeholderType: type,
+        decisionPattern: 'General organizational decisions',
+        sentimentShift: counts.negative > counts.positive ? 'NEGATIVE' : 'POSITIVE',
+        strength: Math.abs(counts.negative - counts.positive) / Math.max(1, counts.negative + counts.positive + counts.neutral),
+        examples: [],
+      }));
+
+      return {
+        correlations,
+        insights: [`Analyzed ${signals.length} signals across ${Object.keys(sentimentByType).length} stakeholder types`],
+        riskAreas: correlations.filter(c => c.sentimentShift === 'NEGATIVE' && c.strength > 0.3).map(c => c.stakeholderType),
+      };
+    }
+  }
+
+  /**
+   * 10/10: Stakeholder Impact Prediction
+   * Predicts how a proposed decision will affect each stakeholder group.
+   */
+  async predictStakeholderImpact(
+    organizationId: string,
+    proposedDecision: { title: string; description: string; category?: string }
+  ): Promise<{
+    predictions: Array<{
+      stakeholderType: string;
+      predictedSentiment: string;
+      impactSeverity: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+      vetoRisk: boolean;
+      reasoning: string;
+      mitigations: string[];
+    }>;
+    overallRisk: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+    recommendedActions: string[];
+  }> {
+    const stakeholders = await prisma.vox_stakeholders.findMany({
+      where: { organization_id: organizationId, is_active: true },
+    });
+
+    const recentSignals = await prisma.vox_signals.findMany({
+      where: { stakeholder: { organization_id: organizationId } },
+      orderBy: { created_at: 'desc' },
+      take: 50,
+      include: { stakeholder: { select: { stakeholder_type: true } } },
+    });
+
+    const currentMood: Record<string, string> = {};
+    for (const signal of recentSignals) {
+      const type = signal.stakeholder?.stakeholder_type || 'UNKNOWN';
+      if (!currentMood[type]) currentMood[type] = signal.sentiment;
+    }
+
+    try {
+      const raw = await this.llmService.generate(
+        `Predict how this proposed decision will affect each stakeholder group.
+
+PROPOSED DECISION:
+Title: ${proposedDecision.title}
+Description: ${proposedDecision.description}
+Category: ${proposedDecision.category || 'General'}
+
+STAKEHOLDER GROUPS:
+${stakeholders.map(s => `- ${s.stakeholder_type}: ${s.description} (veto rights: ${(s.veto_rights as string[]).join(', ')})`).join('\n')}
+
+CURRENT STAKEHOLDER MOOD:
+${JSON.stringify(currentMood, null, 2)}
+
+Return JSON ONLY:
+{
+  "predictions": [
+    {
+      "stakeholderType": "EMPLOYEES",
+      "predictedSentiment": "NEGATIVE",
+      "impactSeverity": "HIGH",
+      "vetoRisk": false,
+      "reasoning": "why this group is affected",
+      "mitigations": ["action to reduce negative impact"]
+    }
+  ],
+  "overallRisk": "MEDIUM",
+  "recommendedActions": ["recommended action before proceeding"]
+}`,
+        {
+          model: 'qwq:32b',
+          systemPrompt: 'You are a stakeholder impact prediction engine. Be realistic and conservative in predictions. Return valid JSON only.',
+        }
+      );
+      const result = raw;
+
+      return typeof result === 'string' ? JSON.parse(result) : result;
+    } catch (error) {
+      logger.warn('LLM impact prediction failed, using heuristic fallback', { error });
+
+      const predictions = stakeholders.map(s => ({
+        stakeholderType: s.stakeholder_type,
+        predictedSentiment: 'NEUTRAL' as string,
+        impactSeverity: 'MEDIUM' as const,
+        vetoRisk: false,
+        reasoning: 'Unable to predict — insufficient historical data for AI analysis',
+        mitigations: ['Consult directly with stakeholder representatives before proceeding'],
+      }));
+
+      return {
+        predictions,
+        overallRisk: 'MEDIUM',
+        recommendedActions: ['Conduct stakeholder consultation before finalizing decision'],
+      };
+    }
+  }
+
+  /**
+   * 10/10: Voice Amplification Scoring
+   * Identifies which stakeholder voices are being under-represented relative to their impact.
+   */
+  async analyzeVoiceAmplification(organizationId: string): Promise<{
+    amplificationScores: Array<{
+      stakeholderType: string;
+      signalVolume: number;
+      impactWeight: number;
+      amplificationGap: number;
+      underRepresented: boolean;
+      recommendation: string;
+    }>;
+    silentStakeholders: string[];
+    overRepresented: string[];
+  }> {
+    const [stakeholders, signalCounts] = await Promise.all([
+      prisma.vox_stakeholders.findMany({
+        where: { organization_id: organizationId, is_active: true },
+      }),
+      prisma.vox_signals.groupBy({
+        by: ['stakeholder_id'],
+        where: {
+          stakeholder: { organization_id: organizationId },
+          created_at: { gte: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000) },
+        },
+        _count: true,
+      }),
+    ]);
+
+    const signalMap: Record<string, number> = {};
+    for (const sc of signalCounts) {
+      signalMap[sc.stakeholder_id] = sc._count;
+    }
+
+    const totalSignals = Object.values(signalMap).reduce((sum, c) => sum + c, 0) || 1;
+    const amplificationScores = stakeholders.map(s => {
+      const volume = signalMap[s.id] || 0;
+      const signalShare = volume / totalSignals;
+      const expectedShare = s.voice_weight / stakeholders.reduce((sum, st) => sum + st.voice_weight, 0);
+      const gap = expectedShare - signalShare;
+
+      return {
+        stakeholderType: s.stakeholder_type,
+        signalVolume: volume,
+        impactWeight: s.voice_weight,
+        amplificationGap: Math.round(gap * 100) / 100,
+        underRepresented: gap > 0.1,
+        recommendation: gap > 0.1
+          ? `Increase ${s.stakeholder_type} representation — they account for ${Math.round(signalShare * 100)}% of signals but should be ~${Math.round(expectedShare * 100)}%`
+          : gap < -0.1
+            ? `${s.stakeholder_type} may be over-represented — consider rebalancing`
+            : `${s.stakeholder_type} representation is balanced`,
+      };
+    });
+
+    return {
+      amplificationScores,
+      silentStakeholders: amplificationScores.filter(a => a.signalVolume === 0).map(a => a.stakeholderType),
+      overRepresented: amplificationScores.filter(a => a.amplificationGap < -0.1).map(a => a.stakeholderType),
+    };
+  }
+
+  /**
+   * 10/10: Stakeholder Health Report
+   * Comprehensive health assessment combining sentiment trends, engagement, and risk.
+   */
+  async getStakeholderHealthReport(organizationId: string): Promise<{
+    overallHealth: number;
+    stakeholderHealth: Array<{
+      stakeholderType: string;
+      healthScore: number;
+      sentimentTrend: 'IMPROVING' | 'STABLE' | 'DECLINING';
+      engagementLevel: 'HIGH' | 'MEDIUM' | 'LOW' | 'NONE';
+      riskLevel: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+      recentSignalCount: number;
+      vetoCount: number;
+    }>;
+    alerts: string[];
+  }> {
+    const stakeholders = await prisma.vox_stakeholders.findMany({
+      where: { organization_id: organizationId, is_active: true },
+    });
+
+    const now = Date.now();
+    const thirtyDaysAgo = new Date(now - 30 * 24 * 60 * 60 * 1000);
+    const sixtyDaysAgo = new Date(now - 60 * 24 * 60 * 60 * 1000);
+
+    const stakeholderHealth = await Promise.all(
+      stakeholders.map(async (s) => {
+        const [recentSignals, olderSignals, vetoCount] = await Promise.all([
+          prisma.vox_signals.findMany({
+            where: { stakeholder_id: s.id, created_at: { gte: thirtyDaysAgo } },
+            select: { sentiment: true },
+          }),
+          prisma.vox_signals.findMany({
+            where: { stakeholder_id: s.id, created_at: { gte: sixtyDaysAgo, lt: thirtyDaysAgo } },
+            select: { sentiment: true },
+          }),
+          prisma.vox_votes.count({
+            where: { stakeholder_id: s.id, veto_exercised: true, created_at: { gte: thirtyDaysAgo } },
+          }),
+        ]);
+
+        const sentimentScore = (signals: Array<{ sentiment: string }>) => {
+          if (signals.length === 0) return 50;
+          const scores: Record<string, number> = { VERY_POSITIVE: 100, POSITIVE: 75, NEUTRAL: 50, NEGATIVE: 25, VERY_NEGATIVE: 0 };
+          return Math.round(signals.reduce((sum, sig) => sum + (scores[sig.sentiment] || 50), 0) / signals.length);
+        };
+
+        const currentScore = sentimentScore(recentSignals);
+        const previousScore = sentimentScore(olderSignals);
+        const trend = currentScore > previousScore + 5 ? 'IMPROVING' as const
+          : currentScore < previousScore - 5 ? 'DECLINING' as const
+          : 'STABLE' as const;
+
+        const engagementLevel = recentSignals.length >= 10 ? 'HIGH' as const
+          : recentSignals.length >= 3 ? 'MEDIUM' as const
+          : recentSignals.length >= 1 ? 'LOW' as const
+          : 'NONE' as const;
+
+        const riskLevel = (vetoCount > 2 || (trend === 'DECLINING' && currentScore < 30)) ? 'CRITICAL' as const
+          : (vetoCount > 0 || currentScore < 40) ? 'HIGH' as const
+          : currentScore < 50 ? 'MEDIUM' as const
+          : 'LOW' as const;
+
+        return {
+          stakeholderType: s.stakeholder_type,
+          healthScore: currentScore,
+          sentimentTrend: trend,
+          engagementLevel,
+          riskLevel,
+          recentSignalCount: recentSignals.length,
+          vetoCount,
+        };
+      })
+    );
+
+    const overallHealth = stakeholderHealth.length > 0
+      ? Math.round(stakeholderHealth.reduce((sum, h) => sum + h.healthScore, 0) / stakeholderHealth.length)
+      : 50;
+
+    const alerts: string[] = [];
+    for (const h of stakeholderHealth) {
+      if (h.riskLevel === 'CRITICAL') alerts.push(`CRITICAL: ${h.stakeholderType} sentiment is critically low with ${h.vetoCount} vetoes in 30 days`);
+      if (h.sentimentTrend === 'DECLINING') alerts.push(`WARNING: ${h.stakeholderType} sentiment is declining`);
+      if (h.engagementLevel === 'NONE') alerts.push(`SILENT: ${h.stakeholderType} has zero signals in 30 days — voice may be suppressed`);
+    }
+
+    return { overallHealth, stakeholderHealth, alerts };
+  }
 }
 
 // Export singleton instance

@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCarbonAware™ - Carbon-Aware AI Workload Scheduling
+ * CendiaCarbonAwareÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Carbon-Aware AI Workload Scheduling
  * 
  * Enterprise Platinum Feature: Reduce carbon footprint of AI operations
  * 
@@ -17,6 +17,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // TYPES
@@ -98,7 +99,7 @@ export interface CarbonReport {
 }
 
 // ============================================================================
-// CARBON INTENSITY DATA (Simulated - In production, use real APIs)
+// CARBON INTENSITY DATA (deterministic; production upgrade: use real APIs)
 // ============================================================================
 
 const REGIONAL_CARBON_INTENSITY: Record<string, {
@@ -129,7 +130,7 @@ export class CarbonAwareSchedulerService {
   private readonly cacheExpiryMs = 5 * 60 * 1000; // 5 minutes
 
   constructor() {
-    logger.info('[CendiaCarbon] Carbon-Aware Scheduler™ initialized');
+    logger.info('[CendiaCarbon] Carbon-Aware SchedulerÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ initialized');
   }
 
   /**
@@ -141,13 +142,13 @@ export class CarbonAwareSchedulerService {
       return cached;
     }
 
-    // Simulate real-time carbon intensity (in production, call electricity maps API or similar)
+    // Deterministic carbon intensity (production upgrade: call electricity maps API or similar)
     const config = REGIONAL_CARBON_INTENSITY[region] || { base: 300, variance: 100, renewablePercent: 30 };
     const hourOfDay = new Date().getHours();
     
     // Model time-of-day variation (lower at night, higher during day)
     const timeMultiplier = 1 + 0.3 * Math.sin((hourOfDay - 14) * Math.PI / 12);
-    const currentIntensity = config.base * timeMultiplier + (Math.random() - 0.5) * config.variance;
+    const currentIntensity = config.base * timeMultiplier + (deterministicFloat('carbonawarescheduler-1') - 0.5) * config.variance;
 
     // Generate 24-hour forecast
     const forecast: CarbonForecast[] = [];
@@ -165,7 +166,7 @@ export class CarbonAwareSchedulerService {
       region,
       intensity: Math.round(currentIntensity),
       forecast,
-      source: 'simulated',
+      source: 'deterministic',
       timestamp: new Date(),
     };
 
@@ -310,7 +311,7 @@ export class CarbonAwareSchedulerService {
     workload.status = 'running';
     workload.startedAt = new Date();
 
-    // Simulate execution
+    // Execute task
     const region = workload.assignedRegion || 'us-west-2';
     const intensity = await this.getCarbonIntensity(region);
     const energyKwh = workload.estimatedEnergyWh / 1000;

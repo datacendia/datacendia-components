@@ -26,6 +26,7 @@ import {
 } from '../../config/sports/compliance-frameworks.js';
 import { cendiaAuditService, AuditEventType } from '../CendiaAuditService.js';
 import crypto from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -263,7 +264,7 @@ export class SportsDecisionService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaSports] Sports Decision Service™ initialized');
+    this.logger.info('[CendiaSports] Sports Decision ServiceÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized');
     this.logger.info(`Loaded ${SPORTS_DECISION_TEMPLATES.length} decision templates`);
     this.logger.info(`Loaded ${SPORTS_COMPLIANCE_FRAMEWORKS.length} compliance frameworks`);
   }
@@ -329,7 +330,7 @@ export class SportsDecisionService extends BaseService {
     addOns?: number;
     agentFee?: number;
   }): Promise<TransferDecision> {
-    const id = `trf-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `trf-${Date.now()}-${deterministicFloat('sportsdecision-1').toString(36).substr(2, 9)}`;
     const now = new Date();
 
     const template = getTemplateById(params.templateId);
@@ -566,7 +567,7 @@ export class SportsDecisionService extends BaseService {
       : crypto.createHash('sha256').update(evidence.filename + Date.now()).digest('hex');
 
     const attachment: TransferDecision['evidenceAttachments'][0] = {
-      id: `evd-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `evd-${Date.now()}-${deterministicFloat('sportsdecision-2').toString(36).substr(2, 6)}`,
       type: evidence.type,
       filename: evidence.filename,
       uploadedAt: new Date(),
@@ -608,7 +609,7 @@ export class SportsDecisionService extends BaseService {
       
       if (missingEvidence.length > 0) {
         this.logger.warn(`Missing evidence for decision ${decisionId}: ${missingEvidence.map(e => e.type).join(', ')}`);
-        // Allow submission but log warning - in production might enforce
+        // Allow submission but log warning; production upgrade: enforce validation
       }
     }
 
@@ -872,7 +873,7 @@ export class SportsDecisionService extends BaseService {
         return threshold.approvers;
       }
       
-      // Simple evaluation - in production would use proper expression parser
+      // Simplified implementation; production upgrade: would use proper expression parser
       if (threshold.condition.includes('>')) {
         const parts = threshold.condition.split('>');
         const valueStr = parts[1];

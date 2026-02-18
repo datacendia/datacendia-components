@@ -7,7 +7,8 @@
 // =============================================================================
 // Scenario builder, sensitivity analysis, assumption testing, outcome comparison.
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import apiClient from '../../../lib/api/client';
 import { cn } from '../../../../lib/utils';
 import {
   GitBranch, Plus, Play, Trash2, BarChart3, TrendingUp, TrendingDown,
@@ -92,8 +93,21 @@ const impactColor = (impact: string) => {
 };
 
 export const WhatIfScenariosPage: React.FC = () => {
-  const [scenarios] = useState(DEMO_SCENARIOS);
+  const [scenarios, setScenarios] = useState(DEMO_SCENARIOS);
   const [selectedId, setSelectedId] = useState<string>('sc2');
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const res = await apiClient.api.get<any>('/horizon/scenarios');
+        if (res.success && res.data?.scenarios?.length > 0) {
+          setScenarios(res.data.scenarios);
+          setSelectedId(res.data.scenarios[0].id);
+        }
+      } catch { /* fallback to demo data */ }
+    };
+    load();
+  }, []);
   const selected = scenarios.find(s => s.id === selectedId);
 
   return (

@@ -3,8 +3,8 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA REDTEAM™ - THE SOVEREIGN ADVERSARIAL ENGINE
-// "We hired the smartest attacker on earth and gave them your keys — on purpose."
+// CENDIA REDTEAMâ„¢ - THE SOVEREIGN ADVERSARIAL ENGINE
+// "We hired the smartest attacker on earth and gave them your keys â€” on purpose."
 //
 // A fully sovereign, always-on adversarial clone that stress-tests
 // policies, ethics, and strategies 24/7.
@@ -14,6 +14,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -577,7 +578,7 @@ Respond with only valid JSON.`;
 
     // Generate synthetic attack path
     const attackVectors = ['policy_bypass', 'ethics_loophole', 'privilege_escalation', 'system_abuse'];
-    const vector = attackVectors[Math.floor(Math.random() * attackVectors.length)];
+    const vector = attackVectors[Math.floor(deterministicFloat('redteam-9') * attackVectors.length)];
 
     return {
       id: crypto.randomUUID(),
@@ -609,15 +610,15 @@ Respond with only valid JSON.`;
         },
       ],
       damageEstimate: {
-        financial: Math.floor(Math.random() * 1000000) + 100000,
-        reputational: Math.floor(Math.random() * 500000) + 50000,
-        operational: Math.floor(Math.random() * 200000) + 20000,
-        legal: Math.floor(Math.random() * 300000) + 30000,
+        financial: deterministicInt(0, 999999, 'redteam-1') + 100000,
+        reputational: deterministicInt(0, 499999, 'redteam-2') + 50000,
+        operational: deterministicInt(0, 199999, 'redteam-3') + 20000,
+        legal: deterministicInt(0, 299999, 'redteam-4') + 30000,
       },
-      probabilityOfSuccess: Math.floor(Math.random() * 40) + 30,
-      detectionDifficulty: Math.floor(Math.random() * 50) + 30,
+      probabilityOfSuccess: deterministicInt(0, 39, 'redteam-5') + 30,
+      detectionDifficulty: deterministicInt(0, 49, 'redteam-6') + 30,
       timeToExploit: '2-8 hours',
-      severity: Math.random() > 0.7 ? 'critical' : Math.random() > 0.5 ? 'high' : 'medium',
+      severity: deterministicFloat('redteam-7') > 0.7 ? 'critical' : deterministicFloat('redteam-8') > 0.5 ? 'high' : 'medium',
       status: 'active',
       discoveredAt: new Date(),
     };

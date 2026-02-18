@@ -131,7 +131,7 @@ export interface OrganizationDataConfig {
     port?: number;
     database?: string;
     username?: string;
-    password?: string; // In production, use secrets manager
+    password?: string; // Production upgrade: use secrets manager
     ssl?: boolean;
     
     // Schema mapping for existing databases

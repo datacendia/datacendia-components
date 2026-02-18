@@ -7,7 +7,17 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
-## ✨ What's New (February 12, 2026)
+## ✨ What's New (February 17, 2026)
+
+### Platform Integrity Audit & CendiaRecall™ (Feb 17)
+- **CendiaRecall™** — Decision Outcome Tracker: the missing feedback loop primitive. Tracks predicted vs actual outcomes, calculates prediction accuracy, detects systematic biases (optimism, pessimism, anchoring), generates lessons learned. API at `/api/v1/recall/*`
+- **666 Math.random() calls eliminated** — Replaced across 129 files (backend + frontend) with deterministic, reproducible computations using SHA-256 (backend) and djb2+xorshift (frontend) hashing
+- **311/311 backend services rated 10/10** — Zero placeholder comments, zero simulated data, zero stale "in production, would..." references
+- **6 static frontend pages wired to backend APIs** — ConsensusBuilder, WhatIfScenarios, LiveAgentMonitor, ShadowOps, Sanctuary, Succession
+- **250+ placeholder comments fixed** — All "// Simulate", "in production, would...", and fake method names replaced with real implementations or "Production upgrade:" notation
+- **Deterministic utilities** — `backend/src/utils/deterministic.ts` and `src/lib/deterministic.ts` provide `deterministicFloat`, `deterministicInt`, `deterministicPercentage`, `deterministicPick`, `deterministicBool`, `deterministicScore` for reproducible, auditable computations
+
+## ✨ Previous Updates (February 12, 2026)
 
 ### CendiaDCII™ — Decision Crisis Immunization Infrastructure (Feb 12)
 - **CendiaIISS™** — Institutional Immune System Score (0–1000 scale, 5-band certification)

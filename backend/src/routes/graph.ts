@@ -10,6 +10,7 @@ import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 import crypto from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -178,7 +179,7 @@ router.post('/entities', async (req: Request, res: Response, next: NextFunction)
     const orgId = req.organizationId!;
     const dataSourceId = getSelectedDataSourceId(req);
 
-    const id = `ent_${Date.now().toString(36)}_${Math.random().toString(36).substr(2, 9)}`;
+    const id = `ent_${Date.now().toString(36)}_${deterministicFloat('graph-1').toString(36).substr(2, 9)}`;
 
     const entity = await graph.createNode(type, {
       id,

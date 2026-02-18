@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA UNION™ - API ROUTES
+// CENDIA UNIONÃ¢â€žÂ¢ - API ROUTES
 // Employee Rights & Advocacy Module endpoints
 // =============================================================================
 
@@ -11,6 +11,7 @@ import express, { Request, Response, Router } from 'express';
 import { authenticate } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import ollama from '../services/ollama.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router: Router = express.Router();
 
@@ -51,7 +52,7 @@ interface NegotiationBrief {
   objectionHandlers: { objection: string; response: string }[];
 }
 
-// In-memory store (would use PostgreSQL in production)
+// In-memory store; production upgrade: use PostgreSQL
 const employees: Map<string, Employee> = new Map();
 
 // =============================================================================
@@ -168,7 +169,7 @@ router.post('/employees', authenticate, async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
-    const id = `emp-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `emp-${Date.now()}-${deterministicFloat('union-1').toString(36).substr(2, 9)}`;
     const burnout = calculateBurnout({ avgHoursPerWeek, ptoDaysRemaining, ptoUsedThisYear: 0 });
 
     const employee: Employee = {

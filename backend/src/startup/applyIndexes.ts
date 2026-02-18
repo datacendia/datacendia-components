@@ -4,10 +4,10 @@
 
 /**
  * DATACENDIA PLATFORM - AUTO-APPLY DATABASE INDEXES
- * 
+ *
  * Runs on server startup after PostgreSQL connects.
  * Uses CREATE INDEX IF NOT EXISTS so it's safe to run repeatedly.
- * Idempotent — no-op if indexes already exist.
+ * Idempotent â€” no-op if indexes already exist.
  */
 
 import { PrismaClient } from '@prisma/client';
@@ -67,20 +67,22 @@ const PERFORMANCE_INDEXES = [
   // Partial indexes for performance on filtered queries
   'CREATE INDEX IF NOT EXISTS idx_decisions_pending ON decisions(organization_id, status) WHERE status = \'pending\'',
   'CREATE INDEX IF NOT EXISTS idx_decisions_approved ON decisions(organization_id, status) WHERE status = \'approved\'',
-  'CREATE INDEX IF NOT EXISTS idx_deliberations_active ON deliberations(organization_id, status) WHERE status IN (\'active\', \'in_progress\')',
+  // Fixed: Use correct enum values (IN_PROGRESS, PENDING) instead of invalid 'active'
+  'CREATE INDEX IF NOT EXISTS idx_deliberations_active ON deliberations(organization_id, status) WHERE status IN (\'IN_PROGRESS\', \'PENDING\')',
 
   // Notifications - User inbox queries
   'CREATE INDEX IF NOT EXISTS idx_notifications_user_read ON notifications(user_id, read) WHERE read = false',
   'CREATE INDEX IF NOT EXISTS idx_notifications_org_created ON notifications(organization_id, created_at DESC)',
 
   // Sessions - Token lookup
-  'CREATE INDEX IF NOT EXISTS idx_sessions_token ON sessions(token)',
+  // Fixed: Column is refresh_token_hash, not token
+  'CREATE INDEX IF NOT EXISTS idx_sessions_refresh_token ON sessions(refresh_token_hash)',
   'CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id)',
-  'CREATE INDEX IF NOT EXISTS idx_sessions_expires ON sessions(expires_at) WHERE expires_at > NOW()',
+  // Fixed: Use IMMUTABLE expression instead of NOW() for partial index
+  'CREATE INDEX IF NOT EXISTS idx_sessions_expires ON sessions(expires_at)',
 
-  // Organization members - Role lookup
-  'CREATE INDEX IF NOT EXISTS idx_org_members_user ON organization_members(user_id)',
-  'CREATE INDEX IF NOT EXISTS idx_org_members_org_role ON organization_members(organization_id, role)',
+  // Team members - Role lookup (replaces non-existent organization_members)
+  'CREATE INDEX IF NOT EXISTS idx_team_members_user ON team_members(user_id)',
 ];
 
 export async function applyPerformanceIndexes(prisma: PrismaClient): Promise<void> {
@@ -101,7 +103,7 @@ export async function applyPerformanceIndexes(prisma: PrismaClient): Promise<voi
       if (code === '42P07') {
         skipped++;
       } else if (code === '42P01' || getErrorMessage(error)?.includes('does not exist')) {
-        // Table doesn't exist yet (migrations haven't run) — skip silently
+        // Table doesn't exist yet (migrations haven't run) â€” skip silently
         skipped++;
       } else {
         failed++;

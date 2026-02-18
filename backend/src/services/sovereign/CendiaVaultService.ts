@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAVAULT™ - Unified Evidence Storage Service
+// CENDIAVAULTâ„¢ - Unified Evidence Storage Service
 // The secure vault for all decision artifacts, audit trails, and evidence bundles
 // Consolidates: Decision Packets, Audit Ledger, Evidence Bundles, Signed Reports
 // =============================================================================
@@ -135,7 +135,7 @@ export class CendiaVaultService {
 
     logger.info('[CendiaVault] Initializing unified evidence storage...');
     
-    // In production, this would connect to:
+    // Production upgrade: connect to:
     // - PostgreSQL for metadata
     // - Object storage (S3/MinIO) for content
     // - Integrate with existing services
@@ -363,7 +363,7 @@ export class CendiaVaultService {
       return Buffer.from(artifact.encryptedContent, 'base64');
     }
 
-    // In production, fetch from object storage
+    // Production upgrade: fetch from object storage
     return null;
   }
 
@@ -508,7 +508,7 @@ export class CendiaVaultService {
     // Verify signature (would call CendiaNotary)
     let signatureValid: boolean | undefined;
     if (artifact.signature) {
-      // In production, verify with KeyManagementService
+      // Production upgrade: verify with KeyManagementService
       signatureValid = true; // Placeholder
     }
 

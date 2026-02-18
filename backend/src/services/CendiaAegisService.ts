@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaAegis™ - Strategic Defense Intelligence
+ * CendiaAegisâ„¢ - Strategic Defense Intelligence
  * 
  * "Real-time threat detection, containment, and resilience modeling."
  * 
@@ -20,6 +20,7 @@
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import { EnhancedLLMService } from './EnhancedLLMService.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -1141,8 +1142,8 @@ Respond as JSON:
           })),
           correlationType: 'TEMPORAL',
           compositeRisk: severityScore,
-          attackChain: cluster.length >= 4 ? 'Potential coordinated activity — multiple signals in rapid succession' : null,
-          recommendation: `${cluster.length} signals within 1 hour — investigate for coordinated attack pattern`,
+          attackChain: cluster.length >= 4 ? 'Potential coordinated activity â€” multiple signals in rapid succession' : null,
+          recommendation: `${cluster.length} signals within 1 hour â€” investigate for coordinated attack pattern`,
         });
       }
     }
@@ -1178,7 +1179,7 @@ Respond as JSON:
             correlationType: 'ENTITY',
             compositeRisk: severityScore,
             attackChain: null,
-            recommendation: `Multiple signals reference "${entity}" — potential targeted threat against this entity`,
+            recommendation: `Multiple signals reference "${entity}" â€” potential targeted threat against this entity`,
           });
         }
       }
@@ -1208,7 +1209,7 @@ Respond as JSON:
           correlationType: 'SOURCE',
           compositeRisk: severityScore,
           attackChain: null,
-          recommendation: `${sourceSignals.length} signals from "${source}" — evaluate source reliability and signal coherence`,
+          recommendation: `${sourceSignals.length} signals from "${source}" â€” evaluate source reliability and signal coherence`,
         });
       }
     }
@@ -1279,7 +1280,7 @@ Respond as JSON:
     };
     generatedAt: Date;
   }> {
-    // NIST 800-61 based playbook templates (domain knowledge — not simulated)
+    // NIST 800-61 based playbook templates (domain knowledge â€” not simulated)
     const PLAYBOOK_TEMPLATES: Record<string, {
       title: string;
       preparationSteps: string[];
@@ -1610,7 +1611,7 @@ Respond as JSON:
         finding: `${activeThreats.length} active unresolved threats require attention`,
         severity: activeThreats.some((t: any) => t.severity === 'CRITICAL') ? 'HIGH' : 'MEDIUM',
         evidence: activeThreats.slice(0, 5).map((t: any) => `${t.title} (${t.threat_type}, active since ${t.created_at.toISOString().split('T')[0]})`),
-        recommendation: 'Prioritize resolution of active threats — each represents an open risk',
+        recommendation: 'Prioritize resolution of active threats â€” each represents an open risk',
       });
     }
 
@@ -1645,7 +1646,7 @@ Respond as JSON:
 
     return {
       organizationId,
-      huntId: `hunt-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      huntId: `hunt-${Date.now()}-${deterministicFloat('aegis-1').toString(36).substr(2, 6)}`,
       hypothesis,
       findings,
       dataSourcesChecked: ['Aegis Signals', 'Aegis Threats', 'System Alerts', 'Audit Logs'],

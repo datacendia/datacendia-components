@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * ExpressIntelligence™ - Quick Intelligence Without Council
+ * ExpressIntelligenceâ„¢ - Quick Intelligence Without Council
  * 
  * "Use services normally. Council available for complex decisions."
  * 
@@ -20,6 +20,7 @@
 
 import { logger } from '../../utils/logger.js';
 import { EnhancedLLMService } from '../EnhancedLLMService.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -165,7 +166,7 @@ export class ExpressIntelligenceService {
    */
   async analyze(request: ExpressRequest): Promise<ExpressResult> {
     const startTime = Date.now();
-    const id = `express-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    const id = `express-${Date.now()}-${deterministicFloat('expressintelligence-1').toString(36).slice(2, 8)}`;
 
     logger.info(`[Express] Starting ${request.domain} analysis for org ${request.organizationId}`);
 
@@ -279,7 +280,7 @@ Respond in JSON format:
     if (matchedKeyword) {
       return {
         shouldEscalate: true,
-        reason: `Query involves "${matchedKeyword}" — Council deliberation recommended for multi-perspective analysis`,
+        reason: `Query involves "${matchedKeyword}" â€” Council deliberation recommended for multi-perspective analysis`,
       };
     }
 

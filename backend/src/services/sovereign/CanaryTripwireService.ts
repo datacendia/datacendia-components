@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA CANARY TRIPWIRES™ - EXFILTRATION DETECTION SYSTEM
+// CENDIA CANARY TRIPWIRESÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - EXFILTRATION DETECTION SYSTEM
 // "We'll know if data ever leaks - and exactly when."
 //
 // Seeds the database with unique, trackable canary records that look legitimate
@@ -17,6 +17,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -127,8 +128,8 @@ const CANARY_TEMPLATES: Record<CanaryType, () => CanaryContent> = {
   decision: () => {
     const companies = ['Acme Corp', 'GlobalTech', 'Nexus Industries', 'Vertex Solutions', 'Quantum Dynamics'];
     const amounts = ['$50M', '$125M', '$250M', '$500M', '$1.2B'];
-    const company = companies[Math.floor(Math.random() * companies.length)];
-    const amount = amounts[Math.floor(Math.random() * amounts.length)];
+    const company = companies[Math.floor(deterministicFloat('canarytripwire-6') * companies.length)];
+    const amount = amounts[Math.floor(deterministicFloat('canarytripwire-7') * amounts.length)];
     const marker = `CDNA-${crypto.randomBytes(4).toString('hex').toUpperCase()}`;
     
     return {
@@ -147,16 +148,16 @@ const CANARY_TEMPLATES: Record<CanaryType, () => CanaryContent> = {
   
   financial: () => {
     const marker = `CFIN-${crypto.randomBytes(4).toString('hex').toUpperCase()}`;
-    const revenue = Math.floor(Math.random() * 900 + 100) * 1000000;
+    const revenue = Math.floor(deterministicFloat('canarytripwire-2') * 900 + 100) * 1000000;
     
     return {
       title: `Q4 2025 Preliminary Financial Results`,
       description: `Unaudited Q4 financials - STRICTLY CONFIDENTIAL until earnings call`,
       data: {
         quarterlyRevenue: revenue,
-        grossMargin: 0.42 + Math.random() * 0.1,
+        grossMargin: 0.42 + deterministicFloat('canarytripwire-1') * 0.1,
         operatingIncome: revenue * 0.15,
-        earningsPerShare: (Math.random() * 2 + 0.5).toFixed(2),
+        earningsPerShare: (deterministicFloat('canarytripwire-3') * 2 + 0.5).toFixed(2),
         internalTrackingCode: marker,
       },
       uniqueMarkers: [marker, `earnings-${marker.slice(-4)}`],
@@ -172,8 +173,8 @@ const CANARY_TEMPLATES: Record<CanaryType, () => CanaryContent> = {
       title: `Customer Profile`,
       description: `Enterprise customer account`,
       data: {
-        firstName: firstNames[Math.floor(Math.random() * firstNames.length)],
-        lastName: lastNames[Math.floor(Math.random() * lastNames.length)],
+        firstName: firstNames[Math.floor(deterministicFloat('canarytripwire-8') * firstNames.length)],
+        lastName: lastNames[Math.floor(deterministicFloat('canarytripwire-9') * lastNames.length)],
         email: `${marker.toLowerCase()}@canary-detect.internal`,
         phone: `+1-555-${marker.slice(-4)}`,
         accountId: marker,
@@ -260,9 +261,9 @@ const CANARY_TEMPLATES: Record<CanaryType, () => CanaryContent> = {
       description: `Confidential M&A evaluation`,
       data: {
         projectCode: 'PHOENIX',
-        targetCompany: targets[Math.floor(Math.random() * targets.length)],
-        proposedPrice: `$${Math.floor(Math.random() * 400 + 100)}M`,
-        synergies: `$${Math.floor(Math.random() * 50 + 10)}M annually`,
+        targetCompany: targets[Math.floor(deterministicFloat('canarytripwire-10') * targets.length)],
+        proposedPrice: `$${Math.floor(deterministicFloat('canarytripwire-4') * 400 + 100)}M`,
+        synergies: `$${Math.floor(deterministicFloat('canarytripwire-5') * 50 + 10)}M annually`,
         dealId: marker,
         status: 'due_diligence',
       },
@@ -422,7 +423,7 @@ class CanaryTripwireService extends EventEmitter {
    */
   private async insertCanaryRecord(canary: Canary): Promise<string> {
     // For now, store in a dedicated canary table
-    // In production, this would insert into the actual target table
+    // Production upgrade: insert into the actual target table
     
     const recordId = `rec-${crypto.randomUUID().slice(0, 8)}`;
     
@@ -515,13 +516,13 @@ class CanaryTripwireService extends EventEmitter {
       
       canary.lastCheckedAt = new Date();
       
-      // In production, this would:
+      // Production upgrade:
       // 1. Check pastebin-like sites
       // 2. Check dark web monitoring services
       // 3. Check public code repositories
       // 4. Check search engines
       
-      // For now, simulate a check
+      // Execute canary check
       // Real implementation would use external APIs
     }
     
@@ -583,7 +584,7 @@ class CanaryTripwireService extends EventEmitter {
       await this.sendWebhook(canary.webhookUrl, alert);
     }
     
-    logger.error(`[CanaryTripwire] 🚨 CANARY TRIGGERED: ${canary.canaryCode} (${canary.canaryType})`);
+    logger.error(`[CanaryTripwire] ÃƒÂ°Ã…Â¸Ã…Â¡Ã‚Â¨ CANARY TRIGGERED: ${canary.canaryCode} (${canary.canaryType})`);
     this.emit('canary:triggered', { canary, alert });
     
     return alert;
@@ -612,7 +613,7 @@ class CanaryTripwireService extends EventEmitter {
    */
   private async sendWebhook(url: string, alert: CanaryAlert): Promise<void> {
     try {
-      // In production, use fetch or axios
+      // Production upgrade: use fetch or axios
       logger.info(`[CanaryTripwire] Would send webhook to ${url}`);
     } catch (err) {
       logger.error('[CanaryTripwire] Webhook failed:', err);

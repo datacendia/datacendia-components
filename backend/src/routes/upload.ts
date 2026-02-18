@@ -13,6 +13,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import { spreadsheetConnector } from '../core/connectors/implementations/SpreadsheetConnector.js';
 import { getErrorMessage } from '../utils/errors.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -27,7 +28,7 @@ const storage = multer.diskStorage({
     cb(null, uploadDir);
   },
   filename: (_req: Express.Request, file: Express.Multer.File, cb: (error: Error | null, filename: string) => void) => {
-    const uniqueSuffix = `${Date.now()}-${Math.round(Math.random() * 1E9)}`;
+    const uniqueSuffix = `${Date.now()}-${Math.round(deterministicFloat('upload-1') * 1E9)}`;
     cb(null, `${uniqueSuffix}-${file.originalname}`);
   },
 });

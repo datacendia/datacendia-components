@@ -285,7 +285,7 @@ export class FIXAdapter extends SovereignAdapter {
     if (this.isRunning) return;
 
     // FIX session would connect here
-    // In production, use a proper FIX engine like quickfixj or fix-parser
+    // Production upgrade: use proper FIX engine
     this.log('info', 'FIX adapter started (session management ready)', {
       version: this.fixConfig.fixVersion,
       sender: this.fixConfig.senderCompId,
@@ -297,7 +297,7 @@ export class FIXAdapter extends SovereignAdapter {
 
   async stop(): Promise<void> {
     if (!this.isRunning) return;
-    // Send logout message in production
+    // Production upgrade: send logout message
     this.isRunning = false;
     this.log('info', 'FIX adapter stopped');
   }
@@ -452,7 +452,7 @@ export class MQTTAdapter extends SovereignAdapter {
     if (this.isRunning) return;
 
     // MQTT client would connect here
-    // In production, use mqtt.js or similar
+    // Production upgrade: use mqtt.js
     this.log('info', 'MQTT adapter started (subscription ready)', {
       broker: this.mqttConfig.brokerUrl,
       topics: this.mqttConfig.topics,

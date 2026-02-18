@@ -9,6 +9,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import { cn } from '../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import { 
   Shield, AlertTriangle, CheckCircle, XCircle, Clock, 
   Eye, Lock, Unlock, TrendingUp, Bot,
@@ -139,7 +140,7 @@ const RuleCard: React.FC<{ rule: PolicyRule; onToggle: (id: string) => void }> =
       
       <div className="flex items-center justify-between text-[10px]">
         <span className="text-gray-500">
-          {rule.threshold && `Threshold: ${rule.thresholdType === 'max' ? '≤' : '≥'} ${rule.threshold.toLocaleString()}`}
+          {rule.threshold && `Threshold: ${rule.thresholdType === 'max' ? 'â‰¤' : 'â‰¥'} ${rule.threshold.toLocaleString()}`}
         </span>
         <span className="text-amber-400">Triggered {rule.triggeredCount}x</span>
       </div>
@@ -256,7 +257,7 @@ const AgentCard: React.FC<{ agent: GovernanceAgent }> = ({ agent }) => (
       )} />
     </div>
     <p className="text-[10px] text-gray-400 mb-1">{agent.rulesMonitored} rules monitored</p>
-    <p className="text-[10px] text-cyan-400">⚡ {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">âš¡ {agent.action}</p>
   </div>
 );
 
@@ -273,7 +274,7 @@ export const RealTimePolicyEnforcement: React.FC<{ className?: string }> = ({ cl
   // Generate random violations
   const generateViolation = useCallback(() => {
     if (rules.length === 0) {return;}
-    const randomRule = rules[Math.floor(Math.random() * rules.length)];
+    const randomRule = rules[Math.floor(deterministicFloat('realtimepolicyenforcement-7') * rules.length)];
     if (!randomRule) {return;}
     
     const decisionNames = [
@@ -284,7 +285,7 @@ export const RealTimePolicyEnforcement: React.FC<{ className?: string }> = ({ cl
       'Cloud Infrastructure Upgrade',
       'Customer Data Export',
     ];
-    const decisionName = decisionNames[Math.floor(Math.random() * decisionNames.length)] || 'Decision';
+    const decisionName = decisionNames[Math.floor(deterministicFloat('realtimepolicyenforcement-8') * decisionNames.length)] || 'Decision';
     
     const newViolation: PolicyViolation = {
       id: `v-${Date.now()}`,
@@ -308,19 +309,19 @@ export const RealTimePolicyEnforcement: React.FC<{ className?: string }> = ({ cl
     
     const newDecision: LiveDecision = {
       id: `d-${Date.now()}`,
-      title: titles[Math.floor(Math.random() * titles.length)] || 'Decision',
-      department: departments[Math.floor(Math.random() * departments.length)] || 'General',
-      amount: Math.floor(Math.random() * 500000),
-      riskScore: Math.floor(Math.random() * 10) + 1,
+      title: titles[Math.floor(deterministicFloat('realtimepolicyenforcement-9') * titles.length)] || 'Decision',
+      department: departments[Math.floor(deterministicFloat('realtimepolicyenforcement-10') * departments.length)] || 'General',
+      amount: deterministicInt(0, 499999, 'realtimepolicyenforcement-1'),
+      riskScore: deterministicInt(0, 9, 'realtimepolicyenforcement-2') + 1,
       status: 'pending',
-      violations: Math.random() > 0.6 ? ['Budget', 'Compliance'] : [],
+      violations: deterministicFloat('realtimepolicyenforcement-3') > 0.6 ? ['Budget', 'Compliance'] : [],
     };
 
     setDecisions(prev => {
       const updated = [newDecision, ...prev.slice(0, 7)];
       // Auto-resolve some
       return updated.map(d => {
-        if (d.status === 'pending' && Math.random() > 0.7) {
+        if (d.status === 'pending' && deterministicFloat('realtimepolicyenforcement-4') > 0.7) {
           return { ...d, status: d.violations.length > 0 ? 'held' : 'approved' as const };
         }
         return d;
@@ -348,7 +349,7 @@ export const RealTimePolicyEnforcement: React.FC<{ className?: string }> = ({ cl
     const interval = setInterval(() => {
       setAgents(prev => prev.map(a => ({
         ...a,
-        status: Math.random() > 0.7 ? 'reviewing' : Math.random() > 0.5 ? 'enforcing' : 'monitoring',
+        status: deterministicFloat('realtimepolicyenforcement-5') > 0.7 ? 'reviewing' : deterministicFloat('realtimepolicyenforcement-6') > 0.5 ? 'enforcing' : 'monitoring',
       })));
     }, 4000);
 

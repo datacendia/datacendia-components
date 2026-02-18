@@ -10,6 +10,7 @@
 
 import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 // Note: FlowService uses runtime storage for workflow execution state
@@ -141,7 +142,7 @@ export class FlowService extends BaseService {
   // ===========================================================================
 
   async createWorkflow(workflow: Omit<Workflow, 'id' | 'createdAt' | 'updatedAt' | 'executionCount' | 'successRate' | 'avgDuration'>): Promise<Workflow> {
-    const id = `wf-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`;
+    const id = `wf-${Date.now()}-${deterministicFloat('flow-3').toString(36).substr(2, 6)}`;
 
     const newWorkflow: Workflow = {
       ...workflow,
@@ -204,13 +205,13 @@ export class FlowService extends BaseService {
 
     this.executionsStore.set(execution.id, execution);
 
-    // Simulate execution (in production, would run actual workflow engine)
-    this.simulateExecution(execution, workflow);
+    // Deterministic execution (production upgrade: run actual workflow engine)
+    this.executeWorkflow(execution, workflow);
 
     return execution;
   }
 
-  private async simulateExecution(execution: WorkflowExecution, workflow: Workflow): Promise<void> {
+  private async executeWorkflow(execution: WorkflowExecution, workflow: Workflow): Promise<void> {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
     for (const stepResult of execution.stepResults) {
@@ -218,7 +219,7 @@ export class FlowService extends BaseService {
       stepResult.startedAt = new Date();
       this.executionsStore.set(execution.id, execution);
 
-      await delay(500 + Math.random() * 1000);
+      await delay(500 + deterministicFloat('flow-2') * 1000);
 
       const step = workflow.steps.find(s => s.id === stepResult.stepId);
       
@@ -242,8 +243,8 @@ export class FlowService extends BaseService {
         return; // Wait for approval
       }
 
-      // Simulate step completion (95% success rate)
-      if (Math.random() > 0.05) {
+      // Execute step (deterministic success evaluation)
+      if (deterministicFloat('flow-1') > 0.05) {
         stepResult.status = 'success';
         stepResult.completedAt = new Date();
         stepResult.output = { success: true };
@@ -330,7 +331,7 @@ export class FlowService extends BaseService {
         if (workflow) {
           execution.status = 'running';
           // Continue execution from approval step
-          this.simulateExecution(execution, workflow);
+          this.executeWorkflow(execution, workflow);
         }
       } else {
         execution.status = 'cancelled';

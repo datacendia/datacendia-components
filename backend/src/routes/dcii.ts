@@ -1,17 +1,17 @@
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+ï»¿// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
 /**
- * DCII - Decision Crisis Immunization Infrastructure™ API Routes
+ * DCII - Decision Crisis Immunization Infrastructureâ„¢ API Routes
  * 
  * Comprehensive API for all 6 DCII services supporting the 9 Primitives:
- * 1. IISS (Institutional Immune System Score) — scores all 9 primitives
- * 2. Cognitive Bias Mitigation (P6) — detect & challenge biases
- * 3. Synthetic Media Authentication (P8) — deepfake detection & C2PA
- * 4. Cross-Jurisdiction Compliance (P9) — conflict detection
- * 5. RFC 3161 Timestamp Authority (P1) — cryptographic timestamps
- * 6. Decision Similarity — proactive historical matching
+ * 1. IISS (Institutional Immune System Score) â€” scores all 9 primitives
+ * 2. Cognitive Bias Mitigation (P6) â€” detect & challenge biases
+ * 3. Synthetic Media Authentication (P8) â€” deepfake detection & C2PA
+ * 4. Cross-Jurisdiction Compliance (P9) â€” conflict detection
+ * 5. RFC 3161 Timestamp Authority (P1) â€” cryptographic timestamps
+ * 6. Decision Similarity â€” proactive historical matching
  */
 
 import { Router, Request, Response } from 'express';
@@ -27,6 +27,11 @@ import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
+// Health endpoint
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'dcii', timestamp: new Date().toISOString() } });
+});
+
 // All DCII routes require authentication (devAuth allows bypass in development)
 router.use(devAuth);
 
@@ -38,18 +43,18 @@ router.get('/status', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: {
-      service: 'CendiaDCII™ — Decision Crisis Immunization Infrastructure',
+      service: 'CendiaDCIIâ„¢ â€” Decision Crisis Immunization Infrastructure',
       version: '3.0.0',
       pillar: 'dcii',
       tier: 'foundation',
-      tierDescription: 'Tier 1: Foundation — Make decisions ? Understand them ? Prove them',
+      tierDescription: 'Tier 1: Foundation â€” Make decisions ? Understand them ? Prove them',
       modules: {
-        iiss: { status: 'operational', description: 'CendiaIISS™ — Institutional Immune System Score (9 primitives)' },
-        cognitiveBias: { status: 'operational', description: 'CendiaBiasMitigation™ — Cognitive Bias Mitigation (P6)' },
-        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuth™ — Synthetic Media Authentication (P8)' },
-        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdiction™ — Cross-Jurisdiction Conflict Detection (P9)' },
-        timestampAuthority: { status: 'operational', description: 'CendiaTimestamp™ — RFC 3161 Timestamp Authority (P1)' },
-        decisionSimilarity: { status: 'operational', description: 'CendiaSimilarity™ — Decision Similarity Engine' },
+        iiss: { status: 'operational', description: 'CendiaIISSâ„¢ â€” Institutional Immune System Score (9 primitives)' },
+        cognitiveBias: { status: 'operational', description: 'CendiaBiasMitigationâ„¢ â€” Cognitive Bias Mitigation (P6)' },
+        syntheticMedia: { status: 'operational', description: 'CendiaMediaAuthâ„¢ â€” Synthetic Media Authentication (P8)' },
+        crossJurisdiction: { status: 'operational', description: 'CendiaJurisdictionâ„¢ â€” Cross-Jurisdiction Conflict Detection (P9)' },
+        timestampAuthority: { status: 'operational', description: 'CendiaTimestampâ„¢ â€” RFC 3161 Timestamp Authority (P1)' },
+        decisionSimilarity: { status: 'operational', description: 'CendiaSimilarityâ„¢ â€” Decision Similarity Engine' },
       },
       primitives: [
         { id: 'P1', name: 'Discovery-Time Proof', question: 'When did you know?', service: 'CendiaTimestamp' },
@@ -590,3 +595,4 @@ router.get('/similarity/result/:resultId', (req: Request, res: Response) => {
 });
 
 export default router;
+

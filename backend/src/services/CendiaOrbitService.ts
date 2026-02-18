@@ -8,7 +8,7 @@
  * =============================================================================
  * The Influence Simulation Engine - Core graph traversal and propagation logic.
  * 
- * CendiaOrbit™ is the ENGINE that powers CendiaCascade™ (Butterfly Effect).
+ * CendiaOrbitâ„¢ is the ENGINE that powers CendiaCascadeâ„¢ (Butterfly Effect).
  * It walks the organizational/system graph to find how changes propagate.
  * 
  * Key Responsibilities:
@@ -206,7 +206,7 @@ export class CendiaOrbitService extends EventEmitter {
    * Import graph from Neo4j or external source
    */
   async importFromNeo4j(neo4jDriver: unknown): Promise<void> {
-    // In production, query Neo4j and populate the graph
+    // Production upgrade: query Neo4j and populate the graph
     // This is a placeholder for the integration
     this.emit('graph:imported', { nodeCount: this.graph.nodes.size });
   }

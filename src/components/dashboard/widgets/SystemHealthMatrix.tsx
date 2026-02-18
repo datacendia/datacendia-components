@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { CheckCircle, AlertTriangle, XCircle, MinusCircle } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 interface Service {
   id: string;
@@ -80,7 +81,7 @@ const StatusIcon: React.FC<{ status: Service['status'] }> = ({ status }) => {
 const StatusBar: React.FC<{ uptime: number }> = ({ uptime: _uptime }) => {
   // Generate 90 days of status bars (uptime used for seeding in production)
   const days = Array.from({ length: 90 }, () => {
-    const rand = Math.random();
+    const rand = deterministicFloat('systemhealthmatrix-4');
     if (rand > 0.98) {return 'major';}
     if (rand > 0.95) {return 'partial';}
     if (rand > 0.92) {return 'degraded';}
@@ -147,19 +148,19 @@ export const SystemHealthMatrix: React.FC<{ className?: string }> = ({ className
       setGroups(prev => prev.map(group => ({
         ...group,
         services: group.services.map((service): Service => {
-          if (Math.random() > 0.95) {
+          if (deterministicFloat('systemhealthmatrix-2') > 0.95) {
             const statuses: Service['status'][] = ['operational', 'operational', 'operational', 'degraded', 'partial'];
-            const newStatus = statuses[Math.floor(Math.random() * statuses.length)] as Service['status'];
+            const newStatus = statuses[Math.floor(deterministicFloat('systemhealthmatrix-5') * statuses.length)] as Service['status'];
             return {
               ...service,
               status: newStatus,
-              latency: newStatus === 'operational' ? service.latency * (0.9 + Math.random() * 0.2) : service.latency * (1.5 + Math.random()),
+              latency: newStatus === 'operational' ? service.latency * (0.9 + deterministicFloat('systemhealthmatrix-3') * 0.2) : service.latency * (1.5 + deterministicFloat('systemhealthmatrix-6')),
               lastIncident: newStatus !== 'operational' ? 'Just now' : service.lastIncident,
             };
           }
           return {
             ...service,
-            latency: Math.max(1, service.latency + (Math.random() - 0.5) * 10),
+            latency: Math.max(1, service.latency + (deterministicFloat('systemhealthmatrix-1') - 0.5) * 10),
           };
         }),
       })));
@@ -190,7 +191,7 @@ export const SystemHealthMatrix: React.FC<{ className?: string }> = ({ className
           <h2 className="text-lg font-semibold">{overallStatus}</h2>
         </div>
         <p className="text-xs opacity-75">
-          {operational}/{allServices.length} services operational • {avgUptime.toFixed(2)}% uptime
+          {operational}/{allServices.length} services operational â€¢ {avgUptime.toFixed(2)}% uptime
         </p>
       </div>
 
@@ -198,7 +199,7 @@ export const SystemHealthMatrix: React.FC<{ className?: string }> = ({ className
       <div className="mb-4 p-3 bg-sovereign-elevated/30 rounded-lg border border-sovereign-border-subtle">
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs text-gray-400">90-day uptime history</span>
-          <span className="text-xs text-gray-500">Today →</span>
+          <span className="text-xs text-gray-500">Today â†’</span>
         </div>
         <StatusBar uptime={avgUptime} />
       </div>

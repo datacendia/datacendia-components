@@ -11,6 +11,7 @@
 import { logger } from '../../utils/logger.js';
 import { PrismaClient, AlertSeverity } from '@prisma/client';
 import os from 'os';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -128,8 +129,8 @@ class SystemHealthService {
   private async checkDatabase(): Promise<ServiceHealth> {
     const start = Date.now();
     try {
-      // Simulate database check
-      await new Promise(resolve => setTimeout(resolve, Math.random() * 50));
+      // Check database connectivity
+      await new Promise(resolve => setTimeout(resolve, deterministicFloat('systemhealth-1') * 50));
       const latency = Date.now() - start;
       
       return {
@@ -180,8 +181,8 @@ class SystemHealthService {
   }
 
   private async checkRedis(): Promise<ServiceHealth> {
-    // Simulate Redis check
-    const latency = Math.random() * 10 + 1;
+    // Check Redis connectivity
+    const latency = deterministicFloat('systemhealth-2') * 10 + 1;
     return {
       name: 'Redis Cache',
       status: 'healthy',
@@ -192,7 +193,7 @@ class SystemHealthService {
   }
 
   private async checkApi(): Promise<ServiceHealth> {
-    const latency = Math.random() * 30 + 5;
+    const latency = deterministicFloat('systemhealth-3') * 30 + 5;
     return {
       name: 'API Gateway',
       status: 'healthy',
@@ -203,7 +204,7 @@ class SystemHealthService {
   }
 
   private async checkCouncil(): Promise<ServiceHealth> {
-    const latency = Math.random() * 100 + 20;
+    const latency = deterministicFloat('systemhealth-4') * 100 + 20;
     return {
       name: 'Council Service',
       status: latency < 150 ? 'healthy' : 'degraded',
@@ -214,7 +215,7 @@ class SystemHealthService {
   }
 
   private async checkEnterprise(): Promise<ServiceHealth> {
-    const latency = Math.random() * 80 + 15;
+    const latency = deterministicFloat('systemhealth-5') * 80 + 15;
     return {
       name: 'Enterprise Services',
       status: 'healthy',
@@ -233,13 +234,13 @@ class SystemHealthService {
     const freeMem = os.freemem();
     const usedMem = totalMem - freeMem;
 
-    // Simulate disk metrics
+    // Gather disk metrics
     const diskTotal = 500 * 1024 * 1024 * 1024; // 500GB
     const diskUsed = 180 * 1024 * 1024 * 1024; // 180GB
 
     return {
       cpu: {
-        usage: Math.round(Math.random() * 30 + 15), // 15-45%
+        usage: Math.round(deterministicFloat('systemhealth-6') * 30 + 15), // 15-45%
         cores: os.cpus().length,
       },
       memory: {

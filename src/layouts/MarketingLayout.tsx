@@ -10,6 +10,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { ArrowRight, Menu, X } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../lib/deterministic';
 
 // =============================================================================
 // PREMIUM EFFECTS
@@ -40,12 +41,12 @@ const ParticleField: React.FC = () => {
 
     for (let i = 0; i < particleCount; i++) {
       particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.2,
-        vy: (Math.random() - 0.5) * 0.2,
-        size: Math.random() * 2 + 0.5,
-        opacity: Math.random() * 0.3 + 0.1,
+        x: deterministicFloat('marketinglayout-5') * canvas.width,
+        y: deterministicFloat('marketinglayout-6') * canvas.height,
+        vx: (deterministicFloat('marketinglayout-1') - 0.5) * 0.2,
+        vy: (deterministicFloat('marketinglayout-2') - 0.5) * 0.2,
+        size: deterministicFloat('marketinglayout-3') * 2 + 0.5,
+        opacity: deterministicFloat('marketinglayout-4') * 0.3 + 0.1,
       });
     }
 
@@ -225,7 +226,7 @@ export const MarketingLayout: React.FC = () => {
                   Sign In
                 </Link>
                 <Link to="/sovereign" className="block text-sm text-red-900">
-                  Request Access →
+                  Request Access â†’
                 </Link>
               </div>
             </div>
@@ -338,8 +339,8 @@ export const MarketingLayout: React.FC = () => {
 
           <div className="pt-8 border-t border-gray-900 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-8 text-[10px] text-gray-700 tracking-widest">
-              <span>© {new Date().getFullYear()} DATACENDIA</span>
-              <span>•</span>
+              <span>Â© {new Date().getFullYear()} DATACENDIA</span>
+              <span>â€¢</span>
               <span>SOVEREIGN INTELLIGENCE</span>
             </div>
             <p className="text-xs text-gray-600">No cloud. No telemetry. No exceptions.</p>

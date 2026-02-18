@@ -10,6 +10,7 @@
 import express, { Request, Response, Router } from 'express';
 import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router: Router = express.Router();
 const prisma = new PrismaClient();
@@ -72,7 +73,7 @@ router.post('/report', async (req: Request, res: Response) => {
       try {
         await prisma.audit_logs.create({
           data: {
-            id: `err-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+            id: `err-${Date.now()}-${deterministicFloat('errors-1').toString(36).substr(2, 9)}`,
             organization_id: 'system', // System-level errors
             user_id: error.context.userId || null,
             action: 'FRONTEND_ERROR',

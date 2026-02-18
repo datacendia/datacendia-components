@@ -29,6 +29,7 @@ import {
   MessageSquare,
 } from 'lucide-react';
 import { api } from '../../lib/api';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -188,9 +189,9 @@ function getDefaultTimeSeries(): UsageTimeSeries[] {
     date.setDate(date.getDate() - i);
     data.push({
       timestamp: date.toISOString(),
-      apiCalls: Math.floor(1000000 + Math.random() * 500000),
-      deliberations: Math.floor(3000 + Math.random() * 1000),
-      activeUsers: Math.floor(2800 + Math.random() * 800),
+      apiCalls: Math.floor(1000000 + deterministicFloat('usageanalytics-1') * 500000),
+      deliberations: Math.floor(3000 + deterministicFloat('usageanalytics-2') * 1000),
+      activeUsers: Math.floor(2800 + deterministicFloat('usageanalytics-3') * 800),
     });
   }
   return data;

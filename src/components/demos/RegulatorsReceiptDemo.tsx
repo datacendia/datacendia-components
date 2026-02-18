@@ -27,6 +27,7 @@ import {
 } from 'lucide-react';
 import ollamaService from '../../lib/ollama';
 import councilPacketApi, { SignatureResult } from '../../services/CouncilPacketService';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -152,7 +153,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   pharma: {
     id: 'pharma',
     name: 'Pharmaceutical',
-    icon: '💊',
+    icon: 'ðŸ’Š',
     color: 'from-emerald-500 to-cyan-500',
     description: 'Clinical trial decisions & regulatory submissions',
     regulatoryFrameworks: ['FDA 21 CFR Part 11', 'EMA GxP', 'ICH E6(R2) GCP'],
@@ -171,7 +172,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
       { id: 'd3', category: 'Safety', parameter: 'Grade 3+ AEs', value: '23.1', unit: '%', status: 'elevated', aiAnalysis: 'Within acceptable range but requires monitoring' },
       { id: 'd4', category: 'Safety', parameter: 'Treatment Discontinuation', value: '8.7', unit: '%', status: 'normal', aiAnalysis: 'Below 15% threshold' },
       { id: 'd5', category: 'PK/PD', parameter: 'Cmax', value: '847', unit: 'ng/mL', status: 'normal', aiAnalysis: 'Within therapeutic window' },
-      { id: 'd6', category: 'PK/PD', parameter: 'AUC0-24', value: '12,450', unit: 'ng·h/mL', status: 'flagged', aiAnalysis: 'Elevated in elderly subgroup - review recommended' },
+      { id: 'd6', category: 'PK/PD', parameter: 'AUC0-24', value: '12,450', unit: 'ngÂ·h/mL', status: 'flagged', aiAnalysis: 'Elevated in elderly subgroup - review recommended' },
       { id: 'd7', category: 'Biomarker', parameter: 'Tumor Marker Reduction', value: '52.8', unit: '%', status: 'normal', aiAnalysis: 'Correlates with clinical response' },
     ],
     phases: [
@@ -186,7 +187,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   banking: {
     id: 'banking',
     name: 'Banking & Finance',
-    icon: '🏦',
+    icon: 'ðŸ¦',
     color: 'from-blue-600 to-indigo-600',
     description: 'Credit decisions, trading approvals & risk management',
     regulatoryFrameworks: ['SOX Section 302/404', 'Basel IV', 'DORA', 'MiFID II', 'SR 11-7'],
@@ -221,7 +222,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   insurance: {
     id: 'insurance',
     name: 'Insurance',
-    icon: '🛡️',
+    icon: 'ðŸ›¡ï¸',
     color: 'from-teal-500 to-emerald-500',
     description: 'Underwriting decisions & claims adjudication',
     regulatoryFrameworks: ['Solvency II', 'IFRS 17', 'NAIC Model Laws', 'GDPR'],
@@ -256,7 +257,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   government: {
     id: 'government',
     name: 'Government',
-    icon: '🏛️',
+    icon: 'ðŸ›ï¸',
     color: 'from-slate-600 to-zinc-600',
     description: 'Procurement decisions & policy approvals',
     regulatoryFrameworks: ['FAR/DFAR', 'FOIA', 'OMB A-123', 'FISMA', 'FedRAMP'],
@@ -291,7 +292,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   healthcare: {
     id: 'healthcare',
     name: 'Healthcare',
-    icon: '🏥',
+    icon: 'ðŸ¥',
     color: 'from-rose-500 to-pink-500',
     description: 'Treatment decisions & care authorization',
     regulatoryFrameworks: ['HIPAA', 'HITECH', '42 CFR Part 2', 'Joint Commission', 'CMS CoP'],
@@ -307,7 +308,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
     dataPoints: [
       { id: 'd1', category: 'Clinical', parameter: 'Diagnosis', value: 'Stage IIIB NSCLC', unit: '', status: 'critical', aiAnalysis: 'Advanced malignancy requiring urgent treatment' },
       { id: 'd2', category: 'Treatment', parameter: 'Requested Therapy', value: 'Pembrolizumab', unit: '', status: 'normal', aiAnalysis: 'NCCN Category 1 recommendation' },
-      { id: 'd3', category: 'Clinical', parameter: 'PD-L1 Expression', value: '≥50', unit: '%', status: 'normal', aiAnalysis: 'Meets biomarker criteria' },
+      { id: 'd3', category: 'Clinical', parameter: 'PD-L1 Expression', value: 'â‰¥50', unit: '%', status: 'normal', aiAnalysis: 'Meets biomarker criteria' },
       { id: 'd4', category: 'Coverage', parameter: 'Prior Auth Status', value: 'Required', unit: '', status: 'elevated', aiAnalysis: 'Step therapy exception needed' },
       { id: 'd5', category: 'Cost', parameter: 'Treatment Cost', value: '156', unit: 'K USD/year', status: 'elevated', aiAnalysis: 'High-cost specialty drug' },
       { id: 'd6', category: 'Evidence', parameter: 'Clinical Evidence', value: 'Level 1A', unit: '', status: 'normal', aiAnalysis: 'Strong evidence from RCTs' },
@@ -325,7 +326,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   legal: {
     id: 'legal',
     name: 'Legal',
-    icon: '⚖️',
+    icon: 'âš–ï¸',
     color: 'from-stone-600 to-neutral-600',
     description: 'Case decisions & matter management',
     regulatoryFrameworks: ['ABA Model Rules', 'Attorney-Client Privilege', 'Work Product Doctrine', 'eDiscovery Rules'],
@@ -359,7 +360,7 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
   defense: {
     id: 'defense',
     name: 'Defense & Intelligence',
-    icon: '🎖️',
+    icon: 'ðŸŽ–ï¸',
     color: 'from-zinc-700 to-slate-800',
     description: 'Mission-critical decisions & operational approvals',
     regulatoryFrameworks: ['NIST 800-53', 'ICD 503', 'CNSSI 1253', 'DoD 8570', 'ITAR'],
@@ -446,7 +447,7 @@ const CLINICAL_DATA: ClinicalDataPoint[] = [
   { id: 'd3', category: 'Safety', parameter: 'Grade 3+ AEs', value: '23.1', unit: '%', status: 'elevated', aiAnalysis: 'Within acceptable range but requires monitoring' },
   { id: 'd4', category: 'Safety', parameter: 'Treatment Discontinuation', value: '8.7', unit: '%', status: 'normal', aiAnalysis: 'Below 15% threshold' },
   { id: 'd5', category: 'PK/PD', parameter: 'Cmax', value: '847', unit: 'ng/mL', status: 'normal', aiAnalysis: 'Within therapeutic window' },
-  { id: 'd6', category: 'PK/PD', parameter: 'AUC0-24', value: '12,450', unit: 'ng·h/mL', status: 'flagged', aiAnalysis: 'Elevated in elderly subgroup - review recommended' },
+  { id: 'd6', category: 'PK/PD', parameter: 'AUC0-24', value: '12,450', unit: 'ngÂ·h/mL', status: 'flagged', aiAnalysis: 'Elevated in elderly subgroup - review recommended' },
   { id: 'd7', category: 'Biomarker', parameter: 'Tumor Marker Reduction', value: '52.8', unit: '%', status: 'normal', aiAnalysis: 'Correlates with clinical response' },
 ];
 
@@ -986,7 +987,7 @@ export const RegulatorsReceiptDemo: React.FC<{
     }]);
     
     // Get a random agent to respond to the user
-    const respondingAgent = currentConfig.agents[Math.floor(Math.random() * currentConfig.agents.length)];
+    const respondingAgent = currentConfig.agents[Math.floor(deterministicFloat('regulatorsreceiptdemo-2') * currentConfig.agents.length)];
     setCurrentGeneratingAgent(respondingAgent.id);
     setAgents(prev => prev.map(a => 
       a.id === respondingAgent.id ? { ...a, status: 'speaking' as const } : { ...a, status: 'idle' as const }
@@ -1182,7 +1183,7 @@ export const RegulatorsReceiptDemo: React.FC<{
       ...a,
       status: 'voting' as const,
       vote: 'approve' as const,
-      confidence: 0.85 + Math.random() * 0.14,
+      confidence: 0.85 + deterministicFloat('regulatorsreceiptdemo-1') * 0.14,
     })));
     await new Promise(r => setTimeout(r, 2000));
     setPhases(prev => prev.map((p, i) => i === 4 ? { ...p, status: 'completed' as const } : p));
@@ -1281,7 +1282,7 @@ export const RegulatorsReceiptDemo: React.FC<{
           timestamp: now,
           token: generateMerkleRoot(['tsa', now.toISOString()]) + generateMerkleRoot(['token', now.toISOString()]),
           algorithm: 'SHA-256',
-          serialNumber: `TSA-${Date.now()}-${Math.random().toString(36).substring(2, 10).toUpperCase()}`,
+          serialNumber: `TSA-${Date.now()}-${deterministicFloat('regulatorsreceiptdemo-3').toString(36).substring(2, 10).toUpperCase()}`,
         },
         // WORM Storage Configuration
         wormStorage: {
@@ -1294,7 +1295,7 @@ export const RegulatorsReceiptDemo: React.FC<{
         accessLog: [{
           action: 'created',
           timestamp: now,
-          user: 'CendiaCouncil™ System',
+          user: 'CendiaCouncilâ„¢ System',
           ipAddress: '10.0.0.1',
         }],
         // eCTD Bundle Info
@@ -1367,7 +1368,7 @@ export const RegulatorsReceiptDemo: React.FC<{
                 )}
               </h2>
               <p className="text-sm text-neutral-400 mt-1 flex items-center gap-2">
-                {currentConfig.decisionTitle} • {currentConfig.name} Mode
+                {currentConfig.decisionTitle} â€¢ {currentConfig.name} Mode
                 <span className={cn(
                   "flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium",
                   ollamaConnected 
@@ -2030,7 +2031,7 @@ export const RegulatorsReceiptDemo: React.FC<{
                               <div className="flex items-center gap-2 pt-2 border-t border-neutral-700/50">
                                 <CheckCircle className="w-3 h-3 text-emerald-400" />
                                 <span className="text-[9px] text-emerald-300">
-                                  Statement included in Merkle tree → verified in final hash
+                                  Statement included in Merkle tree â†’ verified in final hash
                                 </span>
                               </div>
                             </div>
@@ -2079,7 +2080,7 @@ export const RegulatorsReceiptDemo: React.FC<{
           <div className="flex items-center gap-2">
             <Cpu className="w-4 h-4 text-amber-400" />
             <span className="text-xs text-neutral-400">
-              Powered by CendiaCouncil™ Sovereign AI
+              Powered by CendiaCouncilâ„¢ Sovereign AI
             </span>
           </div>
         </div>

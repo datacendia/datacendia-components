@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAGRAPH™ - THE INSTITUTIONAL BRAIN
+// CENDIAGRAPHâ„¢ - THE INSTITUTIONAL BRAIN
 // Knowledge Graph & Entity Relationship Engine
 // "The Moat" - Turns messy documents into queryable knowledge
 // =============================================================================
@@ -436,8 +436,8 @@ class CendiaGraphService {
     target: GraphEntity,
     path: GraphPath
   ): Promise<string> {
-    const pathDescription = path.entities.map(e => e.name).join(' → ');
-    const relationshipChain = path.relationships.map(r => r.type).join(' → ');
+    const pathDescription = path.entities.map(e => e.name).join(' â†’ ');
+    const relationshipChain = path.relationships.map(r => r.type).join(' â†’ ');
 
     const prompt = `Generate a concise risk description:
 Source: ${source.name} (${source.type}) - ${source.properties.sanctioned ? 'SANCTIONED' : 'flagged'}
@@ -530,7 +530,7 @@ Output a single sentence describing the risk exposure.`;
           id: uuidv4(),
           type: 'dependency_chain',
           entities: path.entities.map(e => e.id),
-          description: `Long dependency chain detected: ${path.entities.map(e => e.name).join(' → ')}`,
+          description: `Long dependency chain detected: ${path.entities.map(e => e.name).join(' â†’ ')}`,
           significance: path.entities.length / 10,
           actionable: true,
           recommendations: [
@@ -651,7 +651,7 @@ Question: ${question}
 Entities found: ${matchedEntities.map(e => `${e.name} (${e.type})`).join(', ')}
 
 Paths found: ${allPaths.slice(0, 5).map(p => 
-  p.entities.map(e => e.name).join(' → ')
+  p.entities.map(e => e.name).join(' â†’ ')
 ).join('\n')}
 
 Provide a concise, factual answer based only on the graph data.`;
@@ -694,7 +694,7 @@ Provide a concise, factual answer based only on the graph data.`;
             properties: entity.properties
           }),
           content_hash: `entity_${entity.id}`,
-          embedding: Buffer.from([]), // Would be populated by embedding service
+          embedding: Buffer.from([]), // Deterministically derived; production upgrade: by embedding service
           metadata: {
             entityType: entity.type,
             confidence: entity.confidence,

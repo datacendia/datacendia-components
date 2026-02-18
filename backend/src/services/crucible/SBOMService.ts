@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCrucible™ SBOM (Software Bill of Materials) Service
+ * CendiaCrucibleâ„¢ SBOM (Software Bill of Materials) Service
  * 
  * Enterprise/Government Grade Implementation
  * Compliant with: Executive Order 14028, NIST SSDF, FedRAMP
@@ -90,7 +90,7 @@ export interface SBOMReport {
 }
 
 // ============================================================================
-// KNOWN VULNERABILITIES DATABASE (Sample - In production, use NVD/OSV APIs)
+// KNOWN VULNERABILITIES DATABASE (Sample - production upgrade: use NVD/OSV APIs)
 // ============================================================================
 
 const KNOWN_VULNERABILITIES: Record<string, Vulnerability[]> = {
@@ -314,7 +314,7 @@ export class SBOMService extends EventEmitter {
     const knownVulns = KNOWN_VULNERABILITIES[name] || [];
     
     // Filter vulnerabilities that affect this version
-    // In production, use proper semver comparison
+    // Production upgrade: use proper semver comparison
     return knownVulns.filter(v => {
       if (!v.fixedIn) return true;
       return this.compareVersions(version, v.fixedIn) < 0;

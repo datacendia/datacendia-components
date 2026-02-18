@@ -10,6 +10,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES - Comprehensive claim tracking and validation
@@ -535,7 +536,7 @@ Output JSON:
       // Create and validate claims
       for (const extractedClaim of claims) {
         const claim: Claim = {
-          id: `claim-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+          id: `claim-${Date.now()}-${deterministicFloat('statementoffacts-1').toString(36).substr(2, 6)}`,
           deliberationId,
           ...extractedClaim,
           status: 'unverified',
@@ -736,12 +737,12 @@ Output JSON:
     report += `## All Claims\n\n`;
     for (const claim of claims) {
       const statusIcon = {
-        verified: '✅',
-        partially_verified: '🟡',
-        unverified: '⚪',
-        disputed: '❌',
-        assumption: '💭',
-        requires_human: '👤',
+        verified: 'âœ…',
+        partially_verified: 'ðŸŸ¡',
+        unverified: 'âšª',
+        disputed: 'âŒ',
+        assumption: 'ðŸ’­',
+        requires_human: 'ðŸ‘¤',
       }[claim.status];
 
       report += `### ${statusIcon} ${claim.statement.substring(0, 60)}...\n`;

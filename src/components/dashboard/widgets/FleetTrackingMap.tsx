@@ -12,6 +12,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline, Circle, useMap } from
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { cn } from '../../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // Fix Leaflet default icon issue
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -29,10 +30,10 @@ const createIcon = (emoji: string, color: string) => L.divIcon({
   iconAnchor: [16, 16],
 });
 
-const truckIcon = createIcon('🚚', '#3b82f6');
-const warehouseIcon = createIcon('🏭', '#8b5cf6');
-const delayIcon = createIcon('⚠️', '#ef4444');
-const deliveryIcon = createIcon('📦', '#10b981');
+const truckIcon = createIcon('ðŸšš', '#3b82f6');
+const warehouseIcon = createIcon('ðŸ­', '#8b5cf6');
+const delayIcon = createIcon('âš ï¸', '#ef4444');
+const deliveryIcon = createIcon('ðŸ“¦', '#10b981');
 
 // Types
 interface Vehicle {
@@ -144,15 +145,15 @@ const Legend: React.FC = () => (
     <h4 className="text-xs font-semibold text-white mb-2">Legend</h4>
     <div className="space-y-1.5 text-xs">
       <div className="flex items-center gap-2">
-        <span>🚚</span>
+        <span>ðŸšš</span>
         <span className="text-gray-300">Vehicle</span>
       </div>
       <div className="flex items-center gap-2">
-        <span>🏭</span>
+        <span>ðŸ­</span>
         <span className="text-gray-300">Warehouse</span>
       </div>
       <div className="flex items-center gap-2">
-        <span>⚠️</span>
+        <span>âš ï¸</span>
         <span className="text-gray-300">Delay</span>
       </div>
       <div className="flex items-center gap-2">
@@ -175,8 +176,8 @@ export const FleetTrackingMap: React.FC<{ className?: string }> = ({ className }
           return {
             ...v,
             position: [
-              v.position[0] + (Math.random() - 0.5) * 0.02,
-              v.position[1] + (Math.random() - 0.5) * 0.02,
+              v.position[0] + (deterministicFloat('fleettrackingmap-1') - 0.5) * 0.02,
+              v.position[1] + (deterministicFloat('fleettrackingmap-2') - 0.5) * 0.02,
             ] as [number, number],
           };
         }

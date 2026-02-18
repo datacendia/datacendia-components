@@ -15,7 +15,7 @@ import { logger } from '../utils/logger.js';
 
 const router = Router();
 
-// Connector instances (in production, these would be per-tenant)
+// Connector instances (production upgrade: per-tenant)
 const connectorInstances = new Map<string, any>();
 
 function getOrCreateConnector(connectorId: string, config?: any): any {

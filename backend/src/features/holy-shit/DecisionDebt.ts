@@ -10,6 +10,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { prisma } from '../../config/database.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -310,7 +311,7 @@ export class DecisionDebtService extends BaseService {
   }
 
   private getSimulatedDecisions(organizationId: string): PendingDecision[] {
-    // Simulated decisions for demo purposes when no real data exists
+    // Deterministic demo decisions generated when no real data exists
     const now = new Date();
     
     return [
@@ -637,7 +638,7 @@ export class DecisionDebtService extends BaseService {
 
   async createDecision(organizationId: string, data: Partial<PendingDecision>): Promise<PendingDecision> {
     const decision: PendingDecision = {
-      id: `dec-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `dec-${Date.now()}-${deterministicFloat('decisiondebt-1').toString(36).substr(2, 9)}`,
       title: data.title || 'Untitled Decision',
       description: data.description || '',
       department: data.department || 'General',

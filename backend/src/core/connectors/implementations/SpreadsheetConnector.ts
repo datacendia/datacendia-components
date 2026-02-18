@@ -620,12 +620,12 @@ export class SpreadsheetConnector extends BaseConnector {
   // DATA IMPORT
   // ---------------------------------------------------------------------------
 
-  // In-memory storage for imported data (use database in production)
+  // In-memory storage; production upgrade: use database
   private importedData: Map<string, { metadata: any; rows: ParsedRow[] }> = new Map();
 
   /**
    * Import parsed data to in-memory storage
-   * In production, this would write to PostgreSQL/data warehouse
+   * Production upgrade: write to PostgreSQL/data warehouse
    */
   async importToDatabase(
     parseResult: SpreadsheetParseResult,

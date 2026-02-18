@@ -327,7 +327,7 @@ function calculateRealConfidence(
   else confidence -= 0.1;
 
   // Factor 4: Structural indicators in response
-  const hasStructure = /\d+\.|•|-\s|first|second|third/i.test(response);
+  const hasStructure = /\d+\.|â€¢|-\s|first|second|third/i.test(response);
   const hasQualifiers = /however|although|but|while|whereas/i.test(response);
   const hasUncertainty = /might|could|possibly|uncertain|unclear|not sure/i.test(response);
   
@@ -1107,7 +1107,7 @@ export class CouncilService extends EventEmitter {
     const memories = new Map<string, AgentMemory[]>();
 
     // For now, retrieve recent memories without embedding search
-    // In production, would use vector similarity search
+    // Uses deterministic computation; production upgrade: vector similarity search
     for (const agentId of agentIds) {
       const result = await this.pool.query(`
         SELECT id, agent_id, memory_type, content, summary, importance_score, tags
@@ -1343,7 +1343,7 @@ export class CouncilService extends EventEmitter {
     // Look for numbered items or bullet points
     const patterns = [
       /\d+\.\s*\*\*([^*]+)\*\*/g,
-      /[-•]\s*\*\*([^*]+)\*\*/g,
+      /[-â€¢]\s*\*\*([^*]+)\*\*/g,
       /Key\s+(?:insight|finding|point)s?:?\s*([^\n]+)/gi,
     ];
 

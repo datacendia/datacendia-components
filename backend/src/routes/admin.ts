@@ -20,6 +20,7 @@ import {
 } from '../services/admin/index.js';
 import { logger } from '../utils/logger.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -836,9 +837,9 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
       const demoModes = ['executive', 'crisis', 'innovation', 'compliance', 'strategic', 'operational'];
       demoModes.forEach((mode, i) => {
         byMode[mode] = {
-          count: Math.floor(Math.random() * 200) + 50,
-          avgConfidence: Math.floor(Math.random() * 20) + 75,
-          avgTime: `${(Math.random() * 3 + 1).toFixed(1)}m`,
+          count: deterministicInt(0, 199, 'admin-1') + 50,
+          avgConfidence: deterministicInt(0, 19, 'admin-2') + 75,
+          avgTime: `${(deterministicFloat('admin-3') * 3 + 1).toFixed(1)}m`,
         };
       });
     }

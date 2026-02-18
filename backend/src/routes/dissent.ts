@@ -14,8 +14,12 @@ import { logger } from '../utils/logger.js';
 const router = Router();
 
 // =============================================================================
-// STATUS ENDPOINTS
+// HEALTH & STATUS ENDPOINTS
 // =============================================================================
+
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'dissent', timestamp: new Date().toISOString() } });
+});
 
 router.get('/status', async (req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });

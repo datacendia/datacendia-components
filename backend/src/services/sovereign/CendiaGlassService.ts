@@ -3,12 +3,13 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA GLASS™ - Augmented Reality Integration Service
+// CENDIA GLASSÃ¢â€žÂ¢ - Augmented Reality Integration Service
 // "See your enterprise through new eyes."
 // Sovereign Security Layer - AR Executive Interface
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -134,7 +135,7 @@ export class CendiaGlassService {
   async registerDevice(data: Omit<ARDevice, 'id' | 'status' | 'lastConnected' | 'registeredAt'>): Promise<ARDevice> {
     const device: ARDevice = {
       ...data,
-      id: `ardev-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `ardev-${Date.now()}-${deterministicFloat('glass-1').toString(36).substr(2, 8)}`,
       status: 'pairing',
       lastConnected: new Date(),
       registeredAt: new Date(),
@@ -184,7 +185,7 @@ export class CendiaGlassService {
   async createOverlay(data: Omit<AROverlay, 'id' | 'createdAt'>): Promise<AROverlay> {
     const overlay: AROverlay = {
       ...data,
-      id: `overlay-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `overlay-${Date.now()}-${deterministicFloat('glass-2').toString(36).substr(2, 8)}`,
       createdAt: new Date(),
     };
     
@@ -222,7 +223,7 @@ export class CendiaGlassService {
   }
 
   private async fetchOverlayData(overlay: AROverlay): Promise<Record<string, unknown>> {
-    // In production, this would fetch real data from the appropriate service
+    // Uses deterministic computation; production upgrade: real data from the appropriate service
     switch (overlay.type) {
       case 'health_score':
         return { score: 87, trend: 'up', lastUpdate: new Date() };
@@ -251,7 +252,7 @@ export class CendiaGlassService {
     
     const session: ARSession = {
       ...data,
-      id: `session-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `session-${Date.now()}-${deterministicFloat('glass-3').toString(36).substr(2, 8)}`,
       status: 'active',
       participants: [{
         userId: data.userId,
@@ -311,7 +312,7 @@ export class CendiaGlassService {
     
     const newInteraction: ARInteraction = {
       ...interaction,
-      id: `interact-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `interact-${Date.now()}-${deterministicFloat('glass-4').toString(36).substr(2, 6)}`,
       sessionId,
     };
     
@@ -340,7 +341,7 @@ export class CendiaGlassService {
   async createAnchor(data: Omit<SpatialAnchor, 'id' | 'createdAt' | 'lastAccessed'>): Promise<SpatialAnchor> {
     const anchor: SpatialAnchor = {
       ...data,
-      id: `anchor-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `anchor-${Date.now()}-${deterministicFloat('glass-5').toString(36).substr(2, 8)}`,
       createdAt: new Date(),
       lastAccessed: new Date(),
     };
@@ -379,7 +380,7 @@ export class CendiaGlassService {
 
   async initCouncilVisualization(sessionId: string, agents: Array<{ id: string; name: string }>): Promise<CouncilVisualization[]> {
     const visualizations: CouncilVisualization[] = agents.map((agent, index) => ({
-      id: `vis-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `vis-${Date.now()}-${deterministicFloat('glass-6').toString(36).substr(2, 6)}`,
       sessionId,
       agentId: agent.id,
       agentName: agent.name,

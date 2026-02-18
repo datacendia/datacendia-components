@@ -24,6 +24,12 @@ import { federatedMeshService } from '../services/sovereign/FederatedMeshService
 import { portableInstanceService } from '../services/sovereign/PortableInstanceService.js';
 
 const router = Router();
+
+// Health endpoint (before auth)
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'sovereign-arch', timestamp: new Date().toISOString() } });
+});
+
 router.use(devAuth);
 
 // =============================================================================

@@ -12,6 +12,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 
 // Floating particles background
 const ParticleField: React.FC = () => {
@@ -39,12 +40,12 @@ const ParticleField: React.FC = () => {
 
     for (let i = 0; i < particleCount; i++) {
       particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.3,
-        vy: (Math.random() - 0.5) * 0.3,
-        size: Math.random() * 2 + 0.5,
-        opacity: Math.random() * 0.5 + 0.1,
+        x: deterministicFloat('sovereignlanding-6') * canvas.width,
+        y: deterministicFloat('sovereignlanding-7') * canvas.height,
+        vx: (deterministicFloat('sovereignlanding-1') - 0.5) * 0.3,
+        vy: (deterministicFloat('sovereignlanding-2') - 0.5) * 0.3,
+        size: deterministicFloat('sovereignlanding-4') * 2 + 0.5,
+        opacity: deterministicFloat('sovereignlanding-5') * 0.5 + 0.1,
       });
     }
 
@@ -130,7 +131,7 @@ const GlitchText: React.FC<{ children: string; className?: string }> = ({
         setIsGlitching(true);
         setTimeout(() => setIsGlitching(false), 200);
       },
-      5000 + Math.random() * 3000
+      5000 + deterministicFloat('sovereignlanding-3') * 3000
     );
 
     return () => clearInterval(interval);
@@ -397,7 +398,7 @@ const SovereignLandingPage: React.FC = () => {
                 href="/honesty"
                 className="group p-6 border border-gray-800 hover:border-red-900/50 bg-black/50 transition-all duration-300 rounded"
               >
-                <div className="text-2xl mb-3">🏛️</div>
+                <div className="text-2xl mb-3">ðŸ›ï¸</div>
                 <h3 className="text-sm font-medium text-white mb-1">Sovereignty Matrix</h3>
                 <p className="text-xs text-gray-500 mb-3">How much control do you actually have?</p>
                 <div className="flex gap-2">
@@ -414,7 +415,7 @@ const SovereignLandingPage: React.FC = () => {
                 href="/honesty"
                 className="group p-6 border border-gray-800 hover:border-red-900/50 bg-black/50 transition-all duration-300 rounded"
               >
-                <div className="text-2xl mb-3">🚫</div>
+                <div className="text-2xl mb-3">ðŸš«</div>
                 <h3 className="text-sm font-medium text-white mb-1">What We Can't Do</h3>
                 <p className="text-xs text-gray-500 mb-3">Our actual limitations, documented.</p>
                 <div className="flex gap-2">
@@ -431,7 +432,7 @@ const SovereignLandingPage: React.FC = () => {
                 href="/honesty"
                 className="group p-6 border border-gray-800 hover:border-red-900/50 bg-black/50 transition-all duration-300 rounded"
               >
-                <div className="text-2xl mb-3">🚨</div>
+                <div className="text-2xl mb-3">ðŸš¨</div>
                 <h3 className="text-sm font-medium text-white mb-1">What Breaks at 3 AM</h3>
                 <p className="text-xs text-gray-500 mb-3">When things go wrong, what happens?</p>
                 <div className="flex gap-2">
@@ -450,7 +451,7 @@ const SovereignLandingPage: React.FC = () => {
                 href="/honesty"
                 className="text-xs tracking-[0.2em] text-gray-500 hover:text-red-900 transition-colors"
               >
-                VIEW ALL 6 HONESTY MATRICES →
+                VIEW ALL 6 HONESTY MATRICES â†’
               </a>
             </div>
           </div>
@@ -497,13 +498,13 @@ const SovereignLandingPage: React.FC = () => {
                   <li className="flex gap-4">
                     <span className="text-red-900 font-mono">3.</span>
                     <span>
-                      Disagreement is not disloyalty — it is the immune system of good judgment.
+                      Disagreement is not disloyalty â€” it is the immune system of good judgment.
                     </span>
                   </li>
                   <li className="flex gap-4">
                     <span className="text-red-900 font-mono">4.</span>
                     <span>
-                      The past is not a black box — it is a teacher, if you can replay it.
+                      The past is not a black box â€” it is a teacher, if you can replay it.
                     </span>
                   </li>
                   <li className="flex gap-4">
@@ -514,7 +515,7 @@ const SovereignLandingPage: React.FC = () => {
               </div>
 
               <p className="text-base text-gray-400 pt-6 italic">
-                The future belongs to those who can see it —
+                The future belongs to those who can see it â€”
                 <br />
                 <span className="text-white not-italic">
                   and refuse to rent it from someone else.
@@ -536,7 +537,7 @@ const SovereignLandingPage: React.FC = () => {
           </p>
         </div>
 
-        {/* Request Access Button - CendiaVeto™ crimson */}
+        {/* Request Access Button - CendiaVetoâ„¢ crimson */}
         <button
           onClick={() => setShowModal(true)}
           className="group relative px-10 py-5 border-2 border-red-900 bg-black hover:bg-red-900/10 transition-all duration-300 flex items-center gap-3 overflow-hidden"
@@ -615,8 +616,8 @@ const SovereignLandingPage: React.FC = () => {
             No cloud. No telemetry. No exceptions.
           </p>
           <div className="flex items-center justify-center gap-8 text-[10px] text-gray-700 tracking-widest">
-            <span>© {new Date().getFullYear()} DATACENDIA</span>
-            <span>•</span>
+            <span>Â© {new Date().getFullYear()} DATACENDIA</span>
+            <span>â€¢</span>
             <span>SOVEREIGN INTELLIGENCE</span>
           </div>
         </div>

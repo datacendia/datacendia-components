@@ -11,6 +11,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Bot, Users, Building, MapPin, Globe, AlertTriangle } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -83,24 +84,24 @@ const generateAgents = (level: CivicEntity['type']): AIAgent[] => {
       'Monitoring service levels',
       'Coordinating with other agents',
     ];
-    const statusRand = Math.random();
+    const statusRand = deterministicFloat('civicsimulation-8');
     return {
       id: `${level}-agent-${i}`,
       name,
       role: config.roles[i] || 'Agent',
       status: statusRand > 0.3 ? 'active' : statusRand > 0.15 ? 'processing' : 'idle',
-      lastAction: actions[Math.floor(Math.random() * actions.length)] || 'Processing',
-      decisionsToday: Math.floor(Math.random() * 50) + 10,
+      lastAction: actions[Math.floor(deterministicFloat('civicsimulation-9') * actions.length)] || 'Processing',
+      decisionsToday: deterministicInt(0, 49, 'civicsimulation-1') + 10,
     };
   });
 };
 
 const generateMetrics = () => ({
-  safety: 70 + Math.random() * 25,
-  education: 65 + Math.random() * 30,
-  infrastructure: 60 + Math.random() * 35,
-  economy: 55 + Math.random() * 40,
-  environment: 50 + Math.random() * 45,
+  safety: 70 + deterministicFloat('civicsimulation-3') * 25,
+  education: 65 + deterministicFloat('civicsimulation-4') * 30,
+  infrastructure: 60 + deterministicFloat('civicsimulation-5') * 35,
+  economy: 55 + deterministicFloat('civicsimulation-6') * 40,
+  environment: 50 + deterministicFloat('civicsimulation-7') * 45,
 });
 
 const SAMPLE_HIERARCHY: CivicEntity = {
@@ -296,7 +297,7 @@ const EntityCard: React.FC<{
             <div>
               <p className="text-sm font-medium text-white">{entity.name}</p>
               <p className="text-[10px] text-gray-500">
-                Pop: {formatNumber(entity.population)} • Budget: {formatNumber(entity.budget)}
+                Pop: {formatNumber(entity.population)} â€¢ Budget: {formatNumber(entity.budget)}
               </p>
             </div>
           </div>
@@ -313,7 +314,7 @@ const EntityCard: React.FC<{
               entity.satisfaction >= 50 ? 'bg-amber-900/50 text-amber-400' :
               'bg-red-900/50 text-red-400'
             )}>
-              {entity.satisfaction}% 😊
+              {entity.satisfaction}% ðŸ˜Š
             </span>
           </div>
         </div>
@@ -325,7 +326,7 @@ const EntityCard: React.FC<{
             onClick={() => setExpanded(!expanded)}
             className="text-[10px] text-cyan-400 hover:text-cyan-300 ml-2 mt-1"
           >
-            {expanded ? '▼' : '▶'} {entity.children.length} sub-regions
+            {expanded ? 'â–¼' : 'â–¶'} {entity.children.length} sub-regions
           </button>
           {expanded && (
             <div className="space-y-1">
@@ -358,20 +359,20 @@ export const CivicSimulation: React.FC<{ className?: string }> = ({ className })
   // Simulate agent activity
   useEffect(() => {
     const activities = [
-      '🤖 Atlas approved interstate highway funding allocation',
-      '🏛️ Governor-AI optimized school district boundaries',
-      '🏙️ CityCore resolved zoning conflict in downtown area',
-      '📊 UrbanFlow reduced traffic congestion by 12%',
-      '🚨 MetroMind coordinated emergency response drill',
-      '💰 StateWatch identified $2.3M in budget savings',
-      '📋 DistrictBot processed 47 permit applications',
-      '🌳 LocalAI approved park renovation project',
-      '🔍 Sovereign analyzed policy impact across 12 states',
-      '🏥 CivicBot coordinated healthcare resource sharing',
+      'ðŸ¤– Atlas approved interstate highway funding allocation',
+      'ðŸ›ï¸ Governor-AI optimized school district boundaries',
+      'ðŸ™ï¸ CityCore resolved zoning conflict in downtown area',
+      'ðŸ“Š UrbanFlow reduced traffic congestion by 12%',
+      'ðŸš¨ MetroMind coordinated emergency response drill',
+      'ðŸ’° StateWatch identified $2.3M in budget savings',
+      'ðŸ“‹ DistrictBot processed 47 permit applications',
+      'ðŸŒ³ LocalAI approved park renovation project',
+      'ðŸ” Sovereign analyzed policy impact across 12 states',
+      'ðŸ¥ CivicBot coordinated healthcare resource sharing',
     ];
 
     const interval = setInterval(() => {
-      const newActivity = activities[Math.floor(Math.random() * activities.length)];
+      const newActivity = activities[Math.floor(deterministicFloat('civicsimulation-10') * activities.length)];
       if (newActivity) {
         setAgentActivity(prev => [newActivity, ...prev.slice(0, 4)]);
       }
@@ -379,7 +380,7 @@ export const CivicSimulation: React.FC<{ className?: string }> = ({ className })
       // Update satisfaction randomly
       setHierarchy(prev => ({
         ...prev,
-        satisfaction: Math.max(50, Math.min(95, prev.satisfaction + (Math.random() - 0.5) * 2)),
+        satisfaction: Math.max(50, Math.min(95, prev.satisfaction + (deterministicFloat('civicsimulation-2') - 0.5) * 2)),
       }));
     }, 3000);
 
@@ -416,7 +417,7 @@ export const CivicSimulation: React.FC<{ className?: string }> = ({ className })
                   <EntityIcon type={selected.type} />
                   <h3 className="text-lg font-semibold text-white">{selected.name}</h3>
                 </div>
-                <p className="text-xs text-gray-400 capitalize">{selected.type} • {formatNumber(selected.population)} population</p>
+                <p className="text-xs text-gray-400 capitalize">{selected.type} â€¢ {formatNumber(selected.population)} population</p>
               </div>
 
               {/* Metrics */}

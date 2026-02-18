@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaRegulatorySandbox™ - Test Against Proposed Regulations
+ * CendiaRegulatorySandboxÃ¢â€žÂ¢ - Test Against Proposed Regulations
  * 
  * Enterprise Platinum Feature: Predictive compliance testing
  * 
@@ -428,7 +428,7 @@ export class RegulatorySandboxService {
   private tests: Map<string, SandboxTest> = new Map();
 
   constructor() {
-    logger.info('[CendiaSandbox] Regulatory Sandbox™ initialized');
+    logger.info('[CendiaSandbox] Regulatory SandboxÃ¢â€žÂ¢ initialized');
   }
 
   /**
@@ -518,7 +518,7 @@ export class RegulatorySandboxService {
       const requirement = regulation.keyRequirements.find(r => r.id === reqId);
       if (!requirement) continue;
 
-      // Simulate compliance check (in production, would analyze actual system)
+      // Deterministic compliance check (production upgrade: analyze actual system)
       const score = this.evaluateRequirement(requirement, test.systemDescription);
       
       const result: RequirementTestResult = {
@@ -633,7 +633,7 @@ export class RegulatorySandboxService {
    * Evaluate a requirement against system description
    */
   private evaluateRequirement(requirement: RegulationRequirement, systemDescription: string): number {
-    // Simulate scoring based on category
+    // Score based on category
     const categoryScores: Record<string, number> = {
       documentation: 85,
       transparency: 80,

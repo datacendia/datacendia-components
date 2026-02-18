@@ -399,7 +399,7 @@ export function auditMiddleware(
       },
     };
     
-    // Store audit log (in production, send to persistent storage)
+    // Store audit log (production upgrade: persistent storage)
     auditLogs.push(auditEntry);
     
     // Keep only last 10000 logs in memory

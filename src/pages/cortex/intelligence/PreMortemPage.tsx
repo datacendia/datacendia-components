@@ -15,6 +15,7 @@ import {
   PreMortemResult,
 } from '../../../services/DecisionIntelligenceService';
 import { ollamaService, DomainAgent } from '../../../lib/ollama';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import {
   UserInterventionPanel,
   UserRole,
@@ -130,7 +131,7 @@ export const PreMortemPage: React.FC = () => {
       ...prev,
       {
         ...message,
-        id: `msg-${Date.now()}-${Math.random().toString(36).substr(2, 4)}`,
+        id: `msg-${Date.now()}-${deterministicFloat('premortem-2').toString(36).substr(2, 4)}`,
         timestamp: new Date(),
       },
     ]);
@@ -159,7 +160,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'Council Moderator',
-        agentIcon: '🎯',
+        agentIcon: 'ðŸŽ¯',
         content: `Thank you for your input as ${intervention.userRole.title}. The Council is considering your ${intervention.type}.`,
         type: 'system',
       });
@@ -182,7 +183,7 @@ export const PreMortemPage: React.FC = () => {
     addLiveMessage({
       agentId: 'system',
       agentName: 'Council Moderator',
-      agentIcon: '🎯',
+      agentIcon: 'ðŸŽ¯',
       content: `Pre-Mortem Analysis initiated for: "${decision}"`,
       type: 'system',
     });
@@ -196,7 +197,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'Council Moderator',
-        agentIcon: '🎯',
+        agentIcon: 'ðŸŽ¯',
         content:
           'Phase 1: Each agent will analyze potential failure modes from their domain expertise.',
         type: 'system',
@@ -204,7 +205,7 @@ export const PreMortemPage: React.FC = () => {
 
       // Simulate each agent responding
       for (const agent of selectedAgentDetails) {
-        await new Promise((resolve) => setTimeout(resolve, 800 + Math.random() * 400));
+        await new Promise((resolve) => setTimeout(resolve, 800 + deterministicFloat('premortem-1') * 400));
         addLiveMessage({
           agentId: agent.id,
           agentName: agent.name,
@@ -220,7 +221,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'Council Moderator',
-        agentIcon: '🎯',
+        agentIcon: 'ðŸŽ¯',
         content: "Phase 2: Agents are challenging each other's assumptions.",
         type: 'system',
       });
@@ -231,7 +232,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'Council Moderator',
-        agentIcon: '🎯',
+        agentIcon: 'ðŸŽ¯',
         content: 'Phase 3: Synthesizing failure modes and calculating risk scores.',
         type: 'system',
       });
@@ -254,7 +255,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'Council Moderator',
-        agentIcon: '✅',
+        agentIcon: 'âœ…',
         content: `Analysis complete. Identified ${analysisResult.failureModes.length} potential failure modes with overall risk score of ${analysisResult.overallRiskScore}%.`,
         type: 'system',
       });
@@ -266,7 +267,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'System',
-        agentIcon: '❌',
+        agentIcon: 'âŒ',
         content: `Error: ${err instanceof Error ? err.message : 'Analysis failed'}`,
         type: 'system',
       });
@@ -308,7 +309,7 @@ export const PreMortemPage: React.FC = () => {
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-4xl">💀</span>
+          <span className="text-4xl">ðŸ’€</span>
           <h1 className="text-3xl font-bold text-neutral-900">Pre-Mortem Analysis</h1>
         </div>
         <p className="text-neutral-600 text-lg">
@@ -460,7 +461,7 @@ export const PreMortemPage: React.FC = () => {
                     Analyzing Failure Modes...
                   </span>
                 ) : (
-                  '💀 Run Pre-Mortem Analysis'
+                  'ðŸ’€ Run Pre-Mortem Analysis'
                 )}
               </button>
 
@@ -470,7 +471,7 @@ export const PreMortemPage: React.FC = () => {
                   onClick={() => setShowInterventionPanel(true)}
                   className="w-full mt-3 py-3 px-4 rounded-lg font-medium text-amber-700 bg-amber-50 border-2 border-amber-200 hover:bg-amber-100 transition-all flex items-center justify-center gap-2"
                 >
-                  🎤 Intervene - Add Your Perspective
+                  ðŸŽ¤ Intervene - Add Your Perspective
                 </button>
               )}
             </div>
@@ -524,7 +525,7 @@ export const PreMortemPage: React.FC = () => {
               <div className="bg-gradient-to-r from-amber-500 to-orange-500 text-white p-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="text-xl">💀</span>
+                    <span className="text-xl">ðŸ’€</span>
                     <h2 className="font-semibold">Live Pre-Mortem Deliberation</h2>
                   </div>
                   <div className="flex items-center gap-2">
@@ -616,7 +617,7 @@ export const PreMortemPage: React.FC = () => {
                     onClick={() => setShowInterventionPanel(true)}
                     className="w-full py-3 px-4 rounded-lg font-medium text-white bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 transition-all flex items-center justify-center gap-2"
                   >
-                    🎤 Add Your Voice to the Deliberation
+                    ðŸŽ¤ Add Your Voice to the Deliberation
                   </button>
                   <p className="text-xs text-neutral-500 text-center mt-2">
                     Share your perspective, ask questions, or raise objections
@@ -715,7 +716,7 @@ export const PreMortemPage: React.FC = () => {
                           <ul className="text-sm text-neutral-600 space-y-1">
                             {mode.mitigations.slice(0, 2).map((m, i) => (
                               <li key={i} className="flex items-start gap-1">
-                                <span className="text-green-500">•</span>
+                                <span className="text-green-500">â€¢</span>
                                 <span>{typeof m === 'string' ? m : m.action}</span>
                               </li>
                             ))}
@@ -737,7 +738,7 @@ export const PreMortemPage: React.FC = () => {
             </>
           ) : (
             <div className="bg-neutral-50 rounded-xl border border-neutral-200 p-12 text-center">
-              <div className="text-6xl mb-4">💀</div>
+              <div className="text-6xl mb-4">ðŸ’€</div>
               <h3 className="text-lg font-medium text-neutral-900 mb-2">No Analysis Yet</h3>
               <p className="text-neutral-500">
                 Enter a decision and run the Pre-Mortem analysis to see potential failure modes.

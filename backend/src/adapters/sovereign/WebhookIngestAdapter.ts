@@ -243,7 +243,7 @@ export class WebhookIngestAdapter extends SovereignAdapter {
   }
 
   private requireAdmin(req: Request, res: Response, next: NextFunction): void {
-    // In production, integrate with your auth system
+    // Production upgrade: integrate with auth system
     const adminKey = req.headers['x-admin-key'] as string;
     if (!adminKey) {
       res.status(403).json({ error: 'Admin access required' });
@@ -438,7 +438,7 @@ export class WebhookIngestAdapter extends SovereignAdapter {
 
   async validate(data: unknown): Promise<{ valid: boolean; errors?: string[] }> {
     // Implement JSON Schema validation here
-    // In production, use ajv or similar
+    // Production upgrade: use ajv schema validation
     if (data === null || data === undefined) {
       return { valid: false, errors: ['Data is null or undefined'] };
     }

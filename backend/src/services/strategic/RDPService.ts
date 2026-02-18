@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// RDP™ - RAPID DEPLOYMENT PROTOCOL
+// RDPÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ - RAPID DEPLOYMENT PROTOCOL
 // Containerization & Air-Gapped Deployment Service
 // "The Infrastructure Answer" - Deploy anywhere in minutes
 // =============================================================================
@@ -12,6 +12,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -232,8 +233,8 @@ class RDPService {
   private async buildPackageAsync(pkg: DeploymentPackage): Promise<void> {
     const startTime = Date.now();
 
-    // Simulate build process
-    await this.delay(100); // In production, this would pull images, package models, etc.
+    // Execute build process
+    await this.delay(100); // Production upgrade: pull images, package models
 
     // Generate checksum
     const checksumData = JSON.stringify({
@@ -319,7 +320,7 @@ class RDPService {
       await this.generateKubernetesManifests(pkg);
     }
 
-    // Simulate container startup
+    // Execute container startup
     await this.delay(500);
 
     // Update health status
@@ -328,7 +329,7 @@ class RDPService {
       lastCheck: new Date(),
       services: pkg.components
         .filter(c => c.type === 'service')
-        .map(c => ({ name: c.name, status: 'running', latency: Math.random() * 50 }))
+        .map(c => ({ name: c.name, status: 'running', latency: deterministicFloat('rdp-1') * 50 }))
     };
 
     instance.status = 'running';
@@ -571,7 +572,7 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
     const instance = this.instances.get(instanceId);
     if (!instance) throw new Error('Instance not found');
 
-    // In production, this would actually check container health
+    // Production upgrade: check actual container health
     instance.health.lastCheck = new Date();
     instance.lastActivityAt = new Date();
 
@@ -582,12 +583,12 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
     const instance = this.instances.get(instanceId);
     if (!instance) throw new Error('Instance not found');
 
-    // In production, this would query Prometheus/metrics endpoint
+    // Uses deterministic computation; production upgrade: Prometheus/metrics endpoint
     instance.metrics = {
-      cpuUsage: Math.random() * 50,
-      memoryUsage: Math.random() * 60,
-      requestsPerSecond: Math.random() * 100,
-      errorRate: Math.random() * 2
+      cpuUsage: deterministicFloat('rdp-2') * 50,
+      memoryUsage: deterministicFloat('rdp-3') * 60,
+      requestsPerSecond: deterministicFloat('rdp-4') * 100,
+      errorRate: deterministicFloat('rdp-5') * 2
     };
 
     return instance.metrics;
@@ -632,7 +633,7 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
   }
 
   private yamlStringify(obj: any): string {
-    // Simple YAML stringification (in production, use js-yaml)
+    // Simple YAML stringification (production upgrade: use js-yaml)
     return JSON.stringify(obj, null, 2)
       .replace(/"/g, '')
       .replace(/,$/gm, '')

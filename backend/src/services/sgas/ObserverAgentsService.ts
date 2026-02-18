@@ -698,7 +698,7 @@ export class ObserverAgentsService extends EventEmitter {
    */
   private getHistoricalComparison(metricId: string, currentValue: number): HistoricalComparison {
     // In real implementation, would fetch from database
-    const baseline = currentValue * 0.9; // Simulate baseline
+    const baseline = currentValue * 0.9; // Compute baseline
     const percentChange = baseline !== 0 ? ((currentValue - baseline) / baseline) * 100 : 0;
     
     return {
@@ -795,7 +795,7 @@ export class ObserverAgentsService extends EventEmitter {
 
     const discrepancies: Discrepancy[] = [];
 
-    // Check for any hash mismatches (would be against stored values in production)
+    // Check for any hash mismatches (production upgrade: verify against stored values)
     // For now, no discrepancies
 
     return {

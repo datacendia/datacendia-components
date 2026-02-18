@@ -151,7 +151,7 @@ const defaultParsers: Record<string, FileParser> = {
     extensions: ['.xml'],
     parse: async (content, filename) => {
       const start = Date.now();
-      // Simple XML to JSON - in production use a proper XML parser
+      // Simple XML to JSON; production upgrade: use proper XML parser
       const xmlString = content.toString('utf-8');
       // Placeholder - would use xml2js or similar
       return {

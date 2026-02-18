@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA LEDGER™ - API ROUTES
+// CENDIA LEDGERâ„¢ - API ROUTES
 // Immutable Decision Blockchain endpoints
 // =============================================================================
 
@@ -14,7 +14,11 @@ import crypto from 'crypto';
 
 const router: Router = express.Router();
 
-// Status endpoints for enterprise testing (no auth required)
+// Health & Status endpoints (no auth required)
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'ledger', timestamp: new Date().toISOString() } });
+});
+
 router.get('/status', (req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0', chainLength: 0 } });
 });
@@ -86,7 +90,7 @@ interface DecisionRecord {
   auditHistory: any[];
 }
 
-// In-memory stores (would use PostgreSQL in production)
+// In-memory stores; production upgrade: use PostgreSQL
 const entries: Map<string, LedgerEntry> = new Map();
 const decisions: Map<string, DecisionRecord> = new Map();
 let sequence = 0;

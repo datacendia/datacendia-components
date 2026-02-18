@@ -13,6 +13,11 @@ import { logger } from '../utils/logger.js';
 
 const router = Router();
 
+// Health endpoint
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'horizon', timestamp: new Date().toISOString() } });
+});
+
 /**
  * POST /api/v1/oracle/simulate
  * Create a new Oracle simulation

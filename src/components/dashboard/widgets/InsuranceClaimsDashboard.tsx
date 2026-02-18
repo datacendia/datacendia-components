@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Shield, FileText, AlertTriangle, DollarSign, Clock, Bot, CheckCircle, XCircle } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -186,7 +187,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
       <span>{agent.claimsProcessed > 0 ? `${agent.claimsProcessed.toLocaleString()} processed` : 'Analytics mode'}</span>
       <span className="text-emerald-400">{formatCurrency(agent.savings)} saved</span>
     </div>
-    <p className="text-[10px] text-cyan-400">🎯 {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.action}</p>
   </div>
 );
 
@@ -224,14 +225,14 @@ export const InsuranceClaimsDashboard: React.FC<{ className?: string }> = ({ cla
       // Simulate days open increment and fraud score changes
       setClaims(prev => prev.map((c): Claim => ({
         ...c,
-        fraudScore: Math.max(0, Math.min(100, c.fraudScore + Math.floor((Math.random() - 0.5) * 5))),
+        fraudScore: Math.max(0, Math.min(100, c.fraudScore + Math.floor((deterministicFloat('insuranceclaims-2') - 0.5) * 5))),
       })));
 
       // Simulate agent processing
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        claimsProcessed: a.claimsProcessed > 0 ? a.claimsProcessed + Math.floor(Math.random() * 10) : 0,
-        status: Math.random() > 0.7 ? 'processing' : 'active',
+        claimsProcessed: a.claimsProcessed > 0 ? a.claimsProcessed + deterministicInt(0, 9, 'insuranceclaims-1') : 0,
+        status: deterministicFloat('insuranceclaims-3') > 0.7 ? 'processing' : 'active',
       })));
     }, 3000);
 

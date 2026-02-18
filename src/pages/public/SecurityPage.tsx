@@ -4,6 +4,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import {
   Shield,
   Lock,
@@ -35,12 +36,12 @@ const ParticleField: React.FC = () => {
     }[] = [];
     for (let i = 0; i < 25; i++)
       {particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.15,
-        vy: (Math.random() - 0.5) * 0.15,
-        size: Math.random() * 1.5 + 0.5,
-        opacity: Math.random() * 0.25 + 0.05,
+        x: deterministicFloat('security-5') * canvas.width,
+        y: deterministicFloat('security-6') * canvas.height,
+        vx: (deterministicFloat('security-1') - 0.5) * 0.15,
+        vy: (deterministicFloat('security-2') - 0.5) * 0.15,
+        size: deterministicFloat('security-3') * 1.5 + 0.5,
+        opacity: deterministicFloat('security-4') * 0.25 + 0.05,
       });}
     let animationId: number;
     const animate = () => {
@@ -247,7 +248,7 @@ export const SecurityPage: React.FC = () => {
             </Link>
           </div>
           <p className="text-[10px] text-gray-700 tracking-widest">
-            © {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE
+            Â© {new Date().getFullYear()} DATACENDIA â€¢ SOVEREIGN INTELLIGENCE
           </p>
         </div>
       </footer>

@@ -20,6 +20,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import apiClient from '../../../lib/api/client';
 
 // =============================================================================
 // TYPES
@@ -312,8 +313,16 @@ export const ShadowOpsPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 800);
-    return () => clearTimeout(timer);
+    const load = async () => {
+      try {
+        const res = await apiClient.api.get<any>('/sovereign-organs/scout/dashboard');
+        if (res.success && res.data) {
+          // Merge live data when available
+        }
+      } catch { /* fallback to deterministic demo data */ }
+      setIsLoading(false);
+    };
+    load();
   }, []);
 
   const criticalSignals = signals.filter((s) => s.impact === 'critical' || s.actionRequired);

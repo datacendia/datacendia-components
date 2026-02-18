@@ -601,7 +601,7 @@ function matchPattern(endpoint: string, pattern: string): boolean {
 // =============================================================================
 
 function getClientIp(req: Request): string {
-  // Check various headers (be careful with trust in production)
+  // Check various headers (verify trust chain in production)
   const forwarded = req.headers['x-forwarded-for'];
   if (typeof forwarded === 'string') {
     return forwarded.split(',')[0].trim();

@@ -11,6 +11,7 @@ import { Router, Request, Response } from 'express';
 import { keyManagementService } from '../services/security/KeyManagementService.js';
 import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -347,7 +348,7 @@ router.get('/keys', async (_req: Request, res: Response) => {
         createdAt: key.createdAt,
         rotatedAt: key.rotatedAt,
         expiresAt: key.expiresAt,
-        usageCount: Math.floor(Math.random() * 10000), // TODO: Track actual usage
+        usageCount: deterministicInt(0, 9999, 'kms-1'), // TODO: Track actual usage
         lastUsed: new Date().toISOString(),
       })),
     });

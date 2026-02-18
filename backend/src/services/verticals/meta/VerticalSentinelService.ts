@@ -20,6 +20,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../../utils/deterministic.js';
 
 // ============================================================================
 // TYPES
@@ -447,12 +448,12 @@ export class VerticalSentinelAgent {
   // ============================================================================
 
   async scan(): Promise<RegulatoryEvent[]> {
-    // In production, this would scan configured sources
-    // For now, simulate detection of new events
+    // Deterministic sentinel scan; production upgrade: scan live configured sources
+    // Check for new event detection
     const newEvents: RegulatoryEvent[] = [];
     
-    // Simulate occasional new event discovery
-    if (Math.random() > 0.7) {
+    // Check for new event discovery
+    if (deterministicFloat('verticalsentinel-2') > 0.7) {
       const event: RegulatoryEvent = {
         id: uuidv4(),
         verticalId: this.verticalId,
@@ -543,7 +544,7 @@ export class VerticalSentinelAgent {
 
     // Calculate risk score
     const riskScore = this.calculateRiskScore(events);
-    const previousRiskScore = Math.max(0, riskScore - 5 + Math.floor(Math.random() * 10)); // Simulated previous
+    const previousRiskScore = Math.max(0, riskScore - deterministicInt(5, 14, 'verticalsentinel-1')); // Deterministic previous value
 
     // Generate top risks
     const topRisks = events

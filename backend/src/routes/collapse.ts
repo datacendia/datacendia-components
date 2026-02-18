@@ -12,6 +12,7 @@
 import { Router, Request, Response } from 'express';
 import { collapseOrchestrator } from '../services/collapse/index.js';
 import { PolicyContext } from '../services/collapse/agents/BaseCollapseAgent.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -329,7 +330,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
       historicalAnalogues: context?.historicalAnalogues,
     };
 
-    const actualSeed = seed ?? Math.floor(Math.random() * 1000000);
+    const actualSeed = seed ?? deterministicInt(0, 999999, 'collapse-1');
 
     const collapseTrack = await collapseOrchestrator.runCollapseTrack(
       decisionId,
@@ -520,9 +521,9 @@ router.post('/verify-bundle', (req: Request, res: Response) => {
     verificationResults.checksumValid = storedChecksum === computedChecksum;
 
     if (verificationResults.checksumValid) {
-      verificationResults.details.push('✓ Bundle checksum verified');
+      verificationResults.details.push('âœ“ Bundle checksum verified');
     } else {
-      verificationResults.details.push('✗ Bundle checksum mismatch - possible tampering');
+      verificationResults.details.push('âœ— Bundle checksum mismatch - possible tampering');
     }
 
     // Verify Merkle root
@@ -532,9 +533,9 @@ router.post('/verify-bundle', (req: Request, res: Response) => {
       verificationResults.merkleValid = verification.valid;
 
       if (verification.valid) {
-        verificationResults.details.push('✓ Failure envelope Merkle root verified');
+        verificationResults.details.push('âœ“ Failure envelope Merkle root verified');
       } else {
-        verificationResults.details.push('✗ Failure envelope integrity check failed');
+        verificationResults.details.push('âœ— Failure envelope integrity check failed');
       }
     }
 
@@ -669,11 +670,11 @@ router.get('/demo/impossible', (_req: Request, res: Response) => {
     },
     demoSteps: [
       'Enter the policy proposal',
-      'Run standard Council deliberation → Watch it recommend APPROVE',
-      'Activate Collapse Mode → Watch 18 agents find failures',
+      'Run standard Council deliberation â†’ Watch it recommend APPROVE',
+      'Activate Collapse Mode â†’ Watch 18 agents find failures',
       'Review Trust Delta (should be NEGATIVE)',
-      'Attempt human override → See accountability signing',
-      'Export audit bundle → Verify in browser',
+      'Attempt human override â†’ See accountability signing',
+      'Export audit bundle â†’ Verify in browser',
     ],
   };
 

@@ -11,6 +11,7 @@ import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/B
 import { eventBus } from '../../core/events/EventBus.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -399,7 +400,7 @@ export class PreMortemService extends BaseService {
       const topMitigations = this.extractTopMitigations(failureModes);
 
       const result: PreMortemResult = {
-        id: `pm-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+        id: `pm-${Date.now()}-${deterministicFloat('premortem-1').toString(36).substr(2, 9)}`,
         decision: request.decision,
         analyzedAt: new Date(),
         failureModes,
@@ -763,7 +764,7 @@ ${topRisks.map((r, i) => `${i + 1}. ${r.title} (${r.probability}% probability, $
 RECOMMENDATION: ${recommendation.action.toUpperCase().replace('_', ' ')}
 ${recommendation.reasoning}
 
-${recommendation.conditions.length > 0 ? `CONDITIONS:\n${recommendation.conditions.map(c => `• ${c}`).join('\n')}` : ''}`;
+${recommendation.conditions.length > 0 ? `CONDITIONS:\n${recommendation.conditions.map(c => `â€¢ ${c}`).join('\n')}` : ''}`;
   }
 
   private extractTopMitigations(failureModes: FailureMode[]): Mitigation[] {

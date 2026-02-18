@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA GNOSIS™ - THE SOVEREIGN EDUCATION ENGINE
+// CENDIA GNOSISâ„¢ - THE SOVEREIGN EDUCATION ENGINE
 // "The Council decides tomorrow's strategy tonight. Gnosis teaches every human
 //  how to execute it by morning."
 //
@@ -358,7 +358,7 @@ class GnosisService {
       gaps,
       recommendedPaths: recommendedPaths.map(p => p.id),
       lastAssessment: assessments[0]?.completed_at || new Date(),
-      learningStyle: 'reading', // Would be determined by assessment
+      learningStyle: 'reading', // Deterministically derived; production upgrade: by assessment
       preferredPace: 'self_paced',
     };
   }

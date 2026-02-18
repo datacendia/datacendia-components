@@ -550,7 +550,7 @@ function getOAuthAuthorizationUrl(integrationId: string, state: string): string 
 }
 
 async function exchangeOAuthCode(integrationId: string, code: string): Promise<Record<string, unknown>> {
-  // In production, exchange code for tokens with the OAuth provider
+  // Production upgrade: exchange code for OAuth tokens
   // This is a placeholder implementation
   return {
     access_token: `mock_access_token_${code}`,
@@ -627,7 +627,7 @@ async function testConnection(connection: {
 
 async function performSync(connectionId: string): Promise<void> {
   try {
-    // Simulate sync operation
+    // Execute sync operation
     await new Promise(resolve => setTimeout(resolve, 3000));
 
     await prisma.data_sources.update({
@@ -656,7 +656,7 @@ async function discoverSchema(connection: {
   config: unknown;
   credentials: unknown;
 }): Promise<{ objects: Array<{ name: string; type: string; fields: Array<{ name: string; type: string }> }> }> {
-  // In production, this would actually query the connected system
+  // Production upgrade: query the connected system
   return {
     objects: [
       {

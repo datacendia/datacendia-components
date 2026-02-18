@@ -3,13 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIADOCKET™ - LEGAL OPERATIONS INTELLIGENCE
+// CENDIADOCKETâ„¢ - LEGAL OPERATIONS INTELLIGENCE
 // "The Litigation Engine" - AI-powered legal analysis and case management
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -174,7 +175,7 @@ class CendiaDocketService {
   private complianceChecks: Map<string, ComplianceCheck> = new Map();
 
   constructor() {
-    logger.info('CendiaDocket™ initialized - The Litigation Engine is ready');
+    logger.info('CendiaDocketâ„¢ initialized - The Litigation Engine is ready');
   }
 
   // ---------------------------------------------------------------------------
@@ -184,7 +185,7 @@ class CendiaDocketService {
   createMatter(matter: Omit<LegalMatter, 'id' | 'documents' | 'timeline' | 'actualCost' | 'createdAt' | 'updatedAt'>): LegalMatter {
     const newMatter: LegalMatter = {
       ...matter,
-      id: `matter-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `matter-${Date.now()}-${deterministicFloat('docket-1').toString(36).substr(2, 9)}`,
       actualCost: 0,
       documents: [],
       timeline: [{
@@ -247,7 +248,7 @@ class CendiaDocketService {
     const matter = this.matters.get(matterId);
     if (!matter) throw new Error(`Matter ${matterId} not found`);
 
-    const prompt = `You are CendiaDocket™, an AI legal analysis system evaluating litigation.
+    const prompt = `You are CendiaDocketâ„¢, an AI legal analysis system evaluating litigation.
 
 CASE DETAILS:
 - Title: ${matter.title}
@@ -366,7 +367,7 @@ Analyze this litigation and provide assessment in JSON:
   // ---------------------------------------------------------------------------
 
   async analyzeContract(documentId: string, contractText: string): Promise<ContractAnalysis> {
-    const prompt = `You are CendiaDocket™, an AI contract analysis system.
+    const prompt = `You are CendiaDocketâ„¢, an AI contract analysis system.
 
 Analyze this contract and extract key information in JSON:
 {
@@ -516,7 +517,7 @@ ${contractText.substring(0, 8000)}`;
   async runComplianceCheck(regulation: string, jurisdiction: string): Promise<ComplianceCheck> {
     const checkId = `comp-${Date.now()}`;
 
-    const prompt = `You are CendiaDocket™, performing a compliance assessment.
+    const prompt = `You are CendiaDocketâ„¢, performing a compliance assessment.
 
 REGULATION: ${regulation}
 JURISDICTION: ${jurisdiction}
@@ -643,6 +644,275 @@ Generate a compliance assessment in JSON:
       totalCosts,
       avgWinProbability: Math.round(avgWin),
       upcomingDeadlines: this.getUpcomingDeadlines(14).length,
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Legal Portfolio Dashboard */
+  getLegalPortfolioDashboard(): {
+    summary: { totalMatters: number; activeMatters: number; totalExposure: number; totalSpend: number; budgetVariance: number; avgDuration: number };
+    byType: Array<{ type: LegalMatter['type']; count: number; exposure: number; spend: number; avgWinProb: number }>;
+    byStatus: Array<{ status: LegalMatter['status']; count: number; exposure: number }>;
+    byJurisdiction: Array<{ jurisdiction: string; count: number; exposure: number }>;
+    byCounsel: Array<{ counsel: string; matters: number; totalCost: number; avgWinProb: number }>;
+    riskTiers: { critical: number; high: number; medium: number; low: number };
+    insights: string[];
+  } {
+    const matters = this.getAllMatters();
+    const active = matters.filter(m => !['closed', 'settled'].includes(m.status));
+    const totalExposure = active.reduce((sum, m) => sum + m.riskExposure, 0);
+    const totalSpend = matters.reduce((sum, m) => sum + m.actualCost, 0);
+    const totalEstimated = matters.reduce((sum, m) => sum + m.estimatedCost, 0);
+    const budgetVariance = totalEstimated > 0 ? Math.round(((totalSpend - totalEstimated) / totalEstimated) * 100) : 0;
+
+    const resolved = matters.filter(m => ['closed', 'settled'].includes(m.status));
+    const avgDuration = resolved.length > 0
+      ? Math.round(resolved.reduce((sum, m) => {
+          const start = m.filingDate?.getTime() || m.createdAt.getTime();
+          const end = m.updatedAt.getTime();
+          return sum + (end - start) / (1000 * 60 * 60 * 24);
+        }, 0) / resolved.length)
+      : 0;
+
+    const typeMap: Record<string, { count: number; exposure: number; spend: number; winProbs: number[] }> = {};
+    const statusMap: Record<string, { count: number; exposure: number }> = {};
+    const jurisdictionMap: Record<string, { count: number; exposure: number }> = {};
+    const counselMap: Record<string, { matters: number; cost: number; winProbs: number[] }> = {};
+
+    for (const m of matters) {
+      if (!typeMap[m.type]) typeMap[m.type] = { count: 0, exposure: 0, spend: 0, winProbs: [] };
+      typeMap[m.type].count++;
+      typeMap[m.type].exposure += m.riskExposure;
+      typeMap[m.type].spend += m.actualCost;
+      if (m.winProbability !== undefined) typeMap[m.type].winProbs.push(m.winProbability);
+
+      if (!statusMap[m.status]) statusMap[m.status] = { count: 0, exposure: 0 };
+      statusMap[m.status].count++;
+      statusMap[m.status].exposure += m.riskExposure;
+
+      if (!jurisdictionMap[m.jurisdiction]) jurisdictionMap[m.jurisdiction] = { count: 0, exposure: 0 };
+      jurisdictionMap[m.jurisdiction].count++;
+      jurisdictionMap[m.jurisdiction].exposure += m.riskExposure;
+
+      if (!counselMap[m.assignedCounsel]) counselMap[m.assignedCounsel] = { matters: 0, cost: 0, winProbs: [] };
+      counselMap[m.assignedCounsel].matters++;
+      counselMap[m.assignedCounsel].cost += m.actualCost;
+      if (m.winProbability !== undefined) counselMap[m.assignedCounsel].winProbs.push(m.winProbability);
+    }
+
+    const avg = (arr: number[]) => arr.length > 0 ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : 0;
+
+    const riskTiers = { critical: 0, high: 0, medium: 0, low: 0 };
+    for (const m of active) {
+      if (m.riskExposure > 1000000 || m.priority === 'critical') riskTiers.critical++;
+      else if (m.riskExposure > 500000 || m.priority === 'high') riskTiers.high++;
+      else if (m.riskExposure > 100000 || m.priority === 'medium') riskTiers.medium++;
+      else riskTiers.low++;
+    }
+
+    const insights: string[] = [];
+    if (budgetVariance > 20) insights.push(`Legal spend is ${budgetVariance}% over budget â€” review cost controls`);
+    if (riskTiers.critical > 0) insights.push(`${riskTiers.critical} matter(s) at critical risk exposure level`);
+    if (this.getUpcomingDeadlines(7).length > 0) insights.push(`${this.getUpcomingDeadlines(7).length} deadline(s) within 7 days`);
+    if (insights.length === 0) insights.push('Legal portfolio is within normal parameters');
+
+    return {
+      summary: { totalMatters: matters.length, activeMatters: active.length, totalExposure, totalSpend, budgetVariance, avgDuration },
+      byType: Object.entries(typeMap).map(([type, d]) => ({ type: type as LegalMatter['type'], count: d.count, exposure: d.exposure, spend: d.spend, avgWinProb: avg(d.winProbs) })),
+      byStatus: Object.entries(statusMap).map(([status, d]) => ({ status: status as LegalMatter['status'], ...d })),
+      byJurisdiction: Object.entries(jurisdictionMap).map(([j, d]) => ({ jurisdiction: j, ...d })).sort((a, b) => b.exposure - a.exposure),
+      byCounsel: Object.entries(counselMap).map(([c, d]) => ({ counsel: c, matters: d.matters, totalCost: d.cost, avgWinProb: avg(d.winProbs) })),
+      riskTiers, insights,
+    };
+  }
+
+  /** 10/10: Litigation Cost Intelligence */
+  getLitigationCostIntelligence(): {
+    totalSpend: number;
+    totalBudget: number;
+    budgetUtilization: number;
+    costByPhase: Array<{ phase: string; count: number; totalCost: number; avgCost: number }>;
+    costEfficiency: Array<{ counsel: string; mattersHandled: number; totalCost: number; costPerMatter: number; successRate: number }>;
+    overBudgetMatters: Array<{ matterId: string; title: string; budget: number; actual: number; overagePercent: number }>;
+    savingsOpportunities: Array<{ description: string; estimatedSavings: number; priority: string }>;
+    forecast: { nextQuarterEstimate: number; confidence: number };
+  } {
+    const matters = this.getAllMatters();
+    const totalSpend = matters.reduce((sum, m) => sum + m.actualCost, 0);
+    const totalBudget = matters.reduce((sum, m) => sum + m.estimatedCost, 0);
+    const budgetUtilization = totalBudget > 0 ? Math.round((totalSpend / totalBudget) * 100) : 0;
+
+    const phaseMap: Record<string, { count: number; cost: number }> = {};
+    for (const m of matters) {
+      if (!phaseMap[m.status]) phaseMap[m.status] = { count: 0, cost: 0 };
+      phaseMap[m.status].count++;
+      phaseMap[m.status].cost += m.actualCost;
+    }
+
+    const counselMap: Record<string, { handled: number; cost: number; won: number; closed: number }> = {};
+    for (const m of matters) {
+      if (!counselMap[m.assignedCounsel]) counselMap[m.assignedCounsel] = { handled: 0, cost: 0, won: 0, closed: 0 };
+      counselMap[m.assignedCounsel].handled++;
+      counselMap[m.assignedCounsel].cost += m.actualCost;
+      if (m.status === 'settled' || m.status === 'closed') {
+        counselMap[m.assignedCounsel].closed++;
+        if (m.winProbability && m.winProbability > 50) counselMap[m.assignedCounsel].won++;
+      }
+    }
+
+    const overBudgetMatters = matters
+      .filter(m => m.actualCost > m.estimatedCost * 1.1)
+      .map(m => ({ matterId: m.id, title: m.title, budget: m.estimatedCost, actual: m.actualCost, overagePercent: Math.round(((m.actualCost - m.estimatedCost) / m.estimatedCost) * 100) }))
+      .sort((a, b) => b.overagePercent - a.overagePercent);
+
+    const savingsOpportunities: Array<{ description: string; estimatedSavings: number; priority: string }> = [];
+    const active = matters.filter(m => !['closed', 'settled'].includes(m.status));
+    const settleable = active.filter(m => m.winProbability !== undefined && m.winProbability < 40);
+    if (settleable.length > 0) {
+      const savings = settleable.reduce((sum, m) => sum + m.estimatedCost * 0.3, 0);
+      savingsOpportunities.push({ description: `Settle ${settleable.length} low-probability matter(s) early`, estimatedSavings: Math.round(savings), priority: 'high' });
+    }
+    if (overBudgetMatters.length > 0) {
+      savingsOpportunities.push({ description: 'Implement stricter budget controls on over-budget matters', estimatedSavings: Math.round(overBudgetMatters.reduce((s, m) => s + m.actual - m.budget, 0) * 0.5), priority: 'medium' });
+    }
+
+    const quarterlySpend = totalSpend / Math.max(1, Math.ceil(matters.length / 4));
+    return {
+      totalSpend, totalBudget, budgetUtilization,
+      costByPhase: Object.entries(phaseMap).map(([phase, d]) => ({ phase, count: d.count, totalCost: d.cost, avgCost: d.count > 0 ? Math.round(d.cost / d.count) : 0 })),
+      costEfficiency: Object.entries(counselMap).map(([c, d]) => ({ counsel: c, mattersHandled: d.handled, totalCost: d.cost, costPerMatter: d.handled > 0 ? Math.round(d.cost / d.handled) : 0, successRate: d.closed > 0 ? Math.round((d.won / d.closed) * 100) : 0 })),
+      overBudgetMatters, savingsOpportunities,
+      forecast: { nextQuarterEstimate: Math.round(quarterlySpend * 1.05), confidence: matters.length >= 10 ? 75 : 50 },
+    };
+  }
+
+  /** 10/10: Compliance Risk Heatmap */
+  getComplianceRiskHeatmap(): {
+    overallRisk: number;
+    byRegulation: Array<{ regulation: string; jurisdiction: string; status: string; riskScore: number; findingsCount: number; criticalFindings: number; nextAudit: Date }>;
+    riskDistribution: { low: number; medium: number; high: number; critical: number };
+    overdueAudits: Array<{ regulation: string; lastAudit: Date; daysSinceAudit: number }>;
+    remediationProgress: { total: number; remediated: number; inProgress: number; overdue: number; rate: number };
+    insights: string[];
+  } {
+    const checks = this.getComplianceStatus();
+    const now = Date.now();
+
+    let totalRisk = 0;
+    const riskDistribution = { low: 0, medium: 0, high: 0, critical: 0 };
+    const overdueAudits: Array<{ regulation: string; lastAudit: Date; daysSinceAudit: number }> = [];
+    let totalFindings = 0; let remediatedFindings = 0; let inProgressFindings = 0; let overdueFindings = 0;
+
+    const byRegulation = checks.map(c => {
+      totalRisk += c.riskScore;
+      const criticalFindings = c.findings.filter(f => f.status === 'fail').length;
+      const allFindings = c.findings.length;
+      totalFindings += allFindings;
+      remediatedFindings += c.findings.filter(f => f.status === 'pass').length;
+
+      if (c.riskScore >= 80) riskDistribution.critical++;
+      else if (c.riskScore >= 60) riskDistribution.high++;
+      else if (c.riskScore >= 40) riskDistribution.medium++;
+      else riskDistribution.low++;
+
+      if (c.nextAudit.getTime() < now) {
+        overdueAudits.push({ regulation: c.regulation, lastAudit: c.lastAudit, daysSinceAudit: Math.ceil((now - c.lastAudit.getTime()) / (24 * 60 * 60 * 1000)) });
+      }
+
+      return { regulation: c.regulation, jurisdiction: c.jurisdiction, status: c.status, riskScore: c.riskScore, findingsCount: allFindings, criticalFindings, nextAudit: c.nextAudit };
+    }).sort((a, b) => b.riskScore - a.riskScore);
+
+    const overallRisk = checks.length > 0 ? Math.round(totalRisk / checks.length) : 0;
+    const rate = totalFindings > 0 ? Math.round((remediatedFindings / totalFindings) * 100) : 100;
+
+    const insights: string[] = [];
+    if (riskDistribution.critical > 0) insights.push(`${riskDistribution.critical} regulation(s) at critical risk level`);
+    if (overdueAudits.length > 0) insights.push(`${overdueAudits.length} compliance audit(s) overdue`);
+    if (rate < 70) insights.push('Remediation rate below 70% â€” accelerate compliance remediation efforts');
+    if (insights.length === 0) insights.push('Compliance posture is healthy across all regulations');
+
+    return { overallRisk, byRegulation, riskDistribution, overdueAudits, remediationProgress: { total: totalFindings, remediated: remediatedFindings, inProgress: inProgressFindings, overdue: overdueFindings, rate }, insights };
+  }
+
+  /** 10/10: Matter Lifecycle Analytics */
+  getMatterLifecycleAnalytics(): {
+    avgTimeToResolution: number;
+    resolutionByType: Array<{ type: string; avgDays: number; count: number }>;
+    bottleneckStages: Array<{ stage: string; avgDaysInStage: number; matterCount: number }>;
+    outcomeAnalysis: { settled: number; won: number; lost: number; withdrawn: number; settledValue: number };
+    documentVolume: { totalDocuments: number; byType: Record<string, number>; avgDocsPerMatter: number };
+    timelineActivity: { eventsThisMonth: number; eventsLastMonth: number; trend: 'increasing' | 'stable' | 'decreasing' };
+    insights: string[];
+  } {
+    const matters = this.getAllMatters();
+    const resolved = matters.filter(m => ['closed', 'settled'].includes(m.status));
+    const now = Date.now();
+    const oneMonth = 30 * 24 * 60 * 60 * 1000;
+
+    const avgTimeToResolution = resolved.length > 0
+      ? Math.round(resolved.reduce((sum, m) => {
+          const start = m.filingDate?.getTime() || m.createdAt.getTime();
+          return sum + (m.updatedAt.getTime() - start) / (24 * 60 * 60 * 1000);
+        }, 0) / resolved.length)
+      : 0;
+
+    const typeResolution: Record<string, { days: number; count: number }> = {};
+    for (const m of resolved) {
+      if (!typeResolution[m.type]) typeResolution[m.type] = { days: 0, count: 0 };
+      const start = m.filingDate?.getTime() || m.createdAt.getTime();
+      typeResolution[m.type].days += (m.updatedAt.getTime() - start) / (24 * 60 * 60 * 1000);
+      typeResolution[m.type].count++;
+    }
+
+    const statusDuration: Record<string, { days: number; count: number }> = {};
+    for (const m of matters) {
+      if (!statusDuration[m.status]) statusDuration[m.status] = { days: 0, count: 0 };
+      const duration = (now - m.updatedAt.getTime()) / (24 * 60 * 60 * 1000);
+      statusDuration[m.status].days += duration;
+      statusDuration[m.status].count++;
+    }
+
+    const settled = resolved.filter(m => m.status === 'settled');
+    const won = resolved.filter(m => m.winProbability && m.winProbability > 70);
+    const lost = resolved.filter(m => m.winProbability !== undefined && m.winProbability < 30);
+    const settledValue = settled.reduce((sum, m) => sum + m.actualCost, 0);
+
+    let totalDocs = 0;
+    const docTypes: Record<string, number> = {};
+    for (const m of matters) {
+      totalDocs += m.documents.length;
+      for (const d of m.documents) {
+        docTypes[d.type] = (docTypes[d.type] || 0) + 1;
+      }
+    }
+
+    let thisMonthEvents = 0; let lastMonthEvents = 0;
+    for (const m of matters) {
+      for (const e of m.timeline) {
+        const age = now - e.timestamp.getTime();
+        if (age < oneMonth) thisMonthEvents++;
+        else if (age < oneMonth * 2) lastMonthEvents++;
+      }
+    }
+    const trend: 'increasing' | 'stable' | 'decreasing' = thisMonthEvents > lastMonthEvents * 1.2 ? 'increasing' : thisMonthEvents < lastMonthEvents * 0.8 ? 'decreasing' : 'stable';
+
+    const insights: string[] = [];
+    if (avgTimeToResolution > 180) insights.push('Average resolution time exceeds 6 months â€” review case management efficiency');
+    const slowestStage = Object.entries(statusDuration).sort((a, b) => (b[1].days / b[1].count) - (a[1].days / a[1].count))[0];
+    if (slowestStage) insights.push(`"${slowestStage[0]}" stage has the longest average duration`);
+    if (insights.length === 0) insights.push('Matter lifecycle metrics are within normal ranges');
+
+    return {
+      avgTimeToResolution,
+      resolutionByType: Object.entries(typeResolution).map(([type, d]) => ({ type, avgDays: Math.round(d.days / d.count), count: d.count })),
+      bottleneckStages: Object.entries(statusDuration).map(([stage, d]) => ({ stage, avgDaysInStage: Math.round(d.days / d.count), matterCount: d.count })).sort((a, b) => b.avgDaysInStage - a.avgDaysInStage),
+      outcomeAnalysis: { settled: settled.length, won: won.length, lost: lost.length, withdrawn: 0, settledValue },
+      documentVolume: { totalDocuments: totalDocs, byType: docTypes, avgDocsPerMatter: matters.length > 0 ? Math.round(totalDocs / matters.length) : 0 },
+      timelineActivity: { eventsThisMonth: thisMonthEvents, eventsLastMonth: lastMonthEvents, trend },
+      insights,
     };
   }
 }

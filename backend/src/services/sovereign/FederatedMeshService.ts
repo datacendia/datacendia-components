@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA FEDERATED MESH� - OFFLINE DELTA EXCHANGE FOR FEDERATED COLLABORATION
+// CENDIA FEDERATED MESHâ„¢ - OFFLINE DELTA EXCHANGE FOR FEDERATED COLLABORATION
 // "Federated collaboration without live network connectivity."
 //
 // Enables knowledge sharing across multiple air-gapped Datacendia instances
@@ -25,6 +25,7 @@ import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // FEDERATION POLICY & SUPPLY-CHAIN TYPES
@@ -483,7 +484,7 @@ class FederatedMeshService extends EventEmitter {
         organizationId: n.organizationId,
         organizationName: n.name,
         contributed: relevantDeltas.some(d => d.sourceNodeId === n.id),
-        dataPoints: 0 // Would calculate real points in production
+        dataPoints: 0 // Production upgrade: calculate real data points
       })),
       privacyBudgetUsed: 0.01, // Local query uses minimal budget
       confidence: 1.0, // Local data is verified
@@ -754,7 +755,7 @@ class FederatedMeshService extends EventEmitter {
    */
   private applyDifferentialPrivacy(data: Buffer, config: DifferentialPrivacyConfig): Buffer {
     // Simplified DP implementation
-    // In production, use proper Gaussian mechanism
+    // Production upgrade: use proper Gaussian mechanism
     
     const floatArray = new Float32Array(data.buffer, data.byteOffset, data.length / 4);
     const noisyArray = new Float32Array(floatArray.length);
@@ -778,8 +779,8 @@ class FederatedMeshService extends EventEmitter {
    * Generate Gaussian noise using Box-Muller transform
    */
   private gaussianNoise(): number {
-    const u1 = Math.random();
-    const u2 = Math.random();
+    const u1 = deterministicFloat('federatedmesh-1');
+    const u2 = deterministicFloat('federatedmesh-2');
     return Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
   }
 

@@ -15,7 +15,11 @@ import { logger } from '../utils/logger.js';
 
 const router = Router();
 
-// Status endpoints for enterprise testing
+// Health & Status endpoints
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'omnitranslate', timestamp: new Date().toISOString() } });
+});
+
 router.get('/status', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0', languageCount: 100 } });
 });

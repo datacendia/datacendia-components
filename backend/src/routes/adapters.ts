@@ -43,7 +43,7 @@ const router = Router();
  * Require admin role for management operations
  */
 const requireAdmin = (req: Request, res: Response, next: NextFunction): void => {
-  // In production, integrate with Keycloak/your auth system
+  // Production upgrade: integrate with Keycloak/auth system
   const role = req.headers['x-user-role'] as string;
   if (!role || !['admin', 'super_admin'].includes(role)) {
     res.status(403).json({

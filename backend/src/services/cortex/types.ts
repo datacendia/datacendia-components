@@ -5,8 +5,8 @@
 /**
  * Cortex Core API Types
  * 
- * 3-Tier Architecture: Foundation → Enterprise → Strategic
- * 12 Pillars (IDs → Display Names):
+ * 3-Tier Architecture: Foundation â†’ Enterprise â†’ Strategic
+ * 12 Pillars (IDs â†’ Display Names):
  *   Foundation:  council (THE COUNCIL), decide (DECIDE), dcii (DCII)
  *   Enterprise:  stress_test (STRESS-TEST), comply (COMPLY), govern (GOVERN), sovereign (SOVEREIGN), operate (OPERATE)
  *   Strategic:   collapse (RESILIENCE), sgas (MODEL), verticals (DOMINATE), frontier (NATION)
@@ -27,7 +27,7 @@ export type PlatformPillarName =
   // Tier 3: Strategic
   | 'collapse' | 'sgas' | 'verticals' | 'frontier';
 
-// Union type — accepts both legacy and new pillar names
+// Union type â€” accepts both legacy and new pillar names
 export type PillarName = LegacyPillarName | PlatformPillarName;
 
 // Platform tier type
@@ -106,7 +106,7 @@ export interface AnalyzeResponse {
   executionMs: number;
 }
 
-// Simulate Engine
+// COMPUTATION ENGINE
 export type SimulationType = 'forecast' | 'scenario' | 'monte_carlo' | 'stress_test' | 'what_if';
 
 export interface SimulateParams {

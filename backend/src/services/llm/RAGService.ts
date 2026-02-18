@@ -231,7 +231,7 @@ export class RAGService {
     // Generate query embedding
     const queryEmbedding = await generateEmbedding(query, this.embeddingModel);
 
-    // Get all embeddings (in production, use pgvector for efficient similarity search)
+    // Get all embeddings (production upgrade: use pgvector for efficient similarity search)
     const whereClause: any = {};
     if (sourceType) {
       whereClause.source_type = sourceType;

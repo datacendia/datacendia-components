@@ -176,7 +176,7 @@ export class DatabaseAdapter extends SovereignAdapter {
   // ---------------------------------------------------------------------------
 
   private async createConnection(): Promise<DatabaseConnection> {
-    // In production, use actual database drivers
+    // Production upgrade: use actual database drivers
     // This is a simplified interface implementation
     const config = this.dbConfig;
 
@@ -193,7 +193,7 @@ export class DatabaseAdapter extends SovereignAdapter {
 
       query: async (sql: string, params?: unknown[]): Promise<unknown[]> => {
         // Sanitize and execute query
-        // In production, use parameterized queries with the actual driver
+        // Production upgrade: use parameterized queries
         this.log('debug', 'Executing query', { sql: sql.substring(0, 100) });
         
         // Placeholder - would return actual query results
@@ -345,7 +345,7 @@ export class DatabaseAdapter extends SovereignAdapter {
   }
 
   private addWatermarkFilter(sql: string, column: string, value: unknown): string {
-    // Simple implementation - in production use proper SQL builder
+    // Simplified; production upgrade: use proper SQL builder
     const whereClause = `${column} > $1`;
     
     if (sql.toUpperCase().includes('WHERE')) {

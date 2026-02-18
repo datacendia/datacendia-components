@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Building2, DollarSign, Users, TrendingUp, MapPin, Bot, Key, BarChart3 } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -118,7 +119,7 @@ const PropertyCard: React.FC<{ property: Property }> = ({ property }) => {
         </span>
       </div>
       
-      <p className="text-[10px] text-gray-400 mb-1.5">{property.location} • {(property.sqft / 1000).toFixed(0)}K sqft</p>
+      <p className="text-[10px] text-gray-400 mb-1.5">{property.location} â€¢ {(property.sqft / 1000).toFixed(0)}K sqft</p>
       
       <div className="grid grid-cols-4 gap-1 text-[10px]">
         <div>
@@ -168,7 +169,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
       )} />
     </div>
     <p className="text-[10px] text-gray-400 mb-1">{agent.action}</p>
-    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">💡 {agent.recommendation}</p>
+    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">ðŸ’¡ {agent.recommendation}</p>
   </div>
 );
 
@@ -202,13 +203,13 @@ export const PropertyPortfolio: React.FC<{ className?: string }> = ({ className 
       // Simulate occupancy fluctuation
       setProperties(prev => prev.map((p): Property => ({
         ...p,
-        occupancy: Math.max(70, Math.min(100, p.occupancy + (Math.random() - 0.5) * 2)),
+        occupancy: Math.max(70, Math.min(100, p.occupancy + (deterministicFloat('propertyportfolio-1') - 0.5) * 2)),
       })));
 
       // Simulate agent status
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        status: Math.random() > 0.8 ? 'analyzing' : 'active',
+        status: deterministicFloat('propertyportfolio-2') > 0.8 ? 'analyzing' : 'active',
       })));
     }, 4000);
 

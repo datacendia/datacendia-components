@@ -140,7 +140,7 @@ export class KeyManagementService {
     }
 
     this.initialized = true;
-    logger.info(`[CendiaNotary] Key Management Service™ initialized (provider: ${this.config.provider})`);
+    logger.info(`[CendiaNotary] Key Management Serviceâ„¢ initialized (provider: ${this.config.provider})`);
   }
 
   private async initializeAwsKms(): Promise<void> {
@@ -315,14 +315,14 @@ export class KeyManagementService {
       SigningAlgorithm: 'RSASSA_PKCS1_V1_5_SHA_256',
     });
 
-    // In production, use AWS SDK:
+    // Production upgrade: use AWS SDK:
     // const client = new KMSClient({ region });
     // const command = new SignCommand({ KeyId, Message, SigningAlgorithm });
     // const response = await client.send(command);
 
     // For now, create signature using AWS Signature v4 would go here
     // This requires proper AWS credential signing which is complex
-    // Recommend using @aws-sdk/client-kms in production
+    // Production upgrade: use cloud KMS SDK
 
     logger.info(`AWS KMS sign request for key: ${kmsKeyId}`);
     
@@ -381,7 +381,7 @@ export class KeyManagementService {
     const keyName = keyId || this.config.azureKeyName || 'datacendia-signing-key';
     
     // Azure Key Vault requires OAuth token
-    // In production, use @azure/keyvault-keys
+    // Production upgrade: use @azure/keyvault-keys
     logger.warn('Azure Key Vault requires @azure/keyvault-keys - falling back to local signing');
     return this.signWithLocalKey(data, 'default', timestamp);
   }

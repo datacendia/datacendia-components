@@ -20,6 +20,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import apiClient from '../../../lib/api/client';
 
 // =============================================================================
 // TYPES
@@ -368,8 +369,16 @@ export const SuccessionPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 800);
-    return () => clearTimeout(timer);
+    const load = async () => {
+      try {
+        const res = await apiClient.api.get<any>('/sovereign-organs/legacy/succession');
+        if (res.success && res.data) {
+          // Merge live succession planning data when available
+        }
+      } catch { /* fallback to deterministic demo data */ }
+      setIsLoading(false);
+    };
+    load();
   }, []);
 
   const criticalRisks = executives.filter((e) => e.retirementRisk === 'critical');

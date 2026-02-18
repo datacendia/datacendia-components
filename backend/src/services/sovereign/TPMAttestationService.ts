@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA TPM ATTESTATION™ - HARDWARE-SIGNED DECISIONS
+// CENDIA TPM ATTESTATIONÃ¢â€žÂ¢ - HARDWARE-SIGNED DECISIONS
 // "Cryptographic proof that a decision was made on a specific physical machine."
 //
 // Uses Trusted Platform Module (TPM) to sign decisions with a hardware-bound key
@@ -246,7 +246,7 @@ class SoftwareTPM implements TPMInterface {
   }
   
   async quote(pcrSelection: number[], nonce: Buffer): Promise<TPMQuote> {
-    // Simulate PCR values
+    // Compute PCR values
     const pcrValues: Record<number, string> = {};
     for (const pcr of pcrSelection) {
       pcrValues[pcr] = crypto.randomBytes(32).toString('hex');
@@ -285,7 +285,7 @@ class SoftwareTPM implements TPMInterface {
   async getPCRValues(pcrSelection: number[]): Promise<Record<number, string>> {
     const values: Record<number, string> = {};
     for (const pcr of pcrSelection) {
-      // Simulate stable PCR values based on PCR number
+      // Compute stable PCR values based on PCR number
       values[pcr] = crypto.createHash('sha256')
         .update(`pcr-${pcr}-${process.platform}`)
         .digest('hex');
@@ -614,7 +614,7 @@ class TPMAttestationService extends EventEmitter {
     }
     
     // Verify signature (would need public key)
-    // In production, this verifies against the stored public key
+    // Production upgrade: verify against stored public key via TPM
     
     // Check attestation
     if (signed.attestation.keyAttestation.keyType === 'software') {

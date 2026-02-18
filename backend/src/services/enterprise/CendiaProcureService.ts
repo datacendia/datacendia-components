@@ -248,6 +248,255 @@ Write only the email body, no subject line.`;
       avgSavingsPercent,
     };
   }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Procurement Intelligence Dashboard */
+  getProcurementIntelligenceDashboard(): {
+    overview: { totalContracts: number; totalAnnualSpend: number; avgContractValue: number; expiringWithin90Days: number };
+    byCategory: Array<{ category: string; count: number; totalValue: number; avgValue: number; pctOfSpend: number }>;
+    byStatus: Array<{ status: string; count: number; totalValue: number }>;
+    negotiationPipeline: { active: number; potentialSavings: number; avgTargetReduction: number; highPriority: number };
+    savingsPerformance: { totalSavingsAchieved: number; negotiationsCompleted: number; avgSavingsPercent: number; bestNegotiation: { vendor: string; savingsPercent: number } | null };
+    contractHealth: { autoRenewCount: number; lowUtilization: number; aboveMarketRate: number; needsReview: number };
+    insights: string[];
+  } {
+    const contracts = Array.from(this.contracts.values());
+    const totalSpend = contracts.reduce((s, c) => s + c.annualValue, 0);
+
+    const catMap: Record<string, { count: number; value: number }> = {};
+    const statusMap: Record<string, { count: number; value: number }> = {};
+    let autoRenew = 0; let lowUtil = 0; let aboveMarket = 0;
+
+    for (const c of contracts) {
+      if (!catMap[c.category]) catMap[c.category] = { count: 0, value: 0 };
+      catMap[c.category].count++;
+      catMap[c.category].value += c.annualValue;
+
+      if (!statusMap[c.status]) statusMap[c.status] = { count: 0, value: 0 };
+      statusMap[c.status].count++;
+      statusMap[c.status].value += c.annualValue;
+
+      if (c.autoRenew) autoRenew++;
+      if (c.usagePercent < 50) lowUtil++;
+      if (c.marketBenchmark && c.annualValue > c.marketBenchmark * 1.1) aboveMarket++;
+    }
+
+    const now = Date.now();
+    const expiring90 = contracts.filter(c => {
+      const days = (c.renewalDate.getTime() - now) / (24 * 60 * 60 * 1000);
+      return days > 0 && days <= 90 && c.status === 'active';
+    }).length;
+
+    const pendingNeg = this.negotiations.filter(n => !this.results.some(r => r.contractId === n.contractId));
+    const potentialSavings = pendingNeg.reduce((s, n) => s + n.savingsEstimate, 0);
+    const avgTargetReduction = pendingNeg.length > 0 ? pendingNeg.reduce((s, n) => s + ((n.currentPrice - n.targetPrice) / n.currentPrice) * 100, 0) / pendingNeg.length : 0;
+
+    const bestResult = this.results.length > 0 ? this.results.reduce((best, r) => r.savingsPercent > best.savingsPercent ? r : best, this.results[0]) : null;
+
+    const insights: string[] = [];
+    if (expiring90 > 0) insights.push(`${expiring90} contract(s) expiring within 90 days — initiate negotiations`);
+    if (lowUtil > 0) insights.push(`${lowUtil} contract(s) with utilization below 50% — rightsize or renegotiate`);
+    if (aboveMarket > 0) insights.push(`${aboveMarket} contract(s) above market rate by 10%+ — leverage in negotiations`);
+    if (potentialSavings > 0) insights.push(`$${Math.round(potentialSavings).toLocaleString()} in potential savings from active negotiations`);
+    if (insights.length === 0) insights.push('Procurement portfolio is well-optimized');
+
+    return {
+      overview: { totalContracts: contracts.length, totalAnnualSpend: totalSpend, avgContractValue: contracts.length > 0 ? Math.round(totalSpend / contracts.length) : 0, expiringWithin90Days: expiring90 },
+      byCategory: Object.entries(catMap).map(([cat, d]) => ({ category: cat, count: d.count, totalValue: d.value, avgValue: Math.round(d.value / d.count), pctOfSpend: totalSpend > 0 ? Math.round((d.value / totalSpend) * 100) : 0 })).sort((a, b) => b.totalValue - a.totalValue),
+      byStatus: Object.entries(statusMap).map(([st, d]) => ({ status: st, count: d.count, totalValue: d.value })),
+      negotiationPipeline: { active: pendingNeg.length, potentialSavings, avgTargetReduction: Math.round(avgTargetReduction * 10) / 10, highPriority: pendingNeg.filter(n => n.priority === 'high').length },
+      savingsPerformance: { totalSavingsAchieved: this.results.reduce((s, r) => s + r.savingsAchieved, 0), negotiationsCompleted: this.results.length, avgSavingsPercent: this.results.length > 0 ? Math.round(this.results.reduce((s, r) => s + r.savingsPercent, 0) / this.results.length * 10) / 10 : 0, bestNegotiation: bestResult ? { vendor: bestResult.vendorName, savingsPercent: Math.round(bestResult.savingsPercent * 10) / 10 } : null },
+      contractHealth: { autoRenewCount: autoRenew, lowUtilization: lowUtil, aboveMarketRate: aboveMarket, needsReview: lowUtil + aboveMarket },
+      insights,
+    };
+  }
+
+  /** 10/10: Vendor Risk & Performance Analytics */
+  getVendorRiskAnalytics(): {
+    vendorCount: number;
+    vendorConcentration: Array<{ vendor: string; contractCount: number; totalSpend: number; pctOfSpend: number; riskLevel: string }>;
+    categoryConcentration: Array<{ category: string; vendorCount: number; singleVendorRisk: boolean }>;
+    expirationTimeline: Array<{ month: string; count: number; totalValue: number }>;
+    utilizationDistribution: { high: number; medium: number; low: number; critical: number };
+    renewalRisk: Array<{ vendor: string; contractId: string; daysUntilRenewal: number; annualValue: number; autoRenew: boolean; utilization: number }>;
+    insights: string[];
+  } {
+    const contracts = Array.from(this.contracts.values());
+    const totalSpend = contracts.reduce((s, c) => s + c.annualValue, 0);
+
+    const vendorMap: Record<string, { count: number; spend: number }> = {};
+    const catVendors: Record<string, Set<string>> = {};
+    const monthMap: Record<string, { count: number; value: number }> = {};
+    const utilDist = { high: 0, medium: 0, low: 0, critical: 0 };
+
+    for (const c of contracts) {
+      if (!vendorMap[c.vendorName]) vendorMap[c.vendorName] = { count: 0, spend: 0 };
+      vendorMap[c.vendorName].count++;
+      vendorMap[c.vendorName].spend += c.annualValue;
+
+      if (!catVendors[c.category]) catVendors[c.category] = new Set();
+      catVendors[c.category].add(c.vendorName);
+
+      const monthKey = `${c.renewalDate.getFullYear()}-${String(c.renewalDate.getMonth() + 1).padStart(2, '0')}`;
+      if (!monthMap[monthKey]) monthMap[monthKey] = { count: 0, value: 0 };
+      monthMap[monthKey].count++;
+      monthMap[monthKey].value += c.annualValue;
+
+      if (c.usagePercent >= 80) utilDist.high++;
+      else if (c.usagePercent >= 50) utilDist.medium++;
+      else if (c.usagePercent >= 25) utilDist.low++;
+      else utilDist.critical++;
+    }
+
+    const now = Date.now();
+    const renewalRisk = contracts
+      .filter(c => c.status === 'active')
+      .map(c => ({ vendor: c.vendorName, contractId: c.id, daysUntilRenewal: Math.floor((c.renewalDate.getTime() - now) / (24 * 60 * 60 * 1000)), annualValue: c.annualValue, autoRenew: c.autoRenew, utilization: c.usagePercent }))
+      .sort((a, b) => a.daysUntilRenewal - b.daysUntilRenewal)
+      .slice(0, 10);
+
+    const vendorConc = Object.entries(vendorMap)
+      .map(([v, d]) => ({ vendor: v, contractCount: d.count, totalSpend: d.spend, pctOfSpend: totalSpend > 0 ? Math.round((d.spend / totalSpend) * 100) : 0, riskLevel: d.spend / totalSpend > 0.3 ? 'high' : d.spend / totalSpend > 0.15 ? 'medium' : 'low' }))
+      .sort((a, b) => b.totalSpend - a.totalSpend);
+
+    const insights: string[] = [];
+    const highConc = vendorConc.filter(v => v.riskLevel === 'high');
+    if (highConc.length > 0) insights.push(`${highConc.length} vendor(s) represent 30%+ of total spend — concentration risk`);
+    const singleVendorCats = Object.entries(catVendors).filter(([, vendors]) => vendors.size === 1);
+    if (singleVendorCats.length > 0) insights.push(`${singleVendorCats.length} category(ies) depend on a single vendor`);
+    if (utilDist.critical > 0) insights.push(`${utilDist.critical} contract(s) with critically low utilization (<25%)`);
+    if (insights.length === 0) insights.push('Vendor portfolio is well-diversified');
+
+    return {
+      vendorCount: Object.keys(vendorMap).length,
+      vendorConcentration: vendorConc,
+      categoryConcentration: Object.entries(catVendors).map(([cat, vendors]) => ({ category: cat, vendorCount: vendors.size, singleVendorRisk: vendors.size === 1 })),
+      expirationTimeline: Object.entries(monthMap).sort(([a], [b]) => a.localeCompare(b)).map(([month, d]) => ({ month, count: d.count, totalValue: d.value })),
+      utilizationDistribution: utilDist,
+      renewalRisk,
+      insights,
+    };
+  }
+
+  /** 10/10: Contract Optimization Engine */
+  getContractOptimizations(): {
+    totalOptimizationPotential: number;
+    rightsizing: Array<{ vendor: string; contractId: string; currentValue: number; recommendedValue: number; savings: number; reason: string }>;
+    consolidation: Array<{ category: string; vendors: string[]; currentTotalSpend: number; estimatedConsolidatedSpend: number; savings: number }>;
+    renegotiation: Array<{ vendor: string; contractId: string; currentValue: number; marketBenchmark: number; overpayment: number; priority: string }>;
+    autoRenewAlerts: Array<{ vendor: string; contractId: string; renewalDate: Date; annualValue: number; daysUntilRenewal: number }>;
+    insights: string[];
+  } {
+    const contracts = Array.from(this.contracts.values());
+    const now = Date.now();
+    let totalPotential = 0;
+
+    const rightsizing = contracts
+      .filter(c => c.usagePercent < 60)
+      .map(c => {
+        const recommended = Math.round(c.annualValue * (c.usagePercent / 100) * 1.2);
+        const savings = c.annualValue - recommended;
+        totalPotential += savings;
+        return { vendor: c.vendorName, contractId: c.id, currentValue: c.annualValue, recommendedValue: recommended, savings, reason: `Utilization at ${c.usagePercent}% — rightsize to actual usage + 20% buffer` };
+      });
+
+    const catContracts: Record<string, VendorContract[]> = {};
+    for (const c of contracts) {
+      if (!catContracts[c.category]) catContracts[c.category] = [];
+      catContracts[c.category].push(c);
+    }
+    const consolidation = Object.entries(catContracts)
+      .filter(([, cs]) => cs.length > 2)
+      .map(([cat, cs]) => {
+        const currentTotal = cs.reduce((s, c) => s + c.annualValue, 0);
+        const estimated = Math.round(currentTotal * 0.8);
+        const savings = currentTotal - estimated;
+        totalPotential += savings;
+        return { category: cat, vendors: cs.map(c => c.vendorName), currentTotalSpend: currentTotal, estimatedConsolidatedSpend: estimated, savings };
+      });
+
+    const renegotiation = contracts
+      .filter(c => c.marketBenchmark && c.annualValue > c.marketBenchmark * 1.05)
+      .map(c => {
+        const overpayment = c.annualValue - c.marketBenchmark!;
+        return { vendor: c.vendorName, contractId: c.id, currentValue: c.annualValue, marketBenchmark: c.marketBenchmark!, overpayment, priority: overpayment > 50000 ? 'high' : overpayment > 10000 ? 'medium' : 'low' };
+      })
+      .sort((a, b) => b.overpayment - a.overpayment);
+
+    const autoRenewAlerts = contracts
+      .filter(c => c.autoRenew && c.status === 'active')
+      .map(c => ({ vendor: c.vendorName, contractId: c.id, renewalDate: c.renewalDate, annualValue: c.annualValue, daysUntilRenewal: Math.floor((c.renewalDate.getTime() - now) / (24 * 60 * 60 * 1000)) }))
+      .filter(a => a.daysUntilRenewal > 0 && a.daysUntilRenewal <= 60)
+      .sort((a, b) => a.daysUntilRenewal - b.daysUntilRenewal);
+
+    const insights: string[] = [];
+    if (totalPotential > 0) insights.push(`$${Math.round(totalPotential).toLocaleString()} total optimization potential identified`);
+    if (rightsizing.length > 0) insights.push(`${rightsizing.length} contract(s) can be rightsized based on actual usage`);
+    if (autoRenewAlerts.length > 0) insights.push(`${autoRenewAlerts.length} auto-renew contract(s) within 60 days — review before auto-renewal`);
+    if (insights.length === 0) insights.push('Contract portfolio is well-optimized');
+
+    return { totalOptimizationPotential: totalPotential, rightsizing, consolidation, renegotiation, autoRenewAlerts, insights };
+  }
+
+  /** 10/10: Savings Impact Tracker */
+  getSavingsImpactTracker(): {
+    lifetime: { totalNegotiations: number; totalSavings: number; avgSavingsPercent: number; totalOriginalValue: number; totalNegotiatedValue: number };
+    thisYear: { negotiations: number; savings: number; avgSavingsPercent: number };
+    byVendor: Array<{ vendor: string; negotiations: number; totalSavings: number; avgSavingsPercent: number }>;
+    byMonth: Array<{ month: string; negotiations: number; savings: number }>;
+    topSavings: Array<{ vendor: string; originalPrice: number; negotiatedPrice: number; savings: number; savingsPercent: number; completedAt: Date }>;
+    roi: { negotiationEffort: number; savingsGenerated: number; roiMultiple: number };
+    insights: string[];
+  } {
+    const currentYear = new Date().getFullYear();
+    const yearResults = this.results.filter(r => r.completedAt.getFullYear() === currentYear);
+    const totalSavings = this.results.reduce((s, r) => s + r.savingsAchieved, 0);
+    const totalOriginal = this.results.reduce((s, r) => s + r.originalPrice, 0);
+    const totalNegotiated = this.results.reduce((s, r) => s + r.negotiatedPrice, 0);
+
+    const vendorMap: Record<string, { count: number; savings: number; pcts: number[] }> = {};
+    const monthMap: Record<string, { count: number; savings: number }> = {};
+
+    for (const r of this.results) {
+      if (!vendorMap[r.vendorName]) vendorMap[r.vendorName] = { count: 0, savings: 0, pcts: [] };
+      vendorMap[r.vendorName].count++;
+      vendorMap[r.vendorName].savings += r.savingsAchieved;
+      vendorMap[r.vendorName].pcts.push(r.savingsPercent);
+
+      const monthKey = `${r.completedAt.getFullYear()}-${String(r.completedAt.getMonth() + 1).padStart(2, '0')}`;
+      if (!monthMap[monthKey]) monthMap[monthKey] = { count: 0, savings: 0 };
+      monthMap[monthKey].count++;
+      monthMap[monthKey].savings += r.savingsAchieved;
+    }
+
+    const topSavings = [...this.results]
+      .sort((a, b) => b.savingsAchieved - a.savingsAchieved)
+      .slice(0, 10)
+      .map(r => ({ vendor: r.vendorName, originalPrice: r.originalPrice, negotiatedPrice: r.negotiatedPrice, savings: r.savingsAchieved, savingsPercent: Math.round(r.savingsPercent * 10) / 10, completedAt: r.completedAt }));
+
+    const negotiationEffort = this.results.length * 8; // Estimate 8 hours per negotiation
+    const roiMultiple = negotiationEffort > 0 ? Math.round(totalSavings / (negotiationEffort * 150) * 10) / 10 : 0; // $150/hr cost
+
+    const insights: string[] = [];
+    if (totalSavings > 0) insights.push(`$${Math.round(totalSavings).toLocaleString()} in total lifetime savings achieved`);
+    const yearSavings = yearResults.reduce((s, r) => s + r.savingsAchieved, 0);
+    if (yearSavings > 0) insights.push(`$${Math.round(yearSavings).toLocaleString()} saved this year across ${yearResults.length} negotiation(s)`);
+    if (roiMultiple > 1) insights.push(`${roiMultiple}x ROI on negotiation effort`);
+    if (insights.length === 0) insights.push('No completed negotiations yet — initiate The Squeeze');
+
+    return {
+      lifetime: { totalNegotiations: this.results.length, totalSavings, avgSavingsPercent: this.results.length > 0 ? Math.round(this.results.reduce((s, r) => s + r.savingsPercent, 0) / this.results.length * 10) / 10 : 0, totalOriginalValue: totalOriginal, totalNegotiatedValue: totalNegotiated },
+      thisYear: { negotiations: yearResults.length, savings: yearSavings, avgSavingsPercent: yearResults.length > 0 ? Math.round(yearResults.reduce((s, r) => s + r.savingsPercent, 0) / yearResults.length * 10) / 10 : 0 },
+      byVendor: Object.entries(vendorMap).map(([v, d]) => ({ vendor: v, negotiations: d.count, totalSavings: d.savings, avgSavingsPercent: Math.round(d.pcts.reduce((a, b) => a + b, 0) / d.pcts.length * 10) / 10 })).sort((a, b) => b.totalSavings - a.totalSavings),
+      byMonth: Object.entries(monthMap).sort(([a], [b]) => a.localeCompare(b)).map(([m, d]) => ({ month: m, negotiations: d.count, savings: d.savings })),
+      topSavings,
+      roi: { negotiationEffort, savingsGenerated: totalSavings, roiMultiple },
+      insights,
+    };
+  }
 }
 
 export const cendiaProcureService = new CendiaProcureService();

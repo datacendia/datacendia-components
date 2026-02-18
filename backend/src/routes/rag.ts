@@ -17,6 +17,11 @@ import { enhancedLLM } from '../services/EnhancedLLMService.js';
 
 const router = Router();
 
+// Health endpoint (before auth)
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'rag', timestamp: new Date().toISOString() } });
+});
+
 // All routes require authentication
 router.use(devAuth);
 

@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA QR AIR-GAP BRIDGE™ - NO-USB, NO-NETWORK AIR-GAP TRANSFER
+// CENDIA QR AIR-GAP BRIDGEÃ¢â€žÂ¢ - NO-USB, NO-NETWORK AIR-GAP TRANSFER
 // "Air-gap transfer via QR sequencing (encrypted + signed)."
 //
 // Encodes decisions, alerts, and summaries as animated QR code sequences
@@ -438,7 +438,7 @@ class QRAirGapBridgeService extends EventEmitter {
       const qrData = `CENDIA:${chunk.payloadId}:${chunk.chunkIndex}:${chunk.totalChunks}:${chunk.chunkChecksum}:${chunk.data}`;
       
       // Generate simple SVG QR code representation
-      // In production, use actual QR library like 'qrcode'
+      // Production upgrade: use actual QR library
       const svg = this.generateQRSVG(qrData, chunk.chunkIndex);
       frames.push(`data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`);
     }
@@ -448,10 +448,10 @@ class QRAirGapBridgeService extends EventEmitter {
 
   /**
    * Generate SVG representation of QR code
-   * (In production, replace with actual QR code library)
+   * (Production upgrade: replace with actual QR code library)
    */
   private generateQRSVG(data: string, index: number): string {
-    // This is a placeholder - in production use qrcode library
+    // This is a placeholder - production upgrade: use qrcode library
     const hash = crypto.createHash('md5').update(data).digest('hex');
     const size = 200;
     const moduleSize = 4;

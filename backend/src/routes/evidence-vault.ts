@@ -22,7 +22,7 @@ const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 
 // MIDDLEWARE
 // =============================================================================
 
-// Extract user info from request (in production, this comes from auth middleware)
+// Extract user info (production upgrade: from auth middleware)
 const extractUser = (req: Request) => {
   return {
     id: req.headers['x-user-id'] as string || 'anonymous',

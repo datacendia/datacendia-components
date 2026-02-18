@@ -3,13 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAACADEMY™ - LEARNING & DEVELOPMENT INTELLIGENCE
+// CENDIAACADEMYâ„¢ - LEARNING & DEVELOPMENT INTELLIGENCE
 // "The Personalized Tutor" - AI-powered adaptive learning and skill development
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -197,7 +198,7 @@ class CendiaAcademyService {
   private interventions: Map<string, JustInTimeIntervention[]> = new Map();
 
   constructor() {
-    logger.info('CendiaAcademy™ initialized - The Personalized Tutor is ready');
+    logger.info('CendiaAcademyâ„¢ initialized - The Personalized Tutor is ready');
   }
 
   // ---------------------------------------------------------------------------
@@ -207,7 +208,7 @@ class CendiaAcademyService {
   createProfile(profile: Omit<EmployeeSkillProfile, 'id' | 'assessments' | 'createdAt' | 'updatedAt'>): EmployeeSkillProfile {
     const newProfile: EmployeeSkillProfile = {
       ...profile,
-      id: `profile-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `profile-${Date.now()}-${deterministicFloat('academy-1').toString(36).substr(2, 9)}`,
       assessments: [],
       createdAt: new Date(),
       updatedAt: new Date(),
@@ -331,7 +332,7 @@ class CendiaAcademyService {
     const difficulty = this.getDifficulty(currentLevel);
     const estimatedHours = Math.ceil((targetLevel - currentLevel) / 10) * 2;
 
-    const prompt = `You are CendiaAcademy™, an AI learning system.
+    const prompt = `You are CendiaAcademyâ„¢, an AI learning system.
 
 Generate a learning path for: ${skill}
 Current Level: ${currentLevel}%
@@ -440,7 +441,7 @@ Provide a structured learning path in JSON:
   // ---------------------------------------------------------------------------
 
   async generateMicroCourse(skill: string, context?: string): Promise<MicroCourse> {
-    const prompt = `You are CendiaAcademy™, generating a micro-learning course.
+    const prompt = `You are CendiaAcademyâ„¢, generating a micro-learning course.
 
 SKILL: ${skill}
 CONTEXT: ${context || 'General skill development'}
@@ -756,6 +757,267 @@ Generate a 5-10 minute micro-course in JSON:
       completionRate: allInterventions.length > 0 
         ? Math.round((completed / allInterventions.length) * 100) 
         : 0,
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Skill Gap Intelligence Dashboard */
+  getSkillGapIntelligence(): {
+    totalGaps: number;
+    criticalGaps: number;
+    gapsByDepartment: Array<{ department: string; gapCount: number; avgDeficit: number; criticalCount: number }>;
+    gapsBySkill: Array<{ skill: string; affectedEmployees: number; avgDeficit: number; priority: string }>;
+    closingRate: number;
+    estimatedClosureWeeks: number;
+    insights: string[];
+  } {
+    const profiles = Array.from(this.profiles.values());
+    const allInterventions = Array.from(this.interventions.values()).flat();
+    const deptMap: Record<string, { gaps: number; deficit: number; critical: number }> = {};
+    const skillMap: Record<string, { employees: number; deficit: number; priority: string }> = {};
+    let totalGaps = 0;
+    let criticalGaps = 0;
+    let totalDeficit = 0;
+
+    for (const p of profiles) {
+      for (const s of p.skills) {
+        if (s.currentLevel < s.targetLevel) {
+          totalGaps++;
+          const deficit = s.targetLevel - s.currentLevel;
+          totalDeficit += deficit;
+          if (s.priority === 'critical') criticalGaps++;
+
+          if (!deptMap[p.department]) deptMap[p.department] = { gaps: 0, deficit: 0, critical: 0 };
+          deptMap[p.department].gaps++;
+          deptMap[p.department].deficit += deficit;
+          if (s.priority === 'critical') deptMap[p.department].critical++;
+
+          if (!skillMap[s.name]) skillMap[s.name] = { employees: 0, deficit: 0, priority: s.priority };
+          skillMap[s.name].employees++;
+          skillMap[s.name].deficit += deficit;
+        }
+      }
+    }
+
+    const gapsByDepartment = Object.entries(deptMap)
+      .map(([dept, d]) => ({ department: dept, gapCount: d.gaps, avgDeficit: Math.round(d.deficit / d.gaps), criticalCount: d.critical }))
+      .sort((a, b) => b.criticalCount - a.criticalCount || b.gapCount - a.gapCount);
+
+    const gapsBySkill = Object.entries(skillMap)
+      .map(([skill, d]) => ({ skill, affectedEmployees: d.employees, avgDeficit: Math.round(d.deficit / d.employees), priority: d.priority }))
+      .sort((a, b) => b.affectedEmployees - a.affectedEmployees);
+
+    const completedRecently = allInterventions.filter(i => i.engagementStatus === 'completed').length;
+    const closingRate = profiles.length > 0 ? Math.round((completedRecently / Math.max(1, totalGaps)) * 100) : 0;
+    const estimatedClosureWeeks = totalGaps > 0 && completedRecently > 0
+      ? Math.ceil(totalGaps / Math.max(1, completedRecently / 4))
+      : totalGaps > 0 ? 52 : 0;
+
+    const insights: string[] = [];
+    if (criticalGaps > 0) insights.push(`${criticalGaps} critical skill gaps require immediate attention`);
+    if (gapsByDepartment[0]?.criticalCount > 2) insights.push(`${gapsByDepartment[0].department} has the highest concentration of critical gaps`);
+    if (gapsBySkill[0]?.affectedEmployees > 3) insights.push(`"${gapsBySkill[0].skill}" is the most widespread gap across ${gapsBySkill[0].affectedEmployees} employees`);
+    if (closingRate > 50) insights.push('Gap closure rate is strong â€” maintain current learning velocity');
+    if (insights.length === 0) insights.push('Skill development is on track with no critical gaps');
+
+    return { totalGaps, criticalGaps, gapsByDepartment, gapsBySkill, closingRate, estimatedClosureWeeks, insights };
+  }
+
+  /** 10/10: Learning ROI Analytics */
+  getLearningROIAnalytics(): {
+    totalInvestment: number;
+    estimatedReturn: number;
+    roiPercentage: number;
+    byDepartment: Array<{ department: string; investment: number; return: number; roi: number; hoursInvested: number }>;
+    bySkillCategory: Array<{ category: string; investment: number; skillImprovement: number; employeesImpacted: number }>;
+    costPerSkillPoint: number;
+    productivityGainEstimate: number;
+    retentionImpactEstimate: number;
+  } {
+    const profiles = Array.from(this.profiles.values());
+    const allInterventions = Array.from(this.interventions.values()).flat();
+    const completed = allInterventions.filter(i => i.engagementStatus === 'completed');
+    const totalHours = completed.reduce((sum, i) => sum + i.content.duration / 60, 0);
+    const costPerHour = 50;
+    const totalInvestment = totalHours * costPerHour;
+    const productivityGain = totalHours * 100;
+    const retentionImpact = profiles.length * 500;
+    const estimatedReturn = productivityGain + retentionImpact;
+    const roiPercentage = totalInvestment > 0 ? Math.round(((estimatedReturn - totalInvestment) / totalInvestment) * 100) : 0;
+
+    const deptData: Record<string, { hours: number; completed: number }> = {};
+    const catData: Record<string, { hours: number; improvement: number; employees: Set<string> }> = {};
+
+    for (const p of profiles) {
+      const empInterventions = completed.filter(i => i.employeeId === p.employeeId);
+      const hours = empInterventions.reduce((sum, i) => sum + i.content.duration / 60, 0);
+      if (!deptData[p.department]) deptData[p.department] = { hours: 0, completed: 0 };
+      deptData[p.department].hours += hours;
+      deptData[p.department].completed += empInterventions.length;
+
+      for (const s of p.skills) {
+        if (!catData[s.category]) catData[s.category] = { hours: 0, improvement: 0, employees: new Set() };
+        catData[s.category].improvement += Math.max(0, s.currentLevel - 50); // Improvement above baseline
+        catData[s.category].employees.add(p.employeeId);
+      }
+    }
+
+    const byDepartment = Object.entries(deptData).map(([dept, d]) => ({
+      department: dept, investment: d.hours * costPerHour, return: d.hours * 150,
+      roi: d.hours > 0 ? Math.round(((d.hours * 150 - d.hours * costPerHour) / (d.hours * costPerHour)) * 100) : 0,
+      hoursInvested: Math.round(d.hours),
+    }));
+
+    const bySkillCategory = Object.entries(catData).map(([cat, d]) => ({
+      category: cat, investment: d.hours * costPerHour, skillImprovement: Math.round(d.improvement / Math.max(1, d.employees.size)),
+      employeesImpacted: d.employees.size,
+    }));
+
+    let totalSkillPoints = 0;
+    profiles.forEach(p => p.skills.forEach(s => { totalSkillPoints += s.currentLevel; }));
+    const costPerSkillPoint = totalInvestment > 0 && totalSkillPoints > 0 ? Math.round(totalInvestment / totalSkillPoints) : 0;
+
+    return { totalInvestment, estimatedReturn, roiPercentage, byDepartment, bySkillCategory, costPerSkillPoint, productivityGainEstimate: productivityGain, retentionImpactEstimate: retentionImpact };
+  }
+
+  /** 10/10: Certification Compliance Monitor */
+  getCertificationCompliance(): {
+    totalCertifications: number;
+    activeCertifications: number;
+    expiringSoon: Array<{ employeeName: string; department: string; certName: string; expirationDate: Date; daysRemaining: number }>;
+    expired: Array<{ employeeName: string; department: string; certName: string; expiredDate: Date }>;
+    complianceRate: number;
+    byDepartment: Array<{ department: string; total: number; active: number; expiring: number; expired: number; complianceRate: number }>;
+    renewalCost: number;
+    insights: string[];
+  } {
+    const profiles = Array.from(this.profiles.values());
+    const now = Date.now();
+    const thirtyDays = 30 * 24 * 60 * 60 * 1000;
+    let totalCerts = 0; let activeCerts = 0;
+    const expiringSoon: Array<{ employeeName: string; department: string; certName: string; expirationDate: Date; daysRemaining: number }> = [];
+    const expired: Array<{ employeeName: string; department: string; certName: string; expiredDate: Date }> = [];
+    const deptMap: Record<string, { total: number; active: number; expiring: number; expired: number }> = {};
+
+    for (const p of profiles) {
+      if (!deptMap[p.department]) deptMap[p.department] = { total: 0, active: 0, expiring: 0, expired: 0 };
+      for (const c of p.certifications) {
+        totalCerts++;
+        deptMap[p.department].total++;
+        if (c.status === 'active') { activeCerts++; deptMap[p.department].active++; }
+        if (c.status === 'expired') {
+          deptMap[p.department].expired++;
+          expired.push({ employeeName: p.name, department: p.department, certName: c.name, expiredDate: c.expirationDate || new Date() });
+        }
+        if (c.expirationDate && c.status !== 'expired') {
+          const daysRemaining = Math.ceil((c.expirationDate.getTime() - now) / (24 * 60 * 60 * 1000));
+          if (daysRemaining <= 30 && daysRemaining > 0) {
+            deptMap[p.department].expiring++;
+            expiringSoon.push({ employeeName: p.name, department: p.department, certName: c.name, expirationDate: c.expirationDate, daysRemaining });
+          }
+        }
+      }
+    }
+
+    const complianceRate = totalCerts > 0 ? Math.round((activeCerts / totalCerts) * 100) : 100;
+    const byDepartment = Object.entries(deptMap).map(([dept, d]) => ({
+      department: dept, ...d, complianceRate: d.total > 0 ? Math.round((d.active / d.total) * 100) : 100,
+    }));
+
+    const renewalCost = (expiringSoon.length + expired.length) * 500; // Estimated per cert
+    const insights: string[] = [];
+    if (expired.length > 0) insights.push(`${expired.length} expired certification(s) require immediate renewal`);
+    if (expiringSoon.length > 0) insights.push(`${expiringSoon.length} certification(s) expiring within 30 days`);
+    if (complianceRate >= 95) insights.push('Certification compliance is excellent');
+    if (insights.length === 0) insights.push('All certifications are current');
+
+    return { totalCertifications: totalCerts, activeCertifications: activeCerts, expiringSoon: expiringSoon.sort((a, b) => a.daysRemaining - b.daysRemaining), expired, complianceRate, byDepartment, renewalCost, insights };
+  }
+
+  /** 10/10: Workforce Readiness Index */
+  getWorkforceReadinessIndex(): {
+    overallReadiness: number;
+    byDepartment: Array<{ department: string; readiness: number; headcount: number; avgSkillLevel: number; gapCount: number; successionCoverage: number }>;
+    byLevel: Array<{ level: string; readiness: number; headcount: number; avgSkillLevel: number }>;
+    criticalRolesCovered: number;
+    criticalRolesTotal: number;
+    topStrengths: Array<{ skill: string; avgLevel: number; employeeCount: number }>;
+    topWeaknesses: Array<{ skill: string; avgLevel: number; targetLevel: number; deficit: number }>;
+    readinessTrend: 'improving' | 'stable' | 'declining';
+    insights: string[];
+  } {
+    const profiles = Array.from(this.profiles.values());
+    const deptMap: Record<string, { readiness: number[]; skills: number[]; gaps: number; headcount: number }> = {};
+    const levelMap: Record<string, { readiness: number[]; skills: number[]; headcount: number }> = {};
+    const skillAgg: Record<string, { levels: number[]; targets: number[] }> = {};
+
+    for (const p of profiles) {
+      const avgSkill = p.skills.length > 0 ? p.skills.reduce((s, sk) => s + sk.currentLevel, 0) / p.skills.length : 50;
+      const gaps = p.skills.filter(s => s.currentLevel < s.targetLevel).length;
+      const certCompliance = p.certifications.length > 0 ? p.certifications.filter(c => c.status === 'active').length / p.certifications.length : 1;
+      const goalProgress = p.goals.length > 0 ? p.goals.reduce((s, g) => s + g.progress, 0) / p.goals.length : 50;
+      const readiness = Math.round(avgSkill * 0.4 + certCompliance * 100 * 0.3 + goalProgress * 0.3);
+
+      if (!deptMap[p.department]) deptMap[p.department] = { readiness: [], skills: [], gaps: 0, headcount: 0 };
+      deptMap[p.department].readiness.push(readiness);
+      deptMap[p.department].skills.push(avgSkill);
+      deptMap[p.department].gaps += gaps;
+      deptMap[p.department].headcount++;
+
+      if (!levelMap[p.level]) levelMap[p.level] = { readiness: [], skills: [], headcount: 0 };
+      levelMap[p.level].readiness.push(readiness);
+      levelMap[p.level].skills.push(avgSkill);
+      levelMap[p.level].headcount++;
+
+      for (const s of p.skills) {
+        if (!skillAgg[s.name]) skillAgg[s.name] = { levels: [], targets: [] };
+        skillAgg[s.name].levels.push(s.currentLevel);
+        skillAgg[s.name].targets.push(s.targetLevel);
+      }
+    }
+
+    const avg = (arr: number[]) => arr.length > 0 ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : 0;
+    const overallReadiness = profiles.length > 0
+      ? avg(Object.values(deptMap).flatMap(d => d.readiness))
+      : 0;
+
+    const byDepartment = Object.entries(deptMap).map(([dept, d]) => ({
+      department: dept, readiness: avg(d.readiness), headcount: d.headcount, avgSkillLevel: avg(d.skills),
+      gapCount: d.gaps, successionCoverage: d.headcount > 1 ? Math.min(100, Math.round(((d.headcount - 1) / d.headcount) * 100)) : 0,
+    })).sort((a, b) => b.readiness - a.readiness);
+
+    const byLevel = Object.entries(levelMap).map(([level, d]) => ({
+      level, readiness: avg(d.readiness), headcount: d.headcount, avgSkillLevel: avg(d.skills),
+    }));
+
+    const skillEntries = Object.entries(skillAgg).map(([skill, d]) => ({
+      skill, avgLevel: avg(d.levels), avgTarget: avg(d.targets), deficit: avg(d.targets) - avg(d.levels), count: d.levels.length,
+    }));
+    const topStrengths = skillEntries.filter(s => s.avgLevel >= s.avgTarget).sort((a, b) => b.avgLevel - a.avgLevel).slice(0, 5)
+      .map(s => ({ skill: s.skill, avgLevel: s.avgLevel, employeeCount: s.count }));
+    const topWeaknesses = skillEntries.filter(s => s.deficit > 0).sort((a, b) => b.deficit - a.deficit).slice(0, 5)
+      .map(s => ({ skill: s.skill, avgLevel: s.avgLevel, targetLevel: s.avgTarget, deficit: s.deficit }));
+
+    const seniorRoles = profiles.filter(p => p.level === 'lead' || p.level === 'executive');
+    const coveredRoles = seniorRoles.filter(sr => profiles.some(p => p.id !== sr.id && p.department === sr.department && (p.level === 'senior' || p.level === 'mid')));
+
+    const improving = profiles.filter(p => p.skills.some(s => s.trend === 'improving')).length;
+    const declining = profiles.filter(p => p.skills.some(s => s.trend === 'declining')).length;
+    const readinessTrend: 'improving' | 'stable' | 'declining' = improving > declining * 2 ? 'improving' : declining > improving * 2 ? 'declining' : 'stable';
+
+    const insights: string[] = [];
+    if (overallReadiness >= 80) insights.push('Workforce readiness is strong across the organization');
+    if (overallReadiness < 60) insights.push('Workforce readiness requires attention â€” increase learning investment');
+    if (topWeaknesses.length > 0) insights.push(`Biggest skill gap: "${topWeaknesses[0].skill}" (${topWeaknesses[0].deficit}pt deficit)`);
+    if (coveredRoles.length < seniorRoles.length) insights.push(`${seniorRoles.length - coveredRoles.length} critical roles lack succession candidates`);
+    if (insights.length === 0) insights.push('Workforce development metrics are within expected ranges');
+
+    return {
+      overallReadiness, byDepartment, byLevel, criticalRolesCovered: coveredRoles.length, criticalRolesTotal: seniorRoles.length,
+      topStrengths, topWeaknesses, readinessTrend, insights,
     };
   }
 }

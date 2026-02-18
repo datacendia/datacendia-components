@@ -2,9 +2,8 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
-#!/usr/bin/env npx tsx
 /**
- * CendiaPulse™ — LIVE AGENT MONITOR
+ * CendiaPulseÃ¢â€žÂ¢ Ã¢â‚¬â€ LIVE AGENT MONITOR
  * Real-time visualization of agent actions, decisions, and compliance checks
  * 
  * Run: npx tsx src/scripts/live-monitor.ts
@@ -12,6 +11,7 @@
 
 import { createClient } from 'redis';
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // ANSI COLOR CODES
@@ -167,7 +167,7 @@ function formatAction(action: string): string {
 
 function formatCitation(framework?: string, citation?: string): string {
   if (!framework) return '';
-  const cite = citation ? ` §${citation}` : '';
+  const cite = citation ? ` Ã‚Â§${citation}` : '';
   return `${colors.dim}${colors.cyan}[${framework}${cite}]${colors.reset}`;
 }
 
@@ -182,14 +182,14 @@ function clearScreen(): void {
 function printHeader(): void {
   const now = new Date().toISOString().replace('T', ' ').substring(0, 19);
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ██████╗  █████╗ ████████╗ █████╗  ██████╗███████╗███╗   ██╗██████╗ ██╗ █████╗                      ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██╔════╝██╔════╝████╗  ██║██╔══██╗██║██╔══██╗                     ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ██║  ██║███████║   ██║   ███████║██║     █████╗  ██╔██╗ ██║██║  ██║██║███████║                     ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ██║  ██║██╔══██║   ██║   ██╔══██║██║     ██╔══╝  ██║╚██╗██║██║  ██║██║██╔══██║                     ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ██████╔╝██║  ██║   ██║   ██║  ██║╚██████╗███████╗██║ ╚████║██████╔╝██║██║  ██║                     ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚══════╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝  ╚═╝                     ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€” Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€” Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€” Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€” Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”                      ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”                     ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜     Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€” Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜                     ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜     Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€¢Å¡Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜                     ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜   Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€¢Å¡Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€”Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜ Ã¢â€¢Å¡Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜  Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€¢â€˜                     ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.white}${colors.bold}  Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â  Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â   Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â   Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â  Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â  Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â  Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢Â                     ${colors.reset}`);
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
-  console.log(`${colors.bgBlue}${colors.brightCyan}${colors.bold}  CendiaPulse™ LIVE AGENT MONITOR                                                              ${now} UTC  ${colors.reset}`);
+  console.log(`${colors.bgBlue}${colors.brightCyan}${colors.bold}  CendiaPulseÃ¢â€žÂ¢ LIVE AGENT MONITOR                                                              ${now} UTC  ${colors.reset}`);
   console.log(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
   console.log();
 }
@@ -198,19 +198,19 @@ function printMetrics(metrics: SystemMetrics): void {
   const complianceColor = metrics.complianceScore >= 95 ? colors.brightGreen : 
                           metrics.complianceScore >= 80 ? colors.yellow : colors.red;
   
-  console.log(`${colors.dim}┌──────────────────────────────────────────────────────────────────────────────────────────────────┐${colors.reset}`);
-  console.log(`${colors.dim}│${colors.reset} ${colors.bold}SYSTEM METRICS${colors.reset}                                                                                       ${colors.dim}│${colors.reset}`);
-  console.log(`${colors.dim}├──────────────────────────────────────────────────────────────────────────────────────────────────┤${colors.reset}`);
-  console.log(`${colors.dim}│${colors.reset} Active Agents: ${colors.brightCyan}${padLeft(String(metrics.activeAgents), 3)}${colors.reset}  │  Actions/sec: ${colors.brightYellow}${padLeft(metrics.actionsPerSecond.toFixed(1), 5)}${colors.reset}  │  Avg Latency: ${formatLatency(metrics.avgLatency)}  │  Compliance: ${complianceColor}${metrics.complianceScore.toFixed(1)}%${colors.reset} ${colors.dim}│${colors.reset}`);
-  console.log(`${colors.dim}│${colors.reset} Block Rate: ${colors.red}${padLeft(metrics.blockRate.toFixed(1), 5)}%${colors.reset}  │  Escalations: ${colors.yellow}${padLeft(metrics.escalationRate.toFixed(1), 5)}%${colors.reset}  │  Allow Rate: ${colors.green}${padLeft((100 - metrics.blockRate - metrics.escalationRate).toFixed(1), 5)}%${colors.reset}                  ${colors.dim}│${colors.reset}`);
-  console.log(`${colors.dim}└──────────────────────────────────────────────────────────────────────────────────────────────────┘${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€Å’Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}SYSTEM METRICS${colors.reset}                                                                                       ${colors.dim}Ã¢â€â€š${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¤${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€â€š${colors.reset} Active Agents: ${colors.brightCyan}${padLeft(String(metrics.activeAgents), 3)}${colors.reset}  Ã¢â€â€š  Actions/sec: ${colors.brightYellow}${padLeft(metrics.actionsPerSecond.toFixed(1), 5)}${colors.reset}  Ã¢â€â€š  Avg Latency: ${formatLatency(metrics.avgLatency)}  Ã¢â€â€š  Compliance: ${complianceColor}${metrics.complianceScore.toFixed(1)}%${colors.reset} ${colors.dim}Ã¢â€â€š${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€â€š${colors.reset} Block Rate: ${colors.red}${padLeft(metrics.blockRate.toFixed(1), 5)}%${colors.reset}  Ã¢â€â€š  Escalations: ${colors.yellow}${padLeft(metrics.escalationRate.toFixed(1), 5)}%${colors.reset}  Ã¢â€â€š  Allow Rate: ${colors.green}${padLeft((100 - metrics.blockRate - metrics.escalationRate).toFixed(1), 5)}%${colors.reset}                  ${colors.dim}Ã¢â€â€š${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Ëœ${colors.reset}`);
   console.log();
 }
 
 function printTableHeader(): void {
-  console.log(`${colors.dim}┌────────────────────┬────────────────────┬──────────┬───────┬───────┬─────────────────────────────┐${colors.reset}`);
-  console.log(`${colors.dim}│${colors.reset} ${colors.bold}AGENT${colors.reset}              ${colors.dim}│${colors.reset} ${colors.bold}ACTION${colors.reset}             ${colors.dim}│${colors.reset} ${colors.bold}DECISION${colors.reset} ${colors.dim}│${colors.reset} ${colors.bold}RISK${colors.reset}  ${colors.dim}│${colors.reset} ${colors.bold}LAT${colors.reset}   ${colors.dim}│${colors.reset} ${colors.bold}COMPLIANCE${colors.reset}                  ${colors.dim}│${colors.reset}`);
-  console.log(`${colors.dim}├────────────────────┼────────────────────┼──────────┼───────┼───────┼─────────────────────────────┤${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€Å’Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}AGENT${colors.reset}              ${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}ACTION${colors.reset}             ${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}DECISION${colors.reset} ${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}RISK${colors.reset}  ${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}LAT${colors.reset}   ${colors.dim}Ã¢â€â€š${colors.reset} ${colors.bold}COMPLIANCE${colors.reset}                  ${colors.dim}Ã¢â€â€š${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¼Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¼Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¼Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¼Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¼Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â¤${colors.reset}`);
 }
 
 function printAction(action: AgentAction): void {
@@ -220,24 +220,24 @@ function printAction(action: AgentAction): void {
   const citationLen = citation.replace(/\x1b\[[0-9;]*m/g, '').length;
   
   console.log(
-    `${colors.dim}│${colors.reset} ` +
+    `${colors.dim}Ã¢â€â€š${colors.reset} ` +
     `${formatAgent(agent, action.agentName)} ` +
-    `${colors.dim}│${colors.reset} ` +
+    `${colors.dim}Ã¢â€â€š${colors.reset} ` +
     `${formatAction(action.action)} ` +
-    `${colors.dim}│${colors.reset} ` +
+    `${colors.dim}Ã¢â€â€š${colors.reset} ` +
     `${formatDecision(action.decision)} ` +
-    `${colors.dim}│${colors.reset} ` +
+    `${colors.dim}Ã¢â€â€š${colors.reset} ` +
     `${formatRisk(action.riskScore)} ` +
-    `${colors.dim}│${colors.reset} ` +
+    `${colors.dim}Ã¢â€â€š${colors.reset} ` +
     `${formatLatency(action.latencyMs)} ` +
-    `${colors.dim}│${colors.reset} ` +
+    `${colors.dim}Ã¢â€â€š${colors.reset} ` +
     `${citation}${' '.repeat(Math.max(0, 27 - citationLen))} ` +
-    `${colors.dim}│${colors.reset}`
+    `${colors.dim}Ã¢â€â€š${colors.reset}`
   );
 }
 
 function printTableFooter(): void {
-  console.log(`${colors.dim}└────────────────────┴────────────────────┴──────────┴───────┴───────┴─────────────────────────────┘${colors.reset}`);
+  console.log(`${colors.dim}Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â´Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â´Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â´Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â´Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â´Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Ëœ${colors.reset}`);
 }
 
 // =============================================================================
@@ -245,27 +245,27 @@ function printTableFooter(): void {
 // =============================================================================
 
 function generateAction(): AgentAction {
-  const agent = AGENTS[Math.floor(Math.random() * AGENTS.length)];
-  const action = ACTIONS[Math.floor(Math.random() * ACTIONS.length)];
+  const agent = AGENTS[Math.floor(deterministicFloat('live-monitor-8') * AGENTS.length)];
+  const action = ACTIONS[Math.floor(deterministicFloat('live-monitor-9') * ACTIONS.length)];
   
   // Risk-based decision logic
-  const riskScore = Math.floor(Math.random() * 100);
+  const riskScore = deterministicInt(0, 99, 'live-monitor-1');
   let decision: AgentAction['decision'];
   
   if (riskScore >= 85) {
     decision = 'BLOCK';
   } else if (riskScore >= 60) {
-    decision = Math.random() > 0.5 ? 'ESCALATE' : 'ALLOW';
+    decision = deterministicFloat('live-monitor-6') > 0.5 ? 'ESCALATE' : 'ALLOW';
   } else if (riskScore >= 40) {
-    decision = Math.random() > 0.8 ? 'ESCALATE' : 'ALLOW';
+    decision = deterministicFloat('live-monitor-7') > 0.8 ? 'ESCALATE' : 'ALLOW';
   } else {
     decision = 'ALLOW';
   }
   
   // High-risk actions always get framework citations
   const needsCitation = riskScore >= 40 || ['access_pii', 'transfer_funds', 'delete_record', 'export_data'].includes(action as string);
-  const framework = needsCitation ? FRAMEWORKS[Math.floor(Math.random() * FRAMEWORKS.length)] : undefined;
-  const citation = framework ? `${Math.floor(Math.random() * 500)}.${Math.floor(Math.random() * 100)}` : undefined;
+  const framework = needsCitation ? FRAMEWORKS[Math.floor(deterministicFloat('live-monitor-10') * FRAMEWORKS.length)] : undefined;
+  const citation = framework ? `${deterministicInt(0, 499, 'live-monitor-2')}.${deterministicInt(0, 99, 'live-monitor-3')}` : undefined;
   
   const selectedAgent = agent ?? AGENTS[0];
   return {
@@ -275,7 +275,7 @@ function generateAction(): AgentAction {
     action: action as string,
     decision,
     riskScore,
-    latencyMs: Math.floor(Math.random() * 50) + 3,
+    latencyMs: deterministicInt(0, 49, 'live-monitor-4') + 3,
     framework,
     citation,
   };
@@ -358,7 +358,7 @@ class LiveMonitor {
     
     // Fill remaining rows with empty lines for consistent display
     for (let i = this.actions.length; i < this.maxDisplayActions; i++) {
-      console.log(`${colors.dim}│${colors.reset}                    ${colors.dim}│${colors.reset}                    ${colors.dim}│${colors.reset}          ${colors.dim}│${colors.reset}       ${colors.dim}│${colors.reset}       ${colors.dim}│${colors.reset}                             ${colors.dim}│${colors.reset}`);
+      console.log(`${colors.dim}Ã¢â€â€š${colors.reset}                    ${colors.dim}Ã¢â€â€š${colors.reset}                    ${colors.dim}Ã¢â€â€š${colors.reset}          ${colors.dim}Ã¢â€â€š${colors.reset}       ${colors.dim}Ã¢â€â€š${colors.reset}       ${colors.dim}Ã¢â€â€š${colors.reset}                             ${colors.dim}Ã¢â€â€š${colors.reset}`);
     }
     
     printTableFooter();
@@ -421,10 +421,10 @@ class LiveMonitor {
     }, 1000);
     
     // Generate simulated actions if not receiving real ones
-    // (In production, this would only be a fallback)
+    // (Production upgrade: use as fallback only)
     const simulationInterval = setInterval(() => {
       // Generate 1-3 actions per tick
-      const count = Math.floor(Math.random() * 3) + 1;
+      const count = deterministicInt(0, 2, 'live-monitor-5') + 1;
       for (let i = 0; i < count; i++) {
         this.addAction(generateAction());
       }

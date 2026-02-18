@@ -10,6 +10,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../lib/api';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import {
   Settings,
   Save,
@@ -257,7 +258,7 @@ export default function EnvironmentConfigPage() {
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*';
     let result = '';
     for (let i = 0; i < length; i++) {
-      result += chars.charAt(Math.floor(Math.random() * chars.length));
+      result += chars.charAt(Math.floor(deterministicFloat('environmentconfig-1') * chars.length));
     }
     return result;
   };

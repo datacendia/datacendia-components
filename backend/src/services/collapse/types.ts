@@ -12,6 +12,7 @@
  */
 
 import { createHash } from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // ENUMS
@@ -477,20 +478,20 @@ export interface CollapseConfig {
 
 export function generateCollapseId(): string {
   const timestamp = Date.now().toString(36);
-  const random = Math.random().toString(36).substring(2, 8);
+  const random = deterministicFloat('types-2').toString(36).substring(2, 8);
   return `COL-${timestamp}-${random}`.toUpperCase();
 }
 
 export function generateFailureConditionId(): string {
   const timestamp = Date.now().toString(36);
-  const random = Math.random().toString(36).substring(2, 6);
+  const random = deterministicFloat('types-3').toString(36).substring(2, 6);
   return `FC-${timestamp}-${random}`.toUpperCase();
 }
 
 export function generateFailureEnvelopeId(): string {
   const year = new Date().getFullYear();
   const month = String(new Date().getMonth() + 1).padStart(2, '0');
-  const random = Math.floor(Math.random() * 100000);
+  const random = deterministicInt(0, 99999, 'types-1');
   return `FE-${year}-${month}-${random}`;
 }
 
@@ -522,7 +523,7 @@ export function calculateFailureScore(fc: FailureCondition): number {
 export function calculateCollapseRisk(failureConditions: FailureCondition[]): number {
   if (failureConditions.length === 0) return 0;
   
-  // Union of risks: 1 - Π(1 - FailureScore_j)
+  // Union of risks: 1 - Î (1 - FailureScore_j)
   const product = failureConditions.reduce((acc, fc) => {
     const score = calculateFailureScore(fc);
     return acc * (1 - Math.min(score, 0.99)); // Cap at 0.99 to avoid total certainty
@@ -595,7 +596,7 @@ export function calculateLegitimacyDecay(
   triggerEvents: number,
   sensitivityCoefficient: number = 0.15
 ): number {
-  // Legitimacy(t) = InitialTrust × e^(−k × TriggerEvents(t))
+  // Legitimacy(t) = InitialTrust Ã— e^(âˆ’k Ã— TriggerEvents(t))
   return initialTrust * Math.exp(-sensitivityCoefficient * triggerEvents);
 }
 

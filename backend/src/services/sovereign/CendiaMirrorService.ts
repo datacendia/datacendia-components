@@ -3,12 +3,13 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MIRROR™ - Digital Twin Service
+// CENDIA MIRRORÃ¢â€žÂ¢ - Digital Twin Service
 // "The live reflection of your enterprise."
 // Sovereign Organ Layer - Time & Simulation
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -96,7 +97,7 @@ export class CendiaMirrorService {
   async createTwin(data: Omit<DigitalTwinState, 'id' | 'lastSync'>): Promise<DigitalTwinState> {
     const twin: DigitalTwinState = {
       ...data,
-      id: `twin-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `twin-${Date.now()}-${deterministicFloat('mirror-3').toString(36).substr(2, 6)}`,
       lastSync: new Date(),
     };
     this.twins.set(twin.id, twin);
@@ -154,7 +155,7 @@ export class CendiaMirrorService {
     const lastSnapshot = existingSnapshots[existingSnapshots.length - 1];
     
     const snapshot: StateSnapshot = {
-      id: `snap-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `snap-${Date.now()}-${deterministicFloat('mirror-4').toString(36).substr(2, 6)}`,
       twinId,
       state: JSON.parse(JSON.stringify(twin.currentState)),
       timestamp: new Date(),
@@ -220,7 +221,7 @@ export class CendiaMirrorService {
     if (!baselineSnap) return null;
 
     const scenario: SimulationScenario = {
-      id: `scenario-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `scenario-${Date.now()}-${deterministicFloat('mirror-5').toString(36).substr(2, 6)}`,
       organizationId: data.organizationId,
       name: data.name,
       description: data.description,
@@ -244,7 +245,7 @@ export class CendiaMirrorService {
     this.scenarios.set(scenarioId, scenario);
 
     try {
-      // Simulate the changes and calculate impacts
+      // Apply changes and calculate impacts
       const result = await this.calculateSimulationResults(scenario);
       
       scenario.results = result;
@@ -261,7 +262,7 @@ export class CendiaMirrorService {
   }
 
   private async calculateSimulationResults(scenario: SimulationScenario): Promise<SimulationResult> {
-    // Simulate complex impact analysis
+    // Compute impact analysis
     const affectedEntities: string[] = [];
     const cascadeEffects: SimulationResult['cascadeEffects'] = [];
     
@@ -272,7 +273,7 @@ export class CendiaMirrorService {
         affectedEntities.push(entityId);
       }
       
-      // Simulate cascade to dependencies
+      // Propagate cascade to dependencies
       const twin = Array.from(this.twins.values()).find(t => t.entityId === entityId);
       if (twin) {
         for (const dep of twin.dependencies) {
@@ -281,7 +282,7 @@ export class CendiaMirrorService {
             cascadeEffects.push({
               entity: dep,
               effect: `Cascaded from ${entityId} modification`,
-              magnitude: 0.3 + Math.random() * 0.5,
+              magnitude: 0.3 + deterministicFloat('mirror-1') * 0.5,
             });
           }
         }
@@ -366,7 +367,7 @@ export class CendiaMirrorService {
       if (entityId !== twin.entityId) {
         propagationPath.push({
           entity: entityId,
-          delay: depth * 100 + Math.random() * 50, // ms
+          delay: depth * 100 + deterministicFloat('mirror-2') * 50, // ms
           impact: Math.max(0.1, 1 - depth * 0.2),
         });
       }

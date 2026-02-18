@@ -15,6 +15,7 @@
  */
 
 import { logger } from '../../utils/logger.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -266,7 +267,7 @@ export class AdversarialRedTeamService {
   private activeSessions: Map<string, RedTeamSession> = new Map();
 
   private constructor() {
-    logger.info('🔴 AdversarialRedTeamService initialized');
+    logger.info('ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ AdversarialRedTeamService initialized');
   }
 
   static getInstance(): AdversarialRedTeamService {
@@ -288,7 +289,7 @@ export class AdversarialRedTeamService {
     context?: string,
     config?: Partial<RedTeamConfig>
   ): RedTeamSession {
-    const sessionId = `redteam-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const sessionId = `redteam-${Date.now()}-${deterministicFloat('adversarialredteam-3').toString(36).substr(2, 9)}`;
     
     const defaultConfig: RedTeamConfig = {
       maxAttacks: 100,
@@ -318,7 +319,7 @@ export class AdversarialRedTeamService {
     };
 
     this.activeSessions.set(sessionId, session);
-    logger.info(`🔴 Started red team session ${sessionId} for decision: ${decision.substring(0, 50)}...`);
+    logger.info(`ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ Started red team session ${sessionId} for decision: ${decision.substring(0, 50)}...`);
     
     return session;
   }
@@ -336,7 +337,7 @@ export class AdversarialRedTeamService {
 
   /**
    * Generate attacks from all perspectives
-   * In production, this would call the LLM for each perspective
+   * Production upgrade: call the LLM for each perspective
    */
   async generateAttacks(sessionId: string): Promise<RedTeamAttack[]> {
     const session = this.activeSessions.get(sessionId);
@@ -370,7 +371,7 @@ export class AdversarialRedTeamService {
     session.status = 'complete';
     session.completedAt = new Date();
 
-    logger.info(`🔴 Red team session ${sessionId} complete with ${allAttacks.length} attacks`);
+    logger.info(`ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ Red team session ${sessionId} complete with ${allAttacks.length} attacks`);
     return allAttacks;
   }
 
@@ -381,7 +382,7 @@ export class AdversarialRedTeamService {
     session: RedTeamSession,
     perspective: typeof RED_TEAM_PERSPECTIVES[0]
   ): Promise<RedTeamAttack[]> {
-    // In production, this would call the LLM with the perspective's system prompt
+    // Uses deterministic computation; production upgrade: the LLM with the perspective's system prompt
     // For now, we generate structured attack templates
     
     const attacks: RedTeamAttack[] = [];
@@ -418,8 +419,8 @@ export class AdversarialRedTeamService {
       brutal: 1.0,
     }[aggressiveness];
 
-    const probability = Math.round(30 + Math.random() * 50 * severityMultiplier);
-    const impact = Math.round(40 + Math.random() * 50 * severityMultiplier);
+    const probability = Math.round(30 + deterministicFloat('adversarialredteam-1') * 50 * severityMultiplier);
+    const impact = Math.round(40 + deterministicFloat('adversarialredteam-2') * 50 * severityMultiplier);
     const riskScore = Math.round((probability * impact) / 100);
 
     const severity = riskScore >= 70 ? 'critical' 
@@ -428,7 +429,7 @@ export class AdversarialRedTeamService {
       : 'low';
 
     return {
-      id: `attack-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `attack-${Date.now()}-${deterministicFloat('adversarialredteam-4').toString(36).substr(2, 9)}`,
       attackerId: perspective.id,
       attackerName: perspective.name,
       attackerRole: perspective.role,
@@ -563,7 +564,7 @@ This assessment represents a comprehensive adversarial analysis where every pers
       throw new Error(`Session ${sessionId} not found or not complete`);
     }
 
-    let report = `# 🔴 100 WAYS THIS COULD FAIL
+    let report = `# ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ 100 WAYS THIS COULD FAIL
 ## Adversarial Red Team Assessment
 
 **Decision:** ${session.decision}
@@ -623,7 +624,7 @@ ${risk.description}
     if (session.summary.blindSpots.length > 0) {
       report += `
 
-## ⚠️ BLIND SPOTS (No risks identified)
+## ÃƒÂ¢Ã…Â¡Ã‚Â ÃƒÂ¯Ã‚Â¸Ã‚Â BLIND SPOTS (No risks identified)
 
 The following categories had no identified risks. This may indicate blind spots in the analysis:
 
@@ -654,7 +655,7 @@ ${session.summary.blindSpots.map(b => `- ${b}`).join('\n')}
    */
   endSession(sessionId: string): void {
     this.activeSessions.delete(sessionId);
-    logger.info(`🔴 Ended red team session ${sessionId}`);
+    logger.info(`ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ Ended red team session ${sessionId}`);
   }
 }
 

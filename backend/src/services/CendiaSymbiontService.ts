@@ -646,6 +646,308 @@ Provide simulation results as JSON:
       avgRelationshipHealth: Math.round(avgHealth._avg.health_score || 50),
     };
   }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /**
+   * 10/10: Alliance Risk Prediction
+   * Predicts which partnerships are at risk of deterioration based on interaction patterns.
+   */
+  async predictAllianceRisks(organizationId: string): Promise<{
+    atRiskAlliances: Array<{
+      relationshipId: string;
+      entityName: string;
+      relatedEntityName: string;
+      riskScore: number;
+      riskFactors: string[];
+      recommendedActions: string[];
+      predictedOutcome: string;
+    }>;
+    overallEcosystemRisk: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+    summary: string;
+  }> {
+    const relationships = await prisma.symbiont_relationships.findMany({
+      where: { organization_id: organizationId },
+      include: { entity: true, related_entity: true },
+      orderBy: { health_score: 'asc' },
+    });
+
+    const atRiskAlliances = relationships
+      .filter(r => r.health_score < 60)
+      .map(r => {
+        const history = (r.interaction_history as Array<{ outcome: string; date: string }>) || [];
+        const recentNegative = history.slice(-10).filter(i => i.outcome === 'NEGATIVE').length;
+        const riskScore = Math.min(100, Math.max(0, 100 - r.health_score + recentNegative * 10));
+
+        const riskFactors: string[] = [];
+        if (r.health_score < 30) riskFactors.push('Critically low health score');
+        if (r.health_score < 50) riskFactors.push('Below-average relationship health');
+        if (recentNegative >= 3) riskFactors.push(`${recentNegative} negative interactions in last 10`);
+        if (r.sentiment === 'VERY_NEGATIVE') riskFactors.push('Very negative sentiment');
+        if (r.sentiment === 'NEGATIVE') riskFactors.push('Negative sentiment');
+        if (history.length === 0) riskFactors.push('No interaction history — relationship may be dormant');
+
+        const recommendedActions: string[] = [];
+        if (riskScore > 70) recommendedActions.push('Schedule urgent relationship review meeting');
+        if (recentNegative >= 3) recommendedActions.push('Conduct root cause analysis on negative interactions');
+        if (r.health_score < 30) recommendedActions.push('Evaluate whether to terminate or restructure partnership');
+        recommendedActions.push('Increase engagement frequency and transparency');
+
+        return {
+          relationshipId: r.id,
+          entityName: r.entity?.name || 'Unknown',
+          relatedEntityName: r.related_entity?.name || 'Unknown',
+          riskScore,
+          riskFactors,
+          recommendedActions,
+          predictedOutcome: riskScore > 70 ? 'Partnership likely to fail within 90 days without intervention'
+            : riskScore > 40 ? 'Partnership deteriorating — intervention recommended'
+            : 'Minor risk — monitor and maintain engagement',
+        };
+      });
+
+    const criticalCount = atRiskAlliances.filter(a => a.riskScore > 70).length;
+    const overallEcosystemRisk = criticalCount >= 3 ? 'CRITICAL' as const
+      : criticalCount >= 1 ? 'HIGH' as const
+      : atRiskAlliances.length > 0 ? 'MEDIUM' as const
+      : 'LOW' as const;
+
+    return {
+      atRiskAlliances,
+      overallEcosystemRisk,
+      summary: `${atRiskAlliances.length} of ${relationships.length} partnerships at risk (${criticalCount} critical)`,
+    };
+  }
+
+  /**
+   * 10/10: Ecosystem Health Analysis
+   * Comprehensive health analysis across all ecosystem relationships.
+   */
+  async analyzeEcosystemHealth(organizationId: string): Promise<{
+    healthScore: number;
+    diversityIndex: number;
+    concentrationRisk: string[];
+    healthByType: Record<string, { count: number; avgHealth: number; trend: string }>;
+    recommendations: string[];
+  }> {
+    const [entities, relationships, opportunities] = await Promise.all([
+      prisma.symbiont_entities.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.symbiont_relationships.findMany({
+        where: { organization_id: organizationId },
+        include: { entity: true },
+      }),
+      prisma.symbiont_opportunities.findMany({
+        where: { organization_id: organizationId },
+      }),
+    ]);
+
+    // Diversity index: how evenly distributed are entity types
+    const typeCounts: Record<string, number> = {};
+    for (const e of entities) {
+      typeCounts[e.entity_type] = (typeCounts[e.entity_type] || 0) + 1;
+    }
+    const totalEntities = entities.length || 1;
+    const proportions = Object.values(typeCounts).map(c => c / totalEntities);
+    const shannonDiversity = -proportions.reduce((sum, p) => sum + (p > 0 ? p * Math.log(p) : 0), 0);
+    const maxDiversity = Math.log(Object.keys(typeCounts).length || 1);
+    const diversityIndex = maxDiversity > 0 ? Math.round((shannonDiversity / maxDiversity) * 100) : 0;
+
+    // Concentration risk: any type > 50% of relationships
+    const concentrationRisk: string[] = [];
+    for (const [type, count] of Object.entries(typeCounts)) {
+      if (count / totalEntities > 0.5) {
+        concentrationRisk.push(`${type} represents ${Math.round(count / totalEntities * 100)}% of ecosystem — high concentration risk`);
+      }
+    }
+
+    // Health by type
+    const healthByType: Record<string, { count: number; avgHealth: number; trend: string }> = {};
+    for (const r of relationships) {
+      const type = r.entity?.entity_type || 'UNKNOWN';
+      if (!healthByType[type]) healthByType[type] = { count: 0, avgHealth: 0, trend: 'STABLE' };
+      healthByType[type].count++;
+      healthByType[type].avgHealth += r.health_score;
+    }
+    for (const type of Object.keys(healthByType)) {
+      healthByType[type].avgHealth = Math.round(healthByType[type].avgHealth / healthByType[type].count);
+      healthByType[type].trend = healthByType[type].avgHealth >= 70 ? 'HEALTHY' : healthByType[type].avgHealth >= 40 ? 'STABLE' : 'DECLINING';
+    }
+
+    const avgHealth = relationships.length > 0
+      ? Math.round(relationships.reduce((sum, r) => sum + r.health_score, 0) / relationships.length)
+      : 50;
+
+    const recommendations: string[] = [];
+    if (diversityIndex < 50) recommendations.push('Diversify ecosystem partnerships — current mix is too concentrated');
+    if (avgHealth < 60) recommendations.push('Invest in relationship health — average score is below threshold');
+    if (concentrationRisk.length > 0) recommendations.push('Reduce dependency on dominant entity types');
+    const wonCount = opportunities.filter(o => o.status === 'CLOSED_WON').length;
+    const lostCount = opportunities.filter(o => o.status === 'CLOSED_LOST').length;
+    if (lostCount > wonCount) recommendations.push('Review opportunity qualification process — loss rate exceeds win rate');
+
+    return {
+      healthScore: avgHealth,
+      diversityIndex,
+      concentrationRisk,
+      healthByType,
+      recommendations,
+    };
+  }
+
+  /**
+   * 10/10: Synergy Optimization
+   * Uses LLM to identify untapped synergies between existing ecosystem partners.
+   */
+  async identifySynergies(organizationId: string): Promise<{
+    synergies: Array<{
+      entities: string[];
+      synergyType: string;
+      description: string;
+      potentialValue: 'LOW' | 'MEDIUM' | 'HIGH';
+      actionRequired: string;
+    }>;
+    totalPotentialValue: string;
+  }> {
+    const entities = await prisma.symbiont_entities.findMany({
+      where: { organization_id: organizationId },
+      take: 30,
+    });
+
+    const relationships = await prisma.symbiont_relationships.findMany({
+      where: { organization_id: organizationId },
+      include: { entity: true, related_entity: true },
+      take: 50,
+    });
+
+    try {
+      const raw = await this.llmService.generate(
+        `Analyze this business ecosystem and identify untapped synergies.
+
+ENTITIES:
+${entities.map(e => `- ${e.name} (${e.entity_type}): ${e.description || 'No description'}`).join('\n')}
+
+EXISTING RELATIONSHIPS:
+${relationships.map(r => `- ${r.entity?.name} <-> ${r.related_entity?.name} (${r.relationship_type}, health: ${r.health_score})`).join('\n')}
+
+Identify 3-5 untapped synergies between entities that could create value.
+Return JSON ONLY:
+{
+  "synergies": [
+    {
+      "entities": ["Entity A", "Entity B"],
+      "synergyType": "CO_DEVELOPMENT",
+      "description": "description of the synergy",
+      "potentialValue": "HIGH",
+      "actionRequired": "specific next step"
+    }
+  ],
+  "totalPotentialValue": "summary of combined value"
+}`,
+        {
+          model: 'qwq:32b',
+          systemPrompt: 'You are a partnership strategy analyst. Identify realistic, actionable synergies. Return valid JSON only.',
+        }
+      );
+
+      return typeof raw === 'string' ? JSON.parse(raw) : raw;
+    } catch (error) {
+      logger.warn('LLM synergy analysis failed, using heuristic fallback', { error });
+
+      // Simple fallback: find entities with no relationship
+      const connectedPairs = new Set(relationships.map(r => `${r.entity_id}-${r.related_entity_id}`));
+      const synergies: Array<{ entities: string[]; synergyType: string; description: string; potentialValue: 'LOW' | 'MEDIUM' | 'HIGH'; actionRequired: string }> = [];
+
+      for (let i = 0; i < entities.length && synergies.length < 5; i++) {
+        for (let j = i + 1; j < entities.length && synergies.length < 5; j++) {
+          const key1 = `${entities[i].id}-${entities[j].id}`;
+          const key2 = `${entities[j].id}-${entities[i].id}`;
+          if (!connectedPairs.has(key1) && !connectedPairs.has(key2)) {
+            synergies.push({
+              entities: [entities[i].name, entities[j].name],
+              synergyType: 'POTENTIAL_PARTNERSHIP',
+              description: `No existing relationship between ${entities[i].name} and ${entities[j].name} — explore potential collaboration`,
+              potentialValue: 'MEDIUM',
+              actionRequired: 'Schedule introductory meeting to explore alignment',
+            });
+          }
+        }
+      }
+
+      return { synergies, totalPotentialValue: `${synergies.length} unexplored partnership opportunities identified` };
+    }
+  }
+
+  /**
+   * 10/10: Partnership Value Scoring
+   * Quantifies the strategic value of each partnership to the organization.
+   */
+  async scorePartnershipValues(organizationId: string): Promise<{
+    rankings: Array<{
+      entityId: string;
+      entityName: string;
+      entityType: string;
+      valueScore: number;
+      healthScore: number;
+      opportunityCount: number;
+      interactionFrequency: number;
+      strategicAlignment: 'HIGH' | 'MEDIUM' | 'LOW';
+    }>;
+    topPartner: string;
+    underperformers: string[];
+  }> {
+    const [entities, relationships, opportunities] = await Promise.all([
+      prisma.symbiont_entities.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.symbiont_relationships.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.symbiont_opportunities.findMany({
+        where: { organization_id: organizationId },
+      }),
+    ]);
+
+    const rankings = entities.map(entity => {
+      const rels = relationships.filter(r => r.entity_id === entity.id || r.related_entity_id === entity.id);
+      const avgHealth = rels.length > 0
+        ? Math.round(rels.reduce((sum, r) => sum + r.health_score, 0) / rels.length)
+        : 0;
+      const opps = opportunities.filter(o => (o as any).entity_id === entity.id);
+      const totalInteractions = rels.reduce((sum, r) => {
+        const history = (r.interaction_history as any[]) || [];
+        return sum + history.length;
+      }, 0);
+
+      const valueScore = Math.min(100, Math.round(
+        avgHealth * 0.4 +
+        Math.min(100, opps.length * 20) * 0.3 +
+        Math.min(100, totalInteractions * 5) * 0.3
+      ));
+
+      return {
+        entityId: entity.id,
+        entityName: entity.name,
+        entityType: entity.entity_type,
+        valueScore,
+        healthScore: avgHealth,
+        opportunityCount: opps.length,
+        interactionFrequency: totalInteractions,
+        strategicAlignment: valueScore >= 70 ? 'HIGH' as const
+          : valueScore >= 40 ? 'MEDIUM' as const
+          : 'LOW' as const,
+      };
+    }).sort((a, b) => b.valueScore - a.valueScore);
+
+    return {
+      rankings,
+      topPartner: rankings[0]?.entityName || 'None',
+      underperformers: rankings.filter(r => r.valueScore < 30).map(r => r.entityName),
+    };
+  }
 }
 
 // Export singleton instance

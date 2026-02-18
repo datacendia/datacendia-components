@@ -11,6 +11,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useWebSocket } from '@/hooks/useWebSocket';
 import { api } from '../../../lib/api';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import {
   Users,
   MessageCircle,
@@ -280,16 +281,16 @@ export const DeliberationVisualizationPage: React.FC = () => {
     const interval = setInterval(() => {
       setAgents(prev => prev.map(agent => {
         const statuses: AgentVisualization['status'][] = ['idle', 'thinking', 'speaking', 'listening', 'agreeing'];
-        const randomStatus = statuses[Math.floor(Math.random() * statuses.length)];
-        const newConfidence = Math.max(50, Math.min(100, agent.confidence + (Math.random() - 0.5) * 10));
+        const randomStatus = statuses[Math.floor(deterministicFloat('deliberationvisualization-3') * statuses.length)];
+        const newConfidence = Math.max(50, Math.min(100, agent.confidence + (deterministicFloat('deliberationvisualization-1') - 0.5) * 10));
         return {
           ...agent,
-          status: Math.random() > 0.7 ? randomStatus : agent.status,
+          status: deterministicFloat('deliberationvisualization-2') > 0.7 ? randomStatus : agent.status,
           confidence: Math.round(newConfidence),
         };
       }));
 
-      setConsensusLevel(prev => Math.max(50, Math.min(100, prev + (Math.random() - 0.4) * 5)));
+      setConsensusLevel(prev => Math.max(50, Math.min(100, prev + (deterministicFloat('deliberationvisualization-4') - 0.4) * 5)));
     }, 2000);
 
     return () => clearInterval(interval);

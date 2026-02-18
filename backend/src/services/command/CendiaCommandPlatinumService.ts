@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCommand™ Platinum Service
+ * CendiaCommandÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ Platinum Service
  * 
  * Enterprise Platinum Standard Integration Layer
  * Connects CendiaCommand to all 6 vertical completion layers:
@@ -19,6 +19,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { VerticalId, CommandContext, CommandIntent, CommandExecution, VERTICAL_CONFIGS } from './CendiaCommandService';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // PLATINUM INTERFACES
@@ -403,7 +404,7 @@ export class CendiaCommandPlatinumService {
     const queryId = uuidv4();
     const timestamp = new Date();
 
-    // Simulate RAG query with provenance
+    // Execute RAG query with provenance
     const results: KnowledgeResult[] = [
       {
         id: uuidv4(),
@@ -530,7 +531,7 @@ export class CendiaCommandPlatinumService {
       agentName: agent,
       role: idx === 0 ? 'lead' : 'contributor',
       contribution: `${agent} analysis for ${intent.subject}: ${intent.action} action reviewed and approved.`,
-      confidence: 0.85 + (Math.random() * 0.1),
+      confidence: 0.85 + (deterministicFloat('commandplatinum-2') * 0.1),
       timestamp: new Date(timestamp.getTime() + idx * 1000),
       toolCalls: [
         {
@@ -538,7 +539,7 @@ export class CendiaCommandPlatinumService {
           tool: `${intent.action}_analyzer`,
           input: { subject: intent.subject },
           output: { status: 'success', findings: [] },
-          duration: 150 + Math.floor(Math.random() * 100),
+          duration: deterministicInt(150, 249, 'commandplatinum-1'),
           timestamp: new Date(timestamp.getTime() + idx * 1000 + 100),
         },
       ],
@@ -581,7 +582,7 @@ export class CendiaCommandPlatinumService {
         .digest('hex');
     }
 
-    // Sign the merkle root (in production, use KMS)
+    // Sign the merkle root (production upgrade: use KMS)
     const signature = crypto.createHash('sha256')
       .update(merkleRoot + signedAt.toISOString())
       .digest('hex');

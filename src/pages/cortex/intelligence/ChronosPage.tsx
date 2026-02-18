@@ -3,14 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA CHRONOS™ - THE ENTERPRISE TIME MACHINE
+// CENDIA CHRONOSâ„¢ - THE ENTERPRISE TIME MACHINE
 // Premium Package: Time-travel through your organization's history and future
 // "The Black Box Flight Recorder for Corporate Intent"
 //
 // ENHANCED FEATURES:
 // - Diff View: Side-by-side comparison of any two dates
 // - Pivotal Moment Detection: AI identifies critical decision points
-// - CendiaReplay™: Watch deliberations play back like video
+// - CendiaReplayâ„¢: Watch deliberations play back like video
 // - Impact Tracing: See ripple effects from any decision
 // - Multi-Branch Compare: Compare 3+ alternate timelines
 // - Bookmark Moments: Save & share timestamps
@@ -18,7 +18,7 @@
 // - Animated Graph Preview: Knowledge graph morphs with timeline
 // - Monte Carlo Simulations: Run 1000+ scenarios
 //
-// CHRONOS-ERP™ - Enterprise System Time Travel:
+// CHRONOS-ERPâ„¢ - Enterprise System Time Travel:
 // - Salesforce: CRM pipelines, opportunities, forecasts
 // - SAP/NetSuite: ERP transactions, GL entries, purchase orders
 // - Workday: Hiring data, compensation, headcount changes
@@ -32,6 +32,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi, api } from '../../../lib/api';
 import { sovereignApi } from '../../../lib/sovereignApi';
 import { documentExportService, type AuditPackageData } from '../../../services/DocumentExportService';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import {
   Rewind, Play, FastForward, Clock, Shield, FileText, Eye, Building2, RotateCcw,
   Landmark, Lock, BarChart3, FileKey, Bookmark, Share2, LayoutDashboard, GitCompare,
@@ -219,7 +220,7 @@ interface MonteCarloResult {
 }
 
 // =============================================================================
-// CHRONOS-ERP™ TYPES - Enterprise System Time Travel
+// CHRONOS-ERPâ„¢ TYPES - Enterprise System Time Travel
 // =============================================================================
 
 type ERPSource =
@@ -554,7 +555,7 @@ interface RedactedExport {
     originalCharCount: number;
     redactedValue: string; // e.g., "[REDACTED-PII]", "***-**-1234"
     justification: string;
-    legalBasis: string; // e.g., "GDPR Art. 17", "HIPAA §164.514"
+    legalBasis: string; // e.g., "GDPR Art. 17", "HIPAA Â§164.514"
   }>;
   
   // Financial integrity attestation
@@ -957,21 +958,21 @@ const generateEvents = (): TimelineEvent[] => {
   
   for (let i = 0; i < totalEvents; i++) {
     let daysAgo: number;
-    const rand = Math.random();
+    const rand = deterministicFloat('chronos-131');
     if (rand < 0.40) {
-      daysAgo = Math.floor(Math.random() * 7); // Last 7 days
+      daysAgo = deterministicInt(0, 6, 'chronos-35'); // Last 7 days
     } else if (rand < 0.70) {
-      daysAgo = 7 + Math.floor(Math.random() * 23); // 7-30 days
+      daysAgo = deterministicInt(7, 29, 'chronos-1'); // 7-30 days
     } else if (rand < 0.90) {
-      daysAgo = 30 + Math.floor(Math.random() * 60); // 30-90 days
+      daysAgo = deterministicInt(30, 89, 'chronos-2'); // 30-90 days
     } else {
-      daysAgo = 90 + Math.floor(Math.random() * 275); // 90-365 days
+      daysAgo = deterministicInt(90, 364, 'chronos-3'); // 90-365 days
     }
     
-    const hoursAgo = Math.floor(Math.random() * 24);
-    const minutesAgo = Math.floor(Math.random() * 60);
-    const template = templates[Math.floor(Math.random() * templates.length)]!;
-    const title = template.titles[Math.floor(Math.random() * template.titles.length)]!;
+    const hoursAgo = deterministicInt(0, 23, 'chronos-36');
+    const minutesAgo = deterministicInt(0, 59, 'chronos-37');
+    const template = templates[Math.floor(deterministicFloat('chronos-132') * templates.length)]!;
+    const title = template.titles[Math.floor(deterministicFloat('chronos-133') * template.titles.length)]!;
     
     // Generate contextual description based on event type
     const descriptions: Record<string, string[]> = {
@@ -1020,16 +1021,16 @@ const generateEvents = (): TimelineEvent[] => {
     };
     
     const typeDescriptions = descriptions[template.type] || descriptions.decision;
-    const description = typeDescriptions[Math.floor(Math.random() * typeDescriptions.length)]!;
+    const description = typeDescriptions[Math.floor(deterministicFloat('chronos-134') * typeDescriptions.length)]!;
     
     // Weighted impact based on event type
     let impact: 'positive' | 'negative' | 'neutral';
     if (template.type === 'milestone') {
-      impact = Math.random() > 0.1 ? 'positive' : 'neutral';
+      impact = deterministicFloat('chronos-98') > 0.1 ? 'positive' : 'neutral';
     } else if (template.type === 'metric' && title.includes('Spike') || title.includes('reduced')) {
-      impact = Math.random() > 0.5 ? 'negative' : 'neutral';
+      impact = deterministicFloat('chronos-99') > 0.5 ? 'negative' : 'neutral';
     } else {
-      const impactRand = Math.random();
+      const impactRand = deterministicFloat('chronos-135');
       impact = impactRand < 0.5 ? 'positive' : impactRand < 0.8 ? 'neutral' : 'negative';
     }
 
@@ -1040,15 +1041,15 @@ const generateEvents = (): TimelineEvent[] => {
       title,
       description,
       impact,
-      magnitude: Math.floor(Math.random() * 10) + 1,
+      magnitude: deterministicInt(0, 9, 'chronos-38') + 1,
       department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal', 'HR', 'Product', 'Security', 'Executive'][
-        Math.floor(Math.random() * 10)
+        deterministicInt(0, 9, 'chronos-39')
       ]!,
       actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council', 'VP Sales', 'VP Engineering', 'CISO', 'CPO'].slice(
         0,
-        Math.floor(Math.random() * 3) + 1
+        deterministicInt(0, 2, 'chronos-40') + 1
       ),
-      deliberationId: template.type === 'decision' ? `dlb-${i}` : (Math.random() > 0.7 ? `dlb-${i}` : undefined),
+      deliberationId: template.type === 'decision' ? `dlb-${i}` : (deterministicFloat('chronos-100') > 0.7 ? `dlb-${i}` : undefined),
     });
   }
 
@@ -1062,7 +1063,7 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
   const factor = isPast ? Math.pow(0.9992, daysDiff) : Math.pow(1.0008, -daysDiff);
   const volatility = mode === 'fastforward' ? 0.15 : 0.05;
 
-  const randomize = (base: number) => base * factor * (1 + (Math.random() - 0.5) * volatility);
+  const randomize = (base: number) => base * factor * (1 + (deterministicFloat('chronos-91') - 0.5) * volatility);
 
   return {
     timestamp: date,
@@ -1079,9 +1080,9 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
     council: {
       activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(
         0,
-        Math.floor(Math.random() * 2) + 4
+        deterministicInt(0, 1, 'chronos-41') + 4
       ),
-      pendingDecisions: Math.floor(Math.random() * 8),
+      pendingDecisions: deterministicInt(0, 7, 'chronos-42'),
       totalDeliberations: Math.floor(
         daysDiff > 0 ? 450 - daysDiff * 0.5 : 450 + Math.abs(daysDiff) * 0.3
       ),
@@ -1105,7 +1106,7 @@ const generatePivotalMoments = (events: TimelineEvent[]): PivotalMoment[] => {
       id: `pivot-${event.id}`,
       timestamp: event.timestamp,
       event,
-      significance: event.magnitude * 10 + Math.floor(Math.random() * 20),
+      significance: event.magnitude * deterministicInt(10, 29, 'chronos-4'),
       reason:
         event.impact === 'positive'
           ? `Major growth catalyst - ${event.title.toLowerCase()}`
@@ -1114,15 +1115,15 @@ const generatePivotalMoments = (events: TimelineEvent[]): PivotalMoment[] => {
             : `Strategic pivot opportunity - ${event.title.toLowerCase()}`,
       impactedMetrics: ['revenue', 'profit', 'customers'].slice(
         0,
-        Math.floor(Math.random() * 2) + 2
+        deterministicInt(0, 1, 'chronos-43') + 2
       ),
       beforeState: {
-        revenue: 10000000 + Math.random() * 2000000,
-        profit: 2000000 + Math.random() * 500000,
+        revenue: 10000000 + deterministicFloat('chronos-111') * 2000000,
+        profit: 2000000 + deterministicFloat('chronos-112') * 500000,
       },
       afterState: {
-        revenue: 11000000 + Math.random() * 3000000,
-        profit: 2200000 + Math.random() * 800000,
+        revenue: 11000000 + deterministicFloat('chronos-113') * 3000000,
+        profit: 2200000 + deterministicFloat('chronos-114') * 800000,
       },
     }));
 };
@@ -1230,10 +1231,10 @@ const generateCouncilReplay = (event: TimelineEvent): CouncilReplay => {
     timestamp: event.timestamp,
     query: `Should we proceed with: ${event.title}?`,
     participants: selectedAgents,
-    duration: 300 + Math.floor(Math.random() * 120),
+    duration: deterministicInt(300, 419, 'chronos-5'),
     phases,
     decision: isPositive ? 'APPROVED' : 'APPROVED WITH CONDITIONS',
-    confidence: 75 + Math.floor(Math.random() * 20),
+    confidence: deterministicInt(75, 94, 'chronos-6'),
   };
 };
 
@@ -1252,7 +1253,7 @@ const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): 
       delay: Math.floor(
         (e.timestamp.getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)
       ),
-      correlation: 0.5 + Math.random() * 0.45,
+      correlation: 0.5 + deterministicFloat('chronos-115') * 0.45,
     }));
 
   // If no real downstream events, generate AI predictions
@@ -1290,7 +1291,7 @@ const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): 
       },
     ];
 
-    effects = predictedEffects.slice(0, 4 + Math.floor(Math.random() * 2)).map((pe, idx) => ({
+    effects = predictedEffects.slice(0, deterministicInt(4, 5, 'chronos-7')).map((pe, idx) => ({
       event: {
         id: `pred-${event.id}-${idx}`,
         timestamp: new Date(event.timestamp.getTime() + pe.delay * 24 * 60 * 60 * 1000),
@@ -1299,7 +1300,7 @@ const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): 
         department: pe.department,
         type: 'metric' as const,
         impact: 'positive' as const,
-        magnitude: 0.5 + Math.random() * 0.3,
+        magnitude: 0.5 + deterministicFloat('chronos-116') * 0.3,
         isPrediction: true, // Flag as prediction
       },
       delay: pe.delay,
@@ -1319,9 +1320,9 @@ const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): 
     rootCause: event,
     effects,
     totalImpact: {
-      revenue: baseRevenue + (Math.random() - 0.5) * 1000000,
-      profit: baseProfit + (Math.random() - 0.5) * 200000,
-      customers: baseCustomers + Math.floor((Math.random() - 0.5) * 30),
+      revenue: baseRevenue + (deterministicFloat('chronos-92') - 0.5) * 1000000,
+      profit: baseProfit + (deterministicFloat('chronos-93') - 0.5) * 200000,
+      customers: baseCustomers + Math.floor((deterministicFloat('chronos-94') - 0.5) * 30),
     },
   };
 };
@@ -1347,7 +1348,7 @@ const generateMonteCarloResults = (variable: string): MonteCarloResult => {
 };
 
 // =============================================================================
-// CHRONOS-ERP™ GENERATORS - Enterprise System Data
+// CHRONOS-ERPâ„¢ GENERATORS - Enterprise System Data
 // =============================================================================
 
 const generateERPConnectors = (): ERPConnector[] => [
@@ -1355,7 +1356,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'sf-001',
     name: 'Salesforce Production',
     source: 'salesforce',
-    icon: '☁️',
+    icon: 'â˜ï¸',
     status: 'connected',
     lastSync: new Date(Date.now() - 5 * 60 * 1000),
     recordCount: 847293,
@@ -1367,7 +1368,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'sap-001',
     name: 'SAP S/4HANA',
     source: 'sap',
-    icon: '🏢',
+    icon: 'ðŸ¢',
     status: 'connected',
     lastSync: new Date(Date.now() - 15 * 60 * 1000),
     recordCount: 2341892,
@@ -1379,7 +1380,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'wd-001',
     name: 'Workday HCM',
     source: 'workday',
-    icon: '👥',
+    icon: 'ðŸ‘¥',
     status: 'connected',
     lastSync: new Date(Date.now() - 30 * 60 * 1000),
     recordCount: 45678,
@@ -1391,7 +1392,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'jira-001',
     name: 'Jira Software',
     source: 'jira',
-    icon: '🎯',
+    icon: 'ðŸŽ¯',
     status: 'connected',
     lastSync: new Date(Date.now() - 2 * 60 * 1000),
     recordCount: 128934,
@@ -1403,7 +1404,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'gh-001',
     name: 'GitHub Enterprise',
     source: 'github',
-    icon: '🐙',
+    icon: 'ðŸ™',
     status: 'connected',
     lastSync: new Date(Date.now() - 1 * 60 * 1000),
     recordCount: 89234,
@@ -1415,7 +1416,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'snow-001',
     name: 'ServiceNow',
     source: 'servicenow',
-    icon: '🎫',
+    icon: 'ðŸŽ«',
     status: 'syncing',
     lastSync: new Date(Date.now() - 10 * 60 * 1000),
     recordCount: 234567,
@@ -1427,7 +1428,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'sp-001',
     name: 'SharePoint Online',
     source: 'sharepoint',
-    icon: '📁',
+    icon: 'ðŸ“',
     status: 'connected',
     lastSync: new Date(Date.now() - 60 * 60 * 1000),
     recordCount: 567890,
@@ -1439,7 +1440,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'ns-001',
     name: 'NetSuite',
     source: 'netsuite',
-    icon: '💰',
+    icon: 'ðŸ’°',
     status: 'connected',
     lastSync: new Date(Date.now() - 45 * 60 * 1000),
     recordCount: 1234567,
@@ -1472,23 +1473,23 @@ const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
   const owners = ['Sarah Chen', 'Mike Johnson', 'Emily Davis', 'James Wilson', 'Lisa Brown'];
 
   for (let i = 0; i < 150; i++) {
-    const daysAgo = Math.floor(Math.random() * days);
-    const amount = Math.floor(Math.random() * 500000) + 25000;
-    const stageIdx = Math.floor(Math.random() * stages.length);
+    const daysAgo = Math.floor(deterministicFloat('chronos-136') * days);
+    const amount = deterministicInt(0, 499999, 'chronos-44') + 25000;
+    const stageIdx = Math.floor(deterministicFloat('chronos-137') * stages.length);
 
     events.push({
       id: `crm-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'salesforce',
       opportunityId: `OPP-${100000 + i}`,
-      accountName: accounts[Math.floor(Math.random() * accounts.length)]!,
+      accountName: accounts[Math.floor(deterministicFloat('chronos-138') * accounts.length)]!,
       stage: stages[stageIdx]!,
       previousStage: stageIdx > 0 ? stages[stageIdx - 1] : undefined,
       amount,
       probability: [10, 25, 50, 75, 100, 0][stageIdx]!,
-      owner: owners[Math.floor(Math.random() * owners.length)]!,
-      closeDate: new Date(Date.now() + Math.floor(Math.random() * 90) * 24 * 60 * 60 * 1000),
-      deltaAmount: Math.random() > 0.7 ? Math.floor((Math.random() - 0.5) * 50000) : undefined,
+      owner: owners[Math.floor(deterministicFloat('chronos-139') * owners.length)]!,
+      closeDate: new Date(Date.now() + deterministicInt(0, 89, 'chronos-45') * 24 * 60 * 60 * 1000),
+      deltaAmount: deterministicFloat('chronos-101') > 0.7 ? Math.floor((deterministicFloat('chronos-95') - 0.5) * 50000) : undefined,
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -1507,8 +1508,8 @@ const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
   const glAccounts = ['4000-Revenue', '5000-COGS', '6000-OpEx', '7000-Payroll', '8000-Other'];
 
   for (let i = 0; i < 200; i++) {
-    const daysAgo = Math.floor(Math.random() * days);
-    const type = types[Math.floor(Math.random() * types.length)]!;
+    const daysAgo = Math.floor(deterministicFloat('chronos-140') * days);
+    const type = types[Math.floor(deterministicFloat('chronos-141') * types.length)]!;
 
     events.push({
       id: `erp-${i}`,
@@ -1516,12 +1517,12 @@ const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
       source: 'sap',
       transactionType: type,
       documentNumber: `DOC-${200000 + i}`,
-      amount: Math.floor(Math.random() * 100000) + 1000,
+      amount: deterministicInt(0, 99999, 'chronos-46') + 1000,
       currency: 'USD',
-      costCenter: costCenters[Math.floor(Math.random() * costCenters.length)]!,
-      glAccount: glAccounts[Math.floor(Math.random() * glAccounts.length)]!,
+      costCenter: costCenters[Math.floor(deterministicFloat('chronos-142') * costCenters.length)]!,
+      glAccount: glAccounts[Math.floor(deterministicFloat('chronos-143') * glAccounts.length)]!,
       description: `${type.replace('_', ' ')} - Auto generated`,
-      approver: Math.random() > 0.5 ? 'CFO' : 'Controller',
+      approver: deterministicFloat('chronos-102') > 0.5 ? 'CFO' : 'Controller',
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -1551,21 +1552,21 @@ const generateHREvents = (days: number = 180): HREvent[] => {
   const locations = ['San Francisco', 'New York', 'Austin', 'Seattle', 'London', 'Singapore'];
 
   for (let i = 0; i < 100; i++) {
-    const daysAgo = Math.floor(Math.random() * days);
-    const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)]!;
+    const daysAgo = Math.floor(deterministicFloat('chronos-144') * days);
+    const eventType = eventTypes[Math.floor(deterministicFloat('chronos-145') * eventTypes.length)]!;
 
     events.push({
       id: `hr-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'workday',
       eventType,
-      department: departments[Math.floor(Math.random() * departments.length)]!,
-      position: positions[Math.floor(Math.random() * positions.length)]!,
-      level: ['IC1', 'IC2', 'IC3', 'M1', 'M2', 'D1', 'VP'][Math.floor(Math.random() * 7)]!,
-      location: locations[Math.floor(Math.random() * locations.length)]!,
+      department: departments[Math.floor(deterministicFloat('chronos-146') * departments.length)]!,
+      position: positions[Math.floor(deterministicFloat('chronos-147') * positions.length)]!,
+      level: ['IC1', 'IC2', 'IC3', 'M1', 'M2', 'D1', 'VP'][deterministicInt(0, 6, 'chronos-47')]!,
+      location: locations[Math.floor(deterministicFloat('chronos-148') * locations.length)]!,
       headcountDelta: eventType === 'hire' ? 1 : eventType === 'termination' ? -1 : 0,
       compensationBand: ['$80k-100k', '$100k-130k', '$130k-160k', '$160k-200k', '$200k+'][
-        Math.floor(Math.random() * 5)
+        deterministicInt(0, 4, 'chronos-48')
       ]!,
     });
   }
@@ -1585,25 +1586,25 @@ const generateEngineeringEvents = (days: number = 90): EngineeringEvent[] => {
   const teams = ['Alpha', 'Beta', 'Gamma', 'Delta', 'Core', 'Growth'];
 
   for (let i = 0; i < 120; i++) {
-    const daysAgo = Math.floor(Math.random() * days);
-    const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)]!;
+    const daysAgo = Math.floor(deterministicFloat('chronos-149') * days);
+    const eventType = eventTypes[Math.floor(deterministicFloat('chronos-150') * eventTypes.length)]!;
 
     events.push({
       id: `eng-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: Math.random() > 0.5 ? 'jira' : 'github',
+      source: deterministicFloat('chronos-103') > 0.5 ? 'jira' : 'github',
       eventType,
-      project: projects[Math.floor(Math.random() * projects.length)]!,
-      team: teams[Math.floor(Math.random() * teams.length)]!,
-      velocity: eventType === 'sprint_complete' ? Math.floor(Math.random() * 30) + 20 : undefined,
+      project: projects[Math.floor(deterministicFloat('chronos-151') * projects.length)]!,
+      team: teams[Math.floor(deterministicFloat('chronos-152') * teams.length)]!,
+      velocity: eventType === 'sprint_complete' ? deterministicInt(0, 29, 'chronos-49') + 20 : undefined,
       storyPoints:
-        eventType === 'sprint_complete' ? Math.floor(Math.random() * 50) + 30 : undefined,
-      leadTime: Math.floor(Math.random() * 10) + 2,
-      cycleTime: Math.floor(Math.random() * 5) + 1,
-      deployFrequency: eventType === 'deployment' ? Math.floor(Math.random() * 5) + 1 : undefined,
+        eventType === 'sprint_complete' ? deterministicInt(0, 49, 'chronos-50') + 30 : undefined,
+      leadTime: deterministicInt(0, 9, 'chronos-51') + 2,
+      cycleTime: deterministicInt(0, 4, 'chronos-52') + 1,
+      deployFrequency: eventType === 'deployment' ? deterministicInt(0, 4, 'chronos-53') + 1 : undefined,
       incidentSeverity:
         eventType === 'incident'
-          ? (['critical', 'high', 'medium', 'low'][Math.floor(Math.random() * 4)] as any)
+          ? (['critical', 'high', 'medium', 'low'][deterministicInt(0, 3, 'chronos-54')] as any)
           : undefined,
     });
   }
@@ -1617,24 +1618,24 @@ const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
   const assignees = ['Ops Team', 'DevOps', 'Security', 'Network', 'Help Desk'];
 
   for (let i = 0; i < 80; i++) {
-    const daysAgo = Math.floor(Math.random() * days);
-    const isResolved = Math.random() > 0.3;
+    const daysAgo = Math.floor(deterministicFloat('chronos-153') * days);
+    const isResolved = deterministicFloat('chronos-104') > 0.3;
 
     events.push({
       id: `svc-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'servicenow',
       ticketId: `INC${300000 + i}`,
-      category: categories[Math.floor(Math.random() * categories.length)]!,
-      priority: priorities[Math.floor(Math.random() * priorities.length)]!,
+      category: categories[Math.floor(deterministicFloat('chronos-154') * categories.length)]!,
+      priority: priorities[Math.floor(deterministicFloat('chronos-155') * priorities.length)]!,
       status: isResolved
         ? 'resolved'
-        : (['open', 'in_progress'][Math.floor(Math.random() * 2)] as any),
-      assignee: assignees[Math.floor(Math.random() * assignees.length)]!,
+        : (['open', 'in_progress'][deterministicInt(0, 1, 'chronos-55')] as any),
+      assignee: assignees[Math.floor(deterministicFloat('chronos-156') * assignees.length)]!,
       resolution: isResolved ? 'Issue resolved per standard procedure' : undefined,
-      slaBreached: Math.random() > 0.85,
-      responseTime: Math.floor(Math.random() * 60) + 5,
-      resolutionTime: isResolved ? Math.floor(Math.random() * 480) + 30 : undefined,
+      slaBreached: deterministicFloat('chronos-105') > 0.85,
+      responseTime: deterministicInt(0, 59, 'chronos-56') + 5,
+      resolutionTime: isResolved ? deterministicInt(0, 479, 'chronos-57') + 30 : undefined,
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -1668,21 +1669,21 @@ const generateDocumentRevisions = (days: number = 180): DocumentRevisionEvent[] 
   ];
 
   for (let i = 0; i < 60; i++) {
-    const daysAgo = Math.floor(Math.random() * days);
-    const version = `${Math.floor(Math.random() * 5) + 1}.${Math.floor(Math.random() * 10)}`;
+    const daysAgo = Math.floor(deterministicFloat('chronos-157') * days);
+    const version = `${deterministicInt(0, 4, 'chronos-58') + 1}.${deterministicInt(0, 9, 'chronos-59')}`;
 
     events.push({
       id: `doc-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'sharepoint',
       documentId: `DOC-${400000 + i}`,
-      documentName: docs[Math.floor(Math.random() * docs.length)]!,
-      documentType: docTypes[Math.floor(Math.random() * docTypes.length)]!,
+      documentName: docs[Math.floor(deterministicFloat('chronos-158') * docs.length)]!,
+      documentType: docTypes[Math.floor(deterministicFloat('chronos-159') * docTypes.length)]!,
       version,
       previousVersion: parseFloat(version) > 1 ? `${parseFloat(version) - 0.1}` : undefined,
-      author: authors[Math.floor(Math.random() * authors.length)]!,
-      changeType: changeTypes[Math.floor(Math.random() * changeTypes.length)]!,
-      approvers: Math.random() > 0.5 ? ['CFO', 'General Counsel'] : undefined,
+      author: authors[Math.floor(deterministicFloat('chronos-160') * authors.length)]!,
+      changeType: changeTypes[Math.floor(deterministicFloat('chronos-161') * changeTypes.length)]!,
+      approvers: deterministicFloat('chronos-106') > 0.5 ? ['CFO', 'General Counsel'] : undefined,
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -1693,7 +1694,7 @@ const generateERPSnapshot = (date: Date): ERPStateSnapshot => {
   const daysDiff = (now.getTime() - date.getTime()) / (24 * 60 * 60 * 1000);
   const factor = Math.pow(0.9995, daysDiff);
   const randomize = (base: number, variance: number = 0.1) =>
-    base * factor * (1 + (Math.random() - 0.5) * variance);
+    base * factor * (1 + (deterministicFloat('chronos-96') - 0.5) * variance);
 
   return {
     timestamp: date,
@@ -1807,11 +1808,11 @@ const generateLedger = (): ChronosLedger => {
 // Generate Live Sync Status
 const generateLiveSyncStatus = (): LiveSyncStatus => ({
   isConnected: true,
-  lastEventTime: new Date(Date.now() - Math.random() * 5000),
-  pendingEvents: Math.floor(Math.random() * 3),
-  syncLag: Math.floor(Math.random() * 150),
-  throughput: 12 + Math.random() * 8,
-  kafkaOffset: 8472934 + Math.floor(Math.random() * 100),
+  lastEventTime: new Date(Date.now() - deterministicFloat('chronos-121') * 5000),
+  pendingEvents: deterministicInt(0, 2, 'chronos-60'),
+  syncLag: deterministicInt(0, 149, 'chronos-61'),
+  throughput: 12 + deterministicFloat('chronos-117') * 8,
+  kafkaOffset: deterministicInt(8472934, 8473033, 'chronos-8'),
   websocketStatus: 'connected',
 });
 
@@ -1822,7 +1823,7 @@ const generateCourtExport = (timeRange: { start: Date; end: Date }): CourtAdmiss
   requestedBy: 'legal@company.com',
   timeRange,
   includedBlocks: Array.from({ length: 50 }, (_, i) => 4300 + i),
-  merkleProof: Array.from({ length: 8 }, () => generateHash(`proof-${Math.random()}`)),
+  merkleProof: Array.from({ length: 8 }, () => generateHash(`proof-${deterministicFloat('chronos-162')}`)),
   signatures: [
     {
       signer: 'CEO',
@@ -1942,62 +1943,62 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
   return {
     eventId: event.id,
     originSource: {
-      dataset: datasets[Math.floor(Math.random() * datasets.length)]!,
+      dataset: datasets[Math.floor(deterministicFloat('chronos-163') * datasets.length)]!,
       table: `${event.department?.toLowerCase() || 'core'}_events`,
       field: event.type === 'metric' ? 'value' : event.type === 'financial' ? 'amount' : 'status',
       timestamp: new Date(event.timestamp.getTime() - 3600000),
-      rawValue: event.type === 'financial' ? Math.floor(Math.random() * 10000000) : event.title,
+      rawValue: event.type === 'financial' ? deterministicInt(0, 9999999, 'chronos-62') : event.title,
     },
-    intermediateTransforms: Array.from({ length: 3 + Math.floor(Math.random() * 3) }, (_, i) => ({
+    intermediateTransforms: Array.from({ length: deterministicInt(3, 5, 'chronos-9') }, (_, i) => ({
       step: i + 1,
       service: services[i % services.length]!,
       operation: ['Extract', 'Transform', 'Validate', 'Enrich', 'Aggregate', 'Normalize'][i % 6]!,
       inputHash: generateHash(`input-${event.id}-${i}`),
       outputHash: generateHash(`output-${event.id}-${i}`),
       timestamp: new Date(event.timestamp.getTime() - (3600000 - i * 600000)),
-      duration: 50 + Math.floor(Math.random() * 200),
+      duration: deterministicInt(50, 249, 'chronos-10'),
     })),
     finalOutput: {
       value: event.title,
-      confidence: 0.85 + Math.random() * 0.14,
+      confidence: 0.85 + deterministicFloat('chronos-118') * 0.14,
       timestamp: event.timestamp,
     },
     agentProvenance: {
-      agentId: `agent-${Math.floor(Math.random() * 6)}`,
-      agentName: agents[Math.floor(Math.random() * agents.length)]!,
+      agentId: `agent-${deterministicInt(0, 5, 'chronos-63')}`,
+      agentName: agents[Math.floor(deterministicFloat('chronos-164') * agents.length)]!,
       agentRole: event.actors?.[0] || 'Analyst',
       deliberationId: event.deliberationId,
       reasoning: `Analysis based on ${event.type} data patterns and historical precedent. Confidence level determined by data quality and model accuracy.`,
     },
-    serviceChain: services.slice(0, 3 + Math.floor(Math.random() * 2)).map((s, i) => ({
+    serviceChain: services.slice(0, deterministicInt(3, 4, 'chronos-11')).map((s, i) => ({
       serviceName: s,
-      version: `v${Math.floor(Math.random() * 3) + 1}.${Math.floor(Math.random() * 10)}.${Math.floor(Math.random() * 20)}`,
+      version: `v${deterministicInt(0, 2, 'chronos-64') + 1}.${deterministicInt(0, 9, 'chronos-65')}.${deterministicInt(0, 19, 'chronos-66')}`,
       method: ['process', 'analyze', 'validate', 'transform'][i % 4]!,
-      latency: 10 + Math.floor(Math.random() * 50),
+      latency: deterministicInt(10, 59, 'chronos-12'),
     })),
-    datasetLineage: datasets.slice(0, 2 + Math.floor(Math.random() * 2)).map((d) => ({
+    datasetLineage: datasets.slice(0, deterministicInt(2, 3, 'chronos-13')).map((d) => ({
       datasetId: `ds-${generateHash(d).slice(0, 8)}`,
       datasetName: d,
-      source: ['Salesforce', 'SAP', 'Workday', 'Internal'][Math.floor(Math.random() * 4)]!,
-      lastUpdated: new Date(event.timestamp.getTime() - Math.random() * 86400000),
-      recordCount: Math.floor(Math.random() * 1000000),
-      quality: 0.9 + Math.random() * 0.09,
+      source: ['Salesforce', 'SAP', 'Workday', 'Internal'][deterministicInt(0, 3, 'chronos-67')]!,
+      lastUpdated: new Date(event.timestamp.getTime() - deterministicFloat('chronos-122') * 86400000),
+      recordCount: deterministicInt(0, 999999, 'chronos-68'),
+      quality: 0.9 + deterministicFloat('chronos-119') * 0.09,
     })),
     frameworkGovernance: {
       framework: ['NIST CSF', 'ISO 27001', 'SOC 2', 'GDPR', 'OECD AI'][
-        Math.floor(Math.random() * 5)
+        deterministicInt(0, 4, 'chronos-69')
       ]!,
       policy: `${event.department || 'Corporate'} Data Governance Policy v2.1`,
       controls: ['Access Control', 'Data Classification', 'Audit Logging', 'Encryption'].slice(
         0,
-        2 + Math.floor(Math.random() * 2)
+        deterministicInt(2, 3, 'chronos-14')
       ),
       validatedAt: new Date(event.timestamp.getTime() - 60000),
       validatedBy: 'Compliance Engine v3.2',
     },
     integrityProof: {
       merkleRoot: generateHash(`merkle-${event.id}`),
-      blockNumber: 4000 + Math.floor(Math.random() * 400),
+      blockNumber: deterministicInt(4000, 4399, 'chronos-15'),
       signature: generateHash(`sig-${event.id}-${Date.now()}`),
     },
   };
@@ -2008,59 +2009,59 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
 // =============================================================================
 
 const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceSnapshot => {
-  const riskLevel = Math.random();
+  const riskLevel = deterministicFloat('chronos-165');
   return {
     eventId: event.id,
     timestamp: event.timestamp,
     nistScore: {
-      overall: 75 + Math.floor(Math.random() * 20),
-      identify: 70 + Math.floor(Math.random() * 25),
-      protect: 75 + Math.floor(Math.random() * 20),
-      detect: 80 + Math.floor(Math.random() * 15),
-      respond: 70 + Math.floor(Math.random() * 25),
-      recover: 65 + Math.floor(Math.random() * 30),
+      overall: deterministicInt(75, 94, 'chronos-16'),
+      identify: deterministicInt(70, 94, 'chronos-17'),
+      protect: deterministicInt(75, 94, 'chronos-18'),
+      detect: deterministicInt(80, 94, 'chronos-19'),
+      respond: deterministicInt(70, 94, 'chronos-20'),
+      recover: deterministicInt(65, 94, 'chronos-21'),
     },
     oecdScore: {
-      overall: 80 + Math.floor(Math.random() * 15),
-      transparency: 85 + Math.floor(Math.random() * 10),
-      accountability: 80 + Math.floor(Math.random() * 15),
-      robustness: 75 + Math.floor(Math.random() * 20),
-      fairness: 82 + Math.floor(Math.random() * 13),
-      privacy: 78 + Math.floor(Math.random() * 17),
+      overall: deterministicInt(80, 94, 'chronos-22'),
+      transparency: deterministicInt(85, 94, 'chronos-23'),
+      accountability: deterministicInt(80, 94, 'chronos-24'),
+      robustness: deterministicInt(75, 94, 'chronos-25'),
+      fairness: deterministicInt(82, 94, 'chronos-26'),
+      privacy: deterministicInt(78, 94, 'chronos-27'),
     },
     privacyCompliance: {
       gdprStatus: riskLevel < 0.1 ? 'violation' : riskLevel < 0.25 ? 'warning' : 'compliant',
       ccpaStatus: riskLevel < 0.08 ? 'violation' : riskLevel < 0.2 ? 'warning' : 'compliant',
-      dataMinimization: 85 + Math.floor(Math.random() * 12),
-      consentCoverage: 92 + Math.floor(Math.random() * 7),
-      retentionCompliance: 88 + Math.floor(Math.random() * 10),
+      dataMinimization: deterministicInt(85, 96, 'chronos-28'),
+      consentCoverage: deterministicInt(92, 98, 'chronos-29'),
+      retentionCompliance: deterministicInt(88, 97, 'chronos-30'),
     },
     securityPosture: {
-      overallScore: 82 + Math.floor(Math.random() * 15),
+      overallScore: deterministicInt(82, 96, 'chronos-31'),
       vulnerabilities: {
-        critical: Math.floor(Math.random() * 2),
-        high: Math.floor(Math.random() * 5),
-        medium: Math.floor(Math.random() * 15),
-        low: Math.floor(Math.random() * 30),
+        critical: deterministicInt(0, 1, 'chronos-70'),
+        high: deterministicInt(0, 4, 'chronos-71'),
+        medium: deterministicInt(0, 14, 'chronos-72'),
+        low: deterministicInt(0, 29, 'chronos-73'),
       },
-      encryptionCoverage: 95 + Math.floor(Math.random() * 4),
-      accessControlScore: 88 + Math.floor(Math.random() * 10),
-      auditLogIntegrity: 99 + Math.random(),
+      encryptionCoverage: deterministicInt(95, 98, 'chronos-32'),
+      accessControlScore: deterministicInt(88, 97, 'chronos-33'),
+      auditLogIntegrity: 99 + deterministicFloat('chronos-166'),
     },
     stakeholderImpact: {
       customersAffected:
         event.type === 'milestone'
-          ? Math.floor(Math.random() * 10000)
-          : Math.floor(Math.random() * 500),
+          ? deterministicInt(0, 9999, 'chronos-74')
+          : deterministicInt(0, 499, 'chronos-75'),
       employeesAffected:
         event.type === 'personnel'
-          ? Math.floor(Math.random() * 50)
-          : Math.floor(Math.random() * 10),
-      partnersAffected: Math.floor(Math.random() * 5),
+          ? deterministicInt(0, 49, 'chronos-76')
+          : deterministicInt(0, 9, 'chronos-77'),
+      partnersAffected: deterministicInt(0, 4, 'chronos-78'),
       financialExposure:
         event.type === 'financial'
-          ? Math.floor(Math.random() * 5000000)
-          : Math.floor(Math.random() * 500000),
+          ? deterministicInt(0, 4999999, 'chronos-79')
+          : deterministicInt(0, 499999, 'chronos-80'),
       reputationalRisk:
         riskLevel < 0.1
           ? 'critical'
@@ -2071,11 +2072,11 @@ const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceS
               : 'low',
     },
     driftScore: {
-      modelDrift: Math.random() * 0.15,
-      dataDrift: Math.random() * 0.12,
-      conceptDrift: Math.random() * 0.08,
-      performanceDrift: Math.random() * 0.1,
-      lastCalibration: new Date(event.timestamp.getTime() - Math.random() * 7 * 86400000),
+      modelDrift: deterministicFloat('chronos-123') * 0.15,
+      dataDrift: deterministicFloat('chronos-124') * 0.12,
+      conceptDrift: deterministicFloat('chronos-125') * 0.08,
+      performanceDrift: deterministicFloat('chronos-126') * 0.1,
+      lastCalibration: new Date(event.timestamp.getTime() - deterministicFloat('chronos-127') * 7 * 86400000),
     },
   };
 };
@@ -2085,7 +2086,7 @@ const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceS
 // =============================================================================
 
 const generateReverseTimeCheck = (targetDate: Date, mode: ChronosMode): ReverseTimeCheck => {
-  const hasMismatch = Math.random() < 0.05; // 5% chance of detecting a mismatch
+  const hasMismatch = deterministicFloat('chronos-107') < 0.05; // 5% chance of detecting a mismatch
   const expectedHash = generateHash(`expected-${targetDate.toISOString()}`);
   const actualHash = hasMismatch ? generateHash(`actual-${Date.now()}`) : expectedHash;
 
@@ -2183,7 +2184,7 @@ const generateZKProof = (
       verificationHash: generateHash(`verification-${framework}-${Date.now()}`),
     },
     metadata: {
-      dataPointsProven: 10000 + Math.floor(Math.random() * 50000),
+      dataPointsProven: deterministicInt(10000, 59999, 'chronos-34'),
       timeRangeCovered: {
         start: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000),
         end: new Date(),
@@ -2226,37 +2227,37 @@ const generateFinancialValidationEvents = (count: number = 10): FinancialValidat
   
   return Array.from({ length: count }, (_, i) => {
     const timestamp = new Date(Date.now() - (count - i) * 7 * 24 * 60 * 60 * 1000);
-    const auditor = auditors[Math.floor(Math.random() * auditors.length)]!;
-    const status: FinancialValidationEvent['status'] = Math.random() > 0.15 
+    const auditor = auditors[Math.floor(deterministicFloat('chronos-167') * auditors.length)]!;
+    const status: FinancialValidationEvent['status'] = deterministicFloat('chronos-108') > 0.15 
       ? 'passed' 
-      : Math.random() > 0.5 ? 'warning' : Math.random() > 0.5 ? 'remediated' : 'failed';
+      : deterministicFloat('chronos-109') > 0.5 ? 'warning' : deterministicFloat('chronos-110') > 0.5 ? 'remediated' : 'failed';
     const hasDiscrepancy = status !== 'passed';
-    const discrepancyAmount = hasDiscrepancy ? Math.floor(Math.random() * 50000) + 1000 : undefined;
+    const discrepancyAmount = hasDiscrepancy ? deterministicInt(0, 49999, 'chronos-81') + 1000 : undefined;
     const materialityThreshold = 100000;
     
     const eventHash = generateHash(`fve-${i}-${timestamp.toISOString()}`);
     const event: FinancialValidationEvent = {
       id: `FVE-${timestamp.getFullYear()}-${String(i + 1).padStart(4, '0')}`,
       timestamp,
-      source: sources[Math.floor(Math.random() * sources.length)]!,
-      validationType: validationTypes[Math.floor(Math.random() * validationTypes.length)]!,
+      source: sources[Math.floor(deterministicFloat('chronos-168') * sources.length)]!,
+      validationType: validationTypes[Math.floor(deterministicFloat('chronos-169') * validationTypes.length)]!,
       period: `Q${Math.floor(timestamp.getMonth() / 3) + 1} ${timestamp.getFullYear()}`,
-      entity: entities[Math.floor(Math.random() * entities.length)]!,
+      entity: entities[Math.floor(deterministicFloat('chronos-170') * entities.length)]!,
       status,
       discrepancyAmount,
       discrepancyPercentage: discrepancyAmount ? (discrepancyAmount / materialityThreshold) * 100 : undefined,
       materialityThreshold,
       isMaterial: (discrepancyAmount || 0) >= materialityThreshold,
-      controlId: `SOX-FIN-${String(Math.floor(Math.random() * 100) + 1).padStart(3, '0')}`,
-      controlName: controlNames[Math.floor(Math.random() * controlNames.length)]!,
-      controlOwner: auditors[Math.floor(Math.random() * auditors.length)]!.name,
-      controlFrequency: ['daily', 'weekly', 'monthly', 'quarterly'][Math.floor(Math.random() * 4)] as FinancialValidationEvent['controlFrequency'],
+      controlId: `SOX-FIN-${String(deterministicInt(0, 99, 'chronos-82') + 1).padStart(3, '0')}`,
+      controlName: controlNames[Math.floor(deterministicFloat('chronos-171') * controlNames.length)]!,
+      controlOwner: auditors[Math.floor(deterministicFloat('chronos-172') * auditors.length)]!.name,
+      controlFrequency: ['daily', 'weekly', 'monthly', 'quarterly'][deterministicInt(0, 3, 'chronos-83')] as FinancialValidationEvent['controlFrequency'],
       auditor: auditor.name,
       auditorTitle: auditor.title,
       auditorCertification: auditor.cert,
-      reviewedBy: auditors[Math.floor(Math.random() * auditors.length)]!.name,
+      reviewedBy: auditors[Math.floor(deterministicFloat('chronos-173') * auditors.length)]!.name,
       reviewedAt: new Date(timestamp.getTime() + 24 * 60 * 60 * 1000),
-      supportingDocuments: Array.from({ length: Math.floor(Math.random() * 3) + 1 }, (_, j) => ({
+      supportingDocuments: Array.from({ length: deterministicInt(0, 2, 'chronos-84') + 1 }, (_, j) => ({
         id: `DOC-${i}-${j}`,
         name: ['Invoice-2024-001.pdf', 'Bank Statement Dec 2024.pdf', 'Journal Entry JE-4521.pdf', 'Approval Email.msg'][j % 4]!,
         type: ['invoice', 'bank_statement', 'journal_entry', 'approval_email'][j % 4] as 'invoice' | 'bank_statement' | 'journal_entry' | 'approval_email',
@@ -2301,7 +2302,7 @@ const generateRedactedExport = (
       originalCharCount: 11,
       redactedValue: '***-**-####',
       justification: 'Social Security Numbers are PII requiring protection under privacy regulations.',
-      legalBasis: 'CCPA §1798.140(o), GDPR Art. 4(1)',
+      legalBasis: 'CCPA Â§1798.140(o), GDPR Art. 4(1)',
     },
     {
       field: 'employee_salary',
@@ -2311,7 +2312,7 @@ const generateRedactedExport = (
       originalCharCount: 8,
       redactedValue: '[REDACTED-PERSONNEL]',
       justification: 'Compensation data is confidential personnel information.',
-      legalBasis: 'Company Policy HR-001, Employment Agreement §7.2',
+      legalBasis: 'Company Policy HR-001, Employment Agreement Â§7.2',
     },
     {
       field: 'trade_secret_algorithm',
@@ -2321,7 +2322,7 @@ const generateRedactedExport = (
       originalCharCount: 2048,
       redactedValue: '[REDACTED-TRADE-SECRET]',
       justification: 'Proprietary algorithm details constitute trade secrets.',
-      legalBasis: 'DTSA 18 U.S.C. § 1836, Protective Order ¶12',
+      legalBasis: 'DTSA 18 U.S.C. Â§ 1836, Protective Order Â¶12',
     },
     {
       field: 'customer_email',
@@ -2331,7 +2332,7 @@ const generateRedactedExport = (
       originalCharCount: 24,
       redactedValue: 'user_[hash]@redacted.com',
       justification: 'Customer email addresses are PII.',
-      legalBasis: 'GDPR Art. 4(5), CCPA §1798.140(o)',
+      legalBasis: 'GDPR Art. 4(5), CCPA Â§1798.140(o)',
     },
     {
       field: 'ip_address',
@@ -2411,9 +2412,9 @@ const generateRedactedExport = (
     },
     caseReference: options.caseReference,
     discoveryRequestId: options.discoveryRequestId,
-    productionNumber: `PROD-${now.getFullYear()}-${String(Math.floor(Math.random() * 1000)).padStart(4, '0')}`,
-    batesRangeStart: `DC${String(Math.floor(Math.random() * 100000)).padStart(7, '0')}`,
-    batesRangeEnd: `DC${String(Math.floor(Math.random() * 100000) + 100000).padStart(7, '0')}`,
+    productionNumber: `PROD-${now.getFullYear()}-${String(deterministicInt(0, 999, 'chronos-85')).padStart(4, '0')}`,
+    batesRangeStart: `DC${String(deterministicInt(0, 99999, 'chronos-86')).padStart(7, '0')}`,
+    batesRangeEnd: `DC${String(deterministicInt(0, 99999, 'chronos-87') + 100000).padStart(7, '0')}`,
     verificationUrl: `https://verify.datacendia.com/export/${certificateId}`,
     verificationQrCode: `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="50">QR:${certificateId}</text></svg>`,
     format: 'json',
@@ -2495,7 +2496,7 @@ export const ChronosPage: React.FC = () => {
   const [redactionRules] = useState<RedactionRule[]>(DEFAULT_REDACTION_RULES);
   const [exportInProgress, setExportInProgress] = useState(false);
 
-  // Chronos-ERP™ State - Enterprise System Time Travel
+  // Chronos-ERPâ„¢ State - Enterprise System Time Travel
   const [erpConnectors] = useState<ERPConnector[]>(() => generateERPConnectors());
   const [showERPPanel, setShowERPPanel] = useState(false);
   const [selectedERPSource, setSelectedERPSource] = useState<ERPSource | 'all'>('all');
@@ -2605,7 +2606,7 @@ export const ChronosPage: React.FC = () => {
 
     // Add some volatility for future projections
     const volatility = mode === 'fastforward' ? 0.15 : 0.05;
-    const randomFactor = 1 + (Math.random() - 0.5) * volatility;
+    const randomFactor = 1 + (deterministicFloat('chronos-97') - 0.5) * volatility;
 
     // Apply time-based transformation
     const projectValue = (baseValue: number, isWholeNumber: boolean = false): number => {
@@ -2646,7 +2647,7 @@ export const ChronosPage: React.FC = () => {
           'COO Agent',
           'CISO Agent',
           'CMO Agent',
-        ].slice(0, Math.floor(Math.random() * 2) + 4),
+        ].slice(0, deterministicInt(0, 1, 'chronos-88') + 4),
         pendingDecisions: Math.max(
           0,
           Math.floor(
@@ -2911,7 +2912,7 @@ export const ChronosPage: React.FC = () => {
           if (druidEvents.length > 0) {
             druidEvents.forEach((de: any) => {
               realEvents.push({
-                id: de.id || `druid-${Date.now()}-${Math.random()}`,
+                id: de.id || `druid-${Date.now()}-${deterministicFloat('chronos-174')}`,
                 timestamp: new Date(de.timestamp),
                 type: de.eventType || 'system',
                 title: de.action || 'Event',
@@ -2976,9 +2977,9 @@ export const ChronosPage: React.FC = () => {
   // Generate animated graph nodes
   useEffect(() => {
     const nodes = Array.from({ length: 30 }, () => ({
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: 2 + Math.random() * 4,
+      x: deterministicFloat('chronos-128') * 100,
+      y: deterministicFloat('chronos-129') * 100,
+      size: 2 + deterministicFloat('chronos-120') * 4,
     }));
     setGraphNodes(nodes);
   }, [currentDate]);
@@ -3244,13 +3245,13 @@ export const ChronosPage: React.FC = () => {
       variable,
       original,
       alternate,
-      divergence: Math.random() * 30 + 10,
+      divergence: deterministicFloat('chronos-130') * 30 + 10,
       snapshots: Array.from({ length: 12 }, (_, i) =>
         generateSnapshot(new Date(currentDate.getTime() + i * 30 * 24 * 60 * 60 * 1000), 'replay')
       ),
-      outcome: ['better', 'worse', 'similar'][Math.floor(Math.random() * 3)] as any,
-      deltaRevenue: (Math.random() - 0.3) * 5000000,
-      deltaProfit: (Math.random() - 0.4) * 1500000,
+      outcome: ['better', 'worse', 'similar'][deterministicInt(0, 2, 'chronos-89')] as any,
+      deltaRevenue: (deterministicFloat('chronos-175') - 0.3) * 5000000,
+      deltaProfit: (deterministicFloat('chronos-176') - 0.4) * 1500000,
     };
     setBranches((prev) => [...prev, branch]);
     setSelectedBranch(branch.id);
@@ -3306,7 +3307,7 @@ export const ChronosPage: React.FC = () => {
     setShowCourtExportModal(false);
     // In production, this would trigger a download
     alert(
-      `✅ Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`
+      `âœ… Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`
     );
   };
 
@@ -3333,7 +3334,7 @@ export const ChronosPage: React.FC = () => {
   // NEW FEATURE HANDLERS - The 5 Power Features
   // ==========================================================================
 
-  // (1) Full Traceability - Show origin → intermediate → final causality
+  // (1) Full Traceability - Show origin â†’ intermediate â†’ final causality
   const openTraceability = (event: TimelineEvent) => {
     const traceability = generateTraceabilityView(event);
     setTraceabilityView(traceability);
@@ -3455,7 +3456,7 @@ export const ChronosPage: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
-                  CENDIACHRONOS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                  CENDIACHRONOS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>â„¢</span>
                 </h1>
                 <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">The Enterprise Time Machine</p>
               </div>
@@ -3509,7 +3510,7 @@ export const ChronosPage: React.FC = () => {
             {mode === 'fastforward' && (
               <p className="text-white/90">
                 <strong>The Wargame:</strong> Project your organization into the future. This isn't
-                a static forecast— the Council actively deliberates scenarios in your predicted
+                a static forecastâ€” the Council actively deliberates scenarios in your predicted
                 future state.
               </p>
             )}
@@ -3552,7 +3553,7 @@ export const ChronosPage: React.FC = () => {
                 </span>
                 {witnessSessions.length > 0 && (
                   <div className="flex items-center gap-1" title="Active witness observers">
-                    <span className="text-amber-400">👁️</span>
+                    <span className="text-amber-400">ðŸ‘ï¸</span>
                     <span className="text-[10px] text-amber-300 font-medium">
                       {witnessSessions.length}
                     </span>
@@ -3614,28 +3615,28 @@ export const ChronosPage: React.FC = () => {
                 className="px-2.5 py-1 text-[10px] bg-emerald-700/50 hover:bg-emerald-600/50 rounded transition-colors flex items-center gap-1"
                 title="View full compliance dashboard"
               >
-                🔒 Panel
+                ðŸ”’ Panel
               </button>
               <button
                 onClick={() => setShowCourtExportModal(true)}
                 className="px-2.5 py-1 text-[10px] bg-amber-700/50 hover:bg-amber-600/50 rounded transition-colors flex items-center gap-1"
                 title="Generate court-admissible evidence package"
               >
-                ⚖️ Export
+                âš–ï¸ Export
               </button>
               <button
                 onClick={() => setShowWitnessModal(true)}
                 className="px-2.5 py-1 text-[10px] bg-blue-700/50 hover:bg-blue-600/50 rounded transition-colors flex items-center gap-1"
                 title="Add external auditor or regulator as witness"
               >
-                👁️ Witness
+                ðŸ‘ï¸ Witness
               </button>
               <button
                 onClick={() => setShowERPPanel(!showERPPanel)}
                 className="px-2.5 py-1 text-[10px] bg-indigo-700/50 hover:bg-indigo-600/50 rounded transition-colors flex items-center gap-1"
                 title="View connected ERP system data"
               >
-                🏢 ERP
+                ðŸ¢ ERP
               </button>
 
               <div className="w-px h-4 bg-neutral-600" />
@@ -3645,7 +3646,7 @@ export const ChronosPage: React.FC = () => {
                 className="px-2.5 py-1 text-[10px] bg-rose-700/50 hover:bg-rose-600/50 rounded transition-colors flex items-center gap-1"
                 title="Rebuild & verify state at this timestamp"
               >
-                🔄 Verify
+                ðŸ”„ Verify
               </button>
               <button
                 onClick={() => setShowRegulatorSetup(true)}
@@ -3656,14 +3657,14 @@ export const ChronosPage: React.FC = () => {
                 }`}
                 title="Enable read-only regulator inspection mode"
               >
-                {regulatorMode ? '🔴 Active' : '🏛️ Regulator'}
+                {regulatorMode ? 'ðŸ”´ Active' : 'ðŸ›ï¸ Regulator'}
               </button>
               <button
                 onClick={() => setShowZKAudit(true)}
                 className="px-2.5 py-1 text-[10px] bg-cyan-700/50 hover:bg-cyan-600/50 rounded transition-colors flex items-center gap-1"
                 title="Generate zero-knowledge compliance proofs"
               >
-                🔐 ZK Proof
+                ðŸ” ZK Proof
               </button>
 
               <div className="w-px h-4 bg-neutral-600" />
@@ -3673,14 +3674,14 @@ export const ChronosPage: React.FC = () => {
                 className="px-2.5 py-1 text-[10px] bg-emerald-700/50 hover:bg-emerald-600/50 rounded transition-colors flex items-center gap-1"
                 title="View SOX/SEC financial validation audit trail"
               >
-                📊 SOX Audit
+                ðŸ“Š SOX Audit
               </button>
               <button
                 onClick={() => setShowRedactedExportModal(true)}
                 className="px-2.5 py-1 text-[10px] bg-orange-700/50 hover:bg-orange-600/50 rounded transition-colors flex items-center gap-1"
                 title="Generate court-admissible redacted export"
               >
-                🔏 Redacted Export
+                ðŸ” Redacted Export
               </button>
             </div>
           </div>
@@ -3745,7 +3746,7 @@ export const ChronosPage: React.FC = () => {
 
               <button
                 onClick={() => navigate('/cortex/crown/echo')}
-                title="Echo — Decision outcome tracking & feedback loops"
+                title="Echo â€” Decision outcome tracking & feedback loops"
                 className="px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 bg-neutral-800 text-emerald-400 hover:bg-emerald-500/20 border border-transparent hover:border-emerald-500/30"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -3754,7 +3755,7 @@ export const ChronosPage: React.FC = () => {
 
               <button
                 onClick={() => navigate('/cortex/sovereign/collapse')}
-                title="Collapse — Sovereign collapse simulation & stress testing"
+                title="Collapse â€” Sovereign collapse simulation & stress testing"
                 className="px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 bg-neutral-800 text-red-400 hover:bg-red-500/20 border border-transparent hover:border-red-500/30"
               >
                 <Shield className="w-3.5 h-3.5" />
@@ -3779,7 +3780,7 @@ export const ChronosPage: React.FC = () => {
               {bookmarks.length > 0 && (
                 <div className="relative group">
                   <button className="px-3 py-1.5 text-sm bg-amber-600 hover:bg-amber-500 rounded-lg transition-colors">
-                    📚 {bookmarks.length} Saved
+                    ðŸ“š {bookmarks.length} Saved
                   </button>
                   <div className="absolute right-0 top-full mt-2 w-64 bg-neutral-800 rounded-lg shadow-xl border border-neutral-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
                     {bookmarks.map((bm) => (
@@ -3843,7 +3844,7 @@ export const ChronosPage: React.FC = () => {
           {/* Help tooltip for first-time users */}
           <div className="mt-3 text-center">
             <span className="text-xs text-neutral-500">
-              💡{' '}
+              ðŸ’¡{' '}
               <em>
                 Chronos replays every metric, event, and AI decision between two points in time.
               </em>
@@ -3912,7 +3913,7 @@ export const ChronosPage: React.FC = () => {
                         onClick={() => startCouncilReplay(selectedEvent)}
                         className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors"
                       >
-                        🎬 Replay Council Deliberation
+                        ðŸŽ¬ Replay Council Deliberation
                       </button>
                     )}
                     {/* Ask Council about current view */}
@@ -3935,7 +3936,7 @@ export const ChronosPage: React.FC = () => {
                       }}
                       className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
                     >
-                      💬 Ask Council
+                      ðŸ’¬ Ask Council
                     </button>
                   </div>
                 </div>
@@ -3953,14 +3954,14 @@ export const ChronosPage: React.FC = () => {
                     minute: '2-digit',
                     second: '2-digit',
                   })}{' '}
-                  · {selectedDepartment === 'all' ? 'All Departments' : selectedDepartment}
+                  Â· {selectedDepartment === 'all' ? 'All Departments' : selectedDepartment}
                 </p>
 
                 {/* Cone of Uncertainty Banner - shown when viewing future dates */}
                 {currentDate > new Date() && (
                   <div className="mb-4 p-3 bg-gradient-to-r from-cyan-900/40 via-purple-900/40 to-cyan-900/40 border border-cyan-500/30 rounded-xl">
                     <div className="flex items-center gap-3">
-                      <div className="text-3xl">🔮</div>
+                      <div className="text-3xl">ðŸ”®</div>
                       <div className="flex-1">
                         <div className="flex items-center gap-2">
                           <span className="font-semibold text-cyan-300">Cone of Uncertainty</span>
@@ -3970,7 +3971,7 @@ export const ChronosPage: React.FC = () => {
                         </div>
                         <p className="text-xs text-cyan-200/70 mt-1">
                           Future projections show{' '}
-                          <span className="font-semibold text-white">probabilistic ranges</span> —
+                          <span className="font-semibold text-white">probabilistic ranges</span> â€”
                           uncertainty grows with time. Past data is immutable (Ledger), but the
                           future is probabilistic (Strategy Pillar).
                         </p>
@@ -3984,7 +3985,7 @@ export const ChronosPage: React.FC = () => {
                           )}
                         </div>
                         <div className="text-xs text-cyan-500/70">
-                          ±
+                          Â±
                           {Math.min(
                             30,
                             5 +
@@ -4023,7 +4024,7 @@ export const ChronosPage: React.FC = () => {
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                          <span className="text-2xl">{isFutureDate ? '🔮' : '🛫'}</span>
+                          <span className="text-2xl">{isFutureDate ? 'ðŸ”®' : 'ðŸ›«'}</span>
                           <div>
                             <span className="text-sm text-neutral-400">
                               {isFutureDate ? 'Projected Insight' : 'Key Insight'}
@@ -4034,7 +4035,7 @@ export const ChronosPage: React.FC = () => {
                               Runway:{' '}
                               {isFutureDate ? (
                                 <span style={{ fontStyle: 'italic' }}>
-                                  {runwayLow.toFixed(1)} – {runwayHigh.toFixed(1)} months
+                                  {runwayLow.toFixed(1)} â€“ {runwayHigh.toFixed(1)} months
                                 </span>
                               ) : (
                                 <>{snapshot.metrics.runway.toFixed(1)} months</>
@@ -4042,7 +4043,7 @@ export const ChronosPage: React.FC = () => {
                               <span
                                 className={`ml-2 text-sm font-normal ${snapshot.metrics.runway > 12 ? 'text-emerald-400' : 'text-amber-400'}`}
                               >
-                                {snapshot.metrics.runway > 12 ? '↑ healthy' : '⚠️ monitor'}
+                                {snapshot.metrics.runway > 12 ? 'â†‘ healthy' : 'âš ï¸ monitor'}
                               </span>
                             </div>
                           </div>
@@ -4052,7 +4053,7 @@ export const ChronosPage: React.FC = () => {
                             <>
                               <div className="text-xs text-cyan-400/70">projection confidence</div>
                               <div className="text-cyan-400 font-semibold">
-                                ±{uncertaintyPct.toFixed(0)}%
+                                Â±{uncertaintyPct.toFixed(0)}%
                               </div>
                             </>
                           ) : (
@@ -4077,13 +4078,13 @@ export const ChronosPage: React.FC = () => {
 
               {/* Council State */}
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-                <h2 className="text-xl font-semibold mb-4">🧠 Council State</h2>
+                <h2 className="text-xl font-semibold mb-4">ðŸ§  Council State</h2>
                 <CouncilState council={snapshot.council} mode={mode} />
               </div>
 
               {/* Knowledge Graph State */}
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-                <h2 className="text-xl font-semibold mb-4">🕸️ Knowledge Graph</h2>
+                <h2 className="text-xl font-semibold mb-4">ðŸ•¸ï¸ Knowledge Graph</h2>
                 <GraphState graph={snapshot.graph} mode={mode} />
               </div>
 
@@ -4093,7 +4094,7 @@ export const ChronosPage: React.FC = () => {
               {/* Alternate Timelines (Replay Mode) */}
               {mode === 'replay' && branches.length > 0 && (
                 <div className="bg-neutral-900 rounded-2xl p-6 border border-purple-800">
-                  <h2 className="text-xl font-semibold mb-4">🌀 Alternate Timelines</h2>
+                  <h2 className="text-xl font-semibold mb-4">ðŸŒ€ Alternate Timelines</h2>
                   <BranchList
                     branches={branches}
                     selectedId={selectedBranch}
@@ -4107,7 +4108,7 @@ export const ChronosPage: React.FC = () => {
             <div className="space-y-6">
               {/* Events at This Time */}
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-                <h2 className="text-lg font-semibold mb-3">📅 Events</h2>
+                <h2 className="text-lg font-semibold mb-3">ðŸ“… Events</h2>
                 <EventsList
                   events={events}
                   currentDate={currentDate}
@@ -4123,7 +4124,7 @@ export const ChronosPage: React.FC = () => {
               {/* Replay Actions */}
               {mode === 'replay' && (
                 <div className="bg-purple-900/30 rounded-2xl p-6 border border-purple-700">
-                  <h2 className="text-lg font-semibold mb-4">🔀 Create Alternate Timeline</h2>
+                  <h2 className="text-lg font-semibold mb-4">ðŸ”€ Create Alternate Timeline</h2>
                   <VariableSelector onCreateBranch={() => setShowBranchModal(true)} />
                 </div>
               )}
@@ -4131,7 +4132,7 @@ export const ChronosPage: React.FC = () => {
               {/* Fast Forward Predictions */}
               {mode === 'fastforward' && (
                 <div className="bg-cyan-900/30 rounded-2xl p-6 border border-cyan-700">
-                  <h2 className="text-lg font-semibold mb-4">🔮 Prediction Confidence</h2>
+                  <h2 className="text-lg font-semibold mb-4">ðŸ”® Prediction Confidence</h2>
                   <PredictionConfidence currentDate={currentDate} />
                 </div>
               )}
@@ -4139,7 +4140,7 @@ export const ChronosPage: React.FC = () => {
               {/* Audit Trail (Rewind) */}
               {mode === 'rewind' && (
                 <div className="bg-amber-900/30 rounded-2xl p-6 border border-amber-700">
-                  <h2 className="text-lg font-semibold mb-4">📋 Export Audit Package</h2>
+                  <h2 className="text-lg font-semibold mb-4">ðŸ“‹ Export Audit Package</h2>
                   <AuditExport 
                     currentDate={currentDate} 
                     events={events}
@@ -4196,7 +4197,7 @@ export const ChronosPage: React.FC = () => {
         <WitnessModal onAdd={addWitnessSession} onClose={() => setShowWitnessModal(false)} />
       )}
 
-      {/* Event Witness Modal - CendiaWitness™ View */}
+      {/* Event Witness Modal - CendiaWitnessâ„¢ View */}
       {showWitnessModal && witnessEvent && (
         <EventWitnessModal
           event={witnessEvent}
@@ -4230,22 +4231,22 @@ export const ChronosPage: React.FC = () => {
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
                 <h2 className="text-2xl font-bold text-white flex items-center gap-3">
-                  🔍 Full Traceability View
+                  ðŸ” Full Traceability View
                 </h2>
                 <p className="text-neutral-400 text-sm mt-1">
-                  Court-level causality proof: Origin → Intermediate → Final
+                  Court-level causality proof: Origin â†’ Intermediate â†’ Final
                 </p>
               </div>
               <button
                 onClick={() => setShowTraceability(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                ×
+                Ã—
               </button>
             </div>
             <div className="p-6 overflow-y-auto max-h-[70vh] space-y-6">
               <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
-                <h3 className="text-emerald-400 font-semibold mb-3">📥 Origin Source</h3>
+                <h3 className="text-emerald-400 font-semibold mb-3">ðŸ“¥ Origin Source</h3>
                 <div className="grid grid-cols-3 gap-4 text-sm">
                   <div>
                     <span className="text-neutral-400">Dataset:</span>{' '}
@@ -4269,7 +4270,7 @@ export const ChronosPage: React.FC = () => {
               </div>
               <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
                 <h3 className="text-amber-400 font-semibold mb-3">
-                  ⚙️ Transforms ({traceabilityView.intermediateTransforms.length})
+                  âš™ï¸ Transforms ({traceabilityView.intermediateTransforms.length})
                 </h3>
                 <div className="space-y-2">
                   {traceabilityView.intermediateTransforms.map(
@@ -4289,7 +4290,7 @@ export const ChronosPage: React.FC = () => {
                         </span>
                         <div className="flex-1">
                           <div className="text-white font-medium">
-                            {t.service} → {t.operation}
+                            {t.service} â†’ {t.operation}
                           </div>
                           <div className="text-xs text-neutral-400 font-mono">
                             Hash: {t.outputHash.slice(0, 16)}...
@@ -4302,10 +4303,10 @@ export const ChronosPage: React.FC = () => {
                 </div>
               </div>
               <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-3">🤖 Agent Provenance</h3>
+                <h3 className="text-purple-400 font-semibold mb-3">ðŸ¤– Agent Provenance</h3>
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 bg-purple-600/50 rounded-full flex items-center justify-center text-2xl">
-                    🧠
+                    ðŸ§ 
                   </div>
                   <div>
                     <div className="text-white font-bold">
@@ -4321,7 +4322,7 @@ export const ChronosPage: React.FC = () => {
                 </div>
               </div>
               <div className="bg-green-900/30 rounded-xl p-4 border border-green-700">
-                <h3 className="text-green-400 font-semibold mb-3">✅ Integrity Proof</h3>
+                <h3 className="text-green-400 font-semibold mb-3">âœ… Integrity Proof</h3>
                 <div className="font-mono text-xs text-neutral-300 bg-black/30 p-3 rounded-lg">
                   <div>Merkle Root: {traceabilityView.integrityProof.merkleRoot}</div>
                   <div>Block: #{traceabilityView.integrityProof.blockNumber}</div>
@@ -4339,31 +4340,31 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">📊 Compliance Snapshot</h2>
+                <h2 className="text-2xl font-bold text-white">ðŸ“Š Compliance Snapshot</h2>
                 <p className="text-neutral-400 text-sm mt-1">At the time this decision was made</p>
               </div>
               <button
                 onClick={() => setShowComplianceSnapshot(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                ×
+                Ã—
               </button>
             </div>
             <div className="p-6 overflow-y-auto max-h-[70vh] grid grid-cols-2 gap-4">
               <div className="bg-blue-900/30 rounded-xl p-4 border border-blue-700">
-                <h3 className="text-blue-400 font-semibold mb-3">🛡️ NIST CSF</h3>
+                <h3 className="text-blue-400 font-semibold mb-3">ðŸ›¡ï¸ NIST CSF</h3>
                 <div className="text-4xl font-bold text-white mb-3">
                   {eventComplianceSnapshot.nistScore.overall}%
                 </div>
               </div>
               <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-3">🌐 OECD AI</h3>
+                <h3 className="text-purple-400 font-semibold mb-3">ðŸŒ OECD AI</h3>
                 <div className="text-4xl font-bold text-white mb-3">
                   {eventComplianceSnapshot.oecdScore.overall}%
                 </div>
               </div>
               <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
-                <h3 className="text-emerald-400 font-semibold mb-3">🔒 Privacy</h3>
+                <h3 className="text-emerald-400 font-semibold mb-3">ðŸ”’ Privacy</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-neutral-400">GDPR</span>
@@ -4384,7 +4385,7 @@ export const ChronosPage: React.FC = () => {
                 </div>
               </div>
               <div className="bg-red-900/30 rounded-xl p-4 border border-red-700">
-                <h3 className="text-red-400 font-semibold mb-3">🔐 Security</h3>
+                <h3 className="text-red-400 font-semibold mb-3">ðŸ” Security</h3>
                 <div className="text-4xl font-bold text-white mb-3">
                   {eventComplianceSnapshot.securityPosture.overallScore}%
                 </div>
@@ -4400,7 +4401,7 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-3xl">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">🔄 Chronos Integrity Validation</h2>
+                <h2 className="text-2xl font-bold text-white">ðŸ”„ Chronos Integrity Validation</h2>
                 <p className="text-neutral-400 text-sm mt-1">
                   Rebuilding company state as of {currentDate.toLocaleDateString()}
                 </p>
@@ -4409,13 +4410,13 @@ export const ChronosPage: React.FC = () => {
                 onClick={() => setShowReverseTimeCheck(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                ×
+                Ã—
               </button>
             </div>
             <div className="p-6">
               {isRebuildingState ? (
                 <div className="text-center py-12">
-                  <div className="text-6xl mb-4 animate-spin">⏳</div>
+                  <div className="text-6xl mb-4 animate-spin">â³</div>
                   <div className="text-white font-bold text-xl mb-2">Reconstructing State...</div>
                   <div className="w-full bg-neutral-700 rounded-full h-3 mb-4">
                     <div
@@ -4433,7 +4434,7 @@ export const ChronosPage: React.FC = () => {
                     >
                       <div className="flex items-center gap-4">
                         <span className="text-5xl">
-                          {reverseTimeCheck.status === 'complete' ? '✅' : '⚠️'}
+                          {reverseTimeCheck.status === 'complete' ? 'âœ…' : 'âš ï¸'}
                         </span>
                         <div>
                           <div
@@ -4452,7 +4453,7 @@ export const ChronosPage: React.FC = () => {
                       </div>
                     </div>
                     <div className="bg-black/30 rounded-xl p-4">
-                      <h3 className="text-white font-semibold mb-3">🔐 Hash Verification</h3>
+                      <h3 className="text-white font-semibold mb-3">ðŸ” Hash Verification</h3>
                       <div className="font-mono text-xs space-y-2">
                         <div className="flex justify-between">
                           <span className="text-neutral-400">Expected:</span>
@@ -4476,7 +4477,7 @@ export const ChronosPage: React.FC = () => {
                     </div>
                     {reverseTimeCheck.forensicReport.legalAdmissible && (
                       <div className="mt-3 text-green-400 text-sm">
-                        ⚖️ This report is court-admissible
+                        âš–ï¸ This report is court-admissible
                       </div>
                     )}
                   </div>
@@ -4493,7 +4494,7 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-2xl">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">🏛️ Regulator Mode Setup</h2>
+                <h2 className="text-2xl font-bold text-white">ðŸ›ï¸ Regulator Mode Setup</h2>
                 <p className="text-neutral-400 text-sm mt-1">
                   Read-only access for regulatory inspection
                 </p>
@@ -4502,7 +4503,7 @@ export const ChronosPage: React.FC = () => {
                 onClick={() => setShowRegulatorSetup(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                ×
+                Ã—
               </button>
             </div>
             <div className="p-6 space-y-4">
@@ -4534,7 +4535,7 @@ export const ChronosPage: React.FC = () => {
                 )}
               </div>
               <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
-                <div className="text-amber-400 font-semibold">⚠️ Important</div>
+                <div className="text-amber-400 font-semibold">âš ï¸ Important</div>
                 <div className="text-neutral-300 text-sm mt-1">
                   Regulator Mode provides read-only access with automatic redaction. All access is
                   logged.
@@ -4549,7 +4550,7 @@ export const ChronosPage: React.FC = () => {
       {regulatorMode && regulatorSession && (
         <div className="fixed top-0 left-0 right-0 bg-red-600 text-white py-2 px-4 z-50 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <span className="text-xl">🔴</span>
+            <span className="text-xl">ðŸ”´</span>
             <div>
               <span className="font-bold">REGULATOR MODE ACTIVE</span>
               <span className="ml-4 text-sm opacity-80">
@@ -4573,7 +4574,7 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">🔐 Zero-Knowledge Audits</h2>
+                <h2 className="text-2xl font-bold text-white">ðŸ” Zero-Knowledge Audits</h2>
                 <p className="text-neutral-400 text-sm mt-1">
                   Prove compliance without revealing sensitive data
                 </p>
@@ -4582,7 +4583,7 @@ export const ChronosPage: React.FC = () => {
                 onClick={() => setShowZKAudit(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                ×
+                Ã—
               </button>
             </div>
             <div className="p-6 overflow-y-auto max-h-[70vh]">
@@ -4607,7 +4608,7 @@ export const ChronosPage: React.FC = () => {
                 </div>
                 {isGeneratingProof && (
                   <div className="mt-4 text-center text-cyan-400">
-                    <span className="animate-spin inline-block mr-2">⚡</span>Generating
+                    <span className="animate-spin inline-block mr-2">âš¡</span>Generating
                     cryptographic proof...
                   </div>
                 )}
@@ -4626,7 +4627,7 @@ export const ChronosPage: React.FC = () => {
                       <div key={i} className="bg-neutral-800 rounded-xl p-4">
                         <div className="flex items-center justify-between mb-3">
                           <div className="flex items-center gap-3">
-                            <span className="text-2xl">✅</span>
+                            <span className="text-2xl">âœ…</span>
                             <div>
                               <div className="text-white font-bold">
                                 {proof.framework} Compliance Proof
@@ -4664,7 +4665,7 @@ export const ChronosPage: React.FC = () => {
               </div>
               <div className="mt-6 bg-purple-900/30 rounded-xl p-4 border border-purple-700">
                 <h3 className="text-purple-400 font-semibold mb-2">
-                  🔮 How Zero-Knowledge Proofs Work
+                  ðŸ”® How Zero-Knowledge Proofs Work
                 </h3>
                 <div className="text-neutral-300 text-sm">
                   Zero-knowledge proofs allow you to prove statements about your data without
@@ -5049,7 +5050,7 @@ const TimelineScrubber: React.FC<{
           className="p-2 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors"
           title="Back 1 week"
         >
-          ⏮️
+          â®ï¸
         </button>
         <button
           onClick={onPlayPause}
@@ -5057,14 +5058,14 @@ const TimelineScrubber: React.FC<{
             isPlaying ? 'bg-red-600 hover:bg-red-500' : `bg-gradient-to-r ${getGradient()}`
           }`}
         >
-          {isPlaying ? '⏸️ Pause' : '▶️ Play'}
+          {isPlaying ? 'â¸ï¸ Pause' : 'â–¶ï¸ Play'}
         </button>
         <button
           onClick={() => onDateChange(new Date(currentDate.getTime() + 7 * 24 * 60 * 60 * 1000))}
           className="p-2 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors"
           title="Forward 1 week"
         >
-          ⏭️
+          â­ï¸
         </button>
 
         <div className="ml-4 flex items-center gap-2">
@@ -5154,7 +5155,7 @@ const TimelineScrubber: React.FC<{
           onClick={() => setShowDatePicker(!showDatePicker)}
           className="px-3 py-1 text-xs bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 rounded-full transition-colors font-semibold flex items-center gap-1"
         >
-          📅 Jump to Date
+          ðŸ“… Jump to Date
         </button>
       </div>
 
@@ -5162,7 +5163,7 @@ const TimelineScrubber: React.FC<{
       {showDatePicker && (
         <div className="mt-4 p-4 bg-neutral-800 rounded-xl border border-amber-600/50">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-amber-500">⏰</span>
+            <span className="text-amber-500">â°</span>
             <span className="text-sm font-semibold text-white">Jump to Specific Date & Time</span>
           </div>
 
@@ -5196,7 +5197,7 @@ const TimelineScrubber: React.FC<{
                 disabled={!jumpDate}
                 className="px-4 py-2 bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg font-semibold transition-colors"
               >
-                ⏩ Jump
+                â© Jump
               </button>
             </div>
 
@@ -5212,7 +5213,7 @@ const TimelineScrubber: React.FC<{
           </div>
 
           <div className="mt-3 text-xs text-neutral-500">
-            Valid range: {minDate.toLocaleDateString()} — {maxDate.toLocaleDateString()}
+            Valid range: {minDate.toLocaleDateString()} â€” {maxDate.toLocaleDateString()}
           </div>
         </div>
       )}
@@ -5244,7 +5245,7 @@ const MetricsGrid: React.FC<{
     ? Math.max(0, (currentDate.getTime() - now.getTime()) / (24 * 60 * 60 * 1000))
     : 0;
 
-  // Uncertainty grows with time: starts at ±5% and grows to ±30% at 1 year
+  // Uncertainty grows with time: starts at Â±5% and grows to Â±30% at 1 year
   const uncertaintyPercent = Math.min(30, 5 + (daysIntoFuture / 365) * 25);
 
   // Calculate range for a value based on uncertainty
@@ -5276,7 +5277,7 @@ const MetricsGrid: React.FC<{
     churn: 12, // avg churn risk
     cac: 5500, // avg CAC
     mqls: 620, // avg MQLs/month
-    conversion: 18, // avg MQL→SQL
+    conversion: 18, // avg MQLâ†’SQL
     spend: 280000, // avg monthly spend
     roi: 2.4, // avg campaign ROI
     traffic: 120000, // avg web traffic
@@ -5312,50 +5313,50 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: '👥',
+        icon: 'ðŸ‘¥',
         format: (v: number) => v.toString(),
         value: 67,
       },
       {
         key: 'velocity',
         label: 'Velocity',
-        icon: '🚀',
+        icon: 'ðŸš€',
         format: (v: number) => `${v}/sprint`,
         value: 84,
       },
       {
         key: 'deploys',
         label: 'Deploys/Week',
-        icon: '📦',
+        icon: 'ðŸ“¦',
         format: (v: number) => v.toString(),
         value: 12,
       },
-      { key: 'bugRate', label: 'Bug Rate', icon: '🐛', format: (v: number) => `${v}%`, value: 2.3 },
+      { key: 'bugRate', label: 'Bug Rate', icon: 'ðŸ›', format: (v: number) => `${v}%`, value: 2.3 },
       {
         key: 'techDebt',
         label: 'Tech Debt',
-        icon: '💳',
+        icon: 'ðŸ’³',
         format: (v: number) => `${v}%`,
         value: 14,
       },
       {
         key: 'teamNPS',
         label: 'Team eNPS',
-        icon: '😊',
+        icon: 'ðŸ˜Š',
         format: (v: number) => v.toString(),
         value: 71,
       },
       {
         key: 'prTime',
         label: 'Avg PR Time',
-        icon: '⏱️',
+        icon: 'â±ï¸',
         format: (v: number) => `${v}h`,
         value: 4.2,
       },
       {
         key: 'coverage',
         label: 'Test Coverage',
-        icon: '✅',
+        icon: 'âœ…',
         format: (v: number) => `${v}%`,
         value: 78,
       },
@@ -5364,96 +5365,96 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: '👥',
+        icon: 'ðŸ‘¥',
         format: (v: number) => v.toString(),
         value: 34,
       },
       {
         key: 'pipeline',
         label: 'Pipeline',
-        icon: '💰',
+        icon: 'ðŸ’°',
         format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
         value: 8500000,
       },
-      { key: 'winRate', label: 'Win Rate', icon: '🎯', format: (v: number) => `${v}%`, value: 32 },
+      { key: 'winRate', label: 'Win Rate', icon: 'ðŸŽ¯', format: (v: number) => `${v}%`, value: 32 },
       {
         key: 'acv',
         label: 'Avg ACV',
-        icon: '📈',
+        icon: 'ðŸ“ˆ',
         format: (v: number) => `$${(v / 1000).toFixed(0)}K`,
         value: 125000,
       },
       {
         key: 'quota',
         label: 'Quota Attain',
-        icon: '🏆',
+        icon: 'ðŸ†',
         format: (v: number) => `${v}%`,
         value: 87,
       },
       {
         key: 'cycle',
         label: 'Sales Cycle',
-        icon: '⏱️',
+        icon: 'â±ï¸',
         format: (v: number) => `${v} days`,
         value: 45,
       },
       {
         key: 'meetings',
         label: 'Meetings/Week',
-        icon: '📅',
+        icon: 'ðŸ“…',
         format: (v: number) => v.toString(),
         value: 23,
       },
-      { key: 'churn', label: 'Churn Risk', icon: '⚠️', format: (v: number) => `${v}%`, value: 8 },
+      { key: 'churn', label: 'Churn Risk', icon: 'âš ï¸', format: (v: number) => `${v}%`, value: 8 },
     ],
     Marketing: [
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: '👥',
+        icon: 'ðŸ‘¥',
         format: (v: number) => v.toString(),
         value: 22,
       },
       {
         key: 'cac',
         label: 'CAC',
-        icon: '💵',
+        icon: 'ðŸ’µ',
         format: (v: number) => `$${v.toLocaleString()}`,
         value: 4200,
       },
       {
         key: 'mqls',
         label: 'MQLs/Month',
-        icon: '📊',
+        icon: 'ðŸ“Š',
         format: (v: number) => v.toLocaleString(),
         value: 847,
       },
       {
         key: 'conversion',
-        label: 'MQL→SQL',
-        icon: '🎯',
+        label: 'MQLâ†’SQL',
+        icon: 'ðŸŽ¯',
         format: (v: number) => `${v}%`,
         value: 24,
       },
       {
         key: 'spend',
         label: 'Monthly Spend',
-        icon: '💰',
+        icon: 'ðŸ’°',
         format: (v: number) => `$${(v / 1000).toFixed(0)}K`,
         value: 320000,
       },
-      { key: 'roi', label: 'Campaign ROI', icon: '📈', format: (v: number) => `${v}x`, value: 3.2 },
+      { key: 'roi', label: 'Campaign ROI', icon: 'ðŸ“ˆ', format: (v: number) => `${v}x`, value: 3.2 },
       {
         key: 'traffic',
         label: 'Web Traffic',
-        icon: '🌐',
+        icon: 'ðŸŒ',
         format: (v: number) => `${(v / 1000).toFixed(0)}K`,
         value: 156000,
       },
       {
         key: 'brand',
         label: 'Brand Score',
-        icon: '⭐',
+        icon: 'â­',
         format: (v: number) => v.toString(),
         value: 72,
       },
@@ -5462,38 +5463,38 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: '👥',
+        icon: 'ðŸ‘¥',
         format: (v: number) => v.toString(),
         value: 12,
       },
       {
         key: 'burn',
         label: 'Burn Rate',
-        icon: '🔥',
+        icon: 'ðŸ”¥',
         format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`,
         value: 834000,
       },
-      { key: 'runway', label: 'Runway', icon: '🛫', format: (v: number) => `${v} mo`, value: 18 },
-      { key: 'ar', label: 'A/R Days', icon: '📋', format: (v: number) => `${v} days`, value: 38 },
-      { key: 'ap', label: 'A/P Days', icon: '📑', format: (v: number) => `${v} days`, value: 42 },
+      { key: 'runway', label: 'Runway', icon: 'ðŸ›«', format: (v: number) => `${v} mo`, value: 18 },
+      { key: 'ar', label: 'A/R Days', icon: 'ðŸ“‹', format: (v: number) => `${v} days`, value: 38 },
+      { key: 'ap', label: 'A/P Days', icon: 'ðŸ“‘', format: (v: number) => `${v} days`, value: 42 },
       {
         key: 'variance',
         label: 'Budget Var',
-        icon: '📊',
+        icon: 'ðŸ“Š',
         format: (v: number) => `${v > 0 ? '+' : ''}${v}%`,
         value: -3.2,
       },
       {
         key: 'cash',
         label: 'Cash Position',
-        icon: '💰',
+        icon: 'ðŸ’°',
         format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
         value: 15200000,
       },
       {
         key: 'margin',
         label: 'Gross Margin',
-        icon: '📈',
+        icon: 'ðŸ“ˆ',
         format: (v: number) => `${v}%`,
         value: 68,
       },
@@ -5502,50 +5503,50 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Total HC',
-        icon: '👥',
+        icon: 'ðŸ‘¥',
         format: (v: number) => v.toString(),
         value: 153,
       },
       {
         key: 'openReqs',
         label: 'Open Reqs',
-        icon: '📋',
+        icon: 'ðŸ“‹',
         format: (v: number) => v.toString(),
         value: 12,
       },
       {
         key: 'attrition',
         label: 'Attrition',
-        icon: '📉',
+        icon: 'ðŸ“‰',
         format: (v: number) => `${v}%`,
         value: 8.5,
       },
       {
         key: 'timeToHire',
         label: 'Time to Hire',
-        icon: '⏱️',
+        icon: 'â±ï¸',
         format: (v: number) => `${v} days`,
         value: 38,
       },
-      { key: 'eNPS', label: 'eNPS', icon: '😊', format: (v: number) => v.toString(), value: 42 },
+      { key: 'eNPS', label: 'eNPS', icon: 'ðŸ˜Š', format: (v: number) => v.toString(), value: 42 },
       {
         key: 'tenure',
         label: 'Avg Tenure',
-        icon: '📅',
+        icon: 'ðŸ“…',
         format: (v: number) => `${v} yrs`,
         value: 2.4,
       },
       {
         key: 'diversity',
         label: 'Diversity %',
-        icon: '🌈',
+        icon: 'ðŸŒˆ',
         format: (v: number) => `${v}%`,
         value: 38,
       },
       {
         key: 'training',
         label: 'Training Hrs',
-        icon: '📚',
+        icon: 'ðŸ“š',
         format: (v: number) => `${v}/emp`,
         value: 24,
       },
@@ -5557,56 +5558,56 @@ const MetricsGrid: React.FC<{
     {
       key: 'revenue',
       label: 'Revenue',
-      icon: '💰',
+      icon: 'ðŸ’°',
       format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
       value: snapshot.metrics.revenue,
     },
     {
       key: 'profit',
       label: 'Profit',
-      icon: '📈',
+      icon: 'ðŸ“ˆ',
       format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
       value: snapshot.metrics.profit,
     },
     {
       key: 'employees',
       label: 'Employees',
-      icon: '👥',
+      icon: 'ðŸ‘¥',
       format: (v: number) => v.toLocaleString(),
       value: snapshot.metrics.employees,
     },
     {
       key: 'customers',
       label: 'Customers',
-      icon: '🏢',
+      icon: 'ðŸ¢',
       format: (v: number) => v.toLocaleString(),
       value: snapshot.metrics.customers,
     },
     {
       key: 'satisfaction',
       label: 'NPS Score',
-      icon: '😊',
+      icon: 'ðŸ˜Š',
       format: (v: number) => `${v.toFixed(0)}`,
       value: snapshot.metrics.satisfaction,
     },
     {
       key: 'marketShare',
       label: 'Market Share',
-      icon: '🎯',
+      icon: 'ðŸŽ¯',
       format: (v: number) => `${v.toFixed(1)}%`,
       value: snapshot.metrics.marketShare,
     },
     {
       key: 'burnRate',
       label: 'Burn Rate',
-      icon: '🔥',
+      icon: 'ðŸ”¥',
       format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`,
       value: snapshot.metrics.burnRate,
     },
     {
       key: 'runway',
       label: 'Runway',
-      icon: '🛫',
+      icon: 'ðŸ›«',
       format: (v: number) => `${v} months`,
       value: snapshot.metrics.runway,
     },
@@ -5648,7 +5649,7 @@ const MetricsGrid: React.FC<{
     <div>
       {department !== 'all' && (
         <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700 rounded-lg text-sm text-amber-300 flex items-center justify-between">
-          <span>📊 Showing {department} metrics</span>
+          <span>ðŸ“Š Showing {department} metrics</span>
           <button
             onClick={() => setShowOrgComparison(!showOrgComparison)}
             className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
@@ -5657,7 +5658,7 @@ const MetricsGrid: React.FC<{
                 : 'bg-neutral-700 text-neutral-300 hover:bg-neutral-600'
             }`}
           >
-            {showOrgComparison ? '✓ Comparing to Org Avg' : 'Compare to Org Avg'}
+            {showOrgComparison ? 'âœ“ Comparing to Org Avg' : 'Compare to Org Avg'}
           </button>
         </div>
       )}
@@ -5684,7 +5685,7 @@ const MetricsGrid: React.FC<{
               <div className="flex items-center gap-2 text-neutral-400 text-sm mb-1">
                 <span>{icon}</span>
                 <span>{label}</span>
-                {isFuture && <span className="text-cyan-400 text-xs">🔮</span>}
+                {isFuture && <span className="text-cyan-400 text-xs">ðŸ”®</span>}
               </div>
               {isFuture && range ? (
                 <>
@@ -5693,7 +5694,7 @@ const MetricsGrid: React.FC<{
                     {format(value)}
                   </div>
                   <div className="text-xs text-cyan-400/80 mt-1 font-mono">
-                    ±{range.spread.toFixed(0)}% → {format(range.low)} – {format(range.high)}
+                    Â±{range.spread.toFixed(0)}% â†’ {format(range.low)} â€“ {format(range.high)}
                   </div>
                   {/* Mini uncertainty bar */}
                   <div className="mt-2 h-1.5 bg-neutral-700 rounded-full overflow-hidden">
@@ -5718,7 +5719,7 @@ const MetricsGrid: React.FC<{
                     variance.isPositive ? 'text-green-400' : 'text-red-400'
                   }`}
                 >
-                  <span>{variance.isPositive ? '▲' : '▼'}</span>
+                  <span>{variance.isPositive ? 'â–²' : 'â–¼'}</span>
                   <span>{variance.percent.toFixed(1)}% vs org avg</span>
                   <span className="text-neutral-500 ml-1">({format(benchmark)})</span>
                 </div>
@@ -5737,7 +5738,7 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
 }) => {
   // Helper to display zeros elegantly
   const displayValue = (value: number, suffix?: string) => {
-    if (value === 0) {return <span className="text-neutral-500">—</span>;}
+    if (value === 0) {return <span className="text-neutral-500">â€”</span>;}
     return suffix ? `${value}${suffix}` : value;
   };
 
@@ -5747,14 +5748,14 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
         <div className="text-sm text-neutral-400 mb-1">Active Agents</div>
         <div className="text-2xl font-bold">{council.activeAgents.length}</div>
         <div className="text-xs text-neutral-500 mt-1 truncate">
-          {council.activeAgents.join(', ') || '—'}
+          {council.activeAgents.join(', ') || 'â€”'}
         </div>
       </div>
       <div className="bg-neutral-800/50 rounded-xl p-4">
         <div className="text-sm text-neutral-400 mb-1">Pending Decisions</div>
         <div className="text-2xl font-bold">
           {council.pendingDecisions === 0 ? (
-            <span className="text-green-400">✓ 0</span>
+            <span className="text-green-400">âœ“ 0</span>
           ) : (
             <span className="text-amber-400">{council.pendingDecisions}</span>
           )}
@@ -5776,9 +5777,9 @@ const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }>
   graph,
   mode: _mode,
 }) => {
-  // Format data points - show "—" if zero, otherwise format nicely
+  // Format data points - show "â€”" if zero, otherwise format nicely
   const formatDataPoints = (value: number) => {
-    if (value === 0) {return <span className="text-neutral-500">—</span>;}
+    if (value === 0) {return <span className="text-neutral-500">â€”</span>;}
     if (value >= 1000000) {return `${(value / 1000000).toFixed(1)}M`;}
     if (value >= 1000) {return `${(value / 1000).toFixed(1)}K`;}
     return value.toLocaleString();
@@ -5858,17 +5859,17 @@ const EventsList: React.FC<{
   const getTypeIcon = (type: TimelineEvent['type']) => {
     switch (type) {
       case 'decision':
-        return '⚖️';
+        return 'âš–ï¸';
       case 'metric':
-        return '📊';
+        return 'ðŸ“Š';
       case 'personnel':
-        return '👤';
+        return 'ðŸ‘¤';
       case 'financial':
-        return '💵';
+        return 'ðŸ’µ';
       case 'system':
-        return '⚙️';
+        return 'âš™ï¸';
       case 'milestone':
-        return '🏆';
+        return 'ðŸ†';
     }
   };
 
@@ -5877,17 +5878,17 @@ const EventsList: React.FC<{
     const magnitude = event.magnitude || 5;
     if (event.impact === 'negative' && magnitude >= 8) {
       return (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-red-900 text-red-300">🔴 Critical</span>
+        <span className="text-xs px-1.5 py-0.5 rounded bg-red-900 text-red-300">ðŸ”´ Critical</span>
       );
     }
     if (event.impact === 'negative' && magnitude >= 5) {
       return (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-amber-900 text-amber-300">🟠 High</span>
+        <span className="text-xs px-1.5 py-0.5 rounded bg-amber-900 text-amber-300">ðŸŸ  High</span>
       );
     }
     if (event.impact === 'positive' && magnitude >= 8) {
       return (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-green-900 text-green-300">🟢 Major</span>
+        <span className="text-xs px-1.5 py-0.5 rounded bg-green-900 text-green-300">ðŸŸ¢ Major</span>
       );
     }
     return null;
@@ -5898,7 +5899,7 @@ const EventsList: React.FC<{
     if (isUpcoming) {
       return (
         <span className="text-[10px] px-1.5 py-0.5 rounded bg-cyan-900/50 text-cyan-300 border border-cyan-700/50">
-          ⏳ Upcoming
+          â³ Upcoming
         </span>
       );
     }
@@ -5906,14 +5907,14 @@ const EventsList: React.FC<{
     if (hoursAgo < 1) {
       return (
         <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-900/50 text-amber-300 border border-amber-700/50">
-          ⚡ Just now
+          âš¡ Just now
         </span>
       );
     }
     if (hoursAgo < 24) {
       return (
         <span className="text-[10px] px-1.5 py-0.5 rounded bg-neutral-800 text-neutral-400">
-          🕐 Today
+          ðŸ• Today
         </span>
       );
     }
@@ -5925,12 +5926,12 @@ const EventsList: React.FC<{
       {/* Quick Filters */}
       <div className="flex flex-wrap gap-1 mb-3">
         {[
-          { id: 'all', label: 'All', icon: '📋' },
-          { id: 'compliance', label: 'Compliance', icon: '✅' },
-          { id: 'financial', label: 'Financial', icon: '💰' },
-          { id: 'operational', label: 'Operational', icon: '⚙️' },
-          { id: 'people', label: 'People', icon: '👥' },
-          { id: 'security', label: 'Security', icon: '🔒' },
+          { id: 'all', label: 'All', icon: 'ðŸ“‹' },
+          { id: 'compliance', label: 'Compliance', icon: 'âœ…' },
+          { id: 'financial', label: 'Financial', icon: 'ðŸ’°' },
+          { id: 'operational', label: 'Operational', icon: 'âš™ï¸' },
+          { id: 'people', label: 'People', icon: 'ðŸ‘¥' },
+          { id: 'security', label: 'Security', icon: 'ðŸ”’' },
         ].map((f) => (
           <button
             key={f.id}
@@ -5954,7 +5955,7 @@ const EventsList: React.FC<{
           </div>
           {upcomingEvents.map((event) => (
             <div key={event.id} className="flex items-center gap-2 text-xs text-cyan-300/70 py-1">
-              <span>⏳</span>
+              <span>â³</span>
               <span className="truncate">{event.title}</span>
             </div>
           ))}
@@ -5998,7 +5999,7 @@ const EventsList: React.FC<{
                     {getTimelineMarker(event, false)}
                   </div>
                   <p className="text-xs text-neutral-500">
-                    {event.timestamp.toLocaleDateString()} • {event.department || 'Organization'}
+                    {event.timestamp.toLocaleDateString()} â€¢ {event.department || 'Organization'}
                   </p>
                 </div>
                 <div className="flex flex-col gap-1">
@@ -6015,7 +6016,7 @@ const EventsList: React.FC<{
                       }}
                       className="text-[10px] bg-cyan-600/30 text-cyan-400 px-2 py-0.5 rounded hover:bg-cyan-600/50 transition-colors"
                     >
-                      🔍 Witness
+                      ðŸ” Witness
                     </button>
                   )}
                 </div>
@@ -6030,7 +6031,7 @@ const EventsList: React.FC<{
 };
 
 // =============================================================================
-// EVENT WITNESS MODAL - CendiaWitness™ View for Events
+// EVENT WITNESS MODAL - CendiaWitnessâ„¢ View for Events
 // =============================================================================
 const EventWitnessModal: React.FC<{
   event: TimelineEvent;
@@ -6053,7 +6054,7 @@ const EventWitnessModal: React.FC<{
   const eventSources = ['Council decision', 'Bridge workflow', 'Panopticon alert', 'Manual entry'];
   const source = event.deliberationId
     ? 'Council decision'
-    : eventSources[Math.floor(Math.random() * 3)];
+    : eventSources[deterministicInt(0, 2, 'chronos-90')];
 
   // Calculate timing for each approver
   const eventCreatedAt = new Date(event.timestamp.getTime() - 4 * 3600000); // 4 hours before
@@ -6103,13 +6104,13 @@ const EventWitnessModal: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-2xl">🔍</span>
-                <h2 className="text-xl font-semibold">CendiaWitness™</h2>
+                <span className="text-2xl">ðŸ”</span>
+                <h2 className="text-xl font-semibold">CendiaWitnessâ„¢</h2>
               </div>
               <p className="text-sm text-neutral-400">Immutable evidence record for this event</p>
             </div>
             <button onClick={onClose} className="text-neutral-400 hover:text-white p-2">
-              ✕
+              âœ•
             </button>
           </div>
         </div>
@@ -6126,7 +6127,7 @@ const EventWitnessModal: React.FC<{
                   className="block font-mono text-cyan-400 hover:text-cyan-300 hover:underline transition-colors"
                   title="Open in Decision DNA with this event highlighted"
                 >
-                  {decisionId} ↗
+                  {decisionId} â†—
                 </button>
               </div>
               <div>
@@ -6161,10 +6162,10 @@ const EventWitnessModal: React.FC<{
                   }`}
                 >
                   {event.impact === 'positive'
-                    ? '✓ Approved'
+                    ? 'âœ“ Approved'
                     : event.impact === 'negative'
-                      ? '✗ Rejected / Escalated'
-                      : '⏳ Pending Review'}
+                      ? 'âœ— Rejected / Escalated'
+                      : 'â³ Pending Review'}
                 </p>
               </div>
             </div>
@@ -6188,7 +6189,7 @@ const EventWitnessModal: React.FC<{
               {governancePolicy.quorumObtained < governancePolicy.quorumRequired && (
                 <div className="mt-2 px-3 py-2 bg-red-900/30 border border-red-700/50 rounded-lg">
                   <p className="text-red-400 text-xs font-medium">
-                    ⚠️ Status: Blocked (Security sign-off missing)
+                    âš ï¸ Status: Blocked (Security sign-off missing)
                   </p>
                 </div>
               )}
@@ -6207,7 +6208,7 @@ const EventWitnessModal: React.FC<{
                   className="flex items-center justify-between p-3 bg-neutral-800/50 rounded-lg"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-lg">{approver.status === 'approved' ? '✅' : '⏳'}</span>
+                    <span className="text-lg">{approver.status === 'approved' ? 'âœ…' : 'â³'}</span>
                     <div>
                       <p className="font-medium">{approver.name}</p>
                       <p className="text-xs text-neutral-500">{approver.role}</p>
@@ -6243,16 +6244,16 @@ const EventWitnessModal: React.FC<{
             <div className="grid grid-cols-2 gap-3">
               {event.deliberationId && (
                 <div className="p-3 bg-amber-900/20 border border-amber-700/50 rounded-lg">
-                  <p className="text-xs text-amber-400 font-medium mb-1">📋 Council Minutes</p>
+                  <p className="text-xs text-amber-400 font-medium mb-1">ðŸ“‹ Council Minutes</p>
                   <p className="text-[10px] text-neutral-400 font-mono">{event.deliberationId}</p>
                 </div>
               )}
               <div className="p-3 bg-purple-900/20 border border-purple-700/50 rounded-lg">
-                <p className="text-xs text-purple-400 font-medium mb-1">📊 Executive Brief</p>
+                <p className="text-xs text-purple-400 font-medium mb-1">ðŸ“Š Executive Brief</p>
                 <p className="text-[10px] text-neutral-400">Auto-generated summary</p>
               </div>
               <div className="p-3 bg-cyan-900/20 border border-cyan-700/50 rounded-lg">
-                <p className="text-xs text-cyan-400 font-medium mb-1">⏰ Chronos Timestamp</p>
+                <p className="text-xs text-cyan-400 font-medium mb-1">â° Chronos Timestamp</p>
                 <p className="text-[10px] text-neutral-400 font-mono">
                   {event.timestamp.toISOString()}
                 </p>
@@ -6261,7 +6262,7 @@ const EventWitnessModal: React.FC<{
                 className="p-3 bg-green-900/20 border border-green-700/50 rounded-lg cursor-help"
                 title="Hash of this event's record, anchored in the Chronos immutable ledger. Any tampering would change this value."
               >
-                <p className="text-xs text-green-400 font-medium mb-1">🔐 Ledger Hash (Chronos)</p>
+                <p className="text-xs text-green-400 font-medium mb-1">ðŸ” Ledger Hash (Chronos)</p>
                 <p className="text-[10px] text-neutral-400 font-mono truncate">
                   sha256:{event.id.slice(0, 16)}...
                 </p>
@@ -6278,7 +6279,7 @@ const EventWitnessModal: React.FC<{
                 onClick={() => onOpenTraceability(event)}
                 className="flex-1 px-3 py-2 bg-indigo-600/30 border border-indigo-500/50 text-indigo-300 rounded-lg text-sm font-medium hover:bg-indigo-600/50 transition-colors flex items-center justify-center gap-2"
               >
-                🔗 Full Traceability
+                ðŸ”— Full Traceability
               </button>
             )}
             {onOpenComplianceSnapshot && (
@@ -6286,7 +6287,7 @@ const EventWitnessModal: React.FC<{
                 onClick={() => onOpenComplianceSnapshot(event)}
                 className="flex-1 px-3 py-2 bg-emerald-600/30 border border-emerald-500/50 text-emerald-300 rounded-lg text-sm font-medium hover:bg-emerald-600/50 transition-colors flex items-center justify-center gap-2"
               >
-                ✓ Compliance Snapshot
+                âœ“ Compliance Snapshot
               </button>
             )}
           </div>
@@ -6295,7 +6296,7 @@ const EventWitnessModal: React.FC<{
               onClick={() => onOpenInChronos(event.timestamp)}
               className="flex-1 px-4 py-3 bg-gradient-to-r from-amber-600 to-orange-600 rounded-lg font-medium hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
             >
-              ⏪ Open this moment in Chronos Replay
+              âª Open this moment in Chronos Replay
             </button>
             <button
               onClick={onClose}
@@ -6320,7 +6321,7 @@ const VariableSelector: React.FC<{ onCreateBranch: () => void }> = ({ onCreateBr
       onClick={onCreateBranch}
       className="w-full py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-semibold hover:opacity-90 transition-opacity"
     >
-      🔀 Create Alternate Timeline
+      ðŸ”€ Create Alternate Timeline
     </button>
   </div>
 );
@@ -6353,15 +6354,15 @@ const BranchList: React.FC<{
             }`}
           >
             {branch.outcome === 'better'
-              ? '✓ Better'
+              ? 'âœ“ Better'
               : branch.outcome === 'worse'
-                ? '✗ Worse'
-                : '≈ Similar'}
+                ? 'âœ— Worse'
+                : 'â‰ˆ Similar'}
           </span>
         </div>
         <div className="text-sm text-neutral-400">
           <span className="line-through text-red-400">{branch.original}</span>
-          {' → '}
+          {' â†’ '}
           <span className="text-green-400">{branch.alternate}</span>
         </div>
         <div className="flex gap-4 mt-2 text-sm">
@@ -6390,7 +6391,7 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
           <span className="text-neutral-400 flex items-center gap-1">
             Forecast Confidence (MAPE-based)
             <span className="relative group">
-              <span className="text-neutral-500 cursor-help">ⓘ</span>
+              <span className="text-neutral-500 cursor-help">â“˜</span>
               <span className="absolute bottom-full left-0 mb-2 w-64 p-2 bg-neutral-800 border border-neutral-600 rounded-lg text-xs text-neutral-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
                 <strong className="text-white">Forecast Confidence</strong> = 100% - MAPE (Mean Absolute Percentage Error) from backtested predictions at similar horizons. Decays ~0.3% per day of forecast distance.
               </span>
@@ -6405,7 +6406,7 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
                   : 'text-red-400'
             }
           >
-            {confidence > 70 ? '✓ ' : confidence > 40 ? '◐ ' : '⚠ '}
+            {confidence > 70 ? 'âœ“ ' : confidence > 40 ? 'â— ' : 'âš  '}
             {confidence.toFixed(0)}%
           </span>
         </div>
@@ -6538,11 +6539,11 @@ const AuditExport: React.FC<{
 <body>
   <div class="header">
     <div class="logo">DATACENDIA</div>
-    <div class="subtitle">CendiaChronos™ Audit Package</div>
+    <div class="subtitle">CendiaChronosâ„¢ Audit Package</div>
   </div>
   
   <div class="section">
-    <h2>📋 Audit Information</h2>
+    <h2>ðŸ“‹ Audit Information</h2>
     <div class="metadata">
       <span class="label">Generated:</span><span>${new Date().toLocaleString()}</span>
       <span class="label">Snapshot Date:</span><span>${currentDate.toLocaleString()}</span>
@@ -6552,12 +6553,12 @@ const AuditExport: React.FC<{
   </div>
   
   <div class="section">
-    <h2>🔐 Cryptographic Proof</h2>
+    <h2>ðŸ” Cryptographic Proof</h2>
     <div class="proof-box">
       <div><strong>Hash:</strong> ${hash}</div>
       <div><strong>Algorithm:</strong> SHA-256</div>
       <div><strong>Timestamp:</strong> ${timestamp}</div>
-      <div><strong>Signer:</strong> CendiaChronos™</div>
+      <div><strong>Signer:</strong> CendiaChronosâ„¢</div>
     </div>
   </div>
 
@@ -6581,12 +6582,12 @@ const AuditExport: React.FC<{
   </div>
   
   <div class="section page-break">
-    <h2>🤖 Council Deliberations (${realDeliberations.length})</h2>
+    <h2>ðŸ¤– Council Deliberations (${realDeliberations.length})</h2>
     ${deliberationsHTML || '<p>No deliberations in this audit package.</p>'}
   </div>
   
   <div class="section page-break">
-    <h2>📅 Timeline Events (${snapshotEvents.length})</h2>
+    <h2>ðŸ“… Timeline Events (${snapshotEvents.length})</h2>
     <table>
       <thead>
         <tr>
@@ -6605,7 +6606,7 @@ const AuditExport: React.FC<{
   </div>
   
   <div class="footer">
-    <div class="stamp">✓ VERIFIED AUTHENTIC</div>
+    <div class="stamp">âœ“ VERIFIED AUTHENTIC</div>
     <p>This document was automatically generated by Datacendia Sovereign Stack.<br/>
     For verification, contact compliance@datacendia.com</p>
   </div>
@@ -6745,7 +6746,7 @@ const AuditExport: React.FC<{
             hash: `sha256:${hashHex.slice(0, 16)}`,
             fullHash: hashHex,
             timestamp: new Date().toISOString(),
-            signer: 'CendiaChronos™ (client-side)',
+            signer: 'CendiaChronosâ„¢ (client-side)',
             algorithm: 'SHA-256',
           },
         };
@@ -6861,7 +6862,7 @@ const AuditExport: React.FC<{
           hash: `sha256:${hashHex.slice(0, 16)}`,
           fullHash: hashHex,
           timestamp: new Date().toISOString(),
-          signer: 'CendiaChronos™',
+          signer: 'CendiaChronosâ„¢',
           algorithm: 'SHA-256',
         },
       };
@@ -6907,7 +6908,7 @@ const AuditExport: React.FC<{
           disabled={exporting !== null}
           className="w-full py-3 bg-amber-600 hover:bg-amber-500 disabled:opacity-50 rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2"
         >
-          {exporting === 'viewer' ? '⏳ Opening...' : '📊 Open Audit Viewer'}
+          {exporting === 'viewer' ? 'â³ Opening...' : 'ðŸ“Š Open Audit Viewer'}
         </button>
         
         <div className="grid grid-cols-2 gap-2">
@@ -6916,14 +6917,14 @@ const AuditExport: React.FC<{
             disabled={exporting !== null}
             className="py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
           >
-            {exporting === 'pdf' ? '⏳...' : '📄 PDF'}
+            {exporting === 'pdf' ? 'â³...' : 'ðŸ“„ PDF'}
           </button>
           <button
             onClick={handleExportJSON}
             disabled={exporting !== null}
             className="py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
           >
-            {exporting === 'json' ? '⏳...' : '📦 JSON'}
+            {exporting === 'json' ? 'â³...' : 'ðŸ“¦ JSON'}
           </button>
         </div>
         
@@ -6932,7 +6933,7 @@ const AuditExport: React.FC<{
           disabled={exporting !== null || !auditData}
           className="w-full py-2 bg-neutral-800 hover:bg-neutral-700 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors border border-neutral-600"
         >
-          {exporting === 'bundle' ? '⏳ Downloading...' : '📁 Download Full Bundle (HTML + JSON)'}
+          {exporting === 'bundle' ? 'â³ Downloading...' : 'ðŸ“ Download Full Bundle (HTML + JSON)'}
         </button>
       </div>
       <p className="text-xs text-neutral-500">
@@ -6989,13 +6990,13 @@ const BranchModal: React.FC<{
         <div className="bg-gradient-to-r from-purple-900 to-pink-900 p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-bold">🔀 Create Alternate Timeline</h2>
+              <h2 className="text-xl font-bold">ðŸ”€ Create Alternate Timeline</h2>
               <p className="text-purple-200 text-sm mt-1">
                 Branch from {branchPoint.toLocaleDateString()}
               </p>
             </div>
             <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
-              ×
+              Ã—
             </button>
           </div>
         </div>
@@ -7061,7 +7062,7 @@ const BranchModal: React.FC<{
                 : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
             }`}
           >
-            🌀 Simulate Alternate Timeline
+            ðŸŒ€ Simulate Alternate Timeline
           </button>
         </div>
       </div>
@@ -7101,7 +7102,7 @@ const DiffView: React.FC<{
     <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold flex items-center gap-2">
-          ⚖️ Diff View
+          âš–ï¸ Diff View
           <span className="text-sm font-normal text-neutral-500">Compare two points in time</span>
         </h2>
         <div className="flex gap-2">
@@ -7129,7 +7130,7 @@ const DiffView: React.FC<{
         </div>
         <div className="text-center p-3 bg-neutral-800 rounded-lg">
           <div className="text-sm text-neutral-400">vs</div>
-          <div className="font-bold text-2xl">⚖️</div>
+          <div className="font-bold text-2xl">âš–ï¸</div>
         </div>
         <div className="text-center p-3 bg-neutral-800 rounded-lg">
           <div className="text-sm text-neutral-400">With</div>
@@ -7159,7 +7160,7 @@ const DiffView: React.FC<{
                 <div
                   className={`text-right font-bold ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}
                 >
-                  {diff >= 0 ? '↑' : '↓'} {Math.abs(pctChange).toFixed(1)}%
+                  {diff >= 0 ? 'â†‘' : 'â†“'} {Math.abs(pctChange).toFixed(1)}%
                 </div>
               </div>
             );
@@ -7170,7 +7171,7 @@ const DiffView: React.FC<{
   );
 };
 
-// CendiaReplay™
+// CendiaReplayâ„¢
 const CouncilTheater: React.FC<{
   replay: CouncilReplay | null;
   onClose: () => void;
@@ -7191,8 +7192,8 @@ const CouncilTheater: React.FC<{
   if (!replay) {
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 text-center">
-        <span className="text-6xl mb-4 block">🎬</span>
-        <h2 className="text-xl font-bold mb-2">CendiaReplay™</h2>
+        <span className="text-6xl mb-4 block">ðŸŽ¬</span>
+        <h2 className="text-xl font-bold mb-2">CendiaReplayâ„¢</h2>
         <p className="text-neutral-400">Select an event with a deliberation to replay</p>
       </div>
     );
@@ -7236,11 +7237,11 @@ const CouncilTheater: React.FC<{
       <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold flex items-center gap-2">🎬 CendiaReplay™</h2>
+            <h2 className="text-xl font-bold flex items-center gap-2">ðŸŽ¬ CendiaReplayâ„¢</h2>
             <p className="text-amber-200 text-sm">{replay.query}</p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white">
-            ✕
+            âœ•
           </button>
         </div>
       </div>
@@ -7311,13 +7312,13 @@ const CouncilTheater: React.FC<{
               }}
               className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg font-medium"
             >
-              ▶️ Play from Start
+              â–¶ï¸ Play from Start
             </button>
             <button
               onClick={() => setIsPlaying(!isPlaying)}
               className="px-4 py-2 bg-neutral-700 hover:bg-neutral-600 rounded-lg"
             >
-              {isPlaying ? '⏸️ Pause' : '▶️ Resume'}
+              {isPlaying ? 'â¸ï¸ Pause' : 'â–¶ï¸ Resume'}
             </button>
           </div>
           <div className="text-right">
@@ -7362,7 +7363,7 @@ const ImpactTraceView: React.FC<{
   if (!causalChain) {
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 text-center">
-        <span className="text-6xl mb-4 block">🔗</span>
+        <span className="text-6xl mb-4 block">ðŸ”—</span>
         <h2 className="text-xl font-bold mb-2">Impact Trace</h2>
         <p className="text-neutral-400">Select an event to trace its ripple effects</p>
       </div>
@@ -7376,9 +7377,9 @@ const ImpactTraceView: React.FC<{
       <div className="bg-gradient-to-r from-blue-900 to-indigo-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold">🔗 Impact Trace: Causal Analysis</h2>
+            <h2 className="text-xl font-bold">ðŸ”— Impact Trace: Causal Analysis</h2>
             <p className="text-blue-200 text-sm">
-              Root Cause: {causalChain.rootCause.title} •
+              Root Cause: {causalChain.rootCause.title} â€¢
               <span className="text-blue-300 ml-1">Causal chain (0 to +{maxDelay} days)</span>
             </p>
           </div>
@@ -7388,10 +7389,10 @@ const ImpactTraceView: React.FC<{
               className="px-3 py-1.5 bg-purple-600/50 hover:bg-purple-600 border border-purple-500 rounded-lg text-xs font-medium transition-colors"
               title="Run stress test on this causal chain"
             >
-              🧪 Stress Test in Crucible
+              ðŸ§ª Stress Test in Crucible
             </button>
             <button onClick={onClose} className="text-white/60 hover:text-white p-2">
-              ✕
+              âœ•
             </button>
           </div>
         </div>
@@ -7405,21 +7406,21 @@ const ImpactTraceView: React.FC<{
           title="This is a governed decision. View full timeline in Decision DNA."
         >
           <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-2xl">
-            🎯
+            ðŸŽ¯
           </div>
           <div className="flex-1">
             <div className="font-bold text-lg flex items-center gap-2">
               {causalChain.rootCause.title}
               <span className="text-xs text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                ↗ View in DNA
+                â†— View in DNA
               </span>
             </div>
             <div className="text-sm text-neutral-400">
-              {causalChain.rootCause.timestamp.toLocaleDateString()} •{' '}
+              {causalChain.rootCause.timestamp.toLocaleDateString()} â€¢{' '}
               {causalChain.rootCause.department}
             </div>
             <div className="text-xs text-neutral-500 mt-1">
-              📋 Governed decision • Click to view full timeline
+              ðŸ“‹ Governed decision â€¢ Click to view full timeline
             </div>
           </div>
         </div>
@@ -7428,7 +7429,7 @@ const ImpactTraceView: React.FC<{
         {causalChain.effects.some((e: any) => e.isPrediction) && (
           <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700/50 rounded-lg">
             <p className="text-amber-400 text-xs font-medium flex items-center gap-2">
-              <span>🔮</span>
+              <span>ðŸ”®</span>
               <span>
                 AI Predictions: The following are model-predicted downstream effects based on
                 historical patterns. Actual outcomes may vary.
@@ -7504,10 +7505,10 @@ const ImpactTraceView: React.FC<{
                 >
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-2">
-                      {effect.isPrediction && <span className="text-amber-400 text-xs">🔮</span>}
+                      {effect.isPrediction && <span className="text-amber-400 text-xs">ðŸ”®</span>}
                       <span className="font-medium">{effect.event.title}</span>
                       <span className="text-xs text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                        ↗
+                        â†—
                       </span>
                     </div>
                     <div className="text-right">
@@ -7526,7 +7527,7 @@ const ImpactTraceView: React.FC<{
                       <span className="text-neutral-400">Contribution:</span>
                       <span className="text-green-400 font-semibold">+{contributionPct}%</span>
                     </div>
-                    <span className="text-neutral-600">•</span>
+                    <span className="text-neutral-600">â€¢</span>
                     <div className="flex items-center gap-2">
                       <span className="text-neutral-400">Confidence:</span>
                       <span className={`font-medium ${confidence.color}`}>{confidence.label}</span>
@@ -7554,12 +7555,12 @@ const ImpactTraceView: React.FC<{
         {/* Total Impact with Counterfactual */}
         <div className="mt-6 p-4 bg-blue-900/20 rounded-xl border border-blue-800">
           <div className="flex items-center justify-between mb-3">
-            <h3 className="font-semibold">📊 Total Impact</h3>
+            <h3 className="font-semibold">ðŸ“Š Total Impact</h3>
             <button
               onClick={() => setShowBreakdown(!showBreakdown)}
               className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
             >
-              {showBreakdown ? '← Hide breakdown' : 'View impact breakdown →'}
+              {showBreakdown ? 'â† Hide breakdown' : 'View impact breakdown â†’'}
             </button>
           </div>
 
@@ -7662,7 +7663,7 @@ const ImpactTraceView: React.FC<{
         <div className="mt-4 flex items-center justify-between text-xs text-neutral-500">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
-              📋 <span>Council/DNA</span> → <span>Chronos</span> →{' '}
+              ðŸ“‹ <span>Council/DNA</span> â†’ <span>Chronos</span> â†’{' '}
               <span className="text-blue-400">Impact Trace</span>
             </span>
           </div>
@@ -7670,7 +7671,7 @@ const ImpactTraceView: React.FC<{
             onClick={openCrucible}
             className="text-purple-400 hover:text-purple-300 transition-colors flex items-center gap-1"
           >
-            🧪 Run stress test in CendiaCrucible™ →
+            ðŸ§ª Run stress test in CendiaCrucibleâ„¢ â†’
           </button>
         </div>
       </div>
@@ -7696,7 +7697,7 @@ const MonteCarloView: React.FC<{
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-          🎲 Monte Carlo Simulation
+          ðŸŽ² Monte Carlo Simulation
         </h2>
         <p className="text-neutral-400 mb-6">
           Run 10,000+ simulations to find the optimal decision path with probability distributions.
@@ -7724,13 +7725,13 @@ const MonteCarloView: React.FC<{
       <div className="bg-gradient-to-r from-green-900 to-emerald-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold">🎲 Monte Carlo Results</h2>
+            <h2 className="text-xl font-bold">ðŸŽ² Monte Carlo Results</h2>
             <p className="text-green-200 text-sm">
-              Variable: {result.variable} • {result.simulations.toLocaleString()} simulations
+              Variable: {result.variable} â€¢ {result.simulations.toLocaleString()} simulations
             </p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white">
-            ✕
+            âœ•
           </button>
         </div>
       </div>
@@ -7769,7 +7770,7 @@ const MonteCarloView: React.FC<{
         {/* Optimal Path */}
         <div className="p-4 bg-green-900/20 rounded-xl border border-green-700 mb-6">
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">🏆</span>
+            <span className="text-xl">ðŸ†</span>
             <span className="font-semibold">Optimal Path</span>
           </div>
           <p className="text-green-300">{result.optimalPath}</p>
@@ -7811,18 +7812,18 @@ const PivotalMomentsPanel: React.FC<{
     // Cap at 100 for display purposes
     const cappedValue = Math.min(significance, 100);
     if (cappedValue >= 90)
-      {return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: '🔴' };}
+      {return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: 'ðŸ”´' };}
     if (cappedValue >= 70)
-      {return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: '🟠' };}
+      {return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: 'ðŸŸ ' };}
     if (cappedValue >= 50)
-      {return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: '🟡' };}
-    return { label: 'Notable', color: 'bg-neutral-700 text-neutral-300', icon: '🔵' };
+      {return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: 'ðŸŸ¡' };}
+    return { label: 'Notable', color: 'bg-neutral-700 text-neutral-300', icon: 'ðŸ”µ' };
   };
 
   return (
     <div className="bg-neutral-900 rounded-2xl p-4 border border-neutral-800">
       <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3 flex items-center gap-2">
-        ⚡ AI-Detected Pivotal Moments
+        âš¡ AI-Detected Pivotal Moments
       </h3>
       <div className="space-y-2 max-h-64 overflow-y-auto">
         {moments.map((moment) => {
@@ -7878,7 +7879,7 @@ const AnimatedGraphPreview: React.FC<{
 }> = ({ nodes, snapshot }) => (
   <div className="bg-neutral-900 rounded-2xl p-4 border border-neutral-800">
     <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3">
-      🕸️ Knowledge Graph State
+      ðŸ•¸ï¸ Knowledge Graph State
     </h3>
     <div className="relative h-40 bg-neutral-800/50 rounded-lg overflow-hidden">
       {/* Animated nodes */}
@@ -7935,7 +7936,7 @@ const STERLING_UNIVERSES: Universe[] = [
     description: 'Enter cyber insurance market with $180M capital allocation',
     decision: 'Proceed with full commitment, hire 12 underwriters, launch Q2',
     color: '#10B981',
-    icon: '🚀',
+    icon: 'ðŸš€',
     probability: 74,
     npv: 340000000,
     reversibilityScore: 23,
@@ -7962,7 +7963,7 @@ const STERLING_UNIVERSES: Universe[] = [
     description: 'MGA partnership with CyberSure instead of direct entry',
     decision: 'Sign 5-year MGA agreement, 60/40 revenue share',
     color: '#3B82F6',
-    icon: '🤝',
+    icon: 'ðŸ¤',
     probability: 68,
     npv: 95000000,
     reversibilityScore: 75,
@@ -7988,7 +7989,7 @@ const STERLING_UNIVERSES: Universe[] = [
     description: 'Monitor market, defer entry decision',
     decision: 'Continue monitoring, revisit in Q1 2027',
     color: '#6B7280',
-    icon: '⏸️',
+    icon: 'â¸ï¸',
     probability: 58,
     npv: 180000000,
     reversibilityScore: 95,
@@ -8018,7 +8019,7 @@ const NORDIC_UNIVERSES: Universe[] = [
     description: 'Air-gapped on-premise deployment with dedicated support',
     decision: 'Deploy CendiaCore sovereign edition in Frankfurt data center',
     color: '#10B981',
-    icon: '🏰',
+    icon: 'ðŸ°',
     probability: 82,
     npv: 42000000,
     reversibilityScore: 45,
@@ -8044,7 +8045,7 @@ const NORDIC_UNIVERSES: Universe[] = [
     description: 'Shared infrastructure with data residency guarantees',
     decision: 'Deploy on EU-hosted cloud with encryption keys on-premise',
     color: '#3B82F6',
-    icon: '☁️',
+    icon: 'â˜ï¸',
     probability: 75,
     npv: 28000000,
     reversibilityScore: 80,
@@ -8069,7 +8070,7 @@ const NORDIC_UNIVERSES: Universe[] = [
     description: 'Wait for regulatory clarity before deployment',
     decision: 'Pause project until EU AI Act implementation guidance',
     color: '#6B7280',
-    icon: '⏸️',
+    icon: 'â¸ï¸',
     probability: 45,
     npv: 18000000,
     reversibilityScore: 95,
@@ -8098,7 +8099,7 @@ const ATLAS_UNIVERSES: Universe[] = [
     description: 'Acquire Vertex Technology Solutions for $412M',
     decision: 'Proceed with M&A, integrate IoT capabilities',
     color: '#10B981',
-    icon: '🎯',
+    icon: 'ðŸŽ¯',
     probability: 74,
     npv: 340000000,
     reversibilityScore: 23,
@@ -8125,7 +8126,7 @@ const ATLAS_UNIVERSES: Universe[] = [
     description: 'Joint venture instead of acquisition',
     decision: 'Sign 5-year JV agreement with Vertex, co-develop IoT',
     color: '#3B82F6',
-    icon: '🤝',
+    icon: 'ðŸ¤',
     probability: 70,
     npv: 145000000,
     reversibilityScore: 75,
@@ -8150,7 +8151,7 @@ const ATLAS_UNIVERSES: Universe[] = [
     description: 'Build IoT capability in-house with $165M R&D budget',
     decision: 'Hire 50 engineers, build from scratch over 24 months',
     color: '#6B7280',
-    icon: '🔧',
+    icon: 'ðŸ”§',
     probability: 62,
     npv: 95000000,
     reversibilityScore: 85,
@@ -8180,7 +8181,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     description: 'Fast-track renewable transition with $500M investment',
     decision: 'Acquire solar assets, build battery storage, decommission coal by 2027',
     color: '#10B981',
-    icon: '⚡',
+    icon: 'âš¡',
     probability: 68,
     npv: 280000000,
     reversibilityScore: 35,
@@ -8207,7 +8208,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     description: 'Phased 10-year transition with lower risk',
     decision: 'Maintain coal through 2030, gradual renewable build-out',
     color: '#3B82F6',
-    icon: '📈',
+    icon: 'ðŸ“ˆ',
     probability: 78,
     npv: 180000000,
     reversibilityScore: 75,
@@ -8220,7 +8221,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     },
     timeline: [
       { id: 'e1', dayOffset: 0, title: 'Phased Plan Approved', description: '10-year transition roadmap adopted', type: 'milestone', impact: 'neutral', confidence: 95 },
-      { id: 'e2', dayOffset: 365, title: 'Carbon Tax Increases', description: 'EU carbon price rises to €120/ton', type: 'external', impact: 'negative', confidence: 72 },
+      { id: 'e2', dayOffset: 365, title: 'Carbon Tax Increases', description: 'EU carbon price rises to â‚¬120/ton', type: 'external', impact: 'negative', confidence: 72 },
       { id: 'e3', dayOffset: 730, title: 'Stranded Asset Risk', description: 'Coal plants written down by $180M', type: 'risk', impact: 'negative', confidence: 65 },
       { id: 'e4', dayOffset: 1095, title: 'Investor Pressure', description: 'ESG funds divest, stock -12%', type: 'external', impact: 'negative', confidence: 58 },
       { id: 'e5', dayOffset: 1460, title: 'Accelerated Timeline Forced', description: 'Board demands faster transition', type: 'pivot', impact: 'negative', confidence: 55 },
@@ -8232,7 +8233,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     description: 'Continue current operations, minimal renewable investment',
     decision: 'Focus on operational efficiency, defer major capital decisions',
     color: '#6B7280',
-    icon: '🏭',
+    icon: 'ðŸ­',
     probability: 55,
     npv: 45000000,
     reversibilityScore: 90,
@@ -8262,7 +8263,7 @@ const NEXUS_UNIVERSES: Universe[] = [
     description: 'Raise prices 15% across all product lines',
     decision: 'Implement premium pricing with enhanced service tier',
     color: '#10B981',
-    icon: '💎',
+    icon: 'ðŸ’Ž',
     probability: 65,
     npv: 124000000,
     reversibilityScore: 70,
@@ -8287,7 +8288,7 @@ const NEXUS_UNIVERSES: Universe[] = [
     description: 'Cut prices 10% to gain market share',
     decision: 'Aggressive pricing to capture mid-market',
     color: '#3B82F6',
-    icon: '📉',
+    icon: 'ðŸ“‰',
     probability: 72,
     npv: 85000000,
     reversibilityScore: 45,
@@ -8312,7 +8313,7 @@ const NEXUS_UNIVERSES: Universe[] = [
     description: 'Introduce Good/Better/Best pricing tiers',
     decision: 'Segment pricing with 3-tier structure',
     color: '#8B5CF6',
-    icon: '📊',
+    icon: 'ðŸ“Š',
     probability: 78,
     npv: 145000000,
     reversibilityScore: 65,
@@ -8341,7 +8342,7 @@ const MERIDIAN_UNIVERSES: Universe[] = [
     description: 'Hire 200 nurses in 90 days with signing bonuses',
     decision: 'Launch $5M recruitment blitz with $15K signing bonuses',
     color: '#10B981',
-    icon: '🚀',
+    icon: 'ðŸš€',
     probability: 72,
     npv: 28000000,
     reversibilityScore: 35,
@@ -8367,7 +8368,7 @@ const MERIDIAN_UNIVERSES: Universe[] = [
     description: 'Partner with nursing schools for 2-year talent pipeline',
     decision: 'Invest $2M in scholarship program with employment commitment',
     color: '#3B82F6',
-    icon: '🎓',
+    icon: 'ðŸŽ“',
     probability: 85,
     npv: 42000000,
     reversibilityScore: 75,
@@ -8392,7 +8393,7 @@ const MERIDIAN_UNIVERSES: Universe[] = [
     description: 'Rely on travel nurses and staffing agencies',
     decision: 'Outsource 30% of nursing staff to agencies',
     color: '#6B7280',
-    icon: '🏢',
+    icon: 'ðŸ¢',
     probability: 90,
     npv: 12000000,
     reversibilityScore: 85,
@@ -8421,7 +8422,7 @@ const PACIFIC_UNIVERSES: Universe[] = [
     description: 'Build distribution hub in Ho Chi Minh City',
     decision: 'Invest $45M in Vietnam operations, 18-month build',
     color: '#10B981',
-    icon: '🌏',
+    icon: 'ðŸŒ',
     probability: 68,
     npv: 95000000,
     reversibilityScore: 25,
@@ -8447,7 +8448,7 @@ const PACIFIC_UNIVERSES: Universe[] = [
     description: 'JV with Vietnamese logistics company',
     decision: 'Form 51/49 joint venture with Vietrans Corp',
     color: '#3B82F6',
-    icon: '🤝',
+    icon: 'ðŸ¤',
     probability: 78,
     npv: 62000000,
     reversibilityScore: 60,
@@ -8472,7 +8473,7 @@ const PACIFIC_UNIVERSES: Universe[] = [
     description: 'Double down on existing APAC routes',
     decision: 'Invest $25M in capacity expansion on proven routes',
     color: '#6B7280',
-    icon: '🏠',
+    icon: 'ðŸ ',
     probability: 88,
     npv: 45000000,
     reversibilityScore: 80,
@@ -8552,7 +8553,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl font-bold flex items-center gap-3">
-              🌍 Parallel Universe Simulation
+              ðŸŒ Parallel Universe Simulation
               <span className="text-xs font-normal text-purple-300 bg-purple-800/50 px-2 py-1 rounded">
                 Branching Timelines
               </span>
@@ -8561,7 +8562,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
               "Most BI tools show a flat line. We show divergent futures."
             </p>
           </div>
-          <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">✕</button>
+          <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">âœ•</button>
         </div>
 
         {/* Scenario Selector */}
@@ -8608,7 +8609,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             {/* Decision node */}
             <div className="absolute left-0 top-1/2 -translate-y-1/2 w-28 text-center z-10">
               <div className="w-12 h-12 mx-auto bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-2xl shadow-lg shadow-purple-500/50 border-2 border-white/30">
-                ⚡
+                âš¡
               </div>
               <div className="text-xs text-purple-300 mt-1 font-semibold">DECISION</div>
               <div className="text-[10px] text-neutral-500">Point of Divergence</div>
@@ -8668,10 +8669,10 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                       <div>
                         <div className="text-xs font-bold flex items-center gap-1">
                           {universe.name}
-                          {isRecommended && <span className="text-green-400">✨</span>}
+                          {isRecommended && <span className="text-green-400">âœ¨</span>}
                         </div>
                         <div className="text-[10px] text-neutral-400">
-                          ${(universe.npv / 1000000).toFixed(0)}M NPV • {universe.probability}%
+                          ${(universe.npv / 1000000).toFixed(0)}M NPV â€¢ {universe.probability}%
                         </div>
                       </div>
                     </div>
@@ -8771,7 +8772,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div className="bg-black/30 rounded-xl p-3 border border-purple-700">
               <h3 className="font-bold text-sm mb-3 flex items-center gap-2">
                 <span>{selectedUniverse.icon}</span>
-                {selectedUniverse.name} — Full Timeline
+                {selectedUniverse.name} â€” Full Timeline
               </h3>
               <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
                 {selectedUniverse.timeline.map((event) => (
@@ -8861,7 +8862,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         {/* Recommendation Box */}
         <div className="p-3 bg-gradient-to-r from-green-900/30 to-emerald-900/30 rounded-xl border border-green-700">
           <div className="flex items-start gap-3">
-            <div className="text-3xl">🔮</div>
+            <div className="text-3xl">ðŸ”®</div>
             <div>
               <h3 className="font-bold text-green-400 text-sm mb-1">Chronos Recommendation: {recommended.name}</h3>
               <p className="text-xs text-neutral-300">{currentScenario.recommendation}</p>
@@ -8890,9 +8891,9 @@ const BookmarkModal: React.FC<{
       <div className="bg-neutral-900 rounded-2xl border border-amber-600 max-w-md w-full overflow-hidden">
         <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-xl font-bold">🔖 Bookmark This Moment</h2>
+            <h2 className="text-xl font-bold">ðŸ”– Bookmark This Moment</h2>
             <button onClick={onClose} className="text-white/60 hover:text-white">
-              ✕
+              âœ•
             </button>
           </div>
         </div>
@@ -8931,7 +8932,7 @@ const BookmarkModal: React.FC<{
                 : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
             }`}
           >
-            🔖 Save Bookmark
+            ðŸ”– Save Bookmark
           </button>
         </div>
       </div>
@@ -8955,10 +8956,10 @@ const CompliancePanel: React.FC<{
     <div className="max-w-7xl mx-auto p-6">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold flex items-center gap-2">
-          🔒 Enterprise Compliance Dashboard
+          ðŸ”’ Enterprise Compliance Dashboard
         </h2>
         <button onClick={onClose} className="text-white/60 hover:text-white">
-          ✕
+          âœ•
         </button>
       </div>
 
@@ -8966,8 +8967,8 @@ const CompliancePanel: React.FC<{
         {/* Immutable Ledger Status */}
         <div className="bg-black/30 rounded-xl p-4 border border-emerald-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">⛓️</span>
-            <span className="font-semibold">Immutable Ledger™</span>
+            <span className="text-xl">â›“ï¸</span>
+            <span className="font-semibold">Immutable Ledgerâ„¢</span>
           </div>
           <div className="space-y-2 text-sm">
             <div className="flex justify-between">
@@ -9004,7 +9005,7 @@ const CompliancePanel: React.FC<{
         {/* Live Sync Status */}
         <div className="bg-black/30 rounded-xl p-4 border border-cyan-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">📡</span>
+            <span className="text-xl">ðŸ“¡</span>
             <span className="font-semibold">Live Chronos Sync</span>
           </div>
           <div className="space-y-2 text-sm">
@@ -9040,7 +9041,7 @@ const CompliancePanel: React.FC<{
         {/* Active Witness Sessions */}
         <div className="bg-black/30 rounded-xl p-4 border border-amber-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">👁️</span>
+            <span className="text-xl">ðŸ‘ï¸</span>
             <span className="font-semibold">Witness Mode</span>
           </div>
           {witnessSessions.length === 0 ? (
@@ -9066,7 +9067,7 @@ const CompliancePanel: React.FC<{
         {/* Redaction Engine */}
         <div className="bg-black/30 rounded-xl p-4 border border-purple-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">🔏</span>
+            <span className="text-xl">ðŸ”</span>
             <span className="font-semibold">Redaction Engine</span>
           </div>
           <div className="space-y-2 text-sm">
@@ -9122,14 +9123,14 @@ const CourtExportModal: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-bold flex items-center gap-2">
-                ⚖️ Court-Admissible Export
+                âš–ï¸ Court-Admissible Export
               </h2>
               <p className="text-amber-200 text-sm mt-1">
                 Generate legally defensible evidence package
               </p>
             </div>
             <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
-              ×
+              Ã—
             </button>
           </div>
         </div>
@@ -9139,7 +9140,7 @@ const CourtExportModal: React.FC<{
           <div className="p-3 bg-neutral-800 rounded-lg">
             <div className="text-sm text-neutral-400 mb-1">Export Time Range</div>
             <div className="font-mono text-sm">
-              {timeRange.min.toLocaleDateString()} → {currentDate.toLocaleDateString()}
+              {timeRange.min.toLocaleDateString()} â†’ {currentDate.toLocaleDateString()}
             </div>
           </div>
 
@@ -9148,10 +9149,10 @@ const CourtExportModal: React.FC<{
             <div className="text-sm text-neutral-400 mb-2">Export Format</div>
             <div className="grid grid-cols-2 gap-2">
               {[
-                { id: 'forensic-bundle', label: '🔒 Forensic Bundle', desc: 'Full chain + proofs' },
-                { id: 'pdf', label: '📄 PDF Report', desc: 'Human-readable' },
-                { id: 'json', label: '📋 JSON Data', desc: 'Machine-readable' },
-                { id: 'xml', label: '📑 XML/XBRL', desc: 'Regulatory format' },
+                { id: 'forensic-bundle', label: 'ðŸ”’ Forensic Bundle', desc: 'Full chain + proofs' },
+                { id: 'pdf', label: 'ðŸ“„ PDF Report', desc: 'Human-readable' },
+                { id: 'json', label: 'ðŸ“‹ JSON Data', desc: 'Machine-readable' },
+                { id: 'xml', label: 'ðŸ“‘ XML/XBRL', desc: 'Regulatory format' },
               ].map((opt) => (
                 <button
                   key={opt.id}
@@ -9204,7 +9205,7 @@ const CourtExportModal: React.FC<{
           {/* Signatures Info */}
           <div className="p-3 bg-emerald-900/20 border border-emerald-800 rounded-lg">
             <div className="flex items-center gap-2 mb-2">
-              <span>✍️</span>
+              <span>âœï¸</span>
               <span className="font-medium text-sm">Required Signatures</span>
             </div>
             <div className="flex gap-2">
@@ -9223,7 +9224,7 @@ const CourtExportModal: React.FC<{
                 : 'bg-gradient-to-r from-amber-600 to-orange-600 hover:opacity-90'
             }`}
           >
-            {isExporting ? '⏳ Generating Export...' : '⚖️ Generate Court-Admissible Export'}
+            {isExporting ? 'â³ Generating Export...' : 'âš–ï¸ Generate Court-Admissible Export'}
           </button>
         </div>
       </div>
@@ -9254,11 +9255,11 @@ const WitnessModal: React.FC<{
         <div className="bg-gradient-to-r from-blue-900 to-indigo-900 p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-bold">👁️ Add Witness Session</h2>
+              <h2 className="text-xl font-bold">ðŸ‘ï¸ Add Witness Session</h2>
               <p className="text-blue-200 text-sm mt-1">Grant read-only timeline access</p>
             </div>
             <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
-              ×
+              Ã—
             </button>
           </div>
         </div>
@@ -9335,7 +9336,7 @@ const WitnessModal: React.FC<{
           {/* Air-Gapped Key Notice */}
           <div className="p-3 bg-blue-900/20 border border-blue-800 rounded-lg text-sm">
             <p className="text-blue-300">
-              🔐 An air-gapped access key will be generated. The witness must complete a key
+              ðŸ” An air-gapped access key will be generated. The witness must complete a key
               ceremony to activate their session.
             </p>
           </div>
@@ -9349,7 +9350,7 @@ const WitnessModal: React.FC<{
                 : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
             }`}
           >
-            👁️ Create Witness Session
+            ðŸ‘ï¸ Create Witness Session
           </button>
         </div>
       </div>
@@ -9358,7 +9359,7 @@ const WitnessModal: React.FC<{
 };
 
 // =============================================================================
-// CHRONOS-ERP™ COMPONENTS - Enterprise System Time Travel
+// CHRONOS-ERPâ„¢ COMPONENTS - Enterprise System Time Travel
 // =============================================================================
 
 const ERPPanel: React.FC<{
@@ -9381,17 +9382,17 @@ const ERPPanel: React.FC<{
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-xl font-bold flex items-center gap-2">
-              🏢 Chronos-ERP™{' '}
+              ðŸ¢ Chronos-ERPâ„¢{' '}
               <span className="text-indigo-400 text-sm font-normal">
                 Enterprise System Time Travel
               </span>
             </h2>
             <p className="text-sm text-neutral-400 mt-1">
-              {activeConnectors.length} systems connected • {totalRecords.toLocaleString()} total records indexed
+              {activeConnectors.length} systems connected â€¢ {totalRecords.toLocaleString()} total records indexed
             </p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white text-xl">
-            ✕
+            âœ•
           </button>
         </div>
 
@@ -9448,7 +9449,7 @@ const ERPPanel: React.FC<{
             {/* CRM State */}
             <div className="bg-black/30 rounded-xl p-4 border border-blue-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>☁️</span>
+                <span>â˜ï¸</span>
                 <span className="font-semibold text-sm">Salesforce CRM</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9476,7 +9477,7 @@ const ERPPanel: React.FC<{
             {/* ERP State */}
             <div className="bg-black/30 rounded-xl p-4 border border-amber-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>🏢</span>
+                <span>ðŸ¢</span>
                 <span className="font-semibold text-sm">SAP Financials</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9506,7 +9507,7 @@ const ERPPanel: React.FC<{
             {/* HR State */}
             <div className="bg-black/30 rounded-xl p-4 border border-purple-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>👥</span>
+                <span>ðŸ‘¥</span>
                 <span className="font-semibold text-sm">Workday HR</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9538,7 +9539,7 @@ const ERPPanel: React.FC<{
             {/* Engineering State */}
             <div className="bg-black/30 rounded-xl p-4 border border-cyan-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>🐙</span>
+                <span>ðŸ™</span>
                 <span className="font-semibold text-sm">Jira + GitHub</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9574,7 +9575,7 @@ const ERPPanel: React.FC<{
             {/* Service Desk State */}
             <div className="bg-black/30 rounded-xl p-4 border border-rose-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>🎫</span>
+                <span>ðŸŽ«</span>
                 <span className="font-semibold text-sm">ServiceNow</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9700,7 +9701,7 @@ const FinancialValidationsPanel: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-3">
-                📊 SOX/SEC Financial Validation Audit Trail
+                ðŸ“Š SOX/SEC Financial Validation Audit Trail
                 <span className="text-emerald-400 text-sm font-normal px-2 py-1 bg-emerald-900/50 rounded">
                   Court-Admissible
                 </span>
@@ -9709,34 +9710,34 @@ const FinancialValidationsPanel: React.FC<{
                 Immutable record of all financial control tests, reconciliations, and compliance validations
               </p>
             </div>
-            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">Ã—</button>
           </div>
           
           {/* Summary Stats */}
           <div className="flex gap-6 mt-4">
             <div className="flex items-center gap-2">
-              <span className="text-2xl">✅</span>
+              <span className="text-2xl">âœ…</span>
               <div>
                 <div className="text-2xl font-bold text-green-400">{passedCount}</div>
                 <div className="text-xs text-neutral-500">Passed</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">⚠️</span>
+              <span className="text-2xl">âš ï¸</span>
               <div>
                 <div className="text-2xl font-bold text-amber-400">{warningCount}</div>
                 <div className="text-xs text-neutral-500">Warnings</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">❌</span>
+              <span className="text-2xl">âŒ</span>
               <div>
                 <div className="text-2xl font-bold text-red-400">{failedCount}</div>
                 <div className="text-xs text-neutral-500">Failed</div>
               </div>
             </div>
             <div className="flex items-center gap-2 ml-auto">
-              <span className="text-lg">🔐</span>
+              <span className="text-lg">ðŸ”</span>
               <div className="text-xs text-neutral-400">
                 All records cryptographically signed and<br />linked via hash chain
               </div>
@@ -9767,13 +9768,13 @@ const FinancialValidationsPanel: React.FC<{
                 <div className="font-medium text-white mb-1">{v.controlName}</div>
                 <div className="text-sm text-neutral-400 flex items-center gap-4">
                   <span>{v.source.toUpperCase()}</span>
-                  <span>•</span>
+                  <span>â€¢</span>
                   <span>{v.period}</span>
-                  <span>•</span>
+                  <span>â€¢</span>
                   <span className={riskColors[v.riskRating]}>{v.riskRating.toUpperCase()} risk</span>
                 </div>
                 <div className="text-xs text-neutral-500 mt-2">
-                  {v.timestamp.toLocaleDateString()} • {v.auditor}
+                  {v.timestamp.toLocaleDateString()} â€¢ {v.auditor}
                 </div>
               </button>
             ))}
@@ -9832,7 +9833,7 @@ const FinancialValidationsPanel: React.FC<{
                 {selectedValidation.discrepancyAmount && (
                   <div className={`rounded-xl p-4 border ${selectedValidation.isMaterial ? 'bg-red-900/30 border-red-700' : 'bg-amber-900/30 border-amber-700'}`}>
                     <h4 className="text-sm font-semibold uppercase mb-3 flex items-center gap-2">
-                      {selectedValidation.isMaterial ? '⚠️ Material Discrepancy' : '📊 Discrepancy Detected'}
+                      {selectedValidation.isMaterial ? 'âš ï¸ Material Discrepancy' : 'ðŸ“Š Discrepancy Detected'}
                     </h4>
                     <div className="grid grid-cols-3 gap-4 text-sm">
                       <div>
@@ -9865,7 +9866,7 @@ const FinancialValidationsPanel: React.FC<{
                     </div>
                     <div>
                       <span className="text-neutral-500">Reviewed By</span>
-                      <p className="text-white font-medium">{selectedValidation.reviewedBy || '—'}</p>
+                      <p className="text-white font-medium">{selectedValidation.reviewedBy || 'â€”'}</p>
                       {selectedValidation.reviewedAt && (
                         <p className="text-neutral-400 text-xs">{selectedValidation.reviewedAt.toLocaleString()}</p>
                       )}
@@ -9919,7 +9920,7 @@ const FinancialValidationsPanel: React.FC<{
                     {selectedValidation.supportingDocuments.map((doc) => (
                       <div key={doc.id} className="flex items-center justify-between p-2 bg-neutral-800/50 rounded-lg">
                         <div className="flex items-center gap-2">
-                          <span>📄</span>
+                          <span>ðŸ“„</span>
                           <span className="text-white text-sm">{doc.name}</span>
                         </div>
                         <span className="text-neutral-500 text-xs font-mono">{doc.hash.slice(0, 16)}...</span>
@@ -9930,7 +9931,7 @@ const FinancialValidationsPanel: React.FC<{
 
                 {/* Cryptographic Proof */}
                 <div className="bg-emerald-900/20 rounded-xl p-4 border border-emerald-800">
-                  <h4 className="text-sm font-semibold text-emerald-400 uppercase mb-3">🔐 Cryptographic Proof</h4>
+                  <h4 className="text-sm font-semibold text-emerald-400 uppercase mb-3">ðŸ” Cryptographic Proof</h4>
                   <div className="space-y-2 text-xs font-mono">
                     <div className="flex justify-between">
                       <span className="text-neutral-500">Event Hash</span>
@@ -9958,7 +9959,7 @@ const FinancialValidationsPanel: React.FC<{
             ) : (
               <div className="h-full flex items-center justify-center text-neutral-500">
                 <div className="text-center">
-                  <span className="text-6xl mb-4 block">📊</span>
+                  <span className="text-6xl mb-4 block">ðŸ“Š</span>
                   <p>Select a validation to view details</p>
                 </div>
               </div>
@@ -9991,7 +9992,7 @@ const RedactedExportModal: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-3">
-                🔏 Court-Admissible Redacted Export
+                ðŸ” Court-Admissible Redacted Export
                 <span className="text-orange-400 text-sm font-normal px-2 py-1 bg-orange-900/50 rounded">
                   Privacy-Preserving
                 </span>
@@ -10000,7 +10001,7 @@ const RedactedExportModal: React.FC<{
                 Generate legally defensible exports with PII redaction, chain of custody, and certification
               </p>
             </div>
-            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">Ã—</button>
           </div>
         </div>
 
@@ -10040,12 +10041,12 @@ const RedactedExportModal: React.FC<{
                 <h3 className="text-white font-semibold mb-4">Redaction Categories Applied</h3>
                 <div className="grid grid-cols-3 gap-3">
                   {[
-                    { icon: '👤', label: 'PII', desc: 'Names, emails, SSNs masked' },
-                    { icon: '🏥', label: 'PHI', desc: 'Health data removed' },
-                    { icon: '👔', label: 'Personnel', desc: 'Salary, performance redacted' },
-                    { icon: '🔒', label: 'Confidential', desc: 'Business secrets protected' },
-                    { icon: '⚖️', label: 'Attorney-Client', desc: 'Privileged content flagged' },
-                    { icon: '🏭', label: 'Trade Secret', desc: 'Proprietary info removed' },
+                    { icon: 'ðŸ‘¤', label: 'PII', desc: 'Names, emails, SSNs masked' },
+                    { icon: 'ðŸ¥', label: 'PHI', desc: 'Health data removed' },
+                    { icon: 'ðŸ‘”', label: 'Personnel', desc: 'Salary, performance redacted' },
+                    { icon: 'ðŸ”’', label: 'Confidential', desc: 'Business secrets protected' },
+                    { icon: 'âš–ï¸', label: 'Attorney-Client', desc: 'Privileged content flagged' },
+                    { icon: 'ðŸ­', label: 'Trade Secret', desc: 'Proprietary info removed' },
                   ].map((cat) => (
                     <div key={cat.label} className="p-3 bg-neutral-800/50 rounded-lg border border-neutral-700">
                       <div className="flex items-center gap-2 mb-1">
@@ -10060,7 +10061,7 @@ const RedactedExportModal: React.FC<{
 
               {/* Guarantees */}
               <div className="bg-emerald-900/20 rounded-xl p-6 border border-emerald-800">
-                <h3 className="text-emerald-400 font-semibold mb-4">✓ Export Guarantees</h3>
+                <h3 className="text-emerald-400 font-semibold mb-4">âœ“ Export Guarantees</h3>
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     'Financial integrity preserved - all totals unchanged',
@@ -10071,7 +10072,7 @@ const RedactedExportModal: React.FC<{
                     'AES-256-GCM encryption',
                   ].map((guarantee, i) => (
                     <div key={i} className="flex items-center gap-2 text-sm text-neutral-300">
-                      <span className="text-emerald-400">✓</span>
+                      <span className="text-emerald-400">âœ“</span>
                       {guarantee}
                     </div>
                   ))}
@@ -10086,12 +10087,12 @@ const RedactedExportModal: React.FC<{
               >
                 {isGenerating ? (
                   <>
-                    <span className="animate-spin">⏳</span>
+                    <span className="animate-spin">â³</span>
                     Generating Redacted Export...
                   </>
                 ) : (
                   <>
-                    🔏 Generate Court-Admissible Export
+                    ðŸ” Generate Court-Admissible Export
                   </>
                 )}
               </button>
@@ -10100,7 +10101,7 @@ const RedactedExportModal: React.FC<{
             <div className="space-y-6">
               {/* Success Header */}
               <div className="bg-emerald-900/30 rounded-xl p-6 border border-emerald-700 text-center">
-                <span className="text-6xl mb-4 block">✅</span>
+                <span className="text-6xl mb-4 block">âœ…</span>
                 <h3 className="text-2xl font-bold text-emerald-400 mb-2">Export Generated Successfully</h3>
                 <p className="text-neutral-400">Your court-admissible redacted export is ready</p>
               </div>
@@ -10134,15 +10135,15 @@ const RedactedExportModal: React.FC<{
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Financial Integrity</span>
-                      <span className="text-emerald-400">✓ Preserved</span>
+                      <span className="text-emerald-400">âœ“ Preserved</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Totals Match</span>
-                      <span className="text-emerald-400">✓ Verified</span>
+                      <span className="text-emerald-400">âœ“ Verified</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Audit Trail</span>
-                      <span className="text-emerald-400">✓ Complete</span>
+                      <span className="text-emerald-400">âœ“ Complete</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Encryption</span>
@@ -10201,7 +10202,7 @@ const RedactedExportModal: React.FC<{
               {/* Certificate */}
               <div className="bg-amber-900/20 rounded-xl p-6 border border-amber-800">
                 <div className="flex items-start gap-4">
-                  <span className="text-4xl">📜</span>
+                  <span className="text-4xl">ðŸ“œ</span>
                   <div>
                     <h4 className="text-amber-400 font-semibold mb-2">Legal Certification</h4>
                     <p className="text-neutral-300 text-sm mb-4 italic">
@@ -10232,7 +10233,7 @@ const RedactedExportModal: React.FC<{
               <div className="bg-cyan-900/20 rounded-xl p-4 border border-cyan-800">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h4 className="text-cyan-400 font-semibold">🔍 Verify This Export</h4>
+                    <h4 className="text-cyan-400 font-semibold">ðŸ” Verify This Export</h4>
                     <p className="text-neutral-400 text-xs mt-1">Third parties can verify authenticity at:</p>
                     <a href={redactedExport.verificationUrl} className="text-cyan-300 text-sm hover:underline">
                       {redactedExport.verificationUrl}
@@ -10248,7 +10249,7 @@ const RedactedExportModal: React.FC<{
               <button
                 className="w-full py-4 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-xl font-bold text-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-3"
               >
-                📥 Download Encrypted Export Package
+                ðŸ“¥ Download Encrypted Export Package
               </button>
             </div>
           )}

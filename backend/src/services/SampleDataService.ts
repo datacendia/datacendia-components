@@ -7,6 +7,7 @@
 // =============================================================================
 
 import { v4 as uuidv4 } from 'uuid';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -85,30 +86,30 @@ export const SAMPLE_DATASETS: SampleDataset[] = [
 // =============================================================================
 
 const FIRST_NAMES = ['James', 'Mary', 'John', 'Patricia', 'Robert', 'Jennifer', 'Michael', 'Linda', 'William', 'Elizabeth', 'David', 'Barbara', 'Richard', 'Susan', 'Joseph', 'Jessica', 'Thomas', 'Sarah', 'Charles', 'Karen', 'Wei', 'Yuki', 'Mohammed', 'Fatima', 'Carlos', 'Maria', 'Hans', 'Anna', 'Pierre', 'Sophie'];
-const LAST_NAMES = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Garcia', 'Miller', 'Davis', 'Rodriguez', 'Martinez', 'Chen', 'Wang', 'Kim', 'Patel', 'Singh', 'Müller', 'Schmidt', 'Tanaka', 'Yamamoto', 'Ali'];
+const LAST_NAMES = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Garcia', 'Miller', 'Davis', 'Rodriguez', 'Martinez', 'Chen', 'Wang', 'Kim', 'Patel', 'Singh', 'MÃ¼ller', 'Schmidt', 'Tanaka', 'Yamamoto', 'Ali'];
 const COMPANIES = ['Acme Corp', 'Global Industries', 'Tech Solutions', 'Prime Manufacturing', 'Atlas Holdings', 'Nexus Systems', 'Vertex Partners', 'Omega Enterprises', 'Delta Group', 'Sigma Corp'];
 const DEPARTMENTS = ['Engineering', 'Sales', 'Marketing', 'Finance', 'HR', 'Operations', 'Legal', 'IT', 'R&D', 'Customer Success'];
 const PRODUCT_ADJECTIVES = ['Premium', 'Professional', 'Enterprise', 'Advanced', 'Ultra', 'Pro', 'Elite', 'Essential', 'Standard', 'Basic'];
 const PRODUCT_NOUNS = ['Widget', 'Module', 'System', 'Platform', 'Solution', 'Suite', 'Package', 'Kit', 'Tool', 'Device'];
-const CITIES = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'London', 'Tokyo', 'Paris', 'Berlin', 'Sydney', 'Toronto', 'Singapore', 'Dubai', 'Mumbai', 'São Paulo'];
+const CITIES = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'London', 'Tokyo', 'Paris', 'Berlin', 'Sydney', 'Toronto', 'Singapore', 'Dubai', 'Mumbai', 'SÃ£o Paulo'];
 const COUNTRIES = ['USA', 'UK', 'Japan', 'Germany', 'Australia', 'Canada', 'Singapore', 'UAE', 'India', 'Brazil'];
 
 function randomElement<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(deterministicFloat('sampledata-6') * arr.length)];
 }
 
 function randomInt(min: number, max: number): number {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(deterministicFloat('sampledata-7') * (max - min + 1)) + min;
 }
 
 function randomFloat(min: number, max: number, decimals: number = 2): number {
-  return parseFloat((Math.random() * (max - min) + min).toFixed(decimals));
+  return parseFloat((deterministicFloat('sampledata-8') * (max - min) + min).toFixed(decimals));
 }
 
 function randomDate(startYear: number = 2020, endYear: number = 2024): Date {
   const start = new Date(startYear, 0, 1);
   const end = new Date(endYear, 11, 31);
-  return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+  return new Date(start.getTime() + deterministicFloat('sampledata-9') * (end.getTime() - start.getTime()));
 }
 
 function randomEmail(firstName: string, lastName: string): string {
@@ -182,7 +183,7 @@ function generateProducts(count: number): GeneratedData {
       reorder_point: randomInt(10, 100),
       supplier_id: uuidv4(),
       created_at: randomDate(2018, 2023).toISOString(),
-      is_active: Math.random() > 0.1,
+      is_active: deterministicFloat('sampledata-1') > 0.1,
       rating: randomFloat(3.0, 5.0, 1),
       review_count: randomInt(0, 500),
     });
@@ -229,7 +230,7 @@ function generateOrders(count: number, customerIds: string[]): GeneratedData {
       shipping_city: randomElement(CITIES),
       shipping_country: randomElement(COUNTRIES),
       payment_method: randomElement(['credit_card', 'debit_card', 'paypal', 'wire_transfer', 'invoice']),
-      notes: Math.random() > 0.8 ? 'Rush order - priority shipping requested' : null,
+      notes: deterministicFloat('sampledata-2') > 0.8 ? 'Rush order - priority shipping requested' : null,
     });
   }
   
@@ -273,9 +274,9 @@ function generateEmployees(count: number): GeneratedData {
       title: `${randomElement(DEPARTMENTS)} ${randomElement(titles)}`,
       hire_date: hireDate.toISOString().split('T')[0],
       salary: randomInt(50000, 250000),
-      manager_id: Math.random() > 0.2 ? uuidv4() : null,
+      manager_id: deterministicFloat('sampledata-3') > 0.2 ? uuidv4() : null,
       location: randomElement(CITIES),
-      is_active: Math.random() > 0.05,
+      is_active: deterministicFloat('sampledata-4') > 0.05,
       performance_rating: randomFloat(2.5, 5.0, 1),
     });
   }
@@ -374,7 +375,7 @@ function generatePatients(count: number): GeneratedData {
       insurance_id: `INS-${randomInt(100000000, 999999999)}`,
       primary_physician_id: uuidv4(),
       created_at: randomDate(2015, 2024).toISOString(),
-      is_active: Math.random() > 0.1,
+      is_active: deterministicFloat('sampledata-5') > 0.1,
     });
   }
   

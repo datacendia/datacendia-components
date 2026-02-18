@@ -581,6 +581,331 @@ Provide analysis as JSON: {"cause": "likely cause", "severity": "HIGH|MEDIUM|LOW
       definedSuccessors: successors,
     };
   }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /**
+   * 10/10: Knowledge Decay Detection
+   * Identifies artifacts that are becoming stale, outdated, or losing relevance.
+   * Critical for multi-generational archives.
+   */
+  async detectKnowledgeDecay(organizationId: string): Promise<{
+    decayingArtifacts: Array<{
+      id: string;
+      title: string;
+      artifactType: string;
+      lastVerified: Date | null;
+      daysSinceVerification: number;
+      importanceScore: number;
+      decayRisk: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+      recommendation: string;
+    }>;
+    overallDecayRate: number;
+    urgentActions: string[];
+  }> {
+    const artifacts = await prisma.eternal_artifacts.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { last_verified_at: 'asc' },
+    });
+
+    const now = Date.now();
+    const decayingArtifacts = artifacts.map(a => {
+      const lastVerified = a.last_verified_at ? new Date(a.last_verified_at) : null;
+      const daysSinceVerification = lastVerified
+        ? Math.floor((now - lastVerified.getTime()) / (1000 * 60 * 60 * 24))
+        : 9999;
+
+      // Decay risk based on time since verification and importance
+      const importance = a.importance_score || 50;
+      const verificationThreshold = importance >= 80 ? 90 : importance >= 50 ? 180 : 365;
+      const decayRatio = daysSinceVerification / verificationThreshold;
+
+      const decayRisk = decayRatio >= 3 ? 'CRITICAL' as const
+        : decayRatio >= 2 ? 'HIGH' as const
+        : decayRatio >= 1 ? 'MEDIUM' as const
+        : 'LOW' as const;
+
+      const recommendation = decayRisk === 'CRITICAL'
+        ? `URGENT: Re-verify immediately — ${daysSinceVerification} days since last check (importance: ${importance})`
+        : decayRisk === 'HIGH'
+          ? `Schedule re-verification within 30 days — overdue by ${Math.round((decayRatio - 1) * verificationThreshold)} days`
+          : decayRisk === 'MEDIUM'
+            ? `Due for verification — approaching ${verificationThreshold}-day threshold`
+            : 'On schedule — no action needed';
+
+      return {
+        id: a.id,
+        title: a.title,
+        artifactType: a.artifact_type,
+        lastVerified,
+        daysSinceVerification,
+        importanceScore: importance,
+        decayRisk,
+        recommendation,
+      };
+    }).filter(a => a.decayRisk !== 'LOW');
+
+    const overallDecayRate = artifacts.length > 0
+      ? Math.round((decayingArtifacts.length / artifacts.length) * 100)
+      : 0;
+
+    const urgentActions: string[] = [];
+    const criticalCount = decayingArtifacts.filter(a => a.decayRisk === 'CRITICAL').length;
+    const highCount = decayingArtifacts.filter(a => a.decayRisk === 'HIGH').length;
+    if (criticalCount > 0) urgentActions.push(`${criticalCount} artifacts require immediate re-verification`);
+    if (highCount > 0) urgentActions.push(`${highCount} artifacts overdue for scheduled verification`);
+    if (overallDecayRate > 50) urgentActions.push('ALERT: Over 50% of archive is decaying — systemic verification failure');
+
+    return { decayingArtifacts, overallDecayRate, urgentActions };
+  }
+
+  /**
+   * 10/10: Succession Risk Scoring
+   * Evaluates the organization's succession readiness and identifies gaps.
+   */
+  async assessSuccessionRisk(organizationId: string): Promise<{
+    riskScore: number;
+    readinessLevel: 'PREPARED' | 'PARTIALLY_READY' | 'AT_RISK' | 'CRITICAL';
+    gaps: Array<{
+      area: string;
+      severity: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+      description: string;
+      recommendation: string;
+    }>;
+    successorCoverage: number;
+    artifactAccessibility: number;
+  }> {
+    const [successors, artifacts, driftedCount] = await Promise.all([
+      prisma.eternal_succession.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.eternal_artifacts.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.eternal_artifacts.count({
+        where: { organization_id: organizationId, verification_status: 'DRIFT_DETECTED' },
+      }),
+    ]);
+
+    const gaps: Array<{ area: string; severity: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL'; description: string; recommendation: string }> = [];
+
+    // Check successor coverage
+    const activatedSuccessors = successors.filter(s => s.activated);
+    const pendingSuccessors = successors.filter(s => !s.activated);
+
+    if (successors.length === 0) {
+      gaps.push({
+        area: 'Succession Planning',
+        severity: 'CRITICAL',
+        description: 'No successors defined — complete loss of institutional access if key personnel depart',
+        recommendation: 'Define at least 2 successors immediately',
+      });
+    } else if (pendingSuccessors.length < 2) {
+      gaps.push({
+        area: 'Successor Redundancy',
+        severity: 'HIGH',
+        description: `Only ${pendingSuccessors.length} pending successor(s) — insufficient redundancy`,
+        recommendation: 'Add at least one additional successor for redundancy',
+      });
+    }
+
+    // Check artifact integrity
+    if (artifacts.length > 0 && driftedCount / artifacts.length > 0.1) {
+      gaps.push({
+        area: 'Archive Integrity',
+        severity: 'HIGH',
+        description: `${driftedCount} artifacts have detected drift — data may be corrupted`,
+        recommendation: 'Run full integrity verification and repair drifted artifacts',
+      });
+    }
+
+    // Check high-importance artifact coverage
+    const highImportance = artifacts.filter(a => (a.importance_score || 0) >= 80);
+    const highVerified = highImportance.filter(a => a.verification_status === 'VERIFIED');
+    if (highImportance.length > 0 && highVerified.length / highImportance.length < 0.9) {
+      gaps.push({
+        area: 'Critical Artifact Verification',
+        severity: 'HIGH',
+        description: `Only ${Math.round((highVerified.length / highImportance.length) * 100)}% of high-importance artifacts are verified`,
+        recommendation: 'Prioritize verification of high-importance artifacts',
+      });
+    }
+
+    // Check format migration
+    const oldArtifacts = artifacts.filter(a => {
+      const created = new Date(a.created_at);
+      return (Date.now() - created.getTime()) > 5 * 365 * 24 * 60 * 60 * 1000; // 5+ years old
+    });
+    if (oldArtifacts.length > 10) {
+      gaps.push({
+        area: 'Format Migration',
+        severity: 'MEDIUM',
+        description: `${oldArtifacts.length} artifacts are 5+ years old — format accessibility may degrade`,
+        recommendation: 'Schedule format migration review for aging artifacts',
+      });
+    }
+
+    const successorCoverage = successors.length > 0 ? Math.min(100, successors.length * 33) : 0;
+    const artifactAccessibility = artifacts.length > 0
+      ? Math.round(((artifacts.length - driftedCount) / artifacts.length) * 100)
+      : 100;
+
+    const riskScore = Math.max(0, Math.min(100,
+      100 - successorCoverage * 0.4 - artifactAccessibility * 0.4 - (gaps.length === 0 ? 20 : 0)
+    ));
+
+    const readinessLevel = riskScore <= 20 ? 'PREPARED' as const
+      : riskScore <= 50 ? 'PARTIALLY_READY' as const
+      : riskScore <= 75 ? 'AT_RISK' as const
+      : 'CRITICAL' as const;
+
+    return { riskScore, readinessLevel, gaps, successorCoverage, artifactAccessibility };
+  }
+
+  /**
+   * 10/10: Archive Integrity Deep Scan
+   * Comprehensive integrity analysis with trend data.
+   */
+  async deepScanIntegrity(organizationId: string): Promise<{
+    totalScanned: number;
+    verified: number;
+    drifted: number;
+    unverified: number;
+    integrityScore: number;
+    verificationByType: Record<string, { total: number; verified: number; rate: number }>;
+    oldestUnverified: Array<{ id: string; title: string; daysSinceCreation: number }>;
+    recommendation: string;
+  }> {
+    const artifacts = await prisma.eternal_artifacts.findMany({
+      where: { organization_id: organizationId },
+    });
+
+    const now = Date.now();
+    const verified = artifacts.filter(a => a.verification_status === 'VERIFIED').length;
+    const drifted = artifacts.filter(a => a.verification_status === 'DRIFT_DETECTED').length;
+    const unverified = artifacts.length - verified - drifted;
+
+    const verificationByType: Record<string, { total: number; verified: number; rate: number }> = {};
+    for (const a of artifacts) {
+      if (!verificationByType[a.artifact_type]) {
+        verificationByType[a.artifact_type] = { total: 0, verified: 0, rate: 0 };
+      }
+      verificationByType[a.artifact_type].total++;
+      if (a.verification_status === 'VERIFIED') verificationByType[a.artifact_type].verified++;
+    }
+    for (const type of Object.keys(verificationByType)) {
+      verificationByType[type].rate = Math.round(
+        (verificationByType[type].verified / verificationByType[type].total) * 100
+      );
+    }
+
+    const oldestUnverified = artifacts
+      .filter(a => a.verification_status !== 'VERIFIED')
+      .map(a => ({
+        id: a.id,
+        title: a.title,
+        daysSinceCreation: Math.floor((now - new Date(a.created_at).getTime()) / (1000 * 60 * 60 * 24)),
+      }))
+      .sort((a, b) => b.daysSinceCreation - a.daysSinceCreation)
+      .slice(0, 10);
+
+    const integrityScore = artifacts.length > 0
+      ? Math.round((verified / artifacts.length) * 100)
+      : 100;
+
+    const recommendation = integrityScore >= 95 ? 'Archive integrity is excellent — maintain current verification schedule'
+      : integrityScore >= 80 ? 'Good integrity — focus on verifying remaining unverified artifacts'
+      : integrityScore >= 60 ? 'Below target — accelerate verification cadence'
+      : 'CRITICAL — launch emergency verification campaign immediately';
+
+    return {
+      totalScanned: artifacts.length,
+      verified,
+      drifted,
+      unverified,
+      integrityScore,
+      verificationByType,
+      oldestUnverified,
+      recommendation,
+    };
+  }
+
+  /**
+   * 10/10: Knowledge Continuity Analysis
+   * Uses LLM to assess whether the archive covers all critical institutional knowledge.
+   */
+  async analyzeKnowledgeContinuity(organizationId: string): Promise<{
+    coverageScore: number;
+    coveredDomains: string[];
+    gaps: string[];
+    recommendations: string[];
+  }> {
+    const artifacts = await prisma.eternal_artifacts.findMany({
+      where: { organization_id: organizationId },
+      take: 100,
+      orderBy: { importance_score: 'desc' },
+    });
+
+    const artifactSummary = artifacts.map(a => ({
+      type: a.artifact_type,
+      title: a.title,
+      importance: a.importance_score,
+      tags: a.tags,
+    }));
+
+    try {
+      const raw = await this.llmService.generate(
+        `Analyze this organizational archive for knowledge continuity gaps.
+
+ARCHIVED ARTIFACTS (${artifacts.length} total, sorted by importance):
+${JSON.stringify(artifactSummary, null, 2)}
+
+Assess whether the archive adequately covers all critical institutional knowledge domains:
+- Strategic decisions and rationale
+- Financial records and projections
+- Legal and compliance documentation
+- Operational procedures and playbooks
+- Personnel knowledge and expertise
+- Technology architecture and decisions
+- Stakeholder relationships and agreements
+- Risk assessments and mitigation strategies
+
+Return JSON ONLY:
+{
+  "coverageScore": 0-100,
+  "coveredDomains": ["domain1", "domain2"],
+  "gaps": ["missing area 1", "missing area 2"],
+  "recommendations": ["action to close gap 1"]
+}`,
+        {
+          model: 'qwq:32b',
+          systemPrompt: 'You are an institutional knowledge preservation analyst. Be thorough in identifying gaps. Return valid JSON only.',
+        }
+      );
+
+      return typeof raw === 'string' ? JSON.parse(raw) : raw;
+    } catch (error) {
+      logger.warn('LLM knowledge continuity analysis failed, using heuristic fallback', { error });
+
+      const types = new Set(artifacts.map(a => a.artifact_type as string));
+      const expectedTypes = [
+        'STRATEGIC_DECISION', 'POLICY_DOCUMENT', 'FINANCIAL_RECORD',
+        'LEGAL_DOCUMENT', 'OPERATIONAL_PROCEDURE', 'PERSONNEL_RECORD',
+        'TECHNOLOGY_DECISION', 'RISK_ASSESSMENT',
+      ];
+      const covered = expectedTypes.filter(t => types.has(t));
+      const missing = expectedTypes.filter(t => !types.has(t));
+
+      return {
+        coverageScore: Math.round((covered.length / expectedTypes.length) * 100),
+        coveredDomains: covered,
+        gaps: missing.map(t => `No ${t.replace(/_/g, ' ').toLowerCase()} artifacts in archive`),
+        recommendations: missing.map(t => `Archive critical ${t.replace(/_/g, ' ').toLowerCase()} documents`),
+      };
+    }
+  }
 }
 
 // Export singleton instance

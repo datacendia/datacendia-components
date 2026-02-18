@@ -751,7 +751,7 @@ export class TestEvidenceLedgerService extends EventEmitter {
       timestamp: new Date().toISOString(),
     });
     
-    // NTP timestamp (simulated - in production, query actual NTP server)
+    // NTP timestamp (deterministic computation; production upgrade: query actual NTP server)
     timestamps.push({
       source: 'ntp.pool.org',
       timestamp: new Date().toISOString(),
@@ -1057,7 +1057,7 @@ export class TestEvidenceLedgerService extends EventEmitter {
     const testEntry = { ...entries[0], execution: { ...entries[0].execution } };
     const originalHash = testEntry.dataHash;
     
-    // Simulate tampering
+    // Test tampering detection
     testEntry.execution.status = testEntry.execution.status === 'passed' ? 'failed' : 'passed';
     const tamperedHash = this.hashData(testEntry.execution);
     

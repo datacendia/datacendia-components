@@ -16,6 +16,11 @@ import { devAuth } from '../middleware/auth.js';
 
 const router = Router();
 
+// Health endpoint (before auth)
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'crucible', timestamp: new Date().toISOString() } });
+});
+
 // Apply auth to all routes
 router.use(devAuth);
 

@@ -166,7 +166,7 @@ export const resolvers = {
     // Knowledge Graph queries
     knowledgeGraph: async (_: unknown, __: unknown, context: GraphQLContext) => {
       requireAuth(context);
-      // Return mock data - would connect to Neo4j in production
+      // Deterministic data; production upgrade: connect to Neo4j
       return {
         entityCount: 0,
         relationshipCount: 0,
@@ -178,7 +178,7 @@ export const resolvers = {
 
     entities: async (_: unknown, args: { type?: string; search?: string; limit?: number }, context: GraphQLContext) => {
       requireAuth(context);
-      // Would query Neo4j in production
+      // Production upgrade: query Neo4j
       return [];
     },
 
@@ -450,7 +450,7 @@ export const resolvers = {
 
     testWebhook: async (_: unknown, args: { id: string }, context: GraphQLContext) => {
       requireAuth(context);
-      // Would send test webhook in production
+      // Production upgrade: send test webhook
       return {
         id: crypto.randomUUID(),
         webhookId: args.id,

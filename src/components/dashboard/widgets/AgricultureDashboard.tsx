@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Wheat, Droplets, Sun, Cloud, Bot, MapPin, Thermometer } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -93,7 +94,7 @@ const FieldCard: React.FC<{ field: Field }> = ({ field }) => {
         </span>
       </div>
       
-      <p className="text-[10px] text-gray-400 mb-1">{field.crop} • {field.acres} acres • {field.growthStage}</p>
+      <p className="text-[10px] text-gray-400 mb-1">{field.crop} â€¢ {field.acres} acres â€¢ {field.growthStage}</p>
       
       <div className="grid grid-cols-3 gap-1 text-[10px]">
         <div>
@@ -126,13 +127,13 @@ const WeatherCard: React.FC<{ weather: WeatherData }> = ({ weather }) => (
         </div>
       </div>
       <div className="text-right">
-        <p className="text-2xl font-bold text-white">{weather.temp}°F</p>
+        <p className="text-2xl font-bold text-white">{weather.temp}Â°F</p>
       </div>
     </div>
     <div className="grid grid-cols-3 gap-2 text-[10px]">
       <div className="flex items-center gap-1">
         <Thermometer className="w-3 h-3 text-amber-400" />
-        <span className="text-gray-400">Temp: {weather.temp}°F</span>
+        <span className="text-gray-400">Temp: {weather.temp}Â°F</span>
       </div>
       <div className="flex items-center gap-1">
         <Droplets className="w-3 h-3 text-cyan-400" />
@@ -167,7 +168,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
         agent.status === 'analyzing' ? 'bg-cyan-500' : 'bg-amber-500'
       )} />
     </div>
-    <p className="text-[10px] text-cyan-400">🌾 {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">ðŸŒ¾ {agent.action}</p>
   </div>
 );
 
@@ -183,12 +184,12 @@ export const AgricultureDashboard: React.FC<{ className?: string }> = ({ classNa
     const interval = setInterval(() => {
       setFields(prev => prev.map((f): Field => ({
         ...f,
-        moisture: Math.max(20, Math.min(90, f.moisture + Math.floor((Math.random() - 0.5) * 5))),
+        moisture: Math.max(20, Math.min(90, f.moisture + Math.floor((deterministicFloat('agriculture-1') - 0.5) * 5))),
       })));
 
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        status: Math.random() > 0.8 ? 'analyzing' : 'active',
+        status: deterministicFloat('agriculture-2') > 0.8 ? 'analyzing' : 'active',
       })));
     }, 4000);
 
@@ -220,7 +221,7 @@ export const AgricultureDashboard: React.FC<{ className?: string }> = ({ classNa
         </div>
         <div className="bg-violet-900/20 rounded-lg p-2 text-center border border-violet-500/30">
           <Sun className="w-4 h-4 mx-auto text-violet-400 mb-1" />
-          <p className="text-lg font-bold text-white">{WEATHER.temp}°F</p>
+          <p className="text-lg font-bold text-white">{WEATHER.temp}Â°F</p>
           <p className="text-[10px] text-gray-400">Temperature</p>
         </div>
       </div>

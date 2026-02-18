@@ -47,6 +47,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import {
   FIFA_GOVERNANCE_SCENARIOS,
   GovernanceScenario,
@@ -338,12 +339,12 @@ const ScenarioDetail = ({
                   <div
                     key={i}
                     className={`text-sm ${
-                      line.startsWith('  —')
+                      line.startsWith('  â€”')
                         ? 'pl-6 text-muted-foreground'
                         : 'font-medium'
                     }`}
                   >
-                    {line.startsWith('  —') ? line : `• ${line}`}
+                    {line.startsWith('  â€”') ? line : `â€¢ ${line}`}
                   </div>
                 ))}
               </div>
@@ -356,7 +357,7 @@ const ScenarioDetail = ({
                   </h4>
                   <div className="space-y-1">
                     {scenario.complications.map((c, i) => (
-                      <div key={i} className="text-sm text-muted-foreground">• {c}</div>
+                      <div key={i} className="text-sm text-muted-foreground">â€¢ {c}</div>
                     ))}
                   </div>
                 </div>
@@ -431,7 +432,7 @@ const ScenarioDetail = ({
                 Risk Matrix
               </CardTitle>
               <CardDescription>
-                Probability × Impact assessment for each identified risk vector.
+                Probability Ã— Impact assessment for each identified risk vector.
                 All risks have documented mitigation strategies.
               </CardDescription>
             </CardHeader>
@@ -511,7 +512,7 @@ const ScenarioDetail = ({
             <CardHeader className="bg-indigo-50 dark:bg-indigo-900/20">
               <CardTitle className="flex items-center gap-2">
                 <Fingerprint className="h-5 w-5 text-indigo-600" />
-                Regulator's Receipt™
+                Regulator's Receiptâ„¢
               </CardTitle>
               <CardDescription>
                 A single, court-admissible artifact proving the governance process was followed.
@@ -521,17 +522,17 @@ const ScenarioDetail = ({
             <CardContent className="pt-6">
               <div className="font-mono text-xs bg-gray-950 text-green-400 p-6 rounded-lg overflow-auto space-y-3">
                 <div>
-{`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  DATACENDIA REGULATOR'S RECEIPT™
+{`â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+  DATACENDIA REGULATOR'S RECEIPTâ„¢
   Scenario: ${scenario.title}
   Category: ${scenario.categoryLabel}
   Generated: ${new Date().toISOString()}
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`}
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”`}
                 </div>
 
                 <div>
 {`COUNCIL DELIBERATION SUMMARY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 Agents Invoked: ${scenario.agents.length}
 Total Citations: ${totalCitations}
 Average Confidence: ${avgConfidence}%
@@ -541,7 +542,7 @@ Risk Flags: ${scenario.agents.filter(a => a.riskFlag === 'critical').length} CRI
 
                 <div>
 {`AGENT FINDINGS
-━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 ${scenario.agents.map((a, i) => `${i + 1}. ${a.displayLabel}
    Confidence: ${a.confidence}% | Citations: ${a.citationCount}${a.riskFlag ? ` | Risk: ${a.riskFlag.toUpperCase()}` : ''}
    Finding: ${a.finding.substring(0, 120)}...`).join('\n\n')}`}
@@ -549,42 +550,42 @@ ${scenario.agents.map((a, i) => `${i + 1}. ${a.displayLabel}
 
                 <div>
 {`RISK ASSESSMENT
-━━━━━━━━━━━━━━━
-${scenario.risks.map(r => `${r.probability > 50 ? '🔴' : r.probability > 30 ? '🟡' : '🟢'} ${r.label}
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+${scenario.risks.map(r => `${r.probability > 50 ? 'ðŸ”´' : r.probability > 30 ? 'ðŸŸ¡' : 'ðŸŸ¢'} ${r.label}
    Probability: ${r.probability}% | Impact: ${r.impact.toUpperCase()}
    Mitigation: ${r.mitigation}`).join('\n\n')}`}
                 </div>
 
                 <div>
 {`DELIVERABLE OUTPUTS
-━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 ${scenario.outputs.map((o, i) => `${i + 1}. ${o.label} [${o.type}]
    ${o.description}`).join('\n')}`}
                 </div>
 
                 <div>
 {`DISSENT RECORD
-━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 ${scenario.agents.filter(a => a.role === 'institutional_dissent').map(a => `Dissent Agent: ${a.displayLabel}
 ${a.finding}`).join('\n') || 'No dissent recorded.'}`}
                 </div>
 
                 <div>
 {`INTEGRITY SEAL
-━━━━━━━━━━━━━━
-Merkle Root: 0x${Array.from({length: 32}, () => Math.floor(Math.random()*16).toString(16)).join('')}
-Document Hash: SHA-256:${Array.from({length: 32}, () => Math.floor(Math.random()*16).toString(16)).join('')}
-Court Admissibility: ✅ ISO 27037 + eIDAS (EU 910/2014)
-Tampering Detection: ✅ Any modification invalidates hash
-Human Verification: ✅ Required before finalization`}
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+Merkle Root: 0x${Array.from({length: 32}, () => deterministicInt(0, 15, 'fifagovernancescenarios-1').toString(16)).join('')}
+Document Hash: SHA-256:${Array.from({length: 32}, () => deterministicInt(0, 15, 'fifagovernancescenarios-2').toString(16)).join('')}
+Court Admissibility: âœ… ISO 27037 + eIDAS (EU 910/2014)
+Tampering Detection: âœ… Any modification invalidates hash
+Human Verification: âœ… Required before finalization`}
                 </div>
 
                 <div className="text-yellow-400">
-{`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{`â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
   This receipt is cryptographically signed and immutable.
   It proves the governance process was followed.
   Present to CAS, media, or stakeholders as a single artifact.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`}
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”`}
                 </div>
               </div>
 
@@ -649,7 +650,7 @@ export default function FIFAGovernanceScenariosPage() {
                 </h1>
                 <p className="text-muted-foreground mt-2 max-w-2xl">
                   High-impact scenarios that demonstrate institutional protection under scrutiny.
-                  Each scenario shows The Council™ deliberating a real governance challenge
+                  Each scenario shows The Councilâ„¢ deliberating a real governance challenge
                   with defensible outputs.
                 </p>
               </div>
@@ -686,11 +687,11 @@ export default function FIFAGovernanceScenariosPage() {
                 <div className="flex items-center gap-6 text-sm">
                   <span className="font-semibold text-indigo-700 dark:text-indigo-400">Presentation Format:</span>
                   <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> 5 min framing</span>
-                  <span>→</span>
+                  <span>â†’</span>
                   <span className="flex items-center gap-1"><Users className="h-3.5 w-3.5" /> 20 min walkthrough</span>
-                  <span>→</span>
+                  <span>â†’</span>
                   <span className="flex items-center gap-1"><Fingerprint className="h-3.5 w-3.5" /> Show Regulator's Receipt</span>
-                  <span>→</span>
+                  <span>â†’</span>
                   <span className="flex items-center gap-1"><ShieldCheck className="h-3.5 w-3.5" /> Close: "Institutional protection"</span>
                 </div>
               </CardContent>

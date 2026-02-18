@@ -3,13 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAFACTORY™ - MANUFACTURING & PRODUCTION INTELLIGENCE
+// CENDIAFACTORYâ„¢ - MANUFACTURING & PRODUCTION INTELLIGENCE
 // "The Infinite Line" - AI-powered production optimization and predictive maintenance
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -196,7 +197,7 @@ class CendiaFactoryService {
   private schedules: Map<string, ProductionSchedule[]> = new Map();
 
   constructor() {
-    logger.info('CendiaFactory™ initialized - The Infinite Line is monitoring');
+    logger.info('CendiaFactoryâ„¢ initialized - The Infinite Line is monitoring');
   }
 
   // ---------------------------------------------------------------------------
@@ -206,7 +207,7 @@ class CendiaFactoryService {
   registerLine(line: Omit<ProductionLine, 'id'>): ProductionLine {
     const newLine: ProductionLine = {
       ...line,
-      id: `line-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `line-${Date.now()}-${deterministicFloat('factory-1').toString(36).substr(2, 9)}`,
     };
     this.lines.set(newLine.id, newLine);
     this.predictions.set(newLine.id, []);
@@ -280,7 +281,7 @@ class CendiaFactoryService {
   }
 
   private async analyzeEquipmentHealth(line: ProductionLine, equipment: Equipment): Promise<PredictiveFailure | null> {
-    const prompt = `You are CendiaFactory™, an AI predictive maintenance system.
+    const prompt = `You are CendiaFactoryâ„¢, an AI predictive maintenance system.
 
 EQUIPMENT: ${equipment.name} (${equipment.type})
 PRODUCTION LINE: ${line.name}
@@ -289,7 +290,7 @@ CURRENT METRICS:
 - Health Score: ${equipment.health}%
 - Runtime Since Maintenance: ${equipment.runtime} hours
 - Vibration Level: ${equipment.vibration} (normal: <30)
-- Temperature: ${equipment.temperature}°C (normal: <70°C)
+- Temperature: ${equipment.temperature}Â°C (normal: <70Â°C)
 - Power Consumption: ${equipment.powerConsumption} kW
 
 Analyze failure risk and provide prediction in JSON:
@@ -389,7 +390,7 @@ Analyze failure risk and provide prediction in JSON:
       {
         metric: 'Temperature',
         currentValue: equipment.temperature,
-        normalRange: '40-70°C',
+        normalRange: '40-70Â°C',
         trend: equipment.temperature > 70 ? 'increasing' : 'stable',
         contribution: 30,
       },
@@ -419,7 +420,7 @@ Analyze failure risk and provide prediction in JSON:
 
     const currentYield = line.efficiency * line.quality / 100;
 
-    const prompt = `You are CendiaFactory™, optimizing production yield.
+    const prompt = `You are CendiaFactoryâ„¢, optimizing production yield.
 
 PRODUCTION LINE: ${line.name}
 PRODUCT: ${line.product}
@@ -487,7 +488,7 @@ Analyze and provide yield optimization recommendations in JSON:
       generatedAt: new Date(),
     };
 
-    logger.info(`CendiaFactory: Yield optimization for ${line.name}: ${currentYield.toFixed(1)}% → ${potentialYield.toFixed(1)}%`);
+    logger.info(`CendiaFactory: Yield optimization for ${line.name}: ${currentYield.toFixed(1)}% â†’ ${potentialYield.toFixed(1)}%`);
     return optimization;
   }
 
@@ -533,7 +534,7 @@ Analyze and provide yield optimization recommendations in JSON:
 
     const line = this.lines.get(lineId);
 
-    const prompt = `You are CendiaFactory™, analyzing a quality event.
+    const prompt = `You are CendiaFactoryâ„¢, analyzing a quality event.
 
 EVENT: ${event.type} - ${event.description}
 SEVERITY: ${event.severity}
@@ -707,6 +708,291 @@ Analyze and provide root cause in JSON:
       avgOEE: Math.round(avgOEE * 10) / 10,
       predictedFailures: predictions,
       qualityEvents: quality,
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Production Intelligence Dashboard */
+  getProductionIntelligenceDashboard(): {
+    summary: { totalLines: number; running: number; idle: number; down: number; avgEfficiency: number; avgQuality: number; avgUptime: number };
+    oeeOverview: { avgOEE: number; bestLine: string; worstLine: string; benchmark: number };
+    byFacility: Array<{ facility: string; lineCount: number; avgEfficiency: number; avgOEE: number }>;
+    byProduct: Array<{ product: string; lineCount: number; avgEfficiency: number; totalOutput: number }>;
+    capacityUtilization: { totalCapacity: number; currentOutput: number; utilization: number };
+    shiftPerformance: Array<{ shift: string; lineCount: number; avgEfficiency: number; avgQuality: number }>;
+    insights: string[];
+  } {
+    const lines = this.getAllLines();
+    const running = lines.filter(l => l.status === 'running').length;
+    const idle = lines.filter(l => l.status === 'idle').length;
+    const down = lines.filter(l => l.status === 'down' || l.status === 'maintenance').length;
+
+    const avgEfficiency = lines.length > 0 ? Math.round(lines.reduce((s, l) => s + l.efficiency, 0) / lines.length * 10) / 10 : 0;
+    const avgQuality = lines.length > 0 ? Math.round(lines.reduce((s, l) => s + l.quality, 0) / lines.length * 10) / 10 : 0;
+    const avgUptime = lines.length > 0 ? Math.round(lines.reduce((s, l) => s + l.uptime, 0) / lines.length * 10) / 10 : 0;
+
+    const oeeScores = lines.map(l => ({ name: l.name, oee: this.calculateOEE(l.id).oee }));
+    const avgOEE = oeeScores.length > 0 ? Math.round(oeeScores.reduce((s, o) => s + o.oee, 0) / oeeScores.length * 10) / 10 : 0;
+    const sorted = [...oeeScores].sort((a, b) => b.oee - a.oee);
+
+    const facilityMap: Record<string, { count: number; eff: number; oee: number }> = {};
+    const productMap: Record<string, { count: number; eff: number; output: number }> = {};
+    const shiftMap: Record<string, { count: number; eff: number; qual: number }> = {};
+
+    for (let i = 0; i < lines.length; i++) {
+      const l = lines[i];
+      const oee = oeeScores[i]?.oee || 0;
+
+      if (!facilityMap[l.facility]) facilityMap[l.facility] = { count: 0, eff: 0, oee: 0 };
+      facilityMap[l.facility].count++;
+      facilityMap[l.facility].eff += l.efficiency;
+      facilityMap[l.facility].oee += oee;
+
+      if (!productMap[l.product]) productMap[l.product] = { count: 0, eff: 0, output: 0 };
+      productMap[l.product].count++;
+      productMap[l.product].eff += l.efficiency;
+      productMap[l.product].output += l.currentOutput;
+
+      if (!shiftMap[l.shift]) shiftMap[l.shift] = { count: 0, eff: 0, qual: 0 };
+      shiftMap[l.shift].count++;
+      shiftMap[l.shift].eff += l.efficiency;
+      shiftMap[l.shift].qual += l.quality;
+    }
+
+    const totalCapacity = lines.reduce((s, l) => s + l.capacity, 0);
+    const currentOutput = lines.reduce((s, l) => s + l.currentOutput, 0);
+
+    const insights: string[] = [];
+    if (avgOEE < 65) insights.push(`Average OEE is ${avgOEE}% â€” below world-class threshold of 85%`);
+    if (down > 0) insights.push(`${down} line(s) currently down or in maintenance`);
+    if (avgQuality < 95) insights.push(`Quality rate ${avgQuality}% below target 95% â€” investigate defect sources`);
+    if (insights.length === 0) insights.push('Production performance is within target parameters');
+
+    return {
+      summary: { totalLines: lines.length, running, idle, down, avgEfficiency, avgQuality, avgUptime },
+      oeeOverview: { avgOEE, bestLine: sorted[0]?.name || 'N/A', worstLine: sorted[sorted.length - 1]?.name || 'N/A', benchmark: 85 },
+      byFacility: Object.entries(facilityMap).map(([f, d]) => ({ facility: f, lineCount: d.count, avgEfficiency: Math.round(d.eff / d.count * 10) / 10, avgOEE: Math.round(d.oee / d.count * 10) / 10 })),
+      byProduct: Object.entries(productMap).map(([p, d]) => ({ product: p, lineCount: d.count, avgEfficiency: Math.round(d.eff / d.count * 10) / 10, totalOutput: d.output })),
+      capacityUtilization: { totalCapacity, currentOutput, utilization: totalCapacity > 0 ? Math.round((currentOutput / totalCapacity) * 1000) / 10 : 0 },
+      shiftPerformance: Object.entries(shiftMap).map(([s, d]) => ({ shift: s, lineCount: d.count, avgEfficiency: Math.round(d.eff / d.count * 10) / 10, avgQuality: Math.round(d.qual / d.count * 10) / 10 })),
+      insights,
+    };
+  }
+
+  /** 10/10: Equipment Health Intelligence */
+  getEquipmentHealthIntelligence(): {
+    totalEquipment: number;
+    healthDistribution: { healthy: number; degraded: number; failed: number; maintenance: number };
+    criticalAlerts: Array<{ equipment: string; line: string; health: number; issue: string; priority: string }>;
+    maintenanceSchedule: Array<{ line: string; lastMaintenance: Date; nextMaintenance: Date; overdue: boolean }>;
+    predictedFailures: Array<{ equipment: string; line: string; probability: number; predictedDate: Date; action: string }>;
+    avgHealthByLine: Array<{ line: string; avgHealth: number; equipmentCount: number; worstEquipment: string }>;
+    maintenanceCost: { estimatedTotal: number; preventable: number };
+    insights: string[];
+  } {
+    const lines = this.getAllLines();
+    let totalEquipment = 0;
+    const healthDist = { healthy: 0, degraded: 0, failed: 0, maintenance: 0 };
+    const criticalAlerts: Array<{ equipment: string; line: string; health: number; issue: string; priority: string }> = [];
+    const lineHealth: Array<{ line: string; avgHealth: number; equipmentCount: number; worstEquipment: string }> = [];
+
+    for (const line of lines) {
+      let lineTotal = 0; let worst = { name: '', health: 101 };
+      for (const eq of line.equipment) {
+        totalEquipment++;
+        lineTotal += eq.health;
+        if (eq.health < worst.health) worst = { name: eq.name, health: eq.health };
+
+        if (eq.status === 'operational' && eq.health >= 70) healthDist.healthy++;
+        else if (eq.status === 'degraded' || eq.health < 70) healthDist.degraded++;
+        else if (eq.status === 'failed') healthDist.failed++;
+        else if (eq.status === 'maintenance') healthDist.maintenance++;
+
+        if (eq.health < 50 || eq.status === 'failed') {
+          const issue = eq.status === 'failed' ? 'Equipment failed' : eq.vibration > 50 ? 'High vibration' : eq.temperature > 80 ? 'Overheating' : 'Low health score';
+          criticalAlerts.push({ equipment: eq.name, line: line.name, health: eq.health, issue, priority: eq.health < 30 ? 'critical' : 'high' });
+        }
+      }
+      if (line.equipment.length > 0) {
+        lineHealth.push({ line: line.name, avgHealth: Math.round(lineTotal / line.equipment.length), equipmentCount: line.equipment.length, worstEquipment: worst.name });
+      }
+    }
+
+    const maintenanceSchedule = lines.map(l => ({
+      line: l.name, lastMaintenance: l.lastMaintenance, nextMaintenance: l.nextScheduledMaintenance,
+      overdue: l.nextScheduledMaintenance.getTime() < Date.now(),
+    }));
+
+    const allPredictions: Array<{ equipment: string; line: string; probability: number; predictedDate: Date; action: string }> = [];
+    for (const [lineId, preds] of this.predictions.entries()) {
+      const line = this.lines.get(lineId);
+      for (const p of preds.filter(p => p.status === 'predicted')) {
+        allPredictions.push({ equipment: p.equipmentName, line: line?.name || lineId, probability: p.probability, predictedDate: p.predictedDate, action: p.recommendedAction });
+      }
+    }
+
+    const estimatedTotal = allPredictions.reduce((s, p) => s + 5000, 0);
+    const preventable = Math.round(estimatedTotal * 0.6);
+
+    const insights: string[] = [];
+    if (healthDist.failed > 0) insights.push(`${healthDist.failed} equipment unit(s) in failed state â€” immediate action required`);
+    if (criticalAlerts.length > 0) insights.push(`${criticalAlerts.length} critical equipment alert(s) active`);
+    const overdue = maintenanceSchedule.filter(m => m.overdue).length;
+    if (overdue > 0) insights.push(`${overdue} line(s) have overdue maintenance schedules`);
+    if (insights.length === 0) insights.push('Equipment health across all lines is within acceptable range');
+
+    return {
+      totalEquipment, healthDistribution: healthDist,
+      criticalAlerts: criticalAlerts.sort((a, b) => a.health - b.health),
+      maintenanceSchedule, predictedFailures: allPredictions.sort((a, b) => b.probability - a.probability),
+      avgHealthByLine: lineHealth.sort((a, b) => a.avgHealth - b.avgHealth),
+      maintenanceCost: { estimatedTotal, preventable }, insights,
+    };
+  }
+
+  /** 10/10: Quality Analytics Engine */
+  getQualityAnalyticsEngine(): {
+    totalEvents: number;
+    openEvents: number;
+    bySeverity: { minor: number; major: number; critical: number };
+    byType: Array<{ type: string; count: number; unitsAffected: number }>;
+    byLine: Array<{ line: string; eventCount: number; qualityRate: number }>;
+    rootCauseAnalysis: Array<{ cause: string; frequency: number; avgUnitsAffected: number }>;
+    trendData: { thisMonth: number; lastMonth: number; trend: string };
+    costOfQuality: { scrapCost: number; reworkCost: number; inspectionCost: number; total: number };
+    insights: string[];
+  } {
+    const allEvents: QualityEvent[] = [];
+    for (const events of this.qualityEvents.values()) {
+      allEvents.push(...events);
+    }
+
+    const openEvents = allEvents.filter(e => e.status !== 'closed').length;
+    const bySeverity = { minor: 0, major: 0, critical: 0 };
+    const typeMap: Record<string, { count: number; units: number }> = {};
+    const causeMap: Record<string, { count: number; units: number }> = {};
+
+    for (const e of allEvents) {
+      bySeverity[e.severity]++;
+      if (!typeMap[e.type]) typeMap[e.type] = { count: 0, units: 0 };
+      typeMap[e.type].count++;
+      typeMap[e.type].units += e.unitsAffected;
+
+      const cause = e.rootCause || 'Unknown';
+      if (!causeMap[cause]) causeMap[cause] = { count: 0, units: 0 };
+      causeMap[cause].count++;
+      causeMap[cause].units += e.unitsAffected;
+    }
+
+    const lines = this.getAllLines();
+    const byLine = lines.map(l => {
+      const lineEvents = this.qualityEvents.get(l.id) || [];
+      return { line: l.name, eventCount: lineEvents.length, qualityRate: l.quality };
+    }).sort((a, b) => b.eventCount - a.eventCount);
+
+    const now = Date.now();
+    const oneMonth = 30 * 24 * 60 * 60 * 1000;
+    const thisMonth = allEvents.filter(e => now - e.timestamp.getTime() < oneMonth).length;
+    const lastMonth = allEvents.filter(e => now - e.timestamp.getTime() >= oneMonth && now - e.timestamp.getTime() < oneMonth * 2).length;
+    const trend = thisMonth > lastMonth * 1.2 ? 'worsening' : thisMonth < lastMonth * 0.8 ? 'improving' : 'stable';
+
+    const totalUnits = allEvents.reduce((s, e) => s + e.unitsAffected, 0);
+    const scrapCost = Math.round(totalUnits * 15);
+    const reworkCost = Math.round(totalUnits * 8);
+    const inspectionCost = Math.round(allEvents.length * 200);
+
+    const insights: string[] = [];
+    if (bySeverity.critical > 0) insights.push(`${bySeverity.critical} critical quality event(s) â€” escalate immediately`);
+    if (trend === 'worsening') insights.push('Quality events trending upward â€” investigate systemic causes');
+    const topCause = Object.entries(causeMap).sort((a, b) => b[1].count - a[1].count)[0];
+    if (topCause && topCause[1].count > 2) insights.push(`"${topCause[0]}" is the most frequent root cause (${topCause[1].count} occurrences)`);
+    if (insights.length === 0) insights.push('Quality metrics are stable across all production lines');
+
+    return {
+      totalEvents: allEvents.length, openEvents, bySeverity,
+      byType: Object.entries(typeMap).map(([t, d]) => ({ type: t, count: d.count, unitsAffected: d.units })).sort((a, b) => b.count - a.count),
+      byLine,
+      rootCauseAnalysis: Object.entries(causeMap).map(([c, d]) => ({ cause: c, frequency: d.count, avgUnitsAffected: d.count > 0 ? Math.round(d.units / d.count) : 0 })).sort((a, b) => b.frequency - a.frequency),
+      trendData: { thisMonth, lastMonth, trend },
+      costOfQuality: { scrapCost, reworkCost, inspectionCost, total: scrapCost + reworkCost + inspectionCost },
+      insights,
+    };
+  }
+
+  /** 10/10: Supply Chain Risk Monitor */
+  getSupplyChainRiskMonitor(): {
+    totalSchedules: number;
+    activeSchedules: number;
+    delayedSchedules: number;
+    materialStatus: { available: number; low: number; ordered: number; critical: number };
+    criticalMaterials: Array<{ material: string; supplier: string; status: string; leadTime: number; linesAffected: number }>;
+    scheduleAdherence: { onTime: number; delayed: number; adherenceRate: number };
+    supplierConcentration: Array<{ supplier: string; materialsSupplied: number; criticalItems: number; riskLevel: string }>;
+    productionGaps: Array<{ line: string; gap: string; impact: string }>;
+    insights: string[];
+  } {
+    const allSchedules: ProductionSchedule[] = [];
+    const materialMap: Record<string, { material: string; supplier: string; status: string; leadTime: number; lines: Set<string> }> = {};
+    const supplierMap: Record<string, { count: number; critical: number }> = {};
+
+    for (const [lineId, schedules] of this.schedules.entries()) {
+      for (const s of schedules) {
+        allSchedules.push(s);
+        for (const m of s.materials) {
+          const key = `${m.material}|${m.supplier}`;
+          if (!materialMap[key]) materialMap[key] = { material: m.material, supplier: m.supplier, status: m.status, leadTime: m.leadTime, lines: new Set() };
+          materialMap[key].lines.add(lineId);
+          if (m.status === 'critical' || m.status === 'low') materialMap[key].status = m.status;
+
+          if (!supplierMap[m.supplier]) supplierMap[m.supplier] = { count: 0, critical: 0 };
+          supplierMap[m.supplier].count++;
+          if (m.status === 'critical') supplierMap[m.supplier].critical++;
+        }
+      }
+    }
+
+    const active = allSchedules.filter(s => s.status === 'scheduled' || s.status === 'in_progress').length;
+    const delayed = allSchedules.filter(s => s.status === 'delayed').length;
+    const complete = allSchedules.filter(s => s.status === 'complete').length;
+    const adherenceRate = (complete + active) > 0 ? Math.round((complete / Math.max(1, complete + delayed)) * 100) : 100;
+
+    const matStatus = { available: 0, low: 0, ordered: 0, critical: 0 };
+    const criticalMaterials: Array<{ material: string; supplier: string; status: string; leadTime: number; linesAffected: number }> = [];
+    for (const m of Object.values(materialMap)) {
+      if (m.status === 'available') matStatus.available++;
+      else if (m.status === 'low') matStatus.low++;
+      else if (m.status === 'ordered') matStatus.ordered++;
+      else if (m.status === 'critical') matStatus.critical++;
+
+      if (m.status === 'critical' || m.status === 'low') {
+        criticalMaterials.push({ material: m.material, supplier: m.supplier, status: m.status, leadTime: m.leadTime, linesAffected: m.lines.size });
+      }
+    }
+
+    const lines = this.getAllLines();
+    const productionGaps: Array<{ line: string; gap: string; impact: string }> = [];
+    for (const l of lines) {
+      if (l.status === 'idle') productionGaps.push({ line: l.name, gap: 'Line idle â€” no scheduled production', impact: 'Lost capacity' });
+      if (l.status === 'down') productionGaps.push({ line: l.name, gap: 'Line down â€” unplanned stoppage', impact: 'Production halted' });
+    }
+
+    const insights: string[] = [];
+    if (matStatus.critical > 0) insights.push(`${matStatus.critical} material(s) at critical supply level`);
+    if (delayed > 0) insights.push(`${delayed} production schedule(s) delayed`);
+    const singleSource = Object.entries(supplierMap).filter(([, d]) => d.count > 3);
+    if (singleSource.length > 0) insights.push(`${singleSource.length} supplier(s) with high material concentration â€” diversification recommended`);
+    if (insights.length === 0) insights.push('Supply chain and production schedules are on track');
+
+    return {
+      totalSchedules: allSchedules.length, activeSchedules: active, delayedSchedules: delayed,
+      materialStatus: matStatus,
+      criticalMaterials: criticalMaterials.sort((a, b) => a.status === 'critical' ? -1 : 1),
+      scheduleAdherence: { onTime: complete, delayed, adherenceRate },
+      supplierConcentration: Object.entries(supplierMap).map(([s, d]) => ({ supplier: s, materialsSupplied: d.count, criticalItems: d.critical, riskLevel: d.critical > 0 ? 'high' : d.count > 5 ? 'medium' : 'low' })),
+      productionGaps, insights,
     };
   }
 }

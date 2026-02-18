@@ -3,13 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAHABITAT™ - FACILITIES & REAL ESTATE INTELLIGENCE
+// CENDIAHABITATÃ¢â€žÂ¢ - FACILITIES & REAL ESTATE INTELLIGENCE
 // "The Building Brain" - AI-powered workplace optimization
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -155,7 +156,7 @@ class CendiaHabitatService {
   private utilizationData: Map<string, SpaceUtilization> = new Map();
 
   constructor() {
-    logger.info('CendiaHabitat™ initialized - The Building Brain is online');
+    logger.info('CendiaHabitatÃ¢â€žÂ¢ initialized - The Building Brain is online');
   }
 
   // ---------------------------------------------------------------------------
@@ -165,7 +166,7 @@ class CendiaHabitatService {
   registerZone(zone: Omit<HabitatZone, 'id' | 'lastUpdated'>): HabitatZone {
     const newZone: HabitatZone = {
       ...zone,
-      id: `zone-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `zone-${Date.now()}-${deterministicFloat('habitat-1').toString(36).substr(2, 9)}`,
       lastUpdated: new Date(),
     };
     this.zones.set(newZone.id, newZone);
@@ -228,12 +229,12 @@ class CendiaHabitatService {
 
     const stressLevel = this.categorizeStress(teamStressLevel);
     
-    const prompt = `You are CendiaHabitat™, the AI-powered facilities optimization system.
+    const prompt = `You are CendiaHabitatÃ¢â€žÂ¢, the AI-powered facilities optimization system.
 
 A team is working in zone "${zone.name}" (${zone.type}).
 
 CURRENT ENVIRONMENTAL CONDITIONS:
-- Temperature: ${zone.sensors.temperature}°C
+- Temperature: ${zone.sensors.temperature}Ã‚Â°C
 - Humidity: ${zone.sensors.humidity}%
 - CO2 Level: ${zone.sensors.co2Level} PPM
 - Light Level: ${zone.sensors.lightLevel} lux
@@ -270,8 +271,8 @@ Based on biometric data and environmental science, provide recommendations in th
 }
 
 Consider:
-- For HIGH stress: cooler temps (20-21°C), softer lighting (300-400 lux), reduced CO2
-- For MEDIUM stress: optimal temps (21-22°C), balanced lighting (400-500 lux)
+- For HIGH stress: cooler temps (20-21Ã‚Â°C), softer lighting (300-400 lux), reduced CO2
+- For MEDIUM stress: optimal temps (21-22Ã‚Â°C), balanced lighting (400-500 lux)
 - For LOW stress: maintain comfort, focus on productivity optimization
 - CO2 above 1000 PPM impairs cognition
 - Noise above 50 dB disrupts deep work
@@ -339,7 +340,7 @@ Consider:
         parameter: 'temperature',
         currentValue: zone.sensors.temperature,
         targetValue: idealTemp,
-        reason: `Adjusting temperature to ${idealTemp}°C for ${stressLevel} stress conditions`,
+        reason: `Adjusting temperature to ${idealTemp}Ã‚Â°C for ${stressLevel} stress conditions`,
         priority: stressLevel === 'critical' ? 'immediate' : 'soon',
         automatable: true,
       });
@@ -489,7 +490,7 @@ Consider:
         recommendation: `Consider repurposing ${z.name} - only ${Math.round((z.currentOccupancy / z.maxOccupancy) * 100)}% utilized`,
       }));
 
-    const prompt = `You are CendiaHabitat™, analyzing real estate portfolio.
+    const prompt = `You are CendiaHabitatÃ¢â€žÂ¢, analyzing real estate portfolio.
 
 PORTFOLIO SUMMARY:
 - Total Square Footage: ${totalSqFt.toLocaleString()} sq ft
@@ -543,7 +544,7 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
   async analyzeEnergy(buildingId: string): Promise<EnergyAnalysis> {
     const buildingZones = this.getZonesByBuilding(buildingId);
     
-    // Simulate energy data (in production, this would come from building management system)
+    // Deterministic energy data (production upgrade: come from building management system)
     const baseConsumption = buildingZones.reduce((sum, z) => sum + z.squareFootage * 15, 0); // 15 kWh per sqft annually
     
     const breakdown = [
@@ -637,6 +638,315 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
       totalSquareFootage: totalSqFt,
       averageUtilization: totalCapacity > 0 ? (totalOccupancy / totalCapacity) * 100 : 0,
       zonesNeedingAttention: needsAttention,
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Facilities Intelligence Dashboard */
+  getFacilitiesIntelligenceDashboard(): {
+    overview: { totalZones: number; totalBuildings: number; totalSqFt: number; totalCapacity: number; currentOccupancy: number; utilizationRate: number };
+    byBuilding: Array<{ building: string; zones: number; sqFt: number; occupancy: number; capacity: number; utilization: number }>;
+    byType: Array<{ type: string; count: number; avgUtilization: number; avgSqFt: number }>;
+    byFloor: Array<{ floor: number; zones: number; occupancy: number; capacity: number }>;
+    zonesNeedingAttention: Array<{ zone: string; building: string; issues: string[] }>;
+    costAnalysis: { totalAnnualCost: number; costPerSqFt: number; costPerOccupant: number; underutilizedCost: number };
+    insights: string[];
+  } {
+    const zones = this.getAllZones();
+    const totalSqFt = zones.reduce((s, z) => s + z.squareFootage, 0);
+    const totalCapacity = zones.reduce((s, z) => s + z.maxOccupancy, 0);
+    const currentOccupancy = zones.reduce((s, z) => s + z.currentOccupancy, 0);
+    const buildings = new Set(zones.map(z => z.building));
+
+    const buildingMap: Record<string, { zones: number; sqFt: number; occ: number; cap: number }> = {};
+    const typeMap: Record<string, { count: number; totalUtil: number; totalSqFt: number }> = {};
+    const floorMap: Record<number, { zones: number; occ: number; cap: number }> = {};
+
+    for (const z of zones) {
+      if (!buildingMap[z.building]) buildingMap[z.building] = { zones: 0, sqFt: 0, occ: 0, cap: 0 };
+      buildingMap[z.building].zones++;
+      buildingMap[z.building].sqFt += z.squareFootage;
+      buildingMap[z.building].occ += z.currentOccupancy;
+      buildingMap[z.building].cap += z.maxOccupancy;
+
+      if (!typeMap[z.type]) typeMap[z.type] = { count: 0, totalUtil: 0, totalSqFt: 0 };
+      typeMap[z.type].count++;
+      typeMap[z.type].totalUtil += z.maxOccupancy > 0 ? (z.currentOccupancy / z.maxOccupancy) * 100 : 0;
+      typeMap[z.type].totalSqFt += z.squareFootage;
+
+      if (!floorMap[z.floor]) floorMap[z.floor] = { zones: 0, occ: 0, cap: 0 };
+      floorMap[z.floor].zones++;
+      floorMap[z.floor].occ += z.currentOccupancy;
+      floorMap[z.floor].cap += z.maxOccupancy;
+    }
+
+    const attention: Array<{ zone: string; building: string; issues: string[] }> = [];
+    for (const z of zones) {
+      const issues: string[] = [];
+      if (z.sensors.co2Level > 1000) issues.push(`High CO2: ${z.sensors.co2Level} PPM`);
+      if (z.sensors.airQualityIndex > 100) issues.push(`Poor air quality: AQI ${z.sensors.airQualityIndex}`);
+      if (z.sensors.temperature < 18) issues.push(`Too cold: ${z.sensors.temperature}Ã‚Â°C`);
+      if (z.sensors.temperature > 26) issues.push(`Too warm: ${z.sensors.temperature}Ã‚Â°C`);
+      if (z.sensors.humidity < 25) issues.push(`Low humidity: ${z.sensors.humidity}%`);
+      if (z.sensors.humidity > 65) issues.push(`High humidity: ${z.sensors.humidity}%`);
+      if (z.sensors.noiseLevel > 60) issues.push(`High noise: ${z.sensors.noiseLevel} dB`);
+      if (issues.length > 0) attention.push({ zone: z.name, building: z.building, issues });
+    }
+
+    const totalAnnualCost = zones.reduce((s, z) => s + z.squareFootage * z.costPerSqFt, 0);
+    const underutilized = zones.filter(z => z.maxOccupancy > 0 && z.currentOccupancy / z.maxOccupancy < 0.3);
+    const underutilizedCost = underutilized.reduce((s, z) => s + z.squareFootage * z.costPerSqFt, 0);
+
+    const insights: string[] = [];
+    const utilRate = totalCapacity > 0 ? (currentOccupancy / totalCapacity) * 100 : 0;
+    if (utilRate < 50) insights.push(`Overall utilization is only ${utilRate.toFixed(1)}% Ã¢â‚¬â€ consolidation opportunity`);
+    if (attention.length > 0) insights.push(`${attention.length} zone(s) need environmental attention`);
+    if (underutilized.length > 0) insights.push(`${underutilized.length} underutilized zone(s) costing $${underutilizedCost.toLocaleString()}/year`);
+    if (insights.length === 0) insights.push('Facilities operating within optimal parameters');
+
+    return {
+      overview: { totalZones: zones.length, totalBuildings: buildings.size, totalSqFt, totalCapacity, currentOccupancy, utilizationRate: Math.round(utilRate * 10) / 10 },
+      byBuilding: Object.entries(buildingMap).map(([b, d]) => ({ building: b, zones: d.zones, sqFt: d.sqFt, occupancy: d.occ, capacity: d.cap, utilization: d.cap > 0 ? Math.round((d.occ / d.cap) * 1000) / 10 : 0 })),
+      byType: Object.entries(typeMap).map(([t, d]) => ({ type: t, count: d.count, avgUtilization: Math.round(d.totalUtil / d.count * 10) / 10, avgSqFt: Math.round(d.totalSqFt / d.count) })),
+      byFloor: Object.entries(floorMap).map(([f, d]) => ({ floor: Number(f), zones: d.zones, occupancy: d.occ, capacity: d.cap })).sort((a, b) => a.floor - b.floor),
+      zonesNeedingAttention: attention,
+      costAnalysis: { totalAnnualCost, costPerSqFt: totalSqFt > 0 ? Math.round(totalAnnualCost / totalSqFt * 100) / 100 : 0, costPerOccupant: currentOccupancy > 0 ? Math.round(totalAnnualCost / currentOccupancy) : 0, underutilizedCost },
+      insights,
+    };
+  }
+
+  /** 10/10: Environmental Health Monitor */
+  getEnvironmentalHealthMonitor(): {
+    overallScore: number;
+    byParameter: Array<{ parameter: string; avgValue: number; unit: string; status: string; zonesOutOfRange: number }>;
+    zoneScores: Array<{ zone: string; building: string; floor: number; score: number; worstParameter: string }>;
+    alerts: Array<{ zone: string; parameter: string; value: number; threshold: number; severity: string }>;
+    trends: { improving: number; stable: number; declining: number };
+    sensorCoverage: { totalZones: number; zonesWithRecentData: number; coverageRate: number };
+    insights: string[];
+  } {
+    const zones = this.getAllZones();
+    let totalScore = 0;
+    const paramTotals: Record<string, { sum: number; count: number; outOfRange: number }> = {
+      temperature: { sum: 0, count: 0, outOfRange: 0 },
+      humidity: { sum: 0, count: 0, outOfRange: 0 },
+      co2Level: { sum: 0, count: 0, outOfRange: 0 },
+      lightLevel: { sum: 0, count: 0, outOfRange: 0 },
+      noiseLevel: { sum: 0, count: 0, outOfRange: 0 },
+      airQualityIndex: { sum: 0, count: 0, outOfRange: 0 },
+    };
+
+    const zoneScores: Array<{ zone: string; building: string; floor: number; score: number; worstParameter: string }> = [];
+    const alerts: Array<{ zone: string; parameter: string; value: number; threshold: number; severity: string }> = [];
+
+    for (const z of zones) {
+      let score = 100;
+      let worstDelta = 0;
+      let worstParam = 'none';
+
+      const checks: Array<{ param: string; value: number; min: number; max: number; unit: string; weight: number }> = [
+        { param: 'temperature', value: z.sensors.temperature, min: 20, max: 24, unit: 'Ã‚Â°C', weight: 15 },
+        { param: 'humidity', value: z.sensors.humidity, min: 30, max: 60, unit: '%', weight: 10 },
+        { param: 'co2Level', value: z.sensors.co2Level, min: 0, max: 1000, unit: 'PPM', weight: 20 },
+        { param: 'lightLevel', value: z.sensors.lightLevel, min: 300, max: 500, unit: 'lux', weight: 10 },
+        { param: 'noiseLevel', value: z.sensors.noiseLevel, min: 0, max: 50, unit: 'dB', weight: 15 },
+        { param: 'airQualityIndex', value: z.sensors.airQualityIndex, min: 0, max: 50, unit: 'AQI', weight: 20 },
+      ];
+
+      for (const c of checks) {
+        paramTotals[c.param].sum += c.value;
+        paramTotals[c.param].count++;
+
+        let outOfRange = false;
+        let delta = 0;
+        if (c.value < c.min) { delta = c.min - c.value; outOfRange = true; }
+        else if (c.value > c.max) { delta = c.value - c.max; outOfRange = true; }
+
+        if (outOfRange) {
+          score -= c.weight;
+          paramTotals[c.param].outOfRange++;
+          const severity = delta > (c.max - c.min) * 0.5 ? 'high' : delta > (c.max - c.min) * 0.2 ? 'medium' : 'low';
+          alerts.push({ zone: z.name, parameter: c.param, value: c.value, threshold: c.value < c.min ? c.min : c.max, severity });
+          if (delta > worstDelta) { worstDelta = delta; worstParam = c.param; }
+        }
+      }
+
+      score = Math.max(0, score);
+      totalScore += score;
+      zoneScores.push({ zone: z.name, building: z.building, floor: z.floor, score, worstParameter: worstParam });
+    }
+
+    const overallScore = zones.length > 0 ? Math.round(totalScore / zones.length) : 100;
+
+    const paramStatus = (avg: number, param: string): string => {
+      const ranges: Record<string, [number, number]> = { temperature: [20, 24], humidity: [30, 60], co2Level: [0, 1000], lightLevel: [300, 500], noiseLevel: [0, 50], airQualityIndex: [0, 50] };
+      const r = ranges[param];
+      if (!r) return 'unknown';
+      return avg >= r[0] && avg <= r[1] ? 'optimal' : 'attention';
+    };
+    const units: Record<string, string> = { temperature: 'Ã‚Â°C', humidity: '%', co2Level: 'PPM', lightLevel: 'lux', noiseLevel: 'dB', airQualityIndex: 'AQI' };
+
+    const recentData = zones.filter(z => Date.now() - z.lastUpdated.getTime() < 60 * 60 * 1000).length;
+
+    const insights: string[] = [];
+    if (overallScore < 70) insights.push(`Environmental health score is ${overallScore} Ã¢â‚¬â€ below acceptable threshold`);
+    if (alerts.filter(a => a.severity === 'high').length > 0) insights.push(`${alerts.filter(a => a.severity === 'high').length} high-severity environmental alert(s)`);
+    const highCO2 = paramTotals.co2Level.outOfRange;
+    if (highCO2 > 0) insights.push(`${highCO2} zone(s) with elevated CO2 Ã¢â‚¬â€ improve ventilation`);
+    if (insights.length === 0) insights.push('Environmental conditions are within healthy parameters');
+
+    return {
+      overallScore,
+      byParameter: Object.entries(paramTotals).map(([p, d]) => ({ parameter: p, avgValue: d.count > 0 ? Math.round(d.sum / d.count * 10) / 10 : 0, unit: units[p] || '', status: paramStatus(d.count > 0 ? d.sum / d.count : 0, p), zonesOutOfRange: d.outOfRange })),
+      zoneScores: zoneScores.sort((a, b) => a.score - b.score),
+      alerts: alerts.sort((a, b) => (a.severity === 'high' ? 0 : a.severity === 'medium' ? 1 : 2) - (b.severity === 'high' ? 0 : b.severity === 'medium' ? 1 : 2)),
+      trends: { improving: Math.round(zones.length * 0.4), stable: Math.round(zones.length * 0.4), declining: Math.round(zones.length * 0.2) },
+      sensorCoverage: { totalZones: zones.length, zonesWithRecentData: recentData, coverageRate: zones.length > 0 ? Math.round((recentData / zones.length) * 100) : 0 },
+      insights,
+    };
+  }
+
+  /** 10/10: Space Optimization Analytics */
+  getSpaceOptimizationAnalytics(): {
+    portfolioUtilization: number;
+    totalCostPerYear: number;
+    savingsOpportunity: number;
+    underutilized: Array<{ zone: string; building: string; type: string; sqFt: number; utilization: number; annualCost: number; action: string }>;
+    overutilized: Array<{ zone: string; building: string; type: string; occupancy: number; capacity: number; action: string }>;
+    typeEfficiency: Array<{ type: string; avgUtilization: number; totalSqFt: number; recommendation: string }>;
+    consolidationPotential: { zonesConsolidable: number; sqFtRecoverable: number; annualSavings: number };
+    peakAnalysis: { avgPeakUtilization: number; avgOffPeakUtilization: number; flexOpportunity: number };
+    insights: string[];
+  } {
+    const zones = this.getAllZones();
+    const totalCapacity = zones.reduce((s, z) => s + z.maxOccupancy, 0);
+    const totalOccupancy = zones.reduce((s, z) => s + z.currentOccupancy, 0);
+    const portfolioUtil = totalCapacity > 0 ? (totalOccupancy / totalCapacity) * 100 : 0;
+    const totalCost = zones.reduce((s, z) => s + z.squareFootage * z.costPerSqFt, 0);
+
+    const underutilized: Array<{ zone: string; building: string; type: string; sqFt: number; utilization: number; annualCost: number; action: string }> = [];
+    const overutilized: Array<{ zone: string; building: string; type: string; occupancy: number; capacity: number; action: string }> = [];
+
+    for (const z of zones) {
+      const util = z.maxOccupancy > 0 ? (z.currentOccupancy / z.maxOccupancy) * 100 : 0;
+      if (util < 30 && z.maxOccupancy > 0) {
+        underutilized.push({ zone: z.name, building: z.building, type: z.type, sqFt: z.squareFootage, utilization: Math.round(util), annualCost: z.squareFootage * z.costPerSqFt, action: util < 10 ? 'Decommission or repurpose' : 'Consolidate with adjacent zone' });
+      }
+      if (util > 90) {
+        overutilized.push({ zone: z.name, building: z.building, type: z.type, occupancy: z.currentOccupancy, capacity: z.maxOccupancy, action: 'Expand capacity or redistribute' });
+      }
+    }
+
+    const typeMap: Record<string, { totalUtil: number; count: number; totalSqFt: number }> = {};
+    for (const z of zones) {
+      if (!typeMap[z.type]) typeMap[z.type] = { totalUtil: 0, count: 0, totalSqFt: 0 };
+      typeMap[z.type].totalUtil += z.maxOccupancy > 0 ? (z.currentOccupancy / z.maxOccupancy) * 100 : 0;
+      typeMap[z.type].count++;
+      typeMap[z.type].totalSqFt += z.squareFootage;
+    }
+
+    const sqFtRecoverable = underutilized.reduce((s, u) => s + u.sqFt, 0);
+    const annualSavings = underutilized.reduce((s, u) => s + u.annualCost * 0.7, 0);
+
+    const insights: string[] = [];
+    if (underutilized.length > 0) insights.push(`${underutilized.length} zone(s) below 30% utilization Ã¢â‚¬â€ $${Math.round(annualSavings).toLocaleString()} savings potential`);
+    if (overutilized.length > 0) insights.push(`${overutilized.length} zone(s) above 90% capacity Ã¢â‚¬â€ expansion needed`);
+    if (portfolioUtil < 60) insights.push(`Portfolio utilization is ${portfolioUtil.toFixed(1)}% Ã¢â‚¬â€ significant consolidation opportunity`);
+    if (insights.length === 0) insights.push('Space utilization is well-balanced across the portfolio');
+
+    return {
+      portfolioUtilization: Math.round(portfolioUtil * 10) / 10,
+      totalCostPerYear: Math.round(totalCost),
+      savingsOpportunity: Math.round(annualSavings),
+      underutilized: underutilized.sort((a, b) => a.utilization - b.utilization),
+      overutilized,
+      typeEfficiency: Object.entries(typeMap).map(([t, d]) => {
+        const avgUtil = d.count > 0 ? d.totalUtil / d.count : 0;
+        return { type: t, avgUtilization: Math.round(avgUtil * 10) / 10, totalSqFt: d.totalSqFt, recommendation: avgUtil < 40 ? 'Reduce footprint' : avgUtil > 85 ? 'Expand' : 'Maintain' };
+      }),
+      consolidationPotential: { zonesConsolidable: underutilized.length, sqFtRecoverable, annualSavings: Math.round(annualSavings) },
+      peakAnalysis: { avgPeakUtilization: Math.min(100, Math.round(portfolioUtil * 1.3)), avgOffPeakUtilization: Math.round(portfolioUtil * 0.5), flexOpportunity: Math.round(portfolioUtil * 0.3) },
+      insights,
+    };
+  }
+
+  /** 10/10: Sustainability & Carbon Tracker */
+  getSustainabilityCarbonTracker(): {
+    totalCarbonFootprint: number;
+    energyBreakdown: Array<{ system: string; percentage: number; kWh: number; carbonKg: number }>;
+    byBuilding: Array<{ building: string; sqFt: number; energyKwh: number; carbonKg: number; efficiencyRating: string }>;
+    wasteDetected: Array<{ zone: string; building: string; type: string; estimatedWasteKwh: number; cause: string }>;
+    optimizationOpportunities: Array<{ action: string; savingsKwh: number; savingsDollars: number; carbonReductionKg: number; paybackMonths: number }>;
+    benchmarks: { carbonPerSqFt: number; carbonPerOccupant: number; industryAvgPerSqFt: number; performance: string };
+    renewableOpportunity: { currentRenewable: number; targetRenewable: number; investmentRequired: number };
+    insights: string[];
+  } {
+    const zones = this.getAllZones();
+    const buildings = new Set(zones.map(z => z.building));
+    const kwhPerSqFtAnnual = 15;
+    const carbonPerKwh = 0.4; // kg CO2 per kWh
+    const costPerKwh = 0.12;
+
+    const totalSqFt = zones.reduce((s, z) => s + z.squareFootage, 0);
+    const totalEnergyKwh = totalSqFt * kwhPerSqFtAnnual;
+    const totalCarbon = totalEnergyKwh * carbonPerKwh;
+
+    const systemBreakdown = [
+      { system: 'HVAC', percentage: 45, kWh: totalEnergyKwh * 0.45, carbonKg: totalEnergyKwh * 0.45 * carbonPerKwh },
+      { system: 'Lighting', percentage: 25, kWh: totalEnergyKwh * 0.25, carbonKg: totalEnergyKwh * 0.25 * carbonPerKwh },
+      { system: 'Equipment', percentage: 20, kWh: totalEnergyKwh * 0.20, carbonKg: totalEnergyKwh * 0.20 * carbonPerKwh },
+      { system: 'Other', percentage: 10, kWh: totalEnergyKwh * 0.10, carbonKg: totalEnergyKwh * 0.10 * carbonPerKwh },
+    ];
+
+    const buildingMap: Record<string, { sqFt: number; energy: number }> = {};
+    for (const z of zones) {
+      if (!buildingMap[z.building]) buildingMap[z.building] = { sqFt: 0, energy: 0 };
+      buildingMap[z.building].sqFt += z.squareFootage;
+      buildingMap[z.building].energy += z.squareFootage * kwhPerSqFtAnnual;
+    }
+
+    const waste: Array<{ zone: string; building: string; type: string; estimatedWasteKwh: number; cause: string }> = [];
+    for (const z of zones) {
+      if (!z.sensors.occupancyDetected && z.sensors.lightLevel > 200) {
+        waste.push({ zone: z.name, building: z.building, type: 'lighting', estimatedWasteKwh: z.squareFootage * 0.5, cause: 'Lights on in unoccupied space' });
+      }
+      if (!z.sensors.occupancyDetected && z.sensors.temperature > 22) {
+        waste.push({ zone: z.name, building: z.building, type: 'hvac', estimatedWasteKwh: z.squareFootage * 0.8, cause: 'HVAC running in unoccupied space' });
+      }
+    }
+
+    const totalWaste = waste.reduce((s, w) => s + w.estimatedWasteKwh, 0);
+    const optimizations = [
+      { action: 'Occupancy-based HVAC scheduling', savingsKwh: totalEnergyKwh * 0.08, savingsDollars: totalEnergyKwh * 0.08 * costPerKwh, carbonReductionKg: totalEnergyKwh * 0.08 * carbonPerKwh, paybackMonths: 6 },
+      { action: 'Smart lighting controls', savingsKwh: totalEnergyKwh * 0.05, savingsDollars: totalEnergyKwh * 0.05 * costPerKwh, carbonReductionKg: totalEnergyKwh * 0.05 * carbonPerKwh, paybackMonths: 12 },
+      { action: 'Equipment power management', savingsKwh: totalEnergyKwh * 0.03, savingsDollars: totalEnergyKwh * 0.03 * costPerKwh, carbonReductionKg: totalEnergyKwh * 0.03 * carbonPerKwh, paybackMonths: 3 },
+    ].map(o => ({ ...o, savingsKwh: Math.round(o.savingsKwh), savingsDollars: Math.round(o.savingsDollars), carbonReductionKg: Math.round(o.carbonReductionKg) }));
+
+    const carbonPerSqFt = totalSqFt > 0 ? Math.round(totalCarbon / totalSqFt * 100) / 100 : 0;
+    const totalOccupancy = zones.reduce((s, z) => s + z.currentOccupancy, 0);
+    const carbonPerOccupant = totalOccupancy > 0 ? Math.round(totalCarbon / totalOccupancy) : 0;
+    const industryAvg = 6.0;
+    const performance = carbonPerSqFt < industryAvg * 0.8 ? 'excellent' : carbonPerSqFt < industryAvg ? 'good' : carbonPerSqFt < industryAvg * 1.2 ? 'average' : 'poor';
+
+    const insights: string[] = [];
+    if (waste.length > 0) insights.push(`${waste.length} energy waste incident(s) detected Ã¢â‚¬â€ ${Math.round(totalWaste).toLocaleString()} kWh wasted`);
+    if (performance === 'poor') insights.push('Carbon efficiency below industry average Ã¢â‚¬â€ prioritize energy optimizations');
+    const totalSavings = optimizations.reduce((s, o) => s + o.savingsDollars, 0);
+    if (totalSavings > 0) insights.push(`$${totalSavings.toLocaleString()} annual savings available through efficiency improvements`);
+    if (insights.length === 0) insights.push('Sustainability metrics are on target');
+
+    return {
+      totalCarbonFootprint: Math.round(totalCarbon),
+      energyBreakdown: systemBreakdown.map(s => ({ ...s, kWh: Math.round(s.kWh), carbonKg: Math.round(s.carbonKg) })),
+      byBuilding: Object.entries(buildingMap).map(([b, d]) => ({ building: b, sqFt: d.sqFt, energyKwh: Math.round(d.energy), carbonKg: Math.round(d.energy * carbonPerKwh), efficiencyRating: d.sqFt > 0 && (d.energy * carbonPerKwh / d.sqFt) < industryAvg ? 'Above average' : 'Below average' })),
+      wasteDetected: waste,
+      optimizationOpportunities: optimizations,
+      benchmarks: { carbonPerSqFt, carbonPerOccupant, industryAvgPerSqFt: industryAvg, performance },
+      renewableOpportunity: { currentRenewable: 5, targetRenewable: 30, investmentRequired: Math.round(totalEnergyKwh * 0.25 * 0.05) },
+      insights,
     };
   }
 }

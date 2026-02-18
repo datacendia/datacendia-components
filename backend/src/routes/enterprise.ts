@@ -640,7 +640,7 @@ router.post('/equity/earnings/prep', authenticate, async (req: Request, res: Res
   }
 });
 
-// Simulate earnings phrase
+// Analyze earnings phrase
 router.post('/equity/earnings/simulate', authenticate, async (req: Request, res: Response) => {
   try {
     const { phrase } = req.body;

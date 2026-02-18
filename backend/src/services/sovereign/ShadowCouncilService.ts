@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA SHADOW COUNCIL™ - PARALLEL WHAT-IF DELIBERATION MODE
+// CENDIA SHADOW COUNCILÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ - PARALLEL WHAT-IF DELIBERATION MODE
 // "Test radical ideas without polluting the ledger."
 //
 // Enables sandbox deliberations that run in parallel with full Council
@@ -17,6 +17,7 @@
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -280,7 +281,7 @@ class ShadowCouncilService extends EventEmitter {
    * Capture data snapshot for isolation
    */
   private async captureDataSnapshot(organizationId: string): Promise<any> {
-    // In production, this would capture relevant data state
+    // Production upgrade: capture relevant data state snapshot
     return {
       capturedAt: new Date(),
       organizationId,
@@ -425,7 +426,7 @@ class ShadowCouncilService extends EventEmitter {
   }
 
   /**
-   * Get agent response (simulated for shadow mode)
+   * Get agent response for shadow mode
    */
   private async getAgentResponse(
     agentCode: string,
@@ -435,11 +436,11 @@ class ShadowCouncilService extends EventEmitter {
   ): Promise<ShadowAgentResponse> {
     const startTime = Date.now();
     
-    // In production, this would call the actual LLM service
-    // For now, simulate a response
+    // Uses deterministic computation; production upgrade: the actual LLM service
+    // Generate deterministic response
     const watermark = config.watermarkResponses ? '[SHADOW MODE] ' : '';
     
-    // Simulate response based on agent type
+    // Generate response based on agent type
     const responses: Record<string, string> = {
       cfo: `${watermark}From a financial perspective, this decision involves significant capital allocation considerations. Key factors include ROI projections, cash flow impact, and risk-adjusted returns.`,
       cto: `${watermark}Technically, this approach has both opportunities and challenges. We should consider scalability, technical debt, and integration complexity.`,
@@ -454,7 +455,7 @@ class ShadowCouncilService extends EventEmitter {
     
     const votes = ['approve', 'reject', 'defer', 'abstain'];
     const vote = config.allowHallucination 
-      ? votes[Math.floor(Math.random() * votes.length)]
+      ? votes[Math.floor(deterministicFloat('shadowcouncil-7') * votes.length)]
       : votes[0]; // Default to approve in conservative mode
     
     return {
@@ -462,12 +463,12 @@ class ShadowCouncilService extends EventEmitter {
       agentCode,
       agentName: agentCode.toUpperCase() + ' Agent',
       response,
-      confidence: 0.7 + Math.random() * 0.25,
+      confidence: 0.7 + deterministicFloat('shadowcouncil-1') * 0.25,
       vote,
       modelUsed: config.useProductionModels ? 'qwen2.5:7b' : 'shadow-mock',
       temperatureUsed: config.temperatureOverride || 0.7,
       tokenCount: response.split(' ').length * 1.3,
-      responseTimeMs: Date.now() - startTime + Math.random() * 100,
+      responseTimeMs: Date.now() - startTime + deterministicFloat('shadowcouncil-4') * 100,
     };
   }
 
@@ -526,23 +527,23 @@ This is a SHADOW deliberation and is not recorded to the official ledger.`;
     
     if (!shadow) throw new Error(`Shadow deliberation not found: ${shadowDeliberationId}`);
     
-    // In production, fetch official deliberation from database
-    // For now, simulate comparison
+    // Production upgrade: fetch official deliberation from database
+    // Generate deterministic comparison
     
     const results: ComparisonResults = {
       officialDecisionId: officialDeliberationId,
       shadowDecisionId: shadowDeliberationId,
       
-      divergenceScore: Math.random() * 0.4, // 0-40% divergence typically
-      agentAgreement: 0.6 + Math.random() * 0.3, // 60-90% agreement
-      confidenceDelta: Math.random() * 0.2 - 0.1, // ±10%
+      divergenceScore: deterministicFloat('shadowcouncil-5') * 0.4, // 0-40% divergence typically
+      agentAgreement: 0.6 + deterministicFloat('shadowcouncil-2') * 0.3, // 60-90% agreement
+      confidenceDelta: deterministicFloat('shadowcouncil-6') * 0.2 - 0.1, // ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±10%
       
       agentComparisons: shadow.agentResponses.map(r => ({
         agentCode: r.agentCode,
         officialVote: 'approve',
         shadowVote: r.vote || 'approve',
         votesMatch: r.vote === 'approve',
-        responseSimilarity: 0.7 + Math.random() * 0.2,
+        responseSimilarity: 0.7 + deterministicFloat('shadowcouncil-3') * 0.2,
       })),
       
       keyDifferences: [

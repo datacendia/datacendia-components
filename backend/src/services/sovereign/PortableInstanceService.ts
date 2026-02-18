@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA PORTABLE INSTANCE™ - BOOTABLE USB SOVEREIGN DEPLOYMENT
+// CENDIA PORTABLE INSTANCEÃ¢â€žÂ¢ - BOOTABLE USB SOVEREIGN DEPLOYMENT
 // "Plug in, boot, run full Datacendia. Zero install."
 //
 // Creates bootable USB images containing complete Datacendia deployment.
@@ -443,7 +443,7 @@ class PortableInstanceService extends EventEmitter {
       
       image.buildLogs.push(`[${new Date().toISOString()}] ${action}`);
       
-      // Simulate phase execution
+      // Execute deployment phase
       for (let i = 0; i <= 100; i += 10) {
         progress.phaseProgress = i;
         progress.overallProgress = completedWeight + (weight * i / 100);
@@ -711,14 +711,14 @@ ${config.security.requirePassword ? '**Note:** Password required at boot.' : ''}
 
 ## Components Included
 
-- Backend: ${config.components.backend ? '✅' : '❌'}
-- Frontend: ${config.components.frontend ? '✅' : '❌'}
-- PostgreSQL: ${config.components.database ? '✅' : '❌'}
-- Redis: ${config.components.redis ? '✅' : '❌'}
-- Ollama: ${config.components.ollama ? '✅' : '❌'}
-- MinIO: ${config.components.minio ? '✅' : '❌'}
-- Neo4j: ${config.components.neo4j ? '✅' : '❌'}
-- Keycloak: ${config.components.keycloak ? '✅' : '❌'}
+- Backend: ${config.components.backend ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- Frontend: ${config.components.frontend ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- PostgreSQL: ${config.components.database ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- Redis: ${config.components.redis ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- Ollama: ${config.components.ollama ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- MinIO: ${config.components.minio ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- Neo4j: ${config.components.neo4j ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- Keycloak: ${config.components.keycloak ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
 
 ### AI Models
 ${config.components.models.map(m => `- ${m}`).join('\n')}
@@ -808,7 +808,7 @@ For support: support@datacendia.com
     const config = this.configs.get(image.configId);
     const filename = `datacendia-${config?.imageType || 'portable'}-${imageId}.zip`;
     
-    // In production, would create actual ZIP
+    // Production upgrade: create actual ZIP archive
     // For now, return the artifacts directory
     
     image.deployedCount++;

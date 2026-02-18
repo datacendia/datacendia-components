@@ -9,6 +9,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 interface Machine {
   id: string;
@@ -32,16 +33,16 @@ const generateMachines = (lineId: string, count: number): Machine[] => {
   const statuses: Machine['status'][] = ['running', 'running', 'running', 'idle', 'maintenance', 'error', 'changeover'];
   
   return Array.from({ length: count }, (_, i) => {
-    const status = statuses[Math.floor(Math.random() * statuses.length)] as Machine['status'];
-    const oee = status === 'running' ? 75 + Math.random() * 20 : status === 'idle' ? 0 : Math.random() * 30;
+    const status = statuses[Math.floor(deterministicFloat('productionlinestatus-10') * statuses.length)] as Machine['status'];
+    const oee = status === 'running' ? 75 + deterministicFloat('productionlinestatus-6') * 20 : status === 'idle' ? 0 : deterministicFloat('productionlinestatus-9') * 30;
     return {
       id: `${lineId}-M${i + 1}`,
       name: `Machine ${i + 1}`,
       status,
       oee,
-      output: status === 'running' ? Math.floor(Math.random() * 500) + 200 : 0,
+      output: status === 'running' ? deterministicInt(0, 499, 'productionlinestatus-1') + 200 : 0,
       target: 450,
-      cycleTime: 12 + Math.random() * 5,
+      cycleTime: 12 + deterministicFloat('productionlinestatus-7') * 5,
     };
   });
 };
@@ -62,11 +63,11 @@ const MachineBlock: React.FC<{ machine: Machine; onClick: () => void }> = ({ mac
   };
 
   const statusIcons = {
-    running: '⚙️',
-    idle: '⏸️',
-    maintenance: '🔧',
-    error: '⚠️',
-    changeover: '🔄',
+    running: 'âš™ï¸',
+    idle: 'â¸ï¸',
+    maintenance: 'ðŸ”§',
+    error: 'âš ï¸',
+    changeover: 'ðŸ”„',
   };
 
   return (
@@ -103,7 +104,7 @@ const LineCard: React.FC<{ line: ProductionLine; onMachineClick: (m: Machine) =>
       <div className="flex items-center justify-between mb-3">
         <div>
           <h4 className="text-sm font-semibold text-white">{line.name}</h4>
-          <p className="text-xs text-gray-500">{line.product} • {line.shift}</p>
+          <p className="text-xs text-gray-500">{line.product} â€¢ {line.shift}</p>
         </div>
         <div className="flex items-center gap-2">
           {errors > 0 && (
@@ -125,7 +126,7 @@ const LineCard: React.FC<{ line: ProductionLine; onMachineClick: (m: Machine) =>
       {/* Machine Flow */}
       <div className="flex items-center gap-2 mb-3 overflow-x-auto pb-2">
         <div className="flex-shrink-0 w-8 h-8 rounded bg-cyan-900/30 border border-cyan-500/30 flex items-center justify-center text-sm">
-          📥
+          ðŸ“¥
         </div>
         {line.machines.map((machine) => (
           <React.Fragment key={machine.id}>
@@ -135,7 +136,7 @@ const LineCard: React.FC<{ line: ProductionLine; onMachineClick: (m: Machine) =>
         ))}
         <div className="w-4 h-0.5 bg-sovereign-border flex-shrink-0" />
         <div className="flex-shrink-0 w-8 h-8 rounded bg-emerald-900/30 border border-emerald-500/30 flex items-center justify-center text-sm">
-          📦
+          ðŸ“¦
         </div>
       </div>
 
@@ -167,22 +168,22 @@ export const ProductionLineStatus: React.FC<{ className?: string }> = ({ classNa
       setLines(prev => prev.map(line => ({
         ...line,
         machines: line.machines.map((machine): Machine => {
-          const shouldChange = Math.random() > 0.9;
+          const shouldChange = deterministicFloat('productionlinestatus-5') > 0.9;
           if (shouldChange) {
             const statuses: Machine['status'][] = ['running', 'running', 'running', 'idle', 'maintenance'];
-            const newStatus = statuses[Math.floor(Math.random() * statuses.length)] as Machine['status'];
+            const newStatus = statuses[Math.floor(deterministicFloat('productionlinestatus-11') * statuses.length)] as Machine['status'];
             return {
               ...machine,
               status: newStatus,
-              oee: newStatus === 'running' ? 75 + Math.random() * 20 : 0,
-              output: newStatus === 'running' ? machine.output + Math.floor(Math.random() * 10) : machine.output,
+              oee: newStatus === 'running' ? 75 + deterministicFloat('productionlinestatus-8') * 20 : 0,
+              output: newStatus === 'running' ? machine.output + deterministicInt(0, 9, 'productionlinestatus-2') : machine.output,
             };
           }
           if (machine.status === 'running') {
             return {
               ...machine,
-              output: Math.min(machine.target, machine.output + Math.floor(Math.random() * 5)),
-              oee: Math.min(100, machine.oee + (Math.random() - 0.5) * 2),
+              output: Math.min(machine.target, machine.output + deterministicInt(0, 4, 'productionlinestatus-3')),
+              oee: Math.min(100, machine.oee + (deterministicFloat('productionlinestatus-4') - 0.5) * 2),
             };
           }
           return machine;

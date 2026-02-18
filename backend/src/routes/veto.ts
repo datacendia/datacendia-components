@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA VETO™ - API ROUTES
+// CENDIA VETOÃ¢â€žÂ¢ - API ROUTES
 // Adversarial Governance Engine endpoints
 // =============================================================================
 
@@ -11,8 +11,14 @@ import express, { Request, Response, Router } from 'express';
 import { authenticate } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import ollama from '../services/ollama.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router: Router = express.Router();
+
+// Health endpoint
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'veto', timestamp: new Date().toISOString() } });
+});
 
 // =============================================================================
 // TYPES
@@ -43,7 +49,7 @@ interface VetoDecision {
   finalDecision?: 'approved' | 'vetoed';
 }
 
-// In-memory store (would use PostgreSQL in production)
+// In-memory store; production upgrade: use PostgreSQL
 const decisions: Map<string, VetoDecision> = new Map();
 
 // =============================================================================
@@ -83,7 +89,7 @@ router.post('/proposals', authenticate, async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Title and description required' });
     }
 
-    const id = `veto-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `veto-${Date.now()}-${deterministicFloat('veto-1').toString(36).substr(2, 9)}`;
     
     const decision: VetoDecision = {
       id,

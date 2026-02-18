@@ -7,8 +7,8 @@
 // =============================================================================
 // Automatically routes analytics queries to the optimal backend based on:
 // - Query type (streaming vs ad-hoc)
-// - Data volume (high concurrent users → Druid)
-// - Query complexity (complex SQL → ClickHouse)
+// - Data volume (high concurrent users â†’ Druid)
+// - Query complexity (complex SQL â†’ ClickHouse)
 // - Resource availability (fallback if one is down)
 // =============================================================================
 
@@ -17,13 +17,13 @@ import { clickhouseService, CLICKHOUSE_TABLES, ClickHouseQueryResult } from './C
 
 // Routing decision reasons
 export type RoutingReason = 
-  | 'streaming_ingestion'      // Real-time data → Druid
-  | 'high_concurrency'         // Many concurrent queries → Druid
-  | 'complex_sql'              // Complex joins/CTEs → ClickHouse
-  | 'ad_hoc_query'             // One-off analysis → ClickHouse
-  | 'resource_optimization'    // Lower resource usage → ClickHouse
-  | 'druid_unavailable'        // Fallback → ClickHouse
-  | 'clickhouse_unavailable'   // Fallback → Druid
+  | 'streaming_ingestion'      // Real-time data â†’ Druid
+  | 'high_concurrency'         // Many concurrent queries â†’ Druid
+  | 'complex_sql'              // Complex joins/CTEs â†’ ClickHouse
+  | 'ad_hoc_query'             // One-off analysis â†’ ClickHouse
+  | 'resource_optimization'    // Lower resource usage â†’ ClickHouse
+  | 'druid_unavailable'        // Fallback â†’ ClickHouse
+  | 'clickhouse_unavailable'   // Fallback â†’ Druid
   | 'user_preference'          // Explicit backend selection
   | 'default';
 
@@ -50,7 +50,7 @@ export interface AnalyticsQueryResult<T = any> {
 
 // Configuration thresholds
 const ROUTING_CONFIG = {
-  highConcurrencyThreshold: 50,    // Users above this → prefer Druid
+  highConcurrencyThreshold: 50,    // Users above this â†’ prefer Druid
   complexQueryKeywords: ['JOIN', 'WITH', 'UNION', 'INTERSECT', 'EXCEPT'],
 };
 
@@ -104,7 +104,7 @@ class AnalyticsRouter {
       };
     }
 
-    // Streaming/real-time ingestion → Druid (native capability)
+    // Streaming/real-time ingestion â†’ Druid (native capability)
     if (characteristics.isStreaming) {
       if (this.druidAvailable) {
         return { backend: 'druid', reason: 'streaming_ingestion' };
@@ -112,7 +112,7 @@ class AnalyticsRouter {
       // Fall through to ClickHouse if Druid unavailable
     }
 
-    // High concurrency → Druid (optimized for this)
+    // High concurrency â†’ Druid (optimized for this)
     if (characteristics.expectedConcurrency && 
         characteristics.expectedConcurrency > ROUTING_CONFIG.highConcurrencyThreshold) {
       if (this.druidAvailable) {
@@ -120,21 +120,21 @@ class AnalyticsRouter {
       }
     }
 
-    // Complex SQL with joins → ClickHouse (full SQL support)
+    // Complex SQL with joins â†’ ClickHouse (full SQL support)
     if (characteristics.hasComplexJoins) {
       if (this.clickhouseAvailable) {
         return { backend: 'clickhouse', reason: 'complex_sql' };
       }
     }
 
-    // Ad-hoc analysis → ClickHouse (simpler, faster for one-offs)
+    // Ad-hoc analysis â†’ ClickHouse (simpler, faster for one-offs)
     if (characteristics.isAdHocAnalysis) {
       if (this.clickhouseAvailable) {
         return { backend: 'clickhouse', reason: 'ad_hoc_query' };
       }
     }
 
-    // Resource optimization preference → ClickHouse (lower footprint)
+    // Resource optimization preference â†’ ClickHouse (lower footprint)
     if (characteristics.preferLowResources) {
       if (this.clickhouseAvailable) {
         return { backend: 'clickhouse', reason: 'resource_optimization' };
@@ -186,7 +186,7 @@ class AnalyticsRouter {
     
     const { backend, reason } = this.selectBackend({
       ...options.characteristics,
-      // Timeline queries are often streaming in production
+      // Production upgrade: implement streaming for timeline queries
       isStreaming: options.characteristics?.isStreaming ?? false,
     });
 

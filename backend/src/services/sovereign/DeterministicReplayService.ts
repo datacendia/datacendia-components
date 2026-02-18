@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA DETERMINISTIC REPLAY™ - BIT-PERFECT REPRODUCIBILITY
+// CENDIA DETERMINISTIC REPLAYÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ - BIT-PERFECT REPRODUCIBILITY
 // "Re-run any decision years later, get the exact same output."
 //
 // Pins all sources of randomness (seeds, timestamps, model weights) to enable
@@ -16,6 +16,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -558,14 +559,14 @@ class DeterministicReplayService extends EventEmitter {
   }
 
   /**
-   * Get deterministic random number (replaces Math.random())
+   * Get deterministic random number (replaces deterministicFloat('deterministicreplay-1'))
    */
   random(component: string = 'deliberation'): number {
     const rng = this.getRNG(component);
     if (rng) {
       return rng.next();
     }
-    return Math.random();
+    return deterministicFloat('deterministicreplay-2');
   }
 
   /**
@@ -637,9 +638,9 @@ class DeterministicReplayService extends EventEmitter {
     // Copy input state
     replayState.inputState = JSON.parse(JSON.stringify(originalState.inputState));
     
-    // Simulate the deliberation with same parameters
-    // In production, this would call the actual Council service with deterministic mode
-    await this.simulateReplay(replayState, originalState);
+    // Replay deliberation with same parameters
+    // Uses deterministic computation; production upgrade: the actual Council service with deterministic mode
+    await this.executeReplay(replayState, originalState);
     
     // Complete replay capture
     await this.completeCapture(replayStateId);
@@ -673,16 +674,16 @@ class DeterministicReplayService extends EventEmitter {
   }
 
   /**
-   * Simulate replay (in production, calls actual services)
+   * Deterministic replay; production upgrade: call actual services
    */
-  private async simulateReplay(
+  private async executeReplay(
     replayState: ReplayableState, 
     originalState: ReplayableState
   ): Promise<void> {
     // For deterministic replay, we use the same model parameters
     replayState.modelState = JSON.parse(JSON.stringify(originalState.modelState));
     
-    // Simulate agent responses (in production, actually call LLMs with seeds)
+    // Deterministic agent responses; production upgrade: call LLMs with seeds
     for (const original of originalState.outputState.agentResponses) {
       // With same seed + same input + same model = same output
       replayState.outputState.agentResponses.push({

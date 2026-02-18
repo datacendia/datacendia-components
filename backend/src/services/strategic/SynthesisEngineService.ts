@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// SYNTHESIS ENGINE™ - THE ORCHESTRATION LAYER
+// SYNTHESIS ENGINEâ„¢ - THE ORCHESTRATION LAYER
 // Multi-Agent Coordination & Decision Synthesis
 // "The Conductor" - Orchestrates agents that debate and decide
 // =============================================================================
@@ -476,7 +476,7 @@ Output JSON:
     execution.status = 'executing';
     execution.currentStep = stepIndex;
 
-    // Simulate step execution (in production, this would call actual services)
+    // Deterministic step execution (production upgrade: call actual services)
     const result = `Step ${step.order} "${step.action}" executed successfully`;
     
     execution.executionLog.push({

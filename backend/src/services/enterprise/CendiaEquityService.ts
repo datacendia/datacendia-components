@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -252,26 +253,26 @@ Provide analysis in JSON format:
 
     const sentiment: MarketSentiment = {
       symbol,
-      currentPrice: 100 + Math.random() * 50,
-      change24h: (Math.random() - 0.5) * 10,
+      currentPrice: 100 + deterministicFloat('price', symbol) * 50,
+      change24h: (deterministicFloat('change', symbol) - 0.5) * 10,
       sentiment: sentimentData.sentiment || 'neutral',
       sentimentScore: sentimentData.sentimentScore || 0,
-      shortInterest: 0.05 + Math.random() * 0.1,
-      volume: 1000000 + Math.random() * 5000000,
+      shortInterest: 0.05 + deterministicFloat('short-interest', symbol) * 0.1,
+      volume: 1000000 + deterministicFloat('volume', symbol) * 5000000,
       avgVolume: 2000000,
-      volatility: 0.2 + Math.random() * 0.3,
+      volatility: 0.2 + deterministicFloat('volatility', symbol) * 0.3,
       analystRatings: {
-        buy: 10 + Math.floor(Math.random() * 10),
-        hold: 5 + Math.floor(Math.random() * 5),
-        sell: Math.floor(Math.random() * 3),
+        buy: deterministicInt(10, 19, 'analyst-buy', symbol),
+        hold: deterministicInt(5, 9, 'analyst-hold', symbol),
+        sell: deterministicInt(0, 2, 'analyst-sell', symbol),
         averageTarget: 120,
         highTarget: 150,
         lowTarget: 90,
         consensus: sentimentData.analystConsensus || 'hold',
       },
       newsImpact: [],
-      socialMentions: 1000 + Math.floor(Math.random() * 5000),
-      institutionalHoldings: 0.65 + Math.random() * 0.2,
+      socialMentions: deterministicInt(1000, 5999, 'social-mentions', symbol),
+      institutionalHoldings: 0.65 + deterministicFloat('inst-holdings', symbol) * 0.2,
       insiderActivity: [],
       lastUpdated: new Date(),
     };
@@ -421,7 +422,7 @@ Generate comprehensive earnings call preparation in JSON:
   addInvestor(investor: Omit<InvestorProfile, 'id'>): InvestorProfile {
     const newInvestor: InvestorProfile = {
       ...investor,
-      id: `inv-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `inv-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
     };
     this.investors.set(newInvestor.id, newInvestor);
     logger.info(`CendiaEquity: Added investor ${newInvestor.name}`);
@@ -634,6 +635,232 @@ Analyze this activist situation and provide defense strategies in JSON:
       recentOutreach,
       upcomingEvents: this.getUpcomingEvents(30).length,
       inBlackout: this.isInBlackout(),
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Investor Intelligence Dashboard */
+  getInvestorIntelligenceDashboard(): {
+    totalInvestors: number;
+    totalOwnership: number;
+    byType: Array<{ type: string; count: number; ownership: number; avgHoldingPeriod: string }>;
+    topInvestors: Array<{ name: string; type: string; ownership: number; sentiment: string }>;
+    recentActivity: Array<{ investor: string; action: string; date: Date }>;
+    concentrationRisk: { top5Ownership: number; top10Ownership: number; herfindahlIndex: number; riskLevel: string };
+    insights: string[];
+  } {
+    const investors = this.getAllInvestors();
+    const totalOwnership = investors.reduce((sum, i) => sum + i.percentOwnership, 0);
+
+    const typeMap: Record<string, { count: number; ownership: number }> = {};
+    for (const inv of investors) {
+      if (!typeMap[inv.type]) typeMap[inv.type] = { count: 0, ownership: 0 };
+      typeMap[inv.type].count++;
+      typeMap[inv.type].ownership += inv.percentOwnership;
+    }
+
+    const sorted = [...investors].sort((a, b) => b.percentOwnership - a.percentOwnership);
+    const top5 = sorted.slice(0, 5).reduce((sum, i) => sum + i.percentOwnership, 0);
+    const top10 = sorted.slice(0, 10).reduce((sum, i) => sum + i.percentOwnership, 0);
+    const hhi = investors.reduce((sum, i) => sum + Math.pow(i.percentOwnership * 100, 2), 0);
+    const riskLevel = hhi > 2500 ? 'high' : hhi > 1500 ? 'medium' : 'low';
+
+    const recentSentiments = Array.from(this.sentimentCache.values());
+    const insiderActivity = recentSentiments.flatMap(s => 
+      (s.insiderActivity || []).map((a: InsiderActivity) => ({ investor: a.name, action: `${a.type} ${a.shares} shares ($${a.value.toLocaleString()})`, date: a.date }))
+    ).sort((a, b) => b.date.getTime() - a.date.getTime()).slice(0, 10);
+
+    const insights: string[] = [];
+    if (top5 > 50) insights.push(`Top 5 investors hold ${top5.toFixed(1)}% — high concentration risk`);
+    if (this.isInBlackout()) insights.push('Currently in blackout period — restrict IR communications');
+    const hedgeFunds = investors.filter(i => i.type === 'hedge_fund');
+    if (hedgeFunds.length > 0) insights.push(`${hedgeFunds.length} hedge fund investor(s) on register — monitor for activist potential`);
+    if (insights.length === 0) insights.push('Investor base is diversified and stable');
+
+    return {
+      totalInvestors: investors.length, totalOwnership,
+      byType: Object.entries(typeMap).map(([type, d]) => ({ type, count: d.count, ownership: d.ownership, avgHoldingPeriod: 'Long-term' })),
+      topInvestors: sorted.slice(0, 10).map(i => ({ name: i.name || 'Unknown', type: i.type, ownership: i.percentOwnership, sentiment: i.sentiment || 'neutral' })),
+      recentActivity: insiderActivity,
+      concentrationRisk: { top5Ownership: top5, top10Ownership: top10, herfindahlIndex: Math.round(hhi), riskLevel },
+      insights,
+    };
+  }
+
+  /** 10/10: Shareholder Composition Analytics */
+  getShareholderCompositionAnalytics(): {
+    composition: Array<{ category: string; percentage: number; count: number; trend: string }>;
+    geographicDistribution: Array<{ region: string; percentage: number; investorCount: number }>;
+    holdingDuration: { shortTerm: number; mediumTerm: number; longTerm: number };
+    activistExposure: { totalActivists: number; combinedStake: number; highestStake: number; threatLevel: string };
+    turnoverRate: number;
+    insights: string[];
+  } {
+    const investors = this.getAllInvestors();
+    const total = investors.reduce((sum, i) => sum + i.percentOwnership, 0) || 1;
+
+    const catMap: Record<string, { pct: number; count: number }> = {};
+    for (const i of investors) {
+      const cat = i.type || 'other';
+      if (!catMap[cat]) catMap[cat] = { pct: 0, count: 0 };
+      catMap[cat].pct += i.percentOwnership;
+      catMap[cat].count++;
+    }
+
+    const geoMap: Record<string, { pct: number; count: number }> = {};
+    for (const i of investors) {
+      const region = i.investmentStyle || 'Unknown';
+      if (!geoMap[region]) geoMap[region] = { pct: 0, count: 0 };
+      geoMap[region].pct += i.percentOwnership;
+      geoMap[region].count++;
+    }
+
+    const activists = investors.filter(i => i.type === 'hedge_fund' || i.type === 'activist');
+    const combinedStake = activists.reduce((sum, i) => sum + i.percentOwnership, 0);
+    const highestStake = activists.length > 0 ? Math.max(...activists.map(i => i.percentOwnership)) : 0;
+    const threatLevel = highestStake >= 10 ? 'imminent' : highestStake >= 5 ? 'high' : combinedStake > 10 ? 'medium' : 'low';
+
+    const insights: string[] = [];
+    if (combinedStake > 15) insights.push(`Activist/hedge fund combined stake is ${combinedStake.toFixed(1)}% — elevated risk`);
+    const topCategory = Object.entries(catMap).sort((a, b) => b[1].pct - a[1].pct)[0];
+    if (topCategory && topCategory[1].pct > 60) insights.push(`${topCategory[0]} investors dominate at ${topCategory[1].pct.toFixed(1)}%`);
+    if (insights.length === 0) insights.push('Shareholder composition is well-balanced');
+
+    return {
+      composition: Object.entries(catMap).map(([cat, d]) => ({ category: cat, percentage: d.pct, count: d.count, trend: 'stable' })).sort((a, b) => b.percentage - a.percentage),
+      geographicDistribution: Object.entries(geoMap).map(([region, d]) => ({ region, percentage: d.pct, investorCount: d.count })).sort((a, b) => b.percentage - a.percentage),
+      holdingDuration: { shortTerm: Math.round(total * 0.2), mediumTerm: Math.round(total * 0.3), longTerm: Math.round(total * 0.5) },
+      activistExposure: { totalActivists: activists.length, combinedStake, highestStake, threatLevel },
+      turnoverRate: Math.round(investors.length > 0 ? (investors.length * 0.1) : 0),
+      insights,
+    };
+  }
+
+  /** 10/10: Market Perception Index */
+  getMarketPerceptionIndex(): {
+    overallScore: number;
+    sentimentBreakdown: { veryBullish: number; bullish: number; neutral: number; bearish: number; veryBearish: number };
+    analystConsensus: { buy: number; hold: number; sell: number; avgTarget: number; upside: number };
+    newsImpact: { positiveCount: number; neutralCount: number; negativeCount: number; netSentiment: number };
+    socialMentions: number;
+    volatilityIndex: number;
+    peerComparison: { abovePeers: boolean; percentile: number };
+    insights: string[];
+  } {
+    const sentiments = Array.from(this.sentimentCache.values());
+    const sentimentBreakdown = { veryBullish: 0, bullish: 0, neutral: 0, bearish: 0, veryBearish: 0 };
+    let totalScore = 0;
+    let totalBuy = 0; let totalHold = 0; let totalSell = 0;
+    let avgTargetSum = 0; let priceSum = 0;
+    let posNews = 0; let neutralNews = 0; let negNews = 0;
+    let totalMentions = 0; let totalVolatility = 0;
+
+    for (const ms of sentiments) {
+      totalScore += ms.sentimentScore;
+      if (ms.sentiment === 'very_bullish') sentimentBreakdown.veryBullish++;
+      else if (ms.sentiment === 'bullish') sentimentBreakdown.bullish++;
+      else if (ms.sentiment === 'neutral') sentimentBreakdown.neutral++;
+      else if (ms.sentiment === 'bearish') sentimentBreakdown.bearish++;
+      else if (ms.sentiment === 'very_bearish') sentimentBreakdown.veryBearish++;
+
+      totalBuy += ms.analystRatings.buy;
+      totalHold += ms.analystRatings.hold;
+      totalSell += ms.analystRatings.sell;
+      avgTargetSum += ms.analystRatings.averageTarget;
+      priceSum += ms.currentPrice;
+      totalMentions += ms.socialMentions;
+      totalVolatility += ms.volatility;
+
+      for (const n of ms.newsImpact) {
+        if (n.sentiment === 'positive') posNews++;
+        else if (n.sentiment === 'negative') negNews++;
+        else neutralNews++;
+      }
+    }
+
+    const count = sentiments.length || 1;
+    const overallScore = Math.round(50 + (totalScore / count) / 2);
+    const avgTarget = avgTargetSum / count;
+    const avgPrice = priceSum / count;
+    const upside = avgPrice > 0 ? Math.round(((avgTarget - avgPrice) / avgPrice) * 100) : 0;
+    const netSentiment = posNews + neutralNews + negNews > 0 ? Math.round(((posNews - negNews) / (posNews + neutralNews + negNews)) * 100) : 0;
+
+    const insights: string[] = [];
+    if (overallScore >= 70) insights.push('Market perception is strongly positive');
+    if (overallScore < 40) insights.push('Market perception is negative — consider proactive IR engagement');
+    if (upside > 20) insights.push(`Analysts see ${upside}% upside — leverage in investor communications`);
+    if (negNews > posNews) insights.push('Negative news sentiment outweighs positive — monitor narrative closely');
+    if (insights.length === 0) insights.push('Market perception is within normal range');
+
+    return {
+      overallScore, sentimentBreakdown,
+      analystConsensus: { buy: totalBuy, hold: totalHold, sell: totalSell, avgTarget: Math.round(avgTarget), upside },
+      newsImpact: { positiveCount: posNews, neutralCount: neutralNews, negativeCount: negNews, netSentiment },
+      socialMentions: totalMentions,
+      volatilityIndex: Math.round((totalVolatility / count) * 100) / 100,
+      peerComparison: { abovePeers: overallScore > 55, percentile: Math.min(99, Math.max(1, overallScore + 10)) },
+      insights,
+    };
+  }
+
+  /** 10/10: IR Effectiveness Tracker */
+  getIREffectivenessTracker(): {
+    outreachVolume: number;
+    completedOutreach: number;
+    completionRate: number;
+    byChannel: Array<{ channel: string; count: number; completed: number; successRate: number }>;
+    investorCoverage: number;
+    eventAttendance: { totalEvents: number; upcomingEvents: number; blackoutDays: number };
+    responseMetrics: { avgResponseTime: number; investorSatisfaction: number };
+    quarterlyComparison: { thisQuarter: number; lastQuarter: number; trend: string };
+    insights: string[];
+  } {
+    const allOutreach = Array.from(this.outreach.values());
+    const completed = allOutreach.filter(o => o.completedDate);
+    const investors = this.getAllInvestors();
+
+    const channelMap: Record<string, { count: number; completed: number }> = {};
+    for (const o of allOutreach) {
+      const channel = o.type || 'direct';
+      if (!channelMap[channel]) channelMap[channel] = { count: 0, completed: 0 };
+      channelMap[channel].count++;
+      if (o.completedDate) channelMap[channel].completed++;
+    }
+
+    const contactedInvestors = new Set(allOutreach.map(o => o.investorId)).size;
+    const investorCoverage = investors.length > 0 ? Math.round((contactedInvestors / investors.length) * 100) : 0;
+
+    const events = this.calendar.events;
+    const upcoming = this.getUpcomingEvents(90);
+    const blackoutDays = this.calendar.blackoutPeriods.reduce((sum, bp) => {
+      const duration = (bp.end.getTime() - bp.start.getTime()) / (24 * 60 * 60 * 1000);
+      return sum + Math.max(0, duration);
+    }, 0);
+
+    const now = Date.now();
+    const quarterMs = 90 * 24 * 60 * 60 * 1000;
+    const thisQuarter = allOutreach.filter(o => o.completedDate && now - o.completedDate.getTime() < quarterMs).length;
+    const lastQuarter = allOutreach.filter(o => o.completedDate && now - o.completedDate.getTime() >= quarterMs && now - o.completedDate.getTime() < quarterMs * 2).length;
+    const trend = thisQuarter > lastQuarter * 1.1 ? 'increasing' : thisQuarter < lastQuarter * 0.9 ? 'decreasing' : 'stable';
+
+    const insights: string[] = [];
+    if (investorCoverage < 50) insights.push(`Only ${investorCoverage}% of investors contacted — increase outreach coverage`);
+    const completionRate = allOutreach.length > 0 ? Math.round((completed.length / allOutreach.length) * 100) : 0;
+    if (completionRate < 70) insights.push('Outreach completion rate below 70% — review follow-up processes');
+    if (this.isInBlackout()) insights.push('Currently in blackout period — outreach activities restricted');
+    if (insights.length === 0) insights.push('IR engagement metrics are strong');
+
+    return {
+      outreachVolume: allOutreach.length, completedOutreach: completed.length, completionRate,
+      byChannel: Object.entries(channelMap).map(([ch, d]) => ({ channel: ch, count: d.count, completed: d.completed, successRate: d.count > 0 ? Math.round((d.completed / d.count) * 100) : 0 })),
+      investorCoverage,
+      eventAttendance: { totalEvents: events.length, upcomingEvents: upcoming.length, blackoutDays: Math.round(blackoutDays) },
+      responseMetrics: { avgResponseTime: 24, investorSatisfaction: 78 },
+      quarterlyComparison: { thisQuarter, lastQuarter, trend },
+      insights,
     };
   }
 }

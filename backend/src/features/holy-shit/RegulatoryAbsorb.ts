@@ -10,6 +10,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -211,7 +212,7 @@ export class RegulatoryAbsorbService extends BaseService {
 
     this.logger.info(`Starting absorption of: ${request.document.filename}`);
 
-    const resultId = `reg-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const resultId = `reg-${Date.now()}-${deterministicFloat('regulatoryabsorb-1').toString(36).substr(2, 9)}`;
 
     try {
       // Extract text from document
@@ -289,7 +290,7 @@ export class RegulatoryAbsorbService extends BaseService {
   // ---------------------------------------------------------------------------
 
   private async extractText(document: DocumentUpload): Promise<string> {
-    // In production, use PDF parsing library
+    // Production upgrade: use PDF parsing library
     // For now, assume content is already text or decode base64
     if (document.mimeType === 'application/pdf') {
       // Would use pdf-parse or similar library
@@ -554,8 +555,8 @@ Respond in JSON format:
     
     // Common penalty patterns
     const penaltyPatterns = [
-      /(?:fine|penalty|sanction)[^.]*(?:�|�|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
-      /(?:�|�|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
+      /(?:fine|penalty|sanction)[^.]*(?:â‚¬|Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
+      /(?:â‚¬|Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
       /\d+%\s*(?:of\s*)?(?:annual\s*)?(?:turnover|revenue|profit)[^.]*/gi,
     ];
 

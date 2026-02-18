@@ -9,6 +9,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 interface Bed {
   id: string;
@@ -31,17 +32,17 @@ const generateBeds = (unit: string, count: number): Bed[] => {
   const acuities: ('critical' | 'serious' | 'stable')[] = ['critical', 'serious', 'stable'];
   
   return Array.from({ length: count }, (_, i) => {
-    const isOccupied = Math.random() > 0.25;
-    const status: Bed['status'] = isOccupied ? 'occupied' : statuses[Math.floor(Math.random() * statuses.length)] as Bed['status'];
+    const isOccupied = deterministicFloat('hospitalfloormap-4') > 0.25;
+    const status: Bed['status'] = isOccupied ? 'occupied' : statuses[Math.floor(deterministicFloat('hospitalfloormap-6') * statuses.length)] as Bed['status'];
     const bed: Bed = {
       id: `${unit}-${i + 1}`,
       unit,
       status,
     };
     if (status === 'occupied') {
-      bed.patient = `Patient ${Math.floor(Math.random() * 1000)}`;
-      bed.admitTime = `${Math.floor(Math.random() * 72)}h ago`;
-      bed.acuity = acuities[Math.floor(Math.random() * acuities.length)];
+      bed.patient = `Patient ${deterministicInt(0, 999, 'hospitalfloormap-1')}`;
+      bed.admitTime = `${deterministicInt(0, 71, 'hospitalfloormap-2')}h ago`;
+      bed.acuity = acuities[Math.floor(deterministicFloat('hospitalfloormap-7') * acuities.length)];
     }
     return bed;
   });
@@ -131,14 +132,14 @@ export const HospitalFloorMap: React.FC<{ className?: string }> = ({ className }
       setUnits(prev => prev.map(unit => ({
         ...unit,
         beds: unit.beds.map((bed): Bed => {
-          if (Math.random() > 0.95) {
+          if (deterministicFloat('hospitalfloormap-5') > 0.95) {
             const statuses: Bed['status'][] = ['occupied', 'available', 'cleaning'];
-            const newStatus = statuses[Math.floor(Math.random() * statuses.length)] as Bed['status'];
+            const newStatus = statuses[Math.floor(deterministicFloat('hospitalfloormap-8') * statuses.length)] as Bed['status'];
             const acuityOptions: ('critical' | 'serious' | 'stable')[] = ['critical', 'serious', 'stable'];
             return {
               ...bed,
               status: newStatus,
-              acuity: newStatus === 'occupied' ? acuityOptions[Math.floor(Math.random() * 3)] : undefined,
+              acuity: newStatus === 'occupied' ? acuityOptions[deterministicInt(0, 2, 'hospitalfloormap-3')] : undefined,
             };
           }
           return bed;

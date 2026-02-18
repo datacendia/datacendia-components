@@ -23,7 +23,7 @@ export const securityHeaders: RequestHandler = helmet({
     directives: {
       defaultSrc: ["'self'"],
       scriptSrc: ["'self'"],
-      styleSrc: ["'self'", "'unsafe-inline'"], // Consider removing unsafe-inline in production
+      styleSrc: ["'self'", "'unsafe-inline'"], // Production upgrade: remove unsafe-inline
       imgSrc: ["'self'", 'data:', 'https:'],
       fontSrc: ["'self'"],
       objectSrc: ["'none'"],

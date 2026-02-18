@@ -4,6 +4,7 @@
 
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { cn } from '../../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 
 type ToastType = 'success' | 'error' | 'warning' | 'info';
 
@@ -35,7 +36,7 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [toasts, setToasts] = useState<Toast[]>([]);
 
   const addToast = useCallback((toast: Omit<Toast, 'id'>) => {
-    const id = Math.random().toString(36).slice(2, 9);
+    const id = deterministicFloat('toast-1').toString(36).slice(2, 9);
     const newToast = { ...toast, id, duration: toast.duration ?? 4000 };
     setToasts((prev) => [...prev, newToast]);
 
@@ -75,10 +76,10 @@ const ToastContainer: React.FC<{ toasts: Toast[]; removeToast: (id: string) => v
 
 const ToastItem: React.FC<{ toast: Toast; onClose: () => void }> = ({ toast, onClose }) => {
   const icons: Record<ToastType, string> = {
-    success: '✓',
-    error: '✕',
-    warning: '⚠',
-    info: 'ℹ',
+    success: 'âœ“',
+    error: 'âœ•',
+    warning: 'âš ',
+    info: 'â„¹',
   };
 
   const styles: Record<ToastType, string> = {
@@ -118,7 +119,7 @@ const ToastItem: React.FC<{ toast: Toast; onClose: () => void }> = ({ toast, onC
         onClick={onClose}
         className="text-current opacity-50 hover:opacity-100 transition-opacity"
       >
-        ✕
+        âœ•
       </button>
     </div>
   );

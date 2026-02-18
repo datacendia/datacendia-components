@@ -17,6 +17,7 @@ import {
   SystemicRisk,
 } from '../types.js';
 import { BaseCollapseAgent, AgentAnalysisParams } from './BaseCollapseAgent.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../../utils/deterministic.js';
 
 const SYSTEMS = [
   'Healthcare', 'Education', 'Transportation', 'Housing', 'Energy',
@@ -69,7 +70,7 @@ export class SystemicRiskAgent extends BaseCollapseAgent {
     for (const pattern of selectedPatterns) {
       const strength = this.randomInRange(0.3, 0.8) * stressMultiplier;
       dependencyGraph.push({ from: pattern.from, to: pattern.to, strength });
-      secondOrderEffects.push(`${pattern.from} → ${pattern.to}: ${pattern.mechanism}`);
+      secondOrderEffects.push(`${pattern.from} â†’ ${pattern.to}: ${pattern.mechanism}`);
     }
 
     // Identify systemic risks
@@ -86,7 +87,7 @@ export class SystemicRiskAgent extends BaseCollapseAgent {
         const totalImpact = this.randomInRange(0.5, 0.9);
 
         const risk: SystemicRisk = {
-          id: `SR-${Date.now().toString(36)}-${Math.random().toString(36).substring(2, 6)}`,
+          id: `SR-${Date.now().toString(36)}-${deterministicFloat('systemicriskagent-1').toString(36).substring(2, 6)}`,
           primarySystem: primary,
           affectedSystems: affected.length > 0 ? affected : cascadeChain.slice(1),
           cascadeChain,

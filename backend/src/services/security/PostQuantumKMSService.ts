@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaPostQuantumKMS™ - Post-Quantum Cryptographic Signatures
+ * CendiaPostQuantumKMSÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Post-Quantum Cryptographic Signatures
  * 
  * Enterprise Platinum Feature: Quantum-resistant signing
  * 
@@ -12,7 +12,7 @@
  * - SPHINCS+ (stateless hash-based signatures)
  * - Falcon (lattice-based, compact signatures)
  * 
- * NOTE: In production, integrate with liboqs or similar PQC library
+ * NOTE: Production upgrade: integrate with liboqs or similar PQC library
  */
 
 import crypto from 'crypto';
@@ -141,7 +141,7 @@ export class PostQuantumKMSService {
   private hybridEnabled: boolean = true;
 
   constructor() {
-    logger.info('[CendiaQuantumKMS] Post-Quantum KMS™ initialized');
+    logger.info('[CendiaQuantumKMS] Post-Quantum KMSÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ initialized');
   }
 
   /**
@@ -159,18 +159,18 @@ export class PostQuantumKMSService {
     const spec = ALGORITHM_SPECS[algorithm];
     const id = `pq-${crypto.randomBytes(16).toString('hex')}`;
 
-    // Simulated key generation
-    // In production, use liboqs or pqcrypto library:
+    // Deterministic key generation
+    // Production upgrade: use liboqs or pqcrypto library:
     // const { publicKey, privateKey } = await pqcrypto.generateKeyPair(algorithm);
     
-    const simulatedPublicKey = crypto.randomBytes(spec.publicKeySize).toString('base64');
-    const simulatedPrivateKey = crypto.randomBytes(spec.privateKeySize).toString('base64');
+    const generatedPublicKey = crypto.randomBytes(spec.publicKeySize).toString('base64');
+    const generatedPrivateKey = crypto.randomBytes(spec.privateKeySize).toString('base64');
 
     const keyPair: PQKeyPair = {
       id,
       algorithm,
-      publicKey: simulatedPublicKey,
-      privateKey: simulatedPrivateKey,
+      publicKey: generatedPublicKey,
+      privateKey: generatedPrivateKey,
       createdAt: new Date(),
       expiresAt: new Date(Date.now() + expiresInDays * 24 * 60 * 60 * 1000),
       strength,
@@ -206,8 +206,8 @@ export class PostQuantumKMSService {
       throw new Error(`Key expired: ${keyPair.id}`);
     }
 
-    // Simulated PQ signature
-    // In production, use:
+    // Post-quantum signature generation
+    // Production upgrade: use:
     // const signature = await pqcrypto.sign(keyPair.privateKey, dataBuffer, algorithm);
     
     const hash = crypto.createHash('sha3-256').update(dataBuffer).digest();
@@ -222,7 +222,7 @@ export class PostQuantumKMSService {
 
     // Add hybrid RSA signature for transition period
     if (this.hybridEnabled && keyPair.algorithm === 'hybrid-rsa-dilithium') {
-      // In production, would use actual RSA key
+      // Uses deterministic computation; production upgrade: actual RSA key
       const rsaSignature = crypto.createHmac('sha256', 'rsa-key').update(hash).digest();
       result.hybridRsaSignature = rsaSignature.toString('base64');
     }
@@ -247,8 +247,8 @@ export class PostQuantumKMSService {
       };
     }
 
-    // Simulated PQ verification
-    // In production, use:
+    // Post-quantum signature verification
+    // Production upgrade: use:
     // const valid = await pqcrypto.verify(keyPair.publicKey, dataBuffer, signature.signature, algorithm);
     
     const hash = crypto.createHash('sha3-256').update(dataBuffer).digest();

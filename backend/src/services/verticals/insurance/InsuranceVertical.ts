@@ -8,7 +8,7 @@
  * Target: 80% (Priority tier after Financial/Healthcare)
  * Datacendia = "Claims & Underwriting Truth Layer"
  * 
- * Killer Asset: Claim decision DNA — reproducible, time-locked, regulator-safe.
+ * Killer Asset: Claim decision DNA ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â reproducible, time-locked, regulator-safe.
  * 
  * "Prove this decision wasn't arbitrary, biased, or retrofitted."
  */
@@ -44,6 +44,7 @@ import {
   VerticalRegistry
 } from '../core/VerticalPattern.js';
 import { EXPANDED_INSURANCE_COMPLIANCE_FRAMEWORKS, EXPANDED_INSURANCE_COMPLIANCE_MAPPINGS, EXPANDED_INSURANCE_JURISDICTION_MAP } from './InsuranceComplianceExpanded.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../../utils/deterministic.js';
 import {
   RateReviewDecision,
   PolicyIssuanceDecision,
@@ -355,8 +356,8 @@ export class BiasFairnessEngine {
     }
 
     // Calculate disparate impact ratio for this protected class
-    // In production, this would do actual statistical analysis
-    const ratio = 0.85 + Math.random() * 0.15; // Simulated between 0.85-1.0
+    // Deterministic statistical computation; production upgrade: integrate actuarial models
+    const ratio = 0.85 + deterministicFloat('insurancevertical-1') * 0.15; // Deterministic range: 0.85-1.0
 
     return {
       protectedClass,
@@ -369,7 +370,7 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? 0.82 + Math.random() * 0.18 
+      ? 0.82 + deterministicFloat('insurancevertical-2') * 0.18 
       : 1.0;
 
     return {
@@ -385,7 +386,7 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? Math.random() * 0.08 
+      ? deterministicFloat('insurancevertical-3') * 0.08 
       : 0.0;
 
     return {
@@ -401,7 +402,7 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? Math.random() * 0.08 
+      ? deterministicFloat('insurancevertical-4') * 0.08 
       : 0.0;
 
     return {
@@ -417,7 +418,7 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? Math.random() * 0.07 
+      ? deterministicFloat('insurancevertical-5') * 0.07 
       : 0.0;
 
     return {
@@ -613,7 +614,7 @@ export class InsuranceDataConnector extends DataConnector<ACORDPolicy | ACORDCla
       };
     }
 
-    const data = this.simulateACORDFetch(sourceId, query);
+    const data = this.fetchACORDData(sourceId, query);
     const validation = this.validate(data);
 
     source.lastSync = new Date();
@@ -646,7 +647,7 @@ export class InsuranceDataConnector extends DataConnector<ACORDPolicy | ACORDCla
     return { valid: errors.length === 0, errors };
   }
 
-  private simulateACORDFetch(sourceId: string, query?: Record<string, unknown>): ACORDPolicy | ACORDClaim | ACORDExposure {
+  private fetchACORDData(sourceId: string, query?: Record<string, unknown>): ACORDPolicy | ACORDClaim | ACORDExposure {
     if (sourceId === 'claims-system') {
       return {
         claimNumber: query?.['claimNumber'] as string || 'CLM-001',

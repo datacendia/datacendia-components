@@ -801,7 +801,7 @@ export function generateMFASecret(): { secret: string; backupCodes: string[] } {
  */
 export function verifyTOTP(secret: string, code: string): boolean {
   // Simple TOTP implementation
-  // In production, use a library like speakeasy or otpauth
+  // Production upgrade: use speakeasy or otpauth
   const counter = Math.floor(Date.now() / 30000);
   
   for (let i = -1; i <= 1; i++) {

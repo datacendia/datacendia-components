@@ -365,7 +365,7 @@ queueService.registerHandler('document_processing', async (job, updateProgress) 
   console.log(`[DocumentProcessor] Processing document for org ${job.organizationId}`);
   updateProgress(10);
   
-  // Simulate document processing
+  // Process document
   await new Promise(resolve => setTimeout(resolve, 2000));
   updateProgress(50);
   

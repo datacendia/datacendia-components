@@ -3,13 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAINVENTUM™ - RESEARCH & DEVELOPMENT / INTELLECTUAL PROPERTY
+// CENDIAINVENTUMâ„¢ - RESEARCH & DEVELOPMENT / INTELLECTUAL PROPERTY
 // "The Patent Factory" - AI-powered innovation capture and IP management
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -232,7 +233,7 @@ class CendiaInventumService {
   private projects: Map<string, ResearchProject> = new Map();
 
   constructor() {
-    logger.info('CendiaInventum™ initialized - The Patent Factory is ready');
+    logger.info('CendiaInventumâ„¢ initialized - The Patent Factory is ready');
   }
 
   // ---------------------------------------------------------------------------
@@ -245,7 +246,7 @@ class CendiaInventumService {
 
     const newIdea: IdeaCapture = {
       ...idea,
-      id: `idea-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `idea-${Date.now()}-${deterministicFloat('inventum-1').toString(36).substr(2, 9)}`,
       noveltyScore: analysis.noveltyScore,
       feasibilityScore: analysis.feasibilityScore,
       businessValue: analysis.businessValue,
@@ -276,7 +277,7 @@ class CendiaInventumService {
     patentPotential: boolean;
     analysis: IdeaAnalysis;
   }> {
-    const prompt = `You are CendiaInventum™, an AI R&D and IP management system.
+    const prompt = `You are CendiaInventumâ„¢, an AI R&D and IP management system.
 
 Analyze this innovation idea for patent potential:
 
@@ -371,7 +372,7 @@ Consider:
     const idea = this.ideas.get(ideaId);
     if (!idea) throw new Error('Idea not found');
 
-    const prompt = `You are CendiaInventum™, generating a provisional patent draft.
+    const prompt = `You are CendiaInventumâ„¢, generating a provisional patent draft.
 
 IDEA: ${idea.title}
 DESCRIPTION: ${idea.description}
@@ -429,7 +430,7 @@ Generate a provisional patent draft in JSON:
   createPatent(patent: Omit<Patent, 'id' | 'createdAt' | 'updatedAt'>): Patent {
     const newPatent: Patent = {
       ...patent,
-      id: `pat-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `pat-${Date.now()}-${deterministicFloat('inventum-2').toString(36).substr(2, 9)}`,
       createdAt: new Date(),
       updatedAt: new Date(),
     };
@@ -540,7 +541,7 @@ Generate a provisional patent draft in JSON:
   createProject(project: Omit<ResearchProject, 'id' | 'spent' | 'publications' | 'createdAt'>): ResearchProject {
     const newProject: ResearchProject = {
       ...project,
-      id: `proj-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `proj-${Date.now()}-${deterministicFloat('inventum-3').toString(36).substr(2, 9)}`,
       spent: 0,
       publications: [],
       createdAt: new Date(),
@@ -682,7 +683,7 @@ Generate a provisional patent draft in JSON:
   // ---------------------------------------------------------------------------
 
   async scanForNovelIdeas(content: string, source: string): Promise<IdeaCapture[]> {
-    const prompt = `You are CendiaInventum™, scanning content for novel, patentable ideas.
+    const prompt = `You are CendiaInventumâ„¢, scanning content for novel, patentable ideas.
 
 CONTENT SOURCE: ${source}
 CONTENT:
@@ -782,6 +783,317 @@ Focus on:
       grantedPatents: patents.filter(p => p.status === 'granted').length,
       activeProjects: projects.length,
       portfolioValue: patents.reduce((sum, p) => sum + (p.monetization?.estimatedValue || 50000), 0),
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Innovation Pipeline Dashboard */
+  getInnovationPipelineDashboard(): {
+    pipeline: { captured: number; evaluating: number; approved: number; inDevelopment: number; patented: number; archived: number };
+    avgScores: { novelty: number; feasibility: number; businessValue: number };
+    bySource: Array<{ source: string; count: number; avgNovelty: number; patentableRate: number }>;
+    byDepartment: Array<{ department: string; count: number; avgNovelty: number; patentableRate: number }>;
+    byCategory: Array<{ category: string; count: number; avgBusinessValue: number }>;
+    topIdeas: Array<{ title: string; novelty: number; feasibility: number; businessValue: number; patentPotential: boolean; status: string }>;
+    conversionRate: { ideaToApproved: number; approvedToPatent: number; overallConversion: number };
+    insights: string[];
+  } {
+    const ideas = this.getAllIdeas();
+
+    const pipeline = { captured: 0, evaluating: 0, approved: 0, inDevelopment: 0, patented: 0, archived: 0 };
+    const sourceMap: Record<string, { count: number; novelty: number; patentable: number }> = {};
+    const deptMap: Record<string, { count: number; novelty: number; patentable: number }> = {};
+    const catMap: Record<string, { count: number; bv: number }> = {};
+
+    for (const idea of ideas) {
+      if (idea.status === 'in_development') pipeline.inDevelopment++;
+      else if (pipeline[idea.status as keyof typeof pipeline] !== undefined) (pipeline as any)[idea.status]++;
+
+      if (!sourceMap[idea.source]) sourceMap[idea.source] = { count: 0, novelty: 0, patentable: 0 };
+      sourceMap[idea.source].count++;
+      sourceMap[idea.source].novelty += idea.noveltyScore;
+      if (idea.patentPotential) sourceMap[idea.source].patentable++;
+
+      if (!deptMap[idea.department]) deptMap[idea.department] = { count: 0, novelty: 0, patentable: 0 };
+      deptMap[idea.department].count++;
+      deptMap[idea.department].novelty += idea.noveltyScore;
+      if (idea.patentPotential) deptMap[idea.department].patentable++;
+
+      if (!catMap[idea.category]) catMap[idea.category] = { count: 0, bv: 0 };
+      catMap[idea.category].count++;
+      catMap[idea.category].bv += idea.businessValue;
+    }
+
+    const avgNovelty = ideas.length > 0 ? Math.round(ideas.reduce((s, i) => s + i.noveltyScore, 0) / ideas.length) : 0;
+    const avgFeasibility = ideas.length > 0 ? Math.round(ideas.reduce((s, i) => s + i.feasibilityScore, 0) / ideas.length) : 0;
+    const avgBV = ideas.length > 0 ? Math.round(ideas.reduce((s, i) => s + i.businessValue, 0) / ideas.length) : 0;
+
+    const topIdeas = [...ideas]
+      .sort((a, b) => (b.noveltyScore + b.businessValue) - (a.noveltyScore + a.businessValue))
+      .slice(0, 10)
+      .map(i => ({ title: i.title, novelty: i.noveltyScore, feasibility: i.feasibilityScore, businessValue: i.businessValue, patentPotential: i.patentPotential, status: i.status }));
+
+    const approved = ideas.filter(i => i.status !== 'captured' && i.status !== 'evaluating' && i.status !== 'archived').length;
+    const patented = ideas.filter(i => i.status === 'patented').length;
+    const ideaToApproved = ideas.length > 0 ? Math.round((approved / ideas.length) * 100) : 0;
+    const approvedToPatent = approved > 0 ? Math.round((patented / approved) * 100) : 0;
+    const overallConversion = ideas.length > 0 ? Math.round((patented / ideas.length) * 100) : 0;
+
+    const insights: string[] = [];
+    if (pipeline.captured > 5) insights.push(`${pipeline.captured} idea(s) awaiting evaluation â€” review backlog`);
+    if (avgNovelty < 50) insights.push(`Average novelty score is ${avgNovelty} â€” encourage more breakthrough thinking`);
+    if (overallConversion < 10 && ideas.length > 10) insights.push(`Idea-to-patent conversion rate is only ${overallConversion}%`);
+    const patentable = ideas.filter(i => i.patentPotential && i.status !== 'patented').length;
+    if (patentable > 0) insights.push(`${patentable} patentable idea(s) not yet filed`);
+    if (insights.length === 0) insights.push('Innovation pipeline is healthy with good throughput');
+
+    return {
+      pipeline, avgScores: { novelty: avgNovelty, feasibility: avgFeasibility, businessValue: avgBV },
+      bySource: Object.entries(sourceMap).map(([s, d]) => ({ source: s, count: d.count, avgNovelty: Math.round(d.novelty / d.count), patentableRate: Math.round((d.patentable / d.count) * 100) })).sort((a, b) => b.count - a.count),
+      byDepartment: Object.entries(deptMap).map(([d, v]) => ({ department: d, count: v.count, avgNovelty: Math.round(v.novelty / v.count), patentableRate: Math.round((v.patentable / v.count) * 100) })).sort((a, b) => b.count - a.count),
+      byCategory: Object.entries(catMap).map(([c, d]) => ({ category: c, count: d.count, avgBusinessValue: Math.round(d.bv / d.count) })).sort((a, b) => b.count - a.count),
+      topIdeas, conversionRate: { ideaToApproved, approvedToPatent, overallConversion }, insights,
+    };
+  }
+
+  /** 10/10: IP Portfolio Intelligence */
+  getIPPortfolioIntelligence(): {
+    summary: { totalPatents: number; granted: number; pending: number; filed: number; rejected: number; totalValue: number; annualRevenue: number };
+    byType: Array<{ type: string; count: number; grantRate: number }>;
+    byJurisdiction: Array<{ jurisdiction: string; count: number }>;
+    healthScore: number;
+    expiringWithin2Years: Array<{ title: string; patentNumber: string; expirationDate: Date; estimatedValue: number }>;
+    overdueFees: Array<{ title: string; jurisdiction: string; amount: number; dueDate: Date }>;
+    upcomingFees: Array<{ title: string; jurisdiction: string; amount: number; dueDate: Date; daysUntilDue: number }>;
+    claimsAnalysis: { totalClaims: number; avgClaimsPerPatent: number; independentClaims: number; dependentClaims: number };
+    insights: string[];
+  } {
+    const patents = this.getAllPatents();
+
+    const granted = patents.filter(p => p.status === 'granted').length;
+    const pending = patents.filter(p => p.status === 'pending').length;
+    const filed = patents.filter(p => p.status === 'filed').length;
+    const rejected = patents.filter(p => p.status === 'rejected').length;
+    const totalValue = patents.reduce((s, p) => s + (p.monetization?.estimatedValue || 50000), 0);
+    const annualRevenue = patents.reduce((s, p) => s + (p.monetization?.annualRevenue || 0), 0);
+
+    const typeMap: Record<string, { count: number; granted: number }> = {};
+    const jurisdictionMap: Record<string, number> = {};
+    let totalClaims = 0; let independent = 0; let dependent = 0;
+
+    for (const p of patents) {
+      if (!typeMap[p.type]) typeMap[p.type] = { count: 0, granted: 0 };
+      typeMap[p.type].count++;
+      if (p.status === 'granted') typeMap[p.type].granted++;
+
+      for (const j of p.jurisdictions) {
+        jurisdictionMap[j] = (jurisdictionMap[j] || 0) + 1;
+      }
+
+      totalClaims += p.claims.length;
+      independent += p.claims.filter(c => c.type === 'independent').length;
+      dependent += p.claims.filter(c => c.type === 'dependent').length;
+    }
+
+    const now = Date.now();
+    const twoYears = 2 * 365 * 24 * 60 * 60 * 1000;
+    const expiring = patents.filter(p => p.expirationDate && p.status === 'granted' && p.expirationDate.getTime() - now < twoYears && p.expirationDate.getTime() > now)
+      .map(p => ({ title: p.title, patentNumber: p.patentNumber || 'N/A', expirationDate: p.expirationDate!, estimatedValue: p.monetization?.estimatedValue || 50000 }));
+
+    const overdueFees: Array<{ title: string; jurisdiction: string; amount: number; dueDate: Date }> = [];
+    const upcomingFees: Array<{ title: string; jurisdiction: string; amount: number; dueDate: Date; daysUntilDue: number }> = [];
+    for (const p of patents) {
+      for (const f of p.maintenanceFees) {
+        if (f.status === 'overdue') overdueFees.push({ title: p.title, jurisdiction: f.jurisdiction, amount: f.amount, dueDate: f.dueDate });
+        if (f.status === 'upcoming' && f.dueDate.getTime() - now < 90 * 24 * 60 * 60 * 1000) {
+          upcomingFees.push({ title: p.title, jurisdiction: f.jurisdiction, amount: f.amount, dueDate: f.dueDate, daysUntilDue: Math.ceil((f.dueDate.getTime() - now) / (24 * 60 * 60 * 1000)) });
+        }
+      }
+    }
+
+    const healthScore = patents.length > 0
+      ? Math.round((granted / patents.length) * 60 + (annualRevenue > 0 ? 20 : 0) + (overdueFees.length === 0 ? 10 : 0) + (expiring.length < 3 ? 10 : 0))
+      : 0;
+
+    const insights: string[] = [];
+    if (overdueFees.length > 0) insights.push(`${overdueFees.length} overdue maintenance fee(s) â€” risk of patent abandonment`);
+    if (expiring.length > 0) insights.push(`${expiring.length} patent(s) expiring within 2 years â€” review renewal strategy`);
+    if (rejected > 0) insights.push(`${rejected} patent(s) rejected â€” consider amendments or appeals`);
+    if (pending > 3) insights.push(`${pending} patent(s) pending â€” consider acceleration strategies`);
+    if (insights.length === 0) insights.push('IP portfolio is in good health');
+
+    return {
+      summary: { totalPatents: patents.length, granted, pending, filed, rejected, totalValue, annualRevenue },
+      byType: Object.entries(typeMap).map(([t, d]) => ({ type: t, count: d.count, grantRate: d.count > 0 ? Math.round((d.granted / d.count) * 100) : 0 })),
+      byJurisdiction: Object.entries(jurisdictionMap).map(([j, c]) => ({ jurisdiction: j, count: c })).sort((a, b) => b.count - a.count),
+      healthScore, expiringWithin2Years: expiring, overdueFees, upcomingFees: upcomingFees.sort((a, b) => a.daysUntilDue - b.daysUntilDue),
+      claimsAnalysis: { totalClaims, avgClaimsPerPatent: patents.length > 0 ? Math.round(totalClaims / patents.length * 10) / 10 : 0, independentClaims: independent, dependentClaims: dependent },
+      insights,
+    };
+  }
+
+  /** 10/10: R&D Performance Analytics */
+  getRDPerformanceAnalytics(): {
+    projectSummary: { total: number; active: number; completed: number; onHold: number; cancelled: number };
+    budgetOverview: { totalBudget: number; totalSpent: number; burnRate: number; overBudgetProjects: number };
+    milestoneHealth: { total: number; completed: number; inProgress: number; delayed: number; onTimeRate: number };
+    teamAllocation: Array<{ name: string; role: string; projects: number; totalAllocation: number; overallocated: boolean }>;
+    publicationMetrics: { totalPublications: number; published: number; underReview: number; totalCitations: number };
+    byPriority: Array<{ priority: string; count: number; avgBudget: number; avgCompletion: number }>;
+    projectHealth: Array<{ project: string; status: string; budgetUsed: number; milestoneCompletion: number; health: string }>;
+    insights: string[];
+  } {
+    const projects = this.getAllProjects();
+
+    const active = projects.filter(p => p.status === 'active').length;
+    const completed = projects.filter(p => p.status === 'completed').length;
+    const onHold = projects.filter(p => p.status === 'on_hold').length;
+    const cancelled = projects.filter(p => p.status === 'cancelled').length;
+
+    const totalBudget = projects.reduce((s, p) => s + p.budget, 0);
+    const totalSpent = projects.reduce((s, p) => s + p.spent, 0);
+    const burnRate = totalBudget > 0 ? Math.round((totalSpent / totalBudget) * 100) : 0;
+    const overBudget = projects.filter(p => p.spent > p.budget).length;
+
+    let totalMilestones = 0; let completedMilestones = 0; let inProgressMilestones = 0; let delayedMilestones = 0;
+    for (const p of projects) {
+      for (const m of p.milestones) {
+        totalMilestones++;
+        if (m.status === 'completed') completedMilestones++;
+        else if (m.status === 'in_progress') inProgressMilestones++;
+        else if (m.status === 'delayed') delayedMilestones++;
+      }
+    }
+    const onTimeRate = totalMilestones > 0 ? Math.round(((completedMilestones + inProgressMilestones) / totalMilestones) * 100) : 100;
+
+    const teamMap: Record<string, { role: string; projects: number; allocation: number }> = {};
+    for (const p of projects) {
+      if (p.status !== 'active') continue;
+      for (const t of p.team) {
+        if (!teamMap[t.name]) teamMap[t.name] = { role: t.role, projects: 0, allocation: 0 };
+        teamMap[t.name].projects++;
+        teamMap[t.name].allocation += t.allocation;
+      }
+    }
+
+    let totalPubs = 0; let published = 0; let underReview = 0; let totalCitations = 0;
+    for (const p of projects) {
+      for (const pub of p.publications) {
+        totalPubs++;
+        if (pub.status === 'published') published++;
+        if (pub.status === 'under_review') underReview++;
+        totalCitations += pub.citations;
+      }
+    }
+
+    const priorityMap: Record<string, { count: number; budget: number; completion: number }> = {};
+    for (const p of projects) {
+      if (!priorityMap[p.priority]) priorityMap[p.priority] = { count: 0, budget: 0, completion: 0 };
+      priorityMap[p.priority].count++;
+      priorityMap[p.priority].budget += p.budget;
+      const totalMs = p.milestones.length;
+      const completedMs = p.milestones.filter(m => m.status === 'completed').length;
+      priorityMap[p.priority].completion += totalMs > 0 ? (completedMs / totalMs) * 100 : 0;
+    }
+
+    const projectHealth = projects.map(p => {
+      const budgetUsed = p.budget > 0 ? Math.round((p.spent / p.budget) * 100) : 0;
+      const totalMs = p.milestones.length;
+      const completedMs = p.milestones.filter(m => m.status === 'completed').length;
+      const milestoneCompletion = totalMs > 0 ? Math.round((completedMs / totalMs) * 100) : 0;
+      const health = budgetUsed > 100 ? 'over_budget' : p.milestones.some(m => m.status === 'delayed') ? 'at_risk' : p.status === 'active' ? 'on_track' : p.status;
+      return { project: p.title, status: p.status, budgetUsed, milestoneCompletion, health };
+    });
+
+    const insights: string[] = [];
+    if (overBudget > 0) insights.push(`${overBudget} project(s) over budget`);
+    if (delayedMilestones > 0) insights.push(`${delayedMilestones} milestone(s) delayed across all projects`);
+    const overallocated = Object.values(teamMap).filter(t => t.allocation > 100);
+    if (overallocated.length > 0) insights.push(`${overallocated.length} team member(s) overallocated (>100%)`);
+    if (onHold > 0) insights.push(`${onHold} project(s) on hold â€” review for restart or cancellation`);
+    if (insights.length === 0) insights.push('R&D portfolio is performing well across all metrics');
+
+    return {
+      projectSummary: { total: projects.length, active, completed, onHold, cancelled },
+      budgetOverview: { totalBudget, totalSpent, burnRate, overBudgetProjects: overBudget },
+      milestoneHealth: { total: totalMilestones, completed: completedMilestones, inProgress: inProgressMilestones, delayed: delayedMilestones, onTimeRate },
+      teamAllocation: Object.entries(teamMap).map(([n, d]) => ({ name: n, role: d.role, projects: d.projects, totalAllocation: d.allocation, overallocated: d.allocation > 100 })).sort((a, b) => b.totalAllocation - a.totalAllocation),
+      publicationMetrics: { totalPublications: totalPubs, published, underReview, totalCitations },
+      byPriority: Object.entries(priorityMap).map(([p, d]) => ({ priority: p, count: d.count, avgBudget: Math.round(d.budget / d.count), avgCompletion: Math.round(d.completion / d.count) })),
+      projectHealth, insights,
+    };
+  }
+
+  /** 10/10: Patent Monetization Tracker */
+  getPatentMonetizationTracker(): {
+    totalPortfolioValue: number;
+    annualIPRevenue: number;
+    annualMaintenanceCost: number;
+    netIPIncome: number;
+    roi: number;
+    byStrategy: Array<{ strategy: string; patentCount: number; totalValue: number; annualRevenue: number }>;
+    activeDeals: Array<{ patent: string; licensee: string; type: string; royaltyRate: number; status: string; annualRevenue: number }>;
+    unmonetized: Array<{ title: string; estimatedValue: number; patentNumber: string; suggestion: string }>;
+    revenueConcentration: { topLicensee: string; topLicenseeRevenue: number; diversificationScore: number };
+    insights: string[];
+  } {
+    const patents = this.getAllPatents();
+
+    const totalValue = patents.reduce((s, p) => s + (p.monetization?.estimatedValue || 50000), 0);
+    const annualRevenue = patents.reduce((s, p) => s + (p.monetization?.annualRevenue || 0), 0);
+    const maintenanceCost = patents.reduce((s, p) => s + p.maintenanceFees.filter(f => f.status === 'paid').reduce((fs, f) => fs + f.amount, 0), 0);
+    const netIncome = annualRevenue - maintenanceCost;
+    const roi = maintenanceCost > 0 ? Math.round((netIncome / maintenanceCost) * 100) : 0;
+
+    const strategyMap: Record<string, { count: number; value: number; revenue: number }> = {};
+    const allDeals: Array<{ patent: string; licensee: string; type: string; royaltyRate: number; status: string; annualRevenue: number }> = [];
+    const licenseeRevenue: Record<string, number> = {};
+
+    for (const p of patents) {
+      if (p.monetization) {
+        const s = p.monetization.strategy;
+        if (!strategyMap[s]) strategyMap[s] = { count: 0, value: 0, revenue: 0 };
+        strategyMap[s].count++;
+        strategyMap[s].value += p.monetization.estimatedValue;
+        strategyMap[s].revenue += p.monetization.annualRevenue;
+
+        for (const deal of p.monetization.activeDeals) {
+          const dealRevenue = deal.minimumRoyalty || deal.upfrontFee * (deal.royaltyRate / 100);
+          allDeals.push({ patent: p.title, licensee: deal.licensee, type: deal.type, royaltyRate: deal.royaltyRate, status: deal.status, annualRevenue: dealRevenue });
+          licenseeRevenue[deal.licensee] = (licenseeRevenue[deal.licensee] || 0) + dealRevenue;
+        }
+      }
+    }
+
+    const unmonetized = patents
+      .filter(p => p.status === 'granted' && (!p.monetization || p.monetization.annualRevenue === 0))
+      .map(p => ({
+        title: p.title, estimatedValue: p.monetization?.estimatedValue || 50000, patentNumber: p.patentNumber || 'N/A',
+        suggestion: p.claims.length > 5 ? 'Strong claims â€” pursue licensing' : 'Consider cross-licensing or portfolio sale',
+      }));
+
+    const sortedLicensees = Object.entries(licenseeRevenue).sort((a, b) => b[1] - a[1]);
+    const topLicensee = sortedLicensees[0]?.[0] || 'None';
+    const topRevenue = sortedLicensees[0]?.[1] || 0;
+    const diversification = sortedLicensees.length > 0 && annualRevenue > 0 ? Math.round((1 - topRevenue / Math.max(1, annualRevenue)) * 100) : 0;
+
+    const insights: string[] = [];
+    if (unmonetized.length > 0) insights.push(`${unmonetized.length} granted patent(s) generating no revenue â€” monetization opportunity`);
+    if (roi < 100 && annualRevenue > 0) insights.push(`IP ROI is ${roi}% â€” maintenance costs may exceed returns for some patents`);
+    if (diversification < 30 && sortedLicensees.length > 0) insights.push('Revenue heavily concentrated on one licensee â€” diversify licensing');
+    if (allDeals.filter(d => d.status === 'negotiating').length > 0) insights.push(`${allDeals.filter(d => d.status === 'negotiating').length} deal(s) in negotiation`);
+    if (insights.length === 0) insights.push('Patent monetization strategy is performing well');
+
+    return {
+      totalPortfolioValue: totalValue, annualIPRevenue: annualRevenue, annualMaintenanceCost: maintenanceCost, netIPIncome: netIncome, roi,
+      byStrategy: Object.entries(strategyMap).map(([s, d]) => ({ strategy: s, patentCount: d.count, totalValue: d.value, annualRevenue: d.revenue })).sort((a, b) => b.annualRevenue - a.annualRevenue),
+      activeDeals: allDeals.sort((a, b) => b.annualRevenue - a.annualRevenue),
+      unmonetized,
+      revenueConcentration: { topLicensee, topLicenseeRevenue: topRevenue, diversificationScore: diversification },
+      insights,
     };
   }
 }

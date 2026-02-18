@@ -9,6 +9,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -118,56 +119,56 @@ const CONNECTOR_CONFIGS: Record<DemoConnectorType, {
 }> = {
   salesforce: {
     name: 'Salesforce',
-    icon: '☁️',
+    icon: 'ÃƒÂ¢Ã‹Å“Ã‚ÂÃƒÂ¯Ã‚Â¸Ã‚Â',
     scopes: ['api', 'read_only'],
     dataTypes: ['opportunities', 'accounts', 'contacts', 'leads'],
     authUrl: 'https://login.salesforce.com/services/oauth2/authorize',
   },
   hubspot: {
     name: 'HubSpot',
-    icon: '🧡',
+    icon: 'ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â¡',
     scopes: ['crm.objects.contacts.read', 'crm.objects.deals.read'],
     dataTypes: ['deals', 'contacts', 'companies'],
     authUrl: 'https://app.hubspot.com/oauth/authorize',
   },
   slack: {
     name: 'Slack',
-    icon: '💬',
+    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â¬',
     scopes: ['channels:read', 'users:read'],
     dataTypes: ['channels', 'messages', 'users'],
     authUrl: 'https://slack.com/oauth/v2/authorize',
   },
   jira: {
     name: 'Jira',
-    icon: '📋',
+    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã¢â‚¬Â¹',
     scopes: ['read:jira-work', 'read:jira-user'],
     dataTypes: ['issues', 'projects', 'sprints'],
     authUrl: 'https://auth.atlassian.com/authorize',
   },
   github: {
     name: 'GitHub',
-    icon: '🐙',
+    icon: 'ÃƒÂ°Ã…Â¸Ã‚ÂÃ¢â€žÂ¢',
     scopes: ['repo:read', 'org:read'],
     dataTypes: ['repositories', 'issues', 'pull_requests'],
     authUrl: 'https://github.com/login/oauth/authorize',
   },
   google_analytics: {
     name: 'Google Analytics',
-    icon: '📊',
+    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â ',
     scopes: ['analytics.readonly'],
     dataTypes: ['pageviews', 'sessions', 'conversions'],
     authUrl: 'https://accounts.google.com/o/oauth2/v2/auth',
   },
   stripe: {
     name: 'Stripe',
-    icon: '💳',
+    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â³',
     scopes: ['read_only'],
     dataTypes: ['subscriptions', 'invoices', 'customers'],
     authUrl: 'https://connect.stripe.com/oauth/authorize',
   },
   zendesk: {
     name: 'Zendesk',
-    icon: '🎧',
+    icon: 'ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â§',
     scopes: ['read'],
     dataTypes: ['tickets', 'users', 'satisfaction'],
     authUrl: 'https://your-domain.zendesk.com/oauth/authorizations/new',
@@ -277,7 +278,7 @@ export class LiveDemoModeService extends BaseService {
     }
 
     const session: DemoSession = {
-      id: `demo-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `demo-${Date.now()}-${deterministicFloat('livedemomode-6').toString(36).substr(2, 9)}`,
       createdAt: new Date(),
       expiresAt: new Date(Date.now() + 30 * 60 * 1000), // 30 minutes
       status: 'pending',
@@ -305,7 +306,7 @@ export class LiveDemoModeService extends BaseService {
       throw new Error('Session not found');
     }
 
-    // In production, exchange authCode for access token
+    // Production upgrade: exchange authCode for access token
     // For demo, simulate successful connection
     session.status = 'connected';
     this.activeSessions.set(sessionId, session);
@@ -332,7 +333,7 @@ export class LiveDemoModeService extends BaseService {
     session.dataIngested.startedAt = new Date();
     this.activeSessions.set(sessionId, session);
 
-    // Simulate data ingestion with progress updates
+    // Process data ingestion with progress updates
     const connector = session.connector;
     const dataTypes = CONNECTOR_CONFIGS[connector].dataTypes;
     
@@ -343,8 +344,8 @@ export class LiveDemoModeService extends BaseService {
     for (let i = 0; i < dataTypes.length; i++) {
       const dataType = dataTypes[i];
       
-      // Simulate scanning records
-      const recordCount = Math.floor(Math.random() * 1000) + 100;
+      // Scan records
+      const recordCount = deterministicInt(0, 999, 'livedemomode-1') + 100;
       totalRecords += recordCount;
       
       schema.push({
@@ -363,7 +364,7 @@ export class LiveDemoModeService extends BaseService {
       session.dataIngested.recordsIndexed = totalRecords;
       this.activeSessions.set(sessionId, session);
 
-      // Simulate processing time
+      // Processing time
       await new Promise(resolve => setTimeout(resolve, 500));
     }
 
@@ -416,10 +417,10 @@ export class LiveDemoModeService extends BaseService {
         records.push({
           id: `opp-${i}`,
           Name: `Enterprise Deal ${i + 1}`,
-          Amount: Math.floor(Math.random() * 500000) + 50000,
-          Stage: ['Qualification', 'Proposal', 'Negotiation', 'Closed Won'][Math.floor(Math.random() * 4)],
-          CloseDate: new Date(Date.now() + Math.random() * 90 * 24 * 60 * 60 * 1000),
-          Probability: Math.floor(Math.random() * 100),
+          Amount: deterministicInt(0, 499999, 'livedemomode-2') + 50000,
+          Stage: ['Qualification', 'Proposal', 'Negotiation', 'Closed Won'][deterministicInt(0, 3, 'livedemomode-3')],
+          CloseDate: new Date(Date.now() + deterministicFloat('livedemomode-5') * 90 * 24 * 60 * 60 * 1000),
+          Probability: deterministicInt(0, 99, 'livedemomode-4'),
           Account: `Acme Corp ${i + 1}`,
         });
       } else {
@@ -436,7 +437,7 @@ export class LiveDemoModeService extends BaseService {
   }
 
   // ---------------------------------------------------------------------------
-  // CendiaLive™ DELIBERATION
+  // CendiaLiveÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ DELIBERATION
   // ---------------------------------------------------------------------------
 
   async runLiveDeliberation(request: LiveDemoRequest): Promise<LiveDeliberationResult> {

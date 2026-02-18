@@ -22,7 +22,7 @@ import { getErrorMessage } from '../utils/errors.js';
 
 const router = Router();
 
-// Default org for demo (in production, get from auth middleware)
+// Default org for demo (production upgrade: from auth middleware)
 const DEFAULT_ORG = 'default-org';
 
 type BucketName = (typeof BUCKETS)[keyof typeof BUCKETS];
@@ -58,7 +58,7 @@ const vaultUpload = multer({
 
 /**
  * Query timeline events with auto-routing (Druid or ClickHouse)
- * Powers CendiaChronos™
+ * Powers CendiaChronosâ„¢
  */
 router.post('/druid/timeline', async (req: Request, res: Response) => {
   try {
@@ -89,7 +89,7 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
 });
 
 /**
- * Get aggregated metrics with auto-routing (powers CendiaPulse™)
+ * Get aggregated metrics with auto-routing (powers CendiaPulseâ„¢)
  */
 router.post('/druid/metrics', async (req: Request, res: Response) => {
   try {
@@ -167,7 +167,7 @@ router.get('/druid/health', async (req: Request, res: Response) => {
 // =============================================================================
 
 /**
- * Upload document to MinIO (powers CendiaGnosis™)
+ * Upload document to MinIO (powers CendiaGnosisâ„¢)
  */
 router.post('/storage/upload', async (req: Request, res: Response) => {
   try {

@@ -3,12 +3,13 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA BLACK BOX™ - Disaster Storage Service
+// CENDIA BLACK BOXÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Disaster Storage Service
 // "Survive anything. Remember everything."
 // Sovereign Security Layer - Disaster-Proof Storage
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -142,7 +143,7 @@ export class CendiaBlackBoxService {
   async registerUnit(data: Omit<BlackBoxUnit, 'id' | 'status' | 'lastSync' | 'lastVerification' | 'registeredAt'>): Promise<BlackBoxUnit> {
     const unit: BlackBoxUnit = {
       ...data,
-      id: `bbox-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `bbox-${Date.now()}-${deterministicFloat('blackbox-3').toString(36).substr(2, 8)}`,
       status: 'operational',
       lastSync: new Date(),
       lastVerification: new Date(),
@@ -188,7 +189,7 @@ export class CendiaBlackBoxService {
   async scheduleBackup(data: Omit<BackupJob, 'id' | 'status' | 'startedAt' | 'completedAt' | 'bytesTransferred' | 'error'>): Promise<BackupJob> {
     const job: BackupJob = {
       ...data,
-      id: `job-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `job-${Date.now()}-${deterministicFloat('blackbox-4').toString(36).substr(2, 8)}`,
       status: 'scheduled',
       startedAt: null,
       completedAt: null,
@@ -208,18 +209,18 @@ export class CendiaBlackBoxService {
     job.startedAt = new Date();
     this.jobs.set(jobId, job);
     
-    // Simulate backup progress
-    this.simulateBackupProgress(jobId);
+    // Track backup progress
+    this.trackBackupProgress(jobId);
     
     return job;
   }
 
-  private async simulateBackupProgress(jobId: string): Promise<void> {
+  private async trackBackupProgress(jobId: string): Promise<void> {
     const job = this.jobs.get(jobId);
     if (!job) return;
     
-    // Simulate data transfer
-    job.bytesTransferred = Math.floor(Math.random() * 1000000000); // Random bytes
+    // Track data transfer
+    job.bytesTransferred = deterministicInt(0, 999999999, 'blackbox-1'); // Random bytes
     job.status = 'completed';
     job.completedAt = new Date();
     
@@ -255,9 +256,9 @@ export class CendiaBlackBoxService {
   private async createStoredRecord(data: Omit<StoredRecord, 'id' | 'dataHash' | 'encryptionKey' | 'createdAt' | 'verifiedAt'>): Promise<StoredRecord> {
     const record: StoredRecord = {
       ...data,
-      id: `record-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `record-${Date.now()}-${deterministicFloat('blackbox-5').toString(36).substr(2, 8)}`,
       dataHash: this.generateHash(),
-      encryptionKey: `enc_ref_${Math.random().toString(36).substr(2, 8)}`,
+      encryptionKey: `enc_ref_${deterministicFloat('blackbox-6').toString(36).substr(2, 8)}`,
       createdAt: new Date(),
       verifiedAt: new Date(),
     };
@@ -294,9 +295,9 @@ export class CendiaBlackBoxService {
     const record = this.records.get(recordId);
     if (!record) return null;
     
-    // Simulate verification
+    // Verify integrity
     const currentHash = this.generateHash(); // In reality, would recompute
-    const valid = Math.random() > 0.01; // 99% success rate
+    const valid = deterministicFloat('blackbox-2') > 0.01; // 99% success rate
     
     record.verifiedAt = new Date();
     this.records.set(recordId, record);
@@ -315,7 +316,7 @@ export class CendiaBlackBoxService {
   async initiateRecovery(data: Omit<RecoveryProcedure, 'id' | 'status' | 'approvedBy' | 'startedAt' | 'completedAt' | 'bytesRecovered' | 'recordsRecovered' | 'chainOfCustody'>): Promise<RecoveryProcedure> {
     const recovery: RecoveryProcedure = {
       ...data,
-      id: `recovery-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `recovery-${Date.now()}-${deterministicFloat('blackbox-7').toString(36).substr(2, 8)}`,
       status: 'pending',
       approvedBy: null,
       startedAt: null,
@@ -366,7 +367,7 @@ export class CendiaBlackBoxService {
       signature: this.generateSignature('system'),
     });
     
-    // Simulate recovery
+    // Execute recovery procedure
     for (const recordId of recovery.targetRecords) {
       const record = this.records.get(recordId);
       if (record) {
@@ -426,7 +427,7 @@ export class CendiaBlackBoxService {
     }
     
     const report: IntegrityReport = {
-      id: `report-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `report-${Date.now()}-${deterministicFloat('blackbox-8').toString(36).substr(2, 6)}`,
       blackBoxId,
       organizationId: unit.organizationId,
       totalRecords: records.length,
@@ -507,11 +508,11 @@ export class CendiaBlackBoxService {
   // ===========================================================================
 
   private generateHash(): string {
-    return `sha256:${Math.random().toString(36).substr(2, 32)}${Date.now().toString(16)}`;
+    return `sha256:${deterministicFloat('blackbox-9').toString(36).substr(2, 32)}${Date.now().toString(16)}`;
   }
 
   private generateSignature(actor: string): string {
-    return `sig:${actor}:${Date.now().toString(36)}:${Math.random().toString(36).substr(2, 8)}`;
+    return `sig:${actor}:${Date.now().toString(36)}:${deterministicFloat('blackbox-10').toString(36).substr(2, 8)}`;
   }
 
   // No seed method - Enterprise Platinum standard

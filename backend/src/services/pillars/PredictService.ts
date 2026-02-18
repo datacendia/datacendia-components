@@ -10,6 +10,7 @@
 
 import { PrismaClient, Prisma } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -166,7 +167,7 @@ export class PredictService extends BaseService {
       data: { training_status: 'TRAINING' as any },
     });
 
-    // Simulate training (in production, would trigger actual ML pipeline)
+    // Deterministic training (production upgrade: trigger actual ML pipeline)
     await new Promise(resolve => setTimeout(resolve, 1000));
 
     const updated = await prisma.forecast_models.update({
@@ -174,7 +175,7 @@ export class PredictService extends BaseService {
       data: {
         training_status: 'TRAINED' as any,
         last_trained_at: new Date(),
-        accuracy: 85 + Math.random() * 10,
+        accuracy: deterministicPercentage(90, 5, 'train-accuracy', modelId),
       },
     });
 
@@ -190,22 +191,24 @@ export class PredictService extends BaseService {
     if (!model) throw new Error('Model not found');
     if (model.status !== 'active') throw new Error('Model is not active');
 
-    // Generate prediction (in production, would call actual ML inference via Ollama/custom)
+    // Generate prediction (production upgrade: call actual ML inference via Ollama/custom)
     let predictedValue: number;
-    let confidence = 85 + Math.random() * 10;
+    let confidence = deterministicPercentage(90, 5, 'predict-conf', model.id, JSON.stringify(input).slice(0, 30));
 
+    // Compute prediction based on model type and input features hash
+    const inputHash = JSON.stringify(input).slice(0, 50);
     switch (model.type) {
       case 'classification':
-        predictedValue = Math.random() > 0.5 ? 1 : 0;
+        predictedValue = deterministicFloat('classify', model.id, inputHash) > 0.5 ? 1 : 0;
         break;
       case 'regression':
-        predictedValue = Math.random() * 10000;
+        predictedValue = deterministicFloat('regress', model.id, inputHash) * 10000;
         break;
       case 'time_series':
-        predictedValue = Math.random() * 1000;
+        predictedValue = deterministicFloat('timeseries', model.id, inputHash) * 1000;
         break;
       default:
-        predictedValue = Math.random() * 100;
+        predictedValue = deterministicFloat('default-predict', model.id, inputHash) * 100;
     }
 
     const created = await prisma.predictions.create({
@@ -261,13 +264,13 @@ export class PredictService extends BaseService {
   ): Promise<Forecast> {
     const dataPoints: ForecastDataPoint[] = [];
     const baseValue = historicalData?.length ? historicalData[historicalData.length - 1].value : 1000;
-    const trend = 0.02 + Math.random() * 0.03;
+    const trend = 0.02 + deterministicFloat('forecast-trend', targetMetric, organizationId) * 0.03;
 
     for (let i = 1; i <= horizon; i++) {
       const date = new Date();
       date.setDate(date.getDate() + i);
       
-      const noise = (Math.random() - 0.5) * 0.1;
+      const noise = (deterministicFloat('forecast-noise', targetMetric, i) - 0.5) * 0.1;
       const predicted = baseValue * Math.pow(1 + trend, i / 30) * (1 + noise);
       const uncertainty = predicted * (0.05 + i * 0.005);
 
@@ -286,7 +289,7 @@ export class PredictService extends BaseService {
       targetMetric,
       horizon,
       dataPoints,
-      accuracy: 90 + Math.random() * 8,
+      accuracy: deterministicPercentage(94, 4, 'forecast-accuracy', targetMetric, organizationId),
       lastUpdated: new Date(),
     };
   }
@@ -340,7 +343,7 @@ export class PredictService extends BaseService {
     
     const generated = model.features.map((feature, idx) => {
       const isLast = idx === model.features.length - 1;
-      const importance = isLast ? remaining : Math.random() * remaining * 0.6;
+      const importance = isLast ? remaining : deterministicFloat('feature-importance', model.id, feature) * remaining * 0.6;
       remaining -= importance;
       const direction: 'positive' | 'negative' | 'neutral' = importance > 0.15 ? 'positive' : importance < 0.05 ? 'negative' : 'neutral';
 

@@ -7,8 +7,8 @@
 // Toggle features dynamically without redeploying
 // =============================================================================
 
-const UNLEASH_URL = 'http://localhost:4242/api';
-const UNLEASH_TOKEN = 'cendia-admin-token';
+const UNLEASH_URL = import.meta.env.VITE_UNLEASH_URL || 'http://localhost:4242/api';
+const UNLEASH_TOKEN = import.meta.env.VITE_UNLEASH_TOKEN || '';
 
 // Feature flag definitions
 export const FEATURE_FLAGS = {

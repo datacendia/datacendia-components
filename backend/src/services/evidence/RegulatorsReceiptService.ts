@@ -161,7 +161,7 @@ export class RegulatorsReceiptService {
   private readonly VERSION = '1.0.0';
 
   private constructor() {
-    logger.info('📜 RegulatorsReceiptService initialized');
+    logger.info('ðŸ“œ RegulatorsReceiptService initialized');
   }
 
   static getInstance(): RegulatorsReceiptService {
@@ -257,7 +257,7 @@ export class RegulatorsReceiptService {
       await this.signReceipt(receipt);
     }
 
-    logger.info(`📜 Generated Regulator's Receipt ${receipt.receiptId} for deliberation ${deliberationId}`);
+    logger.info(`ðŸ“œ Generated Regulator's Receipt ${receipt.receiptId} for deliberation ${deliberationId}`);
     return receipt;
   }
 
@@ -266,7 +266,7 @@ export class RegulatorsReceiptService {
   // -------------------------------------------------------------------------
 
   private async buildAgentList(deliberationId: string): Promise<ReceiptAgent[]> {
-    // In production, fetch from agent_responses table
+    // Production upgrade: fetch from agent_responses table
     // For now, return structured placeholder
     return [
       {
@@ -411,7 +411,7 @@ export class RegulatorsReceiptService {
   }
 
   private async signReceipt(receipt: RegulatorsReceipt): Promise<void> {
-    // In production, use KMS to sign
+    // Production upgrade: use KMS to sign
     // For now, create a placeholder signature
     receipt.cryptographicProof.signature = `SIG-${crypto.randomBytes(32).toString('hex')}`;
     receipt.cryptographicProof.signedBy = 'datacendia-kms';
@@ -526,7 +526,7 @@ export class RegulatorsReceiptService {
         'The Merkle root and hashes provide tamper-evident proof of the deliberation contents.',
         'This document is designed to be court-admissible and regulator-ready.',
         '',
-        `© ${new Date().getFullYear()} Datacendia. All rights reserved.`,
+        `Â© ${new Date().getFullYear()} Datacendia. All rights reserved.`,
       ].join('\n'),
     };
   }
@@ -563,7 +563,7 @@ export class RegulatorsReceiptService {
 </head>
 <body>
   <div class="header">
-    <h1>📜 REGULATOR'S RECEIPT</h1>
+    <h1>ðŸ“œ REGULATOR'S RECEIPT</h1>
     <p class="receipt-id">${receipt.receiptId}</p>
     <p>Generated: ${receipt.generatedAt.toISOString()}</p>
   </div>
@@ -631,7 +631,7 @@ export class RegulatorsReceiptService {
     <p>This Regulator's Receipt is a cryptographically signed record of the decision-making process.</p>
     <p>The Merkle root and hashes provide tamper-evident proof of the deliberation contents.</p>
     <p>This document is designed to be court-admissible and regulator-ready.</p>
-    <p>© ${new Date().getFullYear()} Datacendia. All rights reserved.</p>
+    <p>Â© ${new Date().getFullYear()} Datacendia. All rights reserved.</p>
   </div>
 </body>
 </html>`;

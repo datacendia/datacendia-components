@@ -3,13 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIARESONANCE™ - CORPORATE COMMUNICATIONS INTELLIGENCE
+// CENDIARESONANCEâ„¢ - CORPORATE COMMUNICATIONS INTELLIGENCE
 // "The Narrative Control" - AI-powered internal/external communications
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -245,7 +246,7 @@ class CendiaResonanceService {
   private calendars: Map<string, ContentCalendar> = new Map();
 
   constructor() {
-    logger.info('CendiaResonance™ initialized - Narrative Control is active');
+    logger.info('CendiaResonanceâ„¢ initialized - Narrative Control is active');
   }
 
   // ---------------------------------------------------------------------------
@@ -255,7 +256,7 @@ class CendiaResonanceService {
   createCampaign(campaign: Omit<CommunicationCampaign, 'id' | 'status' | 'metrics' | 'createdAt'>): CommunicationCampaign {
     const newCampaign: CommunicationCampaign = {
       ...campaign,
-      id: `camp-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `camp-${Date.now()}-${deterministicFloat('resonance-1').toString(36).substr(2, 9)}`,
       status: 'draft',
       metrics: {
         reach: 0,
@@ -281,7 +282,7 @@ class CendiaResonanceService {
     const campaign = this.campaigns.get(campaignId);
     if (!campaign) throw new Error('Campaign not found');
 
-    const prompt = `You are CendiaResonance™, a corporate communications AI.
+    const prompt = `You are CendiaResonanceâ„¢, a corporate communications AI.
 
 Generate a ${campaign.type} communication message.
 
@@ -378,7 +379,7 @@ Generate appropriate messaging in JSON:
   // ---------------------------------------------------------------------------
 
   async measureBelief(topic: string, targetAudience: string, sampleData?: any): Promise<BeliefMetric> {
-    const prompt = `You are CendiaResonance™, measuring organizational belief/sentiment.
+    const prompt = `You are CendiaResonanceâ„¢, measuring organizational belief/sentiment.
 
 TOPIC: ${topic}
 TARGET AUDIENCE: ${targetAudience}
@@ -444,7 +445,7 @@ Analyze and provide belief metrics in JSON:
   // ---------------------------------------------------------------------------
 
   async detectLeakPatterns(content: string, metadata?: any): Promise<LeakPattern[]> {
-    const prompt = `You are CendiaResonance™, detecting potential information leaks.
+    const prompt = `You are CendiaResonanceâ„¢, detecting potential information leaks.
 
 CONTENT TO ANALYZE:
 ${content.substring(0, 2000)}
@@ -484,7 +485,7 @@ Analyze for leak patterns and respond in JSON:
 
     const patterns: LeakPattern[] = (leakData.patterns || []).map((p: any) => ({
       ...p,
-      id: `leak-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `leak-${Date.now()}-${deterministicFloat('resonance-2').toString(36).substr(2, 6)}`,
       detectedAt: new Date(),
       status: 'detected',
     }));
@@ -566,7 +567,7 @@ Analyze for leak patterns and respond in JSON:
     const crisis = this.crisisResponses.get(crisisId);
     if (!crisis) throw new Error('Crisis not found');
 
-    const prompt = `You are CendiaResonance™, generating a crisis holding statement.
+    const prompt = `You are CendiaResonanceâ„¢, generating a crisis holding statement.
 
 CRISIS TYPE: ${crisis.crisisType}
 SEVERITY: ${crisis.severity}
@@ -671,7 +672,7 @@ Respond in JSON:
   // ---------------------------------------------------------------------------
 
   async analyzeNarrative(topic: string, desiredNarrative: string): Promise<NarrativeAnalysis> {
-    const prompt = `You are CendiaResonance™, analyzing corporate narrative positioning.
+    const prompt = `You are CendiaResonanceâ„¢, analyzing corporate narrative positioning.
 
 TOPIC: ${topic}
 DESIRED NARRATIVE: ${desiredNarrative}
@@ -805,6 +806,394 @@ Analyze the narrative landscape and provide in JSON:
       averageSentiment: Math.round(avgSentiment),
       leaksDetected: this.leakPatterns.size,
       messagesPublished: publishedMessages,
+    };
+  }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Communications Intelligence Dashboard */
+  getCommunicationsIntelligenceDashboard(): {
+    overview: { totalCampaigns: number; activeCampaigns: number; completedCampaigns: number; totalMessages: number; publishedMessages: number; approvalRate: number };
+    campaignsByType: Array<{ type: string; count: number; active: number }>;
+    campaignsByStatus: Array<{ status: string; count: number }>;
+    channelEffectiveness: Array<{ channel: string; campaignsUsing: number; avgReach: number; avgEngagement: number }>;
+    audienceReach: { totalAudiences: number; totalReachableSize: number; avgSegmentsPerAudience: number };
+    contentCalendarStatus: { totalCalendars: number; totalItems: number; planned: number; published: number; cancelled: number };
+    crisisReadiness: { activeCrises: number; totalCrisesHandled: number; avgResolutionTime: number; holdingStatementsReady: number };
+    leakDetection: { totalDetected: number; bySeverity: { low: number; medium: number; high: number; critical: number }; resolved: number; investigating: number };
+    insights: string[];
+  } {
+    const campaigns = Array.from(this.campaigns.values());
+    const crises = Array.from(this.crisisResponses.values());
+    const leaks = Array.from(this.leakPatterns.values());
+    const calendars = Array.from(this.calendars.values());
+
+    const typeMap: Record<string, { count: number; active: number }> = {};
+    const statusMap: Record<string, number> = {};
+    const channelMap: Record<string, { count: number; reaches: number[]; engagements: number[] }> = {};
+    let totalMsgs = 0; let publishedMsgs = 0; let approvedMsgs = 0;
+    let totalAudienceSize = 0; let totalSegments = 0; let totalAudiences = 0;
+
+    for (const c of campaigns) {
+      if (!typeMap[c.type]) typeMap[c.type] = { count: 0, active: 0 };
+      typeMap[c.type].count++;
+      if (c.status === 'active') typeMap[c.type].active++;
+
+      statusMap[c.status] = (statusMap[c.status] || 0) + 1;
+
+      totalMsgs += c.messages.length;
+      publishedMsgs += c.messages.filter(m => m.status === 'published').length;
+      approvedMsgs += c.messages.filter(m => m.status === 'approved' || m.status === 'published').length;
+
+      for (const ch of c.channels) {
+        if (!channelMap[ch.name]) channelMap[ch.name] = { count: 0, reaches: [], engagements: [] };
+        channelMap[ch.name].count++;
+        channelMap[ch.name].reaches.push(ch.reach);
+        channelMap[ch.name].engagements.push(ch.engagementRate);
+      }
+
+      for (const a of c.targetAudiences) {
+        totalAudiences++;
+        totalAudienceSize += a.size;
+        totalSegments += a.segments.length;
+      }
+    }
+
+    let totalCalItems = 0; let planned = 0; let published = 0; let cancelled = 0;
+    for (const cal of calendars) {
+      totalCalItems += cal.items.length;
+      planned += cal.items.filter(i => i.status === 'planned').length;
+      published += cal.items.filter(i => i.status === 'published').length;
+      cancelled += cal.items.filter(i => i.status === 'cancelled').length;
+    }
+
+    const resolvedCrises = crises.filter(c => c.resolvedAt);
+    const avgResolution = resolvedCrises.length > 0
+      ? Math.round(resolvedCrises.reduce((s, c) => s + (c.resolvedAt!.getTime() - c.createdAt.getTime()) / (60 * 60 * 1000), 0) / resolvedCrises.length)
+      : 0;
+
+    const leakSeverity = { low: 0, medium: 0, high: 0, critical: 0 };
+    let leaksResolved = 0; let leaksInvestigating = 0;
+    for (const l of leaks) {
+      leakSeverity[l.severity]++;
+      if (l.status === 'resolved' || l.status === 'contained') leaksResolved++;
+      if (l.status === 'investigating') leaksInvestigating++;
+    }
+
+    const insights: string[] = [];
+    const activeCrises = crises.filter(c => c.status !== 'resolved' && c.status !== 'post_mortem');
+    if (activeCrises.length > 0) insights.push(`${activeCrises.length} active crisis(es) â€” ensure all stakeholders are informed`);
+    if (leakSeverity.critical > 0 || leakSeverity.high > 0) insights.push(`${leakSeverity.critical + leakSeverity.high} high/critical leak pattern(s) detected â€” immediate action required`);
+    if (totalMsgs > 0 && publishedMsgs / totalMsgs < 0.3) insights.push(`Only ${Math.round((publishedMsgs / totalMsgs) * 100)}% of messages published â€” review approval pipeline`);
+    const draftCampaigns = campaigns.filter(c => c.status === 'draft');
+    if (draftCampaigns.length > 3) insights.push(`${draftCampaigns.length} draft campaigns â€” review and launch or archive`);
+    if (insights.length === 0) insights.push('Communications operations are running smoothly');
+
+    return {
+      overview: {
+        totalCampaigns: campaigns.length, activeCampaigns: campaigns.filter(c => c.status === 'active').length,
+        completedCampaigns: campaigns.filter(c => c.status === 'completed').length,
+        totalMessages: totalMsgs, publishedMessages: publishedMsgs,
+        approvalRate: totalMsgs > 0 ? Math.round((approvedMsgs / totalMsgs) * 100) : 0,
+      },
+      campaignsByType: Object.entries(typeMap).map(([t, d]) => ({ type: t, count: d.count, active: d.active })),
+      campaignsByStatus: Object.entries(statusMap).map(([s, c]) => ({ status: s, count: c })),
+      channelEffectiveness: Object.entries(channelMap).map(([ch, d]) => ({
+        channel: ch, campaignsUsing: d.count,
+        avgReach: d.reaches.length > 0 ? Math.round(d.reaches.reduce((a, b) => a + b, 0) / d.reaches.length) : 0,
+        avgEngagement: d.engagements.length > 0 ? Math.round(d.engagements.reduce((a, b) => a + b, 0) / d.engagements.length * 10) / 10 : 0,
+      })).sort((a, b) => b.avgEngagement - a.avgEngagement),
+      audienceReach: { totalAudiences, totalReachableSize: totalAudienceSize, avgSegmentsPerAudience: totalAudiences > 0 ? Math.round(totalSegments / totalAudiences * 10) / 10 : 0 },
+      contentCalendarStatus: { totalCalendars: calendars.length, totalItems: totalCalItems, planned, published, cancelled },
+      crisisReadiness: {
+        activeCrises: activeCrises.length, totalCrisesHandled: crises.length,
+        avgResolutionTime: avgResolution,
+        holdingStatementsReady: crises.reduce((s, c) => s + c.holdingStatements.filter(h => h.approved).length, 0),
+      },
+      leakDetection: { totalDetected: leaks.length, bySeverity: leakSeverity, resolved: leaksResolved, investigating: leaksInvestigating },
+      insights,
+    };
+  }
+
+  /** 10/10: Campaign Performance Analytics */
+  getCampaignPerformanceAnalytics(): {
+    campaignPerformance: Array<{
+      id: string; name: string; type: string; status: string;
+      messageCount: number; publishedCount: number;
+      metrics: CampaignMetrics; milestoneCompletion: number;
+      durationDays: number | null; channelCount: number;
+    }>;
+    aggregateMetrics: { avgReach: number; avgEngagement: number; avgSentiment: number; avgAwareness: number; totalActionsTaken: number };
+    messageAnalysis: { totalMessages: number; byTone: Array<{ tone: string; count: number }>; byStatus: Array<{ status: string; count: number }>; avgVersions: number };
+    milestoneTracking: { total: number; completed: number; missed: number; pending: number; completionRate: number };
+    topPerforming: Array<{ name: string; engagementScore: number }>;
+    insights: string[];
+  } {
+    const campaigns = Array.from(this.campaigns.values());
+    let totalReach = 0; let totalEngagement = 0; let totalSentiment = 0; let totalAwareness = 0; let totalActions = 0;
+    let activeCampaignsWithMetrics = 0;
+    const toneMap: Record<string, number> = {};
+    const msgStatusMap: Record<string, number> = {};
+    let totalMilestones = 0; let completedMs = 0; let missedMs = 0; let pendingMs = 0;
+    let totalVersions = 0; let totalMsgCount = 0;
+
+    const campaignPerformance = campaigns.map(c => {
+      const published = c.messages.filter(m => m.status === 'published').length;
+      const durationDays = c.startDate ? Math.floor((Date.now() - c.startDate.getTime()) / (24 * 60 * 60 * 1000)) : null;
+
+      if (c.metrics.reach > 0 || c.metrics.engagement > 0) {
+        activeCampaignsWithMetrics++;
+        totalReach += c.metrics.reach;
+        totalEngagement += c.metrics.engagement;
+        totalSentiment += c.metrics.sentiment;
+        totalAwareness += c.metrics.awareness;
+        totalActions += c.metrics.actionsTaken;
+      }
+
+      for (const m of c.messages) {
+        toneMap[m.tone] = (toneMap[m.tone] || 0) + 1;
+        msgStatusMap[m.status] = (msgStatusMap[m.status] || 0) + 1;
+        totalVersions += m.version;
+        totalMsgCount++;
+      }
+
+      let msComplete = 0;
+      for (const ms of c.timeline) {
+        totalMilestones++;
+        if (ms.status === 'completed') { completedMs++; msComplete++; }
+        else if (ms.status === 'missed') missedMs++;
+        else pendingMs++;
+      }
+
+      return {
+        id: c.id, name: c.name, type: c.type, status: c.status,
+        messageCount: c.messages.length, publishedCount: published,
+        metrics: c.metrics,
+        milestoneCompletion: c.timeline.length > 0 ? Math.round((msComplete / c.timeline.length) * 100) : 0,
+        durationDays, channelCount: c.channels.length,
+      };
+    });
+
+    const n = activeCampaignsWithMetrics || 1;
+    const topPerforming = campaignPerformance
+      .filter(c => c.metrics.engagement > 0)
+      .map(c => ({ name: c.name, engagementScore: c.metrics.engagement }))
+      .sort((a, b) => b.engagementScore - a.engagementScore)
+      .slice(0, 5);
+
+    const insights: string[] = [];
+    if (missedMs > 0) insights.push(`${missedMs} milestone(s) missed across campaigns â€” review timelines`);
+    const lowEngagement = campaignPerformance.filter(c => c.status === 'active' && c.metrics.engagement < 10 && c.metrics.reach > 0);
+    if (lowEngagement.length > 0) insights.push(`${lowEngagement.length} active campaign(s) with low engagement despite reach â€” review messaging`);
+    if (totalMsgCount > 0 && Object.keys(toneMap).length === 1) insights.push('All messages use the same tone â€” consider varying tone by audience and channel');
+    if (insights.length === 0) insights.push('Campaign performance metrics are healthy');
+
+    return {
+      campaignPerformance,
+      aggregateMetrics: {
+        avgReach: Math.round(totalReach / n), avgEngagement: Math.round(totalEngagement / n),
+        avgSentiment: Math.round(totalSentiment / n), avgAwareness: Math.round(totalAwareness / n),
+        totalActionsTaken: totalActions,
+      },
+      messageAnalysis: {
+        totalMessages: totalMsgCount,
+        byTone: Object.entries(toneMap).map(([t, c]) => ({ tone: t, count: c })).sort((a, b) => b.count - a.count),
+        byStatus: Object.entries(msgStatusMap).map(([s, c]) => ({ status: s, count: c })),
+        avgVersions: totalMsgCount > 0 ? Math.round(totalVersions / totalMsgCount * 10) / 10 : 0,
+      },
+      milestoneTracking: { total: totalMilestones, completed: completedMs, missed: missedMs, pending: pendingMs, completionRate: totalMilestones > 0 ? Math.round((completedMs / totalMilestones) * 100) : 0 },
+      topPerforming,
+      insights,
+    };
+  }
+
+  /** 10/10: Crisis Response Intelligence */
+  getCrisisResponseIntelligence(): {
+    overview: { totalCrises: number; activeCrises: number; resolvedCrises: number; avgResolutionHours: number };
+    bySeverity: Array<{ severity: string; count: number; resolved: number; active: number }>;
+    stakeholderCoverage: { totalStakeholders: number; contacted: number; satisfied: number; contactRate: number };
+    mediaManagement: { totalInquiries: number; responded: number; pending: number; responseRate: number; favorableSentiment: number };
+    holdingStatements: { total: number; approved: number; approvalRate: number };
+    socialImpact: { avgMentions: number; avgSentiment: number; trendingCrises: number; misinformationDetected: number };
+    internalReadiness: { briefedRate: number; faqDistributed: number; hotlineActive: number };
+    crisisTimeline: Array<{ id: string; type: string; severity: string; status: string; eventCount: number; durationHours: number | null; createdAt: Date }>;
+    insights: string[];
+  } {
+    const crises = Array.from(this.crisisResponses.values());
+    const active = crises.filter(c => c.status !== 'resolved' && c.status !== 'post_mortem');
+    const resolved = crises.filter(c => c.resolvedAt);
+
+    const sevMap: Record<string, { count: number; resolved: number; active: number }> = {};
+    let totalStakeholders = 0; let contacted = 0; let satisfied = 0;
+    let totalInquiries = 0; let responded = 0; let pending = 0; let favorable = 0;
+    let totalStatements = 0; let approvedStatements = 0;
+    let totalMentions = 0; let totalSentiment = 0; let trending = 0; let misinfo = 0;
+    let briefed = 0; let faqDist = 0; let hotlineAct = 0;
+
+    for (const c of crises) {
+      if (!sevMap[c.severity]) sevMap[c.severity] = { count: 0, resolved: 0, active: 0 };
+      sevMap[c.severity].count++;
+      if (c.resolvedAt) sevMap[c.severity].resolved++;
+      if (c.status !== 'resolved' && c.status !== 'post_mortem') sevMap[c.severity].active++;
+
+      for (const s of c.stakeholders) {
+        totalStakeholders++;
+        if (s.status !== 'not_contacted') contacted++;
+        if (s.status === 'satisfied') satisfied++;
+      }
+
+      for (const m of c.mediaInquiries) {
+        totalInquiries++;
+        if (m.status === 'responded') responded++;
+        if (m.status === 'pending') pending++;
+        if (m.sentiment === 'favorable') favorable++;
+      }
+
+      totalStatements += c.holdingStatements.length;
+      approvedStatements += c.holdingStatements.filter(h => h.approved).length;
+
+      totalMentions += c.socialMonitoring.mentions;
+      totalSentiment += c.socialMonitoring.sentiment;
+      if (c.socialMonitoring.trending) trending++;
+      misinfo += c.socialMonitoring.misinformation.length;
+
+      if (c.internalComms.employeeBriefed || c.internalComms.managementBriefed) briefed++;
+      if (c.internalComms.faqDistributed) faqDist++;
+      if (c.internalComms.hotlineActive) hotlineAct++;
+    }
+
+    const n = crises.length || 1;
+    const avgResolution = resolved.length > 0
+      ? Math.round(resolved.reduce((s, c) => s + (c.resolvedAt!.getTime() - c.createdAt.getTime()) / (60 * 60 * 1000), 0) / resolved.length)
+      : 0;
+
+    const crisisTimeline = crises.map(c => ({
+      id: c.id, type: c.crisisType, severity: c.severity, status: c.status,
+      eventCount: c.timeline.length,
+      durationHours: c.resolvedAt ? Math.round((c.resolvedAt.getTime() - c.createdAt.getTime()) / (60 * 60 * 1000)) : null,
+      createdAt: c.createdAt,
+    })).sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+
+    const insights: string[] = [];
+    if (active.length > 0) insights.push(`${active.length} active crisis(es) require attention`);
+    if (totalStakeholders > 0 && contacted / totalStakeholders < 0.5) insights.push(`Only ${Math.round((contacted / totalStakeholders) * 100)}% of stakeholders contacted â€” accelerate outreach`);
+    if (pending > 0) insights.push(`${pending} media inquiry(ies) pending response â€” address before deadline`);
+    if (misinfo > 0) insights.push(`${misinfo} misinformation item(s) detected â€” prepare counter-narrative`);
+    if (totalStatements > 0 && approvedStatements / totalStatements < 0.5) insights.push('Low holding statement approval rate â€” expedite review process');
+    if (insights.length === 0) insights.push('Crisis management posture is strong');
+
+    return {
+      overview: { totalCrises: crises.length, activeCrises: active.length, resolvedCrises: resolved.length, avgResolutionHours: avgResolution },
+      bySeverity: Object.entries(sevMap).map(([s, d]) => ({ severity: s, count: d.count, resolved: d.resolved, active: d.active })),
+      stakeholderCoverage: { totalStakeholders, contacted, satisfied, contactRate: totalStakeholders > 0 ? Math.round((contacted / totalStakeholders) * 100) : 0 },
+      mediaManagement: { totalInquiries, responded, pending, responseRate: totalInquiries > 0 ? Math.round((responded / totalInquiries) * 100) : 0, favorableSentiment: favorable },
+      holdingStatements: { total: totalStatements, approved: approvedStatements, approvalRate: totalStatements > 0 ? Math.round((approvedStatements / totalStatements) * 100) : 0 },
+      socialImpact: { avgMentions: Math.round(totalMentions / n), avgSentiment: Math.round(totalSentiment / n), trendingCrises: trending, misinformationDetected: misinfo },
+      internalReadiness: { briefedRate: Math.round((briefed / n) * 100), faqDistributed: faqDist, hotlineActive: hotlineAct },
+      crisisTimeline,
+      insights,
+    };
+  }
+
+  /** 10/10: Narrative & Belief Analytics */
+  getNarrativeBeliefAnalytics(): {
+    beliefOverview: { topicsTracked: number; avgBeliefScore: number; positiveTopics: number; negativeTopics: number; decliningTopics: number };
+    beliefByTopic: Array<{ topic: string; measurements: number; latestScore: number; latestSentiment: string; trend: string; audiencesTracked: number }>;
+    audienceInsights: Array<{ audience: string; topicsCovered: number; avgBeliefScore: number; avgSentiment: string }>;
+    driverAnalysis: Array<{ factor: string; totalImpact: number; controllable: boolean; frequency: number }>;
+    leakIntelligence: {
+      totalPatterns: number; bySeverity: Record<string, number>; byType: Record<string, number>;
+      resolutionRate: number; avgDetectionToResolution: number;
+      recentPatterns: Array<{ id: string; type: string; severity: string; status: string; detectedAt: Date }>;
+    };
+    insights: string[];
+  } {
+    const allBeliefs = Array.from(this.beliefMetrics.entries());
+    const leaks = Array.from(this.leakPatterns.values());
+
+    let totalScore = 0; let totalMeasurements = 0;
+    let positive = 0; let negative = 0; let declining = 0;
+    const audienceMap: Record<string, { topics: number; scores: number[]; sentiments: string[] }> = {};
+    const driverMap: Record<string, { totalImpact: number; controllable: boolean; count: number }> = {};
+
+    const beliefByTopic = allBeliefs.map(([topic, measurements]) => {
+      const latest = measurements[measurements.length - 1];
+      totalMeasurements += measurements.length;
+
+      const scores = measurements.map(m => m.beliefScore);
+      const avgScore = scores.reduce((a, b) => a + b, 0) / scores.length;
+      totalScore += avgScore;
+
+      if (latest.sentiment === 'positive') positive++;
+      if (latest.sentiment === 'negative') negative++;
+      if (latest.trendDirection === 'down') declining++;
+
+      const audiences = new Set(measurements.map(m => m.targetAudience));
+      for (const aud of audiences) {
+        if (!audienceMap[aud]) audienceMap[aud] = { topics: 0, scores: [], sentiments: [] };
+        audienceMap[aud].topics++;
+      }
+
+      for (const m of measurements) {
+        if (!audienceMap[m.targetAudience]) audienceMap[m.targetAudience] = { topics: 0, scores: [], sentiments: [] };
+        audienceMap[m.targetAudience].scores.push(m.beliefScore);
+        audienceMap[m.targetAudience].sentiments.push(m.sentiment);
+
+        for (const d of m.drivers) {
+          if (!driverMap[d.factor]) driverMap[d.factor] = { totalImpact: 0, controllable: d.controllable, count: 0 };
+          driverMap[d.factor].totalImpact += d.impact;
+          driverMap[d.factor].count++;
+        }
+      }
+
+      return {
+        topic, measurements: measurements.length,
+        latestScore: latest.beliefScore, latestSentiment: latest.sentiment,
+        trend: latest.trendDirection, audiencesTracked: audiences.size,
+      };
+    }).sort((a, b) => b.measurements - a.measurements);
+
+    const leakSev: Record<string, number> = {};
+    const leakType: Record<string, number> = {};
+    let resolvedLeaks = 0;
+    for (const l of leaks) {
+      leakSev[l.severity] = (leakSev[l.severity] || 0) + 1;
+      leakType[l.type] = (leakType[l.type] || 0) + 1;
+      if (l.status === 'resolved' || l.status === 'contained') resolvedLeaks++;
+    }
+
+    const topicCount = allBeliefs.length || 1;
+
+    const insights: string[] = [];
+    if (declining > 0) insights.push(`${declining} topic(s) showing declining belief scores â€” investigate and address`);
+    if (negative > positive && allBeliefs.length > 0) insights.push('More negative than positive belief topics â€” review communications strategy');
+    const uncontrollableDrivers = Object.values(driverMap).filter(d => !d.controllable && d.totalImpact < -50);
+    if (uncontrollableDrivers.length > 0) insights.push(`${uncontrollableDrivers.length} high-impact uncontrollable factor(s) â€” develop mitigation strategies`);
+    if (leaks.length > 0 && resolvedLeaks / leaks.length < 0.5) insights.push(`Only ${Math.round((resolvedLeaks / leaks.length) * 100)}% of leak patterns resolved â€” prioritize containment`);
+    if (insights.length === 0) insights.push('Narrative and belief metrics are healthy');
+
+    return {
+      beliefOverview: {
+        topicsTracked: allBeliefs.length,
+        avgBeliefScore: allBeliefs.length > 0 ? Math.round(totalScore / topicCount) : 0,
+        positiveTopics: positive, negativeTopics: negative, decliningTopics: declining,
+      },
+      beliefByTopic,
+      audienceInsights: Object.entries(audienceMap).map(([aud, d]) => ({
+        audience: aud, topicsCovered: d.topics,
+        avgBeliefScore: d.scores.length > 0 ? Math.round(d.scores.reduce((a, b) => a + b, 0) / d.scores.length) : 0,
+        avgSentiment: d.sentiments.filter(s => s === 'positive').length > d.sentiments.filter(s => s === 'negative').length ? 'positive' : d.sentiments.filter(s => s === 'negative').length > d.sentiments.filter(s => s === 'positive').length ? 'negative' : 'neutral',
+      })),
+      driverAnalysis: Object.entries(driverMap).map(([f, d]) => ({ factor: f, totalImpact: d.totalImpact, controllable: d.controllable, frequency: d.count })).sort((a, b) => Math.abs(b.totalImpact) - Math.abs(a.totalImpact)).slice(0, 15),
+      leakIntelligence: {
+        totalPatterns: leaks.length, bySeverity: leakSev, byType: leakType,
+        resolutionRate: leaks.length > 0 ? Math.round((resolvedLeaks / leaks.length) * 100) : 100,
+        avgDetectionToResolution: 0,
+        recentPatterns: [...leaks].sort((a, b) => b.detectedAt.getTime() - a.detectedAt.getTime()).slice(0, 10).map(l => ({ id: l.id, type: l.type, severity: l.severity, status: l.status, detectedAt: l.detectedAt })),
+      },
+      insights,
     };
   }
 }

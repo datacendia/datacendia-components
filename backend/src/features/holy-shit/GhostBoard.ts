@@ -11,6 +11,7 @@ import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/B
 import { eventBus } from '../../core/events/EventBus.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -342,7 +343,7 @@ export class GhostBoardService extends BaseService {
     const sessionDuration = Math.round((Date.now() - startTime) / 1000 / 60);
 
     const result: GhostBoardResult = {
-      id: `gb-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `gb-${Date.now()}-${deterministicFloat('ghostboard-1').toString(36).substr(2, 9)}`,
       proposalTitle: request.proposalTitle,
       sessionDate: new Date(),
       duration: Math.max(45, sessionDuration), // Minimum 45 min simulated

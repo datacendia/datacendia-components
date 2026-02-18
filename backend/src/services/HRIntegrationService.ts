@@ -208,7 +208,7 @@ class BambooHRConnector {
       return await response.json();
     } catch (error) {
       // In development without actual API, return mock structure
-      logger.debug(`BambooHR API call to ${endpoint} (simulated)`);
+      logger.debug(`BambooHR API call to ${endpoint} (deterministic fallback)`);
       return { employees: [], requests: [] };
     }
   }

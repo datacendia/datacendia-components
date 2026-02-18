@@ -63,7 +63,7 @@ const TIER_LIMITS: Record<SubscriptionTier, RateLimitConfig> = {
   },
 };
 
-// In-memory store (use Redis in production)
+// In-memory store; production upgrade: use Redis
 const rateLimitStore = new Map<string, RateLimitEntry>();
 
 // Cleanup old entries every 5 minutes
@@ -80,7 +80,7 @@ setInterval(() => {
  * Get user's subscription tier from request
  */
 function getUserTier(req: Request): SubscriptionTier {
-  // In production, this would come from JWT token or database lookup
+  // Production upgrade: extract from JWT token or database
   const user = (req as any).user;
   return user?.tier || 'pilot';
 }

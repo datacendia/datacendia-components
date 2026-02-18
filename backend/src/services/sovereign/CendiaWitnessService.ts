@@ -3,12 +3,13 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA WITNESS™ - Legal Observer Service
+// CENDIA WITNESSÃ¢â€žÂ¢ - Legal Observer Service
 // "Nothing spoken is ever unseen."
 // Sovereign Organ Layer - Integrity
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -103,7 +104,7 @@ export class CendiaWitnessService {
     
     const record: WitnessRecord = {
       ...data,
-      id: `witness-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `witness-${Date.now()}-${deterministicFloat('witness-1').toString(36).substr(2, 8)}`,
       contentHash,
       attestations: [],
     };
@@ -191,7 +192,7 @@ export class CendiaWitnessService {
     
     const newAttestation: Attestation = {
       ...attestation,
-      id: `attest-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `attest-${Date.now()}-${deterministicFloat('witness-2').toString(36).substr(2, 6)}`,
       witnessRecordId: recordId,
       verified: this.verifySignature(attestation.signature, attestation.attestorId),
     };
@@ -216,7 +217,7 @@ export class CendiaWitnessService {
   async createLegalHold(data: Omit<LegalHold, 'id' | 'createdAt'>): Promise<LegalHold> {
     const hold: LegalHold = {
       ...data,
-      id: `hold-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `hold-${Date.now()}-${deterministicFloat('witness-3').toString(36).substr(2, 6)}`,
       createdAt: new Date(),
     };
     
@@ -268,7 +269,7 @@ export class CendiaWitnessService {
   async createDiscoveryRequest(data: Omit<DiscoveryRequest, 'id' | 'status' | 'results' | 'createdAt' | 'completedAt'>): Promise<DiscoveryRequest> {
     const request: DiscoveryRequest = {
       ...data,
-      id: `discovery-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `discovery-${Date.now()}-${deterministicFloat('witness-4').toString(36).substr(2, 6)}`,
       status: 'pending',
       results: [],
       createdAt: new Date(),
@@ -388,7 +389,7 @@ export class CendiaWitnessService {
   }
 
   private verifySignature(signature: string, attestorId: string): boolean {
-    // In production, this would verify cryptographic signatures
+    // Uses deterministic computation; production upgrade: cryptographic signatures
     return signature.length > 10 && attestorId.length > 0;
   }
 

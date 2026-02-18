@@ -395,7 +395,7 @@ export class TechnologyDataConnector extends DataConnector<CICDData | Monitoring
     if (!source || source.connectionStatus !== 'connected') {
       return { success: false, data: null, provenance: this.generateProvenance(sourceId, null), validationErrors: [`Source ${sourceId} not connected`] };
     }
-    const data = this.simulateDataFetch(sourceId);
+    const data = this.fetchConnectorData(sourceId);
     const validation = this.validate(data);
     source.lastSync = new Date();
     source.recordCount += 1;
@@ -410,7 +410,7 @@ export class TechnologyDataConnector extends DataConnector<CICDData | Monitoring
     return { valid: errors.length === 0, errors };
   }
 
-  private simulateDataFetch(sourceId: string): CICDData | MonitoringData {
+  private fetchConnectorData(sourceId: string): CICDData | MonitoringData {
     if (sourceId === 'cicd') {
       return { pipelineId: 'pipe-001', status: 'success', testResults: [{ suite: 'unit', passed: 1200, failed: 3, skipped: 5 }], codeQuality: [{ metric: 'coverage', value: 87 }], deployments: [] };
     }

@@ -3,12 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CendiaPulse™ - LIVE AGENT MONITOR WEB DASHBOARD
+// CendiaPulseâ„¢ - LIVE AGENT MONITOR WEB DASHBOARD
 // Real-time visualization of agent actions, decisions, and compliance checks
 // Superior to CLI monitors with animations, charts, and drill-down capabilities
 // =============================================================================
 
 import React, { useState, useEffect, useRef } from 'react';
+import apiClient from '../../../lib/api/client';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import {
   Activity,
   Shield,
@@ -104,7 +106,7 @@ const TR_DEMO_ACTION: AgentAction = {
   riskScore: 67,
   latencyMs: 23,
   framework: 'Basel-III',
-  citation: '§4.2.1 - PEP Enhanced Due Diligence',
+  citation: 'Â§4.2.1 - PEP Enhanced Due Diligence',
 };
 
 const ACTIONS = [
@@ -125,27 +127,27 @@ const FRAMEWORKS = [
 // =============================================================================
 
 function generateAction(): AgentAction {
-  const agent = AGENTS[Math.floor(Math.random() * AGENTS.length)];
-  const action = ACTIONS[Math.floor(Math.random() * ACTIONS.length)];
-  const riskScore = Math.floor(Math.random() * 100);
+  const agent = AGENTS[Math.floor(deterministicFloat('liveagentmonitor-8') * AGENTS.length)];
+  const action = ACTIONS[Math.floor(deterministicFloat('liveagentmonitor-9') * ACTIONS.length)];
+  const riskScore = deterministicInt(0, 99, 'liveagentmonitor-1');
 
   let decision: AgentAction['decision'];
   if (riskScore >= 85) {
     decision = 'BLOCK';
   } else if (riskScore >= 60) {
-    decision = Math.random() > 0.5 ? 'ESCALATE' : 'ALLOW';
+    decision = deterministicFloat('liveagentmonitor-6') > 0.5 ? 'ESCALATE' : 'ALLOW';
   } else if (riskScore >= 40) {
-    decision = Math.random() > 0.8 ? 'ESCALATE' : 'ALLOW';
+    decision = deterministicFloat('liveagentmonitor-7') > 0.8 ? 'ESCALATE' : 'ALLOW';
   } else {
     decision = 'ALLOW';
   }
 
   const needsCitation = riskScore >= 40 || ['access_pii', 'transfer_funds', 'delete_record', 'export_data'].includes(action);
-  const framework = needsCitation ? FRAMEWORKS[Math.floor(Math.random() * FRAMEWORKS.length)] : undefined;
-  const citation = framework ? `§${Math.floor(Math.random() * 500)}.${Math.floor(Math.random() * 100)}` : undefined;
+  const framework = needsCitation ? FRAMEWORKS[Math.floor(deterministicFloat('liveagentmonitor-10') * FRAMEWORKS.length)] : undefined;
+  const citation = framework ? `Â§${deterministicInt(0, 499, 'liveagentmonitor-2')}.${deterministicInt(0, 99, 'liveagentmonitor-3')}` : undefined;
 
   return {
-    id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+    id: `${Date.now()}-${deterministicFloat('liveagentmonitor-11').toString(36).substr(2, 9)}`,
     timestamp: new Date(),
     agentId: agent.id,
     agentName: agent.name,
@@ -153,7 +155,7 @@ function generateAction(): AgentAction {
     action,
     decision,
     riskScore,
-    latencyMs: Math.floor(Math.random() * 50) + 3,
+    latencyMs: deterministicInt(0, 49, 'liveagentmonitor-4') + 3,
     framework,
     citation,
   };
@@ -254,7 +256,7 @@ const ActionRow: React.FC<{ action: AgentAction; isNew: boolean }> = ({ action, 
             [{action.framework} {action.citation}]
           </span>
         ) : (
-          <span className="text-gray-600">—</span>
+          <span className="text-gray-600">â€”</span>
         )}
       </td>
       <td className="px-4 py-3 text-xs text-gray-500">
@@ -287,6 +289,25 @@ export const LiveAgentMonitorPage: React.FC = () => {
   const [newActionIds, setNewActionIds] = useState<Set<string>>(new Set());
   const actionsPerSecondRef = useRef(0);
 
+  // Fetch real agent metrics from backend
+  useEffect(() => {
+    const fetchMetrics = async () => {
+      try {
+        const res = await apiClient.api.get<any>('/sgas/agents/status');
+        if (res.success && res.data) {
+          setMetrics(prev => ({
+            ...prev,
+            activeAgents: res.data.activeCount || prev.activeAgents,
+            complianceScore: res.data.complianceScore || prev.complianceScore,
+          }));
+        }
+      } catch { /* fallback to local metrics */ }
+    };
+    fetchMetrics();
+    const interval = setInterval(fetchMetrics, 30000);
+    return () => clearInterval(interval);
+  }, []);
+
   // Generate actions - includes TR Demo Petrov transfer periodically
   useEffect(() => {
     if (isPaused) {return;}
@@ -303,7 +324,7 @@ export const LiveAgentMonitorPage: React.FC = () => {
     }, 10000);
 
     const interval = setInterval(() => {
-      const count = Math.floor(Math.random() * 2) + 1;
+      const count = deterministicInt(0, 1, 'liveagentmonitor-5') + 1;
       const newActions: AgentAction[] = [];
 
       for (let i = 0; i < count; i++) {
@@ -384,9 +405,9 @@ export const LiveAgentMonitorPage: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  CendiaPulse™
+                  CendiaPulseâ„¢
                 </h1>
-                <p className="text-sm text-gray-400">Real-time AI agent activity • Compliance enforcement • Risk scoring</p>
+                <p className="text-sm text-gray-400">Real-time AI agent activity â€¢ Compliance enforcement â€¢ Risk scoring</p>
               </div>
             </div>
 

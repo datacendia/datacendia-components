@@ -10,6 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import { PrismaClient, LicenseType, LicenseStatus } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -144,7 +145,7 @@ class LicenseService {
 
   private generateLicenseKey(type: string): string {
     const prefix = type.substring(0, 3).toUpperCase();
-    const random = Math.random().toString(36).substring(2, 10).toUpperCase();
+    const random = deterministicFloat('license-1').toString(36).substring(2, 10).toUpperCase();
     const timestamp = Date.now().toString(36).toUpperCase();
     return `DC-${prefix}-${random}-${timestamp}`;
   }
@@ -282,7 +283,7 @@ class LicenseService {
   }
 
   private getRevenue(type: string): number {
-    // Annual enterprise licensing — not SaaS
+    // Annual enterprise licensing â€” not SaaS
     const annualPrices: Record<string, number> = {
       pilot: 50000,
       trial: 0,

@@ -3,12 +3,13 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MIRAGE™ - Deception Technology Service
+// CENDIA MIRAGEâ„¢ - Deception Technology Service
 // "Let attackers reveal themselves in shadow environments."
 // Sovereign Security Layer - Deception & Threat Intelligence
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -150,7 +151,7 @@ export class CendiaMirageService {
   async deployHoneytoken(data: Omit<Honeytoken, 'id' | 'triggered' | 'triggerCount' | 'lastTriggered' | 'createdAt'>): Promise<Honeytoken> {
     const honeytoken: Honeytoken = {
       ...data,
-      id: `honey-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `honey-${Date.now()}-${deterministicFloat('mirage-1').toString(36).substr(2, 8)}`,
       triggered: false,
       triggerCount: 0,
       lastTriggered: null,
@@ -175,7 +176,7 @@ export class CendiaMirageService {
     
     // Create alert
     const alert: CanaryAlert = {
-      id: `alert-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `alert-${Date.now()}-${deterministicFloat('mirage-2').toString(36).substr(2, 6)}`,
       canaryId: honeytokenId,
       timestamp: new Date(),
       eventType: 'authentication',
@@ -209,7 +210,7 @@ export class CendiaMirageService {
   async deployCanary(data: Omit<CanarySystem, 'id' | 'alerts' | 'interactions' | 'createdAt' | 'lastInteraction'>): Promise<CanarySystem> {
     const canary: CanarySystem = {
       ...data,
-      id: `canary-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `canary-${Date.now()}-${deterministicFloat('mirage-3').toString(36).substr(2, 8)}`,
       alerts: [],
       interactions: 0,
       createdAt: new Date(),
@@ -226,7 +227,7 @@ export class CendiaMirageService {
     
     const alert: CanaryAlert = {
       ...interaction,
-      id: `calert-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `calert-${Date.now()}-${deterministicFloat('mirage-4').toString(36).substr(2, 6)}`,
       canaryId,
       analyzed: false,
     };
@@ -268,7 +269,7 @@ export class CendiaMirageService {
   async createSandbox(data: Omit<SandboxEnvironment, 'id' | 'status' | 'capturedActivity' | 'engagementStart' | 'engagementEnd' | 'forensicReport'>): Promise<SandboxEnvironment> {
     const sandbox: SandboxEnvironment = {
       ...data,
-      id: `sandbox-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `sandbox-${Date.now()}-${deterministicFloat('mirage-5').toString(36).substr(2, 8)}`,
       status: 'ready',
       capturedActivity: [],
       engagementStart: null,
@@ -297,7 +298,7 @@ export class CendiaMirageService {
     
     const captured: CapturedActivity = {
       ...activity,
-      id: `activity-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `activity-${Date.now()}-${deterministicFloat('mirage-6').toString(36).substr(2, 6)}`,
       sandboxId,
     };
     
@@ -333,7 +334,7 @@ export class CendiaMirageService {
     }
     
     const report: ForensicReport = {
-      id: `forensic-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `forensic-${Date.now()}-${deterministicFloat('mirage-7').toString(36).substr(2, 6)}`,
       sandboxId,
       attackerProfile: {
         estimatedSkillLevel: this.estimateSkillLevel(activities),
@@ -386,7 +387,7 @@ export class CendiaMirageService {
     }
     
     const intel: ThreatIntelligence = {
-      id: `intel-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `intel-${Date.now()}-${deterministicFloat('mirage-8').toString(36).substr(2, 8)}`,
       organizationId,
       sourceType,
       sourceId,

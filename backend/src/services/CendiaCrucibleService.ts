@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCrucible™ - Synthetic Multiverse Simulation Engine
+ * CendiaCrucibleÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Synthetic Multiverse Simulation Engine
  * 
  * "Synthetic Reality. Infinite Stress Testing. Failure Before It Happens."
  * 
@@ -19,6 +19,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import { EnhancedLLMService } from './EnhancedLLMService.js';
 import crypto from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // Types
 export type SimulationType = 
@@ -1339,8 +1340,8 @@ Provide exactly 3 strategic opportunity statements. Each should be actionable an
   }
 
   private gaussianRandom(mean: number, stdDev: number): number {
-    const u1 = Math.random();
-    const u2 = Math.random();
+    const u1 = deterministicFloat('crucible-1');
+    const u2 = deterministicFloat('crucible-2');
     const z = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
     return mean + z * stdDev;
   }
@@ -1441,7 +1442,7 @@ Provide exactly 3 strategic opportunity statements. Each should be actionable an
     };
 
     const options = templates[sentiment];
-    return options[Math.floor(Math.random() * options.length)];
+    return options[Math.floor(deterministicFloat('crucible-3') * options.length)];
   }
 
   private async generateOutcomeSummary(
@@ -1663,7 +1664,7 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
     const avgConfidence = responses.reduce((sum, r) => sum + r.confidenceLevel, 0) / responses.length;
     const recommendations = responses.map(r => r.recommendation);
     
-    // Simple consensus check - in production, use more sophisticated NLP
+    // Simple consensus check - production upgrade: use more sophisticated NLP
     const consensusReached = avgConfidence > 70;
 
     return {
@@ -1820,7 +1821,7 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
     const resilience = await this.getResilienceScores(organizationId);
     const industry = org?.industry || 'Technology';
 
-    // Industry benchmark data (would come from aggregated data in production)
+    // Industry benchmark data (production upgrade: source from aggregated data)
     const industryBenchmarks: Record<string, Record<string, { avg: number; topQuartile: number }>> = {
       'Technology': {
         Financial: { avg: 72, topQuartile: 85 },
@@ -1944,7 +1945,7 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
         priority = 'medium';
         reason = `No ${scenario.name} simulation run in ${daysSinceLastSim} days`;
       } else {
-        continue; // Skip if score is good and recently simulated
+        continue; // Skip if score is good and recently tested
       }
 
       recommendations.push({
@@ -2212,7 +2213,7 @@ Provide a quick 3-outcome analysis as JSON:
         bestCase: parsed.bestCase || { outcome: 'Favorable outcome', probability: 0.15 },
         mostLikely: parsed.mostLikely || { outcome: 'Expected outcome', probability: 0.60 },
         worstCase: parsed.worstCase || { outcome: 'Adverse outcome', probability: 0.10 },
-        recommendation: parsed.recommendation || 'Proceed with caution — consider full simulation for detailed analysis.',
+        recommendation: parsed.recommendation || 'Proceed with caution ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â consider full simulation for detailed analysis.',
         riskScore: typeof parsed.riskScore === 'number' ? parsed.riskScore : 50,
         keyFactors: Array.isArray(parsed.keyFactors) ? parsed.keyFactors : [],
         mode: 'express',
@@ -2222,7 +2223,7 @@ Provide a quick 3-outcome analysis as JSON:
       logger.error('[Crucible Express] Quick simulation failed:', error);
       return {
         bestCase: { outcome: 'Analysis unavailable', probability: 0.15 },
-        mostLikely: { outcome: 'Analysis unavailable — run full simulation', probability: 0.60 },
+        mostLikely: { outcome: 'Analysis unavailable ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â run full simulation', probability: 0.60 },
         worstCase: { outcome: 'Analysis unavailable', probability: 0.10 },
         recommendation: 'Express analysis failed. Run a full Crucible simulation for detailed results.',
         riskScore: 50,
@@ -2282,16 +2283,16 @@ Provide a quick 3-outcome analysis as JSON:
     const vulnerabilities: string[] = [];
     const strengths: string[] = [];
 
-    if (dataResilience < 50) vulnerabilities.push('Low data source connectivity — potential blind spots');
+    if (dataResilience < 50) vulnerabilities.push('Low data source connectivity ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â potential blind spots');
     else strengths.push('Strong data source connectivity');
 
-    if (simulationReadiness < 30) vulnerabilities.push('Limited simulation coverage — many scenario types untested');
+    if (simulationReadiness < 30) vulnerabilities.push('Limited simulation coverage ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â many scenario types untested');
     else strengths.push('Good simulation coverage across scenario types');
 
-    if (operationalHealth < 50) vulnerabilities.push('High alert volume — active operational issues');
-    else strengths.push('Low alert volume — stable operations');
+    if (operationalHealth < 50) vulnerabilities.push('High alert volume ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â active operational issues');
+    else strengths.push('Low alert volume ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â stable operations');
 
-    if (automationScore < 30) vulnerabilities.push('Low workflow automation — manual processes at risk');
+    if (automationScore < 30) vulnerabilities.push('Low workflow automation ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â manual processes at risk');
     else strengths.push('Healthy workflow automation');
 
     return {
@@ -2313,7 +2314,7 @@ Provide a quick 3-outcome analysis as JSON:
 
   /**
    * Sensitivity Analysis: Which input variables matter most?
-   * Varies each variable ±10% and measures outcome elasticity.
+   * Varies each variable ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±10% and measures outcome elasticity.
    */
   async runSensitivityAnalysis(
     simulationId: string
@@ -2353,7 +2354,7 @@ Provide a quick 3-outcome analysis as JSON:
       { name: 'gross_margin', base: twin?.financials?.grossMargin || 0.6 },
     ].filter(v => v.base !== 0 && v.base != null);
 
-    const variation = 0.10; // ±10%
+    const variation = 0.10; // ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±10%
     const sensitivities: Array<{
       variable: string;
       elasticity: number;
@@ -2366,9 +2367,9 @@ Provide a quick 3-outcome analysis as JSON:
     const baselineScore = this.calculateBaselineRiskScore(scenario.shocks, twin);
 
     for (const variable of testVariables) {
-      // Simulate +10%
+      // Apply +10% adjustment
       const upScore = this.calculateVariedRiskScore(scenario.shocks, twin, variable.name, variable.base * (1 + variation));
-      // Simulate -10%
+      // Apply -10% adjustment
       const downScore = this.calculateVariedRiskScore(scenario.shocks, twin, variable.name, variable.base * (1 - variation));
 
       const impactUp = upScore - baselineScore;
@@ -2413,8 +2414,8 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
       recommendations = Array.isArray(parsed) ? parsed : parsed.recommendations || [];
     } catch {
       recommendations = [
-        `Focus risk mitigation on ${most.variable} — it has ${most.elasticity.toFixed(1)}x impact per 10% change`,
-        `${least.variable} has minimal sensitivity — deprioritize in stress testing`,
+        `Focus risk mitigation on ${most.variable} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â it has ${most.elasticity.toFixed(1)}x impact per 10% change`,
+        `${least.variable} has minimal sensitivity ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â deprioritize in stress testing`,
         `Monitor ${sensitivities.slice(0, 3).map(s => s.variable).join(', ')} as your top risk drivers`,
       ];
     }
@@ -2425,12 +2426,12 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
       mostSensitive: {
         variable: most.variable,
         elasticity: most.elasticity,
-        insight: `${most.variable} has ${most.elasticity.toFixed(1)}x impact — a 10% change here has disproportionate effect on outcomes`,
+        insight: `${most.variable} has ${most.elasticity.toFixed(1)}x impact ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â a 10% change here has disproportionate effect on outcomes`,
       },
       leastSensitive: {
         variable: least.variable,
         elasticity: least.elasticity,
-        insight: `${least.variable} has minimal impact (${least.elasticity.toFixed(2)}x) — safe to deprioritize`,
+        insight: `${least.variable} has minimal impact (${least.elasticity.toFixed(2)}x) ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â safe to deprioritize`,
       },
       recommendations,
       generatedAt: new Date(),
@@ -2611,7 +2612,7 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
       recommendation = `Model accuracy: Excellent (${Math.round((1 - meanError) * 100)}%). Predictions are highly reliable. Continue current approach.`;
     } else if (meanError < 0.30) {
       accuracy = 'Good';
-      recommendation = `Model accuracy: Good (${Math.round((1 - meanError) * 100)}%). ${bias > 0.1 ? 'Model tends to be optimistic — apply calibration factor of ' + calibrationFactor.toFixed(2) : bias < -0.1 ? 'Model tends to be pessimistic — adjust upward by ' + Math.abs(bias * 100).toFixed(0) + '%' : 'No systematic bias detected.'}`;
+      recommendation = `Model accuracy: Good (${Math.round((1 - meanError) * 100)}%). ${bias > 0.1 ? 'Model tends to be optimistic ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â apply calibration factor of ' + calibrationFactor.toFixed(2) : bias < -0.1 ? 'Model tends to be pessimistic ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â adjust upward by ' + Math.abs(bias * 100).toFixed(0) + '%' : 'No systematic bias detected.'}`;
     } else {
       accuracy = 'Needs Improvement';
       recommendation = `Model accuracy: ${Math.round((1 - meanError) * 100)}%. Consider adjusting simulation parameters. ${bias > 0 ? 'Reduce optimism in scenario assumptions.' : 'Increase baseline resilience assumptions.'}`;
@@ -2700,7 +2701,7 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
           pair: [types[i], types[j]],
           correlation: Math.round(correlation * 100) / 100,
           coOccurrence: Math.round(coOccurrence * 100) / 100,
-          warning: correlation > 0.7 ? `${types[i]} and ${types[j]} tend to cascade together — prepare for both simultaneously` : null,
+          warning: correlation > 0.7 ? `${types[i]} and ${types[j]} tend to cascade together ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â prepare for both simultaneously` : null,
         });
       }
     }
@@ -2744,7 +2745,7 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
         clusteredRisks.push({
           cluster,
           probability: Math.round(clusterProb * 100) / 100,
-          warning: `These ${cluster.length} scenario types cascade together — if one triggers, expect the others`,
+          warning: `These ${cluster.length} scenario types cascade together ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â if one triggers, expect the others`,
         });
       }
     }
@@ -2784,7 +2785,7 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
     // Industry-specific scenario recommendations
     const industryMap: Record<string, Array<{ type: SimulationType; relevance: string }>> = {
       'financial services': [
-        { type: 'FINANCIAL_STRESS', relevance: 'Core risk — interest rate and credit exposure' },
+        { type: 'FINANCIAL_STRESS', relevance: 'Core risk ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â interest rate and credit exposure' },
         { type: 'REGULATORY_CHANGE', relevance: 'Basel/Dodd-Frank compliance shifts' },
         { type: 'CYBER_ATTACK', relevance: 'PCI-DSS and customer data protection' },
         { type: 'MARKET_DISRUPTION', relevance: 'Fintech competition and market volatility' },
@@ -2859,7 +2860,7 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
       recommended.push({
         type: untested,
         name: SCENARIO_TEMPLATES[untested]?.name || untested,
-        reason: `Never tested — blind spot in resilience coverage`,
+        reason: `Never tested ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â blind spot in resilience coverage`,
       });
     }
     // Add most-used scenario as re-run recommendation
@@ -2869,7 +2870,7 @@ Provide 3-5 actionable recommendations as a JSON array of strings.`;
         recommended.push({
           type: savedScenarios[0].type as SimulationType,
           name: SCENARIO_TEMPLATES[savedScenarios[0].type as SimulationType]?.name || savedScenarios[0].type,
-          reason: `Last run ${daysSinceLastRun} days ago — re-test for current conditions`,
+          reason: `Last run ${daysSinceLastRun} days ago ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â re-test for current conditions`,
         });
       }
     }

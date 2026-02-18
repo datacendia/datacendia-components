@@ -34,7 +34,7 @@ interface EmailTemplate {
 
 // Create transporter based on environment
 const createTransporter = () => {
-  // In production, use configured SMTP
+  // Production upgrade: use configured SMTP
   if (process.env.SMTP_HOST) {
     return nodemailer.createTransport({
       host: process.env.SMTP_HOST,
@@ -109,7 +109,7 @@ The Datacendia Team
     </div>
     <div style="background-color: #27272a; padding: 20px; text-align: center;">
       <p style="color: #71717a; font-size: 12px; margin: 0;">
-        © ${new Date().getFullYear()} Datacendia. All rights reserved.
+        Â© ${new Date().getFullYear()} Datacendia. All rights reserved.
       </p>
     </div>
   </div>
@@ -162,7 +162,7 @@ The Datacendia Team
     </div>
     <div style="background-color: #27272a; padding: 20px; text-align: center;">
       <p style="color: #71717a; font-size: 12px; margin: 0;">
-        © ${new Date().getFullYear()} Datacendia. All rights reserved.
+        Â© ${new Date().getFullYear()} Datacendia. All rights reserved.
       </p>
     </div>
   </div>
@@ -226,7 +226,7 @@ The Datacendia Team
     </div>
     <div style="background-color: #27272a; padding: 20px; text-align: center;">
       <p style="color: #71717a; font-size: 12px; margin: 0;">
-        © ${new Date().getFullYear()} Datacendia. All rights reserved.
+        Â© ${new Date().getFullYear()} Datacendia. All rights reserved.
       </p>
     </div>
   </div>

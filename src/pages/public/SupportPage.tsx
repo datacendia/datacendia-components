@@ -4,6 +4,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import {
   HelpCircle,
   Mail,
@@ -34,12 +35,12 @@ const ParticleField: React.FC = () => {
     }[] = [];
     for (let i = 0; i < 25; i++)
       {particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.15,
-        vy: (Math.random() - 0.5) * 0.15,
-        size: Math.random() * 1.5 + 0.5,
-        opacity: Math.random() * 0.25 + 0.05,
+        x: deterministicFloat('support-5') * canvas.width,
+        y: deterministicFloat('support-6') * canvas.height,
+        vx: (deterministicFloat('support-1') - 0.5) * 0.15,
+        vy: (deterministicFloat('support-2') - 0.5) * 0.15,
+        size: deterministicFloat('support-3') * 1.5 + 0.5,
+        opacity: deterministicFloat('support-4') * 0.25 + 0.05,
       });}
     let animationId: number;
     const animate = () => {
@@ -254,7 +255,7 @@ export const SupportPage: React.FC = () => {
       {/* Footer */}
       <footer className="relative z-20 py-12 border-t border-gray-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center text-[10px] text-gray-700 tracking-widest">
-          <p>© {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE</p>
+          <p>Â© {new Date().getFullYear()} DATACENDIA â€¢ SOVEREIGN INTELLIGENCE</p>
         </div>
       </footer>
     </div>

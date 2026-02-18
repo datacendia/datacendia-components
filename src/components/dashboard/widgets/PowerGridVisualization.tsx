@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Zap, Sun, Wind, Droplets, Atom, Factory, Home, Building2, Bot } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -189,7 +190,7 @@ const GridZoneCard: React.FC<{ zone: GridZone }> = ({ zone }) => {
         )}>
           {balance >= 0 ? '+' : ''}{balance}MW reserve
         </span>
-        <span className="text-gray-500">{zone.frequency.toFixed(2)}Hz • {zone.voltage}kV</span>
+        <span className="text-gray-500">{zone.frequency.toFixed(2)}Hz â€¢ {zone.voltage}kV</span>
       </div>
     </div>
   );
@@ -233,14 +234,14 @@ export const PowerGridVisualization: React.FC<{ className?: string }> = ({ class
       setSources(prev => prev.map((source): PowerSource => ({
         ...source,
         currentOutput: Math.max(0, Math.min(source.capacity, 
-          source.currentOutput + (Math.random() - 0.5) * source.capacity * 0.05
+          source.currentOutput + (deterministicFloat('powergridvisualization-1') - 0.5) * source.capacity * 0.05
         )),
       })));
 
       setZones(prev => prev.map((zone): GridZone => ({
         ...zone,
-        demand: zone.demand + (Math.random() - 0.5) * 50,
-        frequency: 59.95 + Math.random() * 0.1,
+        demand: zone.demand + (deterministicFloat('powergridvisualization-2') - 0.5) * 50,
+        frequency: 59.95 + deterministicFloat('powergridvisualization-3') * 0.1,
       })));
     }, 2000);
 
@@ -274,7 +275,7 @@ export const PowerGridVisualization: React.FC<{ className?: string }> = ({ class
           totalOutput >= totalDemand ? 'bg-emerald-900/20 border-emerald-500/30' : 'bg-red-900/20 border-red-500/30'
         )}>
           <p className={cn('text-lg font-bold', totalOutput >= totalDemand ? 'text-emerald-400' : 'text-red-400')}>
-            {totalOutput >= totalDemand ? '✓' : '⚠'}
+            {totalOutput >= totalDemand ? 'âœ“' : 'âš '}
           </p>
           <p className="text-[10px] text-gray-400">Grid Status</p>
         </div>

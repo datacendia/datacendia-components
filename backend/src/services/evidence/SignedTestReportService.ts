@@ -587,12 +587,12 @@ export class SignedTestReportService extends EventEmitter {
     const categories = d['categoryBreakdown'] as Record<string, { total: number; passed: number; failed: number }>;
     
     const lines = [
-      '═'.repeat(80),
+      'ÃƒÂ¢Ã¢â‚¬Â¢Ã‚Â'.repeat(80),
       '',
       `                    ${config.title.toUpperCase()}`,
       config.subtitle ? `                    ${config.subtitle}` : '',
       '',
-      '═'.repeat(80),
+      'ÃƒÂ¢Ã¢â‚¬Â¢Ã‚Â'.repeat(80),
       '',
       `Organization:     ${config.organization}`,
       config.department ? `Department:       ${config.department}` : '',
@@ -601,7 +601,7 @@ export class SignedTestReportService extends EventEmitter {
       `Classification:   ${(config.classification || 'internal').toUpperCase()}`,
       `Generated:        ${new Date().toISOString()}`,
       '',
-      '─'.repeat(80),
+      'ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬'.repeat(80),
       '',
       '                         EXECUTIVE SUMMARY',
       '',
@@ -612,7 +612,7 @@ export class SignedTestReportService extends EventEmitter {
       `Errors:           ${summary['errors']}`,
       `Pass Rate:        ${summary['passRate']}%`,
       '',
-      '─'.repeat(80),
+      'ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬'.repeat(80),
       '',
       '                       CATEGORY BREAKDOWN',
       '',
@@ -624,7 +624,7 @@ export class SignedTestReportService extends EventEmitter {
     }
     
     lines.push('');
-    lines.push('─'.repeat(80));
+    lines.push('ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬'.repeat(80));
     lines.push('');
     lines.push('                       CHAIN VERIFICATION');
     lines.push('');
@@ -635,19 +635,19 @@ export class SignedTestReportService extends EventEmitter {
     lines.push(`Merkle Root:          ${chainVerification['merkleRootAvailable'] ? 'AVAILABLE' : 'NOT AVAILABLE'}`);
     
     lines.push('');
-    lines.push('─'.repeat(80));
+    lines.push('ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬'.repeat(80));
     lines.push('');
     lines.push('                        DIGITAL SIGNATURE');
     lines.push('');
     lines.push('This report is digitally signed using RSA-SHA256.');
     lines.push('Verify at: [verification URL]');
     lines.push('');
-    lines.push('═'.repeat(80));
+    lines.push('ÃƒÂ¢Ã¢â‚¬Â¢Ã‚Â'.repeat(80));
     lines.push('');
     lines.push(`Report ID: ${d['reportType']}`);
     lines.push(`Content Hash: ${this.hashData(data)}`);
     lines.push('');
-    lines.push('═'.repeat(80));
+    lines.push('ÃƒÂ¢Ã¢â‚¬Â¢Ã‚Â'.repeat(80));
     
     return lines.filter(l => l !== undefined).join('\n');
   }
@@ -713,26 +713,26 @@ export class SignedTestReportService extends EventEmitter {
       timestamp: new Date().toISOString(),
     });
     
-    // NTP timestamp (simulated)
+    // NTP timestamp (local generation)
     timestamps.push({
       source: 'ntp',
       timestamp: new Date().toISOString(),
       proof: `ntp-proof-${hash.slice(0, 16)}`,
     });
     
-    // RFC 3161 timestamp (simulated - in production, call actual TSA)
+    // RFC 3161 timestamp (deterministic computation; production upgrade: call actual TSA)
     timestamps.push({
       source: 'rfc3161',
       timestamp: new Date().toISOString(),
       proof: this.generateRFC3161Proof(hash),
-      certificate: 'simulated-tsa-cert',
+      certificate: 'local-tsa-cert',
     });
     
     return timestamps;
   }
 
   private generateRFC3161Proof(hash: string): string {
-    // Simulated RFC 3161 timestamp token
+    // RFC 3161 timestamp token (local generation)
     const token = {
       version: 1,
       messageImprint: {

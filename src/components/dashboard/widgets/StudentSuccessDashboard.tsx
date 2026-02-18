@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { GraduationCap, Users, TrendingUp, AlertTriangle, BookOpen, Bot, Target, Award } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -145,7 +146,7 @@ const CohortCard: React.FC<{ cohort: Cohort }> = ({ cohort }) => {
           cohort.trend === 'up' ? 'text-emerald-400' :
           cohort.trend === 'down' ? 'text-red-400' : 'text-gray-400'
         )}>
-          {cohort.trend === 'up' ? '↑' : cohort.trend === 'down' ? '↓' : '→'}
+          {cohort.trend === 'up' ? 'â†‘' : cohort.trend === 'down' ? 'â†“' : 'â†’'}
         </span>
       </div>
       <div className="grid grid-cols-3 gap-2 text-[10px]">
@@ -190,7 +191,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
     {agent.studentsMonitored > 0 && (
       <p className="text-[10px] text-gray-400 mb-1">Monitoring {agent.studentsMonitored.toLocaleString()} students</p>
     )}
-    <p className="text-[10px] text-cyan-400">🎯 {agent.recentAction}</p>
+    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.recentAction}</p>
   </div>
 );
 
@@ -231,13 +232,13 @@ export const StudentSuccessDashboard: React.FC<{ className?: string }> = ({ clas
       // Simulate engagement score changes
       setStudents(prev => prev.map((s): Student => ({
         ...s,
-        engagementScore: Math.max(10, Math.min(100, s.engagementScore + Math.floor((Math.random() - 0.5) * 5))),
+        engagementScore: Math.max(10, Math.min(100, s.engagementScore + Math.floor((deterministicFloat('studentsuccess-1') - 0.5) * 5))),
       })));
 
       // Simulate agent status changes
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        status: Math.random() > 0.7 ? 'analyzing' : 'active',
+        status: deterministicFloat('studentsuccess-2') > 0.7 ? 'analyzing' : 'active',
       })));
     }, 4000);
 

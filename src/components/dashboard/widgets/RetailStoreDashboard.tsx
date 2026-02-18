@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Store, ShoppingCart, Users, TrendingUp, Package, Bot, DollarSign, BarChart3 } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -156,7 +157,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
       )} />
     </div>
     <p className="text-[10px] text-gray-400 mb-1">{agent.currentAction}</p>
-    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">💡 {agent.insight}</p>
+    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">ðŸ’¡ {agent.insight}</p>
   </div>
 );
 
@@ -169,7 +170,7 @@ const CategoryBar: React.FC<{ category: CategoryPerformance; maxSales: number }>
         style={{ width: `${(category.sales / maxSales) * 100}%` }}
       />
       <span className="absolute inset-0 flex items-center justify-center text-[9px] text-white font-medium">
-        {formatCurrency(category.sales)} • {category.margin}% margin
+        {formatCurrency(category.sales)} â€¢ {category.margin}% margin
       </span>
     </div>
     <span className={cn(
@@ -177,7 +178,7 @@ const CategoryBar: React.FC<{ category: CategoryPerformance; maxSales: number }>
       category.trend === 'up' ? 'text-emerald-400' :
       category.trend === 'down' ? 'text-red-400' : 'text-gray-400'
     )}>
-      {category.trend === 'up' ? '↑' : category.trend === 'down' ? '↓' : '→'}
+      {category.trend === 'up' ? 'â†‘' : category.trend === 'down' ? 'â†“' : 'â†’'}
     </span>
   </div>
 );
@@ -195,14 +196,14 @@ export const RetailStoreDashboard: React.FC<{ className?: string }> = ({ classNa
       // Simulate store metrics fluctuation
       setStores(prev => prev.map((store): StoreData => ({
         ...store,
-        traffic: Math.max(5000, store.traffic + Math.floor((Math.random() - 0.5) * 200)),
-        conversion: Math.max(15, Math.min(30, store.conversion + (Math.random() - 0.5) * 0.5)),
+        traffic: Math.max(5000, store.traffic + Math.floor((deterministicFloat('retailstore-1') - 0.5) * 200)),
+        conversion: Math.max(15, Math.min(30, store.conversion + (deterministicFloat('retailstore-2') - 0.5) * 0.5)),
       })));
 
       // Simulate agent activity
       setAgents(prev => prev.map((agent): AIAgent => ({
         ...agent,
-        status: Math.random() > 0.7 ? 'analyzing' : 'active',
+        status: deterministicFloat('retailstore-3') > 0.7 ? 'analyzing' : 'active',
       })));
     }, 3000);
 

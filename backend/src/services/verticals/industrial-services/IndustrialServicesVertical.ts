@@ -536,7 +536,7 @@ export class IndustrialServicesDataConnector extends DataConnector<ProjectManage
       };
     }
 
-    const data = this.simulateDataFetch(sourceId, query);
+    const data = this.fetchConnectorData(sourceId, query);
     const validation = this.validate(data);
 
     source.lastSync = new Date();
@@ -573,7 +573,7 @@ export class IndustrialServicesDataConnector extends DataConnector<ProjectManage
     return { valid: errors.length === 0, errors };
   }
 
-  private simulateDataFetch(sourceId: string, _query?: Record<string, unknown>): ProjectManagementData | SafetySystemData | ERPSystemData {
+  private fetchConnectorData(sourceId: string, _query?: Record<string, unknown>): ProjectManagementData | SafetySystemData | ERPSystemData {
     if (sourceId === 'project-management' || sourceId === 'equipment-registry') {
       return {
         projects: [
@@ -778,13 +778,13 @@ export class IndustrialServicesComplianceMapper extends ComplianceMapper {
       version: '2012',
       jurisdiction: 'Peru',
       controls: [
-        { id: 'sunafil-comite', name: 'Safety Committee', description: 'Comité de Seguridad y Salud en el Trabajo (Art. 29-33)', severity: 'critical', automatable: false },
+        { id: 'sunafil-comite', name: 'Safety Committee', description: 'ComitÃ© de Seguridad y Salud en el Trabajo (Art. 29-33)', severity: 'critical', automatable: false },
         { id: 'sunafil-reglamento', name: 'Internal Safety Regulations', description: 'Reglamento Interno de Seguridad y Salud (Art. 34-35)', severity: 'high', automatable: false },
-        { id: 'sunafil-iperc', name: 'IPERC Risk Assessment', description: 'Identificación de Peligros, Evaluación de Riesgos y Controles (Art. 57)', severity: 'critical', automatable: true },
-        { id: 'sunafil-capacitacion', name: 'Safety Training', description: 'Capacitación mínima 4 veces al año (Art. 35b)', severity: 'high', automatable: true },
-        { id: 'sunafil-examen', name: 'Medical Examinations', description: 'Exámenes médicos ocupacionales (Art. 49f)', severity: 'high', automatable: true },
+        { id: 'sunafil-iperc', name: 'IPERC Risk Assessment', description: 'IdentificaciÃ³n de Peligros, EvaluaciÃ³n de Riesgos y Controles (Art. 57)', severity: 'critical', automatable: true },
+        { id: 'sunafil-capacitacion', name: 'Safety Training', description: 'CapacitaciÃ³n mÃ­nima 4 veces al aÃ±o (Art. 35b)', severity: 'high', automatable: true },
+        { id: 'sunafil-examen', name: 'Medical Examinations', description: 'ExÃ¡menes mÃ©dicos ocupacionales (Art. 49f)', severity: 'high', automatable: true },
         { id: 'sunafil-registro', name: 'Safety Records', description: 'Registros obligatorios del SGSST (Art. 33)', severity: 'critical', automatable: true },
-        { id: 'sunafil-investigacion', name: 'Incident Investigation', description: 'Investigación de accidentes e incidentes (Art. 42)', severity: 'critical', automatable: false },
+        { id: 'sunafil-investigacion', name: 'Incident Investigation', description: 'InvestigaciÃ³n de accidentes e incidentes (Art. 42)', severity: 'critical', automatable: false },
         { id: 'sunafil-emergencia', name: 'Emergency Plans', description: 'Plan de contingencia y emergencias (Art. 83)', severity: 'high', automatable: false }
       ]
     },
@@ -1145,7 +1145,7 @@ export class SafetyPermitDecisionSchema extends DecisionSchema<SafetyPermitDecis
     if (decision.inputs?.hazardAssessment) {
       const extremeRisks = decision.inputs.hazardAssessment.filter(h => h.residualRisk === 'extreme');
       if (extremeRisks.length > 0) {
-        errors.push(`${extremeRisks.length} hazard(s) with extreme residual risk — cannot approve`);
+        errors.push(`${extremeRisks.length} hazard(s) with extreme residual risk â€” cannot approve`);
       }
     }
 
@@ -1216,7 +1216,7 @@ export class EquipmentDecisionSchema extends DecisionSchema<EquipmentDecision> {
       warnings.push('High-value acquisition (>$500K) requires board approval');
     }
     if (decision.inputs?.utilizationForecast !== undefined && decision.inputs.utilizationForecast < 0.4) {
-      warnings.push('Utilization forecast below 40% — consider rental instead');
+      warnings.push('Utilization forecast below 40% â€” consider rental instead');
     }
 
     return { valid: errors.length === 0, errors, warnings, requiredFields: this.requiredFields };
@@ -1292,7 +1292,7 @@ export class SubcontractorDecisionSchema extends DecisionSchema<SubcontractorDec
     if (decision.inputs?.candidates) {
       for (const candidate of decision.inputs.candidates) {
         if (candidate.safetyRecord.fatalities > 0) {
-          warnings.push(`${candidate.companyName} has fatality/ies on record — requires enhanced due diligence`);
+          warnings.push(`${candidate.companyName} has fatality/ies on record â€” requires enhanced due diligence`);
         }
         if (!candidate.insuranceCoverage.workersComp) {
           errors.push(`${candidate.companyName} lacks workers compensation insurance`);
@@ -1375,10 +1375,10 @@ export class ContractReviewDecisionSchema extends DecisionSchema<ContractReviewD
     if (decision.inputs?.keyTerms) {
       const terms = decision.inputs.keyTerms;
       if (terms.retentionPercentage > 10) {
-        warnings.push('Retention percentage exceeds 10% — negotiate lower');
+        warnings.push('Retention percentage exceeds 10% â€” negotiate lower');
       }
       if (!terms.forceManjeure) {
-        warnings.push('No force majeure clause — high risk in Peru (earthquakes, El Niño)');
+        warnings.push('No force majeure clause â€” high risk in Peru (earthquakes, El NiÃ±o)');
       }
       if (terms.liabilityCap > decision.inputs.totalValue * 2) {
         warnings.push('Liability cap exceeds 2x contract value');
@@ -1455,7 +1455,7 @@ export class IndustrialServicesAgentPreset extends AgentPreset {
     // Expanded hard-stops (6 new)
     { id: 'electrical-lockout-block', name: 'LOTO Block', type: 'hard-stop', condition: 'Energized electrical work without verified LOTO procedure', action: 'Block work until LOTO verified per NFPA 70E' },
     { id: 'confined-space-atmo-block', name: 'Atmospheric Testing Block', type: 'hard-stop', condition: 'Confined space entry without atmospheric testing', action: 'Block entry until 4-gas monitoring available' },
-    { id: 'crane-overload-block', name: 'Crane Overload Block', type: 'hard-stop', condition: 'Lift exceeds crane rated capacity', action: 'Block lift — reconfigure rigging or select larger crane' },
+    { id: 'crane-overload-block', name: 'Crane Overload Block', type: 'hard-stop', condition: 'Lift exceeds crane rated capacity', action: 'Block lift â€” reconfigure rigging or select larger crane' },
     { id: 'hot-work-firewatch-block', name: 'Fire Watch Block', type: 'hard-stop', condition: 'Hot work without designated fire watch', action: 'Block hot work per NFPA 51B until fire watch assigned' },
     { id: 'excavation-cave-block', name: 'Excavation Cave-in Block', type: 'hard-stop', condition: 'Excavation >5ft without cave-in protection', action: 'Block entry until trench box or sloping installed' },
     { id: 'radiation-exposure-block', name: 'Radiation Exposure Block', type: 'hard-stop', condition: 'NDE radiation source without exclusion zone', action: 'Block RT operations until exclusion zone established' },

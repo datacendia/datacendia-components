@@ -7,7 +7,8 @@
 // =============================================================================
 // Multi-stakeholder voting, weighted voting config, compromise modeler.
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import apiClient from '../../../lib/api/client';
 import { cn } from '../../../../lib/utils';
 import {
   Users, CheckCircle, XCircle, MinusCircle, BarChart3, Scale,
@@ -50,8 +51,24 @@ const DEMO_OPTIONS: Option[] = [
 
 export const ConsensusBuilderPage: React.FC = () => {
   const [stakeholders, setStakeholders] = useState(DEMO_STAKEHOLDERS);
-  const [options] = useState(DEMO_OPTIONS);
+  const [options, setOptions] = useState(DEMO_OPTIONS);
   const [activeOption, setActiveOption] = useState('o2');
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const res = await apiClient.api.get<any>('/council/sessions?status=active&limit=1');
+        if (res.success && res.data?.sessions?.length > 0) {
+          const session = res.data.sessions[0];
+          if (session.stakeholders?.length) setStakeholders(session.stakeholders);
+          if (session.options?.length) setOptions(session.options);
+        }
+      } catch { /* fallback to demo data */ }
+      setIsLoading(false);
+    };
+    load();
+  }, []);
 
   const totalWeight = stakeholders.reduce((s, sh) => s + sh.weight, 0);
   const voted = stakeholders.filter(s => s.vote !== null).length;

@@ -19,6 +19,11 @@ import { SPORTS_COMPLIANCE_FRAMEWORKS } from '../config/sports/compliance-framew
 
 const router = Router();
 
+// Health endpoint
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'sports', timestamp: new Date().toISOString() } });
+});
+
 // Helper to get param safely
 function getParam(req: Request, name: string): string {
   return req.params[name] || '';

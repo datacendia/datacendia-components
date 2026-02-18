@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Scale, FileText, Clock, DollarSign, AlertTriangle, Bot, Users, Briefcase } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -168,8 +169,8 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
         agent.status === 'reviewing' ? 'bg-cyan-500' : 'bg-amber-500'
       )} />
     </div>
-    <p className="text-[10px] text-gray-400 mb-1">📄 {agent.documentsProcessed.toLocaleString()} docs processed</p>
-    <p className="text-[10px] text-cyan-400">🎯 {agent.action}</p>
+    <p className="text-[10px] text-gray-400 mb-1">ðŸ“„ {agent.documentsProcessed.toLocaleString()} docs processed</p>
+    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.action}</p>
   </div>
 );
 
@@ -211,14 +212,14 @@ export const LegalCaseManagement: React.FC<{ className?: string }> = ({ classNam
       // Simulate hours accumulation
       setMatters(prev => prev.map((m): LegalMatter => ({
         ...m,
-        hours: m.status !== 'closed' ? m.hours + Math.floor(Math.random() * 5) : m.hours,
+        hours: m.status !== 'closed' ? m.hours + deterministicInt(0, 4, 'legalcasemanagement-1') : m.hours,
       })));
 
       // Simulate agent activity
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        documentsProcessed: a.documentsProcessed + Math.floor(Math.random() * 50),
-        status: Math.random() > 0.7 ? 'reviewing' : 'active',
+        documentsProcessed: a.documentsProcessed + deterministicInt(0, 49, 'legalcasemanagement-2'),
+        status: deterministicFloat('legalcasemanagement-3') > 0.7 ? 'reviewing' : 'active',
       })));
     }, 4000);
 

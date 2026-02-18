@@ -84,6 +84,7 @@ import {
 import prometheusRoutes from './routes/prometheus.js';
 import legalResearchRoutes from './routes/legal-research.js';
 import expressRoutes from './routes/express.js';
+import recallRoutes from './routes/recall.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -274,6 +275,7 @@ app.use('/api/v1', workflowsDomain);   // workflows, integrations, scheduler
 app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, gnosis, apotheosis, visualization
 app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
 app.use('/api/v1/express', expressRoutes); // Express Intelligence - quick analysis without Council
+app.use('/api/v1', recallRoutes);          // CendiaRecall™ - Decision Outcome Tracking
 
 // 404 handler
 app.use((_req, res) => {

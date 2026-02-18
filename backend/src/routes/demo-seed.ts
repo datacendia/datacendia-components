@@ -17,6 +17,7 @@
 
 import { Router, Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 const prisma = new PrismaClient();
@@ -240,10 +241,10 @@ I am registering a formal dissent on this transfer. The combination of factors p
 
 **Liability Assessment:**
 If this transfer is later challenged by regulators, we must be able to demonstrate:
-1. We identified the PEP status ✓
-2. We conducted enhanced due diligence ⚠️ (in progress)
-3. We documented our decision rationale ✓ (this deliberation)
-4. Senior management was aware ⚠️ (pending escalation)
+1. We identified the PEP status âœ“
+2. We conducted enhanced due diligence âš ï¸ (in progress)
+3. We documented our decision rationale âœ“ (this deliberation)
+4. Senior management was aware âš ï¸ (pending escalation)
 
 **Legal Recommendation:** I concur with Risk Analyzer that a 24-hour hold is prudent. However, if business necessity requires same-day execution, ensure the following are documented:
 - Compliance officer verbal approval (recorded)
@@ -269,12 +270,12 @@ Check Timestamp: 2026-01-29T20:26:00Z
 
 | Check | Status | Details |
 |-------|--------|---------|
-| OFAC Screening | ✅ PASS | No matches on SDN list |
-| PEP Database | ⚠️ FLAG | Viktor Petrov - Former Deputy Minister of Finance (2018-2021) |
-| Jurisdiction Risk | ⚠️ FLAG | Cyprus - Medium-High risk jurisdiction |
-| Amount Threshold | ⚠️ FLAG | Exceeds $1M PEP threshold |
-| Velocity Check | ✅ PASS | No unusual transaction patterns |
-| Beneficial Owner | ⚠️ INCOMPLETE | Petrov Holdings Ltd ownership structure not fully verified |
+| OFAC Screening | âœ… PASS | No matches on SDN list |
+| PEP Database | âš ï¸ FLAG | Viktor Petrov - Former Deputy Minister of Finance (2018-2021) |
+| Jurisdiction Risk | âš ï¸ FLAG | Cyprus - Medium-High risk jurisdiction |
+| Amount Threshold | âš ï¸ FLAG | Exceeds $1M PEP threshold |
+| Velocity Check | âœ… PASS | No unusual transaction patterns |
+| Beneficial Owner | âš ï¸ INCOMPLETE | Petrov Holdings Ltd ownership structure not fully verified |
 
 **Basel III Compliance Score: 62/100** (Below 75 threshold for auto-approval)
 
@@ -835,7 +836,7 @@ router.post('/seed', async (_req: Request, res: Response) => {
         await (prisma as any).agentContribution.create({
           data: {
             ...contrib,
-            id: `demo-contrib-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`
+            id: `demo-contrib-${Date.now()}-${deterministicFloat('demo-seed-1').toString(36).substr(2, 9)}`
           } as any
         });
         results.contributions++;

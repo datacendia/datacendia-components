@@ -13,6 +13,11 @@ import { complianceGuard, councilComplianceMiddleware, CouncilProposal } from '.
 
 const router = Router();
 
+// Health endpoint
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'compliance', timestamp: new Date().toISOString() } });
+});
+
 // ============================================================================
 // FRAMEWORK ENDPOINTS
 // ============================================================================

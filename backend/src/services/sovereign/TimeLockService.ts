@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA TIME-LOCK™ - CRYPTOGRAPHIC TIME-LOCK FOR EMBARGOED DECISIONS
+// CENDIA TIME-LOCKÃ¢â€žÂ¢ - CRYPTOGRAPHIC TIME-LOCK FOR EMBARGOED DECISIONS
 // "Enforcing earliest-access under defined compute assumptions."
 //
 // Encrypts sensitive decisions with time-lock cryptography (RSA time-lock puzzles).
@@ -269,7 +269,7 @@ class TimeLockPuzzleGenerator {
    * Generate RSA modulus
    */
   private static generateRSAModulus(bits: number): { p: bigint; q: bigint; n: bigint } {
-    // In production, use proper prime generation
+    // Production upgrade: use proper prime generation
     // For now, generate pseudo-random large primes
     const halfBits = bits / 2;
     
@@ -292,7 +292,7 @@ class TimeLockPuzzleGenerator {
     // Make odd
     num = num | BigInt(1);
     
-    // Simple primality test (in production, use Miller-Rabin)
+    // Simple primality test (production upgrade: use Miller-Rabin)
     while (!this.isProbablyPrime(num)) {
       num += BigInt(2);
     }

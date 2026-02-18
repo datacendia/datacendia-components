@@ -30,6 +30,7 @@ import { InsuranceClaimsDashboard } from './widgets/InsuranceClaimsDashboard';
 import { TelecomNetworkDashboard } from './widgets/TelecomNetworkDashboard';
 import { HospitalityDashboard } from './widgets/HospitalityDashboard';
 import { AgricultureDashboard } from './widgets/AgricultureDashboard';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 
 // Merge all dashboards
 const ALL_DASHBOARDS: Record<string, VerticalDashboardConfig> = {
@@ -237,9 +238,9 @@ const InsightCard: React.FC<{
   message: string;
 }> = ({ type, message }) => {
   const styles = {
-    success: { bg: 'bg-emerald-900/20', border: 'border-emerald-500/30', icon: '✓' },
-    warning: { bg: 'bg-amber-900/20', border: 'border-amber-500/30', icon: '⚠' },
-    info: { bg: 'bg-cyan-900/20', border: 'border-cyan-500/30', icon: 'ℹ' },
+    success: { bg: 'bg-emerald-900/20', border: 'border-emerald-500/30', icon: 'âœ“' },
+    warning: { bg: 'bg-amber-900/20', border: 'border-amber-500/30', icon: 'âš ' },
+    info: { bg: 'bg-cyan-900/20', border: 'border-cyan-500/30', icon: 'â„¹' },
     critical: { bg: 'bg-red-900/20', border: 'border-red-500/30', icon: '!' },
   } as const;
 
@@ -301,7 +302,7 @@ const CreativeElement: React.FC<{ config: VerticalDashboardConfig['creativeEleme
             key={i} 
             className={cn(
               'rounded-sm transition-colors duration-500',
-              Math.random() > 0.3 ? 'bg-emerald-500/60' : 'bg-amber-500/60'
+              deterministicFloat('vertical-1') > 0.3 ? 'bg-emerald-500/60' : 'bg-amber-500/60'
             )}
             style={{ animationDelay: `${i * 100}ms` }}
           />
@@ -395,7 +396,7 @@ export const VerticalDashboard: React.FC<VerticalDashboardProps> = ({ overrideVe
         {/* Quick Actions */}
         <div className="rounded-xl border border-sovereign-border bg-sovereign-elevated p-4">
           <h3 className="text-sm font-semibold text-white mb-3 flex items-center gap-2">
-            <span>⚡</span> Quick Actions
+            <span>âš¡</span> Quick Actions
           </h3>
           <div className="space-y-2">
             {dashboardConfig.quickActions.map(action => (
@@ -417,7 +418,7 @@ export const VerticalDashboard: React.FC<VerticalDashboardProps> = ({ overrideVe
         {/* AI Insights */}
         <div className="rounded-xl border border-sovereign-border bg-sovereign-elevated p-4">
           <h3 className="text-sm font-semibold text-white mb-3 flex items-center gap-2">
-            <span>🧠</span> AI Insights
+            <span>ðŸ§ </span> AI Insights
           </h3>
           <div className="space-y-2">
             {dashboardConfig.insights.map((insight, i) => (

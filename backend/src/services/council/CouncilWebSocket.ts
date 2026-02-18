@@ -10,6 +10,7 @@
 import WebSocket from 'ws';
 import type { Server as HttpServer, IncomingMessage } from 'http';
 import { CouncilService, StreamEvent } from './CouncilService';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // Extended WebSocket client with custom properties
 interface WebSocketClient {
@@ -229,7 +230,7 @@ export class CouncilWebSocketServer {
   }
 
   private generateClientId(): string {
-    return `client_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    return `client_${Date.now()}_${deterministicFloat('councilwebsocket-1').toString(36).substr(2, 9)}`;
   }
 
   getConnectedClients(): number {

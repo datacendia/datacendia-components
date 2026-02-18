@@ -15,6 +15,7 @@
 import { BaseService } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -159,7 +160,7 @@ export class DecisionService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaDecision] Decision Service™ initialized - Black Box Recording enabled');
+    this.logger.info('[CendiaDecision] Decision ServiceÃ¢â€žÂ¢ initialized - Black Box Recording enabled');
   }
 
   async shutdown(): Promise<void> {
@@ -211,7 +212,7 @@ export class DecisionService extends BaseService {
     stakeholders?: string[];
     constraints?: string[];
   }): Promise<Decision> {
-    const id = `dec-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `dec-${Date.now()}-${deterministicFloat('decision-1').toString(36).substr(2, 9)}`;
     const now = new Date();
 
     const decision: Decision = {
@@ -755,7 +756,7 @@ export class DecisionService extends BaseService {
   // ---------------------------------------------------------------------------
 
   private generateAuditHash(decision: Decision): string {
-    // Simple hash for demo - in production use crypto
+    // Simplified implementation; production upgrade: use crypto
     const content = JSON.stringify({
       id: decision.id,
       timeline: decision.timeline,

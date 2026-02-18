@@ -3,12 +3,13 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA ORACLE™ - Truth Arbiter Service
+// CENDIA ORACLEâ„¢ - Truth Arbiter Service
 // "The silent judge of disputed facts."
 // Sovereign Organ Layer - Integrity
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -106,7 +107,7 @@ export class CendiaOracleService {
   async submitClaim(data: Omit<TruthClaim, 'id' | 'evidence' | 'verification' | 'status' | 'createdAt' | 'resolvedAt'>): Promise<TruthClaim> {
     const claim: TruthClaim = {
       ...data,
-      id: `claim-${Date.now()}-${Math.random().toString(36).substr(2, 8)}`,
+      id: `claim-${Date.now()}-${deterministicFloat('oracle-1').toString(36).substr(2, 8)}`,
       evidence: [],
       verification: null,
       status: 'pending',
@@ -151,7 +152,7 @@ export class CendiaOracleService {
     
     const newEvidence: Evidence = {
       ...evidence,
-      id: `evidence-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `evidence-${Date.now()}-${deterministicFloat('oracle-2').toString(36).substr(2, 6)}`,
       claimId,
       submittedAt: new Date(),
     };
@@ -262,7 +263,7 @@ export class CendiaOracleService {
   async fileDispute(data: Omit<Dispute, 'id' | 'counterEvidence' | 'status' | 'resolution' | 'createdAt' | 'resolvedAt'>): Promise<Dispute> {
     const dispute: Dispute = {
       ...data,
-      id: `dispute-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
+      id: `dispute-${Date.now()}-${deterministicFloat('oracle-3').toString(36).substr(2, 6)}`,
       counterEvidence: [],
       status: 'open',
       resolution: null,

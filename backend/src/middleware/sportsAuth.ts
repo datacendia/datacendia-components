@@ -122,7 +122,7 @@ const ROLE_PERMISSIONS: Record<SportsRole, SportsPermission[]> = {
  * Extract user role from request (from JWT or session)
  */
 export function extractUserRole(req: Request): SportsRole | null {
-  // In production, this would extract from JWT claims or session
+  // Production upgrade: extract from JWT claims or session
   // For now, check header or body
   const roleFromHeader = req.headers['x-sports-role'] as string;
   const roleFromBody = req.body?.userRole as string;

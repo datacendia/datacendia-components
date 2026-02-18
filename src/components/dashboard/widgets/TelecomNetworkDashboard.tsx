@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Radio, Users, Signal, Bot, Wifi, Activity } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -170,7 +171,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
       )} />
     </div>
     <p className="text-[10px] text-gray-400 mb-1">{agent.action}</p>
-    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">📊 {agent.metric}</p>
+    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">ðŸ“Š {agent.metric}</p>
   </div>
 );
 
@@ -187,14 +188,14 @@ export const TelecomNetworkDashboard: React.FC<{ className?: string }> = ({ clas
       // Simulate load fluctuation
       setSites(prev => prev.map((s): CellSite => ({
         ...s,
-        load: s.status === 'offline' ? 0 : Math.max(20, Math.min(99, s.load + Math.floor((Math.random() - 0.5) * 10))),
-        latency: s.status === 'offline' ? 0 : Math.max(5, Math.min(50, s.latency + Math.floor((Math.random() - 0.5) * 5))),
+        load: s.status === 'offline' ? 0 : Math.max(20, Math.min(99, s.load + Math.floor((deterministicFloat('telecomnetwork-1') - 0.5) * 10))),
+        latency: s.status === 'offline' ? 0 : Math.max(5, Math.min(50, s.latency + Math.floor((deterministicFloat('telecomnetwork-2') - 0.5) * 5))),
       })));
 
       // Simulate agent activity
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        status: Math.random() > 0.8 ? 'optimizing' : 'active',
+        status: deterministicFloat('telecomnetwork-3') > 0.8 ? 'optimizing' : 'active',
       })));
     }, 3000);
 

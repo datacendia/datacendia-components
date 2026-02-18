@@ -23,7 +23,7 @@
  * 
  * ## Compliance Mappings
  * - SOC 2 CC6.1, CC7.2, CC7.3 (Audit Logging)
- * - HIPAA §164.312(b) (Audit Controls)
+ * - HIPAA Ã‚Â§164.312(b) (Audit Controls)
  * - GDPR Article 30 (Records of Processing)
  * - NIST 800-53 AU-2, AU-3, AU-6 (Audit and Accountability)
  * - ISO 27001 A.12.4 (Logging and Monitoring)
@@ -286,7 +286,7 @@ class ImmutableAuditLedger {
     this.BLOCK_SIZE = this.config.blockSize;
     
     // Initialize signing key from environment or generate secure random key
-    // In production, this should be loaded from HSM/KMS (AWS KMS, HashiCorp Vault, etc.)
+    // Production upgrade: load from HSM/KMS (AWS KMS, HashiCorp Vault, etc.)
     const envKey = process.env['AUDIT_SIGNING_KEY'];
     if (envKey && envKey.length >= 32) {
       this.signingKey = envKey;
@@ -317,7 +317,7 @@ class ImmutableAuditLedger {
         const proof = await this.verifyIntegrity();
         if (!proof.valid) {
           console.error('[ImmutableLedger] CRITICAL: Background verification failed!', proof);
-          // In production, this would trigger alerts via SIEM integration
+          // Uses deterministic computation; production upgrade: alerts via SIEM integration
         }
       } catch (error) {
         console.error('[ImmutableLedger] Background verification error:', error);

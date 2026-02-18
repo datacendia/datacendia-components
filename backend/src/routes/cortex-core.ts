@@ -5,7 +5,7 @@
 /**
  * Cortex Core API Routes
  * Single gateway for all Services to access organizational data
- * Enforces: Sources → Pillars → Cortex → Services
+ * Enforces: Sources â†’ Pillars â†’ Cortex â†’ Services
  */
 
 import { Router, Request, Response } from 'express';
@@ -72,7 +72,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// SIMULATE ENGINE - /api/v1/cortex/simulate
+// COMPUTATION ENGINE - /api/v1/cortex/simulate
 // =============================================================================
 
 /**

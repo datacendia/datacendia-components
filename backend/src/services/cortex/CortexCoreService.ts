@@ -5,7 +5,7 @@
 /**
  * Cortex Core Service
  * The single gateway through which all Services access organizational data.
- * Enforces: Sources → Pillars → Cortex → Services
+ * Enforces: Sources â†’ Pillars â†’ Cortex â†’ Services
  */
 
 // =============================================================================
@@ -180,7 +180,7 @@ export class CortexCoreService {
   }
 
   // ===========================================================================
-  // SIMULATE ENGINE
+  // COMPUTATION ENGINE
   // ===========================================================================
 
   async simulate(params: SimulateParams): Promise<SimulateResponse> {

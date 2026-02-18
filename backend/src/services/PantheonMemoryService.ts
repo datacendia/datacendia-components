@@ -10,6 +10,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { ollama } from './ollama.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -111,7 +112,7 @@ export class PantheonMemoryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaPantheon] Agent Memory Service™ initialized');
+    this.logger.info('[CendiaPantheon] Agent Memory Serviceâ„¢ initialized');
   }
 
   async shutdown(): Promise<void> {
@@ -150,7 +151,7 @@ export class PantheonMemoryService extends BaseService {
     tags?: string[];
     expiresInDays?: number;
   }): Promise<Memory> {
-    const id = `mem-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `mem-${Date.now()}-${deterministicFloat('pantheonmemory-1').toString(36).substr(2, 9)}`;
     
     // Generate summary and extract entities
     const { summary, entities, sentiment } = await this.analyzeContent(params.content);

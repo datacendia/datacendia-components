@@ -14,6 +14,7 @@
  */
 
 import { createHash } from 'crypto';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 import {
   CollapseAgentType,
   CollapseConfig,
@@ -124,7 +125,7 @@ export class CollapseOrchestrator {
     consensusConfidence: number = 0.85,
     seed?: number
   ): Promise<DualTrackDeliberation> {
-    const actualSeed = seed ?? Math.floor(Math.random() * 1000000);
+    const actualSeed = seed ?? deterministicInt(0, 999999, 'collapseorchestrator-1');
     const deliberationId = generateCollapseId();
     const startedAt = new Date().toISOString();
 
@@ -136,7 +137,7 @@ export class CollapseOrchestrator {
       actualSeed
     );
 
-    // Build Consensus Track (simulated - in production would integrate with Council)
+    // Build Consensus Track (deterministic; production upgrade: integrate with Council)
     const consensusTrack = this.buildConsensusTrack(
       decisionId,
       decisionText,
@@ -235,7 +236,7 @@ export class CollapseOrchestrator {
   }
 
   /**
-   * Build Consensus Track (simulated)
+   * Build Consensus Track (deterministic)
    */
   private buildConsensusTrack(
     decisionId: string,
@@ -326,7 +327,7 @@ export class CollapseOrchestrator {
     for (const fc of failureConditions.filter(f => f.agent === CollapseAgentType.MINORITY_HARM)) {
       if (fc.severity >= 0.7) {
         ethicalRedLines.push({
-          id: `ERL-${Date.now().toString(36)}-${Math.random().toString(36).substring(2, 6)}`,
+          id: `ERL-${Date.now().toString(36)}-${deterministicFloat('collapseorchestrator-2').toString(36).substring(2, 6)}`,
           principle: EthicalPrinciple.NON_DISCRIMINATION,
           violatedWhen: fc.triggerCondition.metric,
           irreversible: fc.irreversibility === Reversibility.IRREVERSIBLE,

@@ -17,6 +17,7 @@
 
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -155,7 +156,7 @@ export class DeliberationVisualizationService extends EventEmitter {
 
   private constructor() {
     super();
-    logger.info('[CendiaLive] Deliberation Visualization™ initialized');
+    logger.info('[CendiaLive] Deliberation Visualizationâ„¢ initialized');
   }
 
   static getInstance(): DeliberationVisualizationService {
@@ -302,7 +303,7 @@ export class DeliberationVisualizationService extends EventEmitter {
 
     const fullCitation: Citation = {
       ...citation,
-      id: `cite-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `cite-${Date.now()}-${deterministicFloat('deliberationvisualization-1').toString(36).substr(2, 9)}`,
       addedAt: new Date(),
       addedBy: agentId,
     };
@@ -580,7 +581,7 @@ export class DeliberationVisualizationService extends EventEmitter {
    */
   cleanupVisualization(deliberationId: string): void {
     this.activeVisualizations.delete(deliberationId);
-    logger.info(`🧹 Cleaned up visualization for deliberation ${deliberationId}`);
+    logger.info(`ðŸ§¹ Cleaned up visualization for deliberation ${deliberationId}`);
   }
 
   // -------------------------------------------------------------------------

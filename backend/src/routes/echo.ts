@@ -16,7 +16,11 @@ import { devAuth } from '../middleware/auth.js';
 const router = Router();
 router.use(devAuth);
 
-// Status endpoints for enterprise testing
+// Health & Status endpoints
+router.get('/health', (_req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'healthy', service: 'echo', timestamp: new Date().toISOString() } });
+});
+
 router.get('/status', (req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });
 });

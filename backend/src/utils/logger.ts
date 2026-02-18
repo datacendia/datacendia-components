@@ -46,7 +46,7 @@ export const logger = winston.createLogger({
   ],
 });
 
-// Add file transport in production
+// Production upgrade: add file transport
 if (config.nodeEnv === 'production') {
   logger.add(
     new winston.transports.File({

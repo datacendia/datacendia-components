@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaHorizon™ - Predictive Decision Intelligence
+ * CendiaHorizonâ„¢ - Predictive Decision Intelligence
  * "What If" Time Machine for Strategic Decisions
  * 
  * The most visually spectacular feature in the platform
@@ -13,6 +13,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import {
   HORIZON_MODES,
   INDUSTRY_BENCHMARKS,
@@ -157,7 +158,7 @@ const DEMO_SIMULATION: OracleSimulation = {
       description: 'Maximum velocity execution with high risk/reward profile',
       decision: 'Proceed with full commitment and accelerated timeline',
       color: '#10B981',
-      icon: '🚀',
+      icon: 'ðŸš€',
       probability: 35,
       reversibilityScore: 35,
       riskProfile: { overall: 'high', score: 75, factors: [] },
@@ -188,7 +189,7 @@ const DEMO_SIMULATION: OracleSimulation = {
       description: 'Preserve stability while competitors may advance',
       decision: 'Maintain current course with minimal changes',
       color: '#6B7280',
-      icon: '⏸️',
+      icon: 'â¸ï¸',
       probability: 25,
       reversibilityScore: 95,
       riskProfile: { overall: 'low', score: 25, factors: [] },
@@ -216,7 +217,7 @@ const DEMO_SIMULATION: OracleSimulation = {
       description: 'Optimize for sustainable growth with manageable risk',
       decision: 'Pursue partnership instead of acquisition',
       color: '#3B82F6',
-      icon: '🤝',
+      icon: 'ðŸ¤',
       probability: 30,
       reversibilityScore: 75,
       riskProfile: { overall: 'moderate', score: 45, factors: [] },
@@ -324,7 +325,7 @@ const HorizonPage: React.FC = () => {
       meta: {
         generatedAt: new Date().toISOString(),
         version: 'horizon-v2.4.1',
-        integrityHash: 'sha256-' + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15),
+        integrityHash: 'sha256-' + deterministicFloat('horizon-1').toString(36).substring(2, 15) + deterministicFloat('horizon-2').toString(36).substring(2, 15),
       },
       decision: {
         question: simulation.question,
@@ -484,13 +485,13 @@ const HorizonPage: React.FC = () => {
 
   const getTypeIcon = (type: string) => {
     switch (type) {
-      case 'milestone': return '🎯';
-      case 'risk': return '⚠️';
-      case 'opportunity': return '💎';
-      case 'pivot': return '🔄';
-      case 'cascade': return '🦋';
-      case 'external': return '🌍';
-      default: return '📍';
+      case 'milestone': return 'ðŸŽ¯';
+      case 'risk': return 'âš ï¸';
+      case 'opportunity': return 'ðŸ’Ž';
+      case 'pivot': return 'ðŸ”„';
+      case 'cascade': return 'ðŸ¦‹';
+      case 'external': return 'ðŸŒ';
+      default: return 'ðŸ“';
     }
   };
 
@@ -521,8 +522,8 @@ const HorizonPage: React.FC = () => {
           className="text-center mb-12"
         >
           <div className="inline-flex items-center gap-3 px-4 py-2 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 border border-indigo-500/30 rounded-full mb-6">
-            <span className="text-2xl">🔮</span>
-            <span className="text-indigo-300 font-medium">CendiaHorizon™</span>
+            <span className="text-2xl">ðŸ”®</span>
+            <span className="text-indigo-300 font-medium">CendiaHorizonâ„¢</span>
             <span className="px-2 py-0.5 bg-indigo-500/30 text-indigo-200 text-xs rounded-full">BETA</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-indigo-200 to-purple-200 bg-clip-text text-transparent mb-4">
@@ -664,7 +665,7 @@ const HorizonPage: React.FC = () => {
                         </>
                       ) : (
                         <>
-                          <span>🔮</span>
+                          <span>ðŸ”®</span>
                           Simulate Futures
                         </>
                       )}
@@ -691,7 +692,7 @@ const HorizonPage: React.FC = () => {
                   <div className="absolute inset-2 border-4 border-purple-500/30 rounded-full animate-ping" style={{ animationDelay: '0.2s' }} />
                   <div className="absolute inset-4 border-4 border-pink-500/30 rounded-full animate-ping" style={{ animationDelay: '0.4s' }} />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-5xl animate-pulse">🔮</span>
+                    <span className="text-5xl animate-pulse">ðŸ”®</span>
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">Simulating Alternate Futures</h3>
@@ -727,7 +728,7 @@ const HorizonPage: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <span className="text-neutral-500">Status:</span>
                   <span className="px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded text-xs font-medium">
-                    ⏳ Draft — Pending Review
+                    â³ Draft â€” Pending Review
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -764,10 +765,10 @@ const HorizonPage: React.FC = () => {
             {/* View Mode Tabs */}
             <div className="flex items-center gap-2 bg-neutral-900/50 p-1 rounded-xl w-fit">
               {[
-                { id: 'overview', label: 'Overview', icon: '📊' },
-                { id: 'branches', label: 'Branches', icon: '🌳' },
-                { id: 'timeline', label: 'Timeline', icon: '📅' },
-                { id: 'comparison', label: 'Compare', icon: '⚖️' },
+                { id: 'overview', label: 'Overview', icon: 'ðŸ“Š' },
+                { id: 'branches', label: 'Branches', icon: 'ðŸŒ³' },
+                { id: 'timeline', label: 'Timeline', icon: 'ðŸ“…' },
+                { id: 'comparison', label: 'Compare', icon: 'âš–ï¸' },
               ].map((tab) => (
                 <button
                   key={tab.id}
@@ -807,7 +808,7 @@ const HorizonPage: React.FC = () => {
                     {simulation.recommendation.universeId === universe.id && (
                       <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-10">
                         <div className="px-3 py-1 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-bold rounded-full shadow-lg">
-                          ⭐ RECOMMENDED
+                          â­ RECOMMENDED
                         </div>
                       </div>
                     )}
@@ -885,7 +886,7 @@ const HorizonPage: React.FC = () => {
               <div className="bg-neutral-900/50 border border-neutral-700/50 rounded-2xl p-6 overflow-hidden">
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center gap-3">
-                    <span className="text-2xl">🌳</span>
+                    <span className="text-2xl">ðŸŒ³</span>
                     <div>
                       <h3 className="font-semibold text-white">Decision Branches</h3>
                       <p className="text-sm text-neutral-400">Visualize alternate futures from your decision point</p>
@@ -1153,7 +1154,7 @@ const HorizonPage: React.FC = () => {
                             onClick={() => setSelectedEvent(null)}
                             className="text-neutral-400 hover:text-white"
                           >
-                            ✕
+                            âœ•
                           </button>
                         </div>
                       </motion.div>
@@ -1344,7 +1345,7 @@ const HorizonPage: React.FC = () => {
             {simulation.historicalEchoes.length > 0 && (
               <div className="bg-neutral-900/50 border border-neutral-700/50 rounded-2xl p-6">
                 <div className="flex items-center gap-3 mb-6">
-                  <span className="text-2xl">📜</span>
+                  <span className="text-2xl">ðŸ“œ</span>
                   <div>
                     <h3 className="text-lg font-semibold text-white">Historical Echoes</h3>
                     <p className="text-sm text-neutral-400">Similar decisions from the past</p>
@@ -1374,7 +1375,7 @@ const HorizonPage: React.FC = () => {
                         <ul className="space-y-1">
                           {echo.lessonsLearned.map((lesson, i) => (
                             <li key={i} className="text-xs text-neutral-400 flex items-start gap-2">
-                              <span className="text-amber-400">•</span>
+                              <span className="text-amber-400">â€¢</span>
                               {lesson}
                             </li>
                           ))}
@@ -1394,7 +1395,7 @@ const HorizonPage: React.FC = () => {
             >
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-orange-500 rounded-xl flex items-center justify-center text-2xl shadow-lg shadow-amber-500/25">
-                  ⭐
+                  â­
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-2">
@@ -1423,7 +1424,7 @@ const HorizonPage: React.FC = () => {
                       <ul className="space-y-1">
                         {simulation.recommendation.keyFactors.map((factor, i) => (
                           <li key={i} className="text-sm text-neutral-300 flex items-center gap-2">
-                            <span className="text-emerald-400">✓</span>
+                            <span className="text-emerald-400">âœ“</span>
                             {factor}
                           </li>
                         ))}
@@ -1435,7 +1436,7 @@ const HorizonPage: React.FC = () => {
                         <ul className="space-y-1">
                           {simulation.recommendation.warnings.map((warning, i) => (
                             <li key={i} className="text-sm text-neutral-300 flex items-center gap-2">
-                              <span className="text-amber-400">⚠</span>
+                              <span className="text-amber-400">âš </span>
                               {warning}
                             </li>
                           ))}
@@ -1451,28 +1452,28 @@ const HorizonPage: React.FC = () => {
                         onClick={() => setActiveModal('why')}
                         className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-indigo-500/50 rounded-xl transition-all group"
                       >
-                        <span className="text-lg group-hover:scale-110 transition-transform">🔍</span>
+                        <span className="text-lg group-hover:scale-110 transition-transform">ðŸ”</span>
                         <span className="text-xs text-neutral-300 text-center">Why This?</span>
                       </button>
                       <button
                         onClick={() => setActiveModal('sensitivity')}
                         className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-purple-500/50 rounded-xl transition-all group"
                       >
-                        <span className="text-lg group-hover:scale-110 transition-transform">⚡</span>
+                        <span className="text-lg group-hover:scale-110 transition-transform">âš¡</span>
                         <span className="text-xs text-neutral-300 text-center">What Changes It?</span>
                       </button>
                       <button
                         onClick={() => setActiveModal('evidence')}
                         className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-cyan-500/50 rounded-xl transition-all group"
                       >
-                        <span className="text-lg group-hover:scale-110 transition-transform">📊</span>
+                        <span className="text-lg group-hover:scale-110 transition-transform">ðŸ“Š</span>
                         <span className="text-xs text-neutral-300 text-center">Evidence & Lineage</span>
                       </button>
                       <button
                         onClick={() => setActiveModal('audit')}
                         className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-emerald-500/50 rounded-xl transition-all group"
                       >
-                        <span className="text-lg group-hover:scale-110 transition-transform">📋</span>
+                        <span className="text-lg group-hover:scale-110 transition-transform">ðŸ“‹</span>
                         <span className="text-xs text-neutral-300 text-center">Audit Packet</span>
                       </button>
                     </div>
@@ -1502,7 +1503,7 @@ const HorizonPage: React.FC = () => {
                     {activeModal === 'why' && (
                       <div>
                         <div className="flex items-center gap-3 mb-6">
-                          <span className="text-2xl">🔍</span>
+                          <span className="text-2xl">ðŸ”</span>
                           <h3 className="text-xl font-bold text-white">Why This Recommendation?</h3>
                         </div>
                         <div className="space-y-4">
@@ -1534,11 +1535,11 @@ const HorizonPage: React.FC = () => {
                           <div className="bg-neutral-800/50 rounded-xl p-4">
                             <h4 className="text-sm font-medium text-emerald-300 mb-3">Evidence Sources</h4>
                             <ul className="space-y-1 text-sm text-neutral-400">
-                              <li>• Market analysis data (Q4 2024)</li>
-                              <li>• Historical M&A outcomes database (n=847)</li>
-                              <li>• Team sentiment analysis (last 90 days)</li>
-                              <li>• Competitor intelligence feeds</li>
-                              <li>• Financial modeling outputs</li>
+                              <li>â€¢ Market analysis data (Q4 2024)</li>
+                              <li>â€¢ Historical M&A outcomes database (n=847)</li>
+                              <li>â€¢ Team sentiment analysis (last 90 days)</li>
+                              <li>â€¢ Competitor intelligence feeds</li>
+                              <li>â€¢ Financial modeling outputs</li>
                             </ul>
                           </div>
                         </div>
@@ -1549,7 +1550,7 @@ const HorizonPage: React.FC = () => {
                     {activeModal === 'sensitivity' && (
                       <div>
                         <div className="flex items-center gap-3 mb-6">
-                          <span className="text-2xl">⚡</span>
+                          <span className="text-2xl">âš¡</span>
                           <h3 className="text-xl font-bold text-white">What Would Change the Answer?</h3>
                         </div>
                         <p className="text-sm text-neutral-400 mb-4">These conditions would flip the recommendation:</p>
@@ -1557,7 +1558,7 @@ const HorizonPage: React.FC = () => {
                           <div className="bg-red-900/20 border border-red-500/30 rounded-xl p-4">
                             <div className="flex items-center justify-between mb-2">
                               <span className="text-sm font-medium text-red-300">If churn rate exceeds 8%</span>
-                              <span className="text-xs text-red-400">→ Favors Bold Acquisition</span>
+                              <span className="text-xs text-red-400">â†’ Favors Bold Acquisition</span>
                             </div>
                             <div className="flex gap-1.5 mb-2">
                               <span className="text-xs px-1.5 py-0.5 bg-blue-500/20 text-blue-300 rounded">Observable</span>
@@ -1568,14 +1569,14 @@ const HorizonPage: React.FC = () => {
                               <div className="w-3/4 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
                             </div>
                             <div className="flex justify-between text-xs text-neutral-500 mt-1">
-                              <span>Current: 5.2% • <span className="text-emerald-400">Within threshold</span></span>
+                              <span>Current: 5.2% â€¢ <span className="text-emerald-400">Within threshold</span></span>
                               <span>Threshold: 8%</span>
                             </div>
                           </div>
                           <div className="bg-orange-900/20 border border-orange-500/30 rounded-xl p-4">
                             <div className="flex items-center justify-between mb-2">
                               <span className="text-sm font-medium text-orange-300">If CAC rises above $450</span>
-                              <span className="text-xs text-orange-400">→ Favors Status Quo</span>
+                              <span className="text-xs text-orange-400">â†’ Favors Status Quo</span>
                             </div>
                             <div className="flex gap-1.5 mb-2">
                               <span className="text-xs px-1.5 py-0.5 bg-blue-500/20 text-blue-300 rounded">Observable</span>
@@ -1586,14 +1587,14 @@ const HorizonPage: React.FC = () => {
                               <div className="w-2/3 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
                             </div>
                             <div className="flex justify-between text-xs text-neutral-500 mt-1">
-                              <span>Current: $320 • <span className="text-emerald-400">Within threshold</span></span>
+                              <span>Current: $320 â€¢ <span className="text-emerald-400">Within threshold</span></span>
                               <span>Threshold: $450</span>
                             </div>
                           </div>
                           <div className="bg-purple-900/20 border border-purple-500/30 rounded-xl p-4">
                             <div className="flex items-center justify-between mb-2">
                               <span className="text-sm font-medium text-purple-300">If risk score exceeds 60</span>
-                              <span className="text-xs text-purple-400">→ Favors Status Quo</span>
+                              <span className="text-xs text-purple-400">â†’ Favors Status Quo</span>
                             </div>
                             <div className="flex gap-1.5 mb-2">
                               <span className="text-xs px-1.5 py-0.5 bg-purple-500/20 text-purple-300 rounded">Model-derived</span>
@@ -1604,14 +1605,14 @@ const HorizonPage: React.FC = () => {
                               <div className="w-3/4 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
                             </div>
                             <div className="flex justify-between text-xs text-neutral-500 mt-1">
-                              <span>Current: 45 • <span className="text-emerald-400">Within threshold</span></span>
+                              <span>Current: 45 â€¢ <span className="text-emerald-400">Within threshold</span></span>
                               <span>Threshold: 60</span>
                             </div>
                           </div>
                           <div className="bg-cyan-900/20 border border-cyan-500/30 rounded-xl p-4">
                             <div className="flex items-center justify-between mb-2">
                               <span className="text-sm font-medium text-cyan-300">If competitor acquires target first</span>
-                              <span className="text-xs text-cyan-400">→ Favors Bold Acquisition</span>
+                              <span className="text-xs text-cyan-400">â†’ Favors Bold Acquisition</span>
                             </div>
                             <div className="flex gap-1.5 mb-2">
                               <span className="text-xs px-1.5 py-0.5 bg-red-500/20 text-red-300 rounded">External</span>
@@ -1619,7 +1620,7 @@ const HorizonPage: React.FC = () => {
                               <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">90d horizon</span>
                             </div>
                             <div className="text-xs text-neutral-500 mt-1">
-                              Probability: 35% within 90 days • <span className="text-amber-400">Approaching threshold</span>
+                              Probability: 35% within 90 days â€¢ <span className="text-amber-400">Approaching threshold</span>
                             </div>
                           </div>
                         </div>
@@ -1630,7 +1631,7 @@ const HorizonPage: React.FC = () => {
                     {activeModal === 'evidence' && (
                       <div>
                         <div className="flex items-center gap-3 mb-6">
-                          <span className="text-2xl">📊</span>
+                          <span className="text-2xl">ðŸ“Š</span>
                           <h3 className="text-xl font-bold text-white">Evidence & Data Lineage</h3>
                         </div>
                         <div className="space-y-4">
@@ -1638,10 +1639,10 @@ const HorizonPage: React.FC = () => {
                             <h4 className="text-sm font-medium text-cyan-300 mb-3">Data Sources</h4>
                             <div className="space-y-2">
                               {[
-                                { name: 'Financial Data Warehouse', freshness: '2h ago', policy: '≤24h', status: 'fresh' },
-                                { name: 'CRM Pipeline Analytics', freshness: '15m ago', policy: '≤6h', status: 'fresh' },
-                                { name: 'Market Intelligence Feed', freshness: '30m ago', policy: '≤1h', status: 'fresh' },
-                                { name: 'HR Sentiment Analysis', freshness: '2d ago', policy: '≤7d', status: 'fresh' },
+                                { name: 'Financial Data Warehouse', freshness: '2h ago', policy: 'â‰¤24h', status: 'fresh' },
+                                { name: 'CRM Pipeline Analytics', freshness: '15m ago', policy: 'â‰¤6h', status: 'fresh' },
+                                { name: 'Market Intelligence Feed', freshness: '30m ago', policy: 'â‰¤1h', status: 'fresh' },
+                                { name: 'HR Sentiment Analysis', freshness: '2d ago', policy: 'â‰¤7d', status: 'fresh' },
                               ].map((source, i) => (
                                 <div key={i} className="flex items-center justify-between text-sm py-1">
                                   <span className="text-neutral-300">{source.name}</span>
@@ -1652,7 +1653,7 @@ const HorizonPage: React.FC = () => {
                                         ? 'bg-emerald-500/20 text-emerald-300' 
                                         : 'bg-amber-500/20 text-amber-300'
                                     }`}>
-                                      {source.status === 'fresh' ? '✓ Within policy' : '⚠ Stale'}
+                                      {source.status === 'fresh' ? 'âœ“ Within policy' : 'âš  Stale'}
                                     </span>
                                     <span className="text-xs text-neutral-600">(TTL: {source.policy})</span>
                                   </div>
@@ -1678,9 +1679,9 @@ const HorizonPage: React.FC = () => {
                               <div className="relative group">
                                 <span className="text-neutral-500">Backtest Score (12mo):</span>
                                 <span className="text-neutral-300 ml-2">82.4%</span>
-                                <span className="ml-1 text-neutral-500 cursor-help">ⓘ</span>
+                                <span className="ml-1 text-neutral-500 cursor-help">â“˜</span>
                                 <div className="absolute bottom-full left-0 mb-2 w-72 p-3 bg-neutral-800 border border-neutral-600 rounded-lg text-xs text-neutral-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
-                                  <strong className="text-white">Backtest Score</strong> = % of periods where prediction was within ±10% tolerance vs actual, across 52 weekly periods. Baseline: seasonal naive forecast.
+                                  <strong className="text-white">Backtest Score</strong> = % of periods where prediction was within Â±10% tolerance vs actual, across 52 weekly periods. Baseline: seasonal naive forecast.
                                 </div>
                               </div>
                               <div>
@@ -1693,13 +1694,13 @@ const HorizonPage: React.FC = () => {
                             <h4 className="text-sm font-medium text-emerald-300 mb-3">Transform Pipeline</h4>
                             <div className="flex items-center gap-2 text-xs text-neutral-400 overflow-x-auto pb-2">
                               <span className="px-2 py-1 bg-neutral-700 rounded">Raw Data</span>
-                              <span>→</span>
+                              <span>â†’</span>
                               <span className="px-2 py-1 bg-neutral-700 rounded">Cleansing</span>
-                              <span>→</span>
+                              <span>â†’</span>
                               <span className="px-2 py-1 bg-neutral-700 rounded">Feature Eng.</span>
-                              <span>→</span>
+                              <span>â†’</span>
                               <span className="px-2 py-1 bg-neutral-700 rounded">Simulation</span>
-                              <span>→</span>
+                              <span>â†’</span>
                               <span className="px-2 py-1 bg-emerald-700 rounded">Output</span>
                             </div>
                           </div>
@@ -1711,7 +1712,7 @@ const HorizonPage: React.FC = () => {
                     {activeModal === 'audit' && (
                       <div>
                         <div className="flex items-center gap-3 mb-6">
-                          <span className="text-2xl">📋</span>
+                          <span className="text-2xl">ðŸ“‹</span>
                           <h3 className="text-xl font-bold text-white">Generate Audit Packet</h3>
                         </div>
                         <p className="text-sm text-neutral-400 mb-4">
@@ -1721,35 +1722,35 @@ const HorizonPage: React.FC = () => {
                           <h4 className="text-sm font-medium text-amber-300 mb-3">Packet Contents</h4>
                           <ul className="space-y-2 text-sm text-neutral-300">
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               Decision question and context
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               All options considered with scores
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               Recommendation rationale
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               Data sources and timestamps
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               Model version and parameters
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               SHA-256 integrity hash
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               Ed25519 digital signature
                             </li>
                             <li className="flex items-center gap-2">
-                              <span className="text-emerald-400">✓</span>
+                              <span className="text-emerald-400">âœ“</span>
                               manifest.json + verification instructions
                             </li>
                           </ul>
@@ -1759,7 +1760,7 @@ const HorizonPage: React.FC = () => {
                               datacendia verify packet.zip --key customer.pub
                             </code>
                             <p className="text-xs text-neutral-500 mt-2">
-                              Signed with: Customer key (KMS/HSM) • Algorithm: Ed25519
+                              Signed with: Customer key (KMS/HSM) â€¢ Algorithm: Ed25519
                             </p>
                           </div>
                         </div>
@@ -1782,7 +1783,7 @@ const HorizonPage: React.FC = () => {
                               </>
                             ) : auditGenerated ? (
                               <>
-                                <span>✓</span>
+                                <span>âœ“</span>
                                 Downloaded!
                               </>
                             ) : (
@@ -1807,7 +1808,7 @@ const HorizonPage: React.FC = () => {
                               </>
                             ) : sentToApprovers ? (
                               <>
-                                <span>✓</span>
+                                <span>âœ“</span>
                                 Sent!
                               </>
                             ) : (
@@ -1822,7 +1823,7 @@ const HorizonPage: React.FC = () => {
                       onClick={() => setActiveModal(null)}
                       className="absolute top-4 right-4 text-neutral-400 hover:text-white"
                     >
-                      ✕
+                      âœ•
                     </button>
                   </motion.div>
                 </motion.div>

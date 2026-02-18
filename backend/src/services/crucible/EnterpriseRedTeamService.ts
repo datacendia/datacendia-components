@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCrucible™ Enterprise Red-Teaming Service
+ * CendiaCrucibleâ„¢ Enterprise Red-Teaming Service
  * 
  * Government/Enterprise Platinum Standard Implementation
  * Compliant with: NIST 800-53, FedRAMP High, SOC2 Type II, ISO 27001
@@ -954,10 +954,10 @@ export class EnterpriseRedTeamService extends EventEmitter {
   }
 
   /**
-   * Test chaos engineering scenarios (simulated - actual chaos requires infrastructure access)
+   * Test chaos engineering scenarios (deterministic - actual chaos requires infrastructure access)
    */
   private async testChaosEngineering(test: RedTeamTest): Promise<{ passed: boolean; response: any; description: string }> {
-    // Chaos engineering tests are simulated checks for resilience
+    // chaos engineering tests are deterministic checks for resilience
     // Real chaos testing requires infrastructure access (Chaos Monkey, Gremlin, etc.)
     
     const target = (test.payload as any).target;

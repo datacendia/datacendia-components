@@ -5,6 +5,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, Calendar, ArrowRight, User } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 
 const ParticleField: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -25,12 +26,12 @@ const ParticleField: React.FC = () => {
     }[] = [];
     for (let i = 0; i < 25; i++) {
       particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * 0.15,
-        vy: (Math.random() - 0.5) * 0.15,
-        size: Math.random() * 1.5 + 0.5,
-        opacity: Math.random() * 0.25 + 0.05,
+        x: deterministicFloat('blog-5') * canvas.width,
+        y: deterministicFloat('blog-6') * canvas.height,
+        vx: (deterministicFloat('blog-1') - 0.5) * 0.15,
+        vy: (deterministicFloat('blog-2') - 0.5) * 0.15,
+        size: deterministicFloat('blog-3') * 1.5 + 0.5,
+        opacity: deterministicFloat('blog-4') * 0.25 + 0.05,
       });
     }
     let animationId: number;
@@ -203,7 +204,7 @@ export const BlogPage: React.FC = () => {
       {/* Footer */}
       <footer className="relative z-20 py-12 border-t border-gray-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center text-[10px] text-gray-700 tracking-widest">
-          <p>© {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE</p>
+          <p>Â© {new Date().getFullYear()} DATACENDIA â€¢ SOVEREIGN INTELLIGENCE</p>
         </div>
       </footer>
     </div>

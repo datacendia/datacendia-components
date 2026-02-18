@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 interface Stock {
   symbol: string;
@@ -119,7 +120,7 @@ export const MarketPulse: React.FC<{ className?: string }> = ({ className }) => 
   useEffect(() => {
     const interval = setInterval(() => {
       setStocks(prev => prev.map(stock => {
-        const change = (Math.random() - 0.5) * 2;
+        const change = (deterministicFloat('marketpulse-1') - 0.5) * 2;
         const newPrice = stock.price + change;
         return {
           ...stock,

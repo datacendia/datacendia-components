@@ -10,6 +10,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Hotel, Users, DollarSign, Star, Bot, Calendar, Bed } from 'lucide-react';
+import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -114,7 +115,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
         agent.status === 'optimizing' ? 'bg-cyan-500' : 'bg-amber-500'
       )} />
     </div>
-    <p className="text-[10px] text-cyan-400">🎯 {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.action}</p>
   </div>
 );
 
@@ -130,13 +131,13 @@ export const HospitalityDashboard: React.FC<{ className?: string }> = ({ classNa
     const interval = setInterval(() => {
       setProperties(prev => prev.map((p): Property => ({
         ...p,
-        occupancy: Math.max(50, Math.min(100, p.occupancy + Math.floor((Math.random() - 0.5) * 4))),
-        bookingsToday: p.bookingsToday + (Math.random() > 0.7 ? 1 : 0),
+        occupancy: Math.max(50, Math.min(100, p.occupancy + Math.floor((deterministicFloat('hospitality-1') - 0.5) * 4))),
+        bookingsToday: p.bookingsToday + (deterministicFloat('hospitality-2') > 0.7 ? 1 : 0),
       })));
 
       setAgents(prev => prev.map((a): AIAgent => ({
         ...a,
-        status: Math.random() > 0.8 ? 'optimizing' : 'active',
+        status: deterministicFloat('hospitality-3') > 0.8 ? 'optimizing' : 'active',
       })));
     }, 4000);
 

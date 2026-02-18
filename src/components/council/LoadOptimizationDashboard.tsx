@@ -9,6 +9,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import { 
   Cpu, MemoryStick, HardDrive, Activity, Server, 
   Gauge, Bot, Zap, Clock, TrendingUp, AlertTriangle
@@ -273,28 +274,28 @@ export const LoadOptimizationDashboard: React.FC<{ className?: string }> = ({ cl
     const interval = setInterval(() => {
       setNodes(prev => prev.map(n => ({
         ...n,
-        cpu: Math.max(10, Math.min(95, n.cpu + Math.floor((Math.random() - 0.5) * 15))),
-        memory: Math.max(20, Math.min(95, n.memory + Math.floor((Math.random() - 0.5) * 8))),
-        activeRequests: Math.max(0, n.activeRequests + Math.floor((Math.random() - 0.5) * 5)),
-        queueDepth: Math.max(0, n.queueDepth + Math.floor((Math.random() - 0.5) * 4)),
-        avgLatency: Math.max(10, n.avgLatency + Math.floor((Math.random() - 0.5) * 30)),
+        cpu: Math.max(10, Math.min(95, n.cpu + Math.floor((deterministicFloat('loadoptimization-1') - 0.5) * 15))),
+        memory: Math.max(20, Math.min(95, n.memory + Math.floor((deterministicFloat('loadoptimization-2') - 0.5) * 8))),
+        activeRequests: Math.max(0, n.activeRequests + Math.floor((deterministicFloat('loadoptimization-3') - 0.5) * 5)),
+        queueDepth: Math.max(0, n.queueDepth + Math.floor((deterministicFloat('loadoptimization-4') - 0.5) * 4)),
+        avgLatency: Math.max(10, n.avgLatency + Math.floor((deterministicFloat('loadoptimization-5') - 0.5) * 30)),
         status: n.cpu > 85 ? 'overloaded' : n.cpu > 70 ? 'busy' : 'healthy',
       })));
 
       setModels(prev => prev.map(m => ({
         ...m,
-        requestsPerMin: Math.max(0, m.requestsPerMin + Math.floor((Math.random() - 0.5) * 10)),
+        requestsPerMin: Math.max(0, m.requestsPerMin + Math.floor((deterministicFloat('loadoptimization-6') - 0.5) * 10)),
       })));
 
       setQueue(prev => ({
         ...prev,
-        totalPending: Math.max(0, prev.totalPending + Math.floor((Math.random() - 0.5) * 8)),
-        throughput: Math.max(50, prev.throughput + Math.floor((Math.random() - 0.5) * 20)),
+        totalPending: Math.max(0, prev.totalPending + Math.floor((deterministicFloat('loadoptimization-7') - 0.5) * 8)),
+        throughput: Math.max(50, prev.throughput + Math.floor((deterministicFloat('loadoptimization-8') - 0.5) * 20)),
       }));
 
       setAgents(prev => prev.map(a => ({
         ...a,
-        status: Math.random() > 0.7 ? 'optimizing' : 'active',
+        status: deterministicFloat('loadoptimization-9') > 0.7 ? 'optimizing' : 'active',
       })));
     }, 2000);
 

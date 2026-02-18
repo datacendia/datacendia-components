@@ -497,7 +497,7 @@ export class IncidentPreMortemLibrary {
         category: 'weather',
         likelihood: 'possible',
         impact: 'major',
-        triggers: ['Freezing rain forecast', 'Temperature drop below 32°F', 'Wind >20mph'],
+        triggers: ['Freezing rain forecast', 'Temperature drop below 32Â°F', 'Wind >20mph'],
         cascadeRisk: ['Multiple line failures', 'Generation shortfall', 'Extended restoration time'],
         mitigations: ['Weather monitoring', 'Mutual aid agreements', 'Pre-positioned crews'],
         responsePlaybook: 'PLAYBOOK-WEATHER-ICE'
@@ -560,7 +560,7 @@ export class IncidentPreMortemLibrary {
     });
   }
 
-  simulateCascade(initialEvent: string, gridState: GridState): {
+  computeCascade(initialEvent: string, gridState: GridState): {
     cascadeSteps: { step: number; event: string; impact: string; timeOffset: number }[];
     finalImpact: string;
     mitigationOpportunities: { step: number; action: string }[];
@@ -688,7 +688,7 @@ export class EnergyDataConnector extends DataConnector<SCADAReading | GridAsset 
       };
     }
 
-    const data = this.simulateDataFetch(sourceId, query);
+    const data = this.fetchConnectorData(sourceId, query);
     const validation = this.validate(data);
 
     source.lastSync = new Date();
@@ -724,7 +724,7 @@ export class EnergyDataConnector extends DataConnector<SCADAReading | GridAsset 
     return { valid: errors.length === 0, errors };
   }
 
-  private simulateDataFetch(sourceId: string, query?: Record<string, unknown>): SCADAReading | GridAsset | GridState {
+  private fetchConnectorData(sourceId: string, query?: Record<string, unknown>): SCADAReading | GridAsset | GridState {
     if (sourceId === 'scada') {
       return {
         id: uuidv4(),

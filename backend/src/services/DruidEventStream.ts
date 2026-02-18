@@ -6,13 +6,14 @@
 // DRUID EVENT STREAM - Real-time Event Ingestion for Analytics
 // =============================================================================
 // Automatically streams events to Apache Druid for:
-// - CendiaChronos™ (decision timeline)
-// - CendiaWitness™ (audit trail)
-// - CendiaPulse™ (agent metrics)
+// - CendiaChronosâ„¢ (decision timeline)
+// - CendiaWitnessâ„¢ (audit trail)
+// - CendiaPulseâ„¢ (agent metrics)
 // =============================================================================
 
 import { druidService, DRUID_DATASOURCES } from './storage/DruidService';
 import { EventEmitter } from 'events';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // Event types
 export interface DecisionEvent {
@@ -204,7 +205,7 @@ class DruidEventStream extends EventEmitter {
     const druidEvent = {
       __time: new Date().toISOString(),
       organization_id: event.organizationId,
-      alert_id: `alert_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      alert_id: `alert_${Date.now()}_${deterministicFloat('druideventstream-1').toString(36).substr(2, 9)}`,
       alert_type: event.alertType,
       severity: event.severity,
       title: event.title,

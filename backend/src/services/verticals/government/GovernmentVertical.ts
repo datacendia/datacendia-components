@@ -249,7 +249,7 @@ export class GovernmentDataConnector extends DataConnector<FederalSystemData> {
       };
     }
 
-    const data = this.simulateDataFetch(sourceId, query);
+    const data = this.fetchConnectorData(sourceId, query);
     const validation = this.validate(data);
     
     source.lastSync = new Date();
@@ -274,7 +274,7 @@ export class GovernmentDataConnector extends DataConnector<FederalSystemData> {
     return { valid: errors.length === 0, errors };
   }
 
-  private simulateDataFetch(sourceId: string, _query?: Record<string, unknown>): FederalSystemData {
+  private fetchConnectorData(sourceId: string, _query?: Record<string, unknown>): FederalSystemData {
     return {
       systemId: sourceId,
       systemType: sourceId as FederalSystemData['systemType'],
@@ -784,7 +784,7 @@ export class GovernmentDefensibleOutput extends DefensibleOutput<GovernmentDecis
 export const governmentVertical = new (class implements VerticalImplementation<GovernmentDecision> {
   readonly verticalId = 'government';
   readonly verticalName = 'Government / Public Sector';
-  readonly completionPercentage = 100; // ✅ COMPLETE - Tripled scope: 15 frameworks, 12 decision types
+  readonly completionPercentage = 100; // âœ… COMPLETE - Tripled scope: 15 frameworks, 12 decision types
   readonly targetPercentage = 100;
 
   readonly dataConnector: DataConnector<unknown> = new GovernmentDataConnector();

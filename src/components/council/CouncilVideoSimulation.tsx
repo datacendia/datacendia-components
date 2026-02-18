@@ -9,6 +9,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import { cn } from '../../lib/utils';
+import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import { 
   Mic, MicOff, Video, VideoOff, Hand, ThumbsUp, ThumbsDown, 
   AlertTriangle, CheckCircle, XCircle, Clock, Users, Sparkles,
@@ -168,7 +169,7 @@ const RealisticAvatar: React.FC<{
                   key={i}
                   className="w-1 bg-emerald-400 rounded-full animate-pulse"
                   style={{
-                    height: `${Math.random() * 12 + 4}px`,
+                    height: `${deterministicFloat('councilvideosimulation-5') * 12 + 4}px`,
                     animationDelay: `${i * 0.1}s`,
                     animationDuration: '0.5s',
                   }}
@@ -338,12 +339,12 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
     setMembers(prev => prev.map(m => {
       if (m.id === currentSpeakerId) {
         const statements = DELIBERATION_STATEMENTS[m.role] || DELIBERATION_STATEMENTS.chief;
-        const statementIndex = Math.floor(Math.random() * statements.length);
+        const statementIndex = Math.floor(deterministicFloat('councilvideosimulation-6') * statements.length);
         return {
           ...m,
           status: 'speaking' as const,
           currentStatement: statements[statementIndex],
-          confidence: Math.floor(Math.random() * 30) + 70,
+          confidence: deterministicInt(0, 29, 'councilvideosimulation-1') + 70,
         };
       } else if (m.status === 'speaking') {
         return { ...m, status: 'idle' as const, currentStatement: undefined };
@@ -355,7 +356,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
       ...prev,
       currentSpeaker: currentSpeakerId,
       phase: 'deliberating',
-      consensusLevel: Math.min(100, prev.consensusLevel + Math.floor(Math.random() * 10) + 5),
+      consensusLevel: Math.min(100, prev.consensusLevel + deterministicInt(0, 9, 'councilvideosimulation-2') + 5),
     }));
   }, [isRunning, simulation.elapsedTime]);
 
@@ -367,7 +368,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
     setMembers(prev => prev.map(m => ({
       ...m,
       status: 'voting' as const,
-      vote: Math.random() > 0.2 ? 'approve' as const : (Math.random() > 0.5 ? 'reject' as const : 'abstain' as const),
+      vote: deterministicFloat('councilvideosimulation-3') > 0.2 ? 'approve' as const : (deterministicFloat('councilvideosimulation-4') > 0.5 ? 'reject' as const : 'abstain' as const),
     })));
 
     // Conclude after votes
@@ -497,7 +498,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-sm font-semibold text-white">{currentSpeaker.name}</span>
-                  <span className="text-xs text-gray-400">• {currentSpeaker.title}</span>
+                  <span className="text-xs text-gray-400">â€¢ {currentSpeaker.title}</span>
                 </div>
                 <p className="text-sm text-gray-200 leading-relaxed">
                   "{currentSpeaker.currentStatement}"
@@ -587,7 +588,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
           
           <div className="flex items-center gap-4 text-xs text-gray-400">
             <span>{members.length} Participants</span>
-            <span>•</span>
+            <span>â€¢</span>
             <span>Phase: {simulation.phase.charAt(0).toUpperCase() + simulation.phase.slice(1)}</span>
           </div>
         </div>

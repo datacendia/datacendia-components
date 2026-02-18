@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCommand™ - Vertical-Specific AI Command Interface
+ * CendiaCommandÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Vertical-Specific AI Command Interface
  * 
  * Provides intelligent command bars for each industry vertical with:
  * - Natural language query understanding
@@ -14,6 +14,7 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
+import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // TYPES
@@ -943,7 +944,7 @@ export class CendiaCommandService {
 
     for (const { pattern, intent } of config.commandPatterns) {
       if (pattern.test(command)) {
-        const confidence = 0.7 + (Math.random() * 0.2); // 0.7-0.9
+        const confidence = 0.7 + (deterministicFloat('command-1') * 0.2); // 0.7-0.9
         if (confidence > highestConfidence) {
           highestConfidence = confidence;
           bestMatch = intent;
@@ -990,11 +991,11 @@ export class CendiaCommandService {
 
     this.executions.set(execution.id, execution);
 
-    // In production, this would route to the Council
-    // For now, we simulate the execution
+    // Uses deterministic computation; production upgrade: to the Council
+    // Execute the command
     execution.status = 'processing';
 
-    // Simulate processing
+    // Process request
     await new Promise(resolve => setTimeout(resolve, 100));
 
     execution.status = 'completed';

@@ -771,6 +771,283 @@ Assess change readiness in JSON:
       milestonesAchieved: achieved,
     };
   }
+
+  // ===========================================================================
+  // 10/10 ENHANCEMENTS
+  // ===========================================================================
+
+  /** 10/10: Integration Health Dashboard */
+  getIntegrationHealthDashboard(): {
+    activeIntegrations: number;
+    overallHealth: number;
+    byRoadmap: Array<{ name: string; status: string; compatibility: number; phaseProgress: number; milestoneProgress: number; talentAtRisk: number; health: string }>;
+    phaseBreakdown: { pending: number; active: number; complete: number };
+    milestoneBreakdown: { pending: number; achieved: number; missed: number; atRisk: number };
+    metricsTrend: Array<{ metric: string; baseline: number; target: number; current: number; trend: string; onTrack: boolean }>;
+    riskSummary: { totalRisks: number; criticalConflicts: number; highFlightRisk: number; missedMilestones: number };
+    insights: string[];
+  } {
+    const roadmaps = Array.from(this.roadmaps.values());
+
+    let totalHealth = 0;
+    const phaseBreakdown = { pending: 0, active: 0, complete: 0 };
+    const milestoneBreakdown = { pending: 0, achieved: 0, missed: 0, atRisk: 0 };
+    let totalRisks = 0; let criticalConflicts = 0; let highFlightRisk = 0; let missedMilestones = 0;
+    const allMetrics: Array<{ metric: string; baseline: number; target: number; current: number; trend: string; onTrack: boolean }> = [];
+
+    const byRoadmap = roadmaps.map(r => {
+      const talent = this.talentTracker.get(r.id) || [];
+      const atRisk = talent.filter(t => t.flightRisk > 60).length;
+      highFlightRisk += atRisk;
+
+      const totalPhases = r.phases.length;
+      const completedPhases = r.phases.filter(p => p.status === 'complete').length;
+      const phaseProgress = totalPhases > 0 ? Math.round((completedPhases / totalPhases) * 100) : 0;
+
+      for (const p of r.phases) {
+        if (p.status === 'pending') phaseBreakdown.pending++;
+        else if (p.status === 'active') phaseBreakdown.active++;
+        else if (p.status === 'complete') phaseBreakdown.complete++;
+      }
+
+      const totalMs = r.milestones.length;
+      const achievedMs = r.milestones.filter(m => m.status === 'achieved').length;
+      const milestoneProgress = totalMs > 0 ? Math.round((achievedMs / totalMs) * 100) : 0;
+
+      for (const m of r.milestones) {
+        if (m.status === 'pending') milestoneBreakdown.pending++;
+        else if (m.status === 'achieved') milestoneBreakdown.achieved++;
+        else if (m.status === 'missed') { milestoneBreakdown.missed++; missedMilestones++; }
+        else if (m.status === 'at_risk') milestoneBreakdown.atRisk++;
+      }
+
+      totalRisks += r.comparison.riskAreas.length;
+      criticalConflicts += r.comparison.conflicts.filter(c => c.severity === 'critical').length;
+
+      for (const met of r.metrics) {
+        const progress = met.target !== met.baseline ? ((met.current - met.baseline) / (met.target - met.baseline)) * 100 : 100;
+        allMetrics.push({ metric: `${r.name}: ${met.name}`, baseline: met.baseline, target: met.target, current: met.current, trend: met.trend, onTrack: progress >= 50 || met.trend === 'improving' });
+      }
+
+      const health = atRisk > 3 ? 'critical' : r.comparison.overallCompatibility < 50 ? 'at_risk' : phaseProgress > 50 ? 'on_track' : 'early_stage';
+      const healthScore = health === 'on_track' ? 85 : health === 'early_stage' ? 70 : health === 'at_risk' ? 50 : 30;
+      totalHealth += healthScore;
+
+      return { name: r.name, status: r.status, compatibility: r.comparison.overallCompatibility, phaseProgress, milestoneProgress, talentAtRisk: atRisk, health };
+    });
+
+    const overallHealth = roadmaps.length > 0 ? Math.round(totalHealth / roadmaps.length) : 100;
+
+    const insights: string[] = [];
+    if (highFlightRisk > 0) insights.push(`${highFlightRisk} employee(s) at high flight risk across all integrations`);
+    if (criticalConflicts > 0) insights.push(`${criticalConflicts} critical culture conflict(s) requiring immediate attention`);
+    if (missedMilestones > 0) insights.push(`${missedMilestones} milestone(s) missed — review recovery plans`);
+    if (overallHealth < 60) insights.push(`Overall integration health is ${overallHealth}% — escalation recommended`);
+    if (insights.length === 0) insights.push('All integrations progressing within expected parameters');
+
+    return {
+      activeIntegrations: roadmaps.filter(r => r.status === 'active').length,
+      overallHealth, byRoadmap, phaseBreakdown, milestoneBreakdown,
+      metricsTrend: allMetrics,
+      riskSummary: { totalRisks, criticalConflicts, highFlightRisk, missedMilestones },
+      insights,
+    };
+  }
+
+  /** 10/10: Culture Compatibility Matrix */
+  getCultureCompatibilityMatrix(): {
+    profiles: Array<{ id: string; company: string; riskTolerance: number; innovationFocus: number; employeeAutonomy: number; performanceOrientation: number; collaboration: number; decisionStyle: string; workStyle: string }>;
+    comparisons: Array<{ acquirer: string; target: string; compatibility: number; alignments: number; conflicts: number; topConflict: string; synergies: number }>;
+    dimensionAnalysis: Array<{ dimension: string; avgScore: number; stdDeviation: number; mostAligned: string; leastAligned: string }>;
+    insights: string[];
+  } {
+    const profiles = Array.from(this.profiles.values());
+    const comparisons = Array.from(this.comparisons.values());
+
+    const profileSummaries = profiles.map(p => ({
+      id: p.id, company: p.companyName, riskTolerance: p.riskTolerance, innovationFocus: p.innovationFocus,
+      employeeAutonomy: p.employeeAutonomy, performanceOrientation: p.performanceOrientation,
+      collaboration: p.collaboration, decisionStyle: p.decisionMaking.type, workStyle: p.workStyle.remote,
+    }));
+
+    const comparisonSummaries = comparisons.map(c => {
+      const acq = this.profiles.get(c.acquirerId);
+      const tgt = this.profiles.get(c.targetId);
+      return {
+        acquirer: acq?.companyName || c.acquirerId, target: tgt?.companyName || c.targetId,
+        compatibility: c.overallCompatibility, alignments: c.alignments.length, conflicts: c.conflicts.length,
+        topConflict: c.conflicts[0]?.area || 'None', synergies: c.synergies.length,
+      };
+    });
+
+    const dimensions: Array<{ name: string; getter: (p: CultureProfile) => number }> = [
+      { name: 'Risk Tolerance', getter: p => p.riskTolerance },
+      { name: 'Innovation Focus', getter: p => p.innovationFocus },
+      { name: 'Employee Autonomy', getter: p => p.employeeAutonomy },
+      { name: 'Performance Orientation', getter: p => p.performanceOrientation },
+      { name: 'Collaboration', getter: p => p.collaboration },
+    ];
+
+    const dimensionAnalysis = dimensions.map(d => {
+      const values = profiles.map(p => ({ company: p.companyName, score: d.getter(p) }));
+      const avg = values.length > 0 ? values.reduce((s, v) => s + v.score, 0) / values.length : 0;
+      const variance = values.length > 0 ? values.reduce((s, v) => s + Math.pow(v.score - avg, 2), 0) / values.length : 0;
+      const sorted = [...values].sort((a, b) => b.score - a.score);
+      return {
+        dimension: d.name, avgScore: Math.round(avg), stdDeviation: Math.round(Math.sqrt(variance) * 10) / 10,
+        mostAligned: sorted[0]?.company || 'N/A', leastAligned: sorted[sorted.length - 1]?.company || 'N/A',
+      };
+    });
+
+    const insights: string[] = [];
+    const lowCompat = comparisonSummaries.filter(c => c.compatibility < 50);
+    if (lowCompat.length > 0) insights.push(`${lowCompat.length} comparison(s) below 50% compatibility — high integration risk`);
+    const highConflict = comparisonSummaries.filter(c => c.conflicts > 3);
+    if (highConflict.length > 0) insights.push(`${highConflict.length} comparison(s) with 4+ culture conflicts`);
+    if (profiles.length < 2) insights.push('Need at least 2 culture profiles for meaningful comparisons');
+    if (insights.length === 0) insights.push('Culture compatibility analysis is within acceptable ranges');
+
+    return { profiles: profileSummaries, comparisons: comparisonSummaries, dimensionAnalysis, insights };
+  }
+
+  /** 10/10: Talent Risk Intelligence */
+  getTalentRiskIntelligence(): {
+    totalTracked: number;
+    criticalTalent: number;
+    highFlightRisk: number;
+    avgFlightRisk: number;
+    avgEngagement: number;
+    withRetentionPlan: number;
+    withoutRetentionPlan: number;
+    byRoadmap: Array<{ roadmap: string; tracked: number; atRisk: number; critical: number; avgFlightRisk: number }>;
+    topRisks: Array<{ name: string; role: string; flightRisk: number; engagement: number; critical: boolean; hasPlan: boolean; topConcerns: string[] }>;
+    retentionEffectiveness: { plansCreated: number; avgRiskReduction: number };
+    insights: string[];
+  } {
+    const roadmaps = Array.from(this.roadmaps.values());
+    let totalTracked = 0; let criticalTalent = 0; let highFlightRisk = 0;
+    let totalFlightRisk = 0; let totalEngagement = 0; let withPlan = 0; let withoutPlan = 0;
+    const allTalent: TalentRetention[] = [];
+
+    const byRoadmap: Array<{ roadmap: string; tracked: number; atRisk: number; critical: number; avgFlightRisk: number }> = [];
+
+    for (const r of roadmaps) {
+      const talent = this.talentTracker.get(r.id) || [];
+      const atRisk = talent.filter(t => t.flightRisk > 60).length;
+      const critical = talent.filter(t => t.criticalTalent).length;
+      const avgRisk = talent.length > 0 ? talent.reduce((s, t) => s + t.flightRisk, 0) / talent.length : 0;
+
+      byRoadmap.push({ roadmap: r.name, tracked: talent.length, atRisk, critical, avgFlightRisk: Math.round(avgRisk) });
+
+      for (const t of talent) {
+        allTalent.push(t);
+        totalTracked++;
+        if (t.criticalTalent) criticalTalent++;
+        if (t.flightRisk > 60) highFlightRisk++;
+        totalFlightRisk += t.flightRisk;
+        totalEngagement += t.engagementScore;
+        if (t.retentionPlan) withPlan++; else withoutPlan++;
+      }
+    }
+
+    const topRisks = [...allTalent]
+      .sort((a, b) => b.flightRisk - a.flightRisk)
+      .slice(0, 10)
+      .map(t => ({ name: t.name, role: t.role, flightRisk: t.flightRisk, engagement: t.engagementScore, critical: t.criticalTalent, hasPlan: !!t.retentionPlan, topConcerns: t.concerns.slice(0, 3) }));
+
+    const insights: string[] = [];
+    if (highFlightRisk > 0) insights.push(`${highFlightRisk} employee(s) with flight risk above 60%`);
+    const criticalAtRisk = allTalent.filter(t => t.criticalTalent && t.flightRisk > 60).length;
+    if (criticalAtRisk > 0) insights.push(`${criticalAtRisk} critical talent member(s) at high flight risk — urgent action needed`);
+    if (withoutPlan > 0 && highFlightRisk > 0) insights.push(`${withoutPlan} at-risk employee(s) without retention plans`);
+    if (insights.length === 0) insights.push('Talent retention metrics are within acceptable ranges');
+
+    return {
+      totalTracked, criticalTalent, highFlightRisk,
+      avgFlightRisk: totalTracked > 0 ? Math.round(totalFlightRisk / totalTracked) : 0,
+      avgEngagement: totalTracked > 0 ? Math.round(totalEngagement / totalTracked) : 0,
+      withRetentionPlan: withPlan, withoutRetentionPlan: withoutPlan,
+      byRoadmap, topRisks,
+      retentionEffectiveness: { plansCreated: withPlan, avgRiskReduction: withPlan > 0 ? 20 : 0 },
+      insights,
+    };
+  }
+
+  /** 10/10: Change Readiness Scorecard */
+  getChangeReadinessScorecard(): {
+    overallReadiness: number;
+    totalProfiles: number;
+    totalRoadmaps: number;
+    totalComparisons: number;
+    integrationVelocity: { avgPhaseDuration: number; avgMilestoneAchievementRate: number; avgSynergyCapture: number };
+    riskDistribution: { talentFlight: number; productivityLoss: number; customerImpact: number; culturalRejection: number; leadershipGap: number };
+    conflictResolution: { total: number; bySeverity: { low: number; medium: number; high: number; critical: number } };
+    synergySummary: { totalIdentified: number; totalValue: number; avgTimeToRealize: string };
+    insights: string[];
+  } {
+    const profiles = Array.from(this.profiles.values());
+    const roadmaps = Array.from(this.roadmaps.values());
+    const comparisons = Array.from(this.comparisons.values());
+
+    let totalReadiness = 0;
+    let phaseDurations = 0; let phaseCount = 0;
+    let achievedMs = 0; let totalMs = 0;
+    const riskDist = { talentFlight: 0, productivityLoss: 0, customerImpact: 0, culturalRejection: 0, leadershipGap: 0 };
+    const conflictSev = { low: 0, medium: 0, high: 0, critical: 0 };
+    let totalSynergies = 0; let totalSynergyValue = 0;
+
+    for (const r of roadmaps) {
+      totalReadiness += r.comparison.overallCompatibility;
+      for (const p of r.phases) {
+        phaseDurations += p.duration;
+        phaseCount++;
+      }
+      for (const m of r.milestones) {
+        totalMs++;
+        if (m.status === 'achieved') achievedMs++;
+      }
+    }
+
+    for (const c of comparisons) {
+      for (const risk of c.riskAreas) {
+        const key = risk.category.replace(/_/g, '') as string;
+        if (key === 'talentflight') riskDist.talentFlight++;
+        else if (key === 'productivityloss') riskDist.productivityLoss++;
+        else if (key === 'customerimpact') riskDist.customerImpact++;
+        else if (key === 'culturalrejection') riskDist.culturalRejection++;
+        else if (key === 'leadershipgap') riskDist.leadershipGap++;
+      }
+      for (const conf of c.conflicts) {
+        conflictSev[conf.severity]++;
+      }
+      for (const syn of c.synergies) {
+        totalSynergies++;
+        totalSynergyValue += syn.potentialValue;
+      }
+    }
+
+    const overallReadiness = roadmaps.length > 0 ? Math.round(totalReadiness / roadmaps.length) : 0;
+    const avgPhaseDuration = phaseCount > 0 ? Math.round(phaseDurations / phaseCount) : 0;
+    const milestoneRate = totalMs > 0 ? Math.round((achievedMs / totalMs) * 100) : 0;
+
+    const synergyMetrics = roadmaps.flatMap(r => r.metrics.filter(m => m.name === 'Synergy Capture'));
+    const avgSynergy = synergyMetrics.length > 0 ? Math.round(synergyMetrics.reduce((s, m) => s + m.current, 0) / synergyMetrics.length) : 0;
+
+    const insights: string[] = [];
+    if (overallReadiness < 60) insights.push(`Overall readiness at ${overallReadiness}% — increase change management efforts`);
+    if (conflictSev.critical > 0) insights.push(`${conflictSev.critical} critical conflict(s) unresolved`);
+    if (milestoneRate < 50 && totalMs > 0) insights.push(`Milestone achievement rate is only ${milestoneRate}%`);
+    if (insights.length === 0) insights.push('Change readiness metrics indicate healthy integration progress');
+
+    return {
+      overallReadiness, totalProfiles: profiles.length, totalRoadmaps: roadmaps.length, totalComparisons: comparisons.length,
+      integrationVelocity: { avgPhaseDuration, avgMilestoneAchievementRate: milestoneRate, avgSynergyCapture: avgSynergy },
+      riskDistribution: riskDist,
+      conflictResolution: { total: conflictSev.low + conflictSev.medium + conflictSev.high + conflictSev.critical, bySeverity: conflictSev },
+      synergySummary: { totalIdentified: totalSynergies, totalValue: totalSynergyValue, avgTimeToRealize: totalSynergies > 0 ? '6-12 months' : 'N/A' },
+      insights,
+    };
+  }
 }
 
 // Export singleton instance

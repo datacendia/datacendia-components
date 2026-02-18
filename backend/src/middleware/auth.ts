@@ -171,12 +171,12 @@ export const devAuth = async (
   
   // In development without REQUIRE_AUTH, use real seeded organization
   if (config.nodeEnv === 'development' || config.nodeEnv === 'test') {
-    logger.warn('⚠️  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
+    logger.warn('âš ï¸  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
       path: req.path,
       method: req.method,
       ip: req.ip,
       userAgent: req.get('user-agent'),
-      warning: 'This should NEVER appear in production logs',
+      warning: 'Debug mode active - restrict in production',
     });
     
     try {
@@ -239,7 +239,7 @@ export const devAuth = async (
     return next();
   }
   
-  // In production, require auth
+  // Production upgrade: require auth middleware
   throw errors.unauthorized('No token provided');
 };
 

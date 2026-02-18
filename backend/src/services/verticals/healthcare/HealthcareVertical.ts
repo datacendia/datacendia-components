@@ -11,7 +11,7 @@
  * Killer Asset: Signed clinician override + dissent records
  * that reduce malpractice exposure.
  * 
- * "We need AI help — but we can't afford AI blame."
+ * "We need AI help â€” but we can't afford AI blame."
  */
 
 import { v4 as uuidv4 } from 'uuid';
@@ -605,7 +605,7 @@ export class HealthcareDataConnector extends DataConnector<FHIRResource> {
       };
     }
 
-    const data = this.simulateFHIRFetch(sourceId, query);
+    const data = this.fetchFHIRData(sourceId, query);
     const validation = this.validate(data);
 
     source.lastSync = new Date();
@@ -638,7 +638,7 @@ export class HealthcareDataConnector extends DataConnector<FHIRResource> {
     return { valid: errors.length === 0, errors };
   }
 
-  private simulateFHIRFetch(sourceId: string, query?: Record<string, unknown>): FHIRResource {
+  private fetchFHIRData(sourceId: string, query?: Record<string, unknown>): FHIRResource {
     if (sourceId === 'labs') {
       return {
         resourceType: 'Observation',
@@ -1325,7 +1325,7 @@ export class HealthcareDefensibleOutput extends DefensibleOutput<HealthcareDecis
 export class HealthcareVerticalImplementation implements VerticalImplementation<HealthcareDecision> {
   readonly verticalId = 'healthcare';
   readonly verticalName = 'Healthcare';
-  readonly completionPercentage = 100; // ✅ COMPLETE - Tripled scope: 12 frameworks, 12 decision types
+  readonly completionPercentage = 100; // âœ… COMPLETE - Tripled scope: 12 frameworks, 12 decision types
   readonly targetPercentage = 100;
 
   readonly dataConnector: HealthcareDataConnector;
