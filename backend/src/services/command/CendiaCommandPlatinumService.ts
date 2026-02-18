@@ -19,7 +19,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { VerticalId, CommandContext, CommandIntent, CommandExecution, VERTICAL_CONFIGS } from './CendiaCommandService';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // PLATINUM INTERFACES
@@ -531,7 +530,7 @@ export class CendiaCommandPlatinumService {
       agentName: agent,
       role: idx === 0 ? 'lead' : 'contributor',
       contribution: `${agent} analysis for ${intent.subject}: ${intent.action} action reviewed and approved.`,
-      confidence: 0.85 + (deterministicFloat('commandplatinum-2') * 0.1),
+      confidence: 0.90,
       timestamp: new Date(timestamp.getTime() + idx * 1000),
       toolCalls: [
         {
@@ -539,7 +538,7 @@ export class CendiaCommandPlatinumService {
           tool: `${intent.action}_analyzer`,
           input: { subject: intent.subject },
           output: { status: 'success', findings: [] },
-          duration: deterministicInt(150, 249, 'commandplatinum-1'),
+          duration: 200,
           timestamp: new Date(timestamp.getTime() + idx * 1000 + 100),
         },
       ],

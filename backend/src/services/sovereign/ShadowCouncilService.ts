@@ -17,7 +17,6 @@
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -455,7 +454,7 @@ class ShadowCouncilService extends EventEmitter {
     
     const votes = ['approve', 'reject', 'defer', 'abstain'];
     const vote = config.allowHallucination 
-      ? votes[Math.floor(deterministicFloat('shadowcouncil-7') * votes.length)]
+      ? votes[agentCode.charCodeAt(0) % votes.length]
       : votes[0]; // Default to approve in conservative mode
     
     return {
@@ -463,12 +462,12 @@ class ShadowCouncilService extends EventEmitter {
       agentCode,
       agentName: agentCode.toUpperCase() + ' Agent',
       response,
-      confidence: 0.7 + deterministicFloat('shadowcouncil-1') * 0.25,
+      confidence: 0.7 + (response.length % 25) / 100,
       vote,
       modelUsed: config.useProductionModels ? 'qwen2.5:7b' : 'shadow-mock',
       temperatureUsed: config.temperatureOverride || 0.7,
       tokenCount: response.split(' ').length * 1.3,
-      responseTimeMs: Date.now() - startTime + deterministicFloat('shadowcouncil-4') * 100,
+      responseTimeMs: Date.now() - startTime,
     };
   }
 
@@ -534,16 +533,27 @@ This is a SHADOW deliberation and is not recorded to the official ledger.`;
       officialDecisionId: officialDeliberationId,
       shadowDecisionId: shadowDeliberationId,
       
-      divergenceScore: deterministicFloat('shadowcouncil-5') * 0.4, // 0-40% divergence typically
-      agentAgreement: 0.6 + deterministicFloat('shadowcouncil-2') * 0.3, // 60-90% agreement
-      confidenceDelta: deterministicFloat('shadowcouncil-6') * 0.2 - 0.1, // ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±10%
+      divergenceScore: (() => {
+        const shadowVotes = shadow.agentResponses.map(r => r.vote).filter(Boolean);
+        const uniqueVotes = new Set(shadowVotes).size;
+        return uniqueVotes / Math.max(shadowVotes.length, 1);
+      })(),
+      agentAgreement: (() => {
+        const shadowVotes = shadow.agentResponses.map(r => r.vote).filter(Boolean);
+        const mostCommon = shadowVotes.sort((a, b) => shadowVotes.filter(v => v === b).length - shadowVotes.filter(v => v === a).length)[0];
+        return shadowVotes.filter(v => v === mostCommon).length / Math.max(shadowVotes.length, 1);
+      })(),
+      confidenceDelta: (() => {
+        const avgShadowConf = shadow.agentResponses.reduce((sum, r) => sum + r.confidence, 0) / Math.max(shadow.agentResponses.length, 1);
+        return avgShadowConf - 0.8; // Delta from assumed official confidence of 0.8
+      })(),
       
       agentComparisons: shadow.agentResponses.map(r => ({
         agentCode: r.agentCode,
         officialVote: 'approve',
         shadowVote: r.vote || 'approve',
         votesMatch: r.vote === 'approve',
-        responseSimilarity: 0.7 + deterministicFloat('shadowcouncil-3') * 0.2,
+        responseSimilarity: r.vote === 'approve' ? 0.85 : r.vote === 'reject' ? 0.5 : 0.7,
       })),
       
       keyDifferences: [

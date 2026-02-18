@@ -17,7 +17,6 @@
 
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES

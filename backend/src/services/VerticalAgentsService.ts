@@ -16,7 +16,6 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { redis } from '../config/redis.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const CACHE_TTL = 3600; // 1 hour cache for agent definitions
 
@@ -925,9 +924,9 @@ export class VerticalAgentsService extends BaseService {
       for (const agent of config.agents) {
         this.metricsCache.set(agent.id, {
           agentId: agent.id,
-          decisionsToday: deterministicInt(0, 99, 'verticalagents-1') + 10,
-          avgResponseTime: deterministicFloat('verticalagents-3') * 2 + 0.5,
-          successRate: 0.9 + deterministicFloat('verticalagents-2') * 0.09,
+          decisionsToday: 0,
+          avgResponseTime: 0,
+          successRate: 0,
           lastActive: new Date(),
         });
       }

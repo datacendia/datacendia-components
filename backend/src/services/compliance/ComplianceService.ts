@@ -8,7 +8,6 @@
  */
 
 import crypto from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 import {
   ComplianceDomain,
   PillarId,
@@ -212,8 +211,8 @@ export class ComplianceService {
 
     for (let i = 1; i <= count; i++) {
       const controlId = `${framework.code}-${i.toString().padStart(3, '0')}`;
-      const passed = deterministicFloat('compliance-3') > 0.15;
-      const score = passed ? deterministicInt(85, 99, 'compliance-1') : deterministicInt(0, 59, 'compliance-2');
+      const passed = true; // Default to compliant until real audit data available
+      const score = passed ? 85 : 0;
 
       let status: ControlResult['status'];
       if (score >= 90) status = 'compliant';

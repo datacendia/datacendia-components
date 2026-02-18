@@ -14,7 +14,6 @@
  */
 
 import { createHash } from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 import {
   CollapseAgentType,
   CollapseConfig,
@@ -125,7 +124,7 @@ export class CollapseOrchestrator {
     consensusConfidence: number = 0.85,
     seed?: number
   ): Promise<DualTrackDeliberation> {
-    const actualSeed = seed ?? deterministicInt(0, 999999, 'collapseorchestrator-1');
+    const actualSeed = seed ?? Date.now() % 1000000;
     const deliberationId = generateCollapseId();
     const startedAt = new Date().toISOString();
 
@@ -327,7 +326,7 @@ export class CollapseOrchestrator {
     for (const fc of failureConditions.filter(f => f.agent === CollapseAgentType.MINORITY_HARM)) {
       if (fc.severity >= 0.7) {
         ethicalRedLines.push({
-          id: `ERL-${Date.now().toString(36)}-${deterministicFloat('collapseorchestrator-2').toString(36).substring(2, 6)}`,
+          id: `ERL-${Date.now().toString(36)}-${Math.random().toString(36).substring(2, 6)}`,
           principle: EthicalPrinciple.NON_DISCRIMINATION,
           violatedWhen: fc.triggerCondition.metric,
           irreversible: fc.irreversibility === Reversibility.IRREVERSIBLE,

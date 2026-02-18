@@ -18,7 +18,6 @@ import {
   NarrativeAttack,
 } from '../types.js';
 import { BaseCollapseAgent, AgentAnalysisParams } from './BaseCollapseAgent.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../../utils/deterministic.js';
 
 const HEADLINE_TEMPLATES = [
   '"{domain}" Policy Leaves {group} Behind',
@@ -98,7 +97,7 @@ export class NarrativeWeaponizationAgent extends BaseCollapseAgent {
       const virality = this.randomInRange(0.4, 0.9) * stressMultiplier;
 
       const attack: NarrativeAttack = {
-        id: `NA-${Date.now().toString(36)}-${deterministicFloat('narrativeweaponizationagent-1').toString(36).substring(2, 6)}`,
+        id: `NA-${Date.now().toString(36)}-${Math.random().toString(36).substring(2, 6)}`,
         headline,
         soundbite,
         targetAudience,

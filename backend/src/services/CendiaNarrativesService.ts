@@ -10,7 +10,6 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { ollama } from './ollama.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -1002,7 +1001,7 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
 
     const monthlyOutput = Object.entries(monthMap)
       .sort(([a], [b]) => a.localeCompare(b))
-      .map(([month, count]) => ({ month, count, avgQuality: 70 + Math.round(deterministicFloat('narratives-1') * 20) }));
+      .map(([month, count]) => ({ month, count, avgQuality: 0 }));
 
     // Productivity trend
     const now = new Date();

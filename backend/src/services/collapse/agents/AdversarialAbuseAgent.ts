@@ -18,7 +18,6 @@ import {
   ThreatActorType,
 } from '../types.js';
 import { BaseCollapseAgent, AgentAnalysisParams } from './BaseCollapseAgent.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../../utils/deterministic.js';
 
 const ATTACK_VECTORS = [
   'Regulatory capture through revolving door appointments',
@@ -75,7 +74,7 @@ export class AdversarialAbuseAgent extends BaseCollapseAgent {
       const payoff = this.randomInRange(0.3, 0.8) * actor.capability * stressMultiplier;
 
       const exploit: ExploitPath = {
-        id: `EP-${Date.now().toString(36)}-${deterministicFloat('adversarialabuseagent-1').toString(36).substring(2, 6)}`,
+        id: `EP-${Date.now().toString(36)}-${Math.random().toString(36).substring(2, 6)}`,
         threatActor: actor.type,
         attackVector,
         exploitSteps: this.generateExploitSteps(actor.type, attackVector),

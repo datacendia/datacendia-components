@@ -17,7 +17,6 @@ import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
 import { recordChronosEvent } from './ChronosEventBus.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -556,7 +555,11 @@ class CendiaDissentService {
         totalDissents: depts.length,
         acceptedRate: depts.length > 0 ? Math.round((accepted.length / depts.length) * 100) : 0,
         accuracy: verified.length > 0 ? Math.round((correct.length / verified.length) * 100) : 0,
-        trend: deterministicFloat('dissent-4') > 0.5 ? 'up' : 'stable',
+        trend: (() => {
+          const recentCount = depts.filter(d => d.createdAt > new Date(Date.now() - 30 * 24 * 60 * 60 * 1000)).length;
+          const olderCount = depts.filter(d => d.createdAt <= new Date(Date.now() - 30 * 24 * 60 * 60 * 1000) && d.createdAt > new Date(Date.now() - 60 * 24 * 60 * 60 * 1000)).length;
+          return recentCount > olderCount ? 'up' : recentCount < olderCount ? 'down' : 'stable';
+        })(),
       });
     }
     
@@ -585,7 +588,14 @@ class CendiaDissentService {
       totalDissents: allDissents.length,
       activeDissents: activeDissents.length,
       responseRate: Math.round(responseRate),
-      avgResponseTime: 24 + deterministicFloat('dissent-5') * 24,
+      avgResponseTime: (() => {
+        const respondedWithTime = respondedDissents.filter(d => d.response?.createdAt && d.createdAt);
+        if (respondedWithTime.length === 0) return 0;
+        const totalHours = respondedWithTime.reduce((sum: number, d: Dissent) => {
+          return sum + (new Date(d.response!.createdAt).getTime() - new Date(d.createdAt).getTime()) / (1000 * 60 * 60);
+        }, 0);
+        return Math.round((totalHours / respondedWithTime.length) * 10) / 10;
+      })(),
       acceptanceRate: allDissents.length > 0 
         ? Math.round((acceptedDissents.length / allDissents.length) * 100) 
         : 0,
@@ -596,7 +606,7 @@ class CendiaDissentService {
       healthStatus,
       byDepartment,
       highAccuracyDissenters,
-      trend: this.generateTrendData(),
+      trend: await this.generateTrendData(organizationId),
     };
   }
 
@@ -744,15 +754,20 @@ class CendiaDissentService {
     logger.info(`[Dissent] Notified dissenter about response to ${dissent.id}`);
   }
 
-  private generateTrendData(): Array<{ date: string; count: number; accuracy: number }> {
-    const trend = [];
+  private async generateTrendData(organizationId: string): Promise<Array<{ date: string; count: number; accuracy: number }>> {
+    const allDissents = await this.getDissents(organizationId, { limit: 10000 });
+    const trend: Array<{ date: string; count: number; accuracy: number }> = [];
     for (let i = 6; i >= 0; i--) {
       const date = new Date();
       date.setMonth(date.getMonth() - i);
+      const monthStr = date.toISOString().slice(0, 7);
+      const monthDissents = allDissents.filter(d => new Date(d.createdAt).toISOString().slice(0, 7) === monthStr);
+      const verified = monthDissents.filter(d => d.outcomeVerified);
+      const correct = verified.filter(d => d.dissenterWasRight);
       trend.push({
-        date: date.toISOString().slice(0, 7),
-        count: deterministicInt(5, 14, 'dissent-1'),
-        accuracy: deterministicInt(55, 74, 'dissent-2'),
+        date: monthStr,
+        count: monthDissents.length,
+        accuracy: verified.length > 0 ? Math.round((correct.length / verified.length) * 100) : 0,
       });
     }
     return trend;
@@ -1058,7 +1073,7 @@ class CendiaDissentService {
       dissentType: d.dissentType,
       originalOutcome: 'Proceeded without modification',
       improvedOutcome: `Modified based on ${d.dissentType} dissent`,
-      estimatedValueDelta: deterministicInt(100000, 499999, 'dissent-3'),
+      estimatedValueDelta: 0,
     }));
 
     // Monthly trend from actual dissent dates

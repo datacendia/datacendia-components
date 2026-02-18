@@ -12,7 +12,6 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { v4 as uuidv4 } from 'uuid';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -471,7 +470,7 @@ Output JSON:
 
         case 'resource_efficiency':
           // Assess based on resource-aware decisions
-          score = 70 + deterministicFloat('wargames-1') * 30; // Simplified
+          score = 85; // Default score until real resource assessment implemented
           feedback = 'Resource allocation assessed';
           break;
       }

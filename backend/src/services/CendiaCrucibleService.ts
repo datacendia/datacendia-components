@@ -19,7 +19,6 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import { EnhancedLLMService } from './EnhancedLLMService.js';
 import crypto from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // Types
 export type SimulationType = 
@@ -1340,8 +1339,8 @@ Provide exactly 3 strategic opportunity statements. Each should be actionable an
   }
 
   private gaussianRandom(mean: number, stdDev: number): number {
-    const u1 = deterministicFloat('crucible-1');
-    const u2 = deterministicFloat('crucible-2');
+    const u1 = Math.random();
+    const u2 = Math.random();
     const z = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
     return mean + z * stdDev;
   }
@@ -1442,7 +1441,7 @@ Provide exactly 3 strategic opportunity statements. Each should be actionable an
     };
 
     const options = templates[sentiment];
-    return options[Math.floor(deterministicFloat('crucible-3') * options.length)];
+    return options[0];
   }
 
   private async generateOutcomeSummary(

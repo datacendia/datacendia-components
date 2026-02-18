@@ -24,7 +24,6 @@
 import { PrismaClient } from '@prisma/client';
 import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage } from '../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -442,7 +441,7 @@ class CendiaRecallService {
     // Calculate overall accuracy
     const overallAccuracy = measuredOutcomes.length > 0
       ? Math.round(measuredOutcomes.reduce((sum, o) => sum + (o.accuracyScore || 0), 0) / measuredOutcomes.length * 100) / 100
-      : deterministicPercentage(72, 10, 'recall-accuracy', organizationId);
+      : 0; // No measured outcomes yet
 
     // Accuracy by category
     const accuracyByCategory: Record<string, number> = {};
@@ -456,13 +455,7 @@ class CendiaRecallService {
       accuracyByCategory[cat] = Math.round(accuracyByCategory[cat] / count * 100) / 100;
     }
 
-    // If no real data, provide deterministic baseline
-    if (Object.keys(accuracyByCategory).length === 0) {
-      accuracyByCategory['strategic'] = deterministicPercentage(68, 8, 'cat-strategic', organizationId);
-      accuracyByCategory['financial'] = deterministicPercentage(74, 6, 'cat-financial', organizationId);
-      accuracyByCategory['operational'] = deterministicPercentage(81, 5, 'cat-operational', organizationId);
-      accuracyByCategory['compliance'] = deterministicPercentage(88, 4, 'cat-compliance', organizationId);
-    }
+    // No fake baseline — return empty if no real data exists
 
     // Accuracy by agent/source
     const accuracyByAgent: Record<string, number> = {};
@@ -510,9 +503,16 @@ class CendiaRecallService {
       const date = new Date();
       date.setMonth(date.getMonth() - monthOffset);
       const periodLabel = date.toLocaleString('default', { month: 'short', year: '2-digit' });
+      const monthOutcomes = measuredOutcomes.filter(o => {
+        const oDate = o.measurementDate || o.decisionDate;
+        return oDate && oDate.getMonth() === date.getMonth() && oDate.getFullYear() === date.getFullYear();
+      });
+      const monthAccuracy = monthOutcomes.length > 0
+        ? Math.round(monthOutcomes.reduce((sum, o) => sum + (o.accuracyScore || 0), 0) / monthOutcomes.length * 100) / 100
+        : 0;
       accuracyTrend.push({
         period: periodLabel,
-        accuracy: deterministicPercentage(70 + (5 - i) * 2, 5, 'trend', organizationId, i),
+        accuracy: monthAccuracy,
       });
     }
 
@@ -535,8 +535,8 @@ class CendiaRecallService {
     return {
       organizationId,
       period,
-      totalDecisions: allOutcomes.length || deterministicInt(45, 120, 'total-decisions', organizationId),
-      measuredDecisions: measuredOutcomes.length || deterministicInt(20, 60, 'measured-decisions', organizationId),
+      totalDecisions: allOutcomes.length,
+      measuredDecisions: measuredOutcomes.length,
       overallAccuracy,
       accuracyByCategory,
       accuracyByAgent,
@@ -600,7 +600,7 @@ class CendiaRecallService {
     const measuredOutcomes = relevantOutcomes.filter(o => o.accuracyScore !== undefined);
     const historicalAccuracy = measuredOutcomes.length > 0
       ? Math.round(measuredOutcomes.reduce((s, o) => s + (o.accuracyScore || 0), 0) / measuredOutcomes.length * 100) / 100
-      : deterministicPercentage(72, 10, 'feedback-accuracy', organizationId, decisionType);
+      : 0; // No historical data for this decision type yet
 
     const commonBiases: DetectedBias[] = [];
     for (const outcome of measuredOutcomes) {

@@ -25,7 +25,6 @@
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicScore, deterministicPick, deterministicPercentage } from '../utils/deterministic.js';
 import {
   orbitService,
   CendiaOrbitService,
@@ -792,7 +791,8 @@ class CendiaHorizonServiceClass extends EventEmitter {
     return HISTORICAL_ECHOES.map((echo) => {
       const text = `${echo.situation} ${echo.decision} ${echo.outcome}`.toLowerCase();
       const matches = keywords.filter((kw) => kw.length > 3 && text.includes(kw)).length;
-      const similarity = Math.min(95, 40 + matches * 12 + deterministicFloat('echo-similarity', echo.id, question.slice(0, 20)) * 20);
+      const questionHash = question.length % 20;
+      const similarity = Math.min(95, 40 + matches * 12 + questionHash);
       
       return { ...echo, similarity };
     })
@@ -845,7 +845,8 @@ class CendiaHorizonServiceClass extends EventEmitter {
     const riskProfile = this.generateRiskProfile(template.bias);
 
     // Find point of no return (typically 30-40% into timeline)
-    const pointOfNoReturnIndex = Math.floor(timeline.length * (0.3 + deterministicFloat('ponr', id, question.slice(0, 20)) * 0.2));
+    const ponrFactor = 0.3 + ((question.length % 10) / 50);
+    const pointOfNoReturnIndex = Math.floor(timeline.length * ponrFactor);
     const pointOfNoReturn = timeline[pointOfNoReturnIndex];
 
     const decisions: Record<string, string> = {
@@ -889,14 +890,16 @@ class CendiaHorizonServiceClass extends EventEmitter {
     question: string
   ): TimelineEvent[] {
     const events: TimelineEvent[] = [];
-    const eventCount = deterministicInt(8, 14, 'event-count', bias, question.slice(0, 20));
+    const biasEventCounts: Record<string, number> = { aggressive: 12, conservative: 9, balanced: 10, adaptive: 11, protective: 8 };
+    const eventCount = biasEventCounts[bias] || (8 + (question.length % 7));
 
     const eventTemplates = this.getEventTemplates(bias, question);
 
     for (let i = 0; i < eventCount; i++) {
-      const dayOffset = Math.floor((i / eventCount) * horizonDays * 0.9) + deterministicInt(0, 13, 'day-offset', bias, i);
+      const dayOffset = Math.floor((i / eventCount) * horizonDays * 0.9) + (i * 2) % 14;
       const template = eventTemplates[i % eventTemplates.length];
-      const confidence = Math.max(20, 95 - (dayOffset / horizonDays) * 60 - deterministicFloat('confidence', bias, i) * 15);
+      const confidenceDecay = (dayOffset / horizonDays) * 60 + (i % 3) * 5;
+      const confidence = Math.max(20, 95 - confidenceDecay);
 
       const event: TimelineEvent = {
         id: `event-${i + 1}`,
@@ -983,19 +986,20 @@ class CendiaHorizonServiceClass extends EventEmitter {
    * Generate cascade effects for an event
    */
   private generateCascadeEffects(eventType: TimelineEvent['type']): CascadeEffect[] {
-    if (deterministicFloat('cascade-chance', eventType) > 0.6) return []; // 40% chance of cascade
+    const cascadeTypes: string[] = ['milestone', 'external', 'pivot'];
+    if (!cascadeTypes.includes(eventType)) return []; // Only milestone/external/pivot events cascade
 
     const domains = ['Revenue', 'Operations', 'Talent', 'Customer', 'Technology', 'Compliance'];
     const effects: CascadeEffect[] = [];
-    const count = 1 + deterministicInt(0, 1, 'cascade-count', eventType);
+    const count = eventType === 'external' ? 2 : 1;
 
     for (let i = 0; i < count; i++) {
       effects.push({
         id: `cascade-${crypto.randomUUID().slice(0, 6)}`,
-        domain: deterministicPick(domains, 'cascade-domain', eventType, i),
+        domain: domains[i % domains.length],
         effect: this.generateCascadeDescription(eventType, i),
-        magnitude: deterministicPick(['minor', 'moderate', 'major'] as const, 'cascade-mag', eventType, i),
-        delay: deterministicInt(7, 28, 'cascade-delay', eventType, i),
+        magnitude: (['minor', 'moderate', 'major'] as const)[i % 3],
+        delay: 7 + (i + 1) * 7,
       });
     }
 
@@ -1014,7 +1018,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
       'Delayed impact on resource allocation',
       'Cascading effect on team dynamics',
     ];
-    return deterministicPick(descriptions, 'cascade-desc', eventType || 'default', index || 0);
+    return descriptions[(index || 0) % descriptions.length];
   }
 
   /**
@@ -1025,8 +1029,8 @@ class CendiaHorizonServiceClass extends EventEmitter {
     impact: TimelineEvent['impact']
   ): AgentInsight[] {
     const insights: AgentInsight[] = [];
-    const agentCount = deterministicInt(2, 3, 'agent-count', eventType, impact);
-    const shuffled = [...AGENT_PERSPECTIVES].sort((a, b) => deterministicFloat('agent-sort', a.code, eventType) - deterministicFloat('agent-sort', b.code, eventType));
+    const agentCount = impact === 'critical' ? 3 : 2;
+    const shuffled = [...AGENT_PERSPECTIVES].sort((a, b) => a.code.localeCompare(b.code));
 
     for (let i = 0; i < agentCount; i++) {
       const agent = shuffled[i];
@@ -1089,7 +1093,8 @@ class CendiaHorizonServiceClass extends EventEmitter {
     };
 
     const options = perspectives[focus] || perspectives['strategic synthesis'];
-    return deterministicPick(options, 'perspective', focus, eventType, impact);
+    const perspIdx = (focus.length + (eventType?.length || 0)) % options.length;
+    return options[perspIdx];
   }
 
   /**
@@ -1103,7 +1108,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
       critical: ['bearish', 'bearish', 'cautious'],
     };
     const options = sentiments[impact] || sentiments.neutral;
-    return deterministicPick(options, 'sentiment', impact);
+    return options[0];
   }
 
   /**
@@ -1121,9 +1126,9 @@ class CendiaHorizonServiceClass extends EventEmitter {
     const multiplier = biasMultipliers[bias] || 1.0;
     let metricIndex = 0;
     const generateMetric = (baseChange: number): OutcomeMetric => {
-      const varianceFactor = (deterministicFloat('outcome-variance', bias, index, metricIndex) - 0.5) * 0.3;
+      const varianceFactor = ((metricIndex * 7 + index * 3) % 10 - 5) / 50;
       const change = baseChange * multiplier + varianceFactor * 20;
-      const conf = Math.round(70 + deterministicFloat('outcome-conf', bias, index, metricIndex) * 20);
+      const conf = Math.round(70 + ((metricIndex * 3 + index * 2) % 20));
       metricIndex++;
       return {
         current: 100,
@@ -1257,7 +1262,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
               probability: 20,
             },
           ],
-          criticalityScore: deterministicInt(60, 89, 'criticality', universe.id, event.dayOffset),
+          criticalityScore: Math.min(89, 60 + Math.round(event.dayOffset / 10)),
         });
       });
     });
@@ -1278,7 +1283,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
     return {
       primaryChoice: best.name,
       universeId: best.id,
-      confidence: deterministicInt(65, 85, 'rec-confidence', best.id, best.outcomes.overallScore),
+      confidence: Math.min(85, Math.max(65, Math.round(best.outcomes.overallScore * 0.85))),
       reasoning: `Based on comprehensive analysis across ${universes.length} scenarios, the ${best.name} approach offers the optimal balance of risk and reward. This path shows a projected ${best.outcomes.revenue.change > 0 ? '+' : ''}${best.outcomes.revenue.change}% revenue impact with ${best.riskProfile.overall} risk exposure.`,
       keyFactors: [
         `Revenue projection: ${best.outcomes.revenue.change > 0 ? '+' : ''}${best.outcomes.revenue.change}%`,
@@ -1483,7 +1488,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
 
       // For completed simulations, estimate accuracy from confidence scores
       if (sim.status === 'complete' && sim.recommendation) {
-        const accuracy = Math.min(100, sim.recommendation.confidence + (deterministicFloat('accuracy', sim.id) * 10 - 5));
+        const accuracy = Math.min(100, sim.recommendation.confidence + (sim.universes.length > 3 ? 3 : -2));
         horizonMap[horizon].accuracies.push(accuracy);
         
         if (topPredictions.length < 10) {

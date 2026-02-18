@@ -14,7 +14,6 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // TYPES
@@ -944,7 +943,7 @@ export class CendiaCommandService {
 
     for (const { pattern, intent } of config.commandPatterns) {
       if (pattern.test(command)) {
-        const confidence = 0.7 + (deterministicFloat('command-1') * 0.2); // 0.7-0.9
+        const confidence = 0.85;
         if (confidence > highestConfidence) {
           highestConfidence = confidence;
           bestMatch = intent;

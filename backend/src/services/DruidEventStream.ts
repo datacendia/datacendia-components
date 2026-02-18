@@ -13,7 +13,6 @@
 
 import { druidService, DRUID_DATASOURCES } from './storage/DruidService';
 import { EventEmitter } from 'events';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // Event types
 export interface DecisionEvent {

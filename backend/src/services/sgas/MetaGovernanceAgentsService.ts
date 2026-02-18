@@ -17,7 +17,6 @@
  */
 
 import { EventEmitter } from 'events';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 import {
   SGASAgentClass,
   MetaGovernanceAgentConfig,
@@ -286,11 +285,11 @@ export class MetaGovernanceAgentsService extends EventEmitter {
   }
 
   private initializeHistoricalData(): void {
-    // Generate deterministic historical data
-    this.historicalData.set('emergency_ratio', Array(90).fill(0).map(() => deterministicFloat('metagovernanceagents-4') * 0.08));
-    this.historicalData.set('safeguard_strength', Array(180).fill(0).map(() => 0.75 + deterministicFloat('metagovernanceagents-1') * 0.2));
-    this.historicalData.set('human_oversight', Array(365).fill(0).map(() => 0.4 + deterministicFloat('metagovernanceagents-2') * 0.3));
-    this.historicalData.set('authority_distribution', Array(180).fill(0).map(() => 0.6 + deterministicFloat('metagovernanceagents-3') * 0.25));
+    // Initialize with empty arrays — real data populated by system events
+    this.historicalData.set('emergency_ratio', []);
+    this.historicalData.set('safeguard_strength', []);
+    this.historicalData.set('human_oversight', []);
+    this.historicalData.set('authority_distribution', []);
   }
 
   /**

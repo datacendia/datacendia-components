@@ -44,7 +44,6 @@ import {
   VerticalRegistry
 } from '../core/VerticalPattern.js';
 import { EXPANDED_INSURANCE_COMPLIANCE_FRAMEWORKS, EXPANDED_INSURANCE_COMPLIANCE_MAPPINGS, EXPANDED_INSURANCE_JURISDICTION_MAP } from './InsuranceComplianceExpanded.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../../utils/deterministic.js';
 import {
   RateReviewDecision,
   PolicyIssuanceDecision,
@@ -357,7 +356,7 @@ export class BiasFairnessEngine {
 
     // Calculate disparate impact ratio for this protected class
     // Deterministic statistical computation; production upgrade: integrate actuarial models
-    const ratio = 0.85 + deterministicFloat('insurancevertical-1') * 0.15; // Deterministic range: 0.85-1.0
+    const ratio = 1.0; // No real actuarial data — assume no disparity until measured
 
     return {
       protectedClass,
@@ -370,7 +369,10 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? 0.82 + deterministicFloat('insurancevertical-2') * 0.18 
+      ? (() => {
+        const positive = historicalData.filter(d => d.decision === 'positive').length;
+        return positive / historicalData.length;
+      })()
       : 1.0;
 
     return {
@@ -386,7 +388,10 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? deterministicFloat('insurancevertical-3') * 0.08 
+      ? (() => {
+        const positive = historicalData.filter(d => d.decision === 'positive').length;
+        return Math.abs(positive / historicalData.length - 0.5);
+      })()
       : 0.0;
 
     return {
@@ -402,7 +407,10 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? deterministicFloat('insurancevertical-4') * 0.08 
+      ? (() => {
+        const positive = historicalData.filter(d => d.decision === 'positive').length;
+        return Math.abs(positive / historicalData.length - 0.5) * 0.5;
+      })()
       : 0.0;
 
     return {
@@ -418,7 +426,10 @@ export class BiasFairnessEngine {
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessMetric {
     const value = historicalData && historicalData.length > 30 
-      ? deterministicFloat('insurancevertical-5') * 0.07 
+      ? (() => {
+        const positive = historicalData.filter(d => d.decision === 'positive').length;
+        return Math.abs(positive / historicalData.length - 0.5) * 0.35;
+      })()
       : 0.0;
 
     return {

@@ -17,7 +17,6 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // TYPES
@@ -148,7 +147,7 @@ export class CarbonAwareSchedulerService {
     
     // Model time-of-day variation (lower at night, higher during day)
     const timeMultiplier = 1 + 0.3 * Math.sin((hourOfDay - 14) * Math.PI / 12);
-    const currentIntensity = config.base * timeMultiplier + (deterministicFloat('carbonawarescheduler-1') - 0.5) * config.variance;
+    const currentIntensity = config.base * timeMultiplier;
 
     // Generate 24-hour forecast
     const forecast: CarbonForecast[] = [];

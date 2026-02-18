@@ -10,7 +10,6 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -1382,7 +1381,7 @@ Consider:
         const customer = this.customers.get(pkg.customerId);
         if (customer) {
           const healthAfter = customer.healthScore;
-          const healthBefore = Math.max(0, healthAfter - 10 - deterministicFloat('guardian-1') * 15); // Estimate pre-intervention
+          const healthBefore = Math.max(0, healthAfter - 15); // Estimate pre-intervention
           typeMap[pkg.type].healthBefore.push(healthBefore);
           typeMap[pkg.type].healthAfter.push(healthAfter);
         }
@@ -1418,7 +1417,7 @@ Consider:
         const customer = this.customers.get(pkg.customerId);
         if (!customer) return null;
         const healthAfter = customer.healthScore;
-        const healthBefore = Math.max(0, healthAfter - 10 - deterministicFloat('guardian-2') * 15);
+        const healthBefore = Math.max(0, healthAfter - 15);
         const revenuePreserved = healthBefore < 50 ? customer.contractValue * 0.7 : customer.contractValue * 0.3;
         const roi = pkg.totalValue > 0 ? Math.round((revenuePreserved / pkg.totalValue) * 100) / 100 : 0;
         return {

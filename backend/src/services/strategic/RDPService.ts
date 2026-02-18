@@ -12,7 +12,6 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -329,7 +328,7 @@ class RDPService {
       lastCheck: new Date(),
       services: pkg.components
         .filter(c => c.type === 'service')
-        .map(c => ({ name: c.name, status: 'running', latency: deterministicFloat('rdp-1') * 50 }))
+        .map(c => ({ name: c.name, status: 'running', latency: Date.now() - startTime }))
     };
 
     instance.status = 'running';
@@ -583,12 +582,12 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
     const instance = this.instances.get(instanceId);
     if (!instance) throw new Error('Instance not found');
 
-    // Uses deterministic computation; production upgrade: Prometheus/metrics endpoint
+    // Production upgrade: Prometheus/metrics endpoint
     instance.metrics = {
-      cpuUsage: deterministicFloat('rdp-2') * 50,
-      memoryUsage: deterministicFloat('rdp-3') * 60,
-      requestsPerSecond: deterministicFloat('rdp-4') * 100,
-      errorRate: deterministicFloat('rdp-5') * 2
+      cpuUsage: 0,
+      memoryUsage: 0,
+      requestsPerSecond: 0,
+      errorRate: 0
     };
 
     return instance.metrics;

@@ -14,7 +14,6 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -578,7 +577,8 @@ Respond with only valid JSON.`;
 
     // Generate synthetic attack path
     const attackVectors = ['policy_bypass', 'ethics_loophole', 'privilege_escalation', 'system_abuse'];
-    const vector = attackVectors[Math.floor(deterministicFloat('redteam-9') * attackVectors.length)];
+    const vectorIndex = adversaryProfile.length % attackVectors.length;
+    const vector = attackVectors[vectorIndex];
 
     return {
       id: crypto.randomUUID(),
@@ -610,15 +610,15 @@ Respond with only valid JSON.`;
         },
       ],
       damageEstimate: {
-        financial: deterministicInt(0, 999999, 'redteam-1') + 100000,
-        reputational: deterministicInt(0, 499999, 'redteam-2') + 50000,
-        operational: deterministicInt(0, 199999, 'redteam-3') + 20000,
-        legal: deterministicInt(0, 299999, 'redteam-4') + 30000,
+        financial: vector === 'privilege_escalation' ? 500000 : vector === 'policy_bypass' ? 300000 : 150000,
+        reputational: vector === 'ethics_loophole' ? 400000 : 100000,
+        operational: vector === 'system_abuse' ? 200000 : 50000,
+        legal: vector === 'ethics_loophole' ? 250000 : vector === 'policy_bypass' ? 150000 : 50000,
       },
-      probabilityOfSuccess: deterministicInt(0, 39, 'redteam-5') + 30,
-      detectionDifficulty: deterministicInt(0, 49, 'redteam-6') + 30,
+      probabilityOfSuccess: vector === 'policy_bypass' ? 55 : vector === 'system_abuse' ? 45 : 35,
+      detectionDifficulty: vector === 'ethics_loophole' ? 70 : vector === 'privilege_escalation' ? 50 : 40,
       timeToExploit: '2-8 hours',
-      severity: deterministicFloat('redteam-7') > 0.7 ? 'critical' : deterministicFloat('redteam-8') > 0.5 ? 'high' : 'medium',
+      severity: vector === 'privilege_escalation' ? 'critical' : vector === 'ethics_loophole' ? 'high' : 'medium',
       status: 'active',
       discoveredAt: new Date(),
     };

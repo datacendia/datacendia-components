@@ -25,7 +25,6 @@ import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // FEDERATION POLICY & SUPPLY-CHAIN TYPES
@@ -779,8 +778,8 @@ class FederatedMeshService extends EventEmitter {
    * Generate Gaussian noise using Box-Muller transform
    */
   private gaussianNoise(): number {
-    const u1 = deterministicFloat('federatedmesh-1');
-    const u2 = deterministicFloat('federatedmesh-2');
+    const u1 = Math.random();
+    const u2 = Math.random();
     return Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
   }
 

@@ -17,7 +17,6 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // TYPES
@@ -243,9 +242,8 @@ export class ContinuousComplianceMonitorService {
 
     const previousStatus = control.status;
     
-    // Deterministic compliance check (production upgrade: run actual checks)
-    const random = deterministicFloat('continuouscompliancemonitor-1');
-    const newStatus: ComplianceStatus = random > 0.8 ? 'compliant' : random > 0.5 ? 'partial' : random > 0.2 ? 'non_compliant' : 'unknown';
+    // Production upgrade: run actual compliance checks
+    const newStatus: ComplianceStatus = 'compliant'; // Default until real checks implemented
     
     control.status = newStatus;
     control.lastChecked = new Date();

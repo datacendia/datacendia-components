@@ -8,7 +8,6 @@
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // FRED API base URL (free, no key required for basic access)
 const FRED_API_BASE = 'https://api.stlouisfed.org/fred';
@@ -183,7 +182,7 @@ class FREDDataService {
       for (let month = 0; month <= maxMonth; month++) {
         const monthsFromStart = (year - startYear) * 12 + month;
         const cyclical = Math.sin(monthsFromStart / 12 * Math.PI * 2) * volatility;
-        const noise = (deterministicFloat('freddata-1') - 0.5) * volatility;
+        const noise = ((monthsFromStart * 7 % 10) - 5) / 10 * volatility;
         const value = baseValue + trend * monthsFromStart + cyclical + noise;
         
         observations.push({

@@ -25,7 +25,6 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -407,7 +406,7 @@ class TimestampAuthorityService {
   private async anchorToBlockchain(dataHash: string, network: BlockchainNetwork): Promise<BlockchainAnchor> {
     // Uses deterministic computation; production upgrade: to an actual blockchain
     const txHash = '0x' + crypto.createHash('sha256').update(`${dataHash}-${network}-${Date.now()}`).digest('hex');
-    const blockNumber = deterministicInt(19000000, 19099999, 'timestampauthority-1');
+    const blockNumber = 19000000 + (Date.now() % 100000);
     const blockHash = '0x' + crypto.createHash('sha256').update(`block-${blockNumber}`).digest('hex');
 
     return {
@@ -700,7 +699,7 @@ class TimestampAuthorityService {
     ];
 
     for (const item of demoItems) {
-      const content = `${item.desc}-${Date.now()}-${deterministicFloat('timestampauthority-2')}`;
+      const content = `${item.desc}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
       this.issueTimestamp(item.org, content, item.desc, item.type, item.ref, { useExternal: true, useBlockchain: item.type === 'decision' || item.type === 'override' })
         .catch(err => logger.error(`Failed to seed timestamp for ${item.desc}:`, err));
     }

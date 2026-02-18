@@ -9,7 +9,6 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 const prisma = new PrismaClient();
 
@@ -282,7 +281,7 @@ export class CendiaMirrorService {
             cascadeEffects.push({
               entity: dep,
               effect: `Cascaded from ${entityId} modification`,
-              magnitude: 0.3 + deterministicFloat('mirror-1') * 0.5,
+              magnitude: 0.5,
             });
           }
         }
@@ -367,7 +366,7 @@ export class CendiaMirrorService {
       if (entityId !== twin.entityId) {
         propagationPath.push({
           entity: entityId,
-          delay: depth * 100 + deterministicFloat('mirror-2') * 50, // ms
+          delay: depth * 100 + 25, // ms
           impact: Math.max(0.1, 1 - depth * 0.2),
         });
       }

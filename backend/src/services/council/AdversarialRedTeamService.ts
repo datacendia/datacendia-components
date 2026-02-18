@@ -15,7 +15,6 @@
  */
 
 import { logger } from '../../utils/logger.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -419,8 +418,8 @@ export class AdversarialRedTeamService {
       brutal: 1.0,
     }[aggressiveness];
 
-    const probability = Math.round(30 + deterministicFloat('adversarialredteam-1') * 50 * severityMultiplier);
-    const impact = Math.round(40 + deterministicFloat('adversarialredteam-2') * 50 * severityMultiplier);
+    const probability = Math.round(30 + 25 * severityMultiplier);
+    const impact = Math.round(40 + 25 * severityMultiplier);
     const riskScore = Math.round((probability * impact) / 100);
 
     const severity = riskScore >= 70 ? 'critical' 

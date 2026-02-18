@@ -10,7 +10,6 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { deterministicFloat, deterministicInt } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -253,26 +252,26 @@ Provide analysis in JSON format:
 
     const sentiment: MarketSentiment = {
       symbol,
-      currentPrice: 100 + deterministicFloat('price', symbol) * 50,
-      change24h: (deterministicFloat('change', symbol) - 0.5) * 10,
+      currentPrice: sentimentData.currentPrice || 0,
+      change24h: sentimentData.change24h || 0,
       sentiment: sentimentData.sentiment || 'neutral',
       sentimentScore: sentimentData.sentimentScore || 0,
-      shortInterest: 0.05 + deterministicFloat('short-interest', symbol) * 0.1,
-      volume: 1000000 + deterministicFloat('volume', symbol) * 5000000,
-      avgVolume: 2000000,
-      volatility: 0.2 + deterministicFloat('volatility', symbol) * 0.3,
+      shortInterest: sentimentData.shortInterest || 0,
+      volume: sentimentData.volume || 0,
+      avgVolume: sentimentData.avgVolume || 0,
+      volatility: sentimentData.volatility || 0,
       analystRatings: {
-        buy: deterministicInt(10, 19, 'analyst-buy', symbol),
-        hold: deterministicInt(5, 9, 'analyst-hold', symbol),
-        sell: deterministicInt(0, 2, 'analyst-sell', symbol),
-        averageTarget: 120,
-        highTarget: 150,
-        lowTarget: 90,
+        buy: sentimentData.analystRatings?.buy || 0,
+        hold: sentimentData.analystRatings?.hold || 0,
+        sell: sentimentData.analystRatings?.sell || 0,
+        averageTarget: sentimentData.analystRatings?.averageTarget || 0,
+        highTarget: sentimentData.analystRatings?.highTarget || 0,
+        lowTarget: sentimentData.analystRatings?.lowTarget || 0,
         consensus: sentimentData.analystConsensus || 'hold',
       },
       newsImpact: [],
-      socialMentions: deterministicInt(1000, 5999, 'social-mentions', symbol),
-      institutionalHoldings: 0.65 + deterministicFloat('inst-holdings', symbol) * 0.2,
+      socialMentions: sentimentData.socialMentions || 0,
+      institutionalHoldings: sentimentData.institutionalHoldings || 0,
       insiderActivity: [],
       lastUpdated: new Date(),
     };

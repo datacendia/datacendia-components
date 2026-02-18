@@ -24,7 +24,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage } from '../utils/deterministic.js';
+
 
 // =============================================================================
 // ADJUDICATION SCHEMA & AUDIT TYPES
@@ -874,32 +874,29 @@ Respond with ONLY valid JSON:
   }
 
   /**
-   * Identify patterns that should be banned
+   * Identify patterns that should be banned — queries real pattern ban data from DB
    */
   private async identifyPatternBans(
     organizationId: string,
     config: ApotheosisConfig
   ): Promise<PatternBan[]> {
-    // Uses deterministic computation; production upgrade: historical decision patterns
-    // For now, return sample banned patterns
-    return [
-      {
-        id: crypto.randomUUID(),
-        pattern: 'Skip standard process for urgency',
-        description: 'Bypassing standard review processes when citing urgency',
-        instances: [
-          { decisionId: 'd1', decisionTitle: 'Rush vendor onboarding', date: new Date('2024-09-15'), outcome: 'failure', cost: 120000 },
-          { decisionId: 'd2', decisionTitle: 'Skip QA for client deadline', date: new Date('2024-06-10'), outcome: 'failure', cost: 45000 },
-          { decisionId: 'd3', decisionTitle: 'Approve without legal review', date: new Date('2024-03-22'), outcome: 'failure', cost: 75000 },
-        ],
-        failureRate: 100,
-        totalCost: 240000,
-        bannedAt: new Date(),
-        bannedBy: 'apotheosis',
-        status: 'active',
-        overrideRequires: 'CEO approval with personal liability',
-      },
-    ];
+    const dbBans = await prisma.apotheosis_pattern_bans.findMany({
+      where: { organization_id: organizationId, status: 'active' },
+      orderBy: { banned_at: 'desc' },
+    });
+
+    return dbBans.map((b) => ({
+      id: b.id,
+      pattern: b.pattern,
+      description: b.description,
+      instances: b.instances as PatternBan['instances'],
+      failureRate: Number(b.failure_rate),
+      totalCost: Number(b.total_cost),
+      bannedAt: b.banned_at,
+      bannedBy: b.banned_by as PatternBan['bannedBy'],
+      status: b.status as PatternBan['status'],
+      overrideRequires: b.override_requires,
+    }));
   }
 
   /**
@@ -1422,39 +1419,126 @@ Respond with ONLY valid JSON:
   }
 
   /**
-   * Get run history
+   * Get run history from database
    */
   async getRunHistory(organizationId: string, limit: number = 30): Promise<ApotheosisRun[]> {
-    const runs: ApotheosisRun[] = [];
-    for (let i = 0; i < limit; i++) {
-      const date = new Date(Date.now() - i * 24 * 60 * 60 * 1000);
-      runs.push({
-        id: `run-${i}`,
-        organizationId,
-        startedAt: new Date(date.setHours(3, 0, 0, 0)),
-        completedAt: new Date(date.setHours(5, 47, 0, 0)),
-        status: 'completed',
-        scenariosTested: deterministicInt(1200, 1300, 'scenarios-tested', organizationId, i),
-        scenariosSurvived: deterministicInt(1100, 1200, 'scenarios-survived', organizationId, i),
-        survivalRate: deterministicPercentage(94, 4, 'survival-rate', organizationId, i),
-        weaknessesFound: [],
-        criticalCount: deterministicInt(0, 4, 'critical-count', organizationId, i),
-        highCount: deterministicInt(8, 15, 'high-count', organizationId, i),
-        mediumCount: deterministicInt(15, 24, 'medium-count', organizationId, i),
-        lowCount: deterministicInt(10, 19, 'low-count', organizationId, i),
-        autoPatches: [],
-        escalations: [],
-        upskillAssignments: [],
-        patternBans: [],
-        apotheosisScore: deterministicPercentage(92, 4, 'apoth-score', organizationId, i) + i * 0.1,
-        previousScore: deterministicPercentage(91, 4, 'prev-score', organizationId, i),
-        scoreDelta: deterministicFloat('score-delta', organizationId, i) * 3 - 0.5,
-        shadowCouncilInstances: 12,
-        computeHours: deterministicInt(700, 900, 'compute-hours', organizationId, i),
-        duration: deterministicInt(150, 190, 'duration', organizationId, i),
-      });
+    const dbRuns = await prisma.apotheosis_runs.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { started_at: 'desc' },
+      take: limit,
+      include: {
+        weaknesses: true,
+        auto_patches: true,
+        escalations: true,
+        upskill_assignments: true,
+      },
+    });
+
+    if (dbRuns.length === 0) {
+      return [];
     }
-    return runs;
+
+    const patternBans = await prisma.apotheosis_pattern_bans.findMany({
+      where: { organization_id: organizationId, status: 'active' },
+    });
+
+    return dbRuns.map((run) => {
+      const durationMinutes = run.completed_at
+        ? Math.round((run.completed_at.getTime() - run.started_at.getTime()) / 60000)
+        : run.duration_minutes;
+      const computeHrs = Number(run.compute_hours);
+      const prevScore = Number(run.previous_score);
+      const currentScore = Number(run.apotheosis_score);
+
+      return {
+        id: run.id,
+        organizationId: run.organization_id,
+        startedAt: run.started_at,
+        completedAt: run.completed_at || undefined,
+        status: run.status as ApotheosisRun['status'],
+        scenariosTested: run.scenarios_tested,
+        scenariosSurvived: run.scenarios_survived,
+        survivalRate: Number(run.survival_rate),
+        weaknessesFound: run.weaknesses.map((w) => ({
+          id: w.id,
+          title: w.title,
+          description: w.description,
+          category: w.category as WeaknessItem['category'],
+          severity: w.severity as WeaknessItem['severity'],
+          exploitScenario: w.exploit_scenario,
+          damageEstimate: Number(w.damage_estimate),
+          fixComplexity: w.fix_complexity as WeaknessItem['fixComplexity'],
+          recommendedFix: w.recommended_fix,
+          autoFixable: w.auto_fixable,
+          status: w.status as WeaknessItem['status'],
+          discoveredAt: w.discovered_at,
+          resolvedAt: w.resolved_at || undefined,
+        })),
+        criticalCount: run.critical_count,
+        highCount: run.high_count,
+        mediumCount: run.medium_count,
+        lowCount: run.low_count,
+        autoPatches: run.auto_patches.map((p) => ({
+          id: p.id,
+          weaknessId: p.weakness_id,
+          patchType: p.patch_type as AutoPatch['patchType'],
+          description: p.description,
+          beforeState: p.before_state,
+          afterState: p.after_state,
+          reversible: p.reversible,
+          budgetImpact: Number(p.budget_impact),
+          appliedAt: p.applied_at,
+          status: p.status as AutoPatch['status'],
+        })),
+        escalations: run.escalations.map((e) => ({
+          id: e.id,
+          weaknessId: e.weakness_id,
+          title: e.title,
+          description: e.description,
+          severity: e.severity as Escalation['severity'],
+          reason: e.reason,
+          estimatedCostToFix: Number(e.estimated_cost_to_fix),
+          riskIfNotFixed: Number(e.risk_if_not_fixed),
+          assignedTo: e.assigned_to,
+          deadline: e.deadline,
+          status: e.status as Escalation['status'],
+          responseAt: e.response_at || undefined,
+          response: e.response || undefined,
+        })),
+        upskillAssignments: run.upskill_assignments.map((u) => ({
+          id: u.id,
+          userId: u.user_id,
+          userName: u.user_name,
+          weaknessId: u.weakness_id,
+          skillGap: u.skill_gap,
+          trainingModule: u.training_module,
+          estimatedHours: u.estimated_hours,
+          deadline: u.deadline,
+          status: u.status as UpskillAssignment['status'],
+          progress: u.progress,
+          startedAt: u.started_at || undefined,
+          completedAt: u.completed_at || undefined,
+        })),
+        patternBans: patternBans.map((b) => ({
+          id: b.id,
+          pattern: b.pattern,
+          description: b.description,
+          instances: b.instances as PatternBan['instances'],
+          failureRate: Number(b.failure_rate),
+          totalCost: Number(b.total_cost),
+          bannedAt: b.banned_at,
+          bannedBy: b.banned_by as PatternBan['bannedBy'],
+          status: b.status as PatternBan['status'],
+          overrideRequires: b.override_requires,
+        })),
+        apotheosisScore: currentScore,
+        previousScore: prevScore,
+        scoreDelta: Number(run.score_delta),
+        shadowCouncilInstances: run.shadow_council_instances,
+        computeHours: computeHrs,
+        duration: durationMinutes,
+      };
+    });
   }
 
   /**
@@ -1569,23 +1653,67 @@ Respond with ONLY valid JSON:
     strongestCategory: string;
     overallReadiness: number;
   }> {
-    // Aggregate from scenario library and recent run results
+    // Query real weakness data from the most recent runs
+    const recentRuns = await prisma.apotheosis_runs.findMany({
+      where: { organization_id: organizationId, status: 'completed' },
+      orderBy: { started_at: 'desc' },
+      take: 10,
+      include: { weaknesses: true },
+    });
+
+    if (recentRuns.length === 0) {
+      return { categories: [], weakestCategory: 'unknown', strongestCategory: 'unknown', overallReadiness: 0 };
+    }
+
+    // Aggregate weakness data by category from real runs
     const categoryMap: Record<string, { total: number; survived: number; damage: number }> = {};
+    const latestRun = recentRuns[0];
+    const previousRuns = recentRuns.slice(1);
 
     for (const scenario of ATTACK_SCENARIOS) {
       if (!categoryMap[scenario.category]) {
         categoryMap[scenario.category] = { total: 0, survived: 0, damage: 0 };
       }
       categoryMap[scenario.category].total++;
-      // Determine survival based on scenario probability using deterministic computation
-      const survived = deterministicFloat('scenario-survival', scenario.category, scenario.title) > scenario.probability * 0.3;
+
+      // Check if this category had real weaknesses in the latest run
+      const weaknessesInCategory = latestRun.weaknesses.filter(
+        (w) => w.category === scenario.category
+      );
+      const hasCriticalWeakness = weaknessesInCategory.some(
+        (w) => w.severity === 'critical' || w.severity === 'high'
+      );
+      const survived = !hasCriticalWeakness;
       if (survived) categoryMap[scenario.category].survived++;
-      categoryMap[scenario.category].damage += scenario.expectedDamage * (survived ? 0.2 : 0.8);
+      const totalDamage = weaknessesInCategory.reduce(
+        (sum, w) => sum + Number(w.damage_estimate), 0
+      );
+      categoryMap[scenario.category].damage += totalDamage || scenario.expectedDamage * (survived ? 0.2 : 0.8);
+    }
+
+    // Compute trend by comparing latest run vs. previous runs
+    const prevCategoryMap: Record<string, { survived: number; total: number }> = {};
+    for (const run of previousRuns) {
+      for (const scenario of ATTACK_SCENARIOS) {
+        if (!prevCategoryMap[scenario.category]) {
+          prevCategoryMap[scenario.category] = { total: 0, survived: 0 };
+        }
+        prevCategoryMap[scenario.category].total++;
+        const prevWeaknesses = run.weaknesses.filter((w) => w.category === scenario.category);
+        const prevSurvived = !prevWeaknesses.some((w) => w.severity === 'critical' || w.severity === 'high');
+        if (prevSurvived) prevCategoryMap[scenario.category].survived++;
+      }
     }
 
     const categories = Object.entries(categoryMap).map(([category, data]) => {
       const survivalRate = Math.round((data.survived / Math.max(data.total, 1)) * 100);
       const avgDamage = Math.round(data.damage / Math.max(data.total, 1));
+      const prev = prevCategoryMap[category];
+      const prevSurvivalRate = prev ? Math.round((prev.survived / Math.max(prev.total, 1)) * 100) : survivalRate;
+      const trend: 'IMPROVING' | 'STABLE' | 'WORSENING' =
+        survivalRate > prevSurvivalRate + 5 ? 'IMPROVING'
+        : survivalRate < prevSurvivalRate - 5 ? 'WORSENING'
+        : 'STABLE';
       return {
         category,
         scenarioCount: data.total,
@@ -1595,7 +1723,7 @@ Respond with ONLY valid JSON:
           : survivalRate >= 75 ? 'MEDIUM' as const
           : survivalRate >= 50 ? 'HIGH' as const
           : 'CRITICAL' as const,
-        trend: 'STABLE' as const, // Production upgrade: use historical DB data
+        trend,
       };
     }).sort((a, b) => a.survivalRate - b.survivalRate);
 

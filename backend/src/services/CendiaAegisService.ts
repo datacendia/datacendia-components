@@ -20,7 +20,6 @@
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import { EnhancedLLMService } from './EnhancedLLMService.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES

@@ -12,7 +12,6 @@
  */
 
 import { createHash } from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // ============================================================================
 // ENUMS
@@ -478,20 +477,20 @@ export interface CollapseConfig {
 
 export function generateCollapseId(): string {
   const timestamp = Date.now().toString(36);
-  const random = deterministicFloat('types-2').toString(36).substring(2, 8);
+  const random = Math.random().toString(36).substring(2, 8);
   return `COL-${timestamp}-${random}`.toUpperCase();
 }
 
 export function generateFailureConditionId(): string {
   const timestamp = Date.now().toString(36);
-  const random = deterministicFloat('types-3').toString(36).substring(2, 6);
+  const random = Math.random().toString(36).substring(2, 6);
   return `FC-${timestamp}-${random}`.toUpperCase();
 }
 
 export function generateFailureEnvelopeId(): string {
   const year = new Date().getFullYear();
   const month = String(new Date().getMonth() + 1).padStart(2, '0');
-  const random = deterministicInt(0, 99999, 'types-1');
+  const random = Math.floor(Math.random() * 100000);
   return `FE-${year}-${month}-${random}`;
 }
 

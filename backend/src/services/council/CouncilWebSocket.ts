@@ -10,7 +10,6 @@
 import WebSocket from 'ws';
 import type { Server as HttpServer, IncomingMessage } from 'http';
 import { CouncilService, StreamEvent } from './CouncilService';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // Extended WebSocket client with custom properties
 interface WebSocketClient {

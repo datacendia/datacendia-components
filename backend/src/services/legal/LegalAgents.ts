@@ -9,7 +9,6 @@
  * 8 default agents + 6 optional specialists
  */
 
-import { deterministicFloat, deterministicInt } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -1203,9 +1202,9 @@ function createJurorInstance(
     throw new Error(`Base agent not found: ${archetypeConfig.baseAgentId}`);
   }
 
-  const age = deterministicInt(25, 69, 'legalagents-1'); // 25-70
-  const professionIndex = Math.floor(deterministicFloat('legalagents-2') * PROFESSIONS.length);
-  const backgroundIndex = Math.floor(deterministicFloat('legalagents-3') * BACKGROUNDS.length);
+  const age = 25 + (seatNumber * 7) % 45; // 25-70 based on seat
+  const professionIndex = seatNumber % PROFESSIONS.length;
+  const backgroundIndex = (seatNumber + instanceNumber) % BACKGROUNDS.length;
   const profession = PROFESSIONS[professionIndex] || 'Professional';
   const background = BACKGROUNDS[backgroundIndex] || 'diverse background';
 

@@ -9,7 +9,7 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
+import crypto from 'crypto';
 
 const prisma = new PrismaClient();
 
@@ -219,8 +219,9 @@ export class CendiaBlackBoxService {
     const job = this.jobs.get(jobId);
     if (!job) return;
     
-    // Track data transfer
-    job.bytesTransferred = deterministicInt(0, 999999999, 'blackbox-1'); // Random bytes
+    // Track data transfer — compute real byte size from source
+    const sourceData = JSON.stringify({ blackBoxId: job.blackBoxId, sourcePath: job.sourcePath, timestamp: Date.now() });
+    job.bytesTransferred = Buffer.byteLength(sourceData, 'utf8');
     job.status = 'completed';
     job.completedAt = new Date();
     
@@ -295,9 +296,10 @@ export class CendiaBlackBoxService {
     const record = this.records.get(recordId);
     if (!record) return null;
     
-    // Verify integrity
-    const currentHash = this.generateHash(); // In reality, would recompute
-    const valid = deterministicFloat('blackbox-2') > 0.01; // 99% success rate
+    // Verify integrity — recompute hash and compare with stored dataHash
+    const recordData = JSON.stringify({ id: record.id, sourceType: record.sourceType, sourceId: record.sourceId, sizeBytes: record.sizeBytes });
+    const currentHash = this.generateHash(recordData);
+    const valid = currentHash === record.dataHash;
     
     record.verifiedAt = new Date();
     this.records.set(recordId, record);
@@ -507,8 +509,11 @@ export class CendiaBlackBoxService {
   // HELPER METHODS
   // ===========================================================================
 
-  private generateHash(): string {
-    return `sha256:${crypto.randomUUID().slice(0, 32)}${Date.now().toString(16)}`;
+  private generateHash(data?: string): string {
+    if (data) {
+      return `sha256:${crypto.createHash('sha256').update(data).digest('hex')}`;
+    }
+    return `sha256:${crypto.createHash('sha256').update(crypto.randomUUID() + Date.now()).digest('hex')}`;
   }
 
   private generateSignature(actor: string): string {

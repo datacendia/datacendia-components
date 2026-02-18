@@ -13,7 +13,6 @@ import { druidEventStream } from './DruidEventStream.js';
 import { prisma } from '../config/database.js';
 import type { SocketServer } from '../websocket/SocketServer.js';
 import { recordChronosEvent } from './ChronosEventBus.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
