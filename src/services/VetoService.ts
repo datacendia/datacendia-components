@@ -407,7 +407,7 @@ class VetoService {
     category?: string,
     amount?: number
   ): Promise<VetoDecision> {
-    const id = `veto-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `veto-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
 
     // Determine which agents need to review based on policies
     const requiredAgents = this.determineRequiredAgents(title, description, category, amount);

@@ -319,7 +319,7 @@ class LedgerService {
         voters: dd.agents.map((agentId, vIdx) => ({
           agentId,
           vote: vIdx === 0 && dd.status === 'deliberating' ? 'abstain' : 'approve',
-          confidence: dd.finalConfidence + Math.floor(Math.random() * 10) - 5,
+          confidence: dd.finalConfidence + (vIdx * 3 % 10) - 5,
           timestamp: new Date(proposedAt.getTime() + vIdx * 3600000),
         })),
         finalConfidence: dd.finalConfidence,

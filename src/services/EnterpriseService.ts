@@ -9,6 +9,7 @@
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
+import { deterministicInt } from '../lib/deterministic';
 
 // =============================================================================
 // AUTOPILOT TYPES
@@ -503,7 +504,7 @@ class EnterpriseService {
                 ? 'hris'
                 : 'communication',
         status: 'connected',
-        health: 95 + Math.floor(Math.random() * 5),
+        health: deterministicInt(95, 99, 'ent-health', name),
       });
     });
 
@@ -603,8 +604,8 @@ class EnterpriseService {
 
     const categories = Object.keys(CATEGORY_CONFIG).map((cat) => ({
       category: cat as DecisionCategory,
-      score: 75 + Math.floor(Math.random() * 20),
-      trend: ['up', 'down', 'stable'][Math.floor(Math.random() * 3)] as 'up' | 'down' | 'stable',
+      score: deterministicInt(75, 94, 'ent-score', cat),
+      trend: (['up', 'down', 'stable'] as const)[deterministicInt(0, 2, 'ent-trend', cat)],
       activeDecisions: decisions.filter((d) => d.category === cat && d.status === 'pending').length,
     }));
 
@@ -918,7 +919,7 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
     setTimeout(() => {
       integration.status = 'connected';
       integration.lastSync = new Date();
-      integration.recordsSync += Math.floor(Math.random() * 1000);
+      integration.recordsSync += deterministicInt(100, 999, 'ent-sync', integration.name);
       this.saveToStorage();
     }, 2000);
 

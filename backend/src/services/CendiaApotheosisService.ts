@@ -934,7 +934,7 @@ Respond with ONLY valid JSON:
       skip: 1,
       select: { apotheosis_score: true },
     }).catch(() => null);
-    const previous = previousRun?.apotheosis_score ?? score * 0.98; // Slight regression baseline if no history
+    const previous = Number(previousRun?.apotheosis_score ?? score * 0.98); // Slight regression baseline if no history
     
     return {
       current: Math.round(score * 10) / 10,
@@ -1578,7 +1578,7 @@ Respond with ONLY valid JSON:
       }
       categoryMap[scenario.category].total++;
       // Determine survival based on scenario probability using deterministic computation
-      const survived = deterministicFloat('scenario-survival', scenario.category, scenario.name) > scenario.probability * 0.3;
+      const survived = deterministicFloat('scenario-survival', scenario.category, scenario.title) > scenario.probability * 0.3;
       if (survived) categoryMap[scenario.category].survived++;
       categoryMap[scenario.category].damage += scenario.expectedDamage * (survived ? 0.2 : 0.8);
     }

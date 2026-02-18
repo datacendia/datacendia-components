@@ -160,7 +160,7 @@ async function flushErrors(): Promise<void> {
 function getSessionId(): string {
   let sessionId = sessionStorage.getItem('datacendia_session_id');
   if (!sessionId) {
-    sessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    sessionId = `session_${Date.now()}_${crypto.randomUUID().slice(0, 9)}`;
     sessionStorage.setItem('datacendia_session_id', sessionId);
   }
   return sessionId;

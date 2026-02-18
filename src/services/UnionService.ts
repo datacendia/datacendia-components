@@ -411,7 +411,7 @@ class UnionService {
       | 'advocacySessions'
     >
   ): Employee {
-    const id = `emp-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const id = `emp-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     const burnout = calculateBurnoutScore(employeeData);
 
     const employee: Employee = {

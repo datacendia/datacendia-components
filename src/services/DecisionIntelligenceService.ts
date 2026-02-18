@@ -9,6 +9,7 @@
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
+import { deterministicInt } from '../lib/deterministic';
 import { FINANCIAL_DECISION_DEBT } from '../data/financialDemoData';
 
 // =============================================================================
@@ -795,7 +796,7 @@ ANSWER: [suggested answer]`;
     }
 
     // Calculate preparedness score
-    const preparednessScore = 70 + Math.floor(Math.random() * 20);
+    const preparednessScore = deterministicInt(70, 89, 'ghost-prep', proposalTitle);
 
     const result: GhostBoardResult = {
       id: `ghost-${Date.now()}`,
@@ -850,7 +851,7 @@ ANSWER: [suggested answer]`;
     const memberQuestions = questions[member.role] || [
       'What is the risk-adjusted return on this initiative?',
     ];
-    return memberQuestions[Math.floor(Math.random() * memberQuestions.length)];
+    return memberQuestions[deterministicInt(0, memberQuestions.length - 1, 'ghost-q', member.role, proposal)];
   }
 
   // ---------------------------------------------------------------------------

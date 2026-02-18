@@ -147,7 +147,7 @@ class AutoHealServiceClass {
 
     // Create error analysis
     const error: ErrorAnalysis = {
-      id: `err_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      id: `err_${Date.now()}_${crypto.randomUUID().slice(0, 9)}`,
       timestamp: new Date(),
       errorType: errorInfo.type,
       message: errorInfo.message,

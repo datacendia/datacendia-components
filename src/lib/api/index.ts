@@ -61,7 +61,7 @@ const mapGraphEntity = (raw: any): Types.GraphEntity => {
   const props = (raw.properties ?? raw ?? {}) as any;
 
   const id = String(
-    props.id ?? raw.id ?? raw.elementId ?? `node-${Math.random().toString(36).slice(2)}`
+    props.id ?? raw.id ?? raw.elementId ?? `node-${crypto.randomUUID().slice(0, 8)}`
   );
 
   const rawType = (props.type ??

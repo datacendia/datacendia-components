@@ -206,12 +206,12 @@ export class FlowService extends BaseService {
     this.executionsStore.set(execution.id, execution);
 
     // Deterministic execution (production upgrade: run actual workflow engine)
-    this.executeWorkflow(execution, workflow);
+    this.runWorkflowSteps(execution, workflow);
 
     return execution;
   }
 
-  private async executeWorkflow(execution: WorkflowExecution, workflow: Workflow): Promise<void> {
+  private async runWorkflowSteps(execution: WorkflowExecution, workflow: Workflow): Promise<void> {
     const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
     for (const stepResult of execution.stepResults) {
@@ -331,7 +331,7 @@ export class FlowService extends BaseService {
         if (workflow) {
           execution.status = 'running';
           // Continue execution from approval step
-          this.executeWorkflow(execution, workflow);
+          this.runWorkflowSteps(execution, workflow);
         }
       } else {
         execution.status = 'cancelled';

@@ -649,7 +649,7 @@ class PersonaForgeService {
     const targetProgress = 100;
 
     const interval = window.setInterval(() => {
-      progress = Math.min(progress + Math.random() * 3, targetProgress);
+      progress = Math.min(progress + 1.5, targetProgress);
 
       let status: TrainingStatus = 'training';
       if (progress >= 95) {
