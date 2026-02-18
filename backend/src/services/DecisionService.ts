@@ -160,7 +160,7 @@ export class DecisionService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaDecision] Decision ServiceÃ¢â€žÂ¢ initialized - Black Box Recording enabled');
+    this.logger.info('[CendiaDecision] Decision ServiceÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - Black Box Recording enabled');
   }
 
   async shutdown(): Promise<void> {
@@ -212,7 +212,7 @@ export class DecisionService extends BaseService {
     stakeholders?: string[];
     constraints?: string[];
   }): Promise<Decision> {
-    const id = `dec-${Date.now()}-${deterministicFloat('decision-1').toString(36).substr(2, 9)}`;
+    const id = `dec-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     const now = new Date();
 
     const decision: Decision = {

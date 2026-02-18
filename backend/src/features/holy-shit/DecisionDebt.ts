@@ -638,7 +638,7 @@ export class DecisionDebtService extends BaseService {
 
   async createDecision(organizationId: string, data: Partial<PendingDecision>): Promise<PendingDecision> {
     const decision: PendingDecision = {
-      id: `dec-${Date.now()}-${deterministicFloat('decisiondebt-1').toString(36).substr(2, 9)}`,
+      id: `dec-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       title: data.title || 'Untitled Decision',
       description: data.description || '',
       department: data.department || 'General',

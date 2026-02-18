@@ -116,7 +116,7 @@ export class CendiaSentryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaSentry] AI Guardrailsâ„¢ initialized');
+    this.logger.info('[CendiaSentry] AI GuardrailsÃ¢â€žÂ¢ initialized');
   }
 
   async shutdown(): Promise<void> {
@@ -210,7 +210,7 @@ export class CendiaSentryService extends BaseService {
     context?: Record<string, any>;
   }): Promise<SentryCheck> {
     const startTime = Date.now();
-    const id = `sentry-${Date.now()}-${deterministicFloat('sentry-1').toString(36).substr(2, 9)}`;
+    const id = `sentry-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     
     // Get org config or use defaults
     const configs = this.guardrailConfigs.get(params.organizationId) || this.getDefaultConfig();
@@ -815,7 +815,7 @@ export class CendiaSentryService extends BaseService {
         'toxicity_filter': { threshold: 0.95 }, // Medical terms can look violent
         'hallucination_check': { threshold: 0.4, severity: 'block' }, // Strict on medical claims
         'financial_accuracy': { enabled: false }, // Not relevant
-        'pii_detector': { severity: 'block' }, // HIPAA â€” always block PII
+        'pii_detector': { severity: 'block' }, // HIPAA Ã¢â‚¬â€ always block PII
       },
       financial: {
         'financial_accuracy': { threshold: 0.6, severity: 'block' }, // Very strict
@@ -1060,7 +1060,7 @@ export class CendiaSentryService extends BaseService {
       this.corrections.set(params.organizationId, []);
     }
 
-    const correctionId = `corr-${Date.now()}-${deterministicFloat('sentry-2').toString(36).substr(2, 6)}`;
+    const correctionId = `corr-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`;
     this.corrections.get(params.organizationId)!.push({
       checkId: params.checkId,
       guardrailType: params.guardrailType,
@@ -1071,7 +1071,7 @@ export class CendiaSentryService extends BaseService {
       timestamp: new Date(),
     });
 
-    this.logger.info(`[Sentry] Correction recorded: ${params.guardrailType} ${originalDecision} â†’ ${params.correctedDecision} by ${params.correctedBy}`);
+    this.logger.info(`[Sentry] Correction recorded: ${params.guardrailType} ${originalDecision} Ã¢â€ â€™ ${params.correctedDecision} by ${params.correctedBy}`);
 
     // Calculate threshold recommendation based on accumulated corrections
     const orgCorrections = this.corrections.get(params.organizationId) || [];
@@ -1083,8 +1083,8 @@ export class CendiaSentryService extends BaseService {
       const config = configs.find(c => c.type === params.guardrailType);
       const currentThreshold = config?.threshold || 0.5;
 
-      // If most corrections say it should have passed â†’ raise threshold (less sensitive)
-      // If most corrections say it should have blocked â†’ lower threshold (more sensitive)
+      // If most corrections say it should have passed Ã¢â€ â€™ raise threshold (less sensitive)
+      // If most corrections say it should have blocked Ã¢â€ â€™ lower threshold (more sensitive)
       const shouldHavePassed = typeCorrections.filter(c => c.correctedDecision === 'PASSED').length;
       const shouldHaveBlocked = typeCorrections.filter(c => c.correctedDecision === 'BLOCKED').length;
 
@@ -1099,7 +1099,7 @@ export class CendiaSentryService extends BaseService {
         currentThreshold,
         recommendedThreshold,
         basedOnCorrections: typeCorrections.length,
-        confidence: Math.min(0.95, typeCorrections.length / 20), // More corrections â†’ higher confidence
+        confidence: Math.min(0.95, typeCorrections.length / 20), // More corrections Ã¢â€ â€™ higher confidence
       };
     }
 
@@ -1193,7 +1193,7 @@ export class CendiaSentryService extends BaseService {
   }
 
   /**
-   * Performance Optimization: Tiered checking â€” quick scan first, deep scan only if needed.
+   * Performance Optimization: Tiered checking Ã¢â‚¬â€ quick scan first, deep scan only if needed.
    * Reduces processing time by 50-80% for clean content.
    */
   async checkContentTiered(params: {
@@ -1249,7 +1249,7 @@ export class CendiaSentryService extends BaseService {
 
     // TIER 1 PASS: If no quick issues and content is simple, pass immediately
     if (quickIssues.length === 0 && wordCount < 200 && !hasFinancialClaims) {
-      const id = `sentry-quick-${Date.now()}-${deterministicFloat('sentry-3').toString(36).substr(2, 9)}`;
+      const id = `sentry-quick-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
       const quickCheck: SentryCheck = {
         id,
         timestamp: new Date(),
@@ -1282,7 +1282,7 @@ export class CendiaSentryService extends BaseService {
       return { ...quickCheck, tier: 'QUICK', quickScanMs };
     }
 
-    // TIER 2: Deep scan â€” run full guardrail suite
+    // TIER 2: Deep scan Ã¢â‚¬â€ run full guardrail suite
     const deepResult = await this.checkContent(params);
 
     return {

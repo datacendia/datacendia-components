@@ -536,7 +536,7 @@ Output JSON:
       // Create and validate claims
       for (const extractedClaim of claims) {
         const claim: Claim = {
-          id: `claim-${Date.now()}-${deterministicFloat('statementoffacts-1').toString(36).substr(2, 6)}`,
+          id: `claim-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
           deliberationId,
           ...extractedClaim,
           status: 'unverified',
@@ -737,12 +737,12 @@ Output JSON:
     report += `## All Claims\n\n`;
     for (const claim of claims) {
       const statusIcon = {
-        verified: 'âœ…',
-        partially_verified: 'ðŸŸ¡',
-        unverified: 'âšª',
-        disputed: 'âŒ',
-        assumption: 'ðŸ’­',
-        requires_human: 'ðŸ‘¤',
+        verified: 'Ã¢Å“â€¦',
+        partially_verified: 'Ã°Å¸Å¸Â¡',
+        unverified: 'Ã¢Å¡Âª',
+        disputed: 'Ã¢ÂÅ’',
+        assumption: 'Ã°Å¸â€™Â­',
+        requires_human: 'Ã°Å¸â€˜Â¤',
       }[claim.status];
 
       report += `### ${statusIcon} ${claim.statement.substring(0, 60)}...\n`;

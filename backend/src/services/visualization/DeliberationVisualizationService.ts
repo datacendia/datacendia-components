@@ -156,7 +156,7 @@ export class DeliberationVisualizationService extends EventEmitter {
 
   private constructor() {
     super();
-    logger.info('[CendiaLive] Deliberation Visualizationâ„¢ initialized');
+    logger.info('[CendiaLive] Deliberation VisualizationÃ¢â€žÂ¢ initialized');
   }
 
   static getInstance(): DeliberationVisualizationService {
@@ -303,7 +303,7 @@ export class DeliberationVisualizationService extends EventEmitter {
 
     const fullCitation: Citation = {
       ...citation,
-      id: `cite-${Date.now()}-${deterministicFloat('deliberationvisualization-1').toString(36).substr(2, 9)}`,
+      id: `cite-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       addedAt: new Date(),
       addedBy: agentId,
     };
@@ -581,7 +581,7 @@ export class DeliberationVisualizationService extends EventEmitter {
    */
   cleanupVisualization(deliberationId: string): void {
     this.activeVisualizations.delete(deliberationId);
-    logger.info(`ðŸ§¹ Cleaned up visualization for deliberation ${deliberationId}`);
+    logger.info(`Ã°Å¸Â§Â¹ Cleaned up visualization for deliberation ${deliberationId}`);
   }
 
   // -------------------------------------------------------------------------

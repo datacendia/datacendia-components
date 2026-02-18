@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAGUARDIANâ„¢ - CUSTOMER SUCCESS & RETENTION INTELLIGENCE
+// CENDIAGUARDIANÃ¢â€žÂ¢ - CUSTOMER SUCCESS & RETENTION INTELLIGENCE
 // "The Churn Shield" - Proactive customer health monitoring
 // =============================================================================
 
@@ -148,7 +148,7 @@ class CendiaGuardianService {
   private playbooks: Map<string, SuccessPlaybook> = new Map();
 
   constructor() {
-    logger.info('CendiaGuardianâ„¢ initialized - The Churn Shield is active');
+    logger.info('CendiaGuardianÃ¢â€žÂ¢ initialized - The Churn Shield is active');
   }
 
   // ---------------------------------------------------------------------------
@@ -158,7 +158,7 @@ class CendiaGuardianService {
   addCustomer(customer: Omit<CustomerProfile, 'id' | 'healthScore'>): CustomerProfile {
     const newCustomer: CustomerProfile = {
       ...customer,
-      id: `cust-${Date.now()}-${deterministicFloat('guardian-3').toString(36).substr(2, 9)}`,
+      id: `cust-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       healthScore: 80, // Initial health score
     };
     this.customers.set(newCustomer.id, newCustomer);
@@ -536,7 +536,7 @@ class CendiaGuardianService {
     const health = this.healthScores.get(customerId) || await this.assessHealth(customerId);
     const engagement = this.getEngagementHistory(customerId, 90);
 
-    const prompt = `You are CendiaGuardianâ„¢, an AI customer success system predicting churn risk.
+    const prompt = `You are CendiaGuardianÃ¢â€žÂ¢, an AI customer success system predicting churn risk.
 
 CUSTOMER PROFILE:
 - Company: ${customer.company}
@@ -661,7 +661,7 @@ Analyze churn probability. Respond in JSON:
 
     const health = this.healthScores.get(customerId);
 
-    const prompt = `You are CendiaGuardianâ„¢ generating a care package for a customer.
+    const prompt = `You are CendiaGuardianÃ¢â€žÂ¢ generating a care package for a customer.
 
 CUSTOMER: ${customer.company} (${customer.tier} tier)
 CONTRACT VALUE: $${customer.contractValue.toLocaleString()}
@@ -1297,12 +1297,12 @@ Consider:
 
     // Generate insights
     const insights: string[] = [];
-    if (loginTrend === 'decreasing') insights.push('Login frequency is declining â€” schedule a check-in to identify friction points');
-    if (loginTrend === 'volatile') insights.push('Login patterns are irregular â€” investigate whether usage is seasonal or event-driven');
-    if (supportTrend === 'worsening') insights.push('Support ticket volume is increasing â€” proactive intervention recommended');
-    if (userGrowthTrend === 'shrinking') insights.push('Active user count is declining â€” potential champion loss or adoption regression');
-    if (anomalies.filter(a => a.severity === 'high').length > 0) insights.push('Significant engagement anomalies detected â€” investigate immediately');
-    if (engagementScore >= 80) insights.push('Strong engagement â€” consider expansion or advocacy opportunities');
+    if (loginTrend === 'decreasing') insights.push('Login frequency is declining Ã¢â‚¬â€ schedule a check-in to identify friction points');
+    if (loginTrend === 'volatile') insights.push('Login patterns are irregular Ã¢â‚¬â€ investigate whether usage is seasonal or event-driven');
+    if (supportTrend === 'worsening') insights.push('Support ticket volume is increasing Ã¢â‚¬â€ proactive intervention recommended');
+    if (userGrowthTrend === 'shrinking') insights.push('Active user count is declining Ã¢â‚¬â€ potential champion loss or adoption regression');
+    if (anomalies.filter(a => a.severity === 'high').length > 0) insights.push('Significant engagement anomalies detected Ã¢â‚¬â€ investigate immediately');
+    if (engagementScore >= 80) insights.push('Strong engagement Ã¢â‚¬â€ consider expansion or advocacy opportunities');
     if (insights.length === 0) insights.push('Engagement patterns are healthy and stable');
 
     return {
@@ -1451,7 +1451,7 @@ Consider:
 
     const insights: string[] = [];
     if (interventionsByType.length === 0) {
-      insights.push('No interventions on record â€” begin generating care packages for at-risk customers');
+      insights.push('No interventions on record Ã¢â‚¬â€ begin generating care packages for at-risk customers');
     }
     const bestType = interventionsByType.sort((a, b) => b.effectivenessScore - a.effectivenessScore)[0];
     if (bestType && bestType.effectivenessScore > 0) {

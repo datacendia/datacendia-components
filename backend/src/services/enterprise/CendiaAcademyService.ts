@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAACADEMYâ„¢ - LEARNING & DEVELOPMENT INTELLIGENCE
+// CENDIAACADEMYÃ¢â€žÂ¢ - LEARNING & DEVELOPMENT INTELLIGENCE
 // "The Personalized Tutor" - AI-powered adaptive learning and skill development
 // =============================================================================
 
@@ -198,7 +198,7 @@ class CendiaAcademyService {
   private interventions: Map<string, JustInTimeIntervention[]> = new Map();
 
   constructor() {
-    logger.info('CendiaAcademyâ„¢ initialized - The Personalized Tutor is ready');
+    logger.info('CendiaAcademyÃ¢â€žÂ¢ initialized - The Personalized Tutor is ready');
   }
 
   // ---------------------------------------------------------------------------
@@ -208,7 +208,7 @@ class CendiaAcademyService {
   createProfile(profile: Omit<EmployeeSkillProfile, 'id' | 'assessments' | 'createdAt' | 'updatedAt'>): EmployeeSkillProfile {
     const newProfile: EmployeeSkillProfile = {
       ...profile,
-      id: `profile-${Date.now()}-${deterministicFloat('academy-1').toString(36).substr(2, 9)}`,
+      id: `profile-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       assessments: [],
       createdAt: new Date(),
       updatedAt: new Date(),
@@ -332,7 +332,7 @@ class CendiaAcademyService {
     const difficulty = this.getDifficulty(currentLevel);
     const estimatedHours = Math.ceil((targetLevel - currentLevel) / 10) * 2;
 
-    const prompt = `You are CendiaAcademyâ„¢, an AI learning system.
+    const prompt = `You are CendiaAcademyÃ¢â€žÂ¢, an AI learning system.
 
 Generate a learning path for: ${skill}
 Current Level: ${currentLevel}%
@@ -441,7 +441,7 @@ Provide a structured learning path in JSON:
   // ---------------------------------------------------------------------------
 
   async generateMicroCourse(skill: string, context?: string): Promise<MicroCourse> {
-    const prompt = `You are CendiaAcademyâ„¢, generating a micro-learning course.
+    const prompt = `You are CendiaAcademyÃ¢â€žÂ¢, generating a micro-learning course.
 
 SKILL: ${skill}
 CONTEXT: ${context || 'General skill development'}
@@ -820,7 +820,7 @@ Generate a 5-10 minute micro-course in JSON:
     if (criticalGaps > 0) insights.push(`${criticalGaps} critical skill gaps require immediate attention`);
     if (gapsByDepartment[0]?.criticalCount > 2) insights.push(`${gapsByDepartment[0].department} has the highest concentration of critical gaps`);
     if (gapsBySkill[0]?.affectedEmployees > 3) insights.push(`"${gapsBySkill[0].skill}" is the most widespread gap across ${gapsBySkill[0].affectedEmployees} employees`);
-    if (closingRate > 50) insights.push('Gap closure rate is strong â€” maintain current learning velocity');
+    if (closingRate > 50) insights.push('Gap closure rate is strong Ã¢â‚¬â€ maintain current learning velocity');
     if (insights.length === 0) insights.push('Skill development is on track with no critical gaps');
 
     return { totalGaps, criticalGaps, gapsByDepartment, gapsBySkill, closingRate, estimatedClosureWeeks, insights };
@@ -1010,7 +1010,7 @@ Generate a 5-10 minute micro-course in JSON:
 
     const insights: string[] = [];
     if (overallReadiness >= 80) insights.push('Workforce readiness is strong across the organization');
-    if (overallReadiness < 60) insights.push('Workforce readiness requires attention â€” increase learning investment');
+    if (overallReadiness < 60) insights.push('Workforce readiness requires attention Ã¢â‚¬â€ increase learning investment');
     if (topWeaknesses.length > 0) insights.push(`Biggest skill gap: "${topWeaknesses[0].skill}" (${topWeaknesses[0].deficit}pt deficit)`);
     if (coveredRoles.length < seniorRoles.length) insights.push(`${seniorRoles.length - coveredRoles.length} critical roles lack succession candidates`);
     if (insights.length === 0) insights.push('Workforce development metrics are within expected ranges');

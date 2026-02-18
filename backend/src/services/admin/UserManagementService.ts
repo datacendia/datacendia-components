@@ -312,7 +312,7 @@ class UserManagementService {
     invitedBy?: string;
   }): Promise<User> {
     const user: User = {
-      id: `user_${Date.now()}_${deterministicFloat('usermanagement-1').toString(36).substr(2, 6)}`,
+      id: `user_${Date.now()}_${crypto.randomUUID().slice(0, 6)}`,
       tenantId,
       email: data.email,
       name: data.name,
@@ -411,7 +411,7 @@ class UserManagementService {
     permissions?: string[];
   }): Promise<Team> {
     const team: Team = {
-      id: `team_${Date.now()}_${deterministicFloat('usermanagement-2').toString(36).substr(2, 6)}`,
+      id: `team_${Date.now()}_${crypto.randomUUID().slice(0, 6)}`,
       tenantId,
       name: data.name,
       description: data.description,
@@ -484,7 +484,7 @@ class UserManagementService {
     permissions: string[];
   }): Promise<Role> {
     const role: Role = {
-      id: `role_${Date.now()}_${deterministicFloat('usermanagement-3').toString(36).substr(2, 6)}`,
+      id: `role_${Date.now()}_${crypto.randomUUID().slice(0, 6)}`,
       tenantId,
       name: data.name,
       description: data.description,

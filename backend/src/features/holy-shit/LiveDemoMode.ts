@@ -119,56 +119,56 @@ const CONNECTOR_CONFIGS: Record<DemoConnectorType, {
 }> = {
   salesforce: {
     name: 'Salesforce',
-    icon: 'ÃƒÂ¢Ã‹Å“Ã‚ÂÃƒÂ¯Ã‚Â¸Ã‚Â',
+    icon: 'ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â',
     scopes: ['api', 'read_only'],
     dataTypes: ['opportunities', 'accounts', 'contacts', 'leads'],
     authUrl: 'https://login.salesforce.com/services/oauth2/authorize',
   },
   hubspot: {
     name: 'HubSpot',
-    icon: 'ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â¡',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚Â§Ãƒâ€šÃ‚Â¡',
     scopes: ['crm.objects.contacts.read', 'crm.objects.deals.read'],
     dataTypes: ['deals', 'contacts', 'companies'],
     authUrl: 'https://app.hubspot.com/oauth/authorize',
   },
   slack: {
     name: 'Slack',
-    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â¬',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€šÃ‚Â¬',
     scopes: ['channels:read', 'users:read'],
     dataTypes: ['channels', 'messages', 'users'],
     authUrl: 'https://slack.com/oauth/v2/authorize',
   },
   jira: {
     name: 'Jira',
-    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã¢â‚¬Â¹',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹',
     scopes: ['read:jira-work', 'read:jira-user'],
     dataTypes: ['issues', 'projects', 'sprints'],
     authUrl: 'https://auth.atlassian.com/authorize',
   },
   github: {
     name: 'GitHub',
-    icon: 'ÃƒÂ°Ã…Â¸Ã‚ÂÃ¢â€žÂ¢',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢',
     scopes: ['repo:read', 'org:read'],
     dataTypes: ['repositories', 'issues', 'pull_requests'],
     authUrl: 'https://github.com/login/oauth/authorize',
   },
   google_analytics: {
     name: 'Google Analytics',
-    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â ',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€¦Ã‚Â ',
     scopes: ['analytics.readonly'],
     dataTypes: ['pageviews', 'sessions', 'conversions'],
     authUrl: 'https://accounts.google.com/o/oauth2/v2/auth',
   },
   stripe: {
     name: 'Stripe',
-    icon: 'ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â³',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€šÃ‚Â³',
     scopes: ['read_only'],
     dataTypes: ['subscriptions', 'invoices', 'customers'],
     authUrl: 'https://connect.stripe.com/oauth/authorize',
   },
   zendesk: {
     name: 'Zendesk',
-    icon: 'ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â§',
+    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã‚Â½Ãƒâ€šÃ‚Â§',
     scopes: ['read'],
     dataTypes: ['tickets', 'users', 'satisfaction'],
     authUrl: 'https://your-domain.zendesk.com/oauth/authorizations/new',
@@ -278,7 +278,7 @@ export class LiveDemoModeService extends BaseService {
     }
 
     const session: DemoSession = {
-      id: `demo-${Date.now()}-${deterministicFloat('livedemomode-6').toString(36).substr(2, 9)}`,
+      id: `demo-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       createdAt: new Date(),
       expiresAt: new Date(Date.now() + 30 * 60 * 1000), // 30 minutes
       status: 'pending',
@@ -437,7 +437,7 @@ export class LiveDemoModeService extends BaseService {
   }
 
   // ---------------------------------------------------------------------------
-  // CendiaLiveÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ DELIBERATION
+  // CendiaLiveÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ DELIBERATION
   // ---------------------------------------------------------------------------
 
   async runLiveDeliberation(request: LiveDemoRequest): Promise<LiveDeliberationResult> {

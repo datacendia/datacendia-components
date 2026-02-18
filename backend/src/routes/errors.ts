@@ -73,7 +73,7 @@ router.post('/report', async (req: Request, res: Response) => {
       try {
         await prisma.audit_logs.create({
           data: {
-            id: `err-${Date.now()}-${deterministicFloat('errors-1').toString(36).substr(2, 9)}`,
+            id: `err-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
             organization_id: 'system', // System-level errors
             user_id: error.context.userId || null,
             action: 'FRONTEND_ERROR',

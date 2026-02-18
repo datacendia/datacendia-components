@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA KEYÃ¢â€žÂ¢ - Hardware Authentication Service
+// CENDIA KEYÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Hardware Authentication Service
 // "Physical presence for digital authority."
 // Sovereign Security Layer - Hardware Authentication
 // =============================================================================
@@ -101,7 +101,7 @@ export class CendiaKeyService {
   async registerKey(data: Omit<HardwareKey, 'id' | 'status' | 'registeredAt' | 'lastUsed' | 'usageCount'>): Promise<HardwareKey> {
     const key: HardwareKey = {
       ...data,
-      id: `key-${Date.now()}-${deterministicFloat('key-1').toString(36).substr(2, 8)}`,
+      id: `key-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       status: 'active',
       registeredAt: new Date(),
       lastUsed: null,
@@ -175,7 +175,7 @@ export class CendiaKeyService {
     
     // Generate cryptographic challenge
     const challenge: AuthChallenge = {
-      id: `challenge-${Date.now()}-${deterministicFloat('key-2').toString(36).substr(2, 8)}`,
+      id: `challenge-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       keyId,
       challenge: this.generateCryptoChallenge(),
       operation,
@@ -236,7 +236,7 @@ export class CendiaKeyService {
   async defineOperation(data: Omit<HighRiskOperation, 'id' | 'createdAt'>): Promise<HighRiskOperation> {
     const operation: HighRiskOperation = {
       ...data,
-      id: `op-${Date.now()}-${deterministicFloat('key-3').toString(36).substr(2, 6)}`,
+      id: `op-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       createdAt: new Date(),
     };
     
@@ -254,7 +254,7 @@ export class CendiaKeyService {
     if (!operation) return null;
     
     const attempt: OperationAttempt = {
-      id: `attempt-${Date.now()}-${deterministicFloat('key-4').toString(36).substr(2, 8)}`,
+      id: `attempt-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       organizationId: operation.organizationId,
       operationId,
       userId,
@@ -345,7 +345,7 @@ export class CendiaKeyService {
     const logs = this.auditLogs.get(keyId) || [];
     
     logs.push({
-      id: `log-${Date.now()}-${deterministicFloat('key-5').toString(36).substr(2, 6)}`,
+      id: `log-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       keyId,
       event,
       details,
@@ -410,7 +410,7 @@ export class CendiaKeyService {
   // ===========================================================================
 
   private generateCryptoChallenge(): string {
-    return `challenge-${Date.now()}-${deterministicFloat('key-6').toString(36).substr(2, 16)}`;
+    return `challenge-${Date.now()}-${crypto.randomUUID().slice(0, 16)}`;
   }
 
   private verifyCryptoResponse(challenge: string, response: string, publicKey: string): boolean {

@@ -119,7 +119,7 @@ export class AgentsService extends BaseService {
   // ===========================================================================
 
   async createAgent(agent: Omit<AIAgent, 'id' | 'createdAt' | 'queriesTotal' | 'queriesToday' | 'avgResponseTime' | 'satisfaction'>): Promise<AIAgent> {
-    const id = `agent-${Date.now()}-${deterministicFloat('agents-1').toString(36).substr(2, 6)}`;
+    const id = `agent-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`;
 
     const newAgent: AIAgent = {
       ...agent,

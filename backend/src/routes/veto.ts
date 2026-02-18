@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA VETOÃ¢â€žÂ¢ - API ROUTES
+// CENDIA VETOÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - API ROUTES
 // Adversarial Governance Engine endpoints
 // =============================================================================
 
@@ -89,7 +89,7 @@ router.post('/proposals', authenticate, async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Title and description required' });
     }
 
-    const id = `veto-${Date.now()}-${deterministicFloat('veto-1').toString(36).substr(2, 9)}`;
+    const id = `veto-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     
     const decision: VetoDecision = {
       id,

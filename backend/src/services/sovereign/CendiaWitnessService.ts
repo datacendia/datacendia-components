@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA WITNESSÃ¢â€žÂ¢ - Legal Observer Service
+// CENDIA WITNESSÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Legal Observer Service
 // "Nothing spoken is ever unseen."
 // Sovereign Organ Layer - Integrity
 // =============================================================================
@@ -104,7 +104,7 @@ export class CendiaWitnessService {
     
     const record: WitnessRecord = {
       ...data,
-      id: `witness-${Date.now()}-${deterministicFloat('witness-1').toString(36).substr(2, 8)}`,
+      id: `witness-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       contentHash,
       attestations: [],
     };
@@ -192,7 +192,7 @@ export class CendiaWitnessService {
     
     const newAttestation: Attestation = {
       ...attestation,
-      id: `attest-${Date.now()}-${deterministicFloat('witness-2').toString(36).substr(2, 6)}`,
+      id: `attest-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       witnessRecordId: recordId,
       verified: this.verifySignature(attestation.signature, attestation.attestorId),
     };
@@ -217,7 +217,7 @@ export class CendiaWitnessService {
   async createLegalHold(data: Omit<LegalHold, 'id' | 'createdAt'>): Promise<LegalHold> {
     const hold: LegalHold = {
       ...data,
-      id: `hold-${Date.now()}-${deterministicFloat('witness-3').toString(36).substr(2, 6)}`,
+      id: `hold-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       createdAt: new Date(),
     };
     
@@ -269,7 +269,7 @@ export class CendiaWitnessService {
   async createDiscoveryRequest(data: Omit<DiscoveryRequest, 'id' | 'status' | 'results' | 'createdAt' | 'completedAt'>): Promise<DiscoveryRequest> {
     const request: DiscoveryRequest = {
       ...data,
-      id: `discovery-${Date.now()}-${deterministicFloat('witness-4').toString(36).substr(2, 6)}`,
+      id: `discovery-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       status: 'pending',
       results: [],
       createdAt: new Date(),

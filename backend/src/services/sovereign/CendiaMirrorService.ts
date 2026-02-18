@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MIRRORÃ¢â€žÂ¢ - Digital Twin Service
+// CENDIA MIRRORÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Digital Twin Service
 // "The live reflection of your enterprise."
 // Sovereign Organ Layer - Time & Simulation
 // =============================================================================
@@ -97,7 +97,7 @@ export class CendiaMirrorService {
   async createTwin(data: Omit<DigitalTwinState, 'id' | 'lastSync'>): Promise<DigitalTwinState> {
     const twin: DigitalTwinState = {
       ...data,
-      id: `twin-${Date.now()}-${deterministicFloat('mirror-3').toString(36).substr(2, 6)}`,
+      id: `twin-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       lastSync: new Date(),
     };
     this.twins.set(twin.id, twin);
@@ -155,7 +155,7 @@ export class CendiaMirrorService {
     const lastSnapshot = existingSnapshots[existingSnapshots.length - 1];
     
     const snapshot: StateSnapshot = {
-      id: `snap-${Date.now()}-${deterministicFloat('mirror-4').toString(36).substr(2, 6)}`,
+      id: `snap-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       twinId,
       state: JSON.parse(JSON.stringify(twin.currentState)),
       timestamp: new Date(),
@@ -221,7 +221,7 @@ export class CendiaMirrorService {
     if (!baselineSnap) return null;
 
     const scenario: SimulationScenario = {
-      id: `scenario-${Date.now()}-${deterministicFloat('mirror-5').toString(36).substr(2, 6)}`,
+      id: `scenario-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       organizationId: data.organizationId,
       name: data.name,
       description: data.description,

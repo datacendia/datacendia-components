@@ -212,7 +212,7 @@ export class RegulatoryAbsorbService extends BaseService {
 
     this.logger.info(`Starting absorption of: ${request.document.filename}`);
 
-    const resultId = `reg-${Date.now()}-${deterministicFloat('regulatoryabsorb-1').toString(36).substr(2, 9)}`;
+    const resultId = `reg-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
 
     try {
       // Extract text from document
@@ -555,8 +555,8 @@ Respond in JSON format:
     
     // Common penalty patterns
     const penaltyPatterns = [
-      /(?:fine|penalty|sanction)[^.]*(?:â‚¬|Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
-      /(?:â‚¬|Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
+      /(?:fine|penalty|sanction)[^.]*(?:Ã¢â€šÂ¬|Ã‚Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
+      /(?:Ã¢â€šÂ¬|Ã‚Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
       /\d+%\s*(?:of\s*)?(?:annual\s*)?(?:turnover|revenue|profit)[^.]*/gi,
     ];
 

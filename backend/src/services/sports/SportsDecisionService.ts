@@ -264,7 +264,7 @@ export class SportsDecisionService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaSports] Sports Decision ServiceÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized');
+    this.logger.info('[CendiaSports] Sports Decision ServiceÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ initialized');
     this.logger.info(`Loaded ${SPORTS_DECISION_TEMPLATES.length} decision templates`);
     this.logger.info(`Loaded ${SPORTS_COMPLIANCE_FRAMEWORKS.length} compliance frameworks`);
   }
@@ -330,7 +330,7 @@ export class SportsDecisionService extends BaseService {
     addOns?: number;
     agentFee?: number;
   }): Promise<TransferDecision> {
-    const id = `trf-${Date.now()}-${deterministicFloat('sportsdecision-1').toString(36).substr(2, 9)}`;
+    const id = `trf-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     const now = new Date();
 
     const template = getTemplateById(params.templateId);
@@ -567,7 +567,7 @@ export class SportsDecisionService extends BaseService {
       : crypto.createHash('sha256').update(evidence.filename + Date.now()).digest('hex');
 
     const attachment: TransferDecision['evidenceAttachments'][0] = {
-      id: `evd-${Date.now()}-${deterministicFloat('sportsdecision-2').toString(36).substr(2, 6)}`,
+      id: `evd-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       type: evidence.type,
       filename: evidence.filename,
       uploadedAt: new Date(),

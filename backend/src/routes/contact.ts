@@ -43,7 +43,7 @@ router.post('/', async (req: Request, res: Response) => {
     // Store in demo_requests table (reusing existing table)
     const contact = await prisma.demo_requests.create({
       data: {
-        id: `contact-${Date.now()}-${deterministicFloat('contact-1').toString(36).substr(2, 9)}`,
+        id: `contact-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
         first_name: name.split(' ')[0] || name,
         last_name: name.split(' ').slice(1).join(' ') || '',
         email,

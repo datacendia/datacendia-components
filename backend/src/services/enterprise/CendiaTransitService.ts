@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIATRANSITÃ¢â€žÂ¢ - CORPORATE TRAVEL & EXECUTIVE SECURITY
+// CENDIATRANSITÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - CORPORATE TRAVEL & EXECUTIVE SECURITY
 // "The Executive Protection" - AI-powered travel risk and security intelligence
 // =============================================================================
 
@@ -233,7 +233,7 @@ class CendiaTransitService {
   private alerts: TravelAlert[] = [];
 
   constructor() {
-    logger.info('CendiaTransitÃ¢â€žÂ¢ initialized - Executive Protection is active');
+    logger.info('CendiaTransitÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - Executive Protection is active');
   }
 
   // ---------------------------------------------------------------------------
@@ -246,7 +246,7 @@ class CendiaTransitService {
       return cached;
     }
 
-    const prompt = `You are CendiaTransitÃ¢â€žÂ¢, an AI travel security system.
+    const prompt = `You are CendiaTransitÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢, an AI travel security system.
 
 Assess travel risk for: ${location}, ${country}
 
@@ -331,7 +331,7 @@ Provide comprehensive risk assessment in JSON:
   async createTravelRequest(request: Omit<TravelRequest, 'id' | 'status' | 'riskAssessment' | 'createdAt'>): Promise<TravelRequest> {
     const newRequest: TravelRequest = {
       ...request,
-      id: `travel-${Date.now()}-${deterministicFloat('transit-1').toString(36).substr(2, 9)}`,
+      id: `travel-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       status: 'pending',
       createdAt: new Date(),
     };
@@ -597,7 +597,7 @@ Provide comprehensive risk assessment in JSON:
   }
 
   private generateCode(): string {
-    return deterministicFloat('transit-2').toString(36).substr(2, 8).toUpperCase();
+    return crypto.randomUUID().slice(0, 8).toUpperCase();
   }
 
   private async createExtractionPlan(request: TravelRequest): Promise<ExtractionPlan> {
@@ -850,11 +850,11 @@ Provide comprehensive risk assessment in JSON:
     const insights: string[] = [];
     const highRiskRequests = requests.filter(r => r.riskAssessment?.overallRisk === 'high').length;
     const criticalRiskRequests = requests.filter(r => r.riskAssessment?.overallRisk === 'critical').length;
-    if (highRiskRequests > 0 || criticalRiskRequests > 0) insights.push(`${highRiskRequests + criticalRiskRequests} high/critical risk travel requests pending review Ã¢â‚¬â€ prioritize security assessment`);
-    if (alerts.filter(a => a.type === 'emergency').length > 0) insights.push('Emergency travel alerts active Ã¢â‚¬â€ review immediate response protocols');
+    if (highRiskRequests > 0 || criticalRiskRequests > 0) insights.push(`${highRiskRequests + criticalRiskRequests} high/critical risk travel requests pending review ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â prioritize security assessment`);
+    if (alerts.filter(a => a.type === 'emergency').length > 0) insights.push('Emergency travel alerts active ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â review immediate response protocols');
     const missedCheckIns = this.getMissedCheckIns().length;
-    if (missedCheckIns > 0) insights.push(`${missedCheckIns} missed check-in(s) Ã¢â‚¬â€ initiate welfare check`);
-    if (incidents.filter(i => i.status !== 'resolved').length > 0) insights.push(`${incidents.filter(i => i.status !== 'resolved').length} open incident(s) Ã¢â‚¬â€ ensure timely resolution`);
+    if (missedCheckIns > 0) insights.push(`${missedCheckIns} missed check-in(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â initiate welfare check`);
+    if (incidents.filter(i => i.status !== 'resolved').length > 0) insights.push(`${incidents.filter(i => i.status !== 'resolved').length} open incident(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ensure timely resolution`);
     if (insights.length === 0) insights.push('Travel risk management is operating effectively');
 
     return {
@@ -964,10 +964,10 @@ Provide comprehensive risk assessment in JSON:
     })).sort((a, b) => b.totalTrips - a.totalTrips);
 
     const insights: string[] = [];
-    if (coverageRate < 80 && requests.length > 0) insights.push(`Security plan coverage is ${coverageRate}% Ã¢â‚¬â€ ensure all travel requests have a plan`);
-    if (missedCheckInsCount > 0) insights.push(`${missedCheckInsCount} missed check-in(s) Ã¢â‚¬â€ review communication protocols and traveler compliance`);
-    if (activatedPlans > 0) insights.push(`${activatedPlans} extraction plan(s) activated Ã¢â‚¬â€ conduct post-incident review for lessons learned`);
-    if (criticalIncidents > 0) insights.push(`${criticalIncidents} critical incident(s) recorded Ã¢â‚¬â€ analyze root causes and implement preventative measures`);
+    if (coverageRate < 80 && requests.length > 0) insights.push(`Security plan coverage is ${coverageRate}% ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ensure all travel requests have a plan`);
+    if (missedCheckInsCount > 0) insights.push(`${missedCheckInsCount} missed check-in(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â review communication protocols and traveler compliance`);
+    if (activatedPlans > 0) insights.push(`${activatedPlans} extraction plan(s) activated ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â conduct post-incident review for lessons learned`);
+    if (criticalIncidents > 0) insights.push(`${criticalIncidents} critical incident(s) recorded ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â analyze root causes and implement preventative measures`);
     if (insights.length === 0) insights.push('Executive protection measures are robust');
 
     return {
@@ -1173,11 +1173,11 @@ Provide comprehensive risk assessment in JSON:
     const avgApprovalTime = approvedRequestsCount > 0 ? Math.round((totalApprovalTime / approvedRequestsCount) / (60 * 60 * 1000)) : 0;
 
     const insights: string[] = [];
-    if (complianceRateVal < 90 && requests.length > 0) insights.push(`Policy compliance rate is ${complianceRateVal}% Ã¢â‚¬â€ review policies or provide better guidance to travelers`);
-    if (nonCompliantRequests > 0) insights.push(`${nonCompliantRequests} non-compliant travel requests detected Ã¢â‚¬â€ investigate and address policy breaches`);
+    if (complianceRateVal < 90 && requests.length > 0) insights.push(`Policy compliance rate is ${complianceRateVal}% ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â review policies or provide better guidance to travelers`);
+    if (nonCompliantRequests > 0) insights.push(`${nonCompliantRequests} non-compliant travel requests detected ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â investigate and address policy breaches`);
     const highRiskBlacklistApprovals = Object.entries(blacklistedUsageMap).filter(([, data]) => data.approved > 0);
-    if (highRiskBlacklistApprovals.length > 0) insights.push(`Travel to blacklisted locations approved ${highRiskBlacklistApprovals.reduce((s, [, d]) => s + d.approved, 0)} time(s) Ã¢â‚¬â€ immediate review required`);
-    if (avgApprovalTime > 24) insights.push(`Average approval time is ${avgApprovalTime} hours Ã¢â‚¬â€ optimize approval workflows`);
+    if (highRiskBlacklistApprovals.length > 0) insights.push(`Travel to blacklisted locations approved ${highRiskBlacklistApprovals.reduce((s, [, d]) => s + d.approved, 0)} time(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â immediate review required`);
+    if (avgApprovalTime > 24) insights.push(`Average approval time is ${avgApprovalTime} hours ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â optimize approval workflows`);
     if (insights.length === 0) insights.push('Travel policy compliance is strong');
 
     return {

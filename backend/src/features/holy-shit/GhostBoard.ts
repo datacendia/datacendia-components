@@ -343,7 +343,7 @@ export class GhostBoardService extends BaseService {
     const sessionDuration = Math.round((Date.now() - startTime) / 1000 / 60);
 
     const result: GhostBoardResult = {
-      id: `gb-${Date.now()}-${deterministicFloat('ghostboard-1').toString(36).substr(2, 9)}`,
+      id: `gb-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       proposalTitle: request.proposalTitle,
       sessionDate: new Date(),
       duration: Math.max(45, sessionDuration), // Minimum 45 min simulated

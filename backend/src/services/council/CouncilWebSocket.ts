@@ -230,7 +230,7 @@ export class CouncilWebSocketServer {
   }
 
   private generateClientId(): string {
-    return `client_${Date.now()}_${deterministicFloat('councilwebsocket-1').toString(36).substr(2, 9)}`;
+    return `client_${Date.now()}_${crypto.randomUUID().slice(0, 9)}`;
   }
 
   getConnectedClients(): number {

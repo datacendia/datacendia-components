@@ -142,7 +142,7 @@ export class FlowService extends BaseService {
   // ===========================================================================
 
   async createWorkflow(workflow: Omit<Workflow, 'id' | 'createdAt' | 'updatedAt' | 'executionCount' | 'successRate' | 'avgDuration'>): Promise<Workflow> {
-    const id = `wf-${Date.now()}-${deterministicFloat('flow-3').toString(36).substr(2, 6)}`;
+    const id = `wf-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`;
 
     const newWorkflow: Workflow = {
       ...workflow,

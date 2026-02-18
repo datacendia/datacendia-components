@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MESHâ„¢ - Encrypted Networking Service
+// CENDIA MESHÃ¢â€žÂ¢ - Encrypted Networking Service
 // "Quantum-resistant secure communications."
 // Sovereign Security Layer - Encrypted Networking
 // =============================================================================
@@ -121,7 +121,7 @@ export class CendiaMeshService {
   async registerNode(data: Omit<MeshNode, 'id' | 'status' | 'connections' | 'lastHeartbeat' | 'registeredAt'>): Promise<MeshNode> {
     const node: MeshNode = {
       ...data,
-      id: `node-${Date.now()}-${deterministicFloat('mesh-1').toString(36).substr(2, 8)}`,
+      id: `node-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       status: 'online',
       connections: [],
       lastHeartbeat: new Date(),
@@ -186,7 +186,7 @@ export class CendiaMeshService {
     
     const connection: MeshConnection = {
       ...data,
-      id: `conn-${Date.now()}-${deterministicFloat('mesh-2').toString(36).substr(2, 8)}`,
+      id: `conn-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       status: 'active',
       establishedAt: new Date(),
       lastActivity: new Date(),
@@ -244,7 +244,7 @@ export class CendiaMeshService {
   async createSecureChannel(data: Omit<SecureChannel, 'id' | 'status' | 'createdAt' | 'messageCount'>): Promise<SecureChannel> {
     const channel: SecureChannel = {
       ...data,
-      id: `channel-${Date.now()}-${deterministicFloat('mesh-3').toString(36).substr(2, 8)}`,
+      id: `channel-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       status: 'active',
       createdAt: new Date(),
       messageCount: 0,
@@ -291,7 +291,7 @@ export class CendiaMeshService {
     description: string
   ): Promise<NetworkEvent> {
     const event: NetworkEvent = {
-      id: `event-${Date.now()}-${deterministicFloat('mesh-4').toString(36).substr(2, 6)}`,
+      id: `event-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       organizationId,
       nodeId,
       eventType,
@@ -336,7 +336,7 @@ export class CendiaMeshService {
   async createPolicy(data: Omit<NetworkPolicy, 'id' | 'createdAt'>): Promise<NetworkPolicy> {
     const policy: NetworkPolicy = {
       ...data,
-      id: `policy-${Date.now()}-${deterministicFloat('mesh-5').toString(36).substr(2, 6)}`,
+      id: `policy-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       createdAt: new Date(),
     };
     

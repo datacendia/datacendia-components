@@ -179,7 +179,7 @@ router.post('/entities', async (req: Request, res: Response, next: NextFunction)
     const orgId = req.organizationId!;
     const dataSourceId = getSelectedDataSourceId(req);
 
-    const id = `ent_${Date.now().toString(36)}_${deterministicFloat('graph-1').toString(36).substr(2, 9)}`;
+    const id = `ent_${Date.now().toString(36)}_${crypto.randomUUID().slice(0, 9)}`;
 
     const entity = await graph.createNode(type, {
       id,

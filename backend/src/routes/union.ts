@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA UNIONÃ¢â€žÂ¢ - API ROUTES
+// CENDIA UNIONÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - API ROUTES
 // Employee Rights & Advocacy Module endpoints
 // =============================================================================
 
@@ -169,7 +169,7 @@ router.post('/employees', authenticate, async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
-    const id = `emp-${Date.now()}-${deterministicFloat('union-1').toString(36).substr(2, 9)}`;
+    const id = `emp-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     const burnout = calculateBurnout({ avgHoursPerWeek, ptoDaysRemaining, ptoUsedThisYear: 0 });
 
     const employee: Employee = {

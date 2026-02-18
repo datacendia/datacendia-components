@@ -112,7 +112,7 @@ export class PantheonMemoryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaPantheon] Agent Memory Serviceâ„¢ initialized');
+    this.logger.info('[CendiaPantheon] Agent Memory ServiceÃ¢â€žÂ¢ initialized');
   }
 
   async shutdown(): Promise<void> {
@@ -151,7 +151,7 @@ export class PantheonMemoryService extends BaseService {
     tags?: string[];
     expiresInDays?: number;
   }): Promise<Memory> {
-    const id = `mem-${Date.now()}-${deterministicFloat('pantheonmemory-1').toString(36).substr(2, 9)}`;
+    const id = `mem-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     
     // Generate summary and extract entities
     const { summary, entities, sentiment } = await this.analyzeContent(params.content);

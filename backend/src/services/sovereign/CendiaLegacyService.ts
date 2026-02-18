@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA LEGACYâ„¢ - Knowledge Archive Service
+// CENDIA LEGACYÃ¢â€žÂ¢ - Knowledge Archive Service
 // "The eternal memory of your enterprise."
 // Sovereign Organ Layer - Knowledge & Continuity
 // =============================================================================
@@ -127,7 +127,7 @@ export class CendiaLegacyService {
   async createArticle(data: Omit<KnowledgeArticle, 'id' | 'version' | 'createdAt' | 'updatedAt' | 'publishedAt' | 'archivedAt' | 'views' | 'usefulness'>): Promise<KnowledgeArticle> {
     const article: KnowledgeArticle = {
       ...data,
-      id: `article-${Date.now()}-${deterministicFloat('legacy-1').toString(36).substr(2, 8)}`,
+      id: `article-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       version: 1,
       createdAt: new Date(),
       updatedAt: new Date(),
@@ -222,7 +222,7 @@ export class CendiaLegacyService {
     const versions = this.versions.get(articleId) || [];
     
     const version: ArticleVersion = {
-      id: `version-${Date.now()}-${deterministicFloat('legacy-2').toString(36).substr(2, 6)}`,
+      id: `version-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       articleId,
       version: versions.length + 1,
       content,
@@ -260,7 +260,7 @@ export class CendiaLegacyService {
   async createMemory(data: Omit<InstitutionalMemory, 'id' | 'createdAt'>): Promise<InstitutionalMemory> {
     const memory: InstitutionalMemory = {
       ...data,
-      id: `memory-${Date.now()}-${deterministicFloat('legacy-3').toString(36).substr(2, 8)}`,
+      id: `memory-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       createdAt: new Date(),
     };
     
@@ -290,7 +290,7 @@ export class CendiaLegacyService {
   async createExpertProfile(data: Omit<ExpertiseProfile, 'id' | 'contributions' | 'lastActive'>): Promise<ExpertiseProfile> {
     const profile: ExpertiseProfile = {
       ...data,
-      id: `expert-${Date.now()}-${deterministicFloat('legacy-4').toString(36).substr(2, 6)}`,
+      id: `expert-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       contributions: 0,
       lastActive: new Date(),
     };
@@ -340,7 +340,7 @@ export class CendiaLegacyService {
   async createTransfer(data: Omit<KnowledgeTransfer, 'id' | 'status' | 'progress' | 'createdAt' | 'completedAt'>): Promise<KnowledgeTransfer> {
     const transfer: KnowledgeTransfer = {
       ...data,
-      id: `transfer-${Date.now()}-${deterministicFloat('legacy-5').toString(36).substr(2, 6)}`,
+      id: `transfer-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       status: 'pending',
       progress: 0,
       createdAt: new Date(),

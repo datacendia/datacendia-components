@@ -267,7 +267,7 @@ export class AdversarialRedTeamService {
   private activeSessions: Map<string, RedTeamSession> = new Map();
 
   private constructor() {
-    logger.info('ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ AdversarialRedTeamService initialized');
+    logger.info('ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ AdversarialRedTeamService initialized');
   }
 
   static getInstance(): AdversarialRedTeamService {
@@ -289,7 +289,7 @@ export class AdversarialRedTeamService {
     context?: string,
     config?: Partial<RedTeamConfig>
   ): RedTeamSession {
-    const sessionId = `redteam-${Date.now()}-${deterministicFloat('adversarialredteam-3').toString(36).substr(2, 9)}`;
+    const sessionId = `redteam-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`;
     
     const defaultConfig: RedTeamConfig = {
       maxAttacks: 100,
@@ -319,7 +319,7 @@ export class AdversarialRedTeamService {
     };
 
     this.activeSessions.set(sessionId, session);
-    logger.info(`ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ Started red team session ${sessionId} for decision: ${decision.substring(0, 50)}...`);
+    logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Started red team session ${sessionId} for decision: ${decision.substring(0, 50)}...`);
     
     return session;
   }
@@ -371,7 +371,7 @@ export class AdversarialRedTeamService {
     session.status = 'complete';
     session.completedAt = new Date();
 
-    logger.info(`ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ Red team session ${sessionId} complete with ${allAttacks.length} attacks`);
+    logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Red team session ${sessionId} complete with ${allAttacks.length} attacks`);
     return allAttacks;
   }
 
@@ -429,7 +429,7 @@ export class AdversarialRedTeamService {
       : 'low';
 
     return {
-      id: `attack-${Date.now()}-${deterministicFloat('adversarialredteam-4').toString(36).substr(2, 9)}`,
+      id: `attack-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       attackerId: perspective.id,
       attackerName: perspective.name,
       attackerRole: perspective.role,
@@ -564,7 +564,7 @@ This assessment represents a comprehensive adversarial analysis where every pers
       throw new Error(`Session ${sessionId} not found or not complete`);
     }
 
-    let report = `# ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ 100 WAYS THIS COULD FAIL
+    let report = `# ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ 100 WAYS THIS COULD FAIL
 ## Adversarial Red Team Assessment
 
 **Decision:** ${session.decision}
@@ -624,7 +624,7 @@ ${risk.description}
     if (session.summary.blindSpots.length > 0) {
       report += `
 
-## ÃƒÂ¢Ã…Â¡Ã‚Â ÃƒÂ¯Ã‚Â¸Ã‚Â BLIND SPOTS (No risks identified)
+## ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â BLIND SPOTS (No risks identified)
 
 The following categories had no identified risks. This may indicate blind spots in the analysis:
 
@@ -655,7 +655,7 @@ ${session.summary.blindSpots.map(b => `- ${b}`).join('\n')}
    */
   endSession(sessionId: string): void {
     this.activeSessions.delete(sessionId);
-    logger.info(`ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â´ Ended red team session ${sessionId}`);
+    logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Ended red team session ${sessionId}`);
   }
 }
 
