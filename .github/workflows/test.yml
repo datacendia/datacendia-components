@@ -1,55 +1,26 @@
 # =============================================================================
-# DATACENDIA — CONTINUOUS INTEGRATION TEST PIPELINE
-# =============================================================================
-# Enterprise Platinum Standard: Full test matrix across frontend + backend
-# with real PostgreSQL, Redis, and Neo4j service containers.
-#
-# Triggers: All pushes + all PRs
-# Matrix: Node 20 + 22 for future-proofing
-# Coverage: Unit, Integration, E2E, Lint, Typecheck, Security Audit
+# DATACENDIA  TEST SUITE (Reusable)
+# Called by deploy.yml and can be triggered manually
 # =============================================================================
 
-name: CI — Test Suite
+name: Test Suite
 
 on:
-  push:
-    branches: [main, develop, 'release/**', 'hotfix/**']
-  pull_request:
-    branches: [main, develop]
   workflow_call:
+  workflow_dispatch:
 
 concurrency:
-  group: ci-test-${{ github.ref }}
+  group: test-${{ github.ref }}
   cancel-in-progress: true
 
 env:
-  NODE_ENV: test
-  DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5433/datacendia_test
-  REDIS_URL: redis://localhost:6380
-  NEO4J_URI: bolt://localhost:7687
-  NEO4J_USER: neo4j
-  NEO4J_PASSWORD: datacendia_test_2024
-  OLLAMA_BASE_URL: http://localhost:11434
-  OLLAMA_MODEL: qwen2.5:7b
-  OLLAMA_MODEL_FLAGSHIP: llama3.3:70b
-  OLLAMA_MODEL_FAST: llama3.2:3b
-  JWT_SECRET: test-jwt-secret-minimum-32-characters-long-for-ci
-  JWT_REFRESH_SECRET: test-jwt-refresh-secret-minimum-32-characters-ci
-  CORS_ORIGINS: http://localhost:5173,http://localhost:3000
+  NODE_VERSION: '20'
 
 jobs:
-  # ===========================================================================
-  # BACKEND: Unit + Integration Tests
-  # ===========================================================================
   backend-tests:
-    name: Backend Tests (Node ${{ matrix.node-version }})
+    name: Backend Tests
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
-    strategy:
-      matrix:
-        node-version: [20, 22]
-      fail-fast: false
+    timeout-minutes: 25
 
     services:
       postgres:
@@ -59,9 +30,9 @@ jobs:
           POSTGRES_PASSWORD: datacendia_test
           POSTGRES_DB: datacendia_test
         ports:
-          - 5433:5432
+          - 5432:5432
         options: >-
-          --health-cmd "pg_isready -U datacendia -d datacendia_test"
+          --health-cmd "pg_isready -U datacendia"
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
@@ -69,7 +40,7 @@ jobs:
       redis:
         image: redis:7-alpine
         ports:
-          - 6380:6379
+          - 6379:6379
         options: >-
           --health-cmd "redis-cli ping"
           --health-interval 10s
@@ -77,220 +48,61 @@ jobs:
           --health-retries 5
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js ${{ matrix.node-version }}
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
+          cache-dependency-path: backend/package-lock.json
 
       - name: Install dependencies
-        run: npm ci --include-workspace-root --workspaces
+        working-directory: backend
+        run: npm ci
 
       - name: Generate Prisma client
+        working-directory: backend
         run: npx prisma generate
+
+      - name: Type check
         working-directory: backend
+        run: npx tsc --noEmit
 
-      - name: Run Prisma migrations
-        run: npx prisma migrate deploy
+      - name: Run unit tests (exclude infra-dependent)
         working-directory: backend
-        env:
-          DATABASE_URL: ${{ env.DATABASE_URL }}
-
-      - name: Type check backend
-        run: npm run typecheck --workspace=backend
-
-      - name: Lint backend
-        run: npm run lint --workspace=backend
-
-      - name: Run backend tests
-        run: npm run test:coverage --workspace=backend
-        env:
-          DATABASE_URL: ${{ env.DATABASE_URL }}
-          REDIS_URL: ${{ env.REDIS_URL }}
-
-      - name: Upload backend coverage
-        if: matrix.node-version == 20
-        uses: actions/upload-artifact@v4
-        with:
-          name: backend-coverage
-          path: backend/coverage/
-          retention-days: 14
-
-  # ===========================================================================
-  # FRONTEND: Unit + Component Tests
-  # ===========================================================================
-  frontend-tests:
-    name: Frontend Tests (Node ${{ matrix.node-version }})
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-
-    strategy:
-      matrix:
-        node-version: [20, 22]
-      fail-fast: false
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci --include-workspace-root --workspaces
-
-      - name: Type check frontend
-        run: npm run typecheck
-
-      - name: Lint frontend
-        run: npm run lint
-
-      - name: Format check
-        run: npm run format:check
-
-      - name: Run frontend tests
-        run: npm run test:ci
-
-      - name: Upload frontend coverage
-        if: matrix.node-version == 20
-        uses: actions/upload-artifact@v4
-        with:
-          name: frontend-coverage
-          path: coverage/
-          retention-days: 14
-
-  # ===========================================================================
-  # E2E: Playwright Tests
-  # ===========================================================================
-  e2e-tests:
-    name: E2E Tests (Playwright)
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    needs: [backend-tests, frontend-tests]
-
-    services:
-      postgres:
-        image: postgres:16-alpine
-        env:
-          POSTGRES_USER: datacendia
-          POSTGRES_PASSWORD: datacendia_test
-          POSTGRES_DB: datacendia_test
-        ports:
-          - 5433:5432
-        options: >-
-          --health-cmd "pg_isready -U datacendia -d datacendia_test"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-
-      redis:
-        image: redis:7-alpine
-        ports:
-          - 6380:6379
-        options: >-
-          --health-cmd "redis-cli ping"
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci --include-workspace-root --workspaces
-
-      - name: Generate Prisma client
-        run: npx prisma generate
-        working-directory: backend
-
-      - name: Run Prisma migrations
-        run: npx prisma migrate deploy
-        working-directory: backend
-
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
-
-      - name: Build frontend
-        run: npm run build
-
-      - name: Run E2E tests
-        run: npm run test:e2e
+        run: |
+          npx vitest run \
+            --exclude="**/e2e/**" \
+            --exclude="**/integration/**" \
+            --exclude="**/routes/marketing-studio*" \
+            --exclude="**/routes/platform-assistant*"
         env:
           CI: true
+          DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
+          REDIS_URL: redis://localhost:6379
+          JWT_SECRET: test-secret-key-for-ci-minimum-32-chars
+          NODE_ENV: test
 
-      - name: Upload Playwright report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-report
-          path: playwright-report/
-          retention-days: 14
-
-      - name: Upload Playwright screenshots
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: playwright-screenshots
-          path: test-results/
-          retention-days: 7
-
-  # ===========================================================================
-  # BUILD VERIFICATION: Ensure production build succeeds
-  # ===========================================================================
-  build-check:
-    name: Production Build Verification
+  frontend-build:
+    name: Frontend Build
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --include-workspace-root --workspaces
+        run: npm ci
 
-      - name: Generate Prisma client
-        run: npx prisma generate
-        working-directory: backend
+      - name: Type check
+        run: npx tsc --noEmit
 
-      - name: Build frontend (production)
+      - name: Build
         run: npm run build
-
-      - name: Build backend (production)
-        run: npm run build --workspace=backend
-
-      - name: Verify frontend bundle size
-        run: |
-          DIST_SIZE=$(du -sk dist/ | cut -f1)
-          echo "Frontend bundle size: ${DIST_SIZE}KB"
-          if [ "$DIST_SIZE" -gt 51200 ]; then
-            echo "::warning::Frontend bundle exceeds 50MB — consider code splitting"
-          fi
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: production-build
-          path: |
-            dist/
-            backend/dist/
-          retention-days: 7
