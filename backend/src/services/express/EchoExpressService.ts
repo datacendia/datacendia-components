@@ -5,13 +5,22 @@
 /**
  * Echo Express Service
  * 
- * Quick decision pattern insights without Council involvement.
- * Wraps Echo data access in a standalone Express-mode service
- * (separate file due to echoService.ts encoding constraints).
+ * Unified decision intelligence dashboard — no Council involvement required.
+ * 
+ * Data sources:
+ *   - Prisma decision_outcomes table (backward-looking outcomes)
+ *   - CendiaRecall (prediction accuracy, bias detection, lessons learned)
+ *   - CendiaPredict (forward-looking risk intelligence)
+ * 
+ * EchoExpress is a READ-ONLY dashboard view. CendiaRecall is the canonical
+ * source of truth for outcome tracking. CendiaPredict is the canonical
+ * source for risk assessment. This service composes both into a single view.
  */
 
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
+import { cendiaRecallService } from '../CendiaRecallService.js';
+import { cendiaPredictService } from '../CendiaPredictService.js';
 
 // =============================================================================
 // TYPES
@@ -27,6 +36,23 @@ export interface ExpressDecisionInsights {
   pendingCount: number;
   recommendation: string;
   mode: 'express';
+
+  // CendiaRecall integration: prediction accuracy intelligence
+  recallIntelligence?: {
+    overallAccuracy: number;
+    accuracyByCategory: Record<string, number>;
+    topBiases: Array<{ type: string; severity: string; frequency: number }>;
+    lessonsCount: number;
+    trackedOutcomes: number;
+  };
+
+  // CendiaPredict integration: forward-looking risk context
+  predictIntelligence?: {
+    activeAssessments: number;
+    avgRiskScore: number;
+    avgConfidence: number;
+    riskDistribution: Record<string, number>;
+  };
 }
 
 // =============================================================================
@@ -123,6 +149,44 @@ class EchoExpressService {
       }
     }
 
+    // Enrich with CendiaRecall prediction accuracy data
+    let recallIntelligence: ExpressDecisionInsights['recallIntelligence'];
+    try {
+      const [accuracyReport, recallHealth] = await Promise.all([
+        cendiaRecallService.getPredictionAccuracyReport(organizationId),
+        cendiaRecallService.getHealth(),
+      ]);
+      recallIntelligence = {
+        overallAccuracy: accuracyReport.overallAccuracy,
+        accuracyByCategory: accuracyReport.accuracyByCategory,
+        topBiases: accuracyReport.topBiases.slice(0, 3).map(b => ({
+          type: b.type,
+          severity: b.severity,
+          frequency: b.frequency,
+        })),
+        lessonsCount: recallHealth.lessons,
+        trackedOutcomes: recallHealth.trackers,
+      };
+    } catch (e) {
+      logger.debug('[Echo Express] CendiaRecall integration skipped');
+    }
+
+    // Enrich with CendiaPredict forward-looking risk context
+    let predictIntelligence: ExpressDecisionInsights['predictIntelligence'];
+    try {
+      const predictDashboard = await cendiaPredictService.getDashboard(organizationId);
+      if (predictDashboard.totalAssessments > 0) {
+        predictIntelligence = {
+          activeAssessments: predictDashboard.totalAssessments,
+          avgRiskScore: predictDashboard.avgRiskScore,
+          avgConfidence: predictDashboard.avgConfidence,
+          riskDistribution: predictDashboard.riskDistribution,
+        };
+      }
+    } catch (e) {
+      logger.debug('[Echo Express] CendiaPredict integration skipped');
+    }
+
     const durationMs = Date.now() - startTime;
     logger.info(`[Echo Express] Decision insights generated in ${durationMs}ms (${totalDecisions} decisions)`);
 
@@ -136,6 +200,8 @@ class EchoExpressService {
       pendingCount: pendingDeliberations.length,
       recommendation,
       mode: 'express',
+      recallIntelligence,
+      predictIntelligence,
     };
   }
 }

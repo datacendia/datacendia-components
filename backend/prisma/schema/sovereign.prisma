@@ -413,6 +413,7 @@ model truth_claims {
 
   evidence claim_evidence[]
   votes    claim_votes[]
+  disputes claim_disputes[]
 
   @@index([organization_id])
   @@index([status])
@@ -518,6 +519,122 @@ model expertise_profiles {
   created_at       DateTime @default(now())
 
   @@unique([organization_id, user_id])
+}
+
+model claim_disputes {
+  id              String        @id @default(uuid())
+  claim_id        String
+  organization_id String
+  disputant       String
+  reason          String        @db.Text
+  counter_claim   String?       @db.Text
+  status          DisputeStatus @default(OPEN)
+  resolution      String?       @db.Text
+  created_at      DateTime      @default(now())
+  resolved_at     DateTime?
+
+  claim truth_claims @relation(fields: [claim_id], references: [id], onDelete: Cascade)
+
+  @@index([claim_id])
+  @@index([organization_id])
+  @@index([status])
+}
+
+model source_reliability {
+  id                String   @id @default(uuid())
+  organization_id   String
+  source_name       String
+  reliability_score Float    @default(50)
+  total_claims      Int      @default(0)
+  accurate_claims   Int      @default(0)
+  last_evaluated    DateTime @default(now())
+  created_at        DateTime @default(now())
+
+  @@unique([organization_id, source_name])
+  @@index([organization_id])
+}
+
+model discovery_requests {
+  id               String          @id @default(uuid())
+  organization_id  String
+  title            String
+  description      String?         @db.Text
+  requesting_party String
+  scope            Json            @default("[]")
+  record_ids       Json            @default("[]")
+  status           DiscoveryStatus @default(PENDING)
+  due_date         DateTime?
+  completed_at     DateTime?
+  created_at       DateTime        @default(now())
+
+  @@index([organization_id])
+  @@index([status])
+}
+
+model recovery_procedures {
+  id              String         @id @default(uuid())
+  organization_id String
+  blackbox_id     String
+  trigger         String
+  status          RecoveryStatus @default(INITIATED)
+  steps           Json           @default("[]")
+  records_found   Int            @default(0)
+  error           String?
+  initiated_at    DateTime       @default(now())
+  completed_at    DateTime?
+
+  blackbox blackbox_units @relation(fields: [blackbox_id], references: [id], onDelete: Cascade)
+
+  @@index([organization_id])
+  @@index([blackbox_id])
+}
+
+model integrity_reports {
+  id              String   @id @default(uuid())
+  blackbox_id     String
+  organization_id String
+  records_checked Int      @default(0)
+  records_valid   Int      @default(0)
+  records_invalid Int      @default(0)
+  issues          Json     @default("[]")
+  created_at      DateTime @default(now())
+
+  blackbox blackbox_units @relation(fields: [blackbox_id], references: [id], onDelete: Cascade)
+
+  @@index([blackbox_id])
+  @@index([organization_id])
+}
+
+model operation_attempts {
+  id                 String        @id @default(uuid())
+  organization_id    String
+  operation_id       String
+  user_id            String
+  key_id             String?
+  status             AttemptStatus @default(PENDING)
+  challenge_id       String?
+  biometric_verified Boolean       @default(false)
+  metadata           Json          @default("{}")
+  attempted_at       DateTime      @default(now())
+  completed_at       DateTime?
+
+  @@index([organization_id])
+  @@index([operation_id])
+}
+
+model knowledge_transfers {
+  id              String         @id @default(uuid())
+  organization_id String
+  from_expert_id  String
+  to_user_id      String
+  article_ids     Json           @default("[]")
+  memory_ids      Json           @default("[]")
+  status          TransferStatus @default(INITIATED)
+  notes           String?        @db.Text
+  created_at      DateTime       @default(now())
+  completed_at    DateTime?
+
+  @@index([organization_id])
 }
 
 model stored_records {
@@ -858,4 +975,40 @@ enum ConfidentialityLevel {
   INTERNAL
   RESTRICTED
   CONFIDENTIAL
+}
+
+enum DisputeStatus {
+  OPEN
+  UNDER_REVIEW
+  RESOLVED
+  DISMISSED
+}
+
+enum DiscoveryStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+  REJECTED
+}
+
+enum RecoveryStatus {
+  INITIATED
+  SCANNING
+  RECOVERING
+  COMPLETED
+  FAILED
+}
+
+enum AttemptStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+  EXPIRED
+}
+
+enum TransferStatus {
+  INITIATED
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
 }

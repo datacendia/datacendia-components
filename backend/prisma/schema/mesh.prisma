@@ -72,6 +72,8 @@ model blackbox_units {
 
   backup_jobs    backup_jobs[]
   stored_records stored_records[]
+  recoveries     recovery_procedures[]
+  reports        integrity_reports[]
 
   @@index([organization_id])
   @@index([status])

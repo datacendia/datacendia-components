@@ -10,6 +10,7 @@
 
 import { Router, Request, Response } from 'express';
 import { regulatorsReceiptService } from '../services/evidence/RegulatorsReceiptService.js';
+import { pdfGeneratorService } from '../services/document/PDFGeneratorService.js';
 
 const router = Router();
 
@@ -39,18 +40,76 @@ router.post('/generate', async (req: Request, res: Response) => {
 
 /**
  * POST /api/v1/regulators-receipt/export/pdf
- * Export receipt as PDF content
+ * Export receipt as real PDF bytes
  */
-router.post('/export/pdf', (req: Request, res: Response) => {
-  const { receipt } = req.body;
-  
-  if (!receipt) {
-    return res.status(400).json({ error: 'receipt is required' });
+router.post('/export/pdf', async (req: Request, res: Response) => {
+  try {
+    const { receipt } = req.body;
+    
+    if (!receipt) {
+      return res.status(400).json({ error: 'receipt is required' });
+    }
+
+    // Rehydrate date strings from JSON
+    const hydrated = {
+      ...receipt,
+      generatedAt: new Date(receipt.generatedAt),
+      decision: {
+        ...receipt.decision,
+        createdAt: new Date(receipt.decision.createdAt),
+        completedAt: new Date(receipt.decision.completedAt),
+      },
+      retention: {
+        ...receipt.retention,
+        retentionUntil: new Date(receipt.retention.retentionUntil),
+      },
+      cryptographicProof: {
+        ...receipt.cryptographicProof,
+        signedAt: receipt.cryptographicProof.signedAt ? new Date(receipt.cryptographicProof.signedAt) : undefined,
+      },
+      auditTrail: (receipt.auditTrail || []).map((e: any) => ({ ...e, timestamp: new Date(e.timestamp) })),
+    };
+
+    const pdf = await pdfGeneratorService.generateRegulatorsReceipt(hydrated);
+
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', `attachment; filename="${pdf.filename}"`);
+    res.setHeader('X-PDF-Hash', pdf.hash);
+    res.setHeader('X-PDF-Pages', String(pdf.pageCount));
+    res.send(pdf.buffer);
+  } catch (error) {
+    res.status(500).json({ error: (error as Error).message });
   }
-  
-  const pdfContent = regulatorsReceiptService.exportAsPdfContent(receipt);
-  
-  res.json({ success: true, pdfContent });
+});
+
+/**
+ * POST /api/v1/regulators-receipt/generate-pdf
+ * One-step: generate receipt from deliberation ID and return PDF
+ */
+router.post('/generate-pdf', async (req: Request, res: Response) => {
+  try {
+    const { deliberationId, generatedBy, options } = req.body;
+
+    if (!deliberationId) {
+      return res.status(400).json({ error: 'deliberationId is required' });
+    }
+
+    const receipt = await regulatorsReceiptService.generateReceipt(
+      deliberationId,
+      generatedBy || 'system',
+      options
+    );
+
+    const pdf = await pdfGeneratorService.generateRegulatorsReceipt(receipt as any);
+
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', `attachment; filename="${pdf.filename}"`);
+    res.setHeader('X-PDF-Hash', pdf.hash);
+    res.setHeader('X-PDF-Pages', String(pdf.pageCount));
+    res.send(pdf.buffer);
+  } catch (error) {
+    res.status(500).json({ error: (error as Error).message });
+  }
 });
 
 /**
@@ -83,6 +142,29 @@ router.post('/export/html', (req: Request, res: Response) => {
   const html = regulatorsReceiptService.exportAsHtml(receipt);
   
   res.json({ success: true, html });
+});
+
+/**
+ * GET /api/v1/regulators-receipt/:deliberationId
+ * Generate and return receipt JSON for a deliberation
+ */
+router.get('/:deliberationId', async (req: Request, res: Response) => {
+  try {
+    const { deliberationId } = req.params;
+
+    if (!deliberationId) {
+      return res.status(400).json({ error: 'deliberationId is required' });
+    }
+
+    const receipt = await regulatorsReceiptService.generateReceipt(
+      deliberationId,
+      'system'
+    );
+
+    res.json({ success: true, receipt });
+  } catch (error) {
+    res.status(500).json({ error: (error as Error).message });
+  }
 });
 
 /**

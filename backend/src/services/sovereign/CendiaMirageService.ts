@@ -10,8 +10,6 @@
 
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -134,13 +132,16 @@ export interface ThreatIntelligence {
 // =============================================================================
 
 export class CendiaMirageService {
-  private honeytokens: Map<string, Honeytoken> = new Map();
-  private canaries: Map<string, CanarySystem> = new Map();
-  private sandboxes: Map<string, SandboxEnvironment> = new Map();
-  private intelligence: Map<string, ThreatIntelligence> = new Map();
+  private _honeytokens: Map<string, Honeytoken> = new Map();
+  private _canaries: Map<string, CanarySystem> = new Map();
+  private _sandboxes: Map<string, SandboxEnvironment> = new Map();
+  private _intelligence: Map<string, ThreatIntelligence> = new Map();
 
-  constructor() {
-    console.log('[CendiaMirage] Deception Technology service initialized');
+  private db: PrismaClient | null;
+
+  constructor(prisma?: PrismaClient) {
+    this.db = prisma || null;
+    console.log(`[CendiaMirage] Deception Technology service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
   }
 
   // ===========================================================================
@@ -157,7 +158,7 @@ export class CendiaMirageService {
       createdAt: new Date(),
     };
     
-    this.honeytokens.set(honeytoken.id, honeytoken);
+    this._honeytokens.set(honeytoken.id, honeytoken);
     return honeytoken;
   }
 
@@ -165,13 +166,13 @@ export class CendiaMirageService {
     honeytoken: Honeytoken;
     alert: CanaryAlert;
   } | null> {
-    const honeytoken = this.honeytokens.get(honeytokenId);
+    const honeytoken = this._honeytokens.get(honeytokenId);
     if (!honeytoken) return null;
     
     honeytoken.triggered = true;
     honeytoken.triggerCount++;
     honeytoken.lastTriggered = new Date();
-    this.honeytokens.set(honeytokenId, honeytoken);
+    this._honeytokens.set(honeytokenId, honeytoken);
     
     // Create alert
     const alert: CanaryAlert = {
@@ -193,7 +194,7 @@ export class CendiaMirageService {
   }
 
   async getHoneytokens(organizationId: string): Promise<Honeytoken[]> {
-    return Array.from(this.honeytokens.values())
+    return Array.from(this._honeytokens.values())
       .filter(h => h.organizationId === organizationId);
   }
 
@@ -216,12 +217,12 @@ export class CendiaMirageService {
       lastInteraction: null,
     };
     
-    this.canaries.set(canary.id, canary);
+    this._canaries.set(canary.id, canary);
     return canary;
   }
 
   async recordCanaryInteraction(canaryId: string, interaction: Omit<CanaryAlert, 'id' | 'canaryId' | 'analyzed'>): Promise<CanaryAlert | null> {
-    const canary = this.canaries.get(canaryId);
+    const canary = this._canaries.get(canaryId);
     if (!canary) return null;
     
     const alert: CanaryAlert = {
@@ -239,7 +240,7 @@ export class CendiaMirageService {
       canary.status = 'triggered';
     }
     
-    this.canaries.set(canaryId, canary);
+    this._canaries.set(canaryId, canary);
     
     // Record threat intelligence
     await this.recordThreatIntel(canary.organizationId, 'canary', canaryId, interaction.details);
@@ -248,7 +249,7 @@ export class CendiaMirageService {
   }
 
   async getCanaries(organizationId: string): Promise<CanarySystem[]> {
-    return Array.from(this.canaries.values())
+    return Array.from(this._canaries.values())
       .filter(c => c.organizationId === organizationId);
   }
 
@@ -276,23 +277,23 @@ export class CendiaMirageService {
       forensicReport: null,
     };
     
-    this.sandboxes.set(sandbox.id, sandbox);
+    this._sandboxes.set(sandbox.id, sandbox);
     return sandbox;
   }
 
   async engageSandbox(sandboxId: string): Promise<SandboxEnvironment | null> {
-    const sandbox = this.sandboxes.get(sandboxId);
+    const sandbox = this._sandboxes.get(sandboxId);
     if (!sandbox) return null;
     
     sandbox.status = 'engaged';
     sandbox.engagementStart = new Date();
-    this.sandboxes.set(sandboxId, sandbox);
+    this._sandboxes.set(sandboxId, sandbox);
     
     return sandbox;
   }
 
   async recordSandboxActivity(sandboxId: string, activity: Omit<CapturedActivity, 'id' | 'sandboxId'>): Promise<CapturedActivity | null> {
-    const sandbox = this.sandboxes.get(sandboxId);
+    const sandbox = this._sandboxes.get(sandboxId);
     if (!sandbox || sandbox.status !== 'engaged') return null;
     
     const captured: CapturedActivity = {
@@ -302,17 +303,17 @@ export class CendiaMirageService {
     };
     
     sandbox.capturedActivity.push(captured);
-    this.sandboxes.set(sandboxId, sandbox);
+    this._sandboxes.set(sandboxId, sandbox);
     
     return captured;
   }
 
   async generateForensicReport(sandboxId: string): Promise<ForensicReport | null> {
-    const sandbox = this.sandboxes.get(sandboxId);
+    const sandbox = this._sandboxes.get(sandboxId);
     if (!sandbox) return null;
     
     sandbox.status = 'analyzing';
-    this.sandboxes.set(sandboxId, sandbox);
+    this._sandboxes.set(sandboxId, sandbox);
     
     // Analyze captured activity
     const activities = sandbox.capturedActivity;
@@ -354,13 +355,13 @@ export class CendiaMirageService {
     sandbox.forensicReport = report;
     sandbox.status = 'cleanup';
     sandbox.engagementEnd = new Date();
-    this.sandboxes.set(sandboxId, sandbox);
+    this._sandboxes.set(sandboxId, sandbox);
     
     return report;
   }
 
   async getSandboxes(organizationId: string): Promise<SandboxEnvironment[]> {
-    return Array.from(this.sandboxes.values())
+    return Array.from(this._sandboxes.values())
       .filter(s => s.organizationId === organizationId);
   }
 
@@ -375,13 +376,13 @@ export class CendiaMirageService {
     context: Record<string, unknown>
   ): Promise<ThreatIntelligence> {
     const attackPattern = this.inferAttackPattern(context);
-    const existingIntel = Array.from(this.intelligence.values())
+    const existingIntel = Array.from(this._intelligence.values())
       .find(i => i.organizationId === organizationId && i.attackPattern === attackPattern);
     
     if (existingIntel) {
       existingIntel.lastSeen = new Date();
       existingIntel.occurrences++;
-      this.intelligence.set(existingIntel.id, existingIntel);
+      this._intelligence.set(existingIntel.id, existingIntel);
       return existingIntel;
     }
     
@@ -399,12 +400,12 @@ export class CendiaMirageService {
       occurrences: 1,
     };
     
-    this.intelligence.set(intel.id, intel);
+    this._intelligence.set(intel.id, intel);
     return intel;
   }
 
   async getThreatIntelligence(organizationId: string): Promise<ThreatIntelligence[]> {
-    return Array.from(this.intelligence.values())
+    return Array.from(this._intelligence.values())
       .filter(i => i.organizationId === organizationId)
       .sort((a, b) => b.lastSeen.getTime() - a.lastSeen.getTime());
   }

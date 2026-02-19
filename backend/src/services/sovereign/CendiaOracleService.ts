@@ -10,8 +10,6 @@
 
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -86,17 +84,50 @@ export interface SourceReliability {
 }
 
 // =============================================================================
-// CENDIA ORACLE SERVICE
+// ENUM MAPPERS (Prisma enums â†” service string literals)
+// =============================================================================
+
+const CATEGORY_TO_ENUM: Record<string, string> = {
+  data: 'DATA', metric: 'METRIC', event: 'EVENT', statement: 'STATEMENT', forecast: 'FORECAST',
+};
+const ENUM_TO_CATEGORY: Record<string, TruthClaim['category']> = {
+  DATA: 'data', METRIC: 'metric', EVENT: 'event', STATEMENT: 'statement', FORECAST: 'forecast',
+};
+const STATUS_TO_ENUM: Record<string, string> = {
+  pending: 'PENDING', verified: 'VERIFIED', disputed: 'DISPUTED', false: 'FALSE', inconclusive: 'INCONCLUSIVE',
+};
+const ENUM_TO_STATUS: Record<string, TruthClaim['status']> = {
+  PENDING: 'pending', VERIFIED: 'verified', DISPUTED: 'disputed', FALSE: 'false', INCONCLUSIVE: 'inconclusive',
+};
+const EVIDENCE_TYPE_TO_ENUM: Record<string, string> = {
+  data_source: 'DATA_SOURCE', document: 'DOCUMENT', witness: 'WITNESS', audit_log: 'AUDIT_LOG', calculation: 'CALCULATION',
+};
+const ENUM_TO_EVIDENCE_TYPE: Record<string, Evidence['type']> = {
+  DATA_SOURCE: 'data_source', DOCUMENT: 'document', WITNESS: 'witness', AUDIT_LOG: 'audit_log', CALCULATION: 'calculation',
+};
+const VOTE_TO_ENUM: Record<string, string> = {
+  support: 'SUPPORT', oppose: 'OPPOSE', abstain: 'ABSTAIN',
+};
+const ENUM_TO_VOTE: Record<string, ConsensusVote['vote']> = {
+  SUPPORT: 'support', OPPOSE: 'oppose', ABSTAIN: 'abstain',
+};
+
+// =============================================================================
+// CENDIA ORACLE SERVICE â€” Prisma-backed with Map fallback for tests
 // =============================================================================
 
 export class CendiaOracleService {
-  private claims: Map<string, TruthClaim> = new Map();
-  private disputes: Map<string, Dispute> = new Map();
-  private votes: Map<string, ConsensusVote[]> = new Map();
-  private sourceReliability: Map<string, SourceReliability> = new Map();
+  // In-memory fallback (used when no Prisma client is provided, e.g. tests)
+  private _claims: Map<string, TruthClaim> = new Map();
+  private _disputes: Map<string, Dispute> = new Map();
+  private _votes: Map<string, ConsensusVote[]> = new Map();
+  private _sourceReliability: Map<string, SourceReliability> = new Map();
 
-  constructor() {
-    console.log('[CendiaOracle] Truth Arbiter service initialized');
+  private db: PrismaClient | null;
+
+  constructor(prisma?: PrismaClient) {
+    this.db = prisma || null;
+    console.log(`[CendiaOracle] Truth Arbiter service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
   }
 
   // ===========================================================================
@@ -104,40 +135,72 @@ export class CendiaOracleService {
   // ===========================================================================
 
   async submitClaim(data: Omit<TruthClaim, 'id' | 'evidence' | 'verification' | 'status' | 'createdAt' | 'resolvedAt'>): Promise<TruthClaim> {
+    const id = crypto.randomUUID();
+    const now = new Date();
+
+    if (this.db) {
+      const row = await this.db.truth_claims.create({
+        data: {
+          id,
+          organization_id: data.organizationId,
+          category: CATEGORY_TO_ENUM[data.category] as any,
+          subject: data.subject,
+          claim: data.claim,
+          claimant: data.claimant,
+          metadata: (data.metadata ?? {}) as any,
+        },
+        include: { evidence: true, votes: true },
+      });
+      return this.rowToClaim(row);
+    }
+
+    // Fallback: in-memory
     const claim: TruthClaim = {
       ...data,
       id: `claim-${Date.now()}-${crypto.randomUUID().slice(0, 8)}`,
       evidence: [],
       verification: null,
       status: 'pending',
-      createdAt: new Date(),
+      createdAt: now,
       resolvedAt: null,
     };
-    
-    this.claims.set(claim.id, claim);
-    this.votes.set(claim.id, []);
-    
+    this._claims.set(claim.id, claim);
+    this._votes.set(claim.id, []);
     return claim;
   }
 
   async getClaim(claimId: string): Promise<TruthClaim | null> {
-    return this.claims.get(claimId) || null;
+    if (this.db) {
+      const row = await this.db.truth_claims.findUnique({
+        where: { id: claimId },
+        include: { evidence: true, votes: true },
+      });
+      return row ? this.rowToClaim(row) : null;
+    }
+    return this._claims.get(claimId) || null;
   }
 
   async getClaimsForOrg(organizationId: string, filters?: {
     status?: string;
     category?: string;
   }): Promise<TruthClaim[]> {
-    let claims = Array.from(this.claims.values())
+    if (this.db) {
+      const where: any = { organization_id: organizationId };
+      if (filters?.status) where.status = STATUS_TO_ENUM[filters.status];
+      if (filters?.category) where.category = CATEGORY_TO_ENUM[filters.category];
+
+      const rows = await this.db.truth_claims.findMany({
+        where,
+        include: { evidence: true, votes: true },
+        orderBy: { created_at: 'desc' },
+      });
+      return rows.map((r: any) => this.rowToClaim(r));
+    }
+
+    let claims = Array.from(this._claims.values())
       .filter(c => c.organizationId === organizationId);
-    
-    if (filters?.status) {
-      claims = claims.filter(c => c.status === filters.status);
-    }
-    if (filters?.category) {
-      claims = claims.filter(c => c.category === filters.category);
-    }
-    
+    if (filters?.status) claims = claims.filter(c => c.status === filters.status);
+    if (filters?.category) claims = claims.filter(c => c.category === filters.category);
     return claims.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
   }
 
@@ -146,30 +209,48 @@ export class CendiaOracleService {
   // ===========================================================================
 
   async submitEvidence(claimId: string, evidence: Omit<Evidence, 'id' | 'claimId' | 'submittedAt'>): Promise<Evidence | null> {
-    const claim = this.claims.get(claimId);
+    const claim = await this.getClaim(claimId);
     if (!claim) return null;
-    
+
+    const sourceRel = await this.getSourceReliability(evidence.source);
+    const reliability = sourceRel ? sourceRel.reliabilityScore : evidence.reliability;
+
+    if (this.db) {
+      const row = await this.db.claim_evidence.create({
+        data: {
+          claim_id: claimId,
+          evidence_type: EVIDENCE_TYPE_TO_ENUM[evidence.type] as any,
+          source: evidence.source,
+          content: evidence.content as any,
+          reliability,
+          submitted_by: evidence.submittedBy,
+        },
+      });
+      return this.rowToEvidence(row);
+    }
+
+    // Fallback: in-memory
     const newEvidence: Evidence = {
       ...evidence,
       id: `evidence-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       claimId,
+      reliability,
       submittedAt: new Date(),
     };
-    
-    // Update source reliability based on past performance
-    const sourceReliability = await this.getSourceReliability(evidence.source);
-    if (sourceReliability) {
-      newEvidence.reliability = sourceReliability.reliabilityScore;
-    }
-    
     claim.evidence.push(newEvidence);
-    this.claims.set(claimId, claim);
-    
+    this._claims.set(claimId, claim);
     return newEvidence;
   }
 
   async getEvidenceForClaim(claimId: string): Promise<Evidence[]> {
-    const claim = this.claims.get(claimId);
+    if (this.db) {
+      const rows = await this.db.claim_evidence.findMany({
+        where: { claim_id: claimId },
+        orderBy: { created_at: 'desc' },
+      });
+      return rows.map((r: any) => this.rowToEvidence(r));
+    }
+    const claim = this._claims.get(claimId);
     return claim?.evidence || [];
   }
 
@@ -178,18 +259,14 @@ export class CendiaOracleService {
   // ===========================================================================
 
   async verifyClaim(claimId: string, verifiedBy: string): Promise<VerificationResult | null> {
-    const claim = this.claims.get(claimId);
+    const claim = await this.getClaim(claimId);
     if (!claim) return null;
-    
-    // Analyze evidence
+
     const supportingEvidence: string[] = [];
     const contradictingEvidence: string[] = [];
-    let totalReliability = 0;
     let supportScore = 0;
-    
+
     for (const ev of claim.evidence) {
-      totalReliability += ev.reliability;
-      // Simple heuristic: high reliability evidence supports, low contradicts
       if (ev.reliability >= 70) {
         supportingEvidence.push(ev.id);
         supportScore += ev.reliability;
@@ -198,18 +275,14 @@ export class CendiaOracleService {
         supportScore -= (100 - ev.reliability);
       }
     }
-    
-    // Consider consensus votes
-    const votes = this.votes.get(claimId) || [];
-    const supportVotes = votes.filter(v => v.vote === 'support').length;
-    const opposeVotes = votes.filter(v => v.vote === 'oppose').length;
-    supportScore += (supportVotes - opposeVotes) * 10;
-    
-    // Determine verdict
+
+    const { summary } = await this.getVotesForClaim(claimId);
+    supportScore += (summary.support - summary.oppose) * 10;
+
     let verdict: VerificationResult['verdict'];
     let confidence: number;
     const reasoning: string[] = [];
-    
+
     if (claim.evidence.length === 0) {
       verdict = 'inconclusive';
       confidence = 0;
@@ -231,27 +304,34 @@ export class CendiaOracleService {
       confidence = 40;
       reasoning.push('Evidence is inconclusive or conflicting');
     }
-    
+
     const verification: VerificationResult = {
-      verdict,
-      confidence,
-      reasoning,
-      supportingEvidence,
-      contradictingEvidence,
-      verifiedAt: new Date(),
-      verifiedBy,
+      verdict, confidence, reasoning,
+      supportingEvidence, contradictingEvidence,
+      verifiedAt: new Date(), verifiedBy,
     };
-    
-    claim.verification = verification;
-    claim.status = verdict === 'true' ? 'verified' : 
-                   verdict === 'false' ? 'false' :
-                   verdict === 'partially_true' ? 'verified' : 'inconclusive';
-    claim.resolvedAt = new Date();
-    this.claims.set(claimId, claim);
-    
-    // Update source reliability
-    await this.updateSourceReliabilities(claim);
-    
+
+    const newStatus = verdict === 'true' ? 'verified' :
+                      verdict === 'false' ? 'false' :
+                      verdict === 'partially_true' ? 'verified' : 'inconclusive';
+
+    if (this.db) {
+      await this.db.truth_claims.update({
+        where: { id: claimId },
+        data: {
+          verification: verification as any,
+          status: STATUS_TO_ENUM[newStatus] as any,
+          resolved_at: new Date(),
+        },
+      });
+    } else {
+      claim.verification = verification;
+      claim.status = newStatus;
+      claim.resolvedAt = new Date();
+      this._claims.set(claimId, claim);
+    }
+
+    await this.updateSourceReliabilities(claim, verification);
     return verification;
   }
 
@@ -260,6 +340,24 @@ export class CendiaOracleService {
   // ===========================================================================
 
   async fileDispute(data: Omit<Dispute, 'id' | 'counterEvidence' | 'status' | 'resolution' | 'createdAt' | 'resolvedAt'>): Promise<Dispute> {
+    if (this.db) {
+      const row = await this.db.claim_disputes.create({
+        data: {
+          claim_id: data.claimId,
+          organization_id: data.organizationId,
+          disputant: data.disputant,
+          reason: data.counterClaim,
+        },
+      });
+      // Mark claim as disputed
+      await this.db.truth_claims.update({
+        where: { id: data.claimId },
+        data: { status: 'DISPUTED' as any },
+      });
+      return this.rowToDispute(row);
+    }
+
+    // Fallback: in-memory
     const dispute: Dispute = {
       ...data,
       id: `dispute-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
@@ -269,32 +367,41 @@ export class CendiaOracleService {
       createdAt: new Date(),
       resolvedAt: null,
     };
-    
-    // Mark the claim as disputed
-    const claim = this.claims.get(data.claimId);
+    const claim = this._claims.get(data.claimId);
     if (claim) {
       claim.status = 'disputed';
-      this.claims.set(claim.id, claim);
+      this._claims.set(claim.id, claim);
     }
-    
-    this.disputes.set(dispute.id, dispute);
+    this._disputes.set(dispute.id, dispute);
     return dispute;
   }
 
   async resolveDispute(disputeId: string, resolution: string): Promise<Dispute | null> {
-    const dispute = this.disputes.get(disputeId);
+    if (this.db) {
+      const row = await this.db.claim_disputes.update({
+        where: { id: disputeId },
+        data: { status: 'RESOLVED' as any, resolution, resolved_at: new Date() },
+      });
+      return this.rowToDispute(row);
+    }
+    const dispute = this._disputes.get(disputeId);
     if (!dispute) return null;
-    
     dispute.status = 'resolved';
     dispute.resolution = resolution;
     dispute.resolvedAt = new Date();
-    this.disputes.set(disputeId, dispute);
-    
+    this._disputes.set(disputeId, dispute);
     return dispute;
   }
 
   async getDisputesForOrg(organizationId: string): Promise<Dispute[]> {
-    return Array.from(this.disputes.values())
+    if (this.db) {
+      const rows = await this.db.claim_disputes.findMany({
+        where: { organization_id: organizationId },
+        orderBy: { created_at: 'desc' },
+      });
+      return rows.map((r: any) => this.rowToDispute(r));
+    }
+    return Array.from(this._disputes.values())
       .filter(d => d.organizationId === organizationId)
       .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
   }
@@ -304,31 +411,40 @@ export class CendiaOracleService {
   // ===========================================================================
 
   async castVote(claimId: string, vote: Omit<ConsensusVote, 'claimId' | 'votedAt'>): Promise<ConsensusVote | null> {
-    const claim = this.claims.get(claimId);
+    const claim = await this.getClaim(claimId);
     if (!claim || claim.status !== 'pending') return null;
-    
-    const votes = this.votes.get(claimId) || [];
-    
-    // Check if already voted
+
+    if (this.db) {
+      const row = await this.db.claim_votes.upsert({
+        where: { claim_id_voter_id: { claim_id: claimId, voter_id: vote.voterId } },
+        update: {
+          vote: VOTE_TO_ENUM[vote.vote] as any,
+          rationale: vote.rationale,
+        },
+        create: {
+          claim_id: claimId,
+          voter_id: vote.voterId,
+          voter_role: vote.voterRole,
+          vote: VOTE_TO_ENUM[vote.vote] as any,
+          rationale: vote.rationale,
+        },
+      });
+      return this.rowToVote(row);
+    }
+
+    // Fallback: in-memory
+    const votes = this._votes.get(claimId) || [];
     const existingVote = votes.find(v => v.voterId === vote.voterId);
     if (existingVote) {
-      // Update existing vote
       existingVote.vote = vote.vote;
       existingVote.rationale = vote.rationale;
       existingVote.votedAt = new Date();
-      this.votes.set(claimId, votes);
+      this._votes.set(claimId, votes);
       return existingVote;
     }
-    
-    const newVote: ConsensusVote = {
-      ...vote,
-      claimId,
-      votedAt: new Date(),
-    };
-    
+    const newVote: ConsensusVote = { ...vote, claimId, votedAt: new Date() };
     votes.push(newVote);
-    this.votes.set(claimId, votes);
-    
+    this._votes.set(claimId, votes);
     return newVote;
   }
 
@@ -336,8 +452,15 @@ export class CendiaOracleService {
     votes: ConsensusVote[];
     summary: { support: number; oppose: number; abstain: number };
   }> {
-    const votes = this.votes.get(claimId) || [];
-    
+    let votes: ConsensusVote[];
+
+    if (this.db) {
+      const rows = await this.db.claim_votes.findMany({ where: { claim_id: claimId } });
+      votes = rows.map((r: any) => this.rowToVote(r));
+    } else {
+      votes = this._votes.get(claimId) || [];
+    }
+
     return {
       votes,
       summary: {
@@ -353,47 +476,62 @@ export class CendiaOracleService {
   // ===========================================================================
 
   async getSourceReliability(sourceId: string): Promise<SourceReliability | null> {
-    return this.sourceReliability.get(sourceId) || null;
+    if (this.db) {
+      const rows = await this.db.source_reliability.findMany({
+        where: { source_name: sourceId },
+        take: 1,
+      });
+      return rows.length > 0 ? this.rowToSourceReliability(rows[0]) : null;
+    }
+    return this._sourceReliability.get(sourceId) || null;
   }
 
   async getAllSourceReliabilities(organizationId: string): Promise<SourceReliability[]> {
-    return Array.from(this.sourceReliability.values())
+    if (this.db) {
+      const rows = await this.db.source_reliability.findMany({
+        where: { organization_id: organizationId },
+        orderBy: { reliability_score: 'desc' },
+      });
+      return rows.map((r: any) => this.rowToSourceReliability(r));
+    }
+    return Array.from(this._sourceReliability.values())
       .sort((a, b) => b.reliabilityScore - a.reliabilityScore);
   }
 
-  private async updateSourceReliabilities(claim: TruthClaim): Promise<void> {
+  private async updateSourceReliabilities(claim: TruthClaim, verification?: VerificationResult): Promise<void> {
+    const v = verification || claim.verification;
     for (const evidence of claim.evidence) {
-      let reliability = this.sourceReliability.get(evidence.source);
-      
-      if (!reliability) {
-        reliability = {
-          sourceId: evidence.source,
-          sourceName: evidence.source,
-          sourceType: evidence.type,
-          reliabilityScore: 50,
-          totalClaims: 0,
-          verifiedTrue: 0,
-          verifiedFalse: 0,
-          lastUpdated: new Date(),
-        };
+      if (this.db) {
+        const existing = await this.db.source_reliability.findUnique({
+          where: { organization_id_source_name: { organization_id: claim.organizationId, source_name: evidence.source } },
+        });
+        const totalClaims = (existing?.total_claims ?? 0) + 1;
+        const accurateClaims = (existing?.accurate_claims ?? 0) +
+          ((v?.verdict === 'true' || v?.verdict === 'partially_true') ? 1 : 0);
+        const score = totalClaims > 0 ? Math.round((accurateClaims / totalClaims) * 100) : 50;
+
+        await this.db.source_reliability.upsert({
+          where: { organization_id_source_name: { organization_id: claim.organizationId, source_name: evidence.source } },
+          update: { total_claims: totalClaims, accurate_claims: accurateClaims, reliability_score: score, last_evaluated: new Date() },
+          create: { organization_id: claim.organizationId, source_name: evidence.source, total_claims: totalClaims, accurate_claims: accurateClaims, reliability_score: score },
+        });
+      } else {
+        let reliability = this._sourceReliability.get(evidence.source);
+        if (!reliability) {
+          reliability = {
+            sourceId: evidence.source, sourceName: evidence.source, sourceType: evidence.type,
+            reliabilityScore: 50, totalClaims: 0, verifiedTrue: 0, verifiedFalse: 0, lastUpdated: new Date(),
+          };
+        }
+        reliability.totalClaims++;
+        if (v?.verdict === 'true' || v?.verdict === 'partially_true') reliability.verifiedTrue++;
+        else if (v?.verdict === 'false') reliability.verifiedFalse++;
+        if (reliability.totalClaims > 0) {
+          reliability.reliabilityScore = Math.round((reliability.verifiedTrue / reliability.totalClaims) * 100);
+        }
+        reliability.lastUpdated = new Date();
+        this._sourceReliability.set(evidence.source, reliability);
       }
-      
-      reliability.totalClaims++;
-      if (claim.verification?.verdict === 'true' || claim.verification?.verdict === 'partially_true') {
-        reliability.verifiedTrue++;
-      } else if (claim.verification?.verdict === 'false') {
-        reliability.verifiedFalse++;
-      }
-      
-      // Recalculate reliability score
-      if (reliability.totalClaims > 0) {
-        reliability.reliabilityScore = Math.round(
-          (reliability.verifiedTrue / reliability.totalClaims) * 100
-        );
-      }
-      reliability.lastUpdated = new Date();
-      
-      this.sourceReliability.set(evidence.source, reliability);
     }
   }
 
@@ -412,22 +550,21 @@ export class CendiaOracleService {
     claimsByCategory: Record<string, number>;
   }> {
     const claims = await this.getClaimsForOrg(organizationId);
-    const disputes = await this.getDisputesForOrg(organizationId);
     const sources = await this.getAllSourceReliabilities(organizationId);
-    
+
     const verifiedClaims = claims.filter(c => c.status === 'verified');
     const avgConfidence = verifiedClaims.length > 0
       ? verifiedClaims.reduce((sum, c) => sum + (c.verification?.confidence || 0), 0) / verifiedClaims.length
       : 0;
-    
+
     const claimsByCategory: Record<string, number> = {};
     for (const c of claims) {
       claimsByCategory[c.category] = (claimsByCategory[c.category] || 0) + 1;
     }
-    
+
     return {
       totalClaims: claims.length,
-      verified: claims.filter(c => c.status === 'verified').length,
+      verified: verifiedClaims.length,
       disputed: claims.filter(c => c.status === 'disputed').length,
       pending: claims.filter(c => c.status === 'pending').length,
       avgConfidence,
@@ -437,7 +574,78 @@ export class CendiaOracleService {
     };
   }
 
-  // No seed method - Enterprise Platinum standard
+  // ===========================================================================
+  // ROW MAPPERS (Prisma row â†” service interface)
+  // ===========================================================================
+
+  private rowToClaim(row: any): TruthClaim {
+    return {
+      id: row.id,
+      organizationId: row.organization_id,
+      category: ENUM_TO_CATEGORY[row.category] || 'data',
+      subject: row.subject,
+      claim: row.claim,
+      claimant: row.claimant,
+      evidence: (row.evidence || []).map((e: any) => this.rowToEvidence(e)),
+      verification: row.verification as VerificationResult | null,
+      status: ENUM_TO_STATUS[row.status] || 'pending',
+      createdAt: row.created_at,
+      resolvedAt: row.resolved_at,
+      metadata: (row.metadata as Record<string, unknown>) ?? {},
+    };
+  }
+
+  private rowToEvidence(row: any): Evidence {
+    return {
+      id: row.id,
+      claimId: row.claim_id,
+      type: ENUM_TO_EVIDENCE_TYPE[row.evidence_type] || 'data_source',
+      source: row.source,
+      content: (row.content as Record<string, unknown>) ?? {},
+      reliability: row.reliability,
+      submittedBy: row.submitted_by,
+      submittedAt: row.created_at,
+    };
+  }
+
+  private rowToVote(row: any): ConsensusVote {
+    return {
+      claimId: row.claim_id,
+      voterId: row.voter_id,
+      voterRole: row.voter_role,
+      vote: ENUM_TO_VOTE[row.vote] || 'abstain',
+      rationale: row.rationale || '',
+      votedAt: row.created_at,
+    };
+  }
+
+  private rowToDispute(row: any): Dispute {
+    return {
+      id: row.id,
+      organizationId: row.organization_id,
+      claimId: row.claim_id,
+      disputant: row.disputant,
+      counterClaim: row.reason || '',
+      counterEvidence: [],
+      status: row.status === 'OPEN' ? 'open' : row.status === 'UNDER_REVIEW' ? 'under_review' : 'resolved',
+      resolution: row.resolution,
+      createdAt: row.created_at,
+      resolvedAt: row.resolved_at,
+    };
+  }
+
+  private rowToSourceReliability(row: any): SourceReliability {
+    return {
+      sourceId: row.source_name,
+      sourceName: row.source_name,
+      sourceType: 'data_source',
+      reliabilityScore: row.reliability_score,
+      totalClaims: row.total_claims,
+      verifiedTrue: row.accurate_claims,
+      verifiedFalse: row.total_claims - row.accurate_claims,
+      lastUpdated: row.last_evaluated,
+    };
+  }
 }
 
 export const cendiaOracleService = new CendiaOracleService();

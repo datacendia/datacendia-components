@@ -302,6 +302,43 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
     setReceipt(null);
   };
 
+  const handleDownloadPdf = async () => {
+    if (!receipt) return;
+    try {
+      const token = localStorage.getItem('dc_access_token');
+      const baseUrl = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
+      const response = await fetch(`${baseUrl}/regulators-receipt/export/pdf`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify({ receipt }),
+      });
+
+      if (!response.ok) {
+        console.error('PDF generation failed:', response.statusText);
+        return;
+      }
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `regulators-receipt-${receipt.receiptId}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error('Failed to download PDF:', error);
+    }
+  };
+
+  const handlePrint = () => {
+    window.print();
+  };
+
   // Deliberation Selection View
   if (!selectedDeliberation) {
     return (
@@ -416,15 +453,17 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
             </div>
             
             <div className="flex items-center gap-2">
-              <button className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors">
-                <Eye className="w-4 h-4" />
-                Preview
-              </button>
-              <button className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors">
+              <button
+                onClick={handlePrint}
+                className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+              >
                 <Printer className="w-4 h-4" />
                 Print
               </button>
-              <button className="flex items-center gap-2 px-4 py-2 bg-white text-emerald-600 hover:bg-emerald-50 rounded-lg transition-colors font-medium">
+              <button
+                onClick={handleDownloadPdf}
+                className="flex items-center gap-2 px-4 py-2 bg-white text-emerald-600 hover:bg-emerald-50 rounded-lg transition-colors font-medium"
+              >
                 <Download className="w-4 h-4" />
                 Download PDF
               </button>

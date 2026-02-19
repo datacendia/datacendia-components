@@ -10,8 +10,6 @@
 
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -81,12 +79,15 @@ export interface PropagationAnalysis {
 // =============================================================================
 
 export class CendiaMirrorService {
-  private twins: Map<string, DigitalTwinState> = new Map();
-  private snapshots: Map<string, StateSnapshot[]> = new Map();
-  private scenarios: Map<string, SimulationScenario> = new Map();
+  private _twins: Map<string, DigitalTwinState> = new Map();
+  private _snapshots: Map<string, StateSnapshot[]> = new Map();
+  private _scenarios: Map<string, SimulationScenario> = new Map();
 
-  constructor() {
-    console.log('[CendiaMirror] Digital Twin service initialized');
+  private db: PrismaClient | null;
+
+  constructor(prisma?: PrismaClient) {
+    this.db = prisma || null;
+    console.log(`[CendiaMirror] Digital Twin service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
   }
 
   // ===========================================================================
@@ -99,7 +100,7 @@ export class CendiaMirrorService {
       id: `twin-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
       lastSync: new Date(),
     };
-    this.twins.set(twin.id, twin);
+    this._twins.set(twin.id, twin);
     
     // Create initial snapshot
     await this.captureSnapshot(twin.id, 'manual');
@@ -108,16 +109,16 @@ export class CendiaMirrorService {
   }
 
   async getTwin(twinId: string): Promise<DigitalTwinState | null> {
-    return this.twins.get(twinId) || null;
+    return this._twins.get(twinId) || null;
   }
 
   async getTwinsForOrg(organizationId: string): Promise<DigitalTwinState[]> {
-    return Array.from(this.twins.values())
+    return Array.from(this._twins.values())
       .filter(t => t.organizationId === organizationId);
   }
 
   async syncTwin(twinId: string, newState: Record<string, unknown>): Promise<DigitalTwinState | null> {
-    const twin = this.twins.get(twinId);
+    const twin = this._twins.get(twinId);
     if (!twin) return null;
 
     const previousState = twin.currentState;
@@ -127,7 +128,7 @@ export class CendiaMirrorService {
     // Calculate health score based on state changes
     twin.healthScore = this.calculateHealthScore(previousState, newState);
     
-    this.twins.set(twinId, twin);
+    this._twins.set(twinId, twin);
     
     // Auto-capture snapshot if significant changes
     const changeCount = this.countChanges(previousState, newState);
@@ -139,7 +140,7 @@ export class CendiaMirrorService {
   }
 
   async deleteTwin(twinId: string): Promise<boolean> {
-    return this.twins.delete(twinId);
+    return this._twins.delete(twinId);
   }
 
   // ===========================================================================
@@ -147,10 +148,10 @@ export class CendiaMirrorService {
   // ===========================================================================
 
   async captureSnapshot(twinId: string, trigger: 'scheduled' | 'manual' | 'event'): Promise<StateSnapshot | null> {
-    const twin = this.twins.get(twinId);
+    const twin = this._twins.get(twinId);
     if (!twin) return null;
 
-    const existingSnapshots = this.snapshots.get(twinId) || [];
+    const existingSnapshots = this._snapshots.get(twinId) || [];
     const lastSnapshot = existingSnapshots[existingSnapshots.length - 1];
     
     const snapshot: StateSnapshot = {
@@ -169,18 +170,18 @@ export class CendiaMirrorService {
     if (existingSnapshots.length > 100) {
       existingSnapshots.shift();
     }
-    this.snapshots.set(twinId, existingSnapshots);
+    this._snapshots.set(twinId, existingSnapshots);
     
     return snapshot;
   }
 
   async getSnapshots(twinId: string, limit: number = 50): Promise<StateSnapshot[]> {
-    const snapshots = this.snapshots.get(twinId) || [];
+    const snapshots = this._snapshots.get(twinId) || [];
     return snapshots.slice(-limit).reverse();
   }
 
   async getSnapshotAtTime(twinId: string, timestamp: Date): Promise<StateSnapshot | null> {
-    const snapshots = this.snapshots.get(twinId) || [];
+    const snapshots = this._snapshots.get(twinId) || [];
     // Find closest snapshot before or at timestamp
     const targetTime = timestamp.getTime();
     let closest: StateSnapshot | null = null;
@@ -212,7 +213,7 @@ export class CendiaMirrorService {
     baselineTwinId: string;
     modifications: Record<string, unknown>[];
   }): Promise<SimulationScenario | null> {
-    const twin = this.twins.get(data.baselineTwinId);
+    const twin = this._twins.get(data.baselineTwinId);
     if (!twin) return null;
 
     // Capture baseline snapshot
@@ -232,16 +233,16 @@ export class CendiaMirrorService {
       completedAt: null,
     };
 
-    this.scenarios.set(scenario.id, scenario);
+    this._scenarios.set(scenario.id, scenario);
     return scenario;
   }
 
   async runSimulation(scenarioId: string): Promise<SimulationResult | null> {
-    const scenario = this.scenarios.get(scenarioId);
+    const scenario = this._scenarios.get(scenarioId);
     if (!scenario || scenario.status === 'running') return null;
 
     scenario.status = 'running';
-    this.scenarios.set(scenarioId, scenario);
+    this._scenarios.set(scenarioId, scenario);
 
     try {
       // Apply changes and calculate impacts
@@ -250,12 +251,12 @@ export class CendiaMirrorService {
       scenario.results = result;
       scenario.status = 'completed';
       scenario.completedAt = new Date();
-      this.scenarios.set(scenarioId, scenario);
+      this._scenarios.set(scenarioId, scenario);
       
       return result;
     } catch (error) {
       scenario.status = 'failed';
-      this.scenarios.set(scenarioId, scenario);
+      this._scenarios.set(scenarioId, scenario);
       throw error;
     }
   }
@@ -273,7 +274,7 @@ export class CendiaMirrorService {
       }
       
       // Propagate cascade to dependencies
-      const twin = Array.from(this.twins.values()).find(t => t.entityId === entityId);
+      const twin = Array.from(this._twins.values()).find(t => t.entityId === entityId);
       if (twin) {
         for (const dep of twin.dependencies) {
           if (!affectedEntities.includes(dep)) {
@@ -281,7 +282,7 @@ export class CendiaMirrorService {
             cascadeEffects.push({
               entity: dep,
               effect: `Cascaded from ${entityId} modification`,
-              magnitude: 0.5,
+              magnitude: Math.max(0.1, 0.8 - affectedEntities.length * 0.1),
             });
           }
         }
@@ -334,7 +335,7 @@ export class CendiaMirrorService {
   }
 
   async getScenarios(organizationId: string): Promise<SimulationScenario[]> {
-    return Array.from(this.scenarios.values())
+    return Array.from(this._scenarios.values())
       .filter(s => s.organizationId === organizationId)
       .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
   }
@@ -347,7 +348,7 @@ export class CendiaMirrorService {
     twinId: string,
     proposedChange: Record<string, unknown>
   ): Promise<PropagationAnalysis | null> {
-    const twin = this.twins.get(twinId);
+    const twin = this._twins.get(twinId);
     if (!twin) return null;
 
     const propagationPath: PropagationAnalysis['propagationPath'] = [];
@@ -366,13 +367,13 @@ export class CendiaMirrorService {
       if (entityId !== twin.entityId) {
         propagationPath.push({
           entity: entityId,
-          delay: depth * 100 + 25, // ms
+          delay: depth * 100 + Math.random() * 50, // ms estimated propagation delay
           impact: Math.max(0.1, 1 - depth * 0.2),
         });
       }
       
       // Find dependent twins
-      const dependentTwins = Array.from(this.twins.values())
+      const dependentTwins = Array.from(this._twins.values())
         .filter(t => t.dependencies.includes(entityId));
       
       for (const depTwin of dependentTwins) {
@@ -416,7 +417,7 @@ export class CendiaMirrorService {
     
     let recentSnapshots = 0;
     for (const twin of orgTwins) {
-      const snaps = this.snapshots.get(twin.id) || [];
+      const snaps = this._snapshots.get(twin.id) || [];
       recentSnapshots += snaps.filter(s => s.timestamp > oneHourAgo).length;
     }
 

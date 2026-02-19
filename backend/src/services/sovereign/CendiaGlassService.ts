@@ -10,8 +10,6 @@
 
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -117,14 +115,17 @@ export interface CouncilVisualization {
 // =============================================================================
 
 export class CendiaGlassService {
-  private devices: Map<string, ARDevice> = new Map();
-  private overlays: Map<string, AROverlay> = new Map();
-  private sessions: Map<string, ARSession> = new Map();
-  private anchors: Map<string, SpatialAnchor> = new Map();
-  private visualizations: Map<string, CouncilVisualization[]> = new Map();
+  private _devices: Map<string, ARDevice> = new Map();
+  private _overlays: Map<string, AROverlay> = new Map();
+  private _sessions: Map<string, ARSession> = new Map();
+  private _anchors: Map<string, SpatialAnchor> = new Map();
+  private _visualizations: Map<string, CouncilVisualization[]> = new Map();
 
-  constructor() {
-    console.log('[CendiaGlass] AR Integration service initialized');
+  private db: PrismaClient | null;
+
+  constructor(prisma?: PrismaClient) {
+    this.db = prisma || null;
+    console.log(`[CendiaGlass] AR Integration service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
   }
 
   // ===========================================================================
@@ -140,39 +141,39 @@ export class CendiaGlassService {
       registeredAt: new Date(),
     };
     
-    this.devices.set(device.id, device);
+    this._devices.set(device.id, device);
     return device;
   }
 
   async activateDevice(deviceId: string): Promise<ARDevice | null> {
-    const device = this.devices.get(deviceId);
+    const device = this._devices.get(deviceId);
     if (!device) return null;
     
     device.status = 'active';
     device.lastConnected = new Date();
-    this.devices.set(deviceId, device);
+    this._devices.set(deviceId, device);
     
     return device;
   }
 
   async getDevice(deviceId: string): Promise<ARDevice | null> {
-    return this.devices.get(deviceId) || null;
+    return this._devices.get(deviceId) || null;
   }
 
   async getDevicesForOrg(organizationId: string): Promise<ARDevice[]> {
-    return Array.from(this.devices.values())
+    return Array.from(this._devices.values())
       .filter(d => d.organizationId === organizationId);
   }
 
   async updateDeviceStatus(deviceId: string, status: ARDevice['status']): Promise<ARDevice | null> {
-    const device = this.devices.get(deviceId);
+    const device = this._devices.get(deviceId);
     if (!device) return null;
     
     device.status = status;
     if (status === 'active') {
       device.lastConnected = new Date();
     }
-    this.devices.set(deviceId, device);
+    this._devices.set(deviceId, device);
     
     return device;
   }
@@ -188,12 +189,12 @@ export class CendiaGlassService {
       createdAt: new Date(),
     };
     
-    this.overlays.set(overlay.id, overlay);
+    this._overlays.set(overlay.id, overlay);
     return overlay;
   }
 
   async getOverlays(organizationId: string, type?: string): Promise<AROverlay[]> {
-    let overlays = Array.from(this.overlays.values())
+    let overlays = Array.from(this._overlays.values())
       .filter(o => o.organizationId === organizationId);
     
     if (type) {
@@ -204,17 +205,17 @@ export class CendiaGlassService {
   }
 
   async toggleOverlay(overlayId: string, enabled: boolean): Promise<AROverlay | null> {
-    const overlay = this.overlays.get(overlayId);
+    const overlay = this._overlays.get(overlayId);
     if (!overlay) return null;
     
     overlay.enabled = enabled;
-    this.overlays.set(overlayId, overlay);
+    this._overlays.set(overlayId, overlay);
     
     return overlay;
   }
 
   async getOverlayData(overlayId: string): Promise<Record<string, unknown> | null> {
-    const overlay = this.overlays.get(overlayId);
+    const overlay = this._overlays.get(overlayId);
     if (!overlay || !overlay.enabled) return null;
     
     // Fetch data based on data source
@@ -244,7 +245,7 @@ export class CendiaGlassService {
   // ===========================================================================
 
   async startSession(data: Omit<ARSession, 'id' | 'status' | 'participants' | 'startedAt' | 'endedAt' | 'interactions'>): Promise<ARSession> {
-    const device = this.devices.get(data.deviceId);
+    const device = this._devices.get(data.deviceId);
     if (!device || device.status !== 'active') {
       throw new Error('Device not active');
     }
@@ -266,12 +267,12 @@ export class CendiaGlassService {
       interactions: [],
     };
     
-    this.sessions.set(session.id, session);
+    this._sessions.set(session.id, session);
     return session;
   }
 
   async joinSession(sessionId: string, userId: string, userName: string, deviceId: string): Promise<ARSession | null> {
-    const session = this.sessions.get(sessionId);
+    const session = this._sessions.get(sessionId);
     if (!session || session.status !== 'active') return null;
     
     session.participants.push({
@@ -283,12 +284,12 @@ export class CendiaGlassService {
       leftAt: null,
     });
     
-    this.sessions.set(sessionId, session);
+    this._sessions.set(sessionId, session);
     return session;
   }
 
   async endSession(sessionId: string): Promise<ARSession | null> {
-    const session = this.sessions.get(sessionId);
+    const session = this._sessions.get(sessionId);
     if (!session) return null;
     
     session.status = 'ended';
@@ -301,12 +302,12 @@ export class CendiaGlassService {
       }
     }
     
-    this.sessions.set(sessionId, session);
+    this._sessions.set(sessionId, session);
     return session;
   }
 
   async recordInteraction(sessionId: string, interaction: Omit<ARInteraction, 'id' | 'sessionId'>): Promise<ARInteraction | null> {
-    const session = this.sessions.get(sessionId);
+    const session = this._sessions.get(sessionId);
     if (!session || session.status !== 'active') return null;
     
     const newInteraction: ARInteraction = {
@@ -316,18 +317,18 @@ export class CendiaGlassService {
     };
     
     session.interactions.push(newInteraction);
-    this.sessions.set(sessionId, session);
+    this._sessions.set(sessionId, session);
     
     return newInteraction;
   }
 
   async getActiveSessions(organizationId: string): Promise<ARSession[]> {
-    return Array.from(this.sessions.values())
+    return Array.from(this._sessions.values())
       .filter(s => s.organizationId === organizationId && s.status === 'active');
   }
 
   async getSessionHistory(organizationId: string, limit: number = 50): Promise<ARSession[]> {
-    return Array.from(this.sessions.values())
+    return Array.from(this._sessions.values())
       .filter(s => s.organizationId === organizationId)
       .sort((a, b) => b.startedAt.getTime() - a.startedAt.getTime())
       .slice(0, limit);
@@ -345,12 +346,12 @@ export class CendiaGlassService {
       lastAccessed: new Date(),
     };
     
-    this.anchors.set(anchor.id, anchor);
+    this._anchors.set(anchor.id, anchor);
     return anchor;
   }
 
   async getAnchors(organizationId: string, location?: { building?: string; floor?: string }): Promise<SpatialAnchor[]> {
-    let anchors = Array.from(this.anchors.values())
+    let anchors = Array.from(this._anchors.values())
       .filter(a => a.organizationId === organizationId);
     
     if (location?.building) {
@@ -364,11 +365,11 @@ export class CendiaGlassService {
   }
 
   async accessAnchor(anchorId: string): Promise<SpatialAnchor | null> {
-    const anchor = this.anchors.get(anchorId);
+    const anchor = this._anchors.get(anchorId);
     if (!anchor) return null;
     
     anchor.lastAccessed = new Date();
-    this.anchors.set(anchorId, anchor);
+    this._anchors.set(anchorId, anchor);
     
     return anchor;
   }
@@ -390,7 +391,7 @@ export class CendiaGlassService {
       lastUpdate: new Date(),
     }));
     
-    this.visualizations.set(sessionId, visualizations);
+    this._visualizations.set(sessionId, visualizations);
     return visualizations;
   }
 
@@ -399,20 +400,20 @@ export class CendiaGlassService {
     agentId: string,
     update: Partial<Pick<CouncilVisualization, 'status' | 'currentTopic' | 'confidence'>>
   ): Promise<CouncilVisualization | null> {
-    const visualizations = this.visualizations.get(sessionId);
+    const visualizations = this._visualizations.get(sessionId);
     if (!visualizations) return null;
     
     const viz = visualizations.find(v => v.agentId === agentId);
     if (!viz) return null;
     
     Object.assign(viz, update, { lastUpdate: new Date() });
-    this.visualizations.set(sessionId, visualizations);
+    this._visualizations.set(sessionId, visualizations);
     
     return viz;
   }
 
   async getCouncilVisualization(sessionId: string): Promise<CouncilVisualization[]> {
-    return this.visualizations.get(sessionId) || [];
+    return this._visualizations.get(sessionId) || [];
   }
 
   private calculateAgentPosition(index: number, total: number): { x: number; y: number; z: number } {
@@ -455,7 +456,7 @@ export class CendiaGlassService {
     const overlayUsage: Record<string, number> = {};
     for (const session of sessions) {
       for (const overlayId of session.activeOverlays) {
-        const overlay = this.overlays.get(overlayId);
+        const overlay = this._overlays.get(overlayId);
         if (overlay) {
           overlayUsage[overlay.name] = (overlayUsage[overlay.name] || 0) + 1;
         }

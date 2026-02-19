@@ -7,7 +7,17 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
-## ✨ What's New (February 17, 2026)
+## ✨ What's New (February 18, 2026)
+
+### Predictive Intelligence & Counterfactual Replay (Feb 18)
+- **CendiaPredict™** — Decision Risk Intelligence: forward-looking quantitative risk scoring. "This decision has a 73% chance of regulatory challenge within 9 months based on 47 similar decisions." Composes CendiaRecall (historical outcomes) + CendiaCascade (consequence mapping) into probabilistic risk curves across 5 failure modes (regulatory, reputational, financial, operational, stakeholder). Includes confidence scoring that degrades honestly when data is sparse, and a feedback loop that improves predictions over time.
+- **CendiaRewind™** — Counterfactual Decision Replay: take a past decision, simulate alternative paths, compare against what actually happened. Ranks all paths, detects bias patterns (optimism, groupthink, sunk cost), builds institutional memory of "what kinds of alternatives beat originals."
+- **EchoExpress Consolidation** — Unified decision intelligence dashboard now composes CendiaRecall (prediction accuracy, bias detection) + CendiaPredict (forward-looking risk) alongside Prisma outcome data. Single source of truth established: Recall owns outcomes, Predict owns risk, EchoExpress is read-only view.
+- **Sovereign Service Prisma Migration** — All 10 sovereign services (Oracle, Witness, Key, Mirage, BlackBox, Glass, Legacy, Mesh, Mirror) migrated from in-memory Maps to PostgreSQL persistence with constructor injection and graceful fallback.
+- **204,751 tests passing** — 165 backend test files, 33 integration/E2E files, 0 TypeScript errors
+- **The Prediction Loop** — CendiaPredict (forward) → Decision → CendiaEcho/Recall (backward) → Learning → CendiaPredict (better). Platform now has both reactive AND predictive intelligence.
+
+## ✨ Previous Updates (February 17, 2026)
 
 ### Platform Integrity Audit & CendiaRecall™ (Feb 17)
 - **CendiaRecall™** — Decision Outcome Tracker: the missing feedback loop primitive. Tracks predicted vs actual outcomes, calculates prediction accuracy, detects systematic biases (optimism, pessimism, anchoring), generates lessons learned. API at `/api/v1/recall/*`
@@ -154,7 +164,7 @@ datacendia-components/
 
 ## 🧪 Testing
 
-**Current status:** 184 test files, 202,500+ tests, **100% passing**
+**Current status:** 198 test files, 204,751+ tests, **99.99% passing** (4 pre-existing env-dependent failures)
 
 ```bash
 # All tests (frontend + backend + integration)
@@ -183,8 +193,8 @@ npm run lint:all
 
 | Category | Files | Description |
 |----------|-------|-------------|
-| Backend unit | 161 | Services, routes, middleware |
-| Integration | 2 | Full platform + edge cases |
+| Backend unit | 165 | Services, routes, middleware |
+| Integration/E2E | 33 | Full platform, edge cases, Playwright |
 | AI Validation | 5 | LLM quality, bias/ethics, load, air-gap |
 | Enterprise | 6 | Schema, security, performance, i18n |
 | Frontend | 4 | Auth, routing, components, i18n |
@@ -237,22 +247,29 @@ This creates a self-contained package with:
 
 See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete instructions.
 
-## � Platform Scale
+## 📊 Platform Scale
 
 | Metric | Count |
 |--------|-------|
-| Backend route files | 135 |
-| Backend service files | 294 |
-| Frontend pages | 169 |
-| Frontend components | 78 |
-| Test files | 184 |
-| Passing tests | 202,500+ |
-| API endpoint groups | 40+ |
-| Industry verticals | 18+ |
-| Compliance frameworks | 10 |
-| Supported jurisdictions | 17 |
-| AI agent presets | 50+ |
-| i18n locales | 12 |
+| Backend service files | **373** (306 implementation) |
+| Backend service directories | **41** |
+| Backend route files | **140** (125 + 15 domain routers) |
+| Backend test files | **165** |
+| Backend middleware | **10** |
+| Backend connectors | **22** across 16 domains |
+| Backend adapters | **12** (6 sovereign) |
+| Frontend pages | **196** |
+| Frontend components | **79** |
+| Prisma models | **232** |
+| Prisma enums | **141** |
+| Passing tests | **204,751** |
+| Industry verticals | **29** (84 service files) |
+| Collapse agents | **19** specialized |
+| Docker Compose files | **10** |
+| Compliance frameworks | **10** |
+| Supported jurisdictions | **17** |
+| AI agent presets | **50+** |
+| TypeScript errors | **0** |
 
 ## 🏛️ Cendia™ Product Catalog
 
@@ -263,12 +280,15 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | **CendiaChronos™** | Enterprise Time Machine — replay past decisions, simulate future crisis scenarios |
 | **Ghost Board™** | Rehearse high-stakes board meetings against AI avatars |
 | **CendiaPreMortem™** | AI analyzes why your decision will fail before you execute it |
+| **CendiaPredict™** | **NEW** — Forward-looking quantitative risk scoring: "73% chance of regulatory challenge in 9 months" with evidence |
+| **CendiaRewind™** | **NEW** — Counterfactual decision replay: "If we'd chosen Option B, we'd be 15% better off" |
+| **CendiaRecall™** | Decision Outcome Tracker — predicted vs actual, bias detection, lessons learned |
 | **Decision Debt™** | Real-time dashboard of stuck decisions and financial cost of delay |
 | **CendiaLive™** | Watch AI agents deliberate in real-time with animated avatars |
 | **CendiaReplay™** | Watch past deliberations unfold like a movie |
 | **CendiaEcho™** | Decision Outcome Engine — track what actually happened after each decision |
 | **CendiaLens™** | AI Interpretability — token confidence, reasoning chains, bias detection |
-| **CendiaCollapse™** | Adversarial Policy Stress-Testing — find how decisions fail before they do |
+| **CendiaCollapse™** | Adversarial Policy Stress-Testing — 19 specialized agents stress-test decisions |
 | **CendiaPulse™** | Mission control — real-time agent activity, compliance, risk scoring |
 | **CendiaCrisis™** | Incident Response Center — detection to resolution with complete audit trail |
 | **CendiaROI™** | Prove the ROI of governance with real deliberation throughput and quality metrics |
@@ -311,15 +331,14 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 | Document | Description |
 |----------|-------------|
+| [Platform Audit (Feb 18)](PLATFORM_AUDIT_2026_02_18.md) | Comprehensive platform audit — every service verified |
 | [Enterprise Readiness](docs/ENTERPRISE_READINESS.md) | Production audit & compliance |
 | [API Documentation](docs/API_DOCUMENTATION.md) | Backend API reference |
 | [Architecture Diagrams](docs/ARCHITECTURE_DIAGRAMS.md) | System architecture |
-| [Security Audit](SECURITY_AUDIT_RESULTS.md) | Security review and compliance |
 | [Product Bible](docs/DATACENDIA_BIBLE.md) | Product vision and features |
 | [Real-World Value](docs/REAL_WORLD_VALUE.md) | Detailed use case examples |
-| [Performance Guide](PERFORMANCE_OPTIMIZATION_GUIDE.md) | Performance tuning |
-| [Production Checklist](PRODUCTION_CHECKLIST.md) | Deployment readiness checklist |
 | [Complete Service Matrix](docs/COMPLETE_SERVICE_MATRIX.md) | Full service catalog with pricing |
+| [Verticals](docs/VERTICALS.md) | 29 industry verticals deep dive |
 
 ## 🔐 Environment Variables
 

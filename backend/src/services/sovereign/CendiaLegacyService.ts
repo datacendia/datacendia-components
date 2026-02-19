@@ -10,8 +10,6 @@
 
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -109,14 +107,17 @@ export interface SearchResult {
 // =============================================================================
 
 export class CendiaLegacyService {
-  private articles: Map<string, KnowledgeArticle> = new Map();
-  private versions: Map<string, ArticleVersion[]> = new Map();
-  private memories: Map<string, InstitutionalMemory> = new Map();
-  private experts: Map<string, ExpertiseProfile> = new Map();
-  private transfers: Map<string, KnowledgeTransfer> = new Map();
+  private _articles: Map<string, KnowledgeArticle> = new Map();
+  private _versions: Map<string, ArticleVersion[]> = new Map();
+  private _memories: Map<string, InstitutionalMemory> = new Map();
+  private _experts: Map<string, ExpertiseProfile> = new Map();
+  private _transfers: Map<string, KnowledgeTransfer> = new Map();
 
-  constructor() {
-    console.log('[CendiaLegacy] Knowledge Archive service initialized');
+  private db: PrismaClient | null;
+
+  constructor(prisma?: PrismaClient) {
+    this.db = prisma || null;
+    console.log(`[CendiaLegacy] Knowledge Archive service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
   }
 
   // ===========================================================================
@@ -136,7 +137,7 @@ export class CendiaLegacyService {
       usefulness: 0,
     };
     
-    this.articles.set(article.id, article);
+    this._articles.set(article.id, article);
     
     // Save initial version
     await this.saveVersion(article.id, article.content, 'Initial creation', data.author);
@@ -145,10 +146,10 @@ export class CendiaLegacyService {
   }
 
   async getArticle(articleId: string): Promise<KnowledgeArticle | null> {
-    const article = this.articles.get(articleId);
+    const article = this._articles.get(articleId);
     if (article) {
       article.views++;
-      this.articles.set(articleId, article);
+      this._articles.set(articleId, article);
     }
     return article || null;
   }
@@ -158,7 +159,7 @@ export class CendiaLegacyService {
     status?: string;
     tags?: string[];
   }): Promise<KnowledgeArticle[]> {
-    let articles = Array.from(this.articles.values())
+    let articles = Array.from(this._articles.values())
       .filter(a => a.organizationId === organizationId);
     
     if (filters?.category) {
@@ -177,7 +178,7 @@ export class CendiaLegacyService {
   }
 
   async updateArticle(articleId: string, updates: Partial<KnowledgeArticle>, changedBy: string): Promise<KnowledgeArticle | null> {
-    const article = this.articles.get(articleId);
+    const article = this._articles.get(articleId);
     if (!article) return null;
     
     const oldContent = article.content;
@@ -192,7 +193,7 @@ export class CendiaLegacyService {
       article.archivedAt = new Date();
     }
     
-    this.articles.set(articleId, article);
+    this._articles.set(articleId, article);
     
     // Save version if content changed
     if (updates.content && updates.content !== oldContent) {
@@ -203,12 +204,12 @@ export class CendiaLegacyService {
   }
 
   async rateArticle(articleId: string, rating: number): Promise<KnowledgeArticle | null> {
-    const article = this.articles.get(articleId);
+    const article = this._articles.get(articleId);
     if (!article) return null;
     
     // Simple moving average
     article.usefulness = (article.usefulness * 0.8) + (rating * 0.2);
-    this.articles.set(articleId, article);
+    this._articles.set(articleId, article);
     
     return article;
   }
@@ -218,7 +219,7 @@ export class CendiaLegacyService {
   // ===========================================================================
 
   private async saveVersion(articleId: string, content: string, changes: string, changedBy: string): Promise<ArticleVersion> {
-    const versions = this.versions.get(articleId) || [];
+    const versions = this._versions.get(articleId) || [];
     
     const version: ArticleVersion = {
       id: `version-${Date.now()}-${crypto.randomUUID().slice(0, 6)}`,
@@ -231,17 +232,17 @@ export class CendiaLegacyService {
     };
     
     versions.push(version);
-    this.versions.set(articleId, versions);
+    this._versions.set(articleId, versions);
     
     return version;
   }
 
   async getVersionHistory(articleId: string): Promise<ArticleVersion[]> {
-    return this.versions.get(articleId) || [];
+    return this._versions.get(articleId) || [];
   }
 
   async getVersion(articleId: string, version: number): Promise<ArticleVersion | null> {
-    const versions = this.versions.get(articleId) || [];
+    const versions = this._versions.get(articleId) || [];
     return versions.find(v => v.version === version) || null;
   }
 
@@ -263,16 +264,16 @@ export class CendiaLegacyService {
       createdAt: new Date(),
     };
     
-    this.memories.set(memory.id, memory);
+    this._memories.set(memory.id, memory);
     return memory;
   }
 
   async getMemory(memoryId: string): Promise<InstitutionalMemory | null> {
-    return this.memories.get(memoryId) || null;
+    return this._memories.get(memoryId) || null;
   }
 
   async getMemoriesForOrg(organizationId: string, type?: string): Promise<InstitutionalMemory[]> {
-    let memories = Array.from(this.memories.values())
+    let memories = Array.from(this._memories.values())
       .filter(m => m.organizationId === organizationId);
     
     if (type) {
@@ -294,16 +295,16 @@ export class CendiaLegacyService {
       lastActive: new Date(),
     };
     
-    this.experts.set(profile.id, profile);
+    this._experts.set(profile.id, profile);
     return profile;
   }
 
   async getExpertProfile(profileId: string): Promise<ExpertiseProfile | null> {
-    return this.experts.get(profileId) || null;
+    return this._experts.get(profileId) || null;
   }
 
   async findExperts(organizationId: string, area?: string): Promise<ExpertiseProfile[]> {
-    let experts = Array.from(this.experts.values())
+    let experts = Array.from(this._experts.values())
       .filter(e => e.organizationId === organizationId);
     
     if (area) {
@@ -320,7 +321,7 @@ export class CendiaLegacyService {
   }
 
   async endorseExpertise(profileId: string, area: string): Promise<ExpertiseProfile | null> {
-    const profile = this.experts.get(profileId);
+    const profile = this._experts.get(profileId);
     if (!profile) return null;
     
     const expertise = profile.expertiseAreas.find(e => e.area === area);
@@ -328,7 +329,7 @@ export class CendiaLegacyService {
       expertise.endorsements++;
     }
     
-    this.experts.set(profileId, profile);
+    this._experts.set(profileId, profile);
     return profile;
   }
 
@@ -346,12 +347,12 @@ export class CendiaLegacyService {
       completedAt: null,
     };
     
-    this.transfers.set(transfer.id, transfer);
+    this._transfers.set(transfer.id, transfer);
     return transfer;
   }
 
   async updateTransferProgress(transferId: string, itemIndex: number): Promise<KnowledgeTransfer | null> {
-    const transfer = this.transfers.get(transferId);
+    const transfer = this._transfers.get(transferId);
     if (!transfer) return null;
     
     if (itemIndex >= 0 && itemIndex < transfer.checklist.length) {
@@ -370,12 +371,12 @@ export class CendiaLegacyService {
       transfer.status = 'in_progress';
     }
     
-    this.transfers.set(transferId, transfer);
+    this._transfers.set(transferId, transfer);
     return transfer;
   }
 
   async getTransfersForOrg(organizationId: string): Promise<KnowledgeTransfer[]> {
-    return Array.from(this.transfers.values())
+    return Array.from(this._transfers.values())
       .filter(t => t.organizationId === organizationId)
       .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
   }

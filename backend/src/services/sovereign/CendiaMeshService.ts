@@ -10,8 +10,6 @@
 
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
-
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -103,14 +101,17 @@ export interface NetworkPolicy {
 // =============================================================================
 
 export class CendiaMeshService {
-  private nodes: Map<string, MeshNode> = new Map();
-  private connections: Map<string, MeshConnection> = new Map();
-  private channels: Map<string, SecureChannel> = new Map();
-  private events: Map<string, NetworkEvent[]> = new Map();
-  private policies: Map<string, NetworkPolicy> = new Map();
+  private _nodes: Map<string, MeshNode> = new Map();
+  private _connections: Map<string, MeshConnection> = new Map();
+  private _channels: Map<string, SecureChannel> = new Map();
+  private _events: Map<string, NetworkEvent[]> = new Map();
+  private _policies: Map<string, NetworkPolicy> = new Map();
 
-  constructor() {
-    console.log('[CendiaMesh] Encrypted Networking service initialized');
+  private db: PrismaClient | null;
+
+  constructor(prisma?: PrismaClient) {
+    this.db = prisma || null;
+    console.log(`[CendiaMesh] Encrypted Networking service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
   }
 
   // ===========================================================================
@@ -127,20 +128,20 @@ export class CendiaMeshService {
       registeredAt: new Date(),
     };
     
-    this.nodes.set(node.id, node);
+    this._nodes.set(node.id, node);
     await this.recordEvent(node.organizationId, node.id, 'connection', 'info', `Node ${node.name} registered`);
     
     return node;
   }
 
   async updateNodeStatus(nodeId: string, status: MeshNode['status']): Promise<MeshNode | null> {
-    const node = this.nodes.get(nodeId);
+    const node = this._nodes.get(nodeId);
     if (!node) return null;
     
     const oldStatus = node.status;
     node.status = status;
     node.lastHeartbeat = new Date();
-    this.nodes.set(nodeId, node);
+    this._nodes.set(nodeId, node);
     
     if (status !== oldStatus) {
       const eventType = status === 'online' ? 'recovery' : 'degradation';
@@ -152,23 +153,23 @@ export class CendiaMeshService {
   }
 
   async getNode(nodeId: string): Promise<MeshNode | null> {
-    return this.nodes.get(nodeId) || null;
+    return this._nodes.get(nodeId) || null;
   }
 
   async getNodesForOrg(organizationId: string): Promise<MeshNode[]> {
-    return Array.from(this.nodes.values())
+    return Array.from(this._nodes.values())
       .filter(n => n.organizationId === organizationId);
   }
 
   async heartbeat(nodeId: string): Promise<MeshNode | null> {
-    const node = this.nodes.get(nodeId);
+    const node = this._nodes.get(nodeId);
     if (!node) return null;
     
     node.lastHeartbeat = new Date();
     if (node.status === 'degraded' || node.status === 'offline') {
       node.status = 'online';
     }
-    this.nodes.set(nodeId, node);
+    this._nodes.set(nodeId, node);
     
     return node;
   }
@@ -178,8 +179,8 @@ export class CendiaMeshService {
   // ===========================================================================
 
   async establishConnection(data: Omit<MeshConnection, 'id' | 'status' | 'establishedAt' | 'lastActivity'>): Promise<MeshConnection | null> {
-    const sourceNode = this.nodes.get(data.sourceNodeId);
-    const targetNode = this.nodes.get(data.targetNodeId);
+    const sourceNode = this._nodes.get(data.sourceNodeId);
+    const targetNode = this._nodes.get(data.targetNodeId);
     
     if (!sourceNode || !targetNode) return null;
     
@@ -191,23 +192,23 @@ export class CendiaMeshService {
       lastActivity: new Date(),
     };
     
-    this.connections.set(connection.id, connection);
+    this._connections.set(connection.id, connection);
     
     // Update node connections
     if (!sourceNode.connections.includes(targetNode.id)) {
       sourceNode.connections.push(targetNode.id);
-      this.nodes.set(sourceNode.id, sourceNode);
+      this._nodes.set(sourceNode.id, sourceNode);
     }
     if (!targetNode.connections.includes(sourceNode.id)) {
       targetNode.connections.push(sourceNode.id);
-      this.nodes.set(targetNode.id, targetNode);
+      this._nodes.set(targetNode.id, targetNode);
     }
     
     return connection;
   }
 
   async getConnections(organizationId: string): Promise<MeshConnection[]> {
-    return Array.from(this.connections.values())
+    return Array.from(this._connections.values())
       .filter(c => c.organizationId === organizationId);
   }
 
@@ -249,31 +250,31 @@ export class CendiaMeshService {
       messageCount: 0,
     };
     
-    this.channels.set(channel.id, channel);
+    this._channels.set(channel.id, channel);
     return channel;
   }
 
   async getActiveChannels(organizationId: string): Promise<SecureChannel[]> {
-    return Array.from(this.channels.values())
+    return Array.from(this._channels.values())
       .filter(c => c.organizationId === organizationId && c.status === 'active' && c.expiresAt > new Date());
   }
 
   async recordChannelMessage(channelId: string): Promise<SecureChannel | null> {
-    const channel = this.channels.get(channelId);
+    const channel = this._channels.get(channelId);
     if (!channel || channel.status !== 'active') return null;
     
     channel.messageCount++;
-    this.channels.set(channelId, channel);
+    this._channels.set(channelId, channel);
     
     return channel;
   }
 
   async revokeChannel(channelId: string): Promise<SecureChannel | null> {
-    const channel = this.channels.get(channelId);
+    const channel = this._channels.get(channelId);
     if (!channel) return null;
     
     channel.status = 'revoked';
-    this.channels.set(channelId, channel);
+    this._channels.set(channelId, channel);
     
     return channel;
   }
@@ -301,28 +302,28 @@ export class CendiaMeshService {
       resolvedAt: eventType === 'recovery' ? new Date() : null,
     };
     
-    const events = this.events.get(organizationId) || [];
+    const events = this._events.get(organizationId) || [];
     events.push(event);
     if (events.length > 1000) events.shift();
-    this.events.set(organizationId, events);
+    this._events.set(organizationId, events);
     
     return event;
   }
 
   async getEvents(organizationId: string, limit: number = 100): Promise<NetworkEvent[]> {
-    return (this.events.get(organizationId) || [])
+    return (this._events.get(organizationId) || [])
       .sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime())
       .slice(0, limit);
   }
 
   async resolveEvent(eventId: string, organizationId: string): Promise<NetworkEvent | null> {
-    const events = this.events.get(organizationId) || [];
+    const events = this._events.get(organizationId) || [];
     const event = events.find(e => e.id === eventId);
     
     if (event) {
       event.resolved = true;
       event.resolvedAt = new Date();
-      this.events.set(organizationId, events);
+      this._events.set(organizationId, events);
     }
     
     return event || null;
@@ -339,21 +340,21 @@ export class CendiaMeshService {
       createdAt: new Date(),
     };
     
-    this.policies.set(policy.id, policy);
+    this._policies.set(policy.id, policy);
     return policy;
   }
 
   async getPolicies(organizationId: string): Promise<NetworkPolicy[]> {
-    return Array.from(this.policies.values())
+    return Array.from(this._policies.values())
       .filter(p => p.organizationId === organizationId);
   }
 
   async togglePolicy(policyId: string, enabled: boolean): Promise<NetworkPolicy | null> {
-    const policy = this.policies.get(policyId);
+    const policy = this._policies.get(policyId);
     if (!policy) return null;
     
     policy.enabled = enabled;
-    this.policies.set(policyId, policy);
+    this._policies.set(policyId, policy);
     
     return policy;
   }
