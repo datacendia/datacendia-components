@@ -31,15 +31,15 @@ export const SettingsLayout: React.FC = () => {
   const navigate = useNavigate();
 
   const settingsNav = [
-    { id: 'organization', label: 'Organization', icon: 'ðŸ¢' },
-    { id: 'users', label: 'Users', icon: 'ðŸ‘¥' },
-    { id: 'teams', label: 'Teams', icon: 'ðŸ‘”' },
-    { id: 'roles', label: 'Roles & Permissions', icon: 'ðŸ”' },
-    { id: 'billing', label: 'Billing', icon: 'ðŸ’³' },
-    { id: 'api-keys', label: 'API Keys', icon: 'ðŸ”‘' },
-    { id: 'integrations', label: 'Integrations', icon: 'ðŸ”—' },
-    { id: 'preferences', label: 'Preferences', icon: 'âš™ï¸' },
-    { id: 'security', label: 'Security', icon: 'ðŸ›¡ï¸' },
+    { id: 'organization', label: 'Organization', icon: '🏢' },
+    { id: 'users', label: 'Users', icon: '👥' },
+    { id: 'teams', label: 'Teams', icon: '👔' },
+    { id: 'roles', label: 'Roles & Permissions', icon: '🔐' },
+    { id: 'billing', label: 'Billing', icon: '💳' },
+    { id: 'api-keys', label: 'API Keys', icon: '🔑' },
+    { id: 'integrations', label: 'Integrations', icon: '🔗' },
+    { id: 'preferences', label: 'Preferences', icon: '⚙️' },
+    { id: 'security', label: 'Security', icon: '🛡️' },
   ];
 
   const currentPath = location.pathname.split('/').pop();
@@ -301,9 +301,9 @@ export const OrganizationSettingsPage: React.FC = () => {
               className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500"
             >
               <option value="USD">USD ($)</option>
-              <option value="EUR">EUR (â‚¬)</option>
-              <option value="GBP">GBP (Â£)</option>
-              <option value="JPY">JPY (Â¥)</option>
+              <option value="EUR">EUR (€)</option>
+              <option value="GBP">GBP (£)</option>
+              <option value="JPY">JPY (¥)</option>
             </select>
           </div>
           <div>
@@ -655,7 +655,7 @@ export const UsersSettingsPage: React.FC = () => {
                     {user.lastLoginAt ? formatRelativeTime(new Date(user.lastLoginAt)) : 'Never'}
                   </td>
                   <td className="px-4 py-3 text-right">
-                    <button className="text-neutral-400 hover:text-neutral-600">â€¢â€¢â€¢</button>
+                    <button className="text-neutral-400 hover:text-neutral-600">•••</button>
                   </td>
                 </tr>
               ))}
@@ -772,7 +772,7 @@ export const TeamsSettingsPage: React.FC = () => {
               <div>
                 <h3 className="font-semibold text-neutral-900">{team.name}</h3>
                 <p className="text-sm text-neutral-500">
-                  {team.members} members â€¢ Lead: {team.lead}
+                  {team.members} members • Lead: {team.lead}
                 </p>
               </div>
               <button
@@ -785,7 +785,7 @@ export const TeamsSettingsPage: React.FC = () => {
                 }
                 className="text-neutral-400 hover:text-neutral-600"
               >
-                â€¢â€¢â€¢
+                •••
               </button>
             </div>
           </div>
@@ -996,7 +996,7 @@ export const RolesSettingsPage: React.FC = () => {
               onClick={() => setShowPermissionsModal(role.name)}
               className="text-primary-600 hover:text-primary-700 text-sm font-medium"
             >
-              View Permissions â†’
+              View Permissions →
             </button>
           </div>
         ))}
@@ -1087,7 +1087,7 @@ export const BillingSettingsPage: React.FC = () => {
               VISA
             </div>
             <div>
-              <p className="font-medium text-neutral-900">â€¢â€¢â€¢â€¢ â€¢â€¢â€¢â€¢ â€¢â€¢â€¢â€¢ 4242</p>
+              <p className="font-medium text-neutral-900">•••• •••• •••• 4242</p>
               <p className="text-sm text-neutral-500">Expires 12/2026</p>
             </div>
           </div>
@@ -1330,11 +1330,11 @@ export const ApiKeysSettingsPage: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <h3 className="font-medium text-neutral-900">{key.name}</h3>
                   <code className="px-2 py-0.5 bg-neutral-100 text-neutral-600 text-xs rounded">
-                    {revealedKeys.has(key.id) ? key.key : `${key.prefix}â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢`}
+                    {revealedKeys.has(key.id) ? key.key : `${key.prefix}••••••••`}
                   </code>
                 </div>
                 <p className="text-sm text-neutral-500 mt-1">
-                  Created {key.created} â€¢ Last used {formatRelativeTime(key.lastUsed)}
+                  Created {key.created} • Last used {formatRelativeTime(key.lastUsed)}
                 </p>
               </div>
               <div className="flex items-center gap-2">
@@ -1385,34 +1385,34 @@ export const IntegrationSettingsPage: React.FC = () => {
     {
       id: 'salesforce',
       name: 'Salesforce',
-      icon: 'â˜ï¸',
+      icon: '☁️',
       status: 'connected',
       lastSync: new Date(Date.now() - 300000),
     },
     {
       id: 'slack',
       name: 'Slack',
-      icon: 'ðŸ’¬',
+      icon: '💬',
       status: 'connected',
       lastSync: new Date(Date.now() - 60000),
     },
     {
       id: 'sap',
       name: 'SAP',
-      icon: 'ðŸ“Š',
+      icon: '🔒',
       status: 'connected',
       lastSync: new Date(Date.now() - 3600000),
     },
     {
       id: 'snowflake',
       name: 'Snowflake',
-      icon: 'â„ï¸',
+      icon: '❄️',
       status: 'connected',
       lastSync: new Date(Date.now() - 1800000),
     },
-    { id: 'workday', name: 'Workday', icon: 'ðŸ‘¥', status: 'error', lastSync: null },
-    { id: 'hubspot', name: 'HubSpot', icon: 'ðŸ§¡', status: 'disconnected', lastSync: null },
-    { id: 'jira', name: 'Jira', icon: 'ðŸ“‹', status: 'disconnected', lastSync: null },
+    { id: 'workday', name: 'Workday', icon: '👥', status: 'error', lastSync: null },
+    { id: 'hubspot', name: 'HubSpot', icon: '🧡', status: 'disconnected', lastSync: null },
+    { id: 'jira', name: 'Jira', icon: '📋', status: 'disconnected', lastSync: null },
   ]);
 
   const handleConnect = async (id: string, name: string) => {
@@ -1554,12 +1554,12 @@ export const PreferencesSettingsPage: React.FC = () => {
           className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500"
         >
           <option value="en">English</option>
-          <option value="es">EspaÃ±ol</option>
-          <option value="fr">FranÃ§ais</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
           <option value="de">Deutsch</option>
-          <option value="pt">PortuguÃªs</option>
-          <option value="ja">æ—¥æœ¬èªž</option>
-          <option value="zh">ä¸­æ–‡</option>
+          <option value="pt">Português</option>
+          <option value="ja">日本語</option>
+          <option value="zh">中文</option>
         </select>
       </div>
 
@@ -1820,7 +1820,7 @@ export const SecuritySettingsPage: React.FC = () => {
                   )}
                 </div>
                 <p className="text-sm text-neutral-500">
-                  {session.location} â€¢ {session.lastActive}
+                  {session.location} • {session.lastActive}
                 </p>
               </div>
               {!session.current && (

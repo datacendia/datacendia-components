@@ -248,7 +248,7 @@ export const SecurityPage: React.FC = () => {
             </Link>
           </div>
           <p className="text-[10px] text-gray-700 tracking-widest">
-            Â© {new Date().getFullYear()} DATACENDIA â€¢ SOVEREIGN INTELLIGENCE
+            © {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE
           </p>
         </div>
       </footer>

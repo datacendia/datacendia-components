@@ -187,7 +187,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
       <span>{agent.claimsProcessed > 0 ? `${agent.claimsProcessed.toLocaleString()} processed` : 'Analytics mode'}</span>
       <span className="text-emerald-400">{formatCurrency(agent.savings)} saved</span>
     </div>
-    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">🎯 {agent.action}</p>
   </div>
 );
 

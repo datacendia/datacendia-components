@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed — 2026-02-20
+
+#### CendiaDCII™ Dashboard — All 6 Tabs Fully Functional
+- **Dynamic Organization Selection** — `selectedOrg` now auto-selects first available org from API instead of hardcoded ID
+- **Demo Data Seeding** — New `/api/v1/dcii/seed-demo` endpoint idempotently populates all 6 DCII services with realistic demo data (IISS scores, media assets, jurisdiction conflicts, timestamps, decision records, cognitive bias analyses)
+- **SimilarityTab Fix** — `selectedOrg` prop correctly passed to `SimilarityTab` component
+- **Demo Mode Banner** — Visible amber banner on DCII dashboard indicating sample data processed by real services
+
+#### Mojibake / Encoding Fix — Platform-Wide
+- **793+ double-encoded UTF-8 sequences fixed** across 20+ frontend files
+- Root cause: UTF-8 bytes misinterpreted as Windows-1252, then re-saved as UTF-8
+- Fixed patterns: `â„¢` → `™`, `â€"` → `—`, `â†'` → `→`, `â€¢` → `•`, `Â©` → `©`
+- Fixed emoji icons: 🏛️, 🤖, 🔌, 🚨, ⚖️, 🚫, and 40+ more across all pages
+- Affected pages: HonestyMatricesPage, SovereignLandingPage, ChronosPage, ProductPage, MeshPage, HorizonPage, TransportationLogisticsPage, RegulatoryAbsorbPage, SettingsPage, AutopilotPage, FIFAGovernanceScenariosPage, PreMortemPage, LiveAgentMonitorPage, BlogPage, ChangelogPage, DocsPage, SecurityPage, SupportPage, MarketingLayout, Toast component
+- **Zero mojibake remaining** in `src/` — confirmed via exhaustive grep
+
+#### Regulator's Receipt Page
+- Updated Receipt interface with all real backend fields (agent data, evidence hashes, compliance requirements, IISS scores, signatures, dissents, citations)
+- Rewrote `handleGenerateReceipt` to POST to `/generate` endpoint for real data
+- Added agent responses hash and dissents hash to Evidence Chain tab
+- Added compliance requirements table
+- Added digital signature hash and public key fingerprint to Crypto tab
+- Updated participants section with proper avatars, confidence scores, and IISS score progress bars
+
 ### Added — CendiaDCII™ (Decision Crisis Immunization Infrastructure)
 - **CendiaIISS™** — Institutional Immune System Score (0–1000 scale, 5 dimensions, 5 certification bands)
   - `backend/src/services/dcii/IISSService.ts` — Score calculation, benchmarking, dimension analysis

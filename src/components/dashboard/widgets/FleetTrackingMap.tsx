@@ -30,10 +30,10 @@ const createIcon = (emoji: string, color: string) => L.divIcon({
   iconAnchor: [16, 16],
 });
 
-const truckIcon = createIcon('ðŸšš', '#3b82f6');
-const warehouseIcon = createIcon('ðŸ­', '#8b5cf6');
-const delayIcon = createIcon('âš ï¸', '#ef4444');
-const deliveryIcon = createIcon('ðŸ“¦', '#10b981');
+const truckIcon = createIcon('🚚', '#3b82f6');
+const warehouseIcon = createIcon('🏭', '#8b5cf6');
+const delayIcon = createIcon('⚠️', '#ef4444');
+const deliveryIcon = createIcon('📦', '#10b981');
 
 // Types
 interface Vehicle {
@@ -145,15 +145,15 @@ const Legend: React.FC = () => (
     <h4 className="text-xs font-semibold text-white mb-2">Legend</h4>
     <div className="space-y-1.5 text-xs">
       <div className="flex items-center gap-2">
-        <span>ðŸšš</span>
+        <span>🚚</span>
         <span className="text-gray-300">Vehicle</span>
       </div>
       <div className="flex items-center gap-2">
-        <span>ðŸ­</span>
+        <span>🏭</span>
         <span className="text-gray-300">Warehouse</span>
       </div>
       <div className="flex items-center gap-2">
-        <span>âš ï¸</span>
+        <span>⚠️</span>
         <span className="text-gray-300">Delay</span>
       </div>
       <div className="flex items-center gap-2">

@@ -3,14 +3,14 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA CHRONOSâ„¢ - THE ENTERPRISE TIME MACHINE
+// CENDIA CHRONOS™ - THE ENTERPRISE TIME MACHINE
 // Premium Package: Time-travel through your organization's history and future
 // "The Black Box Flight Recorder for Corporate Intent"
 //
 // ENHANCED FEATURES:
 // - Diff View: Side-by-side comparison of any two dates
 // - Pivotal Moment Detection: AI identifies critical decision points
-// - CendiaReplayâ„¢: Watch deliberations play back like video
+// - CendiaReplay™: Watch deliberations play back like video
 // - Impact Tracing: See ripple effects from any decision
 // - Multi-Branch Compare: Compare 3+ alternate timelines
 // - Bookmark Moments: Save & share timestamps
@@ -18,7 +18,7 @@
 // - Animated Graph Preview: Knowledge graph morphs with timeline
 // - Monte Carlo Simulations: Run 1000+ scenarios
 //
-// CHRONOS-ERPâ„¢ - Enterprise System Time Travel:
+// CHRONOS-ERP™ - Enterprise System Time Travel:
 // - Salesforce: CRM pipelines, opportunities, forecasts
 // - SAP/NetSuite: ERP transactions, GL entries, purchase orders
 // - Workday: Hiring data, compensation, headcount changes
@@ -220,7 +220,7 @@ interface MonteCarloResult {
 }
 
 // =============================================================================
-// CHRONOS-ERPâ„¢ TYPES - Enterprise System Time Travel
+// CHRONOS-ERP™ TYPES - Enterprise System Time Travel
 // =============================================================================
 
 type ERPSource =
@@ -555,7 +555,7 @@ interface RedactedExport {
     originalCharCount: number;
     redactedValue: string; // e.g., "[REDACTED-PII]", "***-**-1234"
     justification: string;
-    legalBasis: string; // e.g., "GDPR Art. 17", "HIPAA Â§164.514"
+    legalBasis: string; // e.g., "GDPR Art. 17", "HIPAA §164.514"
   }>;
   
   // Financial integrity attestation
@@ -1348,7 +1348,7 @@ const generateMonteCarloResults = (variable: string): MonteCarloResult => {
 };
 
 // =============================================================================
-// CHRONOS-ERPâ„¢ GENERATORS - Enterprise System Data
+// CHRONOS-ERP™ GENERATORS - Enterprise System Data
 // =============================================================================
 
 const generateERPConnectors = (): ERPConnector[] => [
@@ -1356,7 +1356,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'sf-001',
     name: 'Salesforce Production',
     source: 'salesforce',
-    icon: 'â˜ï¸',
+    icon: '☁️',
     status: 'connected',
     lastSync: new Date(Date.now() - 5 * 60 * 1000),
     recordCount: 847293,
@@ -1368,7 +1368,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'sap-001',
     name: 'SAP S/4HANA',
     source: 'sap',
-    icon: 'ðŸ¢',
+    icon: '🏢',
     status: 'connected',
     lastSync: new Date(Date.now() - 15 * 60 * 1000),
     recordCount: 2341892,
@@ -1380,7 +1380,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'wd-001',
     name: 'Workday HCM',
     source: 'workday',
-    icon: 'ðŸ‘¥',
+    icon: '👥',
     status: 'connected',
     lastSync: new Date(Date.now() - 30 * 60 * 1000),
     recordCount: 45678,
@@ -1392,7 +1392,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'jira-001',
     name: 'Jira Software',
     source: 'jira',
-    icon: 'ðŸŽ¯',
+    icon: '🎯',
     status: 'connected',
     lastSync: new Date(Date.now() - 2 * 60 * 1000),
     recordCount: 128934,
@@ -1404,7 +1404,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'gh-001',
     name: 'GitHub Enterprise',
     source: 'github',
-    icon: 'ðŸ™',
+    icon: '🐙',
     status: 'connected',
     lastSync: new Date(Date.now() - 1 * 60 * 1000),
     recordCount: 89234,
@@ -1416,7 +1416,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'snow-001',
     name: 'ServiceNow',
     source: 'servicenow',
-    icon: 'ðŸŽ«',
+    icon: '🎫',
     status: 'syncing',
     lastSync: new Date(Date.now() - 10 * 60 * 1000),
     recordCount: 234567,
@@ -1428,7 +1428,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'sp-001',
     name: 'SharePoint Online',
     source: 'sharepoint',
-    icon: 'ðŸ“',
+    icon: '📁',
     status: 'connected',
     lastSync: new Date(Date.now() - 60 * 60 * 1000),
     recordCount: 567890,
@@ -1440,7 +1440,7 @@ const generateERPConnectors = (): ERPConnector[] => [
     id: 'ns-001',
     name: 'NetSuite',
     source: 'netsuite',
-    icon: 'ðŸ’°',
+    icon: '💰',
     status: 'connected',
     lastSync: new Date(Date.now() - 45 * 60 * 1000),
     recordCount: 1234567,
@@ -2302,7 +2302,7 @@ const generateRedactedExport = (
       originalCharCount: 11,
       redactedValue: '***-**-####',
       justification: 'Social Security Numbers are PII requiring protection under privacy regulations.',
-      legalBasis: 'CCPA Â§1798.140(o), GDPR Art. 4(1)',
+      legalBasis: 'CCPA §1798.140(o), GDPR Art. 4(1)',
     },
     {
       field: 'employee_salary',
@@ -2312,7 +2312,7 @@ const generateRedactedExport = (
       originalCharCount: 8,
       redactedValue: '[REDACTED-PERSONNEL]',
       justification: 'Compensation data is confidential personnel information.',
-      legalBasis: 'Company Policy HR-001, Employment Agreement Â§7.2',
+      legalBasis: 'Company Policy HR-001, Employment Agreement §7.2',
     },
     {
       field: 'trade_secret_algorithm',
@@ -2322,7 +2322,7 @@ const generateRedactedExport = (
       originalCharCount: 2048,
       redactedValue: '[REDACTED-TRADE-SECRET]',
       justification: 'Proprietary algorithm details constitute trade secrets.',
-      legalBasis: 'DTSA 18 U.S.C. Â§ 1836, Protective Order Â¶12',
+      legalBasis: 'DTSA 18 U.S.C. § 1836, Protective Order ¶12',
     },
     {
       field: 'customer_email',
@@ -2332,7 +2332,7 @@ const generateRedactedExport = (
       originalCharCount: 24,
       redactedValue: 'user_[hash]@redacted.com',
       justification: 'Customer email addresses are PII.',
-      legalBasis: 'GDPR Art. 4(5), CCPA Â§1798.140(o)',
+      legalBasis: 'GDPR Art. 4(5), CCPA §1798.140(o)',
     },
     {
       field: 'ip_address',
@@ -2496,7 +2496,7 @@ export const ChronosPage: React.FC = () => {
   const [redactionRules] = useState<RedactionRule[]>(DEFAULT_REDACTION_RULES);
   const [exportInProgress, setExportInProgress] = useState(false);
 
-  // Chronos-ERPâ„¢ State - Enterprise System Time Travel
+  // Chronos-ERP™ State - Enterprise System Time Travel
   const [erpConnectors] = useState<ERPConnector[]>(() => generateERPConnectors());
   const [showERPPanel, setShowERPPanel] = useState(false);
   const [selectedERPSource, setSelectedERPSource] = useState<ERPSource | 'all'>('all');
@@ -3307,7 +3307,7 @@ export const ChronosPage: React.FC = () => {
     setShowCourtExportModal(false);
     // In production, this would trigger a download
     alert(
-      `âœ… Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`
+      `✅ Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`
     );
   };
 
@@ -3334,7 +3334,7 @@ export const ChronosPage: React.FC = () => {
   // NEW FEATURE HANDLERS - The 5 Power Features
   // ==========================================================================
 
-  // (1) Full Traceability - Show origin â†’ intermediate â†’ final causality
+  // (1) Full Traceability - Show origin → intermediate → final causality
   const openTraceability = (event: TimelineEvent) => {
     const traceability = generateTraceabilityView(event);
     setTraceabilityView(traceability);
@@ -3456,7 +3456,7 @@ export const ChronosPage: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
-                  CENDIACHRONOS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>â„¢</span>
+                  CENDIACHRONOS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
                 </h1>
                 <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">The Enterprise Time Machine</p>
               </div>
@@ -3510,7 +3510,7 @@ export const ChronosPage: React.FC = () => {
             {mode === 'fastforward' && (
               <p className="text-white/90">
                 <strong>The Wargame:</strong> Project your organization into the future. This isn't
-                a static forecastâ€” the Council actively deliberates scenarios in your predicted
+                a static forecast— the Council actively deliberates scenarios in your predicted
                 future state.
               </p>
             )}
@@ -3553,7 +3553,7 @@ export const ChronosPage: React.FC = () => {
                 </span>
                 {witnessSessions.length > 0 && (
                   <div className="flex items-center gap-1" title="Active witness observers">
-                    <span className="text-amber-400">ðŸ‘ï¸</span>
+                    <span className="text-amber-400">👁️</span>
                     <span className="text-[10px] text-amber-300 font-medium">
                       {witnessSessions.length}
                     </span>
@@ -3615,28 +3615,28 @@ export const ChronosPage: React.FC = () => {
                 className="px-2.5 py-1 text-[10px] bg-emerald-700/50 hover:bg-emerald-600/50 rounded transition-colors flex items-center gap-1"
                 title="View full compliance dashboard"
               >
-                ðŸ”’ Panel
+                🔒 Panel
               </button>
               <button
                 onClick={() => setShowCourtExportModal(true)}
                 className="px-2.5 py-1 text-[10px] bg-amber-700/50 hover:bg-amber-600/50 rounded transition-colors flex items-center gap-1"
                 title="Generate court-admissible evidence package"
               >
-                âš–ï¸ Export
+                ⚖️ Export
               </button>
               <button
                 onClick={() => setShowWitnessModal(true)}
                 className="px-2.5 py-1 text-[10px] bg-blue-700/50 hover:bg-blue-600/50 rounded transition-colors flex items-center gap-1"
                 title="Add external auditor or regulator as witness"
               >
-                ðŸ‘ï¸ Witness
+                👁️ Witness
               </button>
               <button
                 onClick={() => setShowERPPanel(!showERPPanel)}
                 className="px-2.5 py-1 text-[10px] bg-indigo-700/50 hover:bg-indigo-600/50 rounded transition-colors flex items-center gap-1"
                 title="View connected ERP system data"
               >
-                ðŸ¢ ERP
+                🏢 ERP
               </button>
 
               <div className="w-px h-4 bg-neutral-600" />
@@ -3646,7 +3646,7 @@ export const ChronosPage: React.FC = () => {
                 className="px-2.5 py-1 text-[10px] bg-rose-700/50 hover:bg-rose-600/50 rounded transition-colors flex items-center gap-1"
                 title="Rebuild & verify state at this timestamp"
               >
-                ðŸ”„ Verify
+                🔄 Verify
               </button>
               <button
                 onClick={() => setShowRegulatorSetup(true)}
@@ -3657,14 +3657,14 @@ export const ChronosPage: React.FC = () => {
                 }`}
                 title="Enable read-only regulator inspection mode"
               >
-                {regulatorMode ? 'ðŸ”´ Active' : 'ðŸ›ï¸ Regulator'}
+                {regulatorMode ? '🔴 Active' : '🏛️ Regulator'}
               </button>
               <button
                 onClick={() => setShowZKAudit(true)}
                 className="px-2.5 py-1 text-[10px] bg-cyan-700/50 hover:bg-cyan-600/50 rounded transition-colors flex items-center gap-1"
                 title="Generate zero-knowledge compliance proofs"
               >
-                ðŸ” ZK Proof
+                🔐 ZK Proof
               </button>
 
               <div className="w-px h-4 bg-neutral-600" />
@@ -3674,14 +3674,14 @@ export const ChronosPage: React.FC = () => {
                 className="px-2.5 py-1 text-[10px] bg-emerald-700/50 hover:bg-emerald-600/50 rounded transition-colors flex items-center gap-1"
                 title="View SOX/SEC financial validation audit trail"
               >
-                ðŸ“Š SOX Audit
+                🔒 SOX Audit
               </button>
               <button
                 onClick={() => setShowRedactedExportModal(true)}
                 className="px-2.5 py-1 text-[10px] bg-orange-700/50 hover:bg-orange-600/50 rounded transition-colors flex items-center gap-1"
                 title="Generate court-admissible redacted export"
               >
-                ðŸ” Redacted Export
+                🔏 Redacted Export
               </button>
             </div>
           </div>
@@ -3746,7 +3746,7 @@ export const ChronosPage: React.FC = () => {
 
               <button
                 onClick={() => navigate('/cortex/crown/echo')}
-                title="Echo â€” Decision outcome tracking & feedback loops"
+                title="Echo — Decision outcome tracking & feedback loops"
                 className="px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 bg-neutral-800 text-emerald-400 hover:bg-emerald-500/20 border border-transparent hover:border-emerald-500/30"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -3755,7 +3755,7 @@ export const ChronosPage: React.FC = () => {
 
               <button
                 onClick={() => navigate('/cortex/sovereign/collapse')}
-                title="Collapse â€” Sovereign collapse simulation & stress testing"
+                title="Collapse — Sovereign collapse simulation & stress testing"
                 className="px-3 py-1.5 text-sm rounded-lg transition-all flex items-center gap-1.5 bg-neutral-800 text-red-400 hover:bg-red-500/20 border border-transparent hover:border-red-500/30"
               >
                 <Shield className="w-3.5 h-3.5" />
@@ -3780,7 +3780,7 @@ export const ChronosPage: React.FC = () => {
               {bookmarks.length > 0 && (
                 <div className="relative group">
                   <button className="px-3 py-1.5 text-sm bg-amber-600 hover:bg-amber-500 rounded-lg transition-colors">
-                    ðŸ“š {bookmarks.length} Saved
+                    📚 {bookmarks.length} Saved
                   </button>
                   <div className="absolute right-0 top-full mt-2 w-64 bg-neutral-800 rounded-lg shadow-xl border border-neutral-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
                     {bookmarks.map((bm) => (
@@ -3844,7 +3844,7 @@ export const ChronosPage: React.FC = () => {
           {/* Help tooltip for first-time users */}
           <div className="mt-3 text-center">
             <span className="text-xs text-neutral-500">
-              ðŸ’¡{' '}
+              💡{' '}
               <em>
                 Chronos replays every metric, event, and AI decision between two points in time.
               </em>
@@ -3913,7 +3913,7 @@ export const ChronosPage: React.FC = () => {
                         onClick={() => startCouncilReplay(selectedEvent)}
                         className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors"
                       >
-                        ðŸŽ¬ Replay Council Deliberation
+                        🎬 Replay Council Deliberation
                       </button>
                     )}
                     {/* Ask Council about current view */}
@@ -3936,7 +3936,7 @@ export const ChronosPage: React.FC = () => {
                       }}
                       className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
                     >
-                      ðŸ’¬ Ask Council
+                      💬 Ask Council
                     </button>
                   </div>
                 </div>
@@ -3954,14 +3954,14 @@ export const ChronosPage: React.FC = () => {
                     minute: '2-digit',
                     second: '2-digit',
                   })}{' '}
-                  Â· {selectedDepartment === 'all' ? 'All Departments' : selectedDepartment}
+                  · {selectedDepartment === 'all' ? 'All Departments' : selectedDepartment}
                 </p>
 
                 {/* Cone of Uncertainty Banner - shown when viewing future dates */}
                 {currentDate > new Date() && (
                   <div className="mb-4 p-3 bg-gradient-to-r from-cyan-900/40 via-purple-900/40 to-cyan-900/40 border border-cyan-500/30 rounded-xl">
                     <div className="flex items-center gap-3">
-                      <div className="text-3xl">ðŸ”®</div>
+                      <div className="text-3xl">🔮</div>
                       <div className="flex-1">
                         <div className="flex items-center gap-2">
                           <span className="font-semibold text-cyan-300">Cone of Uncertainty</span>
@@ -3971,7 +3971,7 @@ export const ChronosPage: React.FC = () => {
                         </div>
                         <p className="text-xs text-cyan-200/70 mt-1">
                           Future projections show{' '}
-                          <span className="font-semibold text-white">probabilistic ranges</span> â€”
+                          <span className="font-semibold text-white">probabilistic ranges</span> —
                           uncertainty grows with time. Past data is immutable (Ledger), but the
                           future is probabilistic (Strategy Pillar).
                         </p>
@@ -3985,7 +3985,7 @@ export const ChronosPage: React.FC = () => {
                           )}
                         </div>
                         <div className="text-xs text-cyan-500/70">
-                          Â±
+                          ±
                           {Math.min(
                             30,
                             5 +
@@ -4024,7 +4024,7 @@ export const ChronosPage: React.FC = () => {
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                          <span className="text-2xl">{isFutureDate ? 'ðŸ”®' : 'ðŸ›«'}</span>
+                          <span className="text-2xl">{isFutureDate ? '🔮' : '🛫'}</span>
                           <div>
                             <span className="text-sm text-neutral-400">
                               {isFutureDate ? 'Projected Insight' : 'Key Insight'}
@@ -4035,7 +4035,7 @@ export const ChronosPage: React.FC = () => {
                               Runway:{' '}
                               {isFutureDate ? (
                                 <span style={{ fontStyle: 'italic' }}>
-                                  {runwayLow.toFixed(1)} â€“ {runwayHigh.toFixed(1)} months
+                                  {runwayLow.toFixed(1)} — {runwayHigh.toFixed(1)} months
                                 </span>
                               ) : (
                                 <>{snapshot.metrics.runway.toFixed(1)} months</>
@@ -4043,7 +4043,7 @@ export const ChronosPage: React.FC = () => {
                               <span
                                 className={`ml-2 text-sm font-normal ${snapshot.metrics.runway > 12 ? 'text-emerald-400' : 'text-amber-400'}`}
                               >
-                                {snapshot.metrics.runway > 12 ? 'â†‘ healthy' : 'âš ï¸ monitor'}
+                                {snapshot.metrics.runway > 12 ? '↑ healthy' : '⚠️ monitor'}
                               </span>
                             </div>
                           </div>
@@ -4053,7 +4053,7 @@ export const ChronosPage: React.FC = () => {
                             <>
                               <div className="text-xs text-cyan-400/70">projection confidence</div>
                               <div className="text-cyan-400 font-semibold">
-                                Â±{uncertaintyPct.toFixed(0)}%
+                                ±{uncertaintyPct.toFixed(0)}%
                               </div>
                             </>
                           ) : (
@@ -4078,13 +4078,13 @@ export const ChronosPage: React.FC = () => {
 
               {/* Council State */}
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-                <h2 className="text-xl font-semibold mb-4">ðŸ§  Council State</h2>
+                <h2 className="text-xl font-semibold mb-4">🧠 Council State</h2>
                 <CouncilState council={snapshot.council} mode={mode} />
               </div>
 
               {/* Knowledge Graph State */}
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-                <h2 className="text-xl font-semibold mb-4">ðŸ•¸ï¸ Knowledge Graph</h2>
+                <h2 className="text-xl font-semibold mb-4">🕸️ Knowledge Graph</h2>
                 <GraphState graph={snapshot.graph} mode={mode} />
               </div>
 
@@ -4094,7 +4094,7 @@ export const ChronosPage: React.FC = () => {
               {/* Alternate Timelines (Replay Mode) */}
               {mode === 'replay' && branches.length > 0 && (
                 <div className="bg-neutral-900 rounded-2xl p-6 border border-purple-800">
-                  <h2 className="text-xl font-semibold mb-4">ðŸŒ€ Alternate Timelines</h2>
+                  <h2 className="text-xl font-semibold mb-4">🌀 Alternate Timelines</h2>
                   <BranchList
                     branches={branches}
                     selectedId={selectedBranch}
@@ -4108,7 +4108,7 @@ export const ChronosPage: React.FC = () => {
             <div className="space-y-6">
               {/* Events at This Time */}
               <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-                <h2 className="text-lg font-semibold mb-3">ðŸ“… Events</h2>
+                <h2 className="text-lg font-semibold mb-3">📅 Events</h2>
                 <EventsList
                   events={events}
                   currentDate={currentDate}
@@ -4124,7 +4124,7 @@ export const ChronosPage: React.FC = () => {
               {/* Replay Actions */}
               {mode === 'replay' && (
                 <div className="bg-purple-900/30 rounded-2xl p-6 border border-purple-700">
-                  <h2 className="text-lg font-semibold mb-4">ðŸ”€ Create Alternate Timeline</h2>
+                  <h2 className="text-lg font-semibold mb-4">🔀 Create Alternate Timeline</h2>
                   <VariableSelector onCreateBranch={() => setShowBranchModal(true)} />
                 </div>
               )}
@@ -4132,7 +4132,7 @@ export const ChronosPage: React.FC = () => {
               {/* Fast Forward Predictions */}
               {mode === 'fastforward' && (
                 <div className="bg-cyan-900/30 rounded-2xl p-6 border border-cyan-700">
-                  <h2 className="text-lg font-semibold mb-4">ðŸ”® Prediction Confidence</h2>
+                  <h2 className="text-lg font-semibold mb-4">🔮 Prediction Confidence</h2>
                   <PredictionConfidence currentDate={currentDate} />
                 </div>
               )}
@@ -4140,7 +4140,7 @@ export const ChronosPage: React.FC = () => {
               {/* Audit Trail (Rewind) */}
               {mode === 'rewind' && (
                 <div className="bg-amber-900/30 rounded-2xl p-6 border border-amber-700">
-                  <h2 className="text-lg font-semibold mb-4">ðŸ“‹ Export Audit Package</h2>
+                  <h2 className="text-lg font-semibold mb-4">📋 Export Audit Package</h2>
                   <AuditExport 
                     currentDate={currentDate} 
                     events={events}
@@ -4197,7 +4197,7 @@ export const ChronosPage: React.FC = () => {
         <WitnessModal onAdd={addWitnessSession} onClose={() => setShowWitnessModal(false)} />
       )}
 
-      {/* Event Witness Modal - CendiaWitnessâ„¢ View */}
+      {/* Event Witness Modal - CendiaWitness™ View */}
       {showWitnessModal && witnessEvent && (
         <EventWitnessModal
           event={witnessEvent}
@@ -4231,22 +4231,22 @@ export const ChronosPage: React.FC = () => {
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
                 <h2 className="text-2xl font-bold text-white flex items-center gap-3">
-                  ðŸ” Full Traceability View
+                  🔍 Full Traceability View
                 </h2>
                 <p className="text-neutral-400 text-sm mt-1">
-                  Court-level causality proof: Origin â†’ Intermediate â†’ Final
+                  Court-level causality proof: Origin → Intermediate → Final
                 </p>
               </div>
               <button
                 onClick={() => setShowTraceability(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                Ã—
+                ×
               </button>
             </div>
             <div className="p-6 overflow-y-auto max-h-[70vh] space-y-6">
               <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
-                <h3 className="text-emerald-400 font-semibold mb-3">ðŸ“¥ Origin Source</h3>
+                <h3 className="text-emerald-400 font-semibold mb-3">📥 Origin Source</h3>
                 <div className="grid grid-cols-3 gap-4 text-sm">
                   <div>
                     <span className="text-neutral-400">Dataset:</span>{' '}
@@ -4270,7 +4270,7 @@ export const ChronosPage: React.FC = () => {
               </div>
               <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
                 <h3 className="text-amber-400 font-semibold mb-3">
-                  âš™ï¸ Transforms ({traceabilityView.intermediateTransforms.length})
+                  ⚙️ Transforms ({traceabilityView.intermediateTransforms.length})
                 </h3>
                 <div className="space-y-2">
                   {traceabilityView.intermediateTransforms.map(
@@ -4290,7 +4290,7 @@ export const ChronosPage: React.FC = () => {
                         </span>
                         <div className="flex-1">
                           <div className="text-white font-medium">
-                            {t.service} â†’ {t.operation}
+                            {t.service} → {t.operation}
                           </div>
                           <div className="text-xs text-neutral-400 font-mono">
                             Hash: {t.outputHash.slice(0, 16)}...
@@ -4303,10 +4303,10 @@ export const ChronosPage: React.FC = () => {
                 </div>
               </div>
               <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-3">ðŸ¤– Agent Provenance</h3>
+                <h3 className="text-purple-400 font-semibold mb-3">🤖 Agent Provenance</h3>
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 bg-purple-600/50 rounded-full flex items-center justify-center text-2xl">
-                    ðŸ§ 
+                    🧠
                   </div>
                   <div>
                     <div className="text-white font-bold">
@@ -4322,7 +4322,7 @@ export const ChronosPage: React.FC = () => {
                 </div>
               </div>
               <div className="bg-green-900/30 rounded-xl p-4 border border-green-700">
-                <h3 className="text-green-400 font-semibold mb-3">âœ… Integrity Proof</h3>
+                <h3 className="text-green-400 font-semibold mb-3">✅ Integrity Proof</h3>
                 <div className="font-mono text-xs text-neutral-300 bg-black/30 p-3 rounded-lg">
                   <div>Merkle Root: {traceabilityView.integrityProof.merkleRoot}</div>
                   <div>Block: #{traceabilityView.integrityProof.blockNumber}</div>
@@ -4340,31 +4340,31 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">ðŸ“Š Compliance Snapshot</h2>
+                <h2 className="text-2xl font-bold text-white">🔒 Compliance Snapshot</h2>
                 <p className="text-neutral-400 text-sm mt-1">At the time this decision was made</p>
               </div>
               <button
                 onClick={() => setShowComplianceSnapshot(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                Ã—
+                ×
               </button>
             </div>
             <div className="p-6 overflow-y-auto max-h-[70vh] grid grid-cols-2 gap-4">
               <div className="bg-blue-900/30 rounded-xl p-4 border border-blue-700">
-                <h3 className="text-blue-400 font-semibold mb-3">ðŸ›¡ï¸ NIST CSF</h3>
+                <h3 className="text-blue-400 font-semibold mb-3">🛡️ NIST CSF</h3>
                 <div className="text-4xl font-bold text-white mb-3">
                   {eventComplianceSnapshot.nistScore.overall}%
                 </div>
               </div>
               <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-3">ðŸŒ OECD AI</h3>
+                <h3 className="text-purple-400 font-semibold mb-3">🌐 OECD AI</h3>
                 <div className="text-4xl font-bold text-white mb-3">
                   {eventComplianceSnapshot.oecdScore.overall}%
                 </div>
               </div>
               <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
-                <h3 className="text-emerald-400 font-semibold mb-3">ðŸ”’ Privacy</h3>
+                <h3 className="text-emerald-400 font-semibold mb-3">🔒 Privacy</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-neutral-400">GDPR</span>
@@ -4385,7 +4385,7 @@ export const ChronosPage: React.FC = () => {
                 </div>
               </div>
               <div className="bg-red-900/30 rounded-xl p-4 border border-red-700">
-                <h3 className="text-red-400 font-semibold mb-3">ðŸ” Security</h3>
+                <h3 className="text-red-400 font-semibold mb-3">🔐 Security</h3>
                 <div className="text-4xl font-bold text-white mb-3">
                   {eventComplianceSnapshot.securityPosture.overallScore}%
                 </div>
@@ -4401,7 +4401,7 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-3xl">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">ðŸ”„ Chronos Integrity Validation</h2>
+                <h2 className="text-2xl font-bold text-white">🔄 Chronos Integrity Validation</h2>
                 <p className="text-neutral-400 text-sm mt-1">
                   Rebuilding company state as of {currentDate.toLocaleDateString()}
                 </p>
@@ -4410,13 +4410,13 @@ export const ChronosPage: React.FC = () => {
                 onClick={() => setShowReverseTimeCheck(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                Ã—
+                ×
               </button>
             </div>
             <div className="p-6">
               {isRebuildingState ? (
                 <div className="text-center py-12">
-                  <div className="text-6xl mb-4 animate-spin">â³</div>
+                  <div className="text-6xl mb-4 animate-spin">⏳</div>
                   <div className="text-white font-bold text-xl mb-2">Reconstructing State...</div>
                   <div className="w-full bg-neutral-700 rounded-full h-3 mb-4">
                     <div
@@ -4434,7 +4434,7 @@ export const ChronosPage: React.FC = () => {
                     >
                       <div className="flex items-center gap-4">
                         <span className="text-5xl">
-                          {reverseTimeCheck.status === 'complete' ? 'âœ…' : 'âš ï¸'}
+                          {reverseTimeCheck.status === 'complete' ? '✅' : '⚠️'}
                         </span>
                         <div>
                           <div
@@ -4453,7 +4453,7 @@ export const ChronosPage: React.FC = () => {
                       </div>
                     </div>
                     <div className="bg-black/30 rounded-xl p-4">
-                      <h3 className="text-white font-semibold mb-3">ðŸ” Hash Verification</h3>
+                      <h3 className="text-white font-semibold mb-3">🔐 Hash Verification</h3>
                       <div className="font-mono text-xs space-y-2">
                         <div className="flex justify-between">
                           <span className="text-neutral-400">Expected:</span>
@@ -4477,7 +4477,7 @@ export const ChronosPage: React.FC = () => {
                     </div>
                     {reverseTimeCheck.forensicReport.legalAdmissible && (
                       <div className="mt-3 text-green-400 text-sm">
-                        âš–ï¸ This report is court-admissible
+                        ⚖️ This report is court-admissible
                       </div>
                     )}
                   </div>
@@ -4494,7 +4494,7 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-2xl">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">ðŸ›ï¸ Regulator Mode Setup</h2>
+                <h2 className="text-2xl font-bold text-white">🏛️ Regulator Mode Setup</h2>
                 <p className="text-neutral-400 text-sm mt-1">
                   Read-only access for regulatory inspection
                 </p>
@@ -4503,7 +4503,7 @@ export const ChronosPage: React.FC = () => {
                 onClick={() => setShowRegulatorSetup(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                Ã—
+                ×
               </button>
             </div>
             <div className="p-6 space-y-4">
@@ -4535,7 +4535,7 @@ export const ChronosPage: React.FC = () => {
                 )}
               </div>
               <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
-                <div className="text-amber-400 font-semibold">âš ï¸ Important</div>
+                <div className="text-amber-400 font-semibold">⚠️ Important</div>
                 <div className="text-neutral-300 text-sm mt-1">
                   Regulator Mode provides read-only access with automatic redaction. All access is
                   logged.
@@ -4550,7 +4550,7 @@ export const ChronosPage: React.FC = () => {
       {regulatorMode && regulatorSession && (
         <div className="fixed top-0 left-0 right-0 bg-red-600 text-white py-2 px-4 z-50 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <span className="text-xl">ðŸ”´</span>
+            <span className="text-xl">🔴</span>
             <div>
               <span className="font-bold">REGULATOR MODE ACTIVE</span>
               <span className="ml-4 text-sm opacity-80">
@@ -4574,7 +4574,7 @@ export const ChronosPage: React.FC = () => {
           <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
             <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
               <div>
-                <h2 className="text-2xl font-bold text-white">ðŸ” Zero-Knowledge Audits</h2>
+                <h2 className="text-2xl font-bold text-white">🔐 Zero-Knowledge Audits</h2>
                 <p className="text-neutral-400 text-sm mt-1">
                   Prove compliance without revealing sensitive data
                 </p>
@@ -4583,7 +4583,7 @@ export const ChronosPage: React.FC = () => {
                 onClick={() => setShowZKAudit(false)}
                 className="text-neutral-400 hover:text-white text-2xl"
               >
-                Ã—
+                ×
               </button>
             </div>
             <div className="p-6 overflow-y-auto max-h-[70vh]">
@@ -4608,7 +4608,7 @@ export const ChronosPage: React.FC = () => {
                 </div>
                 {isGeneratingProof && (
                   <div className="mt-4 text-center text-cyan-400">
-                    <span className="animate-spin inline-block mr-2">âš¡</span>Generating
+                    <span className="animate-spin inline-block mr-2">⚡</span>Generating
                     cryptographic proof...
                   </div>
                 )}
@@ -4627,7 +4627,7 @@ export const ChronosPage: React.FC = () => {
                       <div key={i} className="bg-neutral-800 rounded-xl p-4">
                         <div className="flex items-center justify-between mb-3">
                           <div className="flex items-center gap-3">
-                            <span className="text-2xl">âœ…</span>
+                            <span className="text-2xl">✅</span>
                             <div>
                               <div className="text-white font-bold">
                                 {proof.framework} Compliance Proof
@@ -4665,7 +4665,7 @@ export const ChronosPage: React.FC = () => {
               </div>
               <div className="mt-6 bg-purple-900/30 rounded-xl p-4 border border-purple-700">
                 <h3 className="text-purple-400 font-semibold mb-2">
-                  ðŸ”® How Zero-Knowledge Proofs Work
+                  🔮 How Zero-Knowledge Proofs Work
                 </h3>
                 <div className="text-neutral-300 text-sm">
                   Zero-knowledge proofs allow you to prove statements about your data without
@@ -5050,7 +5050,7 @@ const TimelineScrubber: React.FC<{
           className="p-2 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors"
           title="Back 1 week"
         >
-          â®ï¸
+          ⏮️
         </button>
         <button
           onClick={onPlayPause}
@@ -5058,14 +5058,14 @@ const TimelineScrubber: React.FC<{
             isPlaying ? 'bg-red-600 hover:bg-red-500' : `bg-gradient-to-r ${getGradient()}`
           }`}
         >
-          {isPlaying ? 'â¸ï¸ Pause' : 'â–¶ï¸ Play'}
+          {isPlaying ? '⏸️ Pause' : '▶️ Play'}
         </button>
         <button
           onClick={() => onDateChange(new Date(currentDate.getTime() + 7 * 24 * 60 * 60 * 1000))}
           className="p-2 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors"
           title="Forward 1 week"
         >
-          â­ï¸
+          ⏭️
         </button>
 
         <div className="ml-4 flex items-center gap-2">
@@ -5155,7 +5155,7 @@ const TimelineScrubber: React.FC<{
           onClick={() => setShowDatePicker(!showDatePicker)}
           className="px-3 py-1 text-xs bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 rounded-full transition-colors font-semibold flex items-center gap-1"
         >
-          ðŸ“… Jump to Date
+          📅 Jump to Date
         </button>
       </div>
 
@@ -5163,7 +5163,7 @@ const TimelineScrubber: React.FC<{
       {showDatePicker && (
         <div className="mt-4 p-4 bg-neutral-800 rounded-xl border border-amber-600/50">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-amber-500">â°</span>
+            <span className="text-amber-500">⏰</span>
             <span className="text-sm font-semibold text-white">Jump to Specific Date & Time</span>
           </div>
 
@@ -5197,7 +5197,7 @@ const TimelineScrubber: React.FC<{
                 disabled={!jumpDate}
                 className="px-4 py-2 bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg font-semibold transition-colors"
               >
-                â© Jump
+                ⏩ Jump
               </button>
             </div>
 
@@ -5213,7 +5213,7 @@ const TimelineScrubber: React.FC<{
           </div>
 
           <div className="mt-3 text-xs text-neutral-500">
-            Valid range: {minDate.toLocaleDateString()} â€” {maxDate.toLocaleDateString()}
+            Valid range: {minDate.toLocaleDateString()} — {maxDate.toLocaleDateString()}
           </div>
         </div>
       )}
@@ -5245,7 +5245,7 @@ const MetricsGrid: React.FC<{
     ? Math.max(0, (currentDate.getTime() - now.getTime()) / (24 * 60 * 60 * 1000))
     : 0;
 
-  // Uncertainty grows with time: starts at Â±5% and grows to Â±30% at 1 year
+  // Uncertainty grows with time: starts at ±5% and grows to ±30% at 1 year
   const uncertaintyPercent = Math.min(30, 5 + (daysIntoFuture / 365) * 25);
 
   // Calculate range for a value based on uncertainty
@@ -5277,7 +5277,7 @@ const MetricsGrid: React.FC<{
     churn: 12, // avg churn risk
     cac: 5500, // avg CAC
     mqls: 620, // avg MQLs/month
-    conversion: 18, // avg MQLâ†’SQL
+    conversion: 18, // avg MQL→SQL
     spend: 280000, // avg monthly spend
     roi: 2.4, // avg campaign ROI
     traffic: 120000, // avg web traffic
@@ -5313,50 +5313,50 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: 'ðŸ‘¥',
+        icon: '👥',
         format: (v: number) => v.toString(),
         value: 67,
       },
       {
         key: 'velocity',
         label: 'Velocity',
-        icon: 'ðŸš€',
+        icon: '🚀',
         format: (v: number) => `${v}/sprint`,
         value: 84,
       },
       {
         key: 'deploys',
         label: 'Deploys/Week',
-        icon: 'ðŸ“¦',
+        icon: '📦',
         format: (v: number) => v.toString(),
         value: 12,
       },
-      { key: 'bugRate', label: 'Bug Rate', icon: 'ðŸ›', format: (v: number) => `${v}%`, value: 2.3 },
+      { key: 'bugRate', label: 'Bug Rate', icon: '🐛', format: (v: number) => `${v}%`, value: 2.3 },
       {
         key: 'techDebt',
         label: 'Tech Debt',
-        icon: 'ðŸ’³',
+        icon: '💳',
         format: (v: number) => `${v}%`,
         value: 14,
       },
       {
         key: 'teamNPS',
         label: 'Team eNPS',
-        icon: 'ðŸ˜Š',
+        icon: '😊',
         format: (v: number) => v.toString(),
         value: 71,
       },
       {
         key: 'prTime',
         label: 'Avg PR Time',
-        icon: 'â±ï¸',
+        icon: '⏱️',
         format: (v: number) => `${v}h`,
         value: 4.2,
       },
       {
         key: 'coverage',
         label: 'Test Coverage',
-        icon: 'âœ…',
+        icon: '✅',
         format: (v: number) => `${v}%`,
         value: 78,
       },
@@ -5365,96 +5365,96 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: 'ðŸ‘¥',
+        icon: '👥',
         format: (v: number) => v.toString(),
         value: 34,
       },
       {
         key: 'pipeline',
         label: 'Pipeline',
-        icon: 'ðŸ’°',
+        icon: '💰',
         format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
         value: 8500000,
       },
-      { key: 'winRate', label: 'Win Rate', icon: 'ðŸŽ¯', format: (v: number) => `${v}%`, value: 32 },
+      { key: 'winRate', label: 'Win Rate', icon: '🎯', format: (v: number) => `${v}%`, value: 32 },
       {
         key: 'acv',
         label: 'Avg ACV',
-        icon: 'ðŸ“ˆ',
+        icon: '📈',
         format: (v: number) => `$${(v / 1000).toFixed(0)}K`,
         value: 125000,
       },
       {
         key: 'quota',
         label: 'Quota Attain',
-        icon: 'ðŸ†',
+        icon: '🏆',
         format: (v: number) => `${v}%`,
         value: 87,
       },
       {
         key: 'cycle',
         label: 'Sales Cycle',
-        icon: 'â±ï¸',
+        icon: '⏱️',
         format: (v: number) => `${v} days`,
         value: 45,
       },
       {
         key: 'meetings',
         label: 'Meetings/Week',
-        icon: 'ðŸ“…',
+        icon: '📅',
         format: (v: number) => v.toString(),
         value: 23,
       },
-      { key: 'churn', label: 'Churn Risk', icon: 'âš ï¸', format: (v: number) => `${v}%`, value: 8 },
+      { key: 'churn', label: 'Churn Risk', icon: '⚠️', format: (v: number) => `${v}%`, value: 8 },
     ],
     Marketing: [
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: 'ðŸ‘¥',
+        icon: '👥',
         format: (v: number) => v.toString(),
         value: 22,
       },
       {
         key: 'cac',
         label: 'CAC',
-        icon: 'ðŸ’µ',
+        icon: '💵',
         format: (v: number) => `$${v.toLocaleString()}`,
         value: 4200,
       },
       {
         key: 'mqls',
         label: 'MQLs/Month',
-        icon: 'ðŸ“Š',
+        icon: '🔒',
         format: (v: number) => v.toLocaleString(),
         value: 847,
       },
       {
         key: 'conversion',
-        label: 'MQLâ†’SQL',
-        icon: 'ðŸŽ¯',
+        label: 'MQL→SQL',
+        icon: '🎯',
         format: (v: number) => `${v}%`,
         value: 24,
       },
       {
         key: 'spend',
         label: 'Monthly Spend',
-        icon: 'ðŸ’°',
+        icon: '💰',
         format: (v: number) => `$${(v / 1000).toFixed(0)}K`,
         value: 320000,
       },
-      { key: 'roi', label: 'Campaign ROI', icon: 'ðŸ“ˆ', format: (v: number) => `${v}x`, value: 3.2 },
+      { key: 'roi', label: 'Campaign ROI', icon: '📈', format: (v: number) => `${v}x`, value: 3.2 },
       {
         key: 'traffic',
         label: 'Web Traffic',
-        icon: 'ðŸŒ',
+        icon: '🌐',
         format: (v: number) => `${(v / 1000).toFixed(0)}K`,
         value: 156000,
       },
       {
         key: 'brand',
         label: 'Brand Score',
-        icon: 'â­',
+        icon: '⭐',
         format: (v: number) => v.toString(),
         value: 72,
       },
@@ -5463,38 +5463,38 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Headcount',
-        icon: 'ðŸ‘¥',
+        icon: '👥',
         format: (v: number) => v.toString(),
         value: 12,
       },
       {
         key: 'burn',
         label: 'Burn Rate',
-        icon: 'ðŸ”¥',
+        icon: '🔥',
         format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`,
         value: 834000,
       },
-      { key: 'runway', label: 'Runway', icon: 'ðŸ›«', format: (v: number) => `${v} mo`, value: 18 },
-      { key: 'ar', label: 'A/R Days', icon: 'ðŸ“‹', format: (v: number) => `${v} days`, value: 38 },
-      { key: 'ap', label: 'A/P Days', icon: 'ðŸ“‘', format: (v: number) => `${v} days`, value: 42 },
+      { key: 'runway', label: 'Runway', icon: '🛫', format: (v: number) => `${v} mo`, value: 18 },
+      { key: 'ar', label: 'A/R Days', icon: '📋', format: (v: number) => `${v} days`, value: 38 },
+      { key: 'ap', label: 'A/P Days', icon: '📑', format: (v: number) => `${v} days`, value: 42 },
       {
         key: 'variance',
         label: 'Budget Var',
-        icon: 'ðŸ“Š',
+        icon: '🔒',
         format: (v: number) => `${v > 0 ? '+' : ''}${v}%`,
         value: -3.2,
       },
       {
         key: 'cash',
         label: 'Cash Position',
-        icon: 'ðŸ’°',
+        icon: '💰',
         format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
         value: 15200000,
       },
       {
         key: 'margin',
         label: 'Gross Margin',
-        icon: 'ðŸ“ˆ',
+        icon: '📈',
         format: (v: number) => `${v}%`,
         value: 68,
       },
@@ -5503,50 +5503,50 @@ const MetricsGrid: React.FC<{
       {
         key: 'headcount',
         label: 'Total HC',
-        icon: 'ðŸ‘¥',
+        icon: '👥',
         format: (v: number) => v.toString(),
         value: 153,
       },
       {
         key: 'openReqs',
         label: 'Open Reqs',
-        icon: 'ðŸ“‹',
+        icon: '📋',
         format: (v: number) => v.toString(),
         value: 12,
       },
       {
         key: 'attrition',
         label: 'Attrition',
-        icon: 'ðŸ“‰',
+        icon: '📉',
         format: (v: number) => `${v}%`,
         value: 8.5,
       },
       {
         key: 'timeToHire',
         label: 'Time to Hire',
-        icon: 'â±ï¸',
+        icon: '⏱️',
         format: (v: number) => `${v} days`,
         value: 38,
       },
-      { key: 'eNPS', label: 'eNPS', icon: 'ðŸ˜Š', format: (v: number) => v.toString(), value: 42 },
+      { key: 'eNPS', label: 'eNPS', icon: '😊', format: (v: number) => v.toString(), value: 42 },
       {
         key: 'tenure',
         label: 'Avg Tenure',
-        icon: 'ðŸ“…',
+        icon: '📅',
         format: (v: number) => `${v} yrs`,
         value: 2.4,
       },
       {
         key: 'diversity',
         label: 'Diversity %',
-        icon: 'ðŸŒˆ',
+        icon: '🌈',
         format: (v: number) => `${v}%`,
         value: 38,
       },
       {
         key: 'training',
         label: 'Training Hrs',
-        icon: 'ðŸ“š',
+        icon: '📚',
         format: (v: number) => `${v}/emp`,
         value: 24,
       },
@@ -5558,56 +5558,56 @@ const MetricsGrid: React.FC<{
     {
       key: 'revenue',
       label: 'Revenue',
-      icon: 'ðŸ’°',
+      icon: '💰',
       format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
       value: snapshot.metrics.revenue,
     },
     {
       key: 'profit',
       label: 'Profit',
-      icon: 'ðŸ“ˆ',
+      icon: '📈',
       format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
       value: snapshot.metrics.profit,
     },
     {
       key: 'employees',
       label: 'Employees',
-      icon: 'ðŸ‘¥',
+      icon: '👥',
       format: (v: number) => v.toLocaleString(),
       value: snapshot.metrics.employees,
     },
     {
       key: 'customers',
       label: 'Customers',
-      icon: 'ðŸ¢',
+      icon: '🏢',
       format: (v: number) => v.toLocaleString(),
       value: snapshot.metrics.customers,
     },
     {
       key: 'satisfaction',
       label: 'NPS Score',
-      icon: 'ðŸ˜Š',
+      icon: '😊',
       format: (v: number) => `${v.toFixed(0)}`,
       value: snapshot.metrics.satisfaction,
     },
     {
       key: 'marketShare',
       label: 'Market Share',
-      icon: 'ðŸŽ¯',
+      icon: '🎯',
       format: (v: number) => `${v.toFixed(1)}%`,
       value: snapshot.metrics.marketShare,
     },
     {
       key: 'burnRate',
       label: 'Burn Rate',
-      icon: 'ðŸ”¥',
+      icon: '🔥',
       format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`,
       value: snapshot.metrics.burnRate,
     },
     {
       key: 'runway',
       label: 'Runway',
-      icon: 'ðŸ›«',
+      icon: '🛫',
       format: (v: number) => `${v} months`,
       value: snapshot.metrics.runway,
     },
@@ -5649,7 +5649,7 @@ const MetricsGrid: React.FC<{
     <div>
       {department !== 'all' && (
         <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700 rounded-lg text-sm text-amber-300 flex items-center justify-between">
-          <span>ðŸ“Š Showing {department} metrics</span>
+          <span>🔒 Showing {department} metrics</span>
           <button
             onClick={() => setShowOrgComparison(!showOrgComparison)}
             className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
@@ -5658,7 +5658,7 @@ const MetricsGrid: React.FC<{
                 : 'bg-neutral-700 text-neutral-300 hover:bg-neutral-600'
             }`}
           >
-            {showOrgComparison ? 'âœ“ Comparing to Org Avg' : 'Compare to Org Avg'}
+            {showOrgComparison ? '✓ Comparing to Org Avg' : 'Compare to Org Avg'}
           </button>
         </div>
       )}
@@ -5685,7 +5685,7 @@ const MetricsGrid: React.FC<{
               <div className="flex items-center gap-2 text-neutral-400 text-sm mb-1">
                 <span>{icon}</span>
                 <span>{label}</span>
-                {isFuture && <span className="text-cyan-400 text-xs">ðŸ”®</span>}
+                {isFuture && <span className="text-cyan-400 text-xs">🔮</span>}
               </div>
               {isFuture && range ? (
                 <>
@@ -5694,7 +5694,7 @@ const MetricsGrid: React.FC<{
                     {format(value)}
                   </div>
                   <div className="text-xs text-cyan-400/80 mt-1 font-mono">
-                    Â±{range.spread.toFixed(0)}% â†’ {format(range.low)} â€“ {format(range.high)}
+                    ±{range.spread.toFixed(0)}% → {format(range.low)} — {format(range.high)}
                   </div>
                   {/* Mini uncertainty bar */}
                   <div className="mt-2 h-1.5 bg-neutral-700 rounded-full overflow-hidden">
@@ -5719,7 +5719,7 @@ const MetricsGrid: React.FC<{
                     variance.isPositive ? 'text-green-400' : 'text-red-400'
                   }`}
                 >
-                  <span>{variance.isPositive ? 'â–²' : 'â–¼'}</span>
+                  <span>{variance.isPositive ? '▲' : '▼'}</span>
                   <span>{variance.percent.toFixed(1)}% vs org avg</span>
                   <span className="text-neutral-500 ml-1">({format(benchmark)})</span>
                 </div>
@@ -5738,7 +5738,7 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
 }) => {
   // Helper to display zeros elegantly
   const displayValue = (value: number, suffix?: string) => {
-    if (value === 0) {return <span className="text-neutral-500">â€”</span>;}
+    if (value === 0) {return <span className="text-neutral-500">—</span>;}
     return suffix ? `${value}${suffix}` : value;
   };
 
@@ -5748,14 +5748,14 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
         <div className="text-sm text-neutral-400 mb-1">Active Agents</div>
         <div className="text-2xl font-bold">{council.activeAgents.length}</div>
         <div className="text-xs text-neutral-500 mt-1 truncate">
-          {council.activeAgents.join(', ') || 'â€”'}
+          {council.activeAgents.join(', ') || '—'}
         </div>
       </div>
       <div className="bg-neutral-800/50 rounded-xl p-4">
         <div className="text-sm text-neutral-400 mb-1">Pending Decisions</div>
         <div className="text-2xl font-bold">
           {council.pendingDecisions === 0 ? (
-            <span className="text-green-400">âœ“ 0</span>
+            <span className="text-green-400">✓ 0</span>
           ) : (
             <span className="text-amber-400">{council.pendingDecisions}</span>
           )}
@@ -5777,9 +5777,9 @@ const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }>
   graph,
   mode: _mode,
 }) => {
-  // Format data points - show "â€”" if zero, otherwise format nicely
+  // Format data points - show "—" if zero, otherwise format nicely
   const formatDataPoints = (value: number) => {
-    if (value === 0) {return <span className="text-neutral-500">â€”</span>;}
+    if (value === 0) {return <span className="text-neutral-500">—</span>;}
     if (value >= 1000000) {return `${(value / 1000000).toFixed(1)}M`;}
     if (value >= 1000) {return `${(value / 1000).toFixed(1)}K`;}
     return value.toLocaleString();
@@ -5859,17 +5859,17 @@ const EventsList: React.FC<{
   const getTypeIcon = (type: TimelineEvent['type']) => {
     switch (type) {
       case 'decision':
-        return 'âš–ï¸';
+        return '⚖️';
       case 'metric':
-        return 'ðŸ“Š';
+        return '🔒';
       case 'personnel':
-        return 'ðŸ‘¤';
+        return '👤';
       case 'financial':
-        return 'ðŸ’µ';
+        return '💵';
       case 'system':
-        return 'âš™ï¸';
+        return '⚙️';
       case 'milestone':
-        return 'ðŸ†';
+        return '🏆';
     }
   };
 
@@ -5878,17 +5878,17 @@ const EventsList: React.FC<{
     const magnitude = event.magnitude || 5;
     if (event.impact === 'negative' && magnitude >= 8) {
       return (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-red-900 text-red-300">ðŸ”´ Critical</span>
+        <span className="text-xs px-1.5 py-0.5 rounded bg-red-900 text-red-300">🔴 Critical</span>
       );
     }
     if (event.impact === 'negative' && magnitude >= 5) {
       return (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-amber-900 text-amber-300">ðŸŸ  High</span>
+        <span className="text-xs px-1.5 py-0.5 rounded bg-amber-900 text-amber-300">😀  High</span>
       );
     }
     if (event.impact === 'positive' && magnitude >= 8) {
       return (
-        <span className="text-xs px-1.5 py-0.5 rounded bg-green-900 text-green-300">ðŸŸ¢ Major</span>
+        <span className="text-xs px-1.5 py-0.5 rounded bg-green-900 text-green-300">😀¢ Major</span>
       );
     }
     return null;
@@ -5899,7 +5899,7 @@ const EventsList: React.FC<{
     if (isUpcoming) {
       return (
         <span className="text-[10px] px-1.5 py-0.5 rounded bg-cyan-900/50 text-cyan-300 border border-cyan-700/50">
-          â³ Upcoming
+          ⏳ Upcoming
         </span>
       );
     }
@@ -5907,14 +5907,14 @@ const EventsList: React.FC<{
     if (hoursAgo < 1) {
       return (
         <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-900/50 text-amber-300 border border-amber-700/50">
-          âš¡ Just now
+          ⚡ Just now
         </span>
       );
     }
     if (hoursAgo < 24) {
       return (
         <span className="text-[10px] px-1.5 py-0.5 rounded bg-neutral-800 text-neutral-400">
-          ðŸ• Today
+          🕐 Today
         </span>
       );
     }
@@ -5926,12 +5926,12 @@ const EventsList: React.FC<{
       {/* Quick Filters */}
       <div className="flex flex-wrap gap-1 mb-3">
         {[
-          { id: 'all', label: 'All', icon: 'ðŸ“‹' },
-          { id: 'compliance', label: 'Compliance', icon: 'âœ…' },
-          { id: 'financial', label: 'Financial', icon: 'ðŸ’°' },
-          { id: 'operational', label: 'Operational', icon: 'âš™ï¸' },
-          { id: 'people', label: 'People', icon: 'ðŸ‘¥' },
-          { id: 'security', label: 'Security', icon: 'ðŸ”’' },
+          { id: 'all', label: 'All', icon: '📋' },
+          { id: 'compliance', label: 'Compliance', icon: '✅' },
+          { id: 'financial', label: 'Financial', icon: '💰' },
+          { id: 'operational', label: 'Operational', icon: '⚙️' },
+          { id: 'people', label: 'People', icon: '👥' },
+          { id: 'security', label: 'Security', icon: '🔒' },
         ].map((f) => (
           <button
             key={f.id}
@@ -5955,7 +5955,7 @@ const EventsList: React.FC<{
           </div>
           {upcomingEvents.map((event) => (
             <div key={event.id} className="flex items-center gap-2 text-xs text-cyan-300/70 py-1">
-              <span>â³</span>
+              <span>⏳</span>
               <span className="truncate">{event.title}</span>
             </div>
           ))}
@@ -5999,7 +5999,7 @@ const EventsList: React.FC<{
                     {getTimelineMarker(event, false)}
                   </div>
                   <p className="text-xs text-neutral-500">
-                    {event.timestamp.toLocaleDateString()} â€¢ {event.department || 'Organization'}
+                    {event.timestamp.toLocaleDateString()} • {event.department || 'Organization'}
                   </p>
                 </div>
                 <div className="flex flex-col gap-1">
@@ -6016,7 +6016,7 @@ const EventsList: React.FC<{
                       }}
                       className="text-[10px] bg-cyan-600/30 text-cyan-400 px-2 py-0.5 rounded hover:bg-cyan-600/50 transition-colors"
                     >
-                      ðŸ” Witness
+                      🔍 Witness
                     </button>
                   )}
                 </div>
@@ -6031,7 +6031,7 @@ const EventsList: React.FC<{
 };
 
 // =============================================================================
-// EVENT WITNESS MODAL - CendiaWitnessâ„¢ View for Events
+// EVENT WITNESS MODAL - CendiaWitness™ View for Events
 // =============================================================================
 const EventWitnessModal: React.FC<{
   event: TimelineEvent;
@@ -6104,13 +6104,13 @@ const EventWitnessModal: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <span className="text-2xl">ðŸ”</span>
-                <h2 className="text-xl font-semibold">CendiaWitnessâ„¢</h2>
+                <span className="text-2xl">🔍</span>
+                <h2 className="text-xl font-semibold">CendiaWitness™</h2>
               </div>
               <p className="text-sm text-neutral-400">Immutable evidence record for this event</p>
             </div>
             <button onClick={onClose} className="text-neutral-400 hover:text-white p-2">
-              âœ•
+              ✕
             </button>
           </div>
         </div>
@@ -6127,7 +6127,7 @@ const EventWitnessModal: React.FC<{
                   className="block font-mono text-cyan-400 hover:text-cyan-300 hover:underline transition-colors"
                   title="Open in Decision DNA with this event highlighted"
                 >
-                  {decisionId} â†—
+                  {decisionId} ↗
                 </button>
               </div>
               <div>
@@ -6162,10 +6162,10 @@ const EventWitnessModal: React.FC<{
                   }`}
                 >
                   {event.impact === 'positive'
-                    ? 'âœ“ Approved'
+                    ? '✓ Approved'
                     : event.impact === 'negative'
-                      ? 'âœ— Rejected / Escalated'
-                      : 'â³ Pending Review'}
+                      ? '✗ Rejected / Escalated'
+                      : '⏳ Pending Review'}
                 </p>
               </div>
             </div>
@@ -6189,7 +6189,7 @@ const EventWitnessModal: React.FC<{
               {governancePolicy.quorumObtained < governancePolicy.quorumRequired && (
                 <div className="mt-2 px-3 py-2 bg-red-900/30 border border-red-700/50 rounded-lg">
                   <p className="text-red-400 text-xs font-medium">
-                    âš ï¸ Status: Blocked (Security sign-off missing)
+                    ⚠️ Status: Blocked (Security sign-off missing)
                   </p>
                 </div>
               )}
@@ -6208,7 +6208,7 @@ const EventWitnessModal: React.FC<{
                   className="flex items-center justify-between p-3 bg-neutral-800/50 rounded-lg"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-lg">{approver.status === 'approved' ? 'âœ…' : 'â³'}</span>
+                    <span className="text-lg">{approver.status === 'approved' ? '✅' : '⏳'}</span>
                     <div>
                       <p className="font-medium">{approver.name}</p>
                       <p className="text-xs text-neutral-500">{approver.role}</p>
@@ -6244,16 +6244,16 @@ const EventWitnessModal: React.FC<{
             <div className="grid grid-cols-2 gap-3">
               {event.deliberationId && (
                 <div className="p-3 bg-amber-900/20 border border-amber-700/50 rounded-lg">
-                  <p className="text-xs text-amber-400 font-medium mb-1">ðŸ“‹ Council Minutes</p>
+                  <p className="text-xs text-amber-400 font-medium mb-1">📋 Council Minutes</p>
                   <p className="text-[10px] text-neutral-400 font-mono">{event.deliberationId}</p>
                 </div>
               )}
               <div className="p-3 bg-purple-900/20 border border-purple-700/50 rounded-lg">
-                <p className="text-xs text-purple-400 font-medium mb-1">ðŸ“Š Executive Brief</p>
+                <p className="text-xs text-purple-400 font-medium mb-1">🔒 Executive Brief</p>
                 <p className="text-[10px] text-neutral-400">Auto-generated summary</p>
               </div>
               <div className="p-3 bg-cyan-900/20 border border-cyan-700/50 rounded-lg">
-                <p className="text-xs text-cyan-400 font-medium mb-1">â° Chronos Timestamp</p>
+                <p className="text-xs text-cyan-400 font-medium mb-1">⏰ Chronos Timestamp</p>
                 <p className="text-[10px] text-neutral-400 font-mono">
                   {event.timestamp.toISOString()}
                 </p>
@@ -6262,7 +6262,7 @@ const EventWitnessModal: React.FC<{
                 className="p-3 bg-green-900/20 border border-green-700/50 rounded-lg cursor-help"
                 title="Hash of this event's record, anchored in the Chronos immutable ledger. Any tampering would change this value."
               >
-                <p className="text-xs text-green-400 font-medium mb-1">ðŸ” Ledger Hash (Chronos)</p>
+                <p className="text-xs text-green-400 font-medium mb-1">🔐 Ledger Hash (Chronos)</p>
                 <p className="text-[10px] text-neutral-400 font-mono truncate">
                   sha256:{event.id.slice(0, 16)}...
                 </p>
@@ -6279,7 +6279,7 @@ const EventWitnessModal: React.FC<{
                 onClick={() => onOpenTraceability(event)}
                 className="flex-1 px-3 py-2 bg-indigo-600/30 border border-indigo-500/50 text-indigo-300 rounded-lg text-sm font-medium hover:bg-indigo-600/50 transition-colors flex items-center justify-center gap-2"
               >
-                ðŸ”— Full Traceability
+                🔗 Full Traceability
               </button>
             )}
             {onOpenComplianceSnapshot && (
@@ -6287,7 +6287,7 @@ const EventWitnessModal: React.FC<{
                 onClick={() => onOpenComplianceSnapshot(event)}
                 className="flex-1 px-3 py-2 bg-emerald-600/30 border border-emerald-500/50 text-emerald-300 rounded-lg text-sm font-medium hover:bg-emerald-600/50 transition-colors flex items-center justify-center gap-2"
               >
-                âœ“ Compliance Snapshot
+                ✓ Compliance Snapshot
               </button>
             )}
           </div>
@@ -6296,7 +6296,7 @@ const EventWitnessModal: React.FC<{
               onClick={() => onOpenInChronos(event.timestamp)}
               className="flex-1 px-4 py-3 bg-gradient-to-r from-amber-600 to-orange-600 rounded-lg font-medium hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
             >
-              âª Open this moment in Chronos Replay
+              ⏪ Open this moment in Chronos Replay
             </button>
             <button
               onClick={onClose}
@@ -6321,7 +6321,7 @@ const VariableSelector: React.FC<{ onCreateBranch: () => void }> = ({ onCreateBr
       onClick={onCreateBranch}
       className="w-full py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-semibold hover:opacity-90 transition-opacity"
     >
-      ðŸ”€ Create Alternate Timeline
+      🔀 Create Alternate Timeline
     </button>
   </div>
 );
@@ -6354,15 +6354,15 @@ const BranchList: React.FC<{
             }`}
           >
             {branch.outcome === 'better'
-              ? 'âœ“ Better'
+              ? '✓ Better'
               : branch.outcome === 'worse'
-                ? 'âœ— Worse'
-                : 'â‰ˆ Similar'}
+                ? '✗ Worse'
+                : '≈ Similar'}
           </span>
         </div>
         <div className="text-sm text-neutral-400">
           <span className="line-through text-red-400">{branch.original}</span>
-          {' â†’ '}
+          {' → '}
           <span className="text-green-400">{branch.alternate}</span>
         </div>
         <div className="flex gap-4 mt-2 text-sm">
@@ -6391,7 +6391,7 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
           <span className="text-neutral-400 flex items-center gap-1">
             Forecast Confidence (MAPE-based)
             <span className="relative group">
-              <span className="text-neutral-500 cursor-help">â“˜</span>
+              <span className="text-neutral-500 cursor-help">ⓘ</span>
               <span className="absolute bottom-full left-0 mb-2 w-64 p-2 bg-neutral-800 border border-neutral-600 rounded-lg text-xs text-neutral-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
                 <strong className="text-white">Forecast Confidence</strong> = 100% - MAPE (Mean Absolute Percentage Error) from backtested predictions at similar horizons. Decays ~0.3% per day of forecast distance.
               </span>
@@ -6406,7 +6406,7 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
                   : 'text-red-400'
             }
           >
-            {confidence > 70 ? 'âœ“ ' : confidence > 40 ? 'â— ' : 'âš  '}
+            {confidence > 70 ? '✓ ' : confidence > 40 ? '◐ ' : '⚠ '}
             {confidence.toFixed(0)}%
           </span>
         </div>
@@ -6539,11 +6539,11 @@ const AuditExport: React.FC<{
 <body>
   <div class="header">
     <div class="logo">DATACENDIA</div>
-    <div class="subtitle">CendiaChronosâ„¢ Audit Package</div>
+    <div class="subtitle">CendiaChronos™ Audit Package</div>
   </div>
   
   <div class="section">
-    <h2>ðŸ“‹ Audit Information</h2>
+    <h2>📋 Audit Information</h2>
     <div class="metadata">
       <span class="label">Generated:</span><span>${new Date().toLocaleString()}</span>
       <span class="label">Snapshot Date:</span><span>${currentDate.toLocaleString()}</span>
@@ -6553,12 +6553,12 @@ const AuditExport: React.FC<{
   </div>
   
   <div class="section">
-    <h2>ðŸ” Cryptographic Proof</h2>
+    <h2>🔐 Cryptographic Proof</h2>
     <div class="proof-box">
       <div><strong>Hash:</strong> ${hash}</div>
       <div><strong>Algorithm:</strong> SHA-256</div>
       <div><strong>Timestamp:</strong> ${timestamp}</div>
-      <div><strong>Signer:</strong> CendiaChronosâ„¢</div>
+      <div><strong>Signer:</strong> CendiaChronos™</div>
     </div>
   </div>
 
@@ -6582,12 +6582,12 @@ const AuditExport: React.FC<{
   </div>
   
   <div class="section page-break">
-    <h2>ðŸ¤– Council Deliberations (${realDeliberations.length})</h2>
+    <h2>🤖 Council Deliberations (${realDeliberations.length})</h2>
     ${deliberationsHTML || '<p>No deliberations in this audit package.</p>'}
   </div>
   
   <div class="section page-break">
-    <h2>ðŸ“… Timeline Events (${snapshotEvents.length})</h2>
+    <h2>📅 Timeline Events (${snapshotEvents.length})</h2>
     <table>
       <thead>
         <tr>
@@ -6606,7 +6606,7 @@ const AuditExport: React.FC<{
   </div>
   
   <div class="footer">
-    <div class="stamp">âœ“ VERIFIED AUTHENTIC</div>
+    <div class="stamp">✓ VERIFIED AUTHENTIC</div>
     <p>This document was automatically generated by Datacendia Sovereign Stack.<br/>
     For verification, contact compliance@datacendia.com</p>
   </div>
@@ -6746,7 +6746,7 @@ const AuditExport: React.FC<{
             hash: `sha256:${hashHex.slice(0, 16)}`,
             fullHash: hashHex,
             timestamp: new Date().toISOString(),
-            signer: 'CendiaChronosâ„¢ (client-side)',
+            signer: 'CendiaChronos™ (client-side)',
             algorithm: 'SHA-256',
           },
         };
@@ -6862,7 +6862,7 @@ const AuditExport: React.FC<{
           hash: `sha256:${hashHex.slice(0, 16)}`,
           fullHash: hashHex,
           timestamp: new Date().toISOString(),
-          signer: 'CendiaChronosâ„¢',
+          signer: 'CendiaChronos™',
           algorithm: 'SHA-256',
         },
       };
@@ -6908,7 +6908,7 @@ const AuditExport: React.FC<{
           disabled={exporting !== null}
           className="w-full py-3 bg-amber-600 hover:bg-amber-500 disabled:opacity-50 rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2"
         >
-          {exporting === 'viewer' ? 'â³ Opening...' : 'ðŸ“Š Open Audit Viewer'}
+          {exporting === 'viewer' ? '⏳ Opening...' : '🔒 Open Audit Viewer'}
         </button>
         
         <div className="grid grid-cols-2 gap-2">
@@ -6917,14 +6917,14 @@ const AuditExport: React.FC<{
             disabled={exporting !== null}
             className="py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
           >
-            {exporting === 'pdf' ? 'â³...' : 'ðŸ“„ PDF'}
+            {exporting === 'pdf' ? '⏳...' : '📄 PDF'}
           </button>
           <button
             onClick={handleExportJSON}
             disabled={exporting !== null}
             className="py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
           >
-            {exporting === 'json' ? 'â³...' : 'ðŸ“¦ JSON'}
+            {exporting === 'json' ? '⏳...' : '📦 JSON'}
           </button>
         </div>
         
@@ -6933,7 +6933,7 @@ const AuditExport: React.FC<{
           disabled={exporting !== null || !auditData}
           className="w-full py-2 bg-neutral-800 hover:bg-neutral-700 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors border border-neutral-600"
         >
-          {exporting === 'bundle' ? 'â³ Downloading...' : 'ðŸ“ Download Full Bundle (HTML + JSON)'}
+          {exporting === 'bundle' ? '⏳ Downloading...' : '📁 Download Full Bundle (HTML + JSON)'}
         </button>
       </div>
       <p className="text-xs text-neutral-500">
@@ -6990,13 +6990,13 @@ const BranchModal: React.FC<{
         <div className="bg-gradient-to-r from-purple-900 to-pink-900 p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-bold">ðŸ”€ Create Alternate Timeline</h2>
+              <h2 className="text-xl font-bold">🔀 Create Alternate Timeline</h2>
               <p className="text-purple-200 text-sm mt-1">
                 Branch from {branchPoint.toLocaleDateString()}
               </p>
             </div>
             <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
-              Ã—
+              ×
             </button>
           </div>
         </div>
@@ -7062,7 +7062,7 @@ const BranchModal: React.FC<{
                 : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
             }`}
           >
-            ðŸŒ€ Simulate Alternate Timeline
+            🌀 Simulate Alternate Timeline
           </button>
         </div>
       </div>
@@ -7102,7 +7102,7 @@ const DiffView: React.FC<{
     <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold flex items-center gap-2">
-          âš–ï¸ Diff View
+          ⚖️ Diff View
           <span className="text-sm font-normal text-neutral-500">Compare two points in time</span>
         </h2>
         <div className="flex gap-2">
@@ -7130,7 +7130,7 @@ const DiffView: React.FC<{
         </div>
         <div className="text-center p-3 bg-neutral-800 rounded-lg">
           <div className="text-sm text-neutral-400">vs</div>
-          <div className="font-bold text-2xl">âš–ï¸</div>
+          <div className="font-bold text-2xl">⚖️</div>
         </div>
         <div className="text-center p-3 bg-neutral-800 rounded-lg">
           <div className="text-sm text-neutral-400">With</div>
@@ -7160,7 +7160,7 @@ const DiffView: React.FC<{
                 <div
                   className={`text-right font-bold ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}
                 >
-                  {diff >= 0 ? 'â†‘' : 'â†“'} {Math.abs(pctChange).toFixed(1)}%
+                  {diff >= 0 ? '↑' : '↓'} {Math.abs(pctChange).toFixed(1)}%
                 </div>
               </div>
             );
@@ -7171,7 +7171,7 @@ const DiffView: React.FC<{
   );
 };
 
-// CendiaReplayâ„¢
+// CendiaReplay™
 const CouncilTheater: React.FC<{
   replay: CouncilReplay | null;
   onClose: () => void;
@@ -7192,8 +7192,8 @@ const CouncilTheater: React.FC<{
   if (!replay) {
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 text-center">
-        <span className="text-6xl mb-4 block">ðŸŽ¬</span>
-        <h2 className="text-xl font-bold mb-2">CendiaReplayâ„¢</h2>
+        <span className="text-6xl mb-4 block">🎬</span>
+        <h2 className="text-xl font-bold mb-2">CendiaReplay™</h2>
         <p className="text-neutral-400">Select an event with a deliberation to replay</p>
       </div>
     );
@@ -7237,11 +7237,11 @@ const CouncilTheater: React.FC<{
       <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold flex items-center gap-2">ðŸŽ¬ CendiaReplayâ„¢</h2>
+            <h2 className="text-xl font-bold flex items-center gap-2">🎬 CendiaReplay™</h2>
             <p className="text-amber-200 text-sm">{replay.query}</p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white">
-            âœ•
+            ✕
           </button>
         </div>
       </div>
@@ -7312,13 +7312,13 @@ const CouncilTheater: React.FC<{
               }}
               className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg font-medium"
             >
-              â–¶ï¸ Play from Start
+              ▶️ Play from Start
             </button>
             <button
               onClick={() => setIsPlaying(!isPlaying)}
               className="px-4 py-2 bg-neutral-700 hover:bg-neutral-600 rounded-lg"
             >
-              {isPlaying ? 'â¸ï¸ Pause' : 'â–¶ï¸ Resume'}
+              {isPlaying ? '⏸️ Pause' : '▶️ Resume'}
             </button>
           </div>
           <div className="text-right">
@@ -7363,7 +7363,7 @@ const ImpactTraceView: React.FC<{
   if (!causalChain) {
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800 text-center">
-        <span className="text-6xl mb-4 block">ðŸ”—</span>
+        <span className="text-6xl mb-4 block">🔗</span>
         <h2 className="text-xl font-bold mb-2">Impact Trace</h2>
         <p className="text-neutral-400">Select an event to trace its ripple effects</p>
       </div>
@@ -7377,9 +7377,9 @@ const ImpactTraceView: React.FC<{
       <div className="bg-gradient-to-r from-blue-900 to-indigo-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold">ðŸ”— Impact Trace: Causal Analysis</h2>
+            <h2 className="text-xl font-bold">🔗 Impact Trace: Causal Analysis</h2>
             <p className="text-blue-200 text-sm">
-              Root Cause: {causalChain.rootCause.title} â€¢
+              Root Cause: {causalChain.rootCause.title} •
               <span className="text-blue-300 ml-1">Causal chain (0 to +{maxDelay} days)</span>
             </p>
           </div>
@@ -7389,10 +7389,10 @@ const ImpactTraceView: React.FC<{
               className="px-3 py-1.5 bg-purple-600/50 hover:bg-purple-600 border border-purple-500 rounded-lg text-xs font-medium transition-colors"
               title="Run stress test on this causal chain"
             >
-              ðŸ§ª Stress Test in Crucible
+              🧪 Stress Test in Crucible
             </button>
             <button onClick={onClose} className="text-white/60 hover:text-white p-2">
-              âœ•
+              ✕
             </button>
           </div>
         </div>
@@ -7406,21 +7406,21 @@ const ImpactTraceView: React.FC<{
           title="This is a governed decision. View full timeline in Decision DNA."
         >
           <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-2xl">
-            ðŸŽ¯
+            🎯
           </div>
           <div className="flex-1">
             <div className="font-bold text-lg flex items-center gap-2">
               {causalChain.rootCause.title}
               <span className="text-xs text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                â†— View in DNA
+                ↗ View in DNA
               </span>
             </div>
             <div className="text-sm text-neutral-400">
-              {causalChain.rootCause.timestamp.toLocaleDateString()} â€¢{' '}
+              {causalChain.rootCause.timestamp.toLocaleDateString()} •{' '}
               {causalChain.rootCause.department}
             </div>
             <div className="text-xs text-neutral-500 mt-1">
-              ðŸ“‹ Governed decision â€¢ Click to view full timeline
+              📋 Governed decision • Click to view full timeline
             </div>
           </div>
         </div>
@@ -7429,7 +7429,7 @@ const ImpactTraceView: React.FC<{
         {causalChain.effects.some((e: any) => e.isPrediction) && (
           <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700/50 rounded-lg">
             <p className="text-amber-400 text-xs font-medium flex items-center gap-2">
-              <span>ðŸ”®</span>
+              <span>🔮</span>
               <span>
                 AI Predictions: The following are model-predicted downstream effects based on
                 historical patterns. Actual outcomes may vary.
@@ -7505,10 +7505,10 @@ const ImpactTraceView: React.FC<{
                 >
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-2">
-                      {effect.isPrediction && <span className="text-amber-400 text-xs">ðŸ”®</span>}
+                      {effect.isPrediction && <span className="text-amber-400 text-xs">🔮</span>}
                       <span className="font-medium">{effect.event.title}</span>
                       <span className="text-xs text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                        â†—
+                        ↗
                       </span>
                     </div>
                     <div className="text-right">
@@ -7527,7 +7527,7 @@ const ImpactTraceView: React.FC<{
                       <span className="text-neutral-400">Contribution:</span>
                       <span className="text-green-400 font-semibold">+{contributionPct}%</span>
                     </div>
-                    <span className="text-neutral-600">â€¢</span>
+                    <span className="text-neutral-600">•</span>
                     <div className="flex items-center gap-2">
                       <span className="text-neutral-400">Confidence:</span>
                       <span className={`font-medium ${confidence.color}`}>{confidence.label}</span>
@@ -7555,12 +7555,12 @@ const ImpactTraceView: React.FC<{
         {/* Total Impact with Counterfactual */}
         <div className="mt-6 p-4 bg-blue-900/20 rounded-xl border border-blue-800">
           <div className="flex items-center justify-between mb-3">
-            <h3 className="font-semibold">ðŸ“Š Total Impact</h3>
+            <h3 className="font-semibold">🔒 Total Impact</h3>
             <button
               onClick={() => setShowBreakdown(!showBreakdown)}
               className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
             >
-              {showBreakdown ? 'â† Hide breakdown' : 'View impact breakdown â†’'}
+              {showBreakdown ? '← Hide breakdown' : 'View impact breakdown →'}
             </button>
           </div>
 
@@ -7663,7 +7663,7 @@ const ImpactTraceView: React.FC<{
         <div className="mt-4 flex items-center justify-between text-xs text-neutral-500">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
-              ðŸ“‹ <span>Council/DNA</span> â†’ <span>Chronos</span> â†’{' '}
+              📋 <span>Council/DNA</span> → <span>Chronos</span> →{' '}
               <span className="text-blue-400">Impact Trace</span>
             </span>
           </div>
@@ -7671,7 +7671,7 @@ const ImpactTraceView: React.FC<{
             onClick={openCrucible}
             className="text-purple-400 hover:text-purple-300 transition-colors flex items-center gap-1"
           >
-            ðŸ§ª Run stress test in CendiaCrucibleâ„¢ â†’
+            🧪 Run stress test in CendiaCrucible™ →
           </button>
         </div>
       </div>
@@ -7697,7 +7697,7 @@ const MonteCarloView: React.FC<{
     return (
       <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-          ðŸŽ² Monte Carlo Simulation
+          🎲 Monte Carlo Simulation
         </h2>
         <p className="text-neutral-400 mb-6">
           Run 10,000+ simulations to find the optimal decision path with probability distributions.
@@ -7725,13 +7725,13 @@ const MonteCarloView: React.FC<{
       <div className="bg-gradient-to-r from-green-900 to-emerald-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold">ðŸŽ² Monte Carlo Results</h2>
+            <h2 className="text-xl font-bold">🎲 Monte Carlo Results</h2>
             <p className="text-green-200 text-sm">
-              Variable: {result.variable} â€¢ {result.simulations.toLocaleString()} simulations
+              Variable: {result.variable} • {result.simulations.toLocaleString()} simulations
             </p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white">
-            âœ•
+            ✕
           </button>
         </div>
       </div>
@@ -7770,7 +7770,7 @@ const MonteCarloView: React.FC<{
         {/* Optimal Path */}
         <div className="p-4 bg-green-900/20 rounded-xl border border-green-700 mb-6">
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-xl">ðŸ†</span>
+            <span className="text-xl">🏆</span>
             <span className="font-semibold">Optimal Path</span>
           </div>
           <p className="text-green-300">{result.optimalPath}</p>
@@ -7812,18 +7812,18 @@ const PivotalMomentsPanel: React.FC<{
     // Cap at 100 for display purposes
     const cappedValue = Math.min(significance, 100);
     if (cappedValue >= 90)
-      {return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: 'ðŸ”´' };}
+      {return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: '🔴' };}
     if (cappedValue >= 70)
-      {return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: 'ðŸŸ ' };}
+      {return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: '😀 ' };}
     if (cappedValue >= 50)
-      {return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: 'ðŸŸ¡' };}
-    return { label: 'Notable', color: 'bg-neutral-700 text-neutral-300', icon: 'ðŸ”µ' };
+      {return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: '😀¡' };}
+    return { label: 'Notable', color: 'bg-neutral-700 text-neutral-300', icon: '🔵' };
   };
 
   return (
     <div className="bg-neutral-900 rounded-2xl p-4 border border-neutral-800">
       <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3 flex items-center gap-2">
-        âš¡ AI-Detected Pivotal Moments
+        ⚡ AI-Detected Pivotal Moments
       </h3>
       <div className="space-y-2 max-h-64 overflow-y-auto">
         {moments.map((moment) => {
@@ -7879,7 +7879,7 @@ const AnimatedGraphPreview: React.FC<{
 }> = ({ nodes, snapshot }) => (
   <div className="bg-neutral-900 rounded-2xl p-4 border border-neutral-800">
     <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3">
-      ðŸ•¸ï¸ Knowledge Graph State
+      🕸️ Knowledge Graph State
     </h3>
     <div className="relative h-40 bg-neutral-800/50 rounded-lg overflow-hidden">
       {/* Animated nodes */}
@@ -7936,7 +7936,7 @@ const STERLING_UNIVERSES: Universe[] = [
     description: 'Enter cyber insurance market with $180M capital allocation',
     decision: 'Proceed with full commitment, hire 12 underwriters, launch Q2',
     color: '#10B981',
-    icon: 'ðŸš€',
+    icon: '🚀',
     probability: 74,
     npv: 340000000,
     reversibilityScore: 23,
@@ -7963,7 +7963,7 @@ const STERLING_UNIVERSES: Universe[] = [
     description: 'MGA partnership with CyberSure instead of direct entry',
     decision: 'Sign 5-year MGA agreement, 60/40 revenue share',
     color: '#3B82F6',
-    icon: 'ðŸ¤',
+    icon: '🤝',
     probability: 68,
     npv: 95000000,
     reversibilityScore: 75,
@@ -7989,7 +7989,7 @@ const STERLING_UNIVERSES: Universe[] = [
     description: 'Monitor market, defer entry decision',
     decision: 'Continue monitoring, revisit in Q1 2027',
     color: '#6B7280',
-    icon: 'â¸ï¸',
+    icon: '⏸️',
     probability: 58,
     npv: 180000000,
     reversibilityScore: 95,
@@ -8019,7 +8019,7 @@ const NORDIC_UNIVERSES: Universe[] = [
     description: 'Air-gapped on-premise deployment with dedicated support',
     decision: 'Deploy CendiaCore sovereign edition in Frankfurt data center',
     color: '#10B981',
-    icon: 'ðŸ°',
+    icon: '🏰',
     probability: 82,
     npv: 42000000,
     reversibilityScore: 45,
@@ -8045,7 +8045,7 @@ const NORDIC_UNIVERSES: Universe[] = [
     description: 'Shared infrastructure with data residency guarantees',
     decision: 'Deploy on EU-hosted cloud with encryption keys on-premise',
     color: '#3B82F6',
-    icon: 'â˜ï¸',
+    icon: '☁️',
     probability: 75,
     npv: 28000000,
     reversibilityScore: 80,
@@ -8070,7 +8070,7 @@ const NORDIC_UNIVERSES: Universe[] = [
     description: 'Wait for regulatory clarity before deployment',
     decision: 'Pause project until EU AI Act implementation guidance',
     color: '#6B7280',
-    icon: 'â¸ï¸',
+    icon: '⏸️',
     probability: 45,
     npv: 18000000,
     reversibilityScore: 95,
@@ -8099,7 +8099,7 @@ const ATLAS_UNIVERSES: Universe[] = [
     description: 'Acquire Vertex Technology Solutions for $412M',
     decision: 'Proceed with M&A, integrate IoT capabilities',
     color: '#10B981',
-    icon: 'ðŸŽ¯',
+    icon: '🎯',
     probability: 74,
     npv: 340000000,
     reversibilityScore: 23,
@@ -8126,7 +8126,7 @@ const ATLAS_UNIVERSES: Universe[] = [
     description: 'Joint venture instead of acquisition',
     decision: 'Sign 5-year JV agreement with Vertex, co-develop IoT',
     color: '#3B82F6',
-    icon: 'ðŸ¤',
+    icon: '🤝',
     probability: 70,
     npv: 145000000,
     reversibilityScore: 75,
@@ -8151,7 +8151,7 @@ const ATLAS_UNIVERSES: Universe[] = [
     description: 'Build IoT capability in-house with $165M R&D budget',
     decision: 'Hire 50 engineers, build from scratch over 24 months',
     color: '#6B7280',
-    icon: 'ðŸ”§',
+    icon: '🔧',
     probability: 62,
     npv: 95000000,
     reversibilityScore: 85,
@@ -8181,7 +8181,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     description: 'Fast-track renewable transition with $500M investment',
     decision: 'Acquire solar assets, build battery storage, decommission coal by 2027',
     color: '#10B981',
-    icon: 'âš¡',
+    icon: '⚡',
     probability: 68,
     npv: 280000000,
     reversibilityScore: 35,
@@ -8208,7 +8208,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     description: 'Phased 10-year transition with lower risk',
     decision: 'Maintain coal through 2030, gradual renewable build-out',
     color: '#3B82F6',
-    icon: 'ðŸ“ˆ',
+    icon: '📈',
     probability: 78,
     npv: 180000000,
     reversibilityScore: 75,
@@ -8221,7 +8221,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     },
     timeline: [
       { id: 'e1', dayOffset: 0, title: 'Phased Plan Approved', description: '10-year transition roadmap adopted', type: 'milestone', impact: 'neutral', confidence: 95 },
-      { id: 'e2', dayOffset: 365, title: 'Carbon Tax Increases', description: 'EU carbon price rises to â‚¬120/ton', type: 'external', impact: 'negative', confidence: 72 },
+      { id: 'e2', dayOffset: 365, title: 'Carbon Tax Increases', description: 'EU carbon price rises to €120/ton', type: 'external', impact: 'negative', confidence: 72 },
       { id: 'e3', dayOffset: 730, title: 'Stranded Asset Risk', description: 'Coal plants written down by $180M', type: 'risk', impact: 'negative', confidence: 65 },
       { id: 'e4', dayOffset: 1095, title: 'Investor Pressure', description: 'ESG funds divest, stock -12%', type: 'external', impact: 'negative', confidence: 58 },
       { id: 'e5', dayOffset: 1460, title: 'Accelerated Timeline Forced', description: 'Board demands faster transition', type: 'pivot', impact: 'negative', confidence: 55 },
@@ -8233,7 +8233,7 @@ const QUANTUM_UNIVERSES: Universe[] = [
     description: 'Continue current operations, minimal renewable investment',
     decision: 'Focus on operational efficiency, defer major capital decisions',
     color: '#6B7280',
-    icon: 'ðŸ­',
+    icon: '🏭',
     probability: 55,
     npv: 45000000,
     reversibilityScore: 90,
@@ -8263,7 +8263,7 @@ const NEXUS_UNIVERSES: Universe[] = [
     description: 'Raise prices 15% across all product lines',
     decision: 'Implement premium pricing with enhanced service tier',
     color: '#10B981',
-    icon: 'ðŸ’Ž',
+    icon: '💎',
     probability: 65,
     npv: 124000000,
     reversibilityScore: 70,
@@ -8288,7 +8288,7 @@ const NEXUS_UNIVERSES: Universe[] = [
     description: 'Cut prices 10% to gain market share',
     decision: 'Aggressive pricing to capture mid-market',
     color: '#3B82F6',
-    icon: 'ðŸ“‰',
+    icon: '📉',
     probability: 72,
     npv: 85000000,
     reversibilityScore: 45,
@@ -8313,7 +8313,7 @@ const NEXUS_UNIVERSES: Universe[] = [
     description: 'Introduce Good/Better/Best pricing tiers',
     decision: 'Segment pricing with 3-tier structure',
     color: '#8B5CF6',
-    icon: 'ðŸ“Š',
+    icon: '🔒',
     probability: 78,
     npv: 145000000,
     reversibilityScore: 65,
@@ -8342,7 +8342,7 @@ const MERIDIAN_UNIVERSES: Universe[] = [
     description: 'Hire 200 nurses in 90 days with signing bonuses',
     decision: 'Launch $5M recruitment blitz with $15K signing bonuses',
     color: '#10B981',
-    icon: 'ðŸš€',
+    icon: '🚀',
     probability: 72,
     npv: 28000000,
     reversibilityScore: 35,
@@ -8368,7 +8368,7 @@ const MERIDIAN_UNIVERSES: Universe[] = [
     description: 'Partner with nursing schools for 2-year talent pipeline',
     decision: 'Invest $2M in scholarship program with employment commitment',
     color: '#3B82F6',
-    icon: 'ðŸŽ“',
+    icon: '🎓',
     probability: 85,
     npv: 42000000,
     reversibilityScore: 75,
@@ -8393,7 +8393,7 @@ const MERIDIAN_UNIVERSES: Universe[] = [
     description: 'Rely on travel nurses and staffing agencies',
     decision: 'Outsource 30% of nursing staff to agencies',
     color: '#6B7280',
-    icon: 'ðŸ¢',
+    icon: '🏢',
     probability: 90,
     npv: 12000000,
     reversibilityScore: 85,
@@ -8422,7 +8422,7 @@ const PACIFIC_UNIVERSES: Universe[] = [
     description: 'Build distribution hub in Ho Chi Minh City',
     decision: 'Invest $45M in Vietnam operations, 18-month build',
     color: '#10B981',
-    icon: 'ðŸŒ',
+    icon: '🌏',
     probability: 68,
     npv: 95000000,
     reversibilityScore: 25,
@@ -8448,7 +8448,7 @@ const PACIFIC_UNIVERSES: Universe[] = [
     description: 'JV with Vietnamese logistics company',
     decision: 'Form 51/49 joint venture with Vietrans Corp',
     color: '#3B82F6',
-    icon: 'ðŸ¤',
+    icon: '🤝',
     probability: 78,
     npv: 62000000,
     reversibilityScore: 60,
@@ -8473,7 +8473,7 @@ const PACIFIC_UNIVERSES: Universe[] = [
     description: 'Double down on existing APAC routes',
     decision: 'Invest $25M in capacity expansion on proven routes',
     color: '#6B7280',
-    icon: 'ðŸ ',
+    icon: '🏠',
     probability: 88,
     npv: 45000000,
     reversibilityScore: 80,
@@ -8553,7 +8553,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl font-bold flex items-center gap-3">
-              ðŸŒ Parallel Universe Simulation
+              🌍 Parallel Universe Simulation
               <span className="text-xs font-normal text-purple-300 bg-purple-800/50 px-2 py-1 rounded">
                 Branching Timelines
               </span>
@@ -8562,7 +8562,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
               "Most BI tools show a flat line. We show divergent futures."
             </p>
           </div>
-          <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">âœ•</button>
+          <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">✕</button>
         </div>
 
         {/* Scenario Selector */}
@@ -8609,7 +8609,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             {/* Decision node */}
             <div className="absolute left-0 top-1/2 -translate-y-1/2 w-28 text-center z-10">
               <div className="w-12 h-12 mx-auto bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-2xl shadow-lg shadow-purple-500/50 border-2 border-white/30">
-                âš¡
+                ⚡
               </div>
               <div className="text-xs text-purple-300 mt-1 font-semibold">DECISION</div>
               <div className="text-[10px] text-neutral-500">Point of Divergence</div>
@@ -8669,10 +8669,10 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                       <div>
                         <div className="text-xs font-bold flex items-center gap-1">
                           {universe.name}
-                          {isRecommended && <span className="text-green-400">âœ¨</span>}
+                          {isRecommended && <span className="text-green-400">✨</span>}
                         </div>
                         <div className="text-[10px] text-neutral-400">
-                          ${(universe.npv / 1000000).toFixed(0)}M NPV â€¢ {universe.probability}%
+                          ${(universe.npv / 1000000).toFixed(0)}M NPV • {universe.probability}%
                         </div>
                       </div>
                     </div>
@@ -8772,7 +8772,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
             <div className="bg-black/30 rounded-xl p-3 border border-purple-700">
               <h3 className="font-bold text-sm mb-3 flex items-center gap-2">
                 <span>{selectedUniverse.icon}</span>
-                {selectedUniverse.name} â€” Full Timeline
+                {selectedUniverse.name} — Full Timeline
               </h3>
               <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
                 {selectedUniverse.timeline.map((event) => (
@@ -8862,7 +8862,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
         {/* Recommendation Box */}
         <div className="p-3 bg-gradient-to-r from-green-900/30 to-emerald-900/30 rounded-xl border border-green-700">
           <div className="flex items-start gap-3">
-            <div className="text-3xl">ðŸ”®</div>
+            <div className="text-3xl">🔮</div>
             <div>
               <h3 className="font-bold text-green-400 text-sm mb-1">Chronos Recommendation: {recommended.name}</h3>
               <p className="text-xs text-neutral-300">{currentScenario.recommendation}</p>
@@ -8891,9 +8891,9 @@ const BookmarkModal: React.FC<{
       <div className="bg-neutral-900 rounded-2xl border border-amber-600 max-w-md w-full overflow-hidden">
         <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-xl font-bold">ðŸ”– Bookmark This Moment</h2>
+            <h2 className="text-xl font-bold">🔖 Bookmark This Moment</h2>
             <button onClick={onClose} className="text-white/60 hover:text-white">
-              âœ•
+              ✕
             </button>
           </div>
         </div>
@@ -8932,7 +8932,7 @@ const BookmarkModal: React.FC<{
                 : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
             }`}
           >
-            ðŸ”– Save Bookmark
+            🔖 Save Bookmark
           </button>
         </div>
       </div>
@@ -8956,10 +8956,10 @@ const CompliancePanel: React.FC<{
     <div className="max-w-7xl mx-auto p-6">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold flex items-center gap-2">
-          ðŸ”’ Enterprise Compliance Dashboard
+          🔒 Enterprise Compliance Dashboard
         </h2>
         <button onClick={onClose} className="text-white/60 hover:text-white">
-          âœ•
+          ✕
         </button>
       </div>
 
@@ -8967,8 +8967,8 @@ const CompliancePanel: React.FC<{
         {/* Immutable Ledger Status */}
         <div className="bg-black/30 rounded-xl p-4 border border-emerald-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">â›“ï¸</span>
-            <span className="font-semibold">Immutable Ledgerâ„¢</span>
+            <span className="text-xl">⛓️</span>
+            <span className="font-semibold">Immutable Ledger™</span>
           </div>
           <div className="space-y-2 text-sm">
             <div className="flex justify-between">
@@ -9005,7 +9005,7 @@ const CompliancePanel: React.FC<{
         {/* Live Sync Status */}
         <div className="bg-black/30 rounded-xl p-4 border border-cyan-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">ðŸ“¡</span>
+            <span className="text-xl">📡</span>
             <span className="font-semibold">Live Chronos Sync</span>
           </div>
           <div className="space-y-2 text-sm">
@@ -9041,7 +9041,7 @@ const CompliancePanel: React.FC<{
         {/* Active Witness Sessions */}
         <div className="bg-black/30 rounded-xl p-4 border border-amber-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">ðŸ‘ï¸</span>
+            <span className="text-xl">👁️</span>
             <span className="font-semibold">Witness Mode</span>
           </div>
           {witnessSessions.length === 0 ? (
@@ -9067,7 +9067,7 @@ const CompliancePanel: React.FC<{
         {/* Redaction Engine */}
         <div className="bg-black/30 rounded-xl p-4 border border-purple-800">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xl">ðŸ”</span>
+            <span className="text-xl">🔏</span>
             <span className="font-semibold">Redaction Engine</span>
           </div>
           <div className="space-y-2 text-sm">
@@ -9123,14 +9123,14 @@ const CourtExportModal: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-bold flex items-center gap-2">
-                âš–ï¸ Court-Admissible Export
+                ⚖️ Court-Admissible Export
               </h2>
               <p className="text-amber-200 text-sm mt-1">
                 Generate legally defensible evidence package
               </p>
             </div>
             <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
-              Ã—
+              ×
             </button>
           </div>
         </div>
@@ -9140,7 +9140,7 @@ const CourtExportModal: React.FC<{
           <div className="p-3 bg-neutral-800 rounded-lg">
             <div className="text-sm text-neutral-400 mb-1">Export Time Range</div>
             <div className="font-mono text-sm">
-              {timeRange.min.toLocaleDateString()} â†’ {currentDate.toLocaleDateString()}
+              {timeRange.min.toLocaleDateString()} → {currentDate.toLocaleDateString()}
             </div>
           </div>
 
@@ -9149,10 +9149,10 @@ const CourtExportModal: React.FC<{
             <div className="text-sm text-neutral-400 mb-2">Export Format</div>
             <div className="grid grid-cols-2 gap-2">
               {[
-                { id: 'forensic-bundle', label: 'ðŸ”’ Forensic Bundle', desc: 'Full chain + proofs' },
-                { id: 'pdf', label: 'ðŸ“„ PDF Report', desc: 'Human-readable' },
-                { id: 'json', label: 'ðŸ“‹ JSON Data', desc: 'Machine-readable' },
-                { id: 'xml', label: 'ðŸ“‘ XML/XBRL', desc: 'Regulatory format' },
+                { id: 'forensic-bundle', label: '🔒 Forensic Bundle', desc: 'Full chain + proofs' },
+                { id: 'pdf', label: '📄 PDF Report', desc: 'Human-readable' },
+                { id: 'json', label: '📋 JSON Data', desc: 'Machine-readable' },
+                { id: 'xml', label: '📑 XML/XBRL', desc: 'Regulatory format' },
               ].map((opt) => (
                 <button
                   key={opt.id}
@@ -9205,7 +9205,7 @@ const CourtExportModal: React.FC<{
           {/* Signatures Info */}
           <div className="p-3 bg-emerald-900/20 border border-emerald-800 rounded-lg">
             <div className="flex items-center gap-2 mb-2">
-              <span>âœï¸</span>
+              <span>✍️</span>
               <span className="font-medium text-sm">Required Signatures</span>
             </div>
             <div className="flex gap-2">
@@ -9224,7 +9224,7 @@ const CourtExportModal: React.FC<{
                 : 'bg-gradient-to-r from-amber-600 to-orange-600 hover:opacity-90'
             }`}
           >
-            {isExporting ? 'â³ Generating Export...' : 'âš–ï¸ Generate Court-Admissible Export'}
+            {isExporting ? '⏳ Generating Export...' : '⚖️ Generate Court-Admissible Export'}
           </button>
         </div>
       </div>
@@ -9255,11 +9255,11 @@ const WitnessModal: React.FC<{
         <div className="bg-gradient-to-r from-blue-900 to-indigo-900 p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-bold">ðŸ‘ï¸ Add Witness Session</h2>
+              <h2 className="text-xl font-bold">👁️ Add Witness Session</h2>
               <p className="text-blue-200 text-sm mt-1">Grant read-only timeline access</p>
             </div>
             <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
-              Ã—
+              ×
             </button>
           </div>
         </div>
@@ -9336,7 +9336,7 @@ const WitnessModal: React.FC<{
           {/* Air-Gapped Key Notice */}
           <div className="p-3 bg-blue-900/20 border border-blue-800 rounded-lg text-sm">
             <p className="text-blue-300">
-              ðŸ” An air-gapped access key will be generated. The witness must complete a key
+              🔐 An air-gapped access key will be generated. The witness must complete a key
               ceremony to activate their session.
             </p>
           </div>
@@ -9350,7 +9350,7 @@ const WitnessModal: React.FC<{
                 : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
             }`}
           >
-            ðŸ‘ï¸ Create Witness Session
+            👁️ Create Witness Session
           </button>
         </div>
       </div>
@@ -9359,7 +9359,7 @@ const WitnessModal: React.FC<{
 };
 
 // =============================================================================
-// CHRONOS-ERPâ„¢ COMPONENTS - Enterprise System Time Travel
+// CHRONOS-ERP™ COMPONENTS - Enterprise System Time Travel
 // =============================================================================
 
 const ERPPanel: React.FC<{
@@ -9382,17 +9382,17 @@ const ERPPanel: React.FC<{
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-xl font-bold flex items-center gap-2">
-              ðŸ¢ Chronos-ERPâ„¢{' '}
+              🏢 Chronos-ERP™{' '}
               <span className="text-indigo-400 text-sm font-normal">
                 Enterprise System Time Travel
               </span>
             </h2>
             <p className="text-sm text-neutral-400 mt-1">
-              {activeConnectors.length} systems connected â€¢ {totalRecords.toLocaleString()} total records indexed
+              {activeConnectors.length} systems connected • {totalRecords.toLocaleString()} total records indexed
             </p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white text-xl">
-            âœ•
+            ✕
           </button>
         </div>
 
@@ -9449,7 +9449,7 @@ const ERPPanel: React.FC<{
             {/* CRM State */}
             <div className="bg-black/30 rounded-xl p-4 border border-blue-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>â˜ï¸</span>
+                <span>☁️</span>
                 <span className="font-semibold text-sm">Salesforce CRM</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9477,7 +9477,7 @@ const ERPPanel: React.FC<{
             {/* ERP State */}
             <div className="bg-black/30 rounded-xl p-4 border border-amber-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>ðŸ¢</span>
+                <span>🏢</span>
                 <span className="font-semibold text-sm">SAP Financials</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9507,7 +9507,7 @@ const ERPPanel: React.FC<{
             {/* HR State */}
             <div className="bg-black/30 rounded-xl p-4 border border-purple-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>ðŸ‘¥</span>
+                <span>👥</span>
                 <span className="font-semibold text-sm">Workday HR</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9539,7 +9539,7 @@ const ERPPanel: React.FC<{
             {/* Engineering State */}
             <div className="bg-black/30 rounded-xl p-4 border border-cyan-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>ðŸ™</span>
+                <span>🐙</span>
                 <span className="font-semibold text-sm">Jira + GitHub</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9575,7 +9575,7 @@ const ERPPanel: React.FC<{
             {/* Service Desk State */}
             <div className="bg-black/30 rounded-xl p-4 border border-rose-800">
               <div className="flex items-center gap-2 mb-3">
-                <span>ðŸŽ«</span>
+                <span>🎫</span>
                 <span className="font-semibold text-sm">ServiceNow</span>
               </div>
               <div className="space-y-2 text-xs">
@@ -9701,7 +9701,7 @@ const FinancialValidationsPanel: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-3">
-                ðŸ“Š SOX/SEC Financial Validation Audit Trail
+                🔒 SOX/SEC Financial Validation Audit Trail
                 <span className="text-emerald-400 text-sm font-normal px-2 py-1 bg-emerald-900/50 rounded">
                   Court-Admissible
                 </span>
@@ -9710,34 +9710,34 @@ const FinancialValidationsPanel: React.FC<{
                 Immutable record of all financial control tests, reconciliations, and compliance validations
               </p>
             </div>
-            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">Ã—</button>
+            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">×</button>
           </div>
           
           {/* Summary Stats */}
           <div className="flex gap-6 mt-4">
             <div className="flex items-center gap-2">
-              <span className="text-2xl">âœ…</span>
+              <span className="text-2xl">✅</span>
               <div>
                 <div className="text-2xl font-bold text-green-400">{passedCount}</div>
                 <div className="text-xs text-neutral-500">Passed</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">âš ï¸</span>
+              <span className="text-2xl">⚠️</span>
               <div>
                 <div className="text-2xl font-bold text-amber-400">{warningCount}</div>
                 <div className="text-xs text-neutral-500">Warnings</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">âŒ</span>
+              <span className="text-2xl">❌</span>
               <div>
                 <div className="text-2xl font-bold text-red-400">{failedCount}</div>
                 <div className="text-xs text-neutral-500">Failed</div>
               </div>
             </div>
             <div className="flex items-center gap-2 ml-auto">
-              <span className="text-lg">ðŸ”</span>
+              <span className="text-lg">🔐</span>
               <div className="text-xs text-neutral-400">
                 All records cryptographically signed and<br />linked via hash chain
               </div>
@@ -9768,13 +9768,13 @@ const FinancialValidationsPanel: React.FC<{
                 <div className="font-medium text-white mb-1">{v.controlName}</div>
                 <div className="text-sm text-neutral-400 flex items-center gap-4">
                   <span>{v.source.toUpperCase()}</span>
-                  <span>â€¢</span>
+                  <span>•</span>
                   <span>{v.period}</span>
-                  <span>â€¢</span>
+                  <span>•</span>
                   <span className={riskColors[v.riskRating]}>{v.riskRating.toUpperCase()} risk</span>
                 </div>
                 <div className="text-xs text-neutral-500 mt-2">
-                  {v.timestamp.toLocaleDateString()} â€¢ {v.auditor}
+                  {v.timestamp.toLocaleDateString()} • {v.auditor}
                 </div>
               </button>
             ))}
@@ -9833,7 +9833,7 @@ const FinancialValidationsPanel: React.FC<{
                 {selectedValidation.discrepancyAmount && (
                   <div className={`rounded-xl p-4 border ${selectedValidation.isMaterial ? 'bg-red-900/30 border-red-700' : 'bg-amber-900/30 border-amber-700'}`}>
                     <h4 className="text-sm font-semibold uppercase mb-3 flex items-center gap-2">
-                      {selectedValidation.isMaterial ? 'âš ï¸ Material Discrepancy' : 'ðŸ“Š Discrepancy Detected'}
+                      {selectedValidation.isMaterial ? '⚠️ Material Discrepancy' : '🔒 Discrepancy Detected'}
                     </h4>
                     <div className="grid grid-cols-3 gap-4 text-sm">
                       <div>
@@ -9866,7 +9866,7 @@ const FinancialValidationsPanel: React.FC<{
                     </div>
                     <div>
                       <span className="text-neutral-500">Reviewed By</span>
-                      <p className="text-white font-medium">{selectedValidation.reviewedBy || 'â€”'}</p>
+                      <p className="text-white font-medium">{selectedValidation.reviewedBy || '—'}</p>
                       {selectedValidation.reviewedAt && (
                         <p className="text-neutral-400 text-xs">{selectedValidation.reviewedAt.toLocaleString()}</p>
                       )}
@@ -9920,7 +9920,7 @@ const FinancialValidationsPanel: React.FC<{
                     {selectedValidation.supportingDocuments.map((doc) => (
                       <div key={doc.id} className="flex items-center justify-between p-2 bg-neutral-800/50 rounded-lg">
                         <div className="flex items-center gap-2">
-                          <span>ðŸ“„</span>
+                          <span>📄</span>
                           <span className="text-white text-sm">{doc.name}</span>
                         </div>
                         <span className="text-neutral-500 text-xs font-mono">{doc.hash.slice(0, 16)}...</span>
@@ -9931,7 +9931,7 @@ const FinancialValidationsPanel: React.FC<{
 
                 {/* Cryptographic Proof */}
                 <div className="bg-emerald-900/20 rounded-xl p-4 border border-emerald-800">
-                  <h4 className="text-sm font-semibold text-emerald-400 uppercase mb-3">ðŸ” Cryptographic Proof</h4>
+                  <h4 className="text-sm font-semibold text-emerald-400 uppercase mb-3">🔐 Cryptographic Proof</h4>
                   <div className="space-y-2 text-xs font-mono">
                     <div className="flex justify-between">
                       <span className="text-neutral-500">Event Hash</span>
@@ -9959,7 +9959,7 @@ const FinancialValidationsPanel: React.FC<{
             ) : (
               <div className="h-full flex items-center justify-center text-neutral-500">
                 <div className="text-center">
-                  <span className="text-6xl mb-4 block">ðŸ“Š</span>
+                  <span className="text-6xl mb-4 block">🔒</span>
                   <p>Select a validation to view details</p>
                 </div>
               </div>
@@ -9992,7 +9992,7 @@ const RedactedExportModal: React.FC<{
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-3">
-                ðŸ” Court-Admissible Redacted Export
+                🔏 Court-Admissible Redacted Export
                 <span className="text-orange-400 text-sm font-normal px-2 py-1 bg-orange-900/50 rounded">
                   Privacy-Preserving
                 </span>
@@ -10001,7 +10001,7 @@ const RedactedExportModal: React.FC<{
                 Generate legally defensible exports with PII redaction, chain of custody, and certification
               </p>
             </div>
-            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">Ã—</button>
+            <button onClick={onClose} className="text-neutral-400 hover:text-white text-2xl">×</button>
           </div>
         </div>
 
@@ -10041,12 +10041,12 @@ const RedactedExportModal: React.FC<{
                 <h3 className="text-white font-semibold mb-4">Redaction Categories Applied</h3>
                 <div className="grid grid-cols-3 gap-3">
                   {[
-                    { icon: 'ðŸ‘¤', label: 'PII', desc: 'Names, emails, SSNs masked' },
-                    { icon: 'ðŸ¥', label: 'PHI', desc: 'Health data removed' },
-                    { icon: 'ðŸ‘”', label: 'Personnel', desc: 'Salary, performance redacted' },
-                    { icon: 'ðŸ”’', label: 'Confidential', desc: 'Business secrets protected' },
-                    { icon: 'âš–ï¸', label: 'Attorney-Client', desc: 'Privileged content flagged' },
-                    { icon: 'ðŸ­', label: 'Trade Secret', desc: 'Proprietary info removed' },
+                    { icon: '👤', label: 'PII', desc: 'Names, emails, SSNs masked' },
+                    { icon: '🏥', label: 'PHI', desc: 'Health data removed' },
+                    { icon: '👔', label: 'Personnel', desc: 'Salary, performance redacted' },
+                    { icon: '🔒', label: 'Confidential', desc: 'Business secrets protected' },
+                    { icon: '⚖️', label: 'Attorney-Client', desc: 'Privileged content flagged' },
+                    { icon: '🏭', label: 'Trade Secret', desc: 'Proprietary info removed' },
                   ].map((cat) => (
                     <div key={cat.label} className="p-3 bg-neutral-800/50 rounded-lg border border-neutral-700">
                       <div className="flex items-center gap-2 mb-1">
@@ -10061,7 +10061,7 @@ const RedactedExportModal: React.FC<{
 
               {/* Guarantees */}
               <div className="bg-emerald-900/20 rounded-xl p-6 border border-emerald-800">
-                <h3 className="text-emerald-400 font-semibold mb-4">âœ“ Export Guarantees</h3>
+                <h3 className="text-emerald-400 font-semibold mb-4">✓ Export Guarantees</h3>
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     'Financial integrity preserved - all totals unchanged',
@@ -10072,7 +10072,7 @@ const RedactedExportModal: React.FC<{
                     'AES-256-GCM encryption',
                   ].map((guarantee, i) => (
                     <div key={i} className="flex items-center gap-2 text-sm text-neutral-300">
-                      <span className="text-emerald-400">âœ“</span>
+                      <span className="text-emerald-400">✓</span>
                       {guarantee}
                     </div>
                   ))}
@@ -10087,12 +10087,12 @@ const RedactedExportModal: React.FC<{
               >
                 {isGenerating ? (
                   <>
-                    <span className="animate-spin">â³</span>
+                    <span className="animate-spin">⏳</span>
                     Generating Redacted Export...
                   </>
                 ) : (
                   <>
-                    ðŸ” Generate Court-Admissible Export
+                    🔏 Generate Court-Admissible Export
                   </>
                 )}
               </button>
@@ -10101,7 +10101,7 @@ const RedactedExportModal: React.FC<{
             <div className="space-y-6">
               {/* Success Header */}
               <div className="bg-emerald-900/30 rounded-xl p-6 border border-emerald-700 text-center">
-                <span className="text-6xl mb-4 block">âœ…</span>
+                <span className="text-6xl mb-4 block">✅</span>
                 <h3 className="text-2xl font-bold text-emerald-400 mb-2">Export Generated Successfully</h3>
                 <p className="text-neutral-400">Your court-admissible redacted export is ready</p>
               </div>
@@ -10135,15 +10135,15 @@ const RedactedExportModal: React.FC<{
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Financial Integrity</span>
-                      <span className="text-emerald-400">âœ“ Preserved</span>
+                      <span className="text-emerald-400">✓ Preserved</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Totals Match</span>
-                      <span className="text-emerald-400">âœ“ Verified</span>
+                      <span className="text-emerald-400">✓ Verified</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Audit Trail</span>
-                      <span className="text-emerald-400">âœ“ Complete</span>
+                      <span className="text-emerald-400">✓ Complete</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-neutral-500">Encryption</span>
@@ -10202,7 +10202,7 @@ const RedactedExportModal: React.FC<{
               {/* Certificate */}
               <div className="bg-amber-900/20 rounded-xl p-6 border border-amber-800">
                 <div className="flex items-start gap-4">
-                  <span className="text-4xl">ðŸ“œ</span>
+                  <span className="text-4xl">📜</span>
                   <div>
                     <h4 className="text-amber-400 font-semibold mb-2">Legal Certification</h4>
                     <p className="text-neutral-300 text-sm mb-4 italic">
@@ -10233,7 +10233,7 @@ const RedactedExportModal: React.FC<{
               <div className="bg-cyan-900/20 rounded-xl p-4 border border-cyan-800">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h4 className="text-cyan-400 font-semibold">ðŸ” Verify This Export</h4>
+                    <h4 className="text-cyan-400 font-semibold">🔍 Verify This Export</h4>
                     <p className="text-neutral-400 text-xs mt-1">Third parties can verify authenticity at:</p>
                     <a href={redactedExport.verificationUrl} className="text-cyan-300 text-sm hover:underline">
                       {redactedExport.verificationUrl}
@@ -10249,7 +10249,7 @@ const RedactedExportModal: React.FC<{
               <button
                 className="w-full py-4 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-xl font-bold text-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-3"
               >
-                ðŸ“¥ Download Encrypted Export Package
+                📥 Download Encrypted Export Package
               </button>
             </div>
           )}

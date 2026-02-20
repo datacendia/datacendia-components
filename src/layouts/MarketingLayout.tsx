@@ -226,7 +226,7 @@ export const MarketingLayout: React.FC = () => {
                   Sign In
                 </Link>
                 <Link to="/sovereign" className="block text-sm text-red-900">
-                  Request Access â†’
+                  Request Access →
                 </Link>
               </div>
             </div>
@@ -339,8 +339,8 @@ export const MarketingLayout: React.FC = () => {
 
           <div className="pt-8 border-t border-gray-900 flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-8 text-[10px] text-gray-700 tracking-widest">
-              <span>Â© {new Date().getFullYear()} DATACENDIA</span>
-              <span>â€¢</span>
+              <span>© {new Date().getFullYear()} DATACENDIA</span>
+              <span>•</span>
               <span>SOVEREIGN INTELLIGENCE</span>
             </div>
             <p className="text-xs text-gray-600">No cloud. No telemetry. No exceptions.</p>

@@ -210,7 +210,7 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'intelligence/audit-provenance', element: w(AuditProvenancePage) },
   // Legacy redirects
   { path: 'intelligence/decision-dna', element: <Navigate to="/cortex/intelligence/audit-provenance" replace /> },
-  { path: 'compliance/regulators-receipt', element: <Navigate to="/cortex/intelligence/audit-provenance" replace /> },
+  { path: 'compliance/regulators-receipt', element: w(RegulatorsReceiptGeneratorPage) },
   { path: 'compliance/regulatory-sandbox', element: w(RegulatorySandboxPage) },
   { path: 'compliance/cross-jurisdiction', element: w(CrossJurisdictionPage) },
   { path: 'compliance/continuous-monitor', element: w(ContinuousComplianceMonitorPage) },

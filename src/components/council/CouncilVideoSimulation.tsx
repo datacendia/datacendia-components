@@ -498,7 +498,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-sm font-semibold text-white">{currentSpeaker.name}</span>
-                  <span className="text-xs text-gray-400">â€¢ {currentSpeaker.title}</span>
+                  <span className="text-xs text-gray-400">• {currentSpeaker.title}</span>
                 </div>
                 <p className="text-sm text-gray-200 leading-relaxed">
                   "{currentSpeaker.currentStatement}"
@@ -588,7 +588,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
           
           <div className="flex items-center gap-4 text-xs text-gray-400">
             <span>{members.length} Participants</span>
-            <span>â€¢</span>
+            <span>•</span>
             <span>Phase: {simulation.phase.charAt(0).toUpperCase() + simulation.phase.slice(1)}</span>
           </div>
         </div>

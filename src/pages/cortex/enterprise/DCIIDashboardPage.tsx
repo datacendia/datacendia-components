@@ -130,7 +130,7 @@ export default function DCIIDashboardPage() {
   const [activeTab, setActiveTab] = useState<TabId>('overview');
   const [loading, setLoading] = useState(true);
   const [iissScores, setIissScores] = useState<IISSScore[]>([]);
-  const [selectedOrg, setSelectedOrg] = useState<string>('org-datacendia');
+  const [selectedOrg, setSelectedOrg] = useState<string>('');
   const [mediaAssets, setMediaAssets] = useState<any[]>([]);
   const [conflicts, setConflicts] = useState<any[]>([]);
   const [timestamps, setTimestamps] = useState<any[]>([]);
@@ -141,6 +141,9 @@ export default function DCIIDashboardPage() {
   const fetchData = useCallback(async () => {
     setLoading(true);
     try {
+      // Ensure demo data is seeded (idempotent — skips if already populated)
+      await fetch(`${API_BASE}/seed-demo`, { method: 'POST', headers: { 'Content-Type': 'application/json' } }).catch(() => {});
+
       const [scoresData, mediaData, conflictsData, tsData, decisionsData, statsData, benchData] = await Promise.all([
         dciiApi('/iiss/scores').catch(() => []),
         dciiApi('/media/assets').catch(() => []),
@@ -165,6 +168,13 @@ export default function DCIIDashboardPage() {
   }, []);
 
   useEffect(() => { fetchData(); }, [fetchData]);
+
+  // Auto-select first org when scores load
+  useEffect(() => {
+    if (iissScores.length > 0 && (!selectedOrg || !iissScores.find(s => s.organizationId === selectedOrg))) {
+      setSelectedOrg(iissScores[0].organizationId);
+    }
+  }, [iissScores, selectedOrg]);
 
   const currentScore = iissScores.find(s => s.organizationId === selectedOrg);
   const bandStyle = currentScore ? BAND_COLORS[currentScore.band] || BAND_COLORS.developing : BAND_COLORS.developing;
@@ -219,6 +229,16 @@ export default function DCIIDashboardPage() {
         </div>
       </div>
 
+      {/* Demo Mode Banner */}
+      <div className="max-w-[1800px] mx-auto px-6 pt-4">
+        <div className="flex items-center gap-3 px-4 py-2.5 rounded-lg border border-amber-500/30 bg-amber-500/5 text-sm">
+          <AlertTriangle className="w-4 h-4 text-amber-400 shrink-0" />
+          <span className="text-amber-300/90">
+            <strong className="text-amber-400">Demo Mode</strong> — Sample data processed by real DCII services. Cryptographic operations, IISS scoring, conflict detection, and similarity matching are genuine computations running on illustrative inputs.
+          </span>
+        </div>
+      </div>
+
       {/* Content */}
       <div className="max-w-[1800px] mx-auto px-6 py-6">
         <AnimatePresence mode="wait">
@@ -234,7 +254,7 @@ export default function DCIIDashboardPage() {
             {activeTab === 'media' && <MediaAuthTab assets={mediaAssets} />}
             {activeTab === 'jurisdiction' && <JurisdictionTab conflicts={conflicts} />}
             {activeTab === 'timestamps' && <TimestampTab tokens={timestamps} stats={tsaStats} />}
-            {activeTab === 'similarity' && <SimilarityTab decisions={decisions} />}
+            {activeTab === 'similarity' && <SimilarityTab decisions={decisions} selectedOrg={selectedOrg} />}
           </motion.div>
         </AnimatePresence>
       </div>
@@ -800,7 +820,7 @@ function TimestampTab({ tokens, stats }: { tokens: any[]; stats: any }) {
 // SIMILARITY TAB
 // =============================================================================
 
-function SimilarityTab({ decisions }: { decisions: any[] }) {
+function SimilarityTab({ decisions, selectedOrg }: { decisions: any[]; selectedOrg: string }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<any>(null);
   const [searching, setSearching] = useState(false);
@@ -812,7 +832,7 @@ function SimilarityTab({ decisions }: { decisions: any[] }) {
       const result = await dciiApi('/similarity/search', {
         method: 'POST',
         body: JSON.stringify({
-          organizationId: 'org-datacendia',
+          organizationId: selectedOrg || 'org-datacendia',
           title: searchQuery,
           question: searchQuery,
           context: '',

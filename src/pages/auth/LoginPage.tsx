@@ -183,6 +183,7 @@ export const LoginPage: React.FC = () => {
 
           {/* Enterprise SSO */}
           <div className="space-y-2 mb-6">
+            <p className="text-[10px] text-gray-700 uppercase tracking-wider mb-1">Enterprise SSO <span className="text-[#c9a84c]/50">— Configure per deployment</span></p>
             {[
               { method: 'ad' as const, label: 'Active Directory', sub: 'LDAP / Kerberos' },
               { method: 'saml' as const, label: 'SAML 2.0', sub: 'Okta / ADFS / Ping' },

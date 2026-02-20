@@ -190,7 +190,7 @@ const GridZoneCard: React.FC<{ zone: GridZone }> = ({ zone }) => {
         )}>
           {balance >= 0 ? '+' : ''}{balance}MW reserve
         </span>
-        <span className="text-gray-500">{zone.frequency.toFixed(2)}Hz â€¢ {zone.voltage}kV</span>
+        <span className="text-gray-500">{zone.frequency.toFixed(2)}Hz • {zone.voltage}kV</span>
       </div>
     </div>
   );
@@ -275,7 +275,7 @@ export const PowerGridVisualization: React.FC<{ className?: string }> = ({ class
           totalOutput >= totalDemand ? 'bg-emerald-900/20 border-emerald-500/30' : 'bg-red-900/20 border-red-500/30'
         )}>
           <p className={cn('text-lg font-bold', totalOutput >= totalDemand ? 'text-emerald-400' : 'text-red-400')}>
-            {totalOutput >= totalDemand ? 'âœ“' : 'âš '}
+            {totalOutput >= totalDemand ? '✓' : '⚠'}
           </p>
           <p className="text-[10px] text-gray-400">Grid Status</p>
         </div>

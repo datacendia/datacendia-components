@@ -297,7 +297,7 @@ const EntityCard: React.FC<{
             <div>
               <p className="text-sm font-medium text-white">{entity.name}</p>
               <p className="text-[10px] text-gray-500">
-                Pop: {formatNumber(entity.population)} â€¢ Budget: {formatNumber(entity.budget)}
+                Pop: {formatNumber(entity.population)} • Budget: {formatNumber(entity.budget)}
               </p>
             </div>
           </div>
@@ -314,7 +314,7 @@ const EntityCard: React.FC<{
               entity.satisfaction >= 50 ? 'bg-amber-900/50 text-amber-400' :
               'bg-red-900/50 text-red-400'
             )}>
-              {entity.satisfaction}% ðŸ˜Š
+              {entity.satisfaction}% 😊
             </span>
           </div>
         </div>
@@ -326,7 +326,7 @@ const EntityCard: React.FC<{
             onClick={() => setExpanded(!expanded)}
             className="text-[10px] text-cyan-400 hover:text-cyan-300 ml-2 mt-1"
           >
-            {expanded ? 'â–¼' : 'â–¶'} {entity.children.length} sub-regions
+            {expanded ? '▼' : '▶'} {entity.children.length} sub-regions
           </button>
           {expanded && (
             <div className="space-y-1">
@@ -359,16 +359,16 @@ export const CivicSimulation: React.FC<{ className?: string }> = ({ className })
   // Simulate agent activity
   useEffect(() => {
     const activities = [
-      'ðŸ¤– Atlas approved interstate highway funding allocation',
-      'ðŸ›ï¸ Governor-AI optimized school district boundaries',
-      'ðŸ™ï¸ CityCore resolved zoning conflict in downtown area',
-      'ðŸ“Š UrbanFlow reduced traffic congestion by 12%',
-      'ðŸš¨ MetroMind coordinated emergency response drill',
-      'ðŸ’° StateWatch identified $2.3M in budget savings',
-      'ðŸ“‹ DistrictBot processed 47 permit applications',
-      'ðŸŒ³ LocalAI approved park renovation project',
-      'ðŸ” Sovereign analyzed policy impact across 12 states',
-      'ðŸ¥ CivicBot coordinated healthcare resource sharing',
+      '🤖 Atlas approved interstate highway funding allocation',
+      '🏛️ Governor-AI optimized school district boundaries',
+      '🏙️ CityCore resolved zoning conflict in downtown area',
+      '📊 UrbanFlow reduced traffic congestion by 12%',
+      '🚨 MetroMind coordinated emergency response drill',
+      '💰 StateWatch identified $2.3M in budget savings',
+      '📋 DistrictBot processed 47 permit applications',
+      '🌳 LocalAI approved park renovation project',
+      '🔍 Sovereign analyzed policy impact across 12 states',
+      '🏥 CivicBot coordinated healthcare resource sharing',
     ];
 
     const interval = setInterval(() => {
@@ -417,7 +417,7 @@ export const CivicSimulation: React.FC<{ className?: string }> = ({ className })
                   <EntityIcon type={selected.type} />
                   <h3 className="text-lg font-semibold text-white">{selected.name}</h3>
                 </div>
-                <p className="text-xs text-gray-400 capitalize">{selected.type} â€¢ {formatNumber(selected.population)} population</p>
+                <p className="text-xs text-gray-400 capitalize">{selected.type} • {formatNumber(selected.population)} population</p>
               </div>
 
               {/* Metrics */}

@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA AUTOPILOTâ„¢ - SELF-DRIVING ENTERPRISE MODE
+// CENDIA AUTOPILOT™ - SELF-DRIVING ENTERPRISE MODE
 // The System Proposes Decisions Automatically, Humans Approve
 // "AI-Run Enterprise Territory"
 //
@@ -37,13 +37,13 @@ import { deterministicFloat, deterministicInt } from '../../../lib/deterministic
 // =============================================================================
 
 const CATEGORY_CONFIG: Record<DecisionCategory, { icon: string; color: string; name: string }> = {
-  financial: { icon: 'ðŸ’°', color: 'from-green-600 to-emerald-600', name: 'Financial' },
-  operational: { icon: 'âš™ï¸', color: 'from-blue-600 to-cyan-600', name: 'Operations' },
-  hr: { icon: 'ðŸ‘¥', color: 'from-purple-600 to-pink-600', name: 'Human Resources' },
-  sales: { icon: 'ðŸ“ˆ', color: 'from-amber-600 to-orange-600', name: 'Sales & Revenue' },
-  technology: { icon: 'ðŸ’»', color: 'from-indigo-600 to-violet-600', name: 'Technology' },
-  risk: { icon: 'âš ï¸', color: 'from-red-600 to-rose-600', name: 'Risk Management' },
-  compliance: { icon: 'âš–ï¸', color: 'from-teal-600 to-cyan-600', name: 'Compliance' },
+  financial: { icon: '💰', color: 'from-green-600 to-emerald-600', name: 'Financial' },
+  operational: { icon: '⚙️', color: 'from-blue-600 to-cyan-600', name: 'Operations' },
+  hr: { icon: '👥', color: 'from-purple-600 to-pink-600', name: 'Human Resources' },
+  sales: { icon: '📈', color: 'from-amber-600 to-orange-600', name: 'Sales & Revenue' },
+  technology: { icon: '💻', color: 'from-indigo-600 to-violet-600', name: 'Technology' },
+  risk: { icon: '⚠️', color: 'from-red-600 to-rose-600', name: 'Risk Management' },
+  compliance: { icon: '⚖️', color: 'from-teal-600 to-cyan-600', name: 'Compliance' },
 };
 
 const generateDecisions = (): AutoDecision[] => [
@@ -445,18 +445,18 @@ export const AutopilotPage: React.FC = () => {
                 onClick={() => navigate('/cortex/dashboard')}
                 className="text-white/60 hover:text-white transition-colors"
               >
-                â† Back
+                ← Back
               </button>
               <div>
                 <h1 className="text-2xl font-bold flex items-center gap-3">
-                  <span className="text-3xl">ðŸš€</span>
-                  CendiaAutopilotâ„¢
+                  <span className="text-3xl">🚀</span>
+                  CendiaAutopilot™
                   <span className="text-xs bg-gradient-to-r from-amber-500 to-orange-500 px-2 py-0.5 rounded-full font-medium">
                     AUTONOMOUS
                   </span>
                 </h1>
                 <p className="text-amber-300 text-sm">
-                  Self-Driving Enterprise Mode â€¢ AI Proposes, Humans Approve
+                  Self-Driving Enterprise Mode • AI Proposes, Humans Approve
                 </p>
               </div>
             </div>
@@ -550,15 +550,15 @@ export const AutopilotPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex gap-1">
             {[
-              { id: 'dashboard', label: 'Command Center', icon: 'ðŸŽ›ï¸' },
+              { id: 'dashboard', label: 'Command Center', icon: '🎛️' },
               {
                 id: 'decisions',
                 label: 'Pending Decisions',
-                icon: 'â³',
+                icon: '⏳',
                 badge: pendingDecisions.length,
               },
-              { id: 'rules', label: 'Automation Rules', icon: 'âš™ï¸' },
-              { id: 'history', label: 'Decision History', icon: 'ðŸ“œ' },
+              { id: 'rules', label: 'Automation Rules', icon: '⚙️' },
+              { id: 'history', label: 'Decision History', icon: '📜' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -587,7 +587,7 @@ export const AutopilotPage: React.FC = () => {
             {criticalPending.length > 0 && (
               <div className="bg-red-900/30 rounded-2xl p-6 border border-red-700/50">
                 <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                  <span className="text-red-400 animate-pulse">ðŸš¨</span> Critical Decisions
+                  <span className="text-red-400 animate-pulse">🚨</span> Critical Decisions
                   Requiring Attention
                 </h2>
                 <div className="space-y-3">
@@ -652,7 +652,7 @@ export const AutopilotPage: React.FC = () => {
                                 : 'text-white/40'
                           }
                         >
-                          {cat.trend === 'up' ? 'â†‘' : cat.trend === 'down' ? 'â†“' : 'â†’'}
+                          {cat.trend === 'up' ? '↑' : cat.trend === 'down' ? '↓' : '→'}
                         </span>
                         {cat.activeDecisions > 0 && (
                           <span className="text-xs px-1.5 py-0.5 bg-amber-600 rounded">
@@ -718,7 +718,7 @@ export const AutopilotPage: React.FC = () => {
                         <div className="text-xs text-white/50">
                           Triggered{' '}
                           {Math.floor((Date.now() - (r.lastTriggered?.getTime() || 0)) / 3600000)}h
-                          ago â€¢ {r.triggerCount} total
+                          ago • {r.triggerCount} total
                         </div>
                       </div>
                     ))}
@@ -732,7 +732,7 @@ export const AutopilotPage: React.FC = () => {
           <div className="space-y-4">
             {pendingDecisions.length === 0 ? (
               <div className="text-center py-16">
-                <div className="text-6xl mb-4">âœ…</div>
+                <div className="text-6xl mb-4">✅</div>
                 <h2 className="text-2xl font-bold mb-2">All Caught Up!</h2>
                 <p className="text-white/60">No pending decisions require your attention.</p>
               </div>
@@ -877,7 +877,7 @@ export const AutopilotPage: React.FC = () => {
                     <div className="space-y-1">
                       {rule.actions.map((a, idx) => (
                         <div key={idx} className="text-sm">
-                          â†’ {a}
+                          → {a}
                         </div>
                       ))}
                     </div>
@@ -970,7 +970,7 @@ export const AutopilotPage: React.FC = () => {
                   onClick={() => setSelectedDecision(null)}
                   className="text-white/60 hover:text-white text-2xl"
                 >
-                  Ã—
+                  ×
                 </button>
               </div>
             </div>
@@ -1051,13 +1051,13 @@ export const AutopilotPage: React.FC = () => {
                   onClick={() => handleApprove(selectedDecision.id)}
                   className="flex-1 py-3 bg-gradient-to-r from-green-600 to-emerald-600 rounded-xl font-semibold hover:opacity-90 transition-all"
                 >
-                  âœ… Approve & Execute
+                  ✅ Approve & Execute
                 </button>
                 <button
                   onClick={() => handleReject(selectedDecision.id)}
                   className="flex-1 py-3 bg-gradient-to-r from-red-600 to-rose-600 rounded-xl font-semibold hover:opacity-90 transition-all"
                 >
-                  âŒ Reject
+                  ❌ Reject
                 </button>
               </div>
             </div>

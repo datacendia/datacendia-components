@@ -115,7 +115,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
         agent.status === 'optimizing' ? 'bg-cyan-500' : 'bg-amber-500'
       )} />
     </div>
-    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">🎯 {agent.action}</p>
   </div>
 );
 

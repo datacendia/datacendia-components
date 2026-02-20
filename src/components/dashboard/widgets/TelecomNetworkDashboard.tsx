@@ -171,7 +171,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
       )} />
     </div>
     <p className="text-[10px] text-gray-400 mb-1">{agent.action}</p>
-    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">ðŸ“Š {agent.metric}</p>
+    <p className="text-[10px] text-cyan-400 bg-cyan-900/20 rounded px-1.5 py-0.5">📊 {agent.metric}</p>
   </div>
 );
 

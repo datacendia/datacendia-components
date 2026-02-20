@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CendiaPulseÃ¢â€žÂ¢ - LIVE AGENT MONITOR WEB DASHBOARD
+// CendiaPulse™ - LIVE AGENT MONITOR WEB DASHBOARD
 // Real-time visualization of agent actions, decisions, and compliance checks
 // Superior to CLI monitors with animations, charts, and drill-down capabilities
 // =============================================================================
@@ -106,7 +106,7 @@ const TR_DEMO_ACTION: AgentAction = {
   riskScore: 67,
   latencyMs: 23,
   framework: 'Basel-III',
-  citation: 'Ã‚Â§4.2.1 - PEP Enhanced Due Diligence',
+  citation: '§4.2.1 - PEP Enhanced Due Diligence',
 };
 
 const ACTIONS = [
@@ -144,7 +144,7 @@ function generateAction(): AgentAction {
 
   const needsCitation = riskScore >= 40 || ['access_pii', 'transfer_funds', 'delete_record', 'export_data'].includes(action);
   const framework = needsCitation ? FRAMEWORKS[Math.floor(deterministicFloat('liveagentmonitor-10') * FRAMEWORKS.length)] : undefined;
-  const citation = framework ? `Ã‚Â§${deterministicInt(0, 499, 'liveagentmonitor-2')}.${deterministicInt(0, 99, 'liveagentmonitor-3')}` : undefined;
+  const citation = framework ? `§${deterministicInt(0, 499, 'liveagentmonitor-2')}.${deterministicInt(0, 99, 'liveagentmonitor-3')}` : undefined;
 
   return {
     id: `${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
@@ -256,7 +256,7 @@ const ActionRow: React.FC<{ action: AgentAction; isNew: boolean }> = ({ action, 
             [{action.framework} {action.citation}]
           </span>
         ) : (
-          <span className="text-gray-600">Ã¢â‚¬â€</span>
+          <span className="text-gray-600">â€”</span>
         )}
       </td>
       <td className="px-4 py-3 text-xs text-gray-500">
@@ -405,9 +405,9 @@ export const LiveAgentMonitorPage: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  CendiaPulseÃ¢â€žÂ¢
+                  CendiaPulse™
                 </h1>
-                <p className="text-sm text-gray-400">Real-time AI agent activity Ã¢â‚¬Â¢ Compliance enforcement Ã¢â‚¬Â¢ Risk scoring</p>
+                <p className="text-sm text-gray-400">Real-time AI agent activity • Compliance enforcement • Risk scoring</p>
               </div>
             </div>
 

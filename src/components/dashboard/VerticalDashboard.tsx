@@ -238,9 +238,9 @@ const InsightCard: React.FC<{
   message: string;
 }> = ({ type, message }) => {
   const styles = {
-    success: { bg: 'bg-emerald-900/20', border: 'border-emerald-500/30', icon: 'âœ“' },
-    warning: { bg: 'bg-amber-900/20', border: 'border-amber-500/30', icon: 'âš ' },
-    info: { bg: 'bg-cyan-900/20', border: 'border-cyan-500/30', icon: 'â„¹' },
+    success: { bg: 'bg-emerald-900/20', border: 'border-emerald-500/30', icon: '✓' },
+    warning: { bg: 'bg-amber-900/20', border: 'border-amber-500/30', icon: '⚠' },
+    info: { bg: 'bg-cyan-900/20', border: 'border-cyan-500/30', icon: 'ℹ' },
     critical: { bg: 'bg-red-900/20', border: 'border-red-500/30', icon: '!' },
   } as const;
 
@@ -396,7 +396,7 @@ export const VerticalDashboard: React.FC<VerticalDashboardProps> = ({ overrideVe
         {/* Quick Actions */}
         <div className="rounded-xl border border-sovereign-border bg-sovereign-elevated p-4">
           <h3 className="text-sm font-semibold text-white mb-3 flex items-center gap-2">
-            <span>âš¡</span> Quick Actions
+            <span>⚡</span> Quick Actions
           </h3>
           <div className="space-y-2">
             {dashboardConfig.quickActions.map(action => (
@@ -418,7 +418,7 @@ export const VerticalDashboard: React.FC<VerticalDashboardProps> = ({ overrideVe
         {/* AI Insights */}
         <div className="rounded-xl border border-sovereign-border bg-sovereign-elevated p-4">
           <h3 className="text-sm font-semibold text-white mb-3 flex items-center gap-2">
-            <span>ðŸ§ </span> AI Insights
+            <span>🧠</span> AI Insights
           </h3>
           <div className="space-y-2">
             {dashboardConfig.insights.map((insight, i) => (

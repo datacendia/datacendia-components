@@ -27,7 +27,7 @@ const REGULATORY_DOCUMENTS: Record<string, {
 }> = {
   'eu-ai-act': {
     name: 'EU AI Act 2024',
-    icon: 'ðŸ‡ªðŸ‡º',
+    icon: '🇪🇺',
     pages: 892,
     time: '47s',
     lastUpdated: '2024-03-13',
@@ -59,7 +59,7 @@ const REGULATORY_DOCUMENTS: Record<string, {
   },
   'hipaa': {
     name: 'HIPAA Guidelines',
-    icon: 'ðŸ¥',
+    icon: '🏥',
     pages: 234,
     time: '18s',
     lastUpdated: '2023-12-01',
@@ -68,24 +68,24 @@ const REGULATORY_DOCUMENTS: Record<string, {
       {
         title: 'Privacy Rule',
         articles: [
-          { id: 'Â§164.502', title: 'Uses and Disclosures', content: 'A covered entity or business associate may not use or disclose protected health information, except as permitted or required by this subpart or by subpart C of part 160 of this subchapter.', severity: 'critical' },
-          { id: 'Â§164.508', title: 'Authorization Requirements', content: 'Except as otherwise permitted or required by this subchapter, a covered entity may not use or disclose protected health information without an authorization that is valid under this section.' },
-          { id: 'Â§164.520', title: 'Notice of Privacy Practices', content: 'A covered entity must provide a notice that is written in plain language and that contains the elements required by this paragraph.' },
+          { id: '§164.502', title: 'Uses and Disclosures', content: 'A covered entity or business associate may not use or disclose protected health information, except as permitted or required by this subpart or by subpart C of part 160 of this subchapter.', severity: 'critical' },
+          { id: '§164.508', title: 'Authorization Requirements', content: 'Except as otherwise permitted or required by this subchapter, a covered entity may not use or disclose protected health information without an authorization that is valid under this section.' },
+          { id: '§164.520', title: 'Notice of Privacy Practices', content: 'A covered entity must provide a notice that is written in plain language and that contains the elements required by this paragraph.' },
         ],
       },
       {
         title: 'Security Rule',
         articles: [
-          { id: 'Â§164.308', title: 'Administrative Safeguards', content: 'A covered entity or business associate must implement policies and procedures to prevent, detect, contain, and correct security violations.', severity: 'high' },
-          { id: 'Â§164.310', title: 'Physical Safeguards', content: 'A covered entity or business associate must implement policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed.' },
-          { id: 'Â§164.312', title: 'Technical Safeguards', content: 'A covered entity or business associate must implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights.', severity: 'high' },
+          { id: '§164.308', title: 'Administrative Safeguards', content: 'A covered entity or business associate must implement policies and procedures to prevent, detect, contain, and correct security violations.', severity: 'high' },
+          { id: '§164.310', title: 'Physical Safeguards', content: 'A covered entity or business associate must implement policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed.' },
+          { id: '§164.312', title: 'Technical Safeguards', content: 'A covered entity or business associate must implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights.', severity: 'high' },
         ],
       },
     ],
   },
   'sox': {
     name: 'SOX Compliance',
-    icon: 'ðŸ“Š',
+    icon: '🔒',
     pages: 156,
     time: '12s',
     lastUpdated: '2023-06-15',
@@ -109,7 +109,7 @@ const REGULATORY_DOCUMENTS: Record<string, {
   },
   'gdpr': {
     name: 'GDPR Requirements',
-    icon: 'ðŸ”’',
+    icon: '🔒',
     pages: 88,
     time: '8s',
     lastUpdated: '2024-01-10',
@@ -134,7 +134,7 @@ const REGULATORY_DOCUMENTS: Record<string, {
   },
   'internal': {
     name: 'Internal Policies',
-    icon: 'ðŸ“‹',
+    icon: '📋',
     pages: 45,
     time: '4s',
     lastUpdated: '2024-12-01',
@@ -278,7 +278,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-4xl">ðŸ“œ</span>
+          <span className="text-4xl">📜</span>
           <h1 className="text-3xl font-bold text-neutral-900">Regulatory Instant-Absorb</h1>
         </div>
         <p className="text-neutral-600 text-lg">
@@ -345,7 +345,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                 >
                   {file ? (
                     <div>
-                      <div className="text-4xl mb-2">ðŸ“„</div>
+                      <div className="text-4xl mb-2">📄</div>
                       <div className="font-medium text-neutral-900">{file.name}</div>
                       <div className="text-sm text-neutral-500">
                         {(file.size / 1024).toFixed(1)} KB
@@ -359,7 +359,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                     </div>
                   ) : (
                     <div>
-                      <div className="text-4xl mb-2">ðŸ“¤</div>
+                      <div className="text-4xl mb-2">📤</div>
                       <div className="font-medium text-neutral-900">Drop your document here</div>
                       <div className="text-sm text-neutral-500 mt-1">or click to browse</div>
                       <input
@@ -384,7 +384,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                   'transition-all shadow-sm hover:shadow-md'
                 )}
               >
-                {isProcessing ? 'Absorbing...' : 'ðŸ“œ Absorb Regulation'}
+                {isProcessing ? 'Absorbing...' : '📜 Absorb Regulation'}
               </button>
 
               {isProcessing && (
@@ -410,11 +410,11 @@ export const RegulatoryAbsorbPage: React.FC = () => {
             <p className="text-sm text-neutral-500 mb-4">Click to view document contents</p>
             <div className="space-y-3">
               {[
-                { id: 'eu-ai-act', icon: 'ðŸ‡ªðŸ‡º', name: 'EU AI Act 2024', pages: 892, time: '47s' },
-                { id: 'hipaa', icon: 'ðŸ¥', name: 'HIPAA Guidelines', pages: 234, time: '18s' },
-                { id: 'sox', icon: 'ðŸ“Š', name: 'SOX Compliance', pages: 156, time: '12s' },
-                { id: 'gdpr', icon: 'ðŸ”’', name: 'GDPR Requirements', pages: 88, time: '8s' },
-                { id: 'internal', icon: 'ðŸ“‹', name: 'Internal Policies', pages: 45, time: '4s' },
+                { id: 'eu-ai-act', icon: '🇪🇺', name: 'EU AI Act 2024', pages: 892, time: '47s' },
+                { id: 'hipaa', icon: '🏥', name: 'HIPAA Guidelines', pages: 234, time: '18s' },
+                { id: 'sox', icon: '🔒', name: 'SOX Compliance', pages: 156, time: '12s' },
+                { id: 'gdpr', icon: '🔒', name: 'GDPR Requirements', pages: 88, time: '8s' },
+                { id: 'internal', icon: '📋', name: 'Internal Policies', pages: 45, time: '4s' },
               ].map((doc) => (
                 <button
                   key={doc.id}
@@ -433,20 +433,20 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="text-teal-600 font-medium">{doc.time}</div>
-                    <span className="text-neutral-400">â†’</span>
+                    <span className="text-neutral-400">→</span>
                   </div>
                 </button>
               ))}
             </div>
 
             <div className="mt-6 p-4 bg-teal-50 rounded-lg border border-teal-200">
-              <h4 className="font-medium text-teal-800 mb-2">ðŸ§  What Happens</h4>
+              <h4 className="font-medium text-teal-800 mb-2">🧠 What Happens</h4>
               <ul className="text-sm text-teal-700 space-y-1">
-                <li>â€¢ Extracts regulatory requirements</li>
-                <li>â€¢ Identifies compliance triggers</li>
-                <li>â€¢ Maps to company processes</li>
-                <li>â€¢ Updates all Council agents</li>
-                <li>â€¢ Creates decision constraints</li>
+                <li>• Extracts regulatory requirements</li>
+                <li>• Identifies compliance triggers</li>
+                <li>• Maps to company processes</li>
+                <li>• Updates all Council agents</li>
+                <li>• Creates decision constraints</li>
               </ul>
             </div>
           </div>
@@ -458,7 +458,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center text-3xl">
-                  âœ“
+                  ✓
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-teal-800">
@@ -477,7 +477,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                 }}
                 className="px-4 py-2 text-teal-600 hover:text-teal-700 font-medium"
               >
-                â† Absorb Another
+                ← Absorb Another
               </button>
             </div>
           </div>
@@ -513,7 +513,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
           {/* Agent Updates */}
           <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-neutral-900 mb-4">
-              ðŸ§  The Council Now Knows
+              🧠 The Council Now Knows
             </h3>
             <div className="space-y-3">
               {result.agentUpdates.map((update, idx) => (
@@ -526,7 +526,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                   </div>
                   <ul className="text-sm text-green-700 space-y-1">
                     {update.knowledgeAdded.slice(0, 3).map((item, i) => (
-                      <li key={i}>â€¢ {item}</li>
+                      <li key={i}>• {item}</li>
                     ))}
                   </ul>
                 </div>
@@ -566,7 +566,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
           {result.summary.penalties.length > 0 && (
             <div className="bg-red-50 rounded-xl border border-red-200 p-6">
               <h3 className="text-lg font-semibold text-red-800 mb-4">
-                âš ï¸ Penalties for Non-Compliance
+                ⚠️ Penalties for Non-Compliance
               </h3>
               <div className="space-y-2">
                 {result.summary.penalties.map((penalty, idx) => (
@@ -580,7 +580,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
 
           <div className="p-4 bg-teal-100 rounded-xl border border-teal-200 text-center">
             <p className="text-teal-800 font-medium">
-              âœ… All future deliberations will incorporate these regulatory constraints
+              ✅ All future deliberations will incorporate these regulatory constraints
             </p>
           </div>
         </div>
@@ -601,9 +601,9 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                     </h2>
                     <div className="flex items-center gap-4 text-sm text-neutral-500 mt-1">
                       <span>Version: {REGULATORY_DOCUMENTS[selectedDocument].version}</span>
-                      <span>â€¢</span>
+                      <span>•</span>
                       <span>{REGULATORY_DOCUMENTS[selectedDocument].pages} pages</span>
-                      <span>â€¢</span>
+                      <span>•</span>
                       <span>Updated: {REGULATORY_DOCUMENTS[selectedDocument].lastUpdated}</span>
                     </div>
                   </div>
@@ -612,7 +612,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                   onClick={() => setSelectedDocument(null)}
                   className="p-2 hover:bg-neutral-100 rounded-lg transition-colors"
                 >
-                  <span className="text-2xl text-neutral-400 hover:text-neutral-600">Ã—</span>
+                  <span className="text-2xl text-neutral-400 hover:text-neutral-600">×</span>
                 </button>
               </div>
             </div>
@@ -628,7 +628,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                     >
                       <span className="font-semibold text-neutral-900">{section.title}</span>
                       <span className="text-neutral-400 text-xl">
-                        {expandedSections.has(section.title) ? 'âˆ’' : '+'}
+                        {expandedSections.has(section.title) ? '−' : '+'}
                       </span>
                     </button>
                     
@@ -704,7 +704,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
             {/* Modal Footer */}
             <div className="p-4 border-t border-neutral-200 bg-neutral-50 flex items-center justify-between">
               <div className="text-sm text-neutral-500">
-                ðŸ’¡ Click "Absorb Regulation" to have the Council learn from this document
+                💡 Click "Absorb Regulation" to have the Council learn from this document
               </div>
               <button
                 onClick={() => {
@@ -719,7 +719,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                 }}
                 className="px-4 py-2 bg-teal-600 text-white rounded-lg font-medium hover:bg-teal-700 transition-colors"
               >
-                Load into Absorber â†’
+                Load into Absorber →
               </button>
             </div>
           </div>

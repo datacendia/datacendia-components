@@ -121,11 +121,11 @@ const generateFleetData = () => {
     { name: 'Lagos', lat: 6.5244, lng: 3.3792, region: 'MEA' },
     { name: 'Riyadh', lat: 24.7136, lng: 46.6753, region: 'MEA' },
     // South America
-    { name: 'SÃ£o Paulo', lat: -23.5505, lng: -46.6333, region: 'SA' },
+    { name: 'São Paulo', lat: -23.5505, lng: -46.6333, region: 'SA' },
     { name: 'Buenos Aires', lat: -34.6037, lng: -58.3816, region: 'SA' },
     { name: 'Santiago', lat: -33.4489, lng: -70.6693, region: 'SA' },
     { name: 'Lima', lat: -12.0464, lng: -77.0428, region: 'SA' },
-    { name: 'BogotÃ¡', lat: 4.7110, lng: -74.0721, region: 'SA' },
+    { name: 'Bogotá', lat: 4.7110, lng: -74.0721, region: 'SA' },
   ];
 
   const statuses = ['in-transit', 'in-transit', 'in-transit', 'loading', 'delivered'];
@@ -296,12 +296,12 @@ const FleetMap: React.FC = () => {
 
     // Vehicle type icons and colors
     const vehicleIcons: Record<string, string> = {
-      truck: 'ðŸš›',
-      van: 'ðŸš',
-      plane: 'âœˆï¸',
-      ship: 'ðŸš¢',
-      bike: 'ðŸš²',
-      drone: 'ðŸ›¸',
+      truck: '🚛',
+      van: '🚐',
+      plane: '✈️',
+      ship: '🚢',
+      bike: '🚲',
+      drone: '🛸',
     };
 
     const vehicleColors: Record<string, string> = {
@@ -317,7 +317,7 @@ const FleetMap: React.FC = () => {
     fleetData.forEach((vehicle) => {
       const statusColor = vehicle.status === 'in-transit' ? '#22c55e' : vehicle.status === 'loading' ? '#eab308' : '#3b82f6';
       const vehicleColor = vehicleColors[vehicle.type] || '#6b7280';
-      const vehicleIcon = vehicleIcons[vehicle.type] || 'ðŸ“¦';
+      const vehicleIcon = vehicleIcons[vehicle.type] || '📦';
       
       const icon = L.divIcon({
         className: 'custom-vehicle-marker',
@@ -391,27 +391,27 @@ const FleetMap: React.FC = () => {
         <div className="text-sm font-semibold mb-2">Fleet by Type</div>
         <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs">
           <div className="flex items-center gap-2">
-            <span>ðŸš›</span>
+            <span>🚛</span>
             <span>Trucks ({fleetData.filter(v => v.type === 'truck').length})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>ðŸš</span>
+            <span>🚐</span>
             <span>Vans ({fleetData.filter(v => v.type === 'van').length})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>âœˆï¸</span>
+            <span>✈️</span>
             <span>Aircraft ({fleetData.filter(v => v.type === 'plane').length})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>ðŸš¢</span>
+            <span>🚢</span>
             <span>Ships ({fleetData.filter(v => v.type === 'ship').length})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>ðŸš²</span>
+            <span>🚲</span>
             <span>E-Bikes ({fleetData.filter(v => v.type === 'bike').length})</span>
           </div>
           <div className="flex items-center gap-2">
-            <span>ðŸ›¸</span>
+            <span>🛸</span>
             <span>Drones ({fleetData.filter(v => v.type === 'drone').length})</span>
           </div>
         </div>
@@ -465,18 +465,18 @@ export const TransportationLogisticsPage: React.FC = () => {
             onClick={() => navigate('/verticals')}
             className="flex items-center gap-2 text-neutral-400 hover:text-white mb-6"
           >
-            â† Back to Verticals
+            ← Back to Verticals
           </button>
 
           <div className="flex items-start gap-6">
-            <span className="text-6xl">ðŸšš</span>
+            <span className="text-6xl">🚚</span>
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2">
                 <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm font-medium">
-                  ðŸ“ˆ Growth Vertical
+                  📈 Growth Vertical
                 </span>
                 <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm font-medium">
-                  ðŸ”’ 88% Sovereignty
+                  🔒 88% Sovereignty
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Transportation / Logistics</h1>
@@ -489,7 +489,7 @@ export const TransportationLogisticsPage: React.FC = () => {
                   onClick={() => navigate('/cortex/council?vertical=transportation')}
                   className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
                 >
-                  <span>ðŸ›ï¸</span> Launch Logistics Council
+                  <span>🏛️</span> Launch Logistics Council
                 </button>
               </div>
             </div>
@@ -529,7 +529,7 @@ export const TransportationLogisticsPage: React.FC = () => {
                 onClick={() => setActiveTab(tab as typeof activeTab)}
                 className={`px-6 py-4 font-medium capitalize transition-all border-b-2 ${activeTab === tab ? 'border-primary-500 text-white' : 'border-transparent text-neutral-400 hover:text-white'}`}
               >
-                {tab === 'agents' ? 'Agents & Analytics' : tab === 'fleet-map' ? 'ðŸ—ºï¸ Live Fleet Map' : tab}
+                {tab === 'agents' ? 'Agents & Analytics' : tab === 'fleet-map' ? '🗺️ Live Fleet Map' : tab}
               </button>
             ))}
           </div>
@@ -546,17 +546,17 @@ export const TransportationLogisticsPage: React.FC = () => {
                   {
                     title: 'Route Optimization',
                     desc: 'AI-powered routing that considers traffic, weather, driver hours, and delivery windows in real-time',
-                    icon: 'ðŸ—ºï¸',
+                    icon: '🗺️',
                   },
                   {
                     title: 'Fleet Intelligence',
                     desc: 'Predictive maintenance, asset utilization optimization, and replacement timing recommendations',
-                    icon: 'ðŸš›',
+                    icon: '🚛',
                   },
                   {
                     title: 'Compliance Automation',
                     desc: 'DOT hours tracking, safety compliance, and regulatory reporting with full audit trail',
-                    icon: 'ðŸ“‹',
+                    icon: '📋',
                   },
                 ].map((item) => (
                   <div
@@ -601,7 +601,7 @@ export const TransportationLogisticsPage: React.FC = () => {
                     <div className="flex items-start justify-between">
                       <div className="flex-1">
                         <p className="text-neutral-300 text-lg italic">"{cs.quote}"</p>
-                        <p className="text-neutral-500 mt-3">â€” {cs.org}</p>
+                        <p className="text-neutral-500 mt-3">— {cs.org}</p>
                       </div>
                       <div className="ml-6 text-right">
                         <p className="text-2xl font-bold text-green-400">{cs.metric}</p>
@@ -646,10 +646,10 @@ export const TransportationLogisticsPage: React.FC = () => {
 
             <section className="grid grid-cols-4 gap-4">
               {[
-                { label: 'Active Routes', value: '7', icon: 'ðŸ›£ï¸', color: 'text-sky-400' },
-                { label: 'Avg Speed', value: '58 mph', icon: 'âš¡', color: 'text-green-400' },
-                { label: 'Fuel Efficiency', value: '+18%', icon: 'â›½', color: 'text-yellow-400' },
-                { label: 'ETA Accuracy', value: '96%', icon: 'ðŸŽ¯', color: 'text-purple-400' },
+                { label: 'Active Routes', value: '7', icon: '🛣️', color: 'text-sky-400' },
+                { label: 'Avg Speed', value: '58 mph', icon: '⚡', color: 'text-green-400' },
+                { label: 'Fuel Efficiency', value: '+18%', icon: '⛽', color: 'text-yellow-400' },
+                { label: 'ETA Accuracy', value: '96%', icon: '🎯', color: 'text-purple-400' },
               ].map((stat) => (
                 <div key={stat.label} className="bg-neutral-800 rounded-xl p-4 border border-neutral-700">
                   <div className="flex items-center gap-2 mb-2">
@@ -662,9 +662,9 @@ export const TransportationLogisticsPage: React.FC = () => {
             </section>
 
             <section className="bg-gradient-to-r from-sky-900/20 to-blue-900/20 rounded-xl p-6 border border-sky-500/30">
-              <h3 className="font-semibold mb-3">ðŸ¤– AI Route Optimization Active</h3>
+              <h3 className="font-semibold mb-3">🤖 AI Route Optimization Active</h3>
               <p className="text-neutral-300 text-sm">
-                CendiaPredictâ„¢ is continuously analyzing traffic patterns, weather conditions, and delivery windows 
+                CendiaPredict™ is continuously analyzing traffic patterns, weather conditions, and delivery windows 
                 to optimize routes in real-time. Current optimization has saved <span className="text-green-400 font-semibold">$12,400</span> in 
                 fuel costs this week.
               </p>
@@ -684,7 +684,7 @@ export const TransportationLogisticsPage: React.FC = () => {
                   >
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-12 h-12 bg-sky-500/20 rounded-full flex items-center justify-center">
-                        <span className="text-xl">ðŸ¤–</span>
+                        <span className="text-xl">🤖</span>
                       </div>
                       <div>
                         <h3 className="font-semibold text-lg">{agent.name}</h3>

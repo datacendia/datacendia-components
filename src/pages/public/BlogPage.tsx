@@ -204,7 +204,7 @@ export const BlogPage: React.FC = () => {
       {/* Footer */}
       <footer className="relative z-20 py-12 border-t border-gray-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center text-[10px] text-gray-700 tracking-widest">
-          <p>Â© {new Date().getFullYear()} DATACENDIA â€¢ SOVEREIGN INTELLIGENCE</p>
+          <p>© {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE</p>
         </div>
       </footer>
     </div>

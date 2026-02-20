@@ -169,8 +169,8 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
         agent.status === 'reviewing' ? 'bg-cyan-500' : 'bg-amber-500'
       )} />
     </div>
-    <p className="text-[10px] text-gray-400 mb-1">ðŸ“„ {agent.documentsProcessed.toLocaleString()} docs processed</p>
-    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.action}</p>
+    <p className="text-[10px] text-gray-400 mb-1">📄 {agent.documentsProcessed.toLocaleString()} docs processed</p>
+    <p className="text-[10px] text-cyan-400">🎯 {agent.action}</p>
   </div>
 );
 

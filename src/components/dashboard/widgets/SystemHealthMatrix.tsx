@@ -191,7 +191,7 @@ export const SystemHealthMatrix: React.FC<{ className?: string }> = ({ className
           <h2 className="text-lg font-semibold">{overallStatus}</h2>
         </div>
         <p className="text-xs opacity-75">
-          {operational}/{allServices.length} services operational â€¢ {avgUptime.toFixed(2)}% uptime
+          {operational}/{allServices.length} services operational • {avgUptime.toFixed(2)}% uptime
         </p>
       </div>
 
@@ -199,7 +199,7 @@ export const SystemHealthMatrix: React.FC<{ className?: string }> = ({ className
       <div className="mb-4 p-3 bg-sovereign-elevated/30 rounded-lg border border-sovereign-border-subtle">
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs text-gray-400">90-day uptime history</span>
-          <span className="text-xs text-gray-500">Today â†’</span>
+          <span className="text-xs text-gray-500">Today →</span>
         </div>
         <StatusBar uptime={avgUptime} />
       </div>

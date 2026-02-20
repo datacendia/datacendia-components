@@ -31,6 +31,9 @@ import {
   FileCheck,
   ChevronRight,
   ExternalLink,
+  Camera,
+  Settings,
+  ChevronDown,
 } from 'lucide-react';
 
 // =============================================================================
@@ -47,29 +50,58 @@ interface Receipt {
     question: string;
     finalDecision: string;
     councilMode: string;
+    vertical?: string;
     consensusScore: number;
     createdAt: Date;
     completedAt: Date;
   };
   participants: {
-    agents: { name: string; role: string; responseCount: number; dissented: boolean }[];
+    agents: { name: string; role: string; description?: string; responseCount: number; citationCount?: number; dissented: boolean; confidenceAvg?: number }[];
+    humanApprovers?: { name: string; role: string; approvedAt: Date }[];
   };
   evidenceChain: {
     merkleRoot: string;
     deliberationHash: string;
     citationsHash: string;
+    agentResponsesHash: string;
+    dissentsHash: string;
   };
   compliance: {
     frameworks: string[];
+    requirements?: { framework: string; requirement: string; status: string; evidence: string }[];
     gatesCleared: string[];
     gatesFailed: string[];
   };
   cryptographicProof: {
     algorithm: string;
     receiptHash: string;
+    signature?: string;
     signedBy?: string;
     signedAt?: Date;
+    publicKeyFingerprint?: string;
   };
+  mediaAuthentication?: {
+    assetsVerified: number;
+    chainOfCustodyIntact: boolean;
+    c2paProvenanceSigned: boolean;
+    deepfakeAnalysisRun: boolean;
+    verdicts: { assetName: string; verdict: string; confidence: number }[];
+  };
+  workflowConfig?: {
+    workflowType: string;
+    verticalId: string;
+    complianceProfile: string;
+  };
+  iissScores?: {
+    overallScore: number;
+    band: string;
+    certificationLevel: string;
+    dimensions: { name: string; primitive: string; score: number; maxScore: number; normalizedScore: number }[];
+    calculatedAt: Date;
+  };
+  dissents?: { agentName: string; severity: string; reason: string; protected: boolean }[];
+  citations?: { source: string; url?: string; retrievedAt: Date; hash: string }[];
+  auditTrail?: { action: string; actor: string; timestamp: Date; details?: string }[];
   retention: {
     retentionPeriod: string;
     retentionUntil: Date;
@@ -137,6 +169,8 @@ const TR_DEMO_RECEIPT: Receipt = {
     merkleRoot: 'e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6',
     deliberationHash: 'a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2',
     citationsHash: 'b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3',
+    agentResponsesHash: 'c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4',
+    dissentsHash: 'd4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5',
   },
   compliance: {
     frameworks: ['Basel III', 'SEC Rule 17a-4', 'FINRA Rule 3310'],
@@ -184,6 +218,8 @@ const FALLBACK_RECEIPT: Receipt = {
     merkleRoot: 'a7f3b2c1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1',
     deliberationHash: 'b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9',
     citationsHash: 'c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0',
+    agentResponsesHash: 'd0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1',
+    dissentsHash: 'e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2',
   },
   compliance: {
     frameworks: ['SOX', 'GDPR', 'CCPA', 'ISO 27001'],
@@ -233,7 +269,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
   const [selectedDeliberation, setSelectedDeliberation] = useState<Deliberation | null>(null);
   const [receipt, setReceipt] = useState<Receipt | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [activeTab, setActiveTab] = useState<'overview' | 'evidence' | 'compliance' | 'crypto'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'evidence' | 'compliance' | 'crypto' | 'media'>('overview');
 
   // Load deliberations from API on mount
   useEffect(() => {
@@ -246,8 +282,9 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
       const res = await api.get<any>('/council/deliberations', { limit: 50 });
       const payload = res as any;
       
-      if (payload.success && payload.deliberations && payload.deliberations.length > 0) {
-        const apiDeliberations: Deliberation[] = payload.deliberations
+      const list = payload.data || payload.deliberations;
+      if (payload.success && list && list.length > 0) {
+        const apiDeliberations: Deliberation[] = list
           .filter((d: any) => d.status === 'COMPLETED')
           .map((d: any) => ({
             id: d.id,
@@ -256,7 +293,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
             councilMode: d.mode || 'deliberation',
             consensusScore: Math.round((d.confidence || 0.7) * 100),
             createdAt: new Date(d.created_at || d.createdAt),
-            agentCount: d.deliberation_messages?.length || 4,
+            agentCount: d.agents?.length || Math.ceil((d.message_count || 0) / 3) || 4,
           }));
         setDeliberations(apiDeliberations);
       } else {
@@ -274,23 +311,26 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
     setSelectedDeliberation(deliberation);
     setIsGenerating(true);
     
-    // Use TR Demo receipt for Petrov transfer, otherwise try API then fallback
-    if (deliberation.id === 'tr-demo-petrov-transfer') {
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      setReceipt(TR_DEMO_RECEIPT);
-    } else {
-      try {
-        // Try to fetch from API
-        const res = await api.get<any>(`/regulators-receipt/${deliberation.id}`);
-        const payload = res as any;
-        if (payload.success && payload.receipt) {
-          setReceipt(payload.receipt);
+    try {
+      const res = await api.post<any>('/regulators-receipt/generate', {
+        deliberationId: deliberation.id,
+        generatedBy: 'stuart.rainey@datacendia.com',
+      });
+      const payload = res as any;
+      if (payload.success && payload.receipt) {
+        setReceipt(payload.receipt);
+      } else {
+        // Fallback for demo IDs that don't exist in DB
+        if (deliberation.id === 'tr-demo-petrov-transfer') {
+          setReceipt(TR_DEMO_RECEIPT);
         } else {
-          await new Promise(resolve => setTimeout(resolve, 1500));
           setReceipt(FALLBACK_RECEIPT);
         }
-      } catch {
-        await new Promise(resolve => setTimeout(resolve, 1500));
+      }
+    } catch {
+      if (deliberation.id === 'tr-demo-petrov-transfer') {
+        setReceipt(TR_DEMO_RECEIPT);
+      } else {
         setReceipt(FALLBACK_RECEIPT);
       }
     }
@@ -302,22 +342,27 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
     setReceipt(null);
   };
 
-  const handleDownloadPdf = async () => {
-    if (!receipt) return;
+  const handleDownloadPdf = async (format: 'court' | 'standard' | 'evidence' = 'court') => {
+    if (!selectedDeliberation) return;
     try {
       const token = localStorage.getItem('dc_access_token');
       const baseUrl = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
-      const response = await fetch(`${baseUrl}/regulators-receipt/export/pdf`, {
+      const response = await fetch(`${baseUrl}/regulators-receipt/generate-pdf`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           ...(token ? { Authorization: `Bearer ${token}` } : {}),
         },
-        body: JSON.stringify({ receipt }),
+        body: JSON.stringify({
+          deliberationId: selectedDeliberation.id,
+          generatedBy: 'platform-user',
+          format,
+        }),
       });
 
       if (!response.ok) {
-        console.error('PDF generation failed:', response.statusText);
+        const errText = await response.text();
+        console.error('PDF generation failed:', response.status, errText);
         return;
       }
 
@@ -325,7 +370,9 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `regulators-receipt-${receipt.receiptId}.pdf`;
+      const suffixMap: Record<string, string> = { court: 'court-admissible', standard: 'executive-summary', evidence: 'evidence-package' };
+      const suffix = suffixMap[format] || 'court-admissible';
+      a.download = `regulators-receipt-${selectedDeliberation.id.substring(0, 8)}-${suffix}.pdf`;
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);
@@ -401,7 +448,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                         {deliberation.councilMode}
                       </span>
                       <span className="text-xs text-gray-500 dark:text-gray-400">
-                        {deliberation.createdAt.toLocaleDateString()}
+                        {new Date(deliberation.createdAt).toLocaleDateString()}
                       </span>
                     </div>
                     <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{deliberation.question}</h3>
@@ -460,12 +507,28 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                 <Printer className="w-4 h-4" />
                 Print
               </button>
+              <div className="relative group">
+                <button
+                  onClick={() => handleDownloadPdf('court')}
+                  className="flex items-center gap-2 px-4 py-2 bg-white text-emerald-600 hover:bg-emerald-50 rounded-lg transition-colors font-medium"
+                >
+                  <Scale className="w-4 h-4" />
+                  Court PDF
+                </button>
+              </div>
               <button
-                onClick={handleDownloadPdf}
-                className="flex items-center gap-2 px-4 py-2 bg-white text-emerald-600 hover:bg-emerald-50 rounded-lg transition-colors font-medium"
+                onClick={() => handleDownloadPdf('standard')}
+                className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
               >
-                <Download className="w-4 h-4" />
-                Download PDF
+                <FileText className="w-4 h-4" />
+                Summary PDF
+              </button>
+              <button
+                onClick={() => handleDownloadPdf('evidence')}
+                className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
+              >
+                <FileCheck className="w-4 h-4" />
+                Evidence Package
               </button>
             </div>
           </div>
@@ -492,6 +555,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                 { id: 'evidence', label: 'Evidence Chain', icon: Hash },
                 { id: 'compliance', label: 'Compliance', icon: Shield },
                 { id: 'crypto', label: 'Cryptographic Proof', icon: Lock },
+                { id: 'media', label: 'Media Auth', icon: Camera },
               ].map(tab => {
                 const Icon = tab.icon;
                 return (
@@ -546,31 +610,68 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
 
                 {/* Participants */}
                 <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-                  <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Participants</h2>
+                  <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Council Participants</h2>
                   <div className="space-y-3">
                     {receipt.participants.agents.map((agent, i) => (
-                      <div key={i} className="flex items-center justify-between py-2 border-b border-gray-100 dark:border-gray-700 last:border-0">
-                        <div className="flex items-center gap-3">
-                          <div className="w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 font-medium text-sm">
-                            {agent.name.charAt(6)}
+                      <div key={i} className="py-3 border-b border-gray-100 dark:border-gray-700 last:border-0">
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-3">
+                            <div className="w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 font-medium text-sm">
+                              {agent.name.charAt(0)}
+                            </div>
+                            <div>
+                              <p className="font-medium text-gray-900 dark:text-white">{agent.name}</p>
+                              <p className="text-xs text-gray-500 dark:text-gray-400">{agent.role}</p>
+                            </div>
                           </div>
-                          <div>
-                            <p className="font-medium text-gray-900 dark:text-white">{agent.name}</p>
-                            <p className="text-xs text-gray-500 dark:text-gray-400">{agent.role}</p>
+                          <div className="flex items-center gap-3">
+                            <span className="text-sm text-gray-500 dark:text-gray-400">{agent.responseCount} responses</span>
+                            {agent.confidenceAvg != null && (
+                              <span className="text-sm font-medium text-emerald-600 dark:text-emerald-400">{agent.confidenceAvg}%</span>
+                            )}
+                            {agent.dissented && (
+                              <span className="px-2 py-0.5 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded text-xs">
+                                DISSENTED
+                              </span>
+                            )}
                           </div>
                         </div>
-                        <div className="flex items-center gap-3">
-                          <span className="text-sm text-gray-500 dark:text-gray-400">{agent.responseCount} responses</span>
-                          {agent.dissented && (
-                            <span className="px-2 py-0.5 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400 rounded text-xs">
-                              DISSENTED
-                            </span>
-                          )}
-                        </div>
+                        {agent.description && (
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 ml-11">{agent.description}</p>
+                        )}
                       </div>
                     ))}
                   </div>
                 </div>
+
+                {/* IISS Integrity Scores */}
+                {receipt.iissScores && (
+                  <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+                    <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">IISS™ Integrity Score</h2>
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="text-3xl font-bold text-emerald-600 dark:text-emerald-400">{receipt.iissScores.overallScore}/1000</div>
+                      <div>
+                        <span className="px-2 py-1 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 rounded text-sm font-medium uppercase">{receipt.iissScores.band}</span>
+                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{receipt.iissScores.certificationLevel}</p>
+                      </div>
+                    </div>
+                    <div className="space-y-2">
+                      {receipt.iissScores.dimensions.map((dim, i) => {
+                        const pct = dim.maxScore > 0 ? Math.round((dim.score / dim.maxScore) * 100) : 0;
+                        return (
+                          <div key={i} className="flex items-center gap-3">
+                            <span className="text-xs font-mono text-gray-500 dark:text-gray-400 w-6">P{i + 1}</span>
+                            <span className="text-xs text-gray-700 dark:text-gray-300 w-48 truncate">{dim.name}</span>
+                            <div className="flex-1 bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                              <div className="bg-emerald-500 h-2 rounded-full" style={{ width: `${pct}%` }} />
+                            </div>
+                            <span className="text-xs text-gray-500 dark:text-gray-400 w-16 text-right">{dim.normalizedScore}/1000</span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Sidebar */}
@@ -589,7 +690,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Generated</span>
-                      <span className="text-gray-900 dark:text-white">{receipt.generatedAt.toLocaleString()}</span>
+                      <span className="text-gray-900 dark:text-white">{new Date(receipt.generatedAt).toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Generated By</span>
@@ -608,7 +709,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Retain Until</span>
-                      <span className="text-gray-900 dark:text-white">{receipt.retention.retentionUntil.toLocaleDateString()}</span>
+                      <span className="text-gray-900 dark:text-white">{new Date(receipt.retention.retentionUntil).toLocaleDateString()}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Jurisdiction</span>
@@ -633,7 +734,9 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
               <div className="space-y-6">
                 <HashDisplay label="Merkle Root" hash={receipt.evidenceChain.merkleRoot} />
                 <HashDisplay label="Deliberation Hash" hash={receipt.evidenceChain.deliberationHash} />
+                <HashDisplay label="Agent Responses Hash" hash={receipt.evidenceChain.agentResponsesHash} />
                 <HashDisplay label="Citations Hash" hash={receipt.evidenceChain.citationsHash} />
+                <HashDisplay label="Dissents Hash" hash={receipt.evidenceChain.dissentsHash} />
               </div>
               <div className="mt-6 p-4 bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 rounded-lg">
                 <div className="flex items-center gap-2 text-emerald-700 dark:text-emerald-400">
@@ -657,6 +760,31 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                   ))}
                 </div>
               </div>
+
+              {/* Compliance Requirements */}
+              {receipt.compliance.requirements && receipt.compliance.requirements.length > 0 && (
+                <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+                  <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Compliance Requirements</h2>
+                  <div className="space-y-3">
+                    {receipt.compliance.requirements.map((req, i) => (
+                      <div key={i} className="flex items-start justify-between p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="px-2 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded text-xs font-medium">{req.framework}</span>
+                            {req.status === 'met' ? (
+                              <CheckCircle className="w-4 h-4 text-green-600" />
+                            ) : (
+                              <AlertTriangle className="w-4 h-4 text-red-600" />
+                            )}
+                          </div>
+                          <p className="text-sm text-gray-900 dark:text-white">{req.requirement}</p>
+                          <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{req.evidence}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Gates Cleared</h2>
@@ -706,16 +834,25 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                   <p className="text-gray-900 dark:text-white font-mono">{receipt.cryptographicProof.algorithm}</p>
                 </div>
                 <HashDisplay label="Receipt Hash" hash={receipt.cryptographicProof.receiptHash} />
+                {receipt.cryptographicProof.signature && (
+                  <HashDisplay label="Digital Signature" hash={receipt.cryptographicProof.signature} />
+                )}
                 {receipt.cryptographicProof.signedBy && (
                   <>
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Signed By</p>
-                      <p className="text-gray-900 dark:text-white">{receipt.cryptographicProof.signedBy}</p>
+                      <p className="text-gray-900 dark:text-white font-mono">{receipt.cryptographicProof.signedBy}</p>
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Signed At</p>
-                      <p className="text-gray-900 dark:text-white">{receipt.cryptographicProof.signedAt?.toLocaleString()}</p>
+                      <p className="text-gray-900 dark:text-white">{receipt.cryptographicProof.signedAt ? new Date(receipt.cryptographicProof.signedAt).toLocaleString() : 'N/A'}</p>
                     </div>
+                    {receipt.cryptographicProof.publicKeyFingerprint && (
+                      <div>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Public Key Fingerprint</p>
+                        <p className="text-gray-900 dark:text-white font-mono text-sm">{receipt.cryptographicProof.publicKeyFingerprint}</p>
+                      </div>
+                    )}
                   </>
                 )}
               </div>
@@ -723,6 +860,133 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                 <div className="flex items-center gap-2 text-emerald-700 dark:text-emerald-400">
                   <Lock className="w-5 h-5" />
                   <span className="font-medium">Cryptographic signature verified</span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Media Authentication Tab (P8) */}
+          {activeTab === 'media' && (
+            <div className="space-y-6">
+              {/* Workflow Config Badge */}
+              {receipt.workflowConfig && (
+                <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+                  <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                    <Settings className="w-5 h-5" />
+                    Workflow Configuration
+                  </h2>
+                  <div className="grid grid-cols-3 gap-4">
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">Workflow Type</p>
+                      <p className="font-medium text-gray-900 dark:text-white">{receipt.workflowConfig.workflowType}</p>
+                    </div>
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">Vertical</p>
+                      <p className="font-medium text-gray-900 dark:text-white capitalize">{receipt.workflowConfig.verticalId}</p>
+                    </div>
+                    <div className="p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">Compliance Profile</p>
+                      <span className="px-2 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded text-xs font-medium">
+                        {receipt.workflowConfig.complianceProfile}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Media Auth Status */}
+              <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                  <Camera className="w-5 h-5" />
+                  Synthetic Media Authentication (P8)
+                </h2>
+                {receipt.mediaAuthentication ? (
+                  <div className="space-y-4">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                      <div className="p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg text-center">
+                        <p className="text-2xl font-bold text-gray-900 dark:text-white">{receipt.mediaAuthentication.assetsVerified}</p>
+                        <p className="text-xs text-gray-500 dark:text-gray-400">Assets Verified</p>
+                      </div>
+                      <div className="p-4 rounded-lg text-center" style={{ backgroundColor: receipt.mediaAuthentication.chainOfCustodyIntact ? 'rgb(240 253 244)' : 'rgb(254 242 242)' }}>
+                        <div className="flex justify-center mb-1">
+                          {receipt.mediaAuthentication.chainOfCustodyIntact
+                            ? <CheckCircle className="w-6 h-6 text-green-600" />
+                            : <AlertTriangle className="w-6 h-6 text-red-600" />
+                          }
+                        </div>
+                        <p className="text-xs text-gray-600">Chain of Custody</p>
+                      </div>
+                      <div className="p-4 rounded-lg text-center" style={{ backgroundColor: receipt.mediaAuthentication.c2paProvenanceSigned ? 'rgb(240 253 244)' : 'rgb(255 251 235)' }}>
+                        <div className="flex justify-center mb-1">
+                          {receipt.mediaAuthentication.c2paProvenanceSigned
+                            ? <CheckCircle className="w-6 h-6 text-green-600" />
+                            : <Clock className="w-6 h-6 text-yellow-600" />
+                          }
+                        </div>
+                        <p className="text-xs text-gray-600">C2PA Provenance</p>
+                      </div>
+                      <div className="p-4 rounded-lg text-center" style={{ backgroundColor: receipt.mediaAuthentication.deepfakeAnalysisRun ? 'rgb(240 253 244)' : 'rgb(255 251 235)' }}>
+                        <div className="flex justify-center mb-1">
+                          {receipt.mediaAuthentication.deepfakeAnalysisRun
+                            ? <CheckCircle className="w-6 h-6 text-green-600" />
+                            : <Eye className="w-6 h-6 text-yellow-600" />
+                          }
+                        </div>
+                        <p className="text-xs text-gray-600">Deepfake Analysis</p>
+                      </div>
+                    </div>
+
+                    {/* Verdicts Table */}
+                    {receipt.mediaAuthentication.verdicts.length > 0 && (
+                      <div>
+                        <h3 className="font-medium text-gray-900 dark:text-white mb-3">Verification Verdicts</h3>
+                        <div className="space-y-2">
+                          {receipt.mediaAuthentication.verdicts.map((v, i) => (
+                            <div key={i} className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                              <div className="flex items-center gap-3">
+                                <Camera className="w-4 h-4 text-gray-400" />
+                                <span className="text-sm font-medium text-gray-900 dark:text-white">{v.assetName}</span>
+                              </div>
+                              <div className="flex items-center gap-3">
+                                <span className={`px-2 py-0.5 rounded text-xs font-medium ${
+                                  v.verdict === 'authentic' || v.verdict === 'likely_authentic'
+                                    ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400'
+                                    : v.verdict === 'inconclusive'
+                                    ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400'
+                                    : 'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400'
+                                }`}>
+                                  {v.verdict.replace(/_/g, ' ').toUpperCase()}
+                                </span>
+                                <span className="text-sm text-gray-500 dark:text-gray-400">{v.confidence}%</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {receipt.mediaAuthentication.verdicts.length === 0 && (
+                      <div className="p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg text-center text-gray-500 dark:text-gray-400">
+                        <Camera className="w-8 h-8 mx-auto mb-2 opacity-40" />
+                        <p className="text-sm">No media assets attached to this deliberation.</p>
+                        <p className="text-xs mt-1">Upload evidence via the DCII Media Auth API to enable verification.</p>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <div className="p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg text-center text-gray-500 dark:text-gray-400">
+                    <p className="text-sm">Media authentication data not available for this receipt.</p>
+                  </div>
+                )}
+              </div>
+
+              <div className="bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 rounded-xl p-6">
+                <div className="flex items-center gap-3">
+                  <Shield className="w-8 h-8 text-emerald-600 dark:text-emerald-400" />
+                  <div>
+                    <h3 className="text-lg font-semibold text-emerald-800 dark:text-emerald-200">DCII Primitive P8 Active</h3>
+                    <p className="text-emerald-700 dark:text-emerald-300">CendiaMediaAuth™ — C2PA provenance, deepfake detection, chain of custody tracking</p>
+                  </div>
                 </div>
               </div>
             </div>

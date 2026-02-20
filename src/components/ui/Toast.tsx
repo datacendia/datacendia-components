@@ -76,10 +76,10 @@ const ToastContainer: React.FC<{ toasts: Toast[]; removeToast: (id: string) => v
 
 const ToastItem: React.FC<{ toast: Toast; onClose: () => void }> = ({ toast, onClose }) => {
   const icons: Record<ToastType, string> = {
-    success: 'âœ“',
-    error: 'âœ•',
-    warning: 'âš ',
-    info: 'â„¹',
+    success: '✓',
+    error: '✕',
+    warning: '⚠',
+    info: 'ℹ',
   };
 
   const styles: Record<ToastType, string> = {
@@ -119,7 +119,7 @@ const ToastItem: React.FC<{ toast: Toast; onClose: () => void }> = ({ toast, onC
         onClick={onClose}
         className="text-current opacity-50 hover:opacity-100 transition-opacity"
       >
-        âœ•
+        ✕
       </button>
     </div>
   );

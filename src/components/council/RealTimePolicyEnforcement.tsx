@@ -140,7 +140,7 @@ const RuleCard: React.FC<{ rule: PolicyRule; onToggle: (id: string) => void }> =
       
       <div className="flex items-center justify-between text-[10px]">
         <span className="text-gray-500">
-          {rule.threshold && `Threshold: ${rule.thresholdType === 'max' ? 'â‰¤' : 'â‰¥'} ${rule.threshold.toLocaleString()}`}
+          {rule.threshold && `Threshold: ${rule.thresholdType === 'max' ? '≤' : '≥'} ${rule.threshold.toLocaleString()}`}
         </span>
         <span className="text-amber-400">Triggered {rule.triggeredCount}x</span>
       </div>
@@ -257,7 +257,7 @@ const AgentCard: React.FC<{ agent: GovernanceAgent }> = ({ agent }) => (
       )} />
     </div>
     <p className="text-[10px] text-gray-400 mb-1">{agent.rulesMonitored} rules monitored</p>
-    <p className="text-[10px] text-cyan-400">âš¡ {agent.action}</p>
+    <p className="text-[10px] text-cyan-400">⚡ {agent.action}</p>
   </div>
 );
 

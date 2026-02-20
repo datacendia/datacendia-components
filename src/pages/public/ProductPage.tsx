@@ -79,11 +79,11 @@ const ParticleField: React.FC = () => {
 const products = [
   {
     id: 'council',
-    name: 'The Councilâ„¢',
+    name: 'The Council™',
     tagline: 'AI-Powered Strategic Advisory',
     description:
-      'Consult with a pantheon of specialized AI agents who reason across your entire organization. Get strategic insights from CendiaChiefâ„¢, CendiaCFOâ„¢, CendiaCOOâ„¢, and more.',
-    icon: 'ðŸ§ ',
+      'Consult with a pantheon of specialized AI agents who reason across your entire organization. Get strategic insights from CendiaChief™, CendiaCFO™, CendiaCOO™, and more.',
+    icon: '🧠',
     color: '#6366F1',
     features: [
       'Multi-agent deliberation with consensus building',
@@ -102,11 +102,11 @@ const products = [
   },
   {
     id: 'apotheosis',
-    name: 'CendiaApotheosisâ„¢',
+    name: 'CendiaApotheosis™',
     tagline: 'Organizational Superintelligence',
     description:
-      'Nightly red-teaming that attacks your AI systems, auto-patches vulnerabilities, and upskills your team. Achieve an Apotheosis Scoreâ„¢ above 95 for enterprise-grade AI resilience.',
-    icon: 'âš¡',
+      'Nightly red-teaming that attacks your AI systems, auto-patches vulnerabilities, and upskills your team. Achieve an Apotheosis Score™ above 95 for enterprise-grade AI resilience.',
+    icon: '⚡',
     color: '#F59E0B',
     features: [
       'Automated red-team attacks on your AI systems',
@@ -125,11 +125,11 @@ const products = [
   },
   {
     id: 'dissent',
-    name: 'CendiaDissentâ„¢',
+    name: 'CendiaDissent™',
     tagline: 'Protected Disagreement',
     description:
       'File formal dissent against AI recommendations with full retaliation protection. Track outcomes to prove when dissenters were right.',
-    icon: 'âš–ï¸',
+    icon: '⚖️',
     color: '#DC2626',
     features: [
       'Formal dissent filing with evidence upload',
@@ -148,11 +148,11 @@ const products = [
   },
   {
     id: 'omnitranslate',
-    name: 'CendiaOmniTranslateâ„¢',
+    name: 'CendiaOmniTranslate™',
     tagline: '100+ Languages, Zero Friction',
     description:
       'Enterprise-grade AI translation supporting 100+ languages with context-aware business terminology, glossary management, and translation memory.',
-    icon: 'ðŸŒ',
+    icon: '🌐',
     color: '#0EA5E9',
     features: [
       '100+ languages including low-resource languages',
@@ -171,11 +171,11 @@ const products = [
   },
   {
     id: 'pulse',
-    name: 'CendiaPulseâ„¢',
+    name: 'CendiaPulse™',
     tagline: 'Organization Health at a Glance',
     description:
       "Real-time visibility into your organization's vital signs. Monitor data health, operations, security, and people metrics with instant alerts.",
-    icon: 'ðŸ’“',
+    icon: '💓',
     color: '#EF4444',
     features: [
       'Unified health score across 4 dimensions',
@@ -194,11 +194,11 @@ const products = [
   },
   {
     id: 'lens',
-    name: 'CendiaLensâ„¢',
+    name: 'CendiaLens™',
     tagline: 'See Possible Futures',
     description:
       'AI-powered forecasting and what-if analysis. Model different scenarios and understand the impact of decisions before you make them.',
-    icon: 'ðŸ”®',
+    icon: '🔮',
     color: '#8B5CF6',
     features: [
       'ML-powered forecasting with confidence intervals',
@@ -217,11 +217,11 @@ const products = [
   },
   {
     id: 'bridge',
-    name: 'CendiaBridgeâ„¢',
+    name: 'CendiaBridge™',
     tagline: 'Automate Everything',
     description:
       'Visual workflow builder that connects your systems, automates processes, and ensures nothing falls through the cracks.',
-    icon: 'ðŸŒ‰',
+    icon: '🌉',
     color: '#10B981',
     features: [
       'Drag-and-drop workflow builder',
@@ -240,11 +240,11 @@ const products = [
   },
   {
     id: 'graph',
-    name: 'CendiaGraphâ„¢',
+    name: 'CendiaGraph™',
     tagline: 'Your Data Universe, Visualized',
     description:
       'Interactive knowledge graph that maps every entity, relationship, and data flow in your organization. Understand lineage, impact, and dependencies instantly.',
-    icon: 'ðŸ•¸ï¸',
+    icon: '🕸️',
     color: '#06B6D4',
     features: [
       'Interactive graph visualization',
@@ -264,18 +264,18 @@ const products = [
 ];
 
 const integrations = [
-  { name: 'PostgreSQL', icon: 'ðŸ˜', category: 'Database' },
-  { name: 'MySQL', icon: 'ðŸ¬', category: 'Database' },
-  { name: 'MongoDB', icon: 'ðŸƒ', category: 'Database' },
-  { name: 'Oracle', icon: 'ðŸ”´', category: 'Database' },
-  { name: 'SQL Server', icon: 'ðŸ”·', category: 'Database' },
-  { name: 'IBM DB2', icon: 'ðŸ”µ', category: 'Database' },
-  { name: 'Snowflake', icon: 'â„ï¸', category: 'Data Warehouse' },
-  { name: 'Salesforce', icon: 'â˜ï¸', category: 'CRM' },
-  { name: 'SAP', icon: 'ðŸ“Š', category: 'ERP' },
-  { name: 'Slack', icon: 'ðŸ’¬', category: 'Communication' },
-  { name: 'AWS', icon: 'â˜ï¸', category: 'Cloud' },
-  { name: 'Azure', icon: 'ðŸ”·', category: 'Cloud' },
+  { name: 'PostgreSQL', icon: '🐘', category: 'Database' },
+  { name: 'MySQL', icon: '🐬', category: 'Database' },
+  { name: 'MongoDB', icon: '🍃', category: 'Database' },
+  { name: 'Oracle', icon: '🔴', category: 'Database' },
+  { name: 'SQL Server', icon: '🔷', category: 'Database' },
+  { name: 'IBM DB2', icon: '🔵', category: 'Database' },
+  { name: 'Snowflake', icon: '❄️', category: 'Data Warehouse' },
+  { name: 'Salesforce', icon: '☁️', category: 'CRM' },
+  { name: 'SAP', icon: '🔒', category: 'ERP' },
+  { name: 'Slack', icon: '💬', category: 'Communication' },
+  { name: 'AWS', icon: '☁️', category: 'Cloud' },
+  { name: 'Azure', icon: '🔷', category: 'Cloud' },
 ];
 
 // =============================================================================
@@ -316,7 +316,7 @@ const ProductCard: React.FC<{
             )}
             style={{ color: product.color }}
           >
-            â–¼
+            ▼
           </button>
         </div>
         <p className="mt-4 text-gray-500 text-sm">{product.description}</p>
@@ -338,7 +338,7 @@ const ProductCard: React.FC<{
                       className="mt-0.5 w-4 h-4 rounded flex items-center justify-center text-[10px] text-white flex-shrink-0"
                       style={{ backgroundColor: product.color }}
                     >
-                      âœ“
+                      ✓
                     </span>
                     <span className="text-gray-400 text-sm">{feature}</span>
                   </li>
@@ -354,7 +354,7 @@ const ProductCard: React.FC<{
               <ul className="space-y-3">
                 {product.useCases.map((useCase, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <span className="text-gray-600">â†’</span>
+                    <span className="text-gray-600">→</span>
                     <span className="text-gray-400 text-sm">{useCase}</span>
                   </li>
                 ))}
@@ -369,7 +369,7 @@ const ProductCard: React.FC<{
               className="text-sm hover:underline"
               style={{ color: product.color }}
             >
-              See {product.name} in action â†’
+              See {product.name} in action →
             </Link>
             <Link
               to={`/cortex/${product.id === 'graph' ? 'graph' : product.id === 'council' ? 'council' : product.id === 'pulse' ? 'pulse' : product.id === 'lens' ? 'lens' : 'bridge'}`}
@@ -474,8 +474,8 @@ export const ProductPage: React.FC = () => {
             <span className="text-gray-400">One Unified Platform.</span>
           </h1>
           <p className="text-lg text-gray-400 font-light max-w-2xl mx-auto mb-8">
-            Datacendiaâ„¢ unifies your data, empowers your teams with AI advisors, and automates your
-            workflowsâ€”all while keeping your intelligence sovereign and secure.
+            Datacendia™ unifies your data, empowers your teams with AI advisors, and automates your
+            workflows—all while keeping your intelligence sovereign and secure.
           </p>
           <div className="flex items-center justify-center gap-4">
             <Link
@@ -567,11 +567,11 @@ export const ProductPage: React.FC = () => {
               </p>
               <ul className="space-y-4">
                 {[
-                  { icon: 'ðŸ”’', text: 'SOC 2 Type II Certified' },
-                  { icon: 'ðŸ ', text: 'Self-hosted or private cloud deployment' },
-                  { icon: 'ðŸ”', text: 'End-to-end encryption at rest and in transit' },
-                  { icon: 'ðŸ“‹', text: 'GDPR, HIPAA, and CCPA compliant' },
-                  { icon: 'ðŸ•µï¸', text: 'Complete audit logging' },
+                  { icon: '🔒', text: 'SOC 2 Type II Certified' },
+                  { icon: '🏠', text: 'Self-hosted or private cloud deployment' },
+                  { icon: '🔐', text: 'End-to-end encryption at rest and in transit' },
+                  { icon: '📋', text: 'GDPR, HIPAA, and CCPA compliant' },
+                  { icon: '🕵️', text: 'Complete audit logging' },
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3 text-gray-400">
                     <span className="text-lg">{item.icon}</span>
@@ -581,7 +581,7 @@ export const ProductPage: React.FC = () => {
               </ul>
             </div>
             <div className="bg-gray-900/50 border border-gray-800 rounded p-8 text-center">
-              <div className="text-5xl mb-4">ðŸ›¡ï¸</div>
+              <div className="text-5xl mb-4">🛡️</div>
               <p className="text-lg font-light text-white mb-2">Data Sovereignty</p>
               <p className="text-gray-500 text-sm">
                 Your AI models run locally. Your data stays in your infrastructure. No data is ever
@@ -731,7 +731,7 @@ export const ProductPage: React.FC = () => {
             </div>
           </div>
           <div className="pt-8 border-t border-gray-900 flex items-center justify-between text-[10px] text-gray-700 tracking-widest">
-            <span>Â© {new Date().getFullYear()} DATACENDIA</span>
+            <span>© {new Date().getFullYear()} DATACENDIA</span>
             <span>SOVEREIGN INTELLIGENCE</span>
           </div>
         </div>

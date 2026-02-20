@@ -146,7 +146,7 @@ const CohortCard: React.FC<{ cohort: Cohort }> = ({ cohort }) => {
           cohort.trend === 'up' ? 'text-emerald-400' :
           cohort.trend === 'down' ? 'text-red-400' : 'text-gray-400'
         )}>
-          {cohort.trend === 'up' ? 'â†‘' : cohort.trend === 'down' ? 'â†“' : 'â†’'}
+          {cohort.trend === 'up' ? '↑' : cohort.trend === 'down' ? '↓' : '→'}
         </span>
       </div>
       <div className="grid grid-cols-3 gap-2 text-[10px]">
@@ -191,7 +191,7 @@ const AgentCard: React.FC<{ agent: AIAgent }> = ({ agent }) => (
     {agent.studentsMonitored > 0 && (
       <p className="text-[10px] text-gray-400 mb-1">Monitoring {agent.studentsMonitored.toLocaleString()} students</p>
     )}
-    <p className="text-[10px] text-cyan-400">ðŸŽ¯ {agent.recentAction}</p>
+    <p className="text-[10px] text-cyan-400">🎯 {agent.recentAction}</p>
   </div>
 );
 

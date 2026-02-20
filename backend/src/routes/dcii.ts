@@ -36,6 +36,139 @@ router.get('/health', (_req: Request, res: Response) => {
 router.use(devAuth);
 
 // =============================================================================
+// SEED DEMO DATA (idempotent — only seeds if services are empty)
+// =============================================================================
+
+router.post('/seed-demo', async (req: Request, res: Response) => {
+  try {
+    const orgId = '351bf638-d771-4bed-83c7-3df49871f7ab';
+    const orgName = 'Datacendia Demo';
+    const seededBy = req.user?.email || 'system';
+    const seeded: string[] = [];
+
+    // 1. IISS — calculate if no scores exist
+    if (iissService.getAllScores().length === 0) {
+      await iissService.calculateScore(orgId, orgName, seededBy);
+      seeded.push('iiss');
+    }
+
+    // 2. Media Assets — sign sample assets if none exist
+    if (syntheticMediaAuthService.getAllAssets().length === 0) {
+      const mediaItems = [
+        { fileName: 'board-meeting-recording.mp4', mediaType: 'video', mimeType: 'video/mp4' },
+        { fileName: 'financial-report-q4.pdf', mediaType: 'document', mimeType: 'application/pdf' },
+        { fileName: 'ceo-testimony-transcript.pdf', mediaType: 'document', mimeType: 'application/pdf' },
+        { fileName: 'compliance-screenshot-2026.png', mediaType: 'screenshot', mimeType: 'image/png' },
+        { fileName: 'whistleblower-audio-clip.wav', mediaType: 'audio', mimeType: 'audio/wav' },
+        { fileName: 'contract-scan-page1.jpg', mediaType: 'image', mimeType: 'image/jpeg' },
+      ];
+      for (const m of mediaItems) {
+        const asset = await syntheticMediaAuthService.signMedia(
+          orgId, m.fileName, m.mediaType as any, m.mimeType,
+          `content-${m.fileName}-${Date.now()}`, seededBy,
+          { source: 'upload', capturedAt: new Date(), capturedBy: seededBy }
+        );
+        // Analyze first 3 for authenticity
+        if (mediaItems.indexOf(m) < 3) {
+          try { await syntheticMediaAuthService.analyzeAuthenticity(asset.id, seededBy); } catch {}
+        }
+      }
+      seeded.push('media');
+    }
+
+    // 3. Jurisdiction — assess across jurisdictions if no conflicts
+    if (crossJurisdictionConflictService.getAllConflicts().length === 0) {
+      await crossJurisdictionConflictService.assessOrganization(
+        orgId, orgName,
+        ['US', 'EU', 'UK', 'SG', 'CH'],
+        seededBy
+      );
+      seeded.push('jurisdiction');
+    }
+
+    // 4. Timestamps — issue sample tokens if none exist
+    if (timestampAuthorityService.getAllTokens().length === 0) {
+      const tsItems = [
+        { data: 'deliberation-start-4f555f21', desc: 'Deliberation initiated: SAR Alert Assessment', type: 'deliberation' },
+        { data: 'decision-packet-signed-abc123', desc: 'Decision packet signed by Council', type: 'decision' },
+        { data: 'evidence-vault-hash-def456', desc: 'Evidence vault integrity checkpoint', type: 'evidence' },
+        { data: 'compliance-gate-cleared-ghi789', desc: 'BSA/AML compliance gate cleared', type: 'compliance' },
+        { data: 'audit-trail-snapshot-jkl012', desc: 'Quarterly audit trail snapshot', type: 'audit' },
+        { data: 'override-accountability-mno345', desc: 'CEO override logged with justification', type: 'override' },
+      ];
+      for (const t of tsItems) {
+        await timestampAuthorityService.issueTimestamp(
+          orgId, t.data, t.desc, t.type as any, undefined,
+          { useExternal: false, useBlockchain: tsItems.indexOf(t) < 2 }
+        );
+      }
+      seeded.push('timestamps');
+    }
+
+    // 5. Similarity — add decision records if none exist
+    if (decisionSimilarityService.getAllDecisions().length === 0) {
+      const decItems = [
+        { title: 'Q4 Expansion into APAC Markets', question: 'Should we expand operations into Singapore and Hong Kong?', dept: 'Strategy', type: 'strategic', outcome: 'successful', urgency: 'medium' },
+        { title: 'SAR Filing for Suspicious Wire Transfer', question: 'Should a SAR be filed for the $2.3M wire to shell entity?', dept: 'Compliance', type: 'regulatory', outcome: 'successful', urgency: 'critical' },
+        { title: 'AI Model Deployment Governance', question: 'Should the new credit scoring model be deployed without additional bias testing?', dept: 'Technology', type: 'operational', outcome: 'partially_successful', urgency: 'high' },
+        { title: 'Board Compensation Restructuring', question: 'Should executive compensation be tied to ESG metrics?', dept: 'HR', type: 'strategic', outcome: 'successful', urgency: 'low' },
+        { title: 'Third-Party Vendor Risk Assessment', question: 'Should we continue the relationship with CloudVault given the data breach?', dept: 'Risk', type: 'risk_assessment', outcome: 'successful', urgency: 'high' },
+        { title: 'Cross-Border Data Transfer Policy', question: 'How should we handle EU-US data transfers post-Privacy Shield invalidation?', dept: 'Legal', type: 'regulatory', outcome: 'partially_successful', urgency: 'high' },
+        { title: 'Whistleblower Report Investigation', question: 'Should an external investigation be initiated based on the anonymous report?', dept: 'Compliance', type: 'regulatory', outcome: 'successful', urgency: 'critical' },
+        { title: 'Capital Allocation for Quantum Security', question: 'Should $5M be allocated to post-quantum cryptography migration?', dept: 'Technology', type: 'investment', outcome: 'too_early', urgency: 'medium' },
+      ];
+      for (const d of decItems) {
+        decisionSimilarityService.addDecisionRecord({
+          organizationId: orgId,
+          title: d.title,
+          question: d.question,
+          context: `${d.dept} department decision requiring Council deliberation`,
+          department: d.dept,
+          decisionType: d.type as any,
+          urgency: d.urgency as any,
+          outcome: d.outcome as any,
+          outcomeDescription: `Decision ${d.outcome?.replace(/_/g, ' ')}`,
+          decidedAt: new Date(Date.now() - Math.random() * 90 * 24 * 60 * 60 * 1000),
+          decidedBy: seededBy,
+          tags: [d.dept.toLowerCase(), d.type],
+          relatedDecisionIds: [],
+          overrideOccurred: d.title.includes('Override') || Math.random() < 0.15,
+          lessonsLearned: d.outcome === 'successful' ? ['Process worked as designed'] : d.outcome === 'partially_successful' ? ['Additional review step needed'] : [],
+        });
+      }
+      seeded.push('similarity');
+    }
+
+    // 6. Cognitive Bias — analyze a sample deliberation if no analyses exist
+    if (cognitiveBiasMitigationService.getAllAnalyses().length === 0) {
+      await cognitiveBiasMitigationService.analyzeDeliberation({
+        organizationId: orgId,
+        deliberationId: '4f555f21-64c2-45ac-b26d-8b9933e87575',
+        deliberationTitle: 'SAR Alert Assessment — Suspicious Wire Transfer',
+        deliberationDurationMinutes: 45,
+        agentCount: 6,
+        dissentCount: 1,
+        devilsAdvocatePresent: true,
+        challengeCount: 8,
+        unanimousVote: false,
+        arguments: [
+          { agentId: 'agent-1', position: 'File SAR immediately — regulatory obligation is clear', strength: 'strong' },
+          { agentId: 'agent-2', position: 'Agree — pattern matches known shell entity typologies', strength: 'strong' },
+          { agentId: 'agent-3', position: 'Dissent — insufficient evidence for definitive filing', strength: 'moderate' },
+        ],
+        analyzedBy: seededBy,
+      });
+      seeded.push('bias');
+    }
+
+    res.json({ success: true, data: { seeded, message: seeded.length > 0 ? `Seeded: ${seeded.join(', ')}` : 'All services already have data' } });
+  } catch (err: unknown) {
+    logger.error('DCII demo seed failed:', err);
+    res.status(500).json({ success: false, error: { code: 'SEED_FAILED', message: getErrorMessage(err) } });
+  }
+});
+
+// =============================================================================
 // DCII STATUS
 // =============================================================================
 

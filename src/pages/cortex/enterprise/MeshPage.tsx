@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MESHâ„¢ - CROSS-COMPANY DECISION NETWORK
+// CENDIA MESH™ - CROSS-COMPANY DECISION NETWORK
 // Secure Decision-Sharing Network with Differential Privacy
 // "Palantir Foundry + McKinsey Insights + Network Effects"
 //
@@ -150,14 +150,14 @@ interface NetworkStats {
 // =============================================================================
 
 const INDUSTRY_CONFIG: Record<Industry, { icon: string; color: string; name: string }> = {
-  technology: { icon: 'ðŸ’»', color: 'from-blue-600 to-cyan-600', name: 'Technology' },
-  finance: { icon: 'ðŸ¦', color: 'from-green-600 to-emerald-600', name: 'Financial Services' },
-  healthcare: { icon: 'ðŸ¥', color: 'from-red-600 to-rose-600', name: 'Healthcare' },
-  manufacturing: { icon: 'ðŸ­', color: 'from-amber-600 to-orange-600', name: 'Manufacturing' },
-  retail: { icon: 'ðŸ›ï¸', color: 'from-purple-600 to-pink-600', name: 'Retail' },
-  energy: { icon: 'âš¡', color: 'from-yellow-600 to-amber-600', name: 'Energy' },
-  aerospace: { icon: 'âœˆï¸', color: 'from-slate-600 to-gray-600', name: 'Aerospace & Defense' },
-  pharma: { icon: 'ðŸ’Š', color: 'from-teal-600 to-cyan-600', name: 'Pharmaceuticals' },
+  technology: { icon: '💻', color: 'from-blue-600 to-cyan-600', name: 'Technology' },
+  finance: { icon: '🏦', color: 'from-green-600 to-emerald-600', name: 'Financial Services' },
+  healthcare: { icon: '🏥', color: 'from-red-600 to-rose-600', name: 'Healthcare' },
+  manufacturing: { icon: '🏭', color: 'from-amber-600 to-orange-600', name: 'Manufacturing' },
+  retail: { icon: '🛍️', color: 'from-purple-600 to-pink-600', name: 'Retail' },
+  energy: { icon: '⚡', color: 'from-yellow-600 to-amber-600', name: 'Energy' },
+  aerospace: { icon: '✈️', color: 'from-slate-600 to-gray-600', name: 'Aerospace & Defense' },
+  pharma: { icon: '💊', color: 'from-teal-600 to-cyan-600', name: 'Pharmaceuticals' },
 };
 
 const generateNetworkStats = (): NetworkStats => ({
@@ -586,18 +586,18 @@ export const MeshPage: React.FC = () => {
                 onClick={() => navigate('/cortex/dashboard')}
                 className="text-white/60 hover:text-white transition-colors"
               >
-                â† Back
+                ← Back
               </button>
               <div>
                 <h1 className="text-2xl font-bold flex items-center gap-3">
-                  <span className="text-3xl">ðŸ•¸ï¸</span>
-                  CendiaMeshâ„¢
+                  <span className="text-3xl">🕸️</span>
+                  CendiaMesh™
                   <span className="text-xs bg-gradient-to-r from-cyan-500 to-blue-500 px-2 py-0.5 rounded-full font-medium">
                     NETWORK
                   </span>
                 </h1>
                 <p className="text-cyan-300 text-sm">
-                  Cross-Company Decision Network â€¢ Differential Privacy Protected
+                  Cross-Company Decision Network • Differential Privacy Protected
                 </p>
               </div>
             </div>
@@ -667,11 +667,11 @@ export const MeshPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex gap-1">
             {[
-              { id: 'overview', label: 'Network Overview', icon: 'ðŸŒ' },
-              { id: 'benchmarks', label: 'Benchmarking', icon: 'ðŸ“Š' },
-              { id: 'signals', label: 'Risk Signals', icon: 'âš ï¸' },
-              { id: 'pricing', label: 'Pricing Intelligence', icon: 'ðŸ’°' },
-              { id: 'supply-chain', label: 'Supply Chain', icon: 'ðŸ”—' },
+              { id: 'overview', label: 'Network Overview', icon: '🌐' },
+              { id: 'benchmarks', label: 'Benchmarking', icon: '🔒' },
+              { id: 'signals', label: 'Risk Signals', icon: '⚠️' },
+              { id: 'pricing', label: 'Pricing Intelligence', icon: '💰' },
+              { id: 'supply-chain', label: 'Supply Chain', icon: '🔗' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -696,7 +696,7 @@ export const MeshPage: React.FC = () => {
             {/* Privacy Notice */}
             <div className="bg-gradient-to-r from-emerald-900/30 to-green-900/30 rounded-2xl p-6 border border-emerald-700/50">
               <div className="flex items-center gap-4">
-                <div className="text-4xl">ðŸ”</div>
+                <div className="text-4xl">🔐</div>
                 <div>
                   <h2 className="text-lg font-semibold mb-1">Differential Privacy Protected</h2>
                   <p className="text-white/60 text-sm">
@@ -713,7 +713,7 @@ export const MeshPage: React.FC = () => {
             {criticalSignals.length > 0 && (
               <div className="bg-black/30 rounded-2xl p-6 border border-red-800/50">
                 <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                  <span className="text-red-400">ðŸš¨</span> Critical Alerts
+                  <span className="text-red-400">🚨</span> Critical Alerts
                 </h2>
                 <div className="space-y-3">
                   {criticalSignals.slice(0, 3).map((signal) => (
@@ -837,14 +837,14 @@ export const MeshPage: React.FC = () => {
                       <span
                         className={`text-lg ${
                           s.category === 'risk'
-                            ? 'âš ï¸'
+                            ? '⚠️'
                             : s.category === 'opportunity'
-                              ? 'ðŸ’¡'
+                              ? '💡'
                               : s.category === 'trend'
-                                ? 'ðŸ“ˆ'
+                                ? '📈'
                                 : s.category === 'fraud'
-                                  ? 'ðŸš¨'
-                                  : 'ðŸ””'
+                                  ? '🚨'
+                                  : '🔔'
                         }`}
                       />
                       <div>
@@ -888,10 +888,10 @@ export const MeshPage: React.FC = () => {
         {activeTab === 'benchmarks' && (
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-cyan-900/30 to-blue-900/30 rounded-2xl p-6 border border-cyan-700/50">
-              <h2 className="text-lg font-semibold mb-2">ðŸ“Š Anonymized Performance Benchmarking</h2>
+              <h2 className="text-lg font-semibold mb-2">🔒 Anonymized Performance Benchmarking</h2>
               <p className="text-white/60">
                 Compare your performance against industry peers across key metrics. All data is
-                aggregated and anonymizedâ€” individual company data is never exposed.
+                aggregated and anonymized— individual company data is never exposed.
               </p>
             </div>
 
@@ -902,7 +902,7 @@ export const MeshPage: React.FC = () => {
                     <div>
                       <h3 className="text-lg font-semibold">{b.name}</h3>
                       <div className="text-sm text-white/50">
-                        {b.category} â€¢ {b.participants} participants
+                        {b.category} • {b.participants} participants
                       </div>
                     </div>
                     <div className="text-right">
@@ -919,7 +919,7 @@ export const MeshPage: React.FC = () => {
                               : 'text-white/50'
                         }`}
                       >
-                        {b.trend === 'up' ? 'â†‘' : b.trend === 'down' ? 'â†“' : 'â†’'}
+                        {b.trend === 'up' ? '↑' : b.trend === 'down' ? '↓' : '→'}
                         {Math.abs(b.trendPercent)}% vs last quarter
                       </div>
                     </div>
@@ -991,21 +991,21 @@ export const MeshPage: React.FC = () => {
                   <div className="flex items-center gap-3">
                     <span className="text-2xl">
                       {signal.category === 'risk'
-                        ? 'âš ï¸'
+                        ? '⚠️'
                         : signal.category === 'opportunity'
-                          ? 'ðŸ’¡'
+                          ? '💡'
                           : signal.category === 'trend'
-                            ? 'ðŸ“ˆ'
+                            ? '📈'
                             : signal.category === 'fraud'
-                              ? 'ðŸš¨'
+                              ? '🚨'
                               : signal.category === 'disruption'
-                                ? 'â›ˆï¸'
-                                : 'ðŸ“¢'}
+                                ? '⛈️'
+                                : '📢'}
                     </span>
                     <div>
                       <h3 className="text-lg font-semibold">{signal.title}</h3>
                       <div className="text-sm text-white/50">
-                        Confidence: {signal.confidence}% â€¢ {signal.sources} sources
+                        Confidence: {signal.confidence}% • {signal.sources} sources
                       </div>
                     </div>
                   </div>
@@ -1056,7 +1056,7 @@ export const MeshPage: React.FC = () => {
                   <ul className="space-y-1">
                     {signal.recommendations.map((rec, idx) => (
                       <li key={idx} className="text-sm flex items-center gap-2">
-                        <span className="text-green-400">â†’</span>
+                        <span className="text-green-400">→</span>
                         {rec}
                       </li>
                     ))}
@@ -1070,7 +1070,7 @@ export const MeshPage: React.FC = () => {
         {activeTab === 'pricing' && (
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/30 rounded-2xl p-6 border border-green-700/50">
-              <h2 className="text-lg font-semibold mb-2">ðŸ’° Pricing Intelligence</h2>
+              <h2 className="text-lg font-semibold mb-2">💰 Pricing Intelligence</h2>
               <p className="text-white/60">
                 Real-time market pricing data aggregated from network participants. Use these
                 insights for procurement negotiations, pricing strategy, and competitive analysis.
@@ -1162,7 +1162,7 @@ export const MeshPage: React.FC = () => {
         {activeTab === 'supply-chain' && (
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-amber-900/30 to-orange-900/30 rounded-2xl p-6 border border-amber-700/50">
-              <h2 className="text-lg font-semibold mb-2">ðŸ”— Supply Chain Intelligence</h2>
+              <h2 className="text-lg font-semibold mb-2">🔗 Supply Chain Intelligence</h2>
               <p className="text-white/60">
                 Early warning system for supply chain disruptions based on aggregated network data.
                 Get ahead of issues before they impact your operations.
@@ -1185,7 +1185,7 @@ export const MeshPage: React.FC = () => {
                     <div>
                       <h3 className="text-lg font-semibold">{alert.title}</h3>
                       <div className="text-sm text-white/50">
-                        {alert.affectedSuppliers} suppliers affected â€¢ Expected duration:{' '}
+                        {alert.affectedSuppliers} suppliers affected • Expected duration:{' '}
                         {alert.expectedDuration}
                       </div>
                     </div>

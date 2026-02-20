@@ -1,4 +1,4 @@
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
+﻿// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
@@ -197,7 +197,7 @@ const matrices: Matrix[] = [
     title: 'Sovereignty Matrix',
     question: 'How much control do I actually have?',
     description: 'Choose your deployment model based on your sovereignty requirements.',
-    icon: 'ðŸ›ï¸',
+    icon: '🏛️',
     color: '#6366F1',
     columns: ['Cloud', 'Private Cloud', 'Self-Managed', 'Air-Gapped'],
     rows: [
@@ -312,15 +312,15 @@ const matrices: Matrix[] = [
     ],
     admission:
       "If you choose cloud, we will have technical access. We'd rather you understand that before you sign.",
-    services: ['CendiaSovereignâ„¢'],
+    services: ['CendiaSovereign™'],
   },
   {
     id: 'ai-governance',
     title: 'AI Governance Reality Check',
     question: "Who's actually responsible when AI goes wrong?",
     description:
-      'Who is actually responsible when AI goes wrong â€“ and what you show your regulator or board.',
-    icon: 'ðŸ¤–',
+      'Who is actually responsible when AI goes wrong — and what you show your regulator or board.',
+    icon: '🤖',
     color: '#EF4444',
     columns: ['Traditional Vendor', 'In-House ML Team', 'Datacendia'],
     rows: [
@@ -329,7 +329,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: '"Not our fault, your data"', status: 'bad' },
           { value: 'Blame the data scientist who left', status: 'bad' },
-          { value: 'CendiaEthicsâ„¢ flags bias pre-deployment', status: 'good' },
+          { value: 'CendiaEthics™ flags bias pre-deployment', status: 'good' },
         ],
       },
       {
@@ -337,7 +337,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: 'Vendor provides generic docs', status: 'bad' },
           { value: 'Hope someone documented it', status: 'bad' },
-          { value: 'CendiaWitnessâ„¢ + CendiaGlassâ„¢ = audit-ready', status: 'good' },
+          { value: 'CendiaWitness™ + CendiaGlass™ = audit-ready', status: 'good' },
         ],
       },
       {
@@ -345,7 +345,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: 'You notice when customers complain', status: 'bad' },
           { value: 'If you built monitoring', status: 'partial' },
-          { value: 'CendiaBlackBoxâ„¢ tracks drift; alerts before impact', status: 'good' },
+          { value: 'CendiaBlackBox™ tracks drift; alerts before impact', status: 'good' },
         ],
       },
       {
@@ -369,7 +369,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: '"Algorithm is neutral"', status: 'bad' },
           { value: 'Debate in Slack', status: 'bad' },
-          { value: 'CendiaVetoâ„¢ blocks automatically', status: 'good' },
+          { value: 'CendiaVeto™ blocks automatically', status: 'good' },
         ],
       },
       {
@@ -394,13 +394,13 @@ const matrices: Matrix[] = [
     ],
     admission: 'Most AI vendors avoid accountability. We build it in.',
     services: [
-      'CendiaEthicsâ„¢',
-      'CendiaGlassâ„¢',
-      'CendiaWitnessâ„¢',
-      'CendiaBlackBoxâ„¢',
-      'CendiaVetoâ„¢',
-      'CendiaMirrorâ„¢',
-      'The Councilâ„¢',
+      'CendiaEthics™',
+      'CendiaGlass™',
+      'CendiaWitness™',
+      'CendiaBlackBox™',
+      'CendiaVeto™',
+      'CendiaMirror™',
+      'The Council™',
     ],
   },
   {
@@ -408,7 +408,7 @@ const matrices: Matrix[] = [
     title: 'Integration Honesty Matrix',
     question: 'How hard is it really to connect things?',
     description: 'Every vendor says "easy integration." Here\'s the truth.',
-    icon: 'ðŸ”Œ',
+    icon: '🔌',
     color: '#10B981',
     columns: ['Vendor Promise', 'Actual Reality', 'Datacendia Reality'],
     rows: [
@@ -417,7 +417,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: '"5 minutes!"', status: 'neutral' },
           { value: '2-4 hours with auth, pagination, rate limits', status: 'partial' },
-          { value: '1-2 hours; CendiaBridgeâ„¢ handles auth patterns', status: 'good' },
+          { value: '1-2 hours; CendiaBridge™ handles auth patterns', status: 'good' },
         ],
       },
       {
@@ -425,7 +425,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: '"We support it"', status: 'neutral' },
           { value: 'Find the one engineer who knows SOAP', status: 'bad' },
-          { value: 'CendiaBridgeâ„¢ transforms protocols', status: 'good' },
+          { value: 'CendiaBridge™ transforms protocols', status: 'good' },
         ],
       },
       {
@@ -441,7 +441,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: '"Kafka connector"', status: 'neutral' },
           { value: 'Pray the offsets align', status: 'bad' },
-          { value: 'CendiaMeshâ„¢ manages consumer groups', status: 'good' },
+          { value: 'CendiaMesh™ manages consumer groups', status: 'good' },
         ],
       },
       {
@@ -457,7 +457,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: 'Not mentioned', status: 'bad' },
           { value: '40% of real business logic lives here', status: 'bad' },
-          { value: 'CendiaFlowâ„¢ can ingest; exposes the chaos', status: 'good' },
+          { value: 'CendiaFlow™ can ingest; exposes the chaos', status: 'good' },
         ],
       },
       {
@@ -465,26 +465,26 @@ const matrices: Matrix[] = [
         cells: [
           { value: '"Native integration"', status: 'neutral' },
           { value: 'Query optimization is your problem', status: 'partial' },
-          { value: 'Native connectors; CendiaLineageâ„¢ tracks transforms', status: 'good' },
+          { value: 'Native connectors; CendiaLineage™ tracks transforms', status: 'good' },
         ],
       },
     ],
     admission: "Mainframes are hard. Shadow IT is real. We won't pretend otherwise.",
-    services: ['CendiaBridgeâ„¢', 'CendiaMeshâ„¢', 'CendiaFlowâ„¢', 'CendiaLineageâ„¢', 'CendiaKeyâ„¢'],
+    services: ['CendiaBridge™', 'CendiaMesh™', 'CendiaFlow™', 'CendiaLineage™', 'CendiaKey™'],
   },
   {
     id: '3am',
     title: 'What Breaks at 3 AM',
     question: 'When things go wrong, what actually happens?',
     description: 'Things break. The question is how fast you understand and recover.',
-    icon: 'ðŸš¨',
+    icon: '🚨',
     color: '#F59E0B',
     columns: ['Typical Response', 'Datacendia Response'],
     rows: [
       {
         label: 'Data pipeline fails',
         cells: [
-          { value: 'PagerDuty â†’ engineer â†’ SSH â†’ logs â†’ guess', status: 'bad' },
+          { value: 'PagerDuty → engineer → SSH → logs → guess', status: 'bad' },
           { value: 'Alert with root cause; upstream/downstream impact shown', status: 'good' },
         ],
       },
@@ -517,7 +517,7 @@ const matrices: Matrix[] = [
         cells: [
           { value: 'Panic', status: 'bad' },
           {
-            value: 'Documented runbooks; CendiaOracleâ„¢ answers "how did we fix this?"',
+            value: 'Documented runbooks; CendiaOracle™ answers "how did we fix this?"',
             status: 'good',
           },
         ],
@@ -546,14 +546,14 @@ const matrices: Matrix[] = [
     ],
     admission: 'Things break. The question is how fast you can understand and recover.',
     services: [
-      'CendiaPulseâ„¢',
-      'CendiaLineageâ„¢',
-      'CendiaGlassâ„¢',
-      'CendiaWitnessâ„¢',
-      'CendiaMeshâ„¢',
-      'CendiaLegacyâ„¢',
-      'CendiaOracleâ„¢',
-      'CendiaApotheosisâ„¢',
+      'CendiaPulse™',
+      'CendiaLineage™',
+      'CendiaGlass™',
+      'CendiaWitness™',
+      'CendiaMesh™',
+      'CendiaLegacy™',
+      'CendiaOracle™',
+      'CendiaApotheosis™',
     ],
   },
   {
@@ -562,7 +562,7 @@ const matrices: Matrix[] = [
     question: 'How do different platform types compare?',
     description:
       "You're not just choosing a vendor; you're choosing a category. This matrix shows the trade-offs each one bakes in.",
-    icon: 'âš–ï¸',
+    icon: '⚖️',
     color: '#8B5CF6',
     columns: [
       'Enterprise BI',
@@ -658,7 +658,7 @@ const matrices: Matrix[] = [
           { value: 'Rarely', status: 'bad' },
           { value: 'Rarely', status: 'bad' },
           { value: 'Rarely', status: 'bad' },
-          { value: 'CendiaApotheosisâ„¢', status: 'good' },
+          { value: 'CendiaApotheosis™', status: 'good' },
         ],
       },
       {
@@ -669,7 +669,7 @@ const matrices: Matrix[] = [
           { value: 'Rarely', status: 'bad' },
           { value: 'Rarely', status: 'bad' },
           { value: 'Rarely', status: 'bad' },
-          { value: 'CendiaDissentâ„¢', status: 'good' },
+          { value: 'CendiaDissent™', status: 'good' },
         ],
       },
       {
@@ -680,20 +680,20 @@ const matrices: Matrix[] = [
           { value: 'Rarely', status: 'bad' },
           { value: 'Rarely', status: 'bad' },
           { value: 'Emerging', status: 'partial' },
-          { value: 'The Councilâ„¢', status: 'good' },
+          { value: 'The Council™', status: 'good' },
         ],
       },
     ],
     admission:
       "Different platform categories have different strengths. Know what you're trading off.",
     services: [
-      'CendiaGlassâ„¢',
-      'CendiaLedgerâ„¢',
-      'CendiaVetoâ„¢',
-      'CendiaApotheosisâ„¢',
-      'CendiaDissentâ„¢',
-      'The Councilâ„¢',
-      'CendiaChronosâ„¢',
+      'CendiaGlass™',
+      'CendiaLedger™',
+      'CendiaVeto™',
+      'CendiaApotheosis™',
+      'CendiaDissent™',
+      'The Council™',
+      'CendiaChronos™',
     ],
   },
   {
@@ -701,7 +701,7 @@ const matrices: Matrix[] = [
     title: "What We Can't Do",
     question: 'What are your actual limitations?',
     description: 'What Datacendia will never promise you.',
-    icon: 'ðŸš«',
+    icon: '🚫',
     color: '#DC2626',
     columns: ['Can We Do It?', 'Honest Answer'],
     rows: [
@@ -1026,7 +1026,7 @@ export const HonestyMatricesPage: React.FC = () => {
               }
               className="text-sm text-red-900 hover:text-red-700 transition-colors border-b border-red-900/50 pb-1"
             >
-              View all 6 Honesty Matrices â†’
+              View all 6 Honesty Matrices →
             </button>
           </div>
         </div>
@@ -1079,8 +1079,8 @@ export const HonestyMatricesPage: React.FC = () => {
             No fine print. No hidden limitations. No surprises.
           </p>
           <div className="flex items-center justify-center gap-8 text-[10px] text-gray-700 tracking-widest">
-            <span>Â© {new Date().getFullYear()} DATACENDIA</span>
-            <span>â€¢</span>
+            <span>© {new Date().getFullYear()} DATACENDIA</span>
+            <span>•</span>
             <span>RADICAL TRANSPARENCY</span>
           </div>
         </div>

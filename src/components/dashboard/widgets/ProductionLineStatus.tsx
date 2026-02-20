@@ -63,11 +63,11 @@ const MachineBlock: React.FC<{ machine: Machine; onClick: () => void }> = ({ mac
   };
 
   const statusIcons = {
-    running: 'âš™ï¸',
-    idle: 'â¸ï¸',
-    maintenance: 'ðŸ”§',
-    error: 'âš ï¸',
-    changeover: 'ðŸ”„',
+    running: '⚙️',
+    idle: '⏸️',
+    maintenance: '🔧',
+    error: '⚠️',
+    changeover: '🔄',
   };
 
   return (
@@ -104,7 +104,7 @@ const LineCard: React.FC<{ line: ProductionLine; onMachineClick: (m: Machine) =>
       <div className="flex items-center justify-between mb-3">
         <div>
           <h4 className="text-sm font-semibold text-white">{line.name}</h4>
-          <p className="text-xs text-gray-500">{line.product} â€¢ {line.shift}</p>
+          <p className="text-xs text-gray-500">{line.product} • {line.shift}</p>
         </div>
         <div className="flex items-center gap-2">
           {errors > 0 && (
@@ -126,7 +126,7 @@ const LineCard: React.FC<{ line: ProductionLine; onMachineClick: (m: Machine) =>
       {/* Machine Flow */}
       <div className="flex items-center gap-2 mb-3 overflow-x-auto pb-2">
         <div className="flex-shrink-0 w-8 h-8 rounded bg-cyan-900/30 border border-cyan-500/30 flex items-center justify-center text-sm">
-          ðŸ“¥
+          📥
         </div>
         {line.machines.map((machine) => (
           <React.Fragment key={machine.id}>
@@ -136,7 +136,7 @@ const LineCard: React.FC<{ line: ProductionLine; onMachineClick: (m: Machine) =>
         ))}
         <div className="w-4 h-0.5 bg-sovereign-border flex-shrink-0" />
         <div className="flex-shrink-0 w-8 h-8 rounded bg-emerald-900/30 border border-emerald-500/30 flex items-center justify-center text-sm">
-          ðŸ“¦
+          📦
         </div>
       </div>
 
