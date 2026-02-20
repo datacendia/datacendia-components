@@ -18,6 +18,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // ============================================================================
 // TYPES
@@ -232,7 +233,78 @@ export class AIInsuranceService {
   private policyCounter = 100000;
 
   constructor() {
-    logger.info('[CendiaInsure] AI Insurance™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaInsure] DB not available, using in-memory only');
+    });
+    logger.info('[CendiaInsure] AI Insurance initialized with Prisma persistence');
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbPolicies = await prisma.insurance_policies.findMany();
+      for (const row of dbPolicies) {
+        this.policies.set(row.id, row.data as unknown as InsurancePolicy);
+        const num = parseInt(row.policy_number.replace(/\D/g, '') || '0');
+        if (num > this.policyCounter) this.policyCounter = num;
+      }
+      const dbQuotes = await prisma.insurance_quotes.findMany();
+      for (const row of dbQuotes) {
+        this.quotes.set(row.id, row.data as unknown as InsuranceQuote);
+      }
+      const dbClaims = await prisma.insurance_claims.findMany();
+      for (const row of dbClaims) {
+        this.claims.set(row.id, row.data as unknown as Claim);
+      }
+      if (dbPolicies.length > 0) {
+        logger.info(`[CendiaInsure] Loaded ${dbPolicies.length} policies, ${dbQuotes.length} quotes, ${dbClaims.length} claims from DB`);
+      }
+    } catch { /* DB not available */ }
+  }
+
+  private async persistPolicy(policy: InsurancePolicy): Promise<void> {
+    try {
+      await prisma.insurance_policies.upsert({
+        where: { id: policy.id },
+        update: { status: policy.status, data: policy as any },
+        create: {
+          id: policy.id, policy_number: policy.policyNumber, organization_id: policy.organizationId,
+          coverage_type: policy.coverageType, coverage_limit: policy.coverageLimit,
+          deductible: policy.deductible, premium: policy.premium, risk_score: policy.riskScore,
+          risk_tier: policy.riskTier, status: policy.status, effective_date: policy.effectiveDate,
+          expiration_date: policy.expirationDate, data: policy as any, created_by: policy.createdBy,
+        },
+      });
+    } catch { /* non-fatal */ }
+  }
+
+  private async persistQuote(quote: InsuranceQuote): Promise<void> {
+    try {
+      await prisma.insurance_quotes.upsert({
+        where: { id: quote.id },
+        update: { status: quote.status, data: quote as any },
+        create: {
+          id: quote.id, organization_id: quote.organizationId, coverage_type: quote.coverageType,
+          requested_limit: quote.requestedLimit, premium: quote.premium, risk_score: quote.riskScore,
+          risk_tier: quote.riskTier, status: quote.status, data: quote as any,
+          quoted_at: quote.quotedAt, valid_until: quote.validUntil,
+        },
+      });
+    } catch { /* non-fatal */ }
+  }
+
+  private async persistClaim(claim: Claim): Promise<void> {
+    try {
+      await prisma.insurance_claims.upsert({
+        where: { id: claim.id },
+        update: { status: claim.status, data: claim as any, resolved_at: claim.resolvedAt },
+        create: {
+          id: claim.id, claim_number: claim.claimNumber, policy_id: claim.policyId,
+          policy_number: claim.policyNumber, claim_amount: claim.claimAmount,
+          claim_type: claim.claimType, status: claim.status, decision_id: claim.decisionId,
+          data: claim as any, filed_at: claim.filedAt,
+        },
+      });
+    } catch { /* non-fatal */ }
   }
 
   /**
@@ -278,6 +350,7 @@ export class AIInsuranceService {
     };
 
     this.quotes.set(id, quote);
+    this.persistQuote(quote).catch(() => {});
     logger.info(`Insurance quote generated: ${id} - $${premium}/year`);
     
     return quote;
@@ -327,6 +400,8 @@ export class AIInsuranceService {
 
     this.policies.set(id, policy);
     quote.status = 'accepted';
+    this.persistPolicy(policy).catch(() => {});
+    this.persistQuote(quote).catch(() => {});
 
     logger.info(`Policy bound: ${policyNumber}`);
     return policy;
@@ -382,6 +457,7 @@ export class AIInsuranceService {
     };
 
     this.decisionCoverages.set(id, coverage);
+    this.persistPolicy(policy).catch(() => {});
     logger.info(`Decision covered: ${params.decisionId} under policy ${policy.policyNumber}`);
     
     return coverage;
@@ -422,6 +498,8 @@ export class AIInsuranceService {
 
     this.claims.set(id, claim);
     policy.status = 'claimed';
+    this.persistClaim(claim).catch(() => {});
+    this.persistPolicy(policy).catch(() => {});
 
     logger.info(`Claim filed: ${claimNumber} for $${params.claimAmount}`);
     return claim;

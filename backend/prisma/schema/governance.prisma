@@ -614,3 +614,58 @@ enum ConflictResolution {
   RESOLVED_EXCEPTION // Exception granted
   FALSE_POSITIVE // Not actually a conflict
 }
+
+// =============================================================================
+// AI Constitutional Court - Dispute Resolution
+// =============================================================================
+
+model constitutional_disputes {
+  id              String    @id @default(uuid())
+  case_number     String    @unique
+  title           String
+  category        String    // confidence_conflict, methodology_dispute, data_interpretation, etc.
+  status          String    @default("filed") // filed, under_review, hearing_scheduled, deliberating, opinion_drafted, resolved, appealed
+  petitioner      Json      // DisputeParty object
+  respondent      Json      // DisputeParty object
+  deliberation_id String?
+  vertical_id     String?
+  organization_id String
+  precedents_applied String[] // Case numbers
+  data            Json?     // Full Dispute object
+  filed_at        DateTime  @default(now())
+  hearing_at      DateTime?
+  resolved_at     DateTime?
+  created_at      DateTime  @default(now())
+  updated_at      DateTime  @default(now()) @updatedAt
+
+  opinions constitutional_opinions[]
+
+  @@index([organization_id])
+  @@index([status])
+  @@index([category])
+  @@index([case_number])
+}
+
+model constitutional_opinions {
+  id                  String   @id @default(uuid())
+  dispute_id          String
+  case_number         String
+  title               String
+  ruling              String   // petitioner, respondent, partial_petitioner, partial_respondent, remanded
+  summary             String   @db.Text
+  rationale           String   @db.Text
+  holdings            String[]
+  principles_applied  String[]
+  precedent_strength  String   @default("binding") // binding, persuasive, distinguishable, overruled
+  authoring_judge     String
+  opinion_hash        String
+  data                Json     // Full CourtOpinion object
+  drafted_at          DateTime @default(now())
+  finalized_at        DateTime?
+  created_at          DateTime @default(now())
+
+  dispute constitutional_disputes @relation(fields: [dispute_id], references: [id])
+
+  @@index([dispute_id])
+  @@index([case_number])
+}

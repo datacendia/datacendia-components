@@ -241,7 +241,29 @@ export class AIConstitutionalCourtService {
   private caseCounter = 1000;
 
   constructor() {
-    logger.info('[CendiaCourt] AI Constitutional Court™ initialized');
+    this.initFromDb().catch(() => {
+      logger.warn('[CendiaCourt] DB not available, using in-memory only');
+    });
+    logger.info('[CendiaCourt] AI Constitutional Court initialized with Prisma persistence');
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbDisputes = await prisma.constitutional_disputes.findMany({ orderBy: { filed_at: 'desc' } });
+      for (const row of dbDisputes) {
+        const dispute = (row.data || row) as unknown as Dispute;
+        this.disputes.set(row.id, dispute);
+        if (dispute.opinion) {
+          this.opinions.set(dispute.opinion.id, dispute.opinion);
+        }
+        // Track case counter
+        const num = parseInt(row.case_number.split('-').pop() || '0');
+        if (num > this.caseCounter) this.caseCounter = num;
+      }
+      if (dbDisputes.length > 0) {
+        logger.info(`[CendiaCourt] Loaded ${dbDisputes.length} disputes from database`);
+      }
+    } catch { /* DB not available */ }
   }
 
   /**
@@ -278,18 +300,19 @@ export class AIConstitutionalCourtService {
 
     // Persist to database
     try {
-      await (prisma as any).constitutional_disputes.create({
+      await prisma.constitutional_disputes.create({
         data: {
           id,
           case_number: caseNumber,
           title: params.title,
           category: params.category,
           status: 'filed',
-          petitioner: JSON.stringify(dispute.petitioner),
-          respondent: JSON.stringify(dispute.respondent),
+          petitioner: dispute.petitioner as any,
+          respondent: dispute.respondent as any,
           deliberation_id: params.deliberationId,
           vertical_id: params.verticalId,
           organization_id: params.organizationId,
+          data: dispute as any,
           filed_at: dispute.filedAt,
         },
       });
@@ -363,11 +386,12 @@ export class AIConstitutionalCourtService {
     dispute.hearingAt = hearingDate;
 
     try {
-      await (prisma as any).constitutional_disputes.update({
+      await prisma.constitutional_disputes.update({
         where: { id: disputeId },
         data: {
           status: 'hearing_scheduled',
           hearing_at: hearingDate,
+          data: dispute as any,
         },
       });
     } catch (error) {
@@ -470,26 +494,33 @@ export class AIConstitutionalCourtService {
       .digest('hex');
 
     try {
-      await (prisma as any).constitutional_disputes.update({
+      await prisma.constitutional_disputes.update({
         where: { id: disputeId },
         data: {
           status: 'resolved',
           resolved_at: dispute.resolvedAt,
-          opinion: JSON.stringify(dispute.opinion),
+          data: dispute as any,
         },
       });
 
-      // Store as precedent
-      await (prisma as any).constitutional_precedents.create({
+      // Store opinion as precedent
+      await prisma.constitutional_opinions.create({
         data: {
-          id: uuidv4(),
+          id: dispute.opinion.id,
+          dispute_id: disputeId,
           case_number: dispute.caseNumber,
-          title: dispute.title,
-          category: dispute.category,
-          holdings: JSON.stringify(dispute.opinion.holdings),
+          title: dispute.opinion.title,
+          ruling: dispute.opinion.ruling,
+          summary: dispute.opinion.summary,
+          rationale: dispute.opinion.rationale,
+          holdings: dispute.opinion.holdings,
+          principles_applied: dispute.opinion.principlesApplied,
+          precedent_strength: dispute.opinion.precedentStrength,
+          authoring_judge: dispute.opinion.authoringJudge,
           opinion_hash: dispute.opinion.hash,
-          strength: dispute.opinion.precedentStrength,
-          resolved_at: dispute.resolvedAt,
+          data: dispute.opinion as any,
+          drafted_at: dispute.opinion.draftedAt,
+          finalized_at: dispute.opinion.finalizedAt,
         },
       });
     } catch (error) {
