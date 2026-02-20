@@ -356,7 +356,7 @@ Write a 2-paragraph executive summary.`;
   // ---------------------------------------------------------------------------
 
   async scanForKeyword(keyword: string): Promise<MarketSignal[]> {
-    // Uses deterministic computation; production upgrade: news/social APIs
+    // Uses deterministic computation; ROADMAP: news/social APIs
     // For now, return cached signals matching the keyword
     return this.signals.filter(s => 
       s.keywords.some(k => k.toLowerCase().includes(keyword.toLowerCase())) ||

@@ -1663,7 +1663,7 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
     const avgConfidence = responses.reduce((sum, r) => sum + r.confidenceLevel, 0) / responses.length;
     const recommendations = responses.map(r => r.recommendation);
     
-    // Simple consensus check - production upgrade: use more sophisticated NLP
+    // Simple consensus check - ROADMAP: use more sophisticated NLP
     const consensusReached = avgConfidence > 70;
 
     return {
@@ -1820,7 +1820,7 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
     const resilience = await this.getResilienceScores(organizationId);
     const industry = org?.industry || 'Technology';
 
-    // Industry benchmark data (production upgrade: source from aggregated data)
+    // Industry benchmark data (ROADMAP: source from aggregated data)
     const industryBenchmarks: Record<string, Record<string, { avg: number; topQuartile: number }>> = {
       'Technology': {
         Financial: { avg: 72, topQuartile: 85 },

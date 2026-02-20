@@ -543,7 +543,7 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
   async analyzeEnergy(buildingId: string): Promise<EnergyAnalysis> {
     const buildingZones = this.getZonesByBuilding(buildingId);
     
-    // Deterministic energy data (production upgrade: come from building management system)
+    // Deterministic energy data (ROADMAP: come from building management system)
     const baseConsumption = buildingZones.reduce((sum, z) => sum + z.squareFootage * 15, 0); // 15 kWh per sqft annually
     
     const breakdown = [

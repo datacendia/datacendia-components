@@ -508,7 +508,7 @@ Respond in JSON:
 
     logger.info(`CendiaNerve: Lazarus step ${stepOrder}: ${step.name}`);
 
-    // Deterministic step execution (production upgrade: trigger real recovery actions)
+    // Deterministic step execution (ROADMAP: trigger real recovery actions)
     setTimeout(() => {
       step.status = 'complete';
       step.duration = 300; // 5 minutes per step

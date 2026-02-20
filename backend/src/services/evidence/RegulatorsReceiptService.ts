@@ -798,7 +798,7 @@ export class RegulatorsReceiptService {
   }
 
   private async signReceipt(receipt: RegulatorsReceipt): Promise<void> {
-    // Production upgrade: use KMS to sign
+    // ROADMAP: use KMS to sign
     // For now, create a placeholder signature
     receipt.cryptographicProof.signature = `SIG-${crypto.randomBytes(32).toString('hex')}`;
     receipt.cryptographicProof.signedBy = 'datacendia-kms';

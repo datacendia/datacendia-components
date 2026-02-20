@@ -242,7 +242,7 @@ export class ContinuousComplianceMonitorService {
 
     const previousStatus = control.status;
     
-    // Production upgrade: run actual compliance checks
+    // ROADMAP: run actual compliance checks
     const newStatus: ComplianceStatus = 'compliant'; // Default until real checks implemented
     
     control.status = newStatus;

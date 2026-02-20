@@ -990,7 +990,7 @@ export class CendiaCommandService {
 
     this.executions.set(execution.id, execution);
 
-    // Uses deterministic computation; production upgrade: to the Council
+    // Uses deterministic computation; ROADMAP: to the Council
     // Execute the command
     execution.status = 'processing';
 

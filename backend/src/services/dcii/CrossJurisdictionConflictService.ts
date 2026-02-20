@@ -469,7 +469,7 @@ class CrossJurisdictionConflictService {
           resolutionStrategies: this.generateResolutions(pattern),
           detectedAt: new Date(),
           impact: {
-            affectedDataSubjects: 0, // Production upgrade: real data subject count from registry
+            affectedDataSubjects: 0, // ROADMAP: real data subject count from registry
             affectedProcesses: ['Data Processing', 'Cross-Border Transfer', 'Customer Records'],
             financialExposure: pattern.severity === 'irreconcilable' ? '>$10M' : pattern.severity === 'significant' ? '$1M-$10M' : '<$1M',
             operationalImpact: pattern.severity === 'irreconcilable' ? 'critical' : 'high',

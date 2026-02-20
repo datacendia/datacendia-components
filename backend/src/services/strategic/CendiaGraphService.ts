@@ -694,7 +694,7 @@ Provide a concise, factual answer based only on the graph data.`;
             properties: entity.properties
           }),
           content_hash: `entity_${entity.id}`,
-          embedding: Buffer.from([]), // Deterministically derived; production upgrade: by embedding service
+          embedding: Buffer.from([]), // Deterministically derived; ROADMAP: by embedding service
           metadata: {
             entityType: entity.type,
             confidence: entity.confidence,

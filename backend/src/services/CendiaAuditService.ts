@@ -138,7 +138,7 @@ export class CendiaAuditService extends BaseService {
       dependencies: [],
     });
     
-    // Production upgrade: load from secure vault
+    // ROADMAP: load from secure vault
     this.signingKey = process.env.AUDIT_SIGNING_KEY || 'datacendia-audit-key-change-in-production';
   }
 

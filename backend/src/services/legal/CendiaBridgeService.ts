@@ -297,7 +297,7 @@ export class CendiaBridgeService extends EventEmitter {
     this.connectors.set(connectorId, connector);
 
     try {
-      // Establish connection (production upgrade: authenticate with service)
+      // Establish connection (ROADMAP: authenticate with service)
       await this.establishConnection(connector);
       
       connector.status = 'connected';

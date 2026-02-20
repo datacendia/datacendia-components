@@ -268,7 +268,7 @@ export abstract class DecisionSchema<T extends BaseDecision> {
   }
 
   protected generateSignature(data: string, privateKey: string): string {
-    // Production upgrade: use actual asymmetric signing
+    // ROADMAP: use actual asymmetric signing
     const sign = crypto.createSign('RSA-SHA256');
     sign.update(data);
     try {

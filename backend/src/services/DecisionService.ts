@@ -755,7 +755,7 @@ export class DecisionService extends BaseService {
   // ---------------------------------------------------------------------------
 
   private generateAuditHash(decision: Decision): string {
-    // Simplified implementation; production upgrade: use crypto
+    // Simplified implementation; ROADMAP: use crypto
     const content = JSON.stringify({
       id: decision.id,
       timeline: decision.timeline,

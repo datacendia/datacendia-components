@@ -228,7 +228,7 @@ class CendiaDissentService {
     let displayName = dissentData.dissenterName;
     
     if (dissentData.isAnonymous) {
-      // Production upgrade: encrypt the real identity
+      // ROADMAP: encrypt the real identity
       storedDissenterId = this.encryptIdentity(dissentData.dissenterId);
       displayName = 'Anonymous Stakeholder';
     }
@@ -618,7 +618,7 @@ class CendiaDissentService {
    * Start retaliation monitoring for a dissenter
    */
   private async startRetaliationMonitoring(dissent: Dissent): Promise<void> {
-    // Uses deterministic computation; production upgrade: with HR systems to monitor
+    // Uses deterministic computation; ROADMAP: with HR systems to monitor
     // for anomalies in performance reviews, compensation, etc.
     logger.info(`[Dissent] Started retaliation monitoring for dissent ${dissent.id}`);
   }
@@ -738,7 +738,7 @@ class CendiaDissentService {
   // ===========================================================================
 
   private encryptIdentity(userId: string): string {
-    // Production upgrade: use proper encryption
+    // ROADMAP: use proper encryption
     return crypto.createHash('sha256').update(userId + 'salt').digest('hex').slice(0, 16);
   }
 

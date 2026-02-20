@@ -1041,7 +1041,7 @@ For technical assistance, contact: evidence@datacendia.com
       archive.push({ path: relativePath, content });
     }
     
-    // Simple tar-like format (production upgrade: use proper tar library)
+    // Simple tar-like format (ROADMAP: use proper tar library)
     const archiveContent = JSON.stringify(archive.map(f => ({
       path: f.path,
       content: f.content.toString('base64'),

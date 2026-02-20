@@ -419,7 +419,7 @@ export class CendiaResponsibilityService {
   }
   
   private async createSignature(data: any, timestamp: string): Promise<TPMSignature> {
-    // Uses deterministic computation; production upgrade: TPM 2.0 or HSM
+    // Uses deterministic computation; ROADMAP: TPM 2.0 or HSM
     // For now, using software fallback
     const hash = crypto
       .createHash('sha256')

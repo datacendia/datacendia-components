@@ -933,7 +933,7 @@ export class PostDeliberationService extends BaseService {
     const summaries: Record<string, string> = {};
 
     for (const role of roles) {
-      // Production upgrade: use LLM to generate role-specific summaries
+      // ROADMAP: use LLM to generate role-specific summaries
       summaries[role] = `${role} Summary: ${session.executiveSummary.recommendation.substring(0, 200)}...`;
     }
 

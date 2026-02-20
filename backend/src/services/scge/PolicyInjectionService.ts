@@ -248,7 +248,7 @@ export class PolicyInjectionService {
     rule: PolicyRule,
     context: Record<string, unknown>
   ): RuleEvaluationResult {
-    // Simplified rule evaluation - production upgrade: use rule engine
+    // Simplified rule evaluation - ROADMAP: use rule engine
     const triggered = this.checkRuleCondition(rule.condition, context);
     
     return {
@@ -276,7 +276,7 @@ export class PolicyInjectionService {
   }
 
   private checkRuleCondition(condition: string, context: Record<string, unknown>): boolean {
-    // Simplified rule evaluation; production upgrade: use proper rule engine
+    // Simplified rule evaluation; ROADMAP: use proper rule engine
     // For now, check if any context key matches condition keywords
     const keywords = condition.toLowerCase().split(/\s+/);
     for (const key of Object.keys(context)) {
@@ -303,7 +303,7 @@ export class PolicyInjectionService {
     context: Record<string, unknown>
   ): boolean {
     // Simplified constraint checking
-    // Uses deterministic computation; production upgrade: formal constraint solver
+    // Uses deterministic computation; ROADMAP: formal constraint solver
     const description = constraint.description.toLowerCase();
     
     // Check for budget constraints

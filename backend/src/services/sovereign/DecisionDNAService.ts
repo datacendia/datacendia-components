@@ -511,7 +511,7 @@ class DecisionDNAService extends EventEmitter {
    * Build ethics section
    */
   private async buildEthicsSection(deliberationId: string): Promise<DecisionDNA['ethics']> {
-    // Production upgrade: fetch from Vox service
+    // ROADMAP: fetch from Vox service
     return {
       voxAssessment: undefined,
       ethicalFlags: [],
@@ -550,7 +550,7 @@ class DecisionDNAService extends EventEmitter {
    * Build human oversight section
    */
   private async buildOversightSection(deliberationId: string): Promise<DecisionDNA['humanOversight']> {
-    // Production upgrade: fetch from approval/veto tables
+    // ROADMAP: fetch from approval/veto tables
     return {
       reviewRequired: true,
       overrides: [],

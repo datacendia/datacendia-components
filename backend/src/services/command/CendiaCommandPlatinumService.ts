@@ -581,7 +581,7 @@ export class CendiaCommandPlatinumService {
         .digest('hex');
     }
 
-    // Sign the merkle root (production upgrade: use KMS)
+    // Sign the merkle root (ROADMAP: use KMS)
     const signature = crypto.createHash('sha256')
       .update(merkleRoot + signedAt.toISOString())
       .digest('hex');

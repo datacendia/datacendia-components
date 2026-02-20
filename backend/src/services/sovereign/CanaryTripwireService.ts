@@ -423,7 +423,7 @@ class CanaryTripwireService extends EventEmitter {
    */
   private async insertCanaryRecord(canary: Canary): Promise<string> {
     // For now, store in a dedicated canary table
-    // Production upgrade: insert into the actual target table
+    // ROADMAP: insert into the actual target table
     
     const recordId = `rec-${crypto.randomUUID().slice(0, 8)}`;
     
@@ -516,7 +516,7 @@ class CanaryTripwireService extends EventEmitter {
       
       canary.lastCheckedAt = new Date();
       
-      // Production upgrade:
+      // ROADMAP:
       // 1. Check pastebin-like sites
       // 2. Check dark web monitoring services
       // 3. Check public code repositories
@@ -613,7 +613,7 @@ class CanaryTripwireService extends EventEmitter {
    */
   private async sendWebhook(url: string, alert: CanaryAlert): Promise<void> {
     try {
-      // Production upgrade: use fetch or axios
+      // ROADMAP: use fetch or axios
       logger.info(`[CanaryTripwire] Would send webhook to ${url}`);
     } catch (err) {
       logger.error('[CanaryTripwire] Webhook failed:', err);

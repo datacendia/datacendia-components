@@ -223,7 +223,7 @@ export class CendiaGlassService {
   }
 
   private async fetchOverlayData(overlay: AROverlay): Promise<Record<string, unknown>> {
-    // Uses deterministic computation; production upgrade: real data from the appropriate service
+    // Uses deterministic computation; ROADMAP: real data from the appropriate service
     switch (overlay.type) {
       case 'health_score':
         return { score: 87, trend: 'up', lastUpdate: new Date() };

@@ -582,7 +582,7 @@ export class TestEvidenceLedgerService extends EventEmitter {
       valid: chainIntegrity && signatureValid && merkleValid && errors.length === 0,
       chainIntegrity,
       signatureValid,
-      timestampsValid: true, // TODO: Verify external timestamps
+      timestampsValid: true, // ROADMAP: verify against external RFC 3161 timestamp authority
       merkleValid,
       errors,
       warnings,
@@ -751,7 +751,7 @@ export class TestEvidenceLedgerService extends EventEmitter {
       timestamp: new Date().toISOString(),
     });
     
-    // NTP timestamp (deterministic computation; production upgrade: query actual NTP server)
+    // NTP timestamp (deterministic computation; ROADMAP: query actual NTP server)
     timestamps.push({
       source: 'ntp.pool.org',
       timestamp: new Date().toISOString(),

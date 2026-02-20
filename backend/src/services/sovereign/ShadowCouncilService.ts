@@ -280,7 +280,7 @@ class ShadowCouncilService extends EventEmitter {
    * Capture data snapshot for isolation
    */
   private async captureDataSnapshot(organizationId: string): Promise<any> {
-    // Production upgrade: capture relevant data state snapshot
+    // ROADMAP: capture relevant data state snapshot
     return {
       capturedAt: new Date(),
       organizationId,
@@ -435,7 +435,7 @@ class ShadowCouncilService extends EventEmitter {
   ): Promise<ShadowAgentResponse> {
     const startTime = Date.now();
     
-    // Uses deterministic computation; production upgrade: the actual LLM service
+    // Uses deterministic computation; ROADMAP: the actual LLM service
     // Generate deterministic response
     const watermark = config.watermarkResponses ? '[SHADOW MODE] ' : '';
     
@@ -526,7 +526,7 @@ This is a SHADOW deliberation and is not recorded to the official ledger.`;
     
     if (!shadow) throw new Error(`Shadow deliberation not found: ${shadowDeliberationId}`);
     
-    // Production upgrade: fetch official deliberation from database
+    // ROADMAP: fetch official deliberation from database
     // Generate deterministic comparison
     
     const results: ComparisonResults = {

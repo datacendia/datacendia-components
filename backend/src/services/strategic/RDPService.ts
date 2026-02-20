@@ -233,7 +233,7 @@ class RDPService {
     const startTime = Date.now();
 
     // Execute build process
-    await this.delay(100); // Production upgrade: pull images, package models
+    await this.delay(100); // ROADMAP: pull Docker images, package ML models
 
     // Generate checksum
     const checksumData = JSON.stringify({
@@ -571,7 +571,7 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
     const instance = this.instances.get(instanceId);
     if (!instance) throw new Error('Instance not found');
 
-    // Production upgrade: check actual container health
+    // ROADMAP: check actual container health via Docker API or k8s probe
     instance.health.lastCheck = new Date();
     instance.lastActivityAt = new Date();
 
@@ -582,7 +582,7 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
     const instance = this.instances.get(instanceId);
     if (!instance) throw new Error('Instance not found');
 
-    // Production upgrade: Prometheus/metrics endpoint
+    // ROADMAP: integrate Prometheus /metrics endpoint for real resource usage
     instance.metrics = {
       cpuUsage: 0,
       memoryUsage: 0,
@@ -632,7 +632,7 @@ ${pkg.components.map(c => `- ${c.name} (${c.version})`).join('\n')}
   }
 
   private yamlStringify(obj: any): string {
-    // Simple YAML stringification (production upgrade: use js-yaml)
+    // Simple YAML stringification (ROADMAP: use js-yaml for proper YAML output)
     return JSON.stringify(obj, null, 2)
       .replace(/"/g, '')
       .replace(/,$/gm, '')

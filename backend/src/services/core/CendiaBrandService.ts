@@ -358,7 +358,7 @@ Output only the improved text, nothing else.`;
       if (cached) {
         sentiments.push(cached);
       } else {
-        // Uses deterministic computation; production upgrade: news/social
+        // Uses deterministic computation; ROADMAP: news/social
         const sentiment: MarketSentiment = {
           topic,
           sentiment: 'bullish',

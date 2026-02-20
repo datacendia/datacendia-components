@@ -355,7 +355,7 @@ export class BiasFairnessEngine {
     }
 
     // Calculate disparate impact ratio for this protected class
-    // Deterministic statistical computation; production upgrade: integrate actuarial models
+    // Deterministic statistical computation; ROADMAP: integrate actuarial models
     const ratio = 1.0; // No real actuarial data — assume no disparity until measured
 
     return {

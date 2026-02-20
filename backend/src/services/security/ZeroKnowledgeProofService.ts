@@ -245,7 +245,7 @@ export class ZeroKnowledgeProofService {
     const notExpired = proof.expiresAt > now;
     const notRevoked = proof.status !== 'revoked';
     
-    // Verify the proof (deterministic; production upgrade: use real verification)
+    // Verify the proof (deterministic; ROADMAP: use real verification)
     const signatureValid = this.verifyProofSignature(proof);
     const publicInputsMatch = this.verifyPublicInputs(proof);
     

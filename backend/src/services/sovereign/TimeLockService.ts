@@ -269,7 +269,7 @@ class TimeLockPuzzleGenerator {
    * Generate RSA modulus
    */
   private static generateRSAModulus(bits: number): { p: bigint; q: bigint; n: bigint } {
-    // Production upgrade: use proper prime generation
+    // ROADMAP: use proper prime generation
     // For now, generate pseudo-random large primes
     const halfBits = bits / 2;
     
@@ -292,7 +292,7 @@ class TimeLockPuzzleGenerator {
     // Make odd
     num = num | BigInt(1);
     
-    // Simple primality test (production upgrade: use Miller-Rabin)
+    // Simple primality test (ROADMAP: use Miller-Rabin)
     while (!this.isProbablyPrime(num)) {
       num += BigInt(2);
     }

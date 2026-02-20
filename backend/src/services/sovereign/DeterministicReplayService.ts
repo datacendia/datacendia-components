@@ -639,7 +639,7 @@ class DeterministicReplayService extends EventEmitter {
     replayState.inputState = JSON.parse(JSON.stringify(originalState.inputState));
     
     // Replay deliberation with same parameters
-    // Uses deterministic computation; production upgrade: the actual Council service with deterministic mode
+    // Uses deterministic computation; ROADMAP: the actual Council service with deterministic mode
     await this.executeReplay(replayState, originalState);
     
     // Complete replay capture
@@ -674,7 +674,7 @@ class DeterministicReplayService extends EventEmitter {
   }
 
   /**
-   * Deterministic replay; production upgrade: call actual services
+   * Deterministic replay; ROADMAP: call actual services
    */
   private async executeReplay(
     replayState: ReplayableState, 
@@ -683,7 +683,7 @@ class DeterministicReplayService extends EventEmitter {
     // For deterministic replay, we use the same model parameters
     replayState.modelState = JSON.parse(JSON.stringify(originalState.modelState));
     
-    // Deterministic agent responses; production upgrade: call LLMs with seeds
+    // Deterministic agent responses; ROADMAP: call LLMs with seeds
     for (const original of originalState.outputState.agentResponses) {
       // With same seed + same input + same model = same output
       replayState.outputState.agentResponses.push({

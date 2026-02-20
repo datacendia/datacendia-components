@@ -476,7 +476,7 @@ Output JSON:
     execution.status = 'executing';
     execution.currentStep = stepIndex;
 
-    // Deterministic step execution (production upgrade: call actual services)
+    // Deterministic step execution (ROADMAP: call actual services)
     const result = `Step ${step.order} "${step.action}" executed successfully`;
     
     execution.executionLog.push({

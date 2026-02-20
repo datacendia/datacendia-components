@@ -358,7 +358,7 @@ class GnosisService {
       gaps,
       recommendedPaths: recommendedPaths.map(p => p.id),
       lastAssessment: assessments[0]?.completed_at || new Date(),
-      learningStyle: 'reading', // Deterministically derived; production upgrade: by assessment
+      learningStyle: 'reading', // Deterministically derived; ROADMAP: by assessment
       preferredPace: 'self_paced',
     };
   }

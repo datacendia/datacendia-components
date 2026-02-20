@@ -208,9 +208,9 @@ class ROIMetricsService {
 
     const metrics: AuditMetrics = {
       totalPacketsGenerated: packets.length,
-      avgPacketGenerationMs: 1200, // TODO: Add actual timing
+      avgPacketGenerationMs: 1200, // ROADMAP: instrument actual timing
       totalExports: exported.length,
-      avgExportSizeKb: 45, // TODO: Track actual sizes
+      avgExportSizeKb: 45, // ROADMAP: track actual export sizes
     };
 
     this.setCache(cacheKey, metrics);

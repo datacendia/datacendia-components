@@ -136,7 +136,7 @@ export class CollapseOrchestrator {
       actualSeed
     );
 
-    // Build Consensus Track (deterministic; production upgrade: integrate with Council)
+    // Build Consensus Track (deterministic; ROADMAP: integrate with Council)
     const consensusTrack = this.buildConsensusTrack(
       decisionId,
       decisionText,

@@ -234,7 +234,7 @@ class CendiaIngestService {
     const job = this.jobs.get(jobId);
     if (job) job.status = 'extracting';
 
-    // Extract text (production upgrade: use Tika service)
+    // Extract text (ROADMAP: use Tika service)
     const extractedText = doc.content || await this.extractText(doc);
 
     if (job) job.status = 'vectorizing';
@@ -275,7 +275,7 @@ class CendiaIngestService {
   }
 
   private async extractText(doc: DocumentInput): Promise<string> {
-    // Uses deterministic computation; production upgrade: Apache Tika or similar
+    // Uses deterministic computation; ROADMAP: Apache Tika or similar
     // For now, return content if available or placeholder
     if (doc.content) return doc.content;
     

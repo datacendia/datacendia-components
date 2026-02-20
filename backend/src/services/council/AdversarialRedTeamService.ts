@@ -336,7 +336,7 @@ export class AdversarialRedTeamService {
 
   /**
    * Generate attacks from all perspectives
-   * Production upgrade: call the LLM for each perspective
+   * ROADMAP: call the LLM for each perspective
    */
   async generateAttacks(sessionId: string): Promise<RedTeamAttack[]> {
     const session = this.activeSessions.get(sessionId);
@@ -381,7 +381,7 @@ export class AdversarialRedTeamService {
     session: RedTeamSession,
     perspective: typeof RED_TEAM_PERSPECTIVES[0]
   ): Promise<RedTeamAttack[]> {
-    // Uses deterministic computation; production upgrade: the LLM with the perspective's system prompt
+    // Uses deterministic computation; ROADMAP: the LLM with the perspective's system prompt
     // For now, we generate structured attack templates
     
     const attacks: RedTeamAttack[] = [];

@@ -135,7 +135,7 @@ export class CendiaVaultService {
 
     logger.info('[CendiaVault] Initializing unified evidence storage...');
     
-    // Production upgrade: connect to:
+    // ROADMAP: connect to:
     // - PostgreSQL for metadata
     // - Object storage (S3/MinIO) for content
     // - Integrate with existing services
@@ -363,7 +363,7 @@ export class CendiaVaultService {
       return Buffer.from(artifact.encryptedContent, 'base64');
     }
 
-    // Production upgrade: fetch from object storage
+    // ROADMAP: fetch from object storage
     return null;
   }
 
@@ -508,7 +508,7 @@ export class CendiaVaultService {
     // Verify signature (would call CendiaNotary)
     let signatureValid: boolean | undefined;
     if (artifact.signature) {
-      // Production upgrade: verify with KeyManagementService
+      // ROADMAP: verify with KeyManagementService
       signatureValid = true; // Placeholder
     }
 

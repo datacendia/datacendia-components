@@ -483,7 +483,7 @@ class FederatedMeshService extends EventEmitter {
         organizationId: n.organizationId,
         organizationName: n.name,
         contributed: relevantDeltas.some(d => d.sourceNodeId === n.id),
-        dataPoints: 0 // Production upgrade: calculate real data points
+        dataPoints: 0 // ROADMAP: calculate real data points
       })),
       privacyBudgetUsed: 0.01, // Local query uses minimal budget
       confidence: 1.0, // Local data is verified
@@ -754,7 +754,7 @@ class FederatedMeshService extends EventEmitter {
    */
   private applyDifferentialPrivacy(data: Buffer, config: DifferentialPrivacyConfig): Buffer {
     // Simplified DP implementation
-    // Production upgrade: use proper Gaussian mechanism
+    // ROADMAP: use proper Gaussian mechanism
     
     const floatArray = new Float32Array(data.buffer, data.byteOffset, data.length / 4);
     const noisyArray = new Float32Array(floatArray.length);

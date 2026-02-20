@@ -648,7 +648,7 @@ Provide comprehensive risk assessment in JSON:
 
     logger.error(`CendiaTransit: EXTRACTION ACTIVATED - ${planId} - Reason: ${reason}`);
     
-    // Uses deterministic computation; production upgrade: alerts to security teams, emergency contacts, etc.
+    // Uses deterministic computation; ROADMAP: alerts to security teams, emergency contacts, etc.
 
     return plan;
   }

@@ -253,7 +253,7 @@ export class ManufacturingDataConnector extends DataConnector<TradingSystemData 
     const source = this.sources.get(sourceId);
     if (!source) return false;
 
-    // Connector framework ready; production upgrade: establish real API connections
+    // Connector framework ready; ROADMAP: establish real API connections
     // Following sovereign adapter pattern: we provide the socket, client brings the plug
     source.connectionStatus = 'connected';
     source.lastSync = new Date();
@@ -277,7 +277,7 @@ export class ManufacturingDataConnector extends DataConnector<TradingSystemData 
       };
     }
 
-    // Deterministic data ingestion; production upgrade: call real APIs
+    // Deterministic data ingestion; ROADMAP: call real APIs
     const data = this.fetchConnectorData(sourceId, query);
     const validation = this.validate(data);
     
@@ -414,7 +414,7 @@ export class ManufacturingKnowledgeBase extends VerticalKnowledgeBase {
   }
 
   private generateEmbedding(text: string): number[] {
-    // Simplified embedding - production upgrade: use actual embedding model
+    // Simplified embedding - ROADMAP: use actual embedding model
     const embedding: number[] = [];
     for (let i = 0; i < 384; i++) {
       embedding.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5);
@@ -579,7 +579,7 @@ export class ManufacturingComplianceMapper extends ComplianceMapper {
   }
 
   private async evaluateControl(decision: ManufacturingDecision, control: ComplianceControl): Promise<ComplianceViolation | null> {
-    // Simplified violation detection; production upgrade: implement full rule engine
+    // Simplified violation detection; ROADMAP: implement full rule engine
     if (decision.type === 'safety' && control.id === 'bsa-sar') {
       const safetyDecision = decision as safetyEscalation;
       if (safetyDecision.outcome.sarRequired && safetyDecision.outcome.escalationLevel === 'dismiss') {
@@ -1066,7 +1066,7 @@ export class productionAnalysisAgentPreset extends AgentPreset {
   }
 
   private evaluateGuardrail(guardrail: AgentGuardrail, input: unknown): boolean {
-    // Simplified evaluation - production upgrade: use expression parser
+    // Simplified evaluation - ROADMAP: use expression parser
     const data = input as Record<string, unknown>;
     if (guardrail.id === 'production-floor' && typeof data['productionScore'] === 'number') {
       return data['productionScore'] < 500;

@@ -438,7 +438,7 @@ class QRAirGapBridgeService extends EventEmitter {
       const qrData = `CENDIA:${chunk.payloadId}:${chunk.chunkIndex}:${chunk.totalChunks}:${chunk.chunkChecksum}:${chunk.data}`;
       
       // Generate simple SVG QR code representation
-      // Production upgrade: use actual QR library
+      // ROADMAP: use actual QR library
       const svg = this.generateQRSVG(qrData, chunk.chunkIndex);
       frames.push(`data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`);
     }
@@ -448,10 +448,10 @@ class QRAirGapBridgeService extends EventEmitter {
 
   /**
    * Generate SVG representation of QR code
-   * (Production upgrade: replace with actual QR code library)
+   * (ROADMAP: replace with actual QR code library)
    */
   private generateQRSVG(data: string, index: number): string {
-    // This is a placeholder - production upgrade: use qrcode library
+    // This is a placeholder - ROADMAP: use qrcode library
     const hash = crypto.createHash('md5').update(data).digest('hex');
     const size = 200;
     const moduleSize = 4;

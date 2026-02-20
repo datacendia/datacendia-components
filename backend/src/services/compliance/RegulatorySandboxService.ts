@@ -518,7 +518,7 @@ export class RegulatorySandboxService {
       const requirement = regulation.keyRequirements.find(r => r.id === reqId);
       if (!requirement) continue;
 
-      // Deterministic compliance check (production upgrade: analyze actual system)
+      // Deterministic compliance check (ROADMAP: analyze actual system)
       const score = this.evaluateRequirement(requirement, test.systemDescription);
       
       const result: RequirementTestResult = {

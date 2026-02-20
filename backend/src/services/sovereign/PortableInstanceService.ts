@@ -808,7 +808,7 @@ For support: support@datacendia.com
     const config = this.configs.get(image.configId);
     const filename = `datacendia-${config?.imageType || 'portable'}-${imageId}.zip`;
     
-    // Production upgrade: create actual ZIP archive
+    // ROADMAP: create actual ZIP archive
     // For now, return the artifacts directory
     
     image.deployedCount++;

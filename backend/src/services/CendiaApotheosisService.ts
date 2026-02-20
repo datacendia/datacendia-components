@@ -482,7 +482,7 @@ class CendiaApotheosisService {
     return scenarios.slice(0, count);
   }
 
-  // Audit log storage (in-memory for now, production upgrade: persist to database)
+  // Audit log storage (in-memory for now, ROADMAP: persist to database)
   private auditLog: AdjudicationAuditRecord[] = [];
 
   /**
@@ -596,7 +596,7 @@ Respond with ONLY valid JSON:
         scenarioId: scenario.id,
         timestamp: new Date(),
         modelName,
-        modelVersion: 'unknown', // Deterministically derived; production upgrade: from model metadata
+        modelVersion: 'unknown', // Deterministically derived; ROADMAP: from model metadata
         temperature,
         systemPromptHash,
         scenarioPromptHash,

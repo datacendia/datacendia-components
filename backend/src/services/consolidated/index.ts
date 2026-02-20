@@ -699,7 +699,7 @@ class NotaryService {
     const sig = this.signatures.get(signatureId);
     if (!sig) return { valid: false, signature: null };
 
-    // Production upgrade: verify with KMS
+    // ROADMAP: verify with KMS
     return { valid: true, signature: sig };
   }
 

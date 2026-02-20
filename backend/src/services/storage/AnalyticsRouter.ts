@@ -186,7 +186,7 @@ class AnalyticsRouter {
     
     const { backend, reason } = this.selectBackend({
       ...options.characteristics,
-      // Production upgrade: implement streaming for timeline queries
+      // ROADMAP: implement streaming for timeline queries
       isStreaming: options.characteristics?.isStreaming ?? false,
     });
 
