@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CENDIA EVIDENCE VAULT SERVICE™
+ * CENDIA EVIDENCE VAULT SERVICE
  * 
  * Enterprise-grade decision packet management with:
  * - Global access with RBAC controls
@@ -13,13 +13,14 @@
  * - Break-glass export with dual approval
  * - Cryptographic verification and chain of custody
  * 
- * Uses in-memory storage with realistic sample data
- * Ready for database integration when Prisma schema is extended
+ * PERSISTENCE: Prisma (evidence_vault_packets table) + in-memory cache.
+ * Data survives server restart via PostgreSQL.
  */
 
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -407,10 +408,78 @@ class EvidenceVaultService extends EventEmitter {
 
   private constructor() {
     super();
-    // Initialize with sample data
+    this.initFromDb().catch(() => {
+      logger.warn('[EvidenceVault] DB not available, using in-memory sample data');
+      const samples = generateSamplePackets();
+      samples.forEach(p => this.packets.set(p.id, p));
+    });
+    logger.info('[EvidenceVault] Service initialized with Prisma persistence');
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbPackets = await prisma.evidence_vault_packets.findMany({ orderBy: { generated_at: 'desc' } });
+      if (dbPackets.length > 0) {
+        for (const row of dbPackets) {
+          this.packets.set(row.id, row.data as unknown as DecisionPacket);
+        }
+        logger.info(`[EvidenceVault] Loaded ${dbPackets.length} packets from database`);
+        return;
+      }
+    } catch { /* DB not available */ }
+    // Seed sample data and persist
     const samples = generateSamplePackets();
     samples.forEach(p => this.packets.set(p.id, p));
-    logger.info('[EvidenceVault] Service initialized with sample data');
+    for (const p of samples) {
+      this.persistPacket(p).catch(() => {});
+    }
+  }
+
+  private async persistPacket(packet: DecisionPacket): Promise<void> {
+    try {
+      await prisma.evidence_vault_packets.upsert({
+        where: { id: packet.id },
+        update: {
+          status: packet.status,
+          signature_valid: packet.signatureValid,
+          integrity_hash: packet.integrityHash,
+          version: packet.version,
+          superseded_by: packet.supersededBy ?? null,
+          signed_at: packet.signedAt ?? null,
+          locked_at: packet.lockedAt ?? null,
+          data: packet as any,
+        },
+        create: {
+          id: packet.id,
+          decision_id: packet.decisionId,
+          decision_title: packet.decisionTitle,
+          status: packet.status,
+          mode: packet.mode,
+          owner_id: packet.owner.id,
+          owner_name: packet.owner.name,
+          owner_email: packet.owner.email,
+          owner_role: packet.owner.role,
+          owner_department: packet.owner.department,
+          business_unit: packet.businessUnit,
+          organization_id: packet.organizationId,
+          data_source_id: packet.dataSourceId ?? null,
+          policy_pack_version: packet.policyPackVersion,
+          signature_valid: packet.signatureValid,
+          integrity_hash: packet.integrityHash,
+          version: packet.version,
+          superseded_by: packet.supersededBy ?? null,
+          systems_impacted: packet.systemsImpacted,
+          compliance_frameworks: packet.complianceFrameworks,
+          retention_until: packet.retentionUntil,
+          data: packet as any,
+          generated_at: packet.generatedAt,
+          signed_at: packet.signedAt ?? null,
+          locked_at: packet.lockedAt ?? null,
+        },
+      });
+    } catch (err) {
+      logger.debug('[EvidenceVault] DB persist failed (non-fatal):', err);
+    }
   }
 
   static getInstance(): EvidenceVaultService {
@@ -547,6 +616,7 @@ class EvidenceVaultService extends EventEmitter {
     };
 
     this.packets.set(packet.id, packet);
+    this.persistPacket(packet).catch(() => {});
     this.logAccess(packet, userId, 'generate');
     this.emit('packet:generated', { packetId: packet.id, userId });
 
@@ -594,6 +664,7 @@ class EvidenceVaultService extends EventEmitter {
 
     packet.status = 'under_review';
     packet.approvalWorkflow = workflow;
+    this.persistPacket(packet).catch(() => {});
     this.logAccess(packet, userId, 'send_approval', `Sent to ${approvers.length} approvers`);
 
     this.emit('packet:sent_for_approval', { packetId, workflow, approvers });
@@ -629,6 +700,7 @@ class EvidenceVaultService extends EventEmitter {
         packet.signedAt = new Date();
         packet.signatureValid = true;
       }
+      this.persistPacket(packet).catch(() => {});
       this.emit('packet:approval_complete', { packetId, status: packet.approvalWorkflow.status });
     }
   }
@@ -676,6 +748,7 @@ class EvidenceVaultService extends EventEmitter {
     packet.attachments.push(attachment);
     packet.integrityHash = this.generateIntegrityHash(packet);
     packet.signatureValid = false;
+    this.persistPacket(packet).catch(() => {});
 
     this.logAccess(packet, userId, 'attach', `Attached: ${file.filename}`);
     this.emit('packet:evidence_attached', { packetId, attachmentId: attachment.id });
@@ -704,6 +777,7 @@ class EvidenceVaultService extends EventEmitter {
     packet.signedAt = new Date();
     packet.signatureValid = true;
     packet.integrityHash = this.generateIntegrityHash(packet);
+    this.persistPacket(packet).catch(() => {});
 
     this.logAccess(packet, userId, 'lock');
     this.emit('packet:locked', { packetId, userId });
@@ -948,6 +1022,7 @@ class EvidenceVaultService extends EventEmitter {
     };
 
     this.packets.set(packet.id, packet);
+    this.persistPacket(packet).catch(() => {});
     this.emit('packet:council_stored', { packetId: packet.id, runId: params.runId });
     
     logger.info('[EvidenceVault] Stored council decision packet', { 

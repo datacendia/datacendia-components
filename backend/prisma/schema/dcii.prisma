@@ -210,6 +210,49 @@ model dcii_timestamp_batches {
 }
 
 // =============================================================================
+// Evidence Vault - Decision Packet Management
+// =============================================================================
+
+model evidence_vault_packets {
+  id                  String   @id
+  decision_id         String
+  decision_title      String
+  status              String   @default("draft") // draft, under_review, approved, locked, superseded
+  mode                String   @default("operational") // due_diligence, war_room, compliance, strategic, operational
+  owner_id            String
+  owner_name          String
+  owner_email         String
+  owner_role          String
+  owner_department    String
+  business_unit       String
+  organization_id     String
+  data_source_id      String?
+  policy_pack_version String   @default("v1.0.0")
+  signature_valid     Boolean  @default(false)
+  integrity_hash      String
+  version             Int      @default(1)
+  superseded_by       String?
+  systems_impacted    String[]
+  compliance_frameworks String[]
+  retention_until     DateTime
+  data                Json     // Full DecisionPacket object (attachments, dissents, vetoes, overrides, access log, workflows)
+  generated_at        DateTime @default(now())
+  signed_at           DateTime?
+  locked_at           DateTime?
+  created_at          DateTime @default(now())
+  updated_at          DateTime @default(now()) @updatedAt
+
+  organizations organizations @relation(fields: [organization_id], references: [id])
+
+  @@index([organization_id])
+  @@index([status])
+  @@index([mode])
+  @@index([decision_id])
+  @@index([business_unit])
+  @@index([generated_at])
+}
+
+// =============================================================================
 // Decision Similarity Engine
 // =============================================================================
 

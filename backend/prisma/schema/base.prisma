@@ -130,6 +130,9 @@ model organizations {
   dcii_jurisdiction_assessments   dcii_jurisdiction_assessments[]
   dcii_timestamp_tokens           dcii_timestamp_tokens[]
   dcii_similarity_decisions       dcii_similarity_decisions[]
+
+  // Evidence Vault - Decision Packet Management
+  evidence_vault_packets          evidence_vault_packets[]
 }
 
 model password_resets {
