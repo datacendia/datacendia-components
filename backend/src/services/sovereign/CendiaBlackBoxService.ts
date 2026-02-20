@@ -10,6 +10,7 @@
 
 import { PrismaClient } from '@prisma/client';
 import crypto from 'crypto';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -132,9 +133,76 @@ export class CendiaBlackBoxService {
 
   private db: PrismaClient | null;
 
-  constructor(prisma?: PrismaClient) {
-    this.db = prisma || null;
-    console.log(`[CendiaBlackBox] Disaster Storage service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+  constructor(injectedPrisma?: PrismaClient) {
+    this.db = injectedPrisma || null;
+    this.initFromDb().catch(() => {
+      console.log('[CendiaBlackBox] DB not available, using in-memory only');
+    });
+    console.log('[CendiaBlackBox] Disaster Storage service initialized with Prisma persistence');
+  }
+
+  private async initFromDb(): Promise<void> {
+    try {
+      const dbUnits = await prisma.sovereign_blackbox_units.findMany();
+      for (const row of dbUnits) {
+        this._units.set(row.id, row.data as unknown as BlackBoxUnit);
+      }
+      const dbJobs = await prisma.sovereign_blackbox_jobs.findMany();
+      for (const row of dbJobs) {
+        this._jobs.set(row.id, row.data as unknown as BackupJob);
+      }
+      const dbRecords = await prisma.sovereign_blackbox_records.findMany();
+      for (const row of dbRecords) {
+        this._records.set(row.id, row.data as unknown as StoredRecord);
+      }
+      if (dbUnits.length > 0) {
+        console.log(`[CendiaBlackBox] Loaded ${dbUnits.length} units, ${dbJobs.length} jobs, ${dbRecords.length} records from DB`);
+      }
+    } catch { /* DB not available */ }
+  }
+
+  private async persistUnit(unit: BlackBoxUnit): Promise<void> {
+    try {
+      await prisma.sovereign_blackbox_units.upsert({
+        where: { id: unit.id },
+        update: { status: unit.status, data: unit as any, last_sync: unit.lastSync },
+        create: {
+          id: unit.id, organization_id: unit.organizationId, serial_number: unit.serialNumber,
+          name: unit.name, status: unit.status, data: unit as any,
+          last_sync: unit.lastSync, registered_at: unit.registeredAt,
+        },
+      });
+    } catch { /* non-fatal */ }
+  }
+
+  private async persistJob(job: BackupJob): Promise<void> {
+    try {
+      await prisma.sovereign_blackbox_jobs.upsert({
+        where: { id: job.id },
+        update: { status: job.status, bytes_transferred: BigInt(job.bytesTransferred), error: job.error, data: job as any, started_at: job.startedAt, completed_at: job.completedAt },
+        create: {
+          id: job.id, organization_id: job.organizationId, blackbox_id: job.blackBoxId,
+          source_type: job.sourceType, status: job.status, priority: job.priority,
+          bytes_transferred: BigInt(job.bytesTransferred), error: job.error, data: job as any,
+          scheduled_at: job.scheduledAt, started_at: job.startedAt, completed_at: job.completedAt,
+        },
+      });
+    } catch { /* non-fatal */ }
+  }
+
+  private async persistRecord(record: StoredRecord): Promise<void> {
+    try {
+      await prisma.sovereign_blackbox_records.upsert({
+        where: { id: record.id },
+        update: { data: record as any, verified_at: record.verifiedAt },
+        create: {
+          id: record.id, blackbox_id: record.blackBoxId, organization_id: record.organizationId,
+          source_type: record.sourceType, source_id: record.sourceId, data_hash: record.dataHash,
+          size_bytes: BigInt(record.sizeBytes), retention_policy: record.retentionPolicy,
+          data: record as any, expires_at: record.expiresAt, verified_at: record.verifiedAt,
+        },
+      });
+    } catch { /* non-fatal */ }
   }
 
   // ===========================================================================
@@ -152,6 +220,7 @@ export class CendiaBlackBoxService {
     };
     
     this._units.set(unit.id, unit);
+    this.persistUnit(unit).catch(() => {});
     return unit;
   }
 
@@ -180,6 +249,7 @@ export class CendiaBlackBoxService {
     }
     
     this._units.set(unitId, unit);
+    this.persistUnit(unit).catch(() => {});
     return unit;
   }
 
@@ -199,6 +269,7 @@ export class CendiaBlackBoxService {
     };
     
     this._jobs.set(job.id, job);
+    this.persistJob(job).catch(() => {});
     return job;
   }
 
@@ -209,6 +280,7 @@ export class CendiaBlackBoxService {
     job.status = 'running';
     job.startedAt = new Date();
     this._jobs.set(jobId, job);
+    this.persistJob(job).catch(() => {});
     
     // Track backup progress
     this.trackBackupProgress(jobId);

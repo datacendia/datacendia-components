@@ -1012,3 +1012,62 @@ enum TransferStatus {
   COMPLETED
   CANCELLED
 }
+
+// =============================================================================
+// CendiaBlackBox - Disaster Storage Service
+// =============================================================================
+
+model sovereign_blackbox_units {
+  id              String   @id
+  organization_id String
+  serial_number   String
+  name            String
+  status          String   @default("operational") // operational, degraded, offline, recovery_mode
+  data            Json     // Full BlackBoxUnit object (location, specs, health metrics)
+  last_sync       DateTime @default(now())
+  registered_at   DateTime @default(now())
+  created_at      DateTime @default(now())
+  updated_at      DateTime @default(now()) @updatedAt
+
+  @@index([organization_id])
+  @@index([status])
+}
+
+model sovereign_blackbox_jobs {
+  id              String    @id
+  organization_id String
+  blackbox_id     String
+  source_type     String    // ledger, chronos, witness, custom
+  status          String    @default("scheduled") // scheduled, running, completed, failed
+  priority        String    @default("normal")
+  bytes_transferred BigInt  @default(0)
+  error           String?
+  data            Json      // Full BackupJob object
+  scheduled_at    DateTime  @default(now())
+  started_at      DateTime?
+  completed_at    DateTime?
+  created_at      DateTime  @default(now())
+
+  @@index([organization_id])
+  @@index([blackbox_id])
+  @@index([status])
+}
+
+model sovereign_blackbox_records {
+  id              String    @id
+  blackbox_id     String
+  organization_id String
+  source_type     String
+  source_id       String
+  data_hash       String
+  size_bytes      BigInt    @default(0)
+  retention_policy String
+  data            Json      // Full StoredRecord object
+  expires_at      DateTime?
+  created_at      DateTime  @default(now())
+  verified_at     DateTime  @default(now())
+
+  @@index([organization_id])
+  @@index([blackbox_id])
+  @@index([data_hash])
+}
