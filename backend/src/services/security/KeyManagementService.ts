@@ -12,6 +12,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { logger } from '../../utils/logger.js';
+import { KMSClient, SignCommand, VerifyCommand, EncryptCommand, DecryptCommand } from '@aws-sdk/client-kms';
 
 // =============================================================================
 // TYPES & INTERFACES
@@ -300,35 +301,52 @@ export class KeyManagementService {
 
   private async signWithAwsKms(data: Buffer, keyId: string | undefined, timestamp: Date): Promise<SignatureResult> {
     const kmsKeyId = keyId || this.config.awsKmsKeyId;
-    
-    // Use AWS SDK v3 pattern with fetch
+    if (!kmsKeyId) {
+      logger.warn('AWS KMS key ID not configured - falling back to local signing');
+      return this.signWithLocalKey(data, 'default', timestamp);
+    }
+
     const region = this.config.awsRegion || 'us-east-1';
-    const service = 'kms';
-    const host = `${service}.${region}.amazonaws.com`;
-    
-    // For production, you'd use @aws-sdk/client-kms
-    // This is a simplified implementation showing the API structure
-    const requestBody = JSON.stringify({
-      KeyId: kmsKeyId,
-      Message: data.toString('base64'),
-      MessageType: 'RAW',
-      SigningAlgorithm: 'RSASSA_PKCS1_V1_5_SHA_256',
-    });
 
-    // Production upgrade: use AWS SDK:
-    // const client = new KMSClient({ region });
-    // const command = new SignCommand({ KeyId, Message, SigningAlgorithm });
-    // const response = await client.send(command);
+    try {
+      const client = new KMSClient({
+        region,
+        ...(this.config.awsAccessKeyId && this.config.awsSecretAccessKey ? {
+          credentials: {
+            accessKeyId: this.config.awsAccessKeyId,
+            secretAccessKey: this.config.awsSecretAccessKey,
+          },
+        } : {}),
+      });
 
-    // For now, create signature using AWS Signature v4 would go here
-    // This requires proper AWS credential signing which is complex
-    // Production upgrade: use cloud KMS SDK
+      const command = new SignCommand({
+        KeyId: kmsKeyId,
+        Message: data,
+        MessageType: 'RAW',
+        SigningAlgorithm: 'RSASSA_PKCS1_V1_5_SHA_256',
+      });
 
-    logger.info(`AWS KMS sign request for key: ${kmsKeyId}`);
-    
-    // Fallback to local signing with a warning
-    logger.warn('AWS KMS requires @aws-sdk/client-kms - falling back to local signing');
-    return this.signWithLocalKey(data, 'default', timestamp);
+      const response = await client.send(command);
+
+      if (!response.Signature) {
+        throw new Error('AWS KMS returned empty signature');
+      }
+
+      const signatureBase64 = Buffer.from(response.Signature).toString('base64');
+      logger.info(`AWS KMS signed data with key: ${kmsKeyId}`);
+
+      return {
+        signature: signatureBase64,
+        algorithm: 'RSA-SHA256',
+        keyId: kmsKeyId,
+        timestamp,
+        provider: 'aws-kms',
+      };
+    } catch (error: any) {
+      logger.error(`AWS KMS signing failed: ${error.message}`);
+      logger.warn('Falling back to local signing');
+      return this.signWithLocalKey(data, 'default', timestamp);
+    }
   }
 
   private async signWithVault(data: Buffer, keyId: string | undefined, timestamp: Date): Promise<SignatureResult> {
@@ -428,8 +446,39 @@ export class KeyManagementService {
   }
 
   private async verifyWithAwsKms(data: Buffer, signature: string, keyId?: string): Promise<boolean> {
-    logger.warn('AWS KMS verify requires @aws-sdk/client-kms - falling back to local');
-    return this.verifyWithLocalKey(data, signature, 'default');
+    const kmsKeyId = keyId || this.config.awsKmsKeyId;
+    if (!kmsKeyId) {
+      logger.warn('AWS KMS key ID not configured - falling back to local verify');
+      return this.verifyWithLocalKey(data, signature, 'default');
+    }
+
+    const region = this.config.awsRegion || 'us-east-1';
+
+    try {
+      const client = new KMSClient({
+        region,
+        ...(this.config.awsAccessKeyId && this.config.awsSecretAccessKey ? {
+          credentials: {
+            accessKeyId: this.config.awsAccessKeyId,
+            secretAccessKey: this.config.awsSecretAccessKey,
+          },
+        } : {}),
+      });
+
+      const command = new VerifyCommand({
+        KeyId: kmsKeyId,
+        Message: data,
+        MessageType: 'RAW',
+        Signature: Buffer.from(signature, 'base64'),
+        SigningAlgorithm: 'RSASSA_PKCS1_V1_5_SHA_256',
+      });
+
+      const response = await client.send(command);
+      return response.SignatureValid === true;
+    } catch (error: any) {
+      logger.error(`AWS KMS verify failed: ${error.message}`);
+      return false;
+    }
   }
 
   private async verifyWithVault(data: Buffer, signature: string, keyId?: string): Promise<boolean> {
@@ -505,8 +554,48 @@ export class KeyManagementService {
   }
 
   private async encryptWithAwsKms(data: Buffer, keyId?: string): Promise<EncryptionResult> {
-    logger.warn('AWS KMS encrypt requires @aws-sdk/client-kms - falling back to local');
-    return this.encryptWithLocalKey(data, 'default');
+    const kmsKeyId = keyId || this.config.awsKmsKeyId;
+    if (!kmsKeyId) {
+      logger.warn('AWS KMS key ID not configured - falling back to local encrypt');
+      return this.encryptWithLocalKey(data, 'default');
+    }
+
+    const region = this.config.awsRegion || 'us-east-1';
+
+    try {
+      const client = new KMSClient({
+        region,
+        ...(this.config.awsAccessKeyId && this.config.awsSecretAccessKey ? {
+          credentials: {
+            accessKeyId: this.config.awsAccessKeyId,
+            secretAccessKey: this.config.awsSecretAccessKey,
+          },
+        } : {}),
+      });
+
+      const command = new EncryptCommand({
+        KeyId: kmsKeyId,
+        Plaintext: data,
+        EncryptionAlgorithm: 'SYMMETRIC_DEFAULT',
+      });
+
+      const response = await client.send(command);
+
+      if (!response.CiphertextBlob) {
+        throw new Error('AWS KMS returned empty ciphertext');
+      }
+
+      return {
+        ciphertext: Buffer.from(response.CiphertextBlob).toString('base64'),
+        keyId: kmsKeyId,
+        algorithm: 'AES-256-GCM',
+        provider: 'aws-kms',
+      };
+    } catch (error: any) {
+      logger.error(`AWS KMS encrypt failed: ${error.message}`);
+      logger.warn('Falling back to local encryption');
+      return this.encryptWithLocalKey(data, 'default');
+    }
   }
 
   private async encryptWithVault(data: Buffer, keyId?: string): Promise<EncryptionResult> {
@@ -609,8 +698,47 @@ export class KeyManagementService {
   }
 
   private async decryptWithAwsKms(ciphertext: string, keyId?: string): Promise<DecryptionResult> {
-    logger.warn('AWS KMS decrypt requires @aws-sdk/client-kms - falling back to local');
-    return this.decryptWithLocalKey(ciphertext, 'default');
+    const kmsKeyId = keyId || this.config.awsKmsKeyId;
+    if (!kmsKeyId) {
+      logger.warn('AWS KMS key ID not configured - falling back to local decrypt');
+      return this.decryptWithLocalKey(ciphertext, 'default');
+    }
+
+    const region = this.config.awsRegion || 'us-east-1';
+
+    try {
+      const client = new KMSClient({
+        region,
+        ...(this.config.awsAccessKeyId && this.config.awsSecretAccessKey ? {
+          credentials: {
+            accessKeyId: this.config.awsAccessKeyId,
+            secretAccessKey: this.config.awsSecretAccessKey,
+          },
+        } : {}),
+      });
+
+      const command = new DecryptCommand({
+        CiphertextBlob: Buffer.from(ciphertext, 'base64'),
+        KeyId: kmsKeyId,
+        EncryptionAlgorithm: 'SYMMETRIC_DEFAULT',
+      });
+
+      const response = await client.send(command);
+
+      if (!response.Plaintext) {
+        throw new Error('AWS KMS returned empty plaintext');
+      }
+
+      return {
+        plaintext: Buffer.from(response.Plaintext),
+        keyId: kmsKeyId,
+        provider: 'aws-kms',
+      };
+    } catch (error: any) {
+      logger.error(`AWS KMS decrypt failed: ${error.message}`);
+      logger.warn('Falling back to local decryption');
+      return this.decryptWithLocalKey(ciphertext, 'default');
+    }
   }
 
   private async decryptWithVault(ciphertext: string, keyId?: string): Promise<DecryptionResult> {

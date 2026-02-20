@@ -10,6 +10,7 @@
 
 import { PrismaClient } from '@prisma/client';
 import crypto from 'crypto';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -540,4 +541,4 @@ export class CendiaWitnessService {
   }
 }
 
-export const cendiaWitnessService = new CendiaWitnessService();
+export const cendiaWitnessService = new CendiaWitnessService(prisma as unknown as PrismaClient);

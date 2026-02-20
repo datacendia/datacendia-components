@@ -9,6 +9,7 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -648,4 +649,4 @@ export class CendiaOracleService {
   }
 }
 
-export const cendiaOracleService = new CendiaOracleService();
+export const cendiaOracleService = new CendiaOracleService(prisma as unknown as PrismaClient);

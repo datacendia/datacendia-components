@@ -26,6 +26,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@aws-sdk/client-kms": "^3.995.0",
     "@aws-sdk/client-s3": "^3.940.0",
     "@aws-sdk/client-sts": "^3.940.0",
     "@azure/data-tables": "^13.3.2",
