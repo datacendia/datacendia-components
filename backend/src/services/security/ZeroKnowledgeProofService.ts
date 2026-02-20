@@ -3,15 +3,25 @@
 // See LICENSE file for details.
 
 /**
- * CendiaZKPÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Zero-Knowledge Proofs for Compliance
+ * CendiaZKP - Compliance Commitment Proofs
  * 
- * Enterprise Platinum Feature: Prove compliance without revealing logic
+ * HONEST STATUS: This service provides a commitment-scheme API using
+ * SHA-256 hashing and HMAC-based commitments. It is NOT a real
+ * zero-knowledge proof system.
  * 
- * Features:
- * - Generate ZK proofs for compliance claims
- * - Verify proofs without accessing proprietary algorithms
- * - Audit trail of proof generations
- * - Multiple proof types (compliance, fairness, accuracy)
+ * WHAT THIS IS:
+ * - Hash-based commitment schemes for compliance claims
+ * - Witness hashing (private data never stored, only hash)
+ * - Proof request/verify workflow with audit trail
+ * - Correctly-shaped API ready for real ZK integration
+ * 
+ * WHAT THIS IS NOT:
+ * - Real zk-SNARKs or zk-STARKs
+ * - Mathematically zero-knowledge (verifier could brute-force small witness spaces)
+ * - Circuit-based proving (no R1CS, no Groth16, no PLONK)
+ * 
+ * UPGRADE PATH: Integrate snarkjs + circom for real ZK proofs.
+ * The API shape will not change - only the underlying proof system.
  */
 
 import { v4 as uuidv4 } from 'uuid';
@@ -128,7 +138,7 @@ export class ZeroKnowledgeProofService {
   private certificates: Map<string, ComplianceCertificate> = new Map();
 
   constructor() {
-    logger.info('[CendiaZKP] Zero-Knowledge Proof ServiceÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized');
+    logger.info('[CendiaZKP] Compliance Commitment Proof Service initialized (HASH-BASED - not real ZK proofs, awaiting snarkjs integration)');
   }
 
   /**
@@ -174,8 +184,9 @@ export class ZeroKnowledgeProofService {
   }
 
   /**
-   * Generate a ZK proof
-   * Production upgrade: use a real ZK proving system (e.g., snarkjs, circom)
+   * Generate a commitment proof
+   * HONEST: Uses hash-based commitments, NOT real ZK proofs.
+   * Real ZK proving requires snarkjs + circom circuits.
    */
   async generateProof(requestId: string): Promise<ZKProof> {
     const request = this.proofRequests.get(requestId);
@@ -183,7 +194,7 @@ export class ZeroKnowledgeProofService {
 
     const proofId = uuidv4();
     
-    // Generate proof components (deterministic; production upgrade: use real ZK library)
+    // HONEST: These are hash-based commitments, not real ZK proof components.
     const publicInputs = this.generatePublicInputs(request);
     const commitment = this.generateCommitment(request);
     const proof = this.generateProofData(request, publicInputs, commitment);

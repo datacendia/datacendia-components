@@ -3,16 +3,24 @@
 // See LICENSE file for details.
 
 /**
- * CendiaPostQuantumKMSÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Post-Quantum Cryptographic Signatures
+ * CendiaPostQuantumKMS - Post-Quantum Ready Key Management
  * 
- * Enterprise Platinum Feature: Quantum-resistant signing
+ * HONEST STATUS: This service provides a PQ-ready API shape using classical
+ * cryptography (HMAC-SHA512 + SHA3-256) as the underlying implementation.
  * 
- * Supports:
- * - Dilithium (NIST PQC winner for signatures)
- * - SPHINCS+ (stateless hash-based signatures)
- * - Falcon (lattice-based, compact signatures)
+ * WHAT THIS IS:
+ * - A correctly-shaped API for post-quantum key management
+ * - Classical HMAC-based signing that works today
+ * - Key rotation, expiration, and metadata management
+ * - Ready to swap in real PQ algorithms when liboqs is integrated
  * 
- * NOTE: Production upgrade: integrate with liboqs or similar PQC library
+ * WHAT THIS IS NOT:
+ * - Real Dilithium, SPHINCS+, or Falcon signatures
+ * - NIST FIPS 204/205 compliant
+ * - Quantum-resistant (the underlying crypto is classical)
+ * 
+ * UPGRADE PATH: Install liboqs-node or oqs-provider to get real PQ crypto.
+ * The API shape will not change - only the underlying algorithms.
  */
 
 import crypto from 'crypto';
@@ -141,7 +149,7 @@ export class PostQuantumKMSService {
   private hybridEnabled: boolean = true;
 
   constructor() {
-    logger.info('[CendiaQuantumKMS] Post-Quantum KMSÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ initialized');
+    logger.info('[CendiaQuantumKMS] Post-Quantum Ready KMS initialized (CLASSICAL CRYPTO - PQ API shape only, awaiting liboqs integration)');
   }
 
   /**
@@ -159,10 +167,9 @@ export class PostQuantumKMSService {
     const spec = ALGORITHM_SPECS[algorithm];
     const id = `pq-${crypto.randomBytes(16).toString('hex')}`;
 
-    // Deterministic key generation
-    // Production upgrade: use liboqs or pqcrypto library:
-    // const { publicKey, privateKey } = await pqcrypto.generateKeyPair(algorithm);
-    
+    // HONEST: Keys are random bytes sized to match PQ algorithm specs.
+    // These are NOT real PQ keys - they are placeholders with correct sizes.
+    // Real PQ keys require liboqs: const { publicKey, privateKey } = await pqcrypto.generateKeyPair(algorithm);
     const generatedPublicKey = crypto.randomBytes(spec.publicKeySize).toString('base64');
     const generatedPrivateKey = crypto.randomBytes(spec.privateKeySize).toString('base64');
 
@@ -206,10 +213,8 @@ export class PostQuantumKMSService {
       throw new Error(`Key expired: ${keyPair.id}`);
     }
 
-    // Post-quantum signature generation
-    // Production upgrade: use:
-    // const signature = await pqcrypto.sign(keyPair.privateKey, dataBuffer, algorithm);
-    
+    // HONEST: This uses HMAC-SHA512 over SHA3-256 hash - classical crypto, NOT real PQ signatures.
+    // Real PQ signing requires liboqs: const signature = await pqcrypto.sign(keyPair.privateKey, dataBuffer, algorithm);
     const hash = crypto.createHash('sha3-256').update(dataBuffer).digest();
     const signatureData = crypto.createHmac('sha512', keyPair.privateKey).update(hash).digest();
     
@@ -220,9 +225,8 @@ export class PostQuantumKMSService {
       timestamp: new Date(),
     };
 
-    // Add hybrid RSA signature for transition period
+    // HONEST: Hybrid mode also uses HMAC, not real RSA+Dilithium dual signing.
     if (this.hybridEnabled && keyPair.algorithm === 'hybrid-rsa-dilithium') {
-      // Uses deterministic computation; production upgrade: actual RSA key
       const rsaSignature = crypto.createHmac('sha256', 'rsa-key').update(hash).digest();
       result.hybridRsaSignature = rsaSignature.toString('base64');
     }
@@ -247,10 +251,8 @@ export class PostQuantumKMSService {
       };
     }
 
-    // Post-quantum signature verification
-    // Production upgrade: use:
-    // const valid = await pqcrypto.verify(keyPair.publicKey, dataBuffer, signature.signature, algorithm);
-    
+    // HONEST: Verification uses HMAC recomputation - classical crypto, NOT real PQ verification.
+    // Real PQ verification requires liboqs: const valid = await pqcrypto.verify(keyPair.publicKey, dataBuffer, signature.signature, algorithm);
     const hash = crypto.createHash('sha3-256').update(dataBuffer).digest();
     const expectedSignature = crypto.createHmac('sha512', keyPair.privateKey).update(hash).digest().toString('base64');
     const valid = expectedSignature === signature.signature;

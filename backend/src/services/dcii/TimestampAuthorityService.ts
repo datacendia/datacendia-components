@@ -699,7 +699,7 @@ class TimestampAuthorityService {
     ];
 
     for (const item of demoItems) {
-      const content = `${item.desc}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+      const content = `${item.desc}-${Date.now()}-${crypto.randomBytes(4).toString('hex')}`;
       this.issueTimestamp(item.org, content, item.desc, item.type, item.ref, { useExternal: true, useBlockchain: item.type === 'decision' || item.type === 'override' })
         .catch(err => logger.error(`Failed to seed timestamp for ${item.desc}:`, err));
     }

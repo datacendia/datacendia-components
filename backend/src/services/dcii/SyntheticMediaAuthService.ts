@@ -3,19 +3,31 @@
 // See LICENSE file for details.
 
 /**
- * CendiaMediaAuthâ„¢ â€” Synthetic Media Authentication Service
+ * CendiaMediaAuth - Media Provenance & Integrity Service
  * 
- * DCII Advanced Primitive: Proving digital evidence is authentic.
+ * HONEST STATUS:
  * 
- * Capabilities:
- * - Content Provenance Signing: Sign media at creation time with C2PA-compatible metadata
- * - Chain of Custody: Track every access, copy, and transformation of digital evidence
- * - Deepfake Detection: AI-powered analysis of media for synthetic manipulation markers
- * - Hardware-Backed Authentication: TPM/HSM attestation for evidence capture devices
- * - Forensic Analysis: Pixel-level, audio-level, and metadata-level artifact detection
+ * WHAT IS REAL:
+ * - Content provenance signing (SHA-256 hashing of media content)
+ * - C2PA-compatible manifest structure (correct schema, real hashes)
+ * - Chain of custody tracking (hash-linked entries)
+ * - Prisma database persistence for assets and assessments
+ * - Content hash verification (tamper detection via hash comparison)
  * 
- * Standards: C2PA (Coalition for Content Provenance and Authenticity),
- *            IPTC Photo Metadata, EXIF integrity verification
+ * WHAT IS NOT REAL:
+ * - Deepfake detection (all analysis methods return HARDCODED scores)
+ * - Compression artifact analysis (no real DCT analysis)
+ * - Noise pattern / PRNU analysis (no real sensor noise ML)
+ * - Frequency domain analysis (no real FFT/DCT)
+ * - Semantic consistency analysis (no real CV model)
+ * - Temporal consistency analysis (no real frame-by-frame ML)
+ * 
+ * The deepfake detection analyses are API-shaped placeholders.
+ * Real detection requires ML models (e.g., Microsoft Video Authenticator,
+ * FaceForensics++, or custom CNN/ViT models).
+ * 
+ * UPGRADE PATH: Integrate a real deepfake detection model via ONNX runtime
+ * or external API. Provenance and chain of custody are production-ready.
  */
 
 import * as crypto from 'crypto';
@@ -441,7 +453,7 @@ class SyntheticMediaAuthService {
   }
 
   private runCompressionAnalysis(asset: MediaAsset): AnalysisResult {
-    const score = 17; // Production upgrade: real compression artifact ML analysis
+    const score = 17; // HARDCODED - no real compression artifact analysis. Requires ML model integration.
     return {
       type: 'compression', name: 'Compression Artifact Analysis', description: 'Analyzes compression artifacts for signs of re-encoding or manipulation',
       score, maxScore: 20, verdict: score > 16 ? 'authentic' : 'likely_authentic',
@@ -451,7 +463,7 @@ class SyntheticMediaAuthService {
   }
 
   private runNoiseAnalysis(asset: MediaAsset): AnalysisResult {
-    const score = 15; // Production upgrade: real noise pattern ML analysis
+    const score = 15; // HARDCODED - no real noise pattern analysis. Requires PRNU/sensor noise ML model.
     return {
       type: 'noise', name: 'Noise Pattern Analysis', description: 'Examines sensor noise patterns for consistency across the image',
       score, maxScore: 20, verdict: score > 15 ? 'authentic' : 'likely_authentic',
@@ -461,7 +473,7 @@ class SyntheticMediaAuthService {
   }
 
   private runFrequencyAnalysis(asset: MediaAsset): AnalysisResult {
-    const score = 15; // Production upgrade: real DCT/FFT frequency analysis
+    const score = 15; // HARDCODED - no real frequency analysis. Requires FFT/DCT spectral analysis.
     return {
       type: 'frequency', name: 'Frequency Domain Analysis', description: 'DCT/FFT analysis for GAN fingerprints and frequency anomalies',
       score, maxScore: 20, verdict: score > 14 ? 'authentic' : 'inconclusive',
@@ -471,7 +483,7 @@ class SyntheticMediaAuthService {
   }
 
   private runSemanticAnalysis(asset: MediaAsset): AnalysisResult {
-    const score = 12; // Production upgrade: real semantic consistency ML analysis
+    const score = 12; // HARDCODED - no real semantic analysis. Requires computer vision model.
     return {
       type: 'semantic', name: 'Semantic Consistency', description: 'AI-powered analysis of semantic coherence (shadows, reflections, perspective)',
       score, maxScore: 15, verdict: score > 12 ? 'authentic' : 'likely_authentic',
@@ -481,7 +493,7 @@ class SyntheticMediaAuthService {
   }
 
   private runTemporalAnalysis(asset: MediaAsset): AnalysisResult {
-    const score = 13; // Production upgrade: real temporal consistency ML analysis
+    const score = 13; // HARDCODED - no real temporal analysis. Requires frame-by-frame ML model.
     return {
       type: 'temporal', name: 'Temporal Consistency', description: 'Frame-to-frame analysis for temporal artifacts (video) or waveform analysis (audio)',
       score, maxScore: 15, verdict: score > 13 ? 'authentic' : 'likely_authentic',
