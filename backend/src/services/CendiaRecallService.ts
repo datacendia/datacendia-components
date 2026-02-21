@@ -24,6 +24,7 @@
 import { PrismaClient } from '@prisma/client';
 import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -140,6 +141,9 @@ class CendiaRecallService {
 
   constructor() {
     logger.info('CendiaRecall™: Decision Outcome Tracker initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -634,6 +638,67 @@ class CendiaRecallService {
       lessons: this.lessons.size,
       version: '1.0.0',
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaRecall', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.outcomes.has(d.id)) this.outcomes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaRecall', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.lessons.has(d.id)) this.lessons.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaRecallService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaRecallService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

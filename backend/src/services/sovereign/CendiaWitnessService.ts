@@ -11,6 +11,8 @@
 import { PrismaClient } from '@prisma/client';
 import crypto from 'crypto';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -109,6 +111,9 @@ export class CendiaWitnessService {
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
     console.log(`[CendiaWitness] Legal Observer service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -538,6 +543,103 @@ export class CendiaWitnessService {
 
   private verifySignature(signature: string, attestorId: string): boolean {
     return signature.length > 10 && attestorId.length > 0;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaWitness', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._records.has(d.id)) this._records.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaWitness', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._legalHolds.has(d.id)) this._legalHolds.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaWitness', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._discoveryRequests.has(d.id)) this._discoveryRequests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaWitness', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._custodyChains.has(d.id)) this._custodyChains.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaWitnessService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaWitnessService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

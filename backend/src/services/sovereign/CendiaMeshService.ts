@@ -9,6 +9,8 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -112,6 +114,9 @@ export class CendiaMeshService {
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
     console.log(`[CendiaMesh] Encrypted Networking service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -397,6 +402,121 @@ export class CendiaMeshService {
   }
 
   // No seed method - Enterprise Platinum standard
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaMesh', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._nodes.has(d.id)) this._nodes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaMesh', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._connections.has(d.id)) this._connections.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaMesh', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._channels.has(d.id)) this._channels.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaMesh', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._events.has(d.id)) this._events.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'CendiaMesh', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._policies.has(d.id)) this._policies.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[CendiaMeshService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaMeshService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 export const cendiaMeshService = new CendiaMeshService();

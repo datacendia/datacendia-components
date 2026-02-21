@@ -11,7 +11,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -101,6 +101,17 @@ class CendiaRevenueService {
   private alerts: PaymentAlert[] = [];
   private expenses: { category: string; amount: number; recurring: boolean }[] = [];
   private currentCash: number = 0;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // METRICS CALCULATION
@@ -828,6 +839,49 @@ Output JSON:
       alerts,
       healthIndicators,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaRevenue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.subscriptions.has(d.id)) this.subscriptions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaRevenueService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaRevenueService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -11,7 +11,7 @@ import { logger } from '../../utils/logger.js';
 import { Pool } from 'pg';
 import { config } from '../../config/index.js';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -102,6 +102,9 @@ class UserManagementService {
     });
     this.initializeSystemRoles();
     this.initializeSampleData();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeSystemRoles(): void {
@@ -586,6 +589,121 @@ class UserManagementService {
       pendingInvites: invites.length,
       byRole,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'UserManagement', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.users.has(d.id)) this.users.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'UserManagement', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.teams.has(d.id)) this.teams.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'UserManagement', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.roles.has(d.id)) this.roles.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'UserManagement', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.invitations.has(d.id)) this.invitations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'UserManagement', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.apiKeys.has(d.id)) this.apiKeys.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[UserManagementService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[UserManagementService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

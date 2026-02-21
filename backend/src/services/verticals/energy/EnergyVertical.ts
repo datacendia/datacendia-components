@@ -15,7 +15,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../../utils/servicePersistence.js';
 import {
   DataConnector,
   IngestResult,
@@ -63,6 +63,7 @@ import {
   DemandResponseSchema,
 } from './EnergyDecisionSchemasExpanded.js';
 import { embeddingService } from '../../llm/EmbeddingService.js';
+import { logger } from '../../../utils/logger.js';
 
 export type {
   GenerationDispatchDecision,
@@ -440,6 +441,49 @@ export class SafetyFirstFramework {
     }
     return outcome;
   }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SafetyFirstFramework', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.scenarios.has(d.id)) this.scenarios.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[SafetyFirstFramework] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SafetyFirstFramework] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 // ============================================================================
@@ -464,6 +508,9 @@ export class IncidentPreMortemLibrary {
 
   constructor() {
     this.initializeScenarios();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeScenarios(): void {

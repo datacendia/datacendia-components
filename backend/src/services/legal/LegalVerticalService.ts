@@ -11,7 +11,8 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -236,6 +237,9 @@ export class LegalVerticalService extends EventEmitter {
 
   constructor() {
     super();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -734,6 +738,103 @@ export class LegalVerticalService extends EventEmitter {
       privilegeReviewsCount: this.privilegeReviews.size,
       lastActivity: new Date(),
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'LegalVertical', recordType: 'case_law', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.caseLibrary.has(d.id)) this.caseLibrary.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'LegalVertical', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.matters.has(d.id)) this.matters.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'LegalVertical', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.privilegeReviews.has(d.id)) this.privilegeReviews.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'LegalVertical', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.citationCache.has(d.id)) this.citationCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[LegalVerticalService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[LegalVerticalService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

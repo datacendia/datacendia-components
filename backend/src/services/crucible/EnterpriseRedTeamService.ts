@@ -24,6 +24,7 @@ import { logger } from '../../utils/logger.js';
 // import { EnhancedLLMService } from '../EnhancedLLMService.js';
 import { keyManagementService } from '../security/KeyManagementService.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -534,6 +535,9 @@ export class EnterpriseRedTeamService extends EventEmitter {
   constructor() {
     super();
     this.apiBaseUrl = process.env['API_BASE_URL'] || 'http://localhost:3000/api/v1';
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -1438,6 +1442,49 @@ export class EnterpriseRedTeamService extends EventEmitter {
       evidenceMatch,
       signatureValid,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'EnterpriseRedTeam', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.scheduledJobs.has(d.id)) this.scheduledJobs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[EnterpriseRedTeamService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EnterpriseRedTeamService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

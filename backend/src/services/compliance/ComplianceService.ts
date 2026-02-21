@@ -15,6 +15,8 @@ import {
   ALL_FRAMEWORKS,
   PILLAR_FRAMEWORK_MAPPING,
 } from './frameworks';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // ============================================================================
 // TYPES
@@ -91,6 +93,9 @@ export class ComplianceService {
 
   constructor() {
     // Initialize compliance service
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ========================================
@@ -674,6 +679,67 @@ export class ComplianceService {
 
   getBundle(id: string): ComplianceBundle | undefined {
     return this.bundles.get(id);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Compliance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assessments.has(d.id)) this.assessments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Compliance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.bundles.has(d.id)) this.bundles.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[ComplianceService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ComplianceService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

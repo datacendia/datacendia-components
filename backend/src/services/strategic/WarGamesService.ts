@@ -12,6 +12,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { v4 as uuidv4 } from 'uuid';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -119,6 +120,9 @@ class WarGamesService {
 
   constructor() {
     this.initializeScenarios();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -653,6 +657,85 @@ Output JSON:
         : 0,
       certifiedOperators: certified.length
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'WarGames', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.scenarios.has(d.id)) this.scenarios.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'WarGames', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.simulations.has(d.id)) this.simulations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'WarGames', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.certifications.has(d.id)) this.certifications.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[WarGamesService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[WarGamesService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

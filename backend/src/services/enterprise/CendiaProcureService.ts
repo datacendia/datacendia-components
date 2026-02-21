@@ -10,7 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -64,6 +64,17 @@ class CendiaProcureService {
   private contracts: Map<string, VendorContract> = new Map();
   private negotiations: NegotiationOpportunity[] = [];
   private results: SqueezeResult[] = [];
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // CONTRACT ANALYSIS
@@ -498,6 +509,49 @@ Write only the email body, no subject line.`;
       roi: { negotiationEffort, savingsGenerated: totalSavings, roiMultiple },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaProcure', recordType: 'contract', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.contracts.has(d.id)) this.contracts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaProcureService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaProcureService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

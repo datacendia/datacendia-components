@@ -21,6 +21,7 @@ import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -414,6 +415,9 @@ class EvidenceVaultService extends EventEmitter {
       samples.forEach(p => this.packets.set(p.id, p));
     });
     logger.info('[EvidenceVault] Service initialized with Prisma persistence');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initFromDb(): Promise<void> {
@@ -1040,6 +1044,67 @@ class EvidenceVaultService extends EventEmitter {
   async getCouncilPacketByRunId(runId: string): Promise<DecisionPacket | null> {
     const packetId = `PKT-${runId}`;
     return this.packets.get(packetId) || null;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'EvidenceVault', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.packets.has(d.id)) this.packets.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'EvidenceVault', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.breakGlassRequests.has(d.id)) this.breakGlassRequests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[EvidenceVaultService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EvidenceVaultService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

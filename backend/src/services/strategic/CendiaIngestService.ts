@@ -15,6 +15,7 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import cendiaGraphService, { EntityType, RelationshipType } from './CendiaGraphService.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -112,6 +113,17 @@ class CendiaIngestService {
   private processedDocuments: Map<string, ProcessedDocument> = new Map();
   private readonly CHUNK_SIZE = 1000;
   private readonly CHUNK_OVERLAP = 200;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // JOB MANAGEMENT
@@ -612,6 +624,67 @@ Provide a concise summary focusing on key facts and entities.`;
       relationshipsExtracted: jobs.reduce((sum, j) => sum + j.relationshipsExtracted, 0),
       avgProcessingTimeMs: completed.length > 0 ? totalDuration / completed.length : 0
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaIngest', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.jobs.has(d.id)) this.jobs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaIngest', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.processedDocuments.has(d.id)) this.processedDocuments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaIngestService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaIngestService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

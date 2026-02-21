@@ -23,7 +23,8 @@
 
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
+import { logger } from '../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -143,6 +144,9 @@ export class CendiaOrbitService extends EventEmitter {
       edges: new Map(),
       adjacency: new Map(),
     };
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -601,6 +605,49 @@ export class CendiaOrbitService extends EventEmitter {
       edgeTypeDistribution,
       avgDegree: this.graph.nodes.size > 0 ? totalDegree / this.graph.nodes.size : 0,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaOrbit', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.runs.has(d.id)) this.runs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaOrbitService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaOrbitService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

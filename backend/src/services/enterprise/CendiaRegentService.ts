@@ -10,7 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -149,6 +149,9 @@ class CendiaRegentService {
     for (const advisor of HISTORICAL_ADVISORS) {
       this.advisors.set(advisor.id, advisor);
     }
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -706,6 +709,49 @@ Be direct. No compliments. No softening.`;
       actionTracking: { totalRecommendations: actionSet.size, uniqueActions: actionSet.size },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaRegent', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.advisors.has(d.id)) this.advisors.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaRegentService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaRegentService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

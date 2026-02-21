@@ -11,7 +11,7 @@
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES & INTERFACES
@@ -125,6 +125,9 @@ export class CendiaVaultService {
 
   constructor() {
     logger.info('[CendiaVault] Service instantiated');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -694,6 +697,49 @@ export class CendiaVaultService {
       initialized: this.initialized,
       artifactCount: this.artifacts.size,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaVault', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.artifacts.has(d.id)) this.artifacts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaVaultService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaVaultService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

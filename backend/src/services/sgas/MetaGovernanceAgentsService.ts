@@ -48,6 +48,7 @@ import {
   generateSGASId,
   hashState,
 } from './types.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // META-GOVERNANCE AGENT DEFINITIONS
@@ -278,6 +279,9 @@ export class MetaGovernanceAgentsService extends EventEmitter {
     super();
     this.initializeAgents();
     this.initializeHistoricalData();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeAgents(): void {
@@ -1045,6 +1049,85 @@ export class MetaGovernanceAgentsService extends EventEmitter {
       prioritizedRecommendations,
       interventionSummary,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'MetaGovernanceAgents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.agents.has(d.id)) this.agents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'MetaGovernanceAgents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executionHistory.has(d.id)) this.executionHistory.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'MetaGovernanceAgents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.historicalData.has(d.id)) this.historicalData.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[MetaGovernanceAgentsService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[MetaGovernanceAgentsService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

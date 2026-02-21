@@ -12,6 +12,7 @@ import { logger } from '../utils/logger.js';
 import { cache, pubsub } from '../config/redis.js';
 import { prisma } from '../config/database.js';
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES & INTERFACES
@@ -278,6 +279,9 @@ export class EnhancedLLMService {
   constructor() {
     this.baseUrl = config.ollamaBaseUrl || 'http://localhost:11434';
     this.defaultModel = config.ollamaModel || 'qwen2.5:7b';
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -949,6 +953,49 @@ Use the context above to inform your response, but also apply your own knowledge
       ensembleStrategy: 'blend',
       ...options,
     });
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'EnhancedLLM', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.modelLoadTimes.has(d.id)) this.modelLoadTimes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[EnhancedLLMService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EnhancedLLMService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

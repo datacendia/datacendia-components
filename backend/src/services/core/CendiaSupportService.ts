@@ -11,7 +11,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -85,6 +85,17 @@ class CendiaSupportService {
     ['feature_ack', 'Thank you for the feature suggestion. We have added it to our roadmap consideration.'],
     ['resolution', 'This issue has been resolved. Please let us know if you have any other questions.'],
   ]);
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // TICKET TRIAGE
@@ -1020,6 +1031,67 @@ Output JSON:
       disengagementRisks,
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaSupport', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.tickets.has(d.id)) this.tickets.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaSupport', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.responseTemplates.has(d.id)) this.responseTemplates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaSupportService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaSupportService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

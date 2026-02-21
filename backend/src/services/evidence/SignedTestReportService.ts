@@ -20,7 +20,7 @@ import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry, TestSuiteSummary, VerificationResult } from './TestEvidenceLedgerService.js';
 import { pdfGeneratorService, PDFSection } from '../document/PDFGeneratorService.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -157,6 +157,9 @@ export class SignedTestReportService extends EventEmitter {
     this.initializeKeys();
     
     logger.info('[SignedReports] Service initialized - Legally defensible reports ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): SignedTestReportService {
@@ -883,6 +886,49 @@ export class SignedTestReportService extends EventEmitter {
   private async persistReport(report: SignedReport): Promise<void> {
     const filePath = path.join(this.storagePath, `${report.id}.json`);
     await fs.promises.writeFile(filePath, JSON.stringify(report, null, 2));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SignedTestReport', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.reports.has(d.id)) this.reports.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[SignedTestReportService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SignedTestReportService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

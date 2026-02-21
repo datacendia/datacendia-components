@@ -29,6 +29,7 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -208,6 +209,9 @@ class CognitiveBiasMitigationService {
 
   constructor() {
     logger.info('[CendiaBiasMitigation] Cognitive Bias Mitigation Service™ initialized — 12 bias types active');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async ensureDbLoaded(): Promise<void> {
@@ -592,6 +596,67 @@ class CognitiveBiasMitigationService {
 
   getAllAnalyses(): BiasAnalysis[] {
     return Array.from(this.analyses.values());
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CognitiveBiasMitigation', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.analyses.has(d.id)) this.analyses.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CognitiveBiasMitigation', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.reports.has(d.id)) this.reports.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CognitiveBiasMitigationService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CognitiveBiasMitigationService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -10,7 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -234,6 +234,9 @@ class CendiaTransitService {
 
   constructor() {
     logger.info('CendiaTransitÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - Executive Protection is active');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -1199,6 +1202,103 @@ Provide comprehensive risk assessment in JSON:
       trainingEffectiveness: { totalRequiredTraining, completedTraining, completionRate: totalRequiredTraining > 0 ? Math.round((completedTraining / totalRequiredTraining) * 100) : 0, incidentsLinkedToUntrained },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaTransit', recordType: 'travel_request', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.riskProfiles.has(d.id)) this.riskProfiles.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaTransit', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.travelRequests.has(d.id)) this.travelRequests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaTransit', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.securityPlans.has(d.id)) this.securityPlans.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaTransit', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.incidents.has(d.id)) this.incidents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaTransitService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaTransitService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -17,7 +17,8 @@
 
 import crypto from 'crypto';
 import { AuditEvent, AuditSeverity } from '../../security/audit.service.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -94,6 +95,9 @@ class SIEMIntegrationService {
   constructor() {
     // Start periodic flush for all configs
     setInterval(() => this.flushAllBuffers(), 30000);
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -457,6 +461,85 @@ class SIEMIntegrationService {
       byProvider,
       recentDeliveries: relevant.slice(-20),
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SIEMIntegration', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.configs.has(d.id)) this.configs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'SIEMIntegration', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.eventBuffer.has(d.id)) this.eventBuffer.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'SIEMIntegration', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.flushTimers.has(d.id)) this.flushTimers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[SIEMIntegrationService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SIEMIntegrationService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

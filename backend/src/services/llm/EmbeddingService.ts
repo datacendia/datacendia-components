@@ -20,6 +20,7 @@
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { ollama } from '../ollama.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 export const EMBEDDING_DIM_OLLAMA = 768;
 export const EMBEDDING_DIM_FALLBACK = 384;
@@ -33,6 +34,9 @@ class EmbeddingService {
   constructor() {
     // Probe Ollama availability on first use (lazy)
     logger.info('[CendiaEmbeddings] Shared Embedding Service initialized (Ollama nomic-embed-text + hash fallback)');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -233,6 +237,49 @@ class EmbeddingService {
       }
     }
     this.cache.set(key, embedding);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Embedding', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.cache.has(d.id)) this.cache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[EmbeddingService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EmbeddingService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

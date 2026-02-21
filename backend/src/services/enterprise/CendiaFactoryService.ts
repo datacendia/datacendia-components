@@ -10,7 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -198,6 +198,9 @@ class CendiaFactoryService {
 
   constructor() {
     logger.info('CendiaFactoryÃ¢â€žÂ¢ initialized - The Infinite Line is monitoring');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -994,6 +997,103 @@ Analyze and provide root cause in JSON:
       supplierConcentration: Object.entries(supplierMap).map(([s, d]) => ({ supplier: s, materialsSupplied: d.count, criticalItems: d.critical, riskLevel: d.critical > 0 ? 'high' : d.count > 5 ? 'medium' : 'low' })),
       productionGaps, insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaFactory', recordType: 'production_line', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.lines.has(d.id)) this.lines.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaFactory', recordType: 'production_line', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.predictions.has(d.id)) this.predictions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaFactory', recordType: 'production_line', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.qualityEvents.has(d.id)) this.qualityEvents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaFactory', recordType: 'production_line', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.schedules.has(d.id)) this.schedules.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaFactoryService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaFactoryService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

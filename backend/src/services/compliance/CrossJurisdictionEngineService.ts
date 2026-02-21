@@ -17,7 +17,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -314,6 +314,9 @@ export class CrossJurisdictionEngineService {
   constructor() {
     this.initializeCommonConflicts();
     logger.info('[CendiaJurisdiction] Cross-Jurisdiction Engine™ initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -646,6 +649,85 @@ export class CrossJurisdictionEngineService {
     }
 
     return harmonized;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CrossJurisdiction', recordType: 'assessment', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assessments.has(d.id)) this.assessments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CrossJurisdiction', recordType: 'assessment', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.matrices.has(d.id)) this.matrices.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CrossJurisdiction', recordType: 'assessment', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.conflicts.has(d.id)) this.conflicts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CrossJurisdictionEngineService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CrossJurisdictionEngineService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

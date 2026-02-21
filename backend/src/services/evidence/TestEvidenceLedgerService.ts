@@ -22,7 +22,7 @@ import fs from 'fs';
 import path from 'path';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -227,6 +227,9 @@ export class TestEvidenceLedgerService extends EventEmitter {
     this.genesisHash = this.createGenesisBlock();
     
     logger.info('[EvidenceLedger] Service initialized - Immutable test evidence chain ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): TestEvidenceLedgerService {
@@ -1092,6 +1095,85 @@ export class TestEvidenceLedgerService extends EventEmitter {
       oldestEntry: sortedByDate[0]?.timestamp,
       newestEntry: sortedByDate[sortedByDate.length - 1]?.timestamp,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'TestEvidenceLedger', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.entries.has(d.id)) this.entries.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'TestEvidenceLedger', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.blocks.has(d.id)) this.blocks.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'TestEvidenceLedger', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.suites.has(d.id)) this.suites.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[TestEvidenceLedgerService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[TestEvidenceLedgerService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -35,6 +35,7 @@ import {
   OrbitEdge,
   EdgeType,
 } from './CendiaOrbitService.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -482,6 +483,9 @@ class CendiaHorizonServiceClass extends EventEmitter {
     super();
     this.orbit = orbitInstance || orbitService;
     logger.info('[CendiaHorizon] Service initialized (Oracle + Cascade merged)');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -1806,6 +1810,67 @@ class CendiaHorizonServiceClass extends EventEmitter {
       recentInsights,
       foresightScore,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaHorizonServiceClass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.simulations.has(d.id)) this.simulations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaHorizonServiceClass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.cascadeReports.has(d.id)) this.cascadeReports.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaHorizonServiceClass] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaHorizonServiceClass] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -10,6 +10,8 @@
  */
 
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
+import { logger } from '../utils/logger.js';
 
 export interface WebhookConfig {
   id: string;
@@ -65,7 +67,18 @@ export interface WebhookDelivery {
 class WebhookService {
   private webhooks: Map<string, WebhookConfig> = new Map();
   private deliveryQueue: WebhookDelivery[] = [];
-  private retryDelays = [1000, 5000, 30000, 60000, 300000]; // 1s, 5s, 30s, 1m, 5m
+  private retryDelays = [1000, 5000, 30000, 60000, 300000];
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+ // 1s, 5s, 30s, 1m, 5m
 
   /**
    * Register a new webhook
@@ -298,6 +311,49 @@ class WebhookService {
     await this.deliverWebhook(webhook, testPayload);
     
     return this.deliveryQueue[this.deliveryQueue.length - 1];
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Webhook', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.webhooks.has(d.id)) this.webhooks.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[WebhookService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[WebhookService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -17,7 +17,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -204,6 +204,9 @@ export class ContinuousComplianceMonitorService {
 
   constructor() {
     logger.info('[CendiaCompliance] Continuous Compliance MonitorÃ¢â€žÂ¢ initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -477,6 +480,121 @@ export class ContinuousComplianceMonitorService {
     if (prev === 'partial' && curr === 'non_compliant') return 'high';
     if (curr === 'compliant') return 'info';
     return 'medium';
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'ContinuousCompliance', recordType: 'framework_scan', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.controls.has(d.id)) this.controls.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'ContinuousCompliance', recordType: 'drift_detected', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.alerts.has(d.id)) this.alerts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'ContinuousCompliance', recordType: 'drift_detected', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.drifts.has(d.id)) this.drifts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'ContinuousCompliance', recordType: 'drift_detected', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.snapshots.has(d.id)) this.snapshots.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'ContinuousCompliance', recordType: 'drift_detected', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.updates.has(d.id)) this.updates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[ContinuousComplianceMonitorService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ContinuousComplianceMonitorService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

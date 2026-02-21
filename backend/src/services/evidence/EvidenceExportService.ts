@@ -22,7 +22,7 @@ import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry, TestSuiteSummary, VerificationResult } from './TestEvidenceLedgerService.js';
 import { SignedTestReportService, SignedReport } from './SignedTestReportService.js';
 import { ComplianceDashboardService, ComplianceScore, GapAnalysis } from './ComplianceDashboardService.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -172,6 +172,9 @@ export class EvidenceExportService extends EventEmitter {
     this.initializeKeys();
     
     logger.info('[EvidenceExport] Service initialized - Legal bundle generation ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): EvidenceExportService {
@@ -1202,6 +1205,49 @@ For technical assistance, contact: evidence@datacendia.com
   private async persistBundle(bundle: ExportBundle): Promise<void> {
     const filePath = path.join(this.storagePath, `${bundle.id}.json`);
     await fs.promises.writeFile(filePath, JSON.stringify(bundle, null, 2));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'EvidenceExport', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.bundles.has(d.id)) this.bundles.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[EvidenceExportService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EvidenceExportService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

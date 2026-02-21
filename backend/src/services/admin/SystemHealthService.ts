@@ -11,6 +11,7 @@
 import { logger } from '../../utils/logger.js';
 import { PrismaClient, AlertSeverity } from '@prisma/client';
 import os from 'os';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -87,6 +88,9 @@ class SystemHealthService {
   constructor() {
     // Start periodic health checks
     this.startHealthMonitoring();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private startHealthMonitoring(): void {
@@ -516,6 +520,49 @@ class SystemHealthService {
       alerts,
       lastUpdated: new Date(),
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SystemHealth', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.alerts.has(d.id)) this.alerts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[SystemHealthService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SystemHealthService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

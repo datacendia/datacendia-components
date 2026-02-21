@@ -16,7 +16,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../../utils/servicePersistence.js';
 import {
   DataConnector,
   DataSource,
@@ -69,6 +69,7 @@ import {
   BehavioralHealthAssessmentSchema,
 } from './HealthcareDecisionSchemasExpanded.js';
 import { embeddingService } from '../../llm/EmbeddingService.js';
+import { logger } from '../../../utils/logger.js';
 
 // Re-export expanded types
 export type {
@@ -322,6 +323,85 @@ export class ConsentOverrideLedger {
       byDecisionType
     };
   }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'HealthcareVertical', recordType: 'patient_consent', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.consents.has(d.id)) this.consents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'HealthcareVertical', recordType: 'clinical_override', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.overrides.has(d.id)) this.overrides.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'HealthcareVertical', recordType: 'clinical_override', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.boundaries.has(d.id)) this.boundaries.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[ConsentOverrideLedger] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ConsentOverrideLedger] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 // ============================================================================
@@ -346,6 +426,9 @@ export class SaMDBoundaryEnforcer {
 
   constructor() {
     this.initializeBoundaries();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeBoundaries(): void {

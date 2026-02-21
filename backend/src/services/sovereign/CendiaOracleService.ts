@@ -10,6 +10,8 @@
 
 import { PrismaClient } from '@prisma/client';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -129,6 +131,9 @@ export class CendiaOracleService {
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
     console.log(`[CendiaOracle] Truth Arbiter service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -646,6 +651,103 @@ export class CendiaOracleService {
       verifiedFalse: row.total_claims - row.accurate_claims,
       lastUpdated: row.last_evaluated,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaOracle', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._claims.has(d.id)) this._claims.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaOracle', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._disputes.has(d.id)) this._disputes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaOracle', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._votes.has(d.id)) this._votes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaOracle', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._sourceReliability.has(d.id)) this._sourceReliability.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaOracleService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaOracleService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

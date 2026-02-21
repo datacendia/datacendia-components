@@ -10,7 +10,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
-import { persistServiceRecord } from '../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES - Comprehensive claim tracking and validation
@@ -187,6 +187,9 @@ export class StatementOfFactsService extends BaseService {
       ...config,
     });
     this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://localhost:11434';
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -768,6 +771,67 @@ Output JSON:
     }
 
     return report;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'StatementOfFacts', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.statementsCache.has(d.id)) this.statementsCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'StatementOfFacts', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.claimsCache.has(d.id)) this.claimsCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[StatementOfFactsService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[StatementOfFactsService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

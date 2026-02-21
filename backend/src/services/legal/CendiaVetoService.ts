@@ -18,7 +18,8 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -203,6 +204,9 @@ export class CendiaVetoService extends EventEmitter {
     for (const policy of DEFAULT_VETO_POLICIES) {
       this.policies.set(policy.gateType, policy);
     }
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -608,6 +612,67 @@ export class CendiaVetoService extends EventEmitter {
         (totalApprovalTime / approvedCount) / (1000 * 60 * 60) : 0,
       rejectionRate: gates.length > 0 ? rejectedCount / gates.length : 0,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaVeto', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.gates.has(d.id)) this.gates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaVeto', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.policies.has(d.id)) this.policies.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaVetoService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaVetoService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

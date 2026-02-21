@@ -198,6 +198,9 @@ class LocalRLHFService extends EventEmitter {
     this.dataPath = process.env.RLHF_DATA_PATH || '/var/datacendia/rlhf';
     this.ensureDirectories();
     logger.info('[LocalRLHF] Service initialized - Zero-cloud learning ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private ensureDirectories(): void {
@@ -818,6 +821,7 @@ echo "✅ LoRA adapter training complete!"
 echo "   To use with Ollama, create a Modelfile and run:"
 echo "   ollama create ${config.name.toLowerCase().replace(/\s+/g, '-')} -f Modelfile"
 `;
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
     // Save script
     const scriptPath = path.join(this.dataPath, 'adapters', config.id, 'train.sh');
@@ -932,6 +936,85 @@ SYSTEM """You are a personalized AI assistant fine-tuned on ${config.organizatio
       .filter(r => r.organizationId === organizationId)
       .sort((a, b) => b.feedbackAt.getTime() - a.feedbackAt.getTime())
       .slice(0, limit);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'LocalRLHF', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.feedbackRecords.has(d.id)) this.feedbackRecords.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'LocalRLHF', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.datasets.has(d.id)) this.datasets.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'LocalRLHF', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.loraConfigs.has(d.id)) this.loraConfigs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[LocalRLHFService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[LocalRLHFService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

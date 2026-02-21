@@ -16,6 +16,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { redis } from '../config/redis.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 const CACHE_TTL = 3600; // 1 hour cache for agent definitions
 
@@ -915,6 +916,9 @@ export class VerticalAgentsService extends BaseService {
       dependencies: [],
       ...config,
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -1162,6 +1166,49 @@ export class VerticalAgentsService extends BaseService {
       if (agent) return agent;
     }
     return null;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'VerticalAgents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.metricsCache.has(d.id)) this.metricsCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[VerticalAgentsService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[VerticalAgentsService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

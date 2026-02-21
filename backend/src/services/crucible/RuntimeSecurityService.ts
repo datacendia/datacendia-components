@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCrucible™ Runtime Security Monitoring Service
+ * CendiaCrucibleï¿½ Runtime Security Monitoring Service
  * 
  * Enterprise/Government Grade Implementation
  * Compliant with: NIST 800-53, FedRAMP, SOC2 Type II
@@ -21,6 +21,7 @@ import crypto from 'crypto';
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -232,6 +233,9 @@ export class RuntimeSecurityService extends EventEmitter {
     super();
     this.initializeMetrics();
     logger.info('[RuntimeSecurity] Service initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -547,6 +551,67 @@ export class RuntimeSecurityService extends EventEmitter {
       eventsProcessed: (this.metrics as any).eventsProcessed,
       activeAlerts: this.metrics.activeThreats,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'RuntimeSecurity', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.eventCounts.has(d.id)) this.eventCounts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'RuntimeSecurity', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.alertThrottles.has(d.id)) this.alertThrottles.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[RuntimeSecurityService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[RuntimeSecurityService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -15,6 +15,7 @@
 import crypto from 'crypto';
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -135,6 +136,17 @@ export class CendiaResponsibilityService {
   private records: Map<string, AccountabilityRecord> = new Map();
   private delegations: Map<string, DelegationRecord> = new Map();
   private dbInitialized = false;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Load existing records from database on first use
@@ -1025,6 +1037,67 @@ export class CendiaResponsibilityService {
       monthlyRiskAcceptance,
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaResponsibility', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.records.has(d.id)) this.records.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaResponsibility', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.delegations.has(d.id)) this.delegations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaResponsibilityService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaResponsibilityService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

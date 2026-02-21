@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 /**
- * CENDIA VERTICAL CONFIGURATION SERVICE™
+ * CENDIA VERTICAL CONFIGURATION SERVICEï¿½
  * 
  * Industry vertical management with toggleable service access
  * Allows customization of service bundles per organization/vertical
@@ -12,6 +12,7 @@
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -67,43 +68,43 @@ export interface ServiceToggle {
 
 export const SERVICE_CATALOG: ServiceDefinition[] = [
   // Core Services (Cannot be disabled)
-  { id: 'council', name: 'CendiaCouncil™', description: 'AI-powered multi-agent deliberation engine', category: 'core', icon: '???', tier: 'foundation', isCore: true },
-  { id: 'ledger', name: 'CendiaLedger™', description: 'Immutable decision blockchain for audit trails', category: 'governance', icon: '??', tier: 'foundation', isCore: true },
+  { id: 'council', name: 'CendiaCouncilï¿½', description: 'AI-powered multi-agent deliberation engine', category: 'core', icon: '???', tier: 'foundation', isCore: true },
+  { id: 'ledger', name: 'CendiaLedgerï¿½', description: 'Immutable decision blockchain for audit trails', category: 'governance', icon: '??', tier: 'foundation', isCore: true },
   { id: 'evidence-vault', name: 'Evidence Vault', description: 'Global decision packet management', category: 'governance', icon: '???', tier: 'foundation', isCore: true },
   
   // Intelligence Services
-  { id: 'chronos', name: 'CendiaChronos™', description: 'Decision timeline & pivotal moment detection', category: 'intelligence', icon: '?', tier: 'foundation', isCore: false },
+  { id: 'chronos', name: 'CendiaChronosï¿½', description: 'Decision timeline & pivotal moment detection', category: 'intelligence', icon: '?', tier: 'foundation', isCore: false },
   { id: 'decision-dna', name: 'DecisionDNA', description: 'Full decision lifecycle visualization', category: 'intelligence', icon: '??', tier: 'foundation', isCore: false },
   { id: 'ghost-board', name: 'Ghost Board', description: 'What-if scenario simulation', category: 'intelligence', icon: '??', tier: 'foundation', isCore: false },
   { id: 'pre-mortem', name: 'Pre-Mortem', description: 'Proactive risk analysis', category: 'intelligence', icon: '??', tier: 'foundation', isCore: false },
-  { id: 'cascade', name: 'CendiaCascade™', description: 'Decision consequence engineering', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'horizon', name: 'CendiaHorizon™', description: 'Strategic forecasting & prediction', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'genomics', name: 'CendiaGenomics™', description: 'Decision pattern DNA analysis', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'cascade', name: 'CendiaCascadeï¿½', description: 'Decision consequence engineering', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'horizon', name: 'CendiaHorizonï¿½', description: 'Strategic forecasting & prediction', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'genomics', name: 'CendiaGenomicsï¿½', description: 'Decision pattern DNA analysis', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
   
   // Governance Services
-  { id: 'govern', name: 'CendiaGovern™', description: 'Policy-as-code enforcement', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
-  { id: 'veto', name: 'CendiaVeto™', description: 'Human override capability', category: 'governance', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'dissent', name: 'CendiaDissent™', description: 'Protected whistleblower channels', category: 'governance', icon: '?', tier: 'enterprise', isCore: false },
+  { id: 'govern', name: 'CendiaGovernï¿½', description: 'Policy-as-code enforcement', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'veto', name: 'CendiaVetoï¿½', description: 'Human override capability', category: 'governance', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'dissent', name: 'CendiaDissentï¿½', description: 'Protected whistleblower channels', category: 'governance', icon: '?', tier: 'enterprise', isCore: false },
   { id: 'regulatory-absorb', name: 'Regulatory Absorb', description: 'Compliance document ingestion', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
   { id: 'audit-workflow', name: 'Audit Workflow', description: 'Compliance audit management', category: 'governance', icon: '??', tier: 'foundation', isCore: false },
   
   // Security Services
-  { id: 'defense-stack', name: 'CendiaDefenseStack™', description: 'Security posture management', category: 'security', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'defense-stack', name: 'CendiaDefenseStackï¿½', description: 'Security posture management', category: 'security', icon: '???', tier: 'enterprise', isCore: false },
   { id: 'red-team', name: 'RedTeam', description: 'Adversarial AI testing', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'apotheosis', name: 'CendiaApotheosis™', description: 'Self-improving AI with safety rails', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'panopticon', name: 'CendiaPanopticon™', description: 'Real-time observability', category: 'security', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'apotheosis', name: 'CendiaApotheosisï¿½', description: 'Self-improving AI with safety rails', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'panopticon', name: 'CendiaPanopticonï¿½', description: 'Real-time observability', category: 'security', icon: '???', tier: 'enterprise', isCore: false },
   { id: 'crisis-management', name: 'Crisis Management', description: 'Incident response coordination', category: 'security', icon: '??', tier: 'enterprise', isCore: false },
   
   // Analytics Services
-  { id: 'echo', name: 'CendiaEcho™', description: 'Decision outcome tracking', category: 'analytics', icon: '??', tier: 'foundation', isCore: false },
-  { id: 'gnosis', name: 'CendiaGnosis™', description: 'Knowledge graph exploration', category: 'analytics', icon: '??', tier: 'foundation', isCore: false },
-  { id: 'voice', name: 'CendiaVoice™', description: 'Executive presentation layer', category: 'analytics', icon: '???', tier: 'enterprise', isCore: false },
-  { id: 'persona-forge', name: 'CendiaPersonaForge™', description: 'Stakeholder simulation', category: 'analytics', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'omni-translate', name: 'CendiaOmniTranslate™', description: '100+ language translation', category: 'analytics', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'echo', name: 'CendiaEchoï¿½', description: 'Decision outcome tracking', category: 'analytics', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'gnosis', name: 'CendiaGnosisï¿½', description: 'Knowledge graph exploration', category: 'analytics', icon: '??', tier: 'foundation', isCore: false },
+  { id: 'voice', name: 'CendiaVoiceï¿½', description: 'Executive presentation layer', category: 'analytics', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'persona-forge', name: 'CendiaPersonaForgeï¿½', description: 'Stakeholder simulation', category: 'analytics', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'omni-translate', name: 'CendiaOmniTranslateï¿½', description: '100+ language translation', category: 'analytics', icon: '??', tier: 'enterprise', isCore: false },
   
   // Sovereign Services
-  { id: 'sovereign', name: 'CendiaSovereign™', description: 'On-premise air-gapped deployment', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
-  { id: 'mesh', name: 'CendiaMesh™', description: 'Secure multi-site collaboration', category: 'sovereign', icon: '???', tier: 'enterprise', isCore: false },
+  { id: 'sovereign', name: 'CendiaSovereignï¿½', description: 'On-premise air-gapped deployment', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
+  { id: 'mesh', name: 'CendiaMeshï¿½', description: 'Secure multi-site collaboration', category: 'sovereign', icon: '???', tier: 'enterprise', isCore: false },
   { id: 'data-diode', name: 'Data Diode', description: 'Unidirectional secure data ingest', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
   { id: 'local-rlhf', name: 'Local RLHF', description: 'Zero-cloud AI improvement', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
   { id: 'tpm-attestation', name: 'TPM Attestation', description: 'Hardware-signed decisions', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
@@ -114,8 +115,8 @@ export const SERVICE_CATALOG: ServiceDefinition[] = [
   { id: 'portable-instance', name: 'Portable Instance', description: 'USB-bootable deployment', category: 'sovereign', icon: '??', tier: 'strategic', isCore: false },
   
   // Additional Enterprise Services
-  { id: 'autopilot', name: 'CendiaAutopilot™', description: 'Automated decision execution', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
-  { id: 'union', name: 'CendiaUnion™', description: 'Multi-agent defensive synthesis', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'autopilot', name: 'CendiaAutopilotï¿½', description: 'Automated decision execution', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
+  { id: 'union', name: 'CendiaUnionï¿½', description: 'Multi-agent defensive synthesis', category: 'intelligence', icon: '??', tier: 'enterprise', isCore: false },
   { id: 'training', name: 'Training Center', description: 'User onboarding & certification', category: 'core', icon: '??', tier: 'foundation', isCore: false },
 ];
 
@@ -381,6 +382,9 @@ class VerticalConfigService extends EventEmitter {
     // Auto-initialize default organization with Legal vertical (most comprehensive)
     this.initializeDefaultOrg();
     logger.info('[VerticalConfig] Service initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeDefaultOrg(): void {
@@ -711,6 +715,49 @@ class VerticalConfigService extends EventEmitter {
     if (!vertical) return [];
 
     return SERVICE_CATALOG.filter(s => vertical.recommendedServices.includes(s.id));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'VerticalConfig', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.orgConfigs.has(d.id)) this.orgConfigs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[VerticalConfigService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[VerticalConfigService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

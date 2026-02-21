@@ -32,6 +32,7 @@ import { logger } from '../../utils/logger.js';
 import { ml_dsa44, ml_dsa65, ml_dsa87 } from '@noble/post-quantum/ml-dsa.js';
 import { slh_dsa_sha2_128f, slh_dsa_shake_256f } from '@noble/post-quantum/slh-dsa.js';
 import { ml_kem512, ml_kem768, ml_kem1024 } from '@noble/post-quantum/ml-kem.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -179,6 +180,9 @@ export class PostQuantumKMSService {
 
   constructor() {
     logger.info('[CendiaQuantumKMS] Real Post-Quantum KMS initialized — ML-DSA (Dilithium) + SLH-DSA (SPHINCS+) via @noble/post-quantum');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -553,6 +557,67 @@ export class PostQuantumKMSService {
         'FIPS 205': 'SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)',
       },
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'PostQuantumKMS', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.keyPairs.has(d.id)) this.keyPairs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'PostQuantumKMS', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.rawKeys.has(d.id)) this.rawKeys.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[PostQuantumKMSService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[PostQuantumKMSService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

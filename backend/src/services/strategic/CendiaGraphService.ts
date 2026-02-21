@@ -12,6 +12,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { v4 as uuidv4 } from 'uuid';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -98,7 +99,18 @@ export interface KnowledgeInsight {
 class CendiaGraphService {
   private entities: Map<string, GraphEntity> = new Map();
   private relationships: Map<string, GraphRelationship> = new Map();
-  private entityIndex: Map<string, Set<string>> = new Map(); // type -> entity IDs
+  private entityIndex: Map<string, Set<string>> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+ // type -> entity IDs
 
   // ---------------------------------------------------------------------------
   // ENTITY MANAGEMENT
@@ -814,6 +826,67 @@ Provide a concise, factual answer based only on the graph data.`;
       relationshipTypeBreakdown,
       avgConfidence
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaGraph', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.entities.has(d.id)) this.entities.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaGraph', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.relationships.has(d.id)) this.relationships.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaGraphService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaGraphService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

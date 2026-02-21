@@ -17,7 +17,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -131,6 +131,9 @@ export class CarbonAwareSchedulerService {
 
   constructor() {
     logger.info('[CendiaCarbon] Carbon-Aware SchedulerÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -429,6 +432,85 @@ export class CarbonAwareSchedulerService {
   listWorkloads(status?: WorkloadStatus): Workload[] {
     const all = Array.from(this.workloads.values());
     return status ? all.filter(w => w.status === status) : all;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CarbonAwareScheduler', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.workloads.has(d.id)) this.workloads.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CarbonAwareScheduler', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.budgets.has(d.id)) this.budgets.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CarbonAwareScheduler', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.intensityCache.has(d.id)) this.intensityCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CarbonAwareSchedulerService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CarbonAwareSchedulerService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

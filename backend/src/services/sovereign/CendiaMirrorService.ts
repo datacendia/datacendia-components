@@ -9,6 +9,8 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -88,6 +90,9 @@ export class CendiaMirrorService {
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
     console.log(`[CendiaMirror] Digital Twin service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -457,6 +462,85 @@ export class CendiaMirrorService {
 
   // No seed method - Enterprise Platinum standard
   // Digital twins are created through real API operations
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaMirror', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._twins.has(d.id)) this._twins.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaMirror', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._snapshots.has(d.id)) this._snapshots.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaMirror', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._scenarios.has(d.id)) this._scenarios.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CendiaMirrorService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaMirrorService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 export const cendiaMirrorService = new CendiaMirrorService();

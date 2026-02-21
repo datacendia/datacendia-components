@@ -10,6 +10,7 @@
 
 import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -89,6 +90,9 @@ export class AgentsService extends BaseService {
       dependencies: [],
       ...config,
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -314,6 +318,67 @@ export class AgentsService extends BaseService {
       organizationId: d.organization_id,
       createdAt: d.created_at,
     }));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Agents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.agentsStore.has(d.id)) this.agentsStore.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Agents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.interactionsStore.has(d.id)) this.interactionsStore.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[AgentsService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[AgentsService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

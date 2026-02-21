@@ -33,6 +33,7 @@ import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
 import { cendiaRecallService } from './CendiaRecallService.js';
 import type { DecisionOutcome, LessonLearned } from './CendiaRecallService.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -158,6 +159,9 @@ class CendiaRewindService {
 
   constructor() {
     logger.info('CendiaRewind™: Counterfactual Decision Replay initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -932,6 +936,67 @@ class CendiaRewindService {
 
   // No seed method - Enterprise Platinum standard
   // Analyses are created only through real API operations
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaRewind', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.analyses.has(d.id)) this.analyses.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaRewind', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.patterns.has(d.id)) this.patterns.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaRewindService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaRewindService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 export const cendiaRewindService = new CendiaRewindService();

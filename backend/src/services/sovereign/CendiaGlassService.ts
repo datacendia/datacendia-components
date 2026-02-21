@@ -9,6 +9,8 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -126,6 +128,9 @@ export class CendiaGlassService {
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
     console.log(`[CendiaGlass] AR Integration service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -476,6 +481,121 @@ export class CendiaGlassService {
   }
 
   // No seed method - Enterprise Platinum standard
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaGlass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._devices.has(d.id)) this._devices.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaGlass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._overlays.has(d.id)) this._overlays.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaGlass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._sessions.has(d.id)) this._sessions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaGlass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._anchors.has(d.id)) this._anchors.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'CendiaGlass', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this._visualizations.has(d.id)) this._visualizations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[CendiaGlassService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaGlassService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 export const cendiaGlassService = new CendiaGlassService();

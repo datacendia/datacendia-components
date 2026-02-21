@@ -23,7 +23,7 @@
 
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import {
   DecisionProposal,
   DeliberationGraph,
@@ -52,6 +52,7 @@ import { institutionalAgentsService, InstitutionalAgentsService } from './Instit
 import { adversarialAgentsService, AdversarialAgentsService } from './AdversarialAgentsService.js';
 import { observerAgentsService, ObserverAgentsService } from './ObserverAgentsService.js';
 import { metaGovernanceAgentsService, MetaGovernanceAgentsService } from './MetaGovernanceAgentsService.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // SGAS ORCHESTRATOR
@@ -107,6 +108,9 @@ export class SGASOrchestrator extends EventEmitter {
     this.metaGovernanceService = metaGovernanceAgentsService;
 
     this.setupEventForwarding();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private setupEventForwarding(): void {
@@ -750,6 +754,67 @@ export class SGASOrchestrator extends EventEmitter {
       averageDurationMs: completed.length > 0 ? totalDuration / completed.length : 0,
       approvalRate: completed.length > 0 ? approvedCount / completed.length : 0,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SGASOrchestrator', recordType: 'deliberation_result', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.activeDeliberations.has(d.id)) this.activeDeliberations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'SGASOrchestrator', recordType: 'deliberation_result', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.completedDeliberations.has(d.id)) this.completedDeliberations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[SGASOrchestrator] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SGASOrchestrator] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

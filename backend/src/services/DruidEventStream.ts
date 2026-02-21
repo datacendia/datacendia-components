@@ -13,6 +13,8 @@
 
 import { druidService, DRUID_DATASOURCES } from './storage/DruidService';
 import { EventEmitter } from 'events';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
+import { logger } from '../utils/logger.js';
 
 // Event types
 export interface DecisionEvent {
@@ -80,6 +82,8 @@ class DruidEventStream extends EventEmitter {
     super();
     this.initBatching();
     this.setupEventHandlers();
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initBatching() {
@@ -290,6 +294,35 @@ class DruidEventStream extends EventEmitter {
       stats[datasource] = queue.length;
     });
     return stats;
+  }
+
+
+  async loadFromDB(): Promise<void> {
+
+    try {
+
+      let restored = 0;
+
+      const recs = await loadServiceRecords({ serviceName: 'DruidEventStream', recordType: 'record', limit: 1000 });
+
+      for (const rec of recs) {
+
+        const d = rec.data as any;
+
+        if (d?.id && !this.batchQueue.has(d.id)) this.batchQueue.set(d.id, d);
+
+      }
+
+      restored += recs.length;
+
+      if (restored > 0) logger.info(`[DruidEventStream] Restored ${restored} records from database`);
+
+    } catch (err) {
+
+      logger.warn(`[DruidEventStream] DB reload skipped: ${(err as Error).message}`);
+
+    }
+
   }
 }
 

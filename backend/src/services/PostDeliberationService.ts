@@ -11,7 +11,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { statementOfFactsService, StatementOfFacts } from './StatementOfFactsService.js';
 import { deliberationService, Deliberation, ExecutiveSummary } from './DeliberationService.js';
-import { persistServiceRecord } from '../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES - Comprehensive action system
@@ -507,6 +507,9 @@ export class PostDeliberationService extends BaseService {
       dependencies: ['deliberation-service', 'statement-of-facts-service'],
       ...config,
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -955,6 +958,49 @@ export class PostDeliberationService extends BaseService {
 
   getActionsBySuite(session: PostDeliberationSession, suite: string): PostDeliberationAction[] {
     return session.availableActions.filter(a => a.toolSuite === suite);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'PostDeliberation', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.sessionsCache.has(d.id)) this.sessionsCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[PostDeliberationService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[PostDeliberationService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

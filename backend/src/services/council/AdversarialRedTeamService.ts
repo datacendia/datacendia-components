@@ -15,7 +15,7 @@
  */
 
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -268,6 +268,9 @@ export class AdversarialRedTeamService {
 
   private constructor() {
     logger.info('ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ AdversarialRedTeamService initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): AdversarialRedTeamService {
@@ -656,6 +659,49 @@ ${session.summary.blindSpots.map(b => `- ${b}`).join('\n')}
   endSession(sessionId: string): void {
     this.activeSessions.delete(sessionId);
     logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Ended red team session ${sessionId}`);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'AdversarialRedTeam', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.activeSessions.has(d.id)) this.activeSessions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[AdversarialRedTeamService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[AdversarialRedTeamService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

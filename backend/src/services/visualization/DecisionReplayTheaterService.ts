@@ -14,6 +14,7 @@
 
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -96,6 +97,9 @@ export class DecisionReplayTheaterService {
 
   private constructor() {
     logger.info('[CendiaReplay] Decision Replay Theater™ initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): DecisionReplayTheaterService {
@@ -670,6 +674,49 @@ END OF SCRIPT
   endSession(sessionId: string): void {
     this.activeSessions.delete(sessionId);
     logger.info(`🎬 Ended replay session ${sessionId}`);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'DecisionReplayTheater', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.activeSessions.has(d.id)) this.activeSessions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[DecisionReplayTheaterService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[DecisionReplayTheaterService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

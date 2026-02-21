@@ -8,6 +8,8 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 const prisma = new PrismaClient();
 
@@ -61,7 +63,18 @@ export interface ROISummary {
 
 class ROIMetricsService {
   private metricsCache: Map<string, { data: any; expiry: number }> = new Map();
-  private CACHE_TTL_MS = 60000; // 1 minute cache
+  private CACHE_TTL_MS = 60000;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+ // 1 minute cache
 
   /**
    * Get deliberation timing metrics
@@ -344,6 +357,49 @@ class ROIMetricsService {
 
   clearCache(): void {
     this.metricsCache.clear();
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'ROIMetrics', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.metricsCache.has(d.id)) this.metricsCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[ROIMetricsService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ROIMetricsService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

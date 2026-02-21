@@ -20,6 +20,8 @@ import {
   generateSCGEId,
   hashSCGEState,
 } from './types.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // POLICY INJECTION SERVICE
@@ -28,6 +30,17 @@ import {
 export class PolicyInjectionService {
   private policies: Map<string, PolicyBundle> = new Map();
   private policyVersions: Map<string, PolicyBundle[]> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Create a new policy bundle
@@ -375,6 +388,67 @@ export class PolicyInjectionService {
    */
   getPolicyHistory(policyId: string): PolicyBundle[] {
     return this.policyVersions.get(policyId) || [];
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'PolicyInjection', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.policies.has(d.id)) this.policies.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'PolicyInjection', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.policyVersions.has(d.id)) this.policyVersions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[PolicyInjectionService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[PolicyInjectionService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

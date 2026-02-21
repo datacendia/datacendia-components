@@ -10,7 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -176,6 +176,9 @@ class CendiaDocketService {
 
   constructor() {
     logger.info('CendiaDocketÃ¢â€žÂ¢ initialized - The Litigation Engine is ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -915,6 +918,103 @@ Generate a compliance assessment in JSON:
       timelineActivity: { eventsThisMonth: thisMonthEvents, eventsLastMonth: lastMonthEvents, trend },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaDocket', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.matters.has(d.id)) this.matters.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaDocket', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.documents.has(d.id)) this.documents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaDocket', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.discoveryRequests.has(d.id)) this.discoveryRequests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaDocket', recordType: 'matter', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.complianceChecks.has(d.id)) this.complianceChecks.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaDocketService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaDocketService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -11,6 +11,8 @@
 
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
+import { logger } from '../utils/logger.js';
 
 export type JobType =
   | 'document_processing'
@@ -82,6 +84,9 @@ class QueueService extends EventEmitter {
 
     // Start processing loop
     this.startProcessingLoop();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -354,6 +359,85 @@ class QueueService extends EventEmitter {
         }
       }
     }
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Queue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.queues.has(d.id)) this.queues.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Queue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.handlers.has(d.id)) this.handlers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'Queue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.processing.has(d.id)) this.processing.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[QueueService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[QueueService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -26,7 +26,7 @@ import {
 } from '../../config/sports/compliance-frameworks.js';
 import { cendiaAuditService, AuditEventType } from '../CendiaAuditService.js';
 import crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -261,6 +261,9 @@ export class SportsDecisionService extends BaseService {
       version: '1.0.0',
       dependencies: ['DecisionService', 'EvidenceVaultService'],
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -916,6 +919,85 @@ export class SportsDecisionService extends BaseService {
     });
     
     return crypto.createHash('sha256').update(data).digest('hex');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SportsDecision', recordType: 'transfer_decision', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.transferDecisions.has(d.id)) this.transferDecisions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'SportsDecision', recordType: 'transfer_decision', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.contractDecisions.has(d.id)) this.contractDecisions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'SportsDecision', recordType: 'transfer_decision', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.orgIndex.has(d.id)) this.orgIndex.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[SportsDecisionService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SportsDecisionService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

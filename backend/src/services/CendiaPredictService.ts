@@ -37,6 +37,7 @@ import { cendiaRecallService } from './CendiaRecallService.js';
 import type { DecisionOutcome, DetectedBias, LessonLearned } from './CendiaRecallService.js';
 import { cascadeService } from './CendiaCascadeService.js';
 import type { ChangeSpec, ChangeType, CascadeReport, ConsequenceAssessment } from './CendiaCascadeService.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -169,6 +170,9 @@ class CendiaPredictService {
 
   constructor() {
     logger.info('CendiaPredict™: Decision Risk Intelligence initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -1058,6 +1062,49 @@ class CendiaPredictService {
 
   // No seed method - Enterprise Platinum standard
   // Assessments are created only through real API operations
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaPredict', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assessments.has(d.id)) this.assessments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaPredictService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaPredictService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 export const cendiaPredictService = new CendiaPredictService();

@@ -37,6 +37,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { logger } from '../../../utils/logger.js';
+import { persistServiceRecord, loadServiceRecords } from '../../../utils/servicePersistence.js';
 
 // Resolve artifacts dir relative to project root (works in both ESM and CJS)
 const ARTIFACTS_DIR = path.resolve(
@@ -92,6 +93,9 @@ class Groth16ProofService {
   constructor() {
     this.zkeyPath = path.join(ARTIFACTS_DIR, 'circuit_final.zkey');
     logger.info('[Groth16] Groth16 Proof Service initialized (snarkjs, BN128 curve)');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -430,6 +434,49 @@ class Groth16ProofService {
     parts.push(wBuf);
 
     return Buffer.concat(parts);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Groth16Proof', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.proofs.has(d.id)) this.proofs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[Groth16ProofService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[Groth16ProofService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -9,12 +9,25 @@
 
 import { PrismaClient } from '@prisma/client';
 import type { PillarName, QueryContext, QuerySource, StructuredQuery, ContextOptions } from './types';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 const prisma = new PrismaClient() as any; // Use any for dynamic table access
 
 export class PillarAggregator {
   private cache: Map<string, { data: any; expiry: number }> = new Map();
-  private cacheTTL = 60000; // 1 minute
+  private cacheTTL = 60000;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+ // 1 minute
 
   async queryPillars(pillars: PillarName[], query: StructuredQuery, context: QueryContext): Promise<{ data: Record<PillarName, any>; sources: QuerySource[] }> {
     const results: Record<string, any> = {};
@@ -189,4 +202,47 @@ export class PillarAggregator {
   // No mock data - return empty arrays when DB queries fail
 
   clearCache(): void { this.cache.clear(); }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'PillarAggregator', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.cache.has(d.id)) this.cache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[PillarAggregator] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[PillarAggregator] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }

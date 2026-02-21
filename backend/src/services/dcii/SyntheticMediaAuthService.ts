@@ -37,6 +37,7 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -246,6 +247,9 @@ class SyntheticMediaAuthService {
       logger.warn('[CendiaMediaAuth] DB not available, using in-memory demo data');
       this.seedDemoData();
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initFromDb(): Promise<void> {
@@ -890,6 +894,67 @@ class SyntheticMediaAuthService {
         );
       }).catch(err => logger.error(`Failed to seed demo asset ${demo.file}:`, err));
     }
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SyntheticMediaAuth', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assets.has(d.id)) this.assets.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'SyntheticMediaAuth', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assessments.has(d.id)) this.assessments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[SyntheticMediaAuthService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SyntheticMediaAuthService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -11,6 +11,7 @@ import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -201,6 +202,9 @@ class EnterpriseSchedulerService extends EventEmitter {
   constructor() {
     super();
     logger.info('[Scheduler] Enterprise Scheduler Service initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
   
   // ===========================================================================
@@ -920,6 +924,85 @@ class EnterpriseSchedulerService extends EventEmitter {
     return executions
       .sort((a, b) => b.startedAt.getTime() - a.startedAt.getTime())
       .slice(0, limit);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'EnterpriseScheduler', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.jobs.has(d.id)) this.jobs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'EnterpriseScheduler', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.timers.has(d.id)) this.timers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'EnterpriseScheduler', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executions.has(d.id)) this.executions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[EnterpriseSchedulerService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EnterpriseSchedulerService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

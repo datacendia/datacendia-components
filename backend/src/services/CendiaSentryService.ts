@@ -10,7 +10,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { cendiaAuditService } from './CendiaAuditService.js';
-import { persistServiceRecord } from '../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -113,6 +113,9 @@ export class CendiaSentryService extends BaseService {
     });
     
     this.initializePatterns();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -1290,6 +1293,85 @@ export class CendiaSentryService extends BaseService {
       tier: 'DEEP',
       quickScanMs,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaSentry', recordType: 'content_check', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.checks.has(d.id)) this.checks.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaSentry', recordType: 'content_check', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.guardrailConfigs.has(d.id)) this.guardrailConfigs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaSentry', recordType: 'content_check', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.blockedPatterns.has(d.id)) this.blockedPatterns.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CendiaSentryService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaSentryService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -12,6 +12,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { v4 as uuidv4 } from 'uuid';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -130,6 +131,17 @@ class UnionService {
   private assessments: Map<string, ThreatAssessment> = new Map();
   private strategies: Map<string, DefenseStrategy> = new Map();
   private postures: Map<string, SecurityPosture> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // THREAT ASSESSMENT INTAKE
@@ -712,6 +724,85 @@ Output JSON:
         ? allDefenses.reduce((sum, d) => sum + d.effectiveness, 0) / allDefenses.length
         : 0
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Union', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assessments.has(d.id)) this.assessments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Union', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.strategies.has(d.id)) this.strategies.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'Union', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.postures.has(d.id)) this.postures.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[UnionService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[UnionService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

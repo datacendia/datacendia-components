@@ -15,6 +15,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -124,6 +125,17 @@ export interface LearningAnalytics {
 
 class GnosisService {
   private pathCache: Map<string, LearningPath> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Generate learning paths from a Council decision
@@ -844,6 +856,49 @@ List 3-7 specific skills as a JSON array of strings.`;
     } else {
       return 'This area needs more focus. We recommend completing the full learning path before retaking the assessment.';
     }
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Gnosis', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.pathCache.has(d.id)) this.pathCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[GnosisService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[GnosisService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

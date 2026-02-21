@@ -12,7 +12,8 @@ import { featureControlService } from './FeatureControlService.js';
 import { tenantService } from './TenantService.js';
 import { licenseService } from './LicenseService.js';
 import { systemHealthService } from './SystemHealthService.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -84,6 +85,9 @@ Always be helpful, concise, and action-oriented. If unsure, ask clarifying quest
 
   constructor() {
     // Initialize
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -548,6 +552,49 @@ Just tell me what you need in natural language!`,
 
   clearConversation(sessionId: string): void {
     this.conversations.delete(sessionId);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'AdminAI', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.conversations.has(d.id)) this.conversations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[AdminAIService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[AdminAIService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -10,7 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -155,6 +155,9 @@ class CendiaNerveService {
 
   constructor() {
     logger.info('CendiaNerveÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - The Self-Healing Grid is online');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -1024,6 +1027,121 @@ Respond in JSON:
       wasteIdentified: { underutilized: underutilized.length, overprovisioned: overprovisioned.length, estimatedWaste },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaNerve', recordType: 'service_registration', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.services.has(d.id)) this.services.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaNerve', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.incidents.has(d.id)) this.incidents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaNerve', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.threats.has(d.id)) this.threats.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaNerve', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.lazarusProtocols.has(d.id)) this.lazarusProtocols.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'CendiaNerve', recordType: 'incident', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.changeRequests.has(d.id)) this.changeRequests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[CendiaNerveService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaNerveService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

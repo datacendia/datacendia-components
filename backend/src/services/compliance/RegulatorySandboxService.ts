@@ -18,7 +18,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -430,6 +430,9 @@ export class RegulatorySandboxService {
 
   constructor() {
     logger.info('[CendiaSandbox] Regulatory SandboxÃ¢â€žÂ¢ initialized');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -683,6 +686,49 @@ export class RegulatorySandboxService {
     if (totalCost < 250000) return '$100K-$250K';
     if (totalCost < 500000) return '$250K-$500K';
     return '$500K+';
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'RegulatorySandbox', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.tests.has(d.id)) this.tests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[RegulatorySandboxService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[RegulatorySandboxService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -17,6 +17,8 @@
  */
 
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
+import { logger } from '../utils/logger.js';
 
 // License Types
 export type LicenseType = 'named' | 'concurrent' | 'site';
@@ -241,6 +243,17 @@ const MODULES: LicenseModule[] = [
 class LicensingService {
   private licenses: Map<string, License> = new Map();
   private licensesByKey: Map<string, License> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Generate a new license key
@@ -548,6 +561,67 @@ class LicensingService {
    */
   hasPillar(tier: LicenseTier, pillarId: string): boolean {
     return this.getPillarsForTier(tier).includes(pillarId);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Licensing', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.licenses.has(d.id)) this.licenses.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Licensing', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.licensesByKey.has(d.id)) this.licensesByKey.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[LicensingService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[LicensingService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

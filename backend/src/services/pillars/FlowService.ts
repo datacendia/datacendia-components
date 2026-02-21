@@ -10,6 +10,7 @@
 
 import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 // Note: FlowService uses runtime storage for workflow execution state
@@ -111,6 +112,9 @@ export class FlowService extends BaseService {
       dependencies: [],
       ...config,
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -398,6 +402,85 @@ export class FlowService extends BaseService {
         ? executions.reduce((sum, e) => sum + (e.duration || 0), 0) / executions.length 
         : 0,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Flow', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.workflowsStore.has(d.id)) this.workflowsStore.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Flow', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executionsStore.has(d.id)) this.executionsStore.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'Flow', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.approvalsStore.has(d.id)) this.approvalsStore.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[FlowService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[FlowService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

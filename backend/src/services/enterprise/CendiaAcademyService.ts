@@ -10,7 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -199,6 +199,9 @@ class CendiaAcademyService {
 
   constructor() {
     logger.info('CendiaAcademyÃ¢â€žÂ¢ initialized - The Personalized Tutor is ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -1019,6 +1022,103 @@ Generate a 5-10 minute micro-course in JSON:
       overallReadiness, byDepartment, byLevel, criticalRolesCovered: coveredRoles.length, criticalRolesTotal: seniorRoles.length,
       topStrengths, topWeaknesses, readinessTrend, insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaAcademy', recordType: 'skill_profile', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.profiles.has(d.id)) this.profiles.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaAcademy', recordType: 'skill_profile', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.paths.has(d.id)) this.paths.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaAcademy', recordType: 'skill_profile', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.microCourses.has(d.id)) this.microCourses.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaAcademy', recordType: 'skill_profile', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.interventions.has(d.id)) this.interventions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaAcademyService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaAcademyService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -25,6 +25,7 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -238,6 +239,9 @@ class TimestampAuthorityService {
       logger.warn('[CendiaTimestamp] DB not available, using in-memory demo data');
       this.seedDemoData();
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initFromDb(): Promise<void> {
@@ -703,6 +707,85 @@ class TimestampAuthorityService {
       this.issueTimestamp(item.org, content, item.desc, item.type, item.ref, { useExternal: true, useBlockchain: item.type === 'decision' || item.type === 'override' })
         .catch(err => logger.error(`Failed to seed timestamp for ${item.desc}:`, err));
     }
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'TimestampAuthority', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.tokens.has(d.id)) this.tokens.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'TimestampAuthority', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.verifications.has(d.id)) this.verifications.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'TimestampAuthority', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.batches.has(d.id)) this.batches.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[TimestampAuthorityService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[TimestampAuthorityService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

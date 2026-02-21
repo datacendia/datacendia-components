@@ -19,7 +19,7 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -238,6 +238,9 @@ export class AIInsuranceService {
       logger.warn('[CendiaInsure] DB not available, using in-memory only');
     });
     logger.info('[CendiaInsure] AI Insurance initialized with Prisma persistence');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initFromDb(): Promise<void> {
@@ -763,6 +766,121 @@ export class AIInsuranceService {
     const year = new Date().getFullYear();
     const number = ++this.policyCounter;
     return `AI-${year}-${number}`;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'AIInsurance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.policies.has(d.id)) this.policies.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'AIInsurance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.quotes.has(d.id)) this.quotes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'AIInsurance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.claims.has(d.id)) this.claims.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'AIInsurance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.decisionCoverages.has(d.id)) this.decisionCoverages.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'AIInsurance', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.certificates.has(d.id)) this.certificates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[AIInsuranceService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[AIInsuranceService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -26,6 +26,7 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -314,6 +315,9 @@ class CrossJurisdictionConflictService {
       logger.warn('[CendiaJurisdiction] DB not available, using in-memory demo data');
       this.seedDemoData();
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initFromDb(): Promise<void> {
@@ -767,6 +771,103 @@ class CrossJurisdictionConflictService {
 
     this.assessOrganization('org-datacendia', 'Datacendia', ['EU', 'US_FEDERAL', 'US_CALIFORNIA', 'UK', 'JAPAN', 'AUSTRALIA'], 'system-seed')
       .catch(err => logger.error('Failed to seed cross-jurisdiction demo:', err));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CrossJurisdictionConflict', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.conflicts.has(d.id)) this.conflicts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CrossJurisdictionConflict', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.assessments.has(d.id)) this.assessments.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CrossJurisdictionConflict', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.evidencePackets.has(d.id)) this.evidencePackets.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CrossJurisdictionConflict', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.goodFaithDocs.has(d.id)) this.goodFaithDocs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CrossJurisdictionConflictService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CrossJurisdictionConflictService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -23,6 +23,7 @@
 
 import { prisma } from '../../lib/prisma';
 import { logger } from '../../utils/logger';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // CANONICAL DATA MODEL
@@ -331,6 +332,17 @@ const TABLE_NAME_PATTERNS: Record<string, CanonicalEntity[]> = {
 
 export class SchemaMapperService {
   private mappingCache: Map<string, SchemaMapping> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Auto-detect and suggest mappings for a source schema
@@ -743,6 +755,49 @@ export class SchemaMapperService {
       default:
         return value;
     }
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SchemaMapper', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.mappingCache.has(d.id)) this.mappingCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[SchemaMapperService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SchemaMapperService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

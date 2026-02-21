@@ -23,7 +23,8 @@ import {
   LEGAL_TOOL_DEFINITIONS,
 } from './LegalToolExecutor.js';
 import { ragService, ChunkResult } from '../llm/RAGService.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -373,6 +374,9 @@ export class CouncilService extends EventEmitter {
   constructor(pool: Pool) {
     super();
     this.pool = pool;
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -1483,6 +1487,67 @@ export class CouncilService extends EventEmitter {
       accessCount: row.access_count,
       isValid: row.is_valid,
     }));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Council', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.agents.has(d.id)) this.agents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Council', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.deliberationTracers.has(d.id)) this.deliberationTracers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CouncilService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CouncilService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

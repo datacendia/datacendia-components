@@ -18,6 +18,7 @@ import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage, getErrorStack } from '../../utils/errors.js';
 import { prisma } from '../../config/database.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -186,6 +187,9 @@ class DataDiodeService extends EventEmitter {
     this.rejectPath = process.env.DIODE_REJECT_PATH || '/var/datacendia/diode/rejected';
     
     logger.info('[DataDiode] Service initialized - Sovereign ingest ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -1134,6 +1138,85 @@ class DataDiodeService extends EventEmitter {
     }
     
     logger.info('[DataDiode] Service shut down');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'DataDiode', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.sources.has(d.id)) this.sources.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'DataDiode', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.events.has(d.id)) this.events.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'DataDiode', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.watchers.has(d.id)) this.watchers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[DataDiodeService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[DataDiodeService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

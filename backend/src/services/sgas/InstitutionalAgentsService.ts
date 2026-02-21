@@ -44,6 +44,8 @@ import {
   generateSGASId,
   hashState,
 } from './types.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // INSTITUTIONAL AGENT DEFINITIONS
@@ -504,6 +506,9 @@ export class InstitutionalAgentsService extends EventEmitter {
   constructor() {
     super();
     this.initializeAgents();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeAgents(): void {
@@ -1135,6 +1140,67 @@ export class InstitutionalAgentsService extends EventEmitter {
       allViolations: [],
       allRequiredActions: outputs.flatMap(o => o.requiredActions),
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'InstitutionalAgents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.agents.has(d.id)) this.agents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'InstitutionalAgents', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executionHistory.has(d.id)) this.executionHistory.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[InstitutionalAgentsService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[InstitutionalAgentsService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

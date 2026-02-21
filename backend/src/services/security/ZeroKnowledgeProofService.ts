@@ -37,6 +37,7 @@ import { sha256 } from '@noble/hashes/sha256.js';
 import { bytesToHex } from '@noble/hashes/utils.js';
 import { groth16ProofService } from './groth16/Groth16ProofService.js';
 import type { Groth16Proof, Groth16VerificationResult } from './groth16/Groth16ProofService.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -153,6 +154,9 @@ export class ZeroKnowledgeProofService {
 
   constructor() {
     logger.info('[CendiaZKP] Real Zero-Knowledge Proof Service initialized — Schnorr sigma protocols on secp256k1 via @noble/curves');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -537,6 +541,85 @@ export class ZeroKnowledgeProofService {
     proofCount: number;
   }> {
     return groth16ProofService.getStatus();
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'ZeroKnowledgeProof', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.proofRequests.has(d.id)) this.proofRequests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'ZeroKnowledgeProof', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.proofs.has(d.id)) this.proofs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'ZeroKnowledgeProof', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.certificates.has(d.id)) this.certificates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[ZeroKnowledgeProofService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ZeroKnowledgeProofService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

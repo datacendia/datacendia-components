@@ -13,6 +13,7 @@ import fs from 'fs';
 import path from 'path';
 import { logger } from '../../utils/logger.js';
 import { KMSClient, SignCommand, VerifyCommand, EncryptCommand, DecryptCommand } from '@aws-sdk/client-kms';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES & INTERFACES
@@ -113,6 +114,9 @@ export class KeyManagementService {
     };
 
     this.localKeyDir = this.config.localKeyPath || '/var/datacendia/keys';
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -1209,6 +1213,49 @@ export class KeyManagementService {
 
     // For cloud KMS, return the key ARN/ID hash
     return crypto.createHash('sha256').update(keyId).digest('hex');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'KeyManagement', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.localKeys.has(d.id)) this.localKeys.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[KeyManagementService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[KeyManagementService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

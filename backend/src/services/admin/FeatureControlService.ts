@@ -10,6 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import { PrismaClient } from '@prisma/client';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -120,6 +121,9 @@ class FeatureControlService {
     this.syncFeatureFlagsToDb().catch(err => {
       logger.warn('FeatureControlService: Failed to sync feature flags to DB', err);
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -1232,6 +1236,103 @@ class FeatureControlService {
         hidden: routes.filter(r => r.visibility === 'hidden').length
       }
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'FeatureControl', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.features.has(d.id)) this.features.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'FeatureControl', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.agents.has(d.id)) this.agents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'FeatureControl', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.suites.has(d.id)) this.suites.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'FeatureControl', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.pricing.has(d.id)) this.pricing.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[FeatureControlService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[FeatureControlService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

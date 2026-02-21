@@ -53,6 +53,8 @@ import {
   OrbitEdge,
   EdgeType,
 } from './CendiaOrbitService.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
+import { logger } from '../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -230,6 +232,9 @@ export class CendiaCascadeService extends EventEmitter {
   constructor(orbitInstance?: CendiaOrbitService) {
     super();
     this.orbit = orbitInstance || orbitService;
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -867,6 +872,49 @@ export class CendiaCascadeService extends EventEmitter {
 
   getGraphStats() {
     return this.orbit.getStats();
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaCascade', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.reports.has(d.id)) this.reports.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaCascadeService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaCascadeService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

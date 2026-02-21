@@ -19,7 +19,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { VerticalId, CommandContext, CommandIntent, CommandExecution, VERTICAL_CONFIGS } from './CendiaCommandService';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // ============================================================================
 // PLATINUM INTERFACES
@@ -277,6 +278,17 @@ export const VERTICAL_PLATINUM_CONFIGS: Record<VerticalId, {
 
 export class CendiaCommandPlatinumService {
   private executions: Map<string, PlatinumCommandExecution> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Execute command with full platinum standard
@@ -680,6 +692,49 @@ export class CendiaCommandPlatinumService {
    */
   getPlatinumConfig(verticalId: VerticalId) {
     return VERTICAL_PLATINUM_CONFIGS[verticalId];
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaCommandPlatinum', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executions.has(d.id)) this.executions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaCommandPlatinumService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaCommandPlatinumService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

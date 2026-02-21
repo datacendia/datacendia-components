@@ -11,7 +11,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -92,6 +92,17 @@ class CendiaFoundryService {
     'Year 11-15: Autonomous enterprise management',
     'Year 16-20: Human-AI organizational symbiosis',
   ];
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // FEATURE PRIORITIZATION
@@ -882,6 +893,67 @@ Output JSON:
       debtVelocityImpact: { unresolvedDebtHours, estimatedVelocityDrag, recommendedSprintAllocation },
       healthIndicators,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaFoundry', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.roadmap.has(d.id)) this.roadmap.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaFoundry', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.technicalDebt.has(d.id)) this.technicalDebt.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaFoundryService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaFoundryService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

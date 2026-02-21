@@ -12,7 +12,7 @@ import crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { KeyManagementService, SignatureResult } from '../security/KeyManagementService.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -187,6 +187,49 @@ export class ToolCallTracerImpl implements ToolCallTracer {
   getCalls(): ToolCall[] {
     return Array.from(this.calls.values());
   }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'ToolCallTracerImpl', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.calls.has(d.id)) this.calls.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[ToolCallTracerImpl] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ToolCallTracerImpl] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
+  }
 }
 
 // =============================================================================
@@ -224,6 +267,9 @@ export class CouncilDecisionPacketService {
   
   constructor() {
     this.kms = new KeyManagementService();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**

@@ -18,6 +18,8 @@
  */
 
 import { EventEmitter } from 'events';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // API Base URLs
 const COURTLISTENER_API_BASE = 'https://www.courtlistener.com/api/rest/v3';
@@ -120,6 +122,9 @@ class LegalResearchService extends EventEmitter {
     this.openStatesApiKey = process.env['OPENSTATES_API_KEY'] || null;
     this.westlawApiKey = process.env['WESTLAW_API_KEY'] || null;
     this.westlawClientId = process.env['WESTLAW_CLIENT_ID'] || null;
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -923,6 +928,49 @@ class LegalResearchService extends EventEmitter {
       formatted += `\nSource: ${r.source}`;
       return formatted;
     }).join('\n\n---\n\n');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'LegalResearch', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.cache.has(d.id)) this.cache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[LegalResearchService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[LegalResearchService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -25,7 +25,7 @@ import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // FEDERATION POLICY & SUPPLY-CHAIN TYPES
@@ -351,6 +351,9 @@ class FederatedMeshService extends EventEmitter {
     this.federationPolicy = this.getDefaultPolicy();
     
     logger.info('[FederatedMesh] Service initialized - Offline delta exchange ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   /**
@@ -1328,6 +1331,139 @@ class FederatedMeshService extends EventEmitter {
       appliedDeltas: deltas.filter(d => d.applied).length,
       pendingDeltas: deltas.filter(d => !d.applied).length,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'FederatedMesh', recordType: 'node_registered', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.knownNodes.has(d.id)) this.knownNodes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'FederatedMesh', recordType: 'node_registered', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.deltas.has(d.id)) this.deltas.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'FederatedMesh', recordType: 'node_registered', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.manifests.has(d.id)) this.manifests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'FederatedMesh', recordType: 'node_registered', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.federatedQueries.has(d.id)) this.federatedQueries.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'FederatedMesh', recordType: 'node_registered', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.sharedInsights.has(d.id)) this.sharedInsights.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      const recs_5 = await loadServiceRecords({ serviceName: 'FederatedMesh', recordType: 'node_registered', limit: 1000 });
+
+
+      for (const rec of recs_5) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.mergeJobs.has(d.id)) this.mergeJobs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_5.length;
+
+
+      if (restored > 0) logger.info(`[FederatedMeshService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[FederatedMeshService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

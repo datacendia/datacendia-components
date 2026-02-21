@@ -17,6 +17,7 @@ import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
 import { recordChronosEvent } from './ChronosEventBus.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -185,6 +186,17 @@ export interface DissentConfig {
 class CendiaDissentService {
   private dissentsCache: Map<string, Dissent> = new Map();
   private configCache: Map<string, DissentConfig> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
   
   private defaultConfig: DissentConfig = {
     responseDeadline: 72,
@@ -1177,6 +1189,67 @@ class CendiaDissentService {
       : 'Insufficient data for prediction';
 
     return { topPatterns, systemicIssues, underDissentedAreas, predictedNextDissent };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaDissent', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.dissentsCache.has(d.id)) this.dissentsCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaDissent', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.configCache.has(d.id)) this.configCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaDissentService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaDissentService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

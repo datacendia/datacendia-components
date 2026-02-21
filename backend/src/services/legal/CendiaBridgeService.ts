@@ -19,9 +19,10 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import * as fs from 'fs';
 import * as path from 'path';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -235,6 +236,9 @@ export class CendiaBridgeService extends EventEmitter {
 
   constructor() {
     super();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -743,6 +747,103 @@ export class CendiaBridgeService extends EventEmitter {
       byConnectorType,
       byDataType,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaBridge', recordType: 'connector', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.connectors.has(d.id)) this.connectors.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaBridge', recordType: 'connector', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.jobs.has(d.id)) this.jobs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaBridge', recordType: 'connector', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.items.has(d.id)) this.items.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'CendiaBridge', recordType: 'connector', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.syncTimers.has(d.id)) this.syncTimers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      if (restored > 0) logger.info(`[CendiaBridgeService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaBridgeService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -14,6 +14,8 @@ import { Queue, Worker, Job, QueueEvents } from 'bullmq';
 import { EventEmitter } from 'events';
 import Redis from 'ioredis';
 import { config } from '../../config/index.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 function attachRedisEventHandlers(client: Redis, label: string) {
   client.on('error', (err) => {
@@ -162,6 +164,17 @@ class AgentQueueService extends EventEmitter {
   private isInitialized = false;
   private isEnabled = false;
   private connection: Redis | null = null;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Initialize all queues
@@ -487,6 +500,85 @@ class AgentQueueService extends EventEmitter {
     this.isInitialized = false;
     this.isEnabled = false;
     console.log('[AgentQueue] Shutdown complete');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'AgentQueue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.queues.has(d.id)) this.queues.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'AgentQueue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.workers.has(d.id)) this.workers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'AgentQueue', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.queueEvents.has(d.id)) this.queueEvents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[AgentQueueService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[AgentQueueService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

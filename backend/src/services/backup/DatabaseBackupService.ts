@@ -32,6 +32,7 @@ import * as path from 'path';
 import * as os from 'os';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const execAsync = promisify(exec);
 
@@ -125,6 +126,9 @@ class DatabaseBackupService {
     } else {
       logger.info('[CendiaBackup] Disabled — set BACKUP_ENABLED=true to enable');
     }
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -562,6 +566,49 @@ class DatabaseBackupService {
 
   isEnabled(): boolean {
     return this.config.enabled;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'DatabaseBackup', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.manifests.has(d.id)) this.manifests.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[DatabaseBackupService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[DatabaseBackupService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

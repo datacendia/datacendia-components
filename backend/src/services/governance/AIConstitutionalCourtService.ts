@@ -20,6 +20,7 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -245,6 +246,9 @@ export class AIConstitutionalCourtService {
       logger.warn('[CendiaCourt] DB not available, using in-memory only');
     });
     logger.info('[CendiaCourt] AI Constitutional Court initialized with Prisma persistence');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initFromDb(): Promise<void> {
@@ -633,6 +637,67 @@ export class AIConstitutionalCourtService {
     const year = new Date().getFullYear();
     const number = ++this.caseCounter;
     return `${year}-AICC-${number.toString().padStart(5, '0')}`;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'AIConstitutionalCourt', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.disputes.has(d.id)) this.disputes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'AIConstitutionalCourt', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.opinions.has(d.id)) this.opinions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[AIConstitutionalCourtService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[AIConstitutionalCourtService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

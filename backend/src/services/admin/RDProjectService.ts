@@ -8,7 +8,8 @@
 // =============================================================================
 
 import { config } from '../../config/index.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // TYPES
@@ -92,6 +93,9 @@ class RDProjectService {
 
   constructor() {
     this.initializeProjects();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeProjects(): void {
@@ -525,6 +529,49 @@ class RDProjectService {
       averageCompletion: projects.length > 0 ? totalCompletion / projects.length : 0,
       activeProjects: activeCount
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'RDProject', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.projects.has(d.id)) this.projects.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[RDProjectService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[RDProjectService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

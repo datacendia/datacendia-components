@@ -26,6 +26,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import { vectorDB } from '../vectordb/index.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -242,6 +243,9 @@ class DecisionSimilarityService {
     });
     // Initialize vector DB in background (non-blocking)
     this.initVectorSearch();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private async initVectorSearch(): Promise<void> {
@@ -1046,6 +1050,85 @@ class DecisionSimilarityService {
     this.detectPatterns('org-datacendia').catch(err => logger.error('Pattern detection failed:', err));
     this.detectPatterns('org-meridian').catch(err => logger.error('Pattern detection failed:', err));
     this.detectPatterns('org-celtic').catch(err => logger.error('Pattern detection failed:', err));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'DecisionSimilarity', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.decisions.has(d.id)) this.decisions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'DecisionSimilarity', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.searchResults.has(d.id)) this.searchResults.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'DecisionSimilarity', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.patterns.has(d.id)) this.patterns.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[DecisionSimilarityService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[DecisionSimilarityService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

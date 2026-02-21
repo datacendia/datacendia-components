@@ -15,6 +15,7 @@
 import { BaseService } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { PrismaClient } from '@prisma/client';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -156,6 +157,9 @@ export class DecisionService extends BaseService {
       version: '1.0.0',
       dependencies: [],
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -824,6 +828,67 @@ export class DecisionService extends BaseService {
 
   getModelForTask(): string {
     return aiModelSelector.getModelForService('decision');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Decision', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.decisions.has(d.id)) this.decisions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Decision', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.orgIndex.has(d.id)) this.orgIndex.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[DecisionService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[DecisionService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

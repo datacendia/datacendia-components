@@ -14,7 +14,8 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // ============================================================================
 // TYPES
@@ -886,7 +887,9 @@ export const VERTICAL_CONFIGS: Record<VerticalId, {
 export class CendiaCommandService {
   private executions: Map<string, CommandExecution> = new Map();
 
-  constructor() {}
+  constructor() {
+    this.loadFromDB().catch(() => {});
+  }
 
   /**
    * Get vertical configuration
@@ -1057,6 +1060,49 @@ export class CendiaCommandService {
    */
   getExecution(id: string): CommandExecution | undefined {
     return this.executions.get(id);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaCommand', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executions.has(d.id)) this.executions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CendiaCommandService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaCommandService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -17,7 +17,7 @@
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -177,6 +177,9 @@ class ShadowCouncilService extends EventEmitter {
     setInterval(() => this.cleanupExpiredSessions(), 60 * 60 * 1000); // Hourly
     
     logger.info('[ShadowCouncil] Service initialized - Sandbox deliberation ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -595,6 +598,67 @@ This is a SHADOW deliberation and is not recorded to the official ledger.`;
       Array.from(this.sessions.values())
         .flatMap(s => s.deliberations)
         .find(d => d.id === deliberationId);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'ShadowCouncil', recordType: 'session', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.sessions.has(d.id)) this.sessions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'ShadowCouncil', recordType: 'session', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.activeDeliberations.has(d.id)) this.activeDeliberations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[ShadowCouncilService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ShadowCouncilService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

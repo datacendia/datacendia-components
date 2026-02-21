@@ -14,6 +14,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -123,6 +124,17 @@ export interface AttackSimulation {
 class RedTeamService {
   private activeSimulations: Map<string, AttackSimulation> = new Map();
   private exploitCache: Map<string, ExploitPath> = new Map();
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Run Monte-Carlo attack simulation
@@ -752,6 +764,67 @@ Respond with only valid JSON.`;
 
   private async applyWorkflowPatch(patch: any, orgId: string): Promise<void> {
     logger.info('[RedTeam] Applying workflow patch');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'RedTeam', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.activeSimulations.has(d.id)) this.activeSimulations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'RedTeam', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.exploitCache.has(d.id)) this.exploitCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[RedTeamService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[RedTeamService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -10,7 +10,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { ollama } from './ollama.js';
-import { persistServiceRecord } from '../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -174,6 +174,9 @@ export class CendiaNarrativesService extends BaseService {
     for (const template of NARRATIVE_TEMPLATES) {
       this.templates.set(template.id, template);
     }
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -1030,6 +1033,85 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
         percentChange,
       },
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaNarratives', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.narratives.has(d.id)) this.narratives.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaNarratives', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.templates.has(d.id)) this.templates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaNarratives', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.narrativesByOrg.has(d.id)) this.narrativesByOrg.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CendiaNarrativesService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaNarrativesService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

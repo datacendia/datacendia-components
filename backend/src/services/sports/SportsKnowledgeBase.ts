@@ -16,7 +16,7 @@
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -298,6 +298,9 @@ class SportsKnowledgeBaseService extends EventEmitter {
   private constructor() {
     super();
     this.initializeCorpus();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): SportsKnowledgeBaseService {
@@ -582,6 +585,49 @@ class SportsKnowledgeBaseService extends EventEmitter {
       types: Array.from(types),
       provenanceRecords: this.provenanceLog.length,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'SportsKnowledgeBase', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.documents.has(d.id)) this.documents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[SportsKnowledgeBaseService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[SportsKnowledgeBaseService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

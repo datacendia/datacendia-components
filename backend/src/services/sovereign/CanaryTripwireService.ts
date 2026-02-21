@@ -18,6 +18,7 @@ import * as path from 'path';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -305,6 +306,9 @@ class CanaryTripwireService extends EventEmitter {
     this.startPeriodicScan();
     
     logger.info('[CanaryTripwire] Service initialized - Exfiltration detection ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private ensureDirectories(): void {
@@ -759,6 +763,67 @@ class CanaryTripwireService extends EventEmitter {
     if (this.scanInterval) {
       clearInterval(this.scanInterval);
     }
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CanaryTripwire', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.canaries.has(d.id)) this.canaries.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CanaryTripwire', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.alerts.has(d.id)) this.alerts.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CanaryTripwireService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CanaryTripwireService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// LOGICGATE™ - PARALLEL PROCESSING ARCHITECTURE
+// LOGICGATEï¿½ - PARALLEL PROCESSING ARCHITECTURE
 // Concurrent Agent Execution & Burst Compute
 // "The Accelerator" - Recursive bursts at infrastructure speed
 // =============================================================================
@@ -12,6 +12,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
 import { getErrorMessage } from '../../utils/errors.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 const prisma = new PrismaClient();
 
@@ -80,6 +81,17 @@ class LogicGateService {
   private taskQueue: ParallelTask[] = [];
   private activeWorkers: number = 0;
   private readonly MAX_WORKERS = 50;
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
   private metrics = {
     totalExecutions: 0,
     totalTasks: 0,
@@ -473,6 +485,49 @@ Provide a unified security posture recommendation in 2-3 sentences.
         : 1,
       burstCapacity: this.MAX_WORKERS - this.activeWorkers
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'LogicGate', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.executions.has(d.id)) this.executions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[LogicGateService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[LogicGateService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

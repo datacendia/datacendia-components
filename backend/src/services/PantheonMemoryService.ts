@@ -10,7 +10,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { ollama } from './ollama.js';
-import { persistServiceRecord } from '../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -109,6 +109,9 @@ export class PantheonMemoryService extends BaseService {
       version: '1.0.0',
       dependencies: [],
     });
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -729,6 +732,121 @@ What is the key difference and lesson learned? Be concise (1-2 sentences).`;
       learnings: orgLearnings.length,
       avgAccessCount: orgMemories.length > 0 ? totalAccess / orgMemories.length : 0,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'PantheonMemory', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.memories.has(d.id)) this.memories.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'PantheonMemory', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.memoriesByOrg.has(d.id)) this.memoriesByOrg.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'PantheonMemory', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.memoriesByAgent.has(d.id)) this.memoriesByAgent.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      const recs_3 = await loadServiceRecords({ serviceName: 'PantheonMemory', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_3) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.learnings.has(d.id)) this.learnings.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_3.length;
+
+
+      const recs_4 = await loadServiceRecords({ serviceName: 'PantheonMemory', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_4) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.embeddingCache.has(d.id)) this.embeddingCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_4.length;
+
+
+      if (restored > 0) logger.info(`[PantheonMemoryService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[PantheonMemoryService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

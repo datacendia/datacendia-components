@@ -17,7 +17,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -203,6 +203,9 @@ class PortableInstanceService extends EventEmitter {
     this.storagePath = process.env.PORTABLE_STORAGE_PATH || '/var/datacendia/portable';
     this.ensureDirectories();
     logger.info('[PortableInstance] Service initialized - USB deployment ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private ensureDirectories(): void {
@@ -820,6 +823,85 @@ For support: support@datacendia.com
       path: image.imagePath,
       filename,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'PortableInstance', recordType: 'config_created', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.configs.has(d.id)) this.configs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'PortableInstance', recordType: 'config_created', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.images.has(d.id)) this.images.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'PortableInstance', recordType: 'config_created', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.buildProgress.has(d.id)) this.buildProgress.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[PortableInstanceService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[PortableInstanceService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

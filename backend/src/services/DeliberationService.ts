@@ -13,6 +13,7 @@ import { druidEventStream } from './DruidEventStream.js';
 import { prisma } from '../config/database.js';
 import type { SocketServer } from '../websocket/SocketServer.js';
 import { recordChronosEvent } from './ChronosEventBus.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -114,6 +115,9 @@ export class DeliberationService extends BaseService {
     });
     this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://localhost:11434';
     this.socketServer = socketServer || null;
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   async initialize(): Promise<void> {
@@ -763,6 +767,49 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
 
   getModelForTask(): string {
     return aiModelSelector.getModelForService('council');
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Deliberation', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.deliberationCache.has(d.id)) this.deliberationCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[DeliberationService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[DeliberationService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

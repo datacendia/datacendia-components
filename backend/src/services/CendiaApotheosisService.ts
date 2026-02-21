@@ -24,6 +24,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 
 // =============================================================================
@@ -484,6 +485,17 @@ class CendiaApotheosisService {
 
   // Audit log storage (in-memory for now, ROADMAP: persist to database)
   private auditLog: AdjudicationAuditRecord[] = [];
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   /**
    * Validate adjudication response against strict schema.
@@ -1896,6 +1908,67 @@ Respond with ONLY valid JSON:
       recommendations,
       comparisonBenchmark: 78, // Industry average benchmark
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaApotheosis', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.runningSimulations.has(d.id)) this.runningSimulations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaApotheosis', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.configCache.has(d.id)) this.configCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[CendiaApotheosisService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaApotheosisService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -11,6 +11,7 @@ import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
 import { recordChronosEvent } from './ChronosEventBus.js';
+import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -817,6 +818,17 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
   private collectionJobs: Map<string, OutcomeCollectionJob> = new Map();
   private collectionInterval: ReturnType<typeof setInterval> | null = null;
 
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
+
   /**
    * Schedule automated outcome collection for a decision.
    * After a deliberation completes, call this to auto-collect actuals
@@ -1291,6 +1303,67 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
       mode: d.mode || 'standard',
       hasScheduledCollection: scheduledSet.has(d.id),
     }));
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'Echo', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.outcomeCache.has(d.id)) this.outcomeCache.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'Echo', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.collectionJobs.has(d.id)) this.collectionJobs.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      if (restored > 0) logger.info(`[EchoService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[EchoService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

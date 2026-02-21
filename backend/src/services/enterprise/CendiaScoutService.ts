@@ -10,7 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -86,6 +86,17 @@ class CendiaScoutService {
   private pipelines: Map<string, ShadowPipeline> = new Map();
   private candidates: Map<string, Candidate> = new Map();
   private alerts: TalentAlert[] = [];
+
+
+
+  constructor() {
+
+
+    this.loadFromDB().catch(() => {});
+
+
+  }
+
 
   // ---------------------------------------------------------------------------
   // PSYCHOMETRIC GENOME MAPPING
@@ -812,6 +823,85 @@ Write a warm, personalized offer letter. Include placeholder for [SALARY] and [S
       },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaScout', recordType: 'candidate', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.topPerformers.has(d.id)) this.topPerformers.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaScout', recordType: 'pipeline', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.pipelines.has(d.id)) this.pipelines.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaScout', recordType: 'pipeline', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.candidates.has(d.id)) this.candidates.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CendiaScoutService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaScoutService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

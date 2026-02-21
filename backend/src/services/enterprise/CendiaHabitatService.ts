@@ -10,7 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -157,6 +157,9 @@ class CendiaHabitatService {
 
   constructor() {
     logger.info('CendiaHabitatÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - The Building Brain is online');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------
@@ -949,6 +952,85 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
       renewableOpportunity: { currentRenewable: 5, targetRenewable: 30, investmentRequired: Math.round(totalEnergyKwh * 0.25 * 0.05) },
       insights,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CendiaHabitat', recordType: 'zone', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.zones.has(d.id)) this.zones.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CendiaHabitat', recordType: 'zone', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.sensorHistory.has(d.id)) this.sensorHistory.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CendiaHabitat', recordType: 'zone', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.utilizationData.has(d.id)) this.utilizationData.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CendiaHabitatService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CendiaHabitatService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

@@ -37,7 +37,7 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 
@@ -238,6 +238,9 @@ class QRAirGapBridgeService extends EventEmitter {
     setInterval(() => this.cleanupExpired(), 60000);
     
     logger.info('[QRAirGapBridge] Service initialized - Zero-media transfer ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   // ===========================================================================
@@ -768,6 +771,85 @@ class QRAirGapBridgeService extends EventEmitter {
    */
   getCaptureSession(sessionId: string): CaptureSession | undefined {
     return this.captureSessions.get(sessionId);
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'QRAirGapBridge', recordType: 'payload_created', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.payloads.has(d.id)) this.payloads.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'QRAirGapBridge', recordType: 'payload_created', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.sequences.has(d.id)) this.sequences.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'QRAirGapBridge', recordType: 'payload_created', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.captureSessions.has(d.id)) this.captureSessions.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[QRAirGapBridgeService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[QRAirGapBridgeService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

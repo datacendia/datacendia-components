@@ -10,6 +10,8 @@
 import WebSocket from 'ws';
 import type { Server as HttpServer, IncomingMessage } from 'http';
 import { CouncilService, StreamEvent } from './CouncilService';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { logger } from '../../utils/logger.js';
 
 // Extended WebSocket client with custom properties
 interface WebSocketClient {
@@ -68,6 +70,9 @@ export class CouncilWebSocketServer {
     });
 
     console.log('[CouncilWebSocket] Server initialized on /ws/council');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private setupEventHandlers(): void {
@@ -249,6 +254,49 @@ export class CouncilWebSocketServer {
       clearInterval(this.heartbeatInterval);
     }
     this.wss.close();
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CouncilWebSocketServer', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.clients.has(d.id)) this.clients.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      if (restored > 0) logger.info(`[CouncilWebSocketServer] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CouncilWebSocketServer] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

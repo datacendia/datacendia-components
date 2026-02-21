@@ -17,7 +17,7 @@ import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry } from './TestEvidenceLedgerService.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -308,6 +308,9 @@ export class ComplianceDashboardService extends EventEmitter {
     this.initializeFrameworks();
     
     logger.info('[ComplianceDashboard] Service initialized - Compliance tracking ready');
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   static getInstance(): ComplianceDashboardService {
@@ -915,6 +918,85 @@ export class ComplianceDashboardService extends EventEmitter {
       criticalGaps: allGaps,
       auditReadiness,
     };
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'ComplianceDashboard', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.frameworks.has(d.id)) this.frameworks.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'ComplianceDashboard', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.attestations.has(d.id)) this.attestations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'ComplianceDashboard', recordType: 'record', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.scores.has(d.id)) this.scores.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[ComplianceDashboardService] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[ComplianceDashboardService] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 

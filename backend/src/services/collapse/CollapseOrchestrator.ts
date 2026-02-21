@@ -14,7 +14,7 @@
  */
 
 import { createHash } from 'crypto';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import {
   CollapseAgentType,
   CollapseConfig,
@@ -69,6 +69,7 @@ import {
   // G. Abuse
   AdversarialAbuseAgent,
 } from './agents/index.js';
+import { logger } from '../../utils/logger.js';
 
 export class CollapseOrchestrator {
   private agents: Map<CollapseAgentType, BaseCollapseAgent> = new Map();
@@ -79,6 +80,9 @@ export class CollapseOrchestrator {
   constructor(config: CollapseConfig = DEFAULT_COLLAPSE_CONFIG) {
     this.config = config;
     this.initializeAgents();
+
+
+    this.loadFromDB().catch(() => {});
   }
 
   private initializeAgents(): void {
@@ -530,6 +534,85 @@ export class CollapseOrchestrator {
    */
   getConfig(): CollapseConfig {
     return this.config;
+  }
+
+
+
+  async loadFromDB(): Promise<void> {
+
+
+    try {
+
+
+      let restored = 0;
+
+
+      const recs = await loadServiceRecords({ serviceName: 'CollapseOrchestrator', recordType: 'deliberation', limit: 1000 });
+
+
+      for (const rec of recs) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.agents.has(d.id)) this.agents.set(d.id, d);
+
+
+      }
+
+
+      restored += recs.length;
+
+
+      const recs_1 = await loadServiceRecords({ serviceName: 'CollapseOrchestrator', recordType: 'failure_envelope', limit: 1000 });
+
+
+      for (const rec of recs_1) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.deliberations.has(d.id)) this.deliberations.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_1.length;
+
+
+      const recs_2 = await loadServiceRecords({ serviceName: 'CollapseOrchestrator', recordType: 'failure_envelope', limit: 1000 });
+
+
+      for (const rec of recs_2) {
+
+
+        const d = rec.data as any;
+
+
+        if (d?.id && !this.envelopes.has(d.id)) this.envelopes.set(d.id, d);
+
+
+      }
+
+
+      restored += recs_2.length;
+
+
+      if (restored > 0) logger.info(`[CollapseOrchestrator] Restored ${restored} records from database`);
+
+
+    } catch (err) {
+
+
+      logger.warn(`[CollapseOrchestrator] DB reload skipped: ${(err as Error).message}`);
+
+
+    }
+
+
   }
 }
 
