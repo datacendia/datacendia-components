@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -197,6 +198,7 @@ class CendiaDocketService {
       updatedAt: new Date(),
     };
     this.matters.set(newMatter.id, newMatter);
+    persistServiceRecord({ serviceName: 'CendiaDocket', recordType: 'matter', referenceId: newMatter.id, data: newMatter });
     logger.info(`CendiaDocket: Created matter ${newMatter.title} (${newMatter.id})`);
     return newMatter;
   }

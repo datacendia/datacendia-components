@@ -25,6 +25,7 @@ import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // FEDERATION POLICY & SUPPLY-CHAIN TYPES
@@ -639,7 +640,7 @@ class FederatedMeshService extends EventEmitter {
     
     this.knownNodes.set(node.id, node);
     await this.persistNode(node);
-    
+    persistServiceRecord({ serviceName: 'FederatedMesh', recordType: 'node_registered', referenceId: node.id, data: { id: node.id, name: node.name, registeredAt: new Date() } });
     logger.info(`[FederatedMesh] Registered remote node: ${node.name}`);
     this.emit('node:registered', node);
     

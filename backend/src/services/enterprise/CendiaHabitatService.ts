@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -170,6 +171,7 @@ class CendiaHabitatService {
     };
     this.zones.set(newZone.id, newZone);
     this.sensorHistory.set(newZone.id, []);
+    persistServiceRecord({ serviceName: 'CendiaHabitat', recordType: 'zone', referenceId: newZone.id, data: newZone });
     logger.info(`CendiaHabitat: Registered zone ${newZone.name} (${newZone.id})`);
     return newZone;
   }

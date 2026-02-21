@@ -10,6 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -219,6 +220,7 @@ Output JSON:
       };
 
       this.candidates.set(matchedCandidate.id, matchedCandidate);
+      persistServiceRecord({ serviceName: 'CendiaScout', recordType: 'candidate', referenceId: matchedCandidate.id, data: matchedCandidate });
       return matchedCandidate;
     } catch (error) {
       logger.error('Candidate matching failed:', error);
@@ -253,6 +255,7 @@ Output JSON:
     };
 
     this.pipelines.set(roleId, pipeline);
+    persistServiceRecord({ serviceName: 'CendiaScout', recordType: 'pipeline', referenceId: roleId, data: pipeline });
     logger.info(`CendiaScout: Created shadow pipeline for ${roleName}`);
     return pipeline;
   }

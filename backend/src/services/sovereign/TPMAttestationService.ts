@@ -16,6 +16,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -498,7 +499,7 @@ class TPMAttestationService extends EventEmitter {
     // Store signed decision
     this.signedDecisions.set(id, signedDecision);
     await this.persistSignedDecision(signedDecision);
-    
+    persistServiceRecord({ serviceName: 'TPMAttestation', recordType: 'signed_decision', referenceId: id, data: { id, decisionId: params.decisionId, signedAt: new Date() } });
     logger.info(`[TPMAttestation] Signed decision ${params.decisionId}`);
     this.emit('decision:signed', signedDecision);
     

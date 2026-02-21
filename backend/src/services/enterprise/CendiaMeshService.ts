@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -315,6 +316,7 @@ Generate a comprehensive culture profile in JSON:
     };
 
     this.profiles.set(profile.id, profile);
+    persistServiceRecord({ serviceName: 'CendiaMesh', recordType: 'culture_profile', referenceId: profile.id, data: profile });
     logger.info(`CendiaMesh: Culture profile created for ${companyName}`);
     return profile;
   }

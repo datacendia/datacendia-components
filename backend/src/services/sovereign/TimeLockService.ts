@@ -37,6 +37,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -501,7 +502,7 @@ class TimeLockService extends EventEmitter {
     
     this.vaults.set(id, vault);
     await this.persistVault(vault);
-    
+    persistServiceRecord({ serviceName: 'TimeLock', recordType: 'vault_created', referenceId: id, data: { id, releaseAt: releaseAtDate.toISOString(), status: 'locked' } });
     logger.info(`[TimeLock] Created vault ${id}: releases at ${releaseAtDate.toISOString()}`);
     this.emit('vault:created', vault);
     

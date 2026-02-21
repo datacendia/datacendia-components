@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -259,7 +260,7 @@ class CendiaInventumService {
     };
 
     this.ideas.set(newIdea.id, newIdea);
-
+    persistServiceRecord({ serviceName: 'CendiaInventum', recordType: 'idea', referenceId: newIdea.id, data: newIdea });
     if (newIdea.patentPotential) {
       logger.info(`CendiaInventum: Patent-potential idea captured - ${newIdea.title}`);
     } else {
@@ -434,7 +435,7 @@ Generate a provisional patent draft in JSON:
       updatedAt: new Date(),
     };
     this.patents.set(newPatent.id, newPatent);
-
+    persistServiceRecord({ serviceName: 'CendiaInventum', recordType: 'patent', referenceId: newPatent.id, data: newPatent });
     // Link to ideas
     for (const ideaId of newPatent.linkedIdeas) {
       const idea = this.ideas.get(ideaId);

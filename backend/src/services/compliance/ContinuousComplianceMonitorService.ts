@@ -17,6 +17,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -302,7 +303,7 @@ export class ContinuousComplianceMonitorService {
     const existing = this.snapshots.get(key) || [];
     existing.push(snapshot);
     this.snapshots.set(key, existing);
-
+    persistServiceRecord({ serviceName: 'ContinuousCompliance', recordType: 'framework_scan', organizationId, referenceId: snapshot.id, data: snapshot });
     logger.info(`Framework scan complete: ${framework} - Score: ${snapshot.overallScore}%`);
     return snapshot;
   }
@@ -324,7 +325,7 @@ export class ContinuousComplianceMonitorService {
     };
 
     this.drifts.set(drift.id, drift);
-
+    persistServiceRecord({ serviceName: 'ContinuousCompliance', recordType: 'drift_detected', referenceId: drift.id, data: drift });
     // Create alert for significant drift
     if (drift.impact === 'critical' || drift.impact === 'high') {
       await this.createAlert({

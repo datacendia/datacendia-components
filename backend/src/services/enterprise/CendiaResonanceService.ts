@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -268,6 +269,7 @@ class CendiaResonanceService {
       createdAt: new Date(),
     };
     this.campaigns.set(newCampaign.id, newCampaign);
+    persistServiceRecord({ serviceName: 'CendiaResonance', recordType: 'campaign', referenceId: newCampaign.id, data: newCampaign });
     logger.info(`CendiaResonance: Campaign created - ${newCampaign.name}`);
     return newCampaign;
   }
@@ -558,6 +560,7 @@ Analyze for leak patterns and respond in JSON:
     };
 
     this.crisisResponses.set(crisis.id, crisis);
+    persistServiceRecord({ serviceName: 'CendiaResonance', recordType: 'crisis_response', referenceId: crisis.id, data: crisis });
     logger.error(`CendiaResonance: CRISIS INITIATED - ${crisisType} (${severity})`);
     return crisis;
   }

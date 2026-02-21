@@ -10,6 +10,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { cendiaAuditService } from './CendiaAuditService.js';
+import { persistServiceRecord } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -266,7 +267,7 @@ export class CendiaSentryService extends BaseService {
     
     // Store check
     this.checks.set(id, check);
-    
+    persistServiceRecord({ serviceName: 'CendiaSentry', recordType: 'content_check', referenceId: id, data: { id, blocked: wasBlocked, warnings: hasWarnings, checkedAt: new Date() } });
     // Log to audit if there were issues
     if (wasBlocked || hasWarnings) {
       await cendiaAuditService.logGuardrail({

@@ -17,6 +17,7 @@ import * as path from 'path';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage, getErrorStack } from '../../utils/errors.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -415,6 +416,7 @@ class DataDiodeService extends EventEmitter {
     } finally {
       this.processing.delete(filePath);
       this.events.set(event.id, event);
+      await this.persistEvent(event);
     }
   }
 
@@ -479,18 +481,77 @@ class DataDiodeService extends EventEmitter {
   private async securityScan(event: IngestEvent): Promise<void> {
     event.status = 'scanning';
     
-    // ROADMAP: integrate ClamAV or VirusTotal API for real malware scanning
-    // Current: basic file size + extension checks only
+    // Multi-layer security scanning:
+    // Layer 1: File size limits (reject > 500MB)
+    // Layer 2: Magic byte / file type validation
+    // Layer 3: Shannon entropy analysis (detect encrypted/packed payloads)
+    // Layer 4: Pattern-based content scanning
+    // ROADMAP: Layer 5 would be ClamAV or VirusTotal API integration
     const content = fs.readFileSync(event.filePath);
-    
-    // Check for suspicious patterns
+
+    // Layer 1: Size limits
+    const MAX_FILE_SIZE = 500 * 1024 * 1024; // 500MB
+    if (content.length > MAX_FILE_SIZE) {
+      event.scanResult = 'suspicious';
+      event.status = 'rejected';
+      throw new Error(`File exceeds maximum size: ${content.length} > ${MAX_FILE_SIZE}`);
+    }
+
+    // Layer 2: Magic byte validation
+    const magicBytes: Record<string, Buffer> = {
+      grib2: Buffer.from('GRIB'),
+      json: Buffer.from('{'),
+      xml: Buffer.from('<?xml'),
+      csv: Buffer.alloc(0), // No magic bytes for CSV
+      jsonl: Buffer.alloc(0),
+      parquet: Buffer.from('PAR1'),
+    };
+    const expectedMagic = magicBytes[event.format];
+    if (expectedMagic && expectedMagic.length > 0) {
+      const head = content.slice(0, expectedMagic.length);
+      if (event.format === 'parquet') {
+        // Parquet has magic at footer
+        const tail = content.slice(-4);
+        if (tail.toString() !== 'PAR1') {
+          event.scanResult = 'suspicious';
+          event.status = 'rejected';
+          throw new Error(`Magic byte mismatch for ${event.format}: expected PAR1 footer`);
+        }
+      } else if (!head.equals(expectedMagic)) {
+        logger.warn(`[DataDiode] Magic byte mismatch for ${event.format} — proceeding with caution`);
+      }
+    }
+
+    // Layer 3: Shannon entropy analysis
+    const sampleSize = Math.min(content.length, 65536);
+    const freq = new Float64Array(256);
+    for (let i = 0; i < sampleSize; i++) freq[content[i]!]++;
+    let entropy = 0;
+    for (let i = 0; i < 256; i++) {
+      if (freq[i]! > 0) {
+        const p = freq[i]! / sampleSize;
+        entropy -= p * Math.log2(p);
+      }
+    }
+    // Entropy > 7.9 bits/byte suggests encrypted or compressed payload (suspicious for plaintext formats)
+    if (entropy > 7.9 && ['csv', 'json', 'jsonl', 'xml', 'metar', 'taf'].includes(event.format)) {
+      logger.warn(`[DataDiode] High entropy (${entropy.toFixed(2)} bits/byte) for plaintext format ${event.format}`);
+      // Don't reject — just flag. Could be legitimately compressed.
+    }
+
+    // Layer 4: Pattern-based content scanning
     const suspicious = [
-      /\x00\x00\x00\x00{100,}/, // Long null sequences
-      /<script/i,               // Embedded scripts
-      /eval\s*\(/,              // Eval calls
+      /<script[\s>]/i,            // Embedded scripts
+      /eval\s*\(/,               // Eval calls
+      /\bexec\s*\(/,             // Exec calls
+      /\.\.\/\.\.\/\.\.\//, // Path traversal
+      /\x00{100,}/,              // Long null sequences (binary injection)
+      /powershell/i,             // PowerShell commands
+      /cmd\.exe/i,               // Windows command execution
+      /\/bin\/sh/,               // Unix shell
     ];
     
-    const contentStr = content.toString('utf8', 0, Math.min(content.length, 10000));
+    const contentStr = content.toString('utf8', 0, Math.min(content.length, 32768));
     for (const pattern of suspicious) {
       if (pattern.test(contentStr)) {
         event.scanResult = 'suspicious';
@@ -500,7 +561,7 @@ class DataDiodeService extends EventEmitter {
     }
     
     event.scanResult = 'clean';
-    event.scanEngine = 'datacendia-basic';
+    event.scanEngine = `datacendia-multilayer-v2 (size+magic+entropy[${entropy.toFixed(1)}]+pattern)`;
     event.scannedAt = new Date();
     
     this.emit('ingest:scanned', event);
@@ -1011,6 +1072,56 @@ class DataDiodeService extends EventEmitter {
    */
   getEvent(id: string): IngestEvent | undefined {
     return this.events.get(id);
+  }
+
+  /**
+   * Persist ingest event to database
+   */
+  private async persistEvent(event: IngestEvent): Promise<void> {
+    try {
+      await prisma.data_diode_events.upsert({
+        where: { id: event.id },
+        update: {
+          status: event.status,
+          scan_result: event.scanResult || null,
+          scan_engine: event.scanEngine || null,
+          records_extracted: event.recordsExtracted || null,
+          bytes_processed: event.bytesProcessed || null,
+          target_system: event.targetSystem || null,
+          error_message: event.errorMessage || null,
+          ledger_hash: event.ledgerHash || null,
+          scanned_at: event.scannedAt || null,
+          parsed_at: event.parsedAt || null,
+          completed_at: event.completedAt || null,
+        },
+        create: {
+          id: event.id,
+          source_id: event.sourceId,
+          source_name: event.sourceName,
+          file_name: event.fileName,
+          file_size: event.fileSize,
+          file_hash: event.fileHash,
+          status: event.status,
+          format: event.format,
+          signature_valid: event.signatureValid ?? null,
+          signed_by: event.signedBy || null,
+          scan_result: event.scanResult || null,
+          scan_engine: event.scanEngine || null,
+          records_extracted: event.recordsExtracted || null,
+          bytes_processed: event.bytesProcessed || null,
+          target_system: event.targetSystem || null,
+          error_message: event.errorMessage || null,
+          ledger_hash: event.ledgerHash || null,
+          detected_at: event.detectedAt,
+          quarantined_at: event.quarantinedAt || null,
+          scanned_at: event.scannedAt || null,
+          parsed_at: event.parsedAt || null,
+          completed_at: event.completedAt || null,
+        },
+      });
+    } catch (err) {
+      logger.warn(`[DataDiode] DB persist failed: ${(err as Error).message}`);
+    }
   }
 
   /**

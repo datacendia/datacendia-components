@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -424,6 +425,7 @@ Generate comprehensive earnings call preparation in JSON:
       id: `inv-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
     };
     this.investors.set(newInvestor.id, newInvestor);
+    persistServiceRecord({ serviceName: 'CendiaEquity', recordType: 'investor', referenceId: newInvestor.id, data: newInvestor });
     logger.info(`CendiaEquity: Added investor ${newInvestor.name}`);
     return newInvestor;
   }

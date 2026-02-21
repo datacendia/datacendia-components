@@ -814,3 +814,78 @@ model deterministic_replay_states {
   @@index([deliberation_id])
   @@index([created_at])
 }
+
+// =============================================================================
+// Data Diode — Sovereign Ingest Events
+// =============================================================================
+
+model data_diode_events {
+  id                  String   @id @default(uuid())
+  source_id           String
+  source_name         String
+  file_name           String
+  file_size           Int
+  file_hash           String   // SHA-256
+  status              String   // IngestStatus enum
+  format              String   // DataFormat enum
+  signature_valid     Boolean?
+  signed_by           String?
+  scan_result         String?  // clean, suspicious, malicious
+  scan_engine         String?
+  records_extracted   Int?
+  bytes_processed     Int?
+  target_system       String?
+  error_message       String?
+  ledger_hash         String?
+  detected_at         DateTime
+  quarantined_at      DateTime?
+  scanned_at          DateTime?
+  parsed_at           DateTime?
+  completed_at        DateTime?
+  created_at          DateTime @default(now())
+
+  @@index([source_id])
+  @@index([status])
+  @@index([file_hash])
+  @@index([created_at])
+}
+
+// =============================================================================
+// Generic Service Records — shared persistence for many services
+// =============================================================================
+
+model service_records {
+  id                  String   @id @default(uuid())
+  service_name        String   // e.g. "CendiaGuardian", "CendiaNerve", "TimeLock"
+  record_type         String   // e.g. "customer_health", "alert", "assessment", "lock"
+  organization_id     String?
+  reference_id        String?  // deliberation_id, customer_id, etc.
+  data                Json     // The actual record payload
+  hash                String?  // SHA-256 of data for integrity
+  created_at          DateTime @default(now())
+  updated_at          DateTime @updatedAt
+
+  @@index([service_name, record_type])
+  @@index([organization_id])
+  @@index([reference_id])
+  @@index([created_at])
+}
+
+// =============================================================================
+// Continuous Compliance Monitor — Snapshots
+// =============================================================================
+
+model compliance_monitor_snapshots {
+  id                  String   @id @default(uuid())
+  organization_id     String
+  framework           String   // GDPR, SOX, HIPAA, etc.
+  overall_score       Float
+  dimension_scores    Json     // { dimension: score }
+  gaps                Json     // ComplianceGap[]
+  recommendations     Json     // string[]
+  assessed_by         String?
+  created_at          DateTime @default(now())
+
+  @@index([organization_id, framework])
+  @@index([created_at])
+}

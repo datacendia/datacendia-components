@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -163,6 +164,7 @@ class CendiaGuardianService {
     this.customers.set(newCustomer.id, newCustomer);
     this.engagementData.set(newCustomer.id, []);
     this.carePackages.set(newCustomer.id, []);
+    persistServiceRecord({ serviceName: 'CendiaGuardian', recordType: 'customer_profile', referenceId: newCustomer.id, data: newCustomer });
     
     // Initialize playbook
     this.playbooks.set(newCustomer.id, {

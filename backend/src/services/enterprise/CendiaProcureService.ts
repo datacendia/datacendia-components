@@ -10,6 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -187,6 +188,7 @@ Write only the email body, no subject line.`;
       status: 'active',
     };
     this.contracts.set(vendorContract.id, vendorContract);
+    persistServiceRecord({ serviceName: 'CendiaProcure', recordType: 'contract', referenceId: vendorContract.id, data: vendorContract });
     return vendorContract;
   }
 

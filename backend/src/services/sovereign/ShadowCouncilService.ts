@@ -17,6 +17,7 @@
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -238,7 +239,7 @@ class ShadowCouncilService extends EventEmitter {
     }
     
     this.sessions.set(id, session);
-    
+    persistServiceRecord({ serviceName: 'ShadowCouncil', recordType: 'session', referenceId: id, organizationId: params.organizationId, data: { id, name: params.name, purpose: params.purpose, createdAt: new Date() } });
     logger.info(`[ShadowCouncil] Created session: ${params.name} (${id})`);
     this.emit('session:created', session);
     

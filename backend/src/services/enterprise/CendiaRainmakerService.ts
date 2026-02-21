@@ -10,6 +10,7 @@
 
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -134,6 +135,7 @@ Output JSON:
       };
 
       this.predictions.set(dealId, prediction);
+      persistServiceRecord({ serviceName: 'CendiaRainmaker', recordType: 'deal_prediction', referenceId: dealId, data: prediction });
       return prediction;
     } catch (error) {
       logger.error('Deal prediction failed:', error);
@@ -304,6 +306,7 @@ Provide 3 short, actionable tips for right now. Output JSON array of strings.`;
       lastActivityAt: new Date(),
     };
     this.deals.set(newDeal.id, newDeal);
+    persistServiceRecord({ serviceName: 'CendiaRainmaker', recordType: 'deal', referenceId: newDeal.id, data: newDeal });
     return newDeal;
   }
 

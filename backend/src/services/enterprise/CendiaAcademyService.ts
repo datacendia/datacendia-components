@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -214,7 +215,7 @@ class CendiaAcademyService {
     };
     this.profiles.set(newProfile.id, newProfile);
     this.interventions.set(newProfile.employeeId, []);
-    
+    persistServiceRecord({ serviceName: 'CendiaAcademy', recordType: 'skill_profile', referenceId: newProfile.id, data: newProfile });
     logger.info(`CendiaAcademy: Created skill profile for ${newProfile.name}`);
     return newProfile;
   }

@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -212,7 +213,7 @@ class CendiaFactoryService {
     this.predictions.set(newLine.id, []);
     this.qualityEvents.set(newLine.id, []);
     this.schedules.set(newLine.id, []);
-    
+    persistServiceRecord({ serviceName: 'CendiaFactory', recordType: 'production_line', referenceId: newLine.id, data: newLine });
     logger.info(`CendiaFactory: Registered production line ${newLine.name}`);
     return newLine;
   }

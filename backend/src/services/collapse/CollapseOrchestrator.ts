@@ -14,6 +14,7 @@
  */
 
 import { createHash } from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 import {
   CollapseAgentType,
   CollapseConfig,
@@ -170,6 +171,7 @@ export class CollapseOrchestrator {
     };
 
     this.deliberations.set(deliberationId, deliberation);
+    persistServiceRecord({ serviceName: 'CollapseOrchestrator', recordType: 'deliberation', referenceId: deliberationId, data: { id: deliberationId, trustDelta: deliberation.trustDelta, createdAt: new Date() } });
     return deliberation;
   }
 
@@ -218,7 +220,7 @@ export class CollapseOrchestrator {
     );
 
     this.envelopes.set(failureEnvelope.id, failureEnvelope);
-
+    persistServiceRecord({ serviceName: 'CollapseOrchestrator', recordType: 'failure_envelope', referenceId: failureEnvelope.id, data: { id: failureEnvelope.id, conditionCount: allFailureConditions.length, createdAt: new Date() } });
     const totalRisk = calculateCollapseRisk(allFailureConditions);
     const criticalFindings = allFailureConditions
       .filter(fc => fc.severity >= 0.8)

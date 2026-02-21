@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -339,7 +340,7 @@ Provide comprehensive risk assessment in JSON:
     newRequest.riskAssessment = await this.assessTravelRisk(newRequest);
 
     this.travelRequests.set(newRequest.id, newRequest);
-    
+    persistServiceRecord({ serviceName: 'CendiaTransit', recordType: 'travel_request', referenceId: newRequest.id, data: newRequest });
     if (newRequest.riskAssessment.overallRisk === 'critical' || newRequest.riskAssessment.overallRisk === 'high') {
       logger.warn(`CendiaTransit: High-risk travel request from ${request.employeeName} to ${request.destinations.map(d => d.country).join(', ')}`);
     }
@@ -702,7 +703,7 @@ Provide comprehensive risk assessment in JSON:
     };
 
     this.incidents.set(report.id, report);
-
+    persistServiceRecord({ serviceName: 'CendiaTransit', recordType: 'incident', referenceId: report.id, data: report });
     if (incident.severity === 'critical' || incident.severity === 'serious') {
       logger.error(`CendiaTransit: ${incident.severity.toUpperCase()} INCIDENT - ${incident.type} in ${incident.location}`);
     } else {

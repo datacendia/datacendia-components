@@ -10,6 +10,7 @@
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { aiModelSelector } from '../../config/aiModels.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -167,6 +168,7 @@ class CendiaNerveService {
       lastHealthCheck: new Date(),
     };
     this.services.set(newService.id, newService);
+    persistServiceRecord({ serviceName: 'CendiaNerve', recordType: 'service_registration', referenceId: newService.id, data: newService });
     logger.info(`CendiaNerve: Registered service ${newService.name}`);
     return newService;
   }
@@ -240,6 +242,7 @@ class CendiaNerveService {
       detectedAt: new Date(),
     };
     this.incidents.set(newIncident.id, newIncident);
+    persistServiceRecord({ serviceName: 'CendiaNerve', recordType: 'incident', referenceId: newIncident.id, data: newIncident });
     logger.warn(`CendiaNerve: Incident created - ${newIncident.title} (${newIncident.severity})`);
     
     // Auto-escalate P1 incidents
