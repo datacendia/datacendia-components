@@ -21,6 +21,7 @@ import * as path from 'path';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { embeddingService } from '../llm/EmbeddingService.js';
 
 // =============================================================================
 // TYPES
@@ -895,6 +896,111 @@ ${dna.auditTrail.length > 10 ? `\n... and ${dna.auditTrail.length - 10} more eve
 *Classification: ${dna.metadata.classificationLevel}*
 *Retention: ${dna.metadata.retentionPeriod}*
 `;
+  }
+
+  // ===========================================================================
+  // DCII LEARNING INTEGRATION — Proactive Past-Decision Surfacing
+  // ===========================================================================
+
+  /**
+   * Find similar past decisions for a new question.
+   * Uses RAG (EmbeddingService) for semantic similarity + Prisma for metadata.
+   * Called at deliberation start to surface relevant precedents.
+   */
+  async findSimilarDecisions(params: {
+    question: string;
+    organizationId: string;
+    topK?: number;
+    minScore?: number;
+  }): Promise<Array<{
+    deliberationId: string;
+    question: string;
+    outcome: string | null;
+    similarity: number;
+    decidedAt: Date | null;
+    status: string;
+  }>> {
+    const { question, organizationId, topK = 5, minScore = 0.1 } = params;
+
+    try {
+      // Step 1: Fetch recent deliberations from Prisma
+      const pastDeliberations = await prisma.deliberations.findMany({
+        where: { organization_id: organizationId, status: 'COMPLETED' },
+        orderBy: { completed_at: 'desc' },
+        take: 200,
+        select: {
+          id: true,
+          question: true,
+          decision: true,
+          completed_at: true,
+          status: true,
+        },
+      });
+
+      if (pastDeliberations.length === 0) {
+        logger.info('[DecisionDNA] No past deliberations found for similarity search');
+        return [];
+      }
+
+      // Step 2: Index past deliberations into EmbeddingService (ephemeral index)
+      const indexId = `dna-similarity-${organizationId}-${Date.now()}`;
+      for (const delib of pastDeliberations) {
+        if (delib.question) {
+          await embeddingService.addDocument(
+            `${indexId}::${delib.id}`,
+            delib.question,
+            { deliberationId: delib.id, outcome: delib.decision ? JSON.stringify(delib.decision).slice(0, 500) : null, decidedAt: delib.completed_at, status: delib.status }
+          );
+        }
+      }
+
+      // Step 3: Search for similar decisions
+      const results = await embeddingService.search(question, topK, minScore);
+
+      // Step 4: Map results back to deliberation data
+      const similar = results
+        .filter(r => r.id.startsWith(`${indexId}::`))
+        .map(r => ({
+          deliberationId: r.metadata?.deliberationId as string,
+          question: r.text,
+          outcome: (r.metadata?.outcome as string) || null,
+          similarity: Math.round(r.score * 1000) / 1000,
+          decidedAt: r.metadata?.decidedAt as Date | null,
+          status: (r.metadata?.status as string) || 'unknown',
+        }));
+
+      logger.info(`[DecisionDNA] Found ${similar.length} similar past decisions for: "${question.slice(0, 80)}..."`);
+      this.emit('learning:similar_found', { question, count: similar.length, topScore: similar[0]?.similarity });
+
+      return similar;
+    } catch (err) {
+      logger.warn(`[DecisionDNA] Similarity search failed: ${(err as Error).message}`);
+      return [];
+    }
+  }
+
+  /**
+   * Generate a learning context summary from similar past decisions.
+   * Returns a formatted string suitable for inclusion in deliberation context.
+   */
+  async getLearningContext(params: {
+    question: string;
+    organizationId: string;
+    topK?: number;
+  }): Promise<string> {
+    const similar = await this.findSimilarDecisions(params);
+
+    if (similar.length === 0) {
+      return '**No similar past decisions found.** This appears to be a novel question for this organization.';
+    }
+
+    const lines = similar.map((s, i) => {
+      const outcomeStr = s.outcome ? `Outcome: ${s.outcome.slice(0, 200)}` : 'Outcome: pending';
+      const dateStr = s.decidedAt ? new Date(s.decidedAt).toLocaleDateString() : 'N/A';
+      return `${i + 1}. **[${(s.similarity * 100).toFixed(0)}% similar]** "${s.question.slice(0, 150)}" (${dateStr})\n   ${outcomeStr}`;
+    });
+
+    return `## Similar Past Decisions (DCII Learning Integration)\n\n${lines.join('\n\n')}\n\n*Surfaced automatically by DecisionDNA™ Learning Integration.*`;
   }
 
   /**

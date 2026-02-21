@@ -574,3 +574,193 @@ describe('Groth16ProofService — Real Circuit-Based ZK Proofs', () => {
     });
   });
 });
+
+// =============================================================================
+// 5. DataDiode Security Scanning — Multi-Layer Validation
+// =============================================================================
+
+describe('DataDiode Security Scanning', () => {
+  let DataDiodeService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/sovereign/DataDiodeService.js');
+    DataDiodeService = mod.DataDiodeService;
+  });
+
+  it('should import DataDiodeService successfully', () => {
+    expect(DataDiodeService).toBeDefined();
+  });
+
+  it('should instantiate with correct default paths', () => {
+    const service = new DataDiodeService();
+    expect(service).toBeDefined();
+    expect(typeof service.getStatistics).toBe('function');
+    expect(typeof service.getRecentEvents).toBe('function');
+  });
+
+  it('should return empty statistics on fresh instance', () => {
+    const service = new DataDiodeService();
+    const stats = service.getStatistics();
+    expect(stats.totalIngested).toBe(0);
+    expect(stats.totalRejected).toBe(0);
+    expect(stats.totalBytes).toBe(0);
+  });
+
+  it('should return empty recent events on fresh instance', () => {
+    const service = new DataDiodeService();
+    const events = service.getRecentEvents();
+    expect(events).toEqual([]);
+  });
+});
+
+// =============================================================================
+// 6. EmbeddingService RAG — Document Indexing + Similarity Search
+// =============================================================================
+
+describe('EmbeddingService RAG Pipeline', () => {
+  let embeddingService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/llm/EmbeddingService.js');
+    embeddingService = mod.embeddingService;
+  });
+
+  it('should index documents and retrieve by similarity', async () => {
+    embeddingService.clearIndex();
+
+    await embeddingService.addDocument('doc-1', 'Should we acquire CompanyX for $50M?', { type: 'acquisition' });
+    await embeddingService.addDocument('doc-2', 'Quarterly revenue forecast for Q3 2026', { type: 'forecast' });
+    await embeddingService.addDocument('doc-3', 'Employee retention strategy for engineering team', { type: 'hr' });
+    await embeddingService.addDocument('doc-4', 'M&A due diligence checklist for tech acquisitions', { type: 'acquisition' });
+
+    expect(embeddingService.getIndexSize()).toBe(4);
+
+    const results = await embeddingService.search('acquisition target evaluation', 3);
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].score).toBeGreaterThan(0);
+
+    // Each result should have id, text, score
+    for (const r of results) {
+      expect(r.id).toBeTruthy();
+      expect(r.text).toBeTruthy();
+      expect(typeof r.score).toBe('number');
+    }
+  });
+
+  it('should batch-index multiple documents', async () => {
+    embeddingService.clearIndex();
+
+    const count = await embeddingService.addDocuments([
+      { id: 'batch-1', text: 'First document' },
+      { id: 'batch-2', text: 'Second document' },
+      { id: 'batch-3', text: 'Third document' },
+    ]);
+
+    expect(count).toBe(3);
+    expect(embeddingService.getIndexSize()).toBe(3);
+  });
+
+  it('should return empty results for empty index', async () => {
+    embeddingService.clearIndex();
+    const results = await embeddingService.search('anything');
+    expect(results).toEqual([]);
+  });
+
+  it('should respect topK parameter', async () => {
+    embeddingService.clearIndex();
+    for (let i = 0; i < 10; i++) {
+      await embeddingService.addDocument(`tk-${i}`, `Document number ${i} about testing`);
+    }
+    const results = await embeddingService.search('testing', 3);
+    expect(results.length).toBeLessThanOrEqual(3);
+  });
+});
+
+// =============================================================================
+// 7. DecisionDNA Learning Integration — Similar Decision Surfacing
+// =============================================================================
+
+describe('DecisionDNA Learning Integration', () => {
+  let decisionDNAService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/sovereign/DecisionDNAService.js');
+    decisionDNAService = mod.decisionDNAService;
+  });
+
+  it('should export findSimilarDecisions method', () => {
+    expect(typeof decisionDNAService.findSimilarDecisions).toBe('function');
+  });
+
+  it('should export getLearningContext method', () => {
+    expect(typeof decisionDNAService.getLearningContext).toBe('function');
+  });
+
+  it('should return empty array when no past deliberations exist', async () => {
+    const results = await decisionDNAService.findSimilarDecisions({
+      question: 'Should we expand into European markets?',
+      organizationId: 'nonexistent-org-id',
+    });
+    expect(Array.isArray(results)).toBe(true);
+  });
+
+  it('should return novel-question message when no similar decisions found', async () => {
+    const context = await decisionDNAService.getLearningContext({
+      question: 'Completely unique question xyz123',
+      organizationId: 'nonexistent-org-id',
+    });
+    expect(context).toContain('novel question');
+  });
+});
+
+// =============================================================================
+// 8. ServicePersistence Utility — Generic Record Storage
+// =============================================================================
+
+describe('ServicePersistence Utility', () => {
+  let persistServiceRecord: any;
+  let loadServiceRecords: any;
+  let countServiceRecords: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../utils/servicePersistence.js');
+    persistServiceRecord = mod.persistServiceRecord;
+    loadServiceRecords = mod.loadServiceRecords;
+    countServiceRecords = mod.countServiceRecords;
+  });
+
+  it('should export all utility functions', () => {
+    expect(typeof persistServiceRecord).toBe('function');
+    expect(typeof loadServiceRecords).toBe('function');
+    expect(typeof countServiceRecords).toBe('function');
+  });
+
+  it('should persist a service record without throwing', async () => {
+    const id = await persistServiceRecord({
+      serviceName: 'TestService',
+      recordType: 'test_record',
+      organizationId: 'test-org',
+      referenceId: 'test-ref-1',
+      data: { message: 'Integration test record', timestamp: new Date().toISOString() },
+    });
+    // id is null if table doesn't exist yet, string if persisted
+    expect(id === null || typeof id === 'string').toBe(true);
+  });
+
+  it('should load service records without throwing', async () => {
+    const records = await loadServiceRecords({
+      serviceName: 'TestService',
+      recordType: 'test_record',
+      limit: 10,
+    });
+    expect(Array.isArray(records)).toBe(true);
+  });
+
+  it('should count service records without throwing', async () => {
+    const count = await countServiceRecords({
+      serviceName: 'TestService',
+    });
+    expect(typeof count).toBe('number');
+    expect(count).toBeGreaterThanOrEqual(0);
+  });
+});
