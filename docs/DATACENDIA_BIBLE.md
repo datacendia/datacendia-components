@@ -434,7 +434,8 @@ flowchart TB
         PG[(PostgreSQL)]
         Neo[(Neo4j)]
         Redis[(Redis)]
-        Vector[(pgvector)]
+        Qdrant[(Qdrant)]
+        CH[(ClickHouse)]
     end
 
     subgraph Sovereign["🔒 Sovereign Stack"]
