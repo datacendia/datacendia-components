@@ -656,12 +656,12 @@ class IISSService {
         'Escalation Workflows':          { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // CendiaResponsibilityService escalation + approvals table
       },
       continuity_memory: {
-        'Context Preservation':     { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // DecisionDNA, in-memory
-        'Personnel Independence':   { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 },  // DecisionDNA, design is person-independent
-        'Deterministic Replay':     { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 35 },  // DeterministicReplayService, file-based
-        'Searchable & Linked':      { serviceExists: true, hasDb: true, hasGaps: true, maxScore: 30 },    // Tag search exists, no semantic similarity
-        'Learning Integration':     { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 35 },  // Gap: no proactive surfacing
-        'Outcome Tracking':         { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // DecisionDNA outcomes, in-memory
+        'Context Preservation':     { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },   // DecisionDNA queries Prisma deliberations
+        'Personnel Independence':   { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },   // DecisionDNA, person-independent by design + Prisma
+        'Deterministic Replay':     { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },   // DeterministicReplayService: file + deterministic_replay_states Prisma
+        'Searchable & Linked':      { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },   // RAG retrieval via EmbeddingService (addDocument, search, top-K)
+        'Learning Integration':     { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 35 },  // Gap: no proactive surfacing of past decisions
+        'Outcome Tracking':         { serviceExists: true, hasDb: true, hasGaps: true, maxScore: 35 },    // DecisionDNA outcomes via Prisma, no automated follow-up
       },
       drift_detection: {
         'Continuous Monitoring':   { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 40 },   // drift_snapshots Prisma table + IISS recalculation on each receipt
