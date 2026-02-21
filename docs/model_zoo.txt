@@ -3,7 +3,7 @@
  * Configuration for Local Inference (Ollama)
  * Optimized for: 128GB RAM Workstation
  * Architecture: Specialized Expert Team (Heterogeneous Models)
- * Last Updated: January 21, 2026
+ * Last Updated: February 21, 2026
  * 
  * VERTICAL AI AGENTS: 250+ across 18 verticals
  * COUNCIL MODES: 450+ specialized deliberation scenarios
@@ -234,11 +234,11 @@ export const AI_CONFIG = {
     },
 
     // THE ENGINEER (Coding Specialist)
-    // DeepSeek Coder V2 - Best coding model, 300+ languages
+    // Qwen3 Coder 30B - Purpose-built for agentic coding + tool calling
     // Use for SQL, JSON, Code, and automation
     coder: {
-      id: 'deepseek-coder-v2',
-      contextWindow: 32768,
+      id: 'qwen3-coder:30b',
+      contextWindow: 131072,
       temp: 0.2 // Very low temp for precision
     },
 
@@ -266,10 +266,10 @@ export const AI_CONFIG = {
       temp: 0.7
     },
 
-    // EMBEDDINGS (Vector Search)
+    // EMBEDDINGS (Vector Search) — 2560-dim multilingual
     embedding: {
-      id: 'nomic-embed-text',
-      contextWindow: 8192,
+      id: 'qwen3-embedding:4b',
+      contextWindow: 32768,
       temp: 0
     }
   },
@@ -308,12 +308,12 @@ export const AI_CONFIG = {
     },
     data: {
       name: 'CendiaCDO',
-      model: 'coder', // DeepSeek Coder V2: Best at understanding schemas and SQL.
+      model: 'coder', // Qwen3 Coder: Best at understanding schemas and SQL.
       systemPrompt: 'You are the Chief Data Officer. Validate data lineage and quality. Output valid JSON or SQL when requested.'
     },
     flow: {
       name: 'CendiaFlow',
-      model: 'coder', // DeepSeek Coder V2: Best at writing the JSON/Code to execute actions.
+      model: 'coder', // Qwen3 Coder: Best at writing the JSON/Code to execute actions.
       systemPrompt: 'You are the Automation Engine. Output executable workflows and code snippets.'
     },
     ethics: {
@@ -450,29 +450,35 @@ export function getModelForAgent(agentId: string): string {
 }
 
 /**
- * MODEL INVENTORY (January 2026)
+ * MODEL INVENTORY (February 2026)
  * ================================
  * 
- * INSTALLED:
- * - llama4:scout (67GB) - Flagship, general intelligence
- * - llama3.3:70b (42GB) - Strategic analysis
- * - deepseek-r1:32b (19GB) - Chain-of-thought reasoning
- * - qwen3:32b (20GB) - Multilingual, general
- * - deepseek-coder-v2 (8.9GB) - Coding specialist
- * - gemma3:27b (17GB) - Google's latest
- * - qwq:32b (19GB) - Deep reasoning
- * - mixtral:8x22b (79GB) - MoE ensemble
- * - llama3.2:3b (2GB) - Fast/UI
- * - nomic-embed-text (274MB) - Embeddings
+ * PRIMARY SLOTS:
+ * - llama3.3:70b (42GB) - Large / Council deliberations
+ * - qwen3:32b (20GB) - Flagship / General intelligence
+ * - deepseek-r1:32b (19GB) - Reasoning / Chain-of-thought
+ * - qwen3-coder:30b (18GB) - Coder / Agentic coding + tool calling
+ * - llama3.2:3b (2GB) - Fast / UI responses
+ * - qwen3-vl:30b (19GB) - Vision / Document + image analysis
+ * - qwen2.5:32b (19GB) - Translator / OmniTranslate
+ * - qwen3-embedding:4b (2.5GB) - Embed / 2560-dim multilingual RAG
  * 
- * RETAINED FOR OMNITRANSLATE:
- * - qwen2.5:32b (20GB) - Primary translation model
- * - qwen2.5:14b (9GB) - Fallback translation model
- * - qwen2.5:7b (4.7GB) - Fast translation for common languages
+ * ADDITIONAL:
+ * - deepseek-ocr:3b (6.7GB) - Document OCR
+ * - llama4:scout (67GB) - Legacy flagship
+ * - gemma3:27b (17GB) - Google's latest
+ * - qwq:32b (19GB) - Deep reasoning (alternate)
+ * - mixtral:8x22b (79GB) - MoE ensemble
+ * 
+ * RETAINED FOR TIER OVERRIDES:
+ * - qwen2.5:14b (9GB) - Pilot tier flagship (capped at 14B)
+ * - qwen2.5:7b (4.7GB) - Fallback / legacy
  * 
  * REMOVED (superseded):
- * - qwen2.5-coder:32b → replaced by deepseek-coder-v2
- * - llama3:70b → replaced by llama4:scout
+ * - deepseek-coder-v2 → replaced by qwen3-coder:30b
+ * - nomic-embed-text → replaced by qwen3-embedding:4b
+ * - qwen2.5-coder:32b → replaced by qwen3-coder:30b
+ * - llama3:70b → replaced by llama3.3:70b
  * - llama3:8b → redundant
  * - llama2:latest → outdated
  */
