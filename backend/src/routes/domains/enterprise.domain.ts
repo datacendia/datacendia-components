@@ -20,9 +20,11 @@ import carbonAwareRoutes from '../carbon-aware.js';
 import hrRoutes from '../hr.js';
 import enterpriseConnectorsRoutes from '../enterprise-connectors.js';
 import salaryRoutes from '../salary.js';
+import ssoRoutes from '../sso.js';
 
 const router = Router();
 
+router.use('/sso', ssoRoutes);
 router.use('/enterprise/security', enterpriseSecurityRoutes); // Must come BEFORE /enterprise
 router.use('/enterprise', enterpriseRoutes);
 router.use('/ledger', ledgerRoutes);

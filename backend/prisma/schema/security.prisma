@@ -721,3 +721,39 @@ enum KeyEvent {
   REVOKED
   RECOVERED
 }
+
+// =============================================================================
+// CendiaHSM — Hardware Security Module Keys & Operations
+// =============================================================================
+
+model hsm_keys {
+  id          String   @id @default(uuid())
+  label       String
+  algorithm   String   // RSA-2048, RSA-4096, AES-256, EC-P256, EC-P384
+  provider    String   // softhsm2, aws-cloudhsm, thales-luna, software-fallback
+  extractable Boolean  @default(false)
+  public_key  String?  @db.Text
+  created_at  DateTime @default(now())
+
+  operations hsm_operations[]
+
+  @@index([algorithm])
+  @@index([provider])
+}
+
+model hsm_operations {
+  id            String   @id @default(uuid())
+  key_id        String
+  operation     String   // sign, verify, wrap, unwrap, random
+  algorithm     String
+  provider      String
+  success       Boolean  @default(true)
+  error_message String?
+  created_at    DateTime @default(now())
+
+  key hsm_keys @relation(fields: [key_id], references: [id], onDelete: Cascade)
+
+  @@index([key_id])
+  @@index([operation])
+  @@index([created_at])
+}

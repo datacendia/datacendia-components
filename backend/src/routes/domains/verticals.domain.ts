@@ -17,6 +17,7 @@ import industrialServicesRoutes from '../industrial-services.js';
 import verticalAgentsRoutes from '../vertical-agents.js';
 import verticalConfigRoutes from '../vertical-config.js';
 import verticalSentinelsRoutes from '../vertical-sentinels.js';
+import fhirRoutes from '../fhir.js';
 
 const router = Router();
 
@@ -30,5 +31,6 @@ router.use('/industrial-services', industrialServicesRoutes);
 router.use('/vertical-agents', verticalAgentsRoutes);
 router.use('/vertical-config', verticalConfigRoutes);
 router.use('/vertical-sentinels', verticalSentinelsRoutes);
+router.use('/fhir', fhirRoutes);
 
 export default router;

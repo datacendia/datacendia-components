@@ -211,3 +211,39 @@ enum ScoutingRecommendation {
   CONDITIONAL
   PASS
 }
+
+// =============================================================================
+// FHIR R4 — Healthcare Data Connector Audit
+// =============================================================================
+
+model fhir_access_logs {
+  id            String   @id @default(uuid())
+  user_id       String
+  action        String   // read, search, create, update, delete
+  resource_type String   // Patient, Practitioner, Organization, etc.
+  resource_id   String?
+  patient_id    String?
+  purpose       String   @default("treatment")
+  access_hash   String
+  created_at    DateTime @default(now())
+
+  @@index([user_id])
+  @@index([resource_type])
+  @@index([patient_id])
+  @@index([created_at])
+}
+
+model fhir_audit_events {
+  id            String   @id @default(uuid())
+  user_id       String
+  action        String   // C, R, U, D, E
+  resource_type String
+  resource_id   String?
+  outcome       String   // 0 (success), 8 (failure)
+  event_data    Json     // Full FHIR AuditEvent resource
+  created_at    DateTime @default(now())
+
+  @@index([user_id])
+  @@index([resource_type])
+  @@index([created_at])
+}

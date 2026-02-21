@@ -18,6 +18,7 @@ import complianceMonitorRoutes from '../compliance-monitor.js';
 import crossJurisdictionRoutes from '../cross-jurisdiction.js';
 import regulatorsReceiptRoutes from '../regulators-receipt.js';
 import dciiRoutes from '../dcii.js';
+import biasDetectionRoutes from '../bias-detection.js';
 
 const router = Router();
 
@@ -32,5 +33,6 @@ router.use('/compliance-monitor', complianceMonitorRoutes);
 router.use('/cross-jurisdiction', crossJurisdictionRoutes);
 router.use('/regulators-receipt', regulatorsReceiptRoutes);
 router.use('/dcii', dciiRoutes);
+router.use('/bias-detection', biasDetectionRoutes);
 
 export default router;

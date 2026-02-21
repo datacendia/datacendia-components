@@ -76,6 +76,39 @@ services:
               capabilities: [gpu]
     # If no GPU, comment out the deploy section above
 
+  # ClamAV - Malware Scanning for DataDiode
+  clamav:
+    image: clamav/clamav:latest
+    container_name: datacendia-clamav
+    restart: unless-stopped
+    ports:
+      - "3310:3310"
+    volumes:
+      - clamav_data:/var/lib/clamav
+    healthcheck:
+      test: ["CMD-SHELL", "echo PING | nc localhost 3310 | grep -q PONG"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  # HAPI FHIR R4 Server - Healthcare Data Connector
+  fhir:
+    image: hapiproject/hapi:latest
+    container_name: datacendia-fhir
+    restart: unless-stopped
+    environment:
+      hapi.fhir.default_encoding: JSON
+      hapi.fhir.allow_multiple_delete: "true"
+      hapi.fhir.fhir_version: R4
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:8080/fhir/metadata || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
   # Backend API Server
   api:
     build:
@@ -92,6 +125,10 @@ services:
       NEO4J_USER: neo4j
       NEO4J_PASSWORD: ${NEO4J_PASSWORD:-datacendia_graph_2024}
       OLLAMA_BASE_URL: http://ollama:11434
+      CLAMAV_HOST: clamav
+      CLAMAV_PORT: "3310"
+      FHIR_BASE_URL: http://fhir:8080/fhir
+      FHIR_TOKEN_URL: http://fhir:8080/fhir/auth/token
       JWT_SECRET: ${JWT_SECRET:-your-super-secret-jwt-key-change-in-production}
       JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:-your-refresh-secret-key-change-in-production}
     volumes:
@@ -133,6 +170,7 @@ volumes:
   neo4j_data:
   neo4j_logs:
   ollama_data:
+  clamav_data:
 
 networks:
   default:

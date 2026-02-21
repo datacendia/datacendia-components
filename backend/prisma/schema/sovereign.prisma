@@ -1071,3 +1071,25 @@ model sovereign_blackbox_records {
   @@index([blackbox_id])
   @@index([data_hash])
 }
+
+// =============================================================================
+// ClamAV — Malware Scan Results
+// =============================================================================
+
+model clamav_scan_results {
+  id                String   @id @default(uuid())
+  filename          String
+  file_size         BigInt
+  file_hash         String
+  threat_level      String   // clean, suspicious, malware, error
+  threat_name       String?
+  engine            String   // clamav, heuristic
+  signature_version String?
+  scan_duration_ms  Int
+  details           String?  @db.Text
+  created_at        DateTime @default(now())
+
+  @@index([file_hash])
+  @@index([threat_level])
+  @@index([created_at])
+}

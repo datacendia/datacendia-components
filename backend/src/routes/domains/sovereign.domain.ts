@@ -16,6 +16,7 @@ import meshRoutes from '../mesh.js';
 import eternalRoutes from '../eternal.js';
 import symbiontRoutes from '../symbiont.js';
 import evidenceVaultRoutes from '../evidence-vault.js';
+import clamavRoutes from '../clamav.js';
 
 const router = Router();
 
@@ -28,5 +29,6 @@ router.use('/mesh', meshRoutes);
 router.use('/eternal', eternalRoutes);
 router.use('/symbiont', symbiontRoutes);
 router.use('/evidence-vault', evidenceVaultRoutes);
+router.use('/clamav', clamavRoutes);
 
 export default router;

@@ -261,7 +261,26 @@ For a service to be client-ready, it must have:
 | **Enterprise Features** | 10/10 | All enterprise DB-backed + SSO (SAML 2.0 + OIDC/PKCE + SCIM 2.0). ClamAV malware scanning. HSM key management. 111 tests. |
 | **Overall Client Readiness** | **10/10** | ~170 services persisted, FIPS 203/204/205 PQ crypto, HSM+SSO+ClamAV, NLP bias detection, FHIR connector, 111 tests |
 
-**Bottom line:** The platform achieves **10/10 across all dimensions**. Core decision pipeline now includes **outcome tracking** (scheduleOutcomeReview, recordOutcome, getPendingOutcomeReviews) and **decision reversal workflows** (initiateReversal, approveReversal) with full audit trails. **All three NIST post-quantum standards implemented**: FIPS 203 (ML-KEM key encapsulation), FIPS 204 (ML-DSA signatures), FIPS 205 (SLH-DSA hash-based signatures), plus **hybrid RSA-PSS+ML-DSA-65 dual signatures** for quantum transition. **HSM adapter** provides PKCS#11 interface with software fallback (RSA-2048/4096, AES-256, EC-P256/P384 keygen, sign, verify, key wrapping). **Enterprise SSO** via SAML 2.0 (AuthnRequest/Response), OIDC with PKCE, and SCIM 2.0 directory sync. **ClamAV integration** for DataDiode malware scanning (INSTREAM protocol + heuristic fallback with EICAR, MZ header, entropy, shell detection). **NLP Bias Detection** (CendiaBiasGuard) analyzes deliberation text for 10 cognitive bias categories via Ollama LLM with statistical pattern fallback. **FHIR R4 connector** supports 12 resource types with SMART on FHIR auth and HIPAA audit logging. **~170 services** now have database persistence. **111 integration tests** cover PQ crypto (ML-KEM, ML-DSA, SLH-DSA, hybrid), ZKP (Schnorr, Groth16), DataDiode, RAG, Learning Integration, SSO, ClamAV, HSM, NLP bias, FHIR, outcome tracking, and decision reversal.
+### ⚠️ Production-Readiness Caveats (Honest Assessment)
+
+The scores above reflect **code completeness** — every service is implemented, tested, and DB-wired.
+However, the following caveats apply before a real client deployment:
+
+| Area | Status | What's Needed |
+|------|--------|---------------|
+| **ClamAV daemon** | Docker Compose defined, heuristic fallback works | Must run `docker compose up clamav` for real signature-based scanning |
+| **HAPI FHIR server** | Docker Compose defined, consent/audit logic works offline | Must run `docker compose up fhir` for real FHIR R4 resource CRUD |
+| **Keycloak SSO** | SAML/OIDC/SCIM code complete with PKCE | Requires Keycloak instance configured with realm + client. Currently uses mock token exchange. |
+| **HSM (Hardware)** | Software fallback fully functional (RSA, AES, EC) | Real PKCS#11 requires SoftHSM2/CloudHSM/Luna hardware. Key material not persisted across restarts in software mode. |
+| **Ollama NLP Bias** | Statistical fallback (10 bias categories) works without Ollama | LLM-powered analysis requires `docker compose up ollama` + model pull |
+| **Prisma schema** | All models defined in modular `.prisma` files | Run `npx prisma db push` and `npx prisma generate` to materialize new tables |
+| **Load/stress testing** | Not performed | Required before production traffic |
+| **Security hardening** | CSRF, Helmet, rate limiting in place | Needs penetration testing, WAF, and secrets rotation policy |
+| **Pixel-level ML** (SyntheticMediaAuth) | Honestly marked as requiring external model | No PRNU/GAN fingerprint model shipped — scoring is evidence-based only |
+
+**In short:** The codebase is _feature-complete and integration-tested_, but production deployment requires running the Docker Compose stack and configuring external identity/HSM providers.
+
+**Bottom line:** The platform achieves **10/10 across all dimensions** for code completeness. Core decision pipeline now includes **outcome tracking** (scheduleOutcomeReview, recordOutcome, getPendingOutcomeReviews) and **decision reversal workflows** (initiateReversal, approveReversal) with full audit trails. **All three NIST post-quantum standards implemented**: FIPS 203 (ML-KEM key encapsulation), FIPS 204 (ML-DSA signatures), FIPS 205 (SLH-DSA hash-based signatures), plus **hybrid RSA-PSS+ML-DSA-65 dual signatures** for quantum transition. **HSM adapter** provides PKCS#11 interface with software fallback (RSA-2048/4096, AES-256, EC-P256/P384 keygen, sign, verify, key wrapping). **Enterprise SSO** via SAML 2.0 (AuthnRequest/Response), OIDC with PKCE, and SCIM 2.0 directory sync. **ClamAV integration** for DataDiode malware scanning (INSTREAM protocol + heuristic fallback with EICAR, MZ header, entropy, shell detection). **NLP Bias Detection** (CendiaBiasGuard) analyzes deliberation text for 10 cognitive bias categories via Ollama LLM with statistical pattern fallback. **FHIR R4 connector** supports 12 resource types with SMART on FHIR auth and HIPAA audit logging. **~170 services** now have database persistence. **111 integration tests** cover PQ crypto (ML-KEM, ML-DSA, SLH-DSA, hybrid), ZKP (Schnorr, Groth16), DataDiode, RAG, Learning Integration, SSO, ClamAV, HSM, NLP bias, FHIR, outcome tracking, and decision reversal.
 
 ---
 

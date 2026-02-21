@@ -23,7 +23,7 @@
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -124,6 +124,36 @@ export class SSOService {
 
   constructor() {
     logger.info('[CendiaSSO] Enterprise SSO Service initialized — SAML 2.0 + OIDC + SCIM 2.0');
+    this.loadFromDB().catch(() => {});
+  }
+
+  /**
+   * Reload IdPs from the database on startup.
+   */
+  async loadFromDB(): Promise<void> {
+    try {
+      const records = await loadServiceRecords({ serviceName: 'SSOService', recordType: 'idp_registered', limit: 500 });
+      let restored = 0;
+      for (const rec of records) {
+        const d = rec.data as any;
+        if (d?.id && !this.idps.has(d.id)) {
+          this.idps.set(d.id, {
+            id: d.id, name: d.name, protocol: d.protocol, issuer: d.issuer,
+            organizationId: d.organizationId || '', enabled: true, mfaRequired: false,
+            createdAt: new Date(rec.createdAt),
+            ssoUrl: d.ssoUrl, sloUrl: d.sloUrl, certificate: d.certificate,
+            clientId: d.clientId, clientSecret: d.clientSecret,
+            authorizationUrl: d.authorizationUrl, tokenUrl: d.tokenUrl,
+            userInfoUrl: d.userInfoUrl, jwksUri: d.jwksUri, scopes: d.scopes,
+            metadataUrl: d.metadataUrl,
+          });
+          restored++;
+        }
+      }
+      if (restored > 0) logger.info(`[CendiaSSO] Restored ${restored} IdPs from database`);
+    } catch (err) {
+      logger.warn(`[CendiaSSO] DB reload skipped: ${(err as Error).message}`);
+    }
   }
 
   // ===========================================================================

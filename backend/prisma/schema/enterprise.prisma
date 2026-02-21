@@ -715,3 +715,73 @@ model insurance_claims {
   @@index([status])
   @@index([claim_number])
 }
+
+// =============================================================================
+// CendiaSSO — Enterprise Single Sign-On
+// =============================================================================
+
+model sso_identity_providers {
+  id              String    @id @default(uuid())
+  organization_id String
+  name            String
+  protocol        String    // saml2, oidc, scim2
+  issuer          String
+  metadata_url    String?
+  sso_url         String?
+  slo_url         String?
+  certificate     String?   @db.Text
+  client_id       String?
+  client_secret   String?
+  authorization_url String?
+  token_url       String?
+  user_info_url   String?
+  jwks_uri        String?
+  scopes          Json      @default("[]")
+  enabled         Boolean   @default(true)
+  mfa_required    Boolean   @default(false)
+  last_used_at    DateTime?
+  created_at      DateTime  @default(now())
+  updated_at      DateTime  @default(now()) @updatedAt
+
+  organizations organizations    @relation(fields: [organization_id], references: [id])
+  sessions      sso_sessions[]
+
+  @@index([organization_id])
+  @@index([protocol])
+}
+
+model sso_sessions {
+  id                   String   @id @default(uuid())
+  user_id              String
+  organization_id      String
+  identity_provider_id String
+  protocol             String   // saml2, oidc
+  email                String
+  name                 String
+  roles                Json     @default("[]")
+  groups               Json     @default("[]")
+  device_fingerprint   String
+  mfa_verified         Boolean  @default(false)
+  session_hash         String
+  expires_at           DateTime
+  created_at           DateTime @default(now())
+  revoked_at           DateTime?
+
+  identity_provider sso_identity_providers @relation(fields: [identity_provider_id], references: [id], onDelete: Cascade)
+
+  @@index([organization_id])
+  @@index([user_id])
+  @@index([expires_at])
+}
+
+model sso_scim_events {
+  id              String   @id @default(uuid())
+  organization_id String
+  event_type      String   // user.create, user.update, user.delete, group.create, group.update
+  payload         Json
+  processed       Boolean  @default(true)
+  created_at      DateTime @default(now())
+
+  @@index([organization_id])
+  @@index([event_type])
+}

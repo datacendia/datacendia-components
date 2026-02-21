@@ -24,7 +24,7 @@
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -89,6 +89,32 @@ export class HSMAdapter {
     };
 
     logger.info(`[CendiaHSM] Adapter initialized — provider: ${this.config.provider}`);
+    this.loadFromDB().catch(() => {});
+  }
+
+  /**
+   * Reload key metadata from database on startup.
+   * Note: software key material is NOT stored in service_records for security.
+   * Only metadata (id, label, algorithm, provider) is restored.
+   */
+  async loadFromDB(): Promise<void> {
+    try {
+      const records = await loadServiceRecords({ serviceName: 'HSMAdapter', recordType: 'key_generated', limit: 500 });
+      let restored = 0;
+      for (const rec of records) {
+        const d = rec.data as any;
+        if (d?.id && !this.keys.has(d.id)) {
+          this.keys.set(d.id, {
+            id: d.id, label: d.label, algorithm: d.algorithm, provider: d.provider,
+            extractable: d.extractable ?? false, createdAt: new Date(rec.createdAt),
+          });
+          restored++;
+        }
+      }
+      if (restored > 0) logger.info(`[CendiaHSM] Restored ${restored} key records from database (metadata only)`);
+    } catch (err) {
+      logger.warn(`[CendiaHSM] DB reload skipped: ${(err as Error).message}`);
+    }
   }
 
   /**

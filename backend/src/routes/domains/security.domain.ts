@@ -19,6 +19,7 @@ import redteamRoutes from '../redteam.js';
 import securityServicesRoutes from '../security-services.js';
 import mfaRoutes from '../mfa.js';
 import sentryRoutes from '../sentry.js';
+import hsmRoutes from '../hsm.js';
 
 const router = Router();
 
@@ -34,5 +35,6 @@ router.use('/adversarial-redteam', adversarialRedteamRoutes);
 router.use('/redteam', redteamRoutes);
 router.use('/security-services', securityServicesRoutes);
 router.use('/mfa', mfaRoutes);
+router.use('/hsm', hsmRoutes);
 
 export default router;
