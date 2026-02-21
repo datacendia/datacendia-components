@@ -648,12 +648,12 @@ class IISSService {
         'Dissent Preservation':         { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // CendiaDissentService + Prisma
       },
       override_accountability: {
-        'Automatic Override Detection':  { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 35 },  // Gap: no automatic detection
-        'Mandatory Rationale Capture':   { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // EvidenceVault override field, in-memory
-        'Authority Tracking':            { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },   // EvidenceVault approvedBy, in-memory
-        'Non-Suppressibility':           { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 40 },   // CendiaDissentService immutable + Prisma
+        'Automatic Override Detection':  { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },  // RegulatorsReceipt infers overrides from agent dissent vs final decision
+        'Mandatory Rationale Capture':   { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },  // CendiaResponsibilityService + accountability_records Prisma table
+        'Authority Tracking':            { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // accountability_records tracks authority name/role/dept + delegation_records
+        'Non-Suppressibility':           { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 40 },  // CendiaDissentService immutable + Prisma
         'Time-Lock Protection':          { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 },  // TimeLockService real AES-256-GCM
-        'Escalation Workflows':          { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },   // EvidenceVault ApprovalWorkflow, in-memory
+        'Escalation Workflows':          { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // CendiaResponsibilityService escalation + approvals table
       },
       continuity_memory: {
         'Context Preservation':     { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // DecisionDNA, in-memory
@@ -664,35 +664,35 @@ class IISSService {
         'Outcome Tracking':         { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // DecisionDNA outcomes, in-memory
       },
       drift_detection: {
-        'Continuous Monitoring':   { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 40 },  // ContinuousComplianceMonitor, in-memory
-        'Baseline Establishment':  { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 25 },  // Snapshot baselines, in-memory
-        'Anomaly Detection':       { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },  // Drift detection + canary, in-memory
-        'Trend Analysis':          { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },  // Snapshot comparison only, no projection
-        'Early Warning System':    { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 35 }, // Multi-severity alerts exist
-        'Root Cause Analysis':     { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },  // Cause field exists, no automated investigation
+        'Continuous Monitoring':   { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 40 },   // drift_snapshots Prisma table + IISS recalculation on each receipt
+        'Baseline Establishment':  { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 25 },   // Earliest drift_snapshots per primitive serve as baselines
+        'Anomaly Detection':       { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // MetaGovernanceAgents drift detection, in-memory
+        'Trend Analysis':          { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },   // Longitudinal drift comparison from drift_snapshots history
+        'Early Warning System':    { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 35 },  // Multi-severity alerts exist
+        'Root Cause Analysis':     { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // Cause field exists, no automated investigation
       },
       cognitive_bias_mitigation: {
-        'Bias Detection Library':          { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },  // CognitiveBiasService, keyword-based not real models
+        'Bias Detection Library':          { serviceExists: true, hasDb: true, hasGaps: true, maxScore: 35 },   // CognitiveBiasService + bias_analyses Prisma; keyword-based not real NLP models
         'Devil\'s Advocate Enforcement':   { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 }, // Council adversarial agents exist
-        'Anchoring Detection':             { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 25 },  // Basic detection, no real NLP
-        'Groupthink Prevention':           { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 }, // Unanimity flagging exists
-        'Rubber-Stamp Detection':          { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 25 },  // Time-based detection, basic
-        'Bias Audit Trail':                { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },  // In-memory audit trail
+        'Anchoring Detection':             { serviceExists: true, hasDb: true, hasGaps: true, maxScore: 25 },   // Basic detection persisted, no real NLP
+        'Groupthink Prevention':           { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // Unanimity flagging + bias_analyses Prisma
+        'Rubber-Stamp Detection':          { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 25 },  // Time-based detection + bias_analyses Prisma
+        'Bias Audit Trail':                { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // bias_analyses Prisma table with full audit trail
       },
       quantum_resistant_integrity: {
-        'Post-Quantum Signatures':  { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 40 },  // API shape only, uses HMAC not real PQ
-        'NIST Compliance':          { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 35 },  // Not FIPS 204/205 compliant
-        'Hybrid Mode':              { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 25 },   // API shape only, uses HMAC
-        'Key Rotation':             { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 },  // Rotation logic works (classical)
-        'Algorithm Agility':        { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 25 },   // API ready but no real swap
-        'Long-Term Verification':   { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },   // Classical signatures only
+        'Post-Quantum Signatures':  { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 40 },  // REAL ML-DSA (Dilithium2/3/5) + SLH-DSA (SPHINCS+) via @noble/post-quantum
+        'NIST Compliance':          { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 35 },   // ML-DSA = FIPS 204 draft, SLH-DSA = FIPS 205 draft; not formally certified
+        'Hybrid Mode':              { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 25 },  // Real hybrid: PQ + classical RSA fallback
+        'Key Rotation':             { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 },  // Rotation logic works with real PQ keys
+        'Algorithm Agility':        { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 25 },  // Supports ML-DSA-44/65/87, SLH-DSA-SHA2/SHAKE variants
+        'Long-Term Verification':   { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 30 },  // Real PQ signatures survive quantum computers
       },
       synthetic_media_authentication: {
         'C2PA Provenance':            { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // Real SHA-256 hashing + Prisma
-        'Deepfake Detection':         { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },  // HARDCODED scores, no real ML
+        'Deepfake Detection':         { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },  // Dynamic evidence-based scoring, ML models still ROADMAP
         'Chain of Custody':           { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 25 },  // Hash-linked chain + Prisma
-        'Metadata Integrity':         { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 20 }, // EXIF/metadata checking
-        'Multi-Modal Verification':   { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 20 }, // No real multi-modal ML
+        'Metadata Integrity':         { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 20 }, // EXIF/metadata + dynamic indicators
+        'Multi-Modal Verification':   { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 20 }, // Requires ONNX runtime or external ML API
         'Court Admissibility':        { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 25 },  // RegulatorsReceipt PDF
       },
       cross_jurisdiction_compliance: {

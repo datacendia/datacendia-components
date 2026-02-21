@@ -17,6 +17,8 @@
  */
 
 import { EventEmitter } from 'events';
+import { prisma } from '../../config/database.js';
+import { logger } from '../../utils/logger.js';
 import {
   SGASAgentClass,
   MetaGovernanceAgentConfig,
@@ -373,6 +375,26 @@ export class MetaGovernanceAgentsService extends EventEmitter {
       const history = this.executionHistory.get(agentId) || [];
       history.push(output);
       this.executionHistory.set(agentId, history);
+
+      // Persist to DB
+      try {
+        await prisma.meta_governance_reports.create({
+          data: {
+            agent_id: agent.id,
+            agent_name: agent.name,
+            drift_warnings: JSON.parse(JSON.stringify(driftWarnings)),
+            risk_report: JSON.parse(JSON.stringify(riskReport)),
+            recommendations: JSON.parse(JSON.stringify(recommendations)),
+            health_score: JSON.parse(JSON.stringify(healthScore)),
+            interventions: JSON.parse(JSON.stringify(interventions)),
+            analysis_window: JSON.parse(JSON.stringify(agent.monitoringScope.timeRange)),
+            execution_seed: executionSeed,
+            execution_ms: endTime.getTime() - startTime.getTime(),
+          },
+        });
+      } catch (err) {
+        // Non-critical — table may not exist yet
+      }
 
       this.emit('agent:complete', { agentId, output });
 

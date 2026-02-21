@@ -294,6 +294,49 @@ class Groth16ProofService {
   }
 
   /**
+   * Export a proof and its verification key as a self-contained JSON bundle
+   * that any external verifier with snarkjs can independently verify.
+   *
+   * This is critical for regulator/auditor verification without access
+   * to the Datacendia platform.
+   */
+  async exportProofForVerifier(proofId: string): Promise<{
+    version: string;
+    protocol: 'groth16';
+    curve: 'bn128';
+    proof: Groth16Proof['proof'];
+    publicSignals: string[];
+    verificationKey: any;
+    exportedAt: string;
+    verifyCommand: string;
+    fipsCompliance: {
+      nistStatus: string;
+      curveStandard: string;
+      pairingType: string;
+    };
+  } | null> {
+    await this.initialize();
+    const proof = this.proofs.get(proofId);
+    if (!proof) return null;
+
+    return {
+      version: '1.0.0',
+      protocol: 'groth16',
+      curve: 'bn128',
+      proof: proof.proof,
+      publicSignals: proof.publicSignals,
+      verificationKey: this.verificationKey,
+      exportedAt: new Date().toISOString(),
+      verifyCommand: 'npx snarkjs groth16 verify verification_key.json public.json proof.json',
+      fipsCompliance: {
+        nistStatus: 'BN128 is NOT NIST-approved; used for ZK proofs only, not for key exchange or signatures',
+        curveStandard: 'alt_bn128 (EIP-196/197), widely used in Ethereum and ZK-rollup ecosystems',
+        pairingType: 'Type III pairing (Ate pairing on BN curves)',
+      },
+    };
+  }
+
+  /**
    * Get service status.
    */
   async getStatus(): Promise<{
@@ -302,6 +345,11 @@ class Groth16ProofService {
     protocol: string;
     curve: string;
     proofCount: number;
+    fipsCompliance: {
+      pqSignatures: string;
+      zkProofs: string;
+      classicalCrypto: string;
+    };
   }> {
     const vkExists = fs.existsSync(path.join(ARTIFACTS_DIR, 'verification_key.json'));
     const zkeyExists = fs.existsSync(this.zkeyPath);
@@ -312,6 +360,11 @@ class Groth16ProofService {
       protocol: 'groth16',
       curve: 'bn128',
       proofCount: this.proofs.size,
+      fipsCompliance: {
+        pqSignatures: 'ML-DSA (FIPS 204 draft) + SLH-DSA (FIPS 205 draft) via @noble/post-quantum',
+        zkProofs: 'Groth16 on BN128 — industry standard for ZK circuits, not NIST-standardized',
+        classicalCrypto: 'AES-256-GCM (FIPS 197), SHA-256 (FIPS 180-4), RSA-2048+ (FIPS 186-5)',
+      },
     };
   }
 

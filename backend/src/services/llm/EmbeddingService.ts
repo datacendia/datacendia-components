@@ -106,6 +106,72 @@ class EmbeddingService {
   }
 
   // ---------------------------------------------------------------------------
+  // RAG RETRIEVAL — In-memory vector store with top-K cosine search
+  // ---------------------------------------------------------------------------
+
+  private vectorStore: Map<string, { text: string; embedding: number[]; metadata?: Record<string, unknown> }> = new Map();
+
+  /**
+   * Index a document into the in-memory vector store for later retrieval.
+   */
+  async addDocument(id: string, text: string, metadata?: Record<string, unknown>): Promise<void> {
+    const embedding = await this.embed(text);
+    this.vectorStore.set(id, { text, embedding, metadata });
+  }
+
+  /**
+   * Batch-index multiple documents.
+   */
+  async addDocuments(docs: Array<{ id: string; text: string; metadata?: Record<string, unknown> }>): Promise<number> {
+    let count = 0;
+    for (const doc of docs) {
+      await this.addDocument(doc.id, doc.text, doc.metadata);
+      count++;
+    }
+    return count;
+  }
+
+  /**
+   * Search the vector store for the top-K most similar documents to the query.
+   * Returns results sorted by descending similarity.
+   */
+  async search(query: string, topK = 5, minScore = 0.0): Promise<Array<{
+    id: string;
+    text: string;
+    score: number;
+    metadata?: Record<string, unknown>;
+  }>> {
+    if (this.vectorStore.size === 0) return [];
+
+    const queryEmbedding = await this.embed(query);
+    const results: Array<{ id: string; text: string; score: number; metadata?: Record<string, unknown> }> = [];
+
+    for (const [id, doc] of this.vectorStore) {
+      const score = this.cosineSimilarity(queryEmbedding, doc.embedding);
+      if (score >= minScore) {
+        results.push({ id, text: doc.text, score, metadata: doc.metadata });
+      }
+    }
+
+    results.sort((a, b) => b.score - a.score);
+    return results.slice(0, topK);
+  }
+
+  /**
+   * Get the number of indexed documents.
+   */
+  getIndexSize(): number {
+    return this.vectorStore.size;
+  }
+
+  /**
+   * Clear the vector index.
+   */
+  clearIndex(): void {
+    this.vectorStore.clear();
+  }
+
+  // ---------------------------------------------------------------------------
   // PRIVATE
   // ---------------------------------------------------------------------------
 

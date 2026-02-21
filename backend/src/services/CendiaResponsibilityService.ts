@@ -13,6 +13,8 @@
  */
 
 import crypto from 'crypto';
+import { prisma } from '../config/database.js';
+import { logger } from '../utils/logger.js';
 
 // ============================================================================
 // TYPES
@@ -132,7 +134,120 @@ export interface LiabilityReport {
 export class CendiaResponsibilityService {
   private records: Map<string, AccountabilityRecord> = new Map();
   private delegations: Map<string, DelegationRecord> = new Map();
-  
+  private dbInitialized = false;
+
+  /**
+   * Load existing records from database on first use
+   */
+  private async ensureDbLoaded(): Promise<void> {
+    if (this.dbInitialized) return;
+    this.dbInitialized = true;
+    try {
+      const dbRecords = await prisma.accountability_records.findMany({ orderBy: { created_at: 'asc' } });
+      for (const r of dbRecords) {
+        this.records.set(r.id, {
+          id: r.id,
+          decisionId: r.decision_id,
+          deliberationId: r.deliberation_id || undefined,
+          organizationId: r.organization_id,
+          humanAuthority: { name: r.human_authority_name, role: r.human_authority_role, department: r.human_authority_dept || undefined },
+          actionTaken: r.action_taken as AccountabilityAction,
+          justification: r.justification,
+          acceptedRisks: r.accepted_risks as FailureCategory[],
+          riskAcknowledgment: r.risk_acknowledgment,
+          aiRecommendation: r.ai_recommendation || undefined,
+          aiConfidenceScore: r.ai_confidence_score || undefined,
+          dissentsOverridden: r.dissents_overridden,
+          signature: { algorithm: r.signature_algorithm as TPMSignature['algorithm'], signature: r.signature, publicKeyFingerprint: r.public_key_fp || '', attestationType: 'SOFTWARE_FALLBACK', timestamp: r.created_at.toISOString() },
+          previousRecordHash: r.previous_record_hash || undefined,
+          recordHash: r.record_hash,
+          timestamp: r.created_at.toISOString(),
+          witnesses: r.witnesses as HumanAuthority[] | undefined,
+        });
+      }
+
+      const dbDelegations = await prisma.delegation_records.findMany();
+      for (const d of dbDelegations) {
+        this.delegations.set(d.id, {
+          id: d.id,
+          fromAuthority: { name: d.from_name, role: d.from_role },
+          toAuthority: { name: d.to_name, role: d.to_role },
+          scope: d.scope,
+          constraints: d.constraints,
+          validFrom: d.valid_from.toISOString(),
+          validUntil: d.valid_until.toISOString(),
+          signature: { algorithm: 'RSA-SHA256', signature: d.signature, publicKeyFingerprint: '', attestationType: 'SOFTWARE_FALLBACK', timestamp: d.created_at.toISOString() },
+        });
+      }
+      logger.info(`[CendiaResponsibility] Loaded ${dbRecords.length} accountability records, ${dbDelegations.length} delegations from DB`);
+    } catch (err) {
+      logger.warn(`[CendiaResponsibility] DB load failed (tables may not exist yet): ${(err as Error).message}`);
+    }
+  }
+
+  /**
+   * Persist an accountability record to the database
+   */
+  private async persistRecord(record: AccountabilityRecord): Promise<void> {
+    try {
+      await prisma.accountability_records.upsert({
+        where: { id: record.id },
+        update: {},
+        create: {
+          id: record.id,
+          decision_id: record.decisionId,
+          deliberation_id: record.deliberationId || null,
+          organization_id: record.organizationId,
+          human_authority_name: record.humanAuthority.name,
+          human_authority_role: record.humanAuthority.role,
+          human_authority_dept: record.humanAuthority.department || null,
+          action_taken: record.actionTaken,
+          justification: record.justification,
+          accepted_risks: record.acceptedRisks,
+          risk_acknowledgment: record.riskAcknowledgment,
+          ai_recommendation: record.aiRecommendation || null,
+          ai_confidence_score: record.aiConfidenceScore || null,
+          dissents_overridden: record.dissentsOverridden || [],
+          signature_algorithm: record.signature.algorithm,
+          signature: record.signature.signature,
+          public_key_fp: record.signature.publicKeyFingerprint || null,
+          previous_record_hash: record.previousRecordHash || null,
+          record_hash: record.recordHash,
+          witnesses: record.witnesses ? JSON.parse(JSON.stringify(record.witnesses)) : null,
+        },
+      });
+    } catch (err) {
+      logger.warn(`[CendiaResponsibility] Failed to persist record ${record.id}: ${(err as Error).message}`);
+    }
+  }
+
+  /**
+   * Persist a delegation record to the database
+   */
+  private async persistDelegation(delegation: DelegationRecord): Promise<void> {
+    try {
+      await prisma.delegation_records.upsert({
+        where: { id: delegation.id },
+        update: {},
+        create: {
+          id: delegation.id,
+          organization_id: 'default',
+          from_name: delegation.fromAuthority.name,
+          from_role: delegation.fromAuthority.role,
+          to_name: delegation.toAuthority.name,
+          to_role: delegation.toAuthority.role,
+          scope: delegation.scope,
+          constraints: delegation.constraints,
+          valid_from: new Date(delegation.validFrom),
+          valid_until: new Date(delegation.validUntil),
+          signature: delegation.signature.signature,
+        },
+      });
+    } catch (err) {
+      logger.warn(`[CendiaResponsibility] Failed to persist delegation ${delegation.id}: ${(err as Error).message}`);
+    }
+  }
+
   /**
    * Create a new accountability record for a decision
    */
@@ -150,6 +265,7 @@ export class CendiaResponsibilityService {
     dissentsOverridden?: string[];
     witnesses?: HumanAuthority[];
   }): Promise<AccountabilityRecord> {
+    await this.ensureDbLoaded();
     const id = this.generateRecordId();
     const timestamp = new Date().toISOString();
     
@@ -190,6 +306,7 @@ export class CendiaResponsibilityService {
     };
     
     this.records.set(id, record);
+    await this.persistRecord(record);
     
     return record;
   }
@@ -293,6 +410,7 @@ export class CendiaResponsibilityService {
     };
     
     this.delegations.set(id, delegation);
+    await this.persistDelegation(delegation);
     
     return delegation;
   }
@@ -301,6 +419,7 @@ export class CendiaResponsibilityService {
    * Get the full accountability chain for a decision
    */
   async getAccountabilityChain(decisionId: string): Promise<AccountabilityChain> {
+    await this.ensureDbLoaded();
     const records = Array.from(this.records.values())
       .filter(r => r.decisionId === decisionId)
       .sort((a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime());

@@ -669,3 +669,124 @@ model constitutional_opinions {
   @@index([dispute_id])
   @@index([case_number])
 }
+
+// =============================================================================
+// Override Accountability — Primitive C
+// =============================================================================
+
+model accountability_records {
+  id                   String   @id @default(uuid())
+  decision_id          String
+  deliberation_id      String?
+  organization_id      String
+  human_authority_name String
+  human_authority_role String
+  human_authority_dept String?
+  action_taken         String   // APPROVE, OVERRIDE, DEFER, REJECT, ESCALATE
+  justification        String   @db.Text
+  accepted_risks       String[] // FailureCategory[]
+  risk_acknowledgment  String   @db.Text
+  ai_recommendation    String?  @db.Text
+  ai_confidence_score  Float?
+  dissents_overridden  String[]
+  signature_algorithm  String   @default("RSA-SHA256")
+  signature            String
+  public_key_fp        String?
+  previous_record_hash String?
+  record_hash          String
+  witnesses            Json?    // HumanAuthority[]
+  created_at           DateTime @default(now())
+
+  @@index([decision_id])
+  @@index([deliberation_id])
+  @@index([organization_id, action_taken])
+  @@index([created_at])
+}
+
+model delegation_records {
+  id               String   @id @default(uuid())
+  organization_id  String
+  from_name        String
+  from_role        String
+  to_name          String
+  to_role          String
+  scope            String[]
+  constraints      String[]
+  valid_from       DateTime
+  valid_until      DateTime
+  signature        String
+  created_at       DateTime @default(now())
+
+  @@index([organization_id])
+  @@index([valid_until])
+}
+
+// =============================================================================
+// Drift Detection — Primitive E (longitudinal tracking)
+// =============================================================================
+
+model drift_snapshots {
+  id               String   @id @default(uuid())
+  organization_id  String
+  snapshot_type    String   // "iiss", "compliance", "override_rate", "gate_pass_rate"
+  primitive        String?  // Which DCII primitive, if applicable
+  score            Float
+  max_score        Float?
+  metadata         Json?    // Additional context (band, controls, etc.)
+  created_at       DateTime @default(now())
+
+  @@index([organization_id, snapshot_type])
+  @@index([organization_id, primitive])
+  @@index([created_at])
+}
+
+// =============================================================================
+// Cognitive Bias Mitigation — Primitive F
+// =============================================================================
+
+model bias_analyses {
+  id                    String   @id @default(uuid())
+  organization_id       String
+  deliberation_id       String
+  deliberation_title    String
+  analyzed_by           String
+  biases_detected       Json     // BiasDetection[]
+  overall_risk          String   // none, low, medium, high, critical
+  bias_count            Int
+  high_risk_count       Int
+  rubber_stamp_detected Boolean  @default(false)
+  rubber_stamp_reason   String?
+  duration_minutes      Float?
+  min_expected_minutes  Float?
+  groupthink_indicators Json?    // { unanimousVote, dissentCount, ... }
+  recommendations       String[]
+  analysis_hash         String
+  created_at            DateTime @default(now())
+
+  @@index([organization_id])
+  @@index([deliberation_id])
+  @@index([overall_risk])
+  @@index([created_at])
+}
+
+// =============================================================================
+// Meta-Governance Reports — SGAS Class V
+// =============================================================================
+
+model meta_governance_reports {
+  id                  String   @id @default(uuid())
+  agent_id            String
+  agent_name          String
+  drift_warnings      Json     // DriftWarning[]
+  risk_report         Json     // GovernanceRiskReport
+  recommendations     Json     // StructuralRecommendation[]
+  health_score        Json     // SystemHealthScore
+  interventions       Json     // Intervention[]
+  analysis_window     Json     // TimeRange
+  execution_seed      Int?
+  execution_ms        Int?
+  created_at          DateTime @default(now())
+
+  @@index([agent_id])
+  @@index([created_at])
+}

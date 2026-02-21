@@ -28,6 +28,7 @@
 import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -203,9 +204,71 @@ const BIAS_DEFINITIONS: Record<BiasType, { name: string; description: string; in
 class CognitiveBiasMitigationService {
   private analyses: Map<string, BiasAnalysis> = new Map();
   private reports: Map<string, BiasReport> = new Map();
+  private dbInitialized = false;
 
   constructor() {
     logger.info('[CendiaBiasMitigation] Cognitive Bias Mitigation Service™ initialized — 12 bias types active');
+  }
+
+  private async ensureDbLoaded(): Promise<void> {
+    if (this.dbInitialized) return;
+    this.dbInitialized = true;
+    try {
+      const rows = await prisma.bias_analyses.findMany({ orderBy: { created_at: 'asc' } });
+      for (const r of rows) {
+        this.analyses.set(r.id, {
+          id: r.id,
+          organizationId: r.organization_id,
+          deliberationId: r.deliberation_id,
+          deliberationTitle: r.deliberation_title,
+          analyzedAt: r.created_at,
+          analyzedBy: r.analyzed_by,
+          biasesDetected: r.biases_detected as BiasDetection[],
+          overallRisk: r.overall_risk as BiasRisk,
+          biasCount: r.bias_count,
+          highRiskCount: r.high_risk_count,
+          rubberStampDetected: r.rubber_stamp_detected,
+          rubberStampReason: r.rubber_stamp_reason || undefined,
+          deliberationDurationMinutes: r.duration_minutes || 0,
+          minimumExpectedMinutes: r.min_expected_minutes || 0,
+          groupthinkIndicators: (r.groupthink_indicators as any) || { unanimousVote: false, dissentCount: 0, devilsAdvocatePresent: false, challengeCount: 0 },
+          recommendations: r.recommendations,
+          integrity: { analysisHash: r.analysis_hash, algorithm: 'SHA-256', signedAt: r.created_at },
+        });
+      }
+      logger.info(`[CendiaBiasMitigation] Loaded ${rows.length} bias analyses from DB`);
+    } catch (err) {
+      logger.warn(`[CendiaBiasMitigation] DB load failed: ${(err as Error).message}`);
+    }
+  }
+
+  private async persistAnalysis(analysis: BiasAnalysis): Promise<void> {
+    try {
+      await prisma.bias_analyses.upsert({
+        where: { id: analysis.id },
+        update: {},
+        create: {
+          id: analysis.id,
+          organization_id: analysis.organizationId,
+          deliberation_id: analysis.deliberationId,
+          deliberation_title: analysis.deliberationTitle,
+          analyzed_by: analysis.analyzedBy,
+          biases_detected: JSON.parse(JSON.stringify(analysis.biasesDetected)),
+          overall_risk: analysis.overallRisk,
+          bias_count: analysis.biasCount,
+          high_risk_count: analysis.highRiskCount,
+          rubber_stamp_detected: analysis.rubberStampDetected,
+          rubber_stamp_reason: analysis.rubberStampReason || null,
+          duration_minutes: analysis.deliberationDurationMinutes,
+          min_expected_minutes: analysis.minimumExpectedMinutes,
+          groupthink_indicators: JSON.parse(JSON.stringify(analysis.groupthinkIndicators)),
+          recommendations: analysis.recommendations,
+          analysis_hash: analysis.integrity.analysisHash,
+        },
+      });
+    } catch (err) {
+      logger.warn(`[CendiaBiasMitigation] Failed to persist analysis ${analysis.id}: ${(err as Error).message}`);
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -290,6 +353,7 @@ class CognitiveBiasMitigationService {
     };
 
     this.analyses.set(analysis.id, analysis);
+    await this.persistAnalysis(analysis);
     logger.info(`[CendiaBiasMitigation] Analysis ${analysis.id}: ${biasesDetected.length} biases detected, overall risk: ${overallRisk}`);
     return analysis;
   }

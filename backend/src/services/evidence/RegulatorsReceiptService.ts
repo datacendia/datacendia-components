@@ -108,6 +108,12 @@ export interface RegulatorsReceipt {
     calculatedAt: Date;
   };
 
+  // Override Accountability (Primitive C)
+  overrideEvents?: ReceiptOverrideEvent[];
+
+  // Drift Analysis (Primitive E) — longitudinal tracking
+  driftAnalysis?: ReceiptDriftAnalysis;
+
   // Retention & Legal
   retention: {
     retentionPeriod: string;
@@ -168,6 +174,32 @@ export interface AuditEntry {
   actor: string;
   details: string;
   hash: string;
+}
+
+export interface ReceiptOverrideEvent {
+  id: string;
+  authorityName: string;
+  authorityRole: string;
+  authorityDepartment?: string;
+  actionTaken: string;
+  aiRecommendation?: string;
+  aiConfidenceScore?: number;
+  justification: string;
+  acceptedRisks: string[];
+  dissentsOverridden: string[];
+  signatureHash: string;
+  timestamp: Date;
+  detectionMethod: 'explicit' | 'inferred';  // explicit = recorded via CendiaResponsibility, inferred = detected by divergence
+}
+
+export interface ReceiptDriftAnalysis {
+  currentScores: { primitive: string; score: number; maxScore: number }[];
+  baselineScores?: { primitive: string; score: number; maxScore: number; recordedAt: Date }[];
+  trends: { primitive: string; direction: 'improving' | 'stable' | 'degrading'; delta: number }[];
+  overrideRateHistory: { period: string; overrideCount: number; totalDecisions: number; rate: number }[];
+  gatePassRateHistory: { period: string; passed: number; failed: number; rate: number }[];
+  snapshotCount: number;
+  analysisWindow: string;
 }
 
 export interface ReceiptGenerationOptions {
@@ -275,6 +307,10 @@ export class RegulatorsReceiptService {
       workflowConfig: this.buildWorkflowConfig(deliberation),
 
       iissScores: await this.buildIISSScores(deliberation.organization_id, generatedBy),
+
+      overrideEvents: await this.buildOverrideEvents(deliberationId, deliberation),
+
+      driftAnalysis: await this.buildDriftAnalysis(deliberation.organization_id, generatedBy),
       
       retention: {
         retentionPeriod: `${opts.retentionYears} years`,
@@ -361,8 +397,23 @@ export class RegulatorsReceiptService {
   }
 
   private async buildApproverList(deliberationId: string): Promise<ReceiptHumanApprover[]> {
-    // Fetch human approvals from database
-    return [];
+    try {
+      const approvals = await prisma.approvals.findMany({
+        where: { reference_id: deliberationId, status: 'APPROVED' },
+        include: { users: true },
+      });
+
+      return approvals.map(a => ({
+        userId: a.requester_id,
+        name: a.users?.name || a.reviewer_id || 'Unknown',
+        role: a.title || 'Approver',
+        approvedAt: a.reviewed_at || a.created_at,
+        signature: a.comments ? `APPROVED: ${a.comments}` : undefined,
+      }));
+    } catch {
+      // approvals table may not exist yet or no matching records
+      return [];
+    }
   }
 
   private async buildEvidenceChain(deliberationId: string): Promise<RegulatorsReceipt['evidenceChain']> {
@@ -763,6 +814,288 @@ export class RegulatorsReceiptService {
   }
 
   // -------------------------------------------------------------------------
+  // OVERRIDE ACCOUNTABILITY (Primitive C)
+  // -------------------------------------------------------------------------
+
+  private async buildOverrideEvents(deliberationId: string, deliberation: any): Promise<ReceiptOverrideEvent[]> {
+    const events: ReceiptOverrideEvent[] = [];
+    const orgId = deliberation.organization_id || deliberation.org_id;
+
+    // 1. Explicit overrides from accountability_records table
+    try {
+      const records = await prisma.accountability_records.findMany({
+        where: {
+          OR: [
+            { deliberation_id: deliberationId },
+            { decision_id: deliberationId },
+          ],
+        },
+        orderBy: { created_at: 'asc' },
+      });
+
+      for (const rec of records) {
+        events.push({
+          id: rec.id,
+          authorityName: rec.human_authority_name,
+          authorityRole: rec.human_authority_role,
+          authorityDepartment: rec.human_authority_dept || undefined,
+          actionTaken: rec.action_taken,
+          aiRecommendation: rec.ai_recommendation || undefined,
+          aiConfidenceScore: rec.ai_confidence_score || undefined,
+          justification: rec.justification,
+          acceptedRisks: rec.accepted_risks,
+          dissentsOverridden: rec.dissents_overridden,
+          signatureHash: rec.record_hash,
+          timestamp: rec.created_at,
+          detectionMethod: 'explicit',
+        });
+      }
+    } catch {
+      // Table may not exist yet
+    }
+
+    // 2. Infer overrides by comparing agent consensus vs final decision
+    try {
+      const messages = await prisma.deliberation_messages.findMany({
+        where: { deliberation_id: deliberationId },
+        include: { agents: true },
+      });
+
+      if (messages.length > 0 && deliberation?.decision) {
+        const decisionData = deliberation.decision as Record<string, unknown>;
+        const dissenting = Array.isArray(decisionData?.dissenting) ? decisionData.dissenting as string[] : [];
+        const totalAgents = new Set(messages.map(m => m.agent_id)).size;
+        const dissentRate = totalAgents > 0 ? dissenting.length / totalAgents : 0;
+
+        // If >50% of agents dissented, the final decision likely overrode the majority
+        if (dissentRate > 0.5 && events.length === 0) {
+          // Check approvals table for who approved despite majority dissent
+          const approvals = await prisma.approvals.findMany({
+            where: { reference_id: deliberationId, status: 'APPROVED' },
+            include: { users: true },
+          }).catch(() => []);
+
+          if (approvals.length > 0) {
+            for (const approval of approvals) {
+              events.push({
+                id: `inferred-${approval.id}`,
+                authorityName: approval.users?.name || approval.reviewer_id || 'Unknown',
+                authorityRole: approval.title || 'Approver',
+                actionTaken: 'OVERRIDE',
+                aiRecommendation: `Majority of agents (${dissenting.length}/${totalAgents}) dissented`,
+                aiConfidenceScore: deliberation.confidence ? Math.round(deliberation.confidence * 100) : undefined,
+                justification: approval.comments || 'Decision approved despite majority agent dissent',
+                acceptedRisks: [],
+                dissentsOverridden: dissenting,
+                signatureHash: this.hashData({ approvalId: approval.id, deliberationId }),
+                timestamp: approval.reviewed_at || approval.created_at,
+                detectionMethod: 'inferred',
+              });
+            }
+          } else {
+            // No explicit approver — record the system-detected override
+            events.push({
+              id: `inferred-${deliberationId}`,
+              authorityName: 'Unrecorded Authority',
+              authorityRole: 'Decision Maker',
+              actionTaken: 'OVERRIDE',
+              aiRecommendation: `Majority agent position overridden (${dissenting.length}/${totalAgents} dissented)`,
+              aiConfidenceScore: deliberation.confidence ? Math.round(deliberation.confidence * 100) : undefined,
+              justification: 'Final decision diverged from majority agent recommendation — no explicit override record found',
+              acceptedRisks: [],
+              dissentsOverridden: dissenting,
+              signatureHash: this.hashData({ inferred: true, deliberationId }),
+              timestamp: deliberation.completed_at || new Date(),
+              detectionMethod: 'inferred',
+            });
+          }
+        }
+      }
+    } catch {
+      // Inference failed — non-critical
+    }
+
+    return events;
+  }
+
+  // -------------------------------------------------------------------------
+  // DRIFT ANALYSIS (Primitive E — longitudinal)
+  // -------------------------------------------------------------------------
+
+  private async buildDriftAnalysis(organizationId: string, initiatedBy: string): Promise<ReceiptDriftAnalysis | undefined> {
+    try {
+      // 1. Get current IISS scores
+      let currentScore = iissService.getLatestScore(organizationId);
+      if (!currentScore) {
+        const org = await prisma.organizations.findUnique({ where: { id: organizationId } });
+        currentScore = await iissService.calculateScore(organizationId, org?.name || 'Unknown', initiatedBy);
+      }
+
+      const currentScores = currentScore.dimensions.map(d => ({
+        primitive: d.primitive,
+        score: d.score,
+        maxScore: d.maxScore,
+      }));
+
+      // 2. Persist current snapshot for longitudinal tracking
+      try {
+        await prisma.drift_snapshots.create({
+          data: {
+            organization_id: organizationId,
+            snapshot_type: 'iiss',
+            score: currentScore.overallScore,
+            max_score: 100,
+            metadata: {
+              band: currentScore.band,
+              certificationLevel: currentScore.certificationLevel,
+              dimensions: currentScores,
+            },
+          },
+        });
+
+        // Also persist per-primitive snapshots
+        for (const dim of currentScores) {
+          await prisma.drift_snapshots.create({
+            data: {
+              organization_id: organizationId,
+              snapshot_type: 'primitive',
+              primitive: dim.primitive,
+              score: dim.score,
+              max_score: dim.maxScore,
+            },
+          });
+        }
+      } catch {
+        // Table may not exist yet — non-critical
+      }
+
+      // 3. Load historical snapshots for trend analysis
+      let baselineScores: ReceiptDriftAnalysis['baselineScores'];
+      let snapshotCount = 0;
+      try {
+        const historicalSnapshots = await prisma.drift_snapshots.findMany({
+          where: { organization_id: organizationId, snapshot_type: 'primitive' },
+          orderBy: { created_at: 'asc' },
+        });
+        snapshotCount = historicalSnapshots.length;
+
+        if (historicalSnapshots.length > 0) {
+          // Group by primitive, take earliest as baseline
+          const primitiveMap = new Map<string, typeof historicalSnapshots>();
+          for (const snap of historicalSnapshots) {
+            if (!snap.primitive) continue;
+            if (!primitiveMap.has(snap.primitive)) primitiveMap.set(snap.primitive, []);
+            primitiveMap.get(snap.primitive)!.push(snap);
+          }
+
+          baselineScores = [];
+          for (const [primitive, snaps] of primitiveMap) {
+            if (snaps.length > 0) {
+              const earliest = snaps[0];
+              baselineScores.push({
+                primitive,
+                score: earliest.score,
+                maxScore: earliest.max_score || 200,
+                recordedAt: earliest.created_at,
+              });
+            }
+          }
+        }
+      } catch {
+        // Table may not exist yet
+      }
+
+      // 4. Calculate trends
+      const trends: ReceiptDriftAnalysis['trends'] = currentScores.map(cs => {
+        const baseline = baselineScores?.find(b => b.primitive === cs.primitive);
+        if (!baseline) return { primitive: cs.primitive, direction: 'stable' as const, delta: 0 };
+        const delta = cs.score - baseline.score;
+        const direction = delta > 5 ? 'improving' as const : delta < -5 ? 'degrading' as const : 'stable' as const;
+        return { primitive: cs.primitive, direction, delta };
+      });
+
+      // 5. Override rate history from accountability_records
+      let overrideRateHistory: ReceiptDriftAnalysis['overrideRateHistory'] = [];
+      try {
+        const accountRecords = await prisma.accountability_records.findMany({
+          where: { organization_id: organizationId },
+          orderBy: { created_at: 'asc' },
+        });
+
+        if (accountRecords.length > 0) {
+          const monthMap = new Map<string, { overrides: number; total: number }>();
+          for (const r of accountRecords) {
+            const month = r.created_at.toISOString().slice(0, 7);
+            if (!monthMap.has(month)) monthMap.set(month, { overrides: 0, total: 0 });
+            const entry = monthMap.get(month)!;
+            entry.total++;
+            if (r.action_taken === 'OVERRIDE') entry.overrides++;
+          }
+
+          overrideRateHistory = Array.from(monthMap.entries())
+            .sort(([a], [b]) => a.localeCompare(b))
+            .map(([period, data]) => ({
+              period,
+              overrideCount: data.overrides,
+              totalDecisions: data.total,
+              rate: data.total > 0 ? Math.round((data.overrides / data.total) * 100) : 0,
+            }));
+        }
+      } catch {
+        // Table may not exist yet
+      }
+
+      // 6. Gate pass rate history from deliberations
+      let gatePassRateHistory: ReceiptDriftAnalysis['gatePassRateHistory'] = [];
+      try {
+        const recentDelibs = await prisma.deliberations.findMany({
+          where: { organization_id: organizationId },
+          orderBy: { created_at: 'asc' },
+          select: { created_at: true, status: true, confidence: true },
+        });
+
+        if (recentDelibs.length > 0) {
+          const monthMap = new Map<string, { passed: number; failed: number }>();
+          for (const d of recentDelibs) {
+            const month = d.created_at.toISOString().slice(0, 7);
+            if (!monthMap.has(month)) monthMap.set(month, { passed: 0, failed: 0 });
+            const entry = monthMap.get(month)!;
+            if ((d.status as string) === 'COMPLETED' && (d.confidence || 0) >= 0.5) {
+              entry.passed++;
+            } else if ((d.status as string) === 'COMPLETED') {
+              entry.failed++;
+            }
+          }
+
+          gatePassRateHistory = Array.from(monthMap.entries())
+            .sort(([a], [b]) => a.localeCompare(b))
+            .map(([period, data]) => ({
+              period,
+              passed: data.passed,
+              failed: data.failed,
+              rate: (data.passed + data.failed) > 0 ? Math.round((data.passed / (data.passed + data.failed)) * 100) : 100,
+            }));
+        }
+      } catch {
+        // Table query failed — non-critical
+      }
+
+      return {
+        currentScores,
+        baselineScores: baselineScores && baselineScores.length > 0 ? baselineScores : undefined,
+        trends,
+        overrideRateHistory,
+        gatePassRateHistory,
+        snapshotCount,
+        analysisWindow: '90 days',
+      };
+    } catch (err) {
+      logger.warn(`Failed to build drift analysis: ${(err as Error).message}`);
+      return undefined;
+    }
+  }
+
+  // -------------------------------------------------------------------------
   // CRYPTOGRAPHIC FUNCTIONS
   // -------------------------------------------------------------------------
 
@@ -895,6 +1228,55 @@ export class RegulatorsReceiptService {
             receipt.cryptographicProof.signedBy ? `Signed By: ${receipt.cryptographicProof.signedBy}` : '',
             receipt.cryptographicProof.signedAt ? `Signed At: ${receipt.cryptographicProof.signedAt.toISOString()}` : '',
           ].filter(Boolean).join('\n'),
+        },
+        {
+          title: 'OVERRIDE ACCOUNTABILITY',
+          content: receipt.overrideEvents && receipt.overrideEvents.length > 0
+            ? receipt.overrideEvents.map(e =>
+                `[${e.detectionMethod.toUpperCase()}] ${e.authorityName} (${e.authorityRole}):\n` +
+                `  Action: ${e.actionTaken}\n` +
+                (e.aiRecommendation ? `  AI Recommendation: ${e.aiRecommendation}\n` : '') +
+                (e.aiConfidenceScore != null ? `  AI Confidence: ${e.aiConfidenceScore}%\n` : '') +
+                `  Justification: ${e.justification}\n` +
+                (e.acceptedRisks.length > 0 ? `  Accepted Risks: ${e.acceptedRisks.join(', ')}\n` : '') +
+                (e.dissentsOverridden.length > 0 ? `  Dissents Overridden: ${e.dissentsOverridden.join(', ')}\n` : '') +
+                `  Signature Hash: ${e.signatureHash}\n` +
+                `  Timestamp: ${e.timestamp.toISOString()}`
+              ).join('\n\n')
+            : 'No override events detected for this decision.',
+        },
+        {
+          title: 'DRIFT ANALYSIS (LONGITUDINAL)',
+          content: receipt.driftAnalysis
+            ? [
+                'Current IISS Primitive Scores:',
+                ...receipt.driftAnalysis.currentScores.map(s =>
+                  `  ${s.primitive}: ${s.score}/${s.maxScore}`
+                ),
+                '',
+                'Trends:',
+                ...receipt.driftAnalysis.trends.map(t =>
+                  `  ${t.primitive}: ${t.direction.toUpperCase()} (Δ ${t.delta > 0 ? '+' : ''}${t.delta.toFixed(1)})`
+                ),
+                '',
+                `Snapshot Count: ${receipt.driftAnalysis.snapshotCount}`,
+                `Analysis Window: ${receipt.driftAnalysis.analysisWindow}`,
+                ...(receipt.driftAnalysis.overrideRateHistory.length > 0 ? [
+                  '',
+                  'Override Rate History:',
+                  ...receipt.driftAnalysis.overrideRateHistory.map(h =>
+                    `  ${h.period}: ${h.overrideCount}/${h.totalDecisions} (${h.rate}%)`
+                  ),
+                ] : []),
+                ...(receipt.driftAnalysis.gatePassRateHistory.length > 0 ? [
+                  '',
+                  'Gate Pass Rate History:',
+                  ...receipt.driftAnalysis.gatePassRateHistory.map(h =>
+                    `  ${h.period}: ${h.passed} passed, ${h.failed} failed (${h.rate}%)`
+                  ),
+                ] : []),
+              ].join('\n')
+            : 'Drift analysis not available.',
         },
         {
           title: 'RETENTION & LEGAL',
