@@ -1101,6 +1101,115 @@ export class KeyManagementService {
 
     return keys;
   }
+
+  // ===========================================================================
+  // KEY LIFECYCLE MANAGEMENT
+  // ===========================================================================
+
+  /**
+   * Check all keys for expiry and rotation needs.
+   * Returns keys that are expired, expiring soon, or overdue for rotation.
+   */
+  async auditKeyHealth(params?: {
+    rotationThresholdDays?: number;
+    expiryWarningDays?: number;
+  }): Promise<{
+    healthy: KeyMetadata[];
+    expiringSoon: KeyMetadata[];
+    expired: KeyMetadata[];
+    rotationOverdue: KeyMetadata[];
+    summary: { total: number; healthy: number; warnings: number; critical: number };
+  }> {
+    const rotationThreshold = (params?.rotationThresholdDays ?? 90) * 24 * 60 * 60 * 1000;
+    const expiryWarning = (params?.expiryWarningDays ?? 30) * 24 * 60 * 60 * 1000;
+    const now = Date.now();
+
+    const allKeys = await this.listKeys();
+    const healthy: KeyMetadata[] = [];
+    const expiringSoon: KeyMetadata[] = [];
+    const expired: KeyMetadata[] = [];
+    const rotationOverdue: KeyMetadata[] = [];
+
+    for (const key of allKeys) {
+      // Check expiry
+      if (key.expiresAt && key.expiresAt.getTime() < now) {
+        expired.push(key);
+        continue;
+      }
+      if (key.expiresAt && key.expiresAt.getTime() - now < expiryWarning) {
+        expiringSoon.push(key);
+        continue;
+      }
+
+      // Check rotation age
+      const lastRotation = key.rotatedAt || key.createdAt;
+      if (now - lastRotation.getTime() > rotationThreshold) {
+        rotationOverdue.push(key);
+        continue;
+      }
+
+      healthy.push(key);
+    }
+
+    const warnings = expiringSoon.length + rotationOverdue.length;
+    const critical = expired.length;
+
+    if (critical > 0) {
+      logger.error(`[KMS] Key health audit: ${critical} EXPIRED keys found!`);
+    }
+    if (warnings > 0) {
+      logger.warn(`[KMS] Key health audit: ${warnings} keys need attention (${expiringSoon.length} expiring, ${rotationOverdue.length} rotation overdue)`);
+    }
+
+    return {
+      healthy,
+      expiringSoon,
+      expired,
+      rotationOverdue,
+      summary: {
+        total: allKeys.length,
+        healthy: healthy.length,
+        warnings,
+        critical,
+      },
+    };
+  }
+
+  /**
+   * Auto-rotate keys that are overdue for rotation.
+   * Returns the list of rotated keys.
+   */
+  async autoRotateOverdueKeys(rotationThresholdDays = 90): Promise<KeyMetadata[]> {
+    const audit = await this.auditKeyHealth({ rotationThresholdDays });
+    const rotated: KeyMetadata[] = [];
+
+    for (const key of audit.rotationOverdue) {
+      try {
+        const newKey = await this.rotateKey(key.keyId);
+        rotated.push(newKey);
+        logger.info(`[KMS] Auto-rotated key ${key.keyId} (age: ${Math.round((Date.now() - (key.rotatedAt || key.createdAt).getTime()) / 86400000)}d)`);
+      } catch (err) {
+        logger.error(`[KMS] Failed to auto-rotate key ${key.keyId}: ${(err as Error).message}`);
+      }
+    }
+
+    return rotated;
+  }
+
+  /**
+   * Get key fingerprint (SHA-256 of public key) for verification.
+   */
+  async getKeyFingerprint(keyId: string): Promise<string> {
+    await this.initialize();
+
+    const localKey = this.localKeys.get(keyId);
+    if (localKey) {
+      return crypto.createHash('sha256').update(localKey.publicKey).digest('hex');
+    }
+
+    // For cloud KMS, return the key ARN/ID hash
+    return crypto.createHash('sha256').update(keyId).digest('hex');
+  }
 }
 
 // Singleton instance
