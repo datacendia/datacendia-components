@@ -296,7 +296,7 @@ export class PreMortemService extends BaseService {
       dependencies: ['council'],
       ...config,
     });
-    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://localhost:11434';
+    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434';
   }
 
   async initialize(): Promise<void> {

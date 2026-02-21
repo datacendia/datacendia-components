@@ -44,7 +44,7 @@ const configSchema = z.object({
   neo4jPassword: z.string(),
   
   // Ollama
-  ollamaBaseUrl: z.string().url().default('http://localhost:11434'),
+  ollamaBaseUrl: z.string().url().default('http://127.0.0.1:11434'),
   ollamaModel: z.string().default('qwen2.5:7b'),
   ollamaModelFlagship: z.string().default('llama3.3:70b'),
   ollamaModelFast: z.string().default('llama3.2:3b'),

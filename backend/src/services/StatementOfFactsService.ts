@@ -186,7 +186,7 @@ export class StatementOfFactsService extends BaseService {
       dependencies: ['deliberation-service'],
       ...config,
     });
-    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://localhost:11434';
+    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434';
 
 
     this.loadFromDB().catch(() => {});
@@ -820,13 +820,13 @@ Output JSON:
       restored += recs_1.length;
 
 
-      if (restored > 0) logger.info(`[StatementOfFactsService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[StatementOfFactsService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[StatementOfFactsService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[StatementOfFactsService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

@@ -170,7 +170,7 @@ class CouncilService extends BaseService {
     const start = Date.now();
     try {
       // Check Ollama connectivity
-      const response = await fetch('http://localhost:11434/api/tags');
+      const response = await fetch('http://127.0.0.1:11434/api/tags');
       const data = await response.json() as { models?: any[] };
       return {
         status: 'healthy',

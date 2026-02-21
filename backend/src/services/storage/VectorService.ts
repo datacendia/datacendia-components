@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// VECTOR SERVICE - pgvector for AI Memory (CendiaGnosis™ RAG)
+// VECTOR SERVICE - pgvector for AI Memory (CendiaGnosisï¿½ RAG)
 // =============================================================================
 // Uses PostgreSQL's pgvector extension for semantic search.
 // Powers: Document retrieval, Decision memory, Agent long-term context
@@ -90,7 +90,7 @@ class VectorService {
    */
   async generateEmbedding(text: string, model: string = 'nomic-embed-text'): Promise<number[]> {
     try {
-      const response = await fetch(`${process.env.OLLAMA_HOST || 'http://localhost:11434'}/api/embeddings`, {
+      const response = await fetch(`${process.env.OLLAMA_HOST || 'http://127.0.0.1:11434'}/api/embeddings`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ model, prompt: text }),

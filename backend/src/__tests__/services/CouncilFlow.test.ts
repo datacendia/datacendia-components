@@ -80,7 +80,7 @@ vi.mock('../../websocket/emitters.js', () => ({
 
 vi.mock('../../config/aiModels.js', () => ({
   aiModelSelector: {
-    selectModel: vi.fn().mockReturnValue({ model: 'llama3.2:3b', endpoint: 'http://localhost:11434' }),
+    selectModel: vi.fn().mockReturnValue({ model: 'llama3.2:3b', endpoint: 'http://127.0.0.1:11434' }),
   },
 }));
 

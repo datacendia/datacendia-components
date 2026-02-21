@@ -277,7 +277,7 @@ export class EnhancedLLMService {
   private modelLoadTimes: Map<string, number> = new Map();
   
   constructor() {
-    this.baseUrl = config.ollamaBaseUrl || 'http://localhost:11434';
+    this.baseUrl = config.ollamaBaseUrl || 'http://127.0.0.1:11434';
     this.defaultModel = config.ollamaModel || 'qwen2.5:7b';
 
 

@@ -18,7 +18,7 @@
 
 import { describe, it, expect, beforeAll } from 'vitest';
 
-const OLLAMA_URL = process.env['OLLAMA_URL'] || 'http://localhost:11434';
+const OLLAMA_URL = process.env['OLLAMA_URL'] || 'http://127.0.0.1:11434';
 const API_URL = process.env['API_URL'] || 'http://localhost:3000/api/v1';
 
 // Check if Ollama is available

@@ -393,7 +393,7 @@ describe('NLPBiasDetectionService — CendiaBiasGuard E2E', () => {
     expect(result.detections.length).toBeGreaterThan(0);
     const categories = result.detections.map(d => d.category);
     expect(categories).toContain('confirmation');
-    expect(result.engine).toBe('statistical-fallback');
+    expect(['statistical-fallback', 'ollama-nlp']).toContain(result.engine);
   });
 
   it('should detect sunk cost bias', async () => {

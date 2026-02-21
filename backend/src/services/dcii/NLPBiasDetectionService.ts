@@ -225,7 +225,7 @@ export class NLPBiasDetectionService {
   private ollamaAvailable: boolean = false;
 
   constructor(config?: { ollamaUrl?: string; model?: string }) {
-    this.ollamaUrl = config?.ollamaUrl || process.env.OLLAMA_URL || 'http://localhost:11434';
+    this.ollamaUrl = config?.ollamaUrl || process.env.OLLAMA_URL || 'http://127.0.0.1:11434';
     this.model = config?.model || process.env.BIAS_MODEL || 'llama3.2';
     logger.info(`[BiasGuard] NLP Bias Detection initialized — Ollama: ${this.ollamaUrl}, model: ${this.model}`);
   }
@@ -262,6 +262,14 @@ export class NLPBiasDetectionService {
         detections = await this.analyzeWithOllama(text);
         engine = 'ollama-nlp';
         modelUsed = this.model;
+        // Cross-check: if LLM found nothing, run statistical as safety net
+        if (detections.length === 0) {
+          const statistical = this.analyzeStatistical(text);
+          if (statistical.length > 0) {
+            detections = statistical;
+            engine = 'statistical-fallback';
+          }
+        }
       } catch (err) {
         logger.warn(`[BiasGuard] Ollama analysis failed, using statistical fallback: ${(err as Error).message}`);
         detections = this.analyzeStatistical(text);

@@ -278,7 +278,7 @@ class CendiaOmniTranslateService {
     // Check if Ollama is available
     let ollamaAvailable = false;
     try {
-      const response = await fetch('http://localhost:11434/api/tags');
+      const response = await fetch('http://127.0.0.1:11434/api/tags');
       if (response.ok) {
         ollamaAvailable = true;
         const data = await response.json() as { models?: Array<{ name: string }> };
@@ -325,7 +325,7 @@ class CendiaOmniTranslateService {
       logger.info(`[OmniTranslate] Pulling model ${TRANSLATION_MODELS.fast}...`);
       
       // Use Ollama pull API
-      const response = await fetch('http://localhost:11434/api/pull', {
+      const response = await fetch('http://127.0.0.1:11434/api/pull', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: TRANSLATION_MODELS.fast, stream: false }),

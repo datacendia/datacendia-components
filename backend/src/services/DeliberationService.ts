@@ -113,7 +113,7 @@ export class DeliberationService extends BaseService {
       dependencies: ['database'],
       ...config,
     });
-    this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://localhost:11434';
+    this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://127.0.0.1:11434';
     this.socketServer = socketServer || null;
 
 
@@ -798,13 +798,13 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
       restored += recs.length;
 
 
-      if (restored > 0) logger.info(`[DeliberationService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[DeliberationService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[DeliberationService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[DeliberationService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

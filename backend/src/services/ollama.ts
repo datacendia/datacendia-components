@@ -90,10 +90,54 @@ interface OllamaModel {
 class OllamaService {
   private baseUrl: string;
   private defaultModel: string;
+  private cachedModels: string[] | null = null;
+  private modelCacheTime = 0;
 
   constructor() {
     this.baseUrl = config.ollamaBaseUrl;
     this.defaultModel = config.ollamaModel;
+  }
+
+  /**
+   * Get cached list of available model names (refreshes every 60s)
+   */
+  private async getAvailableModelNames(): Promise<string[]> {
+    if (this.cachedModels && Date.now() - this.modelCacheTime < 60000) {
+      return this.cachedModels;
+    }
+    try {
+      const response = await fetch(`${this.baseUrl}/api/tags`);
+      if (!response.ok) return [];
+      const data = await response.json() as { models: OllamaModel[] };
+      this.cachedModels = data.models.map(m => m.name);
+      this.modelCacheTime = Date.now();
+      return this.cachedModels;
+    } catch {
+      return [];
+    }
+  }
+
+  /**
+   * Resolve the best available model: requested → default → any available
+   */
+  async resolveModel(requested?: string): Promise<string> {
+    const models = await this.getAvailableModelNames();
+    const target = requested || this.defaultModel;
+
+    // Exact match
+    if (models.includes(target)) return target;
+    // Prefix match (e.g. 'qwen2.5:7b' matches 'qwen2.5:7b-q4_0')
+    const prefix = models.find(m => m.startsWith(target.split(':')[0]));
+    if (prefix) return prefix;
+    // Default model
+    if (models.includes(this.defaultModel)) return this.defaultModel;
+    // Any model
+    if (models.length > 0) {
+      logger.warn(`[Ollama] Requested model '${target}' not found, using '${models[0]}'`);
+      return models[0];
+    }
+    // Nothing available — return requested and let the API call fail with a clear error
+    return target;
   }
 
   /**
@@ -151,12 +195,14 @@ class OllamaService {
     prompt: string,
     options: Partial<OllamaGenerateRequest> = {}
   ): Promise<string> {
+    const resolvedModel = await this.resolveModel(options.model || this.defaultModel);
     const request: OllamaGenerateRequest = {
-      model: options.model || this.defaultModel,
+      model: resolvedModel,
       prompt,
       stream: false,
       ...options,
     };
+    request.model = resolvedModel;
 
     const startTime = Date.now();
     
@@ -195,12 +241,14 @@ class OllamaService {
     messages: OllamaChatMessage[],
     options: Partial<OllamaChatRequest> = {}
   ): Promise<OllamaChatMessage> {
+    const resolvedModel = await this.resolveModel(options.model || this.defaultModel);
     const request: OllamaChatRequest = {
-      model: options.model || this.defaultModel,
+      model: resolvedModel,
       messages,
       stream: false,
       ...options,
     };
+    request.model = resolvedModel;
 
     const startTime = Date.now();
 
@@ -268,12 +316,14 @@ class OllamaService {
     messages: OllamaChatMessage[],
     options: Partial<OllamaChatRequest> = {}
   ): AsyncGenerator<string, void, unknown> {
+    const resolvedModel = await this.resolveModel(options.model || this.defaultModel);
     const request: OllamaChatRequest = {
-      model: options.model || this.defaultModel,
+      model: resolvedModel,
       messages,
       stream: true,
       ...options,
     };
+    request.model = resolvedModel;
 
     const response = await fetch(`${this.baseUrl}/api/chat`, {
       method: 'POST',

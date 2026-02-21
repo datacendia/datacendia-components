@@ -6,9 +6,21 @@
  * Marketing Studio API Routes Tests
  */
 
-import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, vi } from 'vitest';
 import request from 'supertest';
 import express from 'express';
+
+// Mock ollamaService so tests don't hit real Ollama (which takes 30-60s per generation)
+vi.mock('../../services/ollama.js', () => {
+  return {
+    default: {
+      isAvailable: vi.fn().mockResolvedValue(false),
+      generate: vi.fn().mockRejectedValue(new Error('mocked')),
+      resolveModel: vi.fn().mockResolvedValue('qwen2.5:7b'),
+    },
+  };
+});
+
 import marketingStudioRoutes from '../../routes/marketing-studio.js';
 
 const app = express();

@@ -266,7 +266,7 @@ class AIModelSelector {
    */
   async isModelAvailable(modelId: string): Promise<boolean> {
     try {
-      const response = await fetch('http://localhost:11434/api/tags');
+      const response = await fetch('http://127.0.0.1:11434/api/tags');
       if (!response.ok) return false;
       const data = await response.json() as { models: { name: string }[] };
       return data.models.some(m => m.name === modelId || m.name.startsWith(modelId.split(':')[0]));

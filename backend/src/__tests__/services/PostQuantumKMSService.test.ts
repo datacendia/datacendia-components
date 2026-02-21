@@ -63,14 +63,14 @@ describe('PostQuantumKMSService', () => {
       const recommendation = postQuantumKMSService.getRecommendation('compact');
       
       expect(typeof recommendation).toBe('string');
-      expect(recommendation).toBe('falcon-512');
+      expect(recommendation).toBe('dilithium2'); // Falcon not yet available in JS; Dilithium2 is smallest implemented
     });
 
     it('should recommend hybrid for transition period', () => {
       const recommendation = postQuantumKMSService.getRecommendation('hybrid');
       
       expect(typeof recommendation).toBe('string');
-      expect(recommendation).toBe('hybrid-rsa-dilithium');
+      expect(recommendation).toBe('dilithium3'); // Dilithium3 + separate RSA signing for hybrid approach
     });
   });
 
