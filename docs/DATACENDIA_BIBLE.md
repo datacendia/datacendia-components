@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 4.8** | **February 17, 2026 Update** — Platform Integrity + CendiaRecall™
+**Version 4.9** | **February 21, 2026 Update** — Model Architecture + Tiered Licensing
 
 ---
 
@@ -1983,7 +1983,7 @@ For legal proceedings, Datacendia can generate:
 | **Local LLM Support** | ✅ Native Ollama | ❌ No | ❌ No | ❌ No | ⚠️ Limited |
 | **Multi-Agent Council** | ✅ 14+ agents | ⚠️ Ontology | ❌ No | ❌ Single | ⚠️ Limited |
 | **Immutable Audit Trail** | ✅ Blockchain-style | ⚠️ Logs only | ⚠️ Logs only | ❌ No | ⚠️ Logs only |
-| **Entry Price** | **$35k pilot** | $100k+ | $100k+ | Per-seat | $50k+ |
+| **Entry Price** | **$50K pilot** | $100k+ | $100k+ | Per-seat | $50k+ |
 | **Time to Value** | **2-4 weeks** | 3-6 months | 3-6 months | 1-2 months | 2-4 months |
 
 **Legend:** ✅ Full support | ⚠️ Partial/Limited | ❌ Not available
@@ -2024,49 +2024,53 @@ CendiaChronos™ leverages Apache Druid for sub-second time-series analytics at 
 
 Datacendia follows a **tiered model strategy** that balances capability, cost, latency, and privacy:
 
-### 2025 Model Landscape
+### 2026 Model Architecture: "Right Brain for the Right Job"
 
-The AI model landscape has shifted toward **fine-tuned Small Language Models (SLMs)** that outperform larger generic models on domain tasks:
+Datacendia uses a **slot-based multi-model architecture** where each task type routes to a purpose-built specialist. All models run locally via Ollama — no data leaves the premises.
 
-| Trend | Impact on Datacendia |
-|-------|---------------------|
-| **SLM Specialization** | Llama 3.3 variants fine-tuned for decision-making |
-| **Quantization** | 4-bit models run on laptops (GGUF format) |
-| **Multi-Modal** | Vision + text for document analysis |
-| **Mixture of Experts** | Mixtral-style routing for efficiency |
+| Slot | Model | Parameters | Specialization | Context |
+|------|-------|------------|----------------|---------|
+| **Large** | Llama 3.3 | 70B | Council deliberations, executive decisions | 128K |
+| **Flagship** | Qwen3 | 32B | General analysis, synthesis, strategy | 128K |
+| **Reasoning** | DeepSeek-R1 | 32B | Risk, legal, compliance, chain-of-thought | 64K |
+| **Coder** | Qwen3 Coder | 30B | SQL, JSON, code, tool calling | 131K |
+| **Fast** | Llama 3.2 | 3B | UI responses, simple tasks | 8K |
+| **Vision** | Qwen3-VL | 30B | Document OCR, chart analysis | 16K |
+| **Translator** | Qwen 2.5 | 32B | CendiaOmniTranslate™, 100+ languages | 32K |
+| **Embed** | Qwen3 Embedding | 4B | Vector search, RAG (2560-dim) | 32K |
 
-### Tier 1: Local Models (Ollama) — **Primary**
-**Use Cases:** All sensitive data, air-gapped environments, default for all tiers
+Every slot is env-var configurable. Customers can swap models without code changes.
 
-| Model | Parameters | Specialization | Quantization |
-|-------|------------|----------------|--------------|
-| Llama 3.3 | 70B | General reasoning, analysis | Q4_K_M (42GB) |
-| Llama 3.2 | 3B | Fast queries, classification | Q8_0 (3GB) |
-| Qwen 2.5 | 32B | Coding, reasoning | Q4_K_M (20GB) |
-| QwQ | 32B | Deep reasoning, math | Q4_K_M (20GB) |
-| Mistral | 7B | Efficient general purpose | Q4_K_M (4GB) |
-| Mixtral | 8x7B | Mixture of experts, diverse tasks | Q4_K_M (26GB) |
+### License Tier Model Gating
 
-### Tier 2: Cloud Models (Optional Fallback)
-**Use Cases:** Complex reasoning overflow (Hybrid tier only, never in Sovereign)
+The slot architecture runs internally. What the customer *sees* depends on their license tier:
 
-> ⚠️ **Not used in Sovereign/Air-Gapped deployments**
+| Capability | Pilot ($50K) | Enterprise ($150K–$500K) | Sovereign ($500K+) |
+|------------|:------------:|:------------------------:|:-------------------:|
+| **Flagship** | qwen2.5:14b (capped) | qwen3:32b | qwen3:32b |
+| **Reasoning** | deepseek-r1:32b | deepseek-r1:32b | deepseek-r1:32b |
+| **Coder** | — | qwen3-coder:30b | qwen3-coder:30b |
+| **Fast** | llama3.2:3b | llama3.2:3b | llama3.2:3b |
+| **Large (70B+)** | — | — | llama3.3:70b |
+| **Vision** | — | qwen3-vl:30b | qwen3-vl:30b |
+| **Translator** | — | qwen2.5:32b | qwen2.5:32b |
+| **Embed** | qwen3-embedding:4b | qwen3-embedding:4b | qwen3-embedding:4b |
+| **Multi-Model Consensus** | — | ✅ | ✅ |
+| **Red-Team Reasoning** | — | ✅ | ✅ |
+| **Air-Gap Deployment** | — | — | ✅ |
+| **Post-Quantum Signatures** | — | — | ✅ |
 
-| Provider | Model | Specialization |
-|----------|-------|----------------|
-| OpenAI | GPT-4 Turbo | Complex reasoning |
+Pilot customers get a conservative, stable configuration that proves the evidence layer in their environment. The full slot complexity is hidden.
+
+### Cloud Fallback (Optional)
+
+> ⚠️ **Never used in Sovereign/Air-Gapped deployments**
+
+| Provider | Model | Use Case |
+|----------|-------|----------|
+| OpenAI | GPT-4 Turbo | Complex reasoning overflow |
 | Anthropic | Claude 3.5 Sonnet | Long context, nuance |
 | Google | Gemini 2.0 | Multimodal |
-
-### Tier 3: Specialized Models
-**Use Cases:** Domain-specific tasks
-
-| Model | Purpose | Source |
-|-------|---------|--------|
-| FinBERT | Financial sentiment | HuggingFace |
-| BioBERT | Biomedical text | HuggingFace |
-| Legal-BERT | Legal document analysis | HuggingFace |
-| **Cendia-7B** (Q3 2026) | Decision deliberation patterns | Custom fine-tuned |
 
 ### Cendia-7B: Custom Model Vision
 
@@ -2086,37 +2090,29 @@ The AI model landscape has shifted toward **fine-tuned Small Language Models (SL
 
 ## Query Routing
 
-Datacendia automatically routes queries to the optimal model:
+Datacendia automatically routes queries to the optimal model slot based on task type, agent role, and license tier:
 
-```typescript
-interface QueryClassification {
-  complexity: 'simple' | 'moderate' | 'complex';
-  domain: string;
-  sensitivity: 'public' | 'internal' | 'confidential' | 'restricted';
-  latency_requirement: 'real-time' | 'interactive' | 'batch';
-}
-
-function routeQuery(query: string, classification: QueryClassification): Model {
-  // Restricted data always goes to local models
-  if (classification.sensitivity === 'restricted') {
-    return localModels.llama70b;
-  }
-  
-  // Simple queries use fast local models
-  if (classification.complexity === 'simple') {
-    return localModels.llama3b;
-  }
-  
-  // Complex non-sensitive queries may use cloud
-  if (classification.complexity === 'complex' && 
-      classification.sensitivity === 'public') {
-    return cloudModels.gpt4turbo;
-  }
-  
-  // Default to capable local model
-  return localModels.llama70b;
-}
 ```
+┌──────────────┐     ┌───────────────┐     ┌────────────────┐     ┌──────────────┐
+│  User Query  │ ──▶ │ Task Classify  │ ──▶ │ Slot Resolve   │ ──▶ │ Tier Gate    │
+│              │     │ (type/domain)  │     │ (model slot)   │     │ (override)   │
+└──────────────┘     └───────────────┘     └────────────────┘     └──────────────┘
+                                                                        │
+                     ┌───────────────────────────────────────────────────┘
+                     ▼
+              ┌──────────────┐
+              │ Ollama Call  │  ← Always local. Always private.
+              └──────────────┘
+```
+
+- **Risk/Legal/Compliance** → Reasoning slot (deepseek-r1:32b)
+- **Code/SQL/JSON** → Coder slot (qwen3-coder:30b)
+- **Strategy/Synthesis** → Flagship slot (qwen3:32b)
+- **Council/Executive** → Large slot (llama3.3:70b)
+- **UI/Quick lookups** → Fast slot (llama3.2:3b)
+- **Document OCR** → Vision slot (qwen3-vl:30b)
+
+If a slot is disallowed by the license tier, the system automatically downgrades to the nearest allowed slot.
 
 ## Prompt Engineering
 
@@ -2350,62 +2346,54 @@ Content-Type: application/json
 
 ## Tier Overview
 
-| Tier | Description | Starting Price | Deployment |
-|------|-------------|----------------|------------|
-| **Starter** | Full platform, single vertical | $60k–$150k/year | Cloud or Self-hosted |
-| **Professional** | Multi-vertical, advanced agents | $500k–$2M/year | Self-hosted |
-| **Enterprise** | Full sovereignty, custom agents | $2M–$8M/year | Air-gapped available |
-| **Strategic** | Nation-scale, dedicated support | $8M–$25M+/year | Full sovereignty |
+Annual license model. Customer-owned infrastructure, keys, and proof. Not SaaS.
 
-## Entry Options
+| Tier | Description | Price | Deployment | Model Gating |
+|------|-------------|-------|------------|--------------|
+| **DCII Pilot** | Single use case, prove the evidence layer | **$50K** | Self-hosted | 3 models + embed (14B cap) |
+| **Foundation** | Council + DECIDE + DCII — full decision stack | **$150K–$500K/year** | Self-hosted | Full 32B lineup |
+| **Enterprise** | Multi-vertical, consensus, red-team, vision | **$500K–$1.5M/year** | Self-hosted or air-gap | Full 32B + consensus |
+| **Platinum** | Nation-scale, 70B+ models, dedicated support | **Custom** | Full sovereignty | Everything + 70B+ |
 
-| Model | Description | Price | Best For |
+## Entry Path
+
+The pilot is the wedge. Prove value → expand.
+
+| Stage | What Happens | Price | Duration |
 |-------|-------------|-------|----------|
-| **90-Day Pilot** | Single use case, full platform access | **$35k one-time** | Prove value before commitment |
-| **Per-Department** | License 1-3 business units | **$25k/dept/year** | Expand after successful pilot |
-| **Starter License** | Full vertical package, all agents | **$60k–$150k/year** | Mid-market enterprise-wide |
+| **DCII Pilot** | Single department, single vertical. Platform runs on 3 models (14B flagship, reasoning, fast + embed). Produces defensible evidence. No consensus, no red-team. Boring infrastructure that works. | **$50K** | 90 days |
+| **Foundation Upgrade** | Unlock full 32B models, multi-model consensus, advanced agents. All three pillars: The Council + DECIDE + DCII. | **$150K–$500K/year** | Annual |
+| **Enterprise Expansion** | Multi-vertical, red-team reasoning, vision, translation, advanced bias mitigation. | **$500K–$1.5M/year** | Annual |
 
-## Consumption-Based Pricing
+## What Each Tier Unlocks
 
-For organizations with variable decision volumes:
-
-| Tier | Deliberations/Month | Price/Month | Per-Deliberation |
-|------|--------------------:|------------:|-----------------:|
-| **Lite** | Up to 50 | $2,500 | $50 |
-| **Standard** | Up to 200 | $8,000 | $40 |
-| **Growth** | Up to 500 | $15,000 | $30 |
-| **Scale** | Unlimited | $25,000 | — |
-
-**How Deliberations Are Counted:**
-- **1 Deliberation** = One AI Council session producing a recommendation
-- Multi-round sessions (cross-examination, dissent) count as 1 deliberation
-- Drop to Deliberate™ document analysis = 1 deliberation per batch
-- Dashboard queries and reports do **not** count
-
-**Overage:** Billed at tier rate. Auto-upgrade notification at 80%. Hard cap option available.
+| Capability | Pilot | Foundation | Enterprise | Platinum |
+|------------|:-----:|:----------:|:----------:|:--------:|
+| Evidence trails (DCII) | ✅ | ✅ | ✅ | ✅ |
+| Council deliberation | Single-model | Multi-model | Multi-model | Multi-model |
+| Decision packets | ✅ | ✅ | ✅ | ✅ |
+| IISS™ scoring | Basic | Full | Full | Full |
+| Consensus mode | — | ✅ | ✅ | ✅ |
+| Red-team reasoning | — | — | ✅ | ✅ |
+| Vision (document OCR) | — | — | ✅ | ✅ |
+| Translation (100+ langs) | — | — | ✅ | ✅ |
+| Advanced bias mitigation | — | — | ✅ | ✅ |
+| Air-gap deployment | — | — | ✅ | ✅ |
+| Post-quantum signatures | — | — | — | ✅ |
+| 70B+ models | — | — | — | ✅ |
+| Custom verticals | — | — | ✅ | ✅ |
+| Dedicated support | — | — | — | ✅ |
 
 ## Add-On Packages
 
 | Package | Price | Included |
 |---------|-------|----------|
-| **Premium Agent Packs** | $299–$399/mo | Healthcare, Finance, Legal, Audit agents |
-| **Guardian Suite** | $50k/year | CendiaAegis™, Veto System, enhanced monitoring |
-| **Sovereign Stack** | Included in Enterprise+ | MinIO, Tika, Druid, BullMQ, Casbin |
-| **Custom Agent Builder** | $25k setup | Domain-specific agents with your data |
+| **Vertical Pack** | $50K–$100K | Industry-specific agents, compliance frameworks, decision schemas |
+| **Guardian Suite** | $50K/year | CendiaAegis™, Veto System, enhanced monitoring |
+| **Sovereign Stack** | Included in Enterprise+ | MinIO, Tika, Druid, BullMQ, Casbin, Keycloak |
+| **Custom Agent Builder** | $25K setup | Domain-specific agents trained on your workflows |
 
-## Vertical-Specific Pricing
-
-| Vertical | Starter | Professional | Enterprise | Strategic |
-|----------|---------|--------------|------------|-----------|
-| Healthcare | $100k | $1.2M | $5M | $12M+ |
-| Financial | $120k | $800k | $3M | $8M+ |
-| Government | $150k | $1.5M | $8M | $25M+ |
-| Pharma | $150k | $1.5M | $6M | $15M+ |
-| Insurance | $100k | $900k | $4M | $10M+ |
-| Manufacturing | $80k | $700k | $3M | $8M+ |
-| Energy | $120k | $1M | $5M | $15M+ |
-
-*All prices USD. Volume discounts available for multi-year commitments.*
+*All prices USD. Annual licenses. Volume discounts for multi-year commitments.*
 
 ---
 
@@ -2513,46 +2501,19 @@ Organizations can customize their service access via the **Vertical Configuratio
 
 ## Vertical Pricing
 
-### Entry Options
+Verticals are sold as add-on packs to the base platform license. See [Pricing & Packaging](#pricing--packaging) for tier details.
 
-| Model | Description | Entry Point |
-|-------|-------------|-------------|
-| **90-Day Pilot** | Single use case, full platform access | **$35k one-time** |
-| **Per-Department** | License 1-3 business units | **$25k/dept/year** |
-| **Starter License** | Full vertical package, all agents | **$60k–$150k/year** |
+| Vertical | Pilot Add-On | Foundation Add-On | Enterprise Add-On |
+|----------|:------------:|:-----------------:|:-----------------:|
+| Healthcare | $50K | $100K–$200K | Included |
+| Financial Services | $50K | $100K–$200K | Included |
+| Government | $75K | $150K–$300K | Included |
+| Legal | $50K | $100K–$200K | Included |
+| Insurance | $50K | $100K–$200K | Included |
+| Energy | $50K | $100K–$200K | Included |
+| Manufacturing | $50K | $80K–$150K | Included |
 
-### Consumption-Based Options
-
-| Tier | Deliberations/Month | Price/Month | Per-Deliberation |
-|------|--------------------:|------------:|-----------------:|
-| **Lite** | Up to 50 | $2,500 | $50 |
-| **Standard** | Up to 200 | $8,000 | $40 |
-| **Growth** | Up to 500 | $15,000 | $30 |
-| **Scale** | Unlimited | $25,000 | — |
-
-**How Deliberations Are Counted:**
-- **1 Deliberation** = One AI Council session where agents analyze a question and produce a recommendation
-- Multi-round deliberations (e.g., cross-examination, dissent review) count as 1 deliberation
-- Document analysis via [Drop to Deliberate™](#the-council-of-agents) counts as 1 deliberation per document batch
-- [CendiaVox™](#the-council-of-agents) stakeholder simulations count as 1 deliberation per session
-- Dashboard queries and reports do **not** count toward limits
-
-**Overage Handling:**
-- Lite/Standard/Growth: Overage billed at tier rate (e.g., $50/deliberation for Lite)
-- Auto-upgrade notification at 80% utilization
-- Hard cap option available for budget control (deliberations queued, not rejected)
-
-### Full Vertical Pricing
-
-| Vertical | Starter | Professional | Enterprise | Strategic |
-|----------|---------|--------------|------------|-----------|
-| Healthcare | $100k | $1.2M | $5M | $12M+ |
-| Financial | $120k | $800k | $3M | $8M+ |
-| Government | $150k | $1.5M | $8M | $25M+ |
-| Pharma | $150k | $1.5M | $6M | $15M+ |
-| Insurance | $100k | $900k | $4M | $10M+ |
-| Manufacturing | $80k | $700k | $3M | $8M+ |
-| Energy | $120k | $1M | $5M | $15M+ |
+*Enterprise and Platinum tiers include all verticals. Multi-vertical discounts available.*
 
 ## ROI Benchmarks
 
