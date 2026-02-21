@@ -958,3 +958,471 @@ describe('SportsDecisionService — Compliance', () => {
     expect(typeof service.getComplianceFrameworks).toBe('function');
   });
 });
+
+// =============================================================================
+// 14. SSO Service — SAML 2.0 + OIDC + SCIM 2.0
+// =============================================================================
+
+describe('SSOService — Enterprise Identity', () => {
+  let SSOService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/enterprise/SSOService.js');
+    SSOService = mod.SSOService;
+  });
+
+  it('should instantiate SSO service', () => {
+    const sso = new SSOService();
+    expect(sso).toBeDefined();
+    const status = sso.getStatus();
+    expect(status.protocols).toContain('saml2');
+    expect(status.protocols).toContain('oidc');
+    expect(status.protocols).toContain('scim2');
+  });
+
+  it('should register a SAML IdP', () => {
+    const sso = new SSOService();
+    const idp = sso.registerIdP({
+      name: 'Okta Test',
+      protocol: 'saml2',
+      issuer: 'https://okta.example.com',
+      ssoUrl: 'https://okta.example.com/sso/saml',
+      organizationId: 'org-test',
+      enabled: true,
+      mfaRequired: true,
+    });
+    expect(idp.id).toMatch(/^idp-/);
+    expect(idp.protocol).toBe('saml2');
+  });
+
+  it('should generate a SAML AuthnRequest', () => {
+    const sso = new SSOService();
+    const idp = sso.registerIdP({
+      name: 'Azure AD',
+      protocol: 'saml2',
+      issuer: 'https://login.microsoftonline.com/tenant',
+      ssoUrl: 'https://login.microsoftonline.com/tenant/saml2',
+      organizationId: 'org-test',
+      enabled: true,
+      mfaRequired: false,
+    });
+    const authn = sso.generateSAMLAuthnRequest(idp.id);
+    expect(authn.redirectUrl).toContain('SAMLRequest=');
+    expect(authn.requestId).toMatch(/^_/);
+    expect(authn.samlRequest.length).toBeGreaterThan(0);
+  });
+
+  it('should generate PKCE challenge for OIDC', () => {
+    const sso = new SSOService();
+    const pkce = sso.generatePKCEChallenge();
+    expect(pkce.codeVerifier.length).toBeGreaterThan(0);
+    expect(pkce.codeChallenge.length).toBeGreaterThan(0);
+    expect(pkce.codeChallengeMethod).toBe('S256');
+  });
+
+  it('should register OIDC IdP and generate auth URL', () => {
+    const sso = new SSOService();
+    const idp = sso.registerIdP({
+      name: 'Auth0',
+      protocol: 'oidc',
+      issuer: 'https://auth0.example.com',
+      clientId: 'test-client-id',
+      authorizationUrl: 'https://auth0.example.com/authorize',
+      tokenUrl: 'https://auth0.example.com/oauth/token',
+      scopes: ['openid', 'profile', 'email'],
+      organizationId: 'org-test',
+      enabled: true,
+      mfaRequired: false,
+    });
+    const auth = sso.generateOIDCAuthUrl(idp.id);
+    expect(auth.authorizationUrl).toContain('code_challenge=');
+    expect(auth.authorizationUrl).toContain('code_challenge_method=S256');
+    expect(auth.state.length).toBeGreaterThan(0);
+  });
+
+  it('should create and retrieve SSO sessions', () => {
+    const sso = new SSOService();
+    const session = sso.createSession({
+      userId: 'user-1',
+      organizationId: 'org-test',
+      identityProviderId: 'idp-1',
+      protocol: 'oidc',
+      email: 'user@example.com',
+      name: 'Test User',
+      roles: ['admin'],
+      groups: ['engineering'],
+      accessToken: 'test-token',
+      mfaVerified: true,
+    });
+    expect(session.id).toMatch(/^sso-session-/);
+    expect(session.sessionHash.length).toBe(64);
+
+    const retrieved = sso.getSession(session.id);
+    expect(retrieved?.email).toBe('user@example.com');
+  });
+
+  it('should handle SCIM provisioning events', async () => {
+    const sso = new SSOService();
+    const result = await sso.handleSCIMEvent({
+      type: 'user.create',
+      organizationId: 'org-test',
+      payload: { userName: 'new.user@example.com', displayName: 'New User' },
+    });
+    expect(result.processed).toBe(true);
+  });
+});
+
+// =============================================================================
+// 15. ClamAV Integration — Malware Scanning
+// =============================================================================
+
+describe('ClamAV Integration — DataDiode Security', () => {
+  let ClamAVIntegration: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/sovereign/ClamAVIntegration.js');
+    ClamAVIntegration = mod.ClamAVIntegration;
+  });
+
+  it('should instantiate with heuristic fallback', () => {
+    const clamav = new ClamAVIntegration();
+    const stats = clamav.getStats();
+    expect(stats.engine).toBe('Heuristic');
+    expect(stats.scanCount).toBe(0);
+  });
+
+  it('should detect EICAR test signature via heuristic scan', async () => {
+    const clamav = new ClamAVIntegration();
+    const eicarData = Buffer.from('X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*');
+    const result = await clamav.scan(eicarData, 'eicar.txt');
+
+    expect(result.threatLevel).toBe('malware');
+    expect(result.threatName).toContain('Eicar');
+    expect(result.engine).toBe('heuristic');
+    expect(result.fileHash.length).toBe(64);
+  });
+
+  it('should pass clean files', async () => {
+    const clamav = new ClamAVIntegration();
+    const cleanData = Buffer.from('This is a perfectly normal text file with no malware.');
+    const result = await clamav.scan(cleanData, 'readme.txt');
+
+    expect(result.threatLevel).toBe('clean');
+    expect(result.engine).toBe('heuristic');
+  });
+
+  it('should detect embedded executables in safe file types', async () => {
+    const clamav = new ClamAVIntegration();
+    const peHeader = Buffer.alloc(1024);
+    peHeader[0] = 0x4D; // M
+    peHeader[1] = 0x5A; // Z (PE executable header)
+    const result = await clamav.scan(peHeader, 'document.txt');
+
+    expect(result.threatLevel).toBe('malware');
+    expect(result.threatName).toContain('PE-Executable');
+  });
+
+  it('should reject oversized files', async () => {
+    const clamav = new ClamAVIntegration({ maxFileSize: 100 });
+    const bigData = Buffer.alloc(200);
+    const result = await clamav.scan(bigData, 'big.bin');
+
+    expect(result.threatLevel).toBe('error');
+    expect(result.details).toContain('exceeds maximum size');
+  });
+});
+
+// =============================================================================
+// 16. HSM Adapter — Hardware Security Module
+// =============================================================================
+
+describe('HSM Adapter — PKCS#11 Integration', () => {
+  let HSMAdapter: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/security/HSMAdapter.js');
+    HSMAdapter = mod.HSMAdapter;
+  });
+
+  it('should initialize with software fallback', async () => {
+    const hsm = new HSMAdapter();
+    const result = await hsm.initialize();
+    expect(result.success).toBe(true);
+    expect(result.provider).toBe('software-fallback');
+  });
+
+  it('should generate RSA-2048 key pair', async () => {
+    const hsm = new HSMAdapter();
+    await hsm.initialize();
+    const key = await hsm.generateKey({ algorithm: 'RSA-2048', label: 'test-rsa' });
+
+    expect(key.id).toMatch(/^hsm-key-/);
+    expect(key.algorithm).toBe('RSA-2048');
+    expect(key.provider).toBe('software-fallback');
+  });
+
+  it('should sign and verify with RSA-4096', async () => {
+    const hsm = new HSMAdapter();
+    await hsm.initialize();
+    const key = await hsm.generateKey({ algorithm: 'RSA-4096', label: 'sign-test' });
+
+    const data = Buffer.from('HSM signing test data');
+    const signed = await hsm.sign(key.id, data);
+
+    expect(signed.signature.length).toBeGreaterThan(0);
+    expect(signed.algorithm).toBe('RSA-4096-SHA256');
+
+    const valid = await hsm.verify(key.id, data, signed.signature);
+    expect(valid).toBe(true);
+  });
+
+  it('should sign and verify with EC-P256', async () => {
+    const hsm = new HSMAdapter();
+    await hsm.initialize();
+    const key = await hsm.generateKey({ algorithm: 'EC-P256', label: 'ec-test' });
+
+    const data = Buffer.from('Elliptic curve signing test');
+    const signed = await hsm.sign(key.id, data);
+    const valid = await hsm.verify(key.id, data, signed.signature);
+    expect(valid).toBe(true);
+  });
+
+  it('should generate AES-256 key and wrap keys', async () => {
+    const hsm = new HSMAdapter();
+    await hsm.initialize();
+    const wrappingKey = await hsm.generateKey({ algorithm: 'AES-256', label: 'wrapper' });
+    const targetKey = await hsm.generateKey({ algorithm: 'AES-256', label: 'target', extractable: true });
+
+    const wrapped = await hsm.wrapKey(targetKey.id, wrappingKey.id);
+    expect(wrapped.wrappedKey.length).toBeGreaterThan(0);
+    expect(wrapped.algorithm).toBe('AES-256-GCM-WRAP');
+  });
+
+  it('should generate cryptographic random bytes', async () => {
+    const hsm = new HSMAdapter();
+    await hsm.initialize();
+    const random = await hsm.generateRandom(32);
+
+    expect(random.data.length).toBe(32);
+    expect(random.entropyBits).toBe(256);
+  });
+
+  it('should report correct status', async () => {
+    const hsm = new HSMAdapter();
+    await hsm.initialize();
+    const status = hsm.getStatus();
+
+    expect(status.initialized).toBe(true);
+    expect(status.algorithms).toContain('RSA-4096');
+    expect(status.algorithms).toContain('EC-P256');
+    expect(status.algorithms).toContain('AES-256');
+  });
+});
+
+// =============================================================================
+// 17. NLP Bias Detection — Cognitive Bias Analysis
+// =============================================================================
+
+describe('NLP Bias Detection — Cognitive Bias Guard', () => {
+  let NLPBiasDetectionService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/dcii/NLPBiasDetectionService.js');
+    NLPBiasDetectionService = mod.NLPBiasDetectionService;
+  });
+
+  it('should detect confirmation bias', () => {
+    const service = new NLPBiasDetectionService();
+    const detections = service.analyzeStatistical(
+      'This data confirms our belief that the market is growing. As we expected, the results support our original position.'
+    );
+    expect(detections.length).toBeGreaterThan(0);
+    expect(detections.some((d: any) => d.category === 'confirmation')).toBe(true);
+  });
+
+  it('should detect sunk cost bias', () => {
+    const service = new NLPBiasDetectionService();
+    const detections = service.analyzeStatistical(
+      'We have already invested $2M into this project. We can\'t waste the money already spent.'
+    );
+    expect(detections.some((d: any) => d.category === 'sunk_cost')).toBe(true);
+  });
+
+  it('should detect groupthink', () => {
+    const service = new NLPBiasDetectionService();
+    const detections = service.analyzeStatistical(
+      'Everyone agrees this is the right approach. The consensus is clear and there are no objections.'
+    );
+    expect(detections.some((d: any) => d.category === 'groupthink')).toBe(true);
+  });
+
+  it('should detect authority bias', () => {
+    const service = new NLPBiasDetectionService();
+    const detections = service.analyzeStatistical(
+      'The CEO said we should pursue this direction. Because they recommended it, we should follow.'
+    );
+    expect(detections.some((d: any) => d.category === 'authority')).toBe(true);
+  });
+
+  it('should return clean result for unbiased text', () => {
+    const service = new NLPBiasDetectionService();
+    const detections = service.analyzeStatistical(
+      'The quarterly revenue was $4.2M. Operating costs totaled $3.1M. Net margin was 26%.'
+    );
+    expect(detections.length).toBe(0);
+  });
+
+  it('should run full async analysis with statistical fallback', async () => {
+    const service = new NLPBiasDetectionService();
+    const result = await service.analyze(
+      'We have already invested too much to stop now. Everyone agrees we should continue. The CEO said this is the way forward.'
+    );
+
+    expect(result.id).toMatch(/^bias-/);
+    expect(result.engine).toBe('statistical-fallback');
+    expect(result.detections.length).toBeGreaterThan(0);
+    expect(result.overallBiasScore).toBeGreaterThan(0);
+    expect(result.summary.length).toBeGreaterThan(0);
+  });
+});
+
+// =============================================================================
+// 18. FHIR Connector — Healthcare Data Integration
+// =============================================================================
+
+describe('FHIR Connector — Healthcare EHR Integration', () => {
+  let FHIRConnector: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/verticals/healthcare/FHIRConnector.js');
+    FHIRConnector = mod.FHIRConnector;
+  });
+
+  it('should instantiate FHIR connector', () => {
+    const fhir = new FHIRConnector({
+      baseUrl: 'https://fhir.example.com/r4',
+      clientId: 'test-client',
+      tokenUrl: 'https://fhir.example.com/oauth/token',
+      scope: ['patient/*.read'],
+      ehrVendor: 'epic',
+    });
+    const status = fhir.getStatus();
+    expect(status.ehrVendor).toBe('epic');
+    expect(status.supportedResources).toContain('Patient');
+    expect(status.supportedResources).toContain('Consent');
+    expect(status.supportedResources).toContain('AuditEvent');
+    expect(status.supportedResources.length).toBe(12);
+  });
+
+  it('should build FHIR Consent resources', () => {
+    const fhir = new FHIRConnector({
+      baseUrl: 'https://fhir.example.com/r4',
+      clientId: 'test',
+      tokenUrl: 'https://fhir.example.com/oauth/token',
+      scope: [],
+      ehrVendor: 'generic',
+    });
+
+    const consent = fhir.buildConsentResource({
+      patientId: 'patient-123',
+      status: 'active',
+      scope: 'patient-privacy',
+      category: 'HIPAA Authorization',
+      dateTime: new Date(),
+      organization: 'org-456',
+    });
+
+    expect(consent.resourceType).toBe('Consent');
+    expect(consent.status).toBe('active');
+    expect(consent.patient.reference).toBe('Patient/patient-123');
+  });
+
+  it('should create HIPAA audit events', async () => {
+    const fhir = new FHIRConnector({
+      baseUrl: 'https://fhir.example.com/r4',
+      clientId: 'test',
+      tokenUrl: 'https://fhir.example.com/oauth/token',
+      scope: [],
+      ehrVendor: 'cerner',
+    });
+
+    const audit = await fhir.createAuditEvent({
+      userId: 'dr-smith',
+      action: 'read',
+      resourceType: 'Patient',
+      resourceId: 'patient-789',
+      outcome: 'success',
+    });
+
+    expect(audit.resourceType).toBe('AuditEvent');
+    expect(audit.outcome).toBe('0'); // FHIR success code
+  });
+});
+
+// =============================================================================
+// 19. Outcome Tracking & Decision Reversal
+// =============================================================================
+
+describe('DecisionDNA — Outcome Tracking & Reversal', () => {
+  let decisionDNAService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/sovereign/DecisionDNAService.js');
+    decisionDNAService = mod.decisionDNAService;
+  });
+
+  it('should export scheduleOutcomeReview method', () => {
+    expect(typeof decisionDNAService.scheduleOutcomeReview).toBe('function');
+  });
+
+  it('should export recordOutcome method', () => {
+    expect(typeof decisionDNAService.recordOutcome).toBe('function');
+  });
+
+  it('should export getPendingOutcomeReviews method', () => {
+    expect(typeof decisionDNAService.getPendingOutcomeReviews).toBe('function');
+  });
+
+  it('should export initiateReversal method', () => {
+    expect(typeof decisionDNAService.initiateReversal).toBe('function');
+  });
+
+  it('should export approveReversal method', () => {
+    expect(typeof decisionDNAService.approveReversal).toBe('function');
+  });
+
+  it('should schedule outcome review', async () => {
+    const result = await decisionDNAService.scheduleOutcomeReview({
+      deliberationId: 'delib-test-123',
+      organizationId: 'org-test',
+      reviewAfterDays: 30,
+      expectedOutcome: 'Revenue increase of 10%',
+      successCriteria: ['Revenue target met', 'Customer satisfaction maintained'],
+    });
+    expect(result.id).toBeTruthy();
+    expect(result.reviewDate instanceof Date).toBe(true);
+  });
+
+  it('should record actual outcome', async () => {
+    const result = await decisionDNAService.recordOutcome({
+      deliberationId: 'delib-test-123',
+      organizationId: 'org-test',
+      actualOutcome: 'Revenue increased by 12%, exceeding target',
+      wasSuccessful: true,
+      lessonsLearned: ['Earlier execution would have yielded better results'],
+    });
+    expect(result.id).toBeTruthy();
+  });
+
+  it('should initiate decision reversal', async () => {
+    const result = await decisionDNAService.initiateReversal({
+      deliberationId: 'delib-test-456',
+      organizationId: 'org-test',
+      reason: 'New regulatory requirements invalidate the original decision',
+      initiatedBy: 'compliance-officer',
+      urgency: 'high',
+    });
+    expect(result.reversalId).toBeTruthy();
+    expect(result.status).toBe('pending_approval');
+  });
+});
