@@ -468,7 +468,7 @@ class ShadowCouncilService extends EventEmitter {
       response,
       confidence: 0.7 + (response.length % 25) / 100,
       vote,
-      modelUsed: config.useProductionModels ? 'qwen2.5:7b' : 'shadow-mock',
+      modelUsed: config.useProductionModels ? 'qwen3:32b' : 'shadow-mock',
       temperatureUsed: config.temperatureOverride || 0.7,
       tokenCount: response.split(' ').length * 1.3,
       responseTimeMs: Date.now() - startTime,

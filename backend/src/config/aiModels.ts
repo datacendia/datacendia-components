@@ -15,32 +15,42 @@ import { logger } from '../utils/logger.js';
 // =============================================================================
 
 export const AI_MODELS = {
-  // THE CHIEF (General Intelligence King)
-  // Llama 3.3 70B - Peak instruction following and synthesis
-  // Use for: Complex analysis, strategic decisions, synthesis
+  // THE TITAN (Maximum Intelligence)
+  // Llama 3.3 70B or Llama 4 Scout - Highest quality for critical decisions
+  // Use for: Council deliberations, executive decisions, high-stakes analysis
+  large: {
+    id: process.env['OLLAMA_MODEL_LARGE'] || 'llama3.3:70b',
+    contextWindow: 128000,
+    temp: 0.7,
+    description: 'Largest model for critical decisions and council deliberations',
+  },
+
+  // THE CHIEF (General Intelligence)
+  // Qwen3 32B - Best balance of quality and speed
+  // Use for: Complex analysis, strategic decisions, synthesis, content generation
   flagship: {
-    id: 'qwen2.5:7b',
+    id: process.env['OLLAMA_MODEL'] || 'qwen3:32b',
     contextWindow: 128000,
     temp: 0.7,
     description: 'Flagship model for complex synthesis and strategic analysis',
   },
 
   // THE PHILOSOPHER (Reasoning Engine)
-  // QwQ 32B - Chain of Thought reasoning
+  // DeepSeek-R1 32B - Purpose-built chain-of-thought reasoning
   // Use for: Risk analysis, legal review, finding logical fallacies
   reasoning: {
-    id: 'qwq:32b',
-    contextWindow: 32768,
+    id: process.env['OLLAMA_MODEL_REASONING'] || 'deepseek-r1:32b',
+    contextWindow: 65536,
     temp: 0.6,
     description: 'Deep reasoning for risk, compliance, and logical analysis',
   },
 
   // THE ENGINEER (Coding Specialist)
-  // Qwen 2.5 Coder 32B - Best at SQL, JSON, and Code
+  // DeepSeek Coder V2 - Best at SQL, JSON, and Code
   // Use for: Data operations, workflow execution, schema work
   coder: {
-    id: 'qwen2.5-coder:32b',
-    contextWindow: 32768,
+    id: process.env['OLLAMA_MODEL_CODER'] || 'deepseek-coder-v2:latest',
+    contextWindow: 65536,
     temp: 0.2,
     description: 'Code generation, SQL, JSON, and technical operations',
   },
@@ -49,7 +59,7 @@ export const AI_MODELS = {
   // Llama 3.2 3B - Instant responses
   // Use for: Quick lookups, simple formatting, UI responses
   fast: {
-    id: 'llama3.2:3b',
+    id: process.env['OLLAMA_MODEL_FAST'] || 'llama3.2:3b',
     contextWindow: 8192,
     temp: 0.5,
     description: 'Fast responses for simple tasks and UI interactions',
@@ -59,10 +69,29 @@ export const AI_MODELS = {
   // Qwen3-VL 30B - For seeing charts and PDFs
   // Use for: Image analysis, document OCR
   vision: {
-    id: 'qwen3-vl:30b',
+    id: process.env['OLLAMA_MODEL_VISION'] || 'qwen3-vl:30b',
     contextWindow: 16384,
     temp: 0.5,
     description: 'Vision model for image and document analysis',
+  },
+
+  // THE TRANSLATOR (Translation Specialist)
+  // Qwen 2.5 32B - Best multilingual performance
+  // Use for: CendiaOmniTranslate, cross-language content
+  translator: {
+    id: process.env['OMNITRANSLATE_MODEL'] || 'qwen2.5:32b',
+    contextWindow: 32768,
+    temp: 0.3,
+    description: 'Translation and multilingual content generation',
+  },
+
+  // THE EMBED (Embedding Model)
+  // nomic-embed-text - For vector search and RAG
+  embed: {
+    id: process.env['OLLAMA_EMBED_MODEL'] || 'nomic-embed-text:latest',
+    contextWindow: 8192,
+    temp: 0,
+    description: 'Text embeddings for search and RAG pipelines',
   },
 } as const;
 
@@ -110,7 +139,7 @@ export type TaskType =
   | 'chart_reading';
 
 const TASK_MODEL_MAP: Record<TaskType, ModelType> = {
-  // Complex Analysis → Flagship (qwen2.5:7b)
+  // Complex Analysis → Flagship (qwen3:32b)
   strategic_analysis: 'flagship',
   synthesis: 'flagship',
   executive_summary: 'flagship',
@@ -121,7 +150,7 @@ const TASK_MODEL_MAP: Record<TaskType, ModelType> = {
   deal_analysis: 'flagship',
   culture_assessment: 'flagship',
 
-  // Reasoning → Reasoning Model (qwq:32b)
+  // Reasoning → DeepSeek-R1 (deepseek-r1:32b)
   risk_analysis: 'reasoning',
   legal_analysis: 'reasoning',
   compliance_check: 'reasoning',
@@ -130,7 +159,7 @@ const TASK_MODEL_MAP: Record<TaskType, ModelType> = {
   litigation_analysis: 'reasoning',
   failure_prediction: 'reasoning',
 
-  // Technical → Coder Model (qwen2.5-coder:32b)
+  // Technical → DeepSeek Coder (deepseek-coder-v2)
   data_query: 'coder',
   json_generation: 'coder',
   workflow_automation: 'coder',
@@ -179,32 +208,32 @@ export type ServiceDomain =
   | 'decision';
 
 const SERVICE_MODEL_MAP: Record<ServiceDomain, ModelType> = {
-  // Enterprise Services
+  // Enterprise Services → flagship (qwen3:32b)
   procurement: 'flagship',        // Negotiations need nuance
   talent: 'flagship',             // People decisions are complex
   facilities: 'fast',             // Mostly operational
   sales: 'flagship',              // Deal analysis is strategic
   customer_success: 'flagship',   // Churn prediction needs depth
-  it_ops: 'reasoning',            // Threat detection needs logic
-  legal: 'reasoning',             // Legal analysis needs precision
+  it_ops: 'reasoning',            // Threat detection → deepseek-r1
+  legal: 'reasoning',             // Legal analysis → deepseek-r1
   investor_relations: 'flagship', // Market sentiment is complex
   ma_integration: 'flagship',     // Culture is nuanced
-  manufacturing: 'reasoning',     // Failure prediction needs logic
-  travel_security: 'reasoning',   // Risk assessment needs logic
+  manufacturing: 'reasoning',     // Failure prediction → deepseek-r1
+  travel_security: 'reasoning',   // Risk assessment → deepseek-r1
   learning: 'flagship',           // Content generation needs quality
   communications: 'flagship',     // Messaging needs nuance
   innovation: 'flagship',         // Patent drafting needs depth
-  executive: 'flagship',          // CEO decisions are strategic
+  executive: 'large',             // CEO decisions → llama3.3:70b
 
   // Core Services
-  brand: 'flagship',              // Content creation needs quality
-  revenue: 'coder',               // Financial calculations
-  support: 'fast',                // Quick responses
-  monitoring: 'fast',             // Status checks
+  brand: 'flagship',              // Content creation → qwen3:32b
+  revenue: 'coder',               // Financial calculations → deepseek-coder-v2
+  support: 'fast',                // Quick responses → llama3.2:3b
+  monitoring: 'fast',             // Status checks → llama3.2:3b
 
-  // Decision Intelligence
-  council: 'flagship',            // Deliberation needs depth
-  decision: 'flagship',           // Decision analysis is strategic
+  // Decision Intelligence → largest model
+  council: 'large',               // Deliberation → llama3.3:70b
+  decision: 'large',              // Decision analysis → llama3.3:70b
 };
 
 // =============================================================================

@@ -266,7 +266,7 @@ Should we raise prices? By how much? Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const analysis = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       const recommendedPrice = analysis.recommendedPrice || currentPrice;

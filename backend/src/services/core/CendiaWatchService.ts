@@ -313,7 +313,7 @@ Write a 2-paragraph executive summary.`;
 
     let summary = 'Market conditions stable. No critical threats detected.';
     try {
-      summary = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      summary = await ollama.generate(prompt, {});
     } catch (error) {
       // Use default summary
     }

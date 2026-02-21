@@ -584,7 +584,7 @@ Respond in JSON:
     try {
       const response = await ollama.generate(
         `Analyze this decision for compliance with: ${frameworks.join(', ')}\n\nDECISION: ${params.decision}`,
-        { model: 'qwen2.5:7b', system: systemPrompt, format: 'json', options: { temperature: 0.3 } }
+        { model: 'deepseek-r1:32b', system: systemPrompt, format: 'json', options: { temperature: 0.3 } }
       );
 
       let data: any;

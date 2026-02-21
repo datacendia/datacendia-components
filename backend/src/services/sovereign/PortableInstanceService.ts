@@ -300,7 +300,7 @@ class PortableInstanceService extends EventEmitter {
         components.sampleDataSet = 'training';
         break;
       case 'full':
-        components.models = ['qwen2.5:7b', 'llama3.2:3b', 'nomic-embed-text'];
+        components.models = ['qwen3:32b', 'llama3.2:3b', 'nomic-embed-text'];
         components.minio = true;
         components.neo4j = true;
         targetSize = Math.max(targetSize, 64);

@@ -96,9 +96,9 @@ export interface QueryClassification {
 // =============================================================================
 
 export const MODEL_CONFIGS: Record<string, ModelConfig> = {
-  // Flagship - General Intelligence
-  'qwen2.5:7b': {
-    id: 'qwen2.5:7b',
+  // Titan — Maximum Intelligence (council deliberations, executive decisions)
+  'llama3.3:70b': {
+    id: 'llama3.3:70b',
     contextWindow: 128000,
     temperature: 0.7,
     topP: 0.9,
@@ -107,32 +107,90 @@ export const MODEL_CONFIGS: Record<string, ModelConfig> = {
     numPredict: 4096,
     specialization: ['general', 'creative', 'analysis'],
   },
-  
-  // Reasoning Engine - Deep Logic
+
+  // Flagship — General Intelligence (strategic analysis, synthesis)
+  'qwen3:32b': {
+    id: 'qwen3:32b',
+    contextWindow: 128000,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specialization: ['general', 'creative', 'analysis'],
+  },
+
+  // Reasoning — Deep Chain-of-Thought (risk, compliance, legal)
+  'deepseek-r1:32b': {
+    id: 'deepseek-r1:32b',
+    contextWindow: 65536,
+    temperature: 0.3,
+    topP: 0.85,
+    topK: 20,
+    repeatPenalty: 1.15,
+    numPredict: 8192,
+    specialization: ['reasoning', 'math', 'analysis'],
+  },
+
+  // Reasoning (legacy) — QwQ
   'qwq:32b': {
     id: 'qwq:32b',
     contextWindow: 32768,
-    temperature: 0.3,  // Lower for precise reasoning
+    temperature: 0.3,
     topP: 0.85,
-    topK: 20,          // More focused sampling
+    topK: 20,
     repeatPenalty: 1.15,
-    numPredict: 8192,  // Allow longer reasoning chains
+    numPredict: 8192,
     specialization: ['reasoning', 'math', 'analysis'],
   },
-  
-  // Coding Specialist
-  'qwen2.5-coder:32b': {
-    id: 'qwen2.5-coder:32b',
-    contextWindow: 32768,
-    temperature: 0.1,  // Very low for code precision
+
+  // Coding — SQL, JSON, Code generation
+  'deepseek-coder-v2:latest': {
+    id: 'deepseek-coder-v2:latest',
+    contextWindow: 65536,
+    temperature: 0.1,
     topP: 0.95,
-    topK: 10,          // Most focused
+    topK: 10,
     repeatPenalty: 1.05,
     numPredict: 8192,
     specialization: ['coding'],
   },
-  
-  // Speed Demon - Quick Responses
+
+  // Mid-range general — Qwen 2.5 series
+  'qwen2.5:32b': {
+    id: 'qwen2.5:32b',
+    contextWindow: 32768,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specialization: ['general', 'creative', 'analysis'],
+  },
+
+  'qwen2.5:14b': {
+    id: 'qwen2.5:14b',
+    contextWindow: 32768,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specialization: ['general', 'creative'],
+  },
+
+  'qwen2.5:7b': {
+    id: 'qwen2.5:7b',
+    contextWindow: 128000,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specialization: ['general', 'creative'],
+  },
+
+  // Speed — Quick Responses
   'llama3.2:3b': {
     id: 'llama3.2:3b',
     contextWindow: 8192,
@@ -143,20 +201,8 @@ export const MODEL_CONFIGS: Record<string, ModelConfig> = {
     numPredict: 1024,
     specialization: ['fast', 'simple'],
   },
-  
-  // Analysis Heavy
-  'llama3:70b': {
-    id: 'llama3:70b',
-    contextWindow: 8192,
-    temperature: 0.6,
-    topP: 0.9,
-    topK: 40,
-    repeatPenalty: 1.1,
-    numPredict: 4096,
-    specialization: ['general', 'analysis'],
-  },
-  
-  // Mixture of Experts
+
+  // Mixture of Experts — Large generalist
   'mixtral:8x22b': {
     id: 'mixtral:8x22b',
     contextWindow: 65536,
@@ -167,11 +213,11 @@ export const MODEL_CONFIGS: Record<string, ModelConfig> = {
     numPredict: 4096,
     specialization: ['general', 'creative', 'analysis'],
   },
-  
-  // Vision Model
-  'llava:34b': {
-    id: 'llava:34b',
-    contextWindow: 4096,
+
+  // Vision — Image/document analysis
+  'qwen3-vl:30b': {
+    id: 'qwen3-vl:30b',
+    contextWindow: 16384,
     temperature: 0.5,
     topP: 0.9,
     topK: 40,
@@ -179,35 +225,59 @@ export const MODEL_CONFIGS: Record<string, ModelConfig> = {
     numPredict: 2048,
     specialization: ['vision'],
   },
+
+  // Llama 4 Scout — Largest available
+  'llama4:scout': {
+    id: 'llama4:scout',
+    contextWindow: 128000,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specialization: ['general', 'creative', 'analysis'],
+  },
+
+  // Gemma 3 — Google's mid-range
+  'gemma3:27b': {
+    id: 'gemma3:27b',
+    contextWindow: 32768,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specialization: ['general', 'creative'],
+  },
 };
 
-// Agent to optimal model mapping
+// Agent to optimal model mapping — preference order (first available wins)
 const AGENT_MODEL_PREFERENCES: Record<string, string[]> = {
-  chief: ['qwen2.5:7b', 'llama3:70b', 'mixtral:8x22b'],
-  cfo: ['qwen2.5:7b', 'qwq:32b', 'llama3:70b'],
-  coo: ['llama3.2:3b', 'qwen2.5:7b'],
-  ciso: ['qwq:32b', 'qwen2.5:7b'],
-  cmo: ['qwen2.5:7b', 'mixtral:8x22b'],
-  cro: ['qwen2.5:7b', 'llama3:70b'],
-  cdo: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
-  risk: ['qwq:32b', 'qwen2.5:7b'],
-  cto: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
-  chro: ['qwen2.5:7b', 'llama3:70b'],
-  clo: ['qwen2.5:7b', 'qwq:32b'],
-  cio: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
+  chief: ['llama3.3:70b', 'qwen3:32b', 'mixtral:8x22b', 'qwen2.5:32b'],
+  cfo: ['deepseek-r1:32b', 'qwen3:32b', 'llama3.3:70b'],
+  coo: ['qwen3:32b', 'qwen2.5:14b', 'llama3.2:3b'],
+  ciso: ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
+  cmo: ['qwen3:32b', 'mixtral:8x22b', 'qwen2.5:32b'],
+  cro: ['llama3.3:70b', 'qwen3:32b', 'qwen2.5:32b'],
+  cdo: ['deepseek-coder-v2:latest', 'qwen3:32b', 'qwen2.5:14b'],
+  risk: ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
+  cto: ['deepseek-coder-v2:latest', 'deepseek-r1:32b', 'qwen3:32b'],
+  chro: ['qwen3:32b', 'llama3.3:70b', 'qwen2.5:32b'],
+  clo: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
+  cio: ['deepseek-coder-v2:latest', 'deepseek-r1:32b', 'qwen3:32b'],
   // Industry agents
-  quant: ['qwq:32b', 'qwen2.5-coder:32b'],
-  pm: ['qwen2.5:7b', 'qwq:32b'],
-  'cro-finance': ['qwq:32b', 'qwen2.5:7b'],
-  treasury: ['qwen2.5:7b', 'qwq:32b'],
-  cmio: ['qwen2.5:7b', 'llama3:70b'],
-  pso: ['qwq:32b', 'qwen2.5:7b'],
-  hco: ['qwen2.5:7b', 'qwq:32b'],
-  cod: ['llama3.2:3b', 'qwen2.5:7b'],
-  contracts: ['qwen2.5:7b', 'qwq:32b'],
-  ip: ['qwen2.5:7b', 'qwq:32b'],
-  litigation: ['qwq:32b', 'qwen2.5:7b'],
-  regulatory: ['qwen2.5:7b', 'qwq:32b'],
+  quant: ['deepseek-r1:32b', 'deepseek-coder-v2:latest', 'qwq:32b'],
+  pm: ['qwen3:32b', 'deepseek-r1:32b', 'qwq:32b'],
+  'cro-finance': ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
+  treasury: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
+  cmio: ['llama3.3:70b', 'qwen3:32b', 'qwen2.5:32b'],
+  pso: ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
+  hco: ['qwen3:32b', 'deepseek-r1:32b', 'qwq:32b'],
+  cod: ['llama3.2:3b', 'qwen2.5:7b', 'qwen3:32b'],
+  contracts: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
+  ip: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
+  litigation: ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
+  regulatory: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
 };
 
 // =============================================================================
@@ -278,7 +348,7 @@ export class EnhancedLLMService {
   
   constructor() {
     this.baseUrl = config.ollamaBaseUrl || 'http://127.0.0.1:11434';
-    this.defaultModel = config.ollamaModel || 'qwen2.5:7b';
+    this.defaultModel = config.ollamaModel || 'qwen3:32b';
 
 
     this.loadFromDB().catch(() => {});
@@ -322,7 +392,7 @@ export class EnhancedLLMService {
         type: 'coding',
         complexity: this.estimateComplexity(query),
         domain: ['technology'],
-        suggestedModel: 'qwen2.5-coder:32b',
+        suggestedModel: 'deepseek-coder-v2:latest',
         confidence: 0.9,
       };
     }
@@ -333,7 +403,7 @@ export class EnhancedLLMService {
         type: 'reasoning',
         complexity: 'high',
         domain: ['mathematics', 'analysis'],
-        suggestedModel: 'qwq:32b',
+        suggestedModel: 'deepseek-r1:32b',
         confidence: 0.85,
       };
     }
@@ -344,7 +414,7 @@ export class EnhancedLLMService {
         type: 'analysis',
         complexity: 'high',
         domain: ['finance'],
-        suggestedModel: 'qwq:32b',
+        suggestedModel: 'deepseek-r1:32b',
         confidence: 0.85,
       };
     }
@@ -355,7 +425,7 @@ export class EnhancedLLMService {
         type: 'reasoning',
         complexity: 'high',
         domain: ['legal'],
-        suggestedModel: 'qwen2.5:7b',
+        suggestedModel: config.ollamaModel || 'qwen3:32b',
         confidence: 0.8,
       };
     }
@@ -376,7 +446,7 @@ export class EnhancedLLMService {
       type: 'factual',
       complexity: this.estimateComplexity(query),
       domain: ['general'],
-      suggestedModel: 'qwen2.5:7b',
+      suggestedModel: config.ollamaModel || 'qwen3:32b',
       confidence: 0.6,
     };
   }
@@ -780,7 +850,7 @@ Synthesize these responses into a single, comprehensive answer that:
 **Synthesized Response:**`;
 
     return this.generateRaw(synthesisPrompt, {
-      model: 'qwen2.5:7b',
+      model: config.ollamaModel || 'qwen3:32b',
       temperature: 0.5,
     });
   }

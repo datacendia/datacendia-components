@@ -394,7 +394,7 @@ Extract all named entities and their relationships. Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const parsed = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{"entities":[],"relationships":[]}');
 
       const entities: ExtractedEntity[] = (parsed.entities || []).map((e: any) => ({

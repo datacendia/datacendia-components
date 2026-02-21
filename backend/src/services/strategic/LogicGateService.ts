@@ -297,7 +297,7 @@ class LogicGateService {
       handler: async () => {
         // Import ollama dynamically to avoid circular deps
         const ollama: any = (await import('../ollama.js')).default;
-        return ollama.generate(at.prompt, { model: at.model || 'qwen2.5:7b' });
+        return ollama.generate(at.prompt, { model: at.model });
       },
       priority: agentTasks.length - index,
       timeout: config.taskTimeout || 60000
@@ -380,7 +380,7 @@ UNION RECOMMENDATIONS:
 ${JSON.stringify(unionResult?.result || 'Analysis failed')}
 
 Provide a unified security posture recommendation in 2-3 sentences.
-`, { model: 'qwen2.5:7b' });
+`, {});
 
     logger.info(`Red Team + Union parallel execution completed in ${Date.now() - startTime}ms`);
 

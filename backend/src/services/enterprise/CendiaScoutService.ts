@@ -125,7 +125,7 @@ Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const profile = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       const topPerformer: TopPerformer = {
@@ -209,7 +209,7 @@ Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const analysis = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       const matchedCandidate: Candidate = {
@@ -299,7 +299,7 @@ Write a warm, personalized offer letter. Include placeholder for [SALARY] and [S
 
         let offerLetter = '';
         try {
-          offerLetter = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+          offerLetter = await ollama.generate(prompt, {});
         } catch (error) {
           offerLetter = `Dear ${candidate.name},\n\nWe are pleased to extend an offer for the ${pipeline.roleName} position...\n\n[Salary: [SALARY]]\n[Start Date: [START_DATE]]`;
         }

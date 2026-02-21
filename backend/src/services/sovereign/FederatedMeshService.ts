@@ -602,7 +602,7 @@ class FederatedMeshService extends EventEmitter {
       canImportModels: true,
       canImportPolicies: true,
       canImportPatterns: true,
-      availableModels: ['qwen2.5:7b', 'llama3.2:3b'],
+      availableModels: ['qwen3:32b', 'llama3.2:3b'],
       maxModelSize: 1024 * 1024 * 100, // 100MB
     };
     

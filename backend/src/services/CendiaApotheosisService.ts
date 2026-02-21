@@ -78,7 +78,7 @@ export interface AdjudicationAuditRecord {
 const ADJUDICATION_CONFIG = {
   MAX_RETRIES: 3,
   TEMPERATURE: 0.1,  // Very low for maximum determinism
-  MODEL: process.env['APOTHEOSIS_MODEL'] || 'qwen2.5:7b',
+  MODEL: process.env['APOTHEOSIS_MODEL'] || 'deepseek-r1:32b',
   FAIL_CLOSED_DEFAULT: 'survived' as const,  // Conservative: assume survived if inconclusive
 } as const;
 

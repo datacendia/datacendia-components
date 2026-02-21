@@ -153,19 +153,19 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
     priority: 1,
   },
   code: {
-    model: 'qwen2.5-coder:32b',
+    model: 'deepseek-coder-v2:latest',
     temperature: 0.2,
     useCoT: false,
     priority: 1,
   },
   analysis: {
-    model: 'qwen2.5:7b',
+    model: 'qwen3:32b',
     temperature: 0.5,
     useCoT: true,
     priority: 1,
   },
   creative: {
-    model: 'qwen2.5:7b',
+    model: 'qwen3:32b',
     temperature: 0.9,
     useCoT: false,
     priority: 2,
@@ -183,7 +183,7 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
     priority: 3,
   },
   compliance: {
-    model: 'qwen2.5:7b',
+    model: 'deepseek-r1:32b',
     temperature: 0.3,
     useCoT: true,
     priority: 1,
@@ -197,11 +197,13 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
 };
 
 const FALLBACK_MODELS: Record<string, string[]> = {
-  'qwq:32b': ['qwen2.5:7b', 'mixtral:8x22b'],
-  'mixtral:8x22b': ['qwen2.5:7b', 'qwq:32b'],
-  'qwen2.5-coder:32b': ['qwen2.5:7b', 'mixtral:8x22b'],
-  'qwen2.5:7b': ['mixtral:8x22b', 'qwq:32b'],
-  'llama3.2:3b': ['qwen2.5:7b', 'mixtral:8x22b'],
+  'deepseek-r1:32b': ['qwen3:32b', 'qwq:32b', 'mixtral:8x22b'],
+  'qwq:32b': ['deepseek-r1:32b', 'qwen3:32b', 'mixtral:8x22b'],
+  'mixtral:8x22b': ['qwen3:32b', 'llama3.3:70b'],
+  'deepseek-coder-v2:latest': ['qwen3:32b', 'qwen2.5:14b'],
+  'qwen3:32b': ['llama3.3:70b', 'mixtral:8x22b', 'qwen2.5:32b'],
+  'llama3.3:70b': ['qwen3:32b', 'mixtral:8x22b'],
+  'llama3.2:3b': ['qwen2.5:7b', 'qwen3:32b'],
 };
 
 // ============================================================================

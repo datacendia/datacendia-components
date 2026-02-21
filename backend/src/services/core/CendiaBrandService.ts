@@ -147,7 +147,7 @@ Write a LinkedIn post that:
 Output JSON: { "hook": "...", "content": "...", "cta": "...", "hashtags": ["..."] }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const parsed = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       const content: ContentPiece = {
@@ -185,7 +185,7 @@ Each tweet max 280 chars. No hype words.
 Output JSON array: [{ "content": "...", "position": 1 }, ...]`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const tweets = JSON.parse(response.match(/\[[\s\S]*\]/)?.[0] || '[]');
 
       return tweets.map((tweet: any, i: number) => ({
@@ -223,7 +223,7 @@ Voice: Premium, technical, authoritative. No fluff.
 Output JSON: { "title": "...", "subtitle": "...", "content": "...", "excerpt": "..." }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const parsed = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       return {
@@ -264,7 +264,7 @@ Voice: Premium, insider, exclusive feel.
 Output JSON: { "subject": "...", "preview": "...", "content": "..." }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const parsed = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       return {
@@ -350,7 +350,7 @@ Original: "${text}"
 Output only the improved text, nothing else.`;
 
     try {
-      return await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      return await ollama.generate(prompt, {});
     } catch (error) {
       return text;
     }

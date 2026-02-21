@@ -176,7 +176,7 @@ Context: ${context}
 Respond in character as ${advisor.name}. Be specific and actionable. Keep response under 200 words.`;
 
       try {
-        const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+        const response = await ollama.generate(prompt, {});
         
         // Extract key insight
         const insightPrompt = `From this response by ${advisor.name}, extract the single most important insight in one sentence:
@@ -214,7 +214,7 @@ Be direct and actionable.`;
 
     let synthesis = '';
     try {
-      synthesis = await ollama.generate(synthesisPrompt, { model: 'qwen2.5:7b' });
+      synthesis = await ollama.generate(synthesisPrompt, {});
     } catch (error) {
       synthesis = 'Synthesis unavailable. Review individual perspectives.';
     }
@@ -310,7 +310,7 @@ In 3 sentences:
 Be direct. No compliments. No softening.`;
 
     try {
-      return await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      return await ollama.generate(prompt, {});
     } catch (error) {
       return 'The Mirror is unavailable. Perhaps that itself is a message: some truths require human reflection.';
     }

@@ -214,7 +214,7 @@ What would you like to do?`,
 
     // Default response
     return {
-      message: `I understand you want to: "${message}"\n\nCould you be more specific? You can:\n• **Enable/disable** a feature: "disable CendiaPredict"\n• **Change visibility**: "hide the R&D page"\n• **Update pricing**: "update Foundation tier price to $599"\n• **Configure agents**: "change Chief agent model to qwen2.5:7b"`,
+      message: `I understand you want to: "${message}"\n\nCould you be more specific? You can:\n• **Enable/disable** a feature: "disable CendiaPredict"\n• **Change visibility**: "hide the R&D page"\n• **Update pricing**: "update Foundation tier price to $599"\n• **Configure agents**: "change Chief agent model to qwen3:32b"`,
       suggestions: ['Show all features', 'Check system health', 'List pricing tiers', 'Help']
     };
   }
@@ -492,7 +492,7 @@ I can help you manage the Cendia platform. Here's what I can do:
 ### AI Agents
 - "**List agents**" - Show all AI agents
 - "**Disable** the CFO agent" - Turn off an agent
-- "**Change Chief model** to qwen2.5:7b" - Update model
+- "**Change Chief model** to qwen3:32b" - Update model
 
 ### Pricing
 - "**Show pricing**" - View all pricing tiers

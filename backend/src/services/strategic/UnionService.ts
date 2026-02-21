@@ -286,7 +286,7 @@ Output JSON array:
 ]`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const parsed = JSON.parse(response.match(/\[[\s\S]*\]/)?.[0] || '[]');
       
       return parsed.map((d: any, i: number) => ({

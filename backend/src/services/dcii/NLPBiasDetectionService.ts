@@ -256,27 +256,48 @@ export class NLPBiasDetectionService {
     let engine: 'ollama-nlp' | 'statistical-fallback';
     let modelUsed: string | undefined;
 
-    // Try Ollama NLP first
+    // Always run statistical as deterministic baseline
+    const statistical = this.analyzeStatistical(text);
+
+    // Try Ollama NLP to supplement
     if (this.ollamaAvailable || await this.checkOllama()) {
       try {
-        detections = await this.analyzeWithOllama(text);
-        engine = 'ollama-nlp';
+        const ollamaDetections = await this.analyzeWithOllama(text);
         modelUsed = this.model;
-        // Cross-check: if LLM found nothing, run statistical as safety net
-        if (detections.length === 0) {
-          const statistical = this.analyzeStatistical(text);
-          if (statistical.length > 0) {
-            detections = statistical;
+
+        if (ollamaDetections.length > 0 && statistical.length > 0) {
+          // Merge: start with statistical (reliable), add unique Ollama categories
+          const statisticalCategories = new Set(statistical.map(d => d.category));
+          const merged = [...statistical];
+          for (const od of ollamaDetections) {
+            if (!statisticalCategories.has(od.category)) {
+              merged.push(od);
+            }
+          }
+          detections = merged;
+          engine = 'ollama-nlp';
+        } else if (ollamaDetections.length > 0 && statistical.length === 0) {
+          // Ollama found biases but statistical didn't — possible LLM false positives
+          // Trust statistical for short texts, trust Ollama for longer analysis
+          if (text.length > 500) {
+            detections = ollamaDetections;
+            engine = 'ollama-nlp';
+          } else {
+            detections = [];
             engine = 'statistical-fallback';
           }
+        } else {
+          // Ollama found nothing, use statistical
+          detections = statistical;
+          engine = statistical.length > 0 ? 'statistical-fallback' : 'ollama-nlp';
         }
       } catch (err) {
         logger.warn(`[BiasGuard] Ollama analysis failed, using statistical fallback: ${(err as Error).message}`);
-        detections = this.analyzeStatistical(text);
+        detections = statistical;
         engine = 'statistical-fallback';
       }
     } else {
-      detections = this.analyzeStatistical(text);
+      detections = statistical;
       engine = 'statistical-fallback';
     }
 

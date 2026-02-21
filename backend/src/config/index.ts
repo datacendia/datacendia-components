@@ -45,9 +45,12 @@ const configSchema = z.object({
   
   // Ollama
   ollamaBaseUrl: z.string().url().default('http://127.0.0.1:11434'),
-  ollamaModel: z.string().default('qwen2.5:7b'),
-  ollamaModelFlagship: z.string().default('llama3.3:70b'),
+  ollamaModel: z.string().default('qwen3:32b'),
+  ollamaModelLarge: z.string().default('llama3.3:70b'),
+  ollamaModelReasoning: z.string().default('deepseek-r1:32b'),
+  ollamaModelCoder: z.string().default('deepseek-coder-v2:latest'),
   ollamaModelFast: z.string().default('llama3.2:3b'),
+  ollamaModelVision: z.string().default('qwen3-vl:30b'),
   
   // JWT
   jwtSecret: z.string().min(32),

@@ -264,7 +264,7 @@ Provide your analysis in JSON format:
 
     try {
       const response = await ollama.generate(prompt, { 
-        model: (agentConfig?.model_config as any)?.model || 'qwen2.5:7b',
+        model: (agentConfig?.model_config as any)?.model || 'qwen3:32b',
         temperature: mode === 'adversarial' ? 0.8 : 0.5,
       } as any);
 
@@ -407,7 +407,7 @@ Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const parsed = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       return {

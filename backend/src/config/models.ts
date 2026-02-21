@@ -39,8 +39,8 @@ export const MODEL_REGISTRY = {
   // Llama 3.3 - Peak instruction following and synthesis
   // Equivalent to GPT-4o class performance locally
   flagship: {
-    id: 'qwen2.5:7b',
-    name: 'Llama 3.3 70B',
+    id: 'qwen3:32b',
+    name: 'Qwen3 32B',
     contextWindow: 128000,
     temperature: 0.7,
     description: 'General intelligence flagship - synthesis & strategy',
@@ -51,8 +51,8 @@ export const MODEL_REGISTRY = {
   // QwQ - Trained for "Chain of Thought" reasoning
   // Use for Risk, Audit, and finding logical fallacies
   reasoning: {
-    id: 'qwq:32b',
-    name: 'QwQ 32B',
+    id: 'deepseek-r1:32b',
+    name: 'DeepSeek-R1 32B',
     contextWindow: 32768,
     temperature: 0.6, // Lower temp for logic
     description: 'Deep reasoning & chain-of-thought analysis',
@@ -63,8 +63,8 @@ export const MODEL_REGISTRY = {
   // Qwen 2.5 Coder - Beats generic models at SQL, JSON, and Code
   // Use for Data ops and Workflow execution
   coder: {
-    id: 'qwen2.5-coder:32b',
-    name: 'Qwen 2.5 Coder 32B',
+    id: 'deepseek-coder-v2:latest',
+    name: 'DeepSeek Coder V2',
     contextWindow: 32768,
     temperature: 0.2, // Very low temp for precision
     description: 'Code, SQL, JSON specialist',

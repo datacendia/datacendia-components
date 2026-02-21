@@ -92,7 +92,7 @@ export interface NextStep {
 // =============================================================================
 
 class ExecutiveSummaryService {
-  private modelId = 'qwen2.5:7b'; // Use flagship model for quality
+  private modelId = 'qwen3:32b'; // Use flagship model for quality
 
   /**
    * Generate executive summary from deliberation

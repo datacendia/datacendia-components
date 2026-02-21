@@ -627,7 +627,7 @@ Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
+      const response = await ollama.generate(prompt, {});
       const params = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       // Find matching entities
@@ -668,7 +668,7 @@ Paths found: ${allPaths.slice(0, 5).map(p =>
 
 Provide a concise, factual answer based only on the graph data.`;
 
-      const answer = await ollama.generate(answerPrompt, { model: 'qwen2.5:7b' });
+      const answer = await ollama.generate(answerPrompt, {});
 
       return {
         answer: answer.trim(),
