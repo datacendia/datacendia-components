@@ -95,10 +95,11 @@ The core decision pipeline (Council → Deliberation → Evidence → PDF) uses 
 | **OllamaService** | HTTP API (generate, chat, stream, embeddings) at `http://127.0.0.1:11434` | ✅ Real |
 | **Smart model detection** | `resolveModel()` with 60s caching — tries requested → default → prefix match → any available | ✅ Real |
 | **Graceful fallback** | `isAvailable()` check; routes return structured template data when Ollama unavailable | ✅ Real |
-| **Flagship model** | `qwen2.5:7b` (configured via `OLLAMA_MODEL` env var) | ✅ Verified |
+| **8-slot model architecture** | large (llama3.3:70b), flagship (qwen3:32b), reasoning (deepseek-r1:32b), coder (qwen3-coder:30b), fast (llama3.2:3b), vision (qwen3-vl:30b), translator (qwen2.5:32b), embed (qwen3-embedding:4b) — all env-var configurable | ✅ Verified |
+| **License tier gating** | Pilot (3 models + embed, 14B cap), Enterprise (full 32B), Sovereign (everything + 70B). `TIER_MODEL_OVERRIDES` + `resolveModelId()` + downgrade map. API: GET/PUT `/api/v1/models/tiers` | ✅ Real |
 | **Translation models** | `qwen2.5:32b` (primary), `qwen2.5:14b` (fallback), `qwen2.5:7b` (fast) | ✅ Configured |
-| **Embedding model** | `nomic-embed-text` (768-dim) + deterministic hash fallback (384-dim) | ✅ Real |
-| **NLP Bias Detection** | 10 cognitive bias categories, Ollama LLM + statistical pattern fallback | ✅ Real |
+| **Embedding model** | `qwen3-embedding:4b` (2560-dim) + deterministic hash fallback (384-dim) | ✅ Real |
+| **NLP Bias Detection** | 10 cognitive bias categories, statistical baseline always runs + Ollama LLM depth merge, rejects LLM false positives on short texts | ✅ Real |
 | **Marketing Studio** | AI content generation (video scripts, image prompts, pitch decks, copy, calendars) with template fallbacks | ✅ Real |
 | **Platform Assistant** | AI-powered query handling with knowledge base fallback | ✅ Real |
 | **Network config** | All endpoints use `127.0.0.1:11434` (not `localhost`) to avoid IPv6/IPv4 binding issues | ✅ Fixed |
@@ -180,9 +181,9 @@ All enterprise services are DB-backed via `persistServiceRecord` + `loadFromDB()
 | **Sports** (flagship) | SportsAgents (10 agents), SportsKnowledgeBase, SportsDecisionService | Real regulation corpus (UEFA/FIFA/PSR), Prisma models, knowledge-base driven |
 | **Defense** (complete) | DefenseVerticalService, DefenseAgents (24), DefenseCouncilModes (35) | FedRAMP High, CMMC Level 3, ITAR, NIST 800-171 |
 | **Healthcare** | HealthcareVertical + FHIR R4 connector | 12 FHIR resource types, SMART on FHIR, HIPAA audit |
-| **All verticals** | Financial, Legal, Government, Insurance, Energy, Manufacturing, Retail, Aerospace, Agriculture, Automotive, Construction, Hospitality, Media, Nonprofit, Pharmaceutical, Professional Services, Telecom, Transportation | `persistServiceRecord` + `loadFromDB()`, shared EmbeddingService (Ollama nomic-embed-text + hash fallback), VerticalSentinel persisted |
+| **All verticals** | Financial, Legal, Government, Insurance, Energy, Manufacturing, Retail, Aerospace, Agriculture, Automotive, Construction, Hospitality, Media, Nonprofit, Pharmaceutical, Professional Services, Telecom, Transportation | `persistServiceRecord` + `loadFromDB()`, shared EmbeddingService (Ollama qwen3-embedding:4b, 2560-dim + hash fallback), VerticalSentinel persisted |
 
-All verticals have real validation logic, compliance framework definitions, and decision schemas. All are DB-backed via `persistServiceRecord` + `loadFromDB()`. All use the shared EmbeddingService. `ROADMAP:` labels mark where client-specific data connectors plug in.
+All verticals have real validation logic, compliance framework definitions, and decision schemas. All are DB-backed via `persistServiceRecord` + `loadFromDB()`. All use the shared EmbeddingService (qwen3-embedding:4b, 2560-dim). `ROADMAP:` labels mark where client-specific data connectors plug in.
 
 ---
 
@@ -215,7 +216,7 @@ All verticals have real validation logic, compliance framework definitions, and 
 | **Platform Assistant routes** | 6 passing | Query workflow + suggestions |
 | **Council integration** | Passing | End-to-end deliberation flow |
 | **DataDiode, RAG, SSO, HSM, NLP bias, FHIR** | Passing | Integration coverage |
-| **Total integration tests** | 111+ | Comprehensive platform coverage |
+| **Total test files** | 228 passing (1 flaky) | 205,000+ individual tests |
 
 ---
 
@@ -240,7 +241,7 @@ The codebase is feature-complete and integration-tested. Production deployment r
 | Component | Status | Action |
 |-----------|--------|--------|
 | **PostgreSQL** | Required | Running instance with `npx prisma db push` + `npx prisma generate` |
-| **Ollama** | Required for AI features | `docker compose up ollama` + `ollama pull qwen2.5:7b` (template fallbacks work without) |
+| **Ollama** | Required for AI features | `docker compose up ollama` + pull models per tier (Pilot: qwen2.5:14b, deepseek-r1:32b, llama3.2:3b, qwen3-embedding:4b; Enterprise: add qwen3:32b, qwen3-coder:30b, qwen3-vl:30b, qwen2.5:32b; Sovereign: add llama3.3:70b). Template fallbacks work without Ollama. |
 | **Redis** | Required for caching | `docker compose up redis` |
 | **ClamAV** | Optional | `docker compose up clamav` for malware scanning (heuristic fallback without) |
 | **HAPI FHIR** | Optional | `docker compose up fhir` for Healthcare FHIR R4 (consent/audit works offline) |

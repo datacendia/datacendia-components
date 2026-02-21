@@ -166,6 +166,9 @@ Evidence packages are designed to be admissible:
 
 | Framework | Coverage | Notes |
 |-----------|----------|-------|
+| **EU AI Act** | Mapped | Articles 12, 13, 52, 61 — high-risk AI system requirements |
+| **NIST AI RMF** | Full alignment | All 9 DCII primitives map to RMF functions |
+| **DORA** | Mapped | Articles 11, 17, 28 — digital operational resilience |
 | **ISO 42001** | Full alignment | AI management system standard |
 | **Basel III** | Mapped | Financial risk controls |
 | **SEC / FINRA** | Mapped | Securities compliance |
@@ -173,6 +176,7 @@ Evidence packages are designed to be admissible:
 | **GDPR** | Compliant | Data protection controls |
 | **SOC 2 Type II** | Ready | Audit controls in place |
 | **FedRAMP** | Aligned | Government deployment ready |
+| **HIPAA** | Mapped | Healthcare data protection |
 
 ---
 
@@ -185,6 +189,8 @@ Evidence packages are designed to be admissible:
 | **PDF Generation** | PDF/A-3 | Archival standard with embedded data |
 | **Replay Fidelity** | Bit-perfect | Deterministic reconstruction |
 | **Multi-Tenant Isolation** | Verified | Complete data segregation |
+| **Multi-Model Architecture** | 8 slots | Purpose-built model per task type, env-var configurable |
+| **License Tier Gating** | 3 tiers | Pilot (14B cap) → Enterprise (32B) → Sovereign (70B+) |
 
 ---
 
@@ -194,7 +200,7 @@ Evidence packages are designed to be admissible:
 
 | Role | Email | Password |
 |------|-------|----------|
-| Platform Owner | stuart@datacendia.com | DatacendiaOwner2024! |
+| Platform Owner | stuart.rainey@datacendia.com | DatacendiaOwner2024! |
 
 ---
 

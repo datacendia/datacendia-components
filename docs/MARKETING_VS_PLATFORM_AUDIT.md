@@ -74,6 +74,9 @@ The existing Feb 18 audit in the marketing repo already identified these. Still 
 | **CendiaCommand™** | Platinum execution engine with 6 vertical layers |
 | **Knowledge Graph** | Neo4j-backed graph database |
 | **PersonaForge™** | Custom agent creation (60-trait system) |
+| **8-Slot Multi-Model Architecture** | Purpose-built model per task (reasoning, coder, vision, embed, etc.) — not mentioned on marketing site |
+| **License Tier Gating** | Pilot/Enterprise/Sovereign model access control with automatic downgrade — key commercial differentiator, not on marketing |
+| **2560-dim Multilingual Embeddings** | qwen3-embedding:4b — significant upgrade from 768-dim, enables better RAG/search |
 
 ### 🟡 DCII Dashboard — No Screenshots/Video
 The platform now has a fully functional DCII dashboard with 6 tabs (IISS, Media Auth, Jurisdiction, Timestamps, Similarity, Cognitive Bias), all backed by real services with demo data seeding. Marketing `dcii.html` describes the framework but doesn't show the actual UI.
@@ -104,7 +107,7 @@ Claims query-in-place for PostgreSQL, MySQL, SQL Server, Oracle, MongoDB, DB2. P
 **Recommendation:** Reframe as "5 universal adapters that connect to your existing databases" rather than implying native drivers for all 6.
 
 ### ⚠️ "204,079 Automated Tests" (trust metrics)
-Date says Feb 8, 2026 — likely accurate at that time but may be stale. Should be re-verified and dated.
+Now **205,081 tests across 228 test files** (verified Feb 21, 2026). Marketing figure is stale. Update to current count with date.
 
 ### ⚠️ Newsletter Form
 Still frontend-only `onsubmit` with no backend. Signups are lost.
@@ -141,15 +144,17 @@ Homepage claims "Insurance carriers: 20-40% premium reduction for scores >800" a
 ### 🟡 Important
 6. **Add CendiaRecall (P10)** to primitives section if it's now part of the framework
 7. **Feature the Regulator's Receipt** more prominently — show actual PDF output
-8. **Update test count** with current date
-9. **Fix newsletter form** — Netlify Forms or real backend
-10. **Add CendiaCommand™ and CendiaOps** (19 co-pilots) to marketing
+8. **Update test count** to 205,081 (Feb 21, 2026)
+9. **Add tiered licensing model** to pricing page — Pilot ($50K) / Foundation / Enterprise / Platinum
+10. **Feature multi-model architecture** — 8 specialized AI models, not one generic LLM
+11. **Fix newsletter form** — Netlify Forms or real backend
+12. **Add CendiaCommand™ and CendiaOps** (19 co-pilots) to marketing
 
 ### 🟢 Nice to Have
-11. **Add Mission Control Dashboard** to demos
-12. **Cross-link to live platform demo** from marketing
-13. **Port Cormorant Garamond** to platform
-14. **Add PersonaForge** to marketing features
+13. **Add Mission Control Dashboard** to demos
+14. **Cross-link to live platform demo** from marketing
+15. **Port Cormorant Garamond** to platform
+16. **Add PersonaForge** to marketing features
 
 ---
 
