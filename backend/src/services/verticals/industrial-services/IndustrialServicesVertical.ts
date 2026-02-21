@@ -84,6 +84,7 @@ import {
   EmergencyResponseSchema,
   JointVentureSchema,
 } from './IndustrialServicesDecisionSchemasExpanded.js';
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
 // Re-export expanded types for external use
 export type {
@@ -695,10 +696,8 @@ export class IndustrialServicesKnowledgeBase extends VerticalKnowledgeBase {
   }
 
   private generateEmbedding(text: string): number[] {
-    const embedding: number[] = [];
-    for (let i = 0; i < 384; i++) {
-      embedding.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5);
-    }
+    return embeddingService.hashFallback(text);
+  }
     return embedding;
   }
 

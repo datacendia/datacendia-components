@@ -61,6 +61,7 @@ import {
   RenewableIntegrationSchema,
   DemandResponseSchema,
 } from './EnergyDecisionSchemasExpanded.js';
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
 export type {
   GenerationDispatchDecision,
@@ -835,10 +836,8 @@ export class EnergyKnowledgeBase extends VerticalKnowledgeBase {
   }
 
   private generateEmbedding(text: string): number[] {
-    const embedding: number[] = [];
-    for (let i = 0; i < 384; i++) {
-      embedding.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5);
-    }
+    return embeddingService.hashFallback(text);
+  }
     return embedding;
   }
 

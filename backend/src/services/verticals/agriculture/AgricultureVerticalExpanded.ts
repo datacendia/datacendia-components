@@ -24,6 +24,7 @@ import {
   DefensibleOutput, RegulatorPacket, CourtBundle, AuditTrail,
   VerticalImplementation, VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
 // ============================================================================
 // AGRICULTURE DECISION TYPES
@@ -332,8 +333,8 @@ export class AgricultureKnowledgeBase extends VerticalKnowledgeBase {
     return { valid: issues.length === 0, issues };
   }
 
-  private genEmb(text: string): number[] { const e: number[] = []; for (let i = 0; i < 384; i++) e.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5); return e; }
-  private cos(a: number[], b: number[]): number { let d = 0, nA = 0, nB = 0; for (let i = 0; i < a.length; i++) { d += (a[i]??0)*(b[i]??0); nA += (a[i]??0)**2; nB += (b[i]??0)**2; } return d / (Math.sqrt(nA)*Math.sqrt(nB)); }
+  private genEmb(text: string): number[] { return embeddingService.hashFallback(text); }
+  private cos(a: number[], b: number[]): number { return embeddingService.cosineSimilarity(a, b); }
 }
 
 // ============================================================================
@@ -394,6 +395,7 @@ export class AgricultureComplianceMapper extends ComplianceMapper {
       { id: 'esa-take', name: 'Take Prohibition', description: 'Prohibition on take of listed species', severity: 'critical', automatable: false }
     ]}
   ];
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
   mapToFramework(decisionType: string, frameworkId: string): ComplianceControl[] {
     const fw = this.getFramework(frameworkId);

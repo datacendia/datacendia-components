@@ -5,25 +5,28 @@
 /**
  * CendiaZKP - Real Zero-Knowledge Compliance Proofs
  * 
- * IMPLEMENTATION STATUS: REAL ZK PROOFS via Schnorr sigma protocols
+ * IMPLEMENTATION STATUS: REAL ZK PROOFS — dual proving system
  * 
- * WHAT THIS IS:
- * - Real Schnorr zero-knowledge proofs of knowledge (sigma protocols)
+ * SYSTEM 1 — Schnorr Sigma Protocols (secp256k1)
+ * - Real Schnorr zero-knowledge proofs of knowledge
  * - Elliptic curve commitments on secp256k1 via @noble/curves
  * - Non-interactive via Fiat-Shamir heuristic (SHA-256 challenge)
- * - Witness hashing to scalar, committed as EC point X = x*G
  * - Proof: (R, s) where R = k*G, c = H(X||R||claim), s = k + c*x mod n
  * - Verification: s*G == R + c*X (no private data needed)
  * 
- * MATHEMATICAL GUARANTEES:
+ * SYSTEM 2 — Groth16 Circuit-Based Proofs (BN128)
+ * - Real Groth16 proofs via snarkjs on BN128 pairing curve
+ * - Pre-generated trusted setup (Powers of Tau + phase 2)
+ * - Multiplication gate circuit: prove knowledge of factors
+ * - Proof: (pi_a, pi_b, pi_c) — 3 elliptic curve group elements
+ * - Verification: pairing check e(A,B) == e(α,β)·e(pub,γ)·e(C,δ)
+ * 
+ * MATHEMATICAL GUARANTEES (both systems):
  * - Zero-knowledge: simulator can produce indistinguishable transcripts
- * - Soundness: extracting witness requires solving discrete log
+ * - Soundness: extracting witness requires solving discrete log / pairing
  * - Completeness: honest prover always convinces honest verifier
  * 
- * ROADMAP: Add snarkjs/circom Groth16 proofs for circuit-based claims
- * (e.g., proving model accuracy > threshold without revealing test data)
- * 
- * Powered by @noble/curves (https://github.com/paulmillr/noble-curves)
+ * Powered by @noble/curves + snarkjs
  */
 
 import { v4 as uuidv4 } from 'uuid';
@@ -32,6 +35,8 @@ import { logger } from '../../utils/logger.js';
 import { secp256k1 } from '@noble/curves/secp256k1.js';
 import { sha256 } from '@noble/hashes/sha256.js';
 import { bytesToHex } from '@noble/hashes/utils.js';
+import { groth16ProofService } from './groth16/Groth16ProofService.js';
+import type { Groth16Proof, Groth16VerificationResult } from './groth16/Groth16ProofService.js';
 
 // ============================================================================
 // TYPES
@@ -498,6 +503,43 @@ export class ZeroKnowledgeProofService {
   private verifyPublicInputs(proof: ZKProof): boolean {
     return proof.publicInputs.length > 0 && proof.publicInputs.every(i => typeof i === 'string' && i.length > 0);
   }
+
+  // ==========================================================================
+  // GROTH16 CIRCUIT-BASED PROOFS (BN128)
+  // ==========================================================================
+
+  /**
+   * Generate a Groth16 zero-knowledge proof for a compliance claim.
+   * Uses the BN128 pairing curve with a pre-generated trusted setup.
+   *
+   * The proof demonstrates knowledge of private witness data whose
+   * commitment matches the public signal — without revealing the witness.
+   */
+  async generateGroth16Proof(claim: string): Promise<Groth16Proof> {
+    return groth16ProofService.proveComplianceClaim(claim).then(r => r.proof);
+  }
+
+  /**
+   * Verify a Groth16 proof using the BN128 pairing check.
+   */
+  async verifyGroth16Proof(proofId: string): Promise<Groth16VerificationResult> {
+    return groth16ProofService.verify(proofId);
+  }
+
+  /**
+   * Get the Groth16 service status (artifacts loaded, proof count, etc.).
+   */
+  async getGroth16Status(): Promise<{
+    initialized: boolean;
+    artifactsPresent: boolean;
+    protocol: string;
+    curve: string;
+    proofCount: number;
+  }> {
+    return groth16ProofService.getStatus();
+  }
 }
 
+export { groth16ProofService };
+export type { Groth16Proof, Groth16VerificationResult };
 export const zeroKnowledgeProofService = new ZeroKnowledgeProofService();

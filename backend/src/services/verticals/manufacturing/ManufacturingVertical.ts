@@ -64,6 +64,7 @@ import {
   WorkforceTrainingSchema,
   CapitalInvestmentSchema,
 } from './ManufacturingDecisionSchemasExpanded.js';
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
 export type {
   ProductLaunchDecision,
@@ -414,11 +415,8 @@ export class ManufacturingKnowledgeBase extends VerticalKnowledgeBase {
   }
 
   private generateEmbedding(text: string): number[] {
-    // Simplified embedding - ROADMAP: use actual embedding model
-    const embedding: number[] = [];
-    for (let i = 0; i < 384; i++) {
-      embedding.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5);
-    }
+    return embeddingService.hashFallback(text);
+  }
     return embedding;
   }
 

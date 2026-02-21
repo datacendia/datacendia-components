@@ -24,6 +24,7 @@ import {
   DefensibleOutput, RegulatorPacket, CourtBundle, AuditTrail,
   VerticalImplementation, VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
 // ============================================================================
 // AEROSPACE DECISION TYPES
@@ -124,8 +125,8 @@ export class AerospaceKnowledgeBase extends VerticalKnowledgeBase {
   async embed(content: string, metadata: Record<string, unknown>, provenance: ProvenanceRecord): Promise<KnowledgeDocument> { const doc: KnowledgeDocument = { id: uuidv4(), content, metadata, provenance, embedding: this.genEmb(content), createdAt: new Date(), updatedAt: new Date() }; this.documents.set(doc.id, doc); return doc; }
   async retrieve(query: string, topK: number = 5): Promise<RetrievalResult> { const qe = this.genEmb(query); const scored: { doc: KnowledgeDocument; score: number }[] = []; for (const d of this.documents.values()) if (d.embedding) scored.push({ doc: d, score: this.cos(qe, d.embedding) }); scored.sort((a, b) => b.score - a.score); const top = scored.slice(0, topK); return { documents: top.map(s => s.doc), scores: top.map(s => s.score), provenanceVerified: top.every(s => s.doc.provenance.authoritative), query }; }
   async enforceProvenance(docId: string): Promise<{ valid: boolean; issues: string[] }> { const d = this.documents.get(docId); if (!d) return { valid: false, issues: ['Not found'] }; const issues: string[] = []; if (!d.provenance.authoritative) issues.push('Not authoritative'); if (crypto.createHash('sha256').update(d.content).digest('hex') !== d.provenance.hash) issues.push('Hash mismatch'); return { valid: issues.length === 0, issues }; }
-  private genEmb(text: string): number[] { const e: number[] = []; for (let i = 0; i < 384; i++) e.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5); return e; }
-  private cos(a: number[], b: number[]): number { let d = 0, nA = 0, nB = 0; for (let i = 0; i < a.length; i++) { d += (a[i]??0)*(b[i]??0); nA += (a[i]??0)**2; nB += (b[i]??0)**2; } return d / (Math.sqrt(nA)*Math.sqrt(nB)); }
+  private genEmb(text: string): number[] { return embeddingService.hashFallback(text); }
+  private cos(a: number[], b: number[]): number { return embeddingService.cosineSimilarity(a, b); }
 }
 
 export class AerospaceComplianceMapper extends ComplianceMapper {

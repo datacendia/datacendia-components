@@ -42,6 +42,7 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
+import { embeddingService } from '../../llm/EmbeddingService.js';
 
 // ============================================================================
 // TECHNOLOGY DECISION TYPES
@@ -451,9 +452,7 @@ export class TechnologyKnowledgeBase extends VerticalKnowledgeBase {
   }
 
   private generateEmbedding(text: string): number[] {
-    const emb: number[] = [];
-    for (let i = 0; i < 384; i++) emb.push(Math.sin(text.charCodeAt(i % text.length) + i) / 2 + 0.5);
-    return emb;
+    return embeddingService.hashFallback(text);
   }
 
   private cosineSimilarity(a: number[], b: number[]): number {
