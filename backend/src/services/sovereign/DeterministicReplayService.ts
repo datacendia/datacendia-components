@@ -16,6 +16,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
@@ -544,6 +545,34 @@ class DeterministicReplayService extends EventEmitter {
   private async persistState(state: ReplayableState): Promise<void> {
     const filePath = path.join(this.storagePath, 'states', `${state.id}.json`);
     fs.writeFileSync(filePath, JSON.stringify(state, null, 2));
+
+    // Also persist to Prisma for queryability
+    try {
+      await prisma.deterministic_replay_states.upsert({
+        where: { id: state.id },
+        update: {
+          state_hash: state.stateHash,
+          verified: state.verified,
+          verified_at: state.verifiedAt || null,
+          output_state: JSON.parse(JSON.stringify(state.outputState)),
+        },
+        create: {
+          id: state.id,
+          organization_id: state.organizationId,
+          deliberation_id: state.deliberationId,
+          master_seed: state.randomState.masterSeed,
+          execution_env: JSON.parse(JSON.stringify(state.executionEnvironment)),
+          random_state: JSON.parse(JSON.stringify(state.randomState)),
+          model_state: JSON.parse(JSON.stringify(state.modelState)),
+          input_state: JSON.parse(JSON.stringify(state.inputState)),
+          output_state: JSON.parse(JSON.stringify(state.outputState)),
+          state_hash: state.stateHash,
+          verified: state.verified,
+        },
+      });
+    } catch (err) {
+      logger.warn(`[DeterministicReplay] DB persist failed: ${(err as Error).message}`);
+    }
   }
 
   // ===========================================================================

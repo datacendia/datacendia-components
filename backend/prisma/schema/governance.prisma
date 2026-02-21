@@ -790,3 +790,27 @@ model meta_governance_reports {
   @@index([agent_id])
   @@index([created_at])
 }
+
+// =============================================================================
+// Deterministic Replay — Continuity Memory / Primitive D
+// =============================================================================
+
+model deterministic_replay_states {
+  id                  String   @id
+  organization_id     String
+  deliberation_id     String
+  master_seed         String
+  execution_env       Json     // ExecutionEnvironment
+  random_state        Json     // RandomState (seeds, pinned timestamp)
+  model_state         Json     // ModelState (models, inference params)
+  input_state         Json     // InputState (question, docs, agents)
+  output_state        Json     // OutputState (responses, hashes)
+  state_hash          String
+  verified            Boolean  @default(false)
+  verified_at         DateTime?
+  created_at          DateTime @default(now())
+
+  @@index([organization_id])
+  @@index([deliberation_id])
+  @@index([created_at])
+}
