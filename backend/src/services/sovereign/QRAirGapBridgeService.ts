@@ -37,6 +37,7 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 
@@ -309,7 +310,7 @@ class QRAirGapBridgeService extends EventEmitter {
     };
     
     this.payloads.set(id, payload);
-    
+    persistServiceRecord({ serviceName: 'QRAirGapBridge', recordType: 'payload_created', referenceId: id, data: { id, type: params.type, chunks: totalChunks, bytes: dataStr.length, createdAt: new Date() } });
     logger.info(`[QRAirGapBridge] Created payload ${id}: ${totalChunks} chunks, ${dataStr.length} bytes`);
     this.emit('payload:created', payload);
     

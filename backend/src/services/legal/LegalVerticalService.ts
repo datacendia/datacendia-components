@@ -11,6 +11,7 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -258,6 +259,7 @@ export class LegalVerticalService extends EventEmitter {
     };
 
     this.caseLibrary.set(id, caseLaw);
+    persistServiceRecord({ serviceName: 'LegalVertical', recordType: 'case_law', referenceId: id, data: caseLaw });
     this.emit('case-ingested', caseLaw);
 
     return caseLaw;
@@ -454,6 +456,7 @@ export class LegalVerticalService extends EventEmitter {
     };
 
     this.matters.set(id, matter);
+    persistServiceRecord({ serviceName: 'LegalVertical', recordType: 'matter', referenceId: id, data: matter });
     this.emit('matter-created', matter);
 
     return matter;

@@ -17,6 +17,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -321,7 +322,7 @@ class PortableInstanceService extends EventEmitter {
     
     this.configs.set(id, config);
     await this.persistConfig(config);
-    
+    persistServiceRecord({ serviceName: 'PortableInstance', recordType: 'config_created', referenceId: id, organizationId: config.organizationId, data: { id, name: config.name, imageType: config.imageType, createdAt: new Date() } });
     logger.info(`[PortableInstance] Created config: ${config.name} (${config.imageType})`);
     this.emit('config:created', config);
     

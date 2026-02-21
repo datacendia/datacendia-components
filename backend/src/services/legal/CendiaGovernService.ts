@@ -21,6 +21,7 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -489,6 +490,7 @@ export class CendiaGovernService extends EventEmitter {
 
     check.hash = this.generateHash(check);
     this.checks.set(id, check);
+    persistServiceRecord({ serviceName: 'CendiaGovern', recordType: 'compliance_check', referenceId: id, data: check });
     this.emit('compliance-check-complete', check);
 
     return check;
@@ -781,6 +783,7 @@ export class CendiaGovernService extends EventEmitter {
     };
 
     this.violations.set(id, violation);
+    persistServiceRecord({ serviceName: 'CendiaGovern', recordType: 'violation', referenceId: id, data: violation });
     this.emit('violation-detected', violation);
 
     // Check if should escalate

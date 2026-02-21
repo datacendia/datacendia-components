@@ -23,6 +23,7 @@
 
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 import {
   DecisionProposal,
   DeliberationGraph,
@@ -258,6 +259,7 @@ export class SGASOrchestrator extends EventEmitter {
       // Store completed deliberation
       this.completedDeliberations.set(graphId, result);
       this.activeDeliberations.delete(graphId);
+      persistServiceRecord({ serviceName: 'SGASOrchestrator', recordType: 'deliberation_result', referenceId: graphId, data: { graphId, proposalId: proposal.id, completedAt: new Date() } });
 
       this.emit('deliberation:complete', { graphId, proposalId: proposal.id, result });
 

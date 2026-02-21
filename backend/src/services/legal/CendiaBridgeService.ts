@@ -19,6 +19,7 @@
 
 import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -274,6 +275,7 @@ export class CendiaBridgeService extends EventEmitter {
     };
 
     this.connectors.set(id, connector);
+    persistServiceRecord({ serviceName: 'CendiaBridge', recordType: 'connector', referenceId: id, data: connector });
     this.emit('connector-registered', connector);
 
     // Set up auto-sync if configured

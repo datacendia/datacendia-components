@@ -16,6 +16,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../../../utils/servicePersistence.js';
 import {
   DataConnector,
   DataSource,
@@ -265,7 +266,7 @@ export class ConsentOverrideLedger {
     const patientConsents = this.consents.get(record.patientId) || [];
     patientConsents.push(consent);
     this.consents.set(record.patientId, patientConsents);
-
+    persistServiceRecord({ serviceName: 'HealthcareVertical', recordType: 'patient_consent', referenceId: consent.id, data: consent });
     return consent;
   }
 
@@ -279,7 +280,7 @@ export class ConsentOverrideLedger {
     const decisionOverrides = this.overrides.get(record.decisionId) || [];
     decisionOverrides.push(override);
     this.overrides.set(record.decisionId, decisionOverrides);
-
+    persistServiceRecord({ serviceName: 'HealthcareVertical', recordType: 'clinical_override', referenceId: override.id, data: override });
     return override;
   }
 
