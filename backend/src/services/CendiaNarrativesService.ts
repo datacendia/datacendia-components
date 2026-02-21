@@ -10,6 +10,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { ollama } from './ollama.js';
+import { persistServiceRecord } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

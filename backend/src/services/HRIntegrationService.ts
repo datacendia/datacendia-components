@@ -10,6 +10,7 @@
 import { logger } from '../utils/logger.js';
 import { config } from '../config/index.js';
 import { WorkdayConnector } from '../connectors/enterprise/WorkdayConnector.js';
+import { persistServiceRecord } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

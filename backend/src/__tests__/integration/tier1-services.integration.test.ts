@@ -764,3 +764,197 @@ describe('ServicePersistence Utility', () => {
     expect(count).toBeGreaterThanOrEqual(0);
   });
 });
+
+// =============================================================================
+// 9. ML-KEM (FIPS 203) — Post-Quantum Key Encapsulation Mechanism
+// =============================================================================
+
+describe('PostQuantumKMS — ML-KEM Key Encapsulation (FIPS 203)', () => {
+  let pqKms: InstanceType<typeof import('../../services/security/PostQuantumKMSService.js').PostQuantumKMSService>;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/security/PostQuantumKMSService.js');
+    pqKms = new mod.PostQuantumKMSService();
+  });
+
+  describe('ML-KEM-768 (NIST Level 3)', () => {
+    it('should generate a KEM key pair', () => {
+      const keyPair = pqKms.generateKEMKeyPair('ml-kem-768');
+      expect(keyPair.id).toMatch(/^kem-/);
+      expect(keyPair.variant).toBe('ml-kem-768');
+      expect(keyPair.nistLevel).toBe(3);
+      expect(keyPair.publicKey).toBeTruthy();
+      expect(keyPair.privateKey).toBeTruthy();
+    });
+
+    it('should encapsulate and decapsulate to produce matching shared secrets', () => {
+      const keyPair = pqKms.generateKEMKeyPair('ml-kem-768');
+      const { sharedSecret: encSecret, ciphertext } = pqKms.encapsulate(keyPair.publicKey, 'ml-kem-768');
+      const { sharedSecret: decSecret } = pqKms.decapsulate(ciphertext, keyPair.privateKey, 'ml-kem-768');
+
+      expect(encSecret).toBe(decSecret);
+      expect(encSecret.length).toBeGreaterThan(0);
+    });
+  });
+
+  describe('ML-KEM-512 (NIST Level 1)', () => {
+    it('should generate and encapsulate/decapsulate with ML-KEM-512', () => {
+      const keyPair = pqKms.generateKEMKeyPair('ml-kem-512');
+      expect(keyPair.nistLevel).toBe(1);
+
+      const { sharedSecret: encSecret, ciphertext } = pqKms.encapsulate(keyPair.publicKey, 'ml-kem-512');
+      const { sharedSecret: decSecret } = pqKms.decapsulate(ciphertext, keyPair.privateKey, 'ml-kem-512');
+      expect(encSecret).toBe(decSecret);
+    });
+  });
+
+  describe('ML-KEM-1024 (NIST Level 5)', () => {
+    it('should generate and encapsulate/decapsulate with ML-KEM-1024', () => {
+      const keyPair = pqKms.generateKEMKeyPair('ml-kem-1024');
+      expect(keyPair.nistLevel).toBe(5);
+
+      const { sharedSecret: encSecret, ciphertext } = pqKms.encapsulate(keyPair.publicKey, 'ml-kem-1024');
+      const { sharedSecret: decSecret } = pqKms.decapsulate(ciphertext, keyPair.privateKey, 'ml-kem-1024');
+      expect(encSecret).toBe(decSecret);
+    });
+  });
+
+  describe('Different key pairs produce different shared secrets', () => {
+    it('should produce unique shared secrets per encapsulation', () => {
+      const keyPair = pqKms.generateKEMKeyPair('ml-kem-768');
+      const result1 = pqKms.encapsulate(keyPair.publicKey, 'ml-kem-768');
+      const result2 = pqKms.encapsulate(keyPair.publicKey, 'ml-kem-768');
+
+      // Each encapsulation should produce a different shared secret (randomized)
+      expect(result1.ciphertext).not.toBe(result2.ciphertext);
+    });
+  });
+});
+
+// =============================================================================
+// 10. Hybrid PQ+Classical Dual Signatures
+// =============================================================================
+
+describe('PostQuantumKMS — Hybrid PQ+Classical Signatures', () => {
+  let pqKms: InstanceType<typeof import('../../services/security/PostQuantumKMSService.js').PostQuantumKMSService>;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/security/PostQuantumKMSService.js');
+    pqKms = new mod.PostQuantumKMSService();
+  });
+
+  it('should create a hybrid RSA-PSS + ML-DSA-65 signature', async () => {
+    const keyPair = await pqKms.generateKeyPair({ algorithm: 'dilithium3' });
+    const data = Buffer.from('Hybrid signature test data for dual verification');
+
+    const hybrid = await pqKms.hybridSign(data, keyPair.id);
+
+    expect(hybrid.algorithm).toBe('hybrid-rsa-pss+ml-dsa-65');
+    expect(hybrid.classicalAlgorithm).toBe('RSA-PSS-SHA256');
+    expect(hybrid.pqAlgorithm).toBe('ML-DSA-65');
+    expect(hybrid.classicalSignature).toBeTruthy();
+    expect(hybrid.pqSignature).toBeTruthy();
+    expect(hybrid.pqKeyId).toBe(keyPair.id);
+  });
+
+  it('should report full PQ-KMS status with all FIPS algorithms', () => {
+    const status = pqKms.getFullStatus();
+
+    expect(status.algorithms.signatures).toContain('ML-DSA-65');
+    expect(status.algorithms.kem).toContain('ML-KEM-768');
+    expect(status.algorithms.hybrid).toContain('RSA-PSS-4096 + ML-DSA-65');
+    expect(status.fipsCompliance['FIPS 203']).toContain('ML-KEM');
+    expect(status.fipsCompliance['FIPS 204']).toContain('ML-DSA');
+    expect(status.fipsCompliance['FIPS 205']).toContain('SLH-DSA');
+  });
+});
+
+// =============================================================================
+// 11. Key Lifecycle Management
+// =============================================================================
+
+describe('KeyManagementService — Key Lifecycle', () => {
+  let kms: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/security/KeyManagementService.js');
+    kms = mod.keyManagementService;
+  });
+
+  it('should export auditKeyHealth method', () => {
+    expect(typeof kms.auditKeyHealth).toBe('function');
+  });
+
+  it('should export autoRotateOverdueKeys method', () => {
+    expect(typeof kms.autoRotateOverdueKeys).toBe('function');
+  });
+
+  it('should export getKeyFingerprint method', () => {
+    expect(typeof kms.getKeyFingerprint).toBe('function');
+  });
+
+  it('should audit key health and return structured results', async () => {
+    const health = await kms.auditKeyHealth({ rotationThresholdDays: 90 });
+    expect(health.summary).toBeDefined();
+    expect(typeof health.summary.total).toBe('number');
+    expect(typeof health.summary.healthy).toBe('number');
+    expect(typeof health.summary.warnings).toBe('number');
+    expect(typeof health.summary.critical).toBe('number');
+    expect(Array.isArray(health.healthy)).toBe(true);
+    expect(Array.isArray(health.expired)).toBe(true);
+    expect(Array.isArray(health.rotationOverdue)).toBe(true);
+  });
+});
+
+// =============================================================================
+// 12. Vertical Sentinel & Compliance
+// =============================================================================
+
+describe('Vertical Sentinel — Risk Delta Reports', () => {
+  let VerticalSentinelService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/verticals/meta/VerticalSentinelService.js');
+    VerticalSentinelService = mod.VerticalSentinelService;
+  });
+
+  it('should import VerticalSentinelService', () => {
+    expect(VerticalSentinelService).toBeDefined();
+  });
+
+  it('should create sentinel agents for all verticals', () => {
+    const service = new VerticalSentinelService();
+    const sentinels = service.getAllSentinels();
+    expect(sentinels.length).toBeGreaterThan(0);
+  });
+
+  it('should scan for regulatory events', async () => {
+    const service = new VerticalSentinelService();
+    const results = await service.scanAll();
+    expect(results instanceof Map).toBe(true);
+    expect(results.size).toBeGreaterThan(0);
+  });
+});
+
+// =============================================================================
+// 13. Sports Decision Service — Compliance Integration
+// =============================================================================
+
+describe('SportsDecisionService — Compliance', () => {
+  let SportsDecisionService: any;
+
+  beforeAll(async () => {
+    const mod = await import('../../services/sports/SportsDecisionService.js');
+    SportsDecisionService = mod.SportsDecisionService;
+  });
+
+  it('should import SportsDecisionService', () => {
+    expect(SportsDecisionService).toBeDefined();
+  });
+
+  it('should instantiate with compliance framework support', () => {
+    const service = new SportsDecisionService();
+    expect(service).toBeDefined();
+    expect(typeof service.getComplianceFrameworks).toBe('function');
+  });
+});

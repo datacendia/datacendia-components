@@ -23,6 +23,7 @@
 
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

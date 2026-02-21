@@ -17,6 +17,7 @@
 
 import crypto from 'crypto';
 import { AuditEvent, AuditSeverity } from '../../security/audit.service.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

@@ -19,6 +19,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import { VerticalId, CommandContext, CommandIntent, CommandExecution, VERTICAL_CONFIGS } from './CendiaCommandService';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // ============================================================================
 // PLATINUM INTERFACES

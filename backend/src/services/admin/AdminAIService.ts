@@ -12,6 +12,7 @@ import { featureControlService } from './FeatureControlService.js';
 import { tenantService } from './TenantService.js';
 import { licenseService } from './LicenseService.js';
 import { systemHealthService } from './SystemHealthService.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

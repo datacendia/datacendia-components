@@ -10,6 +10,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

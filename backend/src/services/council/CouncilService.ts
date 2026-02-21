@@ -23,6 +23,7 @@ import {
   LEGAL_TOOL_DEFINITIONS,
 } from './LegalToolExecutor.js';
 import { ragService, ChunkResult } from '../llm/RAGService.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

@@ -20,6 +20,7 @@ import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry, TestSuiteSummary, VerificationResult } from './TestEvidenceLedgerService.js';
 import { pdfGeneratorService, PDFSection } from '../document/PDFGeneratorService.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

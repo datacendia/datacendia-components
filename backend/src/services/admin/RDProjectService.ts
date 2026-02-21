@@ -8,6 +8,7 @@
 // =============================================================================
 
 import { config } from '../../config/index.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES

@@ -11,6 +11,7 @@ import { logger } from '../../utils/logger.js';
 import { Pool } from 'pg';
 import { config } from '../../config/index.js';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
