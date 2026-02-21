@@ -42,7 +42,7 @@ export interface RAGContext {
 /**
  * Call Ollama to generate embeddings
  */
-async function generateEmbedding(text: string, model: string = 'nomic-embed-text'): Promise<number[]> {
+async function generateEmbedding(text: string, model: string = 'qwen3-embedding:4b'): Promise<number[]> {
   const response = await fetch('http://127.0.0.1:11434/api/embeddings', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -164,8 +164,8 @@ function chunkText(text: string, options: ChunkOptions = {}): string[] {
 // ============================================================================
 
 export class RAGService {
-  private embeddingModel: string = 'nomic-embed-text';
-  private dimensions: number = 768;
+  private embeddingModel: string = 'qwen3-embedding:4b';
+  private dimensions: number = 2560;
 
   /**
    * Index a document for retrieval

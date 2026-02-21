@@ -285,7 +285,7 @@ class OllamaService {
    */
   async embed(text: string, model?: string): Promise<number[]> {
     const request: OllamaEmbeddingRequest = {
-      model: model || 'nomic-embed-text',
+      model: model || 'qwen3-embedding:4b',
       prompt: text,
     };
 

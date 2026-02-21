@@ -46,11 +46,11 @@ export const AI_MODELS = {
   },
 
   // THE ENGINEER (Coding Specialist)
-  // DeepSeek Coder V2 - Best at SQL, JSON, and Code
-  // Use for: Data operations, workflow execution, schema work
+  // Qwen3 Coder 30B - Purpose-built for agentic coding + tool calling
+  // Use for: Data operations, workflow execution, schema work, SQL, JSON
   coder: {
-    id: process.env['OLLAMA_MODEL_CODER'] || 'deepseek-coder-v2:latest',
-    contextWindow: 65536,
+    id: process.env['OLLAMA_MODEL_CODER'] || 'qwen3-coder:30b',
+    contextWindow: 131072,
     temp: 0.2,
     description: 'Code generation, SQL, JSON, and technical operations',
   },
@@ -86,10 +86,10 @@ export const AI_MODELS = {
   },
 
   // THE EMBED (Embedding Model)
-  // nomic-embed-text - For vector search and RAG
+  // Qwen3 Embedding 4B - Multilingual embeddings, massive upgrade from nomic 137M
   embed: {
-    id: process.env['OLLAMA_EMBED_MODEL'] || 'nomic-embed-text:latest',
-    contextWindow: 8192,
+    id: process.env['OLLAMA_EMBED_MODEL'] || 'qwen3-embedding:4b',
+    contextWindow: 32768,
     temp: 0,
     description: 'Text embeddings for search and RAG pipelines',
   },
@@ -159,7 +159,7 @@ const TASK_MODEL_MAP: Record<TaskType, ModelType> = {
   litigation_analysis: 'reasoning',
   failure_prediction: 'reasoning',
 
-  // Technical → DeepSeek Coder (deepseek-coder-v2)
+  // Technical → Qwen3 Coder (qwen3-coder:30b)
   data_query: 'coder',
   json_generation: 'coder',
   workflow_automation: 'coder',
@@ -227,7 +227,7 @@ const SERVICE_MODEL_MAP: Record<ServiceDomain, ModelType> = {
 
   // Core Services
   brand: 'flagship',              // Content creation → qwen3:32b
-  revenue: 'coder',               // Financial calculations → deepseek-coder-v2
+  revenue: 'coder',               // Financial calculations → qwen3-coder:30b
   support: 'fast',                // Quick responses → llama3.2:3b
   monitoring: 'fast',             // Status checks → llama3.2:3b
 
@@ -270,7 +270,7 @@ export const LICENSE_TIERS: Record<LicenseTier, TierCapabilities> = {
   //   - 1 primary model (qwen2.5:14b) — structured outputs, evidence
   //   - 1 reasoning backup (deepseek-r1:32b) — compliance, risk checks
   //   - 1 fast model (llama3.2:3b) — UI, quick lookups
-  //   - 1 embed model (nomic-embed-text) — search, RAG
+  //   - 1 embed model (qwen3-embedding:4b) — search, RAG
   //
   // What they DON'T see: the slot architecture routing behind it.
   pilot: {
@@ -330,7 +330,7 @@ const TIER_MODEL_OVERRIDES: Record<LicenseTier, Partial<Record<ModelType, string
   },
   enterprise: {
     // No overrides — uses AI_MODELS defaults (32B class)
-    // flagship → qwen3:32b, reasoning → deepseek-r1:32b, coder → deepseek-coder-v2, etc.
+    // flagship → qwen3:32b, reasoning → deepseek-r1:32b, coder → qwen3-coder:30b, etc.
   },
   sovereign: {
     // No overrides — uses AI_MODELS defaults (full arsenal)

@@ -116,7 +116,7 @@ router.get('/status', async (req: Request, res: Response) => {
     const requiredModels = [
       { id: 'qwen3:32b', role: 'Flagship (Chief, CMO, Strategy)' },
       { id: 'deepseek-r1:32b', role: 'Reasoning (CFO, CISO, Risk, Legal)' },
-      { id: 'deepseek-coder-v2:latest', role: 'Coder (CTO, CDO, Flow)' },
+      { id: 'qwen3-coder:30b', role: 'Coder (CTO, CDO, Flow)' },
       { id: 'llama3.2:3b', role: 'Fast (COO, Support)' },
       { id: 'llama3.3:70b', role: 'Large (Council, Executive Decisions)' },
     ];

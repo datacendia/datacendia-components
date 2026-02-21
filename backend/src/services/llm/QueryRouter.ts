@@ -153,7 +153,7 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
     priority: 1,
   },
   code: {
-    model: 'deepseek-coder-v2:latest',
+    model: 'qwen3-coder:30b',
     temperature: 0.2,
     useCoT: false,
     priority: 1,
@@ -200,7 +200,7 @@ const FALLBACK_MODELS: Record<string, string[]> = {
   'deepseek-r1:32b': ['qwen3:32b', 'qwq:32b', 'mixtral:8x22b'],
   'qwq:32b': ['deepseek-r1:32b', 'qwen3:32b', 'mixtral:8x22b'],
   'mixtral:8x22b': ['qwen3:32b', 'llama3.3:70b'],
-  'deepseek-coder-v2:latest': ['qwen3:32b', 'qwen2.5:14b'],
+  'qwen3-coder:30b': ['qwen3:32b', 'qwen2.5:14b'],
   'qwen3:32b': ['llama3.3:70b', 'mixtral:8x22b', 'qwen2.5:32b'],
   'llama3.3:70b': ['qwen3:32b', 'mixtral:8x22b'],
   'llama3.2:3b': ['qwen2.5:7b', 'qwen3:32b'],

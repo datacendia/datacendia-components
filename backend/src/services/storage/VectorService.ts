@@ -14,7 +14,7 @@ import { getErrorMessage } from '../../utils/errors.js';
 
 // Embedding dimensions (match your embedding model)
 const EMBEDDING_DIMENSIONS = {
-  OLLAMA_NOMIC: 768,        // nomic-embed-text
+  OLLAMA_NOMIC: 2560,       // qwen3-embedding:4b
   OLLAMA_MXBAI: 1024,       // mxbai-embed-large
   OPENAI_ADA: 1536,         // text-embedding-ada-002
   OPENAI_3_SMALL: 1536,     // text-embedding-3-small
@@ -88,7 +88,7 @@ class VectorService {
   /**
    * Generate embedding using Ollama (local)
    */
-  async generateEmbedding(text: string, model: string = 'nomic-embed-text'): Promise<number[]> {
+  async generateEmbedding(text: string, model: string = 'qwen3-embedding:4b'): Promise<number[]> {
     try {
       const response = await fetch(`${process.env.OLLAMA_HOST || 'http://127.0.0.1:11434'}/api/embeddings`, {
         method: 'POST',

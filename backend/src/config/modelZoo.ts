@@ -235,22 +235,22 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     jsonDiscipline: 'strict',
   },
 
-  'deepseek-coder-v2': {
-    id: 'deepseek-coder-v2',
-    name: 'DeepSeek Coder V2',
-    description: 'Best coding model - 300+ languages, state-of-the-art on coding benchmarks.',
-    contextWindow: 32768,
+  'qwen3-coder:30b': {
+    id: 'qwen3-coder:30b',
+    name: 'Qwen3 Coder 30B',
+    description: 'Purpose-built for agentic coding workflows, tool calling, and structured output.',
+    contextWindow: 131072,
     temperature: 0.1,
     topP: 0.95,
     topK: 10,
     repeatPenalty: 1.05,
     numPredict: 8192,
-    specializations: ['coding', 'sql', 'json', 'data-ops', 'automation', '300+ languages'],
-    ramRequired: '10GB+',
+    specializations: ['coding', 'sql', 'json', 'data-ops', 'automation', 'tool-calling'],
+    ramRequired: '18GB+',
     priority: 'primary',
-    vendor: 'DeepSeek',
-    license: 'DeepSeek License',
-    releaseDate: '2024-12',
+    vendor: 'Alibaba/Qwen',
+    license: 'Apache 2.0',
+    releaseDate: '2025-05',
     sovereigntyScore: 10,
     jsonDiscipline: 'strict',
   },
@@ -348,18 +348,18 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
   // TIER 5: EMBEDDING MODELS
   // =========================================================================
 
-  'nomic-embed-text': {
-    id: 'nomic-embed-text',
-    name: 'Nomic Embed Text',
-    description: 'Embedding model for RAG - 768 dimensions.',
-    contextWindow: 8192,
+  'qwen3-embedding:4b': {
+    id: 'qwen3-embedding:4b',
+    name: 'Qwen3 Embedding 4B',
+    description: 'Multilingual embedding model for RAG - 2560 dimensions.',
+    contextWindow: 32768,
     temperature: 0,
     topP: 1,
     topK: 1,
     repeatPenalty: 1,
     numPredict: 0,  // Embeddings only
-    specializations: ['embedding', 'rag', 'similarity'],
-    ramRequired: '1GB+',
+    specializations: ['embedding', 'rag', 'similarity', 'multilingual'],
+    ramRequired: '3GB+',
     priority: 'primary',
   },
 
@@ -450,7 +450,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cdo',
     agentName: 'CendiaCDO',
-    primaryModel: 'deepseek-coder-v2',  // Best at data and SQL
+    primaryModel: 'qwen3-coder:30b',  // Best at data and SQL
     fallbackModels: ['qwen3:32b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Validate data lineage. Output valid JSON/SQL when requested.',
     optimalTemperature: 0.2,
@@ -470,7 +470,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cto',
     agentName: 'CendiaCTO',
-    primaryModel: 'deepseek-coder-v2',
+    primaryModel: 'qwen3-coder:30b',
     fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Evaluate technical trade-offs. Consider scalability and debt.',
     optimalTemperature: 0.4,
@@ -500,7 +500,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cio',
     agentName: 'CendiaCIO',
-    primaryModel: 'deepseek-coder-v2',
+    primaryModel: 'qwen3-coder:30b',
     fallbackModels: ['qwen3:32b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Focus on systems integration and information architecture.',
     optimalTemperature: 0.4,
@@ -524,7 +524,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cto',
     agentName: 'CendiaCTO',
-    primaryModel: 'deepseek-coder-v2',
+    primaryModel: 'qwen3-coder:30b',
     fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Evaluate architecture decisions. Consider scalability and technical debt.',
     optimalTemperature: 0.4,
@@ -673,7 +673,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'quant',
     agentName: 'Quantitative Analyst',
     primaryModel: 'deepseek-r1:32b',  // Complex quantitative analysis
-    fallbackModels: ['deepseek-coder-v2', 'qwen3:32b'],
+    fallbackModels: ['qwen3-coder:30b', 'qwen3:32b'],
     systemPromptEnhancements: 'Use mathematical notation. Calculate VaR, Greeks, etc.',
     optimalTemperature: 0.2,
     useChainOfThought: true,  // Math needs step-by-step
@@ -887,10 +887,10 @@ export const VERTICAL_AGENT_MAPPINGS: AgentModelMapping[] = [
   { agentCode: 'mfg-supply-sync', agentName: 'SupplySync', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize inventory levels. Predict disruptions.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
 
   // TECHNOLOGY (Updated Jan 2026 for 16GB VRAM)
-  { agentCode: 'tech-site-reliability', agentName: 'SiteReliability', primaryModel: 'deepseek-coder-v2', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Monitor system health. Correlate incidents.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'tech-site-reliability', agentName: 'SiteReliability', primaryModel: 'qwen3-coder:30b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Monitor system health. Correlate incidents.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
   { agentCode: 'tech-security-fortress', agentName: 'SecurityFortress', primaryModel: 'deepseek-r1:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Detect threats. Assess vulnerabilities using NIST/ISO frameworks.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'tech-dev-velocity', agentName: 'DevVelocity', primaryModel: 'deepseek-coder-v2', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Optimize development workflows. Reduce cycle time.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'tech-data-architect', agentName: 'DataArchitect', primaryModel: 'deepseek-coder-v2', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Design scalable data architectures. Optimize queries.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'tech-dev-velocity', agentName: 'DevVelocity', primaryModel: 'qwen3-coder:30b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Optimize development workflows. Reduce cycle time.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'tech-data-architect', agentName: 'DataArchitect', primaryModel: 'qwen3-coder:30b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Design scalable data architectures. Optimize queries.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
 
   // ENERGY (Updated Jan 2026 for 16GB VRAM)
   { agentCode: 'eng-grid-balancer', agentName: 'GridBalancer', primaryModel: 'deepseek-r1:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Balance load and generation. Predict demand.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },

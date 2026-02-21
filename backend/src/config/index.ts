@@ -48,7 +48,7 @@ const configSchema = z.object({
   ollamaModel: z.string().default('qwen3:32b'),
   ollamaModelLarge: z.string().default('llama3.3:70b'),
   ollamaModelReasoning: z.string().default('deepseek-r1:32b'),
-  ollamaModelCoder: z.string().default('deepseek-coder-v2:latest'),
+  ollamaModelCoder: z.string().default('qwen3-coder:30b'),
   ollamaModelFast: z.string().default('llama3.2:3b'),
   ollamaModelVision: z.string().default('qwen3-vl:30b'),
   

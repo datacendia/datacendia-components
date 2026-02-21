@@ -166,8 +166,8 @@ describe('CendiaVector™ — VectorDB Service Tests', () => {
 
     it('should store and retrieve a vector', () => {
       const vec = [0.1, 0.2, 0.3];
-      cache.set('hello world', 'nomic-embed-text', vec);
-      const result = cache.get('hello world', 'nomic-embed-text');
+      cache.set('hello world', 'qwen3-embedding:4b', vec);
+      const result = cache.get('hello world', 'qwen3-embedding:4b');
       expect(result).toEqual(vec);
     });
 
@@ -239,8 +239,8 @@ describe('CendiaVector™ — VectorDB Service Tests', () => {
     randomTexts.forEach((text, i) => {
       it(`should store/retrieve random text #${i + 1}: "${text.substring(0, 30)}..."`, () => {
         const vec = [i * 0.01, i * 0.02];
-        cache.set(text, 'nomic-embed-text', vec);
-        expect(cache.get(text, 'nomic-embed-text')).toEqual(vec);
+        cache.set(text, 'qwen3-embedding:4b', vec);
+        expect(cache.get(text, 'qwen3-embedding:4b')).toEqual(vec);
       });
     });
 

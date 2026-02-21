@@ -63,7 +63,7 @@ const SETTINGS_DEFINITIONS: SettingCategory[] = [
       { key: 'OLLAMA_MODEL', label: 'Default Model', type: 'text', description: 'Primary model for general use', placeholder: 'qwen3:32b', category: 'ollama' },
       { key: 'OLLAMA_MODEL_LARGE', label: 'Large Model', type: 'text', description: 'Largest model for council/executive decisions', placeholder: 'llama3.3:70b', category: 'ollama' },
       { key: 'OLLAMA_MODEL_REASONING', label: 'Reasoning Model', type: 'text', description: 'Model for complex reasoning', placeholder: 'deepseek-r1:32b', category: 'ollama' },
-      { key: 'OLLAMA_MODEL_CODER', label: 'Coding Model', type: 'text', description: 'Model for code generation', placeholder: 'deepseek-coder-v2:latest', category: 'ollama' },
+      { key: 'OLLAMA_MODEL_CODER', label: 'Coding Model', type: 'text', description: 'Model for code generation', placeholder: 'qwen3-coder:30b', category: 'ollama' },
       { key: 'OLLAMA_MODEL_FAST', label: 'Fast Model', type: 'text', description: 'Model for quick responses', placeholder: 'llama3.2:3b', category: 'ollama' },
     ],
   },

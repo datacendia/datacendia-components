@@ -436,7 +436,7 @@ const AGENT_MODELS: Record<string, string> = {
   cro: 'llama3.2:3b',           // Revenue analysis - medium complexity
   cdo: 'llama3.2:3b',           // Data governance - medium complexity
   risk: 'qwen3:32b',            // Thorough risk assessment
-  cto: 'deepseek-coder-v2',     // Deep technical analysis
+  cto: 'qwen3-coder:30b',       // Deep technical analysis
   chro: 'llama3.2:3b',          // People decisions - medium complexity
   // New agents
   clo: 'qwen3:32b',             // Complex legal reasoning

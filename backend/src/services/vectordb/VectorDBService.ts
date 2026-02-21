@@ -9,7 +9,7 @@
  * 
  * Capabilities:
  * - Multi-collection management (decisions, agent_memory, evidence, documents)
- * - Automatic embedding generation via Ollama (nomic-embed-text)
+ * - Automatic embedding generation via Ollama (qwen3-embedding:4b)
  * - Batch indexing with configurable parallelism
  * - Collection lifecycle management (create, optimize, snapshot)
  * - Health monitoring and graceful degradation
@@ -93,33 +93,33 @@ export type VectorCollectionName =
 const DEFAULT_COLLECTIONS: CollectionConfig[] = [
   {
     name: 'decisions',
-    vectorSize: 768, // nomic-embed-text default dimension
+    vectorSize: 2560, // qwen3-embedding:4b default dimension
     distance: 'Cosine',
     onDiskPayload: true,
     optimizersConfig: { indexingThreshold: 20000 },
   },
   {
     name: 'agent_memory',
-    vectorSize: 768,
+    vectorSize: 2560,
     distance: 'Cosine',
     onDiskPayload: false,
   },
   {
     name: 'evidence',
-    vectorSize: 768,
+    vectorSize: 2560,
     distance: 'Cosine',
     onDiskPayload: true,
     optimizersConfig: { indexingThreshold: 50000 },
   },
   {
     name: 'documents',
-    vectorSize: 768,
+    vectorSize: 2560,
     distance: 'Cosine',
     onDiskPayload: true,
   },
   {
     name: 'deliberation_messages',
-    vectorSize: 768,
+    vectorSize: 2560,
     distance: 'Cosine',
     onDiskPayload: true,
     optimizersConfig: { indexingThreshold: 100000 },
@@ -206,7 +206,7 @@ class VectorDBService {
 
   constructor() {
     this.baseUrl = process.env['QDRANT_URL'] || 'http://localhost:6333';
-    this.embeddingModel = process.env['EMBEDDING_MODEL'] || 'nomic-embed-text';
+    this.embeddingModel = process.env['EMBEDDING_MODEL'] || 'qwen3-embedding:4b';
     this.embeddingCache = new EmbeddingCache();
   }
 

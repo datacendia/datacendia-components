@@ -5,9 +5,9 @@
 /**
  * CendiaEmbeddings - Shared Embedding Service
  * 
- * IMPLEMENTATION STATUS: REAL EMBEDDINGS via Ollama (nomic-embed-text)
+ * IMPLEMENTATION STATUS: REAL EMBEDDINGS via Ollama (qwen3-embedding:4b)
  * 
- * - Primary: Ollama nomic-embed-text (768-dim dense vectors)
+ * - Primary: Ollama qwen3-embedding:4b (2560-dim dense vectors)
  * - Fallback: Deterministic hash-based embeddings (384-dim) when Ollama unavailable
  * - Cosine similarity search built-in
  * - Singleton service shared across all verticals
@@ -22,18 +22,18 @@ import { logger } from '../../utils/logger.js';
 import { ollama } from '../ollama.js';
 import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
-export const EMBEDDING_DIM_OLLAMA = 768;
+export const EMBEDDING_DIM_OLLAMA = 2560;
 export const EMBEDDING_DIM_FALLBACK = 384;
 
 class EmbeddingService {
   private ollamaAvailable: boolean | null = null;
-  private embeddingModel: string = 'nomic-embed-text';
+  private embeddingModel: string = 'qwen3-embedding:4b';
   private cache: Map<string, number[]> = new Map();
   private maxCacheSize = 10_000;
 
   constructor() {
     // Probe Ollama availability on first use (lazy)
-    logger.info('[CendiaEmbeddings] Shared Embedding Service initialized (Ollama nomic-embed-text + hash fallback)');
+    logger.info('[CendiaEmbeddings] Shared Embedding Service initialized (Ollama qwen3-embedding:4b + hash fallback)');
 
 
     this.loadFromDB().catch(() => {});
@@ -184,7 +184,7 @@ class EmbeddingService {
       const available = await ollama.isAvailable();
       this.ollamaAvailable = available;
       if (available) {
-        logger.info('[CendiaEmbeddings] Ollama available — using real nomic-embed-text embeddings');
+        logger.info('[CendiaEmbeddings] Ollama available — using real qwen3-embedding:4b embeddings');
       } else {
         logger.warn('[CendiaEmbeddings] Ollama not available — using deterministic hash-based fallback');
       }

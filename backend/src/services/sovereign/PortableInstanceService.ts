@@ -248,7 +248,7 @@ class PortableInstanceService extends EventEmitter {
       database: true,
       redis: true,
       ollama: true,
-      models: ['llama3.2:3b', 'nomic-embed-text'],
+      models: ['llama3.2:3b', 'qwen3-embedding:4b'],
       minio: false,
       neo4j: false,
       keycloak: false,
@@ -300,7 +300,7 @@ class PortableInstanceService extends EventEmitter {
         components.sampleDataSet = 'training';
         break;
       case 'full':
-        components.models = ['qwen3:32b', 'llama3.2:3b', 'nomic-embed-text'];
+        components.models = ['qwen3:32b', 'llama3.2:3b', 'qwen3-embedding:4b'];
         components.minio = true;
         components.neo4j = true;
         targetSize = Math.max(targetSize, 64);

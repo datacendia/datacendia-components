@@ -621,7 +621,7 @@ ${params.lessonsLearned ? `Lessons Learned:\n${params.lessonsLearned.map(l => `-
     if (cached) return cached;
     
     try {
-      const embedding = await ollama.embed(text, 'nomic-embed-text');
+      const embedding = await ollama.embed(text, 'qwen3-embedding:4b');
       this.embeddingCache.set(cacheKey, embedding);
       return embedding;
     } catch (error) {

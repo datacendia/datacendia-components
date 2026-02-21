@@ -145,8 +145,8 @@ export const MODEL_CONFIGS: Record<string, ModelConfig> = {
   },
 
   // Coding — SQL, JSON, Code generation
-  'deepseek-coder-v2:latest': {
-    id: 'deepseek-coder-v2:latest',
+  'qwen3-coder:30b': {
+    id: 'qwen3-coder:30b',
     contextWindow: 65536,
     temperature: 0.1,
     topP: 0.95,
@@ -259,14 +259,14 @@ const AGENT_MODEL_PREFERENCES: Record<string, string[]> = {
   ciso: ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
   cmo: ['qwen3:32b', 'mixtral:8x22b', 'qwen2.5:32b'],
   cro: ['llama3.3:70b', 'qwen3:32b', 'qwen2.5:32b'],
-  cdo: ['deepseek-coder-v2:latest', 'qwen3:32b', 'qwen2.5:14b'],
+  cdo: ['qwen3-coder:30b', 'qwen3:32b', 'qwen2.5:14b'],
   risk: ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
-  cto: ['deepseek-coder-v2:latest', 'deepseek-r1:32b', 'qwen3:32b'],
+  cto: ['qwen3-coder:30b', 'deepseek-r1:32b', 'qwen3:32b'],
   chro: ['qwen3:32b', 'llama3.3:70b', 'qwen2.5:32b'],
   clo: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
-  cio: ['deepseek-coder-v2:latest', 'deepseek-r1:32b', 'qwen3:32b'],
+  cio: ['qwen3-coder:30b', 'deepseek-r1:32b', 'qwen3:32b'],
   // Industry agents
-  quant: ['deepseek-r1:32b', 'deepseek-coder-v2:latest', 'qwq:32b'],
+  quant: ['deepseek-r1:32b', 'qwen3-coder:30b', 'qwq:32b'],
   pm: ['qwen3:32b', 'deepseek-r1:32b', 'qwq:32b'],
   'cro-finance': ['deepseek-r1:32b', 'qwq:32b', 'qwen3:32b'],
   treasury: ['deepseek-r1:32b', 'qwen3:32b', 'qwq:32b'],
@@ -392,7 +392,7 @@ export class EnhancedLLMService {
         type: 'coding',
         complexity: this.estimateComplexity(query),
         domain: ['technology'],
-        suggestedModel: 'deepseek-coder-v2:latest',
+        suggestedModel: 'qwen3-coder:30b',
         confidence: 0.9,
       };
     }
@@ -528,7 +528,7 @@ export class EnhancedLLMService {
   /**
    * Generate embeddings using Ollama
    */
-  async generateEmbedding(text: string, model: string = 'nomic-embed-text'): Promise<number[]> {
+  async generateEmbedding(text: string, model: string = 'qwen3-embedding:4b'): Promise<number[]> {
     try {
       const response = await fetch(`${this.baseUrl}/api/embeddings`, {
         method: 'POST',

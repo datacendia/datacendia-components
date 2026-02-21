@@ -60,15 +60,15 @@ export const MODEL_REGISTRY = {
   } as ModelConfig,
 
   // THE ENGINEER (Coding Specialist)
-  // Qwen 2.5 Coder - Beats generic models at SQL, JSON, and Code
+  // Qwen3 Coder 30B - Purpose-built for agentic coding + tool calling
   // Use for Data ops and Workflow execution
   coder: {
-    id: 'deepseek-coder-v2:latest',
-    name: 'DeepSeek Coder V2',
-    contextWindow: 32768,
+    id: 'qwen3-coder:30b',
+    name: 'Qwen3 Coder 30B',
+    contextWindow: 131072,
     temperature: 0.2, // Very low temp for precision
     description: 'Code, SQL, JSON specialist',
-    size: '20GB',
+    size: '18GB',
   } as ModelConfig,
 
   // THE SPEEDSTER (UI & Operations)
@@ -86,12 +86,12 @@ export const MODEL_REGISTRY = {
   // THE EYES (Vision - Optional)
   // For The Lens to "see" charts and PDFs
   vision: {
-    id: 'llava:34b',
-    name: 'LLaVA 34B',
+    id: 'qwen3-vl:30b',
+    name: 'Qwen3-VL 30B',
     contextWindow: 16384,
     temperature: 0.5,
     description: 'Vision model for charts & documents',
-    size: '20GB',
+    size: '19GB',
   } as ModelConfig,
 
   // LEGACY MODELS (Already installed, can be used as fallbacks)
