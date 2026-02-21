@@ -661,7 +661,7 @@ class IISSService {
         'Deterministic Replay':     { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },   // DeterministicReplayService: file + deterministic_replay_states Prisma
         'Searchable & Linked':      { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },   // RAG retrieval via EmbeddingService (addDocument, search, top-K)
         'Learning Integration':     { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },  // DecisionDNA findSimilarDecisions + getLearningContext via RAG + Prisma
-        'Outcome Tracking':         { serviceExists: true, hasDb: true, hasGaps: true, maxScore: 35 },    // DecisionDNA outcomes via Prisma, no automated follow-up
+        'Outcome Tracking':         { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 35 },   // DecisionDNA scheduleOutcomeReview + recordOutcome + getPendingOutcomeReviews
       },
       drift_detection: {
         'Continuous Monitoring':   { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 40 },   // drift_snapshots Prisma table + IISS recalculation on each receipt

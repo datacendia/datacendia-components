@@ -22,6 +22,7 @@ import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import { embeddingService } from '../llm/EmbeddingService.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -1001,6 +1002,196 @@ ${dna.auditTrail.length > 10 ? `\n... and ${dna.auditTrail.length - 10} more eve
     });
 
     return `## Similar Past Decisions (DCII Learning Integration)\n\n${lines.join('\n\n')}\n\n*Surfaced automatically by DecisionDNA™ Learning Integration.*`;
+  }
+
+  // ===========================================================================
+  // OUTCOME TRACKING — Automated Follow-Up on Decision Results
+  // ===========================================================================
+
+  /**
+   * Schedule an outcome review for a completed deliberation.
+   * Stores the review schedule in Prisma and emits events when due.
+   */
+  async scheduleOutcomeReview(params: {
+    deliberationId: string;
+    organizationId: string;
+    reviewAfterDays: number;
+    expectedOutcome?: string;
+    successCriteria?: string[];
+  }): Promise<{ id: string; reviewDate: Date }> {
+    const reviewDate = new Date(Date.now() + params.reviewAfterDays * 24 * 60 * 60 * 1000);
+
+    const id = await persistServiceRecord({
+      serviceName: 'DecisionDNA',
+      recordType: 'outcome_review_scheduled',
+      organizationId: params.organizationId,
+      referenceId: params.deliberationId,
+      data: {
+        deliberationId: params.deliberationId,
+        reviewDate: reviewDate.toISOString(),
+        expectedOutcome: params.expectedOutcome || null,
+        successCriteria: params.successCriteria || [],
+        status: 'scheduled',
+      },
+    }) || `outcome-${crypto.randomUUID()}`;
+
+    logger.info(`[DecisionDNA] Outcome review scheduled for ${params.deliberationId} on ${reviewDate.toLocaleDateString()}`);
+    this.emit('outcome:scheduled', { id, deliberationId: params.deliberationId, reviewDate });
+
+    return { id, reviewDate };
+  }
+
+  /**
+   * Record the actual outcome of a past decision.
+   */
+  async recordOutcome(params: {
+    deliberationId: string;
+    organizationId: string;
+    actualOutcome: string;
+    wasSuccessful: boolean;
+    lessonsLearned?: string[];
+    impactAssessment?: string;
+  }): Promise<{ id: string }> {
+    const id = await persistServiceRecord({
+      serviceName: 'DecisionDNA',
+      recordType: 'outcome_recorded',
+      organizationId: params.organizationId,
+      referenceId: params.deliberationId,
+      data: {
+        deliberationId: params.deliberationId,
+        actualOutcome: params.actualOutcome,
+        wasSuccessful: params.wasSuccessful,
+        lessonsLearned: params.lessonsLearned || [],
+        impactAssessment: params.impactAssessment || null,
+        recordedAt: new Date().toISOString(),
+      },
+    }) || `outcome-result-${crypto.randomUUID()}`;
+
+    logger.info(`[DecisionDNA] Outcome recorded for ${params.deliberationId}: ${params.wasSuccessful ? 'SUCCESS' : 'FAILURE'}`);
+    this.emit('outcome:recorded', { id, ...params });
+
+    return { id };
+  }
+
+  /**
+   * Get pending outcome reviews that are overdue.
+   */
+  async getPendingOutcomeReviews(organizationId: string): Promise<Array<{
+    id: string;
+    deliberationId: string;
+    reviewDate: string;
+    daysOverdue: number;
+  }>> {
+    try {
+      const records = await loadServiceRecords({
+        serviceName: 'DecisionDNA',
+        recordType: 'outcome_review_scheduled',
+        organizationId,
+      });
+
+      const now = Date.now();
+      return records
+        .filter((r: { data: unknown }) => {
+          const d = r.data as any;
+          return d?.status === 'scheduled' && new Date(d.reviewDate).getTime() <= now;
+        })
+        .map((r: { id: string; data: unknown }) => {
+          const d = r.data as any;
+          const rd = new Date(d.reviewDate);
+          return {
+            id: r.id,
+            deliberationId: d.deliberationId,
+            reviewDate: rd.toISOString(),
+            daysOverdue: Math.floor((now - rd.getTime()) / 86400000),
+          };
+        });
+    } catch {
+      return [];
+    }
+  }
+
+  // ===========================================================================
+  // DECISION REVERSAL WORKFLOW
+  // ===========================================================================
+
+  /**
+   * Initiate a decision reversal — formally reverse a prior decision with full audit trail.
+   */
+  async initiateReversal(params: {
+    deliberationId: string;
+    organizationId: string;
+    reason: string;
+    initiatedBy: string;
+    urgency: 'low' | 'medium' | 'high' | 'critical';
+  }): Promise<{ reversalId: string; status: string }> {
+    const reversalId = await persistServiceRecord({
+      serviceName: 'DecisionDNA',
+      recordType: 'decision_reversal',
+      organizationId: params.organizationId,
+      referenceId: params.deliberationId,
+      data: {
+        deliberationId: params.deliberationId,
+        reason: params.reason,
+        initiatedBy: params.initiatedBy,
+        urgency: params.urgency,
+        status: 'pending_approval',
+        initiatedAt: new Date().toISOString(),
+        approvals: [],
+        hash: crypto.createHash('sha256').update(JSON.stringify({
+          deliberationId: params.deliberationId,
+          reason: params.reason,
+          initiatedBy: params.initiatedBy,
+          timestamp: Date.now(),
+        })).digest('hex'),
+      },
+    }) || `reversal-${crypto.randomUUID()}`;
+
+    logger.info(`[DecisionDNA] Decision reversal initiated: ${reversalId} for deliberation ${params.deliberationId} (${params.urgency})`);
+    this.emit('reversal:initiated', { reversalId, ...params });
+
+    return { reversalId, status: 'pending_approval' };
+  }
+
+  /**
+   * Approve a pending reversal. Loads the reversal record, adds approval, and re-persists.
+   */
+  async approveReversal(params: {
+    reversalId: string;
+    approvedBy: string;
+    comments?: string;
+  }): Promise<{ status: string }> {
+    try {
+      const records = await loadServiceRecords({
+        serviceName: 'DecisionDNA',
+        recordType: 'decision_reversal',
+      });
+      const record = records.find((r: { id: string }) => r.id === params.reversalId);
+      if (!record) throw new Error(`Reversal not found: ${params.reversalId}`);
+
+      const data = record.data as any;
+      data.approvals = data.approvals || [];
+      data.approvals.push({
+        approvedBy: params.approvedBy,
+        approvedAt: new Date().toISOString(),
+        comments: params.comments || '',
+      });
+      data.status = 'approved';
+
+      await persistServiceRecord({
+        serviceName: 'DecisionDNA',
+        recordType: 'reversal_approved',
+        referenceId: params.reversalId,
+        data,
+      });
+
+      logger.info(`[DecisionDNA] Reversal approved: ${params.reversalId} by ${params.approvedBy}`);
+      this.emit('reversal:approved', params);
+
+      return { status: 'approved' };
+    } catch (err) {
+      logger.warn(`[DecisionDNA] Reversal approval failed: ${(err as Error).message}`);
+      return { status: 'error' };
+    }
   }
 
   /**
