@@ -3,28 +3,34 @@
 // See LICENSE file for details.
 
 /**
- * CendiaPostQuantumKMS - Post-Quantum Ready Key Management
+ * CendiaPostQuantumKMS - Real Post-Quantum Key Management
  * 
- * HONEST STATUS: This service provides a PQ-ready API shape using classical
- * cryptography (HMAC-SHA512 + SHA3-256) as the underlying implementation.
+ * IMPLEMENTATION STATUS: REAL PQ CRYPTO via @noble/post-quantum
  * 
  * WHAT THIS IS:
- * - A correctly-shaped API for post-quantum key management
- * - Classical HMAC-based signing that works today
+ * - Real ML-DSA (Dilithium) signatures via NIST FIPS 204 algorithm
+ * - Real SLH-DSA (SPHINCS+) hash-based signatures via NIST FIPS 205 algorithm
  * - Key rotation, expiration, and metadata management
- * - Ready to swap in real PQ algorithms when liboqs is integrated
+ * - Pure JavaScript implementation (no native dependencies)
  * 
- * WHAT THIS IS NOT:
- * - Real Dilithium, SPHINCS+, or Falcon signatures
- * - NIST FIPS 204/205 compliant
- * - Quantum-resistant (the underlying crypto is classical)
+ * SUPPORTED ALGORITHMS:
+ * - dilithium2 → ML-DSA-44 (NIST Level 2, recommended)
+ * - dilithium3 → ML-DSA-65 (NIST Level 3)
+ * - dilithium5 → ML-DSA-87 (NIST Level 5, highest security)
+ * - sphincs-shake-128f → SLH-DSA-SHA2-128f (NIST Level 1, hash-based)
+ * - sphincs-shake-256f → SLH-DSA-SHAKE-256f (NIST Level 5, hash-based)
  * 
- * UPGRADE PATH: Install liboqs-node or oqs-provider to get real PQ crypto.
- * The API shape will not change - only the underlying algorithms.
+ * NOT YET SUPPORTED (no JS implementation available):
+ * - falcon-512/1024 (requires floating-point lattice sampling)
+ * - hybrid-rsa-dilithium (composite signatures, use separate RSA + Dilithium)
+ * 
+ * Powered by @noble/post-quantum (https://github.com/paulmillr/noble-post-quantum)
  */
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { ml_dsa44, ml_dsa65, ml_dsa87 } from '@noble/post-quantum/ml-dsa.js';
+import { slh_dsa_sha2_128f, slh_dsa_shake_256f } from '@noble/post-quantum/slh-dsa.js';
 
 // ============================================================================
 // TYPES
@@ -74,68 +80,89 @@ export interface PQVerificationResult {
 // ALGORITHM SPECIFICATIONS
 // ============================================================================
 
+// Map algorithm names to @noble/post-quantum implementations
+const PQ_ENGINES: Record<string, { keygen: () => { publicKey: Uint8Array; secretKey: Uint8Array }; sign: (msg: Uint8Array, sk: Uint8Array) => Uint8Array; verify: (sig: Uint8Array, msg: Uint8Array, pk: Uint8Array) => boolean } | null> = {
+  'dilithium2': ml_dsa44,
+  'dilithium3': ml_dsa65,
+  'dilithium5': ml_dsa87,
+  'sphincs-shake-128f': slh_dsa_sha2_128f,
+  'sphincs-shake-256f': slh_dsa_shake_256f,
+  'falcon-512': null,          // No JS implementation available
+  'falcon-1024': null,         // No JS implementation available
+  'hybrid-rsa-dilithium': null, // Composite signatures not yet supported
+};
+
 const ALGORITHM_SPECS: Record<PQAlgorithm, {
   nistLevel: 1 | 2 | 3 | 5;
   signatureSize: number;
   publicKeySize: number;
   privateKeySize: number;
   description: string;
+  realImplementation: boolean;
 }> = {
   'dilithium2': {
     nistLevel: 2,
     signatureSize: 2420,
     publicKeySize: 1312,
-    privateKeySize: 2528,
-    description: 'NIST Level 2 lattice-based signatures (recommended)',
+    privateKeySize: 2560,
+    description: 'ML-DSA-44 (NIST FIPS 204, Level 2) - REAL via @noble/post-quantum',
+    realImplementation: true,
   },
   'dilithium3': {
     nistLevel: 3,
-    signatureSize: 3293,
+    signatureSize: 3309,
     publicKeySize: 1952,
-    privateKeySize: 4000,
-    description: 'NIST Level 3 lattice-based signatures',
+    privateKeySize: 4032,
+    description: 'ML-DSA-65 (NIST FIPS 204, Level 3) - REAL via @noble/post-quantum',
+    realImplementation: true,
   },
   'dilithium5': {
     nistLevel: 5,
-    signatureSize: 4595,
+    signatureSize: 4627,
     publicKeySize: 2592,
-    privateKeySize: 4864,
-    description: 'NIST Level 5 lattice-based signatures (highest security)',
+    privateKeySize: 4896,
+    description: 'ML-DSA-87 (NIST FIPS 204, Level 5) - REAL via @noble/post-quantum',
+    realImplementation: true,
   },
   'sphincs-shake-128f': {
     nistLevel: 1,
     signatureSize: 17088,
     publicKeySize: 32,
     privateKeySize: 64,
-    description: 'Stateless hash-based signatures, fast variant',
+    description: 'SLH-DSA-SHA2-128f (NIST FIPS 205, Level 1) - REAL via @noble/post-quantum',
+    realImplementation: true,
   },
   'sphincs-shake-256f': {
     nistLevel: 5,
     signatureSize: 49856,
     publicKeySize: 64,
     privateKeySize: 128,
-    description: 'Stateless hash-based signatures, high security',
+    description: 'SLH-DSA-SHAKE-256f (NIST FIPS 205, Level 5) - REAL via @noble/post-quantum',
+    realImplementation: true,
   },
   'falcon-512': {
     nistLevel: 1,
     signatureSize: 690,
     publicKeySize: 897,
     privateKeySize: 1281,
-    description: 'Compact lattice-based signatures',
+    description: 'Falcon-512 - NOT IMPLEMENTED (requires floating-point lattice sampling)',
+    realImplementation: false,
   },
   'falcon-1024': {
     nistLevel: 5,
     signatureSize: 1330,
     publicKeySize: 1793,
     privateKeySize: 2305,
-    description: 'Compact lattice-based signatures, high security',
+    description: 'Falcon-1024 - NOT IMPLEMENTED (requires floating-point lattice sampling)',
+    realImplementation: false,
   },
   'hybrid-rsa-dilithium': {
     nistLevel: 3,
-    signatureSize: 3549, // RSA-2048 + Dilithium3
-    publicKeySize: 2208, // RSA + Dilithium
+    signatureSize: 3549,
+    publicKeySize: 2208,
     privateKeySize: 4256,
-    description: 'Hybrid RSA-2048 + Dilithium3 for transition period',
+    description: 'Hybrid RSA+Dilithium - NOT IMPLEMENTED (use separate RSA + Dilithium)',
+    realImplementation: false,
   },
 };
 
@@ -145,15 +172,16 @@ const ALGORITHM_SPECS: Record<PQAlgorithm, {
 
 export class PostQuantumKMSService {
   private keyPairs: Map<string, PQKeyPair> = new Map();
+  // Store raw Uint8Array keys for crypto operations (base64 in PQKeyPair is for serialization)
+  private rawKeys: Map<string, { publicKey: Uint8Array; secretKey: Uint8Array }> = new Map();
   private defaultAlgorithm: PQAlgorithm = 'dilithium3';
-  private hybridEnabled: boolean = true;
 
   constructor() {
-    logger.info('[CendiaQuantumKMS] Post-Quantum Ready KMS initialized (CLASSICAL CRYPTO - PQ API shape only, awaiting liboqs integration)');
+    logger.info('[CendiaQuantumKMS] Real Post-Quantum KMS initialized — ML-DSA (Dilithium) + SLH-DSA (SPHINCS+) via @noble/post-quantum');
   }
 
   /**
-   * Generate a new post-quantum key pair
+   * Generate a new post-quantum key pair using real PQ algorithms
    */
   async generateKeyPair(params: {
     algorithm?: PQAlgorithm;
@@ -165,19 +193,21 @@ export class PostQuantumKMSService {
     const expiresInDays = params.expiresInDays || 365;
 
     const spec = ALGORITHM_SPECS[algorithm];
+    const engine = PQ_ENGINES[algorithm];
     const id = `pq-${crypto.randomBytes(16).toString('hex')}`;
 
-    // HONEST: Keys are random bytes sized to match PQ algorithm specs.
-    // These are NOT real PQ keys - they are placeholders with correct sizes.
-    // Real PQ keys require liboqs: const { publicKey, privateKey } = await pqcrypto.generateKeyPair(algorithm);
-    const generatedPublicKey = crypto.randomBytes(spec.publicKeySize).toString('base64');
-    const generatedPrivateKey = crypto.randomBytes(spec.privateKeySize).toString('base64');
+    if (!engine) {
+      throw new Error(`Algorithm ${algorithm} is not implemented. Use dilithium2/3/5 or sphincs-shake-128f/256f.`);
+    }
+
+    // REAL PQ KEY GENERATION via @noble/post-quantum
+    const rawKeyPair = engine.keygen();
 
     const keyPair: PQKeyPair = {
       id,
       algorithm,
-      publicKey: generatedPublicKey,
-      privateKey: generatedPrivateKey,
+      publicKey: Buffer.from(rawKeyPair.publicKey).toString('base64'),
+      privateKey: Buffer.from(rawKeyPair.secretKey).toString('base64'),
       createdAt: new Date(),
       expiresAt: new Date(Date.now() + expiresInDays * 24 * 60 * 60 * 1000),
       strength,
@@ -185,13 +215,14 @@ export class PostQuantumKMSService {
     };
 
     this.keyPairs.set(id, keyPair);
-    logger.info(`Generated PQ key pair: ${id} (${algorithm}, NIST Level ${spec.nistLevel})`);
+    this.rawKeys.set(id, rawKeyPair);
+    logger.info(`Generated REAL PQ key pair: ${id} (${algorithm} → ${spec.description})`);
 
     return keyPair;
   }
 
   /**
-   * Sign data with post-quantum algorithm
+   * Sign data with real post-quantum algorithm (ML-DSA or SLH-DSA)
    */
   async sign(data: Buffer | string, keyId?: string): Promise<PQSignature> {
     const dataBuffer = typeof data === 'string' ? Buffer.from(data) : data;
@@ -203,40 +234,47 @@ export class PostQuantumKMSService {
       if (!found) throw new Error(`Key not found: ${keyId}`);
       keyPair = found;
     } else {
-      // Use default key or generate one
       const existing = Array.from(this.keyPairs.values()).find(k => k.expiresAt > new Date());
       keyPair = existing || await this.generateKeyPair();
     }
 
-    // Check expiration
     if (keyPair.expiresAt < new Date()) {
       throw new Error(`Key expired: ${keyPair.id}`);
     }
 
-    // HONEST: This uses HMAC-SHA512 over SHA3-256 hash - classical crypto, NOT real PQ signatures.
-    // Real PQ signing requires liboqs: const signature = await pqcrypto.sign(keyPair.privateKey, dataBuffer, algorithm);
-    const hash = crypto.createHash('sha3-256').update(dataBuffer).digest();
-    const signatureData = crypto.createHmac('sha512', keyPair.privateKey).update(hash).digest();
+    const engine = PQ_ENGINES[keyPair.algorithm];
+    if (!engine) {
+      throw new Error(`Algorithm ${keyPair.algorithm} is not implemented`);
+    }
+
+    // Get raw key bytes (restore from base64 if needed)
+    let rawKey = this.rawKeys.get(keyPair.id);
+    if (!rawKey) {
+      rawKey = {
+        publicKey: new Uint8Array(Buffer.from(keyPair.publicKey, 'base64')),
+        secretKey: new Uint8Array(Buffer.from(keyPair.privateKey, 'base64')),
+      };
+      this.rawKeys.set(keyPair.id, rawKey);
+    }
+
+    // REAL PQ SIGNING via @noble/post-quantum
+    // API: sign(message, secretKey) → Uint8Array signature
+    const msgBytes = new Uint8Array(dataBuffer);
+    const signatureBytes = engine.sign(msgBytes, rawKey.secretKey);
     
     const result: PQSignature = {
-      signature: signatureData.toString('base64'),
+      signature: Buffer.from(signatureBytes).toString('base64'),
       algorithm: keyPair.algorithm,
       keyId: keyPair.id,
       timestamp: new Date(),
     };
 
-    // HONEST: Hybrid mode also uses HMAC, not real RSA+Dilithium dual signing.
-    if (this.hybridEnabled && keyPair.algorithm === 'hybrid-rsa-dilithium') {
-      const rsaSignature = crypto.createHmac('sha256', 'rsa-key').update(hash).digest();
-      result.hybridRsaSignature = rsaSignature.toString('base64');
-    }
-
-    logger.debug(`Signed data with ${keyPair.algorithm}: ${keyPair.id}`);
+    logger.debug(`Real PQ signed data with ${keyPair.algorithm}: ${keyPair.id} (${signatureBytes.length} byte sig)`);
     return result;
   }
 
   /**
-   * Verify a post-quantum signature
+   * Verify a post-quantum signature using real PQ verification
    */
   async verify(data: Buffer | string, signature: PQSignature): Promise<PQVerificationResult> {
     const dataBuffer = typeof data === 'string' ? Buffer.from(data) : data;
@@ -251,11 +289,31 @@ export class PostQuantumKMSService {
       };
     }
 
-    // HONEST: Verification uses HMAC recomputation - classical crypto, NOT real PQ verification.
-    // Real PQ verification requires liboqs: const valid = await pqcrypto.verify(keyPair.publicKey, dataBuffer, signature.signature, algorithm);
-    const hash = crypto.createHash('sha3-256').update(dataBuffer).digest();
-    const expectedSignature = crypto.createHmac('sha512', keyPair.privateKey).update(hash).digest().toString('base64');
-    const valid = expectedSignature === signature.signature;
+    const engine = PQ_ENGINES[keyPair.algorithm];
+    if (!engine) {
+      return {
+        valid: false,
+        algorithm: signature.algorithm,
+        keyId: signature.keyId,
+        verifiedAt: new Date(),
+      };
+    }
+
+    // Get raw key bytes
+    let rawKey = this.rawKeys.get(keyPair.id);
+    if (!rawKey) {
+      rawKey = {
+        publicKey: new Uint8Array(Buffer.from(keyPair.publicKey, 'base64')),
+        secretKey: new Uint8Array(Buffer.from(keyPair.privateKey, 'base64')),
+      };
+      this.rawKeys.set(keyPair.id, rawKey);
+    }
+
+    // REAL PQ VERIFICATION via @noble/post-quantum
+    // API: verify(signature, message, publicKey) → boolean
+    const msgBytes = new Uint8Array(dataBuffer);
+    const sigBytes = new Uint8Array(Buffer.from(signature.signature, 'base64'));
+    const valid = engine.verify(sigBytes, msgBytes, rawKey.publicKey);
 
     const result: PQVerificationResult = {
       valid,
@@ -264,13 +322,7 @@ export class PostQuantumKMSService {
       verifiedAt: new Date(),
     };
 
-    // Verify hybrid RSA if present
-    if (signature.hybridRsaSignature && keyPair.algorithm === 'hybrid-rsa-dilithium') {
-      const rsaExpected = crypto.createHmac('sha256', 'rsa-key').update(hash).digest().toString('base64');
-      result.hybridValid = rsaExpected === signature.hybridRsaSignature;
-    }
-
-    logger.debug(`Verified signature with ${signature.algorithm}: ${valid}`);
+    logger.debug(`Real PQ verified signature with ${signature.algorithm}: ${valid}`);
     return result;
   }
 
@@ -335,9 +387,9 @@ export class PostQuantumKMSService {
       case 'high-security':
         return 'dilithium5';
       case 'compact':
-        return 'falcon-512';
+        return 'dilithium2'; // Falcon not yet available in JS; Dilithium2 is smallest implemented
       case 'hybrid':
-        return 'hybrid-rsa-dilithium';
+        return 'dilithium3'; // Use Dilithium3 + separate RSA signing for hybrid approach
       default:
         return 'dilithium3';
     }
@@ -348,6 +400,7 @@ export class PostQuantumKMSService {
    */
   deleteKey(keyId: string): boolean {
     const deleted = this.keyPairs.delete(keyId);
+    this.rawKeys.delete(keyId);
     if (deleted) {
       logger.info(`Deleted PQ key: ${keyId}`);
     }
