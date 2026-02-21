@@ -23,6 +23,7 @@ import {
   type ModelConfig,
   type UserModelPreferences,
 } from '../config/models.js';
+import { aiModelSelector, LICENSE_TIERS, type LicenseTier } from '../config/aiModels.js';
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
@@ -277,6 +278,64 @@ router.post('/test', async (req: Request, res: Response) => {
     });
   } catch (error: unknown) {
     res.status(500).json({
+      success: false,
+      error: getErrorMessage(error),
+    });
+  }
+});
+
+// =============================================================================
+// GET /api/v1/models/tiers - License tier capabilities and model gating
+// =============================================================================
+
+router.get('/tiers', async (req: Request, res: Response) => {
+  try {
+    const requestedTier = (req.query['tier'] as LicenseTier) || undefined;
+    const currentTier = aiModelSelector.getTier();
+    const caps = aiModelSelector.getTierCapabilities(requestedTier);
+    const visibleModels = aiModelSelector.getAllModels(requestedTier);
+
+    res.json({
+      success: true,
+      currentTier,
+      requestedTier: requestedTier || currentTier,
+      capabilities: caps,
+      visibleModels: Object.entries(visibleModels).map(([type, model]) => ({
+        type,
+        id: (model as any).id,
+        description: (model as any).description,
+      })),
+      allTiers: Object.entries(LICENSE_TIERS).map(([tier, tierCaps]) => ({
+        tier,
+        ...tierCaps,
+        modelCount: tierCaps.allowedModelTypes.length,
+      })),
+    });
+  } catch (error: unknown) {
+    res.status(500).json({
+      success: false,
+      error: getErrorMessage(error),
+    });
+  }
+});
+
+// =============================================================================
+// PUT /api/v1/models/tiers - Set license tier (admin only)
+// =============================================================================
+
+router.put('/tiers', async (req: Request, res: Response) => {
+  try {
+    const { tier } = z.object({ tier: z.enum(['pilot', 'enterprise', 'sovereign']) }).parse(req.body);
+    aiModelSelector.setTier(tier);
+
+    res.json({
+      success: true,
+      message: `License tier set to "${tier}"`,
+      tier,
+      capabilities: aiModelSelector.getTierCapabilities(),
+    });
+  } catch (error: unknown) {
+    res.status(400).json({
       success: false,
       error: getErrorMessage(error),
     });

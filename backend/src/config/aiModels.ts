@@ -237,35 +237,215 @@ const SERVICE_MODEL_MAP: Record<ServiceDomain, ModelType> = {
 };
 
 // =============================================================================
+// LICENSE TIER — MODEL GATING
+// =============================================================================
+//
+// The slot architecture runs internally. Always.
+// Tiers control which slots are active and what fills them.
+//
+// Sell simplicity. Maintain sophistication behind the curtain.
+// Models are replaceable. The evidence layer is not.
+//
+
+export type LicenseTier = 'pilot' | 'enterprise' | 'sovereign';
+
+export interface TierCapabilities {
+  allowedModelTypes: ModelType[];
+  maxModelSize: string;
+  multiModelConsensus: boolean;
+  adversarialRedTeam: boolean;
+  advancedBiasMitigation: boolean;
+  postQuantumSignatures: boolean;
+  airGapDeployment: boolean;
+  description: string;
+}
+
+export const LICENSE_TIERS: Record<LicenseTier, TierCapabilities> = {
+  // ─── TIER 1: PILOT ($50K) ─────────────────────────────────────────────
+  // 3 models + embed. Stable, deterministic, boring infrastructure.
+  // Proves the platform produces defensible evidence in their environment.
+  // No consensus, no red-teaming — single-model decision path.
+  //
+  // What the client sees:
+  //   - 1 primary model (qwen2.5:14b) — structured outputs, evidence
+  //   - 1 reasoning backup (deepseek-r1:32b) — compliance, risk checks
+  //   - 1 fast model (llama3.2:3b) — UI, quick lookups
+  //   - 1 embed model (nomic-embed-text) — search, RAG
+  //
+  // What they DON'T see: the slot architecture routing behind it.
+  pilot: {
+    allowedModelTypes: ['fast', 'flagship', 'reasoning', 'embed'],
+    maxModelSize: '14b',
+    multiModelConsensus: false,
+    adversarialRedTeam: false,
+    advancedBiasMitigation: false,
+    postQuantumSignatures: false,
+    airGapDeployment: false,
+    description: 'Deterministic evidence mode. Structured outputs. Proof of value.',
+  },
+
+  // ─── TIER 2: ENTERPRISE ($150K–$500K) ─────────────────────────────────
+  // Full 32B lineup. Multi-model consensus mode unlocked.
+  // Red-team reasoning. Advanced bias mitigation. Vision. Translation.
+  // This is where the platform starts to feel intelligent.
+  enterprise: {
+    allowedModelTypes: ['fast', 'flagship', 'reasoning', 'coder', 'vision', 'translator', 'embed'],
+    maxModelSize: '32b',
+    multiModelConsensus: true,
+    adversarialRedTeam: true,
+    advancedBiasMitigation: true,
+    postQuantumSignatures: false,
+    airGapDeployment: false,
+    description: 'Multi-model consensus. Red-team reasoning. Advanced bias mitigation.',
+  },
+
+  // ─── TIER 3: SOVEREIGN / DEFENSE ($500K+) ─────────────────────────────
+  // Everything. 70B+ deliberation engines. Air-gapped deployment.
+  // Post-quantum signature chain. Full model zoo, no restrictions.
+  sovereign: {
+    allowedModelTypes: ['fast', 'flagship', 'reasoning', 'coder', 'vision', 'translator', 'embed', 'large'],
+    maxModelSize: '70b+',
+    multiModelConsensus: true,
+    adversarialRedTeam: true,
+    advancedBiasMitigation: true,
+    postQuantumSignatures: true,
+    airGapDeployment: true,
+    description: 'Full arsenal. 70B models. Post-quantum. Air-gap capable.',
+  },
+};
+
+// =============================================================================
+// TIER MODEL OVERRIDES
+// =============================================================================
+// The slot architecture stays the same. The models filling the slots change.
+// Pilot's "flagship" is qwen2.5:14b, not qwen3:32b.
+// Enterprise's "flagship" is qwen3:32b, not llama3.3:70b.
+// Sovereign gets the real defaults from AI_MODELS (no overrides).
+
+const TIER_MODEL_OVERRIDES: Record<LicenseTier, Partial<Record<ModelType, string>>> = {
+  pilot: {
+    flagship: 'qwen2.5:14b',      // Capped at 14B — stable, deterministic
+    reasoning: 'deepseek-r1:32b',  // Allowed — this is the one specialist they get
+    fast: 'llama3.2:3b',           // Same across all tiers
+  },
+  enterprise: {
+    // No overrides — uses AI_MODELS defaults (32B class)
+    // flagship → qwen3:32b, reasoning → deepseek-r1:32b, coder → deepseek-coder-v2, etc.
+  },
+  sovereign: {
+    // No overrides — uses AI_MODELS defaults (full arsenal)
+    // Plus 'large' slot unlocked → llama3.3:70b
+  },
+};
+
+// Downgrade map: when a model type is not allowed, what to use instead
+const TIER_DOWNGRADE_MAP: Record<ModelType, ModelType> = {
+  large: 'flagship',
+  flagship: 'fast',
+  reasoning: 'flagship',
+  coder: 'flagship',
+  vision: 'flagship',
+  translator: 'flagship',
+  fast: 'fast',
+  embed: 'embed',
+};
+
+// =============================================================================
 // MODEL SELECTOR CLASS
 // =============================================================================
 
 class AIModelSelector {
+  private currentTier: LicenseTier = (process.env['DATACENDIA_LICENSE_TIER'] as LicenseTier) || 'sovereign';
+
   /**
-   * Get the optimal model for a specific task type
+   * Set the active license tier (called on org context switch)
    */
-  getModelForTask(task: TaskType): string {
-    const modelType = TASK_MODEL_MAP[task];
-    const model = AI_MODELS[modelType];
-    logger.debug(`AIModelSelector: Task "${task}" → ${model.id}`);
-    return model.id;
+  setTier(tier: LicenseTier): void {
+    this.currentTier = tier;
+    logger.info(`AIModelSelector: License tier set to "${tier}"`);
+  }
+
+  getTier(): LicenseTier {
+    return this.currentTier;
+  }
+
+  getTierCapabilities(tier?: LicenseTier): TierCapabilities {
+    return LICENSE_TIERS[tier || this.currentTier];
   }
 
   /**
-   * Get the default model for a service domain
+   * Check if a model type is allowed for the current tier
    */
-  getModelForService(service: ServiceDomain): string {
-    const modelType = SERVICE_MODEL_MAP[service];
-    const model = AI_MODELS[modelType];
-    logger.debug(`AIModelSelector: Service "${service}" → ${model.id}`);
-    return model.id;
+  isModelTypeAllowed(type: ModelType, tier?: LicenseTier): boolean {
+    const t = tier || this.currentTier;
+    return LICENSE_TIERS[t].allowedModelTypes.includes(type);
   }
 
   /**
-   * Get model by type directly
+   * Resolve model type respecting tier gating.
+   * If the requested type is above the org's tier, downgrade gracefully.
    */
-  getModel(type: ModelType): string {
-    return AI_MODELS[type].id;
+  private resolveForTier(requestedType: ModelType, tier?: LicenseTier): ModelType {
+    const t = tier || this.currentTier;
+    const caps = LICENSE_TIERS[t];
+
+    if (caps.allowedModelTypes.includes(requestedType)) {
+      return requestedType;
+    }
+
+    // Downgrade chain until we find an allowed type
+    let downgraded = TIER_DOWNGRADE_MAP[requestedType];
+    let safety = 5;
+    while (!caps.allowedModelTypes.includes(downgraded) && safety-- > 0) {
+      downgraded = TIER_DOWNGRADE_MAP[downgraded];
+    }
+
+    logger.info(`AIModelSelector: Tier "${t}" downgraded "${requestedType}" → "${downgraded}"`);
+    return downgraded;
+  }
+
+  /**
+   * Get the actual model ID for a resolved slot, applying tier overrides.
+   * Pilot's "flagship" → qwen2.5:14b (not qwen3:32b).
+   * Enterprise/Sovereign → AI_MODELS defaults.
+   */
+  private resolveModelId(resolvedType: ModelType, tier?: LicenseTier): string {
+    const t = tier || this.currentTier;
+    const overrides = TIER_MODEL_OVERRIDES[t];
+    if (overrides && overrides[resolvedType]) {
+      return overrides[resolvedType]!;
+    }
+    return AI_MODELS[resolvedType].id;
+  }
+
+  /**
+   * Get the optimal model for a specific task type (tier-gated)
+   */
+  getModelForTask(task: TaskType, tier?: LicenseTier): string {
+    const requestedType = TASK_MODEL_MAP[task];
+    const resolvedType = this.resolveForTier(requestedType, tier);
+    const modelId = this.resolveModelId(resolvedType, tier);
+    logger.debug(`AIModelSelector: Task "${task}" → ${modelId} (slot: ${resolvedType}, tier: ${tier || this.currentTier})`);
+    return modelId;
+  }
+
+  /**
+   * Get the default model for a service domain (tier-gated)
+   */
+  getModelForService(service: ServiceDomain, tier?: LicenseTier): string {
+    const requestedType = SERVICE_MODEL_MAP[service];
+    const resolvedType = this.resolveForTier(requestedType, tier);
+    const modelId = this.resolveModelId(resolvedType, tier);
+    logger.debug(`AIModelSelector: Service "${service}" → ${modelId} (slot: ${resolvedType}, tier: ${tier || this.currentTier})`);
+    return modelId;
+  }
+
+  /**
+   * Get model by type directly (tier-gated)
+   */
+  getModel(type: ModelType, tier?: LicenseTier): string {
+    const resolved = this.resolveForTier(type, tier);
+    return this.resolveModelId(resolved, tier);
   }
 
   /**
@@ -284,10 +464,35 @@ class AIModelSelector {
   }
 
   /**
-   * Get all available models
+   * Get all models visible to the current tier
    */
-  getAllModels(): typeof AI_MODELS {
-    return AI_MODELS;
+  getAllModels(tier?: LicenseTier): Partial<typeof AI_MODELS> {
+    const t = tier || this.currentTier;
+    const caps = LICENSE_TIERS[t];
+    const overrides = TIER_MODEL_OVERRIDES[t];
+    const visible: Partial<typeof AI_MODELS> = {};
+    for (const type of caps.allowedModelTypes) {
+      const base = AI_MODELS[type];
+      const overriddenId = overrides?.[type];
+      (visible as any)[type] = overriddenId
+        ? { ...base, id: overriddenId }
+        : base;
+    }
+    return visible;
+  }
+
+  /**
+   * Check if multi-model consensus is allowed
+   */
+  isConsensusAllowed(tier?: LicenseTier): boolean {
+    return LICENSE_TIERS[tier || this.currentTier].multiModelConsensus;
+  }
+
+  /**
+   * Check if adversarial red-team mode is allowed
+   */
+  isRedTeamAllowed(tier?: LicenseTier): boolean {
+    return LICENSE_TIERS[tier || this.currentTier].adversarialRedTeam;
   }
 
   /**
@@ -308,7 +513,14 @@ class AIModelSelector {
    * Get fallback model if primary is unavailable
    */
   getFallbackModel(): string {
-    return AI_MODELS.fast.id; // Always fallback to fast model
+    return AI_MODELS.fast.id;
+  }
+
+  /**
+   * Get tier comparison for upsell display
+   */
+  getTierComparison(): Record<LicenseTier, TierCapabilities> {
+    return LICENSE_TIERS;
   }
 }
 
