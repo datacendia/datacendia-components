@@ -13,6 +13,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../../../utils/servicePersistence.js';
 
 // ============================================================================
 // LAYER 1: DATA CONNECTOR
@@ -498,6 +499,7 @@ export class VerticalRegistry {
 
   register<T extends BaseDecision>(vertical: VerticalImplementation<T>): void {
     this.verticals.set(vertical.verticalId, vertical as VerticalImplementation<BaseDecision>);
+    persistServiceRecord({ serviceName: 'VerticalRegistry', recordType: 'vertical_registered', referenceId: vertical.verticalId, data: { verticalId: vertical.verticalId, registeredAt: new Date() } });
   }
 
   get(verticalId: string): VerticalImplementation<BaseDecision> | undefined {

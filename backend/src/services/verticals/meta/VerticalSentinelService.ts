@@ -20,6 +20,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../../../utils/servicePersistence.js';
 
 // ============================================================================
 // TYPES
@@ -583,6 +584,7 @@ export class VerticalSentinelAgent {
 
     report.hash = crypto.createHash('sha256').update(JSON.stringify(report)).digest('hex');
     this.reports.set(report.id, report);
+    persistServiceRecord({ serviceName: 'VerticalSentinel', recordType: 'risk_delta_report', referenceId: report.id, data: { id: report.id, verticalId: report.verticalId, createdAt: new Date() } });
 
     return report;
   }

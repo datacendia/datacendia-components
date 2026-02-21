@@ -251,13 +251,13 @@ For a service to be client-ready, it must have:
 | Dimension | Score | Notes |
 |-----------|-------|-------|
 | **Core Decision Pipeline** | 9/10 | Council → Deliberation → Decision → Evidence → PDF + override events + drift analysis in receipts |
-| **Cryptography (Classical)** | 8/10 | RSA, AES-256-GCM, SHA-256, Merkle trees are all real |
+| **Cryptography (Classical)** | 9/10 | RSA, AES-256-GCM, SHA-256, Merkle trees real + key lifecycle (auditKeyHealth, autoRotate, fingerprint) |
 | **Cryptography (Post-Quantum)** | 9/10 | REAL ML-DSA (Dilithium) + SLH-DSA (SPHINCS+) via @noble/post-quantum. FIPS 204/205 draft labeled. Falcon N/A (no JS impl). |
 | **Database Persistence** | 9/10 | ~110 services use Prisma/persistence (generic service_records table + dedicated tables). Legal, SGAS, Verticals, sovereign all wired. |
 | **DCII Framework** | 9/10 | All 9 primitives scored; Learning Integration via DecisionDNA findSimilarDecisions + RAG. All primitives DB-backed. |
 | **Sovereign Architecture** | 9/10 | All 11 patterns have persistence incl. PortableInstance + QRAirGapBridge. DataDiode 4-layer security. Learning Integration. |
 | **Zero-Knowledge Proofs** | 9/10 | Dual system: Schnorr sigma + Groth16 circuits. Proof export for external verifiers. FIPS compliance labeled. 59 tests. |
-| **Verticals** | 6/10 | 29 verticals with real compliance logic; shared EmbeddingService with RAG retrieval pipeline (addDocument, search, top-K) |
+| **Verticals** | 7.5/10 | 29 verticals with real compliance logic; Healthcare+Energy+Sports+Legal all DB-backed; VerticalSentinel risk reports persisted; RAG pipeline |
 | **Enterprise Features** | 9/10 | All 14 enterprise services DB-backed; Crucible/RedTeam real; CollapseOrchestrator persisted; Compliance engines persisted; ZKP dual system |
 | **Overall Client Readiness** | **9/10** | ~110 services with persistence, real PQ+ZK crypto, DCII Learning Integration, all enterprise+sovereign DB-backed, 59 tests |
 

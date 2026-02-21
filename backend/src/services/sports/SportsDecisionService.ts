@@ -26,6 +26,7 @@ import {
 } from '../../config/sports/compliance-frameworks.js';
 import { cendiaAuditService, AuditEventType } from '../CendiaAuditService.js';
 import crypto from 'crypto';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -404,6 +405,7 @@ export class SportsDecisionService extends BaseService {
 
     this.transferDecisions.set(id, decision);
     this.updateOrgIndex(params.organizationId, 'transfers', id);
+    persistServiceRecord({ serviceName: 'SportsDecision', recordType: 'transfer_decision', organizationId: params.organizationId, referenceId: id, data: { id, player: params.player.name, type: 'transfer', createdAt: new Date() } });
 
     this.logger.info(`Created transfer decision: ${id} for ${params.player.name}`);
     this.incrementCounter('sports_transfer_decisions_created', 1);
