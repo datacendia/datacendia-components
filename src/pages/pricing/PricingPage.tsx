@@ -178,7 +178,7 @@ const tiers: Tier[] = [
       'STRESS-TEST — CendiaCrucible™, Red Team, War Games',
       'COMPLY — 10 frameworks, 17 jurisdictions, CendiaInsure™',
       'GOVERN — Policy Engine, Protected Dissent, CendiaCourt™',
-      'SOVEREIGN — 21 patterns, Post-Quantum KMS, Air-Gap',
+      'SOVEREIGN — 11 architectural patterns, Post-Quantum KMS, Air-Gap',
       'OPERATE — 19 department co-pilots, CendiaOmniTranslate™',
       'SSO, CAC/PIV auth & dedicated success manager',
       'Unlimited deliberations & up to 500 users',

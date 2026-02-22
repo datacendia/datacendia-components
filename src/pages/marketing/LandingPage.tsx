@@ -24,6 +24,12 @@ import {
   MessageSquare,
   BarChart3,
   Play,
+  FileText,
+  Monitor,
+  Cpu,
+  Layers,
+  Briefcase,
+  Bot,
 } from 'lucide-react';
 
 const LandingPage = () => {
@@ -414,6 +420,310 @@ const LandingPage = () => {
               <div className="absolute -bottom-6 -right-6 bg-slate-800 border border-slate-700 p-4 rounded-lg shadow-xl flex items-center gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
                 <span className="font-mono text-xs text-slate-300">8 AGENTS ONLINE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Platform in Action — Product Screenshots / Demo Mockups */}
+      <section className="py-24 bg-slate-950 border-t border-white/5 relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-purple-900/5 to-transparent" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur mb-4">
+              <Monitor size={12} className="text-amber-400" />
+              <span className="text-xs font-mono text-amber-200 uppercase tracking-widest">
+                Platform in Action
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+              See the Platform. Not Just the Promise.
+            </h2>
+            <p className="text-slate-400 max-w-2xl mx-auto">
+              Regulated industries need proof before commitment. Here's what your team will actually use.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* DCII Dashboard */}
+            <div className="group bg-black border border-white/10 hover:border-amber-500/40 rounded-xl overflow-hidden transition-all">
+              <div className="bg-slate-900 p-3 border-b border-white/10 flex items-center gap-2">
+                <div className="flex gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-red-500/30" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/30" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-green-500/30" />
+                </div>
+                <span className="text-[10px] font-mono text-slate-500 ml-2">DCII Dashboard</span>
+              </div>
+              <div className="p-5 space-y-3">
+                <div className="flex gap-1 mb-3">
+                  {['IISS', 'Media Auth', 'Jurisdiction', 'Timestamps', 'Similarity', 'Bias'].map((tab) => (
+                    <span key={tab} className="px-2 py-1 text-[9px] font-mono rounded bg-slate-800 text-slate-400 border border-slate-700">
+                      {tab}
+                    </span>
+                  ))}
+                </div>
+                <div className="bg-slate-800/50 rounded p-3 border border-slate-700/50">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-[10px] font-mono text-amber-400">IISS SCORE</span>
+                    <span className="text-lg font-bold text-white font-mono">847</span>
+                  </div>
+                  <div className="w-full bg-slate-700 rounded-full h-2">
+                    <div className="bg-gradient-to-r from-amber-500 to-green-500 h-2 rounded-full" style={{ width: '84.7%' }} />
+                  </div>
+                  <div className="flex justify-between mt-1">
+                    <span className="text-[9px] text-slate-500">0</span>
+                    <span className="text-[9px] text-green-400">Excellent</span>
+                    <span className="text-[9px] text-slate-500">1000</span>
+                  </div>
+                </div>
+                <div className="grid grid-cols-3 gap-2">
+                  {[
+                    { label: 'Primitives', val: '9/9' },
+                    { label: 'Evidence', val: '142' },
+                    { label: 'Compliance', val: '100%' },
+                  ].map((m) => (
+                    <div key={m.label} className="bg-slate-800/30 rounded p-2 text-center border border-slate-700/30">
+                      <div className="text-xs font-bold text-white font-mono">{m.val}</div>
+                      <div className="text-[9px] text-slate-500">{m.label}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="px-5 pb-5">
+                <h3 className="text-base font-bold text-white mb-1">DCII Dashboard</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  6-tab governance dashboard with IISS scoring, media authentication, jurisdiction mapping, and cognitive bias detection — all backed by real services.
+                </p>
+                <Link to="/cortex/dcii" className="text-xs text-amber-500 hover:text-amber-400 mt-2 inline-block font-mono">
+                  EXPLORE DCII →
+                </Link>
+              </div>
+            </div>
+
+            {/* Mission Control */}
+            <div className="group bg-black border border-white/10 hover:border-blue-500/40 rounded-xl overflow-hidden transition-all">
+              <div className="bg-slate-900 p-3 border-b border-white/10 flex items-center gap-2">
+                <div className="flex gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-red-500/30" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/30" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-green-500/30" />
+                </div>
+                <span className="text-[10px] font-mono text-slate-500 ml-2">Mission Control</span>
+              </div>
+              <div className="p-5 space-y-3">
+                <div className="grid grid-cols-2 gap-2">
+                  {[
+                    { label: 'Services Online', val: '47/47', color: 'text-green-400' },
+                    { label: 'Active Users', val: '1,284', color: 'text-blue-400' },
+                    { label: 'Decisions/hr', val: '342', color: 'text-amber-400' },
+                    { label: 'Uptime', val: '99.97%', color: 'text-emerald-400' },
+                  ].map((m) => (
+                    <div key={m.label} className="bg-slate-800/50 rounded p-2 border border-slate-700/50">
+                      <div className={`text-sm font-bold font-mono ${m.color}`}>{m.val}</div>
+                      <div className="text-[9px] text-slate-500">{m.label}</div>
+                    </div>
+                  ))}
+                </div>
+                <div className="bg-slate-800/30 rounded p-3 border border-slate-700/30">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                    <span className="text-[10px] font-mono text-slate-400">LIVE FEED</span>
+                  </div>
+                  {[
+                    { time: '14:32:01', msg: 'Council session STRAT_047 completed' },
+                    { time: '14:31:45', msg: 'IISS score recalculated: 847 → 852' },
+                    { time: '14:31:12', msg: 'Regulator receipt generated: RC-2847' },
+                  ].map((e, i) => (
+                    <div key={i} className="flex gap-2 text-[10px] py-0.5">
+                      <span className="text-slate-600 font-mono">{e.time}</span>
+                      <span className="text-slate-400">{e.msg}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="px-5 pb-5">
+                <h3 className="text-base font-bold text-white mb-1">Mission Control</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Real-time operational dashboard — 47 services, live event feeds, health metrics, and service topology. Your single pane of glass.
+                </p>
+                <Link to="/cortex/mission-control" className="text-xs text-blue-400 hover:text-blue-300 mt-2 inline-block font-mono">
+                  VIEW MISSION CONTROL →
+                </Link>
+              </div>
+            </div>
+
+            {/* Regulator's Receipt */}
+            <div className="group bg-black border border-white/10 hover:border-emerald-500/40 rounded-xl overflow-hidden transition-all">
+              <div className="bg-slate-900 p-3 border-b border-white/10 flex items-center gap-2">
+                <div className="flex gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-red-500/30" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/30" />
+                  <div className="w-2.5 h-2.5 rounded-full bg-green-500/30" />
+                </div>
+                <span className="text-[10px] font-mono text-slate-500 ml-2">Regulator's Receipt</span>
+              </div>
+              <div className="p-5 space-y-3">
+                <div className="bg-slate-800/50 rounded p-3 border border-emerald-900/30">
+                  <div className="flex items-center gap-2 mb-3">
+                    <FileText size={14} className="text-emerald-400" />
+                    <span className="text-[10px] font-mono text-emerald-400">COURT-ADMISSIBLE PDF</span>
+                  </div>
+                  <div className="space-y-2 text-[10px]">
+                    {[
+                      { label: 'Merkle Root', val: '0x7f3a...c829' },
+                      { label: 'IISS Score', val: '847 / 1000' },
+                      { label: 'Compliance', val: 'SOX, GDPR, ISO 27001' },
+                      { label: 'Digital Sig', val: 'SHA-256 + Timestamp' },
+                      { label: 'Evidence Chain', val: '14 linked artifacts' },
+                    ].map((r) => (
+                      <div key={r.label} className="flex justify-between">
+                        <span className="text-slate-500">{r.label}</span>
+                        <span className="text-white font-mono">{r.val}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 px-1">
+                  <Shield size={12} className="text-emerald-500" />
+                  <span className="text-[10px] text-emerald-400">Tamper-proof evidence chain</span>
+                </div>
+              </div>
+              <div className="px-5 pb-5">
+                <h3 className="text-base font-bold text-white mb-1">Regulator's Receipt</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  1-click court-admissible PDFs with Merkle trees, IISS scores, digital signatures, compliance mappings, and full evidence chains.
+                </p>
+                <Link to="/cortex/dcii" className="text-xs text-emerald-400 hover:text-emerald-300 mt-2 inline-block font-mono">
+                  SEE THE RECEIPT →
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <button
+              onClick={() => navigate('/demo')}
+              className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 rounded hover:bg-white/5 text-sm text-white transition-all"
+            >
+              <Play size={16} /> Request a Live Walkthrough
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Datacendia — Hidden Differentiators */}
+      <section className="py-24 bg-black relative border-t border-white/5">
+        <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-blue-900/5 to-transparent" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+              What No Other Platform Can Do
+            </h2>
+            <p className="text-slate-400 max-w-2xl mx-auto">
+              These aren't features on a roadmap. They're shipping today.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Multi-Model Architecture */}
+            <div className="group p-6 bg-slate-900/50 border border-white/10 hover:border-purple-500/40 rounded-xl transition-all">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-purple-900/20 border border-purple-500/30 flex items-center justify-center flex-shrink-0">
+                  <Cpu size={24} className="text-purple-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white mb-2">8-Slot Multi-Model Architecture</h3>
+                  <p className="text-sm text-slate-400 leading-relaxed mb-3">
+                    Not one generic LLM — 8 purpose-built AI models working in concert. Dedicated reasoning,
+                    coding, vision, embedding, guard, and creative models, each selected for its task.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['Reasoning', 'Coder', 'Vision', 'Embedding', 'Guard', 'Creative', 'Fast', 'Specialist'].map((slot) => (
+                      <span key={slot} className="px-2 py-0.5 text-[10px] font-mono bg-purple-900/20 text-purple-300 border border-purple-800/30 rounded">
+                        {slot}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* CendiaOps — 19 Department Co-Pilots */}
+            <div className="group p-6 bg-slate-900/50 border border-white/10 hover:border-blue-500/40 rounded-xl transition-all">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-blue-900/20 border border-blue-500/30 flex items-center justify-center flex-shrink-0">
+                  <Bot size={24} className="text-blue-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white mb-2">CendiaOps — 19 Department Co-Pilots</h3>
+                  <p className="text-sm text-slate-400 leading-relaxed mb-3">
+                    Every department gets a purpose-built AI co-pilot: Finance, Legal, HR, Procurement, IT,
+                    Marketing, Sales, and 12 more. Each understands your org's context and governance rules.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['Finance', 'Legal', 'HR', 'IT', 'Procurement', 'Sales', 'Marketing', '+12 more'].map((dept) => (
+                      <span key={dept} className="px-2 py-0.5 text-[10px] font-mono bg-blue-900/20 text-blue-300 border border-blue-800/30 rounded">
+                        {dept}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Tiered Licensing */}
+            <div className="group p-6 bg-slate-900/50 border border-white/10 hover:border-amber-500/40 rounded-xl transition-all">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-amber-900/20 border border-amber-500/30 flex items-center justify-center flex-shrink-0">
+                  <Layers size={24} className="text-amber-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white mb-2">Tiered License Gating</h3>
+                  <p className="text-sm text-slate-400 leading-relaxed mb-3">
+                    Start with a $50K pilot. Unlock capabilities as you grow. Automatic model access control
+                    with graceful downgrade — no vendor lock-in, no surprise bills.
+                  </p>
+                  <div className="flex gap-3 items-center">
+                    {[
+                      { tier: 'Pilot', color: 'border-slate-600 text-slate-400' },
+                      { tier: 'Foundation', color: 'border-white/30 text-white' },
+                      { tier: 'Enterprise', color: 'border-amber-500/50 text-amber-300' },
+                      { tier: 'Sovereign', color: 'border-red-500/50 text-red-300' },
+                    ].map((t, i) => (
+                      <div key={t.tier} className="flex items-center gap-1">
+                        {i > 0 && <ArrowRight size={10} className="text-slate-600" />}
+                        <span className={`px-2 py-0.5 text-[10px] font-mono border rounded ${t.color}`}>
+                          {t.tier}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 11 Sovereign Patterns */}
+            <div className="group p-6 bg-slate-900/50 border border-white/10 hover:border-red-500/40 rounded-xl transition-all">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-red-900/20 border border-red-500/30 flex items-center justify-center flex-shrink-0">
+                  <Lock size={24} className="text-red-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-white mb-2">11 Sovereign Architectural Patterns</h3>
+                  <p className="text-sm text-slate-400 leading-relaxed mb-3">
+                    Air-gapped, on-premise, federated mesh, data diode ingest, local RLHF, TPM attestation,
+                    and post-quantum KMS. Your data never touches our infrastructure.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {['Air-Gap', 'On-Prem', 'Federated Mesh', 'Data Diode', 'Local RLHF', 'TPM'].map((p) => (
+                      <span key={p} className="px-2 py-0.5 text-[10px] font-mono bg-red-900/20 text-red-300 border border-red-800/30 rounded">
+                        {p}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

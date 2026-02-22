@@ -12,7 +12,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { api } from '@/lib/api/client';
 
 // Floating particles background
 const ParticleField: React.FC = () => {
@@ -191,24 +193,23 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
   isOpen,
   onClose,
 }) => {
+  const [formspreeState, formspreeSubmit] = useForm('xvzbvpev');
   const [formData, setFormData] = useState({
     name: '',
     title: '',
     organization: '',
     concern: '',
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    // Primary: Formspree (email notification via @formspree/react)
+    await formspreeSubmit(e);
 
-    // Simulate submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+    // Secondary: Backend (database persistence)
+    api.post('/api/v1/marketing-leads', {
+      ...formData,
+      source: 'sovereign_landing',
+    }).catch((err) => console.error('[SovereignLanding] Backend failed:', err));
   };
 
   if (!isOpen) {return null;}
@@ -223,7 +224,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
           CLOSE
         </button>
 
-        {isSubmitted ? (
+        {formspreeState.succeeded ? (
           <div className="text-center py-16">
             <div className="w-16 h-16 border border-red-900/50 rounded-full flex items-center justify-center mx-auto mb-8">
               <div className="w-3 h-3 bg-red-900 rounded-full" />
@@ -236,38 +237,47 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-6">
+            <input type="hidden" name="_subject" value={`Sovereign Access Request: ${formData.organization}`} />
+            <input type="hidden" name="source" value="sovereign_landing" />
             <div>
               <input
                 type="text"
+                name="name"
                 placeholder="Full Name"
                 required
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 className="w-full bg-transparent border-b border-gray-800 focus:border-red-900/50 text-white py-4 px-0 text-lg outline-none transition-colors placeholder:text-gray-600"
               />
+              <ValidationError prefix="Name" field="name" errors={formspreeState.errors} className="text-red-500 text-xs mt-1" />
             </div>
             <div>
               <input
                 type="text"
+                name="title"
                 placeholder="Title"
                 required
                 value={formData.title}
                 onChange={(e) => setFormData({ ...formData, title: e.target.value })}
                 className="w-full bg-transparent border-b border-gray-800 focus:border-red-900/50 text-white py-4 px-0 text-lg outline-none transition-colors placeholder:text-gray-600"
               />
+              <ValidationError prefix="Title" field="title" errors={formspreeState.errors} className="text-red-500 text-xs mt-1" />
             </div>
             <div>
               <input
                 type="text"
+                name="organization"
                 placeholder="Organization"
                 required
                 value={formData.organization}
                 onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
                 className="w-full bg-transparent border-b border-gray-800 focus:border-red-900/50 text-white py-4 px-0 text-lg outline-none transition-colors placeholder:text-gray-600"
               />
+              <ValidationError prefix="Organization" field="organization" errors={formspreeState.errors} className="text-red-500 text-xs mt-1" />
             </div>
             <div>
               <textarea
+                name="message"
                 placeholder="What keeps you up at night?"
                 required
                 rows={3}
@@ -275,14 +285,15 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
                 onChange={(e) => setFormData({ ...formData, concern: e.target.value })}
                 className="w-full bg-transparent border-b border-gray-800 focus:border-red-900/50 text-white py-4 px-0 text-lg outline-none transition-colors placeholder:text-gray-600 resize-none"
               />
+              <ValidationError prefix="Message" field="message" errors={formspreeState.errors} className="text-red-500 text-xs mt-1" />
             </div>
             <div className="pt-8">
               <button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={formspreeState.submitting}
                 className="w-full py-4 border border-red-900/50 text-white hover:bg-red-900/10 transition-colors text-sm tracking-widest disabled:opacity-50"
               >
-                {isSubmitting ? 'SUBMITTING...' : 'SUBMIT REQUEST'}
+                {formspreeState.submitting ? 'SUBMITTING...' : 'SUBMIT REQUEST'}
               </button>
             </div>
           </form>

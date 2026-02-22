@@ -209,7 +209,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     tier: 'enterprise',
     pillar: 'sovereign',
     features: [
-      '21 Sovereign Patterns (Data Diode, Shadow Council, etc.)',
+      '11 Sovereign Architectural Patterns (Data Diode, Shadow Council, etc.)',
       'Post-Quantum KMS (Dilithium, SPHINCS+, Falcon)',
       'CendiaBlackBox™ — sealed decision recording',
       'Federated Mesh — multi-org without sharing data',

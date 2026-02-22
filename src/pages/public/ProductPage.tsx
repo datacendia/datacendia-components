@@ -264,12 +264,12 @@ const products = [
 ];
 
 const integrations = [
-  { name: 'PostgreSQL', icon: '🐘', category: 'Database' },
-  { name: 'MySQL', icon: '🐬', category: 'Database' },
-  { name: 'MongoDB', icon: '🍃', category: 'Database' },
-  { name: 'Oracle', icon: '🔴', category: 'Database' },
-  { name: 'SQL Server', icon: '🔷', category: 'Database' },
-  { name: 'IBM DB2', icon: '🔵', category: 'Database' },
+  { name: 'PostgreSQL', icon: '🐘', category: 'Native' },
+  { name: 'MySQL', icon: '🐬', category: 'Native' },
+  { name: 'SQL Server', icon: '🔷', category: 'Native' },
+  { name: 'MongoDB', icon: '🍃', category: 'Via Adapter' },
+  { name: 'Oracle', icon: '�', category: 'Via Adapter' },
+  { name: 'IBM DB2', icon: '🔵', category: 'Via Adapter' },
   { name: 'Snowflake', icon: '❄️', category: 'Data Warehouse' },
   { name: 'Salesforce', icon: '☁️', category: 'CRM' },
   { name: 'SAP', icon: '🔒', category: 'ERP' },
@@ -526,10 +526,10 @@ export const ProductPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <p className="text-xs tracking-[0.3em] text-gray-600 uppercase mb-4">
-              ZERO-COPY ARCHITECTURE
+              5 UNIVERSAL ADAPTERS
             </p>
-            <h2 className="text-2xl font-light text-white mb-4">Connect to Any Database</h2>
-            <p className="text-gray-500">Data never has to leave your infrastructure.</p>
+            <h2 className="text-2xl font-light text-white mb-4">Connect to Your Existing Databases</h2>
+            <p className="text-gray-500">File Watcher, Webhook, Database, Protocol & REST adapters. Data never leaves your infrastructure.</p>
           </div>
 
           <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
@@ -546,7 +546,7 @@ export const ProductPage: React.FC = () => {
           </div>
 
           <p className="text-center text-gray-600 mt-8 text-sm">
-            + Client-hosted, hybrid sync, and zero-copy modes available
+            Native drivers for PostgreSQL, MySQL & SQL Server. Other databases supported via universal adapters.
           </p>
         </div>
       </section>
