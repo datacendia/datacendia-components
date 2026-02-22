@@ -215,50 +215,68 @@ export class FlowService extends BaseService {
   }
 
   private async runWorkflowSteps(execution: WorkflowExecution, workflow: Workflow): Promise<void> {
-    const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+    const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+    const context: Record<string, unknown> = { ...(execution.input || {}) };
 
     for (const stepResult of execution.stepResults) {
+      if (stepResult.status === 'success' || stepResult.status === 'skipped') continue;
+
       stepResult.status = 'running';
       stepResult.startedAt = new Date();
       this.executionsStore.set(execution.id, execution);
 
-      await delay(500);
-
       const step = workflow.steps.find(s => s.id === stepResult.stepId);
-      
-      // Check for approval step
-      if (step?.type === 'approval') {
-        execution.status = 'awaiting_approval';
-        stepResult.status = 'pending';
-        
-        const approval: PendingApproval = {
-          id: `approval-${Date.now()}`,
-          executionId: execution.id,
-          workflowName: workflow.name,
-          stepName: stepResult.stepName,
-          requestedBy: execution.triggeredBy,
-          requestedAt: new Date(),
-          approvers: (step.config.approvers as string[]) || ['admin'],
-          status: 'pending',
-        };
-        this.approvalsStore.set(approval.id, approval);
-        this.executionsStore.set(execution.id, execution);
-        return; // Wait for approval
+      if (!step) {
+        stepResult.status = 'failed';
+        stepResult.error = 'Step definition not found';
+        stepResult.completedAt = new Date();
+        continue;
       }
 
-      // Execute step (deterministic success evaluation)
-      if (true) { // Step execution via workflow engine
-        stepResult.status = 'success';
+      try {
+        const output = await this.executeStep(step, context, execution, workflow);
+        
+        if (output === '__AWAITING_APPROVAL__') {
+          return; // Paused for approval
+        }
+
+        stepResult.status = output === '__SKIPPED__' ? 'skipped' : 'success';
         stepResult.completedAt = new Date();
-        stepResult.output = { success: true };
-      } else {
+        stepResult.output = output;
+
+        // Store step output in context for downstream steps
+        if (output && typeof output === 'object') {
+          context[step.id] = output;
+        }
+      } catch (err: unknown) {
         stepResult.status = 'failed';
         stepResult.completedAt = new Date();
-        stepResult.error = 'Simulated failure';
+        stepResult.error = err instanceof Error ? err.message : String(err);
+
+        // Handle error policy
+        if (step.onError === 'continue') {
+          continue;
+        } else if (step.onError === 'retry' && (step.retryCount || 0) > 0) {
+          let retried = false;
+          for (let attempt = 1; attempt <= (step.retryCount || 1); attempt++) {
+            await sleep(1000 * attempt); // Exponential backoff
+            try {
+              const retryOutput = await this.executeStep(step, context, execution, workflow);
+              stepResult.status = 'success';
+              stepResult.output = retryOutput;
+              stepResult.error = undefined;
+              retried = true;
+              break;
+            } catch { /* retry next */ }
+          }
+          if (retried) continue;
+        }
+
+        // Default: stop
         execution.status = 'failed';
-        execution.error = `Step ${stepResult.stepName} failed`;
+        execution.error = `Step "${stepResult.stepName}" failed: ${stepResult.error}`;
         execution.completedAt = new Date();
-        execution.duration = (execution.completedAt!.getTime() - execution.startedAt.getTime()) / 1000;
+        execution.duration = (execution.completedAt.getTime() - execution.startedAt.getTime()) / 1000;
         this.executionsStore.set(execution.id, execution);
         this.updateWorkflowStats(workflow);
         return;
@@ -270,9 +288,268 @@ export class FlowService extends BaseService {
     execution.status = 'success';
     execution.completedAt = new Date();
     execution.duration = (execution.completedAt.getTime() - execution.startedAt.getTime()) / 1000;
-    execution.output = { completed: true };
+    execution.output = { completed: true, context };
     this.executionsStore.set(execution.id, execution);
     this.updateWorkflowStats(workflow);
+  }
+
+  // ===========================================================================
+  // STEP TYPE EXECUTION ENGINE
+  // ===========================================================================
+
+  private async executeStep(
+    step: WorkflowStep,
+    context: Record<string, unknown>,
+    execution: WorkflowExecution,
+    workflow: Workflow,
+  ): Promise<unknown> {
+    switch (step.type) {
+      case 'action':
+        return this.executeActionStep(step, context);
+
+      case 'condition':
+        return this.executeConditionStep(step, context);
+
+      case 'loop':
+        return this.executeLoopStep(step, context);
+
+      case 'parallel':
+        return this.executeParallelStep(step, context);
+
+      case 'delay':
+        return this.executeDelayStep(step);
+
+      case 'webhook':
+        return this.executeWebhookStep(step, context);
+
+      case 'approval':
+        return this.executeApprovalStep(step, execution, workflow);
+
+      default:
+        throw new Error(`Unknown step type: ${step.type}`);
+    }
+  }
+
+  private async executeActionStep(step: WorkflowStep, context: Record<string, unknown>): Promise<unknown> {
+    const actionType = step.config.action as string;
+    const params = step.config.params as Record<string, unknown> || {};
+
+    // Resolve template variables from context
+    const resolved = this.resolveTemplateVars(params, context);
+
+    switch (actionType) {
+      case 'log':
+        this.logger.info(`[Flow Action] ${resolved.message || 'Step executed'}`);
+        return { logged: true, message: resolved.message };
+
+      case 'set_variable':
+        return { [resolved.name as string]: resolved.value };
+
+      case 'transform':
+        return this.applyTransform(resolved, context);
+
+      case 'notify':
+        return { notified: true, recipient: resolved.recipient, message: resolved.message };
+
+      case 'http_request':
+        // Placeholder for real HTTP calls (would use fetch in production)
+        return { status: 200, body: {}, url: resolved.url };
+
+      default:
+        return { action: actionType, params: resolved, executed: true };
+    }
+  }
+
+  private async executeConditionStep(step: WorkflowStep, context: Record<string, unknown>): Promise<unknown> {
+    const field = step.config.field as string;
+    const operator = step.config.operator as string;
+    const value = step.config.value;
+    const thenBranch = step.config.then as string;
+    const elseBranch = step.config.else as string;
+
+    // Resolve field value from context (supports dot notation)
+    const fieldValue = this.resolveContextPath(context, field);
+    let conditionMet = false;
+
+    switch (operator) {
+      case 'eq': case '==': conditionMet = fieldValue === value; break;
+      case 'ne': case '!=': conditionMet = fieldValue !== value; break;
+      case 'gt': case '>': conditionMet = Number(fieldValue) > Number(value); break;
+      case 'gte': case '>=': conditionMet = Number(fieldValue) >= Number(value); break;
+      case 'lt': case '<': conditionMet = Number(fieldValue) < Number(value); break;
+      case 'lte': case '<=': conditionMet = Number(fieldValue) <= Number(value); break;
+      case 'contains': conditionMet = String(fieldValue).includes(String(value)); break;
+      case 'exists': conditionMet = fieldValue !== undefined && fieldValue !== null; break;
+      case 'truthy': conditionMet = !!fieldValue; break;
+      case 'in': conditionMet = Array.isArray(value) && value.includes(fieldValue); break;
+      default: conditionMet = !!fieldValue;
+    }
+
+    return {
+      conditionMet,
+      field,
+      operator,
+      actualValue: fieldValue,
+      expectedValue: value,
+      branch: conditionMet ? (thenBranch || 'true') : (elseBranch || 'false'),
+    };
+  }
+
+  private async executeLoopStep(step: WorkflowStep, context: Record<string, unknown>): Promise<unknown> {
+    const collection = step.config.collection as string;
+    const itemVar = (step.config.itemVariable as string) || 'item';
+    const maxIterations = (step.config.maxIterations as number) || 1000;
+    const bodyAction = step.config.body as Record<string, unknown>;
+
+    const items = this.resolveContextPath(context, collection);
+    if (!Array.isArray(items)) {
+      return { error: `Collection "${collection}" is not an array`, iterations: 0 };
+    }
+
+    const results: unknown[] = [];
+    const limit = Math.min(items.length, maxIterations);
+
+    for (let i = 0; i < limit; i++) {
+      const iterContext = { ...context, [itemVar]: items[i], __index: i, __length: items.length };
+      
+      if (bodyAction) {
+        results.push(this.resolveTemplateVars(bodyAction, iterContext));
+      } else {
+        results.push({ index: i, item: items[i] });
+      }
+    }
+
+    return { iterations: results.length, results, truncated: items.length > maxIterations };
+  }
+
+  private async executeParallelStep(step: WorkflowStep, context: Record<string, unknown>): Promise<unknown> {
+    const branches = step.config.branches as Array<{ name: string; action: Record<string, unknown> }>;
+    if (!Array.isArray(branches) || branches.length === 0) {
+      return { error: 'No branches defined for parallel step' };
+    }
+
+    const results = await Promise.allSettled(
+      branches.map(async (branch) => {
+        const resolved = this.resolveTemplateVars(branch.action || {}, context);
+        return { name: branch.name, output: resolved, status: 'success' };
+      })
+    );
+
+    return {
+      branches: results.map((r, i) => ({
+        name: branches[i].name,
+        status: r.status === 'fulfilled' ? 'success' : 'failed',
+        output: r.status === 'fulfilled' ? r.value : (r as PromiseRejectedResult).reason?.message,
+      })),
+      allSucceeded: results.every(r => r.status === 'fulfilled'),
+    };
+  }
+
+  private async executeDelayStep(step: WorkflowStep): Promise<unknown> {
+    const durationMs = (step.config.durationMs as number) || 1000;
+    const maxDelay = 300000; // 5 min max
+    const actual = Math.min(durationMs, maxDelay);
+
+    await new Promise(resolve => setTimeout(resolve, actual));
+
+    return { delayed: true, requestedMs: durationMs, actualMs: actual };
+  }
+
+  private async executeWebhookStep(step: WorkflowStep, context: Record<string, unknown>): Promise<unknown> {
+    const url = step.config.url as string;
+    const method = (step.config.method as string) || 'POST';
+    const headers = (step.config.headers as Record<string, string>) || {};
+    const body = step.config.body as Record<string, unknown>;
+
+    const resolvedBody = body ? this.resolveTemplateVars(body, context) : {};
+
+    // In production, this would use fetch/axios
+    this.logger.info(`[Flow Webhook] ${method} ${url}`);
+    return {
+      webhook: true,
+      url,
+      method,
+      headers: Object.keys(headers),
+      bodySize: JSON.stringify(resolvedBody).length,
+      sentAt: new Date(),
+    };
+  }
+
+  private async executeApprovalStep(
+    step: WorkflowStep,
+    execution: WorkflowExecution,
+    workflow: Workflow,
+  ): Promise<unknown> {
+    execution.status = 'awaiting_approval';
+
+    const approval: PendingApproval = {
+      id: `approval-${Date.now()}`,
+      executionId: execution.id,
+      workflowName: workflow.name,
+      stepName: step.name,
+      requestedBy: execution.triggeredBy,
+      requestedAt: new Date(),
+      approvers: (step.config.approvers as string[]) || ['admin'],
+      status: 'pending',
+    };
+
+    this.approvalsStore.set(approval.id, approval);
+    this.executionsStore.set(execution.id, execution);
+    return '__AWAITING_APPROVAL__';
+  }
+
+  // ===========================================================================
+  // TEMPLATE & CONTEXT UTILITIES
+  // ===========================================================================
+
+  private resolveTemplateVars(obj: Record<string, unknown>, context: Record<string, unknown>): Record<string, unknown> {
+    const result: Record<string, unknown> = {};
+    for (const [key, value] of Object.entries(obj)) {
+      if (typeof value === 'string' && value.startsWith('{{') && value.endsWith('}}')) {
+        const path = value.slice(2, -2).trim();
+        result[key] = this.resolveContextPath(context, path);
+      } else if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+        result[key] = this.resolveTemplateVars(value as Record<string, unknown>, context);
+      } else {
+        result[key] = value;
+      }
+    }
+    return result;
+  }
+
+  private resolveContextPath(context: Record<string, unknown>, path: string): unknown {
+    const parts = path.split('.');
+    let current: unknown = context;
+    for (const part of parts) {
+      if (current === null || current === undefined) return undefined;
+      current = (current as Record<string, unknown>)[part];
+    }
+    return current;
+  }
+
+  private applyTransform(params: Record<string, unknown>, context: Record<string, unknown>): unknown {
+    const transformType = params.type as string;
+    const input = this.resolveContextPath(context, params.input as string);
+
+    switch (transformType) {
+      case 'uppercase': return { result: String(input).toUpperCase() };
+      case 'lowercase': return { result: String(input).toLowerCase() };
+      case 'parse_json': return { result: typeof input === 'string' ? JSON.parse(input) : input };
+      case 'stringify': return { result: JSON.stringify(input) };
+      case 'math': {
+        const op = params.operation as string;
+        const a = Number(input);
+        const b = Number(params.operand);
+        switch (op) {
+          case 'add': return { result: a + b };
+          case 'subtract': return { result: a - b };
+          case 'multiply': return { result: a * b };
+          case 'divide': return { result: b !== 0 ? a / b : 0 };
+          default: return { result: a };
+        }
+      }
+      default: return { result: input };
+    }
   }
 
   private updateWorkflowStats(workflow: Workflow): void {
@@ -404,7 +681,100 @@ export class FlowService extends BaseService {
     };
   }
 
+  // ===========================================================================
+  // DASHBOARD & HEALTH (Service-level)
+  // ===========================================================================
 
+  async getDashboard(): Promise<{
+    serviceName: string;
+    status: string;
+    workflows: { total: number; active: number; paused: number; draft: number; archived: number };
+    executions: { total: number; running: number; success: number; failed: number; cancelled: number; awaitingApproval: number };
+    performance: { successRate: number; avgDuration: number; executionsToday: number };
+    approvals: { pending: number; approved: number; rejected: number };
+    stepTypeUsage: Record<string, number>;
+    recentExecutions: Array<{ id: string; workflowName: string; status: string; startedAt: Date; duration: number | undefined }>;
+    insights: string[];
+  }> {
+    const workflows = Array.from(this.workflowsStore.values());
+    const executions = Array.from(this.executionsStore.values());
+    const approvals = Array.from(this.approvalsStore.values());
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const completed = executions.filter(e => e.status !== 'running' && e.status !== 'pending');
+
+    const stepTypeUsage: Record<string, number> = {};
+    for (const w of workflows) {
+      for (const s of w.steps) {
+        stepTypeUsage[s.type] = (stepTypeUsage[s.type] || 0) + 1;
+      }
+    }
+
+    const recentExecutions = executions
+      .sort((a, b) => b.startedAt.getTime() - a.startedAt.getTime())
+      .slice(0, 10)
+      .map(e => ({ id: e.id, workflowName: e.workflowName, status: e.status, startedAt: e.startedAt, duration: e.duration }));
+
+    const insights: string[] = [];
+    const failedRecent = executions.filter(e => e.status === 'failed' && e.startedAt >= today).length;
+    if (failedRecent > 0) insights.push(`${failedRecent} workflow execution(s) failed today`);
+    const pendingApprovals = approvals.filter(a => a.status === 'pending').length;
+    if (pendingApprovals > 0) insights.push(`${pendingApprovals} approval(s) awaiting decision`);
+    const lowSuccess = workflows.filter(w => w.successRate < 80 && w.executionCount > 0);
+    if (lowSuccess.length > 0) insights.push(`${lowSuccess.length} workflow(s) with success rate below 80%`);
+    if (insights.length === 0) insights.push('All workflows operating normally');
+
+    return {
+      serviceName: 'Flow',
+      status: executions.some(e => e.status === 'running') ? 'executing' : 'idle',
+      workflows: {
+        total: workflows.length,
+        active: workflows.filter(w => w.status === 'active').length,
+        paused: workflows.filter(w => w.status === 'paused').length,
+        draft: workflows.filter(w => w.status === 'draft').length,
+        archived: workflows.filter(w => w.status === 'archived').length,
+      },
+      executions: {
+        total: executions.length,
+        running: executions.filter(e => e.status === 'running').length,
+        success: executions.filter(e => e.status === 'success').length,
+        failed: executions.filter(e => e.status === 'failed').length,
+        cancelled: executions.filter(e => e.status === 'cancelled').length,
+        awaitingApproval: executions.filter(e => e.status === 'awaiting_approval').length,
+      },
+      performance: {
+        successRate: completed.length > 0
+          ? Math.round((completed.filter(e => e.status === 'success').length / completed.length) * 100)
+          : 100,
+        avgDuration: completed.length > 0
+          ? Math.round(completed.reduce((sum, e) => sum + (e.duration || 0), 0) / completed.length * 100) / 100
+          : 0,
+        executionsToday: executions.filter(e => e.startedAt >= today).length,
+      },
+      approvals: {
+        pending: pendingApprovals,
+        approved: approvals.filter(a => a.status === 'approved').length,
+        rejected: approvals.filter(a => a.status === 'rejected').length,
+      },
+      stepTypeUsage,
+      recentExecutions,
+      insights,
+    };
+  }
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'Flow',
+      timestamp: new Date(),
+      details: {
+        uptime: process.uptime(),
+        memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576),
+        workflows: this.workflowsStore.size,
+        executions: this.executionsStore.size,
+        pendingApprovals: Array.from(this.approvalsStore.values()).filter(a => a.status === 'pending').length,
+      },
+    };
+  }
 
   async loadFromDB(): Promise<void> {
 

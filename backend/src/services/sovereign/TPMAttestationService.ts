@@ -710,8 +710,100 @@ ${signed.attestation.keyAttestation.keyType === 'tpm'
       this.attestationKey.status = 'rotated';
       await this.persistKeyMetadata(this.attestationKey);
     }
-    
     return this.initialize();
+  }
+
+  // ===========================================================================
+  // DASHBOARD & HEALTH
+  // ===========================================================================
+
+  async getDashboard(): Promise<{
+    serviceName: string;
+    status: string;
+    attestationKey: {
+      id: string | null;
+      type: string | null;
+      status: string | null;
+      fingerprint: string | null;
+      manufacturer: string | null;
+      createdAt: Date | null;
+      lastUsedAt: Date | null;
+    };
+    signedDecisions: {
+      total: number;
+      verified: number;
+      unverified: number;
+      byOrganization: Record<string, number>;
+    };
+    trustDistribution: { high: number; medium: number; low: number; none: number };
+    recentSignings: Array<{ id: string; decisionId: string; signedAt: Date; verified: boolean }>;
+    insights: string[];
+  }> {
+    const decisions = Array.from(this.signedDecisions.values());
+    const verified = decisions.filter(d => d.verified);
+    const byOrg: Record<string, number> = {};
+    for (const d of decisions) {
+      byOrg[d.organizationId] = (byOrg[d.organizationId] || 0) + 1;
+    }
+
+    const trustDist = { high: 0, medium: 0, low: 0, none: 0 };
+    for (const d of decisions) {
+      if (d.attestation.keyAttestation.keyType === 'tpm') trustDist.high++;
+      else trustDist.medium++;
+    }
+
+    const recentSignings = decisions
+      .sort((a, b) => b.signedAt.getTime() - a.signedAt.getTime())
+      .slice(0, 10)
+      .map(d => ({ id: d.id, decisionId: d.decisionId, signedAt: d.signedAt, verified: d.verified }));
+
+    const insights: string[] = [];
+    if (this.attestationKey?.type === 'software') {
+      insights.push('Using software-backed keys — hardware TPM recommended for production');
+    }
+    const unverified = decisions.filter(d => !d.verified).length;
+    if (unverified > 0) insights.push(`${unverified} signed decision(s) pending verification`);
+    if (!this.attestationKey) insights.push('No attestation key initialized — call initialize() first');
+    if (insights.length === 0) insights.push('TPM attestation service operating normally');
+
+    return {
+      serviceName: 'TPMAttestation',
+      status: this.attestationKey ? 'active' : 'uninitialized',
+      attestationKey: {
+        id: this.attestationKey?.id || null,
+        type: this.attestationKey?.type || null,
+        status: this.attestationKey?.status || null,
+        fingerprint: this.attestationKey?.publicKeyFingerprint || null,
+        manufacturer: this.attestationKey?.tpmManufacturer || null,
+        createdAt: this.attestationKey?.createdAt || null,
+        lastUsedAt: this.attestationKey?.lastUsedAt || null,
+      },
+      signedDecisions: {
+        total: decisions.length,
+        verified: verified.length,
+        unverified,
+        byOrganization: byOrg,
+      },
+      trustDistribution: trustDist,
+      recentSignings,
+      insights,
+    };
+  }
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'TPMAttestation',
+      timestamp: new Date(),
+      details: {
+        uptime: process.uptime(),
+        memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576),
+        keyInitialized: !!this.attestationKey,
+        keyType: this.attestationKey?.type || 'none',
+        signedDecisions: this.signedDecisions.size,
+        storagePath: this.storagePath,
+      },
+    };
   }
 }
 

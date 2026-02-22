@@ -1128,6 +1128,85 @@ class DataDiodeService extends EventEmitter {
     }
   }
 
+  // ===========================================================================
+  // DASHBOARD & HEALTH
+  // ===========================================================================
+
+  async getDashboard(): Promise<{
+    serviceName: string;
+    status: string;
+    statistics: DiodeStatistics;
+    activeSources: number;
+    totalSources: number;
+    activeWatchers: number;
+    processingCount: number;
+    recentEvents: Array<{ id: string; fileName: string; status: string; format: string; records: number; detectedAt: Date }>;
+    securitySummary: { totalScanned: number; clean: number; suspicious: number; malicious: number; rejected: number };
+    formatBreakdown: Record<string, number>;
+    insights: string[];
+  }> {
+    const sources = Array.from(this.sources.values());
+    const events = Array.from(this.events.values());
+    const recentEvents = events
+      .sort((a, b) => b.detectedAt.getTime() - a.detectedAt.getTime())
+      .slice(0, 20)
+      .map(e => ({
+        id: e.id, fileName: e.fileName, status: e.status, format: e.format,
+        records: e.recordsExtracted || 0, detectedAt: e.detectedAt,
+      }));
+
+    const securitySummary = {
+      totalScanned: events.filter(e => e.scannedAt).length,
+      clean: events.filter(e => e.scanResult === 'clean').length,
+      suspicious: events.filter(e => e.scanResult === 'suspicious').length,
+      malicious: events.filter(e => e.scanResult === 'malicious').length,
+      rejected: events.filter(e => e.status === 'rejected').length,
+    };
+
+    const insights: string[] = [];
+    if (securitySummary.rejected > 0) insights.push(`${securitySummary.rejected} file(s) rejected by security scan`);
+    if (this.processing.size > 0) insights.push(`${this.processing.size} file(s) currently being processed`);
+    const failedRecent = events.filter(e => e.status === 'failed' && e.detectedAt.getTime() > Date.now() - 3600000).length;
+    if (failedRecent > 0) insights.push(`${failedRecent} ingest failure(s) in the last hour`);
+    if (insights.length === 0) insights.push('Data diode operating normally');
+
+    return {
+      serviceName: 'DataDiode',
+      status: this.processing.size > 0 ? 'processing' : 'idle',
+      statistics: this.getStatistics(),
+      activeSources: sources.filter(s => s.enabled).length,
+      totalSources: sources.length,
+      activeWatchers: this.watchers.size,
+      processingCount: this.processing.size,
+      recentEvents,
+      securitySummary,
+      formatBreakdown: { ...this.statistics.byFormat },
+      insights,
+    };
+  }
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    const sources = Array.from(this.sources.values());
+    const enabledSources = sources.filter(s => s.enabled);
+    const watchingAll = enabledSources.every(s => this.watchers.has(s.id));
+
+    return {
+      healthy: watchingAll || enabledSources.length === 0,
+      service: 'DataDiode',
+      timestamp: new Date(),
+      details: {
+        uptime: process.uptime(),
+        memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576),
+        totalSources: sources.length,
+        enabledSources: enabledSources.length,
+        activeWatchers: this.watchers.size,
+        processing: this.processing.size,
+        totalIngested: this.statistics.totalIngested,
+        totalRejected: this.statistics.totalRejected,
+      },
+    };
+  }
+
   /**
    * Shutdown service
    */

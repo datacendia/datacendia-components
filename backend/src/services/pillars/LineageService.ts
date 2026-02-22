@@ -489,6 +489,224 @@ export class LineageService extends BaseService {
     const downstream = await this.getDownstream(sourceId);
     return { upstream, downstream };
   }
+
+  // ===========================================================================
+  // IMPACT ANALYSIS
+  // ===========================================================================
+
+  async analyzeImpact(entityId: string): Promise<{
+    sourceEntity: LineageEntity;
+    directDownstream: LineageEntity[];
+    transitiveDownstream: LineageEntity[];
+    impactedReports: LineageEntity[];
+    impactedModels: LineageEntity[];
+    impactedPipelines: LineageEntity[];
+    riskAssessment: {
+      totalAffected: number;
+      highQualityAffected: number;
+      lowQualityAffected: number;
+      criticalPathLength: number;
+      riskLevel: 'low' | 'medium' | 'high' | 'critical';
+    };
+    recommendations: string[];
+  }> {
+    const entity = await this.getEntity(entityId);
+    if (!entity) throw new Error('Entity not found');
+
+    // Get full downstream graph
+    const graph = await this.traceLineage(entityId, 'downstream');
+    const allDownstream = graph.entities.filter(e => e.id !== entityId);
+
+    // Direct downstream
+    const directDownstream = await this.getDownstream(entityId);
+
+    // Categorize affected entities
+    const impactedReports = allDownstream.filter(e => e.type === 'report');
+    const impactedModels = allDownstream.filter(e => e.type === 'model');
+    const impactedPipelines = allDownstream.filter(e => e.type === 'pipeline');
+
+    // Risk assessment
+    const highQuality = allDownstream.filter(e => e.qualityScore >= 85);
+    const lowQuality = allDownstream.filter(e => e.qualityScore < 70);
+
+    // Calculate critical path length (longest dependency chain)
+    let criticalPathLength = 0;
+    const visited = new Set<string>();
+    const measureDepth = async (id: string, depth: number): Promise<number> => {
+      if (visited.has(id)) return depth;
+      visited.add(id);
+      const downstream = await this.getDownstream(id);
+      if (downstream.length === 0) return depth;
+      let maxDepth = depth;
+      for (const d of downstream) {
+        const childDepth = await measureDepth(d.id, depth + 1);
+        maxDepth = Math.max(maxDepth, childDepth);
+      }
+      return maxDepth;
+    };
+    criticalPathLength = await measureDepth(entityId, 0);
+
+    // Determine risk level
+    let riskLevel: 'low' | 'medium' | 'high' | 'critical' = 'low';
+    if (allDownstream.length > 20 || impactedReports.length > 5) riskLevel = 'critical';
+    else if (allDownstream.length > 10 || impactedModels.length > 2) riskLevel = 'high';
+    else if (allDownstream.length > 3) riskLevel = 'medium';
+
+    const recommendations: string[] = [];
+    if (riskLevel === 'critical') recommendations.push(`Changes to "${entity.name}" will affect ${allDownstream.length} downstream entities — coordinate with all stakeholders`);
+    if (impactedModels.length > 0) recommendations.push(`${impactedModels.length} ML model(s) depend on this data — validate model accuracy after changes`);
+    if (impactedReports.length > 0) recommendations.push(`${impactedReports.length} report(s) will be affected — schedule report regeneration`);
+    if (lowQuality.length > 0) recommendations.push(`${lowQuality.length} downstream entity/entities already have low quality scores — prioritize quality improvements`);
+    if (criticalPathLength > 5) recommendations.push(`Deep dependency chain (${criticalPathLength} levels) — consider breaking long chains`);
+    if (recommendations.length === 0) recommendations.push('Low impact — changes can proceed with standard validation');
+
+    return {
+      sourceEntity: entity,
+      directDownstream,
+      transitiveDownstream: allDownstream,
+      impactedReports,
+      impactedModels,
+      impactedPipelines,
+      riskAssessment: {
+        totalAffected: allDownstream.length,
+        highQualityAffected: highQuality.length,
+        lowQualityAffected: lowQuality.length,
+        criticalPathLength,
+        riskLevel,
+      },
+      recommendations,
+    };
+  }
+
+  // ===========================================================================
+  // CHANGE PROPAGATION
+  // ===========================================================================
+
+  async trackChangePropagation(entityId: string, changeType: 'schema' | 'data' | 'quality' | 'source'): Promise<{
+    entityId: string;
+    changeType: string;
+    propagationPath: Array<{ entityId: string; entityName: string; entityType: EntityType; depth: number; estimatedImpact: 'none' | 'low' | 'medium' | 'high' }>;
+    totalAffected: number;
+    notificationsRequired: string[];
+  }> {
+    const entity = await this.getEntity(entityId);
+    if (!entity) throw new Error('Entity not found');
+
+    const graph = await this.traceLineage(entityId, 'downstream');
+    const propagationPath: Array<{
+      entityId: string; entityName: string; entityType: EntityType;
+      depth: number; estimatedImpact: 'none' | 'low' | 'medium' | 'high';
+    }> = [];
+
+    // BFS to track propagation with depth
+    const queue: Array<{ id: string; depth: number }> = [{ id: entityId, depth: 0 }];
+    const visited = new Set<string>([entityId]);
+
+    while (queue.length > 0) {
+      const { id, depth } = queue.shift()!;
+      const downstream = await this.getDownstream(id);
+
+      for (const d of downstream) {
+        if (visited.has(d.id)) continue;
+        visited.add(d.id);
+
+        let estimatedImpact: 'none' | 'low' | 'medium' | 'high' = 'low';
+        if (changeType === 'schema') estimatedImpact = d.type === 'model' ? 'high' : 'medium';
+        else if (changeType === 'data') estimatedImpact = depth < 2 ? 'high' : 'medium';
+        else if (changeType === 'quality') estimatedImpact = d.qualityScore < 70 ? 'high' : 'low';
+
+        propagationPath.push({
+          entityId: d.id,
+          entityName: d.name,
+          entityType: d.type,
+          depth: depth + 1,
+          estimatedImpact,
+        });
+
+        queue.push({ id: d.id, depth: depth + 1 });
+      }
+    }
+
+    const notificationsRequired = propagationPath
+      .filter(p => p.estimatedImpact === 'high')
+      .map(p => `High impact on ${p.entityType} "${p.entityName}" at depth ${p.depth}`);
+
+    return {
+      entityId,
+      changeType,
+      propagationPath,
+      totalAffected: propagationPath.length,
+      notificationsRequired,
+    };
+  }
+
+  // ===========================================================================
+  // DASHBOARD
+  // ===========================================================================
+
+  async getDashboard(organizationId: string): Promise<{
+    serviceName: string;
+    status: string;
+    entities: { total: number; byType: Record<string, number>; avgQuality: number };
+    relationships: { total: number; byType: Record<string, number> };
+    quality: { avgScore: number; byLevel: Record<string, number>; issueCount: number };
+    graph: { rootEntities: number; leafEntities: number; maxDepth: number };
+    recentUpdates: Array<{ id: string; name: string; type: string; qualityScore: number; lastUpdated: Date }>;
+    insights: string[];
+  }> {
+    const entities = await this.getEntities(organizationId);
+    const graph = await this.getLineageGraph(organizationId);
+    const qualityOverview = await this.getQualityOverview(organizationId);
+
+    const byType: Record<string, number> = {};
+    for (const e of entities) {
+      byType[e.type] = (byType[e.type] || 0) + 1;
+    }
+
+    const relByType: Record<string, number> = {};
+    for (const r of graph.relationships) {
+      relByType[r.type] = (relByType[r.type] || 0) + 1;
+    }
+
+    const recentUpdates = entities
+      .sort((a, b) => b.lastUpdated.getTime() - a.lastUpdated.getTime())
+      .slice(0, 10)
+      .map(e => ({ id: e.id, name: e.name, type: e.type, qualityScore: e.qualityScore, lastUpdated: e.lastUpdated }));
+
+    const insights: string[] = [];
+    const poorQuality = entities.filter(e => e.qualityLevel === 'poor');
+    if (poorQuality.length > 0) insights.push(`${poorQuality.length} entity/entities with poor data quality — remediation recommended`);
+    if (graph.rootEntities.length === 0 && entities.length > 0) insights.push('No root data sources identified — verify lineage completeness');
+    const staleEntities = entities.filter(e => e.lastUpdated.getTime() < Date.now() - 7 * 24 * 60 * 60 * 1000);
+    if (staleEntities.length > 0) insights.push(`${staleEntities.length} entity/entities not updated in 7+ days`);
+    if (insights.length === 0) insights.push('Data lineage tracking is up to date');
+
+    return {
+      serviceName: 'Lineage',
+      status: poorQuality.length > 0 ? 'attention' : 'healthy',
+      entities: {
+        total: entities.length,
+        byType,
+        avgQuality: qualityOverview.avgScore,
+      },
+      relationships: {
+        total: graph.relationships.length,
+        byType: relByType,
+      },
+      quality: {
+        avgScore: qualityOverview.avgScore,
+        byLevel: qualityOverview.byLevel as unknown as Record<string, number>,
+        issueCount: qualityOverview.recentIssues.length,
+      },
+      graph: {
+        rootEntities: graph.rootEntities.length,
+        leafEntities: graph.leafEntities.length,
+        maxDepth: 0, // Would require full graph traversal
+      },
+      recentUpdates,
+      insights,
+    };
+  }
 }
 
 export const lineageService = new LineageService();

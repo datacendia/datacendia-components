@@ -937,7 +937,106 @@ SYSTEM """You are a personalized AI assistant fine-tuned on ${config.organizatio
       .slice(0, limit);
   }
 
+  // ===========================================================================
+  // DASHBOARD & HEALTH
+  // ===========================================================================
 
+  async getDashboard(): Promise<{
+    serviceName: string;
+    status: string;
+    feedback: {
+      total: number;
+      positive: number;
+      negative: number;
+      neutral: number;
+      unprocessed: number;
+      byAgent: Record<string, number>;
+    };
+    datasets: {
+      total: number;
+      totalPairs: number;
+      avgQuality: number;
+      formats: Record<string, number>;
+    };
+    training: {
+      totalConfigs: number;
+      pending: number;
+      completed: number;
+      failed: number;
+    };
+    recentFeedback: Array<{ id: string; agentCode: string; signal: string; feedbackType: string; feedbackAt: Date }>;
+    insights: string[];
+  }> {
+    const records = Array.from(this.feedbackRecords.values());
+    const datasets = Array.from(this.datasets.values());
+    const configs = Array.from(this.loraConfigs.values());
+
+    const byAgent: Record<string, number> = {};
+    for (const r of records) {
+      byAgent[r.agentCode] = (byAgent[r.agentCode] || 0) + 1;
+    }
+
+    const formats: Record<string, number> = {};
+    for (const d of datasets) {
+      formats[d.format] = (formats[d.format] || 0) + 1;
+    }
+
+    const recentFeedback = records
+      .sort((a, b) => b.feedbackAt.getTime() - a.feedbackAt.getTime())
+      .slice(0, 10)
+      .map(r => ({ id: r.id, agentCode: r.agentCode, signal: r.signal, feedbackType: r.feedbackType, feedbackAt: r.feedbackAt }));
+
+    const insights: string[] = [];
+    const unprocessed = records.filter(r => !r.processedForTraining).length;
+    if (unprocessed > 100) insights.push(`${unprocessed} unprocessed feedback records — consider generating a training dataset`);
+    const negativeRate = records.length > 0 ? records.filter(r => r.signal === 'negative').length / records.length : 0;
+    if (negativeRate > 0.4) insights.push(`High negative feedback rate (${Math.round(negativeRate * 100)}%) — model quality may need attention`);
+    if (configs.some(c => c.status === 'failed')) insights.push('One or more LoRA training jobs have failed');
+    if (insights.length === 0) insights.push('RLHF pipeline operating normally');
+
+    return {
+      serviceName: 'LocalRLHF',
+      status: 'operational',
+      feedback: {
+        total: records.length,
+        positive: records.filter(r => r.signal === 'positive').length,
+        negative: records.filter(r => r.signal === 'negative').length,
+        neutral: records.filter(r => r.signal === 'neutral').length,
+        unprocessed,
+        byAgent,
+      },
+      datasets: {
+        total: datasets.length,
+        totalPairs: datasets.reduce((sum, d) => sum + d.totalPairs, 0),
+        avgQuality: datasets.length > 0 ? Math.round(datasets.reduce((sum, d) => sum + d.averageQuality, 0) / datasets.length * 100) / 100 : 0,
+        formats,
+      },
+      training: {
+        totalConfigs: configs.length,
+        pending: configs.filter(c => c.status === 'pending').length,
+        completed: configs.filter(c => c.status === 'completed').length,
+        failed: configs.filter(c => c.status === 'failed').length,
+      },
+      recentFeedback,
+      insights,
+    };
+  }
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'LocalRLHF',
+      timestamp: new Date(),
+      details: {
+        uptime: process.uptime(),
+        memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576),
+        feedbackRecords: this.feedbackRecords.size,
+        datasets: this.datasets.size,
+        loraConfigs: this.loraConfigs.size,
+        dataPath: this.dataPath,
+      },
+    };
+  }
 
   async loadFromDB(): Promise<void> {
 
