@@ -216,9 +216,6 @@ class DeterministicRNG {
     // Convert string seed to number using hash
     this.seed = this.hashToNumber(seedString);
     this.component = component;
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   private hashToNumber(str: string): number {
@@ -292,67 +289,6 @@ class DeterministicRNG {
    */
   getSeed(): number {
     return this.seed;
-  }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'DeterministicRNG', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.states.has(d.id)) this.states.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'DeterministicRNG', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs_1) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.rngInstances.has(d.id)) this.rngInstances.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_1.length;
-
-
-      if (restored > 0) logger.info(`[DeterministicRNG] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[DeterministicRNG] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
   }
 }
 

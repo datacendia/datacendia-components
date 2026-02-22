@@ -441,49 +441,6 @@ export class SafetyFirstFramework {
     }
     return outcome;
   }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'SafetyFirstFramework', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.scenarios.has(d.id)) this.scenarios.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      if (restored > 0) logger.info(`[SafetyFirstFramework] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[SafetyFirstFramework] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
-  }
 }
 
 // ============================================================================
@@ -508,9 +465,6 @@ export class IncidentPreMortemLibrary {
 
   constructor() {
     this.initializeScenarios();
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   private initializeScenarios(): void {
@@ -885,8 +839,6 @@ export class EnergyKnowledgeBase extends VerticalKnowledgeBase {
 
   private generateEmbedding(text: string): number[] {
     return embeddingService.hashFallback(text);
-  }
-    return embedding;
   }
 
   private cosineSimilarity(a: number[], b: number[]): number {

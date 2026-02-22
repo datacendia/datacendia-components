@@ -258,7 +258,7 @@ export class FlowService extends BaseService {
         execution.status = 'failed';
         execution.error = `Step ${stepResult.stepName} failed`;
         execution.completedAt = new Date();
-        execution.duration = (execution.completedAt.getTime() - execution.startedAt.getTime()) / 1000;
+        execution.duration = (execution.completedAt!.getTime() - execution.startedAt.getTime()) / 1000;
         this.executionsStore.set(execution.id, execution);
         this.updateWorkflowStats(workflow);
         return;
@@ -469,13 +469,13 @@ export class FlowService extends BaseService {
       restored += recs_2.length;
 
 
-      if (restored > 0) logger.info(`[FlowService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[FlowService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[FlowService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[FlowService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

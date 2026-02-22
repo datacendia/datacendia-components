@@ -227,7 +227,7 @@ class CognitiveBiasMitigationService {
           deliberationTitle: r.deliberation_title,
           analyzedAt: r.created_at,
           analyzedBy: r.analyzed_by,
-          biasesDetected: r.biases_detected as BiasDetection[],
+          biasesDetected: r.biases_detected as unknown as BiasDetection[],
           overallRisk: r.overall_risk as BiasRisk,
           biasCount: r.bias_count,
           highRiskCount: r.high_risk_count,

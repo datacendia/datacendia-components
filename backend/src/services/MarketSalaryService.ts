@@ -213,35 +213,6 @@ class BLSDataSource implements SalaryDataSource {
     }
     return 1.0;
   }
-
-
-  async loadFromDB(): Promise<void> {
-
-    try {
-
-      let restored = 0;
-
-      const recs = await loadServiceRecords({ serviceName: 'BLSDataSource', recordType: 'record', limit: 1000 });
-
-      for (const rec of recs) {
-
-        const d = rec.data as any;
-
-        if (d?.id && !this.cache.has(d.id)) this.cache.set(d.id, d);
-
-      }
-
-      restored += recs.length;
-
-      if (restored > 0) logger.info(`[BLSDataSource] Restored ${restored} records from database`);
-
-    } catch (err) {
-
-      logger.warn(`[BLSDataSource] DB reload skipped: ${(err as Error).message}`);
-
-    }
-
-  }
 }
 
 // Levels.fyi-style Tech Compensation Data
@@ -356,8 +327,6 @@ class MarketSalaryService {
       new BLSDataSource(),
       new TechCompensationSource(),
     ];
-
-    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------

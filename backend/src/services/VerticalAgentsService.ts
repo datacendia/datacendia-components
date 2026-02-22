@@ -1197,13 +1197,13 @@ export class VerticalAgentsService extends BaseService {
       restored += recs.length;
 
 
-      if (restored > 0) logger.info(`[VerticalAgentsService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[VerticalAgentsService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[VerticalAgentsService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[VerticalAgentsService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

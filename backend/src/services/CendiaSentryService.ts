@@ -1360,13 +1360,13 @@ export class CendiaSentryService extends BaseService {
       restored += recs_2.length;
 
 
-      if (restored > 0) logger.info(`[CendiaSentryService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[CendiaSentryService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[CendiaSentryService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[CendiaSentryService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

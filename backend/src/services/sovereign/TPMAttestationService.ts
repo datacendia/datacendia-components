@@ -293,47 +293,6 @@ class SoftwareTPM implements TPMInterface {
     }
     return values;
   }
-
-
-  async loadFromDB(): Promise<void> {
-
-    try {
-
-      let restored = 0;
-
-      const recs = await loadServiceRecords({ serviceName: 'TPMAttestation', recordType: 'signed_decision', limit: 1000 });
-
-      for (const rec of recs) {
-
-        const d = rec.data as any;
-
-        if (d?.id && !this.keys.has(d.id)) this.keys.set(d.id, d);
-
-      }
-
-      restored += recs.length;
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'TPMAttestation', recordType: 'signed_decision', limit: 1000 });
-
-      for (const rec of recs_1) {
-
-        const d = rec.data as any;
-
-        if (d?.id && !this.signedDecisions.has(d.id)) this.signedDecisions.set(d.id, d);
-
-      }
-
-      restored += recs_1.length;
-
-      if (restored > 0) logger.info(`[SoftwareTPM] Restored ${restored} records from database`);
-
-    } catch (err) {
-
-      logger.warn(`[SoftwareTPM] DB reload skipped: ${(err as Error).message}`);
-
-    }
-
-  }
 }
 
 // =============================================================================
@@ -365,8 +324,6 @@ class TPMAttestationService extends EventEmitter {
     this.tpm = new SoftwareTPM();
     
     logger.info('[TPMAttestation] Service initialized - Hardware signing ready');
-
-    this.loadFromDB().catch(() => {});
   }
 
   private ensureDirectories(): void {

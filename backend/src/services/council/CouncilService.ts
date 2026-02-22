@@ -1028,7 +1028,7 @@ export class CouncilService extends EventEmitter {
     this.emitEvent({ type: 'synthesis', deliberationId, agentId: chiefAgent.id, timestamp: new Date() });
 
     // Use flagship model for synthesis (higher quality for final output)
-    const synthesisModel = config.ollamaModelFlagship || chiefAgent.model;
+    const synthesisModel = (config as any).ollamaModelFlagship || chiefAgent.model;
     console.log(`[Council] Using flagship model for synthesis: ${synthesisModel}`);
 
     let synthesisContent = '';

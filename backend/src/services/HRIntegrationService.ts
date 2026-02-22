@@ -254,85 +254,6 @@ class BambooHRConnector {
     if (t.includes('holiday')) return 'holiday';
     return 'pto';
   }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'BambooHRConnector', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.connectedProviders.has(d.id)) this.connectedProviders.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'BambooHRConnector', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs_1) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.employeeCache.has(d.id)) this.employeeCache.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_1.length;
-
-
-      const recs_2 = await loadServiceRecords({ serviceName: 'BambooHRConnector', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs_2) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.lastSync.has(d.id)) this.lastSync.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_2.length;
-
-
-      if (restored > 0) logger.info(`[BambooHRConnector] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[BambooHRConnector] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
-  }
 }
 
 // =============================================================================
@@ -348,9 +269,6 @@ class HRIntegrationService {
 
   constructor() {
     this.bamboohr = new BambooHRConnector();
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   // ---------------------------------------------------------------------------

@@ -168,11 +168,8 @@ class AgentQueueService extends EventEmitter {
 
 
   constructor() {
-
-
+    super();
     this.loadFromDB().catch(() => {});
-
-
   }
 
 

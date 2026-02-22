@@ -835,13 +835,13 @@ What is the key difference and lesson learned? Be concise (1-2 sentences).`;
       restored += recs_4.length;
 
 
-      if (restored > 0) logger.info(`[PantheonMemoryService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[PantheonMemoryService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[PantheonMemoryService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[PantheonMemoryService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

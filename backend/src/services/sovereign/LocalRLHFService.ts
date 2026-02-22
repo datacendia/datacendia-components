@@ -13,6 +13,7 @@
 import { EventEmitter } from 'events';
 import * as fs from 'fs';
 import * as path from 'path';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
@@ -821,8 +822,6 @@ echo "✅ LoRA adapter training complete!"
 echo "   To use with Ollama, create a Modelfile and run:"
 echo "   ollama create ${config.name.toLowerCase().replace(/\s+/g, '-')} -f Modelfile"
 `;
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
     // Save script
     const scriptPath = path.join(this.dataPath, 'adapters', config.id, 'train.sh');
     fs.writeFileSync(scriptPath, script);

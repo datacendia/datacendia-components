@@ -149,9 +149,6 @@ export class VerticalSentinelAgent {
     this.verticalName = verticalName;
     this.config = this.getDefaultConfig();
     this.seedSampleEvents();
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   private getDefaultConfig(): SentinelConfig {
@@ -673,85 +670,6 @@ export class VerticalSentinelAgent {
 
   updateConfig(updates: Partial<SentinelConfig>): void {
     this.config = { ...this.config, ...updates };
-  }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'VerticalSentinel', recordType: 'risk_delta_report', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.events.has(d.id)) this.events.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'VerticalSentinel', recordType: 'risk_delta_report', limit: 1000 });
-
-
-      for (const rec of recs_1) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.reports.has(d.id)) this.reports.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_1.length;
-
-
-      const recs_2 = await loadServiceRecords({ serviceName: 'VerticalSentinel', recordType: 'risk_delta_report', limit: 1000 });
-
-
-      for (const rec of recs_2) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.sentinels.has(d.id)) this.sentinels.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_2.length;
-
-
-      if (restored > 0) logger.info(`[VerticalSentinelAgent] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[VerticalSentinelAgent] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
   }
 }
 

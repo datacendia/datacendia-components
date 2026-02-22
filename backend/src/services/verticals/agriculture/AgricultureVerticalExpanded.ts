@@ -395,7 +395,6 @@ export class AgricultureComplianceMapper extends ComplianceMapper {
       { id: 'esa-take', name: 'Take Prohibition', description: 'Prohibition on take of listed species', severity: 'critical', automatable: false }
     ]}
   ];
-import { embeddingService } from '../../llm/EmbeddingService.js';
 
   mapToFramework(decisionType: string, frameworkId: string): ComplianceControl[] {
     const fw = this.getFramework(frameworkId);

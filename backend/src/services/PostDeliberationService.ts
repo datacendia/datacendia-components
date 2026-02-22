@@ -989,13 +989,13 @@ export class PostDeliberationService extends BaseService {
       restored += recs.length;
 
 
-      if (restored > 0) logger.info(`[PostDeliberationService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[PostDeliberationService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[PostDeliberationService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[PostDeliberationService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

@@ -39,9 +39,6 @@ class SeededRandom {
 
   constructor(seed: number) {
     this.seed = seed;
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   next(): number {
@@ -59,49 +56,6 @@ class SeededRandom {
 
   pick<T>(array: T[]): T {
     return array[this.nextInt(0, array.length - 1)]!;
-  }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'SeededRandom', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.populations.has(d.id)) this.populations.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      if (restored > 0) logger.info(`[SeededRandom] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[SeededRandom] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
   }
 }
 

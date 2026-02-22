@@ -1100,13 +1100,13 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
       restored += recs_2.length;
 
 
-      if (restored > 0) logger.info(`[CendiaNarrativesService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[CendiaNarrativesService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[CendiaNarrativesService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[CendiaNarrativesService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

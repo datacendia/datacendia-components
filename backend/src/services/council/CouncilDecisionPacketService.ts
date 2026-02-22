@@ -187,49 +187,6 @@ export class ToolCallTracerImpl implements ToolCallTracer {
   getCalls(): ToolCall[] {
     return Array.from(this.calls.values());
   }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'ToolCallTracerImpl', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.calls.has(d.id)) this.calls.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      if (restored > 0) logger.info(`[ToolCallTracerImpl] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[ToolCallTracerImpl] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
-  }
 }
 
 // =============================================================================
@@ -267,9 +224,15 @@ export class CouncilDecisionPacketService {
   
   constructor() {
     this.kms = new KeyManagementService();
+  }
 
-
-    this.loadFromDB().catch(() => {});
+  async loadFromDB(): Promise<void> {
+    try {
+      const recs = await loadServiceRecords({ serviceName: 'CouncilDecisionPacketService', recordType: 'packet', limit: 1000 });
+      if (recs.length > 0) logger.info(`[CouncilDecisionPacketService] Restored ${recs.length} records from database`);
+    } catch (err) {
+      logger.warn(`[CouncilDecisionPacketService] DB reload skipped: ${(err as Error).message}`);
+    }
   }
 
   /**

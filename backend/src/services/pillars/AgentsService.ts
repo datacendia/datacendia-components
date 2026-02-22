@@ -367,13 +367,13 @@ export class AgentsService extends BaseService {
       restored += recs_1.length;
 
 
-      if (restored > 0) logger.info(`[AgentsService] Restored ${restored} records from database`);
+      if (restored > 0) this.logger.info(`[AgentsService] Restored ${restored} records from database`);
 
 
     } catch (err) {
 
 
-      logger.warn(`[AgentsService] DB reload skipped: ${(err as Error).message}`);
+      this.logger.warn(`[AgentsService] DB reload skipped: ${(err as Error).message}`);
 
 
     }

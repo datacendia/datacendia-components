@@ -174,7 +174,7 @@ export class CendiaResponsibilityService {
           previousRecordHash: r.previous_record_hash || undefined,
           recordHash: r.record_hash,
           timestamp: r.created_at.toISOString(),
-          witnesses: r.witnesses as HumanAuthority[] | undefined,
+          witnesses: r.witnesses as unknown as HumanAuthority[] | undefined,
         });
       }
 

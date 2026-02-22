@@ -258,7 +258,7 @@ export class ContinuousComplianceMonitorService {
     }
 
     // Generate gaps for non-compliant
-    if (newStatus === 'non_compliant' || newStatus === 'partial') {
+    if (newStatus === 'non_compliant' as string || newStatus === 'partial' as string) {
       control.gaps = this.generateGaps(control);
       control.remediationSteps = this.generateRemediationSteps(control);
     } else {

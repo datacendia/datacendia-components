@@ -346,67 +346,6 @@ class TimeLockPuzzleGenerator {
     let num = BigInt('0x' + buf.toString('hex'));
     return num % max;
   }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'TimeLock', recordType: 'vault_created', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.vaults.has(d.id)) this.vaults.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'TimeLock', recordType: 'vault_created', limit: 1000 });
-
-
-      for (const rec of recs_1) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.unlockingProcesses.has(d.id)) this.unlockingProcesses.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_1.length;
-
-
-      if (restored > 0) logger.info(`[TimeLockPuzzleGenerator] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[TimeLockPuzzleGenerator] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
-  }
 }
 
 // =============================================================================
@@ -442,9 +381,6 @@ class TimeLockService extends EventEmitter {
     this.startUnlockChecker();
     
     logger.info('[TimeLock] Service initialized - Cryptographic embargo ready');
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   private ensureDirectories(): void {

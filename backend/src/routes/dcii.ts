@@ -80,7 +80,7 @@ router.post('/seed-demo', async (req: Request, res: Response) => {
     if (crossJurisdictionConflictService.getAllConflicts().length === 0) {
       await crossJurisdictionConflictService.assessOrganization(
         orgId, orgName,
-        ['US', 'EU', 'UK', 'SG', 'CH'],
+        ['US', 'EU', 'UK', 'SG', 'CH'] as any,
         seededBy
       );
       seeded.push('jurisdiction');
@@ -152,9 +152,9 @@ router.post('/seed-demo', async (req: Request, res: Response) => {
         challengeCount: 8,
         unanimousVote: false,
         arguments: [
-          { agentId: 'agent-1', position: 'File SAR immediately — regulatory obligation is clear', strength: 'strong' },
-          { agentId: 'agent-2', position: 'Agree — pattern matches known shell entity typologies', strength: 'strong' },
-          { agentId: 'agent-3', position: 'Dissent — insufficient evidence for definitive filing', strength: 'moderate' },
+          { agentRole: 'CLO', position: 'File SAR immediately — regulatory obligation is clear', evidence: ['AML pattern match'], sentiment: 'support' as const },
+          { agentRole: 'CFO', position: 'Agree — pattern matches known shell entity typologies', evidence: ['Transaction analysis'], sentiment: 'support' as const },
+          { agentRole: 'CRO', position: 'Dissent — insufficient evidence for definitive filing', evidence: ['Risk threshold not met'], sentiment: 'oppose' as const },
         ],
         analyzedBy: seededBy,
       });

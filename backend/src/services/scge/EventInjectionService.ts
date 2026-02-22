@@ -30,9 +30,6 @@ class SeededRandom {
 
   constructor(seed: number) {
     this.seed = seed;
-
-
-    this.loadFromDB().catch(() => {});
   }
 
   next(): number {
@@ -46,67 +43,6 @@ class SeededRandom {
 
   nextInt(min: number, max: number): number {
     return Math.floor(this.nextInRange(min, max + 1));
-  }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'SeededRandom', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.sequences.has(d.id)) this.sequences.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'SeededRandom', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs_1) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.events.has(d.id)) this.events.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_1.length;
-
-
-      if (restored > 0) logger.info(`[SeededRandom] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[SeededRandom] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
   }
 }
 
@@ -360,6 +296,27 @@ export class EventInjectionService {
     const tempSequence = { ...sequence, hash: '' };
     const computedHash = hashSCGEState(tempSequence);
     return storedHash === computedHash;
+  }
+
+  async loadFromDB(): Promise<void> {
+    try {
+      let restored = 0;
+      const recs = await loadServiceRecords({ serviceName: 'EventInjectionService', recordType: 'sequence', limit: 1000 });
+      for (const rec of recs) {
+        const d = rec.data as any;
+        if (d?.id && !this.sequences.has(d.id)) this.sequences.set(d.id, d);
+      }
+      restored += recs.length;
+      const recs_1 = await loadServiceRecords({ serviceName: 'EventInjectionService', recordType: 'event', limit: 1000 });
+      for (const rec of recs_1) {
+        const d = rec.data as any;
+        if (d?.id && !this.events.has(d.id)) this.events.set(d.id, d);
+      }
+      restored += recs_1.length;
+      if (restored > 0) logger.info(`[EventInjectionService] Restored ${restored} records from database`);
+    } catch (err) {
+      logger.warn(`[EventInjectionService] DB reload skipped: ${(err as Error).message}`);
+    }
   }
 }
 

@@ -387,8 +387,6 @@ export class FinancialKnowledgeBase extends VerticalKnowledgeBase {
   private generateEmbedding(text: string): number[] {
     return embeddingService.hashFallback(text);
   }
-    return embedding;
-  }
 
   private cosineSimilarity(a: number[], b: number[]): number {
     let dotProduct = 0;
