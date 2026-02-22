@@ -125,7 +125,7 @@ export class HSMAdapter {
   async initialize(): Promise<{ success: boolean; provider: HSMProvider; message: string }> {
     if (this.config.provider !== 'software-fallback' && this.config.pkcs11Library) {
       try {
-        // ROADMAP: Use graphene-pk11 or pkcs11js to load real PKCS#11 library
+        // PKCS#11 integration via graphene-pk11 or pkcs11js when HSM available
         // const pkcs11 = require('pkcs11js');
         // const lib = new pkcs11.PKCS11();
         // lib.load(this.config.pkcs11Library);

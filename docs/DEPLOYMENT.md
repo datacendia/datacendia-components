@@ -259,6 +259,40 @@ docker compose exec api env | grep DATABASE
 
 ---
 
+## ☸️ Kubernetes Deployment
+
+Kubernetes manifests are located in `deploy/k8s/`.
+
+```bash
+# 1. Create namespace
+kubectl apply -f deploy/k8s/namespace.yaml
+
+# 2. Create config and secrets (edit values first!)
+kubectl apply -f deploy/k8s/configmap.yaml
+
+# 3. Deploy backend (3 replicas + HPA 3-10)
+kubectl apply -f deploy/k8s/backend-deployment.yaml
+
+# 4. Deploy frontend (2 replicas)
+kubectl apply -f deploy/k8s/frontend-deployment.yaml
+
+# 5. Apply network policies
+kubectl apply -f deploy/k8s/network-policy.yaml
+
+# 6. Apply ingress (requires nginx ingress controller + cert-manager)
+kubectl apply -f deploy/k8s/ingress.yaml
+```
+
+### Manifests included:
+- **namespace.yaml** — `datacendia` namespace
+- **backend-deployment.yaml** — Deployment, Service, ServiceAccount, HPA (autoscaling 3-10 pods)
+- **frontend-deployment.yaml** — Deployment, Service
+- **ingress.yaml** — TLS ingress with cert-manager
+- **configmap.yaml** — ConfigMap, Secrets, PVC for uploads
+- **network-policy.yaml** — Backend and frontend network isolation
+
+---
+
 ## 📞 Support
 
 - **Documentation**: https://docs.datacendia.com

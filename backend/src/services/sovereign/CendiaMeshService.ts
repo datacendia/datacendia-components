@@ -517,6 +517,19 @@ export class CendiaMeshService {
 
 
   }
+
+  // ===========================================================================
+  // HEALTH CHECK
+  // ===========================================================================
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'CendiaMesh',
+      timestamp: new Date(),
+      details: { uptime: process.uptime(), memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576) },
+    };
+  }
 }
 
 export const cendiaMeshService = new CendiaMeshService();

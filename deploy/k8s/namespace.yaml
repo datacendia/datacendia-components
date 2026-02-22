@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: datacendia
+  labels:
+    app.kubernetes.io/name: datacendia
+    app.kubernetes.io/part-of: datacendia-platform

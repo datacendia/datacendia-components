@@ -1680,6 +1680,18 @@ Respond as JSON:
     const threatContext = recentThreats.map((t: any) => `${t.title} (${t.threat_type})`).join(', ');
     return `Based on recent activity (${threatContext}), additional related threats may be present in the environment targeting similar vectors`;
   }
+  // ===========================================================================
+  // HEALTH CHECK
+  // ===========================================================================
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'CendiaAegis',
+      timestamp: new Date(),
+      details: { uptime: process.uptime(), memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576) },
+    };
+  }
 }
 
 // Export singleton instance

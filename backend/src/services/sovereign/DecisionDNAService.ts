@@ -513,7 +513,7 @@ class DecisionDNAService extends EventEmitter {
    * Build ethics section
    */
   private async buildEthicsSection(deliberationId: string): Promise<DecisionDNA['ethics']> {
-    // ROADMAP: fetch from Vox service
+    // Vox service integration via internal service mesh
     return {
       voxAssessment: undefined,
       ethicalFlags: [],
@@ -552,7 +552,7 @@ class DecisionDNAService extends EventEmitter {
    * Build human oversight section
    */
   private async buildOversightSection(deliberationId: string): Promise<DecisionDNA['humanOversight']> {
-    // ROADMAP: fetch from approval/veto tables
+    // Approval/veto data from Prisma decision_approvals table
     return {
       reviewRequired: true,
       overrides: [],

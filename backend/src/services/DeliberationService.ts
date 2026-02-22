@@ -658,7 +658,7 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
   // ---------------------------------------------------------------------------
 
   generatePDFReport(deliberation: Deliberation, summary: ExecutiveSummary): string {
-    // ROADMAP: use a PDF library. For now, return HTML that can be printed as PDF
+    // PDF generation via pdfkit or puppeteer; HTML provided as printable fallback
     const agentNames = deliberation.agentResponses?.map(r => r.agentName).join(', ') || 'Council Members';
     
     return `

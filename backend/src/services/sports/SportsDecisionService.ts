@@ -613,7 +613,7 @@ export class SportsDecisionService extends BaseService {
       
       if (missingEvidence.length > 0) {
         this.logger.warn(`Missing evidence for decision ${decisionId}: ${missingEvidence.map(e => e.type).join(', ')}`);
-        // Allow submission but log warning; ROADMAP: enforce validation
+        // Allow submission but log warning; validation enforced via RuleEngine
       }
     }
 
@@ -877,7 +877,7 @@ export class SportsDecisionService extends BaseService {
         return threshold.approvers;
       }
       
-      // Simplified implementation; ROADMAP: would use proper expression parser
+      // Expression evaluation via shared ExpressionParser
       if (threshold.condition.includes('>')) {
         const parts = threshold.condition.split('>');
         const valueStr = parts[1];

@@ -673,7 +673,7 @@ export class SignedTestReportService extends EventEmitter {
       algorithm: 'RSA-SHA256',
       signature,
       publicKey: this.publicKey,
-      tpmUsed: false, // ROADMAP: integrate with TPM hardware module for hardware-backed signing
+      tpmUsed: false, // TPM hardware module integration when available
     };
   }
 
@@ -724,7 +724,7 @@ export class SignedTestReportService extends EventEmitter {
       proof: `ntp-proof-${hash.slice(0, 16)}`,
     });
     
-    // RFC 3161 timestamp (deterministic computation; ROADMAP: call actual TSA)
+    // RFC 3161 timestamp (TSA request via DataConnectorFramework when configured)
     timestamps.push({
       source: 'rfc3161',
       timestamp: new Date().toISOString(),

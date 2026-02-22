@@ -1563,6 +1563,19 @@ Find 1-3 specific requirement conflicts between frameworks. Return JSON:
     evidence.push('Verification test results');
     return evidence;
   }
+
+  // ===========================================================================
+  // HEALTH CHECK
+  // ===========================================================================
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'CendiaPanopticon',
+      timestamp: new Date(),
+      details: { uptime: process.uptime(), memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576) },
+    };
+  }
 }
 
 // Export singleton instance

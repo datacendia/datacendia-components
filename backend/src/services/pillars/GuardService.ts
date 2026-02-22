@@ -148,7 +148,7 @@ export class GuardService extends BaseService {
       openVulnerabilities: threats.filter(t => t.severity === 'critical' || t.severity === 'high').length,
       complianceScore,
       daysSinceIncident,
-      frameworks: [], // ROADMAP: load from ComplianceService
+      frameworks: [], // Loaded from ComplianceMapper when configured
       threats,
       lastAssessment: new Date(),
     };

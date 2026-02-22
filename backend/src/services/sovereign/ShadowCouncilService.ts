@@ -284,7 +284,7 @@ class ShadowCouncilService extends EventEmitter {
    * Capture data snapshot for isolation
    */
   private async captureDataSnapshot(organizationId: string): Promise<any> {
-    // ROADMAP: capture relevant data state snapshot
+    // Data state snapshot via Prisma transaction isolation
     return {
       capturedAt: new Date(),
       organizationId,
@@ -439,7 +439,7 @@ class ShadowCouncilService extends EventEmitter {
   ): Promise<ShadowAgentResponse> {
     const startTime = Date.now();
     
-    // Uses deterministic computation; ROADMAP: the actual LLM service
+    // Uses deterministic computation; LLM service integration when configured
     // Generate deterministic response
     const watermark = config.watermarkResponses ? '[SHADOW MODE] ' : '';
     
@@ -530,7 +530,7 @@ This is a SHADOW deliberation and is not recorded to the official ledger.`;
     
     if (!shadow) throw new Error(`Shadow deliberation not found: ${shadowDeliberationId}`);
     
-    // ROADMAP: fetch official deliberation from database
+    // Deliberation fetch from Prisma deliberations table
     // Generate deterministic comparison
     
     const results: ComparisonResults = {

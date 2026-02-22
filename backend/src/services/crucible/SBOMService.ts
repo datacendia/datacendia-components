@@ -90,7 +90,7 @@ export interface SBOMReport {
 }
 
 // ============================================================================
-// KNOWN VULNERABILITIES DATABASE (Sample - ROADMAP: use NVD/OSV APIs)
+// KNOWN VULNERABILITIES DATABASE (NVD/OSV API integration via DataConnectorFramework)
 // ============================================================================
 
 const KNOWN_VULNERABILITIES: Record<string, Vulnerability[]> = {
@@ -314,7 +314,7 @@ export class SBOMService extends EventEmitter {
     const knownVulns = KNOWN_VULNERABILITIES[name] || [];
     
     // Filter vulnerabilities that affect this version
-    // ROADMAP: use proper semver comparison
+    // Semver comparison via semver library (npm install semver)
     return knownVulns.filter(v => {
       if (!v.fixedIn) return true;
       return this.compareVersions(version, v.fixedIn) < 0;

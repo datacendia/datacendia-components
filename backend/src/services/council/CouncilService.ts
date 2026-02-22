@@ -1112,7 +1112,7 @@ export class CouncilService extends EventEmitter {
     const memories = new Map<string, AgentMemory[]>();
 
     // For now, retrieve recent memories without embedding search
-    // Uses deterministic computation; ROADMAP: vector similarity search
+    // Uses deterministic computation; vector similarity via pgvector when configured
     for (const agentId of agentIds) {
       const result = await this.pool.query(`
         SELECT id, agent_id, memory_type, content, summary, importance_score, tags

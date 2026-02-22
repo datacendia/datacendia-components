@@ -219,7 +219,7 @@ All verticals have real validation logic, compliance framework definitions, and 
 | **Platform Assistant routes** | 6 passing | Query workflow + suggestions |
 | **Council integration** | Passing | End-to-end deliberation flow |
 | **DataDiode, RAG, SSO, HSM, NLP bias, FHIR** | Passing | Integration coverage |
-| **Total test files** | 228 passing / 21 skipped / 1 env-dependent fail (Ollama) | **204,932 individual tests** |
+| **Total test files** | 231 passing / 21 skipped / 1 env-dependent fail (Ollama) | **205,001 individual tests** |
 
 **Note:** The 1 failing test (`ollama.integration.test.ts`) requires a running Ollama instance. It passes when Ollama is available.
 
@@ -272,12 +272,12 @@ The codebase is feature-complete and integration-tested. Production deployment r
 | **Verticals (20+)** | 10/10 | All DB-backed, shared embedding service |
 | **Enterprise Features** | 10/10 | SSO, HSM, Dissent, Apotheosis, OmniTranslate |
 | **TypeScript Compilation** | 10/10 | 0 errors on `tsc --noEmit` |
-| **Test Coverage** | 9.5/10 | 204,932 pass / 1 env-dependent fail |
+| **Test Coverage** | 9.5/10 | 205,001 pass / 1 env-dependent fail (Ollama) |
 | **MFA / Security** | 10/10 | Full TOTP flow, backup codes, canary alerts, SIEM dispatch |
-| **Overall Client Readiness** | **9.8/10** | 251 ROADMAP extension points for client-specific work |
+| **Overall Client Readiness** | **9.8/10** | 117 ROADMAP markers remain (reduced from 251) |
 
 ---
 
 *Service Reality Audit — Datacendia Platform*
-*Last updated: Feb 21, 2026 (post-cleanup — 84 TS errors fixed, 20 TODOs resolved)*
+*Last updated: Feb 22, 2026 (test counts updated; 117/251 ROADMAP markers remain)*
 *Methodology: Source code inspection, test execution, persistence verification across 320+ service files*

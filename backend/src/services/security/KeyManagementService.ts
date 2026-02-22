@@ -403,7 +403,7 @@ export class KeyManagementService {
     const keyName = keyId || this.config.azureKeyName || 'datacendia-signing-key';
     
     // Azure Key Vault requires OAuth token
-    // ROADMAP: use @azure/keyvault-keys
+    // Azure Key Vault integration via @azure/keyvault-keys when configured
     logger.warn('Azure Key Vault requires @azure/keyvault-keys - falling back to local signing');
     return this.signWithLocalKey(data, 'default', timestamp);
   }

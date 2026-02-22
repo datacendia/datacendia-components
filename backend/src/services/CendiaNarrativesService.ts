@@ -1113,7 +1113,30 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
 
 
   }
+  // ===========================================================================
+  // DASHBOARD
+  // ===========================================================================
+
+  async getDashboard(): Promise<{
+    serviceName: string;
+    status: string;
+    recordCount: number;
+    lastActivity: Date | null;
+    uptime: number;
+    metrics: Record<string, number>;
+  }> {
+    const maps = Object.entries(this).filter(([_, v]) => v instanceof Map) as [string, Map<string, unknown>][];
+    const totalRecords = maps.reduce((sum, [_, m]) => sum + m.size, 0);
+    return {
+      serviceName: 'CendiaNarratives',
+      status: 'operational',
+      recordCount: totalRecords,
+      lastActivity: new Date(),
+      uptime: process.uptime(),
+      metrics: Object.fromEntries(maps.map(([k, m]) => [k, m.size])),
+    };
+  }
 }
 
-// Export singleton
+// Export singleton instance
 export const cendiaNarrativesService = new CendiaNarrativesService();

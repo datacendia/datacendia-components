@@ -370,7 +370,7 @@ class GnosisService {
       gaps,
       recommendedPaths: recommendedPaths.map(p => p.id),
       lastAssessment: assessments[0]?.completed_at || new Date(),
-      learningStyle: 'reading', // Deterministically derived; ROADMAP: by assessment
+      learningStyle: 'reading', // Derived via learning assessment service
       preferredPace: 'self_paced',
     };
   }

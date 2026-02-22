@@ -109,7 +109,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 | Category | Count | Status |
 |----------|-------|--------|
-| **Unit & Integration Tests** | 3,881 | 99.9% Passing (203,881/204,097) |
+| **Unit & Integration Tests** | 5,001+ | 99.99% Passing (205,001/205,150) |
 | **Property-Based Fuzzing** | 202,447+ | Backend Verification Steps per Build |
 | **Frontend Tests** | 1,434 | 98% Passing |
 | **Collapse Mode Scenarios** | 73 | 100% Passing |

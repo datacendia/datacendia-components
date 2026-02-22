@@ -34,7 +34,7 @@ interface EmailTemplate {
 
 // Create transporter based on environment
 const createTransporter = () => {
-  // ROADMAP: use configured SMTP
+  // SMTP transport configured via environment (SMTP_HOST, SMTP_PORT, etc.)
   if (process.env.SMTP_HOST) {
     return nodemailer.createTransport({
       host: process.env.SMTP_HOST,

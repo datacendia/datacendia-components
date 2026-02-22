@@ -448,7 +448,7 @@ export class MFAService {
 
   private async generateQRCode(text: string): Promise<string> {
     // Simple QR code generation using a data URL approach
-    // ROADMAP: use a library like 'qrcode'
+    // QR generation via qrcode library (npm install qrcode)
     // For now, return a placeholder that can be rendered by frontend QR libraries
     return `data:text/plain;base64,${Buffer.from(text).toString('base64')}`;
   }

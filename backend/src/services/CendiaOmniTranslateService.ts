@@ -1510,6 +1510,19 @@ ${targetLang.name} translation (provide ONLY the translation, no explanations):`
       glossaryUtilization,
     };
   }
+
+  // ===========================================================================
+  // HEALTH CHECK
+  // ===========================================================================
+
+  async getHealth(): Promise<{ healthy: boolean; service: string; timestamp: Date; details: Record<string, unknown> }> {
+    return {
+      healthy: true,
+      service: 'CendiaOmniTranslate',
+      timestamp: new Date(),
+      details: { uptime: process.uptime(), memoryMB: Math.round(process.memoryUsage().heapUsed / 1048576) },
+    };
+  }
 }
 
 // =============================================================================

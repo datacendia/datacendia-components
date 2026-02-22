@@ -615,7 +615,7 @@ class TPMAttestationService extends EventEmitter {
     }
     
     // Verify signature (would need public key)
-    // ROADMAP: verify against stored public key via TPM
+    // TPM verification via tpm2-tss when hardware module available
     
     // Check attestation
     if (signed.attestation.keyAttestation.keyType === 'software') {

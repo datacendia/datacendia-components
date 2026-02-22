@@ -693,7 +693,7 @@ class IISSService {
       },
       synthetic_media_authentication: {
         'C2PA Provenance':            { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 30 },  // Real SHA-256 hashing + Prisma
-        'Deepfake Detection':         { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },  // Dynamic evidence-based scoring, ML models still ROADMAP
+        'Deepfake Detection':         { serviceExists: true, hasDb: false, hasGaps: true, maxScore: 30 },  // Dynamic evidence-based scoring, ML models pending integration
         'Chain of Custody':           { serviceExists: true, hasDb: true, hasGaps: false, maxScore: 25 },  // Hash-linked chain + Prisma
         'Metadata Integrity':         { serviceExists: true, hasDb: false, hasGaps: false, maxScore: 20 }, // EXIF/metadata + dynamic indicators
         'Multi-Modal Verification':   { serviceExists: false, hasDb: false, hasGaps: true, maxScore: 20 }, // Requires ONNX runtime or external ML API

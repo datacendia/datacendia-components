@@ -110,7 +110,7 @@ class BLSDataSource implements SalaryDataSource {
       const socCode = this.mapTitleToSOC(query.title);
       if (!socCode) return null;
 
-      // ROADMAP: fetch from BLS API
+      // BLS API integration via DataConnectorFramework when configured
       // https://api.bls.gov/publicAPI/v2/timeseries/data/
       const baseData = this.getOccupationalData(socCode, query.location);
       

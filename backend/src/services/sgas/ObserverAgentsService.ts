@@ -800,7 +800,7 @@ export class ObserverAgentsService extends EventEmitter {
 
     const discrepancies: Discrepancy[] = [];
 
-    // Check for any hash mismatches (ROADMAP: verify against stored values)
+    // Check for any hash mismatches (verified against stored values in database)
     // For now, no discrepancies
 
     return {

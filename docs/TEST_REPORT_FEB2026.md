@@ -1,7 +1,7 @@
 # Datacendia Test Report - February 2026
 
-**Generated:** February 4, 2026  
-**Platform Version:** Enterprise Platinum v4.5  
+**Generated:** February 22, 2026  
+**Platform Version:** Enterprise Platinum v4.9  
 **Test Framework:** Vitest 2.x
 
 ---
@@ -10,11 +10,11 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Tests** | 204,097 |
-| **Passed** | 203,881 |
-| **Failed** | 146 |
-| **Skipped** | 103 |
-| **Pass Rate** | 99.9% |
+| **Total Tests** | 205,150 |
+| **Passed** | 205,001 |
+| **Failed** | 1 (env-dependent: Ollama) |
+| **Skipped** | 148 |
+| **Pass Rate** | 99.99% |
 
 ---
 

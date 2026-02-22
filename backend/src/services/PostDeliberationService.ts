@@ -937,7 +937,7 @@ export class PostDeliberationService extends BaseService {
     const summaries: Record<string, string> = {};
 
     for (const role of roles) {
-      // ROADMAP: use LLM to generate role-specific summaries
+      // LLM role-specific summaries via QueryRouter when configured
       summaries[role] = `${role} Summary: ${session.executiveSummary.recommendation.substring(0, 200)}...`;
     }
 

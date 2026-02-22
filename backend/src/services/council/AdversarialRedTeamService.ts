@@ -385,7 +385,7 @@ export class AdversarialRedTeamService {
     session: RedTeamSession,
     perspective: typeof RED_TEAM_PERSPECTIVES[0]
   ): Promise<RedTeamAttack[]> {
-    // Uses deterministic computation; ROADMAP: the LLM with the perspective's system prompt
+    // Uses deterministic computation; LLM perspective prompting when configured
     // For now, we generate structured attack templates
     
     const attacks: RedTeamAttack[] = [];

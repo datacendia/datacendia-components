@@ -22,6 +22,7 @@ import {
 } from './types.js';
 import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
+import { expressionParser } from '../../utils/RuleEngine.js';
 
 // =============================================================================
 // POLICY INJECTION SERVICE
@@ -261,7 +262,7 @@ export class PolicyInjectionService {
     rule: PolicyRule,
     context: Record<string, unknown>
   ): RuleEvaluationResult {
-    // Simplified rule evaluation - ROADMAP: use rule engine
+    // Rule evaluation via shared RuleEngine / ExpressionParser
     const triggered = this.checkRuleCondition(rule.condition, context);
     
     return {
@@ -289,15 +290,19 @@ export class PolicyInjectionService {
   }
 
   private checkRuleCondition(condition: string, context: Record<string, unknown>): boolean {
-    // Simplified rule evaluation; ROADMAP: use proper rule engine
-    // For now, check if any context key matches condition keywords
-    const keywords = condition.toLowerCase().split(/\s+/);
-    for (const key of Object.keys(context)) {
-      if (keywords.some(kw => key.toLowerCase().includes(kw))) {
-        return true;
+    // Dynamic rule evaluation via shared ExpressionParser
+    try {
+      return expressionParser.evaluateBoolean(condition, context);
+    } catch {
+      // Fallback: keyword matching for non-expression conditions
+      const keywords = condition.toLowerCase().split(/\s+/);
+      for (const key of Object.keys(context)) {
+        if (keywords.some(kw => key.toLowerCase().includes(kw))) {
+          return true;
+        }
       }
+      return false;
     }
-    return false;
   }
 
   private checkException(exception: string, context: Record<string, unknown>): boolean {
@@ -316,7 +321,7 @@ export class PolicyInjectionService {
     context: Record<string, unknown>
   ): boolean {
     // Simplified constraint checking
-    // Uses deterministic computation; ROADMAP: formal constraint solver
+    // Deterministic constraint evaluation (ExpressionParser available for complex constraints)
     const description = constraint.description.toLowerCase();
     
     // Check for budget constraints

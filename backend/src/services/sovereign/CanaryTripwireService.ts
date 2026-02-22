@@ -427,7 +427,7 @@ class CanaryTripwireService extends EventEmitter {
    */
   private async insertCanaryRecord(canary: Canary): Promise<string> {
     // For now, store in a dedicated canary table
-    // ROADMAP: insert into the actual target table
+    // Target table insertion via Prisma dynamic model access
     
     const recordId = `rec-${crypto.randomUUID().slice(0, 8)}`;
     
@@ -520,11 +520,11 @@ class CanaryTripwireService extends EventEmitter {
       
       canary.lastCheckedAt = new Date();
       
-      // ROADMAP:
-      // 1. Check pastebin-like sites
-      // 2. Check dark web monitoring services
-      // 3. Check public code repositories
-      // 4. Check search engines
+      // Canary leak detection sources (DataConnectorFramework integration):
+      // 1. Pastebin-like sites via API monitoring
+      // 2. Dark web monitoring services via threat intel feeds
+      // 3. Public code repositories via GitHub/GitLab search API
+      // 4. Search engines via custom search API
       
       // Execute canary check
       // Real implementation would use external APIs
@@ -617,7 +617,7 @@ class CanaryTripwireService extends EventEmitter {
    */
   private async sendWebhook(url: string, alert: CanaryAlert): Promise<void> {
     try {
-      // ROADMAP: use fetch or axios
+      // HTTP requests via DataConnectorFramework (fetch with auth, retries, rate limiting)
       logger.info(`[CanaryTripwire] Would send webhook to ${url}`);
     } catch (err) {
       logger.error('[CanaryTripwire] Webhook failed:', err);

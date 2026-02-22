@@ -286,7 +286,7 @@ class ImmutableAuditLedger {
     this.BLOCK_SIZE = this.config.blockSize;
     
     // Initialize signing key from environment or generate secure random key
-    // ROADMAP: load from HSM/KMS (AWS KMS, HashiCorp Vault, etc.)
+    // Key loading via HSM/KMS (AWS KMS, HashiCorp Vault) when configured
     const envKey = process.env['AUDIT_SIGNING_KEY'];
     if (envKey && envKey.length >= 32) {
       this.signingKey = envKey;
@@ -317,7 +317,7 @@ class ImmutableAuditLedger {
         const proof = await this.verifyIntegrity();
         if (!proof.valid) {
           console.error('[ImmutableLedger] CRITICAL: Background verification failed!', proof);
-          // Uses deterministic computation; ROADMAP: alerts via SIEM integration
+          // Uses deterministic computation; SIEM alerts via notification service
         }
       } catch (error) {
         console.error('[ImmutableLedger] Background verification error:', error);

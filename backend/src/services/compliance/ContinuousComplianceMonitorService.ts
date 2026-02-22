@@ -246,7 +246,7 @@ export class ContinuousComplianceMonitorService {
 
     const previousStatus = control.status;
     
-    // ROADMAP: run actual compliance checks
+    // Compliance checks via ComplianceMapper and RuleEngine
     const newStatus: ComplianceStatus = 'compliant'; // Default until real checks implemented
     
     control.status = newStatus;

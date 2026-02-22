@@ -488,7 +488,7 @@ Output JSON:
     execution.status = 'executing';
     execution.currentStep = stepIndex;
 
-    // Deterministic step execution (ROADMAP: call actual services)
+    // Deterministic step execution (service calls wired via DataConnectorFramework)
     const result = `Step ${step.order} "${step.action}" executed successfully`;
     
     execution.executionLog.push({

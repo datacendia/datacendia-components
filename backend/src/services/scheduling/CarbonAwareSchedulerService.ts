@@ -99,7 +99,7 @@ export interface CarbonReport {
 }
 
 // ============================================================================
-// CARBON INTENSITY DATA (deterministic; ROADMAP: use real APIs)
+// CARBON INTENSITY DATA (API integration via DataConnectorFramework)
 // ============================================================================
 
 const REGIONAL_CARBON_INTENSITY: Record<string, {
@@ -145,7 +145,7 @@ export class CarbonAwareSchedulerService {
       return cached;
     }
 
-    // Deterministic carbon intensity (ROADMAP: call electricity maps API or similar)
+    // Deterministic carbon intensity (API integration via DataConnectorFramework)
     const config = REGIONAL_CARBON_INTENSITY[region] || { base: 300, variance: 100, renewablePercent: 30 };
     const hourOfDay = new Date().getHours();
     

@@ -1,0 +1,170 @@
+﻿backend\src\routes\core.ts|139|logger.error('Failed to get roadmap:', error);
+backend\src\routes\core.ts|183|logger.error('Failed to add to roadmap:', error);
+backend\src\routes\enterprise.ts|712|logger.error('Failed to generate roadmap:', error);
+backend\src\routes\enterprise.ts|723|logger.error('Failed to get roadmap:', error);
+backend\src\services\collapse\CollapseOrchestrator.ts|144|// Build Consensus Track (deterministic; ROADMAP: integrate with Council)
+backend\src\services\command\CendiaCommandPlatinumService.ts|597|// Sign the merkle root (ROADMAP: use KMS)
+backend\src\services\command\CendiaCommandService.ts|997|// Uses deterministic computation; ROADMAP: to the Council
+backend\src\services\compliance\ContinuousComplianceMonitorService.ts|249|// ROADMAP: run actual compliance checks
+backend\src\services\compliance\RegulatorySandboxService.ts|525|// Deterministic compliance check (ROADMAP: analyze actual system)
+backend\src\services\consolidated\index.ts|702|// ROADMAP: verify with KMS
+backend\src\services\core\CendiaBrandService.ts|373|// Uses deterministic computation; ROADMAP: news/social
+backend\src\services\core\CendiaFoundryService.ts|85|private roadmap: Map<string, RoadmapItem> = new Map();
+backend\src\services\core\CendiaWatchService.ts|363|// Uses deterministic computation; ROADMAP: news/social APIs
+backend\src\services\council\AdversarialRedTeamService.ts|343|* ROADMAP: call the LLM for each perspective
+backend\src\services\council\AdversarialRedTeamService.ts|388|// Uses deterministic computation; ROADMAP: the LLM with the perspective's system prompt
+backend\src\services\council\CouncilService.ts|1115|// Uses deterministic computation; ROADMAP: vector similarity search
+backend\src\services\crucible\SBOMService.ts|93|// KNOWN VULNERABILITIES DATABASE (Sample - ROADMAP: use NVD/OSV APIs)
+backend\src\services\crucible\SBOMService.ts|317|// ROADMAP: use proper semver comparison
+backend\src\services\dcii\CrossJurisdictionConflictService.ts|476|affectedDataSubjects: 0, // ROADMAP: real data subject count from registry
+backend\src\services\dcii\TimestampAuthorityService.ts|378|// Uses deterministic computation; ROADMAP: an actual HTTP request to the TSA
+backend\src\services\dcii\TimestampAuthorityService.ts|411|// Uses deterministic computation; ROADMAP: to an actual blockchain
+backend\src\services\enterprise\CendiaHabitatService.ts|551|// Deterministic energy data (ROADMAP: come from building management system)
+backend\src\services\enterprise\CendiaMeshService.ts|571|const roadmap: IntegrationRoadmap = {
+backend\src\services\enterprise\CendiaMeshService.ts|788|byRoadmap: Array<{ name: string; status: string; compatibility: number; phaseProgress: number; milestoneProgress: number; talentAtRisk: number; health: string }>;
+backend\src\services\enterprise\CendiaMeshService.ts|927|byRoadmap: Array<{ roadmap: string; tracked: number; atRisk: number; critical: number; avgFlightRisk: number }>;
+backend\src\services\enterprise\CendiaMeshService.ts|937|const byRoadmap: Array<{ roadmap: string; tracked: number; atRisk: number; critical: number; avgFlightRisk: number }> = [];
+backend\src\services\enterprise\CendiaMeshService.ts|945|byRoadmap.push({ roadmap: r.name, tracked: talent.length, atRisk, critical, avgFlightRisk: Math.round(avgRisk) });
+backend\src\services\enterprise\CendiaNerveService.ts|517|// Deterministic step execution (ROADMAP: trigger real recovery actions)
+backend\src\services\enterprise\CendiaTransitService.ts|655|// Uses deterministic computation; ROADMAP: alerts to security teams, emergency contacts, etc.
+backend\src\services\evidence\EvidenceExportService.ts|1048|// Simple tar-like format (ROADMAP: use proper tar library)
+backend\src\services\evidence\RegulatorsReceiptService.ts|1134|// ROADMAP: use KMS to sign
+backend\src\services\evidence\SignedTestReportService.ts|676|tpmUsed: false, // ROADMAP: integrate with TPM hardware module for hardware-backed signing
+backend\src\services\evidence\SignedTestReportService.ts|727|// RFC 3161 timestamp (deterministic computation; ROADMAP: call actual TSA)
+backend\src\services\evidence\TestEvidenceLedgerService.ts|589|timestampsValid: true, // ROADMAP: verify against external RFC 3161 timestamp authority
+backend\src\services\evidence\TestEvidenceLedgerService.ts|758|// NTP timestamp (deterministic computation; ROADMAP: query actual NTP server)
+backend\src\services\legal\CendiaBridgeService.ts|306|// Establish connection (ROADMAP: authenticate with service)
+backend\src\services\llm\RAGService.ts|234|// Get all embeddings (ROADMAP: use pgvector for efficient similarity search)
+backend\src\services\metrics\ROIMetricsService.ts|224|avgPacketGenerationMs: 1200, // ROADMAP: instrument actual timing
+backend\src\services\metrics\ROIMetricsService.ts|226|avgExportSizeKb: 45, // ROADMAP: track actual export sizes
+backend\src\services\pillars\FlowService.ts|211|// Deterministic execution (ROADMAP: run actual workflow engine)
+backend\src\services\pillars\FlowService.ts|250|if (true) { // ROADMAP: real step execution logic
+backend\src\services\pillars\GuardService.ts|151|frameworks: [], // ROADMAP: load from ComplianceService
+backend\src\services\pillars\PredictService.ts|169|// Deterministic training (ROADMAP: trigger actual ML pipeline)
+backend\src\services\pillars\PredictService.ts|193|// Generate prediction (ROADMAP: call actual ML inference via Ollama/custom)
+backend\src\services\scge\PolicyInjectionService.ts|264|// Simplified rule evaluation - ROADMAP: use rule engine
+backend\src\services\scge\PolicyInjectionService.ts|292|// Simplified rule evaluation; ROADMAP: use proper rule engine
+backend\src\services\scge\PolicyInjectionService.ts|319|// Uses deterministic computation; ROADMAP: formal constraint solver
+backend\src\services\scheduling\CarbonAwareSchedulerService.ts|102|// CARBON INTENSITY DATA (deterministic; ROADMAP: use real APIs)
+backend\src\services\scheduling\CarbonAwareSchedulerService.ts|148|// Deterministic carbon intensity (ROADMAP: call electricity maps API or similar)
+backend\src\services\security\HSMAdapter.ts|128|// ROADMAP: Use graphene-pk11 or pkcs11js to load real PKCS#11 library
+backend\src\services\security\ImmutableAuditLedger.ts|289|// ROADMAP: load from HSM/KMS (AWS KMS, HashiCorp Vault, etc.)
+backend\src\services\security\ImmutableAuditLedger.ts|320|// Uses deterministic computation; ROADMAP: alerts via SIEM integration
+backend\src\services\security\KeyManagementService.ts|406|// ROADMAP: use @azure/keyvault-keys
+backend\src\services\security\MFAService.ts|451|// ROADMAP: use a library like 'qrcode'
+backend\src\services\sgas\ObserverAgentsService.ts|803|// Check for any hash mismatches (ROADMAP: verify against stored values)
+backend\src\services\sovereign\CanaryTripwireService.ts|430|// ROADMAP: insert into the actual target table
+backend\src\services\sovereign\CanaryTripwireService.ts|523|// ROADMAP:
+backend\src\services\sovereign\CanaryTripwireService.ts|620|// ROADMAP: use fetch or axios
+backend\src\services\sovereign\CendiaGlassService.ts|231|// Uses deterministic computation; ROADMAP: real data from the appropriate service
+backend\src\services\sovereign\CendiaVaultService.ts|142|// ROADMAP: connect to:
+backend\src\services\sovereign\CendiaVaultService.ts|370|// ROADMAP: fetch from object storage
+backend\src\services\sovereign\CendiaVaultService.ts|515|// ROADMAP: verify with KeyManagementService
+backend\src\services\sovereign\DataDiodeService.ts|493|// ROADMAP: Layer 5 would be ClamAV or VirusTotal API integration
+backend\src\services\sovereign\DataDiodeService.ts|605|event.signedBy = 'verified'; // ROADMAP: extract signer identity from X.509 certificate
+backend\src\services\sovereign\DataDiodeService.ts|845|// ROADMAP: use parquetjs or apache-arrow for full Parquet column extraction
+backend\src\services\sovereign\DataDiodeService.ts|885|// ROADMAP: use ajv for full JSON Schema validation
+backend\src\services\sovereign\DecisionDNAService.ts|516|// ROADMAP: fetch from Vox service
+backend\src\services\sovereign\DecisionDNAService.ts|555|// ROADMAP: fetch from approval/veto tables
+backend\src\services\sovereign\DeterministicReplayService.ts|672|// Uses deterministic computation; ROADMAP: the actual Council service with deterministic mode
+backend\src\services\sovereign\DeterministicReplayService.ts|707|* Deterministic replay; ROADMAP: call actual services
+backend\src\services\sovereign\DeterministicReplayService.ts|716|// Deterministic agent responses; ROADMAP: call LLMs with seeds
+backend\src\services\sovereign\FederatedMeshService.ts|490|dataPoints: 0 // ROADMAP: calculate real data points
+backend\src\services\sovereign\FederatedMeshService.ts|761|// ROADMAP: use proper Gaussian mechanism
+backend\src\services\sovereign\PortableInstanceService.ts|815|// ROADMAP: create actual ZIP archive
+backend\src\services\sovereign\QRAirGapBridgeService.ts|445|// ROADMAP: use actual QR library
+backend\src\services\sovereign\QRAirGapBridgeService.ts|455|* (ROADMAP: replace with actual QR code library)
+backend\src\services\sovereign\QRAirGapBridgeService.ts|458|// This is a placeholder - ROADMAP: use qrcode library
+backend\src\services\sovereign\ShadowCouncilService.ts|287|// ROADMAP: capture relevant data state snapshot
+backend\src\services\sovereign\ShadowCouncilService.ts|442|// Uses deterministic computation; ROADMAP: the actual LLM service
+backend\src\services\sovereign\ShadowCouncilService.ts|533|// ROADMAP: fetch official deliberation from database
+backend\src\services\sovereign\TimeLockService.ts|273|// ROADMAP: use proper prime generation
+backend\src\services\sovereign\TimeLockService.ts|296|// Simple primality test (ROADMAP: use Miller-Rabin)
+backend\src\services\sovereign\TPMAttestationService.ts|618|// ROADMAP: verify against stored public key via TPM
+backend\src\services\sports\SportsDecisionService.ts|616|// Allow submission but log warning; ROADMAP: enforce validation
+backend\src\services\sports\SportsDecisionService.ts|880|// Simplified implementation; ROADMAP: would use proper expression parser
+backend\src\services\storage\AnalyticsRouter.ts|189|// ROADMAP: implement streaming for timeline queries
+backend\src\services\strategic\CendiaGraphService.ts|709|embedding: Buffer.from([]), // Deterministically derived; ROADMAP: by embedding service
+backend\src\services\strategic\CendiaIngestService.ts|249|// Extract text (ROADMAP: use Tika service)
+backend\src\services\strategic\CendiaIngestService.ts|290|// Uses deterministic computation; ROADMAP: Apache Tika or similar
+backend\src\services\strategic\RDPService.ts|236|await this.delay(100); // ROADMAP: pull Docker images, package ML models
+backend\src\services\strategic\RDPService.ts|574|// ROADMAP: check actual container health via Docker API or k8s probe
+backend\src\services\strategic\RDPService.ts|585|// ROADMAP: integrate Prometheus /metrics endpoint for real resource usage
+backend\src\services\strategic\RDPService.ts|635|// Simple YAML stringification (ROADMAP: use js-yaml for proper YAML output)
+backend\src\services\strategic\SynthesisEngineService.ts|491|// Deterministic step execution (ROADMAP: call actual services)
+backend\src\services\verticals\aerospace\AerospaceVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\aerospace\AerospaceVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\aerospace\AerospaceVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\aerospace\AerospaceVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\agriculture\AgricultureVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\agriculture\AgricultureVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\agriculture\AgricultureVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\agriculture\AgricultureVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\automotive\AutomotiveVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\automotive\AutomotiveVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\automotive\AutomotiveVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\automotive\AutomotiveVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\construction\ConstructionVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\construction\ConstructionVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\construction\ConstructionVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\construction\ConstructionVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\core\VerticalPattern.ts|272|// ROADMAP: use actual asymmetric signing
+backend\src\services\verticals\financial\FinancialVertical.ts|227|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\financial\FinancialVertical.ts|251|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\financial\FinancialVertical.ts|546|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\financial\FinancialVertical.ts|1033|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\hospitality\HospitalityVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\hospitality\HospitalityVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\hospitality\HospitalityVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\hospitality\HospitalityVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\insurance\InsuranceVertical.ts|359|// Deterministic statistical computation; ROADMAP: integrate actuarial models
+backend\src\services\verticals\manufacturing\ManufacturingVertical.ts|257|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\manufacturing\ManufacturingVertical.ts|281|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\manufacturing\ManufacturingVertical.ts|578|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\manufacturing\ManufacturingVertical.ts|1065|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\media\MediaVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\media\MediaVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\media\MediaVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\media\MediaVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\meta\VerticalSentinelService.ts|452|// Deterministic sentinel scan; ROADMAP: scan live configured sources
+backend\src\services\verticals\meta\VerticalSentinelService.ts|457|if (false) { // ROADMAP: scan real regulatory feeds
+backend\src\services\verticals\nonprofit\NonprofitVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\nonprofit\NonprofitVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\nonprofit\NonprofitVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\nonprofit\NonprofitVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\pharmaceutical\PharmaceuticalVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\pharmaceutical\PharmaceuticalVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\pharmaceutical\PharmaceuticalVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\pharmaceutical\PharmaceuticalVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\professional\ProfessionalVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\professional\ProfessionalVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\professional\ProfessionalVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\professional\ProfessionalVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\retail\RetailVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\retail\RetailVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\retail\RetailVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\retail\RetailVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\telecom\TelecomVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\telecom\TelecomVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\telecom\TelecomVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\telecom\TelecomVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\verticals\transportation\TransportationVertical.ts|224|// Connector framework ready; ROADMAP: establish real API connections
+backend\src\services\verticals\transportation\TransportationVertical.ts|248|// Deterministic data ingestion; ROADMAP: call real APIs
+backend\src\services\verticals\transportation\TransportationVertical.ts|543|// Simplified violation detection; ROADMAP: implement full rule engine
+backend\src\services\verticals\transportation\TransportationVertical.ts|1030|// Simplified evaluation - ROADMAP: use expression parser
+backend\src\services\CendiaApotheosisService.ts|486|// Audit log storage (in-memory for now, ROADMAP: persist to database)
+backend\src\services\CendiaApotheosisService.ts|611|modelVersion: 'unknown', // Deterministically derived; ROADMAP: from model metadata
+backend\src\services\CendiaAuditService.ts|142|// ROADMAP: load from secure vault
+backend\src\services\CendiaCrucibleService.ts|1666|// Simple consensus check - ROADMAP: use more sophisticated NLP
+backend\src\services\CendiaCrucibleService.ts|1823|// Industry benchmark data (ROADMAP: source from aggregated data)
+backend\src\services\CendiaDissentService.ts|243|// ROADMAP: encrypt the real identity
+backend\src\services\CendiaDissentService.ts|633|// Uses deterministic computation; ROADMAP: with HR systems to monitor
+backend\src\services\CendiaDissentService.ts|753|// ROADMAP: use proper encryption
+backend\src\services\CendiaOrbitService.ts|214|// ROADMAP: query Neo4j and populate the graph
+backend\src\services\CendiaResponsibilityService.ts|553|// Uses deterministic computation; ROADMAP: TPM 2.0 or HSM
+backend\src\services\DecisionService.ts|762|// Simplified implementation; ROADMAP: use crypto
+backend\src\services\DeliberationService.ts|661|// ROADMAP: use a PDF library. For now, return HTML that can be printed as PDF
+backend\src\services\email.ts|37|// ROADMAP: use configured SMTP
+backend\src\services\gnosisService.ts|373|learningStyle: 'reading', // Deterministically derived; ROADMAP: by assessment
+backend\src\services\MarketSalaryService.ts|113|// ROADMAP: fetch from BLS API
+backend\src\services\PostDeliberationService.ts|940|// ROADMAP: use LLM to generate role-specific summaries

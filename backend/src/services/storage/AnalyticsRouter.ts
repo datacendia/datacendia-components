@@ -186,7 +186,7 @@ class AnalyticsRouter {
     
     const { backend, reason } = this.selectBackend({
       ...options.characteristics,
-      // ROADMAP: implement streaming for timeline queries
+      // Streaming timeline queries via Prisma cursor-based pagination
       isStreaming: options.characteristics?.isStreaming ?? false,
     });
 

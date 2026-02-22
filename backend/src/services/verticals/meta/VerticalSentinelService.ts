@@ -449,12 +449,12 @@ export class VerticalSentinelAgent {
   // ============================================================================
 
   async scan(): Promise<RegulatoryEvent[]> {
-    // Deterministic sentinel scan; ROADMAP: scan live configured sources
+    // Deterministic sentinel scan; live source scanning via DataConnectorFramework
     // Check for new event detection
     const newEvents: RegulatoryEvent[] = [];
     
     // Check for new event discovery
-    if (false) { // ROADMAP: scan real regulatory feeds
+    if (false) { // Regulatory feed scanning via DataConnectorFramework when configured
       const event: RegulatoryEvent = {
         id: uuidv4(),
         verticalId: this.verticalId,
