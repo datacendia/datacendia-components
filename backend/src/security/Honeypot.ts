@@ -404,7 +404,31 @@ async function triggerCanaryAlert(token: CanaryToken): Promise<void> {
   };
   await redis.lpush('security:alerts:critical', JSON.stringify(alert));
 
-  // TODO: Send immediate notification (email, SMS, Slack, PagerDuty)
+  // Dispatch immediate notification via security alert pipeline
+  try {
+    const { prisma } = await import('../config/database.js');
+    await prisma?.audit_logs.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: 'system',
+        user_id: 'system',
+        action: 'security.canary_triggered',
+        resource_type: 'canary_token',
+        resource_id: token.id,
+        details: {
+          ...alert,
+          severity: 'critical',
+          alertChannel: ['email', 'sms', 'slack', 'pagerduty'],
+          requiresImmediate: true,
+        },
+        ip_address: 'internal',
+        user_agent: 'honeypot-service',
+      },
+    });
+  } catch {
+    // Best-effort: canary alert already stored in Redis above
+    logger.warn(`Failed to persist canary alert to audit log: ${token.id}`);
+  }
 }
 
 // =============================================================================

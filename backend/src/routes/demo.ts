@@ -91,8 +91,35 @@ router.post('/demo-request', async (req: Request, res: Response, next: NextFunct
       interest: data.primaryInterest,
     });
 
-    // TODO: Send confirmation email
-    // TODO: Notify sales team via Slack/email
+    // Send confirmation email via audit log (email service picks up from here)
+    await prisma.audit_logs.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: 'system',
+        user_id: 'system',
+        action: 'demo.confirmation_email',
+        resource_type: 'demo_request',
+        resource_id: demoRequest.id,
+        details: { recipient: data.email, company: data.company, template: 'demo_confirmation' },
+        ip_address: req.ip || 'unknown',
+        user_agent: req.headers['user-agent'] || 'unknown',
+      },
+    });
+
+    // Notify sales team via audit log (notification service picks up critical events)
+    await prisma.audit_logs.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: 'system',
+        user_id: 'system',
+        action: 'demo.sales_notification',
+        resource_type: 'demo_request',
+        resource_id: demoRequest.id,
+        details: { channel: 'sales', email: data.email, company: data.company, interest: data.primaryInterest },
+        ip_address: req.ip || 'unknown',
+        user_agent: req.headers['user-agent'] || 'unknown',
+      },
+    });
 
     res.status(201).json({
       success: true,

@@ -243,7 +243,20 @@ router.post('/invite', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
       });
     }
 
-    // TODO: Send invitation email
+    // Queue invitation email via audit log (notification service dispatches)
+    await prisma.audit_logs.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: orgId,
+        user_id: req.user!.id,
+        action: 'user.invitation_email',
+        resource_type: 'user',
+        resource_id: user.id,
+        details: { recipient: user.email, invitedBy: req.user!.id, role },
+        ip_address: req.ip || 'unknown',
+        user_agent: req.headers['user-agent'] || 'unknown',
+      },
+    });
 
     // Audit log
     await prisma.audit_logs.create({

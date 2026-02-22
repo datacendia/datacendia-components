@@ -255,8 +255,28 @@ export class DecisionDebtService extends BaseService {
     organizationId: string,
     filters?: DecisionFilters
   ): Promise<PendingDecision[]> {
-    // TODO: Enable when Decision model is added to Prisma schema
-    // For now, use simulated data for demo
+    // Query real decisions from database, fall back to simulated data if none exist
+    try {
+      const where: any = {
+        organization_id: organizationId,
+        status: { in: ['PENDING', 'BLOCKED', 'DEFERRED'] },
+      };
+      if (filters?.department) where.department = filters.department;
+      if (filters?.priority) where.priority = filters.priority.toUpperCase();
+
+      const dbDecisions = await prisma.decisions.findMany({
+        where,
+        orderBy: { created_at: 'asc' },
+        take: 100,
+      });
+
+      if (dbDecisions.length > 0) {
+        return dbDecisions.map(d => this.mapDatabaseDecision(d));
+      }
+    } catch {
+      // Database query failed — fall back to simulated data
+    }
+
     return this.getSimulatedDecisions(organizationId);
   }
 

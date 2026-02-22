@@ -19,10 +19,28 @@ import {
   generateMFASecret, 
   verifyTOTP,
   encryptData,
+  decryptData,
   deriveKey,
+  verifyPassword,
   createAuditLog 
 } from '../security/SecurityHardening.js';
 import crypto from 'crypto';
+
+// MFA encryption key derived from server secret
+const MFA_KEY_PROMISE = deriveKey(process.env['MFA_ENCRYPTION_KEY'] || 'datacendia-mfa-default-key-change-in-production');
+async function getMFAKey(): Promise<Buffer> {
+  return (await MFA_KEY_PROMISE).key;
+}
+
+function encryptMFASecret(secret: string, key: Buffer): string {
+  const { ciphertext, iv, authTag } = encryptData(secret, key);
+  return JSON.stringify({ ciphertext, iv, authTag });
+}
+
+function decryptMFASecret(encrypted: string, key: Buffer): string {
+  const { ciphertext, iv, authTag } = JSON.parse(encrypted);
+  return decryptData(ciphertext, key, iv, authTag);
+}
 
 const router = Router();
 
@@ -56,8 +74,8 @@ router.get('/setup', authenticate, async (req: Request, res: Response) => {
       select: { 
         id: true, 
         email: true,
-        // mfaEnabled: true, // TODO: Add to schema
-        // mfaSecret: true,
+        mfa_enabled: true,
+        mfa_secret: true,
       },
     });
 
@@ -65,15 +83,30 @@ router.get('/setup', authenticate, async (req: Request, res: Response) => {
       throw errors.notFound('User not found');
     }
 
+    if (user.mfa_enabled) {
+      throw errors.badRequest('MFA is already enabled');
+    }
+
     // Generate new MFA secret
     const { secret, backupCodes } = generateMFASecret();
+
+    // Encrypt and store the secret and backup codes temporarily
+    const mfaKey = await getMFAKey();
+    const encryptedSecret = encryptMFASecret(secret, mfaKey);
+    const encryptedBackupCodes = encryptMFASecret(JSON.stringify(backupCodes), mfaKey);
+
+    // Store encrypted secret (not yet enabled — enable happens after verification)
+    await prisma.users.update({
+      where: { id: userId },
+      data: {
+        mfa_secret: encryptedSecret,
+        mfa_backup_codes: encryptedBackupCodes,
+      },
+    });
 
     // Generate QR code URL for authenticator apps
     const issuer = 'Datacendia';
     const otpauthUrl = `otpauth://totp/${issuer}:${user.email}?secret=${secret}&issuer=${issuer}&algorithm=SHA1&digits=6&period=30`;
-
-    // Store encrypted backup codes
-    // TODO: Store in database after encrypting
 
     await createAuditLog({
       eventType: 'MFA_SETUP_INITIATED',
@@ -110,8 +143,26 @@ router.post('/enable', authenticate, async (req: Request, res: Response) => {
       throw errors.badRequest('MFA secret required');
     }
 
-    // Verify the code
-    const isValid = verifyTOTP(secret, code);
+    // Retrieve the stored (but not yet enabled) secret
+    const user = await prisma.users.findUnique({
+      where: { id: userId },
+      select: { mfa_secret: true, mfa_enabled: true },
+    });
+
+    if (!user?.mfa_secret) {
+      throw errors.badRequest('MFA setup not initiated. Call /setup first.');
+    }
+
+    if (user.mfa_enabled) {
+      throw errors.badRequest('MFA is already enabled');
+    }
+
+    // Decrypt the stored secret to verify the code
+    const mfaKey = await getMFAKey();
+    const decryptedSecret = decryptMFASecret(user.mfa_secret, mfaKey);
+
+    // Verify the code against the stored secret (ignore the client-provided secret)
+    const isValid = verifyTOTP(decryptedSecret, code);
     if (!isValid) {
       await createAuditLog({
         eventType: 'MFA_ENABLE_FAILED',
@@ -126,15 +177,14 @@ router.post('/enable', authenticate, async (req: Request, res: Response) => {
       throw errors.badRequest('Invalid verification code');
     }
 
-    // TODO: Update user record with encrypted MFA secret
-    // await prisma.user.update({
-    //   where: { id: userId },
-    //   data: {
-    //     mfaEnabled: true,
-    //     mfaSecret: encryptedSecret,
-    //     mfaEnabledAt: new Date(),
-    //   },
-    // });
+    // Enable MFA on user record
+    await prisma.users.update({
+      where: { id: userId },
+      data: {
+        mfa_enabled: true,
+        mfa_enabled_at: new Date(),
+      },
+    });
 
     await createAuditLog({
       eventType: 'MFA_ENABLED',
@@ -165,28 +215,60 @@ router.post('/verify', async (req: Request, res: Response) => {
       tempToken: z.string(),
     }).parse(req.body);
 
-    // TODO: Retrieve temp session and user's MFA secret
-    // const session = await redis.get(`mfa:temp:${tempToken}`);
-    // if (!session) throw errors.unauthorized('Invalid or expired session');
+    // Retrieve the user ID from the temp session (id serves as the temp token)
+    const session = await prisma.sessions.findUnique({
+      where: { id: tempToken },
+      select: { user_id: true, expires_at: true },
+    });
 
-    // const user = await prisma.user.findUnique({
-    //   where: { id: session.userId },
-    //   select: { mfaSecret: true },
-    // });
+    if (session && session.expires_at < new Date()) {
+      throw errors.unauthorized('MFA session has expired');
+    }
 
-    // const decryptedSecret = decryptData(user.mfaSecret, ...);
-    // const isValid = verifyTOTP(decryptedSecret, code);
+    if (!session) {
+      throw errors.unauthorized('Invalid or expired MFA session');
+    }
 
-    // if (!isValid) {
-    //   throw errors.unauthorized('Invalid MFA code');
-    // }
+    const user = await prisma.users.findUnique({
+      where: { id: session.user_id },
+      select: { mfa_secret: true, mfa_enabled: true },
+    });
 
-    // Generate full session token
-    // const accessToken = await generateAccessToken(user);
+    if (!user?.mfa_enabled || !user.mfa_secret) {
+      throw errors.badRequest('MFA is not enabled for this user');
+    }
+
+    // Decrypt the stored secret and verify the TOTP code
+    const mfaKey = await getMFAKey();
+    const decryptedSecret = decryptMFASecret(user.mfa_secret, mfaKey);
+    const isValid = verifyTOTP(decryptedSecret, code);
+
+    if (!isValid) {
+      await createAuditLog({
+        eventType: 'MFA_VERIFY_FAILED',
+        userId: session.user_id,
+        action: 'VERIFY_MFA',
+        outcome: 'FAILURE',
+        sourceIp: req.ip || 'unknown',
+        userAgent: req.headers['user-agent'],
+        details: { reason: 'Invalid TOTP code' },
+      });
+      throw errors.unauthorized('Invalid MFA code');
+    }
+
+    await createAuditLog({
+      eventType: 'MFA_VERIFIED',
+      userId: session.user_id,
+      action: 'VERIFY_MFA',
+      outcome: 'SUCCESS',
+      sourceIp: req.ip || 'unknown',
+      userAgent: req.headers['user-agent'],
+      details: {},
+    });
 
     res.json({
       message: 'MFA verification successful',
-      // accessToken,
+      verified: true,
     });
   } catch (error) {
     throw error;
@@ -203,12 +285,65 @@ router.post('/verify-backup', async (req: Request, res: Response) => {
       tempToken: z.string(),
     }).parse(req.body);
 
-    // TODO: Verify backup code and mark as used
-    // Backup codes should only work once
+    // Retrieve the user from the temp session
+    const session = await prisma.sessions.findUnique({
+      where: { id: tempToken },
+      select: { user_id: true, expires_at: true },
+    });
+
+    if (!session || session.expires_at < new Date()) {
+      throw errors.unauthorized('Invalid or expired MFA session');
+    }
+
+    const user = await prisma.users.findUnique({
+      where: { id: session.user_id },
+      select: { mfa_backup_codes: true, mfa_enabled: true },
+    });
+
+    if (!user?.mfa_enabled || !user.mfa_backup_codes) {
+      throw errors.badRequest('MFA is not enabled or no backup codes available');
+    }
+
+    // Decrypt backup codes and check if the provided code is valid
+    const mfaKey = await getMFAKey();
+    const backupCodes: string[] = JSON.parse(decryptMFASecret(user.mfa_backup_codes, mfaKey));
+    const codeIndex = backupCodes.indexOf(code);
+
+    if (codeIndex === -1) {
+      await createAuditLog({
+        eventType: 'MFA_BACKUP_VERIFY_FAILED',
+        userId: session.user_id,
+        action: 'VERIFY_BACKUP_CODE',
+        outcome: 'FAILURE',
+        sourceIp: req.ip || 'unknown',
+        userAgent: req.headers['user-agent'],
+        details: { reason: 'Invalid backup code' },
+      });
+      throw errors.unauthorized('Invalid backup code');
+    }
+
+    // Mark the backup code as used by removing it from the list
+    backupCodes.splice(codeIndex, 1);
+    const encryptedUpdatedCodes = encryptMFASecret(JSON.stringify(backupCodes), mfaKey);
+    await prisma.users.update({
+      where: { id: session.user_id },
+      data: { mfa_backup_codes: encryptedUpdatedCodes },
+    });
+
+    await createAuditLog({
+      eventType: 'MFA_BACKUP_VERIFIED',
+      userId: session.user_id,
+      action: 'VERIFY_BACKUP_CODE',
+      outcome: 'SUCCESS',
+      sourceIp: req.ip || 'unknown',
+      userAgent: req.headers['user-agent'],
+      details: { remainingCodes: backupCodes.length },
+    });
 
     res.json({
       message: 'Backup code verification successful',
-      // accessToken,
+      verified: true,
+      remainingBackupCodes: backupCodes.length,
     });
   } catch (error) {
     throw error;
@@ -229,22 +364,39 @@ router.delete('/disable', authenticate, async (req: Request, res: Response) => {
       message: 'Either MFA code or password required',
     }).parse(req.body);
 
-    // Verify identity
-    if (code) {
-      // TODO: Verify MFA code
-    } else if (password) {
-      // TODO: Verify password
+    // Retrieve user for identity verification
+    const user = await prisma.users.findUnique({
+      where: { id: userId },
+      select: { mfa_secret: true, mfa_enabled: true, password_hash: true },
+    });
+
+    if (!user?.mfa_enabled) {
+      throw errors.badRequest('MFA is not enabled');
     }
 
-    // TODO: Disable MFA
-    // await prisma.user.update({
-    //   where: { id: userId },
-    //   data: {
-    //     mfaEnabled: false,
-    //     mfaSecret: null,
-    //     mfaBackupCodes: null,
-    //   },
-    // });
+    // Verify identity — either MFA code or password required
+    if (code) {
+      if (!user.mfa_secret) throw errors.badRequest('MFA secret not found');
+      const mfaKey = await getMFAKey();
+      const decryptedSecret = decryptMFASecret(user.mfa_secret, mfaKey);
+      const isValid = verifyTOTP(decryptedSecret, code);
+      if (!isValid) throw errors.unauthorized('Invalid MFA code');
+    } else if (password) {
+      if (!user.password_hash) throw errors.badRequest('Password not set for this account');
+      const isValid = await verifyPassword(password, user.password_hash);
+      if (!isValid) throw errors.unauthorized('Invalid password');
+    }
+
+    // Disable MFA and clear secrets
+    await prisma.users.update({
+      where: { id: userId },
+      data: {
+        mfa_enabled: false,
+        mfa_secret: null,
+        mfa_backup_codes: null,
+        mfa_enabled_at: null,
+      },
+    });
 
     await createAuditLog({
       eventType: 'MFA_DISABLED',
@@ -274,12 +426,32 @@ router.post('/regenerate-backup', authenticate, async (req: Request, res: Respon
     const userId = req.user!.id;
     const { code } = verifyCodeSchema.parse(req.body);
 
-    // TODO: Verify current MFA code first
+    // Verify current MFA code before regenerating backup codes
+    const user = await prisma.users.findUnique({
+      where: { id: userId },
+      select: { mfa_secret: true, mfa_enabled: true },
+    });
+
+    if (!user?.mfa_enabled || !user.mfa_secret) {
+      throw errors.badRequest('MFA is not enabled');
+    }
+
+    const mfaKey = await getMFAKey();
+    const decryptedSecret = decryptMFASecret(user.mfa_secret, mfaKey);
+    const isValid = verifyTOTP(decryptedSecret, code);
+    if (!isValid) {
+      throw errors.badRequest('Invalid MFA code');
+    }
 
     // Generate new backup codes
     const { backupCodes } = generateMFASecret();
 
-    // TODO: Store encrypted backup codes
+    // Encrypt and store new backup codes (invalidates old ones)
+    const encryptedBackupCodes = encryptMFASecret(JSON.stringify(backupCodes), mfaKey);
+    await prisma.users.update({
+      where: { id: userId },
+      data: { mfa_backup_codes: encryptedBackupCodes },
+    });
 
     await createAuditLog({
       eventType: 'MFA_BACKUP_REGENERATED',

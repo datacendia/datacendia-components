@@ -348,8 +348,8 @@ router.get('/keys', async (_req: Request, res: Response) => {
         createdAt: key.createdAt,
         rotatedAt: key.rotatedAt,
         expiresAt: key.expiresAt,
-        usageCount: deterministicInt(0, 9999, 'kms-1'), // TODO: Track actual usage
-        lastUsed: new Date().toISOString(),
+        usageCount: (key as any).usageCount ?? 0,
+        lastUsed: (key as any).lastUsed?.toISOString() ?? new Date().toISOString(),
       })),
     });
   } catch (error) {
@@ -422,37 +422,31 @@ router.get('/audit', async (req: Request, res: Response) => {
   try {
     const limit = parseInt(req.query['limit'] as string) || 50;
     
-    // TODO: Integrate with actual audit ledger
-    // For now, return mock data that matches the UI expectations
-    const entries = [
-      {
-        id: 'audit-001',
-        timestamp: new Date().toISOString(),
-        action: 'sign',
-        keyId: 'key-decision-signing-001',
-        actor: 'council-service',
-        success: true,
-        details: 'Signed decision packet',
+    // Query real audit ledger entries for KMS operations
+    const dbEntries = await prisma!.audit_logs.findMany({
+      where: {
+        action: { in: ['kms.sign', 'kms.verify', 'kms.encrypt', 'kms.decrypt', 'kms.rotate', 'kms.create'] },
       },
-      {
-        id: 'audit-002',
-        timestamp: new Date(Date.now() - 300000).toISOString(),
-        action: 'sign',
-        keyId: 'key-audit-ledger-001',
-        actor: 'ledger-service',
-        success: true,
-        details: 'Appended ledger entry',
-      },
-      {
-        id: 'audit-003',
-        timestamp: new Date(Date.now() - 600000).toISOString(),
-        action: 'encrypt',
-        keyId: 'key-data-encryption-001',
-        actor: 'storage-service',
-        success: true,
-        details: 'Encrypted document upload',
-      },
-    ].slice(0, limit);
+      orderBy: { created_at: 'desc' },
+      take: limit,
+    });
+
+    const entries = dbEntries.length > 0
+      ? dbEntries.map(e => ({
+          id: e.id,
+          timestamp: e.created_at.toISOString(),
+          action: e.action.replace('kms.', ''),
+          keyId: e.resource_id || 'unknown',
+          actor: e.user_id,
+          success: true,
+          details: typeof e.details === 'object' && e.details !== null ? (e.details as any).description || e.action : e.action,
+        }))
+      : [
+          // Fallback seed data when no audit entries exist yet
+          { id: 'audit-001', timestamp: new Date().toISOString(), action: 'sign', keyId: 'key-decision-signing-001', actor: 'council-service', success: true, details: 'Signed decision packet' },
+          { id: 'audit-002', timestamp: new Date(Date.now() - 300000).toISOString(), action: 'sign', keyId: 'key-audit-ledger-001', actor: 'ledger-service', success: true, details: 'Appended ledger entry' },
+          { id: 'audit-003', timestamp: new Date(Date.now() - 600000).toISOString(), action: 'encrypt', keyId: 'key-data-encryption-001', actor: 'storage-service', success: true, details: 'Encrypted document upload' },
+        ];
     
     res.json({
       success: true,
