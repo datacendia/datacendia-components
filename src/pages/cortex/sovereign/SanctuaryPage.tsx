@@ -21,6 +21,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import apiClient from '../../../lib/api/client';
+import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { Shield, AlertTriangle } from 'lucide-react';
 
 // =============================================================================
 // TYPES
@@ -957,6 +959,45 @@ export const SanctuaryPage: React.FC = () => {
             )}
           </>
         )}
+
+        {/* Frontier/Sanctuary Analytics Drill-Down */}
+        <div className="mt-6">
+          <ReportSection
+            title="Crisis Bunker Analytics"
+            subtitle="Readiness metrics, failover performance, and frontier capability insights"
+            icon={<Shield className="w-4 h-4 text-cyan-400" />}
+            tableColumns={[
+              { key: 'capability', label: 'Capability', sortable: true },
+              { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v === 'operational' ? 'success' : v === 'degraded' ? 'warning' : v === 'standby' ? 'active' : 'error'} label={v} /> },
+              { key: 'failoverTime', label: 'Failover', align: 'right' as const, render: (v: string) => <span className="font-mono">{v}</span> },
+              { key: 'lastTested', label: 'Last Tested', sortable: true },
+              { key: 'readiness', label: 'Readiness', align: 'right' as const, render: (v: number) => <span className={v >= 90 ? 'text-emerald-400 font-bold' : v >= 70 ? 'text-amber-400 font-bold' : 'text-red-400 font-bold'}>{v}%</span> },
+            ]}
+            tableData={[
+              { id: '1', capability: 'Air-Gapped Decision Engine', status: 'operational', failoverTime: '< 30s', lastTested: '2026-02-20', readiness: 98 },
+              { id: '2', capability: 'Offline Deliberation Sync', status: 'operational', failoverTime: '< 5s', lastTested: '2026-02-19', readiness: 95 },
+              { id: '3', capability: 'Quantum-Resistant Comms', status: 'standby', failoverTime: '< 60s', lastTested: '2026-02-15', readiness: 82 },
+              { id: '4', capability: 'Emergency Succession', status: 'operational', failoverTime: '< 10s', lastTested: '2026-02-18', readiness: 92 },
+              { id: '5', capability: 'Ransomware-Proof Archive', status: 'operational', failoverTime: '< 2s', lastTested: '2026-02-21', readiness: 99 },
+              { id: '6', capability: 'Secure Stakeholder Channel', status: 'degraded', failoverTime: '< 45s', lastTested: '2026-02-14', readiness: 71 },
+            ]}
+            chartData={[
+              { label: 'Air-Gapped Engine', value: 98, color: 'bg-emerald-500' },
+              { label: 'Offline Sync', value: 95, color: 'bg-emerald-500' },
+              { label: 'Quantum Comms', value: 82, color: 'bg-blue-500' },
+              { label: 'Succession', value: 92, color: 'bg-emerald-500' },
+              { label: 'Ransomware Archive', value: 99, color: 'bg-emerald-500' },
+              { label: 'Stakeholder Channel', value: 71, color: 'bg-amber-500' },
+            ]}
+            chartTitle="Readiness Score by Capability"
+            poiItems={[
+              { id: 'f1', title: 'Stakeholder channel degraded', description: 'Secure stakeholder communication channel showing 71% readiness. Satellite backup link needs recertification.', severity: 'high' as const, metric: '71%', metricLabel: 'readiness', action: 'Recertify satellite link' },
+              { id: 'f2', title: 'Ransomware archive at peak readiness', description: 'WORM storage with quantum-resistant encryption showing 99% readiness. All decision records immutably preserved.', severity: 'positive' as const, metric: '99%', metricLabel: 'readiness' },
+              { id: 'f3', title: 'Last full bunker drill: 6 days ago', description: 'Full crisis activation drill completed successfully on Feb 17. All systems achieved target failover times.', severity: 'positive' as const, metric: '6 days', metricLabel: 'since drill' },
+            ]}
+            defaultView="table"
+          />
+        </div>
       </main>
     </div>
   );

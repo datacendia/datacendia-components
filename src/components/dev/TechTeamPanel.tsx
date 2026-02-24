@@ -107,8 +107,9 @@ export const TechTeamPanel: React.FC = () => {
       try {
         const fix = await AutoHealService.requestFix(errorId);
         if (!fix) {
-          setNotification('Failed to generate fix - check if Ollama is running');
-          setTimeout(() => setNotification(null), 3000);
+          const reason = AutoHealService.lastGenerateError || 'Unknown error';
+          setNotification(`Failed to generate fix - ${reason}`);
+          setTimeout(() => setNotification(null), 5000);
         }
         // Success notification is handled by the event listener
       } catch (e) {

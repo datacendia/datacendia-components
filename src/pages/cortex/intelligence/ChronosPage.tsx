@@ -38,6 +38,7 @@ import {
   Landmark, Lock, BarChart3, FileKey, Bookmark, Share2, LayoutDashboard, GitCompare,
   Theater, Waypoints, Dice5, Globe, Target, Zap, ChevronRight
 } from 'lucide-react';
+import { ReportSection, POIList, MetricCard, StatusBadge } from '../../../components/reports/DrillDownReportKit';
 
 // Audit package signing API
 const auditPackageApi = {

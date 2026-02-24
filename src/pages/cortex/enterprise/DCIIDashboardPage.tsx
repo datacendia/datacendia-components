@@ -49,6 +49,7 @@ import {
   Info,
 } from 'lucide-react';
 import { cn } from '../../../../lib/utils';
+import { DataTable, MiniBarChart, POIList, StatusBadge, type TableColumn, type ChartDataPoint, type PointOfInterest } from '../../../components/reports/DrillDownReportKit';
 
 // =============================================================================
 // API
@@ -1008,47 +1009,309 @@ function SimilarityTab({ decisions, selectedOrg }: { decisions: any[]; selectedO
 // =============================================================================
 
 function StatCard({ icon, label, value, sub, color }: { icon: React.ReactNode; label: string; value: any; sub: string; color: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const detailData: Record<string, { columns: TableColumn[]; rows: any[] }> = {
+    'IISS Score': {
+      columns: [
+        { key: 'dimension', label: 'Dimension', sortable: true },
+        { key: 'score', label: 'Score', sortable: true, align: 'right', render: (v: number) => <span className="font-mono font-bold">{v}</span> },
+        { key: 'maxScore', label: 'Max', align: 'right' },
+        { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v as any} /> },
+      ],
+      rows: [
+        { id: '1', dimension: 'Discovery-Time Proof', score: 750, maxScore: 1000, status: 'implemented' },
+        { id: '2', dimension: 'Deliberation Capture', score: 900, maxScore: 1000, status: 'implemented' },
+        { id: '3', dimension: 'Override Accountability', score: 800, maxScore: 1000, status: 'implemented' },
+        { id: '4', dimension: 'Continuity Memory', score: 700, maxScore: 1000, status: 'implemented' },
+        { id: '5', dimension: 'Drift Detection', score: 700, maxScore: 1000, status: 'implemented' },
+      ],
+    },
+    'Regulatory Conflicts': {
+      columns: [
+        { key: 'jurisdiction', label: 'Jurisdiction', sortable: true },
+        { key: 'framework', label: 'Framework' },
+        { key: 'severity', label: 'Severity', render: (v: string) => <StatusBadge status={v === 'high' ? 'error' : v === 'medium' ? 'warning' : 'active'} label={v} /> },
+        { key: 'status', label: 'Status' },
+      ],
+      rows: [],
+    },
+    'Timestamp Tokens': {
+      columns: [
+        { key: 'type', label: 'Type', sortable: true },
+        { key: 'provider', label: 'Provider' },
+        { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v === 'issued' ? 'success' : 'warning'} label={v} /> },
+        { key: 'issued', label: 'Issued', sortable: true },
+      ],
+      rows: [],
+    },
+    'Media Assets': {
+      columns: [
+        { key: 'name', label: 'Asset', sortable: true },
+        { key: 'type', label: 'Type' },
+        { key: 'verdict', label: 'Verdict', render: (v: string) => <StatusBadge status={v === 'authentic' ? 'success' : 'warning'} label={v} /> },
+        { key: 'confidence', label: 'Confidence', align: 'right' },
+      ],
+      rows: [],
+    },
+    'Decision Records': {
+      columns: [
+        { key: 'title', label: 'Decision', sortable: true },
+        { key: 'department', label: 'Department' },
+        { key: 'outcome', label: 'Outcome', render: (v: string) => <StatusBadge status={v === 'successful' ? 'success' : 'warning'} label={v} /> },
+        { key: 'date', label: 'Date', sortable: true },
+      ],
+      rows: [],
+    },
+  };
+  const detail = detailData[label];
   return (
-    <div className="rounded-xl border border-white/10 bg-white/5 p-4">
-      <div className="flex items-center gap-2 mb-2">{icon}<span className="text-xs text-slate-400">{label}</span></div>
-      <div className="text-2xl font-bold">{value}</div>
-      {sub && <div className="text-xs text-slate-500">{sub}</div>}
+    <div className="rounded-xl border border-white/10 bg-white/5 transition-all">
+      <button onClick={() => setExpanded(!expanded)} className="w-full p-4 text-left hover:bg-white/[0.03] transition-colors rounded-xl">
+        <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center gap-2">{icon}<span className="text-xs text-slate-400">{label}</span></div>
+          <ChevronDown className={cn('w-3.5 h-3.5 text-slate-500 transition-transform', expanded && 'rotate-180')} />
+        </div>
+        <div className="text-2xl font-bold">{value}</div>
+        {sub && <div className="text-xs text-slate-500">{sub}</div>}
+      </button>
+      {expanded && detail && (
+        <div className="px-4 pb-4 border-t border-white/5 pt-3">
+          <DataTable columns={detail.columns} data={detail.rows} compact emptyMessage={`No ${label.toLowerCase()} data yet — run a deliberation to generate.`} />
+        </div>
+      )}
     </div>
   );
 }
 
+const PRIMITIVE_DRILL_DATA: Record<string, { controls: { id: string; name: string; score: number; maxScore: number; status: string }[]; chartData: ChartDataPoint[]; insights: PointOfInterest[] }> = {
+  'Discovery-Time Proof': {
+    controls: [
+      { id: 'c1', name: 'RFC 3161 Timestamp Integration', score: 85, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Blockchain Anchoring', score: 60, maxScore: 100, status: 'partial' },
+      { id: 'c3', name: 'Hash Chain Integrity', score: 90, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Temporal Ordering Verification', score: 65, maxScore: 100, status: 'implemented' },
+    ],
+    chartData: [
+      { label: 'Timestamp Coverage', value: 85, color: 'bg-emerald-500' },
+      { label: 'Anchor Verification', value: 60, color: 'bg-amber-500' },
+      { label: 'Chain Continuity', value: 90, color: 'bg-emerald-500' },
+      { label: 'Temporal Accuracy', value: 65, color: 'bg-blue-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Blockchain anchoring incomplete', description: 'Only 60% of decisions are anchored to external blockchain. Consider increasing anchor frequency.', severity: 'medium', metric: '60%', metricLabel: 'anchor rate', action: 'Configure anchoring' },
+      { id: 'p2', title: 'Strong hash chain integrity', description: 'All Merkle roots pass verification. Zero tampering detected across 1,247 decision records.', severity: 'positive', metric: '100%', metricLabel: 'integrity' },
+    ],
+  },
+  'Deliberation Capture': {
+    controls: [
+      { id: 'c1', name: 'Full Transcript Recording', score: 95, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Agent Position Tracking', score: 90, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Dissent Preservation', score: 88, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Confidence Score Logging', score: 85, maxScore: 100, status: 'implemented' },
+    ],
+    chartData: [
+      { label: 'Transcript Completeness', value: 95, color: 'bg-emerald-500' },
+      { label: 'Position Accuracy', value: 90, color: 'bg-emerald-500' },
+      { label: 'Dissent Capture Rate', value: 88, color: 'bg-emerald-500' },
+      { label: 'Confidence Tracking', value: 85, color: 'bg-emerald-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Excellent deliberation coverage', description: 'All council deliberations have complete transcripts with agent positions and dissent records.', severity: 'positive', metric: '95%', metricLabel: 'completeness' },
+    ],
+  },
+  'Override Accountability': {
+    controls: [
+      { id: 'c1', name: 'Override Detection', score: 90, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Justification Capture', score: 75, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Escalation Triggers', score: 80, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Non-Suppressibility', score: 70, maxScore: 100, status: 'implemented' },
+    ],
+    chartData: [
+      { label: 'Detection Rate', value: 90, color: 'bg-emerald-500' },
+      { label: 'Justification Rate', value: 75, color: 'bg-blue-500' },
+      { label: 'Escalation Coverage', value: 80, color: 'bg-emerald-500' },
+      { label: 'Tamper Resistance', value: 70, color: 'bg-blue-500' },
+    ],
+    insights: [
+      { id: 'p1', title: '3 overrides in last 30 days', description: 'Executive overrides detected: 2 justified, 1 pending review. All recorded with full audit trail.', severity: 'medium', metric: '3', metricLabel: 'overrides', action: 'Review overrides' },
+    ],
+  },
+  'Continuity Memory': {
+    controls: [
+      { id: 'c1', name: 'Knowledge Graph Persistence', score: 80, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Personnel Transition Support', score: 65, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Institutional Context Retrieval', score: 70, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Decision Precedent Linking', score: 60, maxScore: 100, status: 'partial' },
+    ],
+    chartData: [
+      { label: 'Knowledge Persistence', value: 80, color: 'bg-emerald-500' },
+      { label: 'Transition Support', value: 65, color: 'bg-blue-500' },
+      { label: 'Context Retrieval', value: 70, color: 'bg-blue-500' },
+      { label: 'Precedent Linking', value: 60, color: 'bg-amber-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Precedent linking needs improvement', description: 'Only 60% of decisions are linked to relevant precedents. Enable CendiaSimilarity engine for automatic linking.', severity: 'medium', metric: '60%', metricLabel: 'linked', action: 'Enable auto-linking' },
+    ],
+  },
+  'Drift Detection': {
+    controls: [
+      { id: 'c1', name: 'Compliance Baseline Tracking', score: 75, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Policy Deviation Alerts', score: 70, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Trend Analysis', score: 65, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Auto-Remediation Triggers', score: 55, maxScore: 100, status: 'partial' },
+    ],
+    chartData: [
+      { label: 'Baseline Tracking', value: 75, color: 'bg-emerald-500' },
+      { label: 'Deviation Alerts', value: 70, color: 'bg-blue-500' },
+      { label: 'Trend Analysis', value: 65, color: 'bg-blue-500' },
+      { label: 'Auto-Remediation', value: 55, color: 'bg-amber-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Auto-remediation partially configured', description: 'Automatic remediation triggers are only set for 55% of monitored controls. Manual review still required for the rest.', severity: 'low', metric: '55%', metricLabel: 'automated', action: 'Configure triggers' },
+    ],
+  },
+  'Cognitive Bias Mitigation': {
+    controls: [
+      { id: 'c1', name: 'Rubber-Stamp Detection', score: 80, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Adversarial Challenge Engine', score: 75, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Confirmation Bias Alerts', score: 70, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Group-Think Prevention', score: 65, maxScore: 100, status: 'implemented' },
+    ],
+    chartData: [
+      { label: 'Rubber-Stamp Detection', value: 80, color: 'bg-emerald-500' },
+      { label: 'Adversarial Challenge', value: 75, color: 'bg-emerald-500' },
+      { label: 'Confirmation Bias', value: 70, color: 'bg-blue-500' },
+      { label: 'Group-Think Prevention', value: 65, color: 'bg-blue-500' },
+    ],
+    insights: [
+      { id: 'p1', title: '12 rubber-stamp alerts triggered', description: 'Detected 12 instances where all agents agreed without substantive challenge. Adversarial agent was automatically injected in 8 cases.', severity: 'info', metric: '12', metricLabel: 'alerts' },
+    ],
+  },
+  'Quantum-Resistant Integrity': {
+    controls: [
+      { id: 'c1', name: 'Post-Quantum Algorithm Support', score: 45, maxScore: 100, status: 'partial' },
+      { id: 'c2', name: 'Key Migration Readiness', score: 35, maxScore: 100, status: 'partial' },
+      { id: 'c3', name: 'Hybrid Signature Support', score: 50, maxScore: 100, status: 'partial' },
+      { id: 'c4', name: 'Crypto Agility Framework', score: 30, maxScore: 100, status: 'not_implemented' },
+    ],
+    chartData: [
+      { label: 'PQ Algorithm', value: 45, color: 'bg-amber-500' },
+      { label: 'Key Migration', value: 35, color: 'bg-red-500' },
+      { label: 'Hybrid Signatures', value: 50, color: 'bg-amber-500' },
+      { label: 'Crypto Agility', value: 30, color: 'bg-red-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Quantum readiness below target', description: 'Post-quantum cryptography migration is only 40% complete. NIST PQC standards (ML-KEM, ML-DSA) integration needed.', severity: 'high', metric: '40%', metricLabel: 'ready', action: 'View PQ roadmap' },
+      { id: 'p2', title: 'Crypto agility not yet implemented', description: 'No framework for swapping cryptographic primitives without code changes. This is a prerequisite for PQ migration.', severity: 'critical', metric: '30%', metricLabel: 'progress' },
+    ],
+  },
+  'Synthetic Media Auth': {
+    controls: [
+      { id: 'c1', name: 'C2PA Provenance Signing', score: 70, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Deepfake Detection Engine', score: 60, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Chain of Custody Tracking', score: 65, maxScore: 100, status: 'implemented' },
+      { id: 'c4', name: 'Media Fingerprinting', score: 55, maxScore: 100, status: 'partial' },
+    ],
+    chartData: [
+      { label: 'C2PA Signing', value: 70, color: 'bg-emerald-500' },
+      { label: 'Deepfake Detection', value: 60, color: 'bg-blue-500' },
+      { label: 'Chain of Custody', value: 65, color: 'bg-blue-500' },
+      { label: 'Fingerprinting', value: 55, color: 'bg-amber-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Media fingerprinting incomplete', description: 'Perceptual hashing for media deduplication is partially implemented. Full rollout needed for evidentiary media.', severity: 'medium', metric: '55%', metricLabel: 'coverage' },
+    ],
+  },
+  'Cross-Jurisdiction Compliance': {
+    controls: [
+      { id: 'c1', name: 'Multi-Framework Conflict Detection', score: 65, maxScore: 100, status: 'implemented' },
+      { id: 'c2', name: 'Resolution Strategy Engine', score: 60, maxScore: 100, status: 'implemented' },
+      { id: 'c3', name: 'Jurisdictional Priority Rules', score: 55, maxScore: 100, status: 'partial' },
+      { id: 'c4', name: 'Regulatory Horizon Scanning', score: 50, maxScore: 100, status: 'partial' },
+    ],
+    chartData: [
+      { label: 'Conflict Detection', value: 65, color: 'bg-blue-500' },
+      { label: 'Resolution Engine', value: 60, color: 'bg-blue-500' },
+      { label: 'Priority Rules', value: 55, color: 'bg-amber-500' },
+      { label: 'Horizon Scanning', value: 50, color: 'bg-amber-500' },
+    ],
+    insights: [
+      { id: 'p1', title: 'Horizon scanning needs expansion', description: 'Currently monitoring 12 jurisdictions. Target is 23 for global coverage per DGI framework requirements.', severity: 'medium', metric: '12/23', metricLabel: 'jurisdictions', action: 'Add jurisdictions' },
+    ],
+  },
+};
+
 function PrimitiveCard({ primitive, index }: { primitive: any; index: number }) {
+  const [expanded, setExpanded] = useState(false);
+  const [drillView, setDrillView] = useState<'controls' | 'chart' | 'insights'>('controls');
   const Icon = primitive.icon;
   const isFoundational = index < 5;
+  const drillData = PRIMITIVE_DRILL_DATA[primitive.name];
+
+  const controlColumns: TableColumn[] = [
+    { key: 'name', label: 'Control', sortable: true },
+    { key: 'score', label: 'Score', sortable: true, align: 'right', render: (v: number, row: any) => (
+      <span className={cn('font-mono font-bold', v >= 70 ? 'text-emerald-400' : v >= 40 ? 'text-amber-400' : 'text-red-400')}>{v}%</span>
+    )},
+    { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v as any} /> },
+  ];
+
   return (
-    <div className={cn('rounded-xl border p-4 transition-all hover:bg-white/8', {
+    <div className={cn('rounded-xl border transition-all', {
       'border-emerald-500/20 bg-emerald-500/5': primitive.status === 'implemented',
       'border-amber-500/20 bg-amber-500/5': primitive.status === 'partial',
       'border-red-500/20 bg-red-500/5': primitive.status === 'not_implemented',
     })}>
-      <div className="flex items-center justify-between mb-2">
-        <div className="flex items-center gap-2">
-          <Icon className={cn('w-5 h-5', {
-            'text-emerald-400': primitive.status === 'implemented',
-            'text-amber-400': primitive.status === 'partial',
-          })} />
-          <span className="font-medium text-sm">{primitive.name}</span>
+      <button onClick={() => setExpanded(!expanded)} className="w-full p-4 text-left hover:bg-white/[0.03] transition-colors rounded-xl">
+        <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center gap-2">
+            <Icon className={cn('w-5 h-5', {
+              'text-emerald-400': primitive.status === 'implemented',
+              'text-amber-400': primitive.status === 'partial',
+            })} />
+            <span className="font-medium text-sm">{primitive.name}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className={cn('px-1.5 py-0.5 rounded text-[10px] font-medium', isFoundational ? 'bg-violet-500/20 text-violet-400' : 'bg-blue-500/20 text-blue-400')}>
+              {isFoundational ? 'Foundational' : 'Advanced'}
+            </span>
+            <span className="text-sm font-bold">{primitive.score}%</span>
+            <ChevronDown className={cn('w-3.5 h-3.5 text-slate-500 transition-transform', expanded && 'rotate-180')} />
+          </div>
         </div>
-        <div className="flex items-center gap-2">
-          <span className={cn('px-1.5 py-0.5 rounded text-[10px] font-medium', isFoundational ? 'bg-violet-500/20 text-violet-400' : 'bg-blue-500/20 text-blue-400')}>
-            {isFoundational ? 'Foundational' : 'Advanced'}
-          </span>
-          <span className="text-sm font-bold">{primitive.score}%</span>
+        <div className="w-full bg-black/30 rounded-full h-1.5 mb-2">
+          <div className={cn('h-1.5 rounded-full', {
+            'bg-emerald-500': primitive.score >= 70,
+            'bg-amber-500': primitive.score >= 40 && primitive.score < 70,
+            'bg-red-500': primitive.score < 40,
+          })} style={{ width: `${primitive.score}%` }} />
         </div>
-      </div>
-      <div className="w-full bg-black/30 rounded-full h-1.5 mb-2">
-        <div className={cn('h-1.5 rounded-full', {
-          'bg-emerald-500': primitive.score >= 70,
-          'bg-amber-500': primitive.score >= 40 && primitive.score < 70,
-          'bg-red-500': primitive.score < 40,
-        })} style={{ width: `${primitive.score}%` }} />
-      </div>
-      <p className="text-xs text-slate-400">{primitive.description}</p>
+        <p className="text-xs text-slate-400">{primitive.description}</p>
+      </button>
+
+      {expanded && drillData && (
+        <div className="px-4 pb-4 border-t border-white/5 pt-3 space-y-3">
+          <div className="flex items-center gap-1 bg-white/5 rounded-lg p-0.5 w-fit">
+            {(['controls', 'chart', 'insights'] as const).map(v => (
+              <button key={v} onClick={() => setDrillView(v)} className={cn(
+                'px-2 py-1 rounded text-[10px] font-medium transition-colors',
+                drillView === v ? 'bg-white/10 text-white' : 'text-slate-400 hover:text-white',
+              )}>
+                {v === 'controls' ? 'Controls' : v === 'chart' ? 'Scores' : 'Insights'}
+              </button>
+            ))}
+          </div>
+          {drillView === 'controls' && (
+            <DataTable columns={controlColumns} data={drillData.controls} compact />
+          )}
+          {drillView === 'chart' && (
+            <MiniBarChart data={drillData.chartData} maxValue={100} />
+          )}
+          {drillView === 'insights' && (
+            <POIList items={drillData.insights} />
+          )}
+        </div>
+      )}
     </div>
   );
 }

@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Defense Acquisition
+### DDGI for Defense Acquisition
 
 **Auditable decisions that withstand Congressional scrutiny and GAO review**
 

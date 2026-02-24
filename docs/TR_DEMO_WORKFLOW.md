@@ -824,7 +824,7 @@ npm run dev
 
 This is the **regulator-legible, cert-body-friendly** process that auditors expect. Use this language with TR.
 
-## The 11-Step Decision Governance Lifecycle
+## The 11-Step DDGI Lifecycle
 
 | Step | Name | What It Is | Demo Coverage |
 |------|------|------------|---------------|
@@ -1038,7 +1038,7 @@ Datacendia is the answer that survives that question.
 
 ## When Closing
 
-- "Regulatory-grade decision governance"
+- "Regulatory-grade DDGI"
 - "Evidence designed for regulatory review and litigation response"
 - "The integrity is mathematically verifiable"
 

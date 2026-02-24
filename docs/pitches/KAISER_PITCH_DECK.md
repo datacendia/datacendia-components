@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Integrated Healthcare
+### DDGI for Integrated Healthcare
 
 **Transparent, auditable decisions across care and coverage**
 
@@ -307,7 +307,7 @@ In an integrated model, this decision will be scrutinized:
 
 ## "Our clinicians are already documenting in Epic."
 
-> "Epic captures clinical care. Datacendia captures decision governance — the reasoning, the shared decision-making, the evidence-based basis. That's what transparency requires and regulators increasingly expect."
+> "Epic captures clinical care. Datacendia captures DDGI — the reasoning, the shared decision-making, the evidence-based basis. That's what transparency requires and regulators increasingly expect."
 
 ## "This seems like administrative burden."
 

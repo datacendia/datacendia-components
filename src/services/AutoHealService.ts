@@ -347,32 +347,40 @@ class AutoHealServiceClass {
     return null;
   }
 
+  /** Last error message from fix generation — exposed for UI */
+  public lastGenerateError: string | null = null;
+
   private async generateFix(error: ErrorAnalysis, agent: any): Promise<FixSuggestion | null> {
     try {
       // Generate prompt
       const prompt = generateFixPrompt(error, agent);
 
-      // Call Ollama
-      const response = await fetch('http://localhost:11434/api/generate', {
+      // Route through the backend API to avoid browser CORS issues with Ollama
+      const response = await fetch('/api/v1/auto-heal/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           model: agent.model,
-          prompt: `${agent.systemPrompt}\n\n${prompt}`,
-          stream: false,
+          prompt,
+          systemPrompt: agent.systemPrompt,
           options: {
-            temperature: 0.3, // Lower for more deterministic fixes
+            temperature: 0.3,
             num_predict: 2000,
           },
         }),
       });
 
-      if (!response.ok) {
-        throw new Error(`Ollama request failed: ${response.status}`);
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
+        const errMsg = data.error?.message || `Backend returned ${response.status}`;
+        this.lastGenerateError = errMsg;
+        console.warn('[AutoHeal] Fix generation failed:', errMsg);
+        return null;
       }
 
-      const data = await response.json();
-      const responseText = data.response;
+      this.lastGenerateError = null;
+      const responseText = data.data.response;
 
       // Parse the JSON response
       const jsonMatch = responseText.match(/```json\n?([\s\S]*?)\n?```/);
@@ -407,8 +415,9 @@ class AutoHealServiceClass {
         riskLevel: 'moderate',
         requiresReview: true,
       };
-    } catch (e) {
-      // Silent fail - don't spam console with empty errors
+    } catch (e: any) {
+      this.lastGenerateError = e?.message || 'Network error reaching backend';
+      console.warn('[AutoHeal] Fix generation error:', this.lastGenerateError);
       return null;
     }
   }

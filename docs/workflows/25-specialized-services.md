@@ -3,7 +3,7 @@
 > **Directories:** `backend/src/services/sports/`, `visualization/`, `forecasting/`, `insurance/`, `command/`
 > **Purpose:** Industry-specific, visualization, forecasting, insurance, and command interface services.
 
-## Sports Vertical — Transfer Decision Governance
+## Sports Vertical — Transfer DDGI
 
 ```mermaid
 flowchart TD

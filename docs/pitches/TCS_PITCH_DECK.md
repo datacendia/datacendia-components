@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Global IT Services
+### DDGI for Global IT Services
 
 **Embedding auditable AI governance into enterprise delivery**
 
@@ -61,14 +61,14 @@
 
 ## Slide 4 — The Opportunity
 
-### Decision Governance as Differentiator
+### DDGI as Differentiator
 
 **For TCS:**
 
 - Demonstrate governance leadership to clients
 - Reduce delivery risk in AI engagements
 - Create defensible evidence for managed services
-- Potential new service offering around decision governance
+- Potential new service offering around DDGI
 
 **For TCS clients:**
 
@@ -86,7 +86,7 @@
 
 ### What Datacendia Does
 
-> **Datacendia is a decision governance platform for AI-assisted enterprise decisions.**
+> **Datacendia is the DDGI (Datacendia Decision Governance Infrastructure) platform for AI-assisted enterprise decisions.**
 
 - Structures how AI-influenced decisions are deliberated
 - Captures reasoning, oversight, and accountability
@@ -227,7 +227,7 @@ TCS delivers AI-powered credit decision system for bank client. Model makes reco
 - Governance-as-a-feature for TCS clients
 
 **Option 3: Service Offering**
-- TCS-delivered decision governance service
+- TCS-delivered DDGI service
 - New capability for consulting practice
 
 **Option 4: Strategic Partnership**
@@ -309,7 +309,7 @@ TCS delivers AI-powered credit decision system for bank client. Model makes reco
 
 ## "Could this be a service offering?"
 
-> "Absolutely. Decision governance consulting is a natural extension of your AI advisory practice. We can discuss partnership models that enable TCS to deliver governance as a service."
+> "Absolutely. DDGI consulting is a natural extension of your AI advisory practice. We can discuss partnership models that enable TCS to deliver governance as a service."
 
 ---
 

@@ -4,7 +4,7 @@
 
 /**
  * DATACENDIA PLATFORM - SPORTS VERTICAL
- * Football/Soccer Decision Governance Dashboard
+ * Football/Soccer DDGI Dashboard
  * 
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
  */
@@ -322,7 +322,7 @@ export default function SportsPage() {
         <div>
           <h1 className="text-3xl font-bold flex items-center gap-3">
             <Trophy className="h-8 w-8 text-green-600" />
-            Sports Decision Governance
+            Sports DDGI
           </h1>
           <p className="text-muted-foreground mt-1">
             Transfer decisions, contract governance, FFP compliance

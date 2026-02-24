@@ -69,6 +69,7 @@ import {
   TrendingUp,
   TrendingDown,
 } from 'lucide-react';
+import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -723,6 +724,45 @@ export default function SGASPage() {
           </Button>
         </DialogActions>
       </Dialog>
+
+      {/* SGAS Analytics Drill-Down */}
+      <Box sx={{ mt: 3 }}>
+        <ReportSection
+          title="Synthetic Governance Analytics"
+          subtitle="Agent deliberation outcomes, governance simulation trends, and scenario analysis"
+          icon={<Brain className="w-4 h-4 text-purple-400" />}
+          tableColumns={[
+            { key: 'agent', label: 'Synthetic Agent', sortable: true },
+            { key: 'deliberations', label: 'Deliberations', sortable: true, align: 'right' as const },
+            { key: 'accuracy', label: 'Accuracy', sortable: true, align: 'right' as const, render: (v: number) => <span className={v >= 85 ? 'text-emerald-400 font-bold' : v >= 70 ? 'text-amber-400 font-bold' : 'text-red-400 font-bold'}>{v}%</span> },
+            { key: 'consensus', label: 'Consensus', align: 'right' as const, render: (v: number) => <StatusBadge status={v >= 80 ? 'success' : v >= 60 ? 'warning' : 'error'} label={`${v}%`} /> },
+            { key: 'responseTime', label: 'Avg Time', align: 'right' as const },
+          ]}
+          tableData={[
+            { id: '1', agent: 'Policy Analyzer', deliberations: 234, accuracy: 92, consensus: 88, responseTime: '1.2s' },
+            { id: '2', agent: 'Risk Assessor', deliberations: 198, accuracy: 87, consensus: 82, responseTime: '1.8s' },
+            { id: '3', agent: 'Ethics Guardian', deliberations: 176, accuracy: 94, consensus: 91, responseTime: '2.1s' },
+            { id: '4', agent: 'Constitutional Auditor', deliberations: 156, accuracy: 96, consensus: 95, responseTime: '2.5s' },
+            { id: '5', agent: 'Adversarial Challenger', deliberations: 145, accuracy: 78, consensus: 42, responseTime: '1.5s' },
+            { id: '6', agent: 'Minority Advocate', deliberations: 134, accuracy: 89, consensus: 76, responseTime: '1.9s' },
+          ]}
+          chartData={[
+            { label: 'Policy Analyzer', value: 92, color: 'bg-emerald-500' },
+            { label: 'Risk Assessor', value: 87, color: 'bg-emerald-500' },
+            { label: 'Ethics Guardian', value: 94, color: 'bg-emerald-500' },
+            { label: 'Constitutional Auditor', value: 96, color: 'bg-emerald-500' },
+            { label: 'Adversarial Challenger', value: 78, color: 'bg-amber-500' },
+            { label: 'Minority Advocate', value: 89, color: 'bg-emerald-500' },
+          ]}
+          chartTitle="Agent Accuracy Rate"
+          poiItems={[
+            { id: 's1', title: 'Constitutional Auditor highest accuracy', description: '96% accuracy in governance deliberations. This agent excels at identifying constitutional compliance gaps.', severity: 'positive' as const, metric: '96%', metricLabel: 'accuracy' },
+            { id: 's2', title: 'Adversarial Challenger low consensus by design', description: 'The 42% consensus rate reflects its adversarial role. It consistently identifies overlooked failure modes.', severity: 'info' as const, metric: '42%', metricLabel: 'consensus' },
+            { id: 's3', title: '1,043 total deliberations this period', description: 'Synthetic governance agents have processed over 1,000 deliberations across all decision types.', severity: 'positive' as const, metric: '1,043', metricLabel: 'deliberations' },
+          ]}
+          defaultView="table"
+        />
+      </Box>
     </Box>
   );
 }

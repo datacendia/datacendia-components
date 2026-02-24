@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This document maps Datacendia's AI decision governance platform to the four core functions of the NIST AI Risk Management Framework. This is a voluntary alignment statement, not a certification.
+This document maps Datacendia's DDGI (Datacendia Decision Governance Infrastructure) platform to the four core functions of the NIST AI Risk Management Framework. This is a voluntary alignment statement, not a certification.
 
 ---
 

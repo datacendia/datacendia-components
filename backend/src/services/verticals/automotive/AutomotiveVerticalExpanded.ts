@@ -8,7 +8,7 @@
  * Datacendia = "Vehicle Safety & Compliance Decision Engine"
  * 
  * Killer Asset: ADAS/autonomous vehicle decision audit trails that prove
- * safety compliance and recall decision governance.
+ * safety compliance and recall DDGI.
  * 
  * Compliance: 10 frameworks | Decision Schemas: 12 types
  */

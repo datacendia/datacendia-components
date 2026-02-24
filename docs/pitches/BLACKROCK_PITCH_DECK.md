@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance at Scale
+### DDGI at Scale
 
 **Auditable AI-assisted investment decisions for the world's largest asset manager**
 

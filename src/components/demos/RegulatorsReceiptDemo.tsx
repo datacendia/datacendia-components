@@ -16,6 +16,7 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { cn } from '../../lib/utils';
+import { RedactedText, RedactedCode, useRedaction } from '../ui/RedactedText';
 import {
   Shield, FileCheck, Lock, CheckCircle, XCircle, AlertTriangle,
   Clock, Users, Fingerprint, FileSignature, Download, Eye,
@@ -651,7 +652,6 @@ const AgentCard: React.FC<{
       </div>
     )}
     
-    {/* Status Indicator */}
     <div className="absolute top-3 right-3">
       {agent.status === 'analyzing' && (
         <div className="flex items-center gap-1.5 px-2 py-1 bg-amber-900/50 rounded-full border border-amber-500/30">
@@ -762,9 +762,11 @@ const AgentCard: React.FC<{
           <Key className="w-3 h-3 text-emerald-400" />
           <span className="text-[10px] text-emerald-300 font-medium uppercase tracking-wider">Ed25519 Signature</span>
         </div>
-        <code className="block text-[8px] text-emerald-400/70 font-mono bg-emerald-900/20 p-2 rounded border border-emerald-700/30 break-all">
-          {agent.signature}
-        </code>
+        <RedactedCode classification="CONFIDENTIAL">
+          <code className="block text-[8px] text-emerald-400/70 font-mono bg-emerald-900/20 p-2 rounded border border-emerald-700/30 break-all">
+            {agent.signature}
+          </code>
+        </RedactedCode>
         {agent.signedAt && (
           <p className="text-[9px] text-neutral-500 mt-1.5 flex items-center gap-1">
             <Clock className="w-3 h-3" />
@@ -963,7 +965,7 @@ export const RegulatorsReceiptDemo: React.FC<{
     const basePrompts = {
       analysis: `You are ${agent.name}, ${agent.role} (${agent.specialty}). You are reviewing ${industryContext[industryMode]}. Analyze the data provided from your professional perspective. Be concise (2-3 sentences). Focus on your area of expertise.`,
       debate: `You are ${agent.name}, ${agent.role}. Respond to the other experts' analyses. Add your perspective or raise concerns based on your specialty in ${agent.specialty}. Be concise (2-3 sentences).`,
-      vote: `You are ${agent.name}, ${agent.role}. Based on the deliberation, state your vote (${voteOptions[industryMode]}) with a one-sentence rationale.`
+      vote: `You are ${agent.name}, ${agent.role}. Based on the deliberation, state your vote (${voteOptions[industryMode]}) with a one-sentence rationale.`,
     };
     
     return basePrompts[phase];
@@ -1355,13 +1357,13 @@ export const RegulatorsReceiptDemo: React.FC<{
                 <span className="text-2xl">{currentConfig.icon}</span>
                 Regulator's Receipt
                 {isRunning && (
-                  <span className="flex items-center gap-1.5 px-3 py-1 bg-red-500/20 border border-red-500/30 rounded-full text-xs text-red-300 font-medium">
+                  <span className="flex items-center gap-1.5 px-3 py-1.5 bg-red-500/20 border border-red-500/30 rounded-full text-xs text-red-300 font-medium">
                     <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
                     DELIBERATION IN PROGRESS
                   </span>
                 )}
                 {showReceipt && (
-                  <span className="flex items-center gap-1.5 px-3 py-1 bg-emerald-500/20 border border-emerald-500/30 rounded-full text-xs text-emerald-300 font-medium">
+                  <span className="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-500/20 border border-emerald-500/30 rounded-full text-xs text-emerald-300 font-medium">
                     <CheckCircle className="w-3 h-3" />
                     RECEIPT GENERATED
                   </span>
@@ -1528,12 +1530,6 @@ export const RegulatorsReceiptDemo: React.FC<{
                 </div>
               </div>
             )}
-            {currentConfig.clearanceLevel && (
-              <div className="mt-2 flex items-center gap-2 text-[10px] text-red-400">
-                <Lock className="w-3 h-3" />
-                <span>Clearance: {currentConfig.clearanceLevel}</span>
-              </div>
-            )}
           </div>
         </div>
 
@@ -1665,7 +1661,7 @@ export const RegulatorsReceiptDemo: React.FC<{
               ) : userCanInterject && !showReceipt ? (
                 <button
                   onClick={() => setAwaitingUserInput(true)}
-                  className="w-full flex items-center justify-center gap-2 px-3 py-2 bg-violet-900/30 hover:bg-violet-900/50 border border-violet-700/50 rounded-lg text-xs text-violet-300 font-medium transition-colors"
+                  className="w-full flex items-center justify-center gap-2 px-3 py-2.5 bg-violet-900/30 hover:bg-violet-900/50 border border-violet-700/50 rounded-lg text-xs text-violet-300 font-medium transition-colors"
                 >
                   <MessageSquare className="w-4 h-4" />
                   Interject in Deliberation
@@ -1724,9 +1720,9 @@ export const RegulatorsReceiptDemo: React.FC<{
                       <Binary className="w-3 h-3 text-cyan-400" />
                       <span className="text-[10px] text-neutral-400 uppercase tracking-wider">Merkle Root</span>
                     </div>
-                    <code className="block text-[8px] text-cyan-300/80 font-mono bg-neutral-800/50 p-2 rounded border border-cyan-900/30 break-all">
+                    <RedactedCode className="block text-[8px] text-cyan-300/80 font-mono bg-neutral-800/50 p-2 rounded border border-cyan-900/30 break-all" classification="RESTRICTED">
                       {decisionPacket.merkleRoot}
-                    </code>
+                    </RedactedCode>
                   </div>
 
                   {/* Blockchain Anchor */}
@@ -1735,9 +1731,9 @@ export const RegulatorsReceiptDemo: React.FC<{
                       <Server className="w-3 h-3 text-purple-400" />
                       <span className="text-[10px] text-neutral-400 uppercase tracking-wider">Blockchain Anchor</span>
                     </div>
-                    <code className="block text-[8px] text-purple-300/80 font-mono bg-neutral-800/50 p-2 rounded border border-purple-900/30 break-all">
+                    <RedactedCode className="block text-[8px] text-purple-300/80 font-mono bg-neutral-800/50 p-2 rounded border border-purple-900/30 break-all" classification="RESTRICTED">
                       {decisionPacket.blockchainAnchor}
-                    </code>
+                    </RedactedCode>
                   </div>
 
                   {/* RFC 3161 TSA Timestamp */}
@@ -1754,11 +1750,11 @@ export const RegulatorsReceiptDemo: React.FC<{
                         </div>
                         <div className="flex justify-between">
                           <span className="text-neutral-500">Serial:</span>
-                          <span className="text-blue-300 font-mono">{decisionPacket.tsaTimestamp.serialNumber}</span>
+                          <RedactedText classification="RESTRICTED"><span className="text-blue-300 font-mono">{decisionPacket.tsaTimestamp.serialNumber}</span></RedactedText>
                         </div>
-                        <code className="block text-[7px] text-blue-400/60 font-mono bg-neutral-900/50 p-1.5 rounded mt-1 break-all">
+                        <RedactedCode className="block text-[7px] text-blue-400/60 font-mono bg-neutral-900/50 p-1.5 rounded mt-1 break-all" classification="CONFIDENTIAL">
                           {decisionPacket.tsaTimestamp.token.substring(0, 48)}...
-                        </code>
+                        </RedactedCode>
                       </div>
                     </div>
                   )}
@@ -1778,7 +1774,7 @@ export const RegulatorsReceiptDemo: React.FC<{
                         </div>
                         <div className="flex justify-between">
                           <span className="text-neutral-500">Location:</span>
-                          <span className="text-orange-300 font-mono text-[8px]">{decisionPacket.wormStorage.location.substring(0, 30)}...</span>
+                          <RedactedText classification="SENSITIVE"><span className="text-orange-300 font-mono text-[8px]">{decisionPacket.wormStorage.location.substring(0, 30)}...</span></RedactedText>
                         </div>
                       </div>
                     </div>
@@ -1848,7 +1844,7 @@ export const RegulatorsReceiptDemo: React.FC<{
                               log.action === 'exported' && "bg-amber-900/50 text-amber-300",
                               log.action === 'verified' && "bg-cyan-900/50 text-cyan-300"
                             )}>{log.action}</span>
-                            <span className="text-neutral-400">{log.user}</span>
+                            <span className="text-neutral-400"><RedactedText>{log.user}</RedactedText></span>
                           </div>
                           <span className="text-neutral-500">{log.timestamp.toLocaleTimeString()}</span>
                         </div>

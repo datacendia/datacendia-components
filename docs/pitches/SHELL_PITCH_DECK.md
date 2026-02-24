@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Energy Transition
+### DDGI for Energy Transition
 
 **Auditable decisions across trading, operations, and sustainability**
 
@@ -271,7 +271,7 @@ Investment committee decision on major project. Traditional energy asset, signif
 
 ## Slide 12 — Close
 
-### Decision Governance for the Transition
+### DDGI for the Transition
 
 ---
 

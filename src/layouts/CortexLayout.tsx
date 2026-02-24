@@ -282,7 +282,7 @@ const enterpriseGroup: NavGroup = {
       label: 'Govern',
       icon: Scale,
       path: '/cortex/governance/decision-packets',
-      tooltip: 'Decision governance & constitutional court',
+      tooltip: 'DDGI & constitutional court',
     },
     {
       id: 'sovereign',

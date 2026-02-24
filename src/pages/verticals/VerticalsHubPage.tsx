@@ -9,6 +9,8 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ReportSection, StatusBadge } from '../../components/reports/DrillDownReportKit';
+import { BarChart3 } from 'lucide-react';
 
 // =============================================================================
 // TYPES
@@ -575,6 +577,45 @@ export const VerticalsHubPage: React.FC = () => {
               )}
             </div>
           ))}
+        </div>
+
+        {/* Verticals Analytics Drill-Down */}
+        <div className="mt-12">
+          <ReportSection
+            title="Verticals Performance Analytics"
+            subtitle="Industry metrics, adoption rates, and vertical-specific KPIs"
+            icon={<BarChart3 className="w-4 h-4 text-primary-400" />}
+            tableColumns={[
+              { key: 'name', label: 'Vertical', sortable: true },
+              { key: 'tier', label: 'Tier', render: (v: string) => <StatusBadge status={v === 'priority' ? 'success' : v === 'growth' ? 'active' : 'inactive'} label={v} /> },
+              { key: 'roi', label: '18mo ROI', sortable: true, align: 'right' as const, render: (v: string) => <span className="text-emerald-400 font-bold">{v}</span> },
+              { key: 'sovereignty', label: 'Sovereignty', sortable: true, align: 'right' as const, render: (v: number) => <span className={v >= 90 ? 'text-emerald-400 font-bold' : v >= 80 ? 'text-blue-400' : 'text-amber-400'}>{v}%</span> },
+              { key: 'agents', label: 'Agents', align: 'right' as const },
+              { key: 'frameworks', label: 'Frameworks', align: 'right' as const },
+            ]}
+            tableData={verticals.map(v => ({
+              id: v.id,
+              name: `${v.icon} ${v.name}`,
+              tier: v.tier,
+              roi: v.roi,
+              sovereignty: v.sovereignty,
+              agents: v.agents.length,
+              frameworks: v.compliance.length,
+            }))}
+            chartData={verticals.filter(v => v.tier !== 'coming-soon').map(v => ({
+              label: v.name,
+              value: v.sovereignty,
+              color: v.tier === 'priority' ? 'bg-blue-500' : 'bg-emerald-500',
+              meta: '%',
+            }))}
+            chartTitle="Data Sovereignty Score by Vertical"
+            poiItems={[
+              { id: 'v1', title: `${verticals.filter(v => v.tier === 'priority').length} priority verticals active`, description: `Priority tier verticals (Healthcare, Financial Services, Government/Legal) represent the highest-value regulated industries.`, severity: 'positive' as const, metric: String(verticals.filter(v => v.tier === 'priority').length), metricLabel: 'priority' },
+              { id: 'v2', title: 'Healthcare leads market share at 43%', description: 'Healthcare vertical captures the largest share of the $3.5B vertical AI market. HIPAA, FDA, and clinical trial compliance drive adoption.', severity: 'positive' as const, metric: '43%', metricLabel: 'market share' },
+              { id: 'v3', title: `${verticals.filter(v => v.tier === 'coming-soon').length} verticals in pipeline`, description: `Coming-soon verticals are targeted for Q2 2026. Design partner programs are open for early access.`, severity: 'info' as const, metric: String(verticals.filter(v => v.tier === 'coming-soon').length), metricLabel: 'pipeline', action: 'Join design partner program' },
+            ]}
+            defaultView="table"
+          />
         </div>
 
         {/* Bottom CTA */}

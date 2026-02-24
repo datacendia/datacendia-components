@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This document declares the current conformance posture of Datacendia's AI decision governance platform against ISO/IEC 42001:2023 — Artificial Intelligence Management Systems.
+This document declares the current conformance posture of Datacendia's DDGI (Datacendia Decision Governance Infrastructure) platform against ISO/IEC 42001:2023 — Artificial Intelligence Management Systems.
 
 This is a **self-attested conformance statement**, not a certification. Formal third-party certification will be pursued upon deployment within regulated production environments.
 
@@ -18,7 +18,7 @@ This is a **self-attested conformance statement**, not a certification. Formal t
 
 ## Scope
 
-AI-assisted decision governance, auditability, and verification infrastructure operated by Datacendia, Inc., including:
+DDGI auditability and verification infrastructure operated by Datacendia, Inc., including:
 
 - Multi-agent deliberation orchestration (The Council)
 - Cryptographic decision evidence generation (Decision DNA)
@@ -75,7 +75,7 @@ None. All clauses are applicable to Datacendia's scope of operations.
 
 ## Statement of Conformance
 
-Datacendia's AI decision governance platform conforms to ISO/IEC 42001:2023 principles by design. The architecture, controls, and verification mechanisms described in this document are operational in the current platform build.
+Datacendia's DDGI platform conforms to ISO/IEC 42001:2023 principles by design. The architecture, controls, and verification mechanisms described in this document are operational in the current platform build.
 
 Formal third-party certification will be pursued once the platform is deployed within regulated production environments where independent audit is required by contract or regulation.
 

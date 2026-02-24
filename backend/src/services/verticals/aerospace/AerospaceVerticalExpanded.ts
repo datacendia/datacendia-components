@@ -8,7 +8,7 @@
  * Datacendia = "Aviation Safety & Certification Decision Engine"
  * 
  * Killer Asset: Airworthiness and certification audit trails proving
- * FAA/EASA compliance and safety-critical decision governance.
+ * FAA/EASA compliance and safety-critical DDGI.
  * 
  * Compliance: 10 frameworks | Decision Schemas: 12 types
  */

@@ -10,6 +10,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
+import { RedactionProvider, RedactionToggle, RedactedText, RedactedCode, useRedaction } from '../../../components/ui/RedactedText';
 import {
   FileText,
   Shield,
@@ -244,25 +245,30 @@ const FALLBACK_RECEIPT: Receipt = {
 // HELPER COMPONENTS
 // =============================================================================
 
-const HashDisplay: React.FC<{ label: string; hash: string }> = ({ label, hash }) => (
-  <div className="space-y-1">
-    <p className="text-xs text-gray-500 dark:text-gray-400">{label}</p>
-    <div className="flex items-center gap-2">
-      <code className="flex-1 text-xs bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded font-mono truncate">
-        {hash}
-      </code>
-      <button className="p-1 hover:bg-gray-200 dark:hover:bg-gray-600 rounded transition-colors">
-        <ExternalLink className="w-3 h-3 text-gray-400" />
-      </button>
+const HashDisplay: React.FC<{ label: string; hash: string }> = ({ label, hash }) => {
+  const { isRedacted } = useRedaction();
+  return (
+    <div className="space-y-1">
+      <p className="text-xs text-gray-500 dark:text-gray-400">{label}</p>
+      <div className="flex items-center gap-2">
+        <RedactedCode className="flex-1 text-xs bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded font-mono truncate" classification="RESTRICTED">
+          {hash}
+        </RedactedCode>
+        {!isRedacted && (
+          <button className="p-1 hover:bg-gray-200 dark:hover:bg-gray-600 rounded transition-colors">
+            <ExternalLink className="w-3 h-3 text-gray-400" />
+          </button>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 // =============================================================================
 // MAIN COMPONENT
 // =============================================================================
 
-export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
+const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
   const { t } = useTranslation();
   const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -495,11 +501,12 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
               </button>
               <div>
                 <h1 className="text-2xl font-bold">{embedded ? 'Evidence Export' : "Regulator's Receipt"}</h1>
-                {receipt && <p className={embedded ? 'text-indigo-200 font-mono text-sm' : 'text-emerald-200 font-mono text-sm'}>{receipt.receiptId}</p>}
+                {receipt && <p className={embedded ? 'text-indigo-200 font-mono text-sm' : 'text-emerald-200 font-mono text-sm'}><RedactedText classification="CONFIDENTIAL">{receipt.receiptId}</RedactedText></p>}
               </div>
             </div>
             
             <div className="flex items-center gap-2">
+              <RedactionToggle variant="dark" />
               <button
                 onClick={handlePrint}
                 className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
@@ -589,11 +596,11 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                   <div className="space-y-4">
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Question</p>
-                      <p className="text-gray-900 dark:text-white">{receipt.decision.question}</p>
+                      <p className="text-gray-900 dark:text-white"><RedactedText classification="SENSITIVE">{receipt.decision.question}</RedactedText></p>
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Final Decision</p>
-                      <p className="text-gray-900 dark:text-white font-medium">{receipt.decision.finalDecision}</p>
+                      <p className="text-gray-900 dark:text-white font-medium"><RedactedText classification="CONFIDENTIAL">{receipt.decision.finalDecision}</RedactedText></p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
                       <div>
@@ -620,7 +627,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                               {agent.name.charAt(0)}
                             </div>
                             <div>
-                              <p className="font-medium text-gray-900 dark:text-white">{agent.name}</p>
+                              <p className="font-medium text-gray-900 dark:text-white"><RedactedText>{agent.name}</RedactedText></p>
                               <p className="text-xs text-gray-500 dark:text-gray-400">{agent.role}</p>
                             </div>
                           </div>
@@ -682,7 +689,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                   <div className="space-y-3 text-sm">
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Receipt ID</span>
-                      <span className="font-mono text-gray-900 dark:text-white">{receipt.receiptId}</span>
+                      <span className="font-mono text-gray-900 dark:text-white"><RedactedText classification="CONFIDENTIAL">{receipt.receiptId}</RedactedText></span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Version</span>
@@ -694,7 +701,7 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500 dark:text-gray-400">Generated By</span>
-                      <span className="text-gray-900 dark:text-white">{receipt.generatedBy}</span>
+                      <span className="text-gray-900 dark:text-white"><RedactedText>{receipt.generatedBy}</RedactedText></span>
                     </div>
                   </div>
                 </div>
@@ -996,5 +1003,11 @@ export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedd
     </div>
   );
 };
+
+export const RegulatorsReceiptPage: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => (
+  <RedactionProvider>
+    <RegulatorsReceiptPageInner embedded={embedded} />
+  </RedactionProvider>
+);
 
 export default RegulatorsReceiptPage;

@@ -25,7 +25,9 @@ import {
   Bell,
   BarChart3,
   Info,
+  ChevronDown,
 } from 'lucide-react';
+import { ReportSection, POIList, MiniBarChart, StatusBadge } from '../../../components/reports/DrillDownReportKit';
 
 // =============================================================================
 // TYPES
@@ -426,42 +428,47 @@ export default function ContinuousComplianceMonitorPage() {
         </div>
       )}
 
-      {/* Recent Scans */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-6">
-        <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-          <BarChart3 className="w-5 h-5 text-indigo-500" />
-          Recent Scans
-        </h2>
-        <div className="space-y-2">
-          {scans.slice(0, 5).map((scan) => (
-            <div
-              key={scan.id}
-              className="flex items-center justify-between p-3 border border-gray-200 dark:border-gray-700 rounded-lg"
-            >
-              <div className="flex items-center gap-3">
-                {scan.status === 'running' ? (
-                  <Loader2 className="w-4 h-4 text-blue-500 animate-spin" />
-                ) : scan.status === 'completed' ? (
-                  <CheckCircle className="w-4 h-4 text-green-500" />
-                ) : (
-                  <XCircle className="w-4 h-4 text-red-500" />
-                )}
-                <div>
-                  <div className="font-medium text-sm text-gray-900 dark:text-white">
-                    {scan.framework}
-                  </div>
-                  <div className="text-xs text-gray-500 dark:text-gray-400">
-                    {scan.controlsScanned}/{scan.totalControls} controls · {scan.issuesFound} issues
-                  </div>
-                </div>
-              </div>
-              <div className="text-xs text-gray-500 dark:text-gray-400">
-                {new Date(scan.startedAt).toLocaleString()}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* Recent Scans — Interactive Drill-Down */}
+      <ReportSection
+        title="Recent Compliance Scans"
+        subtitle="Click Table/Chart/Insights to switch drill-down view"
+        icon={<BarChart3 className="w-4 h-4 text-indigo-500" />}
+        tableColumns={[
+          { key: 'framework', label: 'Framework', sortable: true },
+          { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v === 'completed' ? 'success' : v === 'running' ? 'active' : 'error'} label={v} /> },
+          { key: 'controlsScanned', label: 'Scanned', align: 'right' as const, render: (v: number, row: any) => `${v}/${row.totalControls}` },
+          { key: 'issuesFound', label: 'Issues', sortable: true, align: 'right' as const, render: (v: number) => <span className={v > 0 ? 'text-amber-400 font-bold' : 'text-emerald-400'}>{v}</span> },
+          { key: 'startedAt', label: 'Started', sortable: true, render: (v: any) => new Date(v).toLocaleString() },
+        ]}
+        tableData={scans.slice(0, 10).map(s => ({ ...s }))}
+        chartData={frameworks.map(f => ({
+          label: f.name,
+          value: f.controlCount > 0 ? Math.round((f.compliantCount / f.controlCount) * 100) : 0,
+          color: f.status === 'compliant' ? 'bg-emerald-500' : f.status === 'warning' ? 'bg-amber-500' : 'bg-red-500',
+          meta: '%',
+        }))}
+        chartTitle="Compliance Rate by Framework"
+        poiItems={[
+          ...frameworks.filter(f => f.driftDetected).map((f, i) => ({
+            id: `drift-${i}`,
+            title: `Drift detected in ${f.name}`,
+            description: `Compliance drift detected since last scan. ${f.controlCount - f.compliantCount} controls are non-compliant out of ${f.controlCount} total.`,
+            severity: 'high' as const,
+            metric: `${Math.round((f.compliantCount / f.controlCount) * 100)}%`,
+            metricLabel: 'compliant',
+            action: 'Run remediation scan',
+          })),
+          ...frameworks.filter(f => f.status === 'compliant').map((f, i) => ({
+            id: `ok-${i}`,
+            title: `${f.name} fully compliant`,
+            description: `${f.compliantCount}/${f.controlCount} controls passing. No drift detected.`,
+            severity: 'positive' as const,
+            metric: `${Math.round((f.compliantCount / f.controlCount) * 100)}%`,
+            metricLabel: 'compliant',
+          })),
+        ]}
+        defaultView="table"
+      />
     </div>
   );
 }

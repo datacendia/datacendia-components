@@ -48,6 +48,7 @@ import {
   FileSignature,
   Loader2,
 } from 'lucide-react';
+import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
 
 const API_BASE = '/api/v1/collapse';
 
@@ -597,13 +598,13 @@ const CollapsePage: React.FC = () => {
                   Recent Analyses
                 </h2>
                 <div className="space-y-2 max-h-64 overflow-y-auto">
-                  {history.slice(0, 5).map((d) => (
+                  {(history || []).slice(0, 5).map((d) => (
                     <div
                       key={d.id}
                       onClick={() => setDeliberation(d)}
                       className="p-3 bg-gray-700/50 rounded-lg cursor-pointer hover:bg-gray-700 transition-colors"
                     >
-                      <div className="text-sm font-medium truncate">{d.decisionText.slice(0, 50)}...</div>
+                      <div className="text-sm font-medium truncate">{(d.decisionText || '').slice(0, 50)}...</div>
                       <div className="text-xs text-gray-400 mt-1 flex items-center justify-between">
                         <span>Trust Δ: {d.trustDelta.trustDelta.toFixed(2)}</span>
                         <span>{new Date(d.completedAt).toLocaleDateString()}</span>
@@ -698,7 +699,7 @@ const CollapsePage: React.FC = () => {
                   <div className="flex items-center justify-between">
                     {getRecommendationBadge(deliberation.trustDelta.deploymentRecommendation)}
                     <div className="text-xs text-gray-500">
-                      Seed: {deliberation.seed} | Merkle: {deliberation.merkleRoot.slice(0, 12)}...
+                      Seed: {deliberation.seed} | Merkle: {(deliberation.merkleRoot || '').slice(0, 12)}...
                     </div>
                   </div>
                 </div>
@@ -872,7 +873,7 @@ const CollapsePage: React.FC = () => {
                               </div>
                               <p className="text-xs text-gray-400 line-clamp-2">{agent.description}</p>
                               <div className="mt-2">
-                                {agent.questions.slice(0, 1).map((q, i) => (
+                                {(agent.questions || []).slice(0, 1).map((q, i) => (
                                   <div key={i} className="text-xs text-gray-500 italic">"{q}"</div>
                                 ))}
                               </div>
@@ -918,6 +919,43 @@ const CollapsePage: React.FC = () => {
         </div>
 
         {/* IMPOSSIBLE_DEMO Modals */}
+        {/* COLLAPSE Analytics Drill-Down */}
+        <ReportSection
+          title="Policy Collapse Analytics"
+          subtitle="Failure envelope analysis, trust delta trends, and legitimacy insights"
+          icon={<AlertTriangle className="w-4 h-4 text-red-400" />}
+          tableColumns={[
+            { key: 'dimension', label: 'Collapse Dimension', sortable: true },
+            { key: 'trustDelta', label: 'Trust Delta', sortable: true, align: 'right' as const, render: (v: number) => <span className={v < 0 ? 'text-red-400 font-bold' : 'text-emerald-400 font-bold'}>{v > 0 ? '+' : ''}{v}%</span> },
+            { key: 'failureProb', label: 'Failure Prob', align: 'right' as const, render: (v: number) => <StatusBadge status={v >= 60 ? 'error' : v >= 30 ? 'warning' : 'success'} label={`${v}%`} /> },
+            { key: 'minorityImpact', label: 'Minority Impact', render: (v: string) => <StatusBadge status={v === 'high' ? 'error' : v === 'medium' ? 'warning' : 'success'} label={v} /> },
+            { key: 'reversible', label: 'Reversible', render: (v: boolean) => v ? <span className="text-emerald-400">Yes</span> : <span className="text-red-400">No</span> },
+          ]}
+          tableData={[
+            { id: '1', dimension: 'Public Trust Erosion', trustDelta: -18, failureProb: 45, minorityImpact: 'high', reversible: false },
+            { id: '2', dimension: 'Regulatory Backlash', trustDelta: -12, failureProb: 35, minorityImpact: 'medium', reversible: true },
+            { id: '3', dimension: 'Media Narrative Attack', trustDelta: -25, failureProb: 62, minorityImpact: 'high', reversible: false },
+            { id: '4', dimension: 'Internal Legitimacy Crisis', trustDelta: -8, failureProb: 22, minorityImpact: 'low', reversible: true },
+            { id: '5', dimension: 'Stakeholder Revolt', trustDelta: -15, failureProb: 38, minorityImpact: 'medium', reversible: true },
+            { id: '6', dimension: 'Competitive Exploit', trustDelta: -5, failureProb: 18, minorityImpact: 'low', reversible: true },
+          ]}
+          chartData={[
+            { label: 'Public Trust', value: 45, color: 'bg-red-500' },
+            { label: 'Regulatory', value: 35, color: 'bg-amber-500' },
+            { label: 'Narrative Attack', value: 62, color: 'bg-red-500' },
+            { label: 'Internal Legitimacy', value: 22, color: 'bg-blue-500' },
+            { label: 'Stakeholder Revolt', value: 38, color: 'bg-amber-500' },
+            { label: 'Competitive Exploit', value: 18, color: 'bg-emerald-500' },
+          ]}
+          chartTitle="Failure Probability by Dimension"
+          poiItems={[
+            { id: 'c1', title: 'Narrative attack is highest-risk vector', description: 'Media narrative attacks have 62% failure probability and -25% trust delta. Pre-emptive communication strategy recommended.', severity: 'critical' as const, metric: '62%', metricLabel: 'failure prob', action: 'Deploy narrative defense' },
+            { id: 'c2', title: '2 irreversible collapse vectors detected', description: 'Public Trust Erosion and Narrative Attack are flagged as non-reversible. These require prevention rather than recovery strategies.', severity: 'high' as const, metric: '2', metricLabel: 'irreversible' },
+            { id: 'c3', title: 'Competitive exploit is contained', description: 'Low failure probability (18%) and minor trust impact. Current competitive intelligence posture is adequate.', severity: 'positive' as const, metric: '18%', metricLabel: 'failure prob' },
+          ]}
+          defaultView="table"
+        />
+
         <OverrideModal
           isOpen={showOverrideModal}
           onClose={() => setShowOverrideModal(false)}

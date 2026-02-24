@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Regulated Energy Transition
+### DDGI for Regulated Energy Transition
 
 **Auditable decisions across utilities, trading, and renewables**
 

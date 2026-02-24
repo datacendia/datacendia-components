@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for the World's Largest Reinsurer
+### DDGI for the World's Largest Reinsurer
 
 **Systematic evidence for underwriting decisions at scale**
 

@@ -59,6 +59,17 @@ No warranty is expressed or implied regarding regulatory compliance or implement
 
 ---
 
+## Commercial Branding Notice
+
+DGI is the **vendor-neutral framework specification** intended for standards discussion and institutional adoption. In Datacendia's commercial platform and product materials, this framework is branded as **DDGI (Datacendia Decision Governance Infrastructure)** to distinguish the Datacendia implementation from the vendor-neutral standard.
+
+- **DGI** = Vendor-neutral framework (this document, GitHub repository, ISO submission track)
+- **DDGI** = Datacendia's branded commercial implementation of the DGI framework
+
+DGI is not affiliated with the Data Governance Institute. DGI addresses decision evidence infrastructure, a distinct domain from data asset governance.
+
+---
+
 ## Citation Format
 
 Recommended citation:

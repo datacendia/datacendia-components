@@ -232,7 +232,7 @@ flowchart TD
     end
 
     subgraph "Sports-Specific Features"
-        S1["Transfer Decision Governance"]
+        S1["Transfer DDGI"]
         S2["FIFA TMS Compliance"]
         S3["UEFA FFP Compliance"]
         S4["Player/Club/Agent tracking"]

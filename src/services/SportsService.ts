@@ -4,7 +4,7 @@
 
 /**
  * DATACENDIA PLATFORM - SPORTS VERTICAL
- * Frontend Service for Football/Soccer Decision Governance
+ * Frontend Service for Football/Soccer DDGI
  * 
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
  */

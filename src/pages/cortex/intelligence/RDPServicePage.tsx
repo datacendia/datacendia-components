@@ -34,7 +34,7 @@ interface ResearchTemplate {
 
 const BRIEFS: ResearchBrief[] = [
   { id: 'rb1', title: 'EU AI Act Impact Assessment', status: 'complete', sources: 24, findings: 12, createdAt: '2d ago', topic: 'Regulatory' },
-  { id: 'rb2', title: 'Competitor Analysis — Decision Governance Market', status: 'complete', sources: 18, findings: 8, createdAt: '5d ago', topic: 'Market' },
+  { id: 'rb2', title: 'Competitor Analysis — DDGI Market', status: 'complete', sources: 18, findings: 8, createdAt: '5d ago', topic: 'Market' },
   { id: 'rb3', title: 'Cloud Migration Best Practices 2026', status: 'researching', sources: 11, findings: 4, createdAt: '1d ago', topic: 'Technology' },
   { id: 'rb4', title: 'Board Governance Trends — FTSE 250', status: 'draft', sources: 0, findings: 0, createdAt: '3h ago', topic: 'Governance' },
 ];

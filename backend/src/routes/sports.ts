@@ -4,7 +4,7 @@
 
 /**
  * DATACENDIA PLATFORM - SPORTS VERTICAL
- * API Routes for Football/Soccer Decision Governance
+ * API Routes for Football/Soccer DDGI
  * 
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
  * PROPRIETARY AND CONFIDENTIAL

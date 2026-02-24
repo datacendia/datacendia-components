@@ -1,4 +1,4 @@
-# Datacendia Decision Governance Platform
+# Datacendia DDGI Platform
 
 **Regulatory-Grade AI Decision Verification**
 
@@ -219,7 +219,7 @@ Evidence packages are designed to be admissible:
 
 ## Summary
 
-Datacendia provides **regulatory-grade decision governance** for AI-assisted decisions:
+Datacendia provides **regulatory-grade DDGI** for AI-assisted decisions:
 
 1. **Monitor** — Intercept and evaluate before execution
 2. **Deliberate** — Structured multi-perspective challenge with dissent preservation

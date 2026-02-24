@@ -13,9 +13,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, FileSignature, Shield, Lock } from 'lucide-react';
 import { RegulatorsReceiptDemo } from '../../../components/demos/RegulatorsReceiptDemo';
+import { RedactionProvider, RedactionToggle } from '../../../components/ui/RedactedText';
 
 const RegulatorsReceiptPage: React.FC = () => {
   return (
+    <RedactionProvider>
     <div className="min-h-screen bg-gradient-to-br from-neutral-950 via-slate-950 to-neutral-950">
       {/* Header */}
       <header className="border-b border-neutral-800 bg-neutral-950/80 backdrop-blur-sm sticky top-0 z-50">
@@ -42,6 +44,7 @@ const RegulatorsReceiptPage: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-4">
+              <RedactionToggle variant="dark" />
               <div className="flex items-center gap-2 px-3 py-1.5 bg-emerald-900/30 border border-emerald-700/50 rounded-full">
                 <Shield className="w-4 h-4 text-emerald-400" />
                 <span className="text-xs text-emerald-300">FDA 21 CFR Part 11</span>
@@ -201,6 +204,7 @@ const RegulatorsReceiptPage: React.FC = () => {
         </div>
       </footer>
     </div>
+    </RedactionProvider>
   );
 };
 

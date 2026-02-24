@@ -965,7 +965,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-slate-500">Mode:</span>
-                      <span className="text-slate-300">Decision Governance</span>
+                      <span className="text-slate-300">DDGI</span>
                     </div>
                     {selectedDecision.owner && (
                       <div className="flex items-center gap-2">

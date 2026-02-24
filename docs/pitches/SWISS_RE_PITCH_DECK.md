@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Global Reinsurance
+### DDGI for Global Reinsurance
 
 **Making underwriting decisions auditable when the stakes are catastrophic**
 

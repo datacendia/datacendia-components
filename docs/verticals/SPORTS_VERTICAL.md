@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Sports Vertical extends Datacendia's decision governance platform for professional sports organizations, with initial focus on football (soccer) clubs. The vertical addresses the unique decision-making challenges in player transfers, contract negotiations, commercial partnerships, and regulatory compliance (FFP/Club Licensing).
+The Sports Vertical extends Datacendia's DDGI platform for professional sports organizations, with initial focus on football (soccer) clubs. The vertical addresses the unique decision-making challenges in player transfers, contract negotiations, commercial partnerships, and regulatory compliance (FFP/Club Licensing).
 
 ## Target Organizations
 

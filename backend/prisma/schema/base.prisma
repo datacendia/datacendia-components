@@ -120,7 +120,7 @@ model organizations {
   // Enterprise Scheduler
   enterprise_scheduled_jobs enterprise_scheduled_jobs[]
 
-  // Sports Vertical - Football/Soccer Decision Governance
+  // Sports Vertical - Football/Soccer DDGI
   sports_transfer_decisions sports_transfer_decisions[]
   sports_contract_decisions sports_contract_decisions[]
 

@@ -757,7 +757,7 @@ export const VoxPage: React.FC = () => {
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-xl font-semibold flex items-center gap-2">
-              <ArrowRight className="w-5 h-5 text-cyan-400" /> Decision Governance Timeline
+              <ArrowRight className="w-5 h-5 text-cyan-400" /> DDGI Timeline
             </h2>
             <p className="text-sm text-slate-400">How stakeholder voices flow through decisions</p>
           </div>

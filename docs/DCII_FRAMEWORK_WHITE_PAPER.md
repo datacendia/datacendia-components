@@ -533,7 +533,7 @@ flowchart LR
 | 601–800 | **Resilient** | Strong coverage, minor gaps. Insurance discount eligible. |
 | 401–600 | **Developing** | Core capabilities in place. Advanced primitive gaps remain. |
 | 201–400 | **Vulnerable** | Partial coverage. High regulatory/litigation exposure. |
-| 0–200 | **Critical** | Fundamental gaps. Cannot demonstrate basic decision governance. |
+| 0–200 | **Critical** | Fundamental gaps. Cannot demonstrate basic DDGI compliance. |
 
 ### 4.3 Certification Levels
 

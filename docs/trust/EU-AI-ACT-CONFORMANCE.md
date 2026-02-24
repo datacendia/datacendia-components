@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This document declares the current conformance posture of Datacendia's AI decision governance platform against the EU Artificial Intelligence Act. This is a voluntary self-assessment, not a formal conformity assessment under the regulation.
+This document declares the current conformance posture of Datacendia's DDGI (Datacendia Decision Governance Infrastructure) platform against the EU Artificial Intelligence Act. This is a voluntary self-assessment, not a formal conformity assessment under the regulation.
 
 ---
 
@@ -55,7 +55,7 @@ Datacendia's architecture is designed to satisfy the requirements imposed on hig
 | Requirement | Status | Implementation |
 |---|---|---|
 | General system description | Conformant | Architecture documentation, API specifications, and operational guides maintained |
-| Design specifications | Conformant | Decision governance architecture fully documented |
+| Design specifications | Conformant | DDGI architecture fully documented |
 | Development process description | Conformant | Version-controlled codebase with CI/CD pipeline and automated testing |
 | Monitoring and oversight capabilities | Conformant | OpenTelemetry instrumentation, Prometheus metrics, structured logging |
 
@@ -116,7 +116,7 @@ Datacendia is designed to help deployers meet their obligations under Article 26
 
 | Deployer Obligation | How Datacendia Helps |
 |---|---|
-| Use AI system in accordance with instructions | Decision governance framework enforces usage boundaries |
+| Use AI system in accordance with instructions | DDGI framework enforces usage boundaries |
 | Ensure human oversight | Mandatory escalation paths and override controls |
 | Monitor AI system operation | Real-time metrics, logging, and alerting infrastructure |
 | Keep logs | Immutable, cryptographically signed audit records |
@@ -137,7 +137,7 @@ Datacendia is designed to help deployers meet their obligations under Article 26
 
 ## Statement
 
-Datacendia's AI decision governance platform is designed to conform to the requirements of the EU Artificial Intelligence Act for high-risk AI system infrastructure. The controls, transparency mechanisms, and oversight capabilities described in this document are operational in the current platform build.
+Datacendia's DDGI platform is designed to conform to the requirements of the EU Artificial Intelligence Act for high-risk AI system infrastructure. The controls, transparency mechanisms, and oversight capabilities described in this document are operational in the current platform build.
 
 This statement is a voluntary self-assessment. Formal conformity assessment will be conducted in coordination with deployers and, where required, notified bodies.
 

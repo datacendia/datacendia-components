@@ -14,7 +14,9 @@ import apiClient from '../../../lib/api/client';
 import {
   Brain, BarChart3, TrendingUp, TrendingDown, Users, Clock,
   CheckCircle, AlertTriangle, Target, Zap, Activity, PieChart,
+  ChevronDown, ChevronRight,
 } from 'lucide-react';
+import { DataTable, MiniBarChart, POIList, ReportSection, MetricCard, type TableColumn, type PointOfInterest } from '../../../components/reports/DrillDownReportKit';
 
 interface AgentMetric {
   role: string;
@@ -92,28 +94,20 @@ export const CouncilAnalyticsPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Quality Metrics */}
+      {/* Quality Metrics — Interactive */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {QUALITY_METRICS.map((m, i) => (
-          <div key={i} className="p-4 rounded-xl border border-neutral-700/50 bg-neutral-900/50">
-            <div className="flex items-center gap-2 mb-2">
-              <m.icon className={cn('w-4 h-4', m.color)} />
-              <span className="text-xs text-neutral-500 uppercase tracking-wider">{m.label}</span>
-            </div>
-            <div className="flex items-end gap-2">
-              <p className="text-2xl font-bold text-neutral-100">{typeof m.value === 'number' ? `${m.value}%` : m.value}</p>
-              {typeof m.value === 'number' && typeof m.target === 'number' && (
-                <span className={cn('text-xs font-medium mb-1', m.value >= m.target ? 'text-green-400' : 'text-amber-400')}>
-                  {m.value >= m.target ? '✓ On target' : `Target: ${m.target}%`}
-                </span>
-              )}
-            </div>
-            {typeof m.value === 'number' && (
-              <div className="mt-2 w-full h-1.5 bg-neutral-800 rounded-full overflow-hidden">
-                <div className={cn('h-full rounded-full', m.bg)} style={{ width: `${m.value}%`, opacity: 0.6 }} />
-              </div>
-            )}
-          </div>
+          <MetricCard
+            key={i}
+            label={m.label}
+            value={typeof m.value === 'number' ? `${m.value}%` : m.value}
+            sublabel={typeof m.value === 'number' && typeof m.target === 'number'
+              ? (m.value >= m.target ? '✓ On target' : `Target: ${m.target}%`)
+              : undefined}
+            icon={<m.icon className={cn('w-4 h-4', m.color)} />}
+            trend={typeof m.value === 'number' && typeof m.target === 'number' && m.value >= m.target ? 'up' : 'flat'}
+            trendValue={typeof m.value === 'number' && typeof m.target === 'number' ? `${Math.abs(m.value - m.target)}% ${m.value >= m.target ? 'above' : 'below'} target` : undefined}
+          />
         ))}
       </div>
 
@@ -147,57 +141,39 @@ export const CouncilAnalyticsPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Agent Performance Table */}
-      <div className="rounded-xl border border-neutral-700/50 bg-neutral-900/50 overflow-hidden">
-        <div className="px-5 py-3 border-b border-neutral-700/50">
-          <h3 className="text-sm font-semibold text-neutral-200 flex items-center gap-2">
-            <Users className="w-4 h-4 text-blue-400" /> Agent Performance Metrics
-          </h3>
-        </div>
-        <div className="overflow-x-auto">
-          <table className="w-full">
-            <thead>
-              <tr className="border-b border-neutral-800/50">
-                <th className="px-5 py-3 text-left text-[10px] font-semibold text-neutral-500 uppercase tracking-wider">Agent Role</th>
-                <th className="px-5 py-3 text-right text-[10px] font-semibold text-neutral-500 uppercase tracking-wider">Deliberations</th>
-                <th className="px-5 py-3 text-right text-[10px] font-semibold text-neutral-500 uppercase tracking-wider">Avg Confidence</th>
-                <th className="px-5 py-3 text-right text-[10px] font-semibold text-neutral-500 uppercase tracking-wider">Consensus Rate</th>
-                <th className="px-5 py-3 text-right text-[10px] font-semibold text-neutral-500 uppercase tracking-wider">Avg Response</th>
-                <th className="px-5 py-3 text-right text-[10px] font-semibold text-neutral-500 uppercase tracking-wider">Trend</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-neutral-800/50">
-              {AGENT_METRICS.map((agent, i) => (
-                <tr key={i} className="hover:bg-neutral-800/30 transition-colors">
-                  <td className="px-5 py-3">
-                    <div className="flex items-center gap-2">
-                      <Brain className="w-4 h-4 text-blue-400" />
-                      <span className="text-sm text-neutral-200 font-medium">{agent.role}</span>
-                    </div>
-                  </td>
-                  <td className="px-5 py-3 text-right text-sm text-neutral-300">{agent.deliberations}</td>
-                  <td className="px-5 py-3 text-right">
-                    <span className={cn('text-sm font-medium',
-                      agent.avgConfidence >= 85 ? 'text-green-400' : agent.avgConfidence >= 70 ? 'text-amber-400' : 'text-red-400'
-                    )}>{agent.avgConfidence}%</span>
-                  </td>
-                  <td className="px-5 py-3 text-right">
-                    <span className={cn('text-sm font-medium',
-                      agent.consensusRate >= 85 ? 'text-green-400' : agent.consensusRate >= 60 ? 'text-amber-400' : 'text-red-400'
-                    )}>{agent.consensusRate}%</span>
-                  </td>
-                  <td className="px-5 py-3 text-right text-sm text-neutral-400">{agent.avgResponseTime}</td>
-                  <td className="px-5 py-3 text-right">
-                    {agent.trend === 'up' && <TrendingUp className="w-4 h-4 text-green-400 ml-auto" />}
-                    {agent.trend === 'down' && <TrendingDown className="w-4 h-4 text-red-400 ml-auto" />}
-                    {agent.trend === 'stable' && <Activity className="w-4 h-4 text-neutral-500 ml-auto" />}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      {/* Agent Performance Table — Interactive Drill-Down */}
+      <ReportSection
+        title="Agent Performance Metrics"
+        subtitle="Click any agent row to drill down into individual performance data"
+        icon={<Users className="w-4 h-4 text-blue-400" />}
+        tableColumns={[
+          { key: 'role', label: 'Agent Role', sortable: true, render: (v: string) => (
+            <div className="flex items-center gap-2"><Brain className="w-4 h-4 text-blue-400" /><span className="font-medium">{v}</span></div>
+          )},
+          { key: 'deliberations', label: 'Deliberations', sortable: true, align: 'right' },
+          { key: 'avgConfidence', label: 'Avg Confidence', sortable: true, align: 'right', render: (v: number) => (
+            <span className={cn('font-medium', v >= 85 ? 'text-green-400' : v >= 70 ? 'text-amber-400' : 'text-red-400')}>{v}%</span>
+          )},
+          { key: 'consensusRate', label: 'Consensus Rate', sortable: true, align: 'right', render: (v: number) => (
+            <span className={cn('font-medium', v >= 85 ? 'text-green-400' : v >= 60 ? 'text-amber-400' : 'text-red-400')}>{v}%</span>
+          )},
+          { key: 'avgResponseTime', label: 'Avg Response', align: 'right' },
+          { key: 'trend', label: 'Trend', align: 'right', render: (v: string) => (
+            v === 'up' ? <TrendingUp className="w-4 h-4 text-green-400 ml-auto" /> :
+            v === 'down' ? <TrendingDown className="w-4 h-4 text-red-400 ml-auto" /> :
+            <Activity className="w-4 h-4 text-neutral-500 ml-auto" />
+          )},
+        ]}
+        tableData={AGENT_METRICS.map((a, i) => ({ id: String(i), ...a }))}
+        chartData={AGENT_METRICS.map(a => ({ label: a.role, value: a.consensusRate, color: a.consensusRate >= 85 ? 'bg-emerald-500' : a.consensusRate >= 60 ? 'bg-amber-500' : 'bg-red-500' }))}
+        chartTitle="Consensus Rate by Agent"
+        poiItems={[
+          { id: 'a1', title: 'Compliance Officer leads in consensus', description: 'Compliance Officer has the highest consensus rate at 96%, driven by clear regulatory frameworks.', severity: 'positive' as const, metric: '96%', metricLabel: 'consensus' },
+          { id: 'a2', title: "Devil's Advocate low consensus is by design", description: 'The 45% consensus rate for Devil\'s Advocate reflects its purpose: structured dissent and challenge.', severity: 'info' as const, metric: '45%', metricLabel: 'consensus' },
+          { id: 'a3', title: 'Risk Assessor trending stable', description: 'Risk Assessor\'s confidence and consensus have plateaued. Consider updating risk models.', severity: 'medium' as const, metric: '82%', metricLabel: 'consensus', action: 'Review risk models' },
+        ]}
+        defaultView="table"
+      />
 
       {/* Mode Usage Distribution */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -230,23 +206,13 @@ export const CouncilAnalyticsPage: React.FC = () => {
           <h3 className="text-sm font-semibold text-neutral-200 mb-4 flex items-center gap-2">
             <Zap className="w-4 h-4 text-amber-400" /> Decision Quality Insights
           </h3>
-          <div className="space-y-4">
-            {[
-              { insight: 'Decisions with 7+ agents have 23% higher consensus rates', type: 'positive' },
-              { insight: "Devil's Advocate mode reduces groupthink by 34%", type: 'positive' },
-              { insight: 'Crisis Response mode needs faster avg resolution (currently 4.2m)', type: 'warning' },
-              { insight: 'Evidence citation rate improved 8% this quarter', type: 'positive' },
-              { insight: 'Financial Analysis deliberations have highest post-decision satisfaction', type: 'positive' },
-            ].map((ins, i) => (
-              <div key={i} className="flex items-start gap-2">
-                {ins.type === 'positive'
-                  ? <CheckCircle className="w-4 h-4 text-green-400 mt-0.5 shrink-0" />
-                  : <AlertTriangle className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
-                }
-                <p className="text-xs text-neutral-300">{ins.insight}</p>
-              </div>
-            ))}
-          </div>
+          <POIList items={[
+            { id: 'i1', title: '7+ agent deliberations perform 23% better', description: 'Decisions with more diverse perspectives reach consensus faster and with higher quality scores.', severity: 'positive', metric: '+23%', metricLabel: 'consensus boost' },
+            { id: 'i2', title: "Devil's Advocate reduces groupthink by 34%", description: 'Structured dissent mode produces more robust decisions and catches overlooked risks.', severity: 'positive', metric: '-34%', metricLabel: 'groupthink' },
+            { id: 'i3', title: 'Crisis Response resolution too slow', description: 'Average crisis deliberation takes 4.2 minutes. Target is under 3 minutes for time-critical decisions.', severity: 'high', metric: '4.2m', metricLabel: 'avg time', action: 'Optimize crisis pipeline' },
+            { id: 'i4', title: 'Evidence citation rate improving', description: 'Citations per deliberation rose 8% this quarter. 94% of decisions now include source evidence.', severity: 'positive', metric: '+8%', metricLabel: 'this quarter' },
+            { id: 'i5', title: 'Financial Analysis has highest satisfaction', description: 'Post-decision surveys show 94% satisfaction for financial analysis mode deliberations.', severity: 'positive', metric: '94%', metricLabel: 'satisfaction' },
+          ]} />
         </div>
       </div>
     </div>

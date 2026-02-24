@@ -27,6 +27,8 @@ import {
 } from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
 import { decisionIntelApi } from '../../../lib/api';
+import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { Shield, Server } from 'lucide-react';
 
 // =============================================================================
 // LOCAL TYPES (GPUNode, DeployedModel, ClusterMetrics imported from EnterpriseService)
@@ -1180,6 +1182,45 @@ export const SovereignPage: React.FC = () => {
             ))}
           </div>
         )}
+
+        {/* Sovereign Deployment Analytics Drill-Down */}
+        <div className="mt-6">
+          <ReportSection
+            title="Sovereign Infrastructure Analytics"
+            subtitle="GPU cluster status, model deployment metrics, and data residency insights"
+            icon={<Server className="w-4 h-4 text-violet-400" />}
+            tableColumns={[
+              { key: 'node', label: 'Node', sortable: true },
+              { key: 'zone', label: 'Zone' },
+              { key: 'gpuType', label: 'GPU', render: (v: string) => <span className="font-mono text-violet-400">{v}</span> },
+              { key: 'vramUsage', label: 'VRAM Usage', align: 'right' as const, render: (v: string) => <span className="font-mono">{v}</span> },
+              { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v === 'online' ? 'success' : v === 'draining' ? 'warning' : 'error'} label={v} /> },
+              { key: 'rps', label: 'Req/s', sortable: true, align: 'right' as const },
+            ]}
+            tableData={nodes.map((n: GPUNode, i: number) => ({
+              id: n.id || String(i),
+              node: n.name,
+              zone: n.zone,
+              gpuType: `${n.gpuType} x${n.gpuCount}`,
+              vramUsage: `${n.usedVRAM}/${n.totalVRAM} GB`,
+              status: n.status,
+              rps: n.requestsPerSecond,
+            }))}
+            chartData={nodes.map((n: GPUNode) => ({
+              label: n.name.replace('Sovereign-', ''),
+              value: n.totalVRAM > 0 ? Math.round((n.usedVRAM / n.totalVRAM) * 100) : 0,
+              color: n.status === 'online' ? 'bg-emerald-500' : 'bg-amber-500',
+              meta: '%',
+            }))}
+            chartTitle="VRAM Utilization by Node"
+            poiItems={[
+              { id: 'sv1', title: `${nodes.filter((n: GPUNode) => n.status === 'online').length} nodes online`, description: `${nodes.filter((n: GPUNode) => n.status === 'online').length} of ${nodes.length} GPU nodes are operational. Total VRAM: ${nodes.reduce((s: number, n: GPUNode) => s + n.totalVRAM, 0)} GB.`, severity: 'positive' as const, metric: String(nodes.filter((n: GPUNode) => n.status === 'online').length), metricLabel: 'online' },
+              { id: 'sv2', title: 'Air-gapped node operational', description: 'Sovereign-Secure-01 (air-gapped zone) is running classified models with full isolation. Zero external network exposure.', severity: 'positive' as const, metric: '100%', metricLabel: 'isolated' },
+              { id: 'sv3', title: 'Edge node running hot', description: 'Sovereign-Edge-01 GPU temperature at 71°C. Consider workload rebalancing to prevent thermal throttling.', severity: 'medium' as const, metric: '71°C', metricLabel: 'temperature', action: 'Rebalance workload' },
+            ]}
+            defaultView="table"
+          />
+        </div>
       </main>
     </div>
   );

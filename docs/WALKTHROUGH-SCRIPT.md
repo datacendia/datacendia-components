@@ -255,7 +255,7 @@
 **Key talking points:**
 - "Every investment decision your fund makes has a defensible audit trail"
 - "When LPs ask why you invested in X, the entire deliberation is cryptographically preserved"
-- "This isn't a spreadsheet. This is institutional-grade decision governance."
+- "This isn't a spreadsheet. This is institutional-grade DDGI."
 - "We're not another AI tool. We're the governance layer your fund is missing."
 
 ---

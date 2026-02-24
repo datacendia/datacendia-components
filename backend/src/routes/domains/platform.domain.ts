@@ -26,6 +26,7 @@ import envConfigRoutes from '../env-config.js';
 import marketingStudioRoutes from '../marketing-studio.js';
 import platformAssistantRoutes from '../platform-assistant.js';
 import marketingLeadsRoutes from '../marketing-leads.js';
+import autoHealRoutes from '../auto-heal.js';
 
 const router = Router();
 
@@ -48,5 +49,6 @@ router.use('/admin/env-config', envConfigRoutes);
 router.use('/marketing-studio', marketingStudioRoutes);
 router.use('/platform-assistant', platformAssistantRoutes);
 router.use('/marketing-leads', marketingLeadsRoutes);
+router.use('/auto-heal', autoHealRoutes);
 
 export default router;

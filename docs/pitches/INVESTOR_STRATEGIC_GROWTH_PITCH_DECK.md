@@ -11,7 +11,7 @@
 
 ### Datacendia
 
-**The Decision Governance Platform for Regulated Enterprises**
+**The DDGI Platform for Regulated Enterprises**
 
 *[Leadership Team]*  
 *Growth Investment — [Date]*
@@ -22,7 +22,7 @@
 
 ### Category-Defining Infrastructure for AI Governance
 
-**Datacendia** is the decision governance platform for regulated enterprises navigating AI adoption.
+**Datacendia** is the DDGI (Datacendia Decision Governance Infrastructure) platform for regulated enterprises navigating AI adoption.
 
 **Key metrics:**
 
@@ -49,7 +49,7 @@
 1. Every regulated enterprise is deploying AI for decisions
 2. Regulators are mandating AI governance (EU AI Act, SEC, CMS)
 3. Existing tools (GRC, logging, compliance) don't solve the problem
-4. Decision governance will become mandatory infrastructure — like identity or security
+4. Decision governance will become mandatory infrastructure — like identity or security. DDGI defines the category.
 
 **Market timing:**
 
@@ -86,7 +86,7 @@
 
 ## Slide 5 — Product and Platform
 
-### Enterprise-Grade Decision Governance
+### Enterprise-Grade DDGI
 
 **Platform capabilities:**
 
@@ -307,7 +307,7 @@
 
 **The thesis:**
 
-1. **Category creation** — Decision governance is becoming mandatory infrastructure
+1. **Category creation** — DDGI is becoming mandatory infrastructure
 2. **Market timing** — Regulatory mandates creating demand wave
 3. **Leadership position** — First mover with enterprise traction
 4. **Scalable model** — Proven unit economics, expansion playbook
@@ -354,7 +354,7 @@
 
 **Datacendia is:**
 
-- The leading decision governance platform for regulated enterprises
+- The leading DDGI platform for regulated enterprises
 - Positioned in a $18B+ market with regulatory tailwinds
 - Proven with enterprise customers and scalable unit economics
 - Led by a team that has built enterprise software at scale

@@ -11,6 +11,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import apiClient from '../../../lib/api/client';
 import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
 import {
   Activity,
   Shield,
@@ -583,6 +584,44 @@ export const LiveAgentMonitorPage: React.FC = () => {
             </table>
           </div>
         </div>
+
+        {/* Operate Analytics Drill-Down */}
+        <ReportSection
+          title="Operations Analytics"
+          subtitle="Agent performance, incident timeline, and service health insights"
+          icon={<Activity className="w-4 h-4 text-blue-400" />}
+          tableColumns={[
+            { key: 'agent', label: 'Agent', sortable: true },
+            { key: 'actions', label: 'Actions', sortable: true, align: 'right' as const },
+            { key: 'allowRate', label: 'Allow Rate', align: 'right' as const, render: (v: number) => <span className={v >= 90 ? 'text-emerald-400 font-bold' : v >= 70 ? 'text-amber-400 font-bold' : 'text-red-400 font-bold'}>{v}%</span> },
+            { key: 'blockRate', label: 'Block Rate', align: 'right' as const, render: (v: number) => <span className={v <= 5 ? 'text-emerald-400' : v <= 15 ? 'text-amber-400' : 'text-red-400 font-bold'}>{v}%</span> },
+            { key: 'avgRisk', label: 'Avg Risk', align: 'right' as const, render: (v: number) => <StatusBadge status={v >= 60 ? 'error' : v >= 40 ? 'warning' : 'success'} label={`${v}`} /> },
+          ]}
+          tableData={AGENTS.map((agent, i) => {
+            const agentActions = actions.filter(a => a.agentId === agent.id);
+            const total = Math.max(agentActions.length, 1);
+            return {
+              id: agent.id,
+              agent: agent.name,
+              actions: agentActions.length,
+              allowRate: Math.round((agentActions.filter(a => a.decision === 'ALLOW').length / total) * 100),
+              blockRate: Math.round((agentActions.filter(a => a.decision === 'BLOCK').length / total) * 100),
+              avgRisk: agentActions.length > 0 ? Math.round(agentActions.reduce((s, a) => s + a.riskScore, 0) / total) : 0,
+            };
+          })}
+          chartData={[
+            { label: 'Allowed', value: decisionCounts.ALLOW, color: 'bg-emerald-500' },
+            { label: 'Blocked', value: decisionCounts.BLOCK, color: 'bg-red-500' },
+            { label: 'Escalated', value: decisionCounts.ESCALATE, color: 'bg-amber-500' },
+          ]}
+          chartTitle="Decision Distribution"
+          poiItems={[
+            { id: 'o1', title: `${metrics.activeAgents} agents active`, description: `All ${metrics.activeAgents} agents are processing actions. Compliance score: ${metrics.complianceScore.toFixed(1)}%.`, severity: 'positive' as const, metric: String(metrics.activeAgents), metricLabel: 'active' },
+            { id: 'o2', title: `Block rate: ${metrics.blockRate.toFixed(1)}%`, description: `${metrics.blockedActions} actions blocked out of ${metrics.totalActions} total. ${metrics.blockRate > 10 ? 'Elevated block rate may indicate increased threat activity.' : 'Block rate within normal operating parameters.'}`, severity: metrics.blockRate > 10 ? ('high' as const) : ('positive' as const), metric: `${metrics.blockRate.toFixed(1)}%`, metricLabel: 'block rate' },
+            { id: 'o3', title: `Avg latency: ${metrics.avgLatency}ms`, description: `Average action processing latency is ${metrics.avgLatency}ms. ${metrics.avgLatency > 30 ? 'Above 30ms threshold — consider scaling agents.' : 'Within acceptable performance bounds.'}`, severity: metrics.avgLatency > 30 ? ('medium' as const) : ('positive' as const), metric: `${metrics.avgLatency}ms`, metricLabel: 'latency' },
+          ]}
+          defaultView="table"
+        />
       </div>
     </div>
   );

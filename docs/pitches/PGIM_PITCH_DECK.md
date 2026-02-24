@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Global Asset Management
+### DDGI for Global Asset Management
 
 **Making investment decisions auditable, defensible, and regulator-ready**
 

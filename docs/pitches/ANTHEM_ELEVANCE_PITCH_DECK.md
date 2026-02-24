@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Clinical Decision Governance for Health Plans
+### Clinical DDGI for Health Plans
 
 **Creating defensible evidence for coverage and utilization decisions**
 
@@ -313,7 +313,7 @@ Member appeals. Case goes to external review.
 
 ## "How is this different from our existing clinical documentation?"
 
-> "Clinical documentation records care. Datacendia captures decision governance — who reviewed what, how AI was overseen, what clinical reasoning was applied. That's what litigation and regulation require."
+> "Clinical documentation records care. Datacendia captures DDGI — who reviewed what, how AI was overseen, what clinical reasoning was applied. That's what litigation and regulation require."
 
 ---
 

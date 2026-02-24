@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Regulated Investment Firms
+### DDGI for Regulated Investment Firms
 
 **Making AI-assisted investment decisions auditable, defensible, and regulator-ready**
 

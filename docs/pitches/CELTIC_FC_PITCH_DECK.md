@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Professional Football
+### DDGI for Professional Football
 
 **Auditable decisions across transfers, contracts, and commercial operations**
 

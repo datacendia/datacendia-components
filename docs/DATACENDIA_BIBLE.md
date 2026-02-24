@@ -2152,7 +2152,7 @@ For complex reasoning, agents use structured thinking:
 
 # Governance Framework
 
-## Decision Governance Model
+## DDGI Model
 
 ### Classification
 Every decision is classified:

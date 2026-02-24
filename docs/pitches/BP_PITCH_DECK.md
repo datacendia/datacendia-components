@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Energy Transformation
+### DDGI for Energy Transformation
 
 **Auditable decisions that protect the enterprise**
 

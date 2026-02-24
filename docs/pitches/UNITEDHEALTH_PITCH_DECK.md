@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Health Plan Administration
+### DDGI for Health Plan Administration
 
 **Making coverage decisions defensible before they're challenged**
 

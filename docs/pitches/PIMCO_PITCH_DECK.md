@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Fixed Income
+### DDGI for Fixed Income
 
 **Making credit decisions auditable when markets move fast**
 

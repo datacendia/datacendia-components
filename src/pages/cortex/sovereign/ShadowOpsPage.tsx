@@ -186,7 +186,7 @@ const generateIntelSignals = (): IntelSignal[] => [
     competitorName: 'Dataiku',
     type: 'product',
     title: 'New "Decision Governance" Module Announced',
-    description: 'Dataiku announcing decision governance features at upcoming conference - competitive response to our Trust Layer.',
+    description: 'Dataiku announcing decision governance features at upcoming conference - competitive response to our DDGI Trust Layer.',
     confidence: 0.85,
     impact: 'high',
     detectedAt: new Date(Date.now() - 48 * 60 * 60 * 1000),

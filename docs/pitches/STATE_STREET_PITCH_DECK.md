@@ -9,7 +9,7 @@
 
 ## Slide 1 — Title
 
-### Decision Governance for Global Asset Servicing
+### DDGI for Global Asset Servicing
 
 **Auditable decisions across custody, asset management, and operations**
 

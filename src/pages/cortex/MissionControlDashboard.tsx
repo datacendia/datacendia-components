@@ -5,7 +5,7 @@
 // =============================================================================
 // DATACENDIA — INSTITUTIONAL MISSION CONTROL
 // =============================================================================
-// Bloomberg Terminal meets Air Traffic Control for Decision Governance.
+// Bloomberg Terminal meets Air Traffic Control for DDGI (Datacendia Decision Governance Infrastructure).
 // Hero: IISS Score. Focus: What needs attention NOW. Action: Council, Analyze, Prove.
 
 import React, { useState, useEffect } from 'react';

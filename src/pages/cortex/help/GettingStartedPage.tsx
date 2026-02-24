@@ -39,7 +39,7 @@ const QUICK_START_STEPS: QuickStartStep[] = [
   {
     id: 'dcii',
     title: 'Check Your IISS Score',
-    description: 'View your Institutional Immune System Score — the 9 primitives that prove your decision governance.',
+    description: 'View your Institutional Immune System Score — the 9 primitives that prove your DDGI compliance.',
     action: 'View DCII Dashboard',
     route: '/cortex/enterprise/dcii',
     icon: Shield,

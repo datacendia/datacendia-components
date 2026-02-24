@@ -11,7 +11,7 @@
 
 ### Datacendia
 
-**Decision Governance Infrastructure for Regulated Enterprises**
+**Datacendia Decision Governance Infrastructure (DDGI) for Regulated Enterprises**
 
 *[Founder Name(s)]*  
 *Series [A/B] — [Date]*
@@ -42,7 +42,7 @@
 
 ## Slide 3 — The Market
 
-### Decision Governance Is a New Category
+### DDGI: Decision Governance Is a New Category
 
 **Total addressable market:**
 
@@ -298,7 +298,7 @@
 
 ---
 
-**"Every regulated enterprise will need decision governance. We're building the infrastructure."**
+**"Every regulated enterprise will need decision governance. We're building the infrastructure — DDGI."**
 
 ---
 
