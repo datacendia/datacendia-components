@@ -12,6 +12,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import apiClient from '../../../lib/api/client';
 import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
+import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
+import { SavedViewManager } from '../../../components/reports/InteractionKit';
 import {
   Activity,
   Shield,
@@ -622,6 +626,29 @@ export const LiveAgentMonitorPage: React.FC = () => {
           ]}
           defaultView="table"
         />
+
+        {/* Enhanced Analytics */}
+        <div className="space-y-6 mt-8 border-t border-blue-900/30 pt-8">
+          <div className="flex items-center justify-between">
+            <h2 className="text-lg font-semibold text-white flex items-center gap-2"><Activity className="w-5 h-5 text-blue-400" /> Enhanced Analytics</h2>
+            <div className="flex items-center gap-2">
+              <SavedViewManager pageId="live-monitor" currentFilters={{}} onLoadView={() => {}} />
+              <ExportToolbar data={actions.map(a => ({ agent: AGENTS.find(ag => ag.id === a.agentId)?.name || a.agentId, action: a.action, decision: a.decision, risk: a.riskScore }))} columns={[{ key: 'agent', label: 'Agent' }, { key: 'action', label: 'Action' }, { key: 'decision', label: 'Decision' }, { key: 'risk', label: 'Risk Score' }]} filename="live-agent-actions" />
+              <PDFExportButton title="CendiaPulse Operations Report" subtitle="Live Agent Monitoring & Action Analytics" sections={[{ heading: 'Agent Performance', content: `${metrics.activeAgents} agents active. ${metrics.totalActions} total actions processed. Block rate: ${metrics.blockRate.toFixed(1)}%. Compliance score: ${metrics.complianceScore.toFixed(1)}%.`, metrics: [{ label: 'Active Agents', value: String(metrics.activeAgents) }, { label: 'Total Actions', value: String(metrics.totalActions) }, { label: 'Block Rate', value: `${metrics.blockRate.toFixed(1)}%` }, { label: 'Compliance', value: `${metrics.complianceScore.toFixed(1)}%` }] }]} />
+            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <MetricWithSparkline title="Actions/sec" value={metrics.actionsPerSecond || 0} trend={[12, 14, 15, 16, 18, 19, 20, metrics.actionsPerSecond || 21]} change={5.0} color="#60a5fa" />
+            <MetricWithSparkline title="Block Rate" value={`${metrics.blockRate.toFixed(1)}%`} trend={[8.5, 7.8, 7.2, 6.8, 6.5, 6.2, 6.0, metrics.blockRate]} change={-3.3} color="#f87171" inverted />
+            <MetricWithSparkline title="Compliance" value={`${metrics.complianceScore.toFixed(1)}%`} trend={[94, 95, 95.5, 96, 96.5, 97, 97.5, metrics.complianceScore]} change={1.0} color="#34d399" />
+            <MetricWithSparkline title="Avg Latency" value={`${metrics.avgLatency}ms`} trend={[32, 30, 28, 27, 26, 25, 24, metrics.avgLatency]} change={-4.0} color="#fbbf24" inverted />
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <HeatmapCalendar title="Agent Action Activity" subtitle="Daily action processing volume" valueLabel="actions" data={Array.from({ length: 180 }, (_, i) => { const d = new Date(); d.setDate(d.getDate() - (180 - i)); return { date: d.toISOString().split('T')[0], value: Math.floor(Math.random() * 25) }; })} weeks={26} />
+            <ComparisonPanel title="Operations Trend" labelA="Last Hour" labelB="This Hour" items={[{ label: 'Actions Processed', valueA: 142, valueB: metrics.totalActions, format: 'number', higherIsBetter: true }, { label: 'Block Rate', valueA: 6.8, valueB: metrics.blockRate, format: 'percent', higherIsBetter: false }, { label: 'Compliance Score', valueA: 96.5, valueB: metrics.complianceScore, format: 'percent', higherIsBetter: true }, { label: 'Avg Latency (ms)', valueA: 26, valueB: metrics.avgLatency, format: 'number', higherIsBetter: false }]} />
+          </div>
+          <AuditTimeline title="Operations Audit Trail" events={[{ id: 'op1', timestamp: new Date(Date.now() - 120000), type: 'decision', title: 'Action allowed: data export', description: 'Financial data export request approved by compliance agent with risk score 12', actor: 'Compliance Agent', severity: 'info' }, { id: 'op2', timestamp: new Date(Date.now() - 600000), type: 'alert', title: 'Action blocked: unauthorized access', description: 'Attempted access to restricted model weights blocked. Risk score: 92.', severity: 'critical' }, { id: 'op3', timestamp: new Date(Date.now() - 1800000), type: 'escalation', title: 'High-risk action escalated', description: 'Cross-border data transfer request escalated to DPO for manual review', severity: 'high' }]} maxVisible={3} />
+        </div>
       </div>
     </div>
   );

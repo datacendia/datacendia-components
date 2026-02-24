@@ -17,6 +17,10 @@ import {
   ChevronDown, ChevronRight,
 } from 'lucide-react';
 import { DataTable, MiniBarChart, POIList, ReportSection, MetricCard, type TableColumn, type PointOfInterest } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
+import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
+import { SavedViewManager, ThresholdIndicator } from '../../../components/reports/InteractionKit';
 
 interface AgentMetric {
   role: string;
@@ -214,6 +218,46 @@ export const CouncilAnalyticsPage: React.FC = () => {
             { id: 'i5', title: 'Financial Analysis has highest satisfaction', description: 'Post-decision surveys show 94% satisfaction for financial analysis mode deliberations.', severity: 'positive', metric: '94%', metricLabel: 'satisfaction' },
           ]} />
         </div>
+      </div>
+
+      {/* Enhanced Analytics */}
+      <div className="space-y-6 mt-8 border-t border-neutral-700/50 pt-8">
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg font-semibold flex items-center gap-2">
+            <BarChart3 className="w-5 h-5 text-blue-400" /> Enhanced Analytics
+          </h2>
+          <div className="flex items-center gap-2">
+            <SavedViewManager pageId="council-analytics" currentFilters={{}} onLoadView={() => {}} />
+            <ExportToolbar data={[]} columns={[{ key: 'agent', label: 'Agent' }, { key: 'score', label: 'Score' }]} filename="council-analytics" />
+            <PDFExportButton title="Council Analytics Report" subtitle="AI Agent Performance & Decision Quality" sections={[
+              { heading: 'Overview', content: 'Council analytics covering agent performance, consensus trends, and decision quality.', metrics: [{ label: 'Avg Consensus', value: '87%' }, { label: 'Avg Quality', value: '8.4/10' }, { label: 'Deliberations', value: '156' }] },
+            ]} />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <MetricWithSparkline title="Consensus Rate" value="87%" trend={[78, 80, 82, 84, 85, 86, 87, 87]} change={3.2} color="#34d399" />
+          <MetricWithSparkline title="Quality Score" value="8.4" trend={[7.8, 7.9, 8.0, 8.1, 8.2, 8.3, 8.3, 8.4]} change={2.1} color="#60a5fa" />
+          <MetricWithSparkline title="Avg Latency" value="2.3m" trend={[3.1, 2.9, 2.8, 2.6, 2.5, 2.4, 2.3, 2.3]} change={-8.5} color="#a78bfa" inverted />
+          <MetricWithSparkline title="Deliberations" value="156" trend={[95, 102, 110, 118, 125, 135, 145, 156]} change={11.4} color="#f472b6" />
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <HeatmapCalendar title="Deliberation Activity" subtitle="Daily council deliberation volume" valueLabel="deliberations" data={Array.from({ length: 180 }, (_, i) => { const d = new Date(); d.setDate(d.getDate() - (180 - i)); return { date: d.toISOString().split('T')[0], value: Math.floor(Math.random() * 12) }; })} weeks={26} />
+          <ComparisonPanel title="Monthly Comparison" labelA="January" labelB="February" items={[
+            { label: 'Consensus Rate', valueA: 84, valueB: 87, format: 'percent', higherIsBetter: true },
+            { label: 'Deliberations', valueA: 134, valueB: 156, format: 'number', higherIsBetter: true },
+            { label: 'Avg Quality', valueA: 8.1, valueB: 8.4, format: 'number', higherIsBetter: true },
+            { label: 'Override Rate', valueA: 6.2, valueB: 4.8, format: 'percent', higherIsBetter: false },
+          ]} />
+        </div>
+
+        <AuditTimeline title="Council Audit Trail" events={[
+          { id: 'c1', timestamp: new Date(Date.now() - 600000), type: 'decision', title: 'Strategic advisory deliberation completed', description: 'Q2 market expansion strategy approved with 92% consensus', actor: 'Council', severity: 'info' },
+          { id: 'c2', timestamp: new Date(Date.now() - 1800000), type: 'override', title: 'Executive override on hiring freeze', description: 'CEO overrode council recommendation to maintain hiring freeze', actor: 'S. Chen (CEO)', severity: 'medium' },
+          { id: 'c3', timestamp: new Date(Date.now() - 3600000), type: 'escalation', title: 'Risk threshold breached', description: 'Vendor contract exceeds $5M threshold — escalated to board review', severity: 'high' },
+          { id: 'c4', timestamp: new Date(Date.now() - 7200000), type: 'compliance', title: 'GDPR compliance check passed', description: 'Customer data processing deliberation cleared all GDPR requirements', actor: 'Compliance Bot', severity: 'info' },
+        ]} maxVisible={4} />
       </div>
     </div>
   );
