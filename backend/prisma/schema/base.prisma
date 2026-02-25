@@ -133,6 +133,9 @@ model organizations {
 
   // Evidence Vault - Decision Packet Management
   evidence_vault_packets          evidence_vault_packets[]
+
+  // SSO - Enterprise Single Sign-On
+  sso_identity_providers          sso_identity_providers[]
 }
 
 model password_resets {
