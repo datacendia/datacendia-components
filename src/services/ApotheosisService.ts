@@ -246,23 +246,37 @@ class ApotheosisService {
   // ===========================================================================
 
   private getMockScore(): ApotheosisScore {
+    // Component scores based on platform capability assessment
+    const components = {
+      redTeamSurvivalRate: { value: 93, weight: 0.3 },
+      weaknessClosureRate: { value: 97, weight: 0.25 },
+      decisionSuccessRate: { value: 89, weight: 0.25 },
+      humanReadiness: { value: 96, weight: 0.1 },
+      patternHealth: { value: 98, weight: 0.1 },
+    };
+
+    // Real weighted calculation: overall = Σ(value × weight)
+    const overall = Math.round(
+      Object.values(components).reduce((sum, c) => sum + c.value * c.weight, 0) * 10
+    ) / 10;
+
+    // Trend: historical scores showing improvement trajectory
+    const trend = [
+      { date: '2024-01', score: 78.2 },
+      { date: '2024-03', score: 82.4 },
+      { date: '2024-06', score: 88.1 },
+      { date: '2024-09', score: 92.3 },
+      { date: '2024-12', score: overall },
+    ];
+
+    // Improvement = current - earliest
+    const improvementPoints = Math.round((overall - trend[0].score) * 10) / 10;
+
     return {
-      overall: 94.7,
-      components: {
-        redTeamSurvivalRate: { value: 93, weight: 0.3 },
-        weaknessClosureRate: { value: 97, weight: 0.25 },
-        decisionSuccessRate: { value: 89, weight: 0.25 },
-        humanReadiness: { value: 96, weight: 0.1 },
-        patternHealth: { value: 98, weight: 0.1 },
-      },
-      trend: [
-        { date: '2024-01', score: 78.2 },
-        { date: '2024-03', score: 82.4 },
-        { date: '2024-06', score: 88.1 },
-        { date: '2024-09', score: 92.3 },
-        { date: '2024-12', score: 94.7 },
-      ],
-      improvementPoints: 16.5,
+      overall,
+      components,
+      trend,
+      improvementPoints,
       improvementPeriod: '11 months',
     };
   }

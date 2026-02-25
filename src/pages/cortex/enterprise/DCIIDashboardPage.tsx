@@ -54,6 +54,7 @@ import { MetricWithSparkline, AnomalyBanner, TrendBadge, type AnomalyItem } from
 import { HeatmapCalendar, AuditTimeline, type HeatmapDay, type TimelineEvent as AuditEvent } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { MetricTooltip, SavedViewManager, ThresholdIndicator } from '../../../components/reports/InteractionKit';
+import { calculateIISS } from '../../../lib/algorithms/iiss-scoring';
 
 // =============================================================================
 // API
@@ -115,17 +116,17 @@ const TABS: { id: TabId; label: string; icon: React.ReactNode; description: stri
   { id: 'similarity', label: 'CendiaSimilarity™', icon: <GitBranch className="w-4 h-4" />, description: 'Decision similarity engine' },
 ];
 
-const PRIMITIVES = [
-  { name: 'Discovery-Time Proof', icon: Clock, status: 'implemented', score: 75, description: 'Cryptographic timestamps proving when knowledge became actionable' },
-  { name: 'Deliberation Capture', icon: Brain, status: 'implemented', score: 90, description: 'Multi-agent, multi-perspective decision process recording' },
-  { name: 'Override Accountability', icon: ShieldAlert, status: 'implemented', score: 80, description: 'Non-suppressible tracking of recommendation overrides' },
-  { name: 'Continuity Memory', icon: Database, status: 'implemented', score: 70, description: 'Personnel-independent institutional knowledge preservation' },
-  { name: 'Drift Detection', icon: Activity, status: 'implemented', score: 70, description: 'Continuous compliance degradation monitoring' },
-  { name: 'Cognitive Bias Mitigation', icon: Brain, status: 'implemented', score: 75, description: 'Adversarial challenge of assumptions and rubber-stamp detection' },
-  { name: 'Quantum-Resistant Integrity', icon: Lock, status: 'partial', score: 40, description: 'Post-quantum cryptographic protection of evidence' },
-  { name: 'Synthetic Media Auth', icon: Camera, status: 'implemented', score: 65, description: 'Content provenance signing and deepfake detection' },
-  { name: 'Cross-Jurisdiction Compliance', icon: Globe, status: 'implemented', score: 60, description: 'Multi-jurisdiction conflict detection and resolution' },
-];
+// Primitives computed from the IISS scoring engine (single source of truth)
+const ICON_MAP: Record<string, any> = { Clock, Brain, ShieldAlert, Database, Activity, Lock, Camera, Globe };
+const iissResult = calculateIISS();
+const PRIMITIVES = iissResult.primitives.map(p => ({
+  name: p.name,
+  icon: ICON_MAP[p.icon] || Shield,
+  status: p.status,
+  score: p.score,
+  description: p.description,
+  note: p.note,
+}));
 
 // =============================================================================
 // MAIN COMPONENT

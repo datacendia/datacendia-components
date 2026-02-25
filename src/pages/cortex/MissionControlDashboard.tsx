@@ -20,6 +20,7 @@ import {
   Eye, MessageSquare, BarChart3, Lock, Compass, X,
 } from 'lucide-react';
 import { NarrativeGuide, NarrativeSelector } from '../../components/ui';
+import { getIISSPrimitiveSummary, getIISSTotal } from '../../lib/algorithms/iiss-scoring';
 
 // =============================================================================
 // TYPES
@@ -74,21 +75,11 @@ interface ComplianceItem {
 // IISS — THE 9 DECISION PRIMITIVES
 // =============================================================================
 
-const IISS_PRIMITIVES: IISSPrimitive[] = [
-  { id: 'P1', name: 'Discovery-Time Proof', score: 95, status: 'operational' },
-  { id: 'P2', name: 'Deliberation Capture', score: 97, status: 'operational' },
-  { id: 'P3', name: 'Override Accountability', score: 92, status: 'operational' },
-  { id: 'P4', name: 'Continuity Memory', score: 94, status: 'operational' },
-  { id: 'P5', name: 'Drift Detection', score: 98, status: 'operational' },
-  { id: 'P6', name: 'Cognitive Bias Mitigation', score: 91, status: 'operational' },
-  { id: 'P7', name: 'Quantum-Resistant Integrity', score: 78, status: 'warning', note: 'Post-quantum upgrade available' },
-  { id: 'P8', name: 'Synthetic Media Auth', score: 96, status: 'operational' },
-  { id: 'P9', name: 'Cross-Jurisdiction Compliance', score: 93, status: 'operational' },
-];
+// IISS primitives computed from the scoring engine (single source of truth)
+// Previously hardcoded — now uses the same calculateIISS() as DCII Dashboard
+const IISS_PRIMITIVES: IISSPrimitive[] = getIISSPrimitiveSummary();
 
-const IISS_TOTAL = Math.round(
-  (IISS_PRIMITIVES.reduce((sum, p) => sum + p.score, 0) / IISS_PRIMITIVES.length) * 10
-);
+const IISS_TOTAL = getIISSTotal();
 
 // =============================================================================
 // LIVE DATA (demo — replace with real API calls)

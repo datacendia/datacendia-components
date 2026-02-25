@@ -17,3 +17,4 @@ export * from './fairness';
 export * from './risk';
 export * from './anomaly';
 export * from './crypto';
+export * from './iiss-scoring';
