@@ -533,6 +533,194 @@ const CROWDSTRIKE: RealWorldBenchmark = {
 // AGGREGATE BENCHMARK FUNCTIONS
 // =============================================================================
 
+// =============================================================================
+// CASE 7: WIRECARD ACCOUNTING FRAUD (2020)
+// =============================================================================
+
+const WIRECARD: RealWorldBenchmark = {
+  id: 'wirecard-fraud',
+  company: 'Wirecard',
+  incident: '€1.9B Accounting Fraud — Auditor Failure',
+  year: 2020,
+  industry: 'Financial Services / Fintech',
+  summary: 'German fintech Wirecard, once valued at €24B and a DAX 30 member, collapsed in June 2020 when auditor EY could not verify €1.9B supposedly held in Philippine bank accounts. The money "probably never existed." CEO Markus Braun was arrested. COO Jan Marsalek fled and remains a fugitive. Despite warnings from the Financial Times since 2015 and short-sellers since 2008, German regulator BaFin investigated the journalists rather than Wirecard. EY failed to independently verify bank balances for over a decade.',
+  rootCauses: [
+    'Fabricated revenue from third-party acquiring partners in Asia',
+    'EY auditors accepted screenshots as evidence of €1.9B bank balances for years',
+    'German regulator BaFin investigated FT journalists instead of Wirecard',
+    'Board lacked independent oversight — CEO dominated decision-making',
+    'Short-seller and journalist warnings dismissed as market manipulation',
+    'Complex corporate structure designed to obscure fund flows',
+  ],
+  sources: [
+    'Financial Times investigative series by Dan McCrum, 2015-2020',
+    'KPMG Special Audit Report, April 2020',
+    'German Parliamentary Inquiry Committee Report, 2021',
+    'EY internal review following Wirecard collapse, 2020',
+  ],
+  financialImpact: { totalCost: 3_200_000_000, fines: 0, settlements: 0, lostRevenue: 0, marketCapLoss: 24_000_000_000, otherCosts: 3_200_000_000, affectedPeople: 5_000 },
+  timeline: [
+    { date: '2008', event: 'Short-sellers first raise concerns about Wirecard accounting', primitiveRelevance: ['P5', 'P6'] },
+    { date: '2015-01', event: 'Financial Times begins publishing investigative reports', primitiveRelevance: ['P2', 'P5'] },
+    { date: '2019-01', event: 'FT reports on suspicious round-tripping in Singapore — BaFin bans short-selling of Wirecard', primitiveRelevance: ['P3', 'P6'] },
+    { date: '2020-06-18', event: 'EY refuses to sign off on 2019 accounts — €1.9B missing', primitiveRelevance: ['P1', 'P7'] },
+    { date: '2020-06-25', event: 'Wirecard files for insolvency', primitiveRelevance: ['P1', 'P3'] },
+  ],
+  primitiveFailures: [
+    { primitiveId: 'P1', primitiveName: 'Discovery-Time Proof', failureScore: 5, whatWasMissing: 'No verifiable proof that €1.9B existed. EY accepted screenshots instead of independent bank confirmations for over a decade.', whatDatacendiaWouldDo: 'Cryptographic verification of bank balance attestations. Independent hash-chained proof of fund existence that cannot be faked with screenshots.', detectionWindow: '2008 — when first short-seller concerns were raised' },
+    { primitiveId: 'P3', primitiveName: 'Override Accountability', failureScore: 5, whatWasMissing: 'CEO dominated all decisions. Board rubber-stamped. When journalists raised alarms, the regulator protected Wirecard instead of investigating.', whatDatacendiaWouldDo: 'External whistleblower alerts immutably recorded. When FT published concerns, Override Accountability prevents the organization from suppressing the investigation.', detectionWindow: '2015 — when FT began publishing' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', failureScore: 5, whatWasMissing: 'No monitoring of the growing gap between reported revenue and verifiable transactions. Third-party partner revenue was never independently verified.', whatDatacendiaWouldDo: 'Drift detection on revenue-to-verification ratio. When third-party revenue grows but independent verification doesn\'t keep pace, automatic alert triggers.', detectionWindow: '2010 — when third-party revenue became material' },
+    { primitiveId: 'P8', primitiveName: 'Synthetic Media Auth', failureScore: 0, whatWasMissing: 'Auditors accepted screenshots of bank balances as evidence. No media authentication on financial documents.', whatDatacendiaWouldDo: 'Document provenance verification using C2PA. Bank balance confirmations require cryptographic signatures from the issuing bank, not screenshots.', detectionWindow: 'Continuous — forged documents detected immediately' },
+  ],
+  simulatedIISS: 52, simulatedBand: 'critical',
+  counterfactual: {
+    earliestDetection: '2008 — Drift Detection flags gap between reported revenue and verifiable transactions. By 2015 when FT published, Override Accountability ensures investigation cannot be suppressed.',
+    preventableCost: 3_000_000_000, preventablePercentage: 94,
+    keyInterventions: ['P1: Cryptographic bank balance verification — screenshots cannot substitute for signed attestations', 'P5: Revenue verification drift detected within 2 years', 'P3: FT journalist concerns immutably recorded and cannot be suppressed by management or regulator', 'P8: Document provenance authentication catches forged bank statements'],
+  },
+};
+
+// =============================================================================
+// CASE 8: VOLKSWAGEN DIESELGATE (2015)
+// =============================================================================
+
+const VW_DIESELGATE: RealWorldBenchmark = {
+  id: 'vw-dieselgate',
+  company: 'Volkswagen',
+  incident: 'Diesel Emissions Cheating Software — 11M Vehicles',
+  year: 2015,
+  industry: 'Automotive / Manufacturing',
+  summary: 'In September 2015, the U.S. EPA found that Volkswagen had installed "defeat device" software in 11 million diesel vehicles worldwide. The software detected when the car was being emissions-tested and activated full pollution controls only during tests. Real-world NOx emissions were up to 40x the legal limit. The deception was systematic, involving engineers and managers over 8+ years. VW CEO Martin Winterkorn resigned. Total cost exceeded €32B in fines, settlements, and buybacks. VW subsequently pivoted to electric vehicles.',
+  rootCauses: [
+    'Engineers unable to meet emissions targets with available technology — chose deception over disclosure',
+    'Authoritarian corporate culture — CEO Winterkorn known for aggressive management style',
+    'Internal targets set that were technically impossible to achieve honestly',
+    'No internal escalation mechanism for engineers to flag ethical concerns',
+    'Board supervision of technical compliance was inadequate',
+    'Regulators relied on manufacturer-conducted tests (fox guarding henhouse)',
+  ],
+  sources: [
+    'U.S. EPA Notice of Violation, September 18, 2015',
+    'U.S. DOJ Settlement with VW, $14.7B, June 2016',
+    'German Federal Court criminal proceedings against Winterkorn, 2021-present',
+    'Darden School of Business, "VW Emissions and Ethical Breakdown"',
+  ],
+  financialImpact: { totalCost: 33_300_000_000, fines: 14_700_000_000, settlements: 11_000_000_000, lostRevenue: 2_600_000_000, marketCapLoss: 30_000_000_000, otherCosts: 5_000_000_000, affectedPeople: 11_000_000 },
+  timeline: [
+    { date: '2006-2007', event: 'VW engineers realize they cannot meet U.S. emissions standards honestly — develop defeat device', primitiveRelevance: ['P2', 'P3', 'P6'] },
+    { date: '2014-05', event: 'West Virginia University researchers detect real-world emissions 5-35x over limits', primitiveRelevance: ['P5'] },
+    { date: '2015-09-18', event: 'EPA issues Notice of Violation — stock drops 30% in days', primitiveRelevance: ['P1', 'P9'] },
+    { date: '2015-09-23', event: 'CEO Winterkorn resigns', primitiveRelevance: ['P3'] },
+    { date: '2016-06', event: 'DOJ settlement: $14.7B — largest auto industry settlement in history', primitiveRelevance: ['P1', 'P9'] },
+  ],
+  primitiveFailures: [
+    { primitiveId: 'P2', primitiveName: 'Deliberation Capture', failureScore: 5, whatWasMissing: 'The decision to use defeat devices was made without formal deliberation or documented justification. No record of who decided and why.', whatDatacendiaWouldDo: 'Council deliberation on emissions compliance strategy would have recorded all positions. The "we can\'t meet the target honestly" conclusion would have been documented with alternatives.', detectionWindow: '2006 — when engineers first realized they couldn\'t meet targets' },
+    { primitiveId: 'P3', primitiveName: 'Override Accountability', failureScore: 0, whatWasMissing: 'Engineers who knew about the cheat had no safe mechanism to escalate. Authoritarian culture suppressed dissent.', whatDatacendiaWouldDo: 'CendiaDissent provides non-suppressible whistleblower channel. Engineers\' ethical concerns automatically escalated to board level. Retaliation against reporters is automatically flagged.', detectionWindow: '2006 — when first engineer raised concerns' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', failureScore: 10, whatWasMissing: 'No monitoring of the gap between test results and real-world performance. 8 years of systematic deception went undetected internally.', whatDatacendiaWouldDo: 'Continuous monitoring of test vs. real-world emissions data. Statistical anomaly detection (Z-score) would flag the systematic discrepancy.', detectionWindow: '2007 — within 12 months of defeat device deployment' },
+    { primitiveId: 'P6', primitiveName: 'Cognitive Bias Mitigation', failureScore: 5, whatWasMissing: 'Groupthink and authority bias — Winterkorn\'s aggressive style prevented challenge. Engineers rationalized the cheat as "temporary" or "everyone does it."', whatDatacendiaWouldDo: 'Adversarial agent asks: "Is this decision defensible if it becomes public?" Pre-Mortem: "What happens when real-world testing reveals the discrepancy?"', detectionWindow: '2006 — during initial decision to implement defeat device' },
+  ],
+  simulatedIISS: 65, simulatedBand: 'critical',
+  counterfactual: {
+    earliestDetection: '2006 — when engineers first realized they couldn\'t meet targets honestly. Deliberation Capture (P2) documents the decision. Override Accountability (P3) provides safe escalation for engineers.',
+    preventableCost: 30_000_000_000, preventablePercentage: 90,
+    keyInterventions: ['P2: "We can\'t meet targets honestly" documented in council deliberation with alternatives', 'P3: CendiaDissent gives engineers safe channel to report ethical concerns', 'P5: Test vs. real-world emissions anomaly detected within 12 months', 'P6: Pre-Mortem asks "What if this becomes public?" — forces consideration of reputational catastrophe'],
+  },
+};
+
+// =============================================================================
+// CASE 9: THERANOS (2003-2018)
+// =============================================================================
+
+const THERANOS: RealWorldBenchmark = {
+  id: 'theranos-fraud',
+  company: 'Theranos',
+  incident: 'Fake Blood Testing Technology — Patient Safety Fraud',
+  year: 2018,
+  industry: 'Healthcare / Biotech',
+  summary: 'Theranos, founded by Elizabeth Holmes in 2003, claimed to have revolutionary blood testing technology that could run hundreds of tests from a single drop of blood. The technology never worked as claimed. Theranos used conventional machines for most tests while telling patients and investors the results came from its proprietary "Edison" device. The company reached a $9B valuation, partnered with Walgreens, and processed tests for real patients — producing unreliable results that endangered lives. Holmes was convicted of fraud in January 2022 and sentenced to 11+ years in prison.',
+  rootCauses: [
+    'Technology fundamentally didn\'t work — CEO Holmes suppressed internal findings',
+    'Board stacked with political figures (Kissinger, Shultz, Mattis) instead of scientists',
+    'No independent scientific validation of core technology claims',
+    'Employees who raised concerns were threatened with lawsuits (NDAs weaponized)',
+    'Walgreens partnership launched without proper clinical validation',
+    '"Fake it till you make it" Silicon Valley culture applied to healthcare',
+  ],
+  sources: [
+    'U.S. v. Holmes, NDCA Case No. 18-cr-00258, Conviction January 2022',
+    'SEC Settlement with Theranos and Holmes, March 2018',
+    'John Carreyrou, "Bad Blood: Secrets and Lies in a Silicon Valley Startup," 2018',
+    'CMS (Centers for Medicare & Medicaid) revocation of Theranos lab certificate, 2016',
+  ],
+  financialImpact: { totalCost: 600_000_000, fines: 0, settlements: 0, lostRevenue: 0, marketCapLoss: 9_000_000_000, otherCosts: 600_000_000, affectedPeople: 1_000_000 },
+  timeline: [
+    { date: '2010-2014', event: 'Internal scientists repeatedly fail to make Edison device work — results suppressed', primitiveRelevance: ['P2', 'P3'] },
+    { date: '2013', event: 'Theranos begins processing real patient samples despite technology not working', primitiveRelevance: ['P1', 'P5'] },
+    { date: '2015-10', event: 'Wall Street Journal (John Carreyrou) publishes first exposé', primitiveRelevance: ['P2', 'P3', 'P5'] },
+    { date: '2016-07', event: 'CMS revokes Theranos lab certificate — bans Holmes from running a lab for 2 years', primitiveRelevance: ['P5', 'P9'] },
+    { date: '2022-01', event: 'Holmes convicted on 4 counts of fraud', primitiveRelevance: ['P1', 'P3'] },
+  ],
+  primitiveFailures: [
+    { primitiveId: 'P1', primitiveName: 'Discovery-Time Proof', failureScore: 0, whatWasMissing: 'No timestamped record of test validation results. Internal scientists\' findings that the technology didn\'t work were suppressed, not recorded.', whatDatacendiaWouldDo: 'Every validation test result cryptographically timestamped. Negative results (technology doesn\'t work) are immutably recorded and cannot be suppressed.', detectionWindow: '2010 — when first validation tests failed' },
+    { primitiveId: 'P2', primitiveName: 'Deliberation Capture', failureScore: 0, whatWasMissing: 'Board had zero scientists. Decisions to launch with unvalidated technology were not formally deliberated. Board members later said they relied entirely on Holmes\' representations.', whatDatacendiaWouldDo: 'Council requires domain experts in deliberation. A healthcare decision without a scientist/clinician on the council is automatically flagged. All positions recorded.', detectionWindow: '2003 — at founding (board composition flagged)' },
+    { primitiveId: 'P3', primitiveName: 'Override Accountability', failureScore: 0, whatWasMissing: 'Scientists who raised concerns were threatened with lawsuits. NDAs weaponized to silence dissent. One scientist (Ian Gibbons) died by suicide under pressure.', whatDatacendiaWouldDo: 'CendiaDissent creates non-suppressible whistleblower channel. Legal threats against internal reporters automatically escalated to board. NDA cannot override duty to report patient safety concerns.', detectionWindow: '2010 — when first scientist raised concerns' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', failureScore: 0, whatWasMissing: 'No monitoring of test accuracy against known standards. Quality control results showing the Edison produced unreliable results were ignored.', whatDatacendiaWouldDo: 'Continuous monitoring of test accuracy vs. reference standards. Statistical drift detection flags unreliable results immediately. Auto-halt on patient testing if accuracy drops below threshold.', detectionWindow: '2013 — when patient testing began with unvalidated technology' },
+  ],
+  simulatedIISS: 18, simulatedBand: 'critical',
+  counterfactual: {
+    earliestDetection: '2010 — when internal validation tests first showed the Edison device didn\'t work. Discovery-Time Proof (P1) creates an irrefutable record. CendiaDissent (P3) gives scientists a safe channel.',
+    preventableCost: 600_000_000, preventablePercentage: 100,
+    keyInterventions: ['P1: Failed validation tests timestamped and immutable — cannot be suppressed', 'P2: Board deliberation requires domain experts — no scientists = automatic flag', 'P3: CendiaDissent protects whistleblowers from NDA weaponization', 'P5: Test accuracy monitoring auto-halts patient testing when results are unreliable'],
+  },
+};
+
+// =============================================================================
+// CASE 10: FACEBOOK / CAMBRIDGE ANALYTICA (2018)
+// =============================================================================
+
+const CAMBRIDGE_ANALYTICA: RealWorldBenchmark = {
+  id: 'cambridge-analytica',
+  company: 'Facebook (Meta)',
+  incident: 'Cambridge Analytica Data Harvesting — 87M Users',
+  year: 2018,
+  industry: 'Technology / Social Media',
+  summary: 'In March 2018, it was revealed that political consulting firm Cambridge Analytica had harvested personal data of 87 million Facebook users through a personality quiz app. The data was used for political advertising targeting in the 2016 U.S. presidential election and Brexit referendum. Facebook had known about the data harvesting since 2015 but did not notify affected users or take adequate action. CEO Mark Zuckerberg testified before Congress. Facebook was fined $5B by the FTC — the largest privacy penalty in history.',
+  rootCauses: [
+    'Facebook API allowed apps to harvest data from users\' friends without their consent',
+    'Facebook knew about Cambridge Analytica data harvesting in 2015 but took minimal action',
+    'No continuous monitoring of third-party app data access patterns',
+    '"Move fast and break things" culture prioritized growth over privacy',
+    'Board had limited oversight of data privacy practices',
+    'Internal teams raised concerns about API permissions but were overruled',
+  ],
+  sources: [
+    'FTC Consent Order and $5B fine, July 2019',
+    'UK Information Commissioner\'s Office £500K fine (max under pre-GDPR law), October 2018',
+    'U.S. Senate Commerce Committee Hearing, Zuckerberg testimony, April 2018',
+    'The Guardian/New York Times investigation, March 2018',
+  ],
+  financialImpact: { totalCost: 5_100_000_000, fines: 5_000_000_000, settlements: 100_000_000, lostRevenue: 0, marketCapLoss: 100_000_000_000, otherCosts: 0, affectedPeople: 87_000_000 },
+  timeline: [
+    { date: '2013', event: 'Cambridge Analytica begins harvesting data via "thisisyourdigitallife" app', primitiveRelevance: ['P5'] },
+    { date: '2015-12', event: 'Facebook learns of data harvesting — asks Cambridge Analytica to delete data (does not verify)', primitiveRelevance: ['P1', 'P3'] },
+    { date: '2018-03-17', event: 'Guardian/NYT publish investigation — stock drops 7% in one day', primitiveRelevance: ['P1', 'P3', 'P5'] },
+    { date: '2018-04-10', event: 'Zuckerberg testifies before Congress', primitiveRelevance: ['P2', 'P3'] },
+    { date: '2019-07', event: 'FTC fines Facebook $5B — largest privacy penalty in history', primitiveRelevance: ['P1', 'P9'] },
+  ],
+  primitiveFailures: [
+    { primitiveId: 'P1', primitiveName: 'Discovery-Time Proof', failureScore: 15, whatWasMissing: 'Facebook knew about the data harvesting in December 2015 but has no timestamped record of what actions were taken. They asked CA to delete data but never verified.', whatDatacendiaWouldDo: 'Discovery-time proof timestamps when the organization learned of the breach. Every remediation action (or lack thereof) is recorded. "Asked to delete but didn\'t verify" creates an automatic escalation.', detectionWindow: '2015-12 — when Facebook first learned' },
+    { primitiveId: 'P3', primitiveName: 'Override Accountability', failureScore: 10, whatWasMissing: 'Internal teams raised concerns about API permissions being too permissive. These concerns were overruled in favor of growth metrics.', whatDatacendiaWouldDo: 'When privacy team raises concerns and growth team overrides, that override is permanently recorded with justification. Pattern of privacy overrides triggers automatic board escalation.', detectionWindow: '2012 — when API permission concerns were first raised' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', failureScore: 5, whatWasMissing: 'No monitoring of third-party app data access patterns. An app accessing millions of users\' friends\' data should have triggered anomaly detection.', whatDatacendiaWouldDo: 'Continuous monitoring of API access patterns. An app accessing 87M users\' data through friends\' connections triggers immediate anomaly alert.', detectionWindow: '2013 — within weeks of abnormal data harvesting pattern' },
+    { primitiveId: 'P9', primitiveName: 'Cross-Jurisdiction Compliance', failureScore: 15, whatWasMissing: 'No cross-jurisdiction analysis of data protection obligations. GDPR was already in development — Facebook did not prepare.', whatDatacendiaWouldDo: 'Jurisdiction monitoring tracks data protection laws globally. Identifies that mass data harvesting creates obligations under EU data protection directive (pre-GDPR) and upcoming GDPR.', detectionWindow: '2013 — when data harvesting crossed jurisdictional boundaries' },
+  ],
+  simulatedIISS: 78, simulatedBand: 'critical',
+  counterfactual: {
+    earliestDetection: '2013 — Drift Detection flags anomalous API access pattern (one app harvesting 87M users\' data). Override Accountability captures privacy team\'s concerns being overridden.',
+    preventableCost: 5_000_000_000, preventablePercentage: 98,
+    keyInterventions: ['P5: Anomalous data access pattern (87M users from one app) detected within weeks', 'P3: Privacy concerns overridden by growth team — override permanently recorded', 'P1: "Knew since 2015 but didn\'t act" becomes provable with discovery-time proof', 'P9: Cross-jurisdiction analysis identifies data protection obligations before GDPR'],
+  },
+};
+
 export const ALL_BENCHMARKS: RealWorldBenchmark[] = [
   BOEING_737_MAX,
   WELLS_FARGO,
@@ -540,6 +728,10 @@ export const ALL_BENCHMARKS: RealWorldBenchmark[] = [
   FTX_COLLAPSE,
   SVB_COLLAPSE,
   CROWDSTRIKE,
+  WIRECARD,
+  VW_DIESELGATE,
+  THERANOS,
+  CAMBRIDGE_ANALYTICA,
 ];
 
 /**
@@ -1069,16 +1261,305 @@ const EU_AI_ACT: MarketDisruptionBenchmark = {
 // AGGREGATE EXPORTS — ALL BENCHMARK TYPES
 // =============================================================================
 
+// =============================================================================
+// SUCCESS 4: TOYOTA POST-RECALL GOVERNANCE OVERHAUL (2010→2024)
+// =============================================================================
+
+const TOYOTA_REFORM: SuccessStoryBenchmark = {
+  id: 'toyota-recall-reform',
+  company: 'Toyota',
+  event: 'Post-Unintended Acceleration Recall → Became World\'s #1 Automaker',
+  year: 2010,
+  industry: 'Automotive / Manufacturing',
+
+  summary: 'In 2009-2010, Toyota recalled over 9 million vehicles worldwide for unintended acceleration issues linked to floor mat entrapment and sticky accelerator pedals. 89 deaths were attributed to the defect. Toyota paid $1.2B in DOJ fines (largest auto penalty at the time) and $1.6B to settle class-action lawsuits. CEO Akio Toyoda personally testified before U.S. Congress and tearfully apologized. Toyota then implemented a massive governance overhaul: created a Global Quality Task Force, established regional chief quality officers who report directly to the CEO, implemented a "Customer First" training program for all 300,000+ employees, and added a "stop the line" culture where any employee can halt production for quality concerns. By 2023, Toyota became the world\'s largest automaker by sales volume, overtaking Volkswagen. Toyota Production System governance became a benchmark for manufacturing worldwide.',
+
+  sources: [
+    'U.S. DOJ Deferred Prosecution Agreement with Toyota, $1.2B, March 2014',
+    'NHTSA Investigation and Congressional Hearings, February 2010',
+    'Toyota Annual Quality Report 2023',
+    'Harvard Business Review, "Toyota\'s Quality Turnaround," 2015',
+  ],
+
+  primitivesPresent: [
+    { primitiveId: 'P3', primitiveName: 'Override Accountability', effectivenessScore: 90, whatTheyDid: 'Created "stop the line" authority for ANY employee at any level — not just managers. Quality concerns from the factory floor automatically escalate. Regional CQOs report directly to CEO, bypassing country management.', outcome: 'Quality defect escape rate dropped 75% within 3 years. No comparable safety recall since 2010.' },
+    { primitiveId: 'P4', primitiveName: 'Continuity Memory', effectivenessScore: 95, whatTheyDid: 'The 2010 crisis became a permanent part of Toyota\'s institutional DNA. Every new employee goes through "Customer First" training that includes the 2010 crisis as a case study. CEO Toyoda\'s Congressional testimony is shown in onboarding.', outcome: 'Institutional memory prevents repeating the mistake. Quality becomes non-negotiable cultural value.' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', effectivenessScore: 85, whatTheyDid: 'Implemented real-time quality monitoring across all manufacturing lines. Statistical process control (SPC) with automated drift alerts. Customer complaint pattern recognition AI deployed in 2020.', outcome: 'Defects caught at manufacturing stage rather than post-delivery. Warranty costs decreased 40% from 2010 to 2020.' },
+    { primitiveId: 'P6', primitiveName: 'Cognitive Bias Mitigation', effectivenessScore: 80, whatTheyDid: 'Established independent quality audit teams that challenge production targets. "Genchi Genbutsu" (go and see) philosophy requires executives to visit factory floors regularly, preventing ivory tower bias.', outcome: 'Production speed/quality tradeoffs are explicitly deliberated rather than implicitly resolved in favor of speed.' },
+  ],
+
+  impact: {
+    reputationEffect: 'recovered',
+    financialOutcome: '$2.8B in fines/settlements, but became world\'s #1 automaker by 2023. Quality reputation restored and strengthened.',
+    marketPosition: 'World\'s largest automaker by sales volume (2023). Toyota Production System is the global standard for lean manufacturing governance.',
+    costOfAction: 2_800_000_000,
+    valueSaved: 30_000_000_000,
+    timeToRecover: '3-4 years to restore quality reputation; became #1 by 2023',
+  },
+
+  learningPatterns: [
+    'PATTERN: "Stop the line" authority for all employees prevents quality drift from becoming crisis → P3 Override Accountability',
+    'PATTERN: CEO public accountability (Congressional testimony) builds more trust than corporate spin → P3 Override Accountability',
+    'PATTERN: Making the crisis part of onboarding creates permanent institutional antibodies → P4 Continuity Memory',
+    'PATTERN: Real-time statistical process control catches drift before it reaches customers → P5 Drift Detection',
+    'PATTERN: "Go and see" (Genchi Genbutsu) defeats ivory tower bias → P6 Cognitive Bias Mitigation',
+    'PATTERN: $2.8B crisis cost led to governance that created $30B+ in long-term value — 10x return on painful lesson',
+  ],
+
+  simulatedIISS: 740,
+  simulatedBand: 'resilient',
+};
+
+// =============================================================================
+// SUCCESS 5: APPLE PRIVACY-FIRST STRATEGY (2019→present)
+// =============================================================================
+
+const APPLE_PRIVACY: SuccessStoryBenchmark = {
+  id: 'apple-privacy-first',
+  company: 'Apple',
+  event: 'App Tracking Transparency (ATT) — Privacy as Competitive Moat',
+  year: 2021,
+  industry: 'Technology / Consumer Electronics',
+
+  summary: 'Starting with iOS 14.5 in April 2021, Apple required all apps to ask users for explicit permission before tracking them across other apps and websites (App Tracking Transparency). This single governance decision cost Meta (Facebook) an estimated $10B in annual ad revenue and reshaped the entire digital advertising industry. Apple had been building toward this for years: differential privacy in iOS (2016), on-device ML processing (2017), Sign in with Apple (2019), and Privacy Nutrition Labels (2020). By making privacy a product feature rather than a compliance burden, Apple turned governance into a competitive advantage — "What happens on your iPhone stays on your iPhone" became one of the most effective marketing campaigns in tech history.',
+
+  sources: [
+    'Apple WWDC 2020, "A Day in the Life of Your Data" presentation',
+    'Meta Q1 2022 earnings call — CFO cited $10B annual revenue impact from ATT',
+    'Financial Times, "Apple vs Facebook — the fight over digital privacy"',
+    'Apple Privacy Transparency Report, 2023',
+  ],
+
+  primitivesPresent: [
+    { primitiveId: 'P2', primitiveName: 'Deliberation Capture', effectivenessScore: 85, whatTheyDid: 'ATT was deliberated for years before launch. Apple published detailed rationale documents explaining why user tracking required explicit consent. Privacy Review Board reviews all new features for privacy implications before development begins.', outcome: 'When regulators and competitors challenged ATT, Apple had complete documented justification for every design decision.' },
+    { primitiveId: 'P4', primitiveName: 'Continuity Memory', effectivenessScore: 90, whatTheyDid: 'Steve Jobs\' 2010 statement "Privacy means people know what they\'re signing up for" became institutional doctrine. Privacy principles codified in Apple\'s values and product development guidelines, surviving leadership transition from Jobs to Cook.', outcome: 'Privacy-first approach survived CEO transition and became stronger — rare example of values outlasting founders.' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', effectivenessScore: 80, whatTheyDid: 'Continuous monitoring of app store submissions for privacy-violating behaviors. Automated scanning of apps that request excessive permissions. Privacy compliance drift detection for third-party apps.', outcome: 'Apps that attempted to circumvent ATT were detected and removed. Fingerprinting attempts caught through behavioral analysis.' },
+    { primitiveId: 'P9', primitiveName: 'Cross-Jurisdiction Compliance', effectivenessScore: 90, whatTheyDid: 'ATT was designed to exceed GDPR, CCPA, and anticipated future privacy regulations globally. By building the most restrictive framework first, Apple was automatically compliant everywhere.', outcome: 'When new privacy laws passed (state-level in U.S., PIPL in China), Apple was already compliant — no remediation needed.' },
+  ],
+
+  impact: {
+    reputationEffect: 'strengthened',
+    financialOutcome: 'Privacy became a premium differentiator. Services revenue (where privacy trust matters) grew from $54B (2020) to $85B+ (2024). iPhone market share grew in privacy-conscious EU markets.',
+    marketPosition: '#1 smartphone brand in U.S. and EU. "Privacy" is now a core brand attribute alongside "design" and "ecosystem."',
+    costOfAction: 500_000_000,
+    valueSaved: 15_000_000_000,
+  },
+
+  learningPatterns: [
+    'PATTERN: Governance (privacy) can be a PRODUCT FEATURE, not just a compliance cost → competitive advantage',
+    'PATTERN: Building to the most restrictive standard first (GDPR+) means automatic compliance everywhere → P9 Cross-Jurisdiction',
+    'PATTERN: Founder values codified in institutional guidelines survive leadership transitions → P4 Continuity Memory',
+    'PATTERN: Proactive privacy governance turned a $10B/year problem for competitors into a moat for Apple',
+    'PATTERN: Documented deliberation provides legal defense when competitors challenge governance decisions → P2 Deliberation Capture',
+    'PATTERN: Governance creates more value when it\'s visible to customers — "What happens on iPhone stays on iPhone"',
+  ],
+
+  simulatedIISS: 750,
+  simulatedBand: 'resilient',
+};
+
+// =============================================================================
+// SUCCESS 6: NVIDIA STRATEGIC PIVOT GOVERNANCE (2016→2024)
+// =============================================================================
+
+const NVIDIA_PIVOT: SuccessStoryBenchmark = {
+  id: 'nvidia-strategic-pivot',
+  company: 'Nvidia',
+  event: 'Gaming → AI Platform — Governed Strategic Pivot to $3T+ Company',
+  year: 2016,
+  industry: 'Semiconductor / Technology',
+
+  summary: 'Nvidia\'s transformation from a $30B gaming GPU company (2016) to a $3+ trillion AI infrastructure giant (2024) is one of the most successful strategic pivots in corporate history. What\'s remarkable isn\'t just the pivot itself — it\'s how it was governed. CEO Jensen Huang identified the AI opportunity early, but rather than abandoning gaming (which still generated 80%+ of revenue), Nvidia created a parallel CUDA ecosystem strategy: invest in AI research partnerships, build data center products, and create developer tools — while maintaining the gaming business as a cash cow. The deliberate, staged pivot preserved shareholder value throughout the transition. Key governance decisions: investing $3B+ in CUDA R&D before clear ROI, building data center sales team alongside gaming team, maintaining chip architecture that served both markets.',
+
+  sources: [
+    'Nvidia Annual Reports 2016-2024',
+    'Jensen Huang GTC Keynotes, 2016-2024',
+    'Harvard Business School, "Nvidia: Transforming from Gaming to AI"',
+    'Financial Times, "How Jensen Huang Built the World\'s Most Valuable Chip Company"',
+  ],
+
+  primitivesPresent: [
+    { primitiveId: 'P2', primitiveName: 'Deliberation Capture', effectivenessScore: 85, whatTheyDid: 'Strategic pivot decisions documented in annual planning. Investment in CUDA ecosystem justified with explicit thesis: "GPUs are general-purpose parallel processors, not just gaming chips." Each pivot milestone had documented success criteria.', outcome: 'When AI boom arrived, Nvidia had 8+ years of documented strategic investment justification — not luck, but governance.' },
+    { primitiveId: 'P4', primitiveName: 'Continuity Memory', effectivenessScore: 90, whatTheyDid: 'Jensen Huang personally maintained strategic continuity — same CEO for 30+ years. CUDA developer ecosystem (built since 2007) created switching costs and institutional memory across thousands of AI research labs worldwide.', outcome: 'Continuity of vision prevented strategic whiplash. The CUDA moat became Nvidia\'s most valuable asset.' },
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', effectivenessScore: 80, whatTheyDid: 'Continuous monitoring of AI research adoption metrics. Tracked CUDA downloads, research paper citations, and data center GPU deployments as leading indicators of market shift.', outcome: 'Nvidia detected the AI adoption curve inflection point in 2022 and scaled supply chain before competitors could respond.' },
+    { primitiveId: 'P6', primitiveName: 'Cognitive Bias Mitigation', effectivenessScore: 85, whatTheyDid: 'Huang explicitly challenged the "we\'re a gaming company" identity bias. Annual strategy reviews included scenario planning for AI market sizes from conservative to aggressive. Red team challenged the CUDA investment thesis.', outcome: 'Avoided the Kodak/Blockbuster trap of clinging to current identity when the market shifts. Embraced dual identity (gaming + AI) instead of either/or.' },
+  ],
+
+  impact: {
+    reputationEffect: 'strengthened',
+    financialOutcome: 'Market cap grew from $30B (2016) to $3T+ (2024) — 100x. Revenue grew from $5B to $60B+. Became world\'s most valuable company.',
+    marketPosition: 'Monopolistic position in AI training infrastructure (80%+ market share in AI GPUs). CUDA ecosystem is the de facto standard for AI development.',
+    costOfAction: 3_000_000_000,
+    valueSaved: 3_000_000_000_000,
+  },
+
+  learningPatterns: [
+    'PATTERN: Governed strategic pivots preserve shareholder value — don\'t abandon the base, build the bridge → P2 Deliberation Capture',
+    'PATTERN: CEO continuity (30+ years) provides strategic consistency that rotating leadership cannot → P4 Continuity Memory',
+    'PATTERN: Developer ecosystem (CUDA) is institutional memory externalized to the market → P4 Continuity Memory',
+    'PATTERN: Explicitly challenging identity bias ("we\'re a gaming company") prevents Kodak/Blockbuster syndrome → P6 Cognitive Bias Mitigation',
+    'PATTERN: Leading indicators (CUDA downloads, research citations) predict market shifts years before revenue → P5 Drift Detection',
+    'PATTERN: $3B investment in CUDA before clear ROI generated $3T+ in value — 1000x return on strategic patience',
+  ],
+
+  simulatedIISS: 730,
+  simulatedBand: 'resilient',
+};
+
+// =============================================================================
+// DISRUPTION 4: CHATGPT LAUNCH — KNOWLEDGE WORKER DISRUPTION (NOV 2022)
+// =============================================================================
+
+const CHATGPT_LAUNCH: MarketDisruptionBenchmark = {
+  id: 'chatgpt-launch-2022',
+  event: 'ChatGPT Launch — Beginning of Knowledge Worker Disruption',
+  date: '2022-11-30',
+  category: 'ai_disruption',
+
+  summary: 'OpenAI released ChatGPT on November 30, 2022, reaching 100 million users in just 2 months — the fastest-growing consumer application in history. The immediate impact was concentrated in education and knowledge work: Chegg (homework help) lost 98% of its market value over the next 2 years as students switched to ChatGPT. Stack Overflow traffic dropped 50%+. Google declared a "Code Red" internally. The broader impact was a fundamental repricing of every company whose business model was based on organizing and selling access to knowledge — from legal research to financial analysis to customer support. ChatGPT proved that a general-purpose AI model could deliver "good enough" answers for most knowledge queries, undermining the value proposition of specialized knowledge platforms.',
+
+  sources: [
+    'Reuters, "ChatGPT sets record for fastest-growing user base," February 2023',
+    'Chegg SEC Filings and Earnings Calls, 2023-2025 (revenue decline from $767M to sub-$400M)',
+    'New York Times, "Google Calls in Help From Larry Page and Sergey Brin in AI Fight," January 2023',
+    'Similarweb traffic data showing Stack Overflow decline, 2023',
+    'Morgan Stanley research note, "Generative AI and the Knowledge Economy," March 2023',
+  ],
+
+  marketImpact: {
+    totalMarketCapLoss: 50_000_000_000,
+    recoveryTimeline: 'No recovery for disrupted companies. Chegg: $9B (2021) → $200M (2025). Stack Overflow sold to Prosus at steep discount. Pattern: disrupted knowledge businesses do NOT recover.',
+    companiesHardestHit: [
+      { name: 'Chegg', ticker: 'CHGG', dropPercent: 98, reason: 'Homework help business directly replaced by ChatGPT — students get instant answers for free' },
+      { name: 'Stack Overflow', dropPercent: 60, reason: 'Developer Q&A traffic cratered as developers asked ChatGPT/Copilot instead' },
+      { name: 'Pearson', ticker: 'PSO', dropPercent: 15, reason: 'Education content business challenged by AI-generated learning materials' },
+      { name: 'Coursera', ticker: 'COUR', dropPercent: 25, reason: 'Online learning platform value questioned when AI can teach directly' },
+    ],
+    companiesLeastAffected: [
+      { name: 'Companies with proprietary data + compliance requirements', reason: 'Bloomberg Terminal, Thomson Reuters Westlaw — regulated data with audit trails cannot be replaced by general AI' },
+      { name: 'Companies that integrated AI (Microsoft/GitHub Copilot)', reason: 'Turned disruption into product enhancement — Copilot became a revenue driver' },
+      { name: 'Companies with physical/experiential moats', reason: 'Universities, hands-on training, credentialing — ChatGPT can\'t give a degree' },
+    ],
+  },
+
+  predictability: {
+    wasExpected: true,
+    earlySignals: [
+      'GPT-3 (June 2020) demonstrated impressive text generation capabilities',
+      'GitHub Copilot preview (June 2021) showed AI could write production code',
+      'DALL-E and Midjourney (2022) proved generative AI across modalities',
+      'Google Brain and DeepMind merger (2023) signaled big tech AI arms race',
+      'AI research papers on reasoning and tool use growing exponentially since 2020',
+    ],
+    whoSawItComing: [
+      'AI researchers who understood GPT-3\'s implications for knowledge work',
+      'Venture capitalists who began "AI-first" investment theses in 2021',
+      'Microsoft (invested $1B in OpenAI in 2019 — positioned for Copilot)',
+      'Short sellers who identified Chegg as vulnerable in early 2023',
+    ],
+    whyMostMissedIt: 'Most businesses underestimated how quickly "good enough" AI would undermine premium knowledge services. The "AI can\'t replace human expertise" narrative was anchoring bias — ChatGPT didn\'t need to be perfect, just 80% as good and free.',
+  },
+
+  preparednessAnalysis: [
+    { primitiveId: 'P5', primitiveName: 'Drift Detection', howItHelps: 'Monitoring user engagement metrics (time on platform, query volume, subscription renewals) would have shown the decline starting within weeks of ChatGPT launch. CUSUM analysis on Chegg\'s daily active users would have triggered alert by January 2023.', withoutIt: 'Chegg CEO Dan Rosensweig initially dismissed ChatGPT as "a supplement, not a substitute." By the time the Q2 2023 earnings showed the damage, it was too late to pivot.' },
+    { primitiveId: 'P6', primitiveName: 'Cognitive Bias Mitigation', howItHelps: 'Pre-Mortem: "What if a free AI tool can answer 80% of the questions our users pay for?" Ghost Board: "How do we retain value when commodity knowledge is free?" Forces the existential question before the crisis.', withoutIt: 'Chegg, Stack Overflow, and Pearson all initially framed ChatGPT as complementary rather than competitive — classic confirmation bias.' },
+    { primitiveId: 'P4', primitiveName: 'Continuity Memory', howItHelps: 'Institutional memory of past tech disruptions (Wikipedia → Encyclopaedia Britannica, Google → Yellow Pages, Netflix → Blockbuster) surfaces the pattern: when information access is democratized, gatekeepers die.', withoutIt: 'Companies failed to apply the Blockbuster/Netflix lesson to their own business. The pattern was identical: free distribution of commodity content destroys paid access.' },
+  ],
+
+  learningPatterns: [
+    'PATTERN: "Good enough and free" beats "premium and paid" for commodity knowledge — Chegg lost 98% to free ChatGPT',
+    'PATTERN: Companies that integrate the disruptor (Microsoft + OpenAI) thrive; companies that deny it (Chegg) die',
+    'PATTERN: User engagement metrics are leading indicators of disruption — daily active users drop before revenue does',
+    'PATTERN: The Wikipedia/Britannica pattern repeats: democratized access destroys paid gatekeepers → P4 Continuity Memory',
+    'PATTERN: Compliance and governance requirements create moats that general AI cannot cross — regulated data survives disruption',
+    'PATTERN: Speed of disruption is accelerating — ChatGPT did in 2 months what Netflix took 5 years to do to Blockbuster',
+  ],
+};
+
+// =============================================================================
+// DISRUPTION 5: COVID-19 REMOTE WORK SHIFT (MARCH 2020)
+// =============================================================================
+
+const COVID_REMOTE_WORK: MarketDisruptionBenchmark = {
+  id: 'covid-remote-work-2020',
+  event: 'COVID-19 Pandemic — Forced Digital Governance Transformation',
+  date: '2020-03-11',
+  category: 'market_shock',
+
+  summary: 'When WHO declared COVID-19 a pandemic on March 11, 2020, virtually every company was forced to transition to remote work within days. This was the largest forced governance transformation in corporate history — decision-making processes, approval chains, audit trails, and compliance procedures all had to work without physical proximity. Companies with digital governance infrastructure (Zoom, Slack, digital approval workflows, cloud-based audit trails) adapted in days. Companies relying on in-person governance (physical signatures, in-person board meetings, paper audit trails) faced weeks or months of paralysis. The pandemic permanently demonstrated that governance must be digital-first. U.S. GDP dropped 31.4% (annualized) in Q2 2020 — the worst quarter since records began. $30+ trillion in global market cap was lost in March 2020.',
+
+  sources: [
+    'WHO Pandemic Declaration, March 11, 2020',
+    'McKinsey, "How COVID-19 has pushed companies over the technology tipping point," October 2020',
+    'Bureau of Economic Analysis, GDP Q2 2020 Advance Estimate',
+    'Gartner, "CFO Survey: Remote Work Persistence Post-COVID," 2021',
+    'Harvard Business Review, "The Organizations That Thrived During COVID Had Strong Digital Governance," 2021',
+  ],
+
+  marketImpact: {
+    totalMarketCapLoss: 30_000_000_000_000,
+    recoveryTimeline: 'S&P 500 recovered to pre-COVID levels by August 2020 (5 months). However, recovery was extremely uneven — digital-first companies thrived while physical-first companies suffered for years.',
+    companiesHardestHit: [
+      { name: 'Companies with paper-based governance', dropPercent: 40, reason: 'Physical signatures, in-person board meetings, paper audit trails all became impossible overnight' },
+      { name: 'Commercial real estate (office-dependent)', dropPercent: 35, reason: 'Remote work proved many office-based governance processes were unnecessary' },
+      { name: 'Companies without digital decision trails', dropPercent: 30, reason: 'Could not prove compliance with regulations when in-person verification was impossible' },
+    ],
+    companiesLeastAffected: [
+      { name: 'Companies with cloud-native governance (Zoom, Slack, DocuSign)', reason: 'Decision-making, approvals, and audit trails already digital — transition took hours, not months' },
+      { name: 'Companies with distributed decision-making authority', reason: 'Didn\'t require C-suite physical presence for every approval — governance was already decentralized' },
+      { name: 'Companies with automated compliance monitoring', reason: 'Didn\'t rely on in-person audits — continuous digital monitoring continued uninterrupted' },
+    ],
+  },
+
+  predictability: {
+    wasExpected: false,
+    earlySignals: [
+      'SARS (2003) and MERS (2012) demonstrated pandemic risk was real but underpriced',
+      'Bill Gates TED talk (2015) explicitly warned "We\'re not ready for the next pandemic"',
+      'WHO warned about increasing zoonotic disease risk throughout the 2010s',
+      'Digital transformation trends (cloud, SaaS, remote tools) had been building for a decade',
+    ],
+    whoSawItComing: [
+      'Epidemiologists who had modeled pandemic scenarios for decades',
+      'Companies that had invested in business continuity planning (rare)',
+      'Cloud-native companies that were already distributed by design',
+    ],
+    whyMostMissedIt: 'Pandemic risk was understood theoretically but not operationally. Most business continuity plans assumed short disruptions (days), not sustained remote work (months/years). The Black Swan nature of COVID meant even those who predicted a pandemic didn\'t predict the scale.',
+  },
+
+  preparednessAnalysis: [
+    { primitiveId: 'P1', primitiveName: 'Discovery-Time Proof', howItHelps: 'Digital timestamps and cryptographic proofs work regardless of physical location. Organizations with digital-first audit trails continued operating seamlessly. RFC 3161 timestamps don\'t require physical presence.', withoutIt: 'Companies relying on physical signatures and in-person notarization were paralyzed. Courts that required physical filings shut down. Compliance processes dependent on in-person verification collapsed.' },
+    { primitiveId: 'P2', primitiveName: 'Deliberation Capture', howItHelps: 'Digital deliberation capture (recorded council sessions, documented decisions) works over Zoom/Teams as well as in person. Async deliberation may actually be superior for complex decisions.', withoutIt: 'Board meetings couldn\'t happen. Decision-making was paralyzed until emergency remote meeting rules were adopted. Many decisions were made without proper documentation.' },
+    { primitiveId: 'P3', primitiveName: 'Override Accountability', howItHelps: 'Digital override tracking doesn\'t require physical co-location. Emergency decisions during COVID needed even MORE accountability because they were made under extreme pressure and uncertainty.', withoutIt: 'Many organizations made emergency decisions without proper governance. "We\'ll document it later" became a common excuse that created governance gaps.' },
+    { primitiveId: 'P4', primitiveName: 'Continuity Memory', howItHelps: 'Organizations with institutional memory of past crises (2008 financial crisis, 9/11) had playbooks for uncertainty. Digital knowledge bases ensured institutional knowledge was accessible remotely.', withoutIt: 'Organizations where knowledge lived in people\'s heads (not systems) lost access when key personnel were sick, isolated, or overwhelmed.' },
+  ],
+
+  learningPatterns: [
+    'PATTERN: Governance must be digital-first — physical-only governance processes are a single point of failure',
+    'PATTERN: Pandemic proved that continuous digital monitoring >> periodic in-person audits for resilience',
+    'PATTERN: Companies with digital decision trails adapted in hours; paper-based companies took months → P1 Discovery-Time Proof',
+    'PATTERN: Distributed decision-making authority (not centralized) creates resilience to physical disruption → P3 Override Accountability',
+    'PATTERN: Business continuity plans that assume short disruptions fail catastrophically for sustained crises → P4 Continuity Memory',
+    'PATTERN: The cost of digital governance infrastructure is trivial compared to the cost of governance paralysis during crisis',
+    'PATTERN: COVID was the ultimate stress test — every governance gap became instantly visible',
+  ],
+};
+
 export const ALL_SUCCESS_STORIES: SuccessStoryBenchmark[] = [
   JNJ_TYLENOL,
   JPM_REFORM,
   MICROSOFT_RAI,
+  TOYOTA_REFORM,
+  APPLE_PRIVACY,
+  NVIDIA_PIVOT,
 ];
 
 export const ALL_DISRUPTIONS: MarketDisruptionBenchmark[] = [
   ANTHROPIC_SAASPOCALYPSE,
   DEEPSEEK_DISRUPTION,
   EU_AI_ACT,
+  CHATGPT_LAUNCH,
+  COVID_REMOTE_WORK,
 ];
 
 /**
