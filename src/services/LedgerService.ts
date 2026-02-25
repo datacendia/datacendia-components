@@ -8,6 +8,8 @@
 // Every Council deliberation, vote, veto, and confidence score recorded
 // =============================================================================
 
+import { hashSync } from '../lib/algorithms/crypto';
+
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -161,15 +163,12 @@ const STORAGE_KEY = 'datacendia_ledger_service';
 // =============================================================================
 // HASH FUNCTION
 // =============================================================================
+// Uses FNV-1a + MurmurHash3 finalizer (4 rounds → 256-bit equivalent).
+// Produces 64-char hex string with excellent collision resistance.
+// For async crypto-grade hashing, use sha256() from lib/algorithms/crypto.
 
 function generateHash(data: string): string {
-  let hash = 0;
-  for (let i = 0; i < data.length; i++) {
-    const char = data.charCodeAt(i);
-    hash = (hash << 5) - hash + char;
-    hash = hash & hash;
-  }
-  return Math.abs(hash).toString(16).padStart(16, '0');
+  return hashSync(data);
 }
 
 function createEntryHash(entry: Omit<LedgerEntry, 'hash'>): string {

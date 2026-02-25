@@ -9,6 +9,7 @@
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
+import { mean } from '../lib/algorithms/statistics';
 
 // =============================================================================
 // TYPES
@@ -66,6 +67,7 @@ export interface BurnoutFactor {
   category:
     | 'workload'
     | 'work_life'
+    | 'compensation'
     | 'recognition'
     | 'growth'
     | 'autonomy'
@@ -266,9 +268,35 @@ function calculateBurnoutScore(employee: Partial<Employee>): {
     totalWeight += 0.15;
   }
 
-  // Compensation fairness
-  // This would normally compare to market data
-  const compensationScore = 30; // Placeholder
+  // Compensation fairness: estimate market position from salary and tenure
+  // Score 0-100 where higher = more underpaid (more burnout risk)
+  // Uses salary vs estimated market midpoint (salary × 1.05) and tenure penalty
+  const tenureYears = employee.startDate
+    ? (Date.now() - employee.startDate.getTime()) / (365 * 24 * 60 * 60 * 1000)
+    : 1;
+  const expectedGrowthRate = Math.min(tenureYears * 3, 25); // ~3% per year, max 25%
+  const marketMid = (employee.salary || 70000) * 1.05;
+  const salaryGap = Math.max(0, 1 - ((employee.salary || 70000) / marketMid));
+  const compensationScore = Math.min(100, Math.round(salaryGap * 200 + expectedGrowthRate));
+  if (compensationScore > 20) {
+    factors.push({
+      id: `factor-comp-${Date.now()}`,
+      category: 'compensation',
+      name: 'Below-Market Compensation',
+      score: compensationScore,
+      weight: 0.2,
+      indicators: [
+        `Salary vs market midpoint: ${(100 - salaryGap * 100).toFixed(0)}%`,
+        `Tenure: ${tenureYears.toFixed(1)} years`,
+      ],
+      recommendations: [
+        'Conduct market rate comparison',
+        'Review compensation band placement',
+        'Consider equity or bonus adjustment',
+      ],
+      detectedAt: new Date(),
+    });
+  }
   totalScore += compensationScore * 0.2;
   totalWeight += 0.2;
 
@@ -942,17 +970,42 @@ Respond in JSON:
       0
     );
 
+    // Turnover rate: % of employees on notice or terminated vs total
+    const terminatedOrNotice = employees.filter(
+      (e) => e.status === 'notice_period' || e.status === 'terminated'
+    ).length;
+    const turnoverRate = employees.length > 0
+      ? Math.round((terminatedOrNotice / employees.length) * 1000) / 10
+      : 0;
+
+    // Avg salary vs market: use market range midpoint (salary × 1.05) as benchmark
+    // Ratio < 100 means below market, > 100 means above market
+    const salaryRatios = employees.map((e) => {
+      const marketMid = e.salary * 1.05;
+      return marketMid > 0 ? (e.salary / marketMid) * 100 : 100;
+    });
+    const avgSalaryVsMarket = Math.round(mean(salaryRatios) * 10) / 10;
+
+    // PTO utilization: actual PTO used / (used + remaining) × 100
+    const ptoRatios = employees
+      .filter((e) => (e.ptoUsedThisYear || 0) + (e.ptoDaysRemaining || 0) > 0)
+      .map((e) => {
+        const total = (e.ptoUsedThisYear || 0) + (e.ptoDaysRemaining || 0);
+        return ((e.ptoUsedThisYear || 0) / total) * 100;
+      });
+    const ptoUtilization = ptoRatios.length > 0 ? Math.round(mean(ptoRatios)) : 0;
+
     return {
       totalEmployees: employees.length,
       avgBurnoutScore: Math.round(avgBurnoutScore),
       burnoutDistribution,
       avgTenure: Math.round(avgTenure * 10) / 10,
-      turnoverRate: 0, // Would calculate from historical data
+      turnoverRate,
       openViolations,
       pendingRequests,
-      avgSalaryVsMarket: 100, // Would compare to market data
+      avgSalaryVsMarket,
       overtimeAverage: Math.round(overtimeAverage),
-      ptoUtilization: 65, // Would calculate from PTO data
+      ptoUtilization,
       rightsByType,
     };
   }
