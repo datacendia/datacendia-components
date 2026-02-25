@@ -67,6 +67,8 @@ jobs:
       - name: Generate Prisma client
         working-directory: backend
         run: npx prisma generate
+        env:
+          DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
 
       - name: Type check
         working-directory: backend
