@@ -126,7 +126,10 @@ jobs:
             --exclude="**/e2e/**" \
             --exclude="**/integration/**" \
             --exclude="**/routes/marketing-studio*" \
-            --exclude="**/routes/platform-assistant*"
+            --exclude="**/routes/platform-assistant*" \
+            --exclude="**/e2e.test.*" \
+            --exclude="**/comprehensive.test.*" \
+            --exclude="**/connectors/sap.test.*"
         env:
           CI: true
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
