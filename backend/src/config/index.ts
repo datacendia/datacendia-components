@@ -39,9 +39,9 @@ const configSchema = z.object({
   redisUrl: z.string(),
   
   // Neo4j
-  neo4jUri: z.string(),
-  neo4jUser: z.string(),
-  neo4jPassword: z.string(),
+  neo4jUri: z.string().default('bolt://localhost:7687'),
+  neo4jUser: z.string().default('neo4j'),
+  neo4jPassword: z.string().default('neo4j'),
   
   // Ollama
   ollamaBaseUrl: z.string().url().default('http://127.0.0.1:11434'),
@@ -54,7 +54,7 @@ const configSchema = z.object({
   
   // JWT
   jwtSecret: z.string().min(32),
-  jwtRefreshSecret: z.string().min(32),
+  jwtRefreshSecret: z.string().min(32).default('default-refresh-secret-for-dev-minimum-32-chars'),
   jwtExpiresIn: z.string().default('1h'),
   jwtRefreshExpiresIn: z.string().default('30d'),
   
@@ -103,6 +103,9 @@ const parsed = configSchema.safeParse(envVars);
 
 if (!parsed.success) {
   console.error('❌ Invalid environment variables:', parsed.error.flatten().fieldErrors);
+  if (process.env.NODE_ENV === 'test') {
+    throw new Error('Invalid environment variables: ' + JSON.stringify(parsed.error.flatten().fieldErrors));
+  }
   process.exit(1);
 }
 
