@@ -21,8 +21,8 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - ./deploy/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./deploy/ssl:/etc/nginx/ssl:ro
       - frontend-cache:/var/cache/nginx
     depends_on:
       - backend
@@ -108,7 +108,7 @@ services:
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
       - postgres-data:/var/lib/postgresql/data
-      - ./backend/src/database/migrations:/docker-entrypoint-initdb.d:ro
+      - ./backend/prisma/migrations:/docker-entrypoint-initdb.d:ro
     networks:
       - datacendia-network
     healthcheck:
@@ -302,8 +302,8 @@ services:
       - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-piechart-panel
     volumes:
       - grafana-data:/var/lib/grafana
-      - ./config/grafana/dashboards:/etc/grafana/provisioning/dashboards:ro
-      - ./config/grafana/datasources:/etc/grafana/provisioning/datasources:ro
+      - ./infrastructure/grafana/dashboards:/etc/grafana/provisioning/dashboards:ro
+      - ./infrastructure/grafana/datasources:/etc/grafana/provisioning/datasources:ro
     networks:
       - datacendia-network
     deploy:

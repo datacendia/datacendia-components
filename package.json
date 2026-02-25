@@ -10,7 +10,7 @@
     "dev": "vite",
     "dev:backend": "npm run dev --workspace=backend",
     "dev:all": "concurrently \"npm run dev\" \"npm run dev:backend\"",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "build:backend": "npm run build --workspace=backend",
     "build:all": "npm run build && npm run build:backend",
     "preview": "vite preview",

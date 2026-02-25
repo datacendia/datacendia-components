@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: datacendia
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./backend/database/init:/docker-entrypoint-initdb.d
+      - ./backend/prisma/migrations:/docker-entrypoint-initdb.d
     ports:
       - "5433:5432"
     healthcheck:

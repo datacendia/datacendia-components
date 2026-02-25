@@ -36,6 +36,10 @@ COPY --from=builder /app/src ./src
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/package*.json ./
 
+# Copy entrypoint script
+COPY docker-entrypoint.sh ./
+RUN chmod +x docker-entrypoint.sh
+
 # Set ownership
 RUN chown -R nodejs:nodejs /app
 
@@ -45,9 +49,9 @@ USER nodejs
 EXPOSE 3001
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
   CMD wget --no-verbose --tries=1 --spider http://localhost:3001/health || exit 1
 
-# Start with dumb-init
-ENTRYPOINT ["dumb-init", "--"]
+# Start with dumb-init, run entrypoint (migrations), then app
+ENTRYPOINT ["dumb-init", "--", "./docker-entrypoint.sh"]
 CMD ["node", "--import", "tsx", "src/index.ts"]
