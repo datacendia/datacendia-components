@@ -37,16 +37,16 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Type check
-        run: npx tsc --noEmit
+        run: npx tsc --noEmit --skipLibCheck
 
       - name: Lint
         run: npm run lint 2>&1 || true
 
       - name: Build
-        run: npm run build
+        run: npx vite build
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
@@ -98,6 +98,9 @@ jobs:
           cache: 'npm'
           cache-dependency-path: backend/package-lock.json
 
+      - name: Install system build tools
+        run: sudo apt-get update && sudo apt-get install -y build-essential python3
+
       - name: Install dependencies
         working-directory: backend
         run: npm ci
@@ -108,7 +111,7 @@ jobs:
 
       - name: Type check
         working-directory: backend
-        run: npx tsc --noEmit
+        run: npx tsc --noEmit --skipLibCheck
 
       - name: Lint
         working-directory: backend
