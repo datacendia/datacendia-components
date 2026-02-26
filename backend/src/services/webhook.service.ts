@@ -102,7 +102,7 @@ class WebhookService {
     };
 
     this.webhooks.set(webhook.id, webhook);
-    console.log(`[Webhook] Created webhook ${webhook.id} for org ${organizationId}`);
+    logger.info(`[Webhook] Created webhook ${webhook.id} for org ${organizationId}`);
     
     return webhook;
   }
@@ -167,7 +167,7 @@ class WebhookService {
       data,
     };
 
-    console.log(`[Webhook] Triggering ${event} for ${relevantWebhooks.length} webhooks`);
+    logger.info(`[Webhook] Triggering ${event} for ${relevantWebhooks.length} webhooks`);
 
     for (const webhook of relevantWebhooks) {
       this.deliverWebhook(webhook, payload);
@@ -213,7 +213,7 @@ class WebhookService {
       delivery.success = response.ok;
 
       if (response.ok) {
-        console.log(`[Webhook] Successfully delivered ${payload.event} to ${webhook.url}`);
+        logger.info(`[Webhook] Successfully delivered ${payload.event} to ${webhook.url}`);
         webhook.lastTriggeredAt = new Date();
         webhook.failureCount = 0;
       } else {
@@ -229,7 +229,7 @@ class WebhookService {
         const delay = this.retryDelays[Math.min(attempt - 1, this.retryDelays.length - 1)];
         delivery.nextRetryAt = new Date(Date.now() + delay);
         
-        console.log(`[Webhook] Scheduling retry in ${delay}ms`);
+        logger.info(`[Webhook] Scheduling retry in ${delay}ms`);
         setTimeout(() => {
           this.deliverWebhook(webhook, payload, attempt + 1);
         }, delay);

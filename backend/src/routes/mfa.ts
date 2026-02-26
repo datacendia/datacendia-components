@@ -27,7 +27,11 @@ import {
 import crypto from 'crypto';
 
 // MFA encryption key derived from server secret
-const MFA_KEY_PROMISE = deriveKey(process.env['MFA_ENCRYPTION_KEY'] || 'datacendia-mfa-default-key-change-in-production');
+const mfaRawKey = process.env['MFA_ENCRYPTION_KEY'];
+if (!mfaRawKey && process.env.NODE_ENV === 'production') {
+  throw new Error('MFA_ENCRYPTION_KEY must be set in production');
+}
+const MFA_KEY_PROMISE = deriveKey(mfaRawKey || 'dev-only-mfa-route-key');
 async function getMFAKey(): Promise<Buffer> {
   return (await MFA_KEY_PROMISE).key;
 }

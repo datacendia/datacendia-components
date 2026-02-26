@@ -12,6 +12,7 @@
 import { PrismaClient } from '@prisma/client';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // Embedding dimensions (match your embedding model)
 const EMBEDDING_DIMENSIONS = {
   OLLAMA_NOMIC: 2560,       // qwen3-embedding:4b
@@ -71,12 +72,12 @@ class VectorService {
   async initialize(): Promise<void> {
     if (this.isInitialized) return;
 
-    console.log('[Vector] Initializing pgvector service...');
+    logger.info('[Vector] Initializing pgvector service...');
 
     // Verify pgvector extension is available
     try {
       await this.prisma.$executeRaw`SELECT 'vector'::regtype`;
-      console.log('[Vector] pgvector extension verified');
+      logger.info('[Vector] pgvector extension verified');
     } catch (error) {
       console.error('[Vector] pgvector extension not found. Run: CREATE EXTENSION vector;');
       throw error;

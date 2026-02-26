@@ -13,6 +13,7 @@
 import { createClient, ClickHouseClient } from '@clickhouse/client';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // ClickHouse connection config
 const CLICKHOUSE_CONFIG = {
   host: process.env.CLICKHOUSE_HOST || 'http://localhost:8123',
@@ -77,7 +78,7 @@ class ClickHouseService {
       
       const result = await this.client!.ping();
       this.isAvailable = result.success;
-      console.log(`[ClickHouse] Service ${this.isAvailable ? 'available' : 'unavailable'}`);
+      logger.info(`[ClickHouse] Service ${this.isAvailable ? 'available' : 'unavailable'}`);
       return this.isAvailable;
     } catch (error) {
       this.isAvailable = false;
@@ -228,7 +229,7 @@ class ClickHouseService {
       }
     }
 
-    console.log('[ClickHouse] Tables initialized');
+    logger.info('[ClickHouse] Tables initialized');
   }
 
   // ===========================================================================
@@ -236,7 +237,7 @@ class ClickHouseService {
   // ===========================================================================
 
   /**
-   * Get decision history (CendiaChronos™)
+   * Get decision history (CendiaChronosÂ™)
    */
   async getDecisionHistory(
     organizationId: string,
@@ -277,7 +278,7 @@ class ClickHouseService {
   }
 
   /**
-   * Get audit trail (CendiaWitness™)
+   * Get audit trail (CendiaWitnessÂ™)
    */
   async getAuditTrail(
     organizationId: string,
@@ -328,7 +329,7 @@ class ClickHouseService {
   }
 
   /**
-   * Get agent metrics (CendiaPulse™)
+   * Get agent metrics (CendiaPulseÂ™)
    */
   async getAgentMetrics(
     organizationId: string,

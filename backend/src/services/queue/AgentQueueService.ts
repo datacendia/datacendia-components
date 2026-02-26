@@ -179,7 +179,7 @@ class AgentQueueService extends EventEmitter {
   async initialize(): Promise<void> {
     if (this.isInitialized) return;
 
-    console.log('[AgentQueue] Initializing BullMQ queues...');
+    logger.info('[AgentQueue] Initializing BullMQ queues...');
 
     const timeout = <T>(ms: number, promise: Promise<T>, name: string) =>
       Promise.race([
@@ -227,12 +227,12 @@ class AgentQueueService extends EventEmitter {
         this.emit('job:progress', { queue: queueName, jobId, progress: data });
       });
 
-      console.log(`[AgentQueue] Created queue: ${queueName}`);
+      logger.info(`[AgentQueue] Created queue: ${queueName}`);
     }
 
     this.isInitialized = true;
     this.isEnabled = true;
-    console.log('[AgentQueue] All queues initialized');
+    logger.info('[AgentQueue] All queues initialized');
   }
 
   /**
@@ -380,7 +380,7 @@ class AgentQueueService extends EventEmitter {
     });
 
     worker.on('completed', (job) => {
-      console.log(`[AgentQueue] Job ${job.id} completed in ${queueName}`);
+      logger.info(`[AgentQueue] Job ${job.id} completed in ${queueName}`);
     });
 
     worker.on('failed', (job, err) => {
@@ -392,7 +392,7 @@ class AgentQueueService extends EventEmitter {
     });
 
     this.workers.set(queueName, worker);
-    console.log(`[AgentQueue] Worker registered for ${queueName}`);
+    logger.info(`[AgentQueue] Worker registered for ${queueName}`);
 
     return worker;
   }
@@ -435,7 +435,7 @@ class AgentQueueService extends EventEmitter {
     const queue = this.queues.get(queueName);
     if (!queue) throw new Error(`Queue ${queueName} not found`);
     await queue.pause();
-    console.log(`[AgentQueue] Queue ${queueName} paused`);
+    logger.info(`[AgentQueue] Queue ${queueName} paused`);
   }
 
   /**
@@ -445,7 +445,7 @@ class AgentQueueService extends EventEmitter {
     const queue = this.queues.get(queueName);
     if (!queue) throw new Error(`Queue ${queueName} not found`);
     await queue.resume();
-    console.log(`[AgentQueue] Queue ${queueName} resumed`);
+    logger.info(`[AgentQueue] Queue ${queueName} resumed`);
   }
 
   /**
@@ -457,19 +457,19 @@ class AgentQueueService extends EventEmitter {
 
     await queue.clean(gracePeriod, 1000, 'completed');
     await queue.clean(gracePeriod * 24, 1000, 'failed');
-    console.log(`[AgentQueue] Queue ${queueName} cleaned`);
+    logger.info(`[AgentQueue] Queue ${queueName} cleaned`);
   }
 
   /**
    * Shutdown all queues gracefully
    */
   async shutdown(): Promise<void> {
-    console.log('[AgentQueue] Shutting down...');
+    logger.info('[AgentQueue] Shutting down...');
 
     // Close workers first
     for (const [name, worker] of this.workers) {
       await worker.close();
-      console.log(`[AgentQueue] Worker ${name} closed`);
+      logger.info(`[AgentQueue] Worker ${name} closed`);
     }
 
     // Close queue events
@@ -480,7 +480,7 @@ class AgentQueueService extends EventEmitter {
     // Close queues
     for (const [name, queue] of this.queues) {
       await queue.close();
-      console.log(`[AgentQueue] Queue ${name} closed`);
+      logger.info(`[AgentQueue] Queue ${name} closed`);
     }
 
     if (this.connection) {
@@ -496,7 +496,7 @@ class AgentQueueService extends EventEmitter {
 
     this.isInitialized = false;
     this.isEnabled = false;
-    console.log('[AgentQueue] Shutdown complete');
+    logger.info('[AgentQueue] Shutdown complete');
   }
 
 

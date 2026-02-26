@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// DRUID SERVICE - High-Performance Analytics for CendiaChronos™ & CendiaWitness™
+// DRUID SERVICE - High-Performance Analytics for CendiaChronosÂ™ & CendiaWitnessÂ™
 // =============================================================================
 // Apache Druid handles billions of events with sub-second queries.
 // Use this for: Audit logs, Decision history, Metrics, Time-series data
@@ -13,6 +13,7 @@
 import axios, { AxiosInstance } from 'axios';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // Druid connection config
 const DRUID_CONFIG = {
   routerUrl: process.env.DRUID_ROUTER_URL || 'http://localhost:8888',
@@ -47,7 +48,7 @@ export interface AuditEvent {
   user_agent?: string;
 }
 
-// Decision history for CendiaChronos™
+// Decision history for CendiaChronosÂ™
 export interface DecisionEvent {
   __time: string;
   organization_id: string;
@@ -64,7 +65,7 @@ export interface DecisionEvent {
   tags?: string[];
 }
 
-// Agent metrics for CendiaPulse™
+// Agent metrics for CendiaPulseÂ™
 export interface AgentMetric {
   __time: string;
   organization_id: string;
@@ -124,7 +125,7 @@ class DruidService {
     try {
       const response = await this.client.get('/status');
       this.isAvailable = response.status === 200;
-      console.log(`[Druid] Service ${this.isAvailable ? 'available' : 'unavailable'}`);
+      logger.info(`[Druid] Service ${this.isAvailable ? 'available' : 'unavailable'}`);
       return this.isAvailable;
     } catch (error) {
       this.isAvailable = false;
@@ -249,7 +250,7 @@ class DruidService {
   // ===========================================================================
 
   /**
-   * Log an audit event (CendiaWitness™)
+   * Log an audit event (CendiaWitnessÂ™)
    */
   async logAuditEvent(event: Omit<AuditEvent, '__time'>): Promise<boolean> {
     return this.ingestEvent(DRUID_DATASOURCES.AUDIT_EVENTS, {
@@ -259,7 +260,7 @@ class DruidService {
   }
 
   /**
-   * Log a decision (CendiaChronos™)
+   * Log a decision (CendiaChronosÂ™)
    */
   async logDecision(decision: Omit<DecisionEvent, '__time'>): Promise<boolean> {
     return this.ingestEvent(DRUID_DATASOURCES.DECISION_HISTORY, {
@@ -269,7 +270,7 @@ class DruidService {
   }
 
   /**
-   * Log agent metrics (CendiaPulse™)
+   * Log agent metrics (CendiaPulseÂ™)
    */
   async logAgentMetric(metric: Omit<AgentMetric, '__time'>): Promise<boolean> {
     return this.ingestEvent(DRUID_DATASOURCES.AGENT_METRICS, {
@@ -279,7 +280,7 @@ class DruidService {
   }
 
   /**
-   * Get decision history for time travel (CendiaChronos™)
+   * Get decision history for time travel (CendiaChronosÂ™)
    */
   async getDecisionHistory(
     organizationId: string,
@@ -314,7 +315,7 @@ class DruidService {
   }
 
   /**
-   * Get audit trail (CendiaWitness™)
+   * Get audit trail (CendiaWitnessÂ™)
    */
   async getAuditTrail(
     organizationId: string,
@@ -347,7 +348,7 @@ class DruidService {
   }
 
   /**
-   * Get agent performance metrics (CendiaPulse™)
+   * Get agent performance metrics (CendiaPulseÂ™)
    */
   async getAgentMetrics(
     organizationId: string,

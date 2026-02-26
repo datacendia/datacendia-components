@@ -138,9 +138,9 @@ export class CendiaBlackBoxService {
   constructor(injectedPrisma?: PrismaClient) {
     this.db = injectedPrisma || null;
     this.initFromDb().catch(() => {
-      console.log('[CendiaBlackBox] DB not available, using in-memory only');
+      logger.info('[CendiaBlackBox] DB not available, using in-memory only');
     });
-    console.log('[CendiaBlackBox] Disaster Storage service initialized with Prisma persistence');
+    logger.info('[CendiaBlackBox] Disaster Storage service initialized with Prisma persistence');
 
 
     this.loadFromDB().catch(() => {});
@@ -161,7 +161,7 @@ export class CendiaBlackBoxService {
         this._records.set(row.id, row.data as unknown as StoredRecord);
       }
       if (dbUnits.length > 0) {
-        console.log(`[CendiaBlackBox] Loaded ${dbUnits.length} units, ${dbJobs.length} jobs, ${dbRecords.length} records from DB`);
+        logger.info(`[CendiaBlackBox] Loaded ${dbUnits.length} units, ${dbJobs.length} jobs, ${dbRecords.length} records from DB`);
       }
     } catch { /* DB not available */ }
   }

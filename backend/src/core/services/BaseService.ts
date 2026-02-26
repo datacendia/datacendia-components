@@ -10,6 +10,7 @@
 import { EventEmitter } from 'events';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -66,13 +67,13 @@ export class ServiceLogger {
 
   debug(message: string, meta?: Record<string, any>): void {
     if (this.logLevel === 'debug') {
-      console.debug(this.formatMessage('debug', message, meta));
+      logger.debug(this.formatMessage('debug', message, meta));
     }
   }
 
   info(message: string, meta?: Record<string, any>): void {
     if (['debug', 'info'].includes(this.logLevel)) {
-      console.log(this.formatMessage('info', message, meta));
+      logger.info(this.formatMessage('info', message, meta));
     }
   }
 

@@ -11,6 +11,7 @@
 
 import { complianceEnforcer, ComplianceViolation } from '../compliance/index.js';
 
+import { logger } from '../../utils/logger.js';
 // ============================================================================
 // TYPES
 // ============================================================================
@@ -271,13 +272,13 @@ export function exampleScenario_PatientDataPublicBucket() {
 
   const result = councilComplianceMiddleware(proposal);
 
-  console.log('='.repeat(60));
-  console.log('SCENARIO: Upload patient data to public bucket');
-  console.log('='.repeat(60));
-  console.log('\nCendiaCISO Response:');
-  console.log(result.cisoResponse);
-  console.log('\nVerdict:', result.proceed ? 'ALLOWED' : 'BLOCKED');
-  console.log('Citations:', result.verdict.citations.join(', '));
+  logger.info('='.repeat(60));
+  logger.info('SCENARIO: Upload patient data to public bucket');
+  logger.info('='.repeat(60));
+  logger.info('\nCendiaCISO Response:');
+  logger.info(result.cisoResponse);
+  logger.info('\nVerdict:', result.proceed ? 'ALLOWED' : 'BLOCKED');
+  logger.info('Citations:', result.verdict.citations.join(', '));
 
   return result;
 }
@@ -296,11 +297,11 @@ export function exampleScenario_UntestedAIModel() {
 
   const result = councilComplianceMiddleware(proposal);
 
-  console.log('='.repeat(60));
-  console.log('SCENARIO: Deploy untested AI model');
-  console.log('='.repeat(60));
-  console.log('\nCendiaCISO Response:');
-  console.log(result.cisoResponse);
+  logger.info('='.repeat(60));
+  logger.info('SCENARIO: Deploy untested AI model');
+  logger.info('='.repeat(60));
+  logger.info('\nCendiaCISO Response:');
+  logger.info(result.cisoResponse);
 
   return result;
 }
@@ -319,11 +320,11 @@ export function exampleScenario_DisableAuditLogs() {
 
   const result = councilComplianceMiddleware(proposal);
 
-  console.log('='.repeat(60));
-  console.log('SCENARIO: Disable audit logging');
-  console.log('='.repeat(60));
-  console.log('\nCendiaCISO Response:');
-  console.log(result.cisoResponse);
+  logger.info('='.repeat(60));
+  logger.info('SCENARIO: Disable audit logging');
+  logger.info('='.repeat(60));
+  logger.info('\nCendiaCISO Response:');
+  logger.info(result.cisoResponse);
 
   return result;
 }

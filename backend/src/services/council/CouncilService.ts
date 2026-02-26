@@ -385,7 +385,7 @@ export class CouncilService extends EventEmitter {
 
   async initialize(): Promise<void> {
     await this.loadAgents();
-    console.log(`[CouncilService] Initialized with ${this.agents.size} agents`);
+    logger.info(`[CouncilService] Initialized with ${this.agents.size} agents`);
   }
 
   private async loadAgents(): Promise<void> {
@@ -544,7 +544,7 @@ export class CouncilService extends EventEmitter {
       // Process any legal tool calls from agent responses
       const legalToolResults = await this.processLegalToolCalls(deliberationId, initialResponses, tracer);
       if (legalToolResults.size > 0) {
-        console.log(`[Council] Processed ${legalToolResults.size} legal tool calls`);
+        logger.info(`[Council] Processed ${legalToolResults.size} legal tool calls`);
       }
 
       // Phase 2: Cross-Examination (if enabled and multiple agents)
@@ -617,7 +617,7 @@ export class CouncilService extends EventEmitter {
     let ragCitations: ChunkResult[] = [];
     try {
       ragCitations = await ragService.search(question, { limit: 5, threshold: 0.3 });
-      console.log(`[Council] Retrieved ${ragCitations.length} RAG citations for question`);
+      logger.info(`[Council] Retrieved ${ragCitations.length} RAG citations for question`);
     } catch (ragError) {
       console.warn('[Council] RAG search failed, proceeding without citations:', ragError);
     }
@@ -766,7 +766,7 @@ export class CouncilService extends EventEmitter {
       
       for (const call of toolCalls) {
         if (isLegalTool(call.name)) {
-          console.log(`[Council] Executing legal tool: ${call.name}`, call.params);
+          logger.info(`[Council] Executing legal tool: ${call.name}`, call.params);
           
           const result = await executeLegalTool(call.name, call.params, tracer);
           
@@ -1029,7 +1029,7 @@ export class CouncilService extends EventEmitter {
 
     // Use flagship model for synthesis (higher quality for final output)
     const synthesisModel = (config as any).ollamaModelFlagship || chiefAgent.model;
-    console.log(`[Council] Using flagship model for synthesis: ${synthesisModel}`);
+    logger.info(`[Council] Using flagship model for synthesis: ${synthesisModel}`);
 
     let synthesisContent = '';
     for await (const token of streamOllamaResponse(synthesisModel, messages, { maxTokens: 4096 })) {

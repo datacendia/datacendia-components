@@ -140,7 +140,11 @@ export class CendiaAuditService extends BaseService {
     });
     
     // Key loading from secure vault (HashiCorp Vault) when configured
-    this.signingKey = process.env.AUDIT_SIGNING_KEY || 'datacendia-audit-key-change-in-production';
+    const envKey = process.env.AUDIT_SIGNING_KEY;
+    if (!envKey && process.env.NODE_ENV === 'production') {
+      throw new Error('AUDIT_SIGNING_KEY must be set in production');
+    }
+    this.signingKey = envKey || 'datacendia-audit-dev-key-not-for-production';
   }
 
   async initialize(): Promise<void> {

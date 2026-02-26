@@ -186,7 +186,7 @@ class LegalResearchService extends EventEmitter {
       clearTimeout(timeoutId);
       
       if (retries > 0 && (error instanceof Error && error.name === 'AbortError')) {
-        console.log(`[LegalResearch] Retrying ${url} (${retries} retries left)`);
+        logger.info(`[LegalResearch] Retrying ${url} (${retries} retries left)`);
         await new Promise(resolve => setTimeout(resolve, RETRY_DELAY_MS));
         return this.fetchWithRetry(url, options, retries - 1);
       }

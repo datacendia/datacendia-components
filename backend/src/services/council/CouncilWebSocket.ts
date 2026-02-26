@@ -69,7 +69,7 @@ export class CouncilWebSocketServer {
       });
     });
 
-    console.log('[CouncilWebSocket] Server initialized on /ws/council');
+    logger.info('[CouncilWebSocket] Server initialized on /ws/council');
 
 
     this.loadFromDB().catch(() => {});
@@ -92,7 +92,7 @@ export class CouncilWebSocketServer {
 
       this.clients.set(clientId, client);
 
-      console.log(`[CouncilWebSocket] Client connected: ${clientId}`);
+      logger.info(`[CouncilWebSocket] Client connected: ${clientId}`);
 
       // Send welcome message
       this.sendToClient(client, {
@@ -121,7 +121,7 @@ export class CouncilWebSocketServer {
 
       // Handle close
       ws.on('close', () => {
-        console.log(`[CouncilWebSocket] Client disconnected: ${clientId}`);
+        logger.info(`[CouncilWebSocket] Client disconnected: ${clientId}`);
         this.clients.delete(clientId);
       });
 

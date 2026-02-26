@@ -8,6 +8,7 @@
 // =============================================================================
 
 import express, { Request, Response, Router } from 'express';
+import { z } from 'zod';
 import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
@@ -30,6 +31,20 @@ import { cendiaInventumService } from '../services/enterprise/CendiaInventumServ
 import { getEnterpriseDashboard } from '../services/enterprise/index.js';
 
 const router: Router = express.Router();
+
+// ---- Zod Validation Schemas ----
+const addContractSchema = z.object({
+  vendorName: z.string().min(1).max(255),
+  annualSpend: z.number().positive(),
+  category: z.string().min(1).max(100),
+  expirationDate: z.string().or(z.date()),
+  autoRenew: z.boolean().optional().default(false),
+  notes: z.string().max(2000).optional(),
+});
+
+const negotiationResultSchema = z.object({
+  negotiatedPrice: z.number().nonnegative(),
+});
 
 // All enterprise routes require authentication and admin-level role
 router.use(authenticate, requireRole('ADMIN', 'SUPER_ADMIN'));
@@ -67,7 +82,8 @@ router.get('/procure/contracts/expiring', authenticate, async (req: Request, res
 // Add contract
 router.post('/procure/contracts', authenticate, async (req: Request, res: Response) => {
   try {
-    const contract = cendiaProcureService.addContract(req.body);
+    const validated = addContractSchema.parse(req.body);
+    const contract = cendiaProcureService.addContract(validated);
     res.json({ contract });
   } catch (error) {
     logger.error('Failed to add contract:', error);
@@ -90,7 +106,7 @@ router.post('/procure/squeeze', authenticate, async (_req: Request, res: Respons
 // Record negotiation result
 router.post('/procure/contracts/:id/result', authenticate, async (req: Request, res: Response) => {
   try {
-    const { negotiatedPrice } = req.body;
+    const { negotiatedPrice } = negotiationResultSchema.parse(req.body);
     const result = cendiaProcureService.recordNegotiationResult(req.params.id, negotiatedPrice);
     res.json({ result });
   } catch (error) {

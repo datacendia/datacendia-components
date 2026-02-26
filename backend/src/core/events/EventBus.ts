@@ -11,6 +11,7 @@ import { EventEmitter } from 'events';
 import { v4 as uuidv4 } from 'uuid';
 import { getErrorMessage, ensureError } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -153,7 +154,7 @@ class EventBus {
     const startTime = Date.now();
     
     if (this.config.logEvents) {
-      console.log(`[EventBus] Publishing: ${event.type}`, { id: event.id, source: event.source });
+      logger.info(`[EventBus] Publishing: ${event.type}`, { id: event.id, source: event.source });
     }
 
     this.stats.totalPublished++;
@@ -167,7 +168,7 @@ class EventBus {
     
     if (subscriptions.length === 0) {
       if (this.config.logEvents) {
-        console.log(`[EventBus] No subscribers for: ${event.type}`);
+        logger.info(`[EventBus] No subscribers for: ${event.type}`);
       }
       return;
     }
@@ -260,7 +261,7 @@ class EventBus {
     this.subscriptions.set(eventType, subs);
 
     if (this.config.logEvents) {
-      console.log(`[EventBus] Subscribed to: ${eventType}`, { subscriptionId: subscription.id });
+      logger.info(`[EventBus] Subscribed to: ${eventType}`, { subscriptionId: subscription.id });
     }
 
     return subscription.id;
@@ -303,7 +304,7 @@ class EventBus {
       if (idx !== -1) {
         subs.splice(idx, 1);
         if (this.config.logEvents) {
-          console.log(`[EventBus] Unsubscribed: ${subscriptionId} from ${eventType}`);
+          logger.info(`[EventBus] Unsubscribed: ${subscriptionId} from ${eventType}`);
         }
         return true;
       }
@@ -409,7 +410,7 @@ class EventBus {
       events = events.filter((e) => e.timestamp <= options.to!);
     }
 
-    console.log(`[EventBus] Replaying ${events.length} events...`);
+    logger.info(`[EventBus] Replaying ${events.length} events...`);
 
     for (const event of events) {
       await this.publish(event);
@@ -458,7 +459,7 @@ class EventBus {
     
     if (sub.options.deadLetterQueue) {
       this.deadLetterQueue.push(event);
-      console.log(`[EventBus] Event moved to DLQ: ${event.id}`);
+      logger.info(`[EventBus] Event moved to DLQ: ${event.id}`);
     }
   }
 

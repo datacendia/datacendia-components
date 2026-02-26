@@ -319,7 +319,7 @@ class LicensingService {
     this.licenses.set(license.id, license);
     this.licensesByKey.set(license.key, license);
 
-    console.log(`[Licensing] Created ${options.tier} license for org ${options.organizationId}`);
+    logger.info(`[Licensing] Created ${options.tier} license for org ${options.organizationId}`);
     return license;
   }
 
@@ -517,7 +517,7 @@ class LicensingService {
     license.usage.aiTokensLimit = newConfig.aiTokensPerMonth;
     license.updatedAt = new Date();
 
-    console.log(`[Licensing] Changed license ${licenseId} to tier ${newTier}`);
+    logger.info(`[Licensing] Changed license ${licenseId} to tier ${newTier}`);
     return license;
   }
 

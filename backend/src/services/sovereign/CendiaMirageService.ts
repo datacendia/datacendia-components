@@ -143,7 +143,7 @@ export class CendiaMirageService {
 
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
-    console.log(`[CendiaMirage] Deception Technology service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+    logger.info(`[CendiaMirage] Deception Technology service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
 
 
     this.loadFromDB().catch(() => {});

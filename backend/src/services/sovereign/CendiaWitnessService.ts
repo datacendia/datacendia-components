@@ -110,7 +110,7 @@ export class CendiaWitnessService {
 
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
-    console.log(`[CendiaWitness] Legal Observer service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+    logger.info(`[CendiaWitness] Legal Observer service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
 
 
     this.loadFromDB().catch(() => {});

@@ -13,6 +13,7 @@ import cors from 'cors';
 import rateLimit from 'express-rate-limit';
 import crypto from 'crypto';
 
+import { logger } from '../utils/logger.js';
 // Note: Install additional packages for production:
 // npm install express-slow-down hpp express-mongo-sanitize xss-clean
 
@@ -409,7 +410,7 @@ export function auditMiddleware(
     
     // Log security-relevant events
     if (req.path.includes('/auth/') || res.statusCode >= 400) {
-      console.log(`[AUDIT] ${auditEntry.timestamp.toISOString()} | ${auditEntry.method} ${auditEntry.resource} | ${auditEntry.statusCode} | ${auditEntry.ip} | ${auditEntry.duration}ms`);
+      logger.info(`[AUDIT] ${auditEntry.timestamp.toISOString()} | ${auditEntry.method} ${auditEntry.resource} | ${auditEntry.statusCode} | ${auditEntry.ip} | ${auditEntry.duration}ms`);
     }
     
     return originalSend.call(this, body);
@@ -544,7 +545,7 @@ export function isIPBlocked(ip: string): boolean {
  */
 export function blockIP(ip: string): void {
   blockedIPs.add(ip);
-  console.log(`[SECURITY] Blocked IP: ${ip}`);
+  logger.info(`[SECURITY] Blocked IP: ${ip}`);
 }
 
 /**

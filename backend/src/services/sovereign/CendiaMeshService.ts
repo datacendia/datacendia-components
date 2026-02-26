@@ -113,7 +113,7 @@ export class CendiaMeshService {
 
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
-    console.log(`[CendiaMesh] Encrypted Networking service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+    logger.info(`[CendiaMesh] Encrypted Networking service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
 
 
     this.loadFromDB().catch(() => {});

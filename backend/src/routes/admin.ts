@@ -8,6 +8,7 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
+import { z } from 'zod';
 import { 
   tenantService, 
   licenseService, 
@@ -23,6 +24,59 @@ import { devAuth, requireRole } from '../middleware/auth.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
+
+// ---- Zod Validation Schemas ----
+const createTenantSchema = z.object({
+  name: z.string().min(1, 'Tenant name is required').max(255),
+  slug: z.string().min(1).max(100).regex(/^[a-z0-9-]+$/, 'Slug must be lowercase alphanumeric with hyphens'),
+  plan: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']).optional().default('trial'),
+  metadata: z.record(z.unknown()).optional(),
+});
+
+const updateTenantSchema = z.object({
+  name: z.string().min(1).max(255).optional(),
+  plan: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']).optional(),
+  status: z.enum(['pending', 'trial', 'active', 'suspended', 'churned']).optional(),
+  metadata: z.record(z.unknown()).optional(),
+}).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
+
+const upgradePlanSchema = z.object({
+  plan: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']),
+});
+
+const suspendTenantSchema = z.object({
+  reason: z.string().min(1, 'Suspension reason is required').max(1000),
+});
+
+const extendLicenseSchema = z.object({
+  months: z.number().int().min(1).max(60),
+});
+
+const upgradeLicenseSchema = z.object({
+  type: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']),
+});
+
+const createUserSchema = z.object({
+  email: z.string().email('Email must be valid').min(1, 'Email is required').max(255),
+  password: z.string().min(8, 'Password must be at least 8 characters').max(128),
+  role: z.enum(['admin', 'user']).optional().default('user'),
+  metadata: z.record(z.unknown()).optional(),
+});
+
+const updateUserSchema = z.object({
+  email: z.string().email('Email must be valid').min(1, 'Email is required').max(255).optional(),
+  password: z.string().min(8, 'Password must be at least 8 characters').max(128).optional(),
+  role: z.enum(['admin', 'user']).optional(),
+  metadata: z.record(z.unknown()).optional(),
+}).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
+
+const updateFeatureSchema = z.object({
+  name: z.string().min(1).max(255).optional(),
+  description: z.string().max(1000).optional(),
+  type: z.enum(['service', 'agent', 'suite', 'pillar', 'tool', 'page']).optional(),
+  enabled: z.boolean().optional(),
+  status: z.enum(['active', 'disabled', 'maintenance', 'beta', 'deprecated']).optional(),
+}).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
 
 // All platform admin routes require authentication and admin-level role
 router.use(devAuth);
@@ -74,7 +128,7 @@ router.get('/tenants/metrics', async (_req: Request, res: Response) => {
 
 router.post('/tenants', async (req: Request, res: Response) => {
   try {
-    const { name, slug, plan, metadata } = req.body;
+    const { name, slug, plan, metadata } = createTenantSchema.parse(req.body);
     const tenant = await tenantService.createTenant({ name, slug, plan, metadata });
     res.status(201).json(tenant);
   } catch (error) {
@@ -98,7 +152,8 @@ router.get('/tenants/:id', async (req: Request, res: Response) => {
 
 router.patch('/tenants/:id', async (req: Request, res: Response) => {
   try {
-    const tenant = await tenantService.updateTenant(req.params.id, req.body);
+    const validated = updateTenantSchema.parse(req.body);
+    const tenant = await tenantService.updateTenant(req.params.id, validated);
     if (!tenant) {
       return res.status(404).json({ error: 'Tenant not found' });
     }
@@ -111,7 +166,7 @@ router.patch('/tenants/:id', async (req: Request, res: Response) => {
 
 router.post('/tenants/:id/upgrade', async (req: Request, res: Response) => {
   try {
-    const { plan } = req.body;
+    const { plan } = upgradePlanSchema.parse(req.body);
     const tenant = await tenantService.upgradePlan(req.params.id, plan);
     if (!tenant) {
       return res.status(404).json({ error: 'Tenant not found' });
@@ -125,7 +180,7 @@ router.post('/tenants/:id/upgrade', async (req: Request, res: Response) => {
 
 router.post('/tenants/:id/suspend', async (req: Request, res: Response) => {
   try {
-    const { reason } = req.body;
+    const { reason } = suspendTenantSchema.parse(req.body);
     const tenant = await tenantService.suspendTenant(req.params.id, reason);
     if (!tenant) {
       return res.status(404).json({ error: 'Tenant not found' });
@@ -180,7 +235,7 @@ router.get('/licenses/:id', async (req: Request, res: Response) => {
 
 router.post('/licenses/:id/extend', async (req: Request, res: Response) => {
   try {
-    const { months } = req.body;
+    const { months } = extendLicenseSchema.parse(req.body);
     const license = await licenseService.extendLicense(req.params.id, months);
     if (!license) {
       return res.status(404).json({ error: 'License not found' });
@@ -194,7 +249,7 @@ router.post('/licenses/:id/extend', async (req: Request, res: Response) => {
 
 router.post('/licenses/:id/upgrade', async (req: Request, res: Response) => {
   try {
-    const { type } = req.body;
+    const { type } = upgradeLicenseSchema.parse(req.body);
     const license = await licenseService.upgradeLicense(req.params.id, type);
     if (!license) {
       return res.status(404).json({ error: 'License not found' });
@@ -366,7 +421,8 @@ router.get('/features/:id', async (req: Request, res: Response) => {
 
 router.patch('/features/:id', async (req: Request, res: Response) => {
   try {
-    const feature = await featureControlService.updateFeature(req.params.id, req.body);
+    const validated = updateFeatureSchema.parse(req.body);
+    const feature = await featureControlService.updateFeature(req.params.id, validated);
     if (!feature) {
       return res.status(404).json({ error: 'Feature not found' });
     }
@@ -379,7 +435,7 @@ router.patch('/features/:id', async (req: Request, res: Response) => {
 
 router.post('/features/:id/toggle', async (req: Request, res: Response) => {
   try {
-    const { enabled } = req.body;
+    const { enabled } = z.object({ enabled: z.boolean() }).parse(req.body);
     const feature = await featureControlService.toggleFeature(req.params.id, enabled);
     if (!feature) {
       return res.status(404).json({ error: 'Feature not found' });

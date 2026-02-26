@@ -61,8 +61,11 @@ export class MFAService {
   private readonly encryptionKey: Buffer;
 
   constructor() {
-    const key = process.env.MFA_ENCRYPTION_KEY || process.env.JWT_SECRET || 'default-key-change-me';
-    this.encryptionKey = crypto.createHash('sha256').update(key).digest();
+    const key = process.env.MFA_ENCRYPTION_KEY || process.env.JWT_SECRET;
+    if (!key && process.env.NODE_ENV === 'production') {
+      throw new Error('MFA_ENCRYPTION_KEY or JWT_SECRET must be set in production');
+    }
+    this.encryptionKey = crypto.createHash('sha256').update(key || 'dev-only-mfa-key').digest();
   }
 
   /**

@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CASBIN POLICY ENGINE - Policy-as-Code for CendiaVeto™ & CendiaGovernance™
+// CASBIN POLICY ENGINE - Policy-as-Code for CendiaVetoÂ™ & CendiaGovernanceÂ™
 // =============================================================================
 // Enforces RBAC/ABAC policies for:
 // - Decision approvals and vetoes
@@ -16,6 +16,7 @@ import { newEnforcer, Enforcer } from 'casbin';
 import path from 'path';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { logger } from '../utils/logger.js';
 // Policy model definition (PERM: Policy, Effect, Request, Matchers)
 const MODEL_CONF = `
 [request_definition]
@@ -84,7 +85,7 @@ const ROLE_HIERARCHY = [
   ['council-member', 'viewer'],
 ];
 
-// Decision-specific policies for CendiaVeto™
+// Decision-specific policies for CendiaVetoÂ™
 export interface DecisionPolicy {
   decisionType: string;
   requiredApprovers: number;
@@ -174,7 +175,7 @@ class PolicyEngine {
       }
 
       this.isInitialized = true;
-      console.log('[PolicyEngine] Initialized with', DEFAULT_POLICIES.length, 'policies');
+      logger.info('[PolicyEngine] Initialized with', DEFAULT_POLICIES.length, 'policies');
     } catch (error: unknown) {
       console.error('[PolicyEngine] Initialization failed:', getErrorMessage(error));
       throw error;
@@ -193,7 +194,7 @@ class PolicyEngine {
       const allowed = await this.enforcer!.enforce(subject, object, action);
       
       // Log for audit
-      console.log(`[PolicyEngine] ${subject} ${action} ${object}: ${allowed ? 'ALLOW' : 'DENY'}`);
+      logger.info(`[PolicyEngine] ${subject} ${action} ${object}: ${allowed ? 'ALLOW' : 'DENY'}`);
       
       return allowed;
     } catch (error: unknown) {
@@ -271,7 +272,7 @@ class PolicyEngine {
   }
 
   // ===========================================================================
-  // DECISION-SPECIFIC POLICIES (CendiaVeto™)
+  // DECISION-SPECIFIC POLICIES (CendiaVetoÂ™)
   // ===========================================================================
 
   /**

@@ -94,7 +94,7 @@ class QueueService extends EventEmitter {
    */
   registerHandler<T>(type: JobType, handler: JobHandler<T>): void {
     this.handlers.set(type, handler as JobHandler);
-    console.log(`[Queue] Registered handler for ${type}`);
+    logger.info(`[Queue] Registered handler for ${type}`);
   }
 
   /**
@@ -144,7 +144,7 @@ class QueueService extends EventEmitter {
     queue.splice(insertIndex, 0, job);
     this.queues.set(type, queue);
 
-    console.log(`[Queue] Enqueued ${type} job ${job.id} with priority ${job.priority}`);
+    logger.info(`[Queue] Enqueued ${type} job ${job.id} with priority ${job.priority}`);
     this.emit('job:enqueued', job);
 
     return job;
@@ -203,7 +203,7 @@ class QueueService extends EventEmitter {
         queue.splice(index, 1);
         this.completed.push(job);
         this.emit('job:cancelled', job);
-        console.log(`[Queue] Cancelled job ${jobId}`);
+        logger.info(`[Queue] Cancelled job ${jobId}`);
         return true;
       }
     }
@@ -296,7 +296,7 @@ class QueueService extends EventEmitter {
           currentCounts[job.priority]++;
 
           this.emit('job:started', job);
-          console.log(`[Queue] Processing ${type} job ${job.id} (attempt ${job.attempts})`);
+          logger.info(`[Queue] Processing ${type} job ${job.id} (attempt ${job.attempts})`);
 
           // Process async
           this.executeJob(job, handler);
@@ -324,7 +324,7 @@ class QueueService extends EventEmitter {
       job.progress = 100;
       job.completedAt = new Date();
       
-      console.log(`[Queue] Completed job ${job.id}`);
+      logger.info(`[Queue] Completed job ${job.id}`);
       this.emit('job:completed', job);
     } catch (error) {
       console.error(`[Queue] Job ${job.id} failed:`, error);
@@ -339,7 +339,7 @@ class QueueService extends EventEmitter {
         queue.unshift(job); // Add to front of queue
         this.queues.set(job.type, queue);
         
-        console.log(`[Queue] Requeued job ${job.id} for retry`);
+        logger.info(`[Queue] Requeued job ${job.id} for retry`);
         this.emit('job:retry', job);
       } else {
         job.status = 'failed';
@@ -446,7 +446,7 @@ export const queueService = new QueueService();
 
 // Register default handlers
 queueService.registerHandler('document_processing', async (job, updateProgress) => {
-  console.log(`[DocumentProcessor] Processing document for org ${job.organizationId}`);
+  logger.info(`[DocumentProcessor] Processing document for org ${job.organizationId}`);
   updateProgress(10);
   
   // Process document
@@ -460,7 +460,7 @@ queueService.registerHandler('document_processing', async (job, updateProgress) 
 });
 
 queueService.registerHandler('graph_rebuild', async (job, updateProgress) => {
-  console.log(`[GraphRebuilder] Rebuilding graph for org ${job.organizationId}`);
+  logger.info(`[GraphRebuilder] Rebuilding graph for org ${job.organizationId}`);
   
   for (let i = 0; i <= 100; i += 10) {
     updateProgress(i);
@@ -471,7 +471,7 @@ queueService.registerHandler('graph_rebuild', async (job, updateProgress) => {
 });
 
 queueService.registerHandler('report_generation', async (job, updateProgress) => {
-  console.log(`[ReportGenerator] Generating report for org ${job.organizationId}`);
+  logger.info(`[ReportGenerator] Generating report for org ${job.organizationId}`);
   updateProgress(25);
   
   await new Promise(resolve => setTimeout(resolve, 3000));

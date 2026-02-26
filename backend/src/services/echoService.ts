@@ -543,8 +543,12 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
       nonce: sigNonce,
     });
     const dataHash = crypto.createHash('sha256').update(signaturePayload).digest('hex');
-    // HMAC uses a server-side secret; falls back to a derived key if env var not set
-    const hmacKey = process.env.ECHO_SIGNING_KEY || crypto.createHash('sha256').update('datacendia-echo-integrity-key').digest('hex');
+    // HMAC uses a server-side secret; throw in production if not configured
+    const echoEnvKey = process.env.ECHO_SIGNING_KEY;
+    if (!echoEnvKey && process.env.NODE_ENV === 'production') {
+      throw new Error('ECHO_SIGNING_KEY must be set in production');
+    }
+    const hmacKey = echoEnvKey || crypto.createHash('sha256').update('datacendia-echo-dev-key').digest('hex');
     const hmac = crypto.createHmac('sha256', hmacKey).update(dataHash + sigTimestamp + sigNonce).digest('hex');
     // Chain: hash of previous report signature for tamper-evident sequencing
     const previousOutcomes = await prisma.decision_outcomes.findMany({

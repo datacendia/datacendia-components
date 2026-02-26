@@ -89,7 +89,7 @@ export class CendiaMirrorService {
 
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
-    console.log(`[CendiaMirror] Digital Twin service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+    logger.info(`[CendiaMirror] Digital Twin service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
 
 
     this.loadFromDB().catch(() => {});

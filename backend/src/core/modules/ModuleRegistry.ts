@@ -11,6 +11,7 @@ import { Router } from 'express';
 import { eventBus } from '../events/EventBus';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -98,11 +99,11 @@ export class ModuleLogger {
   }
 
   debug(message: string, meta?: unknown): void {
-    console.debug(this.format('DEBUG', message, meta));
+    logger.debug(this.format('DEBUG', message, meta));
   }
 
   info(message: string, meta?: unknown): void {
-    console.log(this.format('INFO', message, meta));
+    logger.info(this.format('INFO', message, meta));
   }
 
   warn(message: string, meta?: unknown): void {
@@ -186,7 +187,7 @@ class ModuleRegistry {
       state: { status: 'registered' },
     });
 
-    console.log(`[ModuleRegistry] Registered module: ${definition.id} v${definition.version}`);
+    logger.info(`[ModuleRegistry] Registered module: ${definition.id} v${definition.version}`);
   }
 
   /**
@@ -212,7 +213,7 @@ class ModuleRegistry {
     }
 
     if (moduleInfo.state.status === 'loaded') {
-      console.log(`[ModuleRegistry] Module already loaded: ${moduleId}`);
+      logger.info(`[ModuleRegistry] Module already loaded: ${moduleId}`);
       return;
     }
 
@@ -222,7 +223,7 @@ class ModuleRegistry {
     if (definition.features) {
       for (const feature of definition.features) {
         if (!this.isFeatureEnabled(feature)) {
-          console.log(`[ModuleRegistry] Skipping module ${moduleId}: feature ${feature} not enabled`);
+          logger.info(`[ModuleRegistry] Skipping module ${moduleId}: feature ${feature} not enabled`);
           return;
         }
       }
@@ -242,7 +243,7 @@ class ModuleRegistry {
     }
 
     moduleInfo.state.status = 'loading';
-    console.log(`[ModuleRegistry] Loading module: ${moduleId}...`);
+    logger.info(`[ModuleRegistry] Loading module: ${moduleId}...`);
 
     try {
       // Create module context
@@ -289,7 +290,7 @@ class ModuleRegistry {
 
       moduleInfo.state.status = 'loaded';
       moduleInfo.state.loadedAt = new Date();
-      console.log(`[ModuleRegistry] Module loaded: ${moduleId}`);
+      logger.info(`[ModuleRegistry] Module loaded: ${moduleId}`);
 
     } catch (error: unknown) {
       moduleInfo.state.status = 'error';
@@ -303,7 +304,7 @@ class ModuleRegistry {
    * Load all registered modules in dependency order
    */
   async loadAll(): Promise<void> {
-    console.log(`[ModuleRegistry] Loading all modules...`);
+    logger.info(`[ModuleRegistry] Loading all modules...`);
 
     // Sort by priority
     const sorted = this.getSortedModules();
@@ -318,7 +319,7 @@ class ModuleRegistry {
     }
 
     const loaded = Array.from(this.modules.values()).filter(m => m.state.status === 'loaded');
-    console.log(`[ModuleRegistry] Loaded ${loaded.length}/${this.modules.size} modules`);
+    logger.info(`[ModuleRegistry] Loaded ${loaded.length}/${this.modules.size} modules`);
   }
 
   // ---------------------------------------------------------------------------
@@ -344,7 +345,7 @@ class ModuleRegistry {
     }
 
     moduleInfo.state.status = 'unloading';
-    console.log(`[ModuleRegistry] Unloading module: ${moduleId}...`);
+    logger.info(`[ModuleRegistry] Unloading module: ${moduleId}...`);
 
     try {
       const { definition, context } = moduleInfo;
@@ -365,7 +366,7 @@ class ModuleRegistry {
 
       moduleInfo.state.status = 'unloaded';
       moduleInfo.context = undefined;
-      console.log(`[ModuleRegistry] Module unloaded: ${moduleId}`);
+      logger.info(`[ModuleRegistry] Module unloaded: ${moduleId}`);
 
     } catch (error: unknown) {
       moduleInfo.state.status = 'error';
@@ -378,7 +379,7 @@ class ModuleRegistry {
    * Unload all modules in reverse dependency order
    */
   async unloadAll(): Promise<void> {
-    console.log(`[ModuleRegistry] Unloading all modules...`);
+    logger.info(`[ModuleRegistry] Unloading all modules...`);
 
     const sorted = this.getSortedModules().reverse();
 
@@ -401,7 +402,7 @@ class ModuleRegistry {
    * Reload a module (hot reload)
    */
   async reload(moduleId: string): Promise<void> {
-    console.log(`[ModuleRegistry] Reloading module: ${moduleId}...`);
+    logger.info(`[ModuleRegistry] Reloading module: ${moduleId}...`);
     await this.unload(moduleId);
     await this.load(moduleId);
   }

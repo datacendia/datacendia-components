@@ -119,7 +119,7 @@ export class CendiaLegacyService {
 
   constructor(prisma?: PrismaClient) {
     this.db = prisma || null;
-    console.log(`[CendiaLegacy] Knowledge Archive service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
+    logger.info(`[CendiaLegacy] Knowledge Archive service initialized (persistence: ${this.db ? 'PostgreSQL' : 'in-memory'})`);
 
 
     this.loadFromDB().catch(() => {});

@@ -7,13 +7,14 @@
 // =============================================================================
 // Extracts text and metadata from any enterprise document format:
 // PDF, DOCX, PPTX, XLSX, MSG, EML, RTF, HTML, XML, and 1000+ more
-// Powers: CendiaGnosis™ Instant Ingest feature
+// Powers: CendiaGnosisÂ™ Instant Ingest feature
 // =============================================================================
 
 import fetch from 'node-fetch';
 import FormData from 'form-data';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // Tika server configuration
 const TIKA_CONFIG = {
   url: process.env.TIKA_URL || 'http://localhost:9998',
@@ -90,7 +91,7 @@ class TikaService {
       } as any);
       
       this.isAvailable = response.ok;
-      console.log(`[Tika] Service ${this.isAvailable ? 'available' : 'unavailable'}`);
+      logger.info(`[Tika] Service ${this.isAvailable ? 'available' : 'unavailable'}`);
       return this.isAvailable;
     } catch (error) {
       this.isAvailable = false;

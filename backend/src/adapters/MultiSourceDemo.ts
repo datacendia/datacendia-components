@@ -10,6 +10,7 @@
 import { Pool } from 'pg';
 import { EventEmitter } from 'events';
 
+import { logger } from '../utils/logger.js';
 interface DataSource {
   id: string;
   name: string;
@@ -55,7 +56,7 @@ export class MultiSourceManager extends EventEmitter {
 
     this.sources.set(id, source);
     this.emit('source:connected', { id, name, type: 'postgresql' });
-    console.log(`[MultiSource] Connected to PostgreSQL: ${name}`);
+    logger.info(`[MultiSource] Connected to PostgreSQL: ${name}`);
   }
 
   async addAPISource(id: string, name: string, baseUrl: string, apiKey?: string): Promise<void> {
@@ -77,7 +78,7 @@ export class MultiSourceManager extends EventEmitter {
 
     this.sources.set(id, source);
     this.emit('source:connected', { id, name, type: 'api' });
-    console.log(`[MultiSource] Connected to API: ${name}`);
+    logger.info(`[MultiSource] Connected to API: ${name}`);
   }
 
   async addInMemorySource(id: string, name: string, data: Record<string, unknown[]>): Promise<void> {
@@ -94,7 +95,7 @@ export class MultiSourceManager extends EventEmitter {
 
     this.sources.set(id, source);
     this.emit('source:connected', { id, name, type: 'file' });
-    console.log(`[MultiSource] Connected to In-Memory: ${name}`);
+    logger.info(`[MultiSource] Connected to In-Memory: ${name}`);
   }
 
   // Real-time polling for changes

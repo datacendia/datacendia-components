@@ -3,7 +3,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// MINIO SERVICE - Sovereign Object Storage (CendiaVault™)
+// MINIO SERVICE - Sovereign Object Storage (CendiaVaultÂ™)
 // =============================================================================
 // S3-compatible object storage that runs locally. No cloud dependencies.
 // Use for: PDFs, Documents, Model files, Backups, Large binary data
@@ -14,6 +14,7 @@ import { Readable } from 'stream';
 import * as crypto from 'crypto';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // MinIO connection config
 const MINIO_CONFIG = {
   endPoint: process.env.MINIO_ENDPOINT || 'localhost',
@@ -25,7 +26,7 @@ const MINIO_CONFIG = {
 
 // Bucket names
 export const BUCKETS = {
-  DOCUMENTS: 'cendia-documents',      // PDFs, Office docs for CendiaGnosis™
+  DOCUMENTS: 'cendia-documents',      // PDFs, Office docs for CendiaGnosisÂ™
   COUNCIL_DOCUMENTS: 'council-documents',
   MODELS: 'cendia-models',            // AI model files
   BACKUPS: 'cendia-backups',          // Database backups
@@ -80,14 +81,14 @@ class MinioService {
   async initialize(): Promise<void> {
     if (this.isInitialized) return;
 
-    console.log('[MinIO] Initializing buckets...');
+    logger.info('[MinIO] Initializing buckets...');
 
     for (const bucketName of Object.values(BUCKETS)) {
       try {
         const exists = await this.client.bucketExists(bucketName);
         if (!exists) {
           await this.client.makeBucket(bucketName);
-          console.log(`[MinIO] Created bucket: ${bucketName}`);
+          logger.info(`[MinIO] Created bucket: ${bucketName}`);
 
           // Set bucket policy for uploads bucket (public read for avatars)
           if (bucketName === BUCKETS.AVATARS) {
@@ -100,7 +101,7 @@ class MinioService {
     }
 
     this.isInitialized = true;
-    console.log('[MinIO] Initialization complete');
+    logger.info('[MinIO] Initialization complete');
   }
 
   /**
@@ -394,7 +395,7 @@ class MinioService {
   // ===========================================================================
 
   /**
-   * Upload a document for CendiaGnosis™
+   * Upload a document for CendiaGnosisÂ™
    */
   async uploadDocument(
     organizationId: string,
@@ -416,7 +417,7 @@ class MinioService {
   }
 
   /**
-   * Upload a court export for CendiaWitness™
+   * Upload a court export for CendiaWitnessÂ™
    */
   async uploadExport(
     organizationId: string,

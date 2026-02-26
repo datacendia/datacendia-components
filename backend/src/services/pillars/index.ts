@@ -25,6 +25,7 @@ import { guardService } from './GuardService.js';
 import { ethicsService } from './EthicsService.js';
 import { agentsService } from './AgentsService.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // PILLAR SERVICES FACADE
 // =============================================================================
@@ -44,13 +45,13 @@ export const pillarServices = {
  * Initialize all pillar services for an organization
  */
 export async function initializePillarsForOrg(organizationId: string): Promise<void> {
-  console.log(`Initializing pillars for organization: ${organizationId}`);
+  logger.info(`Initializing pillars for organization: ${organizationId}`);
   
   // Check if data already seeded
   const hasMetrics = await helmService.hasMetricsForOrg(organizationId);
   const hasAgents = await agentsService.hasAgentsForOrg(organizationId);
 
-  console.log(`Pillars initialized for organization: ${organizationId}`);
+  logger.info(`Pillars initialized for organization: ${organizationId}`);
 }
 
 export default pillarServices;

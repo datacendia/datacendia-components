@@ -15,6 +15,7 @@
 import { druidService, DRUID_DATASOURCES, DruidQueryResult } from './DruidService';
 import { clickhouseService, CLICKHOUSE_TABLES, ClickHouseQueryResult } from './ClickHouseService';
 
+import { logger } from '../../utils/logger.js';
 // Routing decision reasons
 export type RoutingReason = 
   | 'streaming_ingestion'      // Real-time data â†’ Druid
@@ -84,7 +85,7 @@ class AnalyticsRouter {
     this.clickhouseAvailable = clickhouseHealth.status === 'fulfilled' && clickhouseHealth.value;
     this.lastHealthCheck = now;
 
-    console.log(`[AnalyticsRouter] Health: Druid=${this.druidAvailable}, ClickHouse=${this.clickhouseAvailable}`);
+    logger.info(`[AnalyticsRouter] Health: Druid=${this.druidAvailable}, ClickHouse=${this.clickhouseAvailable}`);
 
     return { druid: this.druidAvailable, clickhouse: this.clickhouseAvailable };
   }

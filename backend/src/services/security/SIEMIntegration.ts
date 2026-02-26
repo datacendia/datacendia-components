@@ -117,7 +117,7 @@ class SIEMIntegrationService {
     this.configs.set(fullConfig.id, fullConfig);
     this.eventBuffer.set(fullConfig.id, []);
 
-    console.log(`[SIEM] Registered ${config.provider} integration: ${config.name}`);
+    logger.info(`[SIEM] Registered ${config.provider} integration: ${config.name}`);
     return fullConfig;
   }
 
@@ -358,7 +358,7 @@ class SIEMIntegrationService {
       throw new Error(`SIEM delivery failed: ${response.status} ${response.statusText}`);
     }
 
-    console.log(`[SIEM] Delivered ${events.length} events to ${config.provider}`);
+    logger.info(`[SIEM] Delivered ${events.length} events to ${config.provider}`);
 
     return {
       success: true,

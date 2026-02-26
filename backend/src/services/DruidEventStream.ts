@@ -270,7 +270,7 @@ class DruidEventStream extends EventEmitter {
    */
   setEnabled(enabled: boolean) {
     this.isEnabled = enabled;
-    console.log(`[DruidEventStream] Event streaming ${enabled ? 'enabled' : 'disabled'}`);
+    logger.info(`[DruidEventStream] Event streaming ${enabled ? 'enabled' : 'disabled'}`);
   }
 
   /**
@@ -282,7 +282,7 @@ class DruidEventStream extends EventEmitter {
       this.batchInterval = null;
     }
     await this.flushAllBatches();
-    console.log('[DruidEventStream] Shutdown complete');
+    logger.info('[DruidEventStream] Shutdown complete');
   }
 
   /**

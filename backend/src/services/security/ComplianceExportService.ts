@@ -16,6 +16,7 @@ import crypto from 'crypto';
 import { AuditEvent } from '../../security/audit.service.js';
 import { immutableAuditLedger, IntegrityProof } from './ImmutableAuditLedger.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -488,7 +489,7 @@ class ComplianceExportService {
       outcome: 'success',
     });
 
-    console.log(`[ComplianceExport] Generated ${request.framework.toUpperCase()} report: ${exportId}`);
+    logger.info(`[ComplianceExport] Generated ${request.framework.toUpperCase()} report: ${exportId}`);
     return result;
   }
 

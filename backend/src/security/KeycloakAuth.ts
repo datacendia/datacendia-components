@@ -12,6 +12,7 @@ import Keycloak from 'keycloak-connect';
 import session from 'express-session';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { logger } from '../utils/logger.js';
 // Keycloak configuration
 const KEYCLOAK_CONFIG = {
   realm: process.env.KEYCLOAK_REALM || 'cendia',
@@ -85,7 +86,7 @@ export function initKeycloak(): Keycloak.Keycloak {
   };
 
   keycloak = new Keycloak({ store: memoryStore }, keycloakConfig as any);
-  console.log('[Keycloak] Initialized for realm:', KEYCLOAK_CONFIG.realm);
+  logger.info('[Keycloak] Initialized for realm:', KEYCLOAK_CONFIG.realm);
   
   return keycloak;
 }
@@ -95,7 +96,7 @@ export function initKeycloak(): Keycloak.Keycloak {
  */
 export function getSessionMiddleware() {
   return session({
-    secret: process.env.SESSION_SECRET || 'cendia-session-secret-change-in-production',
+    secret: (() => { const s = process.env.SESSION_SECRET; if (!s && process.env.NODE_ENV === 'production') { throw new Error('SESSION_SECRET must be set in production'); } return s || 'dev-only-session-secret'; })(),
     resave: false,
     saveUninitialized: true,
     store: memoryStore,
@@ -244,14 +245,14 @@ export function hasRole(req: AuthenticatedRequest, role: CendiaRole | CendiaRole
 }
 
 /**
- * Check if user can perform action (for CendiaVeto™ integration)
+ * Check if user can perform action (for CendiaVetoÂ™ integration)
  */
 export function canVeto(req: AuthenticatedRequest): boolean {
   return hasRole(req, ['admin', 'veto-authority']);
 }
 
 /**
- * Check if user can access Council (for CendiaCouncil™ integration)
+ * Check if user can access Council (for CendiaCouncilÂ™ integration)
  */
 export function canAccessCouncil(req: AuthenticatedRequest): boolean {
   return hasRole(req, ['admin', 'analyst', 'council-member']);

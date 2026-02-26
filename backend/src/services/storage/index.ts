@@ -52,11 +52,12 @@ import { druidService } from './DruidService';
 import { minioService } from './MinioService';
 import { vectorService } from './VectorService';
 
+import { logger } from '../../utils/logger.js';
 /**
  * Initialize all sovereign storage services
  */
 export async function initializeSovereignServices(): Promise<void> {
-  console.log('[Sovereign] Initializing storage services...');
+  logger.info('[Sovereign] Initializing storage services...');
 
   try {
     // Initialize in parallel where possible
@@ -69,7 +70,7 @@ export async function initializeSovereignServices(): Promise<void> {
     // Druid checks its own availability
     await druidService.checkAvailability();
 
-    console.log('[Sovereign] All storage services initialized successfully');
+    logger.info('[Sovereign] All storage services initialized successfully');
   } catch (error) {
     console.error('[Sovereign] Failed to initialize some services:', error);
     // Don't throw - allow app to start with partial functionality
@@ -80,11 +81,11 @@ export async function initializeSovereignServices(): Promise<void> {
  * Graceful shutdown of all services
  */
 export async function shutdownSovereignServices(): Promise<void> {
-  console.log('[Sovereign] Shutting down storage services...');
+  logger.info('[Sovereign] Shutting down storage services...');
 
   try {
     await agentQueueService.shutdown();
-    console.log('[Sovereign] All storage services shut down');
+    logger.info('[Sovereign] All storage services shut down');
   } catch (error) {
     console.error('[Sovereign] Error during shutdown:', error);
   }

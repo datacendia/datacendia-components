@@ -54,6 +54,7 @@
 import crypto from 'crypto';
 import { AuditEvent } from '../../security/audit.service.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // CONSTANTS
 // =============================================================================
@@ -290,7 +291,7 @@ class ImmutableAuditLedger {
     const envKey = process.env['AUDIT_SIGNING_KEY'];
     if (envKey && envKey.length >= 32) {
       this.signingKey = envKey;
-      console.log('[ImmutableLedger] Using signing key from environment');
+      logger.info('[ImmutableLedger] Using signing key from environment');
     } else {
       this.signingKey = crypto.randomBytes(32).toString('hex');
       console.warn('[ImmutableLedger] Generated ephemeral signing key - configure AUDIT_SIGNING_KEY for production');
@@ -304,7 +305,7 @@ class ImmutableAuditLedger {
       this.startBackgroundVerification();
     }
     
-    console.log(`[ImmutableLedger] Initialized v${LEDGER_VERSION} with block size ${this.BLOCK_SIZE}`);
+    logger.info(`[ImmutableLedger] Initialized v${LEDGER_VERSION} with block size ${this.BLOCK_SIZE}`);
   }
   
   /**
@@ -324,7 +325,7 @@ class ImmutableAuditLedger {
       }
     }, this.config.verificationIntervalMs);
     
-    console.log(`[ImmutableLedger] Background verification enabled (interval: ${this.config.verificationIntervalMs}ms)`);
+    logger.info(`[ImmutableLedger] Background verification enabled (interval: ${this.config.verificationIntervalMs}ms)`);
   }
   
   /**
@@ -335,7 +336,7 @@ class ImmutableAuditLedger {
     if (this.verificationInterval) {
       clearInterval(this.verificationInterval);
       this.verificationInterval = null;
-      console.log('[ImmutableLedger] Background verification stopped');
+      logger.info('[ImmutableLedger] Background verification stopped');
     }
   }
 
@@ -432,7 +433,7 @@ class ImmutableAuditLedger {
       await this.createBlock();
     }
 
-    console.log(`[ImmutableLedger] Entry ${entry.index} appended: ${event.eventType}`);
+    logger.info(`[ImmutableLedger] Entry ${entry.index} appended: ${event.eventType}`);
     return entry;
   }
 
@@ -467,7 +468,7 @@ class ImmutableAuditLedger {
       .digest('hex');
 
     this.blocks.push(block);
-    console.log(`[ImmutableLedger] Block ${block.blockNumber} created with ${blockEntries.length} entries`);
+    logger.info(`[ImmutableLedger] Block ${block.blockNumber} created with ${blockEntries.length} entries`);
     return block;
   }
 

@@ -63,7 +63,7 @@ class CircuitBreaker {
       // Cooldown expired, try half-open
       this.state = 'HALF_OPEN';
       this.successes = 0;
-      console.log(`[CircuitBreaker:${this.config.name}] Transitioning to HALF_OPEN`);
+      logger.info(`[CircuitBreaker:${this.config.name}] Transitioning to HALF_OPEN`);
     }
 
     try {
@@ -88,7 +88,7 @@ class CircuitBreaker {
       this.successes++;
       if (this.successes >= this.config.halfOpenMaxAttempts) {
         this.state = 'CLOSED';
-        console.log(`[CircuitBreaker:${this.config.name}] Recovered - CLOSED`);
+        logger.info(`[CircuitBreaker:${this.config.name}] Recovered - CLOSED`);
       }
     }
   }
@@ -128,14 +128,14 @@ class CircuitBreaker {
     this.failures = 0;
     this.successes = 0;
     this.nextAttempt = null;
-    console.log(`[CircuitBreaker:${this.config.name}] Manually reset to CLOSED`);
+    logger.info(`[CircuitBreaker:${this.config.name}] Manually reset to CLOSED`);
   }
 
   // Force open (for maintenance)
   trip(): void {
     this.state = 'OPEN';
     this.nextAttempt = new Date(Date.now() + this.config.resetTimeout);
-    console.log(`[CircuitBreaker:${this.config.name}] Manually tripped to OPEN`);
+    logger.info(`[CircuitBreaker:${this.config.name}] Manually tripped to OPEN`);
   }
 }
 
@@ -172,6 +172,7 @@ export function getAllCircuitBreakerStats(): Record<string, CircuitBreakerStats>
 // Neo4j with circuit breaker
 import { getCircuitBreaker } from './circuitBreaker';
 
+import { logger } from './logger.js';
 const neo4jBreaker = getCircuitBreaker('neo4j');
 
 async function queryNeo4j(cypher: string) {

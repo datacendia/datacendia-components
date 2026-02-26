@@ -14,6 +14,7 @@ import { redis } from '../../config/redis.js';
 import { neo4j } from '../../config/neo4j.js';
 import { getErrorMessage } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // DATABASE SERVICE
 // =============================================================================
@@ -381,7 +382,7 @@ class PulseService extends BaseService {
 // =============================================================================
 
 export async function registerPlatformServices(): Promise<void> {
-  console.log('[Platform] Registering platform services...');
+  logger.info('[Platform] Registering platform services...');
 
   // Core infrastructure services
   const dbService = new DatabaseService();
@@ -421,7 +422,7 @@ export async function registerPlatformServices(): Promise<void> {
   serviceRegistry.register('pulse', pulseService, { priority: 10 });
   await pulseService.start();
 
-  console.log(`[Platform] Registered ${serviceRegistry.getServiceCount()} services`);
+  logger.info(`[Platform] Registered ${serviceRegistry.getServiceCount()} services`);
 }
 
 export {

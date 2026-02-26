@@ -89,6 +89,7 @@ export const sdk = new NodeSDK({
 
 import { metrics, Counter, Histogram, UpDownCounter } from '@opentelemetry/api';
 
+import { logger } from '../utils/logger.js';
 const meter = metrics.getMeter(SERVICE_NAME, SERVICE_VERSION);
 
 // Decision metrics
@@ -201,10 +202,10 @@ export const activeUsers = meter.createUpDownCounter('datacendia.users.active', 
 export async function startTelemetry(): Promise<void> {
   try {
     await sdk.start();
-    console.log('🔭 OpenTelemetry instrumentation started');
-    console.log(`   - Traces: ${OTLP_ENDPOINT}/v1/traces`);
-    console.log(`   - Metrics: ${OTLP_ENDPOINT}/v1/metrics`);
-    console.log(`   - Prometheus: http://localhost:${PROMETHEUS_PORT}/metrics`);
+    logger.info('🔭 OpenTelemetry instrumentation started');
+    logger.info(`   - Traces: ${OTLP_ENDPOINT}/v1/traces`);
+    logger.info(`   - Metrics: ${OTLP_ENDPOINT}/v1/metrics`);
+    logger.info(`   - Prometheus: http://localhost:${PROMETHEUS_PORT}/metrics`);
   } catch (error) {
     console.error('Failed to start OpenTelemetry:', error);
   }
@@ -213,7 +214,7 @@ export async function startTelemetry(): Promise<void> {
 export async function stopTelemetry(): Promise<void> {
   try {
     await sdk.shutdown();
-    console.log('🔭 OpenTelemetry instrumentation stopped');
+    logger.info('🔭 OpenTelemetry instrumentation stopped');
   } catch (error) {
     console.error('Failed to stop OpenTelemetry:', error);
   }

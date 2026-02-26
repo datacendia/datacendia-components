@@ -26,6 +26,7 @@
 
 import { Router, Request, Response, NextFunction } from 'express';
 import {
+import { logger } from '../utils/logger.js';
   adapterManager,
   adapterRegistry,
   RiskTier,
@@ -166,7 +167,7 @@ router.post('/create', requireAdmin, async (req, res) => {
     const adapter = adapterManager.create(type, config || {});
     
     // Log creation for audit
-    console.log(`[AUDIT] Adapter created: ${adapter['config'].id} (type: ${type}) by ${req.headers['x-user-id'] || 'unknown'}`);
+    logger.info(`[AUDIT] Adapter created: ${adapter['config'].id} (type: ${type}) by ${req.headers['x-user-id'] || 'unknown'}`);
 
     res.status(201).json({
       success: true,
@@ -319,7 +320,7 @@ router.delete('/:id', requireAdmin, async (req, res) => {
     await adapterManager.destroy(req.params.id);
 
     // Log destruction for audit
-    console.log(`[AUDIT] Adapter destroyed: ${req.params.id} by ${req.headers['x-user-id'] || 'unknown'}`);
+    logger.info(`[AUDIT] Adapter destroyed: ${req.params.id} by ${req.headers['x-user-id'] || 'unknown'}`);
 
     res.json({
       success: true,

@@ -15,6 +15,7 @@ import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-http';
 import { SpanStatusCode, trace, SpanKind } from '@opentelemetry/api';
 import { getErrorMessage, ensureError } from '../utils/errors.js';
 
+import { logger } from '../utils/logger.js';
 // Tracing configuration
 const TRACING_CONFIG = {
   serviceName: process.env['OTEL_SERVICE_NAME'] || 'cendia-backend',
@@ -29,7 +30,7 @@ let sdk: NodeSDK | null = null;
  */
 export function initTracing(): void {
   if (!TRACING_CONFIG.enabled) {
-    console.log('[Tracing] Disabled by configuration');
+    logger.info('[Tracing] Disabled by configuration');
     return;
   }
 
@@ -53,12 +54,12 @@ export function initTracing(): void {
     });
 
     sdk.start();
-    console.log('[Tracing] OpenTelemetry initialized, exporting to:', TRACING_CONFIG.tempoUrl);
+    logger.info('[Tracing] OpenTelemetry initialized, exporting to:', TRACING_CONFIG.tempoUrl);
 
     // Graceful shutdown
     process.on('SIGTERM', () => {
       sdk?.shutdown()
-        .then(() => console.log('[Tracing] Shutdown complete'))
+        .then(() => logger.info('[Tracing] Shutdown complete'))
         .catch((err) => console.error('[Tracing] Shutdown error:', err));
     });
   } catch (error: unknown) {

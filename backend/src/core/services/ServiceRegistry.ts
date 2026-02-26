@@ -10,6 +10,7 @@
 import { BaseService, ServiceHealth, ServiceMetrics, ServiceState } from './BaseService';
 import { getErrorMessage, ensureError } from '../../utils/errors.js';
 
+import { logger } from '../../utils/logger.js';
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -80,7 +81,7 @@ class ServiceRegistry {
       priority: options.priority ?? 100,
     });
 
-    console.log(`[ServiceRegistry] Registered service: ${name}`);
+    logger.info(`[ServiceRegistry] Registered service: ${name}`);
   }
 
   /**
@@ -127,7 +128,7 @@ class ServiceRegistry {
         priority: options.priority ?? 100,
       });
 
-      console.log(`[ServiceRegistry] Service started: ${name}`);
+      logger.info(`[ServiceRegistry] Service started: ${name}`);
       
       return service;
     } finally {
@@ -156,7 +157,7 @@ class ServiceRegistry {
 
     await registration.service.stop();
     this.services.delete(name);
-    console.log(`[ServiceRegistry] Unregistered service: ${name}`);
+    logger.info(`[ServiceRegistry] Unregistered service: ${name}`);
   }
 
   // ---------------------------------------------------------------------------
@@ -212,11 +213,11 @@ class ServiceRegistry {
    */
   async initializeAll(): Promise<void> {
     if (this.initialized) {
-      console.log('[ServiceRegistry] Already initialized');
+      logger.info('[ServiceRegistry] Already initialized');
       return;
     }
 
-    console.log('[ServiceRegistry] Initializing all services...');
+    logger.info('[ServiceRegistry] Initializing all services...');
 
     // Sort services by priority (lower first)
     const sorted = this.getSortedServices();
@@ -225,7 +226,7 @@ class ServiceRegistry {
       if (!registration.service.isReady()) {
         try {
           await registration.service.start();
-          console.log(`[ServiceRegistry] Started: ${name}`);
+          logger.info(`[ServiceRegistry] Started: ${name}`);
         } catch (error: unknown) {
           console.error(`[ServiceRegistry] Failed to start ${name}:`, getErrorMessage(error));
           throw error;
@@ -234,7 +235,7 @@ class ServiceRegistry {
     }
 
     this.initialized = true;
-    console.log(`[ServiceRegistry] All ${this.services.size} services initialized`);
+    logger.info(`[ServiceRegistry] All ${this.services.size} services initialized`);
   }
 
   /**
@@ -250,7 +251,7 @@ class ServiceRegistry {
   }
 
   private async performShutdown(): Promise<void> {
-    console.log('[ServiceRegistry] Shutting down all services...');
+    logger.info('[ServiceRegistry] Shutting down all services...');
 
     // Sort services by priority (higher first for shutdown)
     const sorted = this.getSortedServices().reverse();
@@ -259,7 +260,7 @@ class ServiceRegistry {
 
     for (const [name, registration] of sorted) {
       try {
-        console.log(`[ServiceRegistry] Stopping: ${name}`);
+        logger.info(`[ServiceRegistry] Stopping: ${name}`);
         await registration.service.stop();
       } catch (error: unknown) {
         console.error(`[ServiceRegistry] Error stopping ${name}:`, getErrorMessage(error));
@@ -269,7 +270,7 @@ class ServiceRegistry {
 
     this.services.clear();
     this.initialized = false;
-    console.log('[ServiceRegistry] All services stopped');
+    logger.info('[ServiceRegistry] All services stopped');
 
     if (errors.length > 0) {
       console.error('[ServiceRegistry] Errors during shutdown:', errors);
@@ -380,7 +381,7 @@ class ServiceRegistry {
 
     for (const signal of signals) {
       process.on(signal, async () => {
-        console.log(`\n[ServiceRegistry] Received ${signal}, initiating graceful shutdown...`);
+        logger.info(`\n[ServiceRegistry] Received ${signal}, initiating graceful shutdown...`);
         try {
           await this.shutdownAll();
           process.exit(0);
