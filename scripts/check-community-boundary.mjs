@@ -236,6 +236,6 @@ if (violations.length === 0) {
   console.log(`These imports must be removed or made conditional before the`);
   console.log(`community edition can build independently.`);
   console.log('');
-  // Exit 0 for now — informational only. Change to exit(1) to make it blocking.
-  process.exit(0);
+  // Exit 1 to block CI — boundary must be clean for community build.
+  process.exit(1);
 }
