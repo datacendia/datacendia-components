@@ -62,7 +62,22 @@ Datacendia is a decision intelligence platform where multiple AI agents *deliber
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Try it now (zero config)
+
+```bash
+# Clone and launch — no .env, no setup, pre-seeded demo data
+git clone https://github.com/datacendia/datacendia-components.git
+cd datacendia-components
+docker compose -f docker-compose.demo.yml up
+```
+
+Open **http://localhost:5173** → log in as `sarah.chen@acme.demo` (dev auth bypass, no password).
+
+You'll see a pre-seeded Acme Corporation with 5 users, 6 Council agents, 5 deliberations (completed + in-progress), 8 decisions, 12 months of metrics, and a full audit trail. ~6GB RAM required.
+
+### Development Setup
+
+#### Prerequisites
 
 - **Node.js** 20.x or later
 - **Docker** & Docker Compose
@@ -71,8 +86,6 @@ Datacendia is a decision intelligence platform where multiple AI agents *deliber
 - **Neo4j** 5+ (for knowledge graph)
 - **Ollama** (for local AI/LLM — or Triton/NIM via `INFERENCE_PROVIDER`)
 - **NVIDIA GPU** (optional — required for RAPIDS, Triton, Confidential Computing)
-
-### Development Setup
 
 ```bash
 # Clone the repository

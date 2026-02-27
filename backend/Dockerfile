@@ -36,9 +36,10 @@ COPY --from=builder /app/src ./src
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/package*.json ./
 
-# Copy entrypoint script
+# Copy entrypoint scripts
 COPY docker-entrypoint.sh ./
-RUN chmod +x docker-entrypoint.sh
+COPY docker-entrypoint.demo.sh ./
+RUN chmod +x docker-entrypoint.sh docker-entrypoint.demo.sh
 
 # Set ownership
 RUN chown -R nodejs:nodejs /app

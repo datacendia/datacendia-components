@@ -5,6 +5,7 @@ Thank you for your interest in contributing to Datacendia! This document provide
 ## 📋 Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
+- [Community vs Enterprise Boundary](#community-vs-enterprise-boundary)
 - [Getting Started](#getting-started)
 - [Development Workflow](#development-workflow)
 - [Pull Request Process](#pull-request-process)
@@ -15,6 +16,16 @@ Thank you for your interest in contributing to Datacendia! This document provide
 ## Code of Conduct
 
 We are committed to providing a welcoming and inclusive experience for everyone. Please be respectful and professional in all interactions.
+
+## Community vs Enterprise Boundary
+
+Datacendia uses an **open-core model**. Before writing code, check [`COMMUNITY.md`](COMMUNITY.md) to understand which parts are open source and which require a commercial license.
+
+**Quick rules:**
+- **Community (PRs welcome):** Council Engine (`council/`), Decision Ledger, inference layer, basic Trust Layer, infrastructure integrations (Kafka, Temporal, OPA, etc.), frontend, vertical framework
+- **Enterprise (do not extend):** `sovereign/`, `enterprise/`, premium `Cendia*Service.ts` products, `collapse/`, `sgas/`, `dcii/`
+
+If your PR touches Enterprise code, it will be flagged during review. If you want to build something that *depends on* Enterprise code, consider building it as a plugin or extension instead — open an issue to discuss the approach first.
 
 ## Getting Started
 
@@ -133,6 +144,7 @@ test(chronos): add unit tests for time-travel feature
 - [ ] Tests added/updated for new functionality
 - [ ] Documentation updated if needed
 - [ ] No merge conflicts with main
+- [ ] Does not extend Enterprise-only code (see [COMMUNITY.md](COMMUNITY.md))
 
 ### Review Process
 
