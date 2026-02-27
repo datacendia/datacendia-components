@@ -20,7 +20,8 @@
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
 import { cendiaRecallService } from '../CendiaRecallService.js';
-import { cendiaPredictService } from '../CendiaPredictService.js';
+// cendiaPredictService loaded dynamically to avoid compile-time dependency on enterprise module
+// See getExpressDecisionInsights() for the dynamic import
 
 // =============================================================================
 // TYPES
@@ -174,6 +175,7 @@ class EchoExpressService {
     // Enrich with CendiaPredict forward-looking risk context
     let predictIntelligence: ExpressDecisionInsights['predictIntelligence'];
     try {
+      const { cendiaPredictService } = await import('../CendiaPredictService.js');
       const predictDashboard = await cendiaPredictService.getDashboard(organizationId);
       if (predictDashboard.totalAssessments > 0) {
         predictIntelligence = {

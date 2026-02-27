@@ -31,6 +31,8 @@ export * from './healthcare/HealthcareVertical.js';
 export * as healthcareCouncilModes from './healthcare/HealthcareCouncilModes.js';
 
 // Insurance Vertical (Target: 80%)
+// Note: Static re-exports kept — verticals/insurance/ is community code.
+// The enterprise services/insurance/ (per-decision liability) is a separate directory.
 export * from './insurance/InsuranceVertical.js';
 export * as insuranceCouncilModes from './insurance/InsuranceCouncilModes.js';
 
@@ -78,7 +80,7 @@ export * from './internal/DatacendiaInternalService.js';
 // Re-export default instances
 export { default as financialVertical } from './financial/FinancialVertical.js';
 export { default as healthcareVertical } from './healthcare/HealthcareVertical.js';
-export { default as insuranceVertical } from './insurance/InsuranceVertical.js';
+export { default as insuranceVertical } from './insurance/InsuranceVertical.js';  // verticals/insurance/ is community code
 export { default as energyVertical } from './energy/EnergyVertical.js';
 export { default as verticalSentinelService } from './meta/VerticalSentinelService.js';
 export { default as datacendiaInternalService } from './internal/DatacendiaInternalService.js';

@@ -17,7 +17,8 @@
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import crypto from 'crypto';
-import { iissService } from '../dcii/IISSService.js';
+// iissService loaded dynamically to avoid compile-time dependency on enterprise dcii/ module
+// See buildIISSScores() for the dynamic import
 
 // =============================================================================
 // TYPES
@@ -671,6 +672,7 @@ export class RegulatorsReceiptService {
   private async buildIISSScores(organizationId: string, initiatedBy: string): Promise<RegulatorsReceipt['iissScores']> {
     try {
       // Try to get latest existing score first
+      const { iissService } = await import('../dcii/IISSService.js');
       let score = iissService.getLatestScore(organizationId);
       if (!score) {
         // Calculate fresh score
@@ -924,11 +926,12 @@ export class RegulatorsReceiptService {
 
   private async buildDriftAnalysis(organizationId: string, initiatedBy: string): Promise<ReceiptDriftAnalysis | undefined> {
     try {
-      // 1. Get current IISS scores
-      let currentScore = iissService.getLatestScore(organizationId);
+      // 1. Get current IISS scores (dynamic import — enterprise module)
+      const { iissService: iissSvc } = await import('../dcii/IISSService.js');
+      let currentScore = iissSvc.getLatestScore(organizationId);
       if (!currentScore) {
         const org = await prisma.organizations.findUnique({ where: { id: organizationId } });
-        currentScore = await iissService.calculateScore(organizationId, org?.name || 'Unknown', initiatedBy);
+        currentScore = await iissSvc.calculateScore(organizationId, org?.name || 'Unknown', initiatedBy);
       }
 
       const currentScores = currentScore.dimensions.map(d => ({

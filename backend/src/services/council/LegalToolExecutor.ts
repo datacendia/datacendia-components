@@ -14,8 +14,32 @@
  * - Search SEC filings
  */
 
-import { legalResearchService, LegalSearchResult } from '../legal/LegalResearchService.js';
 import { ToolCallTracer } from './CouncilDecisionPacketService.js';
+
+// LegalSearchResult defined locally to avoid compile-time dependency on enterprise legal/ module
+export interface LegalSearchResult {
+  title: string;
+  citation?: string;
+  source: string;
+  summary?: string;
+  url?: string;
+  date?: string;
+  relevanceScore?: number;
+  [key: string]: unknown;
+}
+
+/**
+ * Dynamically load the enterprise LegalResearchService.
+ * Returns null if the module is not available (community edition).
+ */
+async function getLegalResearchService(): Promise<any | null> {
+  try {
+    const mod = await import('../legal/LegalResearchService.js');
+    return mod.legalResearchService;
+  } catch {
+    return null;
+  }
+}
 
 export interface LegalToolDefinition {
   name: string;
@@ -230,7 +254,21 @@ export async function executeLegalTool(
   const callId = tracer?.startCall(toolName, params);
 
   try {
-    const result = await legalResearchService.executeTool(toolName, params);
+    const service = await getLegalResearchService();
+    if (!service) {
+      const durationMs = Date.now() - startTime;
+      return {
+        success: false,
+        toolName,
+        results: undefined,
+        formatted: undefined,
+        error: 'Legal research tools require Enterprise Edition. See COMMUNITY.md for details.',
+        durationMs,
+        source: 'unavailable',
+      };
+    }
+
+    const result = await service.executeTool(toolName, params);
     const durationMs = Date.now() - startTime;
 
     const toolResult: LegalToolResult = {
@@ -238,7 +276,7 @@ export async function executeLegalTool(
       toolName,
       results: result.results,
       formatted: result.results 
-        ? legalResearchService.formatResultsForAgent(result.results)
+        ? service.formatResultsForAgent(result.results)
         : undefined,
       error: result.error,
       durationMs,
