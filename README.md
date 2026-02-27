@@ -359,7 +359,11 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 | Document | Description |
 |----------|-------------|
-| [**Financial Services Walkthrough**](docs/FINANCIAL_SERVICES_WALKTHROUGH.md) | End-to-end: question → deliberation → regulatory packet (Basel III capital planning) |
+| [**Financial Services Walkthrough**](docs/FINANCIAL_SERVICES_WALKTHROUGH.md) | Basel III capital planning — CRE acquisition, 4 agents, regulatory packet export |
+| [**Healthcare Walkthrough**](docs/HEALTHCARE_WALKTHROUGH.md) | FDA SaMD approval — sepsis prediction tool, alert fatigue analysis, 90-day validation plan |
+| [**Government Walkthrough**](docs/GOVERNMENT_WALKTHROUGH.md) | FAR Part 15 source selection — $47M IT modernization, protest-proof SSDD, TCO analysis |
+| [**Defense Walkthrough**](docs/DEFENSE_WALKTHROUGH.md) | JOPP mission planning — HA/DR + freedom-of-navigation, 8 agents, OPSEC review |
+| [**Energy Walkthrough**](docs/ENERGY_WALKTHROUGH.md) | Grid emergency — cascading failure, battery preservation for sunset, NERC compliance |
 | [**Benchmark: Council vs. Single-Model**](docs/BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md) | Worked comparison — 3.2× more risk factors, 6× regulatory citations, dissent surfacing |
 | [Community vs Enterprise](COMMUNITY.md) | Open-core boundary — what's free, what's commercial |
 
