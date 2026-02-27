@@ -364,6 +364,9 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | [**Government Walkthrough**](docs/GOVERNMENT_WALKTHROUGH.md) | FAR Part 15 source selection — $47M IT modernization, protest-proof SSDD, TCO analysis |
 | [**Defense Walkthrough**](docs/DEFENSE_WALKTHROUGH.md) | JOPP mission planning — HA/DR + freedom-of-navigation, 8 agents, OPSEC review |
 | [**Energy Walkthrough**](docs/ENERGY_WALKTHROUGH.md) | Grid emergency — cascading failure, battery preservation for sunset, NERC compliance |
+| [**Legal Walkthrough**](docs/LEGAL_WALKTHROUGH.md) | Settlement strategy — $28M FLSA class action, privilege-preserved analysis, Rule 2.1 candor |
+| [**Sports Walkthrough**](docs/SPORTS_WALKTHROUGH.md) | Player transfer — €47M deal, UEFA FFP compliance, medical risk pricing, voluntary agreement |
+| [**Manufacturing Walkthrough**](docs/MANUFACTURING_WALKTHROUGH.md) | Production crisis — brake caliper defect, multi-factor root cause, IATF 16949 8D report |
 | [**Benchmark: Council vs. Single-Model**](docs/BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md) | Worked comparison — 3.2× more risk factors, 6× regulatory citations, dissent surfacing |
 | [Community vs Enterprise](COMMUNITY.md) | Open-core boundary — what's free, what's commercial |
 
