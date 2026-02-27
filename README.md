@@ -42,7 +42,7 @@ Datacendia is a decision intelligence platform where multiple AI agents *deliber
 
 ## What the Council Found
 
-We ran the platform against eight real decision types across eight industries. In each case, the pivotal insight emerged from cross-examination between agents with different mandates — not from any single agent's analysis.
+We ran the platform against eleven real decision types across eleven industries. In each case, the pivotal insight emerged from cross-examination between agents with different mandates — not from any single agent's analysis.
 
 | Walkthrough | Scenario | What the Council Found |
 |-------------|----------|----------------------|
@@ -54,6 +54,9 @@ We ran the platform against eight real decision types across eight industries. I
 | [**Legal**](docs/LEGAL_WALKTHROUGH.md) | $28M FLSA class action, 10-day settlement deadline | Ethics Counsel surfaces Rule 2.1 duty: lawyers must tell the board their $12M authority is unrealistic, even if candor costs the client relationship |
 | [**Sports**](docs/SPORTS_WALKTHROUGH.md) | €47M player transfer, UEFA FFP compliance | CMO's risk-adjusted pricing adds €9.2M to effective cost (ACL history); Governance agent turns potential FFP sanction into voluntary agreement |
 | [**Manufacturing**](docs/MANUFACTURING_WALKTHROUGH.md) | Brake caliper defect, $42K/hour line-down penalty | Maintenance Engineer identifies multi-factor root cause where every individual parameter was "within limits" but the combination exceeded tolerance |
+| [**Insurance**](docs/INSURANCE_WALKTHROUGH.md) | $1.4M workers' comp claim, fraud score 74/100 | Chief Actuary decomposes reserve: $984K is provider-ring inflation on top of $416K legitimate claim — reframes from single-claim to $28M ring exposure |
+| [**Real Estate**](docs/REAL_ESTATE_WALKTHROUGH.md) | $94M office-to-residential conversion, 76% vacancy | Chief Appraiser cuts $30M from developer's valuation; Market Analyst shows conversion pipeline is 80% of annual absorption — market window is closing |
+| [**Pharmaceutical**](docs/PHARMACEUTICAL_WALKTHROUGH.md) | Phase III cardiovascular trial, interim safety signal | Biostatistician shows DILI confidence interval is 30× wide — stopping for efficacy is a regulatory trap because safety database is too small for NDA |
 
 ### How Pivotal Insights Emerge
 
