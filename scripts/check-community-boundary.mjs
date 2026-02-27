@@ -34,6 +34,7 @@ const ENTERPRISE_DIRS = [
 ];
 
 const ENTERPRISE_FILES = [
+  // Enterprise service files
   'services/CendiaCascadeService.ts',
   'services/CendiaCrucibleService.ts',
   'services/CendiaHorizonService.ts',
@@ -48,6 +49,45 @@ const ENTERPRISE_FILES = [
   'services/CendiaVoxService.ts',
   'services/CendiaOmniTranslateService.ts',
   'services/licensing.service.ts',
+  // Enterprise route files (wire enterprise services to HTTP endpoints)
+  'routes/enterprise.ts',
+  'routes/enterprise-connectors.ts',
+  'routes/strategic.ts',
+  'routes/sso.ts',
+  'routes/cascade.ts',
+  'routes/legal.ts',
+  'routes/legal-research.ts',
+  'routes/legal-services.ts',
+  'routes/sovereign-organs.ts',
+  'routes/sovereign-arch.ts',
+  'routes/sovereign-security.ts',
+  'routes/vault.ts',
+  'routes/eternal.ts',
+  'routes/symbiont.ts',
+  'routes/crucible.ts',
+  'routes/crucible-enterprise.ts',
+  'routes/aegis.ts',
+  'routes/panopticon.ts',
+  'routes/dcii.ts',
+  'routes/sgas.ts',
+  'routes/scge.ts',
+  'routes/collapse.ts',
+  'routes/forecasting.ts',
+  'routes/horizon.ts',
+  'routes/cortex-core.ts',
+  'routes/omnitranslate.ts',
+  'routes/vertical-config.ts',
+  'routes/vox.ts',
+  'routes/apotheosis.ts',
+  'routes/express.ts',
+  'routes/ai-insurance.ts',
+  'routes/bias-detection.ts',
+  'routes/clamav.ts',
+  // Enterprise adapter files
+  'adapters/ClientHostedAdapter.ts',
+  'adapters/DataAdapter.ts',
+  // Enterprise test files
+  'tests/legal-deliberation-test.ts',
 ];
 
 // ---------------------------------------------------------------------------

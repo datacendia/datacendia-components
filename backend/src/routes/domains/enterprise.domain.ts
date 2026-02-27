@@ -7,36 +7,36 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { mountEnterpriseRoutes } from './_enterprise.js';
 import enterpriseSecurityRoutes from '../enterprise.security.js';
-import enterpriseRoutes from '../enterprise.js';
 import ledgerRoutes from '../ledger.js';
 import auditPackagesRoutes from '../audit-packages.js';
-import aiInsuranceRoutes from '../ai-insurance.js';
-import cascadeRoutes from '../cascade.js';
 import adaptersRoutes from '../adapters.js';
-import strategicRoutes from '../strategic.js';
 import connectorsRoutes from '../connectors.js';
 import carbonAwareRoutes from '../carbon-aware.js';
 import hrRoutes from '../hr.js';
-import enterpriseConnectorsRoutes from '../enterprise-connectors.js';
 import salaryRoutes from '../salary.js';
-import ssoRoutes from '../sso.js';
 
 const router = Router();
 
-router.use('/sso', ssoRoutes);
+// Community routes
 router.use('/enterprise/security', enterpriseSecurityRoutes); // Must come BEFORE /enterprise
-router.use('/enterprise', enterpriseRoutes);
 router.use('/ledger', ledgerRoutes);
 router.use('/audit-packages', auditPackagesRoutes);
-router.use('/ai-insurance', aiInsuranceRoutes);
-router.use('/cascade', cascadeRoutes);
 router.use('/adapters', adaptersRoutes);
-router.use('/strategic', strategicRoutes);
 router.use('/connectors', connectorsRoutes);
 router.use('/carbon-aware', carbonAwareRoutes);
 router.use('/hr', hrRoutes);
 router.use('/salary', salaryRoutes);
-router.use('/enterprise-connectors', enterpriseConnectorsRoutes);
+
+// Enterprise routes
+mountEnterpriseRoutes(router, [
+  ['/sso', () => import('../sso.js')],
+  ['/enterprise', () => import('../enterprise.js')],
+  ['/cascade', () => import('../cascade.js')],
+  ['/strategic', () => import('../strategic.js')],
+  ['/enterprise-connectors', () => import('../enterprise-connectors.js')],
+  ['/ai-insurance', () => import('../ai-insurance.js')],
+]);
 
 export default router;

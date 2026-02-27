@@ -7,10 +7,7 @@
 // =============================================================================
 
 import { Router } from 'express';
-import crucibleRoutes from '../crucible.js';
-import crucibleEnterpriseRoutes from '../crucible-enterprise.js';
-import aegisRoutes from '../aegis.js';
-import sovereignSecurityRoutes from '../sovereign-security.js';
+import { mountEnterpriseRoutes } from './_enterprise.js';
 import kmsRoutes from '../kms.js';
 import postQuantumRoutes from '../post-quantum.js';
 import zkpRoutes from '../zkp.js';
@@ -23,11 +20,8 @@ import hsmRoutes from '../hsm.js';
 
 const router = Router();
 
-router.use('/crucible', crucibleRoutes);
-router.use('/crucible-enterprise', crucibleEnterpriseRoutes);
-router.use('/aegis', aegisRoutes);
+// Community routes
 router.use('/sentry', sentryRoutes);
-router.use('/security', sovereignSecurityRoutes);
 router.use('/kms', kmsRoutes);
 router.use('/post-quantum', postQuantumRoutes);
 router.use('/zkp', zkpRoutes);
@@ -36,5 +30,13 @@ router.use('/redteam', redteamRoutes);
 router.use('/security-services', securityServicesRoutes);
 router.use('/mfa', mfaRoutes);
 router.use('/hsm', hsmRoutes);
+
+// Enterprise routes
+mountEnterpriseRoutes(router, [
+  ['/crucible', () => import('../crucible.js')],
+  ['/crucible-enterprise', () => import('../crucible-enterprise.js')],
+  ['/aegis', () => import('../aegis.js')],
+  ['/security', () => import('../sovereign-security.js')],
+]);
 
 export default router;

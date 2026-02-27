@@ -82,8 +82,6 @@ import {
 
 // Special routes that need non-standard mounting
 import prometheusRoutes from './routes/prometheus.js';
-import legalResearchRoutes from './routes/legal-research.js';
-import expressRoutes from './routes/express.js';
 import recallRoutes from './routes/recall.js';
 import euBankingRoutes from './routes/eu-banking.js';
 import kafkaRoutes from './routes/kafka.js';
@@ -216,9 +214,12 @@ if (config.nodeEnv === 'production') {
 
 // Legal Research API - Public access for testing (no auth required in dev)
 // Must be BEFORE CSRF middleware to allow unauthenticated access
+// Enterprise module — loaded dynamically for Community Edition compatibility
 if (config.nodeEnv === 'development') {
-  app.use('/api/v1/legal-research', legalResearchRoutes);
-  logger.info('📚 Legal Research API available at /api/v1/legal-research (no auth in dev)');
+  import('./routes/legal-research.js').then(mod => {
+    app.use('/api/v1/legal-research', mod.default as any);
+    logger.info('📚 Legal Research API available at /api/v1/legal-research (no auth in dev)');
+  }).catch(() => { /* Enterprise module not available */ });
 }
 
 // CSRF Protection - apply to state-changing API routes
@@ -282,7 +283,10 @@ app.use('/api/v1', simulationDomain);  // sgas, scge, collapse
 app.use('/api/v1', workflowsDomain);   // workflows, integrations, scheduler
 app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, gnosis, apotheosis, visualization
 app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
-app.use('/api/v1/express', expressRoutes); // Express Intelligence - quick analysis without Council
+// Express Intelligence — enterprise route loaded dynamically
+import('./routes/express.js').then(mod => {
+  app.use('/api/v1/express', mod.default as any);
+}).catch(() => { /* Enterprise module not available */ });
 app.use('/api/v1', recallRoutes);          // CendiaRecall™ - Decision Outcome Tracking
 app.use('/api/v1/eu-banking', euBankingRoutes); // EU Banking - Basel III + EU AI Act compliance
 app.use('/api/v1/kafka', kafkaRoutes);               // Kafka admin & monitoring

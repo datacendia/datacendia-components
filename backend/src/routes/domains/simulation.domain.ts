@@ -7,14 +7,14 @@
 // =============================================================================
 
 import { Router } from 'express';
-import sgasRoutes from '../sgas.js';
-import scgeRoutes from '../scge.js';
-import collapseRoutes from '../collapse.js';
+import { mountEnterpriseRoutes } from './_enterprise.js';
 
 const router = Router();
 
-router.use('/sgas', sgasRoutes);
-router.use('/scge', scgeRoutes);
-router.use('/collapse', collapseRoutes);
+mountEnterpriseRoutes(router, [
+  ['/sgas', () => import('../sgas.js')],
+  ['/scge', () => import('../scge.js')],
+  ['/collapse', () => import('../collapse.js')],
+]);
 
 export default router;

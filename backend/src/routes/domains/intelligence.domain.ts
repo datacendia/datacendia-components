@@ -7,20 +7,25 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { mountEnterpriseRoutes } from './_enterprise.js';
 import personaRoutes from '../persona.js';
 import autopilotRoutes from '../autopilot.js';
 import decisionIntelRoutes from '../decision-intel.js';
 import gnosisRoutes from '../gnosis.js';
-import apotheosisRoutes from '../apotheosis.js';
 import visualizationRoutes from '../visualization.js';
 
 const router = Router();
 
+// Community routes
 router.use('/persona', personaRoutes);
 router.use('/autopilot', autopilotRoutes);
 router.use('/decision-intel', decisionIntelRoutes);
 router.use('/gnosis', gnosisRoutes);
-router.use('/apotheosis', apotheosisRoutes);
 router.use('/visualization', visualizationRoutes);
+
+// Enterprise routes
+mountEnterpriseRoutes(router, [
+  ['/apotheosis', () => import('../apotheosis.js')],
+]);
 
 export default router;

@@ -7,14 +7,14 @@
 // =============================================================================
 
 import { Router } from 'express';
-import legalRoutes from '../legal.js';
-import legalResearchRoutes from '../legal-research.js';
-import legalServicesRoutes from '../legal-services.js';
+import { mountEnterpriseRoutes } from './_enterprise.js';
 
 const router = Router();
 
-router.use('/legal', legalRoutes);
-router.use('/legal-research', legalResearchRoutes);
-router.use('/legal-services', legalServicesRoutes);
+mountEnterpriseRoutes(router, [
+  ['/legal', () => import('../legal.js')],
+  ['/legal-research', () => import('../legal-research.js')],
+  ['/legal-services', () => import('../legal-services.js')],
+]);
 
 export default router;

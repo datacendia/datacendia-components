@@ -7,6 +7,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { mountEnterpriseRoutes } from './_enterprise.js';
 import financialRoutes from '../financial.js';
 import healthcareRoutes from '../healthcare.js';
 import insuranceRoutes from '../insurance.js';
@@ -15,12 +16,12 @@ import defenseRoutes from '../defense.js';
 import sportsRoutes from '../sports.js';
 import industrialServicesRoutes from '../industrial-services.js';
 import verticalAgentsRoutes from '../vertical-agents.js';
-import verticalConfigRoutes from '../vertical-config.js';
 import verticalSentinelsRoutes from '../vertical-sentinels.js';
 import fhirRoutes from '../fhir.js';
 
 const router = Router();
 
+// Community routes
 router.use('/financial', financialRoutes);
 router.use('/healthcare', healthcareRoutes);
 router.use('/insurance', insuranceRoutes);
@@ -29,8 +30,12 @@ router.use('/defense', defenseRoutes);
 router.use('/sports', sportsRoutes);
 router.use('/industrial-services', industrialServicesRoutes);
 router.use('/vertical-agents', verticalAgentsRoutes);
-router.use('/vertical-config', verticalConfigRoutes);
 router.use('/vertical-sentinels', verticalSentinelsRoutes);
 router.use('/fhir', fhirRoutes);
+
+// Enterprise routes
+mountEnterpriseRoutes(router, [
+  ['/vertical-config', () => import('../vertical-config.js')],
+]);
 
 export default router;
