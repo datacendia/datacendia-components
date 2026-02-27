@@ -10,7 +10,7 @@ Enterprise AI systems increasingly face decisions that require balancing competi
 
 This paper presents a controlled comparison between single-model inference and Datacendia's multi-agent Council deliberation on a realistic financial services scenario: **Basel III CET1 capital adequacy planning for a mid-size US bank evaluating a $2.3B commercial real estate portfolio acquisition.** We measure five dimensions: risk coverage breadth, regulatory citation accuracy, dissent surfacing, confidence calibration, and auditability.
 
-The Council approach identified **3.2× more risk factors**, surfaced **2 material dissenting positions** that the single-model approach missed entirely, and produced a decision packet with **complete regulatory traceability** — every claim linked to a specific agent, reasoning chain, and confidence score.
+The Council approach identified **3.2× more risk factors** (16 vs. 5), cited **6 specific regulatory provisions** including a blocking SR 11-7 model risk compliance gap that would halt the deal — the single-model identified 1 general citation and missed the blocking issue entirely. The Council surfaced **2 material dissenting positions** that the single-model approach missed, and produced a decision packet with **complete regulatory traceability** — every claim linked to a specific agent, reasoning chain, and confidence score.
 
 ---
 
@@ -99,7 +99,7 @@ Regulatory frameworks enforced: **Basel III CET1, CCAR, Total Loss Absorbing Cap
 | **Confidence Calibration** | Does stated confidence match actual uncertainty in the scenario? |
 | **Auditability** | Can a regulator trace each claim to its source reasoning? |
 
-Two independent financial services professionals (former bank examiners) scored both outputs blind — they did not know which output came from which approach.
+Two independent financial services professionals (former bank examiners) scored both outputs blind — they did not know which output came from which approach. Evaluators scored regulatory citation accuracy and auditability. Risk coverage breadth was measured by count; dissent surfacing and confidence calibration were assessed by the research team against defined criteria in the evaluation rubric (available in the repository).
 
 ---
 
@@ -221,37 +221,19 @@ The Compliance Officer cited OCC 2006-46 (CRE concentration guidance) because it
 
 The Council's 0.62 confidence score was not set by any single agent — it emerged from the *degree of agreement* between agents. When the CRO and Credit Analyst dissented, confidence dropped. This is a better uncertainty signal than anything a single model can produce, because a single model's "confidence" is just a token probability, not a measure of decision uncertainty.
 
-### 5.5 Systematic Reversal Detection
+### 5.5 Reversal Detection
 
-Looking across eleven walkthroughs — not just the financial services scenario analyzed in this paper — a pattern emerges that is worth naming explicitly: **every pivotal insight produced by multi-agent deliberation involves a reversal.**
+The most striking finding in this benchmark is not quantitative — it is structural. The Council's pivotal insight was a **reversal**: the 22% discount to book value, which appears favorable, is actually a 2.2% discount to fair value when the Credit Analyst adjusts for the 18.7% vacancy rate and distressed portfolio composition. The surface appearance and the underlying reality diverge.
 
-| Vertical | Surface Appearance | Underlying Reality |
-|----------|-------------------|-------------------|
-| Financial Services | 22% discount to book value | 2.2% discount to fair value |
-| Healthcare | 87% sensitivity (clinical performance) | 54.8% effective sensitivity (after alert fatigue) |
-| Government | Incumbent is cheapest ($41.8M) | Incumbent costs $22.1M more over 10 years |
-| Defense | COA 1 is lower risk | COA 1 is worse for OPSEC — no exclusion zone |
-| Energy | Full battery discharge solves the crisis | Full discharge creates a 2,840 MW deficit at sunset |
-| Legal | "Fight this to the last dollar" (CEO's position) | $12M authority has <5% acceptance probability — candor is legally required |
-| Sports | Transfer fee is €47M | Risk-adjusted cost is €56.2M (ACL history) |
-| Manufacturing | Every parameter is "within limits" | The combination exceeds tolerance |
-| Insurance | $1.4M claim | $416K legitimate claim + $984K ring inflation |
-| Real Estate | $136M stabilized value | $106M when conversion discount and cap rate premium are applied |
-| Pharmaceutical | Trial can stop for efficacy | Stopping is a regulatory trap — safety database is too small for NDA |
+This reversal occurred because the Credit Analyst's loss function (penalizing overpayment) asked a different question about the same number than the Investment Strategist's loss function (penalizing missed opportunity). "22% discount" sounds attractive through an opportunity lens. Through a credit lens, the question becomes "discount to *what*?" — and the answer changes the decision.
 
-This is not coincidence. It is a structural property of adversarial deliberation.
-
-A single model produces a coherent narrative. Coherent narratives resolve ambiguity in one direction — they pick the most plausible interpretation of each number and construct a story around it. The 22% discount *sounds* large, so the narrative says "significant discount." The 87% sensitivity *sounds* high, so the narrative says "strong performance." COA 1 *sounds* safer, so the narrative says "lower risk."
-
-Multi-agent deliberation breaks this pattern because agents with different mandates interpret the same number differently. The Credit Analyst looks at 22% and asks "discount to *what*?" The Patient Safety Officer looks at 87% and asks "sensitivity *experienced by whom*?" The OPSEC Officer looks at COA 1 and asks "lower risk *for whom*?"
-
-These are not better questions. They are *different* questions, asked from different loss functions. The Credit Analyst's loss function penalizes overpaying. The Patient Safety Officer's loss function penalizes patient harm. The OPSEC Officer's loss function penalizes information leakage. When agents with different loss functions examine the same evidence, the cases where surface appearance and underlying reality diverge are systematically exposed.
+A single model produces a coherent narrative that resolves this ambiguity in one direction. It picks the most plausible interpretation and constructs a story around it. The 22% *sounds* large, so the narrative says "significant discount." Multi-agent deliberation breaks this pattern because agents with different mandates interpret the same evidence differently, and cross-examination forces the divergence to the surface.
 
 We propose the term **reversal detection** for this property: the ability of a multi-agent system to identify cases where the obvious interpretation of evidence is wrong or materially incomplete. Reversal detection is not a feature of the individual models — it is an emergent property of the adversarial architecture. The same models, in a single-prompt configuration, produce the surface-level interpretation. Only the structure of cross-examination between competing mandates forces the reversal to the surface.
 
-This has a practical implication for enterprise adoption: **the value of multi-agent deliberation is highest precisely where the cost of missing a reversal is highest.** Regulatory findings, undiscovered fraud, mispriced risk, uncharacterized safety signals — these are all reversals. The organization's most expensive mistakes are the ones where something looked fine until it wasn't.
+This has a practical implication for enterprise adoption: **the value of multi-agent deliberation is highest precisely where the cost of missing a reversal is highest.** Regulatory findings, undiscovered fraud, mispriced risk, uncharacterized safety signals — these are all cases where something looks fine until it isn't.
 
-"We help you find the reversals before your regulator does" is not a marketing claim. It is a description of what the architecture systematically produces.
+We observe similar reversal patterns across qualitative walkthroughs in other verticals (see Appendix A), though these have not been subjected to the controlled methodology used in this paper.
 
 ---
 
@@ -261,11 +243,13 @@ This has a practical implication for enterprise adoption: **the value of multi-a
 
 2. **Same underlying models.** The Council agents use the same model families as the single-model baseline. The advantage comes from architecture, not from superior models. If the underlying models improve, both approaches improve — but the structural advantages of deliberation remain.
 
-3. **Cost.** The Council approach consumed approximately 4.2× the tokens of the single-model approach. For high-stakes decisions (this one involves $2.3B and regulatory risk), this cost is trivial. For high-volume, low-stakes decisions, single-model inference may be more appropriate.
+3. **Model family confounder.** The baseline used Llama 3.3 70B; Council agents used deepseek-r1:32b and qwen3:32b. We do not claim the result would hold against all frontier models. The structural advantages of deliberation — explicit dissent, separate mandates, cross-examination — should persist regardless of underlying model quality, but this should be verified against GPT-4 and Claude baselines in future work.
 
-4. **Evaluator bias.** The independent evaluators were former bank examiners. Their preference for auditability and regulatory citations may not generalize to all enterprise decision contexts.
+4. **Cost.** The Council approach consumed approximately 4.2× the tokens of the single-model approach. For high-stakes decisions (this one involves $2.3B and regulatory risk), this cost is trivial. For high-volume, low-stakes decisions, single-model inference may be more appropriate.
 
-5. **No live data.** The scenario used synthetic but realistic data. A production benchmark with real portfolio data would strengthen these findings.
+5. **Evaluator bias.** The independent evaluators were former bank examiners. Their preference for auditability and regulatory citations may not generalize to all enterprise decision contexts.
+
+6. **No live data.** The scenario used synthetic but realistic data. A production benchmark with real portfolio data would strengthen these findings.
 
 ---
 
@@ -319,5 +303,26 @@ The question is not whether multi-agent deliberation is always better. It isn't 
 **Citation:**
 ```
 Datacendia Research. (2026). Multi-Agent Deliberation vs. Single-Model Inference:
-A Comparative Analysis. Working Paper WP-2026-01. https://datacendia.com/research/wp-2026-01
+A Comparative Analysis. Working Paper WP-2026-01.
+https://github.com/datacendia/datacendia-components/blob/main/docs/BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md
 ```
+
+---
+
+## Appendix A: Observed Reversals Across Vertical Walkthroughs
+
+*The following table documents reversals observed in qualitative walkthrough scenarios across eleven verticals. These are not controlled benchmarks — they were not evaluated blind by independent experts, and the scenarios were authored to demonstrate the platform. They are included as qualitative observations suggesting that the reversal detection pattern described in Section 5.5 generalizes beyond the financial services scenario formally analyzed in this paper. Each walkthrough is published in the repository and linked from the README.*
+
+| Vertical | Surface Appearance | Underlying Reality | Walkthrough |
+|----------|-------------------|-------------------|-------------|
+| Financial Services | 22% discount to book value | 2.2% discount to fair value | [Link](FINANCIAL_SERVICES_WALKTHROUGH.md) |
+| Healthcare | 87% sensitivity (clinical) | 54.8% effective sensitivity (alert fatigue) | [Link](HEALTHCARE_WALKTHROUGH.md) |
+| Government | Incumbent is cheapest ($41.8M) | Incumbent costs $22.1M more over 10 years | [Link](GOVERNMENT_WALKTHROUGH.md) |
+| Defense | COA 1 is lower risk | COA 1 is worse for OPSEC | [Link](DEFENSE_WALKTHROUGH.md) |
+| Energy | Full battery discharge solves crisis | Creates 2,840 MW deficit at sunset | [Link](ENERGY_WALKTHROUGH.md) |
+| Legal | CEO says "fight to the last dollar" | $12M authority has <5% acceptance probability | [Link](LEGAL_WALKTHROUGH.md) |
+| Sports | Transfer fee is €47M | Risk-adjusted cost is €56.2M | [Link](SPORTS_WALKTHROUGH.md) |
+| Manufacturing | Every parameter "within limits" | Combination exceeds tolerance | [Link](MANUFACTURING_WALKTHROUGH.md) |
+| Insurance | $1.4M claim | $416K legitimate + $984K ring inflation | [Link](INSURANCE_WALKTHROUGH.md) |
+| Real Estate | $136M stabilized value | $106M after conversion discount | [Link](REAL_ESTATE_WALKTHROUGH.md) |
+| Pharmaceutical | Trial can stop for efficacy | Stopping is a regulatory trap | [Link](PHARMACEUTICAL_WALKTHROUGH.md) |
