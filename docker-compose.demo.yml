@@ -14,10 +14,16 @@
 #
 # Pre-seeded with:
 #   - Acme Corporation (5 users, 6 Council agents)
-#   - 8 decisions (approved, pending, blocked, deferred)
-#   - 5 deliberations (completed, in-progress, pending)
-#   - 7 data sources, 8 metric definitions with 12-month history
-#   - 50 audit log entries, 7 alerts, 5 workflows, 5 teams
+#   - 7 decisions (approved, pending, blocked, deferred)
+#   - 5 Council deliberations across 5 verticals:
+#       🔋 Energy — Heartland Grid Emergency (0.82 confidence)
+#       🏭 Manufacturing — Brake Caliper Safety Defect (0.88)
+#       🏦 Financial Services — $1.7B CRE Acquisition (0.58, HUMAN REVIEWED)
+#       🏛️  Government — $340M Veterans IT Modernization (0.71)
+#       🏥 Healthcare — SepsisSense SaMD Deployment (0.54)
+#   - Full agent transcripts, cross-examinations, decision packets
+#   - Chain-hashed audit trails, executive summaries
+#   - 7 data sources, 8 metrics, 50 audit entries, 7 alerts, 5 teams
 #
 # Requirements: Docker with ~6GB RAM available
 # =============================================================================

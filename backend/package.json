@@ -25,7 +25,9 @@
     "lint": "eslint src --ext .ts",
     "typecheck": "tsc --noEmit",
     "build:community": "tsc -p tsconfig.community.json",
-    "check:boundary": "node ../scripts/check-community-boundary.mjs"
+    "check:boundary": "node ../scripts/check-community-boundary.mjs",
+    "seed:demo": "tsx prisma/seed-full-demo.ts && tsx prisma/seed-council-showcase.ts",
+    "seed:showcase": "tsx prisma/seed-council-showcase.ts"
   },
   "dependencies": {
     "@aws-sdk/client-kms": "^3.995.0",

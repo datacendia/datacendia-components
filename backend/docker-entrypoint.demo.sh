@@ -27,7 +27,13 @@ echo "Database schema ready."
 # Seed demo data (idempotent — checks for existing data)
 echo "Seeding demo data..."
 npx tsx prisma/seed-full-demo.ts 2>&1 || {
-  echo "Warning: Seed script had issues. Demo may have partial data."
+  echo "Warning: Base seed had issues. Demo may have partial data."
+}
+
+# Seed showcase deliberations (5 verticals + human override)
+echo "Seeding Council showcase deliberations..."
+npx tsx prisma/seed-council-showcase.ts 2>&1 || {
+  echo "Warning: Showcase seed had issues. Deliberations may be incomplete."
 }
 
 echo ""
