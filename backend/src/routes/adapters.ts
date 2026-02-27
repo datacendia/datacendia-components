@@ -25,8 +25,8 @@
  */
 
 import { Router, Request, Response, NextFunction } from 'express';
-import {
 import { logger } from '../utils/logger.js';
+import {
   adapterManager,
   adapterRegistry,
   RiskTier,
