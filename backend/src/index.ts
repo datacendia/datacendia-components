@@ -90,6 +90,7 @@ import kafkaRoutes from './routes/kafka.js';
 import guardrailsRoutes from './routes/guardrails.js';
 import opaRoutes from './routes/opa.js';
 import temporalRoutes from './routes/temporal.js';
+import openbaoRoutes from './routes/openbao.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -286,6 +287,7 @@ app.use('/api/v1/kafka', kafkaRoutes);               // Kafka admin & monitoring
 app.use('/api/v1/guardrails', guardrailsRoutes);     // NeMo Guardrails admin & evaluation
 app.use('/api/v1/opa', opaRoutes);                   // Open Policy Agent policy-as-code
 app.use('/api/v1/temporal', temporalRoutes);         // Temporal.io workflow orchestration
+app.use('/api/v1/openbao', openbaoRoutes);           // OpenBao/Vault secrets & KMS
 
 // 404 handler
 app.use((_req, res) => {
@@ -457,6 +459,15 @@ const startServer = async () => {
       logger.info('[Temporal] Workflow orchestration initialized');
     } catch (e) {
       logger.warn('[Temporal] Workflow orchestration initialization failed — using embedded mode:', e);
+    }
+
+    // OpenBao/Vault secrets management (optional — set OPENBAO_ENABLED=true)
+    try {
+      const { openBao } = await import('./services/vault/OpenBaoService.js');
+      await openBao.connect();
+      logger.info('[OpenBao] Secrets management initialized');
+    } catch (e) {
+      logger.warn('[OpenBao] Secrets management initialization failed:', e);
     }
 
     // Start Chronos Event Bus flush scheduler (retries failed event writes)
