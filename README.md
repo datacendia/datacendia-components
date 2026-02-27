@@ -7,15 +7,37 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
-## ✨ What's New (February 18, 2026)
+## ✨ What's New (February 26, 2026)
 
-### Predictive Intelligence & Counterfactual Replay (Feb 18)
-- **CendiaPredict™** — Decision Risk Intelligence: forward-looking quantitative risk scoring. "This decision has a 73% chance of regulatory challenge within 9 months based on 47 similar decisions." Composes CendiaRecall (historical outcomes) + CendiaCascade (consequence mapping) into probabilistic risk curves across 5 failure modes (regulatory, reputational, financial, operational, stakeholder). Includes confidence scoring that degrades honestly when data is sparse, and a feedback loop that improves predictions over time.
-- **CendiaRewind™** — Counterfactual Decision Replay: take a past decision, simulate alternative paths, compare against what actually happened. Ranks all paths, detects bias patterns (optimism, groupthink, sunk cost), builds institutional memory of "what kinds of alternatives beat originals."
-- **EchoExpress Consolidation** — Unified decision intelligence dashboard now composes CendiaRecall (prediction accuracy, bias detection) + CendiaPredict (forward-looking risk) alongside Prisma outcome data. Single source of truth established: Recall owns outcomes, Predict owns risk, EchoExpress is read-only view.
-- **Sovereign Service Prisma Migration** — All 10 sovereign services (Oracle, Witness, Key, Mirage, BlackBox, Glass, Legacy, Mesh, Mirror) migrated from in-memory Maps to PostgreSQL persistence with constructor injection and graceful fallback.
+### Infrastructure Upgrade — 9 Enterprise Components (Feb 26)
+
+**NVIDIA Inception Program Member** 🟢
+
+#### Phase 1: NVIDIA Stack
+- **InferenceProvider Abstraction** — Unified `IInferenceProvider` interface with Ollama, Triton Inference Server, and NVIDIA NIM backends. Zero-change migration for 48 consuming services. `INFERENCE_PROVIDER=ollama|triton|nim`
+- **NeMo Guardrails Integration** — LLM-powered guardrail evaluation engine with 9 default rails (jailbreak detection, hallucination, bias/fairness, PII leakage, topic enforcement, financial disclaimer, medical safety, grounding verification). Hybrid mode: regex pre-filter + LLM deep evaluation. Integrated into `CendiaSentryService.checkContentWithNeMo()`. API: `/api/v1/guardrails/*`
+- **NVIDIA RAPIDS / cuGraph** — GPU-accelerated analytics for bias analysis (disparate impact, statistical parity, equalized odds, intersectional), graph analytics (PageRank, community detection, betweenness centrality), statistical hypothesis testing, and anomaly detection. Full CPU fallback. API: `/api/v1/rapids/*`
+- **Confidential Computing** — GPU attestation via NVIDIA Local Attestation Service, confidential session management, inference enforcement, CC evidence generation for DCII P7. API: `/api/v1/rapids/cc/*`
+
+#### Phase 2: Event Infrastructure
+- **Apache Kafka** — Durable event streaming backbone. 7 topic categories (decisions, agents, audit, sentry, inference telemetry, verticals, workflows). `KafkaEventBridge` connects EventBus, ChronosEventBus, and Redis PubSub to Kafka. In-memory fallback buffer when Kafka unavailable. API: `/api/v1/kafka/*`
+- **Temporal.io** — Durable workflow orchestration with 6 built-in workflows (CouncilDeliberation, ComplianceReview, DataPipeline, IncidentResponse, ScheduledReport, OrganizationOnboarding saga). Embedded execution fallback. Activity-level retry with exponential backoff. API: `/api/v1/temporal/*`
+
+#### Phase 3: Security & Policy
+- **OpenBao/Vault** — Comprehensive secrets management (API-compatible with HashiCorp Vault). KV v2 secrets, transit encryption, PKI certificate issuance, dynamic database credentials, lease auto-renewal, ACL policy management, AppRole auth. API: `/api/v1/openbao/*`
+- **Open Policy Agent (OPA)** — Data-driven policy-as-code engine complementing Casbin RBAC. 8 embedded policies covering data classification, PII handling, retention, segregation of duties, AI model deployment (EU AI Act), consent verification, HIPAA minimum necessary. API: `/api/v1/opa/*`
+- **Apache Flink CEP** — Real-time Complex Event Processing with sliding-window engine. 6 default rules (compliance drift burst, security escalation, guardrail trigger storm, data exfiltration, IISS score drop). API: `/api/v1/flink/*`
+
+All 9 components are **opt-in** (disabled by default), have **embedded CPU/in-memory fallbacks**, and are **sovereign-compatible** (self-hosted, air-gapped capable, open-source licensed).
+
+### Previous Updates (February 18, 2026)
+
+#### Predictive Intelligence & Counterfactual Replay (Feb 18)
+- **CendiaPredict™** — Decision Risk Intelligence: forward-looking quantitative risk scoring with probabilistic risk curves across 5 failure modes
+- **CendiaRewind™** — Counterfactual Decision Replay: simulate alternative paths, compare against actuals, detect bias patterns
+- **EchoExpress Consolidation** — Unified decision intelligence dashboard (Recall + Predict + Prisma)
+- **Sovereign Service Prisma Migration** — All 10 sovereign services migrated to PostgreSQL persistence
 - **204,751 tests passing** — 165 backend test files, 33 integration/E2E files, 0 TypeScript errors
-- **The Prediction Loop** — CendiaPredict (forward) → Decision → CendiaEcho/Recall (backward) → Learning → CendiaPredict (better). Platform now has both reactive AND predictive intelligence.
 
 ## ✨ Previous Updates (February 17, 2026)
 
@@ -70,7 +92,8 @@
 - **PostgreSQL** 16+
 - **Redis** 7+
 - **Neo4j** 5+ (for knowledge graph)
-- **Ollama** (for local AI/LLM)
+- **Ollama** (for local AI/LLM — or Triton/NIM via `INFERENCE_PROVIDER`)
+- **NVIDIA GPU** (optional — required for RAPIDS, Triton, Confidential Computing)
 
 ### Development Setup
 
@@ -108,7 +131,10 @@ cd backend && npm run dev # Backend - http://localhost:3001
 | `sovereign` | + Druid, ClickHouse, MinIO, Keycloak, etc. | 32GB |
 | `observability` | + Prometheus, Grafana, Loki, Tempo | 48GB |
 | `security` | + Wazuh, Infisical, Step-CA | 64GB |
-| `full` | Everything | 64GB+ |
+| `nvidia` | + Triton, NeMo Guardrails, RAPIDS | 32GB + GPU |
+| `events` | + Kafka, Temporal, Temporal UI | 16GB |
+| `policy` | + OPA, OpenBao, Flink | 8GB |
+| `full` | Everything | 96GB+ |
 
 ```bash
 # Core only (minimal for development)
@@ -131,6 +157,12 @@ docker-compose -f docker-compose.unified.yml up -d
 | MinIO Console | http://localhost:9001 | See `.env` (`MINIO_ROOT_USER` / `MINIO_ROOT_PASSWORD`) |
 | Grafana | http://localhost:3002 | See `.env` (`GRAFANA_USER` / `GRAFANA_PASSWORD`) |
 | Keycloak | http://localhost:8180 | See `.env` (`KEYCLOAK_ADMIN` / `KEYCLOAK_ADMIN_PASSWORD`) |
+| Triton Inference | http://localhost:8000 (HTTP), :8001 (gRPC) | - |
+| Kafka | localhost:9092 | - |
+| Temporal UI | http://localhost:8088 | - |
+| OpenBao/Vault | http://localhost:8200 | `OPENBAO_TOKEN` |
+| OPA | http://localhost:8181 | - |
+| Flink Dashboard | http://localhost:8081 | - |
 
 > **Security:** Copy `.env.example` to `.env` and set strong, unique passwords before running. Never commit `.env` to version control.
 
@@ -145,17 +177,23 @@ datacendia-components/
 │   └── services/           # Frontend services
 ├── backend/                # Node.js backend (Express + Prisma)
 │   ├── src/
-│   │   ├── routes/         # API endpoints
-│   │   ├── services/       # Business logic
+│   │   ├── routes/         # API endpoints (140+ route files)
+│   │   ├── services/       # Business logic (373+ service files)
+│   │   │   ├── inference/  # InferenceProvider (Ollama, Triton, NIM)
+│   │   │   ├── guardrails/ # NeMo Guardrails engine
+│   │   │   ├── kafka/      # Kafka producer, consumer, event bridge
+│   │   │   ├── temporal/   # Temporal.io workflow orchestration
+│   │   │   ├── opa/        # Open Policy Agent engine
+│   │   │   ├── vault/      # OpenBao/Vault secrets management
+│   │   │   ├── gpu/        # RAPIDS analytics + Confidential Computing
+│   │   │   ├── streaming/  # Flink CEP real-time processing
+│   │   │   ├── verticals/  # 29 industry vertical implementations
+│   │   │   └── sovereign/  # 11 sovereign architecture patterns
 │   │   ├── middleware/     # Auth, logging, security
-│   │   └── config/         # Database, Redis, Neo4j config
-│   └── prisma/             # Database schema & migrations
+│   │   ├── security/       # PolicyEngine, KeycloakAuth, KMS, HSM
+│   │   └── config/         # Database, Redis, Neo4j, inference config
+│   └── prisma/             # Database schema & migrations (232 models)
 ├── tests/                  # Test suites (Vitest + Playwright)
-│   ├── ai-validation/      # LLM brain tests, bias/ethics, air-gap
-│   ├── enterprise/         # Schema, security, performance, i18n
-│   ├── integration/        # Full platform + edge case tests
-│   ├── backend/            # API, agents, services tests
-│   └── frontend/           # Auth, routes, components tests
 ├── infrastructure/         # PostgreSQL HA scripts
 ├── grafana/                # Dashboard & datasource provisioning
 ├── docs/                   # Technical documentation (40+ files)
@@ -356,11 +394,54 @@ NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
 NEO4J_PASSWORD=password
 
-# AI/LLM
+# AI/LLM Inference (choose one provider)
+INFERENCE_PROVIDER=ollama              # ollama | triton | nim
 OLLAMA_BASE_URL=http://localhost:11434
+TRITON_URL=localhost:8001              # Triton gRPC
+TRITON_HTTP_URL=http://localhost:8000  # Triton HTTP
+NIM_URL=http://localhost:8000          # NVIDIA NIM
 
 # Auth
 JWT_SECRET=your-secret-key
+
+# ── Optional Infrastructure (all disabled by default) ──
+
+# NeMo Guardrails
+NEMO_GUARDRAILS_ENABLED=false          # true to activate
+NEMO_GUARDRAILS_MODE=hybrid            # server | embedded | hybrid
+NEMO_GUARDRAILS_URL=http://localhost:8080
+
+# Apache Kafka
+KAFKA_ENABLED=false
+KAFKA_BROKERS=localhost:9092
+
+# Temporal.io
+TEMPORAL_ENABLED=false
+TEMPORAL_ADDRESS=localhost:7233
+TEMPORAL_NAMESPACE=datacendia
+
+# OpenBao/Vault
+OPENBAO_ENABLED=false
+OPENBAO_ADDR=http://127.0.0.1:8200
+OPENBAO_TOKEN=
+
+# Open Policy Agent
+OPA_ENABLED=false
+OPA_MODE=embedded                      # server | embedded
+OPA_URL=http://localhost:8181
+
+# NVIDIA RAPIDS
+RAPIDS_ENABLED=false
+RAPIDS_URL=http://localhost:8787
+
+# Confidential Computing
+CC_ENABLED=false
+CC_ATTESTATION_URL=http://localhost:8443
+
+# Apache Flink CEP
+FLINK_ENABLED=false
+FLINK_MODE=embedded                    # cluster | embedded
+FLINK_URL=http://localhost:8081
 ```
 
 ## 🛡️ Security

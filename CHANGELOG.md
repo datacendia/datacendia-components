@@ -7,6 +7,82 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added — 2026-02-26 — Infrastructure Upgrade (9 Enterprise Components)
+
+**NVIDIA Inception Program Member** 🟢
+
+#### Phase 1: NVIDIA Stack
+- **InferenceProvider Abstraction** (`backend/src/services/inference/`)
+  - Unified `IInferenceProvider` interface with Ollama, Triton Inference Server, and NVIDIA NIM backends
+  - `OllamaProvider`, `TritonProvider`, `NIMProvider` implementations
+  - `InferenceService` facade with backward-compatible shim in `ollama.ts`
+  - Zero-change migration for 48 consuming services
+  - Config: `INFERENCE_PROVIDER=ollama|triton|nim`
+- **NeMo Guardrails Integration** (`backend/src/services/guardrails/NeMoGuardrailsEngine.ts`)
+  - 9 default rails: jailbreak detection, harmful intent, topic boundary, hallucination detection, PII leakage, bias/fairness, financial disclaimer, medical safety, response grounding
+  - 3 evaluation modes: server (self-hosted NeMo), embedded (local LLM), hybrid (regex + LLM)
+  - Integrated into `CendiaSentryService.checkContentWithNeMo()` for production use
+  - API: `/api/v1/guardrails/*` (health, stats, rails CRUD, colang config, evaluate)
+- **NVIDIA RAPIDS / cuGraph** (`backend/src/services/gpu/RAPIDSService.ts`)
+  - GPU-accelerated bias analysis (disparate impact, statistical parity, equalized odds, intersectional)
+  - Graph analytics (PageRank, community detection, betweenness centrality, connected components)
+  - Statistical hypothesis testing (Welch's t-test, effect size, confidence intervals)
+  - Anomaly detection (Z-score with configurable sensitivity)
+  - Full CPU fallback when GPU unavailable
+  - API: `/api/v1/rapids/*`
+- **Confidential Computing** (`backend/src/services/gpu/ConfidentialComputeService.ts`)
+  - GPU attestation via NVIDIA Local Attestation Service (H100/H200)
+  - Confidential session management with inference tracking
+  - Enforcement policy (block/warn on unattested GPU)
+  - CC evidence generation for DCII P7 (signed with KMS)
+  - API: `/api/v1/rapids/cc/*`
+
+#### Phase 2: Event Infrastructure
+- **Apache Kafka** (`backend/src/services/kafka/`)
+  - `KafkaService`: Producer, consumer, admin operations, health monitoring
+  - `KafkaEventBridge`: Connects EventBus, ChronosEventBus, Redis PubSub to Kafka topics
+  - `KafkaTopics`: 7 topic categories (decisions, agents, audit, sentry, inference, verticals, workflows)
+  - In-memory fallback buffer when Kafka unavailable
+  - API: `/api/v1/kafka/*` (health, stats, topics, consumer lag, buffer)
+- **Temporal.io** (`backend/src/services/temporal/TemporalService.ts`)
+  - 6 built-in workflow definitions: CouncilDeliberation, ComplianceReview, DataPipeline, IncidentResponse, ScheduledReport, OrganizationOnboarding (saga with compensating transactions)
+  - Workflow signals (cancel, pause, resume, custom), activity retry with exponential backoff
+  - Server mode (Temporal gRPC) + embedded mode (in-process execution fallback)
+  - API: `/api/v1/temporal/*` (definitions, workflows CRUD, signal, cancel, terminate)
+
+#### Phase 3: Security & Policy
+- **OpenBao/Vault** (`backend/src/services/vault/OpenBaoService.ts`)
+  - KV v2 secrets engine (read/write/delete/list)
+  - Transit engine (encrypt/decrypt, key creation, key rotation)
+  - PKI engine (TLS certificate issuance)
+  - Database engine (dynamic credentials with TTL)
+  - Lease management (auto-renewal at 75% TTL, revocation)
+  - ACL policy management, AppRole authentication
+  - API-compatible with HashiCorp Vault
+  - API: `/api/v1/openbao/*`
+- **Open Policy Agent** (`backend/src/services/opa/OPAService.ts`)
+  - 8 embedded policies: data classification (ISO27001), time-based access (SOX), PII handling (GDPR/CCPA/HIPAA), data retention, segregation of duties (SOX/Basel-III), AI model deployment (EU AI Act), consent verification, HIPAA minimum necessary
+  - Server mode (OPA REST API with Rego) + embedded mode (JavaScript evaluators)
+  - Policy bundles for versioned distribution, vertical-aware filtering
+  - API: `/api/v1/opa/*` (evaluate, batch evaluate, policies CRUD, bundles)
+- **Apache Flink CEP** (`backend/src/services/streaming/FlinkCEPService.ts`)
+  - Embedded sliding-window Complex Event Processing engine
+  - 6 default CEP rules: compliance drift burst, cross-department violations, security escalation, guardrail trigger storm, data exfiltration, IISS score drop
+  - Condition types: count, distinct sources, severity escalation, pattern sequence, field threshold, absence detection, custom evaluator
+  - Actions: alert, escalate, webhook, kafka emit, log
+  - Alert management with acknowledgment workflow
+  - API: `/api/v1/flink/*` (rules, events/ingest, alerts)
+
+#### Backend Integration
+- All 9 services registered in `backend/src/index.ts` startup sequence with graceful error handling
+- All routes mounted at `/api/v1/{service}` with `devAuth` middleware
+- Kafka event emission from NeMo Guardrails, OPA, Temporal, and Flink services
+
+#### Documentation
+- `README.md` — Updated with Feb 26 infrastructure section, new Docker profiles, service URLs, project structure, environment variables
+- `docs/DATACENDIA_BIBLE.md` — Version 5.0 with infrastructure component table and updated implementation status
+- `backend/.env.example` — All new environment variables documented with defaults
+
 ### Fixed — 2026-02-20
 
 #### CendiaDCII™ Dashboard — All 6 Tabs Fully Functional
