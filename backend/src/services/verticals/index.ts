@@ -69,6 +69,9 @@ export * as smartCityCouncilModes from './smartcity/SmartCityCouncilModes.js';
 // Vertical Sentinel Meta-Agents
 export * from './meta/VerticalSentinelService.js';
 
+// EU Banking Compliance (Basel III + EU AI Act)
+export * from './eu-banking/index.js';
+
 // Internal Dogfooding (Datacendia-for-Datacendia)
 export * from './internal/DatacendiaInternalService.js';
 

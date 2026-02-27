@@ -85,6 +85,7 @@ import prometheusRoutes from './routes/prometheus.js';
 import legalResearchRoutes from './routes/legal-research.js';
 import expressRoutes from './routes/express.js';
 import recallRoutes from './routes/recall.js';
+import euBankingRoutes from './routes/eu-banking.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -276,6 +277,7 @@ app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, g
 app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
 app.use('/api/v1/express', expressRoutes); // Express Intelligence - quick analysis without Council
 app.use('/api/v1', recallRoutes);          // CendiaRecall™ - Decision Outcome Tracking
+app.use('/api/v1/eu-banking', euBankingRoutes); // EU Banking - Basel III + EU AI Act compliance
 
 // 404 handler
 app.use((_req, res) => {

@@ -42,5 +42,8 @@ export { NonProfitPage } from './NonProfitPage';
 // Tier 4: Smart City / Municipal
 export { SmartCityPage } from './SmartCityPage';
 
+// EU Banking Compliance
+export { EUBankingPage } from './EUBankingPage';
+
 // Verticals Hub
 export { VerticalsHubPage } from './VerticalsHubPage';

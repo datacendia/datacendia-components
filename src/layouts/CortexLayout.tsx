@@ -761,6 +761,15 @@ const verticalPacks = [
     description: '17 agents, 28 council modes, 3 guardians',
     industry: 'Government',
   },
+  // EU Banking Compliance
+  {
+    id: 'eu-banking',
+    label: 'EU Banking Compliance',
+    Icon: Scale,
+    path: '/verticals/eu-banking',
+    description: 'Basel III + EU AI Act for mid-tier EU banks',
+    industry: 'Banking',
+  },
 ];
 
 // =============================================================================

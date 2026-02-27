@@ -356,6 +356,20 @@ const verticals: Vertical[] = [
     compliance: ['CFPB', 'State Lending Laws', 'PCI-DSS', 'GDPR'],
     status: 'coming-soon',
   },
+  {
+    id: 'eu-banking',
+    name: 'EU Banking Compliance',
+    icon: '🏦',
+    tier: 'priority',
+    roi: '31%',
+    sovereignty: 100,
+    description: 'Basel III capital/liquidity + EU AI Act compliance for mid-tier EU banks',
+    keyMetric: 'Real-time CRR/CRD monitoring',
+    route: '/verticals/eu-banking',
+    agents: ['Basel III Analyst', 'AI Act Compliance Officer', 'Risk Capital Manager', 'Liquidity Officer'],
+    compliance: ['Basel III CRR', 'CRD IV', 'EU AI Act 2024/1689', 'DORA', 'MiFID II'],
+    status: 'ga',
+  },
 ];
 
 // =============================================================================
