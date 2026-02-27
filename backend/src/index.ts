@@ -89,6 +89,7 @@ import euBankingRoutes from './routes/eu-banking.js';
 import kafkaRoutes from './routes/kafka.js';
 import guardrailsRoutes from './routes/guardrails.js';
 import opaRoutes from './routes/opa.js';
+import temporalRoutes from './routes/temporal.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -284,6 +285,7 @@ app.use('/api/v1/eu-banking', euBankingRoutes); // EU Banking - Basel III + EU A
 app.use('/api/v1/kafka', kafkaRoutes);               // Kafka admin & monitoring
 app.use('/api/v1/guardrails', guardrailsRoutes);     // NeMo Guardrails admin & evaluation
 app.use('/api/v1/opa', opaRoutes);                   // Open Policy Agent policy-as-code
+app.use('/api/v1/temporal', temporalRoutes);         // Temporal.io workflow orchestration
 
 // 404 handler
 app.use((_req, res) => {
@@ -446,6 +448,15 @@ const startServer = async () => {
       logger.info('[Kafka] Durable event streaming initialized');
     } catch (e) {
       logger.warn('[Kafka] Event streaming initialization failed — using in-memory buffer:', e);
+    }
+
+    // Temporal.io durable workflow orchestration (optional — set TEMPORAL_ENABLED=true)
+    try {
+      const { temporal: temporalService } = await import('./services/temporal/TemporalService.js');
+      await temporalService.connect();
+      logger.info('[Temporal] Workflow orchestration initialized');
+    } catch (e) {
+      logger.warn('[Temporal] Workflow orchestration initialization failed — using embedded mode:', e);
     }
 
     // Start Chronos Event Bus flush scheduler (retries failed event writes)
