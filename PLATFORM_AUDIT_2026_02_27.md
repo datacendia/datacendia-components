@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-The Datacendia platform is a **547,303-line TypeScript codebase** spanning 1,327 source files across backend (867 TS) and frontend (460 TS/TSX). It implements a sovereign-first enterprise AI decision intelligence platform with 30 industry verticals, 9 enterprise infrastructure integrations, 26 language localizations, and 260 Prisma database models.
+The Datacendia platform is a **547,303-line TypeScript codebase** spanning 1,327 source files across backend (867 TS) and frontend (460 TS/TSX). It implements a sovereign-first enterprise AI decision intelligence platform with 29 industry verticals, 9 enterprise infrastructure integrations, 26 language localizations, and 260 Prisma database models.
 
 ### Overall Score: **8.7 / 10**
 
@@ -75,7 +75,7 @@ The Datacendia platform is a **547,303-line TypeScript codebase** spanning 1,327
 
 | Metric | Count |
 |--------|------:|
-| Industry verticals | 30 |
+| Industry verticals | 29 |
 | Sovereign services | 22 |
 | i18n languages | 26 |
 | Documentation files | 289 |
@@ -197,6 +197,7 @@ All 9 components from the Infrastructure Upgrade Plan have been implemented and 
 | SEC-01 | 🟡 Medium | 82 route files lack explicit auth middleware | Audit each file; add `devAuth` where missing or document as intentionally public |
 | SEC-02 | ⚠️ Low | `adapters.ts` had malformed import (fixed during audit) | Fixed ✅ |
 | SEC-03 | ⚠️ Info | Strict TypeScript (`noImplicitAny`) catches most type safety issues | Continue enforcing strict mode |
+| SEC-04 | 🔴 Critical | **Compliance claims inconsistency (RESOLVED):** CendiaDefenseStack™ previously claimed "FedRAMP High authorized" and "ITAR compliant" while Appendix G listed FedRAMP as 🟡 "Architecture Supports" and ITAR as 🔴 "Future." "Authorized" has specific legal meaning under FedRAMP. | **Fixed Feb 27:** All DefenseStack language updated to "architecture aligned" / "architecture designed" with "(authorization on contract)" qualifier. Verified consistent across 4 locations in DATACENDIA_BIBLE.md |
 
 ---
 
@@ -294,7 +295,7 @@ All 9 components from the Infrastructure Upgrade Plan have been implemented and 
 
 ## 8. Verticals Assessment
 
-30 industry verticals implemented:
+29 industry verticals implemented (30 directories including `core/` base framework):
 
 | Vertical | Status | Notes |
 |----------|:------:|-------|

@@ -365,10 +365,8 @@ Write the "${params.title}" section. Be specific, use data where available, and 
     try {
       const response = await ollama.generate(prompt, {
         model: 'llama3.2',
-        options: {
-          temperature: 0.7,
-          num_predict: 1000,
-        },
+        temperature: 0.7,
+        max_tokens: 1000,
       });
       
       return response.trim();
@@ -400,7 +398,7 @@ Format: ["Recommendation 1", "Recommendation 2", ...]`;
       const response = await ollama.generate(prompt, {
         model: 'llama3.2',
         format: 'json',
-        options: { temperature: 0.5 },
+        temperature: 0.5,
       });
       
       // Parse JSON response

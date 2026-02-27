@@ -294,13 +294,13 @@
 
 | Framework | Status | Applies To |
 |-----------|--------|------------|
-| **SOC 2 Type II** | ✅ Certified | All Services |
-| **GDPR** | ✅ Compliant | All Services |
-| **HIPAA** | ✅ Certified | Healthcare Packages |
-| **ISO 27001** | ✅ Certified | All Services |
-| **PCI-DSS** | ✅ Compliant | Finance Packages |
-| **FedRAMP** | 🔄 In Progress | Government Sovereign |
-| **SOX** | ✅ Compliant | Finance Packages |
+| **SOC 2 Type II** | 🟡 Architecture Aligned | All Services — formal audit on enterprise contract |
+| **GDPR** | ✅ Design-Compliant | All Services — DPA available, data residency controls |
+| **HIPAA** | 🟡 Architecture Aligned | Healthcare Packages — BAA available, technical safeguards implemented |
+| **ISO 27001** | 🟡 Architecture Aligned | All Services — ISMS controls in place, certification on contract |
+| **PCI-DSS** | 🟡 Architecture Aligned | Finance Packages — platform does not process card data directly |
+| **FedRAMP** | � Architecture Aligned | Government Sovereign — NIST 800-53 mapped, ATO via deployment partner |
+| **SOX** | 🟡 Architecture Aligned | Finance Packages — audit trail and controls implemented |
 
 ---
 

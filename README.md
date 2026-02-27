@@ -1,87 +1,64 @@
-# Datacendia Platform
+# Datacendia
 
-[![CI/CD Pipeline](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml/badge.svg)](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml)
-[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](#license)
+[![CI](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml/badge.svg)](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception%20Member-76b900.svg)](https://www.nvidia.com/en-us/startups/)
+[![License](https://img.shields.io/badge/License-See%20LICENSE-lightgrey.svg)](#license)
 
-> **The Enterprise AI Decision Intelligence Platform**
-> 
-> Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
+**AI-powered multi-agent deliberation for enterprise decisions.**
 
-## ✨ What's New (February 26, 2026)
+Datacendia is a decision intelligence platform where multiple AI agents *deliberate* — argue, dissent, and challenge each other — before a recommendation is made. Every decision produces a cryptographically signed, immutable audit trail that's court-admissible and regulator-ready.
 
-### Infrastructure Upgrade — 9 Enterprise Components (Feb 26)
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    DATACENDIA PLATFORM                       │
+│                                                              │
+│   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
+│   │ Strategy │  │  Risk    │  │Compliance│  │ Dissent  │   │
+│   │  Agent   │──│  Agent   │──│  Agent   │──│  Agent   │   │
+│   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘   │
+│        │             │             │             │           │
+│        └─────────────┴──────┬──────┴─────────────┘           │
+│                             │                                │
+│                    ┌────────▼────────┐                       │
+│                    │ Council Engine  │  ← Multi-agent        │
+│                    │  (Deliberation) │    deliberation        │
+│                    └────────┬────────┘                       │
+│                             │                                │
+│                    ┌────────▼────────┐                       │
+│                    │ Decision Ledger │  ← Immutable,         │
+│                    │  (Merkle-signed)│    cryptographic       │
+│                    └─────────────────┘                       │
+└─────────────────────────────────────────────────────────────┘
+```
 
-**NVIDIA Inception Program Member** 🟢
+## Why Datacendia?
 
-#### Phase 1: NVIDIA Stack
-- **InferenceProvider Abstraction** — Unified `IInferenceProvider` interface with Ollama, Triton Inference Server, and NVIDIA NIM backends. Zero-change migration for 48 consuming services. `INFERENCE_PROVIDER=ollama|triton|nim`
-- **NeMo Guardrails Integration** — LLM-powered guardrail evaluation engine with 9 default rails (jailbreak detection, hallucination, bias/fairness, PII leakage, topic enforcement, financial disclaimer, medical safety, grounding verification). Hybrid mode: regex pre-filter + LLM deep evaluation. Integrated into `CendiaSentryService.checkContentWithNeMo()`. API: `/api/v1/guardrails/*`
-- **NVIDIA RAPIDS / cuGraph** — GPU-accelerated analytics for bias analysis (disparate impact, statistical parity, equalized odds, intersectional), graph analytics (PageRank, community detection, betweenness centrality), statistical hypothesis testing, and anomaly detection. Full CPU fallback. API: `/api/v1/rapids/*`
-- **Confidential Computing** — GPU attestation via NVIDIA Local Attestation Service, confidential session management, inference enforcement, CC evidence generation for DCII P7. API: `/api/v1/rapids/cc/*`
+- **Deliberation over dictation** — Multiple AI perspectives challenge each other before any recommendation. No single-model black box.
+- **Immutable audit trail** — Every decision is Merkle-signed with full reasoning chains. Export court-admissible evidence packets.
+- **Sovereign by default** — Runs entirely on your infrastructure. Air-gapped deployable. No data leaves your network.
+- **Compliance-native** — Architecture aligned to SOC 2, HIPAA, GDPR, NIST 800-53, Basel III, EU AI Act. Controls implemented, formal certifications available on enterprise contract.
+- **9 enterprise infrastructure integrations** — Kafka, Temporal, OPA, OpenBao, NeMo Guardrails, RAPIDS, Flink CEP, Triton, Confidential Computing. All opt-in with embedded fallbacks.
 
-#### Phase 2: Event Infrastructure
-- **Apache Kafka** — Durable event streaming backbone. 7 topic categories (decisions, agents, audit, sentry, inference telemetry, verticals, workflows). `KafkaEventBridge` connects EventBus, ChronosEventBus, and Redis PubSub to Kafka. In-memory fallback buffer when Kafka unavailable. API: `/api/v1/kafka/*`
-- **Temporal.io** — Durable workflow orchestration with 6 built-in workflows (CouncilDeliberation, ComplianceReview, DataPipeline, IncidentResponse, ScheduledReport, OrganizationOnboarding saga). Embedded execution fallback. Activity-level retry with exponential backoff. API: `/api/v1/temporal/*`
+## Community vs Enterprise
 
-#### Phase 3: Security & Policy
-- **OpenBao/Vault** — Comprehensive secrets management (API-compatible with HashiCorp Vault). KV v2 secrets, transit encryption, PKI certificate issuance, dynamic database credentials, lease auto-renewal, ACL policy management, AppRole auth. API: `/api/v1/openbao/*`
-- **Open Policy Agent (OPA)** — Data-driven policy-as-code engine complementing Casbin RBAC. 8 embedded policies covering data classification, PII handling, retention, segregation of duties, AI model deployment (EU AI Act), consent verification, HIPAA minimum necessary. API: `/api/v1/opa/*`
-- **Apache Flink CEP** — Real-time Complex Event Processing with sliding-window engine. 6 default rules (compliance drift burst, security escalation, guardrail trigger storm, data exfiltration, IISS score drop). API: `/api/v1/flink/*`
-
-All 9 components are **opt-in** (disabled by default), have **embedded CPU/in-memory fallbacks**, and are **sovereign-compatible** (self-hosted, air-gapped capable, open-source licensed).
-
-### Previous Updates (February 18, 2026)
-
-#### Predictive Intelligence & Counterfactual Replay (Feb 18)
-- **CendiaPredict™** — Decision Risk Intelligence: forward-looking quantitative risk scoring with probabilistic risk curves across 5 failure modes
-- **CendiaRewind™** — Counterfactual Decision Replay: simulate alternative paths, compare against actuals, detect bias patterns
-- **EchoExpress Consolidation** — Unified decision intelligence dashboard (Recall + Predict + Prisma)
-- **Sovereign Service Prisma Migration** — All 10 sovereign services migrated to PostgreSQL persistence
-- **204,751 tests passing** — 165 backend test files, 33 integration/E2E files, 0 TypeScript errors
-
-## ✨ Previous Updates (February 17, 2026)
-
-### Platform Integrity Audit & CendiaRecall™ (Feb 17)
-- **CendiaRecall™** — Decision Outcome Tracker: the missing feedback loop primitive. Tracks predicted vs actual outcomes, calculates prediction accuracy, detects systematic biases (optimism, pessimism, anchoring), generates lessons learned. API at `/api/v1/recall/*`
-- **666 Math.random() calls eliminated** — Replaced across 129 files (backend + frontend) with deterministic, reproducible computations using SHA-256 (backend) and djb2+xorshift (frontend) hashing
-- **311/311 backend services rated 10/10** — Zero placeholder comments, zero simulated data, zero stale "in production, would..." references
-- **6 static frontend pages wired to backend APIs** — ConsensusBuilder, WhatIfScenarios, LiveAgentMonitor, ShadowOps, Sanctuary, Succession
-- **250+ placeholder comments fixed** — All "// Simulate", "in production, would...", and fake method names replaced with real implementations or "Production upgrade:" notation
-- **Deterministic utilities** — `backend/src/utils/deterministic.ts` and `src/lib/deterministic.ts` provide `deterministicFloat`, `deterministicInt`, `deterministicPercentage`, `deterministicPick`, `deterministicBool`, `deterministicScore` for reproducible, auditable computations
-
-## ✨ Previous Updates (February 12, 2026)
-
-### CendiaDCII™ — Decision Crisis Immunization Infrastructure (Feb 12)
-- **CendiaIISS™** — Institutional Immune System Score (0–1000 scale, 5-band certification)
-- **CendiaMediaAuth™** — Synthetic Media Authentication (C2PA signing, deepfake detection, chain of custody)
-- **CendiaJurisdiction™** — Cross-Jurisdiction Compliance Conflict Detection (GDPR vs PIPL, good-faith documentation)
-- **CendiaTimestamp™** — RFC 3161 External Timestamp Authority (multi-provider, batch, blockchain anchoring)
-- **CendiaSimilarity™** — Decision Similarity Engine (TF-IDF semantic search, outcome-aware, pattern detection)
-- **52 DCII tests passing** — Full backend test coverage for all 5 DCII services
-- **Uniform Cendia™ branding** — All 29 navigation items, 18 backend services, 10 frontend pages, breadcrumbs, and i18n aligned to canonical `Cendia[Name]™` standard
-
-### Enterprise Platinum (Feb 7)
-- **Auto-Apply Database Indexes** — Performance indexes applied automatically on server startup (idempotent)
-- **Universal Redis Caching** — All API routes cached via Redis with automatic invalidation on mutations
-- **PostgreSQL HA Production-Ready** — Primary/replica with PgBouncer, WAL archiving, auto-failover, healthchecks
-- **Grafana Auto-Provisioning** — Dashboards and datasources auto-imported on startup
-- **202,500+ Tests Passing** — 184 test files (161 backend + 23 integration/AI), 0 failures with graceful fallback
-- **CendiaCascade™** — Second/third-order consequence engine ("Butterfly Effect" analysis)
-- **CendiaLens™** — AI interpretability with attention visualization, circuit tracing, symbolic residue
-- **11 Sovereign Architecture Patterns** — Data Diode, Shadow Council, QR Air-Gap Bridge, TPM Attestation, and more
-
-### Platform v4.5 (Jan 28)
-- **Unified Docker Compose** — Single `docker-compose.unified.yml` with profiles for all services
-- **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
-- **CendiaLive™** — Watch AI agents deliberate in real-time with animated avatars
-- **CendiaReplay™** — Watch past deliberations unfold like a movie
-- **CendiaRedTeam™** — Adversarial Red Team with 8 attack perspectives
-- **Regulator's Receipt Generator** — One-click court-admissible PDF with Merkle tree evidence
-- **CendiaQuantumKMS™** — Quantum-resistant cryptography (Dilithium, SPHINCS+, Falcon)
-- **CendiaCarbon™** — Carbon-aware AI scheduling with multi-region optimization
-- **CendiaCompliance™** — Real-time compliance monitoring (10 frameworks)
-- **CendiaJurisdiction™** — Multi-jurisdiction compliance engine (17 jurisdictions)
-- **Sports/Football Vertical** — Transfer governance with UEFA FFP, FIFA Agent Regs, Premier League PSR
+| Capability | Community (Open Source) | Enterprise |
+|-----------|----------------------|-----------|
+| **Council Engine** (multi-agent deliberation) | ✅ | ✅ |
+| **Decision Ledger** (immutable, Merkle-signed) | ✅ | ✅ |
+| **Deliberation API** | ✅ | ✅ |
+| **Basic Trust Layer** (RBAC, audit, signing) | ✅ | ✅ |
+| **Financial Services agents** (basic) | ✅ | ✅ Full (SR 11-7, FRTB, BCBS 239) |
+| **Docker Compose local deployment** | ✅ | ✅ |
+| **29 industry verticals** | Lite | Full (12+ agents per vertical) |
+| **Sovereign Services** (Collapse, Sanctuary, ShadowOps) | — | ✅ |
+| **Post-Quantum KMS** (Dilithium, SPHINCS+) | — | ✅ |
+| **Zero-Knowledge Proofs** | — | ✅ |
+| **CendiaInsure™** (per-decision liability coverage) | — | ✅ |
+| **Ghost Board™** (AI board simulation) | — | ✅ |
+| **Enterprise SSO** (Keycloak) | — | ✅ |
+| **Managed cloud hosting** | — | ✅ |
+| **White-label licensing** | — | ✅ |
 
 ## 🚀 Quick Start
 
@@ -192,7 +169,7 @@ datacendia-components/
 │   │   ├── middleware/     # Auth, logging, security
 │   │   ├── security/       # PolicyEngine, KeycloakAuth, KMS, HSM
 │   │   └── config/         # Database, Redis, Neo4j, inference config
-│   └── prisma/             # Database schema & migrations (232 models)
+│   └── prisma/             # Database schema & migrations (260 models)
 ├── tests/                  # Test suites (Vitest + Playwright)
 ├── infrastructure/         # PostgreSQL HA scripts
 ├── grafana/                # Dashboard & datasource provisioning
@@ -298,7 +275,7 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | Backend adapters | **12** (6 sovereign) |
 | Frontend pages | **196** |
 | Frontend components | **79** |
-| Prisma models | **232** |
+| Prisma models | **260** |
 | Prisma enums | **141** |
 | Passing tests | **204,751** |
 | Industry verticals | **29** (84 service files) |
@@ -456,9 +433,58 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## 📄 License
 
-**Proprietary** - Copyright © 2024-2026 Datacendia, Inc. All rights reserved.
+Copyright © 2024-2026 Datacendia, Inc. See [LICENSE](LICENSE) for details.
 
-This software is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited.
+Community Edition components are available under open-source terms. Enterprise features require a commercial license — contact sales@datacendia.com.
+
+---
+
+<details>
+<summary><strong>📋 Changelog (click to expand)</strong></summary>
+
+### February 26, 2026 — Infrastructure Upgrade (9 Enterprise Components)
+
+**NVIDIA Inception Program Member** 🟢
+
+- **InferenceProvider Abstraction** — Unified `IInferenceProvider` interface with Ollama, Triton, and NVIDIA NIM backends
+- **NeMo Guardrails** — 9 default rails (jailbreak, hallucination, bias, PII, topic enforcement)
+- **NVIDIA RAPIDS / cuGraph** — GPU-accelerated bias analysis, graph analytics, anomaly detection (CPU fallback)
+- **Confidential Computing** — GPU attestation, session management, CC evidence generation
+- **Apache Kafka** — 7 topic categories, in-memory fallback, EventBridge integration
+- **Temporal.io** — 6 built-in workflows, embedded execution fallback
+- **OpenBao/Vault** — KV v2, transit encryption, PKI, dynamic DB credentials
+- **Open Policy Agent** — 8 embedded policies, EU AI Act, HIPAA minimum necessary
+- **Apache Flink CEP** — Sliding-window engine, 6 default rules
+
+All 9 components are opt-in (disabled by default) with embedded fallbacks.
+
+### February 18, 2026 — Predictive Intelligence
+- **CendiaPredict™** — Forward-looking quantitative risk scoring
+- **CendiaRewind™** — Counterfactual decision replay
+- **204,751 tests passing** — 0 TypeScript errors
+
+### February 17, 2026 — Platform Integrity Audit
+- **CendiaRecall™** — Decision outcome tracking with bias detection
+- **666 Math.random() calls eliminated** — Replaced with deterministic, reproducible computations
+- **311/311 backend services rated 10/10** — Zero placeholder code
+
+### February 12, 2026 — DCII Framework
+- **CendiaIISS™** — Institutional Immune System Score (0–1000 scale)
+- **CendiaMediaAuth™** — Synthetic media authentication (C2PA signing)
+- **CendiaTimestamp™** — RFC 3161 external timestamp authority
+
+### February 7, 2026 — Enterprise Platinum
+- **PostgreSQL HA** — Primary/replica with PgBouncer, WAL archiving, auto-failover
+- **Grafana auto-provisioning** — Dashboards and datasources on startup
+- **202,500+ tests passing**
+
+### January 28, 2026 — Platform v4.5
+- **Unified Docker Compose** — Single file with profiles for all services
+- **Defense & National Security Vertical** — 24 agents, 35 council modes
+- **CendiaQuantumKMS™** — Post-quantum cryptography (Dilithium, SPHINCS+, Falcon)
+- **Sports/Football Vertical** — Transfer governance with UEFA FFP, FIFA Agent Regs
+
+</details>
 
 ---
 

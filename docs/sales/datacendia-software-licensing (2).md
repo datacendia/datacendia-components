@@ -829,10 +829,10 @@ You can export your data at any time from Settings > Data Export
 6. SECURITY
 ───────────────────────────────────────────────────────────────────────────
 
-6.1 Certifications
-• SOC 2 Type II
-• ISO 27001 (Enterprise)
-• GDPR compliant
+6.1 Compliance Architecture
+• SOC 2 Type II — architecture aligned (formal audit planned)
+• ISO 27001 — architecture aligned (Enterprise tier, certification on contract)
+• GDPR — design-compliant (DPA available)
 
 6.2 Security Measures
 • Encryption: TLS 1.3 in transit, AES-256 at rest

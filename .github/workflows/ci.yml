@@ -43,7 +43,8 @@ jobs:
         run: npx tsc --noEmit --skipLibCheck
 
       - name: Lint
-        run: npm run lint 2>&1 || true
+        run: npm run lint
+        continue-on-error: true
 
       - name: Build
         run: npx vite build
@@ -117,7 +118,8 @@ jobs:
 
       - name: Lint
         working-directory: backend
-        run: npm run lint 2>&1 || true
+        run: npm run lint
+        continue-on-error: true
 
       - name: Run unit tests (exclude e2e/integration)
         working-directory: backend
@@ -136,3 +138,29 @@ jobs:
           REDIS_URL: redis://localhost:6379
           JWT_SECRET: test-secret-key-for-ci-minimum-32-chars
           NODE_ENV: test
+
+      - name: Run infrastructure service tests
+        working-directory: backend
+        run: npx vitest run src/__tests__/infrastructure/ --reporter=verbose
+        env:
+          CI: true
+          NODE_ENV: test
+
+  # ===========================================================================
+  # STATUS CHECK — Required for branch protection
+  # ===========================================================================
+  ci-status:
+    name: CI Status
+    if: always()
+    needs: [frontend, backend]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check job results
+        run: |
+          echo "Frontend: ${{ needs.frontend.result }}"
+          echo "Backend:  ${{ needs.backend.result }}"
+          if [[ "${{ needs.frontend.result }}" == "failure" || "${{ needs.backend.result }}" == "failure" ]]; then
+            echo "::error::CI failed — see individual job logs above"
+            exit 1
+          fi
+          echo "All CI checks passed"

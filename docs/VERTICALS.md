@@ -893,7 +893,7 @@ Manufacturing faces unprecedented supply chain volatility with tariff uncertaint
 | **Manufacturing Starter** | $80,000 | 8 Pillars + 4 Manufacturing Agents | 8 months |
 | **Manufacturing Professional** | $700,000 | + Aegis, Crucible, Symbiont | 5 months |
 | **Manufacturing Enterprise** | $3,500,000 | + Full Guardian Suite | 3 months |
-| **Manufacturing Sovereign** | $8,000,000+ | + OT-isolated, ITAR-compliant | 2 months |
+| **Manufacturing Sovereign** | $8,000,000+ | + OT-isolated, ITAR architecture aligned | 2 months |
 
 **Ecosystem Hook:** Anonymized supply chain risk signals via CendiaMesh™ (industry consortium).
 

@@ -495,10 +495,8 @@ Translations to ${langInfo.name}:`;
 
         const response = await ollamaService.generate(prompt, {
           model: 'llama3.2:3b',
-          options: {
-            temperature: 0.2,
-            num_predict: 2000,
-          },
+          temperature: 0.2,
+          max_tokens: 2000,
         });
 
         // Parse the response
@@ -582,10 +580,8 @@ Translation:`;
 
       const response = await ollamaService.generate(prompt, {
         model: 'llama3.2:3b',
-        options: {
-          temperature: 0.3,
-          num_predict: 2000,
-        },
+        temperature: 0.3,
+        max_tokens: 2000,
       });
 
       return response.trim();

@@ -182,7 +182,7 @@ All enterprise services are DB-backed via `persistServiceRecord` + `loadFromDB()
 | Category | Verticals | Implementation |
 |----------|-----------|----------------|
 | **Sports** (flagship) | SportsAgents (10 agents), SportsKnowledgeBase, SportsDecisionService | Real regulation corpus (UEFA/FIFA/PSR), Prisma models, knowledge-base driven |
-| **Defense** (complete) | DefenseVerticalService, DefenseAgents (24), DefenseCouncilModes (35) | FedRAMP High, CMMC Level 3, ITAR, NIST 800-171 |
+| **Defense** (complete) | DefenseVerticalService, DefenseAgents (24), DefenseCouncilModes (35) | Architecture aligned: FedRAMP High, CMMC Level 3, ITAR, NIST 800-171 (formal authorization on contract) |
 | **Healthcare** | HealthcareVertical + FHIR R4 connector | 12 FHIR resource types, SMART on FHIR, HIPAA audit |
 | **All verticals** | Financial, Legal, Government, Insurance, Energy, Manufacturing, Retail, Aerospace, Agriculture, Automotive, Construction, Hospitality, Media, Nonprofit, Pharmaceutical, Professional Services, Telecom, Transportation | `persistServiceRecord` + `loadFromDB()`, shared EmbeddingService (Ollama qwen3-embedding:4b, 2560-dim + hash fallback), VerticalSentinel persisted |
 

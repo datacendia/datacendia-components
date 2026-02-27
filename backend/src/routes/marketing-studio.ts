@@ -112,7 +112,7 @@ async function tryGenerate(prompt: string, fallback: any): Promise<any> {
     const available = await ollamaService.isAvailable();
     if (!available) return fallback;
     const response = await ollamaService.generate(prompt, {
-      options: { temperature: 0.7, num_predict: 2000 },
+      temperature: 0.7, max_tokens: 2000,
       format: 'json',
     });
     return JSON.parse(response);

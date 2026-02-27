@@ -642,7 +642,7 @@ What is the key difference and lesson learned? Be concise (1-2 sentences).`;
     try {
       return await ollama.generate(prompt, {
         model: 'llama3.2',
-        options: { temperature: 0.3, num_predict: 100 },
+        temperature: 0.3, max_tokens: 100,
       });
     } catch {
       return 'User preferred a different approach. Review both outputs for context.';

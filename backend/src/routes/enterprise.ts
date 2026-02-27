@@ -13,7 +13,7 @@ import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
 // Enterprise Services
-import { cendiaProcureService } from '../services/enterprise/CendiaProcureService.js';
+import { cendiaProcureService, type VendorContract } from '../services/enterprise/CendiaProcureService.js';
 import { cendiaScoutService } from '../services/enterprise/CendiaScoutService.js';
 import { cendiaRainmakerService } from '../services/enterprise/CendiaRainmakerService.js';
 import { cendiaRegentService } from '../services/enterprise/CendiaRegentService.js';
@@ -83,7 +83,20 @@ router.get('/procure/contracts/expiring', authenticate, async (req: Request, res
 router.post('/procure/contracts', authenticate, async (req: Request, res: Response) => {
   try {
     const validated = addContractSchema.parse(req.body);
-    const contract = cendiaProcureService.addContract(validated);
+    const expirationDate = typeof validated.expirationDate === 'string' ? new Date(validated.expirationDate) : validated.expirationDate;
+    const contract = cendiaProcureService.addContract({
+      vendorName: validated.vendorName,
+      vendorEmail: '',
+      category: validated.category as VendorContract['category'],
+      annualValue: validated.annualSpend,
+      currency: 'USD',
+      startDate: new Date(),
+      endDate: expirationDate,
+      renewalDate: expirationDate,
+      autoRenew: validated.autoRenew,
+      usagePercent: 100,
+      terms: validated.notes || '',
+    });
     res.json({ contract });
   } catch (error) {
     logger.error('Failed to add contract:', error);

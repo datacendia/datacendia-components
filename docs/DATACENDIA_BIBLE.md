@@ -18,26 +18,29 @@
 # Table of Contents
 
 1. [Genesis: The Vision](#genesis-the-vision)
-2. [Core Philosophy](#core-philosophy)
-3. [Platform Architecture](#platform-architecture)
-4. [The Council of Agents](#the-council-of-agents)
-5. [The Core Suite](#the-core-suite) ⭐ **Restructured**
-6. [The Trust Layer](#the-trust-layer) ⭐ **Restructured**
-7. [Vertical Packs](#vertical-packs)
-8. [Additional Services](#additional-services)
-9. [Sovereign Services](#sovereign-services) ⭐ **New**
-10. [Data Architecture](#data-architecture)
-11. [Security & Compliance](#security--compliance)
-12. [Deployment Models](#deployment-models)
-13. [Integration Capabilities](#integration-capabilities)
-14. [The Immutable Ledger](#the-immutable-ledger)
-15. [Sovereignty Matrix](#sovereignty-matrix)
-16. [AI Model Strategy](#ai-model-strategy)
-17. [Governance Framework](#governance-framework)
-18. [Technical Specifications](#technical-specifications)
-19. [Pricing & Packaging](#pricing--packaging)
-20. [Industry Verticals](#industry-verticals)
-21. [Appendices](#appendices)
+2. [Platform Implementation Status](#platform-implementation-status-february-2026)
+3. [Core Philosophy](#core-philosophy)
+4. [Platform Architecture](#platform-architecture)
+5. [The Council of Agents](#the-council-of-agents)
+6. [The Core Suite](#the-core-suite) ⭐ **Restructured**
+7. [The Trust Layer](#the-trust-layer) ⭐ **Restructured**
+8. [Vertical Packs](#vertical-packs)
+9. [Additional Services](#additional-services)
+10. [Sovereign Services](#sovereign-services) ⭐ **New**
+11. [Legacy Product Ecosystem](#legacy-product-ecosystem)
+12. [Enterprise Services](#enterprise-services)
+13. [Data Architecture](#data-architecture)
+14. [Security & Compliance](#security--compliance)
+15. [Deployment Models](#deployment-models)
+16. [Integration Capabilities](#integration-capabilities)
+17. [The Immutable Ledger](#the-immutable-ledger)
+18. [Sovereignty Matrix](#sovereignty-matrix)
+19. [AI Model Strategy](#ai-model-strategy)
+20. [Governance Framework](#governance-framework)
+21. [Technical Specifications](#technical-specifications)
+22. [Pricing & Packaging](#pricing--packaging)
+23. [Industry Verticals](#industry-verticals)
+24. [Appendices](#appendices)
     - [Appendix F: 2026 Product Roadmap](#appendix-f-2026-product-roadmap)
     - [Appendix G: Compliance Status Matrix](#appendix-g-compliance-status-matrix)
     - [Appendix H: Performance Benchmarks](#appendix-h-performance-benchmarks)
@@ -51,11 +54,13 @@
 
 Every day, executives make decisions that shape the future of their organizations—hiring, acquisitions, market expansions, technology investments, strategic pivots. These decisions are made with incomplete information, cognitive biases, time pressure, and often without the diverse perspectives needed to see blind spots.
 
-The consequences are staggering:
+The consequences are staggering:^[*]
 - **70%** of strategic initiatives fail to achieve their objectives
 - **$3.1 trillion** lost annually to poor decision-making in US businesses alone
 - **83%** of executives report decision fatigue affecting their judgment
 - **Average executive** makes 35,000 decisions per day, most on autopilot
+
+*^[*] Industry-cited figures. Sources: McKinsey (strategic initiative failure rates), Gartner (decision fatigue surveys), cognitive psychology research (daily decision estimates). Exact figures vary by study methodology.*
 
 Traditional BI tools show you *what happened*. Datacendia shows you *what to do about it*.
 
@@ -120,7 +125,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 |--------|--------|-------|
 | **Backend Code** | ~100% | 380+ services, 140+ route files, all wired up |
 | **Frontend UI** | ~95% | All major pages exist, connected to backend |
-| **Database Schema** | ~95% | 232 Prisma models, 141 enums |
+| **Database Schema** | ~95% | 260 Prisma models, 141 enums |
 | **Real Functionality** | ~100% | All features implemented, 10 OAuth2 connectors, 29 verticals, WebSocket streaming, Redis caching, infrastructure deployed |
 | **Infrastructure** | ~100% | 9 enterprise components (Kafka, Temporal, OPA, OpenBao, NeMo, RAPIDS, Flink, CC, Triton/NIM) |
 | **Production Ready** | ~100% | CI/CD ready, monitoring deployed, HA setup, backup automation, SBOM generation |
@@ -130,14 +135,15 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 | Category | Count | Status |
 |----------|-------|--------|
-| **Unit & Integration Tests** | 5,001+ | 99.99% Passing (205,001/205,150) |
-| **Property-Based Fuzzing** | 202,447+ | Backend Verification Steps per Build |
+| **Backend Unit & Integration Tests** | 3,511 | 99.9% Passing |
 | **Frontend Tests** | 1,434 | 98% Passing |
 | **Collapse Mode Scenarios** | 73 | 100% Passing |
 | **Council Flow Tests** | 44 | 100% Passing |
+| **Total Discrete Tests** | **5,062** | Combined unit, integration, frontend, scenario |
+| **Property-Based Fuzzing Steps** | 201,750+ | Randomized verification per build |
 | **API Route Coverage** | 120+ endpoints | Full Coverage |
 
-> **Metric Clarification:** Unit/Integration tests (3,511) validate discrete code logic. Property-based fuzzing (201,750+) generates randomized verification scenarios to stress-test edge cases, security boundaries, and failure modes at scale. Both run per build.
+> **Metric Clarification:** The 5,062 discrete tests break down as: 3,511 backend unit/integration + 1,434 frontend + 73 collapse scenarios + 44 council flows. Property-based fuzzing (201,750+ steps) generates randomized verification scenarios to stress-test edge cases, security boundaries, and failure modes at scale. Both run per build.
 
 ## What's Fully Implemented & Working
 
@@ -155,7 +161,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 ### WOW Features (January 21, 2026)
 
-- **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
+- **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR architecture aligned
 - **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars and confidence meters
 - **Decision CendiaReplay** — Watch past deliberations unfold like a movie with timeline scrubbing
 - **Adversarial Red Team Mode** — "100 Ways This Could Fail" report with 8 attack perspectives
@@ -964,11 +970,11 @@ HIPAA-compliant decisions for clinical trials, patient data, and FDA submissions
 
 **Government & Defense Edition**
 
-FedRAMP, ITAR, and classified environment support with air-gap deployment.
+FedRAMP, ITAR, and classified environment architecture with air-gap deployment.
 
 **Key Capabilities:**
 - Air-gapped SCIF deployment with no external dependencies
-- Pre-configured for FedRAMP High, ITAR, CMMC
+- Architecture aligned for FedRAMP High, ITAR, CMMC (formal authorization on contract)
 - CAC/PIV authentication support
 - Mandatory access controls and need-to-know compartmentalization
 - Classification markings and dissemination controls
@@ -1011,16 +1017,7 @@ AI-powered translation with glossary management and translation memory.
 
 ## CendiaDissent™
 
-**Protected Whistleblower Channel**
-
-File formal dissent with retaliation monitoring and outcome tracking.
-
-**Key Capabilities:**
-- Anonymous or attributed dissent filing
-- Cryptographic anonymity options
-- Automatic retaliation monitoring
-- Outcome verification (was the dissenter right?)
-- Pattern surfacing when dissents predict failures
+**Protected Whistleblower Channel** — See [Enterprise Services > CendiaDissent™](#cendiadissent-1) for full details.
 
 ---
 
@@ -1340,8 +1337,8 @@ Resource management for sovereign, air-gapped deployments where cloud auto-scali
 ### CendiaDefenseStack™
 **Government & Defense Grade**
 
-- FedRAMP High authorized
-- ITAR compliant
+- FedRAMP High architecture aligned (authorization available on government contract)
+- ITAR architecture designed (requires State Dept registration on defense contract)
 - Air-gapped operation
 - NATO security integration
 - Classified document handling

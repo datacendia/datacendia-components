@@ -687,10 +687,8 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
             },
           ], {
             model: agentModel,
-            options: {
-              temperature: 0.7,
-              num_predict: 500,
-            },
+            temperature: 0.7,
+            max_tokens: 500,
           });
 
           // Save agent response

@@ -323,7 +323,7 @@ router.post('/query', async (req: Request, res: Response) => {
       const fullPrompt = `${systemPrompt}\n\nUser question: ${query}\n\nProvide a helpful response with step-by-step workflow.`;
 
       const response = await ollamaService.generate(fullPrompt, {
-        options: { temperature: 0.7, num_predict: 2000 },
+        temperature: 0.7, max_tokens: 2000,
         format: 'json',
       });
       assistantResponse = JSON.parse(response);

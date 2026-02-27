@@ -82,7 +82,7 @@ Identify at least 5 failure modes. Be specific.`;
         model: this.MODEL,
         system: systemPrompt,
         format: 'json',
-        options: { temperature: 0.7, num_predict: 4096 },
+        temperature: 0.7, max_tokens: 4096,
       });
 
       let data: any;
@@ -254,7 +254,7 @@ Generate 5-7 tough questions these directors would ask. Make them specific and c
         model: this.MODEL,
         system: systemPrompt,
         format: 'json',
-        options: { temperature: 0.8, num_predict: 3000 },
+        temperature: 0.8, max_tokens: 3000,
       });
 
       let data: any;
@@ -584,7 +584,7 @@ Respond in JSON:
     try {
       const response = await ollama.generate(
         `Analyze this decision for compliance with: ${frameworks.join(', ')}\n\nDECISION: ${params.decision}`,
-        { model: 'deepseek-r1:32b', system: systemPrompt, format: 'json', options: { temperature: 0.3 } }
+        { model: 'deepseek-r1:32b', system: systemPrompt, format: 'json', temperature: 0.3 }
       );
 
       let data: any;
@@ -823,7 +823,7 @@ Respond in JSON:
     try {
       const response = await ollama.generate(
         `Red-team this decision. Find all weaknesses:\n\n${params.decision}`,
-        { model: this.MODEL, system: systemPrompt, format: 'json', options: { temperature: 0.8 } }
+        { model: this.MODEL, system: systemPrompt, format: 'json', temperature: 0.8 }
       );
 
       let data: any;

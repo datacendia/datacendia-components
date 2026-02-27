@@ -105,10 +105,8 @@ class ExecutiveSummaryService {
     try {
       const response = await ollamaService.generate(prompt, {
         model: this.modelId,
-        options: {
-          temperature: 0.4,
-          num_predict: 2000,
-        },
+        temperature: 0.4,
+        max_tokens: 2000,
       });
 
       const parsed = this.parseSummaryResponse(response);
@@ -152,10 +150,8 @@ class ExecutiveSummaryService {
     try {
       const response = await ollamaService.generate(prompt, {
         model: this.modelId,
-        options: {
-          temperature: 0.3,
-          num_predict: 3000,
-        },
+        temperature: 0.3,
+        max_tokens: 3000,
       });
 
       const parsed = this.parseMinutesResponse(response);

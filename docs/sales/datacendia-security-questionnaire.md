@@ -23,7 +23,7 @@
 
 | Question | Response |
 |----------|----------|
-| Do you maintain SOC 2 Type II certification? | Yes - Architecture designed for SOC 2 Type II compliance. Certification in progress. Report available upon NDA. |
+| Do you maintain SOC 2 Type II certification? | In Progress — Architecture designed to SOC 2 Type II Trust Services Criteria. Formal audit planned; timing available on request. |
 | Do you maintain ISO 27001 certification? | Roadmap - Planned for [Year]. Architecture designed to ISO 27001 controls. |
 | Are you GDPR compliant? | Yes - Full GDPR compliance including Data Processing Agreement (DPA) available. |
 | Are you HIPAA compliant? | Yes - HIPAA-compliant deployment option available. Business Associate Agreement (BAA) available. |
@@ -180,7 +180,7 @@
 
 ## ATTACHMENTS AVAILABLE UPON REQUEST
 
-1. SOC 2 Type II Report (under NDA)
+1. SOC 2 Readiness Assessment Summary (under NDA)
 2. Penetration Test Executive Summary (under NDA)
 3. Architecture Security Whitepaper
 4. Data Processing Agreement (DPA)

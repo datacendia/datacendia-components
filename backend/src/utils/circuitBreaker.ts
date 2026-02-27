@@ -2,6 +2,8 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+import { logger } from './logger.js';
+
 /**
  * Circuit Breaker Implementation
  * 

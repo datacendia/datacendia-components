@@ -636,7 +636,7 @@ Respond with ONLY valid JSON:
           ], { 
             model: modelName,
             format: 'json',
-            options: { temperature }
+            temperature,
           });
           
           auditRecord.rawResponse = response.content;

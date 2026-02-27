@@ -7,13 +7,13 @@
 
 Datacendia supports the following compliance frameworks:
 
-| Framework | Status | Coverage |
-|-----------|--------|----------|
-| **SOC 2 Type II** | ✅ Ready | 95% |
-| **GDPR** | ✅ Ready | 98% |
-| **HIPAA** | ✅ Ready | 92% |
-| **ISO 27001** | ✅ Ready | 90% |
-| **PCI-DSS** | ⚠️ Partial | 75% |
+| Framework | Status | Control Coverage |
+|-----------|--------|------------------|
+| **SOC 2 Type II** | 🟡 Architecture Aligned | 95% of controls implemented — formal audit planned |
+| **GDPR** | ✅ Design-Compliant | 98% — DPA available |
+| **HIPAA** | 🟡 Architecture Aligned | 92% — BAA available, technical safeguards in place |
+| **ISO 27001** | 🟡 Architecture Aligned | 90% — ISMS controls implemented |
+| **PCI-DSS** | ⚠️ Partial | 75% — platform does not process card data directly |
 
 ---
 

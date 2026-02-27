@@ -38,10 +38,8 @@ router.post('/generate', async (req: Request, res: Response) => {
 
     const response = await ollama.generate(fullPrompt, {
       model: model || undefined,
-      options: {
-        temperature: options?.temperature ?? 0.3,
-        num_predict: options?.num_predict ?? 2000,
-      },
+      temperature: options?.temperature ?? 0.3,
+      max_tokens: options?.num_predict ?? 2000,
     });
 
     logger.info('[AutoHeal] Fix generated', {

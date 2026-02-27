@@ -12,17 +12,17 @@
 
 | Framework | Status | Target Date | Notes |
 |-----------|--------|-------------|-------|
-| **NIST 800-53** | 🟡 In Progress | Q2 2025 | Federal Information Security |
-| **FedRAMP High** | 🟡 In Progress | Q3 2025 | Federal Cloud Authorization |
-| **FIPS 140-3** | ✅ Implemented | - | Cryptographic Standards |
-| **SOC 2 Type II** | 🟡 In Progress | Q2 2025 | Service Organization Controls |
-| **ISO 27001** | 🔴 Planned | Q4 2025 | Information Security Management |
-| **HIPAA** | 🟡 In Progress | Q2 2025 | Healthcare Data Protection |
-| **PCI-DSS** | 🔴 Planned | Q4 2025 | Payment Card Security |
-| **GDPR** | ✅ Implemented | - | EU Data Protection |
-| **CCPA** | ✅ Implemented | - | California Privacy |
-| **ITAR** | 🔴 Planned | 2026 | Export Controls |
-| **IL4/IL5** | 🔴 Planned | 2026 | DoD Impact Levels |
+| **NIST 800-53** | 🟡 Architecture Aligned | Q3 2026 | Controls mapped; formal assessment on contract |
+| **FedRAMP High** | 🟡 Architecture Aligned | On Contract | ATO via deployment partner |
+| **FIPS 140-3** | 🟡 Architecture Aligned | - | Uses FIPS-capable crypto libraries; formal validation not performed |
+| **SOC 2 Type II** | 🟡 Architecture Aligned | Q2 2026 | Trust Services Criteria implemented; formal audit planned |
+| **ISO 27001** | 🔴 Planned | On Contract | ISMS controls in place; certification on enterprise contract |
+| **HIPAA** | 🟡 Architecture Aligned | Q2 2026 | BAA available; technical safeguards implemented |
+| **PCI-DSS** | 🔴 Planned | On Contract | Platform does not process card data directly |
+| **GDPR** | ✅ Design-Compliant | - | DPA available; data residency controls; right to deletion |
+| **CCPA** | ✅ Design-Compliant | - | Privacy controls implemented |
+| **ITAR** | 🔴 Planned | On Contract | Architecture designed; requires State Dept registration |
+| **IL4/IL5** | 🔴 Planned | On Contract | Air-gap capable; formal authorization on defense contract |
 
 ---
 
@@ -312,9 +312,9 @@
 
 This document represents the current security posture of the Datacendia platform. All controls marked as implemented (✅) have been verified through internal assessment.
 
-**Next Audit:** Q1 2025  
+**Next Audit:** TBD (on enterprise contract)  
 **External Auditor:** [TBD]  
-**Certification Target:** SOC 2 Type II + FedRAMP
+**Certification Target:** SOC 2 Type II (first priority)
 
 ---
 

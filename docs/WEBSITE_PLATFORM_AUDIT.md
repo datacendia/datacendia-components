@@ -358,8 +358,8 @@
 | HashiCorp Vault | `KeyManagementService.ts` | ✅ Real |
 | Local Keys | File-based fallback | ✅ Real |
 
-### Compliance Frameworks (from Crucible Enterprise)
-- NIST 800-53, FedRAMP High, SOC2 Type II
+### Compliance Frameworks (from Crucible Enterprise — architecture aligned, not certified)
+- NIST 800-53, FedRAMP High, SOC 2 Type II
 - ISO 27001, HIPAA, PCI-DSS, GDPR, CCPA, CMMC Level 3
 
 ### Test Categories (from EnterpriseRedTeamService)
