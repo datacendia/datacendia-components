@@ -86,6 +86,7 @@ import legalResearchRoutes from './routes/legal-research.js';
 import expressRoutes from './routes/express.js';
 import recallRoutes from './routes/recall.js';
 import euBankingRoutes from './routes/eu-banking.js';
+import kafkaRoutes from './routes/kafka.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -278,6 +279,7 @@ app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
 app.use('/api/v1/express', expressRoutes); // Express Intelligence - quick analysis without Council
 app.use('/api/v1', recallRoutes);          // CendiaRecall™ - Decision Outcome Tracking
 app.use('/api/v1/eu-banking', euBankingRoutes); // EU Banking - Basel III + EU AI Act compliance
+app.use('/api/v1/kafka', kafkaRoutes);               // Kafka admin & monitoring
 
 // 404 handler
 app.use((_req, res) => {
@@ -429,6 +431,17 @@ const startServer = async () => {
       logger.info('Policy engine initialized');
     } catch (e) {
       logger.warn('Policy engine initialization failed:', e);
+    }
+
+    // Kafka durable event streaming (optional — set KAFKA_ENABLED=true)
+    try {
+      const { kafka: kafkaService } = await import('./services/kafka/KafkaService.js');
+      await kafkaService.connect();
+      const { kafkaEventBridge } = await import('./services/kafka/KafkaEventBridge.js');
+      await kafkaEventBridge.initialize();
+      logger.info('[Kafka] Durable event streaming initialized');
+    } catch (e) {
+      logger.warn('[Kafka] Event streaming initialization failed — using in-memory buffer:', e);
     }
 
     // Start Chronos Event Bus flush scheduler (retries failed event writes)
