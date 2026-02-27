@@ -59,6 +59,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "maxRounds": 4,
       "enableCrossExamination": true,
       "requireConsensus": false
+      // 4 rounds — time-critical emergency mode, minutes matter
     }
   }'
 ```
@@ -316,10 +317,21 @@ Safety gate: **REQUIRED — human operator makes final decision.**
 }
 ```
 
-### Phase 4: Safety Gate
+### Phase 4: Ethics & Safety Gate
 
 ```json
 {
+  "ethicsCheck": {
+    "passed": true,
+    "equityAssessment": "REVIEWED",
+    "safetyGate": "HOLD_FOR_HUMAN",
+    "notes": [
+      "Load shedding targets industrial interruptible contracts first — no residential impact",
+      "Residential AC cycling NOT activated — avoids disproportionate impact on low-income customers without backup cooling",
+      "Critical loads protected: all 14 hospitals, 8 water treatment plants, military installations, 911 services",
+      "Demand Response equity note: if residential cycling is activated in future, wellness checks required for vulnerable populations per state PUC equity guidelines"
+    ]
+  },
   "safetyGate": {
     "status": "HOLD_FOR_HUMAN",
     "message": "Load shedding actions require human operator authorization per NERC EOP standards.",
@@ -333,7 +345,7 @@ Safety gate: **REQUIRED — human operator makes final decision.**
 }
 ```
 
-The safety gate is not optional in energy operations. NERC standards require human authorization for load shedding. The Council provides the analysis, the resource stack, and the restoration timeline — but the system operator pushes the button.
+The ethics and safety gates are both mandatory for energy operations. The ethics check verifies that load shedding decisions don't disproportionately impact vulnerable populations — a concern that state PUCs and FERC increasingly scrutinize. The safety gate ensures human authorization for all load shedding per NERC EOP standards. The Council provides the analysis, the resource stack, and the restoration timeline — but the system operator pushes the button.
 
 ---
 

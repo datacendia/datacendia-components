@@ -82,6 +82,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "enableCrossExamination": true,
       "requireConsensus": false,
       "minConfidenceThreshold": 0.7
+      // 8 rounds — standard for regulatory deliberation with 4 agents
     }
   }'
 ```

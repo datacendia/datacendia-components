@@ -59,6 +59,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "maxRounds": 8,
       "enableCrossExamination": true,
       "requireConsensus": false
+      // 8 rounds — quality crisis needs rapid root cause but cross-functional validation is essential
     }
   }'
 ```

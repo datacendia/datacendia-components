@@ -8,9 +8,9 @@ This walkthrough follows a realistic federal procurement scenario through the Da
 
 ## The Scenario
 
-Three companies bid on a $47 million contract. The losing bidder will protest to the GAO. Your evaluation has to be bulletproof — and your team has 72 hours to finalize the source selection decision document.
+Last year, a veteran died waiting for a benefits decision because the case management system crashed and lost his file. The system is 20 years old, written in COBOL, and held together by three contractors who are the only people left who understand the code. Congress gave your agency $52M to replace it. Three companies submitted proposals. The losing bidder will protest to the GAO — and if your evaluation has a single documentation gap, the protest will succeed, the award will be overturned, and the replacement will be delayed another 18 months. Your team has 72 hours to finalize the source selection decision document.
 
-You are the Source Selection Authority at a **mid-size federal agency** running an IT modernization program. The agency's legacy case management system (20 years old, COBOL-based) must be replaced. After a full and open competition under FAR Part 15, three offerors submitted proposals.
+You are the Source Selection Authority at the **Federal Veterans Services Agency** (fictional), a mid-size agency serving 4.2 million veterans. After a full and open competition under FAR Part 15, three offerors submitted proposals.
 
 **Key facts:**
 - Contract type: Firm Fixed Price, 5-year period of performance (1 base + 4 options)
@@ -66,6 +66,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "maxRounds": 10,
       "enableCrossExamination": true,
       "requireConsensus": false
+      // 10 rounds — complex regulatory scenario with protest-proofing cross-examination
     }
   }'
 ```
@@ -91,12 +92,6 @@ Regulatory frameworks enforced: **FAR Part 15, DFARS, Competition in Contracting
 
 > **Evaluation Analysis: OFFEROR A IS BEST VALUE — WITH DOCUMENTATION GAPS**
 >
-> Applying FAR 15.308 source selection principles:
->
-> The solicitation states Technical is "significantly more important" than Price. Under established GAO case law (e.g., *Lockheed Martin Corp.*, B-418766), when technical is significantly more important, the agency may properly select a higher-priced, higher-rated offeror — but must document *why* the technical superiority is worth the price premium.
->
-> Comparative analysis:
->
 > | Factor | Offeror A (Apex) | Offeror B (ByteGov) | Offeror C (CloudFirst) |
 > |--------|:---:|:---:|:---:|
 > | **Technical** | Outstanding | Good | Outstanding |
@@ -105,13 +100,13 @@ Regulatory frameworks enforced: **FAR Part 15, DFARS, Competition in Contracting
 > | **Price** | $47.2M | $41.8M | $52.9M |
 > | **Best Value Assessment** | **Recommended** | Not recommended | Not recommended |
 >
-> **Offeror A vs. Offeror B:** The $5.4M price premium (12.9%) is justified by the two-adjectival-rating advantage on Technical (Outstanding vs. Good) and Management (Outstanding vs. Satisfactory). Under FAR 15.101-1, this is a textbook best value tradeoff — but the Source Selection Decision Document (SSDD) must articulate *specific technical discriminators* that justify the premium. Generic statements like "Offeror A demonstrated a superior approach" will not survive a protest.
+> Technical is "significantly more important" than Price. Offeror A has a two-rating advantage over the incumbent on Technical (Outstanding vs. Good) and Management (Outstanding vs. Satisfactory). The $5.4M premium (12.9%) is within the range GAO routinely upholds for this level of technical superiority.
 >
-> **Offeror A vs. Offeror C:** Both are Outstanding on Technical, but Offeror A is $5.7M lower and rated Outstanding on Management vs. Good. Offeror C's FedRAMP IL5 authorization is a significant strength, but not enough to overcome the price and management differential.
+> **But the SSDD has to say *why*, not just *that*.** Generic statements like "Offeror A demonstrated a superior approach" get overturned at GAO. The SSDD must cite specific discriminators — features in Offeror A's technical approach that directly address the agency's requirements better than Offeror B's. If the evaluators didn't document these during consensus scoring, we need to reconstruct them now.
 >
-> **Critical gap I need to flag:** Offeror A's FedRAMP authorization is "in process (expected 4 months)." If the system requires FedRAMP at contract start, this is a definitive weakness. If FedRAMP can be achieved during the transition period, it's a risk to be documented. The solicitation requirements need to be checked against L/M instructions.
+> **Second gap:** Offeror A's FedRAMP is "in process" (expected 4 months). If the solicitation required FedRAMP at contract start, this is a definitive weakness. If it can be achieved during transition, it's a documented risk. This needs a contractual mitigation — not just a sentence in the SSDD.
 >
-> **Preliminary position: SELECT OFFEROR A** with robust SSDD documenting technical discriminators and FedRAMP risk mitigation.
+> **Preliminary position: SELECT OFFEROR A** with specific discriminators documented and FedRAMP risk contractually mitigated.
 
 ---
 

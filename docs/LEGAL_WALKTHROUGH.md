@@ -2,7 +2,7 @@
 
 **From settlement demand to privilege-protected decision memo in 60 seconds.**
 
-This walkthrough follows a realistic litigation scenario through the Datacendia Legal vertical: a corporate legal team evaluating a $28M settlement demand in a multi-plaintiff employment class action. The platform's privilege-preserving AI council deliberates across litigation strategy, settlement economics, discovery risk, and ethics — producing an analysis that would normally take a partner, two associates, and a litigation analyst three days of billable time.
+This walkthrough follows a realistic litigation scenario through the Datacendia Legal vertical: a corporate legal team evaluating a $28M settlement demand in a multi-plaintiff employment class action. The platform's privilege-preserving AI council deliberates across litigation strategy, settlement economics, discovery risk, and professional ethics — and surfaces a question the client doesn't want to hear but the lawyers are ethically required to ask.
 
 The Legal vertical's killer feature: **"No source, no claim" + attorney-client privilege gates.** Every assertion is citation-enforced. Every output is privilege-tagged and protected from inadvertent disclosure.
 
@@ -10,9 +10,9 @@ The Legal vertical's killer feature: **"No source, no claim" + attorney-client p
 
 ## The Scenario
 
-Your client's former employees are suing for $28 million. Opposing counsel just made a settlement demand with a 10-day deadline. The CEO wants to fight. The CFO wants to settle. The board meeting is Friday. You need an analysis that both the litigator and the businessperson can understand — and that's protected by attorney-client privilege end to end.
+The CEO of your biggest client just told you, on the phone, that he will "fight this to the last dollar." He's wrong — and you know it, because you've seen the internal Slack messages that his own VP sent. If you tell the CEO what he wants to hear, you keep the client. If you tell him the truth, you might lose the relationship — but you're ethically required to do it anyway. The board meets Friday. The settlement deadline is in 10 days. And the remaining discovery production will make everything worse.
 
-You are the **Managing Partner** at a midsize litigation firm. Your client, **Pinnacle Technologies** (a 4,000-employee SaaS company), is defending against a class action alleging systematic misclassification of 340 software engineers as exempt from overtime under the FLSA and California Labor Code.
+You are the **Managing Partner** at a midsize litigation firm. Your client, **Veridian Labs** (a 4,000-employee SaaS company headquartered in San Jose), is defending against a class action alleging systematic misclassification of 340 software engineers as exempt from overtime under the FLSA and California Labor Code.
 
 **Key facts:**
 - Plaintiff class: 340 current and former software engineers (2021-2025)
@@ -51,7 +51,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $TOKEN" \
   -d '{
-    "question": "Should Pinnacle Technologies accept, counter, or reject the $28M settlement demand in Chen v. Pinnacle Technologies (FLSA class action, 340 plaintiff class, N.D. Cal.)? Current board authority is $12M. Win probability assessed at 35%. Key evidence includes damaging internal Slack messages. 10-day deadline.",
+    "question": "Should Veridian Labs accept, counter, or reject the $28M settlement demand in Chen v. Veridian Labs (FLSA class action, 340 plaintiff class, N.D. Cal.)? Current board authority is $12M. Win probability assessed at 35%. Key evidence includes damaging internal Slack messages. 10-day deadline. CEO insists on fighting. What is our Rule 2.1 obligation?",
     "context": {
       "vertical": "legal",
       "decisionType": "settlement-approval",
@@ -68,6 +68,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "enableCrossExamination": true,
       "requireConsensus": false,
       "privilegeEnforced": true
+      // 10 rounds — settlement economics require cross-examination; privilege enforcement adds overhead
     }
   }'
 ```
@@ -372,7 +373,9 @@ Privilege gate: **ALL outputs tagged attorney-client privileged work product.**
 >
 > The recommendation: counter at $20M this week, expect to close at $21-23M within three weeks, and avoid the discovery and trial costs that make the problem worse every month."
 
-The Discovery Specialist's insight — that the remaining 40% of production will worsen the defense position and that settling *before* full production preserves the current negotiating leverage — is the kind of timing-sensitive analysis that only emerges when a dedicated discovery agent examines the case through its own lens. The Ethics Counsel's identification of the Rule 2.1 duty ensures the firm doesn't just tell the CEO what he wants to hear — it tells the board what they need to know.
+The Ethics Counsel's Rule 2.1 finding is the pivotal insight — not because "settle before full discovery" is surprising (it's standard litigation strategy), but because the platform forced the ethical question into the deliberation as a first-class concern. The CEO wants to fight. The board's authority is $12M. Both positions are emotionally understandable and financially disastrous. An AI tool that only analyzes settlement economics would produce the counter-offer recommendation and stop. The Ethics Counsel agent goes further: it identifies that the lawyers have a *professional obligation* to tell the board their authority is unrealistic, even if that conversation costs the client relationship. That's the tension no single-model prompt would surface — the conflict between client retention and professional duty.
+
+The Discovery Specialist's timing analysis reinforces this: the remaining 40% of production will worsen the defense position, making every day of delay more expensive. Settling *before* full production preserves negotiating leverage that disappears once the Slack archive is produced.
 
 ---
 

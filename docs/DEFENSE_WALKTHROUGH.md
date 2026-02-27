@@ -57,6 +57,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "maxRounds": 15,
       "enableCrossExamination": true,
       "requireConsensus": false
+      // 15 rounds — full JOPP requires deep cross-examination across 8 agents
     }
   }'
 ```
@@ -172,17 +173,11 @@ Compliance frameworks: **JP 5-0, MDMP, JOPP, FedRAMP High, NIST 800-171.**
 
 > **Sustainment Assessment — FEASIBLE WITH CONSTRAINTS**
 >
-> | Capability | Requirement | Available | Gap |
-> |-----------|------------|-----------|-----|
-> | Airlift (C-17 equiv.) | 12 sorties/day | 8 sorties/day (1 runway) | -4 sorties |
-> | Medical (bed capacity) | 800 trauma beds | 200 (USNS Mercy, 5 days) + 120 (III MEF) | -480 beds (days 1-5) |
-> | Potable water | 400,000 gal/day | 180,000 gal/day (RO units) | -220,000 gal |
-> | Fuel (JP-8) | 250,000 gal/day | 120,000 gal (NSA Palua reserves) | Resupply needed day 3 |
-> | Engineering (route clearance) | 40 km/day | 15 km/day (III MEF organic) | -25 km/day |
+> **Binding constraint: Water.** 200,000 displaced persons × 2 gal/person/day = 400,000 gal/day required. Current RO capacity: 180,000 gal/day (45% of demand). Without 3× additional ROWPU from PACOM reserve, we face a humanitarian crisis within the humanitarian response.
 >
-> **Critical path:** Water is the binding constraint. 200,000 displaced persons need 2 gallons/person/day minimum. Our RO units cover 45% of demand. Without host nation water infrastructure restoration or additional ROWPU deployment, we face a humanitarian crisis within the humanitarian response.
+> Other gaps (airlift -4 sorties/day, medical -480 beds days 1-5, fuel resupply needed day 3) are manageable through prioritization. Water is not.
 >
-> **Sustainment recommendation:** Request 3× additional ROWPU from PACOM reserve. Pre-position fuel barge from Guam (72-hour transit). Accept the airlift gap — prioritize medical and water over general cargo for days 1-3.
+> **Recommendation:** Request ROWPU immediately. Pre-position fuel barge from Guam (72-hour transit). Prioritize medical and water cargo over general supplies for days 1-3.
 
 ---
 
@@ -206,15 +201,9 @@ Compliance frameworks: **JP 5-0, MDMP, JOPP, FedRAMP High, NIST 800-171.**
 
 **Cyber Warfare Specialist** (confidence: 0.65)
 
-> **Cyber Assessment — ELEVATED THREAT**
+> **Cyber Assessment — ELEVATED THREAT.** Damaged fiber infrastructure forces reliance on SATCOM (jammable). HA/DR coordination with civilian agencies expands the attack surface to unclassified networks. Adversary cyber actors will exploit the humanitarian context for social engineering against deployed personnel.
 >
-> The disaster creates three cyber vulnerabilities:
->
-> 1. **Degraded network infrastructure.** NSA Palua's fiber network is damaged. Forces will rely on SATCOM, which is bandwidth-limited and more susceptible to jamming.
-> 2. **Emergency communications.** HA/DR operations require coordination with civilian agencies (USAID, host nation, NGOs) over unclassified networks — expanding the attack surface.
-> 3. **Social engineering.** Adversary cyber actors will exploit the humanitarian context for phishing and influence operations targeting deployed personnel.
->
-> **Recommendation:** Deploy Cyber Protection Team with the advance element. Establish air-gapped tactical network for classified operations. Coordinate with NSA for SIGINT support on adversary collection activities.
+> **Recommendation:** Deploy Cyber Protection Team with advance element. Air-gapped tactical network for classified ops.
 
 ---
 
@@ -312,6 +301,28 @@ Compliance frameworks: **JP 5-0, MDMP, JOPP, FedRAMP High, NIST 800-171.**
   }
 }
 ```
+
+### Phase 4: Ethics & Law of Armed Conflict Gate
+
+```json
+{
+  "ethicsCheck": {
+    "passed": true,
+    "loacCompliant": true,
+    "civilianProtection": "PRIORITIZED",
+    "proportionalityAssessment": "NOT_APPLICABLE — no kinetic operations planned",
+    "notes": [
+      "Maritime exclusion zone is defensive — protects logistics, does not restrict civilian maritime access",
+      "HA/DR operations prioritize civilian welfare — no conflict with LOAC principles",
+      "Freedom-of-navigation assertion is a lawful exercise of customary international law",
+      "Supplemental ROE limits exclusion zone enforcement to non-kinetic measures (warnings, escort)",
+      "All displaced person aid distribution follows humanitarian law principles of impartiality and neutrality"
+    ]
+  }
+}
+```
+
+The ethics gate is mandatory for all defense deliberations. For HA/DR operations the LOAC assessment is straightforward — no kinetic operations are planned. But the gate documents that the maritime exclusion zone is defensive in nature and that supplemental ROE limits enforcement to non-kinetic measures. This documentation matters when the operation is reviewed by Congress, allies, or the press. A military customer evaluating this platform will ask "what ethical guardrails exist?" — the answer is that every deliberation passes through this gate, and the output is part of the auditable decision record.
 
 ---
 

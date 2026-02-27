@@ -65,6 +65,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "maxRounds": 8,
       "enableCrossExamination": true,
       "requireConsensus": false
+      // 8 rounds — transfer window deadline requires efficient deliberation across FFP + medical + sporting
     }
   }'
 ```

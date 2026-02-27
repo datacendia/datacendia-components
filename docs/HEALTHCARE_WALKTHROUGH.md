@@ -72,6 +72,7 @@ curl -X POST http://localhost:3001/api/v1/council/deliberate \
       "enableCrossExamination": true,
       "requireConsensus": false,
       "minConfidenceThreshold": 0.7
+      // 12 rounds — FDA SaMD classification requires deep clinical/regulatory cross-examination
     }
   }'
 ```
