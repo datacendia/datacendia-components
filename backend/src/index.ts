@@ -91,6 +91,8 @@ import guardrailsRoutes from './routes/guardrails.js';
 import opaRoutes from './routes/opa.js';
 import temporalRoutes from './routes/temporal.js';
 import openbaoRoutes from './routes/openbao.js';
+import rapidsRoutes from './routes/rapids.js';
+import flinkRoutes from './routes/flink.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -288,6 +290,8 @@ app.use('/api/v1/guardrails', guardrailsRoutes);     // NeMo Guardrails admin & 
 app.use('/api/v1/opa', opaRoutes);                   // Open Policy Agent policy-as-code
 app.use('/api/v1/temporal', temporalRoutes);         // Temporal.io workflow orchestration
 app.use('/api/v1/openbao', openbaoRoutes);           // OpenBao/Vault secrets & KMS
+app.use('/api/v1/rapids', rapidsRoutes);             // NVIDIA RAPIDS GPU analytics + Confidential Computing
+app.use('/api/v1/flink', flinkRoutes);               // Apache Flink CEP stream processing
 
 // 404 handler
 app.use((_req, res) => {
@@ -468,6 +472,15 @@ const startServer = async () => {
       logger.info('[OpenBao] Secrets management initialized');
     } catch (e) {
       logger.warn('[OpenBao] Secrets management initialization failed:', e);
+    }
+
+    // NVIDIA RAPIDS GPU analytics (optional — set RAPIDS_ENABLED=true)
+    try {
+      const { rapids } = await import('./services/gpu/RAPIDSService.js');
+      await rapids.connect();
+      logger.info('[RAPIDS] GPU analytics initialized');
+    } catch (e) {
+      logger.warn('[RAPIDS] GPU analytics initialization failed — using CPU fallback:', e);
     }
 
     // Start Chronos Event Bus flush scheduler (retries failed event writes)
