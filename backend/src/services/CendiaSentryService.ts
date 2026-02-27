@@ -1295,7 +1295,160 @@ export class CendiaSentryService extends BaseService {
     };
   }
 
+  // ===========================================================================
+  // NeMo GUARDRAILS INTEGRATION
+  // Combines existing regex-based checks with LLM-powered NeMo Guardrails.
+  // When NEMO_GUARDRAILS_ENABLED=true, provides deep semantic evaluation
+  // for jailbreak detection, hallucination, bias, and topic enforcement.
+  // ===========================================================================
 
+  /**
+   * Full-pipeline check: regex guardrails + NeMo Guardrails (input + output rails).
+   * This is the recommended entry point for production use.
+   */
+  async checkContentWithNeMo(params: {
+    organizationId: string;
+    userId: string;
+    inputType: SentryCheck['inputType'];
+    input: string;
+    output?: string;
+    agentId?: string;
+    modelUsed?: string;
+    context?: Record<string, any>;
+  }): Promise<SentryCheck & {
+    nemoEnabled: boolean;
+    nemoInputVerdict?: string;
+    nemoOutputVerdict?: string;
+    nemoEvaluations?: Array<{ railId: string; railName: string; verdict: string; confidence: number; reasoning: string }>;
+    nemoLatencyMs?: number;
+  }> {
+    // Step 1: Run existing regex-based guardrails (fast)
+    const regexResult = await this.checkContentTiered(params);
+
+    // Step 2: If content was already blocked by regex, skip NeMo (save LLM calls)
+    if (regexResult.wasBlocked) {
+      return {
+        ...regexResult,
+        nemoEnabled: false,
+        nemoInputVerdict: 'skipped_regex_blocked',
+      };
+    }
+
+    // Step 3: Run NeMo Guardrails (LLM-powered, deeper semantic analysis)
+    try {
+      const { nemoGuardrails } = await import('./guardrails/NeMoGuardrailsEngine.js');
+
+      if (!nemoGuardrails.isEnabled()) {
+        return { ...regexResult, nemoEnabled: false };
+      }
+
+      let nemoInputVerdict = 'allow';
+      let nemoOutputVerdict = 'allow';
+      let nemoEvaluations: Array<{ railId: string; railName: string; verdict: string; confidence: number; reasoning: string }> = [];
+      let nemoLatencyMs = 0;
+
+      if (params.output) {
+        // Full pipeline: evaluate both input and output
+        const pipeline = await nemoGuardrails.evaluateFullPipeline(
+          params.input,
+          params.output,
+          params.context as Record<string, unknown>,
+        );
+        nemoInputVerdict = pipeline.inputResult.overallVerdict;
+        nemoOutputVerdict = pipeline.outputResult.overallVerdict;
+        nemoLatencyMs = pipeline.totalLatencyMs;
+        nemoEvaluations = [
+          ...pipeline.inputResult.evaluations.map(e => ({
+            railId: e.railId, railName: e.railName, verdict: e.verdict,
+            confidence: e.confidence, reasoning: e.reasoning,
+          })),
+          ...pipeline.outputResult.evaluations.map(e => ({
+            railId: e.railId, railName: e.railName, verdict: e.verdict,
+            confidence: e.confidence, reasoning: e.reasoning,
+          })),
+        ];
+
+        // Merge NeMo verdict with regex result
+        if (pipeline.overallVerdict === 'block') {
+          regexResult.wasBlocked = true;
+          regexResult.overallPassed = false;
+        }
+        if (pipeline.outputResult.wasModified && pipeline.outputResult.modifiedOutput) {
+          regexResult.wasModified = true;
+          regexResult.modifiedOutput = pipeline.outputResult.modifiedOutput;
+        }
+      } else {
+        // Input-only evaluation
+        const inputResult = await nemoGuardrails.evaluateInput(
+          params.input,
+          params.context as Record<string, unknown>,
+        );
+        nemoInputVerdict = inputResult.overallVerdict;
+        nemoLatencyMs = inputResult.totalLatencyMs;
+        nemoEvaluations = inputResult.evaluations.map(e => ({
+          railId: e.railId, railName: e.railName, verdict: e.verdict,
+          confidence: e.confidence, reasoning: e.reasoning,
+        }));
+
+        if (inputResult.overallVerdict === 'block') {
+          regexResult.wasBlocked = true;
+          regexResult.overallPassed = false;
+        }
+      }
+
+      // Emit to Kafka if available
+      try {
+        const { kafkaEventBridge } = await import('./kafka/KafkaEventBridge.js');
+        await kafkaEventBridge.emitSentryEvent({
+          organizationId: params.organizationId,
+          policyId: 'nemo-guardrails',
+          input: params.input.slice(0, 500),
+          verdict: regexResult.wasBlocked ? 'block' : nemoOutputVerdict === 'flag' ? 'flag' : 'allow',
+          reason: nemoEvaluations.filter(e => e.verdict !== 'allow').map(e => e.reasoning).join('; ') || 'passed',
+          riskScore: regexResult.overallScore,
+          metadata: { nemoInputVerdict, nemoOutputVerdict, evaluationCount: nemoEvaluations.length },
+        });
+      } catch {
+        // Kafka bridge not critical
+      }
+
+      return {
+        ...regexResult,
+        nemoEnabled: true,
+        nemoInputVerdict,
+        nemoOutputVerdict,
+        nemoEvaluations,
+        nemoLatencyMs,
+      };
+    } catch (error) {
+      this.logger.warn('[CendiaSentry] NeMo Guardrails evaluation failed, returning regex-only result:', error as Error);
+      return { ...regexResult, nemoEnabled: false };
+    }
+  }
+
+  /**
+   * Get NeMo Guardrails engine statistics.
+   */
+  async getNeMoStats(): Promise<Record<string, unknown> | null> {
+    try {
+      const { nemoGuardrails } = await import('./guardrails/NeMoGuardrailsEngine.js');
+      return nemoGuardrails.getStats() as unknown as Record<string, unknown>;
+    } catch {
+      return null;
+    }
+  }
+
+  /**
+   * Get NeMo Guardrails server health.
+   */
+  async getNeMoHealth(): Promise<Record<string, unknown> | null> {
+    try {
+      const { nemoGuardrails } = await import('./guardrails/NeMoGuardrailsEngine.js');
+      return await nemoGuardrails.checkServerHealth() as unknown as Record<string, unknown>;
+    } catch {
+      return null;
+    }
+  }
 
   async loadFromDB(): Promise<void> {
 

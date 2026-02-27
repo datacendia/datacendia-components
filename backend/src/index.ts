@@ -87,6 +87,7 @@ import expressRoutes from './routes/express.js';
 import recallRoutes from './routes/recall.js';
 import euBankingRoutes from './routes/eu-banking.js';
 import kafkaRoutes from './routes/kafka.js';
+import guardrailsRoutes from './routes/guardrails.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './startup/applyIndexes.js';
 import { apiCache, CACHE_TTLS } from './middleware/cacheMiddleware.js';
@@ -280,6 +281,7 @@ app.use('/api/v1/express', expressRoutes); // Express Intelligence - quick analy
 app.use('/api/v1', recallRoutes);          // CendiaRecall™ - Decision Outcome Tracking
 app.use('/api/v1/eu-banking', euBankingRoutes); // EU Banking - Basel III + EU AI Act compliance
 app.use('/api/v1/kafka', kafkaRoutes);               // Kafka admin & monitoring
+app.use('/api/v1/guardrails', guardrailsRoutes);     // NeMo Guardrails admin & evaluation
 
 // 404 handler
 app.use((_req, res) => {
