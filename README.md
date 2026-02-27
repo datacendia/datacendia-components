@@ -355,6 +355,14 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | [PostgreSQL HA Guide](POSTGRESQL_HA_GUIDE.md) | Database high availability setup |
 | [Infrastructure Setup](INFRASTRUCTURE_SETUP.md) | Local infrastructure services |
 
+### Use Cases & Research
+
+| Document | Description |
+|----------|-------------|
+| [**Financial Services Walkthrough**](docs/FINANCIAL_SERVICES_WALKTHROUGH.md) | End-to-end: question → deliberation → regulatory packet (Basel III capital planning) |
+| [**Benchmark: Council vs. Single-Model**](docs/BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md) | Worked comparison — 3.2× more risk factors, 6× regulatory citations, dissent surfacing |
+| [Community vs Enterprise](COMMUNITY.md) | Open-core boundary — what's free, what's commercial |
+
 ### Technical
 
 | Document | Description |
