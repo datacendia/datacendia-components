@@ -496,14 +496,14 @@ class AIModelSelector {
   }
 
   /**
-   * Check if a model is available (by checking Ollama)
+   * Check if a model is available via the active inference provider.
    */
   async isModelAvailable(modelId: string): Promise<boolean> {
     try {
-      const response = await fetch('http://127.0.0.1:11434/api/tags');
-      if (!response.ok) return false;
-      const data = await response.json() as { models: { name: string }[] };
-      return data.models.some(m => m.name === modelId || m.name.startsWith(modelId.split(':')[0]));
+      // Lazy import to avoid circular dependency at module load time
+      const { inference } = await import('../services/inference/InferenceService.js');
+      const models = await inference.listModels();
+      return models.some(m => m.name === modelId || m.name.startsWith(modelId.split(':')[0]));
     } catch {
       return false;
     }

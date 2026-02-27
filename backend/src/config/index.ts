@@ -43,7 +43,11 @@ const configSchema = z.object({
   neo4jUser: z.string().default('neo4j'),
   neo4jPassword: z.string().default('neo4j'),
   
-  // Ollama
+  // Inference Provider (ollama | triton | nim)
+  inferenceProvider: z.enum(['ollama', 'triton', 'nim']).default('ollama'),
+  inferenceFailover: z.string().default('false'),
+
+  // Ollama (default provider)
   ollamaBaseUrl: z.string().url().default('http://127.0.0.1:11434'),
   ollamaModel: z.string().default('qwen3:32b'),
   ollamaModelLarge: z.string().default('llama3.3:70b'),
@@ -51,6 +55,14 @@ const configSchema = z.object({
   ollamaModelCoder: z.string().default('qwen3-coder:30b'),
   ollamaModelFast: z.string().default('llama3.2:3b'),
   ollamaModelVision: z.string().default('qwen3-vl:30b'),
+
+  // NVIDIA Triton Inference Server
+  tritonBaseUrl: z.string().url().default('http://localhost:8000'),
+  tritonModelName: z.string().default('ensemble'),
+
+  // NVIDIA NIM (self-hosted)
+  nimBaseUrl: z.string().url().default('http://localhost:8000'),
+  nimModelName: z.string().default('meta/llama-3.1-70b-instruct'),
   
   // JWT
   jwtSecret: z.string().min(32),
@@ -87,10 +99,16 @@ const envVars = {
   neo4jUri: process.env.NEO4J_URI,
   neo4jUser: process.env.NEO4J_USER,
   neo4jPassword: process.env.NEO4J_PASSWORD,
+  inferenceProvider: process.env.INFERENCE_PROVIDER,
+  inferenceFailover: process.env.INFERENCE_FAILOVER,
   ollamaBaseUrl: process.env.OLLAMA_BASE_URL,
   ollamaModel: process.env.OLLAMA_MODEL,
   ollamaModelFlagship: process.env.OLLAMA_MODEL_FLAGSHIP,
   ollamaModelFast: process.env.OLLAMA_MODEL_FAST,
+  tritonBaseUrl: process.env.TRITON_BASE_URL,
+  tritonModelName: process.env.TRITON_MODEL_NAME,
+  nimBaseUrl: process.env.NIM_BASE_URL,
+  nimModelName: process.env.NIM_MODEL_NAME,
   jwtSecret: process.env.JWT_SECRET,
   jwtRefreshSecret: process.env.JWT_REFRESH_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN,

@@ -335,7 +335,23 @@ async function checkSystemStatuses() {
     });
   }
 
-  // Add more system checks as needed
+  // Check Inference Provider
+  try {
+    const { inference } = await import('../services/inference/InferenceService.js');
+    const health = await inference.healthCheck();
+    systems.push({
+      name: `Inference (${health.provider})`,
+      status: health.available ? 'online' : 'offline',
+      latency: health.latencyMs ? `${health.latencyMs}ms` : null,
+    });
+  } catch {
+    systems.push({
+      name: 'Inference',
+      status: 'offline',
+      latency: null,
+    });
+  }
+
   systems.push({
     name: 'API Gateway',
     status: 'online',
