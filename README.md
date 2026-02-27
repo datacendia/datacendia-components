@@ -40,6 +40,33 @@ Datacendia is a decision intelligence platform where multiple AI agents *deliber
 - **Compliance-native** — Architecture aligned to SOC 2, HIPAA, GDPR, NIST 800-53, Basel III, EU AI Act. Controls implemented, formal certifications available on enterprise contract.
 - **9 enterprise infrastructure integrations** — Kafka, Temporal, OPA, OpenBao, NeMo Guardrails, RAPIDS, Flink CEP, Triton, Confidential Computing. All opt-in with embedded fallbacks.
 
+## What the Council Found
+
+We ran the platform against eight real decision types across eight industries. In each case, the pivotal insight emerged from cross-examination between agents with different mandates — not from any single agent's analysis.
+
+| Walkthrough | Scenario | What the Council Found |
+|-------------|----------|----------------------|
+| [**Financial Services**](docs/FINANCIAL_SERVICES_WALKTHROUGH.md) | $2.3B CRE acquisition, Basel III capital planning | Credit Analyst reframes "22% discount" as 2.2% discount to fair value; Compliance Officer catches SR 11-7 model risk blocking issue that would halt the deal |
+| [**Healthcare**](docs/HEALTHCARE_WALKTHROUGH.md) | Sepsis prediction AI tool, FDA SaMD classification | Patient Safety Officer calculates alert fatigue reduces effective sensitivity to 54.8% — *worse* than current manual screening at 68% |
+| [**Government**](docs/GOVERNMENT_WALKTHROUGH.md) | $47M IT modernization, FAR Part 15 source selection | Program Manager shows "cheaper" incumbent costs $22.1M more over 10 years due to COBOL lifecycle debt; Legal Counsel identifies 3 GAO protest vulnerabilities |
+| [**Defense**](docs/DEFENSE_WALKTHROUGH.md) | HA/DR + freedom-of-navigation, 8-agent JOPP | OPSEC Officer reveals "lower risk" COA is actually *worse* for security — no exclusion zone lets adversary collection platforms operate at close range |
+| [**Energy**](docs/ENERGY_WALKTHROUGH.md) | 1,400 MW grid deficit, 8 minutes to cascading blackout | Renewable Optimizer identifies that discharging full battery now creates a catastrophic 2,840 MW deficit at sunset 90 minutes later |
+| [**Legal**](docs/LEGAL_WALKTHROUGH.md) | $28M FLSA class action, 10-day settlement deadline | Ethics Counsel surfaces Rule 2.1 duty: lawyers must tell the board their $12M authority is unrealistic, even if candor costs the client relationship |
+| [**Sports**](docs/SPORTS_WALKTHROUGH.md) | €47M player transfer, UEFA FFP compliance | CMO's risk-adjusted pricing adds €9.2M to effective cost (ACL history); Governance agent turns potential FFP sanction into voluntary agreement |
+| [**Manufacturing**](docs/MANUFACTURING_WALKTHROUGH.md) | Brake caliper defect, $42K/hour line-down penalty | Maintenance Engineer identifies multi-factor root cause where every individual parameter was "within limits" but the combination exceeded tolerance |
+
+### How Pivotal Insights Emerge
+
+Every finding above came from one of three agent interaction patterns:
+
+1. **A specialist reframes a number.** The Credit Analyst turns 22% into 2.2%. The Patient Safety Officer turns 87% sensitivity into 54.8% effective sensitivity. The CMO turns €47M into €56.2M risk-adjusted. These reframings change the decision because they reveal the number the decision-maker *should* be looking at, not the one that was presented.
+
+2. **A compliance agent catches a blocking prerequisite.** The SR 11-7 model risk finding. The 21 CFR Part 11 audit trail requirement. The host nation exclusion zone request. These are binary — they don't change the recommendation, they gate it. A single-model prompt rarely surfaces prerequisites because it's optimizing for the answer, not the preconditions.
+
+3. **Cross-examination reveals second-order effects.** The OPSEC Officer inverts the risk assessment. The Renewable Optimizer models the sunset crisis. The Discovery Specialist shows the remaining 40% of production makes the case worse. These emerge specifically because one agent challenges another's framing and forces a deeper analysis that the original agent's mandate wouldn't have produced.
+
+This structure — not the technology, but the *pattern of how insights emerge* from multi-agent deliberation — is why a council of specialized agents produces different results than a single model with a longer prompt. The single model has all the knowledge. It lacks the adversarial structure that forces knowledge to be applied from competing perspectives.
+
 ## Community vs Enterprise
 
 | Capability | Community (Open Source) | Enterprise |
@@ -357,16 +384,10 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 ### Use Cases & Research
 
+> **See [What the Council Found](#what-the-council-found)** for the full pivotal insights table with all eight walkthroughs.
+
 | Document | Description |
 |----------|-------------|
-| [**Financial Services Walkthrough**](docs/FINANCIAL_SERVICES_WALKTHROUGH.md) | Basel III capital planning — CRE acquisition, 4 agents, regulatory packet export |
-| [**Healthcare Walkthrough**](docs/HEALTHCARE_WALKTHROUGH.md) | FDA SaMD approval — sepsis prediction tool, alert fatigue analysis, 90-day validation plan |
-| [**Government Walkthrough**](docs/GOVERNMENT_WALKTHROUGH.md) | FAR Part 15 source selection — $47M IT modernization, protest-proof SSDD, TCO analysis |
-| [**Defense Walkthrough**](docs/DEFENSE_WALKTHROUGH.md) | JOPP mission planning — HA/DR + freedom-of-navigation, 8 agents, OPSEC review |
-| [**Energy Walkthrough**](docs/ENERGY_WALKTHROUGH.md) | Grid emergency — cascading failure, battery preservation for sunset, NERC compliance |
-| [**Legal Walkthrough**](docs/LEGAL_WALKTHROUGH.md) | Settlement strategy — $28M FLSA class action, privilege-preserved analysis, Rule 2.1 candor |
-| [**Sports Walkthrough**](docs/SPORTS_WALKTHROUGH.md) | Player transfer — €47M deal, UEFA FFP compliance, medical risk pricing, voluntary agreement |
-| [**Manufacturing Walkthrough**](docs/MANUFACTURING_WALKTHROUGH.md) | Production crisis — brake caliper defect, multi-factor root cause, IATF 16949 8D report |
 | [**Benchmark: Council vs. Single-Model**](docs/BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md) | Worked comparison — 3.2× more risk factors, 6× regulatory citations, dissent surfacing |
 | [Community vs Enterprise](COMMUNITY.md) | Open-core boundary — what's free, what's commercial |
 
