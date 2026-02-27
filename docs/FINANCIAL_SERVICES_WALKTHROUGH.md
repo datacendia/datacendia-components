@@ -8,6 +8,8 @@ This walkthrough follows a realistic scenario through every stage of the Datacen
 
 ## The Scenario
 
+This is the kind of decision that ends careers. A $2.3B acquisition, a board meeting tomorrow, and a CEO who wants to move fast.
+
 You are the Chief Risk Officer at **Meridian National Bank**, a Tier 2 US bank with $48B in total assets. A distressed regional competitor is selling a $2.3B commercial real estate (CRE) loan portfolio at a 22% discount to book value. Your CEO wants to move fast. You need the Council's analysis before tomorrow's board meeting.
 
 **Key facts:**
@@ -23,6 +25,11 @@ You are the Chief Risk Officer at **Meridian National Bank**, a Tier 2 US bank w
 
 ## Step 1: Start the Platform
 
+> **Reading for the value proposition, not setup?** [Skip to Step 2 — the deliberation](#step-2-submit-the-question-to-the-capital-planning-council).
+
+<details>
+<summary><strong>Platform setup (click to expand)</strong></summary>
+
 ```bash
 # Zero-config demo (if you haven't already)
 docker compose -f docker-compose.demo.yml up
@@ -33,6 +40,15 @@ cd backend && npm run dev
 ```
 
 The API is available at `http://localhost:3001`. The Financial Services vertical is loaded automatically with 14 agents and 25+ council modes.
+
+```bash
+# Get a demo auth token (dev mode — no password required)
+export TOKEN=$(curl -s http://localhost:3001/api/v1/auth/dev-token \
+  -H "Content-Type: application/json" \
+  -d '{"email": "sarah.chen@acme.demo"}' | jq -r '.token')
+```
+
+</details>
 
 ---
 
@@ -335,6 +351,8 @@ Automated bias and fairness review:
 }
 ```
 
+The fairness check runs automatically on every financial deliberation, producing a documented record that credit analysis was not influenced by geographic proxy variables or prohibited borrower characteristics — directly relevant to OCC fair lending examination requirements and the Fed's increasing focus on algorithmic fairness in credit decisions. This record is included in the decision packet and is available to examiners on request.
+
 ---
 
 ## Step 4: Export the Decision Packet
@@ -429,13 +447,13 @@ In 48 seconds, the platform:
 
 > "The 22% discount is misleading — our Credit Analyst calculates the actual discount to fair value is 2.2%. More critically, our Compliance Officer identified that we haven't completed the SR 11-7 model validation required before we can rely on *any* pricing analysis. Recommend pausing for 4-6 weeks for validation, then renegotiating to ≤$1.55B. The opportunity is real but the timing and price are wrong."
 
-That insight — especially the SR 11-7 gap — would not have surfaced from a single-model prompt. It came from a Compliance Officer agent whose entire mandate is to find regulatory gaps. That's deliberation working as designed.
+That insight — especially the SR 11-7 gap — is significantly less likely to surface from a single-model prompt. In [benchmark testing against the same scenario](BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md), single-model inference identified 1 regulatory citation (Basel III in general terms) while the Council identified 6, including SR 11-7 specifically. The single model never flagged the model validation gap as a blocking issue. The Compliance Officer agent caught it because its entire mandate is to find regulatory gaps — that's deliberation working as designed.
 
 ---
 
 ## Available Council Modes for Financial Services
 
-The Capital Planning Council used in this walkthrough is one of 25+ financial council modes:
+The Capital Planning Council used in this walkthrough is one of 8 pre-built financial council modes:
 
 | Mode | Category | Lead Agent | Frameworks |
 |------|----------|------------|------------|
@@ -448,7 +466,7 @@ The Capital Planning Council used in this walkthrough is one of 25+ financial co
 | **Market Risk Council** | Risk | Risk Officer | Basel III FRTB, VaR Backtesting |
 | **Operational Risk Event** | Risk | Risk Officer | Basel III OpRisk, RCSA |
 
-Each mode activates the right agents, enforces the right regulatory frameworks, and produces outputs in the right format for that decision type.
+Each mode activates the right agents, enforces the right regulatory frameworks, and produces outputs in the right format for that decision type. Custom council modes can be defined for any decision type.
 
 ---
 
