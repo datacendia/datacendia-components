@@ -1,0 +1,47 @@
+name: Community Edition Build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'backend/src/**'
+      - 'backend/tsconfig.community.json'
+      - 'scripts/check-community-boundary.mjs'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'backend/src/**'
+
+jobs:
+  boundary-check:
+    name: Community/Enterprise Boundary Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check community/enterprise boundary
+        run: node scripts/check-community-boundary.mjs
+
+  # Uncomment once boundary violations are resolved:
+  # community-build:
+  #   name: Community Edition TypeScript Build
+  #   needs: boundary-check
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #
+  #     - name: Use Node.js 20
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: '20'
+  #
+  #     - name: Install dependencies
+  #       run: cd backend && npm ci
+  #
+  #     - name: Build community edition
+  #       run: cd backend && npx tsc -p tsconfig.community.json

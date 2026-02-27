@@ -23,7 +23,9 @@
     "test:coverage": "vitest run --coverage",
     "test:e2e": "vitest run tests/e2e.test.ts",
     "lint": "eslint src --ext .ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:community": "tsc -p tsconfig.community.json",
+    "check:boundary": "node ../scripts/check-community-boundary.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-kms": "^3.995.0",

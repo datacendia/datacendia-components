@@ -1,0 +1,61 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist-community"
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dist-community",
+    "src/__tests__/**/*",
+    "src/**/__tests__/**/*",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts",
+
+    // =========================================================================
+    // ENTERPRISE DIRECTORIES — excluded from Community Edition build
+    // See COMMUNITY.md for the full boundary definition
+    // =========================================================================
+
+    // Sovereign architecture patterns (22 patterns)
+    "src/services/sovereign/**",
+
+    // Enterprise services (18 services)
+    "src/services/enterprise/**",
+
+    // Advanced modules
+    "src/services/collapse/**",
+    "src/services/sgas/**",
+    "src/services/dcii/**",
+    "src/services/scge/**",
+    "src/services/cortex/**",
+    "src/services/apotheosis/**",
+    "src/services/crucible/**",
+    "src/services/panopticon/**",
+
+    // Full vertical packs (enterprise) — NOT the vertical definitions in verticals/
+    "src/services/legal/**",
+    "src/services/strategic/**",
+    "src/services/forecasting/**",
+    "src/services/insurance/**",
+
+    // Premium product services
+    "src/services/CendiaCascadeService.ts",
+    "src/services/CendiaCrucibleService.ts",
+    "src/services/CendiaHorizonService.ts",
+    "src/services/CendiaPanopticonService.ts",
+    "src/services/CendiaAegisService.ts",
+    "src/services/CendiaEternalService.ts",
+    "src/services/CendiaSymbiontService.ts",
+    "src/services/CendiaPredictService.ts",
+    "src/services/CendiaRewindService.ts",
+    "src/services/CendiaApotheosisService.ts",
+    "src/services/CendiaOrbitService.ts",
+    "src/services/CendiaVoxService.ts",
+    "src/services/CendiaOmniTranslateService.ts",
+
+    // Licensing
+    "src/services/licensing.service.ts"
+  ]
+}
