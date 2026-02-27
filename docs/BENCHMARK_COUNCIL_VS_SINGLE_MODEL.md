@@ -221,6 +221,38 @@ The Compliance Officer cited OCC 2006-46 (CRE concentration guidance) because it
 
 The Council's 0.62 confidence score was not set by any single agent — it emerged from the *degree of agreement* between agents. When the CRO and Credit Analyst dissented, confidence dropped. This is a better uncertainty signal than anything a single model can produce, because a single model's "confidence" is just a token probability, not a measure of decision uncertainty.
 
+### 5.5 Systematic Reversal Detection
+
+Looking across eleven walkthroughs — not just the financial services scenario analyzed in this paper — a pattern emerges that is worth naming explicitly: **every pivotal insight produced by multi-agent deliberation involves a reversal.**
+
+| Vertical | Surface Appearance | Underlying Reality |
+|----------|-------------------|-------------------|
+| Financial Services | 22% discount to book value | 2.2% discount to fair value |
+| Healthcare | 87% sensitivity (clinical performance) | 54.8% effective sensitivity (after alert fatigue) |
+| Government | Incumbent is cheapest ($41.8M) | Incumbent costs $22.1M more over 10 years |
+| Defense | COA 1 is lower risk | COA 1 is worse for OPSEC — no exclusion zone |
+| Energy | Full battery discharge solves the crisis | Full discharge creates a 2,840 MW deficit at sunset |
+| Legal | "Fight this to the last dollar" (CEO's position) | $12M authority has <5% acceptance probability — candor is legally required |
+| Sports | Transfer fee is €47M | Risk-adjusted cost is €56.2M (ACL history) |
+| Manufacturing | Every parameter is "within limits" | The combination exceeds tolerance |
+| Insurance | $1.4M claim | $416K legitimate claim + $984K ring inflation |
+| Real Estate | $136M stabilized value | $106M when conversion discount and cap rate premium are applied |
+| Pharmaceutical | Trial can stop for efficacy | Stopping is a regulatory trap — safety database is too small for NDA |
+
+This is not coincidence. It is a structural property of adversarial deliberation.
+
+A single model produces a coherent narrative. Coherent narratives resolve ambiguity in one direction — they pick the most plausible interpretation of each number and construct a story around it. The 22% discount *sounds* large, so the narrative says "significant discount." The 87% sensitivity *sounds* high, so the narrative says "strong performance." COA 1 *sounds* safer, so the narrative says "lower risk."
+
+Multi-agent deliberation breaks this pattern because agents with different mandates interpret the same number differently. The Credit Analyst looks at 22% and asks "discount to *what*?" The Patient Safety Officer looks at 87% and asks "sensitivity *experienced by whom*?" The OPSEC Officer looks at COA 1 and asks "lower risk *for whom*?"
+
+These are not better questions. They are *different* questions, asked from different loss functions. The Credit Analyst's loss function penalizes overpaying. The Patient Safety Officer's loss function penalizes patient harm. The OPSEC Officer's loss function penalizes information leakage. When agents with different loss functions examine the same evidence, the cases where surface appearance and underlying reality diverge are systematically exposed.
+
+We propose the term **reversal detection** for this property: the ability of a multi-agent system to identify cases where the obvious interpretation of evidence is wrong or materially incomplete. Reversal detection is not a feature of the individual models — it is an emergent property of the adversarial architecture. The same models, in a single-prompt configuration, produce the surface-level interpretation. Only the structure of cross-examination between competing mandates forces the reversal to the surface.
+
+This has a practical implication for enterprise adoption: **the value of multi-agent deliberation is highest precisely where the cost of missing a reversal is highest.** Regulatory findings, undiscovered fraud, mispriced risk, uncharacterized safety signals — these are all reversals. The organization's most expensive mistakes are the ones where something looked fine until it wasn't.
+
+"We help you find the reversals before your regulator does" is not a marketing claim. It is a description of what the architecture systematically produces.
+
 ---
 
 ## 6. Limitations and Honest Caveats
