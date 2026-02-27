@@ -29,6 +29,18 @@ Dockerfile* @datacendia/devops-team
 /.env.example @datacendia/security-team
 /docs/SECURITY*.md @datacendia/security-team
 
+# Enterprise Edition (requires platform-lead approval)
+/backend/src/services/enterprise/ @datacendia/platform-lead @datacendia/backend-team
+/backend/src/services/sovereign/ @datacendia/platform-lead @datacendia/backend-team
+/backend/src/services/collapse/ @datacendia/platform-lead @datacendia/backend-team
+/backend/src/services/sgas/ @datacendia/platform-lead @datacendia/backend-team
+/backend/src/services/dcii/ @datacendia/platform-lead @datacendia/backend-team
+/backend/src/services/Cendia*.ts @datacendia/platform-lead @datacendia/backend-team
+
+# Community/Enterprise boundary docs (require platform-lead approval)
+COMMUNITY.md @datacendia/platform-lead
+LICENSE @datacendia/platform-lead
+
 # Documentation
 /docs/ @datacendia/platform-team
 README.md @datacendia/platform-team
