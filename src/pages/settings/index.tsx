@@ -1024,8 +1024,8 @@ export const BillingSettingsPage: React.FC = () => {
         <div className="flex items-start justify-between mb-4">
           <div>
             <h2 className="text-lg font-semibold text-neutral-900">Current Plan</h2>
-            <p className="text-3xl font-bold text-neutral-900 mt-2">Intelligence</p>
-            <p className="text-neutral-500">{formatCurrency(10000)}/month</p>
+            <p className="text-3xl font-bold text-neutral-900 mt-2">Enterprise</p>
+            <p className="text-neutral-500">{formatCurrency(1499)}/month</p>
           </div>
           <span className="px-3 py-1 bg-success-light text-success-dark text-sm font-medium rounded-full">
             Active

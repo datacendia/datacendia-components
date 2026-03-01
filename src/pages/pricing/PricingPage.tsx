@@ -171,7 +171,7 @@ const tiers: Tier[] = [
   {
     id: 'foundation',
     name: 'Foundation',
-    basePrice: 150000,
+    basePrice: 5988,
     description: 'Make decisions → Understand them → Prove them',
     features: [
       'THE COUNCIL — 15 C-Suite agents, 35+ modes, CendiaLive™',
@@ -179,16 +179,16 @@ const tiers: Tier[] = [
       'DCII — 9 Primitives, IISS Scoring, Evidence Vault, Regulator\'s Receipt™',
       'Up to 100 users',
       '1,000 deliberations/month',
-      'Priority support',
-      '$50K pilot available (90 days)',
+      'Priority email support',
+      'Cancel anytime',
     ],
-    cta: 'Start Foundation Pilot',
+    cta: 'Start Foundation',
     popular: false,
   },
   {
     id: 'enterprise',
     name: 'Enterprise',
-    basePrice: 500000,
+    basePrice: 17988,
     description: 'Foundation + Stress-Test, Comply, Govern, Sovereign, Operate',
     features: [
       'All Foundation pillars',
@@ -200,13 +200,13 @@ const tiers: Tier[] = [
       'SSO, CAC/PIV auth & dedicated success manager',
       'Unlimited deliberations & up to 500 users',
     ],
-    cta: 'Contact Sales',
+    cta: 'Start Enterprise',
     popular: true,
   },
   {
     id: 'strategic',
     name: 'Strategic',
-    basePrice: 2000000,
+    basePrice: 0,
     description: 'Enterprise + Resilience, Model, Dominate, Nation',
     features: [
       'All Enterprise pillars',
@@ -241,8 +241,8 @@ const faqs = [
     a: 'We accept all major credit cards, wire transfers, and ACH. Enterprise customers can also pay via invoice with NET 30 terms.',
   },
   {
-    q: 'Is there a pilot program?',
-    a: 'Yes! We offer a $50,000 DCII pilot (90 days, 1 business unit) so you can prove value before committing to a Foundation license. Full access to Council, DECIDE, and DCII.',
+    q: 'Is there a free trial?',
+    a: 'The Community tier is free forever. For Foundation and Enterprise, you can start with a monthly subscription and cancel anytime \u2014 no long-term commitment required. The 3-year plan saves 20% if you\'re ready to commit.',
   },
   {
     q: "What's your refund policy?",
@@ -644,7 +644,9 @@ export default function PricingPage() {
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                {tier.basePrice === 0 ? 'Free' : formatPrice(tier.basePrice, selectedRegion, commitment)}
+                {tier.basePrice === 0
+                  ? (tier.id === 'strategic' ? 'Custom' : 'Free')
+                  : formatPrice(tier.basePrice, selectedRegion, commitment)}
               </span>
               {tier.basePrice > 0 && (
                 <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '16px' }}>
@@ -657,7 +659,7 @@ export default function PricingPage() {
               style={{ fontSize: '14px', color: 'rgba(255,255,255,0.4)', marginBottom: '16px' }}
             >
               {tier.basePrice === 0
-                ? 'Free forever · open source'
+                ? (tier.id === 'strategic' ? 'Tailored to your organization' : 'Free forever · open source')
                 : `${getMonthlyEquivalent(tier.basePrice, selectedRegion, commitment)}/month billed ${commitment.id === 'annual' ? 'annually' : 'every 3 years'}`}
             </div>
 
