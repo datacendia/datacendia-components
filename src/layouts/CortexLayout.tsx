@@ -1205,443 +1205,273 @@ const CortexLayoutInner: React.FC = () => {
         {/* MAIN CONTENT AREA */}
         {/* ================================================================= */}
         <div className="flex-1 flex flex-col min-h-0">
-          {/* Header */}
-          <header className="h-16 flex items-center justify-between px-4 lg:px-6 bg-sovereign-elevated border-b border-sovereign-border-subtle overflow-visible">
-            {/* Mobile menu button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(true)}
-              aria-label="Open navigation menu"
-              className="lg:hidden p-2 rounded-md text-gray-400 hover:text-white hover:bg-sovereign-hover"
-            >
-              <Icons.Menu />
-            </button>
+          {/* Header — Gold Sovereign Theme */}
+          <header className="h-14 flex items-center justify-between px-4 lg:px-6 bg-[#0a0a0c] border-b border-[#c9a84c]/10 overflow-visible">
+            {/* Left: Mobile menu + Logo mark + Search */}
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => setIsMobileMenuOpen(true)}
+                aria-label="Open navigation menu"
+                className="lg:hidden p-2 rounded-md text-gray-500 hover:text-[#c9a84c] hover:bg-white/5"
+              >
+                <Icons.Menu />
+              </button>
 
-            {/* Data Source Selector */}
-            <div className="hidden md:block w-64">
-              <DataSourceSelector compact />
-            </div>
-
-            {/* Search - Opens Command Palette */}
-            <div className="flex-1 max-w-md mx-4">
+              {/* Search - Opens Command Palette */}
               <button
                 onClick={() => {
-                  // Trigger Cmd+K programmatically
-                  const event = new KeyboardEvent('keydown', {
-                    key: 'k',
-                    metaKey: true,
-                    ctrlKey: true,
-                  });
+                  const event = new KeyboardEvent('keydown', { key: 'k', metaKey: true, ctrlKey: true });
                   window.dispatchEvent(event);
                 }}
                 className={cn(
-                  'w-full h-10 pl-10 pr-4 rounded-lg flex items-center justify-between',
-                  'bg-sovereign-card border border-sovereign-border',
-                  'text-sm text-gray-500',
-                  'hover:bg-sovereign-hover hover:border-sovereign-border-strong transition-colors',
-                  'focus:outline-none focus:ring-2 focus:ring-cyan-500'
+                  'h-9 pl-3 pr-3 rounded-lg flex items-center gap-2',
+                  'bg-white/[0.03] border border-gray-800/40',
+                  'text-xs text-gray-600',
+                  'hover:border-[#c9a84c]/30 hover:text-gray-400 transition-colors',
+                  'focus:outline-none'
                 )}
               >
-                <div className="flex items-center gap-2">
-                  <Icons.Search />
-                  <span>Search anything...</span>
-                </div>
-                <kbd className="hidden sm:inline-flex px-2 py-1 text-xs font-mono bg-sovereign-active text-gray-400 rounded">
+                <Icons.Search />
+                <span className="hidden sm:inline">Search...</span>
+                <kbd className="hidden md:inline-flex px-1.5 py-0.5 text-[10px] font-mono text-gray-700 bg-white/5 rounded ml-2">
                   Ctrl+K
                 </kbd>
               </button>
             </div>
 
-            {/* Quick Actions (show on main Cortex pages) */}
-            {currentPage && (
-              <div className="hidden lg:block">
-                <QuickActionsBar currentPage={currentPage} />
-              </div>
-            )}
-
-            {/* Right side */}
-            <div className="flex items-center gap-3">
-              {/* API Health Status */}
-              <HealthIndicator className="hidden sm:flex" />
-
-              {/* Core Suite Dropdown (The "Brain") */}
+            {/* Center: Navigation pills */}
+            <nav className="hidden lg:flex items-center gap-1">
+              {/* Core Suite Dropdown */}
               <div className="relative">
                 <button
-                  onClick={() => setIsPremiumDropdownOpen(!isPremiumDropdownOpen)}
+                  onClick={() => { setIsPremiumDropdownOpen(!isPremiumDropdownOpen); setIsEnterpriseDropdownOpen(false); setIsSovereignDropdownOpen(false); }}
                   className={cn(
-                    'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                    'bg-sovereign-card border border-sovereign-border text-gray-300',
-                    'hover:bg-sovereign-hover hover:text-white hover:border-cyan-500/50 transition-all'
+                    'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-all',
+                    isPremiumDropdownOpen
+                      ? 'text-[#c9a84c] bg-[#c9a84c]/10 border border-[#c9a84c]/20'
+                      : 'text-gray-500 hover:text-gray-300 hover:bg-white/5 border border-transparent'
                   )}
                 >
-                  <Brain className="w-4 h-4" />
-                  <span className="hidden md:inline">Core Suite</span>
-                  <svg
-                    className={cn(
-                      'w-4 h-4 transition-transform',
-                      isPremiumDropdownOpen && 'rotate-180'
-                    )}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
+                  <Brain className="w-3.5 h-3.5" />
+                  Core Suite
                 </button>
 
                 {isPremiumDropdownOpen && (
                   <>
-                    <div
-                      className="fixed inset-0 z-40"
-                      onClick={() => setIsPremiumDropdownOpen(false)}
-                    />
-                    <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
-                      {/* Core Suite Section */}
-                      <div className="p-3 bg-gradient-to-r from-cyan-900/30 to-blue-900/30 border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white flex items-center gap-2"><Brain className="w-4 h-4 text-cyan-400" /> The Core Suite</h3>
-                        <p className="text-xs text-cyan-400">User-facing decision tools</p>
+                    <div className="fixed inset-0 z-40" onClick={() => setIsPremiumDropdownOpen(false)} />
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[420px] bg-[#0e0e12] rounded-xl shadow-2xl border border-gray-800/60 z-50 max-h-[80vh] overflow-y-auto">
+                      <div className="p-3 border-b border-gray-800/40">
+                        <h3 className="text-xs font-semibold text-[#c9a84c] uppercase tracking-wider">Core Suite</h3>
+                        <p className="text-[10px] text-gray-600 mt-0.5">Decision tools & intelligence</p>
                       </div>
-                      <div className="py-2">
+                      <div className="py-1">
                         {coreSuiteFeatures.map((feature) => (
                           <button
                             key={feature.id}
-                            onClick={() => {
-                              navigate(feature.path);
-                              setIsPremiumDropdownOpen(false);
-                            }}
+                            onClick={() => { navigate(feature.path); setIsPremiumDropdownOpen(false); }}
                             className={cn(
-                              'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
-                              location.pathname === feature.path &&
-                                'bg-sovereign-active border-l-2 border-cyan-500'
+                              'w-full flex items-start gap-3 px-4 py-2.5 hover:bg-white/[0.03] transition-colors',
+                              location.pathname === feature.path && 'bg-[#c9a84c]/5 border-l-2 border-[#c9a84c]'
                             )}
                           >
-                            <feature.Icon className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
-                            <div className="text-left flex-1">
-                              <p className="font-medium text-white text-sm">{feature.label}</p>
-                              <p className="text-xs text-gray-500">{feature.description}</p>
+                            <feature.Icon className="w-4 h-4 text-[#c9a84c]/70 shrink-0 mt-0.5" />
+                            <div className="text-left flex-1 min-w-0">
+                              <p className="text-sm text-gray-300 font-medium">{feature.label}</p>
+                              <p className="text-[10px] text-gray-600 truncate">{feature.description}</p>
                             </div>
                           </button>
                         ))}
                       </div>
-                      
-                      {/* Trust Layer Section */}
-                      <div className="p-3 bg-gradient-to-r from-amber-900/30 to-orange-900/30 border-t border-sovereign-border-subtle">
-                        <h3 className="font-semibold text-white flex items-center gap-2"><Shield className="w-4 h-4 text-amber-400" /> The Trust Layer</h3>
-                        <p className="text-xs text-amber-400">Compliance & Proof</p>
+                      <div className="p-3 border-t border-gray-800/40">
+                        <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Trust Layer</h3>
                       </div>
-                      <div className="py-2">
-                        {trustLayerFeatures.map((feature) => (
+                      <div className="py-1">
+                        {trustLayerFeatures.slice(0, 8).map((feature) => (
                           <button
                             key={feature.id}
-                            onClick={() => {
-                              navigate(feature.path);
-                              setIsPremiumDropdownOpen(false);
-                            }}
+                            onClick={() => { navigate(feature.path); setIsPremiumDropdownOpen(false); }}
                             className={cn(
-                              'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
-                              location.pathname === feature.path &&
-                                'bg-sovereign-active border-l-2 border-amber-500'
+                              'w-full flex items-start gap-3 px-4 py-2.5 hover:bg-white/[0.03] transition-colors',
+                              location.pathname === feature.path && 'bg-[#c9a84c]/5 border-l-2 border-[#c9a84c]'
                             )}
                           >
-                            <feature.Icon className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-                            <div className="text-left flex-1">
-                              <p className="font-medium text-white text-sm">{feature.label}</p>
-                              <p className="text-xs text-gray-500">{feature.description}</p>
+                            <feature.Icon className="w-4 h-4 text-gray-600 shrink-0 mt-0.5" />
+                            <div className="text-left flex-1 min-w-0">
+                              <p className="text-sm text-gray-400 font-medium">{feature.label}</p>
+                              <p className="text-[10px] text-gray-700 truncate">{feature.description}</p>
                             </div>
                           </button>
                         ))}
-                      </div>
-
-                      {/* Additional Services */}
-                      <div className="p-2 border-t border-sovereign-border-subtle">
-                        <p className="px-2 text-xs font-semibold text-gray-600 uppercase mb-1">
-                          Additional Services
-                        </p>
-                        {additionalServices.map((service) => (
+                        {trustLayerFeatures.length > 8 && (
                           <button
-                            key={service.id}
-                            onClick={() => {
-                              navigate(service.path);
-                              setIsPremiumDropdownOpen(false);
-                            }}
-                            className={cn(
-                              'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors rounded-lg',
-                              location.pathname === service.path && 'bg-sovereign-active'
-                            )}
+                            onClick={() => { navigate('/cortex/compliance/continuous-monitor'); setIsPremiumDropdownOpen(false); }}
+                            className="w-full px-4 py-2 text-xs text-[#c9a84c]/60 hover:text-[#c9a84c] text-center"
                           >
-                            <service.Icon className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" />
-                            <div className="text-left">
-                              <p className="font-medium text-white text-sm">{service.label}</p>
-                              <p className="text-xs text-gray-500">{service.description}</p>
-                            </div>
+                            View all {trustLayerFeatures.length} trust features →
                           </button>
-                        ))}
+                        )}
                       </div>
                     </div>
                   </>
                 )}
               </div>
 
-              {/* Vertical Packs Dropdown (The "Specialist") */}
+              {/* Verticals Dropdown */}
               <div className="relative">
                 <button
-                  onClick={() => setIsEnterpriseDropdownOpen(!isEnterpriseDropdownOpen)}
+                  onClick={() => { setIsEnterpriseDropdownOpen(!isEnterpriseDropdownOpen); setIsPremiumDropdownOpen(false); setIsSovereignDropdownOpen(false); }}
                   className={cn(
-                    'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                    'bg-sovereign-card border border-sovereign-border text-gray-300',
-                    'hover:bg-sovereign-hover hover:text-white hover:border-purple-500/50 transition-all'
+                    'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-all',
+                    isEnterpriseDropdownOpen
+                      ? 'text-[#c9a84c] bg-[#c9a84c]/10 border border-[#c9a84c]/20'
+                      : 'text-gray-500 hover:text-gray-300 hover:bg-white/5 border border-transparent'
                   )}
                 >
-                  <Factory className="w-4 h-4" />
-                  <span className="hidden md:inline">Verticals</span>
-                  <svg
-                    className={cn(
-                      'w-4 h-4 transition-transform',
-                      isEnterpriseDropdownOpen && 'rotate-180'
-                    )}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
+                  <Factory className="w-3.5 h-3.5" />
+                  Verticals
                 </button>
 
                 {isEnterpriseDropdownOpen && (
                   <>
-                    <div
-                      className="fixed inset-0 z-40"
-                      onClick={() => setIsEnterpriseDropdownOpen(false)}
-                    />
-                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 max-h-[70vh] flex flex-col">
-                      <div className="p-3 bg-gradient-to-r from-purple-900/30 to-violet-900/30 border-b border-sovereign-border-subtle rounded-t-xl flex-shrink-0">
-                        <h3 className="font-semibold text-white flex items-center gap-2"><Factory className="w-4 h-4 text-purple-400" /> Industry Verticals</h3>
-                        <p className="text-xs text-purple-400">
-                          17 verticals • 400+ council modes • 200+ AI agents
-                        </p>
+                    <div className="fixed inset-0 z-40" onClick={() => setIsEnterpriseDropdownOpen(false)} />
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-80 bg-[#0e0e12] rounded-xl shadow-2xl border border-gray-800/60 z-50 max-h-[70vh] flex flex-col">
+                      <div className="p-3 border-b border-gray-800/40 flex-shrink-0">
+                        <h3 className="text-xs font-semibold text-[#c9a84c] uppercase tracking-wider">Industry Verticals</h3>
+                        <p className="text-[10px] text-gray-600 mt-0.5">17 verticals · 400+ council modes</p>
                       </div>
-                      <div className="py-2 overflow-y-auto flex-1">
+                      <div className="py-1 overflow-y-auto flex-1">
                         {verticalPacks.map((pack) => (
                           <button
                             key={pack.id}
-                            onClick={() => {
-                              navigate(pack.path);
-                              setIsEnterpriseDropdownOpen(false);
-                            }}
+                            onClick={() => { navigate(pack.path); setIsEnterpriseDropdownOpen(false); }}
                             className={cn(
-                              'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors',
-                              location.pathname === pack.path &&
-                                'bg-sovereign-active border-l-2 border-purple-500'
+                              'w-full flex items-center gap-3 px-4 py-2 hover:bg-white/[0.03] transition-colors',
+                              location.pathname === pack.path && 'bg-[#c9a84c]/5 border-l-2 border-[#c9a84c]'
                             )}
                           >
-                            <pack.Icon className="w-5 h-5 text-purple-400 shrink-0 mt-0.5" />
-                            <div className="text-left flex-1">
-                              <div className="flex items-center justify-between">
-                                <p className="font-medium text-white text-sm">{pack.label}</p>
-                                <span className="text-xs px-1.5 py-0.5 rounded-full bg-purple-900/30 text-purple-400">
-                                  {pack.industry}
-                                </span>
-                              </div>
-                              <p className="text-xs text-gray-500">{pack.description}</p>
-                            </div>
+                            <pack.Icon className="w-4 h-4 text-gray-600 shrink-0" />
+                            <span className="text-sm text-gray-400 font-medium flex-1 text-left">{pack.label}</span>
+                            <span className="text-[10px] text-gray-700">{pack.industry}</span>
                           </button>
                         ))}
-                      </div>
-                      <div className="p-2 bg-sovereign-elevated border-t border-sovereign-border-subtle rounded-b-xl flex-shrink-0">
-                        <button
-                          onClick={() => {
-                            navigate('/cortex/admin/vertical-config');
-                            setIsEnterpriseDropdownOpen(false);
-                          }}
-                          className="w-full text-xs text-purple-400 hover:text-purple-300 text-center"
-                        >
-                          Configure Vertical Services
-                        </button>
                       </div>
                     </div>
                   </>
                 )}
               </div>
 
-              {/* Admin Dropdown (hidden for non-admins in production) */}
-              <div className="relative">
-                <button
-                  onClick={() => setIsSovereignDropdownOpen(!isSovereignDropdownOpen)}
-                  className={cn(
-                    'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                    'bg-sovereign-card border border-sovereign-border text-gray-300',
-                    'hover:bg-sovereign-hover hover:text-white hover:border-gray-500/50 transition-all'
-                  )}
-                >
-                  <Settings className="w-4 h-4" />
-                  <span className="hidden md:inline">Admin</span>
-                  <svg
+              {/* Admin Dropdown */}
+              {isOwnerOrAdmin && (
+                <div className="relative">
+                  <button
+                    onClick={() => { setIsSovereignDropdownOpen(!isSovereignDropdownOpen); setIsPremiumDropdownOpen(false); setIsEnterpriseDropdownOpen(false); }}
                     className={cn(
-                      'w-4 h-4 transition-transform',
-                      isSovereignDropdownOpen && 'rotate-180'
+                      'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-all',
+                      isSovereignDropdownOpen
+                        ? 'text-[#c9a84c] bg-[#c9a84c]/10 border border-[#c9a84c]/20'
+                        : 'text-gray-500 hover:text-gray-300 hover:bg-white/5 border border-transparent'
                     )}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
+                    <Settings className="w-3.5 h-3.5" />
+                    Admin
+                  </button>
 
-                {isSovereignDropdownOpen && (
-                  <>
-                    <div
-                      className="fixed inset-0 z-40"
-                      onClick={() => setIsSovereignDropdownOpen(false)}
-                    />
-                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
-                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white flex items-center gap-2"><Settings className="w-4 h-4 text-gray-400" /> Administration</h3>
-                        <p className="text-xs text-gray-500">
-                          System configuration & management
-                        </p>
-                      </div>
-                      <div className="py-2">
-                        {/* Vertical Config */}
-                        <button
-                          onClick={() => {
-                            navigate('/cortex/admin/vertical-config');
-                            setIsSovereignDropdownOpen(false);
-                          }}
-                          className={cn(
-                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
-                            location.pathname === '/cortex/admin/vertical-config' &&
-                              'bg-sovereign-active border-l-2 border-cyan-500'
-                          )}
-                        >
-                          <Settings className="w-5 h-5 text-gray-400 shrink-0 mt-0.5" />
-                          <div className="text-left">
-                            <p className="font-medium text-white text-sm">Vertical Config</p>
-                            <p className="text-xs text-gray-500">Industry & service toggles</p>
-                          </div>
-                        </button>
-                        {/* Long-horizon features */}
-                        {filteredSovereignFeatures.map((feature) => (
+                  {isSovereignDropdownOpen && (
+                    <>
+                      <div className="fixed inset-0 z-40" onClick={() => setIsSovereignDropdownOpen(false)} />
+                      <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-80 bg-[#0e0e12] rounded-xl shadow-2xl border border-gray-800/60 z-50">
+                        <div className="p-3 border-b border-gray-800/40">
+                          <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Administration</h3>
+                        </div>
+                        <div className="py-1">
                           <button
-                            key={feature.id}
-                            onClick={() => {
-                              navigate(feature.path);
-                              setIsSovereignDropdownOpen(false);
-                            }}
-                            className={cn(
-                              'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
-                              location.pathname === feature.path &&
-                                'bg-sovereign-active border-l-2 border-cyan-500'
-                            )}
+                            onClick={() => { navigate('/cortex/admin/vertical-config'); setIsSovereignDropdownOpen(false); }}
+                            className="w-full flex items-center gap-3 px-4 py-2.5 hover:bg-white/[0.03] transition-colors"
                           >
-                            <feature.Icon className="w-5 h-5 text-purple-400 shrink-0 mt-0.5" />
+                            <Settings className="w-4 h-4 text-gray-600 shrink-0" />
                             <div className="text-left">
-                              <p className="font-medium text-white text-sm">{feature.label}</p>
-                              <p className="text-xs text-gray-500">{feature.description}</p>
+                              <p className="text-sm text-gray-400 font-medium">Vertical Config</p>
+                              <p className="text-[10px] text-gray-700">Industry & service toggles</p>
                             </div>
                           </button>
-                        ))}
+                          {filteredSovereignFeatures.map((feature) => (
+                            <button
+                              key={feature.id}
+                              onClick={() => { navigate(feature.path); setIsSovereignDropdownOpen(false); }}
+                              className={cn(
+                                'w-full flex items-center gap-3 px-4 py-2.5 hover:bg-white/[0.03] transition-colors',
+                                location.pathname === feature.path && 'bg-[#c9a84c]/5 border-l-2 border-[#c9a84c]'
+                              )}
+                            >
+                              <feature.Icon className="w-4 h-4 text-gray-600 shrink-0" />
+                              <div className="text-left">
+                                <p className="text-sm text-gray-400 font-medium">{feature.label}</p>
+                                <p className="text-[10px] text-gray-700">{feature.description}</p>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
                       </div>
-                      <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
-                        <p className="text-xs text-gray-500 text-center">
-                          Owner/Admin access only
-                        </p>
-                      </div>
-                    </div>
-                  </>
-                )}
-              </div>
+                    </>
+                  )}
+                </div>
+              )}
+            </nav>
 
-              {/* Notifications */}
-              <button
-                aria-label="Notifications"
-                className="relative p-2 rounded-lg text-gray-400 hover:text-white hover:bg-sovereign-hover"
-              >
-                <Icons.Bell />
-                <span
-                  className="absolute top-1.5 right-1.5 w-2 h-2 bg-crimson-600 rounded-full"
-                  aria-hidden="true"
-                />
-              </button>
+            {/* Right: Minimal utilities */}
+            <div className="flex items-center gap-1.5">
+              <HealthIndicator className="hidden sm:flex" />
 
-              {/* Demo Mode Toggle */}
-              <DemoModeToggle />
-
-              {/* Notifications */}
               <NotificationBell />
 
-              {/* Theme Toggle */}
-              <ThemeToggle />
-
-              {/* Language Selector */}
-              <LanguageSelector />
+              <DemoIndicatorBadge />
 
               {/* User menu */}
-              <div className="relative">
+              <div className="relative ml-1">
                 <button
                   aria-label="User menu"
                   onClick={() => setIsUserMenuOpen((prev) => !prev)}
-                  className="p-1.5 rounded-lg hover:bg-sovereign-hover"
+                  className="p-1 rounded-lg hover:bg-white/5 transition-colors"
                 >
-                  <div className="w-8 h-8 bg-crimson-900/30 rounded-full flex items-center justify-center">
-                    <span className="text-crimson-400 font-medium text-sm">{userInitials}</span>
+                  <div className="w-8 h-8 bg-[#c9a84c]/10 border border-[#c9a84c]/20 rounded-full flex items-center justify-center">
+                    <span className="text-[#c9a84c] font-medium text-xs">{userInitials}</span>
                   </div>
                 </button>
 
                 {isUserMenuOpen && (
                   <>
                     <div className="fixed inset-0 z-40" onClick={() => setIsUserMenuOpen(false)} />
-                    <div className="absolute top-full right-0 mt-2 w-56 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
-                      <div className="p-4 border-b border-sovereign-border-subtle">
-                        <p className="text-sm font-semibold text-white">
-                          {user?.name || 'John Smith'}
-                        </p>
-                        <p className="text-xs text-gray-500 truncate">
-                          {user?.email || 'john@datacendia.com'}
-                        </p>
+                    <div className="absolute top-full right-0 mt-2 w-56 bg-[#0e0e12] rounded-xl shadow-2xl border border-gray-800/60 z-50">
+                      <div className="p-4 border-b border-gray-800/40">
+                        <p className="text-sm font-medium text-white">{user?.name || 'Stuart Rainey'}</p>
+                        <p className="text-[10px] text-gray-600 truncate mt-0.5">{user?.email || 'stuart.rainey@datacendia.com'}</p>
                       </div>
                       <div className="py-1">
                         <button
-                          onClick={() => {
-                            navigate('/cortex/profile');
-                            setIsUserMenuOpen(false);
-                          }}
-                          className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-400 hover:bg-sovereign-hover hover:text-white"
+                          onClick={() => { navigate('/cortex/profile'); setIsUserMenuOpen(false); }}
+                          className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-gray-500 hover:bg-white/[0.03] hover:text-gray-300 transition-colors"
                         >
-                          <Eye className="w-3.5 h-3.5" /> <span>View Profile</span>
+                          <Eye className="w-3.5 h-3.5" /> Profile
                         </button>
                         <button
-                          onClick={() => {
-                            navigate('/cortex/settings');
-                            setIsUserMenuOpen(false);
-                          }}
-                          className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-400 hover:bg-sovereign-hover hover:text-white"
+                          onClick={() => { navigate('/cortex/settings'); setIsUserMenuOpen(false); }}
+                          className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-gray-500 hover:bg-white/[0.03] hover:text-gray-300 transition-colors"
                         >
-                          <Settings className="w-3.5 h-3.5" /> <span>Settings</span>
+                          <Settings className="w-3.5 h-3.5" /> Settings
                         </button>
                         <button
-                          onClick={async () => {
-                            setIsUserMenuOpen(false);
-                            await logout();
-                            navigate('/login');
-                          }}
-                          className="w-full flex items-center gap-2 px-4 py-2 text-sm text-crimson-400 hover:bg-crimson-900/20"
+                          onClick={() => { navigate('/pricing'); setIsUserMenuOpen(false); }}
+                          className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-gray-500 hover:bg-white/[0.03] hover:text-gray-300 transition-colors"
                         >
-                          ⎋ <span>Log out</span>
+                          <TrendingUp className="w-3.5 h-3.5" /> Upgrade Plan
+                        </button>
+                        <div className="border-t border-gray-800/40 my-1" />
+                        <button
+                          onClick={async () => { setIsUserMenuOpen(false); await logout(); navigate('/login'); }}
+                          className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-red-400/70 hover:bg-red-950/20 hover:text-red-400 transition-colors"
+                        >
+                          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" /></svg>
+                          Sign out
                         </button>
                       </div>
                     </div>
