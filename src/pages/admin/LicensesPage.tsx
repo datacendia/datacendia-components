@@ -599,24 +599,36 @@ export const LicensesPage: React.FC = () => {
                         </button>
 
                         {actionMenuId === license.id && (
-                          <div className="absolute right-0 top-full mt-1 w-48 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl z-10">
+                          <div className="absolute right-0 top-full mt-1 w-56 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl z-10">
                             <button
                               onClick={() => handleExtend(license, 12)}
-                              className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
+                              className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700 rounded-t-lg"
                             >
                               <Calendar className="w-4 h-4" />
                               Extend 12 Months
                             </button>
-                            <button
-                              onClick={() => handleUpgrade(license, 'enterprise')}
-                              className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
-                            >
-                              <ArrowUpRight className="w-4 h-4" />
-                              Upgrade Plan
-                            </button>
+                            <div className="border-t border-neutral-700">
+                              <p className="px-4 py-1.5 text-[10px] uppercase tracking-wider text-neutral-500 font-medium">Upgrade To</p>
+                              {(['foundation', 'enterprise', 'strategic'] as const)
+                                .filter((t) => {
+                                  const order = { trial: 0, pilot: 0, community: 0, foundation: 1, enterprise: 2, strategic: 3, custom: 4 };
+                                  return (order[t] || 0) > (order[license.type as keyof typeof order] || 0);
+                                })
+                                .map((t) => (
+                                  <button
+                                    key={t}
+                                    onClick={() => handleUpgrade(license, t)}
+                                    className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
+                                  >
+                                    <ArrowUpRight className="w-4 h-4" />
+                                    {t.charAt(0).toUpperCase() + t.slice(1)}
+                                  </button>
+                                ))
+                              }
+                            </div>
                             <button
                               onClick={() => {}}
-                              className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
+                              className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700 border-t border-neutral-700 rounded-b-lg"
                             >
                               <Shield className="w-4 h-4" />
                               View Features

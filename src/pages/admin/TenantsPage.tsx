@@ -598,14 +598,26 @@ export const TenantsPage: React.FC = () => {
                         </button>
 
                         {actionMenuId === tenant.id && (
-                          <div className="absolute right-0 top-full mt-1 w-48 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl z-10">
-                            <button
-                              onClick={() => handleUpgrade(tenant, 'enterprise')}
-                              className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
-                            >
-                              <ArrowUpRight className="w-4 h-4" />
-                              Upgrade Plan
-                            </button>
+                          <div className="absolute right-0 top-full mt-1 w-56 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl z-10">
+                            <div className="border-b border-neutral-700">
+                              <p className="px-4 py-1.5 text-[10px] uppercase tracking-wider text-neutral-500 font-medium">Upgrade To</p>
+                              {(['foundation', 'enterprise', 'strategic'] as const)
+                                .filter((t) => {
+                                  const order: Record<string, number> = { trial: 0, pilot: 0, community: 0, foundation: 1, enterprise: 2, strategic: 3, custom: 4 };
+                                  return (order[t] || 0) > (order[tenant.plan] || 0);
+                                })
+                                .map((t) => (
+                                  <button
+                                    key={t}
+                                    onClick={() => handleUpgrade(tenant, t)}
+                                    className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
+                                  >
+                                    <ArrowUpRight className="w-4 h-4" />
+                                    {t.charAt(0).toUpperCase() + t.slice(1)}
+                                  </button>
+                                ))
+                              }
+                            </div>
                             <button
                               onClick={() => {}}
                               className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-neutral-300 hover:bg-neutral-700"
@@ -616,7 +628,7 @@ export const TenantsPage: React.FC = () => {
                             {tenant.status === 'active' && (
                               <button
                                 onClick={() => handleSuspend(tenant)}
-                                className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-red-400 hover:bg-neutral-700"
+                                className="w-full flex items-center gap-2 px-4 py-2 text-left text-sm text-red-400 hover:bg-neutral-700 rounded-b-lg"
                               >
                                 <XCircle className="w-4 h-4" />
                                 Suspend

@@ -7,8 +7,8 @@
 // Matching DatacendiaPricing.jsx design
 // =============================================================================
 
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useCallback } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 interface Region {
   id: string;
@@ -152,6 +152,23 @@ const regions: Region[] = [
 
 const tiers: Tier[] = [
   {
+    id: 'community',
+    name: 'Community',
+    basePrice: 0,
+    description: 'Open-source core for individuals and small teams',
+    features: [
+      'THE COUNCIL — 5 agents, Quick Brief mode',
+      'Basic deliberation with audit trail',
+      'Knowledge Graph explorer',
+      'Community support (GitHub)',
+      'Up to 5 users',
+      '100 deliberations/month',
+      'Apache 2.0 licensed core',
+    ],
+    cta: 'Get Started Free',
+    popular: false,
+  },
+  {
     id: 'foundation',
     name: 'Foundation',
     basePrice: 150000,
@@ -237,10 +254,77 @@ const faqs = [
   },
 ];
 
+// =============================================================================
+// STRIPE INTEGRATION
+// Set VITE_STRIPE_PUBLISHABLE_KEY in your .env to enable checkout
+// Backend needs STRIPE_SECRET_KEY and Stripe price IDs configured
+// =============================================================================
+const STRIPE_KEY = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || '';
+
+const STRIPE_PRICE_IDS: Record<string, Record<string, string>> = {
+  // Map tier + commitment to Stripe Price IDs
+  // Configure these in your .env or backend
+  community:  { annual: '', 'multi-year': '' },
+  foundation: { annual: import.meta.env.VITE_STRIPE_PRICE_FOUNDATION_ANNUAL || '', 'multi-year': import.meta.env.VITE_STRIPE_PRICE_FOUNDATION_3YR || '' },
+  enterprise: { annual: import.meta.env.VITE_STRIPE_PRICE_ENTERPRISE_ANNUAL || '', 'multi-year': import.meta.env.VITE_STRIPE_PRICE_ENTERPRISE_3YR || '' },
+  strategic:  { annual: import.meta.env.VITE_STRIPE_PRICE_STRATEGIC_ANNUAL || '', 'multi-year': import.meta.env.VITE_STRIPE_PRICE_STRATEGIC_3YR || '' },
+};
+
 export default function PricingPage() {
+  const navigate = useNavigate();
   const [selectedRegion, setSelectedRegion] = useState<Region>(regions[0]);
   const [commitment, setCommitment] = useState<CommitmentOption>(commitmentOptions[0]);
   const [showRegionSelector, setShowRegionSelector] = useState(false);
+  const [checkoutLoading, setCheckoutLoading] = useState<string | null>(null);
+
+  const handleSelectPlan = useCallback(async (tier: Tier) => {
+    // Community tier → go to register
+    if (tier.id === 'community') {
+      navigate('/register');
+      return;
+    }
+
+    // Strategic tier → always contact sales
+    if (tier.id === 'strategic') {
+      window.location.href = 'mailto:sales@datacendia.com?subject=Strategic%20Plan%20Inquiry';
+      return;
+    }
+
+    // Check if Stripe is configured
+    const priceId = STRIPE_PRICE_IDS[tier.id]?.[commitment.id];
+    if (!STRIPE_KEY || !priceId) {
+      // Stripe not configured — fall back to contact sales
+      window.location.href = `mailto:sales@datacendia.com?subject=${encodeURIComponent(tier.name + ' Plan Inquiry')}&body=${encodeURIComponent(`I'm interested in the ${tier.name} plan (${commitment.label} commitment, ${selectedRegion.name} region).`)}`;
+      return;
+    }
+
+    // Stripe checkout
+    setCheckoutLoading(tier.id);
+    try {
+      const response = await fetch('/api/v1/billing/create-checkout-session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          priceId,
+          tierId: tier.id,
+          commitment: commitment.id,
+          region: selectedRegion.id,
+          successUrl: `${window.location.origin}/settings/billing?session_id={CHECKOUT_SESSION_ID}`,
+          cancelUrl: window.location.href,
+        }),
+      });
+      const data = await response.json();
+      if (data.url) {
+        window.location.href = data.url;
+      } else {
+        console.error('No checkout URL returned');
+      }
+    } catch (err) {
+      console.error('Checkout error:', err);
+    } finally {
+      setCheckoutLoading(null);
+    }
+  }, [commitment, selectedRegion, navigate]);
 
   const formatPrice = (basePrice: number, region: Region, commit: CommitmentOption) => {
     let price = basePrice * region.multiplier * commit.multiplier;
@@ -560,18 +644,21 @@ export default function PricingPage() {
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                {formatPrice(tier.basePrice, selectedRegion, commitment)}
+                {tier.basePrice === 0 ? 'Free' : formatPrice(tier.basePrice, selectedRegion, commitment)}
               </span>
-              <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '16px' }}>
-                /yr
-              </span>
+              {tier.basePrice > 0 && (
+                <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '16px' }}>
+                  /yr
+                </span>
+              )}
             </div>
 
             <div
               style={{ fontSize: '14px', color: 'rgba(255,255,255,0.4)', marginBottom: '16px' }}
             >
-              {getMonthlyEquivalent(tier.basePrice, selectedRegion, commitment)}/month billed{' '}
-              {commitment.id === 'annual' ? 'annually' : 'every 3 years'}
+              {tier.basePrice === 0
+                ? 'Free forever · open source'
+                : `${getMonthlyEquivalent(tier.basePrice, selectedRegion, commitment)}/month billed ${commitment.id === 'annual' ? 'annually' : 'every 3 years'}`}
             </div>
 
             <p
@@ -586,23 +673,28 @@ export default function PricingPage() {
             </p>
 
             <button
+              onClick={() => handleSelectPlan(tier)}
+              disabled={checkoutLoading === tier.id}
               style={{
                 width: '100%',
                 padding: '16px',
                 background: tier.popular
                   ? 'linear-gradient(135deg, #6366f1, #8b5cf6)'
-                  : 'rgba(255,255,255,0.1)',
+                  : tier.id === 'community'
+                    ? 'linear-gradient(135deg, #10b981, #059669)'
+                    : 'rgba(255,255,255,0.1)',
                 border: 'none',
                 borderRadius: '12px',
                 color: '#fff',
                 fontSize: '16px',
                 fontWeight: 600,
-                cursor: 'pointer',
+                cursor: checkoutLoading === tier.id ? 'wait' : 'pointer',
                 marginBottom: '32px',
                 transition: 'all 0.2s ease',
+                opacity: checkoutLoading === tier.id ? 0.7 : 1,
               }}
             >
-              {tier.cta}
+              {checkoutLoading === tier.id ? 'Redirecting...' : tier.cta}
             </button>
 
             <div
