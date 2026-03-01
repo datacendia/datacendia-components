@@ -4,6 +4,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception%20Member-76b900.svg)](https://www.nvidia.com/en-us/startups/)
 [![License](https://img.shields.io/badge/License-See%20LICENSE-lightgrey.svg)](#license)
+[![Docker](https://img.shields.io/badge/Docker-Deploy-2496ED.svg?logo=docker)](https://hub.docker.com/r/datacendia/datacendia)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template?referralCode=datacendia)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/datacendia/datacendia-components)
 
 **The Defensible AI Platform — every decision, defensible.**
 
