@@ -43,15 +43,19 @@ export const HealthIndicator: React.FC<{ className?: string }> = ({ className = 
     unknown: <RefreshCw className="w-3 h-3 animate-spin" />,
   };
 
+  if (health.status === 'unknown') {
+    return null;
+  }
+
   return (
     <button
       onClick={refresh}
       disabled={isChecking}
-      className={`flex items-center gap-1.5 px-2 py-1 rounded-md text-xs transition-colors hover:bg-slate-700 ${className}`}
+      className={`flex items-center gap-1.5 px-2 py-1 rounded-md text-xs transition-colors hover:bg-white/5 ${className}`}
       title={`API: ${health.status} (${health.latency}ms)`}
     >
       <span className={`w-2 h-2 rounded-full ${statusColors[health.status]} ${isChecking ? 'animate-pulse' : ''}`} />
-      <span className="text-slate-400">
+      <span className="text-gray-600">
         {health.status === 'healthy' ? `${health.latency}ms` : health.status}
       </span>
     </button>
