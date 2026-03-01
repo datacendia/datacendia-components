@@ -2365,24 +2365,27 @@ Content-Type: application/json
 
 ## Tier Overview
 
-Annual license model. Customer-owned infrastructure, keys, and proof. Not SaaS.
+Open-core model. Self-hosted or managed cloud. Customer-owned infrastructure, keys, and proof.
 
-| Tier | Description | Price | Deployment | Model Gating |
-|------|-------------|-------|------------|--------------|
-| **DCII Pilot** | Single use case, prove the evidence layer | **$50K** | Self-hosted | 3 models + embed (14B cap) |
-| **Foundation** | Council + DECIDE + DCII — full decision stack | **$150K–$500K/year** | Self-hosted | Full 32B lineup |
-| **Enterprise** | Multi-vertical, consensus, red-team, vision | **$500K–$1.5M/year** | Self-hosted or air-gap | Full 32B + consensus |
-| **Platinum** | Nation-scale, 70B+ models, dedicated support | **Custom** | Full sovereignty | Everything + 70B+ |
+| Tier | Description | Price | Deployment |
+|------|-------------|-------|------------|
+| **Community** | Open-source core engine (Apache 2.0) | **Free** | Self-hosted |
+| **Foundation** | Council + DECIDE + DCII — full decision stack | **$499/month** ($4,990/year) | Self-hosted or cloud |
+| **Enterprise** | Foundation + Stress-Test, Comply, Govern, Sovereign, Operate | **$1,499/month** ($14,990/year) | Self-hosted, cloud, or air-gap |
+| **Strategic** | All 12 pillars, nation-scale, dedicated support | **Custom** | Full sovereignty |
+
+3-year commitment saves 20%. Cancel anytime on monthly plans.
 
 ## Entry Path
 
-The pilot is the wedge. Prove value → expand.
+Start free, upgrade when ready. No pilots, no sales calls required.
 
-| Stage | What Happens | Price | Duration |
-|-------|-------------|-------|----------|
-| **DCII Pilot** | Single department, single vertical. Platform runs on 3 models (14B flagship, reasoning, fast + embed). Produces defensible evidence. No consensus, no red-team. Boring infrastructure that works. | **$50K** | 90 days |
-| **Foundation Upgrade** | Unlock full 32B models, multi-model consensus, advanced agents. All three pillars: The Council + DECIDE + DCII. | **$150K–$500K/year** | Annual |
-| **Enterprise Expansion** | Multi-vertical, red-team reasoning, vision, translation, advanced bias mitigation. | **$500K–$1.5M/year** | Annual |
+| Stage | What Happens | Price |
+|-------|-------------|-------|
+| **Community** | Full Council engine, basic audit trail, Knowledge Graph. Self-hosted via GitHub. | **Free** |
+| **Foundation** | Unlock 15 C-Suite agents, 35+ modes, DCII evidence infrastructure, priority support. | **$499/month** |
+| **Enterprise** | Add adversarial testing, compliance automation, sovereign deployment, 19 department co-pilots. | **$1,499/month** |
+| **Strategic** | Nation-scale, COLLAPSE simulation, population modeling, white-glove support. | **Contact Sales** |
 
 ## What Each Tier Unlocks
 

@@ -5,9 +5,9 @@
 [![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception%20Member-76b900.svg)](https://www.nvidia.com/en-us/startups/)
 [![License](https://img.shields.io/badge/License-See%20LICENSE-lightgrey.svg)](#license)
 
-**AI-powered multi-agent deliberation for enterprise decisions.**
+**AI Decision Intelligence Platform — open-core, sovereign-first.**
 
-Datacendia is a decision intelligence platform where multiple AI agents *deliberate* — argue, dissent, and challenge each other — before a recommendation is made. Every decision produces a cryptographically signed, immutable audit trail that's court-admissible and regulator-ready.
+Datacendia is an open-core AI decision intelligence platform where multiple AI agents *deliberate* — argue, dissent, and challenge each other — before a recommendation is made. Every decision produces a cryptographically signed, immutable audit trail that's court-admissible and regulator-ready. Deploy self-hosted, in your private cloud, or use our managed service. Your data, your infrastructure, your keys.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐

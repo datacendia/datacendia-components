@@ -1,5 +1,5 @@
 # Datacendia Pitch Deck
-## Decision Intelligence Platform | Pre-Seed
+## AI Decision Intelligence Platform — Open-Core, Sovereign-First | Pre-Seed
 
 ---
 
