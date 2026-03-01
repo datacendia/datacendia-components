@@ -450,6 +450,80 @@ router.post('/forgot-password', async (req: Request, res: Response, next: NextFu
 });
 
 /**
+ * POST /api/v1/auth/find-account
+ * Find account by name + organization, returns masked email
+ */
+router.post('/find-account', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { name, organizationName } = z.object({
+      name: z.string().min(2),
+      organizationName: z.string().min(1),
+    }).parse(req.body);
+
+    // Rate limit: max 5 lookups per IP per 15 minutes
+    const rateLimitKey = `find-account:${req.ip}`;
+    const attempts = await cache.get(rateLimitKey);
+    if (attempts && parseInt(attempts) >= 5) {
+      res.status(429).json({
+        success: false,
+        error: { message: 'Too many lookup attempts. Please try again in 15 minutes.' },
+      });
+      return;
+    }
+    await cache.set(rateLimitKey, String((parseInt(attempts || '0') + 1)), 'EX', 900);
+
+    // Search for matching users (case-insensitive partial name match within the organization)
+    const users = await prisma.users.findMany({
+      where: {
+        name: { contains: name, mode: 'insensitive' as Prisma.QueryMode },
+        organization: {
+          name: { contains: organizationName, mode: 'insensitive' as Prisma.QueryMode },
+        },
+      },
+      select: { email: true, name: true },
+      take: 5,
+    });
+
+    if (users.length === 0) {
+      res.json({
+        success: true,
+        data: {
+          found: false,
+          message: 'No accounts found matching that name and organization.',
+          accounts: [],
+        },
+      });
+      return;
+    }
+
+    // Mask emails: show first char, mask middle, show domain
+    const maskedAccounts = users.map((u) => {
+      const [local, domain] = u.email.split('@');
+      const masked = local.length <= 2
+        ? local[0] + '*'.repeat(local.length - 1)
+        : local[0] + '*'.repeat(local.length - 2) + local[local.length - 1];
+      return {
+        name: u.name,
+        maskedEmail: `${masked}@${domain}`,
+      };
+    });
+
+    logger.info(`Account lookup: ${maskedAccounts.length} result(s) for name="${name}" org="${organizationName}"`);
+
+    res.json({
+      success: true,
+      data: {
+        found: true,
+        message: `Found ${maskedAccounts.length} account(s). Use the email shown to sign in or reset your password.`,
+        accounts: maskedAccounts,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
  * POST /api/v1/auth/reset-password
  * Reset password using token
  */
