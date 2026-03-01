@@ -245,6 +245,16 @@ export const emailService = {
    * Send a raw email
    */
   async send(options: EmailOptions): Promise<boolean> {
+    // Local dev fallback: log to console when no SMTP configured
+    if (!process.env.SMTP_HOST && process.env.NODE_ENV !== 'production') {
+      logger.info('='.repeat(60));
+      logger.info(`[DEV EMAIL] To: ${options.to}`);
+      logger.info(`[DEV EMAIL] Subject: ${options.subject}`);
+      logger.info(`[DEV EMAIL] Body:\n${options.text || '(HTML only)'}`);
+      logger.info('='.repeat(60));
+      return true;
+    }
+
     try {
       const info = await transporter.sendMail({
         from: process.env.EMAIL_FROM || '"Datacendia" <noreply@datacendia.com>',
