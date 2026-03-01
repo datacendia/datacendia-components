@@ -1685,75 +1685,79 @@ export const CouncilPage: React.FC = () => {
       <div className="mb-8">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-white">{t('council.title')}</h1>
-            <p className="text-neutral-300 mt-1">
-              {t('council.subtitle')} — 24 {t('council.pre_built_modes')}
+            <div className="flex items-center gap-3">
+              <h1 className="text-2xl font-light text-white tracking-wide">{t('council.title')}</h1>
+              {agents.some((a) => a.status === 'online') ? (
+                <span className="flex items-center gap-1.5 text-[10px] text-emerald-500/80 font-medium">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  Online
+                </span>
+              ) : (
+                <span className="flex items-center gap-1.5 text-[10px] text-gray-600 font-medium">
+                  <span className="w-1.5 h-1.5 rounded-full bg-gray-600" />
+                  Offline
+                </span>
+              )}
+            </div>
+            <p className="text-gray-600 mt-1 text-sm">
+              {t('council.subtitle')} — {agents.length} agents · {Object.keys(COUNCIL_MODES).length} modes
             </p>
           </div>
-          <div className="flex items-center gap-3">
-            {/* Active Deliberations Badge */}
+          <div className="flex items-center gap-2">
+            {/* Active Deliberations */}
             {deliberations.length > 0 && (
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 rounded-lg border border-amber-200">
-                <span className="animate-pulse">🔄</span>
-                <span className="text-sm font-medium">{deliberations.length} Active</span>
+              <div className="flex items-center gap-1.5 px-2.5 py-1.5 bg-[#c9a84c]/10 border border-[#c9a84c]/20 rounded-lg">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#c9a84c] animate-pulse" />
+                <span className="text-xs text-[#c9a84c] font-medium">{deliberations.length} Active</span>
               </div>
             )}
             
-            {/* Governance Permissions Badge - Only shows when user has actual permissions */}
+            {/* Governance Permissions */}
             {(canVeto || canApprove) && (
               <div 
-                className="flex items-center gap-2 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg border border-indigo-200 cursor-help"
+                className="flex items-center gap-1.5 px-2.5 py-1.5 bg-white/[0.03] border border-gray-800/40 rounded-lg cursor-help"
                 title={
                   canVeto && canApprove 
                     ? `Full Authority: You can approve or veto council decisions. ${policyReason ? `Reason: ${policyReason}` : ''}`
                     : canVeto 
-                    ? `Veto Power: You can block council decisions that don't meet governance standards. ${policyReason ? `Reason: ${policyReason}` : ''}`
-                    : `Approval Power: You can approve council decisions for implementation. ${policyReason ? `Reason: ${policyReason}` : ''}`
+                    ? `Veto Power: You can block council decisions. ${policyReason ? `Reason: ${policyReason}` : ''}`
+                    : `Approval Power: You can approve council decisions. ${policyReason ? `Reason: ${policyReason}` : ''}`
                 }
               >
-                <span>🏛️</span>
-                <span className="text-sm font-medium">
+                <span className="text-xs text-gray-500 font-medium">
                   {canVeto && canApprove ? 'Full Authority' : canVeto ? 'Veto Power' : 'Approval Power'}
                 </span>
               </div>
             )}
             
-            {/* Pantheon Button */}
+            {/* Agent Library */}
             <button
               onClick={() => setShowPantheon(true)}
-              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg hover:opacity-90 transition-all shadow-md hover:shadow-lg"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-gray-500 hover:text-gray-300 bg-white/[0.03] border border-gray-800/40 rounded-lg hover:border-[#c9a84c]/30 transition-colors"
             >
-              <span>🏛️</span>
-              <span className="font-medium">Pantheon</span>
+              Agents
             </button>
-            
-            {/* Premium Features Button */}
-            <button
-              onClick={() => setShowPremiumModal(true)}
-              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-lg hover:opacity-90 transition-all shadow-md hover:shadow-lg"
-            >
-              <span>✨</span>
-              <span className="font-medium">Premium</span>
-              <span className="text-xs bg-white/20 px-1.5 py-0.5 rounded">30 AI Agents</span>
-            </button>
+
+            {/* Modes Library */}
             <button
               onClick={() => setShowModesLibrary(!showModesLibrary)}
-              className="flex items-center gap-2 px-4 py-2 bg-primary-50 text-primary-700 rounded-lg hover:bg-primary-100 transition-colors"
+              className={cn(
+                'flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors',
+                showModesLibrary
+                  ? 'text-[#c9a84c] bg-[#c9a84c]/10 border border-[#c9a84c]/20'
+                  : 'text-gray-500 hover:text-gray-300 bg-white/[0.03] border border-gray-800/40 hover:border-[#c9a84c]/30'
+              )}
             >
-              <span>📚</span>
-              <span className="font-medium">{t('council.modes_library')}</span>
+              Modes
             </button>
-            {agents.some((a) => a.status === 'online') ? (
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-success-light text-success-dark rounded-full text-sm">
-                <span className="w-2 h-2 rounded-full bg-success-main animate-pulse" />
-                {t('council.ollama_connected')}
-              </div>
-            ) : (
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-error-light text-error-dark rounded-full text-sm">
-                <span className="w-2 h-2 rounded-full bg-error-main" />
-                {t('council.ollama_disconnected')}
-              </div>
-            )}
+
+            {/* Premium */}
+            <button
+              onClick={() => setShowPremiumModal(true)}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-[#c9a84c]/70 hover:text-[#c9a84c] bg-white/[0.03] border border-gray-800/40 rounded-lg hover:border-[#c9a84c]/30 transition-colors"
+            >
+              Upgrade
+            </button>
           </div>
         </div>
       </div>
