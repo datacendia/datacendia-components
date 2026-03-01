@@ -94,7 +94,7 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
             <span className="text-sm font-semibold text-neutral-700">
               {tier.annualPricing}
             </span>
-            <span className="text-xs text-neutral-400">annual license</span>
+            <span className="text-xs text-neutral-400">per month</span>
           </div>
 
           {/* Features List */}
@@ -191,7 +191,7 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
             <div className="flex items-baseline justify-center gap-2">
               <span className="text-2xl font-bold text-neutral-900">{tier.annualPricing}</span>
             </div>
-            <p className="text-xs text-neutral-500 mt-1">annual enterprise license</p>
+            <p className="text-xs text-neutral-500 mt-1">billed annually · cancel anytime</p>
           </div>
 
           {/* Included Features */}
@@ -287,9 +287,9 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               </button>
             </div>
 
-            {/* Annual License Badge */}
+            {/* Payment Badge */}
             <div className="flex items-center gap-2 bg-white/20 rounded-lg px-4 py-2">
-              <span className="text-sm text-white font-medium">Annual Enterprise License</span>
+              <span className="text-sm text-white font-medium">Secure payment via Stripe · 30-day money-back guarantee · Cancel anytime</span>
             </div>
           </div>
         </div>
