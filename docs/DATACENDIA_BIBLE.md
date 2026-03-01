@@ -2365,7 +2365,7 @@ Content-Type: application/json
 
 ## Tier Overview
 
-Open-core model. Self-hosted or managed cloud. Customer-owned infrastructure, keys, and proof.
+**The Defensible AI Platform.** Open-core model. Self-hosted or managed cloud. Every decision is auditable, explainable, and court-admissible. Your data, your keys, your proof.
 
 | Tier | Description | Price | Deployment |
 |------|-------------|-------|------------|
