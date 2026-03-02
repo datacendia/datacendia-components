@@ -10,7 +10,7 @@
 // Powers: CendiaGnosis Instant Ingest feature
 // =============================================================================
 
-import fetch from 'node-fetch';
+// Native fetch (Node 20+) — no node-fetch dependency needed
 import FormData from 'form-data';
 import { getErrorMessage } from '../../utils/errors.js';
 
