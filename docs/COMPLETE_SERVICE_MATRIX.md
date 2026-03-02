@@ -1,8 +1,8 @@
 # DATACENDIA COMPLETE SERVICE MATRIX
 ## Cortex Platform, Pillars, Enterprise Suite & Decision Intelligence
 
-**Version:** Enterprise Platinum v4.7  
-**Generated:** February 12, 2026
+**Version:** Enterprise Platinum v5.1  
+**Generated:** March 2, 2026
 
 ---
 
@@ -99,6 +99,7 @@ The category-defining governance infrastructure. Measures, proves, and immunizes
 
 | Service | Description | Backend Service | Status | Tests |
 |---------|-------------|-----------------|--------|-------|
+| **CendiaGateway™** | AI Governance Reverse Proxy — Multi-provider proxying (OpenAI, Anthropic, Google, Ollama), PII detection & redaction, policy enforcement (block/redact/warn/allow), cryptographic signing, audit ledger with ring buffer, aggregate stats, The Governance Receipt™ export (HTML/PDF, CSV, JSON) | `CendiaGatewayService.ts` | DB + Cache | — |
 | **CendiaIISS™** | Institutional Immune System Score — 0–1000 scale measuring crisis resilience across 5 dimensions, 5 certification bands (Critical → Exceptional), industry benchmarking | `IISSService.ts` | DB + Cache | 15/15 |
 | **CendiaMediaAuth™** | Synthetic Media Authentication — C2PA content provenance signing, chain of custody, deepfake detection (pixel/audio/metadata analysis), hardware-backed attestation | `SyntheticMediaAuthService.ts` | DB + Cache | 10/10 |
 | **CendiaJurisdiction™** | Cross-Jurisdiction Compliance Conflict Detection — Simultaneous multi-framework evaluation, GDPR vs PIPL conflict detection, good-faith maximum compliance documentation | `CrossJurisdictionConflictService.ts` | DB + Cache | 10/10 |
@@ -122,7 +123,7 @@ The category-defining governance infrastructure. Measures, proves, and immunizes
 ### Architecture
 
 - All 5 DCII services use **write-through cache** pattern: in-memory Maps for fast reads + PostgreSQL via Prisma for persistence
-- Prisma schema: `backend/prisma/schema/dcii.prisma` (15 models, 50+ indexes, relations to `organizations`)
+- Prisma schema: `backend/prisma/schema/dcii.prisma` (15 models), `backend/prisma/schema/gateway.prisma` (3 models) — 50+ indexes, relations to `organizations`
 - **`devAuth` middleware** on all DCII API routes (JWT in production, bypass in development)
 - Graceful degradation: services fall back to in-memory demo data if DB unavailable
 
@@ -251,9 +252,9 @@ Services currently in research and development phase.
 
 | Metric | Count |
 |--------|-------|
-| **Total Services** | 52 |
-| **Production Services** | 40 |
-| **DCII Services (DB + Cache)** | 5 |
+| **Total Services** | 53 |
+| **Production Services** | 41 |
+| **DCII Services (DB + Cache)** | 6 |
 | **R&D Services** | 7 |
 | **AI Agents (Core)** | 14 |
 | **AI Agents (Premium)** | 16+ |
