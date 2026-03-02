@@ -129,6 +129,9 @@ const ContinuousComplianceMonitorPage = lazy(() =>
 const DCIIDashboardPage = lazy(() =>
   import('../../pages/cortex/enterprise/DCIIDashboardPage').then((m) => ({ default: m.default }))
 );
+const GatewayDashboardPage = lazy(() =>
+  import('../../pages/cortex/enterprise/GatewayDashboardPage').then((m) => ({ default: m.default }))
+);
 
 // New DCII Pages
 const NotaryPage = lazy(() =>
@@ -191,6 +194,7 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'enterprise/post-quantum-kms', element: w(PostQuantumKMSPage) },
   { path: 'enterprise/carbon-aware', element: w(CarbonAwareSchedulerPage) },
   { path: 'enterprise/dcii', element: w(DCIIDashboardPage) },
+  { path: 'enterprise/gateway', element: w(GatewayDashboardPage) },
 
   // DCII sub-pages
   { path: 'dcii/notary', element: w(NotaryPage) },

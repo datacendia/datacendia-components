@@ -1,0 +1,150 @@
+// =============================================================================
+// CendiaGateway™ — AI Governance Gateway
+// =============================================================================
+
+model gateway_interactions {
+  id                String   @id @default(uuid())
+  organization_id   String
+  user_id           String
+  user_email        String
+  user_department    String   @default("unknown")
+  
+  // Request metadata
+  provider          String   // openai, anthropic, google, ollama, azure-openai, custom
+  model             String   // gpt-4, claude-3-opus, etc.
+  endpoint          String   // /v1/chat/completions, /v1/messages, etc.
+  method            String   @default("POST")
+  
+  // Content (encrypted at rest in production)
+  prompt_text       String   @db.Text
+  response_text     String?  @db.Text
+  prompt_tokens     Int      @default(0)
+  response_tokens   Int      @default(0)
+  total_tokens      Int      @default(0)
+  
+  // PII Detection
+  pii_detected      Boolean  @default(false)
+  pii_types         String[] // ssn, email, phone, credit_card, address, name, dob, medical, financial
+  pii_action        String   @default("allow") // allow, warn, redact, block
+  pii_redacted_prompt String? @db.Text // Prompt after PII redaction (if redacted)
+  
+  // Policy
+  policy_id         String?
+  policy_action     String   @default("allow") // allow, warn, block
+  policy_reason     String?
+  
+  // DCII Evidence
+  integrity_hash    String   // SHA-256 hash of the full interaction
+  merkle_leaf       String?  // Merkle tree leaf hash
+  ledger_entry_index Int?    // Index in the ImmutableAuditLedger
+  signature         String?  // HMAC signature
+  
+  // Performance
+  latency_ms        Int      @default(0)
+  provider_latency_ms Int    @default(0)
+  status_code       Int      @default(200)
+  error_message     String?
+  
+  // Cost tracking
+  estimated_cost_usd Float   @default(0)
+  
+  // Timestamps
+  requested_at      DateTime @default(now())
+  responded_at      DateTime?
+  created_at        DateTime @default(now())
+  
+  organizations organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id])
+  @@index([user_id])
+  @@index([user_department])
+  @@index([provider])
+  @@index([model])
+  @@index([pii_detected])
+  @@index([policy_action])
+  @@index([requested_at])
+  @@index([created_at])
+}
+
+model gateway_policies {
+  id                String   @id @default(uuid())
+  organization_id   String
+  name              String
+  description       String
+  enabled           Boolean  @default(true)
+  priority          Int      @default(100) // Lower = higher priority
+  
+  // Scope
+  departments       String[] // Empty = all departments
+  users             String[] // Empty = all users
+  providers         String[] // Empty = all providers
+  models            String[] // Empty = all models
+  
+  // Rules
+  block_pii_types   String[] // SSN, credit_card, medical, etc.
+  redact_pii_types  String[] // email, phone, name, etc.
+  block_keywords    String[] // Custom blocked terms (e.g., "Project Titan", "acquisition")
+  max_prompt_length Int?     // Maximum prompt character length
+  allowed_topics    String[] // Empty = all topics allowed
+  blocked_topics    String[] // Blocked topic categories
+  
+  // Actions
+  default_action    String   @default("allow") // allow, warn, redact, block
+  notify_on_block   Boolean  @default(true)
+  notify_email      String?
+  
+  created_at        DateTime @default(now())
+  updated_at        DateTime @default(now()) @updatedAt
+  
+  organizations organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id])
+  @@index([enabled])
+}
+
+model gateway_manifests {
+  id                String   @id @default(uuid())
+  organization_id   String
+  
+  // Period
+  period_start      DateTime
+  period_end        DateTime
+  
+  // Summary statistics
+  total_interactions Int     @default(0)
+  total_users       Int      @default(0)
+  total_departments Int      @default(0)
+  total_providers   Int      @default(0)
+  total_models      Int      @default(0)
+  total_tokens      Int      @default(0)
+  total_cost_usd    Float    @default(0)
+  
+  // PII statistics
+  pii_detections    Int      @default(0)
+  pii_blocks        Int      @default(0)
+  pii_redactions    Int      @default(0)
+  
+  // Policy statistics
+  policy_blocks     Int      @default(0)
+  policy_warnings   Int      @default(0)
+  
+  // Integrity
+  merkle_root       String
+  integrity_hash    String
+  signature         String
+  entries_verified  Int      @default(0)
+  chain_intact      Boolean  @default(true)
+  
+  // Export
+  generated_by      String
+  format_version    String   @default("1.0.0")
+  data              Json     // Full manifest data including per-user/department breakdowns
+  
+  created_at        DateTime @default(now())
+  
+  organizations organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id])
+  @@index([period_start, period_end])
+  @@index([created_at])
+}
