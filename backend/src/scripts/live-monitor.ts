@@ -9,7 +9,7 @@
  * Run: npx tsx src/scripts/live-monitor.ts
  */
 
-import { createClient } from 'redis';
+import Redis from 'ioredis';
 import { PrismaClient } from '@prisma/client';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
@@ -299,15 +299,13 @@ class LiveMonitor {
   private actionCounts = { total: 0, blocked: 0, escalated: 0 };
   private latencySum = 0;
   private lastSecondActions = 0;
-  private redis: ReturnType<typeof createClient> | null = null;
+  private redis: Redis | null = null;
   private prisma: PrismaClient | null = null;
 
   async connectToRedis(): Promise<boolean> {
     try {
-      this.redis = createClient({
-        url: process.env['REDIS_URL'] || 'redis://:datacendia_redis_2024@localhost:6380'
-      });
-      await this.redis.connect();
+      this.redis = new Redis(process.env['REDIS_URL'] || 'redis://:datacendia_redis_2024@localhost:6380');
+      await this.redis.ping();
       return true;
     } catch (e) {
       console.log(`${colors.yellow}Redis not available, using simulation mode${colors.reset}`);
@@ -370,35 +368,37 @@ class LiveMonitor {
     if (!this.redis) return;
     
     const subscriber = this.redis.duplicate();
-    await subscriber.connect();
     
-    await subscriber.subscribe('agent:actions', (message) => {
-      try {
-        const action = JSON.parse(message) as AgentAction;
-        action.timestamp = new Date(action.timestamp);
-        this.addAction(action);
-      } catch (e) {
-        // Ignore malformed messages
+    subscriber.subscribe('agent:actions', 'compliance:decisions');
+    subscriber.on('message', (channel: string, message: string) => {
+      if (channel === 'agent:actions') {
+        try {
+          const action = JSON.parse(message) as AgentAction;
+          action.timestamp = new Date(action.timestamp);
+          this.addAction(action);
+        } catch (e) {
+          // Ignore malformed messages
+        }
       }
-    });
-    
-    await subscriber.subscribe('compliance:decisions', (message) => {
-      try {
-        const decision = JSON.parse(message);
-        const action: AgentAction = {
-          timestamp: new Date(),
-          agentId: decision.agentId || 'compliance_check',
-          agentName: decision.agentName || 'compliance_check',
-          action: decision.action || 'compliance_check',
-          decision: decision.allowed ? 'ALLOW' : decision.requiresReview ? 'ESCALATE' : 'BLOCK',
-          riskScore: decision.riskScore || 0,
-          latencyMs: decision.latencyMs || 10,
-          framework: decision.framework,
-          citation: decision.citation,
-        };
-        this.addAction(action);
-      } catch (e) {
-        // Ignore malformed messages
+
+      if (channel === 'compliance:decisions') {
+        try {
+          const decision = JSON.parse(message);
+          const action: AgentAction = {
+            timestamp: new Date(),
+            agentId: decision.agentId || 'compliance_check',
+            agentName: decision.agentName || 'compliance_check',
+            action: decision.action || 'compliance_check',
+            decision: decision.allowed ? 'ALLOW' : decision.requiresReview ? 'ESCALATE' : 'BLOCK',
+            riskScore: decision.riskScore || 0,
+            latencyMs: decision.latencyMs || 10,
+            framework: decision.framework,
+            citation: decision.citation,
+          };
+          this.addAction(action);
+        } catch (e) {
+          // Ignore malformed messages
+        }
       }
     });
   }
