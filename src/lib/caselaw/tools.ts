@@ -1,3 +1,12 @@
+/**
+ * Library — Tools
+ *
+ * Client-side utility library.
+ *
+ * @exports CASELAW_TOOL_DEFINITIONS, CaselawToolResult
+ * @module lib/caselaw/tools
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Configuration — Vertical Agents
+ *
+ * Frontend configuration constants and environment bindings.
+ *
+ * @exports financialAgents, healthcareAgents, manufacturingAgents, technologyAgents, energyAgents, governmentAgents, logisticsAgents, retailAgents
+ * @module config/verticalAgents
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

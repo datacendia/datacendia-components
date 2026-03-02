@@ -1,3 +1,12 @@
+/**
+ * Service — R A G Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports RAGService, ragService, Document, ChunkResult, RAGContext, ChunkOptions
+ * @module services/llm/RAGService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

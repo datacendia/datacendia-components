@@ -1,4 +1,11 @@
 /**
+ * API Routes — Gateway
+ *
+ * Express route handler defining REST endpoints.
+ * @module routes/gateway
+ */
+
+/**
  * CendiaGateway™ — AI Governance Gateway Routes
  * 
  * Endpoints:

@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Eternal Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaEternalService, cendiaEternalService, Artifact, ValidationResult, Successor, ArtifactType, AccessLevel, VerificationStatus
+ * @module services/CendiaEternalService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

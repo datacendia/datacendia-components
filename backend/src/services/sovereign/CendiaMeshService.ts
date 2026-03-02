@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Mesh Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaMeshService, cendiaMeshService, MeshNode, MeshConnection, MeshTopology, SecureChannel, NetworkEvent, NetworkPolicy
+ * @module services/sovereign/CendiaMeshService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

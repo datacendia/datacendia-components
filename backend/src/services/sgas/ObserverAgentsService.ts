@@ -1,3 +1,12 @@
+/**
+ * Service — Observer Agents Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports ObserverAgentsService, OBSERVER_AGENTS, observerAgentsService
+ * @module services/sgas/ObserverAgentsService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — P D F Generator Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports PDFGeneratorService, pdfGeneratorService, PDFMetadata, PDFSection, SignatureBlock, PDFGenerationOptions, GeneratedPDF
+ * @module services/document/PDFGeneratorService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

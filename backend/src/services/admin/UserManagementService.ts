@@ -1,3 +1,12 @@
+/**
+ * Service — User Management Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports userManagementService, User, Team, Role, Invitation, ApiKey
+ * @module services/admin/UserManagementService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Layout — Cortex Layout
+ *
+ * Page layout component defining the structural shell for routes.
+ *
+ * @exports CortexLayout
+ * @module layouts/CortexLayout
+ */
+
 // =============================================================================
 // DATACENDIA - CORTEX LAYOUT
 // =============================================================================

@@ -1,3 +1,12 @@
+/**
+ * Service — Groth16 Proof Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports groth16ProofService, Groth16Proof, Groth16VerificationResult, CommitmentInput
+ * @module services/security/groth16/Groth16ProofService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

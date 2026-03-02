@@ -1,3 +1,12 @@
+/**
+ * Core — Subscription Tiers
+ *
+ * Core platform infrastructure and shared utilities.
+ *
+ * @exports FeatureGatingService, SUBSCRIPTION_TIERS, FEATURE_DEFINITIONS, featureGating, TierConfig, FeatureAccess, TierLimits, SLAConfig
+ * @module core/subscriptions/SubscriptionTiers
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

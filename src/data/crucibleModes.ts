@@ -1,3 +1,12 @@
+/**
+ * Data — Crucible Modes
+ *
+ * Static data, constants, and configuration objects.
+ *
+ * @exports INDUSTRY_FAILURE_BENCHMARKS, CRUCIBLE_MODE_CATEGORIES, CORE_CRUCIBLE_MODES, CRUCIBLE_MODES, isCoreMode, getModesByCategory, getCoreModes, getModeForTestType
+ * @module data/crucibleModes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Data Adapter — Protocol Adapters
+ *
+ * Data transformation adapter between internal and external formats.
+ *
+ * @exports FHIRAdapter, FIXAdapter, MQTTAdapter, FHIRAdapterConfig, FHIRSubscription, FHIRResource, FIXAdapterConfig, FIXMessage
+ * @module adapters/sovereign/ProtocolAdapters
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Library — Agent Personality Defaults
+ *
+ * Client-side utility library.
+ *
+ * @exports getSuggestedTraits, getProfileDescription, getAllProfiles, getPreset, getAllPresets, AGENT_PERSONALITY_PROFILES, PERSONALITY_PRESETS, AgentPersonalityProfile
+ * @module lib/agents/agentPersonalityDefaults
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

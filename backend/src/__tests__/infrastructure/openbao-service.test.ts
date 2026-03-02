@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Openbao Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/openbao-service.test
+ */
+
+/**
  * =============================================================================
  * OPENBAO SERVICE — UNIT TESTS
  * =============================================================================

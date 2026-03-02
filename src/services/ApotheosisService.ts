@@ -1,3 +1,12 @@
+/**
+ * Frontend Service — Apotheosis Service
+ *
+ * Client-side service for API communication and business logic.
+ *
+ * @exports apotheosisService, ApotheosisScore, ApotheosisRun, Escalation, PatternBan, PatternInstance, UpskillAssignment, TrainingModule
+ * @module services/ApotheosisService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

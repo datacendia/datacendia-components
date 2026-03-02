@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Forgot Password Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports ForgotPasswordPage
+ * @module pages/auth/ForgotPasswordPage
+ */
+
 // =============================================================================
 // DATACENDIA - FORGOT PASSWORD PAGE (Fully Internationalized)
 // Request password reset email

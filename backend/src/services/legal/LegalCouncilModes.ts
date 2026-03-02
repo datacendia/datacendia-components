@@ -1,3 +1,12 @@
+/**
+ * Service — Legal Council Modes
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getLegalMode, getLegalModesByCategory, getCitationEnforcedModes, getPrivilegeGatedModes, getLegalModesByLeadAgent, MAJOR_LEGAL_MODES, CORE_PRACTICE_MODES, ROLE_BASED_MODES
+ * @module services/legal/LegalCouncilModes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

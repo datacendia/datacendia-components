@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Omni Translate Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports OMNITRANSLATE_LANGUAGES, omniTranslateService, TranslationRequest, TranslationResult, BatchTranslationRequest, DocumentTranslationRequest, GlossaryTerm, TranslationMemoryEntry
+ * @module services/CendiaOmniTranslateService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

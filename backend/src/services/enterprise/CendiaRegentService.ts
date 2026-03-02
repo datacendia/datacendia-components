@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Regent Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaRegentService, HistoricalAdvisor, RegentSession, MirrorAnalysis
+ * @module services/enterprise/CendiaRegentService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

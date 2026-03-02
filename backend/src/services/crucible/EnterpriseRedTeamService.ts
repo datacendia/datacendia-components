@@ -1,3 +1,12 @@
+/**
+ * Service — Enterprise Red Team Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports EnterpriseRedTeamService, enterpriseRedTeamService, RedTeamTest, TestResult, TestEvidence, ComplianceImpact, RedTeamReport, ComplianceStatus
+ * @module services/crucible/EnterpriseRedTeamService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

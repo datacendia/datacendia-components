@@ -2,6 +2,13 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * API Routes — Billing
+ *
+ * Express route handler defining REST endpoints.
+ * @module routes/billing
+ */
+
 // =============================================================================
 // DATACENDIA BILLING ROUTES - Stripe Integration
 // Configure STRIPE_SECRET_KEY in .env to enable payment processing

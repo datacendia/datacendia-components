@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Council Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports CouncilPage
+ * @module pages/cortex/council/CouncilPage
+ */
+
 // =============================================================================
 // DATACENDIA - THE COUNCIL PAGE (Real Ollama Integration)
 // =============================================================================

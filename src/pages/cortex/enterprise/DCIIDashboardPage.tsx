@@ -1,3 +1,12 @@
+/**
+ * Page — D C I I Dashboard Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports DCIIDashboardPage
+ * @module pages/cortex/enterprise/DCIIDashboardPage
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

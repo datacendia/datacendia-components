@@ -1,3 +1,12 @@
+/**
+ * Service — Schema Mapper
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports SchemaMapperService, CANONICAL_ENTITIES, CANONICAL_FIELDS, schemaMapper, SourceColumn, SourceTable, ColumnMapping, ColumnTransformation
+ * @module services/schema/SchemaMapper
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

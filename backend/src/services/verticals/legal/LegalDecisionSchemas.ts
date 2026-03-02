@@ -1,3 +1,12 @@
+/**
+ * Service — Legal Decision Schemas
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports ContractReviewSchema, LitigationStrategySchema, SettlementApprovalSchema, PrivilegeDeterminationSchema, EDiscoveryProductionSchema, RegulatoryResponseSchema, MADueDiligenceSchema, ConflictCheckSchema
+ * @module services/verticals/legal/LegalDecisionSchemas
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

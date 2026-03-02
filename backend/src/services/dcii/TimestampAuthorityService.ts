@@ -1,3 +1,12 @@
+/**
+ * Service — Timestamp Authority Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports timestampAuthorityService, TimestampToken, BlockchainAnchor, TimestampVerification, VerificationDetail, BatchTimestampRequest, TSAProviderConfig, TimestampStats
+ * @module services/dcii/TimestampAuthorityService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

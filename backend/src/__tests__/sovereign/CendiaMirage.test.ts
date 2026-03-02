@@ -1,3 +1,10 @@
+/**
+ * Module — Cendia Mirage Test
+ *
+ * Platform module.
+ * @module __tests__/sovereign/CendiaMirage.test
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 

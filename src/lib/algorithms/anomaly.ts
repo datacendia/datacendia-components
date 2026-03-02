@@ -1,3 +1,12 @@
+/**
+ * Library — Anomaly
+ *
+ * Client-side utility library.
+ *
+ * @exports detectAnomaliesZScore, medianAbsoluteDeviation, modifiedZScore, detectAnomaliesModifiedZ, detectOutliersIQR, cusum, detectDrift, earlyWarningScore
+ * @module lib/algorithms/anomaly
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

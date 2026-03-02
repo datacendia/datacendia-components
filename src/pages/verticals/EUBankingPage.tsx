@@ -1,3 +1,12 @@
+/**
+ * Page — E U Banking Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports EUBankingPage
+ * @module pages/verticals/EUBankingPage
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Library — Real World Benchmarks
+ *
+ * Client-side utility library.
+ *
+ * @exports getTotalBenchmarkImpact, getMostCriticalPrimitives, compareAgainstBenchmarks, getAllLearningPatterns, getComprehensiveBenchmarkStats, ALL_BENCHMARKS, ALL_SUCCESS_STORIES, ALL_DISRUPTIONS
+ * @module lib/algorithms/real-world-benchmarks
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — Real Estate Council Modes
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getRealEstateMode, getRealEstateModesByCategory, MAJOR_REAL_ESTATE_MODES, VALUATION_MODES, UNDERWRITING_MODES, COMPLIANCE_REAL_ESTATE_MODES, TRANSACTION_MODES, SPECIALIZED_REAL_ESTATE_MODES
+ * @module services/verticals/realestate/RealEstateCouncilModes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

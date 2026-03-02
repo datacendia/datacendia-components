@@ -1,3 +1,12 @@
+/**
+ * Service — H S M Adapter
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports HSMAdapter, hsmAdapter, HSMConfig, HSMKeyHandle, HSMSignResult, HSMRandomResult, HSMProvider, KeyAlgorithm
+ * @module services/security/HSMAdapter
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

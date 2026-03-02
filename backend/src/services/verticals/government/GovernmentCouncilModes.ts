@@ -1,3 +1,12 @@
+/**
+ * Service — Government Council Modes
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getGovernmentMode, getGovernmentModesByCategory, getGovernmentModesByFramework, MAJOR_GOVERNMENT_MODES, PROCUREMENT_MODES, POLICY_MODES, COMPLIANCE_GOVERNMENT_MODES, OPERATIONS_MODES
+ * @module services/verticals/government/GovernmentCouncilModes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

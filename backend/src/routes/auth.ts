@@ -2,6 +2,13 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * API Routes — Auth
+ *
+ * Express route handler defining REST endpoints.
+ * @module routes/auth
+ */
+
 import { Router, Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
 import crypto from 'crypto';

@@ -1,3 +1,10 @@
+/**
+ * Hook — Use Premium Features Test
+ *
+ * Custom React hook for shared component logic.
+ * @module hooks/__tests__/usePremiumFeatures.test
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — Environmental Externality Agent
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports EnvironmentalExternalityAgent
+ * @module services/collapse/agents/EnvironmentalExternalityAgent
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — Kafka Event Bridge
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports kafkaEventBridge, BridgeConfig
+ * @module services/kafka/KafkaEventBridge
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

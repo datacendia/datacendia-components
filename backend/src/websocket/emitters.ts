@@ -1,3 +1,12 @@
+/**
+ * WebSocket — Emitters
+ *
+ * Real-time WebSocket communication for live updates.
+ *
+ * @exports DeliberationMessage, DeliberationPhaseUpdate, DeliberationResult, WorkflowStepUpdate, WorkflowExecutionComplete, AlertEvent, HealthUpdate
+ * @module websocket/emitters
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

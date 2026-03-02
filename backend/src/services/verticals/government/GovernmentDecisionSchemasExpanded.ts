@@ -1,3 +1,12 @@
+/**
+ * Service — Government Decision Schemas Expanded
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports PersonnelActionSchema, RegulatoryActionSchema, ITInvestmentSchema, ContractModificationSchema, FOIARequestSchema, IGAuditResponseSchema, EmergencyDeclarationSchema, InteragencyAgreementSchema
+ * @module services/verticals/government/GovernmentDecisionSchemasExpanded
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

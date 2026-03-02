@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Find Account Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports FindAccountPage
+ * @module pages/auth/FindAccountPage
+ */
+
 // =============================================================================
 // DATACENDIA - FIND MY ACCOUNT PAGE
 // Helps users recover their email address by name + organization lookup

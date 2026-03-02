@@ -1,3 +1,12 @@
+/**
+ * Component — Heatmap Timeline Kit
+ *
+ * Reusable React UI component.
+ *
+ * @exports HeatmapCalendar, AuditTimeline, HeatmapDay, TimelineEvent
+ * @module components/reports/HeatmapTimelineKit
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

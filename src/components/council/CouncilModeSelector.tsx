@@ -1,3 +1,12 @@
+/**
+ * Component — Council Mode Selector
+ *
+ * Reusable React UI component.
+ *
+ * @exports CouncilModeSelector, CouncilModeBadge, CouncilModeCard, CouncilModeQuickSwitch
+ * @module components/council/CouncilModeSelector
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Page — Services Packages
+ *
+ * React page component rendered by the router.
+ *
+ * @exports ServicesPage, PackagesPage
+ * @module pages/public/services-packages
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

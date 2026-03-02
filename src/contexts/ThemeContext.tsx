@@ -1,3 +1,12 @@
+/**
+ * Context — Theme Context
+ *
+ * React context provider for cross-component state sharing.
+ *
+ * @exports ThemeProvider, useTheme, useDarkMode
+ * @module contexts/ThemeContext
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

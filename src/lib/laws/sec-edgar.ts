@@ -1,3 +1,12 @@
+/**
+ * Library — Sec Edgar
+ *
+ * Client-side utility library.
+ *
+ * @exports NOTABLE_COMPANIES, secEdgarService, SECCompany, SECFiling, SECFilingDocument, SECSearchResult, FullTextSearchResult, FilingType
+ * @module lib/laws/sec-edgar
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

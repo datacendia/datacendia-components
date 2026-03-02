@@ -1,3 +1,12 @@
+/**
+ * Service — Manufacturing Agents
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getManufacturingAgent, getDefaultManufacturingAgents, buildManufacturingAgentTeam, DEFAULT_MANUFACTURING_AGENTS, OPTIONAL_MANUFACTURING_AGENTS, SILENT_GUARD_MANUFACTURING_AGENTS, ALL_MANUFACTURING_AGENTS, ManufacturingAgent
+ * @module services/verticals/manufacturing/ManufacturingAgents
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Data — Premium Features
+ *
+ * Static data, constants, and configuration objects.
+ *
+ * @exports PREMIUM_TIERS, PREMIUM_FEATURES, PREMIUM_BUNDLES, getFeatureById, getFeaturesByTier, getFeaturesByPillar, getBundleById, getBundleByTier
+ * @module data/premiumFeatures
+ */
+
 // =============================================================================
 // DATACENDIA PLATFORM — TIER & FEATURE DEFINITIONS (Frontend)
 // 3-Tier Architecture: Foundation → Enterprise → Strategic

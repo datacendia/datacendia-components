@@ -1,3 +1,12 @@
+/**
+ * Module — Test Runner
+ *
+ * Platform module.
+ *
+ * @exports IntegrationTestClient, generateTestReport, defaultConfig, ALL_ROUTE_TESTS, TestConfig, RouteTest, RouteTestGroup, TestResults
+ * @module __tests__/integration/testRunner
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,4 +1,13 @@
 /**
+ * Service — P I I Detector
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports scanForPII, containsPII, scanForKeywords, PIIDetection, PIIScanResult, PIIType
+ * @module services/gateway/PIIDetector
+ */
+
+/**
  * CendiaGateway™ — PII Detection Engine
  * 
  * Detects personally identifiable information in AI prompts before

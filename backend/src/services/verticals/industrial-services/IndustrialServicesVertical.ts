@@ -1,3 +1,12 @@
+/**
+ * Service — Industrial Services Vertical
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports IndustrialServicesDataConnector, IndustrialServicesKnowledgeBase, IndustrialServicesComplianceMapper, ProjectBidDecisionSchema, SafetyPermitDecisionSchema, EquipmentDecisionSchema, SubcontractorDecisionSchema, ContractReviewDecisionSchema
+ * @module services/verticals/industrial-services/IndustrialServicesVertical
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

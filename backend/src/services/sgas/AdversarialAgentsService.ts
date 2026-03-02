@@ -1,3 +1,12 @@
+/**
+ * Service — Adversarial Agents Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports AdversarialAgentsService, ADVERSARIAL_AGENTS, adversarialAgentsService
+ * @module services/sgas/AdversarialAgentsService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

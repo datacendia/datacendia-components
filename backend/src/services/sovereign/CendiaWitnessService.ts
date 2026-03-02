@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Witness Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaWitnessService, cendiaWitnessService, WitnessRecord, Attestation, LegalHold, DiscoveryRequest, ChainOfCustody
+ * @module services/sovereign/CendiaWitnessService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

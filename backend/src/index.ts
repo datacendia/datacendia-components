@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Index
+ *
+ * Platform module.
+ * @module index
+ */
+
+/**
  * DATACENDIA PLATFORM - BACKEND API SERVER
  * 
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.

@@ -1,3 +1,12 @@
+/**
+ * Service — R D P Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports rdpService, DeploymentPackage, DeploymentComponent, DeploymentConfig, DeploymentInstance, ContainerSpec
+ * @module services/strategic/RDPService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — Union Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports unionService, ThreatAssessment, Threat, DefenseStrategy, Defense, Mitigation, MonitoringPoint, ResponsePlaybook
+ * @module services/strategic/UnionService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

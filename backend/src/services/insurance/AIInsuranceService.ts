@@ -1,3 +1,12 @@
+/**
+ * Service — A I Insurance Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports AIInsuranceService, aiInsuranceService, InsurancePolicy, DecisionCoverage, RiskFactor, InsuranceQuote, Claim, CoverageCertificate
+ * @module services/insurance/AIInsuranceService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

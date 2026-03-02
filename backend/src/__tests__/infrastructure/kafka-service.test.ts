@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Kafka Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/kafka-service.test
+ */
+
+/**
  * =============================================================================
  * KAFKA SERVICE — UNIT TESTS
  * =============================================================================

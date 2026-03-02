@@ -1,3 +1,12 @@
+/**
+ * Utility — Rule Engine
+ *
+ * Shared utility functions and helpers.
+ *
+ * @exports RuleEngine, ExpressionParser, parseConditionString, expressionParser, RuleCondition, Rule, RuleAction, RuleResult
+ * @module utils/RuleEngine
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

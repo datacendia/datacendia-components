@@ -1,3 +1,12 @@
+/**
+ * Feature — Pre Mortem
+ *
+ * Feature module implementing a specific platform capability.
+ *
+ * @exports PreMortemService, PREMORTEM_AGENTS, preMortemService, PreMortemRequest, FailureMode, Mitigation, PreMortemResult, PreMortemRecommendation
+ * @module features/holy-shit/PreMortem
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Hook — Use Premium Features
+ *
+ * Custom React hook for shared component logic.
+ *
+ * @exports usePremiumFeatures
+ * @module hooks/usePremiumFeatures
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

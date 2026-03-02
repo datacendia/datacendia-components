@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Recall Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaRecallService, DecisionOutcome, PredictedOutcome, ActualOutcome, DetectedBias, PredictionAccuracyReport, LessonLearned, OutcomeStatus
+ * @module services/CendiaRecallService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

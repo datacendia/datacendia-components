@@ -1,3 +1,12 @@
+/**
+ * Component — Redacted Text
+ *
+ * Reusable React UI component.
+ *
+ * @exports useRedaction, RedactionProvider, RedactedText, RedactedCode, RedactionToggle
+ * @module components/ui/RedactedText
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

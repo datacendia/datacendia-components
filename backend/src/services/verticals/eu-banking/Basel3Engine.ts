@@ -1,3 +1,12 @@
+/**
+ * Service — Basel3 Engine
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports Basel3Engine, basel3Engine, CET1Components, AT1Components, Tier2Components, CreditRiskExposure, MarketRiskPosition, OperationalRiskData
+ * @module services/verticals/eu-banking/Basel3Engine
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — Deliberation Visualization Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports DeliberationVisualizationService, deliberationVisualizationService, AgentVisualization, Citation, DeliberationVisualizationState, DissentVisualization, TimelineEvent, VotingResults
+ * @module services/visualization/DeliberationVisualizationService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

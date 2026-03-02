@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Confidential Compute Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/confidential-compute-service.test
+ */
+
+/**
  * =============================================================================
  * CONFIDENTIAL COMPUTING SERVICE — UNIT TESTS
  * =============================================================================

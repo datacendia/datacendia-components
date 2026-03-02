@@ -1,4 +1,13 @@
 /**
+ * Service — Cendia Gateway Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest
+ * @module services/gateway/CendiaGatewayService
+ */
+
+/**
  * CendiaGateway™ — AI Governance Gateway Service
  * 
  * Reverse proxy for AI model APIs (OpenAI, Anthropic, Google, Ollama).

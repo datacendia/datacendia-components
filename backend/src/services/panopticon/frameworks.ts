@@ -1,3 +1,12 @@
+/**
+ * Service — Frameworks
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getFrameworkByCode, getFrameworksByCategory, getFrameworksByJurisdiction, getAllJurisdictions, getAllCategories, getTotalRequirementsCount, REGULATORY_FRAMEWORKS, DEFAULT_RADAR_EVENTS
+ * @module services/panopticon/frameworks
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

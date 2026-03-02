@@ -2,6 +2,13 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Component — Premium Features Modal
+ *
+ * Reusable React UI component.
+ * @module components/premium/PremiumFeaturesModal
+ */
+
 import React, { useState } from 'react';
 import { cn } from '../../../lib/utils';
 import {

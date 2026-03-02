@@ -1,3 +1,12 @@
+/**
+ * Service — Post Quantum K M S Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports PostQuantumKMSService, postQuantumKMSService, PQKeyPair, PQSignature, PQVerificationResult, PQAlgorithm, KeyStrength
+ * @module services/security/PostQuantumKMSService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

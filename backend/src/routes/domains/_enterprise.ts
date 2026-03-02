@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Domain Router — Enterprise
+ *
+ * Aggregated route group that mounts related API endpoints under a single domain prefix.
+ *
+ * @exports mountEnterpriseRoutes
+ * @module routes/domains/_enterprise
+ */
+
 // =============================================================================
 // ENTERPRISE ROUTE MOUNTING UTILITY
 // Conditionally loads enterprise route modules via dynamic import.

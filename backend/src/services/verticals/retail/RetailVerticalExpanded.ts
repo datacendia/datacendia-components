@@ -1,3 +1,12 @@
+/**
+ * Service — Retail Vertical Expanded
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports RetailDataConnector, RetailKnowledgeBase, RetailComplianceMapper, PricingDecisionSchema, ProductRecallSchema, CustomerDataSchema, PricingGovernancePreset, RetailDefensibleOutput
+ * @module services/verticals/retail/RetailVerticalExpanded
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

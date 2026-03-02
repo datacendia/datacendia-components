@@ -1,3 +1,12 @@
+/**
+ * Service — Retail Agents
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getRetailAgent, getDefaultRetailAgents, buildRetailAgentTeam, DEFAULT_RETAIL_AGENTS, OPTIONAL_RETAIL_AGENTS, SILENT_GUARD_RETAIL_AGENTS, ALL_RETAIL_AGENTS, RetailAgent
+ * @module services/verticals/retail/RetailAgents
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

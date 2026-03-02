@@ -1,3 +1,12 @@
+/**
+ * Service — Echo Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports echoService, DecisionOutcome, PatternInsight, AgentWeightAdjustment, DecisionROIEntry, AccuracyReport, OutcomeCollectionJob, EchoSignature
+ * @module services/echoService
+ */
+
 // =============================================================================
 // CENDIA ECHO™ - THE DECISION OUTCOME ENGINE
 // "Every decision echoes through time. We measure the echo and make the next decision better."

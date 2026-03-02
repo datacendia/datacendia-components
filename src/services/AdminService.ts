@@ -1,3 +1,12 @@
+/**
+ * Frontend Service — Admin Service
+ *
+ * Client-side service for API communication and business logic.
+ *
+ * @exports adminService, Tenant, LicenseFeatures, License, ServiceHealth, SystemMetrics, PlatformDashboard, HealthDashboard
+ * @module services/AdminService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

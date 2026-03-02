@@ -1,3 +1,12 @@
+/**
+ * Service — Decision Agents Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports DecisionAgentsService, DECISION_AGENTS, decisionAgentsService
+ * @module services/sgas/DecisionAgentsService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

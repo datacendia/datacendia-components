@@ -1,3 +1,12 @@
+/**
+ * Service — Scenario Templates
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getScenarioTemplate, listScenarioTypes, SCENARIO_TEMPLATES
+ * @module services/crucible/scenarioTemplates
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

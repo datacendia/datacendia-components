@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Index
+ *
+ * React page component rendered by the router.
+ *
+ * @exports LoginPage, RegisterPage, ForgotPasswordPage, ResetPasswordPage
+ * @module pages/auth/index
+ */
+
 // =============================================================================
 // DATACENDIA - AUTH PAGES
 // =============================================================================

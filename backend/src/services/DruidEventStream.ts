@@ -1,3 +1,12 @@
+/**
+ * Service — Druid Event Stream
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports druidEventStream, logDecision, logAudit, logAgentMetric, logAlert, DecisionEvent, AuditEvent, AgentMetricEvent
+ * @module services/DruidEventStream
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

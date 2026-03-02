@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Inference Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/inference-service.test
+ */
+
+/**
  * =============================================================================
  * INFERENCE SERVICE — UNIT TESTS
  * =============================================================================

@@ -1,3 +1,12 @@
+/**
+ * Configuration — Neo4j
+ *
+ * Application configuration and service initialization.
+ *
+ * @exports neo4j, graph
+ * @module config/neo4j
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

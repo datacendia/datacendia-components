@@ -1,3 +1,12 @@
+/**
+ * Service — Notification Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports NotificationService, notificationService, NotificationPayload, NotificationPreferences, NotificationType, NotificationChannel
+ * @module services/NotificationService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

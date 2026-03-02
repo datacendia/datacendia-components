@@ -1,3 +1,12 @@
+/**
+ * Component — S E O
+ *
+ * Reusable React UI component.
+ *
+ * @exports SEO, useSEO, BreadcrumbStructuredData
+ * @module components/SEO
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

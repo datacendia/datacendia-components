@@ -1,3 +1,12 @@
+/**
+ * Service — Legal Decision Types
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports MatterContext, ContractReviewDecision, LitigationStrategyDecision, SettlementApprovalDecision, PrivilegeDeterminationDecision, EDiscoveryProductionDecision, RegulatoryResponseDecision, MADueDiligenceDecision
+ * @module services/verticals/legal/LegalDecisionTypes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

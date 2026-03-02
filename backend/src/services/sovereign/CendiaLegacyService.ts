@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Legacy Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaLegacyService, cendiaLegacyService, KnowledgeArticle, ArticleVersion, InstitutionalMemory, ExpertiseProfile, KnowledgeTransfer, SearchResult
+ * @module services/sovereign/CendiaLegacyService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

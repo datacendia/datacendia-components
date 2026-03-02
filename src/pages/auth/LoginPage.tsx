@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Login Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports LoginPage
+ * @module pages/auth/LoginPage
+ */
+
 // =============================================================================
 // DATACENDIA - LOGIN PAGE
 // Premium sovereign branding with enterprise SSO

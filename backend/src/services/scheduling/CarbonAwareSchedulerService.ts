@@ -1,3 +1,12 @@
+/**
+ * Service — Carbon Aware Scheduler Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CarbonAwareSchedulerService, carbonAwareSchedulerService, CarbonIntensity, CarbonForecast, Workload, SchedulingDecision, CarbonBudget, CarbonReport
+ * @module services/scheduling/CarbonAwareSchedulerService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

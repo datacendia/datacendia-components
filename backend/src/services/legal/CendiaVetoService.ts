@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Veto Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaVetoService, cendiaVetoService, VetoGate, Approval, VetoPolicy, VetoAuditEntry, VetoGateType, ApprovalStatus
+ * @module services/legal/CendiaVetoService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

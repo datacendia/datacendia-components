@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Opa Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/opa-service.test
+ */
+
+/**
  * =============================================================================
  * OPA SERVICE — UNIT TESTS
  * =============================================================================

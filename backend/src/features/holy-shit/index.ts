@@ -1,3 +1,12 @@
+/**
+ * Feature — Index
+ *
+ * Feature module implementing a specific platform capability.
+ *
+ * @exports WORKFLOW_INTEGRATION, HOLY_SHIT_FEATURES
+ * @module features/holy-shit/index
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
