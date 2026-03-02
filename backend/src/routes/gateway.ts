@@ -29,13 +29,26 @@
 import { Router, Request, Response } from 'express';
 import CendiaGatewayService from '../services/gateway/CendiaGatewayService';
 import { scanForPII } from '../services/gateway/PIIDetector';
+import ModelRouter from '../services/gateway/ModelRouter';
+import ShadowAIDetector from '../services/gateway/ShadowAIDetector';
+import WebhookNotifier from '../services/gateway/WebhookNotifier';
+import GatewayRateLimiter from '../services/gateway/RateLimiter';
+import SIEMIntegration from '../services/gateway/SIEMIntegration';
+import ManifestExporter from '../services/gateway/ManifestExporter';
 
 const router = Router();
 
-// Get service singleton
+// Get service singletons
 function getGateway(): CendiaGatewayService {
   return CendiaGatewayService.getInstance();
 }
+
+const modelRouter = new ModelRouter();
+const shadowDetector = new ShadowAIDetector();
+const webhookNotifier = new WebhookNotifier();
+const rateLimiter = new GatewayRateLimiter();
+const siemIntegration = new SIEMIntegration();
+const manifestExporter = new ManifestExporter();
 
 // Helper to extract user info from request (JWT or API key auth)
 function extractUserInfo(req: Request): {
@@ -499,12 +512,375 @@ router.get('/health', async (_req: Request, res: Response) => {
   return res.json({
     status: 'healthy',
     service: 'CendiaGateway',
-    version: '1.0.0',
+    version: '2.0.0',
     providers: gateway.getProviders().length,
     policies: gateway.getPolicies().filter(p => p.enabled).length,
     totalInteractions: stats.totalInteractions,
     uptime: process.uptime(),
+    subsystems: {
+      modelRouter: 'active',
+      shadowAI: shadowDetector.getConfig().enabled ? 'active' : 'disabled',
+      rateLimiter: 'active',
+      siem: siemIntegration.getStats().activeConfigs > 0 ? 'active' : 'unconfigured',
+    },
   });
+});
+
+// =============================================================================
+// MODEL ROUTING — Cost-optimized fallback chains
+// =============================================================================
+
+router.get('/routing/rules', async (_req: Request, res: Response) => {
+  try {
+    return res.json({ rules: modelRouter.getRules() });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/routing/rules', async (req: Request, res: Response) => {
+  try {
+    modelRouter.addRule(req.body);
+    return res.status(201).json(req.body);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.put('/routing/rules/:id', async (req: Request, res: Response) => {
+  try {
+    const updated = modelRouter.updateRule(req.params.id, req.body);
+    if (!updated) return res.status(404).json({ error: 'Rule not found' });
+    return res.json(updated);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/routing/rules/:id', async (req: Request, res: Response) => {
+  try {
+    if (!modelRouter.removeRule(req.params.id)) return res.status(404).json({ error: 'Rule not found' });
+    return res.json({ success: true });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.get('/routing/performance', async (_req: Request, res: Response) => {
+  try {
+    return res.json({ models: modelRouter.getPerformanceStats() });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/routing/select', async (req: Request, res: Response) => {
+  try {
+    const decision = modelRouter.selectModel({
+      requestedModel: req.body.model,
+      userDepartment: req.body.department || 'unknown',
+      userEmail: req.body.email || 'unknown',
+      promptText: req.body.promptText || '',
+      requiredCapabilities: req.body.capabilities,
+    });
+    return res.json({ decision });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+// =============================================================================
+// SHADOW AI DETECTION
+// =============================================================================
+
+router.get('/shadow-ai/events', async (req: Request, res: Response) => {
+  try {
+    const events = shadowDetector.getEvents({
+      organizationId: req.query.organizationId as string,
+      type: req.query.type as any,
+      severity: req.query.severity as string,
+      userId: req.query.userId as string,
+      limit: req.query.limit ? parseInt(req.query.limit as string) : 100,
+    });
+    return res.json({ events, total: events.length });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.get('/shadow-ai/report', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req.query.organizationId as string) || 'default-org';
+    const days = req.query.days ? parseInt(req.query.days as string) : 30;
+    const report = shadowDetector.generateReport(orgId, days);
+    return res.json(report);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/shadow-ai/acknowledge/:id', async (req: Request, res: Response) => {
+  try {
+    if (!shadowDetector.acknowledgeEvent(req.params.id)) {
+      return res.status(404).json({ error: 'Event not found' });
+    }
+    return res.json({ success: true });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.get('/shadow-ai/config', async (_req: Request, res: Response) => {
+  return res.json(shadowDetector.getConfig());
+});
+
+router.put('/shadow-ai/config', async (req: Request, res: Response) => {
+  try {
+    shadowDetector.updateConfig(req.body);
+    return res.json(shadowDetector.getConfig());
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+// =============================================================================
+// WEBHOOK NOTIFICATIONS
+// =============================================================================
+
+router.get('/webhooks', async (_req: Request, res: Response) => {
+  try {
+    const webhooks = webhookNotifier.getWebhooks().map(w => ({
+      ...w,
+      url: w.url.replace(/\/\/.*@/, '//***@'), // Mask credentials in URL
+      secret: w.secret ? '***' : undefined,
+    }));
+    return res.json({ webhooks });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/webhooks', async (req: Request, res: Response) => {
+  try {
+    const webhook = {
+      id: `webhook-${Date.now()}`,
+      ...req.body,
+      rateLimitPerMinute: req.body.rateLimitPerMinute || 30,
+      includePromptText: req.body.includePromptText ?? false,
+    };
+    webhookNotifier.addWebhook(webhook);
+    return res.status(201).json(webhook);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.put('/webhooks/:id', async (req: Request, res: Response) => {
+  try {
+    const updated = webhookNotifier.updateWebhook(req.params.id, req.body);
+    if (!updated) return res.status(404).json({ error: 'Webhook not found' });
+    return res.json(updated);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/webhooks/:id', async (req: Request, res: Response) => {
+  try {
+    if (!webhookNotifier.removeWebhook(req.params.id)) return res.status(404).json({ error: 'Webhook not found' });
+    return res.json({ success: true });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/webhooks/:id/test', async (req: Request, res: Response) => {
+  try {
+    const result = await webhookNotifier.testWebhook(req.params.id);
+    return res.json(result);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+// =============================================================================
+// AI MANIFEST EXPORT — HTML (PDF), CSV, JSON
+// =============================================================================
+
+router.post('/manifest/export', async (req: Request, res: Response) => {
+  try {
+    const gateway = getGateway();
+    const userInfo = extractUserInfo(req);
+    const format = (req.query.format as string) || 'html';
+
+    const manifest = await gateway.generateManifest({
+      organizationId: req.body.organizationId || userInfo.organizationId,
+      organizationName: req.body.organizationName || 'Datacendia',
+      periodStart: new Date(req.body.periodStart || Date.now() - 90 * 24 * 60 * 60 * 1000),
+      periodEnd: new Date(req.body.periodEnd || Date.now()),
+      generatedBy: userInfo.userEmail,
+    });
+
+    switch (format) {
+      case 'html':
+      case 'pdf': {
+        const html = manifestExporter.toHTML(manifest);
+        res.set('Content-Type', 'text/html');
+        res.set('Content-Disposition', `inline; filename="ai-manifest-${manifest.id}.html"`);
+        return res.send(html);
+      }
+      case 'csv': {
+        const csv = manifestExporter.toCSV(manifest);
+        res.set('Content-Type', 'text/csv');
+        res.set('Content-Disposition', `attachment; filename="ai-manifest-${manifest.id}.csv"`);
+        return res.send(csv);
+      }
+      case 'json':
+      default: {
+        const json = manifestExporter.toJSON(manifest);
+        res.set('Content-Type', 'application/json');
+        res.set('Content-Disposition', `attachment; filename="ai-manifest-${manifest.id}.json"`);
+        return res.send(json);
+      }
+    }
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+// =============================================================================
+// RATE LIMITING — Configuration & Usage
+// =============================================================================
+
+router.get('/rate-limits', async (_req: Request, res: Response) => {
+  try {
+    return res.json({
+      configs: rateLimiter.getConfigs(),
+      usage: rateLimiter.getUsageStats(),
+    });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/rate-limits', async (req: Request, res: Response) => {
+  try {
+    const config = {
+      id: `ratelimit-${Date.now()}`,
+      ...req.body,
+      burstMultiplier: req.body.burstMultiplier || 1.0,
+      notifyOnExceed: req.body.notifyOnExceed ?? true,
+    };
+    rateLimiter.addConfig(config);
+    return res.status(201).json(config);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.put('/rate-limits/:id', async (req: Request, res: Response) => {
+  try {
+    const updated = rateLimiter.updateConfig(req.params.id, req.body);
+    if (!updated) return res.status(404).json({ error: 'Rate limit config not found' });
+    return res.json(updated);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/rate-limits/:id', async (req: Request, res: Response) => {
+  try {
+    if (!rateLimiter.removeConfig(req.params.id)) return res.status(404).json({ error: 'Rate limit config not found' });
+    return res.json({ success: true });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/rate-limits/check', async (req: Request, res: Response) => {
+  try {
+    const result = rateLimiter.check({
+      userId: req.body.userId || 'test-user',
+      userDepartment: req.body.department || 'unknown',
+      organizationId: req.body.organizationId || 'default-org',
+    });
+    return res.json(result);
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+// =============================================================================
+// SIEM INTEGRATION
+// =============================================================================
+
+router.get('/siem/configs', async (_req: Request, res: Response) => {
+  try {
+    const configs = siemIntegration.getConfigs().map(c => ({
+      ...c,
+      authToken: '***',
+      authSecret: c.authSecret ? '***' : undefined,
+    }));
+    return res.json({ configs, stats: siemIntegration.getStats() });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/siem/configs', async (req: Request, res: Response) => {
+  try {
+    const config = {
+      id: `siem-${Date.now()}`,
+      batchSize: 50,
+      flushIntervalMs: 10_000,
+      includePIIDetails: false,
+      includePromptHash: true,
+      minSeverity: 'warning' as const,
+      ...req.body,
+    };
+    siemIntegration.addConfig(config);
+    return res.status(201).json({ ...config, authToken: '***' });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.put('/siem/configs/:id', async (req: Request, res: Response) => {
+  try {
+    const updated = siemIntegration.updateConfig(req.params.id, req.body);
+    if (!updated) return res.status(404).json({ error: 'SIEM config not found' });
+    return res.json({ ...updated, authToken: '***' });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.delete('/siem/configs/:id', async (req: Request, res: Response) => {
+  try {
+    if (!siemIntegration.removeConfig(req.params.id)) return res.status(404).json({ error: 'SIEM config not found' });
+    return res.json({ success: true });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.get('/siem/stats', async (_req: Request, res: Response) => {
+  try {
+    return res.json(siemIntegration.getStats());
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/siem/flush', async (_req: Request, res: Response) => {
+  try {
+    for (const config of siemIntegration.getConfigs()) {
+      await siemIntegration.flush(config.id);
+    }
+    return res.json({ success: true });
+  } catch (err: any) {
+    return res.status(500).json({ error: err.message });
+  }
 });
 
 export default router;
