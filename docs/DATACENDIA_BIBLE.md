@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 5.0** | **February 26, 2026 Update** — Infrastructure Upgrade (9 Enterprise Components) + NVIDIA Inception
+**Version 5.1** | **March 2, 2026 Update** — Platform Audit Remediation + CendiaGateway™ + The Governance Receipt™
 
 ---
 
@@ -95,7 +95,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 ---
 
-# Platform Implementation Status (February 2026)
+# Platform Implementation Status (March 2026)
 
 > **Honest Assessment** — This section provides transparent status of what is implemented versus planned.
 
@@ -286,12 +286,27 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
   - Added: compliance mapping, defensible outputs, comprehensive testing
   - File: `backend/src/services/verticals/legal/LegalVertical.ts`
 
+### March 2, 2026 — CendiaGateway™ & Platform Audit Remediation
+
+- **CendiaGateway™** — AI governance reverse proxy: multi-provider proxying (OpenAI, Anthropic, Google, Ollama), PII detection & redaction, policy enforcement (block/redact/warn/allow), cryptographic signing, audit ledger with ring buffer, aggregate stats. Service: `backend/src/services/gateway/CendiaGatewayService.ts`. Routes: `backend/src/routes/gateway.ts`. Schema: `backend/prisma/schema/gateway.prisma`
+- **The Governance Receipt™** — Named artifact: the printable, cryptographically verified document a CISO hands to a regulator. Replaces "AI Manifest" branding. Export as HTML (PDF), CSV, JSON via `POST /governance-receipt/export`. Type alias `GovernanceReceipt` exported alongside legacy `AIManifest` for backwards compatibility
+- **Cross-repo platform audit** — 33 findings across all 4 repos, 14 remediated same-day (see `docs/PLATFORM_AUDIT_2026-03-02.md`). Overall grade upgraded B+ → A−
+  - CI rewritten for datacendia-core (concurrency, Prisma generate, community build, security workflow, Dependabot)
+  - Dependency vulns reduced 31 → 6 (remaining are deep transitive)
+  - 2.5GB caselaw data removed from git tracking
+  - Marketing HTTPS enabled
+  - CI hardened: lint blocks merges, security audit blocks on critical
+  - `SECURITY.md` version refs fixed, `@types/*` moved to devDependencies, empty file deleted
+
 ## What Needs Work
 
 - **Redis Integration** — Currently optional (graceful fallback)
-- **CI/CD Pipeline** — Created but not yet executed
+- **CI/CD Pipeline** — Live on 3 of 4 repos (components, core, DGI). Marketing repo still needs CI
 - **Load Testing** — Scripts exist but not benchmarked
 - **Some Integration Tests** — 63 tests failing (edge cases)
+- **6 Transitive Dependency Vulns** — `elliptic` (via keycloak-connect), `fast-xml-parser` (nested in AWS SDK), `jsonpath` (via bfj) — awaiting upstream fixes
+- **Docker Compose Consolidation** — 9 files → 3 (medium-term audit item)
+- **Express 4 → 5 Upgrade** — Medium-term audit item
 
 ---
 
@@ -924,6 +939,34 @@ Cryptographically signed audit packets proving who decided what, when, and why.
 - Irrefutable proof for auditors and regulators
 
 **Merged Services:** Ledger, Evidence Vault
+
+---
+
+## CendiaGateway™
+
+**AI Governance Reverse Proxy**
+
+Route all AI API traffic through a governance-aware proxy that enforces policy, detects PII, and produces cryptographic evidence of every interaction.
+
+**Key Capabilities:**
+- Multi-provider proxying (OpenAI, Anthropic, Google, Ollama) with transparent routing
+- PII detection and redaction (12 types: SSN, credit card, email, phone, IP, DOB, medical, bank, passport, DL, address)
+- Policy enforcement engine with block/redact/warn/allow actions per department, user, or keyword
+- Cryptographic signing of every interaction (SHA-256 hash chain + Merkle leaves)
+- Ring buffer audit ledger with async PostgreSQL persistence
+- Aggregate stats: cost, tokens, PII detections, policy blocks by provider/model/department/user
+- **The Governance Receipt™** — One-click export (HTML/PDF, CSV, JSON) proving PII governance, policy enforcement, and cryptographic integrity for regulators
+
+**API Endpoints:**
+- `POST /api/v1/gateway/proxy` — Proxy requests to AI providers
+- `GET /api/v1/gateway/stats` — Aggregate usage and governance stats
+- `GET /api/v1/gateway/interactions` — Recent interactions with filtering
+- `GET /api/v1/gateway/policies` — Active governance policies
+- `POST /api/v1/gateway/manifest` — Generate The Governance Receipt™
+
+**Frontend:** `/cortex/governance/gateway`
+
+**Merged into Trust Layer:** This service bridges the Core Suite (AI usage) with the Trust Layer (governance evidence).
 
 ---
 
@@ -2710,6 +2753,21 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 ## Appendix E: Changelog
+
+### Version 5.1.0 (March 2, 2026)
+
+#### CendiaGateway™ & Platform Audit Remediation
+- **CendiaGateway™** — AI governance reverse proxy with multi-provider proxying (OpenAI, Anthropic, Google, Ollama), PII detection & redaction (12 PII types), policy enforcement engine, cryptographic signing, audit ledger with ring buffer, async persistence queue, aggregate stats
+- **The Governance Receipt™** — Named artifact replacing "AI Manifest" branding. Printable, cryptographically verified document for regulators. Export via `POST /governance-receipt/export` (HTML/PDF, CSV, JSON). `GovernanceReceipt` type alias alongside legacy `AIManifest`
+- **Cross-repo platform audit** — 33 findings across 4 repos, 14 remediated same-day. Overall grade B+ → A−
+- **datacendia-core CI overhaul** — Rewrote `ci.yml` (concurrency, Prisma generate, `--skipLibCheck`, community build, status gate), added `security.yml` (CodeQL SAST, TruffleHog, dependency audit), added `dependabot.yml`
+- **Dependency vulns 31 → 6** — Updated `fast-xml-parser` override → 5.4.1, `multer` → 2.1.0, added `@aws-sdk/xml-builder` nested override
+- **Repository cleanup** — Removed 2.5GB caselaw data (91,725 files) from git, removed large test result files, updated `.gitignore`
+- **CI hardened** — Lint now blocks merges (removed `continue-on-error`), security audit blocks on critical vulns
+- **Housekeeping** — Fixed `SECURITY.md` versions (4.x → 0.1.x), moved `@types/*` to devDependencies, deleted empty `fix-ds.ts`, enabled HTTPS redirect on marketing site
+- **Documentation overhaul** — Updated README, CHANGELOG, CONTRIBUTING, COMMUNITY, ARCHITECTURE across all 4 repos; updated audit executive summary (B+ → A−)
+
+---
 
 ### Version 4.8.0 (February 17, 2026)
 

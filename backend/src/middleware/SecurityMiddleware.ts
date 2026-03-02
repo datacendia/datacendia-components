@@ -1,3 +1,12 @@
+/**
+ * Middleware — Security Middleware
+ *
+ * Express middleware for request processing pipeline.
+ *
+ * @exports sanitizeInput, redactSensitiveData, inputSanitizationMiddleware, responseSanitizationMiddleware, rateLimitMiddleware, corsSecurityMiddleware, sqlInjectionMiddleware, pathTraversalMiddleware
+ * @module middleware/SecurityMiddleware
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

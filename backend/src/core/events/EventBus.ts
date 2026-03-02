@@ -1,3 +1,12 @@
+/**
+ * Core — Event Bus
+ *
+ * Core platform infrastructure and shared utilities.
+ *
+ * @exports eventBus, DomainEvent, EventHandler, EventSubscription, SubscriptionOptions, EventBusConfig, EventStats
+ * @module core/events/EventBus
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

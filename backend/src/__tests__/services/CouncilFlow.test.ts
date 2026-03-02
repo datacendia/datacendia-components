@@ -1,3 +1,10 @@
+/**
+ * Module — Council Flow Test
+ *
+ * Platform module.
+ * @module __tests__/services/CouncilFlow.test
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

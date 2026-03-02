@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Glass Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaGlassService, cendiaGlassService, ARDevice, AROverlay, ARSession, ARSessionParticipant, ARInteraction, SpatialAnchor
+ * @module services/sovereign/CendiaGlassService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Tenants Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports TenantsPage
+ * @module pages/admin/TenantsPage
+ */
+
 // =============================================================================
 // DATACENDIA TENANTS MANAGEMENT - Enterprise Platinum Standard
 // Multi-tenant organization management with full CRUD operations

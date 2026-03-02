@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Ingest Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaIngestService, IngestJob, IngestSource, DocumentInput, ProcessedDocument, DocumentChunk, ExtractedEntity, ExtractedRelationship
+ * @module services/strategic/CendiaIngestService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

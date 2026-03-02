@@ -1,3 +1,12 @@
+/**
+ * Library — Scotus Db
+ *
+ * Client-side utility library.
+ *
+ * @exports getLandmarkCasesByIssue, getEmploymentLandmarkCases, getIPLandmarkCases, formatLandmarkCase, formatLandmarkCasesForAgent, getIssueAreaDescription, getDispositionDescription, ISSUE_AREAS
+ * @module lib/laws/scotus-db
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

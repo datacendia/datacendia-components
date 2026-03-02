@@ -1,16 +1,25 @@
-# Datacendia
+# Datacendia — Enterprise Edition
+
+> **⚠️ Private Repository** — This is the enterprise monorepo containing all commercial features. The open-source Community Edition is at [datacendia-core](https://github.com/datacendia/datacendia-core) (Apache 2.0).
 
 [![CI](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml/badge.svg)](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml)
+[![Security](https://github.com/datacendia/datacendia-components/actions/workflows/security.yml/badge.svg)](https://github.com/datacendia/datacendia-components/actions/workflows/security.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception%20Member-76b900.svg)](https://www.nvidia.com/en-us/startups/)
-[![License](https://img.shields.io/badge/License-See%20LICENSE-lightgrey.svg)](#license)
-[![Docker](https://img.shields.io/badge/Docker-Deploy-2496ED.svg?logo=docker)](https://hub.docker.com/r/datacendia/datacendia)
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template?referralCode=datacendia)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/datacendia/datacendia-components)
+[![License](https://img.shields.io/badge/License-Commercial-lightgrey.svg)](#license)
 
 **The Defensible AI Platform — every decision, defensible.**
 
 Datacendia is the only AI platform where every decision is auditable, explainable, and court-admissible. Multiple AI agents *deliberate* — argue, dissent, and challenge each other — then every decision is recorded in a cryptographically signed, immutable evidence packet. Open-core. Sovereign-first. Self-hosted or cloud. Your data, your keys, your proof.
+
+### Repository Landscape
+
+| Repo | Purpose | License | Visibility |
+|------|---------|---------|:----------:|
+| **datacendia-components** (this repo) | Enterprise monorepo — full platform (frontend + backend) | Commercial | Private |
+| [datacendia-core](https://github.com/datacendia/datacendia-core) | Community Edition — open-source core engine | Apache 2.0 | Public |
+| [datacendia-marketing](https://github.com/datacendia/datacendia-marketing) | Marketing website (datacendia.com) | Proprietary | Private |
+| [decision-governance-infrastructure](https://github.com/datacendia/decision-governance-infrastructure) | DDGI framework specification | CC BY 4.0 | Public |
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -129,8 +138,9 @@ cd datacendia-components
 cp .env.example .env
 cp backend/.env.example backend/.env
 
-# Install all dependencies
+# Install all dependencies (Prisma client auto-generates via postinstall)
 npm install
+cd backend && npm install && cd ..
 
 # Start infrastructure with unified compose (RECOMMENDED)
 docker-compose -f docker-compose.unified.yml --profile core up -d
@@ -354,6 +364,8 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | **CendiaCrisis™** | Incident Response Center — detection to resolution with complete audit trail |
 | **CendiaROI™** | Prove the ROI of governance with real deliberation throughput and quality metrics |
 | **CendiaDCII™** | Decision Crisis Immunization Infrastructure — IISS, 9 primitives, media auth, timestamps |
+| **CendiaGateway™** | AI Governance Gateway — reverse proxy for all AI traffic with PII detection, policy enforcement, DCII signing |
+| **The Governance Receipt™** | Printable, cryptographically verified artifact proving every AI interaction was governed — for regulators and auditors |
 
 ### Trust Layer (The "Shield")
 
@@ -401,7 +413,8 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 | Document | Description |
 |----------|-------------|
-| [Platform Audit (Feb 18)](PLATFORM_AUDIT_2026_02_18.md) | Comprehensive platform audit — every service verified |
+| [Platform Audit (Mar 2)](docs/PLATFORM_AUDIT_2026-03-02.md) | Cross-repo audit — 33 findings, 14 remediated, CI/security/deps |
+| [Platform Audit (Feb 18)](PLATFORM_AUDIT_2026_02_18.md) | Service verification audit |
 | [Enterprise Readiness](docs/ENTERPRISE_READINESS.md) | Production audit & compliance |
 | [API Documentation](docs/API_DOCUMENTATION.md) | Backend API reference |
 | [Architecture Diagrams](docs/ARCHITECTURE_DIAGRAMS.md) | System architecture |
@@ -496,6 +509,24 @@ Community Edition components are available under open-source terms. Enterprise f
 
 <details>
 <summary><strong>📋 Changelog (click to expand)</strong></summary>
+
+### March 2, 2026 — Platform Audit Remediation
+
+- **Cross-repo audit** — 33 findings across all 4 repos, 14 remediated same-day
+- **datacendia-core CI overhaul** — Rewrote `ci.yml` (concurrency, Prisma generate, community build, status gate), added `security.yml` (CodeQL, TruffleHog, dependency audit), added `dependabot.yml`
+- **Dependency vulns reduced 31→6** — `fast-xml-parser` override → 5.4.1, `multer` → 2.1.0, added `@aws-sdk/xml-builder` override
+- **Removed 2.5GB caselaw data** from git tracking (91,725 files)
+- **Marketing HTTPS enabled** — Uncommented Force HTTPS redirect in `.htaccess`
+- **CI hardened** — Lint now blocks merges (removed `continue-on-error`), security audit blocks on critical vulns
+- **Housekeeping** — Fixed `SECURITY.md` versions, moved `@types/*` to devDependencies, deleted empty `fix-ds.ts`
+
+### March 2, 2026 — The Governance Receipt™ & CendiaGateway Housekeeping
+
+- **The Governance Receipt™** — Named artifact: the printable, cryptographically verified document a CISO hands to a regulator. Replaces "AI Manifest" branding. Export as HTML (PDF), CSV, JSON via `POST /governance-receipt/export`
+- **Prisma generate automated** — `postinstall` hook in `backend/package.json` runs `prisma generate` automatically after `npm install`. Also added to `build` script and both enterprise setup scripts (`.ps1` / `.sh`)
+- **Browser extension icon tooling** — `generate-icons.html` renders the gold shield SVG onto canvas at 16/48/128px and provides PNG download buttons. README updated with prominent warning that Chrome requires real PNGs
+- **`GovernanceReceipt` type alias** — exported alongside legacy `AIManifest` for backwards compatibility
+- **CendiaGateway™** and **The Governance Receipt™** added to product catalog
 
 ### February 26, 2026 — Infrastructure Upgrade (9 Enterprise Components)
 

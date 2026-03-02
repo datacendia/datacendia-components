@@ -1,4 +1,13 @@
 /**
+ * Service — Cendia Gateway Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest
+ * @module services/gateway/CendiaGatewayService
+ */
+
+/**
  * CendiaGateway™ — AI Governance Gateway Service
  * 
  * Reverse proxy for AI model APIs (OpenAI, Anthropic, Google, Ollama).
@@ -13,7 +22,10 @@
 
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
+import { PrismaClient } from '@prisma/client';
 import { scanForPII, scanForKeywords, type PIIScanResult, type PIIType } from './PIIDetector';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -104,6 +116,12 @@ export interface GatewayStats {
   recentInteractions: GatewayInteraction[];
 }
 
+/**
+ * The Governance Receipt™ — the printable, cryptographically verified artifact
+ * that a CISO hands to a regulator proving every AI interaction was governed.
+ *
+ * Exported as both `GovernanceReceipt` (preferred) and `AIManifest` (legacy alias).
+ */
 export interface AIManifest {
   id: string;
   organizationId: string;
@@ -172,6 +190,9 @@ export interface AIManifest {
   };
 }
 
+/** Preferred name — The Governance Receipt™. `AIManifest` remains for backwards compatibility. */
+export type GovernanceReceipt = AIManifest;
+
 // =============================================================================
 // PROVIDER CONFIGURATIONS
 // =============================================================================
@@ -217,6 +238,56 @@ const DEFAULT_PROVIDERS: GatewayProvider[] = [
     costPer1kPromptTokens: 0,
     costPer1kResponseTokens: 0,
   },
+  {
+    id: 'azure-openai',
+    name: 'Azure OpenAI',
+    baseUrl: process.env['AZURE_OPENAI_ENDPOINT'] || 'https://your-resource.openai.azure.com',
+    authHeader: 'api-key',
+    authPrefix: '',
+    models: ['gpt-4o', 'gpt-4o-mini', 'gpt-4-turbo', 'gpt-4', 'gpt-35-turbo'],
+    costPer1kPromptTokens: 0.005,
+    costPer1kResponseTokens: 0.015,
+  },
+  {
+    id: 'bedrock',
+    name: 'AWS Bedrock',
+    baseUrl: process.env['AWS_BEDROCK_ENDPOINT'] || 'https://bedrock-runtime.us-east-1.amazonaws.com',
+    authHeader: 'Authorization',
+    authPrefix: '',
+    models: ['anthropic.claude-3-5-sonnet-20241022-v2:0', 'anthropic.claude-3-haiku-20240307-v1:0', 'meta.llama3-1-70b-instruct-v1:0', 'amazon.titan-text-premier-v1:0'],
+    costPer1kPromptTokens: 0.003,
+    costPer1kResponseTokens: 0.015,
+  },
+  {
+    id: 'mistral',
+    name: 'Mistral AI',
+    baseUrl: 'https://api.mistral.ai',
+    authHeader: 'Authorization',
+    authPrefix: 'Bearer ',
+    models: ['mistral-large-latest', 'mistral-medium-latest', 'mistral-small-latest', 'codestral-latest', 'open-mistral-nemo'],
+    costPer1kPromptTokens: 0.002,
+    costPer1kResponseTokens: 0.006,
+  },
+  {
+    id: 'cohere',
+    name: 'Cohere',
+    baseUrl: 'https://api.cohere.com',
+    authHeader: 'Authorization',
+    authPrefix: 'Bearer ',
+    models: ['command-r-plus', 'command-r', 'command-light', 'embed-english-v3.0'],
+    costPer1kPromptTokens: 0.003,
+    costPer1kResponseTokens: 0.015,
+  },
+  {
+    id: 'groq',
+    name: 'Groq',
+    baseUrl: 'https://api.groq.com/openai',
+    authHeader: 'Authorization',
+    authPrefix: 'Bearer ',
+    models: ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'mixtral-8x7b-32768', 'gemma2-9b-it'],
+    costPer1kPromptTokens: 0.00059,
+    costPer1kResponseTokens: 0.00079,
+  },
 ];
 
 // Model-specific pricing overrides (cost per 1K tokens)
@@ -235,6 +306,28 @@ const MODEL_PRICING: Record<string, { prompt: number; response: number }> = {
   'gemini-2.0-flash': { prompt: 0.0001, response: 0.0004 },
   'gemini-1.5-pro': { prompt: 0.00125, response: 0.005 },
   'gemini-1.5-flash': { prompt: 0.000075, response: 0.0003 },
+  // Azure OpenAI (same pricing as OpenAI — models reuse entries above)
+  'gpt-35-turbo': { prompt: 0.0005, response: 0.0015 },
+  // AWS Bedrock
+  'anthropic.claude-3-5-sonnet-20241022-v2:0': { prompt: 0.003, response: 0.015 },
+  'anthropic.claude-3-haiku-20240307-v1:0': { prompt: 0.00025, response: 0.00125 },
+  'meta.llama3-1-70b-instruct-v1:0': { prompt: 0.00099, response: 0.00099 },
+  'amazon.titan-text-premier-v1:0': { prompt: 0.0005, response: 0.0015 },
+  // Mistral AI
+  'mistral-large-latest': { prompt: 0.002, response: 0.006 },
+  'mistral-medium-latest': { prompt: 0.0027, response: 0.0081 },
+  'mistral-small-latest': { prompt: 0.001, response: 0.003 },
+  'codestral-latest': { prompt: 0.001, response: 0.003 },
+  'open-mistral-nemo': { prompt: 0.0003, response: 0.0003 },
+  // Cohere
+  'command-r-plus': { prompt: 0.003, response: 0.015 },
+  'command-r': { prompt: 0.0005, response: 0.0015 },
+  'command-light': { prompt: 0.0003, response: 0.0006 },
+  // Groq
+  'llama-3.3-70b-versatile': { prompt: 0.00059, response: 0.00079 },
+  'llama-3.1-8b-instant': { prompt: 0.00005, response: 0.00008 },
+  'mixtral-8x7b-32768': { prompt: 0.00024, response: 0.00024 },
+  'gemma2-9b-it': { prompt: 0.0002, response: 0.0002 },
 };
 
 // =============================================================================
@@ -261,6 +354,10 @@ const RING_BUFFER_SIZE = 10_000;
 /** Batch DB persistence: flush every N interactions or every N ms */
 const FLUSH_BATCH_SIZE = 100;
 const FLUSH_INTERVAL_MS = 5_000;
+
+/** Max Merkle leaves kept in memory. When exceeded, older leaves are pruned
+ *  and their combined hash is preserved as a single "epoch root" leaf. */
+const MERKLE_LEAF_LIMIT = 100_000;
 
 // =============================================================================
 // AGGREGATE COUNTERS — O(1) stats instead of O(n) iteration
@@ -443,6 +540,224 @@ class CendiaGatewayService extends EventEmitter {
   }
 
   // ===========================================================================
+  // STREAMING PROXY — SSE passthrough with governance
+  // ===========================================================================
+
+  /**
+   * Process a streaming AI request. PII scanning and policy enforcement happen
+   * on the prompt BEFORE the stream begins. The response streams through to the
+   * caller via the returned ReadableStream. After the stream completes, the full
+   * response is captured, signed, and logged to the audit ledger.
+   *
+   * Returns: { stream, interaction (pre-response), onComplete promise }
+   */
+  async processStreamingRequest(request: GatewayRequest): Promise<{
+    blocked: boolean;
+    interaction: GatewayInteraction;
+    stream?: ReadableStream<Uint8Array>;
+    providerResponse?: Response;
+  }> {
+    const startTime = Date.now();
+    const interactionId = crypto.randomUUID();
+
+    // 1. Extract and scan prompt (synchronous, before stream)
+    const promptText = this.extractPromptText(request.provider, request.body);
+    const piiScan = scanForPII(promptText);
+
+    // 2. Policy evaluation
+    const { action, reason, policyId } = this.evaluatePolicy(request, piiScan);
+
+    // 3. If blocked, return immediately
+    if (action === 'block') {
+      const interaction = this.createInteraction({
+        id: interactionId,
+        request,
+        piiScan,
+        policyAction: 'block',
+        policyReason: reason,
+        policyId,
+        startTime,
+      });
+      this.insertInteraction(interaction);
+      this.emit('interaction:blocked', interaction);
+      return { blocked: true, interaction };
+    }
+
+    // 4. Redact if needed
+    let forwardBody = { ...request.body, stream: true };
+    if (action === 'redact' && piiScan.hasPII) {
+      forwardBody = this.replacePromptText(request.provider, { ...request.body, stream: true }, piiScan.redactedText);
+    }
+
+    // 5. Forward to provider with streaming enabled
+    const provider = this.providers.get(request.provider);
+    if (!provider) {
+      const interaction = this.createInteraction({
+        id: interactionId,
+        request,
+        piiScan,
+        policyAction: action,
+        policyReason: `Unknown provider: ${request.provider}`,
+        startTime,
+      });
+      this.insertInteraction(interaction);
+      return { blocked: true, interaction };
+    }
+
+    const url = `${provider.baseUrl}${request.endpoint}`;
+    const headers = this.buildProviderHeaders(provider, request);
+
+    const providerStartTime = Date.now();
+    const resp = await fetch(url, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(forwardBody),
+    });
+
+    // Create a pre-response interaction for immediate header emission
+    const preInteraction = this.createInteraction({
+      id: interactionId,
+      request,
+      piiScan,
+      policyAction: action,
+      policyReason: reason,
+      policyId,
+      startTime,
+      providerLatencyMs: Date.now() - providerStartTime,
+    });
+
+    if (!resp.body) {
+      this.insertInteraction(preInteraction);
+      return { blocked: true, interaction: preInteraction };
+    }
+
+    // 6. Tee the stream: one side goes to client, other side captures text
+    const [clientStream, captureStream] = resp.body.tee();
+
+    // 7. Background: read captureStream to completion, then sign and log
+    this.captureAndSign(captureStream, preInteraction, provider.id, providerStartTime, startTime);
+
+    return {
+      blocked: false,
+      interaction: preInteraction,
+      stream: clientStream,
+      providerResponse: resp,
+    };
+  }
+
+  /**
+   * Reads the captured side of the tee'd stream, extracts the full response
+   * text from SSE chunks, creates the signed interaction, and logs it.
+   */
+  private async captureAndSign(
+    stream: ReadableStream<Uint8Array>,
+    preInteraction: GatewayInteraction,
+    providerId: string,
+    providerStartTime: number,
+    requestStartTime: number,
+  ): Promise<void> {
+    try {
+      const decoder = new TextDecoder();
+      const reader = stream.getReader();
+      let fullText = '';
+      let totalChunks = 0;
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        totalChunks++;
+
+        const chunk = decoder.decode(value, { stream: true });
+        // Parse SSE lines: "data: {...}\n\n"
+        const lines = chunk.split('\n').filter(l => l.startsWith('data: '));
+        for (const line of lines) {
+          const json = line.slice(6).trim();
+          if (json === '[DONE]') continue;
+          try {
+            const parsed = JSON.parse(json);
+            // OpenAI/Groq/Mistral format
+            const delta = parsed.choices?.[0]?.delta?.content;
+            if (delta) fullText += delta;
+            // Anthropic format
+            const contentDelta = parsed.delta?.text;
+            if (contentDelta) fullText += contentDelta;
+          } catch { /* skip unparseable chunks */ }
+        }
+      }
+
+      // Estimate tokens (~4 chars per token)
+      const promptTokens = Math.ceil(preInteraction.piiScan.originalText.length / 4);
+      const responseTokens = Math.ceil(fullText.length / 4);
+      const model = preInteraction.request.model;
+      const cost = this.calculateCost(model, promptTokens, responseTokens);
+
+      // Create the final signed interaction with full response
+      const finalInteraction = this.createInteraction({
+        id: preInteraction.id,
+        request: preInteraction.request,
+        response: {
+          statusCode: 200,
+          headers: {},
+          body: { streamed: true, chunks: totalChunks },
+          promptText: preInteraction.piiScan.originalText,
+          responseText: fullText,
+          promptTokens,
+          responseTokens,
+          totalTokens: promptTokens + responseTokens,
+          estimatedCostUsd: cost,
+        },
+        piiScan: preInteraction.piiScan,
+        policyAction: preInteraction.policyAction,
+        policyReason: preInteraction.policyReason,
+        policyId: preInteraction.policyId,
+        startTime: requestStartTime,
+        providerLatencyMs: Date.now() - providerStartTime,
+      });
+
+      this.insertInteraction(finalInteraction);
+      this.emit('interaction:completed', finalInteraction);
+
+      if (preInteraction.piiScan.hasPII) {
+        this.emit('interaction:pii_detected', finalInteraction);
+      }
+    } catch (err) {
+      console.error('[CendiaGateway] Stream capture error:', err);
+    }
+  }
+
+  // ===========================================================================
+  // PROVIDER HEADER BUILDER (shared by streaming + non-streaming)
+  // ===========================================================================
+
+  private buildProviderHeaders(provider: GatewayProvider, request: GatewayRequest): Record<string, string> {
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+
+    if (request.headers[provider.authHeader.toLowerCase()]) {
+      headers[provider.authHeader] = request.headers[provider.authHeader.toLowerCase()];
+    }
+
+    const envKeyMap: Record<string, string> = {
+      openai: 'OPENAI_API_KEY',
+      anthropic: 'ANTHROPIC_API_KEY',
+      google: 'GOOGLE_AI_API_KEY',
+      'azure-openai': 'AZURE_OPENAI_API_KEY',
+      mistral: 'MISTRAL_API_KEY',
+      cohere: 'COHERE_API_KEY',
+      groq: 'GROQ_API_KEY',
+    };
+    const envKey = envKeyMap[provider.id];
+    if (envKey && process.env[envKey] && !headers[provider.authHeader]) {
+      headers[provider.authHeader] = `${provider.authPrefix}${process.env[envKey]}`;
+    }
+
+    if (provider.id === 'anthropic') headers['anthropic-version'] = '2023-06-01';
+    if (provider.id === 'azure-openai') headers['api-version'] = process.env['AZURE_OPENAI_API_VERSION'] || '2024-08-01-preview';
+    if (provider.id === 'mistral') headers['Accept'] = 'application/json';
+
+    return headers;
+  }
+
+  // ===========================================================================
   // PROVIDER FORWARDING
   // ===========================================================================
 
@@ -468,15 +783,26 @@ class CendiaGatewayService extends EventEmitter {
       openai: 'OPENAI_API_KEY',
       anthropic: 'ANTHROPIC_API_KEY',
       google: 'GOOGLE_AI_API_KEY',
+      'azure-openai': 'AZURE_OPENAI_API_KEY',
+      mistral: 'MISTRAL_API_KEY',
+      cohere: 'COHERE_API_KEY',
+      groq: 'GROQ_API_KEY',
+      // Bedrock uses AWS SDK credential chain (IAM roles, env vars AWS_ACCESS_KEY_ID etc.)
     };
     const envKey = envKeyMap[provider.id];
     if (envKey && process.env[envKey] && !headers[provider.authHeader]) {
       headers[provider.authHeader] = `${provider.authPrefix}${process.env[envKey]}`;
     }
 
-    // Anthropic requires version header
+    // Provider-specific headers
     if (provider.id === 'anthropic') {
       headers['anthropic-version'] = '2023-06-01';
+    }
+    if (provider.id === 'azure-openai') {
+      headers['api-version'] = process.env['AZURE_OPENAI_API_VERSION'] || '2024-08-01-preview';
+    }
+    if (provider.id === 'mistral') {
+      headers['Accept'] = 'application/json';
     }
 
     try {
@@ -786,8 +1112,14 @@ class CendiaGatewayService extends EventEmitter {
     // 2. Update aggregate counters incrementally (O(1))
     this.updateCounters(interaction);
 
-    // 3. Store Merkle leaf hash for incremental tree
+    // 3. Store Merkle leaf hash for incremental tree (with pruning)
     this.merkleLeaves.push(interaction.integrityHash);
+    if (this.merkleLeaves.length > MERKLE_LEAF_LIMIT) {
+      // Compact oldest half into a single epoch root to bound memory
+      const half = Math.floor(this.merkleLeaves.length / 2);
+      const epochRoot = this.computeMerkleRoot(this.merkleLeaves.slice(0, half));
+      this.merkleLeaves = [epochRoot, ...this.merkleLeaves.slice(half)];
+    }
 
     // 4. Queue for async batch DB persistence (non-blocking)
     this.persistQueue.push(interaction);
@@ -852,38 +1184,42 @@ class CendiaGatewayService extends EventEmitter {
 
     const batch = this.persistQueue.splice(0, FLUSH_BATCH_SIZE);
     try {
-      // In production: Prisma createMany or raw INSERT ... ON CONFLICT
-      // For MVP: emit event for external persistence handler
+      // Emit event for any external listeners
       this.emit('interactions:flush', batch);
 
-      // TODO: Prisma batch insert when gateway_interactions table is migrated:
-      // await prisma.gateway_interactions.createMany({
-      //   data: batch.map(i => ({
-      //     id: i.id,
-      //     organization_id: i.request.organizationId,
-      //     user_id: i.request.userId,
-      //     user_email: i.request.userEmail,
-      //     user_department: i.request.userDepartment,
-      //     provider: i.request.provider,
-      //     model: i.request.model,
-      //     endpoint: i.request.endpoint,
-      //     prompt_text: i.piiScan.originalText,
-      //     response_text: i.response?.responseText || '',
-      //     prompt_tokens: i.response?.promptTokens || 0,
-      //     response_tokens: i.response?.responseTokens || 0,
-      //     total_tokens: i.response?.totalTokens || 0,
-      //     pii_detected: i.piiScan.hasPII,
-      //     pii_types: i.piiScan.types,
-      //     pii_action: i.policyAction,
-      //     integrity_hash: i.integrityHash,
-      //     signature: i.signature,
-      //     latency_ms: i.latencyMs,
-      //     provider_latency_ms: i.providerLatencyMs,
-      //     estimated_cost_usd: i.response?.estimatedCostUsd || 0,
-      //     requested_at: i.requestedAt,
-      //   })),
-      //   skipDuplicates: true,
-      // });
+      // Prisma batch insert — writes off the request path
+      await prisma.gateway_interactions.createMany({
+        data: batch.map(i => ({
+          id: i.id,
+          organization_id: i.request.organizationId,
+          user_id: i.request.userId,
+          user_email: i.request.userEmail,
+          user_department: i.request.userDepartment,
+          provider: i.request.provider,
+          model: i.request.model,
+          endpoint: i.request.endpoint,
+          prompt_text: i.piiScan.originalText,
+          response_text: i.response?.responseText || '',
+          prompt_tokens: i.response?.promptTokens || 0,
+          response_tokens: i.response?.responseTokens || 0,
+          total_tokens: i.response?.totalTokens || 0,
+          pii_detected: i.piiScan.hasPII,
+          pii_types: i.piiScan.types,
+          pii_action: i.policyAction,
+          policy_id: i.policyId || null,
+          policy_action: i.policyAction,
+          policy_reason: i.policyReason || null,
+          integrity_hash: i.integrityHash,
+          signature: i.signature,
+          latency_ms: i.latencyMs,
+          provider_latency_ms: i.providerLatencyMs,
+          status_code: i.response?.statusCode || 0,
+          estimated_cost_usd: i.response?.estimatedCostUsd || 0,
+          requested_at: i.requestedAt,
+          responded_at: i.respondedAt || null,
+        })),
+        skipDuplicates: true,
+      });
     } catch (err) {
       // Re-queue on failure (with bounded retry to prevent infinite growth)
       if (this.persistQueue.length < RING_BUFFER_SIZE) {

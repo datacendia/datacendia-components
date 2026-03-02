@@ -1,3 +1,12 @@
+/**
+ * Service — Types
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports generateSGASId, hashState, createDeliberationNode, createDeliberationEdge, SGAS_VERSION, DEFAULT_DELIBERATION_CONFIG, DEFAULT_REPLAY_CONFIG, AGENT_CLASS_EXECUTION_ORDER
+ * @module services/sgas/types
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

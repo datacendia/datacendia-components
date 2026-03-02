@@ -3,6 +3,15 @@
 // See LICENSE file for details.
 
 /**
+ * Library — Index
+ *
+ * Client-side utility library.
+ *
+ * @exports authApi, graphApi, lineageApi, councilApi, metricsApi, healthApi, alertsApi, workflowsApi
+ * @module lib/api/index
+ */
+
+/**
  * Datacendia API - Main Export
  * Unified API client for all Datacendia services
  */

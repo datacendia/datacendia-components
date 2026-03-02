@@ -1,3 +1,12 @@
+/**
+ * Service — Statement Of Facts Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports StatementOfFactsService, statementOfFactsService, Claim, Evidence, StatementOfFacts, ClaimExtractionResult, ClaimType, ValidationStatus
+ * @module services/StatementOfFactsService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

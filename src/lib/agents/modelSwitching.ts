@@ -1,3 +1,12 @@
+/**
+ * Library — Model Switching
+ *
+ * Client-side utility library.
+ *
+ * @exports getAvailableModels, getModel, getModelsByCapability, getModelsByQuality, getModelsBySpeed, getRecommendedModels, getDefaultModel, getModelCategories
+ * @module lib/agents/modelSwitching
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

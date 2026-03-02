@@ -1,3 +1,10 @@
+/**
+ * Core — Platform Services
+ *
+ * Core platform infrastructure and shared utilities.
+ * @module core/services/PlatformServices
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

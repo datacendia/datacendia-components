@@ -1,3 +1,12 @@
+/**
+ * Service — Agriculture Vertical Expanded
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports AgricultureDataConnector, AgricultureKnowledgeBase, AgricultureComplianceMapper, CropManagementSchema, PesticideApplicationSchema, FoodSafetySchema, PrecisionAgriculturePreset, AgricultureDefensibleOutput
+ * @module services/verticals/agriculture/AgricultureVerticalExpanded
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Page — Live Agent Monitor Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports LiveAgentMonitorPage
+ * @module pages/cortex/monitor/LiveAgentMonitorPage
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

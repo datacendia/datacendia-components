@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Rewind Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaRewindService, CounterfactualRequest, AlternativePathInput, CounterfactualAnalysis, OriginalDecisionSummary, AlternativeOutcome, CounterfactualPattern
+ * @module services/CendiaRewindService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Component — Guided Walkthrough
+ *
+ * Reusable React UI component.
+ *
+ * @exports WALKTHROUGHS, GuidedWalkthrough, WalkthroughLauncher, WalkthroughStep, WalkthroughConfig
+ * @module components/demo/GuidedWalkthrough
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

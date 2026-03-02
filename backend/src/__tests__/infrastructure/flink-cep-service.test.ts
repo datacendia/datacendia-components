@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Flink Cep Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/flink-cep-service.test
+ */
+
+/**
  * =============================================================================
  * FLINK CEP SERVICE — UNIT TESTS
  * =============================================================================

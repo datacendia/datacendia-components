@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <!-- Shield -->
+  <path d="M64 18 L98 34 L98 62 C98 82 82 100 64 110 C46 100 30 82 30 62 L30 34 Z" 
+        fill="none" stroke="#D4AF37" stroke-width="4"/>
+  <path d="M64 24 L94 38 L94 62 C94 80 80 96 64 106 C48 96 34 80 34 62 L34 38 Z" 
+        fill="#D4AF37" fill-opacity="0.15"/>
+  <!-- Lock icon inside shield -->
+  <rect x="52" y="56" width="24" height="20" rx="3" fill="#D4AF37"/>
+  <path d="M56 56 L56 48 C56 42 60 38 64 38 C68 38 72 42 72 48 L72 56" 
+        fill="none" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="64" cy="66" r="3" fill="#1A1A2E"/>
+  <rect x="63" y="66" width="2" height="5" rx="1" fill="#1A1A2E"/>
+  <!-- AI text -->
+  <text x="64" y="96" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="12" font-weight="bold" fill="#D4AF37" letter-spacing="2">AI</text>
+</svg>

@@ -1,3 +1,12 @@
+/**
+ * Page — Fifa Scenarios Data
+ *
+ * React page component rendered by the router.
+ *
+ * @exports FIFA_GOVERNANCE_SCENARIOS, ScenarioAgent, ScenarioOutput, ScenarioRisk, GovernanceScenario
+ * @module pages/cortex/verticals/fifa-scenarios-data
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

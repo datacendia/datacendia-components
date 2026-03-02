@@ -1,3 +1,12 @@
+/**
+ * Service — Legal Tool Executor
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports isLegalTool, getLegalToolDefinition, formatLegalToolsForSystemPrompt, parseToolCallsFromResponse, LEGAL_TOOL_DEFINITIONS, LegalSearchResult, LegalToolDefinition, LegalToolResult
+ * @module services/council/LegalToolExecutor
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

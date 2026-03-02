@@ -1,3 +1,12 @@
+/**
+ * Library — Personality
+ *
+ * Client-side utility library.
+ *
+ * @exports getAvailableTraits, getTraitsByCategory, getTrait, traitsConflict, validateTraitCombination, applyPersonalityToPrompt, getTraitCategories, getTraitCountByCategory
+ * @module lib/agents/personality
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

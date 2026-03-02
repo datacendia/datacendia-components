@@ -1,3 +1,10 @@
+/**
+ * Module — Decision Lifecycle Test
+ *
+ * Platform module.
+ * @module __tests__/services/sports/DecisionLifecycle.test
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Connector — N O A A Connector
+ *
+ * External system connector for third-party integrations.
+ *
+ * @exports NOAAWeatherConnector, createNOAAWeatherConnector, NOAAPoint, NOAAForecast, NOAAForecastPeriod, NOAAAlert, NOAAObservation, NOAAStation
+ * @module connectors/government/NOAAConnector
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

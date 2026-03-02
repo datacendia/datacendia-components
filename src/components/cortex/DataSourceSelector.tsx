@@ -1,3 +1,12 @@
+/**
+ * Component — Data Source Selector
+ *
+ * Reusable React UI component.
+ *
+ * @exports AVAILABLE_CONNECTORS, DataSourceSelector, WorkflowIndicator, QuickActionsBar, ConnectorDefinition
+ * @module components/cortex/DataSourceSelector
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

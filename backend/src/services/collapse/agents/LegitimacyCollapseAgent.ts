@@ -1,3 +1,12 @@
+/**
+ * Service — Legitimacy Collapse Agent
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports LegitimacyCollapseAgent
+ * @module services/collapse/agents/LegitimacyCollapseAgent
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

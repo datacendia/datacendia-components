@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "https",
+          "host": "gateway.localhost",
+          "port": "3001",
+          "path": ""
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "||api.openai.com",
+      "resourceTypes": ["xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "https",
+          "host": "gateway.localhost",
+          "port": "3001",
+          "path": ""
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "||api.anthropic.com",
+      "resourceTypes": ["xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "https",
+          "host": "gateway.localhost",
+          "port": "3001",
+          "path": ""
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "||generativelanguage.googleapis.com",
+      "resourceTypes": ["xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "https",
+          "host": "gateway.localhost",
+          "port": "3001",
+          "path": ""
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "||api.mistral.ai",
+      "resourceTypes": ["xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "https",
+          "host": "gateway.localhost",
+          "port": "3001",
+          "path": ""
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "||api.groq.com",
+      "resourceTypes": ["xmlhttprequest", "other"]
+    }
+  }
+]

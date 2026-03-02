@@ -1,3 +1,12 @@
+/**
+ * Service — Evidence Vault Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports evidenceVaultService, DecisionPacket, Attachment, Dissent, Veto, Override, AccessLogEntry, ApprovalWorkflow
+ * @module services/evidence/EvidenceVaultService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

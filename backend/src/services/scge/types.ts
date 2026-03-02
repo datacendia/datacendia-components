@@ -1,3 +1,12 @@
+/**
+ * Service — Types
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports generateSCGEId, hashSCGEState, createMerkleRoot, DEFAULT_GOVERNANCE_PRESETS, DEFAULT_STRESSOR_LIBRARY, PopulationDistribution, SyntheticPopulation, PopulationMetadata
+ * @module services/scge/types
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

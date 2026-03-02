@@ -1,3 +1,12 @@
+/**
+ * Configuration — Vertical Dashboards Extended
+ *
+ * Frontend configuration constants and environment bindings.
+ *
+ * @exports energyDashboard, governmentDashboard, legalDashboard, retailDashboard, realEstateDashboard, telecomDashboard, hospitalityDashboard, educationDashboard
+ * @module config/verticalDashboardsExtended
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

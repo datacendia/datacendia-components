@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Black Box Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaBlackBoxService, cendiaBlackBoxService, BlackBoxUnit, BackupJob, StoredRecord, RecoveryProcedure, ChainOfCustodyEntry, IntegrityReport
+ * @module services/sovereign/CendiaBlackBoxService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

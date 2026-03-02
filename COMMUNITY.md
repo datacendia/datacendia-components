@@ -41,6 +41,7 @@ The following components are available under the open-source license. Contributi
 | `backend/src/services/evidence/` | Evidence collection and packaging |
 | `backend/src/services/governance/` | Basic governance framework |
 | `backend/src/services/compliance/` | Compliance framework definitions |
+| `backend/src/services/gateway/` | **CendiaGateway™** — AI governance reverse proxy, PII detection, The Governance Receipt™ |
 | `backend/src/middleware/` | Auth, logging, rate limiting, security middleware |
 | `backend/src/security/` | PolicyEngine, RBAC (Casbin) |
 
@@ -164,4 +165,4 @@ When in doubt, open an issue or ask in Discussions before starting work.
 
 ---
 
-*This boundary is enforced by code review, not technical gates. We trust contributors to respect it.*
+*This boundary is enforced by CI (`scripts/check-community-boundary.mjs` runs on every push/PR) and code review. The community build workflow (`community-build.yml`) verifies that no enterprise modules are imported into community code.*

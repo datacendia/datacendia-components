@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Academy Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaAcademyService, EmployeeSkillProfile, Skill, Certification, LearningGoal, GoalMilestone, SkillAssessment, SkillGap
+ * @module services/enterprise/CendiaAcademyService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

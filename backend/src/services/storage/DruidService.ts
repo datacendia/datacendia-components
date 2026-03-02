@@ -1,3 +1,12 @@
+/**
+ * Service — Druid Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports DRUID_DATASOURCES, druidService, AuditEvent, DecisionEvent, AgentMetric, SystemTelemetry, DruidQueryResult
+ * @module services/storage/DruidService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

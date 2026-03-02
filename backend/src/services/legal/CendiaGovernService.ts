@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Govern Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaGovernService, cendiaGovernService, PolicyRule, PolicyViolation, ComplianceCheck, CheckResult, PolicyConfiguration, ComplianceFramework
+ * @module services/legal/CendiaGovernService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

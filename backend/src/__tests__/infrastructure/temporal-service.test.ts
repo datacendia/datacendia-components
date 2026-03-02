@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Temporal Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/temporal-service.test
+ */
+
+/**
  * =============================================================================
  * TEMPORAL SERVICE — UNIT TESTS
  * =============================================================================

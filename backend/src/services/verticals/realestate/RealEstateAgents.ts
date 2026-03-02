@@ -1,3 +1,12 @@
+/**
+ * Service — Real Estate Agents
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getRealEstateAgent, getDefaultRealEstateAgents, buildRealEstateAgentTeam, DEFAULT_REAL_ESTATE_AGENTS, OPTIONAL_REAL_ESTATE_AGENTS, SILENT_GUARD_REAL_ESTATE_AGENTS, ALL_REAL_ESTATE_AGENTS, RealEstateAgent
+ * @module services/verticals/realestate/RealEstateAgents
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Data — Council Modes
+ *
+ * Static data, constants, and configuration objects.
+ *
+ * @exports MODE_CATEGORIES, CORE_MODES, isCoreMode, COUNCIL_MODES, getMode, getModesByCategory, getAllModes, CouncilMode
+ * @module data/councilModes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

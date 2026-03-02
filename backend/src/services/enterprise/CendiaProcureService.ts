@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Procure Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaProcureService, VendorContract, NegotiationOpportunity, SqueezeResult
+ * @module services/enterprise/CendiaProcureService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

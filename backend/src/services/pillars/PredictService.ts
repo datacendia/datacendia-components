@@ -1,3 +1,12 @@
+/**
+ * Service — Predict Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports PredictService, predictService, PredictionModel, Prediction, Forecast, ForecastDataPoint, FeatureImportance, ModelType
+ * @module services/pillars/PredictService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

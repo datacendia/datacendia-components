@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Responsibility Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports CendiaResponsibilityService, cendiaResponsibilityService, HumanAuthority, TPMSignature, AccountabilityRecord, AccountabilityChain, DelegationRecord, LiabilityReport
+ * @module services/CendiaResponsibilityService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

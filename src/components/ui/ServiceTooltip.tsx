@@ -1,3 +1,12 @@
+/**
+ * Component — Service Tooltip
+ *
+ * Reusable React UI component.
+ *
+ * @exports ServiceTooltip, SimpleTooltip
+ * @module components/ui/ServiceTooltip
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

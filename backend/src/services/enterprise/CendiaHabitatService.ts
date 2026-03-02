@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Habitat Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaHabitatService, HabitatZone, ZoneSensors, BioSyncRecommendation, EnvironmentAdjustment, BreakRecommendation, SpaceUtilization, RealEstateOptimization
+ * @module services/enterprise/CendiaHabitatService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

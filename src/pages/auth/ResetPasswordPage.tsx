@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Reset Password Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports ResetPasswordPage
+ * @module pages/auth/ResetPasswordPage
+ */
+
 // =============================================================================
 // DATACENDIA - RESET PASSWORD PAGE
 // Set new password using reset token

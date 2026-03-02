@@ -2,6 +2,13 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * API Routes — Auth
+ *
+ * Express route handler defining REST endpoints.
+ * @module routes/auth
+ */
+
 import { Router, Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
@@ -462,7 +469,7 @@ router.post('/find-account', async (req: Request, res: Response, next: NextFunct
 
     // Rate limit: max 5 lookups per IP per 15 minutes
     const rateLimitKey = `find-account:${req.ip}`;
-    const attempts = await cache.get(rateLimitKey);
+    const attempts = await cache.get<string>(rateLimitKey);
     if (attempts && parseInt(attempts) >= 5) {
       res.status(429).json({
         success: false,
@@ -470,13 +477,13 @@ router.post('/find-account', async (req: Request, res: Response, next: NextFunct
       });
       return;
     }
-    await cache.set(rateLimitKey, String((parseInt(attempts || '0') + 1)), 'EX', 900);
+    await cache.set(rateLimitKey, String((parseInt(attempts || '0') + 1)), 900);
 
     // Search for matching users (case-insensitive partial name match within the organization)
     const users = await prisma.users.findMany({
       where: {
         name: { contains: name, mode: 'insensitive' as Prisma.QueryMode },
-        organization: {
+        organizations: {
           name: { contains: organizationName, mode: 'insensitive' as Prisma.QueryMode },
         },
       },

@@ -1,3 +1,12 @@
+/**
+ * Service — Real Estate Vertical
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports RealEstateDataConnector, RealEstateKnowledgeBase, RealEstateComplianceMapper, PropertyValuationSchema, MortgageUnderwritingSchema, FairHousingReviewSchema, FairHousingGovernancePreset, RealEstateDefensibleOutput
+ * @module services/verticals/realestate/RealEstateVertical
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

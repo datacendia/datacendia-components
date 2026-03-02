@@ -1,3 +1,12 @@
+/**
+ * Middleware — Rate Limiter
+ *
+ * Express middleware for request processing pipeline.
+ *
+ * @exports rateLimiter, endpointRateLimiter, getRateLimitStatus, aiRateLimiter, deliberationRateLimiter, uploadRateLimiter
+ * @module middleware/rateLimiter
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

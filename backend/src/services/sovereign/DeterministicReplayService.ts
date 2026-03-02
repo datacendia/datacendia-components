@@ -1,3 +1,12 @@
+/**
+ * Service — Deterministic Replay Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports deterministicReplayService, ReplayableState, ExecutionEnvironment, RandomState, RandomCall, ModelState, ModelSnapshot, InputState
+ * @module services/sovereign/DeterministicReplayService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

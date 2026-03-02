@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Register Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports RegisterPage
+ * @module pages/auth/RegisterPage
+ */
+
 // =============================================================================
 // DATACENDIA - REGISTER PAGE (Fully Internationalized)
 // =============================================================================

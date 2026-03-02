@@ -45,7 +45,7 @@ cd datacendia-components
 # Add upstream remote
 git remote add upstream https://github.com/datacendia/datacendia-components.git
 
-# Install dependencies
+# Install dependencies (Prisma client auto-generates via postinstall)
 npm install
 cd backend && npm install && cd ..
 
@@ -134,17 +134,22 @@ test(chronos): add unit tests for time-travel feature
    ```
 
 3. **Ensure no secrets or sensitive data** are included
+4. **Run the community boundary check:**
+   ```bash
+   node scripts/check-community-boundary.mjs
+   ```
 
 ### PR Requirements
 
 - [ ] Clear, descriptive title following conventional commits
 - [ ] Description of changes and motivation
 - [ ] Link to related issue(s) if applicable
-- [ ] All CI checks passing
+- [ ] All CI checks passing (including community build)
 - [ ] Tests added/updated for new functionality
 - [ ] Documentation updated if needed
 - [ ] No merge conflicts with main
 - [ ] Does not extend Enterprise-only code (see [COMMUNITY.md](COMMUNITY.md))
+- [ ] Community boundary check passes (`node scripts/check-community-boundary.mjs`)
 
 ### Review Process
 

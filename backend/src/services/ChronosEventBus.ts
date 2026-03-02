@@ -1,3 +1,12 @@
+/**
+ * Service — Chronos Event Bus
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports recordChronosEvent, chronosEventBus, ChronosEvent, ChronosEventRecord, ChronosTimelineQuery, ChronosTimelineResult, ChronosStats, ChronosEventType
+ * @module services/ChronosEventBus
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

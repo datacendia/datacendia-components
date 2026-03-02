@@ -1,3 +1,10 @@
+/**
+ * Module — Tier1 Services Integration Test
+ *
+ * Platform module.
+ * @module __tests__/integration/tier1-services.integration.test
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

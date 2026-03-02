@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Pricing Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports PricingPage
+ * @module pages/pricing/PricingPage
+ */
+
 // =============================================================================
 // DATACENDIA PRICING PAGE - Enterprise Regional Pricing
 // Matching DatacendiaPricing.jsx design

@@ -1,3 +1,12 @@
+/**
+ * Service — Energy Council Modes
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getEnergyMode, getEnergyModesByCategory, getSafetyGateModes, getNercCipModes, getEnergyModesByFramework, getEnergyModesByLeadAgent, MAJOR_ENERGY_MODES, GRID_MODES
+ * @module services/verticals/energy/EnergyCouncilModes
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

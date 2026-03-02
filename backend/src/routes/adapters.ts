@@ -1,3 +1,12 @@
+/**
+ * API Routes — Adapters
+ *
+ * Express route handler defining REST endpoints.
+ *
+ * @exports getWebhookRouter
+ * @module routes/adapters
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

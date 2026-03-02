@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Route Config — Auth Routes
+ *
+ * React Router route definitions and lazy-loaded imports.
+ *
+ * @exports authRoutes
+ * @module routes/auth.routes
+ */
+
 // =============================================================================
 // AUTH ROUTES - Login, Register, Password Reset, Onboarding
 // =============================================================================

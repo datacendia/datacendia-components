@@ -1,3 +1,10 @@
+/**
+ * Module — Date Time Fuzzing Test
+ *
+ * Platform module.
+ * @module __tests__/enterprise/date-time-fuzzing.test
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

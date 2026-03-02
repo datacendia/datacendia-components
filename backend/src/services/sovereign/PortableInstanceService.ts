@@ -1,3 +1,12 @@
+/**
+ * Service — Portable Instance Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports portableInstanceService, PortableInstanceConfig, InstanceComponents, InstanceSecurity, InstanceBranding, PortableImage, BuildProgress, DeploymentTarget
+ * @module services/sovereign/PortableInstanceService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

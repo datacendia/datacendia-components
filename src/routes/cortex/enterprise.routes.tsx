@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Route Config — Enterprise Routes
+ *
+ * React Router route definitions and lazy-loaded imports.
+ *
+ * @exports cortexEnterpriseRoutes
+ * @module routes/cortex/enterprise.routes
+ */
+
 // =============================================================================
 // CORTEX ENTERPRISE ROUTES - Enterprise Suite, Governance, Platinum Features
 // =============================================================================

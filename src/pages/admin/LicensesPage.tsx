@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Licenses Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports LicensesPage
+ * @module pages/admin/LicensesPage
+ */
+
 // =============================================================================
 // DATACENDIA LICENSE MANAGEMENT - Enterprise Platinum Standard
 // Software licensing, entitlements, and revenue tracking

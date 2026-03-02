@@ -1,3 +1,12 @@
+/**
+ * Connector — Index
+ *
+ * External system connector for third-party integrations.
+ *
+ * @exports InternationalConnectorFactory, INTERNATIONAL_CONNECTORS
+ * @module connectors/international/index
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Library — Sources
+ *
+ * Client-side utility library.
+ *
+ * @exports getAllSources, getDownloadableSources, getApiSources, getSourcesByCategory, getEnvironmentalSources, getLaborSources, FEDERAL_SOURCES, STATE_SOURCES
+ * @module lib/laws/sources
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

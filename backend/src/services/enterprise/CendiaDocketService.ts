@@ -1,3 +1,12 @@
+/**
+ * Service — Cendia Docket Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports cendiaDocketService, LegalMatter, Party, LegalDocument, MatterEvent, LitigationAnalysis, Risk, OutcomeProjection
+ * @module services/enterprise/CendiaDocketService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

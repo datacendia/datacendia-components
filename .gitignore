@@ -50,6 +50,7 @@ coverage/
 .stryker-tmp/
 
 test-results/
+playwright-report/
 
 # Prisma
 prisma/*.db
@@ -85,5 +86,29 @@ prisma/*.db-journal
 debug.log
 k6-results.json
 .stryker-tmp/
-k6-results.json
 *.log
+
+# Large test result files (should not be committed)
+complete-test-results.txt
+final-test-results.txt
+test-results-full.txt
+test-results-with-backend.txt
+backend/jest-results.json
+
+# Large data directories (use Git LFS or external storage)
+data/caselaw/
+data/laws/
+
+# Presentation / business files (belong in Google Drive, not git)
+*.pptx
+*.xlsx
+*.docx
+*.pdf
+Investors.*
+DETERMINISTIC_TO_REAL_FIX_PLAN.md
+VERIFIED_URLS_AND_ENDPOINTS.md
+WINDOWS_TASK_SCHEDULER_BACKUP_GUIDE.md
+ZERO_COST_ROADMAP.md
+INFRASTRUCTURE_UPGRADE_PLAN.md
+PLATFORM_FEATURES.md
+check-db.bat

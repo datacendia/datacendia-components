@@ -1,3 +1,12 @@
+/**
+ * Middleware — Sports Auth
+ *
+ * Express middleware for request processing pipeline.
+ *
+ * @exports extractUserRole, hasPermission, requirePermission, requireAnyPermission, requireAllPermissions, getPermissionsForRole, getAllRoles, SportsRole
+ * @module middleware/sportsAuth
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

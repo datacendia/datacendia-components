@@ -1,3 +1,12 @@
+/**
+ * Service — Stressor Library Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports StressorLibraryService, STRESSOR_SCENARIO_PRESETS, stressorLibraryService
+ * @module services/scge/StressorLibraryService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

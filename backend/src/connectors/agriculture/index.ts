@@ -1,3 +1,12 @@
+/**
+ * Connector — Index
+ *
+ * External system connector for third-party integrations.
+ *
+ * @exports AgricultureConnectorFactory, AGRICULTURE_CONNECTORS
+ * @module connectors/agriculture/index
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

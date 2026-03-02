@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Rapids Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/rapids-service.test
+ */
+
+/**
  * =============================================================================
  * RAPIDS SERVICE — UNIT TESTS
  * =============================================================================

@@ -1,3 +1,12 @@
+/**
+ * Service — Legal Vertical
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports LegalDataConnector, LegalKnowledgeBase, LegalComplianceMapper, LegalCouncilAgentPreset, LegalDefensibleOutput, LegalVerticalImplementation, CaseLawData, MatterManagementData
+ * @module services/verticals/legal/LegalVertical
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

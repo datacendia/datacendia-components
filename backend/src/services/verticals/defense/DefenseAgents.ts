@@ -1,3 +1,12 @@
+/**
+ * Service — Defense Agents
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports getDefenseAgent, getDefenseAgentsByCategory, getDefenseAgentsByClearance, getDefenseAgentsByExpertise, buildDefenseTeam, DEFAULT_DEFENSE_AGENTS, OPTIONAL_DEFENSE_AGENTS, SILENT_GUARD_DEFENSE_AGENTS
+ * @module services/verticals/defense/DefenseAgents
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

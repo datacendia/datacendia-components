@@ -1,3 +1,12 @@
+/**
+ * Page — Shadow Ops Page
+ *
+ * React page component rendered by the router.
+ *
+ * @exports ShadowOpsPage
+ * @module pages/cortex/sovereign/ShadowOpsPage
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

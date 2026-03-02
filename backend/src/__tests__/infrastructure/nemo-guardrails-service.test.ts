@@ -3,6 +3,13 @@
 // See LICENSE file for details.
 
 /**
+ * Module — Nemo Guardrails Service Test
+ *
+ * Platform module.
+ * @module __tests__/infrastructure/nemo-guardrails-service.test
+ */
+
+/**
  * =============================================================================
  * NeMo GUARDRAILS ENGINE — UNIT TESTS
  * =============================================================================

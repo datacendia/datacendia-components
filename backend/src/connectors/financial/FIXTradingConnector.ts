@@ -1,3 +1,12 @@
+/**
+ * Connector — F I X Trading Connector
+ *
+ * External system connector for third-party integrations.
+ *
+ * @exports FIXTradingConnector, FIXTradingConnectorConfig
+ * @module connectors/financial/FIXTradingConnector
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

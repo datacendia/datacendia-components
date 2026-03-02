@@ -3,6 +3,15 @@
 // See LICENSE file for details.
 
 /**
+ * Component — Health Check
+ *
+ * Reusable React UI component.
+ *
+ * @exports useHealthCheck, HealthIndicator, HealthPanel, ConnectionBanner
+ * @module components/navigation/HealthCheck
+ */
+
+/**
  * HealthCheck - Backend API health monitoring
  * Displays connection status and allows quick diagnostics
  */

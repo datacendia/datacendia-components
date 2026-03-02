@@ -1,3 +1,12 @@
+/**
+ * Library — Client
+ *
+ * Client-side utility library.
+ *
+ * @exports setCurrentDataSourceId, onAuthChange, tokenManager, api, ApiResponse, AuthTokens, User
+ * @module lib/api/client
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

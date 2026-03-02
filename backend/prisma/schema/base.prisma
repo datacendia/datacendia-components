@@ -136,6 +136,11 @@ model organizations {
 
   // SSO - Enterprise Single Sign-On
   sso_identity_providers          sso_identity_providers[]
+
+  // CendiaGateway - AI Governance Gateway
+  gateway_interactions  gateway_interactions[]
+  gateway_policies      gateway_policies[]
+  gateway_manifests     gateway_manifests[]
 }
 
 model password_resets {

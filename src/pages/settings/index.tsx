@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Page — Index
+ *
+ * React page component rendered by the router.
+ *
+ * @exports SettingsLayout, OrganizationSettingsPage, UsersSettingsPage, TeamsSettingsPage, RolesSettingsPage, BillingSettingsPage, ApiKeysSettingsPage, IntegrationSettingsPage
+ * @module pages/settings/index
+ */
+
 // =============================================================================
 // DATACENDIA - SETTINGS PAGES
 // =============================================================================

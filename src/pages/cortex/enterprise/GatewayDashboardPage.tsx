@@ -1,4 +1,11 @@
 /**
+ * Page — Gateway Dashboard Page
+ *
+ * React page component rendered by the router.
+ * @module pages/cortex/enterprise/GatewayDashboardPage
+ */
+
+/**
  * CendiaGateway™ — AI Governance Gateway Dashboard
  * 
  * The CISO's view: real-time visibility into every AI interaction

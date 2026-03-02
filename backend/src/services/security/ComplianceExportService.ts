@@ -1,3 +1,12 @@
+/**
+ * Service — Compliance Export Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports complianceExportService, ExportRequest, ExportResult, ComplianceControl, ExportFile, ComplianceFramework
+ * @module services/security/ComplianceExportService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

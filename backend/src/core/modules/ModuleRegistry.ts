@@ -1,3 +1,12 @@
+/**
+ * Core — Module Registry
+ *
+ * Core platform infrastructure and shared utilities.
+ *
+ * @exports ModuleLogger, moduleRegistry, ModuleContext, ModuleDefinition, ModuleState, ModuleHealth, ModuleInfo
+ * @module core/modules/ModuleRegistry
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

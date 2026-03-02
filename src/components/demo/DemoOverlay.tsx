@@ -1,3 +1,12 @@
+/**
+ * Component — Demo Overlay
+ *
+ * Reusable React UI component.
+ *
+ * @exports DemoOverlay
+ * @module components/demo/DemoOverlay
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

@@ -1,3 +1,12 @@
+/**
+ * Service — A I Constitutional Court Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports AIConstitutionalCourtService, CONSTITUTIONAL_PRINCIPLES, aiConstitutionalCourtService, ConstitutionalPrinciple, DisputeParty, Dispute, CourtOpinion, PrecedentCitation
+ * @module services/governance/AIConstitutionalCourtService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.

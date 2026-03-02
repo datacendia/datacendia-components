@@ -2,6 +2,15 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+/**
+ * Service — Email
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports emailService
+ * @module services/email
+ */
+
 // =============================================================================
 // DATACENDIA EMAIL SERVICE
 // Production-ready email service with multiple provider support

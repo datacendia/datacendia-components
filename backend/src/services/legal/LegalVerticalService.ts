@@ -1,3 +1,12 @@
+/**
+ * Service — Legal Vertical Service
+ *
+ * Business logic service implementing platform capabilities.
+ *
+ * @exports LegalVerticalService, legalVerticalService, CaseLaw, KeyPassage, Matter, MatterDocument, PrivilegeReview, Citation
+ * @module services/legal/LegalVerticalService
+ */
+
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
