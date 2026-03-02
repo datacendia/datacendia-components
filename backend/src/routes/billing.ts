@@ -45,6 +45,7 @@ router.post('/billing/create-checkout-session', async (req: Request, res: Respon
     }
 
     // Dynamic import — only load Stripe when key is configured
+    // @ts-ignore — stripe is an optional dependency, only loaded when STRIPE_SECRET_KEY is set
     const { default: Stripe } = await import('stripe');
     const stripe = new Stripe(stripeKey, { apiVersion: '2024-12-18.acacia' as any });
 
@@ -98,6 +99,7 @@ router.post('/billing/webhook', async (req: Request, res: Response) => {
   }
 
   try {
+    // @ts-ignore — stripe is an optional dependency
     const { default: Stripe } = await import('stripe');
     const stripe = new Stripe(stripeKey, { apiVersion: '2024-12-18.acacia' as any });
 
@@ -160,6 +162,7 @@ router.post('/billing/portal-session', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing customerId' });
     }
 
+    // @ts-ignore — stripe is an optional dependency
     const { default: Stripe } = await import('stripe');
     const stripe = new Stripe(stripeKey, { apiVersion: '2024-12-18.acacia' as any });
 
