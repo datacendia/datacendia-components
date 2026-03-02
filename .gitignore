@@ -50,6 +50,7 @@ coverage/
 .stryker-tmp/
 
 test-results/
+playwright-report/
 
 # Prisma
 prisma/*.db
@@ -94,3 +95,12 @@ data/laws/
 *.pptx
 *.xlsx
 *.docx
+*.pdf
+Investors.*
+DETERMINISTIC_TO_REAL_FIX_PLAN.md
+VERIFIED_URLS_AND_ENDPOINTS.md
+WINDOWS_TASK_SCHEDULER_BACKUP_GUIDE.md
+ZERO_COST_ROADMAP.md
+INFRASTRUCTURE_UPGRADE_PLAN.md
+PLATFORM_FEATURES.md
+check-db.bat

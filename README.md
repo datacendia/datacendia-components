@@ -1,16 +1,25 @@
-# Datacendia
+# Datacendia — Enterprise Edition
+
+> **⚠️ Private Repository** — This is the enterprise monorepo containing all commercial features. The open-source Community Edition is at [datacendia-core](https://github.com/datacendia/datacendia-core) (Apache 2.0).
 
 [![CI](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml/badge.svg)](https://github.com/datacendia/datacendia-components/actions/workflows/ci.yml)
+[![Security](https://github.com/datacendia/datacendia-components/actions/workflows/security.yml/badge.svg)](https://github.com/datacendia/datacendia-components/actions/workflows/security.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception%20Member-76b900.svg)](https://www.nvidia.com/en-us/startups/)
-[![License](https://img.shields.io/badge/License-See%20LICENSE-lightgrey.svg)](#license)
-[![Docker](https://img.shields.io/badge/Docker-Deploy-2496ED.svg?logo=docker)](https://hub.docker.com/r/datacendia/datacendia)
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template?referralCode=datacendia)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/datacendia/datacendia-components)
+[![License](https://img.shields.io/badge/License-Commercial-lightgrey.svg)](#license)
 
 **The Defensible AI Platform — every decision, defensible.**
 
 Datacendia is the only AI platform where every decision is auditable, explainable, and court-admissible. Multiple AI agents *deliberate* — argue, dissent, and challenge each other — then every decision is recorded in a cryptographically signed, immutable evidence packet. Open-core. Sovereign-first. Self-hosted or cloud. Your data, your keys, your proof.
+
+### Repository Landscape
+
+| Repo | Purpose | License | Visibility |
+|------|---------|---------|:----------:|
+| **datacendia-components** (this repo) | Enterprise monorepo — full platform (frontend + backend) | Commercial | Private |
+| [datacendia-core](https://github.com/datacendia/datacendia-core) | Community Edition — open-source core engine | Apache 2.0 | Public |
+| [datacendia-marketing](https://github.com/datacendia/datacendia-marketing) | Marketing website (datacendia.com) | Proprietary | Private |
+| [decision-governance-infrastructure](https://github.com/datacendia/decision-governance-infrastructure) | DDGI framework specification | CC BY 4.0 | Public |
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
