@@ -80,10 +80,13 @@
     "zustand": "^5.0.9"
   },
   "overrides": {
-    "fast-xml-parser": "5.3.4",
+    "fast-xml-parser": "5.4.1",
     "elliptic": "6.6.1",
     "minio": {
-      "fast-xml-parser": "5.3.4"
+      "fast-xml-parser": "5.4.1"
+    },
+    "@aws-sdk/xml-builder": {
+      "fast-xml-parser": "5.4.1"
     }
   },
   "devDependencies": {
