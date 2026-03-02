@@ -405,5 +405,53 @@ Dependency versions are well-aligned. Good.
 
 ---
 
+## 8. Remediation Status (Updated March 2, 2026)
+
+### ✅ Completed — Immediate Items
+
+| # | Action | Commit | Repo |
+|---|--------|--------|------|
+| 1 | Rewrote `datacendia-core` CI: concurrency, prisma generate, --skipLibCheck, community build, status gate | `d4e2e72` | core |
+| 2 | Added `security.yml` to core: dependency audit, CodeQL SAST, TruffleHog | `d4e2e72` | core |
+| 3 | Added `dependabot.yml` to core: npm, GitHub Actions, Docker ecosystems | `d4e2e72` | core |
+| 4 | Fixed core backend `package.json`: added `postinstall` + `prisma generate && tsc` in build | `d4e2e72` | core |
+| 5 | Reduced npm vulns from 31 → 6: updated `fast-xml-parser` override → 5.4.1, `multer` → ^2.1.0 | `a6975f497` | components |
+| 6 | Removed 91,725 tracked files (2.5GB caselaw data) from git | `a6975f497` | components |
+| 7 | Removed large test result files from tracking (13.6MB+) | `a6975f497` | components |
+| 8 | Updated `.gitignore`: data dirs, test results, .pptx/.xlsx/.docx | `a6975f497` | components |
+| 9 | Enabled HTTPS redirect in marketing `.htaccess` | `b8ddb6f` | marketing |
+
+### ✅ Completed — Short-Term Items
+
+| # | Action | Commit | Repo |
+|---|--------|--------|------|
+| 10 | Removed `continue-on-error: true` from CI lint steps — lint now blocks merges [F11] | `befcb8490` | components |
+| 11 | Changed security audit from `\|\| true` to `--audit-level=critical` [F12] | `befcb8490` | components |
+| 12 | Fixed `SECURITY.md` version references: 4.x → 0.1.x [F14] | `befcb8490` | components |
+| 13 | Moved `@types/cytoscape`, `@types/leaflet`, `@types/ws` to devDependencies [F17] | `befcb8490` | components |
+| 14 | Deleted empty `backend/fix-ds.ts` [F24] | `befcb8490` | components |
+
+### ⏳ Remaining — 6 Transitive Vulnerabilities
+
+The remaining 6 npm vulnerabilities are deep transitive dependencies requiring upstream fixes:
+- **`elliptic`** (low) — via `keycloak-connect` → `jwk-to-pem`. Requires Keycloak to update `jwk-to-pem`
+- **`fast-xml-parser`** (critical) — via `@aws-sdk/xml-builder` nested copy. Override set but lock file needs clean regeneration
+- **`jsonpath`** (high) — via `bfj`. No safe version of `bfj` exists yet
+
+### ⏳ Remaining — Medium-Term Items (19 total)
+
+Items 15–33 from Section 6 remain as future work:
+- Consolidate Docker Compose files (9 → 3)
+- Add CI to marketing repo
+- Consolidate Redis clients, test frameworks
+- Marketing CSP hardening, SRI, translation lazy-loading
+- DGI schema validation improvements
+- Express 4 → 5 upgrade
+- Core ↔ components sync automation
+- Copyright header audit in datacendia-core
+
+---
+
 *Audit performed: March 2, 2026 by Cascade AI*
-*Commit at time of audit: `77e1d5af5` (datacendia-components)*
+*Initial audit commit: `4b419c7da` (datacendia-components)*
+*Remediation commits: `d4e2e72` (core), `a6975f497` (components), `b8ddb6f` (marketing), `befcb8490` (components)*
