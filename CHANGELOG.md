@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed — 2026-03-02 — Platform Audit Remediation (14 of 33 Findings)
+
+#### Cross-Repo Audit
+- **Platform Audit Report** — `docs/PLATFORM_AUDIT_2026-03-02.md` with 33 findings across all 4 repos
+- **datacendia-core CI overhaul** — Rewrote `ci.yml` (concurrency, Prisma generate, `--skipLibCheck`, community build job, status gate), added `security.yml` (CodeQL SAST, TruffleHog, dependency audit), added `dependabot.yml` (npm, GitHub Actions, Docker)
+- **Core backend `postinstall`** — Added `prisma generate` hook and `prisma generate && tsc` build script to datacendia-core
+
+#### Dependency Security
+- **Vulnerability reduction 31 → 6** — Updated `fast-xml-parser` override to 5.4.1 (3 critical CVEs), `multer` to ^2.1.0 (2 high DoS CVEs), added `@aws-sdk/xml-builder` nested override
+- **Remaining 6 are deep transitive** — `elliptic` via `keycloak-connect`, `fast-xml-parser` nested in AWS SDK, `jsonpath` via `bfj`
+
+#### Repository Cleanup
+- **Removed 2.5GB caselaw data** from git tracking — 91,725 files in `data/caselaw/` and `data/laws/`
+- **Removed large test result files** — `complete-test-results.txt` (13.6MB), `final-test-results.txt`, `test-results-full.txt`, `backend/jest-results.json`
+- **Updated `.gitignore`** — Added `data/caselaw/`, `data/laws/`, test result files, `.pptx`/`.xlsx`/`.docx`
+
+#### CI Hardening
+- **Lint now blocks CI** — Removed `continue-on-error: true` from frontend and backend lint steps
+- **Security audit blocks on critical** — Changed `|| true` to `--audit-level=critical`
+
+#### Housekeeping
+- **SECURITY.md** — Fixed version references from 4.x to 0.1.x
+- **`@types/*` moved to devDependencies** — `@types/cytoscape`, `@types/leaflet` (root), `@types/ws` (backend)
+- **Deleted `backend/fix-ds.ts`** — Empty file removed
+- **Marketing HTTPS enabled** — Uncommented Force HTTPS redirect in datacendia-marketing `.htaccess`
+
 ### Added — 2026-02-26 — Infrastructure Upgrade (9 Enterprise Components)
 
 **NVIDIA Inception Program Member** 🟢

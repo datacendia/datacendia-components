@@ -6,14 +6,14 @@
 
 ## Executive Summary
 
-| Repo | Role | Files | Health | Top Risk |
-|------|------|------:|:------:|----------|
-| **datacendia-components** | Enterprise monorepo (frontend + backend) | ~1,402 source | 🟡 | Dependency vulns (1 critical, 5 high); core↔components drift |
-| **datacendia-core** | Open-source community edition | ~937 source | 🟡 | Out of sync with components; missing `postinstall` hook; no CI workflows on disk |
-| **datacendia-marketing** | Static marketing site (datacendia.com) | ~756 files | 🟢 | No CI pipeline; HTTPS redirect commented out |
-| **decision-governance-infrastructure** | DDGI spec + schemas (CC BY 4.0) | ~35 docs | 🟢 | Schema validation CI is minimal (JSON parse, not full validation) |
+| Repo | Role | Files | Health | Top Risk | Remediated |
+|------|------|------:|:------:|----------|:-----------:|
+| **datacendia-components** | Enterprise monorepo (frontend + backend) | ~1,402 source | � | 6 transitive dep vulns remaining (deep upstream); 2.5GB data removed from git | 9 fixes |
+| **datacendia-core** | Open-source community edition | ~937 source | � | CI rewritten; security + Dependabot added; postinstall hook added | 4 fixes |
+| **datacendia-marketing** | Static marketing site (datacendia.com) | ~756 files | 🟢 | HTTPS now enabled; no CI pipeline (remaining gap) | 1 fix |
+| **decision-governance-infrastructure** | DDGI spec + schemas (CC BY 4.0) | ~35 docs | 🟢 | Schema validation CI is minimal (JSON parse, not full validation) | 0 |
 
-**Overall platform grade: B+** — Strong architecture, excellent security posture, well-structured CI on the primary repo. Main gaps are cross-repo sync drift, dependency hygiene, and missing CI on 2 of 4 repos.
+**Overall platform grade: A−** (upgraded from B+) — 14 of 33 findings remediated same-day. CI now covers 3 of 4 repos with security scanning, dependency audits block on critical vulns, 2.5GB of caselaw data removed from git, HTTPS enabled on marketing. Remaining gaps: marketing CI, Docker Compose consolidation, Express 5 upgrade, 6 transitive dependency vulns awaiting upstream fixes.
 
 ---
 

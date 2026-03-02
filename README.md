@@ -404,7 +404,8 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 | Document | Description |
 |----------|-------------|
-| [Platform Audit (Feb 18)](PLATFORM_AUDIT_2026_02_18.md) | Comprehensive platform audit — every service verified |
+| [Platform Audit (Mar 2)](docs/PLATFORM_AUDIT_2026-03-02.md) | Cross-repo audit — 33 findings, 14 remediated, CI/security/deps |
+| [Platform Audit (Feb 18)](PLATFORM_AUDIT_2026_02_18.md) | Service verification audit |
 | [Enterprise Readiness](docs/ENTERPRISE_READINESS.md) | Production audit & compliance |
 | [API Documentation](docs/API_DOCUMENTATION.md) | Backend API reference |
 | [Architecture Diagrams](docs/ARCHITECTURE_DIAGRAMS.md) | System architecture |
@@ -499,6 +500,16 @@ Community Edition components are available under open-source terms. Enterprise f
 
 <details>
 <summary><strong>📋 Changelog (click to expand)</strong></summary>
+
+### March 2, 2026 — Platform Audit Remediation
+
+- **Cross-repo audit** — 33 findings across all 4 repos, 14 remediated same-day
+- **datacendia-core CI overhaul** — Rewrote `ci.yml` (concurrency, Prisma generate, community build, status gate), added `security.yml` (CodeQL, TruffleHog, dependency audit), added `dependabot.yml`
+- **Dependency vulns reduced 31→6** — `fast-xml-parser` override → 5.4.1, `multer` → 2.1.0, added `@aws-sdk/xml-builder` override
+- **Removed 2.5GB caselaw data** from git tracking (91,725 files)
+- **Marketing HTTPS enabled** — Uncommented Force HTTPS redirect in `.htaccess`
+- **CI hardened** — Lint now blocks merges (removed `continue-on-error`), security audit blocks on critical vulns
+- **Housekeeping** — Fixed `SECURITY.md` versions, moved `@types/*` to devDependencies, deleted empty `fix-ds.ts`
 
 ### March 2, 2026 — The Governance Receipt™ & CendiaGateway Housekeeping
 
