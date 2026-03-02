@@ -58,6 +58,14 @@ prisma/*.db-journal
 # TypeScript
 *.tsbuildinfo
 
+# Presentation / office files (belong in Google Drive, not git)
+*.pptx
+*.xlsx
+*.docx
+
+# Production env templates
+.env.production.example
+
 # Misc
 *.pem
 *.key
