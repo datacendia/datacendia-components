@@ -23,6 +23,7 @@ export type {
   GatewayInteraction,
   GatewayStats,
   AIManifest,
+  GovernanceReceipt,
 } from './CendiaGatewayService';
 export type { ModelTier, ModelCapability, RoutingRule, RoutingDecision } from './ModelRouter';
 export type { ShadowAIEvent, ShadowAIEventType, ShadowAIConfig, ShadowAIReport } from './ShadowAIDetector';

@@ -18,7 +18,8 @@
  *   POST   /api/gateway/policies                — Create a new policy
  *   PUT    /api/gateway/policies/:id            — Update a policy
  *   DELETE /api/gateway/policies/:id            — Delete a policy
- *   POST   /api/gateway/manifest                — Generate AI Manifest™
+ *   POST   /api/gateway/manifest                — Generate The Governance Receipt™
+ *   POST   /api/gateway/governance-receipt/export — Export as HTML/CSV/JSON
  *   POST   /api/gateway/test-pii               — Test PII detection on sample text
  * 
  *   OpenAI-compatible passthrough:
@@ -704,10 +705,15 @@ router.post('/webhooks/:id/test', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// AI MANIFEST EXPORT — HTML (PDF), CSV, JSON
+// THE GOVERNANCE RECEIPT™ — Export as HTML (PDF), CSV, JSON
 // =============================================================================
 
-router.post('/manifest/export', async (req: Request, res: Response) => {
+// Primary route
+router.post('/governance-receipt/export', governanceReceiptHandler);
+// Backwards-compatible alias
+router.post('/manifest/export', governanceReceiptHandler);
+
+async function governanceReceiptHandler(req: Request, res: Response) {
   try {
     const gateway = getGateway();
     const userInfo = extractUserInfo(req);
@@ -726,27 +732,27 @@ router.post('/manifest/export', async (req: Request, res: Response) => {
       case 'pdf': {
         const html = manifestExporter.toHTML(manifest);
         res.set('Content-Type', 'text/html');
-        res.set('Content-Disposition', `inline; filename="ai-manifest-${manifest.id}.html"`);
+        res.set('Content-Disposition', `inline; filename="governance-receipt-${manifest.id}.html"`);
         return res.send(html);
       }
       case 'csv': {
         const csv = manifestExporter.toCSV(manifest);
         res.set('Content-Type', 'text/csv');
-        res.set('Content-Disposition', `attachment; filename="ai-manifest-${manifest.id}.csv"`);
+        res.set('Content-Disposition', `attachment; filename="governance-receipt-${manifest.id}.csv"`);
         return res.send(csv);
       }
       case 'json':
       default: {
         const json = manifestExporter.toJSON(manifest);
         res.set('Content-Type', 'application/json');
-        res.set('Content-Disposition', `attachment; filename="ai-manifest-${manifest.id}.json"`);
+        res.set('Content-Disposition', `attachment; filename="governance-receipt-${manifest.id}.json"`);
         return res.send(json);
       }
     }
   } catch (err: any) {
     return res.status(500).json({ error: err.message });
   }
-});
+}
 
 // =============================================================================
 // RATE LIMITING — Configuration & Usage

@@ -50,9 +50,16 @@ Click the extension icon → **Settings**, or right-click → **Options**.
 4. Response flows back through the gateway to the browser
 5. Every interaction is logged to the immutable audit ledger
 
-## Icon Placeholders
+## Generating Icons
 
-The `icons/` directory needs PNG icons at 16x16, 48x48, and 128x128 pixels. Use the Datacendia gold shield logo.
+Chrome requires PNG icons at 16×16, 48×48, and 128×128 pixels. An SVG source and an HTML generator are included:
+
+1. Open `generate-icons.html` in Chrome
+2. Click the three **Download** buttons to save `icon16.png`, `icon48.png`, `icon128.png`
+3. Move them into the `icons/` directory
+4. Reload the extension in `chrome://extensions`
+
+> **The extension will not load without real PNG icons.** The SVG in `icons/icon.svg` is the source artwork only — Chrome Manifest V3 does not accept SVG icons.
 
 ## Limitations
 

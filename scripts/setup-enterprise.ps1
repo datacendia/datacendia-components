@@ -56,6 +56,9 @@ function Install-BackendDeps {
     Write-Info "Installing security packages..."
     npm install helmet cors express-rate-limit
     
+    Write-Info "Generating Prisma client..."
+    npx prisma generate
+    
     Write-Info "Backend dependencies installed"
 }
 

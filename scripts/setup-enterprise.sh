@@ -61,6 +61,9 @@ install_backend_deps() {
     log_info "Installing security packages..."
     npm install helmet cors express-rate-limit
     
+    log_info "Generating Prisma client..."
+    npx prisma generate
+    
     log_info "Backend dependencies installed"
 }
 

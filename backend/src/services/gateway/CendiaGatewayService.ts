@@ -116,6 +116,12 @@ export interface GatewayStats {
   recentInteractions: GatewayInteraction[];
 }
 
+/**
+ * The Governance Receipt™ — the printable, cryptographically verified artifact
+ * that a CISO hands to a regulator proving every AI interaction was governed.
+ *
+ * Exported as both `GovernanceReceipt` (preferred) and `AIManifest` (legacy alias).
+ */
 export interface AIManifest {
   id: string;
   organizationId: string;
@@ -183,6 +189,9 @@ export interface AIManifest {
     sox302Documentation: boolean; // Adequate internal controls documented
   };
 }
+
+/** Preferred name — The Governance Receipt™. `AIManifest` remains for backwards compatibility. */
+export type GovernanceReceipt = AIManifest;
 
 // =============================================================================
 // PROVIDER CONFIGURATIONS

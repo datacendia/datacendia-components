@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CendiaGateway — Generate Extension Icons</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0F0F1A; color: #E5E5E5; padding: 40px; }
+    h1 { color: #D4AF37; margin-bottom: 8px; }
+    p.subtitle { color: #888; margin-bottom: 32px; }
+    .grid { display: flex; gap: 32px; flex-wrap: wrap; }
+    .icon-card {
+      background: #1A1A2E; border: 1px solid #333; border-radius: 12px;
+      padding: 24px; text-align: center; min-width: 200px;
+    }
+    .icon-card h3 { color: #D4AF37; margin-bottom: 12px; }
+    canvas { border: 1px solid #444; border-radius: 4px; margin: 8px 0; image-rendering: pixelated; }
+    .preview-large { width: 128px; height: 128px; }
+    a.download {
+      display: inline-block; margin-top: 12px; padding: 8px 20px;
+      background: #D4AF37; color: #000; text-decoration: none;
+      font-weight: 600; border-radius: 6px; font-size: 14px;
+    }
+    a.download:hover { background: #C9A02C; }
+    .instructions {
+      margin-top: 40px; padding: 20px; background: #1A1A2E;
+      border: 1px solid #333; border-radius: 8px; max-width: 600px;
+    }
+    .instructions h3 { color: #D4AF37; margin-bottom: 8px; }
+    .instructions ol { padding-left: 20px; line-height: 1.8; }
+    .instructions code { background: #0F0F1A; padding: 2px 6px; border-radius: 3px; color: #D4AF37; }
+    .auto-status { margin-top: 24px; padding: 12px 20px; border-radius: 8px; font-weight: 600; }
+    .auto-status.success { background: #14532D; border: 1px solid #22C55E; color: #22C55E; }
+    .auto-status.info { background: #1E293B; border: 1px solid #3B82F6; color: #60A5FA; }
+  </style>
+</head>
+<body>
+  <h1>CendiaGateway Extension Icons</h1>
+  <p class="subtitle">Generate 16×16, 48×48, and 128×128 PNG icons for the browser extension.</p>
+
+  <div class="grid" id="grid"></div>
+
+  <div id="auto-status" class="auto-status info" style="display:none;"></div>
+
+  <div class="instructions">
+    <h3>How to use</h3>
+    <ol>
+      <li>Click each <strong>Download</strong> button below</li>
+      <li>Save the files to <code>browser-extension/icons/</code></li>
+      <li>Reload the extension in <code>chrome://extensions</code></li>
+    </ol>
+  </div>
+
+  <script>
+    const SIZES = [16, 48, 128];
+
+    function drawIcon(ctx, size) {
+      const s = size;
+      ctx.clearRect(0, 0, s, s);
+
+      // Background: rounded rectangle
+      const r = s * 0.18;
+      ctx.beginPath();
+      ctx.moveTo(r, 0);
+      ctx.lineTo(s - r, 0);
+      ctx.quadraticCurveTo(s, 0, s, r);
+      ctx.lineTo(s, s - r);
+      ctx.quadraticCurveTo(s, s, s - r, s);
+      ctx.lineTo(r, s);
+      ctx.quadraticCurveTo(0, s, 0, s - r);
+      ctx.lineTo(0, r);
+      ctx.quadraticCurveTo(0, 0, r, 0);
+      ctx.closePath();
+
+      // Gradient background
+      const grad = ctx.createLinearGradient(0, 0, s, s);
+      grad.addColorStop(0, '#1A1A2E');
+      grad.addColorStop(1, '#16213E');
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      // Shield outline
+      const cx = s / 2;
+      const shieldTop = s * 0.14;
+      const shieldW = s * 0.54;
+      const shieldH = s * 0.72;
+      const shieldBottom = shieldTop + shieldH;
+      const shieldMidY = shieldTop + shieldH * 0.55;
+
+      ctx.beginPath();
+      ctx.moveTo(cx, shieldTop);
+      ctx.lineTo(cx + shieldW / 2, shieldTop + shieldH * 0.2);
+      ctx.lineTo(cx + shieldW / 2, shieldMidY);
+      ctx.quadraticCurveTo(cx + shieldW / 2, shieldBottom - s * 0.06, cx, shieldBottom);
+      ctx.quadraticCurveTo(cx - shieldW / 2, shieldBottom - s * 0.06, cx - shieldW / 2, shieldMidY);
+      ctx.lineTo(cx - shieldW / 2, shieldTop + shieldH * 0.2);
+      ctx.closePath();
+
+      // Shield fill (subtle gold tint)
+      ctx.fillStyle = 'rgba(212, 175, 55, 0.12)';
+      ctx.fill();
+
+      // Shield stroke
+      ctx.strokeStyle = '#D4AF37';
+      ctx.lineWidth = Math.max(1, s * 0.025);
+      ctx.stroke();
+
+      // Lock body
+      const lockW = s * 0.22;
+      const lockH = s * 0.16;
+      const lockX = cx - lockW / 2;
+      const lockY = s * 0.46;
+      const lockR = Math.max(1, s * 0.02);
+
+      ctx.beginPath();
+      ctx.moveTo(lockX + lockR, lockY);
+      ctx.lineTo(lockX + lockW - lockR, lockY);
+      ctx.quadraticCurveTo(lockX + lockW, lockY, lockX + lockW, lockY + lockR);
+      ctx.lineTo(lockX + lockW, lockY + lockH - lockR);
+      ctx.quadraticCurveTo(lockX + lockW, lockY + lockH, lockX + lockW - lockR, lockY + lockH);
+      ctx.lineTo(lockX + lockR, lockY + lockH);
+      ctx.quadraticCurveTo(lockX, lockY + lockH, lockX, lockY + lockH - lockR);
+      ctx.lineTo(lockX, lockY + lockR);
+      ctx.quadraticCurveTo(lockX, lockY, lockX + lockR, lockY);
+      ctx.closePath();
+      ctx.fillStyle = '#D4AF37';
+      ctx.fill();
+
+      // Lock shackle
+      const shackleR = s * 0.09;
+      const shackleInner = s * 0.05;
+      const shackleCy = lockY;
+      ctx.beginPath();
+      ctx.arc(cx, shackleCy, shackleR, Math.PI, 0, false);
+      ctx.strokeStyle = '#D4AF37';
+      ctx.lineWidth = Math.max(1, s * 0.03);
+      ctx.lineCap = 'round';
+      ctx.stroke();
+
+      // Lock keyhole (only if size >= 48 for readability)
+      if (s >= 32) {
+        const khR = Math.max(1, s * 0.025);
+        const khY = lockY + lockH * 0.38;
+        ctx.beginPath();
+        ctx.arc(cx, khY, khR, 0, Math.PI * 2);
+        ctx.fillStyle = '#1A1A2E';
+        ctx.fill();
+
+        const barW = Math.max(1, s * 0.015);
+        const barH = Math.max(1, s * 0.04);
+        ctx.fillRect(cx - barW / 2, khY + khR * 0.5, barW, barH);
+      }
+
+      // "AI" text (only at 48+ size)
+      if (s >= 48) {
+        ctx.font = `bold ${Math.round(s * 0.09)}px Arial, sans-serif`;
+        ctx.fillStyle = '#D4AF37';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('AI', cx, s * 0.74);
+      }
+    }
+
+    // Generate icons
+    const grid = document.getElementById('grid');
+    SIZES.forEach(size => {
+      const card = document.createElement('div');
+      card.className = 'icon-card';
+
+      const h3 = document.createElement('h3');
+      h3.textContent = `${size} × ${size}`;
+      card.appendChild(h3);
+
+      const canvas = document.createElement('canvas');
+      canvas.width = size;
+      canvas.height = size;
+      canvas.className = size < 48 ? '' : 'preview-large';
+      if (size === 16) { canvas.style.width = '64px'; canvas.style.height = '64px'; }
+      else if (size === 48) { canvas.style.width = '96px'; canvas.style.height = '96px'; }
+
+      const ctx = canvas.getContext('2d');
+      drawIcon(ctx, size);
+      card.appendChild(canvas);
+
+      const br = document.createElement('br');
+      card.appendChild(br);
+
+      const link = document.createElement('a');
+      link.className = 'download';
+      link.download = `icon${size}.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.textContent = `Download icon${size}.png`;
+      card.appendChild(link);
+
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

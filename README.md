@@ -129,8 +129,9 @@ cd datacendia-components
 cp .env.example .env
 cp backend/.env.example backend/.env
 
-# Install all dependencies
+# Install all dependencies (Prisma client auto-generates via postinstall)
 npm install
+cd backend && npm install && cd ..
 
 # Start infrastructure with unified compose (RECOMMENDED)
 docker-compose -f docker-compose.unified.yml --profile core up -d
@@ -354,6 +355,8 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | **CendiaCrisis™** | Incident Response Center — detection to resolution with complete audit trail |
 | **CendiaROI™** | Prove the ROI of governance with real deliberation throughput and quality metrics |
 | **CendiaDCII™** | Decision Crisis Immunization Infrastructure — IISS, 9 primitives, media auth, timestamps |
+| **CendiaGateway™** | AI Governance Gateway — reverse proxy for all AI traffic with PII detection, policy enforcement, DCII signing |
+| **The Governance Receipt™** | Printable, cryptographically verified artifact proving every AI interaction was governed — for regulators and auditors |
 
 ### Trust Layer (The "Shield")
 
@@ -496,6 +499,14 @@ Community Edition components are available under open-source terms. Enterprise f
 
 <details>
 <summary><strong>📋 Changelog (click to expand)</strong></summary>
+
+### March 2, 2026 — The Governance Receipt™ & CendiaGateway Housekeeping
+
+- **The Governance Receipt™** — Named artifact: the printable, cryptographically verified document a CISO hands to a regulator. Replaces "AI Manifest" branding. Export as HTML (PDF), CSV, JSON via `POST /governance-receipt/export`
+- **Prisma generate automated** — `postinstall` hook in `backend/package.json` runs `prisma generate` automatically after `npm install`. Also added to `build` script and both enterprise setup scripts (`.ps1` / `.sh`)
+- **Browser extension icon tooling** — `generate-icons.html` renders the gold shield SVG onto canvas at 16/48/128px and provides PNG download buttons. README updated with prominent warning that Chrome requires real PNGs
+- **`GovernanceReceipt` type alias** — exported alongside legacy `AIManifest` for backwards compatibility
+- **CendiaGateway™** and **The Governance Receipt™** added to product catalog
 
 ### February 26, 2026 — Infrastructure Upgrade (9 Enterprise Components)
 
