@@ -74,13 +74,20 @@ router.post('/v1/chat/completions', async (req: Request, res: Response) => {
     const userInfo = extractUserInfo(req);
     const model = req.body?.model || 'gpt-4o';
 
-    // Determine provider from model name
-    let provider = 'openai';
-    if (model.startsWith('claude')) provider = 'anthropic';
-    else if (model.startsWith('gemini')) provider = 'google';
-    else if (['llama', 'mistral', 'codellama', 'phi'].some(p => model.startsWith(p))) provider = 'ollama';
+    // Determine provider from model name (or explicit header override)
+    let provider = (req.headers['x-gateway-provider'] as string) || '';
+    if (!provider) {
+      if (model.startsWith('claude')) provider = 'anthropic';
+      else if (model.startsWith('gemini')) provider = 'google';
+      else if (model.startsWith('anthropic.') || model.startsWith('meta.') || model.startsWith('amazon.')) provider = 'bedrock';
+      else if (model.startsWith('mistral-') || model.startsWith('codestral') || model.startsWith('open-mistral')) provider = 'mistral';
+      else if (model.startsWith('command') || model.startsWith('embed-')) provider = 'cohere';
+      else if (model.includes('groq') || model === 'mixtral-8x7b-32768' || model === 'gemma2-9b-it' || model === 'llama-3.3-70b-versatile' || model === 'llama-3.1-8b-instant') provider = 'groq';
+      else if (['llama', 'codellama', 'phi'].some(p => model.startsWith(p))) provider = 'ollama';
+      else provider = 'openai';
+    }
 
-    const interaction = await gateway.processRequest({
+    const gatewayRequest = {
       provider,
       model,
       endpoint: '/v1/chat/completions',
@@ -90,9 +97,61 @@ router.post('/v1/chat/completions', async (req: Request, res: Response) => {
       ),
       body: req.body,
       ...userInfo,
-    });
+    };
 
-    // If blocked by policy, return a structured error
+    // =========================================================================
+    // STREAMING PATH — SSE passthrough with governance
+    // =========================================================================
+    if (req.body?.stream === true) {
+      const result = await gateway.processStreamingRequest(gatewayRequest);
+
+      if (result.blocked) {
+        return res.status(403).json({
+          error: {
+            message: `Request blocked by CendiaGateway policy: ${result.interaction.policyReason}`,
+            type: 'gateway_policy_block',
+            code: 'policy_violation',
+            gateway_interaction_id: result.interaction.id,
+            pii_detected: result.interaction.piiScan.types,
+          },
+        });
+      }
+
+      if (!result.stream) {
+        return res.status(502).json({ error: 'No stream from provider' });
+      }
+
+      // Set SSE headers
+      res.set('Content-Type', 'text/event-stream');
+      res.set('Cache-Control', 'no-cache');
+      res.set('Connection', 'keep-alive');
+      res.set('X-Gateway-Interaction-Id', result.interaction.id);
+      res.set('X-Gateway-Integrity-Hash', result.interaction.integrityHash);
+      res.set('X-Gateway-PII-Detected', String(result.interaction.piiScan.hasPII));
+      res.set('X-Gateway-Policy-Action', result.interaction.policyAction);
+      res.flushHeaders();
+
+      // Pipe the provider's SSE stream directly to the client
+      const reader = result.stream.getReader();
+      try {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          res.write(value);
+        }
+      } catch (streamErr) {
+        console.error('[CendiaGateway] Stream pipe error:', streamErr);
+      } finally {
+        res.end();
+      }
+      return;
+    }
+
+    // =========================================================================
+    // NON-STREAMING PATH — Standard JSON response
+    // =========================================================================
+    const interaction = await gateway.processRequest(gatewayRequest);
+
     if (interaction.policyAction === 'block') {
       return res.status(403).json({
         error: {
@@ -105,9 +164,7 @@ router.post('/v1/chat/completions', async (req: Request, res: Response) => {
       });
     }
 
-    // Return the provider's response (or gateway error)
     if (interaction.response) {
-      // Add gateway metadata headers
       res.set('X-Gateway-Interaction-Id', interaction.id);
       res.set('X-Gateway-Integrity-Hash', interaction.integrityHash);
       res.set('X-Gateway-PII-Detected', String(interaction.piiScan.hasPII));
