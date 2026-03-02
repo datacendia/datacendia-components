@@ -165,7 +165,7 @@ export interface AIManifest {
 
   // Compliance
   compliance: {
-    euAiActArticle26: boolean; // Deployer monitoring obligation met
+    euAiActArticle26: boolean; // Supports defensible posture under deployer monitoring obligations
     gdprArticle35: boolean; // DPIA conducted
     hipaaPhiProtection: boolean; // PHI detected and governed
     sox302Documentation: boolean; // Adequate internal controls documented

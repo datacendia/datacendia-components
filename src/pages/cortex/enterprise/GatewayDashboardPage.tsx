@@ -716,7 +716,7 @@ const ManifestTab: React.FC<{
       <p className="text-xs text-gray-500 mb-4">
         Hand this to an auditor, regulator, or board member. It contains a complete inventory
         of all AI usage — by department, by user, by model — with Merkle tree integrity proof
-        and HMAC signatures. EU AI Act Article 26 deployer obligation: met.
+        and HMAC signatures. Supports defensible compliance posture under EU AI Act, GDPR, HIPAA, and SOX.
       </p>
 
       <div className="flex gap-3">
@@ -804,7 +804,7 @@ const ManifestTab: React.FC<{
           <h4 className="text-sm font-medium text-gray-300 mb-3">Compliance Status</h4>
           <div className="grid grid-cols-2 gap-3">
             {[
-              { label: 'EU AI Act Article 26 (Deployer Monitoring)', met: manifest.compliance.euAiActArticle26 },
+              { label: 'EU AI Act Article 26 (Deployer Monitoring Posture)', met: manifest.compliance.euAiActArticle26 },
               { label: 'GDPR Article 35 (DPIA)', met: manifest.compliance.gdprArticle35 },
               { label: 'HIPAA PHI Protection', met: manifest.compliance.hipaaPhiProtection },
               { label: 'SOX §302 Documentation', met: manifest.compliance.sox302Documentation },
