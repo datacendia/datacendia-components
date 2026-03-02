@@ -44,7 +44,6 @@ jobs:
 
       - name: Lint
         run: npm run lint
-        continue-on-error: true
 
       - name: Build
         run: npx vite build
@@ -119,12 +118,20 @@ jobs:
       - name: Lint
         working-directory: backend
         run: npm run lint
-        continue-on-error: true
 
-      - name: Run unit tests (exclude e2e/integration)
+      - name: Verify Prisma schema is in sync
+        working-directory: backend
+        run: npx prisma validate
+        env:
+          DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
+
+      - name: Run unit tests with coverage (exclude e2e/integration)
         working-directory: backend
         run: |
           npx vitest run \
+            --coverage \
+            --coverage.reporter=text \
+            --coverage.reporter=json-summary \
             --exclude="**/e2e/**" \
             --exclude="**/integration/**" \
             --exclude="**/routes/marketing-studio*" \
