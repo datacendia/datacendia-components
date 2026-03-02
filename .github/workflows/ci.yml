@@ -44,7 +44,6 @@ jobs:
 
       - name: Lint
         run: npm run lint
-        continue-on-error: true
 
       - name: Build
         run: npx vite build
@@ -119,7 +118,6 @@ jobs:
       - name: Lint
         working-directory: backend
         run: npm run lint
-        continue-on-error: true
 
       - name: Run unit tests (exclude e2e/integration)
         working-directory: backend
