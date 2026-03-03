@@ -31,6 +31,8 @@ export type {
 export { OllamaProvider } from './OllamaProvider.js';
 export { TritonProvider } from './TritonProvider.js';
 export { NIMProvider } from './NIMProvider.js';
+export { OpenAIProvider } from './OpenAIProvider.js';
+export { AnthropicProvider } from './AnthropicProvider.js';
 
 // Unified service (singleton)
 export { inference, default } from './InferenceService.js';

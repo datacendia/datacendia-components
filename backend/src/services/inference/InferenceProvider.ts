@@ -98,7 +98,7 @@ export interface InferenceModel {
 /**
  * Supported inference provider backends.
  */
-export type InferenceProviderType = 'ollama' | 'triton' | 'nim';
+export type InferenceProviderType = 'ollama' | 'triton' | 'nim' | 'openai' | 'anthropic';
 
 /**
  * Provider health status.
