@@ -112,3 +112,8 @@ ZERO_COST_ROADMAP.md
 INFRASTRUCTURE_UPGRADE_PLAN.md
 PLATFORM_FEATURES.md
 check-db.bat
+
+# Legacy/duplicate docker-compose files (use docker-compose.production.yml)
+docker-compose.prod.yml
+docker-compose.prod.local.yml
+docker-compose.prod.ports-8080-8443.yml
