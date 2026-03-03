@@ -1,8 +1,0 @@
-services:
-  api:
-    container_name: null
-    deploy: null
-
-  frontend:
-    container_name: null
-    deploy: null
