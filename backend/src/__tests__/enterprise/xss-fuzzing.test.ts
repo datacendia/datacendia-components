@@ -61,7 +61,7 @@ const generateScriptTagPayloads = (): string[] => {
   const alertVariants = [
     'alert(1)', 'alert("XSS")', "alert('XSS')", 'alert(document.cookie)',
     'alert(document.domain)', 'alert(String.fromCharCode(88,83,83))',
-    'confirm(1)', 'prompt(1)', 'console.log(1)',
+    'confirm(1)', 'prompt(1)', 'logger.info(1)',
   ];
   const scriptVariants = ['script', 'SCRIPT', 'Script', 'ScRiPt', 'scRIPT'];
   

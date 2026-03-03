@@ -478,7 +478,7 @@ describe('Error Handling', () => {
         for (let i = 0; i < 3; i++) {
           try {
             await cb.execute(() => Promise.reject(new Error('Fail')));
-          } catch {}
+          } catch (err) { logger.error('[Unhandled] Error:', err); }
         }
         expect(cb.getState()).toBe('open');
       });
@@ -487,7 +487,7 @@ describe('Error Handling', () => {
         const cb = new CircuitBreaker(1);
         try {
           await cb.execute(() => Promise.reject(new Error('Fail')));
-        } catch {}
+        } catch (err) { logger.error('[Unhandled] Error:', err); }
         await expect(cb.execute(() => Promise.resolve('test'))).rejects.toThrow('Circuit breaker is open');
       });
     });

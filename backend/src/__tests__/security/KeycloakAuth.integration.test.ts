@@ -167,7 +167,7 @@ describe('Keycloak Integration', () => {
   describe('Realm Configuration', () => {
     it('should have cendia realm available', async () => {
       if (!keycloakAvailable) {
-        console.log('Keycloak not available, skipping test');
+        logger.info('Keycloak not available, skipping test');
         return;
       }
 

@@ -77,7 +77,7 @@ router.post('/seed-demo', async (req: Request, res: Response) => {
         );
         // Analyze first 3 for authenticity
         if (mediaItems.indexOf(m) < 3) {
-          try { await syntheticMediaAuthService.analyzeAuthenticity(asset.id, seededBy); } catch {}
+          try { await syntheticMediaAuthService.analyzeAuthenticity(asset.id, seededBy); } catch (err) { logger.error('[Unhandled] Error:', err); }
         }
       }
       seeded.push('media');

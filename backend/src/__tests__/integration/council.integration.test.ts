@@ -322,13 +322,13 @@ Provide a balanced synthesis (3-4 sentences) with a clear recommendation.`;
       const synthesisData = (await synthesisResponse.json()) as { response: string };
       
       expect(synthesisData.response.length).toBeGreaterThan(100);
-      console.log('\n=== COUNCIL DELIBERATION RESULT ===');
-      console.log('Question:', question);
-      console.log('\nAgent Responses:');
+      logger.info('\n=== COUNCIL DELIBERATION RESULT ===');
+      logger.info('Question:', question);
+      logger.info('\nAgent Responses:');
       for (const r of responses) {
-        console.log(`\n${r.agent}:`, r.response.substring(0, 200) + '...');
+        logger.info(`\n${r.agent}:`, r.response.substring(0, 200) + '...');
       }
-      console.log('\nSynthesis:', synthesisData.response);
+      logger.info('\nSynthesis:', synthesisData.response);
     }, 180000); // 3 minute timeout
   });
 });

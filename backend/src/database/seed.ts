@@ -148,10 +148,10 @@ Always quantify risks with probability and impact estimates.`,
 ];
 
 async function main() {
-  console.log('🌱 Starting database seed...');
+  logger.info('🌱 Starting database seed...');
 
   // Create AI Agents
-  console.log('Creating AI Agents (The Pantheon)...');
+  logger.info('Creating AI Agents (The Pantheon)...');
   for (const agent of agents) {
     await prisma.agents.upsert({
       where: { code: agent.code },
@@ -185,11 +185,11 @@ async function main() {
         updated_at: new Date(),
       },
     });
-    console.log(`  ✓ ${agent.name}`);
+    logger.info(`  ✓ ${agent.name}`);
   }
 
   // Create demo organization and user
-  console.log('\nCreating demo organization...');
+  logger.info('\nCreating demo organization...');
   const org = await prisma.organizations.upsert({
     where: { slug: 'datacendia-demo' },
     update: {},
@@ -207,10 +207,10 @@ async function main() {
       updated_at: new Date(),
     },
   });
-  console.log(`  ✓ Organization: ${org.name}`);
+  logger.info(`  ✓ Organization: ${org.name}`);
 
   // Create demo user
-  console.log('\nCreating demo user...');
+  logger.info('\nCreating demo user...');
   const passwordHash = await bcrypt.hash('demo123456', 12);
   const user = await prisma.users.upsert({
     where: { email: 'demo@datacendia.com' },
@@ -230,10 +230,10 @@ async function main() {
       updated_at: new Date(),
     },
   });
-  console.log(`  ✓ User: ${user.email} (password: demo123456)`);
+  logger.info(`  ✓ User: ${user.email} (password: demo123456)`);
 
   // Create sample metrics
-  console.log('\nCreating sample metric definitions...');
+  logger.info('\nCreating sample metric definitions...');
   const metrics = [
     { code: 'revenue', name: 'Revenue', unit: 'USD', category: 'revenue' },
     { code: 'pipeline', name: 'Pipeline Value', unit: 'USD', category: 'sales' },
@@ -259,11 +259,11 @@ async function main() {
         updated_at: new Date(),
       },
     });
-    console.log(`  ✓ Metric: ${metric.name}`);
+    logger.info(`  ✓ Metric: ${metric.name}`);
   }
 
   // Create initial health score
-  console.log('\nCreating initial health score...');
+  logger.info('\nCreating initial health score...');
   await prisma.health_scores.create({
     data: {
       id: crypto.randomUUID(),
@@ -279,12 +279,12 @@ async function main() {
       } as Prisma.InputJsonValue,
     },
   });
-  console.log('  ✓ Health score initialized');
+  logger.info('  ✓ Health score initialized');
 
-  console.log('\n✅ Database seed completed successfully!');
-  console.log('\n📋 Demo credentials:');
-  console.log('   Email: demo@datacendia.com');
-  console.log('   Password: demo123456');
+  logger.info('\n✅ Database seed completed successfully!');
+  logger.info('\n📋 Demo credentials:');
+  logger.info('   Email: demo@datacendia.com');
+  logger.info('   Password: demo123456');
 }
 
 main()

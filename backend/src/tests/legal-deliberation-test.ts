@@ -28,13 +28,13 @@ const COLORS = {
 };
 
 function log(message: string, color: string = COLORS.reset) {
-  console.log(`${color}${message}${COLORS.reset}`);
+  logger.info(`${color}${message}${COLORS.reset}`);
 }
 
 function logSection(title: string) {
-  console.log('\n' + '='.repeat(60));
+  logger.info('\n' + '='.repeat(60));
   log(title, COLORS.cyan);
-  console.log('='.repeat(60));
+  logger.info('='.repeat(60));
 }
 
 function logResult(name: string, success: boolean, details?: string) {
@@ -50,7 +50,7 @@ async function testLegalResearchService() {
   logSection('1. LEGAL RESEARCH SERVICE STATUS');
   
   const status = legalResearchService.getStatus();
-  console.log('Service Status:', status);
+  logger.info('Service Status:', status);
   
   const availableCount = Object.values(status).filter(Boolean).length;
   logResult(
@@ -77,10 +77,10 @@ async function testCaseLawSearch() {
     );
     
     if (results.length > 0 && results[0]) {
-      console.log('\nSample Result:');
-      console.log(`  Title: ${results[0].title}`);
-      console.log(`  Citation: ${results[0].citation}`);
-      console.log(`  Date: ${results[0].date}`);
+      logger.info('\nSample Result:');
+      logger.info(`  Title: ${results[0].title}`);
+      logger.info(`  Citation: ${results[0].citation}`);
+      logger.info(`  Date: ${results[0].date}`);
     }
     
     return results;
@@ -106,9 +106,9 @@ async function testRegulationSearch() {
     );
     
     if (results.length > 0 && results[0]) {
-      console.log('\nSample Result:');
-      console.log(`  Title: ${results[0].title}`);
-      console.log(`  Citation: ${results[0].citation}`);
+      logger.info('\nSample Result:');
+      logger.info(`  Title: ${results[0].title}`);
+      logger.info(`  Citation: ${results[0].citation}`);
     }
     
     return results;
@@ -140,9 +140,9 @@ async function testStateBillSearch() {
     );
     
     if (results.length > 0 && results[0]) {
-      console.log('\nSample Result:');
-      console.log(`  Title: ${results[0].title}`);
-      console.log(`  State: ${results[0].metadata?.['state']}`);
+      logger.info('\nSample Result:');
+      logger.info(`  Title: ${results[0].title}`);
+      logger.info(`  State: ${results[0].metadata?.['state']}`);
     }
     
     return results;
@@ -169,10 +169,10 @@ async function testFederalRegisterSearch() {
     );
     
     if (results.length > 0 && results[0]) {
-      console.log('\nSample Result:');
-      console.log(`  Title: ${results[0].title?.substring(0, 80)}...`);
-      console.log(`  Date: ${results[0].date}`);
-      console.log(`  Type: ${results[0].metadata?.['type']}`);
+      logger.info('\nSample Result:');
+      logger.info(`  Title: ${results[0].title?.substring(0, 80)}...`);
+      logger.info(`  Date: ${results[0].date}`);
+      logger.info(`  Type: ${results[0].metadata?.['type']}`);
     }
     
     return results;
@@ -199,10 +199,10 @@ async function testSECFilingsSearch() {
     );
     
     if (results.length > 0 && results[0]) {
-      console.log('\nSample Result:');
-      console.log(`  Title: ${results[0].title}`);
-      console.log(`  Date: ${results[0].date}`);
-      console.log(`  Form: ${results[0].metadata?.['form']}`);
+      logger.info('\nSample Result:');
+      logger.info(`  Title: ${results[0].title}`);
+      logger.info(`  Date: ${results[0].date}`);
+      logger.info(`  Form: ${results[0].metadata?.['form']}`);
     }
     
     return results;
@@ -233,9 +233,9 @@ async function testUnifiedSearch() {
       return acc;
     }, {} as Record<string, number>);
     
-    console.log('\nResults by Source:');
+    logger.info('\nResults by Source:');
     Object.entries(bySource).forEach(([source, count]) => {
-      console.log(`  ${source}: ${count}`);
+      logger.info(`  ${source}: ${count}`);
     });
     
     return results;
@@ -292,8 +292,8 @@ async function testAgentFormatting() {
       `Generated ${formatted.length} characters of context`
     );
     
-    console.log('\nFormatted Output Preview:');
-    console.log(formatted.substring(0, 500) + '...');
+    logger.info('\nFormatted Output Preview:');
+    logger.info(formatted.substring(0, 500) + '...');
     
   } catch (error) {
     logResult('Agent Formatting', false, error instanceof Error ? error.message : 'Unknown error');
@@ -312,15 +312,15 @@ async function testToolCallHistory() {
   );
   
   if (history.length > 0) {
-    console.log('\nRecent Tool Calls:');
+    logger.info('\nRecent Tool Calls:');
     history.slice(-3).forEach(call => {
-      console.log(`  ${call.tool} - ${call.durationMs}ms - ${call.error ? 'FAILED' : 'OK'}`);
+      logger.info(`  ${call.tool} - ${call.durationMs}ms - ${call.error ? 'FAILED' : 'OK'}`);
     });
   }
 }
 
 async function runAllTests() {
-  console.log('\n');
+  logger.info('\n');
   log('╔══════════════════════════════════════════════════════════╗', COLORS.cyan);
   log('║     LEGAL VERTICAL END-TO-END TEST SUITE                 ║', COLORS.cyan);
   log('║     Testing all legal research tools and integrations    ║', COLORS.cyan);
@@ -388,9 +388,9 @@ async function runAllTests() {
   const failed = results.filter(r => !r.success).length;
   
   logSection('TEST SUMMARY');
-  console.log(`Total Duration: ${(duration / 1000).toFixed(2)}s`);
-  console.log(`Tests Passed: ${passed}/${results.length}`);
-  console.log(`Tests Failed: ${failed}/${results.length}`);
+  logger.info(`Total Duration: ${(duration / 1000).toFixed(2)}s`);
+  logger.info(`Tests Passed: ${passed}/${results.length}`);
+  logger.info(`Tests Failed: ${failed}/${results.length}`);
   
   if (failed === 0) {
     log('\n✓ ALL TESTS PASSED - Legal vertical is ready!', COLORS.green);
@@ -398,7 +398,7 @@ async function runAllTests() {
     log(`\n✗ ${failed} TEST(S) FAILED - Review errors above`, COLORS.red);
   }
   
-  console.log('\n');
+  logger.info('\n');
 }
 
 // Run tests

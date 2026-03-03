@@ -204,7 +204,7 @@ class AgentQueueService extends EventEmitter {
       console.warn('[AgentQueue] Redis unavailable; BullMQ queues disabled:', err);
       try {
         connection.disconnect();
-      } catch {}
+      } catch (err) { logger.error('[Unhandled] Error:', err); }
       this.isInitialized = true;
       this.isEnabled = false;
       this.connection = null;
@@ -498,7 +498,7 @@ class AgentQueueService extends EventEmitter {
       } catch {
         try {
           this.connection.disconnect();
-        } catch {}
+        } catch (err) { logger.error('[Unhandled] Error:', err); }
       }
       this.connection = null;
     }

@@ -78,7 +78,7 @@ describe('Auth Routes Integration', () => {
         },
       });
     } catch (error) {
-      console.log('Database not available:', (error as Error).message);
+      logger.info('Database not available:', (error as Error).message);
       dbAvailable = false;
     }
   });

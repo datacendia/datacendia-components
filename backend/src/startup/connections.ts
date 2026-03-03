@@ -12,11 +12,50 @@ import { prisma } from '../config/database.js';
 import { redis } from '../config/redis.js';
 import { neo4j } from '../config/neo4j.js';
 import { logger } from '../utils/logger.js';
+import { config } from '../config/index.js';
 import { policyEngine } from '../security/PolicyEngine.js';
 import { databaseBackupService } from '../services/backup/index.js';
 import { vectorDB } from '../services/vectordb/index.js';
 import { registerPlatformServices } from '../core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './applyIndexes.js';
+
+// =============================================================================
+// SIGNING KEY VALIDATION — Fail-fast if critical keys missing in production
+// =============================================================================
+
+/**
+ * Validate that cryptographic signing keys are configured.
+ * In production, ephemeral keys mean evidence signed today can't be verified tomorrow.
+ * Logs warnings in development, throws in production.
+ */
+function validateSigningKeys(): void {
+  const requiredInProd = [
+    { key: 'AUDIT_SIGNING_KEY', purpose: 'ImmutableAuditLedger HMAC signing' },
+    { key: 'GATEWAY_SIGNING_KEY', purpose: 'CendiaGateway interaction signing' },
+    { key: 'JWT_SECRET', purpose: 'Authentication token signing' },
+    { key: 'JWT_REFRESH_SECRET', purpose: 'Refresh token signing' },
+  ];
+
+  const missing: string[] = [];
+  for (const { key, purpose } of requiredInProd) {
+    const value = process.env[key];
+    if (!value || value.length < 32) {
+      missing.push(`${key} (${purpose})`);
+    }
+  }
+
+  if (missing.length > 0) {
+    const msg = `Missing or weak signing keys:\n  ${missing.join('\n  ')}\n\nEvidence signed with ephemeral keys cannot be verified after restart.`;
+    if (config.nodeEnv === 'production') {
+      logger.error(`[CRITICAL] ${msg}`);
+      throw new Error(`Signing key validation failed in production. Set these environment variables with >=32 char values:\n${missing.join(', ')}`);
+    } else {
+      logger.warn(`[SigningKeys] ${msg}\n  This is acceptable in development but MUST be fixed before production.`);
+    }
+  } else {
+    logger.info('[SigningKeys] All cryptographic signing keys validated');
+  }
+}
 
 /**
  * Utility: race a promise against a timeout.
@@ -35,6 +74,9 @@ function withTimeout<T>(ms: number, promise: Promise<T>, name: string): Promise<
  * Each connection is independent — failures don't block startup.
  */
 export async function connectServices(): Promise<void> {
+  // Validate cryptographic signing keys before any service initialization
+  validateSigningKeys();
+
   // PostgreSQL
   try {
     await withTimeout(5000, prisma.$connect(), 'PostgreSQL');

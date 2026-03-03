@@ -426,7 +426,7 @@ class CendiaGatewayService extends EventEmitter {
     // Start async persistence flush timer
     this.flushTimer = setInterval(() => this.flushPersistQueue(), FLUSH_INTERVAL_MS);
 
-    console.log(`[CendiaGateway] Service initialized — ring buffer: ${RING_BUFFER_SIZE}, flush: ${FLUSH_INTERVAL_MS}ms / ${FLUSH_BATCH_SIZE} batch`);
+    logger.info(`[CendiaGateway] Service initialized — ring buffer: ${RING_BUFFER_SIZE}, flush: ${FLUSH_INTERVAL_MS}ms / ${FLUSH_BATCH_SIZE} batch`);
   }
 
   static getInstance(): CendiaGatewayService {
@@ -1490,7 +1490,7 @@ class CendiaGatewayService extends EventEmitter {
     }
     // Final flush
     await this.flushPersistQueue();
-    console.log('[CendiaGateway] Service shut down, final flush complete');
+    logger.info('[CendiaGateway] Service shut down, final flush complete');
   }
 }
 

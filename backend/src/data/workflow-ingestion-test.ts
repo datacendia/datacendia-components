@@ -271,80 +271,80 @@ function runIngestionTest(files: string[]): IngestionTestResult {
 }
 
 function printReport(result: IngestionTestResult): void {
-  console.log('\n' + '='.repeat(80));
-  console.log('WORKFLOW SCENARIOS INGESTION TEST REPORT');
-  console.log('='.repeat(80));
+  logger.info('\n' + '='.repeat(80));
+  logger.info('WORKFLOW SCENARIOS INGESTION TEST REPORT');
+  logger.info('='.repeat(80));
 
-  console.log('\n## Summary');
-  console.log(`Total Scenarios: ${result.totalScenarios}`);
-  console.log(`Valid Scenarios: ${result.validScenarios}`);
-  console.log(`Invalid Scenarios: ${result.invalidScenarios}`);
-  console.log(`Validation Rate: ${((result.validScenarios / result.totalScenarios) * 100).toFixed(1)}%`);
+  logger.info('\n## Summary');
+  logger.info(`Total Scenarios: ${result.totalScenarios}`);
+  logger.info(`Valid Scenarios: ${result.validScenarios}`);
+  logger.info(`Invalid Scenarios: ${result.invalidScenarios}`);
+  logger.info(`Validation Rate: ${((result.validScenarios / result.totalScenarios) * 100).toFixed(1)}%`);
 
-  console.log('\n## Category Distribution');
+  logger.info('\n## Category Distribution');
   const sortedCategories = Object.entries(result.categoryDistribution)
     .sort((a, b) => b[1] - a[1]);
   for (const [category, count] of sortedCategories) {
-    console.log(`  ${category}: ${count}`);
+    logger.info(`  ${category}: ${count}`);
   }
 
-  console.log('\n## Council Mode Distribution');
+  logger.info('\n## Council Mode Distribution');
   const sortedModes = Object.entries(result.councilModeDistribution)
     .sort((a, b) => b[1] - a[1]);
   for (const [mode, count] of sortedModes) {
-    console.log(`  ${mode}: ${count}`);
+    logger.info(`  ${mode}: ${count}`);
   }
 
-  console.log('\n## Priority Distribution');
+  logger.info('\n## Priority Distribution');
   const sortedPriorities = Object.entries(result.priorityDistribution)
     .sort((a, b) => b[1] - a[1]);
   for (const [priority, count] of sortedPriorities) {
-    console.log(`  ${priority}: ${count}`);
+    logger.info(`  ${priority}: ${count}`);
   }
 
-  console.log('\n## Service Usage (Top 20)');
+  logger.info('\n## Service Usage (Top 20)');
   const sortedServices = Object.entries(result.serviceUsage)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 20);
   for (const [service, count] of sortedServices) {
-    console.log(`  ${service}: ${count}`);
+    logger.info(`  ${service}: ${count}`);
   }
 
-  console.log('\n## Service Usage (Bottom 10)');
+  logger.info('\n## Service Usage (Bottom 10)');
   const bottomServices = Object.entries(result.serviceUsage)
     .sort((a, b) => a[1] - b[1])
     .slice(0, 10);
   for (const [service, count] of bottomServices) {
-    console.log(`  ${service}: ${count}`);
+    logger.info(`  ${service}: ${count}`);
   }
 
   if (result.errors.length > 0) {
-    console.log('\n## Errors');
+    logger.info('\n## Errors');
     for (const error of result.errors.slice(0, 20)) {
-      console.log(`  ❌ ${error}`);
+      logger.info(`  ❌ ${error}`);
     }
     if (result.errors.length > 20) {
-      console.log(`  ... and ${result.errors.length - 20} more errors`);
+      logger.info(`  ... and ${result.errors.length - 20} more errors`);
     }
   }
 
   if (result.warnings.length > 0) {
-    console.log('\n## Warnings');
+    logger.info('\n## Warnings');
     for (const warning of result.warnings.slice(0, 10)) {
-      console.log(`  ⚠️ ${warning}`);
+      logger.info(`  ⚠️ ${warning}`);
     }
     if (result.warnings.length > 10) {
-      console.log(`  ... and ${result.warnings.length - 10} more warnings`);
+      logger.info(`  ... and ${result.warnings.length - 10} more warnings`);
     }
   }
 
-  console.log('\n' + '='.repeat(80));
+  logger.info('\n' + '='.repeat(80));
   if (result.invalidScenarios === 0 && result.errors.length === 0) {
-    console.log('✅ ALL SCENARIOS VALID - READY FOR INGESTION');
+    logger.info('✅ ALL SCENARIOS VALID - READY FOR INGESTION');
   } else {
-    console.log('❌ VALIDATION FAILED - FIX ERRORS BEFORE INGESTION');
+    logger.info('❌ VALIDATION FAILED - FIX ERRORS BEFORE INGESTION');
   }
-  console.log('='.repeat(80) + '\n');
+  logger.info('='.repeat(80) + '\n');
 }
 
 // Main execution
@@ -355,9 +355,9 @@ if (require.main === module) {
     path.join(dataDir, 'workflow-scenarios-part2.json')
   ];
 
-  console.log('Loading workflow scenario files...');
+  logger.info('Loading workflow scenario files...');
   for (const file of files) {
-    console.log(`  - ${file}`);
+    logger.info(`  - ${file}`);
   }
 
   const result = runIngestionTest(files);

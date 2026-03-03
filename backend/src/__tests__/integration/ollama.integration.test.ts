@@ -117,7 +117,7 @@ describe('Ollama Integration Tests', () => {
 
     it('should list available models', async () => {
       if (!ollamaAvailable) return;
-      console.log('Available models:', availableModels);
+      logger.info('Available models:', availableModels);
       expect(availableModels).toBeDefined();
     });
   });
@@ -305,7 +305,7 @@ Return JSON with: title, recommendation, keyFindings (array), riskFactors (array
 
       // Should respond within 30 seconds for a simple prompt
       expect(duration).toBeLessThan(30000);
-      console.log(`Response time: ${duration}ms`);
+      logger.info(`Response time: ${duration}ms`);
     }, 35000);
   });
 });
