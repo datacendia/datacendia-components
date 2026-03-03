@@ -7,6 +7,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added — 2026-03-02 — CendiaGateway™ + Full Audit Remediation (33 of 33 Findings)
+
+#### CendiaGateway™ — AI Governance Control Plane
+- **Gateway Service** — `backend/src/services/gateway/CendiaGatewayService.ts`: Reverse proxy for OpenAI, Anthropic, Google, Ollama APIs with PII detection, policy enforcement, DCII signing, AI Manifest™ generation
+- **PII Detector** — `backend/src/services/gateway/PIIDetector.ts`: 10 PII types (SSN, credit card, email, phone, IP, DOB, medical, bank, passport, DL) with extensible rule engine
+- **Gateway Routes** — `backend/src/routes/gateway.ts`: 14 API endpoints (proxy, stats, interactions, policies, manifest, PII test, health)
+- **Gateway Dashboard** — `src/pages/cortex/enterprise/GatewayDashboardPage.tsx`: CISO dashboard with 5 tabs (Overview, Interactions, Policies, PII Scanner, AI Manifest™)
+- **Prisma Schema** — `backend/prisma/schema/gateway.prisma`: 3 models (gateway_interactions, gateway_policies, gateway_manifests)
+- **Scale Architecture** — Ring buffer (10K entries, bounded memory), async batch persistence, O(1) pre-computed counters, incremental Merkle tree
+- **Gateway Landing Page** — `datacendia.com/gateway` with enterprise comparison table, architecture diagram, AI Manifest™ section
+
+#### Backend Modularization (F21)
+- **`backend/src/index.ts`** — Reduced from 539 → 97 lines (slim orchestrator)
+- **`backend/src/startup/middleware.ts`** — Express middleware pipeline (helmet, CORS, rate limiting, CSRF, cache)
+- **`backend/src/startup/routes.ts`** — API route mounting (14 domains + 11 special routes)
+- **`backend/src/startup/connections.ts`** — Database & service initialization (PostgreSQL, Redis, Neo4j, Qdrant, Kafka, etc.)
+- **`backend/src/startup/shutdown.ts`** — Graceful shutdown handlers (SIGTERM/SIGINT)
+
+#### Audit Remediation (Rounds 2 & 3 — 19 additional findings fixed)
+- **F13** — Docker Compose consolidated: 11 → 3 files in root (`deploy/docker/` for extras)
+- **F15** — Redis clients consolidated: `live-monitor.ts` migrated from `redis` to `ioredis`
+- **F16** — Test framework standardized: removed `jest`, `ts-jest`, `@types/jest` from devDeps (vitest only)
+- **F18** — CSP `unsafe-inline` removed: 31 pages' inline styles extracted to `pages/*.css`
+- **F19** — Prisma validation added to CI: `prisma validate` step catches schema drift
+- **F20** — Test coverage reporting added to CI: `--coverage` flags on vitest
+- **F22** — Presentation files removed from git: `.pptx`, `.xlsx`, `.docx` gitignored
+- **F23** — Loose test scripts organized: 10 files moved to `backend/tests/scripts/`
+- **F25** — `.env.production.example` removed from git
+- **F26** — `tiktok-pixel.js` removed from 26 marketing pages (contradicted privacy policy)
+- **F27** — Translations lazy-loaded: 628KB → ~49KB initial load (per-locale JSON files)
+- **F28** — SRI for external scripts: N/A (Google Fonts doesn't support SRI)
+- **F29-30** — DGI schema validation CI strengthened: js-yaml, swagger-cli, structural checks
+- **F31** — `node-fetch` removed: `TikaService.ts` migrated to native `fetch` (Node 20+)
+- **F32** — Express upgraded: 4.18.2 → 5.1.0 (zero breaking patterns across 142 routes)
+- **Copyright** — 38 files in datacendia-core fixed: Proprietary → Apache 2.0 headers
+- **Sync** — `scripts/sync-to-core.ps1`: automated core↔components file synchronization
+
+#### Branding
+- **53 marketing pages** rebranded: "Decision Crisis Immunization Infrastructure" → "The Defensible AI Platform"
+- **GEO/SEO updated** — `llms.txt` rewritten, OG tags, JSON-LD, meta descriptions
+- **Gateway added to site navigation** under Platform dropdown
+
+#### Documentation
+- **`docs/PROSPECT_OUTREACH.md`** — CISO outreach playbook (3 email templates, objection handling, 20-min demo script)
+- **`docs/RAILWAY_DEPLOYMENT.md`** — Step-by-step Railway hosted demo deployment guide
+- **`docs/SHOW_HN_POST.md`** — Show HN launch post draft
+
 ### Changed — 2026-03-02 — Platform Audit Remediation (14 of 33 Findings)
 
 #### Cross-Repo Audit
