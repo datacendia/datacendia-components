@@ -1,6 +1,11 @@
+// Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+// See LICENSE file for details.
+
 /**
- * Service Connections — Database and service initialization
- * Extracted from index.ts for modularity (F21 audit item)
+ * @module startup/connections
+ * @description Database and service initialization — PostgreSQL, Redis, Neo4j, Qdrant, Kafka, Temporal, etc.
+ * Each connection is independent; failures don't block startup.
+ * Extracted from index.ts for modularity (F21 audit item).
  */
 
 import { prisma } from '../config/database.js';

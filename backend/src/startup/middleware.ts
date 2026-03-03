@@ -1,6 +1,10 @@
+// Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+// See LICENSE file for details.
+
 /**
- * Middleware Pipeline — Express middleware configuration
- * Extracted from index.ts for modularity (F21 audit item)
+ * @module startup/middleware
+ * @description Express middleware pipeline — security, CORS, rate limiting, CSRF, caching.
+ * Extracted from index.ts for modularity (F21 audit item).
  */
 
 import express, { type Express } from 'express';

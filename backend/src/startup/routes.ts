@@ -1,6 +1,10 @@
+// Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+// See LICENSE file for details.
+
 /**
- * Route Mounting — All API route registration
- * Extracted from index.ts for modularity (F21 audit item)
+ * @module startup/routes
+ * @description API route mounting — 14 domain routers + 11 special routes.
+ * Extracted from index.ts for modularity (F21 audit item).
  */
 
 import type { Express } from 'express';

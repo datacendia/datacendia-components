@@ -1,6 +1,11 @@
+// Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+// See LICENSE file for details.
+
 /**
- * Graceful Shutdown — Process signal handlers and cleanup
- * Extracted from index.ts for modularity (F21 audit item)
+ * @module startup/shutdown
+ * @description Graceful shutdown handlers for SIGTERM/SIGINT.
+ * Closes all database connections and stops schedulers.
+ * Extracted from index.ts for modularity (F21 audit item).
  */
 
 import type { Server } from 'http';
