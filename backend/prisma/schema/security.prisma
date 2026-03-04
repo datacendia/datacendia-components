@@ -134,7 +134,7 @@ model crucible_redteam_reports {
   @@index([security_score])
 }
 
-// REMOVED: model crucible_schedules (orphaned — not referenced in application code)
+// REMOVED: model crucible_schedules (orphaned â€” not referenced in application code)
 
 model crucible_sbom {
   id              String    @id @default(uuid())
@@ -366,7 +366,7 @@ model honeytokens {
   @@index([triggered])
 }
 
-// REMOVED: model canary_systems (orphaned — not referenced in application code)
+// REMOVED: model canary_systems (orphaned â€” not referenced in application code)
 
 model canary_alerts {
   id          String          @id @default(uuid())
@@ -692,6 +692,50 @@ enum KeyEvent {
 // CendiaHSM â€” Hardware Security Module Keys & Operations
 // =============================================================================
 
-// REMOVED: model hsm_keys (orphaned — not referenced in application code)
+// REMOVED: model hsm_keys (orphaned â€” not referenced in application code)
 
-// REMOVED: model hsm_operations (orphaned — not referenced in application code)
+// REMOVED: model hsm_operations (orphaned â€” not referenced in application code)
+
+// =============================================================================
+// Immutable Audit Ledger â€” Persistent Merkle Tree Storage
+// Court-admissible evidence requires persistence across server restarts.
+// =============================================================================
+
+model ledger_entries {
+  id              String   @id @default(uuid())
+  entry_index     Int      @unique
+  organization_id String
+  event_type      String
+  event_id        String
+  event_data      Json
+  previous_hash   String
+  hash            String
+  signature       String?
+  nonce           String?
+  merkle_root     String?
+  block_number    Int?
+  created_at      DateTime @default(now())
+
+  ledger_block    ledger_blocks? @relation(fields: [block_number], references: [block_number])
+
+  @@index([organization_id, created_at])
+  @@index([event_type])
+  @@index([hash])
+  @@index([block_number])
+}
+
+model ledger_blocks {
+  block_number        Int      @id
+  block_hash          String   @unique
+  previous_block_hash String
+  merkle_root         String
+  entry_count         Int
+  first_entry_index   Int
+  last_entry_index    Int
+  witness             String?
+  created_at          DateTime @default(now())
+
+  entries             ledger_entries[]
+
+  @@index([merkle_root])
+}

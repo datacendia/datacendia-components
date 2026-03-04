@@ -53,7 +53,7 @@
 
 import crypto from 'crypto';
 import { AuditEvent } from '../../security/audit.service.js';
-
+import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
 // =============================================================================
 // CONSTANTS
@@ -297,15 +297,18 @@ class ImmutableAuditLedger {
       console.warn('[ImmutableLedger] Generated ephemeral signing key - configure AUDIT_SIGNING_KEY for production');
     }
     
-    // Initialize genesis entry
-    this.createGenesisEntry();
-    
-    // Start background verification if enabled
-    if (this.config.enableBackgroundVerification) {
-      this.startBackgroundVerification();
-    }
-    
-    logger.info(`[ImmutableLedger] Initialized v${LEDGER_VERSION} with block size ${this.BLOCK_SIZE}`);
+    // Hydrate from PostgreSQL or create genesis
+    this.hydrateFromDatabase().then(() => {
+      // Start background verification if enabled
+      if (this.config.enableBackgroundVerification) {
+        this.startBackgroundVerification();
+      }
+      logger.info(`[ImmutableLedger] Initialized v${LEDGER_VERSION} with block size ${this.BLOCK_SIZE} (${this.entries.length} entries loaded from DB)`);
+    }).catch((err) => {
+      logger.warn(`[ImmutableLedger] Could not hydrate from DB, starting fresh: ${err instanceof Error ? err.message : err}`);
+      this.createGenesisEntry();
+      logger.info(`[ImmutableLedger] Initialized v${LEDGER_VERSION} with block size ${this.BLOCK_SIZE} (fresh start)`);
+    });
   }
   
   /**
@@ -337,6 +340,114 @@ class ImmutableAuditLedger {
       clearInterval(this.verificationInterval);
       this.verificationInterval = null;
       logger.info('[ImmutableLedger] Background verification stopped');
+    }
+  }
+
+  /**
+   * Hydrate ledger state from PostgreSQL on startup.
+   * Loads all persisted entries and blocks so the chain survives restarts.
+   */
+  private async hydrateFromDatabase(): Promise<void> {
+    try {
+      const dbEntries = await prisma.ledger_entries.findMany({
+        orderBy: { entry_index: 'asc' },
+      });
+
+      if (dbEntries.length === 0) {
+        this.createGenesisEntry();
+        return;
+      }
+
+      // Reconstruct in-memory entries from DB
+      this.entries = dbEntries.map((row) => ({
+        index: row.entry_index,
+        timestamp: row.created_at,
+        event: row.event_data as AuditEvent,
+        previousHash: row.previous_hash,
+        hash: row.hash,
+        merkleRoot: row.merkle_root ?? undefined,
+        signature: row.signature ?? undefined,
+        nonce: row.nonce ?? undefined,
+      }));
+
+      // Reconstruct blocks
+      const dbBlocks = await prisma.ledger_blocks.findMany({
+        orderBy: { block_number: 'asc' },
+      });
+
+      this.blocks = dbBlocks.map((row) => ({
+        entries: this.entries.slice(row.first_entry_index, row.last_entry_index + 1),
+        blockHash: row.block_hash,
+        previousBlockHash: row.previous_block_hash,
+        merkleRoot: row.merkle_root,
+        timestamp: row.created_at,
+        blockNumber: row.block_number,
+        witness: row.witness ?? undefined,
+      }));
+
+      logger.info(`[ImmutableLedger] Hydrated ${this.entries.length} entries and ${this.blocks.length} blocks from PostgreSQL`);
+    } catch (err) {
+      // If DB is unavailable (e.g., dev mode without Postgres), fall back to in-memory
+      throw err;
+    }
+  }
+
+  /**
+   * Persist a single ledger entry to PostgreSQL.
+   */
+  private async persistEntry(entry: LedgerEntry): Promise<void> {
+    try {
+      await prisma.ledger_entries.create({
+        data: {
+          entry_index: entry.index,
+          organization_id: entry.event.organizationId || 'system',
+          event_type: entry.event.eventType,
+          event_id: entry.event.id || `evt_${entry.index}`,
+          event_data: entry.event as any,
+          previous_hash: entry.previousHash,
+          hash: entry.hash,
+          signature: entry.signature ?? null,
+          nonce: entry.nonce ?? null,
+          merkle_root: entry.merkleRoot ?? null,
+        },
+      });
+    } catch (err) {
+      logger.error(`[ImmutableLedger] Failed to persist entry ${entry.index}:`, err);
+    }
+  }
+
+  /**
+   * Persist a finalized block to PostgreSQL.
+   */
+  private async persistBlock(block: LedgerBlock): Promise<void> {
+    try {
+      const firstEntry = block.entries[0];
+      const lastEntry = block.entries[block.entries.length - 1];
+      await prisma.ledger_blocks.create({
+        data: {
+          block_number: block.blockNumber,
+          block_hash: block.blockHash,
+          previous_block_hash: block.previousBlockHash,
+          merkle_root: block.merkleRoot,
+          entry_count: block.entries.length,
+          first_entry_index: firstEntry?.index ?? 0,
+          last_entry_index: lastEntry?.index ?? 0,
+          witness: block.witness ?? null,
+        },
+      });
+
+      // Update entries with block number
+      await prisma.ledger_entries.updateMany({
+        where: {
+          entry_index: {
+            gte: firstEntry?.index ?? 0,
+            lte: lastEntry?.index ?? 0,
+          },
+        },
+        data: { block_number: block.blockNumber },
+      });
+    } catch (err) {
+      logger.error(`[ImmutableLedger] Failed to persist block ${block.blockNumber}:`, err);
     }
   }
 
@@ -428,6 +539,9 @@ class ImmutableAuditLedger {
     
     this.entries.push(entry);
 
+    // Persist to PostgreSQL (non-blocking — don't fail the append if DB is down)
+    this.persistEntry(entry).catch(() => {});
+
     // Create block if we've reached block size
     if (this.entries.length % this.BLOCK_SIZE === 0) {
       await this.createBlock();
@@ -468,6 +582,10 @@ class ImmutableAuditLedger {
       .digest('hex');
 
     this.blocks.push(block);
+
+    // Persist block to PostgreSQL
+    this.persistBlock(block).catch(() => {});
+
     logger.info(`[ImmutableLedger] Block ${block.blockNumber} created with ${blockEntries.length} entries`);
     return block;
   }
