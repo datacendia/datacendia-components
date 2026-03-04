@@ -16,6 +16,8 @@
 
 import { Router, Request, Response } from 'express';
 import { logger } from '../utils/logger.js';
+import { prisma } from '../config/database.js';
+import { notificationService } from '../services/NotificationService.js';
 
 const router = Router();
 
@@ -80,7 +82,7 @@ router.post('/billing/create-checkout-session', async (req: Request, res: Respon
     logger.error('Stripe checkout error:', error);
     res.status(500).json({
       error: 'Failed to create checkout session',
-      message: error.message,
+      message: error instanceof Error ? error.message : 'Unknown error',
     });
   }
 });
@@ -113,26 +115,123 @@ router.post('/billing/webhook', async (req: Request, res: Response) => {
     switch (event.type) {
       case 'checkout.session.completed': {
         const session = event.data.object as any;
-        logger.info(`Payment succeeded for session ${session.id}, tier: ${session.metadata?.tierId}`);
-        // TODO: Activate license, update tenant plan, send welcome email
+        const tierId = session.metadata?.tierId;
+        const tenantId = session.metadata?.tenantId || session.client_reference_id;
+        logger.info(`Payment succeeded for session ${session.id}, tier: ${tierId}, tenant: ${tenantId}`);
+
+        if (tenantId && tierId) {
+          const planMap: Record<string, string> = {
+            foundation: 'FOUNDATION', enterprise: 'ENTERPRISE', strategic: 'STRATEGIC',
+          };
+          const dbPlan = planMap[tierId] || 'FOUNDATION';
+          await prisma.tenants.update({
+            where: { id: tenantId },
+            data: {
+              plan: dbPlan as any,
+              status: 'ACTIVE' as any,
+              trial_ends_at: null,
+              updated_at: new Date(),
+            },
+          });
+          logger.info(`Tenant ${tenantId} upgraded to ${dbPlan}`);
+
+          // Send welcome email via notification service
+          try {
+            const tenant = await prisma.tenants.findUnique({ where: { id: tenantId } });
+            if (tenant?.billing_email) {
+              await notificationService.send({
+                userId: tenantId,
+                organizationId: tenantId,
+                type: 'SYSTEM' as any,
+                title: 'Welcome to Datacendia',
+                message: `Your ${tierId} plan is now active. Thank you for your purchase.`,
+                channels: ['EMAIL', 'IN_APP'],
+                metadata: { tierId, sessionId: session.id },
+              });
+            }
+          } catch (notifyErr) {
+            logger.warn('Failed to send welcome notification:', notifyErr);
+          }
+        }
         break;
       }
       case 'customer.subscription.updated': {
         const subscription = event.data.object as any;
+        const tenantId = subscription.metadata?.tenantId;
         logger.info(`Subscription updated: ${subscription.id}, status: ${subscription.status}`);
-        // TODO: Update tenant plan/status
+
+        if (tenantId) {
+          const statusMap: Record<string, string> = {
+            active: 'ACTIVE', past_due: 'ACTIVE', trialing: 'TRIAL',
+            canceled: 'CHURNED', unpaid: 'SUSPENDED', incomplete: 'PENDING',
+          };
+          const dbStatus = statusMap[subscription.status] || 'ACTIVE';
+          await prisma.tenants.update({
+            where: { id: tenantId },
+            data: { status: dbStatus as any, updated_at: new Date() },
+          });
+          logger.info(`Tenant ${tenantId} status updated to ${dbStatus}`);
+        }
         break;
       }
       case 'customer.subscription.deleted': {
         const subscription = event.data.object as any;
+        const tenantId = subscription.metadata?.tenantId;
         logger.info(`Subscription cancelled: ${subscription.id}`);
-        // TODO: Downgrade tenant to community
+
+        if (tenantId) {
+          await prisma.tenants.update({
+            where: { id: tenantId },
+            data: {
+              plan: 'TRIAL' as any,
+              status: 'CHURNED' as any,
+              subscription_ends_at: new Date(),
+              updated_at: new Date(),
+            },
+          });
+          logger.info(`Tenant ${tenantId} downgraded to trial (churned)`);
+
+          try {
+            await notificationService.send({
+              userId: tenantId,
+              organizationId: tenantId,
+              type: 'SYSTEM' as any,
+              title: 'Subscription Cancelled',
+              message: 'Your subscription has been cancelled. Your account has been downgraded.',
+              channels: ['EMAIL', 'IN_APP'],
+              metadata: { subscriptionId: subscription.id },
+            });
+          } catch (notifyErr) {
+            logger.warn('Failed to send cancellation notification:', notifyErr);
+          }
+        }
         break;
       }
       case 'invoice.payment_failed': {
         const invoice = event.data.object as any;
-        logger.warn(`Payment failed for invoice ${invoice.id}`);
-        // TODO: Notify tenant, flag account
+        const tenantId = invoice.metadata?.tenantId || invoice.subscription_details?.metadata?.tenantId;
+        logger.warn(`Payment failed for invoice ${invoice.id}, tenant: ${tenantId}`);
+
+        if (tenantId) {
+          await prisma.tenants.update({
+            where: { id: tenantId },
+            data: { status: 'SUSPENDED' as any, updated_at: new Date() },
+          });
+
+          try {
+            await notificationService.send({
+              userId: tenantId,
+              organizationId: tenantId,
+              type: 'SYSTEM' as any,
+              title: 'Payment Failed',
+              message: 'Your latest payment has failed. Please update your payment method to avoid service interruption.',
+              channels: ['EMAIL', 'IN_APP'],
+              metadata: { invoiceId: invoice.id },
+            });
+          } catch (notifyErr) {
+            logger.warn('Failed to send payment failure notification:', notifyErr);
+          }
+        }
         break;
       }
       default:
@@ -142,7 +241,7 @@ router.post('/billing/webhook', async (req: Request, res: Response) => {
     res.json({ received: true });
   } catch (error: unknown) {
     logger.error('Stripe webhook error:', error);
-    res.status(400).json({ error: `Webhook Error: ${error.message}` });
+    res.status(400).json({ error: `Webhook Error: ${error instanceof Error ? error.message : 'Unknown'}` });
   }
 });
 
