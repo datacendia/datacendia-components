@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Vox Page
  *
@@ -363,7 +364,7 @@ export const VoxPage: React.FC = () => {
         setVetoes(realVetoes.length > 0 ? realVetoes : MOCK_VETOES);
       }
     } catch (error) {
-      console.error('Failed to load Vox data:', error);
+      logger.error('Failed to load Vox data:', error);
       setSignals(MOCK_SIGNALS);
       setVetoes(MOCK_VETOES);
     } finally {
@@ -377,7 +378,7 @@ export const VoxPage: React.FC = () => {
       await apiClient.api.post('/vox/stakeholders/initialize');
       await loadData();
     } catch (error) {
-      console.error('Initialize failed:', error);
+      logger.error('Initialize failed:', error);
     } finally {
       setIsInitializing(false);
     }
@@ -697,7 +698,7 @@ export const VoxPage: React.FC = () => {
                                 });
                                 await loadData();
                               } catch (error) {
-                                console.error('Failed to update weight:', error);
+                                logger.error('Failed to update weight:', error);
                               }
                               setEditingWeightFor(null);
                             }}

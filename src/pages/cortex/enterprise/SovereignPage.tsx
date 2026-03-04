@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Sovereign Page
  *
@@ -472,10 +473,10 @@ export const SovereignPage: React.FC = () => {
     try {
       const snapshotsRes = await decisionIntelApi.getChronosSnapshots();
       if (snapshotsRes.success && snapshotsRes.data) {
-        console.log('[Sovereign] Loaded', snapshotsRes.data.length, 'system snapshots');
+        logger.info('[Sovereign] Loaded', snapshotsRes.data.length, 'system snapshots');
       }
     } catch (error) {
-      console.log('[Sovereign] API unavailable, using local service');
+      logger.info('[Sovereign] API unavailable, using local service');
     }
 
     // Fall back to enterprise service

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Compliance Dashboard
  *
@@ -632,7 +633,7 @@ const ComplianceDashboard: React.FC = () => {
         setError(e instanceof Error ? e.message : 'Failed to load assessments');
       }
     } catch (err) {
-      console.error('Compliance data load error:', err);
+      logger.error('Compliance data load error:', err);
       setRings([]);
       setFrameworks([]);
       setAssessments([]);
@@ -656,7 +657,7 @@ const ComplianceDashboard: React.FC = () => {
         setPillarMappings(prev => ({ ...prev, [pillarId]: data.mapping }));
       }
     } catch (err) {
-      console.error('Failed to load pillar mapping:', err);
+      logger.error('Failed to load pillar mapping:', err);
     } finally {
       setPillarLoading(prev => ({ ...prev, [pillarId]: false }));
     }
@@ -684,7 +685,7 @@ const ComplianceDashboard: React.FC = () => {
       setBundles((prev) => [res.data as Bundle, ...prev]);
       setActiveTab('bundles');
     } catch (err) {
-      console.error('Failed to generate bundle:', err);
+      logger.error('Failed to generate bundle:', err);
       setError(err instanceof Error ? err.message : 'Failed to generate compliance bundle');
     } finally {
       setGenerating(false);
@@ -719,7 +720,7 @@ const ComplianceDashboard: React.FC = () => {
       await loadAssessments(frameworks);
       setActiveTab('assessments');
     } catch (err) {
-      console.error('Failed to run assessment:', err);
+      logger.error('Failed to run assessment:', err);
       setError(err instanceof Error ? err.message : 'Failed to run assessment');
     } finally {
       setRunningAssessment(null);
@@ -744,7 +745,7 @@ const ComplianceDashboard: React.FC = () => {
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
     } catch (err) {
-      console.error('Failed to download bundle:', err);
+      logger.error('Failed to download bundle:', err);
       setError(err instanceof Error ? err.message : 'Failed to download bundle');
     }
   };

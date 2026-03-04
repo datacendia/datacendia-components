@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * Module — Legal Deliberation Test
  *
@@ -402,4 +403,4 @@ async function runAllTests() {
 }
 
 // Run tests
-runAllTests().catch(console.error);
+runAllTests().catch((err) => logger.error('Legal deliberation tests failed:', err));

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Subpages
  *
@@ -271,7 +272,7 @@ export const AlertsPage: React.FC = () => {
                           )
                         );
                       } catch (err) {
-                        console.error('Acknowledge failed:', err);
+                        logger.error('Acknowledge failed:', err);
                         setError(err instanceof Error ? err.message : 'Acknowledge failed');
                       } finally {
                         setLoadingAlertId(null);
@@ -296,7 +297,7 @@ export const AlertsPage: React.FC = () => {
                           prev.map((a) => (a.id === alert.id ? { ...a, status: 'resolved' } : a))
                         );
                       } catch (err) {
-                        console.error('Resolve failed:', err);
+                        logger.error('Resolve failed:', err);
                         setError(err instanceof Error ? err.message : 'Resolve failed');
                       } finally {
                         setLoadingAlertId(null);

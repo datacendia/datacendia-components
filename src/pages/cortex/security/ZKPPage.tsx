@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Z K P Page
  *
@@ -59,7 +60,7 @@ export default function ZKPPage() {
       const types = await ZKPService.getProofTypes();
       setProofTypes(types);
     } catch (error) {
-      console.error('Failed to load data, using demo data:', error);
+      logger.error('Failed to load data, using demo data:', error);
       setProofTypes([
         { type: 'compliance' as any, name: 'Compliance Proof', description: 'Prove regulatory compliance without revealing internal controls', verificationTime: '< 1s', proofSize: '2 KB' },
         { type: 'identity' as any, name: 'Identity Verification', description: 'Verify identity attributes without exposing personal data', verificationTime: '< 500ms', proofSize: '1.5 KB' },

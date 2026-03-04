@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Dissent Service
  *
@@ -217,7 +218,7 @@ class DissentService {
       const response = await api.get<Dissent[]>(`${this.baseUrl}?${params.toString()}`);
       return response.data ?? this.getMockDissents();
     } catch (error) {
-      console.error('[Dissent] Error fetching dissents:', error);
+      logger.error('[Dissent] Error fetching dissents:', error);
       return this.getMockDissents();
     }
   }
@@ -230,7 +231,7 @@ class DissentService {
       const response = await api.get<Dissent[]>(`${this.baseUrl}/active`);
       return response.data ?? this.getMockDissents().filter((d) => d.status === 'pending');
     } catch (error) {
-      console.error('[Dissent] Error fetching active dissents:', error);
+      logger.error('[Dissent] Error fetching active dissents:', error);
       return this.getMockDissents().filter((d) => d.status === 'pending');
     }
   }
@@ -243,7 +244,7 @@ class DissentService {
       const response = await api.get<Dissent>(`${this.baseUrl}/${id}`);
       return response.data ?? null;
     } catch (error) {
-      console.error('[Dissent] Error fetching dissent:', error);
+      logger.error('[Dissent] Error fetching dissent:', error);
       return null;
     }
   }
@@ -265,7 +266,7 @@ class DissentService {
       const response = await api.get<DissenterProfile>(`${this.baseUrl}/profile/${userId}`);
       return response.data ?? this.getMockProfile();
     } catch (error) {
-      console.error('[Dissent] Error fetching profile:', error);
+      logger.error('[Dissent] Error fetching profile:', error);
       return this.getMockProfile();
     }
   }
@@ -280,7 +281,7 @@ class DissentService {
       );
       return response.data ?? this.getMockMetrics();
     } catch (error) {
-      console.error('[Dissent] Error fetching metrics:', error);
+      logger.error('[Dissent] Error fetching metrics:', error);
       return this.getMockMetrics();
     }
   }
@@ -293,7 +294,7 @@ class DissentService {
       const response = await api.get<RetaliationFlag[]>(`${this.baseUrl}/retaliation-flags`);
       return response.data ?? [];
     } catch (error) {
-      console.error('[Dissent] Error fetching retaliation flags:', error);
+      logger.error('[Dissent] Error fetching retaliation flags:', error);
       return [];
     }
   }
@@ -339,7 +340,7 @@ class DissentService {
       );
       return response.data ?? { blocked: false, dissents: [] };
     } catch (error) {
-      console.error('[Dissent] Error checking dissent block:', error);
+      logger.error('[Dissent] Error checking dissent block:', error);
       return { blocked: false, dissents: [] };
     }
   }
@@ -352,7 +353,7 @@ class DissentService {
       const response = await api.get<DissentConfig>(`${this.baseUrl}/config`);
       return response.data ?? this.getDefaultConfig();
     } catch (error) {
-      console.error('[Dissent] Error fetching config:', error);
+      logger.error('[Dissent] Error fetching config:', error);
       return this.getDefaultConfig();
     }
   }

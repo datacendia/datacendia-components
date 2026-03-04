@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Manifesto Home Page
  *
@@ -41,7 +42,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
     api.post('/api/v1/marketing-leads', {
       ...formData,
       source: 'manifesto',
-    }).catch((err) => console.error('[ManifestoHomePage] Backend failed:', err));
+    }).catch((err) => logger.error('[ManifestoHomePage] Backend failed:', err));
   };
 
   if (!isOpen) {return null;}

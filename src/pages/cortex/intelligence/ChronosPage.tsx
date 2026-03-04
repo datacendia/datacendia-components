@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Chronos Page
  *
@@ -2753,7 +2754,7 @@ export const ChronosPage: React.FC = () => {
         });
 
         if (response.success && response.data && Array.isArray(response.data)) {
-          console.log('[ChronosAI] Detected', response.data.length, 'pivotal moments via AI');
+          logger.info('[ChronosAI] Detected', response.data.length, 'pivotal moments via AI');
           // Map AI response to PivotalMoment format
           const aiMoments: PivotalMoment[] = [];
           for (const m of response.data as any[]) {
@@ -2778,7 +2779,7 @@ export const ChronosPage: React.FC = () => {
           }
         }
       } catch (error) {
-        console.log('[ChronosAI] AI detection failed, using fallback:', error);
+        logger.info('[ChronosAI] AI detection failed, using fallback:', error);
       }
 
       // Fallback to local generation
@@ -2820,7 +2821,7 @@ export const ChronosPage: React.FC = () => {
 
         // Process snapshots
         if (snapshotsRes.success && snapshotsRes.data) {
-          console.log('[Chronos] Loaded', (snapshotsRes.data as any[]).length, 'snapshots');
+          logger.info('[Chronos] Loaded', (snapshotsRes.data as any[]).length, 'snapshots');
         }
 
         // Process real graph stats from Neo4j
@@ -2831,23 +2832,23 @@ export const ChronosPage: React.FC = () => {
             dataPoints: graphStatsRes.data.dataPoints,
             freshness: graphStatsRes.data.freshness,
           });
-          console.log('[Chronos] Loaded real graph stats:', graphStatsRes.data);
+          logger.info('[Chronos] Loaded real graph stats:', graphStatsRes.data);
         }
 
         // Process metrics into timeline events
         if (metricsRes.success && metricsRes.data) {
           setRealMetrics(metricsRes.data as any[]);
-          console.log('[Chronos] Loaded', (metricsRes.data as any[]).length, 'metrics');
+          logger.info('[Chronos] Loaded', (metricsRes.data as any[]).length, 'metrics');
         }
 
         // Process deliberations into timeline events
-        console.log('[Chronos] Deliberations API response:', deliberationsRes);
+        logger.info('[Chronos] Deliberations API response:', deliberationsRes);
         const deliberationsData = (deliberationsRes as any).deliberations || deliberationsRes.data || [];
         if (deliberationsRes.success && deliberationsData.length > 0) {
           setRealDeliberations(deliberationsData as any[]);
-          console.log('[Chronos] Loaded', deliberationsData.length, 'deliberations');
+          logger.info('[Chronos] Loaded', deliberationsData.length, 'deliberations');
         } else {
-          console.warn('[Chronos] Failed to load deliberations:', deliberationsRes);
+          logger.warn('[Chronos] Failed to load deliberations:', deliberationsRes);
         }
 
         // Build real timeline events from all sources
@@ -2936,10 +2937,10 @@ export const ChronosPage: React.FC = () => {
                 magnitude: 5,
               });
             });
-            console.log('[Chronos] Added', druidEvents.length, 'events from Apache Druid');
+            logger.info('[Chronos] Added', druidEvents.length, 'events from Apache Druid');
           }
         } catch (druidError) {
-          console.warn(
+          logger.warn(
             '[Chronos] Druid unavailable, continuing with other data sources:',
             druidError
           );
@@ -2977,9 +2978,9 @@ export const ChronosPage: React.FC = () => {
         const combined = [...deduped, ...uniqueGenerated];
         combined.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
         setEvents(combined);
-        console.log('[Chronos] Using', combined.length, 'total events (', deduped.length, 'real +', uniqueGenerated.length, 'generated)');
+        logger.info('[Chronos] Using', combined.length, 'total events (', deduped.length, 'real +', uniqueGenerated.length, 'generated)');
       } catch (error) {
-        console.log('[Chronos] API error, using generated fallback:', error);
+        logger.info('[Chronos] API error, using generated fallback:', error);
         setEvents(generateEvents());
       } finally {
         setIsLoadingData(false);
@@ -3078,7 +3079,7 @@ export const ChronosPage: React.FC = () => {
         Array.isArray(response.data) &&
         response.data.length > 0
       ) {
-        console.log('[ChronosAI] Causal chain analysis complete:', response.data.length, 'links');
+        logger.info('[ChronosAI] Causal chain analysis complete:', response.data.length, 'links');
 
         // Build causal chain from AI response
         const effects = (response.data as any[])
@@ -3107,7 +3108,7 @@ export const ChronosPage: React.FC = () => {
         return;
       }
     } catch (error) {
-      console.log('[ChronosAI] Causal chain analysis failed, using fallback:', error);
+      logger.info('[ChronosAI] Causal chain analysis failed, using fallback:', error);
     }
 
     // Fallback to local generation
@@ -3185,7 +3186,7 @@ export const ChronosPage: React.FC = () => {
           }
         }
       } catch (err) {
-        console.log('[Chronos] Falling back to generated replay:', err);
+        logger.info('[Chronos] Falling back to generated replay:', err);
       }
     }
 
@@ -3216,7 +3217,7 @@ export const ChronosPage: React.FC = () => {
         Array.isArray(response.data) &&
         response.data.length > 0
       ) {
-        console.log('[ChronosAI] Generated', response.data.length, 'future scenarios via AI');
+        logger.info('[ChronosAI] Generated', response.data.length, 'future scenarios via AI');
 
         // Map AI scenarios to MonteCarloResult format
         const aiResult: MonteCarloResult = {
@@ -3237,7 +3238,7 @@ export const ChronosPage: React.FC = () => {
         return;
       }
     } catch (error) {
-      console.log('[ChronosAI] Scenario generation failed, using fallback:', error);
+      logger.info('[ChronosAI] Scenario generation failed, using fallback:', error);
     }
 
     // Fallback to local generation
@@ -3316,7 +3317,7 @@ export const ChronosPage: React.FC = () => {
     // Simulate export generation
     await new Promise((resolve) => setTimeout(resolve, 2000));
     const exportData = generateCourtExport({ start: timeRange.min, end: currentDate });
-    console.log('Court-admissible export generated:', exportData);
+    logger.info('Court-admissible export generated:', exportData);
     setExportInProgress(false);
     setShowCourtExportModal(false);
     // In production, this would trigger a download
@@ -6638,7 +6639,7 @@ const AuditExport: React.FC<{
         }, 250);
       }
     } catch (error) {
-      console.error('Export failed:', error);
+      logger.error('Export failed:', error);
     } finally {
       setExporting(null);
     }
@@ -6739,9 +6740,9 @@ const AuditExport: React.FC<{
       try {
         const signedPackage = await auditPackageApi.sign(currentDate.toISOString(), contents);
         auditData = signedPackage;
-        console.log('[Chronos] Package signed with KMS:', signedPackage.cryptographicProof?.algorithm);
+        logger.info('[Chronos] Package signed with KMS:', signedPackage.cryptographicProof?.algorithm);
       } catch (apiError) {
-        console.warn('[Chronos] KMS signing failed, falling back to client-side hash:', apiError);
+        logger.warn('[Chronos] KMS signing failed, falling back to client-side hash:', apiError);
         // Fallback to client-side hash if backend unavailable
         const contentHash = await crypto.subtle.digest(
           'SHA-256',
@@ -6772,7 +6773,7 @@ const AuditExport: React.FC<{
       // Download JSON
       documentExportService.downloadJSON(auditData as AuditPackageData, `audit-package-${currentDate.toISOString().split('T')[0]}.json`);
     } catch (error) {
-      console.error('Export failed:', error);
+      logger.error('Export failed:', error);
     } finally {
       setExporting(null);
     }
@@ -6888,7 +6889,7 @@ const AuditExport: React.FC<{
         preparedFor: 'Compliance Review',
       });
     } catch (error) {
-      console.error('Viewer failed:', error);
+      logger.error('Viewer failed:', error);
     } finally {
       setExporting(null);
     }
@@ -6903,7 +6904,7 @@ const AuditExport: React.FC<{
     try {
       await documentExportService.downloadBundle(auditData, `audit-bundle-${currentDate.toISOString().split('T')[0]}`);
     } catch (error) {
-      console.error('Bundle failed:', error);
+      logger.error('Bundle failed:', error);
     } finally {
       setExporting(null);
     }

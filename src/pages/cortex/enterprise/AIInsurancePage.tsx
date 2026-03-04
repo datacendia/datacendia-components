@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — A I Insurance Page
  *
@@ -57,7 +58,7 @@ export default function AIInsurancePage() {
       const types = await AIInsuranceService.getCoverageTypes();
       setCoverageTypes(types);
     } catch (error) {
-      console.error('Failed to load data, using demo data:', error);
+      logger.error('Failed to load data, using demo data:', error);
       setCoverageTypes([
         { type: 'errors_omissions' as any, name: 'AI Errors & Omissions', description: 'Coverage for AI system failures, incorrect outputs, and decision errors', basePremium: 25000 },
         { type: 'cyber_liability' as any, name: 'AI Cyber Liability', description: 'Coverage for AI-related data breaches, adversarial attacks, and model theft', basePremium: 35000 },

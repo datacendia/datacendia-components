@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Gnosis Page
  *
@@ -524,7 +525,7 @@ const GnosisPage = () => {
         setReadiness(readinessRes.data as DecisionReadiness);
       }
     } catch (error) {
-      console.error('Failed to fetch Gnosis data:', error);
+      logger.error('Failed to fetch Gnosis data:', error);
     } finally {
       setLoading(false);
     }
@@ -585,11 +586,11 @@ const GnosisPage = () => {
       if (tikaResult) {
         extractedText = tikaResult.text;
         metadata = tikaResult.metadata;
-        console.log('[Gnosis] Tika extracted:', tikaResult.wordCount, 'words from', file.name);
+        logger.info('[Gnosis] Tika extracted:', tikaResult.wordCount, 'words from', file.name);
       } else {
         // Fallback to raw text for plain text files
         extractedText = await file.text();
-        console.log('[Gnosis] Using raw text extraction for:', file.name);
+        logger.info('[Gnosis] Using raw text extraction for:', file.name);
       }
 
       // Upload original file to MinIO
@@ -598,7 +599,7 @@ const GnosisPage = () => {
         type: 'learning-material',
         ...metadata,
       });
-      console.log('[Gnosis] Document uploaded to MinIO:', file.name);
+      logger.info('[Gnosis] Document uploaded to MinIO:', file.name);
 
       // Store extracted text embeddings in pgvector for RAG
       const chunks = await sovereignApi.vector.storeDocument(documentId, extractedText, {
@@ -608,7 +609,7 @@ const GnosisPage = () => {
         wordCount: metadata.wordCount,
         ...metadata,
       });
-      console.log('[Gnosis] Document indexed for RAG:', chunks, 'chunks');
+      logger.info('[Gnosis] Document indexed for RAG:', chunks, 'chunks');
 
       // Queue for additional processing if needed
       await sovereignApi.queue.queueDocumentProcessing({
@@ -622,7 +623,7 @@ const GnosisPage = () => {
 
       return { success: true, documentId, chunks, wordCount: metadata.wordCount };
     } catch (error) {
-      console.error('[Gnosis] Document upload failed:', error);
+      logger.error('[Gnosis] Document upload failed:', error);
       return { success: false, error };
     }
   };
@@ -631,10 +632,10 @@ const GnosisPage = () => {
   const searchKnowledgeBase = async (query: string) => {
     try {
       const results = await sovereignApi.vector.searchSimilar(query, 5, 0.7);
-      console.log('[Gnosis] RAG search results:', results.length);
+      logger.info('[Gnosis] RAG search results:', results.length);
       return results;
     } catch (error) {
-      console.error('[Gnosis] RAG search failed:', error);
+      logger.error('[Gnosis] RAG search failed:', error);
       return [];
     }
   };

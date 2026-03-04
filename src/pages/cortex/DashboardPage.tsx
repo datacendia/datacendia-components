@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Dashboard Page
  *
@@ -264,7 +265,7 @@ export const DashboardPage: React.FC = () => {
     try {
       await selectVertical(verticalId);
     } catch (err) {
-      console.error('Failed to switch vertical:', err);
+      logger.error('Failed to switch vertical:', err);
     }
   };
 
@@ -337,7 +338,7 @@ export const DashboardPage: React.FC = () => {
           setUserName(userResponse.data.name?.split(' ')[0] || 'User');
         }
       } catch (error) {
-        console.error('Dashboard data fetch error:', error);
+        logger.error('Dashboard data fetch error:', error);
         // Use fallbacks on error
         setAlerts(fallbackAlerts);
         setMetrics(fallbackMetrics);

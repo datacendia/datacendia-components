@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Store — Auth Store
  *
@@ -221,7 +222,7 @@ export const useAuthStore = create<AuthState>()(
           // Fallback: demo login when backend is unreachable
           const demoUser = DEMO_USERS[email.toLowerCase()];
           if (demoUser) {
-            console.warn('[Auth] Backend unreachable, using demo login for:', email);
+            logger.warn('[Auth] Backend unreachable, using demo login for:', email);
             set((state) => {
               state.user = demoUser;
               state.token = `demo-token-${Date.now()}`;

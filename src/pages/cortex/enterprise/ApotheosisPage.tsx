@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Apotheosis Page
  *
@@ -118,7 +119,7 @@ export const ApotheosisPage: React.FC = () => {
       setBannedPatterns(patternData);
       setUpskillAssignments(upskillData);
     } catch (error) {
-      console.error('Error loading Apotheosis data:', error);
+      logger.error('Error loading Apotheosis data:', error);
     } finally {
       setIsLoading(false);
     }

@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Onboarding Wizard
  *
@@ -93,7 +94,7 @@ export const OnboardingWizard: React.FC = () => {
         });
         navigate('/cortex');
       } catch (error) {
-        console.error('Failed to save onboarding:', error);
+        logger.error('Failed to save onboarding:', error);
       }
       setIsLoading(false);
     }

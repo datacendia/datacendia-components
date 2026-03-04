@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Veto Service
  *
@@ -377,7 +378,7 @@ class VetoService {
         });
       }
     } catch (error) {
-      console.error('Failed to load veto data from storage:', error);
+      logger.error('Failed to load veto data from storage:', error);
     }
   }
 
@@ -389,7 +390,7 @@ class VetoService {
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     } catch (error) {
-      console.error('Failed to save veto data to storage:', error);
+      logger.error('Failed to save veto data to storage:', error);
     }
   }
 
@@ -583,7 +584,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
         };
       }
     } catch (error) {
-      console.error('Ollama review failed:', error);
+      logger.error('Ollama review failed:', error);
     }
 
     return this.runFallbackReview(decision, agent);

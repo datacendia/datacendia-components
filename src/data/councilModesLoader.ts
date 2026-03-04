@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Data — Council Modes Loader
  *

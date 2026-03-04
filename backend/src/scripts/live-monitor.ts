@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * Module — Live Monitor
  *
@@ -460,4 +461,4 @@ class LiveMonitor {
 // =============================================================================
 
 const monitor = new LiveMonitor();
-monitor.run().catch(console.error);
+monitor.run().catch((err) => logger.error('LiveMonitor failed:', err));

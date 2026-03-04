@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Library — Websocket
  *
@@ -39,7 +40,7 @@ class WebSocketClient {
 
     const token = tokenManager.getAccessToken();
     if (!token) {
-      console.warn('WebSocket: No auth token available');
+      logger.warn('WebSocket: No auth token available');
       return;
     }
 
@@ -52,16 +53,16 @@ class WebSocketClient {
     });
 
     this.socket.on('connect', () => {
-      console.log('WebSocket connected');
+      logger.info('WebSocket connected');
       this.reconnectAttempts = 0;
     });
 
     this.socket.on('disconnect', (reason) => {
-      console.log('WebSocket disconnected:', reason);
+      logger.info('WebSocket disconnected:', reason);
     });
 
     this.socket.on('error', (error) => {
-      console.error('WebSocket error:', error);
+      logger.error('WebSocket error:', error);
     });
 
     // Forward all events to handlers
@@ -104,7 +105,7 @@ class WebSocketClient {
     if (this.socket?.connected) {
       this.socket.emit(event, data);
     } else {
-      console.warn('WebSocket not connected, cannot emit:', event);
+      logger.warn('WebSocket not connected, cannot emit:', event);
     }
   }
 

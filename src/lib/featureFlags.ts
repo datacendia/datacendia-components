@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Library — Feature Flags
  *
@@ -64,7 +65,7 @@ export async function isFeatureEnabled(flag: FeatureFlag): Promise<boolean> {
     });
 
     if (!response.ok) {
-      console.warn(`[FeatureFlags] Failed to fetch flag ${flag}, using default`);
+      logger.warn(`[FeatureFlags] Failed to fetch flag ${flag}, using default`);
       return false;
     }
 
@@ -76,7 +77,7 @@ export async function isFeatureEnabled(flag: FeatureFlag): Promise<boolean> {
 
     return enabled;
   } catch (error) {
-    console.warn(`[FeatureFlags] Error fetching flag ${flag}:`, error);
+    logger.warn(`[FeatureFlags] Error fetching flag ${flag}:`, error);
     return false;
   }
 }
@@ -103,7 +104,7 @@ export async function getAllFeatureFlags(): Promise<Record<FeatureFlag, boolean>
       }
     }
   } catch (error) {
-    console.warn('[FeatureFlags] Error fetching all flags:', error);
+    logger.warn('[FeatureFlags] Error fetching all flags:', error);
   }
 
   // Return with defaults for any missing flags

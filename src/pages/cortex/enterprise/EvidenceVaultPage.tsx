@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Evidence Vault Page
  *
@@ -371,7 +372,7 @@ export const EvidenceVaultPage: React.FC = () => {
       // For now, use mock data filtered by data source
       setPackets(MOCK_PACKETS);
     } catch (error) {
-      console.error('Failed to fetch packets:', error);
+      logger.error('Failed to fetch packets:', error);
     } finally {
       setIsLoading(false);
     }
@@ -392,7 +393,7 @@ export const EvidenceVaultPage: React.FC = () => {
       setApproverMessage('');
       fetchPackets();
     } catch (error) {
-      console.error('Failed to send to approvers:', error);
+      logger.error('Failed to send to approvers:', error);
     }
   };
 
@@ -404,7 +405,7 @@ export const EvidenceVaultPage: React.FC = () => {
       setAttachmentFile(null);
       fetchPackets();
     } catch (error) {
-      console.error('Failed to attach evidence:', error);
+      logger.error('Failed to attach evidence:', error);
     }
   };
 
@@ -416,7 +417,7 @@ export const EvidenceVaultPage: React.FC = () => {
       setBreakGlassJustification('');
       fetchPackets();
     } catch (error) {
-      console.error('Failed to request break-glass export:', error);
+      logger.error('Failed to request break-glass export:', error);
     }
   };
 
@@ -425,7 +426,7 @@ export const EvidenceVaultPage: React.FC = () => {
       // await evidenceVaultApi.lockPacket(packetId);
       fetchPackets();
     } catch (error) {
-      console.error('Failed to lock packet:', error);
+      logger.error('Failed to lock packet:', error);
     }
   };
 
@@ -437,9 +438,9 @@ export const EvidenceVaultPage: React.FC = () => {
       // a.href = url;
       // a.download = `decision-packet-${packetId}.zip`;
       // a.click();
-      console.log('Export packet:', packetId);
+      logger.info('Export packet:', packetId);
     } catch (error) {
-      console.error('Failed to export packet:', error);
+      logger.error('Failed to export packet:', error);
     }
   };
 

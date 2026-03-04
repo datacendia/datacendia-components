@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — D C I I Dashboard Page
  *
@@ -176,7 +177,7 @@ export default function DCIIDashboardPage() {
       setTsaStats(statsData);
       setBenchmarks(benchData);
     } catch (err) {
-      console.error('DCII data fetch failed:', err);
+      logger.error('DCII data fetch failed:', err);
     } finally {
       setLoading(false);
     }
@@ -706,7 +707,7 @@ function MediaAuthTab({ assets }: { assets: any[] }) {
     try {
       await dciiApi(`/media/analyze/${assetId}`, { method: 'POST' });
     } catch (err) {
-      console.error('Analysis failed:', err);
+      logger.error('Analysis failed:', err);
     } finally {
       setAnalyzing(null);
     }
@@ -950,7 +951,7 @@ function SimilarityTab({ decisions, selectedOrg }: { decisions: any[]; selectedO
       });
       setSearchResults(result);
     } catch (err) {
-      console.error('Search failed:', err);
+      logger.error('Search failed:', err);
     } finally {
       setSearching(false);
     }

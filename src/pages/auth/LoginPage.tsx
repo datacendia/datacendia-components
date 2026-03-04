@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -82,7 +83,7 @@ export const LoginPage: React.FC = () => {
   };
 
   const handleEnterpriseSSO = (method: 'ad' | 'saml' | 'oidc' | 'cert') => {
-    console.log(`Enterprise SSO: ${method}`);
+    logger.info(`Enterprise SSO: ${method}`);
   };
 
   return (

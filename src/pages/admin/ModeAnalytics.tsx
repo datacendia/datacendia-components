@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Mode Analytics
  *
@@ -55,7 +56,7 @@ export default function ModeAnalytics() {
           setAnalytics((res.data as any).data || res.data);
         }
       } catch (error) {
-        console.error('Failed to load mode analytics:', error);
+        logger.error('Failed to load mode analytics:', error);
       } finally {
         setIsLoading(false);
       }

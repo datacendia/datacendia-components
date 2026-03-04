@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Tech Team Panel
  *
@@ -122,7 +123,7 @@ export const TechTeamPanel: React.FC = () => {
         }
         // Success notification is handled by the event listener
       } catch (e) {
-        console.error('[TechTeamPanel] Fix request failed:', e);
+        logger.error('[TechTeamPanel] Fix request failed:', e);
         setNotification('Fix request failed');
         setTimeout(() => setNotification(null), 3000);
       } finally {

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Subpages
  *
@@ -113,7 +114,7 @@ export const WorkflowsListPage: React.FC = () => {
           if (mapped.length > 0) {setWorkflows(mapped);}
         }
       } catch (err) {
-        console.log('Using fallback workflows');
+        logger.info('Using fallback workflows');
       } finally {
         setIsLoading(false);
       }
@@ -629,7 +630,7 @@ export const BridgeIntegrationsPage: React.FC = () => {
           if (mapped.length > 0) {setIntegrations(mapped);}
         }
       } catch (err) {
-        console.log('Using fallback integrations');
+        logger.info('Using fallback integrations');
       } finally {
         setIsLoading(false);
       }

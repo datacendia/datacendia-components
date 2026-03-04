@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Control Center Page
  *
@@ -374,7 +375,7 @@ export const ControlCenterPage: React.FC = () => {
       setSuites(suitesData);
       setPricing(pricingData);
     } catch (err) {
-      console.error('Failed to load data:', err);
+      logger.error('Failed to load data:', err);
     } finally {
       setLoading(false);
     }
@@ -386,7 +387,7 @@ export const ControlCenterPage: React.FC = () => {
       setFeatures(features.map((f) => (f.id === id ? { ...f, enabled: !currentEnabled } : f)));
       loadData(); // Refresh dashboard
     } catch (err) {
-      console.error('Failed to toggle feature:', err);
+      logger.error('Failed to toggle feature:', err);
     }
   };
 
@@ -395,7 +396,7 @@ export const ControlCenterPage: React.FC = () => {
       await setVisibility(id, visibility);
       setFeatures(features.map((f) => (f.id === id ? { ...f, visibility: visibility as any } : f)));
     } catch (err) {
-      console.error('Failed to set visibility:', err);
+      logger.error('Failed to set visibility:', err);
     }
   };
 
@@ -405,7 +406,7 @@ export const ControlCenterPage: React.FC = () => {
       setAgents(agents.map((a) => (a.id === id ? { ...a, enabled: !currentEnabled } : a)));
       loadData();
     } catch (err) {
-      console.error('Failed to toggle agent:', err);
+      logger.error('Failed to toggle agent:', err);
     }
   };
 
@@ -414,7 +415,7 @@ export const ControlCenterPage: React.FC = () => {
       await toggleSuite(id, !currentEnabled);
       loadData(); // Full refresh since suite toggle affects features
     } catch (err) {
-      console.error('Failed to toggle suite:', err);
+      logger.error('Failed to toggle suite:', err);
     }
   };
 
@@ -451,7 +452,7 @@ export const ControlCenterPage: React.FC = () => {
         features.map((f) => (f.id === featureId ? { ...f, config: (updated as any).config } : f))
       );
     } catch (err) {
-      console.error('Failed to update feature permissions:', err);
+      logger.error('Failed to update feature permissions:', err);
     }
   };
 
@@ -465,7 +466,7 @@ export const ControlCenterPage: React.FC = () => {
       );
       setEditingPrice(null);
     } catch (err) {
-      console.error('Failed to update price:', err);
+      logger.error('Failed to update price:', err);
     }
   };
 

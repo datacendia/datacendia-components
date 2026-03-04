@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Panopticon Page
  *
@@ -301,7 +302,7 @@ export const PanopticonPage: React.FC = () => {
         setDashboard((dashRes.data as any)?.data || dashRes.data || null);
       }
     } catch (error) {
-      console.error('Failed to load Panopticon data, using demo data:', error);
+      logger.error('Failed to load Panopticon data, using demo data:', error);
       // Fallback demo data when backend unavailable
       setFrameworks([
         { code: 'GDPR', name: 'General Data Protection Regulation', jurisdiction: 'EU', category: 'Privacy', description: 'EU data protection and privacy regulation', requirements: 142 },
@@ -366,7 +367,7 @@ export const PanopticonPage: React.FC = () => {
       await apiClient.api.post('/panopticon/regulations/ingest', { frameworkCode: code });
       await loadData();
     } catch (error) {
-      console.error('Ingest failed:', error);
+      logger.error('Ingest failed:', error);
     } finally {
       setIsIngesting(false);
     }

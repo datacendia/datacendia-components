@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Post Quantum K M S Page
  *
@@ -103,7 +104,7 @@ export default function PostQuantumKMSPage() {
       const response = await api.get('/post-quantum/algorithms');
       setAlgorithms((response.data as any).data);
     } catch (err) {
-      console.error('Failed to load algorithms, using demo data:', err);
+      logger.error('Failed to load algorithms, using demo data:', err);
       setAlgorithms([
         { algorithm: 'dilithium2' as PQAlgorithm, nistLevel: 2, signatureSize: 2420, publicKeySize: 1312, privateKeySize: 2528, description: 'CRYSTALS-Dilithium Level 2 - Balanced security/performance' },
         { algorithm: 'dilithium3' as PQAlgorithm, nistLevel: 3, signatureSize: 3293, publicKeySize: 1952, privateKeySize: 4000, description: 'CRYSTALS-Dilithium Level 3 - Higher security' },
@@ -121,7 +122,7 @@ export default function PostQuantumKMSPage() {
       const response = await api.get('/post-quantum/keys');
       setKeys((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load keys, using demo data:', err);
+      logger.error('Failed to load keys, using demo data:', err);
       setKeys([
         { id: 'pq-key-001', algorithm: 'dilithium3' as PQAlgorithm, publicKey: 'PQ-PUB-a1b2c3d4...', privateKey: '[ENCRYPTED]', createdAt: new Date('2026-01-01'), expiresAt: new Date('2027-01-01'), strength: 'high', nistLevel: 3, rotatedAt: new Date('2026-01-15') },
         { id: 'pq-key-002', algorithm: 'falcon-512' as PQAlgorithm, publicKey: 'PQ-PUB-e5f6g7h8...', privateKey: '[ENCRYPTED]', createdAt: new Date('2025-12-15'), expiresAt: new Date('2026-12-15'), strength: 'standard', nistLevel: 1 },

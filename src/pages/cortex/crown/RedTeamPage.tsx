@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Red Team Page
  *
@@ -113,7 +114,7 @@ const RedTeamPage = () => {
         setEvilTwin(evilTwinRes.data as EvilTwinData);
       }
     } catch (error) {
-      console.error('Failed to fetch RedTeam data:', error);
+      logger.error('Failed to fetch RedTeam data:', error);
     } finally {
       setLoading(false);
     }
@@ -132,7 +133,7 @@ const RedTeamPage = () => {
       });
       await fetchData();
     } catch (error) {
-      console.error('Simulation failed:', error);
+      logger.error('Simulation failed:', error);
     } finally {
       setSimulating(false);
     }
@@ -143,7 +144,7 @@ const RedTeamPage = () => {
       await redteamApi.applyPatch(patchId);
       await fetchData();
     } catch (error) {
-      console.error('Failed to apply patch:', error);
+      logger.error('Failed to apply patch:', error);
     }
   };
 

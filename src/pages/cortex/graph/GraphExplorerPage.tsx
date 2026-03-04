@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Graph Explorer Page
  *
@@ -352,14 +353,14 @@ export const GraphExplorerPage: React.FC = () => {
                 setEdges([]);
               }
             } catch (relErr) {
-              console.error('Graph relationships load error:', relErr);
+              logger.error('Graph relationships load error:', relErr);
               setEdges([]);
             }
           }
         }
       } catch (err) {
         setError('Failed to load graph data');
-        console.error('Graph load error:', err);
+        logger.error('Graph load error:', err);
       } finally {
         setIsLoading(false);
       }
@@ -405,7 +406,7 @@ export const GraphExplorerPage: React.FC = () => {
     if (selectedEntity) {
       const impactRes = await lineageApi.getImpact(selectedEntity.id);
       if (impactRes.success) {
-        console.log('Impact analysis:', impactRes.data);
+        logger.info('Impact analysis:', impactRes.data);
         // Could open a modal or navigate to impact view
       }
     }

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Cross Jurisdiction Page
  *
@@ -95,7 +96,7 @@ export default function CrossJurisdictionPage() {
       const response = await api.get('/cross-jurisdiction/jurisdictions');
       setJurisdictions((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load jurisdictions, using demo data:', err);
+      logger.error('Failed to load jurisdictions, using demo data:', err);
       setJurisdictions([
         { code: 'US_FEDERAL', name: 'United States (Federal)', region: 'North America', frameworks: ['HIPAA', 'SOX', 'FERPA'], dataResidency: 'flexible', crossBorderRestrictions: ['ITAR', 'EAR'] },
         { code: 'EU', name: 'European Union', region: 'Europe', frameworks: ['GDPR', 'DORA', 'EU AI Act'], dataResidency: 'required', crossBorderRestrictions: ['SCCs required', 'Adequacy decision needed'] },
@@ -113,7 +114,7 @@ export default function CrossJurisdictionPage() {
       const response = await api.get('/cross-jurisdiction/matrix');
       setMatrix((response.data as any).data);
     } catch (err) {
-      console.error('Failed to load matrix, using demo data:', err);
+      logger.error('Failed to load matrix, using demo data:', err);
       setMatrix({
         jurisdictions: ['US_FEDERAL', 'EU', 'UK', 'CA', 'SG', 'AU', 'CN'],
         matrix: {
@@ -140,7 +141,7 @@ export default function CrossJurisdictionPage() {
       });
       setAssessment((response.data as any).data);
     } catch (err) {
-      console.error('Failed to assess transfer:', err);
+      logger.error('Failed to assess transfer:', err);
     } finally {
       setLoading(false);
     }

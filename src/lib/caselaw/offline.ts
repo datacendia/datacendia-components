@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Library — Offline
  *
@@ -119,7 +120,7 @@ class OfflineCaselawService {
       }
       this.isInitialized = true;
     } catch (error) {
-      console.warn('Could not load offline caselaw metadata:', error);
+      logger.warn('Could not load offline caselaw metadata:', error);
       this.reportersMetadata = [];
     }
   }
@@ -148,11 +149,11 @@ class OfflineCaselawService {
       // For Node/Electron: read from filesystem
       
       // Placeholder - in production, implement proper file loading
-      console.log(`Indexing reporter: ${reporterSlug}`);
+      logger.info(`Indexing reporter: ${reporterSlug}`);
       this.indexedReporters.add(reporterSlug);
       
     } catch (error) {
-      console.error(`Error indexing reporter ${reporterSlug}:`, error);
+      logger.error(`Error indexing reporter ${reporterSlug}:`, error);
     }
 
     return casesIndexed;

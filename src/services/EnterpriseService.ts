@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Enterprise Service
  *
@@ -408,10 +409,10 @@ class EnterpriseService {
           m.lastUsed = new Date(m.lastUsed);
           this.deployedModels.set(m.id, m);
         });
-        console.log('[Enterprise] Loaded data from storage');
+        logger.info('[Enterprise] Loaded data from storage');
       }
     } catch (error) {
-      console.error('[Enterprise] Failed to load:', error);
+      logger.error('[Enterprise] Failed to load:', error);
     }
   }
 
@@ -426,7 +427,7 @@ class EnterpriseService {
       };
       localStorage.setItem(this.storageKey, JSON.stringify(data));
     } catch (error) {
-      console.error('[Enterprise] Failed to save:', error);
+      logger.error('[Enterprise] Failed to save:', error);
     }
   }
 

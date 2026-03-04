@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Decision Debt Page
  *
@@ -47,7 +48,7 @@ export const DecisionDebtPage: React.FC = () => {
       const dashboardData = decisionIntelligenceService.getDecisionDebtDashboard();
       setDashboard(dashboardData);
     } catch (err) {
-      console.error('Failed to load dashboard:', err);
+      logger.error('Failed to load dashboard:', err);
     } finally {
       setIsLoading(false);
     }

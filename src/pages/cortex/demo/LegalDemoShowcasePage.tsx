@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Legal Demo Showcase Page
  *
@@ -101,7 +102,7 @@ const LegalDemoShowcasePage: React.FC = () => {
         setQuickPrompts(data.quickPrompts || {});
       }
     } catch (error) {
-      console.error('Failed to fetch scenarios:', error);
+      logger.error('Failed to fetch scenarios:', error);
     } finally {
       setLoading(false);
     }
@@ -115,7 +116,7 @@ const LegalDemoShowcasePage: React.FC = () => {
         setMaterials(data.materials);
       }
     } catch (error) {
-      console.error('Failed to fetch materials:', error);
+      logger.error('Failed to fetch materials:', error);
     }
   };
 
@@ -127,7 +128,7 @@ const LegalDemoShowcasePage: React.FC = () => {
         setApiStatus(data.status);
       }
     } catch (error) {
-      console.error('Failed to fetch API status:', error);
+      logger.error('Failed to fetch API status:', error);
     }
   };
 

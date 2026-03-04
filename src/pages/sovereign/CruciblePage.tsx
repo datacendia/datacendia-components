@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Crucible Page
  *
@@ -870,7 +871,7 @@ export const CruciblePage: React.FC = () => {
         setRecentSimulations([]);
       }
     } catch (error) {
-      console.error('Failed to load Crucible data, using demo data:', error);
+      logger.error('Failed to load Crucible data, using demo data:', error);
       loadedTemplates = [
         { type: 'FINANCIAL_STRESS', name: 'Financial Stress Test', description: 'Sudden 30% revenue decline with cost increases', shockCount: 3, shocks: [{ target: 'revenue', type: 'decline', value: -30, timing: 'immediate', duration: 90 }, { target: 'costs', type: 'increase', value: 15, timing: 'gradual', duration: 180 }, { target: 'cashflow', type: 'decline', value: -25, timing: 'delayed' }] },
         { type: 'CYBER_ATTACK', name: 'Cybersecurity Incident', description: 'Complete system unavailability and reputation damage', shockCount: 4, shocks: [{ target: 'systems', type: 'outage', value: -100, timing: 'immediate' }, { target: 'security_score', type: 'decline', value: -80, timing: 'immediate' }, { target: 'reputation', type: 'decline', value: -40, timing: 'gradual', duration: 180 }, { target: 'recovery_cost', type: 'increase', value: 500, timing: 'immediate' }] },
@@ -952,7 +953,7 @@ export const CruciblePage: React.FC = () => {
         }
       }
     } catch (error) {
-      console.error('Simulation failed:', error);
+      logger.error('Simulation failed:', error);
     } finally {
       setIsRunning(false);
     }
@@ -1761,8 +1762,8 @@ export const CruciblePage: React.FC = () => {
               <div className="mb-8">
                 <EnhancedResultsPanel
                   simulation={activeSimulation}
-                  onExport={() => console.log('Export report')}
-                  onShare={() => console.log('Share with board')}
+                  onExport={() => logger.info('Export report')}
+                  onShare={() => logger.info('Share with board')}
                   onRerun={() => runSimulation(activeSimulation.simulation_type)}
                 />
               </div>

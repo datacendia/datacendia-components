@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Vault Page
  *
@@ -76,7 +77,7 @@ const VaultPage: React.FC = () => {
       setArtifacts(artifactsRes.data || getMockArtifacts());
       setStats(statsRes.data || getMockStats());
     } catch (error) {
-      console.error('[CendiaVault] Failed to load data:', error);
+      logger.error('[CendiaVault] Failed to load data:', error);
       setArtifacts(getMockArtifacts());
       setStats(getMockStats());
     } finally {

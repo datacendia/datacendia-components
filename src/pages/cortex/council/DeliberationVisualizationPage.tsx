@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Deliberation Visualization Page
  *
@@ -233,7 +234,7 @@ export const DeliberationVisualizationPage: React.FC = () => {
         setConsensusLevel(72);
       }
     } catch (error) {
-      console.error('Failed to load deliberation:', error);
+      logger.error('Failed to load deliberation:', error);
       // Use TR demo data on error
       setAgents(TR_DEMO_AGENTS);
       setTimeline(TR_DEMO_TIMELINE);

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Regulatory Absorb Page
  *
@@ -261,7 +262,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
         setResult(payload.result as AbsorptionResult);
       }
     } catch (err) {
-      console.error('Absorption failed:', err);
+      logger.error('Absorption failed:', err);
     } finally {
       setIsProcessing(false);
     }

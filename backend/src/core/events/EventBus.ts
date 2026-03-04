@@ -199,7 +199,7 @@ class EventBus {
         try {
           await this.executeHandler(sub, event);
         } catch (error) {
-          console.error(`[EventBus] Sync handler error for ${event.type}:`, error);
+          logger.error(`[EventBus] Sync handler error for ${event.type}:`, error);
         }
       }
     }
@@ -452,7 +452,7 @@ class EventBus {
         return;
       } catch (error: unknown) {
         lastError = ensureError(error);
-        console.error(
+        logger.error(
           `[EventBus] Handler error (attempt ${attempt + 1}):`,
           getErrorMessage(error)
         );

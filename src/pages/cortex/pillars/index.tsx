@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Index
  *
@@ -204,7 +205,7 @@ export const HelmPage: React.FC = () => {
         setDashboard(null);
         setError(res.error?.message || 'Failed to load helm data');
       } catch (err) {
-        console.error('Failed to load helm data:', err);
+        logger.error('Failed to load helm data:', err);
         setDashboard(null);
         setError(err instanceof Error ? err.message : 'Failed to load helm data');
       } finally {
@@ -903,7 +904,7 @@ export const LineagePage: React.FC = () => {
           );
         }
       } catch (err) {
-        console.error('Failed to load lineage data:', err);
+        logger.error('Failed to load lineage data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load lineage data');
       } finally {
         setIsLoading(false);
@@ -1108,7 +1109,7 @@ export const PredictPage: React.FC = () => {
           );
         }
       } catch (err) {
-        console.error('Failed to load predict data:', err);
+        logger.error('Failed to load predict data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load prediction models');
       } finally {
         setIsLoading(false);
@@ -1287,7 +1288,7 @@ export const FlowPage: React.FC = () => {
           setError(statsRes.error?.message || execRes.error?.message || 'Failed to load flow data');
         }
       } catch (err) {
-        console.error('Failed to load flow data:', err);
+        logger.error('Failed to load flow data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load flow data');
       } finally {
         setIsLoading(false);
@@ -1483,7 +1484,7 @@ export const HealthPage: React.FC = () => {
           );
         }
       } catch (err) {
-        console.error('Failed to load health data:', err);
+        logger.error('Failed to load health data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load health data');
       } finally {
         setIsLoading(false);
@@ -1856,7 +1857,7 @@ export const GuardPage: React.FC = () => {
           setThreats(threatsRes.data);
         }
       } catch (err) {
-        console.error('Failed to load security data:', err);
+        logger.error('Failed to load security data:', err);
         setError('Failed to load security data');
       } finally {
         setIsLoading(false);
@@ -2271,7 +2272,7 @@ export const EthicsPage: React.FC = () => {
           );
         }
       } catch (err) {
-        console.error('Failed to load ethics data:', err);
+        logger.error('Failed to load ethics data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load ethics data');
       } finally {
         setIsLoading(false);
@@ -2627,7 +2628,7 @@ export const AgentsPage: React.FC = () => {
           );
         }
       } catch (err) {
-        console.error('Failed to load agents data:', err);
+        logger.error('Failed to load agents data:', err);
         setError(err instanceof Error ? err.message : 'Failed to load agents data');
       } finally {
         setIsLoading(false);

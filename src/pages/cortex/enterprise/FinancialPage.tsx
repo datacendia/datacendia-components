@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Financial Page
  *
@@ -409,13 +410,13 @@ export const FinancialPage: React.FC = () => {
         ]);
 
         if (regulatoryRes.success && regulatoryRes.data) {
-          console.log('[Financial] Loaded', regulatoryRes.data.length, 'regulatory items');
+          logger.info('[Financial] Loaded', regulatoryRes.data.length, 'regulatory items');
         }
         if (preMortemRes.success && preMortemRes.data) {
-          console.log('[Financial] Loaded', preMortemRes.data.length, 'risk analyses');
+          logger.info('[Financial] Loaded', preMortemRes.data.length, 'risk analyses');
         }
       } catch (error) {
-        console.log('[Financial] Using local generators (API unavailable)');
+        logger.info('[Financial] Using local generators (API unavailable)');
       } finally {
         setIsLoading(false);
       }

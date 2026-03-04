@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Schema Mapping Page
  *
@@ -158,7 +159,7 @@ export const SchemaMappingPage: React.FC = () => {
         setDataSources(data.dataSources || []);
       }
     } catch (error) {
-      console.error('Failed to load data sources:', error);
+      logger.error('Failed to load data sources:', error);
       // Use mock data for demo
       setDataSources([
         { id: 'ds-1', name: 'Production PostgreSQL', type: 'POSTGRESQL', status: 'connected' },
@@ -222,7 +223,7 @@ export const SchemaMappingPage: React.FC = () => {
         },
       ]);
     } catch (error) {
-      console.error('Failed to load schema:', error);
+      logger.error('Failed to load schema:', error);
     } finally {
       setIsLoading(false);
     }
@@ -255,7 +256,7 @@ export const SchemaMappingPage: React.FC = () => {
         });
       }
     } catch (error) {
-      console.error('Failed to suggest mappings:', error);
+      logger.error('Failed to suggest mappings:', error);
     } finally {
       setIsLoading(false);
     }
@@ -277,7 +278,7 @@ export const SchemaMappingPage: React.FC = () => {
         setMapping(data.mapping);
       }
     } catch (error) {
-      console.error('Failed to save mapping:', error);
+      logger.error('Failed to save mapping:', error);
     } finally {
       setIsSaving(false);
     }
@@ -325,7 +326,7 @@ export const SchemaMappingPage: React.FC = () => {
         setShowPreview(true);
       }
     } catch (error) {
-      console.error('Failed to preview query:', error);
+      logger.error('Failed to preview query:', error);
     }
   };
 

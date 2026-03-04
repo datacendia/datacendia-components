@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Eternal Page
  *
@@ -178,7 +179,7 @@ export const EternalPage: React.FC = () => {
         setDashboard((dashRes.data as any)?.data || dashRes.data || null);
       }
     } catch (error) {
-      console.error('Failed to load Eternal data:', error);
+      logger.error('Failed to load Eternal data:', error);
     } finally {
       setIsLoading(false);
     }
@@ -198,7 +199,7 @@ export const EternalPage: React.FC = () => {
       });
       await loadData();
     } catch (error) {
-      console.error('Archive failed:', error);
+      logger.error('Archive failed:', error);
     }
   };
 
@@ -207,7 +208,7 @@ export const EternalPage: React.FC = () => {
       await apiClient.api.post(`/eternal/artifacts/${id}/verify`, { validationType: 'MANUAL' });
       await loadData();
     } catch (error) {
-      console.error('Verification failed:', error);
+      logger.error('Verification failed:', error);
     }
   };
 

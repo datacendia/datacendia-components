@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -151,7 +152,7 @@ export const OrganizationSettingsPage: React.FC = () => {
         description: `Dashboard and services updated for ${newIndustry.replace('-', ' ')} vertical`,
       });
     } catch (err) {
-      console.error('Failed to update vertical:', err);
+      logger.error('Failed to update vertical:', err);
     }
   };
 
@@ -477,7 +478,7 @@ export const UsersSettingsPage: React.FC = () => {
         setUsers(data.users);
         setMetrics(data.metrics);
       } catch (err) {
-        console.error('Failed to load users:', err);
+        logger.error('Failed to load users:', err);
       } finally {
         setLoading(false);
       }

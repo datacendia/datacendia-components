@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Mesh Page
  *
@@ -571,7 +572,7 @@ export const MeshPage: React.FC = () => {
           setRiskSignals(mappedSignals);
         }
       } catch (error) {
-        console.error('[Mesh] Data load error:', error);
+        logger.error('[Mesh] Data load error:', error);
       } finally {
         setIsLoading(false);
       }

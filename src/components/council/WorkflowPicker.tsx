@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Workflow Picker
  *
@@ -364,7 +365,7 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
           setScenarios(allScenarios);
         }
       } catch (err) {
-        console.error('Failed to load workflow scenarios:', err);
+        logger.error('Failed to load workflow scenarios:', err);
         setError('Failed to load workflow scenarios');
       } finally {
         setLoading(false);

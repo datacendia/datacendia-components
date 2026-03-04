@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Live Demo Page
  *
@@ -66,7 +67,7 @@ export const LiveDemoPage: React.FC = () => {
         setTimeout(() => simulateConnection(payload.session.id), 2000);
       }
     } catch (err) {
-      console.error('Failed to start session:', err);
+      logger.error('Failed to start session:', err);
     }
   };
 
@@ -83,7 +84,7 @@ export const LiveDemoPage: React.FC = () => {
         setIsConnecting(false);
       }
     } catch (err) {
-      console.error('Connection failed:', err);
+      logger.error('Connection failed:', err);
       setIsConnecting(false);
     }
   };
@@ -106,7 +107,7 @@ export const LiveDemoPage: React.FC = () => {
         setDeliberationResult(payload.result);
       }
     } catch (err) {
-      console.error('Deliberation failed:', err);
+      logger.error('Deliberation failed:', err);
     } finally {
       setIsDeliberating(false);
     }

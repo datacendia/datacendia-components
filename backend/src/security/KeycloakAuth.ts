@@ -213,7 +213,7 @@ export function protect(role?: CendiaRole | CendiaRole[]) {
         next();
       });
     } catch (error: unknown) {
-      console.error('[Keycloak] Auth error:', getErrorMessage(error));
+      logger.error('[Keycloak] Auth error:', getErrorMessage(error));
       return res.status(401).json({
         success: false,
         error: { code: 'AUTH_ERROR', message: getErrorMessage(error) },

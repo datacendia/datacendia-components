@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Aegis Page
  *
@@ -217,7 +218,7 @@ export const AegisPage: React.FC = () => {
         setDashboard((dashRes.data as any)?.data || dashRes.data || null);
       }
     } catch (error) {
-      console.error('Failed to load Aegis data:', error);
+      logger.error('Failed to load Aegis data:', error);
     } finally {
       setIsLoading(false);
     }
@@ -245,7 +246,7 @@ export const AegisPage: React.FC = () => {
       });
       await loadData();
     } catch (error) {
-      console.error('Failed to create threat:', error);
+      logger.error('Failed to create threat:', error);
     }
   };
 

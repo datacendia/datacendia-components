@@ -186,7 +186,7 @@ class PolicyEngine {
       this.isInitialized = true;
       logger.info('[PolicyEngine] Initialized with', DEFAULT_POLICIES.length, 'policies');
     } catch (error: unknown) {
-      console.error('[PolicyEngine] Initialization failed:', getErrorMessage(error));
+      logger.error('[PolicyEngine] Initialization failed:', getErrorMessage(error));
       throw error;
     }
   }
@@ -207,7 +207,7 @@ class PolicyEngine {
       
       return allowed;
     } catch (error: unknown) {
-      console.error('[PolicyEngine] Enforcement error:', getErrorMessage(error));
+      logger.error('[PolicyEngine] Enforcement error:', getErrorMessage(error));
       return false;
     }
   }

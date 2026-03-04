@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Component — Error Boundary
  *
@@ -37,7 +38,7 @@ class ErrorBoundary extends Component<Props, State> {
   }
 
   public componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
-    console.error('Uncaught error:', error, errorInfo);
+    logger.error('Uncaught error:', error, errorInfo);
     this.setState({ errorInfo });
 
     // Send to error tracking service

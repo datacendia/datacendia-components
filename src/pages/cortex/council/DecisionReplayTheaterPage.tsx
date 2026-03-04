@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Decision Replay Theater Page
  *
@@ -188,7 +189,7 @@ export const DecisionReplayTheaterPage: React.FC = () => {
         setSessions(FALLBACK_SESSIONS);
       }
     } catch (error) {
-      console.error('Failed to load sessions:', error);
+      logger.error('Failed to load sessions:', error);
       setSessions(FALLBACK_SESSIONS);
     } finally {
       setIsLoading(false);
@@ -234,7 +235,7 @@ export const DecisionReplayTheaterPage: React.FC = () => {
         setFrames(FALLBACK_FRAMES);
       }
     } catch (error) {
-      console.error('Failed to load frames:', error);
+      logger.error('Failed to load frames:', error);
       setFrames(FALLBACK_FRAMES);
     }
   };

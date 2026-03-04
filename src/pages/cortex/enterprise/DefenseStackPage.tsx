@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Defense Stack Page
  *
@@ -479,13 +480,13 @@ export const DefenseStackPage: React.FC = () => {
         ]);
 
         if (preMortemRes.success && preMortemRes.data) {
-          console.log('[DefenseStack] Loaded', preMortemRes.data.length, 'risk analyses');
+          logger.info('[DefenseStack] Loaded', preMortemRes.data.length, 'risk analyses');
         }
         if (regulatoryRes.success && regulatoryRes.data) {
-          console.log('[DefenseStack] Loaded', regulatoryRes.data.length, 'regulatory items');
+          logger.info('[DefenseStack] Loaded', regulatoryRes.data.length, 'regulatory items');
         }
       } catch (error) {
-        console.log('[DefenseStack] Using local generators (API unavailable)');
+        logger.info('[DefenseStack] Using local generators (API unavailable)');
       } finally {
         setIsLoading(false);
       }

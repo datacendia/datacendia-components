@@ -69,10 +69,10 @@ export function initTracing(): void {
     process.on('SIGTERM', () => {
       sdk?.shutdown()
         .then(() => logger.info('[Tracing] Shutdown complete'))
-        .catch((err) => console.error('[Tracing] Shutdown error:', err));
+        .catch((err) => logger.error('[Tracing] Shutdown error:', err));
     });
   } catch (error: unknown) {
-    console.error('[Tracing] Initialization failed:', getErrorMessage(error));
+    logger.error('[Tracing] Initialization failed:', getErrorMessage(error));
   }
 }
 

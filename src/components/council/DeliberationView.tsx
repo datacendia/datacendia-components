@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Deliberation View
  *
@@ -148,7 +149,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         type: intervention.type,
       });
     } catch (err) {
-      console.log('User intervention sent locally');
+      logger.info('User intervention sent locally');
     }
 
     setShowInterventionPanel(false);

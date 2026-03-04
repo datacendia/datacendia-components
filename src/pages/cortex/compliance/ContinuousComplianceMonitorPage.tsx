@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Continuous Compliance Monitor Page
  *
@@ -131,7 +132,7 @@ export default function ContinuousComplianceMonitorPage() {
         setSelectedFramework(data[0].id);
       }
     } catch (err) {
-      console.error('Failed to load frameworks, using demo data:', err);
+      logger.error('Failed to load frameworks, using demo data:', err);
       const now = new Date();
       const demoFrameworks: ComplianceFramework[] = [
         { id: 'eu-ai-act', name: 'EU AI Act', version: '2024', controlCount: 96, implementedCount: 72, compliantCount: 60, status: 'warning', lastScanned: now, driftDetected: true },
@@ -151,7 +152,7 @@ export default function ContinuousComplianceMonitorPage() {
       const response = await api.get(`/compliance-monitor/frameworks/${frameworkId}/controls`);
       setControls((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load controls:', err);
+      logger.error('Failed to load controls:', err);
     }
   };
 
@@ -160,7 +161,7 @@ export default function ContinuousComplianceMonitorPage() {
       const response = await api.get('/compliance-monitor/scans');
       setScans((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load scans, using demo data:', err);
+      logger.error('Failed to load scans, using demo data:', err);
       setScans([
         { id: 'scan-1', frameworkId: 'gdpr', status: 'completed', startedAt: new Date(Date.now() - 3600000).toISOString(), completedAt: new Date().toISOString(), findings: 3, score: 88 } as any,
         { id: 'scan-2', frameworkId: 'eu-ai-act', status: 'completed', startedAt: new Date(Date.now() - 7200000).toISOString(), completedAt: new Date(Date.now() - 3600000).toISOString(), findings: 12, score: 62 } as any,
@@ -174,7 +175,7 @@ export default function ContinuousComplianceMonitorPage() {
       const response = await api.get('/compliance-monitor/alerts');
       setAlerts((response.data as any).data || []);
     } catch (err) {
-      console.error('Failed to load alerts, using demo data:', err);
+      logger.error('Failed to load alerts, using demo data:', err);
       setAlerts([
         { id: 'alert-1', frameworkId: 'dora', severity: 'high', title: 'ICT third-party risk assessment overdue', description: '3 critical vendors not assessed within DORA timeline', createdAt: new Date().toISOString(), acknowledged: false } as any,
         { id: 'alert-2', frameworkId: 'eu-ai-act', severity: 'medium', title: 'AI model documentation incomplete', description: 'High-risk AI system transparency requirements not met', createdAt: new Date(Date.now() - 86400000).toISOString(), acknowledged: false } as any,
@@ -190,7 +191,7 @@ export default function ContinuousComplianceMonitorPage() {
       await loadScans();
       await loadFrameworks();
     } catch (err) {
-      console.error('Failed to start scan:', err);
+      logger.error('Failed to start scan:', err);
     } finally {
       setScanningFramework(null);
     }
@@ -201,7 +202,7 @@ export default function ContinuousComplianceMonitorPage() {
       await api.post(`/compliance-monitor/alerts/${alertId}/acknowledge`);
       setAlerts(alerts.map(a => a.id === alertId ? { ...a, acknowledged: true } : a));
     } catch (err) {
-      console.error('Failed to acknowledge alert:', err);
+      logger.error('Failed to acknowledge alert:', err);
     }
   };
 

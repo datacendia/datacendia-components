@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — System Health Page
  *
@@ -100,7 +101,7 @@ async function fetchHealthDashboard(): Promise<HealthDashboard> {
     const res = await api.get<any>(`${API_BASE}/health`);
     return (res as any)?.data || (res as any) || getDefaultDashboard();
   } catch (error) {
-    console.error('Failed to fetch health dashboard:', error);
+    logger.error('Failed to fetch health dashboard:', error);
     return getDefaultDashboard();
   }
 }
@@ -110,7 +111,7 @@ async function acknowledgeAlert(alertId: string): Promise<boolean> {
     await api.post<any>(`${API_BASE}/health/alerts/${alertId}/acknowledge`, {});
     return true;
   } catch (error) {
-    console.error('Failed to acknowledge alert:', error);
+    logger.error('Failed to acknowledge alert:', error);
     return false;
   }
 }
@@ -284,7 +285,7 @@ export const SystemHealthPage: React.FC = () => {
       const data = await fetchHealthDashboard();
       setDashboard(data);
     } catch (error) {
-      console.error('Failed to load health dashboard:', error);
+      logger.error('Failed to load health dashboard:', error);
     } finally {
       setLoading(false);
     }

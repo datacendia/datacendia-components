@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Cascade Page
  *
@@ -281,7 +282,7 @@ const CascadePage: React.FC = () => {
       
       // Auto-load sample graph if no nodes exist (for demo purposes)
       if (!stats || stats.nodeCount === 0) {
-        console.log('[Cascade] No graph loaded, auto-loading sample graph for demo...');
+        logger.info('[Cascade] No graph loaded, auto-loading sample graph for demo...');
         await loadSampleGraph();
       }
     };
@@ -297,7 +298,7 @@ const CascadePage: React.FC = () => {
         setReports(data.reports || []);
       }
     } catch (error) {
-      console.error('Failed to load reports:', error);
+      logger.error('Failed to load reports:', error);
     }
   };
 
@@ -311,7 +312,7 @@ const CascadePage: React.FC = () => {
       }
       return null;
     } catch (error) {
-      console.error('Failed to load graph stats:', error);
+      logger.error('Failed to load graph stats:', error);
       return null;
     }
   };
@@ -369,11 +370,11 @@ const CascadePage: React.FC = () => {
         await loadGraphStats();
         await loadAvailableNodes();
         if (!silent) {
-          console.log('[Cascade] Sample organization graph loaded');
+          logger.info('[Cascade] Sample organization graph loaded');
         }
       }
     } catch (error) {
-      console.error('Failed to load sample graph:', error);
+      logger.error('Failed to load sample graph:', error);
     }
   };
 
@@ -405,7 +406,7 @@ const CascadePage: React.FC = () => {
       }
     } catch (error) {
       // Fallback to demo mode when backend unavailable
-      console.log('Backend unavailable, using demo mode');
+      logger.info('Backend unavailable, using demo mode');
       const demoReport = generateDemoReport(changeForm);
       setSelectedReport(demoReport);
       setReports((prev) => [demoReport, ...prev]);

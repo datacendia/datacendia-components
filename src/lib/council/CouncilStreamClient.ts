@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Library — Council Stream Client
  *
@@ -123,7 +124,7 @@ export class CouncilStreamClient {
         this.ws = new WebSocket(this.url);
 
         this.ws.onopen = () => {
-          console.log('[CouncilStream] Connected');
+          logger.info('[CouncilStream] Connected');
           this.isConnecting = false;
           this.reconnectAttempts = 0;
           this.startHeartbeat();
@@ -138,7 +139,7 @@ export class CouncilStreamClient {
         };
 
         this.ws.onclose = (event) => {
-          console.log('[CouncilStream] Disconnected', event.code, event.reason);
+          logger.info('[CouncilStream] Disconnected', event.code, event.reason);
           this.isConnecting = false;
           this.stopHeartbeat();
           this.notifyConnectionListeners(false);
@@ -146,7 +147,7 @@ export class CouncilStreamClient {
         };
 
         this.ws.onerror = (error) => {
-          console.error('[CouncilStream] Error', error);
+          logger.error('[CouncilStream] Error', error);
           this.isConnecting = false;
           reject(error);
         };
@@ -171,14 +172,14 @@ export class CouncilStreamClient {
 
   private attemptReconnect(): void {
     if (this.reconnectAttempts >= this.maxReconnectAttempts) {
-      console.log('[CouncilStream] Max reconnect attempts reached');
+      logger.info('[CouncilStream] Max reconnect attempts reached');
       return;
     }
 
     this.reconnectAttempts++;
     const delay = this.reconnectDelay * Math.pow(2, this.reconnectAttempts - 1);
 
-    console.log(`[CouncilStream] Reconnecting in ${delay}ms (attempt ${this.reconnectAttempts})`);
+    logger.info(`[CouncilStream] Reconnecting in ${delay}ms (attempt ${this.reconnectAttempts})`);
 
     setTimeout(() => {
       this.connect().catch(() => {
@@ -214,11 +215,11 @@ export class CouncilStreamClient {
 
       switch (message.type) {
         case 'connected':
-          console.log('[CouncilStream] Client ID:', message.clientId);
+          logger.info('[CouncilStream] Client ID:', message.clientId);
           break;
 
         case 'subscribed':
-          console.log('[CouncilStream] Subscribed to:', message.deliberationId);
+          logger.info('[CouncilStream] Subscribed to:', message.deliberationId);
           break;
 
         case 'deliberation_state':
@@ -226,7 +227,7 @@ export class CouncilStreamClient {
           break;
 
         case 'deliberation_started':
-          console.log('[CouncilStream] Deliberation started:', message.deliberationId);
+          logger.info('[CouncilStream] Deliberation started:', message.deliberationId);
           this.subscribedDeliberations.add(message.deliberationId);
           break;
 
@@ -239,14 +240,14 @@ export class CouncilStreamClient {
           break;
 
         case 'error':
-          console.error('[CouncilStream] Server error:', message.message);
+          logger.error('[CouncilStream] Server error:', message.message);
           break;
 
         default:
-          console.log('[CouncilStream] Unknown message:', message.type);
+          logger.info('[CouncilStream] Unknown message:', message.type);
       }
     } catch (error) {
-      console.error('[CouncilStream] Failed to parse message:', error);
+      logger.error('[CouncilStream] Failed to parse message:', error);
     }
   }
 
@@ -472,7 +473,7 @@ export class CouncilStreamClient {
     if (this.ws?.readyState === WebSocket.OPEN) {
       this.ws.send(JSON.stringify(message));
     } else {
-      console.warn('[CouncilStream] Cannot send - not connected');
+      logger.warn('[CouncilStream] Cannot send - not connected');
     }
   }
 }

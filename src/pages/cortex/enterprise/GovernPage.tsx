@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Govern Page
  *
@@ -553,13 +554,13 @@ export const GovernPage: React.FC = () => {
         ]);
 
         if (policiesRes.success && policiesRes.data) {
-          console.log('[Govern] Loaded', policiesRes.data.length, 'policies from database');
+          logger.info('[Govern] Loaded', policiesRes.data.length, 'policies from database');
         }
         if (auditsRes.success && auditsRes.data) {
-          console.log('[Govern] Loaded', auditsRes.data.length, 'audits from database');
+          logger.info('[Govern] Loaded', auditsRes.data.length, 'audits from database');
         }
       } catch (error) {
-        console.log('[Govern] Using local generators (API unavailable)');
+        logger.info('[Govern] Using local generators (API unavailable)');
       } finally {
         setIsLoading(false);
       }

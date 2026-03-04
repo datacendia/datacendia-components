@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Marketing Studio Page
  *
@@ -137,7 +138,7 @@ export default function MarketingStudioPage() {
       });
       setVideoScript((response.data as any).data);
     } catch (err) {
-      console.error('Failed to generate video script:', err);
+      logger.error('Failed to generate video script:', err);
     } finally {
       setLoading(false);
     }
@@ -155,7 +156,7 @@ export default function MarketingStudioPage() {
       });
       setImagePrompt((response.data as any).data);
     } catch (err) {
-      console.error('Failed to generate image prompt:', err);
+      logger.error('Failed to generate image prompt:', err);
     } finally {
       setLoading(false);
     }
@@ -172,7 +173,7 @@ export default function MarketingStudioPage() {
       });
       setPitchDeck((response.data as any).data);
     } catch (err) {
-      console.error('Failed to generate pitch deck:', err);
+      logger.error('Failed to generate pitch deck:', err);
     } finally {
       setLoading(false);
     }
@@ -190,7 +191,7 @@ export default function MarketingStudioPage() {
       });
       setMarketingCopy((response.data as any).data);
     } catch (err) {
-      console.error('Failed to generate marketing copy:', err);
+      logger.error('Failed to generate marketing copy:', err);
     } finally {
       setLoading(false);
     }

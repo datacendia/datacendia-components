@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Command Page
  *
@@ -147,7 +148,7 @@ export default function CommandPage() {
         setSelectedVertical(data[0].id as VerticalId);
       }
     } catch (error) {
-      console.error('Failed to load verticals:', error);
+      logger.error('Failed to load verticals:', error);
     }
   };
 
@@ -156,7 +157,7 @@ export default function CommandPage() {
       const config = await commandService.getVerticalConfig(verticalId);
       setVerticalConfig(config);
     } catch (error) {
-      console.error('Failed to load vertical config:', error);
+      logger.error('Failed to load vertical config:', error);
     }
   };
 
@@ -165,7 +166,7 @@ export default function CommandPage() {
       const history = await commandService.getHistory(verticalId, 10);
       setExecutions(history);
     } catch (error) {
-      console.error('Failed to load history:', error);
+      logger.error('Failed to load history:', error);
     }
   };
 
@@ -184,7 +185,7 @@ export default function CommandPage() {
         setSuggestions(results);
         setShowSuggestions(results.length > 0);
       } catch (error) {
-        console.error('Failed to get suggestions:', error);
+        logger.error('Failed to get suggestions:', error);
       }
     } else {
       setSuggestions([]);
@@ -205,7 +206,7 @@ export default function CommandPage() {
       setExecutions(prev => [execution, ...prev.slice(0, 9)]);
       setCommand('');
     } catch (error) {
-      console.error('Failed to execute command:', error);
+      logger.error('Failed to execute command:', error);
     } finally {
       setIsLoading(false);
     }

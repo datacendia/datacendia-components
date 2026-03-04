@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Ghost Board Page
  *
@@ -121,7 +122,7 @@ export const GhostBoardPage: React.FC = () => {
       );
       setResult(sessionResult);
     } catch (err) {
-      console.error('Session failed:', err);
+      logger.error('Session failed:', err);
     } finally {
       setIsRunning(false);
     }

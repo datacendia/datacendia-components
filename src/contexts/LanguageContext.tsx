@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Context — Language Context
  *
@@ -937,7 +938,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
           setLanguages(response.data.languages);
         }
       } catch (error) {
-        console.error('Failed to load languages:', error);
+        logger.error('Failed to load languages:', error);
         // Set minimal fallback languages
         setLanguages([
           { code: 'en', name: 'English', nativeName: 'English', rtl: false },
@@ -996,11 +997,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
             const newTranslations = { ...base, ...response.data.translations };
             setTranslations(newTranslations);
             cacheRef.current.set(language, newTranslations);
-            console.log(`Enhanced with ${response.data.count} translations for ${language}`);
+            logger.info(`Enhanced with ${response.data.count} translations for ${language}`);
           }
         } catch (error) {
           // Silent fail - we already have static translations
-          console.log(`Using static translations for ${language}`);
+          logger.info(`Using static translations for ${language}`);
         } finally {
           loadingRef.current = false;
           setIsInitialized(true);
@@ -1033,7 +1034,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       try {
         await apiClient.api.put('/i18n/user/preference', { language: code });
       } catch (error) {
-        console.error('Failed to save language preference:', error);
+        logger.error('Failed to save language preference:', error);
       }
     },
     [language]
@@ -1075,7 +1076,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
           return response.data.translated;
         }
       } catch (error) {
-        console.error('Content translation failed:', error);
+        logger.error('Content translation failed:', error);
       }
 
       return content;
@@ -1104,7 +1105,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
           return response.data;
         }
       } catch (error) {
-        console.error('Deliberation translation failed:', error);
+        logger.error('Deliberation translation failed:', error);
       }
 
       return content;

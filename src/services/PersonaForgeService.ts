@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Persona Forge Service
  *
@@ -333,10 +334,10 @@ class PersonaForgeService {
           p.knowledgeCutoff = new Date(p.knowledgeCutoff);
           this.personas.set(p.id, p);
         });
-        console.log('[PersonaForge] Loaded', this.personas.size, 'personas from storage');
+        logger.info('[PersonaForge] Loaded', this.personas.size, 'personas from storage');
       }
     } catch (error) {
-      console.error('[PersonaForge] Failed to load from storage:', error);
+      logger.error('[PersonaForge] Failed to load from storage:', error);
     }
   }
 
@@ -347,7 +348,7 @@ class PersonaForgeService {
       };
       localStorage.setItem(this.storageKey, JSON.stringify(data));
     } catch (error) {
-      console.error('[PersonaForge] Failed to save to storage:', error);
+      logger.error('[PersonaForge] Failed to save to storage:', error);
     }
   }
 
@@ -782,7 +783,7 @@ class PersonaForgeService {
         return { response, latencyMs };
       }
     } catch (error) {
-      console.error('[PersonaForge] Chat error:', error);
+      logger.error('[PersonaForge] Chat error:', error);
 
       // Fallback to intelligent local response
       const fallbackResponse = this.generateFallbackResponse(persona, message);

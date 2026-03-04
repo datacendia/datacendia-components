@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Omni Translate Page
  *
@@ -473,10 +474,10 @@ export const OmniTranslatePage: React.FC = () => {
         const result = await response.json();
         if (result.success) {
           setModelStatus(result.data);
-          console.log('[OmniTranslate] Model status:', result.data);
+          logger.info('[OmniTranslate] Model status:', result.data);
         }
       } catch (error) {
-        console.log('[OmniTranslate] Could not check model status:', error);
+        logger.info('[OmniTranslate] Could not check model status:', error);
         setModelStatus({ loaded: false, loading: false, progress: 0, model: 'qwen2.5:7b', error: 'Backend unavailable', ollamaAvailable: false });
       }
     };
@@ -513,10 +514,10 @@ export const OmniTranslatePage: React.FC = () => {
       try {
         const snapshotsRes = await decisionIntelApi.getChronosSnapshots();
         if (snapshotsRes.success && snapshotsRes.data) {
-          console.log('[OmniTranslate] Loaded system snapshots for localization metrics');
+          logger.info('[OmniTranslate] Loaded system snapshots for localization metrics');
         }
       } catch (error) {
-        console.log('[OmniTranslate] Using local generators (API unavailable)');
+        logger.info('[OmniTranslate] Using local generators (API unavailable)');
       } finally {
         setIsLoading(false);
       }
@@ -547,11 +548,11 @@ export const OmniTranslatePage: React.FC = () => {
       if (result.success && result.data?.translatedText) {
         setTranslatedText(result.data.translatedText);
       } else {
-        console.error('[OmniTranslate] Translation failed:', result.error);
+        logger.error('[OmniTranslate] Translation failed:', result.error);
         setTranslatedText('Translation failed. Please try again.');
       }
     } catch (error) {
-      console.error('[OmniTranslate] API error:', error);
+      logger.error('[OmniTranslate] API error:', error);
       setTranslatedText('Translation service unavailable. Please try again later.');
     } finally {
       setIsTranslating(false);
@@ -591,7 +592,7 @@ export const OmniTranslatePage: React.FC = () => {
       setDocumentTranslations([]);
       setSelectedTargetLanguages([]);
     } catch (error) {
-      console.error('[OmniTranslate] Document upload error:', error);
+      logger.error('[OmniTranslate] Document upload error:', error);
     } finally {
       setIsUploadingDoc(false);
     }
@@ -698,7 +699,7 @@ export const OmniTranslatePage: React.FC = () => {
           ));
         }
       } catch (error) {
-        console.error(`[OmniTranslate] Translation to ${langCode} failed:`, error);
+        logger.error(`[OmniTranslate] Translation to ${langCode} failed:`, error);
         // Demo fallback
         const demoTranslation = generateDemoTranslation(uploadedDocument.content, langCode, langName);
         setDocumentTranslations(prev => prev.map(t => 

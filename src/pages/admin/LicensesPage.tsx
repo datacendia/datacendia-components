@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -91,7 +92,7 @@ async function fetchLicenses(filters?: { status?: string; type?: string }): Prom
     const res = await api.get<any>(`${API_BASE}/licenses?${params.toString()}`);
     return (res as any)?.licenses || (res as any)?.data?.licenses || getMockLicenses();
   } catch (error) {
-    console.error('Failed to fetch licenses:', error);
+    logger.error('Failed to fetch licenses:', error);
     return getMockLicenses();
   }
 }
@@ -101,7 +102,7 @@ async function fetchLicenseMetrics(): Promise<LicenseMetrics> {
     const res = await api.get<any>(`${API_BASE}/licenses/metrics`);
     return (res as any)?.data || (res as any) || getDefaultMetrics();
   } catch (error) {
-    console.error('Failed to fetch license metrics:', error);
+    logger.error('Failed to fetch license metrics:', error);
     return getDefaultMetrics();
   }
 }
@@ -358,7 +359,7 @@ export const LicensesPage: React.FC = () => {
       setLicenses(licensesData);
       setMetrics(metricsData);
     } catch (error) {
-      console.error('Failed to load data:', error);
+      logger.error('Failed to load data:', error);
     } finally {
       setLoading(false);
     }
@@ -373,7 +374,7 @@ export const LicensesPage: React.FC = () => {
       await extendLicense(license.id, months);
       loadData();
     } catch (error) {
-      console.error('Failed to extend license:', error);
+      logger.error('Failed to extend license:', error);
     }
     setActionMenuId(null);
   };
@@ -383,7 +384,7 @@ export const LicensesPage: React.FC = () => {
       await upgradeLicense(license.id, newType);
       loadData();
     } catch (error) {
-      console.error('Failed to upgrade license:', error);
+      logger.error('Failed to upgrade license:', error);
     }
     setActionMenuId(null);
   };

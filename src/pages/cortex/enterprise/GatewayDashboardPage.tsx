@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Gateway Dashboard Page
  *
@@ -115,7 +116,7 @@ const GatewayDashboardPage: React.FC = () => {
       if (interactionsRes.data) setInteractions(interactionsRes.data.interactions || []);
       if (policiesRes.data) setPolicies(policiesRes.data.policies || []);
     } catch (err) {
-      console.error('[Gateway] Failed to fetch data:', err);
+      logger.error('[Gateway] Failed to fetch data:', err);
     } finally {
       setLoading(false);
     }
@@ -135,7 +136,7 @@ const GatewayDashboardPage: React.FC = () => {
       const res = await api.post<PIITestResult>('/gateway/test-pii', { text: piiTestText });
       if (res.data) setPiiTestResult(res.data);
     } catch (err) {
-      console.error('[Gateway] PII test failed:', err);
+      logger.error('[Gateway] PII test failed:', err);
     } finally {
       setPiiTestLoading(false);
     }
@@ -150,7 +151,7 @@ const GatewayDashboardPage: React.FC = () => {
       });
       if (res.data) setManifest(res.data);
     } catch (err) {
-      console.error('[Gateway] Manifest generation failed:', err);
+      logger.error('[Gateway] Manifest generation failed:', err);
     } finally {
       setManifestLoading(false);
     }

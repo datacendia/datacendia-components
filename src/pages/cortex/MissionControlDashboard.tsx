@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Mission Control Dashboard
  *
@@ -235,7 +236,7 @@ export const MissionControlDashboard: React.FC = () => {
         if (orgRes.success && orgRes.data) {setOrgName(orgRes.data.name || 'Your Organization');}
         if (userRes.success && userRes.data) {setUserName(userRes.data.name?.split(' ')[0] || 'User');}
       } catch (e) {
-        console.error('Mission Control fetch error:', e);
+        logger.error('Mission Control fetch error:', e);
       } finally {
         setIsLoading(false);
       }

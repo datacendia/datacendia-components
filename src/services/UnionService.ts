@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Union Service
  *
@@ -416,7 +417,7 @@ class UnionService {
         this.insights = data.insights || [];
       }
     } catch (error) {
-      console.error('Failed to load union data:', error);
+      logger.error('Failed to load union data:', error);
     }
   }
 
@@ -428,7 +429,7 @@ class UnionService {
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     } catch (error) {
-      console.error('Failed to save union data:', error);
+      logger.error('Failed to save union data:', error);
     }
   }
 
@@ -550,7 +551,7 @@ Provide recommendations in JSON format:
           recommendations = parsed.recommendations || recommendations;
         }
       } catch (error) {
-        console.error('Ollama burnout analysis failed:', error);
+        logger.error('Ollama burnout analysis failed:', error);
       }
     }
 
@@ -826,7 +827,7 @@ Respond in JSON:
           }
         }
       } catch (error) {
-        console.error('AI enhancement failed:', error);
+        logger.error('AI enhancement failed:', error);
       }
     }
 

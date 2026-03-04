@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * Security — Audit Service
  *
@@ -173,14 +174,19 @@ class AuditService {
 
     this.events.push(auditEvent);
 
-    // Log to console for now (would go to secure audit log storage)
-    const logLevel = event.severity === 'critical' ? 'error' : 
-                     event.severity === 'warning' ? 'warn' : 'info';
-    console[logLevel](`[Audit] ${event.eventType}:`, {
+    // Log to structured audit log
+    const auditPayload = {
       user: event.userName || event.userId,
       resource: `${event.resource.type}:${event.resource.id}`,
       outcome: event.outcome,
-    });
+    };
+    if (event.severity === 'critical') {
+      logger.error(`[Audit] ${event.eventType}:`, auditPayload);
+    } else if (event.severity === 'warning') {
+      logger.warn(`[Audit] ${event.eventType}:`, auditPayload);
+    } else {
+      logger.info(`[Audit] ${event.eventType}:`, auditPayload);
+    }
 
     // Stream to Druid for CendiaWitness™ analytics
     druidEventStream.logAudit({
@@ -554,7 +560,7 @@ class AuditService {
    * Trigger security alert for critical events
    */
   private async triggerSecurityAlert(event: AuditEvent): Promise<void> {
-    console.error('[SECURITY ALERT]', event.eventType, event.details);
+    logger.error('[SECURITY ALERT]', event.eventType, event.details);
     // Would integrate with alerting system (PagerDuty, Slack, email)
   }
 

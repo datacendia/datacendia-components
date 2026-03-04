@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Persona Forge Page
  *
@@ -231,7 +232,7 @@ export const PersonaForgePage: React.FC = () => {
       // Refresh personas to get updated interaction counts
       setPersonas(personaForgeService.getPersonas());
     } catch (error) {
-      console.error('Chat error:', error);
+      logger.error('Chat error:', error);
       setChatMessages((prev) =>
         prev.map((msg) =>
           msg.id === assistantMsgId

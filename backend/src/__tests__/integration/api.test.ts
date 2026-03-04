@@ -1,3 +1,4 @@
+import { logger } from '../../utils/logger.js';
 /**
  * Module — Api Test
  *
@@ -37,7 +38,7 @@ async function checkApiAvailable(): Promise<boolean> {
 beforeAll(async () => {
   apiAvailable = await checkApiAvailable();
   if (!apiAvailable) {
-    console.warn('⚠️  Backend server not running on port 3001 - skipping integration tests');
+    logger.warn('⚠️  Backend server not running on port 3001 - skipping integration tests');
   }
 });
 

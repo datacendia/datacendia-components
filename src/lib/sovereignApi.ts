@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Library — Sovereign Api
  *
@@ -86,7 +87,7 @@ export const druidApi = {
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
-      console.warn('[Druid] Timeline query failed:', error);
+      logger.warn('[Druid] Timeline query failed:', error);
       return [];
     }
   },
@@ -110,7 +111,7 @@ export const druidApi = {
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
-      console.warn('[Druid] Metrics query failed:', error);
+      logger.warn('[Druid] Metrics query failed:', error);
       return [];
     }
   },
@@ -124,7 +125,7 @@ export const druidApi = {
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
-      console.warn('[Druid] Risk trend query failed:', error);
+      logger.warn('[Druid] Risk trend query failed:', error);
       return [];
     }
   },
@@ -151,7 +152,7 @@ export const druidApi = {
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
-      console.warn('[Druid] Audit trail query failed:', error);
+      logger.warn('[Druid] Audit trail query failed:', error);
       return [];
     }
   },
@@ -764,7 +765,7 @@ export const vaultApi = {
       const data = await response.json();
       return data.success ? data.data : null;
     } catch (error) {
-      console.warn('[CendiaVault] Upload failed, document stored locally:', error);
+      logger.warn('[CendiaVault] Upload failed, document stored locally:', error);
       // Return a local reference for offline/dev mode
       return {
         id: `local-${Date.now()}`,

@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * Database — Seed
  *
@@ -289,7 +290,7 @@ async function main() {
 
 main()
   .catch((e) => {
-    console.error('❌ Seed failed:', e);
+    logger.error('❌ Seed failed:', e);
     process.exit(1);
   })
   .finally(async () => {

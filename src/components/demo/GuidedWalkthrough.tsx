@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Guided Walkthrough
  *
@@ -377,7 +378,7 @@ export const WalkthroughLauncher: React.FC<WalkthroughLauncherProps> = ({
   const walkthrough = WALKTHROUGHS[walkthroughId];
 
   if (!walkthrough) {
-    console.warn(`Walkthrough "${walkthroughId}" not found`);
+    logger.warn(`Walkthrough "${walkthroughId}" not found`);
     return <>{children}</>;
   }
 

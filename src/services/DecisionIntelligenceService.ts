@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Decision Intelligence Service
  *
@@ -365,10 +366,10 @@ class DecisionIntelligenceService {
           p.createdAt = new Date(p.createdAt);
           this.pendingDecisions.set(p.id, p);
         });
-        console.log('[DecisionIntelligence] Loaded', this.decisions.size, 'decisions from storage');
+        logger.info('[DecisionIntelligence] Loaded', this.decisions.size, 'decisions from storage');
       }
     } catch (error) {
-      console.error('[DecisionIntelligence] Failed to load:', error);
+      logger.error('[DecisionIntelligence] Failed to load:', error);
     }
   }
 
@@ -382,7 +383,7 @@ class DecisionIntelligenceService {
       };
       localStorage.setItem(this.storageKey, JSON.stringify(data));
     } catch (error) {
-      console.error('[DecisionIntelligence] Failed to save:', error);
+      logger.error('[DecisionIntelligence] Failed to save:', error);
     }
   }
 
@@ -609,7 +610,7 @@ Provide analysis in JSON format:
           executiveSummary = parsed.executiveSummary || '';
         }
       } catch (error) {
-        console.error('[PreMortem] Ollama error:', error);
+        logger.error('[PreMortem] Ollama error:', error);
       }
     }
 

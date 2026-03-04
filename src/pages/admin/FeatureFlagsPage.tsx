@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Feature Flags Page
  *
@@ -93,7 +94,7 @@ async function fetchFeatureFlags(filters?: { category?: string; enabled?: boolea
     const res = await api.get<any>(`${API_BASE}/features?${params.toString()}`);
     return (res as any)?.features || (res as any)?.data?.features || getMockFlags();
   } catch (error) {
-    console.error('Failed to fetch feature flags:', error);
+    logger.error('Failed to fetch feature flags:', error);
     return getMockFlags();
   }
 }
@@ -103,7 +104,7 @@ async function fetchFlagMetrics(): Promise<FlagMetrics> {
     const res = await api.get<any>(`${API_BASE}/features/metrics`);
     return (res as any)?.data || (res as any) || getDefaultMetrics();
   } catch (error) {
-    console.error('Failed to fetch flag metrics:', error);
+    logger.error('Failed to fetch flag metrics:', error);
     return getDefaultMetrics();
   }
 }
@@ -365,7 +366,7 @@ export const FeatureFlagsPage: React.FC = () => {
       setFlags(flagsData);
       setMetrics(metricsData);
     } catch (error) {
-      console.error('Failed to load data:', error);
+      logger.error('Failed to load data:', error);
     } finally {
       setLoading(false);
     }
@@ -383,7 +384,7 @@ export const FeatureFlagsPage: React.FC = () => {
         f.id === flag.id ? { ...f, enabled: !f.enabled, lastToggledAt: new Date().toISOString() } : f
       ));
     } catch (error) {
-      console.error('Failed to toggle flag:', error);
+      logger.error('Failed to toggle flag:', error);
     } finally {
       setTogglingId(null);
     }

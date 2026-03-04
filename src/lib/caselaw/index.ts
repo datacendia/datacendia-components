@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Library — Index
  *
@@ -252,7 +253,7 @@ class CaselawService {
           const citedCase = await this.getCase(cite.case_ids[0]);
           relatedCases.push(citedCase);
         } catch (e) {
-          console.warn(`Could not fetch cited case: ${cite.cite}`);
+          logger.warn(`Could not fetch cited case: ${cite.cite}`);
         }
       }
     }

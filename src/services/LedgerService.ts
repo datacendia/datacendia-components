@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Ledger Service
  *
@@ -417,7 +418,7 @@ class LedgerService {
     });
 
     this.saveToStorage();
-    console.log('[Ledger] Seeded marketing demo data:', this.entries.size, 'entries,', this.decisions.size, 'decisions');
+    logger.info('[Ledger] Seeded marketing demo data:', this.entries.size, 'entries,', this.decisions.size, 'decisions');
   }
 
   private loadFromStorage(): void {
@@ -451,7 +452,7 @@ class LedgerService {
         });
       }
     } catch (error) {
-      console.error('Failed to load ledger data:', error);
+      logger.error('Failed to load ledger data:', error);
     }
   }
 
@@ -464,7 +465,7 @@ class LedgerService {
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     } catch (error) {
-      console.error('Failed to save ledger data:', error);
+      logger.error('Failed to save ledger data:', error);
     }
   }
 

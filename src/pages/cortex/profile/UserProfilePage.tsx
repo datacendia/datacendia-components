@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — User Profile Page
  *
@@ -97,7 +98,7 @@ export const UserProfilePage: React.FC = () => {
           });
         }
       } catch (e) {
-        console.error('Failed to load profile:', e);
+        logger.error('Failed to load profile:', e);
         setProfile({
           name: user?.name || 'User',
           email: user?.email || '',

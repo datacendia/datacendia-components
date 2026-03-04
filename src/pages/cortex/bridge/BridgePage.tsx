@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Bridge Page
  *
@@ -478,7 +479,7 @@ export const BridgePage: React.FC = () => {
           if (realWorkflows.length > 0) {
             setWorkflows(realWorkflows);
             setSelectedWorkflow(realWorkflows[0]);
-            console.log('[Bridge] Loaded', realWorkflows.length, 'workflows from API');
+            logger.info('[Bridge] Loaded', realWorkflows.length, 'workflows from API');
           }
         }
 
@@ -499,11 +500,11 @@ export const BridgePage: React.FC = () => {
 
           if (realHistory.length > 0) {
             setExecutionHistory(realHistory);
-            console.log('[Bridge] Loaded', realHistory.length, 'executions from API');
+            logger.info('[Bridge] Loaded', realHistory.length, 'executions from API');
           }
         }
       } catch (err) {
-        console.error('[Bridge] Load error, using fallback:', err);
+        logger.error('[Bridge] Load error, using fallback:', err);
       } finally {
         setIsLoading(false);
       }
@@ -512,12 +513,12 @@ export const BridgePage: React.FC = () => {
   }, []);
 
   const handleApprove = () => {
-    console.log('Approved:', selectedWorkflow.id);
+    logger.info('Approved:', selectedWorkflow.id);
     // API call to approve
   };
 
   const handleReject = () => {
-    console.log('Rejected:', selectedWorkflow.id);
+    logger.info('Rejected:', selectedWorkflow.id);
     // API call to reject
   };
 
@@ -673,7 +674,7 @@ export const BridgePage: React.FC = () => {
                   alert(`${pendingCount} workflow(s) approved successfully!`);
                   window.location.reload();
                 } catch (err) {
-                  console.error('Bulk approve failed:', err);
+                  logger.error('Bulk approve failed:', err);
                   alert('Bulk approve completed.');
                 }
               }

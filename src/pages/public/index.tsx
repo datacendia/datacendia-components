@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Index
  *
@@ -971,13 +972,13 @@ export const ContactPage: React.FC = () => {
 
       if (response.ok) {
         setSubmitted(true);
-        console.log('[Contact] Form submitted successfully');
+        logger.info('[Contact] Form submitted successfully');
       } else {
         const data = await response.json();
         setError(data.error || 'Failed to submit. Please try again.');
       }
     } catch (err) {
-      console.error('[Contact] Submission error:', err);
+      logger.error('[Contact] Submission error:', err);
       setError('Network error. Please try again later.');
     } finally {
       setIsSubmitting(false);

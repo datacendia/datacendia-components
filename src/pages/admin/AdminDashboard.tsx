@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Admin Dashboard
  *
@@ -293,7 +294,7 @@ const AdminDashboard: React.FC = () => {
     const tenant = tenants.find((t) => t.id === tenantId);
     if (tenant && window.confirm(`Impersonate ${tenant.name}? This will be logged for audit.`)) {
       setImpersonating(tenantId);
-      console.log(`[Admin] Impersonating tenant ${tenantId}`);
+      logger.info(`[Admin] Impersonating tenant ${tenantId}`);
     }
   };
 

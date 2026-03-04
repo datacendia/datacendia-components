@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Library — Index
  *
@@ -186,13 +187,13 @@ class OllamaService {
 
         // Only log once per session to reduce noise
         if (!this._hasLoggedConnection) {
-          console.log('[Ollama] Connected. Available models:', this.availableModels);
+          logger.info('[Ollama] Connected. Available models:', this.availableModels);
           this._hasLoggedConnection = true;
         }
         return true;
       }
     } catch (error) {
-      console.warn('[Ollama] Not available:', error);
+      logger.warn('[Ollama] Not available:', error);
       this.isAvailable = false;
       this.agents = this.agents.map((agent) => ({ ...agent, status: 'offline' as const }));
     }
@@ -215,7 +216,7 @@ class OllamaService {
    */
   async preWarmModels(onProgress?: (model: string, index: number, total: number) => void): Promise<void> {
     if (!this.isAvailable) {
-      console.warn('[Ollama] Cannot pre-warm models - Ollama not available');
+      logger.warn('[Ollama] Cannot pre-warm models - Ollama not available');
       return;
     }
 
@@ -226,7 +227,7 @@ class OllamaService {
         .map(a => a.model)
     )];
 
-    console.log(`[Ollama] Pre-warming ${uniqueModels.length} models:`, uniqueModels);
+    logger.info(`[Ollama] Pre-warming ${uniqueModels.length} models:`, uniqueModels);
 
     for (let i = 0; i < uniqueModels.length; i++) {
       const model = uniqueModels[i];
@@ -244,13 +245,13 @@ class OllamaService {
             options: { num_predict: 1 } // Generate just 1 token to minimize time
           }),
         });
-        console.log(`[Ollama] Pre-warmed: ${model}`);
+        logger.info(`[Ollama] Pre-warmed: ${model}`);
       } catch (error) {
-        console.warn(`[Ollama] Failed to pre-warm ${model}:`, error);
+        logger.warn(`[Ollama] Failed to pre-warm ${model}:`, error);
       }
     }
 
-    console.log('[Ollama] All models pre-warmed');
+    logger.info('[Ollama] All models pre-warmed');
   }
 
   /**
@@ -687,7 +688,7 @@ class OllamaService {
         callbacks.onAgentComplete?.(agent, result.response, duration);
         return { agent, response: result.response, duration };
       } catch (error) {
-        console.error(`[Ollama] Agent ${agent.code} failed:`, error);
+        logger.error(`[Ollama] Agent ${agent.code} failed:`, error);
         const duration = Date.now() - agentStart;
         const errorResponse = `[Analysis unavailable - ${agent.name} encountered an error]`;
         callbacks.onAgentComplete?.(agent, errorResponse, duration);
@@ -698,7 +699,7 @@ class OllamaService {
     const parallelResults = await Promise.all(agentPromises);
     responses.push(...parallelResults);
     
-    console.log(`[Ollama] Phase 1 completed in ${Date.now() - parallelStart}ms (${selectedAgents.length} agents in parallel)`);
+    logger.info(`[Ollama] Phase 1 completed in ${Date.now() - parallelStart}ms (${selectedAgents.length} agents in parallel)`);
 
     // Phase 2: Cross-Examination (skip in quickMode for faster demos)
     if (selectedAgents.length > 1 && !options?.quickMode) {

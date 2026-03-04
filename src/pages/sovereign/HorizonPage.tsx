@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Horizon Page
  *
@@ -456,7 +457,7 @@ const HorizonPage: React.FC = () => {
         });
         setSelectedUniverse(sim.universes?.[0] || null);
       } else {
-        console.error('[Horizon] Simulation failed:', result.error);
+        logger.error('[Horizon] Simulation failed:', result.error);
         // Fallback to demo data on error
         setSimulation({
           ...DEMO_SIMULATION,
@@ -465,7 +466,7 @@ const HorizonPage: React.FC = () => {
         setSelectedUniverse(DEMO_SIMULATION.universes[0] || null);
       }
     } catch (error) {
-      console.error('[Horizon] API error:', error);
+      logger.error('[Horizon] API error:', error);
       // Fallback to demo data on network error
       setSimulation({
         ...DEMO_SIMULATION,

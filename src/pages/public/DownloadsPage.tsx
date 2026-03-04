@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Downloads Page
  *
@@ -330,7 +331,7 @@ export const DownloadsPage: React.FC = () => {
 
   const handleDownload = (item: DownloadItem) => {
     // Track download analytics
-    console.log(`Download initiated: ${item.filename}`);
+    logger.info(`Download initiated: ${item.filename}`);
 
     // For app store links, open in new tab
     if (item.downloadUrl.startsWith('http')) {

@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Workflow Builder
  *
@@ -681,7 +682,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
           definition: { nodes, edges } as any,
         });
       } catch (err) {
-        console.error('Failed to save workflow:', err);
+        logger.error('Failed to save workflow:', err);
       }
     }
   }, [nodes, edges, workflowId, onSave]);

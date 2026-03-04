@@ -216,7 +216,7 @@ export async function startTelemetry(): Promise<void> {
     logger.info(`   - Metrics: ${OTLP_ENDPOINT}/v1/metrics`);
     logger.info(`   - Prometheus: http://localhost:${PROMETHEUS_PORT}/metrics`);
   } catch (error) {
-    console.error('Failed to start OpenTelemetry:', error);
+    logger.error('Failed to start OpenTelemetry:', error);
   }
 }
 
@@ -225,7 +225,7 @@ export async function stopTelemetry(): Promise<void> {
     await sdk.shutdown();
     logger.info('🔭 OpenTelemetry instrumentation stopped');
   } catch (error) {
-    console.error('Failed to stop OpenTelemetry:', error);
+    logger.error('Failed to stop OpenTelemetry:', error);
   }
 }
 

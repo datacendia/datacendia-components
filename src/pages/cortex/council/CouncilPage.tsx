@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -778,7 +779,7 @@ export const CouncilPage: React.FC = () => {
       try {
         localStorage.setItem('council_deliberations', JSON.stringify(recentDecisions.slice(0, 5)));
       } catch (e) {
-        console.warn('Failed to save deliberations to localStorage:', e);
+        logger.warn('Failed to save deliberations to localStorage:', e);
       }
     }
   }, [recentDecisions]);
@@ -892,7 +893,7 @@ export const CouncilPage: React.FC = () => {
           setTimeout(() => queryInputRef.current?.focus(), 100);
         }
       } catch (e) {
-        console.warn('Failed to parse council query context:', e);
+        logger.warn('Failed to parse council query context:', e);
       }
     }
   }, [searchParams]);
@@ -1050,16 +1051,16 @@ export const CouncilPage: React.FC = () => {
           );
         } else {
           // Pre-warm all models in background for instant deliberations
-          console.log('[Council] Pre-warming models in background...');
+          logger.info('[Council] Pre-warming models in background...');
           ollamaService.preWarmModels((model, index, total) => {
-            console.log(`[Council] Warming model ${index}/${total}: ${model}`);
+            logger.info(`[Council] Warming model ${index}/${total}: ${model}`);
           }).then(() => {
-            console.log('[Council] All models pre-warmed - deliberations will be instant');
+            logger.info('[Council] All models pre-warmed - deliberations will be instant');
           });
         }
       } catch (err) {
         setError('Failed to connect to Ollama. Please ensure Ollama is running on localhost:11434');
-        console.error('Ollama connection error:', err);
+        logger.error('Ollama connection error:', err);
       } finally {
         setIsLoading(false);
       }
@@ -1214,9 +1215,9 @@ export const CouncilPage: React.FC = () => {
         deliberationType: selectedMode,
         agentsActivated: agentIds,
       });
-      console.log('[CendiaVault] Document stored:', vaultDoc?.path);
+      logger.info('[CendiaVault] Document stored:', vaultDoc?.path);
     } catch (err) {
-      console.log('[CendiaVault] Upload deferred, continuing with local processing');
+      logger.info('[CendiaVault] Upload deferred, continuing with local processing');
     }
 
     // Extract text content using Tika
@@ -1249,7 +1250,7 @@ export const CouncilPage: React.FC = () => {
         );
       }
     } catch (err) {
-      console.log('Document extraction not available, file staged for deliberation');
+      logger.info('Document extraction not available, file staged for deliberation');
     }
 
     // Auto-switch to deliberation mode
@@ -1399,9 +1400,9 @@ export const CouncilPage: React.FC = () => {
             context: { mode: queryMode },
             priority: 'normal',
           });
-          console.log('[Council] Deliberation queued in sovereign stack:', decisionId);
+          logger.info('[Council] Deliberation queued in sovereign stack:', decisionId);
         } catch (queueError) {
-          console.warn(
+          logger.warn(
             '[Council] Queue service unavailable, proceeding with direct execution:',
             queueError
           );
@@ -1581,7 +1582,7 @@ export const CouncilPage: React.FC = () => {
         });
 
         // Log result for debugging/analytics
-        console.log('[Council] Deliberation completed:', { decisionId, result });
+        logger.info('[Council] Deliberation completed:', { decisionId, result });
 
         // Save to backend for Chronos timeline integration (after await returns)
         const agentResponses = result.responses || [];
@@ -1596,9 +1597,9 @@ export const CouncilPage: React.FC = () => {
           synthesis: result.synthesis,
           confidence: result.confidence,
         }).then(() => {
-          console.log('[Council] Deliberation saved to backend for Chronos');
+          logger.info('[Council] Deliberation saved to backend for Chronos');
         }).catch(err => {
-          console.warn('[Council] Failed to save deliberation to backend:', err);
+          logger.warn('[Council] Failed to save deliberation to backend:', err);
         });
 
         // Store in Vector DB for agent memory
@@ -1610,9 +1611,9 @@ export const CouncilPage: React.FC = () => {
           confidence: result.confidence,
           participants: agentResponses.map((ar: any) => ar.agentId || ar.agentCode || 'agent'),
         }).then(() => {
-          console.log('[Council] Decision context stored in Vector DB');
+          logger.info('[Council] Decision context stored in Vector DB');
         }).catch(err => {
-          console.warn('[Council] Failed to store decision context:', err);
+          logger.warn('[Council] Failed to store decision context:', err);
         });
 
         // Record to CendiaLedger for immutable audit trail
@@ -1632,9 +1633,9 @@ export const CouncilPage: React.FC = () => {
             );
           });
           ledgerService.finalizeDecision(ledgerDecision.id, 'approved', result.confidence);
-          console.log('[Council] Decision recorded to CendiaLedger:', ledgerDecision.id);
+          logger.info('[Council] Decision recorded to CendiaLedger:', ledgerDecision.id);
         } catch (ledgerErr) {
-          console.warn('[Council] Failed to record to Ledger:', ledgerErr);
+          logger.warn('[Council] Failed to record to Ledger:', ledgerErr);
         }
       } else {
         // Quick query - use first online agent or Chief Strategy Agent
@@ -1679,7 +1680,7 @@ export const CouncilPage: React.FC = () => {
       }
     } catch (err: any) {
       setError(err.message || 'Failed to process request. Ensure Ollama is running.');
-      console.error('Query error:', err);
+      logger.error('Query error:', err);
     } finally {
       setIsProcessing(false);
       // Note: Decision context storage moved to onComplete callback for accurate data
@@ -2954,7 +2955,7 @@ export const CouncilPage: React.FC = () => {
                         );
                       }
                     } catch (err) {
-                      console.log('Document extraction not available, using filename only');
+                      logger.info('Document extraction not available, using filename only');
                     }
                   }
                 }
@@ -3753,7 +3754,7 @@ export const CouncilPage: React.FC = () => {
                               }
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to generate summary:', msg);
+                              logger.error('[ERROR] Failed to generate summary:', msg);
                               alert(`Failed to generate summary: ${msg}`);
                             }
                           }}
@@ -3835,7 +3836,7 @@ export const CouncilPage: React.FC = () => {
                               }
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to generate minutes:', msg);
+                              logger.error('[ERROR] Failed to generate minutes:', msg);
                               alert(`Failed to generate minutes: ${msg}`);
                             }
                           }}
@@ -3860,7 +3861,7 @@ export const CouncilPage: React.FC = () => {
                               alert('Deliberation saved! ID: ' + deliberationId);
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to save:', msg);
+                              logger.error('[ERROR] Failed to save:', msg);
                               alert(`Failed to save: ${msg}`);
                             }
                           }}
@@ -3998,7 +3999,7 @@ export const CouncilPage: React.FC = () => {
                               }
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to generate Regulator\'s Receipt:', msg);
+                              logger.error('[ERROR] Failed to generate Regulator\'s Receipt:', msg);
                               alert(`Failed to generate Regulator's Receipt: ${msg}`);
                             }
                           }}
@@ -4085,7 +4086,7 @@ export const CouncilPage: React.FC = () => {
                               }
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to notarize:', msg);
+                              logger.error('[ERROR] Failed to notarize:', msg);
                               alert(`Failed to notarize: ${msg}`);
                             }
                           }}
@@ -4130,7 +4131,7 @@ export const CouncilPage: React.FC = () => {
                               }
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to archive:', msg);
+                              logger.error('[ERROR] Failed to archive:', msg);
                               alert(`Failed to archive: ${msg}`);
                             }
                           }}
@@ -4247,7 +4248,7 @@ export const CouncilPage: React.FC = () => {
                               }
                             } catch (err) {
                               const msg = err instanceof Error ? err.message : String(err);
-                              console.error('[ERROR] Failed to export Decision DNA:', msg);
+                              logger.error('[ERROR] Failed to export Decision DNA:', msg);
                               alert(`Failed to export Decision DNA: ${msg}`);
                             }
                           }}

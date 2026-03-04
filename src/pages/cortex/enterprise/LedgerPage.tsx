@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Ledger Page
  *
@@ -81,7 +82,7 @@ export const LedgerPage: React.FC = () => {
 
         if (realEntries.length > 0) {
           setEntries(realEntries);
-          console.log('[Ledger] Loaded', realEntries.length, 'audit entries from API');
+          logger.info('[Ledger] Loaded', realEntries.length, 'audit entries from API');
         } else {
           setEntries(ledgerService.getAllEntries());
         }
@@ -110,7 +111,7 @@ export const LedgerPage: React.FC = () => {
 
         if (realDecisions.length > 0) {
           setDecisions(realDecisions);
-          console.log('[Ledger] Loaded', realDecisions.length, 'decisions from API');
+          logger.info('[Ledger] Loaded', realDecisions.length, 'decisions from API');
         } else {
           setDecisions(ledgerService.getAllDecisions());
         }
@@ -122,7 +123,7 @@ export const LedgerPage: React.FC = () => {
       setMetrics(ledgerService.getMetrics());
       setChainStatus(ledgerService.verifyChain());
     } catch (error) {
-      console.error('[Ledger] Failed to load data, using fallback:', error);
+      logger.error('[Ledger] Failed to load data, using fallback:', error);
       setEntries(ledgerService.getAllEntries());
       setDecisions(ledgerService.getAllDecisions());
       setMetrics(ledgerService.getMetrics());

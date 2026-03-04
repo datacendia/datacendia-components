@@ -116,11 +116,11 @@ export class ModuleLogger {
   }
 
   warn(message: string, meta?: unknown): void {
-    console.warn(this.format('WARN', message, meta));
+    logger.warn(this.format('WARN', message, meta));
   }
 
   error(message: string, meta?: unknown): void {
-    console.error(this.format('ERROR', message, meta));
+    logger.error(this.format('ERROR', message, meta));
   }
 }
 
@@ -304,7 +304,7 @@ class ModuleRegistry {
     } catch (error: unknown) {
       moduleInfo.state.status = 'error';
       moduleInfo.state.error = getErrorMessage(error);
-      console.error(`[ModuleRegistry] Failed to load module ${moduleId}:`, error);
+      logger.error(`[ModuleRegistry] Failed to load module ${moduleId}:`, error);
       throw error;
     }
   }
@@ -322,7 +322,7 @@ class ModuleRegistry {
       try {
         await this.load(moduleId);
       } catch (error: unknown) {
-        console.error(`[ModuleRegistry] Error loading ${moduleId}:`, getErrorMessage(error));
+        logger.error(`[ModuleRegistry] Error loading ${moduleId}:`, getErrorMessage(error));
         // Continue loading other modules
       }
     }
@@ -397,7 +397,7 @@ class ModuleRegistry {
         try {
           await this.unload(moduleId);
         } catch (error: unknown) {
-          console.error(`[ModuleRegistry] Error unloading ${moduleId}:`, getErrorMessage(error));
+          logger.error(`[ModuleRegistry] Error unloading ${moduleId}:`, getErrorMessage(error));
         }
       }
     }

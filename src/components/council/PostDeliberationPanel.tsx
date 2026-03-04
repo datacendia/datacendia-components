@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Post Deliberation Panel
  *
@@ -204,7 +205,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
       const data = await res.json();
       setSession(data);
     } catch (err) {
-      console.error('Failed to load session:', err);
+      logger.error('Failed to load session:', err);
     } finally {
       setLoading(false);
     }
@@ -262,7 +263,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
         onActionComplete(result.generatedOutputs || []);
       }
     } catch (err) {
-      console.error('Failed to execute actions:', err);
+      logger.error('Failed to execute actions:', err);
     } finally {
       setExecuting(false);
     }

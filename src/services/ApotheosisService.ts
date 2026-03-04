@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Apotheosis Service
  *
@@ -140,7 +141,7 @@ class ApotheosisService {
       const response = await api.get<ApotheosisScore>(`${this.baseUrl}/score`);
       return response.data ?? this.getMockScore();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching score:', error);
+      logger.error('[Apotheosis] Error fetching score:', error);
       return this.getMockScore();
     }
   }
@@ -153,7 +154,7 @@ class ApotheosisService {
       const response = await api.get<ApotheosisRun>(`${this.baseUrl}/latest-run`);
       return response.data ?? this.getMockLatestRun();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching latest run:', error);
+      logger.error('[Apotheosis] Error fetching latest run:', error);
       return this.getMockLatestRun();
     }
   }
@@ -166,7 +167,7 @@ class ApotheosisService {
       const response = await api.get<ApotheosisRun[]>(`${this.baseUrl}/run-history?limit=${limit}`);
       return response.data ?? [];
     } catch (error) {
-      console.error('[Apotheosis] Error fetching run history:', error);
+      logger.error('[Apotheosis] Error fetching run history:', error);
       return [];
     }
   }
@@ -179,7 +180,7 @@ class ApotheosisService {
       const response = await api.get<Escalation[]>(`${this.baseUrl}/escalations`);
       return response.data ?? this.getMockEscalations();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching escalations:', error);
+      logger.error('[Apotheosis] Error fetching escalations:', error);
       return this.getMockEscalations();
     }
   }
@@ -203,7 +204,7 @@ class ApotheosisService {
       const response = await api.get<PatternBan[]>(`${this.baseUrl}/banned-patterns`);
       return response.data ?? this.getMockBannedPatterns();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching banned patterns:', error);
+      logger.error('[Apotheosis] Error fetching banned patterns:', error);
       return this.getMockBannedPatterns();
     }
   }
@@ -216,7 +217,7 @@ class ApotheosisService {
       const response = await api.get<UpskillAssignment[]>(`${this.baseUrl}/upskill-assignments`);
       return response.data ?? this.getMockUpskillAssignments();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching upskill assignments:', error);
+      logger.error('[Apotheosis] Error fetching upskill assignments:', error);
       return this.getMockUpskillAssignments();
     }
   }
@@ -229,7 +230,7 @@ class ApotheosisService {
       const response = await api.get<ApotheosisConfig>(`${this.baseUrl}/config`);
       return response.data ?? this.getDefaultConfig();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching config:', error);
+      logger.error('[Apotheosis] Error fetching config:', error);
       return this.getDefaultConfig();
     }
   }

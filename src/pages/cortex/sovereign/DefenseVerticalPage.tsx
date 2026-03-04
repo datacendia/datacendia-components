@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Defense Vertical Page
  *
@@ -210,7 +211,7 @@ export const DefenseVerticalPage: React.FC = () => {
         if (payload.modes) {setModes(payload.modes);}
       }
     } catch (error) {
-      console.error('Failed to load defense data:', error);
+      logger.error('Failed to load defense data:', error);
       // Keep default data on error
     } finally {
       setIsLoading(false);

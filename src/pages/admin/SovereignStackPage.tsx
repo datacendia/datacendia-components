@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Sovereign Stack Page
  *
@@ -474,7 +475,7 @@ export default function SovereignStackPage() {
 
       setServices(updatedServices);
     } catch (error) {
-      console.error('[SovereignStack] Health check failed, falling back to direct checks:', error);
+      logger.error('[SovereignStack] Health check failed, falling back to direct checks:', error);
 
       // Fallback to direct service checks
       const updatedServices = await Promise.all(

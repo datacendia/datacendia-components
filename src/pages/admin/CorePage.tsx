@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Core Page
  *
@@ -195,7 +196,7 @@ export default function CorePage() {
             competitorsTracked: 0,
           },
         });
-        console.log('[Core] Loaded dashboard from API');
+        logger.info('[Core] Loaded dashboard from API');
       }
 
       const contentPayload = contentRes as any;
@@ -210,10 +211,10 @@ export default function CorePage() {
             scheduledFor: c.scheduledFor,
           }))
         );
-        console.log('[Core] Loaded', rawContent.length, 'content items from API');
+        logger.info('[Core] Loaded', rawContent.length, 'content items from API');
       }
     } catch (error) {
-      console.error('[Core] Failed to load from API, using fallback:', error);
+      logger.error('[Core] Failed to load from API, using fallback:', error);
       // Fallback data
       setMetrics({
         brand: { contentQueue: 5, scheduledPosts: 3, voiceScore: 92 },
@@ -270,12 +271,12 @@ export default function CorePage() {
             },
             ...prev,
           ]);
-          console.log('[Core] Generated content via API');
+          logger.info('[Core] Generated content via API');
           return;
         }
       }
     } catch (error) {
-      console.error('[Core] Content generation failed:', error);
+      logger.error('[Core] Content generation failed:', error);
     }
 
     // Fallback

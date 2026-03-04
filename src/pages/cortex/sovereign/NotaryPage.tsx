@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Notary Page
  *
@@ -86,7 +87,7 @@ const NotaryPage: React.FC = () => {
       setProviders(providersRes.providers || getMockProviders());
       setAuditLog(auditRes.entries || getMockAuditLog());
     } catch (error) {
-      console.error('[CendiaNotary] Failed to load data:', error);
+      logger.error('[CendiaNotary] Failed to load data:', error);
       // Use mock data for demo
       setKeys(getMockKeys());
       setProviders(getMockProviders());

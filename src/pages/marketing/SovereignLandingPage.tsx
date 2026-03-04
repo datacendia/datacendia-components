@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Sovereign Landing Page
  *
@@ -216,7 +217,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
     api.post('/api/v1/marketing-leads', {
       ...formData,
       source: 'sovereign_landing',
-    }).catch((err) => console.error('[SovereignLanding] Backend failed:', err));
+    }).catch((err) => logger.error('[SovereignLanding] Backend failed:', err));
   };
 
   if (!isOpen) {return null;}

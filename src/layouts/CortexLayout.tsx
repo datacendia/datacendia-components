@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -982,21 +983,21 @@ const CortexLayoutInner: React.FC = () => {
   const isOwnerOrAdmin = useMemo(() => {
     const role = user?.role?.toUpperCase();
     const result = role === 'OWNER' || role === 'SUPER_ADMIN' || role === 'ADMIN';
-    console.log('[CortexLayout] User role:', user?.role, 'isOwnerOrAdmin:', result);
+    logger.info('[CortexLayout] User role:', user?.role, 'isOwnerOrAdmin:', result);
     return result;
   }, [user?.role]);
 
   // Filter enterprise features based on enabled services
   const filteredEnterpriseFeatures = useMemo(() => {
     // ALWAYS show ALL enterprise features - filtering disabled for now
-    console.log('[CortexLayout] Enterprise: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', enterpriseFeatures.length, 'features');
+    logger.info('[CortexLayout] Enterprise: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', enterpriseFeatures.length, 'features');
     return enterpriseFeatures;
   }, [isOwnerOrAdmin]);
 
   // Filter sovereign features - show ALL for owner
   const filteredSovereignFeatures = useMemo(() => {
     // ALWAYS show ALL sovereign features - filtering disabled for now
-    console.log('[CortexLayout] Sovereign: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', sovereignFeatures.length, 'features');
+    logger.info('[CortexLayout] Sovereign: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', sovereignFeatures.length, 'features');
     return sovereignFeatures;
   }, [isOwnerOrAdmin]);
 

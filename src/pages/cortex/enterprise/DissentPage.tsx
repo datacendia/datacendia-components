@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Dissent Page
  *
@@ -131,7 +132,7 @@ export const DissentPage: React.FC = () => {
       setDissents(dissentsData);
       setMetrics(metricsData);
     } catch (error) {
-      console.error('Error loading Dissent data:', error);
+      logger.error('Error loading Dissent data:', error);
     } finally {
       setIsLoading(false);
     }

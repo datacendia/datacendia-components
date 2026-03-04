@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Collapse Page
  *
@@ -210,7 +211,7 @@ const CollapsePage: React.FC = () => {
         setAgents(data.agents);
       }
     } catch (error) {
-      console.error('Failed to fetch agents:', error);
+      logger.error('Failed to fetch agents:', error);
     }
   };
 
@@ -225,7 +226,7 @@ const CollapsePage: React.FC = () => {
         setHistory(data.deliberations);
       }
     } catch (error) {
-      console.error('Failed to fetch history:', error);
+      logger.error('Failed to fetch history:', error);
     }
   };
 
@@ -258,7 +259,7 @@ const CollapsePage: React.FC = () => {
         fetchHistory();
       }
     } catch (error) {
-      console.error('Deliberation failed:', error);
+      logger.error('Deliberation failed:', error);
     } finally {
       setLoading(false);
     }
@@ -279,7 +280,7 @@ const CollapsePage: React.FC = () => {
         alert(data.message);
       }
     } catch (error) {
-      console.error('Replay failed:', error);
+      logger.error('Replay failed:', error);
     } finally {
       setLoading(false);
     }
@@ -300,7 +301,7 @@ const CollapsePage: React.FC = () => {
         setConsensusConfidence(0.85);
       }
     } catch (error) {
-      console.error('Failed to load demo scenario:', error);
+      logger.error('Failed to load demo scenario:', error);
     } finally {
       setLoading(false);
     }
@@ -320,7 +321,7 @@ const CollapsePage: React.FC = () => {
         setConsensusConfidence(0.78);
       }
     } catch (error) {
-      console.error('Failed to load Cloud AI demo scenario:', error);
+      logger.error('Failed to load Cloud AI demo scenario:', error);
     } finally {
       setLoading(false);
     }
@@ -341,7 +342,7 @@ const CollapsePage: React.FC = () => {
       setUploadedBundle(bundle);
       await verifyBundle(bundle);
     } catch (error) {
-      console.error('Failed to parse bundle:', error);
+      logger.error('Failed to parse bundle:', error);
       alert('Invalid bundle file format');
     }
   };
@@ -360,7 +361,7 @@ const CollapsePage: React.FC = () => {
         setShowVerificationPanel(true);
       }
     } catch (error) {
-      console.error('Verification failed:', error);
+      logger.error('Verification failed:', error);
     } finally {
       setVerifyingBundle(false);
     }
@@ -394,7 +395,7 @@ const CollapsePage: React.FC = () => {
         alert(`Override failed: ${data.error}\n\nViolations: ${data.violations?.join(', ')}`);
       }
     } catch (error) {
-      console.error('Override failed:', error);
+      logger.error('Override failed:', error);
     } finally {
       setLoading(false);
     }

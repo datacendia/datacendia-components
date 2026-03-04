@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Voice Page
  *
@@ -105,14 +106,14 @@ export const VoicePage: React.FC = () => {
             try {
               await voiceSynthesis.speak(response.content, response.speaker as ExecutiveRole);
             } catch (e) {
-              console.warn('Speech failed:', e);
+              logger.warn('Speech failed:', e);
             }
           }
         }
         setIsSpeaking(false);
       }
     } catch (error) {
-      console.error('Voice message error:', error);
+      logger.error('Voice message error:', error);
     } finally {
       setUserInput('');
       setCurrentSpeaker(null);

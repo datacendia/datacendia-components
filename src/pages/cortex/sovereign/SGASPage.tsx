@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — S G A S Page
  *
@@ -184,7 +185,7 @@ export default function SGASPage() {
         setInstitutionalState(data.state);
       }
     } catch (error) {
-      console.error('Error fetching SGAS data, using demo data:', error);
+      logger.error('Error fetching SGAS data, using demo data:', error);
       setStatistics({ activeCount: 3, completedCount: 9, averageDurationMs: 4500, approvalRate: 0.78 });
       setAgentStats({ decision: 3, institutional: 2, adversarial: 2, observer: 1, metaGovernance: 1 });
       setDeliberations([
@@ -223,7 +224,7 @@ export default function SGASPage() {
         fetchData();
       }
     } catch (error) {
-      console.error('Deliberation error:', error);
+      logger.error('Deliberation error:', error);
     }
     setRunningDeliberation(false);
   };
@@ -239,7 +240,7 @@ export default function SGASPage() {
         setInstitutionalState(newState);
       }
     } catch (error) {
-      console.error('Error changing state:', error);
+      logger.error('Error changing state:', error);
     }
   };
 

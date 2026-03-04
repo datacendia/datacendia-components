@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -326,10 +327,10 @@ export default function PricingPage() {
       if (data.url) {
         window.location.href = data.url;
       } else {
-        console.error('No checkout URL returned');
+        logger.error('No checkout URL returned');
       }
     } catch (err) {
-      console.error('Checkout error:', err);
+      logger.error('Checkout error:', err);
     } finally {
       setCheckoutLoading(null);
     }

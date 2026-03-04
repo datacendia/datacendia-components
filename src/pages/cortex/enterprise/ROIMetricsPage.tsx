@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — R O I Metrics Page
  *
@@ -164,7 +165,7 @@ export const ROIMetricsPage: React.FC = () => {
         a.click();
       }
     } catch (err) {
-      console.error('Export failed:', err);
+      logger.error('Export failed:', err);
     }
   };
 

@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
@@ -109,7 +110,7 @@ async function fetchTenants(filters?: { status?: string; plan?: string; search?:
     const data = res as any;
     return data?.tenants || data?.data?.tenants || [];
   } catch (error) {
-    console.error('Failed to fetch tenants:', error);
+    logger.error('Failed to fetch tenants:', error);
     return getMockTenants();
   }
 }
@@ -119,7 +120,7 @@ async function fetchTenantMetrics(): Promise<TenantMetrics> {
     const res = await api.get<any>(`${API_BASE}/tenants/metrics`);
     return res?.data || res || getDefaultMetrics();
   } catch (error) {
-    console.error('Failed to fetch tenant metrics:', error);
+    logger.error('Failed to fetch tenant metrics:', error);
     return getDefaultMetrics();
   }
 }
@@ -362,7 +363,7 @@ export const TenantsPage: React.FC = () => {
       setTenants(tenantsData);
       setMetrics(metricsData);
     } catch (error) {
-      console.error('Failed to load data:', error);
+      logger.error('Failed to load data:', error);
     } finally {
       setLoading(false);
     }
@@ -378,7 +379,7 @@ export const TenantsPage: React.FC = () => {
       await suspendTenant(tenant.id, 'Admin action');
       loadData();
     } catch (error) {
-      console.error('Failed to suspend tenant:', error);
+      logger.error('Failed to suspend tenant:', error);
     }
     setActionMenuId(null);
   };
@@ -388,7 +389,7 @@ export const TenantsPage: React.FC = () => {
       await upgradeTenant(tenant.id, newPlan);
       loadData();
     } catch (error) {
-      console.error('Failed to upgrade tenant:', error);
+      logger.error('Failed to upgrade tenant:', error);
     }
     setActionMenuId(null);
   };

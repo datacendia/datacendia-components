@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Library — Error Tracking
  *
@@ -66,7 +67,7 @@ export function initErrorTracking(): void {
   // Start flush timer
   flushTimer = setInterval(flushErrors, FLUSH_INTERVAL);
 
-  console.log('[ErrorTracking] Initialized');
+  logger.info('[ErrorTracking] Initialized');
 }
 
 /**
@@ -93,7 +94,7 @@ export function logError(
 
   // Console logging in development
   if (ENABLE_CONSOLE_LOGGING) {
-    console.error('[ErrorTracking]', report.message, {
+    logger.error('[ErrorTracking]', report.message, {
       stack: report.stack,
       context: report.context,
       severity: report.severity,
@@ -152,14 +153,14 @@ async function flushErrors(): Promise<void> {
     if (!response.ok) {
       // Put errors back in queue
       errorQueue = [...errors, ...errorQueue];
-      console.warn('[ErrorTracking] Failed to send errors, will retry');
+      logger.warn('[ErrorTracking] Failed to send errors, will retry');
     } else {
-      console.log('[ErrorTracking] Sent', errors.length, 'error(s) to server');
+      logger.info('[ErrorTracking] Sent', errors.length, 'error(s) to server');
     }
   } catch (err) {
     // Put errors back in queue
     errorQueue = [...errors, ...errorQueue];
-    console.warn('[ErrorTracking] Network error, will retry');
+    logger.warn('[ErrorTracking] Network error, will retry');
   }
 }
 

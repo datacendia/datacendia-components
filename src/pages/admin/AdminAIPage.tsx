@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Admin A I Page
  *
@@ -177,7 +178,7 @@ export const AdminAIPage: React.FC = () => {
       setSessionId(newSessionId);
       setMessages(initialMessages);
     } catch (err) {
-      console.error('Failed to start session:', err);
+      logger.error('Failed to start session:', err);
     } finally {
       setInitializing(false);
     }
@@ -212,7 +213,7 @@ export const AdminAIPage: React.FC = () => {
 
       setMessages((prev) => [...prev, assistantMessage]);
     } catch (err) {
-      console.error('Failed to send message:', err);
+      logger.error('Failed to send message:', err);
       setMessages((prev) => [
         ...prev,
         {

@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Library — Index
  *
@@ -466,7 +467,7 @@ export const I18nProvider: React.FC<I18nProviderProps> = ({ children, defaultLoc
           return interpolate(fallback, params);
         }
         // Return key if no translation found
-        console.warn(`[i18n] Missing translation for key: ${key}`);
+        logger.warn(`[i18n] Missing translation for key: ${key}`);
         return key;
       }
 

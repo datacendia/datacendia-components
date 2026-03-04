@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Context — Data Source Context
  *
@@ -146,7 +147,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       } catch (error) {
         // Silently fail if not authenticated - data sources will load after login
         if (localStorage.getItem('accessToken')) {
-          console.error('Failed to load data sources:', error);
+          logger.error('Failed to load data sources:', error);
         }
       } finally {
         setIsLoading(false);

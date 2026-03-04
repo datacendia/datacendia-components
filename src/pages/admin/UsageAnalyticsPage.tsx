@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Usage Analytics Page
  *
@@ -112,7 +113,7 @@ async function fetchUsageMetrics(): Promise<UsageMetrics> {
     const res = await api.get<any>(`${API_BASE}/usage/metrics`);
     return (res as any)?.data || (res as any) || getDefaultMetrics();
   } catch (error) {
-    console.error('Failed to fetch usage metrics:', error);
+    logger.error('Failed to fetch usage metrics:', error);
     return getDefaultMetrics();
   }
 }
@@ -122,7 +123,7 @@ async function fetchUsageTimeSeries(period: string): Promise<UsageTimeSeries[]> 
     const res = await api.get<any>(`${API_BASE}/usage/timeseries?period=${period}`);
     return (res as any)?.data || (res as any)?.timeseries || getDefaultTimeSeries();
   } catch (error) {
-    console.error('Failed to fetch time series:', error);
+    logger.error('Failed to fetch time series:', error);
     return getDefaultTimeSeries();
   }
 }
@@ -132,7 +133,7 @@ async function fetchTopConsumers(): Promise<TopConsumer[]> {
     const res = await api.get<any>(`${API_BASE}/usage/top-consumers`);
     return (res as any)?.data || (res as any)?.consumers || getDefaultTopConsumers();
   } catch (error) {
-    console.error('Failed to fetch top consumers:', error);
+    logger.error('Failed to fetch top consumers:', error);
     return getDefaultTopConsumers();
   }
 }
@@ -300,7 +301,7 @@ export const UsageAnalyticsPage: React.FC = () => {
       setTimeSeries(tsData);
       setTopConsumers(consumersData);
     } catch (error) {
-      console.error('Failed to load data:', error);
+      logger.error('Failed to load data:', error);
     } finally {
       setLoading(false);
     }

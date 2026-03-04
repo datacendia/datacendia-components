@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Decision D N A Page
  *
@@ -610,7 +611,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
       allDecisions.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
       setDecisions(allDecisions.length > 0 ? allDecisions : SAMPLE_DECISIONS);
     } catch (error) {
-      console.error('Failed to load decisions:', error);
+      logger.error('Failed to load decisions:', error);
       setDecisions(SAMPLE_DECISIONS);
     } finally {
       setIsLoadingList(false);
@@ -691,7 +692,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
         setReplayMode(false);
       }
     } catch (error) {
-      console.error('Failed to load decision:', error);
+      logger.error('Failed to load decision:', error);
       // Fallback to sample decisions for demo mode
       if (SAMPLE_DECISIONS_DETAIL[id]) {
         setSelectedDecision(SAMPLE_DECISIONS_DETAIL[id]);
@@ -725,7 +726,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
         loadDecision(payload.decision.id);
       }
     } catch (error) {
-      console.error('Failed to create decision:', error);
+      logger.error('Failed to create decision:', error);
     }
     setIsCreating(false);
   };
@@ -753,7 +754,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
         navigate(`/cortex/intelligence/pre-mortem?${params.toString()}`);
       }
     } catch (error) {
-      console.error('Failed to run pre-mortem:', error);
+      logger.error('Failed to run pre-mortem:', error);
       // Fallback: navigate to Pre-Mortem page with full decision context
       const params = new URLSearchParams({
         decision: selectedDecision.title,

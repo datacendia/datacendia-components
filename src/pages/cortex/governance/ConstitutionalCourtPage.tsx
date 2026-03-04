@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Constitutional Court Page
  *
@@ -67,7 +68,7 @@ export default function ConstitutionalCourtPage() {
       setPrinciples(principlesData);
       setStatistics(statsData);
     } catch (error) {
-      console.error('Failed to load data, using demo data:', error);
+      logger.error('Failed to load data, using demo data:', error);
       setPrinciples([
         { id: 'p1', name: 'Fairness & Non-Discrimination', description: 'AI decisions must not discriminate based on protected characteristics', category: 'Ethics', weight: 0.9, precedentCount: 12 },
         { id: 'p2', name: 'Transparency & Explainability', description: 'All AI-assisted decisions must be explainable to affected parties', category: 'Governance', weight: 0.85, precedentCount: 8 },

@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Marketing C M S Page
  *
@@ -123,8 +124,8 @@ export const MarketingCMSPage: React.FC = () => {
     if (!selectedPage) {return;}
     
     // In real implementation, commit to GitHub
-    console.log('Saving content for:', selectedPage.path);
-    console.log('Content:', editContent);
+    logger.info('Saving content for:', selectedPage.path);
+    logger.info('Content:', editContent);
     
     // Update local state
     setPages(prev => prev.map(p => 

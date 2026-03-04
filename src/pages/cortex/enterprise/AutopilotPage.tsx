@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Autopilot Page
  *
@@ -407,13 +408,13 @@ export const AutopilotPage: React.FC = () => {
       ]);
 
       if (rulesRes.success && rulesRes.data) {
-        console.log('[Autopilot] Loaded', rulesRes.data.length, 'rules from database');
+        logger.info('[Autopilot] Loaded', rulesRes.data.length, 'rules from database');
       }
       if (executionsRes.success && executionsRes.data) {
-        console.log('[Autopilot] Loaded', executionsRes.data.length, 'executions from database');
+        logger.info('[Autopilot] Loaded', executionsRes.data.length, 'executions from database');
       }
     } catch (error) {
-      console.log('[Autopilot] API unavailable, using local service');
+      logger.info('[Autopilot] API unavailable, using local service');
     }
 
     // Fall back to enterprise service

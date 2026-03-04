@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Regulators Receipt Page
  *
@@ -315,7 +316,7 @@ const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded
         setDeliberations(FALLBACK_DELIBERATIONS);
       }
     } catch (error) {
-      console.error('Failed to load deliberations:', error);
+      logger.error('Failed to load deliberations:', error);
       setDeliberations(FALLBACK_DELIBERATIONS);
     } finally {
       setIsLoading(false);
@@ -377,7 +378,7 @@ const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded
 
       if (!response.ok) {
         const errText = await response.text();
-        console.error('PDF generation failed:', response.status, errText);
+        logger.error('PDF generation failed:', response.status, errText);
         return;
       }
 
@@ -393,7 +394,7 @@ const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded
       window.URL.revokeObjectURL(url);
       document.body.removeChild(a);
     } catch (error) {
-      console.error('Failed to download PDF:', error);
+      logger.error('Failed to download PDF:', error);
     }
   };
 

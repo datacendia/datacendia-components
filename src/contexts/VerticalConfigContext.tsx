@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Context — Vertical Config Context
  *
@@ -238,7 +239,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
 
       return toggle;
     } catch (err) {
-      console.error('Failed to toggle service:', err);
+      logger.error('Failed to toggle service:', err);
       return null;
     }
   }, [state.serviceCatalog]);
@@ -269,7 +270,7 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
 
       return results;
     } catch (err) {
-      console.error('Failed to bulk toggle services:', err);
+      logger.error('Failed to bulk toggle services:', err);
       return [];
     }
   }, [state.serviceCatalog]);

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Index
  *
@@ -578,7 +579,7 @@ export const AuditLogPage: React.FC = () => {
             className="flex-1 min-w-48 h-10 px-3 border border-neutral-300 rounded-lg"
           />
           <button
-            onClick={() => console.log('Filters applied:', filters)}
+            onClick={() => logger.info('Filters applied:', filters)}
             className="h-10 px-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
           >
             Apply Filters
@@ -647,14 +648,14 @@ export const AuditLogPage: React.FC = () => {
           <span className="text-sm text-neutral-500">Showing 1-8 of 1,234 events</span>
           <div className="flex gap-2">
             <button
-              onClick={() => console.log('Previous page')}
+              onClick={() => logger.info('Previous page')}
               className="px-3 py-1.5 border border-neutral-300 rounded-lg text-sm hover:bg-neutral-50"
               disabled
             >
               Previous
             </button>
             <button
-              onClick={() => console.log('Next page')}
+              onClick={() => logger.info('Next page')}
               className="px-3 py-1.5 border border-neutral-300 rounded-lg text-sm hover:bg-neutral-50"
             >
               Next

@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Pulse Page
  *
@@ -468,23 +469,23 @@ export const PulsePage: React.FC = () => {
 
         if (cpuMetrics.length > 0 && cpuMetrics[0].values) {
           const latestCpu = cpuMetrics[0].values[cpuMetrics[0].values.length - 1];
-          console.log('[Pulse] Prometheus CPU metric:', latestCpu);
+          logger.info('[Pulse] Prometheus CPU metric:', latestCpu);
         }
 
         // Check sovereign stack health
         const sovereignHealth = await sovereignApi.getHealthStatus();
         if (sovereignHealth.healthy) {
-          console.log(
+          logger.info(
             '[Pulse] Sovereign stack healthy, services:',
             Object.keys(sovereignHealth.services).length
           );
         }
       } catch (prometheusError) {
-        console.warn('[Pulse] Prometheus metrics unavailable:', prometheusError);
+        logger.warn('[Pulse] Prometheus metrics unavailable:', prometheusError);
         // Continue with existing health data - Prometheus is optional
       }
     } catch (err) {
-      console.error('Health data load error:', err);
+      logger.error('Health data load error:', err);
       setError('Failed to load health data');
     }
   }, []);
@@ -521,7 +522,7 @@ export const PulsePage: React.FC = () => {
         setEvents(alertEvents);
       }
     } catch (err) {
-      console.error('Alerts load error:', err);
+      logger.error('Alerts load error:', err);
     }
   }, []);
 

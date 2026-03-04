@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Regulatory Sandbox Page
  *
@@ -67,7 +68,7 @@ export default function RegulatorySandboxPage() {
       setTests(testsData);
       setTimeline(timelineData);
     } catch (error) {
-      console.error('Failed to load data, using demo data:', error);
+      logger.error('Failed to load data, using demo data:', error);
       setRegulations([
         { id: 'eu-ai-act', code: 'EU-AI-ACT', name: 'EU AI Act', fullName: 'Regulation on Artificial Intelligence', jurisdiction: 'EU' as any, status: 'effective' as any, proposedDate: '2021-04-21', expectedEffectiveDate: '2025-08-01', summary: 'Risk-based framework for AI systems in the EU', keyRequirements: [{ id: 'r1', article: 'Art. 6', title: 'High-Risk Classification', description: 'AI systems in Annex III areas classified as high-risk', category: 'Classification', mandatory: true }], affectedVerticals: ['Healthcare', 'Finance', 'Legal'], affectedAISystems: ['Decision Support', 'Risk Assessment'], estimatedComplianceCost: '$250K-$500K', lastUpdated: new Date().toISOString(), confidence: 0.95 },
         { id: 'us-ai-bill', code: 'US-AI-2025', name: 'US AI Accountability Act', fullName: 'Algorithmic Accountability Act of 2025', jurisdiction: 'US-Federal' as any, status: 'draft' as any, proposedDate: '2025-03-15', expectedAdoptionDate: '2026-01-01', summary: 'Federal AI transparency and accountability requirements', keyRequirements: [{ id: 'r2', article: 'Sec. 4', title: 'Impact Assessment', description: 'Automated decision systems require impact assessments', category: 'Assessment', mandatory: true }], affectedVerticals: ['Finance', 'Healthcare', 'Employment'], affectedAISystems: ['Automated Decisions', 'Scoring Systems'], estimatedComplianceCost: '$100K-$300K', lastUpdated: new Date().toISOString(), confidence: 0.6 },

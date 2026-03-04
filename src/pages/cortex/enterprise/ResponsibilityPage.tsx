@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Responsibility Page
  *
@@ -131,7 +132,7 @@ export default function ResponsibilityPage() {
       setSelectedChain(chain);
       setRecentRecords(chain.records);
     } catch (error) {
-      console.error('Failed to load accountability chain:', error);
+      logger.error('Failed to load accountability chain:', error);
     } finally {
       setIsLoading(false);
     }
@@ -143,7 +144,7 @@ export default function ResponsibilityPage() {
       const report = await responsibilityService.getLiabilityReport(decisionId);
       setSelectedReport(report);
     } catch (error) {
-      console.error('Failed to load liability report:', error);
+      logger.error('Failed to load liability report:', error);
     } finally {
       setIsLoading(false);
     }
@@ -182,7 +183,7 @@ export default function ResponsibilityPage() {
         aiConfidenceScore: 0,
       });
     } catch (error) {
-      console.error('Failed to create record:', error);
+      logger.error('Failed to create record:', error);
     } finally {
       setIsLoading(false);
     }

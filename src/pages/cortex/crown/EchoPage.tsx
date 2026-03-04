@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Echo Page
  *
@@ -131,7 +132,7 @@ const EchoPage = () => {
         setAccuracy(accuracyRes.data as AccuracyReport);
       }
     } catch (error) {
-      console.error('Failed to fetch Echo data, using demo data:', error);
+      logger.error('Failed to fetch Echo data, using demo data:', error);
       // Fallback demo data when backend unavailable
       setDashboard({
         summary: {
@@ -494,7 +495,7 @@ const EchoPage = () => {
                     try {
                       const res = await echoApi.getPendingDecisions({ olderThanDays: 1, limit: 20 });
                       if (res.success) {setPendingDecisions(res.data as PendingDecision[]);}
-                    } catch (e) { console.error('Failed to fetch pending:', e); }
+                    } catch (e) { logger.error('Failed to fetch pending:', e); }
                     setPendingLoading(false);
                   }
                 }}
@@ -680,7 +681,7 @@ const EchoPage = () => {
                       fetchData();
                     }
                   } catch (e) {
-                    console.error('Failed to link outcome:', e);
+                    logger.error('Failed to link outcome:', e);
                   }
                   setLinkSubmitting(false);
                 }}
@@ -718,7 +719,7 @@ const EchoPage = () => {
                       try {
                         const res = await echoApi.getOutcomeReport(decision.id);
                         if (res.success) {setGeneratedReport({ ...res.data as any, decisionTitle: decision.decisionTitle });}
-                      } catch (e) { console.error('Failed to generate report:', e); }
+                      } catch (e) { logger.error('Failed to generate report:', e); }
                       setReportGenerating(false);
                     }}
                     disabled={reportGenerating}

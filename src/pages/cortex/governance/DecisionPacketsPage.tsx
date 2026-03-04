@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Decision Packets Page
  *
@@ -134,7 +135,7 @@ export const DecisionPacketsPage: React.FC = () => {
         setPackets(mockPackets);
       } catch (err) {
         setError('Failed to load decision packets');
-        console.error(err);
+        logger.error(err);
       } finally {
         setIsLoading(false);
       }

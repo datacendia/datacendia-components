@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Auto Heal Service
  *
@@ -42,7 +43,7 @@ class AutoHealServiceClass {
   constructor() {
     this.setupErrorInterception();
     this.loadConfig();
-    console.log('[AutoHeal] Service initialized');
+    logger.info('[AutoHeal] Service initialized');
   }
 
   // ===========================================================================
@@ -56,14 +57,14 @@ class AutoHealServiceClass {
         this.config = { ...DEFAULT_TECH_TEAM_CONFIG, ...JSON.parse(saved) };
       }
     } catch (e) {
-      console.warn('[AutoHeal] Failed to load config:', e);
+      logger.warn('[AutoHeal] Failed to load config:', e);
     }
   }
 
   public updateConfig(updates: Partial<TechTeamConfig>): void {
     this.config = { ...this.config, ...updates };
     localStorage.setItem('autoheal_config', JSON.stringify(this.config));
-    console.log('[AutoHeal] Config updated:', this.config);
+    logger.info('[AutoHeal] Config updated:', this.config);
   }
 
   public getConfig(): TechTeamConfig {
@@ -132,7 +133,7 @@ class AutoHealServiceClass {
       originalConsoleError.apply(console, args);
     };
 
-    console.log('[AutoHeal] Error interception active');
+    logger.info('[AutoHeal] Error interception active');
   }
 
   private captureError(errorInfo: {
@@ -198,7 +199,7 @@ class AutoHealServiceClass {
       this.processErrorQueue();
     }
 
-    console.log(`[AutoHeal] Captured ${severity} error:`, errorInfo.message.substring(0, 100));
+    logger.info(`[AutoHeal] Captured ${severity} error:`, errorInfo.message.substring(0, 100));
   }
 
   private parseStackTrace(
@@ -285,7 +286,7 @@ class AutoHealServiceClass {
 
     // Check rate limit
     if (this.fixesAppliedThisHour >= this.config.maxAutoFixesPerHour) {
-      console.log('[AutoHeal] Rate limit reached, waiting...');
+      logger.info('[AutoHeal] Rate limit reached, waiting...');
       return;
     }
 
@@ -299,17 +300,17 @@ class AutoHealServiceClass {
         return;
       }
 
-      console.log(`[AutoHeal] Processing error: ${error.id}`);
+      logger.info(`[AutoHeal] Processing error: ${error.id}`);
 
       // Get assigned agent
       const agent = getTechAgent(error.assignedAgent);
       if (!agent) {
-        console.warn(`[AutoHeal] No agent found for: ${error.assignedAgent}`);
+        logger.warn(`[AutoHeal] No agent found for: ${error.assignedAgent}`);
         this.isProcessing = false;
         return;
       }
 
-      console.log(`[AutoHeal] Assigned to: ${agent.name}`);
+      logger.info(`[AutoHeal] Assigned to: ${agent.name}`);
 
       // Generate fix using AI
       const fix = await this.generateFix(error, agent);
@@ -318,7 +319,7 @@ class AutoHealServiceClass {
         error.suggestedFix = fix.description;
         this.fixHistory.push(fix);
 
-        console.log(`[AutoHeal] Fix suggested by ${agent.name}:`, fix.description);
+        logger.info(`[AutoHeal] Fix suggested by ${agent.name}:`, fix.description);
 
         // Auto-apply if configured and safe
         if (!this.config.requireApproval && fix.riskLevel === 'safe') {
@@ -331,7 +332,7 @@ class AutoHealServiceClass {
       // Remove from queue
       this.errorQueue = this.errorQueue.filter((e) => e.id !== error.id);
     } catch (e) {
-      console.error('[AutoHeal] Processing error:', e);
+      logger.error('[AutoHeal] Processing error:', e);
     } finally {
       this.isProcessing = false;
 
@@ -384,7 +385,7 @@ class AutoHealServiceClass {
       if (!response.ok || !data.success) {
         const errMsg = data.error?.message || `Backend returned ${response.status}`;
         this.lastGenerateError = errMsg;
-        console.warn('[AutoHeal] Fix generation failed:', errMsg);
+        logger.warn('[AutoHeal] Fix generation failed:', errMsg);
         return null;
       }
 
@@ -426,7 +427,7 @@ class AutoHealServiceClass {
       };
     } catch (e: any) {
       this.lastGenerateError = e?.message || 'Network error reaching backend';
-      console.warn('[AutoHeal] Fix generation error:', this.lastGenerateError);
+      logger.warn('[AutoHeal] Fix generation error:', this.lastGenerateError);
       return null;
     }
   }
@@ -434,7 +435,7 @@ class AutoHealServiceClass {
   private async applyFix(fix: FixSuggestion): Promise<boolean> {
     // In a real implementation, this would apply the code change
     // For now, we log the suggested fix
-    console.log('[AutoHeal] Would apply fix:', fix);
+    logger.info('[AutoHeal] Would apply fix:', fix);
 
     if (this.config.notifyOnFix) {
       this.notifyFixApplied(fix);
@@ -484,17 +485,17 @@ class AutoHealServiceClass {
   public async requestFix(errorId: string): Promise<FixSuggestion | null> {
     const error = this.errorQueue.find((e) => e.id === errorId);
     if (!error) {
-      console.warn('[AutoHeal] requestFix: Error not found in queue:', errorId);
+      logger.warn('[AutoHeal] requestFix: Error not found in queue:', errorId);
       return null;
     }
 
     const agent = getTechAgent(error.assignedAgent);
     if (!agent) {
-      console.warn('[AutoHeal] requestFix: No agent found for:', error.assignedAgent);
+      logger.warn('[AutoHeal] requestFix: No agent found for:', error.assignedAgent);
       return null;
     }
 
-    console.log(`[AutoHeal] Generating fix for ${errorId} using ${agent.name}...`);
+    logger.info(`[AutoHeal] Generating fix for ${errorId} using ${agent.name}...`);
 
     try {
       const fix = await this.generateFix(error, agent);
@@ -509,14 +510,14 @@ class AutoHealServiceClass {
         // Notify listeners of the update
         this.notifyFixGenerated(fix);
 
-        console.log(`[AutoHeal] Fix generated successfully:`, fix.description.substring(0, 100));
+        logger.info(`[AutoHeal] Fix generated successfully:`, fix.description.substring(0, 100));
       } else {
-        console.warn('[AutoHeal] No fix generated');
+        logger.warn('[AutoHeal] No fix generated');
       }
 
       return fix;
     } catch (e) {
-      console.error('[AutoHeal] requestFix failed:', e);
+      logger.error('[AutoHeal] requestFix failed:', e);
       return null;
     }
   }

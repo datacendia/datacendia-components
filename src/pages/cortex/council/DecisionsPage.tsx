@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Decisions Page
  *
@@ -87,7 +88,7 @@ export const DecisionsPage: React.FC = () => {
         })));
       }
     } catch (err) {
-      console.error('Failed to load decisions:', err);
+      logger.error('Failed to load decisions:', err);
       setError('Failed to load decisions. The backend may not be running.');
       // Show empty state with demo data option
       setDecisions([]);

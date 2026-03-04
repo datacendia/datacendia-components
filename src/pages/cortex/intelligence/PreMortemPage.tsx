@@ -1,3 +1,4 @@
+import { logger } from '../../../lib/logger';
 /**
  * Page — Pre Mortem Page
  *
@@ -271,7 +272,7 @@ export const PreMortemPage: React.FC = () => {
 
       setResult(analysisResult);
     } catch (err) {
-      console.error('Analysis error:', err);
+      logger.error('Analysis error:', err);
       setError(err instanceof Error ? err.message : 'Analysis failed');
       addLiveMessage({
         agentId: 'system',

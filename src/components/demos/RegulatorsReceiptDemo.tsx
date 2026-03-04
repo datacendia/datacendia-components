@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Regulators Receipt Demo
  *
@@ -508,7 +509,7 @@ const signWithKMS = async (data: string): Promise<SignatureResult> => {
     const result = await councilPacketApi.signData(data);
     return result;
   } catch (error) {
-    console.error('[RegulatorsReceipt] KMS signing failed, using fallback:', error);
+    logger.error('[RegulatorsReceipt] KMS signing failed, using fallback:', error);
     // Fallback to indicate signing was attempted but failed
     return {
       signature: `UNSIGNED-${Date.now()}`,
@@ -546,7 +547,7 @@ const generateMerkleRootAsync = async (data: string[]): Promise<string> => {
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   } catch (error) {
-    console.error('[RegulatorsReceipt] SHA-256 failed:', error);
+    logger.error('[RegulatorsReceipt] SHA-256 failed:', error);
     return generateMerkleRoot(data);
   }
 };
@@ -1051,7 +1052,7 @@ export const RegulatorsReceiptDemo: React.FC<{
         return data.response?.trim() || 'Analysis complete.';
       }
     } catch (error) {
-      console.error('LLM generation failed:', error);
+      logger.error('LLM generation failed:', error);
     }
     return 'Analysis complete. Data reviewed.';
   };
@@ -1075,7 +1076,7 @@ export const RegulatorsReceiptDemo: React.FC<{
   // Run real LLM deliberation
   const runDeliberation = useCallback(async () => {
     if (!ollamaConnected) {
-      console.warn('Ollama not connected, using fallback responses');
+      logger.warn('Ollama not connected, using fallback responses');
     }
 
     setIsGenerating(true);

@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Symbiont Page
  *
@@ -210,7 +211,7 @@ export const SymbiontPage: React.FC = () => {
         setDashboard((dashRes.data as any)?.data || dashRes.data || null);
       }
     } catch (error) {
-      console.error('Failed to load Symbiont data:', error);
+      logger.error('Failed to load Symbiont data:', error);
     } finally {
       setIsLoading(false);
     }
@@ -223,7 +224,7 @@ export const SymbiontPage: React.FC = () => {
       setNewEntity({ name: '', entityType: 'PARTNER', domain: '', description: '' });
       await loadData();
     } catch (error) {
-      console.error('Add entity failed:', error);
+      logger.error('Add entity failed:', error);
     }
   };
 
@@ -232,7 +233,7 @@ export const SymbiontPage: React.FC = () => {
       await apiClient.api.post(`/symbiont/entities/${entityId}/opportunities`);
       await loadData();
     } catch (error) {
-      console.error('Opportunity detection failed:', error);
+      logger.error('Opportunity detection failed:', error);
     }
   };
 

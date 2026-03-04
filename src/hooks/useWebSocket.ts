@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Hook — Use Web Socket
  *
@@ -76,7 +77,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
         connecting: false,
         error: null,
       });
-      console.log('[WebSocket] Connected to server');
+      logger.info('[WebSocket] Connected to server');
     });
 
     newSocket.on('disconnect', (reason: string) => {
@@ -85,7 +86,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
         connected: false,
         connecting: false,
       }));
-      console.log(`[WebSocket] Disconnected: ${reason}`);
+      logger.info(`[WebSocket] Disconnected: ${reason}`);
     });
 
     newSocket.on('connect_error', (error: Error) => {
@@ -97,13 +98,13 @@ export function useWebSocket(options: WebSocketOptions = {}) {
       }));
       // Only log once to avoid spam
       if (!errorLoggedRef.current) {
-        console.warn('[WebSocket] Connection error:', error.message);
+        logger.warn('[WebSocket] Connection error:', error.message);
         errorLoggedRef.current = true;
       }
     });
 
     newSocket.on('reconnect', (attemptNumber: number) => {
-      console.log(`[WebSocket] Reconnected after ${attemptNumber} attempts`);
+      logger.info(`[WebSocket] Reconnected after ${attemptNumber} attempts`);
     });
 
     newSocket.on('reconnect_attempt', (attemptNumber: number) => {
@@ -117,7 +118,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
         connecting: false,
         error: new Error('Reconnection failed after maximum attempts'),
       }));
-      console.error('[WebSocket] Reconnection failed');
+      logger.error('[WebSocket] Reconnection failed');
     });
 
     socketRef.current = newSocket;
@@ -144,7 +145,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
     if (socketRef.current && socketRef.current.connected) {
       socketRef.current.emit(event, data);
     } else {
-      console.warn(`[WebSocket] Cannot emit '${event}' - not connected`);
+      logger.warn(`[WebSocket] Cannot emit '${event}' - not connected`);
     }
   }, []);
 

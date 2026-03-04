@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Component — Platform Assistant
  *
@@ -133,7 +134,7 @@ export function PlatformAssistant() {
 
       setMessages(prev => [...prev, assistantMessage]);
     } catch (err) {
-      console.error('Failed to get assistant response:', err);
+      logger.error('Failed to get assistant response:', err);
       setMessages(prev => [...prev, {
         id: (Date.now() + 1).toString(),
         role: 'assistant',

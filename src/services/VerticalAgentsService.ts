@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Vertical Agents Service
  *
@@ -102,7 +103,7 @@ class VerticalAgentsApiService {
       const response = await api.get<ApiResponse<VerticalAgentConfig>>(`${this.baseUrl}/verticals/${verticalId}`);
       return response.data?.data ?? null;
     } catch (error) {
-      console.error('Error fetching vertical config:', error);
+      logger.error('Error fetching vertical config:', error);
       return null;
     }
   }
@@ -136,7 +137,7 @@ class VerticalAgentsApiService {
       const response = await api.get<ApiResponse<VerticalAgent>>(`${this.baseUrl}/agents/${agentId}`);
       return response.data?.data ?? null;
     } catch (error) {
-      console.error('Error fetching agent:', error);
+      logger.error('Error fetching agent:', error);
       return null;
     }
   }
@@ -146,7 +147,7 @@ class VerticalAgentsApiService {
       const response = await api.get<ApiResponse<AgentMetrics>>(`${this.baseUrl}/agents/${agentId}/metrics`);
       return response.data?.data ?? null;
     } catch (error) {
-      console.error('Error fetching agent metrics:', error);
+      logger.error('Error fetching agent metrics:', error);
       return null;
     }
   }

@@ -1,3 +1,4 @@
+import { logger } from '../lib/logger';
 /**
  * Frontend Service — Responsibility Service
  *
@@ -250,7 +251,7 @@ class ResponsibilityService {
       );
       return response.data?.data ?? this.getMockChain(decisionId);
     } catch (error) {
-      console.error('[Responsibility] Error fetching chain:', error);
+      logger.error('[Responsibility] Error fetching chain:', error);
       return this.getMockChain(decisionId);
     }
   }
@@ -265,7 +266,7 @@ class ResponsibilityService {
       );
       return response.data?.data ?? this.getMockReport(decisionId);
     } catch (error) {
-      console.error('[Responsibility] Error fetching liability report:', error);
+      logger.error('[Responsibility] Error fetching liability report:', error);
       return this.getMockReport(decisionId);
     }
   }
@@ -296,7 +297,7 @@ class ResponsibilityService {
         features: []
       };
     } catch (error) {
-      console.error('[Responsibility] Error fetching health:', error);
+      logger.error('[Responsibility] Error fetching health:', error);
       return {
         success: false,
         service: 'CendiaResponsibility™',

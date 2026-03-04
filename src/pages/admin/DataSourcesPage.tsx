@@ -1,3 +1,4 @@
+import { logger } from '../../lib/logger';
 /**
  * Page — Data Sources Page
  *
@@ -367,7 +368,7 @@ export const DataSourcesPage: React.FC = () => {
         setLoadError(res.error?.message || 'Failed to load data sources');
       }
     } catch (error) {
-      console.error('Failed to load data sources:', error);
+      logger.error('Failed to load data sources:', error);
       setDataSources([]);
       setLoadError(error instanceof Error ? error.message : 'Failed to load data sources');
     } finally {
@@ -492,7 +493,7 @@ export const DataSourcesPage: React.FC = () => {
         }
       }
     } catch (error) {
-      console.error('Failed to save:', error);
+      logger.error('Failed to save:', error);
     } finally {
       setIsSaving(false);
     }
@@ -513,7 +514,7 @@ export const DataSourcesPage: React.FC = () => {
         );
       }
     } catch (error) {
-      console.error('Failed to start sync:', error);
+      logger.error('Failed to start sync:', error);
     }
   };
 
@@ -529,7 +530,7 @@ export const DataSourcesPage: React.FC = () => {
         setSelectedSource(null);
       }
     } catch (error) {
-      console.error('Failed to delete:', error);
+      logger.error('Failed to delete:', error);
     }
   };
 
