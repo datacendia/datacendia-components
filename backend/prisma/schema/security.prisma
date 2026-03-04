@@ -134,7 +134,7 @@ model crucible_redteam_reports {
   @@index([security_score])
 }
 
-// REMOVED: model crucible_schedules (orphaned — not referenced in application code)
+// REMOVED: model crucible_schedules (orphaned - not referenced in application code)
 
 model crucible_sbom {
   id              String    @id @default(uuid())
@@ -366,7 +366,7 @@ model honeytokens {
   @@index([triggered])
 }
 
-// REMOVED: model canary_systems (orphaned — not referenced in application code)
+// REMOVED: model canary_systems (orphaned - not referenced in application code)
 
 model canary_alerts {
   id          String          @id @default(uuid())
@@ -379,7 +379,8 @@ model canary_alerts {
   analyzed    Boolean         @default(false)
   created_at  DateTime        @default(now())
 
-  canary canary_systems @relation(fields: [canary_id], references: [id], onDelete: Cascade)
+  // REMOVED: canary_systems relation (model was removed as orphan)
+  // canary canary_systems @relation(fields: [canary_id], references: [id], onDelete: Cascade)
 
   @@index([canary_id])
   @@index([created_at])
@@ -689,15 +690,15 @@ enum KeyEvent {
 }
 
 // =============================================================================
-// CendiaHSM — Hardware Security Module Keys & Operations
+// CendiaHSM - Hardware Security Module Keys & Operations
 // =============================================================================
 
-// REMOVED: model hsm_keys (orphaned — not referenced in application code)
+// REMOVED: model hsm_keys (orphaned - not referenced in application code)
 
-// REMOVED: model hsm_operations (orphaned — not referenced in application code)
+// REMOVED: model hsm_operations (orphaned - not referenced in application code)
 
 // =============================================================================
-// Immutable Audit Ledger — Persistent Merkle Tree Storage
+// Immutable Audit Ledger - Persistent Merkle Tree Storage
 // Court-admissible evidence requires persistence across server restarts.
 // =============================================================================
 

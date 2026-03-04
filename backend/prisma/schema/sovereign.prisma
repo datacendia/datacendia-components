@@ -297,9 +297,9 @@ model vox_assemblies {
   @@index([decision_id])
 }
 
-// REMOVED: model digital_twins (orphaned — not referenced in application code)
+// REMOVED: model digital_twins (orphaned - not referenced in application code)
 
-// REMOVED: model twin_snapshots (orphaned — not referenced in application code)
+// REMOVED: model twin_snapshots (orphaned - not referenced in application code)
 
 model simulations {
   id                String           @id @default(uuid())
@@ -419,13 +419,13 @@ model claim_votes {
   @@unique([claim_id, voter_id])
 }
 
-// REMOVED: model knowledge_articles (orphaned — not referenced in application code)
+// REMOVED: model knowledge_articles (orphaned - not referenced in application code)
 
-// REMOVED: model article_versions (orphaned — not referenced in application code)
+// REMOVED: model article_versions (orphaned - not referenced in application code)
 
-// REMOVED: model institutional_memories (orphaned — not referenced in application code)
+// REMOVED: model institutional_memories (orphaned - not referenced in application code)
 
-// REMOVED: model expertise_profiles (orphaned — not referenced in application code)
+// REMOVED: model expertise_profiles (orphaned - not referenced in application code)
 
 model claim_disputes {
   id              String        @id @default(uuid())
@@ -477,15 +477,15 @@ model discovery_requests {
   @@index([status])
 }
 
-// REMOVED: model recovery_procedures (orphaned — not referenced in application code)
+// REMOVED: model recovery_procedures (orphaned - not referenced in application code)
 
-// REMOVED: model integrity_reports (orphaned — not referenced in application code)
+// REMOVED: model integrity_reports (orphaned - not referenced in application code)
 
-// REMOVED: model operation_attempts (orphaned — not referenced in application code)
+// REMOVED: model operation_attempts (orphaned - not referenced in application code)
 
-// REMOVED: model knowledge_transfers (orphaned — not referenced in application code)
+// REMOVED: model knowledge_transfers (orphaned - not referenced in application code)
 
-// REMOVED: model stored_records (orphaned — not referenced in application code)
+// REMOVED: model stored_records (orphaned - not referenced in application code)
 
 enum EternalArtifactType {
   STRATEGIC_DECISION
@@ -903,7 +903,7 @@ model sovereign_blackbox_records {
 }
 
 // =============================================================================
-// ClamAV â€” Malware Scan Results
+// ClamAV - Malware Scan Results
 // =============================================================================
 
-// REMOVED: model clamav_scan_results (orphaned — not referenced in application code)
+// REMOVED: model clamav_scan_results (orphaned - not referenced in application code)

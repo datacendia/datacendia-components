@@ -118,7 +118,7 @@ model redteam_patches {
   @@index([status])
 }
 
-// REMOVED: model redteam_scores (orphaned — not referenced in application code)
+// REMOVED: model redteam_scores (orphaned - not referenced in application code)
 
 model gnosis_learning_paths {
   id                 String    @id @default(uuid())
@@ -176,9 +176,9 @@ model gnosis_assessments {
   @@index([skill])
 }
 
-// REMOVED: model gnosis_skill_profiles (orphaned — not referenced in application code)
+// REMOVED: model gnosis_skill_profiles (orphaned - not referenced in application code)
 
-// REMOVED: model gnosis_analytics (orphaned — not referenced in application code)
+// REMOVED: model gnosis_analytics (orphaned - not referenced in application code)
 
 model apotheosis_runs {
   id                       String    @id @default(uuid())

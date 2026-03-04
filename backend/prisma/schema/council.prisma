@@ -1,7 +1,7 @@
 // Council Domain - Agents, Deliberations, Decisions, Veto, Union, Dissent
 
 // =============================================================================
-// Prompt Versioning — Track every prompt template used in deliberations
+// Prompt Versioning - Track every prompt template used in deliberations
 // If a deliberation output is questioned 2 years later, you need to know
 // exactly which prompt generated it.
 // =============================================================================
@@ -119,7 +119,7 @@ model decision_blockers {
   decisions            decisions @relation(fields: [decision_id], references: [id], onDelete: Cascade)
 }
 
-// REMOVED: model decision_dependencies (orphaned — not referenced in application code)
+// REMOVED: model decision_dependencies (orphaned - not referenced in application code)
 
 model decisions {
   id                                                                   String                  @id
@@ -145,8 +145,9 @@ model decisions {
   resolved_at                                                          DateTime?
   decision_activities                                                  decision_activities[]
   decision_blockers                                                    decision_blockers[]
-  decision_dependencies_decision_dependencies_decision_idTodecisions   decision_dependencies[] @relation("decision_dependencies_decision_idTodecisions")
-  decision_dependencies_decision_dependencies_depends_on_idTodecisions decision_dependencies[] @relation("decision_dependencies_depends_on_idTodecisions")
+  // REMOVED: decision_dependencies (model not defined)
+  // decision_dependencies_decision_dependencies_decision_idTodecisions
+  // decision_dependencies_decision_dependencies_depends_on_idTodecisions
   executive_summaries                                                  executive_summaries[]
 
   @@index([organization_id])
@@ -275,9 +276,9 @@ model deliberation_votes {
   @@index([deliberation_id])
 }
 
-// REMOVED: model query_classifications (orphaned — not referenced in application code)
+// REMOVED: model query_classifications (orphaned - not referenced in application code)
 
-// REMOVED: model veto_rules (orphaned — not referenced in application code)
+// REMOVED: model veto_rules (orphaned - not referenced in application code)
 
 model veto_events {
   id              String     @id @default(uuid())
@@ -288,12 +289,13 @@ model veto_events {
   reason          String
   severity        String
   created_at      DateTime   @default(now())
-  rule            veto_rules @relation(fields: [rule_id], references: [id])
+  // REMOVED: veto_rules relation (model was removed as orphan)
+  // rule            veto_rules @relation(fields: [rule_id], references: [id])
 
   @@index([organization_id])
 }
 
-// REMOVED: model union_metrics (orphaned — not referenced in application code)
+// REMOVED: model union_metrics (orphaned - not referenced in application code)
 
 model ghost_board_sessions {
   id                String   @id @default(uuid())
@@ -391,7 +393,7 @@ model echo_collection_jobs {
   @@index([scheduled_collection_date])
 }
 
-// REMOVED: model echo_patterns (orphaned — not referenced in application code)
+// REMOVED: model echo_patterns (orphaned - not referenced in application code)
 
 model dissents {
   id                   String    @id @default(uuid())
@@ -445,9 +447,9 @@ model dissent_responses {
   @@index([responder_id])
 }
 
-// REMOVED: model dissent_metrics (orphaned — not referenced in application code)
+// REMOVED: model dissent_metrics (orphaned - not referenced in application code)
 
-// REMOVED: model dissenter_profiles (orphaned — not referenced in application code)
+// REMOVED: model dissenter_profiles (orphaned - not referenced in application code)
 
 enum DecisionPriority {
   LOW

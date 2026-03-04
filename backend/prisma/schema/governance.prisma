@@ -671,7 +671,7 @@ model constitutional_opinions {
 }
 
 // =============================================================================
-// Override Accountability — Primitive C
+// Override Accountability - Primitive C
 // =============================================================================
 
 model accountability_records {
@@ -722,7 +722,7 @@ model delegation_records {
 }
 
 // =============================================================================
-// Drift Detection — Primitive E (longitudinal tracking)
+// Drift Detection - Primitive E (longitudinal tracking)
 // =============================================================================
 
 model drift_snapshots {
@@ -741,7 +741,7 @@ model drift_snapshots {
 }
 
 // =============================================================================
-// Cognitive Bias Mitigation — Primitive F
+// Cognitive Bias Mitigation - Primitive F
 // =============================================================================
 
 model bias_analyses {
@@ -770,7 +770,7 @@ model bias_analyses {
 }
 
 // =============================================================================
-// Meta-Governance Reports — SGAS Class V
+// Meta-Governance Reports - SGAS Class V
 // =============================================================================
 
 model meta_governance_reports {
@@ -792,7 +792,7 @@ model meta_governance_reports {
 }
 
 // =============================================================================
-// Deterministic Replay — Continuity Memory / Primitive D
+// Deterministic Replay - Continuity Memory / Primitive D
 // =============================================================================
 
 model deterministic_replay_states {
@@ -816,7 +816,7 @@ model deterministic_replay_states {
 }
 
 // =============================================================================
-// Data Diode — Sovereign Ingest Events
+// Data Diode - Sovereign Ingest Events
 // =============================================================================
 
 model data_diode_events {
@@ -851,7 +851,7 @@ model data_diode_events {
 }
 
 // =============================================================================
-// Generic Service Records — shared persistence for many services
+// Generic Service Records - shared persistence for many services
 // =============================================================================
 
 model service_records {
@@ -872,7 +872,7 @@ model service_records {
 }
 
 // =============================================================================
-// Continuous Compliance Monitor — Snapshots
+// Continuous Compliance Monitor - Snapshots
 // =============================================================================
 
-// REMOVED: model compliance_monitor_snapshots (orphaned � not referenced in application code)
+// REMOVED: model compliance_monitor_snapshots (orphaned - not referenced in application code)

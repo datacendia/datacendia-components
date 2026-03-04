@@ -1,5 +1,5 @@
 // =============================================================================
-// CendiaGatewayâ„¢ â€” AI Governance Gateway
+// CendiaGateway- - AI Governance Gateway
 // =============================================================================
 
 model gateway_interactions {
@@ -67,6 +67,6 @@ model gateway_interactions {
   @@index([created_at])
 }
 
-// REMOVED: model gateway_policies (orphaned — not referenced in application code)
+// REMOVED: model gateway_policies (orphaned - not referenced in application code)
 
-// REMOVED: model gateway_manifests (orphaned — not referenced in application code)
+// REMOVED: model gateway_manifests (orphaned - not referenced in application code)

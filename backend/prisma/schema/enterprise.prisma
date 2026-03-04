@@ -1,58 +1,58 @@
 // Enterprise Domain - Contracts, Customers, Incidents, Services
 
-// REMOVED: model enterprise_contracts (orphaned — not referenced in application code)
+// REMOVED: model enterprise_contracts (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_negotiations (orphaned — not referenced in application code)
+// REMOVED: model enterprise_negotiations (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_customers (orphaned — not referenced in application code)
+// REMOVED: model enterprise_customers (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_customer_health (orphaned — not referenced in application code)
+// REMOVED: model enterprise_customer_health (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_customer_engagements (orphaned — not referenced in application code)
+// REMOVED: model enterprise_customer_engagements (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_services (orphaned — not referenced in application code)
+// REMOVED: model enterprise_services (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_incidents (orphaned — not referenced in application code)
+// REMOVED: model enterprise_incidents (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_legal_matters (orphaned — not referenced in application code)
+// REMOVED: model enterprise_legal_matters (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_investors (orphaned — not referenced in application code)
+// REMOVED: model enterprise_investors (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_shareholder_outreach (orphaned — not referenced in application code)
+// REMOVED: model enterprise_shareholder_outreach (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_production_lines (orphaned — not referenced in application code)
+// REMOVED: model enterprise_production_lines (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_predictive_failures (orphaned — not referenced in application code)
+// REMOVED: model enterprise_predictive_failures (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_quality_events (orphaned — not referenced in application code)
+// REMOVED: model enterprise_quality_events (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_travel_requests (orphaned — not referenced in application code)
+// REMOVED: model enterprise_travel_requests (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_security_plans (orphaned — not referenced in application code)
+// REMOVED: model enterprise_security_plans (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_skill_profiles (orphaned — not referenced in application code)
+// REMOVED: model enterprise_skill_profiles (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_learning_paths (orphaned — not referenced in application code)
+// REMOVED: model enterprise_learning_paths (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_campaigns (orphaned — not referenced in application code)
+// REMOVED: model enterprise_campaigns (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_campaign_messages (orphaned — not referenced in application code)
+// REMOVED: model enterprise_campaign_messages (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_crisis_responses (orphaned — not referenced in application code)
+// REMOVED: model enterprise_crisis_responses (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_ideas (orphaned — not referenced in application code)
+// REMOVED: model enterprise_ideas (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_patents (orphaned — not referenced in application code)
+// REMOVED: model enterprise_patents (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_research_projects (orphaned — not referenced in application code)
+// REMOVED: model enterprise_research_projects (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_culture_profiles (orphaned — not referenced in application code)
+// REMOVED: model enterprise_culture_profiles (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_integration_roadmaps (orphaned — not referenced in application code)
+// REMOVED: model enterprise_integration_roadmaps (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_habitat_zones (orphaned — not referenced in application code)
+// REMOVED: model enterprise_habitat_zones (orphaned - not referenced in application code)
 
-// REMOVED: model enterprise_regent_sessions (orphaned — not referenced in application code)
+// REMOVED: model enterprise_regent_sessions (orphaned - not referenced in application code)
 
 model enterprise_scheduled_jobs {
   id                   String    @id
@@ -175,11 +175,11 @@ model insurance_claims {
 }
 
 // =============================================================================
-// CendiaSSO â€” Enterprise Single Sign-On
+// CendiaSSO - Enterprise Single Sign-On
 // =============================================================================
 
-// REMOVED: model sso_identity_providers (orphaned — not referenced in application code)
+// REMOVED: model sso_identity_providers (orphaned - not referenced in application code)
 
-// REMOVED: model sso_sessions (orphaned — not referenced in application code)
+// REMOVED: model sso_sessions (orphaned - not referenced in application code)
 
-// REMOVED: model sso_scim_events (orphaned — not referenced in application code)
+// REMOVED: model sso_scim_events (orphaned - not referenced in application code)

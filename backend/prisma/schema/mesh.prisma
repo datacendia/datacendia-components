@@ -1,10 +1,10 @@
 // Mesh Domain - Network Nodes, Connections, Channels, AR, Blackbox
 
-// REMOVED: model mesh_nodes (orphaned — not referenced in application code)
+// REMOVED: model mesh_nodes (orphaned - not referenced in application code)
 
-// REMOVED: model mesh_connections (orphaned — not referenced in application code)
+// REMOVED: model mesh_connections (orphaned - not referenced in application code)
 
-// REMOVED: model secure_channels (orphaned — not referenced in application code)
+// REMOVED: model secure_channels (orphaned - not referenced in application code)
 
 model blackbox_units {
   id                String         @id @default(uuid())
@@ -19,22 +19,20 @@ model blackbox_units {
   last_verification DateTime       @default(now())
   created_at        DateTime       @default(now())
 
-  backup_jobs    backup_jobs[]
-  stored_records stored_records[]
-  recoveries     recovery_procedures[]
-  reports        integrity_reports[]
+  // REMOVED: orphaned relations (models were removed)
+  // backup_jobs, stored_records, recovery_procedures, integrity_reports
 
   @@index([organization_id])
   @@index([status])
 }
 
-// REMOVED: model backup_jobs (orphaned — not referenced in application code)
+// REMOVED: model backup_jobs (orphaned - not referenced in application code)
 
-// REMOVED: model ar_devices (orphaned — not referenced in application code)
+// REMOVED: model ar_devices (orphaned - not referenced in application code)
 
-// REMOVED: model ar_overlays (orphaned — not referenced in application code)
+// REMOVED: model ar_overlays (orphaned - not referenced in application code)
 
-// REMOVED: model ar_sessions (orphaned — not referenced in application code)
+// REMOVED: model ar_sessions (orphaned - not referenced in application code)
 
 model mesh_network_stats {
   id                 String   @id @default(uuid())

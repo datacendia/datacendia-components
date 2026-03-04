@@ -50,7 +50,7 @@ model audit_logs {
   @@index([resource_type, resource_id])
 }
 
-// REMOVED: model chain_of_thought_logs (orphaned — not referenced in application code)
+// REMOVED: model chain_of_thought_logs (orphaned - not referenced in application code)
 
 model demo_requests {
   id                String   @id
@@ -130,7 +130,7 @@ model workflows {
   @@index([organization_id, status])
 }
 
-// REMOVED: model ledger_entries (orphaned — not referenced in application code)
+// REMOVED: model ledger_entries (orphaned - not referenced in application code)
 
 model omnitranslate_glossaries {
   id              String   @id @default(uuid())

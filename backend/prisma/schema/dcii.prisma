@@ -1,5 +1,5 @@
 // DCII Domain - Decision Crisis Immunization Infrastructure
-// CendiaDCIIâ„¢ â€” 5 gap-closing services with database persistence
+// CendiaDCII- - 5 gap-closing services with database persistence
 
 // =============================================================================
 // IISS - Institutional Immune System Score
@@ -311,9 +311,9 @@ model dcii_similarity_patterns {
 }
 
 // =============================================================================
-// CendiaBiasGuard â€” NLP Bias Detection Results
+// CendiaBiasGuard - NLP Bias Detection Results
 // =============================================================================
 
-// REMOVED: model bias_analysis_results (orphaned — not referenced in application code)
+// REMOVED: model bias_analysis_results (orphaned - not referenced in application code)
 
-// REMOVED: model bias_detection_items (orphaned — not referenced in application code)
+// REMOVED: model bias_detection_items (orphaned - not referenced in application code)

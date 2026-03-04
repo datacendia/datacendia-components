@@ -53,8 +53,7 @@ model sports_transfer_decisions {
   timeline                Json @default("[]")
 
   // Relations
-  approvals    sports_decision_approvals[]
-  evidence     sports_decision_evidence[]
+  // REMOVED: sports_decision_approvals, sports_decision_evidence (models not defined)
   organization organizations               @relation(fields: [organization_id], references: [id])
 
   @@index([organization_id])
@@ -64,13 +63,13 @@ model sports_transfer_decisions {
   @@index([player_name])
 }
 
-// REMOVED: model sports_contract_decisions (orphaned — not referenced in application code)
+// REMOVED: model sports_contract_decisions (orphaned - not referenced in application code)
 
-// REMOVED: model sports_decision_approvals (orphaned — not referenced in application code)
+// REMOVED: model sports_decision_approvals (orphaned - not referenced in application code)
 
-// REMOVED: model sports_decision_evidence (orphaned — not referenced in application code)
+// REMOVED: model sports_decision_evidence (orphaned - not referenced in application code)
 
-// REMOVED: model sports_ffp_assessments (orphaned — not referenced in application code)
+// REMOVED: model sports_ffp_assessments (orphaned - not referenced in application code)
 
 enum TransferType {
   INBOUND
@@ -96,9 +95,9 @@ enum ScoutingRecommendation {
 }
 
 // =============================================================================
-// FHIR R4 â€” Healthcare Data Connector Audit
+// FHIR R4 - Healthcare Data Connector Audit
 // =============================================================================
 
-// REMOVED: model fhir_access_logs (orphaned — not referenced in application code)
+// REMOVED: model fhir_access_logs (orphaned - not referenced in application code)
 
-// REMOVED: model fhir_audit_events (orphaned — not referenced in application code)
+// REMOVED: model fhir_audit_events (orphaned - not referenced in application code)

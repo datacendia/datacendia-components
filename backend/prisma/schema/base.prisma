@@ -42,7 +42,7 @@ model organizations {
   workflows                workflows[]
   crucible_simulations     crucible_simulations[]
   crucible_redteam_reports crucible_redteam_reports[]
-  crucible_schedules       crucible_schedules[]
+  // REMOVED: crucible_schedules (model not defined)
   crucible_sbom            crucible_sbom[]
   crucible_runtime_events  crucible_runtime_events[]
 
@@ -83,33 +83,21 @@ model organizations {
 
   // Dissent - Protected Disagreement
   dissents           dissents[]
-  dissent_metrics    dissent_metrics?
-  dissenter_profiles dissenter_profiles[]
+  // REMOVED: dissent_metrics, dissenter_profiles (models not defined)
 
   // OmniTranslate - 100+ Language Translation
   omnitranslate_glossaries omnitranslate_glossaries[]
   omnitranslate_glossary   omnitranslate_glossary[]
   omnitranslate_memory     omnitranslate_memory[]
 
-  // Enterprise Department Services
-  enterprise_contracts            enterprise_contracts[]
-  enterprise_customers            enterprise_customers[]
-  enterprise_services             enterprise_services[]
-  enterprise_incidents            enterprise_incidents[]
-  enterprise_legal_matters        enterprise_legal_matters[]
-  enterprise_investors            enterprise_investors[]
-  enterprise_production_lines     enterprise_production_lines[]
-  enterprise_travel_requests      enterprise_travel_requests[]
-  enterprise_skill_profiles       enterprise_skill_profiles[]
-  enterprise_campaigns            enterprise_campaigns[]
-  enterprise_crisis_responses     enterprise_crisis_responses[]
-  enterprise_ideas                enterprise_ideas[]
-  enterprise_patents              enterprise_patents[]
-  enterprise_research_projects    enterprise_research_projects[]
-  enterprise_culture_profiles     enterprise_culture_profiles[]
-  enterprise_integration_roadmaps enterprise_integration_roadmaps[]
-  enterprise_habitat_zones        enterprise_habitat_zones[]
-  enterprise_regent_sessions      enterprise_regent_sessions[]
+  // REMOVED: Enterprise Department Services (models not defined)
+  // enterprise_contracts, enterprise_customers, enterprise_services,
+  // enterprise_incidents, enterprise_legal_matters, enterprise_investors,
+  // enterprise_production_lines, enterprise_travel_requests, enterprise_skill_profiles
+  // REMOVED: orphaned relations — models not defined in any schema file
+  // enterprise_campaigns, enterprise_crisis_responses, enterprise_ideas,
+  // enterprise_patents, enterprise_research_projects, enterprise_culture_profiles,
+  // enterprise_integration_roadmaps, enterprise_habitat_zones, enterprise_regent_sessions
 
   // Schema Mappings
   schema_mappings schema_mappings[]
@@ -122,7 +110,7 @@ model organizations {
 
   // Sports Vertical - Football/Soccer DDGI
   sports_transfer_decisions sports_transfer_decisions[]
-  sports_contract_decisions sports_contract_decisions[]
+  // REMOVED: sports_contract_decisions (model not defined)
 
   // DCII - Decision Crisis Immunization Infrastructure
   dcii_iiss_scores                dcii_iiss_scores[]
@@ -134,13 +122,11 @@ model organizations {
   // Evidence Vault - Decision Packet Management
   evidence_vault_packets          evidence_vault_packets[]
 
-  // SSO - Enterprise Single Sign-On
-  sso_identity_providers          sso_identity_providers[]
+  // REMOVED: sso_identity_providers (model not defined)
 
   // CendiaGateway - AI Governance Gateway
   gateway_interactions  gateway_interactions[]
-  gateway_policies      gateway_policies[]
-  gateway_manifests     gateway_manifests[]
+  // REMOVED: gateway_policies, gateway_manifests (models not defined — gateway_interactions is standalone)
 }
 
 model password_resets {
@@ -207,7 +193,7 @@ model translations {
   @@index([namespace])
 }
 
-// REMOVED: model user_language_preferences (orphaned � not referenced in application code)
+// REMOVED: model user_language_preferences (orphaned - not referenced in application code)
 
 model users {
   id                       String                 @id
