@@ -50,24 +50,7 @@ model audit_logs {
   @@index([resource_type, resource_id])
 }
 
-model chain_of_thought_logs {
-  id              String   @id
-  organization_id String?
-  session_id      String
-  agent_id        String
-  query           String
-  steps           Json
-  final_answer    String
-  confidence      Float?
-  model           String
-  tokens_used     Int
-  latency_ms      Int
-  created_at      DateTime @default(now())
-
-  @@index([agent_id])
-  @@index([organization_id])
-  @@index([session_id])
-}
+// REMOVED: model chain_of_thought_logs (orphaned — not referenced in application code)
 
 model demo_requests {
   id                String   @id
@@ -147,23 +130,7 @@ model workflows {
   @@index([organization_id, status])
 }
 
-model ledger_entries {
-  id              String   @id @default(uuid())
-  organization_id String
-  entry_type      String
-  reference_type  String
-  reference_id    String
-  actor_id        String
-  actor_name      String
-  action          String
-  data_hash       String
-  previous_hash   String?
-  metadata        Json     @default("{}")
-  timestamp       DateTime @default(now())
-
-  @@index([organization_id])
-  @@index([timestamp])
-}
+// REMOVED: model ledger_entries (orphaned — not referenced in application code)
 
 model omnitranslate_glossaries {
   id              String   @id @default(uuid())

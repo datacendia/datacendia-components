@@ -297,39 +297,9 @@ model vox_assemblies {
   @@index([decision_id])
 }
 
-model digital_twins {
-  id              String         @id @default(uuid())
-  organization_id String
-  entity_type     TwinEntityType
-  entity_id       String
-  entity_name     String
-  current_state   Json           @default("{}")
-  health_score    Float          @default(100)
-  sync_frequency  Int            @default(60)
-  dependencies    Json           @default("[]")
-  metadata        Json           @default("{}")
-  last_sync       DateTime       @default(now())
-  created_at      DateTime       @default(now())
+// REMOVED: model digital_twins (orphaned — not referenced in application code)
 
-  snapshots twin_snapshots[]
-
-  @@index([organization_id])
-  @@index([entity_type])
-}
-
-model twin_snapshots {
-  id            String          @id @default(uuid())
-  twin_id       String
-  state         Json
-  trigger       SnapshotTrigger
-  changes_count Int             @default(0)
-  created_at    DateTime        @default(now())
-
-  twin digital_twins @relation(fields: [twin_id], references: [id], onDelete: Cascade)
-
-  @@index([twin_id])
-  @@index([created_at])
-}
+// REMOVED: model twin_snapshots (orphaned — not referenced in application code)
 
 model simulations {
   id                String           @id @default(uuid())
@@ -449,77 +419,13 @@ model claim_votes {
   @@unique([claim_id, voter_id])
 }
 
-model knowledge_articles {
-  id              String          @id @default(uuid())
-  organization_id String
-  title           String
-  content         String          @db.Text
-  category        ArticleCategory
-  tags            Json            @default("[]")
-  author          String
-  contributors    Json            @default("[]")
-  version         Int             @default(1)
-  status          ArticleStatus   @default(DRAFT)
-  views           Int             @default(0)
-  usefulness      Float           @default(0)
-  published_at    DateTime?
-  archived_at     DateTime?
-  created_at      DateTime        @default(now())
-  updated_at      DateTime        @updatedAt
+// REMOVED: model knowledge_articles (orphaned — not referenced in application code)
 
-  versions article_versions[]
+// REMOVED: model article_versions (orphaned — not referenced in application code)
 
-  @@index([organization_id])
-  @@index([category])
-  @@index([status])
-}
+// REMOVED: model institutional_memories (orphaned — not referenced in application code)
 
-model article_versions {
-  id         String   @id @default(uuid())
-  article_id String
-  version    Int
-  content    String   @db.Text
-  changes    String?
-  changed_by String
-  created_at DateTime @default(now())
-
-  article knowledge_articles @relation(fields: [article_id], references: [id], onDelete: Cascade)
-
-  @@unique([article_id, version])
-}
-
-model institutional_memories {
-  id               String               @id @default(uuid())
-  organization_id  String
-  memory_type      MemoryType
-  title            String
-  description      String               @db.Text
-  date_occurred    DateTime
-  participants     Json                 @default("[]")
-  lessons          Json                 @default("[]")
-  recommendations  Json                 @default("[]")
-  related_articles Json                 @default("[]")
-  confidentiality  ConfidentialityLevel @default(INTERNAL)
-  created_at       DateTime             @default(now())
-
-  @@index([organization_id])
-  @@index([memory_type])
-}
-
-model expertise_profiles {
-  id               String   @id @default(uuid())
-  organization_id  String
-  user_id          String
-  name             String
-  role             String
-  expertise_areas  Json     @default("[]")
-  contributions    Int      @default(0)
-  mentor_available Boolean  @default(false)
-  last_active      DateTime @default(now())
-  created_at       DateTime @default(now())
-
-  @@unique([organization_id, user_id])
-}
+// REMOVED: model expertise_profiles (orphaned — not referenced in application code)
 
 model claim_disputes {
   id              String        @id @default(uuid())
@@ -571,91 +477,15 @@ model discovery_requests {
   @@index([status])
 }
 
-model recovery_procedures {
-  id              String         @id @default(uuid())
-  organization_id String
-  blackbox_id     String
-  trigger         String
-  status          RecoveryStatus @default(INITIATED)
-  steps           Json           @default("[]")
-  records_found   Int            @default(0)
-  error           String?
-  initiated_at    DateTime       @default(now())
-  completed_at    DateTime?
+// REMOVED: model recovery_procedures (orphaned — not referenced in application code)
 
-  blackbox blackbox_units @relation(fields: [blackbox_id], references: [id], onDelete: Cascade)
+// REMOVED: model integrity_reports (orphaned — not referenced in application code)
 
-  @@index([organization_id])
-  @@index([blackbox_id])
-}
+// REMOVED: model operation_attempts (orphaned — not referenced in application code)
 
-model integrity_reports {
-  id              String   @id @default(uuid())
-  blackbox_id     String
-  organization_id String
-  records_checked Int      @default(0)
-  records_valid   Int      @default(0)
-  records_invalid Int      @default(0)
-  issues          Json     @default("[]")
-  created_at      DateTime @default(now())
+// REMOVED: model knowledge_transfers (orphaned — not referenced in application code)
 
-  blackbox blackbox_units @relation(fields: [blackbox_id], references: [id], onDelete: Cascade)
-
-  @@index([blackbox_id])
-  @@index([organization_id])
-}
-
-model operation_attempts {
-  id                 String        @id @default(uuid())
-  organization_id    String
-  operation_id       String
-  user_id            String
-  key_id             String?
-  status             AttemptStatus @default(PENDING)
-  challenge_id       String?
-  biometric_verified Boolean       @default(false)
-  metadata           Json          @default("{}")
-  attempted_at       DateTime      @default(now())
-  completed_at       DateTime?
-
-  @@index([organization_id])
-  @@index([operation_id])
-}
-
-model knowledge_transfers {
-  id              String         @id @default(uuid())
-  organization_id String
-  from_expert_id  String
-  to_user_id      String
-  article_ids     Json           @default("[]")
-  memory_ids      Json           @default("[]")
-  status          TransferStatus @default(INITIATED)
-  notes           String?        @db.Text
-  created_at      DateTime       @default(now())
-  completed_at    DateTime?
-
-  @@index([organization_id])
-}
-
-model stored_records {
-  id               String    @id @default(uuid())
-  blackbox_id      String
-  organization_id  String
-  source_type      String
-  source_id        String
-  data_hash        String
-  encryption_key   String
-  size_bytes       BigInt
-  retention_policy String?
-  expires_at       DateTime?
-  verified_at      DateTime  @default(now())
-  created_at       DateTime  @default(now())
-
-  blackbox blackbox_units @relation(fields: [blackbox_id], references: [id], onDelete: Cascade)
-
-  @@index([blackbox_id])
-  @@index([organization_id])
-}
+// REMOVED: model stored_records (orphaned — not referenced in application code)
 
 enum EternalArtifactType {
   STRATEGIC_DECISION
@@ -1076,20 +906,4 @@ model sovereign_blackbox_records {
 // ClamAV â€” Malware Scan Results
 // =============================================================================
 
-model clamav_scan_results {
-  id                String   @id @default(uuid())
-  filename          String
-  file_size         BigInt
-  file_hash         String
-  threat_level      String   // clean, suspicious, malware, error
-  threat_name       String?
-  engine            String   // clamav, heuristic
-  signature_version String?
-  scan_duration_ms  Int
-  details           String?  @db.Text
-  created_at        DateTime @default(now())
-
-  @@index([file_hash])
-  @@index([threat_level])
-  @@index([created_at])
-}
+// REMOVED: model clamav_scan_results (orphaned — not referenced in application code)

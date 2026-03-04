@@ -875,17 +875,4 @@ model service_records {
 // Continuous Compliance Monitor â€” Snapshots
 // =============================================================================
 
-model compliance_monitor_snapshots {
-  id                  String   @id @default(uuid())
-  organization_id     String
-  framework           String   // GDPR, SOX, HIPAA, etc.
-  overall_score       Float
-  dimension_scores    Json     // { dimension: score }
-  gaps                Json     // ComplianceGap[]
-  recommendations     Json     // string[]
-  assessed_by         String?
-  created_at          DateTime @default(now())
-
-  @@index([organization_id, framework])
-  @@index([created_at])
-}
+// REMOVED: model compliance_monitor_snapshots (orphaned — not referenced in application code)

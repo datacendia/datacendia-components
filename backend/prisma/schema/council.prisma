@@ -71,16 +71,7 @@ model decision_blockers {
   decisions            decisions @relation(fields: [decision_id], references: [id], onDelete: Cascade)
 }
 
-model decision_dependencies {
-  id                                                       String    @id
-  decision_id                                              String
-  depends_on_id                                            String
-  created_at                                               DateTime  @default(now())
-  decisions_decision_dependencies_decision_idTodecisions   decisions @relation("decision_dependencies_decision_idTodecisions", fields: [decision_id], references: [id], onDelete: Cascade)
-  decisions_decision_dependencies_depends_on_idTodecisions decisions @relation("decision_dependencies_depends_on_idTodecisions", fields: [depends_on_id], references: [id], onDelete: Cascade)
-
-  @@unique([decision_id, depends_on_id])
-}
+// REMOVED: model decision_dependencies (orphaned — not referenced in application code)
 
 model decisions {
   id                                                                   String                  @id
@@ -234,40 +225,9 @@ model deliberation_votes {
   @@index([deliberation_id])
 }
 
-model query_classifications {
-  id              String   @id
-  organization_id String?
-  user_id         String?
-  query           String
-  query_hash      String
-  classification  String
-  confidence      Float
-  routed_model    String
-  actual_model    String?
-  was_correct     Boolean?
-  latency_ms      Int?
-  metadata        Json     @default("{}")
-  created_at      DateTime @default(now())
+// REMOVED: model query_classifications (orphaned — not referenced in application code)
 
-  @@index([classification])
-  @@index([organization_id])
-  @@index([routed_model])
-}
-
-model veto_rules {
-  id              String        @id @default(uuid())
-  organization_id String
-  name            String
-  description     String
-  rule_type       String
-  conditions      Json          @default("[]")
-  enabled         Boolean       @default(true)
-  veto_count      Int           @default(0)
-  created_at      DateTime      @default(now())
-  vetoes          veto_events[]
-
-  @@index([organization_id])
-}
+// REMOVED: model veto_rules (orphaned — not referenced in application code)
 
 model veto_events {
   id              String     @id @default(uuid())
@@ -283,19 +243,7 @@ model veto_events {
   @@index([organization_id])
 }
 
-model union_metrics {
-  id              String   @id @default(uuid())
-  organization_id String
-  metric_name     String
-  metric_value    Float
-  department      String?
-  period_start    DateTime
-  period_end      DateTime
-  trend           String   @default("stable")
-  created_at      DateTime @default(now())
-
-  @@index([organization_id])
-}
+// REMOVED: model union_metrics (orphaned — not referenced in application code)
 
 model ghost_board_sessions {
   id                String   @id @default(uuid())
@@ -393,19 +341,7 @@ model echo_collection_jobs {
   @@index([scheduled_collection_date])
 }
 
-model echo_patterns {
-  id              String   @id @default(uuid())
-  organization_id String
-  pattern         String
-  success_rate    Decimal  @db.Decimal(5, 2)
-  sample_size     Int
-  confidence      Decimal  @db.Decimal(5, 4)
-  factors         String[] @default([])
-  created_at      DateTime @default(now())
-  updated_at      DateTime @default(now()) @updatedAt
-
-  @@index([organization_id])
-}
+// REMOVED: model echo_patterns (orphaned — not referenced in application code)
 
 model dissents {
   id                   String    @id @default(uuid())
@@ -459,45 +395,9 @@ model dissent_responses {
   @@index([responder_id])
 }
 
-model dissent_metrics {
-  id                String   @id @default(uuid())
-  organization_id   String   @unique
-  total_dissents    Int      @default(0)
-  active_dissents   Int      @default(0)
-  response_rate     Decimal  @db.Decimal(5, 2)
-  avg_response_time Decimal  @db.Decimal(8, 2)
-  acceptance_rate   Decimal  @db.Decimal(5, 2)
-  overall_accuracy  Decimal  @db.Decimal(5, 2)
-  by_type           Json     @default("{}")
-  by_severity       Json     @default("{}")
-  retaliation_flags Int      @default(0)
-  updated_at        DateTime @default(now()) @updatedAt
+// REMOVED: model dissent_metrics (orphaned — not referenced in application code)
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
-}
-
-model dissenter_profiles {
-  id                  String   @id @default(uuid())
-  user_id             String
-  organization_id     String
-  total_dissents      Int      @default(0)
-  acknowledged        Int      @default(0)
-  accepted_dissents   Int      @default(0)
-  overruled_dissents  Int      @default(0)
-  dissent_accuracy    Decimal  @db.Decimal(5, 2)
-  verified_outcomes   Int      @default(0)
-  correct_predictions Int      @default(0)
-  is_high_accuracy    Boolean  @default(false)
-  by_type             Json     @default("{}")
-  created_at          DateTime @default(now())
-  updated_at          DateTime @default(now()) @updatedAt
-
-  organizations organizations @relation(fields: [organization_id], references: [id])
-
-  @@unique([user_id, organization_id])
-  @@index([organization_id])
-  @@index([user_id])
-}
+// REMOVED: model dissenter_profiles (orphaned — not referenced in application code)
 
 enum DecisionPriority {
   LOW

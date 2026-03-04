@@ -118,18 +118,7 @@ model redteam_patches {
   @@index([status])
 }
 
-model redteam_scores {
-  id                    String   @id @default(uuid())
-  organization_id       String
-  overall_score         Int
-  breakdown             Json     @default("{}")
-  vulnerabilities_count Int      @default(0)
-  critical_count        Int      @default(0)
-  recommendations       String[] @default([])
-  calculated_at         DateTime @default(now())
-
-  @@index([organization_id])
-}
+// REMOVED: model redteam_scores (orphaned — not referenced in application code)
 
 model gnosis_learning_paths {
   id                 String    @id @default(uuid())
@@ -187,39 +176,9 @@ model gnosis_assessments {
   @@index([skill])
 }
 
-model gnosis_skill_profiles {
-  id              String    @id @default(uuid())
-  user_id         String    @unique
-  organization_id String
-  skills          Json      @default("{}")
-  strengths       String[]  @default([])
-  gaps            String[]  @default([])
-  learning_style  String    @default("reading")
-  preferred_pace  String    @default("self_paced")
-  last_assessment DateTime?
-  created_at      DateTime  @default(now())
-  updated_at      DateTime  @default(now()) @updatedAt
+// REMOVED: model gnosis_skill_profiles (orphaned — not referenced in application code)
 
-  @@index([organization_id])
-}
-
-model gnosis_analytics {
-  id                 String   @id @default(uuid())
-  organization_id    String
-  period_start       DateTime
-  period_end         DateTime
-  total_learners     Int      @default(0)
-  active_learners    Int      @default(0)
-  completed_paths    Int      @default(0)
-  avg_completion     Decimal  @db.Decimal(5, 2)
-  avg_time_hours     Decimal  @db.Decimal(8, 2)
-  skill_growth       Json     @default("{}")
-  decision_readiness Decimal  @db.Decimal(5, 2)
-  created_at         DateTime @default(now())
-
-  @@index([organization_id])
-  @@index([period_start, period_end])
-}
+// REMOVED: model gnosis_analytics (orphaned — not referenced in application code)
 
 model apotheosis_runs {
   id                       String    @id @default(uuid())

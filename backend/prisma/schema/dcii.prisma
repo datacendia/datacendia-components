@@ -313,38 +313,6 @@ model dcii_similarity_patterns {
 // CendiaBiasGuard â€” NLP Bias Detection Results
 // =============================================================================
 
-model bias_analysis_results {
-  id                 String   @id @default(uuid())
-  organization_id    String?
-  deliberation_id    String?
-  input_hash         String
-  detection_count    Int
-  overall_bias_score Int      // 0-100
-  engine             String   // ollama-nlp, statistical-fallback
-  model_used         String?
-  analysis_time_ms   Int
-  summary            String   @db.Text
-  detections         Json     // Array of BiasDetection objects
-  created_at         DateTime @default(now())
+// REMOVED: model bias_analysis_results (orphaned — not referenced in application code)
 
-  @@index([organization_id])
-  @@index([deliberation_id])
-  @@index([overall_bias_score])
-  @@index([created_at])
-}
-
-model bias_detection_items {
-  id            String   @id @default(uuid())
-  analysis_id   String
-  category      String   // anchoring, confirmation, availability, sunk_cost, authority, groupthink, recency, framing, survivorship, dunning_kruger
-  confidence    Float
-  severity      String   // low, medium, high, critical
-  evidence      String   @db.Text
-  explanation   String   @db.Text
-  mitigation    String   @db.Text
-  created_at    DateTime @default(now())
-
-  @@index([analysis_id])
-  @@index([category])
-  @@index([severity])
-}
+// REMOVED: model bias_detection_items (orphaned — not referenced in application code)

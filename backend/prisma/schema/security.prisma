@@ -134,26 +134,7 @@ model crucible_redteam_reports {
   @@index([security_score])
 }
 
-model crucible_schedules {
-  id                       String    @id @default(uuid())
-  organization_id          String
-  name                     String
-  cron_expression          String
-  test_categories          Json // Array of TestCategory
-  enabled                  Boolean   @default(true)
-  notify_on_failure        Boolean   @default(true)
-  notify_emails            Json // Array of email strings
-  auto_remediate           Boolean   @default(false)
-  block_deploy_on_critical Boolean   @default(true)
-  last_run_at              DateTime?
-  next_run_at              DateTime?
-  created_at               DateTime  @default(now())
-  updated_at               DateTime  @updatedAt
-
-  organization organizations @relation(fields: [organization_id], references: [id])
-
-  @@index([organization_id, enabled])
-}
+// REMOVED: model crucible_schedules (orphaned — not referenced in application code)
 
 model crucible_sbom {
   id              String    @id @default(uuid())
@@ -385,22 +366,7 @@ model honeytokens {
   @@index([triggered])
 }
 
-model canary_systems {
-  id               String       @id @default(uuid())
-  organization_id  String
-  name             String
-  system_type      CanaryType
-  status           CanaryStatus @default(ACTIVE)
-  configuration    Json         @default("{}")
-  interactions     Int          @default(0)
-  last_interaction DateTime?
-  created_at       DateTime     @default(now())
-
-  alerts canary_alerts[]
-
-  @@index([organization_id])
-  @@index([status])
-}
+// REMOVED: model canary_systems (orphaned — not referenced in application code)
 
 model canary_alerts {
   id          String          @id @default(uuid())
@@ -726,34 +692,6 @@ enum KeyEvent {
 // CendiaHSM â€” Hardware Security Module Keys & Operations
 // =============================================================================
 
-model hsm_keys {
-  id          String   @id @default(uuid())
-  label       String
-  algorithm   String   // RSA-2048, RSA-4096, AES-256, EC-P256, EC-P384
-  provider    String   // softhsm2, aws-cloudhsm, thales-luna, software-fallback
-  extractable Boolean  @default(false)
-  public_key  String?  @db.Text
-  created_at  DateTime @default(now())
+// REMOVED: model hsm_keys (orphaned — not referenced in application code)
 
-  operations hsm_operations[]
-
-  @@index([algorithm])
-  @@index([provider])
-}
-
-model hsm_operations {
-  id            String   @id @default(uuid())
-  key_id        String
-  operation     String   // sign, verify, wrap, unwrap, random
-  algorithm     String
-  provider      String
-  success       Boolean  @default(true)
-  error_message String?
-  created_at    DateTime @default(now())
-
-  key hsm_keys @relation(fields: [key_id], references: [id], onDelete: Cascade)
-
-  @@index([key_id])
-  @@index([operation])
-  @@index([created_at])
-}
+// REMOVED: model hsm_operations (orphaned — not referenced in application code)

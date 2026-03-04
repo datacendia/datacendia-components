@@ -207,17 +207,7 @@ model translations {
   @@index([namespace])
 }
 
-model user_language_preferences {
-  id            String   @id
-  user_id       String   @unique
-  language      String   @default("en")
-  date_format   String   @default("MM/DD/YYYY")
-  time_format   String   @default("12h")
-  timezone      String   @default("UTC")
-  number_format String   @default("en-US")
-  created_at    DateTime @default(now())
-  updated_at    DateTime
-}
+// REMOVED: model user_language_preferences (orphaned — not referenced in application code)
 
 model users {
   id                       String                 @id
