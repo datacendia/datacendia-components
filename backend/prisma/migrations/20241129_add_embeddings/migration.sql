@@ -1,22 +1,52 @@
--- CreateExtension
-CREATE EXTENSION IF NOT EXISTS vector;
+-- CreateExtension (graceful - pgvector may not be available in all environments)
+DO $$
+BEGIN
+  CREATE EXTENSION IF NOT EXISTS vector;
+EXCEPTION WHEN OTHERS THEN
+  RAISE NOTICE 'pgvector extension not available - vector columns will use JSONB fallback';
+END
+$$;
 
 -- CreateTable for RAG Embeddings
-CREATE TABLE IF NOT EXISTS "embeddings" (
-    "id" UUID NOT NULL DEFAULT gen_random_uuid(),
-    "content" TEXT NOT NULL,
-    "source" TEXT NOT NULL,
-    "collection" TEXT NOT NULL DEFAULT 'documents',
-    "embedding" vector(1536),
-    "metadata" JSONB DEFAULT '{}',
-    "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updated_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+-- Uses vector(1536) when pgvector is available, JSONB fallback otherwise
+DO $$
+BEGIN
+  IF EXISTS (SELECT 1 FROM pg_extension WHERE extname = 'vector') THEN
+    CREATE TABLE IF NOT EXISTS "embeddings" (
+      "id" UUID NOT NULL DEFAULT gen_random_uuid(),
+      "content" TEXT NOT NULL,
+      "source" TEXT NOT NULL,
+      "collection" TEXT NOT NULL DEFAULT 'documents',
+      "embedding" vector(1536),
+      "metadata" JSONB DEFAULT '{}',
+      "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      "updated_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      CONSTRAINT "embeddings_pkey" PRIMARY KEY ("id")
+    );
+  ELSE
+    CREATE TABLE IF NOT EXISTS "embeddings" (
+      "id" UUID NOT NULL DEFAULT gen_random_uuid(),
+      "content" TEXT NOT NULL,
+      "source" TEXT NOT NULL,
+      "collection" TEXT NOT NULL DEFAULT 'documents',
+      "embedding" JSONB,
+      "metadata" JSONB DEFAULT '{}',
+      "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      "updated_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      CONSTRAINT "embeddings_pkey" PRIMARY KEY ("id")
+    );
+  END IF;
+END
+$$;
 
-    CONSTRAINT "embeddings_pkey" PRIMARY KEY ("id")
-);
-
--- CreateIndex for vector similarity search
-CREATE INDEX IF NOT EXISTS "embeddings_embedding_idx" ON "embeddings" USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
+-- CreateIndex for vector similarity search (only when pgvector is available)
+DO $$
+BEGIN
+  IF EXISTS (SELECT 1 FROM pg_extension WHERE extname = 'vector') THEN
+    CREATE INDEX IF NOT EXISTS "embeddings_embedding_idx" ON "embeddings" USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
+  END IF;
+END
+$$;
 
 -- CreateIndex for collection filtering
 CREATE INDEX IF NOT EXISTS "embeddings_collection_idx" ON "embeddings"("collection");

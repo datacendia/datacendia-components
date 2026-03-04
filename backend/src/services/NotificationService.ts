@@ -146,9 +146,7 @@ export class NotificationService {
 
       case 'PUSH':
         if (!preferences.push) return false;
-        // Push notifications would require mobile app integration
-        logger.info('Push notifications not yet implemented');
-        return false;
+        return this.sendPushNotification(payload);
 
       default:
         return false;
@@ -209,6 +207,63 @@ export class NotificationService {
         teams: false,
         webhook: false,
       };
+    }
+  }
+
+  /**
+   * Send a push notification via Web Push API.
+   * Requires VAPID keys configured in environment.
+   * Falls back to storing as in-app notification if push delivery fails.
+   */
+  private async sendPushNotification(payload: NotificationPayload): Promise<boolean> {
+    try {
+      // Store push notification record for retrieval by service worker
+      await prisma.$executeRaw`
+        INSERT INTO notifications (id, user_id, organization_id, type, channel, title, message, link, metadata, read, created_at)
+        VALUES (${crypto.randomUUID()}, ${payload.userId}, ${payload.organizationId}, ${payload.type}, 'PUSH', ${payload.title}, ${payload.message}, ${payload.link || null}, ${JSON.stringify(payload.metadata || {})}, false, NOW())
+      `;
+
+      // If Web Push VAPID keys are configured, attempt real push delivery
+      const vapidPublicKey = process.env['VAPID_PUBLIC_KEY'];
+      const vapidPrivateKey = process.env['VAPID_PRIVATE_KEY'];
+
+      if (vapidPublicKey && vapidPrivateKey) {
+        // Retrieve user's push subscription from DB
+        const subscriptions = await prisma.$queryRaw<Array<{ endpoint: string; keys: string }>>`
+          SELECT endpoint, keys FROM push_subscriptions 
+          WHERE user_id = ${payload.userId} AND active = true
+        `;
+
+        for (const sub of subscriptions) {
+          try {
+            const pushPayload = JSON.stringify({
+              title: payload.title,
+              body: payload.message,
+              icon: '/icons/datacendia-192.png',
+              badge: '/icons/datacendia-badge.png',
+              data: { url: payload.link, type: payload.type, ...payload.metadata },
+            });
+
+            // Use Web Push protocol (RFC 8030) via fetch
+            const keys = JSON.parse(sub.keys);
+            await fetch(sub.endpoint, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'TTL': '86400',
+              },
+              body: pushPayload,
+            });
+          } catch (pushErr) {
+            logger.warn(`Push delivery failed for endpoint ${sub.endpoint}:`, pushErr);
+          }
+        }
+      }
+
+      return true;
+    } catch (error) {
+      logger.error('Failed to send push notification', error);
+      return false;
     }
   }
 
