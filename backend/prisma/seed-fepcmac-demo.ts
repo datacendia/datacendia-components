@@ -7,6 +7,7 @@
 import { PrismaClient } from '@prisma/client';
 import { randomUUID } from 'crypto';
 import * as crypto from 'crypto';
+import bcrypt from 'bcryptjs';
 
 const prisma = new PrismaClient();
 
@@ -27,6 +28,10 @@ function randomDate(daysAgo: number): Date {
 
 function hash(data: string): string {
   return crypto.createHash('sha256').update(data).digest('hex');
+}
+
+async function hashPassword(password: string): Promise<string> {
+  return bcrypt.hash(password, 12);
 }
 
 function solAmount(min: number, max: number): number {
@@ -84,6 +89,9 @@ async function seedUsers() {
     { id: USER_IDS.analista, email: 'patricia.ramos@cmac-cusco.demo', name: 'Patricia Ramos Condori', role: 'ANALYST' as const },
   ];
 
+  // Hash password with bcrypt (cost 12) — matches auth.ts registration flow
+  const passwordHash = await hashPassword('demo-password-2024');
+
   for (const u of users) {
     const existing = await prisma.users.findUnique({ where: { email: u.email } });
     if (!existing) {
@@ -93,7 +101,7 @@ async function seedUsers() {
           organization_id: DEMO_ORG_ID,
           email: u.email,
           name: u.name,
-          password_hash: hash('demo-password-2024'),
+          password_hash: passwordHash,
           role: u.role,
           status: 'ACTIVE',
           email_verified: true,
@@ -404,7 +412,7 @@ async function seedDeliberations() {
       question: '¿Deberíamos aprobar el crédito agropecuario de S/ 180,000 a la Cooperativa Valle Sagrado considerando la volatilidad del precio de la quinua?',
       status: 'COMPLETED' as const,
       confidence: 0.84,
-      agents: ['CREDIT_RISK', 'FINANCIAL_ANALYST', 'MICROFINANCE_ADVISOR'],
+      agents: ['CREDIT_RISK', 'FINANCIAL_ANALYST', 'MICROFINANCE_ADVISOR', 'ETHICS_GUARDIAN'],
     },
     {
       question: '¿Cuál es la estrategia óptima para reducir el ratio de morosidad del 5.2% al objetivo del 3.5% sin afectar la inclusión financiera?',
@@ -455,7 +463,34 @@ async function seedDeliberations() {
         current_phase: d.status === 'IN_PROGRESS' ? 'cross_examination' : null,
         progress: d.status === 'COMPLETED' ? 100 : d.status === 'IN_PROGRESS' ? 65 : 0,
         decision: d.status === 'COMPLETED'
-          ? { recommendation: 'Proceder con enfoque por fases', regulatory_notes: 'Conforme a normativa SBS vigente' }
+          ? d.question.includes('quinua')
+            ? {
+                recommendation: 'Aprobar con condiciones — desembolso en dos tramos vinculados a hitos de campaña agrícola',
+                consensus: 'MAJORITY',
+                dissent: 'Guardián de Ética recomienda incluir cláusula de acompañamiento técnico agrícola para mitigar riesgo de dependencia financiera del agricultor. Sin asistencia técnica, el crédito puede generar sobreendeudamiento en comunidades rurales vulnerables.',
+                dissent_agent: 'ETHICS_GUARDIAN',
+                conditions: [
+                  'Primer tramo (S/ 90,000): desembolso inmediato para preparación de tierra y semillas',
+                  'Segundo tramo (S/ 90,000): condicionado a verificación de siembra efectiva',
+                  'Seguro agrícola obligatorio contra heladas y sequía',
+                  'Acompañamiento técnico de INIA o agrónomo certificado',
+                ],
+                regulatory_notes: 'Conforme a Resolución SBS N° 11356-2008 Art. 17 — créditos agropecuarios. Clasificación: Normal con compromiso de seguimiento.',
+                evidence_hash: hash('deliberation-valle-sagrado-quinua-2026'),
+                voting: {
+                  approve: ['CREDIT_RISK', 'FINANCIAL_ANALYST', 'MICROFINANCE_ADVISOR'],
+                  approve_with_conditions: ['ETHICS_GUARDIAN'],
+                  reject: [],
+                },
+              }
+            : d.question.includes('UIF')
+              ? {
+                  recommendation: 'Reportar inmediatamente a la UIF-Perú conforme a plazos legales. Congelar movimientos de la cuenta hasta resolución.',
+                  consensus: 'UNANIMOUS',
+                  regulatory_notes: 'Obligación de reporte conforme a Ley N° 27693 y Resolución SBS N° 2660-2015. Plazo máximo: 15 días hábiles desde la detección.',
+                  evidence_hash: hash('deliberation-uif-cliente-4521-2026'),
+                }
+              : { recommendation: 'Proceder con enfoque por fases', regulatory_notes: 'Conforme a normativa SBS vigente' }
           : undefined,
         confidence: d.confidence,
         started_at: d.status !== 'PENDING' ? randomDate(30) : null,
