@@ -91,7 +91,7 @@ COPY supervisord.conf /etc/supervisord.conf
 
 # Initialize SQLite database
 RUN cd /app/backend && \
-    DATABASE_URL="file:/data/sqlite/datacendia.db" npx prisma db push --skip-generate || true
+    DATABASE_URL="file:/data/sqlite/datacendia.db" npx prisma migrate deploy || npx prisma db push --skip-generate || true
 
 # Expose ports
 EXPOSE 8080 3001
