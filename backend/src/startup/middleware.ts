@@ -38,6 +38,16 @@ import {
 } from '../middleware/SecurityMiddleware.js';
 import { sentry } from '../telemetry/sentry.js';
 import { apiCache, CACHE_TTLS } from '../middleware/cacheMiddleware.js';
+import {
+  authLimiter,
+  billingLimiter,
+  webhookLimiter,
+  adminLimiter,
+  uploadLimiter,
+  councilLimiter,
+} from '../middleware/rateLimits.js';
+import { apiVersionHeaders } from '../middleware/apiVersion.js';
+import { createHealthCheck } from '../middleware/healthCheck.js';
 
 /**
  * Configure all Express middleware in the correct order.
@@ -48,15 +58,18 @@ export function setupMiddleware(app: Express): void {
   // =========================================================================
   // LIVENESS PROBES — Must be before ALL middleware for K8s/Docker health checks
   // =========================================================================
-  app.get('/health', (_req, res) => {
-    res.json({ status: 'healthy', timestamp: new Date().toISOString() });
-  });
+  app.get('/health', createHealthCheck('platform'));
   app.get('/liveness', (_req, res) => {
     res.status(200).send('OK');
   });
   app.get('/readiness', async (_req, res) => {
     res.status(200).send('OK');
   });
+
+  // =========================================================================
+  // API VERSIONING + REQUEST TRACING
+  // =========================================================================
+  app.use(apiVersionHeaders);
 
   // =========================================================================
   // SECURITY HEADERS
@@ -105,6 +118,17 @@ export function setupMiddleware(app: Express): void {
     skip: () => config.nodeEnv === 'test',
   });
   app.use('/api/', limiter);
+
+  // =========================================================================
+  // ENDPOINT-SPECIFIC RATE LIMITS (stricter than global)
+  // =========================================================================
+  app.use('/api/v1/auth', authLimiter);
+  app.use('/api/v1/billing/webhook', webhookLimiter);
+  app.use('/api/v1/billing', billingLimiter);
+  app.use('/api/v1/admin', adminLimiter);
+  app.use('/api/v1/tenants', adminLimiter);
+  app.use('/api/v1/enterprise/documents', uploadLimiter);
+  app.use('/api/v1/council/query', councilLimiter);
 
   app.use(express.json({ limit: '10mb' }));
   app.use(express.urlencoded({ extended: true, limit: '10mb' }));
