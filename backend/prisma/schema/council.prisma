@@ -71,7 +71,7 @@ model decision_blockers {
   decisions            decisions @relation(fields: [decision_id], references: [id], onDelete: Cascade)
 }
 
-// REMOVED: model decision_dependencies (orphaned — not referenced in application code)
+// REMOVED: model decision_dependencies (orphaned â€” not referenced in application code)
 
 model decisions {
   id                                                                   String                  @id
@@ -136,6 +136,7 @@ model deliberations {
   confidence            Float?
   started_at            DateTime?
   completed_at          DateTime?
+  deleted_at            DateTime?
   created_at            DateTime                @default(now())
   approvals             approvals[]
   deliberation_messages deliberation_messages[]
@@ -226,9 +227,9 @@ model deliberation_votes {
   @@index([deliberation_id])
 }
 
-// REMOVED: model query_classifications (orphaned — not referenced in application code)
+// REMOVED: model query_classifications (orphaned â€” not referenced in application code)
 
-// REMOVED: model veto_rules (orphaned — not referenced in application code)
+// REMOVED: model veto_rules (orphaned â€” not referenced in application code)
 
 model veto_events {
   id              String     @id @default(uuid())
@@ -244,7 +245,7 @@ model veto_events {
   @@index([organization_id])
 }
 
-// REMOVED: model union_metrics (orphaned — not referenced in application code)
+// REMOVED: model union_metrics (orphaned â€” not referenced in application code)
 
 model ghost_board_sessions {
   id                String   @id @default(uuid())
@@ -342,7 +343,7 @@ model echo_collection_jobs {
   @@index([scheduled_collection_date])
 }
 
-// REMOVED: model echo_patterns (orphaned — not referenced in application code)
+// REMOVED: model echo_patterns (orphaned â€” not referenced in application code)
 
 model dissents {
   id                   String    @id @default(uuid())
@@ -396,9 +397,9 @@ model dissent_responses {
   @@index([responder_id])
 }
 
-// REMOVED: model dissent_metrics (orphaned — not referenced in application code)
+// REMOVED: model dissent_metrics (orphaned â€” not referenced in application code)
 
-// REMOVED: model dissenter_profiles (orphaned — not referenced in application code)
+// REMOVED: model dissenter_profiles (orphaned â€” not referenced in application code)
 
 enum DecisionPriority {
   LOW
