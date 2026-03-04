@@ -13,8 +13,12 @@ export { default as WebhookNotifier } from './WebhookNotifier';
 export { default as GatewayRateLimiter } from './RateLimiter';
 export { default as SIEMIntegration } from './SIEMIntegration';
 export { default as ManifestExporter } from './ManifestExporter';
+export { presidioPIIService } from './PresidioPIIService';
+export { piiEvaluation } from './PIIEvaluationMetrics';
 
 export type { PIIDetection, PIIType, PIIScanResult } from './PIIDetector';
+export type { PresidioPIIScanResult } from './PresidioPIIService';
+export type { EvaluationResult, BiasEvaluationResult, PIITestCase, BiasTestCase } from './PIIEvaluationMetrics';
 export type {
   GatewayProvider,
   GatewayPolicy,
