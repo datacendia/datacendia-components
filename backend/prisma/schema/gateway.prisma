@@ -51,6 +51,7 @@ model gateway_interactions {
   // Timestamps
   requested_at      DateTime @default(now())
   responded_at      DateTime?
+  deleted_at        DateTime?
   created_at        DateTime @default(now())
   
   organizations organizations @relation(fields: [organization_id], references: [id])

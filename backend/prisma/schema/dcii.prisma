@@ -239,6 +239,7 @@ model evidence_vault_packets {
   generated_at        DateTime @default(now())
   signed_at           DateTime?
   locked_at           DateTime?
+  deleted_at        DateTime?
   created_at          DateTime @default(now())
   updated_at          DateTime @default(now()) @updatedAt
 

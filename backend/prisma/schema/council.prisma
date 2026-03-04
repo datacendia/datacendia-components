@@ -91,6 +91,7 @@ model decisions {
   estimated_daily_cost                                                 Float?
   total_cost_accrued                                                   Float?
   stakeholders                                                         String[]                @default([])
+  deleted_at        DateTime?
   created_at                                                           DateTime                @default(now())
   updated_at                                                           DateTime
   resolved_at                                                          DateTime?
