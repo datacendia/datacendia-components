@@ -1,5 +1,53 @@
 // Council Domain - Agents, Deliberations, Decisions, Veto, Union, Dissent
 
+// =============================================================================
+// Prompt Versioning — Track every prompt template used in deliberations
+// If a deliberation output is questioned 2 years later, you need to know
+// exactly which prompt generated it.
+// =============================================================================
+
+model prompt_templates {
+  id              String   @id @default(uuid())
+  organization_id String?
+  name            String
+  category        String   // 'system' | 'agent' | 'mode' | 'custom'
+  template        String   // The actual prompt text
+  version         Int      @default(1)
+  variables       Json     @default("[]") // List of {{variable}} placeholders
+  model_config    Json     @default("{}") // temperature, top_p, etc.
+  is_active       Boolean  @default(true)
+  created_by      String?
+  created_at      DateTime @default(now())
+  updated_at      DateTime @default(now())
+  parent_id       String?  // Previous version of this template
+
+  usages          prompt_usages[]
+
+  @@unique([name, version])
+  @@index([category])
+  @@index([name, is_active])
+  @@index([organization_id])
+}
+
+model prompt_usages {
+  id                String   @id @default(uuid())
+  prompt_template_id String
+  deliberation_id   String?
+  agent_code        String?
+  mode              String?
+  input_variables   Json     @default("{}") // The actual values substituted
+  model_used        String?
+  token_count       Int?
+  response_quality  Float?   // Optional quality score (0-1)
+  created_at        DateTime @default(now())
+
+  prompt_template   prompt_templates @relation(fields: [prompt_template_id], references: [id])
+
+  @@index([prompt_template_id])
+  @@index([deliberation_id])
+  @@index([created_at])
+}
+
 model agent_query_responses {
   id              String          @id
   query_id        String
