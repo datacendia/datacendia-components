@@ -1085,23 +1085,31 @@ export class CouncilService extends EventEmitter {
     const concerns: string[] = [];
     let passed = true;
 
-    // Quick ethics/risk check
-    for (const agent of [riskAgent, securityAgent].filter(Boolean)) {
-      if (!agent) continue;
+    // Run ethics/risk checks in PARALLEL — agents are independent
+    const ethicsAgents = [riskAgent, securityAgent].filter(Boolean);
+    const ethicsResults = await Promise.all(
+      ethicsAgents.map(async (agent) => {
+        if (!agent) return null;
 
-      const messages = [
-        { role: 'system', content: `${agent.systemPrompt}\n\nReview the following synthesis for any ethical concerns, risks, or compliance issues. Be concise. If there are concerns, list them briefly. If no concerns, respond with "No concerns identified."` },
-        { role: 'user', content: synthesis.synthesis },
-      ];
+        const messages = [
+          { role: 'system', content: `${agent.systemPrompt}\n\nReview the following synthesis for any ethical concerns, risks, or compliance issues. Be concise. If there are concerns, list them briefly. If no concerns, respond with "No concerns identified."` },
+          { role: 'user', content: synthesis.synthesis },
+        ];
 
-      let checkResponse = '';
-      for await (const token of streamOllamaResponse(agent.model, messages, { maxTokens: 500 })) {
-        checkResponse += token;
-      }
+        let checkResponse = '';
+        for await (const token of streamOllamaResponse(agent.model, messages, { maxTokens: 500 })) {
+          checkResponse += token;
+        }
 
-      if (!checkResponse.toLowerCase().includes('no concerns identified')) {
-        concerns.push(`${agent.name}: ${checkResponse}`);
-        if (checkResponse.toLowerCase().includes('blocking') || checkResponse.toLowerCase().includes('critical')) {
+        return { agent, checkResponse };
+      })
+    );
+
+    for (const result of ethicsResults) {
+      if (!result) continue;
+      if (!result.checkResponse.toLowerCase().includes('no concerns identified')) {
+        concerns.push(`${result.agent.name}: ${result.checkResponse}`);
+        if (result.checkResponse.toLowerCase().includes('blocking') || result.checkResponse.toLowerCase().includes('critical')) {
           passed = false;
         }
       }
