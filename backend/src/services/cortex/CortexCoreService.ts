@@ -1,3 +1,4 @@
+import { logger } from '../../utils/logger.js';
 /**
  * Service — Cortex Core Service
  *
@@ -61,7 +62,7 @@ export class CortexCoreService {
         return await this.processStructuredQuery(params, startTime);
       }
     } catch (error) {
-      console.error('[CortexCore] Query error:', error);
+      logger.error('[CortexCore] Query error:', error);
       return { success: false, data: null, sources: [], executionMs: Date.now() - startTime };
     }
   }
@@ -144,7 +145,7 @@ export class CortexCoreService {
       const analysis = await this.runAnalysis(params, pillarsConsulted);
       return { success: true, analysis, pillarsConsulted, modelUsed: 'cortex-analysis-v1', executionMs: Date.now() - startTime };
     } catch (error) {
-      console.error('[CortexCore] Analyze error:', error);
+      logger.error('[CortexCore] Analyze error:', error);
       return { success: false, analysis: { summary: 'Analysis failed', findings: [], recommendations: [] }, pillarsConsulted, executionMs: Date.now() - startTime };
     }
   }
@@ -200,7 +201,7 @@ export class CortexCoreService {
       const simulation = await this.runSimulation(params);
       return { success: true, simulation, pillarsConsulted, executionMs: Date.now() - startTime };
     } catch (error) {
-      console.error('[CortexCore] Simulate error:', error);
+      logger.error('[CortexCore] Simulate error:', error);
       return { success: false, simulation: { outcomes: [], confidence: 0 }, pillarsConsulted, executionMs: Date.now() - startTime };
     }
   }
@@ -239,7 +240,7 @@ export class CortexCoreService {
       const result = await this.runGovernance(params, pillarsConsulted);
       return { success: true, result, pillarsConsulted, executionMs: Date.now() - startTime };
     } catch (error) {
-      console.error('[CortexCore] Govern error:', error);
+      logger.error('[CortexCore] Govern error:', error);
       return { success: false, result: { status: 'rejected', violations: [], requiredActions: [], auditTrail: [] }, pillarsConsulted, executionMs: Date.now() - startTime };
     }
   }
@@ -281,7 +282,7 @@ export class CortexCoreService {
         executionMs: Date.now() - startTime,
       };
     } catch (error) {
-      console.error('[CortexCore] Context error:', error);
+      logger.error('[CortexCore] Context error:', error);
       return { success: false, entity: { id: entityId, type: entityType, name: '', attributes: {} }, context: {}, relationships: [], timeline: [], executionMs: Date.now() - startTime };
     }
   }

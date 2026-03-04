@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Vertical Agents
  *
@@ -41,7 +42,7 @@ router.get('/verticals', async (_req: Request, res: Response) => {
     const verticals = await verticalAgentsService.getAllVerticals();
     res.json({ success: true, data: verticals });
   } catch (error) {
-    console.error('Error getting verticals:', error);
+    logger.error('Error getting verticals:', error);
     res.status(500).json({ success: false, error: 'Failed to get verticals' });
   }
 });
@@ -62,7 +63,7 @@ router.get('/verticals/:verticalId', async (req: Request, res: Response): Promis
     
     res.json({ success: true, data: config });
   } catch (error) {
-    console.error('Error getting vertical config:', error);
+    logger.error('Error getting vertical config:', error);
     res.status(500).json({ success: false, error: 'Failed to get vertical config' });
   }
 });
@@ -77,7 +78,7 @@ router.get('/verticals/:verticalId/agents', async (req: Request, res: Response):
     const agents = await verticalAgentsService.getAgentsForVertical(verticalId);
     res.json({ success: true, data: agents });
   } catch (error) {
-    console.error('Error getting vertical agents:', error);
+    logger.error('Error getting vertical agents:', error);
     res.status(500).json({ success: false, error: 'Failed to get vertical agents' });
   }
 });
@@ -92,7 +93,7 @@ router.get('/verticals/:verticalId/metrics', async (req: Request, res: Response)
     const metrics = await verticalAgentsService.getVerticalMetrics(verticalId);
     res.json({ success: true, data: metrics });
   } catch (error) {
-    console.error('Error getting vertical metrics:', error);
+    logger.error('Error getting vertical metrics:', error);
     res.status(500).json({ success: false, error: 'Failed to get vertical metrics' });
   }
 });
@@ -110,7 +111,7 @@ router.get('/agents', async (_req: Request, res: Response) => {
     const agents = await verticalAgentsService.getAllAgents();
     res.json({ success: true, data: agents });
   } catch (error) {
-    console.error('Error getting all agents:', error);
+    logger.error('Error getting all agents:', error);
     res.status(500).json({ success: false, error: 'Failed to get agents' });
   }
 });
@@ -130,7 +131,7 @@ router.get('/agents/search', async (req: Request, res: Response): Promise<void> 
     const agents = await verticalAgentsService.searchAgents(q);
     res.json({ success: true, data: agents });
   } catch (error) {
-    console.error('Error searching agents:', error);
+    logger.error('Error searching agents:', error);
     res.status(500).json({ success: false, error: 'Failed to search agents' });
   }
 });
@@ -151,7 +152,7 @@ router.get('/agents/:agentId', async (req: Request, res: Response): Promise<void
     
     res.json({ success: true, data: agent });
   } catch (error) {
-    console.error('Error getting agent:', error);
+    logger.error('Error getting agent:', error);
     res.status(500).json({ success: false, error: 'Failed to get agent' });
   }
 });
@@ -172,7 +173,7 @@ router.get('/agents/:agentId/metrics', async (req: Request, res: Response): Prom
     
     res.json({ success: true, data: metrics });
   } catch (error) {
-    console.error('Error getting agent metrics:', error);
+    logger.error('Error getting agent metrics:', error);
     res.status(500).json({ success: false, error: 'Failed to get agent metrics' });
   }
 });
@@ -188,7 +189,7 @@ router.get('/agents/:agentId/activity', async (req: Request, res: Response): Pro
     const activity = await verticalAgentsService.getAgentActivity(agentId, limit);
     res.json({ success: true, data: activity });
   } catch (error) {
-    console.error('Error getting agent activity:', error);
+    logger.error('Error getting agent activity:', error);
     res.status(500).json({ success: false, error: 'Failed to get agent activity' });
   }
 });
@@ -206,7 +207,7 @@ router.get('/metrics', async (_req: Request, res: Response) => {
     const metrics = await verticalAgentsService.getGlobalMetrics();
     res.json({ success: true, data: metrics });
   } catch (error) {
-    console.error('Error getting global metrics:', error);
+    logger.error('Error getting global metrics:', error);
     res.status(500).json({ success: false, error: 'Failed to get global metrics' });
   }
 });
@@ -221,7 +222,7 @@ router.get('/activity', async (req: Request, res: Response): Promise<void> => {
     const activity = await verticalAgentsService.getRecentActivity(limit);
     res.json({ success: true, data: activity });
   } catch (error) {
-    console.error('Error getting activity:', error);
+    logger.error('Error getting activity:', error);
     res.status(500).json({ success: false, error: 'Failed to get activity' });
   }
 });
@@ -253,7 +254,7 @@ router.post('/activity', async (req: Request, res: Response): Promise<void> => {
     
     res.json({ success: true, data: activity });
   } catch (error) {
-    console.error('Error recording activity:', error);
+    logger.error('Error recording activity:', error);
     res.status(500).json({ success: false, error: 'Failed to record activity' });
   }
 });
@@ -271,7 +272,7 @@ router.get('/health', async (_req: Request, res: Response) => {
     const health = await verticalAgentsService.healthCheck();
     res.json({ success: true, data: health });
   } catch (error) {
-    console.error('Error checking health:', error);
+    logger.error('Error checking health:', error);
     res.status(500).json({ success: false, error: 'Health check failed' });
   }
 });

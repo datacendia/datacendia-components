@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Sports
  *
@@ -615,7 +616,7 @@ router.get('/workflows', (_req: Request, res: Response) => {
 // =============================================================================
 
 router.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
-  console.error('Sports API Error:', err);
+  logger.error('Sports API Error:', err);
   res.status(500).json({
     error: 'Internal server error',
     message: err.message,

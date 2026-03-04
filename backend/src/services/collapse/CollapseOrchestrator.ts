@@ -220,7 +220,7 @@ export class CollapseOrchestrator {
         agentOutputs.push(output);
         allFailureConditions.push(...output.failureConditions);
       } catch (error) {
-        console.error(`Collapse agent ${agentConfig.type} failed:`, error);
+        logger.error(`Collapse agent ${agentConfig.type} failed:`, error);
       }
     }
 

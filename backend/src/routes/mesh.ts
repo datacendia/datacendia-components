@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Mesh
  *
@@ -57,7 +58,7 @@ router.get('/stats', async (req: Request, res: Response) => {
       }
     });
   } catch (error) {
-    console.error('[Mesh] Stats error:', error);
+    logger.error('[Mesh] Stats error:', error);
     res.status(500).json({ success: false, error: 'Failed to fetch network stats' });
   }
 });
@@ -85,7 +86,7 @@ router.post('/stats', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
       }
     });
   } catch (error) {
-    console.error('[Mesh] Stats update error:', error);
+    logger.error('[Mesh] Stats update error:', error);
     res.status(500).json({ success: false, error: 'Failed to update network stats' });
   }
 });
@@ -111,7 +112,7 @@ router.get('/participants', async (req: Request, res: Response) => {
 
     res.json({ success: true, data: participants });
   } catch (error) {
-    console.error('[Mesh] Participants error:', error);
+    logger.error('[Mesh] Participants error:', error);
     res.status(500).json({ success: false, error: 'Failed to fetch participants' });
   }
 });
@@ -136,7 +137,7 @@ router.get('/benchmarks', async (req: Request, res: Response) => {
 
     res.json({ success: true, data: benchmarks });
   } catch (error) {
-    console.error('[Mesh] Benchmarks error:', error);
+    logger.error('[Mesh] Benchmarks error:', error);
     res.status(500).json({ success: false, error: 'Failed to fetch benchmarks' });
   }
 });
@@ -164,7 +165,7 @@ router.get('/signals', async (req: Request, res: Response) => {
 
     res.json({ success: true, data: signals });
   } catch (error) {
-    console.error('[Mesh] Signals error:', error);
+    logger.error('[Mesh] Signals error:', error);
     res.status(500).json({ success: false, error: 'Failed to fetch risk signals' });
   }
 });
@@ -182,7 +183,7 @@ router.get('/signals/:id', async (req: Request, res: Response) => {
 
     res.json({ success: true, data: signal });
   } catch (error) {
-    console.error('[Mesh] Signal error:', error);
+    logger.error('[Mesh] Signal error:', error);
     res.status(500).json({ success: false, error: 'Failed to fetch signal' });
   }
 });
@@ -207,7 +208,7 @@ router.post('/signals', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
 
     res.json({ success: true, data: signal });
   } catch (error) {
-    console.error('[Mesh] Signal create error:', error);
+    logger.error('[Mesh] Signal create error:', error);
     res.status(500).json({ success: false, error: 'Failed to create signal' });
   }
 });

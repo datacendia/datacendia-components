@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Demo Seed
  *
@@ -737,7 +738,7 @@ router.post('/seed/tr', async (_req: Request, res: Response) => {
       results
     });
   } catch (error) {
-    console.error('Error seeding TR demo data:', error);
+    logger.error('Error seeding TR demo data:', error);
     res.status(500).json({
       success: false,
       error: 'Failed to seed TR demo data',
@@ -802,7 +803,7 @@ router.delete('/clear/tr', async (_req: Request, res: Response) => {
       results
     });
   } catch (error) {
-    console.error('Error clearing TR demo data:', error);
+    logger.error('Error clearing TR demo data:', error);
     res.status(500).json({
       success: false,
       error: 'Failed to clear TR demo data'
@@ -886,7 +887,7 @@ router.post('/seed', async (_req: Request, res: Response) => {
       results
     });
   } catch (error) {
-    console.error('Error seeding demo data:', error);
+    logger.error('Error seeding demo data:', error);
     res.status(500).json({
       success: false,
       error: 'Failed to seed demo data',
@@ -948,7 +949,7 @@ router.post('/seed/:scenario', async (req: Request, res: Response) => {
       itemsSeeded: seeded
     });
   } catch (error) {
-    console.error(`Error seeding scenario ${scenario}:`, error);
+    logger.error(`Error seeding scenario ${scenario}:`, error);
     res.status(500).json({
       success: false,
       error: `Failed to seed scenario: ${scenario}`
@@ -1015,7 +1016,7 @@ router.delete('/clear', async (req: Request, res: Response) => {
       results
     });
   } catch (error) {
-    console.error('Error clearing demo data:', error);
+    logger.error('Error clearing demo data:', error);
     res.status(500).json({
       success: false,
       error: 'Failed to clear demo data'
@@ -1068,7 +1069,7 @@ router.get('/status', async (req: Request, res: Response) => {
       status
     });
   } catch (error) {
-    console.error('Error checking demo status:', error);
+    logger.error('Error checking demo status:', error);
     res.status(500).json({
       success: false,
       error: 'Failed to check demo status'

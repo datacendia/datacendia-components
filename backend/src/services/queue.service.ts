@@ -336,7 +336,7 @@ class QueueService extends EventEmitter {
       logger.info(`[Queue] Completed job ${job.id}`);
       this.emit('job:completed', job);
     } catch (error) {
-      console.error(`[Queue] Job ${job.id} failed:`, error);
+      logger.error(`[Queue] Job ${job.id} failed:`, error);
       
       job.error = error instanceof Error ? error.message : String(error);
       

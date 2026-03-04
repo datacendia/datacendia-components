@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Sgas
  *
@@ -98,7 +99,7 @@ router.post('/deliberation', async (req: Request, res: Response) => {
       },
     });
   } catch (error) {
-    console.error('Deliberation error:', error);
+    logger.error('Deliberation error:', error);
     res.status(500).json({ 
       error: 'Deliberation failed', 
       message: error instanceof Error ? error.message : 'Unknown error' 

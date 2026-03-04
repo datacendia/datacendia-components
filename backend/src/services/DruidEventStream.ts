@@ -253,10 +253,10 @@ class DruidEventStream extends EventEmitter {
     try {
       const result = await druidService.ingestBatch(datasource, events);
       if (result.failed > 0) {
-        console.warn(`[DruidEventStream] ${result.failed}/${events.length} events failed to ingest to ${datasource}`);
+        logger.warn(`[DruidEventStream] ${result.failed}/${events.length} events failed to ingest to ${datasource}`);
       }
     } catch (error) {
-      console.error(`[DruidEventStream] Failed to flush batch to ${datasource}:`, error);
+      logger.error(`[DruidEventStream] Failed to flush batch to ${datasource}:`, error);
       // Re-queue failed events (with limit to prevent infinite growth)
       const currentQueue = this.batchQueue.get(datasource) || [];
       if (currentQueue.length < this.BATCH_SIZE * 5) {

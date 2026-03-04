@@ -1,3 +1,4 @@
+import { logger } from '../../utils/logger.js';
 /**
  * Service — Cendia Gateway Service
  *
@@ -721,7 +722,7 @@ class CendiaGatewayService extends EventEmitter {
         this.emit('interaction:pii_detected', finalInteraction);
       }
     } catch (err) {
-      console.error('[CendiaGateway] Stream capture error:', err);
+      logger.error('[CendiaGateway] Stream capture error:', err);
     }
   }
 
@@ -1225,7 +1226,7 @@ class CendiaGatewayService extends EventEmitter {
       if (this.persistQueue.length < RING_BUFFER_SIZE) {
         this.persistQueue.unshift(...batch);
       }
-      console.error(`[CendiaGateway] Batch persist failed (${batch.length} items):`, err);
+      logger.error(`[CendiaGateway] Batch persist failed (${batch.length} items):`, err);
     }
   }
 

@@ -424,7 +424,7 @@ class LicensingService {
     const limitValue = license.usage[limitKey] as number;
 
     if (currentValue + increment > limitValue && limitValue !== Infinity) {
-      console.warn(`[Licensing] Usage limit exceeded for ${metric}`);
+      logger.warn(`[Licensing] Usage limit exceeded for ${metric}`);
       return false;
     }
 
@@ -544,7 +544,7 @@ class LicensingService {
     if (module.requiredModules) {
       for (const required of module.requiredModules) {
         if (!license.modules.includes(required)) {
-          console.error(`[Licensing] Module ${moduleId} requires ${required}`);
+          logger.error(`[Licensing] Module ${moduleId} requires ${required}`);
           return false;
         }
       }

@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Carbon Aware
  *
@@ -41,7 +42,7 @@ router.get('/intensity/:region', async (req: Request, res: Response): Promise<vo
     const intensity = await carbonAwareSchedulerService.getCarbonIntensity(req.params['region']!);
     res.json({ success: true, data: intensity });
   } catch (error) {
-    console.error('Error getting carbon intensity:', error);
+    logger.error('Error getting carbon intensity:', error);
     res.status(500).json({ success: false, error: 'Failed to get carbon intensity' });
   }
 });
@@ -54,7 +55,7 @@ router.get('/intensity', async (_req: Request, res: Response): Promise<void> => 
     const intensities = await carbonAwareSchedulerService.getAllRegionIntensities();
     res.json({ success: true, data: intensities });
   } catch (error) {
-    console.error('Error getting intensities:', error);
+    logger.error('Error getting intensities:', error);
     res.status(500).json({ success: false, error: 'Failed to get intensities' });
   }
 });
@@ -86,7 +87,7 @@ router.post('/workloads', async (req: Request, res: Response): Promise<void> => 
 
     res.status(201).json({ success: true, data: workload });
   } catch (error) {
-    console.error('Error submitting workload:', error);
+    logger.error('Error submitting workload:', error);
     res.status(500).json({ success: false, error: 'Failed to submit workload' });
   }
 });
@@ -100,7 +101,7 @@ router.get('/workloads', (_req: Request, res: Response) => {
     const workloads = carbonAwareSchedulerService.listWorkloads(status);
     res.json({ success: true, data: workloads });
   } catch (error) {
-    console.error('Error listing workloads:', error);
+    logger.error('Error listing workloads:', error);
     res.status(500).json({ success: false, error: 'Failed to list workloads' });
   }
 });
@@ -117,7 +118,7 @@ router.get('/workloads/:id', (req: Request, res: Response): void => {
     }
     res.json({ success: true, data: workload });
   } catch (error) {
-    console.error('Error getting workload:', error);
+    logger.error('Error getting workload:', error);
     res.status(500).json({ success: false, error: 'Failed to get workload' });
   }
 });
@@ -130,7 +131,7 @@ router.post('/workloads/:id/schedule', async (req: Request, res: Response): Prom
     const decision = await carbonAwareSchedulerService.scheduleWorkload(req.params['id']!);
     res.json({ success: true, data: decision });
   } catch (error) {
-    console.error('Error scheduling workload:', error);
+    logger.error('Error scheduling workload:', error);
     res.status(500).json({ success: false, error: 'Failed to schedule workload' });
   }
 });
@@ -143,7 +144,7 @@ router.post('/workloads/:id/execute', async (req: Request, res: Response): Promi
     const workload = await carbonAwareSchedulerService.executeWorkload(req.params['id']!);
     res.json({ success: true, data: workload });
   } catch (error) {
-    console.error('Error executing workload:', error);
+    logger.error('Error executing workload:', error);
     res.status(500).json({ success: false, error: 'Failed to execute workload' });
   }
 });
@@ -156,7 +157,7 @@ router.get('/budget/:orgId', async (req: Request, res: Response): Promise<void> 
     const budget = await carbonAwareSchedulerService.getCarbonBudget(req.params['orgId']!);
     res.json({ success: true, data: budget });
   } catch (error) {
-    console.error('Error getting budget:', error);
+    logger.error('Error getting budget:', error);
     res.status(500).json({ success: false, error: 'Failed to get budget' });
   }
 });
@@ -169,7 +170,7 @@ router.get('/report/:orgId', async (req: Request, res: Response): Promise<void> 
     const report = await carbonAwareSchedulerService.generateReport(req.params['orgId']!);
     res.json({ success: true, data: report });
   } catch (error) {
-    console.error('Error generating report:', error);
+    logger.error('Error generating report:', error);
     res.status(500).json({ success: false, error: 'Failed to generate report' });
   }
 });

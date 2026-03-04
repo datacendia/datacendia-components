@@ -104,7 +104,7 @@ class TikaService {
       return this.isAvailable;
     } catch (error) {
       this.isAvailable = false;
-      console.warn('[Tika] Service not available');
+      logger.warn('[Tika] Service not available');
       return false;
     }
   }
@@ -175,7 +175,7 @@ class TikaService {
         metadata,
       };
     } catch (error: unknown) {
-      console.error('[Tika] Extraction error:', getErrorMessage(error));
+      logger.error('[Tika] Extraction error:', getErrorMessage(error));
       return {
         success: false,
         text: '',
@@ -225,7 +225,7 @@ class TikaService {
         },
       };
     } catch (error: unknown) {
-      console.error('[Tika] OCR extraction error:', getErrorMessage(error));
+      logger.error('[Tika] OCR extraction error:', getErrorMessage(error));
       return {
         success: false,
         text: '',
@@ -254,7 +254,7 @@ class TikaService {
         return await response.text();
       }
     } catch (error) {
-      console.error('[Tika] Type detection error');
+      logger.error('[Tika] Type detection error');
     }
 
     return 'application/octet-stream';
@@ -279,7 +279,7 @@ class TikaService {
         return Object.keys(types);
       }
     } catch (error) {
-      console.error('[Tika] Failed to get supported types');
+      logger.error('[Tika] Failed to get supported types');
     }
 
     return Object.keys(SUPPORTED_FORMATS);

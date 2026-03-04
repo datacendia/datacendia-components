@@ -229,7 +229,7 @@ class WebhookService {
         throw new Error(`HTTP ${response.status}: ${delivery.response}`);
       }
     } catch (error) {
-      console.error(`[Webhook] Delivery failed (attempt ${attempt}):`, error);
+      logger.error(`[Webhook] Delivery failed (attempt ${attempt}):`, error);
       
       webhook.failureCount++;
       
@@ -243,12 +243,12 @@ class WebhookService {
           this.deliverWebhook(webhook, payload, attempt + 1);
         }, delay);
       } else {
-        console.error(`[Webhook] Max retries exceeded for ${webhook.id}`);
+        logger.error(`[Webhook] Max retries exceeded for ${webhook.id}`);
         
         // Disable webhook after too many failures
         if (webhook.failureCount >= 10) {
           webhook.isActive = false;
-          console.warn(`[Webhook] Disabled webhook ${webhook.id} due to repeated failures`);
+          logger.warn(`[Webhook] Disabled webhook ${webhook.id} due to repeated failures`);
         }
       }
     }

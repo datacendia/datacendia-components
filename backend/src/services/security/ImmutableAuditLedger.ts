@@ -294,7 +294,7 @@ class ImmutableAuditLedger {
       logger.info('[ImmutableLedger] Using signing key from environment');
     } else {
       this.signingKey = crypto.randomBytes(32).toString('hex');
-      console.warn('[ImmutableLedger] Generated ephemeral signing key - configure AUDIT_SIGNING_KEY for production');
+      logger.warn('[ImmutableLedger] Generated ephemeral signing key - configure AUDIT_SIGNING_KEY for production');
     }
     
     // Hydrate from PostgreSQL or create genesis
@@ -320,11 +320,11 @@ class ImmutableAuditLedger {
       try {
         const proof = await this.verifyIntegrity();
         if (!proof.valid) {
-          console.error('[ImmutableLedger] CRITICAL: Background verification failed!', proof);
+          logger.error('[ImmutableLedger] CRITICAL: Background verification failed!', proof);
           // Uses deterministic computation; SIEM alerts via notification service
         }
       } catch (error) {
-        console.error('[ImmutableLedger] Background verification error:', error);
+        logger.error('[ImmutableLedger] Background verification error:', error);
       }
     }, this.config.verificationIntervalMs);
     

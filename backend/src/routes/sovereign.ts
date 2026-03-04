@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Sovereign
  *
@@ -90,7 +91,7 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
       routingReason: result.routingReason,
     });
   } catch (error: unknown) {
-    console.error('[Sovereign] Timeline query failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Timeline query failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -121,7 +122,7 @@ router.post('/druid/metrics', async (req: Request, res: Response) => {
       routingReason: result.routingReason,
     });
   } catch (error: unknown) {
-    console.error('[Sovereign] Metrics query failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Metrics query failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -146,7 +147,7 @@ router.post('/druid/ingest', async (req: Request, res: Response) => {
       clickhouse: result.clickhouse,
     });
   } catch (error: unknown) {
-    console.error('[Sovereign] Ingest failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Ingest failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -195,7 +196,7 @@ router.post('/storage/upload', async (req: Request, res: Response) => {
 
     res.json({ success: result.success, data: result });
   } catch (error: unknown) {
-    console.error('[Sovereign] MinIO upload failed:', getErrorMessage(error));
+    logger.error('[Sovereign] MinIO upload failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -217,7 +218,7 @@ router.get('/storage/download/:bucket/:fileName', async (req: Request, res: Resp
     res.setHeader('Content-Length', result.size?.toString() || '0');
     result.stream.pipe(res);
   } catch (error: unknown) {
-    console.error('[Sovereign] MinIO download failed:', getErrorMessage(error));
+    logger.error('[Sovereign] MinIO download failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -234,7 +235,7 @@ router.get('/storage/list/:bucket', async (req: Request, res: Response) => {
     
     res.json({ success: true, data: files });
   } catch (error: unknown) {
-    console.error('[Sovereign] MinIO list failed:', getErrorMessage(error));
+    logger.error('[Sovereign] MinIO list failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -250,7 +251,7 @@ router.get('/storage/stats/:bucket', async (req: Request, res: Response) => {
     
     res.json({ success: true, data: stats });
   } catch (error: unknown) {
-    console.error('[Sovereign] MinIO stats failed:', getErrorMessage(error));
+    logger.error('[Sovereign] MinIO stats failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -333,7 +334,7 @@ router.post('/vault/upload', vaultUpload.single('file'), async (req: Request, re
       },
     });
   } catch (error: unknown) {
-    console.error('[Sovereign] Vault upload failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Vault upload failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -358,7 +359,7 @@ router.get('/vault/download', async (req: Request, res: Response) => {
     res.setHeader('Content-Length', result.size?.toString() || '0');
     result.stream.pipe(res);
   } catch (error: unknown) {
-    console.error('[Sovereign] Vault download failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Vault download failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -390,7 +391,7 @@ router.get('/vault/list', async (req: Request, res: Response) => {
       })),
     });
   } catch (error: unknown) {
-    console.error('[Sovereign] Vault list failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Vault list failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -406,7 +407,7 @@ router.delete('/vault/delete', async (req: Request, res: Response) => {
     const ok = await minioService.deleteObject(bucket, objectName);
     res.json({ success: ok });
   } catch (error: unknown) {
-    console.error('[Sovereign] Vault delete failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Vault delete failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -448,7 +449,7 @@ router.post('/vector/store', async (req: Request, res: Response) => {
     
     res.json({ success: true, chunks: storedCount });
   } catch (error: unknown) {
-    console.error('[Sovereign] Vector store failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Vector store failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -465,7 +466,7 @@ router.post('/vector/search', async (req: Request, res: Response) => {
     
     res.json({ success: true, data: results });
   } catch (error: unknown) {
-    console.error('[Sovereign] Vector search failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Vector search failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -487,7 +488,7 @@ router.post('/vector/decision', async (req: Request, res: Response) => {
     
     res.json({ success: true, message: 'Decision context stored' });
   } catch (error: unknown) {
-    console.error('[Sovereign] Decision context store failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Decision context store failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -504,7 +505,7 @@ router.post('/vector/decisions/search', async (req: Request, res: Response) => {
     
     res.json({ success: true, data: results });
   } catch (error: unknown) {
-    console.error('[Sovereign] Decision search failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Decision search failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -527,7 +528,7 @@ router.post('/vector/agent-memory', async (req: Request, res: Response) => {
     
     res.json({ success: true, message: 'Agent memory stored' });
   } catch (error: unknown) {
-    console.error('[Sovereign] Agent memory store failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Agent memory store failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -544,7 +545,7 @@ router.post('/vector/agent-memory/recall', async (req: Request, res: Response) =
     
     res.json({ success: true, data: memories });
   } catch (error: unknown) {
-    console.error('[Sovereign] Agent memory recall failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Agent memory recall failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -586,7 +587,7 @@ router.post('/queue/deliberation', async (req: Request, res: Response) => {
     
     res.json({ success: true, jobId: job.id });
   } catch (error: unknown) {
-    console.error('[Sovereign] Queue deliberation failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Queue deliberation failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -610,7 +611,7 @@ router.post('/queue/document', async (req: Request, res: Response) => {
     
     res.json({ success: true, jobId: job.id });
   } catch (error: unknown) {
-    console.error('[Sovereign] Queue document failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Queue document failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -623,7 +624,7 @@ router.get('/queue/stats', async (req: Request, res: Response) => {
     const stats = await agentQueueService.getAllQueueStats();
     res.json({ success: true, data: stats });
   } catch (error: unknown) {
-    console.error('[Sovereign] Queue stats failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Queue stats failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -641,7 +642,7 @@ router.get('/queue/job/:jobId', async (req: Request, res: Response) => {
     
     res.json({ success: true, data: { jobId, queueStats: stats } });
   } catch (error: unknown) {
-    console.error('[Sovereign] Job status failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Job status failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -687,7 +688,7 @@ router.post('/prometheus/query', async (req: Request, res: Response) => {
     const data = await response.json() as PrometheusResponse;
     res.json({ success: true, data: data.data });
   } catch (error: unknown) {
-    console.error('[Sovereign] Prometheus query failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Prometheus query failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -711,7 +712,7 @@ router.get('/prometheus/metric/:name', async (req: Request, res: Response) => {
     const data = await response.json() as PrometheusResponse;
     res.json({ success: true, data: data.data });
   } catch (error: unknown) {
-    console.error('[Sovereign] Prometheus metric failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Prometheus metric failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -757,7 +758,7 @@ router.get('/n8n/workflows', async (req: Request, res: Response) => {
     const data = await response.json() as N8nResponse;
     res.json({ success: true, data: data.data || data });
   } catch (error: unknown) {
-    console.error('[Sovereign] n8n workflows failed:', getErrorMessage(error));
+    logger.error('[Sovereign] n8n workflows failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -787,7 +788,7 @@ router.post('/n8n/trigger/:workflowId', async (req: Request, res: Response) => {
     const data = await response.json();
     res.json({ success: true, data });
   } catch (error: unknown) {
-    console.error('[Sovereign] n8n trigger failed:', getErrorMessage(error));
+    logger.error('[Sovereign] n8n trigger failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });
@@ -837,7 +838,7 @@ router.get('/unleash/features', async (req: Request, res: Response) => {
     const data = await response.json() as UnleashFeaturesResponse;
     res.json({ success: true, data: data.features || [] });
   } catch (error: unknown) {
-    console.error('[Sovereign] Unleash features failed:', getErrorMessage(error));
+    logger.error('[Sovereign] Unleash features failed:', getErrorMessage(error));
     res.status(500).json({ success: false, error: getErrorMessage(error) });
   }
 });

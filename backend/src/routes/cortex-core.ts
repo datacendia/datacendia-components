@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Cortex Core
  *
@@ -45,7 +46,7 @@ router.post('/query', async (req: Request, res: Response) => {
     const result = await cortexCore.query(params);
     res.json(result);
   } catch (error) {
-    console.error('[CortexCore] Query error:', error);
+    logger.error('[CortexCore] Query error:', error);
     res.status(500).json({ success: false, error: 'Query failed', message: (error as Error).message });
   }
 });
@@ -73,7 +74,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
     const result = await cortexCore.analyze(params);
     res.json(result);
   } catch (error) {
-    console.error('[CortexCore] Analyze error:', error);
+    logger.error('[CortexCore] Analyze error:', error);
     res.status(500).json({ success: false, error: 'Analysis failed', message: (error as Error).message });
   }
 });
@@ -103,7 +104,7 @@ router.post('/simulate', async (req: Request, res: Response) => {
     const result = await cortexCore.simulate(params);
     res.json(result);
   } catch (error) {
-    console.error('[CortexCore] Simulate error:', error);
+    logger.error('[CortexCore] Simulate error:', error);
     res.status(500).json({ success: false, error: 'Simulation failed', message: (error as Error).message });
   }
 });
@@ -133,7 +134,7 @@ router.post('/govern', async (req: Request, res: Response) => {
     const result = await cortexCore.govern(params);
     res.json(result);
   } catch (error) {
-    console.error('[CortexCore] Govern error:', error);
+    logger.error('[CortexCore] Govern error:', error);
     res.status(500).json({ success: false, error: 'Governance check failed', message: (error as Error).message });
   }
 });
@@ -162,7 +163,7 @@ router.get('/context/:entityType/:entityId', async (req: Request, res: Response)
     const result = await cortexCore.getContext(entityType || '', entityId || '', options, context);
     res.json(result);
   } catch (error) {
-    console.error('[CortexCore] Context error:', error);
+    logger.error('[CortexCore] Context error:', error);
     res.status(500).json({ success: false, error: 'Context retrieval failed', message: (error as Error).message });
   }
 });
@@ -227,7 +228,7 @@ router.post('/natural-language', async (req: Request, res: Response) => {
     });
     res.json(result);
   } catch (error) {
-    console.error('[CortexCore] NL Query error:', error);
+    logger.error('[CortexCore] NL Query error:', error);
     res.status(500).json({ success: false, error: 'Query failed', message: (error as Error).message });
   }
 });

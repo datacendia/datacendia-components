@@ -1,3 +1,4 @@
+import { logger } from '../../utils/logger.js';
 /**
  * CendiaGateway™ — SIEM Integration Layer
  *
@@ -182,7 +183,7 @@ class SIEMIntegration {
       if (buffer.length < 10_000) {
         buffer.unshift(...batch);
       }
-      console.error(`[CendiaGateway] SIEM "${config.name}" flush failed (${batch.length} events):`, err.message);
+      logger.error(`[CendiaGateway] SIEM "${config.name}" flush failed (${batch.length} events):`, err.message);
     }
   }
 

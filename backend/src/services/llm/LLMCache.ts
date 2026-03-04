@@ -1,3 +1,4 @@
+import { logger } from '../../utils/logger.js';
 /**
  * Service — L L M Cache
  *
@@ -123,7 +124,7 @@ export class LLMCacheService {
         },
       });
     } catch (error) {
-      console.error('Cache set error:', error);
+      logger.error('Cache set error:', error);
     }
   }
 

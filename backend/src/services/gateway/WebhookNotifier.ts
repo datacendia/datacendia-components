@@ -1,3 +1,4 @@
+import { logger } from '../../utils/logger.js';
 /**
  * CendiaGateway™ — Webhook Notification Service
  *
@@ -88,7 +89,7 @@ class WebhookNotifier {
 
     const promises = matchingWebhooks.map(webhook =>
       this.send(webhook, payload).catch(err =>
-        console.error(`[CendiaGateway] Webhook "${webhook.name}" failed:`, err.message)
+        logger.error(`[CendiaGateway] Webhook "${webhook.name}" failed:`, err.message)
       )
     );
 

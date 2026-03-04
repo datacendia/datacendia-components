@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Zkp
  *
@@ -40,7 +41,7 @@ router.get('/proof-types', (_req: Request, res: Response) => {
     const types = zeroKnowledgeProofService.getProofTypes();
     res.json({ success: true, data: types });
   } catch (error) {
-    console.error('Error getting proof types:', error);
+    logger.error('Error getting proof types:', error);
     res.status(500).json({ success: false, error: 'Failed to get proof types' });
   }
 });
@@ -74,7 +75,7 @@ router.post('/request', async (req: Request, res: Response): Promise<void> => {
 
     res.status(201).json({ success: true, data: request });
   } catch (error) {
-    console.error('Error requesting proof:', error);
+    logger.error('Error requesting proof:', error);
     res.status(500).json({ success: false, error: 'Failed to request proof' });
   }
 });
@@ -88,7 +89,7 @@ router.post('/generate/:requestId', async (req: Request, res: Response): Promise
     const proof = await zeroKnowledgeProofService.generateProof(requestId);
     res.json({ success: true, data: proof });
   } catch (error) {
-    console.error('Error generating proof:', error);
+    logger.error('Error generating proof:', error);
     res.status(500).json({ success: false, error: 'Failed to generate proof' });
   }
 });
@@ -109,7 +110,7 @@ router.post('/verify/:proofId', async (req: Request, res: Response): Promise<voi
     const result = await zeroKnowledgeProofService.verifyProof(proofId, verifiedBy);
     res.json({ success: true, data: result });
   } catch (error) {
-    console.error('Error verifying proof:', error);
+    logger.error('Error verifying proof:', error);
     res.status(500).json({ success: false, error: 'Failed to verify proof' });
   }
 });
@@ -126,7 +127,7 @@ router.get('/proofs/:id', (req: Request, res: Response): void => {
     }
     res.json({ success: true, data: proof });
   } catch (error) {
-    console.error('Error getting proof:', error);
+    logger.error('Error getting proof:', error);
     res.status(500).json({ success: false, error: 'Failed to get proof' });
   }
 });
@@ -139,7 +140,7 @@ router.get('/proofs/organization/:orgId', (req: Request, res: Response): void =>
     const proofs = zeroKnowledgeProofService.getProofsByOrganization(req.params['orgId']!);
     res.json({ success: true, data: proofs });
   } catch (error) {
-    console.error('Error getting proofs:', error);
+    logger.error('Error getting proofs:', error);
     res.status(500).json({ success: false, error: 'Failed to get proofs' });
   }
 });
@@ -160,7 +161,7 @@ router.post('/revoke/:proofId', async (req: Request, res: Response): Promise<voi
     await zeroKnowledgeProofService.revokeProof(proofId, reason);
     res.json({ success: true, message: 'Proof revoked' });
   } catch (error) {
-    console.error('Error revoking proof:', error);
+    logger.error('Error revoking proof:', error);
     res.status(500).json({ success: false, error: 'Failed to revoke proof' });
   }
 });
@@ -177,7 +178,7 @@ router.get('/certificates/:id', (req: Request, res: Response): void => {
     }
     res.json({ success: true, data: certificate });
   } catch (error) {
-    console.error('Error getting certificate:', error);
+    logger.error('Error getting certificate:', error);
     res.status(500).json({ success: false, error: 'Failed to get certificate' });
   }
 });

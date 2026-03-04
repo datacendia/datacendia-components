@@ -673,7 +673,7 @@ export class EnergyDataConnector extends DataConnector<SCADAReading | GridAsset 
     if (sourceId === 'scada') {
       const diodeMode = config['diodeMode'] !== false;
       if (!diodeMode) {
-        console.error('SECURITY: SCADA connection must be read-only diode mode');
+        logger.error('SECURITY: SCADA connection must be read-only diode mode');
         return false;
       }
     }

@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Collapse
  *
@@ -141,7 +142,7 @@ router.post('/deliberation', async (req: Request, res: Response) => {
       deliberation,
     });
   } catch (error) {
-    console.error('Deliberation failed:', error);
+    logger.error('Deliberation failed:', error);
     res.status(500).json({
       success: false,
       error: error instanceof Error ? error.message : 'Deliberation failed',
@@ -357,7 +358,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
       failureEnvelope: collapseTrack.failureEnvelope,
     });
   } catch (error) {
-    console.error('Analysis failed:', error);
+    logger.error('Analysis failed:', error);
     res.status(500).json({
       success: false,
       error: error instanceof Error ? error.message : 'Analysis failed',
@@ -487,7 +488,7 @@ router.get('/deliberation/:id/audit-bundle', async (req: Request, res: Response)
     );
     res.send(JSON.stringify(auditBundle, null, 2));
   } catch (error) {
-    console.error('Audit bundle export failed:', error);
+    logger.error('Audit bundle export failed:', error);
     res.status(500).json({
       success: false,
       error: error instanceof Error ? error.message : 'Export failed',
@@ -640,7 +641,7 @@ router.post('/deliberation/:id/override', async (req: Request, res: Response) =>
       warning: 'This override has been cryptographically recorded. The human authority has accepted institutional responsibility for the accepted risks.',
     });
   } catch (error) {
-    console.error('Override recording failed:', error);
+    logger.error('Override recording failed:', error);
     res.status(500).json({
       success: false,
       error: error instanceof Error ? error.message : 'Override failed',

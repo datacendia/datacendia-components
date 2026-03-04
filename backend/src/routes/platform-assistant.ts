@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Platform Assistant
  *
@@ -345,7 +346,7 @@ router.post('/query', async (req: Request, res: Response) => {
 
     res.json({ success: true, data: assistantResponse });
   } catch (error) {
-    console.error('Error in platform assistant:', error);
+    logger.error('Error in platform assistant:', error);
     res.json({ 
       success: true, 
       data: {
@@ -394,7 +395,7 @@ router.get('/suggestions', async (req: Request, res: Response) => {
 
     res.json({ success: true, data: routeSuggestions });
   } catch (error) {
-    console.error('Error getting suggestions:', error);
+    logger.error('Error getting suggestions:', error);
     res.status(500).json({ success: false, error: 'Failed to get suggestions' });
   }
 });

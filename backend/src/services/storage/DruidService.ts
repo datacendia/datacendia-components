@@ -138,7 +138,7 @@ class DruidService {
       return this.isAvailable;
     } catch (error) {
       this.isAvailable = false;
-      console.warn('[Druid] Service not available, falling back to Postgres');
+      logger.warn('[Druid] Service not available, falling back to Postgres');
       return false;
     }
   }
@@ -151,7 +151,7 @@ class DruidService {
     event: Record<string, any>
   ): Promise<boolean> {
     if (!this.isAvailable) {
-      console.warn('[Druid] Service unavailable, event not ingested');
+      logger.warn('[Druid] Service unavailable, event not ingested');
       return false;
     }
 
@@ -173,7 +173,7 @@ class DruidService {
 
       return response.status === 200;
     } catch (error: unknown) {
-      console.error('[Druid] Ingest error:', getErrorMessage(error));
+      logger.error('[Druid] Ingest error:', getErrorMessage(error));
       return false;
     }
   }
@@ -245,7 +245,7 @@ class DruidService {
         queryTime,
       };
     } catch (error: unknown) {
-      console.error('[Druid] Query error:', getErrorMessage(error));
+      logger.error('[Druid] Query error:', getErrorMessage(error));
       return {
         success: false,
         data: [],

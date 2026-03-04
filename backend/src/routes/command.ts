@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Command
  *
@@ -34,7 +35,7 @@ router.get('/verticals', async (_req: Request, res: Response) => {
       count: verticals.length,
     });
   } catch (error) {
-    console.error('Error getting verticals:', error);
+    logger.error('Error getting verticals:', error);
     res.status(500).json({ success: false, error: 'Failed to get verticals' });
   }
 });
@@ -61,7 +62,7 @@ router.get('/verticals/:verticalId', async (req: Request, res: Response): Promis
       },
     });
   } catch (error) {
-    console.error('Error getting vertical config:', error);
+    logger.error('Error getting vertical config:', error);
     res.status(500).json({ success: false, error: 'Failed to get vertical config' });
   }
 });
@@ -86,7 +87,7 @@ router.get('/verticals/:verticalId/quick-actions', async (req: Request, res: Res
       count: actions.length,
     });
   } catch (error) {
-    console.error('Error getting quick actions:', error);
+    logger.error('Error getting quick actions:', error);
     res.status(500).json({ success: false, error: 'Failed to get quick actions' });
   }
 });
@@ -117,7 +118,7 @@ router.post('/parse', async (req: Request, res: Response): Promise<void> => {
       },
     });
   } catch (error) {
-    console.error('Error parsing command:', error);
+    logger.error('Error parsing command:', error);
     res.status(500).json({ success: false, error: 'Failed to parse command' });
   }
 });
@@ -145,7 +146,7 @@ router.post('/execute', async (req: Request, res: Response): Promise<void> => {
       data: execution,
     });
   } catch (error) {
-    console.error('Error executing command:', error);
+    logger.error('Error executing command:', error);
     res.status(500).json({ success: false, error: 'Failed to execute command' });
   }
 });
@@ -176,7 +177,7 @@ router.post('/suggest', async (req: Request, res: Response): Promise<void> => {
       data: suggestions,
     });
   } catch (error) {
-    console.error('Error getting suggestions:', error);
+    logger.error('Error getting suggestions:', error);
     res.status(500).json({ success: false, error: 'Failed to get suggestions' });
   }
 });
@@ -215,7 +216,7 @@ router.get('/history', async (req: Request, res: Response): Promise<void> => {
       count: history.length,
     });
   } catch (error) {
-    console.error('Error getting history:', error);
+    logger.error('Error getting history:', error);
     res.status(500).json({ success: false, error: 'Failed to get history' });
   }
 });
@@ -242,7 +243,7 @@ router.get('/execution/:id', async (req: Request, res: Response): Promise<void> 
       data: execution,
     });
   } catch (error) {
-    console.error('Error getting execution:', error);
+    logger.error('Error getting execution:', error);
     res.status(500).json({ success: false, error: 'Failed to get execution' });
   }
 });
@@ -306,7 +307,7 @@ router.post('/platinum/execute', async (req: Request, res: Response): Promise<vo
       },
     });
   } catch (error) {
-    console.error('Error executing platinum command:', error);
+    logger.error('Error executing platinum command:', error);
     res.status(500).json({ success: false, error: 'Failed to execute platinum command' });
   }
 });
@@ -333,7 +334,7 @@ router.get('/platinum/config/:verticalId', async (req: Request, res: Response): 
       },
     });
   } catch (error) {
-    console.error('Error getting platinum config:', error);
+    logger.error('Error getting platinum config:', error);
     res.status(500).json({ success: false, error: 'Failed to get platinum config' });
   }
 });
@@ -352,7 +353,7 @@ router.post('/platinum/verify/:executionId', async (req: Request, res: Response)
       data: result,
     });
   } catch (error) {
-    console.error('Error verifying execution:', error);
+    logger.error('Error verifying execution:', error);
     res.status(500).json({ success: false, error: 'Failed to verify execution' });
   }
 });
@@ -371,7 +372,7 @@ router.get('/platinum/export/:executionId', async (req: Request, res: Response):
       data: result,
     });
   } catch (error) {
-    console.error('Error exporting execution:', error);
+    logger.error('Error exporting execution:', error);
     res.status(500).json({ success: false, error: 'Failed to export execution' });
   }
 });
@@ -395,7 +396,7 @@ router.get('/platinum/execution/:id', async (req: Request, res: Response): Promi
       data: execution,
     });
   } catch (error) {
-    console.error('Error getting platinum execution:', error);
+    logger.error('Error getting platinum execution:', error);
     res.status(500).json({ success: false, error: 'Failed to get platinum execution' });
   }
 });

@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Security Services
  *
@@ -57,7 +58,7 @@ router.get('/audit/entries', async (req: Request, res: Response) => {
       count: entries.length,
     });
   } catch (error) {
-    console.error('[SecurityAPI] Error fetching audit entries:', error);
+    logger.error('[SecurityAPI] Error fetching audit entries:', error);
     res.status(500).json({ error: 'Failed to fetch audit entries' });
   }
 });
@@ -71,7 +72,7 @@ router.get('/audit/verify', async (_req: Request, res: Response) => {
     const proof = await immutableAuditLedger.verifyIntegrity();
     res.json(proof);
   } catch (error) {
-    console.error('[SecurityAPI] Error verifying audit ledger:', error);
+    logger.error('[SecurityAPI] Error verifying audit ledger:', error);
     res.status(500).json({ error: 'Failed to verify audit ledger' });
   }
 });
@@ -97,7 +98,7 @@ router.post('/audit/export', async (req: Request, res: Response) => {
 
     res.json(exportData);
   } catch (error) {
-    console.error('[SecurityAPI] Error exporting audit log:', error);
+    logger.error('[SecurityAPI] Error exporting audit log:', error);
     res.status(500).json({ error: 'Failed to export audit log' });
   }
 });
@@ -111,7 +112,7 @@ router.get('/audit/stats', (_req: Request, res: Response) => {
     const stats = immutableAuditLedger.getStats();
     res.json(stats);
   } catch (error) {
-    console.error('[SecurityAPI] Error fetching audit stats:', error);
+    logger.error('[SecurityAPI] Error fetching audit stats:', error);
     res.status(500).json({ error: 'Failed to fetch audit stats' });
   }
 });
@@ -147,7 +148,7 @@ router.get('/siem/integrations', (req: Request, res: Response) => {
 
     res.json(safeIntegrations);
   } catch (error) {
-    console.error('[SecurityAPI] Error fetching SIEM integrations:', error);
+    logger.error('[SecurityAPI] Error fetching SIEM integrations:', error);
     res.status(500).json({ error: 'Failed to fetch SIEM integrations' });
   }
 });
@@ -171,7 +172,7 @@ router.post('/siem/integrations', async (req: Request, res: Response) => {
       credentials: { ...integration.credentials, token: '***', apiKey: '***', password: '***' },
     });
   } catch (error) {
-    console.error('[SecurityAPI] Error registering SIEM integration:', error);
+    logger.error('[SecurityAPI] Error registering SIEM integration:', error);
     res.status(500).json({ error: 'Failed to register SIEM integration' });
   }
 });
@@ -186,7 +187,7 @@ router.post('/siem/integrations/:id/test', async (req: Request, res: Response) =
     const result = await siemIntegration.testConnection(id);
     res.json(result);
   } catch (error) {
-    console.error('[SecurityAPI] Error testing SIEM connection:', error);
+    logger.error('[SecurityAPI] Error testing SIEM connection:', error);
     res.status(500).json({ error: 'Failed to test SIEM connection' });
   }
 });
@@ -206,7 +207,7 @@ router.delete('/siem/integrations/:id', async (req: Request, res: Response) => {
 
     res.json({ success: true });
   } catch (error) {
-    console.error('[SecurityAPI] Error removing SIEM integration:', error);
+    logger.error('[SecurityAPI] Error removing SIEM integration:', error);
     res.status(500).json({ error: 'Failed to remove SIEM integration' });
   }
 });
@@ -221,7 +222,7 @@ router.get('/siem/stats', (req: Request, res: Response) => {
     const stats = siemIntegration.getDeliveryStats(organizationId as string | undefined);
     res.json(stats);
   } catch (error) {
-    console.error('[SecurityAPI] Error fetching SIEM stats:', error);
+    logger.error('[SecurityAPI] Error fetching SIEM stats:', error);
     res.status(500).json({ error: 'Failed to fetch SIEM stats' });
   }
 });
@@ -239,7 +240,7 @@ router.get('/compliance/frameworks', (_req: Request, res: Response) => {
     const frameworks = complianceExportService.getAvailableFrameworks();
     res.json(frameworks);
   } catch (error) {
-    console.error('[SecurityAPI] Error fetching compliance frameworks:', error);
+    logger.error('[SecurityAPI] Error fetching compliance frameworks:', error);
     res.status(500).json({ error: 'Failed to fetch compliance frameworks' });
   }
 });
@@ -273,7 +274,7 @@ router.post('/compliance/export', async (req: Request, res: Response) => {
 
     res.json(result);
   } catch (error) {
-    console.error('[SecurityAPI] Error generating compliance export:', error);
+    logger.error('[SecurityAPI] Error generating compliance export:', error);
     res.status(500).json({ error: 'Failed to generate compliance export' });
   }
 });
@@ -293,7 +294,7 @@ router.post('/compliance/verify', (req: Request, res: Response) => {
     const result = complianceExportService.verifyExport(exportData);
     res.json(result);
   } catch (error) {
-    console.error('[SecurityAPI] Error verifying compliance export:', error);
+    logger.error('[SecurityAPI] Error verifying compliance export:', error);
     res.status(500).json({ error: 'Failed to verify compliance export' });
   }
 });
@@ -318,7 +319,7 @@ router.get('/sbom', async (req: Request, res: Response) => {
     res.setHeader('Content-Disposition', `attachment; filename="datacendia-sbom.${sbomFormat}.json"`);
     res.send(exported);
   } catch (error) {
-    console.error('[SecurityAPI] Error generating SBOM:', error);
+    logger.error('[SecurityAPI] Error generating SBOM:', error);
     res.status(500).json({ error: 'Failed to generate SBOM' });
   }
 });
@@ -339,7 +340,7 @@ router.get('/sbom/summary', async (req: Request, res: Response) => {
       generatedAt: sbom.metadata.timestamp,
     });
   } catch (error) {
-    console.error('[SecurityAPI] Error generating SBOM summary:', error);
+    logger.error('[SecurityAPI] Error generating SBOM summary:', error);
     res.status(500).json({ error: 'Failed to generate SBOM summary' });
   }
 });
@@ -389,7 +390,7 @@ router.get('/sbom/licenses', async (_req: Request, res: Response) => {
       totalComponents: sbom.components.length,
     });
   } catch (error) {
-    console.error('[SecurityAPI] Error fetching license summary:', error);
+    logger.error('[SecurityAPI] Error fetching license summary:', error);
     res.status(500).json({ error: 'Failed to fetch license summary' });
   }
 });

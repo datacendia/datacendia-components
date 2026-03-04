@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Marketing Studio
  *
@@ -149,7 +150,7 @@ router.post('/video-script', async (req: Request, res: Response) => {
 
     res.json({ success: true, data });
   } catch (error) {
-    console.error('Error generating video script:', error);
+    logger.error('Error generating video script:', error);
     const data: any = videoScriptTemplate(req.body?.topic || 'Datacendia', req.body?.duration || '60', req.body?.targetAudience || 'enterprise-cto');
     data.id = `vs-${Date.now()}`;
     res.json({ success: true, data });
@@ -172,7 +173,7 @@ router.post('/image-prompt', async (req: Request, res: Response) => {
 
     res.json({ success: true, data });
   } catch (error) {
-    console.error('Error generating image prompt:', error);
+    logger.error('Error generating image prompt:', error);
     const data = imagePromptTemplate(req.body?.purpose || 'Hero image', req.body?.platform || 'midjourney', req.body?.style || 'professional-tech');
     data.id = `ip-${Date.now()}`;
     res.json({ success: true, data });
@@ -194,7 +195,7 @@ router.post('/pitch-deck', async (req: Request, res: Response) => {
 
     res.json({ success: true, data });
   } catch (error) {
-    console.error('Error generating pitch deck:', error);
+    logger.error('Error generating pitch deck:', error);
     const data: any = pitchDeckTemplate(req.body?.audience || 'Investors');
     data.id = `pd-${Date.now()}`;
     res.json({ success: true, data });
@@ -217,7 +218,7 @@ router.post('/copy', async (req: Request, res: Response) => {
 
     res.json({ success: true, data });
   } catch (error) {
-    console.error('Error generating marketing copy:', error);
+    logger.error('Error generating marketing copy:', error);
     const data: any = copyTemplate(req.body?.type || 'email', req.body?.topic || 'AI Governance');
     data.id = `mc-${Date.now()}`;
     res.json({ success: true, data });
@@ -238,7 +239,7 @@ router.post('/social-media-calendar', async (req: Request, res: Response) => {
 
     res.json({ success: true, data });
   } catch (error) {
-    console.error('Error generating social media calendar:', error);
+    logger.error('Error generating social media calendar:', error);
     res.json({ success: true, data: calendarTemplate() });
   }
 });

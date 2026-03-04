@@ -1,3 +1,4 @@
+import { logger } from '../utils/logger.js';
 /**
  * API Routes — Gateway
  *
@@ -154,7 +155,7 @@ router.post('/v1/chat/completions', async (req: Request, res: Response) => {
           res.write(value);
         }
       } catch (streamErr) {
-        console.error('[CendiaGateway] Stream pipe error:', streamErr);
+        logger.error('[CendiaGateway] Stream pipe error:', streamErr);
       } finally {
         res.end();
       }
@@ -190,7 +191,7 @@ router.post('/v1/chat/completions', async (req: Request, res: Response) => {
 
     return res.status(500).json({ error: 'No response from provider' });
   } catch (err: unknown) {
-    console.error('[CendiaGateway] Proxy error:', err);
+    logger.error('[CendiaGateway] Proxy error:', err);
     return res.status(500).json({ error: { message: err.message, type: 'gateway_error' } });
   }
 });
