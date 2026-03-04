@@ -108,7 +108,7 @@ export class NIMProvider implements IInferenceProvider {
         latencyMs: Date.now() - start,
         modelsLoaded: data.data?.length || 0,
       };
-    } catch (err: any) {
+    } catch (err: unknown) {
       return { provider: 'nim', available: false, latencyMs: Date.now() - start, error: err.message };
     }
   }

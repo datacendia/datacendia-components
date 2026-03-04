@@ -355,7 +355,7 @@ export class KeyManagementService {
         timestamp,
         provider: 'aws-kms',
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       logger.error(`AWS KMS signing failed: ${error.message}`);
       logger.warn('Falling back to local signing');
       return this.signWithLocalKey(data, 'default', timestamp);
@@ -488,7 +488,7 @@ export class KeyManagementService {
 
       const response = await client.send(command);
       return response.SignatureValid === true;
-    } catch (error: any) {
+    } catch (error: unknown) {
       logger.error(`AWS KMS verify failed: ${error.message}`);
       return false;
     }
@@ -604,7 +604,7 @@ export class KeyManagementService {
         algorithm: 'AES-256-GCM',
         provider: 'aws-kms',
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       logger.error(`AWS KMS encrypt failed: ${error.message}`);
       logger.warn('Falling back to local encryption');
       return this.encryptWithLocalKey(data, 'default');
@@ -747,7 +747,7 @@ export class KeyManagementService {
         keyId: kmsKeyId,
         provider: 'aws-kms',
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       logger.error(`AWS KMS decrypt failed: ${error.message}`);
       logger.warn('Falling back to local decryption');
       return this.decryptWithLocalKey(ciphertext, 'default');

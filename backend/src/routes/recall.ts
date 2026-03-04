@@ -27,7 +27,7 @@ router.get('/recall/health', async (_req: Request, res: Response) => {
   try {
     const health = await cendiaRecallService.getHealth();
     res.json({ success: true, data: health });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -46,7 +46,7 @@ router.post('/recall/trackers', async (req: Request, res: Response) => {
       organizationId, decisionId, title, predictedOutcomes, trackedBy || 'system', options
     );
     res.status(201).json({ success: true, data: tracker });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('CendiaRecall route error:', error);
     res.status(500).json({ success: false, error: error.message });
   }
@@ -60,7 +60,7 @@ router.get('/recall/trackers', async (req: Request, res: Response) => {
     const offset = parseInt(req.query.offset as string) || 0;
     const result = await cendiaRecallService.getOutcomes(organizationId, { status: status as any, limit, offset });
     res.json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -70,7 +70,7 @@ router.get('/recall/trackers/:id', async (req: Request, res: Response) => {
     const outcome = await cendiaRecallService.getOutcome(req.params.id);
     if (!outcome) return res.status(404).json({ success: false, error: 'Tracker not found' });
     res.json({ success: true, data: outcome });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -94,7 +94,7 @@ router.post('/recall/trackers/:id/actual', async (req: Request, res: Response) =
       verified: verified || false,
     });
     res.json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -107,7 +107,7 @@ router.post('/recall/trackers/:id/roi', async (req: Request, res: Response) => {
     }
     const result = await cendiaRecallService.recordActualROI(req.params.id, actualROI);
     res.json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -121,7 +121,7 @@ router.post('/recall/trackers/:id/verify', async (req: Request, res: Response) =
     const { verifiedBy } = req.body;
     const result = await cendiaRecallService.verifyOutcome(req.params.id, verifiedBy || 'system');
     res.json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -131,7 +131,7 @@ router.post('/recall/trackers/:id/close', async (req: Request, res: Response) =>
     const { lessonsLearned } = req.body;
     const result = await cendiaRecallService.closeOutcome(req.params.id, lessonsLearned || []);
     res.json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -146,7 +146,7 @@ router.get('/recall/accuracy', async (req: Request, res: Response) => {
     const period = (req.query.period as string) || 'last-90-days';
     const report = await cendiaRecallService.getPredictionAccuracyReport(organizationId, period);
     res.json({ success: true, data: report });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -159,7 +159,7 @@ router.get('/recall/lessons', async (req: Request, res: Response) => {
     const limit = parseInt(req.query.limit as string) || 20;
     const lessons = await cendiaRecallService.getLessonsLearned(organizationId, { category, impact, limit });
     res.json({ success: true, data: lessons });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -169,7 +169,7 @@ router.post('/recall/lessons/:id/endorse', async (req: Request, res: Response) =
     const { endorsedBy } = req.body;
     const result = await cendiaRecallService.endorseLesson(req.params.id, endorsedBy || 'system');
     res.json({ success: true, data: result });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });
@@ -183,7 +183,7 @@ router.get('/recall/feedback/:decisionType', async (req: Request, res: Response)
     const organizationId = (req.query.organizationId as string) || 'default';
     const feedback = await cendiaRecallService.getFeedbackForDecisionType(organizationId, req.params.decisionType);
     res.json({ success: true, data: feedback });
-  } catch (error: any) {
+  } catch (error: unknown) {
     res.status(500).json({ success: false, error: error.message });
   }
 });

@@ -1010,7 +1010,7 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
         });
 
         processed++;
-      } catch (error: any) {
+      } catch (error: unknown) {
         await prisma.echo_collection_jobs.update({
           where: { id: job.id },
           data: {

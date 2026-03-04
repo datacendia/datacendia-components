@@ -497,7 +497,7 @@ class CendiaGatewayService extends EventEmitter {
           estimatedCostUsd: 0,
         };
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       response = {
         statusCode: 502,
         headers: {},
@@ -829,7 +829,7 @@ class CendiaGatewayService extends EventEmitter {
         totalTokens: usage.promptTokens + usage.responseTokens,
         estimatedCostUsd: cost,
       };
-    } catch (err: any) {
+    } catch (err: unknown) {
       return {
         statusCode: 502,
         headers: {},

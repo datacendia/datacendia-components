@@ -76,7 +76,7 @@ router.post('/billing/create-checkout-session', async (req: Request, res: Respon
       sessionId: session.id,
       url: session.url,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Stripe checkout error:', error);
     res.status(500).json({
       error: 'Failed to create checkout session',
@@ -140,7 +140,7 @@ router.post('/billing/webhook', async (req: Request, res: Response) => {
     }
 
     res.json({ received: true });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Stripe webhook error:', error);
     res.status(400).json({ error: `Webhook Error: ${error.message}` });
   }
@@ -172,7 +172,7 @@ router.post('/billing/portal-session', async (req: Request, res: Response) => {
     });
 
     res.json({ url: session.url });
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Stripe portal error:', error);
     res.status(500).json({ error: 'Failed to create portal session' });
   }

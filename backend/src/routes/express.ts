@@ -81,7 +81,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
 
     const result = await expressIntelligenceService.analyze(request);
     res.json(result);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express analysis failed:', error);
     res.status(500).json({ error: 'Express analysis failed', details: error.message });
   }
@@ -102,7 +102,7 @@ router.get('/compliance/report', async (req: Request, res: Response) => {
 
     const report = await cendiaPanopticonService.getComplianceReport(user.organizationId);
     res.json(report);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express compliance report failed:', error);
     res.status(500).json({ error: 'Compliance report generation failed', details: error.message });
   }
@@ -124,7 +124,7 @@ router.post('/compliance/remediate', async (req: Request, res: Response) => {
       violationIds
     );
     res.json(result);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express remediation failed:', error);
     res.status(500).json({ error: 'Remediation generation failed', details: error.message });
   }
@@ -150,7 +150,7 @@ router.get('/threats/briefing', async (req: Request, res: Response) => {
       threatId
     );
     res.json(briefing);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express threat briefing failed:', error);
     res.status(500).json({ error: 'Threat briefing generation failed', details: error.message });
   }
@@ -167,7 +167,7 @@ router.get('/threats/summary', async (req: Request, res: Response) => {
 
     const summary = await cendiaAegisService.getThreatSummary(user.organizationId);
     res.json(summary);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express threat summary failed:', error);
     res.status(500).json({ error: 'Threat summary failed', details: error.message });
   }
@@ -206,7 +206,7 @@ router.post('/simulation/quick', async (req: Request, res: Response) => {
       description
     );
     res.json(result);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express simulation failed:', error);
     res.status(500).json({ error: 'Quick simulation failed', details: error.message });
   }
@@ -223,7 +223,7 @@ router.get('/simulation/resilience', async (req: Request, res: Response) => {
 
     const score = await cendiaCrucibleService.getResilienceScore(user.organizationId);
     res.json(score);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express resilience score failed:', error);
     res.status(500).json({ error: 'Resilience score failed', details: error.message });
   }
@@ -244,7 +244,7 @@ router.get('/decisions/insights', async (req: Request, res: Response) => {
 
     const insights = await echoExpressService.getExpressDecisionInsights(user.organizationId);
     res.json(insights);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express decision insights failed:', error);
     res.status(500).json({ error: 'Decision insights failed', details: error.message });
   }
@@ -274,7 +274,7 @@ router.post('/forecast', async (req: Request, res: Response) => {
       organizationId: user.organizationId,
     });
     res.json(forecast);
-  } catch (error: any) {
+  } catch (error: unknown) {
     logger.error('Express forecast failed:', error);
     res.status(500).json({ error: 'Forecast generation failed', details: error.message });
   }

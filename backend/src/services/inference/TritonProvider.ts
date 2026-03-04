@@ -133,7 +133,7 @@ export class TritonProvider implements IInferenceProvider {
         modelsLoaded,
         gpuUtilization,
       };
-    } catch (err: any) {
+    } catch (err: unknown) {
       return { provider: 'triton', available: false, latencyMs: Date.now() - start, error: err.message };
     }
   }

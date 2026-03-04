@@ -175,7 +175,7 @@ class SIEMIntegration {
       this.stats.totalEventsSent += batch.length;
       this.stats.totalBatchesSent++;
       this.stats.lastSentAt = new Date();
-    } catch (err: any) {
+    } catch (err: unknown) {
       this.stats.totalErrors++;
       this.stats.lastError = err.message;
       // Re-queue on failure (bounded)
