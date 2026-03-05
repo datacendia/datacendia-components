@@ -20,6 +20,41 @@ import { tenantService } from '../services/admin/TenantService.js';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const updateOrgSchema = z.object({
+  name: z.string().min(1).max(200).optional(),
+  settings: z.record(z.unknown()).optional(),
+  metadata: z.record(z.unknown()).optional(),
+});
+
+const createUserSchema = z.object({
+  email: z.string().email('Invalid email'),
+  name: z.string().min(1, 'Name is required').max(200),
+  role: z.enum(['OWNER', 'SUPER_ADMIN', 'ADMIN', 'ANALYST', 'VIEWER']).default('VIEWER'),
+  department: z.string().optional(),
+  title: z.string().optional(),
+});
+
+const updateUserSchema = z.object({
+  name: z.string().min(1).max(200).optional(),
+  role: z.enum(['OWNER', 'SUPER_ADMIN', 'ADMIN', 'ANALYST', 'VIEWER']).optional(),
+  department: z.string().optional(),
+  title: z.string().optional(),
+  status: z.enum(['ACTIVE', 'INVITED', 'DISABLED']).optional(),
+});
+
+const createTeamSchema = z.object({
+  name: z.string().min(1, 'Team name is required').max(200),
+  description: z.string().max(1000).optional(),
+  leaderId: z.string().optional(),
+  memberIds: z.array(z.string()).optional(),
+  permissions: z.array(z.string()).optional(),
+});
+
+const addTeamMemberSchema = z.object({
+  userId: z.string().min(1, 'User ID is required'),
+});
+
 const router = Router();
 
 // Middleware to get tenant from auth context (simplified for demo)
@@ -57,7 +92,7 @@ router.get('/organization', async (req: Request, res: Response) => {
 router.patch('/organization', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { name, settings, metadata } = z.object({}).passthrough().parse(req.body);
+    const { name, settings, metadata } = updateOrgSchema.parse(req.body);
     const tenant = await tenantService.updateTenant(tenantId, {
       name,
       settings,
@@ -101,7 +136,7 @@ router.get('/users', async (req: Request, res: Response) => {
 router.post('/users', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { email, name, role, department, title } = z.object({}).passthrough().parse(req.body);
+    const { email, name, role, department, title } = createUserSchema.parse(req.body);
     const user = await userManagementService.createUser(tenantId, {
       email,
       name,
@@ -132,7 +167,8 @@ router.get('/users/:id', async (req: Request, res: Response) => {
 
 router.patch('/users/:id', async (req: Request, res: Response) => {
   try {
-    const user = await userManagementService.updateUser(req.params.id, req.body);
+    const updates = updateUserSchema.parse(req.body);
+    const user = await userManagementService.updateUser(req.params.id, updates);
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }
@@ -184,7 +220,7 @@ router.get('/teams', async (req: Request, res: Response) => {
 router.post('/teams', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { name, description, leaderId, memberIds, permissions } = z.object({}).passthrough().parse(req.body);
+    const { name, description, leaderId, memberIds, permissions } = createTeamSchema.parse(req.body);
     const team = await userManagementService.createTeam(tenantId, {
       name,
       description,
@@ -214,7 +250,8 @@ router.get('/teams/:id', async (req: Request, res: Response) => {
 
 router.patch('/teams/:id', async (req: Request, res: Response) => {
   try {
-    const team = await userManagementService.updateTeam(req.params.id, req.body);
+    const updates = updateUserSchema.passthrough().parse(req.body);
+    const team = await userManagementService.updateTeam(req.params.id, updates);
     if (!team) {
       return res.status(404).json({ error: 'Team not found' });
     }
@@ -240,7 +277,7 @@ router.delete('/teams/:id', async (req: Request, res: Response) => {
 
 router.post('/teams/:id/members', async (req: Request, res: Response) => {
   try {
-    const { userId } = z.object({}).passthrough().parse(req.body);
+    const { userId } = addTeamMemberSchema.parse(req.body);
     const team = await userManagementService.addTeamMember(req.params.id, userId);
     if (!team) {
       return res.status(404).json({ error: 'Team not found' });
