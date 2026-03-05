@@ -79,7 +79,7 @@ router.post('/cases/ingest', async (req: Request, res: Response) => {
  */
 router.post('/cases/bulk-ingest', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { cases, sourceSystem, importedBy } = z.object({}).passthrough().parse(req.body);
+    const { cases, sourceSystem, importedBy } = importCasesSchema.parse(req.body);
     
     if (!Array.isArray(cases)) {
       res.status(400).json({ error: 'cases must be an array' });
@@ -153,7 +153,7 @@ router.get('/cases/citation/:citation', (req: Request<{ citation: string }>, res
  */
 router.post('/cases/verify-citation', (req: Request, res: Response) => {
   try {
-    const { citation } = z.object({}).passthrough().parse(req.body);
+    const { citation } = citationSchema.parse(req.body);
     const result = legalVerticalService.verifyCitation(citation);
     res.json(result);
   } catch (error) {
@@ -308,7 +308,7 @@ router.get('/privilege/reviews/:matterId', (req: Request<{ matterId: string }>, 
  */
 router.post('/citations/validate', (req: Request, res: Response): void => {
   try {
-    const { citations } = z.object({}).passthrough().parse(req.body);
+    const { citations } = citationsSchema.parse(req.body);
     
     if (!Array.isArray(citations)) {
       res.status(400).json({ error: 'citations must be an array' });
@@ -328,7 +328,7 @@ router.post('/citations/validate', (req: Request, res: Response): void => {
  */
 router.post('/citations/enforce', (req: Request, res: Response): void => {
   try {
-    const { claims } = z.object({}).passthrough().parse(req.body);
+    const { claims } = claimsSchema.parse(req.body);
     
     if (!Array.isArray(claims)) {
       res.status(400).json({ error: 'claims must be an array' });
@@ -400,7 +400,7 @@ router.get('/presets/recommended/:matterType', (req: Request<{ matterType: strin
  */
 router.post('/import/cap', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { cases, importedBy } = z.object({}).passthrough().parse(req.body);
+    const { cases, importedBy } = importBySchema.parse(req.body);
     
     if (!cases) {
       res.status(400).json({ error: 'cases field is required (CAP JSON array or object)' });
@@ -446,7 +446,7 @@ router.post('/import/cap', async (req: Request, res: Response): Promise<void> =>
  */
 router.post('/import/cap/file', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { fileContent, importedBy } = z.object({}).passthrough().parse(req.body);
+    const { fileContent, importedBy } = fileImportSchema.parse(req.body);
     
     if (!fileContent) {
       res.status(400).json({ error: 'fileContent is required (raw JSON string from CAP bulk download)' });
@@ -490,7 +490,7 @@ router.post('/import/cap/file', async (req: Request, res: Response): Promise<voi
  */
 router.post('/import/courtlistener', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { cases, importedBy } = z.object({}).passthrough().parse(req.body);
+    const { cases, importedBy } = importBySchema.parse(req.body);
     
     if (!Array.isArray(cases)) {
       res.status(400).json({ error: 'cases must be an array of CourtListener case objects' });
@@ -523,7 +523,7 @@ router.post('/import/courtlistener', async (req: Request, res: Response): Promis
  */
 router.post('/import/csv', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { csvContent, importedBy } = z.object({}).passthrough().parse(req.body);
+    const { csvContent, importedBy } = csvImportSchema.parse(req.body);
     
     if (!csvContent) {
       res.status(400).json({ 
@@ -807,7 +807,7 @@ router.get('/agents/expertise/:expertise', (req: Request<{ expertise: string }>,
  */
 router.post('/agents/build-team', (req: Request, res: Response): void => {
   try {
-    const { modeId, includeOptional } = z.object({}).passthrough().parse(req.body);
+    const { modeId, includeOptional } = modeSchema.parse(req.body);
     
     if (!modeId) {
       res.status(400).json({ error: 'modeId is required' });
@@ -966,7 +966,7 @@ router.get('/jury/archetypes', (_req: Request, res: Response): void => {
  */
 router.post('/jury/build', (req: Request, res: Response): void => {
   try {
-    const { caseId, composition, alternates } = z.object({}).passthrough().parse(req.body);
+    const { caseId, composition, alternates } = compositionSchema.parse(req.body);
     
     if (!caseId) {
       res.status(400).json({ error: 'caseId is required' });

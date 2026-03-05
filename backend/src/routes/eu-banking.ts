@@ -31,6 +31,37 @@ import type {
   FundamentalRightAssessment, MitigationMeasure,
 } from '../services/verticals/eu-banking/index.js';
 
+import { z } from 'zod';
+
+const capitalAdequacySchema = z.object({
+  cet1Components: z.record(z.unknown()),
+  at1Components: z.record(z.unknown()),
+  tier2Components: z.record(z.unknown()),
+  creditExposures: z.array(z.record(z.unknown())).optional(),
+  marketPositions: z.array(z.record(z.unknown())).optional(),
+  operationalRiskData: z.record(z.unknown()).optional(),
+});
+const exposuresSchema = z.object({ exposures: z.array(z.record(z.unknown())).min(1) });
+const componentsSchema = z.object({ components: z.record(z.unknown()) });
+const leverageSchema = z.object({
+  exposures: z.array(z.record(z.unknown())),
+  tier1Capital: z.number(),
+  isGSII: z.boolean().optional(),
+});
+const stressTestSchema = z.object({
+  baselineResult: z.record(z.unknown()),
+  scenario: z.record(z.unknown()),
+});
+const aiSystemSchema = z.object({ system: z.record(z.unknown()) });
+const aiSystemsSchema = z.object({ systems: z.array(z.record(z.unknown())).min(1) });
+const rightsAssessmentSchema = z.object({
+  system: z.record(z.unknown()),
+  assessor: z.string().optional(),
+  rightsAssessments: z.array(z.record(z.unknown())).optional(),
+  mitigationMeasures: z.array(z.record(z.unknown())).optional(),
+});
+const documentationSchema = z.object({ documentation: z.record(z.unknown()) });
+
 const router = Router();
 router.use(authenticate);
 
@@ -40,7 +71,7 @@ router.use(authenticate);
 
 router.post('/basel3/capital-adequacy', async (req: Request, res: Response) => {
   try {
-    const { cet1Components, at1Components, tier2Components, creditExposures, marketPositions, operationalRiskData, totalExposureMeasure, buffers } = z.object({}).passthrough().parse(req.body);
+    const { cet1Components, at1Components, tier2Components, creditExposures, marketPositions, operationalRiskData, totalExposureMeasure, buffers } = capitalAdequacySchema.passthrough().parse(req.body);
     if (!cet1Components || !at1Components || !tier2Components) {
       return res.status(400).json({ error: 'Capital components (cet1, at1, tier2) required' });
     }
@@ -64,7 +95,7 @@ router.post('/basel3/capital-adequacy', async (req: Request, res: Response) => {
 
 router.post('/basel3/credit-rwa', async (req: Request, res: Response) => {
   try {
-    const { exposures } = z.object({}).passthrough().parse(req.body);
+    const { exposures } = exposuresSchema.parse(req.body);
     if (!Array.isArray(exposures)) return res.status(400).json({ error: 'exposures array required' });
     const rwa = basel3Engine.calculateCreditRWA(exposures as CreditRiskExposure[]);
     res.json({ rwa, exposureCount: exposures.length, timestamp: new Date() });
@@ -102,7 +133,7 @@ router.post('/basel3/nsfr', async (req: Request, res: Response) => {
 
 router.post('/basel3/large-exposures', async (req: Request, res: Response) => {
   try {
-    const { exposures, tier1Capital, isGSII } = z.object({}).passthrough().parse(req.body);
+    const { exposures, tier1Capital, isGSII } = leverageSchema.parse(req.body);
     if (!Array.isArray(exposures) || typeof tier1Capital !== 'number') {
       return res.status(400).json({ error: 'exposures array and tier1Capital required' });
     }
@@ -116,7 +147,7 @@ router.post('/basel3/large-exposures', async (req: Request, res: Response) => {
 
 router.post('/basel3/stress-test', async (req: Request, res: Response) => {
   try {
-    const { baselineResult, scenario } = z.object({}).passthrough().parse(req.body);
+    const { baselineResult, scenario } = stressTestSchema.parse(req.body);
     if (!baselineResult || !scenario) return res.status(400).json({ error: 'baselineResult and scenario required' });
     const result = basel3Engine.runStressTest(baselineResult, scenario);
     logger.info('[EU-Banking] Stress test completed', { scenario: scenario.name, stressedCET1: (result.cet1Ratio * 100).toFixed(2) + '%' });
@@ -133,7 +164,7 @@ router.post('/basel3/stress-test', async (req: Request, res: Response) => {
 
 router.post('/ai-act/classify', async (req: Request, res: Response) => {
   try {
-    const { system } = z.object({}).passthrough().parse(req.body);
+    const { system } = aiSystemSchema.parse(req.body);
     if (!system || !system.id || !system.domain) return res.status(400).json({ error: 'AI system descriptor with id and domain required' });
     const result = euAIActEngine.classifySystem(system as AISystemDescriptor);
     logger.info('[EU-Banking] AI system classified', { systemId: result.systemId, riskLevel: result.riskLevel });
@@ -146,7 +177,7 @@ router.post('/ai-act/classify', async (req: Request, res: Response) => {
 
 router.post('/ai-act/classify-batch', async (req: Request, res: Response) => {
   try {
-    const { systems } = z.object({}).passthrough().parse(req.body);
+    const { systems } = aiSystemsSchema.parse(req.body);
     if (!Array.isArray(systems)) return res.status(400).json({ error: 'systems array required' });
     const summary = euAIActEngine.generateComplianceSummary(systems as AISystemDescriptor[]);
     logger.info('[EU-Banking] AI inventory classified', { total: summary.totalSystems, highRisk: summary.byRiskLevel.high });
@@ -159,7 +190,7 @@ router.post('/ai-act/classify-batch', async (req: Request, res: Response) => {
 
 router.post('/ai-act/fria', async (req: Request, res: Response) => {
   try {
-    const { system, assessor, rightsAssessments, mitigationMeasures } = z.object({}).passthrough().parse(req.body);
+    const { system, assessor, rightsAssessments, mitigationMeasures } = rightsAssessmentSchema.parse(req.body);
     if (!system || !assessor) return res.status(400).json({ error: 'system and assessor required' });
     const result = euAIActEngine.conductFRIA(
       system as AISystemDescriptor, assessor,
@@ -176,7 +207,7 @@ router.post('/ai-act/fria', async (req: Request, res: Response) => {
 
 router.post('/ai-act/fria-template', async (req: Request, res: Response) => {
   try {
-    const { system } = z.object({}).passthrough().parse(req.body);
+    const { system } = aiSystemSchema.parse(req.body);
     if (!system || !system.domain) return res.status(400).json({ error: 'AI system descriptor with domain required' });
     const template = euAIActEngine.generateFRIATemplate(system as AISystemDescriptor);
     res.json({ template });
@@ -188,7 +219,7 @@ router.post('/ai-act/fria-template', async (req: Request, res: Response) => {
 
 router.post('/ai-act/documentation-assessment', async (req: Request, res: Response) => {
   try {
-    const { documentation } = z.object({}).passthrough().parse(req.body);
+    const { documentation } = documentationSchema.parse(req.body);
     if (!documentation) return res.status(400).json({ error: 'documentation object required' });
     const result = euAIActEngine.assessDocumentation(documentation);
     res.json({ result });

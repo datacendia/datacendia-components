@@ -22,6 +22,22 @@ import { deliberationVisualizationService } from '../services/visualization/Deli
 import { decisionReplayTheaterService } from '../services/visualization/DecisionReplayTheaterService.js';
 
 import { z } from 'zod';
+
+const debateStartSchema = z.object({
+  deliberationId: z.string().min(1),
+  topic: z.string().min(1),
+  agents: z.array(z.string()).optional(),
+  maxRounds: z.number().int().positive().optional(),
+});
+const agentStatusSchema = z.object({ agentId: z.string().min(1), status: z.string().min(1), statement: z.string().optional() });
+const agentConfidenceSchema = z.object({ agentId: z.string().min(1), confidence: z.number().min(0).max(1) });
+const agentCitationSchema = z.object({ agentId: z.string().min(1), citation: z.record(z.unknown()) });
+const agentObjectionSchema = z.object({ agentId: z.string().min(1), reason: z.string().min(1), severity: z.string().optional() });
+const decisionSchema = z.object({ decision: z.record(z.unknown()) });
+const deliberationIdSchema = z.object({ deliberationId: z.string().min(1) });
+const speedSchema = z.object({ speed: z.number().positive() });
+const frameSchema = z.object({ frameIndex: z.number().int().min(0), timeMs: z.number().min(0), session: z.record(z.unknown()).optional() });
+const sessionOptionsSchema = z.object({ session: z.record(z.unknown()).optional(), options: z.record(z.unknown()).optional() });
 const router = Router();
 
 // =============================================================================
@@ -33,7 +49,7 @@ const router = Router();
  * Initialize visualization for a new deliberation
  */
 router.post('/deliberation/init', (req: Request, res: Response) => {
-  const { deliberationId, topic, agents, maxRounds } = z.object({}).passthrough().parse(req.body);
+  const { deliberationId, topic, agents, maxRounds } = debateStartSchema.parse(req.body);
   
   if (!deliberationId || !topic || !agents) {
     return res.status(400).json({ error: 'deliberationId, topic, and agents are required' });
@@ -68,7 +84,7 @@ router.get('/deliberation/:id', (req: Request, res: Response) => {
  * Update agent status
  */
 router.post('/deliberation/:id/agent-status', (req: Request, res: Response) => {
-  const { agentId, status, statement } = z.object({}).passthrough().parse(req.body);
+  const { agentId, status, statement } = agentStatusSchema.parse(req.body);
   
   deliberationVisualizationService.updateAgentStatus(
     req.params.id,
@@ -85,7 +101,7 @@ router.post('/deliberation/:id/agent-status', (req: Request, res: Response) => {
  * Update agent confidence
  */
 router.post('/deliberation/:id/confidence', (req: Request, res: Response) => {
-  const { agentId, confidence } = z.object({}).passthrough().parse(req.body);
+  const { agentId, confidence } = agentConfidenceSchema.parse(req.body);
   
   deliberationVisualizationService.updateConfidence(req.params.id, agentId, confidence);
   
@@ -97,7 +113,7 @@ router.post('/deliberation/:id/confidence', (req: Request, res: Response) => {
  * Add a citation
  */
 router.post('/deliberation/:id/citation', (req: Request, res: Response) => {
-  const { agentId, citation } = z.object({}).passthrough().parse(req.body);
+  const { agentId, citation } = agentCitationSchema.parse(req.body);
   
   deliberationVisualizationService.addCitation(req.params.id, agentId, citation);
   
@@ -109,7 +125,7 @@ router.post('/deliberation/:id/citation', (req: Request, res: Response) => {
  * Register a dissent
  */
 router.post('/deliberation/:id/dissent', (req: Request, res: Response) => {
-  const { agentId, reason, severity } = z.object({}).passthrough().parse(req.body);
+  const { agentId, reason, severity } = agentObjectionSchema.parse(req.body);
   
   deliberationVisualizationService.registerDissent(req.params.id, agentId, reason, severity);
   
@@ -131,7 +147,7 @@ router.post('/deliberation/:id/advance-round', (req: Request, res: Response) => 
  * Conclude deliberation
  */
 router.post('/deliberation/:id/conclude', (req: Request, res: Response) => {
-  const { decision } = z.object({}).passthrough().parse(req.body);
+  const { decision } = decisionSchema.parse(req.body);
   
   if (decision) {
     deliberationVisualizationService.concludeWithConsensus(req.params.id, decision);
@@ -172,7 +188,7 @@ router.get('/active', (_req: Request, res: Response) => {
  */
 router.post('/replay/create', async (req: Request, res: Response) => {
   try {
-    const { deliberationId } = z.object({}).passthrough().parse(req.body);
+    const { deliberationId } = deliberationIdSchema.parse(req.body);
     
     if (!deliberationId) {
       return res.status(400).json({ error: 'deliberationId is required' });
@@ -191,7 +207,7 @@ router.post('/replay/create', async (req: Request, res: Response) => {
  * Start playback
  */
 router.post('/replay/:sessionId/play', (req: Request, res: Response) => {
-  const { speed } = z.object({}).passthrough().parse(req.body);
+  const { speed } = speedSchema.parse(req.body);
   
   const state = decisionReplayTheaterService.startPlayback(req.params.sessionId, speed);
   
@@ -213,7 +229,7 @@ router.post('/replay/:sessionId/pause', (req: Request, res: Response) => {
  * Seek to frame or time
  */
 router.post('/replay/:sessionId/seek', (req: Request, res: Response) => {
-  const { frameIndex, timeMs, session } = z.object({}).passthrough().parse(req.body);
+  const { frameIndex, timeMs, session } = frameSchema.parse(req.body);
   
   let state;
   if (frameIndex !== undefined) {
@@ -230,7 +246,7 @@ router.post('/replay/:sessionId/seek', (req: Request, res: Response) => {
  * Set playback speed
  */
 router.post('/replay/:sessionId/speed', (req: Request, res: Response) => {
-  const { speed } = z.object({}).passthrough().parse(req.body);
+  const { speed } = speedSchema.parse(req.body);
   
   const state = decisionReplayTheaterService.setPlaybackSpeed(req.params.sessionId, speed);
   
@@ -256,7 +272,7 @@ router.get('/replay/:sessionId/state', (req: Request, res: Response) => {
  * Export replay session
  */
 router.post('/replay/:sessionId/export', (req: Request, res: Response) => {
-  const { session, options } = z.object({}).passthrough().parse(req.body);
+  const { session, options } = sessionOptionsSchema.parse(req.body);
   
   if (!session) {
     return res.status(400).json({ error: 'session data is required' });
