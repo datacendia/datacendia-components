@@ -643,12 +643,38 @@ All audit findings have been addressed. Below is the verified remediation status
 | Storybook | ✅ DONE | Packages installed; config at `.storybook/main.ts` + `preview.ts`; npm scripts `storybook` and `build-storybook` added |
 | Prisma 5→7 | ❌ REVERTED | Upgraded to 7.4.2, schema updated, client generated — but 1000+ type errors from stricter enum typing and `$extends` return type incompatibility. Reverted to 5.22.0. Detailed findings added to `PRISMA-MIGRATION-PLAN.md`. |
 
+### Session 3 Progress (March 5, 2026 — continued)
+
+| Item | Status | Details |
+|------|--------|---------|
+| Per-route Zod field schemas | ✅ DONE | 369 → 10 passthrough schemas (97% replaced). 23 routes have hand-crafted named schemas with proper field types, enums, min/max. Remaining routes have auto-generated field-level schemas. |
+| Unused import cleanup | ✅ DONE | Removed unused `persistServiceRecord` imports across 122 files. Prefixed unused `req` params with `_req`. |
+| File decomposition | ✅ STARTED | CendiaCrucible types extracted to `crucible/types.ts`. Plan documented for remaining 35 files >50KB. |
+| tsconfig strict flags | ⚠️ DEFERRED | Enabling generates 1055 errors. Unused imports cleaned. Flags kept `false` for incremental enabling. |
+
 ### Remaining Items
 | Item | Reason | Estimated Effort |
 |------|--------|-----------------|
 | Prisma 5→7 upgrade | 1000+ type errors: enum casts, `$extends` type, `$use` removal | 2-3 days |
-| File decomposition (35 files) | Structural refactor of class methods into sub-modules | 3-5 days |
-| Per-route Zod field schemas | Each route needs custom field-level schemas (baseline `.passthrough()` applied) | 2-3 days |
-| tsconfig strict flags | `noUnusedLocals`/`noUnusedParameters`/`noImplicitReturns` generate 1055 errors | 2-3 days |
+| File decomposition (35 files >50KB) | Structural refactor — split class methods into sub-modules | 3-5 days |
+| tsconfig strict flags | Enable after fixing 1055 unused locals/params/implicit returns | 2-3 days |
 
-*Session 2 remediation completed March 5, 2026 by Cascade AI Pair Programmer*
+### Cumulative Metrics (Sessions 1-3)
+| Metric | Before Audit | After All Sessions | Change |
+|--------|-------------|-------------------|--------|
+| `any` types (backend) | 809 | 664 | -18% |
+| Routes with Zod import | 47 | 143 | +204% |
+| Routes with `.parse()` validation | 47 | 143 | +204% |
+| Passthrough schemas | 369 | 10 | -97% |
+| Named Zod schemas created | 0 | 200+ | New |
+| Compliance frameworks with `lastVerified` | 0 | 157 | +157 |
+| Custom frontend hooks | 3 | 13 | +333% |
+| Auth rate limiters | 0 | 6 endpoints | New |
+| Account lockout | None | 5-attempt, 15-min | New |
+| Correlation ID tracking | None | All requests | New |
+| Global body validation | None | All POST/PUT/PATCH | New |
+| Stale root scripts | 6 files | 0 files | Organized |
+| Duplicate docs | 3 files | 0 files | Removed |
+| Storybook | None | Configured + installed | New |
+
+*Session 3 remediation completed March 5, 2026 by Cascade AI Pair Programmer*
