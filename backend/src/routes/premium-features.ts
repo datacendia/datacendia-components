@@ -34,6 +34,81 @@ import {
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const preMortemSchema = z.object({
+  organizationId: z.string().optional(),
+  userId: z.string().optional(),
+  decision: z.string().min(1, 'Decision is required'),
+  context: z.string().optional(),
+  timeframe: z.string().optional(),
+  budget: z.number().optional(),
+  stakeholders: z.array(z.string()).optional(),
+  selectedAgents: z.array(z.string()).optional(),
+  tier: z.string().default('enterprise'),
+});
+
+const ghostBoardSchema = z.object({
+  organizationId: z.string().optional(),
+  userId: z.string().optional(),
+  proposalTitle: z.string().min(1, 'Proposal title is required'),
+  proposalContent: z.string().min(1, 'Proposal content is required'),
+  boardType: z.string().optional(),
+  difficulty: z.string().optional(),
+  focusAreas: z.array(z.string()).optional(),
+  existingAnswers: z.record(z.unknown()).optional(),
+  tier: z.string().default('enterprise'),
+});
+
+const debtCreateSchema = z.object({
+  organizationId: z.string().default('demo'),
+  data: z.record(z.unknown()).optional(),
+});
+
+const debtResolveSchema = z.object({
+  organizationId: z.string().default('demo'),
+  resolution: z.string().min(1),
+});
+
+const demoConnectSchema = z.object({
+  userId: z.string().min(1),
+  connector: z.string().min(1),
+  tier: z.string().default('enterprise'),
+});
+
+const demoAuthSchema = z.object({
+  sessionId: z.string().min(1),
+  authCode: z.string().min(1),
+});
+
+const regulatoryQuerySchema = z.object({
+  organizationId: z.string().min(1),
+  userId: z.string().min(1),
+  connector: z.string().min(1),
+  question: z.string().min(1),
+  tier: z.string().default('enterprise'),
+});
+
+const regulatoryAbsorbSchema = z.object({
+  organizationId: z.string().min(1),
+  userId: z.string().min(1),
+  document: z.string().min(1),
+  customMapping: z.record(z.unknown()).optional(),
+  tier: z.string().default('enterprise'),
+});
+
+const regulatoryUploadSchema = z.object({
+  organizationId: z.string().min(1),
+  userId: z.string().min(1),
+  document: z.string().min(1),
+  metadata: z.record(z.unknown()).optional(),
+  parentVersionId: z.string().optional(),
+  tier: z.string().default('enterprise'),
+});
+
+const userIdSchema = z.object({ userId: z.string().min(1) });
+const userReasonSchema = z.object({ userId: z.string().min(1), reason: z.string().min(1) });
+const userCommentsSchema = z.object({ userId: z.string().min(1), comments: z.string().optional() });
+
 const router = Router();
 
 // =============================================================================
@@ -139,9 +214,9 @@ router.post('/pre-mortem/analyze', async (req: Request, res: Response) => {
       stakeholders,
       selectedAgents,
       tier = 'enterprise',
-    } = z.object({}).passthrough().parse(req.body);
+    } = preMortemSchema.parse(req.body);
 
-    if (!decision) {
+    // decision is guaranteed by schema {
       return res.status(400).json({ 
         error: 'Decision is required',
         code: 'MISSING_DECISION',
@@ -208,7 +283,7 @@ router.post('/ghost-board/session', async (req: Request, res: Response) => {
       focusAreas,
       existingAnswers,
       tier = 'enterprise',
-    } = z.object({}).passthrough().parse(req.body);
+    } = ghostBoardSchema.parse(req.body);
 
     if (!proposalTitle || !proposalContent) {
       return res.status(400).json({
@@ -305,7 +380,7 @@ router.get('/decision-debt/dashboard', async (req: Request, res: Response) => {
  */
 router.post('/decision-debt/decision', async (req: Request, res: Response) => {
   try {
-    const { organizationId = 'demo', ...data } = z.object({}).passthrough().parse(req.body);
+    const { organizationId = 'demo', ...data } = debtCreateSchema.passthrough().parse(req.body);
     const decision = await decisionDebtService.createDecision(organizationId, data);
     
     res.json({
@@ -327,7 +402,7 @@ router.post('/decision-debt/decision', async (req: Request, res: Response) => {
 router.delete('/decision-debt/decision/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { organizationId = 'demo', resolution } = z.object({}).passthrough().parse(req.body);
+    const { organizationId = 'demo', resolution } = debtResolveSchema.parse(req.body);
     
     await decisionDebtService.resolveDecision(organizationId, id, resolution);
     
@@ -362,7 +437,7 @@ router.get('/live-demo/connectors', (_req: Request, res: Response) => {
  */
 router.post('/live-demo/session', async (req: Request, res: Response) => {
   try {
-    const { userId, connector, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
+    const { userId, connector, tier = 'enterprise' } = demoConnectSchema.parse(req.body);
 
     if (!connector) {
       return res.status(400).json({
@@ -400,7 +475,7 @@ router.post('/live-demo/session', async (req: Request, res: Response) => {
  */
 router.post('/live-demo/connect', async (req: Request, res: Response) => {
   try {
-    const { sessionId, authCode } = z.object({}).passthrough().parse(req.body);
+    const { sessionId, authCode } = demoAuthSchema.parse(req.body);
 
     if (!sessionId || !authCode) {
       return res.status(400).json({
@@ -444,7 +519,7 @@ router.get('/live-demo/session/:id', async (req: Request, res: Response) => {
  */
 router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
   try {
-    const { organizationId, userId, connector, question, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, userId, connector, question, tier = 'enterprise' } = regulatoryQuerySchema.parse(req.body);
 
     if (!connector || !question) {
       return res.status(400).json({
@@ -482,7 +557,7 @@ router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
  */
 router.post('/regulatory/absorb', async (req: Request, res: Response) => {
   try {
-    const { organizationId, userId, document, customMapping, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, userId, document, customMapping, tier = 'enterprise' } = regulatoryAbsorbSchema.parse(req.body);
 
     if (!document || !document.content) {
       return res.status(400).json({
@@ -571,7 +646,7 @@ router.get('/regulatory/query', (req: Request, res: Response) => {
  */
 router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
   try {
-    const { organizationId, userId, document, metadata, parentVersionId, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, userId, document, metadata, parentVersionId, tier = 'enterprise' } = regulatoryUploadSchema.parse(req.body);
 
     if (!document || !document.content) {
       return res.status(400).json({
@@ -703,7 +778,7 @@ router.get('/regulatory/v2/documents/:id/audit', async (req: Request, res: Respo
  */
 router.post('/regulatory/v2/documents/:id/approve', async (req: Request, res: Response) => {
   try {
-    const { userId } = z.object({}).passthrough().parse(req.body);
+    const { userId } = userIdSchema.parse(req.body);
 
     if (!userId) {
       return res.status(400).json({
@@ -733,7 +808,7 @@ router.post('/regulatory/v2/documents/:id/approve', async (req: Request, res: Re
  */
 router.post('/regulatory/v2/documents/:id/reject', async (req: Request, res: Response) => {
   try {
-    const { userId, reason } = z.object({}).passthrough().parse(req.body);
+    const { userId, reason } = userReasonSchema.parse(req.body);
 
     if (!userId || !reason) {
       return res.status(400).json({
@@ -763,7 +838,7 @@ router.post('/regulatory/v2/documents/:id/reject', async (req: Request, res: Res
  */
 router.post('/regulatory/v2/documents/:id/request-changes', async (req: Request, res: Response) => {
   try {
-    const { userId, comments } = z.object({}).passthrough().parse(req.body);
+    const { userId, comments } = userCommentsSchema.parse(req.body);
 
     if (!userId || !comments) {
       return res.status(400).json({
