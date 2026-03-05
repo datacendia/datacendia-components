@@ -21,6 +21,30 @@ import ollama from '../services/ollama.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  email: z.unknown(),
+  department: z.unknown(),
+  role: z.unknown(),
+  level: z.unknown(),
+  startDate: z.unknown(),
+  salary: z.unknown(),
+  avgHoursPerWeek: z.unknown(),
+  ptoDaysRemaining: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  type: z.unknown(),
+  severity: z.unknown(),
+  description: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  type: z.unknown(),
+  title: z.unknown(),
+  description: z.unknown(),
+  priority: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 
 // =============================================================================
@@ -171,7 +195,7 @@ router.get('/employees/at-risk', authenticate, async (_req: Request, res: Respon
 // Add employee
 router.post('/employees', authenticate, async (req: Request, res: Response) => {
   try {
-    const { name, email, department, role, level, startDate, salary, avgHoursPerWeek, ptoDaysRemaining } = z.object({}).passthrough().parse(req.body);
+    const { name, email, department, role, level, startDate, salary, avgHoursPerWeek, ptoDaysRemaining } = bodySchema0.parse(req.body);
 
     if (!name || !email || !department || !role) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -277,7 +301,7 @@ Respond with JSON: { "recommendations": ["rec1", "rec2", "rec3"] }`;
 // Report rights violation
 router.post('/employees/:id/violations', authenticate, async (req: Request, res: Response) => {
   try {
-    const { type, severity, description } = z.object({}).passthrough().parse(req.body);
+    const { type, severity, description } = bodySchema1.parse(req.body);
     const employee = employees.get(req.params.id);
     
     if (!employee) {
@@ -306,7 +330,7 @@ router.post('/employees/:id/violations', authenticate, async (req: Request, res:
 // Create request (raise, promotion, etc.)
 router.post('/employees/:id/requests', authenticate, async (req: Request, res: Response) => {
   try {
-    const { type, title, description, priority } = z.object({}).passthrough().parse(req.body);
+    const { type, title, description, priority } = bodySchema2.parse(req.body);
     const employee = employees.get(req.params.id);
     
     if (!employee) {

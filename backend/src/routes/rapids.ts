@@ -21,6 +21,33 @@ import { rapids } from '../services/gpu/RAPIDSService.js';
 import { confidentialCompute } from '../services/gpu/ConfidentialComputeService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  dataset: z.unknown(),
+  protectedAttributes: z.unknown(),
+  outcomeColumn: z.unknown(),
+  positiveOutcomeValue: z.unknown(),
+  fairnessThreshold: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  nodes: z.unknown(),
+  edges: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  groupA: z.unknown(),
+  groupB: z.unknown(),
+  testType: z.unknown(),
+  significance: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  timeSeries: z.unknown(),
+  sensitivity: z.unknown(),
+  method: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  gpuId: z.unknown(),
+}).passthrough();
+
 const router = Router();
 router.use(devAuth);
 
@@ -45,7 +72,7 @@ router.get('/stats', (_req: Request, res: Response) => {
  */
 router.post('/bias/analyze', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { dataset, protectedAttributes, outcomeColumn, positiveOutcomeValue, fairnessThreshold } = z.object({}).passthrough().parse(req.body);
+    const { dataset, protectedAttributes, outcomeColumn, positiveOutcomeValue, fairnessThreshold } = bodySchema0.parse(req.body);
 
     if (!dataset || !protectedAttributes || !outcomeColumn) {
       res.status(400).json({
@@ -77,7 +104,7 @@ router.post('/bias/analyze', async (req: Request, res: Response, next: NextFunct
  */
 router.post('/graph/analyze', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { nodes, edges } = z.object({}).passthrough().parse(req.body);
+    const { nodes, edges } = bodySchema1.parse(req.body);
 
     if (!nodes || !edges) {
       res.status(400).json({ success: false, error: 'Missing required fields: nodes, edges' });
@@ -105,7 +132,7 @@ router.post('/graph/analyze', async (req: Request, res: Response, next: NextFunc
  */
 router.post('/stats/test', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { groupA, groupB, testType, significance } = z.object({}).passthrough().parse(req.body);
+    const { groupA, groupB, testType, significance } = bodySchema2.parse(req.body);
 
     if (!groupA || !groupB || !testType) {
       res.status(400).json({ success: false, error: 'Missing required fields: groupA, groupB, testType' });
@@ -126,7 +153,7 @@ router.post('/stats/test', async (req: Request, res: Response, next: NextFunctio
  */
 router.post('/anomaly/detect', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { timeSeries, sensitivity, method } = z.object({}).passthrough().parse(req.body);
+    const { timeSeries, sensitivity, method } = bodySchema3.parse(req.body);
 
     if (!timeSeries || !Array.isArray(timeSeries)) {
       res.status(400).json({ success: false, error: 'Missing required field: timeSeries (array)' });
@@ -166,7 +193,7 @@ router.put('/cc/policy', (req: Request, res: Response) => {
 
 router.post('/cc/attest', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { gpuId } = z.object({}).passthrough().parse(req.body);
+    const { gpuId } = bodySchema4.parse(req.body);
     const result = await confidentialCompute.verifyGPUAttestation(gpuId);
     res.json({ success: true, data: result });
   } catch (error) { next(error); }

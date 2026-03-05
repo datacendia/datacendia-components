@@ -20,6 +20,17 @@ import { Router, Request, Response } from 'express';
 import { defenseVerticalService } from '../services/verticals/defense/index.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  missionType: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  modeId: z.unknown(),
+  query: z.unknown(),
+  context: z.unknown(),
+  classificationLevel: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -115,7 +126,7 @@ router.get('/agents/category/:category', (req: Request, res: Response) => {
  * Build a mission-specific agent team
  */
 router.post('/agents/build-team', (req: Request, res: Response) => {
-  const { missionType } = z.object({}).passthrough().parse(req.body);
+  const { missionType } = bodySchema0.parse(req.body);
   
   if (!missionType || !['kinetic', 'cyber', 'acquisition', 'planning', 'intelligence'].includes(missionType)) {
     return res.status(400).json({ 
@@ -358,7 +369,7 @@ router.get('/connectors/classification/:level', (req: Request, res: Response) =>
  * Start a defense vertical deliberation
  */
 router.post('/deliberate', async (req: Request, res: Response) => {
-  const { modeId, query, context, classificationLevel } = z.object({}).passthrough().parse(req.body);
+  const { modeId, query, context, classificationLevel } = bodySchema1.parse(req.body);
   
   if (!modeId || !query) {
     return res.status(400).json({ error: 'modeId and query are required' });

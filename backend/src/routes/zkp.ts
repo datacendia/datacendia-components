@@ -1,5 +1,24 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  type: z.unknown(),
+  claim: z.unknown(),
+  decisionId: z.unknown(),
+  deliberationId: z.unknown(),
+  workflowId: z.unknown(),
+  organizationId: z.unknown(),
+  framework: z.unknown(),
+  privateWitness: z.unknown(),
+  requestedBy: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  verifiedBy: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  reason: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Zkp
  *
@@ -21,6 +40,25 @@ import { Router, Request, Response } from 'express';
 import { zeroKnowledgeProofService, ProofType } from '../services/security/ZeroKnowledgeProofService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  type: z.unknown(),
+  claim: z.unknown(),
+  decisionId: z.unknown(),
+  deliberationId: z.unknown(),
+  workflowId: z.unknown(),
+  organizationId: z.unknown(),
+  framework: z.unknown(),
+  privateWitness: z.unknown(),
+  requestedBy: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  verifiedBy: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  reason: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -53,7 +91,7 @@ router.get('/proof-types', (_req: Request, res: Response) => {
  */
 router.post('/request', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { type, claim, decisionId, deliberationId, workflowId, organizationId, framework, privateWitness, requestedBy } = z.object({}).passthrough().parse(req.body);
+    const { type, claim, decisionId, deliberationId, workflowId, organizationId, framework, privateWitness, requestedBy } = bodySchema0.parse(req.body);
 
     if (!type || !claim || !organizationId || !privateWitness || !requestedBy) {
       res.status(400).json({
@@ -102,7 +140,7 @@ router.post('/generate/:requestId', async (req: Request, res: Response): Promise
 router.post('/verify/:proofId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { proofId } = req.params;
-    const { verifiedBy } = z.object({}).passthrough().parse(req.body);
+    const { verifiedBy } = bodySchema1.parse(req.body);
 
     if (!verifiedBy) {
       res.status(400).json({ success: false, error: 'verifiedBy is required' });
@@ -153,7 +191,7 @@ router.get('/proofs/organization/:orgId', (req: Request, res: Response): void =>
 router.post('/revoke/:proofId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { proofId } = req.params;
-    const { reason } = z.object({}).passthrough().parse(req.body);
+    const { reason } = bodySchema2.parse(req.body);
 
     if (!reason) {
       res.status(400).json({ success: false, error: 'reason is required' });

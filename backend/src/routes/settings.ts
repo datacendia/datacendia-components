@@ -21,6 +21,18 @@ import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
 
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  description: z.unknown(),
+  permissions: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  name: z.unknown(),
+  permissions: z.unknown(),
+  expiresAt: z.unknown(),
+}).passthrough();
+
+
 const updateOrgSchema = z.object({
   name: z.string().min(1).max(200).optional(),
   settings: z.record(z.unknown()).optional(),
@@ -320,7 +332,7 @@ router.get('/roles', async (req: Request, res: Response) => {
 router.post('/roles', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { name, description, permissions } = z.object({}).passthrough().parse(req.body);
+    const { name, description, permissions } = bodySchema0.parse(req.body);
     const role = await userManagementService.createRole(tenantId, {
       name,
       description,
@@ -365,7 +377,7 @@ router.post('/api-keys', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
     const userId = 'current_user'; // Would get from auth
-    const { name, permissions, expiresAt } = z.object({}).passthrough().parse(req.body);
+    const { name, permissions, expiresAt } = bodySchema1.parse(req.body);
     
     const result = await userManagementService.createApiKey(tenantId, userId, {
       name,

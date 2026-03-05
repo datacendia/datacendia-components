@@ -1,5 +1,16 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  type: z.unknown(),
+  priority: z.unknown(),
+  estimatedDurationMinutes: z.unknown(),
+  estimatedEnergyWh: z.unknown(),
+  preferredRegions: z.unknown(),
+  maxDeferralHours: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Carbon Aware
  *
@@ -21,6 +32,17 @@ import { Router, Request, Response } from 'express';
 import { carbonAwareSchedulerService, WorkloadPriority, WorkloadStatus } from '../services/scheduling/CarbonAwareSchedulerService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  type: z.unknown(),
+  priority: z.unknown(),
+  estimatedDurationMinutes: z.unknown(),
+  estimatedEnergyWh: z.unknown(),
+  preferredRegions: z.unknown(),
+  maxDeferralHours: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -67,7 +89,7 @@ router.get('/intensity', async (_req: Request, res: Response): Promise<void> => 
  */
 router.post('/workloads', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, type, priority, estimatedDurationMinutes, estimatedEnergyWh, preferredRegions, maxDeferralHours } = z.object({}).passthrough().parse(req.body);
+    const { name, type, priority, estimatedDurationMinutes, estimatedEnergyWh, preferredRegions, maxDeferralHours } = bodySchema0.parse(req.body);
 
     if (!name || !type || !estimatedDurationMinutes || !estimatedEnergyWh) {
       res.status(400).json({

@@ -18,6 +18,26 @@ import { devAuth } from '../middleware/auth.js';
 import { hsmAdapter } from '../services/security/HSMAdapter.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  algorithm: z.unknown(),
+  label: z.unknown(),
+  extractable: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  keyId: z.unknown(),
+  data: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  keyId: z.unknown(),
+  data: z.unknown(),
+  signature: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  keyToWrapId: z.unknown(),
+  wrappingKeyId: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Health (no auth)
@@ -50,7 +70,7 @@ router.post('/initialize', async (_req: Request, res: Response) => {
 
 router.post('/keys', async (req: Request, res: Response) => {
   try {
-    const { algorithm, label, extractable } = z.object({}).passthrough().parse(req.body);
+    const { algorithm, label, extractable } = bodySchema0.parse(req.body);
     if (!algorithm || !label) {
       return res.status(400).json({ success: false, error: 'Missing "algorithm" and "label"' });
     }
@@ -81,7 +101,7 @@ router.get('/keys/:keyId', (req: Request, res: Response) => {
 
 router.post('/sign', async (req: Request, res: Response) => {
   try {
-    const { keyId, data } = z.object({}).passthrough().parse(req.body);
+    const { keyId, data } = bodySchema1.parse(req.body);
     if (!keyId || !data) {
       return res.status(400).json({ success: false, error: 'Missing "keyId" and "data" (base64)' });
     }
@@ -95,7 +115,7 @@ router.post('/sign', async (req: Request, res: Response) => {
 
 router.post('/verify', async (req: Request, res: Response) => {
   try {
-    const { keyId, data, signature } = z.object({}).passthrough().parse(req.body);
+    const { keyId, data, signature } = bodySchema2.parse(req.body);
     if (!keyId || !data || !signature) {
       return res.status(400).json({ success: false, error: 'Missing "keyId", "data" (base64), and "signature" (base64)' });
     }
@@ -109,7 +129,7 @@ router.post('/verify', async (req: Request, res: Response) => {
 
 router.post('/wrap', async (req: Request, res: Response) => {
   try {
-    const { keyToWrapId, wrappingKeyId } = z.object({}).passthrough().parse(req.body);
+    const { keyToWrapId, wrappingKeyId } = bodySchema3.parse(req.body);
     if (!keyToWrapId || !wrappingKeyId) {
       return res.status(400).json({ success: false, error: 'Missing "keyToWrapId" and "wrappingKeyId"' });
     }

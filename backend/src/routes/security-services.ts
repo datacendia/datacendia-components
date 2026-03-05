@@ -1,5 +1,22 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+  startDate: z.unknown(),
+  endDate: z.unknown(),
+  exportedBy: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  organizationId: z.unknown(),
+  framework: z.unknown(),
+  startDate: z.unknown(),
+  endDate: z.unknown(),
+  requestedBy: z.unknown(),
+  includeRawLogs: z.unknown(),
+  includeIntegrityProof: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Security Services
  *
@@ -28,6 +45,23 @@ import { complianceExportService, ComplianceFramework } from '../services/securi
 import { sbomGenerator } from '../services/security/SBOMGenerator.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+  startDate: z.unknown(),
+  endDate: z.unknown(),
+  exportedBy: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  organizationId: z.unknown(),
+  framework: z.unknown(),
+  startDate: z.unknown(),
+  endDate: z.unknown(),
+  requestedBy: z.unknown(),
+  includeRawLogs: z.unknown(),
+  includeIntegrityProof: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -85,7 +119,7 @@ router.get('/audit/verify', async (_req: Request, res: Response) => {
  */
 router.post('/audit/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, startDate, endDate, exportedBy } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, startDate, endDate, exportedBy } = bodySchema0.parse(req.body);
 
     if (!organizationId || !startDate || !endDate || !exportedBy) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -253,7 +287,7 @@ router.get('/compliance/frameworks', (_req: Request, res: Response) => {
  */
 router.post('/compliance/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = bodySchema1.parse(req.body);
 
     if (!organizationId || !framework || !startDate || !endDate || !requestedBy) {
       return res.status(400).json({ error: 'Missing required fields' });

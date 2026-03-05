@@ -19,6 +19,13 @@ import { Router, Request, Response } from 'express';
 import { adversarialRedTeamService } from '../services/council/AdversarialRedTeamService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  decision: z.unknown(),
+  context: z.unknown(),
+  config: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -26,7 +33,7 @@ const router = Router();
  * Start a new red team session
  */
 router.post('/start', (req: Request, res: Response) => {
-  const { decision, context, config } = z.object({}).passthrough().parse(req.body);
+  const { decision, context, config } = bodySchema0.parse(req.body);
   
   if (!decision) {
     return res.status(400).json({ error: 'decision is required' });

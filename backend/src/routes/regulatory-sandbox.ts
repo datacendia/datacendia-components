@@ -1,5 +1,16 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  description: z.unknown(),
+  regulationId: z.unknown(),
+  requirements: z.unknown(),
+  decisionId: z.unknown(),
+  workflowId: z.unknown(),
+  systemDescription: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Regulatory Sandbox
  *
@@ -21,6 +32,17 @@ import { Router, Request, Response } from 'express';
 import { regulatorySandboxService } from '../services/compliance/RegulatorySandboxService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  description: z.unknown(),
+  regulationId: z.unknown(),
+  requirements: z.unknown(),
+  decisionId: z.unknown(),
+  workflowId: z.unknown(),
+  systemDescription: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -87,7 +109,7 @@ router.get('/timeline', (_req: Request, res: Response) => {
  */
 router.post('/tests', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, description, regulationId, requirements, decisionId, workflowId, systemDescription } = z.object({}).passthrough().parse(req.body);
+    const { name, description, regulationId, requirements, decisionId, workflowId, systemDescription } = bodySchema0.parse(req.body);
 
     if (!name || !regulationId || !systemDescription) {
       res.status(400).json({

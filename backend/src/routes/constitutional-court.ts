@@ -1,5 +1,37 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  title: z.unknown(),
+  category: z.unknown(),
+  petitioner: z.unknown(),
+  respondent: z.unknown(),
+  deliberationId: z.unknown(),
+  verticalId: z.unknown(),
+  organizationId: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  hearingDate: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  ruling: z.unknown(),
+  summary: z.unknown(),
+  rationale: z.unknown(),
+  holdings: z.unknown(),
+  principlesApplied: z.unknown(),
+  authoringJudge: z.unknown(),
+  precedentsCited: z.unknown(),
+  dissents: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  reason: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  category: z.unknown(),
+  keywords: z.unknown(),
+  limit: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Constitutional Court
  *
@@ -72,7 +104,7 @@ router.get('/statistics', (_req: Request, res: Response) => {
  */
 router.post('/disputes', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { title, category, petitioner, respondent, deliberationId, verticalId, organizationId } = z.object({}).passthrough().parse(req.body);
+    const { title, category, petitioner, respondent, deliberationId, verticalId, organizationId } = bodySchema0.parse(req.body);
 
     if (!title || !category || !petitioner || !respondent || !organizationId) {
       res.status(400).json({
@@ -163,7 +195,7 @@ router.get('/disputes/organization/:orgId', async (req: Request, res: Response):
 router.post('/disputes/:id/schedule-hearing', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const { hearingDate } = z.object({}).passthrough().parse(req.body);
+    const { hearingDate } = bodySchema1.parse(req.body);
 
     if (!hearingDate) {
       res.status(400).json({ success: false, error: 'hearingDate is required' });
@@ -200,7 +232,7 @@ router.post('/disputes/:id/begin-deliberation', async (req: Request, res: Respon
 router.post('/disputes/:id/draft-opinion', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const { ruling, summary, rationale, holdings, principlesApplied, authoringJudge, precedentsCited, dissents } = z.object({}).passthrough().parse(req.body);
+    const { ruling, summary, rationale, holdings, principlesApplied, authoringJudge, precedentsCited, dissents } = bodySchema2.parse(req.body);
 
     if (!ruling || !summary || !rationale || !holdings || !authoringJudge) {
       res.status(400).json({
@@ -251,7 +283,7 @@ router.post('/disputes/:id/resolve', async (req: Request, res: Response): Promis
 router.post('/disputes/:id/appeal', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const { reason } = z.object({}).passthrough().parse(req.body);
+    const { reason } = bodySchema3.parse(req.body);
 
     if (!reason) {
       res.status(400).json({ success: false, error: 'reason is required' });
@@ -272,7 +304,7 @@ router.post('/disputes/:id/appeal', async (req: Request, res: Response): Promise
  */
 router.post('/precedents/search', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { category, keywords, limit } = z.object({}).passthrough().parse(req.body);
+    const { category, keywords, limit } = bodySchema4.parse(req.body);
 
     const results = await aiConstitutionalCourtService.searchPrecedents({
       category,

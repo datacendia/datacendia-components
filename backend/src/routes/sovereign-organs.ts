@@ -22,6 +22,11 @@ import { cendiaLegacyService } from '../services/sovereign/CendiaLegacyService.j
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  verifiedBy: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -244,7 +249,7 @@ router.post('/oracle/claims/:id/evidence', async (req: Request, res: Response) =
 
 router.post('/oracle/claims/:id/verify', async (req: Request, res: Response) => {
   try {
-    const { verifiedBy } = z.object({}).passthrough().parse(req.body);
+    const { verifiedBy } = bodySchema0.parse(req.body);
     const result = await cendiaOracleService.verifyClaim(req.params.id, verifiedBy);
     res.json({ success: true, data: result });
   } catch (error: unknown) {

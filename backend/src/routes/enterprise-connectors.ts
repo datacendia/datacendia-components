@@ -21,6 +21,28 @@ import { SalesforceConnector, SlackConnector, JiraConnector, ENTERPRISE_CONNECTO
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  code: z.unknown(),
+  codeVerifier: z.unknown(),
+  state: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  soql: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  channelId: z.unknown(),
+  text: z.unknown(),
+  thread_ts: z.unknown(),
+  blocks: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  jql: z.unknown(),
+  maxResults: z.unknown(),
+  startAt: z.unknown(),
+  fields: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Connector instances (production upgrade: per-tenant)
@@ -121,7 +143,7 @@ router.post('/:connectorId/oauth/authorize', (req: Request, res: Response) => {
 // Handle OAuth callback
 router.post('/:connectorId/oauth/callback', async (req: Request, res: Response) => {
   try {
-    const { code, codeVerifier, state } = z.object({}).passthrough().parse(req.body);
+    const { code, codeVerifier, state } = bodySchema0.parse(req.body);
     if (!code) {
       return res.status(400).json({
         success: false,
@@ -265,7 +287,7 @@ router.post('/salesforce/query', async (req: Request, res: Response) => {
       });
     }
 
-    const { soql } = z.object({}).passthrough().parse(req.body);
+    const { soql } = bodySchema1.parse(req.body);
     if (!soql) {
       return res.status(400).json({
         success: false,
@@ -294,7 +316,7 @@ router.post('/slack/send', async (req: Request, res: Response) => {
       });
     }
 
-    const { channelId, text, thread_ts, blocks } = z.object({}).passthrough().parse(req.body);
+    const { channelId, text, thread_ts, blocks } = bodySchema2.parse(req.body);
     if (!channelId || !text) {
       return res.status(400).json({
         success: false,
@@ -323,7 +345,7 @@ router.post('/jira/search', async (req: Request, res: Response) => {
       });
     }
 
-    const { jql, maxResults, startAt, fields } = z.object({}).passthrough().parse(req.body);
+    const { jql, maxResults, startAt, fields } = bodySchema3.parse(req.body);
     if (!jql) {
       return res.status(400).json({
         success: false,

@@ -1,5 +1,15 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  agentId: z.unknown(),
+  verticalId: z.unknown(),
+  action: z.unknown(),
+  result: z.unknown(),
+  duration: z.unknown(),
+  success: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Vertical Agents
  *
@@ -20,6 +30,16 @@ import { Router, Request, Response } from 'express';
 import { verticalAgentsService } from '../services/VerticalAgentsService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  agentId: z.unknown(),
+  verticalId: z.unknown(),
+  action: z.unknown(),
+  result: z.unknown(),
+  duration: z.unknown(),
+  success: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Helper to safely get params
@@ -235,7 +255,7 @@ router.get('/activity', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/activity', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { agentId, verticalId, action, result, duration, success } = z.object({}).passthrough().parse(req.body);
+    const { agentId, verticalId, action, result, duration, success } = bodySchema0.parse(req.body);
     
     if (!agentId || !verticalId || !action) {
       res.status(400).json({ 

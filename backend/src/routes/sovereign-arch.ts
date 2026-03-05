@@ -18,6 +18,12 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  shadowDeliberationId: z.unknown(),
+  officialDeliberationId: z.unknown(),
+}).passthrough();
+
 // Import sovereign services
 import { dataDiodeService } from '../services/sovereign/DataDiodeService.js';
 import { localRLHFService } from '../services/sovereign/LocalRLHFService.js';
@@ -32,6 +38,12 @@ import { federatedMeshService } from '../services/sovereign/FederatedMeshService
 import { portableInstanceService } from '../services/sovereign/PortableInstanceService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  shadowDeliberationId: z.unknown(),
+  officialDeliberationId: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Health endpoint (before auth)
@@ -292,7 +304,7 @@ router.post('/shadow/sessions/:id/close', async (req: Request, res: Response, ne
 
 router.post('/shadow/compare', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { shadowDeliberationId, officialDeliberationId } = z.object({}).passthrough().parse(req.body);
+    const { shadowDeliberationId, officialDeliberationId } = bodySchema0.parse(req.body);
     const result = await shadowCouncilService.compareToOfficial(shadowDeliberationId, officialDeliberationId);
     res.json({ success: true, data: result });
   } catch (error) {

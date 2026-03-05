@@ -20,6 +20,16 @@ import { logger } from '../utils/logger.js';
 import hrIntegrationService, { HRProvider, HRCredentials } from '../services/HRIntegrationService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  apiKey: z.unknown(),
+  clientId: z.unknown(),
+  clientSecret: z.unknown(),
+  subdomain: z.unknown(),
+  tenantId: z.unknown(),
+  refreshToken: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 
 // =============================================================================
@@ -53,7 +63,7 @@ router.get('/connections/:provider', authenticate, async (req: Request, res: Res
 router.post('/connections/:provider/connect', authenticate, async (req: Request, res: Response) => {
   try {
     const provider = req.params.provider as HRProvider;
-    const { apiKey, clientId, clientSecret, subdomain, tenantId, refreshToken } = z.object({}).passthrough().parse(req.body);
+    const { apiKey, clientId, clientSecret, subdomain, tenantId, refreshToken } = bodySchema0.parse(req.body);
 
     const credentials: HRCredentials = {
       provider,

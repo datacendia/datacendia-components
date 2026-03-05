@@ -21,6 +21,39 @@ import { nemoGuardrails } from '../services/guardrails/NeMoGuardrailsEngine.js';
 import { cendiaSentryService } from '../services/CendiaSentryService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  enabled: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  allowedTopics: z.unknown(),
+  blockedTopics: z.unknown(),
+  customFlows: z.unknown(),
+  factBase: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  input: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  input: z.unknown(),
+  output: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  input: z.unknown(),
+  output: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+const bodySchema5 = z.object({
+  input: z.unknown(),
+  output: z.unknown(),
+  inputType: z.unknown(),
+  agentId: z.unknown(),
+  modelUsed: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+
 const router = Router();
 router.use(devAuth);
 
@@ -121,7 +154,7 @@ router.get('/rails/:railId', async (req: Request, res: Response) => {
  * Enable/disable a rail
  */
 router.patch('/rails/:railId/toggle', async (req: Request, res: Response) => {
-  const { enabled } = z.object({}).passthrough().parse(req.body);
+  const { enabled } = bodySchema0.parse(req.body);
   if (typeof enabled !== 'boolean') {
     res.status(400).json({ success: false, error: 'Missing required field: enabled (boolean)' });
     return;
@@ -153,7 +186,7 @@ router.get('/colang', async (_req: Request, res: Response) => {
  * Update Colang topic configuration
  */
 router.put('/colang', async (req: Request, res: Response) => {
-  const { allowedTopics, blockedTopics, customFlows, factBase } = z.object({}).passthrough().parse(req.body);
+  const { allowedTopics, blockedTopics, customFlows, factBase } = bodySchema1.parse(req.body);
 
   nemoGuardrails.updateColangConfig({
     allowedTopics,
@@ -175,7 +208,7 @@ router.put('/colang', async (req: Request, res: Response) => {
  */
 router.post('/evaluate/input', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, context } = z.object({}).passthrough().parse(req.body);
+    const { input, context } = bodySchema2.parse(req.body);
 
     if (!input) {
       res.status(400).json({ success: false, error: 'Missing required field: input' });
@@ -196,7 +229,7 @@ router.post('/evaluate/input', async (req: Request, res: Response, next: NextFun
  */
 router.post('/evaluate/output', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, output, context } = z.object({}).passthrough().parse(req.body);
+    const { input, output, context } = bodySchema3.parse(req.body);
 
     if (!input || !output) {
       res.status(400).json({ success: false, error: 'Missing required fields: input, output' });
@@ -217,7 +250,7 @@ router.post('/evaluate/output', async (req: Request, res: Response, next: NextFu
  */
 router.post('/evaluate/full', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, output, context } = z.object({}).passthrough().parse(req.body);
+    const { input, output, context } = bodySchema3.parse(req.body);
 
     if (!input || !output) {
       res.status(400).json({ success: false, error: 'Missing required fields: input, output' });
@@ -238,7 +271,7 @@ router.post('/evaluate/full', async (req: Request, res: Response, next: NextFunc
  */
 router.post('/check', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, output, inputType, agentId, modelUsed, context } = z.object({}).passthrough().parse(req.body);
+    const { input, output, inputType, agentId, modelUsed, context } = bodySchema5.parse(req.body);
 
     if (!input) {
       res.status(400).json({ success: false, error: 'Missing required field: input' });

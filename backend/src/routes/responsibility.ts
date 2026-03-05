@@ -1,5 +1,10 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  record: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Responsibility
  *
@@ -312,7 +317,7 @@ router.get('/liability-report/:decisionId', async (req: Request, res: Response) 
  */
 router.post('/verify', async (req: Request, res: Response) => {
   try {
-    const { record } = z.object({}).passthrough().parse(req.body);
+    const { record } = bodySchema0.parse(req.body);
 
     if (!record) {
       res.status(400).json({

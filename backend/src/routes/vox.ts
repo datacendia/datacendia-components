@@ -19,6 +19,21 @@ import { cendiaVoxService } from '../services/CendiaVoxService.js';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  decisionId: z.unknown(),
+  decisionContext: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  decisionId: z.unknown(),
+  decisionContext: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  decisionId: z.unknown(),
+  title: z.unknown(),
+  assemblyType: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Apply devAuth to all routes to get organizationId from seeded user
@@ -134,7 +149,7 @@ router.get('/stakeholders/:id/signals', async (req: Request, res: Response) => {
 router.post('/impacts/assess', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { decisionId, decisionContext } = z.object({}).passthrough().parse(req.body);
+    const { decisionId, decisionContext } = bodySchema0.parse(req.body);
     const impacts = await cendiaVoxService.assessImpact(orgId, decisionId, decisionContext);
     res.json({ success: true, data: impacts });
   } catch (error) {
@@ -158,7 +173,7 @@ router.get('/decisions/:id/impacts', async (req: Request, res: Response) => {
 router.post('/votes', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { decisionId, decisionContext } = z.object({}).passthrough().parse(req.body);
+    const { decisionId, decisionContext } = bodySchema0.parse(req.body);
     const votes = await cendiaVoxService.conductVote(orgId, decisionId, decisionContext);
     res.json({ success: true, data: votes });
   } catch (error) {
@@ -182,7 +197,7 @@ router.get('/decisions/:id/votes', async (req: Request, res: Response) => {
 router.post('/assemblies', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { decisionId, title, assemblyType } = z.object({}).passthrough().parse(req.body);
+    const { decisionId, title, assemblyType } = bodySchema2.parse(req.body);
     const assembly = await cendiaVoxService.conductAssembly(orgId, decisionId, title, assemblyType);
     res.json({ success: true, data: assembly });
   } catch (error) {

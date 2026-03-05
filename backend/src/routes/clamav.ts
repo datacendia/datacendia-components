@@ -19,6 +19,12 @@ import { clamAVIntegration } from '../services/sovereign/ClamAVIntegration.js';
 import multer from 'multer';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  data: z.unknown(),
+  filename: z.unknown(),
+}).passthrough();
+
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
 
@@ -52,7 +58,7 @@ router.post('/scan', upload.single('file'), async (req: Request, res: Response) 
 
 router.post('/scan/buffer', async (req: Request, res: Response) => {
   try {
-    const { data, filename } = z.object({}).passthrough().parse(req.body);
+    const { data, filename } = bodySchema0.parse(req.body);
     if (!data || !filename) {
       return res.status(400).json({ success: false, error: 'Missing "data" (base64) and "filename" fields' });
     }

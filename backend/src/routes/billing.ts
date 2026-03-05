@@ -20,6 +20,19 @@ import { prisma } from '../config/database.js';
 import { notificationService } from '../services/NotificationService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  priceId: z.unknown(),
+  tierId: z.unknown(),
+  commitment: z.unknown(),
+  region: z.unknown(),
+  successUrl: z.unknown(),
+  cancelUrl: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  customerId: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -28,7 +41,7 @@ const router = Router();
 // =============================================================================
 router.post('/billing/create-checkout-session', async (req: Request, res: Response) => {
   try {
-    const { priceId, tierId, commitment, region, successUrl, cancelUrl } = z.object({}).passthrough().parse(req.body);
+    const { priceId, tierId, commitment, region, successUrl, cancelUrl } = bodySchema0.parse(req.body);
 
     if (!priceId || !tierId) {
       return res.status(400).json({
@@ -257,7 +270,7 @@ router.post('/billing/portal-session', async (req: Request, res: Response) => {
   }
 
   try {
-    const { customerId } = z.object({}).passthrough().parse(req.body);
+    const { customerId } = bodySchema1.parse(req.body);
     if (!customerId) {
       return res.status(400).json({ error: 'Missing customerId' });
     }

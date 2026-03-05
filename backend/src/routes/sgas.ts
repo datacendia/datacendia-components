@@ -1,5 +1,32 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  proposal: z.unknown(),
+  config: z.unknown(),
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  proposal: z.unknown(),
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  proposal: z.unknown(),
+  decisionOutputs: z.unknown(),
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  proposal: z.unknown(),
+  institutionalOutputs: z.unknown(),
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema5 = z.object({
+  state: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Sgas
  *
@@ -68,7 +95,7 @@ router.get('/health', (_req: Request, res: Response) => {
 
 router.post('/deliberation', async (req: Request, res: Response) => {
   try {
-    const { proposal, config, seed } = z.object({}).passthrough().parse(req.body);
+    const { proposal, config, seed } = bodySchema0.parse(req.body);
 
     if (!proposal) {
       return res.status(400).json({ error: 'Proposal is required' });
@@ -244,7 +271,7 @@ router.get('/agents/meta-governance', (_req: Request, res: Response) => {
 router.post('/agents/decision/:agentId/execute', async (req: Request, res: Response) => {
   try {
     const { agentId } = req.params;
-    const { proposal, seed } = z.object({}).passthrough().parse(req.body);
+    const { proposal, seed } = bodySchema1.parse(req.body);
 
     if (!proposal) {
       return res.status(400).json({ error: 'Proposal is required' });
@@ -265,7 +292,7 @@ router.post('/agents/decision/:agentId/execute', async (req: Request, res: Respo
 router.post('/agents/institutional/:agentId/execute', async (req: Request, res: Response) => {
   try {
     const { agentId } = req.params;
-    const { proposal, decisionOutputs, seed } = z.object({}).passthrough().parse(req.body);
+    const { proposal, decisionOutputs, seed } = bodySchema2.parse(req.body);
 
     if (!proposal || !decisionOutputs) {
       return res.status(400).json({ error: 'Proposal and decisionOutputs are required' });
@@ -291,7 +318,7 @@ router.post('/agents/institutional/:agentId/execute', async (req: Request, res: 
 router.post('/agents/adversarial/:agentId/execute', async (req: Request, res: Response) => {
   try {
     const { agentId } = req.params;
-    const { proposal, institutionalOutputs, seed } = z.object({}).passthrough().parse(req.body);
+    const { proposal, institutionalOutputs, seed } = bodySchema3.parse(req.body);
 
     if (!proposal || !institutionalOutputs) {
       return res.status(400).json({ error: 'Proposal and institutionalOutputs are required' });
@@ -320,7 +347,7 @@ router.post('/agents/adversarial/:agentId/execute', async (req: Request, res: Re
 
 router.post('/meta-governance/analyze', async (req: Request, res: Response) => {
   try {
-    const { seed } = z.object({}).passthrough().parse(req.body);
+    const { seed } = bodySchema4.parse(req.body);
     const outputs = await metaGovernanceAgentsService.executeAllAgents(seed);
     const aggregated = metaGovernanceAgentsService.aggregateOutputs(outputs);
 
@@ -352,7 +379,7 @@ router.get('/institutional/state', (_req: Request, res: Response) => {
 
 router.post('/institutional/state', (req: Request, res: Response) => {
   try {
-    const { state } = z.object({}).passthrough().parse(req.body);
+    const { state } = bodySchema5.parse(req.body);
     
     if (!Object.values(InstitutionalState).includes(state)) {
       return res.status(400).json({ error: 'Invalid institutional state' });

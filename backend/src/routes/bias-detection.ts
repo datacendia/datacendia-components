@@ -18,6 +18,16 @@ import { devAuth } from '../middleware/auth.js';
 import { nlpBiasDetectionService } from '../services/dcii/NLPBiasDetectionService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  text: z.unknown(),
+  deliberationId: z.unknown(),
+  organizationId: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  text: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Health (no auth)
@@ -48,7 +58,7 @@ router.use(devAuth);
 
 router.post('/analyze', async (req: Request, res: Response) => {
   try {
-    const { text, deliberationId, organizationId } = z.object({}).passthrough().parse(req.body);
+    const { text, deliberationId, organizationId } = bodySchema0.parse(req.body);
     if (!text) {
       return res.status(400).json({ success: false, error: 'Missing "text" to analyze' });
     }
@@ -61,7 +71,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
 
 router.post('/analyze/statistical', (req: Request, res: Response) => {
   try {
-    const { text } = z.object({}).passthrough().parse(req.body);
+    const { text } = bodySchema1.parse(req.body);
     if (!text) {
       return res.status(400).json({ success: false, error: 'Missing "text" to analyze' });
     }

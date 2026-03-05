@@ -20,6 +20,16 @@ import { logger } from '../utils/logger.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  email: z.unknown(),
+  company: z.unknown(),
+  message: z.unknown(),
+  inquiry_type: z.unknown(),
+  source: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 const prisma = new PrismaClient();
 
@@ -33,7 +43,7 @@ const prisma = new PrismaClient();
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const { name, email, company, message, inquiry_type, source } = z.object({}).passthrough().parse(req.body);
+    const { name, email, company, message, inquiry_type, source } = bodySchema0.parse(req.body);
 
     // Validate required fields
     if (!name || !email || !message) {

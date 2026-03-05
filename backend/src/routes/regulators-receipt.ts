@@ -21,6 +21,30 @@ import { pdfGeneratorService } from '../services/document/PDFGeneratorService.js
 import { prisma } from '../config/database.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  deliberationId: z.unknown(),
+  generatedBy: z.unknown(),
+  options: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  receipt: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  deliberationId: z.unknown(),
+  generatedBy: z.unknown(),
+  options: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  receipt: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  receipt: z.unknown(),
+}).passthrough();
+const bodySchema5 = z.object({
+  receipt: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 async function buildDeliberationData(deliberationId: string) {
@@ -70,7 +94,7 @@ async function buildDeliberationData(deliberationId: string) {
  */
 router.post('/generate', async (req: Request, res: Response) => {
   try {
-    const { deliberationId, generatedBy, options } = z.object({}).passthrough().parse(req.body);
+    const { deliberationId, generatedBy, options } = bodySchema0.parse(req.body);
     
     if (!deliberationId) {
       return res.status(400).json({ error: 'deliberationId is required' });
@@ -94,7 +118,7 @@ router.post('/generate', async (req: Request, res: Response) => {
  */
 router.post('/export/pdf', async (req: Request, res: Response) => {
   try {
-    const { receipt } = z.object({}).passthrough().parse(req.body);
+    const { receipt } = bodySchema1.parse(req.body);
     
     if (!receipt) {
       return res.status(400).json({ error: 'receipt is required' });
@@ -148,7 +172,7 @@ router.post('/export/pdf', async (req: Request, res: Response) => {
  */
 router.post('/generate-pdf', async (req: Request, res: Response) => {
   try {
-    const { deliberationId, generatedBy, options } = z.object({}).passthrough().parse(req.body);
+    const { deliberationId, generatedBy, options } = bodySchema0.parse(req.body);
 
     if (!deliberationId) {
       return res.status(400).json({ error: 'deliberationId is required' });
@@ -187,7 +211,7 @@ router.post('/generate-pdf', async (req: Request, res: Response) => {
  * Export receipt as JSON
  */
 router.post('/export/json', (req: Request, res: Response) => {
-  const { receipt } = z.object({}).passthrough().parse(req.body);
+  const { receipt } = bodySchema1.parse(req.body);
   
   if (!receipt) {
     return res.status(400).json({ error: 'receipt is required' });
@@ -203,7 +227,7 @@ router.post('/export/json', (req: Request, res: Response) => {
  * Export receipt as HTML
  */
 router.post('/export/html', (req: Request, res: Response) => {
-  const { receipt } = z.object({}).passthrough().parse(req.body);
+  const { receipt } = bodySchema1.parse(req.body);
   
   if (!receipt) {
     return res.status(400).json({ error: 'receipt is required' });
@@ -242,7 +266,7 @@ router.get('/:deliberationId', async (req: Request, res: Response) => {
  * Verify a receipt's integrity
  */
 router.post('/verify', (req: Request, res: Response) => {
-  const { receipt } = z.object({}).passthrough().parse(req.body);
+  const { receipt } = bodySchema1.parse(req.body);
   
   if (!receipt) {
     return res.status(400).json({ error: 'receipt is required' });

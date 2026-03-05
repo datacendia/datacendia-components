@@ -1,5 +1,20 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  algorithm: z.unknown(),
+  strength: z.unknown(),
+  expiresInDays: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  data: z.unknown(),
+  keyId: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  data: z.unknown(),
+  signature: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Post Quantum
  *
@@ -21,6 +36,21 @@ import { Router, Request, Response } from 'express';
 import { postQuantumKMSService, PQAlgorithm } from '../services/security/PostQuantumKMSService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  algorithm: z.unknown(),
+  strength: z.unknown(),
+  expiresInDays: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  data: z.unknown(),
+  keyId: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  data: z.unknown(),
+  signature: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -68,7 +98,7 @@ router.get('/recommend/:useCase', (req: Request, res: Response): void => {
  */
 router.post('/keys', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { algorithm, strength, expiresInDays } = z.object({}).passthrough().parse(req.body);
+    const { algorithm, strength, expiresInDays } = bodySchema0.parse(req.body);
 
     const keyPair = await postQuantumKMSService.generateKeyPair({
       algorithm: algorithm as PQAlgorithm,
@@ -151,7 +181,7 @@ router.delete('/keys/:id', (req: Request, res: Response): void => {
  */
 router.post('/sign', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { data, keyId } = z.object({}).passthrough().parse(req.body);
+    const { data, keyId } = bodySchema1.parse(req.body);
 
     if (!data) {
       res.status(400).json({ success: false, error: 'data is required' });
@@ -171,7 +201,7 @@ router.post('/sign', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/verify', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { data, signature } = z.object({}).passthrough().parse(req.body);
+    const { data, signature } = bodySchema2.parse(req.body);
 
     if (!data || !signature) {
       res.status(400).json({ success: false, error: 'data and signature are required' });

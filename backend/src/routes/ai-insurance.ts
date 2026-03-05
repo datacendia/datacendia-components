@@ -1,5 +1,38 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+  coverageType: z.unknown(),
+  requestedLimit: z.unknown(),
+  verticalId: z.unknown(),
+  coveredSystems: z.unknown(),
+  termMonths: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  quoteId: z.unknown(),
+  coveredSystems: z.unknown(),
+  coveredDecisionTypes: z.unknown(),
+  createdBy: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  policyId: z.unknown(),
+  decisionId: z.unknown(),
+  deliberationId: z.unknown(),
+  decisionType: z.unknown(),
+  decisionValue: z.unknown(),
+  riskFactors: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  policyId: z.unknown(),
+  incidentDate: z.unknown(),
+  incidentDescription: z.unknown(),
+  decisionId: z.unknown(),
+  claimAmount: z.unknown(),
+  claimType: z.unknown(),
+  supportingDocuments: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Ai Insurance
  *
@@ -21,6 +54,39 @@ import { Router, Request, Response } from 'express';
 import { aiInsuranceService, CoverageType } from '../services/insurance/AIInsuranceService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+  coverageType: z.unknown(),
+  requestedLimit: z.unknown(),
+  verticalId: z.unknown(),
+  coveredSystems: z.unknown(),
+  termMonths: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  quoteId: z.unknown(),
+  coveredSystems: z.unknown(),
+  coveredDecisionTypes: z.unknown(),
+  createdBy: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  policyId: z.unknown(),
+  decisionId: z.unknown(),
+  deliberationId: z.unknown(),
+  decisionType: z.unknown(),
+  decisionValue: z.unknown(),
+  riskFactors: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  policyId: z.unknown(),
+  incidentDate: z.unknown(),
+  incidentDescription: z.unknown(),
+  decisionId: z.unknown(),
+  claimAmount: z.unknown(),
+  claimType: z.unknown(),
+  supportingDocuments: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -53,7 +119,7 @@ router.get('/coverage-types', (_req: Request, res: Response) => {
  */
 router.post('/quotes', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, coverageType, requestedLimit, verticalId, coveredSystems, termMonths } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, coverageType, requestedLimit, verticalId, coveredSystems, termMonths } = bodySchema0.parse(req.body);
 
     if (!organizationId || !coverageType || !requestedLimit) {
       res.status(400).json({
@@ -84,7 +150,7 @@ router.post('/quotes', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/policies', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { quoteId, coveredSystems, coveredDecisionTypes, createdBy } = z.object({}).passthrough().parse(req.body);
+    const { quoteId, coveredSystems, coveredDecisionTypes, createdBy } = bodySchema1.parse(req.body);
 
     if (!quoteId || !coveredSystems || !coveredDecisionTypes || !createdBy) {
       res.status(400).json({
@@ -142,7 +208,7 @@ router.get('/policies/organization/:orgId', (req: Request, res: Response): void 
  */
 router.post('/cover-decision', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { policyId, decisionId, deliberationId, decisionType, decisionValue, riskFactors } = z.object({}).passthrough().parse(req.body);
+    const { policyId, decisionId, deliberationId, decisionType, decisionValue, riskFactors } = bodySchema2.parse(req.body);
 
     if (!policyId || !decisionId || !decisionType || decisionValue === undefined) {
       res.status(400).json({
@@ -190,7 +256,7 @@ router.get('/coverage/decision/:decisionId', (req: Request, res: Response): void
  */
 router.post('/claims', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { policyId, incidentDate, incidentDescription, decisionId, claimAmount, claimType, supportingDocuments } = z.object({}).passthrough().parse(req.body);
+    const { policyId, incidentDate, incidentDescription, decisionId, claimAmount, claimType, supportingDocuments } = bodySchema3.parse(req.body);
 
     if (!policyId || !incidentDate || !incidentDescription || !claimAmount || !claimType) {
       res.status(400).json({

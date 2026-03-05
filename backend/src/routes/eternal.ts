@@ -19,6 +19,18 @@ import { cendiaEternalService } from '../services/CendiaEternalService.js';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  validationType: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  correctedContent: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  sourceFormat: z.unknown(),
+  targetFormat: z.unknown(),
+}).passthrough();
+
 const router = Router();
 router.use(devAuth);
 
@@ -121,7 +133,7 @@ router.get('/artifacts/:id', async (req: Request, res: Response) => {
 router.post('/artifacts/:id/verify', async (req: Request, res: Response) => {
   try {
     const userId = req.user?.id || 'system';
-    const { validationType } = z.object({}).passthrough().parse(req.body);
+    const { validationType } = bodySchema0.parse(req.body);
     const result = await cendiaEternalService.verifyArtifact(req.params.id, userId, validationType);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -141,7 +153,7 @@ router.get('/artifacts/:id/validations', async (req: Request, res: Response) => 
 router.post('/artifacts/:id/correct', async (req: Request, res: Response) => {
   try {
     const userId = req.user?.id || 'system';
-    const { correctedContent } = z.object({}).passthrough().parse(req.body);
+    const { correctedContent } = bodySchema1.parse(req.body);
     const artifact = await cendiaEternalService.correctArtifact(req.params.id, correctedContent, userId);
     res.json({ success: true, data: artifact });
   } catch (error) {
@@ -156,7 +168,7 @@ router.post('/artifacts/:id/correct', async (req: Request, res: Response) => {
 router.post('/migrations', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { sourceFormat, targetFormat } = z.object({}).passthrough().parse(req.body);
+    const { sourceFormat, targetFormat } = bodySchema2.parse(req.body);
     const migration = await cendiaEternalService.startMigration(orgId, sourceFormat, targetFormat);
     res.json({ success: true, data: migration });
   } catch (error) {

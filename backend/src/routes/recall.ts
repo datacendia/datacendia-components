@@ -18,6 +18,35 @@ import { cendiaRecallService } from '../services/CendiaRecallService.js';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+  decisionId: z.unknown(),
+  title: z.unknown(),
+  predictedOutcomes: z.unknown(),
+  trackedBy: z.unknown(),
+  options: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  metric: z.unknown(),
+  actualValue: z.unknown(),
+  unit: z.unknown(),
+  evidenceSource: z.unknown(),
+  verified: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  actualROI: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  verifiedBy: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  lessonsLearned: z.unknown(),
+}).passthrough();
+const bodySchema5 = z.object({
+  endorsedBy: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // ---------------------------------------------------------------------------
@@ -39,7 +68,7 @@ router.get('/recall/health', async (_req: Request, res: Response) => {
 
 router.post('/recall/trackers', async (req: Request, res: Response) => {
   try {
-    const { organizationId, decisionId, title, predictedOutcomes, trackedBy, options } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, decisionId, title, predictedOutcomes, trackedBy, options } = bodySchema0.parse(req.body);
     if (!organizationId || !decisionId || !title || !predictedOutcomes) {
       return res.status(400).json({ success: false, error: 'Missing required fields: organizationId, decisionId, title, predictedOutcomes' });
     }
@@ -82,7 +111,7 @@ router.get('/recall/trackers/:id', async (req: Request, res: Response) => {
 
 router.post('/recall/trackers/:id/actual', async (req: Request, res: Response) => {
   try {
-    const { metric, actualValue, unit, evidenceSource, verified } = z.object({}).passthrough().parse(req.body);
+    const { metric, actualValue, unit, evidenceSource, verified } = bodySchema1.parse(req.body);
     if (!metric || actualValue === undefined) {
       return res.status(400).json({ success: false, error: 'Missing required fields: metric, actualValue' });
     }
@@ -102,7 +131,7 @@ router.post('/recall/trackers/:id/actual', async (req: Request, res: Response) =
 
 router.post('/recall/trackers/:id/roi', async (req: Request, res: Response) => {
   try {
-    const { actualROI } = z.object({}).passthrough().parse(req.body);
+    const { actualROI } = bodySchema2.parse(req.body);
     if (actualROI === undefined) {
       return res.status(400).json({ success: false, error: 'Missing required field: actualROI' });
     }
@@ -119,7 +148,7 @@ router.post('/recall/trackers/:id/roi', async (req: Request, res: Response) => {
 
 router.post('/recall/trackers/:id/verify', async (req: Request, res: Response) => {
   try {
-    const { verifiedBy } = z.object({}).passthrough().parse(req.body);
+    const { verifiedBy } = bodySchema3.parse(req.body);
     const result = await cendiaRecallService.verifyOutcome(req.params.id, verifiedBy || 'system');
     res.json({ success: true, data: result });
   } catch (error: unknown) {
@@ -129,7 +158,7 @@ router.post('/recall/trackers/:id/verify', async (req: Request, res: Response) =
 
 router.post('/recall/trackers/:id/close', async (req: Request, res: Response) => {
   try {
-    const { lessonsLearned } = z.object({}).passthrough().parse(req.body);
+    const { lessonsLearned } = bodySchema4.parse(req.body);
     const result = await cendiaRecallService.closeOutcome(req.params.id, lessonsLearned || []);
     res.json({ success: true, data: result });
   } catch (error: unknown) {
@@ -167,7 +196,7 @@ router.get('/recall/lessons', async (req: Request, res: Response) => {
 
 router.post('/recall/lessons/:id/endorse', async (req: Request, res: Response) => {
   try {
-    const { endorsedBy } = z.object({}).passthrough().parse(req.body);
+    const { endorsedBy } = bodySchema5.parse(req.body);
     const result = await cendiaRecallService.endorseLesson(req.params.id, endorsedBy || 'system');
     res.json({ success: true, data: result });
   } catch (error: unknown) {

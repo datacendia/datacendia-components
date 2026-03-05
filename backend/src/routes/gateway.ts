@@ -1,5 +1,10 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  text: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Gateway
  *
@@ -40,6 +45,11 @@ import SIEMIntegration from '../services/gateway/SIEMIntegration';
 import ManifestExporter from '../services/gateway/ManifestExporter';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  text: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Get service singletons
@@ -482,7 +492,7 @@ router.post('/manifest', async (req: Request, res: Response) => {
 
 router.post('/test-pii', async (req: Request, res: Response) => {
   try {
-    const { text } = z.object({}).passthrough().parse(req.body);
+    const { text } = bodySchema0.parse(req.body);
     if (!text) {
       return res.status(400).json({ error: 'text field is required' });
     }

@@ -22,6 +22,20 @@ import { kafkaEventBridge } from '../services/kafka/KafkaEventBridge.js';
 import { KAFKA_TOPICS, getAllTopicNames } from '../services/kafka/KafkaTopics.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  topic: z.unknown(),
+  key: z.unknown(),
+  payload: z.unknown(),
+  headers: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  action: z.unknown(),
+  resourceType: z.unknown(),
+  resourceId: z.unknown(),
+  details: z.unknown(),
+}).passthrough();
+
 const router = Router();
 router.use(devAuth);
 
@@ -171,7 +185,7 @@ router.get('/buffer', async (req: Request, res: Response) => {
  */
 router.post('/bridge/emit', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { topic, key, payload, headers } = z.object({}).passthrough().parse(req.body);
+    const { topic, key, payload, headers } = bodySchema0.parse(req.body);
 
     if (!topic || !key || !payload) {
       res.status(400).json({
@@ -215,7 +229,7 @@ router.post('/bridge/emit', async (req: Request, res: Response, next: NextFuncti
  */
 router.post('/bridge/audit', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { action, resourceType, resourceId, details } = z.object({}).passthrough().parse(req.body);
+    const { action, resourceType, resourceId, details } = bodySchema1.parse(req.body);
 
     if (!action || !resourceType) {
       res.status(400).json({

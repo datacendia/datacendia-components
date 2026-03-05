@@ -1,5 +1,11 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  query: z.unknown(),
+  conversationHistory: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Platform Assistant
  *
@@ -22,6 +28,12 @@ import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  query: z.unknown(),
+  conversationHistory: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -295,7 +307,7 @@ const PLATFORM_KNOWLEDGE = {
  */
 router.post('/query', async (req: Request, res: Response) => {
   try {
-    const { query, conversationHistory } = z.object({}).passthrough().parse(req.body);
+    const { query, conversationHistory } = bodySchema0.parse(req.body);
     const lowerQuery = (query || '').toLowerCase();
 
     // Match query to known workflows

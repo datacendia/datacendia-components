@@ -1,5 +1,23 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  status: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  signerId: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  nodes: z.unknown(),
+  edges: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  sourceNodeId: z.unknown(),
+  changeDescription: z.unknown(),
+  initialImpact: z.unknown(),
+  config: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Cascade
  *
@@ -208,7 +226,7 @@ router.get('/reports/:id', (req: Request, res: Response) => {
  * PATCH /api/v1/cascade/reports/:id/status
  */
 router.patch('/reports/:id/status', (req: Request, res: Response) => {
-  const { status } = z.object({}).passthrough().parse(req.body);
+  const { status } = bodySchema0.parse(req.body);
   
   const validStatuses = ['draft', 'in_review', 'approved', 'rejected', 'executed'];
   if (!validStatuses.includes(status)) {
@@ -232,7 +250,7 @@ router.patch('/reports/:id/status', (req: Request, res: Response) => {
  * POST /api/v1/cascade/reports/:id/sign
  */
 router.post('/reports/:id/sign', async (req: Request, res: Response) => {
-  const { signerId } = z.object({}).passthrough().parse(req.body);
+  const { signerId } = bodySchema1.parse(req.body);
   
   if (!signerId) {
     res.status(400).json({ error: 'signerId is required' });
@@ -747,7 +765,7 @@ router.get('/reports/:id/governance', (req: Request, res: Response) => {
  */
 router.post('/graph/load', (req: Request, res: Response) => {
   try {
-    const { nodes, edges } = z.object({}).passthrough().parse(req.body);
+    const { nodes, edges } = bodySchema2.parse(req.body);
 
     if (!Array.isArray(nodes) || !Array.isArray(edges)) {
       res.status(400).json({ error: 'nodes and edges must be arrays' });
@@ -881,7 +899,7 @@ router.get('/graph/loops', (req: Request, res: Response) => {
  */
 router.post('/orbit/run', async (req: Request, res: Response) => {
   try {
-    const { sourceNodeId, changeDescription, initialImpact, config } = z.object({}).passthrough().parse(req.body);
+    const { sourceNodeId, changeDescription, initialImpact, config } = bodySchema3.parse(req.body);
 
     if (!sourceNodeId || !changeDescription) {
       res.status(400).json({ error: 'sourceNodeId and changeDescription are required' });

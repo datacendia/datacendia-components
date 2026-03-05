@@ -1,5 +1,36 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  domain: z.unknown(),
+  rules: z.unknown(),
+  constraints: z.unknown(),
+  metadata: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  scenarioId: z.unknown(),
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  stressorCount: z.unknown(),
+  maxDuration: z.unknown(),
+  seed: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  stressorIds: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  name: z.unknown(),
+  description: z.unknown(),
+  populationParams: z.unknown(),
+  policyIds: z.unknown(),
+  scenarioId: z.unknown(),
+  stressorConfig: z.unknown(),
+  seed: z.unknown(),
+  maxDuration: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Scge
  *
@@ -140,7 +171,7 @@ router.get('/policies/templates', (_req: Request, res: Response) => {
 
 router.post('/policies', (req: Request, res: Response) => {
   try {
-    const { name, domain, rules, constraints, metadata } = z.object({}).passthrough().parse(req.body);
+    const { name, domain, rules, constraints, metadata } = bodySchema0.parse(req.body);
     
     const policy = policyInjectionService.createPolicyBundle(
       name || 'Unnamed Policy',
@@ -228,7 +259,7 @@ router.get('/events/scenarios', (_req: Request, res: Response) => {
 
 router.post('/events/sequence', (req: Request, res: Response) => {
   try {
-    const { scenarioId, seed } = z.object({}).passthrough().parse(req.body);
+    const { scenarioId, seed } = bodySchema1.parse(req.body);
     const scenario = DEFAULT_EVENT_SCENARIOS.find(s => s.id === scenarioId);
     
     if (!scenario) {
@@ -290,7 +321,7 @@ router.get('/stressors/library', (_req: Request, res: Response) => {
 
 router.post('/stressors/schedule', (req: Request, res: Response) => {
   try {
-    const { stressorCount, maxDuration, seed } = z.object({}).passthrough().parse(req.body);
+    const { stressorCount, maxDuration, seed } = bodySchema2.parse(req.body);
     
     const schedule = stressorLibraryService.generateRandomSchedule(
       stressorCount || 4,
@@ -309,7 +340,7 @@ router.post('/stressors/schedule', (req: Request, res: Response) => {
 
 router.post('/stressors/impact', (req: Request, res: Response) => {
   try {
-    const { stressorIds } = z.object({}).passthrough().parse(req.body);
+    const { stressorIds } = bodySchema3.parse(req.body);
     const stressors = stressorIds
       .map((id: string) => stressorLibraryService.getStressor(id))
       .filter(Boolean);
@@ -346,7 +377,7 @@ router.get('/governance/presets', (_req: Request, res: Response) => {
 
 router.post('/simulation', async (req: Request, res: Response) => {
   try {
-    const { name, description, populationParams, policyIds, scenarioId, stressorConfig, seed, maxDuration } = z.object({}).passthrough().parse(req.body);
+    const { name, description, populationParams, policyIds, scenarioId, stressorConfig, seed, maxDuration } = bodySchema4.parse(req.body);
 
     // Generate population
     const population = syntheticPopulationService.generatePopulation({

@@ -22,6 +22,21 @@ import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  dataSourceId: z.unknown(),
+  tables: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  dataSourceId: z.unknown(),
+  entity: z.unknown(),
+  fields: z.unknown(),
+  filters: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  mapping: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -91,7 +106,7 @@ router.post('/mappings', async (req: Request, res: Response) => {
 // =============================================================================
 router.post('/suggest', async (req: Request, res: Response) => {
   try {
-    const { dataSourceId, tables } = z.object({}).passthrough().parse(req.body);
+    const { dataSourceId, tables } = bodySchema0.parse(req.body);
 
     if (!dataSourceId || !tables || !Array.isArray(tables)) {
       res.status(400).json({
@@ -124,7 +139,7 @@ router.post('/suggest', async (req: Request, res: Response) => {
 // =============================================================================
 router.post('/transform-query', async (req: Request, res: Response) => {
   try {
-    const { dataSourceId, entity, fields, filters } = z.object({}).passthrough().parse(req.body);
+    const { dataSourceId, entity, fields, filters } = bodySchema1.parse(req.body);
 
     if (!dataSourceId || !entity || !fields) {
       res.status(400).json({
@@ -203,7 +218,7 @@ router.get('/canonical-model', async (_req: Request, res: Response) => {
 // =============================================================================
 router.post('/validate', async (req: Request, res: Response) => {
   try {
-    const { mapping } = z.object({}).passthrough().parse(req.body);
+    const { mapping } = bodySchema2.parse(req.body);
 
     const issues: Array<{ type: 'error' | 'warning'; message: string; path: string }> = [];
 

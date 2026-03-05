@@ -21,6 +21,35 @@ import { minioService } from '../services/storage/MinioService';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  resource: z.unknown(),
+  action: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  bucket: z.unknown(),
+  path: z.unknown(),
+  mimeType: z.unknown(),
+  fileName: z.unknown(),
+  useOCR: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  decisionType: z.unknown(),
+  existingApprovers: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  decisionType: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  content: z.unknown(),
+  mimeType: z.unknown(),
+  fileName: z.unknown(),
+  useOCR: z.unknown(),
+}).passthrough();
+const bodySchema5 = z.object({
+  content: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Status endpoint (no auth required for testing)
@@ -62,7 +91,7 @@ router.get('/me', protect(), (req: AuthenticatedRequest, res: Response) => {
  */
 router.post('/check-permission', protect(), async (req: AuthenticatedRequest, res: Response) => {
   try {
-    const { resource, action } = z.object({}).passthrough().parse(req.body);
+    const { resource, action } = bodySchema0.parse(req.body);
     const userRoles = req.keycloakUser?.roles || [];
     
     // Check against Casbin policy engine
@@ -82,7 +111,7 @@ router.post('/check-permission', protect(), async (req: AuthenticatedRequest, re
 
 router.post('/documents/extract-from-vault', async (req: Request, res: Response) => {
   try {
-    const { bucket, path, mimeType, fileName, useOCR = false } = z.object({}).passthrough().parse(req.body);
+    const { bucket, path, mimeType, fileName, useOCR = false } = bodySchema1.parse(req.body);
 
     if (!bucket || !path) {
       res.status(400).json({ success: false, error: 'bucket and path are required' });
@@ -139,7 +168,7 @@ router.get('/policies', protect('admin'), async (req: Request, res: Response) =>
  */
 router.post('/policies/can-approve', optionalAuth, async (req: AuthenticatedRequest, res: Response) => {
   try {
-    const { decisionType, existingApprovers = [] } = z.object({}).passthrough().parse(req.body);
+    const { decisionType, existingApprovers = [] } = bodySchema2.parse(req.body);
     const userId = req.keycloakUser?.id || 'anonymous';
     const userRoles = req.keycloakUser?.roles || [];
     
@@ -161,7 +190,7 @@ router.post('/policies/can-approve', optionalAuth, async (req: AuthenticatedRequ
  */
 router.post('/policies/can-veto', optionalAuth, async (req: AuthenticatedRequest, res: Response) => {
   try {
-    const { decisionType } = z.object({}).passthrough().parse(req.body);
+    const { decisionType } = bodySchema3.parse(req.body);
     const userRoles = req.keycloakUser?.roles || [];
     
     const result = await policyEngine.canVetoDecision(userRoles, decisionType);
@@ -181,7 +210,7 @@ router.post('/policies/can-veto', optionalAuth, async (req: AuthenticatedRequest
  */
 router.post('/documents/extract', async (req: Request, res: Response) => {
   try {
-    const { content, mimeType, fileName, useOCR = false } = z.object({}).passthrough().parse(req.body);
+    const { content, mimeType, fileName, useOCR = false } = bodySchema4.parse(req.body);
     
     const buffer = Buffer.from(content, 'base64');
     
@@ -208,7 +237,7 @@ router.post('/documents/extract', async (req: Request, res: Response) => {
  */
 router.post('/documents/detect-type', async (req: Request, res: Response) => {
   try {
-    const { content } = z.object({}).passthrough().parse(req.body);
+    const { content } = bodySchema5.parse(req.body);
     const buffer = Buffer.from(content, 'base64');
     
     const mimeType = await tikaService.detectType(buffer);

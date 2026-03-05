@@ -27,6 +27,11 @@ import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
 
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+}).passthrough();
+
+
 const synthesisInitiateSchema = z.object({
   organizationId: z.string().min(1),
   userId: z.string().min(1),
@@ -652,7 +657,7 @@ router.post('/union/assessment', async (req: Request, res: Response): Promise<vo
 router.post('/union/synthesize/:assessmentId', async (req: Request, res: Response) => {
   try {
     const assessmentId = req.params['assessmentId'] as string;
-    const { organizationId } = z.object({}).passthrough().parse(req.body);
+    const { organizationId } = bodySchema0.parse(req.body);
     const strategy = await unionService.synthesizeDefenseStrategy(organizationId, assessmentId);
     res.json({ success: true, strategy });
   } catch (error: unknown) {

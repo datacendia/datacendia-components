@@ -22,6 +22,26 @@ import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  description: z.unknown(),
+  simulationType: z.unknown(),
+  config: z.unknown(),
+  scenarioDefinition: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  simulationType: z.unknown(),
+  customShocks: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  scenarioType: z.unknown(),
+  description: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  simulationId: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Health endpoint (before auth)
@@ -138,7 +158,7 @@ router.get('/simulations', async (req: Request, res: Response, next: NextFunctio
  */
 router.post('/simulations', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { name, description, simulationType, config, scenarioDefinition } = z.object({}).passthrough().parse(req.body);
+    const { name, description, simulationType, config, scenarioDefinition } = bodySchema0.parse(req.body);
 
     if (!name || !simulationType) {
       throw errors.badRequest('Name and simulation type are required');
@@ -359,7 +379,7 @@ router.get('/simulations/:id/council', async (req: Request, res: Response, next:
  */
 router.post('/quick-simulate', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { simulationType, customShocks } = z.object({}).passthrough().parse(req.body);
+    const { simulationType, customShocks } = bodySchema1.parse(req.body);
 
     if (!simulationType) {
       throw errors.badRequest('Simulation type is required');
@@ -484,7 +504,7 @@ router.get('/recent', async (req: Request, res: Response, next: NextFunction) =>
  */
 router.post('/express/quick-sim', devAuth, async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { scenarioType, description } = z.object({}).passthrough().parse(req.body);
+    const { scenarioType, description } = bodySchema2.parse(req.body);
     if (!scenarioType) {
       return res.status(400).json({ success: false, error: { message: 'scenarioType is required' } });
     }
@@ -522,7 +542,7 @@ router.get('/express/resilience', devAuth, async (req: Request, res: Response, n
  */
 router.post('/sensitivity', devAuth, async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { simulationId } = z.object({}).passthrough().parse(req.body);
+    const { simulationId } = bodySchema3.parse(req.body);
     if (!simulationId) {
       return res.status(400).json({ success: false, error: { message: 'simulationId is required' } });
     }

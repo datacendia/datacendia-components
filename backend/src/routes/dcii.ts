@@ -34,6 +34,44 @@ import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
 
+const bodySchema0 = z.object({
+  organizationId: z.unknown(),
+  deliberationId: z.unknown(),
+  deliberationTitle: z.unknown(),
+  deliberationDurationMinutes: z.unknown(),
+  agentCount: z.unknown(),
+  dissentCount: z.unknown(),
+  devilsAdvocatePresent: z.unknown(),
+  challengeCount: z.unknown(),
+  unanimousVote: z.unknown(),
+  arguments: args: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  organizationId: z.unknown(),
+  data: z.unknown(),
+  description: z.unknown(),
+  dataType: z.unknown(),
+  referenceId: z.unknown(),
+  useExternal: z.unknown(),
+  useBlockchain: z.unknown(),
+  preferredProvider: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  organizationId: z.unknown(),
+  title: z.unknown(),
+  question: z.unknown(),
+  context: z.unknown(),
+  decisionType: z.unknown(),
+  department: z.unknown(),
+  urgency: z.unknown(),
+  tags: z.unknown(),
+  maxResults: z.unknown(),
+  minSimilarity: z.unknown(),
+  includeOutcomes: z.unknown(),
+  includeCrossDepartment: z.unknown(),
+}).passthrough();
+
+
 const iissAssessSchema = z.object({
   organizationId: z.string().min(1),
   organizationName: z.string().optional(),
@@ -378,7 +416,7 @@ router.get('/iiss/assessment/:assessmentId', (req: Request, res: Response) => {
 // Analyze a deliberation for cognitive biases
 router.post('/bias/analyze', async (req: Request, res: Response) => {
   try {
-    const { organizationId, deliberationId, deliberationTitle, deliberationDurationMinutes, agentCount, dissentCount, devilsAdvocatePresent, challengeCount, unanimousVote, arguments: args } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, deliberationId, deliberationTitle, deliberationDurationMinutes, agentCount, dissentCount, devilsAdvocatePresent, challengeCount, unanimousVote, arguments: args } = bodySchema0.parse(req.body);
     const analyzedBy = req.user?.email || 'api-user';
     if (!organizationId || !deliberationId || !deliberationTitle) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, deliberationId, and deliberationTitle required' } });
@@ -644,7 +682,7 @@ router.get('/jurisdiction/profile/:jurisdiction', (req: Request, res: Response) 
 // Issue a timestamp
 router.post('/timestamp/issue', async (req: Request, res: Response) => {
   try {
-    const { organizationId, data, description, dataType, referenceId, useExternal, useBlockchain, preferredProvider } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, data, description, dataType, referenceId, useExternal, useBlockchain, preferredProvider } = bodySchema1.parse(req.body);
     if (!organizationId || !data || !description) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, data, and description required' } });
     }
@@ -733,7 +771,7 @@ router.get('/timestamp/batch/:batchId', (req: Request, res: Response) => {
 // Search for similar decisions
 router.post('/similarity/search', async (req: Request, res: Response) => {
   try {
-    const { organizationId, title, question, context, decisionType, department, urgency, tags, maxResults, minSimilarity, includeOutcomes, includeCrossDepartment } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, title, question, context, decisionType, department, urgency, tags, maxResults, minSimilarity, includeOutcomes, includeCrossDepartment } = bodySchema2.parse(req.body);
     if (!organizationId || !title || !question) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, title, and question required' } });
     }

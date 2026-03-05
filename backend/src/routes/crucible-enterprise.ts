@@ -22,6 +22,12 @@ import { devAuth, requireRole } from '../middleware/auth.js';
 import { errors } from '../middleware/errorHandler.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  categories: z.unknown(),
+  signResults: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Apply authentication to all routes
@@ -112,7 +118,7 @@ router.get('/test-suites', async (_req: Request, res: Response) => {
  */
 router.post('/run', requireRole('ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { categories, signResults } = z.object({}).passthrough().parse(req.body);
+    const { categories, signResults } = bodySchema0.parse(req.body);
     
     const report = await enterpriseRedTeamService.runFullAssessment(
       req.organizationId!,

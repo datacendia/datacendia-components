@@ -23,6 +23,16 @@ import { cendiaGlassService } from '../services/sovereign/CendiaGlassService.js'
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  keyId: z.unknown(),
+  operation: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  challengeId: z.unknown(),
+  response: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -171,7 +181,7 @@ router.get('/key/attempts', async (req: Request, res: Response) => {
 
 router.post('/key/challenge', async (req: Request, res: Response) => {
   try {
-    const { keyId, operation } = z.object({}).passthrough().parse(req.body);
+    const { keyId, operation } = bodySchema0.parse(req.body);
     const challenge = await cendiaKeyService.createChallenge(keyId, operation);
     res.json({ success: true, data: challenge });
   } catch (error: unknown) {
@@ -181,7 +191,7 @@ router.post('/key/challenge', async (req: Request, res: Response) => {
 
 router.post('/key/verify', async (req: Request, res: Response) => {
   try {
-    const { challengeId, response } = z.object({}).passthrough().parse(req.body);
+    const { challengeId, response } = bodySchema1.parse(req.body);
     const result = await cendiaKeyService.verifyChallenge(challengeId, response);
     res.json({ success: true, data: result });
   } catch (error: unknown) {

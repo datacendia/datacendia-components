@@ -19,6 +19,14 @@
 
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  components: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  components: z.unknown(),
+}).passthrough();
+
 import { authenticate } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import { basel3Engine } from '../services/verticals/eu-banking/Basel3Engine.js';
@@ -32,6 +40,14 @@ import type {
 } from '../services/verticals/eu-banking/index.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  components: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  components: z.unknown(),
+}).passthrough();
+
 
 const capitalAdequacySchema = z.object({
   cet1Components: z.record(z.unknown()),
@@ -107,7 +123,7 @@ router.post('/basel3/credit-rwa', async (req: Request, res: Response) => {
 
 router.post('/basel3/lcr', async (req: Request, res: Response) => {
   try {
-    const { components } = z.object({}).passthrough().parse(req.body);
+    const { components } = bodySchema0.parse(req.body);
     if (!components) return res.status(400).json({ error: 'LCR components required' });
     const result = basel3Engine.calculateLCR(components as LCRComponents);
     logger.info('[EU-Banking] LCR calculated', { lcr: (result.lcr * 100).toFixed(2) + '%' });
@@ -120,7 +136,7 @@ router.post('/basel3/lcr', async (req: Request, res: Response) => {
 
 router.post('/basel3/nsfr', async (req: Request, res: Response) => {
   try {
-    const { components } = z.object({}).passthrough().parse(req.body);
+    const { components } = bodySchema0.parse(req.body);
     if (!components) return res.status(400).json({ error: 'NSFR components required' });
     const result = basel3Engine.calculateNSFR(components as NSFRComponents);
     logger.info('[EU-Banking] NSFR calculated', { nsfr: (result.nsfr * 100).toFixed(2) + '%' });

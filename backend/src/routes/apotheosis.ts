@@ -19,6 +19,12 @@ import { apotheosisService } from '../services/CendiaApotheosisService.js';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  response: z.unknown(),
+  reason: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Status endpoints for enterprise testing
@@ -110,7 +116,7 @@ router.get('/escalations', async (req: Request, res: Response) => {
 router.post('/escalations/:id/respond', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { response, reason } = z.object({}).passthrough().parse(req.body);
+    const { response, reason } = bodySchema0.parse(req.body);
     
     await apotheosisService.respondToEscalation(id, response, reason);
     res.json({ success: true });

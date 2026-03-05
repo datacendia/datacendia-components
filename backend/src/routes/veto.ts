@@ -21,6 +21,17 @@ import ollama from '../services/ollama.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  title: z.unknown(),
+  description: z.unknown(),
+  category: z.unknown(),
+  amount: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  reason: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 
 // Health endpoint
@@ -90,7 +101,7 @@ router.get('/agents', async (_req: Request, res: Response) => {
 // Submit a proposal for review
 router.post('/proposals', authenticate, async (req: Request, res: Response) => {
   try {
-    const { title, description, category, amount } = z.object({}).passthrough().parse(req.body);
+    const { title, description, category, amount } = bodySchema0.parse(req.body);
     const userId = req.user?.id || 'anonymous';
 
     if (!title || !description) {
@@ -163,7 +174,7 @@ router.get('/decisions/:id', authenticate, async (req: Request, res: Response) =
 // Request override
 router.post('/decisions/:id/override', authenticate, async (req: Request, res: Response) => {
   try {
-    const { reason } = z.object({}).passthrough().parse(req.body);
+    const { reason } = bodySchema1.parse(req.body);
     const userId = req.user?.id || 'anonymous';
     const decision = decisions.get(req.params.id);
     

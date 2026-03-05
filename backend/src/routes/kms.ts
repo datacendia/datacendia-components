@@ -21,6 +21,33 @@ import { devAuth } from '../middleware/auth.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  data: z.unknown(),
+  keyId: z.unknown(),
+  encoding: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  data: z.unknown(),
+  signature: z.unknown(),
+  keyId: z.unknown(),
+  encoding: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  data: z.unknown(),
+  keyId: z.unknown(),
+  encoding: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  ciphertext: z.unknown(),
+  keyId: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  keyId: z.unknown(),
+  algorithm: z.unknown(),
+  exportable: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // All routes require authentication
@@ -85,7 +112,7 @@ router.get('/status', async (_req: Request, res: Response) => {
  */
 router.post('/sign', async (req: Request, res: Response) => {
   try {
-    const { data, keyId, encoding = 'utf8' } = z.object({}).passthrough().parse(req.body);
+    const { data, keyId, encoding = 'utf8' } = bodySchema0.parse(req.body);
 
     if (!data) {
       res.status(400).json({
@@ -126,7 +153,7 @@ router.post('/sign', async (req: Request, res: Response) => {
  */
 router.post('/verify', async (req: Request, res: Response) => {
   try {
-    const { data, signature, keyId, encoding = 'utf8' } = z.object({}).passthrough().parse(req.body);
+    const { data, signature, keyId, encoding = 'utf8' } = bodySchema1.parse(req.body);
 
     if (!data || !signature) {
       res.status(400).json({
@@ -170,7 +197,7 @@ router.post('/verify', async (req: Request, res: Response) => {
  */
 router.post('/encrypt', async (req: Request, res: Response) => {
   try {
-    const { data, keyId, encoding = 'utf8' } = z.object({}).passthrough().parse(req.body);
+    const { data, keyId, encoding = 'utf8' } = bodySchema0.parse(req.body);
 
     if (!data) {
       res.status(400).json({
@@ -210,7 +237,7 @@ router.post('/encrypt', async (req: Request, res: Response) => {
  */
 router.post('/decrypt', async (req: Request, res: Response) => {
   try {
-    const { ciphertext, keyId } = z.object({}).passthrough().parse(req.body);
+    const { ciphertext, keyId } = bodySchema3.parse(req.body);
 
     if (!ciphertext) {
       res.status(400).json({
@@ -249,7 +276,7 @@ router.post('/decrypt', async (req: Request, res: Response) => {
  */
 router.post('/keys', async (req: Request, res: Response) => {
   try {
-    const { keyId, algorithm, exportable } = z.object({}).passthrough().parse(req.body);
+    const { keyId, algorithm, exportable } = bodySchema4.parse(req.body);
 
     if (!keyId) {
       res.status(400).json({

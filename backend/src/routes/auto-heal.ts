@@ -20,6 +20,14 @@ import { logger } from '../utils/logger.js';
 import { ollama } from '../services/ollama.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  model: z.unknown(),
+  prompt: z.unknown(),
+  systemPrompt: z.unknown(),
+  options: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -28,7 +36,7 @@ const router = Router();
 
 router.post('/generate', async (req: Request, res: Response) => {
   try {
-    const { model, prompt, systemPrompt, options } = z.object({}).passthrough().parse(req.body);
+    const { model, prompt, systemPrompt, options } = bodySchema0.parse(req.body);
 
     if (!prompt) {
       return res.status(400).json({

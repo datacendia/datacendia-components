@@ -19,6 +19,19 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  name: z.unknown(),
+  title: z.unknown(),
+  organization: z.unknown(),
+  concern: z.unknown(),
+  source: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  email: z.unknown(),
+  source: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 const prisma = new PrismaClient();
 
@@ -32,7 +45,7 @@ const prisma = new PrismaClient();
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const { name, title, organization, concern, source } = z.object({}).passthrough().parse(req.body);
+    const { name, title, organization, concern, source } = bodySchema0.parse(req.body);
 
     // Validate required fields
     if (!name || !organization) {
@@ -84,7 +97,7 @@ router.post('/', async (req: Request, res: Response) => {
  */
 router.post('/newsletter', async (req: Request, res: Response) => {
   try {
-    const { email, source } = z.object({}).passthrough().parse(req.body);
+    const { email, source } = bodySchema1.parse(req.body);
 
     if (!email) {
       return res.status(400).json({ error: 'Email is required' });

@@ -1,6 +1,20 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
+const bodySchema0 = z.object({
+  event_type: z.unknown(),
+  category: z.unknown(),
+  severity: z.unknown(),
+  title: z.unknown(),
+  description: z.unknown(),
+  resource_type: z.unknown(),
+  resource_id: z.unknown(),
+  metadata: z.unknown(),
+  impact: z.unknown(),
+  magnitude: z.unknown(),
+}).passthrough();
+
+
 const pivotalMomentsSchema = z.object({ organization_id: z.string().min(1), events: z.array(z.record(z.unknown())).optional(), limit: z.number().int().positive().optional(), department: z.string().optional() });
 const cascadeSchema = z.object({ organization_id: z.string().min(1), root_event: z.record(z.unknown()), all_events: z.array(z.record(z.unknown())).optional() });
 const forecastSchema = z.object({ organization_id: z.string().min(1), current_metrics: z.record(z.unknown()).optional(), recent_events: z.array(z.record(z.unknown())).optional(), time_horizon: z.number().optional() });
@@ -31,6 +45,20 @@ import { prisma } from '../config/database.js';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  event_type: z.unknown(),
+  category: z.unknown(),
+  severity: z.unknown(),
+  title: z.unknown(),
+  description: z.unknown(),
+  resource_type: z.unknown(),
+  resource_id: z.unknown(),
+  metadata: z.unknown(),
+  impact: z.unknown(),
+  magnitude: z.unknown(),
+}).passthrough();
+
 
 const pivotalMomentsSchema = z.object({ organization_id: z.string().min(1), events: z.array(z.record(z.unknown())).optional(), limit: z.number().int().positive().optional(), department: z.string().optional() });
 const cascadeSchema = z.object({ organization_id: z.string().min(1), root_event: z.record(z.unknown()), all_events: z.array(z.record(z.unknown())).optional() });
@@ -547,7 +575,7 @@ router.post('/chronos/events', async (req: Request, res: Response) => {
       return;
     }
 
-    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = z.object({}).passthrough().parse(req.body);
+    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = bodySchema0.parse(req.body);
 
     if (!event_type || !category || !title || !description) {
       res.status(400).json({ success: false, error: 'event_type, category, title, and description are required' });

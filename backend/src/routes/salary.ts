@@ -20,6 +20,38 @@ import { logger } from '../utils/logger.js';
 import marketSalaryService, { SalaryQuery } from '../services/MarketSalaryService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  currentSalary: z.unknown(),
+  title: z.unknown(),
+  level: z.unknown(),
+  location: z.unknown(),
+  industry: z.unknown(),
+  yearsExperience: z.unknown(),
+  companySize: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  currentSalary: z.unknown(),
+  title: z.unknown(),
+  level: z.unknown(),
+  location: z.unknown(),
+  industry: z.unknown(),
+  yearsExperience: z.unknown(),
+  companySize: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  currentSalary: z.unknown(),
+  title: z.unknown(),
+  level: z.unknown(),
+  location: z.unknown(),
+  industry: z.unknown(),
+  yearsExperience: z.unknown(),
+  companySize: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  roles: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 
 // =============================================================================
@@ -84,7 +116,7 @@ router.get('/lookup', authenticate, async (req: Request, res: Response) => {
 // Benchmark current compensation against market
 router.post('/benchmark', authenticate, async (req: Request, res: Response) => {
   try {
-    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = z.object({}).passthrough().parse(req.body);
+    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = bodySchema0.parse(req.body);
 
     if (!currentSalary || !title) {
       return res.status(400).json({ error: 'Current salary and job title are required' });
@@ -108,7 +140,7 @@ router.post('/benchmark', authenticate, async (req: Request, res: Response) => {
 // Prepare negotiation data
 router.post('/negotiate', authenticate, async (req: Request, res: Response) => {
   try {
-    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = z.object({}).passthrough().parse(req.body);
+    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = bodySchema0.parse(req.body);
 
     if (!currentSalary || !title) {
       return res.status(400).json({ error: 'Current salary and job title are required' });
@@ -128,7 +160,7 @@ router.post('/negotiate', authenticate, async (req: Request, res: Response) => {
 // Get full negotiation package (salary + benchmark + negotiation)
 router.post('/negotiate/full', authenticate, async (req: Request, res: Response) => {
   try {
-    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = z.object({}).passthrough().parse(req.body);
+    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = bodySchema0.parse(req.body);
 
     if (!currentSalary || !title) {
       return res.status(400).json({ error: 'Current salary and job title are required' });
@@ -168,7 +200,7 @@ router.post('/negotiate/full', authenticate, async (req: Request, res: Response)
 // Compare multiple roles
 router.post('/compare', authenticate, async (req: Request, res: Response) => {
   try {
-    const { roles } = z.object({}).passthrough().parse(req.body);
+    const { roles } = bodySchema3.parse(req.body);
 
     if (!roles || !Array.isArray(roles) || roles.length === 0) {
       return res.status(400).json({ error: 'Array of roles is required' });

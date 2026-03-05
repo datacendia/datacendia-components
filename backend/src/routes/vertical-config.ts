@@ -21,6 +21,23 @@ import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  verticalId: z.unknown(),
+  customEnabledServices: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  verticalId: z.unknown(),
+  preserveCustomizations: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  enabled: z.unknown(),
+  reason: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  toggles: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // Extract user/org info from request
@@ -186,7 +203,7 @@ router.get('/organization', async (req: Request, res: Response): Promise<void> =
 router.post('/organization', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
-    const { verticalId, customEnabledServices } = z.object({}).passthrough().parse(req.body);
+    const { verticalId, customEnabledServices } = bodySchema0.parse(req.body);
 
     if (!verticalId) {
       res.status(400).json({ error: 'verticalId is required' });
@@ -236,7 +253,7 @@ router.put('/organization', async (req: Request, res: Response): Promise<void> =
 router.post('/organization/switch-vertical', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
-    const { verticalId, preserveCustomizations = true } = z.object({}).passthrough().parse(req.body);
+    const { verticalId, preserveCustomizations = true } = bodySchema1.parse(req.body);
 
     if (!verticalId) {
       res.status(400).json({ error: 'verticalId is required' });
@@ -269,7 +286,7 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<v
   try {
     const { userId, organizationId } = extractContext(req);
     const serviceId = req.params['serviceId'] as string;
-    const { enabled, reason } = z.object({}).passthrough().parse(req.body);
+    const { enabled, reason } = bodySchema2.parse(req.body);
 
     if (typeof enabled !== 'boolean') {
       res.status(400).json({ error: 'enabled (boolean) is required' });
@@ -298,7 +315,7 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<v
 router.post('/toggle-bulk', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
-    const { toggles } = z.object({}).passthrough().parse(req.body);
+    const { toggles } = bodySchema3.parse(req.body);
 
     if (!Array.isArray(toggles)) {
       res.status(400).json({ error: 'toggles array is required' });

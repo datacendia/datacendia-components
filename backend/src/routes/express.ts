@@ -40,6 +40,25 @@ import { cendiaHorizonService } from '../services/CendiaHorizonService.js';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  query: z.unknown(),
+  domain: z.unknown(),
+  context: z.unknown(),
+  mode: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  violationIds: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  scenarioType: z.unknown(),
+  description: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  question: z.unknown(),
+  timeHorizon: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // =============================================================================
@@ -55,7 +74,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { query, domain, context, mode } = z.object({}).passthrough().parse(req.body);
+    const { query, domain, context, mode } = bodySchema0.parse(req.body);
 
     if (!query) {
       return res.status(400).json({ error: 'query is required' });
@@ -118,7 +137,7 @@ router.post('/compliance/remediate', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { violationIds } = z.object({}).passthrough().parse(req.body);
+    const { violationIds } = bodySchema1.parse(req.body);
 
     const result = await cendiaPanopticonService.generateRemediationSteps(
       user.organizationId,
@@ -187,7 +206,7 @@ router.post('/simulation/quick', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { scenarioType, description } = z.object({}).passthrough().parse(req.body);
+    const { scenarioType, description } = bodySchema2.parse(req.body);
 
     if (!scenarioType) {
       return res.status(400).json({
@@ -264,7 +283,7 @@ router.post('/forecast', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { question, timeHorizon } = z.object({}).passthrough().parse(req.body);
+    const { question, timeHorizon } = bodySchema3.parse(req.body);
 
     if (!question) {
       return res.status(400).json({ error: 'question is required' });

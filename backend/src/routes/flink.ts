@@ -20,6 +20,15 @@ import { logger } from '../utils/logger.js';
 import { flinkCEP } from '../services/streaming/FlinkCEPService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  enabled: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  event: z.unknown(),
+  events: z.unknown(),
+}).passthrough();
+
 const router = Router();
 router.use(devAuth);
 
@@ -55,7 +64,7 @@ router.get('/rules/:ruleId', (req: Request, res: Response) => {
 });
 
 router.patch('/rules/:ruleId/toggle', (req: Request, res: Response) => {
-  const { enabled } = z.object({}).passthrough().parse(req.body);
+  const { enabled } = bodySchema0.parse(req.body);
   if (typeof enabled !== 'boolean') { res.status(400).json({ success: false, error: 'enabled (boolean) required' }); return; }
   const ok = flinkCEP.setRuleEnabled(req.params.ruleId!, enabled);
   if (!ok) { res.status(404).json({ success: false, error: 'Rule not found' }); return; }
@@ -67,7 +76,7 @@ router.patch('/rules/:ruleId/toggle', (req: Request, res: Response) => {
 
 router.post('/events/ingest', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { event, events } = z.object({}).passthrough().parse(req.body);
+    const { event, events } = bodySchema1.parse(req.body);
     if (events && Array.isArray(events)) {
       const alerts = await flinkCEP.ingestBatch(events.map((e: any) => ({ ...e, timestamp: new Date(e.timestamp || Date.now()) })));
       res.json({ success: true, data: { ingested: events.length, alerts } });

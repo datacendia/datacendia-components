@@ -1,5 +1,22 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  sourceJurisdiction: z.unknown(),
+  destinationJurisdiction: z.unknown(),
+  dataTypes: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  organizationId: z.unknown(),
+  jurisdictions: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  jurisdictions: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  jurisdictions: z.unknown(),
+}).passthrough();
+
 /**
  * API Routes — Cross Jurisdiction
  *
@@ -21,6 +38,23 @@ import { Router, Request, Response } from 'express';
 import { crossJurisdictionEngineService, Jurisdiction } from '../services/compliance/CrossJurisdictionEngineService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  sourceJurisdiction: z.unknown(),
+  destinationJurisdiction: z.unknown(),
+  dataTypes: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  organizationId: z.unknown(),
+  jurisdictions: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  jurisdictions: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  jurisdictions: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 /**
@@ -73,7 +107,7 @@ router.get('/jurisdictions/:id', (req: Request, res: Response): void => {
  */
 router.post('/assess-transfer', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { sourceJurisdiction, destinationJurisdiction, dataTypes } = z.object({}).passthrough().parse(req.body);
+    const { sourceJurisdiction, destinationJurisdiction, dataTypes } = bodySchema0.parse(req.body);
 
     if (!sourceJurisdiction || !destinationJurisdiction || !dataTypes) {
       res.status(400).json({
@@ -101,7 +135,7 @@ router.post('/assess-transfer', async (req: Request, res: Response): Promise<voi
  */
 router.post('/compliance-matrix', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, jurisdictions } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, jurisdictions } = bodySchema1.parse(req.body);
 
     if (!organizationId || !jurisdictions || !Array.isArray(jurisdictions)) {
       res.status(400).json({
@@ -128,7 +162,7 @@ router.post('/compliance-matrix', async (req: Request, res: Response): Promise<v
  */
 router.post('/detect-conflicts', (req: Request, res: Response): void => {
   try {
-    const { jurisdictions } = z.object({}).passthrough().parse(req.body);
+    const { jurisdictions } = bodySchema2.parse(req.body);
 
     if (!jurisdictions || !Array.isArray(jurisdictions)) {
       res.status(400).json({ success: false, error: 'jurisdictions array is required' });
@@ -151,7 +185,7 @@ router.post('/detect-conflicts', (req: Request, res: Response): void => {
  */
 router.post('/data-residency', (req: Request, res: Response): void => {
   try {
-    const { jurisdictions } = z.object({}).passthrough().parse(req.body);
+    const { jurisdictions } = bodySchema2.parse(req.body);
 
     if (!jurisdictions || !Array.isArray(jurisdictions)) {
       res.status(400).json({ success: false, error: 'jurisdictions array is required' });

@@ -17,6 +17,46 @@ import { Router, Request, Response } from 'express';
 import { cendiaSentryService } from '../services/CendiaSentryService.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  userId: z.unknown(),
+  inputType: z.unknown(),
+  input: z.unknown(),
+  output: z.unknown(),
+  agentId: z.unknown(),
+  modelUsed: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  configs: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  userId: z.unknown(),
+  inputType: z.unknown(),
+  input: z.unknown(),
+  output: z.unknown(),
+  agentId: z.unknown(),
+  modelUsed: z.unknown(),
+  domain: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  checkId: z.unknown(),
+  guardrailType: z.unknown(),
+  correctedDecision: z.unknown(),
+  reason: z.unknown(),
+  correctedBy: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  userId: z.unknown(),
+  inputType: z.unknown(),
+  input: z.unknown(),
+  output: z.unknown(),
+  agentId: z.unknown(),
+  modelUsed: z.unknown(),
+  context: z.unknown(),
+}).passthrough();
+
 const router = Router();
 
 // ===========================================================================
@@ -30,7 +70,7 @@ const router = Router();
 router.post('/check', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { userId, inputType, input, output, agentId, modelUsed, context } = z.object({}).passthrough().parse(req.body);
+    const { userId, inputType, input, output, agentId, modelUsed, context } = bodySchema0.parse(req.body);
     const result = await cendiaSentryService.checkContent({
       organizationId: orgId,
       userId: userId || 'anonymous',
@@ -84,7 +124,7 @@ router.get('/statistics', async (req: Request, res: Response) => {
 router.put('/config', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { configs } = z.object({}).passthrough().parse(req.body);
+    const { configs } = bodySchema1.parse(req.body);
     cendiaSentryService.setGuardrailConfig(orgId, configs);
     res.json({ success: true, message: 'Guardrail configuration updated' });
   } catch (error) {
@@ -103,7 +143,7 @@ router.put('/config', async (req: Request, res: Response) => {
 router.post('/check-context', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { userId, inputType, input, output, agentId, modelUsed, domain, context } = z.object({}).passthrough().parse(req.body);
+    const { userId, inputType, input, output, agentId, modelUsed, domain, context } = bodySchema2.parse(req.body);
     if (!domain) {
       return res.status(400).json({ success: false, error: { message: 'domain is required (general|medical|financial|legal|technical|hr)' } });
     }
@@ -147,7 +187,7 @@ router.get('/explain/:checkId', async (req: Request, res: Response) => {
 router.post('/correct', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { checkId, guardrailType, correctedDecision, reason, correctedBy } = z.object({}).passthrough().parse(req.body);
+    const { checkId, guardrailType, correctedDecision, reason, correctedBy } = bodySchema3.parse(req.body);
     if (!checkId || !guardrailType || !correctedDecision) {
       return res.status(400).json({ success: false, error: { message: 'checkId, guardrailType, and correctedDecision are required' } });
     }
@@ -186,7 +226,7 @@ router.get('/corrections', async (req: Request, res: Response) => {
 router.post('/check-tiered', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { userId, inputType, input, output, agentId, modelUsed, context } = z.object({}).passthrough().parse(req.body);
+    const { userId, inputType, input, output, agentId, modelUsed, context } = bodySchema0.parse(req.body);
     const result = await cendiaSentryService.checkContentTiered({
       organizationId: orgId,
       userId: userId || 'anonymous',

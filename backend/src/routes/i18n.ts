@@ -21,6 +21,11 @@
 
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  language: z.unknown(),
+}).passthrough();
+
 import { 
   translationService, 
   SUPPORTED_LANGUAGES,
@@ -294,7 +299,7 @@ router.put('/user/preference', async (req: Request, res: Response) => {
 
 router.post('/cache/clear', async (req: Request, res: Response) => {
   try {
-    const { language } = z.object({}).passthrough().parse(req.body);
+    const { language } = bodySchema0.parse(req.body);
     await translationService.clearCache(language);
 
     res.json({

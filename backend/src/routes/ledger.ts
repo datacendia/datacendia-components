@@ -20,6 +20,27 @@ import { logger } from '../utils/logger.js';
 import crypto from 'crypto';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  title: z.unknown(),
+  description: z.unknown(),
+  agents: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  agentId: z.unknown(),
+  vote: z.unknown(),
+  confidence: z.unknown(),
+  reasoning: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  status: z.unknown(),
+  finalConfidence: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  framework: z.unknown(),
+  reason: z.unknown(),
+}).passthrough();
+
 const router: Router = express.Router();
 
 // Health & Status endpoints (no auth required)
@@ -303,7 +324,7 @@ router.post('/entries/:id/verify', authenticate, async (req: Request, res: Respo
 // Create decision record
 router.post('/decisions', authenticate, async (req: Request, res: Response) => {
   try {
-    const { title, description, agents } = z.object({}).passthrough().parse(req.body);
+    const { title, description, agents } = bodySchema0.parse(req.body);
     const userId = req.user?.id || 'anonymous';
 
     if (!title || !description) {
@@ -401,7 +422,7 @@ router.get('/decisions/:id', authenticate, async (req: Request, res: Response) =
 // Record vote
 router.post('/decisions/:id/vote', authenticate, async (req: Request, res: Response) => {
   try {
-    const { agentId, vote, confidence, reasoning } = z.object({}).passthrough().parse(req.body);
+    const { agentId, vote, confidence, reasoning } = bodySchema1.parse(req.body);
     const decision = decisions.get(req.params.id);
     
     if (!decision) {
@@ -455,7 +476,7 @@ router.post('/decisions/:id/vote', authenticate, async (req: Request, res: Respo
 // Finalize decision
 router.post('/decisions/:id/finalize', authenticate, async (req: Request, res: Response) => {
   try {
-    const { status, finalConfidence } = z.object({}).passthrough().parse(req.body);
+    const { status, finalConfidence } = bodySchema2.parse(req.body);
     const decision = decisions.get(req.params.id);
     
     if (!decision) {
@@ -509,7 +530,7 @@ router.post('/decisions/:id/finalize', authenticate, async (req: Request, res: R
 // Request audit
 router.post('/decisions/:id/audit', authenticate, async (req: Request, res: Response) => {
   try {
-    const { framework, reason } = z.object({}).passthrough().parse(req.body);
+    const { framework, reason } = bodySchema3.parse(req.body);
     const userId = req.user?.id || 'anonymous';
     const decision = decisions.get(req.params.id);
     

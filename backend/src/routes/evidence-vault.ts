@@ -23,6 +23,34 @@ import multer from 'multer';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const bodySchema0 = z.object({
+  decisionId: z.unknown(),
+  dataSourceId: z.unknown(),
+  mode: z.unknown(),
+  businessUnit: z.unknown(),
+  systemsImpacted: z.unknown(),
+  complianceFrameworks: z.unknown(),
+  policyPackVersion: z.unknown(),
+}).passthrough();
+const bodySchema1 = z.object({
+  approvers: z.unknown(),
+  message: z.unknown(),
+  dueDate: z.unknown(),
+}).passthrough();
+const bodySchema2 = z.object({
+  response: z.unknown(),
+  comment: z.unknown(),
+}).passthrough();
+const bodySchema3 = z.object({
+  description: z.unknown(),
+  category: z.unknown(),
+}).passthrough();
+const bodySchema4 = z.object({
+  justification: z.unknown(),
+  urgencyLevel: z.unknown(),
+}).passthrough();
+
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } }); // 50MB limit
 
@@ -119,7 +147,7 @@ router.get('/packets/:id', async (req: Request, res: Response) => {
 router.post('/packets/generate', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { decisionId, dataSourceId, mode, businessUnit, systemsImpacted, complianceFrameworks, policyPackVersion } = z.object({}).passthrough().parse(req.body);
+    const { decisionId, dataSourceId, mode, businessUnit, systemsImpacted, complianceFrameworks, policyPackVersion } = bodySchema0.parse(req.body);
 
     if (!decisionId || !dataSourceId) {
       return res.status(400).json({ error: 'decisionId and dataSourceId are required' });
@@ -158,7 +186,7 @@ router.post('/packets/generate', async (req: Request, res: Response) => {
 router.post('/packets/:id/send-to-approvers', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { approvers, message, dueDate } = z.object({}).passthrough().parse(req.body);
+    const { approvers, message, dueDate } = bodySchema1.parse(req.body);
 
     if (!approvers || !Array.isArray(approvers) || approvers.length === 0) {
       return res.status(400).json({ error: 'At least one approver is required' });
@@ -187,7 +215,7 @@ router.post('/packets/:id/send-to-approvers', async (req: Request, res: Response
 router.post('/workflows/:id/respond', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { response, comment } = z.object({}).passthrough().parse(req.body);
+    const { response, comment } = bodySchema2.parse(req.body);
 
     if (!['approved', 'rejected'].includes(response)) {
       return res.status(400).json({ error: 'Response must be "approved" or "rejected"' });
@@ -224,7 +252,7 @@ router.post('/packets/:id/attachments', upload.single('file'), async (req: Reque
       return res.status(400).json({ error: 'File is required' });
     }
 
-    const { description, category } = z.object({}).passthrough().parse(req.body);
+    const { description, category } = bodySchema3.parse(req.body);
 
     const attachment = await evidenceVaultService.attachEvidence(
       req.params.id,
@@ -283,7 +311,7 @@ router.post('/packets/:id/lock', async (req: Request, res: Response) => {
 router.post('/packets/:id/break-glass', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { justification, urgencyLevel } = z.object({}).passthrough().parse(req.body);
+    const { justification, urgencyLevel } = bodySchema4.parse(req.body);
 
     if (!justification) {
       return res.status(400).json({ error: 'Justification is required' });
