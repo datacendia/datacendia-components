@@ -19,6 +19,13 @@ import { complianceService, complianceEnforcer, ComplianceDomain, PillarId } fro
 import { complianceGuard, councilComplianceMiddleware, CouncilProposal } from '../services/council/ComplianceGuard.js';
 
 import { z } from 'zod';
+
+const assessSchema = z.object({ organizationId: z.string().min(1), pillarId: z.string().min(1), assessor: z.string().optional() });
+const frameworkAssessSchema = z.object({ organizationId: z.string().min(1), frameworkId: z.string().min(1), pillarId: z.string().optional(), assessor: z.string().optional() });
+const reportGenSchema = z.object({ organizationId: z.string().min(1), frameworks: z.array(z.string()).optional(), pillars: z.array(z.string()).optional(), domains: z.array(z.string()).optional(), generatedBy: z.string().optional() });
+const agentActionSchema = z.object({ agentId: z.string().min(1), action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional() });
+const auditActionSchema = z.object({ action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional(), pillar: z.string().optional(), userId: z.string().optional(), agentId: z.string().optional(), metadata: z.record(z.unknown()).optional() });
+const consentSchema = z.object({ id: z.string().min(1), agentId: z.string().optional(), action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional(), targetSystems: z.array(z.string()).optional(), affectedData: z.array(z.string()).optional(), rationale: z.string().optional() });
 const router = Router();
 
 // Health endpoint
@@ -154,7 +161,7 @@ router.get('/pillars/:pillarId/mapping', (req: Request, res: Response) => {
  */
 router.post('/assessments/pillar', async (req: Request, res: Response) => {
   try {
-    const { organizationId, pillarId, assessor } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, pillarId, assessor } = assessSchema.parse(req.body);
 
     if (!organizationId || !pillarId || !assessor) {
       return res.status(400).json({ 
@@ -199,7 +206,7 @@ router.post('/assessments/pillar', async (req: Request, res: Response) => {
  */
 router.post('/assessments/framework', async (req: Request, res: Response) => {
   try {
-    const { organizationId, frameworkId, pillarId, assessor } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, frameworkId, pillarId, assessor } = frameworkAssessSchema.parse(req.body);
 
     if (!organizationId || !frameworkId || !pillarId || !assessor) {
       return res.status(400).json({ 
@@ -282,7 +289,7 @@ router.get('/assessments', (req: Request, res: Response) => {
  */
 router.post('/bundles/generate', async (req: Request, res: Response) => {
   try {
-    const { organizationId, frameworks, pillars, domains, generatedBy } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, frameworks, pillars, domains, generatedBy } = reportGenSchema.parse(req.body);
 
     if (!organizationId || !generatedBy) {
       return res.status(400).json({ 
@@ -512,7 +519,7 @@ router.get('/summary', (req: Request, res: Response) => {
  */
 router.post('/enforce', (req: Request, res: Response) => {
   try {
-    const { agentId, action, description, dataTypes } = z.object({}).passthrough().parse(req.body);
+    const { agentId, action, description, dataTypes } = agentActionSchema.parse(req.body);
 
     if (!action || !description) {
       return res.status(400).json({
@@ -557,7 +564,7 @@ router.post('/enforce', (req: Request, res: Response) => {
  */
 router.post('/check', (req: Request, res: Response) => {
   try {
-    const { action, description, dataTypes, pillar, userId, agentId, metadata } = z.object({}).passthrough().parse(req.body);
+    const { action, description, dataTypes, pillar, userId, agentId, metadata } = auditActionSchema.parse(req.body);
 
     if (!action || !description) {
       return res.status(400).json({
@@ -633,7 +640,7 @@ router.get('/rules', (req: Request, res: Response) => {
  */
 router.post('/council/evaluate', (req: Request, res: Response) => {
   try {
-    const { id, agentId, action, description, dataTypes, targetSystems, affectedData, rationale } = z.object({}).passthrough().parse(req.body);
+    const { id, agentId, action, description, dataTypes, targetSystems, affectedData, rationale } = consentSchema.parse(req.body);
 
     if (!action || !description) {
       return res.status(400).json({

@@ -19,6 +19,15 @@ import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const featureCreateSchema = z.object({ featureId: z.string().min(1), featureName: z.string().min(1), featureDescription: z.string().optional() });
+const featureIdSchema = z.object({ featureId: z.string().min(1) });
+const textSchema = z.object({ text: z.string().min(1) });
+const dateSchema = z.object({ date: z.string().optional() });
+const runwaySchema = z.object({ cash: z.number(), expenses: z.number() });
+const pricingSchema = z.object({ tier: z.string().min(1), currentPrice: z.number().optional() });
+const subscriptionsSchema = z.object({ subscriptions: z.array(z.record(z.unknown())) });
+const customerIdSchema = z.object({ customerId: z.string().min(1) });
 // Core Services
 import { cendiaBrandService } from '../services/core/CendiaBrandService.js';
 import { cendiaFoundryService } from '../services/core/CendiaFoundryService.js';
@@ -28,6 +37,15 @@ import { cendiaWatchService } from '../services/core/CendiaWatchService.js';
 import { getCoreDashboard } from '../services/core/index.js';
 
 import { z } from 'zod';
+
+const featureCreateSchema = z.object({ featureId: z.string().min(1), featureName: z.string().min(1), featureDescription: z.string().optional() });
+const featureIdSchema = z.object({ featureId: z.string().min(1) });
+const textSchema = z.object({ text: z.string().min(1) });
+const dateSchema = z.object({ date: z.string().optional() });
+const runwaySchema = z.object({ cash: z.number(), expenses: z.number() });
+const pricingSchema = z.object({ tier: z.string().min(1), currentPrice: z.number().optional() });
+const subscriptionsSchema = z.object({ subscriptions: z.array(z.record(z.unknown())) });
+const customerIdSchema = z.object({ customerId: z.string().min(1) });
 const router: Router = express.Router();
 
 // All core admin routes require authentication and admin-level role
@@ -65,7 +83,7 @@ router.get('/brand/content', authenticate, async (_req: Request, res: Response) 
 // Generate LinkedIn post for feature
 router.post('/brand/generate/linkedin', authenticate, async (req: Request, res: Response) => {
   try {
-    const { featureId, featureName, featureDescription } = z.object({}).passthrough().parse(req.body);
+    const { featureId, featureName, featureDescription } = featureCreateSchema.parse(req.body);
     
     cendiaBrandService.registerFeature({
       id: featureId || `feat-${Date.now()}`,
@@ -91,7 +109,7 @@ router.post('/brand/generate/linkedin', authenticate, async (req: Request, res: 
 // Generate full marketing package
 router.post('/brand/generate/package', authenticate, async (req: Request, res: Response) => {
   try {
-    const { featureId } = z.object({}).passthrough().parse(req.body);
+    const { featureId } = featureIdSchema.parse(req.body);
     const package_ = await cendiaBrandService.generateMarketingPackage(featureId);
     res.json({ package: package_ });
   } catch (error) {
@@ -103,7 +121,7 @@ router.post('/brand/generate/package', authenticate, async (req: Request, res: R
 // Audit content for brand voice
 router.post('/brand/audit', authenticate, async (req: Request, res: Response) => {
   try {
-    const { text } = z.object({}).passthrough().parse(req.body);
+    const { text } = textSchema.parse(req.body);
     const audit = await cendiaBrandService.auditContent(text);
     res.json({ audit });
   } catch (error) {
@@ -126,7 +144,7 @@ router.post('/brand/content/:id/approve', authenticate, async (req: Request, res
 // Schedule content
 router.post('/brand/content/:id/schedule', authenticate, async (req: Request, res: Response) => {
   try {
-    const { date } = z.object({}).passthrough().parse(req.body);
+    const { date } = dateSchema.parse(req.body);
     cendiaBrandService.scheduleContent(req.params.id, new Date(date));
     res.json({ success: true });
   } catch (error) {
@@ -234,7 +252,7 @@ router.get('/revenue/metrics', authenticate, async (_req: Request, res: Response
 // Calculate runway
 router.post('/revenue/runway', authenticate, async (req: Request, res: Response) => {
   try {
-    const { cash, expenses } = z.object({}).passthrough().parse(req.body);
+    const { cash, expenses } = runwaySchema.parse(req.body);
     const runway = cendiaRevenueService.calculateRunway(cash, expenses);
     res.json({ runway });
   } catch (error) {
@@ -246,7 +264,7 @@ router.post('/revenue/runway', authenticate, async (req: Request, res: Response)
 // Get pricing recommendation
 router.post('/revenue/pricing', authenticate, async (req: Request, res: Response) => {
   try {
-    const { tier, currentPrice } = z.object({}).passthrough().parse(req.body);
+    const { tier, currentPrice } = pricingSchema.parse(req.body);
     const recommendation = await cendiaRevenueService.analyzePricing(tier, currentPrice);
     res.json({ recommendation });
   } catch (error) {
@@ -269,7 +287,7 @@ router.get('/revenue/pricing/quick', authenticate, async (_req: Request, res: Re
 // Sync from Stripe
 router.post('/revenue/sync/stripe', authenticate, async (req: Request, res: Response) => {
   try {
-    const { subscriptions } = z.object({}).passthrough().parse(req.body);
+    const { subscriptions } = subscriptionsSchema.parse(req.body);
     await cendiaRevenueService.syncFromStripe(subscriptions);
     res.json({ success: true });
   } catch (error) {
@@ -379,7 +397,7 @@ router.get('/support/metrics', authenticate, async (_req: Request, res: Response
 // Record login
 router.post('/support/activity/login', authenticate, async (req: Request, res: Response) => {
   try {
-    const { customerId } = z.object({}).passthrough().parse(req.body);
+    const { customerId } = customerIdSchema.parse(req.body);
     cendiaSupportService.recordLogin(customerId);
     res.json({ success: true });
   } catch (error) {

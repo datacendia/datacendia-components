@@ -133,7 +133,7 @@ router.get('/ghost-board/status', async (_req: Request, res: Response) => {
  */
 router.post('/ghost-board/rehearse', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { topic, presentationNotes, boardComposition } = z.object({}).passthrough().parse(req.body);
+    const { topic, presentationNotes, boardComposition } = ghostBoardPrepSchema.parse(req.body);
     
     if (!topic) {
       res.status(400).json({ success: false, error: 'Topic is required' });
@@ -196,7 +196,7 @@ router.get('/pre-mortem/status', async (_req: Request, res: Response) => {
  */
 router.post('/pre-mortem/analyze', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { decision, context, stakeholders, organizationId } = z.object({}).passthrough().parse(req.body);
+    const { decision, context, stakeholders, organizationId } = preMortemRunSchema.parse(req.body);
     
     if (!decision) {
       res.status(400).json({ success: false, error: 'Decision is required' });
@@ -396,7 +396,7 @@ router.get('/oversight/frameworks', async (_req: Request, res: Response) => {
  */
 router.post('/oversight/check', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { decision, frameworks, organizationId } = z.object({}).passthrough().parse(req.body);
+    const { decision, frameworks, organizationId } = complianceCheckSchema.parse(req.body);
     if (!decision) {
       res.status(400).json({ success: false, error: 'Decision is required' });
       return;
@@ -439,7 +439,7 @@ router.get('/notary/status', async (_req: Request, res: Response) => {
  */
 router.post('/notary/sign', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { documentId, content } = z.object({}).passthrough().parse(req.body);
+    const { documentId, content } = docContentSchema.parse(req.body);
     if (!content) {
       res.status(400).json({ success: false, error: 'Content is required' });
       return;
@@ -506,7 +506,7 @@ router.get('/vault/status', async (_req: Request, res: Response) => {
  */
 router.post('/vault/store', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { type, deliberationId, content, metadata } = z.object({}).passthrough().parse(req.body);
+    const { type, deliberationId, content, metadata } = evidenceCreateSchema.parse(req.body);
     if (!content) {
       res.status(400).json({ success: false, error: 'Content is required' });
       return;
@@ -620,7 +620,7 @@ router.get('/crucible/status', async (_req: Request, res: Response) => {
  */
 router.post('/crucible/test', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { decision, testType } = z.object({}).passthrough().parse(req.body);
+    const { decision, testType } = stressTestSchema.parse(req.body);
     if (!decision) {
       res.status(400).json({ success: false, error: 'Decision is required' });
       return;

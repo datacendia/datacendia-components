@@ -1,5 +1,12 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
+
+const pivotalMomentsSchema = z.object({ organization_id: z.string().min(1), events: z.array(z.record(z.unknown())).optional(), limit: z.number().int().positive().optional(), department: z.string().optional() });
+const cascadeSchema = z.object({ organization_id: z.string().min(1), root_event: z.record(z.unknown()), all_events: z.array(z.record(z.unknown())).optional() });
+const forecastSchema = z.object({ organization_id: z.string().min(1), current_metrics: z.record(z.unknown()).optional(), recent_events: z.array(z.record(z.unknown())).optional(), time_horizon: z.number().optional() });
+const timelineSchema = z.object({ organization_id: z.string().min(1), start_date: z.string().optional(), end_date: z.string().optional(), events: z.array(z.record(z.unknown())).optional(), metrics: z.record(z.unknown()).optional() });
+const counterfactualSchema = z.object({ organization_id: z.string().min(1), event: z.record(z.unknown()), alternative_action: z.string().optional() });
+const eventCreateSchema = z.object({ event_type: z.string().min(1), category: z.string().optional(), severity: z.string().optional(), title: z.string().min(1), description: z.string().optional(), resource_type: z.string().optional(), resource_id: z.string().optional(), metadata: z.record(z.unknown()).optional(), impact_score: z.number().optional() });
 /**
  * API Routes — Decision Intel
  *
@@ -24,6 +31,13 @@ import { prisma } from '../config/database.js';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const pivotalMomentsSchema = z.object({ organization_id: z.string().min(1), events: z.array(z.record(z.unknown())).optional(), limit: z.number().int().positive().optional(), department: z.string().optional() });
+const cascadeSchema = z.object({ organization_id: z.string().min(1), root_event: z.record(z.unknown()), all_events: z.array(z.record(z.unknown())).optional() });
+const forecastSchema = z.object({ organization_id: z.string().min(1), current_metrics: z.record(z.unknown()).optional(), recent_events: z.array(z.record(z.unknown())).optional(), time_horizon: z.number().optional() });
+const timelineSchema = z.object({ organization_id: z.string().min(1), start_date: z.string().optional(), end_date: z.string().optional(), events: z.array(z.record(z.unknown())).optional(), metrics: z.record(z.unknown()).optional() });
+const counterfactualSchema = z.object({ organization_id: z.string().min(1), event: z.record(z.unknown()), alternative_action: z.string().optional() });
+const eventCreateSchema = z.object({ event_type: z.string().min(1), category: z.string().optional(), severity: z.string().optional(), title: z.string().min(1), description: z.string().optional(), resource_type: z.string().optional(), resource_id: z.string().optional(), metadata: z.record(z.unknown()).optional(), impact_score: z.number().optional() });
 const router = Router();
 
 router.use(devAuth);
@@ -152,7 +166,7 @@ router.post('/chronos/snapshots', async (req: Request, res: Response) => {
 // AI Pivotal Moment Detection
 router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) => {
   try {
-    const { organization_id, events, limit, department } = z.object({}).passthrough().parse(req.body);
+    const { organization_id, events, limit, department } = pivotalMomentsSchema.parse(req.body);
     
     if (!events || !Array.isArray(events)) {
       return res.status(400).json({ success: false, error: 'Events array required' });
@@ -185,7 +199,7 @@ router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) =
 // AI Causal Chain Analysis
 router.post('/chronos/ai/causal-chain', async (req: Request, res: Response) => {
   try {
-    const { organization_id, root_event, all_events } = z.object({}).passthrough().parse(req.body);
+    const { organization_id, root_event, all_events } = cascadeSchema.parse(req.body);
     
     if (!root_event) {
       return res.status(400).json({ success: false, error: 'Root event required' });
@@ -212,7 +226,7 @@ router.post('/chronos/ai/causal-chain', async (req: Request, res: Response) => {
 // AI Future Scenario Generation
 router.post('/chronos/ai/future-scenarios', async (req: Request, res: Response) => {
   try {
-    const { organization_id, current_metrics, recent_events, time_horizon } = z.object({}).passthrough().parse(req.body);
+    const { organization_id, current_metrics, recent_events, time_horizon } = forecastSchema.parse(req.body);
 
     const orgId = req.organizationId || organization_id || 'default';
 
@@ -236,7 +250,7 @@ router.post('/chronos/ai/future-scenarios', async (req: Request, res: Response) 
 // AI Timeline Insight
 router.post('/chronos/ai/timeline-insight', async (req: Request, res: Response) => {
   try {
-    const { organization_id, start_date, end_date, events, metrics } = z.object({}).passthrough().parse(req.body);
+    const { organization_id, start_date, end_date, events, metrics } = timelineSchema.parse(req.body);
     
     if (!start_date || !end_date) {
       return res.status(400).json({ success: false, error: 'Start and end dates required' });
@@ -265,7 +279,7 @@ router.post('/chronos/ai/timeline-insight', async (req: Request, res: Response) 
 // AI "What If" Analysis
 router.post('/chronos/ai/what-if', async (req: Request, res: Response) => {
   try {
-    const { organization_id, event, alternative_action } = z.object({}).passthrough().parse(req.body);
+    const { organization_id, event, alternative_action } = counterfactualSchema.parse(req.body);
     
     if (!event || !alternative_action) {
       return res.status(400).json({ success: false, error: 'Event and alternative action required' });

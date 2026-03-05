@@ -29,6 +29,16 @@ import { Router, Request, Response } from 'express';
 import { legalResearchService } from '../services/legal/LegalResearchService.js';
 
 import { z } from 'zod';
+
+const caseSearchSchema = z.object({ query: z.string().min(1), jurisdiction: z.string().optional(), dateMin: z.string().optional(), dateMax: z.string().optional(), limit: z.number().int().positive().optional() });
+const titleSearchSchema = z.object({ query: z.string().min(1), title: z.string().optional(), limit: z.number().int().positive().optional() });
+const stateSearchSchema = z.object({ query: z.string().min(1), state: z.string().optional(), limit: z.number().int().positive().optional() });
+const regSearchSchema = z.object({ query: z.string().min(1), type: z.string().optional(), agency: z.string().optional(), days: z.number().int().optional(), limit: z.number().int().positive().optional() });
+const secSearchSchema = z.object({ cik: z.string().optional(), form: z.string().optional(), limit: z.number().int().positive().optional() });
+const fullSearchSchema = z.object({ query: z.string().min(1), jurisdiction: z.string().optional(), dateMin: z.string().optional(), dateMax: z.string().optional(), contentType: z.string().optional(), limit: z.number().int().positive().optional() });
+const multiSearchSchema = z.object({ query: z.string().min(1), sources: z.array(z.string()).optional(), jurisdiction: z.string().optional(), limit: z.number().int().positive().optional() });
+const toolCallSchema = z.object({ tool: z.string().min(1), params: z.record(z.unknown()) });
+const configStatusSchema = z.object({ caselaw: z.record(z.unknown()).optional(), courtlistener: z.record(z.unknown()).optional(), openstates: z.record(z.unknown()).optional() });
 const router = Router();
 
 // ===========================================================================
@@ -59,7 +69,7 @@ router.get('/status', async (_req: Request, res: Response) => {
 
 router.post('/cases', async (req: Request, res: Response) => {
   try {
-    const { query, jurisdiction, dateMin, dateMax, limit } = z.object({}).passthrough().parse(req.body);
+    const { query, jurisdiction, dateMin, dateMax, limit } = caseSearchSchema.parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -113,7 +123,7 @@ router.get('/cases/:citation', async (req: Request, res: Response) => {
 
 router.post('/regulations', async (req: Request, res: Response) => {
   try {
-    const { query, title, limit } = z.object({}).passthrough().parse(req.body);
+    const { query, title, limit } = titleSearchSchema.parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -141,7 +151,7 @@ router.post('/regulations', async (req: Request, res: Response) => {
 
 router.post('/bills', async (req: Request, res: Response) => {
   try {
-    const { query, state, limit } = z.object({}).passthrough().parse(req.body);
+    const { query, state, limit } = stateSearchSchema.parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -169,7 +179,7 @@ router.post('/bills', async (req: Request, res: Response) => {
 
 router.post('/federal-register', async (req: Request, res: Response) => {
   try {
-    const { query, type, agency, days, limit } = z.object({}).passthrough().parse(req.body);
+    const { query, type, agency, days, limit } = regSearchSchema.parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -202,7 +212,7 @@ router.post('/federal-register', async (req: Request, res: Response) => {
 
 router.post('/sec', async (req: Request, res: Response) => {
   try {
-    const { cik, form, limit } = z.object({}).passthrough().parse(req.body);
+    const { cik, form, limit } = secSearchSchema.parse(req.body);
     
     if (!cik) {
       return res.status(400).json({ success: false, error: 'CIK required' });
@@ -230,7 +240,7 @@ router.post('/sec', async (req: Request, res: Response) => {
 
 router.post('/westlaw', async (req: Request, res: Response) => {
   try {
-    const { query, jurisdiction, dateMin, dateMax, contentType, limit } = z.object({}).passthrough().parse(req.body);
+    const { query, jurisdiction, dateMin, dateMax, contentType, limit } = fullSearchSchema.parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -285,7 +295,7 @@ router.get('/westlaw/:documentId', async (req: Request, res: Response) => {
 
 router.post('/unified', async (req: Request, res: Response) => {
   try {
-    const { query, sources, jurisdiction, limit } = z.object({}).passthrough().parse(req.body);
+    const { query, sources, jurisdiction, limit } = multiSearchSchema.parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -317,7 +327,7 @@ router.post('/unified', async (req: Request, res: Response) => {
 
 router.post('/execute-tool', async (req: Request, res: Response) => {
   try {
-    const { tool, params } = z.object({}).passthrough().parse(req.body);
+    const { tool, params } = toolCallSchema.parse(req.body);
     
     if (!tool) {
       return res.status(400).json({ success: false, error: 'Tool name required' });
@@ -365,7 +375,7 @@ router.get('/history', async (_req: Request, res: Response) => {
 
 router.post('/config/api-keys', async (req: Request, res: Response) => {
   try {
-    const { caselaw, courtlistener, openstates } = z.object({}).passthrough().parse(req.body);
+    const { caselaw, courtlistener, openstates } = configStatusSchema.parse(req.body);
     
     legalResearchService.setApiKeys({ caselaw, courtlistener, openstates } as any);
     
@@ -402,6 +412,16 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import { z } from 'zod';
+
+const caseSearchSchema = z.object({ query: z.string().min(1), jurisdiction: z.string().optional(), dateMin: z.string().optional(), dateMax: z.string().optional(), limit: z.number().int().positive().optional() });
+const titleSearchSchema = z.object({ query: z.string().min(1), title: z.string().optional(), limit: z.number().int().positive().optional() });
+const stateSearchSchema = z.object({ query: z.string().min(1), state: z.string().optional(), limit: z.number().int().positive().optional() });
+const regSearchSchema = z.object({ query: z.string().min(1), type: z.string().optional(), agency: z.string().optional(), days: z.number().int().optional(), limit: z.number().int().positive().optional() });
+const secSearchSchema = z.object({ cik: z.string().optional(), form: z.string().optional(), limit: z.number().int().positive().optional() });
+const fullSearchSchema = z.object({ query: z.string().min(1), jurisdiction: z.string().optional(), dateMin: z.string().optional(), dateMax: z.string().optional(), contentType: z.string().optional(), limit: z.number().int().positive().optional() });
+const multiSearchSchema = z.object({ query: z.string().min(1), sources: z.array(z.string()).optional(), jurisdiction: z.string().optional(), limit: z.number().int().positive().optional() });
+const toolCallSchema = z.object({ tool: z.string().min(1), params: z.record(z.unknown()) });
+const configStatusSchema = z.object({ caselaw: z.record(z.unknown()).optional(), courtlistener: z.record(z.unknown()).optional(), openstates: z.record(z.unknown()).optional() });
 // @ts-ignore TS1470: import.meta used with CommonJS output (runtime uses tsx/ESM)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

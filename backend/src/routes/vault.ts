@@ -20,6 +20,14 @@ import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
+
+const vaultStoreSchema = z.object({ type: z.string().min(1), title: z.string().min(1), content: z.unknown(), mimeType: z.string().optional(), sourceService: z.string().optional(), sourceId: z.string().optional(), tags: z.array(z.string()).optional(), metadata: z.record(z.unknown()).optional() });
+const packetSchema = z.object({ packetId: z.string().min(1), deliberationId: z.string().optional(), title: z.string().min(1), content: z.unknown(), signature: z.string().optional(), merkleRoot: z.string().optional(), metadata: z.record(z.unknown()).optional() });
+const auditEntrySchema = z.object({ entryId: z.string().min(1), action: z.string().min(1), content: z.unknown(), previousHash: z.string().optional(), metadata: z.record(z.unknown()).optional() });
+const bundleSchema = z.object({ bundleId: z.string().min(1), title: z.string().min(1), content: z.unknown(), mimeType: z.string().optional(), relatedDecisionId: z.string().optional(), metadata: z.record(z.unknown()).optional() });
+const reportSchema = z.object({ reportId: z.string().min(1), title: z.string().min(1), content: z.unknown(), mimeType: z.string().optional(), signature: z.string().optional(), metadata: z.record(z.unknown()).optional() });
+const holdSchema = z.object({ hold: z.boolean(), reason: z.string().optional() });
+const exportSchema = z.object({ ids: z.array(z.string()).min(1), format: z.string().optional(), includeContent: z.boolean().optional(), includeSignatures: z.boolean().optional(), includeAccessLog: z.boolean().optional() });
 const router = Router();
 
 // All routes require authentication
@@ -85,7 +93,7 @@ router.get('/stats', async (_req: Request, res: Response) => {
  */
 router.post('/artifacts', async (req: Request, res: Response) => {
   try {
-    const { type, title, content, mimeType, sourceService, sourceId, tags, metadata } = z.object({}).passthrough().parse(req.body);
+    const { type, title, content, mimeType, sourceService, sourceId, tags, metadata } = vaultStoreSchema.parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!type || !title || !content) {
@@ -127,7 +135,7 @@ router.post('/artifacts', async (req: Request, res: Response) => {
  */
 router.post('/decision-packets', async (req: Request, res: Response) => {
   try {
-    const { packetId, deliberationId, title, content, signature, merkleRoot, metadata } = z.object({}).passthrough().parse(req.body);
+    const { packetId, deliberationId, title, content, signature, merkleRoot, metadata } = packetSchema.parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!packetId || !title || !content) {
@@ -168,7 +176,7 @@ router.post('/decision-packets', async (req: Request, res: Response) => {
  */
 router.post('/audit-entries', async (req: Request, res: Response) => {
   try {
-    const { entryId, action, content, previousHash, metadata } = z.object({}).passthrough().parse(req.body);
+    const { entryId, action, content, previousHash, metadata } = auditEntrySchema.parse(req.body);
     const actor = req.user?.email || 'system';
 
     if (!entryId || !action || !content) {
@@ -207,7 +215,7 @@ router.post('/audit-entries', async (req: Request, res: Response) => {
  */
 router.post('/evidence-bundles', async (req: Request, res: Response) => {
   try {
-    const { bundleId, title, content, mimeType, relatedDecisionId, metadata } = z.object({}).passthrough().parse(req.body);
+    const { bundleId, title, content, mimeType, relatedDecisionId, metadata } = bundleSchema.parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!bundleId || !title || !content) {
@@ -247,7 +255,7 @@ router.post('/evidence-bundles', async (req: Request, res: Response) => {
  */
 router.post('/signed-reports', async (req: Request, res: Response) => {
   try {
-    const { reportId, title, content, mimeType, signature, metadata } = z.object({}).passthrough().parse(req.body);
+    const { reportId, title, content, mimeType, signature, metadata } = reportSchema.parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!reportId || !title || !content) {
@@ -479,7 +487,7 @@ router.post('/artifacts/:id/verify', async (req: Request, res: Response) => {
 router.post('/artifacts/:id/legal-hold', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { hold, reason } = z.object({}).passthrough().parse(req.body);
+    const { hold, reason } = holdSchema.parse(req.body);
 
     if (hold === undefined) {
       res.status(400).json({
@@ -522,7 +530,7 @@ router.post('/artifacts/:id/legal-hold', async (req: Request, res: Response) => 
  */
 router.post('/export', async (req: Request, res: Response) => {
   try {
-    const { ids, format, includeContent, includeSignatures, includeAccessLog } = z.object({}).passthrough().parse(req.body);
+    const { ids, format, includeContent, includeSignatures, includeAccessLog } = exportSchema.parse(req.body);
     const actor = req.user?.email || 'anonymous';
 
     if (!ids || !Array.isArray(ids) || ids.length === 0) {
