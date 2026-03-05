@@ -30,6 +30,100 @@ import { CLICKHOUSE_TABLES } from '../services/storage/ClickHouseService';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const druidQuerySchema = z.object({
+  startTime: z.string().optional(),
+  endTime: z.string().optional(),
+  limit: z.number().int().positive().default(100),
+  forceBackend: z.string().optional(),
+});
+
+const druidAggSchema = z.object({
+  startTime: z.string().optional(),
+  endTime: z.string().optional(),
+  granularity: z.enum(['minute', 'hour', 'day', 'week', 'month']).default('hour'),
+  forceBackend: z.string().optional(),
+});
+
+const druidIngestSchema = z.object({
+  datasource: z.string().min(1),
+  table: z.string().optional(),
+  events: z.array(z.record(z.unknown())).min(1),
+  dualWrite: z.boolean().default(false),
+});
+
+const minioUploadSchema = z.object({
+  bucket: z.string().min(1),
+  fileName: z.string().min(1),
+  content: z.string().min(1),
+  contentType: z.string().optional(),
+  metadata: z.record(z.string()).optional(),
+});
+
+const ragIngestSchema = z.object({
+  documentId: z.string().min(1),
+  content: z.string().min(1),
+  metadata: z.record(z.unknown()).optional(),
+  chunkSize: z.number().int().positive().default(500),
+});
+
+const ragSearchSchema = z.object({
+  query: z.string().min(1),
+  limit: z.number().int().min(1).max(50).default(5),
+  threshold: z.number().min(0).max(1).default(0.7),
+});
+
+const dnaRecordSchema = z.object({
+  decisionId: z.string().min(1),
+  title: z.string().min(1),
+  context: z.string().optional(),
+  outcome: z.string().optional(),
+  confidence: z.number().min(0).max(1).optional(),
+});
+
+const dnaQuerySchema = z.object({
+  query: z.string().min(1),
+  limit: z.number().int().min(1).max(50).default(5),
+});
+
+const pantheonStoreSchema = z.object({
+  agentId: z.string().min(1),
+  memoryType: z.string().min(1),
+  content: z.string().min(1),
+  importance: z.number().min(0).max(1).optional(),
+  expiresAt: z.string().datetime().optional(),
+});
+
+const pantheonRecallSchema = z.object({
+  agentId: z.string().min(1),
+  query: z.string().min(1),
+  limit: z.number().int().min(1).max(100).default(10),
+});
+
+const shadowCouncilSchema = z.object({
+  sessionId: z.string().optional(),
+  question: z.string().min(1),
+  agents: z.array(z.string()).optional(),
+  context: z.record(z.unknown()).optional(),
+  priority: z.enum(['low', 'normal', 'high', 'critical']).default('normal'),
+});
+
+const docProcessSchema = z.object({
+  documentId: z.string().min(1),
+  fileName: z.string().min(1),
+  fileType: z.string().min(1),
+  storageUrl: z.string().optional(),
+  extractText: z.boolean().optional(),
+  generateEmbeddings: z.boolean().optional(),
+});
+
+const prometheusQuerySchema = z.object({
+  query: z.string().min(1),
+  start: z.string().optional(),
+  end: z.string().optional(),
+  step: z.string().optional(),
+});
+
 const router = Router();
 
 // Default org for demo (production upgrade: from auth middleware)
@@ -72,7 +166,7 @@ const vaultUpload = multer({
  */
 router.post('/druid/timeline', async (req: Request, res: Response) => {
   try {
-    const { startTime, endTime, limit = 100, forceBackend } = z.object({}).passthrough().parse(req.body);
+    const { startTime, endTime, limit = 100, forceBackend } = druidQuerySchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     // Use AnalyticsRouter for automatic backend selection
@@ -103,7 +197,7 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
  */
 router.post('/druid/metrics', async (req: Request, res: Response) => {
   try {
-    const { startTime, endTime, granularity = 'hour', forceBackend } = z.object({}).passthrough().parse(req.body);
+    const { startTime, endTime, granularity = 'hour', forceBackend } = druidAggSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     // Use AnalyticsRouter for automatic backend selection
@@ -134,7 +228,7 @@ router.post('/druid/metrics', async (req: Request, res: Response) => {
  */
 router.post('/druid/ingest', async (req: Request, res: Response) => {
   try {
-    const { datasource, table, events, dualWrite = false } = z.object({}).passthrough().parse(req.body);
+    const { datasource, table, events, dualWrite = false } = druidIngestSchema.parse(req.body);
     
     // Use AnalyticsRouter for intelligent ingestion
     const result = await analyticsRouter.ingestEvents(events, {
@@ -181,7 +275,7 @@ router.get('/druid/health', async (req: Request, res: Response) => {
  */
 router.post('/storage/upload', async (req: Request, res: Response) => {
   try {
-    const { bucket, fileName, content, contentType, metadata } = z.object({}).passthrough().parse(req.body);
+    const { bucket, fileName, content, contentType, metadata } = minioUploadSchema.parse(req.body);
     
     const buffer = Buffer.from(content, 'base64');
     const result = await minioService.uploadBuffer(
@@ -432,7 +526,7 @@ router.get('/vault/health', async (_req: Request, res: Response) => {
  */
 router.post('/vector/store', async (req: Request, res: Response) => {
   try {
-    const { documentId, content, metadata, chunkSize = 500 } = z.object({}).passthrough().parse(req.body);
+    const { documentId, content, metadata, chunkSize = 500 } = ragIngestSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     // Split content into chunks and store each
@@ -461,7 +555,7 @@ router.post('/vector/store', async (req: Request, res: Response) => {
  */
 router.post('/vector/search', async (req: Request, res: Response) => {
   try {
-    const { query, limit = 5, threshold = 0.7 } = z.object({}).passthrough().parse(req.body);
+    const { query, limit = 5, threshold = 0.7 } = ragSearchSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const results = await vectorService.searchDocuments(orgId, query, { limit, threshold });
@@ -478,7 +572,7 @@ router.post('/vector/search', async (req: Request, res: Response) => {
  */
 router.post('/vector/decision', async (req: Request, res: Response) => {
   try {
-    const { decisionId, title, context, outcome, confidence } = z.object({}).passthrough().parse(req.body);
+    const { decisionId, title, context, outcome, confidence } = dnaRecordSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     await vectorService.storeDecisionContext(orgId, {
@@ -500,7 +594,7 @@ router.post('/vector/decision', async (req: Request, res: Response) => {
  */
 router.post('/vector/decisions/search', async (req: Request, res: Response) => {
   try {
-    const { query, limit = 5 } = z.object({}).passthrough().parse(req.body);
+    const { query, limit = 5 } = dnaQuerySchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const results = await vectorService.searchDecisions(orgId, query, { limit });
@@ -517,7 +611,7 @@ router.post('/vector/decisions/search', async (req: Request, res: Response) => {
  */
 router.post('/vector/agent-memory', async (req: Request, res: Response) => {
   try {
-    const { agentId, memoryType, content, importance, expiresAt } = z.object({}).passthrough().parse(req.body);
+    const { agentId, memoryType, content, importance, expiresAt } = pantheonStoreSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     await vectorService.storeAgentMemory(orgId, agentId, {
@@ -540,7 +634,7 @@ router.post('/vector/agent-memory', async (req: Request, res: Response) => {
  */
 router.post('/vector/agent-memory/recall', async (req: Request, res: Response) => {
   try {
-    const { agentId, query, limit = 10 } = z.object({}).passthrough().parse(req.body);
+    const { agentId, query, limit = 10 } = pantheonRecallSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const memories = await vectorService.retrieveAgentMemory(orgId, agentId, query, { limit });
@@ -573,7 +667,7 @@ router.get('/vector/health', async (req: Request, res: Response) => {
  */
 router.post('/queue/deliberation', async (req: Request, res: Response) => {
   try {
-    const { sessionId, question, agents, context, priority = 'normal' } = z.object({}).passthrough().parse(req.body);
+    const { sessionId, question, agents, context, priority = 'normal' } = shadowCouncilSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const priorityMap: Record<string, number> = { critical: 1, high: 2, normal: 3, low: 4 };
@@ -599,7 +693,7 @@ router.post('/queue/deliberation', async (req: Request, res: Response) => {
  */
 router.post('/queue/document', async (req: Request, res: Response) => {
   try {
-    const { documentId, fileName, fileType, storageUrl, extractText, generateEmbeddings } = z.object({}).passthrough().parse(req.body);
+    const { documentId, fileName, fileType, storageUrl, extractText, generateEmbeddings } = docProcessSchema.parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const job = await agentQueueService.addDocumentProcessing({
@@ -676,7 +770,7 @@ interface PrometheusResponse {
  */
 router.post('/prometheus/query', async (req: Request, res: Response) => {
   try {
-    const { query, start, end, step } = z.object({}).passthrough().parse(req.body);
+    const { query, start, end, step } = prometheusQuerySchema.parse(req.body);
     
     const prometheusUrl = process.env.PROMETHEUS_URL || 'http://localhost:9090';
     const response = await fetch(
