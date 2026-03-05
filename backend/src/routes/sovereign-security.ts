@@ -22,6 +22,7 @@ import { cendiaBlackBoxService } from '../services/sovereign/CendiaBlackBoxServi
 import { cendiaGlassService } from '../services/sovereign/CendiaGlassService.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

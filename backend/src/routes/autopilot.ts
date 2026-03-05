@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Autopilot
  *
@@ -20,6 +21,7 @@ import { prisma } from '../config/database.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
 import { assertCapability } from '../utils/permissions.js';
 
+import { z } from 'zod';
 const router = Router();
 
 router.use(devAuth);
@@ -31,7 +33,7 @@ router.get('/rules', async (req: Request, res: Response) => {
     await assertCapability(req, 'autopilot.manageRules');
     const { organization_id, enabled } = req.query;
     const orgId = (req.organizationId as string) || (organization_id as string);
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     if (enabled !== undefined) where.enabled = enabled === 'true';
 
@@ -98,7 +100,7 @@ router.get('/executions', async (req: Request, res: Response) => {
     await assertCapability(req, 'autopilot.manageRules');
     const { rule_id, status } = req.query;
     const orgId = (req.organizationId as string) || undefined;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (rule_id) where.rule_id = rule_id;
     if (status) where.status = status;
     if (orgId) where.rule = { organization_id: orgId };

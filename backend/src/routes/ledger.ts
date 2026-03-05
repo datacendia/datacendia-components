@@ -19,6 +19,7 @@ import { authenticate } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import crypto from 'crypto';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 
 // Health & Status endpoints (no auth required)
@@ -303,7 +304,7 @@ router.post('/entries/:id/verify', authenticate, async (req: Request, res: Respo
 router.post('/decisions', authenticate, async (req: Request, res: Response) => {
   try {
     const { title, description, agents } = req.body;
-    const userId = (req as any).user?.id || 'anonymous';
+    const userId = req.user?.id || 'anonymous';
 
     if (!title || !description) {
       return res.status(400).json({ error: 'Title and description required' });
@@ -509,7 +510,7 @@ router.post('/decisions/:id/finalize', authenticate, async (req: Request, res: R
 router.post('/decisions/:id/audit', authenticate, async (req: Request, res: Response) => {
   try {
     const { framework, reason } = req.body;
-    const userId = (req as any).user?.id || 'anonymous';
+    const userId = req.user?.id || 'anonymous';
     const decision = decisions.get(req.params.id);
     
     if (!decision) {

@@ -40,6 +40,7 @@ export interface ComplianceFramework {
   pillars: PillarId[];
   controlCount: number;
   lastUpdated: Date;
+  lastVerified: string;
   status: 'active' | 'deprecated' | 'draft';
 }
 
@@ -60,6 +61,7 @@ export const ETHICAL_AI_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'predict', 'ethics', 'agents'],
     controlCount: 72,
     lastUpdated: new Date('2023-01-26'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -75,6 +77,7 @@ export const ETHICAL_AI_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'predict', 'ethics', 'agents', 'lineage'],
     controlCount: 45,
     lastUpdated: new Date('2019-05-22'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -90,6 +93,7 @@ export const ETHICAL_AI_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'lineage', 'agents'],
     controlCount: 50,
     lastUpdated: new Date('2021-11-24'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -105,6 +109,7 @@ export const ETHICAL_AI_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['predict', 'ethics', 'agents', 'helm'],
     controlCount: 93,
     lastUpdated: new Date('2023-12-18'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -120,6 +125,7 @@ export const ETHICAL_AI_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'agents', 'predict', 'guard'],
     controlCount: 85,
     lastUpdated: new Date('2024-03-13'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
 ];
@@ -141,6 +147,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'lineage', 'flow'],
     controlCount: 1189,
     lastUpdated: new Date('2020-09-23'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -156,6 +163,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'helm', 'health', 'lineage'],
     controlCount: 64,
     lastUpdated: new Date('2017-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -171,6 +179,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'health', 'flow'],
     controlCount: 93,
     lastUpdated: new Date('2022-10-25'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -186,6 +195,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'lineage'],
     controlCount: 201,
     lastUpdated: new Date('2023-10-31'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -201,6 +211,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow', 'helm', 'agents'],
     controlCount: 35,
     lastUpdated: new Date('2020-08-11'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -216,6 +227,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'flow'],
     controlCount: 110,
     lastUpdated: new Date('2021-11-04'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -231,6 +243,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['health', 'guard'],
     controlCount: 42,
     lastUpdated: new Date('2011-09-30'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -246,6 +259,7 @@ export const CYBERSECURITY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health'],
     controlCount: 153,
     lastUpdated: new Date('2023-03-15'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
 ];
@@ -267,6 +281,7 @@ export const PRIVACY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'helm', 'ethics', 'flow'],
     controlCount: 99,
     lastUpdated: new Date('2018-05-25'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -282,6 +297,7 @@ export const PRIVACY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 55,
     lastUpdated: new Date('2023-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -297,6 +313,7 @@ export const PRIVACY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'health', 'predict'],
     controlCount: 75,
     lastUpdated: new Date('2013-01-25'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -312,6 +329,7 @@ export const PRIVACY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'helm', 'flow'],
     controlCount: 49,
     lastUpdated: new Date('2019-08-06'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -327,6 +345,7 @@ export const PRIVACY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'flow'],
     controlCount: 64,
     lastUpdated: new Date('2022-03-31'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
 ];
@@ -348,6 +367,7 @@ export const GOVERNANCE_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'predict', 'guard'],
     controlCount: 23,
     lastUpdated: new Date('2017-09-06'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -363,6 +383,7 @@ export const GOVERNANCE_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'flow', 'guard', 'health'],
     controlCount: 40,
     lastUpdated: new Date('2018-11-18'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -378,6 +399,7 @@ export const GOVERNANCE_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'health', 'helm'],
     controlCount: 34,
     lastUpdated: new Date('2019-02-18'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -393,6 +415,7 @@ export const GOVERNANCE_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'lineage', 'guard', 'flow'],
     controlCount: 66,
     lastUpdated: new Date('2002-07-30'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -408,6 +431,7 @@ export const GOVERNANCE_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['health', 'flow', 'helm'],
     controlCount: 51,
     lastUpdated: new Date('2015-09-23'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -423,6 +447,7 @@ export const GOVERNANCE_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['health', 'flow'],
     controlCount: 48,
     lastUpdated: new Date('2018-09-15'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
 ];
@@ -444,6 +469,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'predict', 'guard'],
     controlCount: 87,
     lastUpdated: new Date('2023-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -459,6 +485,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow', 'health', 'lineage'],
     controlCount: 325,
     lastUpdated: new Date('2023-06-06'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -474,6 +501,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'lineage', 'guard', 'ethics'],
     controlCount: 120,
     lastUpdated: new Date('2022-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -489,6 +517,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'flow'],
     controlCount: 45,
     lastUpdated: new Date('2023-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -504,6 +533,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'ethics'],
     controlCount: 52,
     lastUpdated: new Date('2022-06-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -519,6 +549,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['predict', 'helm'],
     controlCount: 38,
     lastUpdated: new Date('2014-07-24'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -534,6 +565,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['predict', 'ethics', 'guard'],
     controlCount: 28,
     lastUpdated: new Date('2011-04-04'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== AUTOMOTIVE ==========
@@ -550,6 +582,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'flow'],
     controlCount: 68,
     lastUpdated: new Date('2023-04-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -565,6 +598,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow', 'health'],
     controlCount: 45,
     lastUpdated: new Date('2021-08-31'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -580,6 +614,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 32,
     lastUpdated: new Date('2021-01-22'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== FINANCIAL SERVICES (EXTENDED) ==========
@@ -596,6 +631,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'flow', 'predict'],
     controlCount: 64,
     lastUpdated: new Date('2022-12-27'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -611,6 +647,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'health'],
     controlCount: 23,
     lastUpdated: new Date('2023-11-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -626,6 +663,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'lineage', 'guard'],
     controlCount: 97,
     lastUpdated: new Date('2018-01-03'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -641,6 +679,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'predict', 'guard', 'lineage'],
     controlCount: 125,
     lastUpdated: new Date('2010-07-21'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -656,6 +695,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage'],
     controlCount: 42,
     lastUpdated: new Date('1999-11-12'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -671,6 +711,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'lineage', 'guard', 'ethics'],
     controlCount: 156,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -686,6 +727,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'flow'],
     controlCount: 36,
     lastUpdated: new Date('2019-07-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -701,6 +743,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'flow', 'predict'],
     controlCount: 58,
     lastUpdated: new Date('2021-01-18'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -716,6 +759,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow', 'lineage'],
     controlCount: 48,
     lastUpdated: new Date('2018-01-13'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== HEALTHCARE (EXTENDED) ==========
@@ -732,6 +776,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'flow'],
     controlCount: 38,
     lastUpdated: new Date('2003-08-20'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -747,6 +792,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'lineage', 'flow'],
     controlCount: 156,
     lastUpdated: new Date('2023-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -762,6 +808,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'lineage'],
     controlCount: 85,
     lastUpdated: new Date('2019-10-30'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -777,6 +824,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'lineage', 'flow'],
     controlCount: 64,
     lastUpdated: new Date('2016-11-09'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -792,6 +840,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'health', 'guard'],
     controlCount: 52,
     lastUpdated: new Date('2016-03-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -807,6 +856,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'guard', 'lineage', 'ethics'],
     controlCount: 78,
     lastUpdated: new Date('2021-05-26'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== GOVERNMENT & DEFENSE (EXTENDED) ==========
@@ -823,6 +873,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'ethics'],
     controlCount: 45,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -838,6 +889,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage'],
     controlCount: 38,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -853,6 +905,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'flow'],
     controlCount: 82,
     lastUpdated: new Date('2023-12-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -868,6 +921,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow', 'health'],
     controlCount: 156,
     lastUpdated: new Date('2023-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -883,6 +937,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard'],
     controlCount: 42,
     lastUpdated: new Date('2019-03-22'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -898,6 +953,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'lineage'],
     controlCount: 64,
     lastUpdated: new Date('2014-12-18'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== ENERGY & UTILITIES (EXTENDED) ==========
@@ -914,6 +970,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health', 'flow'],
     controlCount: 98,
     lastUpdated: new Date('2018-08-24'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -929,6 +986,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'health'],
     controlCount: 28,
     lastUpdated: new Date('2022-07-21'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -944,6 +1002,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 35,
     lastUpdated: new Date('2009-06-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== TELECOM ==========
@@ -960,6 +1019,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 45,
     lastUpdated: new Date('2021-10-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -975,6 +1035,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 33,
     lastUpdated: new Date('2020-06-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -990,6 +1051,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'lineage'],
     controlCount: 28,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== PRIVACY (REGIONAL EXTENDED) ==========
@@ -1006,6 +1068,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 45,
     lastUpdated: new Date('2022-06-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1021,6 +1084,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 52,
     lastUpdated: new Date('2020-11-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1036,6 +1100,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 65,
     lastUpdated: new Date('2020-09-18'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1051,6 +1116,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 72,
     lastUpdated: new Date('2021-11-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1066,6 +1132,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 48,
     lastUpdated: new Date('2021-07-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1081,6 +1148,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 38,
     lastUpdated: new Date('2023-08-11'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1096,6 +1164,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 56,
     lastUpdated: new Date('2022-04-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1111,6 +1180,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 42,
     lastUpdated: new Date('2022-12-12'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== RETAIL & E-COMMERCE ==========
@@ -1127,6 +1197,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 42,
     lastUpdated: new Date('2019-06-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1142,6 +1213,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 38,
     lastUpdated: new Date('2020-10-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== MANUFACTURING ==========
@@ -1158,6 +1230,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['health', 'flow', 'helm'],
     controlCount: 34,
     lastUpdated: new Date('2019-10-30'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1173,6 +1246,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'health', 'helm'],
     controlCount: 28,
     lastUpdated: new Date('2014-01-15'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== AEROSPACE ==========
@@ -1189,6 +1263,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'health', 'guard'],
     controlCount: 76,
     lastUpdated: new Date('2016-09-20'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1204,6 +1279,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'flow'],
     controlCount: 45,
     lastUpdated: new Date('2014-07-08'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== EDUCATION ==========
@@ -1220,6 +1296,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 28,
     lastUpdated: new Date('2012-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1235,6 +1312,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'lineage', 'guard'],
     controlCount: 18,
     lastUpdated: new Date('2013-07-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== INSURANCE ==========
@@ -1251,6 +1329,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'predict', 'guard'],
     controlCount: 86,
     lastUpdated: new Date('2016-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1266,6 +1345,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'guard', 'lineage'],
     controlCount: 68,
     lastUpdated: new Date('2023-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== REAL ESTATE & CONSTRUCTION ==========
@@ -1282,6 +1362,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'ethics'],
     controlCount: 24,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1297,6 +1378,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'lineage'],
     controlCount: 32,
     lastUpdated: new Date('2018-12-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== FOOD & BEVERAGE ==========
@@ -1313,6 +1395,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'lineage', 'health'],
     controlCount: 48,
     lastUpdated: new Date('2011-01-04'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1328,6 +1411,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'health'],
     controlCount: 42,
     lastUpdated: new Date('2018-06-19'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== ENVIRONMENTAL ==========
@@ -1344,6 +1428,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['flow', 'health', 'ethics'],
     controlCount: 45,
     lastUpdated: new Date('2015-09-15'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1359,6 +1444,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['predict', 'helm', 'lineage'],
     controlCount: 32,
     lastUpdated: new Date('2022-10-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1374,6 +1460,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'helm', 'ethics'],
     controlCount: 58,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== LEGAL ==========
@@ -1390,6 +1477,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'lineage', 'guard'],
     controlCount: 56,
     lastUpdated: new Date('2023-08-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1405,6 +1493,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'lineage'],
     controlCount: 42,
     lastUpdated: new Date('2023-04-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== PERU — MANDATORY FOR PERUVIAN REGULATED INSTITUTIONS ==========
@@ -1421,6 +1510,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'ethics', 'agents', 'predict'],
     controlCount: 93,
     lastUpdated: new Date('2025-03-15'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1436,6 +1526,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['ethics', 'predict', 'guard', 'agents'],
     controlCount: 45,
     lastUpdated: new Date('2023-07-12'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1451,6 +1542,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'guard', 'lineage'],
     controlCount: 120,
     lastUpdated: new Date('2024-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1466,6 +1558,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'guard', 'predict', 'lineage'],
     controlCount: 85,
     lastUpdated: new Date('2017-06-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1481,6 +1574,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'guard', 'ethics'],
     controlCount: 52,
     lastUpdated: new Date('2025-01-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== DEFENSE — ADDITIONAL ==========
@@ -1497,6 +1591,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['guard', 'lineage', 'flow'],
     controlCount: 110,
     lastUpdated: new Date('2024-05-14'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== HEALTHCARE — ADDITIONAL ==========
@@ -1513,6 +1608,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['predict', 'ethics', 'guard', 'lineage'],
     controlCount: 38,
     lastUpdated: new Date('2017-12-08'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   // ========== SPORTS / FOOTBALL ==========
@@ -1529,6 +1625,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'lineage', 'predict'],
     controlCount: 35,
     lastUpdated: new Date('2022-04-07'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1544,6 +1641,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['lineage', 'ethics', 'guard'],
     controlCount: 28,
     lastUpdated: new Date('2023-01-09'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1559,6 +1657,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'lineage', 'predict'],
     controlCount: 32,
     lastUpdated: new Date('2024-02-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
   {
@@ -1574,6 +1673,7 @@ export const INDUSTRY_FRAMEWORKS: ComplianceFramework[] = [
     pillars: ['helm', 'guard', 'lineage', 'ethics'],
     controlCount: 45,
     lastUpdated: new Date('2025-03-01'),
+    lastVerified: '2026-03-04',
     status: 'active',
   },
 ];

@@ -19,6 +19,7 @@ import { devAuth } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import { opa } from '../services/opa/OPAService.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 

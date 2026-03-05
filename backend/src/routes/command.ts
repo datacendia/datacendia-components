@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Command
  *
@@ -20,6 +21,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaCommandService, VerticalId, CommandContext } from '../services/command/CendiaCommandService';
 import { cendiaCommandPlatinumService } from '../services/command/CendiaCommandPlatinumService';
 
+import { z } from 'zod';
 const router = Router();
 
 /**

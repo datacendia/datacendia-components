@@ -19,6 +19,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 const prisma = new PrismaClient();
 

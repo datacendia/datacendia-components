@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Post Quantum
  *
@@ -19,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { postQuantumKMSService, PQAlgorithm } from '../services/security/PostQuantumKMSService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 /**

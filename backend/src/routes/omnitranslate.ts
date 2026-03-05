@@ -20,6 +20,7 @@ import { Router, Request, Response } from 'express';
 import { omniTranslateService, OMNITRANSLATE_LANGUAGES } from '../services/CendiaOmniTranslateService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health & Status endpoints

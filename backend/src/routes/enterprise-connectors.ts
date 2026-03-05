@@ -20,6 +20,7 @@ import { Router, Request, Response } from 'express';
 import { SalesforceConnector, SlackConnector, JiraConnector, ENTERPRISE_CONNECTORS } from '../connectors/enterprise/index.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Connector instances (production upgrade: per-tenant)

@@ -15,7 +15,7 @@
 
 import { Router } from 'express';
 import { mountEnterpriseRoutes } from './_enterprise.js';
-import enterpriseSecurityRoutes from '../enterprise.security.js';
+import enterpriseSecurityRoutes from '../enterprise-security.js';
 import ledgerRoutes from '../ledger.js';
 import auditPackagesRoutes from '../audit-packages.js';
 import adaptersRoutes from '../adapters.js';

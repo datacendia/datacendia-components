@@ -18,7 +18,7 @@ import { mountEnterpriseRoutes } from './_enterprise.js';
 import metricsRoutes from '../metrics.js';
 import alertsRoutes from '../alerts.js';
 import forecastRoutes from '../forecasts.js';
-import dataSourceRoutes from '../dataSources.js';
+import dataSourceRoutes from '../data-sources.js';
 import lineageRoutes from '../lineage.js';
 import druidRoutes from '../druid.js';
 import summaryRoutes from '../summaries.js';

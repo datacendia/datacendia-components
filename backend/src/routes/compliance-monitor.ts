@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Compliance Monitor
  *
@@ -19,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { continuousComplianceMonitorService, ComplianceFramework, AlertStatus } from '../services/compliance/ContinuousComplianceMonitorService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 /**

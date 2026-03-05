@@ -17,7 +17,7 @@ import { Router } from 'express';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import deliberationsRoutes from '../deliberations.js';
 import councilRoutes from '../council.js';
-import deliberationsApiRoutes from '../deliberationsApi.js';
+import deliberationsApiRoutes from '../deliberations-api.js';
 import decisionsRoutes from '../decisions.js';
 import councilPacketsRoutes from '../council-packets.js';
 import vetoRoutes from '../veto.js';

@@ -210,6 +210,13 @@ export function endpointRateLimiter(
 }
 
 /**
+ * Rate limiter for auth endpoints (login, register, password reset)
+ */
+export const authRateLimiter = endpointRateLimiter(10, 60000); // 10 attempts per minute per IP
+export const registrationRateLimiter = endpointRateLimiter(3, 300000); // 3 registrations per 5 minutes
+export const passwordResetRateLimiter = endpointRateLimiter(3, 300000); // 3 resets per 5 minutes
+
+/**
  * Rate limiter for AI/LLM operations (more restrictive)
  */
 export const aiRateLimiter = endpointRateLimiter(10, 60000); // 10 AI calls per minute

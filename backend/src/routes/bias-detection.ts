@@ -17,6 +17,7 @@ import { Router, Request, Response } from 'express';
 import { devAuth } from '../middleware/auth.js';
 import { nlpBiasDetectionService } from '../services/dcii/NLPBiasDetectionService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health (no auth)

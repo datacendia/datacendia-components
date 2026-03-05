@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { apotheosisService } from '../services/CendiaApotheosisService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Status endpoints for enterprise testing

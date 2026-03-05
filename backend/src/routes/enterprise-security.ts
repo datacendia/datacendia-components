@@ -20,6 +20,7 @@ import { tikaService } from '../services/document/TikaService';
 import { minioService } from '../services/storage/MinioService';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Status endpoint (no auth required for testing)

@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaSymbiontService } from '../services/CendiaSymbiontService.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 
@@ -31,7 +32,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     
     // Get counts for metrics
     const [entityCount, opportunityCount, relationshipCount] = await Promise.all([
@@ -76,7 +77,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
 router.post('/entities', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const entity = await cendiaSymbiontService.addEntity(orgId, req.body);
     res.json({ success: true, data: entity });
   } catch (error) {
@@ -86,7 +87,7 @@ router.post('/entities', async (req: Request, res: Response) => {
 
 router.get('/entities', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { entityType, domain, minHealth } = req.query;
     const entities = await cendiaSymbiontService.getEntities(orgId, {
       entityType: entityType as any,
@@ -105,7 +106,7 @@ router.get('/entities', async (req: Request, res: Response) => {
 
 router.post('/entities/:id/opportunities', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const opportunities = await cendiaSymbiontService.detectOpportunities(orgId, req.params.id);
     res.json({ success: true, data: opportunities });
   } catch (error) {
@@ -115,7 +116,7 @@ router.post('/entities/:id/opportunities', async (req: Request, res: Response) =
 
 router.get('/opportunities', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { status } = req.query;
     const opportunities = await cendiaSymbiontService.getOpportunities(orgId, status as any);
     res.json({ success: true, data: opportunities });
@@ -163,7 +164,7 @@ router.get('/opportunities/:id/simulations', async (req: Request, res: Response)
 
 router.post('/relationships', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { entityId, relatedEntityId, relationshipType } = req.body;
     const relationship = await cendiaSymbiontService.createRelationship(
       orgId, entityId, relatedEntityId, relationshipType
@@ -176,7 +177,7 @@ router.post('/relationships', async (req: Request, res: Response) => {
 
 router.get('/relationships', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const relationships = await cendiaSymbiontService.getRelationships(orgId);
     res.json({ success: true, data: relationships });
   } catch (error) {
@@ -199,7 +200,7 @@ router.post('/relationships/:id/interaction', async (req: Request, res: Response
 
 router.get('/dashboard', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const dashboard = await cendiaSymbiontService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
   } catch (error) {

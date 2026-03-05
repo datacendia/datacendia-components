@@ -18,6 +18,7 @@ import { devAuth } from '../middleware/auth.js';
 import { clamAVIntegration } from '../services/sovereign/ClamAVIntegration.js';
 import multer from 'multer';
 
+import { z } from 'zod';
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 25 * 1024 * 1024 } });
 

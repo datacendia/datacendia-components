@@ -132,6 +132,10 @@ jobs:
             --coverage \
             --coverage.reporter=text \
             --coverage.reporter=json-summary \
+            --coverage.thresholds.statements=60 \
+            --coverage.thresholds.branches=50 \
+            --coverage.thresholds.functions=50 \
+            --coverage.thresholds.lines=60 \
             --exclude="**/e2e/**" \
             --exclude="**/integration/**" \
             --exclude="**/routes/marketing-studio*" \
@@ -152,6 +156,32 @@ jobs:
         env:
           CI: true
           NODE_ENV: test
+
+      - name: Generate OpenAPI spec
+        working-directory: backend
+        run: |
+          node -e "
+            import('./dist/config/swagger.js')
+              .then(m => {
+                const fs = require('fs');
+                fs.writeFileSync('openapi.json', JSON.stringify(m.swaggerSpec, null, 2));
+                console.log('OpenAPI spec generated');
+              })
+              .catch(() => console.log('OpenAPI spec generation skipped (build required)'));
+          "
+        env:
+          NODE_ENV: production
+          DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
+        continue-on-error: true
+
+      - name: Upload OpenAPI spec
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: openapi-spec
+          path: backend/openapi.json
+          retention-days: 30
+        continue-on-error: true
 
   # ===========================================================================
   # STATUS CHECK — Required for branch protection

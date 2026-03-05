@@ -21,6 +21,7 @@ import { cendiaOracleService } from '../services/sovereign/CendiaOracleService.j
 import { cendiaLegacyService } from '../services/sovereign/CendiaLegacyService.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

@@ -19,6 +19,7 @@ import { Router, Request, Response } from 'express';
 import { logger } from '../utils/logger.js';
 import { ollama } from '../services/ollama.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

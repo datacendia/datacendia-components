@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Marketing Studio
  *
@@ -23,6 +24,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

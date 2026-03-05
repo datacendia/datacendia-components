@@ -19,6 +19,7 @@ import { cendiaVaultService } from '../services/sovereign/CendiaVaultService.js'
 import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // All routes require authentication
@@ -85,7 +86,7 @@ router.get('/stats', async (_req: Request, res: Response) => {
 router.post('/artifacts', async (req: Request, res: Response) => {
   try {
     const { type, title, content, mimeType, sourceService, sourceId, tags, metadata } = req.body;
-    const createdBy = (req as any).user?.email || 'system';
+    const createdBy = req.user?.email || 'system';
 
     if (!type || !title || !content) {
       res.status(400).json({
@@ -127,7 +128,7 @@ router.post('/artifacts', async (req: Request, res: Response) => {
 router.post('/decision-packets', async (req: Request, res: Response) => {
   try {
     const { packetId, deliberationId, title, content, signature, merkleRoot, metadata } = req.body;
-    const createdBy = (req as any).user?.email || 'system';
+    const createdBy = req.user?.email || 'system';
 
     if (!packetId || !title || !content) {
       res.status(400).json({
@@ -168,7 +169,7 @@ router.post('/decision-packets', async (req: Request, res: Response) => {
 router.post('/audit-entries', async (req: Request, res: Response) => {
   try {
     const { entryId, action, content, previousHash, metadata } = req.body;
-    const actor = (req as any).user?.email || 'system';
+    const actor = req.user?.email || 'system';
 
     if (!entryId || !action || !content) {
       res.status(400).json({
@@ -207,7 +208,7 @@ router.post('/audit-entries', async (req: Request, res: Response) => {
 router.post('/evidence-bundles', async (req: Request, res: Response) => {
   try {
     const { bundleId, title, content, mimeType, relatedDecisionId, metadata } = req.body;
-    const createdBy = (req as any).user?.email || 'system';
+    const createdBy = req.user?.email || 'system';
 
     if (!bundleId || !title || !content) {
       res.status(400).json({
@@ -247,7 +248,7 @@ router.post('/evidence-bundles', async (req: Request, res: Response) => {
 router.post('/signed-reports', async (req: Request, res: Response) => {
   try {
     const { reportId, title, content, mimeType, signature, metadata } = req.body;
-    const createdBy = (req as any).user?.email || 'system';
+    const createdBy = req.user?.email || 'system';
 
     if (!reportId || !title || !content) {
       res.status(400).json({
@@ -291,7 +292,7 @@ router.post('/signed-reports', async (req: Request, res: Response) => {
 router.get('/artifacts/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const actor = (req as any).user?.email || 'anonymous';
+    const actor = req.user?.email || 'anonymous';
 
     const artifact = await cendiaVaultService.get(id as string, actor);
 
@@ -323,7 +324,7 @@ router.get('/artifacts/:id', async (req: Request, res: Response) => {
 router.get('/artifacts/:id/content', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const actor = (req as any).user?.email || 'anonymous';
+    const actor = req.user?.email || 'anonymous';
 
     const artifact = await cendiaVaultService.get(id as string, actor);
     if (!artifact) {
@@ -391,7 +392,7 @@ router.get('/search', async (req: Request, res: Response) => {
     const { type, createdBy, tags, classification, legalHold, q, limit, offset } = req.query;
 
     const artifacts = await cendiaVaultService.search({
-      type: type as any,
+      type: type as string,
       createdBy: createdBy as string,
       tags: tags ? (tags as string).split(',') : undefined,
       classification: classification as string,
@@ -522,7 +523,7 @@ router.post('/artifacts/:id/legal-hold', async (req: Request, res: Response) => 
 router.post('/export', async (req: Request, res: Response) => {
   try {
     const { ids, format, includeContent, includeSignatures, includeAccessLog } = req.body;
-    const actor = (req as any).user?.email || 'anonymous';
+    const actor = req.user?.email || 'anonymous';
 
     if (!ids || !Array.isArray(ids) || ids.length === 0) {
       res.status(400).json({

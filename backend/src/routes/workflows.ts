@@ -370,7 +370,7 @@ router.get('/executions', async (req: Request, res: Response, next: NextFunction
     const { status, page = 1, limit = 20 } = req.query;
     const orgId = req.organizationId!;
 
-    const where: any = {
+    const where: Record<string, unknown> = {
       workflows: { organization_id: orgId },
     };
     if (status) where.status = status;
@@ -418,7 +418,7 @@ router.get('/:id/executions', async (req: Request, res: Response, next: NextFunc
       throw errors.forbidden();
     }
 
-    const where: any = { workflow_id: req.params.id };
+    const where: Record<string, unknown> = { workflow_id: req.params.id };
     if (status) where.status = status;
 
     const [executions, total] = await Promise.all([

@@ -44,6 +44,7 @@ export interface RegulationFramework {
   description: string;
   effectiveDate?: Date;
   requirements: number;
+  lastVerified?: string;
 }
 
 // =============================================================================

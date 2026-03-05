@@ -19,6 +19,7 @@ import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 // Input validation helpers
 const VALID_GRANULARITIES = ['minute', 'hour', 'day', 'week'] as const;
 const GRANULARITY_TO_FLOOR: Record<string, string> = { minute: 'PT1M', hour: 'PT1H', day: 'P1D', week: 'P7D' };

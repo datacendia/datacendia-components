@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaPanopticonService, REGULATORY_FRAMEWORKS } from '../services/CendiaPanopticonService.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Apply devAuth to all routes to get organizationId from seeded user
@@ -33,7 +34,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     
     // Get counts for dashboard
     const [regulationCount, violationCount, gapCount] = await Promise.all([
@@ -125,7 +126,7 @@ router.get('/frameworks/jurisdiction/:jurisdiction', async (req: Request, res: R
 router.post('/regulations/ingest', async (req: Request, res: Response) => {
   try {
     const { frameworkCode, version, sourceUrl } = req.body;
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     
     const regulation = await cendiaPanopticonService.ingestRegulation(
       orgId,
@@ -146,7 +147,7 @@ router.post('/regulations/ingest', async (req: Request, res: Response) => {
  */
 router.get('/regulations', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const regulations = await cendiaPanopticonService.getOrganizationRegulations(orgId);
     res.json({ success: true, data: regulations });
   } catch (error) {
@@ -185,7 +186,7 @@ router.post('/alignments', async (req: Request, res: Response) => {
  */
 router.get('/gaps', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const gaps = await cendiaPanopticonService.getComplianceGaps(orgId);
     res.json({ success: true, data: gaps });
   } catch (error) {
@@ -203,7 +204,7 @@ router.get('/gaps', async (req: Request, res: Response) => {
  */
 router.post('/violations/detect', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { processData } = req.body;
     
     const violations = await cendiaPanopticonService.detectViolations(orgId, processData);
@@ -219,7 +220,7 @@ router.post('/violations/detect', async (req: Request, res: Response) => {
  */
 router.get('/violations', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const violations = await cendiaPanopticonService.getOpenViolations(orgId);
     res.json({ success: true, data: violations });
   } catch (error) {
@@ -234,7 +235,7 @@ router.get('/violations', async (req: Request, res: Response) => {
 router.post('/violations/:id/resolve', async (req: Request, res: Response) => {
   try {
     const { resolution } = req.body;
-    const resolvedBy = (req as any).user?.id || 'system';
+    const resolvedBy = req.user?.id || 'system';
     
     const violation = await cendiaPanopticonService.resolveViolation(
       req.params.id,
@@ -258,7 +259,7 @@ router.post('/violations/:id/resolve', async (req: Request, res: Response) => {
  */
 router.post('/forecasts/generate', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const forecasts = await cendiaPanopticonService.generateForecasts(orgId);
     res.json({ success: true, data: forecasts });
   } catch (error) {
@@ -272,7 +273,7 @@ router.post('/forecasts/generate', async (req: Request, res: Response) => {
  */
 router.get('/forecasts', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const forecasts = await cendiaPanopticonService.getForecasts(orgId);
     res.json({ success: true, data: forecasts });
   } catch (error) {
@@ -290,7 +291,7 @@ router.get('/forecasts', async (req: Request, res: Response) => {
  */
 router.get('/radar', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const perspective = typeof req.query.perspective === 'string' ? req.query.perspective : undefined;
     const radar = await cendiaPanopticonService.getRegulatoryRadar(orgId, { perspective });
     res.json({ success: true, data: radar });
@@ -309,7 +310,7 @@ router.get('/radar', async (req: Request, res: Response) => {
  */
 router.get('/dashboard', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const dashboard = await cendiaPanopticonService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
   } catch (error) {
@@ -327,7 +328,7 @@ router.get('/dashboard', async (req: Request, res: Response) => {
  */
 router.get('/express/report', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const report = await cendiaPanopticonService.getComplianceReport(orgId);
     res.json({ success: true, data: report });
   } catch (error) {
@@ -341,7 +342,7 @@ router.get('/express/report', async (req: Request, res: Response) => {
  */
 router.post('/express/remediate', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { violationIds } = req.body;
     const result = await cendiaPanopticonService.generateRemediationSteps(orgId, violationIds);
     res.json({ success: true, data: result });
@@ -360,7 +361,7 @@ router.post('/express/remediate', async (req: Request, res: Response) => {
  */
 router.get('/conflicts', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const result = await cendiaPanopticonService.detectFrameworkConflicts(orgId);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -374,7 +375,7 @@ router.get('/conflicts', async (req: Request, res: Response) => {
  */
 router.post('/workflow', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { frameworkCode, severity, maxTasks } = req.body;
     const result = await cendiaPanopticonService.generateComplianceWorkflow(orgId, {
       frameworkCode,

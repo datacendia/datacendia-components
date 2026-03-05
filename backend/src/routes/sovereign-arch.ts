@@ -17,6 +17,7 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 // Import sovereign services
 import { dataDiodeService } from '../services/sovereign/DataDiodeService.js';
 import { localRLHFService } from '../services/sovereign/LocalRLHFService.js';
@@ -30,6 +31,7 @@ import { timeLockService } from '../services/sovereign/TimeLockService.js';
 import { federatedMeshService } from '../services/sovereign/FederatedMeshService.js';
 import { portableInstanceService } from '../services/sovereign/PortableInstanceService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health endpoint (before auth)

@@ -21,6 +21,7 @@ import { enterpriseRedTeamService } from '../services/crucible/EnterpriseRedTeam
 import { devAuth, requireRole } from '../middleware/auth.js';
 import { errors } from '../middleware/errorHandler.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Apply authentication to all routes

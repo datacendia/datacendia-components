@@ -17,6 +17,7 @@ import { Router, Request, Response } from 'express';
 import { devAuth } from '../middleware/auth.js';
 import { FHIRConnector } from '../services/verticals/healthcare/FHIRConnector.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Shared FHIR connector instance (configured via env or defaults)
@@ -59,7 +60,7 @@ router.post('/authenticate', async (_req: Request, res: Response) => {
 
 router.get('/resource/:resourceType/:resourceId', async (req: Request, res: Response) => {
   try {
-    const userId = (req as any).user?.id || 'system';
+    const userId = req.user?.id || 'system';
     const resource = await fhirConnector.read(
       req.params.resourceType as any,
       req.params.resourceId,
@@ -74,7 +75,7 @@ router.get('/resource/:resourceType/:resourceId', async (req: Request, res: Resp
 
 router.get('/resource/:resourceType', async (req: Request, res: Response) => {
   try {
-    const userId = (req as any).user?.id || 'system';
+    const userId = req.user?.id || 'system';
     const params: Record<string, string> = {};
     for (const [key, val] of Object.entries(req.query)) {
       if (typeof val === 'string') params[key] = val;
@@ -88,7 +89,7 @@ router.get('/resource/:resourceType', async (req: Request, res: Response) => {
 
 router.post('/resource', async (req: Request, res: Response) => {
   try {
-    const userId = (req as any).user?.id || 'system';
+    const userId = req.user?.id || 'system';
     const resource = await fhirConnector.create(req.body, userId);
     if (!resource) return res.status(500).json({ success: false, error: 'Failed to create resource' });
     res.status(201).json({ success: true, data: resource });

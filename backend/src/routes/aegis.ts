@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaAegisService } from '../services/CendiaAegisService.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 
@@ -31,7 +32,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     
     // Get counts for metrics
     const [threatCount, signalCount, briefingCount] = await Promise.all([
@@ -76,7 +77,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
 router.post('/signals', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const signal = await cendiaAegisService.ingestSignal(orgId, req.body);
     res.json({ success: true, data: signal });
   } catch (error) {
@@ -86,7 +87,7 @@ router.post('/signals', async (req: Request, res: Response) => {
 
 router.get('/signals', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { signalType, severity, limit } = req.query;
     const signals = await cendiaAegisService.getRecentSignals(orgId, {
       signalType: signalType as any,
@@ -105,7 +106,7 @@ router.get('/signals', async (req: Request, res: Response) => {
 
 router.post('/threats', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const threat = await cendiaAegisService.createThreat(orgId, req.body);
     res.json({ success: true, data: threat });
   } catch (error) {
@@ -115,7 +116,7 @@ router.post('/threats', async (req: Request, res: Response) => {
 
 router.get('/threats', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const threats = await cendiaAegisService.getActiveThreats(orgId);
     res.json({ success: true, data: threats });
   } catch (error) {
@@ -192,7 +193,7 @@ router.post('/countermeasures/:id/implement', async (req: Request, res: Response
 
 router.post('/briefings', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { threatId, briefingType } = req.body;
     const briefing = await cendiaAegisService.generateBriefing(orgId, threatId, briefingType);
     res.json({ success: true, data: briefing });
@@ -203,7 +204,7 @@ router.post('/briefings', async (req: Request, res: Response) => {
 
 router.get('/briefings', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
     const briefings = await cendiaAegisService.getBriefings(orgId, limit);
     res.json({ success: true, data: briefings });
@@ -218,7 +219,7 @@ router.get('/briefings', async (req: Request, res: Response) => {
 
 router.get('/dashboard', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const dashboard = await cendiaAegisService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
   } catch (error) {
@@ -236,7 +237,7 @@ router.get('/dashboard', async (req: Request, res: Response) => {
  */
 router.get('/express/briefing', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const threatId = req.query.threatId as string | undefined;
     const briefing = await cendiaAegisService.getQuickBriefing(orgId, threatId);
     res.json({ success: true, data: briefing });
@@ -251,7 +252,7 @@ router.get('/express/briefing', async (req: Request, res: Response) => {
  */
 router.get('/express/summary', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const summary = await cendiaAegisService.getThreatSummary(orgId);
     res.json({ success: true, data: summary });
   } catch (error) {
@@ -269,7 +270,7 @@ router.get('/express/summary', async (req: Request, res: Response) => {
  */
 router.get('/correlate', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const result = await cendiaAegisService.correlateSignals(orgId);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -283,7 +284,7 @@ router.get('/correlate', async (req: Request, res: Response) => {
  */
 router.post('/playbook', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { incidentType } = req.body;
     if (!incidentType) {
       return res.status(400).json({ success: false, error: { message: 'incidentType is required' } });
@@ -301,7 +302,7 @@ router.post('/playbook', async (req: Request, res: Response) => {
  */
 router.post('/hunt', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { hypothesis, focusArea, lookbackDays } = req.body;
     const result = await cendiaAegisService.runThreatHunt(orgId, {
       hypothesis,

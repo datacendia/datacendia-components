@@ -28,6 +28,7 @@
 import { Router, Request, Response } from 'express';
 import { legalResearchService } from '../services/legal/LegalResearchService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // ===========================================================================
@@ -400,6 +401,7 @@ import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
+import { z } from 'zod';
 // @ts-ignore TS1470: import.meta used with CommonJS output (runtime uses tsx/ESM)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

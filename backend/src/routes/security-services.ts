@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Security Services
  *
@@ -26,6 +27,7 @@ import { siemIntegration, SIEMConfig } from '../services/security/SIEMIntegratio
 import { complianceExportService, ComplianceFramework } from '../services/security/ComplianceExportService.js';
 import { sbomGenerator } from '../services/security/SBOMGenerator.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

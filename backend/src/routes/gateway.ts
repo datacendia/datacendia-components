@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Gateway
  *
@@ -38,6 +39,7 @@ import GatewayRateLimiter from '../services/gateway/RateLimiter';
 import SIEMIntegration from '../services/gateway/SIEMIntegration';
 import ManifestExporter from '../services/gateway/ManifestExporter';
 
+import { z } from 'zod';
 const router = Router();
 
 // Get service singletons
@@ -60,7 +62,7 @@ function extractUserInfo(req: Request): {
   organizationId: string;
 } {
   // From JWT auth middleware (if authenticated)
-  const user = (req as any).user;
+  const user = req.user;
   if (user) {
     return {
       userId: user.id || 'anonymous',
@@ -599,7 +601,7 @@ router.get('/shadow-ai/events', async (req: Request, res: Response) => {
   try {
     const events = shadowDetector.getEvents({
       organizationId: req.query.organizationId as string,
-      type: req.query.type as any,
+      type: req.query.type as string,
       severity: req.query.severity as string,
       userId: req.query.userId as string,
       limit: req.query.limit ? parseInt(req.query.limit as string) : 100,

@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Carbon Aware
  *
@@ -19,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { carbonAwareSchedulerService, WorkloadPriority, WorkloadStatus } from '../services/scheduling/CarbonAwareSchedulerService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 /**

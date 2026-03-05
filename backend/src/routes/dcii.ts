@@ -32,6 +32,7 @@ import { cognitiveBiasMitigationService } from '../services/dcii/CognitiveBiasMi
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health endpoint

@@ -20,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { nemoGuardrails } from '../services/guardrails/NeMoGuardrailsEngine.js';
 import { cendiaSentryService } from '../services/CendiaSentryService.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 

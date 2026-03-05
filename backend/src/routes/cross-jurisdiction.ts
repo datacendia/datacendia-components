@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Cross Jurisdiction
  *
@@ -19,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { crossJurisdictionEngineService, Jurisdiction } from '../services/compliance/CrossJurisdictionEngineService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 /**

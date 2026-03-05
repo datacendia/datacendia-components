@@ -44,7 +44,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
 
     // Get counts for metrics
     const [deliberationCount, decisionCount, messageCount] = await Promise.all([
@@ -1084,7 +1084,7 @@ router.get('/deliberations', async (req: Request, res: Response, next: NextFunct
     const status = req.query['status'] as string; // Optional filter
 
     // Build where clause - no org filter for Chronos visibility
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     // Skip org filter to allow Chronos to see all deliberations
     if (status) {
       where.status = status.toUpperCase();
@@ -1555,7 +1555,7 @@ router.get('/deliberations/active', async (req: Request, res: Response, next: Ne
   try {
     const orgId = req.organizationId;
 
-    const where: any = { status: { in: ['IN_PROGRESS', 'PENDING'] } };
+    const where: Record<string, unknown> = { status: { in: ['IN_PROGRESS', 'PENDING'] } };
     if (orgId) where.organization_id = orgId;
     
     const deliberations = await prisma.deliberations.findMany({

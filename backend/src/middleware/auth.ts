@@ -23,7 +23,7 @@ interface AuthOrganization {
   id: string;
   name: string;
   slug: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 interface AuthUser {
@@ -36,8 +36,8 @@ interface AuthUser {
   createdAt: Date | null;
   updatedAt: Date | null;
   organization: AuthOrganization;
-  preferences?: any;
-  [key: string]: any;
+  preferences?: Record<string, unknown>;
+  [key: string]: unknown;
 }
 
 declare global {

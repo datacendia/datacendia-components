@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Regulatory Sandbox
  *
@@ -19,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { regulatorySandboxService } from '../services/compliance/RegulatorySandboxService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 /**
@@ -41,7 +43,7 @@ router.get('/regulations', (req: Request, res: Response) => {
     const { jurisdiction, status } = req.query;
     const regulations = regulatorySandboxService.getProposedRegulations({
       jurisdiction: jurisdiction as any,
-      status: status as any,
+      status: status as string,
     });
     res.json({ success: true, data: regulations });
   } catch (error) {

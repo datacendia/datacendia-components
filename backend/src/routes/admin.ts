@@ -111,7 +111,7 @@ router.get('/tenants', async (req: Request, res: Response) => {
   try {
     const { status, plan, search } = req.query;
     const tenants = await tenantService.listTenants({
-      status: status as any,
+      status: status as string,
       plan: plan as any,
       search: search as string,
     });
@@ -207,8 +207,8 @@ router.get('/licenses', async (req: Request, res: Response) => {
   try {
     const { status, type } = req.query;
     const licenses = await licenseService.listLicenses({
-      status: status as any,
-      type: type as any,
+      status: status as string,
+      type: type as string,
     });
     res.json({ licenses, total: licenses.length });
   } catch (error) {
@@ -354,7 +354,7 @@ router.get('/tenants/:tenantId/users', async (req: Request, res: Response) => {
     const { role, status, search } = req.query;
     const users = await userManagementService.listUsers(req.params.tenantId, {
       role: role as any,
-      status: status as any,
+      status: status as string,
       search: search as string,
     });
     res.json({ users, total: users.length });
@@ -402,7 +402,7 @@ router.get('/features', async (req: Request, res: Response) => {
   try {
     const { type, category, enabled } = req.query;
     const features = await featureControlService.listFeatures({
-      type: type as any,
+      type: type as string,
       category: category as string,
       enabled: enabled === 'true' ? true : enabled === 'false' ? false : undefined,
     });
@@ -668,7 +668,7 @@ router.get('/rd-projects', async (req: Request, res: Response) => {
     const { category, status, horizon, visible } = req.query;
     const projects = await rdProjectService.list({
       category: category as any,
-      status: status as any,
+      status: status as string,
       horizon: horizon as any,
       visible: visible === 'true' ? true : visible === 'false' ? false : undefined,
     });

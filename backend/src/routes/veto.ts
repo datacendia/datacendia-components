@@ -20,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import ollama from '../services/ollama.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 
 // Health endpoint
@@ -90,7 +91,7 @@ router.get('/agents', async (_req: Request, res: Response) => {
 router.post('/proposals', authenticate, async (req: Request, res: Response) => {
   try {
     const { title, description, category, amount } = req.body;
-    const userId = (req as any).user?.id || 'anonymous';
+    const userId = req.user?.id || 'anonymous';
 
     if (!title || !description) {
       return res.status(400).json({ error: 'Title and description required' });
@@ -163,7 +164,7 @@ router.get('/decisions/:id', authenticate, async (req: Request, res: Response) =
 router.post('/decisions/:id/override', authenticate, async (req: Request, res: Response) => {
   try {
     const { reason } = req.body;
-    const userId = (req as any).user?.id || 'anonymous';
+    const userId = req.user?.id || 'anonymous';
     const decision = decisions.get(req.params.id);
     
     if (!decision) {

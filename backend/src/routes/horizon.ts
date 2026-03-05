@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaHorizonService, TimeHorizon } from '../services/CendiaHorizonService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health endpoint

@@ -19,6 +19,7 @@ import { userManagementService } from '../services/admin/index.js';
 import { tenantService } from '../services/admin/TenantService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Middleware to get tenant from auth context (simplified for demo)
@@ -82,7 +83,7 @@ router.get('/users', async (req: Request, res: Response) => {
     const { role, status, search } = req.query;
     const users = await userManagementService.listUsers(tenantId, {
       role: role as any,
-      status: status as any,
+      status: status as string,
       search: search as string,
     });
     const metrics = userManagementService.getUserMetrics(tenantId);

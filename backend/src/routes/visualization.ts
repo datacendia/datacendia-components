@@ -21,6 +21,7 @@ import { Router, Request, Response } from 'express';
 import { deliberationVisualizationService } from '../services/visualization/DeliberationVisualizationService.js';
 import { decisionReplayTheaterService } from '../services/visualization/DecisionReplayTheaterService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

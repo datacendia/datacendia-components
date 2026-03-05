@@ -21,6 +21,7 @@ import { kafka } from '../services/kafka/KafkaService.js';
 import { kafkaEventBridge } from '../services/kafka/KafkaEventBridge.js';
 import { KAFKA_TOPICS, getAllTopicNames } from '../services/kafka/KafkaTopics.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 

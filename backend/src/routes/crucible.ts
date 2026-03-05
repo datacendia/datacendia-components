@@ -21,6 +21,7 @@ import { cendiaCrucibleService, SCENARIO_TEMPLATES } from '../services/CendiaCru
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health endpoint (before auth)
@@ -115,8 +116,8 @@ router.get('/simulations', async (req: Request, res: Response, next: NextFunctio
     const simulations = await cendiaCrucibleService.listSimulations(
       req.organizationId!,
       {
-        status: status as any,
-        type: type as any,
+        status: status as string,
+        type: type as string,
         limit: limit ? parseInt(limit as string) : undefined,
         offset: offset ? parseInt(offset as string) : undefined,
       }

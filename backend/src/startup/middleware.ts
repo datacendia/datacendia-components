@@ -48,6 +48,8 @@ import {
 } from '../middleware/rateLimits.js';
 import { apiVersionHeaders } from '../middleware/apiVersion.js';
 import { createHealthCheck } from '../middleware/healthCheck.js';
+import { correlationId } from '../middleware/correlationId.js';
+import { requireJsonBody } from '../middleware/bodyValidation.js';
 
 /**
  * Configure all Express middleware in the correct order.
@@ -65,6 +67,11 @@ export function setupMiddleware(app: Express): void {
   app.get('/readiness', async (_req, res) => {
     res.status(200).send('OK');
   });
+
+  // =========================================================================
+  // CORRELATION ID — Distributed tracing (must be early in pipeline)
+  // =========================================================================
+  app.use(correlationId);
 
   // =========================================================================
   // API VERSIONING + REQUEST TRACING
@@ -135,6 +142,7 @@ export function setupMiddleware(app: Express): void {
   app.use(cookieParser());
   app.use(compression());
   app.use(requestLogger);
+  app.use('/api/', requireJsonBody);
 
   // =========================================================================
   // SECURITY MIDDLEWARE

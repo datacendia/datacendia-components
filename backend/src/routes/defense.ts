@@ -19,6 +19,7 @@
 import { Router, Request, Response } from 'express';
 import { defenseVerticalService } from '../services/verticals/defense/index.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

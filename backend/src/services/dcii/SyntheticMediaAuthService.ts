@@ -894,15 +894,32 @@ class SyntheticMediaAuthService {
 
     for (const demo of demoAssets) {
       const content = `demo-content-${demo.file}-${Date.now()}`;
-      this.signMedia(
-        demo.org, demo.file, demo.type, demo.mime, content, 'system-seed',
-        { source: 'application', application: 'Cendia DCII', capturedAt: new Date(), capturedBy: 'system-seed' }
-      ).then(asset => {
-        this.analyzeAuthenticity(asset.id, 'system-seed').catch(err =>
-          logger.error(`Failed to analyze demo asset ${demo.file}:`, err)
-        );
-      }).catch(err => logger.error(`Failed to seed demo asset ${demo.file}:`, err));
+      const contentHash = crypto.createHash('sha256').update(content).digest('hex');
+      const assetId = uuidv4();
+      const asset: MediaAsset = {
+        id: assetId,
+        organizationId: demo.org,
+        fileName: demo.file,
+        mediaType: demo.type,
+        mimeType: demo.mime,
+        sizeBytes: content.length,
+        contentHash,
+        hashAlgorithm: 'SHA-256',
+        provenance: {
+          source: 'application',
+          application: 'Cendia DCII',
+          capturedAt: new Date(),
+          capturedBy: 'system-seed',
+        },
+        chainOfCustody: [],
+        metadata: {},
+        createdAt: new Date(),
+        createdBy: 'system-seed',
+        status: 'active',
+      };
+      this.assets.set(assetId, asset);
     }
+    logger.info(`[CendiaMediaAuth] Seeded ${demoAssets.length} in-memory demo assets`);
   }
 
 

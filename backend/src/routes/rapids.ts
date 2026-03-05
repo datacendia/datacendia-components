@@ -20,6 +20,7 @@ import { logger } from '../utils/logger.js';
 import { rapids } from '../services/gpu/RAPIDSService.js';
 import { confidentialCompute } from '../services/gpu/ConfidentialComputeService.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 

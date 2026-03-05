@@ -19,6 +19,7 @@ import { enterpriseSchedulerService } from '../services/scheduler/EnterpriseSche
 import { devAuth } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 router.use(devAuth);
 
@@ -77,7 +78,7 @@ router.get('/status', async (_req: Request, res: Response) => {
  */
 router.get('/jobs', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const jobs = enterpriseSchedulerService.getJobs(orgId);
     
     res.json({
@@ -119,8 +120,8 @@ router.get('/jobs/:id', async (req: Request, res: Response) => {
  */
 router.post('/jobs', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
-    const userId = (req as any).user?.id || 'system';
+    const orgId = req.organizationId;
+    const userId = req.user?.id || 'system';
     
     const { jobType, name, description, cronExpression, timezone, config, enabled } = req.body;
     

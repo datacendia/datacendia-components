@@ -20,6 +20,7 @@ import { verticalConfigService } from '../services/enterprise/VerticalConfigServ
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Extract user/org info from request

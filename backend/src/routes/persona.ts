@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Persona
  *
@@ -20,6 +21,7 @@ import { prisma } from '../config/database.js';
 import { devAuth } from '../middleware/auth.js';
 import { assertCapability } from '../utils/permissions.js';
 
+import { z } from 'zod';
 const router = Router();
 
 router.use(devAuth);
@@ -28,7 +30,7 @@ router.use(devAuth);
 router.get('/twins', async (req: Request, res: Response) => {
   try {
     const orgId = (req.organizationId as string) || (req.query.organization_id as string);
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) {
       where.organization_id = orgId;
     }

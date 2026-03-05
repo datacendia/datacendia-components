@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { dissentService } from '../services/CendiaDissentService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================
@@ -85,7 +86,7 @@ router.get('/', async (req: Request, res: Response) => {
     const { status, userId, decisionId, limit } = req.query;
     
     const dissents = await dissentService.getDissents(organizationId, {
-      status: status as any,
+      status: status as string,
       userId: userId as string,
       decisionId: decisionId as string,
       limit: limit ? parseInt(limit as string) : undefined,

@@ -16,6 +16,7 @@
 import { Router, Request, Response } from 'express';
 import { cendiaSentryService } from '../services/CendiaSentryService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // ===========================================================================
@@ -28,7 +29,7 @@ const router = Router();
  */
 router.post('/check', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { userId, inputType, input, output, agentId, modelUsed, context } = req.body;
     const result = await cendiaSentryService.checkContent({
       organizationId: orgId,
@@ -68,7 +69,7 @@ router.get('/check/:id', async (req: Request, res: Response) => {
  */
 router.get('/statistics', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const stats = await cendiaSentryService.getStatistics(orgId);
     res.json({ success: true, data: stats });
   } catch (error) {
@@ -82,7 +83,7 @@ router.get('/statistics', async (req: Request, res: Response) => {
  */
 router.put('/config', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { configs } = req.body;
     cendiaSentryService.setGuardrailConfig(orgId, configs);
     res.json({ success: true, message: 'Guardrail configuration updated' });
@@ -101,7 +102,7 @@ router.put('/config', async (req: Request, res: Response) => {
  */
 router.post('/check-context', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { userId, inputType, input, output, agentId, modelUsed, domain, context } = req.body;
     if (!domain) {
       return res.status(400).json({ success: false, error: { message: 'domain is required (general|medical|financial|legal|technical|hr)' } });
@@ -145,7 +146,7 @@ router.get('/explain/:checkId', async (req: Request, res: Response) => {
  */
 router.post('/correct', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { checkId, guardrailType, correctedDecision, reason, correctedBy } = req.body;
     if (!checkId || !guardrailType || !correctedDecision) {
       return res.status(400).json({ success: false, error: { message: 'checkId, guardrailType, and correctedDecision are required' } });
@@ -170,7 +171,7 @@ router.post('/correct', async (req: Request, res: Response) => {
  */
 router.get('/corrections', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const result = await cendiaSentryService.getCorrectionAnalytics(orgId);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -184,7 +185,7 @@ router.get('/corrections', async (req: Request, res: Response) => {
  */
 router.post('/check-tiered', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { userId, inputType, input, output, agentId, modelUsed, context } = req.body;
     const result = await cendiaSentryService.checkContentTiered({
       organizationId: orgId,

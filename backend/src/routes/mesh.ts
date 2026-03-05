@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Mesh
  *
@@ -19,6 +20,7 @@ import { Router, Request, Response } from 'express';
 import { prisma } from '../config/database.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 
 router.use(devAuth);
@@ -100,7 +102,7 @@ router.get('/participants', async (req: Request, res: Response) => {
   try {
     const { industry, region, limit = 100 } = req.query;
     
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (industry) where.industry = industry;
     if (region) where.region = region;
 
@@ -126,7 +128,7 @@ router.get('/benchmarks', async (req: Request, res: Response) => {
   try {
     const { industry, category } = req.query;
     
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (industry) where.industry = industry;
     if (category) where.category = category;
 
@@ -151,7 +153,7 @@ router.get('/signals', async (req: Request, res: Response) => {
   try {
     const { severity, category, active } = req.query;
     
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (severity) where.severity = severity;
     if (category) where.category = category;
     if (active === 'true') {

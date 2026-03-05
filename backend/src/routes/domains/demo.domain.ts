@@ -15,14 +15,14 @@
 
 import { Router } from 'express';
 import demoRoutes from '../demo.js';
-import holyShitRoutes from '../holyShit.js';
+import premiumFeatureRoutes from '../premium-features.js';
 import demoSeedRoutes from '../demo-seed.js';
 import consolidatedRoutes from '../consolidated.js';
 
 const router = Router();
 
 router.use('/leads', demoRoutes);
-router.use('/premium', holyShitRoutes);
+router.use('/premium', premiumFeatureRoutes);
 router.use('/demo', demoSeedRoutes);
 router.use('/consolidated', consolidatedRoutes);
 

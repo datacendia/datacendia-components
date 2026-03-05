@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { complianceService, complianceEnforcer, ComplianceDomain, PillarId } from '../services/compliance/index.js';
 import { complianceGuard, councilComplianceMiddleware, CouncilProposal } from '../services/council/ComplianceGuard.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health endpoint

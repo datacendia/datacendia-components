@@ -19,6 +19,7 @@ import { authenticate } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import hrIntegrationService, { HRProvider, HRCredentials } from '../services/HRIntegrationService.js';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 
 // =============================================================================

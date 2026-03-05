@@ -39,6 +39,7 @@ import { echoExpressService } from '../services/express/EchoExpressService.js';
 import { cendiaHorizonService } from '../services/CendiaHorizonService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================
@@ -51,7 +52,7 @@ const router = Router();
  */
 router.post('/analyze', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const { query, domain, context, mode } = req.body;
@@ -97,7 +98,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
  */
 router.get('/compliance/report', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const report = await cendiaPanopticonService.getComplianceReport(user.organizationId);
@@ -114,7 +115,7 @@ router.get('/compliance/report', async (req: Request, res: Response) => {
  */
 router.post('/compliance/remediate', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const { violationIds } = req.body;
@@ -140,7 +141,7 @@ router.post('/compliance/remediate', async (req: Request, res: Response) => {
  */
 router.get('/threats/briefing', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const threatId = req.query.threatId as string | undefined;
@@ -162,7 +163,7 @@ router.get('/threats/briefing', async (req: Request, res: Response) => {
  */
 router.get('/threats/summary', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const summary = await cendiaAegisService.getThreatSummary(user.organizationId);
@@ -183,7 +184,7 @@ router.get('/threats/summary', async (req: Request, res: Response) => {
  */
 router.post('/simulation/quick', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const { scenarioType, description } = req.body;
@@ -218,7 +219,7 @@ router.post('/simulation/quick', async (req: Request, res: Response) => {
  */
 router.get('/simulation/resilience', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const score = await cendiaCrucibleService.getResilienceScore(user.organizationId);
@@ -239,7 +240,7 @@ router.get('/simulation/resilience', async (req: Request, res: Response) => {
  */
 router.get('/decisions/insights', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const insights = await echoExpressService.getExpressDecisionInsights(user.organizationId);
@@ -260,7 +261,7 @@ router.get('/decisions/insights', async (req: Request, res: Response) => {
  */
 router.post('/forecast', async (req: Request, res: Response) => {
   try {
-    const user = (req as any).user;
+    const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
     const { question, timeHorizon } = req.body;

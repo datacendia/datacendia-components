@@ -1,8 +1,8 @@
 /**
- * API Routes — Holy Shit
+ * API Routes — Premium Features
  *
  * Express route handler defining REST endpoints.
- * @module routes/holyShit
+ * @module routes/premium-features
  */
 
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
@@ -10,7 +10,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// DATACENDIA PLATFORM - HOLY SHIT FEATURES API ROUTES
+// DATACENDIA PLATFORM - PREMIUM FEATURES API ROUTES
 // Enterprise-grade API for premium decision intelligence features
 // =============================================================================
 
@@ -21,10 +21,10 @@ import {
   decisionDebtService,
   liveDemoModeService,
   regulatoryAbsorbService,
-  HOLY_SHIT_FEATURES,
-} from '../features/holy-shit/index.js';
-import { regulatoryAbsorbV2Service } from '../features/holy-shit/RegulatoryAbsorbV2.js';
-import { PREMORTEM_AGENTS } from '../features/holy-shit/PreMortem.js';
+  PREMIUM_FEATURES,
+} from '../features/premium/index.js';
+import { regulatoryAbsorbV2Service } from '../features/premium/RegulatoryAbsorbV2.js';
+import { PREMORTEM_AGENTS } from '../features/premium/PreMortem.js';
 import { 
   featureGating, 
   SUBSCRIPTION_TIERS,
@@ -33,6 +33,7 @@ import {
 } from '../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================
@@ -41,7 +42,7 @@ const router = Router();
 
 /**
  * GET /api/v1/premium/features
- * Get all Holy Shit features with availability based on subscription tier
+ * Get all premium features with availability based on subscription tier
  */
 router.get('/features', (req: Request, res: Response) => {
   const tier = (req.query.tier as SubscriptionTier) || 'pilot';
@@ -54,7 +55,7 @@ router.get('/features', (req: Request, res: Response) => {
     regulatoryInstantAbsorb: 'regulatoryInstantAbsorb',
   };
 
-  const features = Object.entries(HOLY_SHIT_FEATURES).map(([key, feature]) => {
+  const features = Object.entries(PREMIUM_FEATURES).map(([key, feature]) => {
     const featureKey = featureKeyMap[key];
     const available = featureKey ? featureGating.hasFeature(tier, featureKey) : false;
     return {
@@ -82,7 +83,7 @@ router.get('/tiers', (_req: Request, res: Response) => {
     id: key,
     name: config.displayName,
     pricing: config.pricing,
-    holyShitFeatures: {
+    premiumFeatures: {
       preMortem: config.features.preMortem,
       ghostBoard: config.features.ghostBoard,
       decisionDebtDashboard: config.features.decisionDebtDashboard,
@@ -282,7 +283,7 @@ router.get('/decision-debt/dashboard', async (req: Request, res: Response) => {
       organizationId,
       userId: 'demo-user',
       tier,
-      filters: req.query.filters as any,
+      filters: req.query.filters as Record<string, unknown>,
     });
 
     res.json({
@@ -626,7 +627,7 @@ router.get('/regulatory/v2/documents', async (req: Request, res: Response) => {
     const jurisdiction = req.query.jurisdiction as string | undefined;
 
     const documents = await regulatoryAbsorbV2Service.getDocuments(organizationId, {
-      status: status as any,
+      status: status as string,
       reviewStatus: reviewStatus as any,
       jurisdiction,
     });

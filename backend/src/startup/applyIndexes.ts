@@ -26,7 +26,7 @@ const PERFORMANCE_INDEXES = [
   'CREATE INDEX IF NOT EXISTS idx_decisions_org_status ON decisions(organization_id, status)',
   'CREATE INDEX IF NOT EXISTS idx_decisions_created_desc ON decisions(created_at DESC)',
   'CREATE INDEX IF NOT EXISTS idx_decisions_user ON decisions(user_id)',
-  'CREATE INDEX IF NOT EXISTS idx_decisions_type ON decisions(decision_type)',
+  'CREATE INDEX IF NOT EXISTS idx_decisions_category ON decisions(category)',
 
   // Deliberations table - High-frequency queries
   'CREATE INDEX IF NOT EXISTS idx_deliberations_org_status ON deliberations(organization_id, status)',

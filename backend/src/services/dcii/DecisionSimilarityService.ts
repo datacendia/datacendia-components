@@ -337,7 +337,7 @@ class DecisionSimilarityService {
       await prisma.dcii_similarity_results.create({
         data: {
           id: result.id, organization_id: result.query.organizationId,
-          query_title: result.query.title, match_count: result.matches.length, data: result as any,
+          query_title: result.query.title, match_count: result.matches.length, data: result as unknown,
         },
       });
     } catch (err) { logger.debug('[CendiaSimilarity] DB persist result failed (non-fatal):', err); }

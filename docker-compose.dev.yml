@@ -1,0 +1,65 @@
+# =============================================================================
+# DATACENDIA — Minimal Development Stack
+# Only PostgreSQL, Redis, and Ollama. For local dev without the full stack.
+# Usage: docker compose -f docker-compose.dev.yml up -d
+# =============================================================================
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: datacendia-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: datacendia
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
+      POSTGRES_DB: datacendia
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U datacendia -d datacendia"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: datacendia-redis-dev
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-datacendia_redis_2024}
+    volumes:
+      - redis_dev_data:/data
+    ports:
+      - "6380:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "--pass", "${REDIS_PASSWORD:-datacendia_redis_2024}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: datacendia-ollama-dev
+    restart: unless-stopped
+    volumes:
+      - ollama_dev_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    # Uncomment if you have an NVIDIA GPU:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+volumes:
+  postgres_dev_data:
+  redis_dev_data:
+  ollama_dev_data:
+
+networks:
+  default:
+    name: datacendia-dev-network

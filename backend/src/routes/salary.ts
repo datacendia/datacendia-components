@@ -19,6 +19,7 @@ import { authenticate } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import marketSalaryService, { SalaryQuery } from '../services/MarketSalaryService.js';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 
 // =============================================================================

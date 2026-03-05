@@ -29,6 +29,7 @@ import {
 } from '../services/pillars/index.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Use devAuth so requests have req.organizationId in development

@@ -18,6 +18,7 @@ import express, { Request, Response, Router } from 'express';
 import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 const prisma = new PrismaClient();
 
@@ -136,7 +137,7 @@ router.get('/', async (req: Request, res: Response) => {
   try {
     const { limit = 50, source } = req.query;
 
-    const where: any = {
+    const where: Record<string, unknown> = {
       industry: { in: ['Marketing Lead', 'Newsletter Subscriber'] },
     };
 

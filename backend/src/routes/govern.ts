@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Govern
  *
@@ -18,6 +19,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
 
+import { z } from 'zod';
 const router = Router();
 const prisma = new PrismaClient();
 
@@ -25,7 +27,7 @@ const prisma = new PrismaClient();
 router.get('/policies', async (req: Request, res: Response) => {
   try {
     const { organization_id, status, category } = req.query;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (organization_id) where.organization_id = organization_id;
     if (status) where.status = status;
     if (category) where.category = category;
@@ -66,7 +68,7 @@ router.post('/policies', async (req: Request, res: Response) => {
 router.get('/audits', async (req: Request, res: Response) => {
   try {
     const { organization_id, status } = req.query;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (organization_id) where.organization_id = organization_id;
     if (status) where.status = status;
 

@@ -3,8 +3,8 @@
  *
  * Feature module implementing a specific platform capability.
  *
- * @exports WORKFLOW_INTEGRATION, HOLY_SHIT_FEATURES
- * @module features/holy-shit/index
+ * @exports WORKFLOW_INTEGRATION, PREMIUM_FEATURES
+ * @module features/premium/index
  */
 
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// DATACENDIA PLATFORM - HOLY SHIT FEATURES
+// DATACENDIA PLATFORM - PREMIUM FEATURES
 // The 5 features that close deals
 // Updated: December 2024 - Integrated with 312 workflow scenarios
 // =============================================================================
@@ -47,7 +47,7 @@ export const WORKFLOW_INTEGRATION = {
 };
 
 // Feature metadata
-export const HOLY_SHIT_FEATURES = {
+export const PREMIUM_FEATURES = {
   preMortem: {
     id: 'preMortem',
     name: 'The Pre-Mortem',

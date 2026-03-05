@@ -22,6 +22,7 @@ import { logger } from '../utils/logger.js';
 import multer from 'multer';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } }); // 50MB limit
 
@@ -66,7 +67,7 @@ router.get('/packets', async (req: Request, res: Response) => {
       organizationId: user.organizationId,
       dataSourceId: dataSourceId as string,
       search: search as string,
-      status: status as any,
+      status: status as string,
       mode: mode as any,
       businessUnit: businessUnit as string,
       framework: framework as string,

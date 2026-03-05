@@ -427,8 +427,8 @@ function getAdapterDocumentation(type: string): object {
         'IoT device events',
       ],
       configExample: {
-        hmacSecret: 'your-webhook-secret',
-        apiKeys: ['key1', 'key2'],
+        hmacSecret: process.env.WEBHOOK_HMAC_SECRET || '<set-via-env>',
+        apiKeys: ['<set-via-env>'],
         rateLimitPerMinute: 1000,
       },
     },

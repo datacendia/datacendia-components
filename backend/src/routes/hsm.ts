@@ -17,6 +17,7 @@ import { Router, Request, Response } from 'express';
 import { devAuth } from '../middleware/auth.js';
 import { hsmAdapter } from '../services/security/HSMAdapter.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health (no auth)

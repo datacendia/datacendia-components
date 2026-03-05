@@ -17,6 +17,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaRecallService } from '../services/CendiaRecallService.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // ---------------------------------------------------------------------------
@@ -58,7 +59,7 @@ router.get('/recall/trackers', async (req: Request, res: Response) => {
     const status = req.query.status as string | undefined;
     const limit = parseInt(req.query.limit as string) || 50;
     const offset = parseInt(req.query.offset as string) || 0;
-    const result = await cendiaRecallService.getOutcomes(organizationId, { status: status as any, limit, offset });
+    const result = await cendiaRecallService.getOutcomes(organizationId, { status: status as string, limit, offset });
     res.json({ success: true, data: result });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: (error as Error).message });

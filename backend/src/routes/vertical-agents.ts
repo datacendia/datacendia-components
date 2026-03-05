@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Vertical Agents
  *
@@ -18,6 +19,7 @@ import { logger } from '../utils/logger.js';
 import { Router, Request, Response } from 'express';
 import { verticalAgentsService } from '../services/VerticalAgentsService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Helper to safely get params

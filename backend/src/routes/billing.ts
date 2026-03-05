@@ -19,6 +19,7 @@ import { logger } from '../utils/logger.js';
 import { prisma } from '../config/database.js';
 import { notificationService } from '../services/NotificationService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

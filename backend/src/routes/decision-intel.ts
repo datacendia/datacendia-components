@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Decision Intel
  *
@@ -22,6 +23,7 @@ import { chronosEventBus } from '../services/ChronosEventBus.js';
 import { prisma } from '../config/database.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 
 router.use(devAuth);
@@ -37,7 +39,7 @@ router.use(devAuth);
 router.get('/status', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     
     // Get counts for metrics
@@ -105,7 +107,7 @@ router.get('/chronos/snapshots', async (req: Request, res: Response) => {
   try {
     const { snapshot_type } = req.query;
     const orgId = req.organizationId;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     if (snapshot_type) where.snapshot_type = snapshot_type;
 
@@ -292,7 +294,7 @@ router.get('/ghost-board/sessions', async (req: Request, res: Response) => {
   try {
     const { status } = req.query;
     const orgId = req.organizationId;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     if (status) where.status = status;
 
@@ -336,7 +338,7 @@ router.get('/pre-mortem/analyses', async (req: Request, res: Response) => {
   try {
     const { decision_id, status } = req.query;
     const orgId = req.organizationId;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     if (decision_id) where.decision_id = decision_id;
     if (status) where.status = status;
@@ -384,7 +386,7 @@ router.get('/regulatory/items', async (req: Request, res: Response) => {
   try {
     const { jurisdiction, status } = req.query;
     const orgId = req.organizationId;
-    const where: any = {};
+    const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     if (jurisdiction) where.jurisdiction = jurisdiction;
     if (status) where.compliance_status = status;

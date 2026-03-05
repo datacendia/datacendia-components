@@ -18,6 +18,7 @@ import express, { Request, Response, Router } from 'express';
 import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
+import { z } from 'zod';
 // Core Services
 import { cendiaBrandService } from '../services/core/CendiaBrandService.js';
 import { cendiaFoundryService } from '../services/core/CendiaFoundryService.js';
@@ -26,6 +27,7 @@ import { cendiaSupportService } from '../services/core/CendiaSupportService.js';
 import { cendiaWatchService } from '../services/core/CendiaWatchService.js';
 import { getCoreDashboard } from '../services/core/index.js';
 
+import { z } from 'zod';
 const router: Router = express.Router();
 
 // All core admin routes require authentication and admin-level role

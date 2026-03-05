@@ -20,6 +20,7 @@ import { regulatorsReceiptService } from '../services/evidence/RegulatorsReceipt
 import { pdfGeneratorService } from '../services/document/PDFGeneratorService.js';
 import { prisma } from '../config/database.js';
 
+import { z } from 'zod';
 const router = Router();
 
 async function buildDeliberationData(deliberationId: string) {

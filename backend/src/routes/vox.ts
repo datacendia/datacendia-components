@@ -18,6 +18,7 @@ import { Router, Request, Response } from 'express';
 import { cendiaVoxService } from '../services/CendiaVoxService.js';
 import { devAuth } from '../middleware/auth.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Apply devAuth to all routes to get organizationId from seeded user
@@ -33,7 +34,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
 
     // Get counts for metrics
     const [stakeholderCount, vetoCount] = await Promise.all([
@@ -76,7 +77,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
 router.post('/stakeholders/initialize', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const stakeholders = await cendiaVoxService.initializeStakeholders(orgId);
     res.json({ success: true, data: stakeholders });
   } catch (error) {
@@ -86,7 +87,7 @@ router.post('/stakeholders/initialize', async (req: Request, res: Response) => {
 
 router.get('/stakeholders', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const stakeholders = await cendiaVoxService.getStakeholders(orgId);
     res.json({ success: true, data: stakeholders });
   } catch (error) {
@@ -132,7 +133,7 @@ router.get('/stakeholders/:id/signals', async (req: Request, res: Response) => {
 
 router.post('/impacts/assess', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { decisionId, decisionContext } = req.body;
     const impacts = await cendiaVoxService.assessImpact(orgId, decisionId, decisionContext);
     res.json({ success: true, data: impacts });
@@ -156,7 +157,7 @@ router.get('/decisions/:id/impacts', async (req: Request, res: Response) => {
 
 router.post('/votes', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { decisionId, decisionContext } = req.body;
     const votes = await cendiaVoxService.conductVote(orgId, decisionId, decisionContext);
     res.json({ success: true, data: votes });
@@ -180,7 +181,7 @@ router.get('/decisions/:id/votes', async (req: Request, res: Response) => {
 
 router.post('/assemblies', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const { decisionId, title, assemblyType } = req.body;
     const assembly = await cendiaVoxService.conductAssembly(orgId, decisionId, title, assemblyType);
     res.json({ success: true, data: assembly });
@@ -191,7 +192,7 @@ router.post('/assemblies', async (req: Request, res: Response) => {
 
 router.get('/assemblies', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 20;
     const assemblies = await cendiaVoxService.getAssemblies(orgId, limit);
     res.json({ success: true, data: assemblies });
@@ -206,7 +207,7 @@ router.get('/assemblies', async (req: Request, res: Response) => {
 
 router.get('/signals', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 50;
     const signals = await cendiaVoxService.getAllSignals(orgId, limit);
     res.json({ success: true, data: signals });
@@ -221,7 +222,7 @@ router.get('/signals', async (req: Request, res: Response) => {
 
 router.get('/vetoes', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 50;
     const vetoes = await cendiaVoxService.getAllVetoes(orgId, limit);
     res.json({ success: true, data: vetoes });
@@ -236,7 +237,7 @@ router.get('/vetoes', async (req: Request, res: Response) => {
 
 router.get('/dashboard', async (req: Request, res: Response) => {
   try {
-    const orgId = (req as any).organizationId;
+    const orgId = req.organizationId;
     const dashboard = await cendiaVoxService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
   } catch (error) {

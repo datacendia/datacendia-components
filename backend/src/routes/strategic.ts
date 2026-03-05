@@ -25,6 +25,7 @@ import { unionService } from '../services/strategic/UnionService.js';
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

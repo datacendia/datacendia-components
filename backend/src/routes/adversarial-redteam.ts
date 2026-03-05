@@ -18,6 +18,7 @@
 import { Router, Request, Response } from 'express';
 import { adversarialRedTeamService } from '../services/council/AdversarialRedTeamService.js';
 
+import { z } from 'zod';
 const router = Router();
 
 /**

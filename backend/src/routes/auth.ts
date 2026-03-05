@@ -15,7 +15,7 @@ import crypto from 'crypto';
 import { z } from 'zod';
 import { Prisma } from '@prisma/client';
 import { prisma } from '../config/database.js';
-import { cache } from '../config/redis.js';
+import { cache, redis } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { emailService } from '../services/email.js';
@@ -25,6 +25,7 @@ import {
   generateRefreshToken,
   verifyRefreshToken,
 } from '../middleware/auth.js';
+import { authRateLimiter, registrationRateLimiter, passwordResetRateLimiter } from '../middleware/rateLimiter.js';
 
 const router = Router();
 
@@ -49,17 +50,32 @@ const refreshSchema = z.object({
  * POST /api/v1/auth/login
  * User login with email and password
  */
-router.post('/login', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/login', authRateLimiter, async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { email, password } = loginSchema.parse(req.body);
+    const normalizedEmail = email.toLowerCase();
+    const lockoutKey = `lockout:${normalizedEmail}`;
+    const failKey = `login_fails:${normalizedEmail}`;
+    const MAX_FAILED_ATTEMPTS = 5;
+    const LOCKOUT_DURATION_SECONDS = 900; // 15 minutes
+
+    // Check if account is locked out
+    const lockoutTTL = await redis.ttl(lockoutKey).catch(() => -2);
+    if (lockoutTTL > 0) {
+      logger.warn(`Login blocked — account locked: ${normalizedEmail}`, { ip: req.ip });
+      throw errors.unauthorized(`Account temporarily locked. Try again in ${Math.ceil(lockoutTTL / 60)} minutes.`);
+    }
 
     // Find user by email
     const user = await prisma.users.findUnique({
-      where: { email: email.toLowerCase() },
+      where: { email: normalizedEmail },
       include: { organizations: true },
     });
 
     if (!user || !user.password_hash) {
+      // Increment fail counter even for unknown emails to prevent enumeration timing
+      await cache.incr(failKey).catch(() => {});
+      await cache.expire(failKey, LOCKOUT_DURATION_SECONDS).catch(() => {});
       throw errors.unauthorized('Invalid email or password');
     }
 
@@ -74,10 +90,55 @@ router.post('/login', async (req: Request, res: Response, next: NextFunction) =>
     // Verify password
     const validPassword = await bcrypt.compare(password, user.password_hash); 
     if (!validPassword) {
-      // Log failed attempt
-      logger.warn(`Failed login attempt for ${email}`, { ip: req.ip });
+      // Increment failed attempt counter
+      const failCount = await cache.incr(failKey).catch(() => MAX_FAILED_ATTEMPTS);
+      await cache.expire(failKey, LOCKOUT_DURATION_SECONDS).catch(() => {});
+
+      // Lock account after MAX_FAILED_ATTEMPTS
+      if (failCount >= MAX_FAILED_ATTEMPTS) {
+        await cache.set(lockoutKey, '1', LOCKOUT_DURATION_SECONDS).catch(() => {});
+        logger.warn(`Account locked after ${failCount} failed attempts: ${normalizedEmail}`, { ip: req.ip });
+
+        // Audit log for lockout event
+        await prisma.audit_logs.create({
+          data: {
+            id: crypto.randomUUID(),
+            organization_id: user.organization_id,
+            user_id: user.id,
+            action: 'user.account_locked',
+            resource_type: 'user',
+            resource_id: user.id,
+            details: { reason: 'max_failed_login_attempts', attempts: failCount, ip: req.ip } as Prisma.InputJsonValue,
+            ip_address: req.ip,
+            user_agent: req.get('user-agent') || undefined,
+          },
+        }).catch(() => {});
+
+        throw errors.unauthorized(`Account temporarily locked after ${MAX_FAILED_ATTEMPTS} failed attempts. Try again in 15 minutes.`);
+      }
+
+      // Audit log for failed attempt
+      await prisma.audit_logs.create({
+        data: {
+          id: crypto.randomUUID(),
+          organization_id: user.organization_id,
+          user_id: user.id,
+          action: 'user.login_failed',
+          resource_type: 'user',
+          resource_id: user.id,
+          details: { attempt: failCount, ip: req.ip } as Prisma.InputJsonValue,
+          ip_address: req.ip,
+          user_agent: req.get('user-agent') || undefined,
+        },
+      }).catch(() => {});
+
+      logger.warn(`Failed login attempt ${failCount}/${MAX_FAILED_ATTEMPTS} for ${normalizedEmail}`, { ip: req.ip });
       throw errors.unauthorized('Invalid email or password');
     }
+
+    // Successful login — clear any failed attempt counters
+    await cache.del(failKey).catch(() => {});
+    await cache.del(lockoutKey).catch(() => {});
 
     // Generate tokens
     const accessToken = await generateAccessToken({
@@ -155,7 +216,7 @@ router.post('/login', async (req: Request, res: Response, next: NextFunction) =>
  * POST /api/v1/auth/register
  * Register new user and organization
  */
-router.post('/register', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/register', registrationRateLimiter, async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { email, password, name, organizationName } = registerSchema.parse(req.body);
 
@@ -408,7 +469,7 @@ router.get('/me', authenticate, async (req: Request, res: Response) => {
  * POST /api/v1/auth/forgot-password
  * Request password reset email
  */
-router.post('/forgot-password', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/forgot-password', passwordResetRateLimiter, async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { email } = z.object({ email: z.string().email() }).parse(req.body);
 
@@ -460,7 +521,7 @@ router.post('/forgot-password', async (req: Request, res: Response, next: NextFu
  * POST /api/v1/auth/find-account
  * Find account by name + organization, returns masked email
  */
-router.post('/find-account', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/find-account', authRateLimiter, async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { name, organizationName } = z.object({
       name: z.string().min(2),
@@ -534,7 +595,7 @@ router.post('/find-account', async (req: Request, res: Response, next: NextFunct
  * POST /api/v1/auth/reset-password
  * Reset password using token
  */
-router.post('/reset-password', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/reset-password', passwordResetRateLimiter, async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { token, password } = z.object({
       token: z.string().min(1),

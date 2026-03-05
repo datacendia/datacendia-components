@@ -457,7 +457,7 @@ router.post('/reports/security', async (req: Request, res: Response, next: NextF
 
 router.get('/reports', (req: Request, res: Response) => {
   const reports = reportService.getReports({
-    type: req.query.type as any,
+    type: req.query.type as string,
     fromDate: req.query.fromDate ? new Date(req.query.fromDate as string) : undefined,
     toDate: req.query.toDate ? new Date(req.query.toDate as string) : undefined,
   });
@@ -688,7 +688,7 @@ router.post('/export/bundle', async (req: Request, res: Response, next: NextFunc
 
 router.get('/export/bundles', (req: Request, res: Response) => {
   const bundles = exportService.getBundles({
-    type: req.query.type as any,
+    type: req.query.type as string,
     fromDate: req.query.fromDate ? new Date(req.query.fromDate as string) : undefined,
     toDate: req.query.toDate ? new Date(req.query.toDate as string) : undefined,
   });

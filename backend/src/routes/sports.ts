@@ -1,4 +1,5 @@
 import { logger } from '../utils/logger.js';
+import { z } from 'zod';
 /**
  * API Routes — Sports
  *
@@ -25,6 +26,7 @@ import { sportsAgentService, SPORTS_AGENT_PRESETS } from '../services/sports/Spo
 import { SPORTS_DECISION_TEMPLATES } from '../config/sports/decision-templates.js';
 import { SPORTS_COMPLIANCE_FRAMEWORKS } from '../config/sports/compliance-frameworks.js';
 
+import { z } from 'zod';
 const router = Router();
 
 // Health endpoint
