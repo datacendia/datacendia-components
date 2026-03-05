@@ -1,5 +1,5 @@
 import { logger } from '../utils/logger.js';
-import { z } from 'zod';
+
 /**
  * API Routes — Cortex Core
  *
@@ -21,7 +21,6 @@ import { Router, Request, Response } from 'express';
 import { cortexCore } from '../services/cortex/index';
 import type { QueryParams, AnalyzeParams, SimulateParams, GovernParams, ContextOptions } from '../services/cortex/types';
 
-import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

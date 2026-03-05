@@ -19,7 +19,6 @@
 import { Router, Request, Response } from 'express';
 import { verticalSentinelService, VerticalId } from '../services/verticals/meta/VerticalSentinelService.js';
 
-import { z } from 'zod';
 const router = Router();
 
 const isValidVerticalId = (id: string): id is VerticalId => {

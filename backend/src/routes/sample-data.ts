@@ -17,7 +17,6 @@
 import { Router } from 'express';
 import { sampleDataService } from '../services/SampleDataService';
 
-import { z } from 'zod';
 const router = Router();
 
 // =============================================================================

@@ -17,7 +17,6 @@ import { Router, Request, Response } from 'express';
 import { devAuth } from '../middleware/auth.js';
 import { FHIRConnector } from '../services/verticals/healthcare/FHIRConnector.js';
 
-import { z } from 'zod';
 const router = Router();
 
 // Shared FHIR connector instance (configured via env or defaults)

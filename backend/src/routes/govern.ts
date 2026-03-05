@@ -1,5 +1,5 @@
 import { logger } from '../utils/logger.js';
-import { z } from 'zod';
+
 /**
  * API Routes — Govern
  *
@@ -19,7 +19,6 @@ import { z } from 'zod';
 import { Router, Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
 
-import { z } from 'zod';
 const router = Router();
 const prisma = new PrismaClient();
 
