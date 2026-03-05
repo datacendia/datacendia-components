@@ -33,6 +33,97 @@ import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const iissAssessSchema = z.object({
+  organizationId: z.string().min(1),
+  organizationName: z.string().optional(),
+});
+
+const iissDeliberationSchema = z.object({
+  organizationId: z.string().min(1),
+  deliberationId: z.string().min(1),
+  deliberationTitle: z.string().optional(),
+  deliberationDurationMinutes: z.number().optional(),
+  agentCount: z.number().int().optional(),
+  hasConsensus: z.boolean().optional(),
+  hasDissent: z.boolean().optional(),
+  evidenceCount: z.number().int().optional(),
+});
+
+const actionSchema = z.object({ action: z.string().min(1) });
+const justificationSchema = z.object({ justification: z.string().min(1) });
+
+const dateRangeOrgSchema = z.object({
+  organizationId: z.string().min(1),
+  from: z.string().optional(),
+  to: z.string().optional(),
+});
+
+const mediaSignSchema = z.object({
+  organizationId: z.string().min(1),
+  fileName: z.string().min(1),
+  mediaType: z.string().min(1),
+  mimeType: z.string().min(1),
+  content: z.string().min(1),
+  origin: z.record(z.unknown()).optional(),
+});
+
+const custodySchema = z.object({
+  action: z.string().min(1),
+  actorRole: z.string().optional(),
+  details: z.string().optional(),
+  ipAddress: z.string().optional(),
+});
+
+const jurisdictionAssessSchema = z.object({
+  organizationId: z.string().min(1),
+  organizationName: z.string().optional(),
+  jurisdictions: z.array(z.string()).min(1),
+});
+
+const compliancePacketSchema = z.object({
+  organizationId: z.string().min(1),
+  jurisdiction: z.string().min(1),
+  framework: z.string().min(1),
+  packetType: z.string().optional(),
+});
+
+const timestampSchema = z.object({
+  organizationId: z.string().min(1),
+  data: z.string().min(1),
+  description: z.string().optional(),
+  dataType: z.string().optional(),
+  referenceId: z.string().optional(),
+  useExternal: z.boolean().optional(),
+  useBlockchain: z.boolean().optional(),
+  preferredTSA: z.string().optional(),
+});
+
+const batchTimestampSchema = z.object({
+  organizationId: z.string().min(1),
+  items: z.array(z.record(z.unknown())).min(1),
+  useExternal: z.boolean().optional(),
+  useBlockchain: z.boolean().optional(),
+});
+
+const similaritySearchSchema = z.object({
+  organizationId: z.string().min(1),
+  title: z.string().min(1),
+  question: z.string().optional(),
+  context: z.string().optional(),
+  decisionType: z.string().optional(),
+  department: z.string().optional(),
+  urgency: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+  maxResults: z.number().int().min(1).max(50).optional(),
+});
+
+const outcomeSchema = z.object({
+  outcome: z.string().min(1),
+  outcomeDescription: z.string().optional(),
+  lessonsLearned: z.string().optional(),
+  dissenterWasCorrect: z.boolean().optional(),
+});
 const router = Router();
 
 // Health endpoint
@@ -219,7 +310,7 @@ router.get('/status', (_req: Request, res: Response) => {
 // Calculate IISS for an organization
 router.post('/iiss/calculate', async (req: Request, res: Response) => {
   try {
-    const { organizationId, organizationName } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, organizationName } = iissAssessSchema.parse(req.body);
     const initiatedBy = req.user?.email || 'api-user';
     if (!organizationId || !organizationName) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId and organizationName required' } });
@@ -326,7 +417,7 @@ router.get('/bias/by-deliberation/:deliberationId', (_req: Request, res: Respons
 
 // Mitigate a detected bias
 router.post('/bias/mitigate/:analysisId/:biasDetectionId', (req: Request, res: Response) => {
-  const { action } = z.object({}).passthrough().parse(req.body);
+  const { action } = actionSchema.parse(req.body);
   const mitigatedBy = req.user?.email || 'api-user';
   if (!action) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'action required' } });
   const detection = cognitiveBiasMitigationService.mitigateBias(req.params.analysisId, req.params.biasDetectionId, action, mitigatedBy);
@@ -336,7 +427,7 @@ router.post('/bias/mitigate/:analysisId/:biasDetectionId', (req: Request, res: R
 
 // Accept bias risk
 router.post('/bias/accept-risk/:analysisId/:biasDetectionId', (req: Request, res: Response) => {
-  const { justification } = z.object({}).passthrough().parse(req.body);
+  const { justification } = justificationSchema.parse(req.body);
   const acceptedBy = req.user?.email || 'api-user';
   if (!justification) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'justification required' } });
   const detection = cognitiveBiasMitigationService.acceptBiasRisk(req.params.analysisId, req.params.biasDetectionId, acceptedBy, justification);
@@ -347,7 +438,7 @@ router.post('/bias/accept-risk/:analysisId/:biasDetectionId', (req: Request, res
 // Generate bias report for organization
 router.post('/bias/report', (req: Request, res: Response) => {
   try {
-    const { organizationId, from, to } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, from, to } = dateRangeOrgSchema.parse(req.body);
     if (!organizationId) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId required' } });
     const fromDate = from ? new Date(from) : new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
     const toDate = to ? new Date(to) : new Date();
@@ -383,7 +474,7 @@ router.get('/bias/analyses', (_req: Request, res: Response) => {
 // Sign media (create provenance)
 router.post('/media/sign', async (req: Request, res: Response) => {
   try {
-    const { organizationId, fileName, mediaType, mimeType, content, origin } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, fileName, mediaType, mimeType, content, origin } = mediaSignSchema.parse(req.body);
     const createdBy = req.user?.email || 'api-user';
     if (!organizationId || !fileName || !mediaType) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, fileName, and mediaType required' } });
@@ -443,7 +534,7 @@ router.get('/media/report/:assetId', async (req: Request, res: Response) => {
 
 // Add custody entry
 router.post('/media/custody/:assetId', (req: Request, res: Response) => {
-  const { action, actorRole, details, ipAddress } = z.object({}).passthrough().parse(req.body);
+  const { action, actorRole, details, ipAddress } = custodySchema.parse(req.body);
   const actor = req.user?.email || 'api-user';
   const entry = syntheticMediaAuthService.addCustodyEntry(req.params.assetId, action, actor, actorRole || 'user', details || '', ipAddress);
   if (!entry) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Asset not found' } });
@@ -457,7 +548,7 @@ router.post('/media/custody/:assetId', (req: Request, res: Response) => {
 // Assess organization across jurisdictions
 router.post('/jurisdiction/assess', async (req: Request, res: Response) => {
   try {
-    const { organizationId, organizationName, jurisdictions } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, organizationName, jurisdictions } = jurisdictionAssessSchema.parse(req.body);
     const assessedBy = req.user?.email || 'api-user';
     if (!organizationId || !organizationName || !jurisdictions?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, organizationName, and jurisdictions required' } });
@@ -514,7 +605,7 @@ router.post('/jurisdiction/good-faith/:conflictId', async (req: Request, res: Re
 // Generate jurisdiction evidence packet
 router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response) => {
   try {
-    const { organizationId, jurisdiction, framework, packetType } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, jurisdiction, framework, packetType } = compliancePacketSchema.parse(req.body);
     const generatedBy = req.user?.email || 'api-user';
     if (!organizationId || !jurisdiction || !framework) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, jurisdiction, and framework required' } });
@@ -571,7 +662,7 @@ router.post('/timestamp/issue', async (req: Request, res: Response) => {
 // Batch timestamp
 router.post('/timestamp/batch', async (req: Request, res: Response) => {
   try {
-    const { organizationId, items, useExternal, useBlockchain } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, items, useExternal, useBlockchain } = batchTimestampSchema.parse(req.body);
     if (!organizationId || !items?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId and items required' } });
     }
@@ -682,7 +773,7 @@ router.post('/similarity/decisions', (req: Request, res: Response) => {
 
 // Update decision outcome
 router.put('/similarity/decisions/:decisionId/outcome', (req: Request, res: Response) => {
-  const { outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect } = z.object({}).passthrough().parse(req.body);
+  const { outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect } = outcomeSchema.parse(req.body);
   const decision = decisionSimilarityService.updateOutcome(
     req.params.decisionId, outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect
   );

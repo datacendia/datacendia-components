@@ -26,6 +26,112 @@ import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const synthesisInitiateSchema = z.object({
+  organizationId: z.string().min(1),
+  userId: z.string().min(1),
+  question: z.string().min(1),
+  context: z.record(z.unknown()).optional(),
+  agents: z.array(z.string()).min(1),
+  mode: z.string().optional(),
+  timeoutMs: z.number().int().positive().optional(),
+  requireUnanimity: z.boolean().optional(),
+});
+
+const approverSchema = z.object({ approverUserId: z.string().min(1) });
+
+const logicGateSchema = z.object({
+  organizationId: z.string().min(1),
+  name: z.string().min(1),
+  tasks: z.array(z.record(z.unknown())).min(1),
+  config: z.record(z.unknown()).optional(),
+});
+
+const logicAgentsSchema = z.object({
+  organizationId: z.string().min(1),
+  agentTasks: z.array(z.record(z.unknown())).min(1),
+  config: z.record(z.unknown()).optional(),
+});
+
+const redteamUnionSchema = z.object({
+  organizationId: z.string().min(1),
+  scenario: z.string().min(1),
+  context: z.record(z.unknown()).optional(),
+});
+
+const rdpBuildSchema = z.object({
+  organizationId: z.string().min(1),
+  name: z.string().min(1),
+  type: z.string().min(1),
+  options: z.record(z.unknown()).optional(),
+});
+
+const targetEndpointSchema = z.object({ targetEndpoint: z.string().url() });
+
+const graphEntitySchema = z.object({
+  organizationId: z.string().min(1),
+  type: z.string().min(1),
+  name: z.string().min(1),
+  properties: z.record(z.unknown()).optional(),
+  sourceDocuments: z.array(z.string()).optional(),
+  confidence: z.number().min(0).max(1).optional(),
+});
+
+const graphRelationshipSchema = z.object({
+  organizationId: z.string().min(1),
+  sourceEntityId: z.string().min(1),
+  targetEntityId: z.string().min(1),
+  type: z.string().min(1),
+  properties: z.record(z.unknown()).optional(),
+  weight: z.number().min(0).max(1).optional(),
+  confidence: z.number().min(0).max(1).optional(),
+});
+
+const graphQuerySchema = z.object({
+  organizationId: z.string().min(1),
+  query: z.string().min(1),
+});
+
+const graphNlQuerySchema = z.object({
+  organizationId: z.string().min(1),
+  question: z.string().min(1),
+});
+
+const ingestJobSchema = z.object({
+  organizationId: z.string().min(1),
+  userId: z.string().min(1),
+  source: z.record(z.unknown()),
+});
+
+const ingestSearchSchema = z.object({
+  organizationId: z.string().min(1),
+  query: z.string().min(1),
+  limit: z.number().int().min(1).max(100).optional(),
+});
+
+const wargameStartSchema = z.object({
+  organizationId: z.string().min(1),
+  operatorId: z.string().min(1),
+  scenarioId: z.string().min(1),
+});
+
+const wargameAdvanceSchema = z.object({ deltaSeconds: z.number().positive() });
+
+const wargameDecideSchema = z.object({
+  eventId: z.string().min(1),
+  optionId: z.string().min(1),
+  reasoning: z.string().optional(),
+});
+
+const unionAssessmentSchema = z.object({
+  organizationId: z.string().min(1),
+  source: z.string().min(1),
+  threats: z.array(z.record(z.unknown())).optional(),
+});
+
+const orgIdSchema = z.object({ organizationId: z.string().min(1) });
+const approverIdSchema = z.object({ approverId: z.string().min(1) });
+
 const router = Router();
 
 // =============================================================================
@@ -34,7 +140,7 @@ const router = Router();
 
 router.post('/synthesis/initiate', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, userId, question, context, agents, mode, timeoutMs, requireUnanimity } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, userId, question, context, agents, mode, timeoutMs, requireUnanimity } = synthesisInitiateSchema.parse(req.body);
     
     if (!organizationId || !userId || !question || !agents) {
       res.status(400).json({ error: 'Missing required fields: organizationId, userId, question, agents' });
@@ -76,7 +182,7 @@ router.get('/synthesis/:synthesisId', async (req: Request, res: Response): Promi
 router.post('/synthesis/:synthesisId/execute', async (req: Request, res: Response) => {
   try {
     const synthesisId = req.params['synthesisId'] as string;
-    const { approverUserId } = z.object({}).passthrough().parse(req.body);
+    const { approverUserId } = approverSchema.parse(req.body);
     const execution = await synthesisEngineService.initiateExecution(synthesisId, approverUserId);
     res.json({ success: true, execution });
   } catch (error: unknown) {
@@ -110,7 +216,7 @@ router.get('/synthesis/metrics/:organizationId', async (req: Request, res: Respo
 
 router.post('/logicgate/execute', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, name, tasks, config } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, name, tasks, config } = logicGateSchema.parse(req.body);
     
     if (!organizationId || !tasks) {
       res.status(400).json({ error: 'Missing required fields: organizationId, tasks' });
@@ -139,7 +245,7 @@ router.post('/logicgate/execute', async (req: Request, res: Response): Promise<v
 
 router.post('/logicgate/agents', async (req: Request, res: Response) => {
   try {
-    const { organizationId, agentTasks, config } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, agentTasks, config } = logicAgentsSchema.parse(req.body);
     
     const execution = await logicGateService.executeAgentsInParallel(organizationId, agentTasks, config);
     res.json({ success: true, execution: { ...execution, results: Object.fromEntries(execution.results) } });
@@ -150,7 +256,7 @@ router.post('/logicgate/agents', async (req: Request, res: Response) => {
 
 router.post('/logicgate/redteam-union', async (req: Request, res: Response) => {
   try {
-    const { organizationId, scenario, context } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, scenario, context } = redteamUnionSchema.parse(req.body);
     
     const result = await logicGateService.executeRedTeamAndUnion(organizationId, scenario, context || {});
     res.json({ success: true, result });
@@ -174,7 +280,7 @@ router.get('/logicgate/metrics', async (_req: Request, res: Response) => {
 
 router.post('/rdp/package/build', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, name, type, options } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, name, type, options } = rdpBuildSchema.parse(req.body);
     
     if (!organizationId || !name) {
       res.status(400).json({ error: 'Missing required fields: organizationId, name' });
@@ -206,7 +312,7 @@ router.get('/rdp/package/:packageId', async (req: Request, res: Response): Promi
 router.post('/rdp/deploy/:packageId', async (req: Request, res: Response) => {
   try {
     const packageId = req.params['packageId'] as string;
-    const { targetEndpoint } = z.object({}).passthrough().parse(req.body);
+    const { targetEndpoint } = targetEndpointSchema.parse(req.body);
     const instance = await rdpService.deploy(packageId, targetEndpoint);
     res.json({ success: true, instance });
   } catch (error: unknown) {
@@ -263,7 +369,7 @@ router.get('/rdp/metrics', async (_req: Request, res: Response) => {
 
 router.post('/graph/entity', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, type, name, properties, sourceDocuments, confidence } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, type, name, properties, sourceDocuments, confidence } = graphEntitySchema.parse(req.body);
     
     if (!organizationId || !type || !name) {
       res.status(400).json({ error: 'Missing required fields: organizationId, type, name' });
@@ -282,7 +388,7 @@ router.post('/graph/entity', async (req: Request, res: Response): Promise<void> 
 
 router.post('/graph/relationship', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, sourceEntityId, targetEntityId, type, properties, weight, confidence } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, sourceEntityId, targetEntityId, type, properties, weight, confidence } = graphRelationshipSchema.parse(req.body);
     
     if (!organizationId || !sourceEntityId || !targetEntityId || !type) {
       res.status(400).json({ error: 'Missing required fields' });
@@ -300,7 +406,7 @@ router.post('/graph/relationship', async (req: Request, res: Response): Promise<
 
 router.post('/graph/query', async (req: Request, res: Response) => {
   try {
-    const { organizationId, query } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, query } = graphQuerySchema.parse(req.body);
     const paths = await cendiaGraphService.queryGraph(organizationId, query);
     res.json({ success: true, paths });
   } catch (error: unknown) {
@@ -310,7 +416,7 @@ router.post('/graph/query', async (req: Request, res: Response) => {
 
 router.post('/graph/nl-query', async (req: Request, res: Response) => {
   try {
-    const { organizationId, question } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, question } = graphNlQuerySchema.parse(req.body);
     const result = await cendiaGraphService.naturalLanguageQuery(organizationId, question);
     res.json({ success: true, result });
   } catch (error: unknown) {
@@ -354,7 +460,7 @@ router.get('/graph/metrics/:organizationId', async (req: Request, res: Response)
 
 router.post('/ingest/job', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, userId, source } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, userId, source } = ingestJobSchema.parse(req.body);
     
     if (!organizationId || !userId || !source) {
       res.status(400).json({ error: 'Missing required fields: organizationId, userId, source' });
@@ -385,7 +491,7 @@ router.get('/ingest/job/:jobId', async (req: Request, res: Response): Promise<vo
 
 router.post('/ingest/search', async (req: Request, res: Response) => {
   try {
-    const { organizationId, query, limit } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, query, limit } = ingestSearchSchema.parse(req.body);
     const results = await cendiaIngestService.semanticSearch(organizationId, query, limit || 10);
     res.json({ success: true, results });
   } catch (error: unknown) {
@@ -442,7 +548,7 @@ router.get('/wargames/scenario/:scenarioId', async (req: Request, res: Response)
 
 router.post('/wargames/simulation/start', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, operatorId, scenarioId } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, operatorId, scenarioId } = wargameStartSchema.parse(req.body);
     
     if (!organizationId || !operatorId || !scenarioId) {
       res.status(400).json({ error: 'Missing required fields' });
@@ -460,7 +566,7 @@ router.post('/wargames/simulation/start', async (req: Request, res: Response): P
 router.post('/wargames/simulation/:simulationId/advance', async (req: Request, res: Response) => {
   try {
     const simulationId = req.params['simulationId'] as string;
-    const { deltaSeconds } = z.object({}).passthrough().parse(req.body);
+    const { deltaSeconds } = wargameAdvanceSchema.parse(req.body);
     const result = await warGamesService.advanceSimulation(simulationId, deltaSeconds || 60);
     res.json({ success: true, ...result });
   } catch (error: unknown) {
@@ -471,7 +577,7 @@ router.post('/wargames/simulation/:simulationId/advance', async (req: Request, r
 router.post('/wargames/simulation/:simulationId/decide', async (req: Request, res: Response) => {
   try {
     const simulationId = req.params['simulationId'] as string;
-    const { eventId, optionId, reasoning } = z.object({}).passthrough().parse(req.body);
+    const { eventId, optionId, reasoning } = wargameDecideSchema.parse(req.body);
     const decision = await warGamesService.submitDecision(simulationId, eventId, optionId, reasoning);
     res.json({ success: true, decision });
   } catch (error: unknown) {
@@ -528,7 +634,7 @@ router.get('/wargames/metrics', async (_req: Request, res: Response) => {
 
 router.post('/union/assessment', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, source, threats } = z.object({}).passthrough().parse(req.body);
+    const { organizationId, source, threats } = unionAssessmentSchema.parse(req.body);
     
     if (!organizationId || !threats) {
       res.status(400).json({ error: 'Missing required fields: organizationId, threats' });
@@ -571,7 +677,7 @@ router.get('/union/strategy/:strategyId', async (req: Request, res: Response): P
 router.post('/union/strategy/:strategyId/approve', async (req: Request, res: Response) => {
   try {
     const strategyId = req.params['strategyId'] as string;
-    const { approverId } = z.object({}).passthrough().parse(req.body);
+    const { approverId } = approverIdSchema.parse(req.body);
     const strategy = await unionService.approveStrategy(strategyId, approverId);
     res.json({ success: true, strategy });
   } catch (error: unknown) {
