@@ -21,8 +21,6 @@
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES
 // =============================================================================

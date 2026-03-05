@@ -32,8 +32,6 @@
 
 import { prisma } from '../../lib/prisma';
 import { logger } from '../../utils/logger';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // CANONICAL DATA MODEL
 // =============================================================================

@@ -33,9 +33,6 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
-import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
-
-
 // =============================================================================
 // ADJUDICATION SCHEMA & AUDIT TYPES
 // =============================================================================

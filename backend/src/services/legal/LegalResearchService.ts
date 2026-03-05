@@ -27,7 +27,6 @@
  */
 
 import { EventEmitter } from 'events';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // API Base URLs

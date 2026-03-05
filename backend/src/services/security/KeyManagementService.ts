@@ -22,8 +22,6 @@ import fs from 'fs';
 import path from 'path';
 import { logger } from '../../utils/logger.js';
 import { KMSClient, SignCommand, VerifyCommand, EncryptCommand, DecryptCommand } from '@aws-sdk/client-kms';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES & INTERFACES
 // =============================================================================

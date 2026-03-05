@@ -21,7 +21,6 @@ import { featureControlService } from './FeatureControlService.js';
 import { tenantService } from './TenantService.js';
 import { licenseService } from './LicenseService.js';
 import { systemHealthService } from './SystemHealthService.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // =============================================================================

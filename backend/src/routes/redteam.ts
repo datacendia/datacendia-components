@@ -24,19 +24,19 @@ const router = Router();
 router.use(devAuth);
 
 // Status endpoints for enterprise testing
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });
 });
 
-router.get('/attacks', (req: Request, res: Response) => {
+router.get('/attacks', (_req: Request, res: Response) => {
   res.json({ success: true, data: [] });
 });
 
-router.post('/attack', (req: Request, res: Response) => {
+router.post('/attack', (_req: Request, res: Response) => {
   res.json({ success: true, data: { id: 'attack-' + Date.now(), result: 'blocked', confidence: 0.95 } });
 });
 
-router.get('/vulnerabilities', (req: Request, res: Response) => {
+router.get('/vulnerabilities', (_req: Request, res: Response) => {
   res.json({ success: true, data: [] });
 });
 

@@ -32,7 +32,6 @@ import {
   LEGAL_TOOL_DEFINITIONS,
 } from './LegalToolExecutor.js';
 import { ragService, ChunkResult } from '../llm/RAGService.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // =============================================================================

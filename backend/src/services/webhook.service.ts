@@ -19,7 +19,6 @@
  */
 
 import crypto from 'crypto';
-import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 import { logger } from '../utils/logger.js';
 
 export interface WebhookConfig {

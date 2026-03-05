@@ -33,8 +33,6 @@ import { logger } from '../../utils/logger.js';
 // import { EnhancedLLMService } from '../EnhancedLLMService.js';
 import { keyManagementService } from '../security/KeyManagementService.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // ============================================================================
 // TYPES
 // ============================================================================

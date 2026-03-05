@@ -26,7 +26,6 @@
 
 import crypto from 'crypto';
 import { AuditEvent, AuditSeverity } from '../../security/audit.service.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // =============================================================================

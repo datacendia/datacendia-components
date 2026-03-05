@@ -24,8 +24,6 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import cendiaGraphService, { EntityType, RelationshipType } from './CendiaGraphService.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 const prisma = new PrismaClient();
 
 // =============================================================================

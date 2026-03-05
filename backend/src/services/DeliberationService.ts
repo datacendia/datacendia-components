@@ -22,8 +22,6 @@ import { druidEventStream } from './DruidEventStream.js';
 import { prisma } from '../config/database.js';
 import type { SocketServer } from '../websocket/SocketServer.js';
 import { recordChronosEvent } from './ChronosEventBus.js';
-import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES
 // =============================================================================

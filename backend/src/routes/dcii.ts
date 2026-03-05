@@ -315,12 +315,12 @@ router.get('/bias/analysis/:analysisId', (req: Request, res: Response) => {
 });
 
 // Get analyses by organization
-router.get('/bias/analyses/:organizationId', (req: Request, res: Response) => {
+router.get('/bias/analyses/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: cognitiveBiasMitigationService.getAnalysesByOrganization(req.params.organizationId) });
 });
 
 // Get analyses by deliberation
-router.get('/bias/by-deliberation/:deliberationId', (req: Request, res: Response) => {
+router.get('/bias/by-deliberation/:deliberationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: cognitiveBiasMitigationService.getAnalysesByDeliberation(req.params.deliberationId) });
 });
 
@@ -478,12 +478,12 @@ router.get('/jurisdiction/assessment/:assessmentId', (req: Request, res: Respons
 });
 
 // Get assessments by organization
-router.get('/jurisdiction/assessments/:organizationId', (req: Request, res: Response) => {
+router.get('/jurisdiction/assessments/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: crossJurisdictionConflictService.getAssessmentsByOrganization(req.params.organizationId) });
 });
 
 // Get conflicts by organization
-router.get('/jurisdiction/conflicts/:organizationId', (req: Request, res: Response) => {
+router.get('/jurisdiction/conflicts/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: crossJurisdictionConflictService.getConflictsByOrganization(req.params.organizationId) });
 });
 
@@ -530,7 +530,7 @@ router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response)
 });
 
 // Get evidence packets by organization
-router.get('/jurisdiction/evidence-packets/:organizationId', (req: Request, res: Response) => {
+router.get('/jurisdiction/evidence-packets/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: crossJurisdictionConflictService.getEvidencePacketsByOrganization(req.params.organizationId) });
 });
 
@@ -603,7 +603,7 @@ router.get('/timestamp/token/:tokenId', (req: Request, res: Response) => {
 });
 
 // Get tokens by organization
-router.get('/timestamp/tokens/:organizationId', (req: Request, res: Response) => {
+router.get('/timestamp/tokens/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: timestampAuthorityService.getTokensByOrganization(req.params.organizationId) });
 });
 
@@ -613,7 +613,7 @@ router.get('/timestamp/tokens', (_req: Request, res: Response) => {
 });
 
 // Get tokens by reference
-router.get('/timestamp/by-reference/:referenceId', (req: Request, res: Response) => {
+router.get('/timestamp/by-reference/:referenceId', (_req: Request, res: Response) => {
   res.json({ success: true, data: timestampAuthorityService.getTokensByReference(req.params.referenceId) });
 });
 
@@ -691,7 +691,7 @@ router.put('/similarity/decisions/:decisionId/outcome', (req: Request, res: Resp
 });
 
 // Get decisions by organization
-router.get('/similarity/decisions/:organizationId', (req: Request, res: Response) => {
+router.get('/similarity/decisions/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: decisionSimilarityService.getDecisionsByOrganization(req.params.organizationId) });
 });
 
@@ -719,12 +719,12 @@ router.post('/similarity/patterns/:organizationId', async (req: Request, res: Re
 });
 
 // Get patterns by organization
-router.get('/similarity/patterns/:organizationId', (req: Request, res: Response) => {
+router.get('/similarity/patterns/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: decisionSimilarityService.getPatternsByOrganization(req.params.organizationId) });
 });
 
 // Get similarity stats
-router.get('/similarity/stats/:organizationId', (req: Request, res: Response) => {
+router.get('/similarity/stats/:organizationId', (_req: Request, res: Response) => {
   res.json({ success: true, data: decisionSimilarityService.getStats(req.params.organizationId) });
 });
 

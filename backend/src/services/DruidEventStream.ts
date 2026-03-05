@@ -22,7 +22,6 @@
 
 import { druidService, DRUID_DATASOURCES } from './storage/DruidService';
 import { EventEmitter } from 'events';
-import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
 import { logger } from '../utils/logger.js';
 
 // Event types

@@ -26,8 +26,6 @@ import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry } from './TestEvidenceLedgerService.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES
 // =============================================================================

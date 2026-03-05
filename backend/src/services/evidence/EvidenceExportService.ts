@@ -31,8 +31,6 @@ import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry, TestSuiteSummary, VerificationResult } from './TestEvidenceLedgerService.js';
 import { SignedTestReportService, SignedReport } from './SignedTestReportService.js';
 import { ComplianceDashboardService, ComplianceScore, GapAnalysis } from './ComplianceDashboardService.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES
 // =============================================================================

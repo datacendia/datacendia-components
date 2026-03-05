@@ -192,7 +192,7 @@ router.get('/search', (req: Request, res: Response) => {
 });
 
 // Status endpoint
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: {

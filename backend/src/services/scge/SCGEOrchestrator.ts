@@ -44,7 +44,6 @@ import { policyInjectionService } from './PolicyInjectionService.js';
 import { eventInjectionService } from './EventInjectionService.js';
 import { stressorLibraryService } from './StressorLibraryService.js';
 import { sgasOrchestrator } from '../sgas/index.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // =============================================================================

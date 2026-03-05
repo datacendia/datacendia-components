@@ -21,8 +21,6 @@ import { logger } from '../utils/logger.js';
 import { cache, pubsub } from '../config/redis.js';
 import { prisma } from '../config/database.js';
 import crypto from 'crypto';
-import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES & INTERFACES
 // =============================================================================

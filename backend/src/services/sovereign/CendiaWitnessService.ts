@@ -20,7 +20,6 @@
 import { PrismaClient } from '@prisma/client';
 import crypto from 'crypto';
 import { prisma } from '../../config/database.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // =============================================================================

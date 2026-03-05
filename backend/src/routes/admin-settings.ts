@@ -346,7 +346,7 @@ function maskSensitiveValue(value: string): string {
  * GET /api/v1/admin/settings/categories
  * Get all setting categories and their definitions
  */
-router.get('/categories', async (req: Request, res: Response) => {
+router.get('/categories', async (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: SETTINGS_DEFINITIONS.map(cat => ({

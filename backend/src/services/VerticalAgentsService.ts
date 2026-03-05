@@ -25,8 +25,6 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { redis } from '../config/redis.js';
-import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersistence.js';
-
 const CACHE_TTL = 3600; // 1 hour cache for agent definitions
 
 // =============================================================================

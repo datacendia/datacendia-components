@@ -29,8 +29,6 @@
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { ollama } from '../ollama.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 export const EMBEDDING_DIM_OLLAMA = 2560;
 export const EMBEDDING_DIM_FALLBACK = 384;
 

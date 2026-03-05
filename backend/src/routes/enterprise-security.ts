@@ -24,7 +24,7 @@ import { z } from 'zod';
 const router = Router();
 
 // Status endpoint (no auth required for testing)
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: {

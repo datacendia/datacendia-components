@@ -22,7 +22,6 @@
 import { EventEmitter } from 'events';
 import * as fs from 'fs';
 import * as path from 'path';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';

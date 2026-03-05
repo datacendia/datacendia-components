@@ -27,8 +27,6 @@ import * as path from 'path';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES
 // =============================================================================

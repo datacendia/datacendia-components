@@ -29,7 +29,7 @@ router.get('/health', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'healthy', service: 'dissent', timestamp: new Date().toISOString() } });
 });
 
-router.get('/status', async (req: Request, res: Response) => {
+router.get('/status', async (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });
 });
 
@@ -53,7 +53,7 @@ router.post('/file', async (req: Request, res: Response) => {
   }
 });
 
-router.get('/analytics', async (req: Request, res: Response) => {
+router.get('/analytics', async (_req: Request, res: Response) => {
   res.json({ success: true, data: { totalDissents: 0, resolved: 0, pending: 0 } });
 });
 

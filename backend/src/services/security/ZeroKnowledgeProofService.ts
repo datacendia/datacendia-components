@@ -46,8 +46,6 @@ import { sha256 } from '@noble/hashes/sha256.js';
 import { bytesToHex } from '@noble/hashes/utils.js';
 import { groth16ProofService } from './groth16/Groth16ProofService.js';
 import type { Groth16Proof, Groth16VerificationResult } from './groth16/Groth16ProofService.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // ============================================================================
 // TYPES
 // ============================================================================

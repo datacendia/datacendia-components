@@ -61,7 +61,7 @@ router.post('/model/load', async (_req: Request, res: Response) => {
   }
 });
 
-router.post('/detect', (req: Request, res: Response) => {
+router.post('/detect', (_req: Request, res: Response) => {
   res.json({ success: true, data: { detectedLanguage: 'en', confidence: 0.95, text: req.body.text } });
 });
 

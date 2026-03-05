@@ -19,7 +19,6 @@
 import WebSocket from 'ws';
 import type { Server as HttpServer, IncomingMessage } from 'http';
 import { CouncilService, StreamEvent } from './CouncilService';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // Extended WebSocket client with custom properties

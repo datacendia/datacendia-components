@@ -24,7 +24,6 @@ import {
   ALL_FRAMEWORKS,
   PILLAR_FRAMEWORK_MAPPING,
 } from './frameworks';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 // ============================================================================

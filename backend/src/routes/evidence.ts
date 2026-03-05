@@ -248,7 +248,7 @@ router.get('/ledger/blocks/:number', (req: Request, res: Response) => {
   });
 });
 
-router.get('/ledger/public-key', (req: Request, res: Response) => {
+router.get('/ledger/public-key', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: {
@@ -292,35 +292,35 @@ router.get('/ledger/audit-info', (req: Request, res: Response) => {
   });
 });
 
-router.get('/ledger/build-identity', (req: Request, res: Response) => {
+router.get('/ledger/build-identity', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: TestEvidenceLedgerService.captureBuildIdentity(),
   });
 });
 
-router.get('/ledger/execution-identity', (req: Request, res: Response) => {
+router.get('/ledger/execution-identity', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: TestEvidenceLedgerService.captureExecutionIdentity(),
   });
 });
 
-router.get('/ledger/crypto-details', (req: Request, res: Response) => {
+router.get('/ledger/crypto-details', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: ledgerService.getCryptoDetails(),
   });
 });
 
-router.get('/ledger/reconciliation', (req: Request, res: Response) => {
+router.get('/ledger/reconciliation', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: ledgerService.getEntryReconciliation(),
   });
 });
 
-router.get('/ledger/tamper-test', (req: Request, res: Response) => {
+router.get('/ledger/tamper-test', (_req: Request, res: Response) => {
   res.json({
     success: true,
     data: ledgerService.performTamperTest(),

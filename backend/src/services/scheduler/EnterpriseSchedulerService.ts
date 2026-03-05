@@ -20,8 +20,6 @@ import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
-
 // =============================================================================
 // TYPES
 // =============================================================================

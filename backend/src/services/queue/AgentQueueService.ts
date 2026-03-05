@@ -23,7 +23,6 @@ import { Queue, Worker, Job, QueueEvents } from 'bullmq';
 import { EventEmitter } from 'events';
 import Redis from 'ioredis';
 import { config } from '../../config/index.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 import { logger } from '../../utils/logger.js';
 
 function attachRedisEventHandlers(client: Redis, label: string) {

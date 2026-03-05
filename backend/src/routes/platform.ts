@@ -79,7 +79,7 @@ router.get('/health', async (req: Request, res: Response) => {
  * GET /api/v1/platform/health/live
  * Kubernetes liveness probe
  */
-router.get('/health/live', (req: Request, res: Response) => {
+router.get('/health/live', (_req: Request, res: Response) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
@@ -205,7 +205,7 @@ router.get('/metrics/prometheus', (req: Request, res: Response) => {
  * GET /api/v1/platform/info
  * Platform information
  */
-router.get('/info', (req: Request, res: Response) => {
+router.get('/info', (_req: Request, res: Response) => {
   res.json({
     name: 'Datacendia Platform',
     version: process.env.npm_package_version || '1.0.0',
@@ -304,7 +304,7 @@ router.get('/events/history', (req: Request, res: Response) => {
  * GET /api/v1/platform/catalog
  * Complete platform catalog � 3 tiers, 12 pillars, all services
  */
-router.get('/catalog', (req: Request, res: Response) => {
+router.get('/catalog', (_req: Request, res: Response) => {
   res.json(getPlatformSummary());
 });
 

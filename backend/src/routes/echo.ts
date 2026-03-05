@@ -28,11 +28,11 @@ router.get('/health', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'healthy', service: 'echo', timestamp: new Date().toISOString() } });
 });
 
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });
 });
 
-router.get('/personas', (req: Request, res: Response) => {
+router.get('/personas', (_req: Request, res: Response) => {
   res.json({ success: true, data: [
     { id: 'investor', name: 'Investor', description: 'Shareholder perspective' },
     { id: 'employee', name: 'Employee', description: 'Workforce perspective' },
@@ -40,7 +40,7 @@ router.get('/personas', (req: Request, res: Response) => {
   ]});
 });
 
-router.post('/simulate', async (req: Request, res: Response) => {
+router.post('/simulate', async (_req: Request, res: Response) => {
   res.json({ success: true, data: { 
     id: 'sim-' + Date.now(), 
     decision: req.body.decision,
@@ -49,7 +49,7 @@ router.post('/simulate', async (req: Request, res: Response) => {
   }});
 });
 
-router.get('/history', (req: Request, res: Response) => {
+router.get('/history', (_req: Request, res: Response) => {
   res.json({ success: true, data: [] });
 });
 

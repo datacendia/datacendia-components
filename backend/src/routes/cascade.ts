@@ -945,7 +945,7 @@ router.get('/orbit/runs/:id', (req: Request, res: Response) => {
  * Get available change types
  * GET /api/v1/cascade/types/changes
  */
-router.get('/types/changes', (req: Request, res: Response) => {
+router.get('/types/changes', (_req: Request, res: Response) => {
   res.json({
     changeTypes: Object.values(ChangeType),
   });
@@ -955,7 +955,7 @@ router.get('/types/changes', (req: Request, res: Response) => {
  * Get available node types
  * GET /api/v1/cascade/types/nodes
  */
-router.get('/types/nodes', (req: Request, res: Response) => {
+router.get('/types/nodes', (_req: Request, res: Response) => {
   res.json({
     nodeTypes: Object.values(NodeType),
   });
@@ -965,7 +965,7 @@ router.get('/types/nodes', (req: Request, res: Response) => {
  * Get available edge types
  * GET /api/v1/cascade/types/edges
  */
-router.get('/types/edges', (req: Request, res: Response) => {
+router.get('/types/edges', (_req: Request, res: Response) => {
   res.json({
     edgeTypes: Object.values(EdgeType),
   });

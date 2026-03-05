@@ -27,15 +27,15 @@ router.get('/health', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'healthy', service: 'ledger', timestamp: new Date().toISOString() } });
 });
 
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0', chainLength: 0 } });
 });
 
-router.get('/entries', (req: Request, res: Response) => {
+router.get('/entries', (_req: Request, res: Response) => {
   res.json({ success: true, data: [], meta: { total: 0, limit: 10 } });
 });
 
-router.get('/verify', (req: Request, res: Response) => {
+router.get('/verify', (_req: Request, res: Response) => {
   res.json({ success: true, data: { valid: true, chainIntegrity: true, lastVerified: new Date().toISOString() } });
 });
 
