@@ -89,7 +89,7 @@ class WebhookNotifier {
 
     const promises = matchingWebhooks.map(webhook =>
       this.send(webhook, payload).catch(err =>
-        logger.error(`[CendiaGateway] Webhook "${webhook.name}" failed:`, err.message)
+        logger.error(`[CendiaGateway] Webhook "${webhook.name}" failed:`, (err as Error).message)
       )
     );
 
@@ -312,7 +312,7 @@ class WebhookNotifier {
       });
       return { success: true };
     } catch (err: unknown) {
-      return { success: false, error: err.message };
+      return { success: false, error: (err as Error).message };
     }
   }
 }

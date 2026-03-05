@@ -114,7 +114,7 @@ export async function sendSlackNotification(msg: IntegrationMessage): Promise<bo
     logger.info(`[Slack] Notification sent: ${msg.title}`);
     return true;
   } catch (err: unknown) {
-    logger.error(`[Slack] Failed to send notification: ${err.message}`);
+    logger.error(`[Slack] Failed to send notification: ${(err as Error).message}`);
     return false;
   }
 }
@@ -191,7 +191,7 @@ export async function sendTeamsNotification(msg: IntegrationMessage): Promise<bo
     logger.info(`[Teams] Notification sent: ${msg.title}`);
     return true;
   } catch (err: unknown) {
-    logger.error(`[Teams] Failed to send notification: ${err.message}`);
+    logger.error(`[Teams] Failed to send notification: ${(err as Error).message}`);
     return false;
   }
 }
@@ -257,7 +257,7 @@ export async function createJiraTicket(ticket: JiraTicket): Promise<{ key: strin
     logger.info(`[JIRA] Ticket created: ${data.key} — ${ticket.summary}`);
     return { key: data.key, url };
   } catch (err: unknown) {
-    logger.error(`[JIRA] Failed to create ticket: ${err.message}`);
+    logger.error(`[JIRA] Failed to create ticket: ${(err as Error).message}`);
     return null;
   }
 }

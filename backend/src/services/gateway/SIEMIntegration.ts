@@ -178,12 +178,12 @@ class SIEMIntegration {
       this.stats.lastSentAt = new Date();
     } catch (err: unknown) {
       this.stats.totalErrors++;
-      this.stats.lastError = err.message;
+      this.stats.lastError = (err as Error).message;
       // Re-queue on failure (bounded)
       if (buffer.length < 10_000) {
         buffer.unshift(...batch);
       }
-      logger.error(`[CendiaGateway] SIEM "${config.name}" flush failed (${batch.length} events):`, err.message);
+      logger.error(`[CendiaGateway] SIEM "${config.name}" flush failed (${batch.length} events):`, (err as Error).message);
     }
   }
 

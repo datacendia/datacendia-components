@@ -199,7 +199,7 @@ function printHeader(): void {
   logger.info(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
   logger.info(`${colors.bgBlue}${colors.brightCyan}${colors.bold}  CendiaPulseÃ¢â€žÂ¢ LIVE AGENT MONITOR                                                              ${now} UTC  ${colors.reset}`);
   logger.info(`${colors.bgBlue}${colors.white}${colors.bold}                                                                                                    ${colors.reset}`);
-  logger.info();
+  logger.info('');
 }
 
 function printMetrics(metrics: SystemMetrics): void {
@@ -212,7 +212,7 @@ function printMetrics(metrics: SystemMetrics): void {
   logger.info(`${colors.dim}Ã¢â€â€š${colors.reset} Active Agents: ${colors.brightCyan}${padLeft(String(metrics.activeAgents), 3)}${colors.reset}  Ã¢â€â€š  Actions/sec: ${colors.brightYellow}${padLeft(metrics.actionsPerSecond.toFixed(1), 5)}${colors.reset}  Ã¢â€â€š  Avg Latency: ${formatLatency(metrics.avgLatency)}  Ã¢â€â€š  Compliance: ${complianceColor}${metrics.complianceScore.toFixed(1)}%${colors.reset} ${colors.dim}Ã¢â€â€š${colors.reset}`);
   logger.info(`${colors.dim}Ã¢â€â€š${colors.reset} Block Rate: ${colors.red}${padLeft(metrics.blockRate.toFixed(1), 5)}%${colors.reset}  Ã¢â€â€š  Escalations: ${colors.yellow}${padLeft(metrics.escalationRate.toFixed(1), 5)}%${colors.reset}  Ã¢â€â€š  Allow Rate: ${colors.green}${padLeft((100 - metrics.blockRate - metrics.escalationRate).toFixed(1), 5)}%${colors.reset}                  ${colors.dim}Ã¢â€â€š${colors.reset}`);
   logger.info(`${colors.dim}Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Ëœ${colors.reset}`);
-  logger.info();
+  logger.info('');
 }
 
 function printTableHeader(): void {
@@ -368,7 +368,7 @@ class LiveMonitor {
     }
     
     printTableFooter();
-    logger.info();
+    logger.info('');
     logger.info(`${colors.dim}Press Ctrl+C to exit${colors.reset}`);
   }
 

@@ -83,7 +83,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
     res.json(result);
   } catch (error: unknown) {
     logger.error('Express analysis failed:', error);
-    res.status(500).json({ error: 'Express analysis failed', details: error.message });
+    res.status(500).json({ error: 'Express analysis failed', details: (error as Error).message });
   }
 });
 
@@ -104,7 +104,7 @@ router.get('/compliance/report', async (req: Request, res: Response) => {
     res.json(report);
   } catch (error: unknown) {
     logger.error('Express compliance report failed:', error);
-    res.status(500).json({ error: 'Compliance report generation failed', details: error.message });
+    res.status(500).json({ error: 'Compliance report generation failed', details: (error as Error).message });
   }
 });
 
@@ -126,7 +126,7 @@ router.post('/compliance/remediate', async (req: Request, res: Response) => {
     res.json(result);
   } catch (error: unknown) {
     logger.error('Express remediation failed:', error);
-    res.status(500).json({ error: 'Remediation generation failed', details: error.message });
+    res.status(500).json({ error: 'Remediation generation failed', details: (error as Error).message });
   }
 });
 
@@ -152,7 +152,7 @@ router.get('/threats/briefing', async (req: Request, res: Response) => {
     res.json(briefing);
   } catch (error: unknown) {
     logger.error('Express threat briefing failed:', error);
-    res.status(500).json({ error: 'Threat briefing generation failed', details: error.message });
+    res.status(500).json({ error: 'Threat briefing generation failed', details: (error as Error).message });
   }
 });
 
@@ -169,7 +169,7 @@ router.get('/threats/summary', async (req: Request, res: Response) => {
     res.json(summary);
   } catch (error: unknown) {
     logger.error('Express threat summary failed:', error);
-    res.status(500).json({ error: 'Threat summary failed', details: error.message });
+    res.status(500).json({ error: 'Threat summary failed', details: (error as Error).message });
   }
 });
 
@@ -208,7 +208,7 @@ router.post('/simulation/quick', async (req: Request, res: Response) => {
     res.json(result);
   } catch (error: unknown) {
     logger.error('Express simulation failed:', error);
-    res.status(500).json({ error: 'Quick simulation failed', details: error.message });
+    res.status(500).json({ error: 'Quick simulation failed', details: (error as Error).message });
   }
 });
 
@@ -225,7 +225,7 @@ router.get('/simulation/resilience', async (req: Request, res: Response) => {
     res.json(score);
   } catch (error: unknown) {
     logger.error('Express resilience score failed:', error);
-    res.status(500).json({ error: 'Resilience score failed', details: error.message });
+    res.status(500).json({ error: 'Resilience score failed', details: (error as Error).message });
   }
 });
 
@@ -246,7 +246,7 @@ router.get('/decisions/insights', async (req: Request, res: Response) => {
     res.json(insights);
   } catch (error: unknown) {
     logger.error('Express decision insights failed:', error);
-    res.status(500).json({ error: 'Decision insights failed', details: error.message });
+    res.status(500).json({ error: 'Decision insights failed', details: (error as Error).message });
   }
 });
 
@@ -276,7 +276,7 @@ router.post('/forecast', async (req: Request, res: Response) => {
     res.json(forecast);
   } catch (error: unknown) {
     logger.error('Express forecast failed:', error);
-    res.status(500).json({ error: 'Forecast generation failed', details: error.message });
+    res.status(500).json({ error: 'Forecast generation failed', details: (error as Error).message });
   }
 });
 

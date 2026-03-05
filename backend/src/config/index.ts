@@ -1,4 +1,3 @@
-import { logger } from '../utils/logger.js';
 /**
  * Configuration — Index
  *
@@ -130,7 +129,7 @@ const envVars = {
 const parsed = configSchema.safeParse(envVars);
 
 if (!parsed.success) {
-  logger.error('❌ Invalid environment variables:', parsed.error.flatten().fieldErrors);
+  console.error('❌ Invalid environment variables:', parsed.error.flatten().fieldErrors);
   if (process.env.NODE_ENV === 'test') {
     throw new Error('Invalid environment variables: ' + JSON.stringify(parsed.error.flatten().fieldErrors));
   }

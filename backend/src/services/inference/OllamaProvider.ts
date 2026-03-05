@@ -109,7 +109,7 @@ export class OllamaProvider implements IInferenceProvider {
         modelsLoaded: data.models.length,
       };
     } catch (err: unknown) {
-      return { provider: 'ollama', available: false, latencyMs: Date.now() - start, error: err.message };
+      return { provider: 'ollama', available: false, latencyMs: Date.now() - start, error: (err as Error).message };
     }
   }
 

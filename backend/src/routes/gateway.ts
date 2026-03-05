@@ -192,7 +192,7 @@ router.post('/v1/chat/completions', async (req: Request, res: Response) => {
     return res.status(500).json({ error: 'No response from provider' });
   } catch (err: unknown) {
     logger.error('[CendiaGateway] Proxy error:', err);
-    return res.status(500).json({ error: { message: err.message, type: 'gateway_error' } });
+    return res.status(500).json({ error: { message: (err as Error).message, type: 'gateway_error' } });
   }
 });
 
@@ -237,7 +237,7 @@ router.post('/v1/messages', async (req: Request, res: Response) => {
 
     return res.status(500).json({ error: 'No response from provider' });
   } catch (err: unknown) {
-    return res.status(500).json({ error: { message: err.message } });
+    return res.status(500).json({ error: { message: (err as Error).message } });
   }
 });
 
@@ -282,7 +282,7 @@ router.post('/proxy/:provider/*', async (req: Request, res: Response) => {
 
     return res.status(500).json({ error: 'No response from provider' });
   } catch (err: unknown) {
-    return res.status(500).json({ error: { message: err.message } });
+    return res.status(500).json({ error: { message: (err as Error).message } });
   }
 });
 
@@ -297,7 +297,7 @@ router.get('/stats', async (req: Request, res: Response) => {
     const stats = gateway.getStats(orgId);
     return res.json(stats);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -341,7 +341,7 @@ router.get('/interactions', async (req: Request, res: Response) => {
 
     return res.json({ interactions: sanitized, total: sanitized.length });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -365,7 +365,7 @@ router.get('/interactions/:id', async (req: Request, res: Response) => {
       },
     });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -384,7 +384,7 @@ router.get('/providers', async (_req: Request, res: Response) => {
     }));
     return res.json({ providers });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -397,7 +397,7 @@ router.get('/policies', async (_req: Request, res: Response) => {
     const gateway = getGateway();
     return res.json({ policies: gateway.getPolicies() });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -421,7 +421,7 @@ router.post('/policies', async (req: Request, res: Response) => {
     gateway.addPolicy(policy);
     return res.status(201).json(policy);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -434,7 +434,7 @@ router.put('/policies/:id', async (req: Request, res: Response) => {
     }
     return res.json(updated);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -447,7 +447,7 @@ router.delete('/policies/:id', async (req: Request, res: Response) => {
     }
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -470,7 +470,7 @@ router.post('/manifest', async (req: Request, res: Response) => {
 
     return res.json(manifest);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -500,7 +500,7 @@ router.post('/test-pii', async (req: Request, res: Response) => {
       scanDurationMs: result.scanDurationMs,
     });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -536,7 +536,7 @@ router.get('/routing/rules', async (_req: Request, res: Response) => {
   try {
     return res.json({ rules: modelRouter.getRules() });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -545,7 +545,7 @@ router.post('/routing/rules', async (req: Request, res: Response) => {
     modelRouter.addRule(req.body);
     return res.status(201).json(req.body);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -555,7 +555,7 @@ router.put('/routing/rules/:id', async (req: Request, res: Response) => {
     if (!updated) return res.status(404).json({ error: 'Rule not found' });
     return res.json(updated);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -564,7 +564,7 @@ router.delete('/routing/rules/:id', async (req: Request, res: Response) => {
     if (!modelRouter.removeRule(req.params.id)) return res.status(404).json({ error: 'Rule not found' });
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -572,7 +572,7 @@ router.get('/routing/performance', async (_req: Request, res: Response) => {
   try {
     return res.json({ models: modelRouter.getPerformanceStats() });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -587,7 +587,7 @@ router.post('/routing/select', async (req: Request, res: Response) => {
     });
     return res.json({ decision });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -606,7 +606,7 @@ router.get('/shadow-ai/events', async (req: Request, res: Response) => {
     });
     return res.json({ events, total: events.length });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -617,7 +617,7 @@ router.get('/shadow-ai/report', async (req: Request, res: Response) => {
     const report = shadowDetector.generateReport(orgId, days);
     return res.json(report);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -628,7 +628,7 @@ router.post('/shadow-ai/acknowledge/:id', async (req: Request, res: Response) =>
     }
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -641,7 +641,7 @@ router.put('/shadow-ai/config', async (req: Request, res: Response) => {
     shadowDetector.updateConfig(req.body);
     return res.json(shadowDetector.getConfig());
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -658,7 +658,7 @@ router.get('/webhooks', async (_req: Request, res: Response) => {
     }));
     return res.json({ webhooks });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -673,7 +673,7 @@ router.post('/webhooks', async (req: Request, res: Response) => {
     webhookNotifier.addWebhook(webhook);
     return res.status(201).json(webhook);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -683,7 +683,7 @@ router.put('/webhooks/:id', async (req: Request, res: Response) => {
     if (!updated) return res.status(404).json({ error: 'Webhook not found' });
     return res.json(updated);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -692,7 +692,7 @@ router.delete('/webhooks/:id', async (req: Request, res: Response) => {
     if (!webhookNotifier.removeWebhook(req.params.id)) return res.status(404).json({ error: 'Webhook not found' });
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -701,7 +701,7 @@ router.post('/webhooks/:id/test', async (req: Request, res: Response) => {
     const result = await webhookNotifier.testWebhook(req.params.id);
     return res.json(result);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -751,7 +751,7 @@ async function governanceReceiptHandler(req: Request, res: Response) {
       }
     }
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 }
 
@@ -766,7 +766,7 @@ router.get('/rate-limits', async (_req: Request, res: Response) => {
       usage: rateLimiter.getUsageStats(),
     });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -781,7 +781,7 @@ router.post('/rate-limits', async (req: Request, res: Response) => {
     rateLimiter.addConfig(config);
     return res.status(201).json(config);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -791,7 +791,7 @@ router.put('/rate-limits/:id', async (req: Request, res: Response) => {
     if (!updated) return res.status(404).json({ error: 'Rate limit config not found' });
     return res.json(updated);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -800,7 +800,7 @@ router.delete('/rate-limits/:id', async (req: Request, res: Response) => {
     if (!rateLimiter.removeConfig(req.params.id)) return res.status(404).json({ error: 'Rate limit config not found' });
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -813,7 +813,7 @@ router.post('/rate-limits/check', async (req: Request, res: Response) => {
     });
     return res.json(result);
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -830,7 +830,7 @@ router.get('/siem/configs', async (_req: Request, res: Response) => {
     }));
     return res.json({ configs, stats: siemIntegration.getStats() });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -848,7 +848,7 @@ router.post('/siem/configs', async (req: Request, res: Response) => {
     siemIntegration.addConfig(config);
     return res.status(201).json({ ...config, authToken: '***' });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -858,7 +858,7 @@ router.put('/siem/configs/:id', async (req: Request, res: Response) => {
     if (!updated) return res.status(404).json({ error: 'SIEM config not found' });
     return res.json({ ...updated, authToken: '***' });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -867,7 +867,7 @@ router.delete('/siem/configs/:id', async (req: Request, res: Response) => {
     if (!siemIntegration.removeConfig(req.params.id)) return res.status(404).json({ error: 'SIEM config not found' });
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -875,7 +875,7 @@ router.get('/siem/stats', async (_req: Request, res: Response) => {
   try {
     return res.json(siemIntegration.getStats());
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 
@@ -886,7 +886,7 @@ router.post('/siem/flush', async (_req: Request, res: Response) => {
     }
     return res.json({ success: true });
   } catch (err: unknown) {
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: (err as Error).message });
   }
 });
 

@@ -73,7 +73,7 @@ export class OpenAIProvider implements IInferenceProvider {
         modelsLoaded: data.data?.length || 0,
       };
     } catch (err: unknown) {
-      return { provider: 'openai', available: false, error: err.message, latencyMs: Date.now() - start };
+      return { provider: 'openai', available: false, error: (err as Error).message, latencyMs: Date.now() - start };
     }
   }
 

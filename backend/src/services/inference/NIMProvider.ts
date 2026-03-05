@@ -109,7 +109,7 @@ export class NIMProvider implements IInferenceProvider {
         modelsLoaded: data.data?.length || 0,
       };
     } catch (err: unknown) {
-      return { provider: 'nim', available: false, latencyMs: Date.now() - start, error: err.message };
+      return { provider: 'nim', available: false, latencyMs: Date.now() - start, error: (err as Error).message };
     }
   }
 

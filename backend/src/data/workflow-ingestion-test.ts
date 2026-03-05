@@ -21,6 +21,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { logger } from '../utils/logger.js';
 
 interface WorkflowStep {
   order: number;

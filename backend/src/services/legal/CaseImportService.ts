@@ -308,11 +308,11 @@ export class CaseImportService {
           const parsed = this.parseCAPCase(caseArray[i], importedBy);
           cases.push(parsed);
         } catch (err) {
-          errors.push(`Case ${i}: ${err instanceof Error ? err.message : String(err)}`);
+          errors.push(`Case ${i}: ${err instanceof Error ? (err as Error).message : String(err)}`);
         }
       }
     } catch (err) {
-      errors.push(`JSON parse error: ${err instanceof Error ? err.message : String(err)}`);
+      errors.push(`JSON parse error: ${err instanceof Error ? (err as Error).message : String(err)}`);
     }
 
     return { cases, errors };
@@ -432,7 +432,7 @@ export class CaseImportService {
           sourceSystem: 'csv',
         });
       } catch (err) {
-        errors.push(`Row ${i + 1}: ${err instanceof Error ? err.message : String(err)}`);
+        errors.push(`Row ${i + 1}: ${err instanceof Error ? (err as Error).message : String(err)}`);
       }
     }
 

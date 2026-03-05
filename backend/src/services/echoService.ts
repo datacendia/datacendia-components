@@ -1015,10 +1015,10 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
           where: { id: job.id },
           data: {
             status: 'failed',
-            error: error.message || 'Unknown collection error',
+            error: (error as Error).message || 'Unknown collection error',
           },
         });
-        logger.error('[Echo] Collection job failed:', { jobId: job.id, error: error.message });
+        logger.error('[Echo] Collection job failed:', { jobId: job.id, error: (error as Error).message });
         failed++;
       }
     }

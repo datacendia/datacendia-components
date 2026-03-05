@@ -502,7 +502,7 @@ class CendiaGatewayService extends EventEmitter {
       response = {
         statusCode: 502,
         headers: {},
-        body: { error: err.message },
+        body: { error: (err as Error).message },
         promptText,
         responseText: '',
         promptTokens: 0,
@@ -834,7 +834,7 @@ class CendiaGatewayService extends EventEmitter {
       return {
         statusCode: 502,
         headers: {},
-        body: { error: `Gateway proxy error: ${err.message}` },
+        body: { error: `Gateway proxy error: ${(err as Error).message}` },
         promptText: this.extractPromptText(provider.id, body),
         responseText: '',
         promptTokens: 0,

@@ -362,7 +362,7 @@ class ImmutableAuditLedger {
       this.entries = dbEntries.map((row) => ({
         index: row.entry_index,
         timestamp: row.created_at,
-        event: row.event_data as AuditEvent,
+        event: row.event_data as unknown as AuditEvent,
         previousHash: row.previous_hash,
         hash: row.hash,
         merkleRoot: row.merkle_root ?? undefined,

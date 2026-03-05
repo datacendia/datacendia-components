@@ -57,7 +57,7 @@ export interface ResolvedPrompt {
 // PROMPT VERSIONING SERVICE
 // =============================================================================
 
-class PromptVersioningService {
+export class PromptVersioningService {
   /**
    * Create or update a prompt template. If a template with the same name exists,
    * creates a new version and deactivates the old one.
@@ -96,7 +96,7 @@ class PromptVersioningService {
           template: params.template,
           version: newVersion,
           variables: params.variables ?? [],
-          model_config: params.modelConfig ?? {},
+          model_config: (params.modelConfig ?? {}) as any,
           is_active: true,
           organization_id: params.organizationId ?? null,
           created_by: params.createdBy ?? null,
@@ -333,6 +333,17 @@ class PromptVersioningService {
       avgTokens: tokenCount > 0 ? Math.round(tokenSum / tokenCount) : null,
       byVersion: byVersion.sort((a, b) => b.version - a.version),
     };
+  }
+
+  /**
+   * Extract {{variable}} placeholders from template text.
+   * Returns unique variable names in order of first appearance.
+   */
+  private extractVariables(template: string): string[] {
+    const matches = template.match(/\{\{(\w+)\}\}/g);
+    if (!matches) return [];
+    const vars = matches.map(m => m.replace(/\{\{|\}\}/g, ''));
+    return [...new Set(vars)];
   }
 }
 

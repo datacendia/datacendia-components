@@ -58,7 +58,7 @@ router.post('/generate', async (req: Request, res: Response) => {
       data: { response },
     });
   } catch (error: unknown) {
-    const message = error?.message || 'Unknown error generating fix';
+    const message = (error as Error)?.message || 'Unknown error generating fix';
     logger.error('[AutoHeal] Generate failed:', message);
 
     return res.status(502).json({
@@ -98,7 +98,7 @@ router.get('/status', async (_req: Request, res: Response) => {
   } catch (error: unknown) {
     return res.json({
       success: true,
-      data: { ollamaRunning: false, modelCount: 0, models: [], error: error?.message },
+      data: { ollamaRunning: false, modelCount: 0, models: [], error: (error as Error)?.message },
     });
   }
 });
