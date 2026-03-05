@@ -171,7 +171,7 @@ router.get('/buffer', async (req: Request, res: Response) => {
  */
 router.post('/bridge/emit', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { topic, key, payload, headers } = req.body;
+    const { topic, key, payload, headers } = z.object({}).passthrough().parse(req.body);
 
     if (!topic || !key || !payload) {
       res.status(400).json({
@@ -215,7 +215,7 @@ router.post('/bridge/emit', async (req: Request, res: Response, next: NextFuncti
  */
 router.post('/bridge/audit', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { action, resourceType, resourceId, details } = req.body;
+    const { action, resourceType, resourceId, details } = z.object({}).passthrough().parse(req.body);
 
     if (!action || !resourceType) {
       res.status(400).json({

@@ -33,7 +33,7 @@ const router = Router();
  * Initialize visualization for a new deliberation
  */
 router.post('/deliberation/init', (req: Request, res: Response) => {
-  const { deliberationId, topic, agents, maxRounds } = req.body;
+  const { deliberationId, topic, agents, maxRounds } = z.object({}).passthrough().parse(req.body);
   
   if (!deliberationId || !topic || !agents) {
     return res.status(400).json({ error: 'deliberationId, topic, and agents are required' });
@@ -68,7 +68,7 @@ router.get('/deliberation/:id', (req: Request, res: Response) => {
  * Update agent status
  */
 router.post('/deliberation/:id/agent-status', (req: Request, res: Response) => {
-  const { agentId, status, statement } = req.body;
+  const { agentId, status, statement } = z.object({}).passthrough().parse(req.body);
   
   deliberationVisualizationService.updateAgentStatus(
     req.params.id,
@@ -85,7 +85,7 @@ router.post('/deliberation/:id/agent-status', (req: Request, res: Response) => {
  * Update agent confidence
  */
 router.post('/deliberation/:id/confidence', (req: Request, res: Response) => {
-  const { agentId, confidence } = req.body;
+  const { agentId, confidence } = z.object({}).passthrough().parse(req.body);
   
   deliberationVisualizationService.updateConfidence(req.params.id, agentId, confidence);
   
@@ -97,7 +97,7 @@ router.post('/deliberation/:id/confidence', (req: Request, res: Response) => {
  * Add a citation
  */
 router.post('/deliberation/:id/citation', (req: Request, res: Response) => {
-  const { agentId, citation } = req.body;
+  const { agentId, citation } = z.object({}).passthrough().parse(req.body);
   
   deliberationVisualizationService.addCitation(req.params.id, agentId, citation);
   
@@ -109,7 +109,7 @@ router.post('/deliberation/:id/citation', (req: Request, res: Response) => {
  * Register a dissent
  */
 router.post('/deliberation/:id/dissent', (req: Request, res: Response) => {
-  const { agentId, reason, severity } = req.body;
+  const { agentId, reason, severity } = z.object({}).passthrough().parse(req.body);
   
   deliberationVisualizationService.registerDissent(req.params.id, agentId, reason, severity);
   
@@ -131,7 +131,7 @@ router.post('/deliberation/:id/advance-round', (req: Request, res: Response) => 
  * Conclude deliberation
  */
 router.post('/deliberation/:id/conclude', (req: Request, res: Response) => {
-  const { decision } = req.body;
+  const { decision } = z.object({}).passthrough().parse(req.body);
   
   if (decision) {
     deliberationVisualizationService.concludeWithConsensus(req.params.id, decision);
@@ -172,7 +172,7 @@ router.get('/active', (_req: Request, res: Response) => {
  */
 router.post('/replay/create', async (req: Request, res: Response) => {
   try {
-    const { deliberationId } = req.body;
+    const { deliberationId } = z.object({}).passthrough().parse(req.body);
     
     if (!deliberationId) {
       return res.status(400).json({ error: 'deliberationId is required' });
@@ -191,7 +191,7 @@ router.post('/replay/create', async (req: Request, res: Response) => {
  * Start playback
  */
 router.post('/replay/:sessionId/play', (req: Request, res: Response) => {
-  const { speed } = req.body;
+  const { speed } = z.object({}).passthrough().parse(req.body);
   
   const state = decisionReplayTheaterService.startPlayback(req.params.sessionId, speed);
   
@@ -213,7 +213,7 @@ router.post('/replay/:sessionId/pause', (req: Request, res: Response) => {
  * Seek to frame or time
  */
 router.post('/replay/:sessionId/seek', (req: Request, res: Response) => {
-  const { frameIndex, timeMs, session } = req.body;
+  const { frameIndex, timeMs, session } = z.object({}).passthrough().parse(req.body);
   
   let state;
   if (frameIndex !== undefined) {
@@ -230,7 +230,7 @@ router.post('/replay/:sessionId/seek', (req: Request, res: Response) => {
  * Set playback speed
  */
 router.post('/replay/:sessionId/speed', (req: Request, res: Response) => {
-  const { speed } = req.body;
+  const { speed } = z.object({}).passthrough().parse(req.body);
   
   const state = decisionReplayTheaterService.setPlaybackSpeed(req.params.sessionId, speed);
   
@@ -256,7 +256,7 @@ router.get('/replay/:sessionId/state', (req: Request, res: Response) => {
  * Export replay session
  */
 router.post('/replay/:sessionId/export', (req: Request, res: Response) => {
-  const { session, options } = req.body;
+  const { session, options } = z.object({}).passthrough().parse(req.body);
   
   if (!session) {
     return res.status(400).json({ error: 'session data is required' });

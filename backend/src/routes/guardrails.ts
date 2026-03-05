@@ -121,7 +121,7 @@ router.get('/rails/:railId', async (req: Request, res: Response) => {
  * Enable/disable a rail
  */
 router.patch('/rails/:railId/toggle', async (req: Request, res: Response) => {
-  const { enabled } = req.body;
+  const { enabled } = z.object({}).passthrough().parse(req.body);
   if (typeof enabled !== 'boolean') {
     res.status(400).json({ success: false, error: 'Missing required field: enabled (boolean)' });
     return;
@@ -153,7 +153,7 @@ router.get('/colang', async (_req: Request, res: Response) => {
  * Update Colang topic configuration
  */
 router.put('/colang', async (req: Request, res: Response) => {
-  const { allowedTopics, blockedTopics, customFlows, factBase } = req.body;
+  const { allowedTopics, blockedTopics, customFlows, factBase } = z.object({}).passthrough().parse(req.body);
 
   nemoGuardrails.updateColangConfig({
     allowedTopics,
@@ -175,7 +175,7 @@ router.put('/colang', async (req: Request, res: Response) => {
  */
 router.post('/evaluate/input', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, context } = req.body;
+    const { input, context } = z.object({}).passthrough().parse(req.body);
 
     if (!input) {
       res.status(400).json({ success: false, error: 'Missing required field: input' });
@@ -196,7 +196,7 @@ router.post('/evaluate/input', async (req: Request, res: Response, next: NextFun
  */
 router.post('/evaluate/output', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, output, context } = req.body;
+    const { input, output, context } = z.object({}).passthrough().parse(req.body);
 
     if (!input || !output) {
       res.status(400).json({ success: false, error: 'Missing required fields: input, output' });
@@ -217,7 +217,7 @@ router.post('/evaluate/output', async (req: Request, res: Response, next: NextFu
  */
 router.post('/evaluate/full', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, output, context } = req.body;
+    const { input, output, context } = z.object({}).passthrough().parse(req.body);
 
     if (!input || !output) {
       res.status(400).json({ success: false, error: 'Missing required fields: input, output' });
@@ -238,7 +238,7 @@ router.post('/evaluate/full', async (req: Request, res: Response, next: NextFunc
  */
 router.post('/check', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { input, output, inputType, agentId, modelUsed, context } = req.body;
+    const { input, output, inputType, agentId, modelUsed, context } = z.object({}).passthrough().parse(req.body);
 
     if (!input) {
       res.status(400).json({ success: false, error: 'Missing required field: input' });

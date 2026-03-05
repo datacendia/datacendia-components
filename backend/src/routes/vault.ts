@@ -85,7 +85,7 @@ router.get('/stats', async (_req: Request, res: Response) => {
  */
 router.post('/artifacts', async (req: Request, res: Response) => {
   try {
-    const { type, title, content, mimeType, sourceService, sourceId, tags, metadata } = req.body;
+    const { type, title, content, mimeType, sourceService, sourceId, tags, metadata } = z.object({}).passthrough().parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!type || !title || !content) {
@@ -127,7 +127,7 @@ router.post('/artifacts', async (req: Request, res: Response) => {
  */
 router.post('/decision-packets', async (req: Request, res: Response) => {
   try {
-    const { packetId, deliberationId, title, content, signature, merkleRoot, metadata } = req.body;
+    const { packetId, deliberationId, title, content, signature, merkleRoot, metadata } = z.object({}).passthrough().parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!packetId || !title || !content) {
@@ -168,7 +168,7 @@ router.post('/decision-packets', async (req: Request, res: Response) => {
  */
 router.post('/audit-entries', async (req: Request, res: Response) => {
   try {
-    const { entryId, action, content, previousHash, metadata } = req.body;
+    const { entryId, action, content, previousHash, metadata } = z.object({}).passthrough().parse(req.body);
     const actor = req.user?.email || 'system';
 
     if (!entryId || !action || !content) {
@@ -207,7 +207,7 @@ router.post('/audit-entries', async (req: Request, res: Response) => {
  */
 router.post('/evidence-bundles', async (req: Request, res: Response) => {
   try {
-    const { bundleId, title, content, mimeType, relatedDecisionId, metadata } = req.body;
+    const { bundleId, title, content, mimeType, relatedDecisionId, metadata } = z.object({}).passthrough().parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!bundleId || !title || !content) {
@@ -247,7 +247,7 @@ router.post('/evidence-bundles', async (req: Request, res: Response) => {
  */
 router.post('/signed-reports', async (req: Request, res: Response) => {
   try {
-    const { reportId, title, content, mimeType, signature, metadata } = req.body;
+    const { reportId, title, content, mimeType, signature, metadata } = z.object({}).passthrough().parse(req.body);
     const createdBy = req.user?.email || 'system';
 
     if (!reportId || !title || !content) {
@@ -479,7 +479,7 @@ router.post('/artifacts/:id/verify', async (req: Request, res: Response) => {
 router.post('/artifacts/:id/legal-hold', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { hold, reason } = req.body;
+    const { hold, reason } = z.object({}).passthrough().parse(req.body);
 
     if (hold === undefined) {
       res.status(400).json({
@@ -522,7 +522,7 @@ router.post('/artifacts/:id/legal-hold', async (req: Request, res: Response) => 
  */
 router.post('/export', async (req: Request, res: Response) => {
   try {
-    const { ids, format, includeContent, includeSignatures, includeAccessLog } = req.body;
+    const { ids, format, includeContent, includeSignatures, includeAccessLog } = z.object({}).passthrough().parse(req.body);
     const actor = req.user?.email || 'anonymous';
 
     if (!ids || !Array.isArray(ids) || ids.length === 0) {

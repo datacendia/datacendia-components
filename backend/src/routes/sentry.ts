@@ -30,7 +30,7 @@ const router = Router();
 router.post('/check', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { userId, inputType, input, output, agentId, modelUsed, context } = req.body;
+    const { userId, inputType, input, output, agentId, modelUsed, context } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaSentryService.checkContent({
       organizationId: orgId,
       userId: userId || 'anonymous',
@@ -84,7 +84,7 @@ router.get('/statistics', async (req: Request, res: Response) => {
 router.put('/config', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { configs } = req.body;
+    const { configs } = z.object({}).passthrough().parse(req.body);
     cendiaSentryService.setGuardrailConfig(orgId, configs);
     res.json({ success: true, message: 'Guardrail configuration updated' });
   } catch (error) {
@@ -103,7 +103,7 @@ router.put('/config', async (req: Request, res: Response) => {
 router.post('/check-context', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { userId, inputType, input, output, agentId, modelUsed, domain, context } = req.body;
+    const { userId, inputType, input, output, agentId, modelUsed, domain, context } = z.object({}).passthrough().parse(req.body);
     if (!domain) {
       return res.status(400).json({ success: false, error: { message: 'domain is required (general|medical|financial|legal|technical|hr)' } });
     }
@@ -147,7 +147,7 @@ router.get('/explain/:checkId', async (req: Request, res: Response) => {
 router.post('/correct', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { checkId, guardrailType, correctedDecision, reason, correctedBy } = req.body;
+    const { checkId, guardrailType, correctedDecision, reason, correctedBy } = z.object({}).passthrough().parse(req.body);
     if (!checkId || !guardrailType || !correctedDecision) {
       return res.status(400).json({ success: false, error: { message: 'checkId, guardrailType, and correctedDecision are required' } });
     }
@@ -186,7 +186,7 @@ router.get('/corrections', async (req: Request, res: Response) => {
 router.post('/check-tiered', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { userId, inputType, input, output, agentId, modelUsed, context } = req.body;
+    const { userId, inputType, input, output, agentId, modelUsed, context } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaSentryService.checkContentTiered({
       organizationId: orgId,
       userId: userId || 'anonymous',

@@ -131,7 +131,7 @@ router.get('/helm/metrics/:id/history', async (req: Request, res: Response) => {
 
 router.patch('/helm/metrics/:id', async (req: Request, res: Response) => {
   try {
-    const { value } = req.body;
+    const { value } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const metric = await helmService.updateMetricValue(id, value);
@@ -360,7 +360,7 @@ router.get('/flow/workflows/:id', async (req: Request, res: Response) => {
 
 router.post('/flow/workflows/:id/execute', async (req: Request, res: Response) => {
   try {
-    const { triggeredBy = 'api', input } = req.body;
+    const { triggeredBy = 'api', input } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const execution = await flowService.executeWorkflow(id, triggeredBy, input);
@@ -396,7 +396,7 @@ router.get('/flow/approvals', async (req: Request, res: Response) => {
 
 router.post('/flow/approvals/:id', async (req: Request, res: Response) => {
   try {
-    const { approved, decidedBy, reason } = req.body;
+    const { approved, decidedBy, reason } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const approval = await flowService.processApproval(id, approved, decidedBy, reason);
@@ -498,7 +498,7 @@ router.get('/guard/threats', async (req: Request, res: Response) => {
 
 router.patch('/guard/threats/:id', async (req: Request, res: Response) => {
   try {
-    const { status } = req.body;
+    const { status } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const threat = await guardService.updateThreatStatus(id, status);
@@ -521,7 +521,7 @@ router.get('/guard/policies', async (req: Request, res: Response) => {
 
 router.patch('/guard/policies/:id', async (req: Request, res: Response) => {
   try {
-    const { enabled } = req.body;
+    const { enabled } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const policy = await guardService.togglePolicy(id, enabled);
@@ -595,7 +595,7 @@ router.post('/ethics/reviews', async (req: Request, res: Response) => {
 
 router.post('/ethics/reviews/:id/decide', async (req: Request, res: Response) => {
   try {
-    const { result, notes, violations } = req.body;
+    const { result, notes, violations } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const review = await ethicsService.submitReviewDecision(id, result, notes, violations);
@@ -620,7 +620,7 @@ router.post('/ethics/bias-check', async (req: Request, res: Response) => {
   try {
     const organizationId = requireOrganizationId(req, res);
     if (!organizationId) return;
-    const { modelId, modelName } = req.body;
+    const { modelId, modelName } = z.object({}).passthrough().parse(req.body);
     const check = await ethicsService.performBiasCheck(organizationId, modelId, modelName);
     res.json({ success: true, data: check });
   } catch (error: unknown) {
@@ -673,7 +673,7 @@ router.get('/agents/:id', async (req: Request, res: Response) => {
 
 router.patch('/agents/:id/status', async (req: Request, res: Response) => {
   try {
-    const { status } = req.body;
+    const { status } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const agent = await agentsService.updateAgentStatus(id, status);
@@ -723,7 +723,7 @@ router.post('/agents/:id/interactions', async (req: Request, res: Response) => {
 
 router.post('/agents/interactions/:id/rate', async (req: Request, res: Response) => {
   try {
-    const { rating, feedback } = req.body;
+    const { rating, feedback } = z.object({}).passthrough().parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
     const interaction = await agentsService.rateInteraction(id, rating, feedback);

@@ -50,7 +50,7 @@ router.post('/initialize', async (_req: Request, res: Response) => {
 
 router.post('/keys', async (req: Request, res: Response) => {
   try {
-    const { algorithm, label, extractable } = req.body;
+    const { algorithm, label, extractable } = z.object({}).passthrough().parse(req.body);
     if (!algorithm || !label) {
       return res.status(400).json({ success: false, error: 'Missing "algorithm" and "label"' });
     }
@@ -81,7 +81,7 @@ router.get('/keys/:keyId', (req: Request, res: Response) => {
 
 router.post('/sign', async (req: Request, res: Response) => {
   try {
-    const { keyId, data } = req.body;
+    const { keyId, data } = z.object({}).passthrough().parse(req.body);
     if (!keyId || !data) {
       return res.status(400).json({ success: false, error: 'Missing "keyId" and "data" (base64)' });
     }
@@ -95,7 +95,7 @@ router.post('/sign', async (req: Request, res: Response) => {
 
 router.post('/verify', async (req: Request, res: Response) => {
   try {
-    const { keyId, data, signature } = req.body;
+    const { keyId, data, signature } = z.object({}).passthrough().parse(req.body);
     if (!keyId || !data || !signature) {
       return res.status(400).json({ success: false, error: 'Missing "keyId", "data" (base64), and "signature" (base64)' });
     }
@@ -109,7 +109,7 @@ router.post('/verify', async (req: Request, res: Response) => {
 
 router.post('/wrap', async (req: Request, res: Response) => {
   try {
-    const { keyToWrapId, wrappingKeyId } = req.body;
+    const { keyToWrapId, wrappingKeyId } = z.object({}).passthrough().parse(req.body);
     if (!keyToWrapId || !wrappingKeyId) {
       return res.status(400).json({ success: false, error: 'Missing "keyToWrapId" and "wrappingKeyId"' });
     }

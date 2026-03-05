@@ -235,7 +235,7 @@ router.get('/activity', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/activity', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { agentId, verticalId, action, result, duration, success } = req.body;
+    const { agentId, verticalId, action, result, duration, success } = z.object({}).passthrough().parse(req.body);
     
     if (!agentId || !verticalId || !action) {
       res.status(400).json({ 

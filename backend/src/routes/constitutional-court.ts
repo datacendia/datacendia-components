@@ -72,7 +72,7 @@ router.get('/statistics', (_req: Request, res: Response) => {
  */
 router.post('/disputes', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { title, category, petitioner, respondent, deliberationId, verticalId, organizationId } = req.body;
+    const { title, category, petitioner, respondent, deliberationId, verticalId, organizationId } = z.object({}).passthrough().parse(req.body);
 
     if (!title || !category || !petitioner || !respondent || !organizationId) {
       res.status(400).json({
@@ -163,7 +163,7 @@ router.get('/disputes/organization/:orgId', async (req: Request, res: Response):
 router.post('/disputes/:id/schedule-hearing', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const { hearingDate } = req.body;
+    const { hearingDate } = z.object({}).passthrough().parse(req.body);
 
     if (!hearingDate) {
       res.status(400).json({ success: false, error: 'hearingDate is required' });
@@ -200,7 +200,7 @@ router.post('/disputes/:id/begin-deliberation', async (req: Request, res: Respon
 router.post('/disputes/:id/draft-opinion', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const { ruling, summary, rationale, holdings, principlesApplied, authoringJudge, precedentsCited, dissents } = req.body;
+    const { ruling, summary, rationale, holdings, principlesApplied, authoringJudge, precedentsCited, dissents } = z.object({}).passthrough().parse(req.body);
 
     if (!ruling || !summary || !rationale || !holdings || !authoringJudge) {
       res.status(400).json({
@@ -251,7 +251,7 @@ router.post('/disputes/:id/resolve', async (req: Request, res: Response): Promis
 router.post('/disputes/:id/appeal', async (req: Request, res: Response): Promise<void> => {
   try {
     const { id } = req.params;
-    const { reason } = req.body;
+    const { reason } = z.object({}).passthrough().parse(req.body);
 
     if (!reason) {
       res.status(400).json({ success: false, error: 'reason is required' });
@@ -272,7 +272,7 @@ router.post('/disputes/:id/appeal', async (req: Request, res: Response): Promise
  */
 router.post('/precedents/search', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { category, keywords, limit } = req.body;
+    const { category, keywords, limit } = z.object({}).passthrough().parse(req.body);
 
     const results = await aiConstitutionalCourtService.searchPrecedents({
       category,

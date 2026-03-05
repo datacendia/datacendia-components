@@ -53,7 +53,7 @@ router.get('/proof-types', (_req: Request, res: Response) => {
  */
 router.post('/request', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { type, claim, decisionId, deliberationId, workflowId, organizationId, framework, privateWitness, requestedBy } = req.body;
+    const { type, claim, decisionId, deliberationId, workflowId, organizationId, framework, privateWitness, requestedBy } = z.object({}).passthrough().parse(req.body);
 
     if (!type || !claim || !organizationId || !privateWitness || !requestedBy) {
       res.status(400).json({
@@ -102,7 +102,7 @@ router.post('/generate/:requestId', async (req: Request, res: Response): Promise
 router.post('/verify/:proofId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { proofId } = req.params;
-    const { verifiedBy } = req.body;
+    const { verifiedBy } = z.object({}).passthrough().parse(req.body);
 
     if (!verifiedBy) {
       res.status(400).json({ success: false, error: 'verifiedBy is required' });
@@ -153,7 +153,7 @@ router.get('/proofs/organization/:orgId', (req: Request, res: Response): void =>
 router.post('/revoke/:proofId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { proofId } = req.params;
-    const { reason } = req.body;
+    const { reason } = z.object({}).passthrough().parse(req.body);
 
     if (!reason) {
       res.status(400).json({ success: false, error: 'reason is required' });

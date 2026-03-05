@@ -134,13 +134,10 @@ class TenantDatabaseManager {
     client.$use(async (params, next) => {
       const before = Date.now();
       const result = await next(params);
-      const after = Date.now();
-      
-      const duration = after - before;
+      const duration = Date.now() - before;
       if (duration > 100) {
         logger.warn(`[TenantDB:${tenantId}] Slow query: ${params.model}.${params.action} took ${duration}ms`);
       }
-      
       return result;
     });
   }

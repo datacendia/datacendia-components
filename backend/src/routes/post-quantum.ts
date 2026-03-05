@@ -68,7 +68,7 @@ router.get('/recommend/:useCase', (req: Request, res: Response): void => {
  */
 router.post('/keys', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { algorithm, strength, expiresInDays } = req.body;
+    const { algorithm, strength, expiresInDays } = z.object({}).passthrough().parse(req.body);
 
     const keyPair = await postQuantumKMSService.generateKeyPair({
       algorithm: algorithm as PQAlgorithm,
@@ -151,7 +151,7 @@ router.delete('/keys/:id', (req: Request, res: Response): void => {
  */
 router.post('/sign', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { data, keyId } = req.body;
+    const { data, keyId } = z.object({}).passthrough().parse(req.body);
 
     if (!data) {
       res.status(400).json({ success: false, error: 'data is required' });
@@ -171,7 +171,7 @@ router.post('/sign', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/verify', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { data, signature } = req.body;
+    const { data, signature } = z.object({}).passthrough().parse(req.body);
 
     if (!data || !signature) {
       res.status(400).json({ success: false, error: 'data and signature are required' });

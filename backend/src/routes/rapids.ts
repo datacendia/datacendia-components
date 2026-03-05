@@ -45,7 +45,7 @@ router.get('/stats', (_req: Request, res: Response) => {
  */
 router.post('/bias/analyze', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { dataset, protectedAttributes, outcomeColumn, positiveOutcomeValue, fairnessThreshold } = req.body;
+    const { dataset, protectedAttributes, outcomeColumn, positiveOutcomeValue, fairnessThreshold } = z.object({}).passthrough().parse(req.body);
 
     if (!dataset || !protectedAttributes || !outcomeColumn) {
       res.status(400).json({
@@ -77,7 +77,7 @@ router.post('/bias/analyze', async (req: Request, res: Response, next: NextFunct
  */
 router.post('/graph/analyze', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { nodes, edges } = req.body;
+    const { nodes, edges } = z.object({}).passthrough().parse(req.body);
 
     if (!nodes || !edges) {
       res.status(400).json({ success: false, error: 'Missing required fields: nodes, edges' });
@@ -105,7 +105,7 @@ router.post('/graph/analyze', async (req: Request, res: Response, next: NextFunc
  */
 router.post('/stats/test', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { groupA, groupB, testType, significance } = req.body;
+    const { groupA, groupB, testType, significance } = z.object({}).passthrough().parse(req.body);
 
     if (!groupA || !groupB || !testType) {
       res.status(400).json({ success: false, error: 'Missing required fields: groupA, groupB, testType' });
@@ -126,7 +126,7 @@ router.post('/stats/test', async (req: Request, res: Response, next: NextFunctio
  */
 router.post('/anomaly/detect', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { timeSeries, sensitivity, method } = req.body;
+    const { timeSeries, sensitivity, method } = z.object({}).passthrough().parse(req.body);
 
     if (!timeSeries || !Array.isArray(timeSeries)) {
       res.status(400).json({ success: false, error: 'Missing required field: timeSeries (array)' });
@@ -166,7 +166,7 @@ router.put('/cc/policy', (req: Request, res: Response) => {
 
 router.post('/cc/attest', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { gpuId } = req.body;
+    const { gpuId } = z.object({}).passthrough().parse(req.body);
     const result = await confidentialCompute.verifyGPUAttestation(gpuId);
     res.json({ success: true, data: result });
   } catch (error) { next(error); }

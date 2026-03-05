@@ -48,7 +48,7 @@ router.use(devAuth);
 
 router.post('/analyze', async (req: Request, res: Response) => {
   try {
-    const { text, deliberationId, organizationId } = req.body;
+    const { text, deliberationId, organizationId } = z.object({}).passthrough().parse(req.body);
     if (!text) {
       return res.status(400).json({ success: false, error: 'Missing "text" to analyze' });
     }
@@ -61,7 +61,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
 
 router.post('/analyze/statistical', (req: Request, res: Response) => {
   try {
-    const { text } = req.body;
+    const { text } = z.object({}).passthrough().parse(req.body);
     if (!text) {
       return res.status(400).json({ success: false, error: 'Missing "text" to analyze' });
     }

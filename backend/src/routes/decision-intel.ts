@@ -152,7 +152,7 @@ router.post('/chronos/snapshots', async (req: Request, res: Response) => {
 // AI Pivotal Moment Detection
 router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) => {
   try {
-    const { organization_id, events, limit, department } = req.body;
+    const { organization_id, events, limit, department } = z.object({}).passthrough().parse(req.body);
     
     if (!events || !Array.isArray(events)) {
       return res.status(400).json({ success: false, error: 'Events array required' });
@@ -185,7 +185,7 @@ router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) =
 // AI Causal Chain Analysis
 router.post('/chronos/ai/causal-chain', async (req: Request, res: Response) => {
   try {
-    const { organization_id, root_event, all_events } = req.body;
+    const { organization_id, root_event, all_events } = z.object({}).passthrough().parse(req.body);
     
     if (!root_event) {
       return res.status(400).json({ success: false, error: 'Root event required' });
@@ -212,7 +212,7 @@ router.post('/chronos/ai/causal-chain', async (req: Request, res: Response) => {
 // AI Future Scenario Generation
 router.post('/chronos/ai/future-scenarios', async (req: Request, res: Response) => {
   try {
-    const { organization_id, current_metrics, recent_events, time_horizon } = req.body;
+    const { organization_id, current_metrics, recent_events, time_horizon } = z.object({}).passthrough().parse(req.body);
 
     const orgId = req.organizationId || organization_id || 'default';
 
@@ -236,7 +236,7 @@ router.post('/chronos/ai/future-scenarios', async (req: Request, res: Response) 
 // AI Timeline Insight
 router.post('/chronos/ai/timeline-insight', async (req: Request, res: Response) => {
   try {
-    const { organization_id, start_date, end_date, events, metrics } = req.body;
+    const { organization_id, start_date, end_date, events, metrics } = z.object({}).passthrough().parse(req.body);
     
     if (!start_date || !end_date) {
       return res.status(400).json({ success: false, error: 'Start and end dates required' });
@@ -265,7 +265,7 @@ router.post('/chronos/ai/timeline-insight', async (req: Request, res: Response) 
 // AI "What If" Analysis
 router.post('/chronos/ai/what-if', async (req: Request, res: Response) => {
   try {
-    const { organization_id, event, alternative_action } = req.body;
+    const { organization_id, event, alternative_action } = z.object({}).passthrough().parse(req.body);
     
     if (!event || !alternative_action) {
       return res.status(400).json({ success: false, error: 'Event and alternative action required' });
@@ -533,7 +533,7 @@ router.post('/chronos/events', async (req: Request, res: Response) => {
       return;
     }
 
-    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = req.body;
+    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = z.object({}).passthrough().parse(req.body);
 
     if (!event_type || !category || !title || !description) {
       res.status(400).json({ success: false, error: 'event_type, category, title, and description are required' });

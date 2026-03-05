@@ -119,7 +119,7 @@ router.get('/packets/:id', async (req: Request, res: Response) => {
 router.post('/packets/generate', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { decisionId, dataSourceId, mode, businessUnit, systemsImpacted, complianceFrameworks, policyPackVersion } = req.body;
+    const { decisionId, dataSourceId, mode, businessUnit, systemsImpacted, complianceFrameworks, policyPackVersion } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !dataSourceId) {
       return res.status(400).json({ error: 'decisionId and dataSourceId are required' });
@@ -158,7 +158,7 @@ router.post('/packets/generate', async (req: Request, res: Response) => {
 router.post('/packets/:id/send-to-approvers', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { approvers, message, dueDate } = req.body;
+    const { approvers, message, dueDate } = z.object({}).passthrough().parse(req.body);
 
     if (!approvers || !Array.isArray(approvers) || approvers.length === 0) {
       return res.status(400).json({ error: 'At least one approver is required' });
@@ -187,7 +187,7 @@ router.post('/packets/:id/send-to-approvers', async (req: Request, res: Response
 router.post('/workflows/:id/respond', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { response, comment } = req.body;
+    const { response, comment } = z.object({}).passthrough().parse(req.body);
 
     if (!['approved', 'rejected'].includes(response)) {
       return res.status(400).json({ error: 'Response must be "approved" or "rejected"' });
@@ -224,7 +224,7 @@ router.post('/packets/:id/attachments', upload.single('file'), async (req: Reque
       return res.status(400).json({ error: 'File is required' });
     }
 
-    const { description, category } = req.body;
+    const { description, category } = z.object({}).passthrough().parse(req.body);
 
     const attachment = await evidenceVaultService.attachEvidence(
       req.params.id,
@@ -283,7 +283,7 @@ router.post('/packets/:id/lock', async (req: Request, res: Response) => {
 router.post('/packets/:id/break-glass', async (req: Request, res: Response) => {
   try {
     const user = extractUser(req);
-    const { justification, urgencyLevel } = req.body;
+    const { justification, urgencyLevel } = z.object({}).passthrough().parse(req.body);
 
     if (!justification) {
       return res.status(400).json({ error: 'Justification is required' });

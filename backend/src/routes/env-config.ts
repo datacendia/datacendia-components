@@ -152,7 +152,7 @@ router.get('/', async (_req: Request, res: Response) => {
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const { variables } = req.body;
+    const { variables } = z.object({}).passthrough().parse(req.body);
     
     if (!variables || typeof variables !== 'object') {
       return res.status(400).json({
@@ -190,7 +190,7 @@ router.post('/', async (req: Request, res: Response) => {
  */
 router.post('/validate', async (req: Request, res: Response) => {
   try {
-    const { variables } = req.body;
+    const { variables } = z.object({}).passthrough().parse(req.body);
     const errors: Record<string, string> = {};
     
     // Check required fields

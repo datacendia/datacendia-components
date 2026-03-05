@@ -72,7 +72,7 @@ const vaultUpload = multer({
  */
 router.post('/druid/timeline', async (req: Request, res: Response) => {
   try {
-    const { startTime, endTime, limit = 100, forceBackend } = req.body;
+    const { startTime, endTime, limit = 100, forceBackend } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     // Use AnalyticsRouter for automatic backend selection
@@ -103,7 +103,7 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
  */
 router.post('/druid/metrics', async (req: Request, res: Response) => {
   try {
-    const { startTime, endTime, granularity = 'hour', forceBackend } = req.body;
+    const { startTime, endTime, granularity = 'hour', forceBackend } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     // Use AnalyticsRouter for automatic backend selection
@@ -134,7 +134,7 @@ router.post('/druid/metrics', async (req: Request, res: Response) => {
  */
 router.post('/druid/ingest', async (req: Request, res: Response) => {
   try {
-    const { datasource, table, events, dualWrite = false } = req.body;
+    const { datasource, table, events, dualWrite = false } = z.object({}).passthrough().parse(req.body);
     
     // Use AnalyticsRouter for intelligent ingestion
     const result = await analyticsRouter.ingestEvents(events, {
@@ -181,7 +181,7 @@ router.get('/druid/health', async (req: Request, res: Response) => {
  */
 router.post('/storage/upload', async (req: Request, res: Response) => {
   try {
-    const { bucket, fileName, content, contentType, metadata } = req.body;
+    const { bucket, fileName, content, contentType, metadata } = z.object({}).passthrough().parse(req.body);
     
     const buffer = Buffer.from(content, 'base64');
     const result = await minioService.uploadBuffer(
@@ -432,7 +432,7 @@ router.get('/vault/health', async (_req: Request, res: Response) => {
  */
 router.post('/vector/store', async (req: Request, res: Response) => {
   try {
-    const { documentId, content, metadata, chunkSize = 500 } = req.body;
+    const { documentId, content, metadata, chunkSize = 500 } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     // Split content into chunks and store each
@@ -461,7 +461,7 @@ router.post('/vector/store', async (req: Request, res: Response) => {
  */
 router.post('/vector/search', async (req: Request, res: Response) => {
   try {
-    const { query, limit = 5, threshold = 0.7 } = req.body;
+    const { query, limit = 5, threshold = 0.7 } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const results = await vectorService.searchDocuments(orgId, query, { limit, threshold });
@@ -478,7 +478,7 @@ router.post('/vector/search', async (req: Request, res: Response) => {
  */
 router.post('/vector/decision', async (req: Request, res: Response) => {
   try {
-    const { decisionId, title, context, outcome, confidence } = req.body;
+    const { decisionId, title, context, outcome, confidence } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     await vectorService.storeDecisionContext(orgId, {
@@ -500,7 +500,7 @@ router.post('/vector/decision', async (req: Request, res: Response) => {
  */
 router.post('/vector/decisions/search', async (req: Request, res: Response) => {
   try {
-    const { query, limit = 5 } = req.body;
+    const { query, limit = 5 } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const results = await vectorService.searchDecisions(orgId, query, { limit });
@@ -517,7 +517,7 @@ router.post('/vector/decisions/search', async (req: Request, res: Response) => {
  */
 router.post('/vector/agent-memory', async (req: Request, res: Response) => {
   try {
-    const { agentId, memoryType, content, importance, expiresAt } = req.body;
+    const { agentId, memoryType, content, importance, expiresAt } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     await vectorService.storeAgentMemory(orgId, agentId, {
@@ -540,7 +540,7 @@ router.post('/vector/agent-memory', async (req: Request, res: Response) => {
  */
 router.post('/vector/agent-memory/recall', async (req: Request, res: Response) => {
   try {
-    const { agentId, query, limit = 10 } = req.body;
+    const { agentId, query, limit = 10 } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const memories = await vectorService.retrieveAgentMemory(orgId, agentId, query, { limit });
@@ -573,7 +573,7 @@ router.get('/vector/health', async (req: Request, res: Response) => {
  */
 router.post('/queue/deliberation', async (req: Request, res: Response) => {
   try {
-    const { sessionId, question, agents, context, priority = 'normal' } = req.body;
+    const { sessionId, question, agents, context, priority = 'normal' } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const priorityMap: Record<string, number> = { critical: 1, high: 2, normal: 3, low: 4 };
@@ -599,7 +599,7 @@ router.post('/queue/deliberation', async (req: Request, res: Response) => {
  */
 router.post('/queue/document', async (req: Request, res: Response) => {
   try {
-    const { documentId, fileName, fileType, storageUrl, extractText, generateEmbeddings } = req.body;
+    const { documentId, fileName, fileType, storageUrl, extractText, generateEmbeddings } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId || DEFAULT_ORG;
     
     const job = await agentQueueService.addDocumentProcessing({
@@ -676,7 +676,7 @@ interface PrometheusResponse {
  */
 router.post('/prometheus/query', async (req: Request, res: Response) => {
   try {
-    const { query, start, end, step } = req.body;
+    const { query, start, end, step } = z.object({}).passthrough().parse(req.body);
     
     const prometheusUrl = process.env.PROMETHEUS_URL || 'http://localhost:9090';
     const response = await fetch(

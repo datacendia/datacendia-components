@@ -125,7 +125,7 @@ router.get('/frameworks/jurisdiction/:jurisdiction', async (req: Request, res: R
  */
 router.post('/regulations/ingest', async (req: Request, res: Response) => {
   try {
-    const { frameworkCode, version, sourceUrl } = req.body;
+    const { frameworkCode, version, sourceUrl } = z.object({}).passthrough().parse(req.body);
     const orgId = req.organizationId;
     
     const regulation = await cendiaPanopticonService.ingestRegulation(
@@ -165,7 +165,7 @@ router.get('/regulations', async (req: Request, res: Response) => {
  */
 router.post('/alignments', async (req: Request, res: Response) => {
   try {
-    const { obligationId, entityType, entityId, entityName } = req.body;
+    const { obligationId, entityType, entityId, entityName } = z.object({}).passthrough().parse(req.body);
     
     const alignment = await cendiaPanopticonService.mapObligation(
       obligationId,
@@ -205,7 +205,7 @@ router.get('/gaps', async (req: Request, res: Response) => {
 router.post('/violations/detect', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { processData } = req.body;
+    const { processData } = z.object({}).passthrough().parse(req.body);
     
     const violations = await cendiaPanopticonService.detectViolations(orgId, processData);
     res.json({ success: true, data: violations });
@@ -234,7 +234,7 @@ router.get('/violations', async (req: Request, res: Response) => {
  */
 router.post('/violations/:id/resolve', async (req: Request, res: Response) => {
   try {
-    const { resolution } = req.body;
+    const { resolution } = z.object({}).passthrough().parse(req.body);
     const resolvedBy = req.user?.id || 'system';
     
     const violation = await cendiaPanopticonService.resolveViolation(
@@ -343,7 +343,7 @@ router.get('/express/report', async (req: Request, res: Response) => {
 router.post('/express/remediate', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { violationIds } = req.body;
+    const { violationIds } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaPanopticonService.generateRemediationSteps(orgId, violationIds);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -376,7 +376,7 @@ router.get('/conflicts', async (req: Request, res: Response) => {
 router.post('/workflow', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { frameworkCode, severity, maxTasks } = req.body;
+    const { frameworkCode, severity, maxTasks } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaPanopticonService.generateComplianceWorkflow(orgId, {
       frameworkCode,
       severity,

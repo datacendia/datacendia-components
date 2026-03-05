@@ -53,7 +53,7 @@ router.get('/coverage-types', (_req: Request, res: Response) => {
  */
 router.post('/quotes', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, coverageType, requestedLimit, verticalId, coveredSystems, termMonths } = req.body;
+    const { organizationId, coverageType, requestedLimit, verticalId, coveredSystems, termMonths } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !coverageType || !requestedLimit) {
       res.status(400).json({
@@ -84,7 +84,7 @@ router.post('/quotes', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/policies', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { quoteId, coveredSystems, coveredDecisionTypes, createdBy } = req.body;
+    const { quoteId, coveredSystems, coveredDecisionTypes, createdBy } = z.object({}).passthrough().parse(req.body);
 
     if (!quoteId || !coveredSystems || !coveredDecisionTypes || !createdBy) {
       res.status(400).json({
@@ -142,7 +142,7 @@ router.get('/policies/organization/:orgId', (req: Request, res: Response): void 
  */
 router.post('/cover-decision', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { policyId, decisionId, deliberationId, decisionType, decisionValue, riskFactors } = req.body;
+    const { policyId, decisionId, deliberationId, decisionType, decisionValue, riskFactors } = z.object({}).passthrough().parse(req.body);
 
     if (!policyId || !decisionId || !decisionType || decisionValue === undefined) {
       res.status(400).json({
@@ -190,7 +190,7 @@ router.get('/coverage/decision/:decisionId', (req: Request, res: Response): void
  */
 router.post('/claims', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { policyId, incidentDate, incidentDescription, decisionId, claimAmount, claimType, supportingDocuments } = req.body;
+    const { policyId, incidentDate, incidentDescription, decisionId, claimAmount, claimType, supportingDocuments } = z.object({}).passthrough().parse(req.body);
 
     if (!policyId || !incidentDate || !incidentDescription || !claimAmount || !claimType) {
       res.status(400).json({

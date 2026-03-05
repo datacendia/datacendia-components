@@ -34,17 +34,14 @@ if (config.nodeEnv !== 'production') {
   globalForPrisma.prisma = prisma;
 }
 
-// Middleware for logging slow queries
+// Slow query logging middleware
 prisma.$use(async (params, next) => {
   const before = Date.now();
   const result = await next(params);
-  const after = Date.now();
-  
-  const duration = after - before;
+  const duration = Date.now() - before;
   if (duration > 100) {
     logger.warn(`Slow query detected: ${params.model}.${params.action} took ${duration}ms`);
   }
-  
   return result;
 });
 

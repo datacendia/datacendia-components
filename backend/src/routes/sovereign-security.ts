@@ -171,7 +171,7 @@ router.get('/key/attempts', async (req: Request, res: Response) => {
 
 router.post('/key/challenge', async (req: Request, res: Response) => {
   try {
-    const { keyId, operation } = req.body;
+    const { keyId, operation } = z.object({}).passthrough().parse(req.body);
     const challenge = await cendiaKeyService.createChallenge(keyId, operation);
     res.json({ success: true, data: challenge });
   } catch (error: unknown) {
@@ -181,7 +181,7 @@ router.post('/key/challenge', async (req: Request, res: Response) => {
 
 router.post('/key/verify', async (req: Request, res: Response) => {
   try {
-    const { challengeId, response } = req.body;
+    const { challengeId, response } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaKeyService.verifyChallenge(challengeId, response);
     res.json({ success: true, data: result });
   } catch (error: unknown) {

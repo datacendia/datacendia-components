@@ -32,7 +32,7 @@ router.get('/health', (_req: Request, res: Response) => {
  */
 router.post('/simulate', async (req: Request, res: Response) => {
   try {
-    const { question, context, timeHorizon = '90d', branchCount = 3 } = req.body;
+    const { question, context, timeHorizon = '90d', branchCount = 3 } = z.object({}).passthrough().parse(req.body);
 
     if (!question) {
       return res.status(400).json({
@@ -153,7 +153,7 @@ router.get('/status', async (_req: Request, res: Response) => {
  */
 router.post('/demo', async (req: Request, res: Response) => {
   try {
-    const { scenario = 'acquisition' } = req.body;
+    const { scenario = 'acquisition' } = z.object({}).passthrough().parse(req.body);
 
     const demoScenarios: Record<string, { question: string; context: string }> = {
       acquisition: {

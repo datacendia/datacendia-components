@@ -294,7 +294,7 @@ router.put('/user/preference', async (req: Request, res: Response) => {
 
 router.post('/cache/clear', async (req: Request, res: Response) => {
   try {
-    const { language } = req.body;
+    const { language } = z.object({}).passthrough().parse(req.body);
     await translationService.clearCache(language);
 
     res.json({

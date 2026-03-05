@@ -127,7 +127,7 @@ router.get('/opportunities', async (req: Request, res: Response) => {
 
 router.patch('/opportunities/:id/status', async (req: Request, res: Response) => {
   try {
-    const { status } = req.body;
+    const { status } = z.object({}).passthrough().parse(req.body);
     const opportunity = await cendiaSymbiontService.updateOpportunityStatus(req.params.id, status);
     res.json({ success: true, data: opportunity });
   } catch (error) {
@@ -141,7 +141,7 @@ router.patch('/opportunities/:id/status', async (req: Request, res: Response) =>
 
 router.post('/opportunities/:id/simulate', async (req: Request, res: Response) => {
   try {
-    const { simulationType } = req.body;
+    const { simulationType } = z.object({}).passthrough().parse(req.body);
     const simulation = await cendiaSymbiontService.simulateAlliance(req.params.id, simulationType);
     res.json({ success: true, data: simulation });
   } catch (error) {
@@ -165,7 +165,7 @@ router.get('/opportunities/:id/simulations', async (req: Request, res: Response)
 router.post('/relationships', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { entityId, relatedEntityId, relationshipType } = req.body;
+    const { entityId, relatedEntityId, relationshipType } = z.object({}).passthrough().parse(req.body);
     const relationship = await cendiaSymbiontService.createRelationship(
       orgId, entityId, relatedEntityId, relationshipType
     );

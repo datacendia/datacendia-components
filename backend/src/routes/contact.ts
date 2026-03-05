@@ -33,7 +33,7 @@ const prisma = new PrismaClient();
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const { name, email, company, message, inquiry_type, source } = req.body;
+    const { name, email, company, message, inquiry_type, source } = z.object({}).passthrough().parse(req.body);
 
     // Validate required fields
     if (!name || !email || !message) {

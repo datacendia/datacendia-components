@@ -154,7 +154,7 @@ router.get('/pillars/:pillarId/mapping', (req: Request, res: Response) => {
  */
 router.post('/assessments/pillar', async (req: Request, res: Response) => {
   try {
-    const { organizationId, pillarId, assessor } = req.body;
+    const { organizationId, pillarId, assessor } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !pillarId || !assessor) {
       return res.status(400).json({ 
@@ -199,7 +199,7 @@ router.post('/assessments/pillar', async (req: Request, res: Response) => {
  */
 router.post('/assessments/framework', async (req: Request, res: Response) => {
   try {
-    const { organizationId, frameworkId, pillarId, assessor } = req.body;
+    const { organizationId, frameworkId, pillarId, assessor } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !frameworkId || !pillarId || !assessor) {
       return res.status(400).json({ 
@@ -282,7 +282,7 @@ router.get('/assessments', (req: Request, res: Response) => {
  */
 router.post('/bundles/generate', async (req: Request, res: Response) => {
   try {
-    const { organizationId, frameworks, pillars, domains, generatedBy } = req.body;
+    const { organizationId, frameworks, pillars, domains, generatedBy } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !generatedBy) {
       return res.status(400).json({ 
@@ -512,7 +512,7 @@ router.get('/summary', (req: Request, res: Response) => {
  */
 router.post('/enforce', (req: Request, res: Response) => {
   try {
-    const { agentId, action, description, dataTypes } = req.body;
+    const { agentId, action, description, dataTypes } = z.object({}).passthrough().parse(req.body);
 
     if (!action || !description) {
       return res.status(400).json({
@@ -557,7 +557,7 @@ router.post('/enforce', (req: Request, res: Response) => {
  */
 router.post('/check', (req: Request, res: Response) => {
   try {
-    const { action, description, dataTypes, pillar, userId, agentId, metadata } = req.body;
+    const { action, description, dataTypes, pillar, userId, agentId, metadata } = z.object({}).passthrough().parse(req.body);
 
     if (!action || !description) {
       return res.status(400).json({
@@ -633,7 +633,7 @@ router.get('/rules', (req: Request, res: Response) => {
  */
 router.post('/council/evaluate', (req: Request, res: Response) => {
   try {
-    const { id, agentId, action, description, dataTypes, targetSystems, affectedData, rationale } = req.body;
+    const { id, agentId, action, description, dataTypes, targetSystems, affectedData, rationale } = z.object({}).passthrough().parse(req.body);
 
     if (!action || !description) {
       return res.status(400).json({

@@ -115,7 +115,7 @@ router.get('/agents/category/:category', (req: Request, res: Response) => {
  * Build a mission-specific agent team
  */
 router.post('/agents/build-team', (req: Request, res: Response) => {
-  const { missionType } = req.body;
+  const { missionType } = z.object({}).passthrough().parse(req.body);
   
   if (!missionType || !['kinetic', 'cyber', 'acquisition', 'planning', 'intelligence'].includes(missionType)) {
     return res.status(400).json({ 
@@ -358,7 +358,7 @@ router.get('/connectors/classification/:level', (req: Request, res: Response) =>
  * Start a defense vertical deliberation
  */
 router.post('/deliberate', async (req: Request, res: Response) => {
-  const { modeId, query, context, classificationLevel } = req.body;
+  const { modeId, query, context, classificationLevel } = z.object({}).passthrough().parse(req.body);
   
   if (!modeId || !query) {
     return res.status(400).json({ error: 'modeId and query are required' });

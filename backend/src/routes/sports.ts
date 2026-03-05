@@ -149,7 +149,7 @@ router.post('/transfers', asyncHandler(async (req: Request, res: Response) => {
     transferFee,
     addOns,
     agentFee,
-  } = req.body;
+  } = z.object({}).passthrough().parse(req.body);
 
   if (!organizationId || !userId || !player || !counterpartyClub) {
     res.status(400).json({ error: 'Missing required fields' });
@@ -189,7 +189,7 @@ router.get('/transfers/:id', asyncHandler(async (req: Request, res: Response) =>
  * Update a transfer decision
  */
 router.patch('/transfers/:id', asyncHandler(async (req: Request, res: Response) => {
-  const { userId, ...updates } = req.body;
+  const { userId, ...updates } = z.object({}).passthrough().parse(req.body);
   
   if (!userId) {
     res.status(400).json({ error: 'userId is required' });
@@ -213,7 +213,7 @@ router.patch('/transfers/:id', asyncHandler(async (req: Request, res: Response) 
  * Add scouting assessment
  */
 router.post('/transfers/:id/scouting', asyncHandler(async (req: Request, res: Response) => {
-  const { userId, assessment } = req.body;
+  const { userId, assessment } = z.object({}).passthrough().parse(req.body);
   
   if (!userId || !assessment) {
     res.status(400).json({ error: 'userId and assessment are required' });
@@ -237,7 +237,7 @@ router.post('/transfers/:id/scouting', asyncHandler(async (req: Request, res: Re
  * Add valuation assessment
  */
 router.post('/transfers/:id/valuation', asyncHandler(async (req: Request, res: Response) => {
-  const { userId, valuation } = req.body;
+  const { userId, valuation } = z.object({}).passthrough().parse(req.body);
   
   if (!userId || !valuation) {
     res.status(400).json({ error: 'userId and valuation are required' });
@@ -261,7 +261,7 @@ router.post('/transfers/:id/valuation', asyncHandler(async (req: Request, res: R
  * Add alternative player considered
  */
 router.post('/transfers/:id/alternatives', asyncHandler(async (req: Request, res: Response) => {
-  const { userId, alternative } = req.body;
+  const { userId, alternative } = z.object({}).passthrough().parse(req.body);
   
   if (!userId || !alternative) {
     res.status(400).json({ error: 'userId and alternative are required' });
@@ -285,7 +285,7 @@ router.post('/transfers/:id/alternatives', asyncHandler(async (req: Request, res
  * Attach evidence to decision
  */
 router.post('/transfers/:id/evidence', asyncHandler(async (req: Request, res: Response) => {
-  const { userId, evidence } = req.body;
+  const { userId, evidence } = z.object({}).passthrough().parse(req.body);
   
   if (!userId || !evidence) {
     res.status(400).json({ error: 'userId and evidence are required' });
@@ -314,7 +314,7 @@ router.post('/transfers/:id/evidence', asyncHandler(async (req: Request, res: Re
  * Submit for approval
  */
 router.post('/transfers/:id/submit', asyncHandler(async (req: Request, res: Response) => {
-  const { userId } = req.body;
+  const { userId } = z.object({}).passthrough().parse(req.body);
   
   if (!userId) {
     res.status(400).json({ error: 'userId is required' });
@@ -334,7 +334,7 @@ router.post('/transfers/:id/submit', asyncHandler(async (req: Request, res: Resp
  * Record approval decision
  */
 router.post('/transfers/:id/approve', asyncHandler(async (req: Request, res: Response) => {
-  const { userId, userName, role, approved, comments } = req.body;
+  const { userId, userName, role, approved, comments } = z.object({}).passthrough().parse(req.body);
   
   if (!userId || !userName || !role || approved === undefined) {
     res.status(400).json({ error: 'userId, userName, role, and approved are required' });
@@ -361,7 +361,7 @@ router.post('/transfers/:id/approve', asyncHandler(async (req: Request, res: Res
  * Complete and lock decision
  */
 router.post('/transfers/:id/complete', asyncHandler(async (req: Request, res: Response) => {
-  const { userId } = req.body;
+  const { userId } = z.object({}).passthrough().parse(req.body);
   
   if (!userId) {
     res.status(400).json({ error: 'userId is required' });
@@ -381,7 +381,7 @@ router.post('/transfers/:id/complete', asyncHandler(async (req: Request, res: Re
  * Assess FFP impact of decision
  */
 router.post('/transfers/:id/ffp-assessment', asyncHandler(async (req: Request, res: Response) => {
-  const { currentBreakEvenPosition, currentSquadCostRatio } = req.body;
+  const { currentBreakEvenPosition, currentSquadCostRatio } = z.object({}).passthrough().parse(req.body);
   
   if (currentBreakEvenPosition === undefined) {
     res.status(400).json({ error: 'currentBreakEvenPosition is required' });
@@ -466,7 +466,7 @@ router.get('/knowledge/status', (_req: Request, res: Response) => {
  * Query the sports regulations knowledge base
  */
 router.post('/knowledge/query', asyncHandler(async (req: Request, res: Response) => {
-  const { query, sources, types, maxResults, minRelevance } = req.body;
+  const { query, sources, types, maxResults, minRelevance } = z.object({}).passthrough().parse(req.body);
   
   if (!query) {
     res.status(400).json({ error: 'query is required' });
@@ -579,7 +579,7 @@ router.post('/agents/:agentId/prompt', asyncHandler(async (req: Request, res: Re
     return;
   }
 
-  const { workflow, player, financials, additionalContext } = req.body;
+  const { workflow, player, financials, additionalContext } = z.object({}).passthrough().parse(req.body);
   
   if (!workflow) {
     res.status(400).json({ error: 'workflow is required' });

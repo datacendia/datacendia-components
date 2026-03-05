@@ -54,7 +54,7 @@ router.get('/frameworks', (_req: Request, res: Response) => {
  */
 router.post('/initialize', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, framework } = req.body;
+    const { organizationId, framework } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !framework) {
       res.status(400).json({ success: false, error: 'organizationId and framework are required' });
@@ -77,7 +77,7 @@ router.post('/initialize', async (req: Request, res: Response): Promise<void> =>
  */
 router.post('/scan', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, framework } = req.body;
+    const { organizationId, framework } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !framework) {
       res.status(400).json({ success: false, error: 'organizationId and framework are required' });
@@ -173,7 +173,7 @@ router.get('/alerts/:orgId', (req: Request, res: Response): void => {
  */
 router.post('/alerts/:id/acknowledge', (req: Request, res: Response): void => {
   try {
-    const { assignedTo } = req.body;
+    const { assignedTo } = z.object({}).passthrough().parse(req.body);
     const alert = continuousComplianceMonitorService.acknowledgeAlert(req.params['id']!, assignedTo);
     res.json({ success: true, data: alert });
   } catch (error) {
@@ -187,7 +187,7 @@ router.post('/alerts/:id/acknowledge', (req: Request, res: Response): void => {
  */
 router.post('/alerts/:id/resolve', (req: Request, res: Response): void => {
   try {
-    const { resolution } = req.body;
+    const { resolution } = z.object({}).passthrough().parse(req.body);
     const alert = continuousComplianceMonitorService.resolveAlert(
       req.params['id']!,
       resolution || 'resolved'

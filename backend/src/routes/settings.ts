@@ -57,7 +57,7 @@ router.get('/organization', async (req: Request, res: Response) => {
 router.patch('/organization', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { name, settings, metadata } = req.body;
+    const { name, settings, metadata } = z.object({}).passthrough().parse(req.body);
     const tenant = await tenantService.updateTenant(tenantId, {
       name,
       settings,
@@ -101,7 +101,7 @@ router.get('/users', async (req: Request, res: Response) => {
 router.post('/users', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { email, name, role, department, title } = req.body;
+    const { email, name, role, department, title } = z.object({}).passthrough().parse(req.body);
     const user = await userManagementService.createUser(tenantId, {
       email,
       name,
@@ -184,7 +184,7 @@ router.get('/teams', async (req: Request, res: Response) => {
 router.post('/teams', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { name, description, leaderId, memberIds, permissions } = req.body;
+    const { name, description, leaderId, memberIds, permissions } = z.object({}).passthrough().parse(req.body);
     const team = await userManagementService.createTeam(tenantId, {
       name,
       description,
@@ -240,7 +240,7 @@ router.delete('/teams/:id', async (req: Request, res: Response) => {
 
 router.post('/teams/:id/members', async (req: Request, res: Response) => {
   try {
-    const { userId } = req.body;
+    const { userId } = z.object({}).passthrough().parse(req.body);
     const team = await userManagementService.addTeamMember(req.params.id, userId);
     if (!team) {
       return res.status(404).json({ error: 'Team not found' });
@@ -283,7 +283,7 @@ router.get('/roles', async (req: Request, res: Response) => {
 router.post('/roles', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
-    const { name, description, permissions } = req.body;
+    const { name, description, permissions } = z.object({}).passthrough().parse(req.body);
     const role = await userManagementService.createRole(tenantId, {
       name,
       description,
@@ -328,7 +328,7 @@ router.post('/api-keys', async (req: Request, res: Response) => {
   try {
     const tenantId = getTenantId(req);
     const userId = 'current_user'; // Would get from auth
-    const { name, permissions, expiresAt } = req.body;
+    const { name, permissions, expiresAt } = z.object({}).passthrough().parse(req.body);
     
     const result = await userManagementService.createApiKey(tenantId, userId, {
       name,

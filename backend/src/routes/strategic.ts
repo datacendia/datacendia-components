@@ -34,7 +34,7 @@ const router = Router();
 
 router.post('/synthesis/initiate', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, userId, question, context, agents, mode, timeoutMs, requireUnanimity } = req.body;
+    const { organizationId, userId, question, context, agents, mode, timeoutMs, requireUnanimity } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !userId || !question || !agents) {
       res.status(400).json({ error: 'Missing required fields: organizationId, userId, question, agents' });
@@ -76,7 +76,7 @@ router.get('/synthesis/:synthesisId', async (req: Request, res: Response): Promi
 router.post('/synthesis/:synthesisId/execute', async (req: Request, res: Response) => {
   try {
     const synthesisId = req.params['synthesisId'] as string;
-    const { approverUserId } = req.body;
+    const { approverUserId } = z.object({}).passthrough().parse(req.body);
     const execution = await synthesisEngineService.initiateExecution(synthesisId, approverUserId);
     res.json({ success: true, execution });
   } catch (error: unknown) {
@@ -110,7 +110,7 @@ router.get('/synthesis/metrics/:organizationId', async (req: Request, res: Respo
 
 router.post('/logicgate/execute', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, name, tasks, config } = req.body;
+    const { organizationId, name, tasks, config } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !tasks) {
       res.status(400).json({ error: 'Missing required fields: organizationId, tasks' });
@@ -139,7 +139,7 @@ router.post('/logicgate/execute', async (req: Request, res: Response): Promise<v
 
 router.post('/logicgate/agents', async (req: Request, res: Response) => {
   try {
-    const { organizationId, agentTasks, config } = req.body;
+    const { organizationId, agentTasks, config } = z.object({}).passthrough().parse(req.body);
     
     const execution = await logicGateService.executeAgentsInParallel(organizationId, agentTasks, config);
     res.json({ success: true, execution: { ...execution, results: Object.fromEntries(execution.results) } });
@@ -150,7 +150,7 @@ router.post('/logicgate/agents', async (req: Request, res: Response) => {
 
 router.post('/logicgate/redteam-union', async (req: Request, res: Response) => {
   try {
-    const { organizationId, scenario, context } = req.body;
+    const { organizationId, scenario, context } = z.object({}).passthrough().parse(req.body);
     
     const result = await logicGateService.executeRedTeamAndUnion(organizationId, scenario, context || {});
     res.json({ success: true, result });
@@ -174,7 +174,7 @@ router.get('/logicgate/metrics', async (_req: Request, res: Response) => {
 
 router.post('/rdp/package/build', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, name, type, options } = req.body;
+    const { organizationId, name, type, options } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !name) {
       res.status(400).json({ error: 'Missing required fields: organizationId, name' });
@@ -206,7 +206,7 @@ router.get('/rdp/package/:packageId', async (req: Request, res: Response): Promi
 router.post('/rdp/deploy/:packageId', async (req: Request, res: Response) => {
   try {
     const packageId = req.params['packageId'] as string;
-    const { targetEndpoint } = req.body;
+    const { targetEndpoint } = z.object({}).passthrough().parse(req.body);
     const instance = await rdpService.deploy(packageId, targetEndpoint);
     res.json({ success: true, instance });
   } catch (error: unknown) {
@@ -263,7 +263,7 @@ router.get('/rdp/metrics', async (_req: Request, res: Response) => {
 
 router.post('/graph/entity', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, type, name, properties, sourceDocuments, confidence } = req.body;
+    const { organizationId, type, name, properties, sourceDocuments, confidence } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !type || !name) {
       res.status(400).json({ error: 'Missing required fields: organizationId, type, name' });
@@ -282,7 +282,7 @@ router.post('/graph/entity', async (req: Request, res: Response): Promise<void> 
 
 router.post('/graph/relationship', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, sourceEntityId, targetEntityId, type, properties, weight, confidence } = req.body;
+    const { organizationId, sourceEntityId, targetEntityId, type, properties, weight, confidence } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !sourceEntityId || !targetEntityId || !type) {
       res.status(400).json({ error: 'Missing required fields' });
@@ -300,7 +300,7 @@ router.post('/graph/relationship', async (req: Request, res: Response): Promise<
 
 router.post('/graph/query', async (req: Request, res: Response) => {
   try {
-    const { organizationId, query } = req.body;
+    const { organizationId, query } = z.object({}).passthrough().parse(req.body);
     const paths = await cendiaGraphService.queryGraph(organizationId, query);
     res.json({ success: true, paths });
   } catch (error: unknown) {
@@ -310,7 +310,7 @@ router.post('/graph/query', async (req: Request, res: Response) => {
 
 router.post('/graph/nl-query', async (req: Request, res: Response) => {
   try {
-    const { organizationId, question } = req.body;
+    const { organizationId, question } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaGraphService.naturalLanguageQuery(organizationId, question);
     res.json({ success: true, result });
   } catch (error: unknown) {
@@ -354,7 +354,7 @@ router.get('/graph/metrics/:organizationId', async (req: Request, res: Response)
 
 router.post('/ingest/job', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, userId, source } = req.body;
+    const { organizationId, userId, source } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !userId || !source) {
       res.status(400).json({ error: 'Missing required fields: organizationId, userId, source' });
@@ -385,7 +385,7 @@ router.get('/ingest/job/:jobId', async (req: Request, res: Response): Promise<vo
 
 router.post('/ingest/search', async (req: Request, res: Response) => {
   try {
-    const { organizationId, query, limit } = req.body;
+    const { organizationId, query, limit } = z.object({}).passthrough().parse(req.body);
     const results = await cendiaIngestService.semanticSearch(organizationId, query, limit || 10);
     res.json({ success: true, results });
   } catch (error: unknown) {
@@ -442,7 +442,7 @@ router.get('/wargames/scenario/:scenarioId', async (req: Request, res: Response)
 
 router.post('/wargames/simulation/start', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, operatorId, scenarioId } = req.body;
+    const { organizationId, operatorId, scenarioId } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !operatorId || !scenarioId) {
       res.status(400).json({ error: 'Missing required fields' });
@@ -460,7 +460,7 @@ router.post('/wargames/simulation/start', async (req: Request, res: Response): P
 router.post('/wargames/simulation/:simulationId/advance', async (req: Request, res: Response) => {
   try {
     const simulationId = req.params['simulationId'] as string;
-    const { deltaSeconds } = req.body;
+    const { deltaSeconds } = z.object({}).passthrough().parse(req.body);
     const result = await warGamesService.advanceSimulation(simulationId, deltaSeconds || 60);
     res.json({ success: true, ...result });
   } catch (error: unknown) {
@@ -471,7 +471,7 @@ router.post('/wargames/simulation/:simulationId/advance', async (req: Request, r
 router.post('/wargames/simulation/:simulationId/decide', async (req: Request, res: Response) => {
   try {
     const simulationId = req.params['simulationId'] as string;
-    const { eventId, optionId, reasoning } = req.body;
+    const { eventId, optionId, reasoning } = z.object({}).passthrough().parse(req.body);
     const decision = await warGamesService.submitDecision(simulationId, eventId, optionId, reasoning);
     res.json({ success: true, decision });
   } catch (error: unknown) {
@@ -528,7 +528,7 @@ router.get('/wargames/metrics', async (_req: Request, res: Response) => {
 
 router.post('/union/assessment', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, source, threats } = req.body;
+    const { organizationId, source, threats } = z.object({}).passthrough().parse(req.body);
     
     if (!organizationId || !threats) {
       res.status(400).json({ error: 'Missing required fields: organizationId, threats' });
@@ -546,7 +546,7 @@ router.post('/union/assessment', async (req: Request, res: Response): Promise<vo
 router.post('/union/synthesize/:assessmentId', async (req: Request, res: Response) => {
   try {
     const assessmentId = req.params['assessmentId'] as string;
-    const { organizationId } = req.body;
+    const { organizationId } = z.object({}).passthrough().parse(req.body);
     const strategy = await unionService.synthesizeDefenseStrategy(organizationId, assessmentId);
     res.json({ success: true, strategy });
   } catch (error: unknown) {
@@ -571,7 +571,7 @@ router.get('/union/strategy/:strategyId', async (req: Request, res: Response): P
 router.post('/union/strategy/:strategyId/approve', async (req: Request, res: Response) => {
   try {
     const strategyId = req.params['strategyId'] as string;
-    const { approverId } = req.body;
+    const { approverId } = z.object({}).passthrough().parse(req.body);
     const strategy = await unionService.approveStrategy(strategyId, approverId);
     res.json({ success: true, strategy });
   } catch (error: unknown) {

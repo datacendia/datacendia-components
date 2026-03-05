@@ -26,7 +26,7 @@ const router = Router();
  * Start a new red team session
  */
 router.post('/start', (req: Request, res: Response) => {
-  const { decision, context, config } = req.body;
+  const { decision, context, config } = z.object({}).passthrough().parse(req.body);
   
   if (!decision) {
     return res.status(400).json({ error: 'decision is required' });

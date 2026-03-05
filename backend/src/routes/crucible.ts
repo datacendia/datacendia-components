@@ -138,7 +138,7 @@ router.get('/simulations', async (req: Request, res: Response, next: NextFunctio
  */
 router.post('/simulations', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { name, description, simulationType, config, scenarioDefinition } = req.body;
+    const { name, description, simulationType, config, scenarioDefinition } = z.object({}).passthrough().parse(req.body);
 
     if (!name || !simulationType) {
       throw errors.badRequest('Name and simulation type are required');
@@ -359,7 +359,7 @@ router.get('/simulations/:id/council', async (req: Request, res: Response, next:
  */
 router.post('/quick-simulate', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { simulationType, customShocks } = req.body;
+    const { simulationType, customShocks } = z.object({}).passthrough().parse(req.body);
 
     if (!simulationType) {
       throw errors.badRequest('Simulation type is required');
@@ -484,7 +484,7 @@ router.get('/recent', async (req: Request, res: Response, next: NextFunction) =>
  */
 router.post('/express/quick-sim', devAuth, async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { scenarioType, description } = req.body;
+    const { scenarioType, description } = z.object({}).passthrough().parse(req.body);
     if (!scenarioType) {
       return res.status(400).json({ success: false, error: { message: 'scenarioType is required' } });
     }
@@ -522,7 +522,7 @@ router.get('/express/resilience', devAuth, async (req: Request, res: Response, n
  */
 router.post('/sensitivity', devAuth, async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { simulationId } = req.body;
+    const { simulationId } = z.object({}).passthrough().parse(req.body);
     if (!simulationId) {
       return res.status(400).json({ success: false, error: { message: 'simulationId is required' } });
     }

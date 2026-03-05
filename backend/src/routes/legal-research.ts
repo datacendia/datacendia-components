@@ -59,7 +59,7 @@ router.get('/status', async (_req: Request, res: Response) => {
 
 router.post('/cases', async (req: Request, res: Response) => {
   try {
-    const { query, jurisdiction, dateMin, dateMax, limit } = req.body;
+    const { query, jurisdiction, dateMin, dateMax, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -113,7 +113,7 @@ router.get('/cases/:citation', async (req: Request, res: Response) => {
 
 router.post('/regulations', async (req: Request, res: Response) => {
   try {
-    const { query, title, limit } = req.body;
+    const { query, title, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -141,7 +141,7 @@ router.post('/regulations', async (req: Request, res: Response) => {
 
 router.post('/bills', async (req: Request, res: Response) => {
   try {
-    const { query, state, limit } = req.body;
+    const { query, state, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -169,7 +169,7 @@ router.post('/bills', async (req: Request, res: Response) => {
 
 router.post('/federal-register', async (req: Request, res: Response) => {
   try {
-    const { query, type, agency, days, limit } = req.body;
+    const { query, type, agency, days, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -202,7 +202,7 @@ router.post('/federal-register', async (req: Request, res: Response) => {
 
 router.post('/sec', async (req: Request, res: Response) => {
   try {
-    const { cik, form, limit } = req.body;
+    const { cik, form, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!cik) {
       return res.status(400).json({ success: false, error: 'CIK required' });
@@ -230,7 +230,7 @@ router.post('/sec', async (req: Request, res: Response) => {
 
 router.post('/westlaw', async (req: Request, res: Response) => {
   try {
-    const { query, jurisdiction, dateMin, dateMax, contentType, limit } = req.body;
+    const { query, jurisdiction, dateMin, dateMax, contentType, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -285,7 +285,7 @@ router.get('/westlaw/:documentId', async (req: Request, res: Response) => {
 
 router.post('/unified', async (req: Request, res: Response) => {
   try {
-    const { query, sources, jurisdiction, limit } = req.body;
+    const { query, sources, jurisdiction, limit } = z.object({}).passthrough().parse(req.body);
     
     if (!query) {
       return res.status(400).json({ success: false, error: 'Query required' });
@@ -317,7 +317,7 @@ router.post('/unified', async (req: Request, res: Response) => {
 
 router.post('/execute-tool', async (req: Request, res: Response) => {
   try {
-    const { tool, params } = req.body;
+    const { tool, params } = z.object({}).passthrough().parse(req.body);
     
     if (!tool) {
       return res.status(400).json({ success: false, error: 'Tool name required' });
@@ -365,7 +365,7 @@ router.get('/history', async (_req: Request, res: Response) => {
 
 router.post('/config/api-keys', async (req: Request, res: Response) => {
   try {
-    const { caselaw, courtlistener, openstates } = req.body;
+    const { caselaw, courtlistener, openstates } = z.object({}).passthrough().parse(req.body);
     
     legalResearchService.setApiKeys({ caselaw, courtlistener, openstates } as any);
     

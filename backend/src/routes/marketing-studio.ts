@@ -140,7 +140,7 @@ async function tryGenerate(prompt: string, fallback: any): Promise<any> {
  */
 router.post('/video-script', async (req: Request, res: Response) => {
   try {
-    const { topic, duration, targetAudience } = req.body;
+    const { topic, duration, targetAudience } = z.object({}).passthrough().parse(req.body);
     const fallback = videoScriptTemplate(topic || 'Datacendia', duration || '60', targetAudience || 'enterprise-cto');
 
     const prompt = `You are a professional video scriptwriter. Generate a ${duration}-second video script for: "${topic}". Target: ${targetAudience}. Output as JSON with keys: title, duration, targetAudience, script (hook, problem, solution, demo, cta), visualNotes (array), voiceoverNotes.`;
@@ -164,7 +164,7 @@ router.post('/video-script', async (req: Request, res: Response) => {
  */
 router.post('/image-prompt', async (req: Request, res: Response) => {
   try {
-    const { purpose, platform, style } = req.body;
+    const { purpose, platform, style } = z.object({}).passthrough().parse(req.body);
     const fallback = imagePromptTemplate(purpose || 'Hero image', platform || 'midjourney', style || 'professional-tech');
 
     const prompt = `You are an AI image prompt engineer. Generate an optimized ${platform} prompt for: "${purpose}". Style: ${style}. Output as JSON with keys: purpose, platform, prompt, negativePrompt (stable-diffusion only), style, aspectRatio.`;
@@ -187,7 +187,7 @@ router.post('/image-prompt', async (req: Request, res: Response) => {
  */
 router.post('/pitch-deck', async (req: Request, res: Response) => {
   try {
-    const { audience, focus } = req.body;
+    const { audience, focus } = z.object({}).passthrough().parse(req.body);
     const fallback = pitchDeckTemplate(audience || 'Investors');
 
     const prompt = `You are a pitch deck consultant. Generate a 10-12 slide deck for Datacendia's Sovereign Intelligence Platform. Audience: ${audience}. Focus: ${focus}. Output as JSON with keys: audience, slides (array of slideNumber, title, content array, visualSuggestion, speakerNotes).`;
@@ -209,7 +209,7 @@ router.post('/pitch-deck', async (req: Request, res: Response) => {
  */
 router.post('/copy', async (req: Request, res: Response) => {
   try {
-    const { type, topic, tone } = req.body;
+    const { type, topic, tone } = z.object({}).passthrough().parse(req.body);
     const fallback = copyTemplate(type || 'email', topic || 'AI Governance');
 
     const prompt = `You are a B2B copywriter. Generate ${type} copy for Datacendia. Topic: ${topic}. Tone: ${tone}. Output as JSON with keys: type, headline, body, cta, variations (array of 3+ strings).`;
@@ -232,7 +232,7 @@ router.post('/copy', async (req: Request, res: Response) => {
  */
 router.post('/social-media-calendar', async (req: Request, res: Response) => {
   try {
-    const { themes, platforms, postsPerWeek } = req.body;
+    const { themes, platforms, postsPerWeek } = z.object({}).passthrough().parse(req.body);
     const fallback = calendarTemplate();
 
     const prompt = `Generate a 30-day social media calendar for Datacendia. Themes: ${(themes || []).join(', ')}. Platforms: ${(platforms || []).join(', ')}. Posts/week: ${postsPerWeek}. Output as JSON array of posts with date, platform, postType, content, hashtags, visualSuggestion.`;

@@ -109,7 +109,7 @@ router.get('/policies/:policyId', (req: Request, res: Response) => {
  * PATCH /api/v1/opa/policies/:policyId/toggle
  */
 router.patch('/policies/:policyId/toggle', (req: Request, res: Response) => {
-  const { enabled } = req.body;
+  const { enabled } = z.object({}).passthrough().parse(req.body);
   if (typeof enabled !== 'boolean') {
     res.status(400).json({ success: false, error: 'Missing required field: enabled (boolean)' });
     return;
@@ -161,7 +161,7 @@ router.get('/policies/framework/:framework', (req: Request, res: Response) => {
  */
 router.post('/evaluate', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { subject, action, resource, context } = req.body;
+    const { subject, action, resource, context } = z.object({}).passthrough().parse(req.body);
 
     if (!subject || !action || !resource) {
       res.status(400).json({
@@ -221,7 +221,7 @@ router.post('/evaluate', async (req: Request, res: Response, next: NextFunction)
  */
 router.post('/evaluate/batch', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { requests } = req.body;
+    const { requests } = z.object({}).passthrough().parse(req.body);
 
     if (!Array.isArray(requests) || requests.length === 0) {
       res.status(400).json({ success: false, error: 'Missing required field: requests (array)' });

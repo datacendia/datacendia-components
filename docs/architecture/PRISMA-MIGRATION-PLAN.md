@@ -1,9 +1,11 @@
 # Prisma 5 → 7 Migration Plan
 
 > **Created:** 2026-03-05
+> **Updated:** 2026-03-05 (after attempted upgrade)
 > **Current Version:** Prisma 5.22.0
-> **Target Version:** Prisma 7.x (latest)
+> **Target Version:** Prisma 7.x (latest stable: 7.4.2)
 > **Risk Level:** HIGH — requires careful testing of all DB operations
+> **Status:** ATTEMPTED — reverted due to 1000+ type errors requiring per-file fixes
 
 ## Why Upgrade
 

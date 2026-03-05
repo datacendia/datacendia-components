@@ -186,7 +186,7 @@ router.get('/organization', async (req: Request, res: Response): Promise<void> =
 router.post('/organization', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
-    const { verticalId, customEnabledServices } = req.body;
+    const { verticalId, customEnabledServices } = z.object({}).passthrough().parse(req.body);
 
     if (!verticalId) {
       res.status(400).json({ error: 'verticalId is required' });
@@ -236,7 +236,7 @@ router.put('/organization', async (req: Request, res: Response): Promise<void> =
 router.post('/organization/switch-vertical', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
-    const { verticalId, preserveCustomizations = true } = req.body;
+    const { verticalId, preserveCustomizations = true } = z.object({}).passthrough().parse(req.body);
 
     if (!verticalId) {
       res.status(400).json({ error: 'verticalId is required' });
@@ -269,7 +269,7 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<v
   try {
     const { userId, organizationId } = extractContext(req);
     const serviceId = req.params['serviceId'] as string;
-    const { enabled, reason } = req.body;
+    const { enabled, reason } = z.object({}).passthrough().parse(req.body);
 
     if (typeof enabled !== 'boolean') {
       res.status(400).json({ error: 'enabled (boolean) is required' });
@@ -298,7 +298,7 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<v
 router.post('/toggle-bulk', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
-    const { toggles } = req.body;
+    const { toggles } = z.object({}).passthrough().parse(req.body);
 
     if (!Array.isArray(toggles)) {
       res.status(400).json({ error: 'toggles array is required' });

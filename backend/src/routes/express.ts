@@ -55,7 +55,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { query, domain, context, mode } = req.body;
+    const { query, domain, context, mode } = z.object({}).passthrough().parse(req.body);
 
     if (!query) {
       return res.status(400).json({ error: 'query is required' });
@@ -118,7 +118,7 @@ router.post('/compliance/remediate', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { violationIds } = req.body;
+    const { violationIds } = z.object({}).passthrough().parse(req.body);
 
     const result = await cendiaPanopticonService.generateRemediationSteps(
       user.organizationId,
@@ -187,7 +187,7 @@ router.post('/simulation/quick', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { scenarioType, description } = req.body;
+    const { scenarioType, description } = z.object({}).passthrough().parse(req.body);
 
     if (!scenarioType) {
       return res.status(400).json({
@@ -264,7 +264,7 @@ router.post('/forecast', async (req: Request, res: Response) => {
     const user = req.user;
     if (!user) return res.status(401).json({ error: 'Authentication required' });
 
-    const { question, timeHorizon } = req.body;
+    const { question, timeHorizon } = z.object({}).passthrough().parse(req.body);
 
     if (!question) {
       return res.status(400).json({ error: 'question is required' });

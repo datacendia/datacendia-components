@@ -65,7 +65,7 @@ router.get('/brand/content', authenticate, async (_req: Request, res: Response) 
 // Generate LinkedIn post for feature
 router.post('/brand/generate/linkedin', authenticate, async (req: Request, res: Response) => {
   try {
-    const { featureId, featureName, featureDescription } = req.body;
+    const { featureId, featureName, featureDescription } = z.object({}).passthrough().parse(req.body);
     
     cendiaBrandService.registerFeature({
       id: featureId || `feat-${Date.now()}`,
@@ -91,7 +91,7 @@ router.post('/brand/generate/linkedin', authenticate, async (req: Request, res: 
 // Generate full marketing package
 router.post('/brand/generate/package', authenticate, async (req: Request, res: Response) => {
   try {
-    const { featureId } = req.body;
+    const { featureId } = z.object({}).passthrough().parse(req.body);
     const package_ = await cendiaBrandService.generateMarketingPackage(featureId);
     res.json({ package: package_ });
   } catch (error) {
@@ -103,7 +103,7 @@ router.post('/brand/generate/package', authenticate, async (req: Request, res: R
 // Audit content for brand voice
 router.post('/brand/audit', authenticate, async (req: Request, res: Response) => {
   try {
-    const { text } = req.body;
+    const { text } = z.object({}).passthrough().parse(req.body);
     const audit = await cendiaBrandService.auditContent(text);
     res.json({ audit });
   } catch (error) {
@@ -126,7 +126,7 @@ router.post('/brand/content/:id/approve', authenticate, async (req: Request, res
 // Schedule content
 router.post('/brand/content/:id/schedule', authenticate, async (req: Request, res: Response) => {
   try {
-    const { date } = req.body;
+    const { date } = z.object({}).passthrough().parse(req.body);
     cendiaBrandService.scheduleContent(req.params.id, new Date(date));
     res.json({ success: true });
   } catch (error) {
@@ -234,7 +234,7 @@ router.get('/revenue/metrics', authenticate, async (_req: Request, res: Response
 // Calculate runway
 router.post('/revenue/runway', authenticate, async (req: Request, res: Response) => {
   try {
-    const { cash, expenses } = req.body;
+    const { cash, expenses } = z.object({}).passthrough().parse(req.body);
     const runway = cendiaRevenueService.calculateRunway(cash, expenses);
     res.json({ runway });
   } catch (error) {
@@ -246,7 +246,7 @@ router.post('/revenue/runway', authenticate, async (req: Request, res: Response)
 // Get pricing recommendation
 router.post('/revenue/pricing', authenticate, async (req: Request, res: Response) => {
   try {
-    const { tier, currentPrice } = req.body;
+    const { tier, currentPrice } = z.object({}).passthrough().parse(req.body);
     const recommendation = await cendiaRevenueService.analyzePricing(tier, currentPrice);
     res.json({ recommendation });
   } catch (error) {
@@ -269,7 +269,7 @@ router.get('/revenue/pricing/quick', authenticate, async (_req: Request, res: Re
 // Sync from Stripe
 router.post('/revenue/sync/stripe', authenticate, async (req: Request, res: Response) => {
   try {
-    const { subscriptions } = req.body;
+    const { subscriptions } = z.object({}).passthrough().parse(req.body);
     await cendiaRevenueService.syncFromStripe(subscriptions);
     res.json({ success: true });
   } catch (error) {
@@ -379,7 +379,7 @@ router.get('/support/metrics', authenticate, async (_req: Request, res: Response
 // Record login
 router.post('/support/activity/login', authenticate, async (req: Request, res: Response) => {
   try {
-    const { customerId } = req.body;
+    const { customerId } = z.object({}).passthrough().parse(req.body);
     cendiaSupportService.recordLogin(customerId);
     res.json({ success: true });
   } catch (error) {

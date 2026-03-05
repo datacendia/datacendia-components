@@ -219,7 +219,7 @@ router.get('/status', (_req: Request, res: Response) => {
 // Calculate IISS for an organization
 router.post('/iiss/calculate', async (req: Request, res: Response) => {
   try {
-    const { organizationId, organizationName } = req.body;
+    const { organizationId, organizationName } = z.object({}).passthrough().parse(req.body);
     const initiatedBy = req.user?.email || 'api-user';
     if (!organizationId || !organizationName) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId and organizationName required' } });
@@ -287,7 +287,7 @@ router.get('/iiss/assessment/:assessmentId', (req: Request, res: Response) => {
 // Analyze a deliberation for cognitive biases
 router.post('/bias/analyze', async (req: Request, res: Response) => {
   try {
-    const { organizationId, deliberationId, deliberationTitle, deliberationDurationMinutes, agentCount, dissentCount, devilsAdvocatePresent, challengeCount, unanimousVote, arguments: args } = req.body;
+    const { organizationId, deliberationId, deliberationTitle, deliberationDurationMinutes, agentCount, dissentCount, devilsAdvocatePresent, challengeCount, unanimousVote, arguments: args } = z.object({}).passthrough().parse(req.body);
     const analyzedBy = req.user?.email || 'api-user';
     if (!organizationId || !deliberationId || !deliberationTitle) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, deliberationId, and deliberationTitle required' } });
@@ -326,7 +326,7 @@ router.get('/bias/by-deliberation/:deliberationId', (req: Request, res: Response
 
 // Mitigate a detected bias
 router.post('/bias/mitigate/:analysisId/:biasDetectionId', (req: Request, res: Response) => {
-  const { action } = req.body;
+  const { action } = z.object({}).passthrough().parse(req.body);
   const mitigatedBy = req.user?.email || 'api-user';
   if (!action) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'action required' } });
   const detection = cognitiveBiasMitigationService.mitigateBias(req.params.analysisId, req.params.biasDetectionId, action, mitigatedBy);
@@ -336,7 +336,7 @@ router.post('/bias/mitigate/:analysisId/:biasDetectionId', (req: Request, res: R
 
 // Accept bias risk
 router.post('/bias/accept-risk/:analysisId/:biasDetectionId', (req: Request, res: Response) => {
-  const { justification } = req.body;
+  const { justification } = z.object({}).passthrough().parse(req.body);
   const acceptedBy = req.user?.email || 'api-user';
   if (!justification) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'justification required' } });
   const detection = cognitiveBiasMitigationService.acceptBiasRisk(req.params.analysisId, req.params.biasDetectionId, acceptedBy, justification);
@@ -347,7 +347,7 @@ router.post('/bias/accept-risk/:analysisId/:biasDetectionId', (req: Request, res
 // Generate bias report for organization
 router.post('/bias/report', (req: Request, res: Response) => {
   try {
-    const { organizationId, from, to } = req.body;
+    const { organizationId, from, to } = z.object({}).passthrough().parse(req.body);
     if (!organizationId) return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId required' } });
     const fromDate = from ? new Date(from) : new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
     const toDate = to ? new Date(to) : new Date();
@@ -383,7 +383,7 @@ router.get('/bias/analyses', (_req: Request, res: Response) => {
 // Sign media (create provenance)
 router.post('/media/sign', async (req: Request, res: Response) => {
   try {
-    const { organizationId, fileName, mediaType, mimeType, content, origin } = req.body;
+    const { organizationId, fileName, mediaType, mimeType, content, origin } = z.object({}).passthrough().parse(req.body);
     const createdBy = req.user?.email || 'api-user';
     if (!organizationId || !fileName || !mediaType) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, fileName, and mediaType required' } });
@@ -443,7 +443,7 @@ router.get('/media/report/:assetId', async (req: Request, res: Response) => {
 
 // Add custody entry
 router.post('/media/custody/:assetId', (req: Request, res: Response) => {
-  const { action, actorRole, details, ipAddress } = req.body;
+  const { action, actorRole, details, ipAddress } = z.object({}).passthrough().parse(req.body);
   const actor = req.user?.email || 'api-user';
   const entry = syntheticMediaAuthService.addCustodyEntry(req.params.assetId, action, actor, actorRole || 'user', details || '', ipAddress);
   if (!entry) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Asset not found' } });
@@ -457,7 +457,7 @@ router.post('/media/custody/:assetId', (req: Request, res: Response) => {
 // Assess organization across jurisdictions
 router.post('/jurisdiction/assess', async (req: Request, res: Response) => {
   try {
-    const { organizationId, organizationName, jurisdictions } = req.body;
+    const { organizationId, organizationName, jurisdictions } = z.object({}).passthrough().parse(req.body);
     const assessedBy = req.user?.email || 'api-user';
     if (!organizationId || !organizationName || !jurisdictions?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, organizationName, and jurisdictions required' } });
@@ -514,7 +514,7 @@ router.post('/jurisdiction/good-faith/:conflictId', async (req: Request, res: Re
 // Generate jurisdiction evidence packet
 router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response) => {
   try {
-    const { organizationId, jurisdiction, framework, packetType } = req.body;
+    const { organizationId, jurisdiction, framework, packetType } = z.object({}).passthrough().parse(req.body);
     const generatedBy = req.user?.email || 'api-user';
     if (!organizationId || !jurisdiction || !framework) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, jurisdiction, and framework required' } });
@@ -553,7 +553,7 @@ router.get('/jurisdiction/profile/:jurisdiction', (req: Request, res: Response) 
 // Issue a timestamp
 router.post('/timestamp/issue', async (req: Request, res: Response) => {
   try {
-    const { organizationId, data, description, dataType, referenceId, useExternal, useBlockchain, preferredProvider } = req.body;
+    const { organizationId, data, description, dataType, referenceId, useExternal, useBlockchain, preferredProvider } = z.object({}).passthrough().parse(req.body);
     if (!organizationId || !data || !description) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, data, and description required' } });
     }
@@ -571,7 +571,7 @@ router.post('/timestamp/issue', async (req: Request, res: Response) => {
 // Batch timestamp
 router.post('/timestamp/batch', async (req: Request, res: Response) => {
   try {
-    const { organizationId, items, useExternal, useBlockchain } = req.body;
+    const { organizationId, items, useExternal, useBlockchain } = z.object({}).passthrough().parse(req.body);
     if (!organizationId || !items?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId and items required' } });
     }
@@ -642,7 +642,7 @@ router.get('/timestamp/batch/:batchId', (req: Request, res: Response) => {
 // Search for similar decisions
 router.post('/similarity/search', async (req: Request, res: Response) => {
   try {
-    const { organizationId, title, question, context, decisionType, department, urgency, tags, maxResults, minSimilarity, includeOutcomes, includeCrossDepartment } = req.body;
+    const { organizationId, title, question, context, decisionType, department, urgency, tags, maxResults, minSimilarity, includeOutcomes, includeCrossDepartment } = z.object({}).passthrough().parse(req.body);
     if (!organizationId || !title || !question) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, title, and question required' } });
     }
@@ -682,7 +682,7 @@ router.post('/similarity/decisions', (req: Request, res: Response) => {
 
 // Update decision outcome
 router.put('/similarity/decisions/:decisionId/outcome', (req: Request, res: Response) => {
-  const { outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect } = req.body;
+  const { outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect } = z.object({}).passthrough().parse(req.body);
   const decision = decisionSimilarityService.updateOutcome(
     req.params.decisionId, outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect
   );

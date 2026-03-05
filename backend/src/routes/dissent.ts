@@ -214,7 +214,7 @@ router.get('/retaliation-flags', async (req: Request, res: Response) => {
 router.post('/:id/report-retaliation', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { flagType, description } = req.body;
+    const { flagType, description } = z.object({}).passthrough().parse(req.body);
     const flag = await dissentService.reportRetaliation(id, flagType, description);
     res.status(201).json(flag);
   } catch (error) {
@@ -234,7 +234,7 @@ router.post('/:id/report-retaliation', async (req: Request, res: Response) => {
 router.post('/:id/verify-outcome', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { wasRight, notes } = req.body;
+    const { wasRight, notes } = z.object({}).passthrough().parse(req.body);
     const dissent = await dissentService.recordOutcomeVerification(id, wasRight, notes);
     res.json(dissent);
   } catch (error) {

@@ -121,7 +121,7 @@ router.post('/:connectorId/oauth/authorize', (req: Request, res: Response) => {
 // Handle OAuth callback
 router.post('/:connectorId/oauth/callback', async (req: Request, res: Response) => {
   try {
-    const { code, codeVerifier, state } = req.body;
+    const { code, codeVerifier, state } = z.object({}).passthrough().parse(req.body);
     if (!code) {
       return res.status(400).json({
         success: false,
@@ -265,7 +265,7 @@ router.post('/salesforce/query', async (req: Request, res: Response) => {
       });
     }
 
-    const { soql } = req.body;
+    const { soql } = z.object({}).passthrough().parse(req.body);
     if (!soql) {
       return res.status(400).json({
         success: false,
@@ -294,7 +294,7 @@ router.post('/slack/send', async (req: Request, res: Response) => {
       });
     }
 
-    const { channelId, text, thread_ts, blocks } = req.body;
+    const { channelId, text, thread_ts, blocks } = z.object({}).passthrough().parse(req.body);
     if (!channelId || !text) {
       return res.status(400).json({
         success: false,
@@ -323,7 +323,7 @@ router.post('/jira/search', async (req: Request, res: Response) => {
       });
     }
 
-    const { jql, maxResults, startAt, fields } = req.body;
+    const { jql, maxResults, startAt, fields } = z.object({}).passthrough().parse(req.body);
     if (!jql) {
       return res.status(400).json({
         success: false,

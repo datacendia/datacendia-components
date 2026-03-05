@@ -40,7 +40,7 @@ router.post('/record', async (req: Request, res: Response) => {
       aiConfidenceScore,
       dissentsOverridden,
       witnesses
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !organizationId || !humanAuthority || !actionTaken || !justification) {
       res.status(400).json({
@@ -92,7 +92,7 @@ router.post('/override', async (req: Request, res: Response) => {
       humanDecision,
       overrideReason,
       acceptedRisks
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !organizationId || !humanAuthority || !overrideReason || !acceptedRisks) {
       res.status(400).json({
@@ -139,7 +139,7 @@ router.post('/approve', async (req: Request, res: Response) => {
       aiConfidenceScore,
       acceptedRisks,
       additionalConditions
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !organizationId || !humanAuthority) {
       res.status(400).json({
@@ -185,7 +185,7 @@ router.post('/reject', async (req: Request, res: Response) => {
       aiRecommendation,
       rejectionReason,
       alternativeAction
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !organizationId || !humanAuthority || !rejectionReason) {
       res.status(400).json({
@@ -229,7 +229,7 @@ router.post('/delegation', async (req: Request, res: Response) => {
       scope,
       constraints,
       validUntil
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!fromAuthority || !toAuthority || !scope) {
       res.status(400).json({
@@ -312,7 +312,7 @@ router.get('/liability-report/:decisionId', async (req: Request, res: Response) 
  */
 router.post('/verify', async (req: Request, res: Response) => {
   try {
-    const { record } = req.body;
+    const { record } = z.object({}).passthrough().parse(req.body);
 
     if (!record) {
       res.status(400).json({

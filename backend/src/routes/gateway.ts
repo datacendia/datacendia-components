@@ -482,7 +482,7 @@ router.post('/manifest', async (req: Request, res: Response) => {
 
 router.post('/test-pii', async (req: Request, res: Response) => {
   try {
-    const { text } = req.body;
+    const { text } = z.object({}).passthrough().parse(req.body);
     if (!text) {
       return res.status(400).json({ error: 'text field is required' });
     }

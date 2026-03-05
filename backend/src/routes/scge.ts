@@ -140,7 +140,7 @@ router.get('/policies/templates', (_req: Request, res: Response) => {
 
 router.post('/policies', (req: Request, res: Response) => {
   try {
-    const { name, domain, rules, constraints, metadata } = req.body;
+    const { name, domain, rules, constraints, metadata } = z.object({}).passthrough().parse(req.body);
     
     const policy = policyInjectionService.createPolicyBundle(
       name || 'Unnamed Policy',
@@ -228,7 +228,7 @@ router.get('/events/scenarios', (_req: Request, res: Response) => {
 
 router.post('/events/sequence', (req: Request, res: Response) => {
   try {
-    const { scenarioId, seed } = req.body;
+    const { scenarioId, seed } = z.object({}).passthrough().parse(req.body);
     const scenario = DEFAULT_EVENT_SCENARIOS.find(s => s.id === scenarioId);
     
     if (!scenario) {
@@ -290,7 +290,7 @@ router.get('/stressors/library', (_req: Request, res: Response) => {
 
 router.post('/stressors/schedule', (req: Request, res: Response) => {
   try {
-    const { stressorCount, maxDuration, seed } = req.body;
+    const { stressorCount, maxDuration, seed } = z.object({}).passthrough().parse(req.body);
     
     const schedule = stressorLibraryService.generateRandomSchedule(
       stressorCount || 4,
@@ -309,7 +309,7 @@ router.post('/stressors/schedule', (req: Request, res: Response) => {
 
 router.post('/stressors/impact', (req: Request, res: Response) => {
   try {
-    const { stressorIds } = req.body;
+    const { stressorIds } = z.object({}).passthrough().parse(req.body);
     const stressors = stressorIds
       .map((id: string) => stressorLibraryService.getStressor(id))
       .filter(Boolean);
@@ -346,7 +346,7 @@ router.get('/governance/presets', (_req: Request, res: Response) => {
 
 router.post('/simulation', async (req: Request, res: Response) => {
   try {
-    const { name, description, populationParams, policyIds, scenarioId, stressorConfig, seed, maxDuration } = req.body;
+    const { name, description, populationParams, policyIds, scenarioId, stressorConfig, seed, maxDuration } = z.object({}).passthrough().parse(req.body);
 
     // Generate population
     const population = syntheticPopulationService.generatePopulation({

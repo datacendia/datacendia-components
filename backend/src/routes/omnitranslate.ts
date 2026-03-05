@@ -67,7 +67,7 @@ router.post('/detect', (req: Request, res: Response) => {
 
 router.post('/translate', async (req: Request, res: Response) => {
   try {
-    const { text, sourceLanguage, targetLanguage, context, glossaryId, organizationId } = req.body;
+    const { text, sourceLanguage, targetLanguage, context, glossaryId, organizationId } = z.object({}).passthrough().parse(req.body);
     
     if (!text) {
       return res.status(400).json({ success: false, error: 'Text is required' });
@@ -168,7 +168,7 @@ router.get('/languages/rtl', (_req: Request, res: Response) => {
  */
 router.post('/translate', async (req: Request, res: Response) => {
   try {
-    const { text, sourceLanguage, targetLanguage, context, preserveFormatting, glossaryId } = req.body;
+    const { text, sourceLanguage, targetLanguage, context, preserveFormatting, glossaryId } = z.object({}).passthrough().parse(req.body);
     const organizationId = req.headers['x-organization-id'] as string;
 
     if (!text || !targetLanguage) {
@@ -204,7 +204,7 @@ router.post('/translate', async (req: Request, res: Response) => {
  */
 router.post('/translate/batch', async (req: Request, res: Response) => {
   try {
-    const { texts, sourceLanguage, targetLanguage, context } = req.body;
+    const { texts, sourceLanguage, targetLanguage, context } = z.object({}).passthrough().parse(req.body);
     const organizationId = req.headers['x-organization-id'] as string;
 
     if (!texts || !Array.isArray(texts) || !targetLanguage) {
@@ -239,7 +239,7 @@ router.post('/translate/batch', async (req: Request, res: Response) => {
  */
 router.post('/detect', async (req: Request, res: Response) => {
   try {
-    const { text } = req.body;
+    const { text } = z.object({}).passthrough().parse(req.body);
 
     if (!text) {
       return res.status(400).json({ success: false, error: 'Missing required field: text' });
@@ -268,7 +268,7 @@ router.post('/detect', async (req: Request, res: Response) => {
 router.post('/document/decision/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { targetLanguage } = req.body;
+    const { targetLanguage } = z.object({}).passthrough().parse(req.body);
     const organizationId = req.headers['x-organization-id'] as string;
 
     if (!targetLanguage) {
@@ -294,7 +294,7 @@ router.post('/document/decision/:id', async (req: Request, res: Response) => {
 router.post('/document/summary/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { targetLanguage } = req.body;
+    const { targetLanguage } = z.object({}).passthrough().parse(req.body);
     const organizationId = req.headers['x-organization-id'] as string;
 
     if (!targetLanguage) {
@@ -323,7 +323,7 @@ router.post('/document/summary/:id', async (req: Request, res: Response) => {
  */
 router.post('/glossary', async (req: Request, res: Response) => {
   try {
-    const { name, description } = req.body;
+    const { name, description } = z.object({}).passthrough().parse(req.body);
     const organizationId = req.headers['x-organization-id'] as string;
 
     if (!name || !organizationId) {
@@ -349,7 +349,7 @@ router.post('/glossary', async (req: Request, res: Response) => {
 router.post('/glossary/:id/term', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { sourceText, translations, caseSensitive } = req.body;
+    const { sourceText, translations, caseSensitive } = z.object({}).passthrough().parse(req.body);
     const organizationId = req.headers['x-organization-id'] as string;
 
     if (!sourceText || !translations) {

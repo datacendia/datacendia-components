@@ -171,7 +171,7 @@ router.get('/employees/at-risk', authenticate, async (_req: Request, res: Respon
 // Add employee
 router.post('/employees', authenticate, async (req: Request, res: Response) => {
   try {
-    const { name, email, department, role, level, startDate, salary, avgHoursPerWeek, ptoDaysRemaining } = req.body;
+    const { name, email, department, role, level, startDate, salary, avgHoursPerWeek, ptoDaysRemaining } = z.object({}).passthrough().parse(req.body);
 
     if (!name || !email || !department || !role) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -277,7 +277,7 @@ Respond with JSON: { "recommendations": ["rec1", "rec2", "rec3"] }`;
 // Report rights violation
 router.post('/employees/:id/violations', authenticate, async (req: Request, res: Response) => {
   try {
-    const { type, severity, description } = req.body;
+    const { type, severity, description } = z.object({}).passthrough().parse(req.body);
     const employee = employees.get(req.params.id);
     
     if (!employee) {
@@ -306,7 +306,7 @@ router.post('/employees/:id/violations', authenticate, async (req: Request, res:
 // Create request (raise, promotion, etc.)
 router.post('/employees/:id/requests', authenticate, async (req: Request, res: Response) => {
   try {
-    const { type, title, description, priority } = req.body;
+    const { type, title, description, priority } = z.object({}).passthrough().parse(req.body);
     const employee = employees.get(req.params.id);
     
     if (!employee) {

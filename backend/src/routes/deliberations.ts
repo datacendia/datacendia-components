@@ -21,6 +21,60 @@ import { postDeliberationService } from '../services/PostDeliberationService.js'
 import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
+
+const saveDeliberationSchema = z.object({
+  organizationId: z.string().default('demo'),
+  userId: z.string().default('demo-user'),
+  question: z.string().min(1, 'Question is required'),
+  mode: z.string().optional(),
+  councilMode: z.string().optional(),
+  agentResponses: z.array(z.record(z.unknown())).optional(),
+  crossExaminations: z.array(z.record(z.unknown())).optional(),
+  synthesis: z.string().min(1, 'Synthesis is required'),
+  confidence: z.number().min(0).max(1).optional(),
+  status: z.string().default('completed'),
+});
+
+const claimVerificationSchema = z.object({
+  userVerified: z.boolean(),
+  userNotes: z.string().optional(),
+});
+
+const addEvidenceSchema = z.object({
+  type: z.string().min(1),
+  description: z.string().min(1),
+  source: z.string().optional(),
+  calculation: z.string().optional(),
+  strength: z.number().min(0).max(1).optional(),
+});
+
+const postDelibSessionSchema = z.object({
+  deliberationId: z.string().min(1, 'deliberationId is required'),
+  userId: z.string().default('demo-user'),
+  organizationId: z.string().default('demo'),
+  userPlan: z.string().default('foundation'),
+});
+
+const selectActionsSchema = z.object({
+  sessionId: z.string().min(1, 'sessionId is required'),
+  actionIds: z.array(z.string()).min(1, 'actionIds required'),
+  priorities: z.record(z.string()).optional(),
+  notes: z.record(z.string()).optional(),
+});
+
+const toggleActionSchema = z.object({
+  sessionId: z.string().min(1),
+  actionId: z.string().min(1),
+  selected: z.boolean(),
+  priority: z.string().optional(),
+});
+
+const executeActionsSchema = z.object({
+  sessionId: z.string().min(1, 'sessionId is required'),
+  actionIds: z.array(z.string()).optional(),
+  priorities: z.record(z.string()).optional(),
+});
+
 const router = Router();
 
 // =============================================================================
@@ -34,8 +88,8 @@ const router = Router();
 router.post('/', async (req: Request, res: Response) => {
   try {
     const {
-      organizationId = 'demo',
-      userId = 'demo-user',
+      organizationId,
+      userId,
       question,
       mode,
       councilMode,
@@ -43,15 +97,8 @@ router.post('/', async (req: Request, res: Response) => {
       crossExaminations,
       synthesis,
       confidence,
-      status = 'completed',
-    } = req.body;
-
-    if (!question || !synthesis) {
-      return res.status(400).json({
-        success: false,
-        error: 'Question and synthesis are required',
-      });
-    }
+      status,
+    } = saveDeliberationSchema.parse(req.body);
 
     const deliberation = await deliberationService.saveDeliberation({
       organizationId,
@@ -276,7 +323,7 @@ router.get('/:id/facts/claims', async (req: Request, res: Response) => {
  */
 router.patch('/:id/facts/claims/:claimId', async (req: Request, res: Response) => {
   try {
-    const { userVerified, userNotes } = req.body;
+    const { userVerified, userNotes } = claimVerificationSchema.parse(req.body);
     const claim = await statementOfFactsService.updateClaimVerification(
       req.params.id,
       req.params.claimId,
@@ -300,7 +347,7 @@ router.patch('/:id/facts/claims/:claimId', async (req: Request, res: Response) =
  */
 router.post('/:id/facts/claims/:claimId/evidence', async (req: Request, res: Response) => {
   try {
-    const { type, description, source, calculation, strength } = req.body;
+    const { type, description, source, calculation, strength } = addEvidenceSchema.parse(req.body);
     const claim = await statementOfFactsService.addEvidence(
       req.params.id,
       req.params.claimId,
@@ -329,14 +376,10 @@ router.post('/post-deliberation/session', async (req: Request, res: Response) =>
   try {
     const { 
       deliberationId, 
-      userId = 'demo-user', 
-      organizationId = 'demo',
-      userPlan = 'foundation' 
-    } = req.body;
-
-    if (!deliberationId) {
-      return res.status(400).json({ success: false, error: 'deliberationId is required' });
-    }
+      userId, 
+      organizationId,
+      userPlan 
+    } = postDelibSessionSchema.parse(req.body);
 
     const session = await postDeliberationService.createSession(
       deliberationId,
@@ -375,11 +418,7 @@ router.get('/post-deliberation/session/:sessionId', async (req: Request, res: Re
  */
 router.post('/post-deliberation/select', async (req: Request, res: Response) => {
   try {
-    const { sessionId, actionIds, priorities, notes } = req.body;
-
-    if (!sessionId || !actionIds) {
-      return res.status(400).json({ success: false, error: 'sessionId and actionIds are required' });
-    }
+    const { sessionId, actionIds, priorities, notes } = selectActionsSchema.parse(req.body);
 
     const session = await postDeliberationService.selectActions(
       sessionId,
@@ -400,14 +439,7 @@ router.post('/post-deliberation/select', async (req: Request, res: Response) => 
  */
 router.post('/post-deliberation/toggle', async (req: Request, res: Response) => {
   try {
-    const { sessionId, actionId, selected, priority } = req.body;
-
-    if (!sessionId || !actionId || selected === undefined) {
-      return res.status(400).json({ 
-        success: false, 
-        error: 'sessionId, actionId, and selected are required' 
-      });
-    }
+    const { sessionId, actionId, selected, priority } = toggleActionSchema.parse(req.body);
 
     const session = await postDeliberationService.toggleAction(
       sessionId,
@@ -428,11 +460,7 @@ router.post('/post-deliberation/toggle', async (req: Request, res: Response) => 
  */
 router.post('/post-deliberation/execute', async (req: Request, res: Response) => {
   try {
-    const { sessionId, actionIds, priorities } = req.body;
-
-    if (!sessionId) {
-      return res.status(400).json({ success: false, error: 'sessionId is required' });
-    }
+    const { sessionId, actionIds, priorities } = executeActionsSchema.parse(req.body);
 
     // If actionIds provided, select them first
     if (actionIds && actionIds.length > 0) {

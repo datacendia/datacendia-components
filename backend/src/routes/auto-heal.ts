@@ -28,7 +28,7 @@ const router = Router();
 
 router.post('/generate', async (req: Request, res: Response) => {
   try {
-    const { model, prompt, systemPrompt, options } = req.body;
+    const { model, prompt, systemPrompt, options } = z.object({}).passthrough().parse(req.body);
 
     if (!prompt) {
       return res.status(400).json({

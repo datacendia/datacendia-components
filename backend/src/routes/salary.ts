@@ -84,7 +84,7 @@ router.get('/lookup', authenticate, async (req: Request, res: Response) => {
 // Benchmark current compensation against market
 router.post('/benchmark', authenticate, async (req: Request, res: Response) => {
   try {
-    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = req.body;
+    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = z.object({}).passthrough().parse(req.body);
 
     if (!currentSalary || !title) {
       return res.status(400).json({ error: 'Current salary and job title are required' });
@@ -108,7 +108,7 @@ router.post('/benchmark', authenticate, async (req: Request, res: Response) => {
 // Prepare negotiation data
 router.post('/negotiate', authenticate, async (req: Request, res: Response) => {
   try {
-    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = req.body;
+    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = z.object({}).passthrough().parse(req.body);
 
     if (!currentSalary || !title) {
       return res.status(400).json({ error: 'Current salary and job title are required' });
@@ -128,7 +128,7 @@ router.post('/negotiate', authenticate, async (req: Request, res: Response) => {
 // Get full negotiation package (salary + benchmark + negotiation)
 router.post('/negotiate/full', authenticate, async (req: Request, res: Response) => {
   try {
-    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = req.body;
+    const { currentSalary, title, level, location, industry, yearsExperience, companySize } = z.object({}).passthrough().parse(req.body);
 
     if (!currentSalary || !title) {
       return res.status(400).json({ error: 'Current salary and job title are required' });
@@ -168,7 +168,7 @@ router.post('/negotiate/full', authenticate, async (req: Request, res: Response)
 // Compare multiple roles
 router.post('/compare', authenticate, async (req: Request, res: Response) => {
   try {
-    const { roles } = req.body;
+    const { roles } = z.object({}).passthrough().parse(req.body);
 
     if (!roles || !Array.isArray(roles) || roles.length === 0) {
       return res.status(400).json({ error: 'Array of roles is required' });

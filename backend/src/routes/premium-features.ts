@@ -139,7 +139,7 @@ router.post('/pre-mortem/analyze', async (req: Request, res: Response) => {
       stakeholders,
       selectedAgents,
       tier = 'enterprise',
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decision) {
       return res.status(400).json({ 
@@ -208,7 +208,7 @@ router.post('/ghost-board/session', async (req: Request, res: Response) => {
       focusAreas,
       existingAnswers,
       tier = 'enterprise',
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!proposalTitle || !proposalContent) {
       return res.status(400).json({
@@ -305,7 +305,7 @@ router.get('/decision-debt/dashboard', async (req: Request, res: Response) => {
  */
 router.post('/decision-debt/decision', async (req: Request, res: Response) => {
   try {
-    const { organizationId = 'demo', ...data } = req.body;
+    const { organizationId = 'demo', ...data } = z.object({}).passthrough().parse(req.body);
     const decision = await decisionDebtService.createDecision(organizationId, data);
     
     res.json({
@@ -327,7 +327,7 @@ router.post('/decision-debt/decision', async (req: Request, res: Response) => {
 router.delete('/decision-debt/decision/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { organizationId = 'demo', resolution } = req.body;
+    const { organizationId = 'demo', resolution } = z.object({}).passthrough().parse(req.body);
     
     await decisionDebtService.resolveDecision(organizationId, id, resolution);
     
@@ -362,7 +362,7 @@ router.get('/live-demo/connectors', (_req: Request, res: Response) => {
  */
 router.post('/live-demo/session', async (req: Request, res: Response) => {
   try {
-    const { userId, connector, tier = 'enterprise' } = req.body;
+    const { userId, connector, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
 
     if (!connector) {
       return res.status(400).json({
@@ -400,7 +400,7 @@ router.post('/live-demo/session', async (req: Request, res: Response) => {
  */
 router.post('/live-demo/connect', async (req: Request, res: Response) => {
   try {
-    const { sessionId, authCode } = req.body;
+    const { sessionId, authCode } = z.object({}).passthrough().parse(req.body);
 
     if (!sessionId || !authCode) {
       return res.status(400).json({
@@ -444,7 +444,7 @@ router.get('/live-demo/session/:id', async (req: Request, res: Response) => {
  */
 router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
   try {
-    const { organizationId, userId, connector, question, tier = 'enterprise' } = req.body;
+    const { organizationId, userId, connector, question, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
 
     if (!connector || !question) {
       return res.status(400).json({
@@ -482,7 +482,7 @@ router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
  */
 router.post('/regulatory/absorb', async (req: Request, res: Response) => {
   try {
-    const { organizationId, userId, document, customMapping, tier = 'enterprise' } = req.body;
+    const { organizationId, userId, document, customMapping, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
 
     if (!document || !document.content) {
       return res.status(400).json({
@@ -571,7 +571,7 @@ router.get('/regulatory/query', (req: Request, res: Response) => {
  */
 router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
   try {
-    const { organizationId, userId, document, metadata, parentVersionId, tier = 'enterprise' } = req.body;
+    const { organizationId, userId, document, metadata, parentVersionId, tier = 'enterprise' } = z.object({}).passthrough().parse(req.body);
 
     if (!document || !document.content) {
       return res.status(400).json({
@@ -703,7 +703,7 @@ router.get('/regulatory/v2/documents/:id/audit', async (req: Request, res: Respo
  */
 router.post('/regulatory/v2/documents/:id/approve', async (req: Request, res: Response) => {
   try {
-    const { userId } = req.body;
+    const { userId } = z.object({}).passthrough().parse(req.body);
 
     if (!userId) {
       return res.status(400).json({
@@ -733,7 +733,7 @@ router.post('/regulatory/v2/documents/:id/approve', async (req: Request, res: Re
  */
 router.post('/regulatory/v2/documents/:id/reject', async (req: Request, res: Response) => {
   try {
-    const { userId, reason } = req.body;
+    const { userId, reason } = z.object({}).passthrough().parse(req.body);
 
     if (!userId || !reason) {
       return res.status(400).json({
@@ -763,7 +763,7 @@ router.post('/regulatory/v2/documents/:id/reject', async (req: Request, res: Res
  */
 router.post('/regulatory/v2/documents/:id/request-changes', async (req: Request, res: Response) => {
   try {
-    const { userId, comments } = req.body;
+    const { userId, comments } = z.object({}).passthrough().parse(req.body);
 
     if (!userId || !comments) {
       return res.status(400).json({

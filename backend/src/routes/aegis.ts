@@ -126,7 +126,7 @@ router.get('/threats', async (req: Request, res: Response) => {
 
 router.patch('/threats/:id/status', async (req: Request, res: Response) => {
   try {
-    const { status } = req.body;
+    const { status } = z.object({}).passthrough().parse(req.body);
     const threat = await cendiaAegisService.updateThreatStatus(req.params.id, status);
     res.json({ success: true, data: threat });
   } catch (error) {
@@ -194,7 +194,7 @@ router.post('/countermeasures/:id/implement', async (req: Request, res: Response
 router.post('/briefings', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { threatId, briefingType } = req.body;
+    const { threatId, briefingType } = z.object({}).passthrough().parse(req.body);
     const briefing = await cendiaAegisService.generateBriefing(orgId, threatId, briefingType);
     res.json({ success: true, data: briefing });
   } catch (error) {
@@ -285,7 +285,7 @@ router.get('/correlate', async (req: Request, res: Response) => {
 router.post('/playbook', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { incidentType } = req.body;
+    const { incidentType } = z.object({}).passthrough().parse(req.body);
     if (!incidentType) {
       return res.status(400).json({ success: false, error: { message: 'incidentType is required' } });
     }
@@ -303,7 +303,7 @@ router.post('/playbook', async (req: Request, res: Response) => {
 router.post('/hunt', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { hypothesis, focusArea, lookbackDays } = req.body;
+    const { hypothesis, focusArea, lookbackDays } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaAegisService.runThreatHunt(orgId, {
       hypothesis,
       focusArea,

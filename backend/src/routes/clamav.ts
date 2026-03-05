@@ -52,7 +52,7 @@ router.post('/scan', upload.single('file'), async (req: Request, res: Response) 
 
 router.post('/scan/buffer', async (req: Request, res: Response) => {
   try {
-    const { data, filename } = req.body;
+    const { data, filename } = z.object({}).passthrough().parse(req.body);
     if (!data || !filename) {
       return res.status(400).json({ success: false, error: 'Missing "data" (base64) and "filename" fields' });
     }

@@ -87,7 +87,7 @@ router.get('/timeline', (_req: Request, res: Response) => {
  */
 router.post('/tests', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, description, regulationId, requirements, decisionId, workflowId, systemDescription } = req.body;
+    const { name, description, regulationId, requirements, decisionId, workflowId, systemDescription } = z.object({}).passthrough().parse(req.body);
 
     if (!name || !regulationId || !systemDescription) {
       res.status(400).json({

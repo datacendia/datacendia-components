@@ -108,7 +108,7 @@ router.post('/deliberation', async (req: Request, res: Response) => {
       context,
       consensusConfidence = 0.85,
       seed,
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !decisionText || !context) {
       return res.status(400).json({
@@ -318,7 +318,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
       decisionText,
       context,
       seed,
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!decisionId || !decisionText) {
       return res.status(400).json({
@@ -588,7 +588,7 @@ router.post('/deliberation/:id/override', async (req: Request, res: Response) =>
       justification,
       acceptedRisks,
       riskAcknowledgment,
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     const deliberation = collapseOrchestrator.getDeliberation(id);
     if (!deliberation) {

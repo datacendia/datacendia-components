@@ -28,7 +28,7 @@ const router = Router();
 // =============================================================================
 router.post('/billing/create-checkout-session', async (req: Request, res: Response) => {
   try {
-    const { priceId, tierId, commitment, region, successUrl, cancelUrl } = req.body;
+    const { priceId, tierId, commitment, region, successUrl, cancelUrl } = z.object({}).passthrough().parse(req.body);
 
     if (!priceId || !tierId) {
       return res.status(400).json({
@@ -257,7 +257,7 @@ router.post('/billing/portal-session', async (req: Request, res: Response) => {
   }
 
   try {
-    const { customerId } = req.body;
+    const { customerId } = z.object({}).passthrough().parse(req.body);
     if (!customerId) {
       return res.status(400).json({ error: 'Missing customerId' });
     }

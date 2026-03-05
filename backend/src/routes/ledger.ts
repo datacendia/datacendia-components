@@ -303,7 +303,7 @@ router.post('/entries/:id/verify', authenticate, async (req: Request, res: Respo
 // Create decision record
 router.post('/decisions', authenticate, async (req: Request, res: Response) => {
   try {
-    const { title, description, agents } = req.body;
+    const { title, description, agents } = z.object({}).passthrough().parse(req.body);
     const userId = req.user?.id || 'anonymous';
 
     if (!title || !description) {
@@ -401,7 +401,7 @@ router.get('/decisions/:id', authenticate, async (req: Request, res: Response) =
 // Record vote
 router.post('/decisions/:id/vote', authenticate, async (req: Request, res: Response) => {
   try {
-    const { agentId, vote, confidence, reasoning } = req.body;
+    const { agentId, vote, confidence, reasoning } = z.object({}).passthrough().parse(req.body);
     const decision = decisions.get(req.params.id);
     
     if (!decision) {
@@ -455,7 +455,7 @@ router.post('/decisions/:id/vote', authenticate, async (req: Request, res: Respo
 // Finalize decision
 router.post('/decisions/:id/finalize', authenticate, async (req: Request, res: Response) => {
   try {
-    const { status, finalConfidence } = req.body;
+    const { status, finalConfidence } = z.object({}).passthrough().parse(req.body);
     const decision = decisions.get(req.params.id);
     
     if (!decision) {
@@ -509,7 +509,7 @@ router.post('/decisions/:id/finalize', authenticate, async (req: Request, res: R
 // Request audit
 router.post('/decisions/:id/audit', authenticate, async (req: Request, res: Response) => {
   try {
-    const { framework, reason } = req.body;
+    const { framework, reason } = z.object({}).passthrough().parse(req.body);
     const userId = req.user?.id || 'anonymous';
     const decision = decisions.get(req.params.id);
     

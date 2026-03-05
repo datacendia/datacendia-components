@@ -39,7 +39,7 @@ router.get('/recall/health', async (_req: Request, res: Response) => {
 
 router.post('/recall/trackers', async (req: Request, res: Response) => {
   try {
-    const { organizationId, decisionId, title, predictedOutcomes, trackedBy, options } = req.body;
+    const { organizationId, decisionId, title, predictedOutcomes, trackedBy, options } = z.object({}).passthrough().parse(req.body);
     if (!organizationId || !decisionId || !title || !predictedOutcomes) {
       return res.status(400).json({ success: false, error: 'Missing required fields: organizationId, decisionId, title, predictedOutcomes' });
     }
@@ -82,7 +82,7 @@ router.get('/recall/trackers/:id', async (req: Request, res: Response) => {
 
 router.post('/recall/trackers/:id/actual', async (req: Request, res: Response) => {
   try {
-    const { metric, actualValue, unit, evidenceSource, verified } = req.body;
+    const { metric, actualValue, unit, evidenceSource, verified } = z.object({}).passthrough().parse(req.body);
     if (!metric || actualValue === undefined) {
       return res.status(400).json({ success: false, error: 'Missing required fields: metric, actualValue' });
     }
@@ -102,7 +102,7 @@ router.post('/recall/trackers/:id/actual', async (req: Request, res: Response) =
 
 router.post('/recall/trackers/:id/roi', async (req: Request, res: Response) => {
   try {
-    const { actualROI } = req.body;
+    const { actualROI } = z.object({}).passthrough().parse(req.body);
     if (actualROI === undefined) {
       return res.status(400).json({ success: false, error: 'Missing required field: actualROI' });
     }
@@ -119,7 +119,7 @@ router.post('/recall/trackers/:id/roi', async (req: Request, res: Response) => {
 
 router.post('/recall/trackers/:id/verify', async (req: Request, res: Response) => {
   try {
-    const { verifiedBy } = req.body;
+    const { verifiedBy } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaRecallService.verifyOutcome(req.params.id, verifiedBy || 'system');
     res.json({ success: true, data: result });
   } catch (error: unknown) {
@@ -129,7 +129,7 @@ router.post('/recall/trackers/:id/verify', async (req: Request, res: Response) =
 
 router.post('/recall/trackers/:id/close', async (req: Request, res: Response) => {
   try {
-    const { lessonsLearned } = req.body;
+    const { lessonsLearned } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaRecallService.closeOutcome(req.params.id, lessonsLearned || []);
     res.json({ success: true, data: result });
   } catch (error: unknown) {
@@ -167,7 +167,7 @@ router.get('/recall/lessons', async (req: Request, res: Response) => {
 
 router.post('/recall/lessons/:id/endorse', async (req: Request, res: Response) => {
   try {
-    const { endorsedBy } = req.body;
+    const { endorsedBy } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaRecallService.endorseLesson(req.params.id, endorsedBy || 'system');
     res.json({ success: true, data: result });
   } catch (error: unknown) {

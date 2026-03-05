@@ -86,7 +86,7 @@ router.get('/definitions/:defId', (req: Request, res: Response) => {
  */
 router.post('/workflows/start', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { workflowId, workflowType, taskQueue, input, memo, searchAttributes, cronSchedule } = req.body;
+    const { workflowId, workflowType, taskQueue, input, memo, searchAttributes, cronSchedule } = z.object({}).passthrough().parse(req.body);
 
     if (!workflowType) {
       res.status(400).json({ success: false, error: 'Missing required field: workflowType' });
@@ -157,7 +157,7 @@ router.get('/workflows/:workflowId', async (req: Request, res: Response, next: N
  */
 router.post('/workflows/:workflowId/signal', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { signalName, payload } = req.body;
+    const { signalName, payload } = z.object({}).passthrough().parse(req.body);
 
     if (!signalName) {
       res.status(400).json({ success: false, error: 'Missing required field: signalName' });
@@ -189,7 +189,7 @@ router.post('/workflows/:workflowId/signal', async (req: Request, res: Response,
  */
 router.post('/workflows/:workflowId/cancel', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { reason } = req.body;
+    const { reason } = z.object({}).passthrough().parse(req.body);
 
     const success = await temporal.cancelWorkflow(req.params.workflowId!, reason);
     if (!success) {
@@ -211,7 +211,7 @@ router.post('/workflows/:workflowId/cancel', async (req: Request, res: Response,
  */
 router.post('/workflows/:workflowId/terminate', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { reason } = req.body;
+    const { reason } = z.object({}).passthrough().parse(req.body);
 
     const success = await temporal.terminateWorkflow(req.params.workflowId!, reason);
     if (!success) {

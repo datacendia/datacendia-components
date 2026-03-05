@@ -85,7 +85,7 @@ router.get('/audit/verify', async (_req: Request, res: Response) => {
  */
 router.post('/audit/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, startDate, endDate, exportedBy } = req.body;
+    const { organizationId, startDate, endDate, exportedBy } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !startDate || !endDate || !exportedBy) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -253,7 +253,7 @@ router.get('/compliance/frameworks', (_req: Request, res: Response) => {
  */
 router.post('/compliance/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = req.body;
+    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !framework || !startDate || !endDate || !requestedBy) {
       return res.status(400).json({ error: 'Missing required fields' });

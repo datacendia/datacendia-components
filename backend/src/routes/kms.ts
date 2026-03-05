@@ -85,7 +85,7 @@ router.get('/status', async (_req: Request, res: Response) => {
  */
 router.post('/sign', async (req: Request, res: Response) => {
   try {
-    const { data, keyId, encoding = 'utf8' } = req.body;
+    const { data, keyId, encoding = 'utf8' } = z.object({}).passthrough().parse(req.body);
 
     if (!data) {
       res.status(400).json({
@@ -126,7 +126,7 @@ router.post('/sign', async (req: Request, res: Response) => {
  */
 router.post('/verify', async (req: Request, res: Response) => {
   try {
-    const { data, signature, keyId, encoding = 'utf8' } = req.body;
+    const { data, signature, keyId, encoding = 'utf8' } = z.object({}).passthrough().parse(req.body);
 
     if (!data || !signature) {
       res.status(400).json({
@@ -170,7 +170,7 @@ router.post('/verify', async (req: Request, res: Response) => {
  */
 router.post('/encrypt', async (req: Request, res: Response) => {
   try {
-    const { data, keyId, encoding = 'utf8' } = req.body;
+    const { data, keyId, encoding = 'utf8' } = z.object({}).passthrough().parse(req.body);
 
     if (!data) {
       res.status(400).json({
@@ -210,7 +210,7 @@ router.post('/encrypt', async (req: Request, res: Response) => {
  */
 router.post('/decrypt', async (req: Request, res: Response) => {
   try {
-    const { ciphertext, keyId } = req.body;
+    const { ciphertext, keyId } = z.object({}).passthrough().parse(req.body);
 
     if (!ciphertext) {
       res.status(400).json({
@@ -249,7 +249,7 @@ router.post('/decrypt', async (req: Request, res: Response) => {
  */
 router.post('/keys', async (req: Request, res: Response) => {
   try {
-    const { keyId, algorithm, exportable } = req.body;
+    const { keyId, algorithm, exportable } = z.object({}).passthrough().parse(req.body);
 
     if (!keyId) {
       res.status(400).json({

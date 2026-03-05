@@ -295,7 +295,7 @@ const PLATFORM_KNOWLEDGE = {
  */
 router.post('/query', async (req: Request, res: Response) => {
   try {
-    const { query, conversationHistory } = req.body;
+    const { query, conversationHistory } = z.object({}).passthrough().parse(req.body);
     const lowerQuery = (query || '').toLowerCase();
 
     // Match query to known workflows

@@ -121,7 +121,7 @@ router.get('/artifacts/:id', async (req: Request, res: Response) => {
 router.post('/artifacts/:id/verify', async (req: Request, res: Response) => {
   try {
     const userId = req.user?.id || 'system';
-    const { validationType } = req.body;
+    const { validationType } = z.object({}).passthrough().parse(req.body);
     const result = await cendiaEternalService.verifyArtifact(req.params.id, userId, validationType);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -141,7 +141,7 @@ router.get('/artifacts/:id/validations', async (req: Request, res: Response) => 
 router.post('/artifacts/:id/correct', async (req: Request, res: Response) => {
   try {
     const userId = req.user?.id || 'system';
-    const { correctedContent } = req.body;
+    const { correctedContent } = z.object({}).passthrough().parse(req.body);
     const artifact = await cendiaEternalService.correctArtifact(req.params.id, correctedContent, userId);
     res.json({ success: true, data: artifact });
   } catch (error) {
@@ -156,7 +156,7 @@ router.post('/artifacts/:id/correct', async (req: Request, res: Response) => {
 router.post('/migrations', async (req: Request, res: Response) => {
   try {
     const orgId = req.organizationId;
-    const { sourceFormat, targetFormat } = req.body;
+    const { sourceFormat, targetFormat } = z.object({}).passthrough().parse(req.body);
     const migration = await cendiaEternalService.startMigration(orgId, sourceFormat, targetFormat);
     res.json({ success: true, data: migration });
   } catch (error) {

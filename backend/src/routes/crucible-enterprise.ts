@@ -112,7 +112,7 @@ router.get('/test-suites', async (_req: Request, res: Response) => {
  */
 router.post('/run', requireRole('ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { categories, signResults } = req.body;
+    const { categories, signResults } = z.object({}).passthrough().parse(req.body);
     
     const report = await enterpriseRedTeamService.runFullAssessment(
       req.organizationId!,
@@ -292,7 +292,7 @@ router.post('/schedule', requireRole('ADMIN'), async (req: Request, res: Respons
       notifyEmails,
       autoRemediate,
       blockDeployOnCritical,
-    } = req.body;
+    } = z.object({}).passthrough().parse(req.body);
 
     if (!cronExpression) {
       throw errors.badRequest('Cron expression is required');

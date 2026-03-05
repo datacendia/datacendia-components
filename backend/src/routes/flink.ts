@@ -55,7 +55,7 @@ router.get('/rules/:ruleId', (req: Request, res: Response) => {
 });
 
 router.patch('/rules/:ruleId/toggle', (req: Request, res: Response) => {
-  const { enabled } = req.body;
+  const { enabled } = z.object({}).passthrough().parse(req.body);
   if (typeof enabled !== 'boolean') { res.status(400).json({ success: false, error: 'enabled (boolean) required' }); return; }
   const ok = flinkCEP.setRuleEnabled(req.params.ruleId!, enabled);
   if (!ok) { res.status(404).json({ success: false, error: 'Rule not found' }); return; }
@@ -67,7 +67,7 @@ router.patch('/rules/:ruleId/toggle', (req: Request, res: Response) => {
 
 router.post('/events/ingest', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { event, events } = req.body;
+    const { event, events } = z.object({}).passthrough().parse(req.body);
     if (events && Array.isArray(events)) {
       const alerts = await flinkCEP.ingestBatch(events.map((e: any) => ({ ...e, timestamp: new Date(e.timestamp || Date.now()) })));
       res.json({ success: true, data: { ingested: events.length, alerts } });

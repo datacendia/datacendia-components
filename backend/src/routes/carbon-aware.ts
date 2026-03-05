@@ -67,7 +67,7 @@ router.get('/intensity', async (_req: Request, res: Response): Promise<void> => 
  */
 router.post('/workloads', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, type, priority, estimatedDurationMinutes, estimatedEnergyWh, preferredRegions, maxDeferralHours } = req.body;
+    const { name, type, priority, estimatedDurationMinutes, estimatedEnergyWh, preferredRegions, maxDeferralHours } = z.object({}).passthrough().parse(req.body);
 
     if (!name || !type || !estimatedDurationMinutes || !estimatedEnergyWh) {
       res.status(400).json({

@@ -73,7 +73,7 @@ router.get('/jurisdictions/:id', (req: Request, res: Response): void => {
  */
 router.post('/assess-transfer', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { sourceJurisdiction, destinationJurisdiction, dataTypes } = req.body;
+    const { sourceJurisdiction, destinationJurisdiction, dataTypes } = z.object({}).passthrough().parse(req.body);
 
     if (!sourceJurisdiction || !destinationJurisdiction || !dataTypes) {
       res.status(400).json({
@@ -101,7 +101,7 @@ router.post('/assess-transfer', async (req: Request, res: Response): Promise<voi
  */
 router.post('/compliance-matrix', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, jurisdictions } = req.body;
+    const { organizationId, jurisdictions } = z.object({}).passthrough().parse(req.body);
 
     if (!organizationId || !jurisdictions || !Array.isArray(jurisdictions)) {
       res.status(400).json({
@@ -128,7 +128,7 @@ router.post('/compliance-matrix', async (req: Request, res: Response): Promise<v
  */
 router.post('/detect-conflicts', (req: Request, res: Response): void => {
   try {
-    const { jurisdictions } = req.body;
+    const { jurisdictions } = z.object({}).passthrough().parse(req.body);
 
     if (!jurisdictions || !Array.isArray(jurisdictions)) {
       res.status(400).json({ success: false, error: 'jurisdictions array is required' });
@@ -151,7 +151,7 @@ router.post('/detect-conflicts', (req: Request, res: Response): void => {
  */
 router.post('/data-residency', (req: Request, res: Response): void => {
   try {
-    const { jurisdictions } = req.body;
+    const { jurisdictions } = z.object({}).passthrough().parse(req.body);
 
     if (!jurisdictions || !Array.isArray(jurisdictions)) {
       res.status(400).json({ success: false, error: 'jurisdictions array is required' });

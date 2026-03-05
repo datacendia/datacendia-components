@@ -100,7 +100,7 @@ router.get('/verticals/:verticalId/quick-actions', async (req: Request, res: Res
  */
 router.post('/parse', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { command, context } = req.body;
+    const { command, context } = z.object({}).passthrough().parse(req.body);
 
     if (!command || !context?.verticalId) {
       res.status(400).json({
@@ -131,7 +131,7 @@ router.post('/parse', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/execute', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { command, context } = req.body;
+    const { command, context } = z.object({}).passthrough().parse(req.body);
 
     if (!command || !context?.verticalId) {
       res.status(400).json({
@@ -159,7 +159,7 @@ router.post('/execute', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/suggest', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { partialCommand, context } = req.body;
+    const { partialCommand, context } = z.object({}).passthrough().parse(req.body);
 
     if (!context?.verticalId) {
       res.status(400).json({
@@ -275,7 +275,7 @@ router.get('/health', (_req: Request, res: Response) => {
  */
 router.post('/platinum/execute', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { command, context } = req.body;
+    const { command, context } = z.object({}).passthrough().parse(req.body);
 
     if (!command || !context?.verticalId) {
       res.status(400).json({

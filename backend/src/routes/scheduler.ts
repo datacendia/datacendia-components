@@ -123,7 +123,7 @@ router.post('/jobs', async (req: Request, res: Response) => {
     const orgId = req.organizationId;
     const userId = req.user?.id || 'system';
     
-    const { jobType, name, description, cronExpression, timezone, config, enabled } = req.body;
+    const { jobType, name, description, cronExpression, timezone, config, enabled } = z.object({}).passthrough().parse(req.body);
     
     if (!jobType || !name || !cronExpression) {
       return res.status(400).json({
@@ -157,7 +157,7 @@ router.post('/jobs', async (req: Request, res: Response) => {
  */
 router.patch('/jobs/:id', async (req: Request, res: Response) => {
   try {
-    const { name, description, cronExpression, config, enabled } = req.body;
+    const { name, description, cronExpression, config, enabled } = z.object({}).passthrough().parse(req.body);
     
     const job = await enterpriseSchedulerService.updateJob(req.params['id']!, {
       name,

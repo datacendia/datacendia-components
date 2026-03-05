@@ -91,7 +91,7 @@ router.post('/mappings', async (req: Request, res: Response) => {
 // =============================================================================
 router.post('/suggest', async (req: Request, res: Response) => {
   try {
-    const { dataSourceId, tables } = req.body;
+    const { dataSourceId, tables } = z.object({}).passthrough().parse(req.body);
 
     if (!dataSourceId || !tables || !Array.isArray(tables)) {
       res.status(400).json({
@@ -124,7 +124,7 @@ router.post('/suggest', async (req: Request, res: Response) => {
 // =============================================================================
 router.post('/transform-query', async (req: Request, res: Response) => {
   try {
-    const { dataSourceId, entity, fields, filters } = req.body;
+    const { dataSourceId, entity, fields, filters } = z.object({}).passthrough().parse(req.body);
 
     if (!dataSourceId || !entity || !fields) {
       res.status(400).json({
@@ -203,7 +203,7 @@ router.get('/canonical-model', async (_req: Request, res: Response) => {
 // =============================================================================
 router.post('/validate', async (req: Request, res: Response) => {
   try {
-    const { mapping } = req.body;
+    const { mapping } = z.object({}).passthrough().parse(req.body);
 
     const issues: Array<{ type: 'error' | 'warning'; message: string; path: string }> = [];
 

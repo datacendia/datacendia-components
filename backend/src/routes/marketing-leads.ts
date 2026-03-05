@@ -32,7 +32,7 @@ const prisma = new PrismaClient();
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const { name, title, organization, concern, source } = req.body;
+    const { name, title, organization, concern, source } = z.object({}).passthrough().parse(req.body);
 
     // Validate required fields
     if (!name || !organization) {
@@ -84,7 +84,7 @@ router.post('/', async (req: Request, res: Response) => {
  */
 router.post('/newsletter', async (req: Request, res: Response) => {
   try {
-    const { email, source } = req.body;
+    const { email, source } = z.object({}).passthrough().parse(req.body);
 
     if (!email) {
       return res.status(400).json({ error: 'Email is required' });

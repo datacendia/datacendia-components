@@ -292,7 +292,7 @@ router.post('/shadow/sessions/:id/close', async (req: Request, res: Response, ne
 
 router.post('/shadow/compare', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { shadowDeliberationId, officialDeliberationId } = req.body;
+    const { shadowDeliberationId, officialDeliberationId } = z.object({}).passthrough().parse(req.body);
     const result = await shadowCouncilService.compareToOfficial(shadowDeliberationId, officialDeliberationId);
     res.json({ success: true, data: result });
   } catch (error) {

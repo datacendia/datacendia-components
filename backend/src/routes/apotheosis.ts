@@ -110,7 +110,7 @@ router.get('/escalations', async (req: Request, res: Response) => {
 router.post('/escalations/:id/respond', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { response, reason } = req.body;
+    const { response, reason } = z.object({}).passthrough().parse(req.body);
     
     await apotheosisService.respondToEscalation(id, response, reason);
     res.json({ success: true });

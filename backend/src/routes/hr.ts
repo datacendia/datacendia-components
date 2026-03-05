@@ -53,7 +53,7 @@ router.get('/connections/:provider', authenticate, async (req: Request, res: Res
 router.post('/connections/:provider/connect', authenticate, async (req: Request, res: Response) => {
   try {
     const provider = req.params.provider as HRProvider;
-    const { apiKey, clientId, clientSecret, subdomain, tenantId, refreshToken } = req.body;
+    const { apiKey, clientId, clientSecret, subdomain, tenantId, refreshToken } = z.object({}).passthrough().parse(req.body);
 
     const credentials: HRCredentials = {
       provider,

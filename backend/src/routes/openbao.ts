@@ -62,7 +62,7 @@ router.put('/secrets/*', async (req: Request, res: Response, next: NextFunction)
   try {
     const path = req.params[0] || '';
     const mount = (req.query.mount as string) || 'secret';
-    const { data } = req.body;
+    const { data } = z.object({}).passthrough().parse(req.body);
 
     if (!path || !data) {
       res.status(400).json({ success: false, error: 'Path and data are required' });
@@ -89,7 +89,7 @@ router.delete('/secrets/*', async (req: Request, res: Response, next: NextFuncti
 
 router.post('/transit/encrypt', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { keyName, plaintext, mount } = req.body;
+    const { keyName, plaintext, mount } = z.object({}).passthrough().parse(req.body);
     if (!keyName || !plaintext) {
       res.status(400).json({ success: false, error: 'keyName and plaintext are required' });
       return;
@@ -102,7 +102,7 @@ router.post('/transit/encrypt', async (req: Request, res: Response, next: NextFu
 
 router.post('/transit/decrypt', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { keyName, ciphertext, mount } = req.body;
+    const { keyName, ciphertext, mount } = z.object({}).passthrough().parse(req.body);
     if (!keyName || !ciphertext) {
       res.status(400).json({ success: false, error: 'keyName and ciphertext are required' });
       return;
@@ -115,7 +115,7 @@ router.post('/transit/decrypt', async (req: Request, res: Response, next: NextFu
 
 router.post('/transit/keys', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { keyName, type, mount } = req.body;
+    const { keyName, type, mount } = z.object({}).passthrough().parse(req.body);
     if (!keyName) {
       res.status(400).json({ success: false, error: 'keyName is required' });
       return;
@@ -138,7 +138,7 @@ router.post('/transit/keys/:keyName/rotate', async (req: Request, res: Response,
 
 router.post('/pki/issue', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { commonName, altNames, ttl, role, mount } = req.body;
+    const { commonName, altNames, ttl, role, mount } = z.object({}).passthrough().parse(req.body);
     if (!commonName) {
       res.status(400).json({ success: false, error: 'commonName is required' });
       return;
@@ -215,7 +215,7 @@ router.get('/policies/:name', async (req: Request, res: Response, next: NextFunc
 
 router.put('/policies/:name', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { rules } = req.body;
+    const { rules } = z.object({}).passthrough().parse(req.body);
     if (!rules) {
       res.status(400).json({ success: false, error: 'rules (HCL string) is required' });
       return;
