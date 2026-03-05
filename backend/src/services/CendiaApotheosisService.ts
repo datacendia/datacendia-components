@@ -33,6 +33,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // ADJUDICATION SCHEMA & AUDIT TYPES
 // =============================================================================
@@ -43,6 +44,7 @@ import crypto from 'crypto';
  */
 
 import type { AdjudicationVerdict, AdjudicationAuditRecord, ApotheosisRun, WeaknessItem, AutoPatch, Escalation, UpskillAssignment, TrainingModule, PatternBan, PatternInstance, ApotheosisScore, ApotheosisConfig, AttackScenario } from './apotheosis-types.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 export type { AdjudicationVerdict, AdjudicationAuditRecord, ApotheosisRun, WeaknessItem, AutoPatch, Escalation, UpskillAssignment, TrainingModule, PatternBan, PatternInstance, ApotheosisScore, ApotheosisConfig, AttackScenario } from './apotheosis-types.js';
 
 

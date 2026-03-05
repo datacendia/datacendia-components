@@ -35,6 +35,7 @@ import * as crypto from 'crypto';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

@@ -34,6 +34,7 @@ import {
 import { ragService, ChunkResult } from '../llm/RAGService.js';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

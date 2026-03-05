@@ -41,6 +41,7 @@ import * as path from 'path';
 import * as os from 'os';
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 const execAsync = promisify(exec);
 
 // =============================================================================

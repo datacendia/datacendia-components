@@ -1,26 +1,26 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   topic: z.unknown(),
   duration: z.unknown(),
   targetAudience: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   purpose: z.unknown(),
   platform: z.unknown(),
   style: z.unknown(),
 }).passthrough();
-const bodySchema2 = z.object({
+const reqBody0 = z.object({
   audience: z.unknown(),
   focus: z.unknown(),
 }).passthrough();
-const bodySchema3 = z.object({
+const reqBody0 = z.object({
   type: z.unknown(),
   topic: z.unknown(),
   tone: z.unknown(),
 }).passthrough();
-const bodySchema4 = z.object({
+const reqBody0 = z.object({
   themes: z.unknown(),
   platforms: z.unknown(),
   postsPerWeek: z.unknown(),
@@ -52,26 +52,26 @@ import ollamaService from '../services/ollama.js';
 
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   topic: z.unknown(),
   duration: z.unknown(),
   targetAudience: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   purpose: z.unknown(),
   platform: z.unknown(),
   style: z.unknown(),
 }).passthrough();
-const bodySchema2 = z.object({
+const reqBody0 = z.object({
   audience: z.unknown(),
   focus: z.unknown(),
 }).passthrough();
-const bodySchema3 = z.object({
+const reqBody0 = z.object({
   type: z.unknown(),
   topic: z.unknown(),
   tone: z.unknown(),
 }).passthrough();
-const bodySchema4 = z.object({
+const reqBody0 = z.object({
   themes: z.unknown(),
   platforms: z.unknown(),
   postsPerWeek: z.unknown(),
@@ -192,7 +192,7 @@ async function tryGenerate(prompt: string, fallback: any): Promise<any> {
  */
 router.post('/video-script', async (req: Request, res: Response) => {
   try {
-    const { topic, duration, targetAudience } = bodySchema0.parse(req.body);
+    const { topic, duration, targetAudience } = reqBody0.parse(req.body);
     const fallback = videoScriptTemplate(topic || 'Datacendia', duration || '60', targetAudience || 'enterprise-cto');
 
     const prompt = `You are a professional video scriptwriter. Generate a ${duration}-second video script for: "${topic}". Target: ${targetAudience}. Output as JSON with keys: title, duration, targetAudience, script (hook, problem, solution, demo, cta), visualNotes (array), voiceoverNotes.`;
@@ -216,7 +216,7 @@ router.post('/video-script', async (req: Request, res: Response) => {
  */
 router.post('/image-prompt', async (req: Request, res: Response) => {
   try {
-    const { purpose, platform, style } = bodySchema1.parse(req.body);
+    const { purpose, platform, style } = reqBody0.parse(req.body);
     const fallback = imagePromptTemplate(purpose || 'Hero image', platform || 'midjourney', style || 'professional-tech');
 
     const prompt = `You are an AI image prompt engineer. Generate an optimized ${platform} prompt for: "${purpose}". Style: ${style}. Output as JSON with keys: purpose, platform, prompt, negativePrompt (stable-diffusion only), style, aspectRatio.`;
@@ -239,7 +239,7 @@ router.post('/image-prompt', async (req: Request, res: Response) => {
  */
 router.post('/pitch-deck', async (req: Request, res: Response) => {
   try {
-    const { audience, focus } = bodySchema2.parse(req.body);
+    const { audience, focus } = reqBody0.parse(req.body);
     const fallback = pitchDeckTemplate(audience || 'Investors');
 
     const prompt = `You are a pitch deck consultant. Generate a 10-12 slide deck for Datacendia's Sovereign Intelligence Platform. Audience: ${audience}. Focus: ${focus}. Output as JSON with keys: audience, slides (array of slideNumber, title, content array, visualSuggestion, speakerNotes).`;
@@ -261,7 +261,7 @@ router.post('/pitch-deck', async (req: Request, res: Response) => {
  */
 router.post('/copy', async (req: Request, res: Response) => {
   try {
-    const { type, topic, tone } = bodySchema3.parse(req.body);
+    const { type, topic, tone } = reqBody0.parse(req.body);
     const fallback = copyTemplate(type || 'email', topic || 'AI Governance');
 
     const prompt = `You are a B2B copywriter. Generate ${type} copy for Datacendia. Topic: ${topic}. Tone: ${tone}. Output as JSON with keys: type, headline, body, cta, variations (array of 3+ strings).`;
@@ -284,7 +284,7 @@ router.post('/copy', async (req: Request, res: Response) => {
  */
 router.post('/social-media-calendar', async (req: Request, res: Response) => {
   try {
-    const { themes, platforms, postsPerWeek } = bodySchema4.parse(req.body);
+    const { themes, platforms, postsPerWeek } = reqBody0.parse(req.body);
     const fallback = calendarTemplate();
 
     const prompt = `Generate a 30-day social media calendar for Datacendia. Themes: ${(themes || []).join(', ')}. Platforms: ${(platforms || []).join(', ')}. Posts/week: ${postsPerWeek}. Output as JSON array of posts with date, platform, postType, content, hashtags, visualSuggestion.`;

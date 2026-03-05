@@ -44,7 +44,7 @@ const bodySchema0 = z.object({
   devilsAdvocatePresent: z.unknown(),
   challengeCount: z.unknown(),
   unanimousVote: z.unknown(),
-  arguments: args: z.unknown(),
+  arguments: z.unknown(),
 }).passthrough();
 const bodySchema1 = z.object({
   organizationId: z.unknown(),

@@ -42,6 +42,7 @@ import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
 import { cendiaRecallService } from './CendiaRecallService.js';
 import type { DecisionOutcome, LessonLearned } from './CendiaRecallService.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

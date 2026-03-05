@@ -1,19 +1,19 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   command: z.unknown(),
   context: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   command: z.unknown(),
   context: z.unknown(),
 }).passthrough();
-const bodySchema2 = z.object({
+const reqBody0 = z.object({
   partialCommand: z.unknown(),
   context: z.unknown(),
 }).passthrough();
-const bodySchema3 = z.object({
+const reqBody0 = z.object({
   command: z.unknown(),
   context: z.unknown(),
 }).passthrough();
@@ -41,19 +41,19 @@ import { cendiaCommandPlatinumService } from '../services/command/CendiaCommandP
 
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   command: z.unknown(),
   context: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   command: z.unknown(),
   context: z.unknown(),
 }).passthrough();
-const bodySchema2 = z.object({
+const reqBody0 = z.object({
   partialCommand: z.unknown(),
   context: z.unknown(),
 }).passthrough();
-const bodySchema3 = z.object({
+const reqBody0 = z.object({
   command: z.unknown(),
   context: z.unknown(),
 }).passthrough();
@@ -136,7 +136,7 @@ router.get('/verticals/:verticalId/quick-actions', async (req: Request, res: Res
  */
 router.post('/parse', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { command, context } = bodySchema0.parse(req.body);
+    const { command, context } = reqBody0.parse(req.body);
 
     if (!command || !context?.verticalId) {
       res.status(400).json({
@@ -167,7 +167,7 @@ router.post('/parse', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/execute', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { command, context } = bodySchema0.parse(req.body);
+    const { command, context } = reqBody0.parse(req.body);
 
     if (!command || !context?.verticalId) {
       res.status(400).json({
@@ -195,7 +195,7 @@ router.post('/execute', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/suggest', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { partialCommand, context } = bodySchema2.parse(req.body);
+    const { partialCommand, context } = reqBody0.parse(req.body);
 
     if (!context?.verticalId) {
       res.status(400).json({
@@ -311,7 +311,7 @@ router.get('/health', (_req: Request, res: Response) => {
  */
 router.post('/platinum/execute', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { command, context } = bodySchema0.parse(req.body);
+    const { command, context } = reqBody0.parse(req.body);
 
     if (!command || !context?.verticalId) {
       res.status(400).json({

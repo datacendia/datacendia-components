@@ -27,6 +27,7 @@ import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { getErrorMessage, getErrorStack } from '../../utils/errors.js';
 import { prisma } from '../../config/database.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

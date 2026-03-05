@@ -20,10 +20,10 @@
 import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   components: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   components: z.unknown(),
 }).passthrough();
 
@@ -41,10 +41,10 @@ import type {
 
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   components: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   components: z.unknown(),
 }).passthrough();
 
@@ -123,7 +123,7 @@ router.post('/basel3/credit-rwa', async (req: Request, res: Response) => {
 
 router.post('/basel3/lcr', async (req: Request, res: Response) => {
   try {
-    const { components } = bodySchema0.parse(req.body);
+    const { components } = reqBody0.parse(req.body);
     if (!components) return res.status(400).json({ error: 'LCR components required' });
     const result = basel3Engine.calculateLCR(components as LCRComponents);
     logger.info('[EU-Banking] LCR calculated', { lcr: (result.lcr * 100).toFixed(2) + '%' });
@@ -136,7 +136,7 @@ router.post('/basel3/lcr', async (req: Request, res: Response) => {
 
 router.post('/basel3/nsfr', async (req: Request, res: Response) => {
   try {
-    const { components } = bodySchema0.parse(req.body);
+    const { components } = reqBody0.parse(req.body);
     if (!components) return res.status(400).json({ error: 'NSFR components required' });
     const result = basel3Engine.calculateNSFR(components as NSFRComponents);
     logger.info('[EU-Banking] NSFR calculated', { nsfr: (result.nsfr * 100).toFixed(2) + '%' });

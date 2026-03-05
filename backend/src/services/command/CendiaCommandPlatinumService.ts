@@ -30,6 +30,7 @@ import crypto from 'crypto';
 import { VerticalId, CommandContext, CommandIntent, CommandExecution, VERTICAL_CONFIGS } from './CendiaCommandService';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // ============================================================================
 // PLATINUM INTERFACES
 // ============================================================================

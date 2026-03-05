@@ -22,6 +22,7 @@ import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../utils/logger.js';
 
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 export type JobType =
   | 'document_processing'
   | 'graph_rebuild'

@@ -23,6 +23,7 @@ import { licenseService } from './LicenseService.js';
 import { systemHealthService } from './SystemHealthService.js';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

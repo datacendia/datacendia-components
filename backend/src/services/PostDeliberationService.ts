@@ -20,6 +20,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { statementOfFactsService, StatementOfFacts } from './StatementOfFactsService.js';
 import { deliberationService, Deliberation, ExecutiveSummary } from './DeliberationService.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES - Comprehensive action system
 // =============================================================================

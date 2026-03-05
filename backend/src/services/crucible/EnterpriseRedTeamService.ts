@@ -30,9 +30,11 @@ import { EventEmitter } from 'events';
 import crypto from 'crypto';
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // import { EnhancedLLMService } from '../EnhancedLLMService.js';
 import { keyManagementService } from '../security/KeyManagementService.js';
 import { getErrorMessage } from '../../utils/errors.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // ============================================================================
 // TYPES
 // ============================================================================

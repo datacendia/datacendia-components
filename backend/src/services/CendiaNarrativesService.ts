@@ -19,6 +19,7 @@
 
 import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import { ollama } from './ollama.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

@@ -23,6 +23,7 @@
 
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

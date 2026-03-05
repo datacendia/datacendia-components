@@ -19,6 +19,7 @@
 
 import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 const prisma = new PrismaClient();
 
 // =============================================================================

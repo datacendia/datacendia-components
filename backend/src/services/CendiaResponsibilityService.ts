@@ -24,6 +24,7 @@
 import crypto from 'crypto';
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // ============================================================================
 // TYPES
 // ============================================================================

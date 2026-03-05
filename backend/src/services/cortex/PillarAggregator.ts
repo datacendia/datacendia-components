@@ -20,6 +20,7 @@ import { PrismaClient } from '@prisma/client';
 import type { PillarName, QueryContext, QuerySource, StructuredQuery, ContextOptions } from './types';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 const prisma = new PrismaClient() as any; // Use any for dynamic table access
 
 export class PillarAggregator {

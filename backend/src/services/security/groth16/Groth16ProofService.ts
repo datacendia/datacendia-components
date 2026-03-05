@@ -46,6 +46,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { logger } from '../../../utils/logger.js';
+import { loadServiceRecords } from '../../../utils/servicePersistence.js';
 // Resolve artifacts dir relative to project root (works in both ESM and CJS)
 const ARTIFACTS_DIR = path.resolve(
   process.cwd(), 'src', 'services', 'security', 'groth16', 'artifacts'

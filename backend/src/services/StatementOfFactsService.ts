@@ -19,6 +19,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES - Comprehensive claim tracking and validation
 // =============================================================================

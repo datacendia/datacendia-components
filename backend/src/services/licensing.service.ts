@@ -28,6 +28,7 @@
 import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
 
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // License Types
 export type LicenseType = 'named' | 'concurrent' | 'site';
 export type LicenseTier = 'pilot' | 'foundation' | 'enterprise' | 'strategic' | 'custom';

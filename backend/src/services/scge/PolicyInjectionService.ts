@@ -32,6 +32,7 @@ import {
 import { logger } from '../../utils/logger.js';
 import { expressionParser } from '../../utils/RuleEngine.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // POLICY INJECTION SERVICE
 // =============================================================================

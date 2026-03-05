@@ -19,6 +19,7 @@
 
 import { logger } from '../../utils/logger.js';
 import { PrismaClient } from '@prisma/client';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 const prisma = new PrismaClient();
 
 // =============================================================================

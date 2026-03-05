@@ -60,6 +60,7 @@ import {
 } from './types.js';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // OBSERVER AGENT DEFINITIONS
 // =============================================================================

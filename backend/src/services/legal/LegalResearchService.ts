@@ -29,6 +29,7 @@
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // API Base URLs
 const COURTLISTENER_API_BASE = 'https://www.courtlistener.com/api/rest/v3';
 const ECFR_API_BASE = 'https://www.ecfr.gov/api';

@@ -1,4 +1,4 @@
-import type { ModelConfig } from './modelZoo.js';
+import type { ModelConfig } from '../modelZoo.js';
 
 export const MODEL_REGISTRY: Record<string, ModelConfig> = {
   // =========================================================================

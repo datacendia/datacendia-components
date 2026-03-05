@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   event_type: z.unknown(),
   category: z.unknown(),
   severity: z.unknown(),
@@ -46,7 +46,7 @@ import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   event_type: z.unknown(),
   category: z.unknown(),
   severity: z.unknown(),
@@ -575,7 +575,7 @@ router.post('/chronos/events', async (req: Request, res: Response) => {
       return;
     }
 
-    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = bodySchema0.parse(req.body);
+    const { event_type, category, severity, title, description, resource_type, resource_id, metadata, impact, magnitude } = reqBody0.parse(req.body);
 
     if (!event_type || !category || !title || !description) {
       res.status(400).json({ success: false, error: 'event_type, category, title, and description are required' });

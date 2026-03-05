@@ -25,6 +25,7 @@
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

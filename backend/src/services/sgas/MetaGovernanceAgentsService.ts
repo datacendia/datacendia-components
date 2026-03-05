@@ -57,6 +57,7 @@ import {
   generateSGASId,
   hashState,
 } from './types.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // META-GOVERNANCE AGENT DEFINITIONS
 // =============================================================================

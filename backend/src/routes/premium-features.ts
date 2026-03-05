@@ -216,13 +216,6 @@ router.post('/pre-mortem/analyze', async (req: Request, res: Response) => {
       tier = 'enterprise',
     } = preMortemSchema.parse(req.body);
 
-    // decision is guaranteed by schema {
-      return res.status(400).json({ 
-        error: 'Decision is required',
-        code: 'MISSING_DECISION',
-      });
-    }
-
     const result = await preMortemService.analyze({
       organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',

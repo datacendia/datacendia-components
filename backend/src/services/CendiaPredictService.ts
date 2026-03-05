@@ -46,6 +46,7 @@ import { cendiaRecallService } from './CendiaRecallService.js';
 import type { DecisionOutcome, DetectedBias, LessonLearned } from './CendiaRecallService.js';
 import { cascadeService } from './CendiaCascadeService.js';
 import type { ChangeSpec, ChangeType, CascadeReport, ConsequenceAssessment } from './CendiaCascadeService.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

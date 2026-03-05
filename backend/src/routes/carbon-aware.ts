@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   name: z.unknown(),
   type: z.unknown(),
   priority: z.unknown(),
@@ -33,7 +33,7 @@ import { carbonAwareSchedulerService, WorkloadPriority, WorkloadStatus } from '.
 
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   name: z.unknown(),
   type: z.unknown(),
   priority: z.unknown(),
@@ -89,7 +89,7 @@ router.get('/intensity', async (_req: Request, res: Response): Promise<void> => 
  */
 router.post('/workloads', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, type, priority, estimatedDurationMinutes, estimatedEnergyWh, preferredRegions, maxDeferralHours } = bodySchema0.parse(req.body);
+    const { name, type, priority, estimatedDurationMinutes, estimatedEnergyWh, preferredRegions, maxDeferralHours } = reqBody0.parse(req.body);
 
     if (!name || !type || !estimatedDurationMinutes || !estimatedEnergyWh) {
       res.status(400).json({

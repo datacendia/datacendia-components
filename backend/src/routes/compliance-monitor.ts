@@ -1,18 +1,18 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   organizationId: z.unknown(),
   framework: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   organizationId: z.unknown(),
   framework: z.unknown(),
 }).passthrough();
-const bodySchema2 = z.object({
+const reqBody0 = z.object({
   assignedTo: z.unknown(),
 }).passthrough();
-const bodySchema3 = z.object({
+const reqBody0 = z.object({
   resolution: z.unknown(),
 }).passthrough();
 
@@ -38,18 +38,18 @@ import { continuousComplianceMonitorService, ComplianceFramework, AlertStatus } 
 
 import { z } from 'zod';
 
-const bodySchema0 = z.object({
+const reqBody0 = z.object({
   organizationId: z.unknown(),
   framework: z.unknown(),
 }).passthrough();
-const bodySchema1 = z.object({
+const reqBody0 = z.object({
   organizationId: z.unknown(),
   framework: z.unknown(),
 }).passthrough();
-const bodySchema2 = z.object({
+const reqBody0 = z.object({
   assignedTo: z.unknown(),
 }).passthrough();
-const bodySchema3 = z.object({
+const reqBody0 = z.object({
   resolution: z.unknown(),
 }).passthrough();
 
@@ -86,7 +86,7 @@ router.get('/frameworks', (_req: Request, res: Response) => {
  */
 router.post('/initialize', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, framework } = bodySchema0.parse(req.body);
+    const { organizationId, framework } = reqBody0.parse(req.body);
 
     if (!organizationId || !framework) {
       res.status(400).json({ success: false, error: 'organizationId and framework are required' });
@@ -109,7 +109,7 @@ router.post('/initialize', async (req: Request, res: Response): Promise<void> =>
  */
 router.post('/scan', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, framework } = bodySchema0.parse(req.body);
+    const { organizationId, framework } = reqBody0.parse(req.body);
 
     if (!organizationId || !framework) {
       res.status(400).json({ success: false, error: 'organizationId and framework are required' });
@@ -205,7 +205,7 @@ router.get('/alerts/:orgId', (req: Request, res: Response): void => {
  */
 router.post('/alerts/:id/acknowledge', (req: Request, res: Response): void => {
   try {
-    const { assignedTo } = bodySchema2.parse(req.body);
+    const { assignedTo } = reqBody0.parse(req.body);
     const alert = continuousComplianceMonitorService.acknowledgeAlert(req.params['id']!, assignedTo);
     res.json({ success: true, data: alert });
   } catch (error) {
@@ -219,7 +219,7 @@ router.post('/alerts/:id/acknowledge', (req: Request, res: Response): void => {
  */
 router.post('/alerts/:id/resolve', (req: Request, res: Response): void => {
   try {
-    const { resolution } = bodySchema3.parse(req.body);
+    const { resolution } = reqBody0.parse(req.body);
     const alert = continuousComplianceMonitorService.resolveAlert(
       req.params['id']!,
       resolution || 'resolved'

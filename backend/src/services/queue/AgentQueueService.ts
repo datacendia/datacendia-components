@@ -25,6 +25,7 @@ import Redis from 'ioredis';
 import { config } from '../../config/index.js';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 function attachRedisEventHandlers(client: Redis, label: string) {
   client.on('error', (err) => {
     logger.error(`[AgentQueue] ${label} Redis error:`, err);

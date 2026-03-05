@@ -24,6 +24,7 @@ import { druidService, DRUID_DATASOURCES } from './storage/DruidService';
 import { EventEmitter } from 'events';
 import { logger } from '../utils/logger.js';
 
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // Event types
 export interface DecisionEvent {
   organizationId: string;

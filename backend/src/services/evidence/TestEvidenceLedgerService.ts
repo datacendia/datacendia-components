@@ -31,6 +31,7 @@ import fs from 'fs';
 import path from 'path';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

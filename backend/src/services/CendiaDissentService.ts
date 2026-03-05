@@ -26,6 +26,7 @@ import { logger } from '../utils/logger.js';
 import ollama from './ollama.js';
 import crypto from 'crypto';
 import { recordChronosEvent } from './ChronosEventBus.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

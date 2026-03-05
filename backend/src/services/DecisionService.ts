@@ -24,6 +24,7 @@
 import { BaseService } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { PrismaClient } from '@prisma/client';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 const prisma = new PrismaClient();
 
 // =============================================================================

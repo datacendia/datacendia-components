@@ -50,6 +50,7 @@ import {
 
 
 import type { OracleQuery, TimeHorizon, OracleSimulation, Universe, TimelineEvent, CascadeEffect, AgentInsight, UniverseOutcome, OutcomeMetric, RiskProfile, RiskFactor, HistoricalEcho, PivotalMoment, ForkOption, OracleRecommendation, SimulationMetadata, ChangeSpec, ConsequenceAssessment, Mitigation, Guardrail, CascadeTimeline, CascadeReport } from './horizon-types.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 export type { OracleQuery, TimeHorizon, OracleSimulation, Universe, TimelineEvent, CascadeEffect, AgentInsight, UniverseOutcome, OutcomeMetric, RiskProfile, RiskFactor, HistoricalEcho, PivotalMoment, ForkOption, OracleRecommendation, SimulationMetadata, ChangeSpec, ConsequenceAssessment, Mitigation, Guardrail, CascadeTimeline, CascadeReport } from './horizon-types.js';
 
 

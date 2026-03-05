@@ -26,6 +26,7 @@ import {
 } from './frameworks';
 import { logger } from '../../utils/logger.js';
 
+import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // ============================================================================
 // TYPES
 // ============================================================================
