@@ -19,6 +19,41 @@ import { dissentService } from '../services/CendiaDissentService.js';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
+
+const fileDissentSchema = z.object({
+  decisionId: z.string().min(1),
+  type: z.enum(['formal', 'informal', 'emergency']).default('formal'),
+  reason: z.string().min(10, 'Reason must be at least 10 characters'),
+  supportingEvidence: z.string().optional(),
+  requestedOutcome: z.string().optional(),
+  anonymous: z.boolean().default(false),
+  severity: z.enum(['LOW', 'MEDIUM', 'HIGH', 'CRITICAL']).default('MEDIUM'),
+});
+
+const respondToDissentSchema = z.object({
+  response: z.string().min(1, 'Response is required'),
+  action: z.enum(['acknowledge', 'investigate', 'resolve', 'escalate', 'dismiss']),
+  resolution: z.string().optional(),
+  respondedBy: z.string().optional(),
+});
+
+const reportRetaliationSchema = z.object({
+  flagType: z.string().min(1),
+  description: z.string().min(10),
+});
+
+const verifyOutcomeSchema = z.object({
+  wasRight: z.boolean(),
+  notes: z.string().optional(),
+});
+
+const updateConfigSchema = z.object({
+  anonymousAllowed: z.boolean().optional(),
+  autoEscalateThreshold: z.number().int().min(1).optional(),
+  retaliationProtection: z.boolean().optional(),
+  requireEvidence: z.boolean().optional(),
+});
+
 const router = Router();
 
 // =============================================================================
@@ -46,7 +81,8 @@ router.get('/list', async (req: Request, res: Response) => {
 router.post('/file', async (req: Request, res: Response) => {
   try {
     const organizationId = req.organizationId!;
-    const dissent = await dissentService.fileDissent(organizationId, req.body);
+    const body = fileDissentSchema.parse(req.body);
+    const dissent = await dissentService.fileDissent(organizationId, body);
     res.json({ success: true, data: dissent });
   } catch (error) {
     res.json({ success: true, data: { id: 'dissent-' + Date.now(), status: 'filed' } });
@@ -68,7 +104,8 @@ router.get('/analytics', async (_req: Request, res: Response) => {
 router.post('/', async (req: Request, res: Response) => {
   try {
     const organizationId = req.organizationId!;
-    const dissent = await dissentService.fileDissent(organizationId, req.body);
+    const body = fileDissentSchema.parse(req.body);
+    const dissent = await dissentService.fileDissent(organizationId, body);
     res.status(201).json(dissent);
   } catch (error) {
     logger.error('[Dissent API] Error filing dissent:', error);
@@ -141,7 +178,8 @@ router.get('/:id', async (req: Request, res: Response) => {
 router.post('/:id/respond', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const dissent = await dissentService.respondToDissent(id, req.body);
+    const body = respondToDissentSchema.parse(req.body);
+    const dissent = await dissentService.respondToDissent(id, body);
     res.json(dissent);
   } catch (error) {
     logger.error('[Dissent API] Error responding to dissent:', error);
@@ -214,7 +252,7 @@ router.get('/retaliation-flags', async (req: Request, res: Response) => {
 router.post('/:id/report-retaliation', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { flagType, description } = z.object({}).passthrough().parse(req.body);
+    const { flagType, description } = reportRetaliationSchema.parse(req.body);
     const flag = await dissentService.reportRetaliation(id, flagType, description);
     res.status(201).json(flag);
   } catch (error) {
@@ -234,7 +272,7 @@ router.post('/:id/report-retaliation', async (req: Request, res: Response) => {
 router.post('/:id/verify-outcome', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const { wasRight, notes } = z.object({}).passthrough().parse(req.body);
+    const { wasRight, notes } = verifyOutcomeSchema.parse(req.body);
     const dissent = await dissentService.recordOutcomeVerification(id, wasRight, notes);
     res.json(dissent);
   } catch (error) {
@@ -289,7 +327,8 @@ router.get('/config', async (req: Request, res: Response) => {
 router.put('/config', async (req: Request, res: Response) => {
   try {
     const organizationId = req.organizationId!;
-    const config = await dissentService.updateConfig(organizationId, req.body);
+    const body = updateConfigSchema.parse(req.body);
+    const config = await dissentService.updateConfig(organizationId, body);
     res.json(config);
   } catch (error) {
     logger.error('[Dissent API] Error updating config:', error);

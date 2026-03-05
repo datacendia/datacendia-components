@@ -29,6 +29,59 @@ import {
   TestExecution,
 } from '../services/evidence/index.js';
 
+import { z } from 'zod';
+
+const ledgerRecordSchema = z.object({
+  id: z.string().optional(),
+  testSuiteId: z.string().optional(),
+  testSuiteName: z.string().optional(),
+  testCaseId: z.string().optional(),
+  testCaseName: z.string().min(1, 'Test case name is required'),
+  category: z.string().optional(),
+  executedAt: z.string().datetime().optional(),
+  executedBy: z.string().optional(),
+  executionEnvironment: z.record(z.unknown()).optional(),
+  status: z.enum(['passed', 'failed', 'skipped', 'error']),
+  durationMs: z.number().int().min(0).optional(),
+  assertions: z.array(z.record(z.unknown())).optional(),
+  requestPayload: z.record(z.unknown()).optional(),
+  responsePayload: z.record(z.unknown()).optional(),
+  errorMessage: z.string().optional(),
+  stackTrace: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+  complianceFrameworks: z.array(z.string()).optional(),
+  securityControls: z.array(z.string()).optional(),
+});
+
+const ledgerBatchSchema = z.object({
+  executions: z.array(ledgerRecordSchema).min(1, 'At least one execution required'),
+});
+
+const suiteCreateSchema = z.object({
+  name: z.string().min(1),
+  description: z.string().optional(),
+  category: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+});
+
+const attestSchema = z.object({
+  frameworkId: z.string().min(1),
+  controlId: z.string().min(1),
+  status: z.enum(['compliant', 'non_compliant', 'partial', 'not_applicable']),
+  evidence: z.string().optional(),
+  attestedBy: z.string().optional(),
+});
+
+const exportBundleSchema = z.object({
+  format: z.enum(['pdf', 'json', 'zip']).default('json'),
+  frameworks: z.array(z.string()).optional(),
+  dateRange: z.object({
+    from: z.string().datetime().optional(),
+    to: z.string().datetime().optional(),
+  }).optional(),
+  includeRawData: z.boolean().default(false),
+});
+
 const router = Router();
 
 // Initialize services
