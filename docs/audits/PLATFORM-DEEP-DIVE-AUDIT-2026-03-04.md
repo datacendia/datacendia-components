@@ -652,11 +652,32 @@ All audit findings have been addressed. Below is the verified remediation status
 | File decomposition | ✅ STARTED | CendiaCrucible types extracted to `crucible/types.ts`. Plan documented for remaining 35 files >50KB. |
 | tsconfig strict flags | ⚠️ DEFERRED | Enabling generates 1055 errors. Unused imports cleaned. Flags kept `false` for incremental enabling. |
 
+### Session 4 Progress (March 5, 2026 — afternoon)
+
+| Item | Status | Details |
+|------|--------|---------|
+| File decomposition (batch) | ✅ DONE | 14 files processed. Type extraction from CendiaPanopticon (-10KB), CendiaAegis, CendiaSentry, CendiaGuardian, RegulatorsReceipt, CendiaTransit (-5KB), IISSService, CendiaOmniTranslate. 14 type files created. |
+| Zod schemas (batch 2) | ✅ DONE | Automated script replaced 159 more passthrough schemas across all remaining route files. Total: 369→10 (97%). |
+
+### Cumulative Decomposition Results
+| File | Before | After | Reduction |
+|------|--------|-------|-----------|
+| `modelZoo.ts` | 93KB | 7KB | **-92%** |
+| `council.ts` | 78KB | 52KB | **-33%** |
+| `CendiaHorizonService.ts` | 72KB | 60KB | -17% |
+| `CendiaApotheosisService.ts` | 75KB | 62KB | -17% |
+| `CendiaPanopticonService.ts` | 60KB | 50KB | -17% |
+| `CendiaTransitService.ts` | 53KB | 48KB | -9% |
+| `CendiaSentryService.ts` | 52KB | 50KB | -4% |
+| `CendiaCrucibleService.ts` | 103KB | 99KB | -4% |
+| `CendiaWatchService.ts` | 76KB | 74KB | -3% |
+| **Total extracted** | | | **14 type files, ~1,500 lines** |
+
 ### Remaining Items
 | Item | Reason | Estimated Effort |
 |------|--------|-----------------|
 | Prisma 5→7 upgrade | 1000+ type errors: enum casts, `$extends` type, `$use` removal | 2-3 days |
-| File decomposition (35 files >50KB) | Structural refactor — split class methods into sub-modules | 3-5 days |
+| File decomposition (14 non-vertical files still >50KB) | Class method splitting needed — type extraction done | 2-3 days |
 | tsconfig strict flags | Enable after fixing 1055 unused locals/params/implicit returns | 2-3 days |
 
 ### Cumulative Metrics (Sessions 1-3)
