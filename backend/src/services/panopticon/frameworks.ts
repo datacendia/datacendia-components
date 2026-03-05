@@ -78,6 +78,36 @@ export const REGULATORY_FRAMEWORKS: RegulationFramework[] = [
   { code: 'AML_6AMLD', name: '6th Anti-Money Laundering Directive', jurisdiction: 'EU', category: 'AML', description: 'Enhanced EU AML requirements', requirements: 72 },
   { code: 'BSA', name: 'Bank Secrecy Act', jurisdiction: 'US', category: 'AML', description: 'US anti-money laundering', requirements: 55 },
   { code: 'FATF', name: 'FATF Recommendations', jurisdiction: 'Global', category: 'AML', description: 'International AML standards', requirements: 40 },
+
+  // Peru — Mandatory for Peruvian regulated institutions
+  { code: 'DS_115_2025_PCM', name: 'DS N° 115-2025-PCM', jurisdiction: 'PE', category: 'AI', description: 'Supreme Decree nationalizing ISO/IEC 42001:2023 as enforceable AI governance standard in Peru. Applies to public procurement and SBS-regulated institutions.', requirements: 93 },
+  { code: 'LEY_31814', name: 'Ley 31814 — Ley de Inteligencia Artificial', jurisdiction: 'PE', category: 'AI', description: 'Peru organic AI law (July 2023). Risk-based framework: prohibited, high-risk (credit scoring, biometric ID, employment), and acceptable uses.', requirements: 45 },
+  { code: 'LEY_26702', name: 'Ley 26702 — Ley General del Sistema Financiero', jurisdiction: 'PE', category: 'Financial', description: 'Primary law governing Peru financial system. All SBS-regulated institutions operate under this framework.', requirements: 120 },
+  { code: 'SBS_GOB_CORP', name: 'SBS Reglamento de Gobierno Corporativo y Gestión Integral de Riesgos', jurisdiction: 'PE', category: 'Financial', description: 'SBS regulation (2017) on corporate governance and comprehensive risk management. AI governance sits within operational risk framework.', requirements: 85 },
+  { code: 'LEY_29733', name: 'Ley 29733 — Ley de Protección de Datos Personales', jurisdiction: 'PE', category: 'Privacy', description: 'Peru personal data protection law. Requires data protection impact assessments for AI systems processing sensitive personal data.', requirements: 52 },
+
+  // Defense / Government — Additional
+  { code: 'NIST_800_171', name: 'NIST SP 800-171', jurisdiction: 'US', category: 'Cybersecurity', description: 'Protecting Controlled Unclassified Information in nonfederal systems', requirements: 110 },
+
+  // Healthcare — Additional
+  { code: 'HITRUST', name: 'HITRUST CSF', jurisdiction: 'US', category: 'Healthcare', description: 'Healthcare Information Trust Alliance Common Security Framework', requirements: 156 },
+  { code: 'FDA_SaMD', name: 'FDA Software as a Medical Device', jurisdiction: 'US', category: 'Healthcare', description: 'FDA guidance for Software as a Medical Device classification and oversight', requirements: 38 },
+
+  // Insurance
+  { code: 'SOLVENCY_II', name: 'Solvency II', jurisdiction: 'EU', category: 'Insurance', description: 'EU insurance capital adequacy and risk management framework', requirements: 95 },
+  { code: 'NAIC', name: 'NAIC Model Laws', jurisdiction: 'US', category: 'Insurance', description: 'US National Association of Insurance Commissioners model regulation', requirements: 48 },
+
+  // Energy — Additional
+  { code: 'IEC_62443', name: 'IEC 62443', jurisdiction: 'Global', category: 'Energy', description: 'Industrial automation and control systems cybersecurity', requirements: 78 },
+
+  // Sports / Football
+  { code: 'UEFA_FFP', name: 'UEFA Financial Fair Play / PSR', jurisdiction: 'EU', category: 'Sports', description: 'UEFA Profit and Sustainability Rules for football clubs', requirements: 35 },
+  { code: 'FIFA_AGENT_REGS', name: 'FIFA Agent Regulations', jurisdiction: 'Global', category: 'Sports', description: 'FIFA Football Agent Regulations governing agent licensing and conduct', requirements: 28 },
+  { code: 'PL_PSR', name: 'Premier League PSR', jurisdiction: 'UK', category: 'Sports', description: 'Premier League Profit and Sustainability Rules', requirements: 32 },
+  { code: 'FGA_2025', name: 'Football Governance Act 2025 / IFR', jurisdiction: 'UK', category: 'Sports', description: 'UK Football Governance Act establishing Independent Football Regulator', requirements: 45 },
+
+  // Legal
+  { code: 'ABA_MRPC', name: 'ABA Model Rules of Professional Conduct', jurisdiction: 'US', category: 'Legal', description: 'Attorney ethics rules including privilege preservation and competence with AI tools', requirements: 52 },
 ];
 
 // =============================================================================
