@@ -1,6 +1,8 @@
 // =============================================================================
-// ENTERPRISE DATA SEED SCRIPT
-// Seeds realistic data for all enterprise models
+// ENTERPRISE DATA SEED SCRIPT — DEMO/SAMPLE DATA ONLY
+// Seeds fictitious sample data for development and demonstration purposes.
+// This data does NOT represent real customers, organizations, or metrics.
+// Do not use seeded counts or breadth as evidence of production maturity.
 // Run with: npx ts-node prisma/seed-enterprise.ts
 // =============================================================================
 
@@ -406,7 +408,7 @@ async function main() {
     await seedDecisionIntel();
     await seedEnterprise();
     
-    console.log('\n✅ All enterprise data seeded successfully!');
+    console.log('\n✅ All enterprise DEMO data seeded successfully (sample data only — not production).');
   } catch (error) {
     console.error('Seed error:', error);
     throw error;
