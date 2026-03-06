@@ -116,6 +116,7 @@
     "@types/swagger-ui-express": "^4.1.8",
     "@types/uuid": "^9.0.7",
     "@types/ws": "^8.18.1",
+    "@vitest/coverage-v8": "^4.0.15",
     "@vitest/ui": "^4.0.15",
     "prisma": "^7.4.2",
     "supertest": "^7.1.4",

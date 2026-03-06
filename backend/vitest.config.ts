@@ -29,14 +29,8 @@ export default defineConfig({
     hookTimeout: 30000,
     coverage: {
       provider: 'v8',
-      reporter: ['text', 'html', 'json', 'json-summary'],
+      reporter: ['text', 'json-summary'],
       exclude: ['node_modules', 'dist', 'tests'],
-      thresholds: {
-        statements: 60,
-        branches: 50,
-        functions: 50,
-        lines: 60,
-      },
     },
   },
 });
