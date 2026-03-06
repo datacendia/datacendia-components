@@ -203,4 +203,49 @@ export async function connectServices(): Promise<void> {
   } catch (e) {
     logger.warn('[CendiaBackup] Backup scheduler failed to start:', e);
   }
+
+  // MinIO Object Storage (sovereign document storage)
+  try {
+    const { minioService } = await import('../services/storage/MinioService.js');
+    await withTimeout(5000, minioService.initialize(), 'MinIO');
+    logger.info('[MinIO] Sovereign object storage initialized — buckets ready');
+  } catch (e) {
+    logger.warn('[MinIO] Object storage unavailable — document upload/download disabled:', e);
+  }
+
+  // ClickHouse Analytics (fast SQL analytics)
+  try {
+    const { clickhouseService } = await import('../services/storage/ClickHouseService.js');
+    const available = await withTimeout(5000, clickhouseService.checkAvailability(), 'ClickHouse');
+    if (available) {
+      await clickhouseService.initializeTables();
+      logger.info('[ClickHouse] Analytics storage initialized — tables ready');
+    } else {
+      logger.warn('[ClickHouse] Analytics storage unavailable — audit analytics disabled');
+    }
+  } catch (e) {
+    logger.warn('[ClickHouse] Analytics initialization failed:', e);
+  }
+
+  // ClamAV Antivirus (enterprise malware scanning)
+  try {
+    const { clamAVIntegration } = await import('../services/sovereign/ClamAVIntegration.js');
+    const clamAvailable = await withTimeout(5000, clamAVIntegration.ping(), 'ClamAV');
+    if (clamAvailable) {
+      logger.info('[ClamAV] Antivirus scanning enabled — real signature-based detection');
+    } else {
+      logger.info('[ClamAV] Daemon unavailable — using heuristic fallback scanner');
+    }
+  } catch (e) {
+    logger.warn('[ClamAV] Antivirus initialization failed — heuristic fallback active:', e);
+  }
+
+  // OPA Policy Engine (embedded policy evaluation)
+  try {
+    const { opa } = await import('../services/opa/OPAService.js');
+    const health = await withTimeout(5000, opa.checkHealth(), 'OPA');
+    logger.info(`[OPA] Policy engine ready — ${health.policyCount} policies loaded (mode: ${health.mode})`);
+  } catch (e) {
+    logger.warn('[OPA] Policy engine health check failed:', e);
+  }
 }

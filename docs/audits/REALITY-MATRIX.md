@@ -228,7 +228,7 @@
 | ShadowCouncilService | `sovereign/ShadowCouncilService.ts` | 🟡 DEMO | In-memory shadow deliberation |
 | TimeLockService | `sovereign/TimeLockService.ts` | 🟡 DEMO | In-memory time locks |
 | TPMAttestationService | `sovereign/TPMAttestationService.ts` | 🔵 ROADMAP | Requires TPM hardware |
-| ClamAVIntegration | `sovereign/ClamAVIntegration.ts` | 🔵 ROADMAP | Requires ClamAV daemon |
+| ClamAVIntegration | `sovereign/ClamAVIntegration.ts` | ✅ REAL | TCP socket to clamd + heuristic fallback; Docker in dev stack |
 
 ---
 
@@ -250,9 +250,9 @@
 |---------|------|--------|----------|
 | VectorService | `storage/VectorService.ts` | ✅ REAL | Prisma + embeddings |
 | VectorDBService | `vectordb/VectorDBService.ts` | ✅ REAL | Qdrant integration |
-| ClickHouseService | `storage/ClickHouseService.ts` | 🔵 ROADMAP | Requires ClickHouse |
+| ClickHouseService | `storage/ClickHouseService.ts` | ✅ REAL | @clickhouse/client, auto-creates tables; Docker in dev stack |
 | DruidService | `storage/DruidService.ts` | 🔵 ROADMAP | Requires Druid |
-| MinioService | `storage/MinioService.ts` | 🔵 ROADMAP | Requires MinIO |
+| MinioService | `storage/MinioService.ts` | ✅ REAL | minio npm client, auto-creates buckets; Docker in dev stack |
 | AnalyticsRouter | `storage/AnalyticsRouter.ts` | 🟡 DEMO | Routes to available backends |
 
 ### Infrastructure
@@ -272,7 +272,7 @@
 | Service | File | Status | Evidence |
 |---------|------|--------|----------|
 | ComplianceService | `compliance/ComplianceService.ts` | ✅ REAL | Rule engine |
-| OPAService | `opa/OPAService.ts` | 🔵 ROADMAP | Requires OPA server |
+| OPAService | `opa/OPAService.ts` | ✅ REAL | Embedded JS policy engine (12+ policies); optional OPA server mode |
 | NeMoGuardrailsEngine | `guardrails/NeMoGuardrailsEngine.ts` | 🔵 ROADMAP | Requires NeMo Guardrails |
 | AIConstitutionalCourtService | `governance/AIConstitutionalCourtService.ts` | ✅ REAL | Prisma + rule engine |
 

@@ -55,10 +55,91 @@ services:
     #           count: all
     #           capabilities: [gpu]
 
+  # MinIO — Sovereign Object Storage (S3-compatible)
+  # Powers: CendiaVault™, CendiaGnosis™ document storage
+  minio:
+    image: minio/minio:latest
+    container_name: datacendia-minio-dev
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ACCESS_KEY:-datacendia_admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-datacendia_secure_2024}
+    volumes:
+      - minio_dev_data:/data
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Web Console
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ClamAV — Enterprise Antivirus Scanning
+  # Powers: DataDiode malware detection, file upload scanning
+  clamav:
+    image: clamav/clamav:latest
+    container_name: datacendia-clamav-dev
+    restart: unless-stopped
+    ports:
+      - "3310:3310"   # clamd TCP socket
+    volumes:
+      - clamav_dev_data:/var/lib/clamav
+    healthcheck:
+      test: ["CMD", "clamdcheck"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 120s  # ClamAV needs time to load signature DB
+
+  # ClickHouse — Fast SQL Analytics
+  # Powers: Audit events, decision history, agent metrics, system telemetry
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: datacendia-clickhouse-dev
+    restart: unless-stopped
+    environment:
+      CLICKHOUSE_DB: datacendia
+      CLICKHOUSE_USER: datacendia
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:-datacendia_secure_2024}
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    volumes:
+      - clickhouse_dev_data:/var/lib/clickhouse
+    ports:
+      - "8123:8123"   # HTTP interface
+      - "9009:9000"   # Native TCP (9009 to avoid MinIO conflict)
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8123/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # OPA — Open Policy Agent (optional server mode)
+  # Embedded mode works without this container.
+  # Server mode adds: full Rego language, bundle distribution, decision logging
+  opa:
+    image: openpolicyagent/opa:latest
+    container_name: datacendia-opa-dev
+    restart: unless-stopped
+    command: run --server --log-level info
+    ports:
+      - "8181:8181"   # OPA REST API
+    profiles:
+      - full  # Only start with: docker compose --profile full up
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8181/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
 volumes:
   postgres_dev_data:
   redis_dev_data:
   ollama_dev_data:
+  minio_dev_data:
+  clamav_dev_data:
+  clickhouse_dev_data:
 
 networks:
   default:
