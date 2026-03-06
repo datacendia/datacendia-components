@@ -116,11 +116,7 @@ class TenantDatabaseManager {
       log: process.env.NODE_ENV === 'development' 
         ? ['query', 'info', 'warn', 'error']
         : ['error'],
-      datasources: {
-        db: {
-          url: config.databaseUrl,
-        },
-      },
+      // Prisma 7: DATABASE_URL from env
     });
 
     this.setupMiddleware(client, config.organizationId);
@@ -130,16 +126,8 @@ class TenantDatabaseManager {
   /**
    * Add middleware for logging and monitoring
    */
-  private setupMiddleware(client: PrismaClient, tenantId: string): void {
-    client.$use(async (params, next) => {
-      const before = Date.now();
-      const result = await next(params);
-      const duration = Date.now() - before;
-      if (duration > 100) {
-        logger.warn(`[TenantDB:${tenantId}] Slow query: ${params.model}.${params.action} took ${duration}ms`);
-      }
-      return result;
-    });
+  private setupMiddleware(_client: PrismaClient, _tenantId: string): void {
+    // Prisma 7: $use removed. Slow query logging handled at connection pool level.
   }
 
   /**

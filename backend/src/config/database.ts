@@ -23,26 +23,10 @@ export const prisma = globalForPrisma.prisma ?? new PrismaClient({
   log: config.nodeEnv === 'development' 
     ? ['query', 'info', 'warn', 'error']
     : ['error'],
-  datasources: {
-    db: {
-      url: config.databaseUrl,
-    },
-  },
 });
 
 if (config.nodeEnv !== 'production') {
   globalForPrisma.prisma = prisma;
 }
-
-// Slow query logging middleware
-prisma.$use(async (params, next) => {
-  const before = Date.now();
-  const result = await next(params);
-  const duration = Date.now() - before;
-  if (duration > 100) {
-    logger.warn(`Slow query detected: ${params.model}.${params.action} took ${duration}ms`);
-  }
-  return result;
-});
 
 export default prisma;
