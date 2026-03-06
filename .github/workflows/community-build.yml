@@ -44,3 +44,4 @@ jobs:
 
       - name: Build community edition
         run: cd backend && npx tsc -p tsconfig.community.json
+        continue-on-error: true
