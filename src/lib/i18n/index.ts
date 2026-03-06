@@ -26,33 +26,32 @@ import React, {
   ReactNode,
 } from 'react';
 
-// Import all locales - 20 languages
-// The Americas
+// Only English is eagerly loaded (fallback language)
 import en from './locales/en.json';
-import es from './locales/es.json';
-import pt from './locales/pt.json';
-// Europe
-import fr from './locales/fr.json';
-import de from './locales/de.json';
-import it from './locales/it.json';
-import pl from './locales/pl.json';
-import tr from './locales/tr.json';
-// Middle East & Africa
-import ar from './locales/ar.json';
-import he from './locales/he.json';
-import sw from './locales/sw.json';
-// South Asia
-import hi from './locales/hi.json';
-import bn from './locales/bn.json';
-import ur from './locales/ur.json';
-// East & Southeast Asia
-import zh from './locales/zh.json';
-import ja from './locales/ja.json';
-import ko from './locales/ko.json';
-import id from './locales/id.json';
-import vi from './locales/vi.json';
-import th from './locales/th.json';
-import tl from './locales/tl.json';
+
+// All other locales are lazy-loaded on demand to reduce main bundle size
+const localeLoaders: Record<string, () => Promise<Record<string, unknown>>> = {
+  es: () => import('./locales/es.json').then((m) => m.default as Record<string, unknown>),
+  pt: () => import('./locales/pt.json').then((m) => m.default as Record<string, unknown>),
+  fr: () => import('./locales/fr.json').then((m) => m.default as Record<string, unknown>),
+  de: () => import('./locales/de.json').then((m) => m.default as Record<string, unknown>),
+  it: () => import('./locales/it.json').then((m) => m.default as Record<string, unknown>),
+  pl: () => import('./locales/pl.json').then((m) => m.default as Record<string, unknown>),
+  tr: () => import('./locales/tr.json').then((m) => m.default as Record<string, unknown>),
+  ar: () => import('./locales/ar.json').then((m) => m.default as Record<string, unknown>),
+  he: () => import('./locales/he.json').then((m) => m.default as Record<string, unknown>),
+  sw: () => import('./locales/sw.json').then((m) => m.default as Record<string, unknown>),
+  hi: () => import('./locales/hi.json').then((m) => m.default as Record<string, unknown>),
+  bn: () => import('./locales/bn.json').then((m) => m.default as Record<string, unknown>),
+  ur: () => import('./locales/ur.json').then((m) => m.default as Record<string, unknown>),
+  zh: () => import('./locales/zh.json').then((m) => m.default as Record<string, unknown>),
+  ja: () => import('./locales/ja.json').then((m) => m.default as Record<string, unknown>),
+  ko: () => import('./locales/ko.json').then((m) => m.default as Record<string, unknown>),
+  id: () => import('./locales/id.json').then((m) => m.default as Record<string, unknown>),
+  vi: () => import('./locales/vi.json').then((m) => m.default as Record<string, unknown>),
+  th: () => import('./locales/th.json').then((m) => m.default as Record<string, unknown>),
+  tl: () => import('./locales/tl.json').then((m) => m.default as Record<string, unknown>),
+};
 
 // =============================================================================
 // TYPES
@@ -313,34 +312,31 @@ export const localeConfigs: Record<SupportedLocale, LocaleConfig> = {
 // TRANSLATION DATA
 // =============================================================================
 
-const translations: Record<SupportedLocale, Record<string, unknown>> = {
-  // The Americas
+// Mutable translations cache — only English is pre-loaded
+const translations: Record<string, Record<string, unknown>> = {
   en,
-  es,
-  pt,
-  // Europe
-  fr,
-  de,
-  it,
-  pl,
-  tr,
-  // Middle East & Africa
-  ar,
-  he,
-  sw,
-  // South Asia
-  hi,
-  bn,
-  ur,
-  // East & Southeast Asia
-  zh,
-  ja,
-  ko,
-  id,
-  vi,
-  th,
-  tl,
 };
+
+/**
+ * Load a locale's translations on demand. Returns cached if already loaded.
+ */
+async function loadLocale(locale: SupportedLocale): Promise<Record<string, unknown>> {
+  if (translations[locale]) {
+    return translations[locale];
+  }
+  const loader = localeLoaders[locale];
+  if (!loader) {
+    return translations.en;
+  }
+  try {
+    const data = await loader();
+    translations[locale] = data;
+    return data;
+  } catch (err) {
+    logger.warn(`[i18n] Failed to load locale ${locale}, falling back to English`);
+    return translations.en;
+  }
+}
 
 // =============================================================================
 // UTILITY FUNCTIONS
@@ -439,8 +435,19 @@ export const I18nProvider: React.FC<I18nProviderProps> = ({ children, defaultLoc
     // Priority: stored > default > browser detection > 'en'
     return getStoredLocale() || defaultLocale || detectBrowserLocale();
   });
+  const [, setLocaleReady] = useState(0);
 
   const localeConfig = localeConfigs[locale];
+
+  // Lazy-load locale translations when locale changes
+  useEffect(() => {
+    if (locale !== 'en' && !translations[locale]) {
+      loadLocale(locale).then(() => {
+        // Force re-render so t() picks up the loaded translations
+        setLocaleReady((n) => n + 1);
+      });
+    }
+  }, [locale]);
 
   // Set HTML dir attribute for RTL support
   useEffect(() => {

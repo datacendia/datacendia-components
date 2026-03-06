@@ -21,7 +21,7 @@
  * See LICENSE file for details.
  */
 
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { ToastProvider } from '../components/feedback';
 import { I18nProvider } from './lib/i18n';
@@ -31,8 +31,12 @@ import { DemoModeProvider } from './contexts/DemoModeContext';
 // Use lazy-loaded routes for better performance (code splitting)
 import { router } from './routes.lazy';
 import ErrorBoundary from './components/ErrorBoundary';
-import { TechTeamPanel } from './components/dev/TechTeamPanel';
-import { DemoOverlay } from './components/demo/DemoOverlay';
+const TechTeamPanel = lazy(() =>
+  import('./components/dev/TechTeamPanel').then((m) => ({ default: m.TechTeamPanel }))
+);
+const DemoOverlay = lazy(() =>
+  import('./components/demo/DemoOverlay').then((m) => ({ default: m.DemoOverlay }))
+);
 
 export const App: React.FC = () => {
   return (
@@ -44,9 +48,9 @@ export const App: React.FC = () => {
               <ToastProvider>
                 <RouterProvider router={router} />
                 {/* AI Tech Team - Auto-Heal Panel */}
-                <TechTeamPanel />
+                <Suspense fallback={null}><TechTeamPanel /></Suspense>
                 {/* Demo Recording Overlay */}
-                <DemoOverlay />
+                <Suspense fallback={null}><DemoOverlay /></Suspense>
               </ToastProvider>
             </DemoModeProvider>
           </VerticalConfigProvider>

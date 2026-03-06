@@ -20,28 +20,28 @@ import { RouteObject, Navigate } from 'react-router-dom';
 import { SuspenseWrapper, RedirectToCouncilWithQuery } from '../utils';
 
 const PreMortemPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.PreMortemPage }))
+  import('../../pages/cortex/intelligence/PreMortemPage').then((m) => ({ default: m.PreMortemPage }))
 );
 const GhostBoardPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.GhostBoardPage }))
+  import('../../pages/cortex/intelligence/GhostBoardPage').then((m) => ({ default: m.GhostBoardPage }))
 );
 const DecisionDebtPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.DecisionDebtPage }))
+  import('../../pages/cortex/intelligence/DecisionDebtPage').then((m) => ({ default: m.DecisionDebtPage }))
 );
 const LiveDemoPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.LiveDemoPage }))
+  import('../../pages/cortex/intelligence/LiveDemoPage').then((m) => ({ default: m.LiveDemoPage }))
 );
 const RegulatoryAbsorbPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.RegulatoryAbsorbPage }))
+  import('../../pages/cortex/intelligence/RegulatoryAbsorbPage').then((m) => ({ default: m.RegulatoryAbsorbPage }))
 );
 const DecisionDNAPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.DecisionDNAPage }))
+  import('../../pages/cortex/intelligence/DecisionDNAPage').then((m) => ({ default: m.DecisionDNAPage }))
 );
 const ChronosPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.ChronosPage }))
+  import('../../pages/cortex/intelligence/ChronosPage').then((m) => ({ default: m.ChronosPage }))
 );
 const CendiaLensPage = lazy(() =>
-  import('../../pages/cortex/intelligence').then((m) => ({ default: m.CendiaLensPage }))
+  import('../../pages/cortex/intelligence/CendiaLensPage').then((m) => ({ default: m.CendiaLensPage }))
 );
 
 // New DECIDE Pages

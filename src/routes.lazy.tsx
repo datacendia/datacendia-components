@@ -15,13 +15,18 @@
 // DATACENDIA - APPLICATION ROUTES (Composed from domain modules)
 // =============================================================================
 
+import React, { lazy, Suspense } from 'react';
+import { PageLoader } from './components/ui/PageLoader';
+
 // Error Pages (keep non-lazy for fast 404)
 import { NotFoundPage } from './pages/NotFoundPage';
 
 // =============================================================================
-// LAYOUTS - Load immediately (critical for shell)
+// LAYOUTS - Lazy-loaded for better code splitting
 // =============================================================================
-import { CortexLayout } from './layouts/CortexLayout';
+const CortexLayout = lazy(() =>
+  import('./layouts/CortexLayout').then((m) => ({ default: m.CortexLayout }))
+);
 
 // =============================================================================
 // DOMAIN ROUTE MODULES - 9 files replacing 2,400+ lines of inline routes
@@ -51,7 +56,7 @@ export const router = createBrowserRouter([
   // CORTEX APPLICATION
   {
     path: '/cortex',
-    element: <CortexLayout />,
+    element: <Suspense fallback={<PageLoader />}><CortexLayout /></Suspense>,
     children: [
       ...cortexCoreRoutes,
       ...cortexIntelligenceRoutes,
@@ -66,7 +71,7 @@ export const router = createBrowserRouter([
   // TOOLS
   {
     path: '/tools',
-    element: <CortexLayout />,
+    element: <Suspense fallback={<PageLoader />}><CortexLayout /></Suspense>,
     children: [
       { path: 'roi-calculator', element: lazyLoad(() => import('./pages/tools').then((m) => ({ default: m.ROICalculator }))) },
     ],

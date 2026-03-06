@@ -20,58 +20,58 @@ import { RouteObject, Navigate } from 'react-router-dom';
 import { SuspenseWrapper } from '../utils';
 
 const SovereignPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.SovereignPage }))
+  import('../../pages/cortex/enterprise/SovereignPage').then((m) => ({ default: m.SovereignPage }))
 );
 const PersonaForgePage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.PersonaForgePage }))
+  import('../../pages/cortex/enterprise/PersonaForgePage').then((m) => ({ default: m.PersonaForgePage }))
 );
 const MeshPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.MeshPage }))
+  import('../../pages/cortex/enterprise/MeshPage').then((m) => ({ default: m.MeshPage }))
 );
 const GovernPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.GovernPage }))
+  import('../../pages/cortex/enterprise/GovernPage').then((m) => ({ default: m.GovernPage }))
 );
 const DecisionPacketsPage = lazy(() =>
   import('../../pages/cortex/governance/DecisionPacketsPage').then((m) => ({ default: m.DecisionPacketsPage }))
 );
 const VoicePage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.VoicePage }))
+  import('../../pages/cortex/enterprise/VoicePage').then((m) => ({ default: m.VoicePage }))
 );
 const AutopilotPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.AutopilotPage }))
+  import('../../pages/cortex/enterprise/AutopilotPage').then((m) => ({ default: m.AutopilotPage }))
 );
 const GenomicsPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.GenomicsPage }))
+  import('../../pages/cortex/enterprise/GenomicsPage').then((m) => ({ default: m.GenomicsPage }))
 );
 const DefenseStackPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.DefenseStackPage }))
+  import('../../pages/cortex/enterprise/DefenseStackPage').then((m) => ({ default: m.DefenseStackPage }))
 );
 const FinancialPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.FinancialPage }))
+  import('../../pages/cortex/enterprise/FinancialPage').then((m) => ({ default: m.FinancialPage }))
 );
 const SportsDecisionPage = lazy(() =>
   import('../../pages/cortex/verticals/SportsPage').then((m) => ({ default: m.default }))
 );
 const OmniTranslatePage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.OmniTranslatePage }))
+  import('../../pages/cortex/enterprise/OmniTranslatePage').then((m) => ({ default: m.OmniTranslatePage }))
 );
 const VetoPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.VetoPage }))
+  import('../../pages/cortex/enterprise/VetoPage').then((m) => ({ default: m.VetoPage }))
 );
 const UnionPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.UnionPage }))
+  import('../../pages/cortex/enterprise/UnionPage').then((m) => ({ default: m.UnionPage }))
 );
 const LedgerPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.LedgerPage }))
+  import('../../pages/cortex/enterprise/LedgerPage').then((m) => ({ default: m.LedgerPage }))
 );
 const EvidenceVaultPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.EvidenceVaultPage }))
+  import('../../pages/cortex/enterprise/EvidenceVaultPage').then((m) => ({ default: m.EvidenceVaultPage }))
 );
 const ApotheosisPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.ApotheosisPage }))
+  import('../../pages/cortex/enterprise/ApotheosisPage').then((m) => ({ default: m.ApotheosisPage }))
 );
 const DissentPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.DissentPage }))
+  import('../../pages/cortex/enterprise/DissentPage').then((m) => ({ default: m.DissentPage }))
 );
 const ResponsibilityPage = lazy(() =>
   import('../../pages/cortex/enterprise/ResponsibilityPage').then((m) => ({ default: m.default }))
@@ -83,13 +83,13 @@ const CascadePage = lazy(() =>
   import('../../pages/cortex/enterprise/CascadePage').then((m) => ({ default: m.default }))
 );
 const CrisisManagementPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.CrisisManagementPage }))
+  import('../../pages/cortex/enterprise/CrisisManagementPage').then((m) => ({ default: m.CrisisManagementPage }))
 );
 const AuditWorkflowPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.AuditWorkflowPage }))
+  import('../../pages/cortex/enterprise/AuditWorkflowPage').then((m) => ({ default: m.AuditWorkflowPage }))
 );
 const TrainingPage = lazy(() =>
-  import('../../pages/cortex/enterprise').then((m) => ({ default: m.TrainingPage }))
+  import('../../pages/cortex/enterprise/TrainingPage').then((m) => ({ default: m.TrainingPage }))
 );
 const AdversarialRedTeamPage = lazy(() =>
   import('../../pages/cortex/enterprise/AdversarialRedTeamPage').then((m) => ({ default: m.default }))

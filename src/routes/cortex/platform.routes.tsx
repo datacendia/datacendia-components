@@ -115,13 +115,9 @@ const SettingsSecurityPage = lazy(() =>
 );
 
 // Crown Jewels
-const EchoPage = lazy(() => import('../../pages/cortex/crown').then((m) => ({ default: m.EchoPage })));
-const RedTeamPage = lazy(() =>
-  import('../../pages/cortex/crown').then((m) => ({ default: m.RedTeamPage }))
-);
-const GnosisPage = lazy(() =>
-  import('../../pages/cortex/crown').then((m) => ({ default: m.GnosisPage }))
-);
+const EchoPage = lazy(() => import('../../pages/cortex/crown/EchoPage'));
+const RedTeamPage = lazy(() => import('../../pages/cortex/crown/RedTeamPage'));
+const GnosisPage = lazy(() => import('../../pages/cortex/crown/GnosisPage'));
 
 // Demo & Showcase
 const ShowcaseDashboard = lazy(() => import('../../components/showcase/ShowcaseDashboard'));
