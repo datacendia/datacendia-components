@@ -36,7 +36,9 @@ import { EnhancedLLMService } from './EnhancedLLMService.js';
 // =============================================================================
 
 
+import { REGULATORY_FRAMEWORKS } from './panopticon-svc-types.js';
 import type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast } from './panopticon-svc-types.js';
+export { REGULATORY_FRAMEWORKS } from './panopticon-svc-types.js';
 export type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast } from './panopticon-svc-types.js';
 
 
