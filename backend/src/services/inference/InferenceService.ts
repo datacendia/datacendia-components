@@ -32,6 +32,8 @@ import { logger } from '../../utils/logger.js';
 import { OllamaProvider } from './OllamaProvider.js';
 import { TritonProvider } from './TritonProvider.js';
 import { NIMProvider } from './NIMProvider.js';
+import { OpenAIProvider } from './OpenAIProvider.js';
+import { AnthropicProvider } from './AnthropicProvider.js';
 import type {
   IInferenceProvider, InferenceProviderType, InferenceChatMessage,
   InferenceOptions, InferenceModel, ProviderHealth,
@@ -69,6 +71,16 @@ class InferenceService implements IInferenceProvider {
         this.primary = new NIMProvider();
         this.fallback = this.failoverEnabled ? ollamaProvider : null;
         logger.info('[Inference] Primary provider: NVIDIA NIM (self-hosted)');
+        break;
+      case 'openai':
+        this.primary = new OpenAIProvider();
+        this.fallback = this.failoverEnabled ? ollamaProvider : null;
+        logger.info('[Inference] Primary provider: OpenAI (cloud)');
+        break;
+      case 'anthropic':
+        this.primary = new AnthropicProvider();
+        this.fallback = this.failoverEnabled ? ollamaProvider : null;
+        logger.info('[Inference] Primary provider: Anthropic (cloud)');
         break;
       case 'ollama':
       default:

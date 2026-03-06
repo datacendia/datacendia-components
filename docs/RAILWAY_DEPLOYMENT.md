@@ -1,11 +1,22 @@
-# Railway Deployment Guide — Datacendia Hosted Demo
+# Railway Deployment Guide — Datacendia Platform
 
-Deploy `app.datacendia.com` on Railway in under 15 minutes.
+Deploy the full Datacendia platform (frontend + backend) on Railway.
+
+## Architecture
+
+Railway runs a **single container** that serves both:
+- **Frontend** — React SPA served via `express.static` at `/`
+- **Backend** — Express API at `/api/v1/*`, health at `/health`
+
+External managed services:
+- **PostgreSQL** — Railway-managed (primary database, 190 Prisma models)
+- **Redis** — Railway-managed (caching, sessions, rate limiting)
+- **AI Inference** — Cloud LLM provider (OpenAI or Anthropic) since Railway has no GPU
 
 ## Prerequisites
 
-- Railway account ([railway.app](https://railway.app)) — sign in with GitHub
-- Railway Pro plan ($20/mo) — required for always-on services
+- Railway account ([railway.app](https://railway.app)) — Pro plan ($20/mo) for always-on
+- OpenAI or Anthropic API key (for AI features)
 - `datacendia-components` repo accessible to Railway
 
 ## Step 1: Create Project
@@ -13,110 +24,145 @@ Deploy `app.datacendia.com` on Railway in under 15 minutes.
 1. Go to [railway.app/new](https://railway.app/new)
 2. Click **"Deploy from GitHub Repo"**
 3. Select `datacendia/datacendia-components`
-4. Railway will detect the `railway.json` config automatically
+4. Railway detects `railway.json` → uses `Dockerfile.railway`
 
 ## Step 2: Add Database Services
 
-In your Railway project dashboard, click **"+ New"** and add:
+In your Railway project dashboard, click **"+ New"**:
 
 ### PostgreSQL
 - Click **"Database"** → **PostgreSQL**
-- Railway provisions it automatically
-- Copy the `DATABASE_URL` from the service variables
+- Railway auto-provisions and sets `DATABASE_URL`
 
 ### Redis
 - Click **"Database"** → **Redis**
-- Copy the `REDIS_URL` from the service variables
+- Railway auto-provisions and sets `REDIS_URL`
+
+**Link both services** to your main deploy so the env vars are shared automatically.
 
 ## Step 3: Set Environment Variables
 
-In your main service (the GitHub deploy), go to **Variables** and add:
+In your main service → **Variables**:
 
 ```env
-# Database (auto-populated if you link the PostgreSQL service)
-DATABASE_URL=postgresql://...
-
-# Redis (auto-populated if you link the Redis service)
-REDIS_URL=redis://...
-
-# Authentication
-JWT_SECRET=<generate-a-64-char-random-string>
-JWT_REFRESH_SECRET=<generate-another-64-char-random-string>
-
-# Server
+# ─── Required ───────────────────────────────────────────────
 NODE_ENV=production
 PORT=3001
 
-# Optional — Ollama (if running local LLM)
-OLLAMA_URL=http://localhost:11434
+# Database (auto-populated when PostgreSQL service is linked)
+DATABASE_URL=${{Postgres.DATABASE_URL}}
 
-# Optional — Gateway signing key
-GATEWAY_SIGNING_KEY=<generate-a-64-char-random-string>
-AUDIT_SIGNING_KEY=<generate-a-64-char-random-string>
-```
+# Redis (auto-populated when Redis service is linked)
+REDIS_URL=${{Redis.REDIS_URL}}
 
-**Generate secrets with:**
-```bash
-node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+# Authentication (generate with: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))")
+JWT_SECRET=<64-char-hex-string>
+JWT_REFRESH_SECRET=<64-char-hex-string>
+AUDIT_SIGNING_KEY=<64-char-hex-string>
+GATEWAY_SIGNING_KEY=<64-char-hex-string>
+
+# ─── AI Inference (pick ONE) ────────────────────────────────
+# Option A: OpenAI
+INFERENCE_PROVIDER=openai
+OPENAI_API_KEY=sk-...
+OPENAI_DEFAULT_MODEL=gpt-4o
+
+# Option B: Anthropic
+# INFERENCE_PROVIDER=anthropic
+# ANTHROPIC_API_KEY=sk-ant-...
+# ANTHROPIC_DEFAULT_MODEL=claude-3-5-sonnet-20241022
+
+# ─── Optional ──────────────────────────────────────────────
+CORS_ORIGINS=https://app.datacendia.com,https://datacendia.com
 ```
 
 ## Step 4: Run Database Migrations
 
-In the Railway service shell (or via `railway run`):
+After first deploy, open the Railway service shell:
 
 ```bash
 cd backend
 npx prisma db push
 ```
 
-## Step 5: Custom Domain
+Or via Railway CLI:
+```bash
+railway run --service datacendia -- npx prisma db push --schema backend/prisma/schema
+```
 
-1. In Railway, go to your service → **Settings** → **Networking**
-2. Click **"Generate Domain"** (gives you `*.up.railway.app`)
-3. Or click **"Custom Domain"** and add `app.datacendia.com`
-4. In Namecheap DNS, add a CNAME record:
-   - Host: `app`
-   - Value: `<your-service>.up.railway.app`
-   - TTL: Automatic
+## Step 5: Seed Demo Data (Optional)
 
-## Step 6: Verify
+```bash
+cd backend
+npx tsx prisma/seed-fepcmac-demo.ts
+```
+
+## Step 6: Custom Domain
+
+1. Service → **Settings** → **Networking**
+2. Click **"Generate Domain"** (gives `*.up.railway.app`)
+3. Or **"Custom Domain"** → add `app.datacendia.com`
+4. DNS: CNAME `app` → `<service>.up.railway.app`
+
+## Step 7: Verify
 
 ```bash
 # Health check
 curl https://app.datacendia.com/health
 
-# API status
+# API health
 curl https://app.datacendia.com/api/v1/gateway/health
+
+# Frontend loads
+curl -s https://app.datacendia.com/ | head -1
+# Should return: <!DOCTYPE html>
 ```
 
 ## Cost Estimate
 
 | Service | Estimated Monthly Cost |
 |---------|----------------------|
-| API (always-on) | ~$10-15 |
-| PostgreSQL | ~$5 |
-| Redis | ~$5 |
-| **Total** | **~$20-25/mo** |
+| App container (always-on, 1GB RAM) | ~$10-15 |
+| PostgreSQL (1GB) | ~$5 |
+| Redis (256MB) | ~$5 |
+| OpenAI API (demo usage) | ~$5-20 |
+| **Total** | **~$25-45/mo** |
 
-## Alternative: Docker Compose (Self-Hosted)
+## Inference Provider Options
 
-If you prefer self-hosting instead of Railway:
+| Provider | Env Var | Best For | Cost |
+|----------|---------|----------|------|
+| **OpenAI** | `INFERENCE_PROVIDER=openai` | Highest quality, fastest setup | ~$0.01/request |
+| **Anthropic** | `INFERENCE_PROVIDER=anthropic` | Best reasoning, Claude 3.5 | ~$0.01/request |
+| **Ollama** (self-hosted) | `INFERENCE_PROVIDER=ollama` | Sovereign/air-gapped, zero API cost | Requires GPU VPS |
+
+For sovereign deployments, run Ollama on a separate GPU VPS and set:
+```env
+INFERENCE_PROVIDER=ollama
+OLLAMA_BASE_URL=http://<your-gpu-vps>:11434
+```
+
+## Alternative: Self-Hosted (Docker Compose)
 
 ```bash
-# Clone and start
 git clone https://github.com/datacendia/datacendia-components.git
 cd datacendia-components
-docker compose -f docker-compose.production.yml up -d
 
-# Run migrations
-docker compose exec api npx prisma db push
+# Dev stack (PostgreSQL + Redis + Ollama + MinIO + ClamAV + ClickHouse)
+docker compose -f docker-compose.dev.yml up -d
+
+# Full sovereign stack (20+ services, 128GB RAM recommended)
+docker compose -f infrastructure/docker-compose.sovereign.yml up -d
 ```
 
 ## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
-| Build fails | Check `railway.json` points to correct Dockerfile |
-| DB connection fails | Verify `DATABASE_URL` is set and PostgreSQL service is linked |
-| Health check fails | Ensure `PORT` env var matches the exposed port |
+| Build fails | Check `railway.json` points to `Dockerfile.railway` |
+| DB connection fails | Verify PostgreSQL service is **linked** (not just added) |
+| Health check fails | Ensure `PORT` env var matches (default: 3001) |
 | CORS errors | Add your domain to `CORS_ORIGINS` env var |
+| AI returns empty | Check `INFERENCE_PROVIDER` and API key are set |
+| Frontend 404 | Frontend dist must be built in Docker stage — check build logs |
+| Prisma errors | Run `npx prisma db push` in the Railway shell after first deploy |

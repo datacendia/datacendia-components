@@ -21,7 +21,7 @@ import { logger } from './utils/logger.js';
 import { initTracing } from './telemetry/tracing.js';
 
 // Modular startup components
-import { setupMiddleware, setupErrorHandling } from './startup/middleware.js';
+import { setupMiddleware, setupErrorHandling, serveFrontendStatic } from './startup/middleware.js';
 import { mountRoutes } from './startup/routes.js';
 import { connectServices } from './startup/connections.js';
 import { registerShutdownHandlers } from './startup/shutdown.js';
@@ -53,6 +53,7 @@ const io = new SocketIOServer(httpServer, {
 
 setupMiddleware(app);
 mountRoutes(app);
+serveFrontendStatic(app);
 setupErrorHandling(app);
 setupWebSocketHandlers(io);
 registerShutdownHandlers(httpServer);

@@ -7,6 +7,8 @@
  * Extracted from index.ts for modularity (F21 audit item).
  */
 
+import * as path from 'path';
+import * as fs from 'fs';
 import express, { type Express } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -215,11 +217,42 @@ export function setupMiddleware(app: Express): void {
 }
 
 /**
+ * Serve frontend SPA from the backend process (Railway / single-container deploys).
+ * In development, the Vite dev server serves the frontend separately.
+ */
+export function serveFrontendStatic(app: Express): void {
+  if (config.nodeEnv === 'development') return;
+
+  const frontendPath = path.resolve(__dirname, '../../../dist');
+  if (!fs.existsSync(frontendPath)) {
+    logger.info('[Static] No frontend dist found — API-only mode');
+    return;
+  }
+
+  app.use(express.static(frontendPath, { maxAge: '1d', index: false }));
+
+  // SPA fallback: serve index.html for non-API routes
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api/') || req.path.startsWith('/health') || req.path.startsWith('/liveness') || req.path.startsWith('/readiness')) {
+      return next();
+    }
+    const indexPath = path.join(frontendPath, 'index.html');
+    if (fs.existsSync(indexPath)) {
+      res.sendFile(indexPath);
+    } else {
+      next();
+    }
+  });
+
+  logger.info(`[Static] Serving frontend from ${frontendPath}`);
+}
+
+/**
  * Configure error handling middleware (must be AFTER routes).
  */
 export function setupErrorHandling(app: Express): void {
-  // 404 handler
-  app.use((_req, res) => {
+  // API 404 handler (only for /api/ routes)
+  app.use('/api/', (_req, res) => {
     res.status(404).json({
       success: false,
       error: { code: 'NOT_FOUND', message: 'Resource not found' },

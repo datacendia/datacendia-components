@@ -1,0 +1,83 @@
+# =============================================================================
+# DATACENDIA RAILWAY DOCKERFILE
+# =============================================================================
+# Single container: Express serves both API + frontend static files.
+# Uses Railway-managed PostgreSQL and Redis (no embedded databases).
+#
+# Build:   docker build -f Dockerfile.railway -t datacendia:railway .
+# Run:     docker run -p 3001:3001 -e DATABASE_URL=... -e REDIS_URL=... datacendia:railway
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Stage 1: Build Frontend (Vite)
+# -----------------------------------------------------------------------------
+FROM node:20-alpine AS frontend-builder
+
+WORKDIR /app
+
+# Copy root package files (frontend)
+COPY package*.json ./
+RUN npm ci
+
+# Copy frontend source and build
+COPY . .
+RUN npm run build
+
+# -----------------------------------------------------------------------------
+# Stage 2: Build Backend
+# -----------------------------------------------------------------------------
+FROM node:20-alpine AS backend-builder
+
+WORKDIR /app
+
+# Copy backend package files
+COPY backend/package*.json ./
+COPY backend/prisma ./prisma/
+
+# Install all dependencies (including dev for tsx)
+RUN npm ci
+
+# Generate Prisma client
+RUN npx prisma generate
+
+# Copy backend source
+COPY backend/src ./src
+COPY backend/tsconfig*.json ./
+
+# -----------------------------------------------------------------------------
+# Stage 3: Production Runtime
+# -----------------------------------------------------------------------------
+FROM node:20-alpine AS runtime
+
+RUN apk add --no-cache dumb-init curl
+
+# Create non-root user
+RUN addgroup -g 1001 -S datacendia && \
+    adduser -S datacendia -u 1001
+
+WORKDIR /app
+
+# Copy backend (source + node_modules for tsx runtime)
+COPY --from=backend-builder /app/node_modules ./backend/node_modules
+COPY --from=backend-builder /app/src ./backend/src
+COPY --from=backend-builder /app/prisma ./backend/prisma
+COPY --from=backend-builder /app/package.json ./backend/
+COPY --from=backend-builder /app/tsconfig*.json ./backend/
+
+# Copy frontend dist (served by Express in production)
+COPY --from=frontend-builder /app/dist ./dist
+
+# Set ownership
+RUN chown -R datacendia:datacendia /app
+
+USER datacendia
+
+# Railway uses PORT env var
+EXPOSE 3001
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+    CMD curl -f http://localhost:${PORT:-3001}/health || exit 1
+
+ENTRYPOINT ["dumb-init", "--"]
+CMD ["node", "--import", "tsx", "backend/src/index.ts"]
