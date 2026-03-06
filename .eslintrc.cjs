@@ -77,6 +77,21 @@ module.exports = {
     
     // Allow for development - can be stricter later
     '@typescript-eslint/ban-ts-comment': 'warn',
+
+    // Enterprise/Community boundary enforcement
+    // Prevents community-tier code from importing enterprise-only services
+    'no-restricted-imports': ['error', {
+      patterns: [
+        {
+          group: ['*/services/enterprise/*'],
+          message: 'Enterprise services cannot be imported from community-tier code. Use feature gating via SubscriptionTiers.',
+        },
+        {
+          group: ['*/services/sovereign/*'],
+          message: 'Sovereign services cannot be imported from community-tier code. Use feature gating via SubscriptionTiers.',
+        },
+      ],
+    }],
   },
   overrides: [
     // Test files
@@ -87,6 +102,20 @@ module.exports = {
       },
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
+      },
+    },
+    // Enterprise-tier files CAN import enterprise/sovereign services
+    {
+      files: [
+        'backend/src/services/enterprise/**/*.ts',
+        'backend/src/services/sovereign/**/*.ts',
+        'backend/src/routes/enterprise/**/*.ts',
+        'backend/src/routes/*enterprise*.ts',
+        'backend/src/routes/*sovereign*.ts',
+        'backend/prisma/seed-enterprise.ts',
+      ],
+      rules: {
+        'no-restricted-imports': 'off',
       },
     },
   ],

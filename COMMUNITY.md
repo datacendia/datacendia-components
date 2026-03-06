@@ -105,7 +105,7 @@ The following components require a commercial license. **Do not submit PRs that 
 
 | Directory / File | Description |
 |-----------------|-------------|
-| `backend/src/services/enterprise/` | **All 18 enterprise services** — SSO, Procure, Guardian, Factory, Habitat, Nexus, Regent, Rainmaker, Scout, Transit, Resonance, etc. |
+| `backend/src/services/enterprise/` | **Enterprise services** (see [`docs/ENTERPRISE-INVENTORY.md`](docs/ENTERPRISE-INVENTORY.md) for generated catalog) — SSO, Procure, Guardian, Factory, Habitat, Nexus, Regent, Rainmaker, Scout, Transit, Resonance, etc. |
 
 ### Premium Products
 
