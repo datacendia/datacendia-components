@@ -102,3 +102,19 @@ jobs:
         uses: trufflesecurity/trufflehog@main
         with:
           extra_args: --only-verified --results=verified
+
+  custom-secret-scan:
+    name: Custom Secret Pattern Scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run custom secret scanner
+        run: node scripts/scan-secrets.cjs --fail-on-findings
