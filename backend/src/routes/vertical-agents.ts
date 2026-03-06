@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   agentId: z.unknown(),
   verticalId: z.unknown(),
   action: z.unknown(),
@@ -31,7 +31,7 @@ import { verticalAgentsService } from '../services/VerticalAgentsService.js';
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_1 = z.object({
   agentId: z.unknown(),
   verticalId: z.unknown(),
   action: z.unknown(),
@@ -255,7 +255,7 @@ router.get('/activity', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/activity', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { agentId, verticalId, action, result, duration, success } = reqBody0.parse(req.body);
+    const { agentId, verticalId, action, result, duration, success } = schema_0.parse(req.body);
     
     if (!agentId || !verticalId || !action) {
       res.status(400).json({ 

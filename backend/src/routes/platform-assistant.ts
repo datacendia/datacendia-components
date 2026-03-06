@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   query: z.unknown(),
   conversationHistory: z.unknown(),
 }).passthrough();
@@ -29,7 +29,7 @@ import ollamaService from '../services/ollama.js';
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_1 = z.object({
   query: z.unknown(),
   conversationHistory: z.unknown(),
 }).passthrough();
@@ -307,7 +307,7 @@ const PLATFORM_KNOWLEDGE = {
  */
 router.post('/query', async (req: Request, res: Response) => {
   try {
-    const { query, conversationHistory } = reqBody0.parse(req.body);
+    const { query, conversationHistory } = schema_0.parse(req.body);
     const lowerQuery = (query || '').toLowerCase();
 
     // Match query to known workflows

@@ -1,10 +1,10 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   variables: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_1 = z.object({
   variables: z.unknown(),
 }).passthrough();
 
@@ -33,10 +33,10 @@ import { fileURLToPath } from 'url';
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_2 = z.object({
   variables: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_3 = z.object({
   variables: z.unknown(),
 }).passthrough();
 
@@ -168,7 +168,7 @@ router.get('/', async (_req: Request, res: Response) => {
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const { variables } = reqBody0.parse(req.body);
+    const { variables } = schema_0.parse(req.body);
     
     if (!variables || typeof variables !== 'object') {
       return res.status(400).json({
@@ -206,7 +206,7 @@ router.post('/', async (req: Request, res: Response) => {
  */
 router.post('/validate', async (req: Request, res: Response) => {
   try {
-    const { variables } = reqBody0.parse(req.body);
+    const { variables } = schema_1.parse(req.body);
     const errors: Record<string, string> = {};
     
     // Check required fields

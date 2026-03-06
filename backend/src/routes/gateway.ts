@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   text: z.unknown(),
 }).passthrough();
 
@@ -46,7 +46,7 @@ import ManifestExporter from '../services/gateway/ManifestExporter';
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_1 = z.object({
   text: z.unknown(),
 }).passthrough();
 
@@ -492,7 +492,7 @@ router.post('/manifest', async (req: Request, res: Response) => {
 
 router.post('/test-pii', async (req: Request, res: Response) => {
   try {
-    const { text } = reqBody0.parse(req.body);
+    const { text } = schema_0.parse(req.body);
     if (!text) {
       return res.status(400).json({ error: 'text field is required' });
     }

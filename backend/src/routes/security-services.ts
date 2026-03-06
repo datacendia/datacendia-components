@@ -1,13 +1,13 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   organizationId: z.unknown(),
   startDate: z.unknown(),
   endDate: z.unknown(),
   exportedBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_1 = z.object({
   organizationId: z.unknown(),
   framework: z.unknown(),
   startDate: z.unknown(),
@@ -46,13 +46,13 @@ import { sbomGenerator } from '../services/security/SBOMGenerator.js';
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_2 = z.object({
   organizationId: z.unknown(),
   startDate: z.unknown(),
   endDate: z.unknown(),
   exportedBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_3 = z.object({
   organizationId: z.unknown(),
   framework: z.unknown(),
   startDate: z.unknown(),
@@ -119,7 +119,7 @@ router.get('/audit/verify', async (_req: Request, res: Response) => {
  */
 router.post('/audit/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, startDate, endDate, exportedBy } = reqBody0.parse(req.body);
+    const { organizationId, startDate, endDate, exportedBy } = schema_0.parse(req.body);
 
     if (!organizationId || !startDate || !endDate || !exportedBy) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -287,7 +287,7 @@ router.get('/compliance/frameworks', (_req: Request, res: Response) => {
  */
 router.post('/compliance/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = reqBody0.parse(req.body);
+    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = schema_1.parse(req.body);
 
     if (!organizationId || !framework || !startDate || !endDate || !requestedBy) {
       return res.status(400).json({ error: 'Missing required fields' });

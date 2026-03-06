@@ -44,6 +44,7 @@ import {
   OrbitEdge,
   EdgeType,
 } from './CendiaOrbitService.js';
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
 // =============================================================================

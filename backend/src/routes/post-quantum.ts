@@ -1,16 +1,16 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   algorithm: z.unknown(),
   strength: z.unknown(),
   expiresInDays: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_1 = z.object({
   data: z.unknown(),
   keyId: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_2 = z.object({
   data: z.unknown(),
   signature: z.unknown(),
 }).passthrough();
@@ -37,16 +37,16 @@ import { postQuantumKMSService, PQAlgorithm } from '../services/security/PostQua
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_3 = z.object({
   algorithm: z.unknown(),
   strength: z.unknown(),
   expiresInDays: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_4 = z.object({
   data: z.unknown(),
   keyId: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_5 = z.object({
   data: z.unknown(),
   signature: z.unknown(),
 }).passthrough();
@@ -98,7 +98,7 @@ router.get('/recommend/:useCase', (req: Request, res: Response): void => {
  */
 router.post('/keys', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { algorithm, strength, expiresInDays } = reqBody0.parse(req.body);
+    const { algorithm, strength, expiresInDays } = schema_0.parse(req.body);
 
     const keyPair = await postQuantumKMSService.generateKeyPair({
       algorithm: algorithm as PQAlgorithm,
@@ -181,7 +181,7 @@ router.delete('/keys/:id', (req: Request, res: Response): void => {
  */
 router.post('/sign', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { data, keyId } = reqBody0.parse(req.body);
+    const { data, keyId } = schema_1.parse(req.body);
 
     if (!data) {
       res.status(400).json({ success: false, error: 'data is required' });
@@ -201,7 +201,7 @@ router.post('/sign', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/verify', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { data, signature } = reqBody0.parse(req.body);
+    const { data, signature } = schema_2.parse(req.body);
 
     if (!data || !signature) {
       res.status(400).json({ success: false, error: 'data and signature are required' });

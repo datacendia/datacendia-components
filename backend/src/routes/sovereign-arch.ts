@@ -19,7 +19,7 @@ import { devAuth } from '../middleware/auth.js';
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   shadowDeliberationId: z.unknown(),
   officialDeliberationId: z.unknown(),
 }).passthrough();
@@ -39,7 +39,7 @@ import { portableInstanceService } from '../services/sovereign/PortableInstanceS
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_1 = z.object({
   shadowDeliberationId: z.unknown(),
   officialDeliberationId: z.unknown(),
 }).passthrough();
@@ -304,7 +304,7 @@ router.post('/shadow/sessions/:id/close', async (req: Request, res: Response, ne
 
 router.post('/shadow/compare', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { shadowDeliberationId, officialDeliberationId } = reqBody0.parse(req.body);
+    const { shadowDeliberationId, officialDeliberationId } = schema_0.parse(req.body);
     const result = await shadowCouncilService.compareToOfficial(shadowDeliberationId, officialDeliberationId);
     res.json({ success: true, data: result });
   } catch (error) {

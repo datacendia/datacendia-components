@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   type: z.unknown(),
   claim: z.unknown(),
   decisionId: z.unknown(),
@@ -12,10 +12,10 @@ const reqBody0 = z.object({
   privateWitness: z.unknown(),
   requestedBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_1 = z.object({
   verifiedBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_2 = z.object({
   reason: z.unknown(),
 }).passthrough();
 
@@ -41,7 +41,7 @@ import { zeroKnowledgeProofService, ProofType } from '../services/security/ZeroK
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_3 = z.object({
   type: z.unknown(),
   claim: z.unknown(),
   decisionId: z.unknown(),
@@ -52,10 +52,10 @@ const reqBody0 = z.object({
   privateWitness: z.unknown(),
   requestedBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_4 = z.object({
   verifiedBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_5 = z.object({
   reason: z.unknown(),
 }).passthrough();
 
@@ -91,7 +91,7 @@ router.get('/proof-types', (_req: Request, res: Response) => {
  */
 router.post('/request', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { type, claim, decisionId, deliberationId, workflowId, organizationId, framework, privateWitness, requestedBy } = reqBody0.parse(req.body);
+    const { type, claim, decisionId, deliberationId, workflowId, organizationId, framework, privateWitness, requestedBy } = schema_0.parse(req.body);
 
     if (!type || !claim || !organizationId || !privateWitness || !requestedBy) {
       res.status(400).json({
@@ -140,7 +140,7 @@ router.post('/generate/:requestId', async (req: Request, res: Response): Promise
 router.post('/verify/:proofId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { proofId } = req.params;
-    const { verifiedBy } = reqBody0.parse(req.body);
+    const { verifiedBy } = schema_1.parse(req.body);
 
     if (!verifiedBy) {
       res.status(400).json({ success: false, error: 'verifiedBy is required' });
@@ -191,7 +191,7 @@ router.get('/proofs/organization/:orgId', (req: Request, res: Response): void =>
 router.post('/revoke/:proofId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { proofId } = req.params;
-    const { reason } = reqBody0.parse(req.body);
+    const { reason } = schema_2.parse(req.body);
 
     if (!reason) {
       res.status(400).json({ success: false, error: 'reason is required' });

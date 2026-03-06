@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   name: z.unknown(),
   description: z.unknown(),
   regulationId: z.unknown(),
@@ -33,7 +33,7 @@ import { regulatorySandboxService } from '../services/compliance/RegulatorySandb
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_1 = z.object({
   name: z.unknown(),
   description: z.unknown(),
   regulationId: z.unknown(),
@@ -109,7 +109,7 @@ router.get('/timeline', (_req: Request, res: Response) => {
  */
 router.post('/tests', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { name, description, regulationId, requirements, decisionId, workflowId, systemDescription } = reqBody0.parse(req.body);
+    const { name, description, regulationId, requirements, decisionId, workflowId, systemDescription } = schema_0.parse(req.body);
 
     if (!name || !regulationId || !systemDescription) {
       res.status(400).json({

@@ -1,7 +1,7 @@
 import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_0 = z.object({
   organizationId: z.unknown(),
   coverageType: z.unknown(),
   requestedLimit: z.unknown(),
@@ -9,13 +9,13 @@ const reqBody0 = z.object({
   coveredSystems: z.unknown(),
   termMonths: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_1 = z.object({
   quoteId: z.unknown(),
   coveredSystems: z.unknown(),
   coveredDecisionTypes: z.unknown(),
   createdBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_2 = z.object({
   policyId: z.unknown(),
   decisionId: z.unknown(),
   deliberationId: z.unknown(),
@@ -23,7 +23,7 @@ const reqBody0 = z.object({
   decisionValue: z.unknown(),
   riskFactors: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_3 = z.object({
   policyId: z.unknown(),
   incidentDate: z.unknown(),
   incidentDescription: z.unknown(),
@@ -55,7 +55,7 @@ import { aiInsuranceService, CoverageType } from '../services/insurance/AIInsura
 
 import { z } from 'zod';
 
-const reqBody0 = z.object({
+const schema_4 = z.object({
   organizationId: z.unknown(),
   coverageType: z.unknown(),
   requestedLimit: z.unknown(),
@@ -63,13 +63,13 @@ const reqBody0 = z.object({
   coveredSystems: z.unknown(),
   termMonths: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_5 = z.object({
   quoteId: z.unknown(),
   coveredSystems: z.unknown(),
   coveredDecisionTypes: z.unknown(),
   createdBy: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_6 = z.object({
   policyId: z.unknown(),
   decisionId: z.unknown(),
   deliberationId: z.unknown(),
@@ -77,7 +77,7 @@ const reqBody0 = z.object({
   decisionValue: z.unknown(),
   riskFactors: z.unknown(),
 }).passthrough();
-const reqBody0 = z.object({
+const schema_7 = z.object({
   policyId: z.unknown(),
   incidentDate: z.unknown(),
   incidentDescription: z.unknown(),
@@ -119,7 +119,7 @@ router.get('/coverage-types', (_req: Request, res: Response) => {
  */
 router.post('/quotes', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { organizationId, coverageType, requestedLimit, verticalId, coveredSystems, termMonths } = reqBody0.parse(req.body);
+    const { organizationId, coverageType, requestedLimit, verticalId, coveredSystems, termMonths } = schema_0.parse(req.body);
 
     if (!organizationId || !coverageType || !requestedLimit) {
       res.status(400).json({
@@ -150,7 +150,7 @@ router.post('/quotes', async (req: Request, res: Response): Promise<void> => {
  */
 router.post('/policies', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { quoteId, coveredSystems, coveredDecisionTypes, createdBy } = reqBody0.parse(req.body);
+    const { quoteId, coveredSystems, coveredDecisionTypes, createdBy } = schema_1.parse(req.body);
 
     if (!quoteId || !coveredSystems || !coveredDecisionTypes || !createdBy) {
       res.status(400).json({
@@ -208,7 +208,7 @@ router.get('/policies/organization/:orgId', (req: Request, res: Response): void 
  */
 router.post('/cover-decision', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { policyId, decisionId, deliberationId, decisionType, decisionValue, riskFactors } = reqBody0.parse(req.body);
+    const { policyId, decisionId, deliberationId, decisionType, decisionValue, riskFactors } = schema_2.parse(req.body);
 
     if (!policyId || !decisionId || !decisionType || decisionValue === undefined) {
       res.status(400).json({
@@ -256,7 +256,7 @@ router.get('/coverage/decision/:decisionId', (req: Request, res: Response): void
  */
 router.post('/claims', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { policyId, incidentDate, incidentDescription, decisionId, claimAmount, claimType, supportingDocuments } = reqBody0.parse(req.body);
+    const { policyId, incidentDate, incidentDescription, decisionId, claimAmount, claimType, supportingDocuments } = schema_3.parse(req.body);
 
     if (!policyId || !incidentDate || !incidentDescription || !claimAmount || !claimType) {
       res.status(400).json({

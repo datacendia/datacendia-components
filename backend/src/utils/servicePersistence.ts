@@ -21,6 +21,7 @@ import crypto from 'crypto';
 import { prisma } from '../config/database.js';
 import { logger } from './logger.js';
 
+import { loadServiceRecords } from '../utils/servicePersistence.js';
 /**
  * Persist a record to the generic service_records table.
  * Non-blocking — logs warnings on failure but never throws.
