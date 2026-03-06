@@ -33,10 +33,197 @@ import crypto from 'crypto';
 // TYPES
 // =============================================================================
 
+export interface RegulatorsReceipt {
+  receiptId: string;
+  version: string;
+  generatedAt: Date;
+  generatedBy: string;
+  
+  // Decision Information
+  decision: {
+    id: string;
+    question: string;
+    finalDecision: string;
+    councilMode: string;
+    vertical?: string;
+    createdAt: Date;
+    completedAt: Date;
+    consensusScore: number;
+  };
+  
+  // Participants
+  participants: {
+    agents: ReceiptAgent[];
+    humanApprovers?: ReceiptHumanApprover[];
+  };
+  
+  // Evidence Chain
+  evidenceChain: {
+    deliberationHash: string;
+    merkleRoot: string;
+    citationsHash: string;
+    agentResponsesHash: string;
+    dissentsHash: string;
+  };
+  
+  // Compliance Mapping
+  compliance: {
+    frameworks: string[];
+    requirements: ComplianceRequirement[];
+    gatesCleared: string[];
+    gatesFailed: string[];
+  };
+  
+  // Citations & Sources
+  citations: ReceiptCitation[];
+  
+  // Dissents & Minority Views
+  dissents: ReceiptDissent[];
+  
+  // Audit Trail
+  auditTrail: AuditEntry[];
+  
+  // Cryptographic Proof
+  cryptographicProof: {
+    algorithm: string;
+    receiptHash: string;
+    signature?: string;
+    signedBy?: string;
+    signedAt?: Date;
+    publicKeyFingerprint?: string;
+  };
+  
+  // Media Authentication (P8)
+  mediaAuthentication?: {
+    assetsVerified: number;
+    chainOfCustodyIntact: boolean;
+    c2paProvenanceSigned: boolean;
+    deepfakeAnalysisRun: boolean;
+    verdicts: { assetName: string; verdict: string; confidence: number }[];
+  };
 
-import type { RegulatorsReceipt, ReceiptAgent, ReceiptHumanApprover, ComplianceRequirement, ReceiptCitation, ReceiptDissent, AuditEntry, ReceiptOverrideEvent, ReceiptDriftAnalysis, ReceiptGenerationOptions } from './receipt-types.js';
-export type { RegulatorsReceipt, ReceiptAgent, ReceiptHumanApprover, ComplianceRequirement, ReceiptCitation, ReceiptDissent, AuditEntry, ReceiptOverrideEvent, ReceiptDriftAnalysis, ReceiptGenerationOptions } from './receipt-types.js';
+  // Workflow Configuration
+  workflowConfig?: {
+    workflowType: string;
+    verticalId: string;
+    complianceProfile: string;
+  };
 
+  // IISS Scores
+  iissScores?: {
+    overallScore: number;
+    band: string;
+    certificationLevel: string;
+    dimensions: { name: string; primitive: string; score: number; maxScore: number; normalizedScore: number }[];
+    calculatedAt: Date;
+  };
+
+  // Override Accountability (Primitive C)
+  overrideEvents?: ReceiptOverrideEvent[];
+
+  // Drift Analysis (Primitive E) — longitudinal tracking
+  driftAnalysis?: ReceiptDriftAnalysis;
+
+  // Retention & Legal
+  retention: {
+    retentionPeriod: string;
+    retentionUntil: Date;
+    legalHold: boolean;
+    jurisdiction: string;
+  };
+}
+
+export interface ReceiptAgent {
+  id: string;
+  name: string;
+  role: string;
+  description: string;
+  responseCount: number;
+  citationCount: number;
+  dissented: boolean;
+  confidenceAvg: number;
+}
+
+export interface ReceiptHumanApprover {
+  userId: string;
+  name: string;
+  role: string;
+  approvedAt: Date;
+  signature?: string;
+}
+
+export interface ComplianceRequirement {
+  framework: string;
+  requirement: string;
+  status: 'met' | 'not_met' | 'not_applicable';
+  evidence?: string;
+}
+
+export interface ReceiptCitation {
+  id: string;
+  type: string;
+  reference: string;
+  source: string;
+  addedBy: string;
+  addedAt: Date;
+  verified: boolean;
+}
+
+export interface ReceiptDissent {
+  agentId: string;
+  agentName: string;
+  reason: string;
+  severity: string;
+  timestamp: Date;
+  protected: boolean;
+}
+
+export interface AuditEntry {
+  timestamp: Date;
+  action: string;
+  actor: string;
+  details: string;
+  hash: string;
+}
+
+export interface ReceiptOverrideEvent {
+  id: string;
+  authorityName: string;
+  authorityRole: string;
+  authorityDepartment?: string;
+  actionTaken: string;
+  aiRecommendation?: string;
+  aiConfidenceScore?: number;
+  justification: string;
+  acceptedRisks: string[];
+  dissentsOverridden: string[];
+  signatureHash: string;
+  timestamp: Date;
+  detectionMethod: 'explicit' | 'inferred';  // explicit = recorded via CendiaResponsibility, inferred = detected by divergence
+}
+
+export interface ReceiptDriftAnalysis {
+  currentScores: { primitive: string; score: number; maxScore: number }[];
+  baselineScores?: { primitive: string; score: number; maxScore: number; recordedAt: Date }[];
+  trends: { primitive: string; direction: 'improving' | 'stable' | 'degrading'; delta: number }[];
+  overrideRateHistory: { period: string; overrideCount: number; totalDecisions: number; rate: number }[];
+  gatePassRateHistory: { period: string; passed: number; failed: number; rate: number }[];
+  snapshotCount: number;
+  analysisWindow: string;
+}
+
+export interface ReceiptGenerationOptions {
+  includeFullResponses: boolean;
+  includeRawData: boolean;
+  signWithKms: boolean;
+  format: 'pdf' | 'json' | 'html';
+  jurisdiction: string;
+  retentionYears: number;
+}
+
+// =============================================================================
+// SERVICE CLASS
+// =============================================================================
 
 export class RegulatorsReceiptService {
   private static instance: RegulatorsReceiptService;
@@ -971,5 +1158,305 @@ export class RegulatorsReceiptService {
   /**
    * Export receipt as PDF content (structured for PDFGeneratorService)
    */
-    // Extended methods extracted to receipt-methods.ts
+  exportAsPdfContent(receipt: RegulatorsReceipt): object {
+    return {
+      type: 'regulators_receipt',
+      title: `Regulator's Receipt - ${receipt.receiptId}`,
+      subtitle: `Decision: ${receipt.decision.question.substring(0, 100)}...`,
+      generatedAt: receipt.generatedAt.toISOString(),
+      
+      sections: [
+        {
+          title: 'RECEIPT IDENTIFICATION',
+          content: [
+            `Receipt ID: ${receipt.receiptId}`,
+            `Version: ${receipt.version}`,
+            `Generated: ${receipt.generatedAt.toISOString()}`,
+            `Generated By: ${receipt.generatedBy}`,
+          ].join('\n'),
+        },
+        {
+          title: 'DECISION SUMMARY',
+          content: [
+            `Decision ID: ${receipt.decision.id}`,
+            `Question: ${receipt.decision.question}`,
+            `Final Decision: ${receipt.decision.finalDecision}`,
+            `Council Mode: ${receipt.decision.councilMode}`,
+            `Consensus Score: ${receipt.decision.consensusScore}%`,
+            `Created: ${receipt.decision.createdAt.toISOString()}`,
+            `Completed: ${receipt.decision.completedAt.toISOString()}`,
+          ].join('\n'),
+        },
+        {
+          title: 'PARTICIPANTS',
+          content: receipt.participants.agents.map(a => 
+            `${a.name} (${a.role}): ${a.responseCount} responses, ${a.citationCount} citations, Confidence: ${a.confidenceAvg}%${a.dissented ? ' [DISSENTED]' : ''}`
+          ).join('\n'),
+        },
+        {
+          title: 'EVIDENCE CHAIN (CRYPTOGRAPHIC)',
+          content: [
+            `Merkle Root: ${receipt.evidenceChain.merkleRoot}`,
+            `Deliberation Hash: ${receipt.evidenceChain.deliberationHash}`,
+            `Citations Hash: ${receipt.evidenceChain.citationsHash}`,
+            `Agent Responses Hash: ${receipt.evidenceChain.agentResponsesHash}`,
+            `Dissents Hash: ${receipt.evidenceChain.dissentsHash}`,
+          ].join('\n'),
+        },
+        {
+          title: 'COMPLIANCE MAPPING',
+          content: [
+            `Frameworks: ${receipt.compliance.frameworks.join(', ')}`,
+            '',
+            'Requirements:',
+            ...receipt.compliance.requirements.map(r => 
+              `  [${r.status.toUpperCase()}] ${r.framework}: ${r.requirement}`
+            ),
+            '',
+            `Gates Cleared: ${receipt.compliance.gatesCleared.join(', ')}`,
+            `Gates Failed: ${receipt.compliance.gatesFailed.length > 0 ? receipt.compliance.gatesFailed.join(', ') : 'None'}`,
+          ].join('\n'),
+        },
+        {
+          title: 'DISSENTS & MINORITY VIEWS',
+          content: receipt.dissents.length > 0
+            ? receipt.dissents.map(d => 
+                `${d.agentName} (${d.severity}): ${d.reason}${d.protected ? ' [PROTECTED]' : ''}`
+              ).join('\n\n')
+            : 'No dissents recorded.',
+        },
+        {
+          title: 'AUDIT TRAIL',
+          content: receipt.auditTrail.map(e => 
+            `[${e.timestamp.toISOString()}] ${e.action} by ${e.actor}: ${e.details}`
+          ).join('\n'),
+        },
+        {
+          title: 'CRYPTOGRAPHIC PROOF',
+          content: [
+            `Algorithm: ${receipt.cryptographicProof.algorithm}`,
+            `Receipt Hash: ${receipt.cryptographicProof.receiptHash}`,
+            receipt.cryptographicProof.signature ? `Signature: ${receipt.cryptographicProof.signature}` : '',
+            receipt.cryptographicProof.signedBy ? `Signed By: ${receipt.cryptographicProof.signedBy}` : '',
+            receipt.cryptographicProof.signedAt ? `Signed At: ${receipt.cryptographicProof.signedAt.toISOString()}` : '',
+          ].filter(Boolean).join('\n'),
+        },
+        {
+          title: 'OVERRIDE ACCOUNTABILITY',
+          content: receipt.overrideEvents && receipt.overrideEvents.length > 0
+            ? receipt.overrideEvents.map(e =>
+                `[${e.detectionMethod.toUpperCase()}] ${e.authorityName} (${e.authorityRole}):\n` +
+                `  Action: ${e.actionTaken}\n` +
+                (e.aiRecommendation ? `  AI Recommendation: ${e.aiRecommendation}\n` : '') +
+                (e.aiConfidenceScore != null ? `  AI Confidence: ${e.aiConfidenceScore}%\n` : '') +
+                `  Justification: ${e.justification}\n` +
+                (e.acceptedRisks.length > 0 ? `  Accepted Risks: ${e.acceptedRisks.join(', ')}\n` : '') +
+                (e.dissentsOverridden.length > 0 ? `  Dissents Overridden: ${e.dissentsOverridden.join(', ')}\n` : '') +
+                `  Signature Hash: ${e.signatureHash}\n` +
+                `  Timestamp: ${e.timestamp.toISOString()}`
+              ).join('\n\n')
+            : 'No override events detected for this decision.',
+        },
+        {
+          title: 'DRIFT ANALYSIS (LONGITUDINAL)',
+          content: receipt.driftAnalysis
+            ? [
+                'Current IISS Primitive Scores:',
+                ...receipt.driftAnalysis.currentScores.map(s =>
+                  `  ${s.primitive}: ${s.score}/${s.maxScore}`
+                ),
+                '',
+                'Trends:',
+                ...receipt.driftAnalysis.trends.map(t =>
+                  `  ${t.primitive}: ${t.direction.toUpperCase()} (Δ ${t.delta > 0 ? '+' : ''}${t.delta.toFixed(1)})`
+                ),
+                '',
+                `Snapshot Count: ${receipt.driftAnalysis.snapshotCount}`,
+                `Analysis Window: ${receipt.driftAnalysis.analysisWindow}`,
+                ...(receipt.driftAnalysis.overrideRateHistory.length > 0 ? [
+                  '',
+                  'Override Rate History:',
+                  ...receipt.driftAnalysis.overrideRateHistory.map(h =>
+                    `  ${h.period}: ${h.overrideCount}/${h.totalDecisions} (${h.rate}%)`
+                  ),
+                ] : []),
+                ...(receipt.driftAnalysis.gatePassRateHistory.length > 0 ? [
+                  '',
+                  'Gate Pass Rate History:',
+                  ...receipt.driftAnalysis.gatePassRateHistory.map(h =>
+                    `  ${h.period}: ${h.passed} passed, ${h.failed} failed (${h.rate}%)`
+                  ),
+                ] : []),
+              ].join('\n')
+            : 'Drift analysis not available.',
+        },
+        {
+          title: 'RETENTION & LEGAL',
+          content: [
+            `Retention Period: ${receipt.retention.retentionPeriod}`,
+            `Retain Until: ${receipt.retention.retentionUntil.toISOString()}`,
+            `Legal Hold: ${receipt.retention.legalHold ? 'YES' : 'No'}`,
+            `Jurisdiction: ${receipt.retention.jurisdiction}`,
+          ].join('\n'),
+        },
+      ],
+      
+      footer: [
+        '---',
+        'This Regulator\'s Receipt is a cryptographically signed record of the decision-making process.',
+        'The Merkle root and hashes provide tamper-evident proof of the deliberation contents.',
+        'This document is designed to be court-admissible and regulator-ready.',
+        '',
+        `Â© ${new Date().getFullYear()} Datacendia. All rights reserved.`,
+      ].join('\n'),
+    };
+  }
+
+  /**
+   * Export receipt as JSON
+   */
+  exportAsJson(receipt: RegulatorsReceipt): string {
+    return JSON.stringify(receipt, null, 2);
+  }
+
+  /**
+   * Export receipt as HTML
+   */
+  exportAsHtml(receipt: RegulatorsReceipt): string {
+    return `<!DOCTYPE html>
+<html>
+<head>
+  <title>Regulator's Receipt - ${receipt.receiptId}</title>
+  <style>
+    body { font-family: 'Georgia', serif; max-width: 800px; margin: 0 auto; padding: 40px; background: #fafafa; }
+    .header { text-align: center; border-bottom: 3px double #333; padding-bottom: 20px; margin-bottom: 30px; }
+    .header h1 { color: #1a365d; margin: 0; }
+    .receipt-id { font-family: monospace; background: #e2e8f0; padding: 5px 10px; border-radius: 4px; }
+    .section { margin: 25px 0; padding: 20px; background: white; border: 1px solid #e2e8f0; border-radius: 8px; }
+    .section h2 { color: #2d3748; border-bottom: 1px solid #e2e8f0; padding-bottom: 10px; margin-top: 0; }
+    .hash { font-family: monospace; font-size: 0.85em; word-break: break-all; background: #f7fafc; padding: 10px; border-radius: 4px; }
+    .compliance-met { color: #38a169; }
+    .compliance-failed { color: #e53e3e; }
+    .dissent { background: #fff5f5; border-left: 4px solid #e53e3e; padding: 10px; margin: 10px 0; }
+    .signature-block { background: #ebf8ff; border: 2px solid #4299e1; padding: 20px; text-align: center; margin-top: 30px; }
+    .footer { text-align: center; margin-top: 40px; color: #718096; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>ðŸ“œ REGULATOR'S RECEIPT</h1>
+    <p class="receipt-id">${receipt.receiptId}</p>
+    <p>Generated: ${receipt.generatedAt.toISOString()}</p>
+  </div>
+
+  <div class="section">
+    <h2>Decision Summary</h2>
+    <p><strong>Question:</strong> ${receipt.decision.question}</p>
+    <p><strong>Final Decision:</strong> ${receipt.decision.finalDecision}</p>
+    <p><strong>Council Mode:</strong> ${receipt.decision.councilMode}</p>
+    <p><strong>Consensus Score:</strong> ${receipt.decision.consensusScore}%</p>
+  </div>
+
+  <div class="section">
+    <h2>Evidence Chain</h2>
+    <p><strong>Merkle Root:</strong></p>
+    <div class="hash">${receipt.evidenceChain.merkleRoot}</div>
+    <p><strong>Deliberation Hash:</strong></p>
+    <div class="hash">${receipt.evidenceChain.deliberationHash}</div>
+  </div>
+
+  <div class="section">
+    <h2>Compliance Mapping</h2>
+    <p><strong>Frameworks:</strong> ${receipt.compliance.frameworks.join(', ')}</p>
+    <ul>
+      ${receipt.compliance.requirements.map(r => `
+        <li class="${r.status === 'met' ? 'compliance-met' : 'compliance-failed'}">
+          [${r.status.toUpperCase()}] ${r.framework}: ${r.requirement}
+        </li>
+      `).join('')}
+    </ul>
+  </div>
+
+  ${receipt.dissents.length > 0 ? `
+  <div class="section">
+    <h2>Dissents & Minority Views</h2>
+    ${receipt.dissents.map(d => `
+      <div class="dissent">
+        <strong>${d.agentName}</strong> (${d.severity}): ${d.reason}
+        ${d.protected ? '<em>[PROTECTED]</em>' : ''}
+      </div>
+    `).join('')}
+  </div>
+  ` : ''}
+
+  <div class="signature-block">
+    <h3>Cryptographic Proof</h3>
+    <p><strong>Algorithm:</strong> ${receipt.cryptographicProof.algorithm}</p>
+    <p><strong>Receipt Hash:</strong></p>
+    <div class="hash">${receipt.cryptographicProof.receiptHash}</div>
+    ${receipt.cryptographicProof.signature ? `
+      <p><strong>Signature:</strong> ${receipt.cryptographicProof.signature.substring(0, 32)}...</p>
+      <p><strong>Signed By:</strong> ${receipt.cryptographicProof.signedBy}</p>
+    ` : ''}
+  </div>
+
+  <div class="section">
+    <h2>Retention & Legal</h2>
+    <p><strong>Retention Period:</strong> ${receipt.retention.retentionPeriod}</p>
+    <p><strong>Retain Until:</strong> ${receipt.retention.retentionUntil.toISOString()}</p>
+    <p><strong>Jurisdiction:</strong> ${receipt.retention.jurisdiction}</p>
+    <p><strong>Legal Hold:</strong> ${receipt.retention.legalHold ? 'YES' : 'No'}</p>
+  </div>
+
+  <div class="footer">
+    <p>This Regulator's Receipt is a cryptographically signed record of the decision-making process.</p>
+    <p>The Merkle root and hashes provide tamper-evident proof of the deliberation contents.</p>
+    <p>This document is designed to be court-admissible and regulator-ready.</p>
+    <p>Â© ${new Date().getFullYear()} Datacendia. All rights reserved.</p>
+  </div>
+</body>
+</html>`;
+  }
+
+  // -------------------------------------------------------------------------
+  // VERIFICATION
+  // -------------------------------------------------------------------------
+
+  /**
+   * Verify a receipt's integrity
+   */
+  verifyReceipt(receipt: RegulatorsReceipt): { valid: boolean; issues: string[] } {
+    const issues: string[] = [];
+
+    // Verify receipt hash
+    const computedHash = this.computeReceiptHash(receipt);
+    if (computedHash !== receipt.cryptographicProof.receiptHash) {
+      issues.push('Receipt hash does not match computed hash - data may have been tampered');
+    }
+
+    // Verify Merkle root
+    const leaves = [
+      receipt.evidenceChain.deliberationHash,
+      receipt.evidenceChain.citationsHash,
+      receipt.evidenceChain.agentResponsesHash,
+      receipt.evidenceChain.dissentsHash,
+    ];
+    const computedMerkle = this.computeMerkleRoot(leaves);
+    if (computedMerkle !== receipt.evidenceChain.merkleRoot) {
+      issues.push('Merkle root does not match - evidence chain may have been tampered');
+    }
+
+    // Check retention
+    if (new Date() > receipt.retention.retentionUntil && !receipt.retention.legalHold) {
+      issues.push('Receipt has exceeded retention period');
+    }
+
+    return {
+      valid: issues.length === 0,
+      issues,
+    };
+  }
+}
+
+// Export singleton
 export const regulatorsReceiptService = RegulatorsReceiptService.getInstance();
