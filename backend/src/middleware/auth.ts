@@ -111,15 +111,15 @@ export const authenticate = async (
         createdAt: dbUser.created_at,
         updatedAt: dbUser.updated_at,
         organization: dbUser.organizations as AuthOrganization,
-        preferences: dbUser.preferences,
+        preferences: dbUser.preferences as Record<string, unknown> | undefined,
       };
       
       // Cache for 5 minutes
       await cache.set(cacheKey, user, 300);
     }
 
-    req.user = user;
-    req.organizationId = user.organizationId;
+    req.user = user!;
+    req.organizationId = user!.organizationId;
     
     next();
   } catch (error) {

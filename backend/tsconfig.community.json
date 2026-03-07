@@ -40,6 +40,25 @@
     "src/services/forecasting/**",
     "src/services/insurance/**",
 
+    // Enterprise DCII services
+    "src/services/dcii/**",
+    // Enterprise cortex services
+    "src/services/cortex/**",
+
+    // Enterprise gateway, types, and supporting files
+    "src/services/gateway/**",
+    "src/services/horizon-types.ts",
+    "src/services/omnitranslate-types.ts",
+    "src/services/document/pdf-types.ts",
+    "src/services/council/**",
+    "src/services/evidence/**",
+    "src/services/security/PostQuantumKMSService.ts",
+    "src/services/scheduling/**",
+    "src/services/compliance/**",
+    "src/features/premium/**",
+    "src/security/**",
+    "src/scripts/**",
+
     // Premium product services
     "src/services/CendiaCascadeService.ts",
     "src/services/CendiaCrucibleService.ts",
@@ -95,6 +114,13 @@
     "src/routes/ai-insurance.ts",
     "src/routes/bias-detection.ts",
     "src/routes/clamav.ts",
+
+    // Enterprise route files not yet listed
+    "src/routes/carbon-aware.ts",
+    "src/routes/compliance-monitor.ts",
+    "src/routes/cross-jurisdiction.ts",
+    "src/routes/legal-services.ts",
+    "src/routes/evidence-vault.ts",
 
     // Enterprise adapter files
     "src/adapters/ClientHostedAdapter.ts",

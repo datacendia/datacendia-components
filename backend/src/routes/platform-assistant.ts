@@ -2,8 +2,8 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  query: z.unknown(),
-  conversationHistory: z.unknown(),
+  query: z.any(),
+  conversationHistory: z.any(),
 }).passthrough();
 
 /**
@@ -27,11 +27,10 @@ const schema_0 = z.object({
 import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
 
-import { z } from 'zod';
 
 const schema_1 = z.object({
-  query: z.unknown(),
-  conversationHistory: z.unknown(),
+  query: z.any(),
+  conversationHistory: z.any(),
 }).passthrough();
 
 const router = Router();

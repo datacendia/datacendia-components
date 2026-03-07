@@ -2,28 +2,28 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  topic: z.unknown(),
-  duration: z.unknown(),
-  targetAudience: z.unknown(),
+  topic: z.any(),
+  duration: z.any(),
+  targetAudience: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  purpose: z.unknown(),
-  platform: z.unknown(),
-  style: z.unknown(),
+  purpose: z.any(),
+  platform: z.any(),
+  style: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  audience: z.unknown(),
-  focus: z.unknown(),
+  audience: z.any(),
+  focus: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  type: z.unknown(),
-  topic: z.unknown(),
-  tone: z.unknown(),
+  type: z.any(),
+  topic: z.any(),
+  tone: z.any(),
 }).passthrough();
 const schema_4 = z.object({
-  themes: z.unknown(),
-  platforms: z.unknown(),
-  postsPerWeek: z.unknown(),
+  themes: z.any(),
+  platforms: z.any(),
+  postsPerWeek: z.any(),
 }).passthrough();
 
 /**
@@ -50,31 +50,30 @@ const schema_4 = z.object({
 import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
 
-import { z } from 'zod';
 
 const schema_5 = z.object({
-  topic: z.unknown(),
-  duration: z.unknown(),
-  targetAudience: z.unknown(),
+  topic: z.any(),
+  duration: z.any(),
+  targetAudience: z.any(),
 }).passthrough();
 const schema_6 = z.object({
-  purpose: z.unknown(),
-  platform: z.unknown(),
-  style: z.unknown(),
+  purpose: z.any(),
+  platform: z.any(),
+  style: z.any(),
 }).passthrough();
 const schema_7 = z.object({
-  audience: z.unknown(),
-  focus: z.unknown(),
+  audience: z.any(),
+  focus: z.any(),
 }).passthrough();
 const schema_8 = z.object({
-  type: z.unknown(),
-  topic: z.unknown(),
-  tone: z.unknown(),
+  type: z.any(),
+  topic: z.any(),
+  tone: z.any(),
 }).passthrough();
 const schema_9 = z.object({
-  themes: z.unknown(),
-  platforms: z.unknown(),
-  postsPerWeek: z.unknown(),
+  themes: z.any(),
+  platforms: z.any(),
+  postsPerWeek: z.any(),
 }).passthrough();
 
 const router = Router();

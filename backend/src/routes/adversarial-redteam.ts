@@ -21,9 +21,9 @@ import { adversarialRedTeamService } from '../services/council/AdversarialRedTea
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  decision: z.unknown(),
-  context: z.unknown(),
-  config: z.unknown(),
+  decision: z.any(),
+  context: z.any(),
+  config: z.any(),
 }).passthrough();
 
 const router = Router();

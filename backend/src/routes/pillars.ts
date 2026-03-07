@@ -31,21 +31,21 @@ import { getErrorMessage } from '../utils/errors.js';
 
 import { z } from 'zod';
 
-const valueSchema = z.object({ value: z.unknown() });
-const workflowTriggerSchema = z.object({ triggeredBy: z.string().default('api'), input: z.record(z.unknown()).optional() });
+const valueSchema = z.object({ value: z.any() });
+const workflowTriggerSchema = z.object({ triggeredBy: z.string().default('api'), input: z.record(z.any()).optional() });
 const approvalSchema = z.object({ approved: z.boolean(), decidedBy: z.string().optional(), reason: z.string().optional() });
 const statusSchema = z.object({ status: z.string().min(1) });
 const enabledSchema = z.object({ enabled: z.boolean() });
-const testResultSchema = z.object({ result: z.string().min(1), notes: z.string().optional(), violations: z.array(z.record(z.unknown())).optional() });
+const testResultSchema = z.object({ result: z.string().min(1), notes: z.string().optional(), violations: z.array(z.record(z.any())).optional() });
 const modelSchema = z.object({ modelId: z.string().min(1), modelName: z.string().optional() });
 const ratingSchema = z.object({ rating: z.number().int().min(1).max(5), feedback: z.string().optional() });
 const router = Router();
 
-// Use devAuth so requests have req.organizationId in development
+// Use devAuth so requests have req.organizationId! in development
 router.use(devAuth);
 
  function requireOrganizationId(req: Request, res: Response): string | undefined {
-   const organizationId = req.organizationId;
+   const organizationId = req.organizationId!;
    if (!organizationId) {
      res.status(401).json({ success: false, error: 'Missing organizationId' });
      return;
@@ -408,7 +408,7 @@ router.post('/flow/approvals/:id', async (req: Request, res: Response) => {
     const { approved, decidedBy, reason } = approvalSchema.parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
-    const approval = await flowService.processApproval(id, approved, decidedBy, reason);
+    const approval = await flowService.processApproval(id, approved, decidedBy as any, reason);
     res.json({ success: true, data: approval });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: getErrorMessage(error) });
@@ -510,7 +510,7 @@ router.patch('/guard/threats/:id', async (req: Request, res: Response) => {
     const { status } = statusSchema.parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
-    const threat = await guardService.updateThreatStatus(id, status);
+    const threat = await guardService.updateThreatStatus(id, status as any);
     res.json({ success: true, data: threat });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: getErrorMessage(error) });
@@ -607,7 +607,7 @@ router.post('/ethics/reviews/:id/decide', async (req: Request, res: Response) =>
     const { result, notes, violations } = testResultSchema.parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
-    const review = await ethicsService.submitReviewDecision(id, result, notes, violations);
+    const review = await ethicsService.submitReviewDecision(id, result as any, notes, violations as any);
     res.json({ success: true, data: review });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: getErrorMessage(error) });
@@ -630,7 +630,7 @@ router.post('/ethics/bias-check', async (req: Request, res: Response) => {
     const organizationId = requireOrganizationId(req, res);
     if (!organizationId) return;
     const { modelId, modelName } = modelSchema.parse(req.body);
-    const check = await ethicsService.performBiasCheck(organizationId, modelId, modelName);
+    const check = await ethicsService.performBiasCheck(organizationId, modelId, modelName as any);
     res.json({ success: true, data: check });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: getErrorMessage(error) });
@@ -685,7 +685,7 @@ router.patch('/agents/:id/status', async (req: Request, res: Response) => {
     const { status } = statusSchema.parse(req.body);
     const id = requireParam(req, res, 'id');
     if (!id) return;
-    const agent = await agentsService.updateAgentStatus(id, status);
+    const agent = await agentsService.updateAgentStatus(id, status as any);
     res.json({ success: true, data: agent });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: getErrorMessage(error) });

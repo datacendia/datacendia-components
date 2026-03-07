@@ -2,17 +2,17 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  algorithm: z.unknown(),
-  strength: z.unknown(),
-  expiresInDays: z.unknown(),
+  algorithm: z.any(),
+  strength: z.any(),
+  expiresInDays: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  data: z.unknown(),
-  keyId: z.unknown(),
+  data: z.any(),
+  keyId: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  data: z.unknown(),
-  signature: z.unknown(),
+  data: z.any(),
+  signature: z.any(),
 }).passthrough();
 
 /**
@@ -35,20 +35,19 @@ const schema_2 = z.object({
 import { Router, Request, Response } from 'express';
 import { postQuantumKMSService, PQAlgorithm } from '../services/security/PostQuantumKMSService.js';
 
-import { z } from 'zod';
 
 const schema_3 = z.object({
-  algorithm: z.unknown(),
-  strength: z.unknown(),
-  expiresInDays: z.unknown(),
+  algorithm: z.any(),
+  strength: z.any(),
+  expiresInDays: z.any(),
 }).passthrough();
 const schema_4 = z.object({
-  data: z.unknown(),
-  keyId: z.unknown(),
+  data: z.any(),
+  keyId: z.any(),
 }).passthrough();
 const schema_5 = z.object({
-  data: z.unknown(),
-  signature: z.unknown(),
+  data: z.any(),
+  signature: z.any(),
 }).passthrough();
 
 const router = Router();

@@ -2,10 +2,10 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  variables: z.unknown(),
+  variables: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  variables: z.unknown(),
+  variables: z.any(),
 }).passthrough();
 
 /**
@@ -31,13 +31,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-import { z } from 'zod';
 
 const schema_2 = z.object({
-  variables: z.unknown(),
+  variables: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  variables: z.unknown(),
+  variables: z.any(),
 }).passthrough();
 
 const router = Router();

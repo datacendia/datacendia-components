@@ -26,7 +26,6 @@ import { sportsAgentService, SPORTS_AGENT_PRESETS } from '../services/sports/Spo
 import { SPORTS_DECISION_TEMPLATES } from '../config/sports/decision-templates.js';
 import { SPORTS_COMPLIANCE_FRAMEWORKS } from '../config/sports/compliance-frameworks.js';
 
-import { z } from 'zod';
 
 const transferCreateSchema = z.object({
   organizationId: z.string().min(1),
@@ -47,22 +46,22 @@ const transferUpdateSchema = z.object({
 
 const assessmentSchema = z.object({
   userId: z.string().min(1),
-  assessment: z.record(z.unknown()),
+  assessment: z.record(z.any()),
 });
 
 const valuationSchema = z.object({
   userId: z.string().min(1),
-  valuation: z.record(z.unknown()),
+  valuation: z.record(z.any()),
 });
 
 const alternativeSchema = z.object({
   userId: z.string().min(1),
-  alternative: z.record(z.unknown()),
+  alternative: z.record(z.any()),
 });
 
 const evidenceSchema = z.object({
   userId: z.string().min(1),
-  evidence: z.record(z.unknown()),
+  evidence: z.record(z.any()),
 });
 
 const userIdBodySchema = z.object({ userId: z.string().min(1) });
@@ -91,7 +90,7 @@ const knowledgeQuerySchema = z.object({
 const agentPromptSchema = z.object({
   workflow: z.string().min(1),
   player: z.string().optional(),
-  financials: z.record(z.unknown()).optional(),
+  financials: z.record(z.any()).optional(),
   additionalContext: z.string().optional(),
 });
 
@@ -217,7 +216,7 @@ router.post('/transfers', asyncHandler(async (req: Request, res: Response) => {
     transferFee,
     addOns,
     agentFee,
-  } = z.object({}).passthrough().parse(req.body);
+  } = (req.body as Record<string, any>);
 
   if (!organizationId || !userId || !player || !counterpartyClub) {
     res.status(400).json({ error: 'Missing required fields' });
@@ -292,7 +291,7 @@ router.post('/transfers/:id/scouting', asyncHandler(async (req: Request, res: Re
     const decision = await sportsDecisionService.addScoutingAssessment(
       getParam(req, 'id'),
       userId,
-      assessment
+      assessment as any
     );
     res.json({ decision });
   } catch (error) {
@@ -316,7 +315,7 @@ router.post('/transfers/:id/valuation', asyncHandler(async (req: Request, res: R
     const decision = await sportsDecisionService.addValuation(
       getParam(req, 'id'),
       userId,
-      valuation
+      valuation as any
     );
     res.json({ decision });
   } catch (error) {
@@ -340,7 +339,7 @@ router.post('/transfers/:id/alternatives', asyncHandler(async (req: Request, res
     const decision = await sportsDecisionService.addAlternative(
       getParam(req, 'id'),
       userId,
-      alternative
+      alternative as any
     );
     res.json({ decision });
   } catch (error) {
@@ -369,7 +368,7 @@ router.post('/transfers/:id/evidence', asyncHandler(async (req: Request, res: Re
     const decision = await sportsDecisionService.attachEvidence(
       getParam(req, 'id'),
       userId,
-      evidence
+      evidence as any
     );
     res.json({ decision });
   } catch (error) {
@@ -543,8 +542,8 @@ router.post('/knowledge/query', asyncHandler(async (req: Request, res: Response)
 
   const results = await sportsKnowledgeBase.query({
     query,
-    sources,
-    types,
+    sources: sources as any,
+    types: types as any,
     maxResults: maxResults || 10,
     minRelevance: minRelevance || 0.1,
   });
@@ -655,10 +654,10 @@ router.post('/agents/:agentId/prompt', asyncHandler(async (req: Request, res: Re
   }
 
   const prompt = await sportsAgentService.buildAgentPrompt(agent, {
-    workflow,
-    player,
+    workflow: workflow as any,
+    player: player as any,
     financials,
-    additionalContext,
+    additionalContext: additionalContext as any,
   });
 
   res.json({

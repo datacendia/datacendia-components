@@ -20,15 +20,15 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  name: z.unknown(),
-  title: z.unknown(),
-  organization: z.unknown(),
-  concern: z.unknown(),
-  source: z.unknown(),
+  name: z.any(),
+  title: z.any(),
+  organization: z.any(),
+  concern: z.any(),
+  source: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  email: z.unknown(),
-  source: z.unknown(),
+  email: z.any(),
+  source: z.any(),
 }).passthrough();
 
 const router: Router = express.Router();

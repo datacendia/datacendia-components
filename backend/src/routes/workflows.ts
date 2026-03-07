@@ -108,9 +108,9 @@ const workflowSchema = z.object({
     nodes: z.array(z.object({
       id: z.string(),
       type: z.string(),
-      config: z.record(z.unknown()),
+      config: z.record(z.any()),
       inputs: z.array(z.string()).optional(),
-      outputs: z.unknown().optional(),
+      outputs: z.any().optional(),
     })),
     edges: z.array(z.object({
       from: z.string(),
@@ -163,7 +163,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organization_id !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -238,7 +238,7 @@ router.put('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organization_id !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -279,7 +279,7 @@ router.post('/:id/activate', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organization_id !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -311,7 +311,7 @@ router.post('/:id/execute', async (req: Request, res: Response, next: NextFuncti
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organization_id !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -414,7 +414,7 @@ router.get('/:id/executions', async (req: Request, res: Response, next: NextFunc
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organization_id !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -459,7 +459,7 @@ router.get('/executions/:executionId', async (req: Request, res: Response, next:
       where: { id: execution.workflow_id },
     });
 
-    if (!workflow || workflow.organization_id !== req.organizationId) {
+    if (!workflow || workflow.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 

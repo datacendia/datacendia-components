@@ -19,42 +19,42 @@ import { cendiaSentryService } from '../services/CendiaSentryService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  userId: z.unknown(),
-  inputType: z.unknown(),
-  input: z.unknown(),
-  output: z.unknown(),
-  agentId: z.unknown(),
-  modelUsed: z.unknown(),
-  context: z.unknown(),
+  userId: z.any(),
+  inputType: z.any(),
+  input: z.any(),
+  output: z.any(),
+  agentId: z.any(),
+  modelUsed: z.any(),
+  context: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  configs: z.unknown(),
+  configs: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  userId: z.unknown(),
-  inputType: z.unknown(),
-  input: z.unknown(),
-  output: z.unknown(),
-  agentId: z.unknown(),
-  modelUsed: z.unknown(),
-  domain: z.unknown(),
-  context: z.unknown(),
+  userId: z.any(),
+  inputType: z.any(),
+  input: z.any(),
+  output: z.any(),
+  agentId: z.any(),
+  modelUsed: z.any(),
+  domain: z.any(),
+  context: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  checkId: z.unknown(),
-  guardrailType: z.unknown(),
-  correctedDecision: z.unknown(),
-  reason: z.unknown(),
-  correctedBy: z.unknown(),
+  checkId: z.any(),
+  guardrailType: z.any(),
+  correctedDecision: z.any(),
+  reason: z.any(),
+  correctedBy: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  userId: z.unknown(),
-  inputType: z.unknown(),
-  input: z.unknown(),
-  output: z.unknown(),
-  agentId: z.unknown(),
-  modelUsed: z.unknown(),
-  context: z.unknown(),
+  userId: z.any(),
+  inputType: z.any(),
+  input: z.any(),
+  output: z.any(),
+  agentId: z.any(),
+  modelUsed: z.any(),
+  context: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -69,7 +69,7 @@ const router = Router();
  */
 router.post('/check', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { userId, inputType, input, output, agentId, modelUsed, context } = bodySchema0.parse(req.body);
     const result = await cendiaSentryService.checkContent({
       organizationId: orgId,
@@ -109,7 +109,7 @@ router.get('/check/:id', async (req: Request, res: Response) => {
  */
 router.get('/statistics', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const stats = await cendiaSentryService.getStatistics(orgId);
     res.json({ success: true, data: stats });
   } catch (error) {
@@ -123,7 +123,7 @@ router.get('/statistics', async (req: Request, res: Response) => {
  */
 router.put('/config', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { configs } = bodySchema1.parse(req.body);
     cendiaSentryService.setGuardrailConfig(orgId, configs);
     res.json({ success: true, message: 'Guardrail configuration updated' });
@@ -142,7 +142,7 @@ router.put('/config', async (req: Request, res: Response) => {
  */
 router.post('/check-context', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { userId, inputType, input, output, agentId, modelUsed, domain, context } = bodySchema2.parse(req.body);
     if (!domain) {
       return res.status(400).json({ success: false, error: { message: 'domain is required (general|medical|financial|legal|technical|hr)' } });
@@ -186,7 +186,7 @@ router.get('/explain/:checkId', async (req: Request, res: Response) => {
  */
 router.post('/correct', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { checkId, guardrailType, correctedDecision, reason, correctedBy } = bodySchema3.parse(req.body);
     if (!checkId || !guardrailType || !correctedDecision) {
       return res.status(400).json({ success: false, error: { message: 'checkId, guardrailType, and correctedDecision are required' } });
@@ -211,7 +211,7 @@ router.post('/correct', async (req: Request, res: Response) => {
  */
 router.get('/corrections', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const result = await cendiaSentryService.getCorrectionAnalytics(orgId);
     res.json({ success: true, data: result });
   } catch (error) {
@@ -225,7 +225,7 @@ router.get('/corrections', async (req: Request, res: Response) => {
  */
 router.post('/check-tiered', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { userId, inputType, input, output, agentId, modelUsed, context } = bodySchema0.parse(req.body);
     const result = await cendiaSentryService.checkContentTiered({
       organizationId: orgId,

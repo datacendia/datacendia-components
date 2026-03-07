@@ -89,6 +89,10 @@ export interface TenantMetrics {
   totalUsers: number;
 }
 
+// DB-level enum types (defined inline to avoid dependency on excluded enterprise modules)
+type TenantPlan = 'PILOT' | 'TRIAL' | 'FOUNDATION' | 'ENTERPRISE' | 'STRATEGIC' | 'CUSTOM';
+type TenantStatus = 'PENDING' | 'TRIAL' | 'ACTIVE' | 'SUSPENDED' | 'CHURNED';
+
 // =============================================================================
 // TENANT SERVICE - REAL DATABASE QUERIES
 // =============================================================================

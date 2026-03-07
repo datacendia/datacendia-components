@@ -31,13 +31,13 @@ const debateStartSchema = z.object({
 });
 const agentStatusSchema = z.object({ agentId: z.string().min(1), status: z.string().min(1), statement: z.string().optional() });
 const agentConfidenceSchema = z.object({ agentId: z.string().min(1), confidence: z.number().min(0).max(1) });
-const agentCitationSchema = z.object({ agentId: z.string().min(1), citation: z.record(z.unknown()) });
+const agentCitationSchema = z.object({ agentId: z.string().min(1), citation: z.record(z.any()) });
 const agentObjectionSchema = z.object({ agentId: z.string().min(1), reason: z.string().min(1), severity: z.string().optional() });
-const decisionSchema = z.object({ decision: z.record(z.unknown()) });
+const decisionSchema = z.object({ decision: z.record(z.any()) });
 const deliberationIdSchema = z.object({ deliberationId: z.string().min(1) });
 const speedSchema = z.object({ speed: z.number().positive() });
-const frameSchema = z.object({ frameIndex: z.number().int().min(0), timeMs: z.number().min(0), session: z.record(z.unknown()).optional() });
-const sessionOptionsSchema = z.object({ session: z.record(z.unknown()).optional(), options: z.record(z.unknown()).optional() });
+const frameSchema = z.object({ frameIndex: z.number().int().min(0), timeMs: z.number().min(0), session: z.record(z.any()).optional() });
+const sessionOptionsSchema = z.object({ session: z.record(z.any()).optional(), options: z.record(z.any()).optional() });
 const router = Router();
 
 // =============================================================================
@@ -58,7 +58,7 @@ router.post('/deliberation/init', (req: Request, res: Response) => {
   const state = deliberationVisualizationService.initializeVisualization(
     deliberationId,
     topic,
-    agents,
+    agents as any,
     maxRounds
   );
   
@@ -89,7 +89,7 @@ router.post('/deliberation/:id/agent-status', (req: Request, res: Response) => {
   deliberationVisualizationService.updateAgentStatus(
     req.params.id,
     agentId,
-    status,
+    status as any,
     statement
   );
   
@@ -115,7 +115,7 @@ router.post('/deliberation/:id/confidence', (req: Request, res: Response) => {
 router.post('/deliberation/:id/citation', (req: Request, res: Response) => {
   const { agentId, citation } = agentCitationSchema.parse(req.body);
   
-  deliberationVisualizationService.addCitation(req.params.id, agentId, citation);
+  deliberationVisualizationService.addCitation(req.params.id, agentId, citation as any);
   
   res.json({ success: true });
 });
@@ -127,7 +127,7 @@ router.post('/deliberation/:id/citation', (req: Request, res: Response) => {
 router.post('/deliberation/:id/dissent', (req: Request, res: Response) => {
   const { agentId, reason, severity } = agentObjectionSchema.parse(req.body);
   
-  deliberationVisualizationService.registerDissent(req.params.id, agentId, reason, severity);
+  deliberationVisualizationService.registerDissent(req.params.id, agentId, reason, severity as any);
   
   res.json({ success: true });
 });
@@ -150,7 +150,7 @@ router.post('/deliberation/:id/conclude', (req: Request, res: Response) => {
   const { decision } = decisionSchema.parse(req.body);
   
   if (decision) {
-    deliberationVisualizationService.concludeWithConsensus(req.params.id, decision);
+    deliberationVisualizationService.concludeWithConsensus(req.params.id, decision as any);
   } else {
     deliberationVisualizationService.concludeDeliberation(req.params.id);
   }
@@ -233,9 +233,9 @@ router.post('/replay/:sessionId/seek', (req: Request, res: Response) => {
   
   let state;
   if (frameIndex !== undefined) {
-    state = decisionReplayTheaterService.seekToFrame(req.params.sessionId, frameIndex, session);
+    state = decisionReplayTheaterService.seekToFrame(req.params.sessionId, frameIndex, session as any);
   } else if (timeMs !== undefined) {
-    state = decisionReplayTheaterService.seekToTime(req.params.sessionId, timeMs, session);
+    state = decisionReplayTheaterService.seekToTime(req.params.sessionId, timeMs, session as any);
   }
   
   res.json({ success: true, state });
@@ -278,13 +278,14 @@ router.post('/replay/:sessionId/export', (req: Request, res: Response) => {
     return res.status(400).json({ error: 'session data is required' });
   }
   
-  const exported = decisionReplayTheaterService.exportSession(session, options || {
+  const exportOpts: any = options || {
     format: 'json',
     includeTimestamps: true,
     includeConfidenceLevels: true,
     includeCitations: true,
     includeMetadata: true,
-  });
+  };
+  const exported = decisionReplayTheaterService.exportSession(session as any, exportOpts);
   
   res.json({ success: true, exported });
 });

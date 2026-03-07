@@ -21,31 +21,32 @@ import { devAuth } from '../middleware/auth.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
+import { prisma } from '../config/database.js';
 
 const bodySchema0 = z.object({
-  data: z.unknown(),
-  keyId: z.unknown(),
-  encoding: z.unknown(),
+  data: z.any(),
+  keyId: z.any(),
+  encoding: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  data: z.unknown(),
-  signature: z.unknown(),
-  keyId: z.unknown(),
-  encoding: z.unknown(),
+  data: z.any(),
+  signature: z.any(),
+  keyId: z.any(),
+  encoding: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  data: z.unknown(),
-  keyId: z.unknown(),
-  encoding: z.unknown(),
+  data: z.any(),
+  keyId: z.any(),
+  encoding: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  ciphertext: z.unknown(),
-  keyId: z.unknown(),
+  ciphertext: z.any(),
+  keyId: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  keyId: z.unknown(),
-  algorithm: z.unknown(),
-  exportable: z.unknown(),
+  keyId: z.any(),
+  algorithm: z.any(),
+  exportable: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -467,7 +468,7 @@ router.get('/audit', async (req: Request, res: Response) => {
     });
 
     const entries = dbEntries.length > 0
-      ? dbEntries.map(e => ({
+      ? dbEntries.map((e: any) => ({
           id: e.id,
           timestamp: e.created_at.toISOString(),
           action: e.action.replace('kms.', ''),

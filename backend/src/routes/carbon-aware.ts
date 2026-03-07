@@ -2,13 +2,13 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  name: z.unknown(),
-  type: z.unknown(),
-  priority: z.unknown(),
-  estimatedDurationMinutes: z.unknown(),
-  estimatedEnergyWh: z.unknown(),
-  preferredRegions: z.unknown(),
-  maxDeferralHours: z.unknown(),
+  name: z.any(),
+  type: z.any(),
+  priority: z.any(),
+  estimatedDurationMinutes: z.any(),
+  estimatedEnergyWh: z.any(),
+  preferredRegions: z.any(),
+  maxDeferralHours: z.any(),
 }).passthrough();
 
 /**
@@ -31,16 +31,15 @@ const schema_0 = z.object({
 import { Router, Request, Response } from 'express';
 import { carbonAwareSchedulerService, WorkloadPriority, WorkloadStatus } from '../services/scheduling/CarbonAwareSchedulerService.js';
 
-import { z } from 'zod';
 
 const schema_1 = z.object({
-  name: z.unknown(),
-  type: z.unknown(),
-  priority: z.unknown(),
-  estimatedDurationMinutes: z.unknown(),
-  estimatedEnergyWh: z.unknown(),
-  preferredRegions: z.unknown(),
-  maxDeferralHours: z.unknown(),
+  name: z.any(),
+  type: z.any(),
+  priority: z.any(),
+  estimatedDurationMinutes: z.any(),
+  estimatedEnergyWh: z.any(),
+  preferredRegions: z.any(),
+  maxDeferralHours: z.any(),
 }).passthrough();
 
 const router = Router();

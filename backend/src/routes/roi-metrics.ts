@@ -25,7 +25,7 @@ const router = Router();
  */
 router.get('/summary', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const days = parseInt(req.query['days'] as string) || 30;
 
     const summary = await roiMetricsService.getROISummary(orgId, days);
@@ -45,7 +45,7 @@ router.get('/summary', async (req: Request, res: Response, next: NextFunction) =
  */
 router.get('/deliberations', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const startDate = req.query['start'] ? new Date(req.query['start'] as string) : undefined;
     const endDate = req.query['end'] ? new Date(req.query['end'] as string) : undefined;
 
@@ -66,7 +66,7 @@ router.get('/deliberations', async (req: Request, res: Response, next: NextFunct
  */
 router.get('/audit', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const startDate = req.query['start'] ? new Date(req.query['start'] as string) : undefined;
     const endDate = req.query['end'] ? new Date(req.query['end'] as string) : undefined;
 
@@ -87,7 +87,7 @@ router.get('/audit', async (req: Request, res: Response, next: NextFunction) => 
  */
 router.get('/quality', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const startDate = req.query['start'] ? new Date(req.query['start'] as string) : undefined;
     const endDate = req.query['end'] ? new Date(req.query['end'] as string) : undefined;
 
@@ -108,7 +108,7 @@ router.get('/quality', async (req: Request, res: Response, next: NextFunction) =
  */
 router.get('/comparison', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
 
     const comparison = await roiMetricsService.getComparativeMetrics(orgId);
 
@@ -127,7 +127,7 @@ router.get('/comparison', async (req: Request, res: Response, next: NextFunction
  */
 router.get('/export', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const format = (req.query['format'] as string) || 'json';
     const days = parseInt(req.query['days'] as string) || 30;
 

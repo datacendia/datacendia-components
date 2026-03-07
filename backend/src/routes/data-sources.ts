@@ -47,14 +47,14 @@ const dataSourceSchema = z.object({
     'SALESFORCE', 'SAP', 'ORACLE', 'MONGODB',
     'REST_API', 'GRAPHQL', 'CSV_UPLOAD'
   ]),
-  config: z.record(z.unknown()),
+  config: z.record(z.any()),
   syncSchedule: z.string().optional(),
 });
 
 const updateDataSourceSchema = z.object({
   name: z.string().min(1).optional(),
-  config: z.record(z.unknown()).optional(),
-  credentials: z.record(z.unknown()).optional(),
+  config: z.record(z.any()).optional(),
+  credentials: z.record(z.any()).optional(),
   syncSchedule: z.string().optional(),
 });
 
@@ -121,7 +121,7 @@ router.put('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organization_id !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -192,7 +192,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organization_id !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -319,7 +319,7 @@ router.post('/:id/test', async (req: Request, res: Response, next: NextFunction)
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organization_id !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -355,7 +355,7 @@ router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction)
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organization_id !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -397,7 +397,7 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organization_id !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 

@@ -55,13 +55,13 @@ const ghostBoardSchema = z.object({
   boardType: z.string().optional(),
   difficulty: z.string().optional(),
   focusAreas: z.array(z.string()).optional(),
-  existingAnswers: z.record(z.unknown()).optional(),
+  existingAnswers: z.record(z.any()).optional(),
   tier: z.string().default('enterprise'),
 });
 
 const debtCreateSchema = z.object({
   organizationId: z.string().default('demo'),
-  data: z.record(z.unknown()).optional(),
+  data: z.record(z.any()).optional(),
 });
 
 const debtResolveSchema = z.object({
@@ -92,7 +92,7 @@ const regulatoryAbsorbSchema = z.object({
   organizationId: z.string().min(1),
   userId: z.string().min(1),
   document: z.string().min(1),
-  customMapping: z.record(z.unknown()).optional(),
+  customMapping: z.record(z.any()).optional(),
   tier: z.string().default('enterprise'),
 });
 
@@ -100,7 +100,7 @@ const regulatoryUploadSchema = z.object({
   organizationId: z.string().min(1),
   userId: z.string().min(1),
   document: z.string().min(1),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.any()).optional(),
   parentVersionId: z.string().optional(),
   tier: z.string().default('enterprise'),
 });
@@ -290,8 +290,8 @@ router.post('/ghost-board/session', async (req: Request, res: Response) => {
       userId: userId || 'demo-user',
       proposalTitle,
       proposalContent,
-      boardType,
-      difficulty,
+      boardType: boardType as any,
+      difficulty: difficulty as any,
       focusAreas,
       existingAnswers,
       tier: tier as SubscriptionTier,
@@ -374,7 +374,7 @@ router.get('/decision-debt/dashboard', async (req: Request, res: Response) => {
 router.post('/decision-debt/decision', async (req: Request, res: Response) => {
   try {
     const { organizationId = 'demo', ...data } = debtCreateSchema.passthrough().parse(req.body);
-    const decision = await decisionDebtService.createDecision(organizationId, data);
+    const decision = await decisionDebtService.createDecision(organizationId, data as any);
     
     res.json({
       success: true,
@@ -441,12 +441,12 @@ router.post('/live-demo/session', async (req: Request, res: Response) => {
 
     const session = await liveDemoModeService.createSession(
       userId || 'demo-user',
-      connector,
+      connector as any,
       tier as SubscriptionTier
     );
 
     // Generate OAuth URL
-    const authUrl = liveDemoModeService.generateAuthUrl(connector, session.id);
+    const authUrl = liveDemoModeService.generateAuthUrl(connector as any, session.id);
 
     res.json({
       success: true,
@@ -524,7 +524,7 @@ router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
       organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
-      connector,
+      connector: connector as any,
       question,
     });
 
@@ -552,7 +552,7 @@ router.post('/regulatory/absorb', async (req: Request, res: Response) => {
   try {
     const { organizationId, userId, document, customMapping, tier = 'enterprise' } = regulatoryAbsorbSchema.parse(req.body);
 
-    if (!document || !document.content) {
+    if (!document || !(document as any).content) {
       return res.status(400).json({
         error: 'Document with content is required',
         code: 'MISSING_DOCUMENT',
@@ -563,8 +563,8 @@ router.post('/regulatory/absorb', async (req: Request, res: Response) => {
       organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
-      document,
-      customMapping,
+      document: document as any,
+      customMapping: customMapping as any,
     });
 
     res.json({
@@ -641,7 +641,7 @@ router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
   try {
     const { organizationId, userId, document, metadata, parentVersionId, tier = 'enterprise' } = regulatoryUploadSchema.parse(req.body);
 
-    if (!document || !document.content) {
+    if (!document || !(document as any).content) {
       return res.status(400).json({
         error: 'Document with content is required',
         code: 'MISSING_DOCUMENT',
@@ -659,8 +659,8 @@ router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
       organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
-      document,
-      metadata,
+      document: document as any,
+      metadata: metadata as any,
       parentVersionId,
     });
 
@@ -695,7 +695,7 @@ router.get('/regulatory/v2/documents', async (req: Request, res: Response) => {
     const jurisdiction = req.query.jurisdiction as string | undefined;
 
     const documents = await regulatoryAbsorbV2Service.getDocuments(organizationId, {
-      status: status as string,
+      status: status as any,
       reviewStatus: reviewStatus as any,
       jurisdiction,
     });

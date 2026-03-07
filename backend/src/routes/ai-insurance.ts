@@ -2,35 +2,35 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  organizationId: z.unknown(),
-  coverageType: z.unknown(),
-  requestedLimit: z.unknown(),
-  verticalId: z.unknown(),
-  coveredSystems: z.unknown(),
-  termMonths: z.unknown(),
+  organizationId: z.any(),
+  coverageType: z.any(),
+  requestedLimit: z.any(),
+  verticalId: z.any(),
+  coveredSystems: z.any(),
+  termMonths: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  quoteId: z.unknown(),
-  coveredSystems: z.unknown(),
-  coveredDecisionTypes: z.unknown(),
-  createdBy: z.unknown(),
+  quoteId: z.any(),
+  coveredSystems: z.any(),
+  coveredDecisionTypes: z.any(),
+  createdBy: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  policyId: z.unknown(),
-  decisionId: z.unknown(),
-  deliberationId: z.unknown(),
-  decisionType: z.unknown(),
-  decisionValue: z.unknown(),
-  riskFactors: z.unknown(),
+  policyId: z.any(),
+  decisionId: z.any(),
+  deliberationId: z.any(),
+  decisionType: z.any(),
+  decisionValue: z.any(),
+  riskFactors: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  policyId: z.unknown(),
-  incidentDate: z.unknown(),
-  incidentDescription: z.unknown(),
-  decisionId: z.unknown(),
-  claimAmount: z.unknown(),
-  claimType: z.unknown(),
-  supportingDocuments: z.unknown(),
+  policyId: z.any(),
+  incidentDate: z.any(),
+  incidentDescription: z.any(),
+  decisionId: z.any(),
+  claimAmount: z.any(),
+  claimType: z.any(),
+  supportingDocuments: z.any(),
 }).passthrough();
 
 /**
@@ -53,38 +53,37 @@ const schema_3 = z.object({
 import { Router, Request, Response } from 'express';
 import { aiInsuranceService, CoverageType } from '../services/insurance/AIInsuranceService.js';
 
-import { z } from 'zod';
 
 const schema_4 = z.object({
-  organizationId: z.unknown(),
-  coverageType: z.unknown(),
-  requestedLimit: z.unknown(),
-  verticalId: z.unknown(),
-  coveredSystems: z.unknown(),
-  termMonths: z.unknown(),
+  organizationId: z.any(),
+  coverageType: z.any(),
+  requestedLimit: z.any(),
+  verticalId: z.any(),
+  coveredSystems: z.any(),
+  termMonths: z.any(),
 }).passthrough();
 const schema_5 = z.object({
-  quoteId: z.unknown(),
-  coveredSystems: z.unknown(),
-  coveredDecisionTypes: z.unknown(),
-  createdBy: z.unknown(),
+  quoteId: z.any(),
+  coveredSystems: z.any(),
+  coveredDecisionTypes: z.any(),
+  createdBy: z.any(),
 }).passthrough();
 const schema_6 = z.object({
-  policyId: z.unknown(),
-  decisionId: z.unknown(),
-  deliberationId: z.unknown(),
-  decisionType: z.unknown(),
-  decisionValue: z.unknown(),
-  riskFactors: z.unknown(),
+  policyId: z.any(),
+  decisionId: z.any(),
+  deliberationId: z.any(),
+  decisionType: z.any(),
+  decisionValue: z.any(),
+  riskFactors: z.any(),
 }).passthrough();
 const schema_7 = z.object({
-  policyId: z.unknown(),
-  incidentDate: z.unknown(),
-  incidentDescription: z.unknown(),
-  decisionId: z.unknown(),
-  claimAmount: z.unknown(),
-  claimType: z.unknown(),
-  supportingDocuments: z.unknown(),
+  policyId: z.any(),
+  incidentDate: z.any(),
+  incidentDescription: z.any(),
+  decisionId: z.any(),
+  claimAmount: z.any(),
+  claimType: z.any(),
+  supportingDocuments: z.any(),
 }).passthrough();
 
 const router = Router();

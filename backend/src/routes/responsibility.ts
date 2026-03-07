@@ -2,7 +2,7 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  record: z.unknown(),
+  record: z.any(),
 }).passthrough();
 
 /**
@@ -45,7 +45,7 @@ router.post('/record', async (req: Request, res: Response) => {
       aiConfidenceScore,
       dissentsOverridden,
       witnesses
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!decisionId || !organizationId || !humanAuthority || !actionTaken || !justification) {
       res.status(400).json({
@@ -97,7 +97,7 @@ router.post('/override', async (req: Request, res: Response) => {
       humanDecision,
       overrideReason,
       acceptedRisks
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!decisionId || !organizationId || !humanAuthority || !overrideReason || !acceptedRisks) {
       res.status(400).json({
@@ -144,7 +144,7 @@ router.post('/approve', async (req: Request, res: Response) => {
       aiConfidenceScore,
       acceptedRisks,
       additionalConditions
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!decisionId || !organizationId || !humanAuthority) {
       res.status(400).json({
@@ -190,7 +190,7 @@ router.post('/reject', async (req: Request, res: Response) => {
       aiRecommendation,
       rejectionReason,
       alternativeAction
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!decisionId || !organizationId || !humanAuthority || !rejectionReason) {
       res.status(400).json({
@@ -234,7 +234,7 @@ router.post('/delegation', async (req: Request, res: Response) => {
       scope,
       constraints,
       validUntil
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!fromAuthority || !toAuthority || !scope) {
       res.status(400).json({

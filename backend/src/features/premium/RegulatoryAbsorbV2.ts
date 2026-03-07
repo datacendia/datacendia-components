@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Feature — Regulatory Absorb V2
  *

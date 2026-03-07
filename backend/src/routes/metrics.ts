@@ -108,7 +108,7 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.get('/key', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = (req.organizationId as string) || (req.query['organizationId'] as string);
+    const orgId = (req.organizationId! as string) || (req.query['organizationId'] as string);
     
     // Skip cache for now to ensure fresh data
     // Get ALL metrics for this org (no category filter)
@@ -180,7 +180,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Metric');
     }
 
-    if (metric.organization_id !== req.organizationId) {
+    if (metric.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -267,7 +267,7 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Metric');
     }
 
-    if (metric.organization_id !== req.organizationId) {
+    if (metric.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -330,7 +330,7 @@ router.get('/:id/history', async (req: Request, res: Response, next: NextFunctio
       throw errors.notFound('Metric');
     }
 
-    if (metric.organization_id !== req.organizationId) {
+    if (metric.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 

@@ -21,8 +21,8 @@ import multer from 'multer';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  data: z.unknown(),
-  filename: z.unknown(),
+  data: z.any(),
+  filename: z.any(),
 }).passthrough();
 
 const router = Router();

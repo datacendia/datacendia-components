@@ -26,7 +26,7 @@ const textSchema = z.object({ text: z.string().min(1) });
 const dateSchema = z.object({ date: z.string().optional() });
 const runwaySchema = z.object({ cash: z.number(), expenses: z.number() });
 const pricingSchema = z.object({ tier: z.string().min(1), currentPrice: z.number().optional() });
-const subscriptionsSchema = z.object({ subscriptions: z.array(z.record(z.unknown())) });
+const subscriptionsSchema = z.object({ subscriptions: z.array(z.record(z.any())) });
 const customerIdSchema = z.object({ customerId: z.string().min(1) });
 // Core Services
 import { cendiaBrandService } from '../services/core/CendiaBrandService.js';
@@ -36,16 +36,6 @@ import { cendiaSupportService } from '../services/core/CendiaSupportService.js';
 import { cendiaWatchService } from '../services/core/CendiaWatchService.js';
 import { getCoreDashboard } from '../services/core/index.js';
 
-import { z } from 'zod';
-
-const featureCreateSchema = z.object({ featureId: z.string().min(1), featureName: z.string().min(1), featureDescription: z.string().optional() });
-const featureIdSchema = z.object({ featureId: z.string().min(1) });
-const textSchema = z.object({ text: z.string().min(1) });
-const dateSchema = z.object({ date: z.string().optional() });
-const runwaySchema = z.object({ cash: z.number(), expenses: z.number() });
-const pricingSchema = z.object({ tier: z.string().min(1), currentPrice: z.number().optional() });
-const subscriptionsSchema = z.object({ subscriptions: z.array(z.record(z.unknown())) });
-const customerIdSchema = z.object({ customerId: z.string().min(1) });
 const router: Router = express.Router();
 
 // All core admin routes require authentication and admin-level role
@@ -88,14 +78,14 @@ router.post('/brand/generate/linkedin', authenticate, async (req: Request, res: 
     cendiaBrandService.registerFeature({
       id: featureId || `feat-${Date.now()}`,
       name: featureName,
-      description: featureDescription,
+      description: featureDescription as any,
       marketingAssets: [],
     });
 
     const post = await cendiaBrandService.generateLinkedInPost({
       id: featureId || `feat-${Date.now()}`,
       name: featureName,
-      description: featureDescription,
+      description: featureDescription as any,
       marketingAssets: [],
     });
 
@@ -145,7 +135,7 @@ router.post('/brand/content/:id/approve', authenticate, async (req: Request, res
 router.post('/brand/content/:id/schedule', authenticate, async (req: Request, res: Response) => {
   try {
     const { date } = dateSchema.parse(req.body);
-    cendiaBrandService.scheduleContent(req.params.id, new Date(date));
+    cendiaBrandService.scheduleContent(req.params.id, new Date((date as any)));
     res.json({ success: true });
   } catch (error) {
     logger.error('Failed to schedule content:', error);
@@ -265,7 +255,7 @@ router.post('/revenue/runway', authenticate, async (req: Request, res: Response)
 router.post('/revenue/pricing', authenticate, async (req: Request, res: Response) => {
   try {
     const { tier, currentPrice } = pricingSchema.parse(req.body);
-    const recommendation = await cendiaRevenueService.analyzePricing(tier, currentPrice);
+    const recommendation = await cendiaRevenueService.analyzePricing(tier, currentPrice as any);
     res.json({ recommendation });
   } catch (error) {
     logger.error('Failed to analyze pricing:', error);

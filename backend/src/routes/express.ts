@@ -42,21 +42,21 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  query: z.unknown(),
-  domain: z.unknown(),
-  context: z.unknown(),
-  mode: z.unknown(),
+  query: z.any(),
+  domain: z.any(),
+  context: z.any(),
+  mode: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  violationIds: z.unknown(),
+  violationIds: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  scenarioType: z.unknown(),
-  description: z.unknown(),
+  scenarioType: z.any(),
+  description: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  question: z.unknown(),
-  timeHorizon: z.unknown(),
+  question: z.any(),
+  timeHorizon: z.any(),
 }).passthrough();
 
 const router = Router();

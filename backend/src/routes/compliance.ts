@@ -24,7 +24,7 @@ const assessSchema = z.object({ organizationId: z.string().min(1), pillarId: z.s
 const frameworkAssessSchema = z.object({ organizationId: z.string().min(1), frameworkId: z.string().min(1), pillarId: z.string().optional(), assessor: z.string().optional() });
 const reportGenSchema = z.object({ organizationId: z.string().min(1), frameworks: z.array(z.string()).optional(), pillars: z.array(z.string()).optional(), domains: z.array(z.string()).optional(), generatedBy: z.string().optional() });
 const agentActionSchema = z.object({ agentId: z.string().min(1), action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional() });
-const auditActionSchema = z.object({ action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional(), pillar: z.string().optional(), userId: z.string().optional(), agentId: z.string().optional(), metadata: z.record(z.unknown()).optional() });
+const auditActionSchema = z.object({ action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional(), pillar: z.string().optional(), userId: z.string().optional(), agentId: z.string().optional(), metadata: z.record(z.any()).optional() });
 const consentSchema = z.object({ id: z.string().min(1), agentId: z.string().optional(), action: z.string().min(1), description: z.string().optional(), dataTypes: z.array(z.string()).optional(), targetSystems: z.array(z.string()).optional(), affectedData: z.array(z.string()).optional(), rationale: z.string().optional() });
 const router = Router();
 
@@ -577,7 +577,7 @@ router.post('/check', (req: Request, res: Response) => {
       action,
       description,
       dataTypes: dataTypes || [],
-      pillar,
+      pillar: pillar as any,
       userId,
       agentId,
       metadata,

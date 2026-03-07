@@ -44,7 +44,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
 
     // Get counts for metrics
     const [deliberationCount, decisionCount, messageCount] = await Promise.all([
@@ -549,7 +549,7 @@ const LANGUAGE_NAMES: Record<string, string> = {
 const querySchema = z.object({
   query: z.string().min(1, 'Query is required').max(2000),
   agents: z.array(z.string()).optional(),
-  context: z.record(z.unknown()).optional(),
+  context: z.record(z.any()).optional(),
   language: z.string().length(2).optional().default('en'),
 });
 
@@ -564,7 +564,7 @@ const deliberationSchema = z.object({
     mode: z.string().optional(),
     requiredAgents: z.array(z.string()).optional(), // Or in config (from frontend)
   }).optional(),
-  context: z.record(z.unknown()).optional(),
+  context: z.record(z.any()).optional(),
   language: z.string().length(2).optional().default('en'),
 });
 
@@ -1079,7 +1079,7 @@ router.post('/deliberations', async (req: Request, res: Response, next: NextFunc
  */
 router.get('/deliberations', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const limit = parseInt(req.query['limit'] as string) || 100;
     const status = req.query['status'] as string; // Optional filter
 
@@ -1553,7 +1553,7 @@ Format this as professional meeting minutes suitable for audit and compliance pu
  */
 router.get('/deliberations/active', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
 
     const where: Record<string, unknown> = { status: { in: ['IN_PROGRESS', 'PENDING'] } };
     if (orgId) where.organization_id = orgId;
@@ -1593,7 +1593,7 @@ router.get('/deliberations/:id', async (req: Request, res: Response, next: NextF
     }
 
     // Skip org check for Chronos/DNA visibility
-    // if (deliberation.organization_id !== req.organizationId) {
+    // if (deliberation.organization_id !== req.organizationId!) {
     //   throw errors.forbidden();
     // }
 

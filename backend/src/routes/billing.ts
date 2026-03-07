@@ -22,15 +22,15 @@ import { notificationService } from '../services/NotificationService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  priceId: z.unknown(),
-  tierId: z.unknown(),
-  commitment: z.unknown(),
-  region: z.unknown(),
-  successUrl: z.unknown(),
-  cancelUrl: z.unknown(),
+  priceId: z.any(),
+  tierId: z.any(),
+  commitment: z.any(),
+  region: z.any(),
+  successUrl: z.any(),
+  cancelUrl: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  customerId: z.unknown(),
+  customerId: z.any(),
 }).passthrough();
 
 const router = Router();

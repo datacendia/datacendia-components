@@ -22,13 +22,13 @@ import { defenseVerticalService } from '../services/verticals/defense/index.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  missionType: z.unknown(),
+  missionType: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  modeId: z.unknown(),
-  query: z.unknown(),
-  context: z.unknown(),
-  classificationLevel: z.unknown(),
+  modeId: z.any(),
+  query: z.any(),
+  context: z.any(),
+  classificationLevel: z.any(),
 }).passthrough();
 
 const router = Router();

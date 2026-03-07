@@ -22,12 +22,12 @@ import hrIntegrationService, { HRProvider, HRCredentials } from '../services/HRI
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  apiKey: z.unknown(),
-  clientId: z.unknown(),
-  clientSecret: z.unknown(),
-  subdomain: z.unknown(),
-  tenantId: z.unknown(),
-  refreshToken: z.unknown(),
+  apiKey: z.any(),
+  clientId: z.any(),
+  clientSecret: z.any(),
+  subdomain: z.any(),
+  tenantId: z.any(),
+  refreshToken: z.any(),
 }).passthrough();
 
 const router: Router = express.Router();

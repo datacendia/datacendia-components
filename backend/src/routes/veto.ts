@@ -23,13 +23,13 @@ import { deterministicFloat, deterministicInt, deterministicPercentage, determin
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  title: z.unknown(),
-  description: z.unknown(),
-  category: z.unknown(),
-  amount: z.unknown(),
+  title: z.any(),
+  description: z.any(),
+  category: z.any(),
+  amount: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  reason: z.unknown(),
+  reason: z.any(),
 }).passthrough();
 
 const router: Router = express.Router();

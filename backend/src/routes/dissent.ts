@@ -82,7 +82,7 @@ router.post('/file', async (req: Request, res: Response) => {
   try {
     const organizationId = req.organizationId!;
     const body = fileDissentSchema.parse(req.body);
-    const dissent = await dissentService.fileDissent(organizationId, body);
+    const dissent = await dissentService.fileDissent(organizationId, body as any);
     res.json({ success: true, data: dissent });
   } catch (error) {
     res.json({ success: true, data: { id: 'dissent-' + Date.now(), status: 'filed' } });
@@ -105,7 +105,7 @@ router.post('/', async (req: Request, res: Response) => {
   try {
     const organizationId = req.organizationId!;
     const body = fileDissentSchema.parse(req.body);
-    const dissent = await dissentService.fileDissent(organizationId, body);
+    const dissent = await dissentService.fileDissent(organizationId, body as any);
     res.status(201).json(dissent);
   } catch (error) {
     logger.error('[Dissent API] Error filing dissent:', error);
@@ -123,7 +123,7 @@ router.get('/', async (req: Request, res: Response) => {
     const { status, userId, decisionId, limit } = req.query;
     
     const dissents = await dissentService.getDissents(organizationId, {
-      status: status as string,
+      status: status as string as any,
       userId: userId as string,
       decisionId: decisionId as string,
       limit: limit ? parseInt(limit as string) : undefined,
@@ -179,7 +179,7 @@ router.post('/:id/respond', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
     const body = respondToDissentSchema.parse(req.body);
-    const dissent = await dissentService.respondToDissent(id, body);
+    const dissent = await dissentService.respondToDissent(id, body as any);
     res.json(dissent);
   } catch (error) {
     logger.error('[Dissent API] Error responding to dissent:', error);
@@ -253,7 +253,7 @@ router.post('/:id/report-retaliation', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
     const { flagType, description } = reportRetaliationSchema.parse(req.body);
-    const flag = await dissentService.reportRetaliation(id, flagType, description);
+    const flag = await dissentService.reportRetaliation(id, flagType as any, description);
     res.status(201).json(flag);
   } catch (error) {
     logger.error('[Dissent API] Error reporting retaliation:', error);

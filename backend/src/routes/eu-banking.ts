@@ -21,10 +21,10 @@ import { Router, Request, Response } from 'express';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  components: z.unknown(),
+  components: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  components: z.unknown(),
+  components: z.any(),
 }).passthrough();
 
 import { authenticate } from '../middleware/auth.js';
@@ -39,44 +39,43 @@ import type {
   FundamentalRightAssessment, MitigationMeasure,
 } from '../services/verticals/eu-banking/index.js';
 
-import { z } from 'zod';
 
 const schema_2 = z.object({
-  components: z.unknown(),
+  components: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  components: z.unknown(),
+  components: z.any(),
 }).passthrough();
 
 
 const capitalAdequacySchema = z.object({
-  cet1Components: z.record(z.unknown()),
-  at1Components: z.record(z.unknown()),
-  tier2Components: z.record(z.unknown()),
-  creditExposures: z.array(z.record(z.unknown())).optional(),
-  marketPositions: z.array(z.record(z.unknown())).optional(),
-  operationalRiskData: z.record(z.unknown()).optional(),
+  cet1Components: z.record(z.any()),
+  at1Components: z.record(z.any()),
+  tier2Components: z.record(z.any()),
+  creditExposures: z.array(z.record(z.any())).optional(),
+  marketPositions: z.array(z.record(z.any())).optional(),
+  operationalRiskData: z.record(z.any()).optional(),
 });
-const exposuresSchema = z.object({ exposures: z.array(z.record(z.unknown())).min(1) });
-const componentsSchema = z.object({ components: z.record(z.unknown()) });
+const exposuresSchema = z.object({ exposures: z.array(z.record(z.any())).min(1) });
+const componentsSchema = z.object({ components: z.record(z.any()) });
 const leverageSchema = z.object({
-  exposures: z.array(z.record(z.unknown())),
+  exposures: z.array(z.record(z.any())),
   tier1Capital: z.number(),
   isGSII: z.boolean().optional(),
 });
 const stressTestSchema = z.object({
-  baselineResult: z.record(z.unknown()),
-  scenario: z.record(z.unknown()),
+  baselineResult: z.record(z.any()),
+  scenario: z.record(z.any()),
 });
-const aiSystemSchema = z.object({ system: z.record(z.unknown()) });
-const aiSystemsSchema = z.object({ systems: z.array(z.record(z.unknown())).min(1) });
+const aiSystemSchema = z.object({ system: z.record(z.any()) });
+const aiSystemsSchema = z.object({ systems: z.array(z.record(z.any())).min(1) });
 const rightsAssessmentSchema = z.object({
-  system: z.record(z.unknown()),
+  system: z.record(z.any()),
   assessor: z.string().optional(),
-  rightsAssessments: z.array(z.record(z.unknown())).optional(),
-  mitigationMeasures: z.array(z.record(z.unknown())).optional(),
+  rightsAssessments: z.array(z.record(z.any())).optional(),
+  mitigationMeasures: z.array(z.record(z.any())).optional(),
 });
-const documentationSchema = z.object({ documentation: z.record(z.unknown()) });
+const documentationSchema = z.object({ documentation: z.record(z.any()) });
 
 const router = Router();
 router.use(authenticate);
@@ -98,8 +97,8 @@ router.post('/basel3/capital-adequacy', async (req: Request, res: Response) => {
       (creditExposures || []) as CreditRiskExposure[],
       (marketPositions || []) as MarketRiskPosition[],
       (operationalRiskData || { method: 'BIA', grossIncomeHistory: [0, 0, 0] }) as OperationalRiskData,
-      totalExposureMeasure || 0,
-      buffers || { countercyclicalRate: 0, systemicRiskRate: 0 },
+      totalExposureMeasure as any || 0,
+      (buffers || { countercyclicalRate: 0, systemicRiskRate: 0 }) as any,
     );
     logger.info('[EU-Banking] Capital adequacy calculated', { cet1Ratio: (result.cet1Ratio * 100).toFixed(2) + '%', breaches: result.breaches.length });
     res.json({ result });
@@ -153,7 +152,7 @@ router.post('/basel3/large-exposures', async (req: Request, res: Response) => {
     if (!Array.isArray(exposures) || typeof tier1Capital !== 'number') {
       return res.status(400).json({ error: 'exposures array and tier1Capital required' });
     }
-    const results = basel3Engine.checkLargeExposures(exposures, tier1Capital, isGSII || false);
+    const results = basel3Engine.checkLargeExposures(exposures as any, tier1Capital, isGSII || false);
     res.json({ results, totalExposures: results.length, breaches: results.filter(r => !r.compliant).length, timestamp: new Date() });
   } catch (error) {
     logger.error('[EU-Banking] Large exposure check failed', error);
@@ -165,7 +164,7 @@ router.post('/basel3/stress-test', async (req: Request, res: Response) => {
   try {
     const { baselineResult, scenario } = stressTestSchema.parse(req.body);
     if (!baselineResult || !scenario) return res.status(400).json({ error: 'baselineResult and scenario required' });
-    const result = basel3Engine.runStressTest(baselineResult, scenario);
+    const result = basel3Engine.runStressTest(baselineResult as any, scenario as any);
     logger.info('[EU-Banking] Stress test completed', { scenario: scenario.name, stressedCET1: (result.cet1Ratio * 100).toFixed(2) + '%' });
     res.json({ result });
   } catch (error) {
@@ -237,7 +236,7 @@ router.post('/ai-act/documentation-assessment', async (req: Request, res: Respon
   try {
     const { documentation } = documentationSchema.parse(req.body);
     if (!documentation) return res.status(400).json({ error: 'documentation object required' });
-    const result = euAIActEngine.assessDocumentation(documentation);
+    const result = euAIActEngine.assessDocumentation(documentation as any);
     res.json({ result });
   } catch (error) {
     logger.error('[EU-Banking] Documentation assessment failed', error);

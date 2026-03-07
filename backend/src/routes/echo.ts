@@ -40,7 +40,7 @@ router.get('/personas', (_req: Request, res: Response) => {
   ]});
 });
 
-router.post('/simulate', async (_req: Request, res: Response) => {
+router.post('/simulate', async (req: Request, res: Response) => {
   res.json({ success: true, data: { 
     id: 'sim-' + Date.now(), 
     decision: req.body.decision,

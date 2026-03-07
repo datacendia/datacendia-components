@@ -24,17 +24,17 @@ import { getErrorMessage } from '../utils/errors.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  dataSourceId: z.unknown(),
-  tables: z.unknown(),
+  dataSourceId: z.any(),
+  tables: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  dataSourceId: z.unknown(),
-  entity: z.unknown(),
-  fields: z.unknown(),
-  filters: z.unknown(),
+  dataSourceId: z.any(),
+  entity: z.any(),
+  fields: z.any(),
+  filters: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  mapping: z.unknown(),
+  mapping: z.any(),
 }).passthrough();
 
 const router = Router();

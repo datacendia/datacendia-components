@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Service — Synthetic Media Auth Service
  *

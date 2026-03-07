@@ -21,17 +21,17 @@ import { devAuth } from '../middleware/auth.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  decisionId: z.unknown(),
-  decisionContext: z.unknown(),
+  decisionId: z.any(),
+  decisionContext: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  decisionId: z.unknown(),
-  decisionContext: z.unknown(),
+  decisionId: z.any(),
+  decisionContext: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  decisionId: z.unknown(),
-  title: z.unknown(),
-  assemblyType: z.unknown(),
+  decisionId: z.any(),
+  title: z.any(),
+  assemblyType: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -49,7 +49,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
 
     // Get counts for metrics
     const [stakeholderCount, vetoCount] = await Promise.all([
@@ -92,7 +92,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
 router.post('/stakeholders/initialize', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const stakeholders = await cendiaVoxService.initializeStakeholders(orgId);
     res.json({ success: true, data: stakeholders });
   } catch (error) {
@@ -102,7 +102,7 @@ router.post('/stakeholders/initialize', async (req: Request, res: Response) => {
 
 router.get('/stakeholders', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const stakeholders = await cendiaVoxService.getStakeholders(orgId);
     res.json({ success: true, data: stakeholders });
   } catch (error) {
@@ -148,7 +148,7 @@ router.get('/stakeholders/:id/signals', async (req: Request, res: Response) => {
 
 router.post('/impacts/assess', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { decisionId, decisionContext } = bodySchema0.parse(req.body);
     const impacts = await cendiaVoxService.assessImpact(orgId, decisionId, decisionContext);
     res.json({ success: true, data: impacts });
@@ -172,7 +172,7 @@ router.get('/decisions/:id/impacts', async (req: Request, res: Response) => {
 
 router.post('/votes', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { decisionId, decisionContext } = bodySchema0.parse(req.body);
     const votes = await cendiaVoxService.conductVote(orgId, decisionId, decisionContext);
     res.json({ success: true, data: votes });
@@ -196,7 +196,7 @@ router.get('/decisions/:id/votes', async (req: Request, res: Response) => {
 
 router.post('/assemblies', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { decisionId, title, assemblyType } = bodySchema2.parse(req.body);
     const assembly = await cendiaVoxService.conductAssembly(orgId, decisionId, title, assemblyType);
     res.json({ success: true, data: assembly });
@@ -207,7 +207,7 @@ router.post('/assemblies', async (req: Request, res: Response) => {
 
 router.get('/assemblies', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 20;
     const assemblies = await cendiaVoxService.getAssemblies(orgId, limit);
     res.json({ success: true, data: assemblies });
@@ -222,7 +222,7 @@ router.get('/assemblies', async (req: Request, res: Response) => {
 
 router.get('/signals', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 50;
     const signals = await cendiaVoxService.getAllSignals(orgId, limit);
     res.json({ success: true, data: signals });
@@ -237,7 +237,7 @@ router.get('/signals', async (req: Request, res: Response) => {
 
 router.get('/vetoes', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const limit = req.query.limit ? parseInt(req.query.limit as string) : 50;
     const vetoes = await cendiaVoxService.getAllVetoes(orgId, limit);
     res.json({ success: true, data: vetoes });
@@ -252,7 +252,7 @@ router.get('/vetoes', async (req: Request, res: Response) => {
 
 router.get('/dashboard', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const dashboard = await cendiaVoxService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
   } catch (error) {

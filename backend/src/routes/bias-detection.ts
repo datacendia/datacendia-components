@@ -20,12 +20,12 @@ import { nlpBiasDetectionService } from '../services/dcii/NLPBiasDetectionServic
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  text: z.unknown(),
-  deliberationId: z.unknown(),
-  organizationId: z.unknown(),
+  text: z.any(),
+  deliberationId: z.any(),
+  organizationId: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  text: z.unknown(),
+  text: z.any(),
 }).passthrough();
 
 const router = Router();

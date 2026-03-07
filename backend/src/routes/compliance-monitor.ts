@@ -2,18 +2,18 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  organizationId: z.unknown(),
-  framework: z.unknown(),
+  organizationId: z.any(),
+  framework: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  organizationId: z.unknown(),
-  framework: z.unknown(),
+  organizationId: z.any(),
+  framework: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  assignedTo: z.unknown(),
+  assignedTo: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  resolution: z.unknown(),
+  resolution: z.any(),
 }).passthrough();
 
 /**
@@ -36,21 +36,20 @@ const schema_3 = z.object({
 import { Router, Request, Response } from 'express';
 import { continuousComplianceMonitorService, ComplianceFramework, AlertStatus } from '../services/compliance/ContinuousComplianceMonitorService.js';
 
-import { z } from 'zod';
 
 const schema_4 = z.object({
-  organizationId: z.unknown(),
-  framework: z.unknown(),
+  organizationId: z.any(),
+  framework: z.any(),
 }).passthrough();
 const schema_5 = z.object({
-  organizationId: z.unknown(),
-  framework: z.unknown(),
+  organizationId: z.any(),
+  framework: z.any(),
 }).passthrough();
 const schema_6 = z.object({
-  assignedTo: z.unknown(),
+  assignedTo: z.any(),
 }).passthrough();
 const schema_7 = z.object({
-  resolution: z.unknown(),
+  resolution: z.any(),
 }).passthrough();
 
 const router = Router();

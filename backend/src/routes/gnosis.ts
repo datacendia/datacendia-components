@@ -32,7 +32,7 @@ router.get('/stats', (_req: Request, res: Response) => {
   res.json({ success: true, data: { totalPaths: 0, activeUsers: 0, completedModules: 0 } });
 });
 
-router.post('/search', (_req: Request, res: Response) => {
+router.post('/search', (req: Request, res: Response) => {
   res.json({ success: true, data: { results: [], query: req.body.query, total: 0 } });
 });
 

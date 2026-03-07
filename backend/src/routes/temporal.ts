@@ -22,23 +22,23 @@ import { temporal } from '../services/temporal/TemporalService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  workflowId: z.unknown(),
-  workflowType: z.unknown(),
-  taskQueue: z.unknown(),
-  input: z.unknown(),
-  memo: z.unknown(),
-  searchAttributes: z.unknown(),
-  cronSchedule: z.unknown(),
+  workflowId: z.any(),
+  workflowType: z.any(),
+  taskQueue: z.any(),
+  input: z.any(),
+  memo: z.any(),
+  searchAttributes: z.any(),
+  cronSchedule: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  signalName: z.unknown(),
-  payload: z.unknown(),
+  signalName: z.any(),
+  payload: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  reason: z.unknown(),
+  reason: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  reason: z.unknown(),
+  reason: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -122,7 +122,7 @@ router.post('/workflows/start', async (req: Request, res: Response, next: NextFu
       memo: { ...memo, startedBy: req.user?.email || 'api' },
       searchAttributes: {
         ...searchAttributes,
-        organizationId: req.organizationId || 'unknown',
+        organizationId: req.organizationId! || 'unknown',
       },
       cronSchedule,
     });

@@ -113,9 +113,10 @@ export const JSON_DISCIPLINE = {
 
 
 // Data constants extracted to models/ subdirectory for maintainability
-export { MODEL_REGISTRY } from './models/registry.js';
-export { AGENT_MODEL_MAPPINGS } from './models/agent-mappings.js';
-export { VERTICAL_AGENT_MAPPINGS } from './models/vertical-mappings.js';
+import { MODEL_REGISTRY } from './models/registry.js';
+import { AGENT_MODEL_MAPPINGS } from './models/agent-mappings.js';
+import { VERTICAL_AGENT_MAPPINGS } from './models/vertical-mappings.js';
+export { MODEL_REGISTRY, AGENT_MODEL_MAPPINGS, VERTICAL_AGENT_MAPPINGS };
 
 
 // Combined agent mappings (C-Suite + Vertical)
@@ -136,6 +137,13 @@ export const MODEL_ZOO_SUMMARY = {
     .reduce((sum, m) => sum + (m.sovereigntyScore || 0), 0) / 
     Object.values(MODEL_REGISTRY).filter(m => m.sovereigntyScore).length || 10,
 };
+
+/**
+ * Get agent mapping by agent code
+ */
+export function getAgentMapping(agentCode: string): AgentModelMapping | undefined {
+  return ALL_AGENT_MAPPINGS.find(m => m.agentCode === agentCode);
+}
 
 /**
  * Build a complete system prompt with sovereignty directive

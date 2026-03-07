@@ -23,7 +23,6 @@ import { collapseOrchestrator } from '../services/collapse/index.js';
 import { PolicyContext } from '../services/collapse/agents/BaseCollapseAgent.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
-import { z } from 'zod';
 const router = Router();
 
 /**
@@ -108,7 +107,7 @@ router.post('/deliberation', async (req: Request, res: Response) => {
       context,
       consensusConfidence = 0.85,
       seed,
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!decisionId || !decisionText || !context) {
       return res.status(400).json({
@@ -318,7 +317,7 @@ router.post('/analyze', async (req: Request, res: Response) => {
       decisionText,
       context,
       seed,
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!decisionId || !decisionText) {
       return res.status(400).json({
@@ -588,7 +587,7 @@ router.post('/deliberation/:id/override', async (req: Request, res: Response) =>
       justification,
       acceptedRisks,
       riskAcknowledgment,
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     const deliberation = collapseOrchestrator.getDeliberation(id);
     if (!deliberation) {

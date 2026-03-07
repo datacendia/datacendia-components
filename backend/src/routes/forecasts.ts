@@ -39,8 +39,8 @@ const scenarioSchema = z.object({
   forecastId: z.string().optional(),
   assumptions: z.array(z.object({
     variable: z.string(),
-    baseValue: z.unknown(),
-    scenarioValue: z.unknown(),
+    baseValue: z.any(),
+    scenarioValue: z.any(),
   })),
   metricsToProject: z.array(z.string()).optional(),
 });
@@ -119,7 +119,7 @@ router.get('/forecasts/:id', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Forecast');
     }
 
-    if (forecast.organization_id !== req.organizationId) {
+    if (forecast.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -171,7 +171,7 @@ router.post('/scenarios', async (req: Request, res: Response, next: NextFunction
         where: { id: data.forecastId },
       });
 
-      if (!forecast || forecast.organization_id !== req.organizationId) {
+      if (!forecast || forecast.organization_id !== req.organizationId!) {
         throw errors.notFound('Forecast');
       }
     }
@@ -221,7 +221,7 @@ router.post('/scenarios/compare', async (req: Request, res: Response, next: Next
 
     // Verify all scenarios belong to org
     for (const scenario of scenarios) {
-      if (scenario.forecasts && scenario.forecasts.organization_id !== req.organizationId) {
+      if (scenario.forecasts && scenario.forecasts.organization_id !== req.organizationId!) {
         throw errors.forbidden();
       }
     }

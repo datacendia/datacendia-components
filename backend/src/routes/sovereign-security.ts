@@ -25,12 +25,12 @@ import { getErrorMessage } from '../utils/errors.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  keyId: z.unknown(),
-  operation: z.unknown(),
+  keyId: z.any(),
+  operation: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  challengeId: z.unknown(),
-  response: z.unknown(),
+  challengeId: z.any(),
+  response: z.any(),
 }).passthrough();
 
 const router = Router();

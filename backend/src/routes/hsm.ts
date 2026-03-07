@@ -20,22 +20,22 @@ import { hsmAdapter } from '../services/security/HSMAdapter.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  algorithm: z.unknown(),
-  label: z.unknown(),
-  extractable: z.unknown(),
+  algorithm: z.any(),
+  label: z.any(),
+  extractable: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  keyId: z.unknown(),
-  data: z.unknown(),
+  keyId: z.any(),
+  data: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  keyId: z.unknown(),
-  data: z.unknown(),
-  signature: z.unknown(),
+  keyId: z.any(),
+  data: z.any(),
+  signature: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  keyToWrapId: z.unknown(),
-  wrappingKeyId: z.unknown(),
+  keyToWrapId: z.any(),
+  wrappingKeyId: z.any(),
 }).passthrough();
 
 const router = Router();

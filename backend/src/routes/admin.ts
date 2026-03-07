@@ -37,14 +37,14 @@ const createTenantSchema = z.object({
   name: z.string().min(1, 'Tenant name is required').max(255),
   slug: z.string().min(1).max(100).regex(/^[a-z0-9-]+$/, 'Slug must be lowercase alphanumeric with hyphens'),
   plan: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']).optional().default('trial'),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.any()).optional(),
 });
 
 const updateTenantSchema = z.object({
   name: z.string().min(1).max(255).optional(),
   plan: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']).optional(),
   status: z.enum(['pending', 'trial', 'active', 'suspended', 'churned']).optional(),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.any()).optional(),
 }).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
 
 const upgradePlanSchema = z.object({
@@ -67,14 +67,14 @@ const createUserSchema = z.object({
   email: z.string().email('Email must be valid').min(1, 'Email is required').max(255),
   password: z.string().min(8, 'Password must be at least 8 characters').max(128),
   role: z.enum(['admin', 'user']).optional().default('user'),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.any()).optional(),
 });
 
 const updateUserSchema = z.object({
   email: z.string().email('Email must be valid').min(1, 'Email is required').max(255).optional(),
   password: z.string().min(8, 'Password must be at least 8 characters').max(128).optional(),
   role: z.enum(['admin', 'user']).optional(),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.any()).optional(),
 }).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
 
 const updateFeatureSchema = z.object({
@@ -111,7 +111,7 @@ router.get('/tenants', async (req: Request, res: Response) => {
   try {
     const { status, plan, search } = req.query;
     const tenants = await tenantService.listTenants({
-      status: status as string,
+      status: status as any,
       plan: plan as any,
       search: search as string,
     });
@@ -207,8 +207,8 @@ router.get('/licenses', async (req: Request, res: Response) => {
   try {
     const { status, type } = req.query;
     const licenses = await licenseService.listLicenses({
-      status: status as string,
-      type: type as string,
+      status: status as any,
+      type: type as any,
     });
     res.json({ licenses, total: licenses.length });
   } catch (error) {
@@ -354,7 +354,7 @@ router.get('/tenants/:tenantId/users', async (req: Request, res: Response) => {
     const { role, status, search } = req.query;
     const users = await userManagementService.listUsers(req.params.tenantId, {
       role: role as any,
-      status: status as string,
+      status: status as any,
       search: search as string,
     });
     res.json({ users, total: users.length });
@@ -402,7 +402,7 @@ router.get('/features', async (req: Request, res: Response) => {
   try {
     const { type, category, enabled } = req.query;
     const features = await featureControlService.listFeatures({
-      type: type as string,
+      type: type as any,
       category: category as string,
       enabled: enabled === 'true' ? true : enabled === 'false' ? false : undefined,
     });
@@ -668,7 +668,7 @@ router.get('/rd-projects', async (req: Request, res: Response) => {
     const { category, status, horizon, visible } = req.query;
     const projects = await rdProjectService.list({
       category: category as any,
-      status: status as string,
+      status: status as any,
       horizon: horizon as any,
       visible: visible === 'true' ? true : visible === 'false' ? false : undefined,
     });

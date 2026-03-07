@@ -2,20 +2,20 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  command: z.unknown(),
-  context: z.unknown(),
+  command: z.any(),
+  context: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  command: z.unknown(),
-  context: z.unknown(),
+  command: z.any(),
+  context: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  partialCommand: z.unknown(),
-  context: z.unknown(),
+  partialCommand: z.any(),
+  context: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  command: z.unknown(),
-  context: z.unknown(),
+  command: z.any(),
+  context: z.any(),
 }).passthrough();
 
 /**
@@ -39,23 +39,22 @@ import { Router, Request, Response } from 'express';
 import { cendiaCommandService, VerticalId, CommandContext } from '../services/command/CendiaCommandService';
 import { cendiaCommandPlatinumService } from '../services/command/CendiaCommandPlatinumService';
 
-import { z } from 'zod';
 
 const schema_4 = z.object({
-  command: z.unknown(),
-  context: z.unknown(),
+  command: z.any(),
+  context: z.any(),
 }).passthrough();
 const schema_5 = z.object({
-  command: z.unknown(),
-  context: z.unknown(),
+  command: z.any(),
+  context: z.any(),
 }).passthrough();
 const schema_6 = z.object({
-  partialCommand: z.unknown(),
-  context: z.unknown(),
+  partialCommand: z.any(),
+  context: z.any(),
 }).passthrough();
 const schema_7 = z.object({
-  command: z.unknown(),
-  context: z.unknown(),
+  command: z.any(),
+  context: z.any(),
 }).passthrough();
 
 const router = Router();

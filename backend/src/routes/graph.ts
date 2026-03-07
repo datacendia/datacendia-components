@@ -39,14 +39,14 @@ const entityQuerySchema = z.object({
 const createEntitySchema = z.object({
   type: z.string().min(1),
   name: z.string().min(1),
-  properties: z.record(z.unknown()).optional(),
+  properties: z.record(z.any()).optional(),
 });
 
 const createRelationshipSchema = z.object({
   sourceId: z.string().min(1),
   targetId: z.string().min(1),
   type: z.string().min(1),
-  properties: z.record(z.unknown()).optional(),
+  properties: z.record(z.any()).optional(),
 });
 
 const neighborQuerySchema = z.object({
@@ -57,7 +57,7 @@ const neighborQuerySchema = z.object({
 
 const graphQuerySchema = z.object({
   query: z.string().min(1),
-  parameters: z.record(z.unknown()).optional(),
+  parameters: z.record(z.any()).optional(),
 });
 
 /**
@@ -147,7 +147,7 @@ router.get('/entities/:id', async (req: Request, res: Response, next: NextFuncti
     }
 
     const entity = result[0].e;
-    if (entity.organizationId !== req.organizationId) {
+    if (entity.organizationId !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -236,7 +236,7 @@ router.put('/entities/:id', async (req: Request, res: Response, next: NextFuncti
       throw errors.notFound('Entity');
     }
 
-    if (existing[0].e.organizationId !== req.organizationId) {
+    if (existing[0].e.organizationId !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -278,7 +278,7 @@ router.delete('/entities/:id', async (req: Request, res: Response, next: NextFun
       throw errors.notFound('Entity');
     }
 
-    if (existing[0].e.organizationId !== req.organizationId) {
+    if (existing[0].e.organizationId !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -358,7 +358,7 @@ router.post('/relationships', async (req: Request, res: Response, next: NextFunc
     }
 
     for (const entity of entities) {
-      if (entity.e.organizationId !== req.organizationId) {
+      if (entity.e.organizationId !== req.organizationId!) {
         throw errors.forbidden();
       }
     }
@@ -397,7 +397,7 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
     // Inject organization filter
     const orgParams = {
       ...parameters,
-      _orgId: req.organizationId,
+      _orgId: req.organizationId!,
     };
 
     const result = await graph.read(query, orgParams);
@@ -469,7 +469,7 @@ router.get('/search', async (req: Request, res: Response, next: NextFunction) =>
  */
 router.get('/stats', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const dataSourceId = getSelectedDataSourceId(req);
 
     const baseNodeFilterParts: string[] = [];

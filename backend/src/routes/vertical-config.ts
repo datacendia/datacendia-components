@@ -23,19 +23,19 @@ import { getErrorMessage } from '../utils/errors.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  verticalId: z.unknown(),
-  customEnabledServices: z.unknown(),
+  verticalId: z.any(),
+  customEnabledServices: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  verticalId: z.unknown(),
-  preserveCustomizations: z.unknown(),
+  verticalId: z.any(),
+  preserveCustomizations: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  enabled: z.unknown(),
-  reason: z.unknown(),
+  enabled: z.any(),
+  reason: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  toggles: z.unknown(),
+  toggles: z.any(),
 }).passthrough();
 
 const router = Router();

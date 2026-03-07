@@ -31,7 +31,7 @@ router.get('/rules', async (req: Request, res: Response) => {
   try {
     await assertCapability(req, 'autopilot.manageRules');
     const { organization_id, enabled } = req.query;
-    const orgId = (req.organizationId as string) || (organization_id as string);
+    const orgId = (req.organizationId! as string) || (organization_id as string);
     const where: Record<string, unknown> = {};
     if (orgId) where.organization_id = orgId;
     if (enabled !== undefined) where.enabled = enabled === 'true';
@@ -54,7 +54,7 @@ router.post('/rules', async (req: Request, res: Response) => {
     await assertCapability(req, 'autopilot.manageRules');
     const rule = await prisma.autopilot_rules.create({
       data: {
-        organization_id: (req.organizationId as string) || req.body.organization_id,
+        organization_id: (req.organizationId! as string) || req.body.organization_id,
         name: req.body.name,
         trigger_type: req.body.trigger_type,
         trigger_config: req.body.trigger_config || {},
@@ -98,7 +98,7 @@ router.get('/executions', async (req: Request, res: Response) => {
   try {
     await assertCapability(req, 'autopilot.manageRules');
     const { rule_id, status } = req.query;
-    const orgId = (req.organizationId as string) || undefined;
+    const orgId = (req.organizationId! as string) || undefined;
     const where: Record<string, unknown> = {};
     if (rule_id) where.rule_id = rule_id;
     if (status) where.status = status;

@@ -23,31 +23,31 @@ import { getErrorMessage } from '../utils/errors.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  resource: z.unknown(),
-  action: z.unknown(),
+  resource: z.any(),
+  action: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  bucket: z.unknown(),
-  path: z.unknown(),
-  mimeType: z.unknown(),
-  fileName: z.unknown(),
-  useOCR: z.unknown(),
+  bucket: z.any(),
+  path: z.any(),
+  mimeType: z.any(),
+  fileName: z.any(),
+  useOCR: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  decisionType: z.unknown(),
-  existingApprovers: z.unknown(),
+  decisionType: z.any(),
+  existingApprovers: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  decisionType: z.unknown(),
+  decisionType: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  content: z.unknown(),
-  mimeType: z.unknown(),
-  fileName: z.unknown(),
-  useOCR: z.unknown(),
+  content: z.any(),
+  mimeType: z.any(),
+  fileName: z.any(),
+  useOCR: z.any(),
 }).passthrough();
 const bodySchema5 = z.object({
-  content: z.unknown(),
+  content: z.any(),
 }).passthrough();
 
 const router = Router();

@@ -28,7 +28,7 @@ router.use(devAuth);
 // GET /persona/twins - List digital twins
 router.get('/twins', async (req: Request, res: Response) => {
   try {
-    const orgId = (req.organizationId as string) || (req.query.organization_id as string);
+    const orgId = (req.organizationId! as string) || (req.query.organization_id as string);
     const where: Record<string, unknown> = {};
     if (orgId) {
       where.organization_id = orgId;
@@ -65,7 +65,7 @@ router.post('/twins', async (req: Request, res: Response) => {
     await assertCapability(req, 'persona.createTwin');
     const twin = await prisma.persona_twins.create({
       data: {
-        organization_id: (req.organizationId as string) || req.body.organization_id,
+        organization_id: (req.organizationId! as string) || req.body.organization_id,
         name: req.body.name,
         role: req.body.role,
         department: req.body.department,

@@ -21,13 +21,13 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  question: z.unknown(),
-  context: z.unknown(),
-  timeHorizon: z.unknown(),
-  branchCount: z.unknown(),
+  question: z.any(),
+  context: z.any(),
+  timeHorizon: z.any(),
+  branchCount: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  scenario: z.unknown(),
+  scenario: z.any(),
 }).passthrough();
 
 const router = Router();

@@ -23,29 +23,29 @@ import { confidentialCompute } from '../services/gpu/ConfidentialComputeService.
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  dataset: z.unknown(),
-  protectedAttributes: z.unknown(),
-  outcomeColumn: z.unknown(),
-  positiveOutcomeValue: z.unknown(),
-  fairnessThreshold: z.unknown(),
+  dataset: z.any(),
+  protectedAttributes: z.any(),
+  outcomeColumn: z.any(),
+  positiveOutcomeValue: z.any(),
+  fairnessThreshold: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  nodes: z.unknown(),
-  edges: z.unknown(),
+  nodes: z.any(),
+  edges: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  groupA: z.unknown(),
-  groupB: z.unknown(),
-  testType: z.unknown(),
-  significance: z.unknown(),
+  groupA: z.any(),
+  groupB: z.any(),
+  testType: z.any(),
+  significance: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  timeSeries: z.unknown(),
-  sensitivity: z.unknown(),
-  method: z.unknown(),
+  timeSeries: z.any(),
+  sensitivity: z.any(),
+  method: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  gpuId: z.unknown(),
+  gpuId: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -208,7 +208,7 @@ router.post('/cc/enforce', async (_req: Request, res: Response, next: NextFuncti
 
 router.post('/cc/evidence', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const organizationId = req.organizationId || req.body.organizationId || 'default';
+    const organizationId = req.organizationId! || req.body.organizationId || 'default';
     const evidence = await confidentialCompute.generateCCEvidence(organizationId);
     res.json({ success: true, data: evidence });
   } catch (error) { next(error); }

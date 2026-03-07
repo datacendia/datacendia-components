@@ -24,16 +24,16 @@ import { KAFKA_TOPICS, getAllTopicNames } from '../services/kafka/KafkaTopics.js
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  topic: z.unknown(),
-  key: z.unknown(),
-  payload: z.unknown(),
-  headers: z.unknown(),
+  topic: z.any(),
+  key: z.any(),
+  payload: z.any(),
+  headers: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  action: z.unknown(),
-  resourceType: z.unknown(),
-  resourceId: z.unknown(),
-  details: z.unknown(),
+  action: z.any(),
+  resourceType: z.any(),
+  resourceId: z.any(),
+  details: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -240,7 +240,7 @@ router.post('/bridge/audit', async (req: Request, res: Response, next: NextFunct
     }
 
     await kafkaEventBridge.emitAudit({
-      organizationId: req.organizationId || 'unknown',
+      organizationId: req.organizationId! || 'unknown',
       userId: req.user?.id,
       action,
       resourceType,

@@ -21,14 +21,14 @@ import { devAuth } from '../middleware/auth.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  validationType: z.unknown(),
+  validationType: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  correctedContent: z.unknown(),
+  correctedContent: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  sourceFormat: z.unknown(),
-  targetFormat: z.unknown(),
+  sourceFormat: z.any(),
+  targetFormat: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -44,7 +44,7 @@ router.use(devAuth);
  */
 router.get('/status', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     
     // Get counts for metrics
     const [artifactCount, migrationCount, successorCount] = await Promise.all([
@@ -89,7 +89,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
 router.post('/artifacts', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const userId = req.user?.id || 'system';
     const artifact = await cendiaEternalService.archiveArtifact(orgId, userId, req.body);
     res.json({ success: true, data: artifact });
@@ -100,7 +100,7 @@ router.post('/artifacts', async (req: Request, res: Response) => {
 
 router.get('/artifacts', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { artifactType, accessLevel, minImportance, searchQuery } = req.query;
     const artifacts = await cendiaEternalService.getArtifacts(orgId, {
       artifactType: artifactType as any,
@@ -167,7 +167,7 @@ router.post('/artifacts/:id/correct', async (req: Request, res: Response) => {
 
 router.post('/migrations', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const { sourceFormat, targetFormat } = bodySchema2.parse(req.body);
     const migration = await cendiaEternalService.startMigration(orgId, sourceFormat, targetFormat);
     res.json({ success: true, data: migration });
@@ -178,7 +178,7 @@ router.post('/migrations', async (req: Request, res: Response) => {
 
 router.get('/migrations', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const migrations = await cendiaEternalService.getMigrations(orgId);
     res.json({ success: true, data: migrations });
   } catch (error) {
@@ -192,7 +192,7 @@ router.get('/migrations', async (req: Request, res: Response) => {
 
 router.post('/successors', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const successor = await cendiaEternalService.defineSuccessor(orgId, req.body);
     res.json({ success: true, data: successor });
   } catch (error) {
@@ -202,7 +202,7 @@ router.post('/successors', async (req: Request, res: Response) => {
 
 router.get('/successors', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const successors = await cendiaEternalService.getSuccessors(orgId);
     res.json({ success: true, data: successors });
   } catch (error) {
@@ -225,7 +225,7 @@ router.post('/successors/:id/activate', async (req: Request, res: Response) => {
 
 router.get('/dashboard', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const dashboard = await cendiaEternalService.getDashboard(orgId);
     res.json({ success: true, data: dashboard });
   } catch (error) {

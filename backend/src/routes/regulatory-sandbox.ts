@@ -2,13 +2,13 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  name: z.unknown(),
-  description: z.unknown(),
-  regulationId: z.unknown(),
-  requirements: z.unknown(),
-  decisionId: z.unknown(),
-  workflowId: z.unknown(),
-  systemDescription: z.unknown(),
+  name: z.any(),
+  description: z.any(),
+  regulationId: z.any(),
+  requirements: z.any(),
+  decisionId: z.any(),
+  workflowId: z.any(),
+  systemDescription: z.any(),
 }).passthrough();
 
 /**
@@ -31,16 +31,15 @@ const schema_0 = z.object({
 import { Router, Request, Response } from 'express';
 import { regulatorySandboxService } from '../services/compliance/RegulatorySandboxService.js';
 
-import { z } from 'zod';
 
 const schema_1 = z.object({
-  name: z.unknown(),
-  description: z.unknown(),
-  regulationId: z.unknown(),
-  requirements: z.unknown(),
-  decisionId: z.unknown(),
-  workflowId: z.unknown(),
-  systemDescription: z.unknown(),
+  name: z.any(),
+  description: z.any(),
+  regulationId: z.any(),
+  requirements: z.any(),
+  decisionId: z.any(),
+  workflowId: z.any(),
+  systemDescription: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -65,7 +64,7 @@ router.get('/regulations', (req: Request, res: Response) => {
     const { jurisdiction, status } = req.query;
     const regulations = regulatorySandboxService.getProposedRegulations({
       jurisdiction: jurisdiction as any,
-      status: status as string,
+      status: status as string as any,
     });
     res.json({ success: true, data: regulations });
   } catch (error) {

@@ -2,34 +2,34 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  title: z.unknown(),
-  category: z.unknown(),
-  petitioner: z.unknown(),
-  respondent: z.unknown(),
-  deliberationId: z.unknown(),
-  verticalId: z.unknown(),
-  organizationId: z.unknown(),
+  title: z.any(),
+  category: z.any(),
+  petitioner: z.any(),
+  respondent: z.any(),
+  deliberationId: z.any(),
+  verticalId: z.any(),
+  organizationId: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  hearingDate: z.unknown(),
+  hearingDate: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  ruling: z.unknown(),
-  summary: z.unknown(),
-  rationale: z.unknown(),
-  holdings: z.unknown(),
-  principlesApplied: z.unknown(),
-  authoringJudge: z.unknown(),
-  precedentsCited: z.unknown(),
-  dissents: z.unknown(),
+  ruling: z.any(),
+  summary: z.any(),
+  rationale: z.any(),
+  holdings: z.any(),
+  principlesApplied: z.any(),
+  authoringJudge: z.any(),
+  precedentsCited: z.any(),
+  dissents: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  reason: z.unknown(),
+  reason: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  category: z.unknown(),
-  keywords: z.unknown(),
-  limit: z.unknown(),
+  category: z.any(),
+  keywords: z.any(),
+  limit: z.any(),
 }).passthrough();
 
 /**

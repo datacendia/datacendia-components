@@ -22,21 +22,21 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  name: z.unknown(),
-  description: z.unknown(),
-  permissions: z.unknown(),
+  name: z.any(),
+  description: z.any(),
+  permissions: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  name: z.unknown(),
-  permissions: z.unknown(),
-  expiresAt: z.unknown(),
+  name: z.any(),
+  permissions: z.any(),
+  expiresAt: z.any(),
 }).passthrough();
 
 
 const updateOrgSchema = z.object({
   name: z.string().min(1).max(200).optional(),
-  settings: z.record(z.unknown()).optional(),
-  metadata: z.record(z.unknown()).optional(),
+  settings: z.record(z.any()).optional(),
+  metadata: z.record(z.any()).optional(),
 });
 
 const createUserSchema = z.object({
@@ -107,7 +107,7 @@ router.patch('/organization', async (req: Request, res: Response) => {
     const { name, settings, metadata } = updateOrgSchema.parse(req.body);
     const tenant = await tenantService.updateTenant(tenantId, {
       name,
-      settings,
+      settings: settings as any,
       metadata,
     });
     if (!tenant) {
@@ -130,7 +130,7 @@ router.get('/users', async (req: Request, res: Response) => {
     const { role, status, search } = req.query;
     const users = await userManagementService.listUsers(tenantId, {
       role: role as any,
-      status: status as string,
+      status: status as string as any,
       search: search as string,
     });
     const metrics = userManagementService.getUserMetrics(tenantId);
@@ -152,7 +152,7 @@ router.post('/users', async (req: Request, res: Response) => {
     const user = await userManagementService.createUser(tenantId, {
       email,
       name,
-      role,
+      role: role as any,
       department,
       title,
       invitedBy: 'current_user', // Would get from auth
@@ -180,7 +180,7 @@ router.get('/users/:id', async (req: Request, res: Response) => {
 router.patch('/users/:id', async (req: Request, res: Response) => {
   try {
     const updates = updateUserSchema.parse(req.body);
-    const user = await userManagementService.updateUser(req.params.id, updates);
+    const user = await userManagementService.updateUser(req.params.id, updates as any);
     if (!user) {
       return res.status(404).json({ error: 'User not found' });
     }

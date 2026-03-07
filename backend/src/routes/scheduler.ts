@@ -22,20 +22,20 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  jobType: z.unknown(),
-  name: z.unknown(),
-  description: z.unknown(),
-  cronExpression: z.unknown(),
-  timezone: z.unknown(),
-  config: z.unknown(),
-  enabled: z.unknown(),
+  jobType: z.any(),
+  name: z.any(),
+  description: z.any(),
+  cronExpression: z.any(),
+  timezone: z.any(),
+  config: z.any(),
+  enabled: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  name: z.unknown(),
-  description: z.unknown(),
-  cronExpression: z.unknown(),
-  config: z.unknown(),
-  enabled: z.unknown(),
+  name: z.any(),
+  description: z.any(),
+  cronExpression: z.any(),
+  config: z.any(),
+  enabled: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -96,7 +96,7 @@ router.get('/status', async (_req: Request, res: Response) => {
  */
 router.get('/jobs', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const jobs = enterpriseSchedulerService.getJobs(orgId);
     
     res.json({
@@ -138,7 +138,7 @@ router.get('/jobs/:id', async (req: Request, res: Response) => {
  */
 router.post('/jobs', async (req: Request, res: Response) => {
   try {
-    const orgId = req.organizationId;
+    const orgId = req.organizationId!;
     const userId = req.user?.id || 'system';
     
     const { jobType, name, description, cronExpression, timezone, config, enabled } = bodySchema0.parse(req.body);

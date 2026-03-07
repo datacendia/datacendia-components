@@ -22,11 +22,11 @@ import { flinkCEP } from '../services/streaming/FlinkCEPService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  enabled: z.unknown(),
+  enabled: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  event: z.unknown(),
-  events: z.unknown(),
+  event: z.any(),
+  events: z.any(),
 }).passthrough();
 
 const router = Router();

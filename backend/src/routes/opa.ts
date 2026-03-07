@@ -22,16 +22,16 @@ import { opa } from '../services/opa/OPAService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  enabled: z.unknown(),
+  enabled: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  subject: z.unknown(),
-  action: z.unknown(),
-  resource: z.unknown(),
-  context: z.unknown(),
+  subject: z.any(),
+  action: z.any(),
+  resource: z.any(),
+  context: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  requests: z.unknown(),
+  requests: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -189,7 +189,7 @@ router.post('/evaluate', async (req: Request, res: Response, next: NextFunction)
     const enrichedInput = {
       subject: {
         ...subject,
-        organizationId: subject.organizationId || req.organizationId,
+        organizationId: subject.organizationId || req.organizationId!,
       },
       action,
       resource,

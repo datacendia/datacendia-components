@@ -21,8 +21,8 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  response: z.unknown(),
-  reason: z.unknown(),
+  response: z.any(),
+  reason: z.any(),
 }).passthrough();
 
 const router = Router();

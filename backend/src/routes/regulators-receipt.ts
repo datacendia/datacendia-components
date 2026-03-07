@@ -23,26 +23,26 @@ import { prisma } from '../config/database.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  deliberationId: z.unknown(),
-  generatedBy: z.unknown(),
-  options: z.unknown(),
+  deliberationId: z.any(),
+  generatedBy: z.any(),
+  options: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  receipt: z.unknown(),
+  receipt: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  deliberationId: z.unknown(),
-  generatedBy: z.unknown(),
-  options: z.unknown(),
+  deliberationId: z.any(),
+  generatedBy: z.any(),
+  options: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  receipt: z.unknown(),
+  receipt: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  receipt: z.unknown(),
+  receipt: z.any(),
 }).passthrough();
 const bodySchema5 = z.object({
-  receipt: z.unknown(),
+  receipt: z.any(),
 }).passthrough();
 
 const router = Router();

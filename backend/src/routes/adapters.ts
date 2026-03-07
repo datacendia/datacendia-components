@@ -139,7 +139,7 @@ router.get('/instances', requireAuditor, (req, res) => {
  */
 router.post('/create', requireAdmin, async (req, res) => {
   try {
-    const { type, config } = bodySchema0.parse(req.body);
+    const { type, config } = req.body as { type: string; config?: Record<string, unknown> };
 
     if (!type) {
       res.status(400).json({ error: 'Adapter type is required' });

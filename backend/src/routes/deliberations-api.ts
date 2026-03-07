@@ -104,7 +104,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organization_id !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -173,7 +173,7 @@ router.post('/:id/start', async (req: Request, res: Response, next: NextFunction
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organization_id !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -234,7 +234,7 @@ router.post('/:id/complete', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organization_id !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -272,7 +272,7 @@ router.delete('/:id', async (req: Request, res: Response, next: NextFunction) =>
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organization_id !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 

@@ -2,19 +2,19 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  sourceJurisdiction: z.unknown(),
-  destinationJurisdiction: z.unknown(),
-  dataTypes: z.unknown(),
+  sourceJurisdiction: z.any(),
+  destinationJurisdiction: z.any(),
+  dataTypes: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  organizationId: z.unknown(),
-  jurisdictions: z.unknown(),
+  organizationId: z.any(),
+  jurisdictions: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  jurisdictions: z.unknown(),
+  jurisdictions: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  jurisdictions: z.unknown(),
+  jurisdictions: z.any(),
 }).passthrough();
 
 /**
@@ -37,22 +37,21 @@ const schema_3 = z.object({
 import { Router, Request, Response } from 'express';
 import { crossJurisdictionEngineService, Jurisdiction } from '../services/compliance/CrossJurisdictionEngineService.js';
 
-import { z } from 'zod';
 
 const schema_4 = z.object({
-  sourceJurisdiction: z.unknown(),
-  destinationJurisdiction: z.unknown(),
-  dataTypes: z.unknown(),
+  sourceJurisdiction: z.any(),
+  destinationJurisdiction: z.any(),
+  dataTypes: z.any(),
 }).passthrough();
 const schema_5 = z.object({
-  organizationId: z.unknown(),
-  jurisdictions: z.unknown(),
+  organizationId: z.any(),
+  jurisdictions: z.any(),
 }).passthrough();
 const schema_6 = z.object({
-  jurisdictions: z.unknown(),
+  jurisdictions: z.any(),
 }).passthrough();
 const schema_7 = z.object({
-  jurisdictions: z.unknown(),
+  jurisdictions: z.any(),
 }).passthrough();
 
 const router = Router();

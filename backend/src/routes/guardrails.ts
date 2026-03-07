@@ -23,35 +23,35 @@ import { cendiaSentryService } from '../services/CendiaSentryService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  enabled: z.unknown(),
+  enabled: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  allowedTopics: z.unknown(),
-  blockedTopics: z.unknown(),
-  customFlows: z.unknown(),
-  factBase: z.unknown(),
+  allowedTopics: z.any(),
+  blockedTopics: z.any(),
+  customFlows: z.any(),
+  factBase: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  input: z.unknown(),
-  context: z.unknown(),
+  input: z.any(),
+  context: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  input: z.unknown(),
-  output: z.unknown(),
-  context: z.unknown(),
+  input: z.any(),
+  output: z.any(),
+  context: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  input: z.unknown(),
-  output: z.unknown(),
-  context: z.unknown(),
+  input: z.any(),
+  output: z.any(),
+  context: z.any(),
 }).passthrough();
 const bodySchema5 = z.object({
-  input: z.unknown(),
-  output: z.unknown(),
-  inputType: z.unknown(),
-  agentId: z.unknown(),
-  modelUsed: z.unknown(),
-  context: z.unknown(),
+  input: z.any(),
+  output: z.any(),
+  inputType: z.any(),
+  agentId: z.any(),
+  modelUsed: z.any(),
+  context: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -279,7 +279,7 @@ router.post('/check', async (req: Request, res: Response, next: NextFunction) =>
     }
 
     const result = await cendiaSentryService.checkContentWithNeMo({
-      organizationId: req.organizationId || 'default',
+      organizationId: req.organizationId! || 'default',
       userId: req.user?.id || 'anonymous',
       inputType: inputType || 'user_query',
       input,

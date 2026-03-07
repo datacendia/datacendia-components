@@ -29,7 +29,6 @@ import { analyticsRouter } from '../services/storage/AnalyticsRouter';
 import { CLICKHOUSE_TABLES } from '../services/storage/ClickHouseService';
 import { getErrorMessage } from '../utils/errors.js';
 
-import { z } from 'zod';
 
 const druidQuerySchema = z.object({
   startTime: z.string().optional(),
@@ -48,7 +47,7 @@ const druidAggSchema = z.object({
 const druidIngestSchema = z.object({
   datasource: z.string().min(1),
   table: z.string().optional(),
-  events: z.array(z.record(z.unknown())).min(1),
+  events: z.array(z.record(z.any())).min(1),
   dualWrite: z.boolean().default(false),
 });
 
@@ -63,7 +62,7 @@ const minioUploadSchema = z.object({
 const ragIngestSchema = z.object({
   documentId: z.string().min(1),
   content: z.string().min(1),
-  metadata: z.record(z.unknown()).optional(),
+  metadata: z.record(z.any()).optional(),
   chunkSize: z.number().int().positive().default(500),
 });
 
@@ -104,7 +103,7 @@ const shadowCouncilSchema = z.object({
   sessionId: z.string().optional(),
   question: z.string().min(1),
   agents: z.array(z.string()).optional(),
-  context: z.record(z.unknown()).optional(),
+  context: z.record(z.any()).optional(),
   priority: z.enum(['low', 'normal', 'high', 'critical']).default('normal'),
 });
 
@@ -167,7 +166,7 @@ const vaultUpload = multer({
 router.post('/druid/timeline', async (req: Request, res: Response) => {
   try {
     const { startTime, endTime, limit = 100, forceBackend } = druidQuerySchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     // Use AnalyticsRouter for automatic backend selection
     const result = await analyticsRouter.getDecisionHistory(orgId, {
@@ -175,7 +174,7 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
       endTime: endTime ? new Date(endTime) : undefined,
       limit,
       characteristics: {
-        forceBackend,
+        forceBackend: forceBackend as any,
         isStreaming: true, // Timeline data is typically streaming
       },
     });
@@ -198,7 +197,7 @@ router.post('/druid/timeline', async (req: Request, res: Response) => {
 router.post('/druid/metrics', async (req: Request, res: Response) => {
   try {
     const { startTime, endTime, granularity = 'hour', forceBackend } = druidAggSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     // Use AnalyticsRouter for automatic backend selection
     const result = await analyticsRouter.getAgentMetrics(orgId, {
@@ -206,7 +205,7 @@ router.post('/druid/metrics', async (req: Request, res: Response) => {
       startTime: startTime ? new Date(startTime) : undefined,
       endTime: endTime ? new Date(endTime) : undefined,
       characteristics: {
-        forceBackend,
+        forceBackend: forceBackend as any,
         isStreaming: granularity === 'minute', // Real-time granularity ? Druid
       },
     });
@@ -286,7 +285,7 @@ router.post('/storage/upload', async (req: Request, res: Response) => {
         mimeType: contentType,
         originalName: fileName,
         uploadedBy: metadata?.uploadedBy || 'system',
-        organizationId: req.organizationId || DEFAULT_ORG,
+        organizationId: req.organizationId! || DEFAULT_ORG,
       }
     );
 
@@ -401,7 +400,7 @@ router.post('/vault/upload', vaultUpload.single('file'), async (req: Request, re
         mimeType: file.mimetype,
         originalName: file.originalname,
         uploadedBy: metadata.uploadedBy || 'system',
-        organizationId: req.organizationId || DEFAULT_ORG,
+        organizationId: req.organizationId! || DEFAULT_ORG,
       }
     );
 
@@ -527,7 +526,7 @@ router.get('/vault/health', async (_req: Request, res: Response) => {
 router.post('/vector/store', async (req: Request, res: Response) => {
   try {
     const { documentId, content, metadata, chunkSize = 500 } = ragIngestSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     // Split content into chunks and store each
     const chunks = content.match(new RegExp(`.{1,${chunkSize}}`, 'g')) || [content];
@@ -556,7 +555,7 @@ router.post('/vector/store', async (req: Request, res: Response) => {
 router.post('/vector/search', async (req: Request, res: Response) => {
   try {
     const { query, limit = 5, threshold = 0.7 } = ragSearchSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     const results = await vectorService.searchDocuments(orgId, query, { limit, threshold });
     
@@ -573,7 +572,7 @@ router.post('/vector/search', async (req: Request, res: Response) => {
 router.post('/vector/decision', async (req: Request, res: Response) => {
   try {
     const { decisionId, title, context, outcome, confidence } = dnaRecordSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     await vectorService.storeDecisionContext(orgId, {
       decisionId,
@@ -595,7 +594,7 @@ router.post('/vector/decision', async (req: Request, res: Response) => {
 router.post('/vector/decisions/search', async (req: Request, res: Response) => {
   try {
     const { query, limit = 5 } = dnaQuerySchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     const results = await vectorService.searchDecisions(orgId, query, { limit });
     
@@ -612,11 +611,11 @@ router.post('/vector/decisions/search', async (req: Request, res: Response) => {
 router.post('/vector/agent-memory', async (req: Request, res: Response) => {
   try {
     const { agentId, memoryType, content, importance, expiresAt } = pantheonStoreSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     await vectorService.storeAgentMemory(orgId, agentId, {
       agentId,
-      memoryType,
+      memoryType: memoryType as any,
       content,
       importance,
       expiresAt: expiresAt ? new Date(expiresAt) : undefined,
@@ -635,7 +634,7 @@ router.post('/vector/agent-memory', async (req: Request, res: Response) => {
 router.post('/vector/agent-memory/recall', async (req: Request, res: Response) => {
   try {
     const { agentId, query, limit = 10 } = pantheonRecallSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     const memories = await vectorService.retrieveAgentMemory(orgId, agentId, query, { limit });
     
@@ -668,15 +667,15 @@ router.get('/vector/health', async (req: Request, res: Response) => {
 router.post('/queue/deliberation', async (req: Request, res: Response) => {
   try {
     const { sessionId, question, agents, context, priority = 'normal' } = shadowCouncilSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     const priorityMap: Record<string, number> = { critical: 1, high: 2, normal: 3, low: 4 };
     
     const job = await agentQueueService.addCouncilSession({
       organizationId: orgId,
-      sessionId,
+      sessionId: sessionId as any,
       question,
-      agents,
+      agents: agents as any,
       mode: 'standard',
       context,
     }, { priority: priorityMap[priority] || 3 });
@@ -694,12 +693,12 @@ router.post('/queue/deliberation', async (req: Request, res: Response) => {
 router.post('/queue/document', async (req: Request, res: Response) => {
   try {
     const { documentId, fileName, fileType, storageUrl, extractText, generateEmbeddings } = docProcessSchema.parse(req.body);
-    const orgId = req.organizationId || DEFAULT_ORG;
+    const orgId = req.organizationId! || DEFAULT_ORG;
     
     const job = await agentQueueService.addDocumentProcessing({
       organizationId: orgId,
       documentId,
-      filePath: storageUrl,
+      filePath: storageUrl as any,
       mimeType: fileType,
       extractText,
       generateEmbeddings,

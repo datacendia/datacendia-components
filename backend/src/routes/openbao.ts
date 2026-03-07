@@ -22,32 +22,32 @@ import { openBao } from '../services/vault/OpenBaoService.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  data: z.unknown(),
+  data: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  keyName: z.unknown(),
-  plaintext: z.unknown(),
-  mount: z.unknown(),
+  keyName: z.any(),
+  plaintext: z.any(),
+  mount: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  keyName: z.unknown(),
-  ciphertext: z.unknown(),
-  mount: z.unknown(),
+  keyName: z.any(),
+  ciphertext: z.any(),
+  mount: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  keyName: z.unknown(),
-  type: z.unknown(),
-  mount: z.unknown(),
+  keyName: z.any(),
+  type: z.any(),
+  mount: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  commonName: z.unknown(),
-  altNames: z.unknown(),
-  ttl: z.unknown(),
-  role: z.unknown(),
-  mount: z.unknown(),
+  commonName: z.any(),
+  altNames: z.any(),
+  ttl: z.any(),
+  role: z.any(),
+  mount: z.any(),
 }).passthrough();
 const bodySchema5 = z.object({
-  rules: z.unknown(),
+  rules: z.any(),
 }).passthrough();
 
 const router = Router();

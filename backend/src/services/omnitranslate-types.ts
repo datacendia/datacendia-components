@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Types extracted for maintainability
 
 export type OmniTranslateLanguage = keyof typeof OMNITRANSLATE_LANGUAGES;

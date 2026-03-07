@@ -2,12 +2,12 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  agentId: z.unknown(),
-  verticalId: z.unknown(),
-  action: z.unknown(),
-  result: z.unknown(),
-  duration: z.unknown(),
-  success: z.unknown(),
+  agentId: z.any(),
+  verticalId: z.any(),
+  action: z.any(),
+  result: z.any(),
+  duration: z.any(),
+  success: z.any(),
 }).passthrough();
 
 /**
@@ -29,15 +29,14 @@ const schema_0 = z.object({
 import { Router, Request, Response } from 'express';
 import { verticalAgentsService } from '../services/VerticalAgentsService.js';
 
-import { z } from 'zod';
 
 const schema_1 = z.object({
-  agentId: z.unknown(),
-  verticalId: z.unknown(),
-  action: z.unknown(),
-  result: z.unknown(),
-  duration: z.unknown(),
-  success: z.unknown(),
+  agentId: z.any(),
+  verticalId: z.any(),
+  action: z.any(),
+  result: z.any(),
+  duration: z.any(),
+  success: z.any(),
 }).passthrough();
 
 const router = Router();

@@ -20,8 +20,8 @@ import { devAuth } from '../middleware/auth.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  shadowDeliberationId: z.unknown(),
-  officialDeliberationId: z.unknown(),
+  shadowDeliberationId: z.any(),
+  officialDeliberationId: z.any(),
 }).passthrough();
 
 // Import sovereign services
@@ -37,11 +37,10 @@ import { timeLockService } from '../services/sovereign/TimeLockService.js';
 import { federatedMeshService } from '../services/sovereign/FederatedMeshService.js';
 import { portableInstanceService } from '../services/sovereign/PortableInstanceService.js';
 
-import { z } from 'zod';
 
 const schema_1 = z.object({
-  shadowDeliberationId: z.unknown(),
-  officialDeliberationId: z.unknown(),
+  shadowDeliberationId: z.any(),
+  officialDeliberationId: z.any(),
 }).passthrough();
 
 const router = Router();

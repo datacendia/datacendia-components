@@ -2,19 +2,19 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  organizationId: z.unknown(),
-  startDate: z.unknown(),
-  endDate: z.unknown(),
-  exportedBy: z.unknown(),
+  organizationId: z.any(),
+  startDate: z.any(),
+  endDate: z.any(),
+  exportedBy: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  organizationId: z.unknown(),
-  framework: z.unknown(),
-  startDate: z.unknown(),
-  endDate: z.unknown(),
-  requestedBy: z.unknown(),
-  includeRawLogs: z.unknown(),
-  includeIntegrityProof: z.unknown(),
+  organizationId: z.any(),
+  framework: z.any(),
+  startDate: z.any(),
+  endDate: z.any(),
+  requestedBy: z.any(),
+  includeRawLogs: z.any(),
+  includeIntegrityProof: z.any(),
 }).passthrough();
 
 /**
@@ -44,22 +44,21 @@ import { siemIntegration, SIEMConfig } from '../services/security/SIEMIntegratio
 import { complianceExportService, ComplianceFramework } from '../services/security/ComplianceExportService.js';
 import { sbomGenerator } from '../services/security/SBOMGenerator.js';
 
-import { z } from 'zod';
 
 const schema_2 = z.object({
-  organizationId: z.unknown(),
-  startDate: z.unknown(),
-  endDate: z.unknown(),
-  exportedBy: z.unknown(),
+  organizationId: z.any(),
+  startDate: z.any(),
+  endDate: z.any(),
+  exportedBy: z.any(),
 }).passthrough();
 const schema_3 = z.object({
-  organizationId: z.unknown(),
-  framework: z.unknown(),
-  startDate: z.unknown(),
-  endDate: z.unknown(),
-  requestedBy: z.unknown(),
-  includeRawLogs: z.unknown(),
-  includeIntegrityProof: z.unknown(),
+  organizationId: z.any(),
+  framework: z.any(),
+  startDate: z.any(),
+  endDate: z.any(),
+  requestedBy: z.any(),
+  includeRawLogs: z.any(),
+  includeIntegrityProof: z.any(),
 }).passthrough();
 
 const router = Router();

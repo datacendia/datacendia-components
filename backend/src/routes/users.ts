@@ -26,7 +26,7 @@ router.use(devAuth);
 
 const updateUserSchema = z.object({
   name: z.string().min(2).optional(),
-  preferences: z.record(z.unknown()).optional(),
+  preferences: z.record(z.any()).optional(),
 });
 
 const inviteUserSchema = z.object({
@@ -119,7 +119,7 @@ router.put('/me/password', async (req: Request, res: Response, next: NextFunctio
     }
 
     // Verify current password
-    const validPassword = await bcrypt.compare(currentPassword, user.passwordHash);
+    const validPassword = await bcrypt.compare(currentPassword, (user.passwordHash as any));
     if (!validPassword) {
       throw errors.unauthorized('Current password is incorrect');
     }
@@ -309,7 +309,7 @@ router.put('/:id/role', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
       throw errors.notFound('User');
     }
 
-    if (user.organization_id !== req.organizationId) {
+    if (user.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -365,7 +365,7 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
       throw errors.notFound('User');
     }
 
-    if (user.organization_id !== req.organizationId) {
+    if (user.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 

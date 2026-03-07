@@ -183,7 +183,6 @@ export function getAllCircuitBreakerStats(): Record<string, CircuitBreakerStats>
 // Neo4j with circuit breaker
 import { getCircuitBreaker } from './circuitBreaker';
 
-import { logger } from './logger.js';
 const neo4jBreaker = getCircuitBreaker('neo4j');
 
 async function queryNeo4j(cypher: string) {

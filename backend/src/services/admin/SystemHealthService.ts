@@ -394,7 +394,7 @@ class SystemHealthService {
 
   async createAlert(severity: HealthAlert['severity'], service: string, message: string): Promise<HealthAlert> {
     try {
-      const severityMap: Record<string, AlertSeverity> = {
+      const severityMap: Record<string, 'INFO' | 'WARNING' | 'CRITICAL'> = {
         info: 'INFO',
         warning: 'WARNING',
         critical: 'CRITICAL',

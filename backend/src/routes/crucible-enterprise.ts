@@ -24,8 +24,8 @@ import { errors } from '../middleware/errorHandler.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  categories: z.unknown(),
-  signResults: z.unknown(),
+  categories: z.any(),
+  signResults: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -298,7 +298,7 @@ router.post('/schedule', requireRole('ADMIN'), async (req: Request, res: Respons
       notifyEmails,
       autoRemediate,
       blockDeployOnCritical,
-    } = z.object({}).passthrough().parse(req.body);
+    } = (req.body as Record<string, any>);
 
     if (!cronExpression) {
       throw errors.badRequest('Cron expression is required');

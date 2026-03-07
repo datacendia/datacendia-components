@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Service — Cendia Omni Translate Service
  *

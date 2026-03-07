@@ -28,8 +28,8 @@ const saveDeliberationSchema = z.object({
   question: z.string().min(1, 'Question is required'),
   mode: z.string().optional(),
   councilMode: z.string().optional(),
-  agentResponses: z.array(z.record(z.unknown())).optional(),
-  crossExaminations: z.array(z.record(z.unknown())).optional(),
+  agentResponses: z.array(z.record(z.any())).optional(),
+  crossExaminations: z.array(z.record(z.any())).optional(),
   synthesis: z.string().min(1, 'Synthesis is required'),
   confidence: z.number().min(0).max(1).optional(),
   status: z.string().default('completed'),
@@ -106,11 +106,11 @@ router.post('/', async (req: Request, res: Response) => {
       question,
       mode: mode || 'deliberation',
       councilMode: councilMode || 'war-room',
-      agentResponses: agentResponses || [],
-      crossExaminations: crossExaminations || [],
+      agentResponses: (agentResponses || []) as any,
+      crossExaminations: (crossExaminations || []) as any,
       synthesis,
       confidence: confidence || 0,
-      status,
+      status: status as any,
     });
 
     res.json({
@@ -351,7 +351,7 @@ router.post('/:id/facts/claims/:claimId/evidence', async (req: Request, res: Res
     const claim = await statementOfFactsService.addEvidence(
       req.params.id,
       req.params.claimId,
-      { type, description, source, calculation, strength }
+      { type, description, source, calculation, strength } as any
     );
 
     if (!claim) {
@@ -385,7 +385,7 @@ router.post('/post-deliberation/session', async (req: Request, res: Response) =>
       deliberationId,
       userId,
       organizationId,
-      userPlan
+      userPlan as any
     );
 
     res.json(session);
@@ -423,7 +423,7 @@ router.post('/post-deliberation/select', async (req: Request, res: Response) => 
     const session = await postDeliberationService.selectActions(
       sessionId,
       actionIds,
-      priorities,
+      priorities as any,
       notes
     );
 
@@ -445,7 +445,7 @@ router.post('/post-deliberation/toggle', async (req: Request, res: Response) => 
       sessionId,
       actionId,
       selected,
-      priority
+      priority as any
     );
 
     res.json(session);
@@ -464,7 +464,7 @@ router.post('/post-deliberation/execute', async (req: Request, res: Response) =>
 
     // If actionIds provided, select them first
     if (actionIds && actionIds.length > 0) {
-      await postDeliberationService.selectActions(sessionId, actionIds, priorities);
+      await postDeliberationService.selectActions(sessionId, actionIds, priorities as any);
     }
 
     const session = await postDeliberationService.executeSelectedActions(sessionId);

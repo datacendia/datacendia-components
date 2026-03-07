@@ -210,7 +210,7 @@ export class RAGService {
             source_id: doc.sourceId,
             content: chunk,
             content_hash: contentHash,
-            embedding: embeddingBytes,
+            embedding: embeddingBytes as any,
             embedding_model: this.embeddingModel,
             dimensions: this.dimensions,
             metadata: {
@@ -255,7 +255,7 @@ export class RAGService {
     const results: ChunkResult[] = [];
 
     for (const emb of embeddings) {
-      const storedEmbedding = bytesToEmbedding(emb.embedding);
+      const storedEmbedding = bytesToEmbedding(emb.embedding as any);
       const similarity = cosineSimilarity(queryEmbedding, storedEmbedding);
 
       if (similarity >= threshold) {

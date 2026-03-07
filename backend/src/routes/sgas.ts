@@ -2,29 +2,29 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  proposal: z.unknown(),
-  config: z.unknown(),
-  seed: z.unknown(),
+  proposal: z.any(),
+  config: z.any(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  proposal: z.unknown(),
-  seed: z.unknown(),
+  proposal: z.any(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  proposal: z.unknown(),
-  decisionOutputs: z.unknown(),
-  seed: z.unknown(),
+  proposal: z.any(),
+  decisionOutputs: z.any(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  proposal: z.unknown(),
-  institutionalOutputs: z.unknown(),
-  seed: z.unknown(),
+  proposal: z.any(),
+  institutionalOutputs: z.any(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  seed: z.unknown(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema5 = z.object({
-  state: z.unknown(),
+  state: z.any(),
 }).passthrough();
 
 /**

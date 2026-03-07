@@ -172,7 +172,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Alert');
     }
 
-    if (alert.organization_id !== req.organizationId) {
+    if (alert.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -202,7 +202,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
       throw errors.notFound('Alert');
     }
 
-    if (alert.organization_id !== req.organizationId) {
+    if (alert.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -224,7 +224,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
     });
 
     // Publish event
-    await pubsub.publish(`alerts:${req.organizationId}`, {
+    await pubsub.publish(`alerts:${req.organizationId!}`, {
       type: 'alert_acknowledged',
       alertId: alert.id,
       by: req.user!.name,
@@ -283,7 +283,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
       throw errors.notFound('Alert');
     }
 
-    if (alert.organization_id !== req.organizationId) {
+    if (alert.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -306,7 +306,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
     });
 
     // Publish event
-    await pubsub.publish(`alerts:${req.organizationId}`, {
+    await pubsub.publish(`alerts:${req.organizationId!}`, {
       type: 'alert_resolved',
       alertId: alert.id,
       by: req.user!.name,
@@ -359,7 +359,7 @@ router.put('/:id/acknowledge', async (req: Request, res: Response, next: NextFun
     });
 
     if (!alert) throw errors.notFound('Alert');
-    if (alert.organization_id !== req.organizationId) throw errors.forbidden();
+    if (alert.organization_id !== req.organizationId!) throw errors.forbidden();
     if (alert.status !== 'ACTIVE') throw errors.badRequest('Alert is not active');
 
     const updated = await prisma.alerts.update({
@@ -387,7 +387,7 @@ router.put('/:id/resolve', async (req: Request, res: Response, next: NextFunctio
     });
 
     if (!alert) throw errors.notFound('Alert');
-    if (alert.organization_id !== req.organizationId) throw errors.forbidden();
+    if (alert.organization_id !== req.organizationId!) throw errors.forbidden();
     if (alert.status === 'RESOLVED') throw errors.badRequest('Alert is already resolved');
 
     const updated = await prisma.alerts.update({

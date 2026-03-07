@@ -23,6 +23,10 @@ import { prisma } from '../../config/database.js';
 // TYPES
 // =============================================================================
 
+// DB-level enum types (defined inline to avoid dependency on excluded enterprise licensing module)
+type LicenseType = 'PILOT' | 'TRIAL' | 'FOUNDATION' | 'ENTERPRISE' | 'STRATEGIC' | 'CUSTOM';
+type LicenseStatus = 'ACTIVE' | 'EXPIRING' | 'EXPIRED' | 'SUSPENDED';
+
 export interface License {
   id: string;
   tenantId: string;

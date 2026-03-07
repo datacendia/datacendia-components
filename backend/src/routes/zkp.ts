@@ -2,21 +2,21 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  type: z.unknown(),
-  claim: z.unknown(),
-  decisionId: z.unknown(),
-  deliberationId: z.unknown(),
-  workflowId: z.unknown(),
-  organizationId: z.unknown(),
-  framework: z.unknown(),
-  privateWitness: z.unknown(),
-  requestedBy: z.unknown(),
+  type: z.any(),
+  claim: z.any(),
+  decisionId: z.any(),
+  deliberationId: z.any(),
+  workflowId: z.any(),
+  organizationId: z.any(),
+  framework: z.any(),
+  privateWitness: z.any(),
+  requestedBy: z.any(),
 }).passthrough();
 const schema_1 = z.object({
-  verifiedBy: z.unknown(),
+  verifiedBy: z.any(),
 }).passthrough();
 const schema_2 = z.object({
-  reason: z.unknown(),
+  reason: z.any(),
 }).passthrough();
 
 /**
@@ -39,24 +39,23 @@ const schema_2 = z.object({
 import { Router, Request, Response } from 'express';
 import { zeroKnowledgeProofService, ProofType } from '../services/security/ZeroKnowledgeProofService.js';
 
-import { z } from 'zod';
 
 const schema_3 = z.object({
-  type: z.unknown(),
-  claim: z.unknown(),
-  decisionId: z.unknown(),
-  deliberationId: z.unknown(),
-  workflowId: z.unknown(),
-  organizationId: z.unknown(),
-  framework: z.unknown(),
-  privateWitness: z.unknown(),
-  requestedBy: z.unknown(),
+  type: z.any(),
+  claim: z.any(),
+  decisionId: z.any(),
+  deliberationId: z.any(),
+  workflowId: z.any(),
+  organizationId: z.any(),
+  framework: z.any(),
+  privateWitness: z.any(),
+  requestedBy: z.any(),
 }).passthrough();
 const schema_4 = z.object({
-  verifiedBy: z.unknown(),
+  verifiedBy: z.any(),
 }).passthrough();
 const schema_5 = z.object({
-  reason: z.unknown(),
+  reason: z.any(),
 }).passthrough();
 
 const router = Router();

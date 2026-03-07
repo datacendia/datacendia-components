@@ -89,7 +89,7 @@ interface IntegrationCatalogItem {
 
 const connectSchema = z.object({
   name: z.string().min(1),
-  config: z.record(z.unknown()),
+  config: z.record(z.any()),
 });
 
 const oauthCallbackSchema = z.object({
@@ -324,7 +324,7 @@ router.get('/connections/:connectionId', async (req: Request, res: Response, nex
       throw errors.notFound('Connection');
     }
 
-    if (connection.organization_id !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -362,7 +362,7 @@ router.post('/connections/:connectionId/sync', async (req: Request, res: Respons
       throw errors.notFound('Connection');
     }
 
-    if (connection.organization_id !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -403,7 +403,7 @@ router.post('/connections/:connectionId/test', async (req: Request, res: Respons
       throw errors.notFound('Connection');
     }
 
-    if (connection.organization_id !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -432,7 +432,7 @@ router.delete('/connections/:connectionId', requireRole('ADMIN', 'SUPER_ADMIN'),
       throw errors.notFound('Connection');
     }
 
-    if (connection.organization_id !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 
@@ -476,7 +476,7 @@ router.get('/connections/:connectionId/schema', async (req: Request, res: Respon
       throw errors.notFound('Connection');
     }
 
-    if (connection.organization_id !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId!) {
       throw errors.forbidden();
     }
 

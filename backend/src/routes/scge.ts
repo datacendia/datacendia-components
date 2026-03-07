@@ -2,33 +2,33 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  name: z.unknown(),
-  domain: z.unknown(),
-  rules: z.unknown(),
-  constraints: z.unknown(),
-  metadata: z.unknown(),
+  name: z.any(),
+  domain: z.any(),
+  rules: z.any(),
+  constraints: z.any(),
+  metadata: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  scenarioId: z.unknown(),
-  seed: z.unknown(),
+  scenarioId: z.any(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  stressorCount: z.unknown(),
-  maxDuration: z.unknown(),
-  seed: z.unknown(),
+  stressorCount: z.any(),
+  maxDuration: z.any(),
+  seed: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  stressorIds: z.unknown(),
+  stressorIds: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  name: z.unknown(),
-  description: z.unknown(),
-  populationParams: z.unknown(),
-  policyIds: z.unknown(),
-  scenarioId: z.unknown(),
-  stressorConfig: z.unknown(),
-  seed: z.unknown(),
-  maxDuration: z.unknown(),
+  name: z.any(),
+  description: z.any(),
+  populationParams: z.any(),
+  policyIds: z.any(),
+  scenarioId: z.any(),
+  stressorConfig: z.any(),
+  seed: z.any(),
+  maxDuration: z.any(),
 }).passthrough();
 
 /**

@@ -24,7 +24,7 @@ import { getErrorMessage } from '../utils/errors.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  verifiedBy: z.unknown(),
+  verifiedBy: z.any(),
 }).passthrough();
 
 const router = Router();

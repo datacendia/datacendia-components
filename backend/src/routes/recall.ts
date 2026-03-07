@@ -20,31 +20,31 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  organizationId: z.unknown(),
-  decisionId: z.unknown(),
-  title: z.unknown(),
-  predictedOutcomes: z.unknown(),
-  trackedBy: z.unknown(),
-  options: z.unknown(),
+  organizationId: z.any(),
+  decisionId: z.any(),
+  title: z.any(),
+  predictedOutcomes: z.any(),
+  trackedBy: z.any(),
+  options: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  metric: z.unknown(),
-  actualValue: z.unknown(),
-  unit: z.unknown(),
-  evidenceSource: z.unknown(),
-  verified: z.unknown(),
+  metric: z.any(),
+  actualValue: z.any(),
+  unit: z.any(),
+  evidenceSource: z.any(),
+  verified: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  actualROI: z.unknown(),
+  actualROI: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  verifiedBy: z.unknown(),
+  verifiedBy: z.any(),
 }).passthrough();
 const bodySchema4 = z.object({
-  lessonsLearned: z.unknown(),
+  lessonsLearned: z.any(),
 }).passthrough();
 const bodySchema5 = z.object({
-  endorsedBy: z.unknown(),
+  endorsedBy: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -88,7 +88,7 @@ router.get('/recall/trackers', async (req: Request, res: Response) => {
     const status = req.query.status as string | undefined;
     const limit = parseInt(req.query.limit as string) || 50;
     const offset = parseInt(req.query.offset as string) || 0;
-    const result = await cendiaRecallService.getOutcomes(organizationId, { status: status as string, limit, offset });
+    const result = await cendiaRecallService.getOutcomes(organizationId, { status: status as string as any, limit, offset });
     res.json({ success: true, data: result });
   } catch (error: unknown) {
     res.status(500).json({ success: false, error: (error as Error).message });

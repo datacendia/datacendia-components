@@ -24,7 +24,7 @@ router.use(devAuth);
 
 const updateOrgSchema = z.object({
   name: z.string().min(2).optional(),
-  settings: z.record(z.unknown()).optional(),
+  settings: z.record(z.any()).optional(),
 });
 
 /**

@@ -2,7 +2,7 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const schema_0 = z.object({
-  text: z.unknown(),
+  text: z.any(),
 }).passthrough();
 
 /**
@@ -44,10 +44,9 @@ import GatewayRateLimiter from '../services/gateway/RateLimiter';
 import SIEMIntegration from '../services/gateway/SIEMIntegration';
 import ManifestExporter from '../services/gateway/ManifestExporter';
 
-import { z } from 'zod';
 
 const schema_1 = z.object({
-  text: z.unknown(),
+  text: z.any(),
 }).passthrough();
 
 const router = Router();
@@ -77,7 +76,7 @@ function extractUserInfo(req: Request): {
     return {
       userId: user.id || 'anonymous',
       userEmail: user.email || 'unknown@unknown.com',
-      userDepartment: user.department || 'unknown',
+      userDepartment: user.department || 'unknown' as any,
       organizationId: user.organizationId || 'default-org',
     };
   }
@@ -611,7 +610,7 @@ router.get('/shadow-ai/events', async (req: Request, res: Response) => {
   try {
     const events = shadowDetector.getEvents({
       organizationId: req.query.organizationId as string,
-      type: req.query.type as string,
+      type: req.query.type as string as any,
       severity: req.query.severity as string,
       userId: req.query.userId as string,
       limit: req.query.limit ? parseInt(req.query.limit as string) : 100,

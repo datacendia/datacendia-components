@@ -23,24 +23,24 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  code: z.unknown(),
-  codeVerifier: z.unknown(),
-  state: z.unknown(),
+  code: z.any(),
+  codeVerifier: z.any(),
+  state: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  soql: z.unknown(),
+  soql: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  channelId: z.unknown(),
-  text: z.unknown(),
-  thread_ts: z.unknown(),
-  blocks: z.unknown(),
+  channelId: z.any(),
+  text: z.any(),
+  thread_ts: z.any(),
+  blocks: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  jql: z.unknown(),
-  maxResults: z.unknown(),
-  startAt: z.unknown(),
-  fields: z.unknown(),
+  jql: z.any(),
+  maxResults: z.any(),
+  startAt: z.any(),
+  fields: z.any(),
 }).passthrough();
 
 const router = Router();

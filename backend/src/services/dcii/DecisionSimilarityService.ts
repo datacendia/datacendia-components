@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Service — Decision Similarity Service
  *

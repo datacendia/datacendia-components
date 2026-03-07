@@ -1017,7 +1017,6 @@ ${'â”€'.repeat(80)}
 For any specific entry:
 
   import crypto from 'crypto';
-import { loadServiceRecords } from '../../utils/servicePersistence.js';
   
   function verifyEntry(entry, publicKey) {
     const verify = crypto.createVerify('RSA-SHA256');

@@ -471,7 +471,7 @@ router.put('/', async (req: Request, res: Response, next: NextFunction) => {
     await prisma.audit_logs.create({
       data: {
         id: crypto.randomUUID(),
-        organization_id: req.organizationId ?? 'system',
+        organization_id: req.organizationId! ?? 'system',
         user_id: req.user!.id,
         action: 'settings.update',
         resource_type: 'system_settings',
@@ -539,7 +539,7 @@ router.put('/:key', async (req: Request, res: Response, next: NextFunction) => {
     await prisma.audit_logs.create({
       data: {
         id: crypto.randomUUID(),
-        organization_id: req.organizationId ?? 'system',
+        organization_id: req.organizationId! ?? 'system',
         user_id: req.user!.id,
         action: 'settings.update',
         resource_type: 'system_settings',

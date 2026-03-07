@@ -62,7 +62,7 @@ const updatePreferencesSchema = z.object({
  */
 router.get('/', async (req: Request, res: Response) => {
   try {
-    const userId = req.user?.id || req.organizationId;
+    const userId = req.user?.id || req.organizationId!;
     if (!userId) {
       res.status(401).json({ success: false, error: 'Unauthorized' });
       return;
@@ -91,7 +91,7 @@ router.get('/', async (req: Request, res: Response) => {
  */
 router.get('/unread-count', async (req: Request, res: Response) => {
   try {
-    const userId = req.user?.id || req.organizationId;
+    const userId = req.user?.id || req.organizationId!;
     if (!userId) {
       res.status(401).json({ success: false, error: 'Unauthorized' });
       return;
@@ -148,7 +148,7 @@ router.post('/send', async (req: Request, res: Response) => {
 router.post('/broadcast', async (req: Request, res: Response) => {
   try {
     const { type, title, message, link } = req.body;
-    const organizationId = req.organizationId;
+    const organizationId = req.organizationId!;
 
     if (!organizationId) {
       res.status(401).json({ success: false, error: 'Organization ID required' });
@@ -178,7 +178,7 @@ router.post('/broadcast', async (req: Request, res: Response) => {
  */
 router.post('/:id/read', async (req: Request, res: Response) => {
   try {
-    const userId = req.user?.id || req.organizationId;
+    const userId = req.user?.id || req.organizationId!;
     if (!userId) {
       res.status(401).json({ success: false, error: 'Unauthorized' });
       return;
@@ -206,7 +206,7 @@ router.post('/:id/read', async (req: Request, res: Response) => {
  */
 router.post('/read-all', async (req: Request, res: Response) => {
   try {
-    const userId = req.user?.id || req.organizationId;
+    const userId = req.user?.id || req.organizationId!;
     if (!userId) {
       res.status(401).json({ success: false, error: 'Unauthorized' });
       return;
@@ -228,7 +228,7 @@ router.post('/read-all', async (req: Request, res: Response) => {
  */
 router.get('/preferences', async (req: Request, res: Response) => {
   try {
-    const userId = req.user?.id || req.organizationId;
+    const userId = req.user?.id || req.organizationId!;
     if (!userId) {
       res.status(401).json({ success: false, error: 'Unauthorized' });
       return;
@@ -250,7 +250,7 @@ router.get('/preferences', async (req: Request, res: Response) => {
  */
 router.put('/preferences', async (req: Request, res: Response) => {
   try {
-    const userId = req.user?.id || req.organizationId;
+    const userId = req.user?.id || req.organizationId!;
     if (!userId) {
       res.status(401).json({ success: false, error: 'Unauthorized' });
       return;

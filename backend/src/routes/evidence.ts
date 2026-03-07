@@ -40,12 +40,12 @@ const ledgerRecordSchema = z.object({
   category: z.string().optional(),
   executedAt: z.string().datetime().optional(),
   executedBy: z.string().optional(),
-  executionEnvironment: z.record(z.unknown()).optional(),
+  executionEnvironment: z.record(z.any()).optional(),
   status: z.enum(['passed', 'failed', 'skipped', 'error']),
   durationMs: z.number().int().min(0).optional(),
-  assertions: z.array(z.record(z.unknown())).optional(),
-  requestPayload: z.record(z.unknown()).optional(),
-  responsePayload: z.record(z.unknown()).optional(),
+  assertions: z.array(z.record(z.any())).optional(),
+  requestPayload: z.record(z.any()).optional(),
+  responsePayload: z.record(z.any()).optional(),
   errorMessage: z.string().optional(),
   stackTrace: z.string().optional(),
   tags: z.array(z.string()).optional(),
@@ -510,7 +510,7 @@ router.post('/reports/security', async (req: Request, res: Response, next: NextF
 
 router.get('/reports', (req: Request, res: Response) => {
   const reports = reportService.getReports({
-    type: req.query.type as string,
+    type: req.query.type as string as any,
     fromDate: req.query.fromDate ? new Date(req.query.fromDate as string) : undefined,
     toDate: req.query.toDate ? new Date(req.query.toDate as string) : undefined,
   });
@@ -741,7 +741,7 @@ router.post('/export/bundle', async (req: Request, res: Response, next: NextFunc
 
 router.get('/export/bundles', (req: Request, res: Response) => {
   const bundles = exportService.getBundles({
-    type: req.query.type as string,
+    type: req.query.type as string as any,
     fromDate: req.query.fromDate ? new Date(req.query.fromDate as string) : undefined,
     toDate: req.query.toDate ? new Date(req.query.toDate as string) : undefined,
   });

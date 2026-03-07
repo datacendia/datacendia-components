@@ -2,20 +2,20 @@ import { logger } from '../utils/logger.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  status: z.unknown(),
+  status: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  signerId: z.unknown(),
+  signerId: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  nodes: z.unknown(),
-  edges: z.unknown(),
+  nodes: z.any(),
+  edges: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  sourceNodeId: z.unknown(),
-  changeDescription: z.unknown(),
-  initialImpact: z.unknown(),
-  config: z.unknown(),
+  sourceNodeId: z.any(),
+  changeDescription: z.any(),
+  initialImpact: z.any(),
+  config: z.any(),
 }).passthrough();
 
 /**

@@ -22,10 +22,10 @@ import { ollama } from '../services/ollama.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  model: z.unknown(),
-  prompt: z.unknown(),
-  systemPrompt: z.unknown(),
-  options: z.unknown(),
+  model: z.any(),
+  prompt: z.any(),
+  systemPrompt: z.any(),
+  options: z.any(),
 }).passthrough();
 
 const router = Router();

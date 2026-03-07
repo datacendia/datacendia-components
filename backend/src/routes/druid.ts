@@ -32,7 +32,7 @@ function safeInt(val: unknown, defaultVal: number, min: number, max: number): nu
 }
 
 function requireOrgId(req: Request, res: Response): string | null {
-  const orgId = req.organizationId;
+  const orgId = req.organizationId!;
   if (!orgId) {
     res.status(401).json({ success: false, error: 'Authentication required' });
     return null;

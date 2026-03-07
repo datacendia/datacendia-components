@@ -22,34 +22,34 @@ import marketSalaryService, { SalaryQuery } from '../services/MarketSalaryServic
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
-  currentSalary: z.unknown(),
-  title: z.unknown(),
-  level: z.unknown(),
-  location: z.unknown(),
-  industry: z.unknown(),
-  yearsExperience: z.unknown(),
-  companySize: z.unknown(),
+  currentSalary: z.any(),
+  title: z.any(),
+  level: z.any(),
+  location: z.any(),
+  industry: z.any(),
+  yearsExperience: z.any(),
+  companySize: z.any(),
 }).passthrough();
 const bodySchema1 = z.object({
-  currentSalary: z.unknown(),
-  title: z.unknown(),
-  level: z.unknown(),
-  location: z.unknown(),
-  industry: z.unknown(),
-  yearsExperience: z.unknown(),
-  companySize: z.unknown(),
+  currentSalary: z.any(),
+  title: z.any(),
+  level: z.any(),
+  location: z.any(),
+  industry: z.any(),
+  yearsExperience: z.any(),
+  companySize: z.any(),
 }).passthrough();
 const bodySchema2 = z.object({
-  currentSalary: z.unknown(),
-  title: z.unknown(),
-  level: z.unknown(),
-  location: z.unknown(),
-  industry: z.unknown(),
-  yearsExperience: z.unknown(),
-  companySize: z.unknown(),
+  currentSalary: z.any(),
+  title: z.any(),
+  level: z.any(),
+  location: z.any(),
+  industry: z.any(),
+  yearsExperience: z.any(),
+  companySize: z.any(),
 }).passthrough();
 const bodySchema3 = z.object({
-  roles: z.unknown(),
+  roles: z.any(),
 }).passthrough();
 
 const router: Router = express.Router();
