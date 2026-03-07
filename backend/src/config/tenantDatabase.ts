@@ -17,6 +17,9 @@
 // =============================================================================
 
 import { PrismaClient } from '@prisma/client';
+import { PrismaPg } from '@prisma/adapter-pg';
+import pg from 'pg';
+import { prisma as sharedPrisma } from './database.js';
 import { logger } from '../utils/logger.js';
 
 // =============================================================================
@@ -42,14 +45,8 @@ class TenantDatabaseManager {
   private defaultClient: PrismaClient;
 
   constructor() {
-    // Default client uses DATABASE_URL from environment
-    this.defaultClient = new PrismaClient({
-      log: process.env.NODE_ENV === 'development' 
-        ? ['query', 'info', 'warn', 'error']
-        : ['error'],
-    });
-
-    this.setupMiddleware(this.defaultClient, 'default');
+    // Default client uses the shared adapter-configured instance from database.ts
+    this.defaultClient = sharedPrisma as unknown as PrismaClient;
   }
 
   /**
@@ -112,11 +109,13 @@ class TenantDatabaseManager {
    * Create a Prisma client for a specific tenant database
    */
   private createTenantClient(config: TenantDatabaseConfig): PrismaClient {
+    const pool = new pg.Pool({ connectionString: config.databaseUrl });
+    const adapter = new PrismaPg(pool);
     const client = new PrismaClient({
+      adapter,
       log: process.env.NODE_ENV === 'development' 
         ? ['query', 'info', 'warn', 'error']
         : ['error'],
-      // Prisma 7: DATABASE_URL from env
     });
 
     this.setupMiddleware(client, config.organizationId);

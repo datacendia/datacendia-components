@@ -398,14 +398,14 @@ router.get('/bundles/:id/download', (req: Request, res: Response) => {
  * GET /api/compliance/bundles/:id/files/:path
  * Get specific file from bundle
  */
-router.get('/bundles/:id/files/*', (req: Request, res: Response) => {
+router.get('/bundles/:id/files/*filepath', (req: Request, res: Response) => {
   try {
     const bundle = complianceService.getBundle(req.params.id);
     if (!bundle) {
       return res.status(404).json({ success: false, error: 'Bundle not found' });
     }
 
-    const filePath = req.params[0];
+    const filePath = req.params.filepath;
     const file = bundle.files.find(f => f.path === filePath);
     
     if (!file) {

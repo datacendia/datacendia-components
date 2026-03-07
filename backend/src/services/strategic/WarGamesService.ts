@@ -17,13 +17,11 @@
 // "The Super-Soldier Factory" - Turn analysts into strategists
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import ollama from '../ollama.js';
 import { v4 as uuidv4 } from 'uuid';
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================

@@ -17,13 +17,11 @@
 // "The Accelerator" - Recursive bursts at infrastructure speed
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
 import { getErrorMessage } from '../../utils/errors.js';
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================

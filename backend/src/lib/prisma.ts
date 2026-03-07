@@ -15,18 +15,6 @@
  * Prisma Client Instance
  */
 
-import { PrismaClient } from '@prisma/client';
-
-declare global {
-  var prisma: PrismaClient | undefined;
-}
-
-export const prisma = global.prisma || new PrismaClient({
-  log: process.env.NODE_ENV === 'development' ? ['query', 'error', 'warn'] : ['error'],
-});
-
-if (process.env.NODE_ENV !== 'production') {
-  global.prisma = prisma;
-}
-
-export default prisma;
+// Re-export the shared Prisma instance from config/database.ts
+// which is configured with the Prisma v7 driver adapter
+export { prisma, prisma as default } from '../config/database.js';

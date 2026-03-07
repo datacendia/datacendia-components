@@ -17,11 +17,9 @@
 // Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================

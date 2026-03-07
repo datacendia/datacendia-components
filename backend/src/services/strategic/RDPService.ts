@@ -17,13 +17,11 @@
 // "The Infrastructure Answer" - Deploy anywhere in minutes
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================

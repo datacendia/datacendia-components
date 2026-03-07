@@ -17,11 +17,9 @@
 // =============================================================================
 
 import crypto from 'crypto';
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // Type for user with MFA fields (after prisma generate)
 interface UserWithMFA {
   id: string;

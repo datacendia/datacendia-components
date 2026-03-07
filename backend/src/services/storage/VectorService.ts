@@ -18,7 +18,8 @@
 // Powers: Document retrieval, Decision memory, Agent long-term context
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import type { PrismaClient } from '@prisma/client';
+import { prisma as sharedPrisma } from '../../config/database.js';
 import { getErrorMessage } from '../../utils/errors.js';
 
 import { logger } from '../../utils/logger.js';
@@ -72,7 +73,7 @@ class VectorService {
   private isInitialized: boolean = false;
 
   constructor() {
-    this.prisma = new PrismaClient();
+    this.prisma = sharedPrisma as unknown as PrismaClient;
   }
 
   /**

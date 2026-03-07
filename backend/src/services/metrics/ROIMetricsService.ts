@@ -16,12 +16,10 @@
 // Tracks real metrics to prove ROI claims with actual data
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../../utils/logger.js';
 
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================

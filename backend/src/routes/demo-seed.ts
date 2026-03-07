@@ -25,12 +25,10 @@ import { logger } from '../utils/logger.js';
  */
 
 import { Router, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
-const prisma = new PrismaClient();
-
+import { prisma } from '../config/database.js';
 // =============================================================================
 // DEMO DATA DEFINITIONS
 // =============================================================================

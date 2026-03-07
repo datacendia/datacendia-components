@@ -15,7 +15,6 @@
 // =============================================================================
 
 import express, { Request, Response, Router } from 'express';
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
@@ -31,8 +30,7 @@ const bodySchema0 = z.object({
 }).passthrough();
 
 const router: Router = express.Router();
-const prisma = new PrismaClient();
-
+import { prisma } from '../config/database.js';
 // =============================================================================
 // ROUTES
 // =============================================================================

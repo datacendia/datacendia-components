@@ -18,7 +18,8 @@ import { logger } from '../utils/logger.js';
  */
 
 import Redis from 'ioredis';
-import { PrismaClient } from '@prisma/client';
+import type { PrismaClient } from '@prisma/client';
+import { prisma as sharedPrisma } from '../config/database.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 // =============================================================================
@@ -323,7 +324,7 @@ class LiveMonitor {
 
   async connectToDatabase(): Promise<boolean> {
     try {
-      this.prisma = new PrismaClient();
+      this.prisma = sharedPrisma as unknown as PrismaClient;
       await this.prisma.$connect();
       return true;
     } catch (e) {

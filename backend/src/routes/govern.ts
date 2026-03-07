@@ -17,11 +17,8 @@ import { logger } from '../utils/logger.js';
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
-
 const router = Router();
-const prisma = new PrismaClient();
-
+import { prisma } from '../config/database.js';
 // GET /govern/policies - List policies
 router.get('/policies', async (req: Request, res: Response) => {
   try {

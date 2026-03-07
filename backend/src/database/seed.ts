@@ -10,12 +10,10 @@ import { logger } from '../utils/logger.js';
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
-import { PrismaClient, Prisma } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
 
-const prisma = new PrismaClient();
-
+import { prisma } from '../config/database.js';
 // AI Agent definitions - The Pantheon
 const agents = [
   {

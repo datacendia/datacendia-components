@@ -19,7 +19,9 @@
 import { createHash } from 'crypto';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
-import { PrismaClient, RegulatorySeverity, RegulatoryDocStatus, RegulatoryReviewStatus, ConstraintType, TriggerType, ConflictType, ConflictResolution } from '@prisma/client';
+import type { PrismaClient } from '@prisma/client';
+import { RegulatorySeverity, RegulatoryDocStatus, RegulatoryReviewStatus, ConstraintType, TriggerType, ConflictType, ConflictResolution } from '@prisma/client';
+import { prisma as sharedPrisma } from '../../config/database.js';
 
 // =============================================================================
 // TYPES
@@ -180,7 +182,7 @@ export class RegulatoryAbsorbV2Service extends BaseService {
       dependencies: ['council', 'database'],
       ...config,
     });
-    this.prisma = new PrismaClient();
+    this.prisma = sharedPrisma as unknown as PrismaClient;
     this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://127.0.0.1:11434';
   }
 

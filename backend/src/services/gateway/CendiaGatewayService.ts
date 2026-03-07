@@ -23,11 +23,9 @@ import { logger } from '../../utils/logger.js';
 
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
-import { PrismaClient } from '@prisma/client';
 import { scanForPII, scanForKeywords, type PIIScanResult, type PIIType } from './PIIDetector';
 
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================

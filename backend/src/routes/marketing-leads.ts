@@ -15,7 +15,6 @@
 // =============================================================================
 
 import express, { Request, Response, Router } from 'express';
-import { PrismaClient } from '@prisma/client';
 import { logger } from '../utils/logger.js';
 
 import { z } from 'zod';
@@ -33,8 +32,7 @@ const bodySchema1 = z.object({
 }).passthrough();
 
 const router: Router = express.Router();
-const prisma = new PrismaClient();
-
+import { prisma } from '../config/database.js';
 // =============================================================================
 // ROUTES
 // =============================================================================

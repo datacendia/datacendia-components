@@ -18,10 +18,7 @@
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
-import { PrismaClient, LicenseType, LicenseStatus } from '@prisma/client';
-
-const prisma = new PrismaClient();
-
+import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES
 // =============================================================================
