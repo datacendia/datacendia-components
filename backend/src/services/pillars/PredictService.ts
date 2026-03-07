@@ -19,6 +19,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 
+import { Prisma } from '@prisma/client';
 import { prisma } from '../../config/database.js';
 // =============================================================================
 // TYPES

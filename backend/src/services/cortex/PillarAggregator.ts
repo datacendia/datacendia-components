@@ -21,7 +21,6 @@ import { logger } from '../../utils/logger.js';
 
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
 import { prisma } from '../../config/database.js';
-as any; // Use any for dynamic table access
 
 export class PillarAggregator {
   private cache: Map<string, { data: any; expiry: number }> = new Map();

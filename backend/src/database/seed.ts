@@ -13,6 +13,7 @@ import { logger } from '../utils/logger.js';
 import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
 
+import { Prisma } from '@prisma/client';
 import { prisma } from '../config/database.js';
 // AI Agent definitions - The Pantheon
 const agents = [
