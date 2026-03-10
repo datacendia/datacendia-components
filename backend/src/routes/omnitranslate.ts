@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Omnitranslate
  *
@@ -70,7 +69,7 @@ router.post('/model/load', async (_req: Request, res: Response) => {
   }
 });
 
-router.post('/detect', (_req: Request, res: Response) => {
+router.post('/detect', (req: Request, res: Response) => {
   res.json({ success: true, data: { detectedLanguage: 'en', confidence: 0.95, text: req.body.text } });
 });
 
@@ -89,7 +88,7 @@ router.post('/translate', async (req: Request, res: Response) => {
       text,
       sourceLanguage: sourceLanguage || 'auto',
       targetLanguage,
-      context,
+      context: context as any,
       glossaryId,
       organizationId,
     });
@@ -158,7 +157,7 @@ router.get('/languages/rtl', (_req: Request, res: Response) => {
       count: rtlLanguages.length,
       languages: rtlLanguages.map(code => ({
         code,
-        ...OMNITRANSLATE_LANGUAGES[code],
+        ...(OMNITRANSLATE_LANGUAGES as any)[code],
       })),
     });
   } catch (error) {
@@ -191,7 +190,7 @@ router.post('/translate', async (req: Request, res: Response) => {
       text,
       sourceLanguage: sourceLanguage || 'auto',
       targetLanguage,
-      context,
+      context: context as any,
       preserveFormatting,
       glossaryId,
       organizationId,

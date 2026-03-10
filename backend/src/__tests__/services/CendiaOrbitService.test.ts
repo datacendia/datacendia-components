@@ -422,8 +422,10 @@ describe('CendiaOrbitService', () => {
         metadata: {},
       };
       service.addNode(node);
-      // Node should be added (no error thrown)
-      expect(true).toBe(true);
+      // FAILS IF: node was not actually added to the graph
+      const retrieved = service.getNode('test-node');
+      expect(retrieved).toBeDefined();
+      expect(retrieved!.name).toBe('Test Dept');
     });
 
     it('should add edge', () => {
@@ -449,7 +451,10 @@ describe('CendiaOrbitService', () => {
         strength: 0.9,
       };
       service.addEdge(edge);
-      expect(true).toBe(true);
+      // FAILS IF: edge was not actually added
+      const retrieved = service.getEdge('edge-1');
+      expect(retrieved).toBeDefined();
+      expect(retrieved!.sourceId).toBe('node-a');
     });
 
     it('should handle multiple nodes', () => {
@@ -461,7 +466,10 @@ describe('CendiaOrbitService', () => {
           metadata: {},
         });
       }
-      expect(true).toBe(true);
+      // FAILS IF: not all 10 nodes were added
+      for (let i = 0; i < 10; i++) {
+        expect(service.getNode(`node-${i}`)).toBeDefined();
+      }
     });
 
     it('should handle multiple edges', () => {
@@ -485,7 +493,10 @@ describe('CendiaOrbitService', () => {
           strength: 0.7,
         });
       }
-      expect(true).toBe(true);
+      // FAILS IF: edges weren't actually added
+      for (let i = 0; i < 4; i++) {
+        expect(service.getEdge(`e-${i}`)).toBeDefined();
+      }
     });
   });
 
@@ -514,7 +525,10 @@ describe('CendiaOrbitService', () => {
       ];
 
       edges.forEach(e => service.addEdge(e));
-      expect(true).toBe(true);
+      // FAILS IF: org hierarchy nodes/edges not added
+      expect(service.getNode('ceo')).toBeDefined();
+      expect(service.getNode('vp-eng')).toBeDefined();
+      expect(service.getEdge('e1')).toBeDefined();
     });
 
     it('should model system dependencies', () => {
@@ -534,7 +548,10 @@ describe('CendiaOrbitService', () => {
       ];
 
       edges.forEach(e => service.addEdge(e));
-      expect(true).toBe(true);
+      // FAILS IF: system dependency graph not built
+      expect(service.getNode('web-app')).toBeDefined();
+      expect(service.getNode('database')).toBeDefined();
+      expect(service.getEdge('e2')).toBeDefined();
     });
 
     it('should model vendor relationships', () => {
@@ -553,7 +570,10 @@ describe('CendiaOrbitService', () => {
       ];
 
       edges.forEach(e => service.addEdge(e));
-      expect(true).toBe(true);
+      // FAILS IF: vendor relationship graph not built
+      expect(service.getNode('aws')).toBeDefined();
+      expect(service.getNode('stripe')).toBeDefined();
+      expect(service.getEdge('e1')).toBeDefined();
     });
   });
 
@@ -574,7 +594,8 @@ describe('CendiaOrbitService', () => {
         name: 'Isolated Asset',
         metadata: {},
       });
-      expect(true).toBe(true);
+      // FAILS IF: isolated node not added
+      expect(service.getNode('lonely')).toBeDefined();
     });
 
     it('should handle self-referencing edge', () => {
@@ -584,14 +605,16 @@ describe('CendiaOrbitService', () => {
         name: 'Recursive Process',
         metadata: {},
       });
+      const edgeId = 'self-ref-edge';
       service.addEdge({
-        id: 'self-edge',
+        id: edgeId,
         sourceId: 'self',
         targetId: 'self',
         type: EdgeType.TRIGGERS,
         strength: 0.5,
       });
-      expect(true).toBe(true);
+      // FAILS IF: self-referencing edge not added
+      expect(service.getEdge(edgeId)).toBeDefined();
     });
 
     it('should handle very long node names', () => {
@@ -601,7 +624,8 @@ describe('CendiaOrbitService', () => {
         name: 'A'.repeat(1000),
         metadata: {},
       });
-      expect(true).toBe(true);
+      // FAILS IF: long-named node not added
+      expect(service.getNode('long-name')).toBeDefined();
     });
 
     it('should handle special characters in names', () => {
@@ -611,7 +635,8 @@ describe('CendiaOrbitService', () => {
         name: 'Product "Alpha" <v2.0> & More',
         metadata: {},
       });
-      expect(true).toBe(true);
+      // FAILS IF: special-char node not added
+      expect(service.getNode('special')).toBeDefined();
     });
 
     it('should handle unicode in names', () => {
@@ -621,7 +646,8 @@ describe('CendiaOrbitService', () => {
         name: '日本企業 🏢',
         metadata: {},
       });
-      expect(true).toBe(true);
+      // FAILS IF: unicode node not added
+      expect(service.getNode('unicode')).toBeDefined();
     });
 
     it('should handle zero strength edge', () => {
@@ -634,7 +660,8 @@ describe('CendiaOrbitService', () => {
         type: EdgeType.INFLUENCES,
         strength: 0,
       });
-      expect(true).toBe(true);
+      // FAILS IF: zero-strength edge not added
+      expect(service.getEdge('zero')).toBeDefined();
     });
 
     it('should handle max strength edge', () => {
@@ -647,7 +674,7 @@ describe('CendiaOrbitService', () => {
         type: EdgeType.DEPENDS_ON,
         strength: 1.0,
       });
-      expect(true).toBe(true);
+      expect(service.getEdge('max')).toBeDefined();
     });
   });
 

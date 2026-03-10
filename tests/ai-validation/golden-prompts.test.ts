@@ -425,7 +425,7 @@ describe('Golden Prompt Set - LLM Brain Tests', () => {
           console.log(`  ✗ Required model ${MODEL} not loaded - skipping LLM tests`);
         }
       }
-    } catch {
+    } catch (err: any) {
       console.log(`✗ Ollama not available at ${OLLAMA_URL}`);
       console.log('  Skipping LLM brain tests (run with Ollama for full validation)');
     }

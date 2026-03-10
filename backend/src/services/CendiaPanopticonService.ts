@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Service — Cendia Panopticon Service
  *
@@ -37,8 +36,8 @@ import { EnhancedLLMService } from './EnhancedLLMService.js';
 // =============================================================================
 
 
-import { REGULATORY_FRAMEWORKS } from './panopticon-svc-types.js';
-import type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast } from './panopticon-svc-types.js';
+import { REGULATORY_FRAMEWORKS, DEFAULT_RADAR_EVENTS, DEFAULT_AI_SUMMARY, DEFAULT_AI_ACTIONS } from './panopticon-svc-types.js';
+import type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast, RegulatoryRadarEvent } from './panopticon-svc-types.js';
 export { REGULATORY_FRAMEWORKS } from './panopticon-svc-types.js';
 export type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast } from './panopticon-svc-types.js';
 

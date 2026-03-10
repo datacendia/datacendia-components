@@ -33,7 +33,7 @@ async function isOllamaAvailable(): Promise<boolean> {
   try {
     const response = await fetch(`${OLLAMA_URL}/api/tags`);
     return response.ok;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 }
@@ -43,7 +43,7 @@ async function isApiAvailable(): Promise<boolean> {
   try {
     const response = await fetch(`${API_URL}/health`);
     return response.ok;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 }
@@ -61,7 +61,7 @@ async function getAuthToken(): Promise<string> {
     });
     const data = (await response.json()) as { data?: { accessToken?: string }; accessToken?: string };
     return data.data?.accessToken || data.accessToken || '';
-  } catch {
+  } catch (err: any) {
     return '';
   }
 }

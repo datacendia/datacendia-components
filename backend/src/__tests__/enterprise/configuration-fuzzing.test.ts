@@ -55,7 +55,7 @@ const parseEnvJSON = <T>(value: string | undefined, defaultValue: T): T => {
   if (value === undefined || value === '') return defaultValue;
   try {
     return JSON.parse(value) as T;
-  } catch {
+  } catch (err: any) {
     return defaultValue;
   }
 };
@@ -75,7 +75,7 @@ const validateURL = (url: string): boolean => {
   try {
     new URL(url);
     return true;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };

@@ -100,7 +100,7 @@ const parseURL = (url: string): { protocol: string; host: string; port: number; 
       port: parseInt(parsed.port) || (parsed.protocol === 'https:' ? 443 : 80),
       path: parsed.pathname
     };
-  } catch {
+  } catch (err: any) {
     return null;
   }
 };

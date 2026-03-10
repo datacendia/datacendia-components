@@ -46,7 +46,7 @@ async function authenticate(): Promise<string | null> {
       const data = await response.json();
       return data.token;
     }
-  } catch {
+  } catch (err: any) {
     // Auth failed
   }
   return null;
@@ -252,7 +252,7 @@ describe('Concurrent Load Tests', () => {
     try {
       const health = await fetch(`${API_BASE.replace('/api/v1', '')}/health`, { signal: AbortSignal.timeout(5000) });
       servicesAvailable = health.ok;
-    } catch {
+    } catch (err: any) {
       servicesAvailable = false;
     }
 
@@ -266,7 +266,7 @@ describe('Concurrent Load Tests', () => {
           console.log(`  Ollama running but model not loaded. Available: ${models.join(', ') || 'none'}`);
         }
       }
-    } catch {
+    } catch (err: any) {
       ollamaAvailable = false;
     }
 

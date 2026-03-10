@@ -1,4 +1,4 @@
-type PDFDoc = InstanceType<typeof PDFDocument>;
+type PDFDoc = any; // PDFDocument from pdfkit
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';

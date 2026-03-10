@@ -17,7 +17,7 @@ async function checkEndpoint(url: string, timeoutMs = CONNECTIVITY_TIMEOUT): Pro
     const response = await fetch(url, { method: 'HEAD', signal: controller.signal });
     clearTimeout(timer);
     return { ok: response.ok, status: response.status, reachable: true };
-  } catch {
+  } catch (err: any) {
     clearTimeout(timer);
     return { ok: false, status: 0, reachable: false };
   }

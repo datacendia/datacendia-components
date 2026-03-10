@@ -30,7 +30,7 @@ async function checkApiAvailable(): Promise<boolean> {
   try {
     const response = await fetch(`${API_URL}/health`, { signal: AbortSignal.timeout(2000) });
     return response.ok;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 }

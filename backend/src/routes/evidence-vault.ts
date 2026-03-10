@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Evidence Vault
  *
@@ -96,7 +95,7 @@ router.get('/packets', async (req: Request, res: Response) => {
       organizationId: user.organizationId,
       dataSourceId: dataSourceId as string,
       search: search as string,
-      status: status as string,
+      status: status as any,
       mode: mode as any,
       businessUnit: businessUnit as string,
       framework: framework as string,

@@ -290,7 +290,7 @@ describe('Validation Utilities', () => {
       try {
         new URL(url);
         return true;
-      } catch {
+      } catch (err: any) {
         return false;
       }
     };
@@ -407,7 +407,7 @@ describe('Validation Utilities', () => {
       try {
         JSON.parse(str);
         return true;
-      } catch {
+      } catch (err: any) {
         return false;
       }
     };
@@ -415,7 +415,7 @@ describe('Validation Utilities', () => {
     const safeJSONParse = <T>(str: string, defaultValue: T): T => {
       try {
         return JSON.parse(str) as T;
-      } catch {
+      } catch (err: any) {
         return defaultValue;
       }
     };

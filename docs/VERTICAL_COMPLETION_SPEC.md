@@ -44,6 +44,30 @@ A vertical is **100% complete** when it has all six layers:
 | Media & Entertainment | **100%** | 100% | Complete | 10 | 12 |
 | Aerospace | **100%** | 100% | Complete | 10 | 12 |
 | Sports | **100%** | 100% | Complete | 10 | 12 |
+| Nonprofit | **100%** | 100% | Complete | 4 | 4 |
+| Professional | **100%** | 100% | Complete | 4 | 4 |
+| EU-Banking | **100%** | 100% | Complete | Basel III + EU AI Act engines | N/A |
+| Internal/Meta | N/A | N/A | Infrastructure | N/A | N/A |
+| SmartCity | N/A | N/A | Agents/Modes only | N/A | N/A |
+
+---
+
+## Deep Test Coverage (as of March 10, 2026)
+
+All 30 verticals with testable decision schemas have been deep-tested with domain-specific data.
+
+| Test File | Tests | Verticals Covered |
+|-----------|-------|-------------------|
+| `VerticalFlagshipsDeep.test.ts` | ~60 | Financial, Healthcare |
+| `VerticalInsuranceLegalDeep.test.ts` | ~60 | Insurance, Legal |
+| `VerticalGovMfgBatchDeep.test.ts` | ~60 | Government, Manufacturing |
+| `VerticalSportsDeep.test.ts` | 52 | Sports |
+| `VerticalExpandedBatchDeep.test.ts` | 64 | Aerospace, Agriculture, Automotive, Construction, Hospitality, Media, Pharmaceutical, Retail, Telecom |
+| `VerticalExpandedBatch2Deep.test.ts` | 123 | Education, Real Estate, Technology, Transportation + 14 VerticalImpl batch |
+| `VerticalTemplateBatchDeep.test.ts` | 120 | Nonprofit, Professional + 6 base template verticals |
+| `VerticalDefenseEUBankingDeep.test.ts` | 58 | Defense (singleton, agents, modes, compliance) + Basel III Engine (capital, RWA, LCR, NSFR, large exposures, stress tests) |
+| `VerticalIndustrialServicesDeep.test.ts` | 50 | Industrial Services (10 expanded schemas) |
+| **Total** | **~647** | **All verticals with testable logic** |
 
 ---
 

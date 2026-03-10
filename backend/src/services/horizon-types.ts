@@ -1,4 +1,5 @@
 // CendiaHorizon Types - extracted for maintainability
+import { NodeType, EdgeType, OrbitNode, OrbitEdge } from './CendiaOrbitService.js';
 
 export interface OracleQuery {
   id: string;

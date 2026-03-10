@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Service — Cendia Omni Translate Service
  *
@@ -155,6 +154,25 @@ export const OMNITRANSLATE_LANGUAGES = {
   fj: { name: 'Fijian', nativeName: 'Vosa Vakaviti', rtl: false, region: 'pacific' },
 } as const;
 
+const LANGUAGES_MAP = OMNITRANSLATE_LANGUAGES as Record<string, { readonly name: string; readonly nativeName: string; readonly rtl: boolean; readonly region: string }>;
+
+// Translation model configuration
+const TRANSLATION_MODELS = {
+  primary: process.env.OMNITRANSLATE_MODEL || 'qwen2.5:32b',
+  fallback: process.env.OMNITRANSLATE_FALLBACK_MODEL || 'qwen2.5:14b',
+  fast: process.env.OMNITRANSLATE_FAST_MODEL || 'qwen2.5:7b',
+} as const;
+
+// Tier 1: Common languages - can use fast model
+const TIER1_LANGUAGES = new Set([
+  'en', 'es', 'fr', 'de', 'it', 'pt', 'pt-BR', 'nl', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'ar'
+]);
+
+// Tier 2: Less common but well-supported languages - use primary model
+const TIER2_LANGUAGES = new Set([
+  'pl', 'uk', 'th', 'vi', 'id', 'ms', 'tl', 'hi', 'bn', 'tr', 'he', 'fa', 'sv', 'da',
+  'no', 'fi', 'cs', 'sk', 'hu', 'ro', 'bg', 'el', 'hr', 'sr'
+]);
 
 import type { OmniTranslateLanguage, TranslationRequest, TranslationResult, BatchTranslationRequest, DocumentTranslationRequest, GlossaryTerm, TranslationMemoryEntry, LanguageDetectionResult } from './omnitranslate-types.js';
 export type { OmniTranslateLanguage, TranslationRequest, TranslationResult, BatchTranslationRequest, DocumentTranslationRequest, GlossaryTerm, TranslationMemoryEntry, LanguageDetectionResult } from './omnitranslate-types.js';
@@ -296,7 +314,7 @@ class CendiaOmniTranslateService {
    * Get languages by region
    */
   getLanguagesByRegion(region: string): Partial<typeof OMNITRANSLATE_LANGUAGES> {
-    const result: Record<string, (typeof OMNITRANSLATE_LANGUAGES)[OmniTranslateLanguage]> = {};
+    const result: Record<string, typeof LANGUAGES_MAP[string]> = {};
     for (const [code, lang] of Object.entries(OMNITRANSLATE_LANGUAGES)) {
       if (lang.region === region) {
         result[code] = lang;
@@ -325,7 +343,7 @@ class CendiaOmniTranslateService {
       throw new Error(`Text must be between 1 and ${this.MAX_TEXT_LENGTH} characters`);
     }
     
-    if (!OMNITRANSLATE_LANGUAGES[request.targetLanguage]) {
+    if (!LANGUAGES_MAP[request.targetLanguage]) {
       throw new Error(`Unsupported target language: ${request.targetLanguage}`);
     }
 
@@ -457,7 +475,7 @@ Language code:`;
       const detectedCode = response.trim().toLowerCase().replace(/[^a-z-]/g, '');
       
       // Validate detected language
-      if (OMNITRANSLATE_LANGUAGES[detectedCode as OmniTranslateLanguage]) {
+      if (LANGUAGES_MAP[detectedCode]) {
         return {
           detectedLanguage: detectedCode as OmniTranslateLanguage,
           confidence: 0.9,
@@ -485,8 +503,8 @@ Language code:`;
     targetLanguage: OmniTranslateLanguage,
     context: string
   ): Promise<string> {
-    const sourceLang = OMNITRANSLATE_LANGUAGES[sourceLanguage];
-    const targetLang = OMNITRANSLATE_LANGUAGES[targetLanguage];
+    const sourceLang = LANGUAGES_MAP[sourceLanguage];
+    const targetLang = LANGUAGES_MAP[targetLanguage];
 
     // Select appropriate model based on language pair
     const model = this.getModelForLanguages(sourceLanguage, targetLanguage);
@@ -543,7 +561,7 @@ ${targetLang.name} translation (provide ONLY the translation, no explanations):`
     sourceLanguage: OmniTranslateLanguage,
     targetLanguage: OmniTranslateLanguage
   ): string {
-    const targetLang = OMNITRANSLATE_LANGUAGES[targetLanguage];
+    const targetLang = LANGUAGES_MAP[targetLanguage];
     
     // Demo translations for common phrases to make it look realistic
     const demoTranslations: Record<string, Record<string, string>> = {

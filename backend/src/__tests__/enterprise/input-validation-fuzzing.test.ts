@@ -40,7 +40,7 @@ const isValidURL = (url: string): boolean => {
   try {
     const parsed = new URL(url);
     return ['http:', 'https:'].includes(parsed.protocol);
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };
@@ -64,7 +64,7 @@ const isValidJSON = (json: string): boolean => {
   try {
     JSON.parse(json);
     return true;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };

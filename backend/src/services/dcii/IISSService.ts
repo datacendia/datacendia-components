@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Service — I I S S Service
  *
@@ -55,6 +54,7 @@ import { loadServiceRecords } from '../../utils/servicePersistence.js';
 
 
 import type { IISSBand, CertificationLevel, AssessmentStatus, IISSDimension, IISSControl, IISSFinding, IISSScore, IISSRecommendation, InsuranceImpact, RegulatoryReadiness, IISSAssessment, AssessmentAuditEntry, IISSHistoryEntry, IISSBenchmark } from './iiss-types.js';
+import { DIMENSION_DEFINITIONS, INDUSTRY_BENCHMARKS, getScoreBand, getCertificationLevel, getBandColor } from './iiss-types.js';
 export type { IISSBand, CertificationLevel, AssessmentStatus, IISSDimension, IISSControl, IISSFinding, IISSScore, IISSRecommendation, InsuranceImpact, RegulatoryReadiness, IISSAssessment, AssessmentAuditEntry, IISSHistoryEntry, IISSBenchmark } from './iiss-types.js';
 
 

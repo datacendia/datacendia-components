@@ -46,7 +46,7 @@ const timedApiCall = async (
     });
     status = response.status;
     success = response.ok;
-  } catch {
+  } catch (err: any) {
     status = 0;
     success = false;
   }
@@ -113,7 +113,7 @@ describe('Performance & Load Tests', () => {
     try {
       const response = await fetch(`${API_BASE.replace('/api/v1', '')}/health`);
       serverAvailable = response.ok;
-    } catch {
+    } catch (err: any) {
       serverAvailable = false;
     }
   });

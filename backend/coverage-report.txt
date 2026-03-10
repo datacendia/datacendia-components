@@ -1,0 +1,1973 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/Stu/Documents/datacendia-components/datacendia-components/backend[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+ [32mÔ£ô[39m src/__tests__/enterprise/state-management-fuzzing.test.ts [2m([22m[2m1721 tests[22m[2m)[22m[33m 557[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/data-integrity-fuzzing.test.ts [2m([22m[2m4270 tests[22m[2m)[22m[33m 572[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/ip-address-fuzzing.test.ts [2m([22m[2m3391 tests[22m[2m)[22m[33m 554[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/text-processing-fuzzing.test.ts [2m([22m[2m5108 tests[22m[2m)[22m[33m 705[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/string-manipulation-fuzzing.test.ts [2m([22m[2m5336 tests[22m[2m)[22m[33m 751[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/sanitization-fuzzing.test.ts [2m([22m[2m4331 tests[22m[2m)[22m[33m 550[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/xss-fuzzing.test.ts [2m([22m[2m6368 tests[22m[2m)[22m[33m 737[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/email-validation-fuzzing.test.ts [2m([22m[2m7142 tests[22m[2m)[22m[33m 889[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/date-time-fuzzing.test.ts [2m([22m[2m8844 tests[22m[2m)[22m[33m 1241[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/crypto-fuzzing.test.ts [2m([22m[2m2628 tests[22m[2m)[22m[33m 1908[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/async-operations-fuzzing.test.ts [2m([22m[2m290 tests[22m[2m)[22m[33m 3136[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/math-operations-fuzzing.test.ts [2m([22m[2m14830 tests[22m[2m)[22m[33m 1609[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/business-logic-fuzzing.test.ts [2m([22m[2m14745 tests[22m[2m)[22m[33m 1917[2mms[22m[39m
+node.exe : [90mstderr[2m | src/__tests__/integration/crypto-roundtrip.test.ts
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([90mstderr[2m...undtrip.test.ts:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/integration/crypto-roundtrip.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/SecurityHardening.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/SecurityHardening.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/integration/crypto-roundtrip.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/SecurityHardening.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/DefenseInDepth.test.ts[2m > [22m[2mmasterSecurityMiddleware[2m > [22m[2mshould allow normal requests
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/DefenseInDepth.test.ts[2m > [22m[2mmasterSecurityMiddleware[2m > [22m[2mshould allow normal requests
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/DefenseInDepth.test.ts[2m > [22m[2mmasterSecurityMiddleware[2m > [22m[2mshould allow normal requests
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/enterprise/password-security-fuzzing.test.ts [2m([22m[2m2061 tests[22m[2m)[22m[33m 497[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/format-validation-fuzzing.test.ts [2m([22m[2m2946 tests[22m[2m)[22m[33m 415[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/security/DefenseInDepth.test.ts [2m([22m[2m114 tests[22m[2m)[22m[33m 391[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/utils/crypto.test.ts [2m([22m[2m34 tests[22m[2m)[22m[33m 530[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/data-structure-fuzzing.test.ts [2m([22m[2m1552 tests[22m[2m)[22m[33m 448[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/comprehensive-validation-fuzzing.test.ts [2m([22m[2m6048 tests[22m[2m)[22m[33m 843[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/regex-fuzzing.test.ts [2m([22m[2m6858 tests[22m[2m)[22m[33m 643[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/DomainStressTests.test.ts [2m([22m[2m18 tests[22m[2m)[22m[33m 657[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/authentication-fuzzing.test.ts [2m([22m[2m3950 tests[22m[2m)[22m[33m 662[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/property-based-fuzzing.test.ts [2m([22m[2m25501 tests[22m[2m)[22m[33m 2899[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/file-system-fuzzing.test.ts [2m([22m[2m3854 tests[22m[2m)[22m[33m 416[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/url-validation-fuzzing.test.ts [2m([22m[2m3421 tests[22m[2m)[22m[33m 459[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/input-validation-fuzzing.test.ts [2m([22m[2m3700 tests[22m[2m)[22m[33m 444[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/algorithm-fuzzing.test.ts [2m([22m[2m3128 tests[22m[2m)[22m[33m 596[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/integration/crypto-roundtrip.test.ts [2m([22m[2m30 tests[22m[2m)[22m[33m 1928[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce same key with same password and salt [33m 475[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce different keys with different passwords [33m 570[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce different keys with different salts [33m 474[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/SGASAgents.test.ts [2m([22m[2m15 tests[22m[2m)[22m[33m 6610[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/uuid-validation-fuzzing.test.ts [2m([22m[2m3228 tests[22m[2m)[22m[33m 755[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/services/AdminServices.test.ts [2m([22m[2m26 tests[22m[2m)[22m[32m 216[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/event-handling-fuzzing.test.ts [2m([22m[2m2923 tests[22m[2m)[22m[33m 736[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/array-operations-fuzzing.test.ts [2m([22m[2m1860 tests[22m[2m)[22m[33m 853[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/object-operations-fuzzing.test.ts [2m([22m[2m2867 tests[22m[2m)[22m[33m 941[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/routes/health.routes.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 3278[2mms[22m[39m
+       [33m[2mÔ£ô[22m[39m should return system statuses [33m 3083[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/sql-injection-fuzzing.test.ts [2m([22m[2m4193 tests[22m[2m)[22m[33m 898[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/encoding-fuzzing.test.ts [2m([22m[2m1944 tests[22m[2m)[22m[33m 491[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/security-patterns-fuzzing.test.ts [2m([22m[2m2620 tests[22m[2m)[22m[33m 427[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/data-transformation-fuzzing.test.ts [2m([22m[2m1206 tests[22m[2m)[22m[32m 251[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/logic-operations-fuzzing.test.ts [2m([22m[2m1365 tests[22m[2m)[22m[32m 171[2mms[22m[39m
+[90mstderr[2m | src/__tests__/security/Honeypot.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/security/Honeypot.test.ts[2m > [22m[2mcreateCanaryToken[2m > [22m[2mshould create URL canary token
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/enterprise/validation-patterns-fuzzing.test.ts [2m([22m[2m2717 tests[22m[2m)[22m[33m 333[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/collection-operations-fuzzing.test.ts [2m([22m[2m846 tests[22m[2m)[22m[32m 126[2mms[22m[39m
+[90mstderr[2m | src/__tests__/security/Honeypot.test.ts[2m > [22m[2mcreateCanaryToken[2m > [22m[2mshould create URL canary token
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/routes/auth.routes.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/routes/auth.routes.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/security/Honeypot.test.ts [2m([22m[2m65 tests[22m[2m)[22m[32m 130[2mms[22m[39m
+[90mstderr[2m | src/__tests__/routes/auth.routes.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/services/SGAS.test.ts [2m([22m[2m30 tests[22m[2m)[22m[33m 2749[2mms[22m[39m
+       [33m[2mÔ£ô[22m[39m should produce deterministic results with same seed [33m 530[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should track trust delta through observer agents [33m 961[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/TestEvidenceLedgerService.test.ts [2m([22m[2m70 tests[22m[2m)[22m[33m 393[2mms[22m[39m
+       [33m[2mÔ£ô[22m[39m should return same instance [33m 341[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PostQuantumKMSService.test.ts [2m([22m[2m14 tests[22m[2m)[22m[33m 559[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PDFGeneratorService.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 272[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/cache-operations-fuzzing.test.ts [2m([22m[2m3687 tests[22m[2m)[22m[33m 564[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/backup-service.test.ts [2m([22m[2m884 tests[22m[2m)[22m[32m 167[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/serialization-fuzzing.test.ts [2m([22m[2m1501 tests[22m[2m)[22m[32m 216[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/numeric-operations-fuzzing.test.ts [2m([22m[2m3519 tests[22m[2m)[22m[33m 415[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/network-security-fuzzing.test.ts [2m([22m[2m1057 tests[22m[2m)[22m[32m 148[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/routes/marketing-studio.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 280[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/path-traversal-fuzzing.test.ts [2m([22m[2m1435 tests[22m[2m)[22m[32m 287[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts[2m > [22m[2mCognitiveBiasMitigationService[2m > [22m[2manalyzeDeliberation[2m > [22m[2mshould detect groupthink when unanimous vote with no dissent
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/configuration-fuzzing.test.ts [2m([22m[2m2175 tests[22m[2m)[22m[32m 288[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/utility-functions-fuzzing.test.ts [2m([22m[2m1624 tests[22m[2m)[22m[33m 377[2mms[22m[39m
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/login - Validation[2m > [22m[2mshould reject invalid email format
+[22m[39m2026-03-09 12:01:01 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"validation\": \"email\",\n    \"code\": \"invalid_string\",\n    \"message\": \"Invalid email format\",\n    \"path\": [\n      \"email\"\n    ]\n  }\n]","path":"/api/v1/auth/login","method":"POST"}
+ZodError: [
+  {
+    "validation": "email",
+    "code": "invalid_string",
+    "message": "Invalid email format",
+    "path": [
+      "email"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:55:45
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/login - Validation[2m > [22m[2mshould reject short password
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"too_small\",\n    \"minimum\": 8,\n    \"type\": \"string\",\n    \"inclusive\": true,\n    \"exact\": false,\n    \"message\": \"Password must be at least 8 characters\",\n    \"path\": [\n      \"password\"\n    ]\n  }\n]","path":"/api/v1/auth/login","method":"POST"}
+ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Password must be at least 8 characters",
+    "path": [
+      "password"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:55:45
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/login - Validation[2m > [22m[2mshould reject missing email
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"email\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/login","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "email"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:55:45
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/login - Validation[2m > [22m[2mshould reject missing password
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/login","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "password"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:55:45
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/login - Validation[2m > [22m[2mshould reject empty body
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"email\"\n    ],\n    \"message\": \"Required\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/login","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "email"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "password"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:55:45
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/register - Validation[2m > [22m[2mshould reject invalid email format
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"validation\": \"email\",\n    \"code\": \"invalid_string\",\n    \"message\": \"Invalid email format\",\n    \"path\": [\n      \"email\"\n    ]\n  }\n]","path":"/api/v1/auth/register","method":"POST"}
+ZodError: [
+  {
+    "validation": "email",
+    "code": "invalid_string",
+    "message": "Invalid email format",
+    "path": [
+      "email"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:221:72
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/register - Validation[2m > [22m[2mshould reject short password
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"too_small\",\n    \"minimum\": 8,\n    \"type\": \"string\",\n    \"inclusive\": true,\n    \"exact\": false,\n    \"message\": \"Password must be at least 8 characters\",\n    \"path\": [\n      \"password\"\n    ]\n  }\n]","path":"/api/v1/auth/register","method":"POST"}
+ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Password must be at least 8 characters",
+    "path": [
+      "password"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:221:72
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/register - Validation[2m > [22m[2mshould reject short name
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"too_small\",\n    \"minimum\": 2,\n    \"type\": \"string\",\n    \"inclusive\": true,\n    \"exact\": false,\n    \"message\": \"Name must be at least 2 characters\",\n    \"path\": [\n      \"name\"\n    ]\n  }\n]","path":"/api/v1/auth/register","method":"POST"}
+ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 2,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Name must be at least 2 characters",
+    "path": [
+      "name"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:221:72
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+ [32mÔ£ô[39m src/__tests__/enterprise/sentry-service.test.ts [2m([22m[2m414 tests[22m[2m)[22m[32m 167[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/refresh - Validation[2m > [22m[2mshould reject missing refresh token
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"refreshToken\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/refresh","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "refreshToken"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:339:44
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:582:12)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/refresh - Validation[2m > [22m[2mshould reject empty refresh token
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"type\": \"string\",\n    \"inclusive\": true,\n    \"exact\": false,\n    \"message\": \"Refresh token required\",\n    \"path\": [\n      \"refreshToken\"\n    ]\n  }\n]","path":"/api/v1/auth/refresh","method":"POST"}
+ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 1,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "Refresh token required",
+    "path": [
+      "refreshToken"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:339:44
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:582:12)
+
+ [32mÔ£ô[39m src/__tests__/services/dcii.test.ts [2m([22m[2m58 tests[22m[2m)[22m[33m 1458[2mms[22m[39m
+       [33m[2mÔ£ô[22m[39m should detect groupthink when unanimous vote with no dissent [33m 690[2mms[22m[39m
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/forgot-password - Validation[2m > [22m[2mshould reject invalid email format
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"validation\": \"email\",\n    \"code\": \"invalid_string\",\n    \"message\": \"Invalid email\",\n    \"path\": [\n      \"email\"\n    ]\n  }\n]","path":"/api/v1/auth/forgot-password","method":"POST"}
+ZodError: [
+  {
+    "validation": "email",
+    "code": "invalid_string",
+    "message": "Invalid email",
+    "path": [
+      "email"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:474:63
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/forgot-password - Validation[2m > [22m[2mshould reject missing email
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"email\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/forgot-password","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "email"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:474:63
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/reset-password - Validation[2m > [22m[2mshould reject short password
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"too_small\",\n    \"minimum\": 8,\n    \"type\": \"string\",\n    \"inclusive\": true,\n    \"exact\": false,\n    \"message\": \"String must contain at least 8 character(s)\",\n    \"path\": [\n      \"password\"\n    ]\n  }\n]","path":"/api/v1/auth/reset-password","method":"POST"}
+ZodError: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "exact": false,
+    "message": "String must contain at least 8 character(s)",
+    "path": [
+      "password"
+    ]
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:603:8
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/reset-password - Validation[2m > [22m[2mshould reject missing token
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"token\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/reset-password","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "token"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:603:8
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/crypto-validation-fuzzing.test.ts [2m([22m[2m1866 tests[22m[2m)[22m[33m 456[2mms[22m[39m
+[90mstdout[2m | src/__tests__/routes/auth.routes.test.ts[2m > [22m[2mAuth Routes Validation[2m > [22m[2mPOST /api/v1/auth/reset-password - Validation[2m > [22m[2mshould reject missing password
+[22m[39m2026-03-09 12:01:02 [[31merror[39m]: [31mUnhandled error:[39m {"error":"[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"password\"\n    ],\n    \"message\": \"Required\"\n  }\n]","path":"/api/v1/auth/reset-password","method":"POST"}
+ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "password"
+    ],
+    "message": "Required"
+  }
+]
+    at Object.get error [as error] (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:39:31)
+    at ZodObject.parse (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/zod/v3/types.js:114:22)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/routes/auth.ts:603:8
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/middleware/rateLimiter.ts:208:5
+    at Layer.handleRequest (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\router\index.js:435:11)
+
+ [32mÔ£ô[39m src/__tests__/enterprise/permission-validation-fuzzing.test.ts [2m([22m[2m2013 tests[22m[2m)[22m[32m 285[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/routes/auth.routes.test.ts [2m([22m[2m20 tests[22m[2m)[22m[33m 441[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/routes/platform-assistant.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 143[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_jurisdiction_assessments.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/CrossJurisdictionConflictService.ts:351:50
+
+  348 
+  349 private async persistAssessmentDb(assessment: CrossJurisdictionAssessment): Promise<void> {
+  350   try {
+ÔåÆ 351     await prisma.dcii_jurisdiction_assessments.upsert(
+Foreign key constraint violated on the constraint: `dcii_jurisdiction_assessments_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_similarity_decisions.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/DecisionSimilarityService.ts:320:46
+
+  317 
+  318 private async persistDecision(decision: DecisionRecord): Promise<void> {
+  319   try {
+ÔåÆ 320     await prisma.dcii_similarity_decisions.upsert(
+Foreign key constraint violated on the constraint: `dcii_similarity_decisions_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/dcii.test.ts
+[22m[39mprisma:error 
+Invalid `prisma.dcii_timestamp_tokens.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/TimestampAuthorityService.ts:273:42
+
+  270 
+  271 private async persistToken(token: TimestampToken): Promise<void> {
+  272   try {
+ÔåÆ 273     await prisma.dcii_timestamp_tokens.upsert(
+Foreign key constraint violated on the constraint: `dcii_timestamp_tokens_organization_id_fkey`
+
+[90mstdout[2m | Object.ku (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\@prisma\client\runtime\client.js:2:719)
+[22m[39mprisma:error 
+Invalid `prisma.dcii_iiss_scores.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/IISSService.ts:111:37
+
+  108 
+  109 private async persistScore(score: IISSScore): Promise<void> {
+  110   try {
+ÔåÆ 111     await prisma.dcii_iiss_scores.upsert(
+Foreign key constraint violated on the constraint: `dcii_iiss_scores_organization_id_fkey`
+
+[90mstdout[2m | Object.ku (C:\Users\Stu\Documents\datacendia-components\datacendia-components\node_modules\@prisma\client\runtime\client.js:2:719)
+[22m[39mprisma:error 
+Invalid `prisma.dcii_media_assets.upsert()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/dcii/SyntheticMediaAuthService.ts:279:38
+
+  276 
+  277 private async persistAsset(asset: MediaAsset): Promise<void> {
+  278   try {
+ÔåÆ 279     await prisma.dcii_media_assets.upsert(
+Foreign key constraint violated on the constraint: `dcii_media_assets_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/enterprise/json-operations-fuzzing.test.ts [2m([22m[2m1600 tests[22m[2m)[22m[33m 684[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/comprehensive-security-fuzzing.test.ts [2m([22m[2m1107 tests[22m[2m)[22m[32m 273[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/http-validation-fuzzing.test.ts [2m([22m[2m1273 tests[22m[2m)[22m[32m 259[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/vectordb-service.test.ts [2m([22m[2m785 tests[22m[2m)[22m[33m 314[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/KeyManagementService.test.ts [2m([22m[2m11 tests[22m[2m)[22m[33m 359[2mms[22m[39m
+       [33m[2mÔ£ô[22m[39m should rotate a key [33m 322[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/boundary-testing-fuzzing.test.ts [2m([22m[2m1255 tests[22m[2m)[22m[33m 344[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/middleware-fuzzing.test.ts [2m([22m[2m1642 tests[22m[2m)[22m[33m 419[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/rate-limiting-fuzzing.test.ts [2m([22m[2m1085 tests[22m[2m)[22m[32m 151[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/error-handling-fuzzing.test.ts [2m([22m[2m792 tests[22m[2m)[22m[32m 256[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/type-coercion-fuzzing.test.ts [2m([22m[2m618 tests[22m[2m)[22m[32m 110[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaOrbitService.test.ts [2m([22m[2m131 tests[22m[2m)[22m[32m 220[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/routes/env-config.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 329[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/command-injection-fuzzing.test.ts [2m([22m[2m616 tests[22m[2m)[22m[32m 95[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/SportsAgents.test.ts [2m([22m[2m296 tests[22m[2m)[22m[32m 157[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/BaseService.test.ts[2m > [22m[2mBaseService[2m > [22m[2msafeExecute()[2m > [22m[2mshould return failure for throwing operations
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[TestService] Operation failed[39m {"error":"Operation failed"}
+Error: Operation failed
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/BaseService.test.ts:128:15
+    at TestService.safeExecute (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/core/BaseService.ts:158:26)
+    at TestService.testSafeExecute (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/BaseService.test.ts:44:17)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/BaseService.test.ts:127:36
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:1653:37
+
+[90mstdout[2m | src/__tests__/services/BaseService.test.ts[2m > [22m[2mBaseService[2m > [22m[2msafeExecute()[2m > [22m[2mshould handle non-Error throws
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[TestService] Operation failed[39m {"error":"string error"}
+Error: string error
+    at TestService.safeExecute (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/core/BaseService.ts:161:54)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+ [32mÔ£ô[39m src/__tests__/services/ChronosAIService.test.ts [2m([22m[2m100 tests[22m[2m)[22m[32m 75[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaCommandService.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 112[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaWatchService.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 78[2mms[22m[39m
+[90mstdout[2m | src/__tests__/security/SecurityHardening.test.ts[2m > [22m[2mrequestSigningMiddleware[2m > [22m[2mshould call next() with valid signature headers
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31mCRITICAL_SECURITY_EVENT: THREAT_BLOCKED - {"type":"SQL_INJECTION","severity":"CRITICAL","details":"Potential SQL injection in body.input","timestamp":"2026-03-09T17:01:05.252Z","sourceIp":"192.168.1.1","userId":"test-user"}[39m
+
+ [32mÔ£ô[39m src/__tests__/services/BaseService.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 138[2mms[22m[39m
+[90mstdout[2m | src/__tests__/security/SecurityHardening.test.ts[2m > [22m[2mcreateAuditLog[2m > [22m[2mshould generate unique IDs
+[22m[39mprisma:error 
+Invalid `prisma?.audit_logs.create()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/security/SecurityHardening.ts:689:32
+
+  686 
+  687 // Persist security alert to database for security team dashboard and notification dispatch
+  688 try {
+ÔåÆ 689   await prisma?.audit_logs.create(
+Foreign key constraint violated on the constraint: `audit_logs_organization_id_fkey`
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2msaveDeliberation[2m > [22m[2mshould save a deliberation and return with ID
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:164:21
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/security/SecurityHardening.test.ts[2m > [22m[2mlogSecurityEvent[2m > [22m[2mshould log critical event
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31mCRITICAL_SECURITY_EVENT: THREAT_BLOCKED - {"sourceIp":"192.168.1.1","type":"SQL_INJECTION","severity":"CRITICAL"}[39m
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2msaveDeliberation[2m > [22m[2mshould store deliberation in cache
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:175:21
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2msaveDeliberation[2m > [22m[2mshould handle multiple deliberations for same organization
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:185:22
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2msaveDeliberation[2m > [22m[2mshould handle multiple deliberations for same organization
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:188:22
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould filter by status
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:216:7
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould filter by status
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:229:7
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould respect limit and offset
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:258:9
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould respect limit and offset
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:258:9
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould respect limit and offset
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:258:9
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould respect limit and offset
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:258:9
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberations[2m > [22m[2mshould respect limit and offset
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:258:9
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/security/SecurityHardening.test.ts[2m > [22m[2mlogSecurityEvent[2m > [22m[2mshould log critical event
+[22m[39mprisma:error 
+Invalid `prisma?.audit_logs.create()` invocation in
+C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/security/SecurityHardening.ts:689:32
+
+  686 
+  687 // Persist security alert to database for security team dashboard and notification dispatch
+  688 try {
+ÔåÆ 689   await prisma?.audit_logs.create(
+Foreign key constraint violated on the constraint: `audit_logs_organization_id_fkey`
+
+ [32mÔ£ô[39m src/__tests__/services/EchoService.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 45[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgetDeliberation[2m > [22m[2mshould find deliberation across organizations
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:297:21
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgenerateExecutiveSummary[2m > [22m[2mshould generate summary with LLM response
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:331:21
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+ [32mÔ£ô[39m src/__tests__/services/CendiaHorizonService.test.ts [2m([22m[2m33 tests[22m[2m)[22m[32m 74[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/DeliberationService.test.ts[2m > [22m[2mDeliberationService[2m > [22m[2mgenerateExecutiveSummary[2m > [22m[2mshould use fallback extraction when LLM fails
+[22m[39m2026-03-09 12:01:05 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/DeliberationService.test.ts:380:21
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+ [32mÔ£ô[39m src/__tests__/services/CendiaCascadeService.test.ts [2m([22m[2m141 tests[22m[2m)[22m[32m 64[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/DeliberationService.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 218[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/security/SecurityHardening.test.ts [2m([22m[2m104 tests[22m[2m)[22m[33m 11303[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce same key with same password and salt [33m 484[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce different keys with different passwords [33m 483[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce different keys with different salts [33m 651[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should hash a password [33m 560[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should produce different hashes for same password [33m 1044[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should verify correct password [33m 1133[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should reject incorrect password [33m 1035[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should handle empty password [33m 989[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should handle unicode passwords [33m 1128[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should generate RSA key pair [33m 516[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should reject signature with wrong public key [33m 1269[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should call next() with valid signature headers [33m 431[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mFull Deliberation Flow[2m > [22m[2mshould complete a full deliberation cycle
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:118:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+ [32mÔ£ô[39m src/__tests__/security/KeycloakAuth.test.ts [2m([22m[2m29 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mFull Deliberation Flow[2m > [22m[2mshould handle deliberation with no cross-examinations
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:194:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/security/PolicyEngine.test.ts[2m > [22m[2mPolicyEngine[2m > [22m[2menforce[2m > [22m[2mshould return boolean for admin access
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[PolicyEngine] Enforcement error:[39m
+
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mFull Deliberation Flow[2m > [22m[2mshould handle in-progress deliberation
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:222:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/security/PolicyEngine.test.ts[2m > [22m[2mPolicyEngine[2m > [22m[2menforceMultiple[2m > [22m[2mshould check multiple permissions at once
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[PolicyEngine] Enforcement error:[39m
+
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mCouncil Modes[2m > [22m[2mshould support executive council mode
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:320:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mCouncil Modes[2m > [22m[2mshould support financial council mode
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:339:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mCouncil Modes[2m > [22m[2mshould support technology council mode
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:358:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+ [32mÔ£ô[39m src/__tests__/services/CendiaRecallServiceDeep.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 53[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mCouncil Modes[2m > [22m[2mshould support risk council mode
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:377:28
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+ [32mÔ£ô[39m src/__tests__/security/PolicyEngine.test.ts [2m([22m[2m41 tests[22m[2m)[22m[32m 140[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/FederatedMeshService.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 56[2mms[22m[39m
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mMulti-Organization Isolation[2m > [22m[2mshould isolate deliberations by organization
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:403:7
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+[90mstdout[2m | src/__tests__/services/CouncilFlow.test.ts[2m > [22m[2mCouncil Deliberation Flow[2m > [22m[2mMulti-Organization Isolation[2m > [22m[2mshould isolate deliberations by organization
+[22m[39m2026-03-09 12:01:06 [[31merror[39m]: [31m[Chronos] Background record failed: Cannot read properties of undefined (reading 'create')[39m
+TypeError: Cannot read properties of undefined (reading 'create')
+    at ChronosEventBus.persistEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:848:48)
+    at ChronosEventBus.record (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:195:10)
+    at recordChronosEvent (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/ChronosEventBus.ts:923:19)
+    at DeliberationService.saveDeliberation (C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/services/DeliberationService.ts:217:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:/Users/Stu/Documents/datacendia-components/datacendia-components/backend/src/__tests__/services/CouncilFlow.test.ts:416:7
+    at file:///C:/Users/Stu/Documents/datacendia-components/datacendia-components/node_modules/@vitest/runner/dist/index.js:915:20
+
+ [32mÔ£ô[39m src/__tests__/services/CouncilFlow.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 73[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaPanopticonService.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/SCGE.test.ts [2m([22m[2m33 tests[22m[2m)[22m[32m 48[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaOmniTranslateService.test.ts [2m([22m[2m140 tests[22m[2m)[22m[32m 53[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/SportsDecisionService.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 159[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/SportsKnowledgeBase.test.ts [2m([22m[2m52 tests[22m[2m)[22m[32m 47[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaAuditService.test.ts [2m([22m[2m84 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaSentryService.test.ts [2m([22m[2m107 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/security/headers.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+[90mstdout[2m | src/__tests__/security/audit.service.test.ts[2m > [22m[2mAuditService[2m > [22m[2mlog[2m > [22m[2mshould log critical severity event and trigger alert
+[22m[39m2026-03-09 12:01:07 [[31merror[39m]: [31m[Audit] security.unauthorized_access:[39m {"user":"attacker-1","resource":"admin_panel:admin","outcome":"failure"}
+2026-03-09 12:01:07 [[31merror[39m]: [31m[SECURITY ALERT][39m
+
+ [32mÔ£ô[39m src/__tests__/services/CendiaOracleService.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 112[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/DecisionService.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 26[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/security/audit.service.test.ts [2m([22m[2m36 tests[22m[2m)[22m[32m 175[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/integration/deliberation-flow.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 65[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/ChronosEventBusDeep.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 60[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaProcureService.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 49[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaRewindServiceDeep.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 50[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/EvidenceExportReplay.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/enterprise/api-security-fuzzing.test.ts [2m([22m[2m243 tests[22m[2m)[22m[32m 47[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/LLMServicesDeep.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 49[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaRegentService.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/SportsValidation.test.ts [2m([22m[2m104 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/routes/api-smoke.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 84[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/compliance/ComplianceFrameworks.test.ts [2m([22m[2m34 tests[22m[2m)[22m[32m 26[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/security/errorHandler.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 50[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CollapseAgents.test.ts [2m([22m[2m29 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaGuardianService.test.ts [2m([22m[2m75 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/sovereign/CendiaBlackBox.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/VerticalBusinessLogicDeep.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/compliance/ComplianceExport.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/panopticon.test.ts [2m([22m[2m29 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/routes/vertical-council.test.ts [2m([22m[2m35 tests[22m[2m)[22m[32m 43[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaAegisService.test.ts [2m([22m[2m110 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaApotheosisService.test.ts [2m([22m[2m114 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaCrucibleService.test.ts [2m([22m[2m102 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/DecisionLifecycle.test.ts [2m([22m[2m30 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/Collapse.test.ts [2m([22m[2m44 tests[22m[2m)[22m[32m 162[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaDissentService.test.ts [2m([22m[2m109 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PresidioPIIService.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/EnterpriseServicesDeep.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/security/auth.middleware.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/utils/RuleEngine.test.ts [2m([22m[2m38 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/EnterpriseServicesDeep.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/EnterpriseServicesDeep.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/services/GnosisServiceDeep.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaNarrativesService.test.ts [2m([22m[2m104 tests[22m[2m)[22m[32m 26[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/SecurityServices.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 101[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/HumanInTheLoop.test.ts [2m([22m[2m26 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaVoxService.test.ts [2m([22m[2m96 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PromptVersioningService.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/MonteCarloEngine.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 41[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaEternalService.test.ts [2m([22m[2m70 tests[22m[2m)[22m[32m 19[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/EvidenceVaultService.test.ts [2m([22m[2m29 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaFactoryService.test.ts [2m([22m[2m51 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sovereign/LocalRLHFService.test.ts [2m([22m[2m72 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaAcademyService.test.ts [2m([22m[2m89 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sports/GovernanceAbusePrevention.test.ts [2m([22m[2m50 tests[22m[2m)[22m[32m 57[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/routes/sports.test.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 58[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaSymbiontService.test.ts [2m([22m[2m84 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/AdversarialRedTeamService.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/security/InputValidation.test.ts [2m([22m[2m35 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/SSOService.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/DeliberationVisualizationService.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/InfraServicesDeep.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sovereign/DataDiodeService.test.ts [2m([22m[2m66 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaNerveService.test.ts [2m([22m[2m59 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaEquityService.test.ts [2m([22m[2m63 tests[22m[2m)[22m[32m 19[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaPanopticonDeep.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/EnterpriseServicesDeep.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 26[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/compliance/ComplianceEnforcement.test.ts [2m([22m[2m24 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/security/auth.routes.test.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sovereign/TimeLockService.test.ts [2m([22m[2m62 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/sovereign/CendiaMirage.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/BaseServiceDeep.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaRainmakerService.test.ts [2m([22m[2m58 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/DefenseVerticalService.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sovereign/TPMAttestationService.test.ts [2m([22m[2m55 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaTransitService.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CrossJurisdictionEngineService.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PillarServices.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaHabitatService.test.ts [2m([22m[2m51 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaDocketService.test.ts [2m([22m[2m61 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/enterprise/CendiaScoutService.test.ts [2m([22m[2m65 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sovereign/CanaryTripwireService.test.ts [2m([22m[2m60 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaResonanceService.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/security/Authentication.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PillarServicesDeep.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/RegulatorsReceiptService.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/features/GhostBoard.test.ts [2m([22m[2m66 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/EnterpriseRedTeamService.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/apotheosis.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/sovereign/DecisionDNAService.test.ts [2m([22m[2m36 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CouncilService.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/ContinuousComplianceMonitorService.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaZeroCoverageDeep.test.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/LegalAgents.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/security/PolicyEngine.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/verticals.test.ts [2m([22m[2m460 tests[22m[2m)[22m[33m 24606[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/FeatureControlService.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaResponsibilityService.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/VerticalConfigService.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaEnterpriseServices.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/PlatformServices.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/PlatformServices.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/PlatformServices.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/services/CarbonAwareSchedulerService.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaSupportService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/EnhancedLLMService.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/VerticalAgentsService.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/services/LLMServices.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/VerticalAgentsService.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/VerticalAgentsService.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/EnhancedLLMService.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/EnhancedLLMService.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/services/VerticalAgentsService.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/LegalCouncilModes.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaGatewayService.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaGovernService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/EnterpriseSchedulerService.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaNexusService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaPredictService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/CendiaInventumService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/EnhancedLLMService.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/ComplianceDashboardService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/EvidenceExportService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PlatformServices.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/StrategicServices.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [32mÔ£ô[39m src/__tests__/services/CendiaMeshService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+[90mstderr[2m | src/__tests__/services/StrategicServices.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+[90mstderr[2m | src/__tests__/services/StrategicServices.test.ts
+[22m[39m[WARN] This Redis server's `default` user does not require a password, but a password was supplied
+
+ [2m[90mÔåô[39m[22m src/__tests__/integration/api.test.ts [2m([22m[2m24 tests[22m[2m | [22m[33m24 skipped[39m[2m)[22m
+ [32mÔ£ô[39m src/__tests__/services/StrategicServices.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m src/__tests__/services/PostDeliberationService.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m205 passed[39m[22m[2m | [22m[33m1 skipped[39m[90m (206)[39m
+[2m      Tests [22m [1m[32m204763 passed[39m[22m[2m | [22m[33m24 skipped[39m[90m (204787)[39m
+[2m   Start at [22m 12:00:48
+[2m   Duration [22m 35.22s[2m (transform 198.79s, setup 17.72s, import 260.11s, tests 97.19s, environment 73ms)[22m
+
+[34m % [39m[2mCoverage report from [22m[33mv8[39m
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   35.21 |    21.12 |    32.8 |   37.54 |                   
+ config            |   48.63 |    48.83 |   25.58 |   48.95 |                   
+  aiModels.ts      |   41.26 |     62.5 |   22.22 |   41.93 | ...13,425,456-532 
+  database.ts      |     100 |     62.5 |     100 |     100 | 25-30,38          
+  index.ts         |      80 |    38.88 |     100 |   79.16 | 95,132-136        
+  redis.ts         |      34 |        0 |   14.28 |   34.69 | ...07,111,119-133 
+ config/sports     |   64.51 |        0 |      40 |   69.23 |                   
+  ...frameworks.ts |      50 |        0 |   33.33 |   53.33 | 445-461           
+  ...-templates.ts |   84.61 |      100 |      50 |    90.9 | 1023              
+ connectors        |       0 |        0 |       0 |       0 |                   
+  BaseConnector.ts |       0 |        0 |       0 |       0 | 93-160            
+ connectors/core   |       0 |        0 |       0 |       0 |                   
+  OAuth2Service.ts |       0 |        0 |       0 |       0 | 52-285            
+ ...ors/enterprise |       0 |        0 |       0 |       0 |                   
+  ...yConnector.ts |       0 |        0 |       0 |       0 | 62-276            
+ core/services     |    62.9 |    72.72 |   62.16 |    61.2 |                   
+  BaseService.ts   |    62.9 |    72.72 |   62.16 |    61.2 | ...39-359,374-384 
+ lib               |       0 |        0 |       0 |       0 |                   
+  prisma.ts        |       0 |        0 |       0 |       0 |                   
+ middleware        |   70.52 |       60 |   68.96 |   70.93 |                   
+  auth.ts          |   56.25 |    54.28 |   41.66 |   56.96 | ...04-312,319-325 
+  errorHandler.ts  |     100 |    94.73 |     100 |     100 | 132               
+  rateLimiter.ts   |      75 |    47.22 |   71.42 |      75 | ...51-160,244-249 
+ routes            |   52.47 |    38.33 |   61.53 |   52.51 |                   
+  auth.ts          |   20.74 |        0 |   22.72 |   20.96 | ...67-718,727-764 
+  env-config.ts    |   52.99 |    53.62 |   64.28 |   53.92 | ...57-270,284-288 
+  health.ts        |   81.11 |    61.53 |   78.57 |   84.33 | ...20,331-332,355 
+  ...ing-studio.ts |   77.41 |    45.16 |     100 |   76.92 | ...74-277,295-296 
+  ...-assistant.ts |   78.94 |    68.75 |     100 |   77.14 | ...62-363,411-412 
+ security          |   66.54 |    57.02 |   86.98 |   67.86 |                   
+  ...nseInDepth.ts |   28.57 |    18.91 |      44 |   30.18 | ...17-836,852-867 
+  Honeypot.ts      |   74.15 |    69.56 |   91.66 |   74.15 | ...90-391,399-439 
+  KeycloakAuth.ts  |   67.18 |    61.11 |   82.35 |   66.07 | ...38-141,178-217 
+  PolicyEngine.ts  |   88.09 |    75.67 |     100 |   95.83 | 189-190,199       
+  ...yHardening.ts |   79.43 |    65.38 |   97.14 |   80.19 | ...66-584,810,854 
+  audit.service.ts |   98.91 |    97.01 |     100 |    98.8 | 214               
+  headers.ts       |     100 |      100 |     100 |     100 |                   
+ services          |   26.92 |    17.58 |   27.47 |   28.17 |                   
+  ...gisService.ts |    3.55 |      2.5 |    9.09 |    3.96 | ...0,365,395-1697 
+  ...sisService.ts |    5.93 |     1.99 |    5.26 |    6.87 | ...1959,1974-2010 
+  ...ditService.ts |    9.76 |    11.11 |    6.66 |    11.3 | ...5-806,841-1223 
+  ...adeService.ts |   49.02 |    29.12 |   30.95 |   54.79 | ...03-906,921-958 
+  ...bleService.ts |    1.71 |     1.08 |    3.63 |    1.98 | ...-984,1040-2676 
+  ...zonService.ts |   94.24 |     70.7 |   95.45 |   95.79 | ...1858-1861,1876 
+  ...ateService.ts |    4.52 |      4.1 |       0 |    4.67 | 204-1444          
+  ...bitService.ts |   20.86 |      6.1 |   22.22 |   22.11 | ...36-639,654-691 
+  ...conService.ts |   19.07 |     3.04 |   24.65 |   20.36 | ...2-571,582-1399 
+  ...ictService.ts |    8.41 |        2 |    9.25 |     9.5 | ...1091-1094,1109 
+  ...allService.ts |   75.47 |    49.17 |   66.66 |   80.82 | ...84-687,702-730 
+  ...ityService.ts |    4.43 |     0.51 |    2.73 |    5.03 | ...1088,1103-1140 
+  ...indService.ts |   71.06 |    58.75 |   84.61 |   74.25 | ...8,983-986,1001 
+  ...tryService.ts |   11.44 |     3.72 |   12.32 |   12.53 | ...1434-1437,1452 
+  ...sAIService.ts |   67.64 |    66.66 |   88.23 |   67.64 | ...79,382,387-396 
+  ...osEventBus.ts |   58.06 |    29.13 |    37.5 |   66.11 | ...10-825,896-901 
+  ...ionService.ts |   14.91 |    10.34 |    12.5 |   15.92 | ...59,874-877,892 
+  ...ionService.ts |   57.48 |    52.47 |   46.34 |   58.55 | ...77,797-800,815 
+  ...ventStream.ts |   44.08 |    33.33 |    38.7 |   50.64 | ...05,319-321,331 
+  ...LLMService.ts |    8.41 |     4.54 |    6.66 |    9.52 | ...1053-1056,1071 
+  ...aryService.ts |    9.09 |     6.89 |    9.09 |    9.25 | ...81-483,507-568 
+  ...ionService.ts |    4.49 |        0 |    3.22 |    4.76 | 105-262,286-548   
+  ...ionService.ts |     5.8 |     2.53 |   10.52 |    6.12 | ...82-185,199-644 
+  ...ionService.ts |    7.33 |     1.44 |    6.89 |    8.14 | ...8,988-991,1006 
+  ...ctsService.ts |    6.69 |        3 |    6.06 |    7.42 | ...04,819-822,837 
+  ...ntsService.ts |   12.38 |     2.43 |    5.88 |    13.4 | ...1196-1199,1214 
+  echoService.ts   |   36.18 |    19.68 |   42.85 |   38.92 | ...1355-1358,1373 
+  email.ts         |   58.33 |    53.84 |      75 |   58.33 | ...67-289,327-330 
+  gnosisService.ts |   63.44 |    31.68 |    64.7 |   66.08 | ...65,886-889,904 
+  ollama.ts        |     100 |      100 |     100 |     100 |                   
+  ...-svc-types.ts |     100 |      100 |     100 |     100 |                   
+ services/admin    |   37.84 |    20.17 |   42.23 |    40.2 |                   
+  ...ngsService.ts |   22.09 |    21.27 |   46.15 |   21.79 | ...51-152,185-277 
+  ...rolService.ts |   51.18 |    31.53 |   49.23 |   56.16 | ...1318-1321,1336 
+  ...nseService.ts |    12.9 |     9.37 |   16.66 |   14.03 | ...80-464,496-508 
+  ...lthService.ts |   60.92 |     38.7 |   65.71 |    63.5 | ...18,548-551,566 
+  TenantService.ts |   19.04 |     9.52 |   17.39 |   20.83 | ...21-426,458-507 
+  ...entService.ts |      35 |    11.11 |   39.13 |   37.22 | ...76,691-694,709 
+ ...ces/apotheosis |     100 |      100 |     100 |     100 |                   
+  types.ts         |     100 |      100 |     100 |     100 |                   
+ services/backup   |    12.3 |    25.27 |   13.15 |   12.97 |                   
+  ...kupService.ts |    12.3 |    25.27 |   13.15 |   12.97 | ...76,596-599,614 
+ services/collapse |   95.59 |    83.33 |   96.42 |   95.45 |                   
+  ...chestrator.ts |    91.9 |    73.33 |   94.11 |   91.61 | ...90,505-520,619 
+  types.ts         |     100 |      100 |     100 |     100 |                   
+ ...ollapse/agents |   87.54 |    67.52 |     100 |   97.15 |                   
+  ...AbuseAgent.ts |     100 |       90 |     100 |     100 | 169               
+  ...lapseAgent.ts |   97.61 |    77.77 |     100 |     100 | 155-204           
+  ...asureAgent.ts |   77.27 |    63.26 |     100 |   94.11 | 59,99             
+  ...osionAgent.ts |   94.73 |    85.71 |     100 |   97.05 | 79                
+  ...mpactAgent.ts |   77.08 |    62.26 |     100 |   97.22 | 79                
+  ...ationAgent.ts |   82.22 |    71.73 |     100 |   94.44 | 79,99             
+  ...ilityAgent.ts |     100 |      100 |     100 |     100 |                   
+  ...alityAgent.ts |      75 |    68.33 |     100 |   94.44 | 80,100            
+  ...ationAgent.ts |   74.46 |    57.14 |     100 |   91.89 | 59,79,99          
+  ...llingAgent.ts |   87.09 |     77.5 |     100 |      94 | 86,128,149        
+  ...ationAgent.ts |   80.85 |    61.53 |     100 |   94.59 | 79,99             
+  ...lapseAgent.ts |   95.83 |    54.54 |     100 |     100 | 93-188            
+  ...rtionAgent.ts |   79.59 |    71.42 |     100 |   94.73 | 80,100            
+  ...yHarmAgent.ts |     100 |    66.66 |     100 |     100 | 78,96-100,122-136 
+  ...ationAgent.ts |     100 |       75 |     100 |     100 | 196               
+  ...klashAgent.ts |     100 |    83.33 |     100 |     100 | 125               
+  ...sticeAgent.ts |      75 |    54.76 |     100 |     100 | 58-156            
+  ...cRiskAgent.ts |   97.36 |    92.85 |     100 |   97.29 | 140               
+  ...DecayAgent.ts |     100 |       50 |     100 |     100 | 119               
+  index.ts         |       0 |        0 |       0 |       0 |                   
+ services/command  |   64.78 |    41.37 |   54.54 |   70.49 |                   
+  ...andService.ts |   64.78 |    41.37 |   54.54 |   70.49 | ...1094,1109-1146 
+ ...ces/compliance |   30.93 |     6.29 |   37.03 |   33.46 |                   
+  ...torService.ts |   34.45 |     8.64 |   36.66 |   38.75 | ...68,583-586,601 
+  ...ineService.ts |   26.92 |     3.22 |    37.5 |   27.73 | ...01,716-719,734 
+ services/core     |   30.33 |    19.23 |   26.13 |   33.57 |                   
+  BaseService.ts   |   71.42 |    86.36 |   66.66 |   70.73 | ...09-225,241-245 
+  ...andService.ts |    7.49 |     4.28 |    4.49 |    9.62 | ...86-889,904-932 
+  ...dryService.ts |    8.57 |     3.75 |    3.52 |   10.28 | ...41-944,959-996 
+  ...nueService.ts |   12.05 |     7.14 |    6.12 |   14.48 | ...69-872,887-924 
+  ...ortService.ts |    3.89 |     0.27 |       5 |    4.57 | ...1079-1082,1097 
+  ...tchService.ts |      73 |       49 |   58.74 |   83.36 | ...1520-1523,1538 
+ services/council  |   16.61 |    13.88 |   26.66 |   17.77 |                   
+  ...ketService.ts |    4.16 |        0 |   11.11 |    4.25 | ...38-242,264-537 
+  ...cilService.ts |    17.5 |     7.04 |   29.68 |   19.54 | ...1544-1547,1562 
+  ...olExecutor.ts |    8.16 |     6.45 |   27.27 |    8.69 | ...62-338,377-419 
+  ...ingService.ts |   34.78 |    60.86 |   33.33 |   34.37 | 121-122,183-334   
+ services/crucible |    44.3 |    24.25 |   42.14 |   47.64 |                   
+  ...eamService.ts |   26.59 |    11.17 |   28.57 |   29.11 | ...1472-1475,1490 
+  ...arloEngine.ts |   73.79 |    44.82 |   83.33 |   78.29 | ...80-382,394-411 
+  ...ityService.ts |   26.08 |     1.96 |   22.58 |   28.43 | ...84,599-602,617 
+  SBOMService.ts   |   70.83 |    55.55 |   58.82 |   76.19 | ...46,394,404-471 
+ services/dcii     |   75.96 |    59.52 |    69.5 |   78.83 |                   
+  ...ionService.ts |    77.2 |    69.53 |   60.71 |   80.37 | ...29,644-647,662 
+  ...ictService.ts |   72.67 |       65 |   60.34 |    77.7 | ...40,855-858,873 
+  ...ityService.ts |   74.02 |    56.93 |   72.04 |   76.66 | ...1116-1119,1134 
+  IISSService.ts   |   84.05 |    63.22 |   76.59 |   84.76 | ...14,829-832,847 
+  ...uthService.ts |   71.85 |    51.39 |   78.94 |   74.02 | ...43,958-961,976 
+  ...ityService.ts |   79.23 |    56.52 |   63.15 |   81.92 | ...58,773-776,791 
+  iiss-types.ts    |   69.23 |     61.9 |     100 |   88.88 | 298,306           
+ services/document |   65.34 |    40.78 |   64.61 |   65.37 |                   
+  ...torService.ts |   65.34 |    40.78 |   64.61 |   65.37 | ...1576,1601-1607 
+ ...ces/enterprise |    26.9 |    18.08 |   26.19 |   30.69 |                   
+  ...tumService.ts |    5.11 |     0.29 |    6.08 |     6.1 | ...1165-1168,1183 
+  ...eshService.ts |    7.57 |     0.37 |   10.76 |    9.03 | ...1137-1140,1155 
+  ...xusService.ts |    8.73 |     3.44 |    4.65 |    9.79 | ...4-985,990-1002 
+  ...ureService.ts |   68.68 |    49.62 |   56.41 |    76.6 | ...16,540-543,558 
+  ...entService.ts |   82.19 |     62.5 |   70.42 |    92.1 | ...39-742,757,794 
+  ...nceService.ts |   18.19 |    14.23 |   14.14 |   23.97 | ...1089,1104-1140 
+  ...sitService.ts |   25.41 |    21.13 |    20.9 |   30.92 | ...1086,1101-1137 
+  SSOService.ts    |   44.54 |    24.24 |   52.38 |      48 | ...47,455,461-516 
+  ...figService.ts |   29.33 |     8.64 |   45.65 |   27.55 | ...25,745-748,763 
+ services/evidence |    3.23 |     1.94 |    5.23 |    3.49 |                   
+  ...ardService.ts |    0.33 |        0 |    1.81 |    0.37 | 307-1002          
+  ...ortService.ts |       0 |        0 |    2.22 |       0 | 161-1253          
+  ...ortService.ts |       0 |        0 |    1.81 |       0 | 153-934           
+  ...gerService.ts |   10.42 |     6.12 |   14.54 |    11.2 | ...1161-1164,1179 
+ services/express  |    4.93 |        0 |    7.69 |     5.4 |                   
+  ...essService.ts |    1.81 |        0 |       0 |    2.04 | 78-204            
+  ...nceService.ts |   11.53 |        0 |      25 |      12 | 176-300           
+ services/gateway  |   21.28 |     7.01 |   16.86 |   23.23 |                   
+  ...wayService.ts |    4.11 |        0 |    4.83 |    4.66 | 76-654,701-1136   
+  PIIDetector.ts   |   54.09 |     3.57 |      50 |   58.49 | ...49-254,283-301 
+  ...PIIService.ts |   69.41 |    51.61 |      60 |      75 | ...18-319,329-336 
+  ...-svc-types.ts |      80 |      100 |   33.33 |      80 | 310-314           
+ services/i18n     |    8.22 |     1.51 |    4.16 |    8.78 |                   
+  ...ionService.ts |    8.22 |     1.51 |    4.16 |    8.78 | 420-447,452-818   
+ ...ices/inference |    5.22 |     4.82 |    5.15 |    6.11 |                   
+  ...icProvider.ts |    5.55 |     8.51 |       0 |    6.15 | 39-233            
+  ...nceService.ts |   17.97 |    14.28 |   11.11 |   20.51 | ...14-150,161-253 
+  NIMProvider.ts   |       0 |        0 |       0 |       0 | 63-316            
+  ...maProvider.ts |    6.87 |     4.58 |    12.5 |     8.8 | 75-95,112-315     
+  ...AIProvider.ts |    3.61 |    10.34 |       0 |    3.89 | 40-255            
+  ...onProvider.ts |       0 |        0 |       0 |       0 | 78-343            
+ services/legal    |   16.14 |     2.96 |   10.29 |   18.02 |                   
+  ...dgeService.ts |   13.26 |     2.32 |     8.1 |    14.2 | ...32-835,850-862 
+  ...ernService.ts |    15.7 |     4.06 |    12.5 |   17.14 | ...1014-1017,1032 
+  ...etoService.ts |   21.52 |     4.61 |   16.66 |   23.13 | ...61-664,679-691 
+  LegalAgents.ts   |    9.37 |        0 |     3.7 |    12.5 | ...1002,1126-1309 
+  ...uncilModes.ts |   47.05 |      100 |      10 |   61.53 | 972-1000          
+ services/llm      |   32.92 |     26.8 |   29.16 |   33.03 |                   
+  ...ingService.ts |   70.87 |       55 |   66.66 |   72.22 | ...44,267-270,285 
+  LLMCache.ts      |    5.71 |        0 |       0 |    6.06 | 58-200            
+  RAGService.ts    |    5.55 |     9.09 |      10 |    6.12 | ...83-231,244-374 
+ services/metrics  |     8.4 |      1.2 |    8.69 |     9.9 |                   
+  ...icsService.ts |     8.4 |      1.2 |    8.69 |     9.9 | ...66,386-389,404 
+ ...ces/panopticon |     100 |      100 |     100 |     100 |                   
+  frameworks.ts    |     100 |      100 |     100 |     100 |                   
+ services/pillars  |   12.65 |    10.57 |    12.9 |    14.8 |                   
+  EthicsService.ts |    9.83 |     1.45 |    6.25 |   11.53 | ...53-181,197-673 
+  FlowService.ts   |    7.64 |     1.84 |    8.23 |    8.59 | ...22,837-840,855 
+  GuardService.ts  |   19.17 |     21.5 |   13.72 |   23.14 | ...40-287,321-645 
+  HealthService.ts |   34.69 |    48.14 |   26.08 |   36.36 | ...30-258,291-312 
+  ...ageService.ts |   11.78 |    11.11 |   18.86 |   14.87 | ...84-435,473-692 
+  ...ictService.ts |   16.52 |    23.17 |   17.64 |    19.6 | ...72-413,449-461 
+ services/scge     |   59.33 |    44.96 |      50 |   59.29 |                   
+  ...ionService.ts |   41.86 |    22.58 |   44.44 |   43.37 | ...55,269,283-327 
+  ...ionService.ts |   51.53 |    38.75 |   51.72 |   53.22 | ...27,442-445,460 
+  ...chestrator.ts |    1.78 |        0 |       0 |    1.91 | 57-66,82-706      
+  ...aryService.ts |   80.41 |    63.15 |   69.56 |   79.77 | ...53-354,357-358 
+  ...ionService.ts |   91.07 |    77.41 |   81.81 |    90.9 | ...46,450,471-473 
+  index.ts         |       0 |        0 |       0 |       0 |                   
+  types.ts         |     100 |     97.5 |     100 |     100 | 590               
+ ...ices/scheduler |       7 |     0.63 |    3.84 |     7.5 |                   
+  ...lerService.ts |       7 |     0.63 |    3.84 |     7.5 | ...5,990-993,1008 
+ ...ces/scheduling |   37.24 |    21.62 |   47.61 |   39.84 |                   
+  ...lerService.ts |   37.24 |    21.62 |   47.61 |   39.84 | ...89-434,459-516 
+ services/security |   29.36 |    20.53 |   32.71 |   30.06 |                   
+  ...entService.ts |   29.82 |    21.09 |   42.22 |   29.79 | ...1243-1246,1261 
+  MFAService.ts    |   17.24 |       14 |   26.31 |   17.48 | ...94,414,421-463 
+  ...KMSService.ts |   52.98 |    37.28 |      45 |   56.45 | ...90,605-608,623 
+  ...oofService.ts |   16.39 |     2.27 |    8.69 |   17.85 | ...92,607-610,625 
+ ...curity/groth16 |   10.34 |     3.57 |   10.52 |    12.6 |                   
+  ...oofService.ts |   10.34 |     3.57 |   10.52 |    12.6 | ...44,464-467,482 
+ services/sgas     |      84 |    59.21 |   81.03 |    86.2 |                   
+  ...ntsService.ts |    90.3 |    56.52 |   88.63 |   91.89 | ...1087-1090,1105 
+  ...ntsService.ts |   79.53 |     53.4 |   81.81 |   82.46 | ...57,972-975,990 
+  ...ntsService.ts |   78.28 |    60.18 |      68 |   79.67 | ...1189-1192,1207 
+  ...ntsService.ts |   57.36 |    30.06 |   54.38 |   62.84 | ...1115-1118,1133 
+  ...ntsService.ts |   82.55 |     60.5 |      90 |   86.72 | ...1150-1153,1168 
+  ...chestrator.ts |   89.84 |    66.66 |   83.78 |   90.16 | ...67,730-744,821 
+  index.ts         |       0 |        0 |       0 |       0 |                   
+  types.ts         |     100 |      100 |     100 |     100 |                   
+ ...ices/sovereign |   31.72 |    16.03 |   28.54 |   34.37 |                   
+  ...BoxService.ts |   68.89 |    38.63 |    54.9 |   73.93 | ...96-699,714-727 
+  ...assService.ts |   18.43 |     7.05 |   14.63 |   20.88 | ...83-586,601-614 
+  ...KeyService.ts |   20.27 |     7.09 |    11.9 |   23.43 | ...44-647,662-675 
+  ...acyService.ts |   12.73 |     3.57 |    3.77 |   15.34 | ...97-600,615-628 
+  ...ageService.ts |   83.15 |    56.09 |    82.5 |   90.79 | ...07-610,625-638 
+  ...rorService.ts |   17.87 |    11.49 |   20.58 |   19.63 | ...28-531,546-559 
+  ...cleService.ts |   69.91 |    45.56 |   71.11 |   71.94 | ...82-685,697-767 
+  ...ultService.ts |     6.5 |     0.88 |     5.4 |    7.28 | ...27-730,745-782 
+  ...essService.ts |   19.84 |     6.98 |   13.04 |   23.69 | ...28-631,646-659 
+  ...layService.ts |    6.41 |     3.94 |    6.25 |    6.93 | 218-298,330-886   
+  ...eshService.ts |   39.83 |    19.17 |   52.72 |   41.29 | ...1452-1455,1470 
+  ...nceService.ts |   13.79 |     3.92 |      10 |   14.37 | ...75,890-893,908 
+  ...cilService.ts |   10.52 |     1.58 |    4.54 |    12.3 | ...32,647-650,665 
+ services/sports   |   83.37 |     67.9 |   84.33 |   85.63 |                   
+  SportsAgents.ts  |   90.38 |    71.42 |   85.71 |   97.61 | 537               
+  ...ionService.ts |   78.12 |     62.3 |   80.48 |   78.87 | ...4,927,983-1004 
+  ...wledgeBase.ts |   90.08 |    78.94 |   89.28 |   94.39 | ...48,615-618,633 
+ services/storage  |   12.08 |     13.2 |   13.33 |   13.41 |                   
+  DruidService.ts  |   12.08 |     13.2 |   13.33 |   13.41 | 140-440           
+ ...ices/strategic |    8.28 |      0.9 |    6.08 |    9.22 |                   
+  ...aphService.ts |    5.32 |     0.59 |    4.44 |     5.8 | ...72-875,890-927 
+  ...estService.ts |    8.57 |     1.72 |    5.55 |    9.61 | ...70-673,688-725 
+  ...ineService.ts |    9.48 |     1.01 |    5.88 |    10.4 | ...69,684-687,702 
+  ...mesService.ts |   11.35 |     0.85 |    9.09 |   13.04 | ...06,721-724,739 
+ services/vectordb |    9.28 |      7.2 |   10.81 |   10.13 |                   
+  ...rDBService.ts |    9.28 |      7.2 |   10.81 |   10.13 | ...81,293,304-751 
+  index.ts         |       0 |        0 |       0 |       0 |                   
+ ...cals/aerospace |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...ceVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...ls/agriculture |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...reVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...als/automotive |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...veVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...s/construction |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...onVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...verticals/core |   24.19 |    42.85 |   21.87 |   24.07 |                   
+  ...calPattern.ts |   24.19 |    42.85 |   21.87 |   24.07 | ...54-458,515-537 
+ ...cals/education |   43.57 |    15.94 |   34.88 |      50 |                   
+  ...onVertical.ts |   43.57 |    15.94 |   34.88 |      50 | ...51,563-575,610 
+ ...rticals/energy |   32.62 |     11.7 |   28.72 |   34.52 |                   
+  EnergyAgents.ts  |   46.66 |      100 |   27.27 |   46.15 | 289-305           
+  ...ceExpanded.ts |     100 |      100 |     100 |     100 |                   
+  ...uncilModes.ts |    62.5 |      100 |      40 |   73.68 | 654-677           
+  ...gyVertical.ts |   29.25 |     11.7 |   26.47 |   30.89 | ...1366,1413-1422 
+ ...cals/financial |   35.43 |     9.81 |   28.57 |   38.46 |                   
+  ...cialAgents.ts |      60 |      100 |   45.45 |   61.53 | 425-433           
+  ...uncilModes.ts |   76.19 |      100 |   58.33 |   82.35 | 657-665           
+  ...alVertical.ts |   32.18 |     9.81 |   21.33 |   35.32 | ...1309,1370-1378 
+ ...als/government |   29.83 |     9.62 |   21.42 |   33.05 |                   
+  ...ceExpanded.ts |     100 |      100 |     100 |     100 |                   
+  ...asExpanded.ts |   15.92 |        0 |       0 |   18.82 | ...84-310,325-348 
+  ...ntVertical.ts |   41.86 |    22.54 |   33.33 |   44.73 | ...64,680-781,817 
+ ...als/healthcare |   34.78 |    12.85 |    29.6 |   38.35 |                   
+  ...careAgents.ts |   46.66 |      100 |   27.27 |   46.15 | 289-305           
+  ...ceExpanded.ts |     100 |      100 |     100 |     100 |                   
+  ...uncilModes.ts |    62.5 |      100 |      40 |   73.68 | 637-660           
+  ...asExpanded.ts |   14.61 |        0 |       0 |   17.97 | ...88-314,329-358 
+  ...reVertical.ts |    44.8 |    24.84 |   38.88 |   46.94 | ...1320,1379-1388 
+ ...ls/hospitality |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...tyVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...trial-services |   19.64 |     5.06 |   14.42 |   23.41 |                   
+  ...ceExpanded.ts |     100 |      100 |     100 |     100 |                   
+  ...asExpanded.ts |   12.82 |        0 |       0 |   16.26 | ...92-422,437-468 
+  ...esVertical.ts |   24.21 |     9.12 |   22.05 |   27.79 | ...1747-1856,1903 
+ ...cals/insurance |   28.88 |     8.17 |      20 |   32.25 |                   
+  ...anceAgents.ts |   46.66 |      100 |   27.27 |   46.15 | 289-305           
+  ...ceExpanded.ts |     100 |      100 |     100 |     100 |                   
+  ...uncilModes.ts |    62.5 |      100 |      40 |   73.68 | 654-677           
+  ...asExpanded.ts |    17.2 |        0 |       0 |   21.76 | ...97-316,334-355 
+  ...ceVertical.ts |   31.73 |    13.66 |   21.62 |   33.57 | ...1174-1297,1350 
+ ...erticals/legal |   31.98 |     8.29 |   20.28 |   34.52 |                   
+  ...Frameworks.ts |     100 |      100 |     100 |     100 |                   
+  ...ionSchemas.ts |   17.29 |        0 |       0 |   20.38 | ...46-269,280-302 
+  LegalVertical.ts |   47.79 |       20 |   32.55 |   48.29 | ...38,550-646,684 
+ .../manufacturing |   32.72 |    10.55 |   21.33 |   35.88 |                   
+  ...ceExpanded.ts |     100 |      100 |     100 |     100 |                   
+  ...ngVertical.ts |   32.18 |    10.55 |   21.33 |   35.31 | ...1343,1404-1412 
+ ...erticals/media |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  MediaVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...cals/nonprofit |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...itVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...pharmaceutical |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...alVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...s/professional |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...alVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...als/realestate |   42.85 |    14.28 |   35.71 |   49.23 |                   
+  ...teVertical.ts |   42.85 |    14.28 |   35.71 |   49.23 | ...51,563-575,610 
+ ...rticals/retail |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...ilVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...als/technology |   43.12 |     16.5 |   34.78 |    47.2 |                   
+  ...gyVertical.ts |   43.12 |     16.5 |   34.78 |    47.2 | ...69,781-806,846 
+ ...ticals/telecom |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...omVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ ...transportation |   32.01 |     9.72 |   21.33 |   35.11 |                   
+  ...onVertical.ts |   32.01 |     9.72 |   21.33 |   35.11 | ...1308,1369-1377 
+ .../visualization |    7.02 |     1.29 |    9.67 |     7.3 |                   
+  ...terService.ts |    7.02 |     1.29 |    9.67 |     7.3 | ...84,704-707,722 
+ utils             |    64.2 |    55.69 |   65.78 |   67.39 |                   
+  RuleEngine.ts    |   83.33 |    71.86 |    84.9 |   87.05 | ...17,632,677,696 
+  deterministic.ts |       0 |        0 |       0 |       0 | 29-205            
+  errors.ts        |    8.69 |        5 |   14.28 |    8.69 | 26-91             
+  logger.ts        |   83.33 |    83.33 |     100 |   83.33 | 60-68             
+  ...ersistence.ts |   57.14 |       50 |      75 |   63.63 | 51-52,95-102      
+-------------------|---------|----------|---------|---------|-------------------

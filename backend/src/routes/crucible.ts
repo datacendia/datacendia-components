@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Crucible
  *
@@ -137,8 +136,8 @@ router.get('/simulations', async (req: Request, res: Response, next: NextFunctio
     const simulations = await cendiaCrucibleService.listSimulations(
       req.organizationId!,
       {
-        status: status as string,
-        type: type as string,
+        status: status as any,
+        type: type as any,
         limit: limit ? parseInt(limit as string) : undefined,
         offset: offset ? parseInt(offset as string) : undefined,
       }

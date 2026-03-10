@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Vault
  *
@@ -106,7 +105,7 @@ router.post('/artifacts', async (req: Request, res: Response) => {
     }
 
     const artifact = await cendiaVaultService.store({
-      type,
+      type: type as any,
       title,
       content: Buffer.from(content, 'base64'),
       mimeType: mimeType || 'application/octet-stream',
@@ -149,12 +148,12 @@ router.post('/decision-packets', async (req: Request, res: Response) => {
 
     const artifact = await cendiaVaultService.storeDecisionPacket({
       packetId,
-      deliberationId,
+      deliberationId: deliberationId!,
       title,
       content,
       signature,
       merkleRoot,
-      createdBy,
+      createdBy: createdBy!,
       metadata,
     });
 
@@ -401,7 +400,7 @@ router.get('/search', async (req: Request, res: Response) => {
     const { type, createdBy, tags, classification, legalHold, q, limit, offset } = req.query;
 
     const artifacts = await cendiaVaultService.search({
-      type: type as string,
+      type: type as any,
       createdBy: createdBy as string,
       tags: tags ? (tags as string).split(',') : undefined,
       classification: classification as string,
@@ -543,7 +542,7 @@ router.post('/export', async (req: Request, res: Response) => {
     }
 
     const result = await cendiaVaultService.export(ids, {
-      format: format || 'json',
+      format: (format || 'json') as any,
       includeContent: includeContent !== false,
       includeSignatures: includeSignatures !== false,
       includeAccessLog: includeAccessLog || false,

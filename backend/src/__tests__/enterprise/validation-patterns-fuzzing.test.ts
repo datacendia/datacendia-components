@@ -25,7 +25,7 @@ import { describe, it, expect } from 'vitest';
 const validators = {
   email: (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) && v.length <= 254,
   phone: (v: string) => /^\+?[\d\s\-().]{7,20}$/.test(v),
-  url: (v: string) => { try { new URL(v); return true; } catch { return false; } },
+  url: (v: string) => { try { new URL(v); return true; } catch (err: any) { return false; } },
   uuid: (v: string) => /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(v),
   ipv4: (v: string) => /^(\d{1,3}\.){3}\d{1,3}$/.test(v) && v.split('.').every(n => parseInt(n) <= 255),
   ipv6: (v: string) => /^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$/.test(v),

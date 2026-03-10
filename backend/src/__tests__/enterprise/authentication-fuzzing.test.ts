@@ -75,7 +75,7 @@ const isValidJWT = (token: string): boolean => {
       if (!/^[A-Za-z0-9_-]*$/.test(part)) return false;
     });
     return true;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };

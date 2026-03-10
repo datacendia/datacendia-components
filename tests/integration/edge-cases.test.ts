@@ -377,7 +377,7 @@ describe('API Error Handling', () => {
       const safeJsonParse = <T>(json: string, fallback: T): T => {
         try {
           return JSON.parse(json);
-        } catch {
+        } catch (err: any) {
           return fallback;
         }
       };
@@ -425,7 +425,7 @@ describe('Authentication Edge Cases', () => {
           const [, payload] = token.split('.');
           const decoded = JSON.parse(atob(payload));
           return decoded.exp * 1000 < Date.now();
-        } catch {
+        } catch (err: any) {
           return true;
         }
       };

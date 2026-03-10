@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Service — Synthetic Media Auth Service
  *
@@ -906,10 +905,9 @@ class SyntheticMediaAuthService {
         contentHash,
         hashAlgorithm: 'SHA-256',
         provenance: {
-          source: 'application',
-          application: 'Cendia DCII',
-          capturedAt: new Date(),
-          capturedBy: 'system-seed',
+          id: `prov-${assetId}`,
+          origin: { source: 'application' as const, application: 'Cendia DCII', capturedAt: new Date(), capturedBy: 'system-seed' },
+          signature: { algorithm: 'SHA-256', signature: contentHash, publicKeyFingerprint: 'demo', signedAt: new Date(), signedBy: 'system-seed' },
         },
         chainOfCustody: [],
         metadata: {},

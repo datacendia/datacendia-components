@@ -42,7 +42,7 @@ const toNumber = (value: unknown): number => {
   }
   if (typeof value === 'boolean') return value ? 1 : 0;
   if (value === null || value === undefined) return 0;
-  try { return Number(value) || 0; } catch { return 0; }
+  try { return Number(value) || 0; } catch (err: any) { return 0; }
 };
 
 const toInteger = (value: unknown): number => {
@@ -54,7 +54,7 @@ const toString = (value: unknown): string => {
   if (value === null) return '';
   if (value === undefined) return '';
   if (typeof value === 'object') {
-    try { return JSON.stringify(value); } catch { return String(value); }
+    try { return JSON.stringify(value); } catch (err: any) { return String(value); }
   }
   return String(value);
 };

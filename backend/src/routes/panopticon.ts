@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Panopticon
  *
@@ -176,10 +175,10 @@ router.post('/alignments', async (req: Request, res: Response) => {
     const { obligationId, entityType, entityId, entityName } = assignObligationSchema.parse(req.body);
     
     const alignment = await cendiaPanopticonService.mapObligation(
-      obligationId,
+      obligationId!,
       entityType,
       entityId,
-      entityName
+      entityName!
     );
     
     res.json({ success: true, data: alignment });
@@ -387,7 +386,7 @@ router.post('/workflow', async (req: Request, res: Response) => {
     const { frameworkCode, severity, maxTasks } = remediationSchema.parse(req.body);
     const result = await cendiaPanopticonService.generateComplianceWorkflow(orgId, {
       frameworkCode,
-      severity,
+      severity: severity as any,
       maxTasks,
     });
     res.json({ success: true, data: result });

@@ -159,7 +159,7 @@ describe('Keycloak Integration', () => {
     try {
       const response = await fetch(`${KEYCLOAK_URL}/realms/${REALM}/.well-known/openid-configuration`);
       keycloakAvailable = response.ok;
-    } catch {
+    } catch (err: any) {
       keycloakAvailable = false;
     }
   });
@@ -287,7 +287,7 @@ describe('Keycloak Integration', () => {
       try {
         const userInfo = await getUserInfo(tokens.access_token);
         expect(userInfo.preferred_username).toBe(TEST_ADMIN.username);
-      } catch {
+      } catch (err: any) {
         // UserInfo endpoint may require additional scopes - token is still valid
         const introspection = await introspectToken(tokens.access_token);
         expect(introspection.active).toBe(true);
@@ -303,7 +303,7 @@ describe('Keycloak Integration', () => {
       try {
         const userInfo = await getUserInfo(tokens.access_token);
         expect(userInfo.preferred_username).toBe(TEST_ANALYST.username);
-      } catch {
+      } catch (err: any) {
         // UserInfo endpoint may require additional scopes - token is still valid
         const introspection = await introspectToken(tokens.access_token);
         expect(introspection.active).toBe(true);

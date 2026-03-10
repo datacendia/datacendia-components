@@ -1,4 +1,6 @@
-// @ts-nocheck
+import crypto from 'crypto';
+import type { PIIScanResult, PIIType } from './PIIDetector';
+
 export interface GatewayProvider {
   id: string;
   name: string;
@@ -165,7 +167,7 @@ export type GovernanceReceipt = AIManifest;
 // PROVIDER CONFIGURATIONS
 // =============================================================================
 
-const DEFAULT_PROVIDERS: GatewayProvider[] = [
+export const DEFAULT_PROVIDERS: GatewayProvider[] = [
   {
     id: 'openai',
     name: 'OpenAI',
@@ -259,7 +261,7 @@ const DEFAULT_PROVIDERS: GatewayProvider[] = [
 ];
 
 // Model-specific pricing overrides (cost per 1K tokens)
-const MODEL_PRICING: Record<string, { prompt: number; response: number }> = {
+export const MODEL_PRICING: Record<string, { prompt: number; response: number }> = {
   'gpt-4o': { prompt: 0.0025, response: 0.01 },
   'gpt-4o-mini': { prompt: 0.00015, response: 0.0006 },
   'gpt-4-turbo': { prompt: 0.01, response: 0.03 },
@@ -302,13 +304,13 @@ const MODEL_PRICING: Record<string, { prompt: number; response: number }> = {
 // SIGNING KEY
 // =============================================================================
 
-const GATEWAY_SIGNING_KEY = process.env['GATEWAY_SIGNING_KEY'] || crypto.randomBytes(32).toString('hex');
+export const GATEWAY_SIGNING_KEY = process.env['GATEWAY_SIGNING_KEY'] || crypto.randomBytes(32).toString('hex');
 
-function signData(data: string): string {
+export function signData(data: string): string {
   return crypto.createHmac('sha256', GATEWAY_SIGNING_KEY).update(data).digest('hex');
 }
 
-function hashData(data: string): string {
+export function hashData(data: string): string {
   return crypto.createHash('sha256').update(data).digest('hex');
 }
 
@@ -317,21 +319,21 @@ function hashData(data: string): string {
 // =============================================================================
 
 /** Max interactions kept in memory (ring buffer). Older entries evicted. */
-const RING_BUFFER_SIZE = 10_000;
+export const RING_BUFFER_SIZE = 10_000;
 
 /** Batch DB persistence: flush every N interactions or every N ms */
-const FLUSH_BATCH_SIZE = 100;
-const FLUSH_INTERVAL_MS = 5_000;
+export const FLUSH_BATCH_SIZE = 100;
+export const FLUSH_INTERVAL_MS = 5_000;
 
 /** Max Merkle leaves kept in memory. When exceeded, older leaves are pruned
  *  and their combined hash is preserved as a single "epoch root" leaf. */
-const MERKLE_LEAF_LIMIT = 100_000;
+export const MERKLE_LEAF_LIMIT = 100_000;
 
 // =============================================================================
 // AGGREGATE COUNTERS — O(1) stats instead of O(n) iteration
 // =============================================================================
 
-interface AggregateCounters {
+export interface AggregateCounters {
   totalInteractions: number;
   totalTokens: number;
   totalCostUsd: number;
@@ -347,7 +349,7 @@ interface AggregateCounters {
   piiTypeCount: Record<string, number>;
 }
 
-function emptyCounters(): AggregateCounters {
+export function emptyCounters(): AggregateCounters {
   return {
     totalInteractions: 0, totalTokens: 0, totalCostUsd: 0,
     piiDetections: 0, piiBlocks: 0, piiRedactions: 0,

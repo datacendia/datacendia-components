@@ -292,7 +292,7 @@ describe('Serialization - Enterprise Fuzzing Suite', () => {
       if (typeof obj === 'object' && obj !== null) {
         try {
           JSON.stringify(obj);
-        } catch {
+        } catch (err: any) {
           return false;
         }
       }

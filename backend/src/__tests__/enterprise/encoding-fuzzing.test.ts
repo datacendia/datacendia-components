@@ -42,7 +42,7 @@ const urlEncode = (str: string): string => {
 const urlDecode = (str: string): string => {
   try {
     return decodeURIComponent(str);
-  } catch {
+  } catch (err: any) {
     return str;
   }
 };

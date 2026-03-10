@@ -49,7 +49,7 @@ const validators = {
   port: (v: string) => /^\d+$/.test(v) && parseInt(v) >= 0 && parseInt(v) <= 65535,
   
   // Web formats
-  url: (v: string) => { try { new URL(v); return true; } catch { return false; } },
+  url: (v: string) => { try { new URL(v); return true; } catch (err: any) { return false; } },
   domain: (v: string) => /^([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}$/.test(v),
   slug: (v: string) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(v),
   

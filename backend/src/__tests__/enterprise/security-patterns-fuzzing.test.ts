@@ -52,7 +52,7 @@ const isValidEmail = (email: string): boolean => {
 };
 
 const isValidURL = (url: string): boolean => {
-  try { new URL(url); return true; } catch { return false; }
+  try { new URL(url); return true; } catch (err: any) { return false; }
 };
 
 const isValidIPv4 = (ip: string): boolean => {

@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Feature — Regulatory Absorb V2
  *
@@ -510,7 +509,7 @@ Respond with a JSON array of requirements:`;
       const parsed = JSON.parse(data.response);
       return Array.isArray(parsed) ? parsed : parsed.requirements || [];
     } catch (error) {
-      this.logger.error('LLM extraction failed:', error as unknown);
+      this.logger.error('LLM extraction failed:', error as any);
       return [];
     }
   }
@@ -559,7 +558,7 @@ Respond with a JSON array of conflicts (empty array if none):`;
       const parsed = JSON.parse(data.response);
       return Array.isArray(parsed) ? parsed : parsed.conflicts || [];
     } catch (error) {
-      this.logger.error('Conflict detection failed:', error as unknown);
+      this.logger.error('Conflict detection failed:', error as any);
       return [];
     }
   }

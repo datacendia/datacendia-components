@@ -93,7 +93,7 @@ const normalizePath = (path: string): string => {
     while (decoded !== decodeURIComponent(decoded)) {
       decoded = decodeURIComponent(decoded);
     }
-  } catch { /* invalid encoding, use as-is */ }
+  } catch (err: any) { /* invalid encoding, use as-is */ }
   const parts = decoded.replace(/\\/g, '/').split('/');
   const result: string[] = [];
   

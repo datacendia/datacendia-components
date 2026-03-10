@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Service — Pillar Aggregator
  *
@@ -80,14 +79,14 @@ export class PillarAggregator {
     
     if (entity === 'metrics' || entity === 'kpis') {
       try {
-        return await prisma.kpi_definitions.findMany({ where: { organization_id: orgId }, take: limit || 100 });
+        return await (prisma as any).kpi_definitions.findMany({ where: { organization_id: orgId }, take: limit || 100 });
       } catch { return []; }
     }
     
     if (entity === 'dashboard' || entity === 'summary') {
       try {
         const [kpis, alerts] = await Promise.all([
-          prisma.kpi_definitions.findMany({ where: { organization_id: orgId }, take: 50 }).catch(() => []),
+          (prisma as any).kpi_definitions.findMany({ where: { organization_id: orgId }, take: 50 }).catch(() => []),
           prisma.alerts.findMany({ where: { organization_id: orgId, status: 'ACTIVE' }, take: 20 }).catch(() => []),
         ]);
         const total = kpis.length || 10;
@@ -101,10 +100,10 @@ export class PillarAggregator {
     const { entity, limit } = query;
     try {
       if (entity === 'entities' || entity === 'nodes') {
-        return await prisma.graph_nodes.findMany({ where: { organization_id: context.organizationId }, take: limit || 100 }).catch(() => []);
+        return await (prisma as any).graph_nodes.findMany({ where: { organization_id: context.organizationId }, take: limit || 100 }).catch(() => []);
       }
       if (entity === 'relationships' || entity === 'edges') {
-        return await prisma.graph_edges.findMany({ where: { organization_id: context.organizationId }, take: limit || 200 }).catch(() => []);
+        return await (prisma as any).graph_edges.findMany({ where: { organization_id: context.organizationId }, take: limit || 200 }).catch(() => []);
       }
     } catch { return []; }
     return [];
@@ -177,7 +176,7 @@ export class PillarAggregator {
   private async queryAgents(query: StructuredQuery, context: QueryContext): Promise<any> {
     const { entity } = query;
     if (entity === 'agents' || entity === 'list') {
-      try { return await prisma.agents.findMany({ where: { organization_id: context.organizationId } }).catch(() => []); }
+      try { return await prisma.agents.findMany({ where: { organization_id: context.organizationId } as any }).catch(() => []); }
       catch { return []; }
     }
     if (entity === 'stats' || entity === 'summary') {

@@ -16,6 +16,22 @@
 
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 
+// Mock logger to actually output to console (logger suppresses in test mode)
+vi.mock('../logger', () => ({
+  logger: {
+    debug: (...args: unknown[]) => console.debug(...args),
+    info: (...args: unknown[]) => console.log(...args),
+    warn: (...args: unknown[]) => console.warn(...args),
+    error: (...args: unknown[]) => console.error(...args),
+  },
+  default: {
+    debug: (...args: unknown[]) => console.debug(...args),
+    info: (...args: unknown[]) => console.log(...args),
+    warn: (...args: unknown[]) => console.warn(...args),
+    error: (...args: unknown[]) => console.error(...args),
+  },
+}));
+
 // Mock browser APIs
 const mockLocalStorage = {
   getItem: vi.fn(),

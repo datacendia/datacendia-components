@@ -708,7 +708,7 @@ describe('requestSigningMiddleware', () => {
     expect(res.jsonData.error.code).toBe('EXPIRED_REQUEST');
   });
 
-  it('should call next() with valid signature headers', () => {
+  it('should call next() with valid signature headers', async () => {
     const req = createMockReq({
       'x-api-key': 'test-key',
       'x-signature': 'test-sig',
@@ -718,7 +718,7 @@ describe('requestSigningMiddleware', () => {
     const res = createMockRes();
     const next = vi.fn();
 
-    requestSigningMiddleware(req, res, next);
+    await requestSigningMiddleware(req, res, next);
 
     expect(next).toHaveBeenCalled();
   });

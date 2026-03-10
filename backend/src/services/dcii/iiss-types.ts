@@ -157,7 +157,7 @@ export interface IISSBenchmark {
 // DIMENSION DEFINITIONS
 // =============================================================================
 
-const DIMENSION_DEFINITIONS = [
+export const DIMENSION_DEFINITIONS = [
   {
     primitive: 'discovery_time_proof' as const,
     name: 'Discovery-Time Proof',
@@ -290,7 +290,7 @@ const DIMENSION_DEFINITIONS = [
 // SCORE BAND DEFINITIONS
 // =============================================================================
 
-function getScoreBand(score: number): IISSBand {
+export function getScoreBand(score: number): IISSBand {
   if (score <= 200) return 'critical';
   if (score <= 400) return 'vulnerable';
   if (score <= 600) return 'developing';
@@ -298,7 +298,7 @@ function getScoreBand(score: number): IISSBand {
   return 'exceptional';
 }
 
-function getCertificationLevel(score: number): CertificationLevel {
+export function getCertificationLevel(score: number): CertificationLevel {
   if (score < 300) return 'none';
   if (score < 500) return 'bronze';
   if (score < 700) return 'silver';
@@ -306,7 +306,7 @@ function getCertificationLevel(score: number): CertificationLevel {
   return 'platinum';
 }
 
-function getBandColor(band: IISSBand): string {
+export function getBandColor(band: IISSBand): string {
   switch (band) {
     case 'critical': return '#dc2626';
     case 'vulnerable': return '#f59e0b';
@@ -320,7 +320,7 @@ function getBandColor(band: IISSBand): string {
 // INDUSTRY BENCHMARKS
 // =============================================================================
 
-const INDUSTRY_BENCHMARKS: IISSBenchmark[] = [
+export const INDUSTRY_BENCHMARKS: IISSBenchmark[] = [
   { industry: 'Financial Services', averageScore: 520, medianScore: 490, topQuartile: 720, bottomQuartile: 340, sampleSize: 1250, updatedAt: new Date('2026-01-15') },
   { industry: 'Healthcare', averageScore: 480, medianScore: 450, topQuartile: 680, bottomQuartile: 300, sampleSize: 980, updatedAt: new Date('2026-01-15') },
   { industry: 'Legal', averageScore: 410, medianScore: 380, topQuartile: 620, bottomQuartile: 250, sampleSize: 2100, updatedAt: new Date('2026-01-15') },

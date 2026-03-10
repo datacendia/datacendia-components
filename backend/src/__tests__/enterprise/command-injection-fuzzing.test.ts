@@ -30,7 +30,7 @@ const detectCommandInjection = (input: string): boolean => {
   let decoded = input;
   try {
     decoded = decodeURIComponent(input.replace(/\+/g, ' '));
-  } catch {
+  } catch (err: any) {
     // If decoding fails, use original
   }
   

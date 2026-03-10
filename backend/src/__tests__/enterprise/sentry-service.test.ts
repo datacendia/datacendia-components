@@ -115,7 +115,7 @@ function parseDSN(dsn: string): ParsedDSN | null {
       host: match[3],
       projectId: match[4],
     };
-  } catch {
+  } catch (err: any) {
     return null;
   }
 }

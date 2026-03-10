@@ -91,7 +91,7 @@ describe('Auth Routes Integration', () => {
         await prisma.email_verifications.deleteMany({ where: { user_id: TEST_USER_ID } });
         await prisma.users.deleteMany({ where: { id: TEST_USER_ID } });
         await prisma.organizations.deleteMany({ where: { id: TEST_ORG_ID } });
-      } catch {
+      } catch (err: any) {
         // Ignore cleanup errors
       }
       await prisma.$disconnect();

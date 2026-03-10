@@ -41,7 +41,7 @@ describe('Council Workflow E2E Tests', () => {
     try {
       const response = await fetch(`${API_BASE.replace('/api/v1', '')}/health`);
       serverAvailable = response.ok;
-    } catch {
+    } catch (err: any) {
       serverAvailable = false;
     }
   });

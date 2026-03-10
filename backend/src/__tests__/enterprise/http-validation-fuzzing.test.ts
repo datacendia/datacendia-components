@@ -129,7 +129,7 @@ const parseURL = (url: string): { protocol: string; host: string; port: number; 
       path: parsed.pathname,
       query: parsed.search,
     };
-  } catch {
+  } catch (err: any) {
     return null;
   }
 };
@@ -138,7 +138,7 @@ const isValidURL = (url: string): boolean => {
   try {
     new URL(url);
     return true;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };

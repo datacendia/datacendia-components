@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { logger } from '../../utils/logger.js';
 /**
  * Service — Cendia Gateway Service
@@ -33,6 +32,7 @@ import { prisma } from '../../config/database.js';
 
 
 import type { GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest, GovernanceReceipt } from './gateway-svc-types.js';
+import { DEFAULT_PROVIDERS, MODEL_PRICING, RING_BUFFER_SIZE, FLUSH_BATCH_SIZE, FLUSH_INTERVAL_MS, MERKLE_LEAF_LIMIT, hashData, signData, emptyCounters, type AggregateCounters } from './gateway-svc-types.js';
 export type { GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest, GovernanceReceipt } from './gateway-svc-types.js';
 
 

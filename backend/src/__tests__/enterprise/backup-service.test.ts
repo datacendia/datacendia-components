@@ -211,7 +211,7 @@ function deserializeManifest(json: string): BackupManifest | null {
     const parsed = JSON.parse(json);
     if (!parsed.version || !parsed.dbName || !parsed.timestamp) return null;
     return parsed;
-  } catch {
+  } catch (err: any) {
     return null;
   }
 }

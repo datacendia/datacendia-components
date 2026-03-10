@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Dcii
  *
@@ -445,12 +444,12 @@ router.get('/bias/analysis/:analysisId', (req: Request, res: Response) => {
 });
 
 // Get analyses by organization
-router.get('/bias/analyses/:organizationId', (_req: Request, res: Response) => {
+router.get('/bias/analyses/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: cognitiveBiasMitigationService.getAnalysesByOrganization(req.params.organizationId) });
 });
 
 // Get analyses by deliberation
-router.get('/bias/by-deliberation/:deliberationId', (_req: Request, res: Response) => {
+router.get('/bias/by-deliberation/:deliberationId', (req: Request, res: Response) => {
   res.json({ success: true, data: cognitiveBiasMitigationService.getAnalysesByDeliberation(req.params.deliberationId) });
 });
 
@@ -519,9 +518,9 @@ router.post('/media/sign', async (req: Request, res: Response) => {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, fileName, and mediaType required' } });
     }
     const asset = await syntheticMediaAuthService.signMedia(
-      organizationId, fileName, mediaType, mimeType || 'application/octet-stream',
+      organizationId, fileName, mediaType as any, mimeType || 'application/octet-stream',
       content || `content-${Date.now()}`, createdBy,
-      origin || { source: 'upload', capturedAt: new Date(), capturedBy: createdBy }
+      (origin || { source: 'upload', capturedAt: new Date(), capturedBy: createdBy }) as any
     );
     res.json({ success: true, data: asset });
   } catch (err: unknown) {
@@ -575,7 +574,7 @@ router.get('/media/report/:assetId', async (req: Request, res: Response) => {
 router.post('/media/custody/:assetId', (req: Request, res: Response) => {
   const { action, actorRole, details, ipAddress } = custodySchema.parse(req.body);
   const actor = req.user?.email || 'api-user';
-  const entry = syntheticMediaAuthService.addCustodyEntry(req.params.assetId, action, actor, actorRole || 'user', details || '', ipAddress);
+  const entry = syntheticMediaAuthService.addCustodyEntry(req.params.assetId, action as any, actor, actorRole || 'user', details || '', ipAddress);
   if (!entry) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Asset not found' } });
   res.json({ success: true, data: entry });
 });
@@ -592,7 +591,7 @@ router.post('/jurisdiction/assess', async (req: Request, res: Response) => {
     if (!organizationId || !organizationName || !jurisdictions?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, organizationName, and jurisdictions required' } });
     }
-    const assessment = await crossJurisdictionConflictService.assessOrganization(organizationId, organizationName, jurisdictions, assessedBy);
+    const assessment = await crossJurisdictionConflictService.assessOrganization(organizationId, organizationName, jurisdictions as any, assessedBy);
     res.json({ success: true, data: assessment });
   } catch (err: unknown) {
     logger.error('Jurisdiction assessment failed:', err);
@@ -608,12 +607,12 @@ router.get('/jurisdiction/assessment/:assessmentId', (req: Request, res: Respons
 });
 
 // Get assessments by organization
-router.get('/jurisdiction/assessments/:organizationId', (_req: Request, res: Response) => {
+router.get('/jurisdiction/assessments/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: crossJurisdictionConflictService.getAssessmentsByOrganization(req.params.organizationId) });
 });
 
 // Get conflicts by organization
-router.get('/jurisdiction/conflicts/:organizationId', (_req: Request, res: Response) => {
+router.get('/jurisdiction/conflicts/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: crossJurisdictionConflictService.getConflictsByOrganization(req.params.organizationId) });
 });
 
@@ -650,7 +649,7 @@ router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response)
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId, jurisdiction, and framework required' } });
     }
     const packet = await crossJurisdictionConflictService.generateEvidencePacket(
-      organizationId, jurisdiction, framework, packetType || 'compliance_report', generatedBy
+      organizationId, jurisdiction as any, framework as any, (packetType || 'compliance_report') as any, generatedBy
     );
     res.json({ success: true, data: packet });
   } catch (err: unknown) {
@@ -660,7 +659,7 @@ router.post('/jurisdiction/evidence-packet', async (req: Request, res: Response)
 });
 
 // Get evidence packets by organization
-router.get('/jurisdiction/evidence-packets/:organizationId', (_req: Request, res: Response) => {
+router.get('/jurisdiction/evidence-packets/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: crossJurisdictionConflictService.getEvidencePacketsByOrganization(req.params.organizationId) });
 });
 
@@ -705,7 +704,7 @@ router.post('/timestamp/batch', async (req: Request, res: Response) => {
     if (!organizationId || !items?.length) {
       return res.status(400).json({ success: false, error: { code: 'MISSING_PARAMS', message: 'organizationId and items required' } });
     }
-    const batch = await timestampAuthorityService.batchTimestamp(organizationId, items, { useExternal, useBlockchain });
+    const batch = await timestampAuthorityService.batchTimestamp(organizationId, items as any, { useExternal, useBlockchain });
     res.json({ success: true, data: batch });
   } catch (err: unknown) {
     logger.error('Batch timestamp failed:', err);
@@ -733,7 +732,7 @@ router.get('/timestamp/token/:tokenId', (req: Request, res: Response) => {
 });
 
 // Get tokens by organization
-router.get('/timestamp/tokens/:organizationId', (_req: Request, res: Response) => {
+router.get('/timestamp/tokens/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: timestampAuthorityService.getTokensByOrganization(req.params.organizationId) });
 });
 
@@ -743,7 +742,7 @@ router.get('/timestamp/tokens', (_req: Request, res: Response) => {
 });
 
 // Get tokens by reference
-router.get('/timestamp/by-reference/:referenceId', (_req: Request, res: Response) => {
+router.get('/timestamp/by-reference/:referenceId', (req: Request, res: Response) => {
   res.json({ success: true, data: timestampAuthorityService.getTokensByReference(req.params.referenceId) });
 });
 
@@ -814,14 +813,14 @@ router.post('/similarity/decisions', (req: Request, res: Response) => {
 router.put('/similarity/decisions/:decisionId/outcome', (req: Request, res: Response) => {
   const { outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect } = outcomeSchema.parse(req.body);
   const decision = decisionSimilarityService.updateOutcome(
-    req.params.decisionId, outcome, outcomeDescription, lessonsLearned, dissenterWasCorrect
+    req.params.decisionId, outcome as any, outcomeDescription!, lessonsLearned as any, dissenterWasCorrect
   );
   if (!decision) return res.status(404).json({ success: false, error: { code: 'NOT_FOUND', message: 'Decision not found' } });
   res.json({ success: true, data: decision });
 });
 
 // Get decisions by organization
-router.get('/similarity/decisions/:organizationId', (_req: Request, res: Response) => {
+router.get('/similarity/decisions/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: decisionSimilarityService.getDecisionsByOrganization(req.params.organizationId) });
 });
 
@@ -849,12 +848,12 @@ router.post('/similarity/patterns/:organizationId', async (req: Request, res: Re
 });
 
 // Get patterns by organization
-router.get('/similarity/patterns/:organizationId', (_req: Request, res: Response) => {
+router.get('/similarity/patterns/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: decisionSimilarityService.getPatternsByOrganization(req.params.organizationId) });
 });
 
 // Get similarity stats
-router.get('/similarity/stats/:organizationId', (_req: Request, res: Response) => {
+router.get('/similarity/stats/:organizationId', (req: Request, res: Response) => {
   res.json({ success: true, data: decisionSimilarityService.getStats(req.params.organizationId) });
 });
 

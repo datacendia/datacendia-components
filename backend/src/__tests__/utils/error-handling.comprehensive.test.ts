@@ -223,7 +223,7 @@ describe('Error Handling', () => {
         let finallyExecuted = false;
         try {
           throw new Error('Test');
-        } catch {
+        } catch (err: any) {
           // catch
         } finally {
           finallyExecuted = true;
@@ -247,7 +247,7 @@ describe('Error Handling', () => {
         let caught = false;
         try {
           await Promise.reject(new Error('Rejected'));
-        } catch {
+        } catch (err: any) {
           caught = true;
         }
         expect(caught).toBe(true);
@@ -266,7 +266,7 @@ describe('Error Handling', () => {
         try {
           await Promise.resolve()
             .then(() => { throw new Error('Chain error'); });
-        } catch {
+        } catch (err: any) {
           caught = true;
         }
         expect(caught).toBe(true);
@@ -279,7 +279,7 @@ describe('Error Handling', () => {
             Promise.resolve(1),
             Promise.reject(new Error('Failed')),
           ]);
-        } catch {
+        } catch (err: any) {
           caught = true;
         }
         expect(caught).toBe(true);
@@ -326,7 +326,7 @@ describe('Error Handling', () => {
       const withDefault = <T>(fn: () => T, defaultValue: T): T => {
         try {
           return fn();
-        } catch {
+        } catch (err: any) {
           return defaultValue;
         }
       };

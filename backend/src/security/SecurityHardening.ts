@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * Security — Security Hardening
  *
@@ -33,6 +32,7 @@ import crypto from 'crypto';
 import { Request, Response, NextFunction } from 'express';
 import { redis } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
+import { prisma } from '../config/database.js';
 
 // =============================================================================
 // CRYPTOGRAPHIC STANDARDS (FIPS 140-3 COMPLIANT)

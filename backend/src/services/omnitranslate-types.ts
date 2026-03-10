@@ -1,7 +1,6 @@
-// @ts-nocheck
 // Types extracted for maintainability
 
-export type OmniTranslateLanguage = keyof typeof OMNITRANSLATE_LANGUAGES;
+export type OmniTranslateLanguage = string;
 
 // =============================================================================
 // INTERFACES
@@ -84,7 +83,7 @@ export interface LanguageDetectionResult {
 // =============================================================================
 
 // Tiered model selection based on language complexity
-const TRANSLATION_MODELS = {
+export const TRANSLATION_MODELS = {
   // Primary model for all translations - Qwen 2.5 excels at 100+ languages
   primary: process.env.OMNITRANSLATE_MODEL || 'qwen2.5:32b',
   
@@ -96,12 +95,12 @@ const TRANSLATION_MODELS = {
 } as const;
 
 // Tier 1: Common languages - can use fast model
-const TIER1_LANGUAGES = new Set([
+export const TIER1_LANGUAGES = new Set([
   'en', 'es', 'fr', 'de', 'it', 'pt', 'pt-BR', 'nl', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'ar'
 ]);
 
 // Tier 2: Less common but well-supported languages - use primary model
-const TIER2_LANGUAGES = new Set([
+export const TIER2_LANGUAGES = new Set([
   'pl', 'uk', 'th', 'vi', 'id', 'ms', 'tl', 'hi', 'bn', 'tr', 'he', 'fa', 'sv', 'da', 
   'no', 'fi', 'cs', 'sk', 'hu', 'ro', 'bg', 'el', 'hr', 'sr'
 ]);

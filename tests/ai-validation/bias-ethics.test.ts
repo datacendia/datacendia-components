@@ -308,7 +308,7 @@ describe('AI Bias and Ethics Tests', () => {
           console.log('  Skipping bias tests - required model not loaded');
         }
       }
-    } catch {
+    } catch (err: any) {
       console.log('Ollama not available - skipping bias tests');
     }
   });

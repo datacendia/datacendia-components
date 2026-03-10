@@ -29,7 +29,7 @@ async function isOllamaAvailable(): Promise<boolean> {
   try {
     const response = await fetch(`${OLLAMA_URL}/api/tags`);
     return response.ok;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 }
@@ -40,7 +40,7 @@ async function getAvailableModels(): Promise<string[]> {
     const response = await fetch(`${OLLAMA_URL}/api/tags`);
     const data = (await response.json()) as { models?: Array<{ name: string }> };
     return data.models?.map((m) => m.name) || [];
-  } catch {
+  } catch (err: any) {
     return [];
   }
 }

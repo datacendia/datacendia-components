@@ -52,7 +52,7 @@ export interface RegulatoryForecast {
   recommendedActions: string[];
 }
 
-interface RegulatoryRadarEvent {
+export interface RegulatoryRadarEvent {
   id: string;
   title: string;
   framework: string;
@@ -63,7 +63,7 @@ interface RegulatoryRadarEvent {
   description: string;
 }
 
-const DEFAULT_RADAR_EVENTS: RegulatoryRadarEvent[] = [
+export const DEFAULT_RADAR_EVENTS: RegulatoryRadarEvent[] = [
   {
     id: 'dora-enforcement',
     title: 'DORA enforcement begins for financial entities',
@@ -110,12 +110,12 @@ const DEFAULT_RADAR_EVENTS: RegulatoryRadarEvent[] = [
   },
 ];
 
-const DEFAULT_AI_SUMMARY =
+export const DEFAULT_AI_SUMMARY =
   'The highest-impact regulatory change in the next 90 days is DORA enforcement for EU financial entities. ' +
   'If critical services rely on third-party providers, prioritize mapping those dependencies and running a focused resilience review now. ' +
   'CCPA/CPRA expansion and the EU AI Act phase-in are close behind, particularly for data-rich and AI-heavy business units.';
 
-const DEFAULT_AI_ACTIONS: string[] = [
+export const DEFAULT_AI_ACTIONS: string[] = [
   'Map your critical third-party services and vendors to understand DORA exposure.',
   'Run a focused operational resilience review on incident response and ICT risk controls.',
   'Prepare privacy- and AI-heavy business units for CCPA/CPRA expansion and EU AI Act obligations.',

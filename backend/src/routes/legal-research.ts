@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Legal Research
  *
@@ -130,7 +129,7 @@ router.post('/regulations', async (req: Request, res: Response) => {
       return res.status(400).json({ success: false, error: 'Query required' });
     }
 
-    const results = await legalResearchService.searchRegulations(query, { title, limit });
+    const results = await legalResearchService.searchRegulations(query, { title, limit } as any);
 
     res.json({
       success: true,
@@ -187,7 +186,7 @@ router.post('/federal-register', async (req: Request, res: Response) => {
     }
 
     const results = await legalResearchService.searchFederalRegister(query, {
-      type,
+      type: type as any,
       agency,
       days,
       limit,
@@ -251,7 +250,7 @@ router.post('/westlaw', async (req: Request, res: Response) => {
       jurisdiction,
       dateMin,
       dateMax,
-      contentType,
+      contentType: contentType as any,
       limit,
     });
 
@@ -303,7 +302,7 @@ router.post('/unified', async (req: Request, res: Response) => {
     }
 
     const results = await legalResearchService.unifiedSearch(query, {
-      sources,
+      sources: sources as any,
       jurisdiction,
       limit,
     });

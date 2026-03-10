@@ -1,4 +1,3 @@
-// @ts-nocheck
 /**
  * API Routes — Strategic
  *
@@ -158,8 +157,8 @@ router.post('/synthesis/initiate', async (req: Request, res: Response): Promise<
       userId,
       question,
       context,
-      agents,
-      mode: mode || 'consensus',
+      agents: agents as any,
+      mode: (mode || 'consensus') as any,
       timeoutMs,
       requireUnanimity
     });
@@ -253,7 +252,7 @@ router.post('/logicgate/agents', async (req: Request, res: Response) => {
   try {
     const { organizationId, agentTasks, config } = logicAgentsSchema.parse(req.body);
     
-    const execution = await logicGateService.executeAgentsInParallel(organizationId, agentTasks, config);
+    const execution = await logicGateService.executeAgentsInParallel(organizationId, agentTasks as any, config);
     res.json({ success: true, execution: { ...execution, results: Object.fromEntries(execution.results) } });
   } catch (error: unknown) {
     res.status(500).json({ error: getErrorMessage(error) });
@@ -293,7 +292,7 @@ router.post('/rdp/package/build', async (req: Request, res: Response): Promise<v
       return;
     }
 
-    const pkg = await rdpService.buildPackage(organizationId, name, type || 'standard', options);
+    const pkg = await rdpService.buildPackage(organizationId, name, (type || 'standard') as any, options);
     res.json({ success: true, package: pkg });
   } catch (error: unknown) {
     logger.error('RDP package build failed:', error);
@@ -383,7 +382,7 @@ router.post('/graph/entity', async (req: Request, res: Response): Promise<void> 
     }
 
     const entity = await cendiaGraphService.createEntity(
-      organizationId, type, name, properties || {}, sourceDocuments || [], confidence || 1.0
+      organizationId, type as any, name, properties || {}, sourceDocuments || [], confidence || 1.0
     );
     res.json({ success: true, entity });
   } catch (error: unknown) {
@@ -402,7 +401,7 @@ router.post('/graph/relationship', async (req: Request, res: Response): Promise<
     }
 
     const relationship = await cendiaGraphService.createRelationship(
-      organizationId, sourceEntityId, targetEntityId, type, properties || {}, weight || 1.0, confidence || 1.0
+      organizationId, sourceEntityId, targetEntityId, type as any, properties || {}, weight || 1.0, confidence || 1.0
     );
     res.json({ success: true, relationship });
   } catch (error: unknown) {
@@ -413,7 +412,7 @@ router.post('/graph/relationship', async (req: Request, res: Response): Promise<
 router.post('/graph/query', async (req: Request, res: Response) => {
   try {
     const { organizationId, query } = graphQuerySchema.parse(req.body);
-    const paths = await cendiaGraphService.queryGraph(organizationId, query);
+    const paths = await cendiaGraphService.queryGraph(organizationId, query as any);
     res.json({ success: true, paths });
   } catch (error: unknown) {
     res.status(500).json({ error: getErrorMessage(error) });
@@ -473,7 +472,7 @@ router.post('/ingest/job', async (req: Request, res: Response): Promise<void> =>
       return;
     }
 
-    const job = await cendiaIngestService.createIngestJob(organizationId, userId, source);
+    const job = await cendiaIngestService.createIngestJob(organizationId, userId, source as any);
     res.json({ success: true, job });
   } catch (error: unknown) {
     logger.error('Ingest job creation failed:', error);
@@ -584,7 +583,7 @@ router.post('/wargames/simulation/:simulationId/decide', async (req: Request, re
   try {
     const simulationId = req.params['simulationId'] as string;
     const { eventId, optionId, reasoning } = wargameDecideSchema.parse(req.body);
-    const decision = await warGamesService.submitDecision(simulationId, eventId, optionId, reasoning);
+    const decision = await warGamesService.submitDecision(simulationId, eventId!, optionId!, reasoning!);
     res.json({ success: true, decision });
   } catch (error: unknown) {
     res.status(500).json({ error: getErrorMessage(error) });
@@ -647,7 +646,7 @@ router.post('/union/assessment', async (req: Request, res: Response): Promise<vo
       return;
     }
 
-    const assessment = await unionService.ingestThreatAssessment(organizationId, source || 'user_report', threats);
+    const assessment = await unionService.ingestThreatAssessment(organizationId, (source || 'user_report') as any, threats);
     res.json({ success: true, assessment });
   } catch (error: unknown) {
     logger.error('Threat assessment failed:', error);

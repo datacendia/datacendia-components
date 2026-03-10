@@ -29,7 +29,7 @@ const isValidURL = (url: string): boolean => {
     if (!['http:', 'https:'].includes(parsed.protocol)) return false;
     if (!parsed.hostname) return false;
     return true;
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };
@@ -45,7 +45,7 @@ const parseURL = (url: string): { protocol: string; host: string; port: string; 
       search: parsed.search,
       hash: parsed.hash
     };
-  } catch {
+  } catch (err: any) {
     return null;
   }
 };
@@ -53,7 +53,7 @@ const parseURL = (url: string): { protocol: string; host: string; port: string; 
 const isHTTPS = (url: string): boolean => {
   try {
     return new URL(url).protocol === 'https:';
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };
@@ -62,7 +62,7 @@ const isHTTP = (url: string): boolean => {
   try {
     const protocol = new URL(url).protocol;
     return protocol === 'http:' || protocol === 'https:';
-  } catch {
+  } catch (err: any) {
     return false;
   }
 };
@@ -70,7 +70,7 @@ const isHTTP = (url: string): boolean => {
 const getDomain = (url: string): string | null => {
   try {
     return new URL(url).hostname;
-  } catch {
+  } catch (err: any) {
     return null;
   }
 };
@@ -78,7 +78,7 @@ const getDomain = (url: string): string | null => {
 const getPath = (url: string): string | null => {
   try {
     return new URL(url).pathname;
-  } catch {
+  } catch (err: any) {
     return null;
   }
 };
@@ -90,7 +90,7 @@ const getQueryParams = (url: string): Record<string, string> => {
       params[key] = value;
     });
     return params;
-  } catch {
+  } catch (err: any) {
     return {};
   }
 };
@@ -99,7 +99,7 @@ const normalizeURL = (url: string): string | null => {
   try {
     const parsed = new URL(url);
     return parsed.href;
-  } catch {
+  } catch (err: any) {
     return null;
   }
 };

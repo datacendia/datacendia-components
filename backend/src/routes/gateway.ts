@@ -35,14 +35,14 @@ const schema_0 = z.object({
  */
 
 import { Router, Request, Response } from 'express';
-import CendiaGatewayService from '../services/gateway/CendiaGatewayService';
-import { scanForPII } from '../services/gateway/PIIDetector';
-import ModelRouter from '../services/gateway/ModelRouter';
-import ShadowAIDetector from '../services/gateway/ShadowAIDetector';
-import WebhookNotifier from '../services/gateway/WebhookNotifier';
-import GatewayRateLimiter from '../services/gateway/RateLimiter';
-import SIEMIntegration from '../services/gateway/SIEMIntegration';
-import ManifestExporter from '../services/gateway/ManifestExporter';
+import CendiaGatewayService from '../services/gateway/CendiaGatewayService.js';
+import { scanForPII } from '../services/gateway/PIIDetector.js';
+import ModelRouter from '../services/gateway/ModelRouter.js';
+import ShadowAIDetector from '../services/gateway/ShadowAIDetector.js';
+import WebhookNotifier from '../services/gateway/WebhookNotifier.js';
+import GatewayRateLimiter from '../services/gateway/RateLimiter.js';
+import SIEMIntegration from '../services/gateway/SIEMIntegration.js';
+import ManifestExporter from '../services/gateway/ManifestExporter.js';
 
 
 const schema_1 = z.object({

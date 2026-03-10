@@ -52,7 +52,7 @@ const hasUniqueItems = <T>(v: T[]): boolean => new Set(v).size === v.length;
 
 const matchesPattern = (v: string, pattern: RegExp): boolean => pattern.test(v);
 const isEmail = (v: string): boolean => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
-const isURL = (v: string): boolean => { try { new URL(v); return true; } catch { return false; } };
+const isURL = (v: string): boolean => { try { new URL(v); return true; } catch (err: any) { return false; } };
 const isUUID = (v: string): boolean => /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(v);
 const isIPv4 = (v: string): boolean => /^(\d{1,3}\.){3}\d{1,3}$/.test(v) && v.split('.').every(n => parseInt(n) <= 255);
 const isHexColor = (v: string): boolean => /^#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})$/.test(v);

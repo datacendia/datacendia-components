@@ -354,7 +354,7 @@ describe('Sovereign Air-Gap Tests', () => {
     try {
       const res = await fetch(`${LOCAL_API_BASE}/health`, { signal: AbortSignal.timeout(3000) });
       servicesReachable = res.ok || res.status < 500;
-    } catch {
+    } catch (err: any) {
       console.log('\n  ⚠ Local services not running - air-gap tests will validate definitions only');
       console.log('    Start services for full air-gap validation: docker compose up -d && npm run dev:backend\n');
     }
