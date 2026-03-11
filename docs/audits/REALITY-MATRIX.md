@@ -1,6 +1,6 @@
 # Datacendia Reality Matrix
 
-> **Generated:** 2026-03-04 | **Last Updated:** 2026-03-05
+> **Generated:** 2026-03-04 | **Last Updated:** 2026-03-11
 > **Purpose:** Honest categorization of every service — what's real, what's demo, what's roadmap.
 > **Rule:** No fake services. Every service must be backed by real functionality or be clearly marked.
 
@@ -18,12 +18,13 @@
 
 | Category | Count | Percentage |
 |----------|-------|------------|
-| ✅ REAL | 93 | 36% |
+| ✅ REAL | 94 | 36% |
 | 🟡 DEMO | 128 | 49% |
 | 🔵 ROADMAP | 40 | 15% |
-| **Total** | **261** | **100%** |
+| **Total** | **262** | **100%** |
 
-> **Change log (March 5):** +4 REAL (MinIO, ClickHouse, ClamAV, OPA moved from ROADMAP). Frontend bundle reduced 1,857KB → 166KB (91%).
+> **Change log (March 5):** +4 REAL (MinIO, ClickHouse, ClamAV, OPA moved from ROADMAP). Frontend bundle reduced 1,857KB → 166KB (91%).  
+> **Change log (March 11):** +1 REAL (GatewayFederationService — multi-org governance with consolidated compliance reporting). CendiaGateway ported to datacendia-core (open-source).
 
 > **Note:** The original "424 services" count included vertical files (agents, council modes, compliance configs, decision schemas, decision types) which are configuration/data files, not services. This matrix counts actual service classes.
 
@@ -140,6 +141,8 @@
 | CendiaGatewayService | `gateway/CendiaGatewayService.ts` | ✅ REAL | Proxy + Prisma + PII detection |
 | PIIDetector | `gateway/PIIDetector.ts` | ✅ REAL | Regex-based PII detection |
 | ModelRouter | `gateway/ModelRouter.ts` | ✅ REAL | Ollama model routing |
+| GatewayFederationService | `gateway/GatewayFederationService.ts` | ✅ REAL | Multi-org federation, shared policies, consolidated compliance reports, per-member risk scoring, SHA-256+HMAC signed reports |
+| GatewayProxyServer | `gateway/GatewayProxyServer.ts` | ✅ REAL | HTTP forward proxy for AI traffic interception, PAC file generation |
 | ShadowAIDetector | `gateway/ShadowAIDetector.ts` | 🟡 DEMO | Pattern matching, no network inspection |
 | CendiaApotheosisService | `CendiaApotheosisService.ts` | ✅ REAL | Prisma + Ollama red-teaming |
 | CendiaDissentService | `CendiaDissentService.ts` | ✅ REAL | Prisma dissent filing |
@@ -471,4 +474,5 @@ The platform's core value proposition (AI-powered decision governance with crypt
 4. **Frontend bundle optimized** — Entry chunk reduced from 1,857KB to 166KB (91% reduction). Lazy-loaded i18n locales, CortexLayout, TechTeamPanel, DemoOverlay. Bypassed barrel imports for enterprise/intelligence/crown pages.
 5. **20+ vertical template files are 57KB each** — These are generated from a pattern and contain mostly static configuration data.
 
-*Verification audit completed March 5, 2026 by Cascade AI Pair Programmer*
+*Verification audit completed March 5, 2026 by Cascade AI Pair Programmer*  
+*Updated March 11, 2026 — GatewayFederationService added, CendiaGateway ported to datacendia-core*

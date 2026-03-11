@@ -147,6 +147,8 @@ The repository includes proper BibTeX citations:
 | Decision Packet Schema | Used throughout platform | ✅ Implemented |
 | Regulator's Receipt Schema | RegulatorsReceiptService | ✅ Implemented |
 | OpenAPI 3.0 (59 endpoints) | 159 routes in enterprise (superset) | ✅ Superset |
+| AI Governance Proxy | CendiaGatewayService (3-layer: API proxy + browser extensions + HTTP proxy) | ✅ Implemented |
+| Federation Governance | GatewayFederationService (multi-org, shared policies, consolidated reporting) | ✅ Implemented |
 
 ---
 

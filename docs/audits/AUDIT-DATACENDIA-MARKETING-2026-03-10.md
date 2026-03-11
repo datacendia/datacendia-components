@@ -56,6 +56,10 @@ The website was audited by reading the live public content at datacendia.com.
 | "Sovereign: air-gapped, on-prem, private cloud" | All three deployment models supported | ✅ |
 | "SOC 2 / ISO 27001 / NIST 800-53 aligned" | Architecture aligned (not certified yet) — website says "aligned" correctly | ✅ |
 | "Ed25519 digital signatures" | Crypto signing implemented | ✅ |
+| "CendiaGateway™ AI governance proxy" | CendiaGatewayService + PIIDetector + GatewayProxyServer + 3 browser extensions (Chrome/Firefox/Safari) | ✅ |
+| "Federation infrastructure" | GatewayFederationService — create federations, manage members, shared policies, consolidated compliance reports, per-member risk scoring, SHA-256+HMAC signed reports | ✅ |
+| "Browser extensions for AI governance" | Chrome/Edge (Manifest V3), Firefox (Manifest V2), Safari (Web Extension) — intercepts 15+ AI sites | ✅ |
+| "HTTP proxy mode" | GatewayProxyServer — network-level AI traffic interception via PAC file | ✅ |
 
 ### ⚠️ Claims Needing Verification
 
@@ -162,6 +166,8 @@ The website does **not** contain the inflated numbers that were in the README/do
 | 100+ languages | OmniTranslate | ✅ |
 | War Games examples | Walkthrough documents | ✅ |
 | Product naming (Cendia*) | Service names | ✅ |
+| CendiaGateway™ (3-layer) | API proxy + browser extensions + HTTP proxy | ✅ |
+| Federation infrastructure | GatewayFederationService + Prisma schema + 12 API endpoints | ✅ |
 
 ---
 
@@ -193,6 +199,7 @@ The website does **not** contain the inflated numbers that were in the README/do
 ---
 
 *Audit completed March 10, 2026 by Cascade AI Pair Programmer*  
+*Updated March 11, 2026 — CendiaGateway + federation infrastructure verified*  
 *Audited from live public website content at datacendia.com*
 
 **⚠️ REMINDER: Change FTP password immediately. Consider compromised.**
