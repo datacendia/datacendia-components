@@ -82,6 +82,8 @@
   "overrides": {
     "fast-xml-parser": "5.4.1",
     "elliptic": "6.6.1",
+    "multer": ">=2.1.0",
+    "underscore": ">=1.13.7",
     "minio": {
       "fast-xml-parser": "5.4.1"
     },
