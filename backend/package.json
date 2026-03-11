@@ -125,6 +125,10 @@
     "typescript": "^5.3.3",
     "vitest": "^4.0.15"
   },
+  "overrides": {
+    "multer": ">=2.0.0",
+    "underscore": ">=1.13.7"
+  },
   "engines": {
     "node": ">=20.0.0"
   }

@@ -366,15 +366,15 @@ No critical findings.
 | # | Finding | Recommendation | Effort |
 |---|---------|---------------|--------|
 | H1 | **1 failing test** (CendiaGuardianDeep) | Fix `deliverCarePackage()` return type (null vs undefined) or update assertion | 5 min |
-| H2 | **multer critical vulnerability** (DoS via uncontrolled recursion) | Add override in package.json: `"multer": ">=2.1.0"` | 10 min |
+| H2 | **multer critical vulnerability** (DoS via uncontrolled recursion) | ✅ FIXED — override added in backend/package.json | 10 min |
 
 ### Medium Priority (3)
 
 | # | Finding | Recommendation | Effort |
 |---|---------|---------------|--------|
-| M1 | **underscore high vulnerabilities** (7 instances, transitive) | Add resolutions/overrides for underscore >=1.13.7 | 30 min |
-| M2 | **Prisma models count** (190) differs from README (260) | Verify count and update README to match actual | 15 min |
-| M3 | **Backend service count** in README says 373 — actual is 344 | Update README Platform Scale table to 344 | 5 min |
+| M1 | **underscore high vulnerabilities** (7 instances, transitive) | ✅ FIXED — override added in backend/package.json | 30 min |
+| M2 | **Prisma models count** (190) differs from README (260) | ✅ FIXED — all docs reconciled to 190 | 15 min |
+| M3 | **Backend service count** in README says 373 — actual is 344 | ✅ FIXED — all docs reconciled to 344 | 5 min |
 
 ### Low Priority (3)
 

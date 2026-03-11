@@ -125,7 +125,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 |--------|--------|-------|
 | **Backend Code** | ~100% | 380+ services, 140+ route files, all wired up |
 | **Frontend UI** | ~95% | All major pages exist, connected to backend |
-| **Database Schema** | ~95% | 260 Prisma models, 141 enums |
+| **Database Schema** | ~95% | 190 Prisma models, 141 enums |
 | **Real Functionality** | ~100% | All features implemented, 10 OAuth2 connectors, 29 verticals, WebSocket streaming, Redis caching, infrastructure deployed |
 | **Infrastructure** | ~100% | 9 enterprise components (Kafka, Temporal, OPA, OpenBao, NeMo, RAPIDS, Flink, CC, Triton/NIM) |
 | **Production Ready** | ~100% | CI/CD ready, monitoring deployed, HA setup, backup automation, SBOM generation |

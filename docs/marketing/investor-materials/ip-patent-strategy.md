@@ -80,7 +80,7 @@
 |------|-------------|
 | Source code (all repositories) | Automatic (Berne Convention), register key files |
 | Documentation (Bible, white papers, pitch decks) | Automatic, register high-value documents |
-| Database schemas (260 Prisma models) | Automatic |
+| Database schemas (190 Prisma models) | Automatic |
 | UI/UX designs | Automatic |
 
 ## 6. Open-Source Strategy

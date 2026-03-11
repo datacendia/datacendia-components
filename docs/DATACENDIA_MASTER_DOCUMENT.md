@@ -71,7 +71,7 @@ Datacendia is a **Decision Crisis Immunization Infrastructure (DCII)** — sover
 | Backend route files | **159** |
 | Frontend pages | **200** |
 | Industry verticals | **30** |
-| Prisma models | **260** |
+| Prisma models | **190** |
 | Prisma enums | **141** |
 | Automated tests | **205,754** |
 | Test files | **222** |
@@ -116,7 +116,7 @@ Datacendia is a **Decision Crisis Immunization Infrastructure (DCII)** — sover
                              │
 ┌────────────────────────────▼─────────────────────────────────────┐
 │                       DATA LAYER                                  │
-│  PostgreSQL (260 models) │ Redis │ Neo4j │ Qdrant │ MinIO       │
+│  PostgreSQL (190 models) │ Redis │ Neo4j │ Qdrant │ MinIO       │
 │  ClickHouse │ Druid │ Kafka │ Temporal │ OpenBao │ OPA          │
 └──────────────────────────────────────────────────────────────────┘
 ```
@@ -767,7 +767,7 @@ All opt-in with embedded fallbacks:
 | **Translation** | ~5 | Glossaries, translation memory, batches |
 | **Analytics** | ~10 | Metrics, forecasts, ROI tracking |
 | **Admin** | ~10 | Settings, feature flags, backup configs |
-| **Total** | **260 models, 141 enums** | |
+| **Total** | **190 models, 141 enums** | |
 
 ---
 

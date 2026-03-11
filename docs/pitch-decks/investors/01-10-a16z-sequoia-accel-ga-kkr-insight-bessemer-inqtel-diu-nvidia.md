@@ -51,7 +51,7 @@ Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the gov
 
 ## SLIDE 8: Team
 - **Stuart Rainey** — Founder & CEO. Enterprise software background. Solo founder building entire platform.
-- **Technical depth**: 344 services, 260 Prisma models, 8 AI model slots, 9 enterprise infrastructure integrations — all built and working.
+- **Technical depth**: 344 services, 190 Prisma models, 8 AI model slots, 9 enterprise infrastructure integrations — all built and working.
 
 ## SLIDE 9: The Ask
 **$5M Seed** at $25M pre-money
@@ -121,7 +121,7 @@ Accel's enterprise portfolio (Atlassian, Slack, CrowdStrike) shows: horizontal i
 Not a dashboard. Not a chatbot wrapper. **Infrastructure**: multi-agent deliberation + immutable proof + 30 vertical schemas + sovereign deployment.
 
 ## SLIDE 3: Why This Team
-Solo founder who built 344 services, 260 database models, 200 pages, 205,754 tests — all working. This is a technical founder who can ship. The platform exists today, not as a pitch deck.
+Solo founder who built 344 services, 190 database models, 200 pages, 205,754 tests — all working. This is a technical founder who can ship. The platform exists today, not as a pitch deck.
 
 ## SLIDE 4: GTM — Top-Down Enterprise + Channel
 CISO/GC/CCO buyer. $250K-$1.5M ACV. Big 4 white-label channel. Defense prime channel. AWS/Azure marketplace.
@@ -187,7 +187,7 @@ Deploy Datacendia across KKR portfolio companies as a platform standard:
 Insight's playbook: identify category-defining software, add ScaleUp operating resources, accelerate to market leadership. AI governance is a new category. Datacendia is the most technically complete entrant.
 
 ## SLIDE 2: Technical Completeness (Already Built)
-344 services | 159 routes | 200 pages | 30 verticals | 260 DB models | 205,754 tests | 8 AI model slots | 9 enterprise integrations | Post-quantum crypto | Air-gapped deployment. **This isn't a prototype. It's a platform.**
+344 services | 159 routes | 200 pages | 30 verticals | 190 DB models | 205,754 tests | 8 AI model slots | 9 enterprise integrations | Post-quantum crypto | Air-gapped deployment. **This isn't a prototype. It's a platform.**
 
 ## SLIDE 3: ScaleUp Opportunity
 What Insight adds: enterprise sales team, customer success, GTM playbook, talent acquisition. What Datacendia has: the product. **This is a product-complete, GTM-incomplete opportunity.**

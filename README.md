@@ -210,8 +210,8 @@ datacendia-components/
 │   └── services/           # Frontend services
 ├── backend/                # Node.js backend (Express + Prisma)
 │   ├── src/
-│   │   ├── routes/         # API endpoints (140+ route files)
-│   │   ├── services/       # Business logic (373+ service files)
+│   │   ├── routes/         # API endpoints (159 route files)
+│   │   ├── services/       # Business logic (344 service files)
 │   │   │   ├── inference/  # InferenceProvider (Ollama, Triton, NIM)
 │   │   │   ├── guardrails/ # NeMo Guardrails engine
 │   │   │   ├── kafka/      # Kafka producer, consumer, event bridge
@@ -225,7 +225,7 @@ datacendia-components/
 │   │   ├── middleware/     # Auth, logging, security
 │   │   ├── security/       # PolicyEngine, KeycloakAuth, KMS, HSM
 │   │   └── config/         # Database, Redis, Neo4j, inference config
-│   └── prisma/             # Database schema & migrations (260 models)
+│   └── prisma/             # Database schema & migrations (190 models)
 ├── tests/                  # Test suites (Vitest + Playwright)
 ├── infrastructure/         # PostgreSQL HA scripts
 ├── grafana/                # Dashboard & datasource provisioning
