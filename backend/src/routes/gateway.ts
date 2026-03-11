@@ -34,10 +34,12 @@ const schema_0 = z.object({
  *   POST   /api/gateway/v1/messages             — Anthropic-compatible endpoint
  */
 
+import crypto from 'crypto';
 import { Router, Request, Response } from 'express';
 import CendiaGatewayService from '../services/gateway/CendiaGatewayService.js';
 import { scanForPII } from '../services/gateway/PIIDetector.js';
 import ModelRouter from '../services/gateway/ModelRouter.js';
+import { gatewayProxyServer } from '../services/gateway/GatewayProxyServer.js';
 import ShadowAIDetector from '../services/gateway/ShadowAIDetector.js';
 import WebhookNotifier from '../services/gateway/WebhookNotifier.js';
 import GatewayRateLimiter from '../services/gateway/RateLimiter.js';
@@ -896,6 +898,226 @@ router.post('/siem/flush', async (_req: Request, res: Response) => {
       await siemIntegration.flush(config.id);
     }
     return res.json({ success: true });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+// =============================================================================
+// BROWSER EXTENSION ENDPOINTS — Used by Chrome/Firefox/Safari extensions
+// =============================================================================
+
+/**
+ * POST /api/gateway/scan
+ * PII scan endpoint for browser extension pre-flight checks.
+ * Extension sends prompt text, gateway returns scan result + policy decision.
+ */
+router.post('/scan', async (req: Request, res: Response) => {
+  try {
+    const { text, source, domain, userId, organizationId } = req.body;
+    if (!text || typeof text !== 'string') {
+      return res.status(400).json({ error: 'text is required' });
+    }
+
+    const piiResult = scanForPII(text);
+
+    // Policy evaluation: block critical PII
+    const criticalTypes = ['ssn', 'credit_card', 'medical_record', 'bank_account', 'passport'];
+    const foundCritical = piiResult.types.filter((t: string) => criticalTypes.includes(t));
+
+    let blocked = false;
+    let warned = false;
+    let reason = '';
+
+    if (foundCritical.length > 0) {
+      blocked = true;
+      reason = `Critical PII detected: ${foundCritical.join(', ')}. Request blocked by CendiaGateway policy.`;
+    } else if (piiResult.hasPII) {
+      warned = true;
+      reason = `PII detected: ${piiResult.types.join(', ')}. Allowed with warning.`;
+    }
+
+    logger.info(`[Gateway/scan] source=${source || 'unknown'} domain=${domain || 'unknown'} user=${userId || 'anonymous'} pii=${piiResult.hasPII} blocked=${blocked}`);
+
+    return res.json({
+      blocked,
+      warned,
+      reason,
+      piiDetected: piiResult.hasPII,
+      piiTypes: piiResult.types,
+      detections: piiResult.detections,
+      source: source || 'unknown',
+      domain: domain || 'unknown',
+    });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * POST /api/gateway/browser-log
+ * Logging endpoint for browser extension interaction records.
+ * Receives metadata (not prompt text) for audit trail.
+ */
+router.post('/browser-log', async (req: Request, res: Response) => {
+  try {
+    const { source, domain, siteName, userId, organizationId, action, piiTypes, promptLength, timestamp } = req.body;
+
+    logger.info(`[Gateway/browser-log] site=${siteName || domain} user=${userId || 'anonymous'} action=${action} pii=${(piiTypes || []).join(',')} len=${promptLength || 0}`);
+
+    // Persist to database if available
+    try {
+      const { prisma } = await import('../config/database.js');
+      await prisma.gateway_interactions.create({
+        data: {
+          id: crypto.randomUUID(),
+          organization_id: organizationId || 'default',
+          user_id: userId || 'anonymous',
+          user_email: userId || 'anonymous',
+          user_department: 'browser',
+          provider: domain || 'unknown',
+          model: 'browser-session',
+          endpoint: '/',
+          prompt_text: `[REDACTED — ${promptLength || 0} chars]`,
+          response_text: '',
+          prompt_tokens: 0,
+          response_tokens: 0,
+          total_tokens: 0,
+          estimated_cost_usd: 0,
+          pii_detected: (piiTypes || []).length > 0,
+          pii_types: piiTypes || [],
+          policy_action: action || 'allow',
+          policy_reason: '',
+          integrity_hash: crypto.createHash('sha256').update(JSON.stringify(req.body)).digest('hex'),
+          signature: crypto.createHmac('sha256', process.env.GATEWAY_SIGNING_KEY || 'datacendia-gateway-default').update(JSON.stringify(req.body)).digest('hex'),
+        },
+      });
+    } catch {
+      // DB persistence is best-effort — don't fail the request
+    }
+
+    return res.json({ success: true, logged: true });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+// =============================================================================
+// HTTP PROXY MODE ENDPOINTS — Start/stop/manage the network-level proxy
+// =============================================================================
+
+
+/**
+ * POST /api/gateway/proxy/start
+ * Start the HTTP forward proxy for browser-agnostic AI governance.
+ */
+router.post('/proxy/start', async (_req: Request, res: Response) => {
+  try {
+    await gatewayProxyServer.start();
+    return res.json({
+      success: true,
+      message: 'Gateway HTTP proxy started',
+      domains: gatewayProxyServer.getGovernedDomains().length,
+    });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * POST /api/gateway/proxy/stop
+ * Stop the HTTP forward proxy.
+ */
+router.post('/proxy/stop', async (_req: Request, res: Response) => {
+  try {
+    await gatewayProxyServer.stop();
+    return res.json({ success: true, message: 'Gateway HTTP proxy stopped' });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * GET /api/gateway/proxy/stats
+ * Get proxy server statistics.
+ */
+router.get('/proxy/stats', async (_req: Request, res: Response) => {
+  try {
+    return res.json(gatewayProxyServer.getStats());
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * GET /api/gateway/proxy/pac
+ * Serve the PAC (Proxy Auto-Configuration) file for browser/system proxy setup.
+ */
+router.get('/proxy/pac', async (_req: Request, res: Response) => {
+  try {
+    const pac = gatewayProxyServer.generatePACFile();
+    res.setHeader('Content-Type', 'application/x-ns-proxy-autoconfig');
+    return res.send(pac);
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * GET /api/gateway/proxy/domains
+ * List all AI domains governed by the proxy.
+ */
+router.get('/proxy/domains', async (_req: Request, res: Response) => {
+  try {
+    return res.json({
+      domains: gatewayProxyServer.getGovernedDomains(),
+      count: gatewayProxyServer.getGovernedDomains().length,
+    });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * POST /api/gateway/proxy/domains
+ * Add a custom AI domain to the governed list.
+ */
+router.post('/proxy/domains', async (req: Request, res: Response) => {
+  try {
+    const { domain } = req.body;
+    if (!domain) return res.status(400).json({ error: 'domain is required' });
+    gatewayProxyServer.addAIDomain(domain);
+    return res.json({ success: true, domain, domains: gatewayProxyServer.getGovernedDomains() });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * DELETE /api/gateway/proxy/domains/:domain
+ * Remove an AI domain from the governed list.
+ */
+router.delete('/proxy/domains/:domain', async (req: Request, res: Response) => {
+  try {
+    gatewayProxyServer.removeAIDomain(req.params.domain);
+    return res.json({ success: true, domains: gatewayProxyServer.getGovernedDomains() });
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+/**
+ * GET /api/gateway/proxy/interactions
+ * Get recent proxy interactions.
+ */
+router.get('/proxy/interactions', async (req: Request, res: Response) => {
+  try {
+    const limit = parseInt(req.query.limit as string) || 50;
+    const blocked = req.query.blocked === 'true';
+    const interactions = blocked
+      ? gatewayProxyServer.getBlockedInteractions(limit)
+      : gatewayProxyServer.getRecentInteractions(limit);
+    return res.json({ interactions, count: interactions.length });
   } catch (err: unknown) {
     return res.status(500).json({ error: (err as Error).message });
   }
