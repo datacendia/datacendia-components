@@ -18,6 +18,7 @@ export function useDocumentTitle(title: string, restoreOnUnmount: boolean = true
       const prev = previousTitle.current;
       return () => { document.title = prev; };
     }
+    return undefined;
   }, [restoreOnUnmount]);
 }
 
