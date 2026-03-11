@@ -322,24 +322,25 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 | Metric | Count |
 |--------|-------|
-| Backend service files | **373** (306 implementation) |
-| Backend service directories | **41** |
-| Backend route files | **140** (125 + 15 domain routers) |
-| Backend test files | **165** |
-| Backend middleware | **10** |
-| Backend connectors | **22** across 16 domains |
-| Backend adapters | **12** (6 sovereign) |
-| Frontend pages | **196** |
-| Frontend components | **79** |
-| Prisma models | **260** |
+| Backend service files | **344** (implementation, excl. index/types) |
+| Backend source files (total) | **744** |
+| Backend route files | **159** |
+| Backend test files | **256** |
+| Backend middleware | **16** |
+| Frontend pages | **200** |
+| Frontend components | **87** |
+| Frontend source files | **469** (TS + TSX) |
+| Prisma models | **190** |
 | Prisma enums | **141** |
-| Passing tests | **204,751** |
-| Industry verticals | **29** (84 service files) |
+| Prisma schema files | **13** |
+| Passing tests | **205,755** |
+| Industry verticals | **30** |
 | Collapse agents | **19** specialized |
-| Docker Compose files | **10** |
+| Docker Compose files | **4** (demo, dev, production, unified) |
 | Compliance frameworks | **10** |
 | Supported jurisdictions | **17** |
 | AI agent presets | **50+** |
+| Documentation files | **359** |
 | TypeScript errors | **0** |
 
 ## 🏛️ Cendia™ Product Catalog

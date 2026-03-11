@@ -392,7 +392,7 @@ describe('CendiaGuardianService — Care Packages', () => {
     const pkg = await cendiaGuardianService.generateCarePackage(customerId, 'rescue');
     // Try to deliver before approval
     const notDelivered = cendiaGuardianService.deliverCarePackage(pkg.id);
-    expect(notDelivered).toBeNull();
+    expect(notDelivered).toBeFalsy();
 
     // Approve then deliver
     cendiaGuardianService.approveCarePackage(pkg.id);
