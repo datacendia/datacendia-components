@@ -2430,7 +2430,7 @@ const generateRedactedExport = (
     productionNumber: `PROD-${now.getFullYear()}-${String(deterministicInt(0, 999, 'chronos-85')).padStart(4, '0')}`,
     batesRangeStart: `DC${String(deterministicInt(0, 99999, 'chronos-86')).padStart(7, '0')}`,
     batesRangeEnd: `DC${String(deterministicInt(0, 99999, 'chronos-87') + 100000).padStart(7, '0')}`,
-    verificationUrl: `https://verify.datacendia.com/export/${certificateId}`,
+    verificationUrl: `https://app.datacendia.com/verify/export/${certificateId}`,
     verificationQrCode: `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="50">QR:${certificateId}</text></svg>`,
     format: 'json',
     encryptedPayload: generateHash(`payload-${certificateId}-encrypted`),
