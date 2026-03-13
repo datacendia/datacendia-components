@@ -88,7 +88,7 @@ Document ──▶ Privilege Analysis Agent
 - **Air-gapped option** — For matters involving classified information or national security
 - **Customer-owned encryption** — Your keys, your data, your privilege
 - **Immutable audit trail** — Every privilege call, every review decision, timestamped and signed
-- **Court-admissible export** — Regulator packets and court bundles on demand
+- **forensic-grade, independently verifiable export** — Regulator packets and court bundles on demand
 
 ---
 
@@ -123,7 +123,7 @@ Datacendia provides **Discovery-Time Proof** — cryptographic evidence of when 
 | Multi-agent deliberation | ✅ | ❌ | ❌ | ❌ |
 | 8 legal decision schemas | ✅ | ❌ | ❌ | ❌ |
 | Privilege waiver detection | ✅ | Manual | Manual | ❌ |
-| Court-admissible proof | ✅ | Partial | Partial | ❌ |
+| forensic-grade, independently verifiable proof | ✅ | Partial | Partial | ❌ |
 | Sovereign / air-gapped | ✅ | ❌ | ❌ | ❌ |
 | Post-quantum signatures | ✅ | ❌ | ❌ | ❌ |
 

@@ -5,7 +5,7 @@
 
 **The Problem:** 250,000 deaths/year from medical errors. AI/ML in healthcare faces SaMD classification uncertainty. Clinicians override 49-96% of AI alerts (alert fatigue). One wrong AI deployment = product recall + patient harm + litigation.
 
-**The Solution:** Every clinical AI decision — auditable, explainable, court-admissible. Multi-agent council deliberation ensures no single AI perspective dominates. Patient Safety, Regulatory, Ethics, and Clinical agents cross-examine before any recommendation.
+**The Solution:** Every clinical AI decision — auditable, explainable, forensic-grade, independently verifiable. Multi-agent council deliberation ensures no single AI perspective dominates. Patient Safety, Regulatory, Ethics, and Clinical agents cross-examine before any recommendation.
 
 ---
 

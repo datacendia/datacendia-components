@@ -383,7 +383,7 @@ npm run dev
 
 ### Phrases to Use Only If Asked
 - "ISO 42001 compliant" (only if they ask about standards)
-- "Court-admissible" (only if they ask about litigation)
+- "forensic-grade, independently verifiable" (only if they ask about litigation)
 
 ### Phrases to Avoid
 - "AI makes the decision" → Say "AI recommends, humans decide"

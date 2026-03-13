@@ -43,7 +43,7 @@ These scripts guide sales and demo teams through compelling product demonstratio
 
 > "Everything you just saw ran entirely on your infrastructure. Zero data left this building. Zero API calls to cloud providers. You own every byte."
 >
-> "And if you ever need to prove what happened—for regulators, auditors, or litigation—every decision has a court-admissible evidence chain."
+> "And if you ever need to prove what happened—for regulators, auditors, or litigation—every decision has a forensic-grade, independently verifiable evidence chain."
 
 ### Close (1 min)
 

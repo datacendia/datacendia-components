@@ -16,7 +16,7 @@
 
 ## SLIDE 2: Datacendia for Healthcare
 
-**Every clinical AI decision — auditable, explainable, court-admissible.**
+**Every clinical AI decision — auditable, explainable, forensic-grade, independently verifiable.**
 
 Multi-agent council deliberation ensures no single AI perspective dominates. A Patient Safety Officer agent challenges the Clinical AI, a Regulatory agent checks FDA SaMD classification, an Ethics agent evaluates consent — all before a recommendation is made.
 
@@ -113,7 +113,7 @@ Billing Compliance ─┘        │         + SaMD Classification
 | Multi-agent clinical deliberation | ✅ | ❌ | ❌ | ❌ |
 | Immutable decision audit trail | ✅ | Partial | ❌ | ❌ |
 | FDA SaMD classification engine | ✅ | ❌ | ❌ | ❌ |
-| Court-admissible evidence packets | ✅ | ❌ | ❌ | ❌ |
+| forensic-grade, independently verifiable evidence packets | ✅ | ❌ | ❌ | ❌ |
 | Patient consent cryptographic ledger | ✅ | ❌ | ❌ | ❌ |
 | Sovereign/air-gapped deployment | ✅ | ❌ | ❌ | ❌ |
 | Vendor-neutral (works with any EHR) | ✅ | Epic only | ❌ | ❌ |

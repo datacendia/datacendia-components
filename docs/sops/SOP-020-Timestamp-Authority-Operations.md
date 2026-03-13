@@ -16,7 +16,7 @@ Define procedures for operating the CendiaTimestamp™ RFC 3161 Timestamp Author
 ## 2. Service Overview
 
 CendiaTimestamp™ provides **RFC 3161-compliant external timestamps** that cryptographically prove when data existed. This is critical for:
-- Court-admissible evidence ("this decision was made at time X")
+- forensic-grade, independently verifiable evidence ("this decision was made at time X")
 - Regulatory compliance (proving timely reporting)
 - Intellectual property protection
 - Audit trail integrity

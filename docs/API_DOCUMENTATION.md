@@ -291,7 +291,7 @@ Authorization: Bearer eyJhbGc...
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| POST | `/regulators-receipt/generate` | Generate court-admissible receipt | Yes |
+| POST | `/regulators-receipt/generate` | Generate forensic-grade, independently verifiable receipt | Yes |
 | GET | `/regulators-receipt/:id` | Get receipt details | Yes |
 | GET | `/regulators-receipt/:id/verify` | Verify Merkle tree integrity | Yes |
 

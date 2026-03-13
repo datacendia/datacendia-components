@@ -165,7 +165,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 - **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars and confidence meters
 - **Decision CendiaReplay** — Watch past deliberations unfold like a movie with timeline scrubbing
 - **Adversarial Red Team Mode** — "100 Ways This Could Fail" report with 8 attack perspectives
-- **Regulator's Receipt Generator** — One-click court-admissible PDF with Merkle tree evidence chain
+- **Regulator's Receipt Generator** — One-click forensic-grade, independently verifiable PDF with Merkle tree evidence chain
 
 ### NEW Features (January 23-25, 2026)
 
@@ -219,11 +219,12 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
   - Compliance timeline visualization
   - Route: `/cortex/compliance/regulatory-sandbox`
 
-- **CendiaZKP™** — Zero-Knowledge Proofs for Compliance
-  - Prove compliance without revealing proprietary logic
-  - Compliance proofs, fairness proofs, accuracy proofs
-  - Cryptographic certificates with verification
-  - Route: `/cortex/security/zkp`
+- **CendiaZKP™** — Zero-Knowledge Proofs for Compliance (PRODUCTION — March 13, 2026)
+  - Pedersen Commitments on Ristretto255 group + Schnorr-based Sigma protocols
+  - Proves consensus threshold met, agent quorum reached, dissent ratio within bounds — without revealing values
+  - Compliance proofs, threshold proofs, quorum proofs
+  - Route: `/cortex/security/zkp`, Verify: `/api/v1/verify/zkproof`
+  - Implementation: `backend/src/services/crypto/ZeroKnowledgeProofService.ts`
 
 - **CendiaInsure™** — AI Insurance Integration
   - Direct liability coverage per AI decision
@@ -232,11 +233,66 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
   - Claims management and coverage certificates
   - Route: `/cortex/enterprise/ai-insurance`
 
-- **CendiaPostQuantumKMS™** — Quantum-Resistant Cryptography
-  - Dilithium (NIST Level 2/3/5), SPHINCS+, Falcon algorithms
-  - Hybrid RSA-Dilithium for transition period
-  - Key generation, signing, verification, rotation
-  - API: `/api/v1/post-quantum/*`
+- **CendiaPostQuantumKMS™** — Quantum-Resistant Cryptography (PRODUCTION — March 13, 2026)
+  - ML-DSA-65 (Dilithium/FIPS 204) dual-signing on every Regulator's Receipt alongside Ed25519
+  - Key pairs derived from CENDIA_MASTER_SEED env var, persisted across deploys
+  - Real Ed25519 + ML-DSA-65 signatures (replaced placeholder random bytes)
+  - Public key endpoint: `/api/v1/verify/keys`
+  - Implementation: `backend/src/services/crypto/KeyManagementService.ts`
+  - Dependencies: `@noble/curves`, `@noble/hashes`, `@noble/post-quantum`
+
+### CendiaCrypto™ Enterprise Cryptographic Services (Added March 13, 2026)
+
+> 16 production cryptographic services deployed in a single session.
+> Total new code: ~8,200 lines. All services are production-deployed on Railway.
+
+**Crypto Foundation (8 services) — `backend/src/services/crypto/`**
+
+| Service | What It Does | Implementation |
+|---------|-------------|----------------|
+| **CendiaKMS** | Real Ed25519 + ML-DSA-65 (Dilithium) dual-signing | `KeyManagementService.ts` |
+| **CendiaZKP** | Pedersen commitments on Ristretto255 + Schnorr proofs | `ZeroKnowledgeProofService.ts` |
+| **CendiaMerkleForest** | Cross-receipt tamper-evident Merkle tree — modify any receipt, entire chain breaks | `MerkleForestService.ts` |
+| **CendiaCommit** | Commit-reveal protocol — proves question wasn't changed after answer | `CommitmentService.ts` |
+| **CendiaVDF** | Verifiable Delay Functions — mathematical proof of minimum deliberation time (Wesolowski RSA-2048) | `VerifiableDelayService.ts` |
+| **CendiaCID** | Content-addressed receipts with IPFS-compatible CIDv1 | `ContentAddressedReceiptService.ts` |
+| **CendiaStamp** | Visual cryptographic seal SVG from receipt hash | `CendiaStampService.ts` |
+| **CendiaVerify** | Public `/api/v1/verify/*` endpoints — no auth required | `verify.ts` (routes) |
+
+**Functional Features (4 services)**
+
+| Service | What It Does | Implementation |
+|---------|-------------|----------------|
+| **CendiaEvidence** | Self-contained evidence package + standalone offline HTML verifier | `SelfContainedEvidenceService.ts` |
+| **CendiaReplay** | Animated decision replay theater (shareable HTML) | `DecisionReplayTheaterService.ts` |
+| **CendiaGapScan** | Compliance gap scanner (EU AI Act, NIST AI RMF, ISO 42001, SOX, GDPR) | `ComplianceExportService.ts` |
+| **CendiaPrecedent** | Decision precedent engine (TF-IDF cosine similarity) | `DecisionSimilarityService.ts` |
+
+**Advanced Capabilities (4 services)**
+
+| Service | Technical Detail | Implementation |
+|---------|-----------------|----------------|
+| **CendiaEscrow** | AES-256-GCM + Shamir SSS M-of-N threshold (Lagrange over GF(p)) + VDF time-lock | `DecisionEscrowService.ts` |
+| **CendiaRedTeam** | Pre-decision gate: 6 attack vectors (bias, logic, regulatory, precedent, adversarial frame, dissent amplify) | `AdversarialRedTeamService.ts` |
+| **CendiaWhistle** | Anonymous dissent via Linkable Ring Signatures on Ristretto255 | `AnonymousDissentService.ts` |
+| **CendiaSentinel** | Real-time anomaly detection with auto-pause pipeline (EventEmitter circuit breaker) | `AnomalySentinelService.ts` |
+
+**Competitive Differentiation — What Nobody Else Has**
+
+| Capability | Datacendia Primitive | Competitor Status |
+|-----------|---------------------|-------------------|
+| Per-inference cryptographic signing | CendiaKMS — Ed25519 + Dilithium dual-sig on every receipt | IBM/Prove AI: training layer only |
+| ZKP compliance proof without revealing decision content | CendiaZKP — Pedersen-Ristretto255-Schnorr | Nobody |
+| Mathematical proof of minimum deliberation time | CendiaVDF — Wesolowski RSA-2048 | Nobody |
+| Retroactive prompt laundering made impossible | CendiaCommit — commit-reveal before/after deliberation | Nobody |
+| Modify any receipt, entire chain breaks | CendiaMerkleForest — cross-receipt Merkle tree | Nobody |
+| Regulator verifies without accessing client systems | CendiaVerify — public endpoints, no auth | Nobody |
+| Pre-decision adversarial attack gate | CendiaRedTeam — 6 attack vectors before Council finalises | Nobody |
+| Anonymous whistleblowing with cryptographic proof of legitimacy | CendiaWhistle — Linkable Ring Signatures on Ristretto255 | Nobody |
+| Time-locked sealed decisions, multi-party release | CendiaEscrow — AES-256-GCM + Shamir SSS + VDF time-lock | Nobody |
+| Auto-pause live pipeline on anomaly detection | CendiaSentinel — EventEmitter circuit breaker | Nobody |
+| Offline-verifiable evidence package | CendiaEvidence — standalone HTML verifier, no server needed | Nobody |
+| Post-quantum future-proofed signatures | ML-DSA-65 (Dilithium) — resistant to quantum decryption for 20+ year records | Prove AI uses Hedera (no PQ) |
 
 - **CendiaCarbonAware™** — Carbon-Aware AI Scheduling
   - Real-time grid carbon intensity tracking (10 regions)
@@ -413,7 +469,7 @@ We don't claim to know absolute truth. We claim to:
 │   │         LEDGER™             │   │         CHRONOS™            │            │
 │   │  Immutable Decision Record  │   │   Time Machine Snapshots    │            │
 │   │  Blockchain-style Hashing   │   │   Historical Comparison     │            │
-│   │  Court-Admissible Export    │   │   Monte Carlo Simulation    │            │
+│   │  forensic-grade, independently verifiable Export    │   │   Monte Carlo Simulation    │            │
 │   └─────────────────────────────┘   └─────────────────────────────┘            │
 │                                                                                  │
 ├──────────────────────────────────────────────────────────────────────────────────┤
@@ -1443,7 +1499,7 @@ interface LedgerEntry {
 - Cryptographic hash chain (blockchain-inspired)
 - Distributed witness nodes (optional)
 - Third-party attestation (optional)
-- Court-admissible export format
+- forensic-grade, independently verifiable export format
 
 ---
 
@@ -2018,7 +2074,7 @@ function verifyLedgerIntegrity(entries: LedgerEntry[]): boolean {
 }
 ```
 
-### Court-Admissible Export
+### forensic-grade, independently verifiable Export
 
 For legal proceedings, Datacendia can generate:
 
@@ -2408,7 +2464,7 @@ Content-Type: application/json
 
 ## Tier Overview
 
-**The Defensible AI Platform.** Open-core model. Self-hosted or managed cloud. Every decision is auditable, explainable, and court-admissible. Your data, your keys, your proof.
+**The Defensible AI Platform.** Open-core model. Self-hosted or managed cloud. Every decision is auditable, explainable, and forensic-grade, independently verifiable. Your data, your keys, your proof.
 
 | Tier | Description | Price | Deployment |
 |------|-------------|-------|------------|
@@ -2938,7 +2994,7 @@ The entire product structure has been reorganized into four clear categories:
 - **Apache Druid** — Time-series analytics for CendiaChronos™
 
 #### Enterprise Features
-- **Immutable Audit Ledger** — Cryptographic hash chain for court-admissible records
+- **Immutable Audit Ledger** — Cryptographic hash chain for forensic-grade, independently verifiable records
 - **Workflow Orchestration (n8n/Temporal)** — Automated decision workflows
 - **Feature Flags** — Progressive rollout of new capabilities
 - **Multi-tenant Architecture** — Organization isolation and data sovereignty

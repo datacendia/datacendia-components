@@ -39,7 +39,7 @@
 ### Provisional Patent Applications (Priority)
 
 **Patent 1: "System and Method for Multi-Agent AI Deliberation with Immutable Decision Proof"**
-- Claims: multi-agent deliberation architecture, adversarial cross-examination, formal dissent capture, Merkle-signed decision packets, court-admissible evidence export
+- Claims: multi-agent deliberation architecture, adversarial cross-examination, formal dissent capture, Merkle-signed decision packets, forensic-grade, independently verifiable evidence export
 - Prior art differentiation: no existing system combines multi-agent deliberation + immutable proof + regulatory compliance + sovereign deployment
 - **Estimated filing cost:** $5,000-$8,000 (provisional)
 

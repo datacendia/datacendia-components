@@ -213,7 +213,7 @@
 #### Cryptographic Issues
 1. **HMAC signing key fallback** — `ImmutableAuditLedger` and `CendiaGatewayService` generate ephemeral random keys if environment variables aren't set. In production, this means evidence signed during one server lifecycle can't be verified after restart. This MUST be flagged as a critical deployment requirement
 2. **No key rotation mechanism** — signing keys are static. Enterprise crypto requires periodic key rotation with backward-compatible verification
-3. **Merkle tree is in-memory only** — if the server restarts, the entire Merkle chain is lost. For court-admissible evidence, the chain must be persisted
+3. **Merkle tree is in-memory only** — if the server restarts, the entire Merkle chain is lost. For forensic-grade, independently verifiable evidence, the chain must be persisted
 
 #### ML/NLP Gaps
 4. **PII detection is regex-only** — no Named Entity Recognition (NER) model. Regex misses contextual PII (e.g., "John told me his number is five five five twelve thirty-four" won't be caught). For enterprise DLP, this needs ML-based detection (spaCy, Presidio, or a fine-tuned transformer)
@@ -370,7 +370,7 @@ The platform exhibits a pattern I'd call **"architecture astronautics"** — des
 **What needs work before a real client deployment:**
 - The 10 critical path items above (estimated 14 working days)
 - Schema cleanup (remove 77 orphaned models)
-- Merkle tree persistence (currently lost on restart — court-admissible evidence can't be ephemeral)
+- Merkle tree persistence (currently lost on restart — forensic-grade, independently verifiable evidence can't be ephemeral)
 - Signing key management documentation and startup validation
 
 **What is NOT needed:**

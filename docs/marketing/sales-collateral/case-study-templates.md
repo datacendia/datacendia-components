@@ -205,7 +205,7 @@ Datacendia deployed DCII with:
 ### [Organization] — Decision Crisis Immunization for [Use Case]
 
 **Executive Summary**
-[Organization] deployed Datacendia's DCII platform to [solve specific problem]. Within [timeframe], [Organization] achieved [key metric improvement], reducing [risk/cost/time] by [X]% while ensuring every AI-assisted decision is auditable, explainable, and court-admissible.
+[Organization] deployed Datacendia's DCII platform to [solve specific problem]. Within [timeframe], [Organization] achieved [key metric improvement], reducing [risk/cost/time] by [X]% while ensuring every AI-assisted decision is auditable, explainable, and forensic-grade, independently verifiable.
 
 **Client Profile**
 | Attribute | Value |

@@ -14,7 +14,7 @@
 | AWS GovCloud | FedRAMP-ready governance for government AI | Sovereign AI governance |
 | Amazon HealthLake | HIPAA-compliant clinical AI governance | Healthcare AI governance |
 
-**Customer Message:** "Deploy AI on AWS with confidence. Datacendia ensures every AI decision is auditable, compliant, and court-admissible — natively integrated with your AWS AI stack."
+**Customer Message:** "Deploy AI on AWS with confidence. Datacendia ensures every AI decision is auditable, compliant, and forensic-grade, independently verifiable — natively integrated with your AWS AI stack."
 
 **Marketplace Listing:** AWS Marketplace — AMI or SaaS listing, $50K-$1.5M/year pricing tiers.
 

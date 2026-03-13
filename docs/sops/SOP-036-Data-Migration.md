@@ -158,7 +158,7 @@ curl http://localhost:3001/api/v1/admin/gdpr/subject-access \
 ```
 
 ### 6.3 Court-Ready Export
-Use CendiaChronos™ for court-admissible historical data exports (see SOP-023).
+Use CendiaChronos™ for forensic-grade, independently verifiable historical data exports (see SOP-023).
 
 ---
 

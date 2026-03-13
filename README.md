@@ -10,7 +10,7 @@
 
 **The Defensible AI Platform — every decision, defensible.**
 
-Datacendia is the only AI platform where every decision is auditable, explainable, and court-admissible. Multiple AI agents *deliberate* — argue, dissent, and challenge each other — then every decision is recorded in a cryptographically signed, immutable evidence packet. Open-core. Sovereign-first. Self-hosted or cloud. Your data, your keys, your proof.
+Datacendia is the only AI platform where every decision is auditable, explainable, and forensic-grade, independently verifiable. Multiple AI agents *deliberate* — argue, dissent, and challenge each other — then every decision is recorded in a cryptographically signed, immutable evidence packet. Open-core. Sovereign-first. Self-hosted or cloud. Your data, your keys, your proof.
 
 ### Repository Landscape
 
@@ -47,7 +47,7 @@ Datacendia is the only AI platform where every decision is auditable, explainabl
 ## Why Datacendia?
 
 - **Deliberation over dictation** — Multiple AI perspectives challenge each other before any recommendation. No single-model black box.
-- **Immutable audit trail** — Every decision is Merkle-signed with full reasoning chains. Export court-admissible evidence packets.
+- **Immutable audit trail** — Every decision is Merkle-signed with full reasoning chains. Export forensic-grade, independently verifiable evidence packets.
 - **Sovereign by default** — Runs entirely on your infrastructure. Air-gapped deployable. No data leaves your network.
 - **Compliance-native** — Architecture aligned to SOC 2, HIPAA, GDPR, NIST 800-53, Basel III, EU AI Act. Controls implemented, formal certifications available on enterprise contract.
 - **9 enterprise infrastructure integrations** — Kafka, Temporal, OPA, OpenBao, NeMo Guardrails, RAPIDS, Flink CEP, Triton, Confidential Computing. All opt-in with embedded fallbacks.
@@ -375,7 +375,7 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | **CendiaOversight™** | Real-time Regulatory Radar — FDA, GDPR, DORA frameworks with policy gates |
 | **CendiaNotary™** | Cryptographic Signing Authority — customer-owned keys |
 | **CendiaVault™** | Unified Evidence Storage — decision packets, audit ledger, evidence bundles |
-| **CendiaProvenance™** | Full decision lineage & evidence export — court-admissible |
+| **CendiaProvenance™** | Full decision lineage & evidence export — forensic-grade, independently verifiable |
 | **CendiaCrucible™** | Adversarial Stress Testing — attack decisions with simulated threats |
 | **CendiaRedTeam™** | Every agent becomes a devil's advocate |
 | **SGAS™** | Synthetic Governance Agent System — 5 agent classes at societal scale |

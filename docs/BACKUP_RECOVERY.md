@@ -53,7 +53,7 @@ This document outlines backup mechanisms, failover procedures, and disaster reco
 │                   LONG-TERM ARCHIVE (CendiaEternal)              │
 │  ┌─────────────────────────────────────────────────────────┐    │
 │  │  - 7+ year retention for compliance                     │    │
-│  │  - Court-admissible export capability                   │    │
+│  │  - forensic-grade, independently verifiable export capability                   │    │
 │  │  - Blockchain-anchored integrity proofs                 │    │
 │  │  - Quarterly archive verification                       │    │
 │  └─────────────────────────────────────────────────────────┘    │
@@ -136,7 +136,7 @@ TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 # Export ledger with hash chain verification
 datacendia-cli ledger export \
   --verify-chain \
-  --format court-admissible \
+  --format forensic-grade, independently verifiable \
   --output "${BACKUP_DIR}/ledger_${TIMESTAMP}.tar.gz.gpg"
 
 # Anchor to blockchain (optional)

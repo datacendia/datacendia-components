@@ -88,7 +88,7 @@
 
 ### Script
 
-> "This is CendiaProvenance — the answer to 'prove it.' It combines two capabilities: Decision Lineage, which gives you the full lifecycle of every decision from inception through deliberation to outcome, and Evidence Export, which generates court-admissible documentation with cryptographic proof."
+> "This is CendiaProvenance — the answer to 'prove it.' It combines two capabilities: Decision Lineage, which gives you the full lifecycle of every decision from inception through deliberation to outcome, and Evidence Export, which generates forensic-grade, independently verifiable documentation with cryptographic proof."
 
 ### Demo Flow — Decision Lineage Tab
 

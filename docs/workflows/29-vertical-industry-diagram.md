@@ -72,7 +72,7 @@ flowchart TD
 
     B --> C6["Defensible Outputs"]
     C6 --> C6a["Regulator-ready"]
-    C6 --> C6b["Court-admissible"]
+    C6 --> C6b["forensic-grade, independently verifiable"]
     C6 --> C6c["Auditor-verifiable"]
 
     style A fill:#6366f1,color:#fff

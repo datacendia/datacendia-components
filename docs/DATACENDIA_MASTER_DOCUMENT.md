@@ -26,7 +26,7 @@
 
 # 1. Executive Summary
 
-Datacendia is a **Decision Crisis Immunization Infrastructure (DCII)** — sovereign-first enterprise software where every AI decision is auditable, explainable, and court-admissible. Multiple AI agents *deliberate* — argue, dissent, and challenge each other — then every decision is recorded in a cryptographically signed, immutable evidence packet.
+Datacendia is a **Decision Crisis Immunization Infrastructure (DCII)** — sovereign-first enterprise software where every AI decision is auditable, explainable, and forensic-grade, independently verifiable. Multiple AI agents *deliberate* — argue, dissent, and challenge each other — then every decision is recorded in a cryptographically signed, immutable evidence packet.
 
 **Identity:** Sovereign-first enterprise software. Not SaaS. Annual licenses. Customer-owned infrastructure, keys, and proof.
 
@@ -162,7 +162,7 @@ Datacendia is a **Decision Crisis Immunization Infrastructure (DCII)** — sover
     ┌────────▼────────┐
     │ Evidence Vault   │ ← Immutable audit trail
     │ + DCII Signing   │ ← 9 primitives evaluated
-    │ + Regulator Pkt  │ ← Court-admissible export
+    │ + Regulator Pkt  │ ← forensic-grade, independently verifiable export
     └─────────────────┘
 ```
 
@@ -241,7 +241,7 @@ Each primitive maps to a concrete platform capability:
 | **CendiaROI™** | `ROIMetricsService` | Governance ROI proof |
 | **CendiaDCII™** | `IISSService` | Decision Crisis Immunization |
 | **CendiaGateway™** | `CendiaGatewayService` | AI Governance Gateway |
-| **The Governance Receipt™** | `RegulatorsReceiptService` | Court-admissible artifact |
+| **The Governance Receipt™** | `RegulatorsReceiptService` | forensic-grade, independently verifiable artifact |
 
 ## Trust Layer (The "Shield")
 
@@ -391,7 +391,7 @@ Basel III Capital Stack
 | Service | Purpose |
 |---------|---------|
 | `EvidenceVaultService` | Decision evidence storage |
-| `EvidenceExportService` | Court-admissible export |
+| `EvidenceExportService` | forensic-grade, independently verifiable export |
 | `RegulatorsReceiptService` | Regulator packet generator |
 | `SignedTestReportService` | Signed test evidence |
 | `KeyManagementService` | AWS KMS / Vault / Azure / local |

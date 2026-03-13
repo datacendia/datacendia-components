@@ -55,7 +55,7 @@
 
 **[Screen: Zoom into a decision packet]**
 
-> "Cryptographically signed. Court-admissible. Regulator-ready."
+> "Cryptographically signed. forensic-grade, independently verifiable. Regulator-ready."
 
 **[Screen: Show audit trail]**
 

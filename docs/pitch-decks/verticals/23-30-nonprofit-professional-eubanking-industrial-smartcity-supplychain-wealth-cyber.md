@@ -119,7 +119,7 @@ ECB/SSM supervisory requirements, CRR/CRD IV/V, EU AI Act (2024/1689), DORA (202
 These banks face the same regulatory burden as G-SIBs but without 500-person compliance teams.
 
 ## SLIDE 9: Competitive Position
-vs. Moody's Analytics: we add AI deliberation + real-time monitoring + court-admissible proof. vs. Wolters Kluwer: we're AI-native. vs. Big 4 consulting: product not engagement.
+vs. Moody's Analytics: we add AI deliberation + real-time monitoring + forensic-grade, independently verifiable proof. vs. Wolters Kluwer: we're AI-native. vs. Big 4 consulting: product not engagement.
 
 ## SLIDE 10: Engagement
 Pilot: €50K/90 days (1 regulatory domain). Foundation: €300K/year. Enterprise: €1M/year. Contact: stuart.rainey@datacendia.com
@@ -235,7 +235,7 @@ Pilot: $50K. Foundation: $250K/year. Enterprise: $750K/year. Contact: stuart.rai
 Incident response deliberation with multi-perspective analysis. Threat assessment with intelligence fusion. Vulnerability prioritization with business impact weighting. Disclosure decision governance with regulatory mapping.
 
 ## SLIDE 3: Value Proposition
-Every cyber decision — containment, disclosure, remediation — documented with immutable audit trail. CISO personal liability protection through provable deliberation. Board reporting with court-admissible evidence of governance.
+Every cyber decision — containment, disclosure, remediation — documented with immutable audit trail. CISO personal liability protection through provable deliberation. Board reporting with forensic-grade, independently verifiable evidence of governance.
 
 ## SLIDE 4-10: Compliance (SEC cyber rules, NIST CSF, CMMC, SOC 2, ISO 27001, state breach notification laws), Architecture (sovereign, zero-trust), Engagement
 Pilot: $50K. Foundation: $250K/year. Enterprise: $750K/year. Contact: stuart.rainey@datacendia.com

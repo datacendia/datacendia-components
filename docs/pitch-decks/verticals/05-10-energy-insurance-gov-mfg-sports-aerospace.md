@@ -32,7 +32,7 @@ Data Diode for OT→IT unidirectional data flow. Air-gapped deployable for nucle
 Grid reliability improvement: 15-25% fewer unplanned outages. Regulatory compliance prep: 6 weeks → 3 days. Capital allocation optimization: 8-12% better returns. Safety incident documentation: real-time, immutable.
 
 ## SLIDE 8: Competitive Position
-No competitor offers multi-agent deliberation + NERC CIP compliance + air-gapped deployment + court-admissible decision proof for energy operations.
+No competitor offers multi-agent deliberation + NERC CIP compliance + air-gapped deployment + forensic-grade, independently verifiable decision proof for energy operations.
 
 ## SLIDE 9: Engagement
 Pilot: $50K/90 days (1 decision type). Foundation: $300K/year. Enterprise: $1M/year (multi-site, all decision types).
@@ -220,6 +220,6 @@ FAA 14 CFR Part 25 (Transport Category), EASA CS-25, DO-178C (Software), DO-254 
 Air-gapped for ITAR-controlled programs. Deterministic replay for certification evidence. Post-quantum signatures for 50+ year record retention. Data Diode for flight data ingest.
 
 ## SLIDE 6-10: ROI, Competitive Position, Engagement
-Certification timeline reduction: 20-30%. AD compliance tracking: automated, real-time. Safety assessment documentation: court-admissible. Pilot: $50K. Foundation: $400K/year. Enterprise: $1M/year.
+Certification timeline reduction: 20-30%. AD compliance tracking: automated, real-time. Safety assessment documentation: forensic-grade, independently verifiable. Pilot: $50K. Foundation: $400K/year. Enterprise: $1M/year.
 
 Contact: stuart.rainey@datacendia.com

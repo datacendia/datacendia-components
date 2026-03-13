@@ -45,7 +45,7 @@ Microsoft Copilot is in 400M+ Office seats. Azure OpenAI Service powers enterpri
 - **Dynamics 365**: industry-specific governance for ERP/CRM AI features
 
 ## SLIDE 3: The Copilot Governance Gap
-Enterprise Copilot rollout is stalling because CISOs ask: "Can you audit what Copilot does?" Microsoft's answer: audit logs. Datacendia's answer: **deliberation + proof + court-admissible evidence packets**.
+Enterprise Copilot rollout is stalling because CISOs ask: "Can you audit what Copilot does?" Microsoft's answer: audit logs. Datacendia's answer: **deliberation + proof + forensic-grade, independently verifiable evidence packets**.
 
 ## SLIDE 4-7: Architecture (Azure-native deployment), 30 verticals for Dynamics 365 industries, Market sizing
 ## SLIDE 8: Strategic investment — $3-5M. Azure Marketplace co-sell. Copilot governance partnership.

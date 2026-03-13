@@ -9,13 +9,13 @@
 
 ## 1. Purpose
 
-Define the procedure for generating, verifying, and distributing Regulator's Receipts — court-admissible PDF documents that cryptographically prove an organization's decision-making process.
+Define the procedure for generating, verifying, and distributing Regulator's Receipts — forensic-grade, independently verifiable PDF documents that cryptographically prove an organization's decision-making process.
 
 ---
 
 ## 2. What Is a Regulator's Receipt?
 
-A Regulator's Receipt is a **court-admissible PDF document** that bundles:
+A Regulator's Receipt is a **forensic-grade, independently verifiable PDF document** that bundles:
 - Complete decision deliberation record
 - All agent analyses and votes
 - IISS score at time of decision

@@ -110,7 +110,7 @@
 - "Every Decision. Documented. Immutable."
 - Cryptographic hash chains
 - Full provenance tracking
-- Court-admissible exports
+- forensic-grade, independently verifiable exports
 - Zero-knowledge audit capability
 
 ---

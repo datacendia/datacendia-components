@@ -135,7 +135,7 @@ Comprehensive testing of all 135+ platform services.
 | `DruidService.comprehensive.test.ts` | Analytics | ~700 | ✅ |
 | `EvidenceVaultService.test.ts` | Evidence storage | ~800 | ✅ |
 | `MonteCarloEngine.test.ts` | Simulation engine | ~300 | ✅ |
-| `RegulatorsReceiptService.test.ts` | Court-admissible receipts | ~300 | ✅ |
+| `RegulatorsReceiptService.test.ts` | forensic-grade, independently verifiable receipts | ~300 | ✅ |
 | `SCGE.test.ts` | Sovereign compliance | ~600 | ✅ |
 | `SGAS.test.ts` | Sovereign governance | ~650 | ✅ |
 | `TestEvidenceLedgerService.test.ts` | Evidence chain | ~800 | ✅ |

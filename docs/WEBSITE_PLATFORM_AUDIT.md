@@ -63,7 +63,7 @@
 | `ComplianceDashboardService.ts` | Compliance metrics | ✅ Real |
 | `EvidenceExportService.ts` | Evidence bundle export | ✅ Real |
 | `EvidenceVaultService.ts` | Immutable evidence storage | ✅ Real |
-| `RegulatorsReceiptService.ts` | Court-admissible PDF | ✅ Real |
+| `RegulatorsReceiptService.ts` | forensic-grade, independently verifiable PDF | ✅ Real |
 | `SignedTestReportService.ts` | Signed test reports | ✅ Real |
 | `TestEvidenceLedgerService.ts` | Test evidence chain | ✅ Real |
 
@@ -205,7 +205,7 @@
 | `panopticon.ts` | `/api/v1/panopticon/*` | Regulation engine |
 | `omnitranslate.ts` | `/api/v1/omnitranslate/*` | 100+ language translation |
 | `kms.ts` | `/api/v1/kms/*` | Key management |
-| `regulators-receipt.ts` | `/api/v1/regulators-receipt/*` | Court-admissible evidence |
+| `regulators-receipt.ts` | `/api/v1/regulators-receipt/*` | forensic-grade, independently verifiable evidence |
 | `visualization.ts` | `/api/v1/visualization/*` | Real-time visualization |
 | `adversarial-redteam.ts` | `/api/v1/adversarial-redteam/*` | Red team mode |
 | `legal.ts` | `/api/v1/legal/*` | Legal vertical |
@@ -378,7 +378,7 @@
 | "Cryptographically signed" | KMS integration, Merkle trees | ✅ Real |
 | "Deploy on your infrastructure" | Sovereign services, portable instance | ✅ Real |
 | "100+ languages" | OmniTranslate with Qwen 2.5 | ✅ Real |
-| "Court-admissible evidence" | Regulator's Receipt, PDF/A-3 | ✅ Real |
+| "forensic-grade, independently verifiable evidence" | Regulator's Receipt, PDF/A-3 | ✅ Real |
 | "No external dependencies" | Ollama local inference | ✅ Real |
 | "Zero-copy data" | ClientHostedAdapter | ✅ Real |
 

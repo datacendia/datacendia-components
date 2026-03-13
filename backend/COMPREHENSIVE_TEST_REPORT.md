@@ -206,7 +206,7 @@ The Datacendia platform consists of **135 service classes** organized into **16 
 |---------|-------------|---------|--------|
 | EvidenceVaultService | Secure evidence storage | 0 | ✅ |
 | EvidenceExportService | Legal bundle export | 23 | ✅ |
-| RegulatorsReceiptService | Court-admissible receipts with Merkle trees | 16 | ✅ |
+| RegulatorsReceiptService | forensic-grade, independently verifiable receipts with Merkle trees | 16 | ✅ |
 | ComplianceDashboardService | Compliance tracking dashboard | 21 | ✅ |
 | SignedTestReportService | Cryptographically signed test reports | 21 | ✅ |
 | TestEvidenceLedgerService | Immutable test evidence chain | 34 | ✅ |
@@ -374,7 +374,7 @@ The Datacendia platform consists of **135 service classes** organized into **16 
 | SBOMService | Crucible | ✅ | 14ms | Software Bill of Materials (SPDX/CycloneDX) |
 | EvidenceVaultService | Evidence | ✅ | 9ms | Secure evidence storage |
 | EvidenceExportService | Evidence | ✅ | 130ms | Legal bundle export |
-| RegulatorsReceiptService | Evidence | ✅ | 6ms | Court-admissible receipts with Merkle trees |
+| RegulatorsReceiptService | Evidence | ✅ | 6ms | forensic-grade, independently verifiable receipts with Merkle trees |
 | ComplianceDashboardService | Evidence | ✅ | 1ms | Compliance tracking dashboard |
 | SignedTestReportService | Evidence | ✅ | 1ms | Cryptographically signed test reports |
 | TestEvidenceLedgerService | Evidence | ✅ | 1ms | Immutable test evidence chain |

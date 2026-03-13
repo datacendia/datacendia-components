@@ -100,7 +100,7 @@ The AI will provide step-by-step instructions with exact buttons to click.
    - Merkle tree proof
    - Cryptographic signatures
    - Evidence chain
-5. Click **"Download PDF"** for court-admissible evidence
+5. Click **"Download PDF"** for forensic-grade, independently verifiable evidence
 
 ### Create Marketing Content
 1. Navigate to **Admin → Marketing Studio**

@@ -10,15 +10,15 @@
 **Our Counter:**
 - Palantir is **analytics** — we are **governance**. They help you make decisions; we prove those decisions were defensible.
 - Palantir has **no multi-agent deliberation**. Single-model AI with no adversarial cross-examination.
-- Palantir has **no court-admissible evidence packets**. No Merkle-signed decision proof.
+- Palantir has **no forensic-grade, independently verifiable evidence packets**. No Merkle-signed decision proof.
 - Palantir is **cloud-dependent** for most deployments. We are sovereign-first, air-gapped by design.
 - Palantir has **no post-quantum cryptography**. Decision proof won't survive quantum computing.
 - Palantir **doesn't do compliance frameworks**. No Basel III engine, no FDA SaMD, no NERC CIP.
 
 **When They Win:** When customer wants data analytics and visualization (not our market).
-**When We Win:** When customer needs provable AI decision governance, regulatory compliance, or court-admissible evidence.
+**When We Win:** When customer needs provable AI decision governance, regulatory compliance, or forensic-grade, independently verifiable evidence.
 
-**Killer Question:** "Can Palantir produce a court-admissible evidence packet showing exactly which AI perspectives were considered, which dissented, and why the final decision was made?"
+**Killer Question:** "Can Palantir produce a forensic-grade, independently verifiable evidence packet showing exactly which AI perspectives were considered, which dissented, and why the final decision was made?"
 
 ---
 
@@ -37,7 +37,7 @@
 **When They Win:** When customer already has IBM stack and wants to add GRC modules.
 **When We Win:** When customer wants AI-native decision governance, not legacy GRC.
 
-**Killer Question:** "How long until IBM OpenPages can produce a Merkle-signed, court-admissible decision packet with multi-agent deliberation? And what will that implementation cost?"
+**Killer Question:** "How long until IBM OpenPages can produce a Merkle-signed, forensic-grade, independently verifiable decision packet with multi-agent deliberation? And what will that implementation cost?"
 
 ---
 
@@ -48,7 +48,7 @@
 **Our Counter:**
 - C3.ai is an **AI application platform** — build custom AI apps. We are **governance infrastructure**.
 - No multi-agent deliberation. No adversarial cross-examination. No dissent capture.
-- No court-admissible evidence packets. No immutable decision proof.
+- No forensic-grade, independently verifiable evidence packets. No immutable decision proof.
 - No industry-specific compliance engines (Basel III, FDA SaMD, NERC CIP).
 - C3.ai stock down 80%+ from IPO — customer confidence is shaky.
 - C3.ai requires **heavy customization**. Datacendia ships 30 verticals out of the box.
@@ -72,7 +72,7 @@
 - We complement OneTrust: they handle data privacy, we handle AI decision governance.
 
 **When They Win:** When the need is purely data privacy / consent management.
-**When We Win:** When the need is AI decision governance with regulatory compliance and court-admissible proof.
+**When We Win:** When the need is AI decision governance with regulatory compliance and forensic-grade, independently verifiable proof.
 
 **Killer Question:** "OneTrust manages your privacy program. But when your AI makes a credit decision, a clinical recommendation, or a trading call — who proves that decision was defensible? That's us."
 
@@ -86,7 +86,7 @@
 - MLOps platforms govern **model performance** (accuracy, drift, bias metrics). We govern **decisions**.
 - A model can have perfect metrics and still produce a bad decision (context matters).
 - No multi-agent deliberation. Model monitoring ≠ decision deliberation.
-- No court-admissible evidence packets. Model logs ≠ decision proof.
+- No forensic-grade, independently verifiable evidence packets. Model logs ≠ decision proof.
 - No industry-specific compliance (Basel III, FDA SaMD, NERC CIP, FAR/DFARS).
 - We complement MLOps: they monitor models, we govern the decisions those models inform.
 
@@ -123,7 +123,7 @@
 **Our Counter:**
 - Consulting produces **PowerPoints and frameworks**. We produce **working software**.
 - Big 4 engagement: $2-5M, 12-18 months, deliverable = a PDF.
-- Datacendia: $50K, 90 days, deliverable = a **running platform** with court-admissible evidence packets.
+- Datacendia: $50K, 90 days, deliverable = a **running platform** with forensic-grade, independently verifiable evidence packets.
 - Big 4 **don't build product**. They'll recommend you build something — then bill you to build it.
 - We're not competitive with Big 4 — we're **complementary**. They do strategy, we do implementation.
 - Better: Big 4 **white-labels Datacendia** and sells it to their clients (see Deloitte pitch deck).
@@ -164,7 +164,7 @@
 - 21 CFR Part 11: we implement it as architecture, not as a feature checkbox.
 
 **When They Win:** When the need is clinical trial operations management.
-**When We Win:** When the need is clinical decision governance with multi-agent deliberation and court-admissible proof.
+**When We Win:** When the need is clinical decision governance with multi-agent deliberation and forensic-grade, independently verifiable proof.
 
 ---
 

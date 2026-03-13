@@ -61,7 +61,7 @@ Datacendia is a Sovereign Decision Infrastructure designed to eliminate these vu
 Our architecture provides:
 
 - **Discovery-Time Proof:** Cryptographic timestamps that lock the moment evidence becomes actionable, preventing time-bar challenges
-- **Regulator's Receipt:** A single, court-admissible artifact proving every procedural step was followed
+- **Regulator's Receipt:** A single, forensic-grade, independently verifiable artifact proving every procedural step was followed
 - **Adversarial Stress Testing:** Pre-publication review that identifies legal vulnerabilities before rulings are issued
 
 Unlike cloud-dependent platforms, Datacendia runs as a **Sovereign Stack** — air-gapped, on-premises, and outside the reach of foreign data subpoenas. UEFA's sensitive financial data remains entirely under your control.

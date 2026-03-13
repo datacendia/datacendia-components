@@ -10,7 +10,7 @@
 **Abstract (300 words):**
 Enterprise AI deployments are creating a new attack surface: ungoverned decisions. When an AI system makes a credit decision, a clinical recommendation, or a trading call, the decision itself becomes an artifact that regulators, auditors, and courts will examine. Yet most organizations have zero infrastructure to prove those decisions were deliberated, challenged, and defensible.
 
-This session introduces Decision Crisis Immunization Infrastructure (DCII) — a new category of security architecture built on 9 decision primitives that prevent institutional failure. We'll demonstrate how multi-agent AI deliberation creates adversarial cross-examination of every decision, how Merkle-signed evidence packets provide court-admissible proof, and how post-quantum cryptography ensures decision proof survives quantum computing.
+This session introduces Decision Crisis Immunization Infrastructure (DCII) — a new category of security architecture built on 9 decision primitives that prevent institutional failure. We'll demonstrate how multi-agent AI deliberation creates adversarial cross-examination of every decision, how Merkle-signed evidence packets provide forensic-grade, independently verifiable proof, and how post-quantum cryptography ensures decision proof survives quantum computing.
 
 Attendees will learn: (1) Why CISO personal liability (SolarWinds precedent) extends to AI decisions, (2) How the EU AI Act, SEC cyber disclosure rules, and AI Executive Order 14110 create mandatory governance requirements, (3) A practical implementation framework using the 9 decision primitives, (4) Live demonstration of multi-agent deliberation producing a defensible decision packet in under 60 seconds.
 
@@ -36,7 +36,7 @@ This session demonstrates: multi-agent deliberation where Credit, Risk, Complian
 **Abstract:**
 Clinical AI tools claim 87% sensitivity. But when clinicians override 49-96% of alerts, effective sensitivity drops to 54% — worse than manual screening. The problem isn't the AI. It's the governance layer between AI output and clinical action.
 
-We present a multi-agent clinical AI governance framework where Patient Safety, Regulatory (FDA SaMD), Ethics, and Clinical agents deliberate before any recommendation reaches a clinician. 12 healthcare decision schemas enforce HIPAA, 21 CFR Part 11, and FDA SaMD classification. Every clinical AI decision produces a Merkle-signed, court-admissible evidence packet. Demo: sepsis prediction governance showing how Council deliberation catches what a single model misses.
+We present a multi-agent clinical AI governance framework where Patient Safety, Regulatory (FDA SaMD), Ethics, and Clinical agents deliberate before any recommendation reaches a clinician. 12 healthcare decision schemas enforce HIPAA, 21 CFR Part 11, and FDA SaMD classification. Every clinical AI decision produces a Merkle-signed, forensic-grade, independently verifiable evidence packet. Demo: sepsis prediction governance showing how Council deliberation catches what a single model misses.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Title
 
-**Show HN: Defensible AI – Open-source multi-agent deliberation where every AI decision is court-admissible**
+**Show HN: Defensible AI – Open-source multi-agent deliberation where every AI decision is forensic-grade, independently verifiable**
 
 ## Body
 
@@ -19,7 +19,7 @@ The EU AI Act is coming. DORA is live. Every boardroom is asking "can we prove o
 **What it does:**
 
 - **The Council** — 15 C-Suite AI agents (CFO, CLO, CISO, CTO, etc.) with distinct mandates deliberate on your question. They argue, dissent, cross-examine, and challenge each other. The devil's advocate is built in.
-- **Immutable Audit Trail** — Every deliberation is recorded in a Merkle tree. Signed with customer-owned keys. Court-admissible. Exportable as "Regulator's Receipt" PDFs.
+- **Immutable Audit Trail** — Every deliberation is recorded in a Merkle tree. Signed with customer-owned keys. forensic-grade, independently verifiable. Exportable as "Regulator's Receipt" PDFs.
 - **DCII Framework** — Decision Crisis Immunization Infrastructure. 9 primitives that prove decisions were made correctly when challenged years later.
 - **30 Industry Verticals** — Legal (49 council modes), Healthcare (HIPAA), Defense (JOPP), Financial (Basel III), Sports (FIFA/UEFA governance), and more.
 - **Sovereign-First** — Runs on Ollama locally. Air-gap deployable. No cloud dependency required. Your data never leaves your infrastructure.

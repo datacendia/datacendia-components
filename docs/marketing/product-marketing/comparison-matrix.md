@@ -11,7 +11,7 @@
 | Multi-agent AI deliberation | ✅ (4-12 agents) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 18-24mo build |
 | Adversarial cross-examination | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Formal dissent capture | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Court-admissible evidence packets | ✅ (Merkle-signed) | ❌ | ❌ | ❌ | ❌ | ❌ | Partial | ❌ | ❌ |
+| forensic-grade, independently verifiable evidence packets | ✅ (Merkle-signed) | ❌ | ❌ | ❌ | ❌ | ❌ | Partial | ❌ | ❌ |
 | Immutable decision audit trail | ✅ (hash-chained) | Partial | ❌ | Partial | Partial | Logs only | Partial | Partial | ❌ |
 | 9 Decision Primitives (DCII) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **INDUSTRY VERTICALS** | | | | | | | | | |

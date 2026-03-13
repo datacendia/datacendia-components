@@ -288,7 +288,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Real-Time Deliberation Visualization** — Live agent interaction graphs
 - **Decision Replay Theater** — Step-through decision replay with timeline
 - **Adversarial Red Team Mode** — 8 attack perspectives for stress-testing decisions
-- **Regulator's Receipt Generator** — Merkle tree evidence chain, court-admissible PDF
+- **Regulator's Receipt Generator** — Merkle tree evidence chain, forensic-grade, independently verifiable PDF
 - Decision packet generation with cryptographic signing
 - Enterprise scheduler service for automated compliance/security jobs
 - Comprehensive CI/CD pipeline (11 jobs: type-check, lint, test, build, security scan, load test, mutation test, contract test, Docker build, release)

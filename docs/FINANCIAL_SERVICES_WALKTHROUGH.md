@@ -2,7 +2,7 @@
 
 **From question to regulator-ready decision packet in 90 seconds.**
 
-This walkthrough follows a realistic scenario through every stage of the Datacendia platform: submitting a question, watching agents deliberate, reading the cross-examination, and exporting a court-admissible decision packet. Every API call shown is real. Every agent response follows the actual system prompts defined in `FinancialAgents.ts`.
+This walkthrough follows a realistic scenario through every stage of the Datacendia platform: submitting a question, watching agents deliberate, reading the cross-examination, and exporting a forensic-grade, independently verifiable decision packet. Every API call shown is real. Every agent response follows the actual system prompts defined in `FinancialAgents.ts`.
 
 ---
 

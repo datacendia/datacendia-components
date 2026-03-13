@@ -77,7 +77,7 @@ Test Case 4: Chronos Timeline Flow
   ├─ Generate historical events
   ├─ Create alternate timeline branch
   ├─ Run Monte Carlo simulation
-  ├─ Export court-admissible package
+  ├─ Export forensic-grade, independently verifiable package
   └─ Verify cryptographic chain
 ```
 
@@ -859,7 +859,7 @@ A: "Phase 1: Single beefy node handles 50 users. Phase 2: We separate LLM worker
 A: "We use Apache 2.0 licensed models (Qwen, Mistral) by default—no commercial restrictions. If you prefer Llama, it's allowed for commercial use under 700M MAU. We can also route to your own OpenAI/Anthropic keys."
 
 **Q: "How do we prove this to auditors?"**
-A: "Chronos Ledger provides a cryptographically signed, immutable audit trail. Court-Admissible Export generates forensic packages with merkle proofs, multi-signature verification, and full deliberation transcripts."
+A: "Chronos Ledger provides a cryptographically signed, immutable audit trail. forensic-grade, independently verifiable Export generates forensic packages with merkle proofs, multi-signature verification, and full deliberation transcripts."
 
 ---
 

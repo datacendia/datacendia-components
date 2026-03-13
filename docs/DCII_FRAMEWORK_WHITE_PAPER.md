@@ -101,7 +101,7 @@ Three converging regulatory regimes create urgent demand for decision evidence i
 
 **NIST AI RMF (2023):** The "Govern" function requires "policies, processes, procedures, and practices are in place to manage AI risks" with "documentation and transparency" as core outcomes.
 
-**Gap:** None of these frameworks specify *how* to generate court-admissible evidence for AI-assisted decisions. DCII provides the implementation layer.
+**Gap:** None of these frameworks specify *how* to generate forensic-grade, independently verifiable evidence for AI-assisted decisions. DCII provides the implementation layer.
 
 ### 1.3 Implementation Status
 
@@ -442,7 +442,7 @@ flowchart LR
     style V fill:#3b82f6,color:#fff
 ```
 
-*Figure 7: Synthetic Media Authentication pipeline — from ingest through C2PA signing, 6-point analysis, to court-admissible verdict.*
+*Figure 7: Synthetic Media Authentication pipeline — from ingest through C2PA signing, 6-point analysis, to forensic-grade, independently verifiable verdict.*
 
 **Compliance:** EU AI Act Article 52, C2PA v1.3, FRE 901(b)(9). **Target:** >95% accuracy, <2% false positives.
 
@@ -644,7 +644,7 @@ flowchart TB
 
     subgraph Export["Evidence Export Layer"]
         RECEIPT["Regulator's\nReceipt™"]
-        PDF["Court-Admissible\nPDF"]
+        PDF["forensic-grade, independently verifiable\nPDF"]
         JSON_OUT["Machine-Readable\nJSON / XML"]
         API_OUT["REST API\n(59 endpoints)"]
     end
@@ -810,7 +810,7 @@ IISS >800 qualifies for "Platinum Governance" tier: reduced premiums, lower dedu
 
 **Organization:** Multinational corporation, class-action re: algorithmic hiring (3 years, 50K candidates).
 
-**Implementation:** Similarity Engine identified 847 relevant decisions in 12 min; P2 generated court-admissible bundles; P6 demonstrated proactive fairness monitoring.
+**Implementation:** Similarity Engine identified 847 relevant decisions in 12 min; P2 generated forensic-grade, independently verifiable bundles; P6 demonstrated proactive fairness monitoring.
 
 **Outcome:** E-discovery $45K (vs. $800K estimate), favorable settlement, opposing counsel cited documentation as "exemplary."
 
@@ -904,7 +904,7 @@ gantt
 The Decision Crisis Immunization Infrastructure (DCII) addresses a critical gap in AI governance: the ability to prove that decisions were made correctly under adversarial scrutiny. By decomposing decision evidence into nine measurable primitives, DCII provides:
 
 1. **Regulatory compliance:** Reference implementation for EU AI Act, NIST AI RMF, DORA
-2. **Legal defensibility:** Court-admissible evidence with cryptographic integrity
+2. **Legal defensibility:** forensic-grade, independently verifiable evidence with cryptographic integrity
 3. **Quantifiable resilience:** IISS™ score enables board-level risk reporting
 4. **Vendor-neutral standard:** Can be implemented with any AI/ML stack
 
@@ -948,7 +948,7 @@ As AI systems become embedded in high-stakes decisions across healthcare, financ
 ```
 ═══════════════════════════════════════════════════════════════
               REGULATOR'S RECEIPT™
-   Decision Evidence Package — Court Admissible
+   Decision Evidence Package — forensic-grade, independently verifiable
 ═══════════════════════════════════════════════════════════════
 
 DECISION ID:    DEC-2026-02-18-A7F3E9

@@ -200,7 +200,7 @@ Plus: `email.ts` (12KB), `graphIngestion.ts` (12KB), `ollama.ts` (8KB), `cache.s
 | Service | Size | Purpose |
 |---------|------|---------|
 | **ComplianceDashboard** | 33KB | Compliance metrics dashboard data |
-| **EvidenceExport** | 40KB | Court-admissible evidence bundle export |
+| **EvidenceExport** | 40KB | forensic-grade, independently verifiable evidence bundle export |
 | **EvidenceVault** | 36KB | Encrypted evidence storage and retrieval |
 | **RegulatorsReceipt** | 24KB | One-click regulator submission with Merkle tree proof |
 | **SignedTestReport** | 29KB | Digitally signed test report generation (real PDF) |

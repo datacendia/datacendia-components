@@ -17,7 +17,7 @@ Modern enterprises face a critical dilemma:
 Datacendia delivers enterprise-grade AI capabilities with three non-negotiable guarantees:
 
 1. **Data Sovereignty** - All processing happens locally. Zero telemetry. Customer owns everything.
-2. **Full Auditability** - Every AI decision is traceable, reproducible, and court-admissible.
+2. **Full Auditability** - Every AI decision is traceable, reproducible, and forensic-grade, independently verifiable.
 3. **No Vendor Lock-in** - Open models, standard formats, portable architecture.
 
 ---
@@ -45,7 +45,7 @@ Navigate your organization's decision history like a DVR:
 
 ### 🔍 CendiaWitness™ - Immutable Decision Records
 
-Court-admissible evidence chains for every significant decision:
+forensic-grade, independently verifiable evidence chains for every significant decision:
 - Cryptographic hashes of all inputs
 - Full provenance from source data to recommendation
 - Zero-knowledge audit capabilities for sensitive information

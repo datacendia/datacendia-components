@@ -45,7 +45,7 @@ OFFSITE BACKUP (CendiaVault)
 
 LONG-TERM ARCHIVE (CendiaEternal)
 ├── 7+ year retention for compliance
-├── Court-admissible export capability
+├── forensic-grade, independently verifiable export capability
 ├── Blockchain-anchored integrity proofs
 └── Quarterly archive verification
 ```

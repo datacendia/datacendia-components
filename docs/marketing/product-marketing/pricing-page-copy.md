@@ -6,7 +6,7 @@
 ## Headline
 
 **Every Decision, Defensible.**
-Choose the plan that fits your organization. All plans include sovereign deployment, customer-owned keys, and court-admissible evidence packets.
+Choose the plan that fits your organization. All plans include sovereign deployment, customer-owned keys, and forensic-grade, independently verifiable evidence packets.
 
 ---
 
@@ -107,7 +107,7 @@ Everything in Enterprise, plus:
 | Sovereign deployment (your infrastructure) | ✅ | ✅ | ✅ | ✅ |
 | Customer-owned encryption keys | ✅ | ✅ | ✅ | ✅ |
 | Merkle-signed decision packets | ✅ | ✅ | ✅ | ✅ |
-| Court-admissible evidence export | ✅ | ✅ | ✅ | ✅ |
+| forensic-grade, independently verifiable evidence export | ✅ | ✅ | ✅ | ✅ |
 | Multi-agent deliberation | ✅ | ✅ | ✅ | ✅ |
 | Immutable audit trail | ✅ | ✅ | ✅ | ✅ |
 | No data leaves your network | ✅ | ✅ | ✅ | ✅ |

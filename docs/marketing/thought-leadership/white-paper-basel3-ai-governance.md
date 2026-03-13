@@ -97,7 +97,7 @@ When AI credit decisions are governed by multi-agent deliberation:
 
 ## 5. Conclusion
 
-Basel III compliance and AI governance are converging. Banks that treat them as separate problems will face compounding regulatory burden. Banks that implement Decision Crisis Immunization — where every AI decision is automatically documented, validated against capital requirements, and exportable as court-admissible evidence — will turn compliance from cost center to competitive advantage.
+Basel III compliance and AI governance are converging. Banks that treat them as separate problems will face compounding regulatory burden. Banks that implement Decision Crisis Immunization — where every AI decision is automatically documented, validated against capital requirements, and exportable as forensic-grade, independently verifiable evidence — will turn compliance from cost center to competitive advantage.
 
 ---
 

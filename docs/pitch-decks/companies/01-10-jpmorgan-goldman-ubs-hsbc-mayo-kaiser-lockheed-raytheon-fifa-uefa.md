@@ -18,7 +18,7 @@ JPMorgan spends **$15B/year on technology** and is the most advanced AI user in 
 - **Basel III Engine** with real CRR/CRD IV calculations — not approximations
 - **4 financial decision schemas** already built (Credit, Trading, AML, Portfolio)
 - **SR 11-7 model documentation** auto-generated for every AI-assisted decision
-- **Court-admissible evidence packets** for every regulatory interaction
+- **forensic-grade, independently verifiable evidence packets** for every regulatory interaction
 - Runs **on JPMorgan's infrastructure** — sovereign, customer-owned keys
 
 ## SLIDE 3: The Use Case — Model Risk Governance

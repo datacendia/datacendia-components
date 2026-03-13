@@ -82,7 +82,7 @@ The existing Feb 18 audit in the marketing repo already identified these. Still 
 The platform now has a fully functional DCII dashboard with 6 tabs (IISS, Media Auth, Jurisdiction, Timestamps, Similarity, Cognitive Bias), all backed by real services with demo data seeding. Marketing `dcii.html` describes the framework but doesn't show the actual UI.
 
 ### 🟡 Regulator's Receipt — Undersold
-Marketing mentions "1-click PDF" but the platform now generates real court-admissible PDFs with Merkle trees, IISS scores, compliance requirements, digital signatures, and evidence chains. This is a flagship demo-able feature.
+Marketing mentions "1-click PDF" but the platform now generates real forensic-grade, independently verifiable PDFs with Merkle trees, IISS scores, compliance requirements, digital signatures, and evidence chains. This is a flagship demo-able feature.
 
 ### 🟡 Council Video — May Be Outdated
 Marketing references `assets/videos/Council.mp4` — need to verify this reflects current Council UI after recent updates.

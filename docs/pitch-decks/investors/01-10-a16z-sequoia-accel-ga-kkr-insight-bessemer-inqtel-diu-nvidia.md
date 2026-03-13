@@ -19,7 +19,7 @@ Every enterprise deploying AI needs governance. Not optional — regulatory mand
 ## SLIDE 3: What We Built
 Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the governance layer for every AI decision.
 - **Multi-agent deliberation**: 4-12 AI agents argue, dissent, challenge — then produce a defensible decision
-- **Immutable proof**: every decision Merkle-signed, timestamped, court-admissible
+- **Immutable proof**: every decision Merkle-signed, timestamped, forensic-grade, independently verifiable
 - **30 industry verticals**: pre-built decision schemas, compliance frameworks, agent presets
 - **Sovereign-first**: runs on customer infrastructure, customer-owned keys
 
@@ -44,7 +44,7 @@ Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the gov
 
 ## SLIDE 7: Competitive Moat
 - **Multi-agent deliberation** — no competitor has this (Palantir, C3.ai, IBM = single-model)
-- **Court-admissible proof** — unique: Merkle-signed, timestamped, exportable evidence
+- **forensic-grade, independently verifiable proof** — unique: Merkle-signed, timestamped, exportable evidence
 - **30 verticals** — 2+ year head start on domain-specific schemas
 - **Sovereign architecture** — air-gapped, post-quantum, TPM — required for defense/government
 - **9 decision primitives** — proprietary framework, potential industry standard

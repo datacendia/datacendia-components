@@ -24,7 +24,7 @@ Multiple AI agents *deliberate* — argue, dissent, and challenge each other —
 
 - Not SaaS. Annual license. Your infrastructure, your keys, your proof.
 - Sovereign-first: runs entirely on your network
-- Court-admissible decision artifacts
+- forensic-grade, independently verifiable decision artifacts
 
 ---
 
@@ -38,7 +38,7 @@ CFO Agent ───────┤        │         (Merkle-signed)
 Legal Counsel ───┘        │
                           ▼
                    Regulator's Receipt™
-                   (court-admissible proof)
+                   (forensic-grade, independently verifiable proof)
 ```
 
 Each agent has a different mandate. They cross-examine each other. The pivotal insight emerges from *conflict*, not consensus.
@@ -102,7 +102,7 @@ Every financial decision is evaluated against 9 crisis immunization primitives:
 |--------|-------------------|-----------------|
 | Regulatory exam prep | 6 weeks | 2 days (automated packet export) |
 | Model risk documentation | Manual, inconsistent | Auto-generated, Merkle-signed |
-| Decision audit trail | Fragmented across email/meetings | Immutable, court-admissible |
+| Decision audit trail | Fragmented across email/meetings | Immutable, forensic-grade, independently verifiable |
 | AML false positive review | 95% false positive rate | AI-assisted with full audit trail |
 | Annual compliance cost | $50M+ | 30-40% reduction |
 
@@ -114,7 +114,7 @@ Every financial decision is evaluated against 9 crisis immunization primitives:
 |--|-----------|---------|-------|----------|
 | Multi-agent deliberation | ✅ | ❌ | ❌ | ❌ |
 | Immutable decision proof | ✅ | ❌ | ❌ | ❌ |
-| Court-admissible artifacts | ✅ | ❌ | ❌ | ❌ |
+| forensic-grade, independently verifiable artifacts | ✅ | ❌ | ❌ | ❌ |
 | Sovereign/air-gapped | ✅ | Partial | ❌ | ❌ |
 | Post-quantum crypto | ✅ | ❌ | ❌ | ❌ |
 | Customer-owned keys | ✅ | ❌ | ❌ | N/A |

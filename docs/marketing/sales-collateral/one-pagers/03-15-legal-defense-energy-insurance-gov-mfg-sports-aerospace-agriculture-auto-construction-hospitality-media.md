@@ -120,7 +120,7 @@
 
 **Key Rule:** Unmitigated catastrophic hazard = **AUTOMATIC REJECTION** (cannot be overridden). Post-quantum signatures for 50+ year record retention.
 
-**ROI:** Certification timeline: 20-30% reduction. AD compliance: automated, real-time. Safety assessment documentation: court-admissible.
+**ROI:** Certification timeline: 20-30% reduction. AD compliance: automated, real-time. Safety assessment documentation: forensic-grade, independently verifiable.
 
 **Pricing:** $50K Pilot → $400K/year Foundation → $1M/year Enterprise
 

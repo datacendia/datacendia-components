@@ -17,7 +17,7 @@
 | **Basel III Engine** | Real CET1/AT1/Tier2, RWA, LCR, NSFR calculations (CRR articles cited) |
 | **6 Compliance Frameworks** | Basel III/CRR, SR 11-7, FRTB, BCBS 239, Dodd-Frank, MiFID II |
 | **Agent Presets** | Credit Officer, Risk Manager, Trading Desk Head, BSA Officer |
-| **Defensible Outputs** | Regulator packets, court bundles, audit trails — court-admissible |
+| **Defensible Outputs** | Regulator packets, court bundles, audit trails — forensic-grade, independently verifiable |
 
 ### Real Example: $2.3B CRE Acquisition
 

@@ -33,7 +33,7 @@ Our infrastructure stack includes **15+ VC-backed technologies** — not as cosm
 | **MinIO** | Air-gap object storage | Enables sovereign deployments → closes deals cloud cannot |
 | **ClickHouse** | Compliance analytics | Powers audit dashboards → enterprise upsell |
 | **Meilisearch** | Legal research search | Enables legal vertical → TR partnership path |
-| **HashiCorp Vault** | KMS/HSM integration | Cryptographic signing → court-admissible evidence |
+| **HashiCorp Vault** | KMS/HSM integration | Cryptographic signing → forensic-grade, independently verifiable evidence |
 | **BullMQ** | Deliberation job queue | Enables async Council → scales to enterprise load |
 
 ### 🟢 COMMODITY (Swappable)
@@ -57,7 +57,7 @@ Our infrastructure stack includes **15+ VC-backed technologies** — not as cosm
 | **MinIO** | Becomes default storage for AI evidence artifacts in sovereign deployments |
 | **Neo4j** | Moves from "graph database" to "compliance backbone" in regulated industries |
 | **Prisma** | Becomes enterprise-safe ORM in sovereign/air-gapped stacks |
-| **ClickHouse** | Powers regulator-facing analytics in court-admissible systems |
+| **ClickHouse** | Powers regulator-facing analytics in forensic-grade, independently verifiable systems |
 | **Meilisearch** | Enters legal/compliance market through Datacendia's vertical |
 | **HashiCorp Vault** | Becomes default KMS for AI decision signing in regulated environments |
 
@@ -103,7 +103,7 @@ Our infrastructure stack includes **15+ VC-backed technologies** — not as cosm
 
 > "Neo4j is our compliance backbone — decision lineage, entity relationships, audit trails. It's what makes Decision DNA defensible to regulators."
 
-**Reverse leverage:** Datacendia positions Neo4j as infrastructure for court-admissible AI, not just a graph database.
+**Reverse leverage:** Datacendia positions Neo4j as infrastructure for forensic-grade, independently verifiable AI, not just a graph database.
 
 ---
 
@@ -127,7 +127,7 @@ Our infrastructure stack includes **15+ VC-backed technologies** — not as cosm
 |------------|----------|-----------------|
 | **HashiCorp Vault** | 🟡 Strategic | Enterprise KMS for cryptographic signing |
 
-> "Vault is our enterprise KMS backend — cryptographic signing for court-admissible evidence. Alongside AWS KMS and Azure Key Vault, but Vault is preferred for on-prem."
+> "Vault is our enterprise KMS backend — cryptographic signing for forensic-grade, independently verifiable evidence. Alongside AWS KMS and Azure Key Vault, but Vault is preferred for on-prem."
 
 **Reverse leverage:** Datacendia positions Vault as the KMS for AI decision signing in regulated industries.
 

@@ -43,7 +43,7 @@ The core decision pipeline (Council → Deliberation → Evidence → PDF) uses 
 | **CouncilDecisionPacketService** | `council/CouncilDecisionPacketService.ts` | Real Merkle trees, KMS signing, tool call tracing, Prisma `decision_packets` table |
 | **DecisionService** | `DecisionService.ts` | Full Prisma CRUD, outcome tracking, decision reversal workflows |
 | **PDFGeneratorService** | `document/PDFGeneratorService.ts` | Real pdfkit PDF/A-3 generation (headers, footers, tables, signature blocks, watermarks) |
-| **RegulatorsReceiptService** | `evidence/RegulatorsReceiptService.ts` | Real PDF generation, Merkle evidence chain, court-admissible format |
+| **RegulatorsReceiptService** | `evidence/RegulatorsReceiptService.ts` | Real PDF generation, Merkle evidence chain, forensic-grade, independently verifiable format |
 | **ChronosEventBus** | `ChronosEventBus.ts` | Real event bus, Prisma persistence, department filtering |
 | **StatementOfFactsService** | `StatementOfFactsService.ts` | Claim extraction, evidence correlation, `loadFromDB()` |
 
