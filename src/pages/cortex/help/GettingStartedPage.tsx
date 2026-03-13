@@ -291,8 +291,8 @@ export const GettingStartedPage: React.FC = () => {
           <BookOpen className="w-5 h-5 text-purple-400 mb-3" />
           <h3 className="text-sm font-semibold text-neutral-200 mb-1">Documentation</h3>
           <p className="text-xs text-neutral-500 mb-3">Full API docs, integration guides, and architecture references.</p>
-          <a href="https://github.com/datacendia/datacendia-core" target="_blank" rel="noopener noreferrer" className="text-xs text-purple-400 flex items-center gap-1 hover:underline">
-            github.com/datacendia/datacendia-core <ExternalLink className="w-3 h-3" />
+          <a href="https://docs.datacendia.com" target="_blank" rel="noopener noreferrer" className="text-xs text-purple-400 flex items-center gap-1 hover:underline">
+            docs.datacendia.com <ExternalLink className="w-3 h-3" />
           </a>
         </div>
         <div className="p-5 rounded-xl border border-neutral-700/50 bg-neutral-900/50">
