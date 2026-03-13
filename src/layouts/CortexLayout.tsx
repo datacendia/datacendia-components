@@ -1430,6 +1430,7 @@ const CortexLayoutInner: React.FC = () => {
 
             {/* Right: Minimal utilities */}
             <div className="flex items-center gap-1.5">
+              <LanguageSelector className="hidden sm:flex" />
               <HealthIndicator className="hidden sm:flex" />
 
               <NotificationBell />
