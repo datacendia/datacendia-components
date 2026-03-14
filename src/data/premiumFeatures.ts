@@ -70,8 +70,8 @@ export const PREMIUM_TIERS: Record<
     bgGradient: 'from-blue-500 to-indigo-600',
     icon: '🏛️',
     annualPricing: '$499/month',
-    tagline: 'Make decisions → Understand them → Prove them',
-    pillarCount: 3,
+    tagline: 'Make decisions → Understand them → Prove them → Monitor them',
+    pillarCount: 8,
   },
   enterprise: {
     name: 'Enterprise',
