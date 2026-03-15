@@ -51,6 +51,11 @@ const localeLoaders: Record<string, () => Promise<Record<string, unknown>>> = {
   vi: () => import('./locales/vi.json').then((m) => m.default as Record<string, unknown>),
   th: () => import('./locales/th.json').then((m) => m.default as Record<string, unknown>),
   tl: () => import('./locales/tl.json').then((m) => m.default as Record<string, unknown>),
+  'pt-BR': () => import('./locales/pt-BR.json').then((m) => m.default as Record<string, unknown>),
+  nl: () => import('./locales/nl.json').then((m) => m.default as Record<string, unknown>),
+  ru: () => import('./locales/ru.json').then((m) => m.default as Record<string, unknown>),
+  sv: () => import('./locales/sv.json').then((m) => m.default as Record<string, unknown>),
+  uk: () => import('./locales/uk.json').then((m) => m.default as Record<string, unknown>),
 };
 
 // =============================================================================
@@ -62,12 +67,17 @@ export type SupportedLocale =
   | 'en'
   | 'es'
   | 'pt'
+  | 'pt-BR'
   // Europe
   | 'fr'
   | 'de'
   | 'it'
+  | 'nl'
   | 'pl'
+  | 'ru'
+  | 'sv'
   | 'tr'
+  | 'uk'
   // Middle East & Africa
   | 'ar'
   | 'he'
@@ -305,6 +315,51 @@ export const localeConfigs: Record<SupportedLocale, LocaleConfig> = {
     flag: '🇻🇳',
     dateFormat: 'DD/MM/YYYY',
     numberFormat: { decimal: ',', thousands: '.', currency: 'VND' },
+  },
+  'pt-BR': {
+    code: 'pt-BR',
+    name: 'Portuguese (Brazil)',
+    nativeName: 'Português (Brasil)',
+    direction: 'ltr',
+    flag: '🇧🇷',
+    dateFormat: 'DD/MM/YYYY',
+    numberFormat: { decimal: ',', thousands: '.', currency: 'BRL' },
+  },
+  nl: {
+    code: 'nl',
+    name: 'Dutch',
+    nativeName: 'Nederlands',
+    direction: 'ltr',
+    flag: '🇳🇱',
+    dateFormat: 'DD-MM-YYYY',
+    numberFormat: { decimal: ',', thousands: '.', currency: 'EUR' },
+  },
+  ru: {
+    code: 'ru',
+    name: 'Russian',
+    nativeName: 'Русский',
+    direction: 'ltr',
+    flag: '🇷🇺',
+    dateFormat: 'DD.MM.YYYY',
+    numberFormat: { decimal: ',', thousands: ' ', currency: 'RUB' },
+  },
+  sv: {
+    code: 'sv',
+    name: 'Swedish',
+    nativeName: 'Svenska',
+    direction: 'ltr',
+    flag: '🇸🇪',
+    dateFormat: 'YYYY-MM-DD',
+    numberFormat: { decimal: ',', thousands: ' ', currency: 'SEK' },
+  },
+  uk: {
+    code: 'uk',
+    name: 'Ukrainian',
+    nativeName: 'Українська',
+    direction: 'ltr',
+    flag: '🇺🇦',
+    dateFormat: 'DD.MM.YYYY',
+    numberFormat: { decimal: ',', thousands: ' ', currency: 'UAH' },
   },
 };
 
