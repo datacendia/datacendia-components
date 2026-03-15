@@ -8,7 +8,7 @@
 | Tier | Pricing |
 |------|---------|
 | **Pilot** | $50,000 — 90 days, 1 business unit |
-| **Foundation** | $150,000–$500,000/year — Council + DECIDE + DCII |
+| **Foundation** | $150,000–$500,000/year — 8 pillars: Council + DECIDE + DCII + Gateway + Pulse + Bridge + Graph + Compliance Readiness |
 | **Enterprise** | $500,000–$1,500,000/year — Foundation + StressTest, Comply, Govern, Sovereign, Operate |
 | **Strategic** | $2M–$100M+/year — Enterprise + Resilience, Model, Dominate, Nation |
 
@@ -19,6 +19,11 @@
 | `theCouncil` | ✓ | ✓ | ✓ | ✓ |
 | `decide` | ✓ | ✓ | ✓ | ✓ |
 | `dcii` | ✓ | ✓ | ✓ | ✓ |
+| `gateway` | ✓ | ✓ | ✓ | ✓ |
+| `pulse` | ✓ | ✓ | ✓ | ✓ |
+| `bridge` | ✓ | ✓ | ✓ | ✓ |
+| `graph` | ✓ | ✓ | ✓ | ✓ |
+| `complianceReadiness` | ✓ | ✓ | ✓ | ✓ |
 
 ## Foundation Services
 
@@ -33,6 +38,12 @@
 | `regulatorsReceipt` | ✓ | ✓ | ✓ | ✓ |
 | `iissScoring` | ✓ | ✓ | ✓ | ✓ |
 | `biasMitigation` | ✓ | ✓ | ✓ | ✓ |
+| `cendiaGateway` | ✓ | ✓ | ✓ | ✓ |
+| `cendiaPulse` | ✓ | ✓ | ✓ | ✓ |
+| `cendiaBridge` | ✓ | ✓ | ✓ | ✓ |
+| `knowledgeGraph` | ✓ | ✓ | ✓ | ✓ |
+| `complianceChecklist` | ✓ | ✓ | ✓ | ✓ |
+| `pillars` | ✓ | ✓ | ✓ | ✓ |
 
 ## Enterprise Pillars
 
@@ -53,7 +64,8 @@
 | `warGames` | — | — | ✓ | ✓ |
 | `complianceMonitor` | — | — | ✓ | ✓ |
 | `regulatoryAbsorb` | — | — | ✓ | ✓ |
-| `complianceGuard` | — | — | ✓ | ✓ |
+| `regulatorySandbox` | — | — | ✓ | ✓ |
+| `crossJurisdiction` | — | — | ✓ | ✓ |
 | `policyEngine` | — | — | ✓ | ✓ |
 | `dissent` | — | — | ✓ | ✓ |
 | `autopilot` | — | — | ✓ | ✓ |
@@ -62,6 +74,31 @@
 | `departmentCopilots` | — | — | ✓ | ✓ |
 | `omniTranslate` | — | — | ✓ | ✓ |
 | `apotheosis` | — | — | ✓ | ✓ |
+| `zkp` | — | — | ✓ | ✓ |
+| `escrow` | — | — | ✓ | ✓ |
+| `sso` | — | — | ✓ | ✓ |
+| `cacPiv` | — | — | ✓ | ✓ |
+
+## Enterprise Intelligence (Advanced DECIDE)
+
+| Feature | **Pilot** | **Foundation** | **Enterprise** | **Strategic** |
+|---------|--- | --- | --- | --- |
+| `cendiaLens` | — | — | ✓ | ✓ |
+| `auditProvenance` | — | — | ✓ | ✓ |
+| `regulatoryAbsorbIntel` | — | — | ✓ | ✓ |
+| `orbit` | — | — | ✓ | ✓ |
+| `consensusBuilder` | — | — | ✓ | ✓ |
+| `whatIfScenarios` | — | — | ✓ | ✓ |
+| `synthesisEngine` | — | — | ✓ | ✓ |
+| `rdpService` | — | — | ✓ | ✓ |
+
+## Crown Jewels (Enterprise)
+
+| Feature | **Pilot** | **Foundation** | **Enterprise** | **Strategic** |
+|---------|--- | --- | --- | --- |
+| `cendiaEcho` | — | — | ✓ | ✓ |
+| `cendiaRedTeam` | — | — | ✓ | ✓ |
+| `cendiaGnosis` | — | — | ✓ | ✓ |
 
 ## Strategic Pillars
 
@@ -115,3 +152,28 @@
 ---
 
 *This matrix is the source of truth for pricing pages and marketing materials. If a feature is listed as `—` for a tier, it must not be marketed as available at that tier.*
+
+---
+
+## Cross-Repo Comparison: Core vs Components
+
+| Dimension | Core (Foundation) | Components (Enterprise+Strategic) |
+|-----------|-------------------|-----------------------------------|
+| **License** | Apache 2.0 (open source) | Proprietary |
+| **Price** | Free | From $499/mo (Enterprise) / Custom (Strategic) |
+| **Total Routes** | ~170 accessible (~249 total, 79 gated) | ~274 total (~104 additional) |
+| **Deliberation Engine** | ✅ Full (13 pages) | — (included via Core) |
+| **Decision Intelligence** | 4 core tools (Chronos, PreMortem, GhostBoard, DecisionDebt) | +8 advanced (Lens, AuditProvenance, Regulatory, Orbit, Consensus, What-If, Synthesis, RDP) |
+| **Crisis Immunization** | ✅ Full DCII (7 pages) | — (included via Core) |
+| **AI Gateway** | ✅ CendiaGateway + browser extensions | — (included via Core) |
+| **Knowledge Graph** | ✅ (3 pages: Explorer, Lineage, Entity) | — (included via Core) |
+| **Compliance** | ✅ Basic (readiness checklist, 1 page) | ✅ 4 services (Continuous Monitor, Regulatory Sandbox, Cross-Jurisdiction, Regulator's Receipt) |
+| **Governance/Court** | ❌ (gated → UpgradePage) | ✅ 2 services (Decision Packets, Constitutional Court) |
+| **Crown Jewels** | ❌ (gated → UpgradePage) | ✅ 3 dashboards (Echo, RedTeam, Gnosis) |
+| **Sovereign Deployment** | ❌ (gated → UpgradePage) | ✅ 18 routes (13 sovereign pages, 22 architectural patterns) |
+| **Industry Verticals** | Hub teaser only (list visible, pages gated) | ✅ 26 full vertical packs |
+| **Stress Testing** | ❌ (gated → UpgradePage) | ✅ CendiaCrucible + AdversarialRedTeam + COLLAPSE (Strategic) |
+| **Live Operations** | Basic (Pulse — 3 pages) | ✅ CendiaPulse WebSocket (LiveAgentMonitor) |
+| **ZKP / Crypto** | ❌ (gated → UpgradePage) | ✅ Escrow + ZKP |
+| **SSO/CAC/PIV** | ❌ | ✅ SSOService + CAC/PIV auth |
+| **HA / Monitoring** | Docker Compose (dev) | Production HA + Prometheus/Grafana/Jaeger |
