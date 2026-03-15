@@ -11,7 +11,7 @@
 
 /**
  * Regulator's Receipt Service Tests
- * Tests for the court-admissible decision documentation feature
+ * Tests for the forensic-grade, independently verifiable decision documentation feature
  */
 
 import { describe, it, expect } from 'vitest';

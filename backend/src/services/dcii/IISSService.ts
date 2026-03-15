@@ -406,7 +406,7 @@ class IISSService {
       'Tamper Evidence': ['DecisionDNAService: Merkle tree integrity verification', 'EvidenceVaultService: integrityHash on all packets'],
       'Non-Repudiation': ['EvidenceVaultService: accessLog with user signatures', 'DecisionDNAService: digital signatures array'],
       'Blockchain Anchoring': ['Not yet implemented - planned integration'],
-      'Evidence Packet Generation': ['RegulatorsReceiptService: court-admissible PDF generation', 'EvidenceExportService: multi-format export'],
+      'Evidence Packet Generation': ['RegulatorsReceiptService: forensic-grade, independently verifiable PDF generation', 'EvidenceExportService: multi-format export'],
       'Multi-Agent Analysis': ['CouncilService: multi-agent deliberation with 3-15 agents', 'DeliberationService: agentResponses[] capture'],
       'Real-Time Capture': ['DeliberationService: real-time persistence during council sessions', 'CouncilWebSocket: live streaming'],
       'Alternative Documentation': ['PostDeliberationService: pre-mortem analysis', 'DecisionDNAService: alternatives tracking'],

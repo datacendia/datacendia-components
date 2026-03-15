@@ -645,7 +645,7 @@ export class PDFGeneratorService {
     };
   }): Promise<GeneratedPDF> {
     // =========================================================================
-    // APPENDIX B COURT-ADMISSIBLE FORMAT
+    // APPENDIX B forensic-grade, independently verifiable FORMAT
     // Monospace Courier layout with section borders, key-value alignment,
     // IISS scores, and verification instructions.
     // =========================================================================
@@ -666,7 +666,7 @@ export class PDFGeneratorService {
           info: {
             Title: `Regulators Receipt - ${receipt.receiptId}`,
             Author: 'Datacendia Platform',
-            Subject: "Regulator's Receipt - Court-Admissible Decision Documentation",
+            Subject: "Regulator's Receipt - forensic-grade, independently verifiable Decision Documentation",
             Keywords: `regulators-receipt, decision, evidence, compliance, ${receipt.receiptId}`,
             Creator: 'Datacendia PDFGeneratorService',
             Producer: 'Datacendia DCII Framework v2.0',
@@ -832,7 +832,7 @@ export class PDFGeneratorService {
           .text("REGULATOR'S RECEIPT", LEFT, titleY, { align: 'center', width: PW, lineBreak: false });
         titleY += 24;
         doc.font(MONO).fontSize(9).fillColor('#4a5568')
-          .text('Decision Evidence Package  |  Court Admissible  |  DCII Framework', LEFT, titleY, { align: 'center', width: PW, lineBreak: false });
+          .text('Decision Evidence Package  |  forensic-grade, independently verifiable  |  DCII Framework', LEFT, titleY, { align: 'center', width: PW, lineBreak: false });
         doc.y = titleY + 14;
         safeDown(0.5);
         doubleBorder();
@@ -1133,7 +1133,7 @@ export class PDFGeneratorService {
             pageCount: range.count,
             metadata: {
               title: `Regulators Receipt - ${receipt.receiptId}`,
-              subject: "Regulator's Receipt - Court-Admissible Decision Documentation",
+              subject: "Regulator's Receipt - forensic-grade, independently verifiable Decision Documentation",
             },
             createdAt: new Date(),
           });
@@ -1155,12 +1155,12 @@ export class PDFGeneratorService {
 
     // Header
     doc.font('Courier-Bold').fontSize(7).fillColor('#718096')
-      .text("DATACENDIA REGULATOR'S RECEIPT  --  CONFIDENTIAL  --  COURT ADMISSIBLE", 60, 20, {
+      .text("DATACENDIA REGULATOR'S RECEIPT  --  CONFIDENTIAL  --  forensic-grade, independently verifiable", 60, 20, {
         align: 'center', width: doc.page.width - 120, lineBreak: false,
       });
     // Footer
     doc.font('Courier').fontSize(7).fillColor('#718096')
-      .text(`Cryptographically signed. Tamper-evident. Court-admissible.    Page ${pageNum}`, 60, doc.page.height - 35, {
+      .text(`Cryptographically signed. Tamper-evident. forensic-grade, independently verifiable.    Page ${pageNum}`, 60, doc.page.height - 35, {
         align: 'center', width: doc.page.width - 120, lineBreak: false,
       });
 
@@ -1170,7 +1170,7 @@ export class PDFGeneratorService {
 
   /**
    * Standard report format — uses generic PDFSection tables/paragraphs.
-   * This is the "executive summary" style, not the court-admissible Appendix B format.
+   * This is the "executive summary" style, not the forensic-grade, independently verifiable Appendix B format.
    */
   async generateRegulatorsReceiptStandard(receipt: Parameters<PDFGeneratorService['generateRegulatorsReceipt']>[0]): Promise<GeneratedPDF> {
     const fmtDate = (d: Date | string) => {
@@ -1524,7 +1524,7 @@ export class PDFGeneratorService {
       keywords: ['deliberation', 'evidence-package', 'full-transcript', receipt.receiptId],
     }, {
       headerText: 'DATACENDIA — FULL DELIBERATION EVIDENCE PACKAGE — CONFIDENTIAL',
-      footerText: 'Complete decision record. Tamper-evident. Court-admissible.',
+      footerText: 'Complete decision record. Tamper-evident. forensic-grade, independently verifiable.',
       pdfaCompliant: true,
     });
   }

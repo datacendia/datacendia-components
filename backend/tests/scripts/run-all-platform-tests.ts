@@ -222,7 +222,7 @@ async function runServiceLoadingTests(): Promise<TestSuite> {
     // Evidence
     { path: './src/services/evidence/EvidenceVaultService', name: 'EvidenceVaultService', category: 'Evidence', desc: 'Secure evidence storage' },
     { path: './src/services/evidence/EvidenceExportService', name: 'EvidenceExportService', category: 'Evidence', desc: 'Legal bundle export' },
-    { path: './src/services/evidence/RegulatorsReceiptService', name: 'RegulatorsReceiptService', category: 'Evidence', desc: 'Court-admissible receipts with Merkle trees' },
+    { path: './src/services/evidence/RegulatorsReceiptService', name: 'RegulatorsReceiptService', category: 'Evidence', desc: 'forensic-grade, independently verifiable receipts with Merkle trees' },
     { path: './src/services/evidence/ComplianceDashboardService', name: 'ComplianceDashboardService', category: 'Evidence', desc: 'Compliance tracking dashboard' },
     { path: './src/services/evidence/SignedTestReportService', name: 'SignedTestReportService', category: 'Evidence', desc: 'Cryptographically signed test reports' },
     { path: './src/services/evidence/TestEvidenceLedgerService', name: 'TestEvidenceLedgerService', category: 'Evidence', desc: 'Immutable test evidence chain' },

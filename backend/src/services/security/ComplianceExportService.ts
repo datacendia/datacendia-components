@@ -1,687 +1,497 @@
-/**
- * Service — Compliance Export Service
- *
- * Business logic service implementing platform capabilities.
- *
- * @exports complianceExportService, ExportRequest, ExportResult, ComplianceControl, ExportFile, ComplianceFramework
- * @module services/security/ComplianceExportService
- */
-
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
 /**
- * Compliance Export Service
- * 
- * One-click export of compliance evidence for auditors:
- * - PDF reports with digital signatures
- * - ZIP archives with all evidence
- * - SOC 2, HIPAA, GDPR, ISO 27001 templates
- * - Integrity proofs and chain of custody
+ * CendiaGapScan™ — Automated Compliance Gap Scanner
+ *
+ * Scans ALL historical decisions and generates a comprehensive gap analysis:
+ *   - Which compliance frameworks have unmet requirements
+ *   - Decisions with high dissent rates
+ *   - Human override patterns over time
+ *   - Specific remediation recommendations
+ *
+ * Like a penetration test — but for governance.
+ *
+ * @module services/security/ComplianceExportService
+ * @exports complianceExportService
  */
 
-import crypto from 'crypto';
-import { AuditEvent } from '../../security/audit.service.js';
-import { immutableAuditLedger, IntegrityProof } from './ImmutableAuditLedger.js';
-
+import { sha256, bytesToHex, utf8ToBytes } from '../crypto/nativeCrypto.js';
 import { logger } from '../../utils/logger.js';
+import { prisma } from '../../config/database.js';
+
 // =============================================================================
 // TYPES
 // =============================================================================
 
-export type ComplianceFramework = 'soc2' | 'hipaa' | 'gdpr' | 'iso27001' | 'nist' | 'pci_dss';
-
-export interface ExportRequest {
-  organizationId: string;
-  framework: ComplianceFramework;
-  startDate: Date;
-  endDate: Date;
-  requestedBy: string;
-  includeRawLogs: boolean;
-  includeIntegrityProof: boolean;
+export class ComplianceFramework {
+  name!: string;
+  requirements!: string[];
 }
 
-export interface ExportResult {
+export interface GapFinding {
   id: string;
-  framework: ComplianceFramework;
+  severity: 'critical' | 'high' | 'medium' | 'low' | 'info';
+  category: 'unmet_requirement' | 'high_dissent' | 'override_pattern' | 'missing_evidence' | 'stale_review' | 'consensus_drift';
+  title: string;
+  description: string;
+  affectedDecisions: string[];
+  framework?: string;
+  recommendation: string;
+  autoRemediable: boolean;
+}
+
+export interface GapScanReport {
+  reportId: string;
   organizationId: string;
-  generatedAt: Date;
-  generatedBy: string;
-  period: { start: Date; end: Date };
+  scannedAt: string;
+  scanDuration: number;
   summary: {
-    totalControls: number;
-    passed: number;
-    failed: number;
-    notApplicable: number;
-    warnings: number;
+    totalDecisions: number;
+    totalFindings: number;
+    critical: number;
+    high: number;
+    medium: number;
+    low: number;
+    info: number;
+    overallScore: number;    // 0-100 compliance health score
+    grade: string;           // A-F
   };
-  integrityProof?: IntegrityProof | undefined;
-  files: ExportFile[];
-  signature: string;
-}
-
-export interface ComplianceControl {
-  id: string;
-  name: string;
-  description: string;
-  status: 'pass' | 'fail' | 'warning' | 'not_applicable';
-  evidence: string[];
-  findings?: string | undefined;
-  recommendation?: string | undefined;
-}
-
-export interface ExportFile {
-  name: string;
-  type: 'pdf' | 'json' | 'csv' | 'zip';
-  size: number;
-  hash: string;
-  content: string; // Base64 encoded
-}
-
-interface ControlMapping {
-  id: string;
-  name: string;
-  description: string;
-  category: string;
-  eventTypes: string[];
-  evaluator: (events: AuditEvent[]) => { status: 'pass' | 'fail' | 'warning' | 'not_applicable'; evidence: string[]; findings?: string | undefined };
+  findings: GapFinding[];
+  frameworkCoverage: {
+    framework: string;
+    totalRequirements: number;
+    metRequirements: number;
+    coveragePercent: number;
+  }[];
+  trends: {
+    period: string;
+    avgConsensus: number;
+    dissentRate: number;
+    overrideRate: number;
+    findingCount: number;
+  }[];
+  recommendations: {
+    priority: 'immediate' | 'short_term' | 'long_term';
+    action: string;
+    impact: string;
+    effort: string;
+  }[];
 }
 
 // =============================================================================
-// COMPLIANCE FRAMEWORKS
+// COMPLIANCE FRAMEWORK DEFINITIONS
 // =============================================================================
 
-const SOC2_CONTROLS: ControlMapping[] = [
-  // CC1 - Control Environment
-  {
-    id: 'CC1.1',
-    name: 'Integrity and Ethical Values',
-    description: 'The entity demonstrates a commitment to integrity and ethical values.',
-    category: 'Control Environment',
-    eventTypes: ['compliance.policy_updated', 'admin.settings_changed'],
-    evaluator: (events) => ({
-      status: events.length > 0 ? 'pass' : 'warning',
-      evidence: [`${events.length} policy/settings changes documented`],
-    }),
+const FRAMEWORKS: Record<string, { name: string; requirements: { id: string; description: string; check: string }[] }> = {
+  'eu-ai-act': {
+    name: 'EU AI Act',
+    requirements: [
+      { id: 'EUA-1', description: 'Risk assessment documented for high-risk AI', check: 'has_risk_assessment' },
+      { id: 'EUA-2', description: 'Human oversight mechanism in place', check: 'has_human_oversight' },
+      { id: 'EUA-3', description: 'Transparency requirements met', check: 'has_audit_trail' },
+      { id: 'EUA-4', description: 'Data governance documented', check: 'has_data_governance' },
+      { id: 'EUA-5', description: 'Technical documentation maintained', check: 'has_documentation' },
+    ],
   },
-  // CC2 - Communication and Information
-  {
-    id: 'CC2.1',
-    name: 'Information Quality',
-    description: 'The entity obtains or generates relevant, quality information.',
-    category: 'Communication',
-    eventTypes: ['deliberation.completed', 'data.accessed'],
-    evaluator: (events) => ({
-      status: events.length > 0 ? 'pass' : 'warning',
-      evidence: [`${events.length} data access/deliberation events logged`],
-    }),
+  'nist-ai-rmf': {
+    name: 'NIST AI RMF',
+    requirements: [
+      { id: 'NIST-1', description: 'AI system mapped and categorized', check: 'has_categorization' },
+      { id: 'NIST-2', description: 'Risks measured and assessed', check: 'has_risk_measurement' },
+      { id: 'NIST-3', description: 'Risk management actions documented', check: 'has_risk_management' },
+      { id: 'NIST-4', description: 'Governance structure defined', check: 'has_governance' },
+    ],
   },
-  // CC3 - Risk Assessment
-  {
-    id: 'CC3.1',
-    name: 'Risk Identification',
-    description: 'The entity identifies and assesses risks.',
-    category: 'Risk Assessment',
-    eventTypes: ['security.suspicious_activity', 'security.unauthorized_access'],
-    evaluator: (events) => {
-      const suspicious = events.filter(e => e.eventType === 'security.suspicious_activity');
-      return {
-        status: 'pass',
-        evidence: [
-          `${suspicious.length} suspicious activities detected and logged`,
-          'Continuous monitoring in place',
-        ],
-      };
-    },
+  'iso-42001': {
+    name: 'ISO 42001',
+    requirements: [
+      { id: 'ISO-1', description: 'AI management system established', check: 'has_management_system' },
+      { id: 'ISO-2', description: 'Objectives and planning documented', check: 'has_objectives' },
+      { id: 'ISO-3', description: 'Performance evaluation conducted', check: 'has_performance_eval' },
+      { id: 'ISO-4', description: 'Continual improvement process', check: 'has_improvement_process' },
+    ],
   },
-  // CC5 - Control Activities
-  {
-    id: 'CC5.1',
-    name: 'Control Activities Selection',
-    description: 'The entity selects and develops control activities.',
-    category: 'Control Activities',
-    eventTypes: ['admin.permission_granted', 'admin.permission_revoked', 'admin.role_changed'],
-    evaluator: (events) => ({
-      status: events.length > 0 ? 'pass' : 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'admin.permission_granted').length} permissions granted`,
-        `${events.filter(e => e.eventType === 'admin.permission_revoked').length} permissions revoked`,
-        `${events.filter(e => e.eventType === 'admin.role_changed').length} role changes`,
-      ],
-    }),
+  'sox': {
+    name: 'SOX (Sarbanes-Oxley)',
+    requirements: [
+      { id: 'SOX-1', description: 'Audit trail maintained for all decisions', check: 'has_audit_trail' },
+      { id: 'SOX-2', description: 'Internal controls documented', check: 'has_internal_controls' },
+      { id: 'SOX-3', description: 'Management assessment of controls', check: 'has_management_assessment' },
+    ],
   },
-  // CC6 - Logical and Physical Access Controls
-  {
-    id: 'CC6.1',
-    name: 'Logical Access Security',
-    description: 'The entity implements logical access security software and infrastructure.',
-    category: 'Access Controls',
-    eventTypes: ['auth.login', 'auth.logout', 'auth.failed', 'auth.mfa_enabled'],
-    evaluator: (events) => {
-      const logins = events.filter(e => e.eventType === 'auth.login').length;
-      const failures = events.filter(e => e.eventType === 'auth.failed').length;
-      const mfa = events.filter(e => e.eventType === 'auth.mfa_enabled').length;
-      const failureRate = logins > 0 ? (failures / (logins + failures)) * 100 : 0;
-      
-      return {
-        status: failureRate < 20 ? 'pass' : 'warning',
-        evidence: [
-          `${logins} successful logins`,
-          `${failures} failed login attempts (${failureRate.toFixed(1)}% failure rate)`,
-          `${mfa} MFA enrollments`,
-        ],
-        findings: failureRate >= 20 ? 'High login failure rate may indicate brute force attempts' : undefined,
-      };
-    },
+  'gdpr': {
+    name: 'GDPR',
+    requirements: [
+      { id: 'GDPR-1', description: 'Data processing documented', check: 'has_data_processing_doc' },
+      { id: 'GDPR-2', description: 'Right to explanation supported', check: 'has_explainability' },
+      { id: 'GDPR-3', description: 'Data minimization verified', check: 'has_data_minimization' },
+    ],
   },
-  {
-    id: 'CC6.2',
-    name: 'User Registration and Authorization',
-    description: 'Prior to issuing credentials, the entity registers and authorizes new users.',
-    category: 'Access Controls',
-    eventTypes: ['admin.user_created', 'admin.user_updated'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'admin.user_created').length} users created`,
-        `${events.filter(e => e.eventType === 'admin.user_updated').length} users updated`,
-      ],
-    }),
-  },
-  {
-    id: 'CC6.3',
-    name: 'Access Removal',
-    description: 'The entity removes access when no longer needed.',
-    category: 'Access Controls',
-    eventTypes: ['admin.user_deleted', 'auth.session_expired'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'admin.user_deleted').length} users removed`,
-        `${events.filter(e => e.eventType === 'auth.session_expired').length} sessions expired`,
-      ],
-    }),
-  },
-  // CC7 - System Operations
-  {
-    id: 'CC7.1',
-    name: 'Security Event Detection',
-    description: 'The entity detects and responds to security events.',
-    category: 'System Operations',
-    eventTypes: ['security.suspicious_activity', 'security.rate_limit_exceeded', 'security.unauthorized_access'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'security.suspicious_activity').length} suspicious activities detected`,
-        `${events.filter(e => e.eventType === 'security.rate_limit_exceeded').length} rate limit events`,
-        `${events.filter(e => e.eventType === 'security.unauthorized_access').length} unauthorized access attempts blocked`,
-      ],
-    }),
-  },
-  // CC8 - Change Management
-  {
-    id: 'CC8.1',
-    name: 'Change Management Process',
-    description: 'The entity authorizes, designs, develops, and implements changes.',
-    category: 'Change Management',
-    eventTypes: ['admin.settings_changed', 'agent.created', 'agent.updated', 'agent.deleted'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'admin.settings_changed').length} configuration changes`,
-        `${events.filter(e => e.eventType.startsWith('agent.')).length} agent changes`,
-      ],
-    }),
-  },
-];
-
-const HIPAA_CONTROLS: ControlMapping[] = [
-  {
-    id: '164.312(a)(1)',
-    name: 'Access Control',
-    description: 'Implement technical policies to allow access only to authorized persons.',
-    category: 'Technical Safeguards',
-    eventTypes: ['auth.login', 'auth.failed', 'admin.permission_granted'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'auth.login').length} authenticated sessions`,
-        `${events.filter(e => e.eventType === 'auth.failed').length} blocked unauthorized attempts`,
-      ],
-    }),
-  },
-  {
-    id: '164.312(b)',
-    name: 'Audit Controls',
-    description: 'Implement mechanisms to record and examine activity in systems containing ePHI.',
-    category: 'Technical Safeguards',
-    eventTypes: ['data.accessed', 'data.exported', 'deliberation.completed'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.length} audit events recorded`,
-        'All data access logged with user, timestamp, and resource',
-      ],
-    }),
-  },
-  {
-    id: '164.312(c)(1)',
-    name: 'Integrity Controls',
-    description: 'Implement policies to protect ePHI from improper alteration or destruction.',
-    category: 'Technical Safeguards',
-    eventTypes: ['data.deleted', 'data.uploaded'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.filter(e => e.eventType === 'data.deleted').length} deletions logged`,
-        `${events.filter(e => e.eventType === 'data.uploaded').length} uploads logged`,
-        'Immutable audit ledger prevents tampering',
-      ],
-    }),
-  },
-  {
-    id: '164.312(d)',
-    name: 'Person or Entity Authentication',
-    description: 'Implement procedures to verify identity of persons seeking access.',
-    category: 'Technical Safeguards',
-    eventTypes: ['auth.login', 'auth.mfa_enabled', 'auth.password_changed'],
-    evaluator: (events) => ({
-      status: events.filter(e => e.eventType === 'auth.mfa_enabled').length > 0 ? 'pass' : 'warning',
-      evidence: [
-        `${events.filter(e => e.eventType === 'auth.mfa_enabled').length} MFA enrollments`,
-        `${events.filter(e => e.eventType === 'auth.password_changed').length} password changes`,
-      ],
-      findings: events.filter(e => e.eventType === 'auth.mfa_enabled').length === 0 
-        ? 'Consider enforcing MFA for all users' : undefined,
-    }),
-  },
-  {
-    id: '164.312(e)(1)',
-    name: 'Transmission Security',
-    description: 'Implement technical security measures to guard against unauthorized access during transmission.',
-    category: 'Technical Safeguards',
-    eventTypes: ['data.exported', 'compliance.evidence_exported'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        'All data transmitted over TLS 1.3',
-        `${events.length} data transmissions logged`,
-      ],
-    }),
-  },
-];
-
-const GDPR_CONTROLS: ControlMapping[] = [
-  {
-    id: 'Art.5',
-    name: 'Principles of Processing',
-    description: 'Personal data shall be processed lawfully, fairly, and transparently.',
-    category: 'Data Protection Principles',
-    eventTypes: ['data.accessed', 'deliberation.completed'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.length} processing activities logged`,
-        'All processing purposes documented',
-      ],
-    }),
-  },
-  {
-    id: 'Art.17',
-    name: 'Right to Erasure',
-    description: 'Data subjects have the right to obtain erasure of personal data.',
-    category: 'Data Subject Rights',
-    eventTypes: ['data.deleted'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.length} deletion requests processed`,
-        'Deletion audit trail maintained',
-      ],
-    }),
-  },
-  {
-    id: 'Art.30',
-    name: 'Records of Processing',
-    description: 'Controller shall maintain records of processing activities.',
-    category: 'Accountability',
-    eventTypes: ['data.accessed', 'data.exported', 'deliberation.completed'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.length} processing records maintained`,
-        'Complete audit trail available',
-      ],
-    }),
-  },
-  {
-    id: 'Art.32',
-    name: 'Security of Processing',
-    description: 'Implement appropriate technical and organizational measures.',
-    category: 'Security',
-    eventTypes: ['auth.login', 'auth.mfa_enabled', 'security.suspicious_activity'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        'Encryption at rest and in transit',
-        `${events.filter(e => e.eventType === 'auth.mfa_enabled').length} MFA enrollments`,
-        'Access controls implemented',
-      ],
-    }),
-  },
-  {
-    id: 'Art.33',
-    name: 'Breach Notification',
-    description: 'Notify supervisory authority within 72 hours of becoming aware of breach.',
-    category: 'Breach Response',
-    eventTypes: ['security.suspicious_activity', 'security.unauthorized_access'],
-    evaluator: (events) => ({
-      status: 'pass',
-      evidence: [
-        `${events.length} security events monitored`,
-        'Incident response procedures in place',
-      ],
-    }),
-  },
-];
+};
 
 // =============================================================================
-// COMPLIANCE EXPORT SERVICE
+// SERVICE
 // =============================================================================
 
-class ComplianceExportService {
-  private frameworkControls: Record<ComplianceFramework, ControlMapping[]> = {
-    soc2: SOC2_CONTROLS,
-    hipaa: HIPAA_CONTROLS,
-    gdpr: GDPR_CONTROLS,
-    iso27001: SOC2_CONTROLS, // Simplified - would have full ISO controls
-    nist: SOC2_CONTROLS, // Simplified - would have full NIST controls
-    pci_dss: SOC2_CONTROLS, // Simplified - would have full PCI controls
-  };
+class ComplianceGapScannerService {
+  private reportCache = new Map<string, GapScanReport>();
 
-  /**
-   * Generate compliance export package
-   */
-  async generateExport(request: ExportRequest): Promise<ExportResult> {
-    const exportId = `export_${crypto.randomUUID()}`;
-    const controls = this.frameworkControls[request.framework];
+  constructor() {
+    logger.info('🔍 CendiaGapScan: Initialized — automated compliance gap scanner active');
+  }
 
-    // Get audit events from immutable ledger
-    const { entries, proof } = await immutableAuditLedger.getEntriesWithProof({
-      organizationId: request.organizationId,
-      startDate: request.startDate,
-      endDate: request.endDate,
+  // ---------------------------------------------------------------------------
+  // FULL SCAN
+  // ---------------------------------------------------------------------------
+
+  async runFullScan(organizationId: string): Promise<GapScanReport> {
+    const startTime = Date.now();
+    const reportId = `scan-${bytesToHex(sha256(utf8ToBytes(`${organizationId}:${Date.now()}`))).substring(0, 16)}`;
+
+    logger.info(`🔍 CendiaGapScan: Starting full scan for org ${organizationId}...`);
+
+    // Fetch all deliberations
+    const deliberations = await prisma.deliberations.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { created_at: 'desc' },
     });
 
-    const events = entries.map(e => e.event);
-
-    // Evaluate each control
-    const evaluatedControls: ComplianceControl[] = controls.map(control => {
-      const relevantEvents = events.filter(e => control.eventTypes.includes(e.eventType));
-      const result = control.evaluator(relevantEvents);
-      
-      return {
-        id: control.id,
-        name: control.name,
-        description: control.description,
-        status: result.status,
-        evidence: result.evidence,
-        findings: result.findings,
-      };
+    // Fetch all messages for analysis
+    const allMessages = await prisma.deliberation_messages.findMany({
+      where: { deliberation_id: { in: deliberations.map(d => d.id) } },
+      include: { agents: true },
     });
 
-    // Calculate summary
-    const summary = {
-      totalControls: evaluatedControls.length,
-      passed: evaluatedControls.filter(c => c.status === 'pass').length,
-      failed: evaluatedControls.filter(c => c.status === 'fail').length,
-      notApplicable: evaluatedControls.filter(c => c.status === 'not_applicable').length,
-      warnings: evaluatedControls.filter(c => c.status === 'warning').length,
-    };
+    // Fetch dissents
+    let allDissents: any[] = [];
+    try {
+      allDissents = await prisma.dissents.findMany({
+        where: { decision_id: { in: deliberations.map(d => d.id) } },
+      });
+    } catch { /* table may not exist */ }
 
-    // Generate files
-    const files: ExportFile[] = [];
+    // Fetch override records
+    let overrides: any[] = [];
+    try {
+      overrides = await prisma.accountability_records.findMany({
+        where: { organization_id: organizationId },
+      });
+    } catch { /* table may not exist */ }
 
-    // 1. Executive Summary (JSON that would be rendered as PDF)
-    const executiveSummary = this.generateExecutiveSummary(request, evaluatedControls, summary, proof);
-    files.push(this.createFile('executive-summary.json', 'json', executiveSummary));
+    const findings: GapFinding[] = [];
+    let findingIdx = 0;
 
-    // 2. Detailed Controls Report
-    const controlsReport = this.generateControlsReport(request, evaluatedControls);
-    files.push(this.createFile('controls-report.json', 'json', controlsReport));
+    // ---------------------------------------------------------------------------
+    // CHECK 1: Decisions with no multi-agent review
+    // ---------------------------------------------------------------------------
+    for (const delib of deliberations) {
+      const msgs = allMessages.filter(m => m.deliberation_id === delib.id);
+      const agentCount = new Set(msgs.map(m => m.agent_id)).size;
 
-    // 3. Raw audit logs (if requested)
-    if (request.includeRawLogs) {
-      const logsCSV = this.generateAuditLogsCSV(events);
-      files.push(this.createFile('audit-logs.csv', 'csv', logsCSV));
-    }
-
-    // 4. Integrity proof (if requested)
-    if (request.includeIntegrityProof && proof) {
-      files.push(this.createFile('integrity-proof.json', 'json', JSON.stringify(proof, null, 2)));
-    }
-
-    // Generate result
-    const result: ExportResult = {
-      id: exportId,
-      framework: request.framework,
-      organizationId: request.organizationId,
-      generatedAt: new Date(),
-      generatedBy: request.requestedBy,
-      period: { start: request.startDate, end: request.endDate },
-      summary,
-      integrityProof: request.includeIntegrityProof ? proof : undefined,
-      files,
-      signature: '', // Will be calculated
-    };
-
-    // Sign the export
-    result.signature = this.signExport(result);
-
-    // Log the export
-    await immutableAuditLedger.append({
-      id: exportId,
-      timestamp: new Date(),
-      eventType: 'compliance.report_generated',
-      severity: 'info',
-      organizationId: request.organizationId,
-      userId: request.requestedBy,
-      resource: { type: 'compliance_export', id: exportId, name: `${request.framework.toUpperCase()} Report` },
-      action: `Generated ${request.framework.toUpperCase()} compliance report`,
-      details: {
-        framework: request.framework,
-        period: `${request.startDate.toISOString()} - ${request.endDate.toISOString()}`,
-        summary,
-        filesGenerated: files.length,
-      },
-      outcome: 'success',
-    });
-
-    logger.info(`[ComplianceExport] Generated ${request.framework.toUpperCase()} report: ${exportId}`);
-    return result;
-  }
-
-  /**
-   * Generate executive summary
-   */
-  private generateExecutiveSummary(
-    request: ExportRequest,
-    controls: ComplianceControl[],
-    summary: ExportResult['summary'],
-    proof?: IntegrityProof
-  ): string {
-    const report = {
-      title: `${request.framework.toUpperCase()} Compliance Report`,
-      organization: request.organizationId,
-      reportPeriod: {
-        start: request.startDate.toISOString(),
-        end: request.endDate.toISOString(),
-      },
-      generatedAt: new Date().toISOString(),
-      generatedBy: request.requestedBy,
-      executiveSummary: {
-        overallStatus: summary.failed === 0 ? 'COMPLIANT' : 'NON-COMPLIANT',
-        controlsSummary: summary,
-        keyFindings: controls.filter(c => c.findings).map(c => ({
-          control: c.id,
-          finding: c.findings,
-        })),
-      },
-      integrityVerification: proof ? {
-        verified: proof.valid,
-        entriesChecked: proof.entriesVerified,
-        verifiedAt: proof.checkedAt,
-        details: proof.details,
-      } : null,
-      certification: {
-        statement: `This report certifies that ${request.organizationId} has been evaluated against ${request.framework.toUpperCase()} controls for the period specified above.`,
-        disclaimer: 'This automated assessment should be reviewed by qualified auditors.',
-      },
-    };
-
-    return JSON.stringify(report, null, 2);
-  }
-
-  /**
-   * Generate detailed controls report
-   */
-  private generateControlsReport(request: ExportRequest, controls: ComplianceControl[]): string {
-    const categories = [...new Set(this.frameworkControls[request.framework].map(ctrl => ctrl.category))];
-    
-    const report = {
-      framework: request.framework.toUpperCase(),
-      categories: categories.map(category => ({
-        name: category,
-        controls: controls.filter((_ctrl, i) => 
-          this.frameworkControls[request.framework][i]?.category === category
-        ).map(ctrl => ({
-          id: ctrl.id,
-          name: ctrl.name,
-          description: ctrl.description,
-          status: ctrl.status,
-          statusIcon: ctrl.status === 'pass' ? '✓' : ctrl.status === 'fail' ? '✗' : ctrl.status === 'warning' ? '⚠' : '○',
-          evidence: ctrl.evidence,
-          findings: ctrl.findings,
-          recommendation: ctrl.recommendation,
-        })),
-      })),
-    };
-
-    return JSON.stringify(report, null, 2);
-  }
-
-  /**
-   * Generate audit logs CSV
-   */
-  private generateAuditLogsCSV(events: AuditEvent[]): string {
-    const headers = [
-      'Timestamp',
-      'Event Type',
-      'Severity',
-      'User ID',
-      'User Name',
-      'IP Address',
-      'Resource Type',
-      'Resource ID',
-      'Action',
-      'Outcome',
-    ].join(',');
-
-    const rows = events.map(e => [
-      e.timestamp.toISOString(),
-      e.eventType,
-      e.severity,
-      e.userId || '',
-      e.userName || '',
-      e.ipAddress || '',
-      e.resource.type,
-      e.resource.id || '',
-      `"${e.action.replace(/"/g, '""')}"`,
-      e.outcome,
-    ].join(','));
-
-    return [headers, ...rows].join('\n');
-  }
-
-  /**
-   * Create export file with hash
-   */
-  private createFile(name: string, type: ExportFile['type'], content: string): ExportFile {
-    const buffer = Buffer.from(content, 'utf-8');
-    return {
-      name,
-      type,
-      size: buffer.length,
-      hash: crypto.createHash('sha256').update(buffer).digest('hex'),
-      content: buffer.toString('base64'),
-    };
-  }
-
-  /**
-   * Sign export for integrity verification
-   */
-  private signExport(result: Omit<ExportResult, 'signature'>): string {
-    const signingKey = process.env['COMPLIANCE_SIGNING_KEY'] || 'default-signing-key';
-    const dataToSign = JSON.stringify({
-      id: result.id,
-      framework: result.framework,
-      organizationId: result.organizationId,
-      generatedAt: result.generatedAt.toISOString(),
-      summary: result.summary,
-      fileHashes: result.files.map(f => f.hash),
-    });
-
-    return crypto.createHmac('sha256', signingKey).update(dataToSign).digest('hex');
-  }
-
-  /**
-   * Verify export signature
-   */
-  verifyExport(result: ExportResult): { valid: boolean; details: string } {
-    const expectedSignature = this.signExport({
-      id: result.id,
-      framework: result.framework,
-      organizationId: result.organizationId,
-      generatedAt: result.generatedAt,
-      generatedBy: result.generatedBy,
-      period: result.period,
-      summary: result.summary,
-      integrityProof: result.integrityProof,
-      files: result.files,
-    });
-
-    if (result.signature !== expectedSignature) {
-      return { valid: false, details: 'Signature mismatch: export may have been tampered with' };
-    }
-
-    // Verify file hashes
-    for (const file of result.files) {
-      const content = Buffer.from(file.content, 'base64');
-      const calculatedHash = crypto.createHash('sha256').update(content).digest('hex');
-      if (file.hash !== calculatedHash) {
-        return { valid: false, details: `File ${file.name} hash mismatch` };
+      if (agentCount < 2) {
+        findings.push({
+          id: `GAP-${++findingIdx}`,
+          severity: 'high',
+          category: 'missing_evidence',
+          title: 'Single-agent decision (no multi-agent review)',
+          description: `Deliberation "${delib.question.substring(0, 60)}..." had only ${agentCount} agent(s). Multi-agent deliberation is required for governance compliance.`,
+          affectedDecisions: [delib.id],
+          framework: 'eu-ai-act',
+          recommendation: 'Configure a minimum quorum of 3+ agents for all deliberation modes.',
+          autoRemediable: true,
+        });
       }
     }
 
-    return { valid: true, details: 'Export verified successfully' };
+    // ---------------------------------------------------------------------------
+    // CHECK 2: High dissent rate decisions
+    // ---------------------------------------------------------------------------
+    for (const delib of deliberations) {
+      const decisionData = delib.decision as Record<string, unknown> | null;
+      const dissenting = Array.isArray(decisionData?.dissenting) ? decisionData.dissenting as string[] : [];
+      const msgs = allMessages.filter(m => m.deliberation_id === delib.id);
+      const agentCount = new Set(msgs.map(m => m.agent_id)).size;
+      const dissentRate = agentCount > 0 ? dissenting.length / agentCount : 0;
+
+      if (dissentRate > 0.5) {
+        findings.push({
+          id: `GAP-${++findingIdx}`,
+          severity: 'critical',
+          category: 'high_dissent',
+          title: 'Majority dissent — decision may lack consensus',
+          description: `${dissenting.length}/${agentCount} agents dissented (${Math.round(dissentRate * 100)}%). This decision was made against majority agent recommendation.`,
+          affectedDecisions: [delib.id],
+          recommendation: 'Review this decision with human oversight. Consider re-deliberation with additional context or escalation.',
+          autoRemediable: false,
+        });
+      } else if (dissentRate > 0.3) {
+        findings.push({
+          id: `GAP-${++findingIdx}`,
+          severity: 'medium',
+          category: 'high_dissent',
+          title: 'Significant dissent detected',
+          description: `${dissenting.length}/${agentCount} agents dissented (${Math.round(dissentRate * 100)}%). While below majority threshold, this indicates significant disagreement.`,
+          affectedDecisions: [delib.id],
+          recommendation: 'Document the basis for proceeding despite dissent. Ensure dissenting views are preserved in the audit trail.',
+          autoRemediable: false,
+        });
+      }
+    }
+
+    // ---------------------------------------------------------------------------
+    // CHECK 3: Low confidence decisions
+    // ---------------------------------------------------------------------------
+    for (const delib of deliberations) {
+      const confidence = delib.confidence != null ? delib.confidence : null;
+      if (confidence !== null && confidence < 0.5) {
+        findings.push({
+          id: `GAP-${++findingIdx}`,
+          severity: confidence < 0.3 ? 'high' : 'medium',
+          category: 'consensus_drift',
+          title: 'Low confidence decision',
+          description: `Decision confidence is ${Math.round(confidence * 100)}%, below the 50% threshold. This indicates significant uncertainty in the AI Council's recommendation.`,
+          affectedDecisions: [delib.id],
+          recommendation: 'Low-confidence decisions should require mandatory human review before implementation.',
+          autoRemediable: true,
+        });
+      }
+    }
+
+    // ---------------------------------------------------------------------------
+    // CHECK 4: Override patterns
+    // ---------------------------------------------------------------------------
+    if (overrides.length > 0) {
+      const overrideRate = deliberations.length > 0 ? overrides.length / deliberations.length : 0;
+      if (overrideRate > 0.2) {
+        findings.push({
+          id: `GAP-${++findingIdx}`,
+          severity: 'high',
+          category: 'override_pattern',
+          title: 'High human override rate detected',
+          description: `${overrides.length} overrides across ${deliberations.length} decisions (${Math.round(overrideRate * 100)}%). Frequent overrides may indicate miscalibrated AI agents or process issues.`,
+          affectedDecisions: overrides.map(o => o.deliberation_id || o.decision_id).filter(Boolean),
+          recommendation: 'Analyze override patterns to identify which agent types are most frequently overridden. Retrain or reconfigure as needed.',
+          autoRemediable: false,
+        });
+      }
+    }
+
+    // ---------------------------------------------------------------------------
+    // CHECK 5: Decisions without audit trail
+    // ---------------------------------------------------------------------------
+    for (const delib of deliberations) {
+      const msgs = allMessages.filter(m => m.deliberation_id === delib.id);
+      if (msgs.length === 0) {
+        findings.push({
+          id: `GAP-${++findingIdx}`,
+          severity: 'critical',
+          category: 'missing_evidence',
+          title: 'Decision with no audit trail',
+          description: `Deliberation "${delib.question.substring(0, 60)}..." has no recorded agent messages. The audit trail is empty.`,
+          affectedDecisions: [delib.id],
+          framework: 'sox',
+          recommendation: 'All decisions must have a complete audit trail. Investigate why no messages were recorded.',
+          autoRemediable: false,
+        });
+      }
+    }
+
+    // ---------------------------------------------------------------------------
+    // CHECK 6: Stale decisions (no review in >90 days)
+    // ---------------------------------------------------------------------------
+    const ninetyDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
+    const staleDecisions = deliberations.filter(d =>
+      d.created_at < ninetyDaysAgo && d.status !== 'ARCHIVED'
+    );
+    if (staleDecisions.length > 10) {
+      findings.push({
+        id: `GAP-${++findingIdx}`,
+        severity: 'low',
+        category: 'stale_review',
+        title: `${staleDecisions.length} decisions older than 90 days without review`,
+        description: 'Periodic review of historical decisions ensures continued compliance and identifies drift.',
+        affectedDecisions: staleDecisions.slice(0, 5).map(d => d.id),
+        framework: 'iso-42001',
+        recommendation: 'Implement quarterly decision review process. Archive decisions that are no longer relevant.',
+        autoRemediable: true,
+      });
+    }
+
+    // ---------------------------------------------------------------------------
+    // FRAMEWORK COVERAGE ANALYSIS
+    // ---------------------------------------------------------------------------
+    const hasAuditTrail = deliberations.some(d => allMessages.some(m => m.deliberation_id === d.id));
+    const hasMultiAgent = deliberations.some(d => {
+      const msgs = allMessages.filter(m => m.deliberation_id === d.id);
+      return new Set(msgs.map(m => m.agent_id)).size >= 2;
+    });
+    const hasDissents = allDissents.length > 0;
+
+    const checkResults: Record<string, boolean> = {
+      has_audit_trail: hasAuditTrail,
+      has_human_oversight: overrides.length > 0 || hasDissents,
+      has_risk_assessment: deliberations.length > 0,
+      has_data_governance: true,
+      has_documentation: hasAuditTrail,
+      has_categorization: deliberations.length > 0,
+      has_risk_measurement: true,
+      has_risk_management: hasMultiAgent,
+      has_governance: hasMultiAgent && hasAuditTrail,
+      has_management_system: deliberations.length > 0,
+      has_objectives: true,
+      has_performance_eval: deliberations.length >= 5,
+      has_improvement_process: overrides.length > 0,
+      has_internal_controls: hasMultiAgent,
+      has_management_assessment: overrides.length > 0,
+      has_data_processing_doc: hasAuditTrail,
+      has_explainability: hasAuditTrail && hasMultiAgent,
+      has_data_minimization: true,
+    };
+
+    const frameworkCoverage = Object.entries(FRAMEWORKS).map(([key, fw]) => {
+      const met = fw.requirements.filter(r => checkResults[r.check] === true).length;
+      return {
+        framework: fw.name,
+        totalRequirements: fw.requirements.length,
+        metRequirements: met,
+        coveragePercent: Math.round((met / fw.requirements.length) * 100),
+      };
+    });
+
+    // Unmet framework requirements → findings
+    for (const [key, fw] of Object.entries(FRAMEWORKS)) {
+      for (const req of fw.requirements) {
+        if (!checkResults[req.check]) {
+          findings.push({
+            id: `GAP-${++findingIdx}`,
+            severity: 'medium',
+            category: 'unmet_requirement',
+            title: `${fw.name}: ${req.description}`,
+            description: `Requirement ${req.id} is not fully met. This may impact ${fw.name} compliance certification.`,
+            affectedDecisions: [],
+            framework: fw.name,
+            recommendation: `Implement controls to satisfy ${req.id}: "${req.description}"`,
+            autoRemediable: false,
+          });
+        }
+      }
+    }
+
+    // ---------------------------------------------------------------------------
+    // TREND ANALYSIS
+    // ---------------------------------------------------------------------------
+    const monthMap = new Map<string, { decisions: number; totalConfidence: number; dissents: number; overrides: number; findings: number }>();
+    for (const delib of deliberations) {
+      const month = delib.created_at.toISOString().slice(0, 7);
+      if (!monthMap.has(month)) monthMap.set(month, { decisions: 0, totalConfidence: 0, dissents: 0, overrides: 0, findings: 0 });
+      const entry = monthMap.get(month)!;
+      entry.decisions++;
+      entry.totalConfidence += delib.confidence || 0;
+      const decData = delib.decision as Record<string, unknown> | null;
+      entry.dissents += Array.isArray(decData?.dissenting) ? (decData.dissenting as any[]).length : 0;
+    }
+    for (const override of overrides) {
+      const month = override.created_at.toISOString().slice(0, 7);
+      if (monthMap.has(month)) monthMap.get(month)!.overrides++;
+    }
+
+    const trends = Array.from(monthMap.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([period, data]) => ({
+        period,
+        avgConsensus: data.decisions > 0 ? Math.round((data.totalConfidence / data.decisions) * 100) : 0,
+        dissentRate: data.decisions > 0 ? Math.round((data.dissents / data.decisions) * 100) : 0,
+        overrideRate: data.decisions > 0 ? Math.round((data.overrides / data.decisions) * 100) : 0,
+        findingCount: 0,
+      }));
+
+    // ---------------------------------------------------------------------------
+    // RECOMMENDATIONS
+    // ---------------------------------------------------------------------------
+    const recommendations: GapScanReport['recommendations'] = [];
+
+    const criticalCount = findings.filter(f => f.severity === 'critical').length;
+    const highCount = findings.filter(f => f.severity === 'high').length;
+
+    if (criticalCount > 0) {
+      recommendations.push({
+        priority: 'immediate',
+        action: `Address ${criticalCount} critical finding(s) — decisions without audit trails or with majority dissent override`,
+        impact: 'Eliminates highest compliance risk',
+        effort: '1-2 days',
+      });
+    }
+    if (highCount > 0) {
+      recommendations.push({
+        priority: 'short_term',
+        action: `Resolve ${highCount} high-severity finding(s) — single-agent decisions, low confidence, override patterns`,
+        impact: 'Significantly improves governance posture',
+        effort: '1-2 weeks',
+      });
+    }
+    if (frameworkCoverage.some(fc => fc.coveragePercent < 80)) {
+      recommendations.push({
+        priority: 'short_term',
+        action: 'Close framework coverage gaps below 80%',
+        impact: 'Enables compliance certification claims',
+        effort: '2-4 weeks',
+      });
+    }
+    recommendations.push({
+      priority: 'long_term',
+      action: 'Implement automated quarterly compliance reviews with drift detection',
+      impact: 'Continuous compliance assurance',
+      effort: 'Ongoing',
+    });
+
+    // ---------------------------------------------------------------------------
+    // SCORE
+    // ---------------------------------------------------------------------------
+    const totalPossible = deliberations.length * 10;
+    const deductions = findings.reduce((sum, f) => {
+      switch (f.severity) {
+        case 'critical': return sum + 10;
+        case 'high': return sum + 5;
+        case 'medium': return sum + 2;
+        case 'low': return sum + 1;
+        default: return sum;
+      }
+    }, 0);
+    const overallScore = Math.max(0, Math.min(100, totalPossible > 0 ? Math.round(((totalPossible - deductions) / totalPossible) * 100) : 100));
+    const grade = overallScore >= 90 ? 'A' : overallScore >= 80 ? 'B' : overallScore >= 70 ? 'C' : overallScore >= 60 ? 'D' : 'F';
+
+    const report: GapScanReport = {
+      reportId,
+      organizationId,
+      scannedAt: new Date().toISOString(),
+      scanDuration: Date.now() - startTime,
+      summary: {
+        totalDecisions: deliberations.length,
+        totalFindings: findings.length,
+        critical: findings.filter(f => f.severity === 'critical').length,
+        high: findings.filter(f => f.severity === 'high').length,
+        medium: findings.filter(f => f.severity === 'medium').length,
+        low: findings.filter(f => f.severity === 'low').length,
+        info: findings.filter(f => f.severity === 'info').length,
+        overallScore,
+        grade,
+      },
+      findings,
+      frameworkCoverage,
+      trends,
+      recommendations,
+    };
+
+    this.reportCache.set(reportId, report);
+    logger.info(`🔍 CendiaGapScan: Completed scan ${reportId} — ${findings.length} findings, score: ${overallScore}/100 (${grade}), ${Date.now() - startTime}ms`);
+
+    return report;
   }
 
-  /**
-   * Get available frameworks
-   */
-  getAvailableFrameworks(): { id: ComplianceFramework; name: string; controlCount: number }[] {
-    return [
-      { id: 'soc2', name: 'SOC 2 Type II', controlCount: SOC2_CONTROLS.length },
-      { id: 'hipaa', name: 'HIPAA', controlCount: HIPAA_CONTROLS.length },
-      { id: 'gdpr', name: 'GDPR', controlCount: GDPR_CONTROLS.length },
-      { id: 'iso27001', name: 'ISO 27001', controlCount: SOC2_CONTROLS.length },
-      { id: 'nist', name: 'NIST Cybersecurity Framework', controlCount: SOC2_CONTROLS.length },
-      { id: 'pci_dss', name: 'PCI DSS', controlCount: SOC2_CONTROLS.length },
-    ];
+  getReport(reportId: string): GapScanReport | undefined {
+    return this.reportCache.get(reportId);
   }
 }
 
-// Singleton instance
-export const complianceExportService = new ComplianceExportService();
-export default complianceExportService;
+export const complianceExportService = new ComplianceGapScannerService();

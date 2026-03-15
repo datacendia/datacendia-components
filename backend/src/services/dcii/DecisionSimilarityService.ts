@@ -1,1148 +1,320 @@
-/**
- * Service — Decision Similarity Service
- *
- * Business logic service implementing platform capabilities.
- *
- * @exports decisionSimilarityService, DecisionRecord, SimilarityMatch, SimilarityDimension, SimilarityWarning, SimilarityInsight, SimilaritySearchRequest, SimilaritySearchResult
- * @module services/dcii/DecisionSimilarityService
- */
-
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
 /**
- * CendiaSimilarity™ — Decision Similarity Service
- * 
- * DCII Enhancement for Continuity Memory: Proactive historical decision matching.
- * 
- * Capabilities:
- * - Semantic similarity search across all historical Decision DNA records
- * - Automatic "similar decision" surfacing when new decisions are proposed
- * - Outcome-aware recommendations (what happened last time?)
- * - Cross-department pattern detection (same mistake in different silos)
- * - Dissenter accuracy tracking (were the dissenters right last time?)
- * - Temporal decay weighting (recent decisions weighted higher)
- * - Context-aware matching (industry, department, urgency, decision type)
- * 
- * The playbook's "chip design" example: When a new CTO proposes abandoning
- * a project, the system proactively warns "A similar decision was made in 2019
- * by former CTO X. The dissenters were proven correct. Here's what happened."
+ * CendiaPrecedent™ — Decision Precedent Engine
+ *
+ * Compares any new decision against historical precedents using TF-IDF
+ * cosine similarity. Catches inconsistency before it becomes liability.
+ *
+ * "This decision is 87% similar to Decision #X from 3 months ago
+ *  which had a different outcome."
+ *
+ * Like legal case law search — but for AI decisions.
+ *
+ * @module services/dcii/DecisionSimilarityService
+ * @exports decisionSimilarityService
  */
 
-import * as crypto from 'crypto';
-import { v4 as uuidv4 } from 'uuid';
+import { sha256, bytesToHex, utf8ToBytes } from '../crypto/nativeCrypto.js';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
-import { vectorDB } from '../vectordb/index.js';
-import { loadServiceRecords } from '../../utils/servicePersistence.js';
+
 // =============================================================================
 // TYPES
 // =============================================================================
 
-export type MatchStrength = 'exact' | 'strong' | 'moderate' | 'weak' | 'tangential';
-
-export type OutcomeStatus = 'successful' | 'partially_successful' | 'failed' | 'too_early' | 'unknown';
-
-export interface DecisionRecord {
-  id: string;
-  organizationId: string;
-  
-  title: string;
+export interface PrecedentMatch {
+  deliberationId: string;
   question: string;
-  context: string;
-  
-  decisionType: string;
-  department: string;
-  urgency: 'low' | 'medium' | 'high' | 'critical';
-  
-  outcome?: OutcomeStatus;
-  outcomeDescription?: string;
-  lessonsLearned?: string[];
-  
-  dissentersPrediction?: string;
-  dissenterWasCorrect?: boolean;
-  
-  overrideOccurred: boolean;
-  overrideSuccessful?: boolean;
-  
-  tags: string[];
-  keywords: string[];
-  embedding?: number[];
-  
-  decidedAt: Date;
-  decidedBy: string;
-  
-  relatedDecisionIds: string[];
+  decision: string;
+  similarity: number;         // 0-1 cosine similarity
+  similarityPercent: number;  // 0-100
+  createdAt: string;
+  consensusScore: number;
+  mode: string;
+  outcomeMatch: boolean;      // did both reach the same conclusion direction?
+  warning?: string;           // populated if outcomes diverge significantly
 }
 
-export interface SimilarityMatch {
-  id: string;
-  queryDecisionId?: string;
-  matchedDecisionId: string;
-  matchedDecision: DecisionRecord;
-  
-  overallSimilarity: number;
-  matchStrength: MatchStrength;
-  
-  similarities: SimilarityDimension[];
-  
-  warnings: SimilarityWarning[];
-  insights: SimilarityInsight[];
-  
-  relevanceScore: number;
-  temporalDecay: number;
-  
-  matchedAt: Date;
-}
-
-export interface SimilarityDimension {
-  dimension: 'semantic' | 'contextual' | 'structural' | 'outcome' | 'stakeholder' | 'temporal' | 'keyword';
-  score: number;
-  weight: number;
-  details: string;
-}
-
-export interface SimilarityWarning {
-  severity: 'critical' | 'high' | 'medium' | 'low';
-  title: string;
-  description: string;
-  precedentDecisionId: string;
-  precedentOutcome?: OutcomeStatus;
-}
-
-export interface SimilarityInsight {
-  type: 'outcome_pattern' | 'dissenter_accuracy' | 'override_history' | 'cross_department' | 'temporal_pattern' | 'risk_factor';
-  title: string;
-  description: string;
-  confidence: number;
-  actionable: boolean;
-  recommendation?: string;
-}
-
-export interface SimilaritySearchRequest {
-  organizationId: string;
-  title: string;
-  question: string;
-  context: string;
-  decisionType?: string;
-  department?: string;
-  urgency?: 'low' | 'medium' | 'high' | 'critical';
-  tags?: string[];
-  maxResults?: number;
-  minSimilarity?: number;
-  includeOutcomes?: boolean;
-  includeCrossDepartment?: boolean;
-}
-
-export interface SimilaritySearchResult {
-  id: string;
-  query: SimilaritySearchRequest;
-  matches: SimilarityMatch[];
-  totalMatchesFound: number;
-  
-  aggregateInsights: AggregateInsight[];
-  riskAssessment: SimilarityRiskAssessment;
-  
-  searchedAt: Date;
+export interface PrecedentSearchResult {
+  searchId: string;
+  query: string;
+  queryDeliberationId?: string;
+  matches: PrecedentMatch[];
+  totalSearched: number;
+  searchedAt: string;
   searchDurationMs: number;
-  
-  integrity: {
-    resultHash: string;
-    algorithm: string;
-  };
+  inconsistencies: {
+    matchId: string;
+    description: string;
+    severity: 'high' | 'medium' | 'low';
+  }[];
 }
 
-export interface AggregateInsight {
-  type: string;
-  title: string;
-  description: string;
-  supportingDecisions: string[];
-  confidence: number;
-}
+// =============================================================================
+// TF-IDF ENGINE (Lightweight, no external dependencies)
+// =============================================================================
 
-export interface SimilarityRiskAssessment {
-  overallRisk: 'critical' | 'high' | 'medium' | 'low' | 'unknown';
-  historicalSuccessRate: number;
-  dissenterAccuracyRate: number;
-  overrideSuccessRate: number;
-  factors: { factor: string; risk: string; details: string }[];
-}
-
-export interface DecisionPattern {
+interface DocumentVector {
   id: string;
-  organizationId: string;
-  patternType: 'recurring_failure' | 'success_pattern' | 'override_pattern' | 'dissent_pattern' | 'cross_department';
-  title: string;
-  description: string;
-  decisionIds: string[];
-  frequency: number;
-  lastOccurrence: Date;
-  severity: 'critical' | 'high' | 'medium' | 'low';
-  recommendation: string;
+  terms: Map<string, number>; // term → TF-IDF weight
+  magnitude: number;
 }
 
-// =============================================================================
-// TF-IDF SIMPLE IMPLEMENTATION
-// =============================================================================
+class TfIdfEngine {
+  private documents = new Map<string, { terms: string[]; metadata: any }>();
+  private idfCache = new Map<string, number>();
+  private vectorCache = new Map<string, DocumentVector>();
+  private dirty = true;
 
-function tokenize(text: string): string[] {
-  return text.toLowerCase()
-    .replace(/[^a-z0-9\s]/g, ' ')
-    .split(/\s+/)
-    .filter(t => t.length > 2)
-    .filter(t => !STOP_WORDS.has(t));
+  addDocument(id: string, text: string, metadata: any): void {
+    const terms = this.tokenize(text);
+    this.documents.set(id, { terms, metadata });
+    this.dirty = true;
+  }
+
+  search(queryText: string, topK: number = 10): { id: string; score: number; metadata: any }[] {
+    if (this.dirty) this.recomputeVectors();
+
+    const queryTerms = this.tokenize(queryText);
+    const queryTf = this.computeTf(queryTerms);
+    const queryVector = new Map<string, number>();
+    let queryMag = 0;
+
+    for (const [term, tf] of queryTf) {
+      const idf = this.idfCache.get(term) || 0;
+      const weight = tf * idf;
+      queryVector.set(term, weight);
+      queryMag += weight * weight;
+    }
+    queryMag = Math.sqrt(queryMag);
+
+    if (queryMag === 0) return [];
+
+    const results: { id: string; score: number; metadata: any }[] = [];
+
+    for (const [id, docVec] of this.vectorCache) {
+      if (docVec.magnitude === 0) continue;
+
+      let dotProduct = 0;
+      for (const [term, weight] of queryVector) {
+        const docWeight = docVec.terms.get(term) || 0;
+        dotProduct += weight * docWeight;
+      }
+
+      const score = dotProduct / (queryMag * docVec.magnitude);
+      if (score > 0.05) {
+        results.push({ id, score, metadata: this.documents.get(id)?.metadata });
+      }
+    }
+
+    results.sort((a, b) => b.score - a.score);
+    return results.slice(0, topK);
+  }
+
+  private recomputeVectors(): void {
+    const N = this.documents.size;
+    if (N === 0) return;
+
+    // Compute IDF
+    const docFrequency = new Map<string, number>();
+    for (const [, doc] of this.documents) {
+      const uniqueTerms = new Set(doc.terms);
+      for (const term of uniqueTerms) {
+        docFrequency.set(term, (docFrequency.get(term) || 0) + 1);
+      }
+    }
+
+    this.idfCache.clear();
+    for (const [term, df] of docFrequency) {
+      this.idfCache.set(term, Math.log(1 + N / df));
+    }
+
+    // Compute TF-IDF vectors
+    this.vectorCache.clear();
+    for (const [id, doc] of this.documents) {
+      const tf = this.computeTf(doc.terms);
+      const terms = new Map<string, number>();
+      let magnitude = 0;
+
+      for (const [term, tfVal] of tf) {
+        const idf = this.idfCache.get(term) || 0;
+        const weight = tfVal * idf;
+        terms.set(term, weight);
+        magnitude += weight * weight;
+      }
+
+      this.vectorCache.set(id, { id, terms, magnitude: Math.sqrt(magnitude) });
+    }
+
+    this.dirty = false;
+  }
+
+  private computeTf(terms: string[]): Map<string, number> {
+    const freq = new Map<string, number>();
+    for (const t of terms) freq.set(t, (freq.get(t) || 0) + 1);
+    const max = Math.max(...freq.values(), 1);
+    const tf = new Map<string, number>();
+    for (const [term, count] of freq) tf.set(term, count / max);
+    return tf;
+  }
+
+  private tokenize(text: string): string[] {
+    return text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter(t => t.length > 2 && !STOP_WORDS.has(t));
+  }
+
+  get size(): number { return this.documents.size; }
 }
 
 const STOP_WORDS = new Set([
-  'the', 'and', 'for', 'are', 'but', 'not', 'you', 'all', 'can', 'had', 'her', 'was', 'one',
-  'our', 'out', 'has', 'have', 'been', 'from', 'this', 'that', 'with', 'they', 'will', 'each',
-  'make', 'like', 'long', 'look', 'many', 'some', 'than', 'them', 'then', 'very', 'when',
-  'what', 'which', 'would', 'about', 'could', 'other', 'their', 'there', 'these', 'those',
-  'should', 'into', 'over', 'such', 'more', 'also', 'back', 'after', 'just', 'only',
+  'the', 'and', 'for', 'are', 'but', 'not', 'you', 'all', 'can', 'her',
+  'was', 'one', 'our', 'out', 'has', 'had', 'his', 'how', 'its', 'may',
+  'new', 'now', 'old', 'see', 'way', 'who', 'did', 'get', 'let', 'say',
+  'she', 'too', 'use', 'this', 'that', 'with', 'have', 'from', 'they',
+  'been', 'said', 'each', 'which', 'their', 'will', 'other', 'about',
+  'many', 'then', 'them', 'these', 'some', 'would', 'make', 'like',
+  'into', 'could', 'time', 'very', 'when', 'come', 'what', 'your',
 ]);
-
-function cosineSimilarity(a: Map<string, number>, b: Map<string, number>): number {
-  let dotProduct = 0;
-  let normA = 0;
-  let normB = 0;
-  
-  const allKeys = new Set(Array.from(a.keys()).concat(Array.from(b.keys())));
-  for (const key of Array.from(allKeys)) {
-    const va = a.get(key) || 0;
-    const vb = b.get(key) || 0;
-    dotProduct += va * vb;
-    normA += va * va;
-    normB += vb * vb;
-  }
-  
-  if (normA === 0 || normB === 0) return 0;
-  return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
-}
-
-function textToTfIdf(text: string): Map<string, number> {
-  const tokens = tokenize(text);
-  const tf = new Map<string, number>();
-  for (const t of tokens) {
-    tf.set(t, (tf.get(t) || 0) + 1);
-  }
-  // Normalize
-  for (const [k, v] of Array.from(tf.entries())) {
-    tf.set(k, v / tokens.length);
-  }
-  return tf;
-}
 
 // =============================================================================
 // SERVICE
 // =============================================================================
 
-class DecisionSimilarityService {
-  private decisions: Map<string, DecisionRecord> = new Map();
-  private searchResults: Map<string, SimilaritySearchResult> = new Map();
-  private patterns: Map<string, DecisionPattern> = new Map();
-  private vectorSearchEnabled = false;
+class DecisionPrecedentEngine {
+  private engine = new TfIdfEngine();
+  private indexed = false;
+  private indexedOrgs = new Set<string>();
 
   constructor() {
-    logger.info('[CendiaSimilarity] Decision Similarity Engine™ initialized');
-    this.initFromDb().catch(() => {
-      logger.warn('[CendiaSimilarity] DB not available, using in-memory demo data');
-      this.seedDemoData();
+    logger.info('⚖️ CendiaPrecedent: Initialized — decision precedent engine active');
+  }
+
+  // ---------------------------------------------------------------------------
+  // INDEX BUILDING
+  // ---------------------------------------------------------------------------
+
+  async ensureIndex(organizationId: string): Promise<number> {
+    if (this.indexedOrgs.has(organizationId)) return this.engine.size;
+
+    const deliberations = await prisma.deliberations.findMany({
+      where: { organization_id: organizationId, status: 'COMPLETED' },
+      orderBy: { created_at: 'desc' },
+      take: 1000, // Cap for performance
     });
-    // Initialize vector DB in background (non-blocking)
-    this.initVectorSearch();
 
+    for (const delib of deliberations) {
+      const decisionText = typeof delib.decision === 'object'
+        ? JSON.stringify(delib.decision)
+        : (delib.decision as string) || '';
 
-    this.loadFromDB().catch(() => {});
-  }
-
-  private async initVectorSearch(): Promise<void> {
-    try {
-      const ready = await vectorDB.initialize();
-      if (ready) {
-        this.vectorSearchEnabled = true;
-        logger.info('[CendiaSimilarity] Neural vector search ENABLED via Qdrant');
-        // Re-index existing decisions into Qdrant
-        this.reindexAllDecisions().catch(err =>
-          logger.warn('[CendiaSimilarity] Background reindex failed (non-fatal):', err)
-        );
-      } else {
-        logger.info('[CendiaSimilarity] Qdrant unavailable — using TF-IDF fallback');
-      }
-    } catch {
-      logger.info('[CendiaSimilarity] Vector search init failed — using TF-IDF fallback');
-    }
-  }
-
-  private async reindexAllDecisions(): Promise<void> {
-    const decisions = Array.from(this.decisions.values());
-    if (decisions.length === 0) return;
-
-    const points = decisions.map(d => ({
-      id: d.id,
-      text: `${d.title} ${d.question} ${d.context}`,
-      payload: {
-        organizationId: d.organizationId,
-        title: d.title,
-        decisionType: d.decisionType,
-        department: d.department,
-        urgency: d.urgency,
-        outcome: d.outcome || 'unknown',
-        overrideOccurred: d.overrideOccurred,
-        dissenterWasCorrect: d.dissenterWasCorrect ?? false,
-        decidedAt: d.decidedAt.toISOString(),
-        tags: d.tags,
-      },
-    }));
-
-    const result = await vectorDB.upsertBatch('decisions', points);
-    logger.info(`[CendiaSimilarity] Reindexed ${result.indexed} decisions into Qdrant (${result.failed} failed)`);
-  }
-
-  private async initFromDb(): Promise<void> {
-    try {
-      const dbDecisions = await prisma.dcii_similarity_decisions.findMany();
-      if (dbDecisions.length > 0) {
-        for (const row of dbDecisions) { this.decisions.set(row.id, row.data as unknown as DecisionRecord); }
-        const dbResults = await prisma.dcii_similarity_results.findMany();
-        for (const row of dbResults) { this.searchResults.set(row.id, row.data as unknown as SimilaritySearchResult); }
-        const dbPatterns = await prisma.dcii_similarity_patterns.findMany();
-        for (const row of dbPatterns) { this.patterns.set(row.id, row.data as unknown as DecisionPattern); }
-        logger.info(`[CendiaSimilarity] Loaded ${dbDecisions.length} decisions from database`);
-        return;
-      }
-    } catch { /* DB not available */ }
-    this.seedDemoData();
-  }
-
-  private async persistDecision(decision: DecisionRecord): Promise<void> {
-    try {
-      await prisma.dcii_similarity_decisions.upsert({
-        where: { id: decision.id },
-        update: { data: decision as any, outcome: decision.outcome ?? null, tags: decision.tags, keywords: decision.keywords },
-        create: {
-          id: decision.id, organization_id: decision.organizationId, title: decision.title,
-          question: decision.question, context: decision.context, decision_type: decision.decisionType,
-          department: decision.department, urgency: decision.urgency, outcome: decision.outcome ?? null,
-          override: decision.overrideOccurred, decided_by: decision.decidedBy, decided_at: decision.decidedAt,
-          tags: decision.tags, keywords: decision.keywords, data: decision as any,
-        },
+      this.engine.addDocument(delib.id, `${delib.question} ${decisionText}`, {
+        question: delib.question,
+        decision: decisionText,
+        createdAt: delib.created_at.toISOString(),
+        consensusScore: delib.confidence != null ? Math.round(delib.confidence * 100) : 0,
+        mode: delib.mode || 'standard',
       });
-    } catch (err) { logger.debug('[CendiaSimilarity] DB persist decision failed (non-fatal):', err); }
-  }
-
-  private async persistSearchResult(result: SimilaritySearchResult): Promise<void> {
-    try {
-      await prisma.dcii_similarity_results.create({
-        data: {
-          id: result.id, organization_id: result.query.organizationId,
-          query_title: result.query.title, match_count: result.matches.length, data: result as any,
-        },
-      });
-    } catch (err) { logger.debug('[CendiaSimilarity] DB persist result failed (non-fatal):', err); }
-  }
-
-  private async persistPattern(pattern: DecisionPattern): Promise<void> {
-    try {
-      await prisma.dcii_similarity_patterns.upsert({
-        where: { id: pattern.id },
-        update: { data: pattern as any },
-        create: {
-          id: pattern.id, organization_id: pattern.organizationId, pattern_type: pattern.patternType,
-          severity: pattern.severity, confidence: pattern.frequency > 3 ? 0.9 : 0.6, data: pattern as any,
-        },
-      });
-    } catch (err) { logger.debug('[CendiaSimilarity] DB persist pattern failed (non-fatal):', err); }
-  }
-
-  // ---------------------------------------------------------------------------
-  // RECORD MANAGEMENT
-  // ---------------------------------------------------------------------------
-
-  addDecisionRecord(record: Omit<DecisionRecord, 'id' | 'keywords' | 'embedding'>): DecisionRecord {
-    const id = uuidv4();
-    const fullText = `${record.title} ${record.question} ${record.context}`;
-    const keywords = this.extractKeywords(fullText);
-    
-    const decision: DecisionRecord = {
-      ...record,
-      id,
-      keywords,
-      relatedDecisionIds: record.relatedDecisionIds || [],
-    };
-
-    this.decisions.set(id, decision);
-    this.persistDecision(decision).catch(() => {});
-
-    // Index into Qdrant for neural vector search
-    if (this.vectorSearchEnabled) {
-      vectorDB.upsertPoint('decisions', id, fullText, {
-        organizationId: record.organizationId,
-        title: record.title,
-        decisionType: record.decisionType,
-        department: record.department,
-        urgency: record.urgency,
-        outcome: record.outcome || 'unknown',
-        overrideOccurred: record.overrideOccurred,
-        dissenterWasCorrect: record.dissenterWasCorrect ?? false,
-        decidedAt: record.decidedAt.toISOString(),
-        tags: record.tags,
-      }).catch(err => logger.debug('[CendiaSimilarity] Qdrant index failed (non-fatal):', err));
     }
 
-    logger.info(`[CendiaSimilarity] Decision recorded: ${record.title} (${id})`);
-    return decision;
-  }
-
-  updateOutcome(
-    decisionId: string,
-    outcome: OutcomeStatus,
-    outcomeDescription: string,
-    lessonsLearned?: string[],
-    dissenterWasCorrect?: boolean
-  ): DecisionRecord | undefined {
-    const decision = this.decisions.get(decisionId);
-    if (!decision) return undefined;
-
-    decision.outcome = outcome;
-    decision.outcomeDescription = outcomeDescription;
-    if (lessonsLearned) decision.lessonsLearned = lessonsLearned;
-    if (dissenterWasCorrect !== undefined) decision.dissenterWasCorrect = dissenterWasCorrect;
-
-    this.persistDecision(decision).catch(() => {});
-    logger.info(`[CendiaSimilarity] Outcome updated for ${decision.title}: ${outcome}`);
-    return decision;
+    this.indexedOrgs.add(organizationId);
+    logger.info(`⚖️ CendiaPrecedent: Indexed ${deliberations.length} decisions for org ${organizationId}`);
+    return deliberations.length;
   }
 
   // ---------------------------------------------------------------------------
-  // SIMILARITY SEARCH
+  // PRECEDENT SEARCH
   // ---------------------------------------------------------------------------
 
-  async findSimilarDecisions(request: SimilaritySearchRequest): Promise<SimilaritySearchResult> {
+  async findPrecedents(
+    query: string,
+    organizationId: string,
+    options: { topK?: number; minSimilarity?: number; excludeId?: string } = {}
+  ): Promise<PrecedentSearchResult> {
     const startTime = Date.now();
-    const maxResults = request.maxResults || 10;
-    const minSimilarity = request.minSimilarity || 0.15;
+    const { topK = 10, minSimilarity = 0.1, excludeId } = options;
 
-    const queryText = `${request.title} ${request.question} ${request.context}`;
-    const queryKeywords = this.extractKeywords(queryText);
+    await this.ensureIndex(organizationId);
 
-    // =========================================================================
-    // STRATEGY: Use neural embeddings (Qdrant) if available, TF-IDF fallback
-    // =========================================================================
-    let vectorCandidateIds: Set<string> | null = null;
-    let vectorScores: Map<string, number> = new Map();
+    const rawResults = this.engine.search(query, topK + 5); // Extra to account for filtering
 
-    if (this.vectorSearchEnabled && vectorDB.isAvailable()) {
-      try {
-        const vectorResults = await vectorDB.searchForOrganization(
-          'decisions',
-          queryText,
-          request.organizationId,
-          maxResults * 3, // Over-fetch for re-ranking
-          request.includeCrossDepartment ? undefined : undefined,
-          0.1 // Low threshold — let multi-dimensional scoring handle final ranking
+    const matches: PrecedentMatch[] = rawResults
+      .filter(r => r.score >= minSimilarity && r.id !== excludeId)
+      .slice(0, topK)
+      .map(r => ({
+        deliberationId: r.id,
+        question: r.metadata.question,
+        decision: (r.metadata.decision || '').substring(0, 200),
+        similarity: Math.round(r.score * 1000) / 1000,
+        similarityPercent: Math.round(r.score * 100),
+        createdAt: r.metadata.createdAt,
+        consensusScore: r.metadata.consensusScore,
+        mode: r.metadata.mode,
+        outcomeMatch: true, // Will be refined below
+      }));
+
+    // Detect inconsistencies — similar questions with divergent outcomes
+    const inconsistencies: PrecedentSearchResult['inconsistencies'] = [];
+
+    for (const match of matches) {
+      if (match.similarityPercent >= 70) {
+        // High similarity — check if outcomes diverged
+        // Simple heuristic: if consensus scores differ by >30 points, flag it
+        const otherMatches = matches.filter(m =>
+          m.deliberationId !== match.deliberationId && m.similarityPercent >= 60
         );
 
-        if (vectorResults.length > 0) {
-          vectorCandidateIds = new Set(vectorResults.map(r => r.id));
-          for (const r of vectorResults) {
-            vectorScores.set(r.id, r.score);
-          }
-          logger.debug(`[CendiaSimilarity] Neural search returned ${vectorResults.length} candidates`);
-        }
-      } catch (err) {
-        logger.warn('[CendiaSimilarity] Neural search failed, falling back to TF-IDF:', err);
-      }
-    }
+        for (const other of otherMatches) {
+          const scoreDiff = Math.abs(match.consensusScore - other.consensusScore);
+          if (scoreDiff > 30) {
+            match.outcomeMatch = false;
+            match.warning = `Similar to ${other.deliberationId} (${other.similarityPercent}% match) but consensus differed by ${scoreDiff} points`;
 
-    // Get candidate set: either from Qdrant pre-filter or full scan
-    let candidates: DecisionRecord[];
-    if (vectorCandidateIds && vectorCandidateIds.size > 0) {
-      // Use Qdrant results as candidate set (much faster at scale)
-      candidates = Array.from(vectorCandidateIds)
-        .map(id => this.decisions.get(id))
-        .filter((d): d is DecisionRecord => d !== undefined);
-    } else {
-      // TF-IDF fallback: scan all in-memory decisions
-      candidates = Array.from(this.decisions.values())
-        .filter(d => d.organizationId === request.organizationId || request.includeCrossDepartment);
-    }
-
-    const matches: SimilarityMatch[] = [];
-    const queryTfIdf = textToTfIdf(queryText);
-
-    for (const candidate of candidates) {
-      const candidateText = `${candidate.title} ${candidate.question} ${candidate.context}`;
-      const candidateTfIdf = textToTfIdf(candidateText);
-
-      // Use neural embedding score if available, otherwise TF-IDF
-      const neuralScore = vectorScores.get(candidate.id);
-      const tfidfScore = cosineSimilarity(queryTfIdf, candidateTfIdf);
-      const semanticScore = neuralScore !== undefined
-        ? (neuralScore * 0.7 + tfidfScore * 0.3) // Blend: 70% neural, 30% TF-IDF
-        : tfidfScore;
-
-      const semanticLabel = neuralScore !== undefined
-        ? `Neural embedding: ${(neuralScore * 100).toFixed(1)}% (blended with TF-IDF: ${(tfidfScore * 100).toFixed(1)}%)`
-        : `TF-IDF cosine similarity: ${(tfidfScore * 100).toFixed(1)}%`;
-
-      const keywordScore = this.keywordOverlap(queryKeywords, candidate.keywords);
-      const contextualScore = this.contextualSimilarity(request, candidate);
-      const structuralScore = this.structuralSimilarity(request, candidate);
-
-      const temporalDecay = this.calculateTemporalDecay(candidate.decidedAt);
-
-      const dimensions: SimilarityDimension[] = [
-        { dimension: 'semantic', score: semanticScore, weight: 0.35, details: semanticLabel },
-        { dimension: 'keyword', score: keywordScore, weight: 0.20, details: `Keyword overlap: ${(keywordScore * 100).toFixed(1)}%` },
-        { dimension: 'contextual', score: contextualScore, weight: 0.20, details: `Context factors: department, urgency, type match` },
-        { dimension: 'structural', score: structuralScore, weight: 0.15, details: `Decision structure similarity` },
-        { dimension: 'temporal', score: temporalDecay, weight: 0.10, details: `Temporal relevance (${this.daysSince(candidate.decidedAt)} days ago)` },
-      ];
-
-      const overallSimilarity = dimensions.reduce((sum, d) => sum + d.score * d.weight, 0);
-
-      if (overallSimilarity >= minSimilarity) {
-        const warnings = this.generateWarnings(candidate, overallSimilarity);
-        const insights = this.generateInsights(candidate, request);
-
-        matches.push({
-          id: uuidv4(),
-          queryDecisionId: undefined,
-          matchedDecisionId: candidate.id,
-          matchedDecision: candidate,
-          overallSimilarity,
-          matchStrength: this.getMatchStrength(overallSimilarity),
-          similarities: dimensions,
-          warnings,
-          insights,
-          relevanceScore: overallSimilarity * temporalDecay,
-          temporalDecay,
-          matchedAt: new Date(),
-        });
-      }
-    }
-
-    matches.sort((a, b) => b.relevanceScore - a.relevanceScore);
-    const topMatches = matches.slice(0, maxResults);
-
-    const aggregateInsights = this.generateAggregateInsights(topMatches, request);
-    const riskAssessment = this.assessRisk(topMatches);
-
-    const result: SimilaritySearchResult = {
-      id: uuidv4(),
-      query: request,
-      matches: topMatches,
-      totalMatchesFound: matches.length,
-      aggregateInsights,
-      riskAssessment,
-      searchedAt: new Date(),
-      searchDurationMs: Date.now() - startTime,
-      integrity: { resultHash: '', algorithm: 'SHA-256' },
-    };
-
-    result.integrity.resultHash = crypto.createHash('sha256')
-      .update(JSON.stringify({ id: result.id, matchCount: result.matches.length }))
-      .digest('hex');
-
-    this.searchResults.set(result.id, result);
-    this.persistSearchResult(result).catch(() => {});
-    logger.info(`[CendiaSimilarity] Search: ${topMatches.length} matches found in ${result.searchDurationMs}ms`);    
-    return result;
-  }
-
-  // ---------------------------------------------------------------------------
-  // SIMILARITY CALCULATIONS
-  // ---------------------------------------------------------------------------
-
-  private keywordOverlap(a: string[], b: string[]): number {
-    const setA = new Set(a);
-    const setB = new Set(b);
-    const intersection = Array.from(setA).filter(k => setB.has(k)).length;
-    const union = new Set(a.concat(b)).size;
-    return union > 0 ? intersection / union : 0;
-  }
-
-  private contextualSimilarity(request: SimilaritySearchRequest, candidate: DecisionRecord): number {
-    let score = 0;
-    let factors = 0;
-
-    if (request.department && candidate.department) {
-      factors++;
-      if (request.department.toLowerCase() === candidate.department.toLowerCase()) score += 1;
-    }
-
-    if (request.urgency && candidate.urgency) {
-      factors++;
-      if (request.urgency === candidate.urgency) score += 1;
-      else if (Math.abs(['low', 'medium', 'high', 'critical'].indexOf(request.urgency) -
-        ['low', 'medium', 'high', 'critical'].indexOf(candidate.urgency)) <= 1) score += 0.5;
-    }
-
-    if (request.decisionType && candidate.decisionType) {
-      factors++;
-      if (request.decisionType.toLowerCase() === candidate.decisionType.toLowerCase()) score += 1;
-    }
-
-    if (request.tags && candidate.tags) {
-      const tagOverlap = this.keywordOverlap(request.tags, candidate.tags);
-      factors++;
-      score += tagOverlap;
-    }
-
-    return factors > 0 ? score / factors : 0.3;
-  }
-
-  private structuralSimilarity(request: SimilaritySearchRequest, candidate: DecisionRecord): number {
-    let score = 0.3; // Base score
-    if (request.title.length > 10 && candidate.title.length > 10) score += 0.2;
-    if (request.context.length > 50 && candidate.context.length > 50) score += 0.2;
-    if (candidate.outcome) score += 0.15;
-    if (candidate.lessonsLearned && candidate.lessonsLearned.length > 0) score += 0.15;
-    return Math.min(1, score);
-  }
-
-  private calculateTemporalDecay(decidedAt: Date): number {
-    const daysSince = this.daysSince(decidedAt);
-    // Half-life of 365 days
-    return Math.exp(-0.693 * daysSince / 365);
-  }
-
-  private daysSince(date: Date): number {
-    return Math.floor((Date.now() - date.getTime()) / (1000 * 60 * 60 * 24));
-  }
-
-  private getMatchStrength(similarity: number): MatchStrength {
-    if (similarity >= 0.8) return 'exact';
-    if (similarity >= 0.6) return 'strong';
-    if (similarity >= 0.4) return 'moderate';
-    if (similarity >= 0.2) return 'weak';
-    return 'tangential';
-  }
-
-  private extractKeywords(text: string): string[] {
-    const tokens = tokenize(text);
-    const freq = new Map<string, number>();
-    for (const t of tokens) {
-      freq.set(t, (freq.get(t) || 0) + 1);
-    }
-    return Array.from(freq.entries())
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 20)
-      .map(([word]) => word);
-  }
-
-  // ---------------------------------------------------------------------------
-  // WARNINGS & INSIGHTS
-  // ---------------------------------------------------------------------------
-
-  private generateWarnings(candidate: DecisionRecord, similarity: number): SimilarityWarning[] {
-    const warnings: SimilarityWarning[] = [];
-
-    if (candidate.outcome === 'failed' && similarity > 0.4) {
-      warnings.push({
-        severity: 'critical',
-        title: 'Similar decision previously failed',
-        description: `A decision with ${(similarity * 100).toFixed(0)}% similarity ("${candidate.title}") was made on ${candidate.decidedAt.toLocaleDateString()} and resulted in failure. ${candidate.outcomeDescription || ''}`,
-        precedentDecisionId: candidate.id,
-        precedentOutcome: candidate.outcome,
-      });
-    }
-
-    if (candidate.dissenterWasCorrect && similarity > 0.3) {
-      warnings.push({
-        severity: 'high',
-        title: 'Dissenters were correct in similar past decision',
-        description: `In a similar decision ("${candidate.title}"), those who dissented were proven correct. Their prediction: "${candidate.dissentersPrediction || 'N/A'}"`,
-        precedentDecisionId: candidate.id,
-        precedentOutcome: candidate.outcome,
-      });
-    }
-
-    if (candidate.overrideOccurred && candidate.overrideSuccessful === false && similarity > 0.3) {
-      warnings.push({
-        severity: 'high',
-        title: 'Override in similar decision was unsuccessful',
-        description: `A similar decision ("${candidate.title}") involved an override that was ultimately unsuccessful.`,
-        precedentDecisionId: candidate.id,
-        precedentOutcome: candidate.outcome,
-      });
-    }
-
-    return warnings;
-  }
-
-  private generateInsights(candidate: DecisionRecord, request: SimilaritySearchRequest): SimilarityInsight[] {
-    const insights: SimilarityInsight[] = [];
-
-    if (candidate.outcome) {
-      insights.push({
-        type: 'outcome_pattern',
-        title: `Previous outcome: ${candidate.outcome}`,
-        description: candidate.outcomeDescription || `The similar decision resulted in: ${candidate.outcome}`,
-        confidence: 0.7,
-        actionable: candidate.outcome === 'failed',
-        recommendation: candidate.outcome === 'failed' ? 'Review lessons learned from this precedent before proceeding.' : undefined,
-      });
-    }
-
-    if (candidate.lessonsLearned && candidate.lessonsLearned.length > 0) {
-      insights.push({
-        type: 'outcome_pattern',
-        title: 'Lessons learned available',
-        description: `${candidate.lessonsLearned.length} lessons learned from similar decision: ${candidate.lessonsLearned[0]}`,
-        confidence: 0.8,
-        actionable: true,
-        recommendation: 'Apply lessons learned from the precedent decision to inform current deliberation.',
-      });
-    }
-
-    if (candidate.department !== request.department) {
-      insights.push({
-        type: 'cross_department',
-        title: 'Cross-department precedent',
-        description: `Similar decision found in ${candidate.department} department — indicates this type of decision occurs across organizational silos.`,
-        confidence: 0.6,
-        actionable: true,
-        recommendation: `Consider consulting ${candidate.department} for their experience with this type of decision.`,
-      });
-    }
-
-    return insights;
-  }
-
-  private generateAggregateInsights(matches: SimilarityMatch[], request: SimilaritySearchRequest): AggregateInsight[] {
-    const insights: AggregateInsight[] = [];
-
-    const withOutcomes = matches.filter(m => m.matchedDecision.outcome);
-    if (withOutcomes.length > 0) {
-      const successRate = withOutcomes.filter(m => m.matchedDecision.outcome === 'successful' || m.matchedDecision.outcome === 'partially_successful').length / withOutcomes.length;
-      insights.push({
-        type: 'historical_success_rate',
-        title: `Historical success rate: ${(successRate * 100).toFixed(0)}%`,
-        description: `Of ${withOutcomes.length} similar past decisions with tracked outcomes, ${(successRate * 100).toFixed(0)}% were successful or partially successful.`,
-        supportingDecisions: withOutcomes.map(m => m.matchedDecisionId),
-        confidence: withOutcomes.length >= 3 ? 0.8 : 0.5,
-      });
-    }
-
-    const failedMatches = matches.filter(m => m.matchedDecision.outcome === 'failed');
-    if (failedMatches.length > 0) {
-      insights.push({
-        type: 'failure_pattern',
-        title: `${failedMatches.length} similar decisions previously failed`,
-        description: `Multiple precedent decisions with similarity to the current proposal resulted in failure. Careful review recommended.`,
-        supportingDecisions: failedMatches.map(m => m.matchedDecisionId),
-        confidence: 0.75,
-      });
-    }
-
-    const withCorrectDissenters = matches.filter(m => m.matchedDecision.dissenterWasCorrect);
-    if (withCorrectDissenters.length > 0) {
-      insights.push({
-        type: 'dissenter_pattern',
-        title: `Dissenters were correct in ${withCorrectDissenters.length} similar decisions`,
-        description: 'Historical data shows dissenting opinions were validated by outcomes in similar past decisions. Pay extra attention to any dissent on this decision.',
-        supportingDecisions: withCorrectDissenters.map(m => m.matchedDecisionId),
-        confidence: 0.85,
-      });
-    }
-
-    return insights;
-  }
-
-  private assessRisk(matches: SimilarityMatch[]): SimilarityRiskAssessment {
-    const withOutcomes = matches.filter(m => m.matchedDecision.outcome);
-    const successful = withOutcomes.filter(m => m.matchedDecision.outcome === 'successful' || m.matchedDecision.outcome === 'partially_successful');
-    const withDissenters = matches.filter(m => m.matchedDecision.dissenterWasCorrect !== undefined);
-    const correctDissenters = withDissenters.filter(m => m.matchedDecision.dissenterWasCorrect);
-    const withOverrides = matches.filter(m => m.matchedDecision.overrideOccurred);
-    const successfulOverrides = withOverrides.filter(m => m.matchedDecision.overrideSuccessful);
-
-    const historicalSuccessRate = withOutcomes.length > 0 ? successful.length / withOutcomes.length : 0.5;
-    const dissenterAccuracyRate = withDissenters.length > 0 ? correctDissenters.length / withDissenters.length : 0;
-    const overrideSuccessRate = withOverrides.length > 0 ? successfulOverrides.length / withOverrides.length : 0.5;
-
-    const factors: { factor: string; risk: string; details: string }[] = [];
-    
-    if (historicalSuccessRate < 0.5) {
-      factors.push({ factor: 'Low historical success rate', risk: 'high', details: `Only ${(historicalSuccessRate * 100).toFixed(0)}% of similar decisions succeeded` });
-    }
-    if (dissenterAccuracyRate > 0.5) {
-      factors.push({ factor: 'Dissenters frequently correct', risk: 'high', details: `Dissenters were correct ${(dissenterAccuracyRate * 100).toFixed(0)}% of the time in similar decisions` });
-    }
-    if (matches.some(m => m.warnings.some(w => w.severity === 'critical'))) {
-      factors.push({ factor: 'Critical warnings from precedents', risk: 'critical', details: 'One or more similar decisions have critical warning signals' });
-    }
-
-    const overallRisk = factors.some(f => f.risk === 'critical') ? 'critical' as const :
-                        factors.filter(f => f.risk === 'high').length >= 2 ? 'high' as const :
-                        factors.length > 0 ? 'medium' as const :
-                        matches.length === 0 ? 'unknown' as const : 'low' as const;
-
-    return {
-      overallRisk,
-      historicalSuccessRate,
-      dissenterAccuracyRate,
-      overrideSuccessRate,
-      factors,
-    };
-  }
-
-  // ---------------------------------------------------------------------------
-  // PATTERN DETECTION
-  // ---------------------------------------------------------------------------
-
-  async detectPatterns(organizationId: string): Promise<DecisionPattern[]> {
-    const orgDecisions = Array.from(this.decisions.values()).filter(d => d.organizationId === organizationId);
-    const detectedPatterns: DecisionPattern[] = [];
-
-    // Recurring failure pattern
-    const failedDecisions = orgDecisions.filter(d => d.outcome === 'failed');
-    if (failedDecisions.length >= 2) {
-      for (let i = 0; i < failedDecisions.length; i++) {
-        for (let j = i + 1; j < failedDecisions.length; j++) {
-          const similarity = this.quickSimilarity(failedDecisions[i], failedDecisions[j]);
-          if (similarity > 0.3) {
-            detectedPatterns.push({
-              id: uuidv4(),
-              organizationId,
-              patternType: 'recurring_failure',
-              title: `Recurring failure pattern: ${failedDecisions[i].decisionType}`,
-              description: `Similar decisions "${failedDecisions[i].title}" and "${failedDecisions[j].title}" both resulted in failure. This may indicate a systemic issue.`,
-              decisionIds: [failedDecisions[i].id, failedDecisions[j].id],
-              frequency: 2,
-              lastOccurrence: new Date(Math.max(failedDecisions[i].decidedAt.getTime(), failedDecisions[j].decidedAt.getTime())),
-              severity: 'high',
-              recommendation: 'Investigate root cause of repeated failures in similar decisions. Consider structural changes to the decision process.',
+            inconsistencies.push({
+              matchId: match.deliberationId,
+              description: `Decision "${match.question.substring(0, 50)}..." is ${match.similarityPercent}% similar to a previous decision but reached a significantly different consensus (${match.consensusScore}% vs ${other.consensusScore}%)`,
+              severity: scoreDiff > 50 ? 'high' : scoreDiff > 30 ? 'medium' : 'low',
             });
           }
         }
       }
     }
 
-    // Override pattern
-    const overrideDecisions = orgDecisions.filter(d => d.overrideOccurred);
-    if (overrideDecisions.length >= 3) {
-      detectedPatterns.push({
-        id: uuidv4(),
-        organizationId,
-        patternType: 'override_pattern',
-        title: `Frequent overrides detected`,
-        description: `${overrideDecisions.length} decisions involved overrides. Success rate: ${(overrideDecisions.filter(d => d.overrideSuccessful).length / overrideDecisions.length * 100).toFixed(0)}%`,
-        decisionIds: overrideDecisions.map(d => d.id),
-        frequency: overrideDecisions.length,
-        lastOccurrence: new Date(Math.max(...overrideDecisions.map(d => d.decidedAt.getTime()))),
-        severity: overrideDecisions.filter(d => d.overrideSuccessful === false).length > overrideDecisions.length / 2 ? 'critical' : 'medium',
-        recommendation: 'Review override authorization processes. Consider whether recommendations are adequately informed.',
-      });
-    }
-
-    // Dissent accuracy pattern
-    const withDissenters = orgDecisions.filter(d => d.dissenterWasCorrect !== undefined);
-    const correctDissenters = withDissenters.filter(d => d.dissenterWasCorrect);
-    if (correctDissenters.length >= 2 && correctDissenters.length / withDissenters.length > 0.5) {
-      detectedPatterns.push({
-        id: uuidv4(),
-        organizationId,
-        patternType: 'dissent_pattern',
-        title: 'Dissenters frequently correct',
-        description: `Dissenters were correct in ${correctDissenters.length}/${withDissenters.length} decisions (${(correctDissenters.length / withDissenters.length * 100).toFixed(0)}%). Dissenting voices deserve more weight.`,
-        decisionIds: correctDissenters.map(d => d.id),
-        frequency: correctDissenters.length,
-        lastOccurrence: new Date(Math.max(...correctDissenters.map(d => d.decidedAt.getTime()))),
-        severity: 'high',
-        recommendation: 'Institutionalize formal dissent review. Consider giving dissenting views more weight in future deliberations.',
-      });
-    }
-
-    for (const p of detectedPatterns) {
-      this.patterns.set(p.id, p);
-      this.persistPattern(p).catch(() => {});
-    }
-
-    logger.info(`[CendiaSimilarity] Pattern detection for ${organizationId}: ${detectedPatterns.length} patterns found`);
-    return detectedPatterns;
-  }
-
-  private quickSimilarity(a: DecisionRecord, b: DecisionRecord): number {
-    const textA = `${a.title} ${a.question}`;
-    const textB = `${b.title} ${b.question}`;
-    return cosineSimilarity(textToTfIdf(textA), textToTfIdf(textB));
-  }
-
-  // ---------------------------------------------------------------------------
-  // GETTERS
-  // ---------------------------------------------------------------------------
-
-  getDecision(decisionId: string): DecisionRecord | undefined {
-    return this.decisions.get(decisionId);
-  }
-
-  getDecisionsByOrganization(organizationId: string): DecisionRecord[] {
-    return Array.from(this.decisions.values()).filter(d => d.organizationId === organizationId);
-  }
-
-  getSearchResult(resultId: string): SimilaritySearchResult | undefined {
-    return this.searchResults.get(resultId);
-  }
-
-  getPatternsByOrganization(organizationId: string): DecisionPattern[] {
-    return Array.from(this.patterns.values()).filter(p => p.organizationId === organizationId);
-  }
-
-  getAllDecisions(): DecisionRecord[] {
-    return Array.from(this.decisions.values());
-  }
-
-  getStats(organizationId: string) {
-    const decisions = this.getDecisionsByOrganization(organizationId);
-    const withOutcomes = decisions.filter(d => d.outcome);
-    const successful = withOutcomes.filter(d => d.outcome === 'successful' || d.outcome === 'partially_successful');
-    const withDissenters = decisions.filter(d => d.dissenterWasCorrect !== undefined);
-    const correctDissenters = withDissenters.filter(d => d.dissenterWasCorrect);
-
-    return {
-      totalDecisions: decisions.length,
-      withOutcomes: withOutcomes.length,
-      successRate: withOutcomes.length > 0 ? (successful.length / withOutcomes.length) : null,
-      overrideCount: decisions.filter(d => d.overrideOccurred).length,
-      dissenterAccuracy: withDissenters.length > 0 ? (correctDissenters.length / withDissenters.length) : null,
-      patternsDetected: Array.from(this.patterns.values()).filter(p => p.organizationId === organizationId).length,
+    const result: PrecedentSearchResult = {
+      searchId: `prec-${bytesToHex(sha256(utf8ToBytes(`${query}:${Date.now()}`))).substring(0, 12)}`,
+      query,
+      matches,
+      totalSearched: this.engine.size,
+      searchedAt: new Date().toISOString(),
+      searchDurationMs: Date.now() - startTime,
+      inconsistencies,
     };
+
+    logger.info(`⚖️ CendiaPrecedent: Found ${matches.length} precedents for query (${result.searchDurationMs}ms, ${inconsistencies.length} inconsistencies)`);
+
+    return result;
   }
 
-  // ---------------------------------------------------------------------------
-  // DEMO DATA
-  // ---------------------------------------------------------------------------
+  /**
+   * Check a specific deliberation against all precedents.
+   */
+  async checkDeliberation(deliberationId: string, organizationId: string): Promise<PrecedentSearchResult> {
+    const delib = await prisma.deliberations.findUnique({ where: { id: deliberationId } });
+    if (!delib) throw new Error(`Deliberation ${deliberationId} not found`);
 
-  private seedDemoData(): void {
-    const demoDecisions: Omit<DecisionRecord, 'id' | 'keywords' | 'embedding'>[] = [
-      {
-        organizationId: 'org-datacendia',
-        title: 'Migrate core database from PostgreSQL to CockroachDB',
-        question: 'Should we migrate our primary database to CockroachDB for horizontal scaling?',
-        context: 'Current PostgreSQL is hitting performance limits at 10M rows. Team recommends CockroachDB for distributed SQL. Budget: $200K. Timeline: 6 months.',
-        decisionType: 'technology',
-        department: 'Engineering',
-        urgency: 'high',
-        outcome: 'partially_successful',
-        outcomeDescription: 'Migration completed but took 9 months instead of 6. Some query performance regressions in analytics workloads.',
-        lessonsLearned: ['Underestimated migration complexity', 'Should have run parallel systems longer', 'Analytics queries need different optimization'],
-        dissentersPrediction: 'CTO argued we should optimize PostgreSQL first with partitioning',
-        dissenterWasCorrect: true,
-        overrideOccurred: true,
-        overrideSuccessful: false,
-        tags: ['database', 'migration', 'infrastructure', 'scaling'],
-        decidedAt: new Date('2025-03-15'),
-        decidedBy: 'VP Engineering',
-        relatedDecisionIds: [],
-      },
-      {
-        organizationId: 'org-datacendia',
-        title: 'Expand to APAC market with Singapore office',
-        question: 'Should we open a Singapore office to serve APAC customers?',
-        context: 'Growing demand from APAC. Singapore has favorable regulatory environment. Initial investment: $500K. Expected revenue: $2M in Year 1.',
-        decisionType: 'strategic',
-        department: 'Executive',
-        urgency: 'medium',
-        outcome: 'successful',
-        outcomeDescription: 'Singapore office opened on schedule. Revenue exceeded forecast at $2.8M in Year 1.',
-        lessonsLearned: ['Local partnership accelerated market entry', 'Regulatory compliance was easier than expected'],
-        overrideOccurred: false,
-        tags: ['expansion', 'apac', 'market-entry', 'office'],
-        decidedAt: new Date('2025-01-20'),
-        decidedBy: 'CEO',
-        relatedDecisionIds: [],
-      },
-      {
-        organizationId: 'org-datacendia',
-        title: 'Replace legacy monitoring with Datadog',
-        question: 'Should we replace our custom monitoring stack with Datadog?',
-        context: 'Current monitoring is unreliable. False positive rate: 40%. On-call team burned out. Datadog quote: $150K/year.',
-        decisionType: 'technology',
-        department: 'Engineering',
-        urgency: 'high',
-        outcome: 'failed',
-        outcomeDescription: 'Datadog costs exceeded budget by 3x due to log volume. Reverted to self-hosted solution after 6 months.',
-        lessonsLearned: ['Estimate actual log/metric volume before committing', 'Negotiate volume-based pricing upfront', 'POC with production data, not samples'],
-        dissentersPrediction: 'Senior SRE warned that our log volume would make Datadog prohibitively expensive',
-        dissenterWasCorrect: true,
-        overrideOccurred: true,
-        overrideSuccessful: false,
-        tags: ['monitoring', 'saas', 'infrastructure', 'cost'],
-        decidedAt: new Date('2025-06-10'),
-        decidedBy: 'VP Engineering',
-        relatedDecisionIds: [],
-      },
-      {
-        organizationId: 'org-meridian',
-        title: 'Implement AI-driven fraud detection for credit card transactions',
-        question: 'Should we deploy ML-based fraud detection to replace rule-based system?',
-        context: 'Current rule-based system has 2% false positive rate (costing $5M/year in blocked legitimate transactions). ML model in testing shows 0.5% false positive rate.',
-        decisionType: 'technology',
-        department: 'Risk Management',
-        urgency: 'high',
-        outcome: 'successful',
-        outcomeDescription: 'ML fraud detection deployed. False positive rate reduced to 0.4%. Saved $4.2M in Year 1.',
-        lessonsLearned: ['Gradual rollout (shadow mode then production) was key', 'Model monitoring critical — drift detected within 3 months'],
-        overrideOccurred: false,
-        tags: ['fraud', 'ai', 'ml', 'credit-card', 'risk'],
-        decidedAt: new Date('2025-04-22'),
-        decidedBy: 'CRO',
-        relatedDecisionIds: [],
-      },
-      {
-        organizationId: 'org-meridian',
-        title: 'Outsource customer service to offshore provider',
-        question: 'Should we outsource 60% of customer service calls to reduce costs?',
-        context: 'Customer service costs $12M/year. Offshore provider quotes $4M for equivalent volume. CSAT currently at 4.2/5.',
-        decisionType: 'operational',
-        department: 'Operations',
-        urgency: 'medium',
-        outcome: 'failed',
-        outcomeDescription: 'CSAT dropped to 3.1/5 within 3 months. Customer churn increased 15%. Brought operations back in-house after 8 months.',
-        lessonsLearned: ['Cost savings destroyed by customer churn', 'Quality cannot be maintained with cheapest provider', 'Pilot with 10% volume first'],
-        dissentersPrediction: 'Head of Customer Success predicted quality issues would increase churn',
-        dissenterWasCorrect: true,
-        overrideOccurred: true,
-        overrideSuccessful: false,
-        tags: ['outsourcing', 'customer-service', 'cost-reduction'],
-        decidedAt: new Date('2024-11-05'),
-        decidedBy: 'COO',
-        relatedDecisionIds: [],
-      },
-      {
-        organizationId: 'org-celtic',
-        title: 'Sign striker from Brazilian Serie A for £8M',
-        question: 'Should Celtic sign 22-year-old striker from Santos FC at £8M transfer fee?',
-        context: 'Current striker aging. Santos player scored 18 goals last season. Agent demands £45K/week wages. Celtic budget allows £10M total.',
-        decisionType: 'acquisition',
-        department: 'Football Operations',
-        urgency: 'high',
-        outcome: 'successful',
-        outcomeDescription: 'Player signed at £7.5M. Scored 22 goals in first season. Valued at £25M after 18 months.',
-        lessonsLearned: ['South American league data was reliable predictor', 'Pre-signing medical saved potential injury issue'],
-        overrideOccurred: false,
-        tags: ['transfer', 'striker', 'brazil', 'acquisition'],
-        decidedAt: new Date('2025-07-15'),
-        decidedBy: 'Director of Football',
-        relatedDecisionIds: [],
-      },
-      {
-        organizationId: 'org-celtic',
-        title: 'Replace head of academy with external hire',
-        question: 'Should we replace the long-serving academy director with an external candidate from Ajax?',
-        context: 'Academy producing fewer first-team players. Ajax candidate has track record. Internal candidate also available.',
-        decisionType: 'personnel',
-        department: 'Football Operations',
-        urgency: 'medium',
-        outcome: 'partially_successful',
-        outcomeDescription: 'Ajax hire improved methodology but alienated existing staff. Two key coaches left. Results improving after 18-month transition.',
-        lessonsLearned: ['Change management plan needed before leadership changes', 'Retain institutional knowledge during transitions'],
-        dissentersPrediction: 'Youth coach warned external hire would cause staff exodus',
-        dissenterWasCorrect: true,
-        overrideOccurred: false,
-        tags: ['academy', 'personnel', 'leadership-change'],
-        decidedAt: new Date('2025-02-28'),
-        decidedBy: 'CEO',
-        relatedDecisionIds: [],
-      },
-    ];
+    const result = await this.findPrecedents(delib.question, organizationId, {
+      excludeId: deliberationId,
+      topK: 10,
+      minSimilarity: 0.15,
+    });
 
-    for (const dec of demoDecisions) {
-      this.addDecisionRecord(dec);
-    }
-
-    // Detect patterns for demo orgs
-    this.detectPatterns('org-datacendia').catch(err => logger.error('Pattern detection failed:', err));
-    this.detectPatterns('org-meridian').catch(err => logger.error('Pattern detection failed:', err));
-    this.detectPatterns('org-celtic').catch(err => logger.error('Pattern detection failed:', err));
-  }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'DecisionSimilarity', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.decisions.has(d.id)) this.decisions.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      const recs_1 = await loadServiceRecords({ serviceName: 'DecisionSimilarity', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs_1) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.searchResults.has(d.id)) this.searchResults.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_1.length;
-
-
-      const recs_2 = await loadServiceRecords({ serviceName: 'DecisionSimilarity', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs_2) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.patterns.has(d.id)) this.patterns.set(d.id, d);
-
-
-      }
-
-
-      restored += recs_2.length;
-
-
-      if (restored > 0) logger.info(`[DecisionSimilarityService] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[DecisionSimilarityService] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
+    result.queryDeliberationId = deliberationId;
+    return result;
   }
 }
 
-// =============================================================================
-// SINGLETON
-// =============================================================================
-
-export const decisionSimilarityService = new DecisionSimilarityService();
-export default decisionSimilarityService;
+export const decisionSimilarityService = new DecisionPrecedentEngine();

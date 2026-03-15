@@ -1,732 +1,414 @@
-/**
- * Service — Decision Replay Theater Service
- *
- * Business logic service implementing platform capabilities.
- *
- * @exports DecisionReplayTheaterService, decisionReplayTheaterService, ReplayFrame, ReplaySession, ReplayAgent, ReplayPlaybackState, ReplayExportOptions
- * @module services/visualization/DecisionReplayTheaterService
- */
-
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
 /**
- * CendiaReplay™ — DECISION REPLAY THEATER SERVICE
- * 
- * Watch past deliberations unfold like a movie:
- * - See exactly what each agent said when
- * - Understand how the decision evolved
- * - Export as video for board presentations
- * - Time-travel through decision history
+ * CendiaReplay™ — Live Decision Replay Theater
+ *
+ * Generates a shareable, animated replay of any AI Council deliberation.
+ * Returns a self-contained HTML page that shows each agent's reasoning,
+ * confidence scores, dissents, and votes unfolding step-by-step — like
+ * watching a debate replay. Works as a standalone URL or embedded page.
+ *
+ * @module services/visualization/DecisionReplayTheaterService
+ * @exports decisionReplayTheaterService
  */
 
+import { sha256, bytesToHex, utf8ToBytes } from '../crypto/nativeCrypto.js';
+import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
-import { loadServiceRecords } from '../../utils/servicePersistence.js';
+
 // =============================================================================
 // TYPES
 // =============================================================================
 
-export interface ReplayFrame {
-  frameId: string;
-  timestamp: Date;
-  relativeTime: number; // milliseconds from start
-  type: 'agent_statement' | 'citation' | 'dissent' | 'vote' | 'consensus' | 'round_change' | 'system';
-  agentId?: string;
-  agentName?: string;
+export interface ReplayEvent {
+  timestamp: number;      // ms offset from start
+  type: 'phase_start' | 'agent_response' | 'dissent' | 'vote' | 'decision';
+  agent?: string;
   agentRole?: string;
-  content: string;
-  metadata?: Record<string, unknown>;
-  confidenceLevels?: Record<string, number>;
-  consensusLevel?: number;
+  phase?: string;
+  content?: string;
+  confidence?: number;
+  dissented?: boolean;
+  sources?: string[];
 }
 
-export interface ReplaySession {
-  sessionId: string;
+export interface ReplayData {
+  replayId: string;
   deliberationId: string;
-  title: string;
-  description?: string;
-  totalDuration: number; // milliseconds
-  frameCount: number;
-  frames: ReplayFrame[];
-  agents: ReplayAgent[];
-  outcome?: {
+  question: string;
+  mode: string;
+  events: ReplayEvent[];
+  agents: { name: string; role: string; color: string }[];
+  outcome: {
     decision: string;
-    consensusReached: boolean;
-    votingResults?: {
-      inFavor: string[];
-      against: string[];
-      abstain: string[];
-    };
+    consensusScore: number;
+    dissentCount: number;
+    totalAgents: number;
   };
-  metadata: {
-    councilMode: string;
-    vertical?: string;
-    createdAt: Date;
-    completedAt?: Date;
-    totalRounds: number;
-  };
+  duration: number;       // total ms
+  generatedAt: string;
 }
 
-export interface ReplayAgent {
-  id: string;
-  name: string;
-  role: string;
-  statementCount: number;
-  citationCount: number;
-  dissented: boolean;
-  finalVote?: 'favor' | 'against' | 'abstain';
-}
-
-export interface ReplayPlaybackState {
-  sessionId: string;
-  currentFrameIndex: number;
-  isPlaying: boolean;
-  playbackSpeed: number; // 1 = normal, 2 = 2x, 0.5 = half speed
-  currentTime: number; // milliseconds
-}
-
-export interface ReplayExportOptions {
-  format: 'json' | 'pdf' | 'html' | 'video_script';
-  includeTimestamps: boolean;
-  includeConfidenceLevels: boolean;
-  includeCitations: boolean;
-  includeMetadata: boolean;
-}
+// Agent colors for visual distinction
+const AGENT_COLORS = [
+  '#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6',
+  '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1',
+];
 
 // =============================================================================
-// SERVICE CLASS
+// SERVICE
 // =============================================================================
 
-export class DecisionReplayTheaterService {
-  private static instance: DecisionReplayTheaterService;
-  private activeSessions: Map<string, ReplayPlaybackState> = new Map();
+class DecisionReplayTheaterServiceImpl {
+  private replayCache = new Map<string, ReplayData>();
 
-  private constructor() {
-    logger.info('[CendiaReplay] Decision Replay Theater™ initialized');
-
-
-    this.loadFromDB().catch(() => {});
+  constructor() {
+    logger.info('🎬 CendiaReplay: Initialized — decision replay theater active');
   }
 
-  static getInstance(): DecisionReplayTheaterService {
-    if (!DecisionReplayTheaterService.instance) {
-      DecisionReplayTheaterService.instance = new DecisionReplayTheaterService();
-    }
-    return DecisionReplayTheaterService.instance;
-  }
+  // ---------------------------------------------------------------------------
+  // REPLAY DATA GENERATION
+  // ---------------------------------------------------------------------------
 
-  // -------------------------------------------------------------------------
-  // SESSION CREATION
-  // -------------------------------------------------------------------------
+  async generateReplayData(deliberationId: string): Promise<ReplayData> {
+    // Check cache first
+    const cached = this.replayCache.get(deliberationId);
+    if (cached) return cached;
 
-  /**
-   * Create a replay session from a completed deliberation
-   */
-  async createReplaySession(deliberationId: string): Promise<ReplaySession> {
-    // Fetch deliberation from database
-    const deliberation = await (prisma.deliberations as any).findUnique({
+    // Fetch deliberation
+    const deliberation = await prisma.deliberations.findUnique({
       where: { id: deliberationId },
-      include: {
-        agent_responses: {
-          orderBy: { created_at: 'asc' },
-        },
-        dissents: true,
-      },
-    } as any) as any;
+    });
 
     if (!deliberation) {
       throw new Error(`Deliberation ${deliberationId} not found`);
     }
 
-    const d = deliberation as Record<string, any>;
-    const frames: ReplayFrame[] = [];
-    const agentStats: Map<string, ReplayAgent> = new Map();
-    let frameIndex = 0;
-    const startTime: Date = d.created_at ?? d.createdAt ?? new Date();
-
-    // Add initial frame
-    frames.push({
-      frameId: `frame-${frameIndex++}`,
-      timestamp: startTime,
-      relativeTime: 0,
-      type: 'system',
-      content: `Deliberation started: ${String(d.query ?? d.question ?? '')}`,
-      metadata: {
-        councilMode: String(d.council_mode ?? d.mode ?? 'default'),
-        vertical: (d.metadata as Record<string, any> | undefined)?.vertical,
-      },
+    // Fetch all messages with agent info, ordered chronologically
+    const messages = await prisma.deliberation_messages.findMany({
+      where: { deliberation_id: deliberationId },
+      include: { agents: true },
+      orderBy: { created_at: 'asc' },
     });
 
-    // Process agent responses
-    for (const response of (d.agent_responses ?? []) as any[]) {
-      const relativeTime = response.created_at.getTime() - startTime.getTime();
-      
-      // Track agent stats
-      if (!agentStats.has(response.agent_id)) {
-        agentStats.set(response.agent_id, {
-          id: response.agent_id,
-          name: response.agent_name,
-          role: response.agent_role || 'Agent',
-          statementCount: 0,
-          citationCount: 0,
-          dissented: false,
-        });
-      }
-      
-      const agent = agentStats.get(response.agent_id)!;
-      agent.statementCount++;
-
-      // Add statement frame
-      frames.push({
-        frameId: `frame-${frameIndex++}`,
-        timestamp: response.created_at,
-        relativeTime,
-        type: 'agent_statement',
-        agentId: response.agent_id,
-        agentName: response.agent_name,
-        agentRole: response.agent_role || undefined,
-        content: response.response,
-        metadata: {
-          confidence: response.confidence,
-          round: response.round,
-        },
-        confidenceLevels: this.buildConfidenceLevels((d.agent_responses ?? []) as any[], response.created_at),
+    // Fetch dissents
+    let dissents: any[] = [];
+    try {
+      dissents = await prisma.dissents.findMany({
+        where: { decision_id: deliberationId },
       });
+    } catch { /* table may not exist */ }
 
-      // Extract and add citation frames
-      const citations = this.extractCitations(response.response);
-      for (const citation of citations) {
-        agent.citationCount++;
-        frames.push({
-          frameId: `frame-${frameIndex++}`,
-          timestamp: response.created_at,
-          relativeTime: relativeTime + 100, // Slightly after statement
-          type: 'citation',
-          agentId: response.agent_id,
-          agentName: response.agent_name,
-          content: citation,
+    // Build agent list with colors
+    const agentMap = new Map<string, { name: string; role: string; color: string }>();
+    let colorIdx = 0;
+    for (const msg of messages) {
+      if (!agentMap.has(msg.agent_id)) {
+        agentMap.set(msg.agent_id, {
+          name: msg.agents.name,
+          role: msg.agents.role,
+          color: AGENT_COLORS[colorIdx % AGENT_COLORS.length],
         });
+        colorIdx++;
       }
     }
+    const agents = Array.from(agentMap.values());
 
-    // Process dissents
-    for (const dissent of (d.dissents ?? []) as any[]) {
-      const relativeTime = dissent.created_at.getTime() - startTime.getTime();
-      
-      const agent = agentStats.get(dissent.agent_id);
-      if (agent) {
-        agent.dissented = true;
+    // Build timeline events
+    const events: ReplayEvent[] = [];
+    const startTime = messages.length > 0 ? messages[0].created_at.getTime() : Date.now();
+    let lastPhase = '';
+
+    for (const msg of messages) {
+      const offset = msg.created_at.getTime() - startTime;
+
+      // Phase transition
+      if (msg.phase !== lastPhase) {
+        events.push({
+          timestamp: offset,
+          type: 'phase_start',
+          phase: msg.phase,
+        });
+        lastPhase = msg.phase;
       }
 
-      frames.push({
-        frameId: `frame-${frameIndex++}`,
-        timestamp: dissent.created_at,
-        relativeTime,
+      // Agent response
+      const agentInfo = agentMap.get(msg.agent_id);
+      const sources = (msg.sources as any[]) || [];
+      const dissentedAgent = dissents.some(d => d.dissenter_id === msg.agent_id);
+
+      events.push({
+        timestamp: offset + 100, // slight offset after phase
+        type: 'agent_response',
+        agent: agentInfo?.name || msg.agent_id,
+        agentRole: agentInfo?.role || '',
+        phase: msg.phase,
+        content: msg.content,
+        confidence: msg.confidence != null ? Math.round(msg.confidence * 100) : undefined,
+        dissented: dissentedAgent,
+        sources: sources.map((s: any) => s.reference || s.title || String(s)).slice(0, 3),
+      });
+    }
+
+    // Add dissent events
+    for (const d of dissents) {
+      events.push({
+        timestamp: d.created_at ? d.created_at.getTime() - startTime : events.length * 1000,
         type: 'dissent',
-        agentId: dissent.agent_id,
-        agentName: dissent.agent_name,
-        content: dissent.reason,
-        metadata: {
-          severity: dissent.severity,
-          protected: dissent.protected,
-        },
+        agent: d.dissenter_name,
+        content: d.statement,
+        confidence: 0,
+        dissented: true,
       });
     }
 
-    // Add conclusion frame
-    if (String(d.status) === 'completed' && d.final_decision) {
-      const completedAt: Date = d.updated_at ?? d.created_at;
-      frames.push({
-        frameId: `frame-${frameIndex++}`,
-        timestamp: completedAt,
-        relativeTime: completedAt.getTime() - startTime.getTime(),
-        type: 'consensus',
-        content: d.final_decision,
-        consensusLevel: d.consensus_score || 0,
-      });
-    }
+    // Final decision event
+    const decisionData = deliberation.decision as Record<string, unknown> | null;
+    const dissentingCodes = Array.isArray(decisionData?.dissenting) ? decisionData.dissenting as string[] : [];
 
-    // Sort frames by relative time
-    frames.sort((a, b) => a.relativeTime - b.relativeTime);
-
-    const metadata: ReplaySession['metadata'] = {
-      councilMode: String(d.council_mode ?? d.mode ?? 'default'),
-      createdAt: startTime,
-      totalRounds: Math.max(1, ...(((d.agent_responses as Array<{ round?: number }> | undefined) ?? []).map(r => r.round || 1))),
-    };
-
-    const vertical = (d.metadata as Record<string, any> | undefined)?.vertical as string | undefined;
-    if (vertical !== undefined) {
-      metadata.vertical = vertical;
-    }
-
-    const completedAt = String(d.status) === 'completed' ? (d.updated_at ?? undefined) : undefined;
-    if (completedAt !== undefined) {
-      metadata.completedAt = completedAt;
-    }
-
-    const session: ReplaySession = {
-      sessionId: `replay-${deliberationId}-${Date.now()}`,
-      deliberationId,
-      title: String(d.query ?? d.question ?? '').substring(0, 100),
-      description: (d.summary as string | undefined) ?? undefined,
-      totalDuration: frames.length > 0 ? frames[frames.length - 1].relativeTime : 0,
-      frameCount: frames.length,
-      frames,
-      agents: Array.from(agentStats.values()),
-      outcome: d['final_decision'] ? {
-        decision: d['final_decision'] as string,
-        consensusReached: ((d['consensus_score'] as number) || 0) >= 70,
-      } : undefined,
-      metadata,
-    };
-
-    logger.info(`🎬 Created replay session ${session.sessionId} with ${frames.length} frames`);
-    return session;
-  }
-
-  // -------------------------------------------------------------------------
-  // PLAYBACK CONTROL
-  // -------------------------------------------------------------------------
-
-  /**
-   * Start playback of a replay session
-   */
-  startPlayback(sessionId: string, speed: number = 1): ReplayPlaybackState {
-    const state: ReplayPlaybackState = {
-      sessionId,
-      currentFrameIndex: 0,
-      isPlaying: true,
-      playbackSpeed: speed,
-      currentTime: 0,
-    };
-    
-    this.activeSessions.set(sessionId, state);
-    return state;
-  }
-
-  /**
-   * Pause playback
-   */
-  pausePlayback(sessionId: string): ReplayPlaybackState | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state) {
-      state.isPlaying = false;
-    }
-    return state;
-  }
-
-  /**
-   * Resume playback
-   */
-  resumePlayback(sessionId: string): ReplayPlaybackState | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state) {
-      state.isPlaying = true;
-    }
-    return state;
-  }
-
-  /**
-   * Seek to a specific frame
-   */
-  seekToFrame(sessionId: string, frameIndex: number, session: ReplaySession): ReplayPlaybackState | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state && frameIndex >= 0 && frameIndex < session.frameCount) {
-      state.currentFrameIndex = frameIndex;
-      const frame = session.frames[frameIndex];
-      if (frame) state.currentTime = frame.relativeTime;
-    }
-    return state;
-  }
-
-  /**
-   * Seek to a specific time
-   */
-  seekToTime(sessionId: string, timeMs: number, session: ReplaySession): ReplayPlaybackState | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state) {
-      state.currentTime = Math.max(0, Math.min(timeMs, session.totalDuration));
-      // Find the frame at this time
-      state.currentFrameIndex = session.frames.findIndex(f => f.relativeTime >= state.currentTime);
-      if (state.currentFrameIndex === -1) {
-        state.currentFrameIndex = session.frameCount - 1;
-      }
-    }
-    return state;
-  }
-
-  /**
-   * Set playback speed
-   */
-  setPlaybackSpeed(sessionId: string, speed: number): ReplayPlaybackState | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state) {
-      state.playbackSpeed = Math.max(0.25, Math.min(4, speed));
-    }
-    return state;
-  }
-
-  /**
-   * Get current playback state
-   */
-  getPlaybackState(sessionId: string): ReplayPlaybackState | undefined {
-    return this.activeSessions.get(sessionId);
-  }
-
-  /**
-   * Get current frame
-   */
-  getCurrentFrame(sessionId: string, session: ReplaySession): ReplayFrame | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state && state.currentFrameIndex < session.frameCount) {
-      return session.frames[state.currentFrameIndex];
-    }
-    return undefined;
-  }
-
-  /**
-   * Advance to next frame
-   */
-  nextFrame(sessionId: string, session: ReplaySession): ReplayFrame | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state && state.currentFrameIndex < session.frameCount - 1) {
-      state.currentFrameIndex++;
-      const nextFrame = session.frames[state.currentFrameIndex];
-      if (nextFrame) state.currentTime = nextFrame.relativeTime;
-      return nextFrame;
-    }
-    return undefined;
-  }
-
-  /**
-   * Go to previous frame
-   */
-  previousFrame(sessionId: string, session: ReplaySession): ReplayFrame | undefined {
-    const state = this.activeSessions.get(sessionId);
-    if (state && state.currentFrameIndex > 0) {
-      state.currentFrameIndex--;
-      const prevFrame = session.frames[state.currentFrameIndex];
-      if (prevFrame) state.currentTime = prevFrame.relativeTime;
-      return prevFrame;
-    }
-    return undefined;
-  }
-
-  // -------------------------------------------------------------------------
-  // EXPORT
-  // -------------------------------------------------------------------------
-
-  /**
-   * Export replay session
-   */
-  exportSession(session: ReplaySession, options: ReplayExportOptions): string {
-    switch (options.format) {
-      case 'json':
-        return this.exportAsJson(session, options);
-      case 'html':
-        return this.exportAsHtml(session, options);
-      case 'video_script':
-        return this.exportAsVideoScript(session, options);
-      case 'pdf':
-        return this.exportAsPdfContent(session, options);
-      default:
-        return this.exportAsJson(session, options);
-    }
-  }
-
-  private exportAsJson(session: ReplaySession, options: ReplayExportOptions): string {
-    const exportData: Record<string, unknown> = {
-      title: session.title,
-      deliberationId: session.deliberationId,
-      outcome: session.outcome,
-      agents: session.agents,
-    };
-
-    if (options.includeMetadata) {
-      exportData['metadata'] = session.metadata;
-    }
-
-    exportData['frames'] = session.frames.map(frame => {
-      const frameData: Record<string, unknown> = {
-        type: frame.type,
-        content: frame.content,
-        agentName: frame.agentName,
-      };
-      
-      if (options.includeTimestamps) {
-        frameData['timestamp'] = frame.timestamp;
-        frameData['relativeTime'] = frame.relativeTime;
-      }
-      
-      if (options.includeConfidenceLevels && frame.confidenceLevels) {
-        frameData['confidenceLevels'] = frame.confidenceLevels;
-      }
-      
-      return frameData;
+    events.push({
+      timestamp: deliberation.completed_at
+        ? deliberation.completed_at.getTime() - startTime
+        : (events[events.length - 1]?.timestamp || 0) + 2000,
+      type: 'decision',
+      content: typeof deliberation.decision === 'object'
+        ? JSON.stringify(deliberation.decision)
+        : (deliberation.decision as string) || 'Decision recorded',
+      confidence: deliberation.confidence != null ? Math.round(deliberation.confidence * 100) : 0,
     });
 
-    return JSON.stringify(exportData, null, 2);
+    // Sort events by timestamp
+    events.sort((a, b) => a.timestamp - b.timestamp);
+
+    const replay: ReplayData = {
+      replayId: `replay-${crypto.randomBytes(8).toString('hex')}`,
+      deliberationId,
+      question: deliberation.question,
+      mode: deliberation.mode || 'standard',
+      events,
+      agents,
+      outcome: {
+        decision: typeof deliberation.decision === 'object'
+          ? JSON.stringify(deliberation.decision)
+          : (deliberation.decision as string) || '',
+        consensusScore: deliberation.confidence != null ? Math.round(deliberation.confidence * 100) : 0,
+        dissentCount: dissentingCodes.length,
+        totalAgents: agents.length,
+      },
+      duration: events.length > 0 ? events[events.length - 1].timestamp : 0,
+      generatedAt: new Date().toISOString(),
+    };
+
+    this.replayCache.set(deliberationId, replay);
+    logger.info(`🎬 CendiaReplay: Generated replay ${replay.replayId} — ${events.length} events, ${agents.length} agents`);
+
+    return replay;
   }
 
-  private exportAsHtml(session: ReplaySession, options: ReplayExportOptions): string {
-    let html = `<!DOCTYPE html>
-<html>
+  // ---------------------------------------------------------------------------
+  // STANDALONE HTML REPLAY PAGE
+  // ---------------------------------------------------------------------------
+
+  async generateReplayHTML(deliberationId: string): Promise<string> {
+    const data = await this.generateReplayData(deliberationId);
+    const eventsJson = JSON.stringify(data.events);
+    const agentsJson = JSON.stringify(data.agents);
+
+    return `<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Decision Replay: ${session.title}</title>
-  <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
-    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 20px; }
-    .frame { background: white; padding: 20px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    .frame.agent_statement { border-left: 4px solid #667eea; }
-    .frame.dissent { border-left: 4px solid #e53e3e; background: #fff5f5; }
-    .frame.consensus { border-left: 4px solid #38a169; background: #f0fff4; }
-    .frame.citation { border-left: 4px solid #d69e2e; font-size: 0.9em; }
-    .agent-name { font-weight: bold; color: #667eea; }
-    .timestamp { color: #718096; font-size: 0.85em; }
-    .outcome { background: #38a169; color: white; padding: 20px; border-radius: 10px; margin-top: 20px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decision Replay — ${data.question.substring(0, 60)}</title>
+<style>
+  :root{--bg:#0a0e1a;--surface:#111827;--border:#1f2937;--text:#e5e7eb;--accent:#3b82f6;--green:#10b981;--red:#ef4444;--gold:#f59e0b}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+  .theater{max-width:960px;margin:0 auto;padding:24px}
+  header{text-align:center;padding:24px 0;border-bottom:1px solid var(--border);margin-bottom:24px}
+  header h1{font-size:1.25rem;color:var(--accent)}
+  .question{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;font-style:italic;color:#d1d5db;line-height:1.6}
+  .controls{display:flex;gap:12px;align-items:center;justify-content:center;margin-bottom:24px}
+  .controls button{background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;cursor:pointer;font-weight:600;font-size:0.875rem}
+  .controls button:hover{opacity:0.85}
+  .controls button.secondary{background:var(--surface);border:1px solid var(--border)}
+  .progress{width:100%;height:4px;background:var(--surface);border-radius:2px;margin-bottom:24px;overflow:hidden}
+  .progress-bar{height:100%;background:var(--accent);width:0%;transition:width 0.3s}
+  .timeline{min-height:400px}
+  .event{opacity:0;transform:translateY(12px);transition:all 0.4s ease;margin-bottom:12px}
+  .event.visible{opacity:1;transform:translateY(0)}
+  .phase-event{text-align:center;padding:16px;margin:20px 0}
+  .phase-event .label{display:inline-block;background:rgba(59,130,246,0.15);color:var(--accent);padding:6px 16px;border-radius:9999px;font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;border:1px solid rgba(59,130,246,0.3)}
+  .agent-event{display:flex;gap:12px;padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:12px}
+  .agent-event .avatar{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.875rem;color:#fff;flex-shrink:0}
+  .agent-event .body{flex:1;min-width:0}
+  .agent-event .name{font-weight:600;font-size:0.875rem;margin-bottom:2px}
+  .agent-event .role{font-size:0.7rem;color:#6b7280}
+  .agent-event .content{font-size:0.85rem;line-height:1.6;margin-top:8px;color:#d1d5db;max-height:120px;overflow:hidden}
+  .agent-event .meta{display:flex;gap:12px;margin-top:8px;font-size:0.7rem;color:#6b7280}
+  .agent-event .confidence{color:var(--green);font-weight:600}
+  .agent-event.dissent{border-color:rgba(239,68,68,0.4);background:rgba(239,68,68,0.05)}
+  .agent-event.dissent .confidence{color:var(--red)}
+  .decision-event{text-align:center;padding:24px;margin:24px 0;background:rgba(16,185,129,0.08);border:2px solid var(--green);border-radius:12px}
+  .decision-event h3{color:var(--green);font-size:1.1rem;margin-bottom:8px}
+  .decision-event .score{font-size:2rem;font-weight:700;color:var(--green)}
+  .agents-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px;padding:12px;background:var(--surface);border-radius:8px;border:1px solid var(--border)}
+  .agent-chip{display:flex;align-items:center;gap:4px;padding:4px 10px;border-radius:9999px;font-size:0.7rem;font-weight:600;border:1px solid var(--border)}
+  .agent-chip .dot{width:8px;height:8px;border-radius:50%}
+  footer{text-align:center;color:#4b5563;font-size:0.7rem;margin-top:32px;padding-top:16px;border-top:1px solid var(--border)}
+</style>
 </head>
 <body>
-  <div class="header">
-    <h1>🎬 CendiaReplay™</h1>
-    <h2>${session.title}</h2>
-    <p>Council Mode: ${session.metadata.councilMode} | Agents: ${session.agents.length} | Duration: ${Math.round(session.totalDuration / 1000)}s</p>
+<div class="theater">
+  <header>
+    <h1>🎬 DECISION REPLAY</h1>
+    <p style="color:#6b7280;font-size:0.8rem;margin-top:4px">AI Council Deliberation · ${data.mode.toUpperCase()} mode · ${data.agents.length} agents</p>
+  </header>
+
+  <div class="question">"${data.question}"</div>
+
+  <div class="agents-bar" id="agentsBar"></div>
+
+  <div class="controls">
+    <button id="playBtn" onclick="play()">▶ Play Replay</button>
+    <button class="secondary" onclick="skipToEnd()">⏭ Skip to End</button>
+    <button class="secondary" onclick="reset()">↺ Reset</button>
+    <span style="color:#6b7280;font-size:0.8rem" id="counter">0 / ${data.events.length} events</span>
   </div>
-`;
 
-    for (const frame of session.frames) {
-      html += `  <div class="frame ${frame.type}">`;
-      
-      if (options.includeTimestamps) {
-        html += `<span class="timestamp">${this.formatTime(frame.relativeTime)}</span> `;
-      }
-      
-      if (frame.agentName) {
-        html += `<span class="agent-name">${frame.agentName}</span>: `;
-      }
-      
-      html += `<span class="content">${frame.content}</span>`;
-      
-      if (options.includeConfidenceLevels && frame.consensusLevel !== undefined) {
-        html += ` <span class="confidence">(Consensus: ${frame.consensusLevel}%)</span>`;
-      }
-      
-      html += `</div>\n`;
-    }
+  <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
 
-    if (session.outcome) {
-      html += `  <div class="outcome">
-    <h3>✅ Final Decision</h3>
-    <p>${session.outcome.decision}</p>
-    <p>Consensus Reached: ${session.outcome.consensusReached ? 'Yes' : 'No'}</p>
-  </div>`;
-    }
+  <div class="timeline" id="timeline"></div>
 
-    html += `</body></html>`;
-    return html;
+  <footer>
+    <p>CendiaReplay™ · Datacendia Decision Governance Infrastructure</p>
+    <p>Deliberation ${data.deliberationId} · Generated ${data.generatedAt}</p>
+  </footer>
+</div>
+
+<script>
+const EVENTS = ${eventsJson};
+const AGENTS = ${agentsJson};
+let currentIdx = 0;
+let playing = false;
+let timer = null;
+
+// Render agent bar
+const agentsBar = document.getElementById('agentsBar');
+AGENTS.forEach(a => {
+  const chip = document.createElement('div');
+  chip.className = 'agent-chip';
+  chip.innerHTML = '<div class="dot" style="background:'+a.color+'"></div>' + a.name;
+  agentsBar.appendChild(chip);
+});
+
+function getAgentColor(name) {
+  const a = AGENTS.find(x => x.name === name);
+  return a ? a.color : '#6b7280';
+}
+
+function getInitials(name) {
+  return name.split(' ').map(w => w[0]).join('').substring(0,2).toUpperCase();
+}
+
+function renderEvent(evt) {
+  const timeline = document.getElementById('timeline');
+  const div = document.createElement('div');
+  div.className = 'event';
+
+  if (evt.type === 'phase_start') {
+    div.className += ' phase-event';
+    div.innerHTML = '<div class="label">📍 ' + (evt.phase || '').toUpperCase() + ' PHASE</div>';
+  } else if (evt.type === 'agent_response') {
+    const color = getAgentColor(evt.agent || '');
+    const truncContent = (evt.content || '').substring(0, 300) + ((evt.content || '').length > 300 ? '...' : '');
+    div.className += ' agent-event' + (evt.dissented ? ' dissent' : '');
+    div.innerHTML =
+      '<div class="avatar" style="background:'+color+'">'+getInitials(evt.agent||'')+'</div>' +
+      '<div class="body">' +
+        '<div class="name">'+evt.agent+(evt.dissented?' ⚠️ DISSENT':'')+' </div>' +
+        '<div class="role">'+evt.agentRole+' · '+evt.phase+'</div>' +
+        '<div class="content">'+truncContent+'</div>' +
+        '<div class="meta">' +
+          (evt.confidence != null ? '<span class="confidence">Confidence: '+evt.confidence+'%</span>' : '') +
+          (evt.sources && evt.sources.length ? '<span>📎 '+evt.sources.length+' sources</span>' : '') +
+        '</div>' +
+      '</div>';
+  } else if (evt.type === 'dissent') {
+    div.className += ' agent-event dissent';
+    div.innerHTML =
+      '<div class="avatar" style="background:var(--red)">⚠️</div>' +
+      '<div class="body">' +
+        '<div class="name" style="color:var(--red)">FORMAL DISSENT — '+(evt.agent||'Unknown')+'</div>' +
+        '<div class="content">'+(evt.content||'')+'</div>' +
+      '</div>';
+  } else if (evt.type === 'decision') {
+    div.className += ' decision-event';
+    div.innerHTML =
+      '<h3>⚖️ FINAL DECISION</h3>' +
+      '<div class="score">'+(evt.confidence||0)+'% consensus</div>' +
+      '<p style="margin-top:8px;font-size:0.85rem;color:#d1d5db">'+(evt.content||'').substring(0,200)+'</p>';
   }
 
-  private exportAsVideoScript(session: ReplaySession, _options: ReplayExportOptions): string {
-    let script = `# DECISION REPLAY VIDEO SCRIPT
-# Title: ${session.title}
-# Duration: ${Math.round(session.totalDuration / 1000)} seconds
-# Generated: ${new Date().toISOString()}
+  timeline.appendChild(div);
+  requestAnimationFrame(() => { div.classList.add('visible'); });
+  div.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
 
-## OPENING (0:00)
-[FADE IN on Council Chamber visualization]
-NARRATOR: "Welcome to CendiaReplay™ by Datacendia."
-NARRATOR: "Today we're reviewing a ${session.metadata.councilMode} deliberation."
+function updateProgress() {
+  const pct = EVENTS.length > 0 ? (currentIdx / EVENTS.length) * 100 : 0;
+  document.getElementById('progressBar').style.width = pct + '%';
+  document.getElementById('counter').textContent = currentIdx + ' / ' + EVENTS.length + ' events';
+}
 
-## INTRODUCTION (0:05)
-[Display topic on screen]
-NARRATOR: "The question before the Council: ${session.title}"
-[Show agent avatars appearing one by one]
-NARRATOR: "${session.agents.length} specialized AI agents will deliberate on this matter."
+function showNext() {
+  if (currentIdx >= EVENTS.length) { stop(); return; }
+  renderEvent(EVENTS[currentIdx]);
+  currentIdx++;
+  updateProgress();
+}
 
-`;
+function play() {
+  if (playing) { stop(); return; }
+  playing = true;
+  document.getElementById('playBtn').textContent = '⏸ Pause';
+  timer = setInterval(() => {
+    if (currentIdx >= EVENTS.length) { stop(); return; }
+    showNext();
+  }, 800);
+}
 
-    let currentRound = 0;
-    for (const frame of session.frames) {
-      const timeCode = this.formatTime(frame.relativeTime);
-      
-      const frameRound = frame.metadata?.['round'] as number | undefined;
-      if (frameRound && frameRound !== currentRound) {
-        currentRound = frameRound;
-        script += `\n## ROUND ${currentRound} (${timeCode})\n`;
-      }
+function stop() {
+  playing = false;
+  clearInterval(timer);
+  document.getElementById('playBtn').textContent = '▶ Play';
+}
 
-      switch (frame.type) {
-        case 'agent_statement':
-          script += `[${timeCode}] ${frame.agentName?.toUpperCase()}: "${frame.content.substring(0, 200)}${frame.content.length > 200 ? '...' : ''}"\n`;
-          break;
-        case 'dissent':
-          script += `[${timeCode}] [DISSENT INDICATOR FLASHES]\n${frame.agentName?.toUpperCase()} (DISSENTING): "${frame.content}"\n`;
-          break;
-        case 'consensus':
-          script += `\n## CONCLUSION (${timeCode})\n[CONSENSUS ANIMATION PLAYS]\nNARRATOR: "The Council has reached a decision."\n[Display final decision]\nDECISION: "${frame.content}"\n`;
-          break;
-        case 'citation':
-          script += `[${timeCode}] [Citation appears: ${frame.content}]\n`;
-          break;
-      }
-    }
+function skipToEnd() {
+  stop();
+  while (currentIdx < EVENTS.length) showNext();
+}
 
-    script += `
-## CLOSING
-[FADE OUT]
-NARRATOR: "This concludes the Decision Replay for ${session.title}."
-[Display Datacendia logo]
-
----
-END OF SCRIPT
-`;
-
-    return script;
+function reset() {
+  stop();
+  currentIdx = 0;
+  document.getElementById('timeline').innerHTML = '';
+  updateProgress();
+}
+</script>
+</body>
+</html>`;
   }
 
-  private exportAsPdfContent(session: ReplaySession, options: ReplayExportOptions): string {
-    // Return structured content for PDF generation
-    return JSON.stringify({
-      type: 'decision_replay_report',
-      title: `Decision Replay: ${session.title}`,
-      sections: [
-        {
-          title: 'Executive Summary',
-          content: session.description || session.title,
-        },
-        {
-          title: 'Deliberation Details',
-          content: `Council Mode: ${session.metadata.councilMode}\nAgents: ${session.agents.length}\nRounds: ${session.metadata.totalRounds}\nDuration: ${Math.round(session.totalDuration / 1000)} seconds`,
-        },
-        {
-          title: 'Participating Agents',
-          content: session.agents.map(a => `${a.name} (${a.role}): ${a.statementCount} statements, ${a.citationCount} citations${a.dissented ? ' [DISSENTED]' : ''}`).join('\n'),
-        },
-        {
-          title: 'Deliberation Timeline',
-          content: session.frames
-            .filter(f => f.type === 'agent_statement' || f.type === 'dissent' || f.type === 'consensus')
-            .map(f => `[${this.formatTime(f.relativeTime)}] ${f.agentName || 'System'}: ${f.content.substring(0, 150)}...`)
-            .join('\n\n'),
-        },
-        {
-          title: 'Outcome',
-          content: session.outcome 
-            ? `Decision: ${session.outcome.decision}\nConsensus Reached: ${session.outcome.consensusReached ? 'Yes' : 'No'}`
-            : 'No final decision recorded',
-        },
-      ],
-      includeTimestamps: options.includeTimestamps,
-      generatedAt: new Date().toISOString(),
-    }, null, 2);
-  }
+  // ---------------------------------------------------------------------------
+  // ACCESS
+  // ---------------------------------------------------------------------------
 
-  // -------------------------------------------------------------------------
-  // HELPERS
-  // -------------------------------------------------------------------------
-
-  private extractCitations(text: string): string[] {
-    const citations: string[] = [];
-    
-    // Match common citation patterns
-    const patterns = [
-      /\b\d+\s+U\.S\.\s+\d+/g,  // US Reports
-      /\b\d+\s+F\.\d+d\s+\d+/g, // Federal Reporter
-      /\b\d+\s+S\.Ct\.\s+\d+/g, // Supreme Court Reporter
-      /§\s*\d+[\.\d]*/g,        // Statute sections
-      /\d+\s+C\.F\.R\.\s+§?\s*\d+/g, // CFR
-    ];
-
-    for (const pattern of patterns) {
-      const matches = text.match(pattern);
-      if (matches) {
-        citations.push(...matches);
-      }
-    }
-
-    return [...new Set(citations)]; // Remove duplicates
-  }
-
-  private buildConfidenceLevels(
-    responses: Array<{ agent_id: string; confidence: number | null; created_at: Date }>,
-    asOf: Date
-  ): Record<string, number> {
-    const levels: Record<string, number> = {};
-    
-    for (const response of responses) {
-      if (response.created_at <= asOf && response.confidence !== null) {
-        levels[response.agent_id] = response.confidence;
-      }
-    }
-    
-    return levels;
-  }
-
-  private formatTime(ms: number): string {
-    const seconds = Math.floor(ms / 1000);
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
-    return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
-  }
-
-  // -------------------------------------------------------------------------
-  // CLEANUP
-  // -------------------------------------------------------------------------
-
-  /**
-   * End a playback session
-   */
-  endSession(sessionId: string): void {
-    this.activeSessions.delete(sessionId);
-    logger.info(`🎬 Ended replay session ${sessionId}`);
-  }
-
-
-
-  async loadFromDB(): Promise<void> {
-
-
-    try {
-
-
-      let restored = 0;
-
-
-      const recs = await loadServiceRecords({ serviceName: 'DecisionReplayTheater', recordType: 'record', limit: 1000 });
-
-
-      for (const rec of recs) {
-
-
-        const d = rec.data as any;
-
-
-        if (d?.id && !this.activeSessions.has(d.id)) this.activeSessions.set(d.id, d);
-
-
-      }
-
-
-      restored += recs.length;
-
-
-      if (restored > 0) logger.info(`[DecisionReplayTheaterService] Restored ${restored} records from database`);
-
-
-    } catch (err) {
-
-
-      logger.warn(`[DecisionReplayTheaterService] DB reload skipped: ${(err as Error).message}`);
-
-
-    }
-
-
+  getReplay(deliberationId: string): ReplayData | undefined {
+    return this.replayCache.get(deliberationId);
   }
 }
 
-// Export singleton
-export const decisionReplayTheaterService = DecisionReplayTheaterService.getInstance();
+export const decisionReplayTheaterService = new DecisionReplayTheaterServiceImpl();
