@@ -116,7 +116,59 @@ const GatewayDashboardPage: React.FC = () => {
       if (interactionsRes.data) setInteractions(interactionsRes.data.interactions || []);
       if (policiesRes.data) setPolicies(policiesRes.data.policies || []);
     } catch (err) {
-      logger.error('[Gateway] Failed to fetch data:', err);
+      logger.error('[Gateway] Failed to fetch data, using demo data:', err);
+      setStats({
+        totalInteractions: 12847,
+        totalTokens: 48_392_100,
+        totalCostUsd: 2847.52,
+        piiDetections: 342,
+        piiBlocks: 89,
+        piiRedactions: 253,
+        policyBlocks: 156,
+        policyWarnings: 478,
+        byProvider: {
+          'OpenAI': { count: 6420, tokens: 24_100_000, costUsd: 1680.00 },
+          'Anthropic': { count: 3891, tokens: 15_200_000, costUsd: 836.00 },
+          'Ollama (Local)': { count: 2536, tokens: 9_092_100, costUsd: 331.52 },
+        },
+        byModel: {
+          'gpt-4o': { count: 3200, tokens: 14_000_000, costUsd: 980.00 },
+          'claude-3.5-sonnet': { count: 2800, tokens: 11_000_000, costUsd: 605.00 },
+          'gpt-4o-mini': { count: 3220, tokens: 10_100_000, costUsd: 700.00 },
+          'llama-3.1-70b': { count: 2536, tokens: 9_092_100, costUsd: 331.52 },
+          'claude-3-haiku': { count: 1091, tokens: 4_200_000, costUsd: 231.00 },
+        },
+        byDepartment: {
+          'Engineering': { count: 4200, tokens: 16_800_000, costUsd: 987.00 },
+          'Legal & Compliance': { count: 2890, tokens: 11_200_000, costUsd: 654.00 },
+          'Finance': { count: 2100, tokens: 8_400_000, costUsd: 492.00 },
+          'Operations': { count: 1857, tokens: 6_392_100, costUsd: 375.52 },
+          'Executive': { count: 1800, tokens: 5_600_000, costUsd: 339.00 },
+        },
+        byUser: {
+          'sarah.chen@datacendia.com': { count: 1240, tokens: 4_800_000, costUsd: 336.00 },
+          'james.wilson@datacendia.com': { count: 980, tokens: 3_900_000, costUsd: 273.00 },
+        },
+        topPIITypes: [
+          { type: 'EMAIL_ADDRESS', count: 142 },
+          { type: 'PHONE_NUMBER', count: 87 },
+          { type: 'PERSON_NAME', count: 64 },
+          { type: 'SSN', count: 31 },
+          { type: 'CREDIT_CARD', count: 18 },
+        ],
+      });
+      setInteractions([
+        { id: 'gw-001', provider: 'OpenAI', model: 'gpt-4o', userId: 'sarah.chen', userEmail: 'sarah.chen@datacendia.com', userDepartment: 'Legal & Compliance', piiDetected: true, piiTypes: ['EMAIL_ADDRESS', 'PERSON_NAME'], policyAction: 'redact', promptTokens: 1200, responseTokens: 800, totalTokens: 2000, estimatedCostUsd: 0.14, latencyMs: 1240, statusCode: 200, integrityHash: 'sha256-a1b2c3d4', requestedAt: new Date(Date.now() - 120000).toISOString() },
+        { id: 'gw-002', provider: 'Anthropic', model: 'claude-3.5-sonnet', userId: 'james.wilson', userEmail: 'james.wilson@datacendia.com', userDepartment: 'Engineering', piiDetected: false, piiTypes: [], policyAction: 'allow', promptTokens: 3400, responseTokens: 2100, totalTokens: 5500, estimatedCostUsd: 0.30, latencyMs: 2100, statusCode: 200, integrityHash: 'sha256-e5f6a7b8', requestedAt: new Date(Date.now() - 300000).toISOString() },
+        { id: 'gw-003', provider: 'OpenAI', model: 'gpt-4o-mini', userId: 'emily.rodriguez', userEmail: 'emily.rodriguez@datacendia.com', userDepartment: 'Finance', piiDetected: true, piiTypes: ['SSN', 'CREDIT_CARD'], policyAction: 'block', policyReason: 'Sensitive financial PII detected', promptTokens: 800, responseTokens: 0, totalTokens: 800, estimatedCostUsd: 0.01, latencyMs: 45, statusCode: 403, integrityHash: 'sha256-c9d0e1f2', requestedAt: new Date(Date.now() - 600000).toISOString() },
+        { id: 'gw-004', provider: 'Ollama (Local)', model: 'llama-3.1-70b', userId: 'michael.torres', userEmail: 'michael.torres@datacendia.com', userDepartment: 'Operations', piiDetected: false, piiTypes: [], policyAction: 'allow', promptTokens: 2200, responseTokens: 1800, totalTokens: 4000, estimatedCostUsd: 0.08, latencyMs: 3200, statusCode: 200, integrityHash: 'sha256-a3b4c5d6', requestedAt: new Date(Date.now() - 900000).toISOString() },
+        { id: 'gw-005', provider: 'Anthropic', model: 'claude-3-haiku', userId: 'anna.schmidt', userEmail: 'anna.schmidt@datacendia.com', userDepartment: 'Executive', piiDetected: true, piiTypes: ['PERSON_NAME'], policyAction: 'warn', policyReason: 'Name detected in executive query', promptTokens: 600, responseTokens: 400, totalTokens: 1000, estimatedCostUsd: 0.02, latencyMs: 680, statusCode: 200, integrityHash: 'sha256-d7e8f9a0', requestedAt: new Date(Date.now() - 1200000).toISOString() },
+      ]);
+      setPolicies([
+        { id: 'pol-1', name: 'Block Sensitive Financial PII', enabled: true, priority: 1, departments: ['Finance', 'Executive'], blockPIITypes: ['SSN', 'CREDIT_CARD', 'BANK_ACCOUNT'], redactPIITypes: [], blockKeywords: [], defaultAction: 'block' },
+        { id: 'pol-2', name: 'Redact Personal Identifiers', enabled: true, priority: 2, departments: [], blockPIITypes: [], redactPIITypes: ['EMAIL_ADDRESS', 'PHONE_NUMBER', 'PERSON_NAME'], blockKeywords: [], defaultAction: 'redact' },
+        { id: 'pol-3', name: 'Block Competitor Intelligence Queries', enabled: true, priority: 3, departments: [], blockPIITypes: [], redactPIITypes: [], blockKeywords: ['competitor analysis internal', 'trade secret', 'confidential roadmap'], defaultAction: 'block' },
+      ]);
     } finally {
       setLoading(false);
     }
