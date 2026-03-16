@@ -1059,8 +1059,19 @@ export const CouncilPage: React.FC = () => {
           });
         }
       } catch (err) {
-        setError('Failed to connect to Ollama. Please ensure Ollama is running on localhost:11434');
         logger.error('Ollama connection error:', err);
+        // Use fallback demo agents when Ollama/backend is unavailable
+        setAgents([
+          { id: 'chief', code: 'chief', name: 'The Chief', role: 'Strategic Orchestrator', description: 'Oversees multi-agent deliberation and synthesizes recommendations', avatar: '👔', color: '#6366F1', status: 'online', capabilities: ['Strategic Planning', 'Synthesis', 'Conflict Resolution'] },
+          { id: 'cfo', code: 'cfo', name: 'CFO Agent', role: 'Financial Analyst', description: 'Analyzes financial implications, ROI, and fiscal risk', avatar: '💰', color: '#10B981', status: 'online', capabilities: ['Financial Modeling', 'Risk Assessment', 'Budget Analysis'] },
+          { id: 'coo', code: 'coo', name: 'COO Agent', role: 'Operations Expert', description: 'Evaluates operational feasibility and efficiency impact', avatar: '⚙️', color: '#F59E0B', status: 'online', capabilities: ['Process Optimization', 'Resource Planning', 'Scalability'] },
+          { id: 'ciso', code: 'ciso', name: 'CISO Agent', role: 'Security Advisor', description: 'Assesses security risks, compliance, and data protection', avatar: '🔒', color: '#EF4444', status: 'online', capabilities: ['Threat Analysis', 'Compliance', 'Data Protection'] },
+          { id: 'cto', code: 'cto', name: 'CTO Agent', role: 'Technology Strategist', description: 'Evaluates technical architecture and innovation opportunities', avatar: '💻', color: '#8B5CF6', status: 'online', capabilities: ['Architecture Review', 'Tech Strategy', 'Innovation'] },
+          { id: 'cmo', code: 'cmo', name: 'CMO Agent', role: 'Market Analyst', description: 'Analyzes market dynamics, customer impact, and brand implications', avatar: '📢', color: '#EC4899', status: 'online', capabilities: ['Market Analysis', 'Customer Insights', 'Brand Strategy'] },
+          { id: 'chro', code: 'chro', name: 'CHRO Agent', role: 'People & Culture', description: 'Evaluates talent, culture, and organizational impact', avatar: '👥', color: '#14B8A6', status: 'online', capabilities: ['Talent Strategy', 'Culture Impact', 'Change Management'] },
+          { id: 'legal', code: 'legal', name: 'Legal Agent', role: 'Legal Counsel', description: 'Reviews legal implications, regulatory compliance, and contractual risks', avatar: '⚖️', color: '#64748B', status: 'online', capabilities: ['Legal Analysis', 'Regulatory Review', 'Contract Assessment'] },
+        ]);
+        setError('Ollama is not running. Showing demo agents. Start Ollama for live AI deliberation.');
       } finally {
         setIsLoading(false);
       }
