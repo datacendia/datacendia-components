@@ -327,9 +327,9 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | Backend route files | **159** |
 | Backend test files | **256** |
 | Backend middleware | **16** |
-| Frontend pages | **200** |
-| Frontend components | **87** |
-| Frontend source files | **469** (TS + TSX) |
+| Frontend pages | **201** |
+| Frontend components | **91** |
+| Frontend source files | **475** (TS + TSX) |
 | Prisma models | **190** |
 | Prisma enums | **141** |
 | Prisma schema files | **13** |
@@ -367,6 +367,7 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | **CendiaDCII™** | Decision Crisis Immunization Infrastructure — IISS, 9 primitives, media auth, timestamps |
 | **CendiaGateway™** | AI Governance Gateway — reverse proxy for all AI traffic with PII detection, policy enforcement, DCII signing |
 | **The Governance Receipt™** | Printable, cryptographically verified artifact proving every AI interaction was governed — for regulators and auditors |
+| **CendiaOrchestrate™** | Service Orchestration Workflow Builder — visual drag-and-drop of 60+ platform services into reusable workflows with persistent save/load and run simulation |
 
 ### Trust Layer (The "Shield")
 
@@ -544,6 +545,16 @@ Community Edition components are available under open-source terms. Enterprise f
 - **Apache Flink CEP** — Sliding-window engine, 6 default rules
 
 All 9 components are opt-in (disabled by default) with embedded fallbacks.
+
+### March 16, 2026 — Service Orchestration Workflow Builder
+
+- **CendiaOrchestrate™** — Visual drag-and-drop workflow builder with 60+ services across Foundation, Enterprise, and Strategic tiers
+- **ServiceRegistry** — Full platform service catalog with inputs, outputs, and configuration schemas for every registered service
+- **WorkflowPersistenceService** — localStorage CRUD for workflows (create, read, update, delete, duplicate, export/import, run logging)
+- **Shared workflow types** — `Workflow`, `WorkflowStep`, `WorkflowConnection`, `ServiceDefinition`, `ConfigField`, `PortDefinition`
+- **Infrastructure audit** — Full cross-repo sync verified: pages, routes, nav, components, contexts, APIs, schemas all aligned
+- **4 shared components synced** — `RedTeamReportPanel`, `SimilarDecisionsPanel`, `CendiaStampSeal`, `EvidencePackageDownload`
+- **Sidebar nav** — Workflows entry added to enterprise navigation group
 
 ### March 10, 2026 — Complete Vertical Deep Testing
 - **All 30 verticals deep-tested** — 647 domain-specific tests across 9 test files

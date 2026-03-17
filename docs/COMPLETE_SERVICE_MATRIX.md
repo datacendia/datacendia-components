@@ -90,6 +90,7 @@ Enterprise-grade capabilities for large organizations.
 | **CendiaNexus™** | 🔌 | Advanced Integrations - Salesforce, SAP, Oracle, Workday, custom API connectors | CDO, COO | $399/mo | Enterprise | Enterprise | Flow, Lineage | No |
 | **CendiaInsight360™** | 📊 | Executive Intelligence - C-suite dashboards, board reports, investor materials | Chief, CFO, All | $349/mo | Enterprise | Enterprise | Helm, Predict | Beta |
 | **CendiaSentinel™** | 👁️ | Proactive Monitoring - Anomaly detection, predictive alerts, business health scores | Risk, CDO, CISO | $279/mo | Enterprise | All | Health, Predict | Beta |
+| **CendiaOrchestrate™** | ⚙️ | Service Orchestration Workflow Builder - Visual drag-and-drop of 60+ platform services into reusable workflows, persistent save/load, run simulation, step configuration | All Agents (orchestration) | $299/mo | Enterprise | All | Flow, Agents, Helm | No |
 
 ---
 
