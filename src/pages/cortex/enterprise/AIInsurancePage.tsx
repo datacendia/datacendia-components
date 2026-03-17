@@ -27,19 +27,19 @@ import { Shield, FileText, DollarSign, AlertTriangle, CheckCircle, Clock, Buildi
 import { AIInsuranceService, InsurancePolicy, CoverageTypeInfo } from '@/services/AIInsuranceService';
 
 const statusColors: Record<string, string> = {
-  quoted: 'bg-gray-100 text-gray-800',
-  bound: 'bg-blue-100 text-blue-800',
-  active: 'bg-green-100 text-green-800',
-  expired: 'bg-yellow-100 text-yellow-800',
-  cancelled: 'bg-red-100 text-red-800',
-  claimed: 'bg-purple-100 text-purple-800',
+  quoted: 'bg-gray-700 text-gray-300',
+  bound: 'bg-blue-900/40 text-blue-300',
+  active: 'bg-green-900/40 text-green-300',
+  expired: 'bg-yellow-900/40 text-yellow-300',
+  cancelled: 'bg-red-900/40 text-red-300',
+  claimed: 'bg-purple-900/40 text-purple-300',
 };
 
 const riskTierColors: Record<string, string> = {
-  low: 'bg-green-100 text-green-800',
-  medium: 'bg-yellow-100 text-yellow-800',
-  high: 'bg-orange-100 text-orange-800',
-  critical: 'bg-red-100 text-red-800',
+  low: 'bg-green-900/40 text-green-300',
+  medium: 'bg-yellow-900/40 text-yellow-300',
+  high: 'bg-orange-900/40 text-orange-300',
+  critical: 'bg-red-900/40 text-red-300',
 };
 
 export default function AIInsurancePage() {
@@ -66,6 +66,11 @@ export default function AIInsurancePage() {
         { type: 'professional' as any, name: 'AI Professional Liability', description: 'Coverage for professional negligence in AI system design and deployment', basePremium: 30000 },
         { type: 'directors_officers' as any, name: 'AI D&O Insurance', description: 'Coverage for directors and officers for AI governance decisions', basePremium: 50000 },
       ]);
+      setPolicies([
+        { id: 'pol-1', policyNumber: 'CIN-2025-00142', coverageType: 'errors_omissions', status: 'active', riskTier: 'medium', coverageLimit: 5000000, deductible: 50000, premium: 42000, effectiveDate: '2025-01-15', expirationDate: '2026-01-15' } as any,
+        { id: 'pol-2', policyNumber: 'CIN-2025-00289', coverageType: 'cyber_liability', status: 'active', riskTier: 'high', coverageLimit: 10000000, deductible: 100000, premium: 87500, effectiveDate: '2025-03-01', expirationDate: '2026-03-01' } as any,
+        { id: 'pol-3', policyNumber: 'CIN-2025-00315', coverageType: 'directors_officers', status: 'bound', riskTier: 'low', coverageLimit: 25000000, deductible: 250000, premium: 125000, effectiveDate: '2025-06-01', expirationDate: '2026-06-01' } as any,
+      ]);
     } finally {
       setLoading(false);
     }
@@ -89,14 +94,14 @@ export default function AIInsurancePage() {
   };
 
   return (
-    <div className="container mx-auto p-6 space-y-6">
+    <div className="container mx-auto p-6 space-y-6 min-h-screen bg-gray-950 text-white">
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Shield className="h-8 w-8 text-blue-600" />
+          <Shield className="h-8 w-8 text-blue-400" />
           <div>
-            <h1 className="text-2xl font-bold">CendiaInsure™</h1>
-            <p className="text-muted-foreground">Direct liability coverage per AI decision</p>
+            <h1 className="text-2xl font-bold text-white">CendiaInsure™</h1>
+            <p className="text-gray-400">Direct liability coverage per AI decision</p>
           </div>
         </div>
         <Button>
@@ -106,15 +111,15 @@ export default function AIInsurancePage() {
       </div>
 
       {/* Value Proposition */}
-      <Card className="bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+      <Card className="bg-gradient-to-r from-blue-900/30 to-indigo-900/30 border-blue-700">
         <CardContent className="pt-6">
           <div className="flex items-start gap-4">
-            <div className="p-3 bg-blue-100 rounded-lg">
-              <Shield className="h-6 w-6 text-blue-600" />
+            <div className="p-3 bg-blue-800/50 rounded-lg">
+              <Shield className="h-6 w-6 text-blue-400" />
             </div>
             <div>
-              <h3 className="font-semibold text-blue-900">AI-Specific Liability Protection</h3>
-              <p className="text-sm text-blue-700 mt-1">
+              <h3 className="font-semibold text-blue-300">AI-Specific Liability Protection</h3>
+              <p className="text-sm text-blue-400/80 mt-1">
                 Protect your organization from AI-related losses with specialized coverage for errors & omissions, 
                 cyber liability, and professional indemnity. Per-decision coverage with real-time risk scoring.
               </p>
