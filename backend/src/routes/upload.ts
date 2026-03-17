@@ -197,7 +197,13 @@ router.post('/import', upload.single('file'), async (req: Request, res: Response
  */
 router.get('/tables', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo-org';
+    const organizationId = req.organizationId;
+    if (!organizationId) {
+      return res.status(401).json({
+        success: false,
+        error: 'Unauthorized: Organization context required',
+      });
+    }
     const tables = spreadsheetConnector.listImportedTables(organizationId);
 
     res.json({
@@ -218,7 +224,13 @@ router.get('/tables', async (req: Request, res: Response) => {
  */
 router.get('/tables/:tableName', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo-org';
+    const organizationId = req.organizationId;
+    if (!organizationId) {
+      return res.status(401).json({
+        success: false,
+        error: 'Unauthorized: Organization context required',
+      });
+    }
     const tableName = req.params.tableName;
     const limit = parseInt((req.query.limit as string) || '100', 10);
     const offset = parseInt((req.query.offset as string) || '0', 10);

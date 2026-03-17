@@ -24,6 +24,7 @@ import regulatorySandboxRoutes from '../regulatory-sandbox.js';
 import complianceMonitorRoutes from '../compliance-monitor.js';
 import crossJurisdictionRoutes from '../cross-jurisdiction.js';
 import regulatorsReceiptRoutes from '../regulators-receipt.js';
+import dsrRoutes from '../dsr.js';
 
 const router = Router();
 
@@ -37,6 +38,7 @@ router.use('/regulatory-sandbox', regulatorySandboxRoutes);
 router.use('/compliance-monitor', complianceMonitorRoutes);
 router.use('/cross-jurisdiction', crossJurisdictionRoutes);
 router.use('/regulators-receipt', regulatorsReceiptRoutes);
+router.use('/dsr', dsrRoutes);
 
 // Enterprise routes
 mountEnterpriseRoutes(router, [
