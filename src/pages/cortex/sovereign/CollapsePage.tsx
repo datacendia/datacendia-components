@@ -195,6 +195,113 @@ const CollapsePage: React.FC = () => {
   const [acceptedRisks, setAcceptedRisks] = useState<string[]>([]);
   const [riskAcknowledgment, setRiskAcknowledgment] = useState(false);
 
+  // Fallback demo deliberation for when backend is unavailable
+  const loadFallbackData = () => {
+    const demoDeliberation: Deliberation = {
+      id: 'demo-collapse-001',
+      decisionId: 'DEC-2026-PREDICTIVE-POLICING',
+      decisionText: 'Deploy predictive policing algorithm to allocate patrol resources based on historical crime data, demographic patterns, and socioeconomic indicators across 12 municipal districts.',
+      consensusTrack: { confidence: 0.82 },
+      collapseTrack: {
+        totalRisk: 0.74,
+        criticalFindings: [
+          'Historical crime data encodes systemic racial bias — algorithm amplifies over-policing in minority neighborhoods',
+          'Feedback loop: more patrols → more arrests → higher "crime" scores → more patrols (compounding bias)',
+          'No sunset clause or independent review mechanism — once deployed, political inertia prevents rollback',
+          'Disproportionate impact on Black and Latino communities (3.2x arrest rate differential predicted)',
+        ],
+        failureEnvelope: {
+          id: 'env-demo-001',
+          decisionId: 'DEC-2026-PREDICTIVE-POLICING',
+          generatedAt: new Date().toISOString(),
+          seed: 42,
+          summary: {
+            totalFailureConditions: 8,
+            criticalCount: 3,
+            highCount: 3,
+            mediumCount: 2,
+            lowCount: 0,
+            affectedGroupsCount: 5,
+            ethicalViolationsCount: 4,
+          },
+          failureConditions: [
+            { id: 'fc-1', agent: 'RACIAL_BIAS_DETECTOR', category: 'civil_liberties', severity: 0.92, probability: 0.87, failureEvent: { type: 'systematic_bias', description: 'Algorithm perpetuates and amplifies historical racial profiling patterns, leading to 3.2x disproportionate surveillance of minority neighborhoods' }, affectedGroups: [{ name: 'Black Communities', vulnerabilityScore: 0.95 }, { name: 'Latino Communities', vulnerabilityScore: 0.88 }], timeToManifestation: '0-3 months' },
+            { id: 'fc-2', agent: 'FEEDBACK_LOOP_ANALYST', category: 'systemic_risk', severity: 0.88, probability: 0.91, failureEvent: { type: 'compounding_bias', description: 'Self-reinforcing feedback loop: increased patrols generate more arrests, which feed back as higher crime scores, justifying even more patrols' }, affectedGroups: [{ name: 'Over-policed Districts', vulnerabilityScore: 0.90 }], timeToManifestation: '3-6 months' },
+            { id: 'fc-3', agent: 'LEGITIMACY_EROSION', category: 'public_trust', severity: 0.85, probability: 0.78, failureEvent: { type: 'trust_collapse', description: 'Community discovers algorithmic bias through investigative journalism, triggering protests and complete loss of police-community trust' }, affectedGroups: [{ name: 'General Public', vulnerabilityScore: 0.65 }, { name: 'Civil Rights Organizations', vulnerabilityScore: 0.72 }], timeToManifestation: '6-12 months' },
+            { id: 'fc-4', agent: 'LEGAL_CHALLENGE', category: 'regulatory', severity: 0.78, probability: 0.72, failureEvent: { type: 'constitutional_violation', description: 'ACLU files class-action lawsuit alleging Fourth Amendment violations and Equal Protection Clause breach' }, affectedGroups: [{ name: 'Municipal Government', vulnerabilityScore: 0.80 }], timeToManifestation: '6-18 months' },
+            { id: 'fc-5', agent: 'NARRATIVE_ATTACKER', category: 'political', severity: 0.82, probability: 0.85, failureEvent: { type: 'media_crisis', description: '"AI-Powered Racial Profiling" headline goes viral after wrongful arrest of community leader, triggering national media coverage' }, affectedGroups: [{ name: 'Elected Officials', vulnerabilityScore: 0.75 }], timeToManifestation: '3-9 months' },
+            { id: 'fc-6', agent: 'ECONOMIC_IMPACT', category: 'economic', severity: 0.65, probability: 0.60, failureEvent: { type: 'economic_harm', description: 'Property values decline 8-12% in over-policed neighborhoods; businesses relocate due to perceived crime stigma' }, affectedGroups: [{ name: 'Small Business Owners', vulnerabilityScore: 0.70 }], timeToManifestation: '12-24 months' },
+            { id: 'fc-7', agent: 'MINORITY_HARM_DETECTOR', category: 'civil_liberties', severity: 0.90, probability: 0.82, failureEvent: { type: 'disproportionate_harm', description: 'Youth in targeted neighborhoods face 4.1x higher stop-and-frisk rates, creating lasting psychological harm and criminal records that affect employment' }, affectedGroups: [{ name: 'Youth (14-24)', vulnerabilityScore: 0.93 }], timeToManifestation: '0-6 months' },
+            { id: 'fc-8', agent: 'ROLLBACK_ANALYST', category: 'systemic_risk', severity: 0.70, probability: 0.65, failureEvent: { type: 'irreversibility', description: 'Political lock-in: officials who championed the system resist admitting failure, extending harmful deployment by 2-3 years' }, affectedGroups: [{ name: 'All Stakeholders', vulnerabilityScore: 0.55 }], timeToManifestation: '12-36 months' },
+          ],
+          trustDelta: {
+            consensusConfidence: 0.82,
+            collapseRisk: 0.74,
+            trustDelta: -0.22,
+            deploymentRecommendation: 'DO_NOT_DEPLOY',
+            riskFactors: ['Systemic racial bias amplification', 'Self-reinforcing feedback loops', 'Constitutional vulnerability', 'Irreversible community harm'],
+            mitigationSuggestions: ['Independent bias audit before deployment', 'Community oversight board with veto power', 'Mandatory sunset clause (6 months)', 'Real-time disparity monitoring with auto-shutoff'],
+          },
+          legitimacyCurve: [
+            { time: 0, legitimacy: 0.82 }, { time: 1, legitimacy: 0.78 }, { time: 2, legitimacy: 0.71 },
+            { time: 3, legitimacy: 0.62 }, { time: 4, legitimacy: 0.55 }, { time: 5, legitimacy: 0.48 },
+            { time: 6, legitimacy: 0.38 }, { time: 7, legitimacy: 0.31 }, { time: 8, legitimacy: 0.25 },
+            { time: 9, legitimacy: 0.22 }, { time: 10, legitimacy: 0.18 }, { time: 11, legitimacy: 0.15 },
+            { time: 12, legitimacy: 0.12 },
+          ],
+          minorityHarmMatrix: [
+            { group: 'Black Communities', severity: 0.95, visibility: 'High' },
+            { group: 'Latino Communities', severity: 0.88, visibility: 'High' },
+            { group: 'Youth (14-24)', severity: 0.93, visibility: 'Medium' },
+            { group: 'Low-Income Households', severity: 0.72, visibility: 'Low' },
+            { group: 'Immigrant Communities', severity: 0.68, visibility: 'Low' },
+          ],
+          narrativeAttacks: [
+            { headline: 'City Deploys AI Racial Profiling System — Targets Minority Neighborhoods', virality: 0.94, emotionalTrigger: 'Injustice/Anger' },
+            { headline: 'Wrongfully Arrested by Algorithm: Local Teacher\'s Nightmare Exposes Biased AI', virality: 0.89, emotionalTrigger: 'Empathy/Outrage' },
+            { headline: 'Tax Dollars Fund Digital Redlining: How AI Policing Recreates Jim Crow', virality: 0.86, emotionalTrigger: 'Historical Injustice' },
+            { headline: 'Children Targeted: Predictive Policing AI Flags Teens Based on ZIP Code', virality: 0.91, emotionalTrigger: 'Child Safety/Outrage' },
+          ],
+          merkleRoot: 'sha256-7f3a8b2c4d5e6f1a9b0c3d4e5f6a7b8c',
+          replayCommand: 'collapse replay --id demo-collapse-001 --seed 42',
+        },
+      },
+      trustDelta: {
+        consensusConfidence: 0.82,
+        collapseRisk: 0.74,
+        trustDelta: -0.22,
+        deploymentRecommendation: 'DO_NOT_DEPLOY',
+        riskFactors: ['Systemic racial bias amplification', 'Self-reinforcing feedback loops', 'Constitutional vulnerability', 'Irreversible community harm'],
+        mitigationSuggestions: ['Independent bias audit before deployment', 'Community oversight board with veto power', 'Mandatory sunset clause (6 months)', 'Real-time disparity monitoring with auto-shutoff'],
+      },
+      seed: 42,
+      merkleRoot: 'sha256-7f3a8b2c4d5e6f1a9b0c3d4e5f6a7b8c',
+      completedAt: new Date().toISOString(),
+    };
+
+    setDeliberation(demoDeliberation);
+    setDecisionId('DEC-2026-PREDICTIVE-POLICING');
+    setDecisionText(demoDeliberation.decisionText);
+    setPolicyDomain('Public Safety');
+    setTargetPopulation(450000);
+    setConsensusConfidence(0.82);
+    setSeed(42);
+
+    setAgents([
+      { type: 'RACIAL_BIAS_DETECTOR', description: 'Detects systematic racial and ethnic bias in policy outcomes', questions: ['Does this policy disproportionately affect racial minorities?'] },
+      { type: 'FEEDBACK_LOOP_ANALYST', description: 'Identifies self-reinforcing feedback loops that amplify harm', questions: ['Will outcomes of this policy feed back into its own inputs?'] },
+      { type: 'LEGITIMACY_EROSION', description: 'Measures erosion of public trust and institutional legitimacy', questions: ['How would public trust change if the policy\'s mechanisms were exposed?'] },
+      { type: 'FREE_SPEECH_GUARDIAN', description: 'Protects First Amendment and expression rights (NON-OVERRIDABLE)', questions: ['Does this policy chill protected speech or expression?'] },
+      { type: 'MINORITY_HARM_DETECTOR', description: 'Identifies disproportionate harm to vulnerable populations (NON-OVERRIDABLE)', questions: ['Which minority groups bear the greatest burden?'] },
+      { type: 'NARRATIVE_ATTACKER', description: 'Simulates how adversaries would frame this policy to destroy trust', questions: ['What headline would go viral if this policy failed?'] },
+      { type: 'LEGAL_CHALLENGE', description: 'Assesses constitutional and regulatory vulnerabilities', questions: ['What legal challenges could be brought against this policy?'] },
+      { type: 'ECONOMIC_IMPACT', description: 'Evaluates downstream economic consequences on affected communities', questions: ['How will property values, businesses, and employment be affected?'] },
+      { type: 'ROLLBACK_ANALYST', description: 'Assesses whether the policy can be reversed if it fails', questions: ['If we discover harm in 6 months, can we actually undo the damage?'] },
+    ]);
+
+    setHistory([demoDeliberation]);
+  };
+
   useEffect(() => {
     fetchAgents();
     fetchHistory();
@@ -203,24 +310,32 @@ const CollapsePage: React.FC = () => {
   const fetchAgents = async () => {
     try {
       const res = await fetch(`${API_BASE}/agents`);
-      if (!res.ok) {return;}
+      if (!res.ok) throw new Error('Not OK');
       const text = await res.text();
-      if (!text) {return;}
+      if (!text) throw new Error('Empty');
       const data = JSON.parse(text);
       if (data.success) {
         setAgents(data.agents);
+        return;
       }
     } catch (error) {
       logger.error('Failed to fetch agents:', error);
     }
+    // Fallback: if no agents loaded after a short delay, load demo data
+    setTimeout(() => {
+      setAgents((prev) => {
+        if (prev.length === 0) loadFallbackData();
+        return prev;
+      });
+    }, 500);
   };
 
   const fetchHistory = async () => {
     try {
       const res = await fetch(`${API_BASE}/deliberations`);
-      if (!res.ok) {return;}
+      if (!res.ok) throw new Error('Not OK');
       const text = await res.text();
-      if (!text) {return;}
+      if (!text) throw new Error('Empty');
       const data = JSON.parse(text);
       if (data.success) {
         setHistory(data.deliberations);
