@@ -371,6 +371,13 @@ const enterpriseGroup: NavGroup = {
       path: '/cortex/enterprise/crown',
       tooltip: 'CendiaEcho, CendiaRedTeam, CendiaGnosis \u2014 premium dashboards',
     },
+    {
+      id: 'workflow-builder',
+      label: 'Workflows',
+      icon: Zap,
+      path: '/cortex/workflows/builder',
+      tooltip: 'Service Orchestration — drag-and-drop workflow builder with all services',
+    },
   ],
 };
 

@@ -178,6 +178,9 @@ const ComplianceReadinessPage = lazy(() =>
   import('../../pages/cortex/compliance/ComplianceReadinessPage').then((m) => ({ default: m.ComplianceReadinessPage }))
 );
 
+// Service Orchestration Workflow Builder
+const ServiceWorkflowBuilderPage = lazy(() => import('../../pages/cortex/workflows/WorkflowBuilderPage'));
+
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
 );
@@ -250,6 +253,9 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   // Foundation-tier redirects (gateway and dcii root)
   { path: 'gateway', element: <Navigate to="/cortex/enterprise/gateway" replace /> },
   { path: 'dcii', element: <Navigate to="/cortex/enterprise/dcii" replace /> },
+
+  // Service Orchestration Workflow Builder
+  { path: 'workflows/builder', element: w(ServiceWorkflowBuilderPage) },
 
   // Security (enterprise-related)
   { path: 'security/zkp', element: w(ZKPPage) },
