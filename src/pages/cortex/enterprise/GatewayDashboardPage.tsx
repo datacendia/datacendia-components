@@ -115,6 +115,9 @@ const GatewayDashboardPage: React.FC = () => {
       if (statsRes.data) setStats(statsRes.data);
       if (interactionsRes.data) setInteractions(interactionsRes.data.interactions || []);
       if (policiesRes.data) setPolicies(policiesRes.data.policies || []);
+
+      // Guard: if API returned but data is empty, use fallback
+      if (!statsRes.data) throw new Error('Empty stats response');
     } catch (err) {
       logger.error('[Gateway] Failed to fetch data, using demo data:', err);
       setStats({

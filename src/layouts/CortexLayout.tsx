@@ -275,7 +275,7 @@ const foundationGroup: NavGroup = {
       id: 'gateway',
       label: 'Gateway',
       icon: Network,
-      path: '/cortex/gateway',
+      path: '/cortex/enterprise/gateway',
       tooltip: 'CendiaGateway\u2122 \u2014 AI Governance Gateway',
     },
     {
