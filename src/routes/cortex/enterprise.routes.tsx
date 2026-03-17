@@ -165,6 +165,11 @@ const StatementOfFactsPage = lazy(() =>
   import('../../pages/cortex/dcii/StatementOfFactsPage').then((m) => ({ default: m.StatementOfFactsPage }))
 );
 
+// Crypto
+const EscrowManagementPage = lazy(() =>
+  import('../../pages/cortex/crypto/EscrowManagementPage').then((m) => ({ default: m.EscrowManagementPage }))
+);
+
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
 );
@@ -227,6 +232,9 @@ export const cortexEnterpriseRoutes: RouteObject[] = [
   { path: 'compliance/regulatory-sandbox', element: w(RegulatorySandboxPage) },
   { path: 'compliance/cross-jurisdiction', element: w(CrossJurisdictionPage) },
   { path: 'compliance/continuous-monitor', element: w(ContinuousComplianceMonitorPage) },
+
+  // Crypto
+  { path: 'crypto/escrow', element: w(EscrowManagementPage) },
 
   // Security (enterprise-related)
   { path: 'security/zkp', element: w(ZKPPage) },
