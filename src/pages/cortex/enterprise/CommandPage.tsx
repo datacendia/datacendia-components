@@ -247,8 +247,10 @@ export default function CommandPage() {
               <Terminal className="h-6 w-6" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold">CendiaCommand™</h1>
-              <p className="text-muted-foreground">Vertical-Specific AI Command Interface</p>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                CENDIACOMMAND<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+              </h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Vertical-Specific AI Command Interface</p>
             </div>
           </div>
           <Badge variant="outline" className="text-sm">

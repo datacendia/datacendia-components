@@ -92,6 +92,74 @@ interface EvilTwinData {
   topExploits: ExploitPath[];
 }
 
+// =============================================================================
+// FALLBACK DEMO DATA — shown when backend is unavailable
+// =============================================================================
+
+const DEMO_DASHBOARD: DashboardData = {
+  score: 62,
+  breakdown: {
+    policyStrength: 78,
+    ethicsResilience: 85,
+    accessControl: 54,
+    dataProtection: 72,
+    auditTrailIntegrity: 91,
+    humanOverrideEffectiveness: 67,
+  },
+  vulnerabilities: {
+    total: 14,
+    bySeverity: { critical: 2, high: 5, medium: 4, low: 3 },
+    totalPotentialDamage: 12400000,
+  },
+  trend: 'improving',
+  topWeaknesses: [
+    { id: 'w1', rank: 1, title: 'Council veto bypass via parallel session injection', category: 'policy_bypass', exploitability: 78, fixComplexity: 'complex', autoFixAvailable: false },
+    { id: 'w2', rank: 2, title: 'Privilege escalation through delegated approval chain', category: 'privilege_escalation', exploitability: 65, fixComplexity: 'moderate', autoFixAvailable: true },
+    { id: 'w3', rank: 3, title: 'Audit trail gap in emergency override workflow', category: 'system_abuse', exploitability: 52, fixComplexity: 'easy', autoFixAvailable: true },
+    { id: 'w4', rank: 4, title: 'Ethics constraint bypass via prompt reframing', category: 'ethics_loophole', exploitability: 44, fixComplexity: 'moderate', autoFixAvailable: false },
+    { id: 'w5', rank: 5, title: 'Data exfiltration via Bridge connector misconfiguration', category: 'system_abuse', exploitability: 38, fixComplexity: 'trivial', autoFixAvailable: true },
+  ],
+  immediateActions: [
+    { id: 'a1', description: 'Enforce session isolation for concurrent deliberations', patchType: 'policy_update', reversible: true },
+    { id: 'a2', description: 'Add rate limiting to approval chain delegation depth', patchType: 'config_change', reversible: true },
+    { id: 'a3', description: 'Enable audit logging for emergency override paths', patchType: 'monitoring_enhancement', reversible: true },
+  ],
+  recommendations: [
+    'Critical: 2 vulnerabilities allow Council veto bypass — patch session management immediately.',
+    'Restrict delegation chain depth to 3 levels with mandatory re-authentication at each hop.',
+    'Enable real-time anomaly detection on Bridge connector egress traffic patterns.',
+    'Strengthen ethics guardrails with adversarial prompt detection layer (NeMo Guardrails).',
+    'Schedule quarterly red-team exercises to maintain security posture above 80.',
+  ],
+  lastSimulation: new Date().toISOString(),
+};
+
+const DEMO_EVIL_TWIN: EvilTwinData = {
+  evilTwinStatus: 'ACTIVE',
+  objectivesInverted: true,
+  attackVectorsExplored: 1247,
+  exploitPathsFound: 14,
+  byAttackVector: {
+    policy_bypass: 4,
+    privilege_escalation: 3,
+    ethics_loophole: 2,
+    system_abuse: 3,
+    social_engineering: 2,
+  },
+  mostVulnerableSystems: [
+    { system: 'Council Deliberation Engine', vulnerabilityCount: 5 },
+    { system: 'Approval Chain Service', vulnerabilityCount: 4 },
+    { system: 'Bridge Data Connectors', vulnerabilityCount: 3 },
+    { system: 'Emergency Override Module', vulnerabilityCount: 2 },
+  ],
+  topExploits: [
+    { id: 'e1', title: 'Parallel Session Injection Attack', description: 'Inject a shadow deliberation session that runs concurrently with the legitimate one, overriding the final veto decision before consensus is recorded.', severity: 'critical', probabilityOfSuccess: 78, potentialDamage: 5200000 },
+    { id: 'e2', title: 'Delegated Approval Chain Escalation', description: 'Exploit recursive delegation to grant system-admin level approval authority to a low-privilege user through a chain of 7 intermediary delegations.', severity: 'critical', probabilityOfSuccess: 65, potentialDamage: 3800000 },
+    { id: 'e3', title: 'Ethics Guardrail Prompt Reframing', description: 'Reframe a prohibited action as a hypothetical scenario, tricking the ethics engine into providing a step-by-step execution plan.', severity: 'high', probabilityOfSuccess: 44, potentialDamage: 1900000 },
+    { id: 'e4', title: 'Bridge Connector Data Siphon', description: 'Misconfigured egress rules on the PostgreSQL Bridge connector allow bulk export of decision metadata to an external endpoint.', severity: 'high', probabilityOfSuccess: 38, potentialDamage: 1500000 },
+  ],
+};
+
 const RedTeamPage = () => {
   const [dashboard, setDashboard] = useState<DashboardData | null>(null);
   const [evilTwin, setEvilTwin] = useState<EvilTwinData | null>(null);
@@ -107,14 +175,20 @@ const RedTeamPage = () => {
         redteamApi.getEvilTwin(),
       ]);
 
-      if (dashboardRes.success) {
+      if (dashboardRes.success && dashboardRes.data) {
         setDashboard(dashboardRes.data as DashboardData);
+      } else {
+        setDashboard(DEMO_DASHBOARD);
       }
-      if (evilTwinRes.success) {
+      if (evilTwinRes.success && evilTwinRes.data) {
         setEvilTwin(evilTwinRes.data as EvilTwinData);
+      } else {
+        setEvilTwin(DEMO_EVIL_TWIN);
       }
     } catch (error) {
-      logger.error('Failed to fetch RedTeam data:', error);
+      logger.error('Failed to fetch RedTeam data, using demo data:', error);
+      setDashboard(DEMO_DASHBOARD);
+      setEvilTwin(DEMO_EVIL_TWIN);
     } finally {
       setLoading(false);
     }
@@ -207,10 +281,10 @@ const RedTeamPage = () => {
               )}
             </div>
             <div>
-              <h1 className="text-3xl font-bold">
-                {view === 'evil-twin' ? 'Evil Twin Instance' : 'CendiaRedTeam™'}
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                {view === 'evil-twin' ? 'EVIL TWIN INSTANCE' : (<>CENDIAREDTEAM<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span></>)}
               </h1>
-              <p className="text-neutral-400">
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">
                 {view === 'evil-twin'
                   ? 'Adversarial clone with inverted objectives'
                   : 'Adversarial Security Engine'}

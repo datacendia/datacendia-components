@@ -270,8 +270,8 @@ const ActiveWalkthrough: React.FC<{
               <span className={categoryConfig.color}>{categoryConfig.icon}</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-white">{scenario.name}</h1>
-              <p className="text-gray-400">{scenario.category} • {scenario.estimatedDuration}</p>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>{scenario.name.toUpperCase()}</h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">{scenario.category} • {scenario.estimatedDuration}</p>
             </div>
           </div>
         </div>
@@ -521,13 +521,13 @@ const WalkthroughsPage: React.FC = () => {
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-white flex items-center gap-3">
+          <div className="flex items-center gap-3">
             <BookOpen className="w-8 h-8 text-cyan-400" />
-            Workflow Walkthroughs
-          </h1>
-          <p className="text-gray-400 mt-1">
-            Step-by-step guides for enterprise decision workflows
-          </p>
+            <div>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>WALKTHROUGHS</h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Step-by-step guides for enterprise decision workflows</p>
+            </div>
+          </div>
         </div>
         <div className="text-right">
           <div className="text-3xl font-bold text-white">{scenarios.length}</div>

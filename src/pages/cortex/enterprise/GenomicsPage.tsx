@@ -501,16 +501,15 @@ export const GenomicsPage: React.FC = () => {
                 ← Back
               </button>
               <div>
-                <h1 className="text-2xl font-bold flex items-center gap-3">
+                <div className="flex items-center gap-3">
                   <span className="text-3xl">🧬</span>
-                  CendiaGenomics™
-                  <span className="text-xs bg-gradient-to-r from-teal-500 to-cyan-500 px-2 py-0.5 rounded-full font-medium">
-                    HEALTHCARE
-                  </span>
-                </h1>
-                <p className="text-teal-300 text-sm">
-                  Healthcare & Life Sciences Pack • HIPAA Compliant
-                </p>
+                  <div>
+                    <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                      CENDIAGENOMICS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                    </h1>
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Healthcare & Life Sciences Pack</p>
+                  </div>
+                </div>
               </div>
             </div>
 

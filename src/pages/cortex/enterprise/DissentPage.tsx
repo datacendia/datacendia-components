@@ -164,8 +164,10 @@ export const DissentPage: React.FC = () => {
                   🛑
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold">CendiaDissent™</h1>
-                  <p className="text-sm text-white/60">
+                  <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                    CENDIADISSENT<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                  </h1>
+                  <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">
                     Formalized, Protected, Immutable Disagreement
                   </p>
                 </div>

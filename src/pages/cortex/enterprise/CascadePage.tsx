@@ -749,9 +749,11 @@ const CascadePage: React.FC = () => {
                   <Bug className="w-6 h-6 text-purple-400" />
                 </div>
                 <div>
-                  <h1 className="text-2xl font-bold">CendiaCascade™</h1>
-                  <p className="text-gray-400 text-sm">
-                    The Butterfly Effect — Second/Third-Order Consequence Analysis
+                  <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                    CENDIACASCADE<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                  </h1>
+                  <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">
+                    Second/Third-Order Consequence Analysis
                   </p>
                 </div>
               </div>

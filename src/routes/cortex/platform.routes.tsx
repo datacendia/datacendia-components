@@ -142,6 +142,9 @@ const GettingStartedPage = lazy(() =>
   import('../../pages/cortex/help/GettingStartedPage').then((m) => ({ default: m.GettingStartedPage }))
 );
 
+// Platform Map
+const PlatformMapPage = lazy(() => import('../../pages/cortex/PlatformMapPage'));
+
 const w = (Component: React.ComponentType) => (
   <SuspenseWrapper><Component /></SuspenseWrapper>
 );
@@ -226,4 +229,7 @@ export const cortexPlatformRoutes: RouteObject[] = [
   { path: 'profile', element: w(UserProfilePage) },
   { path: 'help', element: w(GettingStartedPage) },
   { path: 'getting-started', element: <Navigate to="/cortex/help" replace /> },
+
+  // Platform Map
+  { path: 'platform-map', element: w(PlatformMapPage) },
 ];

@@ -556,8 +556,10 @@ export const AdversarialRedTeamPage: React.FC = () => {
                 <Target className="w-8 h-8 text-red-400" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold tracking-tight">CendiaRedTeam™</h1>
-                <p className="text-red-300/80">Adversarial Red Team Mode &mdash; Every agent becomes a devil's advocate</p>
+                <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                  CENDIAREDTEAM<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                </h1>
+                <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Adversarial Red Team Mode</p>
               </div>
             </div>
             <div className="hidden md:flex items-center gap-6 text-sm text-gray-400">

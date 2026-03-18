@@ -427,11 +427,15 @@ export const AuditWorkflowPage: React.FC = () => {
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">📋</span>
-          <h1 className="text-3xl font-bold">Audit Workflow</h1>
+          <div>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+              CENDIAAUDIT<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+            </h1>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">
+              Compliance Audit Lifecycle Management
+            </p>
+          </div>
         </div>
-        <p className="text-neutral-400">
-          Compliance audit lifecycle management • Evidence tracking • Council integration
-        </p>
       </div>
 
       {/* Current Audit Card */}

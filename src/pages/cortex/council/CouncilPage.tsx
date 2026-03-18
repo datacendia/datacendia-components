@@ -1707,7 +1707,7 @@ export const CouncilPage: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <div className="flex items-center gap-3">
-              <h1 className="text-2xl font-light text-white tracking-wide">{t('council.title')}</h1>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>{t('council.title')}</h1>
               {agents.some((a) => a.status === 'online') ? (
                 <span className="flex items-center gap-1.5 text-[10px] text-emerald-500/80 font-medium">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />

@@ -351,16 +351,15 @@ export const ShadowOpsPage: React.FC = () => {
                 ← Back
               </button>
               <div>
-                <h1 className="text-2xl font-bold flex items-center gap-3">
+                <div className="flex items-center gap-3">
                   <span className="text-3xl">🕵️</span>
-                  CendiaShadowOps™
-                  <span className="text-xs bg-gradient-to-r from-zinc-600 to-slate-600 px-2 py-0.5 rounded-full font-medium">
-                    SOVEREIGN
-                  </span>
-                </h1>
-                <p className="text-zinc-400 text-sm">
-                  Competitive Intelligence & Counter-Intelligence • Know What They Know
-                </p>
+                  <div>
+                    <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                      CENDIASHADOWOPS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                    </h1>
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Competitive Intelligence & Counter-Intelligence</p>
+                  </div>
+                </div>
               </div>
             </div>
 

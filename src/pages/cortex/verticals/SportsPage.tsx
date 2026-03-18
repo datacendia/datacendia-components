@@ -329,13 +329,13 @@ export default function SportsPage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold flex items-center gap-3">
+          <div className="flex items-center gap-3">
             <Trophy className="h-8 w-8 text-green-600" />
-            Sports DDGI
-          </h1>
-          <p className="text-muted-foreground mt-1">
-            Transfer decisions, contract governance, FFP compliance
-          </p>
+            <div>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>SPORTS DDGI</h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Transfer decisions, contract governance, FFP compliance</p>
+            </div>
+          </div>
         </div>
         <div className="flex gap-2">
           <Button variant="outline" onClick={() => navigate('/cortex/verticals/sports/fifa-scenarios')} className="gap-2">

@@ -150,16 +150,15 @@ export const VoicePage: React.FC = () => {
                 ← Back
               </button>
               <div>
-                <h1 className="text-2xl font-bold flex items-center gap-3">
+                <div className="flex items-center gap-3">
                   <span className="text-3xl">🎙️</span>
-                  CendiaVoice™
-                  <span className="text-xs bg-gradient-to-r from-violet-500 to-purple-500 px-2 py-0.5 rounded-full font-medium">
-                    VOICE AI
-                  </span>
-                </h1>
-                <p className="text-violet-300 text-sm">
-                  AI C-Suite in Real-Time Conversation • Your Digital Boardroom
-                </p>
+                  <div>
+                    <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                      CENDIAVOICE<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                    </h1>
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">AI C-Suite in Real-Time Conversation</p>
+                  </div>
+                </div>
               </div>
             </div>
 

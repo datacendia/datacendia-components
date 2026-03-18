@@ -462,11 +462,11 @@ export const TrainingPage: React.FC = () => {
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">🎓</span>
-          <h1 className="text-3xl font-bold">Training & Certification</h1>
+          <div>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>TRAINING & CERTIFICATION</h1>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Learning management & certification tracking</p>
+          </div>
         </div>
-        <p className="text-neutral-400">
-          Learning management • Onboarding verification • Certification tracking
-        </p>
       </div>
 
       {/* Tabs */}

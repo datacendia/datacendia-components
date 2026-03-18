@@ -320,7 +320,11 @@ export const CrisisManagementPage: React.FC = () => {
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">🚨</span>
-          <h1 className="text-3xl font-bold">Crisis Management</h1>
+          <div>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+              CENDIACRISIS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+            </h1>
+          </div>
           {activeIncidents.length > 0 && (
             <span className="px-3 py-1 bg-red-500/20 text-red-400 rounded-full text-sm font-medium animate-pulse">
               {activeIncidents.length} Active

@@ -37,8 +37,8 @@ export const PillarHeader: React.FC<{
         {icon}
       </div>
       <div>
-        <h1 className="text-2xl font-bold text-neutral-900">{name}</h1>
-        <p className="text-neutral-500">{tagline}</p>
+        <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>{name.toUpperCase()}</h1>
+        <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">{tagline}</p>
       </div>
     </div>
   </div>

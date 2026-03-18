@@ -203,13 +203,15 @@ export default function ResponsibilityPage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold flex items-center gap-3">
+          <div className="flex items-center gap-3">
             <Shield className="h-8 w-8 text-primary" />
-            CendiaResponsibility™
-          </h1>
-          <p className="text-muted-foreground mt-1">
-            Human Accountability Layer — Explicit liability transfer for AI-assisted decisions
-          </p>
+            <div>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                CENDIARESPONSIBILITY<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+              </h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Human Accountability Layer</p>
+            </div>
+          </div>
         </div>
         <div className="flex items-center gap-3">
           <Badge variant="outline" className={serviceHealth?.status === 'operational' ? 'border-green-500 text-green-500' : 'border-amber-500 text-amber-500'}>

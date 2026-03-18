@@ -78,8 +78,8 @@ export const LineageViewPage: React.FC = () => {
             <span>/</span>
             <span>Lineage</span>
           </div>
-          <h1 className="text-2xl font-bold text-neutral-900">
-            Data Lineage: {centralEntity.name}
+          <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+            DATA LINEAGE: {centralEntity.name.toUpperCase()}
           </h1>
         </div>
 
@@ -315,7 +315,7 @@ export const EntityDetailsPage: React.FC = () => {
             <span>{entity.name}</span>
           </div>
           <div className="flex items-center gap-4">
-            <h1 className="text-2xl font-bold text-neutral-900">{entity.name}</h1>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>{entity.name.toUpperCase()}</h1>
             <span className="px-2 py-1 bg-blue-100 text-blue-700 text-sm rounded">
               {entity.type}
             </span>

@@ -100,8 +100,10 @@ export default function AIInsurancePage() {
         <div className="flex items-center gap-3">
           <Shield className="h-8 w-8 text-blue-400" />
           <div>
-            <h1 className="text-2xl font-bold text-white">CendiaInsure™</h1>
-            <p className="text-gray-400">Direct liability coverage per AI decision</p>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+              CENDIAINSURE<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+            </h1>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Direct liability coverage per AI decision</p>
           </div>
         </div>
         <Button>

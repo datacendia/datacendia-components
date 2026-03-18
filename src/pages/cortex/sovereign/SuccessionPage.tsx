@@ -409,16 +409,15 @@ export const SuccessionPage: React.FC = () => {
                 ← Back
               </button>
               <div>
-                <h1 className="text-2xl font-bold flex items-center gap-3">
+                <div className="flex items-center gap-3">
                   <span className="text-3xl">👔</span>
-                  CendiaSuccession™
-                  <span className="text-xs bg-gradient-to-r from-purple-600 to-indigo-600 px-2 py-0.5 rounded-full font-medium">
-                    SOVEREIGN
-                  </span>
-                </h1>
-                <p className="text-purple-300 text-sm">
-                  Leadership Continuity & Knowledge Transfer • Preserve Institutional Wisdom
-                </p>
+                  <div>
+                    <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                      CENDIASUCCESSION<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                    </h1>
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Leadership Continuity & Knowledge Transfer</p>
+                  </div>
+                </div>
               </div>
             </div>
 

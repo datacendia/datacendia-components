@@ -208,16 +208,15 @@ export const LedgerPage: React.FC = () => {
                 ← Back
               </button>
               <div>
-                <h1 className="text-2xl font-bold flex items-center gap-3">
+                <div className="flex items-center gap-3">
                   <span className="text-3xl">⛓️</span>
-                  CendiaLedger™
-                  <span className="text-xs bg-gradient-to-r from-emerald-500 to-cyan-500 px-2 py-0.5 rounded-full font-medium">
-                    BLOCKCHAIN
-                  </span>
-                </h1>
-                <p className="text-emerald-300 text-sm">
-                  Immutable Decision Blockchain • Regulatory Audit Trail
-                </p>
+                  <div>
+                    <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                      CENDIALEDGER<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                    </h1>
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Immutable Decision Blockchain</p>
+                  </div>
+                </div>
               </div>
             </div>
 

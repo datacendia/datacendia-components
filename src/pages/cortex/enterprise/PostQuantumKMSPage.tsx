@@ -191,13 +191,15 @@ export default function PostQuantumKMSPage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
+          <div className="flex items-center gap-2">
             <Shield className="w-8 h-8 text-purple-500" />
-            CendiaPostQuantumKMS™
-          </h1>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-            Quantum-Resistant Cryptographic Signatures
-          </p>
+            <div>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                CENDIAPOSTQUANTUM<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+              </h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Quantum-Resistant Cryptographic Signatures</p>
+            </div>
+          </div>
         </div>
         <div className="flex items-center gap-2 text-xs text-gray-500">
           <Activity className="w-4 h-4" />

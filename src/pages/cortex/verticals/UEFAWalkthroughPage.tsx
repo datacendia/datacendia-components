@@ -276,14 +276,13 @@ export default function UEFAWalkthroughPage() {
           <ChevronRight className="h-3 w-3" />
           <span>UEFA Financial Sustainability</span>
         </div>
-        <h1 className="text-3xl font-bold flex items-center gap-3">
+        <div className="flex items-center gap-3">
           <Gavel className="h-8 w-8 text-indigo-600" />
-          Procedural Integrity Walkthrough
-        </h1>
-        <p className="text-muted-foreground max-w-3xl">
-          Synthetic demonstration of how Datacendia ensures regulatory decisions remain
-          defensible under CAS appeal. Based on public patterns from Financial Fair Play enforcement.
-        </p>
+          <div>
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>PROCEDURAL INTEGRITY WALKTHROUGH</h1>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">UEFA Financial Sustainability — CAS Appeal Defensibility</p>
+          </div>
+        </div>
         <div className="flex gap-2 pt-2">
           <Badge variant="outline" className="gap-1"><Lock className="h-3 w-3" /> Sovereign Stack</Badge>
           <Badge variant="outline" className="gap-1"><Fingerprint className="h-3 w-3" /> SHA-256 Sealed</Badge>

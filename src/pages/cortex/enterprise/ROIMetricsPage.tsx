@@ -207,9 +207,11 @@ export const ROIMetricsPage: React.FC = () => {
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-2xl font-bold text-white">CendiaROI™ Dashboard</h1>
-            <p className="text-neutral-400 text-sm mt-1">
-              Real measurements from actual platform usage • Data you can share with prospects
+            <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+              CENDIAROI<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+            </h1>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">
+              Real measurements from actual platform usage
             </p>
           </div>
           <div className="flex items-center gap-3">

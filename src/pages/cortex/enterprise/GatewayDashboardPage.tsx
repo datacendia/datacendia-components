@@ -234,8 +234,8 @@ const GatewayDashboardPage: React.FC = () => {
                 <Shield className="w-8 h-8 text-amber-400" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-300 to-amber-500 bg-clip-text text-transparent">
-                  CendiaGateway™
+                <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                  CENDIAGATEWAY<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
                 </h1>
                 <p className="text-sm text-gray-400">AI Governance Gateway — Every AI interaction, defensible.</p>
               </div>

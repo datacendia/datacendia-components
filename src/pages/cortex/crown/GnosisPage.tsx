@@ -508,6 +508,46 @@ const GnosisPage = () => {
 
   const fetchData = useCallback(async () => {
     setLoading(true);
+
+    const DEMO_DASH: DashboardData = {
+        userProfile: { strengths: ['Strategic Thinking', 'Data Interpretation', 'Risk Assessment'], gaps: ['Change Management', 'Stakeholder Alignment'], learningStyle: 'Visual + Hands-on', skillCount: 12 },
+        organizationMetrics: { totalLearners: 156, activeLearners: 89, avgCompletionRate: 72, decisionReadiness: 78 },
+        recommendedPaths: ['AI-Driven Decision Making', 'Change Management Fundamentals', 'Strategic Communication'],
+        topPerformers: [
+          { userId: 'u1', name: 'Sarah Chen', score: 96 },
+          { userId: 'u2', name: 'Marcus Rivera', score: 94 },
+          { userId: 'u3', name: 'Elena Kowalski', score: 91 },
+          { userId: 'u4', name: 'James O\'Brien', score: 88 },
+        ],
+        atRiskLearners: [
+          { userId: 'u5', name: 'David Kim', reason: 'No activity in 14 days' },
+          { userId: 'u6', name: 'Rachel Torres', reason: 'Failed assessment twice' },
+        ],
+      };
+      const DEMO_PROFILE: SkillProfile = {
+        userId: 'demo-user',
+        skills: {
+          'strategic-thinking': { name: 'Strategic Thinking', level: 82, trend: 'up', certifications: ['Strategic Decision Maker'] },
+          'data-interpretation': { name: 'Data Interpretation', level: 75, trend: 'up', certifications: [] },
+          'risk-assessment': { name: 'Risk Assessment', level: 68, trend: 'stable', certifications: [] },
+          'change-management': { name: 'Change Management', level: 45, trend: 'up', certifications: [] },
+          'stakeholder-alignment': { name: 'Stakeholder Alignment', level: 38, trend: 'down', certifications: [] },
+          'ai-governance': { name: 'AI Governance', level: 71, trend: 'up', certifications: ['AI Ethics Fundamentals'] },
+        },
+        strengths: ['Strategic Thinking', 'Data Interpretation', 'AI Governance'],
+        gaps: ['Change Management', 'Stakeholder Alignment'],
+        learningStyle: 'Visual + Hands-on',
+        preferredPace: 'Moderate',
+      };
+    const DEMO_READINESS: DecisionReadiness = {
+      readinessScore: 78,
+      totalLearners: 156,
+      activeLearners: 89,
+      completedPaths: 234,
+      status: 'On Track',
+      message: 'Organization decision readiness is improving. 89 active learners are progressing through skill development paths.',
+    };
+
     try {
       const [dashboardRes, profileRes, readinessRes] = await Promise.all([
         gnosisApi.getDashboard(),
@@ -515,17 +555,14 @@ const GnosisPage = () => {
         gnosisApi.getDecisionReadiness(),
       ]);
 
-      if (dashboardRes.success) {
-        setDashboard(dashboardRes.data as DashboardData);
-      }
-      if (profileRes.success) {
-        setProfile(profileRes.data as SkillProfile);
-      }
-      if (readinessRes.success) {
-        setReadiness(readinessRes.data as DecisionReadiness);
-      }
+      setDashboard(dashboardRes.success && dashboardRes.data ? dashboardRes.data as DashboardData : DEMO_DASH);
+      setProfile(profileRes.success && profileRes.data ? profileRes.data as SkillProfile : DEMO_PROFILE);
+      setReadiness(readinessRes.success && readinessRes.data ? readinessRes.data as DecisionReadiness : DEMO_READINESS);
     } catch (error) {
-      logger.error('Failed to fetch Gnosis data:', error);
+      logger.error('Failed to fetch Gnosis data, using demo data:', error);
+      setDashboard(DEMO_DASH);
+      setProfile(DEMO_PROFILE);
+      setReadiness(DEMO_READINESS);
     } finally {
       setLoading(false);
     }
@@ -661,8 +698,10 @@ const GnosisPage = () => {
               <GraduationCap className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold">CendiaGnosis™</h1>
-              <p className="text-neutral-400">Sovereign Education Engine</p>
+              <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                CENDIAGNOSIS<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+              </h1>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Sovereign Education Engine</p>
             </div>
           </div>
 

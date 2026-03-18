@@ -254,8 +254,10 @@ export default function DCIIDashboardPage() {
                 <Shield className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold tracking-tight">CendiaDCII™ — Decision Crisis Immunization Infrastructure</h1>
-                <p className="text-sm text-slate-400">9 primitives · IISS scoring · category-defining governance infrastructure</p>
+                <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
+                  CENDIADCII<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
+                </h1>
+                <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Decision Crisis Immunization Infrastructure</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
