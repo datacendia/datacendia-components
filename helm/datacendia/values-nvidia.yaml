@@ -1,0 +1,202 @@
+# =============================================================================
+# DATACENDIA HELM VALUES — NVIDIA GPU DEPLOYMENT
+# =============================================================================
+# Override values for GPU-accelerated Kubernetes deployment.
+#
+# Usage:
+#   helm install datacendia ./helm/datacendia \
+#     -f helm/datacendia/values.yaml \
+#     -f helm/datacendia/values-nvidia.yaml
+#
+# Prerequisites:
+#   - NVIDIA GPU Operator installed on cluster
+#   - nvidia.com/gpu resource available on nodes
+#   - NVIDIA Container Toolkit on GPU nodes
+# =============================================================================
+
+# =============================================================================
+# BACKEND — NVIDIA environment overrides
+# =============================================================================
+backend:
+  env:
+    NODE_ENV: production
+    LOG_LEVEL: info
+    # NVIDIA Triton
+    TRITON_URL: "datacendia-triton:8001"
+    TRITON_HTTP_URL: "http://datacendia-triton:8000"
+    INFERENCE_PROVIDER: "triton"
+    # NVIDIA NeMo Guardrails
+    NEMO_GUARDRAILS_URL: "http://datacendia-nemo-guardrails:8090"
+    NEMO_GUARDRAILS_ENABLED: "true"
+    # NVIDIA RAPIDS
+    RAPIDS_URL: "http://datacendia-rapids:5555"
+    RAPIDS_ENABLED: "true"
+
+# =============================================================================
+# NVIDIA TRITON INFERENCE SERVER
+# =============================================================================
+triton:
+  enabled: true
+  replicaCount: 1
+  image:
+    repository: nvcr.io/nvidia/tritonserver
+    tag: "24.03-py3"
+    pullPolicy: IfNotPresent
+
+  service:
+    type: ClusterIP
+    httpPort: 8000
+    grpcPort: 8001
+    metricsPort: 8002
+
+  resources:
+    limits:
+      cpu: "4"
+      memory: 16Gi
+      nvidia.com/gpu: "1"
+    requests:
+      cpu: "1"
+      memory: 4Gi
+      nvidia.com/gpu: "1"
+
+  args:
+    - tritonserver
+    - --model-repository=/models
+    - --strict-model-config=false
+    - --log-verbose=0
+    - --http-port=8000
+    - --grpc-port=8001
+    - --metrics-port=8002
+    - --allow-gpu-metrics=true
+
+  persistence:
+    enabled: true
+    size: 50Gi
+    storageClass: ""
+    mountPath: /models
+
+  nodeSelector:
+    nvidia.com/gpu.present: "true"
+
+  tolerations:
+    - key: nvidia.com/gpu
+      operator: Exists
+      effect: NoSchedule
+
+# =============================================================================
+# NVIDIA NeMo Guardrails
+# =============================================================================
+nemoGuardrails:
+  enabled: true
+  replicaCount: 1
+  image:
+    repository: nvcr.io/nvidia/nemo-guardrails
+    tag: "24.03"
+    pullPolicy: IfNotPresent
+
+  service:
+    type: ClusterIP
+    port: 8090
+
+  env:
+    GUARDRAILS_CONFIG_PATH: /config
+    LOG_LEVEL: INFO
+
+  resources:
+    limits:
+      cpu: "2"
+      memory: 8Gi
+      nvidia.com/gpu: "1"
+    requests:
+      cpu: "500m"
+      memory: 2Gi
+      nvidia.com/gpu: "1"
+
+  nodeSelector:
+    nvidia.com/gpu.present: "true"
+
+  tolerations:
+    - key: nvidia.com/gpu
+      operator: Exists
+      effect: NoSchedule
+
+# =============================================================================
+# NVIDIA RAPIDS
+# =============================================================================
+rapids:
+  enabled: true
+  replicaCount: 1
+  image:
+    repository: nvcr.io/nvidia/rapidsai/notebooks
+    tag: "24.04-cuda12.2-py3.11"
+    pullPolicy: IfNotPresent
+
+  service:
+    type: ClusterIP
+    apiPort: 5555
+    daskPort: 8786
+    dashboardPort: 8787
+
+  resources:
+    limits:
+      cpu: "4"
+      memory: 16Gi
+      nvidia.com/gpu: "1"
+    requests:
+      cpu: "1"
+      memory: 4Gi
+      nvidia.com/gpu: "1"
+
+  persistence:
+    enabled: true
+    size: 100Gi
+    storageClass: ""
+    mountPath: /data
+
+  nodeSelector:
+    nvidia.com/gpu.present: "true"
+
+  tolerations:
+    - key: nvidia.com/gpu
+      operator: Exists
+      effect: NoSchedule
+
+# =============================================================================
+# OLLAMA — GPU override
+# =============================================================================
+ollama:
+  resources:
+    limits:
+      cpu: "4"
+      memory: 12Gi
+      nvidia.com/gpu: "1"
+    requests:
+      cpu: "1"
+      memory: 4Gi
+      nvidia.com/gpu: "1"
+
+  nodeSelector:
+    nvidia.com/gpu.present: "true"
+
+  tolerations:
+    - key: nvidia.com/gpu
+      operator: Exists
+      effect: NoSchedule
+
+# =============================================================================
+# GPU CLUSTER SUMMARY
+# =============================================================================
+# Minimum GPU requirement: 4x NVIDIA GPUs (1 each for Triton, NeMo, RAPIDS, Ollama)
+# Recommended: NVIDIA A100 40GB or H100 80GB
+# Minimum VRAM per GPU: 16GB (RTX 4090 / A10G / L40S minimum)
+#
+# Total resource requests (GPU nodes):
+#   GPUs:   4x nvidia.com/gpu
+#   CPU:    3.5 cores
+#   Memory: 14Gi
+#
+# Total resource limits (GPU nodes):
+#   GPUs:   4x nvidia.com/gpu
+#   CPU:    14 cores
+#   Memory: 52Gi
+# =============================================================================

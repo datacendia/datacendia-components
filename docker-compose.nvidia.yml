@@ -1,0 +1,198 @@
+# =============================================================================
+# DATACENDIA NVIDIA GPU DEPLOYMENT PROFILE
+# =============================================================================
+# Extends docker-compose.yml with NVIDIA GPU-accelerated services:
+# - NVIDIA Triton Inference Server (model serving)
+# - NVIDIA NeMo Guardrails (LLM safety rails)
+# - NVIDIA RAPIDS (GPU-accelerated analytics)
+# - Ollama on GPU (local LLM inference)
+#
+# Prerequisites:
+#   - NVIDIA GPU with CUDA support
+#   - NVIDIA Container Toolkit installed
+#   - Docker with GPU support enabled
+#
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.nvidia.yml up
+#
+# Or for production:
+#   docker compose -f docker-compose.production.yml -f docker-compose.nvidia.yml up
+#
+# Verify GPU access:
+#   docker run --rm --gpus all nvidia/cuda:12.4.1-base-ubuntu22.04 nvidia-smi
+# =============================================================================
+
+services:
+  # ===========================================================================
+  # NVIDIA Triton Inference Server
+  # ===========================================================================
+  # Serves AI models with GPU acceleration. The Datacendia Council Engine
+  # routes inference requests through TritonProvider.ts when TRITON_URL is set.
+  # ===========================================================================
+  triton:
+    image: nvcr.io/nvidia/tritonserver:24.03-py3
+    container_name: datacendia-triton
+    restart: unless-stopped
+    ports:
+      - "8000:8000"   # HTTP inference
+      - "8001:8001"   # gRPC inference
+      - "8002:8002"   # Metrics
+    volumes:
+      - triton_models:/models
+      - ./deploy/nvidia/triton-config:/config:ro
+    command: >
+      tritonserver
+      --model-repository=/models
+      --strict-model-config=false
+      --log-verbose=0
+      --http-port=8000
+      --grpc-port=8001
+      --metrics-port=8002
+      --allow-gpu-metrics=true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+        limits:
+          memory: 16G
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/v2/health/ready || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    networks:
+      - default
+
+  # ===========================================================================
+  # NVIDIA NeMo Guardrails
+  # ===========================================================================
+  # LLM safety rails server. NeMoGuardrailsEngine.ts connects when
+  # NEMO_GUARDRAILS_URL is set. Provides 9 safety rails for Council
+  # deliberations: hallucination, toxicity, PII, policy violations, etc.
+  # ===========================================================================
+  nemo-guardrails:
+    image: nvcr.io/nvidia/nemo-guardrails:24.03
+    container_name: datacendia-nemo-guardrails
+    restart: unless-stopped
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./deploy/nvidia/guardrails-config:/config:ro
+    environment:
+      GUARDRAILS_CONFIG_PATH: /config
+      LOG_LEVEL: INFO
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+        limits:
+          memory: 8G
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8090/v1/health || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 45s
+    networks:
+      - default
+
+  # ===========================================================================
+  # NVIDIA RAPIDS (cuGraph / cuDF)
+  # ===========================================================================
+  # GPU-accelerated data analytics. RAPIDSService.ts connects when
+  # RAPIDS_URL is set. Used for bias detection across millions of decisions
+  # and graph analytics on decision networks.
+  # ===========================================================================
+  rapids:
+    image: nvcr.io/nvidia/rapidsai/notebooks:24.04-cuda12.2-py3.11
+    container_name: datacendia-rapids
+    restart: unless-stopped
+    ports:
+      - "8787:8787"   # Dask dashboard
+      - "8786:8786"   # Dask scheduler
+      - "5555:5555"   # RAPIDS API (custom)
+    volumes:
+      - ./deploy/nvidia/rapids-workers:/app:ro
+      - rapids_data:/data
+    environment:
+      RAPIDS_MODE: server
+      DASK_DISTRIBUTED__WORKER__MEMORY__TARGET: "0.80"
+      DASK_DISTRIBUTED__WORKER__MEMORY__SPILL: "0.85"
+      DASK_DISTRIBUTED__WORKER__MEMORY__PAUSE: "0.90"
+    command: >
+      bash -c "
+        pip install fastapi uvicorn --quiet &&
+        python /app/rapids_server.py
+      "
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+        limits:
+          memory: 16G
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5555/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+    networks:
+      - default
+
+  # ===========================================================================
+  # Ollama Override — Ensure GPU allocation
+  # ===========================================================================
+  ollama:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+        limits:
+          memory: 12G
+
+  # ===========================================================================
+  # Backend Override — Add NVIDIA service URLs
+  # ===========================================================================
+  api:
+    environment:
+      # NVIDIA Triton — enables TritonProvider for Council inference
+      TRITON_URL: triton:8001
+      TRITON_HTTP_URL: http://triton:8000
+      TRITON_METRICS_URL: http://triton:8002
+      INFERENCE_PROVIDER: triton
+
+      # NVIDIA NeMo Guardrails — enables safety rails on Council deliberations
+      NEMO_GUARDRAILS_URL: http://nemo-guardrails:8090
+      NEMO_GUARDRAILS_ENABLED: "true"
+
+      # NVIDIA RAPIDS — enables GPU-accelerated bias detection and analytics
+      RAPIDS_URL: http://rapids:5555
+      RAPIDS_ENABLED: "true"
+
+      # NVIDIA NIM — enable if using NVIDIA NIM microservices
+      # NIM_URL: http://nim:8000
+      # NIM_API_KEY: ${NIM_API_KEY:-}
+    depends_on:
+      triton:
+        condition: service_healthy
+      nemo-guardrails:
+        condition: service_healthy
+
+volumes:
+  triton_models:
+    name: datacendia-triton-models
+  rapids_data:
+    name: datacendia-rapids-data

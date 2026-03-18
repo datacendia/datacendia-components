@@ -44,6 +44,8 @@
     "db:seed": "npm run db:seed --workspace=backend",
     "docker:dev": "docker-compose -f docker-compose.dev.yml up",
     "docker:prod": "docker-compose -f docker-compose.production.yml up --build",
+    "docker:nvidia": "docker compose -f docker-compose.yml -f docker-compose.nvidia.yml up",
+    "docker:nvidia:prod": "docker compose -f docker-compose.production.yml -f docker-compose.nvidia.yml up --build",
     "start:dev": "node scripts/start-dev.js",
     "start:all": "concurrently --kill-others \"docker-compose -f docker-compose.dev.yml up -d postgres redis\" \"npm run dev:all\""
   },
