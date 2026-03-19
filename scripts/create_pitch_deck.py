@@ -470,18 +470,18 @@ def create_pitch_deck():
     # ==========================================================================
     # SLIDE 15: The Ask
     # ==========================================================================
-    add_title_slide(prs, "The Ask", "Seed Round: $1.5M - $2M USD")
+    add_title_slide(prs, "The Ask", "Pre-Seed: $1.5M at $7M Pre-Money (17.6% Dilution)")
     
     # ==========================================================================
     # SLIDE 16: Use of Funds
     # ==========================================================================
-    add_content_slide(prs, "Use of Funds ($1.75M midpoint, 18-month runway)", [
-        "Engineering (35% / $612K) — 2 senior engineers @ $150K/yr each",
-        "Sales & Marketing (25% / $437K) — 1 enterprise sales + marketing",
-        "Compliance & Certs (15% / $262K) — SOC 2 Type II, ISO 27001",
-        "Infrastructure (10% / $175K) — Cloud, hosting, dev tools",
-        "Legal & Admin (5% / $87K) — Legal, accounting, insurance",
-        "Founder Salary (10% / $90K) — $5,000/month × 18 months"
+    add_content_slide(prs, "Use of Funds ($1.5M, 18-month runway)", [
+        "Engineering (35% / $525K) — 2 senior engineers",
+        "Sales & Marketing (25% / $375K) — 1 enterprise sales + marketing",
+        "Compliance & Certs (15% / $225K) — SOC 2 Type II, ISO 27001",
+        "Infrastructure (10% / $150K) — Cloud, hosting, dev tools",
+        "Legal & Admin (5% / $75K) — Legal, accounting, insurance",
+        "Founder Salary (10% / $150K) — $5,000/month × 18 months"
     ])
     
     # ==========================================================================

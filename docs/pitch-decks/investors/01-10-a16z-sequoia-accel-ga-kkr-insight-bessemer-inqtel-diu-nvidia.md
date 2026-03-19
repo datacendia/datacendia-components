@@ -10,11 +10,23 @@
 ## SLIDE 1: The Thesis — AI Governance Is the Next Platform Layer
 Every enterprise deploying AI needs governance. Not optional — regulatory mandated (EU AI Act, SEC cyber rules, FDA SaMD, AI Executive Order 14110). **AI governance is infrastructure**, not a feature. It's the next platform layer after cloud, data, and AI itself.
 
-## SLIDE 2: The Market
-- **$15.4B** AI governance TAM by 2028 (Gartner)
-- **EU AI Act** makes governance mandatory for high-risk AI (credit scoring, healthcare, HR, law enforcement)
-- **Every Fortune 500** will need AI decision governance within 3 years
-- 0 incumbent owns this category — it's greenfield
+## SLIDE 2: The Market — Why Now, Why Big
+
+**Regulatory forcing functions (all real, all enacted):**
+
+| Regulation | Effective | Penalty / Impact |
+|------------|-----------|------------------|
+| **EU AI Act** | Aug 2025 (prohibitions), Aug 2026 (high-risk) | **€35M or 7% global turnover** (Article 99(3)) |
+| **SEC Cyber Disclosure** | Dec 2023 | 4 business days to report — decision trails are evidence |
+| **AI Executive Order 14110** | Oct 2023 | Federal AI transparency mandate |
+| **DORA** | Jan 2025 | ICT risk management for EU financial services |
+| **Peru DS 115-2025-PCM** | 2025 | National AI governance standard — already enacted |
+
+**The opportunity:**
+- Every enterprise deploying AI needs governance — 0 incumbent owns this category
+- Financial services: Basel III + SR 11-7 + Reg BI create mandatory demand
+- Defense: FedRAMP + CMMC + ITAR — $500K-$2M/year per prime contractor
+- **12-18 month window** before Big Tech bundles governance into existing platforms
 
 ## SLIDE 3: What We Built
 Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the governance layer for every AI decision.
@@ -29,6 +41,7 @@ Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the gov
 - **Basel III Engine** with real CRR/CRD IV formulas (not approximations)
 - **NVIDIA Inception Member** — GPU-accelerated inference
 - **30 verticals at 100%** — 6-layer standard, all deep-tested
+- **Active pipeline**: Channel partner conversation (Big 4, Peru financial services); enterprise prospect introduction in progress
 
 ## SLIDE 5: Business Model
 - **Annual licenses** (not SaaS) — sovereign-first, customer-owned infrastructure
@@ -42,20 +55,22 @@ Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the gov
 3. **Channel**: Big 4 white-label, AWS/Azure marketplace, defense primes (Lockheed, RTX)
 4. **Land and expand**: 1 decision type → all decisions → all business units
 
-## SLIDE 7: Competitive Moat
+## SLIDE 7: Competitive Moat & Portfolio Adjacency
 - **Multi-agent deliberation** — no competitor has this (Palantir, C3.ai, IBM = single-model)
 - **forensic-grade, independently verifiable proof** — unique: Merkle-signed, timestamped, exportable evidence
 - **30 verticals** — 2+ year head start on domain-specific schemas
 - **Sovereign architecture** — air-gapped, post-quantum, TPM — required for defense/government
 - **9 decision primitives** — proprietary framework, potential industry standard
 
+**Portfolio fit**: Databricks governs data. Datacendia governs the decisions made with that data. Together they close the AI accountability gap for regulated enterprises. This is the missing layer between data infrastructure and business outcomes.
+
 ## SLIDE 8: Team
 - **Stuart Rainey** — Founder & CEO. Enterprise software background. Solo founder building entire platform.
 - **Technical depth**: 344 services, 190 Prisma models, 8 AI model slots, 9 enterprise infrastructure integrations — all built and working.
 
 ## SLIDE 9: The Ask
-**$5M Seed** at $25M pre-money
-- **Use of funds**: 3 enterprise pilots ($1M), engineering team (3 hires, $1.5M), sales ($1M), operations ($500K), 18-month runway ($1M)
+**$1.5M Pre-Seed** at $7M pre-money ($8.5M post-money, **17.6% dilution**)
+- **Use of funds**: Engineering (35% / $525K — 2 senior engineers), Sales & Marketing (25% / $375K), Compliance & Certs (15% / $225K — SOC 2 Type II, ISO 27001), Infrastructure (10% / $150K), Legal & Admin (5% / $75K), Founder salary (10% / $150K — 18-month runway)
 - **Milestones**: 3 paying enterprise customers, $500K ARR, SOC 2 Type II certification
 
 ## SLIDE 10: Why Now
@@ -104,7 +119,7 @@ Each vertical: separate buying center, separate budget, separate regulatory driv
 ## SLIDE 7: Competitive Landscape
 No direct competitor. Adjacent players: Palantir (analytics, not governance), IBM OpenPages (GRC, not AI-native), OneTrust (privacy, not decision governance), Relativity (legal, not cross-industry).
 
-## SLIDE 8: $5M Seed → $500K ARR in 18 months
+## SLIDE 8: $1.5M Pre-Seed at $7M pre-money (17.6% dilution) → $500K ARR in 18 months
 ## SLIDE 9: Team + Technical Depth (344 services, sole founder)
 ## SLIDE 10: Contact — Stuart Rainey — stuart.rainey@datacendia.com
 
@@ -127,7 +142,7 @@ Solo founder who built 344 services, 190 database models, 200 pages, 205,754 tes
 CISO/GC/CCO buyer. $250K-$1.5M ACV. Big 4 white-label channel. Defense prime channel. AWS/Azure marketplace.
 
 ## SLIDE 5-8: Market size, Unit economics, Competitive moat, Expansion
-## SLIDE 9: $5M Seed. 18-month plan to $500K ARR.
+## SLIDE 9: $1.5M Pre-Seed at $7M pre-money (17.6% dilution). 18-month plan to $500K ARR.
 ## SLIDE 10: Contact — stuart.rainey@datacendia.com
 
 ---
@@ -138,7 +153,6 @@ CISO/GC/CCO buyer. $250K-$1.5M ACV. Big 4 white-label channel. Defense prime cha
 
 ## SLIDE 1: Growth Equity Thesis — AI Governance at Scale
 GA invests in category leaders at inflection points. AI governance is at the regulatory inflection point (EU AI Act Aug 2025). Datacendia is the most technically complete platform in the category — 344 services, 30 verticals, 205K+ tests.
-
 ## SLIDE 2: The Revenue Model
 Annual licenses, not SaaS. $250K-$1.5M ACV. 85%+ gross margin. High switching costs (decision data lock-in). Net dollar retention target: 130%+ (land & expand across verticals).
 
@@ -215,7 +229,7 @@ Bessemer's State of the Cloud: compliance/governance is the fastest-growing SaaS
 | Magic number | >1.0 |
 
 ## SLIDE 3-8: Product, Market, GTM, Moat, Team
-## SLIDE 9: $5M Seed. Path to BVP Cloud Index eligibility.
+## SLIDE 9: $1.5M Pre-Seed at $7M pre-money (17.6% dilution). Path to BVP Cloud Index eligibility.
 ## SLIDE 10: Contact — stuart.rainey@datacendia.com
 
 ---

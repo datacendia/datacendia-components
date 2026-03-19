@@ -55,16 +55,17 @@
 
 ## Cost Structure
 
-### Year 1 ($5M Seed)
+### Year 1 ($1.5M Pre-Seed)
 
 | Category | Amount | % of Budget |
 |----------|--------|------------|
-| **Engineering** (3 hires) | $1.5M | 30% |
-| **Sales & Marketing** (2 hires + programs) | $1.2M | 24% |
-| **Enterprise Pilots** (subsidized POCs) | $800K | 16% |
-| **Operations** (legal, accounting, infra) | $500K | 10% |
-| **Runway Reserve** | $1.0M | 20% |
-| **Total** | **$5.0M** | 100% |
+| **Engineering** (2 senior hires) | $525K | 35% |
+| **Sales & Marketing** (1 enterprise sales + marketing) | $375K | 25% |
+| **Compliance & Certs** (SOC 2 Type II, ISO 27001) | $225K | 15% |
+| **Infrastructure** (cloud, hosting, dev tools) | $150K | 10% |
+| **Legal & Admin** | $75K | 5% |
+| **Founder Salary** ($5K/mo × 18 months) | $150K | 10% |
+| **Total** | **$1.5M** | 100% |
 
 ### Year 2-3 Scaling
 
@@ -97,7 +98,7 @@
 
 | Round | Timing | Amount | Valuation | Milestones to Trigger |
 |-------|--------|--------|-----------|----------------------|
-| **Seed** | Now | $5M | $25M pre | Product complete, design partners signed |
+| **Pre-Seed** | Now | $1.5M | $7M pre ($8.5M post, 17.6% dilution) | Product complete, active pipeline |
 | **Series A** | Y1 Q4 - Y2 Q2 | $15-25M | $75-150M pre | $2M+ ARR, 10+ customers, 130% NRR |
 | **Series B** | Y3 Q2-Q4 | $40-75M | $300-500M pre | $10M+ ARR, channel traction, international |
 
