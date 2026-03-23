@@ -30,9 +30,9 @@ router.use('/decision-intel', decisionIntelRoutes);
 router.use('/gnosis', gnosisRoutes);
 router.use('/visualization', visualizationRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/apotheosis', () => import('../apotheosis.js')],
+  ['/apotheosis', () => import('../apotheosis.js'), 'operate'],
 ]);
 
 export default router;

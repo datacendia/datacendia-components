@@ -40,9 +40,9 @@ router.use('/vertical-agents', verticalAgentsRoutes);
 router.use('/vertical-sentinels', verticalSentinelsRoutes);
 router.use('/fhir', fhirRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/vertical-config', () => import('../vertical-config.js')],
+  ['/vertical-config', () => import('../vertical-config.js'), 'verticals'],
 ]);
 
 export default router;

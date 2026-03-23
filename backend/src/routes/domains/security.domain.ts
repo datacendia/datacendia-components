@@ -38,12 +38,12 @@ router.use('/security-services', securityServicesRoutes);
 router.use('/mfa', mfaRoutes);
 router.use('/hsm', hsmRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/crucible', () => import('../crucible.js')],
-  ['/crucible-enterprise', () => import('../crucible-enterprise.js')],
-  ['/aegis', () => import('../aegis.js')],
-  ['/security', () => import('../sovereign-security.js')],
+  ['/crucible', () => import('../crucible.js'), 'stress_test'],
+  ['/crucible-enterprise', () => import('../crucible-enterprise.js'), 'stress_test'],
+  ['/aegis', () => import('../aegis.js'), 'sovereign'],
+  ['/security', () => import('../sovereign-security.js'), 'sovereign'],
 ]);
 
 export default router;

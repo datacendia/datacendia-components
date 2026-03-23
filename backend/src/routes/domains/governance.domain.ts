@@ -40,11 +40,11 @@ router.use('/cross-jurisdiction', crossJurisdictionRoutes);
 router.use('/regulators-receipt', regulatorsReceiptRoutes);
 router.use('/dsr', dsrRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/panopticon', () => import('../panopticon.js')],
-  ['/dcii', () => import('../dcii.js')],
-  ['/bias-detection', () => import('../bias-detection.js')],
+  ['/panopticon', () => import('../panopticon.js'), 'comply'],
+  ['/dcii', () => import('../dcii.js'), 'comply'],
+  ['/bias-detection', () => import('../bias-detection.js'), 'govern'],
 ]);
 
 export default router;

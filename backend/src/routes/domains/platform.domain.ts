@@ -56,10 +56,10 @@ router.use('/platform-assistant', platformAssistantRoutes);
 router.use('/marketing-leads', marketingLeadsRoutes);
 router.use('/auto-heal', autoHealRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/cortex', () => import('../cortex-core.js')],
-  ['/omnitranslate', () => import('../omnitranslate.js')],
+  ['/cortex', () => import('../cortex-core.js'), 'operate'],
+  ['/omnitranslate', () => import('../omnitranslate.js'), 'operate'],
 ]);
 
 export default router;
