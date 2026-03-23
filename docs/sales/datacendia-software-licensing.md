@@ -105,6 +105,37 @@ provide reasonable notice of material changes. If a modification
 materially degrades the Services, Customer may terminate the affected 
 Order Form within 30 days of the change.
 
+2.5 DEPLOYMENT MODELS
+The Services may be deployed in the following configurations as 
+specified in the Order Form:
+
+    (a) Cloud-Hosted (SaaS): Datacendia hosts and manages the Services 
+        in the region specified in the Order Form;
+    (b) Self-Hosted (On-Premise): Customer deploys the Services on 
+        Customer-controlled infrastructure using Datacendia-provided 
+        container images and Helm charts;
+    (c) Sovereign (Air-Gapped): Customer deploys the Services in a 
+        network-isolated environment with no outbound connectivity to 
+        Datacendia or third-party cloud services.
+
+2.6 OFFLINE LICENSING
+For Self-Hosted and Sovereign deployments, licensing is enforced via 
+cryptographically signed license files (".dcl" format):
+
+    (a) Datacendia generates a license file signed with Ed25519 
+        digital signatures and delivers it to Customer via secure 
+        channel;
+    (b) The license file encodes: organization, tier, enabled pillars, 
+        seat count, expiration date, and optional hardware fingerprint;
+    (c) Customer installs the license file on the deployed system; 
+        the Services verify the signature locally using the embedded 
+        public key — no network connectivity to Datacendia is required;
+    (d) Hardware-bound licenses, when specified in the Order Form, 
+        restrict the license to a specific machine fingerprint;
+    (e) License renewal requires delivery of a new .dcl file before 
+        expiration; Datacendia will provide renewal files at least 
+        30 days before expiration upon receipt of applicable fees.
+
 ═══════════════════════════════════════════════════════════════════════════
                       3. CUSTOMER OBLIGATIONS
 ═══════════════════════════════════════════════════════════════════════════
@@ -238,14 +269,39 @@ designed to protect Customer Data, including:
     (d) Incident response procedures.
 
 7.3 DATA LOCATION
-Customer Data is stored in the region specified in the Order Form. 
-Datacendia will not transfer Customer Data to other regions without 
-Customer consent, except as required for Service operation.
+    (a) Cloud-Hosted: Customer Data is stored in the region specified 
+        in the Order Form. Datacendia will not transfer Customer Data 
+        to other regions without Customer consent, except as required 
+        for Service operation.
+    (b) Self-Hosted: Customer Data resides entirely on Customer-
+        controlled infrastructure. Datacendia does not access, store, 
+        or process Customer Data except as necessary for support 
+        requests explicitly initiated by Customer.
+    (c) Sovereign (Air-Gapped): Customer Data never leaves Customer's 
+        network. Datacendia has zero access to Customer Data. All AI 
+        processing occurs locally via Customer-provisioned models.
 
 7.4 SUBPROCESSORS
-Datacendia may use subprocessors to provide the Services. A list of 
-subprocessors is available at datacendia.com/subprocessors. Datacendia 
-will provide 30 days' notice of new subprocessors.
+Datacendia may use subprocessors to provide the Cloud-Hosted Services. 
+For Self-Hosted and Sovereign deployments, no subprocessors are used 
+unless Customer explicitly enables third-party integrations.
+
+A list of subprocessors is available at datacendia.com/subprocessors. 
+Datacendia will provide 30 days' notice of new subprocessors.
+
+7.5 ENTERPRISE CONNECTORS
+The Services may integrate with third-party enterprise systems via 
+built-in connectors (Salesforce, ServiceNow, Jira, Slack, Microsoft 
+Teams, SAP, Oracle, Workday, HubSpot, GitHub). When Customer enables 
+a connector:
+    (a) Customer authorizes data flow between the Services and the 
+        third-party system using Customer-provided credentials;
+    (b) Datacendia acts as a data processor for data transiting 
+        through connectors in Cloud-Hosted mode;
+    (c) In Self-Hosted and Sovereign modes, connector traffic remains 
+        entirely within Customer's network;
+    (d) Customer is responsible for compliance with the third-party 
+        system's terms of service.
 
 ═══════════════════════════════════════════════════════════════════════════
                     8. WARRANTIES AND DISCLAIMERS
@@ -801,7 +857,7 @@ Credits are your sole remedy for uptime failures
 • We'll minimize duration and impact
 
 4.3 Status Page
-Real-time status at status.datacendia.com
+Real-time status at app.datacendia.com/status
 Subscribe for automatic notifications
 
 ───────────────────────────────────────────────────────────────────────────
@@ -1075,7 +1131,18 @@ Phone:            ________________________________________________
 ┌────────────────────────────────────────────────────────────────────────┐
 │ SUBSCRIPTION TIER                                                       │
 ├────────────────────────────────────────────────────────────────────────┤
-│ [ ] Starter        [ ] Professional        [ ] Enterprise              │
+│ [ ] Foundation     [ ] Intelligence     [ ] Governance    [ ] Sovereign│
+└────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────┐
+│ DEPLOYMENT MODEL                                                        │
+├────────────────────────────────────────────────────────────────────────┤
+│ [ ] Cloud-Hosted (SaaS)                                                 │
+│ [ ] Self-Hosted (On-Premise) — container images + Helm chart            │
+│ [ ] Sovereign (Air-Gapped) — offline .dcl license, no outbound network  │
+│                                                                         │
+│ Hardware-Bound License: [ ] Yes  [ ] No                                 │
+│ Machine Fingerprint:    ________________________________________        │
 └────────────────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -1169,112 +1236,54 @@ Title:        _________________________
 
 ---
 
-# License Key System
+# License System — Implemented
 
-```typescript
-// src/licensing/license-key.ts
+Two licensing mechanisms are implemented and enforced at runtime:
 
-import crypto from 'crypto';
+## Online Licensing (Cloud-Hosted)
 
-interface LicensePayload {
-  customerId: string;
-  customerName: string;
-  tier: 'starter' | 'professional' | 'enterprise';
-  users: number;
-  deliberationsPerMonth: number;
-  features: string[];
-  issuedAt: Date;
-  expiresAt: Date;
-  region?: string;
-}
+The `requireLicense` middleware enforces tier-based access with a 
+three-tier fallback: Redis cache → Prisma database → default pilot tier.
 
-class LicenseKeyManager {
-  private privateKey: string;
-  private publicKey: string;
-  
-  constructor() {
-    this.privateKey = process.env.LICENSE_PRIVATE_KEY!;
-    this.publicKey = process.env.LICENSE_PUBLIC_KEY!;
-  }
-  
-  // Generate a license key
-  generateLicenseKey(payload: LicensePayload): string {
-    // Create payload JSON
-    const payloadJson = JSON.stringify(payload);
-    const payloadBase64 = Buffer.from(payloadJson).toString('base64url');
-    
-    // Sign the payload
-    const sign = crypto.createSign('SHA256');
-    sign.update(payloadBase64);
-    const signature = sign.sign(this.privateKey, 'base64url');
-    
-    // Combine into license key format
-    // Format: DC-{TIER}-{PAYLOAD}.{SIGNATURE}
-    const tierPrefix = payload.tier.charAt(0).toUpperCase();
-    return `DC-${tierPrefix}-${payloadBase64}.${signature}`;
-  }
-  
-  // Validate and decode a license key
-  validateLicenseKey(licenseKey: string): LicenseValidation {
-    try {
-      // Parse the key
-      const parts = licenseKey.split('.');
-      if (parts.length !== 2) {
-        return { valid: false, error: 'Invalid key format' };
-      }
-      
-      const [headerPayload, signature] = parts;
-      const payloadBase64 = headerPayload.split('-').slice(2).join('-');
-      
-      // Verify signature
-      const verify = crypto.createVerify('SHA256');
-      verify.update(payloadBase64);
-      const isValid = verify.verify(this.publicKey, signature, 'base64url');
-      
-      if (!isValid) {
-        return { valid: false, error: 'Invalid signature' };
-      }
-      
-      // Decode payload
-      const payloadJson = Buffer.from(payloadBase64, 'base64url').toString();
-      const payload: LicensePayload = JSON.parse(payloadJson);
-      
-      // Check expiration
-      if (new Date(payload.expiresAt) < new Date()) {
-        return { valid: false, error: 'License expired', payload };
-      }
-      
-      return { valid: true, payload };
-    } catch (error) {
-      return { valid: false, error: 'Invalid key' };
-    }
-  }
-  
-  // Check if a feature is licensed
-  isFeatureLicensed(licenseKey: string, feature: string): boolean {
-    const validation = this.validateLicenseKey(licenseKey);
-    if (!validation.valid || !validation.payload) return false;
-    
-    return validation.payload.features.includes(feature);
-  }
-  
-  // Get remaining usage
-  getRemainingUsage(licenseKey: string, currentUsage: number): number {
-    const validation = this.validateLicenseKey(licenseKey);
-    if (!validation.valid || !validation.payload) return 0;
-    
-    return Math.max(0, validation.payload.deliberationsPerMonth - currentUsage);
-  }
-}
+License tiers: `pilot`, `foundation`, `enterprise`, `strategic`, `custom`.
+License types: `named`, `concurrent`, `site`.
 
-interface LicenseValidation {
-  valid: boolean;
-  error?: string;
-  payload?: LicensePayload;
-}
+## Offline Licensing (Self-Hosted / Sovereign)
 
-export const licenseManager = new LicenseKeyManager();
+Implemented in `backend/src/services/sovereign/OfflineLicenseService.ts`.
+CLI tool: `backend/scripts/generate-offline-license.ts`.
+
 ```
+Architecture:
+
+  Datacendia HQ                          Customer Site
+  ─────────────                          ─────────────
+  1. Generate Ed25519 keypair            
+     tsx scripts/generate-offline-license.ts --generate-keys
+                                         
+  2. Sign license JWT with private key   
+     tsx scripts/generate-offline-license.ts \
+       --sign --org "Acme Corp" --tier enterprise \
+       --pillars helm,guard,predict --seats 50 \
+       --days 365 --hardware-id <fingerprint>
+                                         
+  3. Deliver .dcl file via secure channel
+     ──────────────────────────────────► 4. Place at /etc/datacendia/license.dcl
+                                            or set DATACENDIA_LICENSE_FILE env var
+                                         
+                                         5. At startup, OfflineLicenseService
+                                            verifies Ed25519 signature using
+                                            embedded public key — zero network
+                                         
+                                         6. SovereignModeService validates
+                                            license as step 6 of startup
+```
+
+License file format: `.dcl` = raw Ed25519-signed JWT (via `jose` library)
+Private key storage: `.keys/` directory (gitignored, never leaves HQ)
+Public key delivery: embedded in builds via `DATACENDIA_LICENSE_PUBLIC_KEY` env var
+
+JWT claims: `org`, `tier`, `pillars`, `seats`, `exp`, `iss`, optional `hwid`
 
 ---
 
@@ -1288,29 +1297,39 @@ export const licenseManager = new LicenseKeyManager();
 │  LEGAL DOCUMENTS                                                        │
 │  [ ] Have attorney review all documents                                 │
 │  [ ] Localize for key markets (EU, UK, etc.)                           │
-│  [ ] Set up document version control                                    │
-│  [ ] Create customer-facing legal page                                  │
+│  [x] Set up document version control (this file, git-tracked)          │
+│  [x] Create customer-facing legal page (/terms, /privacy, /security)   │
 │                                                                         │
 │  TECHNICAL IMPLEMENTATION                                               │
-│  [ ] Implement license key generation                                   │
-│  [ ] Implement license validation                                       │
-│  [ ] Build license management dashboard                                 │
-│  [ ] Set up usage tracking                                              │
-│  [ ] Implement feature flags based on license                          │
+│  [x] Implement license key generation (online: Prisma + Redis)         │
+│  [x] Implement license validation (requireLicense middleware)           │
+│  [x] Implement offline license (.dcl Ed25519 signed JWTs)              │
+│  [x] Implement hardware-bound licensing (optional fingerprint)         │
+│  [ ] Build license management dashboard (admin UI)                     │
+│  [x] Set up usage tracking (API metrics, request logging)              │
+│  [x] Implement feature flags based on license (FeatureControlService)  │
 │  [ ] Build renewal/upgrade flows                                        │
 │                                                                         │
 │  OPERATIONS                                                             │
 │  [ ] Train sales team on licensing terms                               │
 │  [ ] Create customer-facing FAQ                                         │
 │  [ ] Set up contract management system                                  │
-│  [ ] Implement license expiry notifications                            │
-│  [ ] Build reporting for compliance                                     │
+│  [x] Implement license expiry notifications (sovereign startup check)  │
+│  [x] Build reporting for compliance (audit logging, Prometheus metrics)│
+│                                                                         │
+│  INFRASTRUCTURE                                                         │
+│  [x] Public status page (app.datacendia.com/status)                    │
+│  [x] Kubernetes health probes (liveness, readiness)                    │
+│  [x] Helm chart for self-hosted deployment                             │
+│  [x] Sovereign mode service (air-gapped startup validation)            │
+│  [x] 10 enterprise connectors built and wired                          │
 │                                                                         │
 │  COMPLIANCE                                                             │
 │  [ ] Register copyrights/trademarks                                    │
 │  [ ] Set up DMCA agent (if US)                                         │
-│  [ ] Implement GDPR requirements                                        │
-│  [ ] SOC 2 certification                                                │
+│  [x] GDPR design-compliant (DPA available, data location controls)     │
+│  [ ] SOC 2 Type II — architecture aligned, formal audit pending        │
+│  [ ] Third-party penetration test — requires hiring a firm             │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1324,6 +1343,6 @@ situation may require different terms.
 
 ---
 
-**Document Version:** 1.0  
-**Last Updated:** November 2025  
+**Document Version:** 2.0  
+**Last Updated:** March 2026  
 **Owner:** Legal / Product
