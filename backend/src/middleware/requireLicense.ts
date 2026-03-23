@@ -23,6 +23,7 @@ import { licensingService, LicenseTier } from '../services/licensing.service.js'
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
+import { offlineLicense } from '../services/sovereign/OfflineLicenseService.js';
 
 interface OrgLicenseInfo {
   tier: LicenseTier;
@@ -117,7 +118,20 @@ async function resolveOrgLicense(orgId: string): Promise<OrgLicenseInfo | null> 
     // DB query failed — fall through to default
   }
 
-  // 3. Default: allow pilot-level access for all authenticated orgs
+  // 3. Check offline license file (air-gapped / sovereign deployments)
+  if (offlineLicense.isValid) {
+    const tier = offlineLicense.tier as LicenseTier;
+    const result: OrgLicenseInfo = {
+      tier,
+      pillars: offlineLicense.pillars,
+      licenseId: `offline:${offlineLicense.organizationId}`,
+      active: true,
+    };
+    logger.debug(`[License] Resolved from offline license file (tier: ${tier})`);
+    return result;
+  }
+
+  // 4. Default: allow pilot-level access for all authenticated orgs
   // This ensures the platform works during onboarding before a license is provisioned
   const defaultResult: OrgLicenseInfo = {
     tier: 'pilot' as LicenseTier,

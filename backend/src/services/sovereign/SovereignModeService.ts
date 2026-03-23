@@ -21,6 +21,7 @@
 // See LICENSE file for details.
 
 import { logger } from '../../utils/logger.js';
+import { offlineLicense } from './OfflineLicenseService.js';
 
 // =============================================================================
 // ERRORS
@@ -278,6 +279,27 @@ class SovereignModeService {
         warnings.push(
           `SMTP_HOST='${smtpHost}' appears to be an external relay but DATACENDIA_EXTERNAL_NOTIFY=false. ` +
           `Email notifications will be blocked.`
+        );
+      }
+    }
+
+    // 6. Validate offline license file
+    const licenseStatus = await offlineLicense.validate();
+    if (licenseStatus.valid) {
+      logger.info(`[Sovereign] ✓ Offline license verified (${licenseStatus.payload?.tier} tier, ${licenseStatus.daysRemaining} days remaining)`);
+    } else if (licenseStatus.error) {
+      // In offline mode, a missing or invalid license is a warning, not a hard error.
+      // The platform defaults to pilot-tier access via requireLicense middleware.
+      // Defense/strategic customers MUST have a valid .dcl file.
+      const licenseFilePath = offlineLicense.findLicenseFile();
+      if (licenseFilePath) {
+        // File exists but is invalid — that's an error
+        errors.push(`Offline license file invalid: ${licenseStatus.error}`);
+      } else {
+        warnings.push(
+          'No offline license file found. Platform will default to pilot-tier access. ' +
+          'For enterprise/strategic features, place a signed .dcl file at /etc/datacendia/license.dcl ' +
+          'or set DATACENDIA_LICENSE_FILE.'
         );
       }
     }
