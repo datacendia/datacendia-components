@@ -14,6 +14,7 @@ import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
+import { sovereignMode } from '../services/sovereign/SovereignModeService.js';
 import crypto from 'crypto';
 
 const router = Router();
@@ -365,7 +366,27 @@ async function checkSystemStatuses() {
     latency: '5ms',
   });
 
+  // Sovereign mode status
+  const sovereign = sovereignMode.getStatus();
+  systems.push({
+    name: 'Sovereign Mode',
+    status: sovereign.onlineMode ? 'online' : 'offline (sovereign)',
+    latency: null,
+  });
+
   return systems;
 }
+
+/**
+ * GET /api/v1/health/sovereign
+ * Sovereign mode status — shows current toggle states and validation results.
+ * Used by admin UI and air-gapped deployment validation tooling.
+ */
+router.get('/sovereign', async (_req: Request, res: Response) => {
+  res.json({
+    success: true,
+    data: sovereignMode.getStatus(),
+  });
+});
 
 export default router;

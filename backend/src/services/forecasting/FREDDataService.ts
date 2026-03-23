@@ -17,6 +17,7 @@
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
+import { sovereignMode } from '../sovereign/SovereignModeService.js';
 
 // FRED API base URL (free, no key required for basic access)
 const FRED_API_BASE = 'https://api.stlouisfed.org/fred';
@@ -101,6 +102,12 @@ class FREDDataService {
     
     // If no API key, return sample data
     if (!this.apiKey) {
+      return this.getSampleData(seriesId);
+    }
+
+    // Sovereign mode: block external data feeds, return cached/sample data
+    if (!sovereignMode.isExternalDataEnabled) {
+      logger.info(`[FRED] External data disabled (sovereign mode) — returning sample data for ${seriesId}`);
       return this.getSampleData(seriesId);
     }
 

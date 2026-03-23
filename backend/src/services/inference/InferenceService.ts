@@ -34,6 +34,7 @@ import { TritonProvider } from './TritonProvider.js';
 import { NIMProvider } from './NIMProvider.js';
 import { OpenAIProvider } from './OpenAIProvider.js';
 import { AnthropicProvider } from './AnthropicProvider.js';
+import { sovereignMode } from '../sovereign/SovereignModeService.js';
 import type {
   IInferenceProvider, InferenceProviderType, InferenceChatMessage,
   InferenceOptions, InferenceModel, ProviderHealth,
@@ -72,16 +73,32 @@ class InferenceService implements IInferenceProvider {
         this.fallback = this.failoverEnabled ? ollamaProvider : null;
         logger.info('[Inference] Primary provider: NVIDIA NIM (self-hosted)');
         break;
-      case 'openai':
-        this.primary = new OpenAIProvider();
-        this.fallback = this.failoverEnabled ? ollamaProvider : null;
-        logger.info('[Inference] Primary provider: OpenAI (cloud)');
+      case 'openai': {
+        const guard = sovereignMode.guardCloudAI('openai');
+        if (guard === 'fallback-local') {
+          this.primary = ollamaProvider;
+          this.fallback = null;
+          logger.warn('[Inference] OpenAI blocked by sovereign mode → falling back to Ollama');
+        } else {
+          this.primary = new OpenAIProvider();
+          this.fallback = this.failoverEnabled ? ollamaProvider : null;
+          logger.info('[Inference] Primary provider: OpenAI (cloud)');
+        }
         break;
-      case 'anthropic':
-        this.primary = new AnthropicProvider();
-        this.fallback = this.failoverEnabled ? ollamaProvider : null;
-        logger.info('[Inference] Primary provider: Anthropic (cloud)');
+      }
+      case 'anthropic': {
+        const guard = sovereignMode.guardCloudAI('anthropic');
+        if (guard === 'fallback-local') {
+          this.primary = ollamaProvider;
+          this.fallback = null;
+          logger.warn('[Inference] Anthropic blocked by sovereign mode → falling back to Ollama');
+        } else {
+          this.primary = new AnthropicProvider();
+          this.fallback = this.failoverEnabled ? ollamaProvider : null;
+          logger.info('[Inference] Primary provider: Anthropic (cloud)');
+        }
         break;
+      }
       case 'ollama':
       default:
         this.primary = ollamaProvider;

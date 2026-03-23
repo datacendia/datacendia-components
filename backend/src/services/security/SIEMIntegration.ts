@@ -27,6 +27,7 @@
 import crypto from 'crypto';
 import { AuditEvent, AuditSeverity } from '../../security/audit.service.js';
 import { logger } from '../../utils/logger.js';
+import { sovereignMode } from '../sovereign/SovereignModeService.js';
 
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
@@ -227,6 +228,12 @@ class SIEMIntegrationService {
    * Stream an audit event to all configured SIEMs
    */
   async streamEvent(event: AuditEvent): Promise<void> {
+    // Sovereign mode: block external SIEM streaming, buffer locally only
+    if (!sovereignMode.isExternalNotifyEnabled) {
+      logger.debug('[SIEM] External notifications disabled (sovereign mode) — event buffered locally only');
+      return;
+    }
+
     const siemEvent = this.convertToSIEMEvent(event);
 
     for (const [configId, config] of this.configs) {

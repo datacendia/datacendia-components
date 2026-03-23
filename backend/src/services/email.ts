@@ -19,6 +19,7 @@
 import nodemailer from 'nodemailer';
 import { config } from '../config/index.js';
 import { logger } from '../utils/logger.js';
+import { sovereignMode } from './sovereign/SovereignModeService.js';
 
 // =============================================================================
 // TYPES
@@ -254,6 +255,12 @@ export const emailService = {
    * Send a raw email
    */
   async send(options: EmailOptions): Promise<boolean> {
+    // Sovereign mode: block external email when notifications are disabled
+    if (!sovereignMode.isExternalNotifyEnabled) {
+      logger.info(`[Email] External notifications disabled (sovereign mode) — email to ${options.to} suppressed`);
+      return true; // Return true so callers don't treat it as a failure
+    }
+
     // Local dev fallback: log to console when no SMTP configured
     if (!process.env.SMTP_HOST && process.env.NODE_ENV !== 'production') {
       logger.info('='.repeat(60));

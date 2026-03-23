@@ -1,4 +1,5 @@
 import { logger } from '../../utils/logger.js';
+import { sovereignMode } from '../sovereign/SovereignModeService.js';
 /**
  * CendiaGateway™ — Webhook Notification Service
  *
@@ -80,6 +81,12 @@ class WebhookNotifier {
    * Non-blocking — fires and forgets, logs errors.
    */
   async notify(payload: WebhookPayload): Promise<void> {
+    // Sovereign mode: block external webhook notifications
+    if (!sovereignMode.isExternalNotifyEnabled) {
+      logger.debug(`[CendiaGateway] External notifications disabled (sovereign mode) — webhook '${payload.event}' suppressed`);
+      return;
+    }
+
     const matchingWebhooks = this.webhooks.filter(w =>
       w.enabled &&
       w.events.includes(payload.event) &&
