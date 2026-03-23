@@ -71,6 +71,54 @@ export function setupMiddleware(app: Express): void {
     res.status(200).send('OK');
   });
 
+  // Public status page endpoint — no auth required (like /health)
+  app.get('/api/v1/public/status', async (_req, res) => {
+    try {
+      const { systemHealthService } = await import('../services/admin/SystemHealthService.js');
+      const services = await systemHealthService.checkAllServices();
+      const alerts = await systemHealthService.getActiveAlerts();
+
+      const components = services.map(s => ({
+        name: s.name,
+        status: s.status,
+        latency: s.latency,
+        description: s.details || undefined,
+      }));
+
+      let overall: 'operational' | 'degraded' | 'major_outage' = 'operational';
+      if (services.some(s => s.status === 'down')) {
+        overall = 'major_outage';
+      } else if (services.some(s => s.status === 'degraded')) {
+        overall = 'degraded';
+      }
+
+      const activeIncidents = alerts
+        .filter(a => !a.resolvedAt)
+        .map(a => ({
+          severity: a.severity,
+          service: a.service,
+          message: a.message,
+          createdAt: a.createdAt,
+        }));
+
+      res.json({
+        status: overall,
+        timestamp: new Date().toISOString(),
+        uptime: process.uptime(),
+        version: process.env.npm_package_version || '1.0.0',
+        components,
+        activeIncidents,
+      });
+    } catch {
+      res.status(503).json({
+        status: 'major_outage',
+        timestamp: new Date().toISOString(),
+        components: [],
+        activeIncidents: [],
+      });
+    }
+  });
+
   // =========================================================================
   // CORRELATION ID — Distributed tracing (must be early in pipeline)
   // =========================================================================

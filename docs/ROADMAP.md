@@ -170,9 +170,10 @@
 
 | Item | Description | Effort | Work Type |
 |------|-------------|--------|-----------|
-| **MSA / EULA template** | Master Service Agreement for enterprise customers — legal teams will redline this | 1 day + lawyer | 📋 Legal |
+| ~~**MSA / EULA template**~~ | ~~7-document suite in `docs/sales/datacendia-software-licensing.md` — MSA, ToS, SLA, AUP, DPA, EULA, Order Form~~ | ~~1 day~~ | ✅ Done |
 | **SOC 2 readiness checklist** | Document which SOC 2 controls are already satisfied (logging, RBAC, encryption, audit trail) | 1 day | � Documentation |
 | **Onboarding wizard** | First-run setup: connect AI providers, set policies, invite users, pick tier | 1 week | 🔨 Build new |
+| ~~**Public status page**~~ | ~~`/status` — real-time component health, active incidents, auto-refresh, unauthenticated~~ | ~~2 hours~~ | ✅ Done |
 | ~~**Demo URL verification**~~ | ~~app.datacendia.com live — HTTPS, OG tags, structured data, 26-lang hreflang, React SPA~~ | ~~1 day~~ | ✅ Done |
 | ~~**Tier licensing enforcement**~~ | ~~`requireLicense` middleware with pillar-based gating, Redis caching, DB fallback~~ | ~~3 days~~ | ✅ Done |
 | ~~**Offline license (air-gap)**~~ | ~~Ed25519 signed .dcl files, CLI tool, hardware binding, SovereignMode integration~~ | ~~3 days~~ | ✅ Done |

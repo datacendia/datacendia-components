@@ -65,6 +65,7 @@ const HonestyMatricesPage = lazy(() => import('../pages/public/HonestyMatricesPa
 const SovereignEnterpriseIntelligencePage = lazy(
   () => import('../pages/public/SovereignEnterpriseIntelligencePage')
 );
+const StatusPage = lazy(() => import('../pages/public/StatusPage'));
 
 // Legal
 const PrivacyPolicyPage = lazy(() =>
@@ -130,6 +131,7 @@ export const publicRoutes: RouteObject[] = [
   { path: '/terms', element: w(TermsPage) },
   { path: '/terms-of-service', element: w(TermsPage) },
   { path: '/security', element: w(SecurityPage) },
+  { path: '/status', element: w(StatusPage) },
   { path: '/cookies', element: w(CookiePolicyPage) },
   { path: '/cookie-policy', element: w(CookiePolicyPage) },
   { path: '/docs', element: w(DocsPage) },
