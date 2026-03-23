@@ -82,25 +82,57 @@ Every finding above came from one of three agent interaction patterns:
 
 This structure — not the technology, but the *pattern of how insights emerge* from multi-agent deliberation — is why a council of specialized agents produces different results than a single model with a longer prompt. The single model has all the knowledge. It lacks the adversarial structure that forces knowledge to be applied from competing perspectives.
 
-## Community vs Enterprise
+## Pricing & Tiers
 
-| Capability | Community (Open Source) | Enterprise |
-|-----------|----------------------|-----------|
-| **Council Engine** (multi-agent deliberation) | ✅ | ✅ |
-| **Decision Ledger** (immutable, Merkle-signed) | ✅ | ✅ |
-| **Deliberation API** | ✅ | ✅ |
-| **Basic Trust Layer** (RBAC, audit, signing) | ✅ | ✅ |
-| **Financial Services agents** (basic) | ✅ | ✅ Full (SR 11-7, FRTB, BCBS 239) |
-| **Docker Compose local deployment** | ✅ | ✅ |
-| **29 industry verticals** | Lite | Full (12+ agents per vertical) |
-| **Sovereign Services** (Collapse, Sanctuary, ShadowOps) | — | ✅ |
-| **Post-Quantum KMS** (Dilithium, SPHINCS+) | — | ✅ |
-| **Zero-Knowledge Proofs** | — | ✅ |
-| **CendiaInsure™** (per-decision liability coverage) | — | ✅ |
-| **Ghost Board™** (AI board simulation) | — | ✅ |
-| **Enterprise SSO** (Keycloak) | — | ✅ |
-| **Managed cloud hosting** | — | ✅ |
-| **White-label licensing** | — | ✅ |
+This repository (**datacendia-components**) contains all paid tiers. The free Community tier is [datacendia-core](https://github.com/datacendia/datacendia-core) (Apache 2.0).
+
+| Tier | Price | What You're Actually Buying |
+|------|-------|----------------------------|
+| **Community** | Free | A working AI governance platform you can try. Self-hosted. No SLA. No support. Regex PII. Basic Council. Enough to demo to your CISO. |
+| **Pilot** | $50K/yr | **We run it for you.** Managed deployment, 99.5% SLA, priority support, full deliberation engine, 90-day money-back guarantee. |
+| **Foundation** | $150K–$500K/yr | **Production compliance.** Full compliance engines (Basel III, EU AI Act, cross-jurisdiction), ML-based PII (Presidio), Echo/Gnosis evidence, OmniTranslate (26 languages), expanded verticals. |
+| **Enterprise** | $500K–$1.5M/yr | **Advanced risk.** COLLAPSE stress testing, 12 adversarial agents, Shadow Council, sovereign LLM providers, SSO/MFA, SIEM, ZK proofs, multi-tenant. |
+| **Strategic** | $1.5M+/yr | **Nation-scale.** Air-gapped, data diode, TPM attestation, federated mesh, post-quantum crypto, defense-grade, portable instances. |
+
+### Feature Comparison
+
+| Capability | Community | Pilot | Foundation | Enterprise | Strategic |
+|-----------|:---------:|:-----:|:----------:|:----------:|:---------:|
+| Council Engine (multi-agent deliberation) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Immutable Audit Ledger (Merkle-signed) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| CendiaGateway (AI governance proxy) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| CendiaReplay (decision playback) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| DCII Services (Truth, Notary, Witness) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| PII Detection | Regex | Regex | ML (Presidio) | ML + Custom | ML + Custom |
+| Industry Verticals | 18 basic | 18 basic | 30 expanded | 30 full | 30 full + custom |
+| Managed Platform & SLA | — | ✅ 99.5% | ✅ 99.9% | ✅ 99.95% | ✅ Custom |
+| Compliance Engines (Basel III, EU AI Act) | — | — | ✅ | ✅ | ✅ |
+| Echo/Gnosis Evidence & Audit Replay | — | — | ✅ | ✅ | ✅ |
+| OmniTranslate (26 languages) | — | — | ✅ | ✅ | ✅ |
+| COLLAPSE Stress Testing | — | — | — | ✅ | ✅ |
+| Shadow Council & Red Team | — | — | — | ✅ | ✅ |
+| SSO/MFA (Keycloak) | — | — | — | ✅ | ✅ |
+| SIEM Integration (Splunk, Sentinel) | — | — | — | ✅ | ✅ |
+| Sovereign LLM Providers (offline) | — | — | — | ✅ | ✅ |
+| Sovereign Online Toggle | — | — | — | ✅ | ✅ |
+| Zero-Knowledge Proofs | — | — | — | ✅ | ✅ |
+| Air-Gapped Deployment | — | — | — | — | ✅ |
+| Data Diode & TPM Attestation | — | — | — | — | ✅ |
+| Federated Mesh (multi-org) | — | — | — | — | ✅ |
+| Post-Quantum Cryptography | — | — | — | — | ✅ |
+
+### Sovereign Online Toggle (Enterprise+)
+
+Enterprise and Strategic tiers support fully sovereign/air-gapped deployments. A single environment variable disables all external cloud services:
+
+```bash
+DATACENDIA_ONLINE_MODE=false     # Master toggle — disables all cloud AI + external services
+DATACENDIA_CLOUD_AI_FALLBACK=error  # 'error' (auditor-safe default) or 'local' (silent Ollama fallback)
+```
+
+When offline: cloud AI → hard 503 or local fallback, external data → cached datasets, notifications → internal event bus only. System validates at startup that local LLM providers are configured — the passing validation is an audit artifact.
+
+See `GET /api/v1/health/sovereign` for real-time sovereign mode status.
 
 ## 🚀 Quick Start
 

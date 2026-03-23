@@ -943,6 +943,135 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
 });
 
 // =============================================================================
+// DATABASE FEATURE FLAGS — Persistent flag management for admin UI
+// =============================================================================
+
+const createFeatureFlagSchema = z.object({
+  key: z.string().min(1).max(255).regex(/^[a-z0-9_.-]+$/, 'Key must be lowercase alphanumeric with dots, hyphens, or underscores'),
+  name: z.string().min(1).max(255),
+  description: z.string().max(1000).optional(),
+  enabled: z.boolean().optional().default(false),
+  category: z.string().max(100).optional(),
+  environment: z.string().max(50).optional(),
+  rolloutPercentage: z.number().min(0).max(100).optional(),
+});
+
+const updateFeatureFlagSchema = z.object({
+  name: z.string().min(1).max(255).optional(),
+  description: z.string().max(1000).optional(),
+  enabled: z.boolean().optional(),
+  value: z.any().optional(),
+  rolloutPercentage: z.number().min(0).max(100).optional(),
+}).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
+
+router.get('/feature-flags', async (req: Request, res: Response) => {
+  try {
+    const { category, enabled } = req.query;
+    const flags = await featureControlService.listDbFeatureFlags({
+      category: category as string,
+      enabled: enabled === 'true' ? true : enabled === 'false' ? false : undefined,
+    });
+    res.json({ flags, total: flags.length });
+  } catch (error) {
+    logger.error('Admin API: List feature flags error', error);
+    res.status(500).json({ error: 'Failed to list feature flags' });
+  }
+});
+
+router.get('/feature-flags/:key', async (req: Request, res: Response) => {
+  try {
+    const flag = await featureControlService.getDbFeatureFlag(req.params.key);
+    if (!flag) {
+      return res.status(404).json({ error: 'Feature flag not found' });
+    }
+    res.json(flag);
+  } catch (error) {
+    logger.error('Admin API: Get feature flag error', error);
+    res.status(500).json({ error: 'Failed to get feature flag' });
+  }
+});
+
+router.post('/feature-flags', async (req: Request, res: Response) => {
+  try {
+    const validated = createFeatureFlagSchema.parse(req.body);
+    const flag = await featureControlService.createDbFeatureFlag(validated);
+    res.status(201).json(flag);
+  } catch (error) {
+    logger.error('Admin API: Create feature flag error', error);
+    res.status(500).json({ error: 'Failed to create feature flag' });
+  }
+});
+
+router.patch('/feature-flags/:key', async (req: Request, res: Response) => {
+  try {
+    const validated = updateFeatureFlagSchema.parse(req.body);
+    const flag = await featureControlService.updateDbFeatureFlag(req.params.key, validated);
+    if (!flag) {
+      return res.status(404).json({ error: 'Feature flag not found' });
+    }
+    res.json(flag);
+  } catch (error) {
+    logger.error('Admin API: Update feature flag error', error);
+    res.status(500).json({ error: 'Failed to update feature flag' });
+  }
+});
+
+router.post('/feature-flags/:key/toggle', async (req: Request, res: Response) => {
+  try {
+    const { enabled } = z.object({ enabled: z.boolean() }).parse(req.body);
+    const flag = await featureControlService.toggleDbFeatureFlag(req.params.key, enabled);
+    if (!flag) {
+      return res.status(404).json({ error: 'Feature flag not found' });
+    }
+    res.json(flag);
+  } catch (error) {
+    logger.error('Admin API: Toggle feature flag error', error);
+    res.status(500).json({ error: 'Failed to toggle feature flag' });
+  }
+});
+
+router.delete('/feature-flags/:key', async (req: Request, res: Response) => {
+  try {
+    const deleted = await featureControlService.deleteDbFeatureFlag(req.params.key);
+    if (!deleted) {
+      return res.status(404).json({ error: 'Feature flag not found' });
+    }
+    res.json({ success: true });
+  } catch (error) {
+    logger.error('Admin API: Delete feature flag error', error);
+    res.status(500).json({ error: 'Failed to delete feature flag' });
+  }
+});
+
+// Tenant-specific feature flag overrides
+router.get('/tenants/:tenantId/feature-flags', async (req: Request, res: Response) => {
+  try {
+    const flags = await featureControlService.getTenantFeatureFlags(req.params.tenantId);
+    const flagsObj = Object.fromEntries(flags);
+    res.json({ tenantId: req.params.tenantId, flags: flagsObj, total: flags.size });
+  } catch (error) {
+    logger.error('Admin API: Get tenant feature flags error', error);
+    res.status(500).json({ error: 'Failed to get tenant feature flags' });
+  }
+});
+
+router.put('/tenants/:tenantId/feature-flags/:key', async (req: Request, res: Response) => {
+  try {
+    const { enabled } = z.object({ enabled: z.boolean() }).parse(req.body);
+    const success = await featureControlService.setTenantFeatureFlag(
+      req.params.tenantId, req.params.key, enabled
+    );
+    if (!success) {
+      return res.status(404).json({ error: 'Feature flag not found' });
+    }
+    res.json({ success: true, tenantId: req.params.tenantId, key: req.params.key, enabled });
+  } catch (error) {
+    logger.error('Admin API: Set tenant feature flag error', error);
+    res.status(500).json({ error: 'Failed to set tenant feature flag' });
+  }
+});
+
+// =============================================================================
 // ROUTES & SITEMAP
 // =============================================================================
 

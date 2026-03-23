@@ -1,6 +1,7 @@
 # 🔒 Datacendia - Air-Gapped (Offline) Deployment Guide
 
 > For sovereign deployments on isolated networks with no internet access.
+> **Tier:** Enterprise ($500K–$1.5M/yr) and Strategic ($1.5M+/yr)
 
 ---
 
@@ -11,6 +12,62 @@ This guide covers deploying Datacendia on air-gapped infrastructure where:
 - ❌ No cloud dependencies  
 - ✅ All software runs on-premise
 - ✅ Full data sovereignty
+
+---
+
+## Sovereign Online Toggle (Required)
+
+Before deploying air-gapped, configure the **sovereign online toggle** in your `.env`:
+
+```bash
+# REQUIRED for air-gapped deployment
+DATACENDIA_ONLINE_MODE=false
+
+# Choose fallback behaviour when cloud AI is invoked:
+#   error (default) — Hard HTTP 503. Auditor-safe. Forces explicit model mapping.
+#   local           — Silent fallback to Ollama/NIM/Triton. Logs warning.
+DATACENDIA_CLOUD_AI_FALLBACK=error
+
+# These are automatically set to false when ONLINE_MODE=false:
+# DATACENDIA_CLOUD_AI=false
+# DATACENDIA_EXTERNAL_DATA=false
+# DATACENDIA_EXTERNAL_NOTIFY=false
+```
+
+### Startup Validation
+
+When `DATACENDIA_ONLINE_MODE=false`, the system validates at startup:
+
+1. **At least one local LLM provider is configured** (Ollama, NIM, or Triton)
+2. **INFERENCE_PROVIDER is set to a local provider** (not `openai` or `anthropic`)
+3. **Local provider is reachable** (health check)
+4. **SMTP is local or disabled** (not pointing to external relay)
+
+If validation fails in production, the system **refuses to start** with a clear error listing what needs to be fixed. The passing validation log is an **audit artifact**.
+
+### Verify Sovereign Mode
+
+After deployment, verify sovereign mode is active:
+
+```bash
+curl http://localhost:3001/api/v1/health/sovereign
+```
+
+Expected response:
+```json
+{
+  "success": true,
+  "data": {
+    "onlineMode": false,
+    "cloudAI": false,
+    "cloudAIFallback": "error",
+    "externalData": false,
+    "externalNotify": false,
+    "validationErrors": [],
+    "validatedAt": "2026-03-22T..."
+  }
+}
+```
 
 ---
 

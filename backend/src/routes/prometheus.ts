@@ -19,6 +19,7 @@
 import { Router, Request, Response } from 'express';
 import { prisma } from '../config/database.js';
 import os from 'os';
+import { sovereignMode } from '../services/sovereign/SovereignModeService.js';
 
 const router = Router();
 
@@ -121,6 +122,45 @@ router.get('/', async (_req: Request, res: Response) => {
     lines.push('# TYPE datacendia_service_up gauge');
     lines.push('datacendia_service_up{service="api"} 1');
     lines.push('datacendia_service_up{service="database"} 1');
+
+    // Sovereign mode metrics
+    const sovStatus = sovereignMode.getStatus();
+    lines.push('# HELP datacendia_sovereign_online_mode Sovereign online mode (1=online, 0=offline/sovereign)');
+    lines.push('# TYPE datacendia_sovereign_online_mode gauge');
+    lines.push(`datacendia_sovereign_online_mode ${sovStatus.onlineMode ? 1 : 0}`);
+    lines.push('# HELP datacendia_sovereign_cloud_ai Cloud AI enabled (1=yes, 0=no)');
+    lines.push('# TYPE datacendia_sovereign_cloud_ai gauge');
+    lines.push(`datacendia_sovereign_cloud_ai ${sovStatus.cloudAI ? 1 : 0}`);
+    lines.push('# HELP datacendia_sovereign_external_data External data feeds enabled');
+    lines.push('# TYPE datacendia_sovereign_external_data gauge');
+    lines.push(`datacendia_sovereign_external_data ${sovStatus.externalData ? 1 : 0}`);
+    lines.push('# HELP datacendia_sovereign_external_notify External notifications enabled');
+    lines.push('# TYPE datacendia_sovereign_external_notify gauge');
+    lines.push(`datacendia_sovereign_external_notify ${sovStatus.externalNotify ? 1 : 0}`);
+
+    // Business metrics (best-effort from database)
+    try {
+      const [tenantCount, userCount, deliberationCount, activeFlags] = await Promise.all([
+        prisma.tenants.count().catch(() => 0),
+        prisma.users.count().catch(() => 0),
+        prisma.deliberations.count().catch(() => 0),
+        prisma.feature_flags.count({ where: { enabled: true } }).catch(() => 0),
+      ]);
+      lines.push('# HELP datacendia_tenants_total Total number of tenants');
+      lines.push('# TYPE datacendia_tenants_total gauge');
+      lines.push(`datacendia_tenants_total ${tenantCount}`);
+      lines.push('# HELP datacendia_users_total Total number of users');
+      lines.push('# TYPE datacendia_users_total gauge');
+      lines.push(`datacendia_users_total ${userCount}`);
+      lines.push('# HELP datacendia_deliberations_total Total deliberations');
+      lines.push('# TYPE datacendia_deliberations_total gauge');
+      lines.push(`datacendia_deliberations_total ${deliberationCount}`);
+      lines.push('# HELP datacendia_feature_flags_active Active feature flags');
+      lines.push('# TYPE datacendia_feature_flags_active gauge');
+      lines.push(`datacendia_feature_flags_active ${activeFlags}`);
+    } catch {
+      // Business metrics are best-effort
+    }
 
     res.set('Content-Type', 'text/plain; version=0.0.4');
     res.send(lines.join('\n'));

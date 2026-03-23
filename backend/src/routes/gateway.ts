@@ -38,6 +38,7 @@ import crypto from 'crypto';
 import { Router, Request, Response } from 'express';
 import CendiaGatewayService from '../services/gateway/CendiaGatewayService.js';
 import { scanForPII } from '../services/gateway/PIIDetector.js';
+import { presidioPIIService } from '../services/gateway/PresidioPIIService.js';
 import ModelRouter from '../services/gateway/ModelRouter.js';
 import { gatewayProxyServer } from '../services/gateway/GatewayProxyServer.js';
 import ShadowAIDetector from '../services/gateway/ShadowAIDetector.js';
@@ -489,6 +490,52 @@ router.post('/manifest', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
+// GOVERNANCE RECEIPT EXPORT — HTML/CSV/JSON formats
+// =============================================================================
+
+router.post('/governance-receipt/export', async (req: Request, res: Response) => {
+  try {
+    const gateway = getGateway();
+    const userInfo = extractUserInfo(req);
+    const format = (req.body.format || 'html').toLowerCase();
+
+    // Generate manifest first (or accept pre-generated manifest in body)
+    let manifest = req.body.manifest;
+    if (!manifest) {
+      manifest = await gateway.generateManifest({
+        organizationId: req.body.organizationId || userInfo.organizationId,
+        organizationName: req.body.organizationName || 'Datacendia',
+        periodStart: new Date(req.body.periodStart || Date.now() - 90 * 24 * 60 * 60 * 1000),
+        periodEnd: new Date(req.body.periodEnd || Date.now()),
+        generatedBy: userInfo.userEmail,
+      });
+    }
+
+    switch (format) {
+      case 'html': {
+        const html = manifestExporter.toHTML(manifest);
+        res.set('Content-Type', 'text/html');
+        res.set('Content-Disposition', 'attachment; filename="governance-receipt.html"');
+        return res.send(html);
+      }
+      case 'csv': {
+        const csv = manifestExporter.toCSV(manifest);
+        res.set('Content-Type', 'text/csv');
+        res.set('Content-Disposition', 'attachment; filename="governance-receipt.csv"');
+        return res.send(csv);
+      }
+      case 'json':
+      default: {
+        res.set('Content-Disposition', 'attachment; filename="governance-receipt.json"');
+        return res.json(manifest);
+      }
+    }
+  } catch (err: unknown) {
+    return res.status(500).json({ error: (err as Error).message });
+  }
+});
+
+// =============================================================================
 // PII DETECTION TEST
 // =============================================================================
 
@@ -499,7 +546,8 @@ router.post('/test-pii', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'text field is required' });
     }
 
-    const result = scanForPII(text);
+    // Use Presidio ML engine when available, falls back to regex automatically
+    const result = await presidioPIIService.analyze(text);
 
     return res.json({
       hasPII: result.hasPII,
@@ -512,6 +560,7 @@ router.post('/test-pii', async (req: Request, res: Response) => {
       })),
       redactedText: result.redactedText,
       scanDurationMs: result.scanDurationMs,
+      engine: result.engine,
     });
   } catch (err: unknown) {
     return res.status(500).json({ error: (err as Error).message });
@@ -920,7 +969,8 @@ router.post('/scan', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'text is required' });
     }
 
-    const piiResult = scanForPII(text);
+    // Use Presidio ML engine when available, falls back to regex automatically
+    const piiResult = await presidioPIIService.analyze(text);
 
     // Policy evaluation: block critical PII
     const criticalTypes = ['ssn', 'credit_card', 'medical_record', 'bank_account', 'passport'];

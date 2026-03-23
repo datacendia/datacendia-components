@@ -36,14 +36,14 @@ router.use('/carbon-aware', carbonAwareRoutes);
 router.use('/hr', hrRoutes);
 router.use('/salary', salaryRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/sso', () => import('../sso.js')],
-  ['/enterprise', () => import('../enterprise.js')],
-  ['/cascade', () => import('../cascade.js')],
-  ['/strategic', () => import('../strategic.js')],
-  ['/enterprise-connectors', () => import('../enterprise-connectors.js')],
-  ['/ai-insurance', () => import('../ai-insurance.js')],
+  ['/sso', () => import('../sso.js'), 'operate'],
+  ['/enterprise', () => import('../enterprise.js'), 'operate'],
+  ['/cascade', () => import('../cascade.js'), 'operate'],
+  ['/strategic', () => import('../strategic.js'), 'frontier'],
+  ['/enterprise-connectors', () => import('../enterprise-connectors.js'), 'operate'],
+  ['/ai-insurance', () => import('../ai-insurance.js'), 'comply'],
 ]);
 
 export default router;

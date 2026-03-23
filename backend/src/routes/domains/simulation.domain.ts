@@ -18,10 +18,11 @@ import { mountEnterpriseRoutes } from './_enterprise.js';
 
 const router = Router();
 
+// Strategic tier routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/sgas', () => import('../sgas.js')],
-  ['/scge', () => import('../scge.js')],
-  ['/collapse', () => import('../collapse.js')],
+  ['/sgas', () => import('../sgas.js'), 'sgas'],
+  ['/scge', () => import('../scge.js'), 'sgas'],
+  ['/collapse', () => import('../collapse.js'), 'collapse'],
 ]);
 
 export default router;

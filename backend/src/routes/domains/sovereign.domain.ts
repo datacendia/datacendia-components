@@ -28,14 +28,14 @@ router.use('/evidence', evidenceRoutes);
 router.use('/mesh', meshRoutes);
 router.use('/evidence-vault', evidenceVaultRoutes);
 
-// Enterprise routes
+// Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [
-  ['/sovereign', () => import('../sovereign-organs.js')],
-  ['/sovereign-arch', () => import('../sovereign-arch.js')],
-  ['/vault', () => import('../vault.js')],
-  ['/eternal', () => import('../eternal.js')],
-  ['/symbiont', () => import('../symbiont.js')],
-  ['/clamav', () => import('../clamav.js')],
+  ['/sovereign', () => import('../sovereign-organs.js'), 'sovereign'],
+  ['/sovereign-arch', () => import('../sovereign-arch.js'), 'sovereign'],
+  ['/vault', () => import('../vault.js'), 'sovereign'],
+  ['/eternal', () => import('../eternal.js'), 'sovereign'],
+  ['/symbiont', () => import('../symbiont.js'), 'operate'],
+  ['/clamav', () => import('../clamav.js'), 'sovereign'],
 ]);
 
 export default router;

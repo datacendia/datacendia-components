@@ -52,6 +52,7 @@ import { apiVersionHeaders } from '../middleware/apiVersion.js';
 import { createHealthCheck } from '../middleware/healthCheck.js';
 import { correlationId } from '../middleware/correlationId.js';
 import { requireJsonBody } from '../middleware/bodyValidation.js';
+import { trackRequest } from '../routes/prometheus.js';
 
 /**
  * Configure all Express middleware in the correct order.
@@ -144,6 +145,23 @@ export function setupMiddleware(app: Express): void {
   app.use(cookieParser());
   app.use(compression());
   app.use(requestLogger);
+
+  // =========================================================================
+  // PROMETHEUS METRICS TRACKING — Record request method, path, status, latency
+  // =========================================================================
+  app.use((req, res, next) => {
+    const start = Date.now();
+    res.on('finish', () => {
+      const duration = Date.now() - start;
+      // Normalize path to avoid cardinality explosion (strip IDs/UUIDs)
+      const normalizedPath = req.route?.path
+        || req.path.replace(/\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/gi, '/:id')
+                   .replace(/\/\d+/g, '/:id');
+      trackRequest(req.method, normalizedPath, res.statusCode, duration);
+    });
+    next();
+  });
+
   app.use('/api/', requireJsonBody);
 
   // =========================================================================
