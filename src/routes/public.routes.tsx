@@ -72,6 +72,13 @@ const PrivacyPolicyPage = lazy(() =>
   import('../pages/legal').then((m) => ({ default: m.PrivacyPolicyPage }))
 );
 const TermsPage = lazy(() => import('../pages/legal').then((m) => ({ default: m.TermsPage })));
+const SubprocessorsPage = lazy(() =>
+  import('../pages/legal').then((m) => ({ default: m.SubprocessorsPage }))
+);
+const FAQPage = lazy(() => import('../pages/legal').then((m) => ({ default: m.FAQPage })));
+const AIDisclosurePage = lazy(() =>
+  import('../pages/legal').then((m) => ({ default: m.AIDisclosurePage }))
+);
 
 // Pricing
 const PricingPage = lazy(() => import('../pages/pricing').then((m) => ({ default: m.PricingPage })));
@@ -134,6 +141,9 @@ export const publicRoutes: RouteObject[] = [
   { path: '/status', element: w(StatusPage) },
   { path: '/cookies', element: w(CookiePolicyPage) },
   { path: '/cookie-policy', element: w(CookiePolicyPage) },
+  { path: '/subprocessors', element: w(SubprocessorsPage) },
+  { path: '/faq', element: w(FAQPage) },
+  { path: '/ai-disclosure', element: w(AIDisclosurePage) },
   { path: '/docs', element: w(DocsPage) },
   { path: '/documentation', element: w(DocsPage) },
   { path: '/api', element: w(DocsPage) },

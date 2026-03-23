@@ -15,3 +15,6 @@
 
 export { PrivacyPolicyPage } from './PrivacyPolicyPage';
 export { TermsPage } from './TermsPage';
+export { SubprocessorsPage } from './SubprocessorsPage';
+export { FAQPage } from './FAQPage';
+export { AIDisclosurePage } from './AIDisclosurePage';

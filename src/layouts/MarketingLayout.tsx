@@ -19,6 +19,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { ArrowRight, Menu, X } from 'lucide-react';
+import { CookieConsent } from '../components/common/CookieConsent';
 import { deterministicFloat, deterministicInt } from '../lib/deterministic';
 
 // =============================================================================
@@ -337,10 +338,22 @@ export const MarketingLayout: React.FC = () => {
                   Terms
                 </Link>
                 <Link
+                  to="/security"
+                  className="block text-sm text-gray-600 hover:text-white transition-colors"
+                >
+                  Security
+                </Link>
+                <Link
                   to="/cookies"
                   className="block text-sm text-gray-600 hover:text-white transition-colors"
                 >
                   Cookies
+                </Link>
+                <Link
+                  to="/subprocessors"
+                  className="block text-sm text-gray-600 hover:text-white transition-colors"
+                >
+                  Subprocessors
                 </Link>
               </div>
             </div>
@@ -356,6 +369,8 @@ export const MarketingLayout: React.FC = () => {
           </div>
         </div>
       </footer>
+
+      <CookieConsent />
     </div>
   );
 };

@@ -71,6 +71,18 @@ export function setupMiddleware(app: Express): void {
     res.status(200).send('OK');
   });
 
+  // RFC 9116 security.txt — must be unauthenticated
+  app.get('/.well-known/security.txt', (_req, res) => {
+    res.type('text/plain').send(
+      `Contact: mailto:security@datacendia.com\n` +
+      `Expires: 2027-03-31T23:59:00.000Z\n` +
+      `Preferred-Languages: en, es\n` +
+      `Canonical: https://app.datacendia.com/.well-known/security.txt\n` +
+      `Policy: https://datacendia.com/security\n` +
+      `Hiring: https://datacendia.com/careers\n`
+    );
+  });
+
   // Public status page endpoint — no auth required (like /health)
   app.get('/api/v1/public/status', async (_req, res) => {
     try {
