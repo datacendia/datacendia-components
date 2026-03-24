@@ -76,7 +76,7 @@ docker compose -f docker-compose.demo.yml up
 4. **2:30-3:00** — Export regulator evidence packet (one-click)
 
 ### 15-Minute Technical Demo
-1. **0:00-2:00** — Dashboard overview + platform scale (344 services, 205K tests)
+1. **0:00-2:00** — Dashboard overview + platform scale (456 services, 205K tests)
 2. **2:00-5:00** — Run financial scenario with full deliberation
 3. **5:00-8:00** — Show decision packet internals (Merkle tree, signatures, reasoning chains)
 4. **8:00-10:00** — Show compliance engine (Basel III ratios, EU AI Act classification)

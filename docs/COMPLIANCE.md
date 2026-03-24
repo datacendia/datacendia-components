@@ -2,9 +2,10 @@
 
 ## Military & Government Grade Security Implementation
 
-**Last Updated:** November 29, 2025  
+**Last Updated:** March 24, 2026  
 **Classification:** INTERNAL USE ONLY  
-**Compliance Officer:** [TBD]
+**Compliance Officer:** [TBD]  
+**See Also:** `docs/legal/` — Privacy Policy, Cookie Policy, Subprocessors, VDP, SOC 2 Checklist, IRP, FAQ, AI Disclosure
 
 ---
 

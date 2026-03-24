@@ -66,7 +66,7 @@ Datacendia is **Decision Crisis Immunization Infrastructure (DCII)** — the gov
 
 ## SLIDE 8: Team
 - **Stuart Rainey** — Founder & CEO. Enterprise software background. Solo founder building entire platform.
-- **Technical depth**: 344 services, 190 Prisma models, 8 AI model slots, 9 enterprise infrastructure integrations — all built and working.
+- **Technical depth**: 456 services, 194 Prisma models, 8 AI model slots, 9 enterprise infrastructure integrations — all built and working.
 
 ## SLIDE 9: The Ask
 **$1.5M Pre-Seed** at $7M pre-money ($8.5M post-money, **17.6% dilution**)
@@ -120,7 +120,7 @@ Each vertical: separate buying center, separate budget, separate regulatory driv
 No direct competitor. Adjacent players: Palantir (analytics, not governance), IBM OpenPages (GRC, not AI-native), OneTrust (privacy, not decision governance), Relativity (legal, not cross-industry).
 
 ## SLIDE 8: $1.5M Pre-Seed at $7M pre-money (17.6% dilution) → $500K ARR in 18 months
-## SLIDE 9: Team + Technical Depth (344 services, sole founder)
+## SLIDE 9: Team + Technical Depth (456 services, sole founder)
 ## SLIDE 10: Contact — Stuart Rainey — stuart.rainey@datacendia.com
 
 ---
@@ -136,7 +136,7 @@ Accel's enterprise portfolio (Atlassian, Slack, CrowdStrike) shows: horizontal i
 Not a dashboard. Not a chatbot wrapper. **Infrastructure**: multi-agent deliberation + immutable proof + 30 vertical schemas + sovereign deployment.
 
 ## SLIDE 3: Why This Team
-Solo founder who built 344 services, 190 database models, 200 pages, 205,754 tests — all working. This is a technical founder who can ship. The platform exists today, not as a pitch deck.
+Solo founder who built 456 services, 194 database models, 209 pages, 205,754 tests — all working. This is a technical founder who can ship. The platform exists today, not as a pitch deck.
 
 ## SLIDE 4: GTM — Top-Down Enterprise + Channel
 CISO/GC/CCO buyer. $250K-$1.5M ACV. Big 4 white-label channel. Defense prime channel. AWS/Azure marketplace.
@@ -152,7 +152,7 @@ CISO/GC/CCO buyer. $250K-$1.5M ACV. Big 4 white-label channel. Defense prime cha
 # ═══════════════════════════════════════════════════════════════
 
 ## SLIDE 1: Growth Equity Thesis — AI Governance at Scale
-GA invests in category leaders at inflection points. AI governance is at the regulatory inflection point (EU AI Act Aug 2025). Datacendia is the most technically complete platform in the category — 344 services, 30 verticals, 205K+ tests.
+GA invests in category leaders at inflection points. AI governance is at the regulatory inflection point (EU AI Act Aug 2025). Datacendia is the most technically complete platform in the category — 456 services, 30 verticals, 205K+ tests.
 ## SLIDE 2: The Revenue Model
 Annual licenses, not SaaS. $250K-$1.5M ACV. 85%+ gross margin. High switching costs (decision data lock-in). Net dollar retention target: 130%+ (land & expand across verticals).
 
@@ -201,7 +201,7 @@ Deploy Datacendia across KKR portfolio companies as a platform standard:
 Insight's playbook: identify category-defining software, add ScaleUp operating resources, accelerate to market leadership. AI governance is a new category. Datacendia is the most technically complete entrant.
 
 ## SLIDE 2: Technical Completeness (Already Built)
-344 services | 159 routes | 200 pages | 30 verticals | 190 DB models | 205,754 tests | 8 AI model slots | 9 enterprise integrations | Post-quantum crypto | Air-gapped deployment. **This isn't a prototype. It's a platform.**
+456 services | 160 routes | 209 pages | 30 verticals | 194 DB models | 205,754 tests | 8 AI model slots | 9 enterprise integrations | Post-quantum crypto | Air-gapped deployment. **This isn't a prototype. It's a platform.**
 
 ## SLIDE 3: ScaleUp Opportunity
 What Insight adds: enterprise sales team, customer success, GTM playbook, talent acquisition. What Datacendia has: the product. **This is a product-complete, GTM-incomplete opportunity.**

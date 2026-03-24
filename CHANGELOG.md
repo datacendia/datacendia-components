@@ -7,6 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added — 2026-03-24 — Enterprise Compliance Documentation + Platform Metrics Update
+
+#### Enterprise Legal Documentation Suite (`docs/legal/`)
+- **Privacy Policy** — `PRIVACY_POLICY.md`: GDPR/CCPA compliant, covers cloud + sovereign deployments
+- **Cookie Policy** — `COOKIE_POLICY.md`: Cookie types, consent mechanisms, self-hosted notes
+- **Subprocessor List** — `SUBPROCESSORS.md`: Infrastructure (Railway), AI, payment, monitoring providers
+- **Vulnerability Disclosure Policy** — `VULNERABILITY_DISCLOSURE.md`: RFC 9116 compliant, safe harbor
+- **SOC 2 Readiness Checklist** — `SOC2_READINESS_CHECKLIST.md`: Trust Services Criteria mapping
+- **Incident Response Plan** — `INCIDENT_RESPONSE_PLAN.md`: Detection, containment, recovery procedures
+- **Customer FAQ** — `CUSTOMER_FAQ.md`: Pricing, deployment, security, compliance Q&A
+- **AI Use Disclosure** — `AI_USE_DISCLOSURE.md`: AI models, data practices, EU AI Act classification
+
+#### MSA/EULA v2.0 (`docs/sales/datacendia-software-licensing.md`)
+- Added sovereign deployment sections (air-gapped, offline .dcl licensing)
+- Updated data location for sovereign/self-hosted deployments
+- Added Sovereign tier to Order Form
+- Replaced generic license key code with actual Ed25519/jose implementation reference
+- Updated implementation checklist with current status
+
+#### Public Status Page
+- **Backend** — `GET /api/v1/public/status` unauthenticated endpoint via `SystemHealthService`
+- **Frontend** — `/status` page with real-time component health, auto-refresh, active incidents
+
+#### Security & Compliance Infrastructure
+- **Security.txt** — `GET /.well-known/security.txt` RFC 9116-compliant endpoint
+- **Cookie Consent Banner** — `CookieConsent.tsx` component with localStorage persistence, wired into `MarketingLayout`
+- **Frontend Legal Pages** — `/subprocessors`, `/faq`, `/ai-disclosure` lazy-loaded React pages
+- **Footer Links** — Security, Subprocessors, FAQ added to marketing footer
+
+#### Documentation Update
+- All core docs updated to v5.2 with current codebase metrics: 456 services, 160 routes, 209 pages, 92 components, 194 Prisma models, 262 test files, 1,757 total TS/TSX files
+- Docker Compose consolidated to 4 files (dev, demo, production, nvidia)
+
+---
+
 ### Added — 2026-03-02 — CendiaGateway™ + Full Audit Remediation (33 of 33 Findings)
 
 #### CendiaGateway™ — AI Governance Control Plane

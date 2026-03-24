@@ -1,6 +1,6 @@
 # Datacendia Product Roadmap
 
-> Last updated: March 23, 2026
+> Last updated: March 24, 2026
 > Source: Manual audit of `datacendia-core` and `datacendia-components`
 
 ---
@@ -13,7 +13,7 @@
 | **License** | Apache 2.0 (free, open-source) | Paid (Enterprise + Strategic tiers) |
 | **Focus** | Cloud AI governance — governing interactions with online AI APIs | Full AI governance — cloud, local LLMs, on-prem, sovereign, air-gapped |
 | **Gateway** | Reverse proxy for cloud AI (OpenAI, Anthropic, Gemini, etc.) + browser extension | Everything in core + inbound scope proxy, OAuth2 agent scoping, local LLM governance |
-| **Backend** | 290 service files (~4.2 MB) — Foundation tier | **1,747 .ts/.tsx files (27.5 MB)** — 454 services, 160 routes, 200,000+ tests, 35 connectors, 321 frontend pages/components |
+| **Backend** | 290 service files (~4.2 MB) — Foundation tier | **1,757 .ts/.tsx files (27.5 MB)** — 456 services, 160 routes, 200,000+ tests, 35 connectors, 325 frontend pages/components |
 | **Stubs** | 49 (Enterprise/Strategic features gated → UpgradePage) | 0 (everything implemented) |
 | **Target user** | Developer trying Datacendia, open-source community, design partner pilot | Paying enterprise customer, regulated industry, sovereign deployment |
 
@@ -79,7 +79,7 @@
 
 > Full Platform. Paid. Enterprise + Strategic tiers.
 > Goal: Revenue. Everything customers pay for lives here.
-> **454 services (9.1 MB), 160 API routes, 200,000+ tests, 35 connectors, 321 frontend pages/components — 1,747 files totalling 27.5 MB of production code.**
+> **456 services (9.1 MB), 160 API routes, 200,000+ tests, 35 connectors, 325 frontend pages/components — 1,757 files totalling 27.5 MB of production code.**
 
 ## What's Already Built in Components (on top of everything in Core)
 
@@ -171,7 +171,7 @@
 | Item | Description | Effort | Work Type |
 |------|-------------|--------|-----------|
 | ~~**MSA / EULA template**~~ | ~~7-document suite in `docs/sales/datacendia-software-licensing.md` — MSA, ToS, SLA, AUP, DPA, EULA, Order Form~~ | ~~1 day~~ | ✅ Done |
-| **SOC 2 readiness checklist** | Document which SOC 2 controls are already satisfied (logging, RBAC, encryption, audit trail) | 1 day | � Documentation |
+| ~~**SOC 2 readiness checklist**~~ | ~~Document which SOC 2 controls are already satisfied (logging, RBAC, encryption, audit trail)~~ | ~~1 day~~ | ✅ Done |
 | **Onboarding wizard** | First-run setup: connect AI providers, set policies, invite users, pick tier | 1 week | 🔨 Build new |
 | ~~**Public status page**~~ | ~~`/status` — real-time component health, active incidents, auto-refresh, unauthenticated~~ | ~~2 hours~~ | ✅ Done |
 | ~~**Demo URL verification**~~ | ~~app.datacendia.com live — HTTPS, OG tags, structured data, 26-lang hreflang, React SPA~~ | ~~1 day~~ | ✅ Done |
@@ -282,8 +282,8 @@ These apply to both repos:
 | ~~**March 2026**~~ | ~~Fix all 500+ investor pitch decks (dilution math, traction, market slide)~~ ✅ |
 | ~~**March 2026**~~ | ~~Ship sovereign mode + offline license system~~ ✅ |
 | **Now** | Send first 10 design partner decks |
-| **Week 2** | First design partner call |
-| **Week 3** | MSA/EULA template drafted (lawyer) |
+| ~~**Week 2**~~ | ~~First design partner call~~ |
+| ~~**Week 3**~~ | ~~MSA/EULA template drafted (lawyer)~~ ✅ Done (v2.0 with sovereign deployment) |
 | **Week 4** | Agent Identity + Scope Visibility UX in core gateway |
 | **Week 6** | First design partner LOI signed |
 | **Week 8** | SOC 2 Type II audit initiated |

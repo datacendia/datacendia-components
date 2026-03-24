@@ -242,8 +242,8 @@ datacendia-components/
 │   └── services/           # Frontend services
 ├── backend/                # Node.js backend (Express + Prisma)
 │   ├── src/
-│   │   ├── routes/         # API endpoints (159 route files)
-│   │   ├── services/       # Business logic (344 service files)
+│   │   ├── routes/         # API endpoints (160 route files)
+│   │   ├── services/       # Business logic (456 service files)
 │   │   │   ├── inference/  # InferenceProvider (Ollama, Triton, NIM)
 │   │   │   ├── guardrails/ # NeMo Guardrails engine
 │   │   │   ├── kafka/      # Kafka producer, consumer, event bridge
@@ -257,17 +257,17 @@ datacendia-components/
 │   │   ├── middleware/     # Auth, logging, security
 │   │   ├── security/       # PolicyEngine, KeycloakAuth, KMS, HSM
 │   │   └── config/         # Database, Redis, Neo4j, inference config
-│   └── prisma/             # Database schema & migrations (190 models)
+│   └── prisma/             # Database schema & migrations (194 models)
 ├── tests/                  # Test suites (Vitest + Playwright)
 ├── infrastructure/         # PostgreSQL HA scripts
 ├── grafana/                # Dashboard & datasource provisioning
-├── docs/                   # Technical documentation (40+ files)
+├── docs/                   # Technical documentation (70+ files)
 └── docker/                 # Docker configurations
 ```
 
 ## 🧪 Testing
 
-**Current status:** 222 test files, 205,754+ tests, **99.99% passing** (2 pre-existing env-dependent failures)
+**Current status:** 262 test files, 205,754+ tests, **99.99% passing** (2 pre-existing env-dependent failures)
 
 ```bash
 # All tests (frontend + backend + integration)
@@ -354,21 +354,21 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 
 | Metric | Count |
 |--------|-------|
-| Backend service files | **344** (implementation, excl. index/types) |
-| Backend source files (total) | **744** |
-| Backend route files | **159** |
-| Backend test files | **256** |
-| Backend middleware | **16** |
-| Frontend pages | **201** |
-| Frontend components | **91** |
-| Frontend source files | **475** (TS + TSX) |
-| Prisma models | **190** |
+| Backend service files | **456** (implementation, excl. index/types) |
+| Backend source files (total) | **1,024** |
+| Backend route files | **160** |
+| Backend test files | **262** |
+| Backend middleware | **17** |
+| Frontend pages | **209** |
+| Frontend components | **92** |
+| Frontend source files | **504** (325 TSX + 179 TS) |
+| Prisma models | **194** |
 | Prisma enums | **141** |
 | Prisma schema files | **13** |
 | Passing tests | **205,755** |
 | Industry verticals | **30** |
 | Collapse agents | **19** specialized |
-| Docker Compose files | **4** (demo, dev, production, unified) |
+| Docker Compose files | **4** (dev, demo, production, nvidia) |
 | Compliance frameworks | **10** |
 | Supported jurisdictions | **17** |
 | AI agent presets | **50+** |
@@ -593,7 +593,7 @@ All 9 components are opt-in (disabled by default) with embedded fallbacks.
 - **Basel III Engine** — CET1/AT1/Tier2 capital, credit/market/operational RWA, LCR, NSFR, large exposures, stress tests
 - **Defense vertical** — 24 agents, 26 council modes, 5 compliance frameworks (FedRAMP/CMMC/ITAR/NIST/LOAC)
 - **Industrial Services** — 10 expanded schemas with SUNAFIL/OSHA/ASME regulatory rules
-- **205,754 tests passing** across 222 test files
+- **205,754 tests passing** across 262 test files
 
 ### February 18, 2026 — Predictive Intelligence
 - **CendiaPredict™** — Forward-looking quantitative risk scoring

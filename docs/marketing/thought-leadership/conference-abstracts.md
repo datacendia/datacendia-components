@@ -56,7 +56,7 @@ This session demonstrates: 8-agent JOPP deliberation for an HA/DR scenario where
 **Title:** "The $15B Category Nobody Owns: Why AI Governance Is Infrastructure"
 
 **Abstract:**
-Every enterprise is deploying AI. Zero enterprises have AI decision governance infrastructure. The EU AI Act (Aug 2026), SEC cyber disclosure rules, and FDA SaMD guidance make governance mandatory — not optional. This creates a $15.4B category with no incumbent. We'll share how we built 344 services, 30 industry verticals, and 205,754 automated tests as a solo founder — and why multi-agent deliberation (not single-model prompting) is the architecture that wins.
+Every enterprise is deploying AI. Zero enterprises have AI decision governance infrastructure. The EU AI Act (Aug 2026), SEC cyber disclosure rules, and FDA SaMD guidance make governance mandatory — not optional. This creates a $15.4B category with no incumbent. We'll share how we built 456 services, 30 industry verticals, and 205,754 automated tests as a solo founder — and why multi-agent deliberation (not single-model prompting) is the architecture that wins.
 
 ---
 

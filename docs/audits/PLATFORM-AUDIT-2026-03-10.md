@@ -17,7 +17,7 @@
 | **Codebase Scale** | 744 backend TS files, 469 frontend TS/TSX files | **A** |
 | **Vertical Completion** | 30/30 directories, all with testable schemas deep-tested | **A** |
 | **Documentation** | 359 markdown docs including marketing, pitch decks, audits | **A** |
-| **Database Schema** | 190 Prisma models, 141 enums, schema valid | **A** |
+| **Database Schema** | 194 Prisma models, 141 enums, schema valid | **A** |
 | **Security (Dependencies)** | 1 critical, 7 high (all transitive, known) | **B** |
 | **Git Hygiene** | Clean repo, meaningful commits, no secrets exposed | **A** |
 | **Infrastructure** | 4 Docker Compose files, 8 profiles, sovereign-ready | **A** |
@@ -407,7 +407,7 @@ No critical findings.
 | **Code Quality** | 9.0 | 10 | Clean TypeScript, consistent patterns, no placeholder services |
 | **Documentation** | 10.0 | 10 | 359 docs including marketing, pitch decks, audits, white papers |
 | **Security** | 8.0 | 10 | Strong architecture, but dependency vulns need attention |
-| **Database** | 9.0 | 10 | Schema valid, 190 models, well-organized across 13 files |
+| **Database** | 9.0 | 10 | Schema valid, 194 models, well-organized across 13 files |
 | **Infrastructure** | 9.5 | 10 | 4 compose files, 8 profiles, 9 enterprise integrations |
 | **Vertical Depth** | 10.0 | 10 | 30 verticals, all deep-tested, real domain logic |
 | **AI Architecture** | 9.5 | 10 | 8 model slots, 3 providers, agent routing, guardrails |

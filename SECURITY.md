@@ -78,6 +78,13 @@ For contributors:
 - [ ] Logging without sensitive data
 - [ ] Tests for security-critical code
 
+## Additional Security Resources
+
+- **Vulnerability Disclosure Policy:** [`docs/legal/VULNERABILITY_DISCLOSURE.md`](docs/legal/VULNERABILITY_DISCLOSURE.md) — Full responsible disclosure guidelines, safe harbor, severity classification
+- **Security.txt:** `/.well-known/security.txt` endpoint (RFC 9116) — Machine-readable security contact info
+- **SOC 2 Readiness:** [`docs/legal/SOC2_READINESS_CHECKLIST.md`](docs/legal/SOC2_READINESS_CHECKLIST.md) — Trust Services Criteria mapping
+- **Incident Response Plan:** [`docs/legal/INCIDENT_RESPONSE_PLAN.md`](docs/legal/INCIDENT_RESPONSE_PLAN.md) — Detection, containment, recovery procedures
+
 ## Contact
 
 - **Security Issues:** security@datacendia.com

@@ -61,7 +61,7 @@
 
 | Secret | Protection Mechanism |
 |--------|---------------------|
-| Source code (344 services) | Private GitHub repo, NDA for all access, employee IP assignment |
+| Source code (456 services) | Private GitHub repo, NDA for all access, employee IP assignment |
 | Basel III formula implementations | Not published, internal only |
 | Vertical decision schema validation logic | Private repo, not in open-source core |
 | AI model routing algorithms | Internal configuration, not exposed via API |

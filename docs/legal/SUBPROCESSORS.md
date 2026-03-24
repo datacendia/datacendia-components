@@ -22,8 +22,7 @@ These subprocessors provide the underlying infrastructure for the Cloud-Hosted S
 
 | Subprocessor | Purpose | Data Processed | Location |
 |-------------|---------|---------------|----------|
-| **Vercel** | Frontend hosting, CDN, edge functions | Request metadata, static assets | US, EU (edge) |
-| **Railway / Render** | Backend application hosting | Application data, API requests | US |
+| **Railway** | Frontend and backend hosting, CDN | Application data, API requests, static assets | US |
 | **Neon / Supabase** | PostgreSQL database hosting | All persistent Customer Data | US (configurable) |
 | **Upstash** | Redis caching and rate limiting | Session tokens, cached queries, rate limit counters | US (configurable) |
 

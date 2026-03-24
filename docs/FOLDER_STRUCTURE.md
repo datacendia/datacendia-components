@@ -88,8 +88,11 @@ src/pages/
 │   └── SettingsPage.tsx                    # System settings
 │
 └── legal/                 # Legal pages
-    ├── PrivacyPage.tsx
-    └── TermsPage.tsx
+    ├── PrivacyPolicyPage.tsx              # Privacy policy
+    ├── TermsPage.tsx                      # Terms of service
+    ├── SubprocessorsPage.tsx              # Subprocessor list
+    ├── FAQPage.tsx                        # Customer FAQ
+    └── AIDisclosurePage.tsx               # AI use disclosure
 ```
 
 ### Components (`/src/components`)
@@ -105,6 +108,7 @@ src/components/
 │   ├── Button.tsx
 │   ├── Card.tsx
 │   ├── Modal.tsx
+│   ├── CookieConsent.tsx                  # GDPR cookie consent banner
 │   └── ...
 │
 ├── agents/                # AI Agent components

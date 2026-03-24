@@ -171,6 +171,6 @@ The window to achieve compliance before the August 2026 deadline is closing. Org
 
 **About Datacendia**
 
-Datacendia is Decision Crisis Immunization Infrastructure (DCII) — sovereign-first enterprise software where every AI decision is auditable, explainable, and forensic-grade, independently verifiable. 344 services, 30 industry verticals, 205,754 automated tests. NVIDIA Inception Member.
+Datacendia is Decision Crisis Immunization Infrastructure (DCII) — sovereign-first enterprise software where every AI decision is auditable, explainable, and forensic-grade, independently verifiable. 456 services, 30 industry verticals, 205,754 automated tests. NVIDIA Inception Member.
 
 **Contact:** Stuart Rainey, Founder & CEO — stuart.rainey@datacendia.com

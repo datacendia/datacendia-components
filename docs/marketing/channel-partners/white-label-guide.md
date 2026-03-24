@@ -55,7 +55,7 @@ Partners get a dedicated admin portal to:
 
 ### API Integration
 Partners can integrate Datacendia via API into their existing platforms:
-- REST API (159 routes) — full documentation provided
+- REST API (160 routes) — full documentation provided
 - WebSocket for real-time deliberation streaming
 - Webhook notifications for decision events
 - SSO integration (OIDC/SAML via Keycloak)

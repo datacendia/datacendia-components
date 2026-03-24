@@ -2,7 +2,7 @@
 
 > Complete documentation for Datacendia's Docker-based deployment.
 
-**Last Updated:** January 28, 2026
+**Last Updated:** March 24, 2026
 
 ---
 
@@ -28,14 +28,16 @@ Datacendia uses Docker for consistent deployment across all environments.
 
 | File | Use Case | Services |
 |------|----------|----------|
-| `docker-compose.unified.yml` | **Recommended for development** | All services with profiles |
-| `docker-compose.yml` | Basic development | Core only (postgres, redis, neo4j, ollama) |
+| `docker-compose.dev.yml` | **Development** | All services with hot-reload |
+| `docker-compose.demo.yml` | Sales demos, POCs | Pre-seeded demo data |
 | `docker-compose.production.yml` | Production deployment | Full stack optimized |
-| `infrastructure/docker-compose.sovereign.yml` | Sovereign/air-gapped | Enterprise infrastructure |
+| `docker-compose.nvidia.yml` | GPU/NVIDIA stack | NVIDIA Triton, NIM, RAPIDS |
 
-### ⚠️ Important: Use Unified Compose
+> **Note:** Docker Compose was consolidated from 9 files to 4 in March 2026. Previous files like `docker-compose.unified.yml` and `docker-compose.yml` have been superseded.
 
-The project has multiple docker-compose files that can conflict. **Use `docker-compose.unified.yml`** for development to avoid:
+### Best Practice
+
+Use the appropriate compose file for your environment to avoid:
 - Port conflicts (multiple Redis on 6380)
 - Network isolation issues (services can't see each other)
 - Missing databases (Keycloak/Unleash need their DBs created)

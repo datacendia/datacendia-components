@@ -187,7 +187,7 @@ Tiger's thesis: back category-defining enterprise software at scale. AI governan
 - Competitor landscape: fragmented, no dominant player
 
 ## SLIDE 3: Metrics That Matter
-205,754 tests | 344 services | 30 verticals | 159 API routes | Basel III engine | Post-quantum crypto | Air-gapped deployment | 8 AI model slots | NVIDIA Inception
+205,754 tests | 456 services | 30 verticals | 160 API routes | Basel III engine | Post-quantum crypto | Air-gapped deployment | 8 AI model slots | NVIDIA Inception
 
 ## SLIDE 4-7: Market ($15.4B), Revenue model ($250K-$1.5M ACV), GTM, Competition
 ## SLIDE 8: $10-15M at $50M valuation. Aggressive GTM investment.

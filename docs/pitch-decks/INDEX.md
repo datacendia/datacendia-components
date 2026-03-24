@@ -152,7 +152,7 @@
 - **Companies (31-60)**: Company-specific pain points, use cases, engagement proposals
 - **Investors (61-80)**: Thesis alignment, market sizing, business model, ask
 - **Design Partners (81-100)**: Co-development proposals, mutual value exchange, implementation plans
-- All decks reference real platform capabilities (344 services, 30 verticals, 205,754 tests)
+- All decks reference real platform capabilities (456 services, 30 verticals, 205,754 tests)
 - Pricing consistent: $50K Pilot → $150-500K Foundation → $500K-1.5M Enterprise → Custom Platinum
 
 ---

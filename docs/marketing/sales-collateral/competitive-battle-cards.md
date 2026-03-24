@@ -102,7 +102,7 @@
 **Their Pitch:** "Our engineering team can build AI governance internally."
 
 **Our Counter:**
-- **344 services, 205,755 tests, 30 verticals, 190 database models** — this took 2+ years to build.
+- **456 services, 205,755 tests, 30 verticals, 194 database models** — this took 2+ years to build.
 - Basel III engine alone: real CRR/CRD IV formulas with article citations. That's months of quant work.
 - Post-quantum cryptography (ML-DSA, SLH-DSA). Zero-knowledge proofs (Schnorr sigma). How many of your engineers know this?
 - **Maintenance burden**: regulatory changes (200+/quarter in banking alone). Who updates your internal tool?
@@ -183,4 +183,4 @@
 
 ---
 
-*All battle cards reference real platform capabilities. Nothing is vaporware. 344 services, 205,754 tests, 30 verticals — all built and passing.*
+*All battle cards reference real platform capabilities. Nothing is vaporware. 456 services, 205,754 tests, 30 verticals — all built and passing.*

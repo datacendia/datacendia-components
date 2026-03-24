@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 5.1** | **March 2, 2026 Update** — Platform Audit Remediation + CendiaGateway™ + The Governance Receipt™
+**Version 5.2** | **March 24, 2026 Update** — Enterprise Compliance Documentation + Public Status Page + CendiaCrypto™
 
 ---
 
@@ -123,13 +123,13 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 | Aspect | Status | Notes |
 |--------|--------|-------|
-| **Backend Code** | ~100% | 380+ services, 140+ route files, all wired up |
-| **Frontend UI** | ~95% | All major pages exist, connected to backend |
-| **Database Schema** | ~95% | 190 Prisma models, 141 enums |
+| **Backend Code** | ~100% | 456 services, 160 route files, all wired up |
+| **Frontend UI** | ~95% | 209 pages, 92 components, connected to backend |
+| **Database Schema** | ~95% | 194 Prisma models, 141 enums |
 | **Real Functionality** | ~100% | All features implemented, 10 OAuth2 connectors, 29 verticals, WebSocket streaming, Redis caching, infrastructure deployed |
 | **Infrastructure** | ~100% | 9 enterprise components (Kafka, Temporal, OPA, OpenBao, NeMo, RAPIDS, Flink, CC, Triton/NIM) |
 | **Production Ready** | ~100% | CI/CD ready, monitoring deployed, HA setup, backup automation, SBOM generation |
-| **Test Coverage** | 98% | See Test Coverage & Verification below |
+| **Test Coverage** | 98% | 262 test files, see Test Coverage & Verification below |
 
 ## Test Coverage & Verification
 
@@ -359,10 +359,18 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 - **Redis Integration** — Currently optional (graceful fallback)
 - **CI/CD Pipeline** — Live on 3 of 4 repos (components, core, DGI). Marketing repo still needs CI
 - **Load Testing** — Scripts exist but not benchmarked
-- **Some Integration Tests** — 63 tests failing (edge cases)
-- **6 Transitive Dependency Vulns** — `elliptic` (via keycloak-connect), `fast-xml-parser` (nested in AWS SDK), `jsonpath` (via bfj) — awaiting upstream fixes
-- **Docker Compose Consolidation** — 9 files → 3 (medium-term audit item)
 - **Express 4 → 5 Upgrade** — Medium-term audit item
+- **PGP Key Generation** — Generate PGP key for security@datacendia.com and update Vulnerability Disclosure doc
+
+### Recently Completed (March 2026)
+
+- ✅ **Docker Compose Consolidation** — Reduced to 4 files (dev, demo, production, nvidia)
+- ✅ **Enterprise Legal Documentation** — 8 documents: Privacy Policy, Cookie Policy, Subprocessor List, Vulnerability Disclosure, SOC 2 Readiness Checklist, Incident Response Plan, Customer FAQ, AI Use Disclosure
+- ✅ **Public Status Page** — `/status` endpoint (backend + frontend) with real-time component health, auto-refresh
+- ✅ **Security.txt** — `/.well-known/security.txt` RFC 9116-compliant endpoint
+- ✅ **Cookie Consent Banner** — GDPR/ePrivacy compliant, localStorage persistence
+- ✅ **Frontend Legal Pages** — `/subprocessors`, `/faq`, `/ai-disclosure` pages + updated footer links
+- ✅ **MSA/EULA v2.0** — Updated with sovereign deployment, offline licensing, implementation checklist
 
 ---
 
@@ -1835,8 +1843,8 @@ chronos_snapshots
 | Framework | Status | Notes |
 |-----------|--------|-------|
 | SOC 2 Type II | 🟡 In Progress | Audit scheduled Q2 2026 |
-| ISO 27001 | 🟡 In Progress | Expected Q1 2026 |
-| GDPR | ✅ Compliant | Data residency, consent management |
+| ISO 27001 | 🟡 In Progress | ISMS controls in place; certification on enterprise contract |
+| GDPR | ✅ Compliant | Data residency, consent management, DPA available |
 | HIPAA | 🟡 Designed for | BAA available, controls implemented |
 | FedRAMP | 🟡 In Progress | Government edition |
 | PCI-DSS | 🟡 Designed for | Architecture supports |
@@ -2559,9 +2567,9 @@ These 4 verticals represent **90% of vertical AI spend**.^[1] Full sales, market
 | 🏭 **Manufacturing** | GA | 23% inventory reduction ($1.4M freed) | Tier 1 auto supplier, Q2 2025^[2] |
 | ⚡ **Energy & Utilities** | GA | 45% faster rate case prep | IOU (Midwest), Q3 2025^[2] |
 
-## All Supported Verticals (24)
+## All Supported Verticals (30)
 
-Datacendia now supports **24 industry verticals** with pre-configured service bundles. Organizations can toggle services on/off via the Vertical Configuration page.
+Datacendia now supports **30 industry verticals** with pre-configured service bundles. Organizations can toggle services on/off via the Vertical Configuration page.
 
 ### Core Verticals (7) - Full GTM
 | Icon | Vertical | Default Services | Status |
@@ -2809,6 +2817,22 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 ## Appendix E: Changelog
+
+### Version 5.2.0 (March 24, 2026)
+
+#### Enterprise Compliance Documentation & Platform Metrics Update
+- **Enterprise Legal Documentation Suite** — 8 new documents in `docs/legal/`: Privacy Policy, Cookie Policy, Subprocessor List, Vulnerability Disclosure Policy, SOC 2 Readiness Checklist, Incident Response Plan, Customer FAQ, AI Use Disclosure
+- **MSA/EULA v2.0** — Updated `docs/sales/datacendia-software-licensing.md` with sovereign deployment sections, offline .dcl licensing, updated implementation checklist
+- **Public Status Page** — `/api/v1/public/status` backend endpoint + `/status` frontend page with real-time component health, auto-refresh, active incidents
+- **Security.txt** — `/.well-known/security.txt` RFC 9116-compliant endpoint in backend middleware
+- **Cookie Consent Banner** — GDPR/ePrivacy compliant `CookieConsent` component with localStorage persistence, wired into `MarketingLayout`
+- **Frontend Legal Pages** — `/subprocessors`, `/faq`, `/ai-disclosure` React pages with lazy-loading, wired in `public.routes.tsx`
+- **Footer Links Updated** — Security, Subprocessors, FAQ added to marketing footer
+- **Docker Compose Consolidation** — Reduced from 9 to 4 files (dev, demo, production, nvidia)
+- **Platform Metrics Updated** — 456 services, 160 routes, 209 pages, 92 components, 194 Prisma models, 262 test files, 1,757 total TS/TSX files
+- **Documentation Pass** — All core docs (Bible, Master Document, Service Matrix, Roadmap) updated with current codebase metrics
+
+---
 
 ### Version 5.1.0 (March 2, 2026)
 
@@ -3148,7 +3172,7 @@ The entire product structure has been reorganized into four clear categories:
 
 *Empowering Better Decisions Through Collective Intelligence*
 
-[datacendia.com](https://datacendia.com) | [docs.datacendia.com](https://docs.datacendia.com) | [status.datacendia.com](https://status.datacendia.com)
+[datacendia.com](https://datacendia.com) | [docs.datacendia.com](https://docs.datacendia.com) | [app.datacendia.com/status](https://app.datacendia.com/status)
 
 © 2026 Datacendia, Inc. All rights reserved.
 

@@ -46,4 +46,4 @@ Every financial decision evaluated against: Discovery-Time Proof, Deliberation C
 
 **Contact:** Stuart Rainey, Founder & CEO — stuart.rainey@datacendia.com | NVIDIA Inception Member
 
-**Platform:** 344 services | 205,754 tests passing | 30 verticals | Post-quantum crypto | Air-gapped deployable
+**Platform:** 456 services | 205,754 tests passing | 30 verticals | Post-quantum crypto | Air-gapped deployable
