@@ -4,7 +4,7 @@
  * Business logic service implementing platform capabilities.
  *
  * @exports CendiaMeshService, cendiaMeshService, MeshNode, MeshConnection, MeshTopology, SecureChannel, NetworkEvent, NetworkPolicy
- * @module services/sovereign/CendiaMeshService
+ * @module services/sovereign/EncryptedMeshService
  */
 
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.

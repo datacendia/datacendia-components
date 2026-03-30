@@ -302,7 +302,7 @@ async function runComprehensiveTests() {
   results.push(await testServiceClass('CendiaMirageService', 'Sovereign', 
     () => import('./src/services/sovereign/CendiaMirageService'), genericMethodTest));
   results.push(await testServiceClass('CendiaMeshService_Sovereign', 'Sovereign', 
-    () => import('./src/services/sovereign/CendiaMeshService'), genericMethodTest));
+    () => import('./src/services/sovereign/EncryptedMeshService'), genericMethodTest));
 
   // ==========================================================================
   // CATEGORY 4: ENTERPRISE SERVICES (16 services)
@@ -340,7 +340,7 @@ async function runComprehensiveTests() {
   results.push(await testServiceClass('CendiaDocketService', 'Enterprise', 
     () => import('./src/services/enterprise/CendiaDocketService'), genericMethodTest));
   results.push(await testServiceClass('CendiaMeshService_Enterprise', 'Enterprise', 
-    () => import('./src/services/enterprise/CendiaMeshService'), genericMethodTest));
+    () => import('./src/services/enterprise/CultureIntegrationService'), genericMethodTest));
   results.push(await testServiceClass('VerticalConfigService', 'Enterprise', 
     () => import('./src/services/enterprise/VerticalConfigService'), genericMethodTest));
 

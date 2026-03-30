@@ -18,7 +18,7 @@
  *   5. ADVERSARIAL_FRAME — Constructs the strongest possible counter-argument
  *   6. DISSENT_AMPLIFY  — Examines if dissenting views were adequately addressed
  *
- * @module services/crypto/AdversarialRedTeamService
+ * @module services/crypto/DecisionGateRedTeamService
  * @exports adversarialRedTeamService
  */
 

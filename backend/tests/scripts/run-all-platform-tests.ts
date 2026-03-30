@@ -135,7 +135,7 @@ async function runServiceLoadingTests(): Promise<TestSuite> {
     { path: './src/services/sovereign/CendiaKeyService', name: 'CendiaKeyService', category: 'Sovereign', desc: 'Cryptographic key management' },
     { path: './src/services/sovereign/CendiaLegacyService', name: 'CendiaLegacyService', category: 'Sovereign', desc: 'Legacy system integration' },
     { path: './src/services/sovereign/CendiaMirageService', name: 'CendiaMirageService', category: 'Sovereign', desc: 'Decoy system deployment' },
-    { path: './src/services/sovereign/CendiaMeshService', name: 'CendiaMeshService_Sovereign', category: 'Sovereign', desc: 'Cross-site coordination mesh' },
+    { path: './src/services/sovereign/EncryptedMeshService', name: 'EncryptedMeshService', category: 'Sovereign', desc: 'Quantum-resistant encrypted networking' },
 
     // Enterprise Services
     { path: './src/services/enterprise/CendiaAcademyService', name: 'CendiaAcademyService', category: 'Enterprise', desc: 'Training and certification platform' },
@@ -152,7 +152,7 @@ async function runServiceLoadingTests(): Promise<TestSuite> {
     { path: './src/services/enterprise/CendiaScoutService', name: 'CendiaScoutService', category: 'Enterprise', desc: 'Competitive intelligence' },
     { path: './src/services/enterprise/CendiaTransitService', name: 'CendiaTransitService', category: 'Enterprise', desc: 'Logistics and supply chain' },
     { path: './src/services/enterprise/CendiaDocketService', name: 'CendiaDocketService', category: 'Enterprise', desc: 'Legal case management' },
-    { path: './src/services/enterprise/CendiaMeshService', name: 'CendiaMeshService_Enterprise', category: 'Enterprise', desc: 'Cross-department collaboration' },
+    { path: './src/services/enterprise/CultureIntegrationService', name: 'CultureIntegrationService', category: 'Enterprise', desc: 'M&A culture integration intelligence' },
     { path: './src/services/enterprise/VerticalConfigService', name: 'VerticalConfigService', category: 'Enterprise', desc: 'Industry vertical configuration' },
 
     // Verticals

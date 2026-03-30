@@ -5,7 +5,7 @@
  * (post-quantum) dual-signing. Keys are generated deterministically from a master
  * seed stored in environment variables, or generated fresh on first boot.
  *
- * @module services/crypto/KeyManagementService
+ * @module services/crypto/DualSigningKeyService
  * @exports keyManagementService
  */
 

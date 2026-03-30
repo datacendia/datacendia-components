@@ -224,7 +224,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
   - Proves consensus threshold met, agent quorum reached, dissent ratio within bounds — without revealing values
   - Compliance proofs, threshold proofs, quorum proofs
   - Route: `/cortex/security/zkp`, Verify: `/api/v1/verify/zkproof`
-  - Implementation: `backend/src/services/crypto/ZeroKnowledgeProofService.ts`
+  - Implementation: `backend/src/services/crypto/PedersenZKPService.ts`
 
 - **CendiaInsure™** — AI Insurance Integration
   - Direct liability coverage per AI decision
@@ -238,7 +238,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
   - Key pairs derived from CENDIA_MASTER_SEED env var, persisted across deploys
   - Real Ed25519 + ML-DSA-65 signatures (replaced placeholder random bytes)
   - Public key endpoint: `/api/v1/verify/keys`
-  - Implementation: `backend/src/services/crypto/KeyManagementService.ts`
+  - Implementation: `backend/src/services/crypto/DualSigningKeyService.ts`
   - Dependencies: `@noble/curves`, `@noble/hashes`, `@noble/post-quantum`
 
 ### CendiaCrypto™ Enterprise Cryptographic Services (Added March 13, 2026)

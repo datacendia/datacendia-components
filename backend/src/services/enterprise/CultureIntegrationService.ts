@@ -4,7 +4,7 @@
  * Business logic service implementing platform capabilities.
  *
  * @exports cendiaMeshService, CultureProfile, CultureValue, DecisionStyle, CommunicationStyle, WorkStyle, LeadershipStyle, CultureComparison
- * @module services/enterprise/CendiaMeshService
+ * @module services/enterprise/CultureIntegrationService
  */
 
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.

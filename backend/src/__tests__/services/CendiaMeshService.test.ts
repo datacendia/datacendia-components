@@ -18,7 +18,7 @@ vi.mock('../../config/database.js', () => ({
   prisma: { $queryRaw: vi.fn().mockResolvedValue([]) },
 }));
 
-const mod = await import('../../services/enterprise/CendiaMeshService.js');
+const mod = await import('../../services/enterprise/CultureIntegrationService.js');
 const service = (mod as any).cendiaMeshService || (mod as any).default;
 
 describe('CendiaMeshService', () => {

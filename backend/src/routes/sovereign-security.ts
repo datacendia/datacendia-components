@@ -17,7 +17,7 @@
 import { Router, Request, Response } from 'express';
 import { cendiaMirageService } from '../services/sovereign/CendiaMirageService.js';
 import { cendiaKeyService } from '../services/sovereign/CendiaKeyService.js';
-import { cendiaMeshService } from '../services/sovereign/CendiaMeshService.js';
+import { cendiaMeshService } from '../services/sovereign/EncryptedMeshService.js';
 import { cendiaBlackBoxService } from '../services/sovereign/CendiaBlackBoxService.js';
 import { cendiaGlassService } from '../services/sovereign/CendiaGlassService.js';
 import { getErrorMessage } from '../utils/errors.js';

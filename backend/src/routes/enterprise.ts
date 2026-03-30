@@ -29,7 +29,7 @@ import { cendiaGuardianService } from '../services/enterprise/CendiaGuardianServ
 import { cendiaNerveService } from '../services/enterprise/CendiaNerveService.js';
 import { cendiaDocketService } from '../services/enterprise/CendiaDocketService.js';
 import { cendiaEquityService } from '../services/enterprise/CendiaEquityService.js';
-import { cendiaMeshService } from '../services/enterprise/CendiaMeshService.js';
+import { cendiaMeshService } from '../services/enterprise/CultureIntegrationService.js';
 import { cendiaFactoryService } from '../services/enterprise/CendiaFactoryService.js';
 import { cendiaTransitService } from '../services/enterprise/CendiaTransitService.js';
 import { cendiaAcademyService } from '../services/enterprise/CendiaAcademyService.js';

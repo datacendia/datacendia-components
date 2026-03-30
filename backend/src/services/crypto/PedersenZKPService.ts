@@ -12,7 +12,7 @@
  *   - Range Proof: prove committed value ∈ [0, 2^n) via bit decomposition
  *   - Threshold Proof: prove committed value ≥ public threshold
  *
- * @module services/crypto/ZeroKnowledgeProofService
+ * @module services/crypto/PedersenZKPService
  * @exports zkpService
  */
 

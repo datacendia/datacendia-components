@@ -115,7 +115,7 @@ async function runTests() {
   results.push(await testService('CendiaKeyService', 'Sovereign', () => import('./src/services/sovereign/CendiaKeyService')));
   results.push(await testService('CendiaLegacyService', 'Sovereign', () => import('./src/services/sovereign/CendiaLegacyService')));
   results.push(await testService('CendiaMirageService', 'Sovereign', () => import('./src/services/sovereign/CendiaMirageService')));
-  results.push(await testService('CendiaMeshService (Sovereign)', 'Sovereign', () => import('./src/services/sovereign/CendiaMeshService')));
+  results.push(await testService('CendiaMeshService (Sovereign)', 'Sovereign', () => import('./src/services/sovereign/EncryptedMeshService')));
 
   // ==========================================================================
   // CATEGORY 4: ENTERPRISE SERVICES
@@ -137,7 +137,7 @@ async function runTests() {
   results.push(await testService('CendiaScoutService', 'Enterprise', () => import('./src/services/enterprise/CendiaScoutService')));
   results.push(await testService('CendiaTransitService', 'Enterprise', () => import('./src/services/enterprise/CendiaTransitService')));
   results.push(await testService('CendiaDocketService', 'Enterprise', () => import('./src/services/enterprise/CendiaDocketService')));
-  results.push(await testService('CendiaMeshService (Enterprise)', 'Enterprise', () => import('./src/services/enterprise/CendiaMeshService')));
+  results.push(await testService('CendiaMeshService (Enterprise)', 'Enterprise', () => import('./src/services/enterprise/CultureIntegrationService')));
   results.push(await testService('VerticalConfigService', 'Enterprise', () => import('./src/services/enterprise/VerticalConfigService')));
 
   // ==========================================================================

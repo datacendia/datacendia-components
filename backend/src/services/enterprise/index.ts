@@ -50,8 +50,8 @@ export { cendiaEquityService } from './CendiaEquityService.js';
 export type { MarketSentiment, EarningsSimulation, EarningsCallPrep, InvestorProfile, ActivistDefense } from './CendiaEquityService.js';
 
 // 9. M&A CULTURE INTEGRATION
-export { cendiaMeshService } from './CendiaMeshService.js';
-export type { CultureProfile, CultureComparison, IntegrationRoadmap, TalentRetention, ChangeReadiness } from './CendiaMeshService.js';
+export { cendiaMeshService } from './CultureIntegrationService.js';
+export type { CultureProfile, CultureComparison, IntegrationRoadmap, TalentRetention, ChangeReadiness } from './CultureIntegrationService.js';
 
 // 10. MANUFACTURING & PRODUCTION
 export { cendiaFactoryService } from './CendiaFactoryService.js';
@@ -90,7 +90,7 @@ import { cendiaGuardianService } from './CendiaGuardianService.js';
 import { cendiaNerveService } from './CendiaNerveService.js';
 import { cendiaDocketService } from './CendiaDocketService.js';
 import { cendiaEquityService } from './CendiaEquityService.js';
-import { cendiaMeshService } from './CendiaMeshService.js';
+import { cendiaMeshService } from './CultureIntegrationService.js';
 import { cendiaFactoryService } from './CendiaFactoryService.js';
 import { cendiaTransitService } from './CendiaTransitService.js';
 import { cendiaAcademyService } from './CendiaAcademyService.js';

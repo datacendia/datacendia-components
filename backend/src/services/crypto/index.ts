@@ -9,11 +9,11 @@
 // Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
-export { keyManagementService, KeyManagementService } from './KeyManagementService.js';
-export type { DualSignature, SignatureVerificationResult, KeyPair } from './KeyManagementService.js';
+export { keyManagementService, KeyManagementService } from './DualSigningKeyService.js';
+export type { DualSignature, SignatureVerificationResult, KeyPair } from './DualSigningKeyService.js';
 
-export { zkpService, ZeroKnowledgeProofService } from './ZeroKnowledgeProofService.js';
-export type { ComplianceProof, ComplianceProofVerification, ComplianceProofRequest, ProofType } from './ZeroKnowledgeProofService.js';
+export { zkpService, ZeroKnowledgeProofService } from './PedersenZKPService.js';
+export type { ComplianceProof, ComplianceProofVerification, ComplianceProofRequest, ProofType } from './PedersenZKPService.js';
 
 export { merkleForestService, MerkleForestService } from './MerkleForestService.js';
 export type { MerkleProof, MerkleForestState, ForestVerification } from './MerkleForestService.js';

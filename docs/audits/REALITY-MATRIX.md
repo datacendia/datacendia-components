@@ -172,7 +172,7 @@
 | CendiaGuardianService | `enterprise/CendiaGuardianService.ts` | 🟡 DEMO | Ollama + in-memory guardian |
 | CendiaHabitatService | `enterprise/CendiaHabitatService.ts` | 🟡 DEMO | Ollama + in-memory habitat |
 | CendiaInventumService | `enterprise/CendiaInventumService.ts` | 🟡 DEMO | Ollama + in-memory discovery |
-| CendiaMeshService | `enterprise/CendiaMeshService.ts` | 🟡 DEMO | Ollama + in-memory mesh |
+| CultureIntegrationService | `enterprise/CultureIntegrationService.ts` | 🟡 DEMO | Ollama + in-memory mesh |
 | CendiaNerveService | `enterprise/CendiaNerveService.ts` | 🟡 DEMO | Ollama + in-memory nerve center |
 | CendiaProcureService | `enterprise/CendiaProcureService.ts` | 🟡 DEMO | Ollama + in-memory procurement |
 | CendiaRainmakerService | `enterprise/CendiaRainmakerService.ts` | 🟡 DEMO | Ollama + in-memory sales |
