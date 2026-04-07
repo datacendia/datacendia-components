@@ -1,9 +1,9 @@
-// Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+﻿// Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
 // See LICENSE file for details.
 
 /**
  * @module startup/routes
- * @description API route mounting — 14 domain routers + 11 special routes.
+ * @description API route mounting â€” 14 domain routers + 11 special routes.
  * Extracted from index.ts for modularity (F21 audit item).
  */
 
@@ -41,13 +41,15 @@ import rapidsRoutes from '../routes/rapids.js';
 import flinkRoutes from '../routes/flink.js';
 import billingRoutes from '../routes/billing.js';
 import gatewayRoutes from '../routes/gateway.js';
+import wedgeRoutes from '../routes/wedge.js';
+import opsAgentsRoutes from '../routes/ops-agents.js';
 
 /**
  * Mount all API routes on the Express app.
  * Prometheus metrics are mounted before auth middleware.
  */
 export function mountRoutes(app: Express): void {
-  // Prometheus metrics — before middleware so scraping works without auth
+  // Prometheus metrics â€” before middleware so scraping works without auth
   app.use('/metrics', prometheusRoutes);
 
   // =========================================================================
@@ -69,7 +71,7 @@ export function mountRoutes(app: Express): void {
   app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, gnosis, apotheosis, visualization
   app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
 
-  // Express Intelligence — enterprise route loaded dynamically
+  // Express Intelligence â€” enterprise route loaded dynamically
   import('../routes/express.js').then(mod => {
     app.use('/api/v1/express', mod.default as any);
   }).catch(() => { /* Enterprise module not available */ });
@@ -77,8 +79,8 @@ export function mountRoutes(app: Express): void {
   // =========================================================================
   // SPECIAL ROUTES (non-standard mounting paths)
   // =========================================================================
-  app.use('/api/v1', recallRoutes);                      // CendiaRecall™ — Decision Outcome Tracking
-  app.use('/api/v1/eu-banking', euBankingRoutes);        // EU Banking — Basel III + EU AI Act compliance
+  app.use('/api/v1', recallRoutes);                      // CendiaRecallâ„¢ â€” Decision Outcome Tracking
+  app.use('/api/v1/eu-banking', euBankingRoutes);        // EU Banking â€” Basel III + EU AI Act compliance
   app.use('/api/v1/kafka', kafkaRoutes);                 // Kafka admin & monitoring
   app.use('/api/v1/guardrails', guardrailsRoutes);       // NeMo Guardrails admin & evaluation
   app.use('/api/v1/opa', opaRoutes);                     // Open Policy Agent policy-as-code
@@ -87,7 +89,10 @@ export function mountRoutes(app: Express): void {
   app.use('/api/v1/rapids', rapidsRoutes);               // NVIDIA RAPIDS GPU analytics + Confidential Computing
   app.use('/api/v1/flink', flinkRoutes);                 // Apache Flink CEP stream processing
   app.use('/api/v1', billingRoutes);                     // Stripe billing & checkout
-  app.use('/api/v1/gateway', gatewayRoutes);             // CendiaGateway™ AI Governance Gateway
+  app.use('/api/v1/gateway', gatewayRoutes);             // CendiaGateway
+  app.use('/api/v1/wedge', wedgeRoutes);               // Wedge Products - Shadow AI, Governance Report, Incident Forensics
+  app.use('/api/v1/ops-agents', opsAgentsRoutes);      // Ops Agents — Report, Analytics, NLP, Pipeline (Enterprise)â„¢ AI Governance Gateway
 
   logger.info('All API routes mounted');
 }
+
