@@ -34,6 +34,20 @@ router.post('/shadow-scan', async (req: Request, res: Response) => {
   }
 });
 
+router.post('/shadow-scan/ingest', async (req: Request, res: Response) => {
+  try {
+    const { sourceType, organizationId, userId, userEmail, department, aiTool, provider, dataClassification, piiTypesDetected, dataSizeBytes, action, riskScore, sourceMetadata, timestamp } = req.body;
+    if (!sourceType || !organizationId || !userId || !aiTool) {
+      return res.status(400).json({ success: false, error: 'sourceType, organizationId, userId, and aiTool are required' });
+    }
+    const detectionId = await shadowAIScannerService.ingestDetection(req.body);
+    res.json({ success: true, data: { detectionId } });
+  } catch (error) {
+    logger.error('[Wedge] Shadow scan ingest error:', error);
+    res.status(500).json({ success: false, error: 'Ingestion failed' });
+  }
+});
+
 router.get('/shadow-scan/:id', async (req: Request, res: Response) => {
   try {
     const result = await shadowAIScannerService.getScan(req.params.id);
