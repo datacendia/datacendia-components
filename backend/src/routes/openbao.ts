@@ -68,9 +68,9 @@ router.get('/stats', (_req: Request, res: Response) => {
 
 // ─── KV Secrets ────────────────────────────────────────────────────────
 
-router.get('/secrets/*', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/secrets/*splat', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const path = req.params[0] || '';
+    const path = (req.params as any).splat?.[0] || '';
     const mount = (req.query.mount as string) || 'secret';
 
     if (!path) {
@@ -88,9 +88,9 @@ router.get('/secrets/*', async (req: Request, res: Response, next: NextFunction)
   } catch (error) { next(error); }
 });
 
-router.put('/secrets/*', async (req: Request, res: Response, next: NextFunction) => {
+router.put('/secrets/*splat', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const path = req.params[0] || '';
+    const path = (req.params as any).splat?.[0] || '';
     const mount = (req.query.mount as string) || 'secret';
     const { data } = bodySchema0.parse(req.body);
 
@@ -105,9 +105,9 @@ router.put('/secrets/*', async (req: Request, res: Response, next: NextFunction)
   } catch (error) { next(error); }
 });
 
-router.delete('/secrets/*', async (req: Request, res: Response, next: NextFunction) => {
+router.delete('/secrets/*splat', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const path = req.params[0] || '';
+    const path = (req.params as any).splat?.[0] || '';
     const mount = (req.query.mount as string) || 'secret';
 
     const success = await openBao.deleteSecret(path, mount);

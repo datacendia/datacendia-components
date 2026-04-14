@@ -260,12 +260,12 @@ router.post('/v1/messages', async (req: Request, res: Response) => {
 // REVERSE PROXY — Generic provider endpoint
 // =============================================================================
 
-router.post('/proxy/:provider/*', async (req: Request, res: Response) => {
+router.post('/proxy/:provider/*splat', async (req: Request, res: Response) => {
   try {
     const gateway = getGateway();
     const userInfo = extractUserInfo(req);
     const provider = req.params.provider;
-    const endpoint = '/' + (req.params as any)[0]; // Capture the wildcard path
+    const endpoint = '/' + ((req.params as any).splat?.[0] || ''); // Capture the wildcard path
 
     const interaction = await gateway.processRequest({
       provider,
