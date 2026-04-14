@@ -52,7 +52,17 @@ export const CendiaStampSeal: React.FC<CendiaStampSealProps> = ({
         if (res.ok) {
           const svg = await res.text();
           if (svg.includes('<svg')) {
-            setSvgContent(svg);
+            // SECURITY: Sanitize SVG — strip <script>, event handlers, and foreign objects
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(svg, 'image/svg+xml');
+            doc.querySelectorAll('script, foreignObject').forEach(el => el.remove());
+            doc.querySelectorAll('*').forEach(el => {
+              for (const attr of Array.from(el.attributes)) {
+                if (attr.name.startsWith('on')) el.removeAttribute(attr.name);
+              }
+            });
+            const sanitized = new XMLSerializer().serializeToString(doc.documentElement);
+            setSvgContent(sanitized);
           } else {
             setUseFallback(true);
           }

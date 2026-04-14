@@ -321,9 +321,12 @@ services:
     restart: unless-stopped
     ports:
       - "8200:8200"
+    # SECURITY (C6 audit fix): Run Vault in server mode, not dev mode.
+    # Dev mode stores secrets in-memory (lost on restart) with no auth backend.
+    command: vault server -config=/vault/config/vault.hcl
     environment:
-      - VAULT_DEV_ROOT_TOKEN_ID=${VAULT_TOKEN}
-      - VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200
+      - VAULT_ADDR=http://127.0.0.1:8200
+      - VAULT_API_ADDR=http://vault:8200
     cap_add:
       - IPC_LOCK
     volumes:

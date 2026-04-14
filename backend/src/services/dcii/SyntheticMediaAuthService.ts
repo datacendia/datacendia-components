@@ -257,7 +257,7 @@ class SyntheticMediaAuthService {
     });
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaMediaAuth] loadFromDB failed', err));
   }
 
   private async initFromDb(): Promise<void> {
@@ -374,7 +374,7 @@ class SyntheticMediaAuthService {
     };
 
     this.assets.set(assetId, asset);
-    this.persistAsset(asset).catch(() => {});
+    this.persistAsset(asset).catch((err) => logger.error(`[CendiaMediaAuth] CRITICAL: Failed to persist asset ${assetId}`, err));
     logger.info(`[CendiaMediaAuth] Media signed: ${fileName} (${assetId})`);    
     return asset;
   }
@@ -442,8 +442,8 @@ class SyntheticMediaAuthService {
     asset.authenticity = assessment;
     asset.lastVerifiedAt = new Date();
     this.assessments.set(assessmentId, assessment);
-    this.persistAssessmentDb(assessment).catch(() => {});
-    this.persistAsset(asset).catch(() => {});
+    this.persistAssessmentDb(assessment).catch((err) => logger.error(`[CendiaMediaAuth] Failed to persist assessment ${assessmentId}`, err));
+    this.persistAsset(asset).catch((err) => logger.error(`[CendiaMediaAuth] Failed to persist asset ${assetId}`, err));
 
     this.addCustodyEntry(assetId, 'verified', analyzedBy, 'analyst', `Authenticity analysis: ${verdict} (${confidenceScore}%)`);
 

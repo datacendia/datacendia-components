@@ -124,7 +124,7 @@ export class KeyManagementService {
     this.localKeyDir = this.config.localKeyPath || '/var/datacendia/keys';
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[KeyManagementService] loadFromDB failed', err));
   }
 
   // ===========================================================================

@@ -214,7 +214,7 @@ class PortableInstanceService extends EventEmitter {
     logger.info('[PortableInstance] Service initialized - USB deployment ready');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[PortableInstance] loadFromDB failed', err));
   }
 
   private ensureDirectories(): void {

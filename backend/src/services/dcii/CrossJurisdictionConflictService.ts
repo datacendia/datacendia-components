@@ -325,7 +325,7 @@ class CrossJurisdictionConflictService {
     });
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaJurisdiction] loadFromDB failed', err));
   }
 
   private async initFromDb(): Promise<void> {
@@ -448,7 +448,7 @@ class CrossJurisdictionConflictService {
       .digest('hex');
 
     this.assessments.set(assessment.id, assessment);
-    this.persistAssessmentDb(assessment).catch(() => {});
+    this.persistAssessmentDb(assessment).catch((err) => logger.error(`[CendiaJurisdiction] Failed to persist assessment ${assessment.id}`, err));
     logger.info(`[CendiaJurisdiction] Assessment for ${organizationName}: ${conflicts.length} conflicts, risk: ${overallRisk}`);
     return assessment;
   }
@@ -491,7 +491,7 @@ class CrossJurisdictionConflictService {
 
         detectedConflicts.push(conflict);
         this.conflicts.set(conflict.id, conflict);
-        this.persistConflict(conflict).catch(() => {});
+        this.persistConflict(conflict).catch((err) => logger.error(`[CendiaJurisdiction] Failed to persist conflict ${conflict.id}`, err));
       }
     }
 
@@ -594,11 +594,11 @@ class CrossJurisdictionConflictService {
 
     doc.integrity.documentHash = crypto.createHash('sha256').update(JSON.stringify(doc)).digest('hex');
     this.goodFaithDocs.set(doc.id, doc);
-    this.persistGoodFaithDoc(doc).catch(() => {});
+    this.persistGoodFaithDoc(doc).catch((err) => logger.error(`[CendiaJurisdiction] Failed to persist good faith doc ${doc.id}`, err));
 
     conflict.goodFaithDocumentation = doc;
     conflict.status = 'resolution_proposed';
-    this.persistConflict(conflict).catch(() => {});
+    this.persistConflict(conflict).catch((err) => logger.error(`[CendiaJurisdiction] Failed to persist updated conflict ${conflict.id}`, err));
 
     logger.info(`[CendiaJurisdiction] Good-faith document generated for conflict ${conflictId}`);
     return doc;
@@ -676,7 +676,7 @@ class CrossJurisdictionConflictService {
 
     packet.integrity.packetHash = crypto.createHash('sha256').update(JSON.stringify({ id: packet.id, jurisdiction, framework })).digest('hex');
     this.evidencePackets.set(packet.id, packet);
-    this.persistEvidencePacket(packet).catch(() => {});
+    this.persistEvidencePacket(packet).catch((err) => logger.error(`[CendiaJurisdiction] Failed to persist evidence packet ${packet.id}`, err));
 
     logger.info(`[CendiaJurisdiction] Evidence packet generated: ${packet.title}`);
     return packet;

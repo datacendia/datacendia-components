@@ -190,7 +190,7 @@ export class PostQuantumKMSService {
     logger.info('[CendiaQuantumKMS] Real Post-Quantum KMS initialized — ML-DSA (Dilithium) + SLH-DSA (SPHINCS+) via @noble/post-quantum');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaQuantumKMS] loadFromDB failed', err));
   }
 
   /**

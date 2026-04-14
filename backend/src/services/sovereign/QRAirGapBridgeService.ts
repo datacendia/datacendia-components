@@ -249,7 +249,7 @@ class QRAirGapBridgeService extends EventEmitter {
     logger.info('[QRAirGapBridge] Service initialized - Zero-media transfer ready');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[QRAirGapBridge] loadFromDB failed', err));
   }
 
   // ===========================================================================

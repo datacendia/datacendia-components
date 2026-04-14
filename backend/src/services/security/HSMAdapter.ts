@@ -98,7 +98,7 @@ export class HSMAdapter {
     };
 
     logger.info(`[CendiaHSM] Adapter initialized — provider: ${this.config.provider}`);
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaHSM] loadFromDB failed', err));
   }
 
   /**

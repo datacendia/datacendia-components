@@ -219,7 +219,7 @@ class CognitiveBiasMitigationService {
     logger.info('[CendiaBiasMitigation] Cognitive Bias Mitigation Service™ initialized — 12 bias types active');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CognitiveBiasMitigation] loadFromDB failed', err));
   }
 
   private async ensureDbLoaded(): Promise<void> {

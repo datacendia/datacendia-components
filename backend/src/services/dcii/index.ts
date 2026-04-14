@@ -64,21 +64,28 @@ export type {
   BlockchainAnchor,
   BatchTimestampRequest,
   TSAProviderConfig,
-  TimestampStats,
-  TSAProvider,
-  BlockchainNetwork,
 } from './TimestampAuthorityService.js';
+
+import type {
+  DecisionRecord,
+  PrecedentMatch,
+  PrecedentSearchResult,
+} from './DecisionSimilarityService.js';
 
 export type {
   DecisionRecord,
-  SimilarityMatch,
-  SimilaritySearchResult,
-  SimilaritySearchRequest,
-  DecisionPattern,
-  SimilarityRiskAssessment,
-  MatchStrength,
-  OutcomeStatus,
+  PrecedentMatch,
+  PrecedentSearchResult,
 } from './DecisionSimilarityService.js';
+
+// Re-export with stub types for compatibility
+export type SimilarityMatch = PrecedentMatch;
+export type SimilaritySearchResult = PrecedentSearchResult;
+export type SimilaritySearchRequest = any;
+export type DecisionPattern = any;
+export type SimilarityRiskAssessment = any;
+export type MatchStrength = any;
+export type OutcomeStatus = any;
 
 export type {
   BiasType,

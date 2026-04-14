@@ -64,7 +64,6 @@ const logDSRAction = async (
         action,
         resource_type: 'user',
         resource_id: targetUserId,
-        metadata: metadata || {},
         created_at: new Date(),
       },
     });
@@ -109,7 +108,7 @@ router.get('/export/:userId', async (req: Request, res: Response, next: NextFunc
         where: { user_id: targetUserId },
       }),
       prisma.deliberations.findMany({
-        where: { user_id: targetUserId },
+        where: { organization_id: req.organizationId },
       }),
       prisma.audit_logs.findMany({
         where: { user_id: targetUserId },
@@ -145,10 +144,10 @@ router.get('/export/:userId', async (req: Request, res: Response, next: NextFunc
       })),
       deliberations: deliberations.map(d => ({
         id: d.id,
-        decision_id: d.decision_id,
+        decision: d.decision,
         status: d.status,
         created_at: d.created_at,
-        updated_at: d.updated_at,
+        completed_at: d.completed_at,
       })),
       auditLogs: auditLogs.map(log => ({
         id: log.id,
@@ -217,14 +216,13 @@ router.delete('/delete/:userId', async (req: Request, res: Response, next: NextF
       await tx.audit_logs.updateMany({
         where: { user_id: targetUserId },
         data: {
-          metadata: { _redacted: true, original_user: '[REDACTED]' },
           user_id: 'REDACTED_USER',
         },
       });
       
       // Hard delete deliberations
       await tx.deliberations.deleteMany({
-        where: { user_id: targetUserId },
+        where: { organization_id: req.organizationId },
       });
       
       // Hard delete decisions
@@ -315,7 +313,7 @@ router.patch('/rectify/:userId', async (req: Request, res: Response, next: NextF
       data: {
         name: data.name,
         email: data.email,
-        preferences: data.preferences,
+        preferences: data.preferences as any,
         updated_at: new Date(),
       },
     });
@@ -384,7 +382,7 @@ router.get('/portable/:userId', async (req: Request, res: Response, next: NextFu
         where: { user_id: targetUserId },
       }),
       prisma.deliberations.findMany({
-        where: { user_id: targetUserId },
+        where: { organization_id: req.organizationId },
       }),
     ]);
     
@@ -412,10 +410,10 @@ router.get('/portable/:userId', async (req: Request, res: Response, next: NextFu
         })),
         deliberations: deliberations.map(d => ({
           id: d.id,
-          decision_id: d.decision_id,
+          decision: d.decision,
           status: d.status,
           created: d.created_at?.toISOString(),
-          updated: d.updated_at?.toISOString(),
+          completed: d.completed_at?.toISOString(),
         })),
       },
     };

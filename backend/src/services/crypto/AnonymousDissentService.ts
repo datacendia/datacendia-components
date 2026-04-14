@@ -30,7 +30,7 @@
 // Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
-import { RistrettoPoint } from '@noble/curves/ed25519';
+import { ed25519 } from '@noble/curves/ed25519.js';
 
 
 
@@ -42,11 +42,13 @@ import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from
 // CONSTANTS
 // =============================================================================
 
-const G = RistrettoPoint.BASE;
+// @noble/curves v2 API - use Point instead of ExtendedPoint
+const G = ed25519.ExtendedPoint.BASE;
 const ORDER = BigInt('7237005577332262213973186563042994240857116359379907606001950938285454250989');
 
 // Second generator for key images (nothing-up-my-sleeve)
-const H_POINT = RistrettoPoint.hashToCurve(sha512(utf8ToBytes('cendia-whistle-key-image-generator-v1')));
+// @noble/curves v2 API - hashToCurve might be on utils or different structure
+const H_POINT = ed25519.ExtendedPoint.hashToCurve(sha512(utf8ToBytes('cendia-whistle-key-image-generator-v1')));
 
 // =============================================================================
 // TYPES

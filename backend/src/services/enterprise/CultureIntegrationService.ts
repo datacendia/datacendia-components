@@ -220,7 +220,7 @@ class CendiaMeshService {
     logger.info('CendiaMesh™ initialized - The Cultural Integrator is ready');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CultureIntegration] loadFromDB failed', err));
   }
 
   // ---------------------------------------------------------------------------

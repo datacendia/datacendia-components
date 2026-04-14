@@ -133,7 +133,7 @@ export class SSOService {
 
   constructor() {
     logger.info('[CendiaSSO] Enterprise SSO Service initialized — SAML 2.0 + OIDC + SCIM 2.0');
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaSSO] loadFromDB failed', err));
   }
 
   /**

@@ -103,7 +103,7 @@ class Groth16ProofService {
     logger.info('[Groth16] Groth16 Proof Service initialized (snarkjs, BN128 curve)');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[Groth16ProofService] loadFromDB failed', err));
   }
 
   /**

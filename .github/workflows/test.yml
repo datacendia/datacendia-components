@@ -73,7 +73,6 @@ jobs:
       - name: Type check
         working-directory: backend
         run: npx tsc --noEmit --skipLibCheck
-        continue-on-error: true
 
       - name: Run unit tests
         working-directory: backend
@@ -105,7 +104,6 @@ jobs:
 
       - name: Type check
         run: npx tsc --noEmit --skipLibCheck
-        continue-on-error: true
 
       - name: Build
         run: npx vite build

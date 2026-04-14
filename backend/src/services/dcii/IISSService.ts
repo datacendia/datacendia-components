@@ -73,7 +73,7 @@ class IISSService {
     });
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaIISS] loadFromDB failed', err));
   }
 
   private async initFromDb(): Promise<void> {
@@ -185,7 +185,7 @@ class IISSService {
       auditTrail: [{ timestamp: new Date(), action: 'assessment_initiated', actor: initiatedBy, details: 'Automated IISS assessment started' }],
     };
     this.assessments.set(assessmentId, assessment);
-    this.persistAssessment(assessment).catch(() => {});
+    this.persistAssessment(assessment).catch((err) => logger.error(`[CendiaIISS] Failed to persist assessment ${assessmentId}`, err));
 
     const dimensions = await this.assessDimensions(organizationId);
     const overallScore = this.computeOverallScore(dimensions);
@@ -235,7 +235,7 @@ class IISSService {
     };
 
     this.scores.set(score.id, score);
-    this.persistScore(score).catch(() => {});
+    this.persistScore(score).catch((err) => logger.error(`[CendiaIISS] Failed to persist score ${score.id}`, err));
 
     const historyEntry: IISSHistoryEntry = {
       assessmentId,
@@ -247,14 +247,14 @@ class IISSService {
     const orgHistory = this.history.get(organizationId) || [];
     orgHistory.push(historyEntry);
     this.history.set(organizationId, orgHistory);
-    this.persistHistory(organizationId, historyEntry).catch(() => {});
+    this.persistHistory(organizationId, historyEntry).catch((err) => logger.error(`[CendiaIISS] Failed to persist history for ${organizationId}`, err));
 
     assessment.status = 'completed';
     assessment.completedAt = new Date();
     assessment.expiresAt = score.validUntil;
     assessment.score = score;
     assessment.auditTrail.push({ timestamp: new Date(), action: 'assessment_completed', actor: 'system', details: `Score: ${overallScore}, Band: ${band}` });
-    this.persistAssessment(assessment).catch(() => {});
+    this.persistAssessment(assessment).catch((err) => logger.error(`[CendiaIISS] Failed to persist completed assessment ${assessmentId}`, err));
 
     logger.info(`[CendiaIISS] Score calculated for ${organizationName}: ${overallScore} (${band})`);
     return score;

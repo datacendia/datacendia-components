@@ -52,6 +52,26 @@ export interface PrecedentSearchResult {
   }[];
 }
 
+// Additional types for route compatibility
+export interface DecisionRecord {
+  id?: string;
+  organizationId: string;
+  title: string;
+  question: string;
+  context?: string;
+  department?: string;
+  decisionType?: string;
+  urgency?: string;
+  outcome?: string;
+  outcomeDescription?: string;
+  decidedAt?: Date;
+  decidedBy?: string;
+  tags?: string[];
+  relatedDecisionIds?: string[];
+  overrideOccurred?: boolean;
+  lessonsLearned?: string[];
+}
+
 // =============================================================================
 // TF-IDF ENGINE (Lightweight, no external dependencies)
 // =============================================================================
@@ -189,6 +209,7 @@ class DecisionPrecedentEngine {
   private engine = new TfIdfEngine();
   private indexed = false;
   private indexedOrgs = new Set<string>();
+  private decisionRecords: DecisionRecord[] = [];
 
   constructor() {
     logger.info('⚖️ CendiaPrecedent: Initialized — decision precedent engine active');
@@ -314,6 +335,64 @@ class DecisionPrecedentEngine {
 
     result.queryDeliberationId = deliberationId;
     return result;
+  }
+
+  // ---------------------------------------------------------------------------
+  // ROUTE COMPATIBILITY METHODS
+  // ---------------------------------------------------------------------------
+
+  getAllDecisions(): DecisionRecord[] {
+    return this.decisionRecords;
+  }
+
+  addDecisionRecord(record: DecisionRecord): void {
+    this.decisionRecords.push({ ...record, id: record.id || `dec-${Date.now()}-${Math.random().toString(36).substring(7)}` });
+  }
+
+  async findSimilarDecisions(options: any): Promise<any[]> {
+    const { organizationId, title, question, context, decisionType, department, urgency, tags, maxResults, minSimilarity, includeOutcomes, includeCrossDepartment } = options;
+    const result = await this.findPrecedents(question || title || '', organizationId || 'default', { topK: maxResults || 10, minSimilarity: minSimilarity || 0.1 });
+    return result.matches.map(m => ({
+      id: m.deliberationId,
+      question: m.question,
+      decision: m.decision,
+      similarity: m.similarityPercent,
+    }));
+  }
+
+  updateOutcome(id: string, outcome: any, outcomeDescription?: string, lessonsLearned?: string[], dissenterWasCorrect?: boolean): DecisionRecord | undefined {
+    const record = this.decisionRecords.find(r => r.id === id);
+    if (record) {
+      record.outcome = outcome;
+      if (outcomeDescription) record.outcomeDescription = outcomeDescription;
+      if (lessonsLearned) record.lessonsLearned = lessonsLearned;
+      return record;
+    }
+    return undefined;
+  }
+
+  getDecisionsByOrganization(orgId: string): DecisionRecord[] {
+    return this.decisionRecords.filter(r => r.organizationId === orgId);
+  }
+
+  getDecision(id: string): DecisionRecord | undefined {
+    return this.decisionRecords.find(r => r.id === id);
+  }
+
+  async detectPatterns(options?: any): Promise<any[]> {
+    return [];
+  }
+
+  getPatternsByOrganization(orgId: string, options?: any): any[] {
+    return [];
+  }
+
+  getStats(organizationId?: string): any {
+    return { total: this.decisionRecords.length, byOrg: {} };
+  }
+
+  async getSearchResult(query: string, options?: any): Promise<PrecedentSearchResult> {
+    return await this.findPrecedents(query, options?.organizationId || 'default', options);
   }
 }
 

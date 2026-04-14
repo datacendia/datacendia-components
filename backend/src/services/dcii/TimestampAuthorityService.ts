@@ -249,7 +249,7 @@ class TimestampAuthorityService {
     });
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaTimestamp] loadFromDB failed', err));
   }
 
   private async initFromDb(): Promise<void> {
@@ -377,7 +377,7 @@ class TimestampAuthorityService {
     token.expiresAt = new Date(Date.now() + 10 * 365 * 24 * 60 * 60 * 1000); // 10-year retention
 
     this.tokens.set(tokenId, token);
-    this.persistToken(token).catch(() => {});
+    this.persistToken(token).catch((err) => logger.error(`[CendiaTimestamp] CRITICAL: Failed to persist token ${tokenId}`, err));
     logger.info(`[CendiaTimestamp] Token issued: ${tokenId} for "${description}" (${dataType})`);    
     return token;
   }
@@ -466,7 +466,7 @@ class TimestampAuthorityService {
     };
 
     this.batches.set(batchId, batch);
-    this.persistBatch(batch).catch(() => {});
+    this.persistBatch(batch).catch((err) => logger.error(`[CendiaTimestamp] Failed to persist batch ${batchId}`, err));
 
     // Issue individual timestamps
     for (const item of items) {
@@ -487,7 +487,7 @@ class TimestampAuthorityService {
 
     batch.status = batch.tokensIssued.length === items.length ? 'completed' : 'partial_failure';
     batch.completedAt = new Date();
-    this.persistBatch(batch).catch(() => {});
+    this.persistBatch(batch).catch((err) => logger.error(`[CendiaTimestamp] Failed to persist completed batch ${batch.id}`, err));
 
     logger.info(`[CendiaTimestamp] Batch completed: ${batch.tokensIssued.length}/${items.length} tokens`);
     return batch;
@@ -620,8 +620,8 @@ class TimestampAuthorityService {
     token.status = overallValid ? 'verified' : 'failed';
     token.verifiedAt = new Date();
     this.verifications.set(verification.id, verification);
-    this.persistVerification(verification).catch(() => {});
-    this.persistToken(token).catch(() => {});
+    this.persistVerification(verification).catch((err) => logger.error(`[CendiaTimestamp] Failed to persist verification ${verification.id}`, err));
+    this.persistToken(token).catch((err) => logger.error(`[CendiaTimestamp] Failed to persist verified token ${tokenId}`, err));
 
     logger.info(`[CendiaTimestamp] Token ${tokenId} verification: ${overallValid ? 'VALID' : 'INVALID'}`);
     return verification;

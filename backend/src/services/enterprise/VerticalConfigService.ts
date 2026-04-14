@@ -392,7 +392,7 @@ class VerticalConfigService extends EventEmitter {
     logger.info('[VerticalConfig] Service initialized');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[VerticalConfig] loadFromDB failed', err));
   }
 
   private initializeDefaultOrg(): void {

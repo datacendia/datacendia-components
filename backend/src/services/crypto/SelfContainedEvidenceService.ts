@@ -29,7 +29,7 @@
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { keyManagementService } from './KeyManagementService.js';
+import { keyManagementService } from '../security/KeyManagementService.js';
 import { cendiaStampService } from './CendiaStampService.js';
 import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
 
@@ -121,8 +121,8 @@ export class SelfContainedEvidenceService {
     // 7. Public keys
     try {
       await keyManagementService.initialize();
-      const keys = keyManagementService.getPublicKeys();
-      files.push(this.createFile('public-keys.json', JSON.stringify(keys, null, 2), 'application/json'));
+      const publicKey = keyManagementService.getPublicKey();
+      files.push(this.createFile('public-keys.json', JSON.stringify(publicKey, null, 2), 'application/json'));
     } catch {
       // KMS not available
     }

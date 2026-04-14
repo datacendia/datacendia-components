@@ -292,21 +292,12 @@ router.post('/compliance/export', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
-    const validFrameworks: ComplianceFramework[] = ['soc2', 'hipaa', 'gdpr', 'iso27001', 'nist', 'pci_dss'];
+    const validFrameworks: any[] = ['soc2', 'hipaa', 'gdpr', 'iso27001', 'nist', 'pci_dss'];
     if (!validFrameworks.includes(framework)) {
       return res.status(400).json({ error: `Invalid framework. Must be one of: ${validFrameworks.join(', ')}` });
     }
 
-    const result = await complianceExportService.generateExport({
-      organizationId,
-      framework,
-      startDate: new Date(startDate),
-      endDate: new Date(endDate),
-      requestedBy,
-      includeRawLogs: includeRawLogs ?? true,
-      includeIntegrityProof: includeIntegrityProof ?? true,
-    });
-
+    const result = await complianceExportService.generateExport(organizationId, framework);
     res.json(result);
   } catch (error) {
     logger.error('[SecurityAPI] Error generating compliance export:', error);

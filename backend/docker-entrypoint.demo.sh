@@ -18,7 +18,7 @@ echo "PostgreSQL is ready."
 echo "Running Prisma migrations..."
 npx prisma migrate deploy --schema=prisma/schema 2>&1 || {
   echo "Falling back to db push..."
-  npx prisma db push --schema=prisma/schema --accept-data-loss 2>&1 || {
+  npx prisma db push --schema=prisma/schema 2>&1 || {
     echo "Warning: Schema push failed. Starting anyway..."
   }
 }

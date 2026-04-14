@@ -41,11 +41,9 @@ jobs:
 
       - name: Type check
         run: npx tsc --noEmit --skipLibCheck
-        continue-on-error: true
 
       - name: Lint
         run: npx eslint src --ext .ts,.tsx --report-unused-disable-directives --max-warnings -1
-        continue-on-error: true
 
       - name: Build
         run: npx vite build
@@ -116,12 +114,10 @@ jobs:
       - name: Type check
         working-directory: backend
         run: npx tsc --noEmit --skipLibCheck
-        continue-on-error: true
 
       - name: Lint
         working-directory: backend
         run: npm run lint
-        continue-on-error: true
 
       - name: Verify Prisma schema is in sync
         working-directory: backend

@@ -63,6 +63,7 @@ const AGENT_COLORS = [
 
 class DecisionReplayTheaterServiceImpl {
   private replayCache = new Map<string, ReplayData>();
+  private playbackStates = new Map<string, { playing: boolean; speed: number; currentFrame: number; currentTime: number }>();
 
   constructor() {
     logger.info('🎬 CendiaReplay: Initialized — decision replay theater active');
@@ -408,6 +409,63 @@ function reset() {
 
   getReplay(deliberationId: string): ReplayData | undefined {
     return this.replayCache.get(deliberationId);
+  }
+
+  // ---------------------------------------------------------------------------
+  // ROUTE COMPATIBILITY METHODS
+  // ---------------------------------------------------------------------------
+
+  async createReplaySession(deliberationId: string): Promise<{ sessionId: string; replayId: string; deliberationId: string; totalFrames: number }> {
+    const data = await this.generateReplayData(deliberationId);
+    const sessionId = `session-${crypto.randomBytes(8).toString('hex')}`;
+    this.playbackStates.set(sessionId, { playing: false, speed: 1, currentFrame: 0, currentTime: 0 });
+    return { sessionId, replayId: data.replayId, deliberationId, totalFrames: data.events.length };
+  }
+
+  startPlayback(sessionId: string, speed?: number): { playing: boolean; speed?: number } {
+    const state = this.playbackStates.get(sessionId);
+    if (state) {
+      state.playing = true;
+      if (speed) state.speed = speed;
+    }
+    return { playing: true, speed: state?.speed };
+  }
+
+  pausePlayback(sessionId: string): { playing: boolean } {
+    const state = this.playbackStates.get(sessionId);
+    if (state) state.playing = false;
+    return { playing: false };
+  }
+
+  seekToFrame(sessionId: string, frame: number, options?: any): { currentFrame: number } {
+    const state = this.playbackStates.get(sessionId);
+    if (state) state.currentFrame = frame;
+    return { currentFrame: frame };
+  }
+
+  seekToTime(sessionId: string, time: number, options?: any): { currentTime: number } {
+    const state = this.playbackStates.get(sessionId);
+    if (state) state.currentTime = time;
+    return { currentTime: time };
+  }
+
+  setPlaybackSpeed(sessionId: string, speed: number): { speed: number } {
+    const state = this.playbackStates.get(sessionId);
+    if (state) state.speed = speed;
+    return { speed };
+  }
+
+  getPlaybackState(sessionId: string): { playing: boolean; speed: number; currentFrame: number; currentTime: number } {
+    return this.playbackStates.get(sessionId) || { playing: false, speed: 1, currentFrame: 0, currentTime: 0 };
+  }
+
+  async exportSession(sessionId: string, deliberationId: string): Promise<string> {
+    return await this.generateReplayHTML(deliberationId);
+  }
+
+  endSession(sessionId: string): { success: boolean } {
+    this.playbackStates.delete(sessionId);
+    return { success: true };
   }
 }
 

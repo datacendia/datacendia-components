@@ -540,7 +540,7 @@ class ImmutableAuditLedger {
     this.entries.push(entry);
 
     // Persist to PostgreSQL (non-blocking — don't fail the append if DB is down)
-    this.persistEntry(entry).catch(() => {});
+    this.persistEntry(entry).catch((err) => logger.error(`[ImmutableLedger] CRITICAL: Failed to persist audit entry ${entry.index}`, err));
 
     // Create block if we've reached block size
     if (this.entries.length % this.BLOCK_SIZE === 0) {
@@ -584,7 +584,7 @@ class ImmutableAuditLedger {
     this.blocks.push(block);
 
     // Persist block to PostgreSQL
-    this.persistBlock(block).catch(() => {});
+    this.persistBlock(block).catch((err) => logger.error(`[ImmutableLedger] CRITICAL: Failed to persist audit block ${block.blockNumber}`, err));
 
     logger.info(`[ImmutableLedger] Block ${block.blockNumber} created with ${blockEntries.length} entries`);
     return block;

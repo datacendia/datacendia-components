@@ -12,8 +12,8 @@
 // Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
-import { ed25519 } from '@noble/curves/ed25519';
-import { ml_dsa65 } from '@noble/post-quantum/ml-dsa';
+import { ed25519 } from '@noble/curves/ed25519.js';
+import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 
 
 

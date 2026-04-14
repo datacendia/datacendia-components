@@ -188,7 +188,7 @@ class ShadowCouncilService extends EventEmitter {
     logger.info('[ShadowCouncil] Service initialized - Sandbox deliberation ready');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[ShadowCouncil] loadFromDB failed', err));
   }
 
   // ===========================================================================

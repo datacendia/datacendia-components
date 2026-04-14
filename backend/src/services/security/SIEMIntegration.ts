@@ -107,7 +107,7 @@ class SIEMIntegrationService {
     setInterval(() => this.flushAllBuffers(), 30000);
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[SIEMIntegration] loadFromDB failed', err));
   }
 
   /**

@@ -164,7 +164,7 @@ export class ZeroKnowledgeProofService {
     logger.info('[CendiaZKP] Real Zero-Knowledge Proof Service initialized — Schnorr sigma protocols on secp256k1 via @noble/curves');
 
 
-    this.loadFromDB().catch(() => {});
+    this.loadFromDB().catch((err) => logger.warn('[CendiaZKP] loadFromDB failed', err));
   }
 
   /**

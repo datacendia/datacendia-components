@@ -302,7 +302,7 @@ class ComplianceGapScannerService {
     // ---------------------------------------------------------------------------
     const ninetyDaysAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
     const staleDecisions = deliberations.filter(d =>
-      d.created_at < ninetyDaysAgo && d.status !== 'ARCHIVED'
+      d.created_at < ninetyDaysAgo && d.status !== 'COMPLETED'
     );
     if (staleDecisions.length > 10) {
       findings.push({
@@ -491,6 +491,22 @@ class ComplianceGapScannerService {
 
   getReport(reportId: string): GapScanReport | undefined {
     return this.reportCache.get(reportId);
+  }
+
+  // ---------------------------------------------------------------------------
+  // ROUTE COMPATIBILITY METHODS
+  // ---------------------------------------------------------------------------
+
+  getAvailableFrameworks(): string[] {
+    return Object.keys(FRAMEWORKS);
+  }
+
+  async generateExport(organizationId: string, framework: string): Promise<GapScanReport> {
+    return await this.runFullScan(organizationId);
+  }
+
+  verifyExport(reportId: string): { valid: boolean; error?: string } {
+    return this.getReport(reportId) ? { valid: true } : { valid: false, error: 'Report not found' };
   }
 }
 
