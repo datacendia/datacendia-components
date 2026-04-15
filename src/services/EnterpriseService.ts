@@ -19,7 +19,6 @@ import { logger } from '../lib/logger';
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
-import { deterministicInt } from '../lib/deterministic';
 
 // =============================================================================
 // AUTOPILOT TYPES
@@ -514,7 +513,7 @@ class EnterpriseService {
                 ? 'hris'
                 : 'communication',
         status: 'connected',
-        health: deterministicInt(95, 99, 'ent-health', name),
+        health: 98, // Default health - should come from real API
       });
     });
 
@@ -612,12 +611,26 @@ class EnterpriseService {
     ).length;
     const escalated = decisions.filter((d) => d.status === 'escalated').length;
 
-    const categories = Object.keys(CATEGORY_CONFIG).map((cat) => ({
-      category: cat as DecisionCategory,
-      score: deterministicInt(75, 94, 'ent-score', cat),
-      trend: (['up', 'down', 'stable'] as const)[deterministicInt(0, 2, 'ent-trend', cat)],
-      activeDecisions: decisions.filter((d) => d.category === cat && d.status === 'pending').length,
-    }));
+    const categories = Object.keys(CATEGORY_CONFIG).map((cat) => {
+      const catDecisions = decisions.filter((d) => d.category === cat);
+      const pendingCount = catDecisions.filter((d) => d.status === 'pending').length;
+      const totalCount = catDecisions.length;
+      
+      // Calculate score based on real decision data
+      const score = totalCount > 0 
+        ? Math.round(100 - (pendingCount / totalCount) * 30)
+        : 95; // Default healthy score
+      
+      // Trend is stable for now - should be calculated from historical data
+      const trend: 'up' | 'down' | 'stable' = 'stable';
+      
+      return {
+        category: cat as DecisionCategory,
+        score,
+        trend,
+        activeDecisions: pendingCount,
+      };
+    });
 
     return {
       overallScore: Math.round(categories.reduce((s, c) => s + c.score, 0) / categories.length),
@@ -925,11 +938,11 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
     integration.status = 'syncing';
     this.integrations.set(id, integration);
 
-    // Simulate sync completion
+    // Simulate sync completion - should be replaced with real API call
     setTimeout(() => {
       integration.status = 'connected';
       integration.lastSync = new Date();
-      integration.recordsSync += deterministicInt(100, 999, 'ent-sync', integration.name);
+      integration.recordsSync += 500; // Fixed increment - should come from real sync API
       this.saveToStorage();
     }, 2000);
 

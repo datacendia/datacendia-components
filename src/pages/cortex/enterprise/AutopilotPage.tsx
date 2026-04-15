@@ -38,7 +38,6 @@ import {
 } from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
 import api from '../../../lib/api';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // Types imported from EnterpriseService
 
@@ -365,12 +364,26 @@ const generateAutomationRules = (): AutomationRule[] => [
 const calculateSystemHealth = (decisions: AutoDecision[]): SystemHealth => {
   const categories: SystemHealth['categories'] = (
     Object.keys(CATEGORY_CONFIG) as DecisionCategory[]
-  ).map((cat) => ({
-    category: cat,
-    score: 70 + deterministicFloat('autopilot-2') * 25,
-    trend: ['up', 'down', 'stable'][deterministicInt(0, 2, 'autopilot-1')] as 'up' | 'down' | 'stable',
-    activeDecisions: decisions.filter((d) => d.category === cat && d.status === 'pending').length,
-  }));
+  ).map((cat) => {
+    const catDecisions = decisions.filter((d) => d.category === cat);
+    const pendingCount = catDecisions.filter((d) => d.status === 'pending').length;
+    const totalCount = catDecisions.length;
+    
+    // Calculate score based on real decision data
+    const score = totalCount > 0 
+      ? Math.round(100 - (pendingCount / totalCount) * 30)
+      : 100;
+    
+    // Determine trend based on recent decisions (simplified for now)
+    const trend: 'up' | 'down' | 'stable' = 'stable';
+    
+    return {
+      category: cat,
+      score,
+      trend,
+      activeDecisions: pendingCount,
+    };
+  });
 
   return {
     overallScore: Math.round(categories.reduce((sum, c) => sum + c.score, 0) / categories.length),
