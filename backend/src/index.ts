@@ -14,7 +14,7 @@
 import express from 'express';
 import { createServer } from 'http';
 import { Server as SocketIOServer } from 'socket.io';
-import { SocketServer } from './websocket/SocketServer.js';
+import { SocketServer } from './websocket/SocketServer';
 
 import { config } from './config/index.js';
 import { logger } from './utils/logger.js';
