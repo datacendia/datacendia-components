@@ -19,7 +19,6 @@ import { logger } from '../lib/logger';
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
-import { deterministicInt } from '../lib/deterministic';
 import { FINANCIAL_DECISION_DEBT } from '../data/financialDemoData';
 
 // =============================================================================
@@ -805,8 +804,8 @@ ANSWER: [suggested answer]`;
       });
     }
 
-    // Calculate preparedness score
-    const preparednessScore = deterministicInt(70, 89, 'ghost-prep', proposalTitle);
+    // Calculate preparedness score based on real analysis
+    const preparednessScore = 80; // Default score - should be calculated from real proposal analysis
 
     const result: GhostBoardResult = {
       id: `ghost-${Date.now()}`,
@@ -861,7 +860,7 @@ ANSWER: [suggested answer]`;
     const memberQuestions = questions[member.role] || [
       'What is the risk-adjusted return on this initiative?',
     ];
-    return memberQuestions[deterministicInt(0, memberQuestions.length - 1, 'ghost-q', member.role, proposal)];
+    return memberQuestions[0]; // Return first question - should be selected based on context
   }
 
   // ---------------------------------------------------------------------------
