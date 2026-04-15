@@ -30,7 +30,6 @@ import { logger } from '../../../lib/logger';
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { meshApi } from '../../../lib/api';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES
@@ -528,7 +527,7 @@ export const MeshPage: React.FC = () => {
             id: b.id,
             name: b.name,
             category: b.category,
-            yourValue: b.p50_value * (0.9 + deterministicFloat('mesh-1') * 0.3), // Simulated "your value"
+            yourValue: b.your_value || b.p50_value, // Use real your_value if available, otherwise p50
             industryP25: b.p25_value,
             industryP50: b.p50_value,
             industryP75: b.p75_value,
@@ -763,9 +762,10 @@ export const MeshPage: React.FC = () => {
             <div className="grid grid-cols-4 gap-4">
               {(Object.keys(INDUSTRY_CONFIG) as Industry[]).map((industry) => {
                 const config = INDUSTRY_CONFIG[industry];
-                const participants = Math.floor(
-                  networkStats.totalParticipants * (0.08 + deterministicFloat('mesh-2') * 0.12)
-                );
+                // Use real participant data if available from API, otherwise show loading state
+                const participants = networkStats.totalParticipants > 0
+                  ? Math.floor(networkStats.totalParticipants / 8) // Even distribution for now
+                  : 0;
                 return (
                   <div
                     key={industry}
@@ -791,7 +791,9 @@ export const MeshPage: React.FC = () => {
                       <div
                         className={`h-full bg-gradient-to-r ${config.color}`}
                         style={{
-                          width: `${(participants / networkStats.totalParticipants) * 100 * 5}%`,
+                          width: networkStats.totalParticipants > 0
+                            ? `${(participants / networkStats.totalParticipants) * 100}%`
+                            : '0%',
                         }}
                       />
                     </div>
