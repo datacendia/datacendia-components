@@ -19,7 +19,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import apiClient from '../../../lib/api/client';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
 import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
@@ -108,70 +107,44 @@ const AGENTS = [
   { id: 'vendor_manager', name: 'Vendor Manager', color: 'bg-orange-500', textColor: 'text-orange-500' },
 ];
 
-// TR Demo: Petrov Transfer scenario - inject this action periodically
-const TR_DEMO_ACTION: AgentAction = {
-  id: 'tr-petrov-transfer',
-  timestamp: new Date(),
-  agentId: 'treasury_bot',
-  agentName: 'Treasury Bot',
-  agentColor: 'bg-yellow-500',
-  action: 'transfer_funds',
-  decision: 'ESCALATE',
-  riskScore: 67,
-  latencyMs: 23,
-  framework: 'Basel-III',
-  citation: '§4.2.1 - PEP Enhanced Due Diligence',
-};
-
-const ACTIONS = [
-  'query_database', 'modify_record', 'approve_request', 'transfer_funds',
-  'access_pii', 'generate_report', 'send_email', 'update_config',
-  'escalate_ticket', 'close_account', 'schedule_task', 'delete_record',
-  'export_data', 'import_batch', 'validate_identity', 'process_payment',
-  'review_contract', 'sign_document', 'archive_file', 'restore_backup',
-];
-
-const FRAMEWORKS = [
-  'HIPAA', 'GDPR', 'SOC2', 'PCI-DSS', 'CCPA', 'NIST-800-53',
-  'FedRAMP', 'ISO-27001', 'Basel-III', 'MiFID-II', 'CMMC',
-];
-
 // =============================================================================
 // HELPER FUNCTIONS
 // =============================================================================
 
-function generateAction(): AgentAction {
-  const agent = AGENTS[Math.floor(deterministicFloat('liveagentmonitor-8') * AGENTS.length)];
-  const action = ACTIONS[Math.floor(deterministicFloat('liveagentmonitor-9') * ACTIONS.length)];
-  const riskScore = deterministicInt(0, 99, 'liveagentmonitor-1');
-
-  let decision: AgentAction['decision'];
-  if (riskScore >= 85) {
-    decision = 'BLOCK';
-  } else if (riskScore >= 60) {
-    decision = deterministicFloat('liveagentmonitor-6') > 0.5 ? 'ESCALATE' : 'ALLOW';
-  } else if (riskScore >= 40) {
-    decision = deterministicFloat('liveagentmonitor-7') > 0.8 ? 'ESCALATE' : 'ALLOW';
-  } else {
-    decision = 'ALLOW';
-  }
-
-  const needsCitation = riskScore >= 40 || ['access_pii', 'transfer_funds', 'delete_record', 'export_data'].includes(action);
-  const framework = needsCitation ? FRAMEWORKS[Math.floor(deterministicFloat('liveagentmonitor-10') * FRAMEWORKS.length)] : undefined;
-  const citation = framework ? `§${deterministicInt(0, 499, 'liveagentmonitor-2')}.${deterministicInt(0, 99, 'liveagentmonitor-3')}` : undefined;
-
+function mapGatewayEventToAction(event: any): AgentAction | null {
+  if (!event) return null;
+  
   return {
-    id: `${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
-    timestamp: new Date(),
-    agentId: agent.id,
-    agentName: agent.name,
-    agentColor: agent.color,
-    action,
-    decision,
-    riskScore,
-    latencyMs: deterministicInt(0, 49, 'liveagentmonitor-4') + 3,
-    framework,
-    citation,
+    id: event.id || `gw-${Date.now()}`,
+    timestamp: new Date(event.requestedAt || event.timestamp || Date.now()),
+    agentId: 'gateway',
+    agentName: 'CendiaGateway',
+    agentColor: 'bg-indigo-500',
+    action: event.prompt?.slice(0, 50) + '...' || 'API Request',
+    decision: event.policyAction === 'BLOCK' ? 'BLOCK' : event.policyAction === 'WARN' ? 'ESCALATE' : 'ALLOW',
+    riskScore: event.riskScore || 50,
+    latencyMs: event.latencyMs || 0,
+    framework: event.framework,
+    citation: event.framework ? '§' + event.framework : undefined,
+    details: event.piiTypes?.join(', ') || undefined,
+  };
+}
+
+function mapDeliberationToAction(deliberation: any): AgentAction | null {
+  if (!deliberation) return null;
+  
+  return {
+    id: deliberation.id || `del-${Date.now()}`,
+    timestamp: new Date(deliberation.createdAt || deliberation.timestamp || Date.now()),
+    agentId: 'council',
+    agentName: 'The Council™',
+    agentColor: 'bg-purple-500',
+    action: deliberation.prompt?.slice(0, 50) + '...' || 'Deliberation',
+    decision: deliberation.status === 'completed' ? 'ALLOW' : 'ESCALATE',
+    riskScore: deliberation.riskScore || 50,
+    latencyMs: deliberation.durationMs || 0,
+    framework: deliberation.framework,
+    details: deliberation.outcome || undefined,
   };
 }
 
@@ -322,57 +295,52 @@ export const LiveAgentMonitorPage: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Generate actions - includes TR Demo Petrov transfer periodically
+  // Fetch real data from backend APIs
   useEffect(() => {
-    if (isPaused) {return;}
+    if (isPaused) return;
 
-    // Inject TR Demo action every 10 seconds
-    const trDemoInterval = setInterval(() => {
-      const trAction = {
-        ...TR_DEMO_ACTION,
-        id: `tr-petrov-${Date.now()}`,
-        timestamp: new Date(),
-      };
-      setActions(prev => [trAction, ...prev].slice(0, 100));
-      setNewActionIds(new Set([trAction.id]));
-    }, 10000);
+    const fetchData = async () => {
+      try {
+        // Fetch gateway interactions
+        const gatewayRes = await apiClient.api.get<any>('/gateway/interactions?limit=20');
+        const deliberationRes = await apiClient.api.get<any>('/deliberations?limit=20');
 
-    const interval = setInterval(() => {
-      const count = deterministicInt(0, 1, 'liveagentmonitor-5') + 1;
-      const newActions: AgentAction[] = [];
+        const gatewayActions = (gatewayRes.data || []).map(mapGatewayEventToAction).filter(Boolean);
+        const deliberationActions = (deliberationRes.data || []).map(mapDeliberationToAction).filter(Boolean);
+        
+        const allActions = [...gatewayActions, ...deliberationActions]
+          .sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime())
+          .slice(0, 50);
 
-      for (let i = 0; i < count; i++) {
-        newActions.push(generateAction());
-      }
+        setActions(allActions);
+        setNewActionIds(new Set(allActions.slice(0, 5).map(a => a.id)));
+        actionsPerSecondRef.current = allActions.length;
 
-      setActions(prev => [...newActions, ...prev].slice(0, 50));
-      setNewActionIds(new Set(newActions.map(a => a.id)));
-      actionsPerSecondRef.current += count;
+        // Update metrics from real data
+        const total = allActions.length;
+        const blocked = allActions.filter(a => a.decision === 'BLOCK').length;
+        const escalated = allActions.filter(a => a.decision === 'ESCALATE').length;
+        const avgLat = total > 0 ? Math.round(allActions.reduce((s, a) => s + a.latencyMs, 0) / total) : 0;
 
-      // Update metrics
-      setMetrics(prev => {
-        const total = prev.totalActions + count;
-        const blocked = prev.blockedActions + newActions.filter(a => a.decision === 'BLOCK').length;
-        const escalated = prev.escalatedActions + newActions.filter(a => a.decision === 'ESCALATE').length;
-        const avgLat = Math.round((prev.avgLatency * prev.totalActions + newActions.reduce((s, a) => s + a.latencyMs, 0)) / total);
-
-        return {
-          ...prev,
+        setMetrics({
+          activeAgents: AGENTS.length,
+          actionsPerSecond: allActions.length,
+          avgLatency: avgLat,
+          blockRate: total > 0 ? (blocked / total) * 100 : 0,
+          escalationRate: total > 0 ? (escalated / total) * 100 : 0,
+          complianceScore: total > 0 ? Math.max(90, 100 - (blocked / total) * 50 - (escalated / total) * 20) : 99.2,
           totalActions: total,
           blockedActions: blocked,
           escalatedActions: escalated,
-          avgLatency: avgLat,
-          blockRate: (blocked / total) * 100,
-          escalationRate: (escalated / total) * 100,
-          complianceScore: Math.max(90, 100 - (blocked / total) * 50 - (escalated / total) * 20),
-        };
-      });
-    }, 800);
-
-    return () => {
-      clearInterval(interval);
-      clearInterval(trDemoInterval);
+        });
+      } catch (error) {
+        console.error('Failed to fetch real data:', error);
+      }
     };
+
+    fetchData();
+    const interval = setInterval(fetchData, 5000); // Poll every 5 seconds
+    return () => clearInterval(interval);
   }, [isPaused]);
 
   // Update actions per second
@@ -586,13 +554,32 @@ export const LiveAgentMonitorPage: React.FC = () => {
                 </tr>
               </thead>
               <tbody>
-                {filteredActions.map((action) => (
-                  <ActionRow
-                    key={action.id}
-                    action={action}
-                    isNew={newActionIds.has(action.id)}
-                  />
-                ))}
+                {filteredActions.length === 0 ? (
+                  <tr>
+                    <td colSpan={7} className="px-4 py-12 text-center">
+                      <div className="flex flex-col items-center justify-center text-gray-500">
+                        <Activity className="w-12 h-12 mb-4 text-gray-600" />
+                        <p className="text-lg font-medium mb-2">No real data yet</p>
+                        <p className="text-sm mb-4">
+                          Use The Council or CendiaGateway to generate real events
+                        </p>
+                        <div className="text-xs text-gray-600 space-y-1">
+                          <p>• Run a deliberation in The Council</p>
+                          <p>• Route requests through CendiaGateway</p>
+                          <p>• Data will appear here within 5 seconds</p>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                ) : (
+                  filteredActions.map((action) => (
+                    <ActionRow
+                      key={action.id}
+                      action={action}
+                      isNew={newActionIds.has(action.id)}
+                    />
+                  ))
+                )}
               </tbody>
             </table>
           </div>
