@@ -42,7 +42,6 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi, api } from '../../../lib/api';
 import { sovereignApi } from '../../../lib/sovereignApi';
 import { documentExportService, type AuditPackageData } from '../../../services/DocumentExportService';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
 import {
   Rewind, Play, FastForward, Clock, Shield, FileText, Eye, Building2, RotateCcw,
   Landmark, Lock, BarChart3, FileKey, Bookmark, Share2, LayoutDashboard, GitCompare,
@@ -967,398 +966,93 @@ const generateEvents = (): TimelineEvent[] => {
     },
   ];
 
-  // Generate more events with weighted distribution toward recent dates
-  // 40% in last 7 days, 30% in last 30 days, 20% in last 90 days, 10% older
-  const totalEvents = 200;
-  
-  for (let i = 0; i < totalEvents; i++) {
-    let daysAgo: number;
-    const rand = deterministicFloat('chronos-131');
-    if (rand < 0.40) {
-      daysAgo = deterministicInt(0, 6, 'chronos-35'); // Last 7 days
-    } else if (rand < 0.70) {
-      daysAgo = deterministicInt(7, 29, 'chronos-1'); // 7-30 days
-    } else if (rand < 0.90) {
-      daysAgo = deterministicInt(30, 89, 'chronos-2'); // 30-90 days
-    } else {
-      daysAgo = deterministicInt(90, 364, 'chronos-3'); // 90-365 days
-    }
-    
-    const hoursAgo = deterministicInt(0, 23, 'chronos-36');
-    const minutesAgo = deterministicInt(0, 59, 'chronos-37');
-    const template = templates[Math.floor(deterministicFloat('chronos-132') * templates.length)]!;
-    const title = template.titles[Math.floor(deterministicFloat('chronos-133') * template.titles.length)]!;
-    
-    // Generate contextual description based on event type
-    const descriptions: Record<string, string[]> = {
-      decision: [
-        'Council deliberation completed with 87% consensus. Full audit trail available.',
-        'Executive decision ratified by board. Click to replay deliberation.',
-        'Strategic decision approved after 3-day review period.',
-        'Council reached unanimous agreement. Impact analysis attached.',
-        'Decision approved with 2 dissenting opinions documented.',
-      ],
-      metric: [
-        'Automated threshold alert triggered. Trend analysis available.',
-        'KPI milestone achieved ahead of schedule.',
-        'Metric deviation detected - root cause analysis initiated.',
-        'Performance indicator updated from connected data sources.',
-        'Real-time metric sync from Salesforce/SAP integration.',
-      ],
-      personnel: [
-        'HR event logged. Succession planning impact assessed.',
-        'Organizational change recorded. Knowledge transfer initiated.',
-        'Talent movement tracked. Team capacity updated.',
-        'Leadership transition documented. Stakeholder notifications sent.',
-        'Headcount change reflected in runway calculations.',
-      ],
-      financial: [
-        'Financial event recorded. Audit packet generated.',
-        'Treasury update logged. Cash flow projections revised.',
-        'Investment milestone achieved. Board notified.',
-        'Financial metric updated from NetSuite integration.',
-        'Compliance documentation auto-generated.',
-      ],
-      milestone: [
-        'Strategic milestone achieved. Press release drafted.',
-        'Certification obtained. Customer communications prepared.',
-        'Product milestone reached. Roadmap updated.',
-        'Business milestone logged. Investor update scheduled.',
-        'Compliance milestone verified. Audit evidence preserved.',
-      ],
-      system: [
-        'Infrastructure event logged. SLA metrics updated.',
-        'System change recorded. Rollback point created.',
-        'Technical milestone achieved. Documentation updated.',
-        'Platform update deployed. Monitoring alerts configured.',
-        'Security event logged. Incident response documented.',
-      ],
-    };
-    
-    const typeDescriptions = descriptions[template.type] || descriptions.decision;
-    const description = typeDescriptions[Math.floor(deterministicFloat('chronos-134') * typeDescriptions.length)]!;
-    
-    // Weighted impact based on event type
-    let impact: 'positive' | 'negative' | 'neutral';
-    if (template.type === 'milestone') {
-      impact = deterministicFloat('chronos-98') > 0.1 ? 'positive' : 'neutral';
-    } else if (template.type === 'metric' && title.includes('Spike') || title.includes('reduced')) {
-      impact = deterministicFloat('chronos-99') > 0.5 ? 'negative' : 'neutral';
-    } else {
-      const impactRand = deterministicFloat('chronos-135');
-      impact = impactRand < 0.5 ? 'positive' : impactRand < 0.8 ? 'neutral' : 'negative';
-    }
-
-    events.push({
-      id: `evt-${i}`,
-      timestamp: new Date(now.getTime() - (daysAgo * 24 * 60 + hoursAgo * 60 + minutesAgo) * 60 * 1000),
-      type: template.type,
-      title,
-      description,
-      impact,
-      magnitude: deterministicInt(0, 9, 'chronos-38') + 1,
-      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal', 'HR', 'Product', 'Security', 'Executive'][
-        deterministicInt(0, 9, 'chronos-39')
-      ]!,
-      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council', 'VP Sales', 'VP Engineering', 'CISO', 'CPO'].slice(
-        0,
-        deterministicInt(0, 2, 'chronos-40') + 1
-      ),
-      deliberationId: template.type === 'decision' ? `dlb-${i}` : (deterministicFloat('chronos-100') > 0.7 ? `dlb-${i}` : undefined),
-    });
-  }
-
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+  // Real timeline events should come from backend API
+  // This function should be replaced with actual API calls to decision/events
+  return []; // Empty until real data is connected
 };
 
 const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
-  const now = new Date();
-  const daysDiff = (now.getTime() - date.getTime()) / (24 * 60 * 60 * 1000);
-  const isPast = daysDiff > 0;
-  const factor = isPast ? Math.pow(0.9992, daysDiff) : Math.pow(1.0008, -daysDiff);
-  const volatility = mode === 'fastforward' ? 0.15 : 0.05;
-
-  const randomize = (base: number) => base * factor * (1 + (deterministicFloat('chronos-91') - 0.5) * volatility);
-
+  // Real state snapshots should come from backend metrics API
+  // This function should be replaced with actual API calls
   return {
     timestamp: date,
     metrics: {
-      revenue: Math.round(randomize(12500000)),
-      profit: Math.round(randomize(2800000)),
-      employees: Math.round(randomize(156)),
-      customers: Math.round(randomize(847)),
-      satisfaction: Math.min(100, Math.round(randomize(87))),
-      marketShare: Math.max(1, randomize(12.4)),
-      burnRate: Math.round(randomize(850000)),
-      runway: Math.round(randomize(18)),
+      revenue: 0,
+      profit: 0,
+      employees: 0,
+      customers: 0,
+      satisfaction: 0,
+      marketShare: 0,
+      burnRate: 0,
+      runway: 0,
     },
     council: {
-      activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(
-        0,
-        deterministicInt(0, 1, 'chronos-41') + 4
-      ),
-      pendingDecisions: deterministicInt(0, 7, 'chronos-42'),
-      totalDeliberations: Math.floor(
-        daysDiff > 0 ? 450 - daysDiff * 0.5 : 450 + Math.abs(daysDiff) * 0.3
-      ),
-      consensusRate: Math.min(100, randomize(78)),
+      activeAgents: [],
+      pendingDecisions: 0,
+      totalDeliberations: 0,
+      consensusRate: 0,
     },
-    graph: {
-      entities: Math.round(randomize(15420)),
-      relationships: Math.round(randomize(48930)),
-      dataPoints: Math.round(randomize(2340000)),
-      freshness: Math.max(0, Math.min(100, 95 - (isPast ? daysDiff * 0.1 : -daysDiff * 0.05))),
+    compliance: {
+      activeFrameworks: 0,
+      passingFrameworks: 0,
+      criticalFindings: 0,
+      highFindings: 0,
+      overallScore: 0,
     },
   };
 };
 
 // Generate Pivotal Moments (AI-detected critical points)
 const generatePivotalMoments = (events: TimelineEvent[]): PivotalMoment[] => {
-  return events
-    .filter((e) => e.magnitude >= 7)
-    .slice(0, 8)
-    .map((event) => ({
-      id: `pivot-${event.id}`,
-      timestamp: event.timestamp,
-      event,
-      significance: event.magnitude * deterministicInt(10, 29, 'chronos-4'),
-      reason:
-        event.impact === 'positive'
-          ? `Major growth catalyst - ${event.title.toLowerCase()}`
-          : event.impact === 'negative'
-            ? `Critical inflection point - ${event.title.toLowerCase()}`
-            : `Strategic pivot opportunity - ${event.title.toLowerCase()}`,
-      impactedMetrics: ['revenue', 'profit', 'customers'].slice(
-        0,
-        deterministicInt(0, 1, 'chronos-43') + 2
-      ),
-      beforeState: {
-        revenue: 10000000 + deterministicFloat('chronos-111') * 2000000,
-        profit: 2000000 + deterministicFloat('chronos-112') * 500000,
-      },
-      afterState: {
-        revenue: 11000000 + deterministicFloat('chronos-113') * 3000000,
-        profit: 2200000 + deterministicFloat('chronos-114') * 800000,
-      },
-    }));
+  // Real pivotal moments should come from backend AI detection API
+  // This function should be replaced with actual API calls to /decision-intel/chronos/ai/pivotal-moments
+  return []; // Empty until real data is connected
 };
 
 // Generate Council Replay with detailed deliberations
 const generateCouncilReplay = (event: TimelineEvent): CouncilReplay => {
-  const agents = ['Chief Strategic Agent', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'];
-  const isPositive = event.impact === 'positive';
-
-  // Generate detailed, realistic deliberation statements
-  const detailedStatements: Record<
-    string,
-    { statement: string; sentiment: 'positive' | 'neutral' | 'negative' }[]
-  > = {
-    'Chief Strategic Agent': [
-      {
-        statement: `Looking at "${event.title}" from a strategic perspective, I see ${isPositive ? 'significant alignment with our 3-year growth roadmap' : 'potential misalignment with our current strategic priorities'}. The timing is ${isPositive ? 'opportune given market conditions' : 'concerning given our current resource allocation'}. I recommend we ${isPositive ? 'proceed with a phased approach, establishing clear milestones at 30, 60, and 90 days' : 'conduct further analysis before committing resources'}.`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-      {
-        statement: `To add context - our competitive analysis shows that ${isPositive ? 'first-mover advantage here could establish market leadership' : 'several competitors have attempted similar initiatives with mixed results'}. The strategic risk-reward ratio is ${isPositive ? 'favorable' : 'within acceptable bounds but requires careful monitoring'}.`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-    ],
-    'CFO Agent': [
-      {
-        statement: `From a financial standpoint, I've modeled three scenarios for "${event.title}". The base case shows ${isPositive ? 'positive ROI within 18 months with NPV of approximately $2.4M' : 'break-even at 24 months under optimistic assumptions'}. Cash flow impact is ${isPositive ? 'manageable within our current runway' : 'significant and would require reallocation from other initiatives'}. I'm ${isPositive ? 'supportive but recommend quarterly financial reviews' : 'cautious and suggest we phase the investment'}.`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-      {
-        statement: `Additionally, currency exposure ${isPositive ? 'can be hedged at reasonable cost' : 'adds 8-12% variance to projections'}. Our finance team has prepared contingency budgets. ${isPositive ? 'The investment thesis is sound.' : 'We should cap initial investment at 60% of proposed budget until we see early results.'}`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-    ],
-    'COO Agent': [
-      {
-        statement: `Operationally, implementing "${event.title}" will require ${isPositive ? 'reallocation of 15-20% of our platform team for Q2' : 'significant operational restructuring'}. I've assessed our capacity and ${isPositive ? 'we can absorb this without impacting core deliverables' : 'we would need to delay 2-3 lower-priority initiatives'}. Supply chain and vendor relationships ${isPositive ? 'are in place to support execution' : 'would need 60-90 days to establish'}.`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-      {
-        statement: `My team has drafted an execution plan with clear ownership and accountability. ${isPositive ? 'We can begin implementation within 2 weeks of approval.' : 'I recommend a 30-day planning phase before committing to execution timelines.'} Key dependencies include talent acquisition and system integrations.`,
-        sentiment: 'neutral',
-      },
-    ],
-    'CISO Agent': [
-      {
-        statement: `Security and compliance review for "${event.title}" is ${isPositive ? 'complete with no blocking issues' : 'ongoing with some areas requiring attention'}. ${isPositive ? 'All regulatory requirements (SOC2, GDPR, HIPAA) can be met with existing controls' : 'We identified 3 compliance gaps that need remediation before proceeding'}. Data protection impact assessment ${isPositive ? 'shows acceptable risk levels' : 'flagged elevated risk in data handling procedures'}.`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-      {
-        statement: `From a security architecture perspective, ${isPositive ? 'the proposed design follows our zero-trust principles' : 'we need to enhance authentication and access controls'}. ${isPositive ? 'I approve from a security standpoint.' : 'I recommend security review gates at each phase before proceeding.'}`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-    ],
-    'CMO Agent': [
-      {
-        statement: `Market positioning analysis for "${event.title}" shows ${isPositive ? "strong alignment with customer demand signals we've been tracking" : 'moderate market interest with some uncertainty about timing'}. Our brand equity ${isPositive ? 'supports this initiative and could be amplified through it' : 'requires careful messaging to maintain trust'}. Customer research indicates ${isPositive ? '72% positive sentiment in target segments' : 'mixed signals that warrant further validation'}.`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-      {
-        statement: `I've prepared a go-to-market strategy that ${isPositive ? 'leverages our existing channels with minimal additional spend' : 'would require $150K in additional marketing investment'}. ${isPositive ? 'The market window is favorable for the next 6-9 months.' : 'We should consider a limited pilot before full market launch.'}`,
-        sentiment: isPositive ? 'positive' : 'neutral',
-      },
-    ],
-  };
-
-  // Build phases with multiple rounds of deliberation
-  const selectedAgents = agents.slice(0, 4);
-  const phases: Array<{
-    agent: string;
-    statement: string;
-    sentiment: 'positive' | 'neutral' | 'negative';
-    timestamp: number;
-  }> = [];
-
-  // Round 1: Initial positions
-  selectedAgents.forEach((agent, i) => {
-    const agentStatements = detailedStatements[agent];
-    if (agentStatements?.[0]) {
-      phases.push({
-        agent,
-        statement: agentStatements[0].statement,
-        sentiment: agentStatements[0].sentiment,
-        timestamp: (i + 1) * 30,
-      });
-    }
-  });
-
-  // Round 2: Follow-up and synthesis
-  selectedAgents.forEach((agent, i) => {
-    const agentStatements = detailedStatements[agent];
-    if (agentStatements?.[1]) {
-      phases.push({
-        agent,
-        statement: agentStatements[1].statement,
-        sentiment: agentStatements[1].sentiment,
-        timestamp: 150 + (i + 1) * 25,
-      });
-    }
-  });
-
+  // Real council replays should come from backend council API
+  // This function should be replaced with actual API calls to council deliberations
   return {
     id: `replay-${event.id}`,
     deliberationId: event.deliberationId || `dlb-${event.id}`,
     timestamp: event.timestamp,
-    query: `Should we proceed with: ${event.title}?`,
-    participants: selectedAgents,
-    duration: deterministicInt(300, 419, 'chronos-5'),
-    phases,
-    decision: isPositive ? 'APPROVED' : 'APPROVED WITH CONDITIONS',
-    confidence: deterministicInt(75, 94, 'chronos-6'),
+    query: '',
+    participants: [],
+    duration: 0,
+    phases: [],
+    decision: 'PENDING',
+    confidence: 0,
   };
 };
 
 // Generate Causal Chain (Impact Tracing)
 const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): CausalChain => {
-  // Try to find real downstream events
-  let effects = allEvents
-    .filter(
-      (e) =>
-        e.timestamp > event.timestamp &&
-        e.timestamp < new Date(event.timestamp.getTime() + 90 * 24 * 60 * 60 * 1000)
-    )
-    .slice(0, 4)
-    .map((e) => ({
-      event: e,
-      delay: Math.floor(
-        (e.timestamp.getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)
-      ),
-      correlation: 0.5 + deterministicFloat('chronos-115') * 0.45,
-    }));
-
-  // If no real downstream events, generate AI predictions
-  if (effects.length === 0) {
-    const predictedEffects = [
-      {
-        title: 'Revenue forecast likely to be updated',
-        department: 'Finance',
-        delay: 3,
-        confidence: 0.92,
-      },
-      {
-        title: 'Team capacity reallocation expected',
-        department: 'Operations',
-        delay: 7,
-        confidence: 0.78,
-      },
-      {
-        title: 'Customer success playbook revision probable',
-        department: 'Customer Success',
-        delay: 14,
-        confidence: 0.65,
-      },
-      {
-        title: 'Quarterly targets may be adjusted',
-        department: 'Executive',
-        delay: 21,
-        confidence: 0.54,
-      },
-      {
-        title: 'Marketing campaign launch anticipated',
-        department: 'Marketing',
-        delay: 30,
-        confidence: 0.47,
-      },
-    ];
-
-    effects = predictedEffects.slice(0, deterministicInt(4, 5, 'chronos-7')).map((pe, idx) => ({
-      event: {
-        id: `pred-${event.id}-${idx}`,
-        timestamp: new Date(event.timestamp.getTime() + pe.delay * 24 * 60 * 60 * 1000),
-        title: pe.title,
-        description: `AI-predicted downstream effect from ${event.title}`,
-        department: pe.department,
-        type: 'metric' as const,
-        impact: 'positive' as const,
-        magnitude: 0.5 + deterministicFloat('chronos-116') * 0.3,
-        isPrediction: true, // Flag as prediction
-      },
-      delay: pe.delay,
-      correlation: pe.confidence,
-      isPrediction: true,
-    }));
-  }
-
-  // Calculate total impact based on event impact
-  const isPositive = event.impact === 'positive';
-  const baseRevenue = isPositive ? 1500000 : -800000;
-  const baseProfit = isPositive ? 400000 : -200000;
-  const baseCustomers = isPositive ? 45 : -15;
-
+  // Real causal chains should come from backend causal analysis API
+  // This function should be replaced with actual API calls
   return {
     id: `chain-${event.id}`,
     rootCause: event,
-    effects,
+    effects: [],
     totalImpact: {
-      revenue: baseRevenue + (deterministicFloat('chronos-92') - 0.5) * 1000000,
-      profit: baseProfit + (deterministicFloat('chronos-93') - 0.5) * 200000,
-      customers: baseCustomers + Math.floor((deterministicFloat('chronos-94') - 0.5) * 30),
+      revenue: 0,
+      profit: 0,
+      customers: 0,
     },
   };
 };
 
 // Generate Monte Carlo Results
 const generateMonteCarloResults = (variable: string): MonteCarloResult => {
-  const scenarios = [
-    { scenario: 'Pessimistic', probability: 0.15, revenue: 9000000, profit: 1500000 },
-    { scenario: 'Conservative', probability: 0.25, revenue: 11000000, profit: 2200000 },
-    { scenario: 'Base Case', probability: 0.35, revenue: 12500000, profit: 2800000 },
-    { scenario: 'Optimistic', probability: 0.2, revenue: 15000000, profit: 3500000 },
-    { scenario: 'Best Case', probability: 0.05, revenue: 18000000, profit: 4500000 },
-  ];
-
+  // Real Monte Carlo simulations should come from backend simulation API
+  // This function should be replaced with actual API calls
   return {
     id: `mc-${Date.now()}`,
     variable,
-    simulations: 10000,
-    outcomes: scenarios,
-    optimalPath: 'Base Case with aggressive Q3 marketing',
-    confidenceInterval: [10500000, 14500000],
+    simulations: 0,
+    outcomes: [],
+    optimalPath: '',
+    confidenceInterval: [0, 0],
   };
 };
 
@@ -1465,293 +1159,86 @@ const generateERPConnectors = (): ERPConnector[] => [
   },
 ];
 
-const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
-  const events: CRMPipelineEvent[] = [];
-  const stages = [
-    'Prospecting',
-    'Qualification',
-    'Proposal',
-    'Negotiation',
-    'Closed Won',
-    'Closed Lost',
-  ];
-  const accounts = [
-    'Acme Corp',
-    'TechGiant Inc',
-    'GlobalBank',
-    'MegaRetail',
-    'HealthFirst',
-    'EduPrime',
-    'AutoMax',
-    'EnergyPlus',
-  ];
-  const owners = ['Sarah Chen', 'Mike Johnson', 'Emily Davis', 'James Wilson', 'Lisa Brown'];
-
-  for (let i = 0; i < 150; i++) {
-    const daysAgo = Math.floor(deterministicFloat('chronos-136') * days);
-    const amount = deterministicInt(0, 499999, 'chronos-44') + 25000;
-    const stageIdx = Math.floor(deterministicFloat('chronos-137') * stages.length);
-
-    events.push({
-      id: `crm-${i}`,
-      timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: 'salesforce',
-      opportunityId: `OPP-${100000 + i}`,
-      accountName: accounts[Math.floor(deterministicFloat('chronos-138') * accounts.length)]!,
-      stage: stages[stageIdx]!,
-      previousStage: stageIdx > 0 ? stages[stageIdx - 1] : undefined,
-      amount,
-      probability: [10, 25, 50, 75, 100, 0][stageIdx]!,
-      owner: owners[Math.floor(deterministicFloat('chronos-139') * owners.length)]!,
-      closeDate: new Date(Date.now() + deterministicInt(0, 89, 'chronos-45') * 24 * 60 * 60 * 1000),
-      deltaAmount: deterministicFloat('chronos-101') > 0.7 ? Math.floor((deterministicFloat('chronos-95') - 0.5) * 50000) : undefined,
-    });
-  }
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+const generateCRMEvents = (days: number = 90): CRMEvent[] => {
+  // Real CRM events should come from backend Salesforce API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
-  const events: ERPTransactionEvent[] = [];
-  const types: ERPTransactionEvent['transactionType'][] = [
-    'purchase_order',
-    'sales_order',
-    'invoice',
-    'payment',
-    'journal_entry',
-  ];
-  const costCenters = ['CC-1000', 'CC-2000', 'CC-3000', 'CC-4000', 'CC-5000'];
-  const glAccounts = ['4000-Revenue', '5000-COGS', '6000-OpEx', '7000-Payroll', '8000-Other'];
-
-  for (let i = 0; i < 200; i++) {
-    const daysAgo = Math.floor(deterministicFloat('chronos-140') * days);
-    const type = types[Math.floor(deterministicFloat('chronos-141') * types.length)]!;
-
-    events.push({
-      id: `erp-${i}`,
-      timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: 'sap',
-      transactionType: type,
-      documentNumber: `DOC-${200000 + i}`,
-      amount: deterministicInt(0, 99999, 'chronos-46') + 1000,
-      currency: 'USD',
-      costCenter: costCenters[Math.floor(deterministicFloat('chronos-142') * costCenters.length)]!,
-      glAccount: glAccounts[Math.floor(deterministicFloat('chronos-143') * glAccounts.length)]!,
-      description: `${type.replace('_', ' ')} - Auto generated`,
-      approver: deterministicFloat('chronos-102') > 0.5 ? 'CFO' : 'Controller',
-    });
-  }
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+  // Real ERP transactions should come from backend SAP API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 const generateHREvents = (days: number = 180): HREvent[] => {
-  const events: HREvent[] = [];
-  const eventTypes: HREvent['eventType'][] = [
-    'hire',
-    'termination',
-    'promotion',
-    'transfer',
-    'compensation_change',
-    'performance_review',
-  ];
-  const departments = [
-    'Engineering',
-    'Sales',
-    'Marketing',
-    'Finance',
-    'Operations',
-    'Product',
-    'HR',
-    'Legal',
-  ];
-  const positions = ['Engineer', 'Manager', 'Director', 'VP', 'Analyst', 'Specialist', 'Lead'];
-  const locations = ['San Francisco', 'New York', 'Austin', 'Seattle', 'London', 'Singapore'];
-
-  for (let i = 0; i < 100; i++) {
-    const daysAgo = Math.floor(deterministicFloat('chronos-144') * days);
-    const eventType = eventTypes[Math.floor(deterministicFloat('chronos-145') * eventTypes.length)]!;
-
-    events.push({
-      id: `hr-${i}`,
-      timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: 'workday',
-      eventType,
-      department: departments[Math.floor(deterministicFloat('chronos-146') * departments.length)]!,
-      position: positions[Math.floor(deterministicFloat('chronos-147') * positions.length)]!,
-      level: ['IC1', 'IC2', 'IC3', 'M1', 'M2', 'D1', 'VP'][deterministicInt(0, 6, 'chronos-47')]!,
-      location: locations[Math.floor(deterministicFloat('chronos-148') * locations.length)]!,
-      headcountDelta: eventType === 'hire' ? 1 : eventType === 'termination' ? -1 : 0,
-      compensationBand: ['$80k-100k', '$100k-130k', '$130k-160k', '$160k-200k', '$200k+'][
-        deterministicInt(0, 4, 'chronos-48')
-      ]!,
-    });
-  }
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+  // Real HR events should come from backend Workday API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 const generateEngineeringEvents = (days: number = 90): EngineeringEvent[] => {
-  const events: EngineeringEvent[] = [];
-  const eventTypes: EngineeringEvent['eventType'][] = [
-    'sprint_complete',
-    'release',
-    'incident',
-    'pr_merged',
-    'deployment',
-  ];
-  const projects = ['Platform', 'API', 'Frontend', 'Mobile', 'Infrastructure', 'Data Pipeline'];
-  const teams = ['Alpha', 'Beta', 'Gamma', 'Delta', 'Core', 'Growth'];
-
-  for (let i = 0; i < 120; i++) {
-    const daysAgo = Math.floor(deterministicFloat('chronos-149') * days);
-    const eventType = eventTypes[Math.floor(deterministicFloat('chronos-150') * eventTypes.length)]!;
-
-    events.push({
-      id: `eng-${i}`,
-      timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: deterministicFloat('chronos-103') > 0.5 ? 'jira' : 'github',
-      eventType,
-      project: projects[Math.floor(deterministicFloat('chronos-151') * projects.length)]!,
-      team: teams[Math.floor(deterministicFloat('chronos-152') * teams.length)]!,
-      velocity: eventType === 'sprint_complete' ? deterministicInt(0, 29, 'chronos-49') + 20 : undefined,
-      storyPoints:
-        eventType === 'sprint_complete' ? deterministicInt(0, 49, 'chronos-50') + 30 : undefined,
-      leadTime: deterministicInt(0, 9, 'chronos-51') + 2,
-      cycleTime: deterministicInt(0, 4, 'chronos-52') + 1,
-      deployFrequency: eventType === 'deployment' ? deterministicInt(0, 4, 'chronos-53') + 1 : undefined,
-      incidentSeverity:
-        eventType === 'incident'
-          ? (['critical', 'high', 'medium', 'low'][deterministicInt(0, 3, 'chronos-54')] as any)
-          : undefined,
-    });
-  }
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+  // Real engineering events should come from backend Jira/GitHub API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
-  const events: ServiceTicketEvent[] = [];
-  const categories: ServiceTicketEvent['category'][] = ['incident', 'request', 'problem', 'change'];
-  const priorities: ServiceTicketEvent['priority'][] = ['critical', 'high', 'medium', 'low'];
-  const assignees = ['Ops Team', 'DevOps', 'Security', 'Network', 'Help Desk'];
-
-  for (let i = 0; i < 80; i++) {
-    const daysAgo = Math.floor(deterministicFloat('chronos-153') * days);
-    const isResolved = deterministicFloat('chronos-104') > 0.3;
-
-    events.push({
-      id: `svc-${i}`,
-      timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: 'servicenow',
-      ticketId: `INC${300000 + i}`,
-      category: categories[Math.floor(deterministicFloat('chronos-154') * categories.length)]!,
-      priority: priorities[Math.floor(deterministicFloat('chronos-155') * priorities.length)]!,
-      status: isResolved
-        ? 'resolved'
-        : (['open', 'in_progress'][deterministicInt(0, 1, 'chronos-55')] as any),
-      assignee: assignees[Math.floor(deterministicFloat('chronos-156') * assignees.length)]!,
-      resolution: isResolved ? 'Issue resolved per standard procedure' : undefined,
-      slaBreached: deterministicFloat('chronos-105') > 0.85,
-      responseTime: deterministicInt(0, 59, 'chronos-56') + 5,
-      resolutionTime: isResolved ? deterministicInt(0, 479, 'chronos-57') + 30 : undefined,
-    });
-  }
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+  // Real service tickets should come from backend ServiceNow API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 const generateDocumentRevisions = (days: number = 180): DocumentRevisionEvent[] => {
-  const events: DocumentRevisionEvent[] = [];
-  const docTypes: DocumentRevisionEvent['documentType'][] = [
-    'policy',
-    'contract',
-    'spec',
-    'report',
-    'presentation',
-  ];
-  const changeTypes: DocumentRevisionEvent['changeType'][] = [
-    'created',
-    'modified',
-    'approved',
-    'published',
-    'archived',
-  ];
-  const authors = ['Legal Team', 'Finance Team', 'Product Team', 'Executive Office', 'Compliance'];
-  const docs = [
-    'Q3 Financial Report',
-    'Security Policy',
-    'Vendor Agreement',
-    'Product Roadmap',
-    'Employee Handbook',
-    'SOX Controls',
-    'Data Governance Policy',
-  ];
-
-  for (let i = 0; i < 60; i++) {
-    const daysAgo = Math.floor(deterministicFloat('chronos-157') * days);
-    const version = `${deterministicInt(0, 4, 'chronos-58') + 1}.${deterministicInt(0, 9, 'chronos-59')}`;
-
-    events.push({
-      id: `doc-${i}`,
-      timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
-      source: 'sharepoint',
-      documentId: `DOC-${400000 + i}`,
-      documentName: docs[Math.floor(deterministicFloat('chronos-158') * docs.length)]!,
-      documentType: docTypes[Math.floor(deterministicFloat('chronos-159') * docTypes.length)]!,
-      version,
-      previousVersion: parseFloat(version) > 1 ? `${parseFloat(version) - 0.1}` : undefined,
-      author: authors[Math.floor(deterministicFloat('chronos-160') * authors.length)]!,
-      changeType: changeTypes[Math.floor(deterministicFloat('chronos-161') * changeTypes.length)]!,
-      approvers: deterministicFloat('chronos-106') > 0.5 ? ['CFO', 'General Counsel'] : undefined,
-    });
-  }
-  return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+  // Real document revisions should come from backend SharePoint API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 const generateERPSnapshot = (date: Date): ERPStateSnapshot => {
-  const now = new Date();
-  const daysDiff = (now.getTime() - date.getTime()) / (24 * 60 * 60 * 1000);
-  const factor = Math.pow(0.9995, daysDiff);
-  const randomize = (base: number, variance: number = 0.1) =>
-    base * factor * (1 + (deterministicFloat('chronos-96') - 0.5) * variance);
-
+  // Real ERP snapshots should come from backend ERP connectors
+  // This function should be replaced with actual API calls
   return {
     timestamp: date,
     crm: {
-      totalPipeline: Math.round(randomize(45000000)),
-      weightedPipeline: Math.round(randomize(28000000)),
-      openOpportunities: Math.round(randomize(234)),
-      wonThisMonth: Math.round(randomize(18)),
-      lostThisMonth: Math.round(randomize(7)),
-      avgDealSize: Math.round(randomize(125000)),
-      winRate: Math.min(100, randomize(42, 0.05)),
+      totalPipeline: 0,
+      weightedPipeline: 0,
+      openOpportunities: 0,
+      wonThisMonth: 0,
+      lostThisMonth: 0,
+      avgDealSize: 0,
+      winRate: 0,
     },
     erp: {
-      revenue: Math.round(randomize(12500000)),
-      expenses: Math.round(randomize(9800000)),
-      cashPosition: Math.round(randomize(8500000)),
-      accountsReceivable: Math.round(randomize(3200000)),
-      accountsPayable: Math.round(randomize(1800000)),
-      openPOs: Math.round(randomize(156)),
+      revenue: 0,
+      expenses: 0,
+      cashPosition: 0,
+      accountsReceivable: 0,
+      accountsPayable: 0,
+      openPOs: 0,
     },
     hr: {
-      totalHeadcount: Math.round(randomize(156)),
-      openReqs: Math.round(randomize(23)),
-      attritionRate: randomize(12, 0.2),
-      avgTenure: randomize(2.8, 0.1),
-      hiresThisQuarter: Math.round(randomize(15)),
-      departuresThisQuarter: Math.round(randomize(5)),
+      totalHeadcount: 0,
+      openReqs: 0,
+      attritionRate: 0,
+      avgTenure: 0,
+      hiresThisQuarter: 0,
+      departuresThisQuarter: 0,
     },
     engineering: {
-      velocity: Math.round(randomize(47)),
-      sprintCompletion: Math.min(100, randomize(85, 0.1)),
-      bugCount: Math.round(randomize(34)),
-      techDebtHours: Math.round(randomize(420)),
-      deploymentFrequency: randomize(4.2, 0.15),
-      mttr: Math.round(randomize(45)),
+      velocity: 0,
+      sprintCompletion: 0,
+      bugCount: 0,
+      techDebtHours: 0,
+      deploymentFrequency: 0,
+      mttr: 0,
     },
     serviceDesk: {
-      openTickets: Math.round(randomize(89)),
-      avgResponseTime: Math.round(randomize(15)),
-      avgResolutionTime: Math.round(randomize(180)),
-      slaCompliance: Math.min(100, randomize(94, 0.05)),
-      csat: Math.min(100, randomize(87, 0.08)),
+      openTickets: 0,
+      avgResponseTime: 0,
+      avgResolutionTime: 0,
+      slaCompliance: 0,
+      csat: 0,
     },
   };
 };
@@ -1822,63 +1309,35 @@ const generateLedger = (): ChronosLedger => {
 
 // Generate Live Sync Status
 const generateLiveSyncStatus = (): LiveSyncStatus => ({
-  isConnected: true,
-  lastEventTime: new Date(Date.now() - deterministicFloat('chronos-121') * 5000),
-  pendingEvents: deterministicInt(0, 2, 'chronos-60'),
-  syncLag: deterministicInt(0, 149, 'chronos-61'),
-  throughput: 12 + deterministicFloat('chronos-117') * 8,
-  kafkaOffset: deterministicInt(8472934, 8473033, 'chronos-8'),
-  websocketStatus: 'connected',
+  isConnected: false,
+  lastEventTime: new Date(),
+  pendingEvents: 0,
+  syncLag: 0,
+  throughput: 0,
+  kafkaOffset: 0,
+  websocketStatus: 'disconnected',
 });
 
 // Generate forensic-grade, independently verifiable Export
 const generateCourtExport = (timeRange: { start: Date; end: Date }): CourtAdmissibleExport => ({
   id: `export-${Date.now()}`,
   exportedAt: new Date(),
-  requestedBy: 'legal@company.com',
+  requestedBy: '',
   timeRange,
-  includedBlocks: Array.from({ length: 50 }, (_, i) => 4300 + i),
-  merkleProof: Array.from({ length: 8 }, () => generateHash(`proof-${deterministicFloat('chronos-162')}`)),
-  signatures: [
-    {
-      signer: 'CEO',
-      role: 'Chief Executive Officer',
-      timestamp: new Date(),
-      signature: generateHash('ceo-sig'),
-      publicKey: 'pk_ceo_...',
-    },
-    {
-      signer: 'CFO',
-      role: 'Chief Financial Officer',
-      timestamp: new Date(),
-      signature: generateHash('cfo-sig'),
-      publicKey: 'pk_cfo_...',
-    },
-    {
-      signer: 'General Counsel',
-      role: 'Legal',
-      timestamp: new Date(),
-      signature: generateHash('gc-sig'),
-      publicKey: 'pk_gc_...',
-    },
-  ],
-  witnessStatements: [
-    {
-      witness: 'Internal Audit',
-      statement: 'Verified data integrity and chain of custody.',
-      timestamp: new Date(),
-    },
-  ],
+  includedBlocks: [],
+  merkleProof: [],
+  signatures: [],
+  witnessStatements: [],
   deliberationTranscripts: [],
   hashChainVerification: {
-    startHash: generateHash('start'),
-    endHash: generateHash('end'),
-    allBlocksValid: true,
+    startHash: '',
+    endHash: '',
+    allBlocksValid: false,
   },
   legalCertification: {
-    certified: true,
-    certifier: 'Datacendia Chronos Certification Authority',
-    jurisdiction: 'United States',
+    certified: false,
+    certifier: '',
+    jurisdiction: '',
   },
   format: 'forensic-bundle',
 });
@@ -1932,89 +1391,43 @@ const DEFAULT_REDACTION_RULES: RedactionRule[] = [
 // =============================================================================
 
 const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
-  const services = [
-    'DataIngestionService',
-    'TransformEngine',
-    'ValidationService',
-    'AIAnalytics',
-    'DecisionService',
-  ];
-  const datasets = [
-    'CRM_Pipeline',
-    'ERP_Transactions',
-    'HR_Records',
-    'Engineering_Metrics',
-    'Financial_Ledger',
-  ];
-  const agents = [
-    'Chief Strategic',
-    'CFO Agent',
-    'COO Agent',
-    'CISO Agent',
-    'CMO Agent',
-    'CRO Agent',
-  ];
-
+  // Real traceability views should come from backend traceability API
+  // This function should be replaced with actual API calls
   return {
     eventId: event.id,
     originSource: {
-      dataset: datasets[Math.floor(deterministicFloat('chronos-163') * datasets.length)]!,
-      table: `${event.department?.toLowerCase() || 'core'}_events`,
-      field: event.type === 'metric' ? 'value' : event.type === 'financial' ? 'amount' : 'status',
-      timestamp: new Date(event.timestamp.getTime() - 3600000),
-      rawValue: event.type === 'financial' ? deterministicInt(0, 9999999, 'chronos-62') : event.title,
+      dataset: '',
+      table: '',
+      field: '',
+      timestamp: event.timestamp,
+      rawValue: '',
     },
-    intermediateTransforms: Array.from({ length: deterministicInt(3, 5, 'chronos-9') }, (_, i) => ({
-      step: i + 1,
-      service: services[i % services.length]!,
-      operation: ['Extract', 'Transform', 'Validate', 'Enrich', 'Aggregate', 'Normalize'][i % 6]!,
-      inputHash: generateHash(`input-${event.id}-${i}`),
-      outputHash: generateHash(`output-${event.id}-${i}`),
-      timestamp: new Date(event.timestamp.getTime() - (3600000 - i * 600000)),
-      duration: deterministicInt(50, 249, 'chronos-10'),
-    })),
+    intermediateTransforms: [],
     finalOutput: {
-      value: event.title,
-      confidence: 0.85 + deterministicFloat('chronos-118') * 0.14,
+      value: '',
+      confidence: 0,
       timestamp: event.timestamp,
     },
     agentProvenance: {
-      agentId: `agent-${deterministicInt(0, 5, 'chronos-63')}`,
-      agentName: agents[Math.floor(deterministicFloat('chronos-164') * agents.length)]!,
-      agentRole: event.actors?.[0] || 'Analyst',
+      agentId: '',
+      agentName: '',
+      agentRole: '',
       deliberationId: event.deliberationId,
-      reasoning: `Analysis based on ${event.type} data patterns and historical precedent. Confidence level determined by data quality and model accuracy.`,
+      reasoning: '',
     },
-    serviceChain: services.slice(0, deterministicInt(3, 4, 'chronos-11')).map((s, i) => ({
-      serviceName: s,
-      version: `v${deterministicInt(0, 2, 'chronos-64') + 1}.${deterministicInt(0, 9, 'chronos-65')}.${deterministicInt(0, 19, 'chronos-66')}`,
-      method: ['process', 'analyze', 'validate', 'transform'][i % 4]!,
-      latency: deterministicInt(10, 59, 'chronos-12'),
-    })),
-    datasetLineage: datasets.slice(0, deterministicInt(2, 3, 'chronos-13')).map((d) => ({
-      datasetId: `ds-${generateHash(d).slice(0, 8)}`,
-      datasetName: d,
-      source: ['Salesforce', 'SAP', 'Workday', 'Internal'][deterministicInt(0, 3, 'chronos-67')]!,
-      lastUpdated: new Date(event.timestamp.getTime() - deterministicFloat('chronos-122') * 86400000),
-      recordCount: deterministicInt(0, 999999, 'chronos-68'),
-      quality: 0.9 + deterministicFloat('chronos-119') * 0.09,
-    })),
+    serviceChain: [],
+    datasetLineage: [],
     frameworkGovernance: {
-      framework: ['NIST CSF', 'ISO 27001', 'SOC 2', 'GDPR', 'OECD AI'][
-        deterministicInt(0, 4, 'chronos-69')
-      ]!,
-      policy: `${event.department || 'Corporate'} Data Governance Policy v2.1`,
-      controls: ['Access Control', 'Data Classification', 'Audit Logging', 'Encryption'].slice(
-        0,
-        deterministicInt(2, 3, 'chronos-14')
-      ),
-      validatedAt: new Date(event.timestamp.getTime() - 60000),
-      validatedBy: 'Compliance Engine v3.2',
+      framework: '',
+      policy: '',
+      controls: [],
+      validatedAt: event.timestamp,
+      validatedBy: '',
     },
     integrityProof: {
-      merkleRoot: generateHash(`merkle-${event.id}`),
-      blockNumber: deterministicInt(4000, 4399, 'chronos-15'),
-      signature: generateHash(`sig-${event.id}-${Date.now()}`),
+      merkleRoot: '',
+      blockNumber: 0,
+      signature: '',
     },
   };
 };
@@ -2024,74 +1437,59 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
 // =============================================================================
 
 const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceSnapshot => {
-  const riskLevel = deterministicFloat('chronos-165');
+  // Real compliance snapshots should come from backend compliance API
+  // This function should be replaced with actual API calls
   return {
     eventId: event.id,
     timestamp: event.timestamp,
     nistScore: {
-      overall: deterministicInt(75, 94, 'chronos-16'),
-      identify: deterministicInt(70, 94, 'chronos-17'),
-      protect: deterministicInt(75, 94, 'chronos-18'),
-      detect: deterministicInt(80, 94, 'chronos-19'),
-      respond: deterministicInt(70, 94, 'chronos-20'),
-      recover: deterministicInt(65, 94, 'chronos-21'),
+      overall: 0,
+      identify: 0,
+      protect: 0,
+      detect: 0,
+      respond: 0,
+      recover: 0,
     },
     oecdScore: {
-      overall: deterministicInt(80, 94, 'chronos-22'),
-      transparency: deterministicInt(85, 94, 'chronos-23'),
-      accountability: deterministicInt(80, 94, 'chronos-24'),
-      robustness: deterministicInt(75, 94, 'chronos-25'),
-      fairness: deterministicInt(82, 94, 'chronos-26'),
-      privacy: deterministicInt(78, 94, 'chronos-27'),
+      overall: 0,
+      transparency: 0,
+      accountability: 0,
+      robustness: 0,
+      fairness: 0,
+      privacy: 0,
     },
     privacyCompliance: {
-      gdprStatus: riskLevel < 0.1 ? 'violation' : riskLevel < 0.25 ? 'warning' : 'compliant',
-      ccpaStatus: riskLevel < 0.08 ? 'violation' : riskLevel < 0.2 ? 'warning' : 'compliant',
-      dataMinimization: deterministicInt(85, 96, 'chronos-28'),
-      consentCoverage: deterministicInt(92, 98, 'chronos-29'),
-      retentionCompliance: deterministicInt(88, 97, 'chronos-30'),
+      gdprStatus: 'compliant',
+      ccpaStatus: 'compliant',
+      dataMinimization: 0,
+      consentCoverage: 0,
+      retentionCompliance: 0,
     },
     securityPosture: {
-      overallScore: deterministicInt(82, 96, 'chronos-31'),
+      overallScore: 0,
       vulnerabilities: {
-        critical: deterministicInt(0, 1, 'chronos-70'),
-        high: deterministicInt(0, 4, 'chronos-71'),
-        medium: deterministicInt(0, 14, 'chronos-72'),
-        low: deterministicInt(0, 29, 'chronos-73'),
+        critical: 0,
+        high: 0,
+        medium: 0,
+        low: 0,
       },
-      encryptionCoverage: deterministicInt(95, 98, 'chronos-32'),
-      accessControlScore: deterministicInt(88, 97, 'chronos-33'),
-      auditLogIntegrity: 99 + deterministicFloat('chronos-166'),
+      encryptionCoverage: 0,
+      accessControlScore: 0,
+      auditLogIntegrity: 0,
     },
     stakeholderImpact: {
-      customersAffected:
-        event.type === 'milestone'
-          ? deterministicInt(0, 9999, 'chronos-74')
-          : deterministicInt(0, 499, 'chronos-75'),
-      employeesAffected:
-        event.type === 'personnel'
-          ? deterministicInt(0, 49, 'chronos-76')
-          : deterministicInt(0, 9, 'chronos-77'),
-      partnersAffected: deterministicInt(0, 4, 'chronos-78'),
-      financialExposure:
-        event.type === 'financial'
-          ? deterministicInt(0, 4999999, 'chronos-79')
-          : deterministicInt(0, 499999, 'chronos-80'),
-      reputationalRisk:
-        riskLevel < 0.1
-          ? 'critical'
-          : riskLevel < 0.25
-            ? 'high'
-            : riskLevel < 0.5
-              ? 'medium'
-              : 'low',
+      customersAffected: 0,
+      employeesAffected: 0,
+      partnersAffected: 0,
+      financialExposure: 0,
+      reputationalRisk: 'low',
     },
     driftScore: {
-      modelDrift: deterministicFloat('chronos-123') * 0.15,
-      dataDrift: deterministicFloat('chronos-124') * 0.12,
-      conceptDrift: deterministicFloat('chronos-125') * 0.08,
-      performanceDrift: deterministicFloat('chronos-126') * 0.1,
-      lastCalibration: new Date(event.timestamp.getTime() - deterministicFloat('chronos-127') * 7 * 86400000),
+      modelDrift: 0,
+      dataDrift: 0,
+      conceptDrift: 0,
+      performanceDrift: 0,
+      lastCalibration: event.timestamp,
     },
   };
 };
@@ -2101,67 +1499,31 @@ const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceS
 // =============================================================================
 
 const generateReverseTimeCheck = (targetDate: Date, mode: ChronosMode): ReverseTimeCheck => {
-  const hasMismatch = deterministicFloat('chronos-107') < 0.05; // 5% chance of detecting a mismatch
-  const expectedHash = generateHash(`expected-${targetDate.toISOString()}`);
-  const actualHash = hasMismatch ? generateHash(`actual-${Date.now()}`) : expectedHash;
-
+  // Real reverse time checks should come from backend integrity API
+  // This function should be replaced with actual API calls
   return {
     id: `rtc-${Date.now()}`,
     targetDate,
-    requestedBy: 'compliance@company.com',
+    requestedBy: '',
     requestedAt: new Date(),
-    status: hasMismatch ? 'mismatch_detected' : 'complete',
-    progress: 100,
+    status: 'pending',
+    progress: 0,
     reconstructedState: generateSnapshot(targetDate, mode),
-    expectedHash,
-    actualHash,
-    mismatches: hasMismatch
-      ? [
-          {
-            field: 'metrics.revenue',
-            expected: 12500000,
-            actual: 12487500,
-            severity: 'medium',
-            possibleCauses: [
-              'Late transaction reconciliation',
-              'Currency conversion timing',
-              'Rounding differences',
-            ],
-          },
-        ]
-      : [],
+    expectedHash: '',
+    actualHash: '',
+    mismatches: [],
     tamperProofSignal: {
-      isValid: !hasMismatch,
-      validationMethod: 'Merkle Tree + Digital Signatures',
-      merkleProof: Array.from({ length: 8 }, (_, i) =>
-        generateHash(`proof-${i}-${targetDate.toISOString()}`)
-      ),
-      blockRange: [4000, 4382],
-      witnessSignatures: ['Chronos Node 1', 'Chronos Node 2', 'Chronos Node 3'].map((w) =>
-        generateHash(`witness-${w}`)
-      ),
+      isValid: false,
+      validationMethod: '',
+      merkleProof: [],
+      blockRange: [0, 0],
+      witnessSignatures: [],
     },
     forensicReport: {
       generatedAt: new Date(),
-      findings: hasMismatch
-        ? [
-            'Minor discrepancy detected in revenue metrics',
-            'All other fields validated successfully',
-            'Hash chain integrity maintained',
-          ]
-        : [
-            'All state reconstructions match stored hashes',
-            'No tampering detected',
-            'Full audit trail verified',
-          ],
-      recommendations: hasMismatch
-        ? [
-            'Review transaction logs for the affected period',
-            'Verify ERP sync status',
-            'Consider manual reconciliation',
-          ]
-        : ['Continue regular monitoring', 'Schedule next integrity check'],
-      legalAdmissible: true,
+      findings: [],
+      recommendations: [],
+      legalAdmissible: false,
     },
   };
 };
@@ -2175,33 +1537,31 @@ const generateZKProof = (
   framework: ZeroKnowledgeProof['framework'],
   claim: string
 ): ZeroKnowledgeProof => {
+  // Real ZK proofs should come from backend cryptographic API
+  // This function should be replaced with actual API calls
   return {
     id: `zkp-${Date.now()}`,
     proofType,
     claim,
     framework,
     generatedAt: new Date(),
-    expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
+    expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
     proof: {
-      commitment: generateHash(`commitment-${framework}-${Date.now()}`),
-      challenge: generateHash(`challenge-${framework}-${Date.now()}`),
-      response: generateHash(`response-${framework}-${Date.now()}`),
-      publicInputs: [
-        `Framework: ${framework}`,
-        `Time Range: Last 365 days`,
-        `Compliance Status: VERIFIED`,
-      ],
+      commitment: '',
+      challenge: '',
+      response: '',
+      publicInputs: [],
     },
     verification: {
-      isValid: true,
+      isValid: false,
       verifiedAt: new Date(),
-      verifierSignature: generateHash(`verifier-sig-${Date.now()}`),
-      verificationHash: generateHash(`verification-${framework}-${Date.now()}`),
+      verifierSignature: '',
+      verificationHash: '',
     },
     metadata: {
-      dataPointsProven: deterministicInt(10000, 59999, 'chronos-34'),
+      dataPointsProven: 0,
       timeRangeCovered: {
-        start: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000),
+        start: new Date(),
         end: new Date(),
       },
       piiExposed: false,
@@ -2215,86 +1575,9 @@ const generateZKProof = (
 // =============================================================================
 
 const generateFinancialValidationEvents = (count: number = 10): FinancialValidationEvent[] => {
-  const sources: FinancialValidationEvent['source'][] = ['sap', 'netsuite', 'oracle', 'workday', 'dynamics365'];
-  const validationTypes: FinancialValidationEvent['validationType'][] = ['reconciliation', 'audit', 'period_close', 'compliance_check', 'materiality_test', 'control_test'];
-  const controlNames = [
-    'Revenue Recognition Controls',
-    'Accounts Payable Three-Way Match',
-    'Bank Reconciliation',
-    'Intercompany Eliminations',
-    'Fixed Asset Capitalization',
-    'Inventory Valuation',
-    'Payroll Processing Controls',
-    'Journal Entry Authorization',
-    'Access Control Review',
-    'Segregation of Duties',
-  ];
-  const auditors = [
-    { name: 'Sarah Chen', title: 'Senior Internal Auditor', cert: 'CIA, CPA' },
-    { name: 'Michael Torres', title: 'IT Audit Manager', cert: 'CISA, CISSP' },
-    { name: 'Emily Watson', title: 'External Audit Partner', cert: 'CPA' },
-    { name: 'James Kim', title: 'SOX Compliance Lead', cert: 'CPA, CIA' },
-    { name: 'Lisa Patel', title: 'Financial Controller', cert: 'CPA, CMA' },
-  ];
-  const entities = ['Datacendia Inc.', 'Datacendia EU GmbH', 'Datacendia APAC Pte Ltd', 'Datacendia UK Ltd'];
-  
-  let previousHash = generateHash('genesis-financial-validation');
-  
-  return Array.from({ length: count }, (_, i) => {
-    const timestamp = new Date(Date.now() - (count - i) * 7 * 24 * 60 * 60 * 1000);
-    const auditor = auditors[Math.floor(deterministicFloat('chronos-167') * auditors.length)]!;
-    const status: FinancialValidationEvent['status'] = deterministicFloat('chronos-108') > 0.15 
-      ? 'passed' 
-      : deterministicFloat('chronos-109') > 0.5 ? 'warning' : deterministicFloat('chronos-110') > 0.5 ? 'remediated' : 'failed';
-    const hasDiscrepancy = status !== 'passed';
-    const discrepancyAmount = hasDiscrepancy ? deterministicInt(0, 49999, 'chronos-81') + 1000 : undefined;
-    const materialityThreshold = 100000;
-    
-    const eventHash = generateHash(`fve-${i}-${timestamp.toISOString()}`);
-    const event: FinancialValidationEvent = {
-      id: `FVE-${timestamp.getFullYear()}-${String(i + 1).padStart(4, '0')}`,
-      timestamp,
-      source: sources[Math.floor(deterministicFloat('chronos-168') * sources.length)]!,
-      validationType: validationTypes[Math.floor(deterministicFloat('chronos-169') * validationTypes.length)]!,
-      period: `Q${Math.floor(timestamp.getMonth() / 3) + 1} ${timestamp.getFullYear()}`,
-      entity: entities[Math.floor(deterministicFloat('chronos-170') * entities.length)]!,
-      status,
-      discrepancyAmount,
-      discrepancyPercentage: discrepancyAmount ? (discrepancyAmount / materialityThreshold) * 100 : undefined,
-      materialityThreshold,
-      isMaterial: (discrepancyAmount || 0) >= materialityThreshold,
-      controlId: `SOX-FIN-${String(deterministicInt(0, 99, 'chronos-82') + 1).padStart(3, '0')}`,
-      controlName: controlNames[Math.floor(deterministicFloat('chronos-171') * controlNames.length)]!,
-      controlOwner: auditors[Math.floor(deterministicFloat('chronos-172') * auditors.length)]!.name,
-      controlFrequency: ['daily', 'weekly', 'monthly', 'quarterly'][deterministicInt(0, 3, 'chronos-83')] as FinancialValidationEvent['controlFrequency'],
-      auditor: auditor.name,
-      auditorTitle: auditor.title,
-      auditorCertification: auditor.cert,
-      reviewedBy: auditors[Math.floor(deterministicFloat('chronos-173') * auditors.length)]!.name,
-      reviewedAt: new Date(timestamp.getTime() + 24 * 60 * 60 * 1000),
-      supportingDocuments: Array.from({ length: deterministicInt(0, 2, 'chronos-84') + 1 }, (_, j) => ({
-        id: `DOC-${i}-${j}`,
-        name: ['Invoice-2024-001.pdf', 'Bank Statement Dec 2024.pdf', 'Journal Entry JE-4521.pdf', 'Approval Email.msg'][j % 4]!,
-        type: ['invoice', 'bank_statement', 'journal_entry', 'approval_email'][j % 4] as 'invoice' | 'bank_statement' | 'journal_entry' | 'approval_email',
-        hash: generateHash(`doc-${i}-${j}`),
-        uploadedAt: timestamp,
-      })),
-      findings: hasDiscrepancy ? 'Variance identified during reconciliation process. Root cause analysis initiated.' : undefined,
-      rootCause: hasDiscrepancy ? 'Timing difference in transaction posting between systems.' : undefined,
-      remediationPlan: hasDiscrepancy ? 'Implement automated reconciliation with T+1 settlement verification.' : undefined,
-      remediationDeadline: hasDiscrepancy ? new Date(timestamp.getTime() + 30 * 24 * 60 * 60 * 1000) : undefined,
-      remediationStatus: status === 'remediated' ? 'verified' : hasDiscrepancy ? 'in_progress' : undefined,
-      regulatoryFramework: ['SOX', 'GAAP'] as ('SOX' | 'GAAP')[],
-      riskRating: hasDiscrepancy ? ((discrepancyAmount || 0) >= materialityThreshold ? 'critical' : 'medium') : 'low',
-      eventHash,
-      previousEventHash: previousHash,
-      signature: generateHash(`sig-fve-${i}`),
-      signedBy: auditor.name,
-      signedAt: timestamp,
-    };
-    previousHash = eventHash;
-    return event;
-  });
+  // Real financial validation events should come from backend SOX audit API
+  // This function should be replaced with actual API calls
+  return []; // Empty until real data is connected
 };
 
 // =============================================================================
@@ -2305,137 +1588,43 @@ const generateRedactedExport = (
   _originalData: { events: TimelineEvent[]; snapshot: StateSnapshot },
   options: { caseReference?: string | undefined; discoveryRequestId?: string | undefined }
 ): RedactedExport => {
-  const now = new Date();
-  
-  // Generate redaction log
-  const redactionLog: RedactedExport['redactionLog'] = [
-    {
-      field: 'employee_ssn',
-      path: '$.events[*].actors[*].ssn',
-      category: 'pii',
-      method: 'masked',
-      originalCharCount: 11,
-      redactedValue: '***-**-####',
-      justification: 'Social Security Numbers are PII requiring protection under privacy regulations.',
-      legalBasis: 'CCPA §1798.140(o), GDPR Art. 4(1)',
-    },
-    {
-      field: 'employee_salary',
-      path: '$.events[*].actors[*].compensation',
-      category: 'personnel',
-      method: 'removed',
-      originalCharCount: 8,
-      redactedValue: '[REDACTED-PERSONNEL]',
-      justification: 'Compensation data is confidential personnel information.',
-      legalBasis: 'Company Policy HR-001, Employment Agreement §7.2',
-    },
-    {
-      field: 'trade_secret_algorithm',
-      path: '$.events[*].metadata.algorithm_details',
-      category: 'trade-secret',
-      method: 'removed',
-      originalCharCount: 2048,
-      redactedValue: '[REDACTED-TRADE-SECRET]',
-      justification: 'Proprietary algorithm details constitute trade secrets.',
-      legalBasis: 'DTSA 18 U.S.C. § 1836, Protective Order ¶12',
-    },
-    {
-      field: 'customer_email',
-      path: '$.events[*].customer.email',
-      category: 'pii',
-      method: 'pseudonymized',
-      originalCharCount: 24,
-      redactedValue: 'user_[hash]@redacted.com',
-      justification: 'Customer email addresses are PII.',
-      legalBasis: 'GDPR Art. 4(5), CCPA §1798.140(o)',
-    },
-    {
-      field: 'ip_address',
-      path: '$.events[*].source_ip',
-      category: 'pii',
-      method: 'generalized',
-      originalCharCount: 15,
-      redactedValue: '192.168.xxx.xxx',
-      justification: 'IP addresses can be used to identify individuals.',
-      legalBasis: 'GDPR Art. 4(1), Breyer v. Germany (C-582/14)',
-    },
-  ];
-
-  const originalHash = generateHash(JSON.stringify(_originalData));
-  const redactedHash = generateHash(originalHash + '-redacted-' + Date.now());
-  
-  const chainOfCustody: RedactedExport['chainOfCustody'] = [
-    {
-      actor: 'Chronos Export Service',
-      action: 'created',
-      timestamp: now,
-      ipAddress: '10.0.1.50',
-      deviceId: 'CHRONOS-EXPORT-001',
-      signature: generateHash(`custody-created-${now.toISOString()}`),
-    },
-    {
-      actor: 'Legal Hold System',
-      action: 'accessed',
-      timestamp: new Date(now.getTime() + 1000),
-      ipAddress: '10.0.1.51',
-      deviceId: 'LEGAL-HOLD-001',
-      signature: generateHash(`custody-accessed-${now.toISOString()}`),
-    },
-    {
-      actor: 'Redaction Engine v3.2',
-      action: 'modified',
-      timestamp: new Date(now.getTime() + 5000),
-      ipAddress: '10.0.1.52',
-      deviceId: 'REDACT-ENGINE-001',
-      signature: generateHash(`custody-modified-${now.toISOString()}`),
-    },
-    {
-      actor: 'Export Certification Service',
-      action: 'exported',
-      timestamp: new Date(now.getTime() + 10000),
-      ipAddress: '10.0.1.53',
-      deviceId: 'CERT-SERVICE-001',
-      signature: generateHash(`custody-exported-${now.toISOString()}`),
-    },
-  ];
-
-  const certificateId = `CERT-${now.getFullYear()}-${generateHash(now.toISOString()).slice(0, 8).toUpperCase()}`;
-  
+  // Real redacted exports should come from backend legal discovery API
+  // This function should be replaced with actual API calls
   return {
-    id: `RE-${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${generateHash(now.toISOString()).slice(0, 6).toUpperCase()}`,
-    generatedAt: now,
-    generatedBy: 'Chronos Redaction Engine v3.2',
-    originalHash,
-    redactedHash,
-    transformationProof: generateHash(`transform-${originalHash}-${redactedHash}`),
-    redactionLog,
-    financialIntegrityPreserved: true,
-    financialTotalsMatch: true,
-    materialAmountsUnchanged: true,
-    auditTrailComplete: true,
-    chainOfCustody,
+    id: '',
+    generatedAt: new Date(),
+    generatedBy: '',
+    originalHash: '',
+    redactedHash: '',
+    transformationProof: '',
+    redactionLog: [],
+    financialIntegrityPreserved: false,
+    financialTotalsMatch: false,
+    materialAmountsUnchanged: false,
+    auditTrailComplete: false,
+    chainOfCustody: [],
     redactionCertificate: {
-      certificateId,
-      issuedAt: now,
-      expiresAt: new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000),
-      issuedBy: 'Jennifer Martinez, Esq.',
-      issuerTitle: 'General Counsel',
-      issuerBarNumber: 'CA-287451',
-      attestation: `I hereby certify that the redactions applied to this export (ID: ${certificateId}) were performed in accordance with applicable privacy laws, the governing protective order, and company data governance policies. All redactions preserve the financial integrity and audit trail completeness required for regulatory compliance. The redaction methods used are defensible and documented in the accompanying redaction log.`,
-      digitalSignature: generateHash(`cert-sig-${certificateId}`),
-      publicKeyFingerprint: 'SHA256:' + generateHash(`pubkey-${certificateId}`).slice(0, 40),
+      certificateId: '',
+      issuedAt: new Date(),
+      expiresAt: new Date(),
+      issuedBy: '',
+      issuerTitle: '',
+      issuerBarNumber: '',
+      attestation: '',
+      digitalSignature: '',
+      publicKeyFingerprint: '',
     },
     caseReference: options.caseReference,
     discoveryRequestId: options.discoveryRequestId,
-    productionNumber: `PROD-${now.getFullYear()}-${String(deterministicInt(0, 999, 'chronos-85')).padStart(4, '0')}`,
-    batesRangeStart: `DC${String(deterministicInt(0, 99999, 'chronos-86')).padStart(7, '0')}`,
-    batesRangeEnd: `DC${String(deterministicInt(0, 99999, 'chronos-87') + 100000).padStart(7, '0')}`,
-    verificationUrl: `https://verify.datacendia.com/export/${certificateId}`,
-    verificationQrCode: `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="50">QR:${certificateId}</text></svg>`,
+    productionNumber: '',
+    batesRangeStart: '',
+    batesRangeEnd: '',
+    verificationUrl: '',
+    verificationQrCode: '',
     format: 'json',
-    encryptedPayload: generateHash(`payload-${certificateId}-encrypted`),
-    encryptionAlgorithm: 'AES-256-GCM',
-    keyDerivation: 'Argon2id',
+    encryptedPayload: '',
+    encryptionAlgorithm: '',
+    keyDerivation: '',
   };
 };
 
@@ -2619,9 +1808,8 @@ export const ChronosPage: React.FC = () => {
       ? Math.pow(1 - growthRate, daysDiff)
       : Math.pow(1 + growthRate, -daysDiff);
 
-    // Add some volatility for future projections
-    const volatility = mode === 'fastforward' ? 0.15 : 0.05;
-    const randomFactor = 1 + (deterministicFloat('chronos-97') - 0.5) * volatility;
+    // Remove fake volatility - real projections should use uncertainty models from backend
+    const randomFactor = 1;
 
     // Apply time-based transformation
     const projectValue = (baseValue: number, isWholeNumber: boolean = false): number => {
@@ -2662,7 +1850,7 @@ export const ChronosPage: React.FC = () => {
           'COO Agent',
           'CISO Agent',
           'CMO Agent',
-        ].slice(0, deterministicInt(0, 1, 'chronos-88') + 4),
+        ].slice(0, 4),
         pendingDecisions: Math.max(
           0,
           Math.floor(
@@ -2927,7 +2115,7 @@ export const ChronosPage: React.FC = () => {
           if (druidEvents.length > 0) {
             druidEvents.forEach((de: any) => {
               realEvents.push({
-                id: de.id || `druid-${Date.now()}-${deterministicFloat('chronos-174')}`,
+                id: de.id || `druid-${Date.now()}`,
                 timestamp: new Date(de.timestamp),
                 type: de.eventType || 'system',
                 title: de.action || 'Event',
@@ -2989,12 +2177,12 @@ export const ChronosPage: React.FC = () => {
     fetchAllChronosData();
   }, []);
 
-  // Generate animated graph nodes
+  // Generate animated graph nodes - should use real graph data from backend
   useEffect(() => {
-    const nodes = Array.from({ length: 30 }, () => ({
-      x: deterministicFloat('chronos-128') * 100,
-      y: deterministicFloat('chronos-129') * 100,
-      size: 2 + deterministicFloat('chronos-120') * 4,
+    const nodes = Array.from({ length: 30 }, (_, i) => ({
+      x: (i % 6) * 16 + 8,
+      y: Math.floor(i / 6) * 16 + 8,
+      size: 3,
     }));
     setGraphNodes(nodes);
   }, [currentDate]);
@@ -3260,13 +2448,13 @@ export const ChronosPage: React.FC = () => {
       variable,
       original,
       alternate,
-      divergence: deterministicFloat('chronos-130') * 30 + 10,
+      divergence: 20,
       snapshots: Array.from({ length: 12 }, (_, i) =>
         generateSnapshot(new Date(currentDate.getTime() + i * 30 * 24 * 60 * 60 * 1000), 'replay')
       ),
-      outcome: ['better', 'worse', 'similar'][deterministicInt(0, 2, 'chronos-89')] as any,
-      deltaRevenue: (deterministicFloat('chronos-175') - 0.3) * 5000000,
-      deltaProfit: (deterministicFloat('chronos-176') - 0.4) * 1500000,
+      outcome: 'similar' as any,
+      deltaRevenue: 0,
+      deltaProfit: 0,
     };
     setBranches((prev) => [...prev, branch]);
     setSelectedBranch(branch.id);
@@ -6069,7 +5257,7 @@ const EventWitnessModal: React.FC<{
   const eventSources = ['Council decision', 'Bridge workflow', 'Panopticon alert', 'Manual entry'];
   const source = event.deliberationId
     ? 'Council decision'
-    : eventSources[deterministicInt(0, 2, 'chronos-90')];
+    : eventSources[0];
 
   // Calculate timing for each approver
   const eventCreatedAt = new Date(event.timestamp.getTime() - 4 * 3600000); // 4 hours before

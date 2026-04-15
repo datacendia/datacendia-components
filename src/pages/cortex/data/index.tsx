@@ -98,9 +98,12 @@ export const DataSourcesPage: React.FC = () => {
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>DATA SOURCES</h1>
           <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Manage your connected data sources</p>
         </div>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <a 
+          href="/admin/data-sources"
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors cursor-pointer inline-flex items-center"
+        >
           + Connect Source
-        </button>
+        </a>
       </div>
 
       {/* Stats */}

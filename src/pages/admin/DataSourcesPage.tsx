@@ -620,10 +620,10 @@ export const DataSourcesPage: React.FC = () => {
           </div>
           <button
             onClick={() => setIsAddingNew(true)}
-            className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors"
+            className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors pointer-events-auto z-50"
           >
             <Plus className="w-4 h-4" />
-            Add Data Source
+            Connect Source
           </button>
         </div>
 

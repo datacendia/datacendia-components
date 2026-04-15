@@ -1,0 +1,21 @@
+id,date,type,title,department,user,ai_provider,prompt,pii_detected,pii_types,decision,risk_score,latency_ms,framework,value_usd,outcome,notes
+1,2025-01-15,Payment Processing,Credit Card Authorization,Finance,john.smith,anthropic,"Process payment for customer #12345 using card ending in 4567",true,["CREDIT_CARD"],BLOCK,85,245,PCI-DSS,12500.00,Blocked,PII detected - credit card number
+2,2025-01-15,Legal Review,Case Law Research,Legal,sarah.jones,ollama,"Find similar cases to Smith v. Jones regarding breach of contract",false,[],ALLOW,12,890,Legal,0.00,Allowed,No PII detected
+3,2025-01-15,Council Deliberation,Policy Decision,Executive,admin@datacendia.com,anthropic,"Should we implement mandatory 2FA for all user accounts?",false,[],ESCALATE,45,1200,GDPR,0.00,In Progress,Council deliberation in progress
+4,2025-01-15,Data Export,Customer Data Export,Marketing,mike.wilson,anthropic,"Export all customer email addresses for marketing campaign",true,["EMAIL"],BLOCK,92,156,GDPR,0.00,Blocked,PII detected - email addresses
+5,2025-01-15,API Query,User Profile Lookup,Engineering,dev.user,ollama,"Get user profile for user_id 45678",false,[],ALLOW,5,45,OAuth,0.00,Allowed,No PII detected
+6,2025-01-15,Council Deliberation,Compliance Audit,Legal,admin@datacendia.com,anthropic,"Review Q4 compliance gaps and recommend remediation",false,[],ESCALATE,38,2100,SOX,0.00,In Progress,Council deliberation in progress
+7,2025-01-15,Document Processing,Medical Record Analysis,Healthcare,dr.brown,anthropic,"Analyze patient medical record for diagnosis patterns",true,["MEDICAL_RECORD","SSN"],BLOCK,95,320,HIPAA,0.00,Blocked,PHI detected
+8,2025-01-15,Payment Processing,ACH Transfer,Finance,finance.bot,ollama,"Initiate ACH transfer to account ending 9876",true,["BANK_ACCOUNT"],BLOCK,78,189,PCI-DSS,50000.00,Blocked,PII detected - bank account
+9,2025-01-15,Report Generation,Sales Report,Sales,analyst.user,anthropic,"Generate Q1 sales report by region",false,[],ALLOW,8,340,None,0.00,Allowed,No PII detected
+10,2025-01-15,Council Deliberation,Security Policy Review,Security,admin@datacendia.com,anthropic,"Update password policy to require 16-char minimum",false,[],ESCALATE,42,1500,NIST,0.00,In Progress,Council deliberation in progress
+11,2025-01-15,Data Import,Employee Data Import,HR,hr.manager,ollama,"Import employee data from CSV file",true,["SSN","EMAIL"],REDACT,65,280,GDPR,0.00,Partial,PII partially redacted
+12,2025-01-15,Customer Support,Identity Verification,Support,support.agent,anthropic,"Verify customer identity using SSN and DOB",true,["SSN"],BLOCK,88,210,GLBA,0.00,Blocked,PII detected - SSN
+13,2025-01-15,API Request,Product Catalog,Engineering,api.user,ollama,"Get product catalog for category electronics",false,[],ALLOW,3,28,None,0.00,Allowed,No PII detected
+14,2025-01-15,Council Deliberation,Risk Assessment,Risk,admin@datacendia.com,anthropic,"Evaluate third-party vendor security posture",false,[],ESCALATE,55,2800,ISO27001,0.00,In Progress,Council deliberation in progress
+15,2025-01-15,Document Access,Passport Verification,Immigration,officer.smith,anthropic,"Verify passport number for visa application",true,["PASSPORT"],BLOCK,90,175,Immigration,0.00,Blocked,PII detected - passport
+16,2025-01-15,Data Query,Transaction History,Audit,auditor.user,ollama,"Query transaction history for account 123456",true,["BANK_ACCOUNT"],BLOCK,72,156,SOX,25000.00,Blocked,PII detected - account number
+17,2025-01-15,Council Deliberation,Data Retention Policy,Legal,admin@datacendia.com,anthropic,"Set data retention policy to 7 years for financial records",false,[],ESCALATE,40,1800,GDPR,0.00,In Progress,Council deliberation in progress
+18,2025-01-15,Email Processing,Email Analysis,Marketing,marketing.bot,anthropic,"Analyze customer email sentiment",false,[],ALLOW,15,95,None,0.00,Allowed,No PII detected
+19,2025-01-15,Payment Processing,Wire Transfer,Finance,treasury.user,ollama,"Process international wire transfer",true,["BANK_ACCOUNT","SSN"],BLOCK,82,220,OFAC,100000.00,Blocked,PII detected - bank account + SSN
+20,2025-01-15,Council Deliberation,Audit Trail Review,Compliance,admin@datacendia.com,anthropic,"Review audit trail for suspicious activity patterns",false,[],ESCALATE,48,2400,SOC2,0.00,In Progress,Council deliberation in progress
