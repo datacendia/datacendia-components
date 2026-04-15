@@ -331,6 +331,35 @@ const CONNECTOR_CONFIGS: Record<
       { key: 'apiKey', label: 'Authorization Token', type: 'password', isCredential: true },
     ],
   },
+  CSV_UPLOAD: {
+    name: 'CSV File Upload',
+    icon: '📄',
+    category: 'File',
+    fields: [
+      {
+        key: 'filePath',
+        label: 'File Path',
+        type: 'text',
+        placeholder: '/path/to/your/data.csv',
+        required: true,
+      },
+      {
+        key: 'hasHeaders',
+        label: 'Has Headers',
+        type: 'select',
+        options: [
+          { value: 'true', label: 'Yes' },
+          { value: 'false', label: 'No' },
+        ],
+      },
+      {
+        key: 'tableName',
+        label: 'Table Name',
+        type: 'text',
+        placeholder: 'my_data_table',
+      },
+    ],
+  },
 };
 
 // =============================================================================
