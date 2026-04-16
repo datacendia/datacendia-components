@@ -19,6 +19,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../../lib/api';
 import {
   unionService,
   Employee,
@@ -56,6 +57,22 @@ export const UnionPage: React.FC = () => {
     unionService
       .refreshOllamaStatus()
       .then(() => setOllamaStatus(unionService.isOllamaAvailable()));
+    // Enrich from backend if available
+    let cancelled = false;
+    (async () => {
+      try {
+        const [empRes, metRes] = await Promise.all([
+          api.get<any>('/union/employees'),
+          api.get<any>('/union/metrics'),
+        ]);
+        if (cancelled) return;
+        if (empRes?.data && Array.isArray(empRes.data)) setEmployees(empRes.data as Employee[]);
+        else if (Array.isArray((empRes as any)?.employees)) setEmployees((empRes as any).employees as Employee[]);
+        if (metRes?.data) setMetrics(metRes.data as WorkforceMetrics);
+        else if ((metRes as any)?.metrics) setMetrics((metRes as any).metrics as WorkforceMetrics);
+      } catch { /* backend unavailable — keep local service data */ }
+    })();
+    return () => { cancelled = true; };
   }, [loadData]);
 
   const getBurnoutColor = (level: BurnoutLevel) => {

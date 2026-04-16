@@ -36,6 +36,7 @@ import {
   ExecutiveRole,
 } from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
+import { api } from '../../../lib/api';
 
 // =============================================================================
 // LOCAL TYPES
@@ -71,11 +72,25 @@ export const VoicePage: React.FC = () => {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  // Load executives from service
+  // Load executives from service, then enrich from backend if available
   useEffect(() => {
     setExecutives(enterpriseService.getExecutives());
     setMessages(enterpriseService.getVoiceMessages());
     setOllamaStatus(ollamaService.getStatus());
+
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/enterprise/regent/advisors');
+        if (cancelled) return;
+        if (res.success && res.data?.advisors && Array.isArray(res.data.advisors)) {
+          // Merge backend advisors with local executives (backend takes precedence if present)
+          const backendExecutives = res.data.advisors as AIExecutive[];
+          if (backendExecutives.length > 0) setExecutives(backendExecutives);
+        }
+      } catch { /* backend unavailable — keep local executives */ }
+    })();
+    return () => { cancelled = true; };
   }, []);
 
   // Auto-scroll to bottom of messages

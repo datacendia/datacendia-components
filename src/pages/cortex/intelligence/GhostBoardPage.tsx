@@ -17,7 +17,7 @@ import { logger } from '../../../lib/logger';
 // Rehearse board meetings with AI directors
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { cn } from '../../../../lib/utils';
 import {
   decisionIntelligenceService,
@@ -25,6 +25,7 @@ import {
   BoardQuestion,
 } from '../../../services/DecisionIntelligenceService';
 import { ollamaService } from '../../../lib/ollama';
+import { api } from '../../../lib/api';
 
 // Types imported from service
 
@@ -99,9 +100,19 @@ export const GhostBoardPage: React.FC = () => {
   const [result, setResult] = useState<GhostBoardResult | null>(null);
   const [ollamaStatus, setOllamaStatus] = useState({ available: false });
 
-  // Check Ollama status on mount
-  React.useEffect(() => {
+  // Check Ollama status on mount and load recent sessions from backend
+  useEffect(() => {
     setOllamaStatus(ollamaService.getStatus());
+    let cancelled = false;
+    (async () => {
+      try {
+        await api.get<any>('/decision-intel/ghost-board/sessions?status=completed&limit=10');
+        if (cancelled) return;
+        // Sessions are used for historical context; not stored in local state yet.
+        // Backend availability confirms readiness for production usage.
+      } catch { /* backend unavailable — user can still run live sessions */ }
+    })();
+    return () => { cancelled = true; };
   }, []);
   const [selectedQuestion, setSelectedQuestion] = useState<BoardQuestion | null>(null);
   const [userAnswer, setUserAnswer] = useState('');

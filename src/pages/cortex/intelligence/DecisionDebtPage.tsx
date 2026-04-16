@@ -24,6 +24,7 @@ import {
   DecisionDebtDashboard,
   PendingDecision,
 } from '../../../services/DecisionIntelligenceService';
+import { api } from '../../../lib/api';
 
 // Types imported from DecisionIntelligenceService
 
@@ -41,10 +42,20 @@ export const DecisionDebtPage: React.FC = () => {
     loadDashboard();
   }, []);
 
-  const loadDashboard = () => {
+  const loadDashboard = async () => {
     setIsLoading(true);
     try {
-      // Use real Decision Intelligence Service
+      // Try real backend first
+      const res = await api.get<any>('/premium/decision-debt/dashboard');
+      if (res.success && res.data) {
+        setDashboard(res.data as DecisionDebtDashboard);
+        setIsLoading(false);
+        return;
+      }
+    } catch {
+      // Fall through to local service
+    }
+    try {
       const dashboardData = decisionIntelligenceService.getDecisionDebtDashboard();
       setDashboard(dashboardData);
     } catch (err) {

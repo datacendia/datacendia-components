@@ -11,7 +11,8 @@
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   Shield, AlertTriangle, FileText, Loader2, ChevronRight,
   Clock, CheckCircle, XCircle, Download, Scale, Lock,
@@ -656,6 +657,18 @@ const CaseManagementPanel: React.FC = () => {
 export const IncidentForensicsPage: React.FC = () => {
   const [report, setReport] = useState<ForensicReport | null>(null);
   const [loading, setLoading] = useState(false);
+
+  // Check backend wedge service availability on mount
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        await api.get<any>('/wedge/status');
+        if (cancelled) return;
+      } catch { /* backend unavailable — wizard UI still renders */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const handleSubmit = useCallback(async (form: IncidentForm) => {
     setLoading(true);

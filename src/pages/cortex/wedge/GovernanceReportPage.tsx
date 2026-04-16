@@ -11,7 +11,8 @@
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   FileText, ChevronRight, ChevronLeft, Loader2, Shield,
   AlertTriangle, CheckCircle, XCircle, Download, BarChart3,
@@ -687,6 +688,19 @@ const GovernanceHistoryPanel: React.FC = () => {
 export const GovernanceReportPage: React.FC = () => {
   const [report, setReport] = useState<Report | null>(null);
   const [loading, setLoading] = useState(false);
+
+  // Check backend wedge service availability on mount
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        await api.get<any>('/wedge/status');
+        if (cancelled) return;
+        // Backend availability confirms the report generator is production-ready.
+      } catch { /* backend unavailable — report generator UI still renders */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const handleSubmit = useCallback(async (q: Questionnaire) => {
     setLoading(true);

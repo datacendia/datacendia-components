@@ -30,6 +30,7 @@ import {
   ChatMessage,
 } from '../../../services/PersonaForgeService';
 import { ollamaService } from '../../../lib/ollama';
+import { api } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -145,7 +146,7 @@ export const PersonaForgePage: React.FC = () => {
   const [newPersonaName, setNewPersonaName] = useState('');
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
-  // Load personas from service
+  // Load personas from service and enrich from backend
   useEffect(() => {
     const loadPersonas = () => {
       setPersonas(personaForgeService.getPersonas());
@@ -156,13 +157,29 @@ export const PersonaForgePage: React.FC = () => {
     const status = ollamaService.getStatus();
     setOllamaStatus(status);
 
+    // Fetch persona twins from backend
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/persona/twins');
+        if (cancelled) return;
+        if (res.success && Array.isArray(res.data) && res.data.length > 0) {
+          // Merge backend twins into local service state
+          setPersonas(res.data as DigitalPersona[]);
+        }
+      } catch { /* backend unavailable — keep local service data */ }
+    })();
+
     // Refresh periodically
     const interval = setInterval(() => {
       loadPersonas();
       setOllamaStatus(ollamaService.getStatus());
     }, 5000);
 
-    return () => clearInterval(interval);
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
   }, []);
 
   // Auto-scroll chat

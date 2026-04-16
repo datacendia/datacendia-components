@@ -18,6 +18,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../../lib/api';
 import {
   vetoService,
   VetoAgent,
@@ -56,6 +57,22 @@ export const VetoPage: React.FC = () => {
   useEffect(() => {
     loadData();
     vetoService.refreshOllamaStatus().then(() => setOllamaStatus(vetoService.isOllamaAvailable()));
+    // Enrich from backend if available
+    let cancelled = false;
+    (async () => {
+      try {
+        const [decRes, metRes] = await Promise.all([
+          api.get<any>('/veto/decisions'),
+          api.get<any>('/veto/metrics'),
+        ]);
+        if (cancelled) return;
+        if (decRes?.data && Array.isArray(decRes.data)) setDecisions(decRes.data as VetoDecision[]);
+        else if (Array.isArray((decRes as any)?.decisions)) setDecisions((decRes as any).decisions as VetoDecision[]);
+        if (metRes?.data) setMetrics(metRes.data as VetoMetrics);
+        else if ((metRes as any)?.metrics) setMetrics((metRes as any).metrics as VetoMetrics);
+      } catch { /* backend unavailable — keep local service data */ }
+    })();
+    return () => { cancelled = true; };
   }, [loadData]);
 
   const handleSubmitProposal = async () => {

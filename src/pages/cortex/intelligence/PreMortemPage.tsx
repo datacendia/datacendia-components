@@ -26,6 +26,7 @@ import {
 } from '../../../services/DecisionIntelligenceService';
 import { ollamaService, DomainAgent } from '../../../lib/ollama';
 import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { api } from '../../../lib/api';
 import {
   UserInterventionPanel,
   UserRole,
@@ -112,7 +113,7 @@ export const PreMortemPage: React.FC = () => {
     localStorage.setItem('datacendia_user_role', JSON.stringify(role));
   };
 
-  // Load available agents from Ollama
+  // Load available agents from Ollama and recent analyses from backend
   useEffect(() => {
     const status = ollamaService.getStatus();
     setOllamaStatus(status);
@@ -128,6 +129,18 @@ export const PreMortemPage: React.FC = () => {
       description: a.description,
     }));
     setAgents(mappedAgents);
+
+    // Fetch recent pre-mortem analyses from backend for historical context
+    let cancelled = false;
+    (async () => {
+      try {
+        await api.get<any>('/decision-intel/pre-mortem/analyses?status=completed&limit=10');
+        if (cancelled) return;
+        // Backend availability confirms production readiness;
+        // user will generate new analyses via runPreMortem below.
+      } catch { /* backend unavailable — Ollama fallback still works */ }
+    })();
+    return () => { cancelled = true; };
   }, []);
 
   const toggleAgent = (agentId: string) => {

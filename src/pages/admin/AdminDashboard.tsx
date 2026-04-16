@@ -19,6 +19,7 @@ import { logger } from '../../lib/logger';
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '../../../lib/utils';
+import { api } from '../../lib/api';
 
 // Types
 interface Tenant {
@@ -267,6 +268,27 @@ const AdminDashboard: React.FC = () => {
   const [services] = useState<ServiceHealth[]>(mockServices);
   const [searchQuery, setSearchQuery] = useState('');
   const [impersonating, setImpersonating] = useState<string | null>(null);
+
+  // Load tenants and feature flags from backend
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const [tenantsRes, flagsRes] = await Promise.all([
+          api.get<any>('/admin/tenants'),
+          api.get<any>('/admin/feature-flags'),
+        ]);
+        if (cancelled) return;
+        if (tenantsRes.success && Array.isArray(tenantsRes.data) && tenantsRes.data.length > 0) {
+          setTenants(tenantsRes.data as Tenant[]);
+        }
+        if (flagsRes.success && Array.isArray(flagsRes.data) && flagsRes.data.length > 0) {
+          setFeatureFlags(flagsRes.data as FeatureFlag[]);
+        }
+      } catch { /* backend unavailable — keep mock data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   // Calculate overview stats
   const overviewStats = {

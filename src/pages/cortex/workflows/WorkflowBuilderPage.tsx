@@ -27,6 +27,7 @@ import {
 } from 'lucide-react';
 import { SERVICE_REGISTRY, getServiceById, getCategories } from '../../../services/ServiceRegistry';
 import { WorkflowPersistenceService } from '../../../services/WorkflowPersistenceService';
+import { api } from '../../../lib/api';
 import type { Workflow, WorkflowStep, ServiceDefinition, ServiceCategory } from '../../../types/workflow';
 
 // =============================================================================
@@ -282,6 +283,32 @@ export default function WorkflowBuilderPage() {
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
   }, [handleSave]);
+
+  // ── Load workflows from backend ─────────────────────────────────────────
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/workflows');
+        if (cancelled) return;
+        if (res.success && Array.isArray(res.data) && res.data.length > 0) {
+          const items = (res.data as Workflow[]).map(w => ({
+            id: w.id,
+            name: w.name,
+            description: w.description,
+            status: w.status,
+            stepCount: w.steps?.length ?? 0,
+            createdAt: w.createdAt,
+            updatedAt: w.updatedAt,
+            lastRunAt: w.lastRunAt,
+            tags: w.tags,
+          }));
+          setSavedWorkflows(items as any);
+        }
+      } catch { /* backend unavailable — keep local persistence data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   // ── Render ──────────────────────────────────────────────────────────────
   return (

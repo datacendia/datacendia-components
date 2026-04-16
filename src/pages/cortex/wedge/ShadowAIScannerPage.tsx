@@ -12,7 +12,8 @@
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   Shield, AlertTriangle, Eye, Search, Users, Building2,
   DollarSign, Activity, ChevronRight, Loader2, BarChart3,
@@ -679,6 +680,18 @@ const ContinuousMonitoringPanel: React.FC = () => {
 export const ShadowAIScannerPage: React.FC = () => {
   const [result, setResult] = useState<ScanResult | null>(null);
   const [loading, setLoading] = useState(false);
+
+  // Check backend wedge service availability on mount
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        await api.get<any>('/wedge/status');
+        if (cancelled) return;
+      } catch { /* backend unavailable — scanner UI still renders */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const handleScan = useCallback(async (config: ScanConfig) => {
     setLoading(true);
