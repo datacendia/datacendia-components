@@ -31,6 +31,19 @@ export { fedRAMPReadinessService } from './FedRAMPReadinessService.js';
 export { usStatePrivacyEngine } from './USStatePrivacyEngine.js';
 export { accessibilityComplianceService } from './AccessibilityComplianceService.js';
 
+// Extended Platinum Compliance Services (11 new categories)
+export { aiSpecificComplianceService } from './AISpecificComplianceService.js';
+export { internationalPrivacyService } from './InternationalPrivacyService.js';
+export { financialComplianceService } from './FinancialComplianceService.js';
+export { healthcareExtendedService } from './HealthcareExtendedService.js';
+export { governmentDefenseService } from './GovernmentDefenseService.js';
+export { antiCorruptionService } from './AntiCorruptionService.js';
+export { esgComplianceService } from './ESGComplianceService.js';
+export { euDigitalRegulationService } from './EUDigitalRegulationService.js';
+export { communicationsComplianceService } from './CommunicationsComplianceService.js';
+export { insuranceComplianceService } from './InsuranceComplianceService.js';
+export { standardsComplianceService } from './StandardsComplianceService.js';
+
 // Compliance workflow scenarios from the 312 enterprise workflows
 // See: backend/src/data/WORKFLOW-REFERENCE.md
 export const COMPLIANCE_WORKFLOWS = {

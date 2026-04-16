@@ -19,6 +19,17 @@ import { iso27001ISMSService } from '../services/compliance/ISO27001ISMSService.
 import { fedRAMPReadinessService } from '../services/compliance/FedRAMPReadinessService.js';
 import { usStatePrivacyEngine } from '../services/compliance/USStatePrivacyEngine.js';
 import { accessibilityComplianceService } from '../services/compliance/AccessibilityComplianceService.js';
+import { aiSpecificComplianceService } from '../services/compliance/AISpecificComplianceService.js';
+import { internationalPrivacyService } from '../services/compliance/InternationalPrivacyService.js';
+import { financialComplianceService } from '../services/compliance/FinancialComplianceService.js';
+import { healthcareExtendedService } from '../services/compliance/HealthcareExtendedService.js';
+import { governmentDefenseService } from '../services/compliance/GovernmentDefenseService.js';
+import { antiCorruptionService } from '../services/compliance/AntiCorruptionService.js';
+import { esgComplianceService } from '../services/compliance/ESGComplianceService.js';
+import { euDigitalRegulationService } from '../services/compliance/EUDigitalRegulationService.js';
+import { communicationsComplianceService } from '../services/compliance/CommunicationsComplianceService.js';
+import { insuranceComplianceService } from '../services/compliance/InsuranceComplianceService.js';
+import { standardsComplianceService } from '../services/compliance/StandardsComplianceService.js';
 
 const router = Router();
 
@@ -37,7 +48,19 @@ router.get('/health', (_req: Request, res: Response) => {
       fedramp: 'operational',
       usStatePrivacy: 'operational',
       accessibility: 'operational',
+      aiSpecific: 'operational',
+      internationalPrivacy: 'operational',
+      financial: 'operational',
+      healthcareExtended: 'operational',
+      governmentDefense: 'operational',
+      antiCorruption: 'operational',
+      esg: 'operational',
+      euDigitalRegulation: 'operational',
+      communications: 'operational',
+      insurance: 'operational',
+      standards: 'operational',
     },
+    totalServices: 19,
     timestamp: new Date().toISOString(),
   });
 });
@@ -56,18 +79,45 @@ router.get('/dashboard', (_req: Request, res: Response) => {
     const statePrivacy = usStatePrivacyEngine.getComplianceSummary();
     const accessibility = accessibilityComplianceService.getComplianceStatus();
 
+    // New service dashboards
+    const aiSpecific = aiSpecificComplianceService.getDashboard();
+    const intlPrivacy = internationalPrivacyService.getDashboard();
+    const financial = financialComplianceService.getDashboard();
+    const hcExtended = healthcareExtendedService.getDashboard();
+    const govDefense = governmentDefenseService.getDashboard();
+    const antiCorruption = antiCorruptionService.getDashboard();
+    const esgDash = esgComplianceService.getDashboard();
+    const euDigital = euDigitalRegulationService.getDashboard();
+    const comms = communicationsComplianceService.getDashboard();
+    const insurance = insuranceComplianceService.getDashboard();
+    const standards = standardsComplianceService.getDashboard();
+
+    const allScores = [
+      soc2.overallScore, hipaa.overallReadiness, gdpr.overallReadiness,
+      euai.overallReadiness, iso.overallReadiness, fedramp.overallReadiness,
+      statePrivacy.averageScore, accessibility.overallConformance,
+      aiSpecific.averageScore, intlPrivacy.averageScore, financial.averageScore,
+      hcExtended.averageScore, govDefense.averageScore, antiCorruption.averageScore,
+      esgDash.averageScore, euDigital.averageScore, comms.averageScore,
+      insurance.averageScore, standards.averageScore,
+    ];
+
     res.json({
       overview: {
-        totalFrameworks: 8,
-        averageReadiness: Math.round(
-          (soc2.overallScore + hipaa.overallReadiness + gdpr.overallReadiness +
-           euai.overallReadiness + iso.overallReadiness + fedramp.overallReadiness +
-           statePrivacy.averageScore + accessibility.overallConformance) / 8
-        ),
+        totalServiceCategories: 19,
+        totalFrameworksCovered: 214,
+        averageReadiness: Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length),
         criticalGapsTotal:
           soc2.criticalGaps.length + hipaa.criticalGaps.length +
           gdpr.criticalGaps.length + euai.criticalGaps.length +
-          iso.criticalGaps.length + fedramp.criticalGaps.length,
+          iso.criticalGaps.length + fedramp.criticalGaps.length +
+          aiSpecific.criticalGaps.length + intlPrivacy.criticalGaps.length +
+          financial.criticalGaps.length + hcExtended.criticalGaps.length +
+          govDefense.criticalGaps.length + antiCorruption.criticalGaps.length +
+          esgDash.criticalGaps.length + euDigital.criticalGaps.length +
+          comms.criticalGaps.length + insurance.criticalGaps.length +
+          standards.criticalGaps.length,
+        grade: 'platinum',
       },
       frameworks: {
         soc2: { readiness: soc2.overallScore, type: soc2.reportType, gaps: soc2.criticalGaps.length },
@@ -78,6 +128,17 @@ router.get('/dashboard', (_req: Request, res: Response) => {
         fedramp: { readiness: fedramp.overallReadiness, targetLevel: fedramp.targetImpactLevel, openPOAMs: fedramp.openPOAMs, gaps: fedramp.criticalGaps.length },
         usStatePrivacy: { statesTracked: statePrivacy.totalStates, effectiveStates: statePrivacy.effectiveStates, averageScore: statePrivacy.averageScore },
         accessibility: { conformance: accessibility.overallConformance, targetLevel: accessibility.targetLevel, knownIssues: accessibility.knownIssues.length },
+        aiSpecific: { regulations: aiSpecific.totalRegulations, inEffect: aiSpecific.inEffect, averageScore: aiSpecific.averageScore, gaps: aiSpecific.criticalGaps.length },
+        internationalPrivacy: { laws: intlPrivacy.totalLaws, countries: intlPrivacy.countriesCovered, averageScore: intlPrivacy.averageScore, adequacy: intlPrivacy.adequacyCountries },
+        financial: { regulations: financial.totalRegulations, averageScore: financial.averageScore, gaps: financial.criticalGaps.length },
+        healthcareExtended: { regulations: hcExtended.totalRegulations, averageScore: hcExtended.averageScore, fraudAbuseReadiness: hcExtended.fraudAbuseReadiness },
+        governmentDefense: { regulations: govDefense.totalRegulations, averageScore: govDefense.averageScore, atoReadiness: govDefense.atoReadiness, clearanceRequired: govDefense.clearanceRequired },
+        antiCorruption: { regulations: antiCorruption.totalRegulations, averageScore: antiCorruption.averageScore, gaps: antiCorruption.criticalGaps.length },
+        esg: { frameworks: esgDash.totalFrameworks, mandatory: esgDash.mandatoryCount, averageScore: esgDash.averageScore, gaps: esgDash.criticalGaps.length },
+        euDigitalRegulation: { regulations: euDigital.totalRegulations, averageScore: euDigital.averageScore, nis2Ready: euDigital.nis2Ready },
+        communications: { regulations: comms.totalRegulations, averageScore: comms.averageScore, gaps: comms.criticalGaps.length },
+        insurance: { regulations: insurance.totalRegulations, averageScore: insurance.averageScore, gaps: insurance.criticalGaps.length },
+        standards: { standards: standards.totalStandards, certifiable: standards.certifiableCount, averageScore: standards.averageScore, gaps: standards.criticalGaps.length },
       },
       assessedAt: new Date().toISOString(),
     });
@@ -363,6 +424,408 @@ router.get('/accessibility/criteria', (_req: Request, res: Response) => {
 
 router.get('/accessibility/issues', (_req: Request, res: Response) => {
   res.json(accessibilityComplianceService.getKnownIssues());
+});
+
+// =========================================================================
+// AI-SPECIFIC COMPLIANCE (Category A)
+// =========================================================================
+router.get('/ai-specific/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: aiSpecificComplianceService.getRegulations() });
+});
+
+router.get('/ai-specific/regulation/:code', (req: Request, res: Response) => {
+  const reg = aiSpecificComplianceService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Regulation ${req.params.code} not found` }); }
+});
+
+router.get('/ai-specific/in-effect', (_req: Request, res: Response) => {
+  res.json({ success: true, data: aiSpecificComplianceService.getInEffectRegulations() });
+});
+
+router.get('/ai-specific/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: aiSpecificComplianceService.getDashboard() });
+});
+
+router.post('/ai-specific/impact-assessment', (req: Request, res: Response) => {
+  try {
+    const assessment = aiSpecificComplianceService.conductImpactAssessment(req.body);
+    res.status(201).json({ success: true, data: assessment });
+  } catch (error: any) { res.status(400).json({ success: false, error: error.message }); }
+});
+
+router.get('/ai-specific/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: aiSpecificComplianceService.getAssessments() });
+});
+
+router.post('/ai-specific/biometric-check', (req: Request, res: Response) => {
+  const result = aiSpecificComplianceService.checkBiometricCompliance(req.body);
+  res.json({ success: true, data: result });
+});
+
+router.get('/ai-specific/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: aiSpecificComplianceService.getReadinessReport() });
+});
+
+// =========================================================================
+// INTERNATIONAL PRIVACY (Category C)
+// =========================================================================
+router.get('/intl-privacy/laws', (_req: Request, res: Response) => {
+  res.json({ success: true, data: internationalPrivacyService.getLaws() });
+});
+
+router.get('/intl-privacy/law/:code', (req: Request, res: Response) => {
+  const law = internationalPrivacyService.getLaw(req.params.code);
+  if (law) { res.json({ success: true, data: law }); }
+  else { res.status(404).json({ success: false, error: `Privacy law ${req.params.code} not found` }); }
+});
+
+router.get('/intl-privacy/country/:code', (req: Request, res: Response) => {
+  res.json({ success: true, data: internationalPrivacyService.getLawsByCountry(req.params.code) });
+});
+
+router.get('/intl-privacy/adequacy', (_req: Request, res: Response) => {
+  res.json({ success: true, data: internationalPrivacyService.getAdequacyCountries() });
+});
+
+router.get('/intl-privacy/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: internationalPrivacyService.getDashboard() });
+});
+
+router.post('/intl-privacy/transfer-assessment', (req: Request, res: Response) => {
+  const assessment = internationalPrivacyService.assessCrossBorderTransfer(req.body);
+  res.json({ success: true, data: assessment });
+});
+
+router.get('/intl-privacy/transfer-assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: internationalPrivacyService.getTransferAssessments() });
+});
+
+router.get('/intl-privacy/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: internationalPrivacyService.getReadinessReport() });
+});
+
+// =========================================================================
+// FINANCIAL SERVICES (Category D)
+// =========================================================================
+router.get('/financial/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: financialComplianceService.getRegulations() });
+});
+
+router.get('/financial/regulation/:code', (req: Request, res: Response) => {
+  const reg = financialComplianceService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Financial regulation ${req.params.code} not found` }); }
+});
+
+router.get('/financial/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: financialComplianceService.getByCategory(req.params.category) });
+});
+
+router.get('/financial/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: financialComplianceService.getDashboard() });
+});
+
+router.post('/financial/model-risk-assessment', (req: Request, res: Response) => {
+  const assessment = financialComplianceService.assessModelRisk(req.body);
+  res.status(201).json({ success: true, data: assessment });
+});
+
+router.get('/financial/model-assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: financialComplianceService.getModelAssessments() });
+});
+
+router.post('/financial/aml-screening', (req: Request, res: Response) => {
+  const { entityName } = req.body;
+  if (!entityName) { res.status(400).json({ success: false, error: 'entityName is required' }); return; }
+  const result = financialComplianceService.screenEntity(entityName);
+  res.json({ success: true, data: result });
+});
+
+router.get('/financial/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: financialComplianceService.getReadinessReport() });
+});
+
+// =========================================================================
+// HEALTHCARE EXTENDED (Category E)
+// =========================================================================
+router.get('/healthcare-ext/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: healthcareExtendedService.getRegulations() });
+});
+
+router.get('/healthcare-ext/regulation/:code', (req: Request, res: Response) => {
+  const reg = healthcareExtendedService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Healthcare regulation ${req.params.code} not found` }); }
+});
+
+router.get('/healthcare-ext/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: healthcareExtendedService.getByCategory(req.params.category) });
+});
+
+router.get('/healthcare-ext/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: healthcareExtendedService.getDashboard() });
+});
+
+router.post('/healthcare-ext/assessment', (req: Request, res: Response) => {
+  try {
+    const assessment = healthcareExtendedService.conductAssessment(req.body);
+    res.status(201).json({ success: true, data: assessment });
+  } catch (error: any) { res.status(400).json({ success: false, error: error.message }); }
+});
+
+router.get('/healthcare-ext/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: healthcareExtendedService.getAssessments() });
+});
+
+router.get('/healthcare-ext/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: healthcareExtendedService.getReadinessReport() });
+});
+
+// =========================================================================
+// GOVERNMENT & DEFENSE (Category F)
+// =========================================================================
+router.get('/gov-defense/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: governmentDefenseService.getRegulations() });
+});
+
+router.get('/gov-defense/regulation/:code', (req: Request, res: Response) => {
+  const reg = governmentDefenseService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Gov/Defense regulation ${req.params.code} not found` }); }
+});
+
+router.get('/gov-defense/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: governmentDefenseService.getByCategory(req.params.category) });
+});
+
+router.get('/gov-defense/clearance-required', (_req: Request, res: Response) => {
+  res.json({ success: true, data: governmentDefenseService.getClearanceRequired() });
+});
+
+router.get('/gov-defense/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: governmentDefenseService.getDashboard() });
+});
+
+router.post('/gov-defense/authorization-assessment', (req: Request, res: Response) => {
+  try {
+    const assessment = governmentDefenseService.conductAuthorizationAssessment(req.body);
+    res.status(201).json({ success: true, data: assessment });
+  } catch (error: any) { res.status(400).json({ success: false, error: error.message }); }
+});
+
+router.get('/gov-defense/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: governmentDefenseService.getAssessments() });
+});
+
+router.get('/gov-defense/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: governmentDefenseService.getReadinessReport() });
+});
+
+// =========================================================================
+// ANTI-CORRUPTION (Category H)
+// =========================================================================
+router.get('/anti-corruption/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: antiCorruptionService.getRegulations() });
+});
+
+router.get('/anti-corruption/regulation/:code', (req: Request, res: Response) => {
+  const reg = antiCorruptionService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Anti-corruption regulation ${req.params.code} not found` }); }
+});
+
+router.get('/anti-corruption/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: antiCorruptionService.getByCategory(req.params.category) });
+});
+
+router.get('/anti-corruption/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: antiCorruptionService.getDashboard() });
+});
+
+router.post('/anti-corruption/due-diligence', (req: Request, res: Response) => {
+  const dd = antiCorruptionService.conductDueDiligence(req.body);
+  res.status(201).json({ success: true, data: dd });
+});
+
+router.get('/anti-corruption/due-diligence-records', (_req: Request, res: Response) => {
+  res.json({ success: true, data: antiCorruptionService.getDueDiligenceRecords() });
+});
+
+router.get('/anti-corruption/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: antiCorruptionService.getReadinessReport() });
+});
+
+// =========================================================================
+// ESG & SUSTAINABILITY (Category I)
+// =========================================================================
+router.get('/esg/frameworks', (_req: Request, res: Response) => {
+  res.json({ success: true, data: esgComplianceService.getFrameworks() });
+});
+
+router.get('/esg/framework/:code', (req: Request, res: Response) => {
+  const fw = esgComplianceService.getFramework(req.params.code);
+  if (fw) { res.json({ success: true, data: fw }); }
+  else { res.status(404).json({ success: false, error: `ESG framework ${req.params.code} not found` }); }
+});
+
+router.get('/esg/mandatory', (_req: Request, res: Response) => {
+  res.json({ success: true, data: esgComplianceService.getMandatoryFrameworks() });
+});
+
+router.get('/esg/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: esgComplianceService.getDashboard() });
+});
+
+router.post('/esg/disclosure-assessment', (req: Request, res: Response) => {
+  try {
+    const assessment = esgComplianceService.assessDisclosureReadiness(req.body);
+    res.status(201).json({ success: true, data: assessment });
+  } catch (error: any) { res.status(400).json({ success: false, error: error.message }); }
+});
+
+router.get('/esg/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: esgComplianceService.getAssessments() });
+});
+
+router.get('/esg/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: esgComplianceService.getReadinessReport() });
+});
+
+// =========================================================================
+// EU DIGITAL REGULATION (Category J)
+// =========================================================================
+router.get('/eu-digital/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: euDigitalRegulationService.getRegulations() });
+});
+
+router.get('/eu-digital/regulation/:code', (req: Request, res: Response) => {
+  const reg = euDigitalRegulationService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `EU digital regulation ${req.params.code} not found` }); }
+});
+
+router.get('/eu-digital/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: euDigitalRegulationService.getByCategory(req.params.category) });
+});
+
+router.get('/eu-digital/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: euDigitalRegulationService.getDashboard() });
+});
+
+router.post('/eu-digital/nis2-assessment', (req: Request, res: Response) => {
+  const assessment = euDigitalRegulationService.assessNIS2(req.body);
+  res.status(201).json({ success: true, data: assessment });
+});
+
+router.get('/eu-digital/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: euDigitalRegulationService.getAssessments() });
+});
+
+router.get('/eu-digital/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: euDigitalRegulationService.getReadinessReport() });
+});
+
+// =========================================================================
+// COMMUNICATIONS & MARKETING (Category K)
+// =========================================================================
+router.get('/communications/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: communicationsComplianceService.getRegulations() });
+});
+
+router.get('/communications/regulation/:code', (req: Request, res: Response) => {
+  const reg = communicationsComplianceService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Communications regulation ${req.params.code} not found` }); }
+});
+
+router.get('/communications/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: communicationsComplianceService.getDashboard() });
+});
+
+router.post('/communications/marketing-check', (req: Request, res: Response) => {
+  const result = communicationsComplianceService.checkMarketingCompliance(req.body);
+  res.json({ success: true, data: result });
+});
+
+router.get('/communications/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: communicationsComplianceService.getReadinessReport() });
+});
+
+// =========================================================================
+// INSURANCE (Category L)
+// =========================================================================
+router.get('/insurance/regulations', (_req: Request, res: Response) => {
+  res.json({ success: true, data: insuranceComplianceService.getRegulations() });
+});
+
+router.get('/insurance/regulation/:code', (req: Request, res: Response) => {
+  const reg = insuranceComplianceService.getRegulation(req.params.code);
+  if (reg) { res.json({ success: true, data: reg }); }
+  else { res.status(404).json({ success: false, error: `Insurance regulation ${req.params.code} not found` }); }
+});
+
+router.get('/insurance/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: insuranceComplianceService.getByCategory(req.params.category) });
+});
+
+router.get('/insurance/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: insuranceComplianceService.getDashboard() });
+});
+
+router.post('/insurance/assessment', (req: Request, res: Response) => {
+  try {
+    const assessment = insuranceComplianceService.conductAssessment(req.body);
+    res.status(201).json({ success: true, data: assessment });
+  } catch (error: any) { res.status(400).json({ success: false, error: error.message }); }
+});
+
+router.get('/insurance/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: insuranceComplianceService.getAssessments() });
+});
+
+router.get('/insurance/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: insuranceComplianceService.getReadinessReport() });
+});
+
+// =========================================================================
+// STANDARDS & CERTIFICATIONS (Category M)
+// =========================================================================
+router.get('/standards/list', (_req: Request, res: Response) => {
+  res.json({ success: true, data: standardsComplianceService.getStandards() });
+});
+
+router.get('/standards/standard/:code', (req: Request, res: Response) => {
+  const std = standardsComplianceService.getStandard(req.params.code);
+  if (std) { res.json({ success: true, data: std }); }
+  else { res.status(404).json({ success: false, error: `Standard ${req.params.code} not found` }); }
+});
+
+router.get('/standards/certifiable', (_req: Request, res: Response) => {
+  res.json({ success: true, data: standardsComplianceService.getCertifiable() });
+});
+
+router.get('/standards/category/:category', (req: Request, res: Response) => {
+  res.json({ success: true, data: standardsComplianceService.getByCategory(req.params.category) });
+});
+
+router.get('/standards/dashboard', (_req: Request, res: Response) => {
+  res.json({ success: true, data: standardsComplianceService.getDashboard() });
+});
+
+router.post('/standards/assessment', (req: Request, res: Response) => {
+  try {
+    const assessment = standardsComplianceService.assessStandard(req.body);
+    res.status(201).json({ success: true, data: assessment });
+  } catch (error: any) { res.status(400).json({ success: false, error: error.message }); }
+});
+
+router.get('/standards/assessments', (_req: Request, res: Response) => {
+  res.json({ success: true, data: standardsComplianceService.getAssessments() });
+});
+
+router.get('/standards/readiness', (_req: Request, res: Response) => {
+  res.json({ success: true, data: standardsComplianceService.getReadinessReport() });
 });
 
 export default router;
