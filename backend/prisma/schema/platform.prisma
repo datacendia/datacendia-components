@@ -400,3 +400,36 @@ enum FeatureFlagType {
   USER_LIST
   TENANT_LIST
 }
+
+model webhooks {
+  id                String               @id @default(uuid())
+  organization_id   String
+  url               String
+  events            Json                 @default("[]")
+  secret            String
+  is_active         Boolean              @default(true)
+  failure_count     Int                  @default(0)
+  last_triggered_at DateTime?
+  created_at        DateTime             @default(now())
+  updated_at        DateTime             @updatedAt
+  organizations     organizations        @relation(fields: [organization_id], references: [id])
+  deliveries        webhook_deliveries[]
+
+  @@index([organization_id])
+  @@index([is_active])
+}
+
+model webhook_deliveries {
+  id           String   @id @default(uuid())
+  webhook_id   String
+  event        String
+  payload      Json
+  status_code  Int?
+  response     String?
+  success      Boolean  @default(false)
+  delivered_at DateTime @default(now())
+  webhook      webhooks @relation(fields: [webhook_id], references: [id])
+
+  @@index([webhook_id])
+  @@index([delivered_at])
+}

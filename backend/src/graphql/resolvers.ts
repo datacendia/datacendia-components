@@ -245,20 +245,38 @@ export const resolvers = {
       return [];
     },
 
-    // Webhook queries (stubbed - webhooks table not in schema)
     webhooks: async (_: unknown, __: unknown, context: GraphQLContext) => {
-      requireAuth(context);
-      return []; // Webhooks not implemented in current schema
+      const orgId = requireOrg(context);
+      const hooks = await prisma.webhooks.findMany({
+        where: { organization_id: orgId },
+        orderBy: { created_at: 'desc' },
+      });
+      return hooks.map(mapWebhook);
     },
 
     webhook: async (_: unknown, args: { id: string }, context: GraphQLContext) => {
       requireAuth(context);
-      return null; // Webhooks not implemented in current schema
+      const hook = await prisma.webhooks.findUnique({ where: { id: args.id } });
+      return hook ? mapWebhook(hook) : null;
     },
 
     webhookDeliveries: async (_: unknown, args: { webhookId: string; limit?: number }, context: GraphQLContext) => {
       requireAuth(context);
-      return [];
+      const deliveries = await prisma.webhook_deliveries.findMany({
+        where: { webhook_id: args.webhookId },
+        take: args.limit ?? 50,
+        orderBy: { delivered_at: 'desc' },
+      });
+      return deliveries.map(d => ({
+        id: d.id,
+        webhookId: d.webhook_id,
+        event: d.event,
+        payload: d.payload,
+        statusCode: d.status_code,
+        response: d.response,
+        deliveredAt: d.delivered_at,
+        success: d.success,
+      }));
     },
 
     // Usage & Analytics
@@ -418,20 +436,19 @@ export const resolvers = {
       return true;
     },
 
-    // Webhook mutations (stubbed - webhooks table not in schema)
     createWebhook: async (_: unknown, args: { url: string; events: string[] }, context: GraphQLContext) => {
-      requireAuth(context);
-      // Return mock webhook - actual implementation would require webhooks table
-      return {
-        id: crypto.randomUUID(),
-        url: args.url,
-        events: args.events,
-        isActive: true,
-        secret: crypto.randomUUID(),
-        createdAt: new Date(),
-        lastTriggeredAt: null,
-        failureCount: 0,
-      };
+      const orgId = requireOrg(context);
+      const secret = crypto.randomUUID();
+      const hook = await prisma.webhooks.create({
+        data: {
+          organization_id: orgId,
+          url: args.url,
+          events: args.events,
+          secret,
+          is_active: true,
+        },
+      });
+      return mapWebhook(hook);
     },
 
     updateWebhook: async (
@@ -440,35 +457,55 @@ export const resolvers = {
       context: GraphQLContext
     ) => {
       requireAuth(context);
-      return {
-        id: args.id,
-        url: args.url || '',
-        events: args.events || [],
-        isActive: args.isActive ?? true,
-        secret: '',
-        createdAt: new Date(),
-        lastTriggeredAt: null,
-        failureCount: 0,
-      };
+      const data: Record<string, unknown> = {};
+      if (args.url !== undefined) data.url = args.url;
+      if (args.events !== undefined) data.events = args.events;
+      if (args.isActive !== undefined) data.is_active = args.isActive;
+      const hook = await prisma.webhooks.update({ where: { id: args.id }, data });
+      return mapWebhook(hook);
     },
 
     deleteWebhook: async (_: unknown, args: { id: string }, context: GraphQLContext) => {
       requireAuth(context);
+      await prisma.webhooks.delete({ where: { id: args.id } });
       return true;
     },
 
     testWebhook: async (_: unknown, args: { id: string }, context: GraphQLContext) => {
       requireAuth(context);
-      // Production upgrade: send test webhook
+      const hook = await prisma.webhooks.findUnique({ where: { id: args.id } });
+      if (!hook) throw new GraphQLError('Webhook not found', { extensions: { code: 'NOT_FOUND' } });
+
+      let statusCode = 0;
+      let responseBody = '';
+      let success = false;
+      try {
+        const resp = await fetch(hook.url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'X-Datacendia-Signature': hook.secret },
+          body: JSON.stringify({ event: 'test', timestamp: new Date().toISOString(), data: { test: true } }),
+          signal: AbortSignal.timeout(10000),
+        });
+        statusCode = resp.status;
+        responseBody = await resp.text().catch(() => '');
+        success = resp.ok;
+      } catch (err) {
+        responseBody = err instanceof Error ? err.message : 'Connection failed';
+      }
+
+      const delivery = await prisma.webhook_deliveries.create({
+        data: { webhook_id: args.id, event: 'test', payload: { test: true }, status_code: statusCode, response: responseBody.slice(0, 1000), success },
+      });
+
       return {
-        id: crypto.randomUUID(),
-        webhookId: args.id,
-        event: 'test',
-        payload: { test: true },
-        statusCode: 200,
-        response: 'OK',
-        deliveredAt: new Date(),
-        success: true,
+        id: delivery.id,
+        webhookId: delivery.webhook_id,
+        event: delivery.event,
+        payload: delivery.payload,
+        statusCode: delivery.status_code,
+        response: delivery.response,
+        deliveredAt: delivery.delivered_at,
+        success: delivery.success,
       };
     },
 

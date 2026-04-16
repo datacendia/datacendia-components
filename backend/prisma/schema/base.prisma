@@ -125,6 +125,9 @@ model organizations {
   // CendiaGateway - AI Governance Gateway
   gateway_interactions  gateway_interactions[]
   // REMOVED: gateway_policies, gateway_manifests (models not defined — gateway_interactions is standalone)
+
+  // Webhooks - API event notifications
+  webhooks webhooks[]
 }
 
 model password_resets {

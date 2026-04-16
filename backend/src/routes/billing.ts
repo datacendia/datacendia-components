@@ -18,8 +18,15 @@ import { Router, Request, Response } from 'express';
 import { logger } from '../utils/logger.js';
 import { prisma } from '../config/database.js';
 import { notificationService } from '../services/NotificationService.js';
+import Stripe from 'stripe';
 
 import { z } from 'zod';
+
+function getStripeClient(): Stripe | null {
+  const key = process.env.STRIPE_SECRET_KEY;
+  if (!key) return null;
+  return new Stripe(key, { apiVersion: '2024-12-18.acacia' as any });
+}
 
 const bodySchema0 = z.object({
   priceId: z.any(),
@@ -60,10 +67,10 @@ router.post('/billing/create-checkout-session', async (req: Request, res: Respon
       });
     }
 
-    // Dynamic import — only load Stripe when key is configured
-    // @ts-ignore — stripe is an optional dependency, only loaded when STRIPE_SECRET_KEY is set
-    const { default: Stripe } = await import('stripe');
-    const stripe = new Stripe(stripeKey, { apiVersion: '2024-12-18.acacia' as any });
+    const stripe = getStripeClient();
+    if (!stripe) {
+      return res.status(503).json({ error: 'Stripe client initialization failed' });
+    }
 
     // Create checkout session
     const session = await stripe.checkout.sessions.create({
@@ -115,9 +122,7 @@ router.post('/billing/webhook', async (req: Request, res: Response) => {
   }
 
   try {
-    // @ts-ignore — stripe is an optional dependency
-    const { default: Stripe } = await import('stripe');
-    const stripe = new Stripe(stripeKey, { apiVersion: '2024-12-18.acacia' as any });
+    const stripe = getStripeClient()!;
 
     const sig = req.headers['stripe-signature'] as string;
     const event = stripe.webhooks.constructEvent(
@@ -275,9 +280,7 @@ router.post('/billing/portal-session', async (req: Request, res: Response) => {
       return res.status(400).json({ error: 'Missing customerId' });
     }
 
-    // @ts-ignore — stripe is an optional dependency
-    const { default: Stripe } = await import('stripe');
-    const stripe = new Stripe(stripeKey, { apiVersion: '2024-12-18.acacia' as any });
+    const stripe = getStripeClient()!;
 
     const session = await stripe.billingPortal.sessions.create({
       customer: customerId,

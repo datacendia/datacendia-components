@@ -44,8 +44,10 @@ interface EmailTemplate {
 
 // Create transporter based on environment
 const createTransporter = () => {
-  // SMTP transport configured via environment (SMTP_HOST, SMTP_PORT, etc.)
+  // Production SMTP transport: supports SendGrid, SES, Mailgun, or any SMTP relay
+  // Set SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS in .env
   if (process.env.SMTP_HOST) {
+    logger.info(`[Email] Using SMTP transport: ${process.env.SMTP_HOST}:${process.env.SMTP_PORT || '587'}`);
     return nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: parseInt(process.env.SMTP_PORT || '587'),
@@ -54,10 +56,22 @@ const createTransporter = () => {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
       },
+      pool: true,
+      maxConnections: 5,
+      maxMessages: 100,
+      rateLimit: 10,
     });
   }
-  
-  // For development, use ethereal email (catches emails)
+
+  // Production without SMTP: warn loudly, return null-safe transport
+  if (process.env.NODE_ENV === 'production') {
+    logger.warn('[Email] *** SMTP_HOST not configured in production — emails will be logged but NOT delivered ***');
+    logger.warn('[Email] Set SMTP_HOST, SMTP_USER, SMTP_PASS for delivery (SendGrid: smtp.sendgrid.net, SES: email-smtp.<region>.amazonaws.com)');
+    return null;
+  }
+
+  // Development: use ethereal email (catches emails without delivering)
+  logger.info('[Email] Using ethereal dev transport (emails captured, not delivered)');
   return nodemailer.createTransport({
     host: 'smtp.ethereal.email',
     port: 587,
@@ -261,6 +275,17 @@ export const emailService = {
       return true; // Return true so callers don't treat it as a failure
     }
 
+    // No transporter available (production without SMTP, or dev fallback)
+    if (!transporter) {
+      logger.warn(`[Email] No transport configured — logging email instead of sending`);
+      logger.info('='.repeat(60));
+      logger.info(`[EMAIL LOG] To: ${options.to}`);
+      logger.info(`[EMAIL LOG] Subject: ${options.subject}`);
+      logger.info(`[EMAIL LOG] Body:\n${options.text || '(HTML only)'}`);
+      logger.info('='.repeat(60));
+      return true;
+    }
+
     // Local dev fallback: log to console when no SMTP configured
     if (!process.env.SMTP_HOST && process.env.NODE_ENV !== 'production') {
       logger.info('='.repeat(60));
@@ -284,7 +309,7 @@ export const emailService = {
       
       // In development, log the preview URL
       if (process.env.NODE_ENV !== 'production') {
-        const previewUrl = nodemailer.getTestMessageUrl(info);
+        const previewUrl = nodemailer.getTestMessageUrl(info as any);
         if (previewUrl) {
           logger.info(`Preview URL: ${previewUrl}`);
         }
