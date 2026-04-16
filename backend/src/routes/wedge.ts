@@ -4,6 +4,7 @@
 // =============================================================================
 // WEDGE API ROUTES — Three standalone products that drive client acquisition
 //
+//   GET  /api/v1/wedge/status               — Service health / availability
 //   POST /api/v1/wedge/shadow-scan          — Run Shadow AI scan
 //   GET  /api/v1/wedge/shadow-scan/:id      — Get scan results
 //   POST /api/v1/wedge/governance-report    — Generate governance report
@@ -19,6 +20,22 @@ import { incidentForensicsService } from '../services/wedge/IncidentForensicsSer
 import { logger } from '../utils/logger.js';
 
 const router = Router();
+
+// ---------------------------------------------------------------------------
+// STATUS — backend availability check (no auth required, no data exposed)
+// ---------------------------------------------------------------------------
+
+router.get('/status', (_req: Request, res: Response) => {
+  res.json({
+    success: true,
+    data: {
+      status: 'operational',
+      service: 'wedge',
+      products: ['shadow-scan', 'governance-report', 'incident-forensics'],
+      timestamp: new Date().toISOString(),
+    },
+  });
+});
 
 // ---------------------------------------------------------------------------
 // WEDGE 1: Shadow AI Scanner

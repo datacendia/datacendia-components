@@ -389,13 +389,15 @@ class EnterpriseService {
   }
 
   /**
-   * Fetch executives and auto-decisions from the backend.
-   * - Executives come from /enterprise/regent/advisors (overrides default EXECUTIVES)
-   * - Auto-decisions come from /autopilot/decisions (merged into local Map)
-   * Returns total items synced, or 0 if backend unavailable.
+   * Fetch executives from the backend.
+   * - Executives come from /enterprise/regent/advisors (requires ADMIN role)
+   * - If user is non-admin, backend returns 403 and we keep the local EXECUTIVES defaults
+   * Returns number of advisors synced, or 0 if backend unavailable / unauthorized.
+   *
+   * Note: AutoDecisions are an internal frontend concept and are NOT synced from
+   * the backend /autopilot API, which exposes rules and executions, not decisions.
    */
   async syncFromBackend(): Promise<number> {
-    let total = 0;
     try {
       const execRes = await api.get<any>('/enterprise/regent/advisors');
       if (execRes.success) {
@@ -404,23 +406,11 @@ class EnterpriseService {
                          Array.isArray((execRes as any).advisors) ? (execRes as any).advisors : null;
         if (advisors && advisors.length > 0) {
           this.backendExecutives = advisors as AIExecutive[];
-          total += advisors.length;
+          return advisors.length;
         }
       }
-    } catch { /* backend unavailable — keep defaults */ }
-    try {
-      const dRes = await api.get<AutoDecision[]>('/autopilot/decisions');
-      if (dRes.success && Array.isArray(dRes.data)) {
-        for (const d of dRes.data) {
-          if (typeof d.createdAt === 'string') d.createdAt = new Date(d.createdAt);
-          if (typeof d.expiresAt === 'string') d.expiresAt = new Date(d.expiresAt);
-          this.autoDecisions.set(d.id, d);
-        }
-        total += dRes.data.length;
-        this.saveToStorage();
-      }
-    } catch { /* backend unavailable — keep local */ }
-    return total;
+    } catch { /* backend unavailable or 403 — keep defaults */ }
+    return 0;
   }
 
   // ---------------------------------------------------------------------------
