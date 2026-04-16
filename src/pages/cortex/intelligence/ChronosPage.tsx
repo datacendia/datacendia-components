@@ -111,6 +111,13 @@ interface StateSnapshot {
     dataPoints: number;
     freshness: number;
   };
+  compliance?: {
+    activeFrameworks: number;
+    passingFrameworks: number;
+    criticalFindings: number;
+    highFindings: number;
+    overallScore: number;
+  };
 }
 
 interface BranchTimeline {
@@ -992,6 +999,12 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
       totalDeliberations: 0,
       consensusRate: 0,
     },
+    graph: {
+      entities: 0,
+      relationships: 0,
+      dataPoints: 0,
+      freshness: 0,
+    },
     compliance: {
       activeFrameworks: 0,
       passingFrameworks: 0,
@@ -1159,7 +1172,7 @@ const generateERPConnectors = (): ERPConnector[] => [
   },
 ];
 
-const generateCRMEvents = (days: number = 90): CRMEvent[] => {
+const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
   // Real CRM events should come from backend Salesforce API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
@@ -1623,8 +1636,8 @@ const generateRedactedExport = (
     verificationQrCode: '',
     format: 'json',
     encryptedPayload: '',
-    encryptionAlgorithm: '',
-    keyDerivation: '',
+    encryptionAlgorithm: 'AES-256-GCM',
+    keyDerivation: 'Argon2id',
   };
 };
 

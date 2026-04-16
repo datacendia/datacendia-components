@@ -345,11 +345,11 @@ function ResultViewer({ task }: { task: OpsTask }) {
           {task.durationMs && (
             <span className="text-xs text-zinc-500">{(task.durationMs / 1000).toFixed(1)}s</span>
           )}
-          {meta?.totalTokens && (
-            <span className="text-xs text-zinc-600">{String(meta.totalTokens)} tokens</span>
+          {Boolean(meta?.totalTokens) && (
+            <span className="text-xs text-zinc-600">{String(meta?.totalTokens)} tokens</span>
           )}
-          {meta?.integrityHash && (
-            <span className="text-xs text-emerald-600/60" title={String(meta.integrityHash)}>
+          {Boolean(meta?.integrityHash) && (
+            <span className="text-xs text-emerald-600/60" title={String(meta?.integrityHash)}>
               <Shield className="w-3 h-3 inline" /> verified
             </span>
           )}

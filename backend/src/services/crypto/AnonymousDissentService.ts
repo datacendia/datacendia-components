@@ -30,7 +30,10 @@
 // Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
-import { ed25519 } from '@noble/curves/ed25519.js';
+import { ed25519, ristretto255, ristretto255_hasher } from '@noble/curves/ed25519.js';
+
+// @noble/curves v2 API - aliases for minimal code change across callsites
+const RistrettoPoint = ristretto255.Point;
 
 
 
@@ -42,13 +45,13 @@ import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from
 // CONSTANTS
 // =============================================================================
 
-// @noble/curves v2 API - use Point instead of ExtendedPoint
-const G = ed25519.ExtendedPoint.BASE;
+// @noble/curves v2 API - Ristretto255 group
+const G = ristretto255.Point.BASE;
 const ORDER = BigInt('7237005577332262213973186563042994240857116359379907606001950938285454250989');
 
 // Second generator for key images (nothing-up-my-sleeve)
-// @noble/curves v2 API - hashToCurve might be on utils or different structure
-const H_POINT = ed25519.ExtendedPoint.hashToCurve(sha512(utf8ToBytes('cendia-whistle-key-image-generator-v1')));
+// @noble/curves v2 API - hashToCurve lives on ristretto255_hasher
+const H_POINT = ristretto255_hasher.hashToCurve(sha512(utf8ToBytes('cendia-whistle-key-image-generator-v1')));
 
 // =============================================================================
 // TYPES
@@ -131,7 +134,7 @@ export class AnonymousDissentService {
 
     return {
       participantId,
-      publicKey: bytesToHex(pubPoint.toRawBytes()),
+      publicKey: bytesToHex(pubPoint.toBytes()),
       privateKey: bytesToHex(this.scalarToBytes(privScalar)),
     };
   }
@@ -181,9 +184,9 @@ export class AnonymousDissentService {
 
     // Compute key image: I = x * H_p(P) where x is private key, P is public key
     const pubPoint = RistrettoPoint.fromHex(signerPublicKey);
-    const hP = RistrettoPoint.hashToCurve(sha512(pubPoint.toRawBytes()));
+    const hP = ristretto255_hasher.hashToCurve(sha512(pubPoint.toBytes()));
     const keyImage = hP.multiply(privScalar);
-    const keyImageHex = bytesToHex(keyImage.toRawBytes());
+    const keyImageHex = bytesToHex(keyImage.toBytes());
 
     // Check for double-dissent
     const usedImages = this.keyImages.get(deliberationId)!;
@@ -216,10 +219,10 @@ export class AnonymousDissentService {
     // Compute aggregate challenge hash
     const hashInput = concatBytes(
       message,
-      alphaG.toRawBytes(),
-      alphaH.toRawBytes(),
-      keyImage.toRawBytes(),
-      ...ringPoints.map(p => p.toRawBytes()),
+      alphaG.toBytes(),
+      alphaH.toBytes(),
+      keyImage.toBytes(),
+      ...ringPoints.map(p => p.toBytes()),
     );
     const totalChallenge = this.hashToScalar(hashInput);
 
@@ -293,7 +296,7 @@ export class AnonymousDissentService {
         const cP = ringPoints[i].multiply(challenges[i]);
         // These contribute to the aggregate
 
-        const hPi = RistrettoPoint.hashToCurve(sha512(ringPoints[i].toRawBytes()));
+        const hPi = ristretto255_hasher.hashToCurve(sha512(ringPoints[i].toBytes()));
         const sH = hPi.multiply(responses[i]);
         const cI = keyImage.multiply(challenges[i]);
 
