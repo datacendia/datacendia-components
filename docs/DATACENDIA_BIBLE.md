@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 6.0** | **April 15, 2026 Update** — Full Codebase Audit: CredentialEvidence™, 11 Sovereign Architectural Patterns, Wedge Products, 73+ Compliance Frameworks, 8-Slot AI Architecture
+**Version 6.1** | **April 16, 2026 Update** — Service Verification Audit: All documented services cross-referenced against codebase. Frontend-only services annotated with actual backend implementations. CendiaSentinel™ renamed to CendiaSentry™ (matches codebase). PersonaForge™ removed from Platinum tier (duplicates Council agents).
 
 ---
 
@@ -309,7 +309,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 | **CendiaEscrow** | AES-256-GCM + Shamir SSS M-of-N threshold (Lagrange over GF(p)) + VDF time-lock | `DecisionEscrowService.ts` |
 | **CendiaRedTeam** | Pre-decision gate: 6 attack vectors (bias, logic, regulatory, precedent, adversarial frame, dissent amplify) | `AdversarialRedTeamService.ts` |
 | **CendiaWhistle** | Anonymous dissent via Linkable Ring Signatures on Ristretto255 | `AnonymousDissentService.ts` |
-| **CendiaSentinel** | Real-time anomaly detection with auto-pause pipeline (EventEmitter circuit breaker) | `AnomalySentinelService.ts` |
+| **CendiaSentry** | Real-time anomaly detection with auto-pause pipeline (EventEmitter circuit breaker) | `CendiaSentryService.ts` |
 
 **Competitive Differentiation — What Nobody Else Has**
 
@@ -324,7 +324,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 | Pre-decision adversarial attack gate | CendiaRedTeam — 6 attack vectors before Council finalises | Nobody |
 | Anonymous whistleblowing with cryptographic proof of legitimacy | CendiaWhistle — Linkable Ring Signatures on Ristretto255 | Nobody |
 | Time-locked sealed decisions, multi-party release | CendiaEscrow — AES-256-GCM + Shamir SSS + VDF time-lock | Nobody |
-| Auto-pause live pipeline on anomaly detection | CendiaSentinel — EventEmitter circuit breaker | Nobody |
+| Auto-pause live pipeline on anomaly detection | CendiaSentry — EventEmitter circuit breaker | Nobody |
 | Offline-verifiable evidence package | CendiaEvidence — standalone HTML verifier, no server needed | Nobody |
 | Post-quantum future-proofed signatures | ML-DSA-65 (Dilithium) — resistant to quantum decryption for 20+ year records | Prove AI uses Hedera (no PQ) |
 
@@ -488,8 +488,8 @@ We don't claim to know absolute truth. We claim to:
 │   │  STRATEGY   │           │  OPERATIONS │           │   PEOPLE    │           │
 │   │   PILLAR    │           │   PILLAR    │           │   PILLAR    │           │
 │   ├─────────────┤           ├─────────────┤           ├─────────────┤           │
-│   │ • Forecast  │           │ • Sentinel  │           │ • Union     │           │
-│   │ • Chronos   │           │ • Autopilot │           │ • Persona   │           │
+│   │ • Forecast  │           │ • Sentry    │           │ • Union     │           │
+│   │ • Chronos   │           │ • Autopilot │           │ • Dissent   │           │
 │   │ • Ghost Bd  │           │ • Mesh      │           │ • HR Intel  │           │
 │   │ • Pre-Mort  │           │ • Procure   │           │ • Vox       │           │
 │   └──────┬──────┘           └──────┬──────┘           └──────┬──────┘           │
@@ -1223,6 +1223,8 @@ Manage joint ventures, supplier relationships, and alliance decisions.
 
 **Competitive Intelligence & Counter-Intelligence**
 
+> **Implementation:** Frontend UI (`ShadowOpsPage.tsx`). Backend powered by **CendiaScout™** enterprise intelligence service (`services/enterprise/CendiaScoutService.ts`).
+
 Monitor competitor moves and detect when you're being analyzed.
 
 **Key Capabilities:**
@@ -1237,6 +1239,8 @@ Monitor competitor moves and detect when you're being analyzed.
 
 **Leadership Continuity**
 
+> **Implementation:** Frontend UI (`SuccessionPage.tsx`). Backend powered by **CendiaEternal™** ultra-long horizon archive (`services/CendiaEternalService.ts`). Succession is a specialized workflow within Eternal's context preservation engine.
+
 AI-powered succession planning and tacit knowledge capture from departing executives.
 
 **Key Capabilities:**
@@ -1250,6 +1254,8 @@ AI-powered succession planning and tacit knowledge capture from departing execut
 ## CendiaSanctuary™
 
 **Crisis Bunker**
+
+> **Implementation:** Frontend UI (`SanctuaryPage.tsx`). Sanctuary is a **deployment pattern** composing three existing sovereign services: `PortableInstanceService.ts` (bootable USB deployment), `QRAirGapBridgeService.ts` (QR data bridges), and `DataDiodeService.ts` (unidirectional ingest). No separate backend service — it orchestrates existing sovereign architecture.
 
 Air-gapped decision-making during cyber attacks with offline deliberation.
 
@@ -1366,7 +1372,7 @@ Everything in Cortex, plus:
 | Product | Description |
 |---------|-------------|
 | CendiaForecast™ | Advanced predictive analytics |
-| CendiaSentinel™ | Intelligent anomaly detection |
+| CendiaSentry™ | Intelligent anomaly detection |
 | Advanced Workflows | Multi-step automation |
 | Custom Agent Training | Domain-specific agents |
 | API Access | Full programmatic access |
@@ -1385,7 +1391,7 @@ Everything in Apex, plus:
 | CendiaSovereign™ | Fully local LLM deployment |
 | CendiaChronos™ | Enterprise time machine |
 | CendiaGhostBoard™ | AI board rehearsal |
-| CendiaAutopilot™ | Self-driving enterprise mode |
+| CendiaAutopilot™ | Self-driving enterprise mode (merged into Council) |
 | Air-Gap Capable | Zero cloud dependency |
 | On-Premise Deployment | Your infrastructure |
 | White-Glove Support | Dedicated success team |
@@ -1402,14 +1408,13 @@ Everything in Sovereign, plus:
 | Product | Description |
 |---------|-------------|
 | CendiaMesh™ | Anonymized industry benchmarking |
-| CendiaPersonaForge™ | AI digital twins |
 | CendiaVox™ | Stakeholder voice aggregation |
 | CendiaGovern™ | Compliance automation |
 | CendiaUnion™ | Workforce intelligence |
 | CendiaVerticalAgents™ | 48+ industry-specific AI agents |
-| CendiaVideoSimulation™ | Human-like council deliberation |
-| CendiaPolicyEnforce™ | Real-time governance & veto |
-| CendiaLoadOptimizer™ | Air-gapped scaling & resources |
+| CendiaVideoSimulation™ | Human-like council visualization (UI component) |
+| CendiaPolicyEnforce™ | Real-time governance dashboard (powered by CendiaVeto™) |
+| CendiaLoadOptimizer™ | Sovereign cluster monitoring (UI component) |
 | Vertical Dashboards | 15 industry-specific visualizations |
 | Custom Development | Tailored solutions |
 | Executive Advisory | Strategic guidance |
@@ -1422,6 +1427,8 @@ Everything in Sovereign, plus:
 
 #### CendiaVideoSimulation™
 **Human-Like Council Deliberation Visualization**
+
+> **Implementation:** Frontend UI component (`CouncilVideoSimulation.tsx`). Consumes existing Council WebSocket data — no separate backend service. This is a visualization layer over the Council deliberation engine.
 
 Transform abstract AI deliberations into intuitive, human-relatable experiences with realistic avatar-based video simulations.
 
@@ -1436,6 +1443,8 @@ Transform abstract AI deliberations into intuitive, human-relatable experiences 
 #### CendiaPolicyEnforce™
 **Real-Time Policy Enforcement**
 
+> **Implementation:** Frontend UI component (`RealTimePolicyEnforcement.tsx`). Backend powered by **CendiaVeto™** (`services/legal/CendiaVetoService.ts`) and Council `ComplianceGuard.ts`. PolicyEnforce is the real-time monitoring dashboard for the existing Veto rules engine.
+
 Proactive governance that monitors decisions as they're proposed, automatically applying governance rules before execution.
 
 **Key Capabilities:**
@@ -1447,6 +1456,8 @@ Proactive governance that monitors decisions as they're proposed, automatically 
 
 #### CendiaLoadOptimizer™
 **Air-Gapped Scaling Dashboard**
+
+> **Implementation:** Frontend UI component (`LoadOptimizationDashboard.tsx`). Backend powered by existing **SystemHealthService** (`services/admin/SystemHealthService.ts`) and platform metrics. This is a monitoring view, not a separate backend service.
 
 Resource management for sovereign, air-gapped deployments where cloud auto-scaling is unavailable.
 
@@ -2772,7 +2783,7 @@ All frameworks below are auto-tracked via [CendiaPanopticon™](#security--compl
 | **User Intervention** | Human input injected into live agent deliberation |
 | **CendiaApotheosis™** | AI model performance monitoring, optimization, and benchmarking |
 | **CendiaDissent™** | System for capturing, tracking, and resolving organizational disagreements |
-| **PersonaForge™** | Tool to create AI personas from stakeholder profiles for simulation |
+| **Council 1-on-1 Mode** | Direct consultation with individual Council agents (formerly PersonaForge™) |
 | **AutoHeal™** | Self-diagnosing system with AI-powered debugging and recovery |
 | **Veto** | Policy-based automatic blocking of decisions that violate governance rules |
 | **Escalation Path** | Defined chain of authority for override requests and blocked decisions |
@@ -3105,7 +3116,7 @@ The entire product structure has been reorganized into four clear categories:
 - **Premium Agent Packs** — Healthcare, Legal, Audit, Industry-specific agents
 - **CendiaApotheosis™** — AI model performance monitoring and optimization
 - **CendiaDissent™** — Structured disagreement capture and resolution tracking
-- **PersonaForge™** — Create AI personas from real stakeholder profiles
+- **Council 1-on-1 Mode** — Direct consultation with individual Council agents (role-based system prompts)
 - **AutoHeal™** — Self-diagnosing system with AI-powered debugging
 - **Veto System** — Policy-based automatic decision blocking with escalation
 
