@@ -18,6 +18,7 @@
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
+import { credentialEvidenceService } from './CredentialEvidenceService.js';
 
 import { prisma } from '../../config/database.js';
 // Type for user with MFA fields (after prisma generate)
@@ -109,6 +110,24 @@ export class MFAService {
     }
 
     const { secret, backupCodes } = this.generateSecret();
+
+    // Record credential evidence for MFA secret
+    credentialEvidenceService.recordEvidence({
+      credentialType: 'mfa_secret',
+      credentialValue: secret,
+      userId,
+      purpose: `TOTP MFA secret for ${user.email}`,
+      entropyBitsOverride: 160,
+    }).catch(err => logger.warn(`[CredentialEvidence] mfa_secret record failed: ${err.message}`));
+
+    // Record credential evidence for backup codes
+    credentialEvidenceService.recordEvidence({
+      credentialType: 'mfa_backup_codes',
+      credentialValue: backupCodes.join(','),
+      userId,
+      purpose: `10 MFA backup codes for ${user.email}`,
+      entropyBitsOverride: 320,
+    }).catch(err => logger.warn(`[CredentialEvidence] mfa_backup_codes record failed: ${err.message}`));
     const otpauthUrl = `otpauth://totp/${this.issuer}:${user.email}?secret=${secret}&issuer=${this.issuer}&algorithm=SHA1&digits=6&period=30`;
 
     // Generate QR code data URL
@@ -293,6 +312,15 @@ export class MFAService {
     const backupCodes = Array.from({ length: 10 }, () =>
       crypto.randomBytes(4).toString('hex').toUpperCase()
     );
+
+    // Record credential evidence for regenerated backup codes
+    credentialEvidenceService.recordEvidence({
+      credentialType: 'mfa_backup_codes',
+      credentialValue: backupCodes.join(','),
+      userId,
+      purpose: `Regenerated 10 MFA backup codes for user ${userId}`,
+      entropyBitsOverride: 320,
+    }).catch(err => logger.warn(`[CredentialEvidence] mfa_backup_codes regen record failed: ${err.message}`));
 
     const encryptedCodes = this.encrypt(JSON.stringify(backupCodes));
 

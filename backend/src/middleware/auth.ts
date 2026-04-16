@@ -18,6 +18,7 @@ import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { errors } from './errorHandler.js';
 import { logger } from '../utils/logger.js';
+import { credentialEvidenceService } from '../services/security/CredentialEvidenceService.js';
 
 interface AuthOrganization {
   id: string;
@@ -300,6 +301,15 @@ export const generateAccessToken = async (user: {
     .setExpirationTime(config.jwtExpiresIn)
     .sign(JWT_SECRET);
 
+  // Record credential evidence at creation time
+  credentialEvidenceService.recordEvidence({
+    credentialType: 'access_token',
+    credentialValue: token,
+    userId: user.id,
+    purpose: `Access token for ${user.email} (role: ${user.role})`,
+    expiresAt: new Date(Date.now() + 3600 * 1000),
+  }).catch(err => logger.warn(`[CredentialEvidence] access_token record failed: ${err.message}`));
+
   return token;
 };
 
@@ -314,6 +324,15 @@ export const generateRefreshToken = async (userId: string): Promise<string> => {
     .setIssuedAt()
     .setExpirationTime(config.jwtRefreshExpiresIn)
     .sign(REFRESH_SECRET);
+
+  // Record credential evidence at creation time
+  credentialEvidenceService.recordEvidence({
+    credentialType: 'refresh_token',
+    credentialValue: token,
+    userId,
+    purpose: `Refresh token for user ${userId}`,
+    expiresAt: new Date(Date.now() + 30 * 24 * 3600 * 1000),
+  }).catch(err => logger.warn(`[CredentialEvidence] refresh_token record failed: ${err.message}`));
 
   return token;
 };

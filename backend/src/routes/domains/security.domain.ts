@@ -24,6 +24,7 @@ import securityServicesRoutes from '../security-services.js';
 import mfaRoutes from '../mfa.js';
 import sentryRoutes from '../sentry.js';
 import hsmRoutes from '../hsm.js';
+import credentialEvidenceRoutes from '../credential-evidence.js';
 
 const router = Router();
 
@@ -37,6 +38,7 @@ router.use('/redteam', redteamRoutes);
 router.use('/security-services', securityServicesRoutes);
 router.use('/mfa', mfaRoutes);
 router.use('/hsm', hsmRoutes);
+router.use('/credential-evidence', credentialEvidenceRoutes);
 
 // Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [

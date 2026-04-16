@@ -34,6 +34,7 @@
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { credentialEvidenceService } from './CredentialEvidenceService.js';
 
 // =============================================================================
 // TYPES
@@ -222,6 +223,16 @@ export class HSMAdapter {
       referenceId: id,
       data: { id, label: params.label, algorithm: params.algorithm, provider: this.config.provider },
     });
+
+    // Record credential evidence for HSM key generation
+    const keyBits = params.algorithm.includes('256') ? 256 : params.algorithm.includes('4096') ? 4096 : params.algorithm.includes('2048') ? 2048 : 256;
+    credentialEvidenceService.recordEvidence({
+      credentialType: 'hsm_key',
+      credentialValue: id,
+      purpose: `HSM key '${params.label}' (${params.algorithm}) via ${this.config.provider}`,
+      entropyBitsOverride: keyBits,
+      generationMethod: `${params.algorithm} via ${this.config.provider}`,
+    }).catch(err => logger.warn(`[CredentialEvidence] hsm_key record failed: ${err.message}`));
 
     logger.info(`[CendiaHSM] Key generated: ${id} (${params.algorithm}) via ${this.config.provider}`);
     return handle;

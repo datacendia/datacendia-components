@@ -17,3 +17,4 @@ export * from './PostQuantumKMSService.js';
 export * from './SBOMGenerator.js';
 export * from './SIEMIntegration.js';
 export * from './ZeroKnowledgeProofService.js';
+export * from './CredentialEvidenceService.js';

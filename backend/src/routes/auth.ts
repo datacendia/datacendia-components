@@ -26,6 +26,7 @@ import {
   verifyRefreshToken,
 } from '../middleware/auth.js';
 import { authRateLimiter, registrationRateLimiter, passwordResetRateLimiter } from '../middleware/rateLimiter.js';
+import { credentialEvidenceService } from '../services/security/CredentialEvidenceService.js';
 
 const router = Router();
 
@@ -275,6 +276,15 @@ router.post('/register', registrationRateLimiter, async (req: Request, res: Resp
         },
       });
 
+      // Record credential evidence
+      credentialEvidenceService.recordEvidence({
+        credentialType: 'email_verification_token',
+        credentialValue: verificationToken,
+        userId: user.id,
+        purpose: `Email verification for ${user.email} (registration)`,
+        expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000),
+      }).catch(() => {});
+
       // Send verification email
       await emailService.sendVerificationEmail(user.email, user.name, verificationToken);
 
@@ -503,6 +513,15 @@ router.post('/forgot-password', passwordResetRateLimiter, async (req: Request, r
         expires_at: new Date(Date.now() + 60 * 60 * 1000), // 1 hour
       },
     });
+
+    // Record credential evidence
+    credentialEvidenceService.recordEvidence({
+      credentialType: 'password_reset_token',
+      credentialValue: resetToken,
+      userId: user.id,
+      purpose: `Password reset for ${user.email}`,
+      expiresAt: new Date(Date.now() + 60 * 60 * 1000),
+    }).catch(() => {});
 
     // Send password reset email
     await emailService.sendPasswordResetEmail(user.email, user.name, resetToken);
@@ -751,6 +770,15 @@ router.post('/resend-verification', authenticate, async (req: Request, res: Resp
         expires_at: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours
       },
     });
+
+    // Record credential evidence
+    credentialEvidenceService.recordEvidence({
+      credentialType: 'email_verification_token',
+      credentialValue: verificationToken,
+      userId: user.id,
+      purpose: `Email verification resend for ${user.email}`,
+      expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000),
+    }).catch(() => {});
 
     // Send verification email
     await emailService.sendVerificationEmail(user.email, user.name, verificationToken);
