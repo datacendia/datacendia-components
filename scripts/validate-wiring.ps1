@@ -1,22 +1,49 @@
 # Validates that all wired frontend endpoints respond correctly against a live backend.
+#
+# Uses a FIXED validator account (validator@datacendia-test.com) that is reused
+# across runs:
+#   1. Try login first — if account exists, we get a token immediately
+#   2. If login fails with 401, register the account once, then retry login
+#   3. Never creates orphaned test users in the database
+#
 # Usage: .\scripts\validate-wiring.ps1
 
 $ErrorActionPreference = "Stop"
 $baseUrl = "http://localhost:3001/api/v1"
 
-# 1. Acquire token via register (creates disposable test user)
-$email = "validator-$(Get-Random)@test.com"
-$body = "{`"email`":`"$email`",`"password`":`"testpass12345`",`"name`":`"Validator`",`"organizationName`":`"TestOrg-$(Get-Random)`"}"
-
+# Fixed credentials — idempotent across runs, no DB orphans
+$email = "validator@datacendia-test.com"
+$password = "ValidatorTest12345"
 $token = $null
-try {
-  $r = Invoke-WebRequest -Uri "$baseUrl/auth/register" -Method POST -Body $body -ContentType "application/json" -UseBasicParsing -TimeoutSec 15
-  $j = $r.Content | ConvertFrom-Json
-  $token = $j.data.accessToken
-  Write-Host "[AUTH] Registered $email, token length=$($token.Length)" -ForegroundColor Green
-} catch {
-  Write-Host "[AUTH] Failed: $($_.Exception.Message)" -ForegroundColor Red
-  exit 1
+
+function Get-ValidatorToken {
+  param([string]$Email, [string]$Password)
+  $loginBody = "{`"email`":`"$Email`",`"password`":`"$Password`"}"
+  try {
+    $r = Invoke-WebRequest -Uri "$baseUrl/auth/login" -Method POST -Body $loginBody -ContentType "application/json" -UseBasicParsing -TimeoutSec 15
+    $j = $r.Content | ConvertFrom-Json
+    return $j.data.accessToken
+  } catch {
+    return $null
+  }
+}
+
+# 1. Try login first (idempotent — account persists across runs)
+$token = Get-ValidatorToken -Email $email -Password $password
+if ($token) {
+  Write-Host "[AUTH] Reused existing validator account $email (token length=$($token.Length))" -ForegroundColor Green
+} else {
+  # 2. Account doesn't exist yet — register it once
+  $registerBody = "{`"email`":`"$email`",`"password`":`"$password`",`"name`":`"Wiring Validator`",`"organizationName`":`"DatacendiaTest`"}"
+  try {
+    $r = Invoke-WebRequest -Uri "$baseUrl/auth/register" -Method POST -Body $registerBody -ContentType "application/json" -UseBasicParsing -TimeoutSec 15
+    $j = $r.Content | ConvertFrom-Json
+    $token = $j.data.accessToken
+    Write-Host "[AUTH] Registered new validator account $email (token length=$($token.Length))" -ForegroundColor Green
+  } catch {
+    Write-Host "[AUTH] Registration failed: $($_.Exception.Message)" -ForegroundColor Red
+    exit 1
+  }
 }
 
 $h = @{ "Authorization" = "Bearer $token" }
