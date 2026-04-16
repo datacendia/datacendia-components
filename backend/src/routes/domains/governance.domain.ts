@@ -25,6 +25,7 @@ import complianceMonitorRoutes from '../compliance-monitor.js';
 import crossJurisdictionRoutes from '../cross-jurisdiction.js';
 import regulatorsReceiptRoutes from '../regulators-receipt.js';
 import dsrRoutes from '../dsr.js';
+import compliancePlatinumRoutes from '../compliance-platinum.js';
 
 const router = Router();
 
@@ -39,6 +40,7 @@ router.use('/compliance-monitor', complianceMonitorRoutes);
 router.use('/cross-jurisdiction', crossJurisdictionRoutes);
 router.use('/regulators-receipt', regulatorsReceiptRoutes);
 router.use('/dsr', dsrRoutes);
+router.use('/compliance-platinum', compliancePlatinumRoutes);
 
 // Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [

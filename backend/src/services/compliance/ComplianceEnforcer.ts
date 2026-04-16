@@ -499,6 +499,288 @@ const COMPLIANCE_RULES: ComplianceRule[] = [
     reason: 'Criminal justice information requires CJIS-compliant handling',
     recommendation: 'Verify personnel clearance and use CJIS-compliant infrastructure',
   },
+
+  // ========================================
+  // RING 1: AI-SPECIFIC (ADDITIONAL)
+  // ========================================
+
+  // Colorado AI Act
+  {
+    id: 'colorado-ai-impact',
+    ring: 1,
+    domain: 'ethical_ai',
+    framework: 'Colorado AI Act',
+    frameworkCode: 'CO-AI-ACT',
+    control: 'SB 205 §6-1-1702',
+    controlTitle: 'High-Risk AI Impact Assessment',
+    keywords: ['hiring', 'employment', 'credit', 'insurance', 'housing', 'education', 'scoring', 'profiling'],
+    dataTypes: ['employment_data', 'credit_data', 'insurance_data'],
+    blockedActions: ['deploy_without_impact_assessment', 'skip_bias_testing', 'deny_disclosure'],
+    severity: 'critical',
+    citation: 'Ring 1 (Ethical AI), Framework Colorado AI Act, §6-1-1702',
+    reason: 'High-risk AI systems require impact assessment and consumer disclosure before deployment',
+    recommendation: 'Complete algorithmic impact assessment; publish notice of AI use; document bias testing results',
+  },
+
+  // NYC Local Law 144
+  {
+    id: 'nyc-ll144-aedt',
+    ring: 1,
+    domain: 'ethical_ai',
+    framework: 'NYC Local Law 144',
+    frameworkCode: 'NYC-LL144',
+    control: 'LL144 §20-870',
+    controlTitle: 'Automated Employment Decision Tool Audit',
+    keywords: ['hiring', 'recruitment', 'employment', 'candidate', 'resume', 'screening', 'promotion'],
+    dataTypes: ['employment_data', 'hr_data'],
+    blockedActions: ['use_aedt_without_audit', 'skip_bias_audit', 'deny_candidate_notice'],
+    severity: 'critical',
+    citation: 'Ring 1 (Ethical AI), Framework NYC LL144, §20-870',
+    reason: 'Automated employment decision tools require annual bias audit and candidate notice',
+    recommendation: 'Engage independent auditor for bias audit; post summary on careers page; provide candidate notice 10 days prior',
+  },
+
+  // Executive Order 14110
+  {
+    id: 'eo-14110-ai-safety',
+    ring: 1,
+    domain: 'ethical_ai',
+    framework: 'Executive Order 14110',
+    frameworkCode: 'EO-14110',
+    control: 'Sec 4.2',
+    controlTitle: 'AI Safety and Security',
+    keywords: ['foundation model', 'dual use', 'frontier', 'safety', 'red team', 'watermark'],
+    dataTypes: ['ai_model_data', 'training_data'],
+    blockedActions: ['deploy_without_safety_test', 'skip_red_team', 'omit_watermark'],
+    severity: 'high',
+    citation: 'Ring 1 (Ethical AI), Framework EO 14110, Section 4.2',
+    reason: 'Dual-use foundation models require safety testing, red-teaming, and content authentication',
+    recommendation: 'Complete AI red-teaming; implement content provenance; report per OMB M-24-10',
+  },
+
+  // OWASP AI Security
+  {
+    id: 'owasp-ai-prompt-injection',
+    ring: 1,
+    domain: 'ethical_ai',
+    framework: 'OWASP AI Security',
+    frameworkCode: 'OWASP-AI',
+    control: 'LLM01',
+    controlTitle: 'Prompt Injection Prevention',
+    keywords: ['prompt', 'injection', 'jailbreak', 'system prompt', 'instruction'],
+    dataTypes: ['ai_input', 'prompt_data'],
+    blockedActions: ['allow_unsanitized_prompt', 'expose_system_prompt', 'skip_input_validation'],
+    severity: 'high',
+    citation: 'Ring 1 (Ethical AI), Framework OWASP AI, LLM01',
+    reason: 'Prompt injection can cause unauthorized actions and data exfiltration',
+    recommendation: 'Implement input sanitization, prompt boundaries, and output filtering',
+  },
+
+  // ========================================
+  // RING 3: PRIVACY (ADDITIONAL)
+  // ========================================
+
+  // Illinois BIPA
+  {
+    id: 'bipa-biometric-consent',
+    ring: 3,
+    domain: 'privacy',
+    framework: 'Illinois BIPA',
+    frameworkCode: 'IL-BIPA',
+    control: '§15(b)',
+    controlTitle: 'Biometric Informed Consent',
+    keywords: ['biometric', 'fingerprint', 'face', 'iris', 'voiceprint', 'facial recognition', 'hand geometry'],
+    dataTypes: ['biometric_data'],
+    blockedActions: ['collect_without_consent', 'share_biometric', 'store_without_policy'],
+    severity: 'critical',
+    citation: 'Ring 3 (Privacy), Framework Illinois BIPA, §15(b)',
+    reason: 'Biometric data requires written informed consent and published retention/destruction policy. $1K-$5K per violation.',
+    recommendation: 'Obtain written consent before collection; publish retention schedule; never sell biometric data',
+  },
+
+  // HITECH Act
+  {
+    id: 'hitech-breach-notification',
+    ring: 5,
+    domain: 'industry',
+    framework: 'HITECH Act',
+    frameworkCode: 'HITECH',
+    control: 'Sec 13402',
+    controlTitle: 'Breach Notification',
+    keywords: ['breach', 'unauthorized access', 'phi disclosure', 'health data leak', 'patient data'],
+    dataTypes: ['health_data', 'phi'],
+    blockedActions: ['delay_breach_notification', 'skip_hhs_notification', 'destroy_breach_evidence'],
+    severity: 'critical',
+    citation: 'Ring 5 (Industry), Framework HITECH, Section 13402',
+    reason: 'PHI breaches affecting 500+ individuals require notification within 60 days to HHS, media, and individuals',
+    recommendation: 'Activate incident response plan; notify HHS within 60 days; maintain breach log for 6 years',
+  },
+
+  // US State Privacy (Generic)
+  {
+    id: 'state-privacy-opt-out',
+    ring: 3,
+    domain: 'privacy',
+    framework: 'US State Privacy Laws',
+    frameworkCode: 'VCDPA',
+    control: 'Universal Opt-Out',
+    controlTitle: 'Consumer Opt-Out Rights',
+    keywords: ['targeted advertising', 'sale of data', 'profiling', 'opt out', 'do not sell', 'gpc'],
+    dataTypes: ['consumer_data', 'personal_data'],
+    blockedActions: ['ignore_opt_out', 'sell_after_opt_out', 'profile_after_opt_out'],
+    severity: 'high',
+    citation: 'Ring 3 (Privacy), US State Privacy Laws (VA/CT/CO/TX/OR + 13 more)',
+    reason: '19+ US states require honoring consumer opt-out for targeted advertising and data sales',
+    recommendation: 'Implement Global Privacy Control (GPC) signal detection; honor opt-out within 15 days',
+  },
+
+  // UK GDPR
+  {
+    id: 'uk-gdpr-cross-border',
+    ring: 3,
+    domain: 'privacy',
+    framework: 'UK GDPR',
+    frameworkCode: 'UK-GDPR',
+    control: 'Art 46',
+    controlTitle: 'International Data Transfers',
+    keywords: ['uk data', 'international transfer', 'cross border', 'adequacy', 'standard contractual'],
+    dataTypes: ['uk_personal_data'],
+    blockedActions: ['transfer_without_safeguards', 'ignore_uk_adequacy', 'skip_tia'],
+    severity: 'high',
+    citation: 'Ring 3 (Privacy), Framework UK GDPR, Article 46',
+    reason: 'UK personal data transfers require adequacy decision or appropriate safeguards',
+    recommendation: 'Execute UK IDTA or UK Addendum to EU SCCs; complete Transfer Impact Assessment',
+  },
+
+  // ePrivacy / Cookie Consent
+  {
+    id: 'eprivacy-cookie-consent',
+    ring: 3,
+    domain: 'privacy',
+    framework: 'ePrivacy Directive',
+    frameworkCode: 'EPRIVACY',
+    control: 'Art 5(3)',
+    controlTitle: 'Cookie Consent',
+    keywords: ['cookie', 'tracking', 'analytics', 'pixel', 'local storage', 'fingerprint'],
+    dataTypes: ['tracking_data', 'cookie_data'],
+    blockedActions: ['set_cookie_without_consent', 'track_without_consent', 'fingerprint_without_consent'],
+    severity: 'high',
+    citation: 'Ring 3 (Privacy), Framework ePrivacy Directive, Article 5(3)',
+    reason: 'Non-essential cookies require prior informed consent',
+    recommendation: 'Implement cookie consent management platform; block non-essential cookies until consent',
+  },
+
+  // ========================================
+  // RING 5: INDUSTRY (ADDITIONAL)
+  // ========================================
+
+  // FCRA
+  {
+    id: 'fcra-adverse-action',
+    ring: 5,
+    domain: 'industry',
+    framework: 'FCRA',
+    frameworkCode: 'FCRA',
+    control: '§615(a)',
+    controlTitle: 'Adverse Action Notice',
+    keywords: ['credit', 'credit report', 'adverse action', 'credit decision', 'credit score', 'lending'],
+    dataTypes: ['credit_data', 'consumer_report'],
+    blockedActions: ['deny_without_notice', 'use_report_without_purpose', 'skip_adverse_notice'],
+    severity: 'critical',
+    citation: 'Ring 5 (Industry), Framework FCRA, §615(a)',
+    reason: 'Consumer credit adverse actions require specific notice with CRA info and score factors',
+    recommendation: 'Provide adverse action notice within 30 days with specific reasons; include dispute rights',
+  },
+
+  // ECOA
+  {
+    id: 'ecoa-disparate-impact',
+    ring: 5,
+    domain: 'industry',
+    framework: 'ECOA',
+    frameworkCode: 'ECOA',
+    control: 'Reg B §1002.4',
+    controlTitle: 'Anti-Discrimination in Lending',
+    keywords: ['lending', 'credit', 'mortgage', 'loan', 'underwriting', 'pricing'],
+    dataTypes: ['credit_data', 'lending_data'],
+    blockedActions: ['use_prohibited_factors', 'skip_fair_lending_test', 'discriminatory_pricing'],
+    severity: 'critical',
+    citation: 'Ring 5 (Industry), Framework ECOA, Regulation B §1002.4',
+    reason: 'AI lending models must not discriminate based on protected characteristics (race, sex, age, etc.)',
+    recommendation: 'Run disparate impact analysis; document adverse action reasons per ECOA; monitor for fair lending',
+  },
+
+  // BSA/AML
+  {
+    id: 'bsa-aml-kyc',
+    ring: 5,
+    domain: 'industry',
+    framework: 'BSA/AML',
+    frameworkCode: 'BSA-AML',
+    control: 'CDD Rule',
+    controlTitle: 'Customer Due Diligence',
+    keywords: ['customer', 'account', 'onboarding', 'kyc', 'beneficial owner', 'pep', 'sanctions'],
+    dataTypes: ['customer_data', 'financial_data'],
+    blockedActions: ['onboard_without_kyc', 'skip_sanctions_check', 'ignore_sar_trigger'],
+    severity: 'critical',
+    citation: 'Ring 5 (Industry), Framework BSA/AML, CDD Rule',
+    reason: 'Financial institutions must verify customer identity and monitor for suspicious activity',
+    recommendation: 'Complete CDD/EDD process; screen against OFAC SDN list; file SARs within 30 days',
+  },
+
+  // Section 508 / WCAG
+  {
+    id: 'section-508-accessibility',
+    ring: 5,
+    domain: 'industry',
+    framework: 'Section 508',
+    frameworkCode: 'SECTION-508',
+    control: 'E205',
+    controlTitle: 'Electronic Content Accessibility',
+    keywords: ['accessibility', 'screen reader', 'aria', 'alt text', 'contrast', 'keyboard navigation'],
+    dataTypes: ['ui_content', 'web_content'],
+    blockedActions: ['deploy_without_vpat', 'ignore_accessibility_audit', 'remove_aria_labels'],
+    severity: 'high',
+    citation: 'Ring 5 (Industry), Framework Section 508, E205',
+    reason: 'Government buyers require Section 508 compliance. Digital services must be accessible.',
+    recommendation: 'Generate VPAT; ensure WCAG 2.1 AA compliance; test with assistive technology',
+  },
+
+  // NIS2
+  {
+    id: 'nis2-incident-reporting',
+    ring: 2,
+    domain: 'cybersecurity',
+    framework: 'NIS2 Directive',
+    frameworkCode: 'NIS2',
+    control: 'Art 23',
+    controlTitle: 'Incident Reporting',
+    keywords: ['cyber incident', 'security breach', 'ransomware', 'outage', 'denial of service'],
+    dataTypes: ['security_event', 'incident_data'],
+    blockedActions: ['delay_incident_report', 'suppress_incident', 'skip_24hr_notification'],
+    severity: 'critical',
+    citation: 'Ring 2 (Cybersecurity), Framework NIS2, Article 23',
+    reason: 'Essential entities must report significant incidents within 24 hours (early warning) and 72 hours (full)',
+    recommendation: 'Submit early warning within 24h; full notification within 72h; final report within 1 month',
+  },
+
+  // SEC Cybersecurity
+  {
+    id: 'sec-cyber-disclosure',
+    ring: 5,
+    domain: 'industry',
+    framework: 'SEC Cybersecurity Rules',
+    frameworkCode: 'SEC-CYBER',
+    control: 'Item 1.05 (8-K)',
+    controlTitle: 'Material Incident Disclosure',
+    keywords: ['material', 'cyber incident', 'data breach', 'sec filing', 'disclosure'],
+    dataTypes: ['security_event', 'corporate_data'],
+    blockedActions: ['delay_8k_filing', 'suppress_material_incident', 'misrepresent_impact'],
+    severity: 'critical',
+    citation: 'Ring 5 (Industry), Framework SEC Cybersecurity Rules, Item 1.05',
+    reason: 'Public companies must disclose material cybersecurity incidents within 4 business days on Form 8-K',
+    recommendation: 'File 8-K within 4 business days of materiality determination; describe impact and remediation',
+  },
 ];
 
 // ============================================================================

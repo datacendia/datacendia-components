@@ -21,6 +21,16 @@ export * from './frameworks.js';
 export * from './ComplianceService.js';
 export * from './ComplianceEnforcer.js';
 
+// Platinum Compliance Services
+export { soc2ReadinessService } from './SOC2ReadinessService.js';
+export { hipaaComplianceService } from './HIPAAComplianceService.js';
+export { gdprComplianceService } from './GDPRComplianceService.js';
+export { euAIActService } from './EUAIActService.js';
+export { iso27001ISMSService } from './ISO27001ISMSService.js';
+export { fedRAMPReadinessService } from './FedRAMPReadinessService.js';
+export { usStatePrivacyEngine } from './USStatePrivacyEngine.js';
+export { accessibilityComplianceService } from './AccessibilityComplianceService.js';
+
 // Compliance workflow scenarios from the 312 enterprise workflows
 // See: backend/src/data/WORKFLOW-REFERENCE.md
 export const COMPLIANCE_WORKFLOWS = {
