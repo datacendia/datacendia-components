@@ -17,8 +17,9 @@
 // "From Day 1 to Mastery • Complete Learning Journey"
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -86,7 +87,7 @@ interface TeamMember {
 // MOCK DATA
 // =============================================================================
 
-const mockCourses: Course[] = [
+const DEFAULT_COURSES: Course[] = [
   // Onboarding
   {
     id: 'C001',
@@ -445,16 +446,55 @@ export const TrainingPage: React.FC = () => {
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   const [filterCategory, setFilterCategory] = useState<CourseCategory | 'all'>('all');
 
-  const requiredCourses = mockCourses.filter((c) => c.required);
+  const [courses, setCourses] = useState<Course[]>(DEFAULT_COURSES);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const [pathsRes, profileRes] = await Promise.all([
+          api.get<any>('/gnosis/paths'),
+          api.get<any>('/gnosis/profile'),
+        ]);
+        if (cancelled) return;
+        if (pathsRes.success && Array.isArray(pathsRes.data) && pathsRes.data.length > 0) {
+          const mapped: Course[] = pathsRes.data.map((p: any): Course => ({
+            id: p.id,
+            title: p.title || p.name,
+            description: p.description || '',
+            category: (p.category || 'governance') as CourseCategory,
+            duration: p.duration || (p.estimatedMinutes ? `${p.estimatedMinutes} min` : '45 min'),
+            required: p.required ?? false,
+            status: (p.completed ? 'completed' : p.progress > 0 ? 'in-progress' : 'not-started') as CourseStatus,
+            modules: typeof p.modules === 'number' ? p.modules : Array.isArray(p.modules) ? p.modules.length : 5,
+            completedModules: p.completedModules ?? (p.completed ? (typeof p.modules === 'number' ? p.modules : 5) : 0),
+            passingScore: p.passingScore ?? 80,
+            dueDate: p.dueDate ? new Date(p.dueDate) : undefined,
+            completedDate: p.completedDate ? new Date(p.completedDate) : undefined,
+            score: p.score ?? undefined,
+          }));
+          setCourses(mapped);
+        }
+      } catch {
+        // API unavailable — keep mock data
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  const requiredCourses = courses.filter((c) => c.required);
   const completedRequired = requiredCourses.filter((c) => c.status === 'completed').length;
-  const overdueCourses = mockCourses.filter(
+  const overdueCourses = courses.filter(
     (c) => c.required && c.dueDate && c.dueDate < new Date() && c.status !== 'completed'
   );
 
   const filteredCourses =
     filterCategory === 'all'
-      ? mockCourses
-      : mockCourses.filter((c) => c.category === filterCategory);
+      ? courses
+      : courses.filter((c) => c.category === filterCategory);
 
   return (
     <div className="min-h-screen bg-neutral-900 text-white p-6">
@@ -500,8 +540,8 @@ export const TrainingPage: React.FC = () => {
             {[
               {
                 label: 'Completed Courses',
-                value: mockCourses.filter((c) => c.status === 'completed').length,
-                total: mockCourses.length,
+                value: courses.filter((c) => c.status === 'completed').length,
+                total: courses.length,
                 color: 'text-green-400',
                 icon: '✅',
               },
@@ -514,7 +554,7 @@ export const TrainingPage: React.FC = () => {
               },
               {
                 label: 'In Progress',
-                value: mockCourses.filter((c) => c.status === 'in-progress').length,
+                value: courses.filter((c) => c.status === 'in-progress').length,
                 color: 'text-yellow-400',
                 icon: '📖',
               },
@@ -583,7 +623,7 @@ export const TrainingPage: React.FC = () => {
           <div className="bg-neutral-800 rounded-xl border border-neutral-700 p-6">
             <h2 className="text-xl font-semibold mb-4">Continue Where You Left Off</h2>
             <div className="space-y-3">
-              {mockCourses
+              {courses
                 .filter((c) => c.status === 'in-progress')
                 .map((course) => (
                   <div
@@ -633,11 +673,11 @@ export const TrainingPage: React.FC = () => {
           </div>
 
           {/* Upcoming Due */}
-          {mockCourses.filter((c) => c.dueDate && c.status !== 'completed').length > 0 && (
+          {courses.filter((c) => c.dueDate && c.status !== 'completed').length > 0 && (
             <div className="bg-neutral-800 rounded-xl border border-neutral-700 p-6">
               <h2 className="text-xl font-semibold mb-4">Upcoming Deadlines</h2>
               <div className="space-y-2">
-                {mockCourses
+                {courses
                   .filter((c) => c.dueDate && c.status !== 'completed')
                   .sort((a, b) => (a.dueDate?.getTime() || 0) - (b.dueDate?.getTime() || 0))
                   .map((course) => (
@@ -808,7 +848,7 @@ export const TrainingPage: React.FC = () => {
                   </div>
                   <div className="space-y-2">
                     {cert.courses.map((courseId) => {
-                      const course = mockCourses.find((c) => c.id === courseId);
+                      const course = courses.find((c) => c.id === courseId);
                       if (!course) {return null;}
                       return (
                         <div
@@ -947,24 +987,24 @@ export const TrainingPage: React.FC = () => {
               <h3 className="text-lg font-semibold mb-4">Compliance Summary</h3>
               <div className="space-y-4">
                 {['onboarding', 'security', 'compliance'].map((category) => {
-                  const courses = mockCourses.filter((c) => c.category === category && c.required);
-                  const completed = courses.filter((c) => c.status === 'completed').length;
+                  const catCourses = courses.filter((c) => c.category === category && c.required);
+                  const completed = catCourses.filter((c) => c.status === 'completed').length;
                   return (
                     <div key={category}>
                       <div className="flex items-center justify-between mb-1">
                         <span className="capitalize">{category}</span>
                         <span className="text-sm">
-                          {completed}/{courses.length}
+                          {completed}/{catCourses.length}
                         </span>
                       </div>
                       <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
                         <div
                           className={`h-full rounded-full ${
-                            completed === courses.length ? 'bg-green-500' : 'bg-primary-500'
+                            completed === catCourses.length ? 'bg-green-500' : 'bg-primary-500'
                           }`}
                           style={{
                             width:
-                              courses.length > 0 ? `${(completed / courses.length) * 100}%` : '0%',
+                              catCourses.length > 0 ? `${(completed / catCourses.length) * 100}%` : '0%',
                           }}
                         />
                       </div>

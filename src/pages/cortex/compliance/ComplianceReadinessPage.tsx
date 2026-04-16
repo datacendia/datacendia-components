@@ -11,8 +11,9 @@
 // Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../../lib/api';
 import {
   Shield, CheckCircle2, AlertTriangle, Lock, ArrowRight, Crown,
   FileCheck, ExternalLink, ChevronRight, Activity,
@@ -92,10 +93,39 @@ const categoryColor = (cat: string) =>
 
 export const ComplianceReadinessPage: React.FC = () => {
   const navigate = useNavigate();
+  const [frameworks, setFrameworks] = useState<FrameworkStatus[]>(FRAMEWORKS);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/compliance');
+        if (cancelled) return;
+        if (res.success && res.data) {
+          const items = Array.isArray(res.data) ? res.data : res.data.frameworks || res.data.items || [];
+          if (items.length > 0) {
+            setFrameworks(items.map((f: any) => ({
+              name: f.name || f.title,
+              shortName: f.shortName || f.code || f.name?.substring(0, 8),
+              score: f.score ?? f.compliance ?? 0,
+              status: f.score >= 95 ? 'compliant' as const : f.score >= 80 ? 'warning' as const : 'gap' as const,
+              lastChecked: f.lastChecked || f.updatedAt || 'recently',
+              gapCount: f.gapCount ?? f.gaps ?? undefined,
+              description: f.description || '',
+            })));
+          }
+        }
+      } catch { /* keep defaults */ }
+      finally { if (!cancelled) setLoading(false); }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
   const completedCount = CHECKLIST.filter(c => c.completed).length;
   const totalCount = CHECKLIST.length;
   const readinessScore = Math.round((completedCount / totalCount) * 100);
-  const avgFrameworkScore = Math.round(FRAMEWORKS.reduce((s, f) => s + f.score, 0) / FRAMEWORKS.length);
+  const avgFrameworkScore = Math.round(frameworks.reduce((s, f) => s + f.score, 0) / frameworks.length);
   const categories = ['governance', 'audit', 'risk', 'evidence'] as const;
 
   return (
@@ -137,7 +167,7 @@ export const ComplianceReadinessPage: React.FC = () => {
           <p className="text-[10px] font-semibold text-neutral-500 uppercase tracking-wider mb-2">Avg Framework Score</p>
           <div className="flex items-baseline gap-2">
             <span className="text-4xl font-black text-green-400">{avgFrameworkScore}%</span>
-            <span className="text-xs text-neutral-500">{FRAMEWORKS.length} frameworks</span>
+            <span className="text-xs text-neutral-500">{frameworks.length} frameworks</span>
           </div>
           <p className="text-xs text-neutral-400 mt-2">Across tracked compliance frameworks</p>
         </div>
@@ -163,10 +193,10 @@ export const ComplianceReadinessPage: React.FC = () => {
             <FileCheck className="w-4 h-4 text-violet-400" />
             <h2 className="text-sm font-bold text-neutral-100 uppercase tracking-wider">Framework Status</h2>
           </div>
-          <span className="text-[10px] text-neutral-500">{FRAMEWORKS.filter(f => f.status === 'compliant').length}/{FRAMEWORKS.length} compliant</span>
+          <span className="text-[10px] text-neutral-500">{frameworks.filter(f => f.status === 'compliant').length}/{frameworks.length} compliant</span>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 p-4">
-          {FRAMEWORKS.map(fw => (
+          {frameworks.map(fw => (
             <div key={fw.shortName} className={`p-3 rounded-lg border transition-all ${statusBg(fw.status)}`}>
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-bold text-neutral-200">{fw.shortName}</span>

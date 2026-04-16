@@ -19,6 +19,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -297,12 +298,58 @@ export const CrisisManagementPage: React.FC = () => {
   );
   const [selectedIncident, setSelectedIncident] = useState<Incident | null>(null);
   const [filterSeverity, setFilterSeverity] = useState<IncidentSeverity | 'all'>('all');
+  const [incidents, setIncidents] = useState<Incident[]>(mockIncidents);
+  const [warRoom, setWarRoom] = useState<WarRoom>(mockWarRoom);
+  const [loading, setLoading] = useState(true);
 
-  const activeIncidents = mockIncidents.filter((i) => !['closed', 'post-mortem'].includes(i.phase));
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const [alertsRes, summaryRes] = await Promise.all([
+          api.get<any[]>('/alerts'),
+          api.get<any>('/alerts/summary'),
+        ]);
+        if (cancelled) return;
+        if (alertsRes.success && alertsRes.data?.length) {
+          const mapped: Incident[] = alertsRes.data.map((a: any) => ({
+            id: a.id || a.alertId,
+            title: a.title || a.name || a.message,
+            type: (a.type || a.category || 'operational') as IncidentType,
+            severity: (a.severity === 'critical' ? 'P1' : a.severity === 'high' ? 'P2' : a.severity === 'medium' ? 'P3' : 'P4') as IncidentSeverity,
+            phase: (a.phase || a.status || 'detection') as IncidentPhase,
+            description: a.description || a.details || '',
+            detectedAt: new Date(a.detectedAt || a.createdAt || Date.now()),
+            assignedTo: a.assignedTo || 'Unassigned',
+            incidentCommander: a.incidentCommander || a.owner || 'Pending Assignment',
+            affectedSystems: a.affectedSystems || a.systems || [],
+            stakeholders: a.stakeholders || [],
+            containmentActions: a.containmentActions || [],
+            timeline: (a.timeline || []).map((t: any, i: number) => ({
+              id: t.id || String(i),
+              timestamp: new Date(t.timestamp || t.time || Date.now()),
+              actor: t.actor || t.user || 'System',
+              action: t.action || t.event || '',
+              details: t.details || '',
+              phase: (t.phase || 'detection') as IncidentPhase,
+            })),
+          }));
+          setIncidents(mapped);
+        }
+      } catch {
+        // API unavailable — keep mock data
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  const activeIncidents = incidents.filter((i) => !['closed', 'post-mortem'].includes(i.phase));
   const filteredIncidents =
     filterSeverity === 'all'
-      ? mockIncidents
-      : mockIncidents.filter((i) => i.severity === filterSeverity);
+      ? incidents
+      : incidents.filter((i) => i.severity === filterSeverity);
 
   const phases: IncidentPhase[] = [
     'detection',
@@ -372,7 +419,7 @@ export const CrisisManagementPage: React.FC = () => {
               },
               {
                 label: 'P1 Critical',
-                value: mockIncidents.filter((i) => i.severity === 'P1').length,
+                value: incidents.filter((i) => i.severity === 'P1').length,
                 color: 'text-red-500',
                 bg: 'bg-red-500/10',
               },
@@ -463,7 +510,7 @@ export const CrisisManagementPage: React.FC = () => {
                     <div
                       className={`w-12 h-12 rounded-full flex items-center justify-center text-sm font-medium ${getPhaseColor(phase)}`}
                     >
-                      {mockIncidents.filter((i) => i.phase === phase).length}
+                      {incidents.filter((i) => i.phase === phase).length}
                     </div>
                     <span className="text-xs text-neutral-400 mt-2 capitalize">
                       {phase.replace('-', ' ')}
@@ -556,24 +603,24 @@ export const CrisisManagementPage: React.FC = () => {
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <span className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></span>
-                  <h2 className="text-xl font-semibold">{mockWarRoom.name}</h2>
+                  <h2 className="text-xl font-semibold">{warRoom.name}</h2>
                 </div>
                 <span className="px-3 py-1 bg-red-500/20 text-red-400 rounded-full text-sm">
-                  Active • {formatTimeAgo(mockWarRoom.startedAt)}
+                  Active • {formatTimeAgo(warRoom.startedAt)}
                 </span>
               </div>
 
               <div className="bg-neutral-900 rounded-lg p-4 mb-4">
                 <h3 className="text-sm font-medium text-neutral-400 mb-2">Linked Incident</h3>
                 <p className="font-mono">
-                  {mockWarRoom.incidentId} -{' '}
-                  {mockIncidents.find((i) => i.id === mockWarRoom.incidentId)?.title}
+                  {warRoom.incidentId} -{' '}
+                  {incidents.find((i) => i.id === warRoom.incidentId)?.title}
                 </p>
               </div>
 
               <div className="space-y-3">
                 <h3 className="text-sm font-medium text-neutral-400">War Room Decisions</h3>
-                {mockWarRoom.decisions.map((decision, idx) => (
+                {warRoom.decisions.map((decision, idx) => (
                   <div key={idx} className="flex items-start gap-3 p-3 bg-neutral-900 rounded-lg">
                     <span className="text-green-500">✓</span>
                     <div>
@@ -628,10 +675,10 @@ export const CrisisManagementPage: React.FC = () => {
           <div className="space-y-4">
             <div className="bg-neutral-800 rounded-xl border border-neutral-700 p-6">
               <h3 className="font-semibold mb-4">
-                Participants ({mockWarRoom.participants.length})
+                Participants ({warRoom.participants.length})
               </h3>
               <div className="space-y-3">
-                {mockWarRoom.participants.map((p) => (
+                {warRoom.participants.map((p) => (
                   <div key={p.name} className="flex items-center gap-3">
                     <span
                       className={`w-2 h-2 rounded-full ${p.online ? 'bg-green-500' : 'bg-neutral-500'}`}

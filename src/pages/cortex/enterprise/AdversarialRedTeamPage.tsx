@@ -519,7 +519,62 @@ export const AdversarialRedTeamPage: React.FC = () => {
       return;
     }
 
-    // Try real API, fall back to TR demo
+    // Call real redteam API for custom decisions
+    setIsAnalyzing(true);
+    setAttackSequenceIdx(0);
+    try {
+      const [simRes, dashRes, scoreRes] = await Promise.all([
+        api.post<any>('/redteam/simulate', { targetObjective: decision, context }),
+        api.get<any>('/redteam/dashboard'),
+        api.get<any>('/redteam/score'),
+      ]);
+
+      if (simRes.success && simRes.data) {
+        const apiAttacks: RedTeamAttack[] = (simRes.data.attacks || simRes.data.exploits || []).map((a: any, i: number) => ({
+          id: a.id || `api-${i}`,
+          attackerId: a.attackerId || a.perspectiveId || 'unknown',
+          attackerName: a.attackerName || a.perspective || 'Red Team Agent',
+          attackerRole: a.attackerRole || a.role || 'Adversarial Analyst',
+          category: a.category || 'general',
+          severity: a.severity || 'medium',
+          title: a.title || a.name || `Attack Vector ${i + 1}`,
+          description: a.description || '',
+          failureScenario: a.failureScenario || a.scenario || '',
+          probability: a.probability ?? 50,
+          impact: a.impact ?? 50,
+          riskScore: a.riskScore ?? Math.round((a.probability ?? 50) * (a.impact ?? 50) / 100),
+          mitigationSuggestion: a.mitigationSuggestion || a.mitigation || '',
+        }));
+
+        const critCount = apiAttacks.filter(a => a.severity === 'critical').length;
+        const highCount = apiAttacks.filter(a => a.severity === 'high').length;
+        const medCount = apiAttacks.filter(a => a.severity === 'medium').length;
+        const lowCount = apiAttacks.filter(a => a.severity === 'low').length;
+        const avgRisk = apiAttacks.length > 0 ? Math.round(apiAttacks.reduce((s, a) => s + a.riskScore, 0) / apiAttacks.length) : 0;
+        const catBreakdown: Record<string, number> = {};
+        apiAttacks.forEach(a => { catBreakdown[a.category] = (catBreakdown[a.category] || 0) + 1; });
+
+        const apiSummary: RedTeamSummary = {
+          totalAttacks: apiAttacks.length,
+          criticalCount: critCount,
+          highCount: highCount,
+          mediumCount: medCount,
+          lowCount: lowCount,
+          overallRiskScore: scoreRes.data?.score ?? avgRisk,
+          recommendation: avgRisk >= 70 ? 'abort' : avgRisk >= 50 ? 'reconsider' : avgRisk >= 30 ? 'proceed_with_caution' : 'proceed',
+          topRisks: apiAttacks.slice(0, 3),
+          categoryBreakdown: catBreakdown,
+          blindSpots: simRes.data.blindSpots || dashRes.data?.blindSpots || [],
+        };
+
+        runAnalysis(apiAttacks.length > 0 ? apiAttacks : TR_DEMO_ATTACKS, apiAttacks.length > 0 ? apiSummary : TR_DEMO_SUMMARY);
+        return;
+      }
+    } catch {
+      // API unavailable — fall back to demo data
+    }
+
+    // Fallback to demo data
     runAnalysis(TR_DEMO_ATTACKS, TR_DEMO_SUMMARY);
   };
 

@@ -17,8 +17,9 @@
 // "Where today's impossible becomes tomorrow's infrastructure"
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -545,6 +546,35 @@ export const RDLabPage: React.FC = () => {
   const [filterCategory, setFilterCategory] = useState<ResearchCategory | 'all'>('all');
   const [filterHorizon, setFilterHorizon] = useState<ResearchHorizon | 'all'>('all');
   const [filterStatus, setFilterStatus] = useState<ResearchStatus | 'all'>('all');
+  const [projects, setProjects] = useState<ResearchProject[]>(RD_PROJECTS);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/admin/rd-lab/projects');
+        if (!cancelled && res.success && Array.isArray(res.data) && res.data.length > 0) {
+          setProjects(res.data.map((p: any): ResearchProject => ({
+            id: p.id,
+            name: p.name || p.title,
+            codename: p.codename || p.code || '',
+            description: p.description || '',
+            category: p.category || 'governance',
+            horizon: p.horizon || '2025-2027',
+            status: p.status || 'conceptual',
+            riskLevel: p.riskLevel || 'medium',
+            potentialValue: p.potentialValue || p.value || '',
+            technicalChallenges: p.technicalChallenges || p.challenges || [],
+            dependencies: p.dependencies || [],
+            estimatedInvestment: p.estimatedInvestment || p.budget || '',
+            principalInvestigator: p.principalInvestigator || p.lead || undefined,
+            notes: p.notes || '',
+          })));
+        }
+      } catch { /* keep mock data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const categories: ResearchCategory[] = [
     'neurotech',
@@ -570,7 +600,7 @@ export const RDLabPage: React.FC = () => {
     'paused',
   ];
 
-  const filteredProjects = RD_PROJECTS.filter((p) => {
+  const filteredProjects = projects.filter((p) => {
     if (filterCategory !== 'all' && p.category !== filterCategory) {
       return false;
     }
@@ -871,24 +901,24 @@ export const RDLabPage: React.FC = () => {
         {/* Summary Stats */}
         <div className="mt-8 grid grid-cols-5 gap-4">
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
-            <div className="text-2xl font-bold text-purple-400">{RD_PROJECTS.length}</div>
+            <div className="text-2xl font-bold text-purple-400">{projects.length}</div>
             <div className="text-xs text-white/50">Total Projects</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
             <div className="text-2xl font-bold text-amber-400">
-              {RD_PROJECTS.filter((p) => p.status === 'prototyping').length}
+              {projects.filter((p) => p.status === 'prototyping').length}
             </div>
             <div className="text-xs text-white/50">In Prototyping</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
             <div className="text-2xl font-bold text-green-400">
-              {RD_PROJECTS.filter((p) => p.horizon === '2025-2027').length}
+              {projects.filter((p) => p.horizon === '2025-2027').length}
             </div>
             <div className="text-xs text-white/50">Near-Term (2025-27)</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
             <div className="text-2xl font-bold text-red-400">
-              {RD_PROJECTS.filter((p) => p.riskLevel === 'extreme').length}
+              {projects.filter((p) => p.riskLevel === 'extreme').length}
             </div>
             <div className="text-xs text-white/50">Extreme Risk</div>
           </div>

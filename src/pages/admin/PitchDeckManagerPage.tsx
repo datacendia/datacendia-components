@@ -1,4 +1,5 @@
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
+import { api } from '../../lib/api';
 import {
   Search, FileText, Upload, Download, Trash2, Plus, Edit3,
   ChevronRight, ChevronLeft, ChevronDown, Eye, Copy, Filter, Globe,
@@ -708,6 +709,19 @@ const DeckDetail: React.FC<{
 // ─── Main Page ──────────────────────────────────────────────────────────────
 const PitchDeckManagerPage: React.FC = () => {
   const [decks, setDecks] = useState<DeckFile[]>(() => generateDecks());
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/admin/pitch-decks');
+        if (!cancelled && res.success && Array.isArray(res.data) && res.data.length > 0) {
+          setDecks(res.data);
+        }
+      } catch { /* keep generated data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
   const [search, setSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState<DeckCategory | 'all'>('all');
   const [statusFilter, setStatusFilter] = useState<DeckStatus | 'all'>('all');

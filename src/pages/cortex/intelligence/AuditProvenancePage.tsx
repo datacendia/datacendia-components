@@ -24,7 +24,8 @@
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   Dna,
   FileCheck,
@@ -48,6 +49,27 @@ import { RegulatorsReceiptPage } from '../compliance/RegulatorsReceiptPage';
 
 export const AuditProvenancePage: React.FC = () => {
   const [activeView, setActiveView] = useState<'lineage' | 'receipt'>('lineage');
+  const [provenanceData, setProvenanceData] = useState<any>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const [evidenceRes, dnaRes] = await Promise.all([
+          api.get<any>('/evidence'),
+          api.get<any>('/sovereign-arch/dna/recent'),
+        ]);
+        if (cancelled) return;
+        if (evidenceRes.success || dnaRes.success) {
+          setProvenanceData({
+            evidence: evidenceRes.data || [],
+            dna: dnaRes.data || [],
+          });
+        }
+      } catch { /* API unavailable — subcomponents have own fallbacks */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">

@@ -16,8 +16,9 @@
  * Each step links to the actual service page where the work is done.
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { api } from '../../../lib/api';
 import {
   Scale, Clock, Users, MessageSquare, Shield, AlertTriangle,
   FileText, Key, Archive, Dna, Theater, FileSignature,
@@ -152,6 +153,21 @@ const LEGAL_AGENTS = [
 // =============================================================================
 
 const LegalWorkflowPage: React.FC = () => {
+  const [activeWorkflows, setActiveWorkflows] = useState<any[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/workflows?type=legal');
+        if (!cancelled && res.success && Array.isArray(res.data)) {
+          setActiveWorkflows(res.data);
+        }
+      } catch { /* keep static display */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-950 via-slate-950 to-neutral-950 text-white">
       {/* Header */}

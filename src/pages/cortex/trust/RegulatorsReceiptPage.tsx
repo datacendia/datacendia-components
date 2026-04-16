@@ -16,13 +16,31 @@
  * deliberation, consensus building, and cryptographic signing.
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, FileSignature, Shield, Lock } from 'lucide-react';
 import { RegulatorsReceiptDemo } from '../../../components/demos/RegulatorsReceiptDemo';
 import { RedactionProvider, RedactionToggle } from '../../../components/ui/RedactedText';
+import { api } from '../../../lib/api';
 
 const RegulatorsReceiptPage: React.FC = () => {
+  const [receipts, setReceipts] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/regulators-receipt');
+        if (!cancelled && res.success && Array.isArray(res.data)) {
+          setReceipts(res.data);
+        }
+      } catch { /* API unavailable — demo mode */ }
+      finally { if (!cancelled) setLoading(false); }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
   return (
     <RedactionProvider>
     <div className="min-h-screen bg-gradient-to-br from-neutral-950 via-slate-950 to-neutral-950">

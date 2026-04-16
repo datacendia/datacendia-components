@@ -16,8 +16,9 @@
 // =============================================================================
 // Institutional memory browser, knowledge preservation, leader transition toolkit.
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { cn } from '../../../../lib/utils';
+import { api } from '../../../lib/api';
 import {
   Brain, BookOpen, Users, Clock, Search, ChevronRight, Shield,
   FileText, Star, Archive, AlertTriangle, TrendingUp, Layers,
@@ -60,9 +61,34 @@ const importanceColors: Record<string, string> = {
 };
 
 export const MemoryPage: React.FC = () => {
-  const [entries] = useState(DEMO_ENTRIES);
+  const [entries, setEntries] = useState(DEMO_ENTRIES);
   const [searchQuery, setSearchQuery] = useState('');
   const [typeFilter, setTypeFilter] = useState('all');
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/dcii/memory');
+        if (cancelled) return;
+        if (res.success && Array.isArray(res.data) && res.data.length > 0) {
+          setEntries(res.data.map((e: any): MemoryEntry => ({
+            id: e.id,
+            type: e.type || 'decision',
+            title: e.title || e.name || '',
+            summary: e.summary || e.description || '',
+            importance: e.importance || 'medium',
+            createdBy: e.createdBy || e.author || 'System',
+            date: e.date || e.createdAt || new Date().toISOString(),
+            tags: e.tags || [],
+            accessCount: e.accessCount ?? 0,
+            linkedDecisions: e.linkedDecisions ?? 0,
+          })));
+        }
+      } catch { /* keep demo data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const filtered = entries.filter(e => {
     const matchesSearch = searchQuery === '' || e.title.toLowerCase().includes(searchQuery.toLowerCase()) || e.summary.toLowerCase().includes(searchQuery.toLowerCase());

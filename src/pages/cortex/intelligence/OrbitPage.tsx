@@ -16,9 +16,10 @@
 // =============================================================================
 // 30,000ft orbital view. Pattern detection, anomaly alerts, trend visualization.
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
+import { api } from '../../../lib/api';
 import {
   Globe, TrendingUp, TrendingDown, AlertTriangle, Activity, Eye,
   Layers, Target, Zap, Clock, ChevronRight, Search, RefreshCw,
@@ -64,12 +65,40 @@ export const OrbitPage: React.FC = () => {
   const navigate = useNavigate();
   const [filter, setFilter] = useState<string>('all');
   const [isScanning, setIsScanning] = useState(false);
+  const [signals, setSignals] = useState(SIGNALS);
 
-  const filtered = filter === 'all' ? SIGNALS : SIGNALS.filter(s => s.category === filter);
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/graph/signals');
+        if (cancelled) return;
+        if (res.success && Array.isArray(res.data) && res.data.length > 0) {
+          setSignals(res.data.map((s: any): OrbitalSignal => ({
+            id: s.id,
+            category: s.category || 'pattern',
+            severity: s.severity || 'medium',
+            title: s.title || s.name || '',
+            description: s.description || s.summary || '',
+            confidence: s.confidence ?? 50,
+            source: s.source || 'System',
+            detectedAt: s.detectedAt || s.createdAt || new Date().toISOString(),
+          })));
+        }
+      } catch { /* keep demo data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
-  const handleRescan = () => {
+  const filtered = filter === 'all' ? signals : signals.filter(s => s.category === filter);
+
+  const handleRescan = async () => {
     setIsScanning(true);
-    setTimeout(() => setIsScanning(false), 2000);
+    try {
+      const res = await api.post<any>('/graph/scan', {});
+      if (res.success && Array.isArray(res.data)) setSignals(res.data);
+    } catch { /* fallback */ }
+    finally { setIsScanning(false); }
   };
 
   return (

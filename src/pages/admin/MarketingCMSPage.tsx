@@ -20,6 +20,7 @@ import { logger } from '../../lib/logger';
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { cn } from '../../../lib/utils';
+import { api } from '../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -65,6 +66,26 @@ const MARKETING_PAGES: MarketingPage[] = [
 export const MarketingCMSPage: React.FC = () => {
   const { user } = useAuth();
   const [pages, setPages] = useState<MarketingPage[]>(MARKETING_PAGES);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/admin/marketing/pages');
+        if (!cancelled && res.success && Array.isArray(res.data) && res.data.length > 0) {
+          setPages(res.data.map((p: any): MarketingPage => ({
+            id: p.id || p.slug,
+            name: p.name || p.title,
+            path: p.path || p.slug || '',
+            lastModified: p.lastModified || p.updatedAt || '',
+            status: p.status || 'published',
+            description: p.description || '',
+          })));
+        }
+      } catch { /* keep mock data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
   const [selectedPage, setSelectedPage] = useState<MarketingPage | null>(null);
   const [deployStatus, setDeployStatus] = useState<DeployStatus>({
     status: 'idle',

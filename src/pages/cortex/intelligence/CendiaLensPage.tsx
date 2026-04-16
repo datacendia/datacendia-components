@@ -17,7 +17,8 @@
 // reasoning pathways, bias markers, and EU AI Act compliance.
 // =============================================================================
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   SearchCode,
   Eye,
@@ -226,8 +227,23 @@ export const CendiaLensPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'tokens' | 'reasoning' | 'attention' | 'bias' | 'compliance'>('tokens');
   const [selectedToken, setSelectedToken] = useState<string | null>(null);
   const [expandedStep, setExpandedStep] = useState<string | null>(null);
+  const [analyses, setAnalyses] = useState(DEMO_ANALYSES);
 
-  const analysis = DEMO_ANALYSES[selectedAnalysis] || TR_LENS;
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/dcii/lens');
+        if (cancelled) return;
+        if (res.success && res.data && typeof res.data === 'object') {
+          setAnalyses(prev => ({ ...prev, ...res.data }));
+        }
+      } catch { /* keep demo data */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  const analysis = analyses[selectedAnalysis] || TR_LENS;
 
   const selectedTokenData = useMemo(
     () => analysis.tokens.find(t => t.token === selectedToken),

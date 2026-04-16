@@ -17,8 +17,9 @@
 // "From Planning to Closeout • Full Evidence Management"
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { api } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -408,7 +409,50 @@ export const AuditWorkflowPage: React.FC = () => {
   const [selectedPhase, setSelectedPhase] = useState<AuditPhase | 'all'>('all');
   const [selectedTask, setSelectedTask] = useState<AuditTask | null>(null);
 
-  const audit = mockAudit;
+  const [audit, setAudit] = useState<Audit>(mockAudit);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const [auditsRes, evidenceRes] = await Promise.all([
+          api.get<any>('/govern/audits'),
+          api.get<any>('/evidence'),
+        ]);
+        if (cancelled) return;
+        if (auditsRes.success && auditsRes.data) {
+          const audits = Array.isArray(auditsRes.data) ? auditsRes.data : [auditsRes.data];
+          if (audits.length > 0) {
+            const a = audits[0];
+            setAudit({
+              id: a.id || mockAudit.id,
+              name: a.name || a.title || mockAudit.name,
+              type: a.type || mockAudit.type,
+              auditor: a.auditor || a.assignedTo || mockAudit.auditor,
+              startDate: new Date(a.startDate || a.createdAt || mockAudit.startDate),
+              targetDate: new Date(a.targetDate || a.dueDate || mockAudit.targetDate),
+              currentPhase: a.currentPhase || a.phase || mockAudit.currentPhase,
+              progress: a.progress ?? mockAudit.progress,
+              team: a.team || mockAudit.team,
+              tasks: (a.tasks || mockAudit.tasks).map((t: any) => ({
+                ...t,
+                dueDate: new Date(t.dueDate || Date.now()),
+                completedDate: t.completedDate ? new Date(t.completedDate) : undefined,
+              })),
+              findings: a.findings || mockAudit.findings,
+            });
+          }
+        }
+      } catch {
+        // API unavailable — keep mock data
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
   const currentPhaseIndex = phases.findIndex((p) => p.id === audit.currentPhase);
 
   const tasksByPhase = phases.map((phase) => ({

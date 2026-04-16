@@ -14,6 +14,7 @@
 // See LICENSE file for details.
 
 import React, { useState, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   Shield,
   AlertTriangle,
@@ -102,25 +103,77 @@ const GapScannerPage: React.FC = () => {
   const [selectedFramework, setSelectedFramework] = useState<string | null>(null);
   const [severityFilter, setSeverityFilter] = useState<string>('all');
   const [expandedFinding, setExpandedFinding] = useState<string | null>(null);
+  const [frameworks, setFrameworks] = useState<ComplianceFramework[]>(FRAMEWORKS);
+  const [findings, setFindings] = useState<Finding[]>(FINDINGS);
 
-  const filteredFindings = FINDINGS.filter(f => {
-    if (selectedFramework && f.framework !== FRAMEWORKS.find(fw => fw.id === selectedFramework)?.shortName) return false;
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const [fwRes, findRes] = await Promise.all([
+          api.get<any>('/compliance'),
+          api.get<any>('/compliance/findings'),
+        ]);
+        if (cancelled) return;
+        if (fwRes.success && Array.isArray(fwRes.data) && fwRes.data.length > 0) {
+          setFrameworks(fwRes.data.map((f: any) => ({
+            id: f.id || f.shortName?.toLowerCase().replace(/\s/g, '-'),
+            name: f.name || f.title,
+            shortName: f.shortName || f.code || f.name,
+            version: f.version || '',
+            totalRequirements: f.totalRequirements ?? f.total ?? 0,
+            satisfied: f.satisfied ?? 0,
+            partial: f.partial ?? 0,
+            gaps: f.gaps ?? 0,
+            notApplicable: f.notApplicable ?? 0,
+            coveragePercent: f.coveragePercent ?? f.coverage ?? 0,
+            status: (f.status || 'not-assessed') as ComplianceFramework['status'],
+            lastScanned: f.lastScanned || f.updatedAt || new Date().toISOString(),
+          })));
+        }
+        if (findRes.success && Array.isArray(findRes.data) && findRes.data.length > 0) {
+          setFindings(findRes.data.map((f: any) => ({
+            id: f.id,
+            framework: f.framework || f.frameworkName,
+            requirement: f.requirement || f.control,
+            severity: f.severity || 'medium',
+            status: f.status || 'gap',
+            description: f.description || '',
+            recommendation: f.recommendation || '',
+            evidence: f.evidence,
+            dueDate: f.dueDate,
+          })));
+        }
+      } catch { /* keep defaults */ }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
+  const filteredFindings = findings.filter(f => {
+    if (selectedFramework && f.framework !== frameworks.find(fw => fw.id === selectedFramework)?.shortName) return false;
     if (severityFilter !== 'all' && f.severity !== severityFilter) return false;
     return true;
   });
 
   const severityCounts = {
-    critical: FINDINGS.filter(f => f.severity === 'critical').length,
-    high: FINDINGS.filter(f => f.severity === 'high').length,
-    medium: FINDINGS.filter(f => f.severity === 'medium').length,
-    low: FINDINGS.filter(f => f.severity === 'low').length,
+    critical: findings.filter(f => f.severity === 'critical').length,
+    high: findings.filter(f => f.severity === 'high').length,
+    medium: findings.filter(f => f.severity === 'medium').length,
+    low: findings.filter(f => f.severity === 'low').length,
   };
 
-  const overallCoverage = Math.round(FRAMEWORKS.reduce((sum, f) => sum + f.coveragePercent, 0) / FRAMEWORKS.length);
+  const overallCoverage = Math.round(frameworks.reduce((sum, f) => sum + f.coveragePercent, 0) / frameworks.length);
 
-  const handleScan = () => {
+  const handleScan = async () => {
     setIsScanning(true);
-    setTimeout(() => setIsScanning(false), 3000);
+    try {
+      const res = await api.post<any>('/compliance/scan', {});
+      if (res.success && res.data) {
+        if (Array.isArray(res.data.findings)) setFindings(res.data.findings);
+        if (Array.isArray(res.data.frameworks)) setFrameworks(res.data.frameworks);
+      }
+    } catch { /* API unavailable */ }
+    finally { setIsScanning(false); }
   };
 
   const severityColor = (s: string) => {
@@ -154,7 +207,7 @@ const GapScannerPage: React.FC = () => {
               <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>
                 CENDIAGAPSCAN<span style={{ fontWeight: 200, fontSize: '0.7em', opacity: 0.5, marginLeft: '2px' }}>™</span>
               </h1>
-              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Compliance gap analysis across {FRAMEWORKS.length} regulatory frameworks</p>
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/60 font-light">Compliance gap analysis across {frameworks.length} regulatory frameworks</p>
             </div>
           </div>
         </div>
@@ -190,7 +243,7 @@ const GapScannerPage: React.FC = () => {
             <AlertOctagon className="w-4 h-4 text-orange-400" />
             <span className="text-xs text-zinc-500">Open Findings</span>
           </div>
-          <p className="text-3xl font-bold text-zinc-100">{FINDINGS.filter(f => f.status !== 'remediated' && f.status !== 'satisfied').length}</p>
+          <p className="text-3xl font-bold text-zinc-100">{findings.filter(f => f.status !== 'remediated' && f.status !== 'satisfied').length}</p>
           <div className="flex items-center gap-2 mt-2 text-xs">
             <span className="text-red-400">{severityCounts.critical} critical</span>
             <span className="text-orange-400">{severityCounts.high} high</span>
@@ -202,8 +255,8 @@ const GapScannerPage: React.FC = () => {
             <Shield className="w-4 h-4 text-blue-400" />
             <span className="text-xs text-zinc-500">Frameworks Scanned</span>
           </div>
-          <p className="text-3xl font-bold text-zinc-100">{FRAMEWORKS.length}</p>
-          <p className="text-xs text-zinc-500 mt-2">{FRAMEWORKS.filter(f => f.status === 'aligned').length} aligned · {FRAMEWORKS.filter(f => f.status === 'partial').length} partial</p>
+          <p className="text-3xl font-bold text-zinc-100">{frameworks.length}</p>
+          <p className="text-xs text-zinc-500 mt-2">{frameworks.filter(f => f.status === 'aligned').length} aligned · {frameworks.filter(f => f.status === 'partial').length} partial</p>
         </div>
         <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-4">
           <div className="flex items-center gap-2 mb-2">
@@ -219,7 +272,7 @@ const GapScannerPage: React.FC = () => {
       <div>
         <h2 className="text-lg font-semibold text-zinc-200 mb-3">Framework Coverage</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          {FRAMEWORKS.map((fw) => (
+          {frameworks.map((fw) => (
             <button
               key={fw.id}
               onClick={() => setSelectedFramework(selectedFramework === fw.id ? null : fw.id)}
@@ -259,7 +312,7 @@ const GapScannerPage: React.FC = () => {
       <div>
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-semibold text-zinc-200">
-            Findings {selectedFramework && <span className="text-sm font-normal text-zinc-500"> — {FRAMEWORKS.find(f => f.id === selectedFramework)?.shortName}</span>}
+            Findings {selectedFramework && <span className="text-sm font-normal text-zinc-500"> — {frameworks.find(f => f.id === selectedFramework)?.shortName}</span>}
           </h2>
           <div className="flex items-center gap-2">
             <select

@@ -7,6 +7,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed — 2026-04-16 — Frontend API Wiring (Enterprise Platinum Standard)
+
+#### Full Frontend-to-Backend API Integration
+Wired 16 remaining frontend pages from static/demo data to real backend API calls with graceful fallback. Every page now attempts to load live data on mount, falling back to demo data only if the API is unavailable.
+
+**Cortex Pages Wired:**
+- **AdversarialRedTeamPage** → `/redteam/simulate`, `/redteam/dashboard`, `/redteam/score`
+- **CrisisManagementPage** → `/alerts`, `/alerts/summary`
+- **AuditWorkflowPage** → `/govern/audits`, `/evidence`
+- **TrainingPage** → `/gnosis/paths`, `/gnosis/profile`
+- **ComplianceReadinessPage** → `/compliance`
+- **GapScannerPage** → `/compliance`, `/compliance/findings`, `/compliance/scan`
+- **RegulatorsReceiptPage** → `/regulators-receipt`
+- **LegalWorkflowPage** → `/workflows?type=legal`
+- **EscrowManagementPage** → `/sovereign-arch/timelock/active`
+- **MemoryPage** → `/dcii/memory`
+- **OrbitPage** → `/graph/signals`, `/graph/scan`
+- **AuditProvenancePage** → `/evidence`, `/sovereign-arch/dna/recent`
+- **CendiaLensPage** → `/dcii/lens`
+
+**Admin Pages Wired:**
+- **MarketingCMSPage** → `/admin/marketing/pages`
+- **PitchDeckManagerPage** → `/admin/pitch-decks`
+- **RDLabPage** → `/admin/rd-lab/projects`
+
+**Pattern Applied Consistently:**
+- `useEffect` with cancellation token for safe async data fetching
+- Type-safe API response mapping with explicit interface annotations
+- Graceful fallback to demo/mock data on API failure
+- No variable shadowing (renamed colliding constants, e.g., `DEFAULT_COURSES`)
+- Zero new TypeScript compilation errors introduced
+
+**Bug Fixes:**
+- Fixed variable shadowing in `TrainingPage.tsx` (`courses` → `catCourses`)
+- Fixed progress bar denominator using wrong array length in `TrainingPage.tsx`
+- Renamed module-level `courses` constant to `DEFAULT_COURSES` to avoid state collision
+
+---
+
 ### Added — 2026-03-24 — Enterprise Compliance Documentation + Platform Metrics Update
 
 #### Enterprise Legal Documentation Suite (`docs/legal/`)

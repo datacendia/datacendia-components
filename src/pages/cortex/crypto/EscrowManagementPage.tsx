@@ -13,7 +13,8 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { api } from '../../../lib/api';
 import {
   Lock,
   Unlock,
@@ -123,7 +124,46 @@ const MOCK_ESCROWS: EscrowedDecision[] = [
 // =============================================================================
 
 export const EscrowManagementPage: React.FC = () => {
-  const [escrows] = useState<EscrowedDecision[]>(MOCK_ESCROWS);
+  const [escrows, setEscrows] = useState<EscrowedDecision[]>(MOCK_ESCROWS);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await api.get<any>('/sovereign-arch/timelock/active');
+        if (cancelled) return;
+        if (res.success && Array.isArray(res.data) && res.data.length > 0) {
+          setEscrows(res.data.map((e: any): EscrowedDecision => ({
+            id: e.id,
+            deliberationId: e.deliberationId || e.decisionId || '',
+            question: e.question || e.title || e.name || 'Escrowed Decision',
+            status: e.status || 'sealed',
+            threshold: e.threshold || 3,
+            totalShares: e.totalShares || e.shares?.length || 5,
+            sharesCollected: e.sharesCollected ?? e.sharesReceived ?? 0,
+            shareholders: (e.shareholders || e.shares || []).map((s: any): Shareholder => ({
+              id: s.id || String(Math.random()),
+              name: s.name || s.holder || '',
+              role: s.role || 'Stakeholder',
+              email: s.email || '',
+              shareDistributed: s.shareDistributed ?? s.distributed ?? false,
+              shareSubmitted: s.shareSubmitted ?? s.submitted ?? s.hasSubmitted ?? false,
+              distributedAt: s.distributedAt || undefined,
+              submittedAt: s.submittedAt || undefined,
+            })),
+            sealedAt: e.sealedAt || e.createdAt || new Date().toISOString(),
+            releasedAt: e.releasedAt || undefined,
+            encryptionAlgorithm: e.encryptionAlgorithm || 'AES-256-GCM + Shamir SSS',
+            timeLock: e.timeLock || undefined,
+          })));
+        }
+      } catch { /* keep mock data */ }
+      finally { if (!cancelled) setLoading(false); }
+    })();
+    return () => { cancelled = true; };
+  }, []);
+
   const [selectedEscrow, setSelectedEscrow] = useState<string | null>(null);
   const [showCreateForm, setShowCreateForm] = useState(false);
   const [shareInput, setShareInput] = useState('');

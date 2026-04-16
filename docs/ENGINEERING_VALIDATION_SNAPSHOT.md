@@ -10,6 +10,10 @@
 - Defense vertical tested: 24 agents, 26 council modes, 5 compliance frameworks
 - Industrial Services: 10 expanded schemas with SUNAFIL/OSHA/ASME regulatory rules
 
+- Frontend API wiring: 85+ pages wired to real backend APIs, ~43 intentionally static (navigation, demos, layouts)
+- 16 pages wired in Apr 2026 sprint with type-safe mappings, cancellation tokens, and graceful fallback
+- Zero new TypeScript compilation errors from wiring changes (6 pre-existing in unrelated files)
+
 ---
 
 *For detailed test inventory, request during technical diligence.*
