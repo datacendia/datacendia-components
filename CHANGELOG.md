@@ -7,6 +7,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed — 2026-04-16 (Late Afternoon) — Zero TypeScript Errors + Final Wave of Wiring
+
+#### TypeScript Compilation — 0 Errors Across Entire Monorepo
+Resolved all pre-existing TypeScript errors:
+
+**Frontend (6 → 0):**
+- `ChronosPage.tsx`: Added missing `graph` and `compliance` fields to `StateSnapshot` interface
+- `ChronosPage.tsx`: Fixed `CRMEvent` → `CRMPipelineEvent` (correct interface name)
+- `ChronosPage.tsx`: Fixed `encryptionAlgorithm`/`keyDerivation` literal type mismatches
+- `OpsAgentsPage.tsx`: Wrapped `unknown` meta fields in `Boolean()` guards for React rendering
+
+**Backend (12 → 0):**
+- Installed missing `stripe@^17.7.0` dependency (was in `package.json` but not installed)
+- Migrated `AnonymousDissentService.ts` and `PedersenZKPService.ts` from `@noble/curves` v1 → v2 API:
+  - `RistrettoPoint` / `ed25519.ExtendedPoint` → `ristretto255.Point`
+  - `hashToCurve` moved to `ristretto255_hasher.hashToCurve`
+  - `toRawBytes()` → `toBytes()`
+
+#### 12 Additional Pages Wired to Backend APIs
+Pages that were using frontend-only service classes are now directly wired to their backend equivalents:
+
+- **DecisionDebtPage** → `/premium/decision-debt/dashboard`
+- **GhostBoardPage** → `/decision-intel/ghost-board/sessions`
+- **PreMortemPage** → `/decision-intel/pre-mortem/analyses`
+- **VoicePage** → `/enterprise/regent/advisors`
+- **VetoPage** → `/veto/decisions` + `/veto/metrics`
+- **UnionPage** → `/union/employees` + `/union/metrics`
+- **PersonaForgePage** → `/persona/twins`
+- **WorkflowBuilderPage** → `/workflows`
+- **GovernanceReportPage** → `/wedge/status` (auto-load)
+- **IncidentForensicsPage** → `/wedge/status` (auto-load)
+- **ShadowAIScannerPage** → `/wedge/status` (auto-load)
+- **AdminDashboard** → `/admin/tenants` + `/admin/feature-flags`
+
+Each page uses the consistent enterprise pattern: `useEffect` with cancellation tokens, type-safe response mapping, and graceful fallback to local service/mock data when the backend is unavailable.
+
+#### New Governance Documentation
+- **`docs/STATIC_PAGES_INVENTORY.md`** — Explicit audit list of the 14 pages that are intentionally static by design (navigation maps, layout wrappers, route indexes, documentation pages, walkthrough/reference content). Governance rule: any new static page must be justified against one of the listed categories during code review.
+
+#### Final Wiring Status
+- **121 of 135 pages (89.6%)** fetch real backend data on mount
+- **14 pages (10.4%)** are intentionally static per `STATIC_PAGES_INVENTORY.md`
+- **0 TypeScript errors** across frontend and backend
+
+---
+
 ### Changed — 2026-04-16 — Frontend API Wiring (Enterprise Platinum Standard)
 
 #### Full Frontend-to-Backend API Integration
