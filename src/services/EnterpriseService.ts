@@ -19,6 +19,7 @@ import { logger } from '../lib/logger';
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
+import { api } from '../lib/api';
 
 // =============================================================================
 // AUTOPILOT TYPES
@@ -379,11 +380,47 @@ class EnterpriseService {
   private integrations: Map<string, Integration> = new Map();
   private policies: Map<string, Policy> = new Map();
   private securityAlerts: Map<string, SecurityAlert> = new Map();
+  private backendExecutives: AIExecutive[] | null = null;
   private storageKey = 'datacendia_enterprise';
 
   constructor() {
     this.loadFromStorage();
     this.initializeDefaultData();
+  }
+
+  /**
+   * Fetch executives and auto-decisions from the backend.
+   * - Executives come from /enterprise/regent/advisors (overrides default EXECUTIVES)
+   * - Auto-decisions come from /autopilot/decisions (merged into local Map)
+   * Returns total items synced, or 0 if backend unavailable.
+   */
+  async syncFromBackend(): Promise<number> {
+    let total = 0;
+    try {
+      const execRes = await api.get<any>('/enterprise/regent/advisors');
+      if (execRes.success) {
+        const advisors = Array.isArray(execRes.data) ? execRes.data :
+                         Array.isArray((execRes.data as any)?.advisors) ? (execRes.data as any).advisors :
+                         Array.isArray((execRes as any).advisors) ? (execRes as any).advisors : null;
+        if (advisors && advisors.length > 0) {
+          this.backendExecutives = advisors as AIExecutive[];
+          total += advisors.length;
+        }
+      }
+    } catch { /* backend unavailable — keep defaults */ }
+    try {
+      const dRes = await api.get<AutoDecision[]>('/autopilot/decisions');
+      if (dRes.success && Array.isArray(dRes.data)) {
+        for (const d of dRes.data) {
+          if (typeof d.createdAt === 'string') d.createdAt = new Date(d.createdAt);
+          if (typeof d.expiresAt === 'string') d.expiresAt = new Date(d.expiresAt);
+          this.autoDecisions.set(d.id, d);
+        }
+        total += dRes.data.length;
+        this.saveToStorage();
+      }
+    } catch { /* backend unavailable — keep local */ }
+    return total;
   }
 
   // ---------------------------------------------------------------------------
@@ -768,6 +805,10 @@ class EnterpriseService {
   // ---------------------------------------------------------------------------
 
   getExecutives(): AIExecutive[] {
+    // Prefer backend-synced executives if syncFromBackend has succeeded; else fall back to defaults
+    if (this.backendExecutives && this.backendExecutives.length > 0) {
+      return [...this.backendExecutives];
+    }
     return [...EXECUTIVES];
   }
 

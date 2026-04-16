@@ -20,6 +20,7 @@ import { logger } from '../lib/logger';
 
 import { ollamaService } from '../lib/ollama';
 import { FINANCIAL_DECISION_DEBT } from '../data/financialDemoData';
+import { api } from '../lib/api';
 
 // =============================================================================
 // TYPES
@@ -335,6 +336,49 @@ class DecisionIntelligenceService {
   constructor() {
     this.loadFromStorage();
     this.initializeDefaultData();
+  }
+
+  /**
+   * Fetch data from decision-intel backend endpoints:
+   * - /decision-intel/ghost-board/sessions → ghostBoards
+   * - /decision-intel/pre-mortem/analyses → preMortems
+   * - /premium/decision-debt/dashboard → pendingDecisions
+   * Returns total items synced, or 0 if backend unavailable.
+   */
+  async syncFromBackend(): Promise<number> {
+    let total = 0;
+    try {
+      const gbRes = await api.get<any[]>('/decision-intel/ghost-board/sessions?limit=50');
+      if (gbRes.success && Array.isArray(gbRes.data)) {
+        for (const g of gbRes.data) {
+          if (typeof g.runAt === 'string') g.runAt = new Date(g.runAt);
+          this.ghostBoards.set(g.id, g as GhostBoardResult);
+        }
+        total += gbRes.data.length;
+      }
+    } catch { /* offline-tolerant */ }
+    try {
+      const pmRes = await api.get<any[]>('/decision-intel/pre-mortem/analyses?limit=50');
+      if (pmRes.success && Array.isArray(pmRes.data)) {
+        for (const p of pmRes.data) {
+          if (typeof p.analyzedAt === 'string') p.analyzedAt = new Date(p.analyzedAt);
+          this.preMortems.set(p.id, p as PreMortemResult);
+        }
+        total += pmRes.data.length;
+      }
+    } catch { /* offline-tolerant */ }
+    try {
+      const ddRes = await api.get<any>('/premium/decision-debt/dashboard');
+      if (ddRes.success && ddRes.data?.pendingDecisions && Array.isArray(ddRes.data.pendingDecisions)) {
+        for (const p of ddRes.data.pendingDecisions) {
+          if (typeof p.createdAt === 'string') p.createdAt = new Date(p.createdAt);
+          this.pendingDecisions.set(p.id, p as PendingDecision);
+        }
+        total += ddRes.data.pendingDecisions.length;
+      }
+    } catch { /* offline-tolerant */ }
+    if (total > 0) this.saveToStorage();
+    return total;
   }
 
   // ---------------------------------------------------------------------------

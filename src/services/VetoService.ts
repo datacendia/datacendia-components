@@ -19,6 +19,7 @@ import { logger } from '../lib/logger';
 // =============================================================================
 
 import { ollamaService, DomainAgent } from '../lib/ollama';
+import { api } from '../lib/api';
 
 // =============================================================================
 // TYPES
@@ -355,6 +356,30 @@ class VetoService {
       this.ollamaAvailable = await ollamaService.checkAvailability();
     } catch {
       this.ollamaAvailable = false;
+    }
+  }
+
+  /**
+   * Fetch veto decisions and policies from the backend and merge into local cache.
+   * Returns the number of decisions synced, or 0 if backend unavailable.
+   */
+  async syncFromBackend(): Promise<number> {
+    try {
+      const res = await api.get<VetoDecision[]>('/veto/decisions');
+      if (!res.success) return 0;
+      const decisions = Array.isArray(res.data) ? res.data : (res as any).decisions;
+      if (!Array.isArray(decisions)) return 0;
+      for (const d of decisions) {
+        // Normalize dates
+        if (typeof d.submittedAt === 'string') d.submittedAt = new Date(d.submittedAt);
+        if (d.decidedAt && typeof d.decidedAt === 'string') d.decidedAt = new Date(d.decidedAt);
+        d.reviews?.forEach((r: any) => { if (typeof r.reviewedAt === 'string') r.reviewedAt = new Date(r.reviewedAt); });
+        this.decisions.set(d.id, d);
+      }
+      this.saveToStorage();
+      return decisions.length;
+    } catch {
+      return 0;
     }
   }
 

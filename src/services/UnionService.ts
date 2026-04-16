@@ -20,6 +20,7 @@ import { logger } from '../lib/logger';
 
 import { ollamaService } from '../lib/ollama';
 import { mean } from '../lib/algorithms/statistics';
+import { api } from '../lib/api';
 
 // =============================================================================
 // TYPES
@@ -379,6 +380,29 @@ class UnionService {
       this.ollamaAvailable = await ollamaService.checkAvailability();
     } catch {
       this.ollamaAvailable = false;
+    }
+  }
+
+  /**
+   * Fetch employees from the backend /union/employees endpoint and merge into local cache.
+   * Returns the number of employees synced, or 0 if backend unavailable.
+   */
+  async syncFromBackend(): Promise<number> {
+    try {
+      const res = await api.get<Employee[]>('/union/employees');
+      if (!res.success) return 0;
+      const employees = Array.isArray(res.data) ? res.data : (res as any).employees;
+      if (!Array.isArray(employees)) return 0;
+      for (const e of employees) {
+        if (typeof e.startDate === 'string') e.startDate = new Date(e.startDate);
+        if (e.lastRaiseDate && typeof e.lastRaiseDate === 'string') e.lastRaiseDate = new Date(e.lastRaiseDate);
+        e.burnoutFactors?.forEach((f: any) => { if (typeof f.detectedAt === 'string') f.detectedAt = new Date(f.detectedAt); });
+        this.employees.set(e.id, e);
+      }
+      this.saveToStorage();
+      return employees.length;
+    } catch {
+      return 0;
     }
   }
 

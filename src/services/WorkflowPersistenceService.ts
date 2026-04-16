@@ -12,10 +12,12 @@
 // See LICENSE file for details.
 
 import type { Workflow, WorkflowListItem, WorkflowRunLog } from '../types/workflow';
+import { api } from '../lib/api';
 
 const STORAGE_PREFIX = 'datacendia_workflow_';
 const LIST_KEY = `${STORAGE_PREFIX}list`;
 const RUN_LOG_KEY = `${STORAGE_PREFIX}run_logs`;
+let _backendSynced = false;
 
 function generateId(): string {
   return `wf-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
@@ -50,6 +52,39 @@ function toListItem(w: Workflow): WorkflowListItem {
 }
 
 export const WorkflowPersistenceService = {
+  // ── Backend Sync ─────────────────────────────────────────────────────────
+  /**
+   * Fetch workflows from the backend and merge into local cache.
+   * Call this on app/page mount to replace stale local-only data with
+   * authoritative backend state. Idempotent-safe to call multiple times.
+   * Returns the number of workflows synced, or 0 if backend unavailable.
+   */
+  async syncFromBackend(): Promise<number> {
+    try {
+      const res = await api.get<Workflow[]>('/workflows');
+      if (!res.success || !Array.isArray(res.data)) return 0;
+      const backendList: WorkflowListItem[] = [];
+      for (const w of res.data) {
+        localStorage.setItem(`${STORAGE_PREFIX}${w.id}`, JSON.stringify(w));
+        backendList.push(toListItem(w));
+      }
+      // Merge: backend items authoritative, preserve any local-only drafts
+      const localList = getList();
+      const backendIds = new Set(backendList.map(w => w.id));
+      const localOnly = localList.filter(w => !backendIds.has(w.id));
+      saveList([...backendList, ...localOnly]);
+      _backendSynced = true;
+      return backendList.length;
+    } catch {
+      return 0;
+    }
+  },
+
+  /** Returns whether syncFromBackend has completed successfully at least once. */
+  isBackendSynced(): boolean {
+    return _backendSynced;
+  },
+
   // ── List ─────────────────────────────────────────────────────────────────
   listWorkflows(): WorkflowListItem[] {
     return getList().sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime());
@@ -84,6 +119,8 @@ export const WorkflowPersistenceService = {
     const list = getList();
     list.push(toListItem(workflow));
     saveList(list);
+    // Fire-and-forget backend persistence (optimistic local write)
+    void api.post<Workflow>('/workflows', workflow).catch(() => { /* offline-tolerant */ });
     return workflow;
   },
 
@@ -102,6 +139,8 @@ export const WorkflowPersistenceService = {
       list.push(toListItem(workflow));
     }
     saveList(list);
+    // Fire-and-forget backend persistence (optimistic local write)
+    void api.put<Workflow>(`/workflows/${workflow.id}`, workflow).catch(() => { /* offline-tolerant */ });
     return workflow;
   },
 
@@ -110,6 +149,8 @@ export const WorkflowPersistenceService = {
     localStorage.removeItem(`${STORAGE_PREFIX}${id}`);
     const list = getList().filter(w => w.id !== id);
     saveList(list);
+    // Fire-and-forget backend delete
+    void api.delete<void>(`/workflows/${id}`).catch(() => { /* offline-tolerant */ });
   },
 
   // ── Duplicate ────────────────────────────────────────────────────────────

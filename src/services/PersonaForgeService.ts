@@ -18,6 +18,7 @@ import { logger } from '../lib/logger';
 // =============================================================================
 
 import { ollamaService, DomainAgent, OllamaChatMessage } from '../lib/ollama';
+import { api } from '../lib/api';
 
 // =============================================================================
 // TYPES
@@ -317,6 +318,27 @@ class PersonaForgeService {
   constructor() {
     this.loadFromStorage();
     this.initializeDefaultPersonas();
+  }
+
+  /**
+   * Fetch persona twins from the backend /persona/twins endpoint and merge into
+   * local cache. Returns count synced, or 0 if backend unavailable.
+   */
+  async syncFromBackend(): Promise<number> {
+    try {
+      const res = await api.get<DigitalPersona[]>('/persona/twins');
+      if (!res.success || !Array.isArray(res.data)) return 0;
+      for (const p of res.data) {
+        if (typeof p.createdAt === 'string') p.createdAt = new Date(p.createdAt);
+        if (typeof p.lastActive === 'string') p.lastActive = new Date(p.lastActive);
+        if (typeof p.knowledgeCutoff === 'string') p.knowledgeCutoff = new Date(p.knowledgeCutoff);
+        this.personas.set(p.id, p);
+      }
+      this.saveToStorage();
+      return res.data.length;
+    } catch {
+      return 0;
+    }
   }
 
   // ---------------------------------------------------------------------------
