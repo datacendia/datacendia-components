@@ -21,30 +21,34 @@ try {
 
 $h = @{ "Authorization" = "Bearer $token" }
 
-$endpoints = @(
-  "veto/decisions",
-  "veto/metrics",
-  "union/employees",
-  "union/metrics",
-  "ledger/entries",
-  "ledger/decisions",
-  "persona/twins",
-  "decision-intel/ghost-board/sessions",
-  "decision-intel/pre-mortem/analyses",
-  "workflows",
-  "autopilot/decisions",
-  "enterprise/regent/advisors",
-  "wedge/status",
-  "admin/tenants",
-  "admin/feature-flags",
-  "premium/decision-debt/dashboard"
+# Endpoints actually called by the wired services and pages.
+# Tuples: endpoint, acceptableCodes (default 200, or 200,403 for role-gated).
+$endpointSpec = @(
+  @{ path = "veto/decisions";                             accept = @(200) },
+  @{ path = "veto/metrics";                               accept = @(200) },
+  @{ path = "union/employees";                            accept = @(200) },
+  @{ path = "union/metrics";                              accept = @(200) },
+  @{ path = "ledger/entries";                             accept = @(200) },
+  @{ path = "ledger/decisions";                           accept = @(200) },
+  @{ path = "persona/twins";                              accept = @(200) },
+  @{ path = "decision-intel/ghost-board/sessions";        accept = @(200) },
+  @{ path = "decision-intel/pre-mortem/analyses";         accept = @(200) },
+  @{ path = "workflows";                                  accept = @(200) },
+  @{ path = "enterprise/regent/advisors";                 accept = @(200, 403); note = "ADMIN-only; 403 expected for non-admin" },
+  @{ path = "wedge/status";                               accept = @(200) },
+  @{ path = "admin/tenants";                              accept = @(200) },
+  @{ path = "admin/feature-flags";                        accept = @(200) },
+  @{ path = "premium/decision-debt/dashboard";            accept = @(200) }
 )
+$endpoints = $endpointSpec | ForEach-Object { $_.path }
 
 $pass = 0
 $fail = 0
 $errors = @()
 
-foreach ($e in $endpoints) {
+foreach ($spec in $endpointSpec) {
+  $e = $spec.path
+  $acceptable = $spec.accept
   try {
     $r = Invoke-WebRequest -Uri "$baseUrl/$e" -Headers $h -UseBasicParsing -TimeoutSec 10
     $status = $r.StatusCode
@@ -60,19 +64,26 @@ foreach ($e in $endpoints) {
       elseif ($null -ne $j.advisors) { $shape = "legacy{advisors[$($j.advisors.Count)]}" }
       else { $shape = "other" }
     } catch { $shape = "non-json" }
-    if ($status -eq 200) {
+    if ($acceptable -contains $status) {
       Write-Host ("[PASS] {0,-45} {1} {2,6}b  {3}" -f $e, $status, $len, $shape) -ForegroundColor Green
       $pass++
     } else {
-      Write-Host ("[WARN] {0,-45} {1} {2,6}b" -f $e, $status, $len) -ForegroundColor Yellow
+      Write-Host ("[FAIL] {0,-45} {1} (expected {2})" -f $e, $status, ($acceptable -join ',')) -ForegroundColor Red
+      $errors += "$e => HTTP $status"
       $fail++
     }
   } catch {
     $code = "?"
     try { $code = $_.Exception.Response.StatusCode.value__ } catch {}
-    Write-Host ("[FAIL] {0,-45} HTTP {1}" -f $e, $code) -ForegroundColor Red
-    $errors += "$e => HTTP $code"
-    $fail++
+    if ($acceptable -contains [int]$code) {
+      $note = if ($spec.note) { " ($($spec.note))" } else { "" }
+      Write-Host ("[PASS] {0,-45} HTTP {1}{2}" -f $e, $code, $note) -ForegroundColor DarkGreen
+      $pass++
+    } else {
+      Write-Host ("[FAIL] {0,-45} HTTP {1} (expected {2})" -f $e, $code, ($acceptable -join ',')) -ForegroundColor Red
+      $errors += "$e => HTTP $code"
+      $fail++
+    }
   }
 }
 

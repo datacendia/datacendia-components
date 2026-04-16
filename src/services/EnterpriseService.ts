@@ -400,14 +400,20 @@ class EnterpriseService {
   async syncFromBackend(): Promise<number> {
     try {
       const execRes = await api.get<any>('/enterprise/regent/advisors');
-      if (execRes.success) {
-        const advisors = Array.isArray(execRes.data) ? execRes.data :
-                         Array.isArray((execRes.data as any)?.advisors) ? (execRes.data as any).advisors :
-                         Array.isArray((execRes as any).advisors) ? (execRes as any).advisors : null;
-        if (advisors && advisors.length > 0) {
-          this.backendExecutives = advisors as AIExecutive[];
-          return advisors.length;
-        }
+      // The /regent/advisors endpoint returns the raw shape { advisors: [...] }
+      // without the standard { success, data } wrapper, so we check for advisors
+      // in multiple locations:
+      //   - execRes.data (if the client wrapped it)
+      //   - execRes.data.advisors (if backend returned { advisors } and client wrapped)
+      //   - execRes.advisors (if client passed through raw)
+      const advisors: unknown =
+        (Array.isArray(execRes.data) && execRes.data) ||
+        (execRes.data && (execRes.data as any).advisors) ||
+        (execRes as any).advisors ||
+        null;
+      if (Array.isArray(advisors) && advisors.length > 0) {
+        this.backendExecutives = advisors as AIExecutive[];
+        return advisors.length;
       }
     } catch { /* backend unavailable or 403 — keep defaults */ }
     return 0;
