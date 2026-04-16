@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 5.2** | **March 24, 2026 Update** — Enterprise Compliance Documentation + Public Status Page + CendiaCrypto™
+**Version 6.0** | **April 15, 2026 Update** — Full Codebase Audit: CredentialEvidence™, 11 Sovereign Architectural Patterns, Wedge Products, 73+ Compliance Frameworks, 8-Slot AI Architecture
 
 ---
 
@@ -18,19 +18,19 @@
 # Table of Contents
 
 1. [Genesis: The Vision](#genesis-the-vision)
-2. [Platform Implementation Status](#platform-implementation-status-february-2026)
+2. [Platform Implementation Status](#platform-implementation-status-april-2026) ⭐ **Updated**
 3. [Core Philosophy](#core-philosophy)
-4. [Platform Architecture](#platform-architecture)
+4. [Platform Architecture](#platform-architecture) ⭐ **Updated**
 5. [The Council of Agents](#the-council-of-agents)
-6. [The Core Suite](#the-core-suite) ⭐ **Restructured**
-7. [The Trust Layer](#the-trust-layer) ⭐ **Restructured**
+6. [The Core Suite](#the-core-suite)
+7. [The Trust Layer](#the-trust-layer)
 8. [Vertical Packs](#vertical-packs)
 9. [Additional Services](#additional-services)
-10. [Sovereign Services](#sovereign-services) ⭐ **New**
+10. [Sovereign Services](#sovereign-services)
 11. [Legacy Product Ecosystem](#legacy-product-ecosystem)
 12. [Enterprise Services](#enterprise-services)
-13. [Data Architecture](#data-architecture)
-14. [Security & Compliance](#security--compliance)
+13. [Data Architecture](#data-architecture) ⭐ **Updated**
+14. [Security & Compliance](#security--compliance) ⭐ **Updated**
 15. [Deployment Models](#deployment-models)
 16. [Integration Capabilities](#integration-capabilities)
 17. [The Immutable Ledger](#the-immutable-ledger)
@@ -42,9 +42,9 @@
 23. [Industry Verticals](#industry-verticals)
 24. [Appendices](#appendices)
     - [Appendix F: 2026 Product Roadmap](#appendix-f-2026-product-roadmap)
-    - [Appendix G: Compliance Status Matrix](#appendix-g-compliance-status-matrix)
+    - [Appendix G: Compliance Status Matrix](#appendix-g-compliance-status-matrix) ⭐ **Updated**
     - [Appendix H: Performance Benchmarks](#appendix-h-performance-benchmarks)
-    - [Appendix I: Service Logo & Description Reference](#appendix-i-service-logo--description-reference) ⭐ **New**
+    - [Appendix I: Service Logo & Description Reference](#appendix-i-service-logo--description-reference)
 
 ---
 
@@ -95,9 +95,10 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 ---
 
-# Platform Implementation Status (March 2026)
+# Platform Implementation Status (April 2026)
 
 > **Honest Assessment** — This section provides transparent status of what is implemented versus planned.
+> **Last Audit:** April 15, 2026 — full codebase inventory reconciliation
 
 ## Infrastructure Upgrade (February 26, 2026)
 
@@ -123,13 +124,16 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 
 | Aspect | Status | Notes |
 |--------|--------|-------|
-| **Backend Code** | ~100% | 456 services, 160 route files, all wired up |
+| **Backend Services** | 160+ | Across 14 API domain routers, 130+ route modules |
 | **Frontend UI** | ~95% | 209 pages, 92 components, connected to backend |
 | **Database Schema** | ~95% | 194 Prisma models, 141 enums |
 | **Real Functionality** | ~100% | All features implemented, 10 OAuth2 connectors, 29 verticals, WebSocket streaming, Redis caching, infrastructure deployed |
+| **Compliance Services** | 25 | Covering 73+ regulatory frameworks, 17 jurisdictions |
+| **Sovereign Services** | 24 | 11 architectural patterns + 13 extended services |
+| **Security & Crypto** | 21 | 10 core + 11 cryptographic primitives |
 | **Infrastructure** | ~100% | 9 enterprise components (Kafka, Temporal, OPA, OpenBao, NeMo, RAPIDS, Flink, CC, Triton/NIM) |
 | **Production Ready** | ~100% | CI/CD ready, monitoring deployed, HA setup, backup automation, SBOM generation |
-| **Test Coverage** | 98% | 262 test files, see Test Coverage & Verification below |
+| **Supported Languages** | 100+ | 20 UI localizations + OmniTranslate runtime |
 
 ## Test Coverage & Verification
 
@@ -158,6 +162,36 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 - **Apotheosis** — Nightly red-teaming and pattern banning
 - **Dissent** — Protected whistleblower filing
 - **20 Language Localizations** — UI translated
+
+### April 2026 Updates (v6.0)
+
+- **CredentialEvidence™** — Proof-at-creation for every credential generated in the platform
+  - SHA-256 fingerprinting, Shannon entropy measurement, frozen policy snapshots
+  - Environment context capture (Node.js, OpenSSL, FIPS mode, hostname)
+  - Hash chain linkage (predecessor → current) for tamper detection
+  - HMAC-SHA256 signature per record, full audit export endpoint
+  - 15 credential type policies (access_token, refresh_token, mfa_secret, hsm_key, etc.)
+  - Integration points: auth middleware, MFA service, HSM adapter, auth routes
+  - Service: `backend/src/services/security/CredentialEvidenceService.ts`
+  - Routes: `backend/src/routes/credential-evidence.ts`
+
+- **11 Sovereign Architectural Patterns** — Enterprise Platinum standard
+  - Data Diode (unidirectional ingest), Local RLHF (zero-cloud), Decision DNA (one-click audit export)
+  - Shadow Council (sandbox deliberation), Deterministic Replay (bit-perfect reproduction)
+  - QR Air-Gap Bridge (animated QR sequences), Canary Tripwire (exfiltration detection)
+  - TPM Attestation (hardware-signed decisions), Time-Lock (RSA time-lock puzzles)
+  - Federated Mesh (sneakernet multi-site learning), Portable Instance (bootable USB config)
+  - All at `backend/src/services/sovereign/` with routes at `/api/v1/sovereign-arch/*`
+
+- **Wedge Products** — Entry-point products for enterprise sales
+  - Shadow AI Scanner — detect unauthorized AI usage across organization
+  - AI Governance Report Card — one-click governance posture assessment
+  - AI Incident Forensics Kit — post-incident investigation toolkit
+  - Services: `backend/src/services/wedge/`
+
+- **Full Documentation Audit** — 6 documentation files updated with Mermaid diagrams
+  - COMPLETE_SERVICE_MATRIX.md, ARCHITECTURE_DIAGRAMS.md, API_DOCUMENTATION.md
+  - TIER-FEATURE-MATRIX.md, DATACENDIA_PLATFORM_ARCHITECTURE.md, WORKFLOWS.md
 
 ### WOW Features (January 21, 2026)
 
@@ -361,6 +395,7 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 - **Load Testing** — Scripts exist but not benchmarked
 - **Express 4 → 5 Upgrade** — Medium-term audit item
 - **PGP Key Generation** — Generate PGP key for security@datacendia.com and update Vulnerability Disclosure doc
+- **Test Coverage** — Backend at ~34% statements, target 85%. Strategy: target lowest-coverage files first with real behavioral tests
 
 ### Recently Completed (March 2026)
 
@@ -540,8 +575,8 @@ flowchart TB
         PG[(PostgreSQL)]
         Neo[(Neo4j)]
         Redis[(Redis)]
-        Qdrant[(Qdrant)]
-        CH[(ClickHouse)]
+        QD[(Qdrant)]
+        Druid2[(Apache Druid)]
     end
 
     subgraph Sovereign["🔒 Sovereign Stack"]
@@ -592,16 +627,22 @@ flowchart TB
 | PostgreSQL | Primary Database | Transactional data, decisions, users |
 | Neo4j | Graph Database | Knowledge graph, relationships, lineage |
 | Redis | Cache & Pub/Sub | Sessions, real-time updates, caching |
-| pgvector | Vector Store | Semantic search, RAG embeddings |
+| Qdrant | Vector Database | Semantic search, RAG embeddings (2560-dim, qwen3-embedding:4b) |
 | Apache Druid | Time-series Analytics | CendiaChronos™ timeline events |
 
-### AI/ML
-| Technology | Purpose | Use Case |
-|------------|---------|----------|
-| Ollama | Local LLM | Agent reasoning, on-premise deployment |
-| OpenAI API | Cloud LLM | Fallback, advanced capabilities |
-| Anthropic API | Cloud LLM | Specialized reasoning tasks |
-| LangChain | LLM Framework | Prompt management, chains |
+### AI/ML (8-Slot Architecture)
+| Slot | Model | Use Case |
+|------|-------|----------|
+| `large` | llama3.3:70b | Council deliberations, executive decisions (128K ctx) |
+| `flagship` | qwen3:32b | General analysis, synthesis, strategy (128K ctx) |
+| `reasoning` | deepseek-r1:32b | Risk, legal, compliance, CFO reasoning (64K ctx) |
+| `coder` | qwen3-coder:30b | SQL, JSON, code, tool calling (131K ctx) |
+| `fast` | llama3.2:3b | Quick UI responses, simple tasks (8K ctx) |
+| `vision` | qwen3-vl:30b | Document OCR, chart/image analysis (16K ctx) |
+| `translator` | qwen2.5:32b | OmniTranslate™, 100+ languages (32K ctx) |
+| `embed` | qwen3-embedding:4b | Vector search, RAG (2560-dim, 32K ctx) |
+
+All models run locally via **Ollama** — no data leaves the premises. Every slot is env-var configurable. Cloud fallback (OpenAI, Anthropic, Google) optional for hybrid deployments only.
 
 ### Sovereign Stack™ (Self-Hosted Infrastructure)
 | Technology | Purpose | Use Case |
@@ -1551,20 +1592,20 @@ veto_rules:
 ### Purpose
 Map organizational policies to regulatory requirements, identify gaps, generate evidence, and maintain continuous compliance.
 
-### Supported Frameworks
+### Supported Frameworks (73+)
 
-| Framework | Description |
-|-----------|-------------|
-| SOX | Sarbanes-Oxley Act |
-| GDPR | General Data Protection Regulation |
-| HIPAA | Health Insurance Portability and Accountability |
-| SOC 2 | Service Organization Control |
-| FedRAMP | Federal Risk and Authorization Management |
-| PCI-DSS | Payment Card Industry Data Security Standard |
-| ISO 27001 | Information Security Management |
-| NIST CSF | Cybersecurity Framework |
-| CCPA | California Consumer Privacy Act |
-| DORA | Digital Operational Resilience Act |
+| Domain | Frameworks | Count |
+|--------|-----------|-------|
+| **Ethical AI** | IEEE 7000, EU AI Act, NIST AI RMF, ISO 42001, Singapore FEAT, Canada AIDA | 6 |
+| **Cybersecurity** | SOC 2, ISO 27001, NIST 800-53, CMMC, CIS Controls, FedRAMP, FISMA, Zero Trust | 8 |
+| **Privacy** | GDPR, CCPA/CPRA, HIPAA, PIPEDA, LGPD, POPIA, APPI, UK DPA 2018 | 8 |
+| **Governance** | SOX, COSO, COBIT, ISO 38500, ITIL, Basel III, DORA, MiFID II | 8 |
+| **Financial** | Basel III, SOX, DORA, MiFID II, AML/BSA, GLBA, PCI-DSS, Dodd-Frank | 8 |
+| **AI-Specific** | EU AI Act, NIST AI RMF, ISO 42001, Colorado AI Act, NYC Local Law 144, FDA AI/ML | 6 |
+| **Digital/Comms** | COPPA, CAN-SPAM, ePrivacy, PECR, TCPA, ADA/WCAG | 6 |
+| **Industry** | HIPAA/HITECH, 21 CFR Part 11, NERC CIP, ITAR, FAR/DFARS, IATF 16949 + 17 more | 23 |
+
+See [DATACENDIA_PLATFORM_ARCHITECTURE.md](./DATACENDIA_PLATFORM_ARCHITECTURE.md) for full framework list.
 
 ### Key Capabilities
 - Real-time regulatory monitoring
@@ -1839,15 +1880,19 @@ chronos_snapshots
 ## Compliance Status
 
 > ⚠️ **Honest Status:** See [Appendix G](#appendix-g-compliance-status-matrix) for full certification roadmap.
+> Platform covers **73+ regulatory frameworks** across 8 compliance domains with 25 dedicated compliance services.
 
 | Framework | Status | Notes |
 |-----------|--------|-------|
-| SOC 2 Type II | 🟡 In Progress | Audit scheduled Q2 2026 |
-| ISO 27001 | 🟡 In Progress | ISMS controls in place; certification on enterprise contract |
+| SOC 2 Type II | 🟡 Architecture Aligned | Controls implemented; formal audit available on enterprise contract |
+| ISO 27001 | 🟡 Architecture Aligned | ISMS controls in place; certification on enterprise contract |
 | GDPR | ✅ Compliant | Data residency, consent management, DPA available |
-| HIPAA | 🟡 Designed for | BAA available, controls implemented |
-| FedRAMP | 🟡 In Progress | Government edition |
-| PCI-DSS | 🟡 Designed for | Architecture supports |
+| HIPAA | 🟡 Architecture Aligned | BAA available, technical safeguards implemented |
+| EU AI Act | 🟡 Architecture Aligned | Risk classification, transparency, human oversight implemented |
+| NIST AI RMF | 🟡 Architecture Aligned | Govern, Map, Measure, Manage functions covered |
+| FedRAMP | 🟡 Architecture Supports | Available for government contracts that fund authorization |
+| PCI-DSS | ⚪ Not Applicable | No payment card data processed |
+| DORA | 🟡 Architecture Aligned | Digital operational resilience controls implemented |
 
 ## Data Residency
 
@@ -2569,7 +2614,7 @@ These 4 verticals represent **90% of vertical AI spend**.^[1] Full sales, market
 
 ## All Supported Verticals (30)
 
-Datacendia now supports **30 industry verticals** with pre-configured service bundles. Organizations can toggle services on/off via the Vertical Configuration page.
+Datacendia now supports **30 industry verticals** with pre-configured service bundles (29 standard + 1 custom). Organizations can toggle services on/off via the Vertical Configuration page.
 
 ### Core Verticals (7) - Full GTM
 | Icon | Vertical | Default Services | Status |
@@ -2781,10 +2826,18 @@ JWT_SECRET=your-secret-key
 JWT_EXPIRES_IN=900
 REFRESH_TOKEN_EXPIRES_IN=604800
 
-# AI Models (Local - Required for Sovereign)
+# AI Models — 8-Slot Architecture (Local via Ollama)
 OLLAMA_HOST=http://localhost:11434
+OLLAMA_MODEL=qwen3:32b              # Flagship slot
+OLLAMA_MODEL_LARGE=llama3.3:70b     # Large slot (Council, executive)
+OLLAMA_MODEL_REASONING=deepseek-r1:32b  # Reasoning slot (Risk, Legal, CFO)
+OLLAMA_MODEL_CODER=qwen3-coder:30b  # Coder slot (SQL, JSON, tool calling)
+OLLAMA_MODEL_FAST=llama3.2:3b       # Fast slot (UI responses)
+OLLAMA_MODEL_VISION=qwen3-vl:30b    # Vision slot (Document OCR)
+OMNITRANSLATE_MODEL=qwen2.5:32b     # Translator slot (100+ languages)
+OLLAMA_EMBED_MODEL=qwen3-embedding:4b  # Embed slot (2560-dim vectors)
 
-# Cloud AI Models (OPTIONAL - Hybrid/Cloud tiers only)
+# Cloud AI Models (OPTIONAL — Hybrid/Cloud tiers only)
 # ⚠️ NOT USED in Sovereign/Air-Gapped deployments
 # OPENAI_API_KEY=sk-...        # Uncomment for Hybrid tier
 # ANTHROPIC_API_KEY=sk-ant-... # Uncomment for Hybrid tier
@@ -2817,6 +2870,33 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 ## Appendix E: Changelog
+
+### Version 6.0.0 (April 15, 2026)
+
+#### Full Codebase Audit — CredentialEvidence™, Sovereign Architecture, Wedge Products
+
+- **CredentialEvidence™** — Proof-at-creation for every credential generated in the platform
+  - SHA-256 fingerprinting, Shannon entropy, frozen policy snapshots, environment context
+  - Hash chain linkage (predecessor → current) with HMAC-SHA256 signatures
+  - 15 credential type policies, integrated into auth middleware, MFA, HSM, auth routes
+  - API: `/api/v1/credential-evidence/*`
+  - Service: `backend/src/services/security/CredentialEvidenceService.ts`
+- **11 Sovereign Architectural Patterns** — Enterprise Platinum standard
+  - Data Diode, Local RLHF, Decision DNA, Shadow Council, Deterministic Replay
+  - QR Air-Gap Bridge, Canary Tripwire, TPM Attestation, Time-Lock, Federated Mesh, Portable Instance
+  - API: `/api/v1/sovereign-arch/*` (11 endpoint groups)
+- **Wedge Products** — Entry-point products for enterprise sales
+  - Shadow AI Scanner, AI Governance Report Card, AI Incident Forensics Kit
+  - API: `/api/v1/wedge/*`
+- **Full Documentation Audit** — 7 documentation files updated
+  - DATACENDIA_BIBLE.md, COMPLETE_SERVICE_MATRIX.md, ARCHITECTURE_DIAGRAMS.md
+  - API_DOCUMENTATION.md, TIER-FEATURE-MATRIX.md, DATACENDIA_PLATFORM_ARCHITECTURE.md, WORKFLOWS.md
+  - Mermaid diagrams added for every service category
+- **Compliance Expansion** — 73+ regulatory frameworks across 8 domains, 17 jurisdictions
+- **Platform Architecture** — Updated to 8-layer model with 160+ backend services
+- **AI Model Architecture** — 8-slot system documented (large, flagship, reasoning, coder, fast, vision, translator, embed)
+
+---
 
 ### Version 5.2.0 (March 24, 2026)
 
@@ -3095,6 +3175,7 @@ The entire product structure has been reorganized into four clear categories:
 ## Appendix G: Compliance Status Matrix
 
 > ⚠️ **Important:** This matrix reflects architecture alignment, not formal certifications. Datacendia's architecture follows industry-standard security controls. **Formal certifications are available upon enterprise contract** when customer requirements justify the investment.
+> Platform covers **73+ frameworks** across 8 compliance domains. Key frameworks shown below; full list in [DATACENDIA_PLATFORM_ARCHITECTURE.md](./DATACENDIA_PLATFORM_ARCHITECTURE.md).
 
 | Framework | Status | Notes |
 |-----------|--------|-------|
@@ -3102,12 +3183,19 @@ The entire product structure has been reorganized into four clear categories:
 | **ISO 27001** | 🟡 Architecture Aligned | ISMS controls in place; certification available on contract |
 | **HIPAA** | 🟡 Architecture Aligned | BAA available; technical safeguards implemented |
 | **GDPR** | 🟢 Compliant | DPA available; data residency controls; right to deletion |
+| **EU AI Act** | 🟡 Architecture Aligned | Risk classification, transparency, human oversight implemented |
+| **NIST AI RMF** | 🟡 Architecture Aligned | Govern, Map, Measure, Manage functions covered |
+| **ISO 42001** | 🟡 Architecture Aligned | AI management system controls in place |
 | **FedRAMP** | 🟡 Architecture Supports | Available for government contracts that fund authorization |
+| **DORA** | 🟡 Architecture Aligned | Digital operational resilience controls implemented |
 | **21 CFR Part 11** | 🟡 Architecture Aligned | Audit trail, e-signatures, access controls implemented |
+| **CMMC** | 🟡 Architecture Aligned | Cybersecurity maturity controls in place |
 | **PCI DSS** | ⚪ Not Applicable | No payment card data processed |
 | **ITAR** | 🔴 Future | Requires State Dept registration; available on defense contract |
 
 **Legend:** 🟢 Compliant | 🟡 Architecture Aligned (certification on contract) | 🔴 Future | ⚪ N/A
+
+**Compliance Services (25):** ContinuousComplianceService, CrossJurisdictionService, ComplianceExportService, RegulatoryAbsorbService, ComplianceGapAnalysisService, EvidenceCollectionService, PolicyEnforcementService, AuditTrailService, FrameworkMappingService, plus 16 framework-specific services.
 
 ### Compliance Documentation Available
 
