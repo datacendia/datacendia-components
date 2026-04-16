@@ -1,7 +1,7 @@
 # Tier-to-Feature Matrix
 
-> **Auto-generated** on 2026-03-06 from `backend/src/core/subscriptions/SubscriptionTiers.ts`
-> Do not edit manually — regenerate with `node scripts/generate-tier-matrix.cjs`
+> **Last updated** on 2026-04-15 — audit-verified against `backend/src/core/subscriptions/SubscriptionTiers.ts`  
+> Regenerate with `node scripts/generate-tier-matrix.cjs`
 
 ## Pricing
 
@@ -83,7 +83,7 @@
 
 | Feature | **Pilot** | **Foundation** | **Enterprise** | **Strategic** |
 |---------|--- | --- | --- | --- |
-| `cendiaLens` | — | — | ✓ | ✓ |
+| `credentialEvidence` | — | — | ✓ | ✓ |
 | `auditProvenance` | — | — | ✓ | ✓ |
 | `regulatoryAbsorbIntel` | — | — | ✓ | ✓ |
 | `orbit` | — | — | ✓ | ✓ |
@@ -99,6 +99,29 @@
 | `cendiaEcho` | — | — | ✓ | ✓ |
 | `cendiaRedTeam` | — | — | ✓ | ✓ |
 | `cendiaGnosis` | — | — | ✓ | ✓ |
+| `cendiaApotheosis` | — | — | ✓ | ✓ |
+| `cendiaDissent` | — | — | ✓ | ✓ |
+
+## Security & Cryptography (Enterprise)
+
+| Feature | **Pilot** | **Foundation** | **Enterprise** | **Strategic** |
+|---------|--- | --- | --- | --- |
+| `mfa` | ✓ | ✓ | ✓ | ✓ |
+| `credentialEvidence` | — | — | ✓ | ✓ |
+| `hsm` | — | — | ✓ | ✓ |
+| `postQuantumKMS` | — | — | ✓ | ✓ |
+| `zkp` | — | — | ✓ | ✓ |
+| `immutableAuditLedger` | — | ✓ | ✓ | ✓ |
+| `sbomGenerator` | — | — | ✓ | ✓ |
+| `siemIntegration` | — | — | ✓ | ✓ |
+
+## Wedge Products
+
+| Feature | **Pilot** | **Foundation** | **Enterprise** | **Strategic** |
+|---------|--- | --- | --- | --- |
+| `shadowAIScanner` | ✓ | ✓ | ✓ | ✓ |
+| `governanceReport` | ✓ | ✓ | ✓ | ✓ |
+| `incidentForensics` | — | ✓ | ✓ | ✓ |
 
 ## Strategic Pillars
 
@@ -130,6 +153,10 @@
 | `customBranding` | — | — | ✓ | ✓ |
 | `whiteLabeling` | — | — | — | ✓ |
 | `airGapDeploy` | — | — | ✓ | ✓ |
+| `gatewayProxy` | ✓ | ✓ | ✓ | ✓ |
+| `piiDetection` | ✓ | ✓ | ✓ | ✓ |
+| `shadowAIDetection` | — | ✓ | ✓ | ✓ |
+| `gatewayFederation` | — | — | ✓ | ✓ |
 
 ## Usage Limits
 
@@ -170,10 +197,13 @@
 | **Compliance** | ✅ Basic (readiness checklist, 1 page) | ✅ 4 services (Continuous Monitor, Regulatory Sandbox, Cross-Jurisdiction, Regulator's Receipt) |
 | **Governance/Court** | ❌ (gated → UpgradePage) | ✅ 2 services (Decision Packets, Constitutional Court) |
 | **Crown Jewels** | ❌ (gated → UpgradePage) | ✅ 3 dashboards (Echo, RedTeam, Gnosis) |
-| **Sovereign Deployment** | ❌ (gated → UpgradePage) | ✅ 18 routes (13 sovereign pages, 22 architectural patterns) |
+| `Sovereign Deployment` | ❌ (gated → UpgradePage) | ✅ 18 routes (13 sovereign pages, 24 sovereign services, 11 architectural patterns) |
 | **Industry Verticals** | Hub teaser only (list visible, pages gated) | ✅ 26 full vertical packs |
 | **Stress Testing** | ❌ (gated → UpgradePage) | ✅ CendiaCrucible + AdversarialRedTeam + COLLAPSE (Strategic) |
 | **Live Operations** | Basic (Pulse — 3 pages) | ✅ CendiaPulse WebSocket (LiveAgentMonitor) |
 | **ZKP / Crypto** | ❌ (gated → UpgradePage) | ✅ Escrow + ZKP |
 | **SSO/CAC/PIV** | ❌ | ✅ SSOService + CAC/PIV auth |
 | **HA / Monitoring** | Docker Compose (dev) | Production HA + Prometheus/Grafana/Jaeger |
+| **Credential Evidence** | ❌ | ✅ Proof-at-creation, 15 credential types, hash chain, audit export |
+| **Wedge Products** | ✅ Scanner + Report | ✅ + Incident Forensics |
+| **Apotheosis/Dissent** | ❌ | ✅ Self-improvement + protected dissent |

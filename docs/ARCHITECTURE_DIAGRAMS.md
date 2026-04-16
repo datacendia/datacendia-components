@@ -472,6 +472,434 @@ AIR-GAPPED SOFTWARE DELIVERY:
 
 ---
 
+## Service Architecture Diagrams
+
+> **Last updated:** April 15, 2026 — full codebase audit
+
+### Complete Platform Architecture
+
+```mermaid
+graph TB
+    subgraph Client["Client Layer"]
+        WEB["React SPA"]
+        API["API Clients"]
+        WS["WebSocket"]
+    end
+
+    subgraph Gateway["Gateway Layer"]
+        GW["CendiaGateway™<br/>AI Governance Proxy"]
+        PII["PII Detection"]
+        RL["Rate Limiter"]
+        AUTH["JWT Auth + MFA"]
+    end
+
+    subgraph Core["Core Services"]
+        COUNCIL["AI Council<br/>14 Agents"]
+        DELIB["Deliberation<br/>Engine"]
+        DEC["Decision<br/>Service"]
+        SYNTH["Synthesis<br/>Engine"]
+    end
+
+    subgraph Intel["Decision Intelligence"]
+        CHRONO["CendiaChronos™"]
+        PREMORT["PreMortem™"]
+        GHOST["Ghost Board™"]
+        CASCADE["CendiaCascade™"]
+    end
+
+    subgraph Security["Security Layer"]
+        CE["CredentialEvidence™"]
+        HSM["HSM Adapter"]
+        KMS["Key Management"]
+        PQ["Post-Quantum KMS"]
+        ZKP["Zero-Knowledge Proofs"]
+        MFA["MFA Service"]
+    end
+
+    subgraph Compliance["Compliance Layer (25 Services)"]
+        COMP["ComplianceEnforcer<br/>73+ Frameworks"]
+        SOC2["SOC 2"]
+        HIPAA["HIPAA"]
+        GDPR["GDPR"]
+        PLAT["11 Platinum Services"]
+    end
+
+    subgraph Sovereign["Sovereign Layer (24 Services)"]
+        DIODE["Data Diode"]
+        TPM["TPM Attestation"]
+        MESH["Federated Mesh"]
+        QRA["QR Air-Gap"]
+        SOVARCH["11 Architectural Patterns"]
+    end
+
+    subgraph Evidence["Evidence & Audit"]
+        VAULT["Evidence Vault"]
+        RECEIPT["Regulator's Receipt™"]
+        LEDGER["Immutable Ledger"]
+    end
+
+    subgraph DCII["DCII Infrastructure"]
+        IISS["IISS Score"]
+        MEDIA["Media Auth"]
+        JURIS["Jurisdiction"]
+        TSA["Timestamp Authority"]
+    end
+
+    subgraph Data["Data Layer"]
+        PG["PostgreSQL"]
+        REDIS["Redis Cluster"]
+        NEO["Neo4j Graph"]
+        QDRANT["Qdrant Vectors"]
+    end
+
+    subgraph AI["AI Layer"]
+        OLLAMA["Ollama Cluster<br/>8 Model Slots"]
+        EMBED["Embeddings<br/>qwen3-embedding:4b"]
+        RAG["RAG Service"]
+    end
+
+    WEB --> AUTH
+    API --> GW
+    GW --> PII --> COUNCIL
+    AUTH --> MFA
+    COUNCIL --> DELIB
+    DELIB --> SYNTH
+    SYNTH --> DEC
+    DEC --> VAULT
+    VAULT --> RECEIPT
+    CE --> LEDGER
+    HSM --> CE
+    KMS --> HSM
+    COMP --> SOC2
+    COMP --> PLAT
+    SOVEREIGN --> DIODE
+    COUNCIL --> OLLAMA
+    DELIB --> REDIS
+    DEC --> PG
+    RAG --> QDRANT
+
+    classDef client fill:#4299e1,stroke:#2b6cb0,color:#fff
+    classDef gw fill:#38b2ac,stroke:#285e61,color:#fff
+    classDef core fill:#ed8936,stroke:#c05621,color:#fff
+    classDef sec fill:#e53e3e,stroke:#9b2c2c,color:#fff
+    classDef comp fill:#38a169,stroke:#276749,color:#fff
+    classDef sov fill:#805ad5,stroke:#553c9a,color:#fff
+    classDef data fill:#4a5568,stroke:#2d3748,color:#fff
+    classDef ai fill:#d69e2e,stroke:#975a16,color:#fff
+
+    class WEB,API,WS client
+    class GW,PII,RL,AUTH gw
+    class COUNCIL,DELIB,DEC,SYNTH core
+    class CE,HSM,KMS,PQ,ZKP,MFA sec
+    class COMP,SOC2,HIPAA,GDPR,PLAT comp
+    class DIODE,TPM,MESH,QRA,SOVARCH sov
+    class PG,REDIS,NEO,QDRANT data
+    class OLLAMA,EMBED,RAG ai
+```
+
+### AI Model Routing Architecture
+
+```mermaid
+graph LR
+    subgraph Slots["8 Model Slots"]
+        LARGE["large<br/>llama3.3:70b"]
+        FLAG["flagship<br/>qwen3:32b"]
+        REASON["reasoning<br/>deepseek-r1:32b"]
+        CODER["coder<br/>qwen3-coder:30b"]
+        FAST["fast<br/>llama3.2:3b"]
+        VISION["vision<br/>qwen3-vl:30b"]
+        TRANS["translator<br/>qwen2.5:32b"]
+        EMBD["embed<br/>qwen3-embedding:4b"]
+    end
+
+    subgraph Agents["Agent Routing"]
+        CHIEF["Chief/CRO/CMIO"]
+        CFO["CFO/CISO/Risk/CLO"]
+        CDO["CDO/CTO/CIO"]
+        COD["COD (Fast)"]
+    end
+
+    subgraph Router["Query Router"]
+        QR["QueryRouter<br/>Classification"]
+        MS["AIModelSelector<br/>Tier Gating"]
+    end
+
+    CHIEF --> LARGE
+    CFO --> REASON
+    CDO --> CODER
+    COD --> FAST
+    QR --> MS
+    MS --> Slots
+
+    classDef slot fill:#d69e2e,stroke:#975a16,color:#fff
+    classDef agent fill:#4299e1,stroke:#2b6cb0,color:#fff
+    classDef router fill:#ed8936,stroke:#c05621,color:#fff
+    class LARGE,FLAG,REASON,CODER,FAST,VISION,TRANS,EMBD slot
+    class CHIEF,CFO,CDO,COD agent
+    class QR,MS router
+```
+
+### Credential Evidence Flow
+
+```mermaid
+sequenceDiagram
+    participant Gen as Credential Generator
+    participant CE as CredentialEvidenceService
+    participant FP as SHA-256 Fingerprint
+    participant ENT as Entropy Analyzer
+    participant POL as Policy Engine
+    participant ENV as Environment Capture
+    participant HC as Hash Chain
+    participant SIG as HMAC Signer
+    participant DB as Persistence
+
+    Gen->>CE: recordEvidence(credentialValue, type, userId)
+    CE->>FP: computeFingerprint(value)
+    FP-->>CE: 64-char hex hash
+    CE->>ENT: measureEntropy(value)
+    ENT-->>CE: Shannon bits + source
+    CE->>POL: getPolicy(type)
+    POL-->>CE: Frozen policy snapshot
+    CE->>ENV: captureEnvironment()
+    ENV-->>CE: Node, OpenSSL, FIPS, hostname, PID
+    CE->>HC: linkToPrevious(lastHash)
+    HC-->>CE: previousEvidenceHash
+    CE->>SIG: sign(record)
+    SIG-->>CE: HMAC-SHA256 signature
+    CE->>DB: persistServiceRecord(evidence)
+    CE-->>Gen: CredentialEvidenceRecord
+```
+
+### Compliance Framework Coverage
+
+```mermaid
+graph TB
+    subgraph Frameworks["73+ Compliance Frameworks"]
+        subgraph US["United States"]
+            SOC2["SOC 2<br/>CC1-CC9"]
+            HIPAA2["HIPAA<br/>HITECH"]
+            FEDR["FedRAMP<br/>FISMA"]
+            CCPA["CCPA/CPRA"]
+            SOX["SOX"]
+            CMMC["CMMC"]
+            ITAR["ITAR/EAR"]
+            PCI["PCI-DSS"]
+            FDA["FDA 21 CFR"]
+        end
+
+        subgraph EU["European Union"]
+            GDPR2["GDPR"]
+            EUAI["EU AI Act"]
+            DMA["DMA"]
+            DSA["DSA"]
+            NIS2["NIS2"]
+            DORA2["DORA"]
+            CSRD["CSRD"]
+        end
+
+        subgraph INTL["International"]
+            ISO27["ISO 27001/27017/27018"]
+            LGPD["LGPD (Brazil)"]
+            PIPL["PIPL (China)"]
+            PIPA["PIPA (Korea)"]
+            PDPA["PDPA (Singapore)"]
+            APPI["APPI (Japan)"]
+        end
+    end
+
+    subgraph Services["25 Compliance Services"]
+        CORE["Core Compliance"]
+        PLAT2["8 Platinum"]
+        EXT["11 Extended"]
+        MON["3 Monitoring"]
+    end
+
+    CORE --> US
+    PLAT2 --> EU
+    EXT --> INTL
+    MON --> Frameworks
+```
+
+### Sovereign Architecture — Air-Gap Deployment
+
+```mermaid
+graph TB
+    subgraph External["External Network"]
+        SRC["Data Source"]
+    end
+
+    subgraph AirGap["Air Gap Boundary"]
+        DD["Data Diode<br/>Unidirectional"]
+        QR2["QR Bridge<br/>Animated Sequence"]
+        SCAN["ClamAV<br/>Antivirus"]
+    end
+
+    subgraph Sovereign2["Sovereign Enclave"]
+        CORE2["Datacendia Core"]
+        OLLAMA2["Ollama (Local)"]
+        PG2["PostgreSQL"]
+        RLHF["Local RLHF"]
+        TPM2["TPM Attestation"]
+        CANARY["Canary Tripwires"]
+        REPLAY["Deterministic Replay"]
+        TIMELOCK["Time-Lock Crypto"]
+        MESH2["Federated Mesh"]
+        PORT["Portable Instance"]
+        LICENSE["Offline License"]
+    end
+
+    SRC -->|one-way| DD
+    SRC -->|QR codes| QR2
+    DD --> SCAN --> CORE2
+    QR2 --> CORE2
+    CORE2 --> OLLAMA2
+    CORE2 --> PG2
+    CORE2 --> RLHF
+    TPM2 --> CORE2
+    CANARY --> CORE2
+    REPLAY --> CORE2
+    MESH2 -->|sneakernet| CORE2
+
+    classDef ext fill:#e53e3e,stroke:#9b2c2c,color:#fff
+    classDef gap fill:#d69e2e,stroke:#975a16,color:#fff
+    classDef sov2 fill:#805ad5,stroke:#553c9a,color:#fff
+    class SRC ext
+    class DD,QR2,SCAN gap
+    class CORE2,OLLAMA2,PG2,RLHF,TPM2,CANARY,REPLAY,TIMELOCK,MESH2,PORT,LICENSE sov2
+```
+
+### Evidence & Audit Pipeline
+
+```mermaid
+graph LR
+    subgraph Generation["Credential Generation"]
+        AT["Access Token"]
+        RT["Refresh Token"]
+        MFA2["MFA Secret"]
+        BC["Backup Codes"]
+        HSM2["HSM Key"]
+        EVT["Email Verification"]
+        PRT["Password Reset"]
+    end
+
+    subgraph Evidence2["Evidence Layer"]
+        CE2["CredentialEvidence™<br/>15 Credential Types"]
+        IAL["Immutable Audit Ledger"]
+        MF["Merkle Forest"]
+    end
+
+    subgraph Compliance2["Compliance Proof"]
+        EV2["Evidence Vault"]
+        RR["Regulator's Receipt™"]
+        EXP["Audit Export"]
+        TSA2["RFC 3161 Timestamp"]
+    end
+
+    AT --> CE2
+    RT --> CE2
+    MFA2 --> CE2
+    BC --> CE2
+    HSM2 --> CE2
+    EVT --> CE2
+    PRT --> CE2
+
+    CE2 --> IAL
+    IAL --> MF
+    MF --> EV2
+    EV2 --> RR
+    EV2 --> EXP
+    EXP --> TSA2
+
+    classDef gen fill:#4299e1,stroke:#2b6cb0,color:#fff
+    classDef ev fill:#9f7aea,stroke:#6b46c1,color:#fff
+    classDef comp2 fill:#38a169,stroke:#276749,color:#fff
+    class AT,RT,MFA2,BC,HSM2,EVT,PRT gen
+    class CE2,IAL,MF ev
+    class EV2,RR,EXP,TSA2 comp2
+```
+
+### Gateway Data Flow
+
+```mermaid
+graph LR
+    subgraph Input["Incoming Request"]
+        REQ["API Request<br/>OpenAI/Anthropic format"]
+    end
+
+    subgraph Gateway2["CendiaGateway™"]
+        RL2["Rate Limiter"]
+        PII2["PII Detector<br/>10 PII types"]
+        POL2["Policy Engine<br/>block/redact/warn/allow"]
+        MR["Model Router<br/>4 providers"]
+        SIGN["DCII Signing"]
+        AUDIT["Audit Ledger"]
+        SIEM2["SIEM Forward"]
+    end
+
+    subgraph Providers["AI Providers"]
+        OL["Ollama (Local)"]
+        OAI["OpenAI"]
+        ANT["Anthropic"]
+        GGL["Google"]
+    end
+
+    subgraph Output["Response"]
+        RES["Filtered Response<br/>+ Governance Receipt"]
+    end
+
+    REQ --> RL2 --> PII2 --> POL2
+    POL2 --> MR
+    MR --> OL
+    MR --> OAI
+    MR --> ANT
+    MR --> GGL
+    POL2 --> SIGN --> AUDIT
+    AUDIT --> SIEM2
+    MR --> RES
+
+    classDef in fill:#4299e1,stroke:#2b6cb0,color:#fff
+    classDef gw2 fill:#38b2ac,stroke:#285e61,color:#fff
+    classDef prov fill:#d69e2e,stroke:#975a16,color:#fff
+    classDef out fill:#38a169,stroke:#276749,color:#fff
+    class REQ in
+    class RL2,PII2,POL2,MR,SIGN,AUDIT,SIEM2 gw2
+    class OL,OAI,ANT,GGL prov
+    class RES out
+```
+
+### Domain Router Architecture
+
+```mermaid
+graph TB
+    subgraph Router["API v1 Router"]
+        AUTH2["auth.domain"]
+        COUNCIL2["council.domain"]
+        DATA["data.domain"]
+        DEMO["demo.domain"]
+        ENT["enterprise.domain"]
+        GOV2["governance.domain"]
+        INTEL["intelligence.domain"]
+        LEGAL2["legal.domain"]
+        PLAT3["platform.domain"]
+        SEC["security.domain"]
+        SIM["simulation.domain"]
+        SOV2["sovereign.domain"]
+        VERT["verticals.domain"]
+        WORK["workflows.domain"]
+    end
+
+    AUTH2 --> A1["auth, sso"]
+    COUNCIL2 --> C1["council, deliberations, decisions"]
+    SEC --> S1["mfa, hsm, kms, zkp, post-quantum,<br/>credential-evidence, sentry,<br/>adversarial-redteam, redteam,<br/>security-services"]
+    SOV2 --> SV1["sovereign, sovereign-arch,<br/>sovereign-security, sovereign-organs"]
+    GOV2 --> G1["compliance, compliance-monitor,<br/>compliance-platinum, constitutional-court,<br/>cross-jurisdiction, regulatory-sandbox"]
+    ENT --> E1["enterprise, apotheosis, dissent,<br/>cascade, echo, gnosis, collapse"]
+    VERT --> V1["verticals, sports, defense,<br/>vertical-agents, vertical-config"]
+    PLAT3 --> P1["health, metrics, settings,<br/>notifications, uploads, scheduler"]
+```
+
+---
+
 ## Next Steps
 
 For detailed implementation guides, see:
@@ -479,3 +907,7 @@ For detailed implementation guides, see:
 - [docker-compose.smb.yml](../deploy/docker-compose.smb.yml) - SMB Docker bundle
 - [terraform/aws/main.tf](../infrastructure/terraform/aws/main.tf) - AWS Terraform
 - [helm/datacendia/values.yaml](../helm/datacendia/values.yaml) - Kubernetes Helm chart
+
+---
+
+*Updated April 15, 2026 — Audit-verified against codebase*

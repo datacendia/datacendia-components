@@ -1,17 +1,21 @@
 # DATACENDIA API DOCUMENTATION
-**Version:** 4.6  
+**Version:** 5.0  
 **Base URL:** `http://localhost:3001/api/v1`  
-**Last Updated:** February 7, 2026
+**Last Updated:** April 15, 2026
 
 ---
 
 ## WHAT THIS IS
 
 This document explains how to use the Datacendia API. The API lets you:
-- Create AI-powered deliberations
-- Manage decisions and workflows
-- Access enterprise connectors
-- Monitor platform health
+- Create AI-powered deliberations with the AI Council
+- Manage decisions, workflows, and governance
+- Access enterprise connectors and integrations
+- Monitor platform health and security
+- Enforce compliance across 73+ frameworks
+- Manage credential evidence and cryptographic proofs
+- Operate sovereign/air-gapped deployments
+- Generate forensic-grade audit packages
 
 **Authentication:** Most endpoints require a JWT token obtained from `/auth/login`
 
@@ -305,9 +309,150 @@ Authorization: Bearer eyJhbGc...
 | DELETE | `/sovereign/vault/delete` | Delete vault file | Yes |
 | GET | `/sovereign/vault/health` | Vault health check | No |
 
+### Credential Evidence (`/credential-evidence`) — NEW Apr 2026
+
+Proof-at-creation records for every generated credential. SOC 2, HIPAA, NIST compliance.
+
+```mermaid
+graph LR
+    GEN["Credential<br/>Generation"] --> CE["CredentialEvidence<br/>Service"]
+    CE --> FP["SHA-256<br/>Fingerprint"]
+    CE --> ENT["Entropy<br/>Measurement"]
+    CE --> POL["Policy<br/>Snapshot"]
+    CE --> ENV["Environment<br/>Context"]
+    CE --> HC["Hash Chain<br/>Linkage"]
+    CE --> SIG["HMAC<br/>Signature"]
+```
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/credential-evidence/health` | Service health | No |
+| GET | `/credential-evidence/policies` | List all 15 credential type policies | No |
+| GET | `/credential-evidence/policies/:type` | Get policy for specific type | No |
+| GET | `/credential-evidence/records` | Query evidence records (filter by type, userId) | Yes |
+| GET | `/credential-evidence/verify-chain` | Verify hash chain integrity | Yes |
+| GET | `/credential-evidence/stats` | Compliance dashboard stats | Yes |
+| GET | `/credential-evidence/export` | Full audit package for external auditors | Yes |
+
+### Multi-Factor Authentication (`/mfa`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/mfa/setup` | Initialize MFA — generate TOTP secret + QR code | Yes |
+| POST | `/mfa/enable` | Verify code and enable MFA | Yes |
+| POST | `/mfa/verify` | Verify MFA code during login | No (temp token) |
+| POST | `/mfa/verify-backup` | Verify using backup code | No (temp token) |
+| DELETE | `/mfa/disable` | Disable MFA | Yes |
+| POST | `/mfa/regenerate-backup` | Generate new backup codes | Yes |
+
+### Hardware Security Module (`/hsm`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/hsm/health` | Service health | No |
+| GET | `/hsm/status` | HSM adapter status | No |
+| POST | `/hsm/initialize` | Initialize HSM adapter | Yes |
+| POST | `/hsm/keys` | Generate key (RSA-2048/4096, AES-256, EC-P256/P384) | Yes |
+| GET | `/hsm/keys` | List all keys | Yes |
+| GET | `/hsm/keys/:keyId` | Get key details | Yes |
+| POST | `/hsm/sign` | Sign data with HSM key | Yes |
+| POST | `/hsm/verify` | Verify signature | Yes |
+| POST | `/hsm/wrap` | Wrap key with wrapping key | Yes |
+| POST | `/hsm/random` | Generate random bytes | Yes |
+
+### CendiaApotheosis™ — Self-Improvement (`/apotheosis`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/apotheosis/status` | Service status | No |
+| GET | `/apotheosis/score` | Organization Apotheosis Score | Yes |
+| GET | `/apotheosis/latest-run` | Latest run results | Yes |
+| GET | `/apotheosis/run-history` | Historical runs | Yes |
+| GET | `/apotheosis/escalations` | Pending escalations | Yes |
+| POST | `/apotheosis/escalations/:id/respond` | Respond to escalation | Yes |
+| GET | `/apotheosis/banned-patterns` | Banned decision patterns | Yes |
+| GET | `/apotheosis/upskill-assignments` | Upskill assignments | Yes |
+| GET | `/apotheosis/config` | Configuration | Yes |
+| PUT | `/apotheosis/config` | Update configuration | Yes |
+| POST | `/apotheosis/trigger-run` | Trigger manual run | Yes |
+
+### CendiaDissent™ — Protected Dissent (`/dissent`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/dissent/health` | Service health | No |
+| POST | `/dissent` | File a new dissent | Yes |
+| POST | `/dissent/file` | File dissent (alternate) | Yes |
+| GET | `/dissent` | List all dissents | Yes |
+| GET | `/dissent/active` | Active dissents requiring response | Yes |
+| GET | `/dissent/:id` | Get dissent by ID | Yes |
+| POST | `/dissent/:id/respond` | Respond to dissent | Yes |
+| GET | `/dissent/profile/:userId` | Dissenter accuracy profile | Yes |
+| GET | `/dissent/metrics/organization` | Organization-wide metrics | Yes |
+| GET | `/dissent/retaliation-flags` | Get retaliation flags | Yes |
+| POST | `/dissent/:id/report-retaliation` | Report retaliation | Yes |
+| POST | `/dissent/:id/verify-outcome` | Verify dissent outcome | Yes |
+| GET | `/dissent/check-block/:decisionId` | Check blocking dissents | Yes |
+| GET | `/dissent/config` | Configuration | Yes |
+| PUT | `/dissent/config` | Update configuration | Yes |
+
+### Wedge Products (`/wedge`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/wedge/shadow-scan` | Run Shadow AI scan | Yes |
+| POST | `/wedge/shadow-scan/ingest` | Ingest scan event | Yes |
+| GET | `/wedge/shadow-scan/:id` | Get scan results | Yes |
+| POST | `/wedge/governance-report` | Generate governance report | Yes |
+| GET | `/wedge/governance-report/:id` | Get report | Yes |
+| POST | `/wedge/incident-forensics` | Submit AI incident | Yes |
+| GET | `/wedge/incident-forensics/:id` | Get forensics report | Yes |
+
+### Platinum Compliance (`/compliance-platinum`)
+
+11 extended compliance services accessible through a unified route. Each service exposes:
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/compliance-platinum/health` | Service health | No |
+| GET | `/compliance-platinum/services` | List available compliance services | Yes |
+| GET | `/compliance-platinum/:service/frameworks` | Get frameworks for service | Yes |
+| POST | `/compliance-platinum/:service/assess` | Run compliance assessment | Yes |
+| GET | `/compliance-platinum/:service/status/:orgId` | Get compliance status | Yes |
+| POST | `/compliance-platinum/:service/remediation` | Generate remediation plan | Yes |
+
+Services: `ai-specific`, `international-privacy`, `financial`, `healthcare-extended`, `government-defense`, `anti-corruption`, `esg`, `eu-digital`, `communications`, `insurance`, `standards`
+
+### Sovereign Security (`/sovereign-security`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/sovereign-security/health` | Service health | No |
+| POST | `/sovereign-security/classify` | Classify data sensitivity | Yes |
+| POST | `/sovereign-security/encrypt` | Encrypt data with sovereign keys | Yes |
+| POST | `/sovereign-security/decrypt` | Decrypt sovereign data | Yes |
+| GET | `/sovereign-security/keys` | List sovereign keys | Yes |
+| POST | `/sovereign-security/keys/rotate` | Rotate sovereign keys | Yes |
+| GET | `/sovereign-security/audit-log` | Sovereign audit log | Yes |
+
+### Key Management Service (`/kms`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/kms/health` | Service health | No |
+| POST | `/kms/keys` | Create encryption key | Yes |
+| GET | `/kms/keys` | List keys | Yes |
+| GET | `/kms/keys/:id` | Get key details | Yes |
+| POST | `/kms/keys/:id/rotate` | Rotate key | Yes |
+| DELETE | `/kms/keys/:id` | Delete key | Yes |
+| POST | `/kms/encrypt` | Encrypt data | Yes |
+| POST | `/kms/decrypt` | Decrypt data | Yes |
+| POST | `/kms/rewrap` | Re-wrap data key with new MEK | Yes |
+| GET | `/kms/audit-log` | Key usage audit log | Yes |
+
 ---
 
-## CACHING (Feb 7, 2026)
+## CACHING
 
 All GET requests to `/api/v1/*` are cached via Redis with automatic invalidation:
 
@@ -461,4 +606,5 @@ For complete API documentation with all endpoints, request/response schemas, and
 
 ---
 
-*This is a simplified guide. For full technical details, see the Swagger documentation.*
+*This is a simplified guide covering the most commonly used endpoints. For full technical details including all 130+ route modules, see the Swagger documentation.*  
+*Updated April 15, 2026 — Audit-verified against codebase*

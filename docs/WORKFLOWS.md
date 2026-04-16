@@ -4,6 +4,8 @@
 
 ---
 
+**Last Updated:** April 15, 2026 — Audit-verified against codebase
+
 # Table of Contents
 
 1. [User Onboarding](#1-user-onboarding-workflows)
@@ -14,6 +16,12 @@
 6. [Agent Management](#6-agent-management-workflows)
 7. [Decision Approval](#7-decision-approval-workflows)
 8. [Reporting & Analytics](#8-reporting--analytics-workflows)
+9. [Credential Evidence](#9-credential-evidence-workflows) — NEW
+10. [CendiaApotheosis™](#10-cendiaApotheosis-self-improvement-workflows) — NEW
+11. [CendiaDissent™](#11-cendiadissent-protected-dissent-workflows) — NEW
+12. [CendiaGateway™](#12-cendiagateway-ai-governance-workflows) — NEW
+13. [Sovereign Deployment](#13-sovereign-deployment-workflows) — NEW
+14. [Compliance Monitoring](#14-compliance-workflows) — NEW
 
 See also: [WORKFLOWS_EXTENDED.md](./WORKFLOWS_EXTENDED.md) for additional workflows.
 
@@ -450,6 +458,270 @@ ROI CALCULATION
 
 ---
 
+# 9. Credential Evidence Workflows
+
+## 9.1 Credential Generation with Proof-at-Creation
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Auth as Auth/MFA/HSM
+    participant CE as CredentialEvidenceService
+    participant DB as Persistence
+
+    User->>Auth: Request credential (login, MFA setup, etc.)
+    Auth->>Auth: Generate credential (token, secret, key)
+    Auth->>CE: recordEvidence(value, type, userId)
+    CE->>CE: SHA-256 fingerprint
+    CE->>CE: Measure entropy (Shannon bits)
+    CE->>CE: Snapshot policy (frozen at generation time)
+    CE->>CE: Capture environment (Node, OpenSSL, FIPS, hostname)
+    CE->>CE: Link to previous hash (chain integrity)
+    CE->>CE: HMAC-SHA256 signature
+    CE->>DB: Persist immutable evidence record
+    CE-->>Auth: Evidence record ID
+    Auth-->>User: Credential + proof of generation
+```
+
+## 9.2 Compliance Audit Export
+
+```
+AUDITOR REQUEST → AUTHENTICATE (admin role required)
+     │
+     ▼
+EXPORT AUDIT PACKAGE
+├── All evidence records (filtered by date range)
+├── Hash chain verification result
+├── Policy snapshots at each generation time
+├── Environment context for each credential
+├── Chain integrity proof (predecessor linkage)
+└── HMAC signatures for tamper detection
+     │
+     ▼
+AUDITOR RECEIVES: JSON bundle with Merkle-style proof
+```
+
+---
+
+# 10. CendiaApotheosis™ Self-Improvement Workflows
+
+## 10.1 Nightly Red-Team Cycle
+
+```mermaid
+graph TD
+    CRON["Nightly Trigger<br/>(or manual)"] --> SCAN["Scan Recent<br/>Decisions"]
+    SCAN --> RT["Red-Team<br/>Attack Vectors"]
+    RT --> SCORE["Compute<br/>Apotheosis Score"]
+    SCORE --> ESC{"Escalation<br/>Needed?"}
+    ESC -->|Yes| HUMAN["Human Review<br/>Required"]
+    ESC -->|No| PATCH["Auto-Patch<br/>+ Upskill"]
+    HUMAN --> RESPOND["Admin Responds:<br/>approve/reject/defer"]
+    RESPOND --> PATCH
+    PATCH --> BAN["Ban Patterns<br/>(if recurring)"]
+    BAN --> LOG["Log Run<br/>History"]
+```
+
+## 10.2 Escalation Response
+
+```
+ESCALATION CREATED (severity > threshold)
+     │
+     ▼
+NOTIFICATION → Admin dashboard + email
+     │
+     ▼
+ADMIN REVIEWS:
+├── View attack vector details
+├── View affected decisions
+├── View proposed remediation
+└── Decide: APPROVE / REJECT / DEFER
+     │
+     ▼
+IF APPROVE → Auto-apply patch + update banned patterns
+IF REJECT  → Log reasoning, no action
+IF DEFER   → Re-queue for next cycle
+```
+
+---
+
+# 11. CendiaDissent™ Protected Dissent Workflows
+
+## 11.1 Filing a Dissent
+
+```mermaid
+graph TD
+    AGENT["Agent or User"] --> FILE["File Dissent<br/>(decision ID, reasoning, severity)"]
+    FILE --> VALIDATE["Validate:<br/>decision exists, not duplicate"]
+    VALIDATE --> RECORD["Record Dissent<br/>(immutable)"]
+    RECORD --> BLOCK{"Severity =<br/>blocking?"}
+    BLOCK -->|Yes| HALT["Halt Decision<br/>Execution"]
+    BLOCK -->|No| NOTIFY["Notify<br/>Stakeholders"]
+    HALT --> REVIEW["Mandatory<br/>Review"]
+    NOTIFY --> REVIEW
+    REVIEW --> RESPOND["Respond:<br/>accept/override/dismiss"]
+    RESPOND --> VERIFY["Outcome<br/>Verification<br/>(30/60/90 day)"]
+    VERIFY --> ACCURACY["Update Dissenter<br/>Accuracy Profile"]
+```
+
+## 11.2 Retaliation Detection
+
+```
+DISSENT FILED → BASELINE CAPTURED (dissenter's metrics, access, assignments)
+     │
+     ▼
+MONITORING (continuous for 90 days)
+├── Access pattern changes
+├── Assignment changes
+├── Performance review anomalies
+└── Communication exclusion patterns
+     │
+     ▼
+FLAG DETECTED? → RETALIATION ALERT
+├── Alert compliance officer
+├── Log evidence
+├── Freeze affected actions
+└── Mandatory investigation (SLA: 48 hours)
+```
+
+---
+
+# 12. CendiaGateway™ AI Governance Workflows
+
+## 12.1 Request Processing Pipeline
+
+```mermaid
+graph LR
+    REQ["API Request"] --> RL["Rate<br/>Limiter"]
+    RL --> PII["PII<br/>Detection"]
+    PII --> POL["Policy<br/>Engine"]
+    POL -->|Block| DENY["403 + Audit Log"]
+    POL -->|Redact| REDACT["Strip PII<br/>→ Forward"]
+    POL -->|Warn| WARN["Forward +<br/>Compliance Alert"]
+    POL -->|Allow| FWD["Forward to<br/>Model Router"]
+    REDACT --> FWD
+    FWD --> OLLAMA["Ollama /<br/>OpenAI / etc."]
+    OLLAMA --> SIGN["DCII Sign<br/>Response"]
+    SIGN --> AUDIT["Audit<br/>Ledger"]
+    AUDIT --> SIEM["SIEM<br/>Forward"]
+    SIGN --> RES["Response +<br/>Governance Receipt"]
+```
+
+---
+
+# 13. Sovereign Deployment Workflows
+
+## 13.1 Air-Gap Data Ingest (Data Diode)
+
+```
+EXTERNAL DATA SOURCE
+     │
+     ▼ (one-way only)
+DATA DIODE
+├── Accept formats: GRIB, CSV, JSON, XML, binary
+├── Quarantine all incoming data
+├── ClamAV antivirus scan
+├── Signature verification (if signed)
+└── Hash integrity check
+     │
+     ▼
+ADMITTED TO SOVEREIGN ENCLAVE
+├── Schema validation
+├── Insert into operational database
+└── Audit log entry (source, timestamp, hash)
+```
+
+## 13.2 QR Air-Gap Bridge Transfer
+
+```
+SENDER (connected network)
+     │
+     ▼
+ENCODE DATA → Fragment into QR sequences
+├── Max payload per frame: configurable
+├── Reed-Solomon error correction
+├── Sequence numbering + checksums
+└── Display animated QR sequence
+     │
+     ▼ (camera / optical gap)
+RECEIVER (air-gapped network)
+├── Decode QR frames
+├── Reassemble payload
+├── Verify checksums
+└── Import into sovereign enclave
+```
+
+## 13.3 Federated Mesh Learning
+
+```
+SITE A                    SITE B                    SITE C
+  │                         │                         │
+  ▼                         ▼                         ▼
+Local Training          Local Training          Local Training
+  │                         │                         │
+  ▼                         ▼                         ▼
+Differential Privacy    Differential Privacy    Differential Privacy
+Noise Injection         Noise Injection         Noise Injection
+  │                         │                         │
+  └────────── Sneakernet (USB/Tape) ──────────────────┘
+                            │
+                            ▼
+                    Aggregate Gradients
+                    (no raw data shared)
+                            │
+                            ▼
+                    Updated Global Model
+                    Distributed back to sites
+```
+
+---
+
+# 14. Compliance Workflows
+
+## 14.1 Continuous Compliance Monitoring
+
+```mermaid
+graph TD
+    SCHED["Scheduler<br/>(hourly/daily)"] --> ASSESS["Run Assessment<br/>Against Framework"]
+    ASSESS --> CHECK["Check Controls<br/>Against Current State"]
+    CHECK --> DRIFT{"Drift<br/>Detected?"}
+    DRIFT -->|No| LOG["Log Clean<br/>Assessment"]
+    DRIFT -->|Yes| ALERT["Compliance<br/>Alert"]
+    ALERT --> REMED["Generate<br/>Remediation Plan"]
+    REMED --> ASSIGN["Assign to<br/>Responsible Party"]
+    ASSIGN --> FIX["Implement<br/>Fix"]
+    FIX --> VERIFY["Verify<br/>Remediation"]
+    VERIFY --> LOG
+```
+
+## 14.2 Regulator's Receipt™ Generation
+
+```
+DECISION FINALIZED
+     │
+     ▼
+EVIDENCE COLLECTION
+├── Decision record (full deliberation)
+├── Agent analyses (all participants)
+├── Compliance mappings (applicable frameworks)
+├── Risk assessment scores
+└── Approval chain (who approved, when)
+     │
+     ▼
+RECEIPT GENERATION
+├── Merkle tree of all evidence
+├── RFC 3161 timestamp
+├── Digital signature (HSM-backed)
+└── Jurisdiction-specific formatting
+     │
+     ▼
+RECEIPT DELIVERED
+├── Stored in Evidence Vault (immutable)
+├── Available for regulator download
+└── Cross-referenced in audit ledger
+```
+
+---
+
 ## Quick Reference: Workflow Triggers
 
 | Workflow | Trigger | SLA |
@@ -466,6 +738,16 @@ ROI CALCULATION
 | Custom Agent | Business need | 1 hour |
 | Approval Chain | Decision submitted | 4-72 hrs |
 | Veto | Executive action | Immediate |
+| Credential Evidence | Credential generated | Immediate (sync) |
+| Apotheosis Red-Team | Nightly cron / manual | 24 hrs |
+| Apotheosis Escalation | Severity > threshold | 4 hrs |
+| Dissent Filing | Agent/user action | Immediate |
+| Retaliation Detection | Continuous monitoring | 48 hrs investigation |
+| Gateway PII Scan | Every API request | Real-time |
+| Data Diode Ingest | External data push | 5 min scan |
+| QR Air-Gap Transfer | Manual initiation | Per-session |
+| Compliance Monitoring | Hourly/daily schedule | Per framework |
+| Regulator's Receipt | Decision finalized | Immediate |
 
 ---
 
@@ -480,3 +762,7 @@ See [WORKFLOWS_EXTENDED.md](./WORKFLOWS_EXTENDED.md) for additional workflows in
 - Contract Review
 - Board Meeting Prep
 - Quarterly Business Review
+
+---
+
+*Updated April 15, 2026 — Audit-verified against codebase*

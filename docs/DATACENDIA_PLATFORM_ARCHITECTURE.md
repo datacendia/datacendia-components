@@ -1,9 +1,10 @@
 # DATACENDIA PLATFORM ARCHITECTURE
 ## Complete Enterprise Platform Inventory
 
-**Version:** Enterprise Platinum Sovereign  
+**Version:** Enterprise Platinum Sovereign v6.0  
 **Classification:** Investor & Enterprise Ready  
-**Generated:** December 2, 2025
+**Generated:** April 15, 2026  
+**Last Audit:** April 15, 2026 — full codebase inventory reconciliation
 
 ---
 
@@ -13,55 +14,87 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Services** | 72+ |
-| **Platform Layers** | 6 |
-| **AI Agents** | 30+ |
+| **Total Backend Services** | 160+ |
+| **Platform Layers** | 8 |
+| **AI Agents (Core)** | 14 |
+| **AI Agents (Premium)** | 16+ |
 | **Pillars** | 8 |
-| **Internal Services** | 12 |
-| **Sovereign Add-ons** | 8 |
-| **Industry Packs** | 6 |
-| **Compliance Frameworks** | 5 |
+| **Security Services** | 10 + 11 crypto primitives |
+| **Compliance Services** | 25 (73+ frameworks) |
+| **Sovereign Services** | 24 |
+| **Enterprise Ops Services** | 18 |
+| **Evidence & Audit** | 7 |
+| **DCII Services** | 7 |
+| **Gateway Services** | 12 |
+| **Legal Services** | 8 |
+| **Wedge Products** | 3 |
+| **Industry Verticals** | 26 |
+| **API Domain Routers** | 14 |
+| **Supported Languages** | 100+ (20 UI localizations) |
 
 ---
 
 # PLATFORM ARCHITECTURE OVERVIEW
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        DATACENDIA SOVEREIGN CLOUD                            │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 6: SOVEREIGN INTELLIGENCE ADD-ONS                                    │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐          │
-│  │Continuum │ │ Crucible │ │ Founder  │ │ Courier  │ │ Council  │          │
-│  │   ™      │ │    ™     │ │  Node    │ │    ™     │ │    ™     │          │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 5: ENTERPRISE & DECISION INTELLIGENCE SUITES                         │
-│  ┌─────────────────────────────────┐ ┌─────────────────────────────────┐   │
-│  │     ENTERPRISE SUITE (14)       │ │  DECISION INTELLIGENCE (9)      │   │
-│  │  Sovereign, Mesh, Govern, etc.  │ │  Chronos, DNA, PreMortem, etc.  │   │
-│  └─────────────────────────────────┘ └─────────────────────────────────┘   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 4: AI COUNCIL (THE PANTHEON)                                         │
-│  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐          │
-│  │Chief│ │ CFO │ │ COO │ │CISO │ │ CMO │ │ CRO │ │ CDO │ │Risk │ + 6 more │
-│  └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 3: INTERNAL PLATFORM SERVICES                                        │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐          │
-│  │OpsGuard  │ │ Courier  │ │Continuum │ │ Arbiter  │ │ Sentinel │          │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 2: THE 8 PILLARS (DatacendiaOS Core)                                 │
-│  ┌──────┐ ┌────────┐ ┌────────┐ ┌──────┐ ┌──────┐ ┌───────┐ ┌──────┐ ┌────┐│
-│  │ Helm │ │Lineage │ │Predict │ │ Flow │ │Health│ │ Guard │ │Ethics│ │Agts││
-│  └──────┘ └────────┘ └────────┘ └──────┘ └──────┘ └───────┘ └──────┘ └────┘│
-├─────────────────────────────────────────────────────────────────────────────┤
-│  LAYER 1: DatacendiaOS CORE RUNTIME                                         │
-│  ┌──────────────────────────────────────────────────────────────────────┐  │
-│  │  Cortex API Gateway │ Agent Runtime │ Event Bus │ Auth │ Telemetry   │  │
-│  └──────────────────────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph L8["LAYER 8: SOVEREIGN DEPLOYMENT (24 Services)"]
+        L8S["Data Diode | RLHF | Shadow Council | TPM | TimeLock | QR AirGap<br/>Canary | Replay | Mesh | Portable | BlackBox | Glass | Key<br/>Legacy | Mirage | Mirror | Oracle | Vault | Witness | ClamAV"]
+    end
+
+    subgraph L7["LAYER 7: SECURITY & CRYPTOGRAPHIC (21 Services)"]
+        L7S["CredentialEvidence | HSM | MFA | KMS | Post-Quantum | ZKP<br/>Audit Ledger | SIEM | SBOM | Merkle Forest | Dual Signing<br/>Decision Escrow | Verifiable Delay | Pedersen | CendiaStamp"]
+    end
+
+    subgraph L6["LAYER 6: COMPLIANCE & EVIDENCE (32 Services)"]
+        L6S["25 Compliance Services (73+ frameworks) | Evidence Vault<br/>Regulator's Receipt | Compliance Dashboard | Signed Reports<br/>Test Evidence Ledger | Evidence Export"]
+    end
+
+    subgraph L5["LAYER 5: ENTERPRISE OPS & INTELLIGENCE (18 Services)"]
+        L5S["Nexus | Nerve | Scout | Rainmaker | Procure | Transit<br/>Factory | Habitat | Regent | Equity | Docket | Guardian<br/>Resonance | Academy | Inventum | Culture | Vertical | SSO"]
+    end
+
+    subgraph L4["LAYER 4: DCII + GATEWAY + LEGAL + WEDGE (30 Services)"]
+        L4S["DCII: IISS | MediaAuth | Jurisdiction | Timestamp | Similarity | CogBias | NLP<br/>Gateway: Proxy | PII | Router | Federation | SIEM | Shadow AI<br/>Legal: Research | Agents | Council | Govern | Veto | Bridge | Import<br/>Wedge: Shadow Scanner | Governance Report | Incident Forensics"]
+    end
+
+    subgraph L3["LAYER 3: AI COUNCIL (14 Core + 16 Premium Agents)"]
+        L3S["Chief | CFO | COO | CISO | CMO | CRO | CDO | Risk<br/>CLO | CPO | CAIO | CSO | CIO | CCO<br/>+ Audit, Healthcare, Finance, Legal, Manufacturing, Retail Packs"]
+    end
+
+    subgraph L2["LAYER 2: THE 8 PILLARS"]
+        L2S["Helm | Lineage | Predict | Flow | Health | Guard | Ethics | Agents"]
+    end
+
+    subgraph L1["LAYER 1: DatacendiaOS CORE RUNTIME"]
+        L1S["Cortex Gateway | Ollama (8 Model Slots) | Event Bus<br/>Auth + MFA | Telemetry | Redis | PostgreSQL | Neo4j | Qdrant"]
+    end
+
+    L8 --> L7
+    L7 --> L6
+    L6 --> L5
+    L5 --> L4
+    L4 --> L3
+    L3 --> L2
+    L2 --> L1
+
+    classDef sov fill:#805ad5,stroke:#553c9a,color:#fff
+    classDef sec fill:#e53e3e,stroke:#9b2c2c,color:#fff
+    classDef comp fill:#38a169,stroke:#276749,color:#fff
+    classDef ent fill:#dd6b20,stroke:#9c4221,color:#fff
+    classDef dcii fill:#319795,stroke:#234e52,color:#fff
+    classDef council fill:#4299e1,stroke:#2b6cb0,color:#fff
+    classDef pillar fill:#d69e2e,stroke:#975a16,color:#fff
+    classDef core fill:#4a5568,stroke:#2d3748,color:#fff
+
+    class L8 sov
+    class L7 sec
+    class L6 comp
+    class L5 ent
+    class L4 dcii
+    class L3 council
+    class L2 pillar
+    class L1 core
 ```
 
 ---
@@ -158,22 +191,22 @@
 
 ## 4.1 Core Council Agents (Included)
 
-| Agent | Code | Role | AI Model | Pillars |
-|-------|------|------|----------|---------|
-| **Chief Strategy Agent** | `chief` | Strategic synthesis, orchestration | llama3.3:70b | Helm, Ethics, Agents |
-| **Financial Intelligence** | `cfo` | Financial analysis, ROI, forecasting | llama3.3:70b | Helm, Predict |
-| **Operations Intelligence** | `coo` | Process efficiency, supply chain | llama3.2:3b | Flow, Health |
-| **Security & Compliance** | `ciso` | Security, compliance, threat analysis | qwq:32b | Guard, Ethics |
-| **Market Intelligence** | `cmo` | Market analysis, customer insights | llama3.3:70b | Predict, Helm |
-| **Revenue Intelligence** | `cro` | Revenue optimization, pricing | llama3.3:70b | Helm, Predict |
-| **Data Quality** | `cdo` | Data governance, lineage, quality | qwen2.5-coder:32b | Lineage, Health |
-| **Risk Assessment** | `risk` | Enterprise risk, scenario planning | qwq:32b | Guard, Predict |
-| **Legal Intelligence** | `clo` | Legal risk, contracts, regulatory | qwq:32b | Guard, Ethics |
-| **Product Strategy** | `cpo` | Product roadmap, user research | llama3.3:70b | Predict, Flow |
-| **AI Strategy** | `caio` | AI governance, ethical AI | qwq:32b | Ethics, Agents |
-| **Sustainability** | `cso` | ESG, carbon footprint | llama3.3:70b | Ethics, Helm |
-| **Investment Intelligence** | `cio` | Capital allocation, portfolio | llama3.3:70b | Predict, Helm |
-| **Communications** | `cco` | Corporate messaging, PR | llama3.2:3b | Ethics, Helm |
+| Agent | Code | Role | AI Model (Slot) | Pillars |
+|-------|------|------|-----------------|---------|
+| **Chief Strategy Agent** | `chief` | Strategic synthesis, orchestration | llama3.3:70b (`large`) | Helm, Ethics, Agents |
+| **Financial Intelligence** | `cfo` | Financial analysis, ROI, forecasting | deepseek-r1:32b (`reasoning`) | Helm, Predict |
+| **Operations Intelligence** | `coo` | Process efficiency, supply chain | llama3.2:3b (`fast`) | Flow, Health |
+| **Security & Compliance** | `ciso` | Security, compliance, threat analysis | deepseek-r1:32b (`reasoning`) | Guard, Ethics |
+| **Market Intelligence** | `cmo` | Market analysis, customer insights | qwen3:32b (`flagship`) | Predict, Helm |
+| **Revenue Intelligence** | `cro` | Revenue optimization, pricing | llama3.3:70b (`large`) | Helm, Predict |
+| **Data Quality** | `cdo` | Data governance, lineage, quality | qwen3-coder:30b (`coder`) | Lineage, Health |
+| **Risk Assessment** | `risk` | Enterprise risk, scenario planning | deepseek-r1:32b (`reasoning`) | Guard, Predict |
+| **Legal Intelligence** | `clo` | Legal risk, contracts, regulatory | deepseek-r1:32b (`reasoning`) | Guard, Ethics |
+| **Product Strategy** | `cpo` | Product roadmap, user research | qwen3:32b (`flagship`) | Predict, Flow |
+| **AI Strategy** | `caio` | AI governance, ethical AI | deepseek-r1:32b (`reasoning`) | Ethics, Agents |
+| **Sustainability** | `cso` | ESG, carbon footprint | qwen3:32b (`flagship`) | Ethics, Helm |
+| **Investment Intelligence** | `cio` | Capital allocation, portfolio | qwen3-coder:30b (`coder`) | Predict, Helm |
+| **Communications** | `cco` | Corporate messaging, PR | llama3.2:3b (`fast`) | Ethics, Helm |
 
 ## 4.2 Premium Agent Packs
 
@@ -278,29 +311,45 @@
 |-------|----------|-------|----------|-------------|
 | **Layer 1** | DatacendiaOS Runtime | 10 | ✅ All | - |
 | **Layer 2** | The 8 Pillars | 8 | ✅ All | - |
-| **Layer 3** | Internal Services | 15 | ✅ Enterprise | - |
-| **Layer 4** | AI Agents (Core) | 14 | ✅ All | - |
-| **Layer 4** | AI Agents (Premium) | 16 | - | ✅ $299-399/mo |
+| **Layer 3** | AI Council (Core) | 14 | ✅ All | - |
+| **Layer 3** | AI Council (Premium) | 16 | - | ✅ $299-399/mo |
+| **Layer 4** | DCII Services | 7 | ✅ Enterprise | - |
+| **Layer 4** | Gateway Services | 12 | ✅ All | - |
+| **Layer 4** | Legal Services | 8 | - | ✅ Enterprise |
+| **Layer 4** | Wedge Products | 3 | ✅ Partial | ✅ Enterprise |
+| **Layer 5** | Enterprise Ops | 18 | - | ✅ Enterprise |
 | **Layer 5** | Decision Intelligence | 9 | - | ✅ $79-299/mo |
 | **Layer 5** | Enterprise Suite | 14 | - | ✅ $149-499/mo |
-| **Layer 6** | Sovereign Add-ons | 8 | - | ✅ $299-1,499/mo |
+| **Layer 6** | Compliance Services | 25 | ✅ Partial | ✅ Enterprise |
+| **Layer 6** | Evidence & Audit | 7 | - | ✅ Enterprise |
+| **Layer 7** | Security Services | 10 | ✅ Partial | ✅ Enterprise |
+| **Layer 7** | Crypto Primitives | 11 | ✅ Enterprise | - |
+| **Layer 8** | Sovereign (Arch Patterns) | 11 | - | ✅ Sovereign |
+| **Layer 8** | Sovereign (Extended) | 13 | - | ✅ Sovereign |
 | **Packages** | Enterprise Sovereign | 4 | - | ✅ $2,499-14,999/mo |
 | **Packages** | Industry Sovereign | 4 | - | ✅ $3,999-Custom |
-| | **TOTAL** | **102** | **47** | **55** |
+| | **TOTAL** | **160+** | **~50** | **~110** |
 
 ---
 
 # COMPLIANCE & CERTIFICATIONS
 
-| Framework | Status | Applies To |
-|-----------|--------|------------|
-| **SOC 2 Type II** | 🟡 Architecture Aligned | All Services — formal audit on enterprise contract |
-| **GDPR** | ✅ Design-Compliant | All Services — DPA available, data residency controls |
-| **HIPAA** | 🟡 Architecture Aligned | Healthcare Packages — BAA available, technical safeguards implemented |
-| **ISO 27001** | 🟡 Architecture Aligned | All Services — ISMS controls in place, certification on contract |
-| **PCI-DSS** | 🟡 Architecture Aligned | Finance Packages — platform does not process card data directly |
-| **FedRAMP** | � Architecture Aligned | Government Sovereign — NIST 800-53 mapped, ATO via deployment partner |
-| **SOX** | 🟡 Architecture Aligned | Finance Packages — audit trail and controls implemented |
+| Framework | Status | Applies To | Compliance Service |
+|-----------|--------|------------|--------------------|
+| **SOC 2 Type II** | 🟡 Architecture Aligned | All Services | `SOC2ReadinessService.ts` |
+| **GDPR** | ✅ Design-Compliant | All Services | `GDPRComplianceService.ts` |
+| **HIPAA** | 🟡 Architecture Aligned | Healthcare | `HIPAAComplianceService.ts` |
+| **ISO 27001** | 🟡 Architecture Aligned | All Services | `ISO27001ISMSService.ts` |
+| **EU AI Act** | ✅ Design-Compliant | All AI Services | `EUAIActService.ts` |
+| **FedRAMP** | 🟡 Architecture Aligned | Government | `FedRAMPReadinessService.ts` |
+| **PCI-DSS** | 🟡 Architecture Aligned | Finance | `FinancialComplianceService.ts` |
+| **CCPA/CPRA** | ✅ Design-Compliant | US Operations | `USStatePrivacyEngine.ts` |
+| **DORA** | 🟡 Architecture Aligned | EU Finance | `FinancialComplianceService.ts` |
+| **NIST AI RMF** | ✅ Design-Compliant | All AI Services | `AISpecificComplianceService.ts` |
+| **CMMC** | 🟡 Architecture Aligned | Defense | `GovernmentDefenseService.ts` |
+| **LGPD/PIPL/PIPA** | ✅ Design-Compliant | International | `InternationalPrivacyService.ts` |
+
+> **73+ total frameworks** covered across 25 compliance services. See `COMPLETE_SERVICE_MATRIX.md` for full details.
 
 ---
 
@@ -309,13 +358,17 @@
 | Differentiator | Description |
 |----------------|-------------|
 | **DatacendiaOS™** | Only enterprise AI platform with a true operating system architecture |
-| **The Pantheon** | 30+ specialized AI agents working as a unified executive council |
+| **The Pantheon** | 14 core + 16 premium AI agents as a unified executive council |
 | **8 Pillars** | Foundational data layers ensuring complete intelligence coverage |
-| **Air-Gap Ready** | Full platform deployable in completely isolated environments |
-| **Sovereign Add-ons** | Premium capabilities unavailable in any competitor |
-| **Real-Time Learning** | CendiaContinuum enables continuous intelligence improvement |
-| **User Intervention** | Humans can inject expertise directly into AI deliberations |
+| **DCII™** | Decision Crisis Immunization Infrastructure — category-defining governance |
+| **CredentialEvidence™** | Proof-at-creation for every credential (SHA-256, entropy, hash chain, HMAC) |
+| **73+ Frameworks** | 25 compliance services covering every major regulatory jurisdiction |
+| **Air-Gap Ready** | 24 sovereign services, 11 architectural patterns for classified environments |
+| **CendiaGateway™** | AI Governance proxy with PII detection, policy enforcement, audit signing |
+| **Apotheosis + Dissent** | Self-improvement via red-teaming + protected dissent with retaliation tracking |
+| **8 Model Slots** | Multi-model architecture (70b/32b/30b/3b) with agent-specific routing |
 | **Decision DNA** | Complete lifecycle tracking from inception to outcome |
+| **Evidence Pipeline** | Regulator’s Receipt™, Merkle forest, RFC 3161 timestamps, immutable ledger |
 
 ---
 
@@ -411,11 +464,15 @@ Single-click generation of complete compliance documentation:
 |--------|-----------|----------------|
 | **Ethical AI** | 5 (NIST AI RMF, OECD, UNESCO, ISO 42001, EU AI Act) | 345 |
 | **Cybersecurity** | 8 (NIST 800-53, SOC 2, ISO 27001, MITRE, Zero Trust, CMMC, NIST 800-137, CIS) | 1,887 |
-| **Privacy** | 5 (GDPR, CCPA, HIPAA, ISO 27701, PCI-DSS) | 342 |
+| **Privacy** | 12 (GDPR, CCPA, HIPAA, ISO 27701, PCI-DSS, LGPD, PIPL, PIPA, PDPA, APPI, Privacy Act, ePrivacy) | 742 |
 | **Governance** | 6 (COSO, COBIT, ITIL, SOX, ISO 9001, ISO 20000) | 262 |
-| **Industry** | 7 (Basel III, FedRAMP, GxP, NERC-CIP, CJIS, IFRS 9, SR 11-7) | 695 |
-| **TOTAL** | **31 Frameworks** | **3,531 Controls** |
+| **Financial** | 6 (SOX, DORA, Basel III, MiFID II, GLBA, Solvency II) | 580 |
+| **AI-Specific** | 5 (EU AI Act, NIST AI RMF, Canada AIDA, China AI Regs, ISO 42001) | 290 |
+| **Digital/Comms** | 5 (DMA, DSA, Data Act, NIS2, FCC) | 215 |
+| **Industry** | 12 (FedRAMP, GxP, NERC-CIP, CJIS, CMMC, ITAR, FDA 21 CFR, MHRA, MDR, FCPA, UK Bribery, ESG) | 1,195 |
+| **TOTAL** | **73+ Frameworks** | **5,500+ Controls** |
 
 ---
 
-*Datacendia: The Operating System for Enterprise Intelligence*
+*Datacendia: The Operating System for Enterprise Intelligence*  
+*Updated April 15, 2026 — Audit-verified against codebase*
