@@ -48,7 +48,6 @@ import {
 import { cn } from '../../../../lib/utils';
 import { useDataSource } from '../../../contexts/DataSourceContext';
 import { DataSourceSelector } from '../../../components/cortex/DataSourceSelector';
-import { evidenceVaultApi, DecisionPacket as APIPacket, ApprovalWorkflow, Attachment } from '../../../services/EvidenceVaultService';
 
 // =============================================================================
 // TYPES

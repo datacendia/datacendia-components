@@ -671,15 +671,18 @@ export const getIndustryInsight = (
   const industryName = industry.name;
   
   switch (metric) {
-    case 'churn':
+    case 'churn': {
       const adjustedChurn = industry.churnRateBase * mode.industryModifiers.churnMultiplier;
       return `${industryName} baseline churn: ${(industry.churnRateBase * 100).toFixed(1)}%. ${modeName} adjustment: ${(adjustedChurn * 100).toFixed(1)}%`;
-    case 'growth':
+    }
+    case 'growth': {
       const adjustedGrowth = industry.growthVolatility * mode.industryModifiers.growthMultiplier;
       return `${industryName} growth volatility: ±${(industry.growthVolatility * 100).toFixed(0)}%. ${modeName} range: ±${(adjustedGrowth * 100).toFixed(0)}%`;
-    case 'risk':
+    }
+    case 'risk': {
       const adjustedRisk = industry.regulatoryRisk * mode.industryModifiers.riskMultiplier;
       return `${industryName} regulatory risk: ${(industry.regulatoryRisk * 100).toFixed(0)}%. ${modeName} weighting: ${(adjustedRisk * 100).toFixed(0)}%`;
+    }
     default:
       return '';
   }

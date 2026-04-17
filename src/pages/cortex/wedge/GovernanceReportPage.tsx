@@ -16,8 +16,8 @@ import { api } from '../../../lib/api';
 import {
   FileText, ChevronRight, ChevronLeft, Loader2, Shield,
   AlertTriangle, CheckCircle, XCircle, Download, BarChart3,
-  Building2, Users, Globe, Cpu, Scale, TrendingUp, Clock,
-  Target, ArrowRight, ShieldCheck, Zap, BookOpen, DollarSign,
+  Building2, Scale, TrendingUp, Clock,
+  Target, ArrowRight, ShieldCheck, BookOpen,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 
@@ -342,8 +342,8 @@ const ReportView: React.FC<{ report: Report; onNew: () => void }> = ({ report, o
   };
 
   const StatusIcon: React.FC<{ status: string }> = ({ status }) => {
-    if (status === 'compliant' || status === 'pass') return <CheckCircle className="w-4 h-4 text-green-400" />;
-    if (status === 'partial') return <AlertTriangle className="w-4 h-4 text-yellow-400" />;
+    if (status === 'compliant' || status === 'pass') {return <CheckCircle className="w-4 h-4 text-green-400" />;}
+    if (status === 'partial') {return <AlertTriangle className="w-4 h-4 text-yellow-400" />;}
     return <XCircle className="w-4 h-4 text-red-400" />;
   };
 
@@ -695,7 +695,7 @@ export const GovernanceReportPage: React.FC = () => {
     (async () => {
       try {
         await api.get<any>('/wedge/status');
-        if (cancelled) return;
+        if (cancelled) {return;}
         // Backend availability confirms the report generator is production-ready.
       } catch { /* backend unavailable — report generator UI still renders */ }
     })();
@@ -711,7 +711,7 @@ export const GovernanceReportPage: React.FC = () => {
         body: JSON.stringify(q),
       });
       const data = await res.json();
-      if (data.success) setReport(data.data);
+      if (data.success) {setReport(data.data);}
     } catch (err) {
       console.error('Report generation failed:', err);
     } finally {

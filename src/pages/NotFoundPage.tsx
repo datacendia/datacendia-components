@@ -13,7 +13,7 @@
 
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Home, ArrowLeft, Search, MessageCircle } from 'lucide-react';
+import { Home, ArrowLeft, MessageCircle } from 'lucide-react';
 
 export const NotFoundPage: React.FC = () => {
   const navigate = useNavigate();

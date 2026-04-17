@@ -30,12 +30,12 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import apiClient from '../../../lib/api/client';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
-import { Shield, AlertTriangle } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 // =============================================================================
 // TYPES

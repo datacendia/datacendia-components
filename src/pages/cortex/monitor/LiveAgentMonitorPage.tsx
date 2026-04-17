@@ -19,8 +19,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import apiClient from '../../../lib/api/client';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
@@ -36,20 +36,14 @@ import {
   TrendingDown,
   Users,
   Lock,
-  Database,
-  FileText,
-  DollarSign,
-  Eye,
   Pause,
   Play,
   Settings,
   Download,
   Filter,
   Search,
-  ChevronRight,
   BarChart3,
   PieChart,
-  RefreshCw,
 } from 'lucide-react';
 
 // =============================================================================
@@ -112,7 +106,7 @@ const AGENTS = [
 // =============================================================================
 
 function mapGatewayEventToAction(event: any): AgentAction | null {
-  if (!event) return null;
+  if (!event) {return null;}
   
   return {
     id: event.id || `gw-${Date.now()}`,
@@ -131,7 +125,7 @@ function mapGatewayEventToAction(event: any): AgentAction | null {
 }
 
 function mapDeliberationToAction(deliberation: any): AgentAction | null {
-  if (!deliberation) return null;
+  if (!deliberation) {return null;}
   
   return {
     id: deliberation.id || `del-${Date.now()}`,
@@ -297,7 +291,7 @@ export const LiveAgentMonitorPage: React.FC = () => {
 
   // Fetch real data from backend APIs
   useEffect(() => {
-    if (isPaused) return;
+    if (isPaused) {return;}
 
     const fetchData = async () => {
       try {

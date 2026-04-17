@@ -22,7 +22,6 @@
 //   - Chouldechova (2017) "Fair prediction with disparate impact"
 //   - EEOC Uniform Guidelines on Employee Selection (29 CFR 1607) — 80% Rule
 
-import { mean } from './statistics';
 
 // =============================================================================
 // TYPES
@@ -83,10 +82,10 @@ export function disparateImpactRatio(
   privilegedPositives: number,
   privilegedTotal: number
 ): number {
-  if (protectedTotal === 0 || privilegedTotal === 0) return 1;
+  if (protectedTotal === 0 || privilegedTotal === 0) {return 1;}
   const protectedRate = protectedPositives / protectedTotal;
   const privilegedRate = privilegedPositives / privilegedTotal;
-  if (privilegedRate === 0) return protectedRate > 0 ? Infinity : 1;
+  if (privilegedRate === 0) {return protectedRate > 0 ? Infinity : 1;}
   return protectedRate / privilegedRate;
 }
 
@@ -120,7 +119,7 @@ export function statisticalParityDifference(
   groupBPositives: number,
   groupBTotal: number
 ): number {
-  if (groupATotal === 0 || groupBTotal === 0) return 0;
+  if (groupATotal === 0 || groupBTotal === 0) {return 0;}
   const rateA = groupAPositives / groupATotal;
   const rateB = groupBPositives / groupBTotal;
   return Math.abs(rateA - rateB);
@@ -212,11 +211,11 @@ export function predictiveParityDifference(
  * @returns Value in [0, 1]. 0 = perfect equality, 1 = maximal inequality.
  */
 export function giniCoefficient(values: number[]): number {
-  if (values.length === 0) return 0;
+  if (values.length === 0) {return 0;}
   const sorted = [...values].sort((a, b) => a - b);
   const n = sorted.length;
   const total = sorted.reduce((s, v) => s + v, 0);
-  if (total === 0) return 0;
+  if (total === 0) {return 0;}
 
   let cumulativeSum = 0;
   let weightedSum = 0;
@@ -294,11 +293,11 @@ export function runFairnessAudit(
   ];
 
   const recommendations: string[] = [];
-  if (!diPass) recommendations.push(`Disparate Impact ratio (${diRatio.toFixed(3)}) is below ${disparateImpactThreshold} threshold. Review selection criteria for adverse impact on protected class.`);
-  if (!spPass) recommendations.push(`Statistical Parity difference (${(spDiff * 100).toFixed(1)}%) exceeds ${parityThreshold * 100}% threshold. Outcome rates differ significantly between groups.`);
-  if (!eoPass) recommendations.push(`Equalized Odds difference (${(eoDiff * 100).toFixed(1)}%) exceeds threshold. True/false positive rates differ between groups.`);
-  if (!ppPass) recommendations.push(`Predictive Parity difference (${(ppDiff * 100).toFixed(1)}%) exceeds threshold. Precision differs between groups.`);
-  if (recommendations.length === 0) recommendations.push('All fairness metrics within acceptable thresholds.');
+  if (!diPass) {recommendations.push(`Disparate Impact ratio (${diRatio.toFixed(3)}) is below ${disparateImpactThreshold} threshold. Review selection criteria for adverse impact on protected class.`);}
+  if (!spPass) {recommendations.push(`Statistical Parity difference (${(spDiff * 100).toFixed(1)}%) exceeds ${parityThreshold * 100}% threshold. Outcome rates differ significantly between groups.`);}
+  if (!eoPass) {recommendations.push(`Equalized Odds difference (${(eoDiff * 100).toFixed(1)}%) exceeds threshold. True/false positive rates differ between groups.`);}
+  if (!ppPass) {recommendations.push(`Predictive Parity difference (${(ppDiff * 100).toFixed(1)}%) exceeds threshold. Precision differs between groups.`);}
+  if (recommendations.length === 0) {recommendations.push('All fairness metrics within acceptable thresholds.');}
 
   return {
     disparateImpactRatio: diRatio,

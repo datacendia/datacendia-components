@@ -27,7 +27,7 @@ import { logger } from '../../../lib/logger';
 // - Sovereign AI deployment (air-gapped capable)
 // =============================================================================
 
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   enterpriseService,
@@ -37,12 +37,12 @@ import {
 } from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
 import { decisionIntelApi } from '../../../lib/api';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
-import { Shield, Server } from 'lucide-react';
+import { Server } from 'lucide-react';
 
 // =============================================================================
 // LOCAL TYPES (GPUNode, DeployedModel, ClusterMetrics imported from EnterpriseService)
@@ -1239,7 +1239,7 @@ export const SovereignPage: React.FC = () => {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-semibold text-white flex items-center gap-2"><Server className="w-5 h-5 text-indigo-400" /> Enhanced Analytics</h2>
               <div className="flex items-center gap-2">
-                <SavedViewManager pageId="sovereign" currentFilters={{ tab: activeTab, mode: inferenceMode }} onLoadView={(f) => { if (f.tab) setActiveTab(f.tab); if (f.mode) setInferenceMode(f.mode); }} />
+                <SavedViewManager pageId="sovereign" currentFilters={{ tab: activeTab, mode: inferenceMode }} onLoadView={(f) => { if (f.tab) {setActiveTab(f.tab);} if (f.mode) {setInferenceMode(f.mode);} }} />
                 <ExportToolbar data={nodes.map((n: GPUNode) => ({ name: n.name, zone: n.zone, gpu: n.gpuType, vram: `${n.usedVRAM}/${n.totalVRAM}`, status: n.status }))} columns={[{ key: 'name', label: 'Node' }, { key: 'zone', label: 'Zone' }, { key: 'gpu', label: 'GPU Type' }, { key: 'vram', label: 'VRAM' }, { key: 'status', label: 'Status' }]} filename="sovereign-gpu-nodes" />
                 <PDFExportButton title="Sovereign GPU Cluster Report" subtitle="Infrastructure, Model Deployment & Inference Analytics" sections={[{ heading: 'Cluster Overview', content: `${metrics?.onlineNodes || 0}/${metrics?.totalNodes || 0} nodes online. ${metrics?.activeGPUs || 0} GPUs active. ${metrics?.totalModels || 0} models deployed.`, metrics: [{ label: 'Nodes Online', value: `${metrics?.onlineNodes || 0}/${metrics?.totalNodes || 0}` }, { label: 'Active GPUs', value: String(metrics?.activeGPUs || 0) }, { label: 'VRAM Used', value: `${metrics?.usedVRAM || 0} GB` }, { label: 'Models', value: String(metrics?.totalModels || 0) }] }]} />
               </div>

@@ -130,7 +130,7 @@ async function submitTask(body: Record<string, unknown>): Promise<OpsTask> {
     body: JSON.stringify(body),
   });
   const data = await res.json();
-  if (!data.success) throw new Error(data.error || `Request failed (${res.status})`);
+  if (!data.success) {throw new Error(data.error || `Request failed (${res.status})`);}
   return data.data;
 }
 
@@ -282,7 +282,7 @@ function ResultViewer({ task }: { task: OpsTask }) {
   }, [task.result]);
 
   const handleDownload = useCallback(() => {
-    if (!task.result?.content) return;
+    if (!task.result?.content) {return;}
     const ext = task.result.format === 'json' ? 'json' : task.result.format === 'csv' ? 'csv' : task.result.format === 'html' ? 'html' : 'md';
     const blob = new Blob([task.result.content], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
@@ -332,7 +332,7 @@ function ResultViewer({ task }: { task: OpsTask }) {
     );
   }
 
-  if (!task.result) return null;
+  if (!task.result) {return null;}
 
   const meta = task.result.metadata;
 
@@ -398,7 +398,7 @@ export function OpsAgentsPage() {
 
   // Auto-dismiss errors after 6s
   useEffect(() => {
-    if (!errorMsg) return;
+    if (!errorMsg) {return;}
     const t = setTimeout(() => setErrorMsg(null), 6000);
     return () => clearTimeout(t);
   }, [errorMsg]);
@@ -424,13 +424,13 @@ export function OpsAgentsPage() {
         const updated = await Promise.all(runningTasks.map(t => fetchTask(t.id)));
         setTasks(prev => {
           const map = new Map(prev.map(t => [t.id, t]));
-          for (const u of updated) if (u) map.set(u.id, u);
+          for (const u of updated) {if (u) {map.set(u.id, u);}}
           return [...map.values()].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
         });
         const st = selectedTaskRef.current;
         if (st && (st.status === 'queued' || st.status === 'running')) {
           const fresh = updated.find(u => u?.id === st.id);
-          if (fresh) setSelectedTask(fresh);
+          if (fresh) {setSelectedTask(fresh);}
         }
       } catch { /* polling failure is non-fatal */ }
     }, 2000);
@@ -438,7 +438,7 @@ export function OpsAgentsPage() {
   }, [tasks]);
 
   const handleSubmit = useCallback(async () => {
-    if (!prompt.trim() || submitting) return;
+    if (!prompt.trim() || submitting) {return;}
     if (prompt.length > MAX_PROMPT_LENGTH) {
       setErrorMsg(`Prompt exceeds ${MAX_PROMPT_LENGTH.toLocaleString()} character limit`);
       return;

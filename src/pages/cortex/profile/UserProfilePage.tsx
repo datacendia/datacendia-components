@@ -22,8 +22,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../../contexts/AuthContext';
 import { authApi } from '../../../lib/api';
 import { cn } from '../../../../lib/utils';
-import {
-  User, Shield, Key, Clock, Settings, Mail, Building2,
+import { Shield, Key, Clock, Settings, Building2,
   Activity, LogOut, ChevronRight, Copy, Check, Eye, EyeOff,
 } from 'lucide-react';
 

@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import complianceRoutes from '../compliance.js';
 import governRoutes from '../govern.js';
@@ -28,6 +29,9 @@ import dsrRoutes from '../dsr.js';
 import compliancePlatinumRoutes from '../compliance-platinum.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+router.use(authenticate);
 
 // Community routes
 router.use('/compliance', complianceRoutes);

@@ -21,9 +21,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
-import {
-  Brain, Send, AlertTriangle, MessageSquare, ChevronRight, Clock,
-  Users, Zap, Shield, Target, Hand, Pause, Play, RotateCcw,
+import { Send, AlertTriangle, MessageSquare, Clock,
+  Users, Zap, Shield, Target, Hand, Pause, Play,
 } from 'lucide-react';
 
 type InterventionType = 'context' | 'redirect' | 'override' | 'constraint' | 'escalate';

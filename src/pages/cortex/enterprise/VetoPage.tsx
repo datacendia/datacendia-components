@@ -65,11 +65,11 @@ export const VetoPage: React.FC = () => {
           api.get<any>('/veto/decisions'),
           api.get<any>('/veto/metrics'),
         ]);
-        if (cancelled) return;
-        if (decRes?.data && Array.isArray(decRes.data)) setDecisions(decRes.data as VetoDecision[]);
-        else if (Array.isArray((decRes as any)?.decisions)) setDecisions((decRes as any).decisions as VetoDecision[]);
-        if (metRes?.data) setMetrics(metRes.data as VetoMetrics);
-        else if ((metRes as any)?.metrics) setMetrics((metRes as any).metrics as VetoMetrics);
+        if (cancelled) {return;}
+        if (decRes?.data && Array.isArray(decRes.data)) {setDecisions(decRes.data as VetoDecision[]);}
+        else if (Array.isArray((decRes as any)?.decisions)) {setDecisions((decRes as any).decisions as VetoDecision[]);}
+        if (metRes?.data) {setMetrics(metRes.data as VetoMetrics);}
+        else if ((metRes as any)?.metrics) {setMetrics((metRes as any).metrics as VetoMetrics);}
       } catch { /* backend unavailable — keep local service data */ }
     })();
     return () => { cancelled = true; };

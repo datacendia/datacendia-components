@@ -17,7 +17,7 @@ import { logger } from '../../lib/logger';
 // Full-fledged marketing content generation: videos, images, pitches, copy
 // =============================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../lib/api';
 import {
@@ -30,16 +30,10 @@ import {
   CheckCircle,
   Loader2,
   Sparkles,
-  Play,
-  Pause,
   Film,
   Camera,
   Presentation,
   MessageSquare,
-  Target,
-  TrendingUp,
-  Users,
-  Zap,
 } from 'lucide-react';
 
 // =============================================================================

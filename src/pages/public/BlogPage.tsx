@@ -14,7 +14,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, Calendar, ArrowRight, User } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 const ParticleField: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);

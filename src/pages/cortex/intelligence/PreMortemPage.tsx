@@ -25,7 +25,7 @@ import {
   PreMortemResult,
 } from '../../../services/DecisionIntelligenceService';
 import { ollamaService, DomainAgent } from '../../../lib/ollama';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 import { api } from '../../../lib/api';
 import {
   UserInterventionPanel,
@@ -135,7 +135,7 @@ export const PreMortemPage: React.FC = () => {
     (async () => {
       try {
         await api.get<any>('/decision-intel/pre-mortem/analyses?status=completed&limit=10');
-        if (cancelled) return;
+        if (cancelled) {return;}
         // Backend availability confirms production readiness;
         // user will generate new analyses via runPreMortem below.
       } catch { /* backend unavailable — Ollama fallback still works */ }

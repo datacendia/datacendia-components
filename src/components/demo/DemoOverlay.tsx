@@ -30,7 +30,6 @@ import {
   SkipForward, 
   SkipBack, 
   X, 
-  Eye, 
   EyeOff,
   FileText,
   Monitor,

@@ -224,9 +224,9 @@ class LedgerService {
       const res = await api.get<LedgerEntry[]>('/ledger/entries?limit=500');
       if (res.success && Array.isArray(res.data)) {
         for (const e of res.data) {
-          if (typeof e.timestamp === 'string') e.timestamp = new Date(e.timestamp);
+          if (typeof e.timestamp === 'string') {e.timestamp = new Date(e.timestamp);}
           this.entries.set(e.id, e);
-          if (e.sequence > this.sequence) this.sequence = e.sequence;
+          if (e.sequence > this.sequence) {this.sequence = e.sequence;}
         }
         total += res.data.length;
       }
@@ -235,14 +235,14 @@ class LedgerService {
       const dRes = await api.get<DecisionRecord[]>('/ledger/decisions');
       if (dRes.success && Array.isArray(dRes.data)) {
         for (const d of dRes.data) {
-          if (typeof d.proposedAt === 'string') d.proposedAt = new Date(d.proposedAt);
-          if (d.outcomeRecordedAt && typeof d.outcomeRecordedAt === 'string') d.outcomeRecordedAt = new Date(d.outcomeRecordedAt);
+          if (typeof d.proposedAt === 'string') {d.proposedAt = new Date(d.proposedAt);}
+          if (d.outcomeRecordedAt && typeof d.outcomeRecordedAt === 'string') {d.outcomeRecordedAt = new Date(d.outcomeRecordedAt);}
           this.decisions.set(d.id, d);
         }
         total += dRes.data.length;
       }
     } catch { /* offline-tolerant */ }
-    if (total > 0) this.saveToStorage();
+    if (total > 0) {this.saveToStorage();}
     return total;
   }
 

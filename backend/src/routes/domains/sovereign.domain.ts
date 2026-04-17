@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import sovereignRoutes from '../sovereign.js';
 import evidenceRoutes from '../evidence.js';
@@ -21,6 +22,9 @@ import meshRoutes from '../mesh.js';
 import evidenceVaultRoutes from '../evidence-vault.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+router.use(authenticate);
 
 // Community routes
 router.use('/sovereign-infra', sovereignRoutes);

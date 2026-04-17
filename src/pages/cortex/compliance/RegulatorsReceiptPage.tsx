@@ -26,17 +26,12 @@ import {
   Shield,
   CheckCircle,
   Lock,
-  Download,
   Eye,
   Clock,
   Users,
   Hash,
   AlertTriangle,
   Printer,
-  Share2,
-  Search,
-  Calendar,
-  Building,
   Scale,
   Fingerprint,
   FileCheck,
@@ -44,7 +39,6 @@ import {
   ExternalLink,
   Camera,
   Settings,
-  ChevronDown,
 } from 'lucide-react';
 
 // =============================================================================
@@ -359,7 +353,7 @@ const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded
   };
 
   const handleDownloadPdf = async (format: 'court' | 'standard' | 'evidence' = 'court') => {
-    if (!selectedDeliberation) return;
+    if (!selectedDeliberation) {return;}
     try {
       const token = localStorage.getItem('dc_access_token');
       const baseUrl = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
@@ -645,7 +639,7 @@ const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded
                           </div>
                           <div className="flex items-center gap-3">
                             <span className="text-sm text-gray-500 dark:text-gray-400">{agent.responseCount} responses</span>
-                            {agent.confidenceAvg != null && (
+                            {agent.confidenceAvg !== null && agent.confidenceAvg !== undefined && (
                               <span className="text-sm font-medium text-emerald-600 dark:text-emerald-400">{agent.confidenceAvg}%</span>
                             )}
                             {agent.dissented && (

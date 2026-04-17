@@ -13,9 +13,9 @@ import { logger } from '../../../lib/logger';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { 
-  Shield, Key, Lock, Unlock, RefreshCw, AlertTriangle, 
-  CheckCircle, XCircle, Clock, Server, Cloud, HardDrive,
-  FileKey, RotateCcw, Eye, EyeOff, Copy, Download, Upload,
+  Shield, Key, Lock, 
+  CheckCircle, XCircle, Server, Cloud, HardDrive,
+  FileKey, RotateCcw, Eye, Download, Upload,
   Settings, Activity, History, Fingerprint
 } from 'lucide-react';
 

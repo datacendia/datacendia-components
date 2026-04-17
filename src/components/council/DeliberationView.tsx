@@ -17,14 +17,10 @@ import { logger } from '../../lib/logger';
  * Real-time display of AI council deliberation with streaming messages
  */
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { cn } from '../../../lib/utils';
 import { wsClient } from '../../lib/api/websocket';
 import { councilApi } from '../../lib/api';
-import type {
-  Deliberation as ApiDeliberation,
-  DeliberationMessage as ApiDeliberationMessage,
-} from '../../lib/api/types';
-import AgentCard from './AgentCard';
+
+
 import { UserInterventionPanel, UserRole, UserIntervention } from './UserInterventionPanel';
 
 interface Agent {

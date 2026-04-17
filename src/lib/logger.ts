@@ -24,7 +24,7 @@ const LEVEL_PRIORITY: Record<LogLevel, number> = {
 const MIN_LEVEL: LogLevel = IS_PRODUCTION ? 'warn' : 'debug';
 
 function shouldLog(level: LogLevel): boolean {
-  if (IS_TEST) return false;
+  if (IS_TEST) {return false;}
   return LEVEL_PRIORITY[level] >= LEVEL_PRIORITY[MIN_LEVEL];
 }
 

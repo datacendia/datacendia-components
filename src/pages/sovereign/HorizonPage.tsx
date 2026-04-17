@@ -21,7 +21,7 @@ import { logger } from '../../lib/logger';
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 import {
   HORIZON_MODES,
   INDUSTRY_BENCHMARKS,

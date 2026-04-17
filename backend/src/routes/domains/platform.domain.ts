@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import platformRoutes from '../platform.js';
 import coreRoutes from '../core.js';
@@ -36,25 +37,33 @@ import autoHealRoutes from '../auto-heal.js';
 
 const router = Router();
 
-// Community routes
-router.use('/platform', platformRoutes);
-router.use('/core', coreRoutes);
-router.use('/admin/settings', adminSettingsRoutes); // Must come BEFORE /admin
-router.use('/admin', adminRoutes);
-router.use('/settings', settingsRoutes);
-router.use('/health', healthRoutes);
-router.use('/i18n', i18nRoutes);
-router.use('/notifications', notificationsRoutes);
-router.use('/errors', errorRoutes);
-router.use('/contact', contactRoutes);
-router.use('/upload', uploadRoutes);
-router.use('/schema', schemaRoutes);
-router.use('/command', commandRoutes);
-router.use('/admin/env-config', envConfigRoutes);
-router.use('/marketing-studio', marketingStudioRoutes);
-router.use('/platform-assistant', platformAssistantRoutes);
-router.use('/marketing-leads', marketingLeadsRoutes);
-router.use('/auto-heal', autoHealRoutes);
+// =========================================================================
+// PUBLIC ROUTES — No authentication required.
+// These accept input from the marketing site / browsers pre-auth and must
+// handle their own admin-only sub-routes internally (e.g. requireRole).
+// =========================================================================
+router.use('/contact', contactRoutes);               // POST / (public lead capture)
+router.use('/marketing-leads', marketingLeadsRoutes); // POST / + /newsletter (public)
+router.use('/errors', errorRoutes);                   // POST /report (browser error reporting)
+router.use('/i18n', i18nRoutes);                      // GET /languages, /translations (public UI)
+
+// =========================================================================
+// AUTHENTICATED ROUTES — Require a valid JWT.
+// =========================================================================
+router.use('/platform', authenticate, platformRoutes);
+router.use('/core', authenticate, coreRoutes);
+router.use('/admin/settings', authenticate, adminSettingsRoutes); // Must come BEFORE /admin
+router.use('/admin', authenticate, adminRoutes);
+router.use('/settings', authenticate, settingsRoutes);
+router.use('/health', authenticate, healthRoutes);
+router.use('/notifications', authenticate, notificationsRoutes);
+router.use('/upload', authenticate, uploadRoutes);
+router.use('/schema', authenticate, schemaRoutes);
+router.use('/command', authenticate, commandRoutes);
+router.use('/admin/env-config', authenticate, envConfigRoutes);
+router.use('/marketing-studio', authenticate, marketingStudioRoutes);
+router.use('/platform-assistant', authenticate, platformAssistantRoutes);
+router.use('/auto-heal', authenticate, autoHealRoutes);
 
 // Enterprise routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [

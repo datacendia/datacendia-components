@@ -20,7 +20,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
 import { ArrowRight } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 // Particle field background
 const ParticleField: React.FC = () => {

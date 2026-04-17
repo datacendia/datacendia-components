@@ -36,7 +36,6 @@ import {
   CheckCircle,
   Hash,
   Download,
-  ChevronRight,
 } from 'lucide-react';
 
 // Import existing page components
@@ -59,7 +58,7 @@ export const AuditProvenancePage: React.FC = () => {
           api.get<any>('/evidence'),
           api.get<any>('/sovereign-arch/dna/recent'),
         ]);
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (evidenceRes.success || dnaRes.success) {
           setProvenanceData({
             evidence: evidenceRes.data || [],

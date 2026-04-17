@@ -43,10 +43,8 @@ import {
   Clock,
   MessageSquare,
   Eye,
-  BarChart3,
   Target,
   Scale,
-  Upload,
   FileCheck,
   Fingerprint,
   Package,
@@ -56,8 +54,8 @@ import {
   FileSignature,
   Loader2,
 } from 'lucide-react';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
@@ -310,9 +308,9 @@ const CollapsePage: React.FC = () => {
   const fetchAgents = async () => {
     try {
       const res = await fetch(`${API_BASE}/agents`);
-      if (!res.ok) throw new Error('Not OK');
+      if (!res.ok) {throw new Error('Not OK');}
       const text = await res.text();
-      if (!text) throw new Error('Empty');
+      if (!text) {throw new Error('Empty');}
       const data = JSON.parse(text);
       if (data.success) {
         setAgents(data.agents);
@@ -324,7 +322,7 @@ const CollapsePage: React.FC = () => {
     // Fallback: if no agents loaded after a short delay, load demo data
     setTimeout(() => {
       setAgents((prev) => {
-        if (prev.length === 0) loadFallbackData();
+        if (prev.length === 0) {loadFallbackData();}
         return prev;
       });
     }, 500);
@@ -333,9 +331,9 @@ const CollapsePage: React.FC = () => {
   const fetchHistory = async () => {
     try {
       const res = await fetch(`${API_BASE}/deliberations`);
-      if (!res.ok) throw new Error('Not OK');
+      if (!res.ok) {throw new Error('Not OK');}
       const text = await res.text();
-      if (!text) throw new Error('Empty');
+      if (!text) {throw new Error('Empty');}
       const data = JSON.parse(text);
       if (data.success) {
         setHistory(data.deliberations);

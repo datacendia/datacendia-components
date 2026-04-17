@@ -20,26 +20,19 @@ import { logger } from '../../lib/logger';
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   BarChart3,
-  Activity,
   Zap,
   Database,
   Users,
-  Clock,
-  TrendingUp,
-  TrendingDown,
   RefreshCw,
   Download,
-  Calendar,
-  Filter,
   ArrowUp,
   ArrowDown,
-  Cpu,
   HardDrive,
   Globe,
   MessageSquare,
 } from 'lucide-react';
 import { api } from '../../lib/api';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 // =============================================================================
 // TYPES

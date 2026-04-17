@@ -25,7 +25,7 @@ describe('Service.syncFromBackend()', () => {
     fetchMock.mockReset();
     (globalThis as any).fetch = fetchMock;
     // Reset localStorage between tests to avoid cross-test pollution of service caches
-    if (typeof localStorage !== 'undefined') localStorage.clear();
+    if (typeof localStorage !== 'undefined') {localStorage.clear();}
   });
 
   afterEach(() => {

@@ -278,7 +278,7 @@ const AdminDashboard: React.FC = () => {
           api.get<any>('/admin/tenants'),
           api.get<any>('/admin/feature-flags'),
         ]);
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (tenantsRes.success && Array.isArray(tenantsRes.data) && tenantsRes.data.length > 0) {
           setTenants(tenantsRes.data as Tenant[]);
         }

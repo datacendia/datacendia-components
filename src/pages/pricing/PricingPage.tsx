@@ -17,8 +17,8 @@ import { logger } from '../../lib/logger';
 // Matching DatacendiaPricing.jsx design
 // =============================================================================
 
-import React, { useState, useCallback } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useState, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 interface Region {
   id: string;

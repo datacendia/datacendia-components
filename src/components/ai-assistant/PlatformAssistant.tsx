@@ -24,7 +24,6 @@ import {
   Send,
   X,
   Minimize2,
-  Maximize2,
   Sparkles,
   ArrowRight,
   ExternalLink,

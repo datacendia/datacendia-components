@@ -31,14 +31,8 @@ import { logger } from '../../../lib/logger';
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { decisionIntelApi } from '../../../lib/api';
-import { 
-  FINANCIAL_COMPANY, 
-  FINANCIAL_RISK_METRICS, 
-  FINANCIAL_COMPLIANCE, 
-  FINANCIAL_FRAUD_ALERTS,
-  FINANCIAL_TRADING,
-  FINANCIAL_STRESS_TESTS 
-} from '../../../data/financialDemoData';
+
+
 
 // =============================================================================
 // TYPES

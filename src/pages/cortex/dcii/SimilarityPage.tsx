@@ -20,8 +20,8 @@ import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Search, Brain, CheckCircle, Clock, ChevronRight, BarChart3,
-  Layers, Target, ThumbsUp, ThumbsDown, AlertTriangle, FileText,
+  Search, Brain, Clock,
+  Layers, ThumbsUp, ThumbsDown, AlertTriangle,
 } from 'lucide-react';
 
 interface SimilarDecision {

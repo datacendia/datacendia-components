@@ -14,7 +14,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Book, Code, Server, Shield, Zap, Users, ArrowRight } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 // Particle field background
 const ParticleField: React.FC = () => {

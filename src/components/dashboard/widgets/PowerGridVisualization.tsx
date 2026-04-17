@@ -19,7 +19,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Zap, Sun, Wind, Droplets, Atom, Factory, Home, Building2, Bot } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES

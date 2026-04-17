@@ -28,7 +28,7 @@ import { logger } from '../../../lib/logger';
 // - NATO/DoD compatible audit logging
 // =============================================================================
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { decisionIntelApi } from '../../../lib/api';
 

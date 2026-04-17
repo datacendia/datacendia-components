@@ -14,11 +14,11 @@
 
 import React, { useState, useCallback, useRef, useEffect, useMemo } from 'react';
 import {
-  Plus, Save, Play, Trash2, Copy, Download, Upload, Search,
-  ChevronRight, ChevronDown, X, GripVertical, Settings2, Zap,
+  Plus, Save, Play, Trash2, Copy, Download, Search,
+  ChevronRight, ChevronDown, X, Settings2, Zap,
   FileText, Clock, Users, Ghost, Skull, Film, Eye, Shield,
   Network, HeartPulse, AlertTriangle, Brain, CheckCircle, TrendingUp,
-  FileSignature, Loader2, FolderOpen, MoreHorizontal, ArrowRight,
+  FileSignature, Loader2, FolderOpen, ArrowRight,
   ScanEye, Dna, GitBranch, Radar, Target, Layers, ScrollText,
   Activity, SearchCode, Globe, FlaskConical, Briefcase, Gavel,
   Megaphone, UserCheck, Lock, KeyRound, ShieldCheck, Archive,
@@ -28,7 +28,7 @@ import {
 import { SERVICE_REGISTRY, getServiceById, getCategories } from '../../../services/ServiceRegistry';
 import { WorkflowPersistenceService } from '../../../services/WorkflowPersistenceService';
 import { api } from '../../../lib/api';
-import type { Workflow, WorkflowStep, ServiceDefinition, ServiceCategory } from '../../../types/workflow';
+import type { Workflow, WorkflowStep, ServiceDefinition } from '../../../types/workflow';
 
 // =============================================================================
 // ICON MAP
@@ -87,7 +87,7 @@ export default function WorkflowBuilderPage() {
 
   // ── Filtered Catalog ────────────────────────────────────────────────────
   const filteredServices = useMemo(() => {
-    if (!catalogSearch.trim()) return SERVICE_REGISTRY;
+    if (!catalogSearch.trim()) {return SERVICE_REGISTRY;}
     const q = catalogSearch.toLowerCase();
     return SERVICE_REGISTRY.filter(s =>
       s.name.toLowerCase().includes(q) ||
@@ -120,7 +120,7 @@ export default function WorkflowBuilderPage() {
     setDragOverCanvas(false);
     const serviceId = e.dataTransfer.getData('serviceId');
     const service = getServiceById(serviceId);
-    if (!service) return;
+    if (!service) {return;}
 
     const rect = canvasRef.current?.getBoundingClientRect();
     const x = rect ? e.clientX - rect.left : 100;
@@ -146,7 +146,7 @@ export default function WorkflowBuilderPage() {
   // ── Add Step (button alternative to drag) ───────────────────────────────
   const addStep = useCallback((serviceId: string) => {
     const service = getServiceById(serviceId);
-    if (!service) return;
+    if (!service) {return;}
     const stepCount = workflow.steps.length;
     const newStep: WorkflowStep = {
       id: `step-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
@@ -167,7 +167,7 @@ export default function WorkflowBuilderPage() {
       steps: prev.steps.filter(s => s.id !== stepId),
       connections: prev.connections.filter(c => c.fromStepId !== stepId && c.toStepId !== stepId),
     }));
-    if (selectedStepId === stepId) setSelectedStepId(null);
+    if (selectedStepId === stepId) {setSelectedStepId(null);}
   }, [selectedStepId]);
 
   // ── Update Step Config ──────────────────────────────────────────────────
@@ -238,7 +238,7 @@ export default function WorkflowBuilderPage() {
 
   // ── Simulate Run ────────────────────────────────────────────────────────
   const handleRun = useCallback(async () => {
-    if (workflow.steps.length === 0) return;
+    if (workflow.steps.length === 0) {return;}
     setIsRunning(true);
     let current: Workflow = { ...workflow, status: 'running', lastRunAt: new Date().toISOString(), runCount: workflow.runCount + 1, steps: workflow.steps.map(s => ({ ...s })) };
 
@@ -253,7 +253,7 @@ export default function WorkflowBuilderPage() {
         result: { success, timestamp: new Date().toISOString(), duration: 800 + Math.floor(Math.random() * 600) },
       } : s) };
       setWorkflow(current);
-      if (!success) break;
+      if (!success) {break;}
     }
 
     const finalStatus: Workflow['status'] = current.steps.every(s => s.status === 'completed') ? 'completed' : 'failed';
@@ -290,7 +290,7 @@ export default function WorkflowBuilderPage() {
     (async () => {
       try {
         const res = await api.get<any>('/workflows');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && Array.isArray(res.data) && res.data.length > 0) {
           const items = (res.data as Workflow[]).map(w => ({
             id: w.id,
@@ -330,7 +330,7 @@ export default function WorkflowBuilderPage() {
         <div className="flex-1 overflow-y-auto p-2 space-y-1">
           {categories.map(cat => {
             const services = filteredServices.filter(s => s.category === cat.id);
-            if (services.length === 0) return null;
+            if (services.length === 0) {return null;}
             const isExpanded = expandedCategories.has(cat.id);
             const color = CATEGORY_COLORS[cat.id] || 'zinc';
             return (
@@ -484,7 +484,7 @@ export default function WorkflowBuilderPage() {
               )}
               {workflow.steps.map((step, idx) => {
                 const service = getServiceById(step.serviceId);
-                if (!service) return null;
+                if (!service) {return null;}
                 const Icon = getIcon(service.icon);
                 const color = CATEGORY_COLORS[service.category] || 'zinc';
                 const isSelected = selectedStepId === step.id;

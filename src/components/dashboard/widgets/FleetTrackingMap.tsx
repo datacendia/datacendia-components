@@ -21,7 +21,7 @@ import { MapContainer, TileLayer, Marker, Popup, Polyline, Circle, useMap } from
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { cn } from '../../../lib/utils';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 
 // Fix Leaflet default icon issue
 delete (L.Icon.Default.prototype as any)._getIconUrl;

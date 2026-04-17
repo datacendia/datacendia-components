@@ -20,7 +20,7 @@ import { logger } from '../../../lib/logger';
 import React, { useState, useCallback } from 'react';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 
 // Sample regulatory document content for viewing
 const REGULATORY_DOCUMENTS: Record<string, {

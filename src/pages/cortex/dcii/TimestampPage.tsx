@@ -20,8 +20,8 @@ import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Clock, Shield, CheckCircle, AlertTriangle, Hash, Link2,
-  RefreshCw, Download, Plus, Server, FileCheck, ExternalLink,
+  Clock, Shield, CheckCircle, AlertTriangle, Link2,
+  RefreshCw, Download, Server, FileCheck,
 } from 'lucide-react';
 
 interface TimestampRecord {

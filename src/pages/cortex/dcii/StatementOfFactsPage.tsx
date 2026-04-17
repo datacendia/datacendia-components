@@ -21,8 +21,7 @@ import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  FileText, Download, CheckCircle, Clock, Brain, Shield,
-  Plus, Trash2, ChevronUp, ChevronDown, Loader2, Copy, Check,
+  FileText, Download, CheckCircle, Clock, Shield, Loader2, Copy, Check,
   Scale, AlertTriangle, Hash, Lock,
 } from 'lucide-react';
 

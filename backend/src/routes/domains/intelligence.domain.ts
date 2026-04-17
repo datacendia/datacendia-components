@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import personaRoutes from '../persona.js';
 import autopilotRoutes from '../autopilot.js';
@@ -22,6 +23,9 @@ import gnosisRoutes from '../gnosis.js';
 import visualizationRoutes from '../visualization.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+router.use(authenticate);
 
 // Community routes
 router.use('/persona', personaRoutes);

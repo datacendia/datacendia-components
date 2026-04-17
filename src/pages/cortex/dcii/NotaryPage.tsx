@@ -21,8 +21,8 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Key, Shield, RefreshCw, CheckCircle, AlertTriangle, Clock,
-  Lock, Unlock, RotateCcw, Plus, Eye, EyeOff, Copy, Check,
+  Key, CheckCircle,
+  Lock, RotateCcw, Plus, Copy, Check,
   Server, Cloud, HardDrive, Settings,
 } from 'lucide-react';
 

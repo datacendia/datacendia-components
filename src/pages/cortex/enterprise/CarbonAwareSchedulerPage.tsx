@@ -17,7 +17,7 @@ import { logger } from '../../../lib/logger';
 // CendiaCarbonAware™ - Reduce Carbon Footprint of AI Operations
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
 import {
@@ -25,16 +25,12 @@ import {
   Cloud,
   Zap,
   TrendingDown,
-  TrendingUp,
   Activity,
   BarChart3,
   Clock,
   MapPin,
-  AlertTriangle,
-  CheckCircle,
   Loader2,
   Calendar,
-  DollarSign,
 } from 'lucide-react';
 
 // =============================================================================

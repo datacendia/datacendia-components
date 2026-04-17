@@ -14,9 +14,13 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+router.use(authenticate);
 
 // Strategic tier routes (license-gated by pillar)
 mountEnterpriseRoutes(router, [

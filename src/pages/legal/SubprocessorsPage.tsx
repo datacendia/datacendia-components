@@ -12,7 +12,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Server, CreditCard, Brain, Activity, Plug, ArrowLeft } from 'lucide-react';
+import { Server, CreditCard, Brain, Plug, ArrowLeft } from 'lucide-react';
 
 interface Subprocessor {
   name: string;

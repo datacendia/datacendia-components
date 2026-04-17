@@ -16,21 +16,16 @@ import { logger } from '../../lib/logger';
 // DATACENDIA - SETTINGS PAGES
 // =============================================================================
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, Outlet, useLocation } from 'react-router-dom';
 import { useToast } from '../../../components/feedback';
-import { Modal, ConfirmModal, FormModal } from '../../components/ui/Modal';
 import { cn, formatRelativeTime, formatCurrency } from '../../../lib/utils';
 import {
   settingsService,
   type User,
-  type Team,
-  type Role,
-  type ApiKey,
-  type BillingInfo,
 } from '../../services/SettingsService';
 import { useVerticalConfig } from '../../contexts/VerticalConfigContext';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 // =============================================================================
 // SETTINGS LAYOUT

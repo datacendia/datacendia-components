@@ -16,6 +16,7 @@
 
 import express, { Request, Response, Router } from 'express';
 import { logger } from '../utils/logger.js';
+import { authenticate, requireRole } from '../middleware/auth.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
@@ -98,7 +99,7 @@ router.post('/', async (req: Request, res: Response) => {
  * GET /contact/submissions
  * Get contact submissions (admin only)
  */
-router.get('/submissions', async (req: Request, res: Response) => {
+router.get('/submissions', authenticate, requireRole('ADMIN', 'SUPER_ADMIN', 'OWNER'), async (req: Request, res: Response) => {
   try {
     const { limit = 50 } = req.query;
 

@@ -39,7 +39,7 @@ import { InsuranceClaimsDashboard } from './widgets/InsuranceClaimsDashboard';
 import { TelecomNetworkDashboard } from './widgets/TelecomNetworkDashboard';
 import { HospitalityDashboard } from './widgets/HospitalityDashboard';
 import { AgricultureDashboard } from './widgets/AgricultureDashboard';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 // Merge all dashboards
 const ALL_DASHBOARDS: Record<string, VerticalDashboardConfig> = {

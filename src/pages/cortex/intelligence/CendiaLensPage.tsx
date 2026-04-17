@@ -29,16 +29,8 @@ import {
   ChevronRight,
   ChevronDown,
   Layers,
-  Target,
-  BarChart3,
   Fingerprint,
   Scale,
-  Zap,
-  FileText,
-  Download,
-  RefreshCw,
-  Lock,
-  Activity,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -234,7 +226,7 @@ export const CendiaLensPage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/dcii/lens');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && res.data && typeof res.data === 'object') {
           setAnalyses(prev => ({ ...prev, ...res.data }));
         }

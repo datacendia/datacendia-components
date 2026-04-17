@@ -17,7 +17,7 @@ import { logger } from '../../lib/logger';
  * First-time user experience with guided setup
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Building2,

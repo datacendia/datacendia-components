@@ -28,7 +28,6 @@ import {
   Zap,
   Lock,
   AlertTriangle,
-  RefreshCw,
   Search,
   Filter,
   Info,

@@ -45,6 +45,7 @@ module.exports = {
     '@typescript-eslint',
     'react',
     'react-hooks',
+    'unused-imports',
   ],
   settings: {
     react: {
@@ -52,10 +53,15 @@ module.exports = {
     },
   },
   rules: {
-    // TypeScript
-    '@typescript-eslint/no-unused-vars': ['warn', { 
-      argsIgnorePattern: '^_',
+    // TypeScript — auto-removable unused imports/vars via eslint-plugin-unused-imports.
+    // The built-in rule is disabled in favor of the plugin's auto-fixable version.
+    '@typescript-eslint/no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'warn',
+    'unused-imports/no-unused-vars': ['warn', {
+      vars: 'all',
       varsIgnorePattern: '^_',
+      args: 'after-used',
+      argsIgnorePattern: '^_',
     }],
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-non-null-assertion': 'warn',

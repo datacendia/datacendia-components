@@ -37,11 +37,8 @@ import {
   Download,
   Share2,
   Maximize2,
-  Volume2,
-  Settings,
   FileText,
   Calendar,
-  ChevronRight,
 } from 'lucide-react';
 
 // =============================================================================

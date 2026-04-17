@@ -16,6 +16,7 @@
 
 import express, { Request, Response, Router } from 'express';
 import { logger } from '../utils/logger.js';
+import { authenticate, requireRole } from '../middleware/auth.js';
 
 import { z } from 'zod';
 
@@ -144,7 +145,7 @@ router.post('/newsletter', async (req: Request, res: Response) => {
  * GET /marketing-leads
  * Get marketing leads (admin only)
  */
-router.get('/', async (req: Request, res: Response) => {
+router.get('/', authenticate, requireRole('ADMIN', 'SUPER_ADMIN', 'OWNER'), async (req: Request, res: Response) => {
   try {
     const { limit = 50, source } = req.query;
 

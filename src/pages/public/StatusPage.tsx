@@ -60,8 +60,8 @@ function formatUptime(seconds: number): string {
   const days = Math.floor(seconds / 86400);
   const hours = Math.floor((seconds % 86400) / 3600);
   const mins = Math.floor((seconds % 3600) / 60);
-  if (days > 0) return `${days}d ${hours}h ${mins}m`;
-  if (hours > 0) return `${hours}h ${mins}m`;
+  if (days > 0) {return `${days}d ${hours}h ${mins}m`;}
+  if (hours > 0) {return `${hours}h ${mins}m`;}
   return `${mins}m`;
 }
 
@@ -165,7 +165,7 @@ export const StatusPage: React.FC = () => {
       setLoading(true);
       setError(null);
       const res = await fetch('/api/v1/public/status');
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) {throw new Error(`HTTP ${res.status}`);}
       const json: StatusResponse = await res.json();
       setData(json);
       setLastRefresh(new Date());

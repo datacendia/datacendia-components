@@ -18,7 +18,7 @@ import { logger } from '../lib/logger';
 // Permanent blocking agents with enforceable veto rights
 // =============================================================================
 
-import { ollamaService, DomainAgent } from '../lib/ollama';
+import { ollamaService } from '../lib/ollama';
 import { api } from '../lib/api';
 
 // =============================================================================
@@ -366,14 +366,14 @@ class VetoService {
   async syncFromBackend(): Promise<number> {
     try {
       const res = await api.get<VetoDecision[]>('/veto/decisions');
-      if (!res.success) return 0;
+      if (!res.success) {return 0;}
       const decisions = Array.isArray(res.data) ? res.data : (res as any).decisions;
-      if (!Array.isArray(decisions)) return 0;
+      if (!Array.isArray(decisions)) {return 0;}
       for (const d of decisions) {
         // Normalize dates
-        if (typeof d.submittedAt === 'string') d.submittedAt = new Date(d.submittedAt);
-        if (d.decidedAt && typeof d.decidedAt === 'string') d.decidedAt = new Date(d.decidedAt);
-        d.reviews?.forEach((r: any) => { if (typeof r.reviewedAt === 'string') r.reviewedAt = new Date(r.reviewedAt); });
+        if (typeof d.submittedAt === 'string') {d.submittedAt = new Date(d.submittedAt);}
+        if (d.decidedAt && typeof d.decidedAt === 'string') {d.decidedAt = new Date(d.decidedAt);}
+        d.reviews?.forEach((r: any) => { if (typeof r.reviewedAt === 'string') {r.reviewedAt = new Date(r.reviewedAt);} });
         this.decisions.set(d.id, d);
       }
       this.saveToStorage();

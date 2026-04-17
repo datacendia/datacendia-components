@@ -22,7 +22,6 @@ import apiClient from '../../lib/api/client';
 import {
   Archive,
   Shield,
-  CheckCircle,
   AlertTriangle,
   Clock,
   Users,
@@ -40,7 +39,6 @@ import {
   Eye,
   ChevronLeft,
   ChevronRight,
-  SlidersHorizontal,
 } from 'lucide-react';
 
 // Helper to generate dynamic timestamps relative to now

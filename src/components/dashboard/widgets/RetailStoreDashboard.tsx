@@ -18,8 +18,8 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
-import { Store, ShoppingCart, Users, TrendingUp, Package, Bot, DollarSign, BarChart3 } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { Store, ShoppingCart, Users, Package, Bot, DollarSign, BarChart3 } from 'lucide-react';
+import { deterministicFloat } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES

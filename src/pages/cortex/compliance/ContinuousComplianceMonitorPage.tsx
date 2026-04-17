@@ -17,7 +17,7 @@ import { logger } from '../../../lib/logger';
 // CendiaContinuousCompliance™ - Real-Time Compliance Monitoring
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
 import {
@@ -26,8 +26,6 @@ import {
   AlertTriangle,
   CheckCircle,
   XCircle,
-  TrendingUp,
-  TrendingDown,
   Clock,
   FileText,
   Loader2,
@@ -35,10 +33,9 @@ import {
   Bell,
   BarChart3,
   Info,
-  ChevronDown,
 } from 'lucide-react';
-import { ReportSection, POIList, MiniBarChart, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
@@ -491,7 +488,7 @@ export default function ContinuousComplianceMonitorPage() {
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2"><BarChart3 className="w-5 h-5 text-indigo-500" /> Enhanced Analytics</h2>
           <div className="flex items-center gap-2">
-            <SavedViewManager pageId="compliance" currentFilters={{ framework: selectedFramework }} onLoadView={(f) => { if (f.framework) setSelectedFramework(f.framework); }} />
+            <SavedViewManager pageId="compliance" currentFilters={{ framework: selectedFramework }} onLoadView={(f) => { if (f.framework) {setSelectedFramework(f.framework);} }} />
             <ExportToolbar data={frameworks.map(f => ({ name: f.name, version: f.version, controls: f.controlCount, compliant: f.compliantCount, status: f.status }))} columns={[{ key: 'name', label: 'Framework' }, { key: 'version', label: 'Version' }, { key: 'controls', label: 'Controls' }, { key: 'compliant', label: 'Compliant' }, { key: 'status', label: 'Status' }]} filename="compliance-frameworks" />
             <PDFExportButton title="Compliance Monitor Report" subtitle="Continuous Compliance Monitoring Summary" sections={[{ heading: 'Framework Status', content: `${frameworks.length} frameworks monitored. ${frameworks.filter(f => f.status === 'compliant').length} fully compliant. ${frameworks.filter(f => f.driftDetected).length} with drift detected.`, metrics: [{ label: 'Frameworks', value: String(frameworks.length) }, { label: 'Compliant', value: String(frameworks.filter(f => f.status === 'compliant').length) }, { label: 'Drift Alerts', value: String(frameworks.filter(f => f.driftDetected).length) }] }]} />
           </div>

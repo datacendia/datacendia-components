@@ -19,7 +19,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { Hotel, Users, DollarSign, Star, Bot, Calendar, Bed } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 
 // =============================================================================
 // TYPES

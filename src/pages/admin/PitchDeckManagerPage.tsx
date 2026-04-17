@@ -2,11 +2,9 @@ import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { api } from '../../lib/api';
 import {
   Search, FileText, Upload, Download, Trash2, Plus, Edit3,
-  ChevronRight, ChevronLeft, ChevronDown, Eye, Copy, Filter, Globe,
-  Building2, Users, Briefcase, Image, Type, Layers,
-  MoreVertical, X, Check, ArrowLeft, Maximize2, Minimize2,
-  FolderOpen, Tag, Calendar, Mail, ExternalLink, RefreshCw,
-  Grid, List, SortAsc, Presentation,
+  ChevronRight, ChevronLeft, ChevronDown, Globe,
+  Building2, Users, Briefcase, Image, Type, Layers, X, Check, ArrowLeft,
+  Grid, List, Presentation,
 } from 'lucide-react';
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -136,7 +134,7 @@ function generateDecks(): DeckFile[] {
     ['019','emergence','Emergence Capital','us','San Mateo, CA','$2B+'],['020','iconiq','ICONIQ Growth','us','San Francisco, CA','$15B+'],
   ];
   for (const [num,slug,name,region,loc,aum] of inv100)
-    decks.push(mkDeck(++idRef.v, 'investor-100', num, slug, name, 'Venture Capital', region, loc, aum));
+    {decks.push(mkDeck(++idRef.v, 'investor-100', num, slug, name, 'Venture Capital', region, loc, aum));}
   // Fill remaining 100 investor-100 entries
   const inv100more = [
     'Redpoint','Craft Ventures','Wing VC','FirstMark','GV','Kleiner Perkins','Founders Fund','Tiger Global','Coatue','Addition',
@@ -329,7 +327,7 @@ const SlideEditor: React.FC<{
   const handleDeleteSlide = (idx: number) => {
     const newSlides = deck.slides.filter((_, i) => i !== idx).map((s, i) => ({ ...s, number: i + 1 }));
     onUpdate({ ...deck, slides: newSlides, slideCount: newSlides.length });
-    if (selectedSlide >= newSlides.length) setSelectedSlide(Math.max(0, newSlides.length - 1));
+    if (selectedSlide >= newSlides.length) {setSelectedSlide(Math.max(0, newSlides.length - 1));}
   };
 
   const handleUpdateSlideTitle = (title: string) => {
@@ -366,7 +364,7 @@ const SlideEditor: React.FC<{
     onUpdate({ ...deck, slides: newSlides });
   };
 
-  if (!slide) return null;
+  if (!slide) {return null;}
 
   return (
     <div className="fixed inset-0 z-50 bg-black/80 flex">
@@ -448,7 +446,7 @@ const SlideEditor: React.FC<{
                           className="flex-1 text-sm text-neutral-300 bg-neutral-800 border border-blue-500 rounded px-2 py-1 focus:outline-none"
                           value={textValue}
                           onChange={(e) => setTextValue(e.target.value)}
-                          onKeyDown={(e) => { if (e.key === 'Enter') handleUpdateText(ti, textValue); if (e.key === 'Escape') setEditingText(null); }}
+                          onKeyDown={(e) => { if (e.key === 'Enter') {handleUpdateText(ti, textValue);} if (e.key === 'Escape') {setEditingText(null);} }}
                           autoFocus
                         />
                         <button onClick={() => handleUpdateText(ti, textValue)} className="p-1 text-green-400 hover:bg-neutral-700 rounded"><Check className="w-3.5 h-3.5" /></button>
@@ -543,7 +541,7 @@ const DeckDetail: React.FC<{
           defaultValue={value}
           autoFocus
           onBlur={(e) => updateField(field, e.target.value)}
-          onKeyDown={(e) => { if (e.key === 'Enter') updateField(field, (e.target as HTMLInputElement).value); }}
+          onKeyDown={(e) => { if (e.key === 'Enter') {updateField(field, (e.target as HTMLInputElement).value);} }}
         />
       ) : (
         <p className="text-sm text-neutral-200 cursor-pointer hover:text-white" onClick={() => setEditField(field as string)}>
@@ -776,13 +774,13 @@ const PitchDeckManagerPage: React.FC = () => {
 
   const handleDeleteDeck = (id: string) => {
     setDecks(prev => prev.filter(d => d.id !== id));
-    if (selectedDeckId === id) setSelectedDeckId(null);
+    if (selectedDeckId === id) {setSelectedDeckId(null);}
   };
 
   // Category counts
   const catCounts = useMemo(() => {
     const counts: Record<string, number> = { all: decks.length };
-    for (const d of decks) counts[d.category] = (counts[d.category] || 0) + 1;
+    for (const d of decks) {counts[d.category] = (counts[d.category] || 0) + 1;}
     return counts;
   }, [decks]);
 

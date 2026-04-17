@@ -28,7 +28,6 @@ import {
   Activity,
   Check,
   Play,
-  Zap,
   ArrowRight,
   ShieldCheck,
   Scale,

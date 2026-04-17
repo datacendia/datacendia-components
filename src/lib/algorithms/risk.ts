@@ -89,7 +89,7 @@ export function expectedLoss(
  * @param confidenceLevel - e.g., 0.95 for 95% VaR
  */
 export function valueAtRisk(losses: number[], confidenceLevel: number): number {
-  if (losses.length === 0) return 0;
+  if (losses.length === 0) {return 0;}
   return percentile(losses, confidenceLevel * 100);
 }
 
@@ -99,7 +99,7 @@ export function valueAtRisk(losses: number[], confidenceLevel: number): number {
  * More conservative than VaR.
  */
 export function conditionalValueAtRisk(losses: number[], confidenceLevel: number): number {
-  if (losses.length === 0) return 0;
+  if (losses.length === 0) {return 0;}
   const sorted = [...losses].sort((a, b) => a - b);
   const cutoff = Math.ceil(sorted.length * confidenceLevel);
   const tail = sorted.slice(cutoff);
@@ -168,10 +168,10 @@ export function compositeRiskScore(
  * Convert a 0-100 risk score to a letter grade, label, and color.
  */
 export function riskGrade(score: number): { grade: string; label: string; color: string } {
-  if (score >= 80) return { grade: 'F', label: 'Critical', color: 'red' };
-  if (score >= 65) return { grade: 'D', label: 'High', color: 'orange' };
-  if (score >= 50) return { grade: 'C', label: 'Elevated', color: 'yellow' };
-  if (score >= 30) return { grade: 'B', label: 'Moderate', color: 'lime' };
+  if (score >= 80) {return { grade: 'F', label: 'Critical', color: 'red' };}
+  if (score >= 65) {return { grade: 'D', label: 'High', color: 'orange' };}
+  if (score >= 50) {return { grade: 'C', label: 'Elevated', color: 'yellow' };}
+  if (score >= 30) {return { grade: 'B', label: 'Moderate', color: 'lime' };}
   return { grade: 'A', label: 'Low', color: 'green' };
 }
 
@@ -187,7 +187,7 @@ export function riskGrade(score: number): { grade: string; label: string; color:
  * @param periods - Number of periods to average over (default: all)
  */
 export function riskVelocity(scores: number[], periods?: number): number {
-  if (scores.length < 2) return 0;
+  if (scores.length < 2) {return 0;}
   const n = periods ? Math.min(periods, scores.length - 1) : scores.length - 1;
   const recent = scores.slice(-n - 1);
   let totalChange = 0;
@@ -202,7 +202,7 @@ export function riskVelocity(scores: number[], periods?: number): number {
  * Positive = risk increasing faster, Negative = risk decelerating.
  */
 export function riskAcceleration(scores: number[]): number {
-  if (scores.length < 3) return 0;
+  if (scores.length < 3) {return 0;}
   const velocities: number[] = [];
   for (let i = 1; i < scores.length; i++) {
     velocities.push(scores[i] - scores[i - 1]);
@@ -260,7 +260,7 @@ export function monteCarloRisk(
     }
 
     losses.push(totalLoss);
-    if (hadLoss) anyLossCount++;
+    if (hadLoss) {anyLossCount++;}
   }
 
   const sorted = [...losses].sort((a, b) => a - b);

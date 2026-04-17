@@ -107,7 +107,7 @@ export const GhostBoardPage: React.FC = () => {
     (async () => {
       try {
         await api.get<any>('/decision-intel/ghost-board/sessions?status=completed&limit=10');
-        if (cancelled) return;
+        if (cancelled) {return;}
         // Sessions are used for historical context; not stored in local state yet.
         // Backend availability confirms readiness for production usage.
       } catch { /* backend unavailable — user can still run live sessions */ }

@@ -82,15 +82,32 @@
     "zustand": "^5.0.9"
   },
   "overrides": {
-    "fast-xml-parser": "5.4.1",
+    "fast-xml-parser": "5.5.8",
     "elliptic": "6.6.1",
     "multer": ">=2.1.0",
     "underscore": ">=1.13.7",
+    "protobufjs": "7.5.5",
+    "@xmldom/xmldom": ">=0.8.12",
+    "defu": ">=6.1.4",
+    "effect": ">=3.20.0",
+    "basic-ftp": ">=5.2.1",
+    "hono": ">=4.11.7",
+    "@hono/node-server": ">=1.19.13",
+    "lodash": ">=4.17.22",
+    "path-to-regexp": ">=0.1.13",
+    "picomatch": ">=2.3.2",
+    "socket.io-parser": ">=4.2.6",
+    "nodemailer": ">=8.0.4",
     "minio": {
-      "fast-xml-parser": "5.4.1"
+      "fast-xml-parser": "5.5.8"
     },
     "@aws-sdk/xml-builder": {
-      "fast-xml-parser": "5.4.1"
+      "fast-xml-parser": "5.5.8"
+    },
+    "@azure/data-tables": {
+      "@azure/core-xml": {
+        "fast-xml-parser": "5.5.8"
+      }
     }
   },
   "devDependencies": {
@@ -119,6 +136,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "^4.4.1",
     "jsdom": "^24.0.0",
     "postcss": "^8.4.31",
     "prettier": "^3.2.0",

@@ -17,7 +17,7 @@ import { logger } from '../../../lib/logger';
 // CendiaPostQuantumKMS™ - Quantum-Resistant Cryptographic Signatures
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
 import {
@@ -27,7 +27,6 @@ import {
   Zap,
   CheckCircle,
   AlertTriangle,
-  Download,
   RefreshCw,
   Info,
   Loader2,

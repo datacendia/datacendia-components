@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import kmsRoutes from '../kms.js';
 import postQuantumRoutes from '../post-quantum.js';
@@ -27,6 +28,9 @@ import hsmRoutes from '../hsm.js';
 import credentialEvidenceRoutes from '../credential-evidence.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+router.use(authenticate);
 
 // Community routes
 router.use('/sentry', sentryRoutes);

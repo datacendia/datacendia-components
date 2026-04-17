@@ -28,7 +28,6 @@ import {
   Globe,
   Clock,
   Search,
-  FileCheck,
   AlertTriangle,
   CheckCircle2,
   XCircle,
@@ -40,10 +39,8 @@ import {
   Eye,
   Brain,
   Scale,
-  Building2,
   BarChart3,
   RefreshCw,
-  ChevronRight,
   ChevronDown,
   Award,
   Zap,
@@ -55,15 +52,14 @@ import {
   GitBranch,
   Layers,
   Target,
-  ArrowUpRight,
   Info,
 } from 'lucide-react';
 import { cn } from '../../../../lib/utils';
 import { DataTable, MiniBarChart, POIList, StatusBadge, type TableColumn, type ChartDataPoint, type PointOfInterest } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner, TrendBadge, type AnomalyItem } from '../../../components/reports/TrendSparklineKit';
-import { HeatmapCalendar, AuditTimeline, type HeatmapDay, type TimelineEvent as AuditEvent } from '../../../components/reports/HeatmapTimelineKit';
+import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
-import { MetricTooltip, SavedViewManager, ThresholdIndicator } from '../../../components/reports/InteractionKit';
+import { SavedViewManager, ThresholdIndicator } from '../../../components/reports/InteractionKit';
 import { calculateIISS } from '../../../lib/algorithms/iiss-scoring';
 
 // =============================================================================
@@ -334,7 +330,7 @@ export default function DCIIDashboardPage() {
               Enhanced Analytics
             </h2>
             <div className="flex items-center gap-2">
-              <SavedViewManager pageId="dcii" currentFilters={{ tab: activeTab, org: selectedOrg }} onLoadView={(f) => { if (f.tab) setActiveTab(f.tab); if (f.org) setSelectedOrg(f.org); }} />
+              <SavedViewManager pageId="dcii" currentFilters={{ tab: activeTab, org: selectedOrg }} onLoadView={(f) => { if (f.tab) {setActiveTab(f.tab);} if (f.org) {setSelectedOrg(f.org);} }} />
               <ExportToolbar
                 data={iissScores.map((s: any) => ({ org: s.organizationId, score: s.overallScore, band: s.band }))}
                 columns={[{ key: 'org', label: 'Organization' }, { key: 'score', label: 'IISS Score' }, { key: 'band', label: 'Band' }]}

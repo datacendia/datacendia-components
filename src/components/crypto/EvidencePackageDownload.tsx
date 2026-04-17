@@ -17,8 +17,6 @@ import React, { useState } from 'react';
 import {
   Download,
   Package,
-  Shield,
-  FileText,
   Code,
   CheckCircle,
   Loader2,

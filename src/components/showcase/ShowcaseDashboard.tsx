@@ -22,12 +22,8 @@ import React, { useState } from 'react';
 import {
   Vertical,
   COMPANY_PROFILES,
-  DECISIONS,
   EXECUTIVES,
-  METRICS,
-  REGULATORY_FRAMEWORKS,
   TIME_SCENARIOS,
-  DECISION_DEBT,
   AI_AGENTS,
   BOARD_AVATARS,
   FAILURE_MODES,

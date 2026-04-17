@@ -420,7 +420,7 @@ export const AuditWorkflowPage: React.FC = () => {
           api.get<any>('/govern/audits'),
           api.get<any>('/evidence'),
         ]);
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (auditsRes.success && auditsRes.data) {
           const audits = Array.isArray(auditsRes.data) ? auditsRes.data : [auditsRes.data];
           if (audits.length > 0) {
@@ -447,7 +447,7 @@ export const AuditWorkflowPage: React.FC = () => {
       } catch {
         // API unavailable — keep mock data
       } finally {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) {setLoading(false);}
       }
     })();
     return () => { cancelled = true; };

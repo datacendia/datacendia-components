@@ -43,12 +43,10 @@ import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi, api } fr
 import { sovereignApi } from '../../../lib/sovereignApi';
 import { documentExportService, type AuditPackageData } from '../../../services/DocumentExportService';
 import {
-  Rewind, Play, FastForward, Clock, Shield, FileText, Eye, Building2, RotateCcw,
-  Landmark, Lock, BarChart3, FileKey, Bookmark, Share2, LayoutDashboard, GitCompare,
-  Theater, Waypoints, Dice5, Globe, Target, Zap, ChevronRight
+  Rewind, Play, FastForward, Clock, Shield, RotateCcw, BarChart3, Bookmark, Share2, GitCompare,
+  Theater, Waypoints, Dice5, Globe, Zap
 } from 'lucide-react';
-import { ReportSection, POIList, MetricCard, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';

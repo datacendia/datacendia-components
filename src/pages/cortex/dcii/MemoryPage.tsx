@@ -19,9 +19,7 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
-import {
-  Brain, BookOpen, Users, Clock, Search, ChevronRight, Shield,
-  FileText, Star, Archive, AlertTriangle, TrendingUp, Layers,
+import { Search, ChevronRight, Star, Archive, TrendingUp, Layers,
 } from 'lucide-react';
 
 interface MemoryEntry {
@@ -70,7 +68,7 @@ export const MemoryPage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/dcii/memory');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && Array.isArray(res.data) && res.data.length > 0) {
           setEntries(res.data.map((e: any): MemoryEntry => ({
             id: e.id,

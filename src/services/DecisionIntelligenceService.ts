@@ -351,7 +351,7 @@ class DecisionIntelligenceService {
       const gbRes = await api.get<any[]>('/decision-intel/ghost-board/sessions?limit=50');
       if (gbRes.success && Array.isArray(gbRes.data)) {
         for (const g of gbRes.data) {
-          if (typeof g.runAt === 'string') g.runAt = new Date(g.runAt);
+          if (typeof g.runAt === 'string') {g.runAt = new Date(g.runAt);}
           this.ghostBoards.set(g.id, g as GhostBoardResult);
         }
         total += gbRes.data.length;
@@ -361,7 +361,7 @@ class DecisionIntelligenceService {
       const pmRes = await api.get<any[]>('/decision-intel/pre-mortem/analyses?limit=50');
       if (pmRes.success && Array.isArray(pmRes.data)) {
         for (const p of pmRes.data) {
-          if (typeof p.analyzedAt === 'string') p.analyzedAt = new Date(p.analyzedAt);
+          if (typeof p.analyzedAt === 'string') {p.analyzedAt = new Date(p.analyzedAt);}
           this.preMortems.set(p.id, p as PreMortemResult);
         }
         total += pmRes.data.length;
@@ -371,13 +371,13 @@ class DecisionIntelligenceService {
       const ddRes = await api.get<any>('/premium/decision-debt/dashboard');
       if (ddRes.success && ddRes.data?.pendingDecisions && Array.isArray(ddRes.data.pendingDecisions)) {
         for (const p of ddRes.data.pendingDecisions) {
-          if (typeof p.createdAt === 'string') p.createdAt = new Date(p.createdAt);
+          if (typeof p.createdAt === 'string') {p.createdAt = new Date(p.createdAt);}
           this.pendingDecisions.set(p.id, p as PendingDecision);
         }
         total += ddRes.data.pendingDecisions.length;
       }
     } catch { /* offline-tolerant */ }
-    if (total > 0) this.saveToStorage();
+    if (total > 0) {this.saveToStorage();}
     return total;
   }
 

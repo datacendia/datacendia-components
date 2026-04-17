@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import deliberationsRoutes from '../deliberations.js';
 import councilRoutes from '../council.js';
@@ -26,6 +27,10 @@ import dissentRoutes from '../dissent.js';
 import echoRoutes from '../echo.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+// Ensures all sub-routes require a valid JWT even if a child route forgets to apply auth.
+router.use(authenticate);
 
 // Community routes
 router.use('/council/deliberations', deliberationsRoutes); // Must come BEFORE /council

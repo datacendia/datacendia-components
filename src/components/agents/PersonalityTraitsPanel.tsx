@@ -29,7 +29,6 @@ import {
   RefreshCw,
 } from 'lucide-react';
 import {
-  PersonalityTrait,
   TraitCategory,
   getAvailableTraits,
   getTraitCategories,

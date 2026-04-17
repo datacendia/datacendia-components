@@ -28,7 +28,7 @@
 // Sources cited inline. All financial figures from public filings/settlements.
 // =============================================================================
 
-import { calculateIISS, type IISSResult } from './iiss-scoring';
+import { calculateIISS } from './iiss-scoring';
 
 // =============================================================================
 // TYPES

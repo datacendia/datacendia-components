@@ -20,8 +20,7 @@ import React, { useState, useEffect } from 'react';
 import apiClient from '../../../lib/api/client';
 import { cn } from '../../../../lib/utils';
 import {
-  GitBranch, Plus, Play, Trash2, BarChart3, TrendingUp, TrendingDown,
-  AlertTriangle, CheckCircle, ChevronRight, Copy, ArrowRight, Layers,
+  GitBranch, Plus, TrendingUp, TrendingDown, ArrowRight, Layers,
 } from 'lucide-react';
 
 interface Scenario {

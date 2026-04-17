@@ -26,7 +26,6 @@ import {
   Button,
   Card,
   CardContent,
-  CardActions,
   Slider,
   Select,
   MenuItem,
@@ -37,7 +36,6 @@ import {
   Alert,
   Tabs,
   Tab,
-  Divider,
   IconButton,
   Tooltip,
   CircularProgress,
@@ -51,8 +49,6 @@ import {
 import Grid from '@mui/material/GridLegacy';
 import {
   PlayArrow as PlayIcon,
-  Stop as StopIcon,
-  Refresh as RefreshIcon,
   Download as DownloadIcon,
   Science as ScienceIcon,
   Group as GroupIcon,

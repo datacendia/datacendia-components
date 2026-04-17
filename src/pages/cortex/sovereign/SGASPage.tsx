@@ -29,16 +29,12 @@ import {
   Tabs,
   Tab,
   Chip,
-  LinearProgress,
   Alert,
   TextField,
   Select,
   MenuItem,
   FormControl,
   InputLabel,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
   Table,
   TableBody,
   TableCell,
@@ -46,9 +42,7 @@ import {
   TableHead,
   TableRow,
   Paper,
-  Divider,
   IconButton,
-  Tooltip,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -64,14 +58,9 @@ import {
   Settings,
   Play,
   CheckCircle,
-  XCircle,
   Clock,
   Activity,
-  BarChart2,
   Network,
-  Lock,
-  Unlock,
-  ChevronDown,
   RefreshCw,
   FileText,
   Zap,
@@ -79,8 +68,8 @@ import {
   TrendingUp,
   TrendingDown,
 } from 'lucide-react';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
@@ -783,7 +772,7 @@ export default function SGASPage() {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-semibold text-white flex items-center gap-2"><Target className="w-5 h-5 text-violet-400" /> Enhanced Analytics</h2>
               <div className="flex items-center gap-2">
-                <SavedViewManager pageId="sgas" currentFilters={{ tab: tabValue }} onLoadView={(f) => { if (f.tab !== undefined) setTabValue(f.tab); }} />
+                <SavedViewManager pageId="sgas" currentFilters={{ tab: tabValue }} onLoadView={(f) => { if (f.tab !== undefined) {setTabValue(f.tab);} }} />
                 <ExportToolbar data={statistics ? [{ active: statistics.activeCount, completed: statistics.completedCount, avgDuration: statistics.averageDurationMs, approvalRate: statistics.approvalRate }] : []} columns={[{ key: 'active', label: 'Active' }, { key: 'completed', label: 'Completed' }, { key: 'avgDuration', label: 'Avg Duration (ms)' }, { key: 'approvalRate', label: 'Approval Rate' }]} filename="sgas-statistics" />
                 <PDFExportButton title="SGAS Report" subtitle="Synthetic Governance Agent Simulation" sections={[{ heading: 'Overview', content: `${statistics?.activeCount || 0} active deliberations, ${statistics?.completedCount || 0} completed. Approval rate: ${((statistics?.approvalRate || 0) * 100).toFixed(1)}%.`, metrics: [{ label: 'Active', value: String(statistics?.activeCount || 0) }, { label: 'Completed', value: String(statistics?.completedCount || 0) }, { label: 'Approval Rate', value: `${((statistics?.approvalRate || 0) * 100).toFixed(1)}%` }] }]} />
               </div>

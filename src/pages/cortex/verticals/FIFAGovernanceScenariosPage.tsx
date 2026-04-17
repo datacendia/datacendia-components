@@ -37,7 +37,6 @@ import {
   Fingerprint,
   Scale,
   Gavel,
-  TrendingUp,
   Users,
   Timer,
   ShieldCheck,
@@ -56,7 +55,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicInt } from '../../../lib/deterministic';
 import {
   FIFA_GOVERNANCE_SCENARIOS,
   GovernanceScenario,

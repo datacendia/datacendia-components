@@ -22,7 +22,7 @@
 //   - IQR Fencing (Tukey, 1977)
 //   - CUSUM (Page, 1954)
 
-import { mean, stdDevPopulation, median, iqr, ewma, zScore } from './statistics';
+import { mean, stdDevPopulation, median } from './statistics';
 
 // =============================================================================
 // TYPES
@@ -62,11 +62,11 @@ export function detectAnomaliesZScore(
   values: number[],
   threshold: number = 3.0
 ): AnomalyResult[] {
-  if (values.length < 3) return [];
+  if (values.length < 3) {return [];}
 
   const avg = mean(values);
   const sd = stdDevPopulation(values);
-  if (sd === 0) return [];
+  if (sd === 0) {return [];}
 
   const anomalies: AnomalyResult[] = [];
 
@@ -113,7 +113,7 @@ export function medianAbsoluteDeviation(values: number[]): number {
 export function modifiedZScore(value: number, values: number[]): number {
   const med = median(values);
   const mad = medianAbsoluteDeviation(values);
-  if (mad === 0) return 0;
+  if (mad === 0) {return 0;}
   return 0.6745 * (value - med) / mad;
 }
 
@@ -124,11 +124,11 @@ export function detectAnomaliesModifiedZ(
   values: number[],
   threshold: number = 3.5
 ): AnomalyResult[] {
-  if (values.length < 3) return [];
+  if (values.length < 3) {return [];}
 
   const med = median(values);
   const mad = medianAbsoluteDeviation(values);
-  if (mad === 0) return [];
+  if (mad === 0) {return [];}
 
   const anomalies: AnomalyResult[] = [];
 
@@ -163,7 +163,7 @@ export function detectOutliersIQR(
   values: number[],
   k: number = 1.5
 ): AnomalyResult[] {
-  if (values.length < 4) return [];
+  if (values.length < 4) {return [];}
 
   const sorted = [...values].sort((a, b) => a - b);
   const n = sorted.length;
@@ -371,8 +371,8 @@ export function earlyWarningScore(
     }
 
     let deviation = (ind.current - avg) / sd;
-    if (ind.higherIsBad === false) deviation = -deviation;
-    if (ind.higherIsBad === undefined) deviation = Math.abs(deviation);
+    if (ind.higherIsBad === false) {deviation = -deviation;}
+    if (ind.higherIsBad === undefined) {deviation = Math.abs(deviation);}
 
     const factorScore = Math.min(100, Math.max(0, deviation * 25));
     weightedScore += factorScore * normalizedWeight;
@@ -386,11 +386,11 @@ export function earlyWarningScore(
   const score = totalWeight > 0 ? Math.round(Math.min(100, weightedScore / totalWeight)) : 0;
 
   let level: 'normal' | 'watch' | 'warning' | 'critical' | 'emergency';
-  if (score >= 80) level = 'emergency';
-  else if (score >= 60) level = 'critical';
-  else if (score >= 40) level = 'warning';
-  else if (score >= 20) level = 'watch';
-  else level = 'normal';
+  if (score >= 80) {level = 'emergency';}
+  else if (score >= 60) {level = 'critical';}
+  else if (score >= 40) {level = 'warning';}
+  else if (score >= 20) {level = 'watch';}
+  else {level = 'normal';}
 
   return { score, level, triggers };
 }

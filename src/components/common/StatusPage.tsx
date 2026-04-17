@@ -19,7 +19,7 @@
  * - Scheduled maintenance
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { cn } from '../../../lib/utils';
 
 interface ServiceStatus {

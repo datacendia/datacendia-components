@@ -20,11 +20,8 @@ import { logger } from '../../lib/logger';
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   HeartPulse,
-  Server,
-  Database,
   Cpu,
   HardDrive,
-  Activity,
   AlertTriangle,
   CheckCircle2,
   XCircle,
@@ -32,15 +29,10 @@ import {
   RefreshCw,
   Wifi,
   WifiOff,
-  Zap,
   MemoryStick,
   Network,
-  Shield,
   Bell,
-  BellOff,
   ExternalLink,
-  TrendingUp,
-  TrendingDown,
 } from 'lucide-react';
 import { api } from '../../lib/api';
 

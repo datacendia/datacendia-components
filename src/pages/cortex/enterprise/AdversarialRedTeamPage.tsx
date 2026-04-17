@@ -16,11 +16,11 @@
 // "100 Ways This Could Fail" - Every agent becomes a devil's advocate
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';
@@ -30,16 +30,13 @@ import {
   Shield,
   Skull,
   Zap,
-  TrendingDown,
   FileText,
-  Play,
   Loader2,
   CheckCircle,
   XCircle,
   ChevronDown,
   ChevronRight,
   Download,
-  Share2,
   BarChart3,
   Users,
   DollarSign,
@@ -47,9 +44,7 @@ import {
   Scale,
   Heart,
   Globe,
-  Cpu,
   Truck,
-  Building,
 } from 'lucide-react';
 
 // =============================================================================

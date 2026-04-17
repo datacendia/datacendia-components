@@ -21,8 +21,7 @@ import { Link } from 'react-router-dom';
 import { api } from '../../../lib/api';
 import {
   Scale, Clock, Users, MessageSquare, Shield, AlertTriangle,
-  FileText, Key, Archive, Dna, Theater, FileSignature,
-  ExternalLink, Zap, ChevronRight
+  FileText, Key, Archive, Dna, Theater, FileSignature, Zap, ChevronRight
 } from 'lucide-react';
 
 // =============================================================================

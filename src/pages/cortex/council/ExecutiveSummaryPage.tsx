@@ -17,13 +17,12 @@
 // Generate board-ready executive summaries from deliberation outputs using AI.
 // Connects to real Ollama backend for summary generation.
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  FileText, Download, Copy, Check, Brain, Clock, RefreshCw,
-  ChevronRight, Loader2, Users, Shield, BarChart3, Briefcase,
+  FileText, Download, Copy, Check, Brain, Clock, Loader2, Users, Shield, BarChart3, Briefcase,
 } from 'lucide-react';
 
 interface SummaryTemplate {

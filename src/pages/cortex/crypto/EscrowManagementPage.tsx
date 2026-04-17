@@ -22,21 +22,12 @@ import {
   Users,
   Clock,
   Shield,
-  CheckCircle,
-  XCircle,
-  AlertTriangle,
-  Copy,
-  Download,
   Plus,
   Trash2,
   ChevronRight,
   ChevronDown,
   Loader2,
-  FileText,
-  Hash,
   Share2,
-  Eye,
-  EyeOff,
 } from 'lucide-react';
 
 // =============================================================================
@@ -132,7 +123,7 @@ export const EscrowManagementPage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/sovereign-arch/timelock/active');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && Array.isArray(res.data) && res.data.length > 0) {
           setEscrows(res.data.map((e: any): EscrowedDecision => ({
             id: e.id,
@@ -159,7 +150,7 @@ export const EscrowManagementPage: React.FC = () => {
           })));
         }
       } catch { /* keep mock data */ }
-      finally { if (!cancelled) setLoading(false); }
+      finally { if (!cancelled) {setLoading(false);} }
     })();
     return () => { cancelled = true; };
   }, []);
@@ -202,7 +193,7 @@ export const EscrowManagementPage: React.FC = () => {
   };
 
   const handleSubmitShare = async () => {
-    if (!shareInput.trim()) return;
+    if (!shareInput.trim()) {return;}
     setIsProcessing(true);
     // In production: POST /api/v1/escrow/:id/submit-share
     await new Promise(r => setTimeout(r, 1500));
@@ -226,7 +217,7 @@ export const EscrowManagementPage: React.FC = () => {
 
   const getTimeRemaining = (expiresAt: string) => {
     const diff = new Date(expiresAt).getTime() - Date.now();
-    if (diff <= 0) return 'Expired';
+    if (diff <= 0) {return 'Expired';}
     const hours = Math.floor(diff / 3600000);
     const minutes = Math.floor((diff % 3600000) / 60000);
     return `${hours}h ${minutes}m remaining`;

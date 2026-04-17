@@ -20,8 +20,8 @@ import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Shield, CheckCircle, XCircle, AlertTriangle, Search, Clock,
-  FileText, ExternalLink, Brain, Loader2, ThumbsUp, ThumbsDown,
+  Shield, CheckCircle, XCircle, AlertTriangle,
+  FileText, Brain, Loader2,
 } from 'lucide-react';
 
 interface VerificationResult {

@@ -16,7 +16,7 @@ import { useNavigate } from 'react-router-dom';
 import { api } from '../../../lib/api';
 import {
   Shield, CheckCircle2, AlertTriangle, Lock, ArrowRight, Crown,
-  FileCheck, ExternalLink, ChevronRight, Activity,
+  FileCheck, ChevronRight, Activity,
 } from 'lucide-react';
 
 // =============================================================================
@@ -101,7 +101,7 @@ export const ComplianceReadinessPage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/compliance');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && res.data) {
           const items = Array.isArray(res.data) ? res.data : res.data.frameworks || res.data.items || [];
           if (items.length > 0) {
@@ -117,7 +117,7 @@ export const ComplianceReadinessPage: React.FC = () => {
           }
         }
       } catch { /* keep defaults */ }
-      finally { if (!cancelled) setLoading(false); }
+      finally { if (!cancelled) {setLoading(false);} }
     })();
     return () => { cancelled = true; };
   }, []);

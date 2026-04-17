@@ -17,20 +17,13 @@ import React, { useState, useEffect } from 'react';
 import { api } from '../../../lib/api';
 import {
   Shield,
-  AlertTriangle,
   CheckCircle,
-  XCircle,
   BarChart3,
-  TrendingUp,
   Clock,
-  FileText,
   ChevronRight,
   Loader2,
   RefreshCw,
   Download,
-  Filter,
-  Search,
-  Info,
   AlertOctagon,
   ChevronDown,
 } from 'lucide-react';
@@ -114,7 +107,7 @@ const GapScannerPage: React.FC = () => {
           api.get<any>('/compliance'),
           api.get<any>('/compliance/findings'),
         ]);
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (fwRes.success && Array.isArray(fwRes.data) && fwRes.data.length > 0) {
           setFrameworks(fwRes.data.map((f: any) => ({
             id: f.id || f.shortName?.toLowerCase().replace(/\s/g, '-'),
@@ -150,8 +143,8 @@ const GapScannerPage: React.FC = () => {
   }, []);
 
   const filteredFindings = findings.filter(f => {
-    if (selectedFramework && f.framework !== frameworks.find(fw => fw.id === selectedFramework)?.shortName) return false;
-    if (severityFilter !== 'all' && f.severity !== severityFilter) return false;
+    if (selectedFramework && f.framework !== frameworks.find(fw => fw.id === selectedFramework)?.shortName) {return false;}
+    if (severityFilter !== 'all' && f.severity !== severityFilter) {return false;}
     return true;
   });
 
@@ -169,8 +162,8 @@ const GapScannerPage: React.FC = () => {
     try {
       const res = await api.post<any>('/compliance/scan', {});
       if (res.success && res.data) {
-        if (Array.isArray(res.data.findings)) setFindings(res.data.findings);
-        if (Array.isArray(res.data.frameworks)) setFrameworks(res.data.frameworks);
+        if (Array.isArray(res.data.findings)) {setFindings(res.data.findings);}
+        if (Array.isArray(res.data.frameworks)) {setFrameworks(res.data.frameworks);}
       }
     } catch { /* API unavailable */ }
     finally { setIsScanning(false); }

@@ -110,7 +110,7 @@ export interface RegulatoryReadiness {
  * Uses weighted average with status-based penalty.
  */
 function scorePrimitive(controls: ControlAssessment[]): { score: number; status: PrimitiveStatus } {
-  if (controls.length === 0) return { score: 0, status: 'not_implemented' };
+  if (controls.length === 0) {return { score: 0, status: 'not_implemented' };}
 
   const totalWeight = controls.reduce((s, c) => s + c.weight, 0);
   const normalizedWeights = controls.map(c => totalWeight > 0 ? c.weight / totalWeight : 1 / controls.length);
@@ -141,7 +141,7 @@ function scorePrimitive(controls: ControlAssessment[]): { score: number; status:
  */
 function calculateOverallIISS(primitives: PrimitiveScore[]): number {
   const totalWeight = primitives.reduce((s, p) => s + p.weight, 0);
-  if (totalWeight === 0) return 0;
+  if (totalWeight === 0) {return 0;}
 
   const weightedScore = primitives.reduce((sum, p) => {
     return sum + (p.score / 100) * (p.weight / totalWeight) * 1000;
@@ -154,10 +154,10 @@ function calculateOverallIISS(primitives: PrimitiveScore[]): number {
  * Determine IISS band from overall score.
  */
 function determineBand(score: number): { band: IISSBand; label: string; certification: string } {
-  if (score >= 800) return { band: 'exceptional', label: 'Exceptional', certification: 'IISS Platinum' };
-  if (score >= 600) return { band: 'resilient', label: 'Resilient', certification: 'IISS Gold' };
-  if (score >= 400) return { band: 'developing', label: 'Developing', certification: 'IISS Silver' };
-  if (score >= 200) return { band: 'vulnerable', label: 'Vulnerable', certification: 'IISS Bronze' };
+  if (score >= 800) {return { band: 'exceptional', label: 'Exceptional', certification: 'IISS Platinum' };}
+  if (score >= 600) {return { band: 'resilient', label: 'Resilient', certification: 'IISS Gold' };}
+  if (score >= 400) {return { band: 'developing', label: 'Developing', certification: 'IISS Silver' };}
+  if (score >= 200) {return { band: 'vulnerable', label: 'Vulnerable', certification: 'IISS Bronze' };}
   return { band: 'critical', label: 'Critical', certification: 'Not Certified' };
 }
 
@@ -220,9 +220,9 @@ function calculateRegulatoryReadiness(primitives: PrimitiveScore[]): RegulatoryR
     [0.25, 0.2, 0.25, 0.15, 0.15]
   ));
   const euGaps: string[] = [];
-  if (getScore('Override Accountability') < 70) euGaps.push('Human oversight documentation');
-  if (getScore('Deliberation Capture') < 80) euGaps.push('Transparency requirements');
-  if (getScore('Cognitive Bias Mitigation') < 60) euGaps.push('Bias testing obligations');
+  if (getScore('Override Accountability') < 70) {euGaps.push('Human oversight documentation');}
+  if (getScore('Deliberation Capture') < 80) {euGaps.push('Transparency requirements');}
+  if (getScore('Cognitive Bias Mitigation') < 60) {euGaps.push('Bias testing obligations');}
 
   // GDPR: needs data protection (P4, P7), transparency (P2), accountability (P3)
   const gdpr = Math.round(weightedMean(
@@ -230,8 +230,8 @@ function calculateRegulatoryReadiness(primitives: PrimitiveScore[]): RegulatoryR
     [0.3, 0.3, 0.2, 0.2]
   ));
   const gdprGaps: string[] = [];
-  if (getScore('Quantum-Resistant Integrity') < 60) gdprGaps.push('Encryption adequacy');
-  if (getScore('Continuity Memory') < 70) gdprGaps.push('Data retention compliance');
+  if (getScore('Quantum-Resistant Integrity') < 60) {gdprGaps.push('Encryption adequacy');}
+  if (getScore('Continuity Memory') < 70) {gdprGaps.push('Data retention compliance');}
 
   // SOX: needs audit trails (P1, P2), override tracking (P3), drift detection (P5)
   const sox = Math.round(weightedMean(
@@ -239,8 +239,8 @@ function calculateRegulatoryReadiness(primitives: PrimitiveScore[]): RegulatoryR
     [0.3, 0.25, 0.25, 0.2]
   ));
   const soxGaps: string[] = [];
-  if (getScore('Discovery-Time Proof') < 80) soxGaps.push('Timestamp integrity');
-  if (getScore('Override Accountability') < 75) soxGaps.push('Override audit completeness');
+  if (getScore('Discovery-Time Proof') < 80) {soxGaps.push('Timestamp integrity');}
+  if (getScore('Override Accountability') < 75) {soxGaps.push('Override audit completeness');}
 
   // NIST AI RMF: broad coverage across all 9 primitives
   const nist = Math.round(weightedMean(
@@ -249,7 +249,7 @@ function calculateRegulatoryReadiness(primitives: PrimitiveScore[]): RegulatoryR
   ));
   const nistGaps: string[] = [];
   primitives.forEach(p => {
-    if (p.score < 60) nistGaps.push(`${p.name} below threshold`);
+    if (p.score < 60) {nistGaps.push(`${p.name} below threshold`);}
   });
 
   const overall = Math.round(weightedMean([euAiAct, gdpr, sox, nist], [0.3, 0.25, 0.25, 0.2]));

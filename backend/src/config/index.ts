@@ -73,9 +73,9 @@ const configSchema = z.object({
   nimBaseUrl: z.string().url().default('http://localhost:8000'),
   nimModelName: z.string().default('meta/llama-3.1-70b-instruct'),
   
-  // JWT
+  // JWT — both secrets required; no production-reachable defaults.
   jwtSecret: z.string().min(32),
-  jwtRefreshSecret: z.string().min(32).default('default-refresh-secret-for-dev-minimum-32-chars'),
+  jwtRefreshSecret: z.string().min(32),
   jwtExpiresIn: z.string().default('1h'),
   jwtRefreshExpiresIn: z.string().default('30d'),
   
@@ -86,15 +86,23 @@ const configSchema = z.object({
   logLevel: z.enum(['error', 'warn', 'info', 'http', 'debug']).default('info'),
 });
 
-// Smart Redis URL default: includes password for Docker container
+// Smart Redis URL default: includes password for Docker container.
+// In production, REDIS_URL (or explicit REDIS_PASSWORD) MUST be set —
+// the docker-compose default password is for local dev only.
 const getRedisUrl = (): string => {
   if (process.env['REDIS_URL']) {
     return process.env['REDIS_URL'];
   }
-  // Default to Docker container with password (matches docker-compose.yml)
-  const redisPassword = process.env['REDIS_PASSWORD'] || 'datacendia_redis_2024';
+  const envPassword = process.env['REDIS_PASSWORD'];
   const redisHost = process.env['REDIS_HOST'] || 'localhost';
   const redisPort = process.env['REDIS_PORT'] || '6380';
+  if (process.env['NODE_ENV'] === 'production' && !envPassword) {
+    // eslint-disable-next-line no-console
+    console.error('❌ REDIS_URL or REDIS_PASSWORD must be set in production');
+    process.exit(1);
+  }
+  // Dev/test default matches docker-compose.yml so local runs work out of the box.
+  const redisPassword = envPassword || 'datacendia_redis_2024';
   return `redis://:${redisPassword}@${redisHost}:${redisPort}`;
 };
 

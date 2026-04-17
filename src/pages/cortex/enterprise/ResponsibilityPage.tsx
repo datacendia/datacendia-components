@@ -28,7 +28,6 @@ import {
   XCircle,
   Clock,
   Users,
-  ChevronRight,
   Download,
   Eye,
   Plus,

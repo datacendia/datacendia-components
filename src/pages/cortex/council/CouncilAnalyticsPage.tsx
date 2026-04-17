@@ -17,19 +17,17 @@
 // Agent performance metrics, consensus trends, decision quality scores.
 // Connects to real deliberation data from backend API.
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
-import apiClient from '../../../lib/api/client';
 import {
   Brain, BarChart3, TrendingUp, TrendingDown, Users, Clock,
-  CheckCircle, AlertTriangle, Target, Zap, Activity, PieChart,
-  ChevronDown, ChevronRight,
+  CheckCircle, Target, Zap, Activity, PieChart,
 } from 'lucide-react';
-import { DataTable, MiniBarChart, POIList, ReportSection, MetricCard, type TableColumn, type PointOfInterest } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { POIList, ReportSection, MetricCard } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
-import { SavedViewManager, ThresholdIndicator } from '../../../components/reports/InteractionKit';
+import { SavedViewManager } from '../../../components/reports/InteractionKit';
 
 interface AgentMetric {
   role: string;

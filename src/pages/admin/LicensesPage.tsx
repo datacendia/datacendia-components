@@ -20,7 +20,6 @@ import { logger } from '../../lib/logger';
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   Key,
-  Search,
   Filter,
   Plus,
   MoreVertical,

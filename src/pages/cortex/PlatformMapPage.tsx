@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import {
   Search, Map, Shield, Crown, Zap, Globe, Lock, Unlock,
   ChevronDown, ChevronRight, ExternalLink, Layers, LayoutGrid,
-  Brain, Activity, Database, Settings, Users, FileText,
-  Gavel, Eye, Fingerprint, BookOpen, Monitor, BarChart3,
-  Building2, Compass, Sparkles, Server, Key, FlaskConical,
+  Brain, Activity, Database, Settings, FileText,
+  Gavel, Eye, Fingerprint, Monitor, BarChart3,
+  Building2, Compass, Sparkles, Server, Key,
 } from 'lucide-react';
 
 // ─── Tier Definitions ───────────────────────────────────────────────────────
@@ -581,7 +581,7 @@ const PlatformMapPage: React.FC = () => {
                       key={page.route}
                       className={`flex items-center justify-between px-4 py-2.5 hover:bg-neutral-800/30 transition-colors cursor-pointer group ${i > 0 ? 'border-t border-neutral-800/50' : ''}`}
                       onClick={() => {
-                        if (!page.route.includes(':')) navigate(page.route);
+                        if (!page.route.includes(':')) {navigate(page.route);}
                       }}
                     >
                       <div className="flex items-center gap-3 min-w-0">

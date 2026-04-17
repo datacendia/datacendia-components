@@ -26,28 +26,18 @@ import {
   XCircle,
   AlertTriangle,
   Download,
-  Eye,
   Search,
-  Filter,
   RefreshCw,
   Clock,
   Hash,
-  Key,
-  FileJson,
-  FileText,
-  Fingerprint,
   Lock,
-  ChevronRight,
-  Calendar,
-  Building2,
-  Users,
   TrendingUp,
   Loader2,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 import councilPacketApi, { DecisionPacket, VerificationResult } from '../../../services/CouncilPacketService';
-import { ReportSection, POIList, StatusBadge } from '../../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../../components/reports/TrendSparklineKit';
+import { ReportSection, StatusBadge } from '../../../components/reports/DrillDownReportKit';
+import { MetricWithSparkline } from '../../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../../components/reports/InteractionKit';

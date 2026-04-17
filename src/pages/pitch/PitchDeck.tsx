@@ -25,16 +25,11 @@ import {
   Download,
   Maximize2,
   Brain,
-  TrendingUp,
-  Shield,
   Users,
   Target,
   DollarSign,
   Building2,
-  Zap,
-  Globe,
   Check,
-  ArrowRight,
 } from 'lucide-react';
 
 interface Slide {

@@ -310,7 +310,7 @@ export const CrisisManagementPage: React.FC = () => {
           api.get<any[]>('/alerts'),
           api.get<any>('/alerts/summary'),
         ]);
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (alertsRes.success && alertsRes.data?.length) {
           const mapped: Incident[] = alertsRes.data.map((a: any) => ({
             id: a.id || a.alertId,
@@ -339,7 +339,7 @@ export const CrisisManagementPage: React.FC = () => {
       } catch {
         // API unavailable — keep mock data
       } finally {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) {setLoading(false);}
       }
     })();
     return () => { cancelled = true; };

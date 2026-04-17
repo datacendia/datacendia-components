@@ -16,13 +16,13 @@
 // =============================================================================
 // Browse, filter, search past deliberations. Filter by date, topic, agent, outcome.
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Search, Filter, Clock, Brain, CheckCircle, AlertTriangle, XCircle,
-  ChevronRight, Download, Calendar, Users, BarChart3, Tag, SortAsc,
+  Search, Clock, Brain, CheckCircle, AlertTriangle, XCircle,
+  ChevronRight, Download, Calendar, Users, BarChart3,
 } from 'lucide-react';
 
 interface HistoryItem {

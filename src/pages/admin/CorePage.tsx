@@ -18,7 +18,7 @@ import { logger } from '../../lib/logger';
 // The secret admin panel for running the company itself
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { api } from '../../lib/api';
 import {
   Megaphone,
@@ -26,24 +26,18 @@ import {
   DollarSign,
   HeadphonesIcon,
   Eye,
-  TrendingUp,
   AlertTriangle,
   Calendar,
   FileText,
-  Users,
   Target,
-  Zap,
   Brain,
-  Shield,
   ArrowRight,
   RefreshCw,
   CheckCircle2,
   Clock,
-  Send,
   BarChart3,
   Sparkles,
   Crown,
-  MessageSquare,
   Settings,
   ChevronRight,
   Server,

@@ -82,11 +82,11 @@ export const VoicePage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/enterprise/regent/advisors');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && res.data?.advisors && Array.isArray(res.data.advisors)) {
           // Merge backend advisors with local executives (backend takes precedence if present)
           const backendExecutives = res.data.advisors as AIExecutive[];
-          if (backendExecutives.length > 0) setExecutives(backendExecutives);
+          if (backendExecutives.length > 0) {setExecutives(backendExecutives);}
         }
       } catch { /* backend unavailable — keep local executives */ }
     })();

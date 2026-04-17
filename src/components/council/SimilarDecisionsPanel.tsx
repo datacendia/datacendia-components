@@ -23,11 +23,8 @@ import {
   TrendingUp,
   AlertTriangle,
   CheckCircle,
-  FileText,
   Search,
   Loader2,
-  Info,
-  ExternalLink,
 } from 'lucide-react';
 
 interface PrecedentMatch {
@@ -136,14 +133,14 @@ export const SimilarDecisionsPanel: React.FC<SimilarDecisionsPanelProps> = ({
   }, [currentQuestion, maxResults]);
 
   const similarityColor = (score: number) => {
-    if (score >= 0.8) return 'text-emerald-400';
-    if (score >= 0.6) return 'text-amber-400';
+    if (score >= 0.8) {return 'text-emerald-400';}
+    if (score >= 0.6) {return 'text-amber-400';}
     return 'text-zinc-500';
   };
 
   const similarityBg = (score: number) => {
-    if (score >= 0.8) return 'bg-emerald-500';
-    if (score >= 0.6) return 'bg-amber-500';
+    if (score >= 0.8) {return 'bg-emerald-500';}
+    if (score >= 0.6) {return 'bg-amber-500';}
     return 'bg-zinc-600';
   };
 

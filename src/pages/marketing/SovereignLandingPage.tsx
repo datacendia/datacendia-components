@@ -21,7 +21,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 import { api } from '@/lib/api/client';
 
 // Floating particles background

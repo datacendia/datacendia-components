@@ -21,10 +21,10 @@
 import React, { useState, useMemo } from 'react';
 import { cn } from '../../../lib/utils';
 import {
-  ChevronDown, ChevronRight, ChevronUp, ArrowLeft,
+  ChevronDown, ChevronRight, ChevronUp,
   TrendingUp, TrendingDown, Minus, AlertTriangle,
-  CheckCircle, XCircle, Info, Eye, Download,
-  BarChart3, Table2, Lightbulb, Search, Filter,
+  CheckCircle, XCircle, Info, Eye,
+  BarChart3, Table2, Lightbulb, Search,
   ArrowUpRight, ArrowDownRight, ExternalLink,
 } from 'lucide-react';
 
@@ -157,7 +157,7 @@ interface BreadcrumbNavProps {
 }
 
 export const BreadcrumbNav: React.FC<BreadcrumbNavProps> = ({ levels, onNavigate, className }) => {
-  if (levels.length <= 1) return null;
+  if (levels.length <= 1) {return null;}
   return (
     <div className={cn('flex items-center gap-1 text-xs mb-4', className)}>
       {levels.map((level, i) => (
@@ -215,13 +215,13 @@ export const DataTable: React.FC<DataTableProps> = ({
     if (sortKey) {
       result.sort((a, b) => {
         const av = a[sortKey], bv = b[sortKey];
-        if (av == null) return 1;
-        if (bv == null) return -1;
+        if (av === null || av === undefined) {return 1;}
+        if (bv === null || bv === undefined) {return -1;}
         const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv));
         return sortDir === 'asc' ? cmp : -cmp;
       });
     }
-    if (maxRows) result = result.slice(0, maxRows);
+    if (maxRows) {result = result.slice(0, maxRows);}
     return result;
   }, [data, search, sortKey, sortDir, columns, maxRows]);
 
@@ -572,9 +572,9 @@ export const ReportSection: React.FC<ReportSectionProps> = ({
   children, accentColor,
 }) => {
   const availableViews: ViewMode[] = [];
-  if (tableColumns && tableData) availableViews.push('table');
-  if (chartData) availableViews.push('chart');
-  if (poiItems) availableViews.push('poi');
+  if (tableColumns && tableData) {availableViews.push('table');}
+  if (chartData) {availableViews.push('chart');}
+  if (poiItems) {availableViews.push('poi');}
 
   const [view, setView] = useState<ViewMode>(
     availableViews.includes(defaultView) ? defaultView : availableViews[0] || 'table'

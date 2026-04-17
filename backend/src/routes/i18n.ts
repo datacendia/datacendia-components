@@ -20,6 +20,7 @@
  */
 
 import { Router, Request, Response } from 'express';
+import { authenticate, requireRole } from '../middleware/auth.js';
 import { z } from 'zod';
 
 const bodySchema0 = z.object({
@@ -129,7 +130,7 @@ const translateContentSchema = z.object({
   targetLanguage: z.string(),
 });
 
-router.post('/translate/content', async (req: Request, res: Response) => {
+router.post('/translate/content', authenticate, async (req: Request, res: Response) => {
   try {
     const validation = translateContentSchema.safeParse(req.body);
     if (!validation.success) {
@@ -183,7 +184,7 @@ const translateDeliberationSchema = z.object({
   targetLanguage: z.string(),
 });
 
-router.post('/translate/deliberation', async (req: Request, res: Response) => {
+router.post('/translate/deliberation', authenticate, async (req: Request, res: Response) => {
   try {
     const validation = translateDeliberationSchema.safeParse(req.body);
     if (!validation.success) {
@@ -226,7 +227,7 @@ router.post('/translate/deliberation', async (req: Request, res: Response) => {
 // GET /api/v1/i18n/user/preference - Get user language preference
 // =============================================================================
 
-router.get('/user/preference', async (req: Request, res: Response) => {
+router.get('/user/preference', authenticate, async (req: Request, res: Response) => {
   try {
     // @ts-ignore - User may be set by auth middleware
     const userId = req.user?.id || 'anonymous';
@@ -256,7 +257,7 @@ const setPreferenceSchema = z.object({
   language: z.string(),
 });
 
-router.put('/user/preference', async (req: Request, res: Response) => {
+router.put('/user/preference', authenticate, async (req: Request, res: Response) => {
   try {
     const validation = setPreferenceSchema.safeParse(req.body);
     if (!validation.success) {
@@ -297,7 +298,7 @@ router.put('/user/preference', async (req: Request, res: Response) => {
 // POST /api/v1/i18n/cache/clear - Clear translation cache (admin)
 // =============================================================================
 
-router.post('/cache/clear', async (req: Request, res: Response) => {
+router.post('/cache/clear', authenticate, requireRole('ADMIN', 'SUPER_ADMIN', 'OWNER'), async (req: Request, res: Response) => {
   try {
     const { language } = bodySchema0.parse(req.body);
     await translationService.clearCache(language);

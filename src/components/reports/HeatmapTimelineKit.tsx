@@ -23,7 +23,6 @@ import {
   Shield,
   AlertTriangle,
   CheckCircle,
-  XCircle,
   ChevronDown,
   ChevronUp,
   Filter,
@@ -111,7 +110,7 @@ export const HeatmapCalendar: React.FC<{
 
         const dateStr = date.toISOString().split('T')[0];
         const entry = dataMap.get(dateStr) || { date: dateStr, value: 0 };
-        if (entry.value > maxVal) maxVal = entry.value;
+        if (entry.value > maxVal) {maxVal = entry.value;}
 
         const month = date.getMonth();
         if (month !== lastMonth) {
@@ -128,7 +127,7 @@ export const HeatmapCalendar: React.FC<{
   }, [data, weeks]);
 
   const getColor = (value: number) => {
-    if (value === 0) return colorScale[0];
+    if (value === 0) {return colorScale[0];}
     const idx = Math.min(
       Math.ceil((value / Math.max(maxValue, 1)) * (colorScale.length - 1)),
       colorScale.length - 1
@@ -270,8 +269,8 @@ export const AuditTimeline: React.FC<{
 
   const filtered = useMemo(() => {
     let result = [...events].sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
-    if (typeFilter !== 'all') result = result.filter(e => e.type === typeFilter);
-    if (severityFilter !== 'all') result = result.filter(e => e.severity === severityFilter);
+    if (typeFilter !== 'all') {result = result.filter(e => e.type === typeFilter);}
+    if (severityFilter !== 'all') {result = result.filter(e => e.severity === severityFilter);}
     return result;
   }, [events, typeFilter, severityFilter]);
 

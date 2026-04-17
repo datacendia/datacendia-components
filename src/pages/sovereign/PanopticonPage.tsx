@@ -26,7 +26,6 @@ import {
   TrendingUp,
   Globe,
   CheckCircle,
-  XCircle,
   Clock,
   X,
   ExternalLink,
@@ -358,7 +357,9 @@ export const PanopticonPage: React.FC = () => {
           }
         }
       }
-    } catch {}
+    } catch {
+      // Silently ignore — AI suggestions are best-effort.
+    }
   };
 
   const ingestRegulation = async (code: string) => {

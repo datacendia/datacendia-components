@@ -14,14 +14,19 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import authRoutes from '../auth.js';
 import userRoutes from '../users.js';
 import organizationRoutes from '../organizations.js';
 
 const router = Router();
 
+// /auth has mixed public (login, register, forgot-password) and private (logout, me) endpoints;
+// those routes handle their own authentication per-endpoint.
 router.use('/auth', authRoutes);
-router.use('/users', userRoutes);
-router.use('/organizations', organizationRoutes);
+
+// /users and /organizations are always authenticated.
+router.use('/users', authenticate, userRoutes);
+router.use('/organizations', authenticate, organizationRoutes);
 
 export default router;

@@ -25,23 +25,20 @@ import { DataSourceProvider } from '../contexts/DataSourceContext';
 import { LanguageProvider, LanguageSelector, useLanguage } from '../contexts/LanguageContext';
 import { useVerticalConfig } from '../contexts/VerticalConfigContext';
 import {
-  DataSourceSelector,
   WorkflowIndicator,
-  QuickActionsBar,
 } from '../components/cortex/DataSourceSelector';
 import CommandPalette from '../components/CommandPalette';
 import SEO from '../components/SEO';
 import { Logo, LogoSimple } from '../components/brand/Logo';
 import { SimpleTooltip } from '../components/ui';
-import { ThemeToggle } from '../components/ui/ThemeToggle';
 import { useAuth } from '../contexts';
 import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from '../components/navigation';
-import { DemoModeToggle, DemoIndicatorBadge } from '../components/demo';
+import { DemoIndicatorBadge } from '../components/demo';
 import { NotificationBell } from '../components/notifications/NotificationBell';
 import { PlatformAssistant } from '../components/ai-assistant/PlatformAssistant';
 import {
   Clock, Ghost, Skull, BarChart3, Eye, Film,
-  ScanEye, PenTool, Landmark, Dna, Flame, Target, ScrollText,
+  ScanEye, PenTool, Landmark, Dna, Flame, Target,
   Building2, Scale, FlaskConical, Lock, Shield, KeyRound, Leaf,
   Globe, Activity, Languages, Megaphone, UserCheck, Brain,
   Infinity, Network, SearchCode, Briefcase, Castle, Settings, Radar, AlertTriangle,

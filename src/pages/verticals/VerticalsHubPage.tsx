@@ -19,7 +19,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ReportSection, StatusBadge } from '../../components/reports/DrillDownReportKit';
-import { MetricWithSparkline, AnomalyBanner } from '../../components/reports/TrendSparklineKit';
+import { MetricWithSparkline } from '../../components/reports/TrendSparklineKit';
 import { HeatmapCalendar, AuditTimeline } from '../../components/reports/HeatmapTimelineKit';
 import { ExportToolbar, ComparisonPanel, PDFExportButton } from '../../components/reports/ExportCompareKit';
 import { SavedViewManager } from '../../components/reports/InteractionKit';
@@ -649,7 +649,7 @@ export const VerticalsHubPage: React.FC = () => {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-semibold text-white flex items-center gap-2"><BarChart3 className="w-5 h-5 text-primary-400" /> Enhanced Analytics</h2>
               <div className="flex items-center gap-2">
-                <SavedViewManager pageId="verticals" currentFilters={{ tier: selectedTier }} onLoadView={(f) => { if (f.tier) setSelectedTier(f.tier); }} />
+                <SavedViewManager pageId="verticals" currentFilters={{ tier: selectedTier }} onLoadView={(f) => { if (f.tier) {setSelectedTier(f.tier);} }} />
                 <ExportToolbar data={verticals.map(v => ({ name: v.name, tier: v.tier, roi: v.roi, sovereignty: v.sovereignty, agents: v.agents.length, frameworks: v.compliance.length }))} columns={[{ key: 'name', label: 'Vertical' }, { key: 'tier', label: 'Tier' }, { key: 'roi', label: 'ROI' }, { key: 'sovereignty', label: 'Sovereignty %' }, { key: 'agents', label: 'Agents' }, { key: 'frameworks', label: 'Frameworks' }]} filename="verticals-overview" />
                 <PDFExportButton title="Verticals Hub Report" subtitle="Industry Solutions Overview & Adoption Metrics" sections={[{ heading: 'Verticals Overview', content: `${verticals.length} verticals tracked. ${verticals.filter(v => v.tier === 'priority').length} priority, ${verticals.filter(v => v.tier === 'growth').length} growth, ${verticals.filter(v => v.tier === 'coming-soon').length} in pipeline.`, metrics: [{ label: 'Total Verticals', value: String(verticals.length) }, { label: 'Priority', value: String(verticals.filter(v => v.tier === 'priority').length) }, { label: 'Growth', value: String(verticals.filter(v => v.tier === 'growth').length) }, { label: 'Pipeline', value: String(verticals.filter(v => v.tier === 'coming-soon').length) }] }]} />
               </div>

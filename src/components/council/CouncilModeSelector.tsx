@@ -15,9 +15,9 @@
 // COUNCIL MODE SELECTOR - Enterprise Mode Selection Component
 // =============================================================================
 
-import React, { useState, useRef, useEffect } from 'react';
-import { ChevronDown, Check, Zap, Search, Shield, Target } from 'lucide-react';
-import { COUNCIL_MODES, MODE_CATEGORIES, type CouncilMode } from '../../data/councilModes';
+import { useState, useRef, useEffect } from 'react';
+import { ChevronDown, Check } from 'lucide-react';
+import { COUNCIL_MODES, MODE_CATEGORIES } from '../../data/councilModes';
 import { cn } from '../../../lib/utils';
 
 interface CouncilModeSelectorProps {

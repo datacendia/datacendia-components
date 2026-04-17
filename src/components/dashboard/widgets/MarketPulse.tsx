@@ -19,7 +19,7 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../../lib/utils';
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 
 interface Stock {
   symbol: string;

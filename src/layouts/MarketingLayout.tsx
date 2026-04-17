@@ -18,9 +18,9 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { ArrowRight, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { CookieConsent } from '../components/common/CookieConsent';
-import { deterministicFloat, deterministicInt } from '../lib/deterministic';
+import { deterministicFloat } from '../lib/deterministic';
 
 // =============================================================================
 // PREMIUM EFFECTS

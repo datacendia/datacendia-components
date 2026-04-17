@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import enterpriseSecurityRoutes from '../enterprise-security.js';
 import ledgerRoutes from '../ledger.js';
@@ -25,6 +26,9 @@ import hrRoutes from '../hr.js';
 import salaryRoutes from '../salary.js';
 
 const router = Router();
+
+// Apply authentication at domain level for defense-in-depth.
+router.use(authenticate);
 
 // Community routes
 router.use('/enterprise/security', enterpriseSecurityRoutes); // Must come BEFORE /enterprise

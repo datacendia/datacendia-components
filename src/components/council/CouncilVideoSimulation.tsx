@@ -20,7 +20,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { cn } from '../../lib/utils';
 import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
 import { 
-  Mic, MicOff, Video, VideoOff, Hand, ThumbsUp, ThumbsDown, 
+  Mic, MicOff, Video, Hand, ThumbsUp, ThumbsDown, 
   AlertTriangle, CheckCircle, XCircle, Clock, Users, Sparkles,
   MessageSquare, Volume2
 } from 'lucide-react';

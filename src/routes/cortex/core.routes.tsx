@@ -16,7 +16,7 @@
 // =============================================================================
 
 import React, { lazy } from 'react';
-import { RouteObject, Navigate } from 'react-router-dom';
+import { RouteObject } from 'react-router-dom';
 import { SuspenseWrapper } from '../utils';
 
 const DashboardPage = lazy(() =>

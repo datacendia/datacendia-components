@@ -16,6 +16,7 @@
 
 import express, { Request, Response, Router } from 'express';
 import { logger } from '../utils/logger.js';
+import { authenticate, requireRole } from '../middleware/auth.js';
 import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
@@ -117,7 +118,7 @@ router.post('/report', async (req: Request, res: Response) => {
  * GET /errors/recent
  * Get recent errors (admin only)
  */
-router.get('/recent', async (req: Request, res: Response) => {
+router.get('/recent', authenticate, requireRole('ADMIN', 'SUPER_ADMIN', 'OWNER'), async (req: Request, res: Response) => {
   try {
     const { limit = 50, severity } = req.query;
 
@@ -148,9 +149,9 @@ router.get('/recent', async (req: Request, res: Response) => {
 
 /**
  * GET /errors/stats
- * Get error statistics
+ * Get error statistics (admin only)
  */
-router.get('/stats', async (_req: Request, res: Response) => {
+router.get('/stats', authenticate, requireRole('ADMIN', 'SUPER_ADMIN', 'OWNER'), async (_req: Request, res: Response) => {
   try {
     const now = new Date();
     const last24h = new Date(now.getTime() - 24 * 60 * 60 * 1000);

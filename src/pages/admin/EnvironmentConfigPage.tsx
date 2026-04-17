@@ -19,7 +19,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../lib/api';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 import {
   Settings,
   Save,
@@ -28,7 +28,6 @@ import {
   CheckCircle,
   Eye,
   EyeOff,
-  Info,
   Lock,
   Database,
   Zap,
@@ -37,9 +36,6 @@ import {
   CreditCard,
   BarChart3,
   Loader2,
-  FileText,
-  Download,
-  Upload,
 } from 'lucide-react';
 
 // =============================================================================

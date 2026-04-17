@@ -21,8 +21,8 @@ import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
 import {
-  Globe, TrendingUp, TrendingDown, AlertTriangle, Activity, Eye,
-  Layers, Target, Zap, Clock, ChevronRight, Search, RefreshCw,
+  Globe, TrendingUp, AlertTriangle, Activity,
+  Layers, Target, RefreshCw,
 } from 'lucide-react';
 
 interface OrbitalSignal {
@@ -72,7 +72,7 @@ export const OrbitPage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/graph/signals');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && Array.isArray(res.data) && res.data.length > 0) {
           setSignals(res.data.map((s: any): OrbitalSignal => ({
             id: s.id,
@@ -96,7 +96,7 @@ export const OrbitPage: React.FC = () => {
     setIsScanning(true);
     try {
       const res = await api.post<any>('/graph/scan', {});
-      if (res.success && Array.isArray(res.data)) setSignals(res.data);
+      if (res.success && Array.isArray(res.data)) {setSignals(res.data);}
     } catch { /* fallback */ }
     finally { setIsScanning(false); }
   };

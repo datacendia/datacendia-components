@@ -17,7 +17,7 @@
 // =============================================================================
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Bell, Check, CheckCheck, Settings, X } from 'lucide-react';
+import { Bell, Check, CheckCheck, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { notificationService, Notification } from '@/services/NotificationService';

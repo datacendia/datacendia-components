@@ -20,19 +20,14 @@ import React, { useState, useRef, useEffect, useCallback, createContext, useCont
 import {
   Info,
   Bookmark,
-  BookmarkCheck,
   MessageSquare,
   AlertCircle,
   ExternalLink,
   X,
-  Save,
   Trash2,
   ChevronDown,
-  Bell,
-  BellOff,
   Plus,
   Check,
-  Edit3,
   Link2,
 } from 'lucide-react';
 
@@ -97,7 +92,7 @@ export const MetricTooltip: React.FC<{
   };
 
   const hide = () => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    if (timeoutRef.current) {clearTimeout(timeoutRef.current);}
     setVisible(false);
   };
 
@@ -201,7 +196,7 @@ export const SavedViewManager: React.FC<{
   }, [pageId]);
 
   const saveView = () => {
-    if (!newName.trim()) return;
+    if (!newName.trim()) {return;}
     const view: SavedView = {
       id: `view-${Date.now()}`,
       name: newName.trim(),
@@ -313,7 +308,7 @@ export const InlineAnnotation: React.FC<{
   const relevantAnnotations = annotations.filter(a => a.targetId === targetId);
 
   const submit = () => {
-    if (!text.trim()) return;
+    if (!text.trim()) {return;}
     onAdd(text.trim());
     setText('');
   };
@@ -408,7 +403,7 @@ export const ThresholdIndicator: React.FC<{
   const [configOpen, setConfigOpen] = useState(false);
 
   const breached = thresholds.filter(t => {
-    if (!t.enabled) return false;
+    if (!t.enabled) {return false;}
     switch (t.operator) {
       case '>': return value > t.value;
       case '<': return value < t.value;
@@ -421,7 +416,7 @@ export const ThresholdIndicator: React.FC<{
   });
 
   const worstSeverity = breached.reduce<string | null>((worst, t) => {
-    if (!worst) return t.severity;
+    if (!worst) {return t.severity;}
     const order = { critical: 3, warning: 2, info: 1 };
     return (order[t.severity] || 0) > (order[worst as keyof typeof order] || 0) ? t.severity : worst;
   }, null);
@@ -548,7 +543,7 @@ export const DeepLinkProvider: React.FC<{
   useEffect(() => {
     try {
       const stored = sessionStorage.getItem('datacendia-nav-context');
-      if (stored) setContext(JSON.parse(stored));
+      if (stored) {setContext(JSON.parse(stored));}
     } catch { /* ignore */ }
   }, []);
 

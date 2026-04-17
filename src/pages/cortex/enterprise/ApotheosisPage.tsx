@@ -34,7 +34,6 @@ import {
   CORE_APOTHEOSIS_MODES,
   calculateThreatScore,
   getIndustryThreatInsight,
-  type ApotheosisMode,
 } from '../../../data/apotheosisModes';
 import {
   ModeSelector,

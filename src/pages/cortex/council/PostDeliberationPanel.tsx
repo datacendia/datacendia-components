@@ -22,9 +22,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Brain, FileText, Download, ChevronRight, CheckCircle, AlertTriangle,
-  XCircle, Users, Clock, Shield, BarChart3, Copy, Check, MessageSquare,
-  ThumbsUp, ThumbsDown, Layers, ExternalLink,
+  Brain, FileText, Download, ChevronRight, CheckCircle, AlertTriangle, Copy, Check, ThumbsDown, ExternalLink,
 } from 'lucide-react';
 
 interface AgentContribution {

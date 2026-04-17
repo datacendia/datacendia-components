@@ -18,9 +18,7 @@ import {
   ShieldAlert,
   ChevronRight,
   ChevronDown,
-  AlertTriangle,
   CheckCircle,
-  XCircle,
   Loader2,
   Zap,
   Target,
@@ -159,7 +157,7 @@ export const RedTeamReportPanel: React.FC<RedTeamReportPanelProps> = ({
       setLoading(false);
     };
 
-    if (deliberationId) fetchReport();
+    if (deliberationId) {fetchReport();}
   }, [deliberationId]);
 
   const severityColor = (s: string) => {
@@ -197,16 +195,16 @@ export const RedTeamReportPanel: React.FC<RedTeamReportPanelProps> = ({
   };
 
   const riskColor = (score: number) => {
-    if (score >= 75) return 'text-red-400';
-    if (score >= 50) return 'text-orange-400';
-    if (score >= 25) return 'text-amber-400';
+    if (score >= 75) {return 'text-red-400';}
+    if (score >= 50) {return 'text-orange-400';}
+    if (score >= 25) {return 'text-amber-400';}
     return 'text-emerald-400';
   };
 
   const riskBg = (score: number) => {
-    if (score >= 75) return 'bg-red-500';
-    if (score >= 50) return 'bg-orange-500';
-    if (score >= 25) return 'bg-amber-500';
+    if (score >= 75) {return 'bg-red-500';}
+    if (score >= 50) {return 'bg-orange-500';}
+    if (score >= 25) {return 'bg-amber-500';}
     return 'bg-emerald-500';
   };
 

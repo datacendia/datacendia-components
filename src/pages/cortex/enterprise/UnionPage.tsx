@@ -25,7 +25,6 @@ import {
   Employee,
   WorkforceMetrics,
   BurnoutLevel,
-  EmployeeRequest,
   NegotiationBrief,
 } from '../../../services/UnionService';
 
@@ -65,11 +64,11 @@ export const UnionPage: React.FC = () => {
           api.get<any>('/union/employees'),
           api.get<any>('/union/metrics'),
         ]);
-        if (cancelled) return;
-        if (empRes?.data && Array.isArray(empRes.data)) setEmployees(empRes.data as Employee[]);
-        else if (Array.isArray((empRes as any)?.employees)) setEmployees((empRes as any).employees as Employee[]);
-        if (metRes?.data) setMetrics(metRes.data as WorkforceMetrics);
-        else if ((metRes as any)?.metrics) setMetrics((metRes as any).metrics as WorkforceMetrics);
+        if (cancelled) {return;}
+        if (empRes?.data && Array.isArray(empRes.data)) {setEmployees(empRes.data as Employee[]);}
+        else if (Array.isArray((empRes as any)?.employees)) {setEmployees((empRes as any).employees as Employee[]);}
+        if (metRes?.data) {setMetrics(metRes.data as WorkforceMetrics);}
+        else if ((metRes as any)?.metrics) {setMetrics((metRes as any).metrics as WorkforceMetrics);}
       } catch { /* backend unavailable — keep local service data */ }
     })();
     return () => { cancelled = true; };

@@ -17,7 +17,7 @@ import { logger } from '../lib/logger';
 // Enterprise-grade persona management with real Ollama integration
 // =============================================================================
 
-import { ollamaService, DomainAgent, OllamaChatMessage } from '../lib/ollama';
+import { ollamaService, OllamaChatMessage } from '../lib/ollama';
 import { api } from '../lib/api';
 
 // =============================================================================
@@ -327,11 +327,11 @@ class PersonaForgeService {
   async syncFromBackend(): Promise<number> {
     try {
       const res = await api.get<DigitalPersona[]>('/persona/twins');
-      if (!res.success || !Array.isArray(res.data)) return 0;
+      if (!res.success || !Array.isArray(res.data)) {return 0;}
       for (const p of res.data) {
-        if (typeof p.createdAt === 'string') p.createdAt = new Date(p.createdAt);
-        if (typeof p.lastActive === 'string') p.lastActive = new Date(p.lastActive);
-        if (typeof p.knowledgeCutoff === 'string') p.knowledgeCutoff = new Date(p.knowledgeCutoff);
+        if (typeof p.createdAt === 'string') {p.createdAt = new Date(p.createdAt);}
+        if (typeof p.lastActive === 'string') {p.lastActive = new Date(p.lastActive);}
+        if (typeof p.knowledgeCutoff === 'string') {p.knowledgeCutoff = new Date(p.knowledgeCutoff);}
         this.personas.set(p.id, p);
       }
       this.saveToStorage();

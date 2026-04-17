@@ -687,7 +687,7 @@ export const ShadowAIScannerPage: React.FC = () => {
     (async () => {
       try {
         await api.get<any>('/wedge/status');
-        if (cancelled) return;
+        if (cancelled) {return;}
       } catch { /* backend unavailable — scanner UI still renders */ }
     })();
     return () => { cancelled = true; };
@@ -705,7 +705,7 @@ export const ShadowAIScannerPage: React.FC = () => {
         }),
       });
       const data = await res.json();
-      if (data.success) setResult(data.data);
+      if (data.success) {setResult(data.data);}
     } catch (err) {
       console.error('Scan failed:', err);
     } finally {

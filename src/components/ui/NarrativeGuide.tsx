@@ -23,7 +23,6 @@ import {
   Pause,
   SkipForward,
   SkipBack,
-  X,
   CheckCircle2,
   Circle,
   Clock,

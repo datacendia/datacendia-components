@@ -30,9 +30,7 @@ import { NarrativeGuide, NarrativeSelector } from '../../components/ui';
 import { Compass, X, ChevronDown, Building2, Map, LayoutGrid } from 'lucide-react';
 import { VerticalDashboard } from '../../components/dashboard';
 import { LayoutMapRenderer } from '../../components/dashboard/LayoutMapRenderer';
-import { VERTICAL_DASHBOARDS } from '../../config/verticalDashboards';
-import { EXTENDED_DASHBOARDS } from '../../config/verticalDashboardsExtended';
-import { getVerticalLayouts, type LayoutMap } from '../../config/verticalLayoutMaps';
+import { getVerticalLayouts } from '../../config/verticalLayoutMaps';
 
 // All available verticals from dashboard configs
 const ALL_VERTICALS = [

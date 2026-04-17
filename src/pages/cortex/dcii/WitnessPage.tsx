@@ -16,12 +16,12 @@
 // =============================================================================
 // Independent verification, blockchain anchoring, cryptographic proof generation.
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Eye, Shield, CheckCircle, Clock, Hash, Link2, FileCheck,
-  RefreshCw, Download, ExternalLink, AlertTriangle, Lock,
+  Eye, Shield, CheckCircle, Clock, Link2,
+  RefreshCw, Download, ExternalLink, AlertTriangle,
 } from 'lucide-react';
 
 interface WitnessRecord {

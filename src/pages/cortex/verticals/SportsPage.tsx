@@ -18,7 +18,7 @@
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
@@ -28,12 +28,9 @@ import {
   TrendingUp,
   Shield,
   Clock,
-  CheckCircle,
-  XCircle,
   AlertTriangle,
   Plus,
   Search,
-  Filter,
   Download,
   Eye,
   ChevronRight,

@@ -19,9 +19,7 @@
 import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
-import {
-  Search, BookOpen, FileText, Plus, Play, Clock, CheckCircle,
-  Loader2, ChevronRight, Download, Filter, Layers, Brain, Zap,
+import { BookOpen, Plus, Play, Clock, ChevronRight,
 } from 'lucide-react';
 
 interface ResearchBrief {

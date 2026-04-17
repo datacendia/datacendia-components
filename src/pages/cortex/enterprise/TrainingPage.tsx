@@ -457,7 +457,7 @@ export const TrainingPage: React.FC = () => {
           api.get<any>('/gnosis/paths'),
           api.get<any>('/gnosis/profile'),
         ]);
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (pathsRes.success && Array.isArray(pathsRes.data) && pathsRes.data.length > 0) {
           const mapped: Course[] = pathsRes.data.map((p: any): Course => ({
             id: p.id,
@@ -479,7 +479,7 @@ export const TrainingPage: React.FC = () => {
       } catch {
         // API unavailable — keep mock data
       } finally {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) {setLoading(false);}
       }
     })();
     return () => { cancelled = true; };

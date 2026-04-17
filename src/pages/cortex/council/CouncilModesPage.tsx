@@ -17,14 +17,12 @@
 // Configure and manage 35+ deliberation modes. Each mode shapes how agents
 // approach a decision — from Strategic Advisory to Crisis Response.
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
-import apiClient from '../../../lib/api/client';
 import {
-  Brain, Settings, Search, Filter, ChevronRight, Play, Lock,
-  Shield, Scale, AlertTriangle, Zap, BarChart3, Users, Eye,
-  Briefcase, Target, Clock, CheckCircle, Star, Layers,
+  Brain, Settings, Search, ChevronRight, Play,
+  Shield, Scale, AlertTriangle, Zap, BarChart3, Users, Target, Clock, CheckCircle, Star, Layers,
 } from 'lucide-react';
 
 interface CouncilMode {

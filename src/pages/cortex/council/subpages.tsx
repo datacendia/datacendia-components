@@ -15,7 +15,7 @@
 // DATACENDIA - COUNCIL SUB-PAGES
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
 

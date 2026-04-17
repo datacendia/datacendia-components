@@ -62,7 +62,7 @@ export const WorkflowPersistenceService = {
   async syncFromBackend(): Promise<number> {
     try {
       const res = await api.get<Workflow[]>('/workflows');
-      if (!res.success || !Array.isArray(res.data)) return 0;
+      if (!res.success || !Array.isArray(res.data)) {return 0;}
       const backendList: WorkflowListItem[] = [];
       for (const w of res.data) {
         localStorage.setItem(`${STORAGE_PREFIX}${w.id}`, JSON.stringify(w));
@@ -156,7 +156,7 @@ export const WorkflowPersistenceService = {
   // ── Duplicate ────────────────────────────────────────────────────────────
   duplicateWorkflow(id: string): Workflow | null {
     const original = this.getWorkflow(id);
-    if (!original) return null;
+    if (!original) {return null;}
     const now = new Date().toISOString();
     const copy: Workflow = {
       ...original,
@@ -192,7 +192,7 @@ export const WorkflowPersistenceService = {
       const logs: WorkflowRunLog[] = raw ? JSON.parse(raw) : [];
       logs.unshift(log);
       // Keep last 100 runs
-      if (logs.length > 100) logs.length = 100;
+      if (logs.length > 100) {logs.length = 100;}
       localStorage.setItem(RUN_LOG_KEY, JSON.stringify(logs));
     } catch { /* storage full — skip */ }
   },

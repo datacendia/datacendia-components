@@ -5,7 +5,7 @@
 
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 
 // Mock fetch globally
 const mockFetch = vi.fn();

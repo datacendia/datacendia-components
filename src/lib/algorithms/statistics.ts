@@ -22,7 +22,7 @@
  * Returns 0 for empty arrays.
  */
 export function mean(values: number[]): number {
-  if (values.length === 0) return 0;
+  if (values.length === 0) {return 0;}
   return values.reduce((sum, v) => sum + v, 0) / values.length;
 }
 
@@ -35,9 +35,9 @@ export function weightedMean(values: number[], weights: number[]): number {
   if (values.length !== weights.length) {
     throw new Error('Values and weights must have the same length');
   }
-  if (values.length === 0) return 0;
+  if (values.length === 0) {return 0;}
   const totalWeight = weights.reduce((s, w) => s + w, 0);
-  if (totalWeight === 0) return 0;
+  if (totalWeight === 0) {return 0;}
   return values.reduce((s, v, i) => s + v * weights[i], 0) / totalWeight;
 }
 
@@ -46,7 +46,7 @@ export function weightedMean(values: number[], weights: number[]): number {
  * Uses the interpolation method for even-length arrays.
  */
 export function median(values: number[]): number {
-  if (values.length === 0) return 0;
+  if (values.length === 0) {return 0;}
   const sorted = [...values].sort((a, b) => a - b);
   const mid = Math.floor(sorted.length / 2);
   return sorted.length % 2 !== 0
@@ -59,7 +59,7 @@ export function median(values: number[]): number {
  * Divides by N, not N-1.
  */
 export function variancePopulation(values: number[]): number {
-  if (values.length === 0) return 0;
+  if (values.length === 0) {return 0;}
   const avg = mean(values);
   return values.reduce((sum, v) => sum + (v - avg) ** 2, 0) / values.length;
 }
@@ -69,7 +69,7 @@ export function variancePopulation(values: number[]): number {
  * Divides by N-1 (Bessel's correction) for unbiased estimation.
  */
 export function varianceSample(values: number[]): number {
-  if (values.length < 2) return 0;
+  if (values.length < 2) {return 0;}
   const avg = mean(values);
   return values.reduce((sum, v) => sum + (v - avg) ** 2, 0) / (values.length - 1);
 }
@@ -93,9 +93,9 @@ export function stdDevSample(values: number[]): number {
  * p is 0-100 (e.g., 95 for 95th percentile).
  */
 export function percentile(values: number[], p: number): number {
-  if (values.length === 0) return 0;
-  if (p <= 0) return Math.min(...values);
-  if (p >= 100) return Math.max(...values);
+  if (values.length === 0) {return 0;}
+  if (p <= 0) {return Math.min(...values);}
+  if (p >= 100) {return Math.max(...values);}
 
   const sorted = [...values].sort((a, b) => a - b);
   const rank = (p / 100) * (sorted.length - 1);
@@ -103,7 +103,7 @@ export function percentile(values: number[], p: number): number {
   const upper = Math.ceil(rank);
   const fraction = rank - lower;
 
-  if (lower === upper) return sorted[lower];
+  if (lower === upper) {return sorted[lower];}
   return sorted[lower] * (1 - fraction) + sorted[upper] * fraction;
 }
 
@@ -121,7 +121,7 @@ export function iqr(values: number[]): number {
 export function zScore(value: number, values: number[]): number {
   const avg = mean(values);
   const sd = stdDevPopulation(values);
-  if (sd === 0) return 0;
+  if (sd === 0) {return 0;}
   return (value - avg) / sd;
 }
 
@@ -131,7 +131,7 @@ export function zScore(value: number, values: number[]): number {
 export function zScores(values: number[]): number[] {
   const avg = mean(values);
   const sd = stdDevPopulation(values);
-  if (sd === 0) return values.map(() => 0);
+  if (sd === 0) {return values.map(() => 0);}
   return values.map((v) => (v - avg) / sd);
 }
 
@@ -140,7 +140,7 @@ export function zScores(values: number[]): number[] {
  * window: number of data points per window.
  */
 export function movingAverage(values: number[], window: number): number[] {
-  if (window <= 0 || window > values.length) return [];
+  if (window <= 0 || window > values.length) {return [];}
   const result: number[] = [];
   for (let i = 0; i <= values.length - window; i++) {
     const slice = values.slice(i, i + window);
@@ -155,7 +155,7 @@ export function movingAverage(values: number[], window: number): number[] {
  * Common values: 0.1 (slow), 0.3 (moderate), 0.5 (fast).
  */
 export function ewma(values: number[], alpha: number): number[] {
-  if (values.length === 0) return [];
+  if (values.length === 0) {return [];}
   if (alpha <= 0 || alpha > 1) {
     throw new Error('Alpha must be in (0, 1]');
   }
@@ -188,7 +188,7 @@ export function linearRegression(x: number[], y: number[]): {
   const sumY2 = y.reduce((s, v) => s + v * v, 0);
 
   const denom = n * sumX2 - sumX * sumX;
-  if (denom === 0) return { slope: 0, intercept: mean(y), rSquared: 0 };
+  if (denom === 0) {return { slope: 0, intercept: mean(y), rSquared: 0 };}
 
   const slope = (n * sumXY - sumX * sumY) / denom;
   const intercept = (sumY - slope * sumX) / n;
@@ -211,7 +211,7 @@ export function linearRegression(x: number[], y: number[]): {
  */
 export function coefficientOfVariation(values: number[]): number {
   const avg = mean(values);
-  if (avg === 0) return 0;
+  if (avg === 0) {return 0;}
   return (stdDevPopulation(values) / Math.abs(avg)) * 100;
 }
 
@@ -222,13 +222,13 @@ export function coefficientOfVariation(values: number[]): number {
  * Returns entropy in bits (log base 2).
  */
 export function shannonEntropy(values: number[]): number {
-  if (values.length === 0) return 0;
+  if (values.length === 0) {return 0;}
   const total = values.reduce((s, v) => s + v, 0);
-  if (total === 0) return 0;
+  if (total === 0) {return 0;}
 
   let entropy = 0;
   for (const v of values) {
-    if (v <= 0) continue;
+    if (v <= 0) {continue;}
     const p = v / total;
     entropy -= p * Math.log2(p);
   }
@@ -242,7 +242,7 @@ export function shannonEntropy(values: number[]): number {
 export function normalizedEntropy(values: number[]): number {
   const h = shannonEntropy(values);
   const maxH = Math.log2(values.filter((v) => v > 0).length);
-  if (maxH === 0) return 0;
+  if (maxH === 0) {return 0;}
   return h / maxH;
 }
 
@@ -251,7 +251,7 @@ export function normalizedEntropy(values: number[]): number {
  * Returns value in [-1, 1]. 1 = identical direction.
  */
 export function cosineSimilarity(a: number[], b: number[]): number {
-  if (a.length !== b.length || a.length === 0) return 0;
+  if (a.length !== b.length || a.length === 0) {return 0;}
   let dotProduct = 0;
   let normA = 0;
   let normB = 0;
@@ -261,7 +261,7 @@ export function cosineSimilarity(a: number[], b: number[]): number {
     normB += b[i] * b[i];
   }
   const denom = Math.sqrt(normA) * Math.sqrt(normB);
-  if (denom === 0) return 0;
+  if (denom === 0) {return 0;}
   return dotProduct / denom;
 }
 
@@ -269,7 +269,7 @@ export function cosineSimilarity(a: number[], b: number[]): number {
  * Euclidean distance between two vectors.
  */
 export function euclideanDistance(a: number[], b: number[]): number {
-  if (a.length !== b.length) return 0;
+  if (a.length !== b.length) {return 0;}
   return Math.sqrt(a.reduce((sum, v, i) => sum + (v - b[i]) ** 2, 0));
 }
 
@@ -277,10 +277,10 @@ export function euclideanDistance(a: number[], b: number[]): number {
  * Min-Max normalization to [0, 1].
  */
 export function normalize(values: number[]): number[] {
-  if (values.length === 0) return [];
+  if (values.length === 0) {return [];}
   const min = Math.min(...values);
   const max = Math.max(...values);
-  if (max === min) return values.map(() => 0.5);
+  if (max === min) {return values.map(() => 0.5);}
   return values.map((v) => (v - min) / (max - min));
 }
 

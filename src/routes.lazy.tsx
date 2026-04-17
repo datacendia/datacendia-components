@@ -15,7 +15,7 @@
 // DATACENDIA - APPLICATION ROUTES (Composed from domain modules)
 // =============================================================================
 
-import React, { lazy, Suspense } from 'react';
+import { lazy, Suspense } from 'react';
 import { PageLoader } from './components/ui/PageLoader';
 
 // Error Pages (keep non-lazy for fast 404)

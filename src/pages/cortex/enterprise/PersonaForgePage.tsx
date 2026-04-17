@@ -162,7 +162,7 @@ export const PersonaForgePage: React.FC = () => {
     (async () => {
       try {
         const res = await api.get<any>('/persona/twins');
-        if (cancelled) return;
+        if (cancelled) {return;}
         if (res.success && Array.isArray(res.data) && res.data.length > 0) {
           // Merge backend twins into local service state
           setPersonas(res.data as DigitalPersona[]);

@@ -36,7 +36,7 @@ const RegulatorsReceiptPage: React.FC = () => {
           setReceipts(res.data);
         }
       } catch { /* API unavailable — demo mode */ }
-      finally { if (!cancelled) setLoading(false); }
+      finally { if (!cancelled) {setLoading(false);} }
     })();
     return () => { cancelled = true; };
   }, []);

@@ -19,11 +19,8 @@ import { logger } from '../../lib/logger';
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { cn } from '../../../lib/utils';
 import { workflowsApi } from '../../lib/api';
-import type {
-  Workflow,
-  WorkflowNode as ApiWorkflowNode,
-  WorkflowEdge as ApiWorkflowEdge,
-} from '../../lib/api/types';
+
+
 
 // =============================================================================
 // TYPES

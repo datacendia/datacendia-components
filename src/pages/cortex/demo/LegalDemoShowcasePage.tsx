@@ -37,7 +37,6 @@ import {
   CheckCircle,
   ChevronRight,
   Briefcase,
-  FileWarning,
   Building,
   UserX,
   Shield,
@@ -45,7 +44,6 @@ import {
   BookOpen,
   Zap,
   RefreshCw,
-  ExternalLink,
 } from 'lucide-react';
 
 const API_BASE = '/api/v1/legal-research';

@@ -13,8 +13,8 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { History, Sparkles, Bug, Zap, Shield, ArrowRight } from 'lucide-react';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { History, Sparkles, Bug, Zap, Shield } from 'lucide-react';
+import { deterministicFloat } from '../../lib/deterministic';
 
 const ParticleField: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);

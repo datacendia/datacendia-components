@@ -13,10 +13,8 @@
 
 import React from 'react';
 import { cn } from '../../../../lib/utils';
-import {
-  TrendingUp,
-  TrendingDown,
-} from 'lucide-react';
+
+
 
 // =============================================================================
 // SHARED COMPONENTS

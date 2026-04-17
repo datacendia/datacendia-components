@@ -13,7 +13,7 @@
 // See LICENSE file for details.
 
 import React, { useState, useEffect } from 'react';
-import { Shield, CheckCircle, Loader2 } from 'lucide-react';
+import { Loader2 } from 'lucide-react';
 
 interface CendiaStampSealProps {
   receiptHash: string;
@@ -58,7 +58,7 @@ export const CendiaStampSeal: React.FC<CendiaStampSealProps> = ({
             doc.querySelectorAll('script, foreignObject').forEach(el => el.remove());
             doc.querySelectorAll('*').forEach(el => {
               for (const attr of Array.from(el.attributes)) {
-                if (attr.name.startsWith('on')) el.removeAttribute(attr.name);
+                if (attr.name.startsWith('on')) {el.removeAttribute(attr.name);}
               }
             });
             const sanitized = new XMLSerializer().serializeToString(doc.documentElement);

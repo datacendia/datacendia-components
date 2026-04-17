@@ -17,7 +17,6 @@
 // Users can toggle these on to modify agent behavior
 // =============================================================================
 
-import { PersonalityTrait } from './personality';
 
 // =============================================================================
 // SUGGESTED PERSONALITY PROFILES

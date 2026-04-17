@@ -25,7 +25,7 @@ interface UseAuthReturn {
 }
 
 function parseToken(token: string | null): AuthUser | null {
-  if (!token) return null;
+  if (!token) {return null;}
   try {
     const payload = JSON.parse(atob(token.split('.')[1]));
     return {

@@ -23,7 +23,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Shield, Lock, FileCheck, Eye, EyeOff, CheckCircle, XCircle, Clock } from 'lucide-react';
+import { Shield, Lock, FileCheck, Eye, EyeOff, CheckCircle } from 'lucide-react';
 import { ZKPService, ZKProof, ProofTypeInfo } from '@/services/ZKPService';
 
 const statusColors: Record<string, string> = {

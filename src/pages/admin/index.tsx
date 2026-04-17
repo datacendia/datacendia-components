@@ -22,9 +22,6 @@ import { LogoSimple } from '../../components/brand/Logo';
 import {
   adminService,
   type PlatformDashboard,
-  type Tenant,
-  type License,
-  type HealthDashboard,
 } from '../../services/AdminService';
 
 // =============================================================================

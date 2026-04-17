@@ -67,7 +67,7 @@ export const Sparkline: React.FC<{
   className = '',
 }) => {
   const path = useMemo(() => {
-    if (data.length < 2) return '';
+    if (data.length < 2) {return '';}
     const min = Math.min(...data);
     const max = Math.max(...data);
     const range = max - min || 1;
@@ -89,7 +89,7 @@ export const Sparkline: React.FC<{
     return { linePath, areaPath, points };
   }, [data, width, height, showArea]);
 
-  if (!path || data.length < 2) return null;
+  if (!path || data.length < 2) {return null;}
 
   const trend = data[data.length - 1] - data[0];
   const autoColor = trend > 0 ? '#34d399' : trend < 0 ? '#f87171' : '#9ca3af';
@@ -271,7 +271,7 @@ export const AnomalyBanner: React.FC<{
   onInvestigate?: (anomaly: AnomalyItem) => void;
   onViewAll?: () => void;
 }> = ({ anomalies, maxVisible = 3, onDismiss, onInvestigate, onViewAll }) => {
-  if (anomalies.length === 0) return null;
+  if (anomalies.length === 0) {return null;}
 
   const visible = anomalies.slice(0, maxVisible);
   const remaining = anomalies.length - maxVisible;

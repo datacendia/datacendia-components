@@ -17,7 +17,7 @@ import { logger } from '../../../lib/logger';
 // DIU-Ready | FedRAMP High | CMMC Level 3 | ITAR Compliant
 // =============================================================================
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
 import {
@@ -36,10 +36,7 @@ import {
   Crosshair,
   Satellite,
   Radio,
-  Plane,
-  Anchor,
   Zap,
-  Activity,
   BarChart3,
   Settings,
   Play,

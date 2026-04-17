@@ -91,8 +91,8 @@ export async function verifyHash(data: string, expectedHash: string): Promise<bo
  * Returns the root hash.
  */
 export async function merkleRoot(hashes: string[]): Promise<string> {
-  if (hashes.length === 0) return sha256('');
-  if (hashes.length === 1) return hashes[0];
+  if (hashes.length === 0) {return sha256('');}
+  if (hashes.length === 1) {return hashes[0];}
 
   let layer = [...hashes];
   while (layer.length > 1) {
@@ -112,8 +112,8 @@ export async function merkleRoot(hashes: string[]): Promise<string> {
  * For use in synchronous contexts.
  */
 export function merkleRootSync(hashes: string[]): string {
-  if (hashes.length === 0) return hashSync('');
-  if (hashes.length === 1) return hashes[0];
+  if (hashes.length === 0) {return hashSync('');}
+  if (hashes.length === 1) {return hashes[0];}
 
   let layer = [...hashes];
   while (layer.length > 1) {

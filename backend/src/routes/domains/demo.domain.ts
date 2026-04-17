@@ -14,6 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
+import { authenticate } from '../../middleware/auth.js';
 import demoRoutes from '../demo.js';
 import premiumFeatureRoutes from '../premium-features.js';
 import demoSeedRoutes from '../demo-seed.js';
@@ -21,9 +22,12 @@ import consolidatedRoutes from '../consolidated.js';
 
 const router = Router();
 
+// /leads is public — lead capture from the marketing site.
 router.use('/leads', demoRoutes);
-router.use('/premium', premiumFeatureRoutes);
-router.use('/demo', demoSeedRoutes);
-router.use('/consolidated', consolidatedRoutes);
+
+// All other sub-routes require authentication.
+router.use('/premium', authenticate, premiumFeatureRoutes);
+router.use('/demo', authenticate, demoSeedRoutes);
+router.use('/consolidated', authenticate, consolidatedRoutes);
 
 export default router;

@@ -15,10 +15,9 @@ import React, { useState, useCallback, useEffect } from 'react';
 import { api } from '../../../lib/api';
 import {
   Shield, AlertTriangle, FileText, Loader2, ChevronRight,
-  Clock, CheckCircle, XCircle, Download, Scale, Lock,
-  Hash, Users, DollarSign, Eye, Fingerprint, BookOpen,
-  Target, ArrowRight, ShieldAlert, Zap, Link, Building2,
-  Copy, ExternalLink,
+  Clock, CheckCircle, XCircle, Download, Scale, Lock, Users, DollarSign, Fingerprint,
+  Target, ShieldAlert, Link, Building2,
+  Copy,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 
@@ -664,7 +663,7 @@ export const IncidentForensicsPage: React.FC = () => {
     (async () => {
       try {
         await api.get<any>('/wedge/status');
-        if (cancelled) return;
+        if (cancelled) {return;}
       } catch { /* backend unavailable — wizard UI still renders */ }
     })();
     return () => { cancelled = true; };
@@ -679,7 +678,7 @@ export const IncidentForensicsPage: React.FC = () => {
         body: JSON.stringify(form),
       });
       const data = await res.json();
-      if (data.success) setReport(data.data);
+      if (data.success) {setReport(data.data);}
     } catch (err) {
       console.error('Forensic analysis failed:', err);
     } finally {

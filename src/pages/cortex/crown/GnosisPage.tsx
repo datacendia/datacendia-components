@@ -21,7 +21,6 @@ import {
   GraduationCap,
   BookOpen,
   Target,
-  Users,
   TrendingUp,
   Award,
   ChevronRight,
@@ -36,8 +35,6 @@ import {
   BookMarked,
   Layers,
   RefreshCw,
-  Upload,
-  FileText,
 } from 'lucide-react';
 import { gnosisApi } from '../../../lib/api';
 import { sovereignApi, enterpriseApi } from '../../../lib/sovereignApi';

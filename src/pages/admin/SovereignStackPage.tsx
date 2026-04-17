@@ -26,7 +26,6 @@ import {
   Shield,
   Key,
   Search,
-  GitBranch,
   Workflow,
   ToggleLeft,
   Box,
@@ -38,12 +37,8 @@ import {
   Clock,
   Cpu,
   MemoryStick,
-  Network,
   Zap,
   Settings,
-  Play,
-  Pause,
-  RotateCcw,
   Terminal,
 } from 'lucide-react';
 import { sovereignApi, enterpriseApi } from '../../lib/sovereignApi';

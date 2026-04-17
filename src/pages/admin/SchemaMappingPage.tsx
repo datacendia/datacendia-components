@@ -17,7 +17,7 @@ import { logger } from '../../lib/logger';
  * Configure how client database schemas map to Datacendia's canonical data model
  */
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Database,
@@ -26,18 +26,13 @@ import {
   Link2,
   Check,
   X,
-  AlertTriangle,
   RefreshCw,
   Save,
   Wand2,
   ChevronDown,
   ChevronRight,
   Search,
-  Filter,
-  Eye,
   Code,
-  Settings,
-  HelpCircle,
   Zap,
 } from 'lucide-react';
 

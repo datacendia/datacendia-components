@@ -15,7 +15,7 @@ export function useInterval(callback: () => void, delay: number | null): void {
   }, [callback]);
 
   useEffect(() => {
-    if (delay === null) return;
+    if (delay === null) {return;}
     const id = setInterval(() => savedCallback.current(), delay);
     return () => clearInterval(id);
   }, [delay]);

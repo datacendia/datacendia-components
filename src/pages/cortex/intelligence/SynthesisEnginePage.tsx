@@ -20,8 +20,7 @@ import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import apiClient from '../../../lib/api/client';
 import {
-  Layers, Database, RefreshCw, CheckCircle, AlertTriangle, Clock,
-  FileText, BarChart3, Link2, Unlink, Plus, Search, Filter, Zap,
+  Layers, Database, RefreshCw, CheckCircle, AlertTriangle, BarChart3, Unlink, Zap,
 } from 'lucide-react';
 
 interface DataSource {

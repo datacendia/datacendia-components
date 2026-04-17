@@ -24,7 +24,7 @@ export const CookieConsent: React.FC = () => {
 
   useEffect(() => {
     const stored = localStorage.getItem(CONSENT_KEY);
-    if (stored) return;
+    if (stored) {return;}
     // Small delay so it doesn't flash on page load
     const timer = setTimeout(() => setVisible(true), 1000);
     return () => clearTimeout(timer);
@@ -37,7 +37,7 @@ export const CookieConsent: React.FC = () => {
     setVisible(false);
   };
 
-  if (!visible) return null;
+  if (!visible) {return null;}
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 p-4 pointer-events-none">

@@ -9,19 +9,16 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Logo } from '../../components/brand/Logo';
 import {
   Shield,
-  Brain,
-  Globe,
   Zap,
   Users,
   Lock,
   ArrowRight,
   CheckCircle2,
-  ChevronDown,
   Menu,
   X,
   Database,
@@ -35,7 +32,6 @@ import {
   Monitor,
   Cpu,
   Layers,
-  Briefcase,
   Bot,
 } from 'lucide-react';
 

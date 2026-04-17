@@ -22,7 +22,7 @@ import { cn } from '../../../../lib/utils';
 import {
   Brain, Shield, FileCheck, Compass, ChevronRight, Play,
   BookOpen, MessageSquare, Zap, ArrowRight, CheckCircle,
-  Users, BarChart3, Lock, ExternalLink, Search, HelpCircle,
+  Users, BarChart3, Lock, ExternalLink, HelpCircle,
 } from 'lucide-react';
 
 interface QuickStartStep {

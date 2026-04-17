@@ -17,10 +17,10 @@ import { logger } from '../../../lib/logger';
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   Shield, Activity, AlertTriangle, Eye, FileText, Download,
-  Clock, Zap, DollarSign, Users, Building2, Bot, Lock,
+  Clock, Zap, DollarSign, Building2, Lock,
   CheckCircle, XCircle, AlertCircle, Search, Filter,
-  BarChart3, PieChart, TrendingUp, Globe, Server,
-  ShieldAlert, ShieldCheck, FileWarning, Fingerprint,
+  BarChart3, Globe, Server,
+  ShieldAlert, ShieldCheck, Fingerprint,
 } from 'lucide-react';
 import { api } from '../../../lib/api/client';
 
@@ -112,12 +112,12 @@ const GatewayDashboardPage: React.FC = () => {
         api.get<{ policies: GatewayPolicy[] }>('/gateway/policies'),
       ]);
 
-      if (statsRes.data) setStats(statsRes.data);
-      if (interactionsRes.data) setInteractions(interactionsRes.data.interactions || []);
-      if (policiesRes.data) setPolicies(policiesRes.data.policies || []);
+      if (statsRes.data) {setStats(statsRes.data);}
+      if (interactionsRes.data) {setInteractions(interactionsRes.data.interactions || []);}
+      if (policiesRes.data) {setPolicies(policiesRes.data.policies || []);}
 
       // Guard: if API returned but data is empty, use fallback
-      if (!statsRes.data) throw new Error('Empty stats response');
+      if (!statsRes.data) {throw new Error('Empty stats response');}
     } catch (err) {
       logger.error('[Gateway] Failed to fetch data, using demo data:', err);
       setStats({
@@ -185,11 +185,11 @@ const GatewayDashboardPage: React.FC = () => {
   }, [fetchData]);
 
   const handlePIITest = async () => {
-    if (!piiTestText.trim()) return;
+    if (!piiTestText.trim()) {return;}
     setPiiTestLoading(true);
     try {
       const res = await api.post<PIITestResult>('/gateway/test-pii', { text: piiTestText });
-      if (res.data) setPiiTestResult(res.data);
+      if (res.data) {setPiiTestResult(res.data);}
     } catch (err) {
       logger.error('[Gateway] PII test failed:', err);
     } finally {
@@ -204,7 +204,7 @@ const GatewayDashboardPage: React.FC = () => {
         periodStart: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString(),
         periodEnd: new Date().toISOString(),
       });
-      if (res.data) setManifest(res.data);
+      if (res.data) {setManifest(res.data);}
     } catch (err) {
       logger.error('[Gateway] Manifest generation failed:', err);
     } finally {
@@ -213,7 +213,7 @@ const GatewayDashboardPage: React.FC = () => {
   };
 
   const handleDownloadManifest = () => {
-    if (!manifest) return;
+    if (!manifest) {return;}
     const blob = new Blob([JSON.stringify(manifest, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -324,7 +324,7 @@ const GatewayDashboardPage: React.FC = () => {
 // =============================================================================
 
 const OverviewTab: React.FC<{ stats: GatewayStats | null; interactions: GatewayInteraction[] }> = ({ stats, interactions }) => {
-  if (!stats) return null;
+  if (!stats) {return null;}
 
   const statCards = [
     { label: 'Total Interactions', value: stats.totalInteractions.toLocaleString(), icon: Activity, color: 'text-blue-400', bg: 'bg-blue-500/10', border: 'border-blue-500/30' },
@@ -461,8 +461,8 @@ const InteractionsTab: React.FC<{
   setFilterPiiOnly: (v: boolean) => void;
 }> = ({ interactions, filterProvider, setFilterProvider, filterPiiOnly, setFilterPiiOnly }) => {
   let filtered = interactions;
-  if (filterProvider) filtered = filtered.filter(i => i.provider === filterProvider);
-  if (filterPiiOnly) filtered = filtered.filter(i => i.piiDetected);
+  if (filterProvider) {filtered = filtered.filter(i => i.provider === filterProvider);}
+  if (filterPiiOnly) {filtered = filtered.filter(i => i.piiDetected);}
 
   return (
     <div className="space-y-4">

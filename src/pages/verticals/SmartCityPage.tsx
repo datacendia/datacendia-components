@@ -22,14 +22,10 @@ import {
   Building2,
   Users,
   Shield,
-  Leaf,
-  Car,
-  Wifi,
   Scale,
   FileText,
   ArrowRight,
   CheckCircle,
-  Clock,
   AlertTriangle,
 } from 'lucide-react';
 

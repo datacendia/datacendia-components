@@ -23,9 +23,7 @@ import { logger } from '../../../lib/logger';
 
 import React, { useState, useEffect } from 'react';
 import {
-  Activity,
   AlertTriangle,
-  ArrowRight,
   BarChart3,
   Bug,
   CheckCircle2,
@@ -38,16 +36,13 @@ import {
   Layers,
   Network,
   Play,
-  Plus,
   RefreshCw,
-  Settings2,
   Shield,
   Target,
-  TrendingUp,
   XCircle,
   Zap,
 } from 'lucide-react';
-import { CASCADE_MODES, getCoreModes, getModeForChangeType, type CascadeMode } from '../../../data/cascadeModes';
+import { CASCADE_MODES, getCoreModes, getModeForChangeType } from '../../../data/cascadeModes';
 
 // Tooltip component for mode-aware field help
 const FieldTooltip: React.FC<{ content: string }> = ({ content }) => {

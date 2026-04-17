@@ -16,9 +16,8 @@
 // Universal export toolbar, side-by-side comparison, and PDF export
 // =============================================================================
 
-import React, { useState, useCallback, useRef } from 'react';
+import React, { useState, useCallback } from 'react';
 import {
-  Download,
   FileText,
   FileJson,
   Table,
@@ -67,8 +66,8 @@ export const DeltaBadge: React.FC<{
   const isNegative = higherIsBetter ? delta < 0 : delta > 0;
 
   const formatValue = (v: number) => {
-    if (format === 'currency') return `$${Math.abs(v).toLocaleString()}`;
-    if (format === 'percent') return `${Math.abs(v).toFixed(1)}%`;
+    if (format === 'currency') {return `$${Math.abs(v).toLocaleString()}`;}
+    if (format === 'percent') {return `${Math.abs(v).toFixed(1)}%`;}
     return Math.abs(v).toLocaleString();
   };
 
@@ -183,8 +182,8 @@ export const ExportToolbar: React.FC<{
 
   const toggleColumn = (key: string) => {
     const next = new Set(selectedColumns);
-    if (next.has(key)) next.delete(key);
-    else next.add(key);
+    if (next.has(key)) {next.delete(key);}
+    else {next.add(key);}
     setSelectedColumns(next);
   };
 
@@ -265,9 +264,9 @@ export const ComparisonPanel: React.FC<{
   showDelta?: boolean;
 }> = ({ title = 'Comparison', labelA, labelB, items, showDelta = true }) => {
   const formatValue = (value: string | number, format?: string) => {
-    if (typeof value === 'string') return value;
-    if (format === 'currency') return `$${value.toLocaleString()}`;
-    if (format === 'percent') return `${value.toFixed(1)}%`;
+    if (typeof value === 'string') {return value;}
+    if (format === 'currency') {return `$${value.toLocaleString()}`;}
+    if (format === 'percent') {return `${value.toFixed(1)}%`;}
     return value.toLocaleString();
   };
 

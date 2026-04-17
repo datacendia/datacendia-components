@@ -18,7 +18,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from '../../lib/utils';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 import { 
   Cpu, MemoryStick, HardDrive, Activity, Server, 
   Gauge, Bot, Zap, Clock, TrendingUp, AlertTriangle

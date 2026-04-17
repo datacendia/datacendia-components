@@ -18,7 +18,7 @@
  * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
  */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Shield,
   Clock,
@@ -35,14 +35,12 @@ import {
   Fingerprint,
   Scale,
   Gavel,
-  TrendingUp,
   Users,
   Search,
   Timer,
   ShieldCheck,
   Activity,
   FileCheck,
-  Layers,
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';

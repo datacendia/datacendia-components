@@ -21,7 +21,6 @@ import {
   CouncilStreamClient,
   getCouncilStreamClient,
   DeliberationState,
-  StreamEvent,
   AgentStreamState,
 } from './CouncilStreamClient';
 

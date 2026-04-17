@@ -26,19 +26,17 @@ import { logger } from '../../lib/logger';
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { cn } from '../../lib/utils';
-import { RedactedText, RedactedCode, useRedaction } from '../ui/RedactedText';
+import { RedactedText, RedactedCode } from '../ui/RedactedText';
 import {
-  Shield, FileCheck, Lock, CheckCircle, XCircle, AlertTriangle,
-  Clock, Users, Fingerprint, FileSignature, Download, Eye,
-  ChevronRight, Play, Pause, RotateCcw, Sparkles, Activity,
-  FileText, Hash, Key, Server, Cpu, Database, Zap, Award,
-  TrendingUp, AlertCircle, BarChart3, Workflow, Binary, Wifi, WifiOff,
-  Send, User, MessageSquare, Archive, Calendar, FileJson, FileBadge,
-  HardDrive, ClipboardList, ExternalLink, Stamp
+  Shield, FileCheck, CheckCircle, XCircle, AlertTriangle,
+  Clock, Users, Fingerprint, FileSignature, Download, Play, Pause, RotateCcw, Activity,
+  FileText, Hash, Key, Server, Cpu, Database, Award, AlertCircle, Workflow, Binary, Wifi, WifiOff,
+  Send, User, MessageSquare, FileJson, FileBadge,
+  HardDrive, ClipboardList, Stamp
 } from 'lucide-react';
 import ollamaService from '../../lib/ollama';
 import councilPacketApi, { SignatureResult } from '../../services/CouncilPacketService';
-import { deterministicFloat, deterministicInt } from '../../lib/deterministic';
+import { deterministicFloat } from '../../lib/deterministic';
 
 // =============================================================================
 // TYPES

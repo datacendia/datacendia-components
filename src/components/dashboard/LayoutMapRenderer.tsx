@@ -21,7 +21,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../lib/utils';
 import type { LayoutMap, LayoutMapZone } from '../../config/verticalLayoutMaps';
-import { ChevronRight, Zap, AlertTriangle, CheckCircle, Clock, MessageSquare, Shield, FileText, Brain, Users, History, Target, Lock, FlaskConical } from 'lucide-react';
+import { ChevronRight, Zap, AlertTriangle, CheckCircle, Clock, MessageSquare, Shield, Brain } from 'lucide-react';
 
 // Vertical-specific AI agents for discussion
 const VERTICAL_AGENTS: Record<string, { id: string; name: string; icon: string; role: string }[]> = {

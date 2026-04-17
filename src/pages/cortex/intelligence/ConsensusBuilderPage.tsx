@@ -20,8 +20,7 @@ import React, { useState, useEffect } from 'react';
 import apiClient from '../../../lib/api/client';
 import { cn } from '../../../../lib/utils';
 import {
-  Users, CheckCircle, XCircle, MinusCircle, BarChart3, Scale,
-  Plus, ChevronRight, ThumbsUp, ThumbsDown, Minus, Zap, Target,
+  Users, Scale, ThumbsUp, ThumbsDown, Minus,
 } from 'lucide-react';
 
 interface Stakeholder {
@@ -70,8 +69,8 @@ export const ConsensusBuilderPage: React.FC = () => {
         const res = await apiClient.api.get<any>('/council/sessions?status=active&limit=1');
         if (res.success && res.data?.sessions?.length > 0) {
           const session = res.data.sessions[0];
-          if (session.stakeholders?.length) setStakeholders(session.stakeholders);
-          if (session.options?.length) setOptions(session.options);
+          if (session.stakeholders?.length) {setStakeholders(session.stakeholders);}
+          if (session.options?.length) {setOptions(session.options);}
         }
       } catch { /* fallback to demo data */ }
       setIsLoading(false);

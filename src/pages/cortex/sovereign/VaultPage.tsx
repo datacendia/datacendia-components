@@ -12,10 +12,9 @@ import { logger } from '../../../lib/logger';
 
 import React, { useState, useEffect } from 'react';
 import { 
-  Archive, FileText, Shield, Clock, Search, Filter,
-  Download, Eye, Lock, Unlock, CheckCircle, XCircle,
-  AlertTriangle, Database, FileCheck, Folder, Tag,
-  Calendar, User, Hash, ExternalLink, RefreshCw
+  Archive, FileText, Shield, Search,
+  Download, Eye, Lock, CheckCircle, XCircle,
+  AlertTriangle, Database, FileCheck, Folder, RefreshCw
 } from 'lucide-react';
 
 // =============================================================================

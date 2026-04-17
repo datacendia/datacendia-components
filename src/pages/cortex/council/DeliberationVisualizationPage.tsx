@@ -17,32 +17,25 @@ import { logger } from '../../../lib/logger';
 // Watch AI agents deliberate in real-time with animated avatars
 // =============================================================================
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useWebSocket } from '@/hooks/useWebSocket';
 import { api } from '../../../lib/api';
-import { deterministicFloat, deterministicInt } from '../../../lib/deterministic';
+import { deterministicFloat } from '../../../lib/deterministic';
 import {
   Users,
   MessageCircle,
   TrendingUp,
   AlertTriangle,
-  CheckCircle,
   Clock,
   Play,
   Pause,
   RotateCcw,
-  Volume2,
-  VolumeX,
   Maximize2,
-  Settings,
   Eye,
-  BookOpen,
   ThumbsUp,
   ThumbsDown,
-  Minus,
   Activity,
-  Zap,
 } from 'lucide-react';
 
 // =============================================================================

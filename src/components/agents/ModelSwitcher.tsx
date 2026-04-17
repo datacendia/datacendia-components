@@ -26,19 +26,14 @@ import {
   Code,
   Image,
   Search,
-  AlertCircle,
   Info,
   Settings,
-  RefreshCw,
 } from 'lucide-react';
 import {
-  OllamaModel,
-  ModelCategory,
   getAvailableModels,
   getModel,
   getModelCategories,
   getRecommendedModels,
-  getDefaultModel,
   TOTAL_MODEL_COUNT,
 } from '../../lib/agents/modelSwitching';
 
