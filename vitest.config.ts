@@ -29,6 +29,8 @@ export default defineConfig({
         'src/contexts/**/*.{ts,tsx}',
         'src/services/**/*.{ts,tsx}',
         'src/config/**/*.{ts,tsx}',
+        'src/pages/**/*.{ts,tsx}',
+        'src/layouts/**/*.{ts,tsx}',
       ],
       exclude: [
         'node_modules/',

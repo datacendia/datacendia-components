@@ -74,9 +74,14 @@ jobs:
         working-directory: backend
         run: npx tsc --noEmit --skipLibCheck
 
-      - name: Run unit tests
+      - name: Lint
         working-directory: backend
-        run: npx vitest run
+        run: npx eslint src --ext .ts --max-warnings 0
+        continue-on-error: true # warn-only until H2 ratchet pass completes
+
+      - name: Run unit tests with coverage
+        working-directory: backend
+        run: npx vitest run --coverage
         env:
           CI: true
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
@@ -84,6 +89,14 @@ jobs:
           JWT_SECRET: test-secret-key-for-ci-minimum-32-chars
           JWT_REFRESH_SECRET: test-refresh-secret-for-ci-minimum-32-chars
           NODE_ENV: test
+
+      - name: Upload backend coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: backend/coverage/
+          retention-days: 14
 
   frontend-build:
     name: Frontend Build
