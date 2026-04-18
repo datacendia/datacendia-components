@@ -31,6 +31,13 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text', 'json-summary'],
       exclude: ['node_modules', 'dist', 'tests'],
+      thresholds: {
+        autoUpdate: true,
+        lines: 35,
+        functions: 35,
+        branches: 30,
+        statements: 35,
+      },
     },
   },
 });
