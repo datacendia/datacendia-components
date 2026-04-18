@@ -18,6 +18,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
+import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 
 // =============================================================================
 // DELIBERATION VIEW PAGE
@@ -116,6 +117,7 @@ export const DeliberationViewPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-6xl mx-auto">
+      <DemoDataBanner />
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div>
@@ -337,6 +339,7 @@ export const AgentProfilePage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-5xl mx-auto">
+      <DemoDataBanner />
       {/* Header */}
       <button
         onClick={() => navigate('/cortex/council')}

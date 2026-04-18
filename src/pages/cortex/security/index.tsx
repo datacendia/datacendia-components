@@ -19,6 +19,7 @@ import { logger } from '../../../lib/logger';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
+import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 
 // =============================================================================
 // SECURITY OVERVIEW PAGE
@@ -81,6 +82,7 @@ export const SecurityOverviewPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>SECURITY OVERVIEW</h1>
@@ -305,6 +307,7 @@ export const AccessControlPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>ACCESS CONTROL</h1>
@@ -519,6 +522,7 @@ export const AuditLogPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>AUDIT LOG</h1>
@@ -713,6 +717,7 @@ export const SecurityPoliciesPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>SECURITY POLICIES</h1>

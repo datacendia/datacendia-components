@@ -47,6 +47,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
+import { DemoDataBanner } from '@/components/common/DemoDataBanner';
 
 // =============================================================================
 // DEMO DATA — Synthetic Scenario Based on Public CAS Patterns
@@ -266,6 +267,7 @@ export default function UEFAWalkthroughPage() {
 
   return (
     <div className="container mx-auto py-6 space-y-6 max-w-6xl">
+      <DemoDataBanner variant="walkthrough" />
       {/* Header */}
       <div className="space-y-2">
         <div className="flex items-center gap-2 text-sm text-muted-foreground">

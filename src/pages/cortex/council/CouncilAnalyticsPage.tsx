@@ -19,6 +19,7 @@
 
 import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
+import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 import {
   Brain, BarChart3, TrendingUp, TrendingDown, Users, Clock,
   CheckCircle, Target, Zap, Activity, PieChart,
@@ -76,6 +77,7 @@ export const CouncilAnalyticsPage: React.FC = () => {
 
   return (
     <div className="p-4 lg:p-6 max-w-[1440px] mx-auto space-y-5">
+      <DemoDataBanner />
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
