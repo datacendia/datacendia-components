@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAINVENTUMÃ¢â€žÂ¢ - RESEARCH & DEVELOPMENT / INTELLECTUAL PROPERTY
+// CENDIAINVENTUM™ - RESEARCH & DEVELOPMENT / INTELLECTUAL PROPERTY
 // "The Patent Factory" - AI-powered innovation capture and IP management
 // =============================================================================
 
@@ -242,7 +242,7 @@ class CendiaInventumService {
   private projects: Map<string, ResearchProject> = new Map();
 
   constructor() {
-    logger.info('CendiaInventumÃ¢â€žÂ¢ initialized - The Patent Factory is ready');
+    logger.info('CendiaInventum™ initialized - The Patent Factory is ready');
 
 
     this.loadFromDB().catch(() => {});
@@ -289,7 +289,7 @@ class CendiaInventumService {
     patentPotential: boolean;
     analysis: IdeaAnalysis;
   }> {
-    const prompt = `You are CendiaInventumÃ¢â€žÂ¢, an AI R&D and IP management system.
+    const prompt = `You are CendiaInventum™, an AI R&D and IP management system.
 
 Analyze this innovation idea for patent potential:
 
@@ -384,7 +384,7 @@ Consider:
     const idea = this.ideas.get(ideaId);
     if (!idea) throw new Error('Idea not found');
 
-    const prompt = `You are CendiaInventumÃ¢â€žÂ¢, generating a provisional patent draft.
+    const prompt = `You are CendiaInventum™, generating a provisional patent draft.
 
 IDEA: ${idea.title}
 DESCRIPTION: ${idea.description}
@@ -695,7 +695,7 @@ Generate a provisional patent draft in JSON:
   // ---------------------------------------------------------------------------
 
   async scanForNovelIdeas(content: string, source: string): Promise<IdeaCapture[]> {
-    const prompt = `You are CendiaInventumÃ¢â€žÂ¢, scanning content for novel, patentable ideas.
+    const prompt = `You are CendiaInventum™, scanning content for novel, patentable ideas.
 
 CONTENT SOURCE: ${source}
 CONTENT:
@@ -855,8 +855,8 @@ Focus on:
     const overallConversion = ideas.length > 0 ? Math.round((patented / ideas.length) * 100) : 0;
 
     const insights: string[] = [];
-    if (pipeline.captured > 5) insights.push(`${pipeline.captured} idea(s) awaiting evaluation Ã¢â‚¬â€ review backlog`);
-    if (avgNovelty < 50) insights.push(`Average novelty score is ${avgNovelty} Ã¢â‚¬â€ encourage more breakthrough thinking`);
+    if (pipeline.captured > 5) insights.push(`${pipeline.captured} idea(s) awaiting evaluation — review backlog`);
+    if (avgNovelty < 50) insights.push(`Average novelty score is ${avgNovelty} — encourage more breakthrough thinking`);
     if (overallConversion < 10 && ideas.length > 10) insights.push(`Idea-to-patent conversion rate is only ${overallConversion}%`);
     const patentable = ideas.filter(i => i.patentPotential && i.status !== 'patented').length;
     if (patentable > 0) insights.push(`${patentable} patentable idea(s) not yet filed`);
@@ -931,10 +931,10 @@ Focus on:
       : 0;
 
     const insights: string[] = [];
-    if (overdueFees.length > 0) insights.push(`${overdueFees.length} overdue maintenance fee(s) Ã¢â‚¬â€ risk of patent abandonment`);
-    if (expiring.length > 0) insights.push(`${expiring.length} patent(s) expiring within 2 years Ã¢â‚¬â€ review renewal strategy`);
-    if (rejected > 0) insights.push(`${rejected} patent(s) rejected Ã¢â‚¬â€ consider amendments or appeals`);
-    if (pending > 3) insights.push(`${pending} patent(s) pending Ã¢â‚¬â€ consider acceleration strategies`);
+    if (overdueFees.length > 0) insights.push(`${overdueFees.length} overdue maintenance fee(s) — risk of patent abandonment`);
+    if (expiring.length > 0) insights.push(`${expiring.length} patent(s) expiring within 2 years — review renewal strategy`);
+    if (rejected > 0) insights.push(`${rejected} patent(s) rejected — consider amendments or appeals`);
+    if (pending > 3) insights.push(`${pending} patent(s) pending — consider acceleration strategies`);
     if (insights.length === 0) insights.push('IP portfolio is in good health');
 
     return {
@@ -1025,7 +1025,7 @@ Focus on:
     if (delayedMilestones > 0) insights.push(`${delayedMilestones} milestone(s) delayed across all projects`);
     const overallocated = Object.values(teamMap).filter(t => t.allocation > 100);
     if (overallocated.length > 0) insights.push(`${overallocated.length} team member(s) overallocated (>100%)`);
-    if (onHold > 0) insights.push(`${onHold} project(s) on hold Ã¢â‚¬â€ review for restart or cancellation`);
+    if (onHold > 0) insights.push(`${onHold} project(s) on hold — review for restart or cancellation`);
     if (insights.length === 0) insights.push('R&D portfolio is performing well across all metrics');
 
     return {
@@ -1084,7 +1084,7 @@ Focus on:
       .filter(p => p.status === 'granted' && (!p.monetization || p.monetization.annualRevenue === 0))
       .map(p => ({
         title: p.title, estimatedValue: p.monetization?.estimatedValue || 50000, patentNumber: p.patentNumber || 'N/A',
-        suggestion: p.claims.length > 5 ? 'Strong claims Ã¢â‚¬â€ pursue licensing' : 'Consider cross-licensing or portfolio sale',
+        suggestion: p.claims.length > 5 ? 'Strong claims — pursue licensing' : 'Consider cross-licensing or portfolio sale',
       }));
 
     const sortedLicensees = Object.entries(licenseeRevenue).sort((a, b) => b[1] - a[1]);
@@ -1093,9 +1093,9 @@ Focus on:
     const diversification = sortedLicensees.length > 0 && annualRevenue > 0 ? Math.round((1 - topRevenue / Math.max(1, annualRevenue)) * 100) : 0;
 
     const insights: string[] = [];
-    if (unmonetized.length > 0) insights.push(`${unmonetized.length} granted patent(s) generating no revenue Ã¢â‚¬â€ monetization opportunity`);
-    if (roi < 100 && annualRevenue > 0) insights.push(`IP ROI is ${roi}% Ã¢â‚¬â€ maintenance costs may exceed returns for some patents`);
-    if (diversification < 30 && sortedLicensees.length > 0) insights.push('Revenue heavily concentrated on one licensee Ã¢â‚¬â€ diversify licensing');
+    if (unmonetized.length > 0) insights.push(`${unmonetized.length} granted patent(s) generating no revenue — monetization opportunity`);
+    if (roi < 100 && annualRevenue > 0) insights.push(`IP ROI is ${roi}% — maintenance costs may exceed returns for some patents`);
+    if (diversification < 30 && sortedLicensees.length > 0) insights.push('Revenue heavily concentrated on one licensee — diversify licensing');
     if (allDeals.filter(d => d.status === 'negotiating').length > 0) insights.push(`${allDeals.filter(d => d.status === 'negotiating').length} deal(s) in negotiation`);
     if (insights.length === 0) insights.push('Patent monetization strategy is performing well');
 

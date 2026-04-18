@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MESHÃ¢â€žÂ¢ - Encrypted Networking Service
+// CENDIA MESH™ - Encrypted Networking Service
 // "Quantum-resistant secure communications."
 // Sovereign Security Layer - Encrypted Networking
 // =============================================================================

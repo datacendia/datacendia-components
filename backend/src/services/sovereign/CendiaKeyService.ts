@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA KEYÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Hardware Authentication Service
+// CENDIA KEY—"¢ - Hardware Authentication Service
 // "Physical presence for digital authority."
 // Sovereign Security Layer - Hardware Authentication
 // =============================================================================

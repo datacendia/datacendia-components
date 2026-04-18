@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA APOTHEOSISÃ¢â€žÂ¢ - AUTOMATED ADVERSARIAL SCENARIO SIMULATIONS
+// CENDIA APOTHEOSIS™ - AUTOMATED ADVERSARIAL SCENARIO SIMULATIONS
 // "Continuous organizational resilience testing with auditable scoring."
 //
 // Automated adversarial scenario simulations with auditable scoring and replay.
@@ -1645,13 +1645,13 @@ Respond with ONLY valid JSON:
 
     const insights: string[] = [];
     if (trend === 'IMPROVING') insights.push(`Resilience improving at ${improvementRate}% over ${periodDays} days`);
-    if (trend === 'DECLINING') insights.push(`WARNING: Resilience declining Ã¢â‚¬â€ review recent weakness patterns`);
-    if (trend === 'CRITICAL_DECLINE') insights.push(`CRITICAL: Rapid resilience decline detected Ã¢â‚¬â€ immediate intervention needed`);
+    if (trend === 'DECLINING') insights.push(`WARNING: Resilience declining — review recent weakness patterns`);
+    if (trend === 'CRITICAL_DECLINE') insights.push(`CRITICAL: Rapid resilience decline detected — immediate intervention needed`);
     if (trendData.length > 0 && trendData[trendData.length - 1].weaknessCount > 10) {
-      insights.push(`${trendData[trendData.length - 1].weaknessCount} weaknesses in latest run Ã¢â‚¬â€ above threshold`);
+      insights.push(`${trendData[trendData.length - 1].weaknessCount} weaknesses in latest run — above threshold`);
     }
-    if (currentScore >= 95) insights.push('Exceptional resilience Ã¢â‚¬â€ organization is hardened');
-    if (runs.length < 5) insights.push('Insufficient run history for reliable trending Ã¢â‚¬â€ run more simulations');
+    if (currentScore >= 95) insights.push('Exceptional resilience — organization is hardened');
+    if (runs.length < 5) insights.push('Insufficient run history for reliable trending — run more simulations');
 
     return { currentScore, previousScore, trend, trendData, improvementRate, projectedScore30d, insights };
   }
@@ -1806,8 +1806,8 @@ Respond with ONLY valid JSON:
           lastSeen: sortedDates[sortedDates.length - 1].toISOString().split('T')[0],
           resolved: false,
           recommendation: data.count >= 5
-            ? `CRITICAL: "${attackVector}" recurring ${data.count} times Ã¢â‚¬â€ implement systemic fix`
-            : `Monitor "${attackVector}" Ã¢â‚¬â€ ${data.count} occurrences detected`,
+            ? `CRITICAL: "${attackVector}" recurring ${data.count} times — implement systemic fix`
+            : `Monitor "${attackVector}" — ${data.count} occurrences detected`,
         };
       })
       .sort((a, b) => b.occurrences - a.occurrences);
@@ -1905,10 +1905,10 @@ Respond with ONLY valid JSON:
 
     const recommendations: string[] = [];
     for (const d of dimensions) {
-      if (d.status === 'CRITICAL') recommendations.push(`URGENT: ${d.name} at ${d.score}% Ã¢â‚¬â€ immediate action required`);
+      if (d.status === 'CRITICAL') recommendations.push(`URGENT: ${d.name} at ${d.score}% — immediate action required`);
       else if (d.status === 'NEEDS_IMPROVEMENT') recommendations.push(`Improve ${d.name} (currently ${d.score}%)`);
     }
-    if (recommendations.length === 0) recommendations.push('Organization is well-prepared Ã¢â‚¬â€ maintain current practices');
+    if (recommendations.length === 0) recommendations.push('Organization is well-prepared — maintain current practices');
 
     return {
       readinessScore,

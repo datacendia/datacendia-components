@@ -118,7 +118,7 @@ export const OMNITRANSLATE_LANGUAGES = {
   bs: { name: 'Bosnian', nativeName: 'Bosanski', rtl: false, region: 'europe' },
   mk: { name: 'Macedonian', nativeName: 'Македонски', rtl: false, region: 'europe' },
   bg: { name: 'Bulgarian', nativeName: 'Български', rtl: false, region: 'europe' },
-  ro: { name: 'Romanian', nativeName: 'Română', rtl: false, region: 'europe' },
+  ro: { name: 'Romanian', nativeName: 'Rom—nă', rtl: false, region: 'europe' },
   hu: { name: 'Hungarian', nativeName: 'Magyar', rtl: false, region: 'europe' },
   el: { name: 'Greek', nativeName: 'Ελληνικά', rtl: false, region: 'europe' },
   sq: { name: 'Albanian', nativeName: 'Shqip', rtl: false, region: 'europe' },

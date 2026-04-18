@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAWATCHâ„¢ - THE SENTRY
+// CENDIAWATCH—„¢ - THE SENTRY
 // Competitor & Market Surveillance
 // Real-time monitoring of competitors, market trends, and threats
 // =============================================================================
@@ -453,7 +453,7 @@ Write a 2-paragraph executive summary.`;
     );
 
     if (high.length > 0) {
-      return `âš ï¸ WATCH: ${high.length} high-priority alerts require attention.`;
+      return `—š ï¸ WATCH: ${high.length} high-priority alerts require attention.`;
     }
 
     return null;
@@ -637,14 +637,14 @@ Write a 2-paragraph executive summary.`;
 
     // Insights
     const insights: string[] = [];
-    if (criticalAlerts.length > 0) insights.push(`${criticalAlerts.length} CRITICAL alert(s) unacknowledged â€” immediate attention required`);
-    if (highAlerts.length > 0) insights.push(`${highAlerts.length} high-severity alert(s) pending â€” review and respond within 24 hours`);
+    if (criticalAlerts.length > 0) insights.push(`${criticalAlerts.length} CRITICAL alert(s) unacknowledged — immediate attention required`);
+    if (highAlerts.length > 0) insights.push(`${highAlerts.length} high-severity alert(s) pending — review and respond within 24 hours`);
     const threatSignals = signals.filter(s => s.sentiment === 'threat' && s.detectedAt.getTime() > sevenDaysAgo);
-    if (threatSignals.length > 0) insights.push(`${threatSignals.length} threat signal(s) detected this week â€” evaluate competitive response`);
+    if (threatSignals.length > 0) insights.push(`${threatSignals.length} threat signal(s) detected this week — evaluate competitive response`);
     const opportunities = signals.filter(s => s.sentiment === 'opportunity' && s.detectedAt.getTime() > sevenDaysAgo);
-    if (opportunities.length > 0) insights.push(`${opportunities.length} opportunity signal(s) identified â€” prioritize for strategic action`);
-    if (unprocessed.length > 0) insights.push(`${unprocessed.length} unprocessed signal(s) in queue â€” run analysis pipeline`);
-    if (insights.length === 0) insights.push('Market intelligence operations are healthy â€” continue monitoring cadence');
+    if (opportunities.length > 0) insights.push(`${opportunities.length} opportunity signal(s) identified — prioritize for strategic action`);
+    if (unprocessed.length > 0) insights.push(`${unprocessed.length} unprocessed signal(s) in queue — run analysis pipeline`);
+    if (insights.length === 0) insights.push('Market intelligence operations are healthy — continue monitoring cadence');
 
     return {
       overview: {
@@ -807,13 +807,13 @@ Output JSON:
     // Insights
     const insights: string[] = [];
     const highThreatComps = threatMatrix.filter(t => t.threatScore > 70);
-    if (highThreatComps.length > 0) insights.push(`${highThreatComps.length} competitor(s) at high threat level â€” activate defensive positioning`);
+    if (highThreatComps.length > 0) insights.push(`${highThreatComps.length} competitor(s) at high threat level — activate defensive positioning`);
     const recentLaunches = signals.filter(s => s.type === 'product_launch' && s.detectedAt.getTime() > thirtyDaysAgo);
-    if (recentLaunches.length > 0) insights.push(`${recentLaunches.length} competitive product launch(es) in last 30 days â€” assess feature overlap`);
+    if (recentLaunches.length > 0) insights.push(`${recentLaunches.length} competitive product launch(es) in last 30 days — assess feature overlap`);
     const fundingSignals = signals.filter(s => s.type === 'funding' && s.detectedAt.getTime() > thirtyDaysAgo);
-    if (fundingSignals.length > 0) insights.push(`${fundingSignals.length} competitor funding event(s) detected â€” anticipate increased competitive pressure`);
-    if (direct.length === 0) insights.push('No direct competitors tracked â€” expand competitive monitoring scope');
-    if (insights.length === 0) insights.push('Competitive landscape is stable â€” maintain monitoring cadence');
+    if (fundingSignals.length > 0) insights.push(`${fundingSignals.length} competitor funding event(s) detected — anticipate increased competitive pressure`);
+    if (direct.length === 0) insights.push('No direct competitors tracked — expand competitive monitoring scope');
+    if (insights.length === 0) insights.push('Competitive landscape is stable — maintain monitoring cadence');
 
     return {
       landscapeOverview: {
@@ -985,14 +985,14 @@ Output JSON:
 
     // Insights
     const insights: string[] = [];
-    if (trend === 'rising') insights.push('Signal volume is rising â€” market activity is intensifying, increase monitoring frequency');
-    if (trend === 'declining') insights.push('Signal volume is declining â€” verify data sources are still active');
+    if (trend === 'rising') insights.push('Signal volume is rising — market activity is intensifying, increase monitoring frequency');
+    if (trend === 'declining') insights.push('Signal volume is declining — verify data sources are still active');
     const highThreatTypes = typeCorrelations.filter(t => t.threatPct > 50);
-    if (highThreatTypes.length > 0) insights.push(`Signal type(s) ${highThreatTypes.map(t => t.type).join(', ')} have >50% threat ratio â€” focus analysis on these channels`);
+    if (highThreatTypes.length > 0) insights.push(`Signal type(s) ${highThreatTypes.map(t => t.type).join(', ')} have >50% threat ratio — focus analysis on these channels`);
     const highConversion = typeCorrelations.filter(t => t.alertConversionRate > 30);
-    if (highConversion.length > 0) insights.push(`Signal type(s) ${highConversion.map(t => t.type).join(', ')} have high alert conversion â€” these are most actionable`);
-    if (processed.length < signals.length * 0.8 && signals.length > 0) insights.push(`Only ${Math.round((processed.length / signals.length) * 100)}% of signals processed â€” clear processing backlog`);
-    if (insights.length === 0) insights.push('Signal patterns are nominal â€” intelligence pipeline operating normally');
+    if (highConversion.length > 0) insights.push(`Signal type(s) ${highConversion.map(t => t.type).join(', ')} have high alert conversion — these are most actionable`);
+    if (processed.length < signals.length * 0.8 && signals.length > 0) insights.push(`Only ${Math.round((processed.length / signals.length) * 100)}% of signals processed — clear processing backlog`);
+    if (insights.length === 0) insights.push('Signal patterns are nominal — intelligence pipeline operating normally');
 
     return {
       patternOverview: {
@@ -1130,7 +1130,7 @@ Output JSON:
       recommendations.push({ area: 'Response Time', issue: 'Slow average response time', recommendation: 'Implement real-time alert notifications via Slack/email', priority: 'high' });
     }
     if (responseRate < 80) {
-      recommendations.push({ area: 'Response Coverage', issue: `Only ${responseRate}% of alerts acknowledged`, recommendation: 'Review alert thresholds â€” reduce noise to improve response quality', priority: 'high' });
+      recommendations.push({ area: 'Response Coverage', issue: `Only ${responseRate}% of alerts acknowledged`, recommendation: 'Review alert thresholds — reduce noise to improve response quality', priority: 'high' });
     }
     const highFPSources = alertSourceQuality.filter(s => s.falsePositiveEstimate > 40);
     if (highFPSources.length > 0) {
@@ -1143,11 +1143,11 @@ Output JSON:
     // Insights
     const insights: string[] = [];
     const staleCritical = unacknowledged.filter(a => a.severity === 'critical' && (now - a.createdAt.getTime()) > 24 * 3600000);
-    if (staleCritical.length > 0) insights.push(`${staleCritical.length} critical alert(s) unacknowledged for >24 hours â€” escalate immediately`);
-    if (avgResponseHours > 12 && alerts.length > 0) insights.push(`Average response time is ${avgResponseHours} hours â€” target <4 hours for competitive advantage`);
-    if (responseRate < 70 && alerts.length > 0) insights.push(`Response rate is ${responseRate}% â€” alert fatigue may be reducing effectiveness`);
+    if (staleCritical.length > 0) insights.push(`${staleCritical.length} critical alert(s) unacknowledged for >24 hours — escalate immediately`);
+    if (avgResponseHours > 12 && alerts.length > 0) insights.push(`Average response time is ${avgResponseHours} hours — target <4 hours for competitive advantage`);
+    if (responseRate < 70 && alerts.length > 0) insights.push(`Response rate is ${responseRate}% — alert fatigue may be reducing effectiveness`);
     const competitiveLaunches = alerts.filter(a => a.type === 'competitive_launch' && !a.acknowledgedAt);
-    if (competitiveLaunches.length > 0) insights.push(`${competitiveLaunches.length} competitive launch alert(s) need response â€” mobilize product/marketing teams`);
+    if (competitiveLaunches.length > 0) insights.push(`${competitiveLaunches.length} competitive launch alert(s) need response — mobilize product/marketing teams`);
     if (insights.length === 0) insights.push('Threat response operations are performing within acceptable parameters');
 
     return {
@@ -1232,9 +1232,9 @@ Output JSON:
           competitorsInvolved: Array.from(data.competitors).slice(0, 5),
           riskLevel, firstDetected: firstSignal?.detectedAt.toISOString().split('T')[0] || 'unknown',
           projectedImpact: direction === 'accelerating' && riskLevel !== 'low'
-            ? 'High â€” expect market disruption within 30-60 days'
-            : direction === 'accelerating' ? 'Moderate â€” growing market interest'
-            : direction === 'decelerating' ? 'Low â€” trend losing momentum' : 'Steady â€” monitor for changes',
+            ? 'High — expect market disruption within 30-60 days'
+            : direction === 'accelerating' ? 'Moderate — growing market interest'
+            : direction === 'decelerating' ? 'Low — trend losing momentum' : 'Steady — monitor for changes',
         };
       })
       .sort((a, b) => {
@@ -1278,10 +1278,10 @@ Output JSON:
         : activityTrend === 'increasing' && dominantType === 'funding'
         ? 'Likely pursuing aggressive expansion post-funding'
         : activityTrend === 'increasing' && dominantType === 'job_posting'
-        ? 'Scaling team â€” expect capability expansion in 60-90 days'
+        ? 'Scaling team — expect capability expansion in 60-90 days'
         : activityTrend === 'decreasing'
-        ? 'Reduced market activity â€” possible internal restructuring or pivot'
-        : 'Maintaining steady market presence â€” no major shifts expected';
+        ? 'Reduced market activity — possible internal restructuring or pivot'
+        : 'Maintaining steady market presence — no major shifts expected';
 
       return {
         competitor: comp.name, category: comp.category, activityTrend,
@@ -1335,7 +1335,7 @@ Output JSON:
       else if (recentCount < olderNorm * 0.7 && olderNorm > 0) { direction = 'bearish'; strength = Math.max(0, 50 - Math.round((olderNorm - recentCount) * 10)); }
       return {
         indicator: check.indicator, strength, direction, signals: matchSignals.length,
-        description: direction === 'bullish' ? check.bullish : direction === 'bearish' ? check.bearish : 'Stable â€” no significant shift detected',
+        description: direction === 'bullish' ? check.bullish : direction === 'bearish' ? check.bearish : 'Stable — no significant shift detected',
       };
     });
 
@@ -1349,7 +1349,7 @@ Output JSON:
         severity: t.riskLevel === 'critical' ? 'critical' : 'alert',
         confidence: Math.min(95, 50 + t.signalCount * 5),
         triggerSignals: t.signalCount,
-        recommendedAction: `Conduct deep-dive analysis on "${t.trend}" â€” prepare competitive response playbook`,
+        recommendedAction: `Conduct deep-dive analysis on "${t.trend}" — prepare competitive response playbook`,
         timeToImpact: '30-60 days',
       });
     });
@@ -1361,7 +1361,7 @@ Output JSON:
         severity: 'alert',
         confidence: Math.min(90, 50 + Math.round(c.signalVelocity * 20)),
         triggerSignals: Math.round(c.signalVelocity * 14),
-        recommendedAction: `Monitor "${c.competitor}" closely â€” ${c.predictedNextMove}`,
+        recommendedAction: `Monitor "${c.competitor}" closely — ${c.predictedNextMove}`,
         timeToImpact: '30-90 days',
       });
     });
@@ -1373,7 +1373,7 @@ Output JSON:
         severity: 'advisory',
         confidence: Math.min(80, 40 + i.signals * 3),
         triggerSignals: i.signals,
-        recommendedAction: `Review exposure to ${i.indicator.toLowerCase()} risk â€” consider defensive positioning`,
+        recommendedAction: `Review exposure to ${i.indicator.toLowerCase()} risk — consider defensive positioning`,
         timeToImpact: '60-120 days',
       });
     });
@@ -1381,7 +1381,7 @@ Output JSON:
     const unackedCritical = alerts.filter(a => a.severity === 'critical' && !a.acknowledgedAt);
     if (unackedCritical.length > 0) {
       earlyWarnings.push({
-        warning: `${unackedCritical.length} unacknowledged critical alert(s) â€” response degradation risk`,
+        warning: `${unackedCritical.length} unacknowledged critical alert(s) — response degradation risk`,
         severity: 'critical',
         confidence: 95,
         triggerSignals: unackedCritical.length,
@@ -1392,7 +1392,7 @@ Output JSON:
 
     if (earlyWarnings.length === 0) {
       earlyWarnings.push({
-        warning: 'No early warnings â€” competitive landscape is stable',
+        warning: 'No early warnings — competitive landscape is stable',
         severity: 'watch',
         confidence: 70,
         triggerSignals: 0,
@@ -1470,16 +1470,16 @@ Output JSON:
     const criticalWarnings = earlyWarnings.filter(w => w.severity === 'critical' || w.severity === 'alert');
     if (criticalWarnings.length > 0) insights.push(`${criticalWarnings.length} active early warning(s) require immediate attention`);
     const accelTrends = emergingTrends.filter(t => t.direction === 'accelerating');
-    if (accelTrends.length > 0) insights.push(`${accelTrends.length} trend(s) accelerating â€” market dynamics are shifting`);
+    if (accelTrends.length > 0) insights.push(`${accelTrends.length} trend(s) accelerating — market dynamics are shifting`);
     const escalatingComps = competitorTrajectories.filter(c => c.threatTrajectory === 'escalating');
-    if (escalatingComps.length > 0) insights.push(`${escalatingComps.length} competitor(s) with escalating threat trajectory â€” activate competitive playbooks`);
+    if (escalatingComps.length > 0) insights.push(`${escalatingComps.length} competitor(s) with escalating threat trajectory — activate competitive playbooks`);
     const bullishIndicators = marketShiftIndicators.filter(i => i.direction === 'bullish');
-    if (bullishIndicators.length >= 3) insights.push('Market conditions are broadly bullish â€” favorable environment for aggressive positioning');
+    if (bullishIndicators.length >= 3) insights.push('Market conditions are broadly bullish — favorable environment for aggressive positioning');
     const bearishCount = marketShiftIndicators.filter(i => i.direction === 'bearish').length;
-    if (bearishCount >= 3) insights.push('Multiple bearish market indicators â€” consider defensive strategy and cost optimization');
+    if (bearishCount >= 3) insights.push('Multiple bearish market indicators — consider defensive strategy and cost optimization');
     const hotKeywords = keywordMomentum.filter(k => k.momentum > 50 && k.sentimentShift === 'deteriorating');
-    if (hotKeywords.length > 0) insights.push(`Keywords "${hotKeywords.map(k => k.keyword).join('", "')}" gaining momentum with deteriorating sentiment â€” investigate root cause`);
-    if (insights.length === 0) insights.push('Market forecast is stable â€” no significant disruptions predicted in the near term');
+    if (hotKeywords.length > 0) insights.push(`Keywords "${hotKeywords.map(k => k.keyword).join('", "')}" gaining momentum with deteriorating sentiment — investigate root cause`);
+    if (insights.length === 0) insights.push('Market forecast is stable — no significant disruptions predicted in the near term');
 
     return {
       forecastOverview: {

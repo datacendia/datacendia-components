@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIENERVEÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - IT OPERATIONS & INFRASTRUCTURE INTELLIGENCE
+// CENDIENERVE—"¢ - IT OPERATIONS & INFRASTRUCTURE INTELLIGENCE
 // "The Self-Healing Grid" - AI-powered IT operations and incident response
 // =============================================================================
 
@@ -163,7 +163,7 @@ class CendiaNerveService {
   private changeRequests: Map<string, ChangeRequest> = new Map();
 
   constructor() {
-    logger.info('CendiaNerveÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - The Self-Healing Grid is online');
+    logger.info('CendiaNerve—"¢ initialized - The Self-Healing Grid is online');
 
 
     this.loadFromDB().catch(() => {});
@@ -247,7 +247,7 @@ class CendiaNerveService {
       timeline: [{
         timestamp: new Date(),
         type: 'detection',
-        description: 'Incident auto-detected by CendiaNerveÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢',
+        description: 'Incident auto-detected by CendiaNerve—"¢',
         actor: 'CendiaNerve',
         automated: true,
       }],
@@ -311,7 +311,7 @@ class CendiaNerveService {
       .map(id => this.services.get(id))
       .filter(Boolean);
 
-    const prompt = `You are CendiaNerveÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢, an AI IT operations system analyzing an incident.
+    const prompt = `You are CendiaNerve—"¢, an AI IT operations system analyzing an incident.
 
 INCIDENT: ${incident.title}
 SEVERITY: ${incident.severity}
@@ -821,7 +821,7 @@ Respond in JSON:
       : 100;
 
     const insights: string[] = [];
-    if (statusCounts.down > 0) insights.push(`${statusCounts.down} service(s) currently DOWN ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â immediate attention required`);
+    if (statusCounts.down > 0) insights.push(`${statusCounts.down} service(s) currently DOWN — immediate attention required`);
     if (statusCounts.degraded > 0) insights.push(`${statusCounts.degraded} service(s) degraded`);
     if (below99 > 0) insights.push(`${below99} service(s) below 99% uptime SLA`);
     const highLatency = services.filter(s => s.latency > 1000).length;
@@ -905,9 +905,9 @@ Respond in JSON:
     })).sort((a, b) => b.detectedAt.getTime() - a.detectedAt.getTime());
 
     const insights: string[] = [];
-    if (active.filter(i => i.severity === 'p1').length > 0) insights.push(`${active.filter(i => i.severity === 'p1').length} active P1 incident(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â war room recommended`);
+    if (active.filter(i => i.severity === 'p1').length > 0) insights.push(`${active.filter(i => i.severity === 'p1').length} active P1 incident(s) — war room recommended`);
     if (slaViolations > 0) insights.push(`${slaViolations} SLA violation(s) detected`);
-    if (avgResolution > 120) insights.push(`Average resolution time is ${avgResolution} minutes ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â above 2-hour target`);
+    if (avgResolution > 120) insights.push(`Average resolution time is ${avgResolution} minutes — above 2-hour target`);
     if (insights.length === 0) insights.push('Incident metrics are within acceptable thresholds');
 
     return {
@@ -963,11 +963,11 @@ Respond in JSON:
     const overallScore = Math.max(0, 100 - (criticalActive * 25) - (active * 5) - (activeProtocols * 15) - (highRiskChanges * 3));
 
     const insights: string[] = [];
-    if (criticalActive > 0) insights.push(`${criticalActive} critical threat(s) active ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â immediate containment required`);
+    if (criticalActive > 0) insights.push(`${criticalActive} critical threat(s) active — immediate containment required`);
     if (activeProtocols > 0) insights.push(`${activeProtocols} Lazarus Protocol(s) in progress`);
     if (pendingApproval > 0) insights.push(`${pendingApproval} change request(s) awaiting approval`);
-    if (highRiskChanges > 0) insights.push(`${highRiskChanges} high-risk change(s) in pipeline ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â review mitigations`);
-    if (insights.length === 0) insights.push('Security posture is strong ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no active threats');
+    if (highRiskChanges > 0) insights.push(`${highRiskChanges} high-risk change(s) in pipeline — review mitigations`);
+    if (insights.length === 0) insights.push('Security posture is strong — no active threats');
 
     return {
       overallScore,
@@ -1019,7 +1019,7 @@ Respond in JSON:
     const totalThroughput = services.reduce((s, svc) => s + svc.throughput, 0);
 
     const insights: string[] = [];
-    if (underutilized.length > 0) insights.push(`${underutilized.length} underutilized service(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â $${estimatedWaste}/month savings potential`);
+    if (underutilized.length > 0) insights.push(`${underutilized.length} underutilized service(s) — $${estimatedWaste}/month savings potential`);
     const totalSavings = rightsizing.reduce((s, r) => s + r.monthlySavings, 0);
     if (totalSavings > 0) insights.push(`$${totalSavings}/month available through rightsizing`);
     if (insights.length === 0) insights.push('Infrastructure costs are well-optimized');

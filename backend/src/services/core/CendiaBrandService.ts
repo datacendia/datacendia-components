@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIABRANDâ„¢ - THE EVANGELIST
+// CENDIABRAND—„¢ - THE EVANGELIST
 // Automated Self-Branding & Marketing Engine
 // "Dogfooding" - Datacendia markets itself using its own AI
 // =============================================================================
@@ -139,7 +139,7 @@ BRAND VOICE RULES:
 - Tone: Serious, Cryptic, Premium
 - NEVER use: ${this.brandVoice.forbidden.join(', ')}
 - PREFER: ${this.brandVoice.preferred.join(', ')}
-- No emojis except âš¡ and ðŸŽ¯ sparingly
+- No emojis except —š¡ and ðŸŽ¯ sparingly
 - Maximum 1500 characters
 
 FEATURE:
@@ -590,13 +590,13 @@ Output only the improved text, nothing else.`;
 
     const insights: string[] = [];
     const uncoveredFeatures = featureCoverage.filter(f => f.contentPieces === 0);
-    if (uncoveredFeatures.length > 0) insights.push(`${uncoveredFeatures.length} feature(s) have no marketing content â€” generate packages immediately`);
+    if (uncoveredFeatures.length > 0) insights.push(`${uncoveredFeatures.length} feature(s) have no marketing content — generate packages immediately`);
     const draftsCount = queue.filter(c => c.status === 'draft').length;
-    if (draftsCount > 5) insights.push(`${draftsCount} drafts pending approval â€” review and schedule to maintain cadence`);
+    if (draftsCount > 5) insights.push(`${draftsCount} drafts pending approval — review and schedule to maintain cadence`);
     const lowEngagement = topPerforming.filter(c => c.engagementScore < 100);
-    if (lowEngagement.length > 0 && publishedCount > 0) insights.push('Some published content has low engagement â€” audit voice compliance and posting times');
+    if (lowEngagement.length > 0 && publishedCount > 0) insights.push('Some published content has low engagement — audit voice compliance and posting times');
     const noTwitterCoverage = featureCoverage.filter(f => f.contentPieces > 0 && !f.hasTwitter);
-    if (noTwitterCoverage.length > 0) insights.push(`${noTwitterCoverage.length} feature(s) missing Twitter threads â€” expand cross-channel coverage`);
+    if (noTwitterCoverage.length > 0) insights.push(`${noTwitterCoverage.length} feature(s) missing Twitter threads — expand cross-channel coverage`);
     if (insights.length === 0) insights.push('Content engine is performing well across all channels');
 
     return {
@@ -666,11 +666,11 @@ Output only the improved text, nothing else.`;
     const toneConsistencyScore = Math.max(0, 100 - violationsTotal * 5); // Deduct 5 per violation
 
     const insights: string[] = [];
-    if (violationsTotal > 0) insights.push(`${violationsTotal} brand voice violation(s) detected â€” run auditContent() on flagged pieces`);
+    if (violationsTotal > 0) insights.push(`${violationsTotal} brand voice violation(s) detected — run auditContent() on flagged pieces`);
     const unusedPreferred = voice.preferred.filter(p => !preferredMap[p]);
-    if (unusedPreferred.length > 0) insights.push(`${unusedPreferred.length} preferred terms underutilized â€” incorporate "${unusedPreferred[0]}" more`);
-    if (complianceRate < 80) insights.push('Brand voice compliance below 80% â€” schedule voice training or update content guidelines');
-    if (toneConsistencyScore < 70) insights.push('Tone consistency is low â€” consider stricter AI prompt constraints');
+    if (unusedPreferred.length > 0) insights.push(`${unusedPreferred.length} preferred terms underutilized — incorporate "${unusedPreferred[0]}" more`);
+    if (complianceRate < 80) insights.push('Brand voice compliance below 80% — schedule voice training or update content guidelines');
+    if (toneConsistencyScore < 70) insights.push('Tone consistency is low — consider stricter AI prompt constraints');
     if (insights.length === 0) insights.push('Brand voice is consistently sovereign across all content');
 
     return {
@@ -731,12 +731,12 @@ Output only the improved text, nothing else.`;
     });
 
     const insights: string[] = [];
-    if (marketReadiness === 'excellent') insights.push('Market conditions are optimal â€” accelerate launch timelines');
-    if (marketReadiness === 'poor') insights.push('Market sentiment is low â€” delay launches and build anticipation');
+    if (marketReadiness === 'excellent') insights.push('Market conditions are optimal — accelerate launch timelines');
+    if (marketReadiness === 'poor') insights.push('Market sentiment is low — delay launches and build anticipation');
     const unreadyFeatures = featureLaunchReadiness.filter(f => !f.contentReady && f.contentPieceCount > 0);
-    if (unreadyFeatures.length > 0) insights.push(`${unreadyFeatures.length} feature(s) have incomplete content packages â€” generate missing pieces`);
+    if (unreadyFeatures.length > 0) insights.push(`${unreadyFeatures.length} feature(s) have incomplete content packages — generate missing pieces`);
     const unscheduledReady = featureLaunchReadiness.filter(f => f.contentReady && !f.hasSchedule);
-    if (unscheduledReady.length > 0) insights.push(`${unscheduledReady.length} feature(s) are content-ready but unscheduled â€” set launch dates`);
+    if (unscheduledReady.length > 0) insights.push(`${unscheduledReady.length} feature(s) are content-ready but unscheduled — set launch dates`);
     if (insights.length === 0) insights.push('Launch pipeline is well-managed');
 
     return {
@@ -821,11 +821,11 @@ Output only the improved text, nothing else.`;
       .map(c => ({ id: c.id, title: c.title, type: c.type, scheduledFor: c.scheduledFor!, status: c.status }));
 
     const insights: string[] = [];
-    if (overdue.length > 0) insights.push(`${overdue.length} scheduled post(s) are overdue â€” publish or reschedule immediately`);
-    if (thisWeek.length === 0 && scheduled.length > 0) insights.push('No content scheduled this week â€” maintain publishing cadence');
-    if (consistencyScore < 50) insights.push('Publishing cadence is inconsistent â€” aim for regular intervals');
+    if (overdue.length > 0) insights.push(`${overdue.length} scheduled post(s) are overdue — publish or reschedule immediately`);
+    if (thisWeek.length === 0 && scheduled.length > 0) insights.push('No content scheduled this week — maintain publishing cadence');
+    if (consistencyScore < 50) insights.push('Publishing cadence is inconsistent — aim for regular intervals');
     const draftBacklog = queue.filter(c => c.status === 'draft').length;
-    if (draftBacklog > 10) insights.push(`${draftBacklog} drafts in backlog â€” review and approve or archive stale content`);
+    if (draftBacklog > 10) insights.push(`${draftBacklog} drafts in backlog — review and approve or archive stale content`);
     if (insights.length === 0) insights.push('Content calendar is well-managed with consistent cadence');
 
     return {

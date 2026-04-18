@@ -28,10 +28,10 @@
  * - Graceful degradation when DSN not configured
  * 
  * Configuration (environment variables):
- *   SENTRY_DSN          â€” Required for Sentry to be active
- *   SENTRY_ENVIRONMENT  â€” e.g., production, staging, development
- *   SENTRY_RELEASE      â€” Git SHA or version tag (set by CI/CD)
- *   SENTRY_TRACES_SAMPLE_RATE â€” 0.0 to 1.0 (default: 0.1 in prod, 1.0 in dev)
+ *   SENTRY_DSN          — Required for Sentry to be active
+ *   SENTRY_ENVIRONMENT  — e.g., production, staging, development
+ *   SENTRY_RELEASE      — Git SHA or version tag (set by CI/CD)
+ *   SENTRY_TRACES_SAMPLE_RATE — 0.0 to 1.0 (default: 0.1 in prod, 1.0 in dev)
  */
 
 import { logger } from '../utils/logger.js';
@@ -104,7 +104,7 @@ function scrubObject(obj: Record<string, unknown>): Record<string, unknown> {
 }
 
 // =============================================================================
-// SENTRY SERVICE (SDK-agnostic â€” uses HTTP API directly)
+// SENTRY SERVICE (SDK-agnostic — uses HTTP API directly)
 // =============================================================================
 // This implementation uses Sentry's HTTP API instead of @sentry/node to avoid
 // adding a heavy dependency. It captures errors, breadcrumbs, and context
@@ -134,9 +134,9 @@ class SentryService {
 
     if (this.config.enabled && dsn) {
       this.parseDsn(dsn);
-      logger.info(`[Sentry] Initialized â€” env: ${this.config.environment}, release: ${this.config.release || 'unset'}`);
+      logger.info(`[Sentry] Initialized — env: ${this.config.environment}, release: ${this.config.release || 'unset'}`);
     } else {
-      logger.info('[Sentry] Disabled â€” no SENTRY_DSN configured');
+      logger.info('[Sentry] Disabled — no SENTRY_DSN configured');
     }
   }
 
@@ -188,7 +188,7 @@ class SentryService {
           id: this.user.id,
           organization_id: this.user.organizationId,
           role: this.user.role,
-          // Deliberately not sending email â€” PII
+          // Deliberately not sending email — PII
         } : undefined,
         breadcrumbs: {
           values: this.breadcrumbs.slice(-50),
@@ -281,7 +281,7 @@ class SentryService {
   // ---------------------------------------------------------------------------
 
   /**
-   * Express error-handling middleware â€” captures unhandled errors
+   * Express error-handling middleware — captures unhandled errors
    * Usage: app.use(sentry.errorHandler())
    */
   errorHandler() {
@@ -322,7 +322,7 @@ class SentryService {
   }
 
   /**
-   * Express request tracking middleware â€” adds breadcrumbs for all requests
+   * Express request tracking middleware — adds breadcrumbs for all requests
    * Usage: app.use(sentry.requestHandler())
    */
   requestHandler() {
@@ -362,7 +362,7 @@ class SentryService {
 
     if (!response.ok) {
       const text = await response.text();
-      logger.debug(`[Sentry] Event rejected: ${response.status} â€” ${text}`);
+      logger.debug(`[Sentry] Event rejected: ${response.status} — ${text}`);
     }
   }
 

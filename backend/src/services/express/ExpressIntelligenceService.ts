@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * ExpressIntelligenceâ„¢ - Quick Intelligence Without Council
+ * ExpressIntelligence—„¢ - Quick Intelligence Without Council
  * 
  * "Use services normally. Council available for complex decisions."
  * 
@@ -288,7 +288,7 @@ Respond in JSON format:
     if (matchedKeyword) {
       return {
         shouldEscalate: true,
-        reason: `Query involves "${matchedKeyword}" â€” Council deliberation recommended for multi-perspective analysis`,
+        reason: `Query involves "${matchedKeyword}" — Council deliberation recommended for multi-perspective analysis`,
       };
     }
 

@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCommandÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ Platinum Service
+ * CendiaCommand—"¢ Platinum Service
  * 
  * Enterprise Platinum Standard Integration Layer
  * Connects CendiaCommand to all 6 vertical completion layers:

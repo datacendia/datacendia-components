@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAINGESTÃ¢â€žÂ¢ - THE VECTORIZATION PIPELINE
+// CENDIAINGEST™ - THE VECTORIZATION PIPELINE
 // Document Processing & Knowledge Extraction
 // "The Onboarding Engine" - How data gets into the graph
 // =============================================================================

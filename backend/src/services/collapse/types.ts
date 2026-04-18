@@ -604,7 +604,7 @@ export function calculateLegitimacyDecay(
   triggerEvents: number,
   sensitivityCoefficient: number = 0.15
 ): number {
-  // Legitimacy(t) = InitialTrust Ã— e^(âˆ’k Ã— TriggerEvents(t))
+  // Legitimacy(t) = InitialTrust Ã— e^(—ˆ’k Ã— TriggerEvents(t))
   return initialTrust * Math.exp(-sensitivityCoefficient * triggerEvents);
 }
 

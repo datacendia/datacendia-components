@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAHABITATÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - FACILITIES & REAL ESTATE INTELLIGENCE
+// CENDIAHABITAT—"¢ - FACILITIES & REAL ESTATE INTELLIGENCE
 // "The Building Brain" - AI-powered workplace optimization
 // =============================================================================
 
@@ -165,7 +165,7 @@ class CendiaHabitatService {
   private utilizationData: Map<string, SpaceUtilization> = new Map();
 
   constructor() {
-    logger.info('CendiaHabitatÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - The Building Brain is online');
+    logger.info('CendiaHabitat—"¢ initialized - The Building Brain is online');
 
 
     this.loadFromDB().catch(() => {});
@@ -242,12 +242,12 @@ class CendiaHabitatService {
 
     const stressLevel = this.categorizeStress(teamStressLevel);
     
-    const prompt = `You are CendiaHabitatÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢, the AI-powered facilities optimization system.
+    const prompt = `You are CendiaHabitat—"¢, the AI-powered facilities optimization system.
 
 A team is working in zone "${zone.name}" (${zone.type}).
 
 CURRENT ENVIRONMENTAL CONDITIONS:
-- Temperature: ${zone.sensors.temperature}Ãƒâ€šÃ‚Â°C
+- Temperature: ${zone.sensors.temperature}Ԛ°C
 - Humidity: ${zone.sensors.humidity}%
 - CO2 Level: ${zone.sensors.co2Level} PPM
 - Light Level: ${zone.sensors.lightLevel} lux
@@ -284,8 +284,8 @@ Based on biometric data and environmental science, provide recommendations in th
 }
 
 Consider:
-- For HIGH stress: cooler temps (20-21Ãƒâ€šÃ‚Â°C), softer lighting (300-400 lux), reduced CO2
-- For MEDIUM stress: optimal temps (21-22Ãƒâ€šÃ‚Â°C), balanced lighting (400-500 lux)
+- For HIGH stress: cooler temps (20-21Ԛ°C), softer lighting (300-400 lux), reduced CO2
+- For MEDIUM stress: optimal temps (21-22Ԛ°C), balanced lighting (400-500 lux)
 - For LOW stress: maintain comfort, focus on productivity optimization
 - CO2 above 1000 PPM impairs cognition
 - Noise above 50 dB disrupts deep work
@@ -353,7 +353,7 @@ Consider:
         parameter: 'temperature',
         currentValue: zone.sensors.temperature,
         targetValue: idealTemp,
-        reason: `Adjusting temperature to ${idealTemp}Ãƒâ€šÃ‚Â°C for ${stressLevel} stress conditions`,
+        reason: `Adjusting temperature to ${idealTemp}Ԛ°C for ${stressLevel} stress conditions`,
         priority: stressLevel === 'critical' ? 'immediate' : 'soon',
         automatable: true,
       });
@@ -503,7 +503,7 @@ Consider:
         recommendation: `Consider repurposing ${z.name} - only ${Math.round((z.currentOccupancy / z.maxOccupancy) * 100)}% utilized`,
       }));
 
-    const prompt = `You are CendiaHabitatÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢, analyzing real estate portfolio.
+    const prompt = `You are CendiaHabitat—"¢, analyzing real estate portfolio.
 
 PORTFOLIO SUMMARY:
 - Total Square Footage: ${totalSqFt.toLocaleString()} sq ft
@@ -701,8 +701,8 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
       const issues: string[] = [];
       if (z.sensors.co2Level > 1000) issues.push(`High CO2: ${z.sensors.co2Level} PPM`);
       if (z.sensors.airQualityIndex > 100) issues.push(`Poor air quality: AQI ${z.sensors.airQualityIndex}`);
-      if (z.sensors.temperature < 18) issues.push(`Too cold: ${z.sensors.temperature}Ãƒâ€šÃ‚Â°C`);
-      if (z.sensors.temperature > 26) issues.push(`Too warm: ${z.sensors.temperature}Ãƒâ€šÃ‚Â°C`);
+      if (z.sensors.temperature < 18) issues.push(`Too cold: ${z.sensors.temperature}Ԛ°C`);
+      if (z.sensors.temperature > 26) issues.push(`Too warm: ${z.sensors.temperature}Ԛ°C`);
       if (z.sensors.humidity < 25) issues.push(`Low humidity: ${z.sensors.humidity}%`);
       if (z.sensors.humidity > 65) issues.push(`High humidity: ${z.sensors.humidity}%`);
       if (z.sensors.noiseLevel > 60) issues.push(`High noise: ${z.sensors.noiseLevel} dB`);
@@ -715,7 +715,7 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
 
     const insights: string[] = [];
     const utilRate = totalCapacity > 0 ? (currentOccupancy / totalCapacity) * 100 : 0;
-    if (utilRate < 50) insights.push(`Overall utilization is only ${utilRate.toFixed(1)}% ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â consolidation opportunity`);
+    if (utilRate < 50) insights.push(`Overall utilization is only ${utilRate.toFixed(1)}% — consolidation opportunity`);
     if (attention.length > 0) insights.push(`${attention.length} zone(s) need environmental attention`);
     if (underutilized.length > 0) insights.push(`${underutilized.length} underutilized zone(s) costing $${underutilizedCost.toLocaleString()}/year`);
     if (insights.length === 0) insights.push('Facilities operating within optimal parameters');
@@ -761,7 +761,7 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
       let worstParam = 'none';
 
       const checks: Array<{ param: string; value: number; min: number; max: number; unit: string; weight: number }> = [
-        { param: 'temperature', value: z.sensors.temperature, min: 20, max: 24, unit: 'Ãƒâ€šÃ‚Â°C', weight: 15 },
+        { param: 'temperature', value: z.sensors.temperature, min: 20, max: 24, unit: 'Ԛ°C', weight: 15 },
         { param: 'humidity', value: z.sensors.humidity, min: 30, max: 60, unit: '%', weight: 10 },
         { param: 'co2Level', value: z.sensors.co2Level, min: 0, max: 1000, unit: 'PPM', weight: 20 },
         { param: 'lightLevel', value: z.sensors.lightLevel, min: 300, max: 500, unit: 'lux', weight: 10 },
@@ -800,15 +800,15 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
       if (!r) return 'unknown';
       return avg >= r[0] && avg <= r[1] ? 'optimal' : 'attention';
     };
-    const units: Record<string, string> = { temperature: 'Ãƒâ€šÃ‚Â°C', humidity: '%', co2Level: 'PPM', lightLevel: 'lux', noiseLevel: 'dB', airQualityIndex: 'AQI' };
+    const units: Record<string, string> = { temperature: 'Ԛ°C', humidity: '%', co2Level: 'PPM', lightLevel: 'lux', noiseLevel: 'dB', airQualityIndex: 'AQI' };
 
     const recentData = zones.filter(z => Date.now() - z.lastUpdated.getTime() < 60 * 60 * 1000).length;
 
     const insights: string[] = [];
-    if (overallScore < 70) insights.push(`Environmental health score is ${overallScore} ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â below acceptable threshold`);
+    if (overallScore < 70) insights.push(`Environmental health score is ${overallScore} — below acceptable threshold`);
     if (alerts.filter(a => a.severity === 'high').length > 0) insights.push(`${alerts.filter(a => a.severity === 'high').length} high-severity environmental alert(s)`);
     const highCO2 = paramTotals.co2Level.outOfRange;
-    if (highCO2 > 0) insights.push(`${highCO2} zone(s) with elevated CO2 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â improve ventilation`);
+    if (highCO2 > 0) insights.push(`${highCO2} zone(s) with elevated CO2 — improve ventilation`);
     if (insights.length === 0) insights.push('Environmental conditions are within healthy parameters');
 
     return {
@@ -865,9 +865,9 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
     const annualSavings = underutilized.reduce((s, u) => s + u.annualCost * 0.7, 0);
 
     const insights: string[] = [];
-    if (underutilized.length > 0) insights.push(`${underutilized.length} zone(s) below 30% utilization ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â $${Math.round(annualSavings).toLocaleString()} savings potential`);
-    if (overutilized.length > 0) insights.push(`${overutilized.length} zone(s) above 90% capacity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â expansion needed`);
-    if (portfolioUtil < 60) insights.push(`Portfolio utilization is ${portfolioUtil.toFixed(1)}% ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â significant consolidation opportunity`);
+    if (underutilized.length > 0) insights.push(`${underutilized.length} zone(s) below 30% utilization — $${Math.round(annualSavings).toLocaleString()} savings potential`);
+    if (overutilized.length > 0) insights.push(`${overutilized.length} zone(s) above 90% capacity — expansion needed`);
+    if (portfolioUtil < 60) insights.push(`Portfolio utilization is ${portfolioUtil.toFixed(1)}% — significant consolidation opportunity`);
     if (insights.length === 0) insights.push('Space utilization is well-balanced across the portfolio');
 
     return {
@@ -945,8 +945,8 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
     const performance = carbonPerSqFt < industryAvg * 0.8 ? 'excellent' : carbonPerSqFt < industryAvg ? 'good' : carbonPerSqFt < industryAvg * 1.2 ? 'average' : 'poor';
 
     const insights: string[] = [];
-    if (waste.length > 0) insights.push(`${waste.length} energy waste incident(s) detected ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ${Math.round(totalWaste).toLocaleString()} kWh wasted`);
-    if (performance === 'poor') insights.push('Carbon efficiency below industry average ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â prioritize energy optimizations');
+    if (waste.length > 0) insights.push(`${waste.length} energy waste incident(s) detected — ${Math.round(totalWaste).toLocaleString()} kWh wasted`);
+    if (performance === 'poor') insights.push('Carbon efficiency below industry average — prioritize energy optimizations');
     const totalSavings = optimizations.reduce((s, o) => s + o.savingsDollars, 0);
     if (totalSavings > 0) insights.push(`$${totalSavings.toLocaleString()} annual savings available through efficiency improvements`);
     if (insights.length === 0) insights.push('Sustainability metrics are on target');

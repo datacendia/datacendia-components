@@ -187,7 +187,7 @@ export const devAuth = async (
   
   // In development without REQUIRE_AUTH, use real seeded organization
   if (config.nodeEnv === 'development' || config.nodeEnv === 'test') {
-    logger.warn('âš ï¸  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
+    logger.warn('—š ï¸  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
       path: req.path,
       method: req.method,
       ip: req.ip,

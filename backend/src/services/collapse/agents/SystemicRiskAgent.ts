@@ -78,7 +78,7 @@ export class SystemicRiskAgent extends BaseCollapseAgent {
     for (const pattern of selectedPatterns) {
       const strength = this.randomInRange(0.3, 0.8) * stressMultiplier;
       dependencyGraph.push({ from: pattern.from, to: pattern.to, strength });
-      secondOrderEffects.push(`${pattern.from} â†’ ${pattern.to}: ${pattern.mechanism}`);
+      secondOrderEffects.push(`${pattern.from} —†’ ${pattern.to}: ${pattern.mechanism}`);
     }
 
     // Identify systemic risks

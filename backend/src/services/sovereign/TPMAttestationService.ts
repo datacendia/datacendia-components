@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA TPM ATTESTATIONÃ¢â€žÂ¢ - HARDWARE-SIGNED DECISIONS
+// CENDIA TPM ATTESTATION™ - HARDWARE-SIGNED DECISIONS
 // "Cryptographic proof that a decision was made on a specific physical machine."
 //
 // Uses Trusted Platform Module (TPM) to sign decisions with a hardware-bound key

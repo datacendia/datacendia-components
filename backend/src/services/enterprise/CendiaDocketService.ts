@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIADOCKETÃ¢â€žÂ¢ - LEGAL OPERATIONS INTELLIGENCE
+// CENDIADOCKET™ - LEGAL OPERATIONS INTELLIGENCE
 // "The Litigation Engine" - AI-powered legal analysis and case management
 // =============================================================================
 
@@ -184,7 +184,7 @@ class CendiaDocketService {
   private complianceChecks: Map<string, ComplianceCheck> = new Map();
 
   constructor() {
-    logger.info('CendiaDocketÃ¢â€žÂ¢ initialized - The Litigation Engine is ready');
+    logger.info('CendiaDocket™ initialized - The Litigation Engine is ready');
 
 
     this.loadFromDB().catch(() => {});
@@ -261,7 +261,7 @@ class CendiaDocketService {
     const matter = this.matters.get(matterId);
     if (!matter) throw new Error(`Matter ${matterId} not found`);
 
-    const prompt = `You are CendiaDocketÃ¢â€žÂ¢, an AI legal analysis system evaluating litigation.
+    const prompt = `You are CendiaDocket™, an AI legal analysis system evaluating litigation.
 
 CASE DETAILS:
 - Title: ${matter.title}
@@ -380,7 +380,7 @@ Analyze this litigation and provide assessment in JSON:
   // ---------------------------------------------------------------------------
 
   async analyzeContract(documentId: string, contractText: string): Promise<ContractAnalysis> {
-    const prompt = `You are CendiaDocketÃ¢â€žÂ¢, an AI contract analysis system.
+    const prompt = `You are CendiaDocket™, an AI contract analysis system.
 
 Analyze this contract and extract key information in JSON:
 {
@@ -530,7 +530,7 @@ ${contractText.substring(0, 8000)}`;
   async runComplianceCheck(regulation: string, jurisdiction: string): Promise<ComplianceCheck> {
     const checkId = `comp-${Date.now()}`;
 
-    const prompt = `You are CendiaDocketÃ¢â€žÂ¢, performing a compliance assessment.
+    const prompt = `You are CendiaDocket™, performing a compliance assessment.
 
 REGULATION: ${regulation}
 JURISDICTION: ${jurisdiction}
@@ -727,7 +727,7 @@ Generate a compliance assessment in JSON:
     }
 
     const insights: string[] = [];
-    if (budgetVariance > 20) insights.push(`Legal spend is ${budgetVariance}% over budget Ã¢â‚¬â€ review cost controls`);
+    if (budgetVariance > 20) insights.push(`Legal spend is ${budgetVariance}% over budget — review cost controls`);
     if (riskTiers.critical > 0) insights.push(`${riskTiers.critical} matter(s) at critical risk exposure level`);
     if (this.getUpcomingDeadlines(7).length > 0) insights.push(`${this.getUpcomingDeadlines(7).length} deadline(s) within 7 days`);
     if (insights.length === 0) insights.push('Legal portfolio is within normal parameters');
@@ -844,7 +844,7 @@ Generate a compliance assessment in JSON:
     const insights: string[] = [];
     if (riskDistribution.critical > 0) insights.push(`${riskDistribution.critical} regulation(s) at critical risk level`);
     if (overdueAudits.length > 0) insights.push(`${overdueAudits.length} compliance audit(s) overdue`);
-    if (rate < 70) insights.push('Remediation rate below 70% Ã¢â‚¬â€ accelerate compliance remediation efforts');
+    if (rate < 70) insights.push('Remediation rate below 70% — accelerate compliance remediation efforts');
     if (insights.length === 0) insights.push('Compliance posture is healthy across all regulations');
 
     return { overallRisk, byRegulation, riskDistribution, overdueAudits, remediationProgress: { total: totalFindings, remediated: remediatedFindings, inProgress: inProgressFindings, overdue: overdueFindings, rate }, insights };
@@ -913,7 +913,7 @@ Generate a compliance assessment in JSON:
     const trend: 'increasing' | 'stable' | 'decreasing' = thisMonthEvents > lastMonthEvents * 1.2 ? 'increasing' : thisMonthEvents < lastMonthEvents * 0.8 ? 'decreasing' : 'stable';
 
     const insights: string[] = [];
-    if (avgTimeToResolution > 180) insights.push('Average resolution time exceeds 6 months Ã¢â‚¬â€ review case management efficiency');
+    if (avgTimeToResolution > 180) insights.push('Average resolution time exceeds 6 months — review case management efficiency');
     const slowestStage = Object.entries(statusDuration).sort((a, b) => (b[1].days / b[1].count) - (a[1].days / a[1].count))[0];
     if (slowestStage) insights.push(`"${slowestStage[0]}" stage has the longest average duration`);
     if (insights.length === 0) insights.push('Matter lifecycle metrics are within normal ranges');

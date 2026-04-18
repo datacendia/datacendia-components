@@ -237,7 +237,7 @@ const ActionRow: React.FC<{ action: AgentAction; isNew: boolean }> = ({ action, 
             [{action.framework} {action.citation}]
           </span>
         ) : (
-          <span className="text-gray-600">â€”</span>
+          <span className="text-gray-600">—</span>
         )}
       </td>
       <td className="px-4 py-3 text-xs text-gray-500">

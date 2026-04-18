@@ -790,7 +790,7 @@ export class GovernmentDefensibleOutput extends DefensibleOutput<GovernmentDecis
 export const governmentVertical = new (class implements VerticalImplementation<GovernmentDecision> {
   readonly verticalId = 'government';
   readonly verticalName = 'Government / Public Sector';
-  readonly completionPercentage = 100; // âœ… COMPLETE - Tripled scope: 15 frameworks, 12 decision types
+  readonly completionPercentage = 100; // —œ… COMPLETE - Tripled scope: 15 frameworks, 12 decision types
   readonly targetPercentage = 100;
 
   readonly dataConnector: DataConnector<unknown> = new GovernmentDataConnector();

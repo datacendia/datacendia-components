@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaContinuousComplianceÃ¢â€žÂ¢ - Real-Time Compliance Monitoring
+ * CendiaContinuousCompliance™ - Real-Time Compliance Monitoring
  * 
  * Enterprise Platinum Feature: Continuous compliance drift detection
  * 
@@ -212,7 +212,7 @@ export class ContinuousComplianceMonitorService {
   private monitoringActive: boolean = false;
 
   constructor() {
-    logger.info('[CendiaCompliance] Continuous Compliance MonitorÃ¢â€žÂ¢ initialized');
+    logger.info('[CendiaCompliance] Continuous Compliance Monitor™ initialized');
 
 
     this.loadFromDB().catch(() => {});

@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAGRAPHâ„¢ - THE INSTITUTIONAL BRAIN
+// CENDIAGRAPH—„¢ - THE INSTITUTIONAL BRAIN
 // Knowledge Graph & Entity Relationship Engine
 // "The Moat" - Turns messy documents into queryable knowledge
 // =============================================================================
@@ -454,8 +454,8 @@ class CendiaGraphService {
     target: GraphEntity,
     path: GraphPath
   ): Promise<string> {
-    const pathDescription = path.entities.map(e => e.name).join(' â†’ ');
-    const relationshipChain = path.relationships.map(r => r.type).join(' â†’ ');
+    const pathDescription = path.entities.map(e => e.name).join(' —†’ ');
+    const relationshipChain = path.relationships.map(r => r.type).join(' —†’ ');
 
     const prompt = `Generate a concise risk description:
 Source: ${source.name} (${source.type}) - ${source.properties.sanctioned ? 'SANCTIONED' : 'flagged'}
@@ -548,7 +548,7 @@ Output a single sentence describing the risk exposure.`;
           id: uuidv4(),
           type: 'dependency_chain',
           entities: path.entities.map(e => e.id),
-          description: `Long dependency chain detected: ${path.entities.map(e => e.name).join(' â†’ ')}`,
+          description: `Long dependency chain detected: ${path.entities.map(e => e.name).join(' —†’ ')}`,
           significance: path.entities.length / 10,
           actionable: true,
           recommendations: [
@@ -669,7 +669,7 @@ Question: ${question}
 Entities found: ${matchedEntities.map(e => `${e.name} (${e.type})`).join(', ')}
 
 Paths found: ${allPaths.slice(0, 5).map(p => 
-  p.entities.map(e => e.name).join(' â†’ ')
+  p.entities.map(e => e.name).join(' —†’ ')
 ).join('\n')}
 
 Provide a concise, factual answer based only on the graph data.`;

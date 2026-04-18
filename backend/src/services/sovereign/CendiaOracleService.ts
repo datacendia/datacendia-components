@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA ORACLEÃ¢â€žÂ¢ - Truth Arbiter Service
+// CENDIA ORACLE™ - Truth Arbiter Service
 // "The silent judge of disputed facts."
 // Sovereign Organ Layer - Integrity
 // =============================================================================
@@ -96,7 +96,7 @@ export interface SourceReliability {
 }
 
 // =============================================================================
-// ENUM MAPPERS (Prisma enums â†” service string literals)
+// ENUM MAPPERS (Prisma enums —†” service string literals)
 // =============================================================================
 
 const CATEGORY_TO_ENUM: Record<string, string> = {
@@ -125,7 +125,7 @@ const ENUM_TO_VOTE: Record<string, ConsensusVote['vote']> = {
 };
 
 // =============================================================================
-// CENDIA ORACLE SERVICE â€” Prisma-backed with Map fallback for tests
+// CENDIA ORACLE SERVICE — Prisma-backed with Map fallback for tests
 // =============================================================================
 
 export class CendiaOracleService {
@@ -590,7 +590,7 @@ export class CendiaOracleService {
   }
 
   // ===========================================================================
-  // ROW MAPPERS (Prisma row â†” service interface)
+  // ROW MAPPERS (Prisma row —†” service interface)
   // ===========================================================================
 
   private rowToClaim(row: any): TruthClaim {

@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// WARGAMESâ„¢ - CRISIS SIMULATION & OPERATOR CERTIFICATION
+// WARGAMES—„¢ - CRISIS SIMULATION & OPERATOR CERTIFICATION
 // Training Humans to Wield the System
 // "The Super-Soldier Factory" - Turn analysts into strategists
 // =============================================================================

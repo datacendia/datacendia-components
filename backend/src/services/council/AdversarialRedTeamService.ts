@@ -275,7 +275,7 @@ export class AdversarialRedTeamService {
   private activeSessions: Map<string, RedTeamSession> = new Map();
 
   private constructor() {
-    logger.info('ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ AdversarialRedTeamService initialized');
+    logger.info('ðԦ¸—Ã"šÃ'´ AdversarialRedTeamService initialized');
 
 
     this.loadFromDB().catch(() => {});
@@ -330,7 +330,7 @@ export class AdversarialRedTeamService {
     };
 
     this.activeSessions.set(sessionId, session);
-    logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Started red team session ${sessionId} for decision: ${decision.substring(0, 50)}...`);
+    logger.info(`ðԦ¸—Ã"šÃ'´ Started red team session ${sessionId} for decision: ${decision.substring(0, 50)}...`);
     
     return session;
   }
@@ -382,7 +382,7 @@ export class AdversarialRedTeamService {
     session.status = 'complete';
     session.completedAt = new Date();
 
-    logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Red team session ${sessionId} complete with ${allAttacks.length} attacks`);
+    logger.info(`ðԦ¸—Ã"šÃ'´ Red team session ${sessionId} complete with ${allAttacks.length} attacks`);
     return allAttacks;
   }
 
@@ -575,7 +575,7 @@ This assessment represents a comprehensive adversarial analysis where every pers
       throw new Error(`Session ${sessionId} not found or not complete`);
     }
 
-    let report = `# ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ 100 WAYS THIS COULD FAIL
+    let report = `# ðԦ¸—Ã"šÃ'´ 100 WAYS THIS COULD FAIL
 ## Adversarial Red Team Assessment
 
 **Decision:** ${session.decision}
@@ -635,7 +635,7 @@ ${risk.description}
     if (session.summary.blindSpots.length > 0) {
       report += `
 
-## ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â BLIND SPOTS (No risks identified)
+## —Ԧ¡ÔšÃ' ÃƒÂ¯Ã"šÃ'¸Ã"šÃ' BLIND SPOTS (No risks identified)
 
 The following categories had no identified risks. This may indicate blind spots in the analysis:
 
@@ -666,7 +666,7 @@ ${session.summary.blindSpots.map(b => `- ${b}`).join('\n')}
    */
   endSession(sessionId: string): void {
     this.activeSessions.delete(sessionId);
-    logger.info(`ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â´ Ended red team session ${sessionId}`);
+    logger.info(`ðԦ¸—Ã"šÃ'´ Ended red team session ${sessionId}`);
   }
 
 

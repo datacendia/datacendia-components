@@ -164,7 +164,7 @@ export class DeliberationVisualizationService extends EventEmitter {
 
   private constructor() {
     super();
-    logger.info('[CendiaLive] Deliberation VisualizationÃ¢â€žÂ¢ initialized');
+    logger.info('[CendiaLive] Deliberation Visualization™ initialized');
 
 
     this.loadFromDB().catch(() => {});
@@ -592,7 +592,7 @@ export class DeliberationVisualizationService extends EventEmitter {
    */
   cleanupVisualization(deliberationId: string): void {
     this.activeVisualizations.delete(deliberationId);
-    logger.info(`Ã°Å¸Â§Â¹ Cleaned up visualization for deliberation ${deliberationId}`);
+    logger.info(`🧹 Cleaned up visualization for deliberation ${deliberationId}`);
   }
 
   // -------------------------------------------------------------------------

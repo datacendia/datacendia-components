@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA WITNESSÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Legal Observer Service
+// CENDIA WITNESS—"¢ - Legal Observer Service
 // "Nothing spoken is ever unseen."
 // Sovereign Organ Layer - Integrity
 // =============================================================================

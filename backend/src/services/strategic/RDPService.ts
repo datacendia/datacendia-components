@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// RDPÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ - RAPID DEPLOYMENT PROTOCOL
+// RDP™ - RAPID DEPLOYMENT PROTOCOL
 // Containerization & Air-Gapped Deployment Service
 // "The Infrastructure Answer" - Deploy anywhere in minutes
 // =============================================================================

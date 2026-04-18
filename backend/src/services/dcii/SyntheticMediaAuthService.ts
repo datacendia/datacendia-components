@@ -250,7 +250,7 @@ class SyntheticMediaAuthService {
   private assessments: Map<string, AuthenticityAssessment> = new Map();
 
   constructor() {
-    logger.info('[CendiaMediaAuth] Synthetic Media Authenticationâ„¢ initialized');
+    logger.info('[CendiaMediaAuth] Synthetic Media Authentication—„¢ initialized');
     this.initFromDb().catch(() => {
       logger.warn('[CendiaMediaAuth] DB not available, using in-memory demo data');
       this.seedDemoData();
@@ -463,7 +463,7 @@ class SyntheticMediaAuthService {
         hasProvenance ? 'C2PA provenance manifest present' : 'No C2PA provenance manifest',
         asset.provenance.origin.hardwareAttestation?.verified ? 'Hardware attestation verified' : 'No hardware attestation',
       ],
-      artifacts: !hasExif ? [{ type: 'missing_metadata', description: 'EXIF data missing â€” possible metadata stripping', severity: 'medium', confidence: 0.7 }] : [],
+      artifacts: !hasExif ? [{ type: 'missing_metadata', description: 'EXIF data missing — possible metadata stripping', severity: 'medium', confidence: 0.7 }] : [],
     };
   }
 
@@ -761,7 +761,7 @@ class SyntheticMediaAuthService {
   private identifyRiskFactors(analyses: AnalysisResult[], asset: MediaAsset): RiskFactor[] {
     const factors: RiskFactor[] = [];
     if (!asset.provenance.origin.hardwareAttestation?.verified) {
-      factors.push({ category: 'Provenance', description: 'No hardware attestation â€” origin device unverified', severity: 'medium', mitigation: 'Enable TPM attestation on capture devices' });
+      factors.push({ category: 'Provenance', description: 'No hardware attestation — origin device unverified', severity: 'medium', mitigation: 'Enable TPM attestation on capture devices' });
     }
     if (!asset.metadata.exif) {
       factors.push({ category: 'Metadata', description: 'EXIF metadata missing or stripped', severity: 'medium', mitigation: 'Preserve original metadata or re-sign with C2PA' });

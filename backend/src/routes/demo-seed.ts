@@ -248,10 +248,10 @@ I am registering a formal dissent on this transfer. The combination of factors p
 
 **Liability Assessment:**
 If this transfer is later challenged by regulators, we must be able to demonstrate:
-1. We identified the PEP status Ã¢Å“â€œ
-2. We conducted enhanced due diligence Ã¢Å¡Â Ã¯Â¸Â (in progress)
-3. We documented our decision rationale Ã¢Å“â€œ (this deliberation)
-4. Senior management was aware Ã¢Å¡Â Ã¯Â¸Â (pending escalation)
+1. We identified the PEP status ✓
+2. We conducted enhanced due diligence ⚠️ (in progress)
+3. We documented our decision rationale ✓ (this deliberation)
+4. Senior management was aware ⚠️ (pending escalation)
 
 **Legal Recommendation:** I concur with Risk Analyzer that a 24-hour hold is prudent. However, if business necessity requires same-day execution, ensure the following are documented:
 - Compliance officer verbal approval (recorded)
@@ -277,12 +277,12 @@ Check Timestamp: 2026-01-29T20:26:00Z
 
 | Check | Status | Details |
 |-------|--------|---------|
-| OFAC Screening | Ã¢Å“â€¦ PASS | No matches on SDN list |
-| PEP Database | Ã¢Å¡Â Ã¯Â¸Â FLAG | Viktor Petrov - Former Deputy Minister of Finance (2018-2021) |
-| Jurisdiction Risk | Ã¢Å¡Â Ã¯Â¸Â FLAG | Cyprus - Medium-High risk jurisdiction |
-| Amount Threshold | Ã¢Å¡Â Ã¯Â¸Â FLAG | Exceeds $1M PEP threshold |
-| Velocity Check | Ã¢Å“â€¦ PASS | No unusual transaction patterns |
-| Beneficial Owner | Ã¢Å¡Â Ã¯Â¸Â INCOMPLETE | Petrov Holdings Ltd ownership structure not fully verified |
+| OFAC Screening | ✅ PASS | No matches on SDN list |
+| PEP Database | ⚠️ FLAG | Viktor Petrov - Former Deputy Minister of Finance (2018-2021) |
+| Jurisdiction Risk | ⚠️ FLAG | Cyprus - Medium-High risk jurisdiction |
+| Amount Threshold | ⚠️ FLAG | Exceeds $1M PEP threshold |
+| Velocity Check | ✅ PASS | No unusual transaction patterns |
+| Beneficial Owner | ⚠️ INCOMPLETE | Petrov Holdings Ltd ownership structure not fully verified |
 
 **Basel III Compliance Score: 62/100** (Below 75 threshold for auto-approval)
 

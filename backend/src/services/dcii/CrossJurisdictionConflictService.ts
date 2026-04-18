@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaJurisdictionâ„¢ â€” Cross-Jurisdiction Compliance Conflict Detection Service
+ * CendiaJurisdiction—"¢ — Cross-Jurisdiction Compliance Conflict Detection Service
  * 
  * DCII Advanced Primitive: Handling conflicting regulatory requirements.
  * 
@@ -228,14 +228,14 @@ export interface CrossJurisdictionAssessment {
 // =============================================================================
 
 const JURISDICTION_PROFILES: JurisdictionProfile[] = [
-  { jurisdiction: 'EU', frameworks: ['GDPR', 'EU_AI_ACT', 'DSA', 'DMA', 'DORA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Adequacy decision required', 'SCCs for non-adequate countries', 'BCRs for intra-group transfers'], regulatoryAuthority: 'European Data Protection Board (EDPB)', enforcementRisk: 'critical', maxPenalty: 'â‚¬20M or 4% global turnover', lastUpdated: new Date('2026-01-01') },
-  { jurisdiction: 'US_FEDERAL', frameworks: ['HIPAA', 'SOX', 'DODD_FRANK', 'GLBA', 'FERPA', 'COPPA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Sector-specific restrictions', 'CFIUS review for sensitive data'], regulatoryAuthority: 'FTC, SEC, HHS (sector-dependent)', enforcementRisk: 'high', maxPenalty: 'Varies by statute â€” up to $100M+', lastUpdated: new Date('2026-01-01') },
+  { jurisdiction: 'EU', frameworks: ['GDPR', 'EU_AI_ACT', 'DSA', 'DMA', 'DORA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Adequacy decision required', 'SCCs for non-adequate countries', 'BCRs for intra-group transfers'], regulatoryAuthority: 'European Data Protection Board (EDPB)', enforcementRisk: 'critical', maxPenalty: '€20M or 4% global turnover', lastUpdated: new Date('2026-01-01') },
+  { jurisdiction: 'US_FEDERAL', frameworks: ['HIPAA', 'SOX', 'DODD_FRANK', 'GLBA', 'FERPA', 'COPPA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Sector-specific restrictions', 'CFIUS review for sensitive data'], regulatoryAuthority: 'FTC, SEC, HHS (sector-dependent)', enforcementRisk: 'high', maxPenalty: 'Varies by statute — up to $100M+', lastUpdated: new Date('2026-01-01') },
   { jurisdiction: 'US_CALIFORNIA', frameworks: ['CCPA_CPRA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Consumer opt-out required for cross-border sale'], regulatoryAuthority: 'California Privacy Protection Agency (CPPA)', enforcementRisk: 'high', maxPenalty: '$7,500 per intentional violation', lastUpdated: new Date('2026-01-01') },
-  { jurisdiction: 'UK', frameworks: ['UK_GDPR', 'UK_DPA_2018', 'FCA_RULES'], dataLocalizationRequired: false, crossBorderRestrictions: ['UK adequacy regulations', 'UK International Data Transfer Agreement'], regulatoryAuthority: 'Information Commissioner\'s Office (ICO)', enforcementRisk: 'high', maxPenalty: 'Â£17.5M or 4% global turnover', lastUpdated: new Date('2026-01-01') },
+  { jurisdiction: 'UK', frameworks: ['UK_GDPR', 'UK_DPA_2018', 'FCA_RULES'], dataLocalizationRequired: false, crossBorderRestrictions: ['UK adequacy regulations', 'UK International Data Transfer Agreement'], regulatoryAuthority: 'Information Commissioner\'s Office (ICO)', enforcementRisk: 'high', maxPenalty: '£17.5M or 4% global turnover', lastUpdated: new Date('2026-01-01') },
   { jurisdiction: 'CHINA', frameworks: ['CHINA_PIPL', 'CHINA_CSL', 'CHINA_DSL'], dataLocalizationRequired: true, crossBorderRestrictions: ['CAC security assessment required', 'Standard contract filing', 'Personal information protection certification', 'Data localization for CII operators'], regulatoryAuthority: 'Cyberspace Administration of China (CAC)', enforcementRisk: 'critical', maxPenalty: 'Â¥50M or 5% annual revenue + personal liability', lastUpdated: new Date('2026-01-01') },
   { jurisdiction: 'JAPAN', frameworks: ['JAPAN_APPI'], dataLocalizationRequired: false, crossBorderRestrictions: ['Consent or equivalent protection required', 'PPC-recognized countries list'], regulatoryAuthority: 'Personal Information Protection Commission (PPC)', enforcementRisk: 'medium', maxPenalty: 'Â¥100M corporate fine', lastUpdated: new Date('2026-01-01') },
   { jurisdiction: 'BRAZIL', frameworks: ['BRAZIL_LGPD'], dataLocalizationRequired: false, crossBorderRestrictions: ['Adequate protection or specific safeguards', 'ANPD authorization'], regulatoryAuthority: 'National Data Protection Authority (ANPD)', enforcementRisk: 'medium', maxPenalty: '2% revenue, capped at R$50M per violation', lastUpdated: new Date('2026-01-01') },
-  { jurisdiction: 'INDIA', frameworks: ['INDIA_DPDPA'], dataLocalizationRequired: true, crossBorderRestrictions: ['Transfer to non-notified countries restricted', 'Government may restrict specific transfers'], regulatoryAuthority: 'Data Protection Board of India', enforcementRisk: 'high', maxPenalty: 'â‚¹250 crore (~$30M)', lastUpdated: new Date('2026-01-01') },
+  { jurisdiction: 'INDIA', frameworks: ['INDIA_DPDPA'], dataLocalizationRequired: true, crossBorderRestrictions: ['Transfer to non-notified countries restricted', 'Government may restrict specific transfers'], regulatoryAuthority: 'Data Protection Board of India', enforcementRisk: 'high', maxPenalty: '₹250 crore (~$30M)', lastUpdated: new Date('2026-01-01') },
   { jurisdiction: 'SOUTH_KOREA', frameworks: ['SOUTH_KOREA_PIPA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Consent + notice, or adequacy recognition', 'BCR equivalent required'], regulatoryAuthority: 'Personal Information Protection Commission (PIPC)', enforcementRisk: 'high', maxPenalty: '3% of related revenue', lastUpdated: new Date('2026-01-01') },
   { jurisdiction: 'SINGAPORE', frameworks: ['SINGAPORE_PDPA'], dataLocalizationRequired: false, crossBorderRestrictions: ['Comparable protection standard required', 'Contractual or binding rules'], regulatoryAuthority: 'Personal Data Protection Commission (PDPC)', enforcementRisk: 'medium', maxPenalty: 'S$1M or 10% annual turnover', lastUpdated: new Date('2026-01-01') },
 ];
@@ -282,7 +282,7 @@ const CONFLICT_PATTERNS = [
     jurisdictionB: 'CHINA' as Jurisdiction, frameworkB: 'CHINA_DSL' as RegulatoryFramework, articleB: 'Art. 27-29',
     requirementB: 'AI algorithms must be registered with authorities; recommendation algorithms require filing with CAC',
     severity: 'significant' as ConflictSeverity,
-    description: 'EU requires user-facing transparency while China requires government-facing algorithm registration. The disclosed information differs â€” EU focuses on user understanding, China on state oversight.',
+    description: 'EU requires user-facing transparency while China requires government-facing algorithm registration. The disclosed information differs — EU focuses on user understanding, China on state oversight.',
     legalAnalysis: 'Parallel compliance possible but requires separate documentation streams: user-facing explainability documents for EU, and algorithm registration filings for China CAC.',
   },
   {
@@ -318,7 +318,7 @@ class CrossJurisdictionConflictService {
   private goodFaithDocs: Map<string, GoodFaithDocument> = new Map();
 
   constructor() {
-    logger.info('[CendiaJurisdiction] Cross-Jurisdiction Compliance Conflict Detectionâ„¢ initialized');
+    logger.info('[CendiaJurisdiction] Cross-Jurisdiction Compliance Conflict Detection—"¢ initialized');
     this.initFromDb().catch(() => {
       logger.warn('[CendiaJurisdiction] DB not available, using in-memory demo data');
       this.seedDemoData();
@@ -658,7 +658,7 @@ class CrossJurisdictionConflictService {
       jurisdiction,
       framework,
       packetType,
-      title: `${framework} ${packetType.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} â€” ${jurisdiction}`,
+      title: `${framework} ${packetType.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} — ${jurisdiction}`,
       generatedAt: new Date(),
       generatedBy,
       sections,

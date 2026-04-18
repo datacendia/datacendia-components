@@ -292,7 +292,7 @@ class LicenseService {
   }
 
   private getRevenue(type: string): number {
-    // Annual enterprise licensing â€” not SaaS
+    // Annual enterprise licensing — not SaaS
     const annualPrices: Record<string, number> = {
       pilot: 50000,
       trial: 0,

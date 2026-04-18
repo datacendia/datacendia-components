@@ -10,7 +10,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA VETOÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - API ROUTES
+// CENDIA VETO—"¢ - API ROUTES
 // Adversarial Governance Engine endpoints
 // =============================================================================
 

@@ -748,12 +748,12 @@ Output JSON:
     report += `## All Claims\n\n`;
     for (const claim of claims) {
       const statusIcon = {
-        verified: 'Ã¢Å“â€¦',
-        partially_verified: 'Ã°Å¸Å¸Â¡',
-        unverified: 'Ã¢Å¡Âª',
-        disputed: 'Ã¢ÂÅ’',
-        assumption: 'Ã°Å¸â€™Â­',
-        requires_human: 'Ã°Å¸â€˜Â¤',
+        verified: '✅',
+        partially_verified: '🟡',
+        unverified: '⚪',
+        disputed: '❌',
+        assumption: '💭',
+        requires_human: '🔘¤',
       }[claim.status];
 
       report += `### ${statusIcon} ${claim.statement.substring(0, 60)}...\n`;

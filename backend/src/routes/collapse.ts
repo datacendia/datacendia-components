@@ -530,9 +530,9 @@ router.post('/verify-bundle', (req: Request, res: Response) => {
     verificationResults.checksumValid = storedChecksum === computedChecksum;
 
     if (verificationResults.checksumValid) {
-      verificationResults.details.push('âœ“ Bundle checksum verified');
+      verificationResults.details.push('—œ“ Bundle checksum verified');
     } else {
-      verificationResults.details.push('âœ— Bundle checksum mismatch - possible tampering');
+      verificationResults.details.push('—œ— Bundle checksum mismatch - possible tampering');
     }
 
     // Verify Merkle root
@@ -542,9 +542,9 @@ router.post('/verify-bundle', (req: Request, res: Response) => {
       verificationResults.merkleValid = verification.valid;
 
       if (verification.valid) {
-        verificationResults.details.push('âœ“ Failure envelope Merkle root verified');
+        verificationResults.details.push('—œ“ Failure envelope Merkle root verified');
       } else {
-        verificationResults.details.push('âœ— Failure envelope integrity check failed');
+        verificationResults.details.push('—œ— Failure envelope integrity check failed');
       }
     }
 
@@ -679,11 +679,11 @@ router.get('/demo/impossible', (_req: Request, res: Response) => {
     },
     demoSteps: [
       'Enter the policy proposal',
-      'Run standard Council deliberation â†’ Watch it recommend APPROVE',
-      'Activate Collapse Mode â†’ Watch 18 agents find failures',
+      'Run standard Council deliberation —†’ Watch it recommend APPROVE',
+      'Activate Collapse Mode —†’ Watch 18 agents find failures',
       'Review Trust Delta (should be NEGATIVE)',
-      'Attempt human override â†’ See accountability signing',
-      'Export audit bundle â†’ Verify in browser',
+      'Attempt human override —†’ See accountability signing',
+      'Export audit bundle —†’ Verify in browser',
     ],
   };
 

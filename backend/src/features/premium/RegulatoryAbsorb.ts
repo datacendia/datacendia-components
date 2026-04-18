@@ -564,8 +564,8 @@ Respond in JSON format:
     
     // Common penalty patterns
     const penaltyPatterns = [
-      /(?:fine|penalty|sanction)[^.]*(?:Ã¢â€šÂ¬|Ã‚Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
-      /(?:Ã¢â€šÂ¬|Ã‚Â£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
+      /(?:fine|penalty|sanction)[^.]*(?:┚¬|£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*/gi,
+      /(?:┚¬|£|\$|EUR|USD|GBP)\s*[\d,]+(?:\s*(?:million|billion))?[^.]*(?:fine|penalty|sanction)[^.]*/gi,
       /\d+%\s*(?:of\s*)?(?:annual\s*)?(?:turnover|revenue|profit)[^.]*/gi,
     ];
 

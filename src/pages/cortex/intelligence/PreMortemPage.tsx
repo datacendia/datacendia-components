@@ -290,7 +290,7 @@ export const PreMortemPage: React.FC = () => {
       addLiveMessage({
         agentId: 'system',
         agentName: 'System',
-        agentIcon: 'âŒ',
+        agentIcon: '—Œ',
         content: `Error: ${err instanceof Error ? err.message : 'Analysis failed'}`,
         type: 'system',
       });

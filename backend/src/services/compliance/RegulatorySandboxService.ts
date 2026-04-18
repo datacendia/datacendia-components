@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaRegulatorySandboxÃ¢â€žÂ¢ - Test Against Proposed Regulations
+ * CendiaRegulatorySandbox™ - Test Against Proposed Regulations
  * 
  * Enterprise Platinum Feature: Predictive compliance testing
  * 
@@ -437,7 +437,7 @@ export class RegulatorySandboxService {
   private tests: Map<string, SandboxTest> = new Map();
 
   constructor() {
-    logger.info('[CendiaSandbox] Regulatory SandboxÃ¢â€žÂ¢ initialized');
+    logger.info('[CendiaSandbox] Regulatory Sandbox™ initialized');
 
 
     this.loadFromDB().catch(() => {});

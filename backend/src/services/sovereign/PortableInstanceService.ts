@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA PORTABLE INSTANCEÃ¢â€žÂ¢ - BOOTABLE USB SOVEREIGN DEPLOYMENT
+// CENDIA PORTABLE INSTANCE™ - BOOTABLE USB SOVEREIGN DEPLOYMENT
 // "Plug in, boot, run full Datacendia. Zero install."
 //
 // Creates bootable USB images containing complete Datacendia deployment.
@@ -724,14 +724,14 @@ ${config.security.requirePassword ? '**Note:** Password required at boot.' : ''}
 
 ## Components Included
 
-- Backend: ${config.components.backend ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- Frontend: ${config.components.frontend ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- PostgreSQL: ${config.components.database ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- Redis: ${config.components.redis ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- Ollama: ${config.components.ollama ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- MinIO: ${config.components.minio ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- Neo4j: ${config.components.neo4j ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
-- Keycloak: ${config.components.keycloak ? 'Ã¢Å“â€¦' : 'Ã¢ÂÅ’'}
+- Backend: ${config.components.backend ? '✅' : '❌'}
+- Frontend: ${config.components.frontend ? '✅' : '❌'}
+- PostgreSQL: ${config.components.database ? '✅' : '❌'}
+- Redis: ${config.components.redis ? '✅' : '❌'}
+- Ollama: ${config.components.ollama ? '✅' : '❌'}
+- MinIO: ${config.components.minio ? '✅' : '❌'}
+- Neo4j: ${config.components.neo4j ? '✅' : '❌'}
+- Keycloak: ${config.components.keycloak ? '✅' : '❌'}
 
 ### AI Models
 ${config.components.models.map(m => `- ${m}`).join('\n')}

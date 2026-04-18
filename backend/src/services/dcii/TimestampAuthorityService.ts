@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaTimestampÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â RFC 3161 External Timestamp Authority Service
+ * CendiaTimestamp—"¢ — RFC 3161 External Timestamp Authority Service
  * 
  * DCII Enhancement for Discovery-Time Proof: External cryptographic timestamping.
  * 
@@ -183,7 +183,7 @@ const TSA_PROVIDERS: TSAProviderConfig[] = [
     timeout: 10000,
     maxRetries: 3,
     policyOid: '2.16.840.1.101.3.4.2.1',
-    description: 'DigiCert Timestamp Authority ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â widely recognized, free tier available',
+    description: 'DigiCert Timestamp Authority — widely recognized, free tier available',
   },
   {
     provider: 'comodo',
@@ -194,7 +194,7 @@ const TSA_PROVIDERS: TSAProviderConfig[] = [
     timeout: 10000,
     maxRetries: 3,
     policyOid: '1.3.6.1.4.1.6449.2.1.1',
-    description: 'Sectigo (Comodo) Timestamp Authority ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â high availability',
+    description: 'Sectigo (Comodo) Timestamp Authority — high availability',
   },
   {
     provider: 'freetsa',
@@ -205,7 +205,7 @@ const TSA_PROVIDERS: TSAProviderConfig[] = [
     timeout: 15000,
     maxRetries: 2,
     policyOid: '1.2.3.4.1',
-    description: 'FreeTSA ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â open-source timestamp authority for non-production use',
+    description: 'FreeTSA — open-source timestamp authority for non-production use',
   },
   {
     provider: 'globalsign',
@@ -216,7 +216,7 @@ const TSA_PROVIDERS: TSAProviderConfig[] = [
     timeout: 10000,
     maxRetries: 3,
     policyOid: '1.3.6.1.4.1.4146.2.2',
-    description: 'GlobalSign Timestamp Authority ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â enterprise-grade',
+    description: 'GlobalSign Timestamp Authority — enterprise-grade',
   },
   {
     provider: 'internal',
@@ -227,7 +227,7 @@ const TSA_PROVIDERS: TSAProviderConfig[] = [
     timeout: 1000,
     maxRetries: 1,
     policyOid: '1.3.6.1.4.1.99999.1.1',
-    description: 'Cendia Internal Timestamp Authority ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â always available, local signing',
+    description: 'Cendia Internal Timestamp Authority — always available, local signing',
   },
 ];
 
@@ -242,7 +242,7 @@ class TimestampAuthorityService {
   private providers: TSAProviderConfig[] = TSA_PROVIDERS;
 
   constructor() {
-    logger.info('[CendiaTimestamp] RFC 3161 Timestamp AuthorityÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized');
+    logger.info('[CendiaTimestamp] RFC 3161 Timestamp Authority—"¢ initialized');
     this.initFromDb().catch(() => {
       logger.warn('[CendiaTimestamp] DB not available, using in-memory demo data');
       this.seedDemoData();
@@ -342,7 +342,7 @@ class TimestampAuthorityService {
         timestamp: new Date(),
         serverClock: 'UTC',
         ntpSynchronized: true,
-        accuracy: 'Ãƒâ€šÃ‚Â±100ms',
+        accuracy: 'Ԛ±100ms',
         signature: internalSignature,
         algorithm: 'HMAC-SHA-256',
       },
@@ -568,7 +568,7 @@ class TimestampAuthorityService {
       details.push({
         check: 'External TSA timestamp',
         passed: false,
-        details: 'No external timestamp ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â only internal timestamp available',
+        details: 'No external timestamp — only internal timestamp available',
         severity: 'warning',
       });
     }
