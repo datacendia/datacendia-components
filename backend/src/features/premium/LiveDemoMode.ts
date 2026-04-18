@@ -128,56 +128,56 @@ const CONNECTOR_CONFIGS: Record<DemoConnectorType, {
 }> = {
   salesforce: {
     name: 'Salesforce',
-    icon: 'ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â',
+    icon: 'SF',
     scopes: ['api', 'read_only'],
     dataTypes: ['opportunities', 'accounts', 'contacts', 'leads'],
     authUrl: 'https://login.salesforce.com/services/oauth2/authorize',
   },
   hubspot: {
     name: 'HubSpot',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚Â§Ãƒâ€šÃ‚Â¡',
+    icon: 'HS',
     scopes: ['crm.objects.contacts.read', 'crm.objects.deals.read'],
     dataTypes: ['deals', 'contacts', 'companies'],
     authUrl: 'https://app.hubspot.com/oauth/authorize',
   },
   slack: {
     name: 'Slack',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€šÃ‚Â¬',
+    icon: 'SL',
     scopes: ['channels:read', 'users:read'],
     dataTypes: ['channels', 'messages', 'users'],
     authUrl: 'https://slack.com/oauth/v2/authorize',
   },
   jira: {
     name: 'Jira',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹',
+    icon: 'JI',
     scopes: ['read:jira-work', 'read:jira-user'],
     dataTypes: ['issues', 'projects', 'sprints'],
     authUrl: 'https://auth.atlassian.com/authorize',
   },
   github: {
     name: 'GitHub',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚ÂÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢',
+    icon: 'GH',
     scopes: ['repo:read', 'org:read'],
     dataTypes: ['repositories', 'issues', 'pull_requests'],
     authUrl: 'https://github.com/login/oauth/authorize',
   },
   google_analytics: {
     name: 'Google Analytics',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€¦Ã‚Â ',
+    icon: 'GA',
     scopes: ['analytics.readonly'],
     dataTypes: ['pageviews', 'sessions', 'conversions'],
     authUrl: 'https://accounts.google.com/o/oauth2/v2/auth',
   },
   stripe: {
     name: 'Stripe',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€šÃ‚Â³',
+    icon: 'ST',
     scopes: ['read_only'],
     dataTypes: ['subscriptions', 'invoices', 'customers'],
     authUrl: 'https://connect.stripe.com/oauth/authorize',
   },
   zendesk: {
     name: 'Zendesk',
-    icon: 'ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã‚Â½Ãƒâ€šÃ‚Â§',
+    icon: 'ZD',
     scopes: ['read'],
     dataTypes: ['tickets', 'users', 'satisfaction'],
     authUrl: 'https://your-domain.zendesk.com/oauth/authorizations/new',
@@ -446,7 +446,7 @@ export class LiveDemoModeService extends BaseService {
   }
 
   // ---------------------------------------------------------------------------
-  // CendiaLiveÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ DELIBERATION
+  // CENDIA LIVE DELIBERATION
   // ---------------------------------------------------------------------------
 
   async runLiveDeliberation(request: LiveDemoRequest): Promise<LiveDeliberationResult> {
