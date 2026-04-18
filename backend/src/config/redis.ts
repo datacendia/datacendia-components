@@ -37,6 +37,11 @@ redis.on('close', () => {
   logger.warn('Redis client connection closed');
 });
 
+// Default TTL (30 minutes) enforced on every cache.set() that doesn't pass
+// an explicit ttlSeconds. Indefinite cache entries are a leak vector — any
+// consumer that truly wants long-lived data must opt in by passing a TTL.
+export const DEFAULT_CACHE_TTL_SECONDS = 1800;
+
 // Cache helper functions
 export const cache = {
   async get<T>(key: string): Promise<T | null> {
@@ -51,11 +56,8 @@ export const cache = {
 
   async set(key: string, value: unknown, ttlSeconds?: number): Promise<void> {
     const stringValue = typeof value === 'string' ? value : JSON.stringify(value);
-    if (ttlSeconds) {
-      await redis.setex(key, ttlSeconds, stringValue);
-    } else {
-      await redis.set(key, stringValue);
-    }
+    const ttl = ttlSeconds && ttlSeconds > 0 ? ttlSeconds : DEFAULT_CACHE_TTL_SECONDS;
+    await redis.setex(key, ttl, stringValue);
   },
 
   async del(key: string): Promise<void> {
