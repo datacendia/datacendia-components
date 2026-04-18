@@ -113,7 +113,7 @@ export interface FederationReport {
 // ─── In-memory store (production uses Prisma) ────────────────────────────────
 
 const federations: Map<string, Federation> = new Map();
-const memberInteractions: Map<string, { orgId: string; blocked: boolean; piiDetected: boolean; piiTypes: string[]; provider: string; timestamp: Date }[]> = new Map();
+const memberInteractions: Map<string, { orgId: string; blocked: boolean; warned: boolean; piiDetected: boolean; piiTypes: string[]; provider: string; timestamp: Date }[]> = new Map();
 
 // ─── Service ─────────────────────────────────────────────────────────────────
 
@@ -294,6 +294,7 @@ class GatewayFederationService {
 
   recordInteraction(federationId: string, orgId: string, interaction: {
     blocked: boolean;
+    warned?: boolean;
     piiDetected: boolean;
     piiTypes: string[];
     provider: string;
@@ -304,6 +305,7 @@ class GatewayFederationService {
     interactions.push({
       orgId,
       blocked: interaction.blocked,
+      warned: interaction.warned ?? false,
       piiDetected: interaction.piiDetected,
       piiTypes: interaction.piiTypes,
       provider: interaction.provider,
@@ -336,6 +338,7 @@ class GatewayFederationService {
     }
 
     const blocked = interactions.filter(i => i.blocked).length;
+    const warned = interactions.filter(i => i.warned).length;
     const piiDetected = interactions.filter(i => i.piiDetected).length;
     const total = interactions.length;
 
@@ -356,8 +359,8 @@ class GatewayFederationService {
       orgCode: member.orgCode,
       totalInteractions: total,
       blocked,
-      warned: 0, // TODO: track warns separately
-      allowed: total - blocked,
+      warned,
+      allowed: total - blocked - warned,
       piiDetected,
       piiByType,
       providerUsage,
