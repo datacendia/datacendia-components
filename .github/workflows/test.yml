@@ -70,9 +70,13 @@ jobs:
         env:
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
 
-      - name: Type check
+      - name: Type check (main)
         working-directory: backend
         run: npx tsc --noEmit --skipLibCheck
+
+      - name: Type check (test config — guards against tsconfig drift)
+        working-directory: backend
+        run: npx tsc --noEmit --skipLibCheck -p tsconfig.test.json
 
       - name: Lint
         working-directory: backend
