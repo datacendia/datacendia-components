@@ -64,6 +64,47 @@ export interface EvidencePackage {
   };
 }
 
+/**
+ * Structural shape of a Regulator's Receipt as consumed by this service.
+ * All fields are optional because the service must tolerate partial receipts
+ * (missing ZKP, VDF, etc.) and still emit whatever evidence is available.
+ */
+export interface EvidenceReceiptInput {
+  receiptId?: string;
+  decision?: { id?: string };
+  cryptographicProof?: {
+    receiptHash?: string;
+    dualSignature?: unknown;
+  };
+  zkProofs?: unknown;
+  merkleForest?: unknown;
+  commitment?: unknown;
+  vdfProof?: unknown;
+  evidenceChain?: {
+    merkleRoot?: string;
+    deliberationHash?: string;
+    agentResponsesHash?: string;
+    dissentsHash?: string;
+  };
+  participants?: {
+    agents?: Array<{
+      name: string;
+      role: string;
+      responseCount: number;
+      confidenceAvg: number;
+      dissented?: boolean;
+    }>;
+  };
+  compliance?: {
+    frameworks?: string[];
+    requirements?: Array<{
+      framework: string;
+      requirement: string;
+      status: 'met' | 'unmet' | string;
+    }>;
+  };
+}
+
 // =============================================================================
 // SERVICE
 // =============================================================================
@@ -86,7 +127,7 @@ export class SelfContainedEvidenceService {
   // PACKAGE GENERATION
   // ---------------------------------------------------------------------------
 
-  async generatePackage(receipt: any): Promise<EvidencePackage> {
+  async generatePackage(receipt: EvidenceReceiptInput): Promise<EvidencePackage> {
     const packageId = `pkg-${crypto.randomBytes(8).toString('hex')}`;
     const files: EvidencePackageFile[] = [];
 
@@ -168,7 +209,7 @@ export class SelfContainedEvidenceService {
   // STANDALONE HTML VERIFIER
   // ---------------------------------------------------------------------------
 
-  private generateStandaloneVerifier(receipt: any, files: EvidencePackageFile[]): string {
+  private generateStandaloneVerifier(receipt: EvidenceReceiptInput, files: EvidencePackageFile[]): string {
     const receiptJson = JSON.stringify(receipt);
     const receiptHash = receipt.cryptographicProof?.receiptHash || '';
     const dualSig = receipt.cryptographicProof?.dualSignature;
@@ -280,7 +321,7 @@ export class SelfContainedEvidenceService {
 
   <div class="card">
     <h2>👥 Participants (${receipt.participants?.agents?.length || 0} agents)</h2>
-    ${(receipt.participants?.agents || []).map((a: any) => `
+    ${(receipt.participants?.agents || []).map((a) => `
     <div class="check-row">
       <div>
         <div class="check-label">${a.name} — ${a.role}</div>
@@ -294,7 +335,7 @@ export class SelfContainedEvidenceService {
   <div class="card">
     <h2>✅ Compliance Mapping</h2>
     <div class="check-detail" style="margin-bottom:12px">Frameworks: ${receipt.compliance.frameworks?.join(', ') || 'None'}</div>
-    ${(receipt.compliance.requirements || []).map((r: any) => `
+    ${(receipt.compliance.requirements || []).map((r) => `
     <div class="check-row">
       <div class="check-label">${r.framework}: ${r.requirement}</div>
       <span class="badge ${r.status === 'met' ? 'badge-pass' : 'badge-fail'}">${r.status.toUpperCase()}</span>
