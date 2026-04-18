@@ -17,7 +17,7 @@ model alerts {
   resolution         String?
   created_at         DateTime            @default(now())
   metric_definitions metric_definitions? @relation(fields: [metric_id], references: [id])
-  organizations      organizations       @relation(fields: [organization_id], references: [id])
+  organizations      organizations       @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, status])
   @@index([severity])
@@ -56,7 +56,7 @@ model data_sources {
   metadata         Json             @default("{}")
   created_at       DateTime         @default(now())
   updated_at       DateTime
-  organizations    organizations    @relation(fields: [organization_id], references: [id])
+  organizations    organizations    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, type])
 }
@@ -147,7 +147,7 @@ model metric_definitions {
   created_at       DateTime        @default(now())
   updated_at       DateTime
   alerts           alerts[]
-  organizations    organizations   @relation(fields: [organization_id], references: [id])
+  organizations    organizations   @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   users            users?          @relation(fields: [owner_id], references: [id])
   metric_values    metric_values[]
 

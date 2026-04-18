@@ -22,7 +22,7 @@ model eternal_artifacts {
   created_at          DateTime                  @default(now())
   updated_at          DateTime                  @updatedAt
 
-  organization organizations         @relation(fields: [organization_id], references: [id])
+  organization organizations         @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   creator      users                 @relation(fields: [created_by], references: [id])
   validations  eternal_validations[]
 
@@ -63,7 +63,7 @@ model eternal_migrations {
   error_log          Json?
   created_at         DateTime               @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -82,7 +82,7 @@ model eternal_succession {
   activated_at        DateTime?
   created_at          DateTime             @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
 }
@@ -105,7 +105,7 @@ model symbiont_entities {
   created_at       DateTime              @default(now())
   updated_at       DateTime              @updatedAt
 
-  organization      organizations            @relation(fields: [organization_id], references: [id])
+  organization      organizations            @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   opportunities     symbiont_opportunities[]
   relationships     symbiont_relationships[] @relation("entity_relationships")
   inverse_relations symbiont_relationships[] @relation("inverse_relationships")
@@ -132,8 +132,8 @@ model symbiont_opportunities {
   created_at          DateTime                  @default(now())
   updated_at          DateTime                  @updatedAt
 
-  organization organizations          @relation(fields: [organization_id], references: [id])
-  entity       symbiont_entities?     @relation(fields: [entity_id], references: [id])
+  organization organizations          @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  entity       symbiont_entities?     @relation(fields: [entity_id], references: [id], onDelete: Cascade)
   simulations  symbiont_simulations[]
 
   @@index([organization_id, status])
@@ -155,8 +155,8 @@ model symbiont_relationships {
   created_at          DateTime                 @default(now())
   updated_at          DateTime                 @updatedAt
 
-  organization   organizations     @relation(fields: [organization_id], references: [id])
-  entity         symbiont_entities @relation("entity_relationships", fields: [entity_id], references: [id])
+  organization   organizations     @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  entity         symbiont_entities @relation("entity_relationships", fields: [entity_id], references: [id], onDelete: Cascade)
   related_entity symbiont_entities @relation("inverse_relationships", fields: [related_entity_id], references: [id])
 
   @@unique([entity_id, related_entity_id])
@@ -199,7 +199,7 @@ model vox_stakeholders {
   created_at            DateTime           @default(now())
   updated_at            DateTime           @updatedAt
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   signals      vox_signals[]
   impacts      vox_impacts[]
   votes        vox_votes[]
@@ -244,8 +244,8 @@ model vox_impacts {
   stakeholder_response Json? // Their reaction
   created_at           DateTime      @default(now())
 
-  organization organizations    @relation(fields: [organization_id], references: [id])
-  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id])
+  organization organizations    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([stakeholder_id])
@@ -266,8 +266,8 @@ model vox_votes {
   veto_reason     String?
   created_at      DateTime     @default(now())
 
-  organization organizations    @relation(fields: [organization_id], references: [id])
-  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id])
+  organization organizations    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id], onDelete: Cascade)
 
   @@unique([decision_id, stakeholder_id])
   @@index([organization_id])
@@ -291,7 +291,7 @@ model vox_assemblies {
   completed_at      DateTime?
   created_at        DateTime        @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([decision_id])

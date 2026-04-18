@@ -23,7 +23,7 @@ model dcii_iiss_scores {
   integrity_hash    String
   created_at        DateTime @default(now())
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([band])
@@ -73,7 +73,7 @@ model dcii_media_assets {
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -109,7 +109,7 @@ model dcii_jurisdiction_assessments {
   data              Json     // Full CrossJurisdictionAssessment object
   created_at        DateTime @default(now())
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([created_at])
@@ -179,7 +179,7 @@ model dcii_timestamp_tokens {
   created_at      DateTime  @default(now())
   expires_at      DateTime?
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([data_hash])
@@ -243,7 +243,7 @@ model evidence_vault_packets {
   created_at          DateTime @default(now())
   updated_at          DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -276,7 +276,7 @@ model dcii_similarity_decisions {
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([department])

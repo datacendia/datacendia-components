@@ -54,7 +54,7 @@ model gateway_interactions {
   deleted_at        DateTime?
   created_at        DateTime @default(now())
   
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   
   @@index([organization_id])
   @@index([user_id])

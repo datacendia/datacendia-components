@@ -37,7 +37,7 @@ model panopticon_regulations {
   created_at       DateTime                   @default(now())
   updated_at       DateTime                   @updatedAt
 
-  organization organizations            @relation(fields: [organization_id], references: [id])
+  organization organizations            @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   obligations  panopticon_obligations[]
   violations   panopticon_violations[]
 
@@ -109,7 +109,7 @@ model panopticon_violations {
   resolved_by       String?
   created_at        DateTime                  @default(now())
 
-  organization organizations           @relation(fields: [organization_id], references: [id])
+  organization organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   regulation   panopticon_regulations  @relation(fields: [regulation_id], references: [id])
   obligation   panopticon_obligations? @relation(fields: [obligation_id], references: [id])
 
@@ -132,7 +132,7 @@ model panopticon_forecasts {
   confidence          Float                  @default(0.7)
   created_at          DateTime               @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([forecast_type])

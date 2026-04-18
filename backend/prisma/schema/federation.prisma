@@ -59,7 +59,7 @@ model gateway_federation_members {
   created_at        DateTime @default(now())
   updated_at        DateTime @updatedAt
   
-  federation        gateway_federations @relation(fields: [federation_id], references: [id])
+  federation        gateway_federations @relation(fields: [federation_id], references: [id], onDelete: Cascade)
   
   @@unique([federation_id, organization_id])
   @@index([federation_id])
@@ -94,7 +94,7 @@ model gateway_federation_policies {
   created_at        DateTime @default(now())
   updated_at        DateTime @updatedAt
   
-  federation        gateway_federations @relation(fields: [federation_id], references: [id])
+  federation        gateway_federations @relation(fields: [federation_id], references: [id], onDelete: Cascade)
   
   @@index([federation_id])
   @@index([enabled])
@@ -137,7 +137,7 @@ model gateway_federation_reports {
   generated_at      DateTime @default(now())
   created_at        DateTime @default(now())
   
-  federation        gateway_federations @relation(fields: [federation_id], references: [id])
+  federation        gateway_federations @relation(fields: [federation_id], references: [id], onDelete: Cascade)
   
   @@index([federation_id])
   @@index([report_type])

@@ -56,7 +56,7 @@ model agent_query_responses {
   sources         Json            @default("[]")
   confidence      Float
   created_at      DateTime        @default(now())
-  agents          agents          @relation(fields: [agent_id], references: [id])
+  agents          agents          @relation(fields: [agent_id], references: [id], onDelete: Cascade)
   council_queries council_queries @relation(fields: [query_id], references: [id], onDelete: Cascade)
 }
 
@@ -91,7 +91,7 @@ model council_queries {
   created_at            DateTime                @default(now())
   completed_at          DateTime?
   agent_query_responses agent_query_responses[]
-  users                 users                   @relation(fields: [user_id], references: [id])
+  users                 users                   @relation(fields: [user_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, created_at])
 }
@@ -165,7 +165,7 @@ model deliberation_messages {
   sources         Json          @default("[]")
   confidence      Float?
   created_at      DateTime      @default(now())
-  agents          agents        @relation(fields: [agent_id], references: [id])
+  agents          agents        @relation(fields: [agent_id], references: [id], onDelete: Cascade)
   deliberations   deliberations @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
 
   @@index([deliberation_id, created_at])
@@ -190,7 +190,7 @@ model deliberations {
   approvals             approvals[]
   deliberation_messages deliberation_messages[]
   deliberation_votes    deliberation_votes[]
-  organizations         organizations           @relation(fields: [organization_id], references: [id])
+  organizations         organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   executive_summaries   executive_summaries[]
   decision_outcomes     decision_outcomes[]
 
@@ -255,8 +255,8 @@ model executive_summaries {
   generated_by    String
   created_at      DateTime       @default(now())
   updated_at      DateTime
-  decisions       decisions?     @relation(fields: [decision_id], references: [id])
-  deliberations   deliberations? @relation(fields: [deliberation_id], references: [id])
+  decisions       decisions?     @relation(fields: [decision_id], references: [id], onDelete: Cascade)
+  deliberations   deliberations? @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([type])
@@ -347,8 +347,8 @@ model decision_outcomes {
   created_at           DateTime @default(now())
   updated_at           DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
-  deliberations deliberations @relation(fields: [deliberation_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  deliberations deliberations @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([deliberation_id])
@@ -422,7 +422,7 @@ model dissents {
   ledger_timestamp     DateTime  @default(now())
 
   response      dissent_responses?
-  organizations organizations      @relation(fields: [organization_id], references: [id])
+  organizations organizations      @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([dissenter_id])

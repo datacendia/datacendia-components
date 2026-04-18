@@ -92,7 +92,7 @@ model redteam_vulnerabilities {
   discovered_at          DateTime  @default(now())
   mitigated_at           DateTime?
 
-  simulation redteam_simulations? @relation(fields: [simulation_id], references: [id])
+  simulation redteam_simulations? @relation(fields: [simulation_id], references: [id], onDelete: Cascade)
   patches    redteam_patches[]
 
   @@index([organization_id])
@@ -112,7 +112,7 @@ model redteam_patches {
   status           String    @default("pending")
   created_at       DateTime  @default(now())
 
-  vulnerability redteam_vulnerabilities @relation(fields: [vulnerability_id], references: [id])
+  vulnerability redteam_vulnerabilities @relation(fields: [vulnerability_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -206,7 +206,7 @@ model apotheosis_runs {
   escalations         apotheosis_escalations[]
   upskill_assignments apotheosis_upskill_assignments[]
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -316,7 +316,7 @@ model apotheosis_pattern_bans {
   status            String   @default("active") // active, lifted
   override_requires String
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -333,7 +333,7 @@ model apotheosis_scores {
   pattern_health    Decimal  @db.Decimal(5, 2)
   recorded_at       DateTime @default(now())
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([recorded_at])
@@ -352,5 +352,5 @@ model apotheosis_configs {
   created_at            DateTime @default(now())
   updated_at            DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 }

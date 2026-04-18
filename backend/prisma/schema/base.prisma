@@ -175,7 +175,7 @@ model teams {
   created_at      DateTime       @default(now())
   updated_at      DateTime
   team_members    team_members[]
-  organizations   organizations  @relation(fields: [organization_id], references: [id])
+  organizations   organizations  @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 }
 
 model translations {
@@ -226,7 +226,7 @@ model users {
   metric_definitions       metric_definitions[]
   sessions                 sessions[]
   team_members             team_members[]
-  organizations            organizations          @relation(fields: [organization_id], references: [id])
+  organizations            organizations          @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   crucible_simulations     crucible_simulations[]
   eternal_artifacts        eternal_artifacts[]
 

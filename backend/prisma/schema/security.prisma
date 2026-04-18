@@ -20,7 +20,7 @@ model crucible_simulations {
   completed_at          DateTime?
   results_summary       Json?
 
-  organizations         organizations                    @relation(fields: [organization_id], references: [id])
+  organizations         organizations                    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   users                 users                            @relation(fields: [created_by], references: [id])
   universes             crucible_universes[]
   impacts               crucible_impacts[]
@@ -128,7 +128,7 @@ model crucible_redteam_reports {
   signed_by              String?
   created_at             DateTime  @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, completed_at])
   @@index([security_score])
@@ -152,7 +152,7 @@ model crucible_sbom {
   signed_at       DateTime?
   created_at      DateTime  @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, created_at])
 }
@@ -170,7 +170,7 @@ model crucible_runtime_events {
   mitigated_by    String?
   created_at      DateTime         @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, event_type])
   @@index([severity, mitigated])
@@ -192,7 +192,7 @@ model aegis_signals {
   processed_at       DateTime        @default(now())
   created_at         DateTime        @default(now())
 
-  organization       organizations   @relation(fields: [organization_id], references: [id])
+  organization       organizations   @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   threat_assessments aegis_threats[]
 
   @@index([organization_id, signal_type])
@@ -220,7 +220,7 @@ model aegis_threats {
   mitigated_at    DateTime?
   created_at      DateTime          @default(now())
 
-  organization    organizations           @relation(fields: [organization_id], references: [id])
+  organization    organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   signal          aegis_signals?          @relation(fields: [signal_id], references: [id])
   scenarios       aegis_scenarios[]
   countermeasures aegis_countermeasures[]
@@ -288,8 +288,8 @@ model aegis_briefings {
   sent_at           DateTime?
   created_at        DateTime            @default(now())
 
-  organization organizations  @relation(fields: [organization_id], references: [id])
-  threat       aegis_threats? @relation(fields: [threat_id], references: [id])
+  organization organizations  @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  threat       aegis_threats? @relation(fields: [threat_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([briefing_type])

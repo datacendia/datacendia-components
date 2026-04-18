@@ -78,7 +78,7 @@ model enterprise_scheduled_jobs {
   updated_at           DateTime  @updatedAt
 
   executions   enterprise_job_executions[]
-  organization organizations               @relation(fields: [organization_id], references: [id])
+  organization organizations               @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([job_type])
