@@ -9,8 +9,8 @@ model dcii_iiss_scores {
   id                String   @id @default(uuid())
   organization_id   String
   organization_name String
-  overall_score     Int      // 0-1000
-  band              String   // critical, vulnerable, developing, resilient, exceptional
+  overall_score     Int // 0-1000
+  band              String // critical, vulnerable, developing, resilient, exceptional
   certification     String   @default("none") // none, bronze, silver, gold, platinum
   previous_score    Int?
   previous_band     String?
@@ -19,7 +19,7 @@ model dcii_iiss_scores {
   percentile        Float?
   assessment_id     String
   valid_until       DateTime
-  data              Json     // Full IISSScore object (dimensions, recommendations, insurance impact, etc.)
+  data              Json // Full IISSScore object (dimensions, recommendations, insurance impact, etc.)
   integrity_hash    String
   created_at        DateTime @default(now())
 
@@ -35,7 +35,7 @@ model dcii_iiss_assessments {
   organization_id String
   status          String    @default("pending") // pending, in_progress, completed, expired, revoked
   initiated_by    String
-  data            Json      // Full IISSAssessment object
+  data            Json // Full IISSAssessment object
   completed_at    DateTime?
   created_at      DateTime  @default(now())
 
@@ -48,8 +48,8 @@ model dcii_iiss_history {
   organization_id String
   score           Int
   band            String
-  event_type      String   // assessment, recalculation, manual_adjustment
-  data            Json     // Full IISSHistoryEntry object
+  event_type      String // assessment, recalculation, manual_adjustment
+  data            Json // Full IISSHistoryEntry object
   created_at      DateTime @default(now())
 
   @@index([organization_id])
@@ -64,12 +64,12 @@ model dcii_media_assets {
   id              String   @id @default(uuid())
   organization_id String
   file_name       String
-  media_type      String   // image, video, audio, document
+  media_type      String // image, video, audio, document
   mime_type       String
   content_hash    String
   status          String   @default("signed") // signed, verified, tampered, disputed, revoked
   created_by      String
-  data            Json     // Full MediaAsset object (c2pa manifest, chain of custody, etc.)
+  data            Json // Full MediaAsset object (c2pa manifest, chain of custody, etc.)
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
@@ -84,10 +84,10 @@ model dcii_media_assessments {
   id              String   @id @default(uuid())
   asset_id        String
   organization_id String
-  verdict         String   // authentic, suspicious, manipulated, inconclusive
+  verdict         String // authentic, suspicious, manipulated, inconclusive
   confidence      Float
   analyzed_by     String
-  data            Json     // Full AuthenticityAssessment object (indicators, analysis results)
+  data            Json // Full AuthenticityAssessment object (indicators, analysis results)
   created_at      DateTime @default(now())
 
   @@index([asset_id])
@@ -106,7 +106,7 @@ model dcii_jurisdiction_assessments {
   assessed_by       String
   conflict_count    Int      @default(0)
   status            String   @default("completed")
-  data              Json     // Full CrossJurisdictionAssessment object
+  data              Json // Full CrossJurisdictionAssessment object
   created_at        DateTime @default(now())
 
   organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
@@ -119,14 +119,14 @@ model dcii_jurisdiction_conflicts {
   id              String   @id @default(uuid())
   organization_id String
   assessment_id   String
-  severity        String   // critical, high, medium, low
-  conflict_type   String   // direct_contradiction, partial_overlap, timing_conflict, scope_conflict, enforcement_gap
+  severity        String // critical, high, medium, low
+  conflict_type   String // direct_contradiction, partial_overlap, timing_conflict, scope_conflict, enforcement_gap
   jurisdiction_a  String
   jurisdiction_b  String
   framework_a     String
   framework_b     String
   status          String   @default("detected") // detected, analyzing, resolved, accepted_risk, mitigated
-  data            Json     // Full RegulatoryConflict object
+  data            Json // Full RegulatoryConflict object
   created_at      DateTime @default(now())
 
   @@index([organization_id])
@@ -141,7 +141,7 @@ model dcii_jurisdiction_evidence_packets {
   framework       String
   packet_type     String   @default("compliance_report")
   generated_by    String
-  data            Json     // Full JurisdictionEvidencePacket object
+  data            Json // Full JurisdictionEvidencePacket object
   created_at      DateTime @default(now())
 
   @@index([organization_id])
@@ -153,7 +153,7 @@ model dcii_jurisdiction_good_faith_docs {
   conflict_id     String
   organization_id String
   signed_by       String
-  data            Json     // Full GoodFaithDocument object
+  data            Json // Full GoodFaithDocument object
   created_at      DateTime @default(now())
 
   @@index([conflict_id])
@@ -175,7 +175,7 @@ model dcii_timestamp_tokens {
   status          String    @default("valid") // valid, verified, expired, revoked, superseded
   has_external    Boolean   @default(false)
   has_blockchain  Boolean   @default(false)
-  data            Json      // Full TimestampToken object
+  data            Json // Full TimestampToken object
   created_at      DateTime  @default(now())
   expires_at      DateTime?
 
@@ -192,7 +192,7 @@ model dcii_timestamp_verifications {
   token_id    String
   verified_by String
   valid       Boolean
-  data        Json     // Full TimestampVerification object
+  data        Json // Full TimestampVerification object
   created_at  DateTime @default(now())
 
   @@index([token_id])
@@ -203,7 +203,7 @@ model dcii_timestamp_batches {
   organization_id String
   item_count      Int
   status          String   @default("completed")
-  data            Json     // Full BatchTimestampRequest object
+  data            Json // Full BatchTimestampRequest object
   created_at      DateTime @default(now())
 
   @@index([organization_id])
@@ -214,34 +214,34 @@ model dcii_timestamp_batches {
 // =============================================================================
 
 model evidence_vault_packets {
-  id                  String   @id
-  decision_id         String
-  decision_title      String
-  status              String   @default("draft") // draft, under_review, approved, locked, superseded
-  mode                String   @default("operational") // due_diligence, war_room, compliance, strategic, operational
-  owner_id            String
-  owner_name          String
-  owner_email         String
-  owner_role          String
-  owner_department    String
-  business_unit       String
-  organization_id     String
-  data_source_id      String?
-  policy_pack_version String   @default("v1.0.0")
-  signature_valid     Boolean  @default(false)
-  integrity_hash      String
-  version             Int      @default(1)
-  superseded_by       String?
-  systems_impacted    String[]
+  id                    String    @id
+  decision_id           String
+  decision_title        String
+  status                String    @default("draft") // draft, under_review, approved, locked, superseded
+  mode                  String    @default("operational") // due_diligence, war_room, compliance, strategic, operational
+  owner_id              String
+  owner_name            String
+  owner_email           String
+  owner_role            String
+  owner_department      String
+  business_unit         String
+  organization_id       String
+  data_source_id        String?
+  policy_pack_version   String    @default("v1.0.0")
+  signature_valid       Boolean   @default(false)
+  integrity_hash        String
+  version               Int       @default(1)
+  superseded_by         String?
+  systems_impacted      String[]
   compliance_frameworks String[]
-  retention_until     DateTime
-  data                Json     // Full DecisionPacket object (attachments, dissents, vetoes, overrides, access log, workflows)
-  generated_at        DateTime @default(now())
-  signed_at           DateTime?
-  locked_at           DateTime?
-  deleted_at        DateTime?
-  created_at          DateTime @default(now())
-  updated_at          DateTime @default(now()) @updatedAt
+  retention_until       DateTime
+  data                  Json // Full DecisionPacket object (attachments, dissents, vetoes, overrides, access log, workflows)
+  generated_at          DateTime  @default(now())
+  signed_at             DateTime?
+  locked_at             DateTime?
+  deleted_at            DateTime?
+  created_at            DateTime  @default(now())
+  updated_at            DateTime  @default(now()) @updatedAt
 
   organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
@@ -266,13 +266,13 @@ model dcii_similarity_decisions {
   decision_type   String
   department      String
   urgency         String   @default("medium") // low, medium, high, critical
-  outcome         String?  // successful, partially_successful, failed, too_early, unknown
+  outcome         String? // successful, partially_successful, failed, too_early, unknown
   override        Boolean  @default(false)
   decided_by      String
   decided_at      DateTime
   tags            String[]
   keywords        String[]
-  data            Json     // Full DecisionRecord object
+  data            Json // Full DecisionRecord object
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
@@ -290,7 +290,7 @@ model dcii_similarity_results {
   organization_id String
   query_title     String
   match_count     Int
-  data            Json     // Full SimilaritySearchResult object
+  data            Json // Full SimilaritySearchResult object
   created_at      DateTime @default(now())
 
   @@index([organization_id])
@@ -299,10 +299,10 @@ model dcii_similarity_results {
 model dcii_similarity_patterns {
   id              String   @id @default(uuid())
   organization_id String
-  pattern_type    String   // recurring_failure, override_pattern, department_blindspot, seasonal_pattern, escalation_pattern
-  severity        String   // critical, high, medium, low
+  pattern_type    String // recurring_failure, override_pattern, department_blindspot, seasonal_pattern, escalation_pattern
+  severity        String // critical, high, medium, low
   confidence      Float
-  data            Json     // Full DecisionPattern object
+  data            Json // Full DecisionPattern object
   created_at      DateTime @default(now())
 
   @@index([organization_id])

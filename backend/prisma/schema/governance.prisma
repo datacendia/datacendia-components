@@ -13,9 +13,9 @@ model approvals {
   reviewed_at         DateTime?
   comments            String?
   created_at          DateTime            @default(now())
-  workflow_executions workflow_executions @relation(fields: [reference_id], references: [id], map: "approval_execution_fkey")
-  deliberations       deliberations       @relation(fields: [reference_id], references: [id])
-  users               users               @relation(fields: [requester_id], references: [id])
+  workflow_executions workflow_executions @relation(fields: [reference_id], references: [id], map: "approval_execution_fkey", onDelete: NoAction)
+  deliberations       deliberations       @relation(fields: [reference_id], references: [id], onDelete: NoAction)
+  users               users               @relation(fields: [requester_id], references: [id], onDelete: Restrict)
 
   @@index([organization_id, status])
 }
@@ -110,8 +110,8 @@ model panopticon_violations {
   created_at        DateTime                  @default(now())
 
   organization organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
-  regulation   panopticon_regulations  @relation(fields: [regulation_id], references: [id])
-  obligation   panopticon_obligations? @relation(fields: [obligation_id], references: [id])
+  regulation   panopticon_regulations  @relation(fields: [regulation_id], references: [id], onDelete: Cascade)
+  obligation   panopticon_obligations? @relation(fields: [obligation_id], references: [id], onDelete: SetNull)
 
   @@index([organization_id, status])
   @@index([severity])
@@ -170,7 +170,7 @@ model ethics_reviews {
   submitted_at    DateTime      @default(now())
   completed_at    DateTime?
 
-  principle ethics_principles? @relation(fields: [principle_id], references: [id])
+  principle ethics_principles? @relation(fields: [principle_id], references: [id], onDelete: SetNull)
 
   @@index([organization_id])
   @@index([status])
@@ -218,7 +218,7 @@ model govern_audits {
   findings        Json             @default("[]")
   risk_score      Float?
   created_at      DateTime         @default(now())
-  policy          govern_policies? @relation(fields: [policy_id], references: [id])
+  policy          govern_policies? @relation(fields: [policy_id], references: [id], onDelete: SetNull)
 
   @@index([organization_id])
 }
@@ -620,23 +620,23 @@ enum ConflictResolution {
 // =============================================================================
 
 model constitutional_disputes {
-  id              String    @id @default(uuid())
-  case_number     String    @unique
-  title           String
-  category        String    // confidence_conflict, methodology_dispute, data_interpretation, etc.
-  status          String    @default("filed") // filed, under_review, hearing_scheduled, deliberating, opinion_drafted, resolved, appealed
-  petitioner      Json      // DisputeParty object
-  respondent      Json      // DisputeParty object
-  deliberation_id String?
-  vertical_id     String?
-  organization_id String
+  id                 String    @id @default(uuid())
+  case_number        String    @unique
+  title              String
+  category           String // confidence_conflict, methodology_dispute, data_interpretation, etc.
+  status             String    @default("filed") // filed, under_review, hearing_scheduled, deliberating, opinion_drafted, resolved, appealed
+  petitioner         Json // DisputeParty object
+  respondent         Json // DisputeParty object
+  deliberation_id    String?
+  vertical_id        String?
+  organization_id    String
   precedents_applied String[] // Case numbers
-  data            Json?     // Full Dispute object
-  filed_at        DateTime  @default(now())
-  hearing_at      DateTime?
-  resolved_at     DateTime?
-  created_at      DateTime  @default(now())
-  updated_at      DateTime  @default(now()) @updatedAt
+  data               Json? // Full Dispute object
+  filed_at           DateTime  @default(now())
+  hearing_at         DateTime?
+  resolved_at        DateTime?
+  created_at         DateTime  @default(now())
+  updated_at         DateTime  @default(now()) @updatedAt
 
   opinions constitutional_opinions[]
 
@@ -647,24 +647,24 @@ model constitutional_disputes {
 }
 
 model constitutional_opinions {
-  id                  String   @id @default(uuid())
-  dispute_id          String
-  case_number         String
-  title               String
-  ruling              String   // petitioner, respondent, partial_petitioner, partial_respondent, remanded
-  summary             String   @db.Text
-  rationale           String   @db.Text
-  holdings            String[]
-  principles_applied  String[]
-  precedent_strength  String   @default("binding") // binding, persuasive, distinguishable, overruled
-  authoring_judge     String
-  opinion_hash        String
-  data                Json     // Full CourtOpinion object
-  drafted_at          DateTime @default(now())
-  finalized_at        DateTime?
-  created_at          DateTime @default(now())
+  id                 String    @id @default(uuid())
+  dispute_id         String
+  case_number        String
+  title              String
+  ruling             String // petitioner, respondent, partial_petitioner, partial_respondent, remanded
+  summary            String    @db.Text
+  rationale          String    @db.Text
+  holdings           String[]
+  principles_applied String[]
+  precedent_strength String    @default("binding") // binding, persuasive, distinguishable, overruled
+  authoring_judge    String
+  opinion_hash       String
+  data               Json // Full CourtOpinion object
+  drafted_at         DateTime  @default(now())
+  finalized_at       DateTime?
+  created_at         DateTime  @default(now())
 
-  dispute constitutional_disputes @relation(fields: [dispute_id], references: [id])
+  dispute constitutional_disputes @relation(fields: [dispute_id], references: [id], onDelete: Cascade)
 
   @@index([dispute_id])
   @@index([case_number])
@@ -682,7 +682,7 @@ model accountability_records {
   human_authority_name String
   human_authority_role String
   human_authority_dept String?
-  action_taken         String   // APPROVE, OVERRIDE, DEFER, REJECT, ESCALATE
+  action_taken         String // APPROVE, OVERRIDE, DEFER, REJECT, ESCALATE
   justification        String   @db.Text
   accepted_risks       String[] // FailureCategory[]
   risk_acknowledgment  String   @db.Text
@@ -694,7 +694,7 @@ model accountability_records {
   public_key_fp        String?
   previous_record_hash String?
   record_hash          String
-  witnesses            Json?    // HumanAuthority[]
+  witnesses            Json? // HumanAuthority[]
   created_at           DateTime @default(now())
 
   @@index([decision_id])
@@ -704,18 +704,18 @@ model accountability_records {
 }
 
 model delegation_records {
-  id               String   @id @default(uuid())
-  organization_id  String
-  from_name        String
-  from_role        String
-  to_name          String
-  to_role          String
-  scope            String[]
-  constraints      String[]
-  valid_from       DateTime
-  valid_until      DateTime
-  signature        String
-  created_at       DateTime @default(now())
+  id              String   @id @default(uuid())
+  organization_id String
+  from_name       String
+  from_role       String
+  to_name         String
+  to_role         String
+  scope           String[]
+  constraints     String[]
+  valid_from      DateTime
+  valid_until     DateTime
+  signature       String
+  created_at      DateTime @default(now())
 
   @@index([organization_id])
   @@index([valid_until])
@@ -726,14 +726,14 @@ model delegation_records {
 // =============================================================================
 
 model drift_snapshots {
-  id               String   @id @default(uuid())
-  organization_id  String
-  snapshot_type    String   // "iiss", "compliance", "override_rate", "gate_pass_rate"
-  primitive        String?  // Which DCII primitive, if applicable
-  score            Float
-  max_score        Float?
-  metadata         Json?    // Additional context (band, controls, etc.)
-  created_at       DateTime @default(now())
+  id              String   @id @default(uuid())
+  organization_id String
+  snapshot_type   String // "iiss", "compliance", "override_rate", "gate_pass_rate"
+  primitive       String? // Which DCII primitive, if applicable
+  score           Float
+  max_score       Float?
+  metadata        Json? // Additional context (band, controls, etc.)
+  created_at      DateTime @default(now())
 
   @@index([organization_id, snapshot_type])
   @@index([organization_id, primitive])
@@ -750,15 +750,15 @@ model bias_analyses {
   deliberation_id       String
   deliberation_title    String
   analyzed_by           String
-  biases_detected       Json     // BiasDetection[]
-  overall_risk          String   // none, low, medium, high, critical
+  biases_detected       Json // BiasDetection[]
+  overall_risk          String // none, low, medium, high, critical
   bias_count            Int
   high_risk_count       Int
   rubber_stamp_detected Boolean  @default(false)
   rubber_stamp_reason   String?
   duration_minutes      Float?
   min_expected_minutes  Float?
-  groupthink_indicators Json?    // { unanimousVote, dissentCount, ... }
+  groupthink_indicators Json? // { unanimousVote, dissentCount, ... }
   recommendations       String[]
   analysis_hash         String
   created_at            DateTime @default(now())
@@ -774,18 +774,18 @@ model bias_analyses {
 // =============================================================================
 
 model meta_governance_reports {
-  id                  String   @id @default(uuid())
-  agent_id            String
-  agent_name          String
-  drift_warnings      Json     // DriftWarning[]
-  risk_report         Json     // GovernanceRiskReport
-  recommendations     Json     // StructuralRecommendation[]
-  health_score        Json     // SystemHealthScore
-  interventions       Json     // Intervention[]
-  analysis_window     Json     // TimeRange
-  execution_seed      Int?
-  execution_ms        Int?
-  created_at          DateTime @default(now())
+  id              String   @id @default(uuid())
+  agent_id        String
+  agent_name      String
+  drift_warnings  Json // DriftWarning[]
+  risk_report     Json // GovernanceRiskReport
+  recommendations Json // StructuralRecommendation[]
+  health_score    Json // SystemHealthScore
+  interventions   Json // Intervention[]
+  analysis_window Json // TimeRange
+  execution_seed  Int?
+  execution_ms    Int?
+  created_at      DateTime @default(now())
 
   @@index([agent_id])
   @@index([created_at])
@@ -796,19 +796,19 @@ model meta_governance_reports {
 // =============================================================================
 
 model deterministic_replay_states {
-  id                  String   @id
-  organization_id     String
-  deliberation_id     String
-  master_seed         String
-  execution_env       Json     // ExecutionEnvironment
-  random_state        Json     // RandomState (seeds, pinned timestamp)
-  model_state         Json     // ModelState (models, inference params)
-  input_state         Json     // InputState (question, docs, agents)
-  output_state        Json     // OutputState (responses, hashes)
-  state_hash          String
-  verified            Boolean  @default(false)
-  verified_at         DateTime?
-  created_at          DateTime @default(now())
+  id              String    @id
+  organization_id String
+  deliberation_id String
+  master_seed     String
+  execution_env   Json // ExecutionEnvironment
+  random_state    Json // RandomState (seeds, pinned timestamp)
+  model_state     Json // ModelState (models, inference params)
+  input_state     Json // InputState (question, docs, agents)
+  output_state    Json // OutputState (responses, hashes)
+  state_hash      String
+  verified        Boolean   @default(false)
+  verified_at     DateTime?
+  created_at      DateTime  @default(now())
 
   @@index([organization_id])
   @@index([deliberation_id])
@@ -820,29 +820,29 @@ model deterministic_replay_states {
 // =============================================================================
 
 model data_diode_events {
-  id                  String   @id @default(uuid())
-  source_id           String
-  source_name         String
-  file_name           String
-  file_size           Int
-  file_hash           String   // SHA-256
-  status              String   // IngestStatus enum
-  format              String   // DataFormat enum
-  signature_valid     Boolean?
-  signed_by           String?
-  scan_result         String?  // clean, suspicious, malicious
-  scan_engine         String?
-  records_extracted   Int?
-  bytes_processed     Int?
-  target_system       String?
-  error_message       String?
-  ledger_hash         String?
-  detected_at         DateTime
-  quarantined_at      DateTime?
-  scanned_at          DateTime?
-  parsed_at           DateTime?
-  completed_at        DateTime?
-  created_at          DateTime @default(now())
+  id                String    @id @default(uuid())
+  source_id         String
+  source_name       String
+  file_name         String
+  file_size         Int
+  file_hash         String // SHA-256
+  status            String // IngestStatus enum
+  format            String // DataFormat enum
+  signature_valid   Boolean?
+  signed_by         String?
+  scan_result       String? // clean, suspicious, malicious
+  scan_engine       String?
+  records_extracted Int?
+  bytes_processed   Int?
+  target_system     String?
+  error_message     String?
+  ledger_hash       String?
+  detected_at       DateTime
+  quarantined_at    DateTime?
+  scanned_at        DateTime?
+  parsed_at         DateTime?
+  completed_at      DateTime?
+  created_at        DateTime  @default(now())
 
   @@index([source_id])
   @@index([status])
@@ -855,15 +855,15 @@ model data_diode_events {
 // =============================================================================
 
 model service_records {
-  id                  String   @id @default(uuid())
-  service_name        String   // e.g. "CendiaGuardian", "CendiaNerve", "TimeLock"
-  record_type         String   // e.g. "customer_health", "alert", "assessment", "lock"
-  organization_id     String?
-  reference_id        String?  // deliberation_id, customer_id, etc.
-  data                Json     // The actual record payload
-  hash                String?  // SHA-256 of data for integrity
-  created_at          DateTime @default(now())
-  updated_at          DateTime @updatedAt
+  id              String   @id @default(uuid())
+  service_name    String // e.g. "CendiaGuardian", "CendiaNerve", "TimeLock"
+  record_type     String // e.g. "customer_health", "alert", "assessment", "lock"
+  organization_id String?
+  reference_id    String? // deliberation_id, customer_id, etc.
+  data            Json // The actual record payload
+  hash            String? // SHA-256 of data for integrity
+  created_at      DateTime @default(now())
+  updated_at      DateTime @updatedAt
 
   @@index([service_name, record_type])
   @@index([organization_id])

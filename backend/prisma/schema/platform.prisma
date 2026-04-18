@@ -91,7 +91,7 @@ model scenarios {
   assumptions Json       @default("[]")
   projections Json?
   created_at  DateTime   @default(now())
-  forecasts   forecasts? @relation(fields: [forecast_id], references: [id])
+  forecasts   forecasts? @relation(fields: [forecast_id], references: [id], onDelete: Cascade)
 }
 
 model workflow_executions {
@@ -428,7 +428,7 @@ model webhook_deliveries {
   response     String?
   success      Boolean  @default(false)
   delivered_at DateTime @default(now())
-  webhook      webhooks @relation(fields: [webhook_id], references: [id])
+  webhook      webhooks @relation(fields: [webhook_id], references: [id], onDelete: Cascade)
 
   @@index([webhook_id])
   @@index([delivered_at])

@@ -21,7 +21,7 @@ model crucible_simulations {
   results_summary       Json?
 
   organizations         organizations                    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
-  users                 users                            @relation(fields: [created_by], references: [id])
+  users                 users                            @relation(fields: [created_by], references: [id], onDelete: Restrict)
   universes             crucible_universes[]
   impacts               crucible_impacts[]
   council_deliberations crucible_council_deliberations[]
@@ -221,7 +221,7 @@ model aegis_threats {
   created_at      DateTime          @default(now())
 
   organization    organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
-  signal          aegis_signals?          @relation(fields: [signal_id], references: [id])
+  signal          aegis_signals?          @relation(fields: [signal_id], references: [id], onDelete: SetNull)
   scenarios       aegis_scenarios[]
   countermeasures aegis_countermeasures[]
   briefings       aegis_briefings[]
@@ -717,7 +717,7 @@ model ledger_entries {
   block_number    Int?
   created_at      DateTime @default(now())
 
-  ledger_block    ledger_blocks? @relation(fields: [block_number], references: [block_number])
+  ledger_block ledger_blocks? @relation(fields: [block_number], references: [block_number], onDelete: Restrict)
 
   @@index([organization_id, created_at])
   @@index([event_type])
@@ -736,7 +736,7 @@ model ledger_blocks {
   witness             String?
   created_at          DateTime @default(now())
 
-  entries             ledger_entries[]
+  entries ledger_entries[]
 
   @@index([merkle_root])
 }
