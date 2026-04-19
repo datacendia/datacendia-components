@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MIRAGEÃ¢â€žÂ¢ - Deception Technology Service
+// CENDIA MIRAGE™ - Deception Technology Service
 // "Let attackers reveal themselves in shadow environments."
 // Sovereign Security Layer - Deception & Threat Intelligence
 // =============================================================================

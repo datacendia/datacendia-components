@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaAegisÃ¢â€žÂ¢ - Strategic Defense Intelligence
+ * CendiaAegis™ - Strategic Defense Intelligence
  * 
  * "Real-time threat detection, containment, and resilience modeling."
  * 
@@ -1150,8 +1150,8 @@ Respond as JSON:
           })),
           correlationType: 'TEMPORAL',
           compositeRisk: severityScore,
-          attackChain: cluster.length >= 4 ? 'Potential coordinated activity Ã¢â‚¬â€ multiple signals in rapid succession' : null,
-          recommendation: `${cluster.length} signals within 1 hour Ã¢â‚¬â€ investigate for coordinated attack pattern`,
+          attackChain: cluster.length >= 4 ? 'Potential coordinated activity — multiple signals in rapid succession' : null,
+          recommendation: `${cluster.length} signals within 1 hour — investigate for coordinated attack pattern`,
         });
       }
     }
@@ -1187,7 +1187,7 @@ Respond as JSON:
             correlationType: 'ENTITY',
             compositeRisk: severityScore,
             attackChain: null,
-            recommendation: `Multiple signals reference "${entity}" Ã¢â‚¬â€ potential targeted threat against this entity`,
+            recommendation: `Multiple signals reference "${entity}" — potential targeted threat against this entity`,
           });
         }
       }
@@ -1217,7 +1217,7 @@ Respond as JSON:
           correlationType: 'SOURCE',
           compositeRisk: severityScore,
           attackChain: null,
-          recommendation: `${sourceSignals.length} signals from "${source}" Ã¢â‚¬â€ evaluate source reliability and signal coherence`,
+          recommendation: `${sourceSignals.length} signals from "${source}" — evaluate source reliability and signal coherence`,
         });
       }
     }
@@ -1288,7 +1288,7 @@ Respond as JSON:
     };
     generatedAt: Date;
   }> {
-    // NIST 800-61 based playbook templates (domain knowledge Ã¢â‚¬â€ not simulated)
+    // NIST 800-61 based playbook templates (domain knowledge — not simulated)
     const PLAYBOOK_TEMPLATES: Record<string, {
       title: string;
       preparationSteps: string[];
@@ -1619,7 +1619,7 @@ Respond as JSON:
         finding: `${activeThreats.length} active unresolved threats require attention`,
         severity: activeThreats.some((t: any) => t.severity === 'CRITICAL') ? 'HIGH' : 'MEDIUM',
         evidence: activeThreats.slice(0, 5).map((t: any) => `${t.title} (${t.threat_type}, active since ${t.created_at.toISOString().split('T')[0]})`),
-        recommendation: 'Prioritize resolution of active threats Ã¢â‚¬â€ each represents an open risk',
+        recommendation: 'Prioritize resolution of active threats — each represents an open risk',
       });
     }
 

@@ -48,6 +48,7 @@ import {
 import { cn } from '../../../../lib/utils';
 import { useDataSource } from '../../../contexts/DataSourceContext';
 import { DataSourceSelector } from '../../../components/cortex/DataSourceSelector';
+import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 
 // =============================================================================
 // TYPES
@@ -521,6 +522,7 @@ export const EvidenceVaultPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-sovereign-base text-white p-6">
+      <DemoDataBanner />
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center justify-between mb-2">

@@ -17,7 +17,7 @@
  * =============================================================================
  * The Influence Simulation Engine - Core graph traversal and propagation logic.
  * 
- * CendiaOrbitâ„¢ is the ENGINE that powers CendiaCascadeâ„¢ (Butterfly Effect).
+ * CendiaOrbit—„¢ is the ENGINE that powers CendiaCascade—„¢ (Butterfly Effect).
  * It walks the organizational/system graph to find how changes propagate.
  * 
  * Key Responsibilities:

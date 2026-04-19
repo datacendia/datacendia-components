@@ -28,8 +28,17 @@ export default defineConfig({
     },
   },
   build: {
+    // Match tsconfig target so we don't ship down-levelled code.
+    target: 'es2020',
     // Use esbuild for minification (faster, built-in)
     minify: 'esbuild',
+    // gzip-size computation on every build is the single biggest cost in
+    // `vite build` once manual chunks are in place — skip in favour of a
+    // one-off `rollup-plugin-visualizer` pass when we want the number.
+    reportCompressedSize: false,
+    // CSS is already code-split by default; call it out explicitly so a
+    // future config author doesn't revert it accidentally.
+    cssCodeSplit: true,
     // Split chunks for better caching
     rollupOptions: {
       output: {

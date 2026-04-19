@@ -338,7 +338,7 @@ function calculateRealConfidence(
   else confidence -= 0.1;
 
   // Factor 4: Structural indicators in response
-  const hasStructure = /\d+\.|â€¢|-\s|first|second|third/i.test(response);
+  const hasStructure = /\d+\.|”¢|-\s|first|second|third/i.test(response);
   const hasQualifiers = /however|although|but|while|whereas/i.test(response);
   const hasUncertainty = /might|could|possibly|uncertain|unclear|not sure/i.test(response);
   
@@ -1365,7 +1365,7 @@ export class CouncilService extends EventEmitter {
     // Look for numbered items or bullet points
     const patterns = [
       /\d+\.\s*\*\*([^*]+)\*\*/g,
-      /[-â€¢]\s*\*\*([^*]+)\*\*/g,
+      /[-”¢]\s*\*\*([^*]+)\*\*/g,
       /Key\s+(?:insight|finding|point)s?:?\s*([^\n]+)/gi,
     ];
 

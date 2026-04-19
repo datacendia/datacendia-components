@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIARESONANCEÃ¢â€žÂ¢ - CORPORATE COMMUNICATIONS INTELLIGENCE
+// CENDIARESONANCE™ - CORPORATE COMMUNICATIONS INTELLIGENCE
 // "The Narrative Control" - AI-powered internal/external communications
 // =============================================================================
 
@@ -38,7 +38,7 @@ class CendiaResonanceService {
   private calendars: Map<string, ContentCalendar> = new Map();
 
   constructor() {
-    logger.info('CendiaResonanceÃ¢â€žÂ¢ initialized - Narrative Control is active');
+    logger.info('CendiaResonance™ initialized - Narrative Control is active');
 
 
     this.loadFromDB().catch(() => {});
@@ -78,7 +78,7 @@ class CendiaResonanceService {
     const campaign = this.campaigns.get(campaignId);
     if (!campaign) throw new Error('Campaign not found');
 
-    const prompt = `You are CendiaResonanceÃ¢â€žÂ¢, a corporate communications AI.
+    const prompt = `You are CendiaResonance™, a corporate communications AI.
 
 Generate a ${campaign.type} communication message.
 
@@ -175,7 +175,7 @@ Generate appropriate messaging in JSON:
   // ---------------------------------------------------------------------------
 
   async measureBelief(topic: string, targetAudience: string, sampleData?: any): Promise<BeliefMetric> {
-    const prompt = `You are CendiaResonanceÃ¢â€žÂ¢, measuring organizational belief/sentiment.
+    const prompt = `You are CendiaResonance™, measuring organizational belief/sentiment.
 
 TOPIC: ${topic}
 TARGET AUDIENCE: ${targetAudience}
@@ -241,7 +241,7 @@ Analyze and provide belief metrics in JSON:
   // ---------------------------------------------------------------------------
 
   async detectLeakPatterns(content: string, metadata?: any): Promise<LeakPattern[]> {
-    const prompt = `You are CendiaResonanceÃ¢â€žÂ¢, detecting potential information leaks.
+    const prompt = `You are CendiaResonance™, detecting potential information leaks.
 
 CONTENT TO ANALYZE:
 ${content.substring(0, 2000)}
@@ -364,7 +364,7 @@ Analyze for leak patterns and respond in JSON:
     const crisis = this.crisisResponses.get(crisisId);
     if (!crisis) throw new Error('Crisis not found');
 
-    const prompt = `You are CendiaResonanceÃ¢â€žÂ¢, generating a crisis holding statement.
+    const prompt = `You are CendiaResonance™, generating a crisis holding statement.
 
 CRISIS TYPE: ${crisis.crisisType}
 SEVERITY: ${crisis.severity}
@@ -469,7 +469,7 @@ Respond in JSON:
   // ---------------------------------------------------------------------------
 
   async analyzeNarrative(topic: string, desiredNarrative: string): Promise<NarrativeAnalysis> {
-    const prompt = `You are CendiaResonanceÃ¢â€žÂ¢, analyzing corporate narrative positioning.
+    const prompt = `You are CendiaResonance™, analyzing corporate narrative positioning.
 
 TOPIC: ${topic}
 DESIRED NARRATIVE: ${desiredNarrative}
@@ -681,11 +681,11 @@ Analyze the narrative landscape and provide in JSON:
 
     const insights: string[] = [];
     const activeCrises = crises.filter(c => c.status !== 'resolved' && c.status !== 'post_mortem');
-    if (activeCrises.length > 0) insights.push(`${activeCrises.length} active crisis(es) Ã¢â‚¬â€ ensure all stakeholders are informed`);
-    if (leakSeverity.critical > 0 || leakSeverity.high > 0) insights.push(`${leakSeverity.critical + leakSeverity.high} high/critical leak pattern(s) detected Ã¢â‚¬â€ immediate action required`);
-    if (totalMsgs > 0 && publishedMsgs / totalMsgs < 0.3) insights.push(`Only ${Math.round((publishedMsgs / totalMsgs) * 100)}% of messages published Ã¢â‚¬â€ review approval pipeline`);
+    if (activeCrises.length > 0) insights.push(`${activeCrises.length} active crisis(es) — ensure all stakeholders are informed`);
+    if (leakSeverity.critical > 0 || leakSeverity.high > 0) insights.push(`${leakSeverity.critical + leakSeverity.high} high/critical leak pattern(s) detected — immediate action required`);
+    if (totalMsgs > 0 && publishedMsgs / totalMsgs < 0.3) insights.push(`Only ${Math.round((publishedMsgs / totalMsgs) * 100)}% of messages published — review approval pipeline`);
     const draftCampaigns = campaigns.filter(c => c.status === 'draft');
-    if (draftCampaigns.length > 3) insights.push(`${draftCampaigns.length} draft campaigns Ã¢â‚¬â€ review and launch or archive`);
+    if (draftCampaigns.length > 3) insights.push(`${draftCampaigns.length} draft campaigns — review and launch or archive`);
     if (insights.length === 0) insights.push('Communications operations are running smoothly');
 
     return {
@@ -781,10 +781,10 @@ Analyze the narrative landscape and provide in JSON:
       .slice(0, 5);
 
     const insights: string[] = [];
-    if (missedMs > 0) insights.push(`${missedMs} milestone(s) missed across campaigns Ã¢â‚¬â€ review timelines`);
+    if (missedMs > 0) insights.push(`${missedMs} milestone(s) missed across campaigns — review timelines`);
     const lowEngagement = campaignPerformance.filter(c => c.status === 'active' && c.metrics.engagement < 10 && c.metrics.reach > 0);
-    if (lowEngagement.length > 0) insights.push(`${lowEngagement.length} active campaign(s) with low engagement despite reach Ã¢â‚¬â€ review messaging`);
-    if (totalMsgCount > 0 && Object.keys(toneMap).length === 1) insights.push('All messages use the same tone Ã¢â‚¬â€ consider varying tone by audience and channel');
+    if (lowEngagement.length > 0) insights.push(`${lowEngagement.length} active campaign(s) with low engagement despite reach — review messaging`);
+    if (totalMsgCount > 0 && Object.keys(toneMap).length === 1) insights.push('All messages use the same tone — consider varying tone by audience and channel');
     if (insights.length === 0) insights.push('Campaign performance metrics are healthy');
 
     return {
@@ -875,10 +875,10 @@ Analyze the narrative landscape and provide in JSON:
 
     const insights: string[] = [];
     if (active.length > 0) insights.push(`${active.length} active crisis(es) require attention`);
-    if (totalStakeholders > 0 && contacted / totalStakeholders < 0.5) insights.push(`Only ${Math.round((contacted / totalStakeholders) * 100)}% of stakeholders contacted Ã¢â‚¬â€ accelerate outreach`);
-    if (pending > 0) insights.push(`${pending} media inquiry(ies) pending response Ã¢â‚¬â€ address before deadline`);
-    if (misinfo > 0) insights.push(`${misinfo} misinformation item(s) detected Ã¢â‚¬â€ prepare counter-narrative`);
-    if (totalStatements > 0 && approvedStatements / totalStatements < 0.5) insights.push('Low holding statement approval rate Ã¢â‚¬â€ expedite review process');
+    if (totalStakeholders > 0 && contacted / totalStakeholders < 0.5) insights.push(`Only ${Math.round((contacted / totalStakeholders) * 100)}% of stakeholders contacted — accelerate outreach`);
+    if (pending > 0) insights.push(`${pending} media inquiry(ies) pending response — address before deadline`);
+    if (misinfo > 0) insights.push(`${misinfo} misinformation item(s) detected — prepare counter-narrative`);
+    if (totalStatements > 0 && approvedStatements / totalStatements < 0.5) insights.push('Low holding statement approval rate — expedite review process');
     if (insights.length === 0) insights.push('Crisis management posture is strong');
 
     return {
@@ -964,11 +964,11 @@ Analyze the narrative landscape and provide in JSON:
     const topicCount = allBeliefs.length || 1;
 
     const insights: string[] = [];
-    if (declining > 0) insights.push(`${declining} topic(s) showing declining belief scores Ã¢â‚¬â€ investigate and address`);
-    if (negative > positive && allBeliefs.length > 0) insights.push('More negative than positive belief topics Ã¢â‚¬â€ review communications strategy');
+    if (declining > 0) insights.push(`${declining} topic(s) showing declining belief scores — investigate and address`);
+    if (negative > positive && allBeliefs.length > 0) insights.push('More negative than positive belief topics — review communications strategy');
     const uncontrollableDrivers = Object.values(driverMap).filter(d => !d.controllable && d.totalImpact < -50);
-    if (uncontrollableDrivers.length > 0) insights.push(`${uncontrollableDrivers.length} high-impact uncontrollable factor(s) Ã¢â‚¬â€ develop mitigation strategies`);
-    if (leaks.length > 0 && resolvedLeaks / leaks.length < 0.5) insights.push(`Only ${Math.round((resolvedLeaks / leaks.length) * 100)}% of leak patterns resolved Ã¢â‚¬â€ prioritize containment`);
+    if (uncontrollableDrivers.length > 0) insights.push(`${uncontrollableDrivers.length} high-impact uncontrollable factor(s) — develop mitigation strategies`);
+    if (leaks.length > 0 && resolvedLeaks / leaks.length < 0.5) insights.push(`Only ${Math.round((resolvedLeaks / leaks.length) * 100)}% of leak patterns resolved — prioritize containment`);
     if (insights.length === 0) insights.push('Narrative and belief metrics are healthy');
 
     return {

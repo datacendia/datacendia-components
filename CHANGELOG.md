@@ -287,7 +287,7 @@ Wired 16 remaining frontend pages from static/demo data to real backend API call
 #### Mojibake / Encoding Fix — Platform-Wide
 - **793+ double-encoded UTF-8 sequences fixed** across 20+ frontend files
 - Root cause: UTF-8 bytes misinterpreted as Windows-1252, then re-saved as UTF-8
-- Fixed patterns: `â„¢` → `™`, `â€"` → `—`, `â†'` → `→`, `â€¢` → `•`, `Â©` → `©`
+- Fixed patterns: `—"¢` → `™`, `""` → `—`, `—†'` → `→`, `"¢` → `•`, `©` → `©`
 - Fixed emoji icons: 🏛️, 🤖, 🔌, 🚨, ⚖️, 🚫, and 40+ more across all pages
 - Affected pages: HonestyMatricesPage, SovereignLandingPage, ChronosPage, ProductPage, MeshPage, HorizonPage, TransportationLogisticsPage, RegulatoryAbsorbPage, SettingsPage, AutopilotPage, FIFAGovernanceScenariosPage, PreMortemPage, LiveAgentMonitorPage, BlogPage, ChangelogPage, DocsPage, SecurityPage, SupportPage, MarketingLayout, Toast component
 - **Zero mojibake remaining** in `src/` — confirmed via exhaustive grep

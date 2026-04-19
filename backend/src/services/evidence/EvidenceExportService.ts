@@ -763,13 +763,13 @@ export class EvidenceExportService extends EventEmitter {
 
   private generateCoverPage(request: ExportRequest, dateRange: { from: Date; to: Date }): string {
     return `
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
 
                     DATACENDIA EVIDENCE BUNDLE
 
                     ${request.title.toUpperCase()}
 
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
 
 BUNDLE TYPE:        ${request.type.toUpperCase()}
 PURPOSE:            ${request.purpose}
@@ -782,7 +782,7 @@ EVIDENCE PERIOD:
   From:             ${dateRange.from.toISOString()}
   To:               ${dateRange.to.toISOString()}
 
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 
 LEGAL NOTICE:
 This evidence bundle contains digitally signed records that form an
@@ -792,7 +792,7 @@ to previous records, making tampering detectable.
 All signatures can be verified using the public keys included in
 this bundle under the '06-keys' directory.
 
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 
 VERIFICATION:
 To verify the integrity of this bundle:
@@ -801,14 +801,14 @@ To verify the integrity of this bundle:
 3. Verify chain integrity using chain-verification.json
 4. Verify individual record signatures using ledger-public-key.pem
 
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
     `.trim();
   }
 
   private generateTableOfContents(request: ExportRequest): string {
     return `
 TABLE OF CONTENTS
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 
 01-cover/
     cover-page.txt              Cover page and legal notice
@@ -856,35 +856,35 @@ MANIFEST.json                   Complete file manifest with hashes
     
     return `
 EXECUTIVE SUMMARY
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
 
 EVIDENCE OVERVIEW
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 Total Evidence Entries:     ${stats.totalEntries}
 Entries in Period:          ${entries.length}
 Chain Length:               ${stats.chainLength}
 All Entries Signed:         ${entries.every(e => e.signature) ? 'YES' : 'NO'}
 
 TEST RESULTS
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 Tests Passed:               ${passed}
 Tests Failed:               ${failed}
 Pass Rate:                  ${passRate}%
 
 COMPLIANCE STATUS
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 Frameworks Tracked:         ${dashboardData.frameworks.length}
 Overall Audit Readiness:    ${dashboardData.auditReadiness}%
 Critical Gaps:              ${dashboardData.criticalGaps.length}
 
 FRAMEWORK SCORES
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 ${dashboardData.scores.map(s => 
   `${s.frameworkName.padEnd(25)} ${s.overallScore}% (${s.overallStatus})`
 ).join('\n')}
 
 CHAIN INTEGRITY
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 The evidence ledger maintains a cryptographic hash chain where each
 entry includes the hash of the previous entry. This ensures that:
 - Any tampering is immediately detectable
@@ -893,7 +893,7 @@ entry includes the hash of the previous entry. This ensures that:
 
 All entries are digitally signed using RSA-SHA256.
 
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
 Generated: ${new Date().toISOString()}
     `.trim();
   }
@@ -901,7 +901,7 @@ Generated: ${new Date().toISOString()}
   private generateTestDetails(entries: LedgerEntry[]): string {
     const lines = [
       'TEST EXECUTION DETAILS',
-      'â•'.repeat(80),
+      '—•'.repeat(80),
       '',
     ];
     
@@ -915,7 +915,7 @@ Generated: ${new Date().toISOString()}
       lines.push(`Executed: ${entry.execution.executedAt}`);
       lines.push(`Entry Hash: ${entry.entryHash}`);
       lines.push(`Signed: ${entry.signature ? 'YES' : 'NO'}`);
-      lines.push('â”€'.repeat(80));
+      lines.push('—”€'.repeat(80));
       lines.push('');
     }
     
@@ -929,7 +929,7 @@ Generated: ${new Date().toISOString()}
   private generateComplianceSummary(dashboardData: Awaited<ReturnType<ComplianceDashboardService['getDashboardData']>>): string {
     const lines = [
       'COMPLIANCE SUMMARY',
-      'â•'.repeat(80),
+      '—•'.repeat(80),
       '',
       `Generated: ${new Date().toISOString()}`,
       `Overall Audit Readiness: ${dashboardData.auditReadiness}%`,
@@ -937,9 +937,9 @@ Generated: ${new Date().toISOString()}
     ];
     
     for (const score of dashboardData.scores) {
-      lines.push('â”€'.repeat(80));
+      lines.push('—”€'.repeat(80));
       lines.push(`FRAMEWORK: ${score.frameworkName}`);
-      lines.push('â”€'.repeat(80));
+      lines.push('—”€'.repeat(80));
       lines.push(`Overall Score: ${score.overallScore}%`);
       lines.push(`Status: ${score.overallStatus.toUpperCase()}`);
       lines.push(`Trend: ${score.trend}`);
@@ -958,9 +958,9 @@ Generated: ${new Date().toISOString()}
     }
     
     if (dashboardData.criticalGaps.length > 0) {
-      lines.push('â”€'.repeat(80));
+      lines.push('—”€'.repeat(80));
       lines.push('CRITICAL GAPS REQUIRING ATTENTION:');
-      lines.push('â”€'.repeat(80));
+      lines.push('—”€'.repeat(80));
       for (const gap of dashboardData.criticalGaps) {
         lines.push(`- ${gap.controlId}: ${gap.controlName}`);
         lines.push(`  Type: ${gap.gapType}`);
@@ -975,13 +975,13 @@ Generated: ${new Date().toISOString()}
   private generateVerificationInstructions(): string {
     return `
 EVIDENCE VERIFICATION INSTRUCTIONS
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
 
 This document explains how to verify the integrity and authenticity
 of the evidence contained in this bundle.
 
 1. VERIFY MANIFEST INTEGRITY
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 The MANIFEST.json file contains SHA-256 hashes of all files.
 To verify a file has not been modified:
 
@@ -990,7 +990,7 @@ To verify a file has not been modified:
   3. All hashes must match exactly
 
 2. VERIFY BUNDLE SIGNATURE
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 The bundle itself is signed. To verify:
 
   1. Load 06-keys/export-public-key.pem
@@ -998,7 +998,7 @@ The bundle itself is signed. To verify:
   3. Signature is in bundle metadata
 
 3. VERIFY EVIDENCE CHAIN
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 Each ledger entry contains:
   - previousHash: Hash of previous entry
   - dataHash: Hash of execution data
@@ -1013,7 +1013,7 @@ To verify the chain:
   5. Verify signature using ledger-public-key.pem
 
 4. VERIFY INDIVIDUAL ENTRIES
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 For any specific entry:
 
   import crypto from 'crypto';
@@ -1025,10 +1025,10 @@ For any specific entry:
   }
 
 5. VERIFY REPORT SIGNATURES
-${'â”€'.repeat(80)}
+${'—”€'.repeat(80)}
 Reports in 03-reports/ are signed. Verify using report-public-key.pem.
 
-${'â•'.repeat(80)}
+${'—•'.repeat(80)}
 For technical assistance, contact: evidence@datacendia.com
     `.trim();
   }

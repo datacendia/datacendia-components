@@ -18,7 +18,7 @@
  * Datacendia = "Decision Evidence Engine for Finance"
  * 
  * Killer Asset: Regulator-grade decision replay
- * (inputs ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ deliberation ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ approval ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ dissent)
+ * (inputs → deliberation → approval → dissent)
  */
 
 import { v4 as uuidv4 } from 'uuid';
@@ -1321,7 +1321,7 @@ export class AutomotiveDefensibleOutput extends DefensibleOutput<AutomotiveDecis
 export class AutomotiveVerticalImplementation implements VerticalImplementation<AutomotiveDecision> {
   readonly verticalId = 'Automotive';
   readonly verticalName = 'Automotive Manufacturing';
-  readonly completionPercentage = 100; // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ COMPLETE - All 6 layers fully implemented
+  readonly completionPercentage = 100; // —Å"… COMPLETE - All 6 layers fully implemented
   readonly targetPercentage = 100;
 
   readonly dataConnector: AutomotiveDataConnector;
@@ -1377,12 +1377,12 @@ export class AutomotiveVerticalImplementation implements VerticalImplementation<
     return {
       vertical: this.verticalName,
       layers: {
-        dataConnector: true, // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Structure complete, client provides connections
-        knowledgeBase: true, // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Complete with provenance enforcement
-        complianceMapper: true, // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ 6 frameworks: Basel III/IV, SR 11-7, AML-BSA, MiFID II, Dodd-Frank
-        decisionSchemas: true, // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ 4 schemas: Credit, Trade, AML, Rebalance
-        agentPresets: true, // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ 4 presets: Credit, Trade, AML, Rebalance workflows
-        defensibleOutput: true // ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Regulator packets, court bundles, audit trails
+        dataConnector: true, // —Å"… Structure complete, client provides connections
+        knowledgeBase: true, // —Å"… Complete with provenance enforcement
+        complianceMapper: true, // —Å"… 6 frameworks: Basel III/IV, SR 11-7, AML-BSA, MiFID II, Dodd-Frank
+        decisionSchemas: true, // —Å"… 4 schemas: Credit, Trade, AML, Rebalance
+        agentPresets: true, // —Å"… 4 presets: Credit, Trade, AML, Rebalance workflows
+        defensibleOutput: true // —Å"… Regulator packets, court bundles, audit trails
       },
       completionPercentage: this.completionPercentage,
       missingComponents: missing

@@ -52,6 +52,7 @@ import {
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { DemoDataBanner } from '@/components/common/DemoDataBanner';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Progress } from '@/components/ui/progress';
@@ -629,6 +630,7 @@ export default function FIFAGovernanceScenariosPage() {
 
   return (
     <div className="container mx-auto py-6 space-y-6 max-w-6xl">
+      <DemoDataBanner variant="walkthrough" />
       {selectedScenario ? (
         <ScenarioDetail
           scenario={selectedScenario}

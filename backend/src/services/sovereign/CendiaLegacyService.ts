@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA LEGACYÃ¢â€žÂ¢ - Knowledge Archive Service
+// CENDIA LEGACY™ - Knowledge Archive Service
 // "The eternal memory of your enterprise."
 // Sovereign Organ Layer - Knowledge & Continuity
 // =============================================================================

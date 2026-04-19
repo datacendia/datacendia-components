@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA DATA DIODEâ„¢ - UNIDIRECTIONAL SOVEREIGN DATA INGEST
+// CENDIA DATA DIODE—„¢ - UNIDIRECTIONAL SOVEREIGN DATA INGEST
 // "We never make outbound calls. Data flows in, never out."
 //
 // Enterprise-grade one-way data ingestion for air-gapped environments.

@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaResponsibilityâ„¢ - Human Accountability Layer
+ * CendiaResponsibility—„¢ - Human Accountability Layer
  * 
  * Converts AI risk into executive liability by creating explicit,
  * cryptographically signed records of human decision authority.
@@ -637,7 +637,7 @@ export class CendiaResponsibilityService {
       ? Math.round(orgRecords.reduce((sum, r) => sum + r.acceptedRisks.length, 0) / uniqueDecisions.size * 10) / 10
       : 0;
 
-    // Chain integrity â€” verify hash chains for each decision
+    // Chain integrity — verify hash chains for each decision
     let validChains = 0;
     let totalChains = 0;
     for (const decisionId of uniqueDecisions) {
@@ -647,7 +647,7 @@ export class CendiaResponsibilityService {
     }
     const chainIntegrityScore = totalChains > 0 ? Math.round((validChains / totalChains) * 100) : 100;
 
-    // Coverage â€” are all decisions covered by at least one non-DEFER action?
+    // Coverage — are all decisions covered by at least one non-DEFER action?
     let coveredDecisions = 0;
     for (const decisionId of uniqueDecisions) {
       const hasSubstantive = orgRecords.some(r => r.decisionId === decisionId && r.actionTaken !== 'DEFER');
@@ -702,10 +702,10 @@ export class CendiaResponsibilityService {
       : coverageScore >= 90 && chainIntegrityScore >= 95 ? 'EXCELLENT' : 'GOOD';
 
     const recommendations: string[] = [];
-    if (chainIntegrityScore < 100) recommendations.push(`${totalChains - validChains} chain(s) have integrity issues â€” investigate tampered records`);
+    if (chainIntegrityScore < 100) recommendations.push(`${totalChains - validChains} chain(s) have integrity issues — investigate tampered records`);
     if (coverageScore < 80) recommendations.push(`${uniqueDecisions.size - coveredDecisions} decision(s) lack substantive human accountability`);
-    if (overrideRate > 0.3) recommendations.push(`High override rate (${Math.round(overrideRate * 100)}%) â€” review AI recommendation quality`);
-    if (deferRate > 0.3) recommendations.push(`High deferral rate (${Math.round(deferRate * 100)}%) â€” ensure decisions aren't stalling`);
+    if (overrideRate > 0.3) recommendations.push(`High override rate (${Math.round(overrideRate * 100)}%) — review AI recommendation quality`);
+    if (deferRate > 0.3) recommendations.push(`High deferral rate (${Math.round(deferRate * 100)}%) — ensure decisions aren't stalling`);
     if (recommendations.length === 0) recommendations.push('Accountability posture is strong');
 
     const activeDelegations = Array.from(this.delegations.values())
@@ -814,7 +814,7 @@ export class CendiaResponsibilityService {
     if (overridesByAuthority.length > 0 && overridesByAuthority[0].percentage > 50) {
       insights.push(`${overridesByAuthority[0].name} accounts for ${overridesByAuthority[0].percentage}% of all overrides`);
     }
-    if (overrides.length === 0) insights.push('No overrides recorded â€” AI recommendations are being followed or decisions are being deferred');
+    if (overrides.length === 0) insights.push('No overrides recorded — AI recommendations are being followed or decisions are being deferred');
 
     return {
       totalOverrides: overrides.length,
@@ -900,7 +900,7 @@ export class CendiaResponsibilityService {
           type: 'OVER_BROAD_SCOPE',
           severity: 'medium',
           delegationId: d.id,
-          description: `Delegation scope includes ${d.scope.length} items â€” may be too broad`,
+          description: `Delegation scope includes ${d.scope.length} items — may be too broad`,
           recommendation: 'Narrow scope to specific decision categories',
         });
       }
@@ -987,7 +987,7 @@ export class CendiaResponsibilityService {
         category: category as FailureCategory,
         count,
         percentage: allRisks.length > 0 ? Math.round((count / allRisks.length) * 100) : 0,
-        trend: 'stable' as const, // Simplified â€” would need historical data for real trending
+        trend: 'stable' as const, // Simplified — would need historical data for real trending
       }));
 
     // Risk tolerance assessment
@@ -1020,16 +1020,16 @@ export class CendiaResponsibilityService {
 
     const insights: string[] = [];
     if (riskTolerance === 'AGGRESSIVE') {
-      insights.push('Organization shows high risk tolerance â€” ensure risk acceptance is conscious and well-governed');
+      insights.push('Organization shows high risk tolerance — ensure risk acceptance is conscious and well-governed');
     }
     if (isConcentrated && topEntry) {
-      insights.push(`Risk concentration in ${topEntry.category} (${topEntry.percentage}%) â€” diversify risk awareness`);
+      insights.push(`Risk concentration in ${topEntry.category} (${topEntry.percentage}%) — diversify risk awareness`);
     }
     if (uniqueCategories.size === 0) {
-      insights.push('No risk categories on record â€” begin documenting risk acceptance for accountability');
+      insights.push('No risk categories on record — begin documenting risk acceptance for accountability');
     }
     if (allRisks.length > 0 && !allRisks.includes('LEGAL_LIABILITY')) {
-      insights.push('No legal liability risks documented â€” consider whether legal exposure has been adequately assessed');
+      insights.push('No legal liability risks documented — consider whether legal exposure has been adequately assessed');
     }
 
     return {

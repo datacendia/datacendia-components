@@ -10,7 +10,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA UNIONÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - API ROUTES
+// CENDIA UNION—"¢ - API ROUTES
 // Employee Rights & Advocacy Module endpoints
 // =============================================================================
 

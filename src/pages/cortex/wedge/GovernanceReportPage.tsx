@@ -1,8 +1,8 @@
-﻿/**
- * Page â€” AI Governance Report Generator
+/**
+ * Page — AI Governance Report Generator
  *
  * Wedge 2: Generate a board-ready AI governance report in 10 minutes.
- * Multi-step questionnaire â†’ comprehensive compliance report â†’ PDF export.
+ * Multi-step questionnaire → comprehensive compliance report → PDF export.
  *
  * @exports GovernanceReportPage
  * @module pages/cortex/wedge/GovernanceReportPage
@@ -130,7 +130,7 @@ interface Report {
 // =============================================================================
 
 const INDUSTRIES = ['Financial Services', 'Healthcare', 'Legal', 'Technology', 'Manufacturing', 'Government', 'Defense', 'Retail', 'Insurance', 'Pharmaceutical'];
-const REVENUES = ['Under $10M', '$10Mâ€“$50M', '$50Mâ€“$250M', '$250Mâ€“$1B', 'Over $1B'];
+const REVENUES = ['Under $10M', '$10M–$50M', '$50M–$250M', '$250M–$1B', 'Over $1B'];
 const REGIONS = ['North America', 'EU/EEA', 'UK', 'Asia-Pacific', 'Latin America', 'Middle East', 'Africa'];
 const USE_CASES = ['Customer Service Chatbot', 'Document Analysis', 'Code Generation', 'Data Analysis', 'Content Creation', 'Fraud Detection', 'Risk Assessment', 'HR Screening', 'Medical Diagnosis', 'Legal Research', 'Financial Modeling', 'Image/Video Analysis'];
 const AI_PROVIDERS = ['OpenAI', 'Anthropic', 'Google AI', 'Microsoft Azure AI', 'AWS Bedrock', 'Ollama (Local)', 'Meta Llama', 'Mistral', 'Cohere', 'Custom/Internal'];
@@ -144,7 +144,7 @@ const QuestionnaireWizard: React.FC<{ onSubmit: (q: Questionnaire) => void; load
   const [step, setStep] = useState(0);
   const [q, setQ] = useState<Questionnaire>({
     organizationName: '', industry: 'Financial Services', employeeCount: 500,
-    annualRevenue: '$50Mâ€“$250M', regions: ['North America'], contactEmail: '', contactName: '',
+    annualRevenue: '$50M–$250M', regions: ['North America'], contactEmail: '', contactName: '',
     aiSystemCount: 5, aiUseCases: [], aiProviders: [],
     hasAIPolicy: false, hasAIInventory: false, hasAIRiskAssessment: false,
     hasHumanOversight: false, hasAuditTrail: false,
@@ -363,7 +363,7 @@ const ReportView: React.FC<{ report: Report; onNew: () => void }> = ({ report, o
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold text-white">AI Governance Report</h1>
-          <p className="text-gray-500 mt-1">{report.organizationName} Â· {new Date(report.generatedAt).toLocaleDateString()} Â· <span className="font-mono">{report.reportId}</span></p>
+          <p className="text-gray-500 mt-1">{report.organizationName} · {new Date(report.generatedAt).toLocaleDateString()} · <span className="font-mono">{report.reportId}</span></p>
         </div>
         <div className="flex gap-3">
           <button onClick={onNew} className="flex items-center gap-2 px-4 py-2 rounded-lg bg-sovereign-card border border-sovereign-border text-gray-300 hover:text-white transition-colors">New Report</button>
@@ -568,7 +568,7 @@ const ReportView: React.FC<{ report: Report; onNew: () => void }> = ({ report, o
         <h3 className="text-2xl font-bold text-white mb-3">Want Continuous AI Governance Monitoring?</h3>
         <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
           This report is a point-in-time snapshot. Datacendia provides continuous compliance monitoring,
-          automated audit trails, and real-time risk scoring â€” keeping your governance posture current.
+          automated audit trails, and real-time risk scoring — keeping your governance posture current.
         </p>
         <button className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-colors inline-flex items-center gap-2">
           <Shield className="w-5 h-5" /> Schedule a Demo

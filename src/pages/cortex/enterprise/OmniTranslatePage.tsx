@@ -206,7 +206,7 @@ const LANGUAGES: Language[] = [
   { code: 'bs', name: 'Bosnian', nativeName: 'Bosanski', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 91 },
   { code: 'mk', name: 'Macedonian', nativeName: 'Македонски', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 89 },
   { code: 'bg', name: 'Bulgarian', nativeName: 'Български', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 92 },
-  { code: 'ro', name: 'Romanian', nativeName: 'Română', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 93 },
+  { code: 'ro', name: 'Romanian', nativeName: 'Rom—nă', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 93 },
   { code: 'hu', name: 'Hungarian', nativeName: 'Magyar', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 92 },
   { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 93 },
   { code: 'sq', name: 'Albanian', nativeName: 'Shqip', region: 'Europe', supported: ['document', 'meeting', 'email', 'chat', 'voice', 'website'], qualityScore: 88 },

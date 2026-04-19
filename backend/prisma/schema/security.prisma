@@ -20,8 +20,8 @@ model crucible_simulations {
   completed_at          DateTime?
   results_summary       Json?
 
-  organizations         organizations                    @relation(fields: [organization_id], references: [id])
-  users                 users                            @relation(fields: [created_by], references: [id])
+  organizations         organizations                    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  users                 users                            @relation(fields: [created_by], references: [id], onDelete: Restrict)
   universes             crucible_universes[]
   impacts               crucible_impacts[]
   council_deliberations crucible_council_deliberations[]
@@ -128,7 +128,7 @@ model crucible_redteam_reports {
   signed_by              String?
   created_at             DateTime  @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, completed_at])
   @@index([security_score])
@@ -152,7 +152,7 @@ model crucible_sbom {
   signed_at       DateTime?
   created_at      DateTime  @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, created_at])
 }
@@ -170,7 +170,7 @@ model crucible_runtime_events {
   mitigated_by    String?
   created_at      DateTime         @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, event_type])
   @@index([severity, mitigated])
@@ -192,7 +192,7 @@ model aegis_signals {
   processed_at       DateTime        @default(now())
   created_at         DateTime        @default(now())
 
-  organization       organizations   @relation(fields: [organization_id], references: [id])
+  organization       organizations   @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   threat_assessments aegis_threats[]
 
   @@index([organization_id, signal_type])
@@ -220,8 +220,8 @@ model aegis_threats {
   mitigated_at    DateTime?
   created_at      DateTime          @default(now())
 
-  organization    organizations           @relation(fields: [organization_id], references: [id])
-  signal          aegis_signals?          @relation(fields: [signal_id], references: [id])
+  organization    organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  signal          aegis_signals?          @relation(fields: [signal_id], references: [id], onDelete: SetNull)
   scenarios       aegis_scenarios[]
   countermeasures aegis_countermeasures[]
   briefings       aegis_briefings[]
@@ -288,8 +288,8 @@ model aegis_briefings {
   sent_at           DateTime?
   created_at        DateTime            @default(now())
 
-  organization organizations  @relation(fields: [organization_id], references: [id])
-  threat       aegis_threats? @relation(fields: [threat_id], references: [id])
+  organization organizations  @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  threat       aegis_threats? @relation(fields: [threat_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([briefing_type])
@@ -717,7 +717,7 @@ model ledger_entries {
   block_number    Int?
   created_at      DateTime @default(now())
 
-  ledger_block    ledger_blocks? @relation(fields: [block_number], references: [block_number])
+  ledger_block ledger_blocks? @relation(fields: [block_number], references: [block_number], onDelete: Restrict)
 
   @@index([organization_id, created_at])
   @@index([event_type])
@@ -736,7 +736,7 @@ model ledger_blocks {
   witness             String?
   created_at          DateTime @default(now())
 
-  entries             ledger_entries[]
+  entries ledger_entries[]
 
   @@index([merkle_root])
 }

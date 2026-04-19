@@ -80,7 +80,7 @@ model organizations {
   apotheosis_configs      apotheosis_configs?
 
   // Dissent - Protected Disagreement
-  dissents           dissents[]
+  dissents dissents[]
   // REMOVED: dissent_metrics, dissenter_profiles (models not defined)
 
   // OmniTranslate - 100+ Language Translation
@@ -111,19 +111,19 @@ model organizations {
   // REMOVED: sports_contract_decisions (model not defined)
 
   // DCII - Decision Crisis Immunization Infrastructure
-  dcii_iiss_scores                dcii_iiss_scores[]
-  dcii_media_assets               dcii_media_assets[]
-  dcii_jurisdiction_assessments   dcii_jurisdiction_assessments[]
-  dcii_timestamp_tokens           dcii_timestamp_tokens[]
-  dcii_similarity_decisions       dcii_similarity_decisions[]
+  dcii_iiss_scores              dcii_iiss_scores[]
+  dcii_media_assets             dcii_media_assets[]
+  dcii_jurisdiction_assessments dcii_jurisdiction_assessments[]
+  dcii_timestamp_tokens         dcii_timestamp_tokens[]
+  dcii_similarity_decisions     dcii_similarity_decisions[]
 
   // Evidence Vault - Decision Packet Management
-  evidence_vault_packets          evidence_vault_packets[]
+  evidence_vault_packets evidence_vault_packets[]
 
   // REMOVED: sso_identity_providers (model not defined)
 
   // CendiaGateway - AI Governance Gateway
-  gateway_interactions  gateway_interactions[]
+  gateway_interactions gateway_interactions[]
   // REMOVED: gateway_policies, gateway_manifests (models not defined — gateway_interactions is standalone)
 
   // Webhooks - API event notifications
@@ -175,7 +175,7 @@ model teams {
   created_at      DateTime       @default(now())
   updated_at      DateTime
   team_members    team_members[]
-  organizations   organizations  @relation(fields: [organization_id], references: [id])
+  organizations   organizations  @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 }
 
 model translations {
@@ -226,7 +226,7 @@ model users {
   metric_definitions       metric_definitions[]
   sessions                 sessions[]
   team_members             team_members[]
-  organizations            organizations          @relation(fields: [organization_id], references: [id])
+  organizations            organizations          @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   crucible_simulations     crucible_simulations[]
   eternal_artifacts        eternal_artifacts[]
 

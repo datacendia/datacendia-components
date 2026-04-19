@@ -128,56 +128,56 @@ const CONNECTOR_CONFIGS: Record<DemoConnectorType, {
 }> = {
   salesforce: {
     name: 'Salesforce',
-    icon: 'SF',
+    icon: '☁️',
     scopes: ['api', 'read_only'],
     dataTypes: ['opportunities', 'accounts', 'contacts', 'leads'],
     authUrl: 'https://login.salesforce.com/services/oauth2/authorize',
   },
   hubspot: {
     name: 'HubSpot',
-    icon: 'HS',
+    icon: '🧲',
     scopes: ['crm.objects.contacts.read', 'crm.objects.deals.read'],
     dataTypes: ['deals', 'contacts', 'companies'],
     authUrl: 'https://app.hubspot.com/oauth/authorize',
   },
   slack: {
     name: 'Slack',
-    icon: 'SL',
+    icon: '💬',
     scopes: ['channels:read', 'users:read'],
     dataTypes: ['channels', 'messages', 'users'],
     authUrl: 'https://slack.com/oauth/v2/authorize',
   },
   jira: {
     name: 'Jira',
-    icon: 'JI',
+    icon: '📋',
     scopes: ['read:jira-work', 'read:jira-user'],
     dataTypes: ['issues', 'projects', 'sprints'],
     authUrl: 'https://auth.atlassian.com/authorize',
   },
   github: {
     name: 'GitHub',
-    icon: 'GH',
+    icon: '🐙',
     scopes: ['repo:read', 'org:read'],
     dataTypes: ['repositories', 'issues', 'pull_requests'],
     authUrl: 'https://github.com/login/oauth/authorize',
   },
   google_analytics: {
     name: 'Google Analytics',
-    icon: 'GA',
+    icon: '📊',
     scopes: ['analytics.readonly'],
     dataTypes: ['pageviews', 'sessions', 'conversions'],
     authUrl: 'https://accounts.google.com/o/oauth2/v2/auth',
   },
   stripe: {
     name: 'Stripe',
-    icon: 'ST',
+    icon: '💳',
     scopes: ['read_only'],
     dataTypes: ['subscriptions', 'invoices', 'customers'],
     authUrl: 'https://connect.stripe.com/oauth/authorize',
   },
   zendesk: {
     name: 'Zendesk',
-    icon: 'ZD',
+    icon: '🎫',
     scopes: ['read'],
     dataTypes: ['tickets', 'users', 'satisfaction'],
     authUrl: 'https://your-domain.zendesk.com/oauth/authorizations/new',
@@ -446,7 +446,7 @@ export class LiveDemoModeService extends BaseService {
   }
 
   // ---------------------------------------------------------------------------
-  // CENDIA LIVE DELIBERATION
+  // CendiaLiveÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ DELIBERATION
   // ---------------------------------------------------------------------------
 
   async runLiveDeliberation(request: LiveDemoRequest): Promise<LiveDeliberationResult> {

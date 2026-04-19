@@ -1358,11 +1358,12 @@ router.post('/federation/:id/reports', async (req: Request, res: Response) => {
  */
 router.post('/federation/:id/interaction', async (req: Request, res: Response) => {
   try {
-    const { orgId, blocked, piiDetected, piiTypes, provider } = req.body;
+    const { orgId, blocked, warned, piiDetected, piiTypes, provider } = req.body;
     if (!orgId) return res.status(400).json({ error: 'orgId is required' });
 
     gatewayFederationService.recordInteraction(req.params.id, orgId, {
       blocked: !!blocked,
+      warned: !!warned,
       piiDetected: !!piiDetected,
       piiTypes: piiTypes || [],
       provider: provider || 'unknown',

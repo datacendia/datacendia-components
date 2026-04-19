@@ -55,8 +55,12 @@ module.exports = {
   rules: {
     // TypeScript — auto-removable unused imports/vars via eslint-plugin-unused-imports.
     // The built-in rule is disabled in favor of the plugin's auto-fixable version.
+    // unused-imports/no-unused-imports is an ERROR (auto-fixable: eslint --fix
+    // removes them cleanly). unused-imports/no-unused-vars stays a WARN because
+    // the pre-existing inventory (~236 warnings across the tree) needs a
+    // deliberate cleanup pass before it can safely become CI-blocking.
     '@typescript-eslint/no-unused-vars': 'off',
-    'unused-imports/no-unused-imports': 'warn',
+    'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': ['warn', {
       vars: 'all',
       varsIgnorePattern: '^_',

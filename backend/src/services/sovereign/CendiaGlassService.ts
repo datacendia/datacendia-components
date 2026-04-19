@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA GLASSÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Augmented Reality Integration Service
+// CENDIA GLASS—"¢ - Augmented Reality Integration Service
 // "See your enterprise through new eyes."
 // Sovereign Security Layer - AR Executive Interface
 // =============================================================================

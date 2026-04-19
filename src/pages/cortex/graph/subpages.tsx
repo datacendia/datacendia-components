@@ -18,6 +18,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
+import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 
 // =============================================================================
 // LINEAGE VIEW PAGE
@@ -69,6 +70,7 @@ export const LineageViewPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <div className="flex items-center gap-2 text-sm text-neutral-500 mb-2">
@@ -304,6 +306,7 @@ export const EntityDetailsPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8">
+      <DemoDataBanner />
       {/* Breadcrumb & Header */}
       <div className="flex items-center justify-between mb-6">
         <div>

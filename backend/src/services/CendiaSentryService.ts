@@ -49,7 +49,7 @@ export class CendiaSentryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaSentry] AI GuardrailsÃ¢â€žÂ¢ initialized');
+    this.logger.info('[CendiaSentry] AI Guardrails™ initialized');
   }
 
   async shutdown(): Promise<void> {
@@ -748,7 +748,7 @@ export class CendiaSentryService extends BaseService {
         'toxicity_filter': { threshold: 0.95 }, // Medical terms can look violent
         'hallucination_check': { threshold: 0.4, severity: 'block' }, // Strict on medical claims
         'financial_accuracy': { enabled: false }, // Not relevant
-        'pii_detector': { severity: 'block' }, // HIPAA Ã¢â‚¬â€ always block PII
+        'pii_detector': { severity: 'block' }, // HIPAA — always block PII
       },
       financial: {
         'financial_accuracy': { threshold: 0.6, severity: 'block' }, // Very strict
@@ -1004,7 +1004,7 @@ export class CendiaSentryService extends BaseService {
       timestamp: new Date(),
     });
 
-    this.logger.info(`[Sentry] Correction recorded: ${params.guardrailType} ${originalDecision} Ã¢â€ â€™ ${params.correctedDecision} by ${params.correctedBy}`);
+    this.logger.info(`[Sentry] Correction recorded: ${params.guardrailType} ${originalDecision} —" ' ${params.correctedDecision} by ${params.correctedBy}`);
 
     // Calculate threshold recommendation based on accumulated corrections
     const orgCorrections = this.corrections.get(params.organizationId) || [];
@@ -1016,8 +1016,8 @@ export class CendiaSentryService extends BaseService {
       const config = configs.find(c => c.type === params.guardrailType);
       const currentThreshold = config?.threshold || 0.5;
 
-      // If most corrections say it should have passed Ã¢â€ â€™ raise threshold (less sensitive)
-      // If most corrections say it should have blocked Ã¢â€ â€™ lower threshold (more sensitive)
+      // If most corrections say it should have passed —" ' raise threshold (less sensitive)
+      // If most corrections say it should have blocked —" ' lower threshold (more sensitive)
       const shouldHavePassed = typeCorrections.filter(c => c.correctedDecision === 'PASSED').length;
       const shouldHaveBlocked = typeCorrections.filter(c => c.correctedDecision === 'BLOCKED').length;
 
@@ -1032,7 +1032,7 @@ export class CendiaSentryService extends BaseService {
         currentThreshold,
         recommendedThreshold,
         basedOnCorrections: typeCorrections.length,
-        confidence: Math.min(0.95, typeCorrections.length / 20), // More corrections Ã¢â€ â€™ higher confidence
+        confidence: Math.min(0.95, typeCorrections.length / 20), // More corrections —" ' higher confidence
       };
     }
 
@@ -1126,7 +1126,7 @@ export class CendiaSentryService extends BaseService {
   }
 
   /**
-   * Performance Optimization: Tiered checking Ã¢â‚¬â€ quick scan first, deep scan only if needed.
+   * Performance Optimization: Tiered checking — quick scan first, deep scan only if needed.
    * Reduces processing time by 50-80% for clean content.
    */
   async checkContentTiered(params: {
@@ -1215,7 +1215,7 @@ export class CendiaSentryService extends BaseService {
       return { ...quickCheck, tier: 'QUICK', quickScanMs };
     }
 
-    // TIER 2: Deep scan Ã¢â‚¬â€ run full guardrail suite
+    // TIER 2: Deep scan — run full guardrail suite
     const deepResult = await this.checkContent(params);
 
     return {

@@ -12,8 +12,8 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA REDTEAMâ„¢ - THE SOVEREIGN ADVERSARIAL ENGINE
-// "We hired the smartest attacker on earth and gave them your keys â€” on purpose."
+// CENDIA REDTEAM—„¢ - THE SOVEREIGN ADVERSARIAL ENGINE
+// "We hired the smartest attacker on earth and gave them your keys — on purpose."
 //
 // A fully sovereign, always-on adversarial clone that stress-tests
 // policies, ethics, and strategies 24/7.

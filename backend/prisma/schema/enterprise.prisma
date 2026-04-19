@@ -78,7 +78,7 @@ model enterprise_scheduled_jobs {
   updated_at           DateTime  @updatedAt
 
   executions   enterprise_job_executions[]
-  organization organizations               @relation(fields: [organization_id], references: [id])
+  organization organizations               @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([job_type])
@@ -113,22 +113,22 @@ model enterprise_job_executions {
 // =============================================================================
 
 model insurance_policies {
-  id                String   @id @default(uuid())
-  policy_number     String   @unique
-  organization_id   String
-  coverage_type     String   // errors_omissions, cyber_liability, product_liability, etc.
-  coverage_limit    Float
-  deductible        Float
-  premium           Float
-  risk_score        Float
-  risk_tier         String   // low, medium, high, critical
-  status            String   @default("active") // quoted, bound, active, expired, cancelled, claimed
-  effective_date    DateTime
-  expiration_date   DateTime
-  data              Json     // Full InsurancePolicy object
-  created_by        String
-  created_at        DateTime @default(now())
-  updated_at        DateTime @default(now()) @updatedAt
+  id              String   @id @default(uuid())
+  policy_number   String   @unique
+  organization_id String
+  coverage_type   String // errors_omissions, cyber_liability, product_liability, etc.
+  coverage_limit  Float
+  deductible      Float
+  premium         Float
+  risk_score      Float
+  risk_tier       String // low, medium, high, critical
+  status          String   @default("active") // quoted, bound, active, expired, cancelled, claimed
+  effective_date  DateTime
+  expiration_date DateTime
+  data            Json // Full InsurancePolicy object
+  created_by      String
+  created_at      DateTime @default(now())
+  updated_at      DateTime @default(now()) @updatedAt
 
   claims insurance_claims[]
 
@@ -146,7 +146,7 @@ model insurance_quotes {
   risk_score      Float
   risk_tier       String
   status          String   @default("pending") // pending, accepted, declined, expired
-  data            Json     // Full InsuranceQuote object
+  data            Json // Full InsuranceQuote object
   quoted_at       DateTime @default(now())
   valid_until     DateTime
 
@@ -155,19 +155,19 @@ model insurance_quotes {
 }
 
 model insurance_claims {
-  id              String    @id @default(uuid())
-  claim_number    String    @unique
-  policy_id       String
-  policy_number   String
-  claim_amount    Float
-  claim_type      String
-  status          String    @default("filed") // filed, under_review, approved, denied, paid, closed
-  decision_id     String?
-  data            Json      // Full Claim object
-  filed_at        DateTime  @default(now())
-  resolved_at     DateTime?
+  id            String    @id @default(uuid())
+  claim_number  String    @unique
+  policy_id     String
+  policy_number String
+  claim_amount  Float
+  claim_type    String
+  status        String    @default("filed") // filed, under_review, approved, denied, paid, closed
+  decision_id   String?
+  data          Json // Full Claim object
+  filed_at      DateTime  @default(now())
+  resolved_at   DateTime?
 
-  policy insurance_policies @relation(fields: [policy_id], references: [id])
+  policy insurance_policies @relation(fields: [policy_id], references: [id], onDelete: Restrict)
 
   @@index([policy_id])
   @@index([status])

@@ -15,9 +15,9 @@
 // DRUID EVENT STREAM - Real-time Event Ingestion for Analytics
 // =============================================================================
 // Automatically streams events to Apache Druid for:
-// - CendiaChronosÃ¢â€žÂ¢ (decision timeline)
-// - CendiaWitnessÃ¢â€žÂ¢ (audit trail)
-// - CendiaPulseÃ¢â€žÂ¢ (agent metrics)
+// - CendiaChronos™ (decision timeline)
+// - CendiaWitness™ (audit trail)
+// - CendiaPulse™ (agent metrics)
 // =============================================================================
 
 import { druidService, DRUID_DATASOURCES } from './storage/DruidService';

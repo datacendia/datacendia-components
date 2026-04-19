@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA TIME-LOCKÃ¢â€žÂ¢ - CRYPTOGRAPHIC TIME-LOCK FOR EMBARGOED DECISIONS
+// CENDIA TIME-LOCK™ - CRYPTOGRAPHIC TIME-LOCK FOR EMBARGOED DECISIONS
 // "Enforcing earliest-access under defined compute assumptions."
 //
 // Encrypts sensitive decisions with time-lock cryptography (RSA time-lock puzzles).

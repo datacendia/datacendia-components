@@ -18,6 +18,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn, formatNumber, formatRelativeTime, formatBytes } from '../../../../lib/utils';
+import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 
 // =============================================================================
 // DATA SOURCES PAGE
@@ -93,6 +94,7 @@ export const DataSourcesPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>DATA SOURCES</h1>
@@ -290,6 +292,7 @@ export const DataCatalogPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>DATA CATALOG</h1>
@@ -455,6 +458,7 @@ export const DataQualityPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>DATA QUALITY</h1>
@@ -580,6 +584,7 @@ export const DataImportExportPage: React.FC = () => {
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+      <DemoDataBanner />
       <h1 className="text-2xl mb-6" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>IMPORT / EXPORT</h1>
 
       <div className="grid md:grid-cols-2 gap-6 mb-8">

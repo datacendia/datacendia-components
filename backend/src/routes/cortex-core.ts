@@ -14,7 +14,7 @@ import { logger } from '../utils/logger.js';
 /**
  * Cortex Core API Routes
  * Single gateway for all Services to access organizational data
- * Enforces: Sources â†’ Pillars â†’ Cortex â†’ Services
+ * Enforces: Sources —†’ Pillars —†’ Cortex —†’ Services
  */
 
 import { Router, Request, Response } from 'express';

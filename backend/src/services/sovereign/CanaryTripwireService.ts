@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA CANARY TRIPWIRESÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - EXFILTRATION DETECTION SYSTEM
+// CENDIA CANARY TRIPWIRES—"¢ - EXFILTRATION DETECTION SYSTEM
 // "We'll know if data ever leaks - and exactly when."
 //
 // Seeds the database with unique, trackable canary records that look legitimate
@@ -596,7 +596,7 @@ class CanaryTripwireService extends EventEmitter {
       await this.sendWebhook(canary.webhookUrl, alert);
     }
     
-    logger.error(`[CanaryTripwire] ÃƒÂ°Ã…Â¸Ã…Â¡Ã‚Â¨ CANARY TRIGGERED: ${canary.canaryCode} (${canary.canaryType})`);
+    logger.error(`[CanaryTripwire] 🚨 CANARY TRIGGERED: ${canary.canaryCode} (${canary.canaryType})`);
     this.emit('canary:triggered', { canary, alert });
     
     return alert;

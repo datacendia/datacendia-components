@@ -27,8 +27,8 @@ model api_keys {
   expires_at      DateTime?
   created_at      DateTime      @default(now())
   revoked_at      DateTime?
-  organizations   organizations @relation(fields: [organization_id], references: [id])
-  users           users         @relation(fields: [user_id], references: [id])
+  organizations   organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  users           users         @relation(fields: [user_id], references: [id], onDelete: Cascade)
 }
 
 model audit_logs {
@@ -42,8 +42,8 @@ model audit_logs {
   ip_address      String?
   user_agent      String?
   created_at      DateTime      @default(now())
-  organizations   organizations @relation(fields: [organization_id], references: [id])
-  users           users?        @relation(fields: [user_id], references: [id])
+  organizations   organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  users           users?        @relation(fields: [user_id], references: [id], onDelete: Cascade)
 
   @@index([action])
   @@index([organization_id, created_at])
@@ -91,7 +91,7 @@ model scenarios {
   assumptions Json       @default("[]")
   projections Json?
   created_at  DateTime   @default(now())
-  forecasts   forecasts? @relation(fields: [forecast_id], references: [id])
+  forecasts   forecasts? @relation(fields: [forecast_id], references: [id], onDelete: Cascade)
 }
 
 model workflow_executions {
@@ -108,7 +108,7 @@ model workflow_executions {
   created_at      DateTime          @default(now())
   approvals       approvals[]
   execution_nodes execution_nodes[]
-  workflows       workflows         @relation(fields: [workflow_id], references: [id])
+  workflows       workflows         @relation(fields: [workflow_id], references: [id], onDelete: Cascade)
 
   @@index([workflow_id, status])
 }
@@ -125,7 +125,7 @@ model workflows {
   created_at          DateTime              @default(now())
   updated_at          DateTime
   workflow_executions workflow_executions[]
-  organizations       organizations         @relation(fields: [organization_id], references: [id])
+  organizations       organizations         @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, status])
 }
@@ -140,7 +140,7 @@ model omnitranslate_glossaries {
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
-  organizations organizations            @relation(fields: [organization_id], references: [id])
+  organizations organizations            @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   terms         omnitranslate_glossary[]
 
   @@index([organization_id])
@@ -157,7 +157,7 @@ model omnitranslate_glossary {
   created_at      DateTime @default(now())
 
   glossary      omnitranslate_glossaries @relation(fields: [glossary_id], references: [id], onDelete: Cascade)
-  organizations organizations            @relation(fields: [organization_id], references: [id])
+  organizations organizations            @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([glossary_id])
   @@index([organization_id])
@@ -177,7 +177,7 @@ model omnitranslate_memory {
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([source_language, target_language])
@@ -196,7 +196,7 @@ model schema_mappings {
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@unique([data_source_id, organization_id])
   @@index([organization_id])
@@ -412,7 +412,7 @@ model webhooks {
   last_triggered_at DateTime?
   created_at        DateTime             @default(now())
   updated_at        DateTime             @updatedAt
-  organizations     organizations        @relation(fields: [organization_id], references: [id])
+  organizations     organizations        @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   deliveries        webhook_deliveries[]
 
   @@index([organization_id])
@@ -428,7 +428,7 @@ model webhook_deliveries {
   response     String?
   success      Boolean  @default(false)
   delivered_at DateTime @default(now())
-  webhook      webhooks @relation(fields: [webhook_id], references: [id])
+  webhook      webhooks @relation(fields: [webhook_id], references: [id], onDelete: Cascade)
 
   @@index([webhook_id])
   @@index([delivered_at])

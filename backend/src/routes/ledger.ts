@@ -10,7 +10,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA LEDGERâ„¢ - API ROUTES
+// CENDIA LEDGER—„¢ - API ROUTES
 // Immutable Decision Blockchain endpoints
 // =============================================================================
 

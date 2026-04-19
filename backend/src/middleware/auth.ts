@@ -62,6 +62,17 @@ interface JWTPayload {
 const JWT_SECRET = new TextEncoder().encode(config.jwtSecret);
 
 /**
+ * How long to cache a resolved user between DB lookups.
+ *
+ * 60 s is a deliberately short window: it keeps per-request DB load low while
+ * ensuring status changes (ACTIVE → SUSPENDED, role downgrades, hard deletes)
+ * propagate within a minute. Invalidating this cache on user mutation is the
+ * fast path (users route already calls cache.del('user:<id>')); this TTL is
+ * the safety net for updates that slip through.
+ */
+const USER_CACHE_TTL_SECONDS = 60;
+
+/**
  * Verify JWT token and attach user to request
  */
 export const authenticate = async (
@@ -115,8 +126,7 @@ export const authenticate = async (
         preferences: dbUser.preferences as Record<string, unknown> | undefined,
       };
       
-      // Cache for 5 minutes
-      await cache.set(cacheKey, user, 300);
+      await cache.set(cacheKey, user, USER_CACHE_TTL_SECONDS);
     }
 
     req.user = user!;
@@ -187,7 +197,7 @@ export const devAuth = async (
   
   // In development without REQUIRE_AUTH, use real seeded organization
   if (config.nodeEnv === 'development' || config.nodeEnv === 'test') {
-    logger.warn('âš ï¸  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
+    logger.warn('⚠️  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
       path: req.path,
       method: req.method,
       ip: req.ip,

@@ -15,7 +15,7 @@ import { logger } from '../../utils/logger.js';
 /**
  * Cortex Core Service
  * The single gateway through which all Services access organizational data.
- * Enforces: Sources â†’ Pillars â†’ Cortex â†’ Services
+ * Enforces: Sources —†’ Pillars —†’ Cortex —†’ Services
  */
 
 // =============================================================================

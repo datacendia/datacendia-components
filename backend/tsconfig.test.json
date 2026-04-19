@@ -1,29 +1,18 @@
 {
+  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "lib": ["ES2022"],
-    "types": ["node", "vitest/globals"],
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
     "declaration": false,
+    "declarationMap": false,
     "sourceMap": false,
-    "noEmit": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"],
-      "@/config/*": ["./config/*"],
-      "@/routes/*": ["./routes/*"],
-      "@/services/*": ["./services/*"],
-      "@/middleware/*": ["./middleware/*"],
-      "@/utils/*": ["./utils/*"]
-    }
+    "noEmit": true
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "src/__tests__/**/*"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/__tests__/**/*",
+    "src/**/__tests__/**/*",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts"
+  ]
 }

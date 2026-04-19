@@ -169,7 +169,7 @@ export class DecisionService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaDecision] Decision ServiceÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized - Black Box Recording enabled');
+    this.logger.info('[CendiaDecision] Decision Service—"¢ initialized - Black Box Recording enabled');
   }
 
   async shutdown(): Promise<void> {

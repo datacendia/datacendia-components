@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA QR AIR-GAP BRIDGEÃ¢â€žÂ¢ - NO-USB, NO-NETWORK AIR-GAP TRANSFER
+// CENDIA QR AIR-GAP BRIDGE™ - NO-USB, NO-NETWORK AIR-GAP TRANSFER
 // "Air-gap transfer via QR sequencing (encrypted + signed)."
 //
 // Encodes decisions, alerts, and summaries as animated QR code sequences

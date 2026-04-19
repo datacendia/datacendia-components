@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAVAULTâ„¢ - Unified Evidence Storage Service
+// CENDIAVAULT—„¢ - Unified Evidence Storage Service
 // The secure vault for all decision artifacts, audit trails, and evidence bundles
 // Consolidates: Decision Packets, Audit Ledger, Evidence Bundles, Signed Reports
 // =============================================================================

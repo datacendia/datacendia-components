@@ -1,5 +1,5 @@
 ﻿/**
- * Route Config â€” Public Routes
+ * Route Config — Public Routes
  *
  * React Router route definitions and lazy-loaded imports.
  *

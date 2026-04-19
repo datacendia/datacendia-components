@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA GNOSISâ„¢ - THE SOVEREIGN EDUCATION ENGINE
+// CENDIA GNOSIS—„¢ - THE SOVEREIGN EDUCATION ENGINE
 // "The Council decides tomorrow's strategy tonight. Gnosis teaches every human
 //  how to execute it by morning."
 //

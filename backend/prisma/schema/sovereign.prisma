@@ -22,8 +22,8 @@ model eternal_artifacts {
   created_at          DateTime                  @default(now())
   updated_at          DateTime                  @updatedAt
 
-  organization organizations         @relation(fields: [organization_id], references: [id])
-  creator      users                 @relation(fields: [created_by], references: [id])
+  organization organizations         @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  creator      users                 @relation(fields: [created_by], references: [id], onDelete: Restrict)
   validations  eternal_validations[]
 
   @@index([organization_id, artifact_type])
@@ -63,7 +63,7 @@ model eternal_migrations {
   error_log          Json?
   created_at         DateTime               @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([status])
@@ -82,7 +82,7 @@ model eternal_succession {
   activated_at        DateTime?
   created_at          DateTime             @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
 }
@@ -105,7 +105,7 @@ model symbiont_entities {
   created_at       DateTime              @default(now())
   updated_at       DateTime              @updatedAt
 
-  organization      organizations            @relation(fields: [organization_id], references: [id])
+  organization      organizations            @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   opportunities     symbiont_opportunities[]
   relationships     symbiont_relationships[] @relation("entity_relationships")
   inverse_relations symbiont_relationships[] @relation("inverse_relationships")
@@ -132,8 +132,8 @@ model symbiont_opportunities {
   created_at          DateTime                  @default(now())
   updated_at          DateTime                  @updatedAt
 
-  organization organizations          @relation(fields: [organization_id], references: [id])
-  entity       symbiont_entities?     @relation(fields: [entity_id], references: [id])
+  organization organizations          @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  entity       symbiont_entities?     @relation(fields: [entity_id], references: [id], onDelete: Cascade)
   simulations  symbiont_simulations[]
 
   @@index([organization_id, status])
@@ -155,8 +155,8 @@ model symbiont_relationships {
   created_at          DateTime                 @default(now())
   updated_at          DateTime                 @updatedAt
 
-  organization   organizations     @relation(fields: [organization_id], references: [id])
-  entity         symbiont_entities @relation("entity_relationships", fields: [entity_id], references: [id])
+  organization   organizations     @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  entity         symbiont_entities @relation("entity_relationships", fields: [entity_id], references: [id], onDelete: Cascade)
   related_entity symbiont_entities @relation("inverse_relationships", fields: [related_entity_id], references: [id])
 
   @@unique([entity_id, related_entity_id])
@@ -199,7 +199,7 @@ model vox_stakeholders {
   created_at            DateTime           @default(now())
   updated_at            DateTime           @updatedAt
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   signals      vox_signals[]
   impacts      vox_impacts[]
   votes        vox_votes[]
@@ -244,8 +244,8 @@ model vox_impacts {
   stakeholder_response Json? // Their reaction
   created_at           DateTime      @default(now())
 
-  organization organizations    @relation(fields: [organization_id], references: [id])
-  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id])
+  organization organizations    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([stakeholder_id])
@@ -266,8 +266,8 @@ model vox_votes {
   veto_reason     String?
   created_at      DateTime     @default(now())
 
-  organization organizations    @relation(fields: [organization_id], references: [id])
-  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id])
+  organization organizations    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  stakeholder  vox_stakeholders @relation(fields: [stakeholder_id], references: [id], onDelete: Cascade)
 
   @@unique([decision_id, stakeholder_id])
   @@index([organization_id])
@@ -291,7 +291,7 @@ model vox_assemblies {
   completed_at      DateTime?
   created_at        DateTime        @default(now())
 
-  organization organizations @relation(fields: [organization_id], references: [id])
+  organization organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([decision_id])
@@ -853,7 +853,7 @@ model sovereign_blackbox_units {
   serial_number   String
   name            String
   status          String   @default("operational") // operational, degraded, offline, recovery_mode
-  data            Json     // Full BlackBoxUnit object (location, specs, health metrics)
+  data            Json // Full BlackBoxUnit object (location, specs, health metrics)
   last_sync       DateTime @default(now())
   registered_at   DateTime @default(now())
   created_at      DateTime @default(now())
@@ -864,19 +864,19 @@ model sovereign_blackbox_units {
 }
 
 model sovereign_blackbox_jobs {
-  id              String    @id
-  organization_id String
-  blackbox_id     String
-  source_type     String    // ledger, chronos, witness, custom
-  status          String    @default("scheduled") // scheduled, running, completed, failed
-  priority        String    @default("normal")
-  bytes_transferred BigInt  @default(0)
-  error           String?
-  data            Json      // Full BackupJob object
-  scheduled_at    DateTime  @default(now())
-  started_at      DateTime?
-  completed_at    DateTime?
-  created_at      DateTime  @default(now())
+  id                String    @id
+  organization_id   String
+  blackbox_id       String
+  source_type       String // ledger, chronos, witness, custom
+  status            String    @default("scheduled") // scheduled, running, completed, failed
+  priority          String    @default("normal")
+  bytes_transferred BigInt    @default(0)
+  error             String?
+  data              Json // Full BackupJob object
+  scheduled_at      DateTime  @default(now())
+  started_at        DateTime?
+  completed_at      DateTime?
+  created_at        DateTime  @default(now())
 
   @@index([organization_id])
   @@index([blackbox_id])
@@ -884,18 +884,18 @@ model sovereign_blackbox_jobs {
 }
 
 model sovereign_blackbox_records {
-  id              String    @id
-  blackbox_id     String
-  organization_id String
-  source_type     String
-  source_id       String
-  data_hash       String
-  size_bytes      BigInt    @default(0)
+  id               String    @id
+  blackbox_id      String
+  organization_id  String
+  source_type      String
+  source_id        String
+  data_hash        String
+  size_bytes       BigInt    @default(0)
   retention_policy String
-  data            Json      // Full StoredRecord object
-  expires_at      DateTime?
-  created_at      DateTime  @default(now())
-  verified_at     DateTime  @default(now())
+  data             Json // Full StoredRecord object
+  expires_at       DateTime?
+  created_at       DateTime  @default(now())
+  verified_at      DateTime  @default(now())
 
   @@index([organization_id])
   @@index([blackbox_id])

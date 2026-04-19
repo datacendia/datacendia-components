@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// SYNTHESIS ENGINEâ„¢ - THE ORCHESTRATION LAYER
+// SYNTHESIS ENGINE—„¢ - THE ORCHESTRATION LAYER
 // Multi-Agent Coordination & Decision Synthesis
 // "The Conductor" - Orchestrates agents that debate and decide
 // =============================================================================

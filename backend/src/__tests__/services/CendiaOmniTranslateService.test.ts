@@ -508,7 +508,7 @@ describe('CendiaOmniTranslateService', () => {
 
     it('should have correct Romanian config', () => {
       expect(OMNITRANSLATE_LANGUAGES.ro.name).toBe('Romanian');
-      expect(OMNITRANSLATE_LANGUAGES.ro.nativeName).toBe('Română');
+      expect(OMNITRANSLATE_LANGUAGES.ro.nativeName).toBe('Rom—nă');
     });
 
     it('should have correct Bulgarian config', () => {

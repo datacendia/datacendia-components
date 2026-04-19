@@ -70,13 +70,27 @@ jobs:
         env:
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
 
-      - name: Type check
+      - name: Type check (main)
         working-directory: backend
         run: npx tsc --noEmit --skipLibCheck
 
-      - name: Run unit tests
+      - name: Type check (test config — guards against tsconfig drift)
         working-directory: backend
-        run: npx vitest run
+        run: npx tsc --noEmit --skipLibCheck -p tsconfig.test.json
+
+      - name: Lint
+        working-directory: backend
+        run: npx eslint src --ext .ts --max-warnings 0
+        # Non-blocking: backend ESLint config warns on ~64 unused-var sites
+        # pre-existing to the current cleanup pass. Flip to continue-on-error:
+        # false once a dedicated unused-var sweep lands (see backend/.eslintrc.cjs
+        # rule comment) OR change --max-warnings to an explicit ceiling that
+        # freezes the current count and blocks regressions.
+        continue-on-error: true
+
+      - name: Run unit tests with coverage
+        working-directory: backend
+        run: npx vitest run --coverage
         env:
           CI: true
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
@@ -84,6 +98,14 @@ jobs:
           JWT_SECRET: test-secret-key-for-ci-minimum-32-chars
           JWT_REFRESH_SECRET: test-refresh-secret-for-ci-minimum-32-chars
           NODE_ENV: test
+
+      - name: Upload backend coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: backend/coverage/
+          retention-days: 14
 
   frontend-build:
     name: Frontend Build

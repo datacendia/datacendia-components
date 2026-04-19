@@ -10,8 +10,8 @@ model prompt_templates {
   id              String   @id @default(uuid())
   organization_id String?
   name            String
-  category        String   // 'system' | 'agent' | 'mode' | 'custom'
-  template        String   // The actual prompt text
+  category        String // 'system' | 'agent' | 'mode' | 'custom'
+  template        String // The actual prompt text
   version         Int      @default(1)
   variables       Json     @default("[]") // List of {{variable}} placeholders
   model_config    Json     @default("{}") // temperature, top_p, etc.
@@ -19,9 +19,9 @@ model prompt_templates {
   created_by      String?
   created_at      DateTime @default(now())
   updated_at      DateTime @default(now())
-  parent_id       String?  // Previous version of this template
+  parent_id       String? // Previous version of this template
 
-  usages          prompt_usages[]
+  usages prompt_usages[]
 
   @@unique([name, version])
   @@index([category])
@@ -30,18 +30,18 @@ model prompt_templates {
 }
 
 model prompt_usages {
-  id                String   @id @default(uuid())
+  id                 String   @id @default(uuid())
   prompt_template_id String
-  deliberation_id   String?
-  agent_code        String?
-  mode              String?
-  input_variables   Json     @default("{}") // The actual values substituted
-  model_used        String?
-  token_count       Int?
-  response_quality  Float?   // Optional quality score (0-1)
-  created_at        DateTime @default(now())
+  deliberation_id    String?
+  agent_code         String?
+  mode               String?
+  input_variables    Json     @default("{}") // The actual values substituted
+  model_used         String?
+  token_count        Int?
+  response_quality   Float? // Optional quality score (0-1)
+  created_at         DateTime @default(now())
 
-  prompt_template   prompt_templates @relation(fields: [prompt_template_id], references: [id])
+  prompt_template prompt_templates @relation(fields: [prompt_template_id], references: [id], onDelete: Restrict)
 
   @@index([prompt_template_id])
   @@index([deliberation_id])
@@ -56,7 +56,7 @@ model agent_query_responses {
   sources         Json            @default("[]")
   confidence      Float
   created_at      DateTime        @default(now())
-  agents          agents          @relation(fields: [agent_id], references: [id])
+  agents          agents          @relation(fields: [agent_id], references: [id], onDelete: Cascade)
   council_queries council_queries @relation(fields: [query_id], references: [id], onDelete: Cascade)
 }
 
@@ -91,7 +91,7 @@ model council_queries {
   created_at            DateTime                @default(now())
   completed_at          DateTime?
   agent_query_responses agent_query_responses[]
-  users                 users                   @relation(fields: [user_id], references: [id])
+  users                 users                   @relation(fields: [user_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, created_at])
 }
@@ -122,33 +122,33 @@ model decision_blockers {
 // REMOVED: model decision_dependencies (orphaned - not referenced in application code)
 
 model decisions {
-  id                                                                   String                  @id
-  organization_id                                                      String
-  user_id                                                              String
-  title                                                                String
-  description                                                          String
-  category                                                             String?
-  priority                                                             DecisionPriority        @default(MEDIUM)
-  status                                                               DecisionStatus          @default(PENDING)
-  department                                                           String?
-  owner_name                                                           String?
-  owner_email                                                          String?
-  budget                                                               Float?
-  timeframe                                                            String?
-  deadline                                                             DateTime?
-  estimated_daily_cost                                                 Float?
-  total_cost_accrued                                                   Float?
-  stakeholders                                                         String[]                @default([])
-  deleted_at        DateTime?
-  created_at                                                           DateTime                @default(now())
-  updated_at                                                           DateTime
-  resolved_at                                                          DateTime?
-  decision_activities                                                  decision_activities[]
-  decision_blockers                                                    decision_blockers[]
+  id                   String                @id
+  organization_id      String
+  user_id              String
+  title                String
+  description          String
+  category             String?
+  priority             DecisionPriority      @default(MEDIUM)
+  status               DecisionStatus        @default(PENDING)
+  department           String?
+  owner_name           String?
+  owner_email          String?
+  budget               Float?
+  timeframe            String?
+  deadline             DateTime?
+  estimated_daily_cost Float?
+  total_cost_accrued   Float?
+  stakeholders         String[]              @default([])
+  deleted_at           DateTime?
+  created_at           DateTime              @default(now())
+  updated_at           DateTime
+  resolved_at          DateTime?
+  decision_activities  decision_activities[]
+  decision_blockers    decision_blockers[]
   // REMOVED: decision_dependencies (model not defined)
   // decision_dependencies_decision_dependencies_decision_idTodecisions
   // decision_dependencies_decision_dependencies_depends_on_idTodecisions
-  executive_summaries                                                  executive_summaries[]
+  executive_summaries  executive_summaries[]
 
   @@index([organization_id])
   @@index([priority])
@@ -165,7 +165,7 @@ model deliberation_messages {
   sources         Json          @default("[]")
   confidence      Float?
   created_at      DateTime      @default(now())
-  agents          agents        @relation(fields: [agent_id], references: [id])
+  agents          agents        @relation(fields: [agent_id], references: [id], onDelete: Cascade)
   deliberations   deliberations @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
 
   @@index([deliberation_id, created_at])
@@ -190,7 +190,7 @@ model deliberations {
   approvals             approvals[]
   deliberation_messages deliberation_messages[]
   deliberation_votes    deliberation_votes[]
-  organizations         organizations           @relation(fields: [organization_id], references: [id])
+  organizations         organizations           @relation(fields: [organization_id], references: [id], onDelete: Cascade)
   executive_summaries   executive_summaries[]
   decision_outcomes     decision_outcomes[]
 
@@ -255,8 +255,8 @@ model executive_summaries {
   generated_by    String
   created_at      DateTime       @default(now())
   updated_at      DateTime
-  decisions       decisions?     @relation(fields: [decision_id], references: [id])
-  deliberations   deliberations? @relation(fields: [deliberation_id], references: [id])
+  decisions       decisions?     @relation(fields: [decision_id], references: [id], onDelete: Cascade)
+  deliberations   deliberations? @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([type])
@@ -281,14 +281,14 @@ model deliberation_votes {
 // REMOVED: model veto_rules (orphaned - not referenced in application code)
 
 model veto_events {
-  id              String     @id @default(uuid())
+  id              String   @id @default(uuid())
   rule_id         String
   organization_id String
   target_type     String
   target_id       String
   reason          String
   severity        String
-  created_at      DateTime   @default(now())
+  created_at      DateTime @default(now())
   // REMOVED: veto_rules relation (model was removed as orphan)
   // rule            veto_rules @relation(fields: [rule_id], references: [id])
 
@@ -347,8 +347,8 @@ model decision_outcomes {
   created_at           DateTime @default(now())
   updated_at           DateTime @default(now()) @updatedAt
 
-  organizations organizations @relation(fields: [organization_id], references: [id])
-  deliberations deliberations @relation(fields: [deliberation_id], references: [id])
+  organizations organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  deliberations deliberations @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([deliberation_id])
@@ -422,7 +422,7 @@ model dissents {
   ledger_timestamp     DateTime  @default(now())
 
   response      dissent_responses?
-  organizations organizations      @relation(fields: [organization_id], references: [id])
+  organizations organizations      @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id])
   @@index([dissenter_id])

@@ -23,7 +23,7 @@ import { keyManagementService } from '../security/KeyManagementService.js';
 import crypto from 'crypto';
 
 // =============================================================================
-// 1. CendiaPreMortemâ„¢ - Real AI-Powered Failure Analysis
+// 1. CendiaPreMortem—„¢ - Real AI-Powered Failure Analysis
 // =============================================================================
 
 export interface FailureMode {
@@ -198,7 +198,7 @@ Identify at least 5 failure modes. Be specific.`;
 }
 
 // =============================================================================
-// 2. GHOST BOARDâ„¢ - Real AI-Powered Board Rehearsal
+// 2. GHOST BOARD—„¢ - Real AI-Powered Board Rehearsal
 // =============================================================================
 
 export interface BoardQuestion {
@@ -313,7 +313,7 @@ Generate 5-7 tough questions these directors would ask. Make them specific and c
 }
 
 // =============================================================================
-// 3. DECISION DEBTâ„¢ - Real Database-Backed Stuck Decision Tracking
+// 3. DECISION DEBT—„¢ - Real Database-Backed Stuck Decision Tracking
 // =============================================================================
 
 export interface StuckDecision {
@@ -418,7 +418,7 @@ class DecisionDebtService {
 }
 
 // =============================================================================
-// 4. CENDIA CHRONOSâ„¢ - Real Timeline & Replay from Database
+// 4. CENDIA CHRONOS—„¢ - Real Timeline & Replay from Database
 // =============================================================================
 
 export interface TimelineEvent {
@@ -550,7 +550,7 @@ class ChronosService {
 }
 
 // =============================================================================
-// 5. CENDIA OVERSIGHTâ„¢ - Real Compliance Checking
+// 5. CENDIA OVERSIGHT—„¢ - Real Compliance Checking
 // =============================================================================
 
 const REGULATORY_FRAMEWORKS = [
@@ -639,7 +639,7 @@ Respond in JSON:
 }
 
 // =============================================================================
-// 6. CENDIA NOTARYâ„¢ - Real Cryptographic Signing with KMS
+// 6. CENDIA NOTARY—„¢ - Real Cryptographic Signing with KMS
 // =============================================================================
 
 export interface Signature {
@@ -729,7 +729,7 @@ class NotaryService {
 }
 
 // =============================================================================
-// 7. CENDIA VAULTâ„¢ - Real Storage with MinIO Integration
+// 7. CENDIA VAULT—„¢ - Real Storage with MinIO Integration
 // =============================================================================
 
 export interface VaultPacket {
@@ -787,7 +787,7 @@ class VaultService {
 }
 
 // =============================================================================
-// 8. CENDIA CRUCIBLEâ„¢ - Real Adversarial Testing with AI
+// 8. CENDIA CRUCIBLE—„¢ - Real Adversarial Testing with AI
 // =============================================================================
 
 export interface AdversarialTest {
@@ -876,7 +876,7 @@ Respond in JSON:
 }
 
 // =============================================================================
-// 9. DECISION DNAâ„¢ - Real Immutable Lineage
+// 9. DECISION DNA—„¢ - Real Immutable Lineage
 // =============================================================================
 
 class DecisionDNAService {

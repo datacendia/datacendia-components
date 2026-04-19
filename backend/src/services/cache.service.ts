@@ -93,6 +93,14 @@ class CacheService {
   }
 
   /**
+   * Redis set key used to track which cache keys belong to a tag.
+   * Makes deleteByTag() work against the distributed cache.
+   */
+  private getTagKey(tag: string): string {
+    return `${this.config.prefix}tag:${tag}`;
+  }
+
+  /**
    * Set a value in cache
    */
   async set<T>(
@@ -117,11 +125,20 @@ class CacheService {
     // Try Redis first
     if (this.redisAvailable) {
       try {
-        await redisClient.setex(
-          fullKey,
-          Math.ceil(ttl / 1000),
-          JSON.stringify(entry)
-        );
+        const ttlSeconds = Math.ceil(ttl / 1000);
+        await redisClient.setex(fullKey, ttlSeconds, JSON.stringify(entry));
+        // Track tag membership in Redis so deleteByTag() works distributively.
+        // Tag set TTL is set slightly above the longest entry TTL so abandoned
+        // tags self-evict rather than growing unbounded.
+        if (options?.tags?.length) {
+          const pipeline = redisClient.pipeline();
+          for (const tag of options.tags) {
+            const tagKey = this.getTagKey(tag);
+            pipeline.sadd(tagKey, fullKey);
+            pipeline.expire(tagKey, ttlSeconds + 60);
+          }
+          await pipeline.exec();
+        }
         return;
       } catch (error) {
         logger.warn('[Cache] Redis set failed, using memory:', error);
@@ -246,10 +263,24 @@ class CacheService {
   }
 
   /**
-   * Delete all entries with a specific tag
+   * Delete all entries with a specific tag (Redis + in-memory).
    */
   async deleteByTag(tag: string): Promise<number> {
     let deleted = 0;
+
+    if (this.redisAvailable) {
+      try {
+        const tagKey = this.getTagKey(tag);
+        const keys = await redisClient.smembers(tagKey);
+        if (keys.length > 0) {
+          await redisClient.del(...keys);
+          deleted += keys.length;
+        }
+        await redisClient.del(tagKey);
+      } catch (error) {
+        logger.warn('[Cache] Redis deleteByTag failed, falling back to memory:', error);
+      }
+    }
 
     for (const [key, entry] of this.cache.entries()) {
       if (entry.tags.includes(tag)) {

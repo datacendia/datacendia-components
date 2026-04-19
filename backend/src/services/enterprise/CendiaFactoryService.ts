@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIAFACTORYÃ¢â€žÂ¢ - MANUFACTURING & PRODUCTION INTELLIGENCE
+// CENDIAFACTORY™ - MANUFACTURING & PRODUCTION INTELLIGENCE
 // "The Infinite Line" - AI-powered production optimization and predictive maintenance
 // =============================================================================
 
@@ -206,7 +206,7 @@ class CendiaFactoryService {
   private schedules: Map<string, ProductionSchedule[]> = new Map();
 
   constructor() {
-    logger.info('CendiaFactoryÃ¢â€žÂ¢ initialized - The Infinite Line is monitoring');
+    logger.info('CendiaFactory™ initialized - The Infinite Line is monitoring');
 
 
     this.loadFromDB().catch(() => {});
@@ -293,7 +293,7 @@ class CendiaFactoryService {
   }
 
   private async analyzeEquipmentHealth(line: ProductionLine, equipment: Equipment): Promise<PredictiveFailure | null> {
-    const prompt = `You are CendiaFactoryÃ¢â€žÂ¢, an AI predictive maintenance system.
+    const prompt = `You are CendiaFactory™, an AI predictive maintenance system.
 
 EQUIPMENT: ${equipment.name} (${equipment.type})
 PRODUCTION LINE: ${line.name}
@@ -302,7 +302,7 @@ CURRENT METRICS:
 - Health Score: ${equipment.health}%
 - Runtime Since Maintenance: ${equipment.runtime} hours
 - Vibration Level: ${equipment.vibration} (normal: <30)
-- Temperature: ${equipment.temperature}Ã‚Â°C (normal: <70Ã‚Â°C)
+- Temperature: ${equipment.temperature}°C (normal: <70°C)
 - Power Consumption: ${equipment.powerConsumption} kW
 
 Analyze failure risk and provide prediction in JSON:
@@ -402,7 +402,7 @@ Analyze failure risk and provide prediction in JSON:
       {
         metric: 'Temperature',
         currentValue: equipment.temperature,
-        normalRange: '40-70Ã‚Â°C',
+        normalRange: '40-70°C',
         trend: equipment.temperature > 70 ? 'increasing' : 'stable',
         contribution: 30,
       },
@@ -432,7 +432,7 @@ Analyze failure risk and provide prediction in JSON:
 
     const currentYield = line.efficiency * line.quality / 100;
 
-    const prompt = `You are CendiaFactoryÃ¢â€žÂ¢, optimizing production yield.
+    const prompt = `You are CendiaFactory™, optimizing production yield.
 
 PRODUCTION LINE: ${line.name}
 PRODUCT: ${line.product}
@@ -500,7 +500,7 @@ Analyze and provide yield optimization recommendations in JSON:
       generatedAt: new Date(),
     };
 
-    logger.info(`CendiaFactory: Yield optimization for ${line.name}: ${currentYield.toFixed(1)}% Ã¢â€ â€™ ${potentialYield.toFixed(1)}%`);
+    logger.info(`CendiaFactory: Yield optimization for ${line.name}: ${currentYield.toFixed(1)}% —" ' ${potentialYield.toFixed(1)}%`);
     return optimization;
   }
 
@@ -546,7 +546,7 @@ Analyze and provide yield optimization recommendations in JSON:
 
     const line = this.lines.get(lineId);
 
-    const prompt = `You are CendiaFactoryÃ¢â€žÂ¢, analyzing a quality event.
+    const prompt = `You are CendiaFactory™, analyzing a quality event.
 
 EVENT: ${event.type} - ${event.description}
 SEVERITY: ${event.severity}
@@ -778,9 +778,9 @@ Analyze and provide root cause in JSON:
     const currentOutput = lines.reduce((s, l) => s + l.currentOutput, 0);
 
     const insights: string[] = [];
-    if (avgOEE < 65) insights.push(`Average OEE is ${avgOEE}% Ã¢â‚¬â€ below world-class threshold of 85%`);
+    if (avgOEE < 65) insights.push(`Average OEE is ${avgOEE}% — below world-class threshold of 85%`);
     if (down > 0) insights.push(`${down} line(s) currently down or in maintenance`);
-    if (avgQuality < 95) insights.push(`Quality rate ${avgQuality}% below target 95% Ã¢â‚¬â€ investigate defect sources`);
+    if (avgQuality < 95) insights.push(`Quality rate ${avgQuality}% below target 95% — investigate defect sources`);
     if (insights.length === 0) insights.push('Production performance is within target parameters');
 
     return {
@@ -850,7 +850,7 @@ Analyze and provide root cause in JSON:
     const preventable = Math.round(estimatedTotal * 0.6);
 
     const insights: string[] = [];
-    if (healthDist.failed > 0) insights.push(`${healthDist.failed} equipment unit(s) in failed state Ã¢â‚¬â€ immediate action required`);
+    if (healthDist.failed > 0) insights.push(`${healthDist.failed} equipment unit(s) in failed state — immediate action required`);
     if (criticalAlerts.length > 0) insights.push(`${criticalAlerts.length} critical equipment alert(s) active`);
     const overdue = maintenanceSchedule.filter(m => m.overdue).length;
     if (overdue > 0) insights.push(`${overdue} line(s) have overdue maintenance schedules`);
@@ -917,8 +917,8 @@ Analyze and provide root cause in JSON:
     const inspectionCost = Math.round(allEvents.length * 200);
 
     const insights: string[] = [];
-    if (bySeverity.critical > 0) insights.push(`${bySeverity.critical} critical quality event(s) Ã¢â‚¬â€ escalate immediately`);
-    if (trend === 'worsening') insights.push('Quality events trending upward Ã¢â‚¬â€ investigate systemic causes');
+    if (bySeverity.critical > 0) insights.push(`${bySeverity.critical} critical quality event(s) — escalate immediately`);
+    if (trend === 'worsening') insights.push('Quality events trending upward — investigate systemic causes');
     const topCause = Object.entries(causeMap).sort((a, b) => b[1].count - a[1].count)[0];
     if (topCause && topCause[1].count > 2) insights.push(`"${topCause[0]}" is the most frequent root cause (${topCause[1].count} occurrences)`);
     if (insights.length === 0) insights.push('Quality metrics are stable across all production lines');
@@ -987,15 +987,15 @@ Analyze and provide root cause in JSON:
     const lines = this.getAllLines();
     const productionGaps: Array<{ line: string; gap: string; impact: string }> = [];
     for (const l of lines) {
-      if (l.status === 'idle') productionGaps.push({ line: l.name, gap: 'Line idle Ã¢â‚¬â€ no scheduled production', impact: 'Lost capacity' });
-      if (l.status === 'down') productionGaps.push({ line: l.name, gap: 'Line down Ã¢â‚¬â€ unplanned stoppage', impact: 'Production halted' });
+      if (l.status === 'idle') productionGaps.push({ line: l.name, gap: 'Line idle — no scheduled production', impact: 'Lost capacity' });
+      if (l.status === 'down') productionGaps.push({ line: l.name, gap: 'Line down — unplanned stoppage', impact: 'Production halted' });
     }
 
     const insights: string[] = [];
     if (matStatus.critical > 0) insights.push(`${matStatus.critical} material(s) at critical supply level`);
     if (delayed > 0) insights.push(`${delayed} production schedule(s) delayed`);
     const singleSource = Object.entries(supplierMap).filter(([, d]) => d.count > 3);
-    if (singleSource.length > 0) insights.push(`${singleSource.length} supplier(s) with high material concentration Ã¢â‚¬â€ diversification recommended`);
+    if (singleSource.length > 0) insights.push(`${singleSource.length} supplier(s) with high material concentration — diversification recommended`);
     if (insights.length === 0) insights.push('Supply chain and production schedules are on track');
 
     return {

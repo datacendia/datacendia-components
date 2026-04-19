@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA FEDERATED MESHâ„¢ - OFFLINE DELTA EXCHANGE FOR FEDERATED COLLABORATION
+// CENDIA FEDERATED MESH—„¢ - OFFLINE DELTA EXCHANGE FOR FEDERATED COLLABORATION
 // "Federated collaboration without live network connectivity."
 //
 // Enables knowledge sharing across multiple air-gapped Datacendia instances

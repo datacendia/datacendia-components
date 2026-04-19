@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCommandÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Vertical-Specific AI Command Interface
+ * CendiaCommand—┚¬Å¾Ã"šÃ'¢ - Vertical-Specific AI Command Interface
  * 
  * Provides intelligent command bars for each industry vertical with:
  * - Natural language query understanding

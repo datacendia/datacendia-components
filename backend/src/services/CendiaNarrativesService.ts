@@ -188,7 +188,7 @@ export class CendiaNarrativesService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaNarratives] Report GenerationÃ¢â€žÂ¢ initialized');
+    this.logger.info('[CendiaNarratives] Report Generation™ initialized');
   }
 
   async shutdown(): Promise<void> {
@@ -604,7 +604,7 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
   }
 
   private inferSectionType(content: string): NarrativeSection['type'] {
-    if (content.includes('\n- ') || content.includes('\nÃ¢â‚¬Â¢ ')) return 'bullet_list';
+    if (content.includes('\n- ') || content.includes('\n• ')) return 'bullet_list';
     if (/\n\d+\.\s/.test(content)) return 'numbered_list';
     if (content.includes('|') && content.includes('---')) return 'table';
     return 'text';
@@ -731,25 +731,25 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
     const sentences = totalContent.split(/[.!?]+/).filter(Boolean);
     const avgSentenceLength = sentences.length > 0 ? wordCount / sentences.length : 0;
 
-    // Dimension 1: Completeness Ã¢â‚¬â€ all key sections present
+    // Dimension 1: Completeness — all key sections present
     const requiredSections = ['summary', 'analysis', 'recommendation'];
     const sectionTitlesLower = narrative.sections.map(s => s.title.toLowerCase());
     const completenessHits = requiredSections.filter(r => sectionTitlesLower.some(t => t.includes(r))).length;
     const completenessScore = Math.round((completenessHits / requiredSections.length) * 100);
 
-    // Dimension 2: Readability Ã¢â‚¬â€ sentence complexity
+    // Dimension 2: Readability — sentence complexity
     const readabilityScore = avgSentenceLength <= 20 ? 90 : avgSentenceLength <= 30 ? 70 : avgSentenceLength <= 40 ? 50 : 30;
 
-    // Dimension 3: Structure Ã¢â‚¬â€ well-organized sections
+    // Dimension 3: Structure — well-organized sections
     const structureScore = narrative.sections.length >= 4 ? 90 : narrative.sections.length >= 3 ? 75 : narrative.sections.length >= 2 ? 55 : 30;
 
-    // Dimension 4: Actionability Ã¢â‚¬â€ has recommendations and next steps
+    // Dimension 4: Actionability — has recommendations and next steps
     const hasRecommendations = (narrative.recommendations?.length || 0) > 0;
     const hasNextSteps = (narrative.nextSteps?.length || 0) > 0;
     const hasMetrics = (narrative.keyMetrics?.length || 0) > 0;
     const actionScore = (hasRecommendations ? 35 : 0) + (hasNextSteps ? 35 : 0) + (hasMetrics ? 30 : 0);
 
-    // Dimension 5: Depth Ã¢â‚¬â€ word count relative to type
+    // Dimension 5: Depth — word count relative to type
     const targetWords = narrative.metadata.length === 'comprehensive' ? 2000 : narrative.metadata.length === 'standard' ? 1000 : 500;
     const depthRatio = Math.min(1.5, wordCount / targetWords);
     const depthScore = Math.round(Math.min(100, depthRatio * 80));
@@ -833,7 +833,7 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
 
     const overallResonance = Math.round(audienceProfiles.reduce((sum, p) => sum + p.receptivity, 0) / audienceProfiles.length);
 
-    // Tone consistency Ã¢â‚¬â€ check if tone stays consistent across sections
+    // Tone consistency — check if tone stays consistent across sections
     const toneConsistency = narrative.sections.length > 1 ? 85 : 100; // Simplified heuristic
 
     return {
@@ -936,7 +936,7 @@ ${params.actionItems.map(a => `- ${a}`).join('\n')}` : ''}
     if (highSeverity.length > 0) recommendations.push(`${highSeverity.length} high-severity inconsistencies require immediate attention`);
     const outdated = inconsistencies.filter(i => i.type === 'OUTDATED_DATA');
     if (outdated.length > 0) recommendations.push(`${outdated.length} narrative(s) may contain stale data`);
-    if (recommendations.length === 0) recommendations.push('All narratives are consistent Ã¢â‚¬â€ maintain regular reviews');
+    if (recommendations.length === 0) recommendations.push('All narratives are consistent — maintain regular reviews');
 
     return {
       narrativesChecked: orgNarratives.length,

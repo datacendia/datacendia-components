@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA SHADOW COUNCILÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ - PARALLEL WHAT-IF DELIBERATION MODE
+// CENDIA SHADOW COUNCIL™ - PARALLEL WHAT-IF DELIBERATION MODE
 // "Test radical ideas without polluting the ledger."
 //
 // Enables sandbox deliberations that run in parallel with full Council

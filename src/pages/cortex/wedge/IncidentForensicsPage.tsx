@@ -1,8 +1,8 @@
-﻿/**
- * Page â€” AI Incident Forensics
+/**
+ * Page — AI Incident Forensics
  *
  * Wedge 3: When an AI makes a wrong decision, produce court-grade evidence.
- * Incident submission â†’ forensic analysis â†’ legal evidence package.
+ * Incident submission → forensic analysis → legal evidence package.
  *
  * @exports IncidentForensicsPage
  * @module pages/cortex/wedge/IncidentForensicsPage
@@ -194,7 +194,7 @@ const IncidentSubmissionForm: React.FC<{ onSubmit: (form: IncidentForm) => void;
         <Input label="Model (if known)" value={form.aiModel} onChange={v => update({ aiModel: v })} placeholder="gpt-4o" />
       </div>
       <Input label="Expected Outcome" value={form.expectedOutcome} onChange={v => update({ expectedOutcome: v })} placeholder="AI should have quoted $49.99 refund per company policy" textarea required />
-      <Input label="Actual Outcome" value={form.actualOutcome} onChange={v => update({ actualOutcome: v })} placeholder="AI quoted $4,999 refund â€” 100x the correct amount" textarea required />
+      <Input label="Actual Outcome" value={form.actualOutcome} onChange={v => update({ actualOutcome: v })} placeholder="AI quoted $4,999 refund — 100x the correct amount" textarea required />
       <Input label="Impact Description" value={form.impactDescription} onChange={v => update({ impactDescription: v })} placeholder="Customer received an incorrect refund, requiring manual reversal..." textarea />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Input label="Affected Parties" value={form.affectedParties} onChange={v => update({ affectedParties: v })} placeholder="Customer John Doe, Finance team" />
@@ -227,7 +227,7 @@ const IncidentSubmissionForm: React.FC<{ onSubmit: (form: IncidentForm) => void;
         <h1 className="text-4xl font-bold text-white mb-4">AI Incident Forensics</h1>
         <p className="text-lg text-gray-400 max-w-2xl mx-auto">
           When an AI system makes a wrong decision, we produce a court-admissible
-          forensic evidence package â€” timeline, root cause, and legal-grade documentation.
+          forensic evidence package — timeline, root cause, and legal-grade documentation.
         </p>
       </div>
 
@@ -305,8 +305,8 @@ const ForensicReportView: React.FC<{ report: ForensicReport; onNew: () => void }
           </div>
           <p className="text-gray-500">
             Incident <span className="font-mono text-gray-400">{report.incidentId}</span>
-            {' Â· '}{report.organizationName}
-            {' Â· '}{new Date(report.generatedAt).toLocaleDateString()}
+            {' · '}{report.organizationName}
+            {' · '}{new Date(report.generatedAt).toLocaleDateString()}
           </p>
         </div>
         <div className="flex gap-3">
@@ -434,7 +434,7 @@ const ForensicReportView: React.FC<{ report: ForensicReport; onNew: () => void }
                   <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-sovereign-dark border border-sovereign-border">
                     {c.violation ? <XCircle className="w-4 h-4 text-red-400 mt-0.5" /> : <CheckCircle className="w-4 h-4 text-green-400 mt-0.5" />}
                     <div>
-                      <div className="text-sm font-medium text-gray-200">{c.framework} â€” {c.requirement}</div>
+                      <div className="text-sm font-medium text-gray-200">{c.framework} — {c.requirement}</div>
                       <div className="text-xs text-gray-500 mt-0.5">{c.description}</div>
                     </div>
                   </div>
@@ -543,7 +543,7 @@ const ForensicReportView: React.FC<{ report: ForensicReport; onNew: () => void }
       <div className="bg-gradient-to-r from-purple-600/20 to-blue-600/20 border border-purple-500/20 rounded-2xl p-8 text-center">
         <h3 className="text-2xl font-bold text-white mb-3">Prevent Future Incidents Before They Happen</h3>
         <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-          Deploy Datacendia's Regulator's Receipt for every AI decision â€” creating court-admissible evidence
+          Deploy Datacendia's Regulator's Receipt for every AI decision — creating court-admissible evidence
           automatically, so when the next incident happens, you have a complete forensic trail from day one.
         </p>
         <button className="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-semibold transition-colors inline-flex items-center gap-2">

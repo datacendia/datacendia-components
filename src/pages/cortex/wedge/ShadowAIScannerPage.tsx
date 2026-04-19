@@ -1,9 +1,9 @@
-﻿/**
- * Page â€” Shadow AI Scanner
+/**
+ * Page — Shadow AI Scanner
  *
  * Wedge 1: Scan your organization for unauthorized AI tool usage.
  * Quantifies data leakage risk with dollar exposure estimates.
- * Free scan â†’ paid continuous monitoring upsell.
+ * Free scan → paid continuous monitoring upsell.
  *
  * @exports ShadowAIScannerPage
  * @module pages/cortex/wedge/ShadowAIScannerPage
@@ -185,7 +185,7 @@ const ScanConfigForm: React.FC<{ onSubmit: (config: ScanConfig) => void; loading
         </div>
         <h1 className="text-4xl font-bold text-white mb-4">Shadow AI Scanner</h1>
         <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-          Discover what AI tools your employees are really using â€” and what data they're leaking.
+          Discover what AI tools your employees are really using — and what data they're leaking.
           Get your risk exposure quantified in under 60 seconds.
         </p>
       </div>
@@ -303,7 +303,7 @@ const ScanResults: React.FC<{ result: ScanResult; onRescan: () => void }> = ({ r
           <h1 className="text-3xl font-bold text-white">Shadow AI Scan Results</h1>
           <p className="text-gray-500 mt-1">
             Scan ID: <span className="font-mono text-gray-400">{result.scanId}</span>
-            {' Â· '}Completed in {(result.scanDurationMs / 1000).toFixed(1)}s
+            {' · '}Completed in {(result.scanDurationMs / 1000).toFixed(1)}s
           </p>
         </div>
         <div className="flex gap-3">
@@ -391,7 +391,7 @@ const ScanResults: React.FC<{ result: ScanResult; onRescan: () => void }> = ({ r
                 <span className="font-semibold text-blue-400">Recommended: Deploy CendiaGateway</span>
               </div>
               <p className="text-sm text-gray-300">
-                CendiaGateway acts as an AI governance proxy â€” intercepting, scanning, and logging every AI interaction
+                CendiaGateway acts as an AI governance proxy — intercepting, scanning, and logging every AI interaction
                 across your organization. It blocks PII leakage in real-time, enforces usage policies, and creates
                 court-admissible audit trails for every AI-assisted decision.
               </p>
@@ -544,7 +544,7 @@ const ScanResults: React.FC<{ result: ScanResult; onRescan: () => void }> = ({ r
       <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/20 rounded-2xl p-8 text-center">
         <h3 className="text-2xl font-bold text-white mb-3">Stop Shadow AI Before It Costs You Millions</h3>
         <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-          Deploy CendiaGateway for continuous monitoring â€” intercept PII leakage in real-time,
+          Deploy CendiaGateway for continuous monitoring — intercept PII leakage in real-time,
           enforce AI usage policies, and create court-admissible audit trails for every AI interaction.
         </p>
         <div className="flex gap-4 justify-center">
@@ -561,7 +561,7 @@ const ScanResults: React.FC<{ result: ScanResult; onRescan: () => void }> = ({ r
 
       {/* Attestation */}
       <div className="text-center text-xs text-gray-600 font-mono">
-        Integrity: {result.integrityHash} Â· Generated: {new Date(result.generatedAt).toLocaleString()}
+        Integrity: {result.integrityHash} · Generated: {new Date(result.generatedAt).toLocaleString()}
       </div>
     </div>
   );

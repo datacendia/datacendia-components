@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA BLACK BOXÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ - Disaster Storage Service
+// CENDIA BLACK BOX™ - Disaster Storage Service
 // "Survive anything. Remember everything."
 // Sovereign Security Layer - Disaster-Proof Storage
 // =============================================================================

@@ -153,7 +153,7 @@ export class KeyManagementService {
     }
 
     this.initialized = true;
-    logger.info(`[CendiaNotary] Key Management Serviceâ„¢ initialized (provider: ${this.config.provider})`);
+    logger.info(`[CendiaNotary] Key Management Service—„¢ initialized (provider: ${this.config.provider})`);
   }
 
   private async initializeAwsKms(): Promise<void> {

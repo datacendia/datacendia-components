@@ -17,7 +17,7 @@
  * Target: 80% (Priority tier after Financial/Healthcare)
  * Datacendia = "Claims & Underwriting Truth Layer"
  * 
- * Killer Asset: Claim decision DNA ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â reproducible, time-locked, regulator-safe.
+ * Killer Asset: Claim decision DNA — reproducible, time-locked, regulator-safe.
  * 
  * "Prove this decision wasn't arbitrary, biased, or retrofitted."
  */

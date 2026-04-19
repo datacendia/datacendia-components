@@ -123,7 +123,7 @@ export class PantheonMemoryService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaPantheon] Agent Memory ServiceÃ¢â€žÂ¢ initialized');
+    this.logger.info('[CendiaPantheon] Agent Memory Service™ initialized');
   }
 
   async shutdown(): Promise<void> {

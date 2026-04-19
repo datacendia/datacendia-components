@@ -16,8 +16,8 @@ model alerts {
   resolved_by        String?
   resolution         String?
   created_at         DateTime            @default(now())
-  metric_definitions metric_definitions? @relation(fields: [metric_id], references: [id])
-  organizations      organizations       @relation(fields: [organization_id], references: [id])
+  metric_definitions metric_definitions? @relation(fields: [metric_id], references: [id], onDelete: SetNull)
+  organizations      organizations       @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, status])
   @@index([severity])
@@ -56,7 +56,7 @@ model data_sources {
   metadata         Json             @default("{}")
   created_at       DateTime         @default(now())
   updated_at       DateTime
-  organizations    organizations    @relation(fields: [organization_id], references: [id])
+  organizations    organizations    @relation(fields: [organization_id], references: [id], onDelete: Cascade)
 
   @@index([organization_id, type])
 }
@@ -147,8 +147,8 @@ model metric_definitions {
   created_at       DateTime        @default(now())
   updated_at       DateTime
   alerts           alerts[]
-  organizations    organizations   @relation(fields: [organization_id], references: [id])
-  users            users?          @relation(fields: [owner_id], references: [id])
+  organizations    organizations   @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  users            users?          @relation(fields: [owner_id], references: [id], onDelete: SetNull)
   metric_values    metric_values[]
 
   @@unique([organization_id, code])
@@ -309,20 +309,20 @@ model health_incidents {
 model chronos_events {
   id              String   @id @default(uuid())
   organization_id String
-  event_type      String   // deliberation, decision_outcome, veto, dissent, alert, weight_adjustment, compliance, security, health, snapshot, collection, agent_config, data_source, metric_change
-  category        String   // council, echo, governance, security, data, system, compliance
+  event_type      String // deliberation, decision_outcome, veto, dissent, alert, weight_adjustment, compliance, security, health, snapshot, collection, agent_config, data_source, metric_change
+  category        String // council, echo, governance, security, data, system, compliance
   severity        String   @default("info") // info, low, medium, high, critical
   title           String
   description     String
-  actor           String?  // user_id or agent_id or 'system'
-  actor_type      String?  // user, agent, system, scheduler
-  resource_type   String?  // deliberation, decision, agent, metric, alert, etc.
-  resource_id     String?  // ID of the affected resource
+  actor           String? // user_id or agent_id or 'system'
+  actor_type      String? // user, agent, system, scheduler
+  resource_type   String? // deliberation, decision, agent, metric, alert, etc.
+  resource_id     String? // ID of the affected resource
   metadata        Json     @default("{}")
-  impact          String?  // positive, negative, neutral, critical
+  impact          String? // positive, negative, neutral, critical
   magnitude       Int      @default(0) // 0-10 significance score
-  parent_event_id String?  // For event chaining (e.g., deliberation -> outcome)
-  hash            String?  // SHA-256 hash for tamper detection
+  parent_event_id String? // For event chaining (e.g., deliberation -> outcome)
+  hash            String? // SHA-256 hash for tamper detection
   created_at      DateTime @default(now())
 
   @@index([organization_id, created_at])

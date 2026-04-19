@@ -12,8 +12,8 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA DISSENTÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - THE RIGHT TO FORMALLY, SAFELY, IMMUTABLY DISAGREE
-// "Every decision includes the right to disagree ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â on the record, forever."
+// CENDIA DISSENT—"¢ - THE RIGHT TO FORMALLY, SAFELY, IMMUTABLY DISAGREE
+// "Every decision includes the right to disagree — on the record, forever."
 //
 // The service that ensures no one can ever say "nobody objected" when someone did.
 // Provides every stakeholder the protected right to formally register disagreement
@@ -978,10 +978,10 @@ class CendiaDissentService {
     const insights: string[] = [];
     const oracles = topDissenters.filter(d => d.badge === 'ORACLE');
     if (oracles.length > 0) {
-      insights.push(`${oracles.length} ORACLE-level dissenter(s) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â their objections should carry extra weight`);
+      insights.push(`${oracles.length} ORACLE-level dissenter(s) — their objections should carry extra weight`);
     }
     if (organizationVindicationRate > 50) {
-      insights.push(`Dissenters are right ${organizationVindicationRate}% of the time ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â consider giving dissent more weight in decisions`);
+      insights.push(`Dissenters are right ${organizationVindicationRate}% of the time — consider giving dissent more weight in decisions`);
     }
     if (decisionsImprovedByDissent > 0) {
       insights.push(`${decisionsImprovedByDissent} decisions improved thanks to formal dissent`);
@@ -1014,23 +1014,23 @@ class CendiaDissentService {
     const metrics = await this.getOrganizationMetrics(organizationId);
     const allDissents = await this.getDissents(organizationId, { limit: 500 });
 
-    // Dimension 1: Response Rate ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â are dissents being heard?
+    // Dimension 1: Response Rate — are dissents being heard?
     const responseScore = Math.min(100, metrics.responseRate);
     
-    // Dimension 2: Acceptance Rate ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â are dissents being taken seriously?
+    // Dimension 2: Acceptance Rate — are dissents being taken seriously?
     const acceptanceScore = Math.min(100, metrics.acceptanceRate * 2.5);
     
-    // Dimension 3: Volume ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â is there enough dissent? (too little can be a red flag)
+    // Dimension 3: Volume — is there enough dissent? (too little can be a red flag)
     const volumeScore = allDissents.length >= 10 ? 90 : allDissents.length >= 5 ? 70 : allDissents.length >= 2 ? 50 : 20;
     
-    // Dimension 4: Diversity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â is dissent coming from multiple departments?
+    // Dimension 4: Diversity — is dissent coming from multiple departments?
     const uniqueDepts = new Set(allDissents.map(d => d.dissenterDepartment).filter(Boolean));
     const diversityScore = uniqueDepts.size >= 5 ? 100 : uniqueDepts.size >= 3 ? 75 : uniqueDepts.size >= 1 ? 50 : 20;
     
-    // Dimension 5: Retaliation Safety ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â zero tolerance for retaliation
+    // Dimension 5: Retaliation Safety — zero tolerance for retaliation
     const retaliationScore = metrics.retaliationFlags === 0 ? 100 : metrics.retaliationFlags <= 2 ? 60 : 20;
     
-    // Dimension 6: Anonymous Usage ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â healthy mix of anonymous and named
+    // Dimension 6: Anonymous Usage — healthy mix of anonymous and named
     const anonCount = allDissents.filter(d => d.isAnonymous).length;
     const anonRate = allDissents.length > 0 ? (anonCount / allDissents.length) * 100 : 0;
     const anonScore = anonRate >= 20 && anonRate <= 60 ? 90 : anonRate < 20 ? 60 : 50;
@@ -1049,17 +1049,17 @@ class CendiaDissentService {
     const overallScore = Math.round(dimensions.reduce((sum, d) => sum + d.score, 0) / dimensions.length);
 
     const redFlags: string[] = [];
-    if (allDissents.length === 0) redFlags.push('NO DISSENTS RECORDED ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â this may indicate suppressed dissent culture');
-    if (metrics.retaliationFlags > 0) redFlags.push(`${metrics.retaliationFlags} retaliation flags detected ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â investigate immediately`);
+    if (allDissents.length === 0) redFlags.push('NO DISSENTS RECORDED — this may indicate suppressed dissent culture');
+    if (metrics.retaliationFlags > 0) redFlags.push(`${metrics.retaliationFlags} retaliation flags detected — investigate immediately`);
     if (anonRate > 80) redFlags.push('Very high anonymous rate suggests fear of reprisal');
-    if (metrics.responseRate < 50) redFlags.push('Low response rate ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â dissenters feel ignored');
+    if (metrics.responseRate < 50) redFlags.push('Low response rate — dissenters feel ignored');
 
     const recommendations: string[] = [];
     for (const d of dimensions) {
       if (d.status === 'CRITICAL') recommendations.push(`URGENT: ${d.name} needs immediate attention (score: ${d.score}%)`);
       else if (d.status === 'NEEDS_IMPROVEMENT') recommendations.push(`Improve ${d.name}: ${d.insight}`);
     }
-    if (recommendations.length === 0) recommendations.push('Healthy dissent culture ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â continue reinforcing psychological safety');
+    if (recommendations.length === 0) recommendations.push('Healthy dissent culture — continue reinforcing psychological safety');
 
     return { overallScore, dimensions, redFlags, recommendations };
   }
@@ -1176,7 +1176,7 @@ class CendiaDissentService {
           avgSeverity,
           vindicated,
           recommendation: data.count >= 5
-            ? `Systemic ${pattern} issues ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â conduct root cause analysis`
+            ? `Systemic ${pattern} issues — conduct root cause analysis`
             : `Monitor ${pattern} dissent trend`,
         };
       })
@@ -1189,7 +1189,7 @@ class CendiaDissentService {
     const allTypes = ['factual', 'risk', 'ethical', 'process', 'strategic', 'resource'];
     const existingTypes = new Set(Object.keys(typeMap));
     const underDissentedAreas = allTypes.filter(t => !existingTypes.has(t))
-      .map(t => `No ${t} dissents recorded ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â consider encouraging ${t} objections`);
+      .map(t => `No ${t} dissents recorded — consider encouraging ${t} objections`);
 
     const mostCommon = topPatterns[0];
     const predictedNextDissent = mostCommon

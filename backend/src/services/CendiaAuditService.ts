@@ -155,7 +155,7 @@ export class CendiaAuditService extends BaseService {
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('[CendiaAudit] Compliance LoggingÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ initialized');
+    this.logger.info('[CendiaAudit] Compliance Logging—"¢ initialized');
     
     // Log service start
     await this.logEvent({
@@ -879,7 +879,7 @@ export class CendiaAuditService extends BaseService {
       recommendation: string;
     }> = [];
 
-    // Check 1: Volume spikes ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â daily event counts significantly above average
+    // Check 1: Volume spikes — daily event counts significantly above average
     const dailyCounts: Record<string, number> = {};
     for (const e of events) {
       const day = new Date(e.timestamp).toISOString().split('T')[0];
@@ -892,7 +892,7 @@ export class CendiaAuditService extends BaseService {
         anomalies.push({
           type: 'VOLUME_SPIKE',
           severity: count > avgDaily * 5 ? 'high' : 'medium',
-          description: `${count} events on ${day} (avg: ${Math.round(avgDaily)}/day) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ${Math.round(count / avgDaily)}x normal volume`,
+          description: `${count} events on ${day} (avg: ${Math.round(avgDaily)}/day) — ${Math.round(count / avgDaily)}x normal volume`,
           detectedAt: new Date(day),
           affectedResources: [],
           recommendation: 'Review high-volume day for unusual batch operations or automated attacks',
@@ -900,7 +900,7 @@ export class CendiaAuditService extends BaseService {
       }
     }
 
-    // Check 2: Off-hours activity ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â events during unusual hours
+    // Check 2: Off-hours activity — events during unusual hours
     const offHoursEvents = events.filter(e => {
       const hour = new Date(e.timestamp).getHours();
       return hour < 6 || hour > 22;
@@ -914,11 +914,11 @@ export class CendiaAuditService extends BaseService {
         detectedAt: new Date(),
         affectedResources: [],
         userId: users[0],
-        recommendation: 'Verify off-hours activity is authorized ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â may indicate compromised credentials',
+        recommendation: 'Verify off-hours activity is authorized — may indicate compromised credentials',
       });
     }
 
-    // Check 3: Rapid changes ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â same resource modified many times quickly
+    // Check 3: Rapid changes — same resource modified many times quickly
     const resourceChanges: Record<string, Date[]> = {};
     for (const e of events) {
       if (e.action.includes('update') || e.action.includes('modify') || e.action.includes('delete')) {
@@ -937,7 +937,7 @@ export class CendiaAuditService extends BaseService {
             description: `Resource ${resourceId} modified ${dates.length} times within ${Math.round(span / 60000)} minutes`,
             detectedAt: sorted[sorted.length - 1],
             affectedResources: [resourceId],
-            recommendation: 'Investigate rapid modifications ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â possible automated attack or data corruption',
+            recommendation: 'Investigate rapid modifications — possible automated attack or data corruption',
           });
         }
       }
@@ -1033,7 +1033,7 @@ export class CendiaAuditService extends BaseService {
 
     const criticalGaps = frameworks
       .filter(f => f.status === 'non_compliant')
-      .map(f => `${f.name}: Non-compliant (score: ${f.score}%) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ${f.issueCount} issues`);
+      .map(f => `${f.name}: Non-compliant (score: ${f.score}%) — ${f.issueCount} issues`);
 
     const upcomingDeadlines = [
       { framework: 'SOC2', deadline: '2025-03-31', requirement: 'Annual Type II audit' },
@@ -1043,10 +1043,10 @@ export class CendiaAuditService extends BaseService {
 
     const recommendations: string[] = [];
     for (const f of frameworks) {
-      if (f.score < 70) recommendations.push(`URGENT: ${f.name} compliance at ${f.score}% ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â remediate immediately`);
+      if (f.score < 70) recommendations.push(`URGENT: ${f.name} compliance at ${f.score}% — remediate immediately`);
       else if (f.score < 90) recommendations.push(`Improve ${f.name} compliance (${f.score}%) before next audit`);
     }
-    if (recommendations.length === 0) recommendations.push('All frameworks in good standing ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â maintain current practices');
+    if (recommendations.length === 0) recommendations.push('All frameworks in good standing — maintain current practices');
 
     return { overallScore, frameworks, criticalGaps, upcomingDeadlines, recommendations };
   }
@@ -1196,7 +1196,7 @@ export class CendiaAuditService extends BaseService {
     if (concentrationIndex > 70) insights.push(`High concentration: top 3 users account for ${concentrationIndex}% of activity`);
     const criticalUsers = topUsers.filter(u => u.riskScore > 60);
     if (criticalUsers.length > 0) insights.push(`${criticalUsers.length} user(s) with elevated risk scores`);
-    if (events.length < 50) insights.push('Low event volume ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â consider enabling more comprehensive auditing');
+    if (events.length < 50) insights.push('Low event volume — consider enabling more comprehensive auditing');
 
     return { topUsers, topResources, concentrationIndex, insights };
   }

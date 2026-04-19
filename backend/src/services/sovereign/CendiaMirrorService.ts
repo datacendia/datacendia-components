@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 // =============================================================================
-// CENDIA MIRRORÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ - Digital Twin Service
+// CENDIA MIRROR—"¢ - Digital Twin Service
 // "The live reflection of your enterprise."
 // Sovereign Organ Layer - Time & Simulation
 // =============================================================================

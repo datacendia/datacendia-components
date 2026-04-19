@@ -114,8 +114,6 @@ Write-Host "`n📋 Step 5: Copying configuration files..." -ForegroundColor Yell
 # docker-compose for production
 if (Test-Path "docker-compose.production.yml") {
     Copy-Item "docker-compose.production.yml" "$OutputDir/config/docker-compose.yml"
-} elseif (Test-Path "docker-compose.prod.yml") {
-    Copy-Item "docker-compose.prod.yml" "$OutputDir/config/docker-compose.yml"
 }
 
 # Environment template
