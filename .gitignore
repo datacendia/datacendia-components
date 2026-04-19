@@ -104,6 +104,9 @@ backend/jest-results.json
 backend/docs/FULL_TEST_REPORT_*.csv
 backend/docs/ALL_TESTS_REPORT.csv
 backend/docs/TEST_SUMMARY_ANALYTICS.md
+backend/COMPREHENSIVE_TEST_REPORT.md
+backend/SERVICE_TEST_REPORT.md
+backend/coverage-report.txt
 
 # Verified-security-audit runner output (written by scripts/verified-security-audit.ts)
 backend/audit-reports/AUDIT-*.json
