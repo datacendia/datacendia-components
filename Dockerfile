@@ -4,20 +4,7 @@
 # =============================================================================
 
 # -----------------------------------------------------------------------------
-# Stage 1: Dependencies
-# -----------------------------------------------------------------------------
-FROM node:20-alpine AS deps
-
-WORKDIR /app
-
-# Copy package files
-COPY package*.json ./
-
-# Install dependencies (production only for smaller image)
-RUN npm ci --only=production
-
-# -----------------------------------------------------------------------------
-# Stage 2: Builder
+# Stage 1: Builder
 # -----------------------------------------------------------------------------
 FROM node:20-alpine AS builder
 
@@ -36,7 +23,7 @@ COPY . .
 RUN npm run build
 
 # -----------------------------------------------------------------------------
-# Stage 3: Production
+# Stage 2: Production
 # -----------------------------------------------------------------------------
 FROM nginx:alpine AS production
 
