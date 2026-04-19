@@ -12,7 +12,7 @@
 // See LICENSE file for details.
 
 /**
- * CendiaCarbonAware—┚¬Å¾Ã"šÃ'¢ - Carbon-Aware AI Workload Scheduling
+ * CendiaCarbonAwareÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ - Carbon-Aware AI Workload Scheduling
  * 
  * Enterprise Platinum Feature: Reduce carbon footprint of AI operations
  * 
@@ -26,7 +26,8 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../../utils/logger.js';
-import { loadServiceRecords } from '../../utils/servicePersistence.js';
+import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+
 // ============================================================================
 // TYPES
 // ============================================================================
@@ -138,7 +139,7 @@ export class CarbonAwareSchedulerService {
   private readonly cacheExpiryMs = 5 * 60 * 1000; // 5 minutes
 
   constructor() {
-    logger.info('[CendiaCarbon] Carbon-Aware Scheduler—┚¬Å¾Ã"šÃ'¢ initialized');
+    logger.info('[CendiaCarbon] Carbon-Aware SchedulerÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ initialized');
 
 
     this.loadFromDB().catch(() => {});

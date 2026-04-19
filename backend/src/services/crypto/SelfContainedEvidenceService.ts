@@ -66,20 +66,36 @@ export interface EvidencePackage {
 
 /**
  * Structural shape of a Regulator's Receipt as consumed by this service.
+ *
  * All fields are optional because the service must tolerate partial receipts
  * (missing ZKP, VDF, etc.) and still emit whatever evidence is available.
+ * Opaque cryptographic sub-objects (signatures, merkle forests, VDF proofs)
+ * are typed as `Record<string, unknown>` because their internal shape is
+ * domain-specific and only rendered into the HTML verifier template — this
+ * service does not interpret them.
  */
+type OpaqueProof = Record<string, unknown>;
+
 export interface EvidenceReceiptInput {
   receiptId?: string;
-  decision?: { id?: string };
+  generatedAt?: string;
+  retention?: { jurisdiction?: string; [key: string]: unknown };
+  decision?: {
+    id?: string;
+    question?: string;
+    consensusScore?: number;
+    [key: string]: unknown;
+  };
   cryptographicProof?: {
     receiptHash?: string;
-    dualSignature?: unknown;
+    algorithm?: string;
+    dualSignature?: OpaqueProof;
+    [key: string]: unknown;
   };
-  zkProofs?: unknown;
-  merkleForest?: unknown;
-  commitment?: unknown;
-  vdfProof?: unknown;
+  zkProofs?: OpaqueProof;
+  merkleForest?: OpaqueProof;
+  commitment?: OpaqueProof;
+  vdfProof?: OpaqueProof;
   evidenceChain?: {
     merkleRoot?: string;
     deliberationHash?: string;
@@ -103,6 +119,7 @@ export interface EvidenceReceiptInput {
       status: 'met' | 'unmet' | string;
     }>;
   };
+  [key: string]: unknown;
 }
 
 // =============================================================================
@@ -169,7 +186,7 @@ export class SelfContainedEvidenceService {
     }
 
     // 8. Visual stamp SVG
-    if (receipt.cryptographicProof?.receiptHash) {
+    if (receipt.cryptographicProof?.receiptHash && receipt.receiptId) {
       const stamp = cendiaStampService.generateStamp(receipt.receiptId, receipt.cryptographicProof.receiptHash);
       files.push(this.createFile('stamp.svg', stamp.svg, 'image/svg+xml'));
     }
@@ -212,8 +229,16 @@ export class SelfContainedEvidenceService {
   private generateStandaloneVerifier(receipt: EvidenceReceiptInput, files: EvidencePackageFile[]): string {
     const receiptJson = JSON.stringify(receipt);
     const receiptHash = receipt.cryptographicProof?.receiptHash || '';
-    const dualSig = receipt.cryptographicProof?.dualSignature;
-    const merkle = receipt.merkleForest;
+    // The HTML template walks opaque cryptographic sub-structures (signatures,
+    // merkle forest) purely to render string fingerprints. Narrow typing here
+    // would just force casts at every access site; the data is already
+    // captured in the public EvidenceReceiptInput shape.
+    const dualSig = receipt.cryptographicProof?.dualSignature as
+      | { ed25519?: { fingerprint?: string; signature?: string }; dilithium?: { fingerprint?: string; signature?: string } }
+      | undefined;
+    const merkle = receipt.merkleForest as
+      | { root?: string; treeSize?: number; proof?: { treeSize?: number } }
+      | undefined;
     const stamp = files.find(f => f.filename === 'stamp.svg');
 
     return `<!DOCTYPE html>
