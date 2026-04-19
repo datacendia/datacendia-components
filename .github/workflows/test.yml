@@ -81,7 +81,12 @@ jobs:
       - name: Lint
         working-directory: backend
         run: npx eslint src --ext .ts --max-warnings 0
-        continue-on-error: true # warn-only until H2 ratchet pass completes
+        # Non-blocking: backend ESLint config warns on ~64 unused-var sites
+        # pre-existing to the current cleanup pass. Flip to continue-on-error:
+        # false once a dedicated unused-var sweep lands (see backend/.eslintrc.cjs
+        # rule comment) OR change --max-warnings to an explicit ceiling that
+        # freezes the current count and blocks regressions.
+        continue-on-error: true
 
       - name: Run unit tests with coverage
         working-directory: backend
