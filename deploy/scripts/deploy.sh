@@ -51,17 +51,17 @@ build_images() {
     log_info "Building Docker images..."
     cd "$PROJECT_ROOT"
     
-    docker compose -f docker-compose.prod.yml build --no-cache
-    
+    docker compose -f docker-compose.production.yml build --no-cache
+
     log_info "Images built successfully ✓"
 }
 
 # Run database migrations
 run_migrations() {
     log_info "Running database migrations..."
-    
+
     # Wait for database to be ready
-    docker compose -f docker-compose.prod.yml exec -T api npx prisma migrate deploy
+    docker compose -f docker-compose.production.yml exec -T api npx prisma migrate deploy
     
     log_info "Migrations completed ✓"
 }
@@ -72,10 +72,10 @@ deploy_services() {
     cd "$PROJECT_ROOT"
     
     # Pull latest images for dependencies
-    docker compose -f docker-compose.prod.yml pull postgres redis neo4j
+    docker compose -f docker-compose.production.yml pull postgres redis neo4j
     
     # Start services
-    docker compose -f docker-compose.prod.yml up -d
+    docker compose -f docker-compose.production.yml up -d
     
     log_info "Services deployed ✓"
 }
@@ -99,7 +99,7 @@ health_check() {
     done
     
     log_error "Health check failed after $max_attempts attempts"
-    docker compose -f docker-compose.prod.yml logs api
+    docker compose -f docker-compose.production.yml logs api
     exit 1
 }
 
@@ -107,7 +107,7 @@ health_check() {
 show_status() {
     log_info "Deployment Status:"
     echo ""
-    docker compose -f docker-compose.prod.yml ps
+    docker compose -f docker-compose.production.yml ps
     echo ""
     log_info "Deployment complete! 🎉"
     echo ""
