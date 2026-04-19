@@ -33,7 +33,10 @@ module.exports = {
     '**/*.mjs',
   ],
   rules: {
-    // TypeScript adjustments — start pragmatic, ratchet later
+    // TypeScript adjustments — pre-existing unused-var inventory (~64 in
+    // backend) needs a dedicated cleanup pass before this can become a hard
+    // error. Kept at WARN so NEW violations are visible in CI logs without
+    // blocking the build.
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-unused-vars': ['warn', {
       argsIgnorePattern: '^_',
