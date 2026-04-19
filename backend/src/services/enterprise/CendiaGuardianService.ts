@@ -729,7 +729,7 @@ Consider:
     }
 
     const carePackage: CarePackage = {
-      id: `care-${Date.now()}`,
+      id: `care-${Date.now()}-${crypto.randomUUID().slice(0, 9)}`,
       customerId,
       type,
       components,
