@@ -99,8 +99,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      # TruffleHog pinned to release tag (H10/N3). TODO: re-pin to commit SHA
+      # for full supply-chain hardening.
       - name: TruffleHog secret scan
-        uses: trufflesecurity/trufflehog@main
+        uses: trufflesecurity/trufflehog@v3.88.4
         with:
           extra_args: --only-verified --results=verified
 
