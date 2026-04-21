@@ -138,8 +138,6 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
     },
     ref
   ) => {
-    const hasLeftContent = leftIcon || leftAddon;
-    const hasRightContent = rightIcon || rightAddon;
 
     return (
       <div className="relative flex">

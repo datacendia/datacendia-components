@@ -116,7 +116,7 @@ const MOCK_ESCROWS: EscrowedDecision[] = [
 
 export const EscrowManagementPage: React.FC = () => {
   const [escrows, setEscrows] = useState<EscrowedDecision[]>(MOCK_ESCROWS);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;

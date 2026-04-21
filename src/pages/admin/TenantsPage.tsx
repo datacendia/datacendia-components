@@ -119,16 +119,6 @@ async function fetchTenantMetrics(): Promise<TenantMetrics> {
   }
 }
 
-async function createTenant(data: Partial<Tenant>): Promise<Tenant> {
-  const res = await api.post<any>(`${API_BASE}/tenants`, data);
-  return res?.data || res;
-}
-
-async function updateTenant(id: string, data: Partial<Tenant>): Promise<Tenant> {
-  const res = await api.patch<any>(`${API_BASE}/tenants/${id}`, data);
-  return res?.data || res;
-}
-
 async function suspendTenant(id: string, reason: string): Promise<Tenant> {
   const res = await api.post<any>(`${API_BASE}/tenants/${id}/suspend`, { reason });
   return res?.data || res;
@@ -339,8 +329,8 @@ export const TenantsPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [planFilter, setPlanFilter] = useState<string>('all');
-  const [selectedTenant, setSelectedTenant] = useState<Tenant | null>(null);
-  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [_selectedTenant, setSelectedTenant] = useState<Tenant | null>(null);
+  const [_showCreateModal, setShowCreateModal] = useState(false);
   const [actionMenuId, setActionMenuId] = useState<string | null>(null);
 
   const loadData = useCallback(async () => {

@@ -277,12 +277,12 @@ const formatCurrency = (amount: number): string => {
 // =============================================================================
 
 export default function SportsPage() {
-  const { t } = useTranslation();
-  const { user } = useAuth();
+  const { t: _t } = useTranslation();
+  const { user: _user } = useAuth();
   const navigate = useNavigate();
-  const [decisions, setDecisions] = useState<TransferDecision[]>(MOCK_DECISIONS);
+  const [decisions, _setDecisions] = useState<TransferDecision[]>(MOCK_DECISIONS);
   const [frameworks] = useState<ComplianceFramework[]>(MOCK_FRAMEWORKS);
-  const [loading, setLoading] = useState(false);
+  const [_loading, _setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [typeFilter, setTypeFilter] = useState<string>('all');

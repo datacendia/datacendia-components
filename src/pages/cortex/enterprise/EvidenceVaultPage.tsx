@@ -325,11 +325,11 @@ const getModeConfig = (mode: DecisionMode) => {
 
 export const EvidenceVaultPage: React.FC = () => {
   const navigate = useNavigate();
-  const { selectedDataSource } = useDataSource();
+  const { selectedDataSource: _selectedDataSource } = useDataSource();
   
   // Data state
   const [packets, setPackets] = useState<DecisionPacket[]>(MOCK_PACKETS);
-  const [isLoading, setIsLoading] = useState(false);
+  const [_isLoading, setIsLoading] = useState(false);
   const [selectedPacket, setSelectedPacket] = useState<DecisionPacket | null>(null);
   const [showFilters, setShowFilters] = useState(false);
   const [sortField] = useState<'generatedAt' | 'status' | 'accessCount'>('generatedAt');
@@ -421,7 +421,7 @@ export const EvidenceVaultPage: React.FC = () => {
     }
   };
 
-  const handleLockPacket = async (packetId: string) => {
+  const handleLockPacket = async (_packetId: string) => {
     try {
       // await evidenceVaultApi.lockPacket(packetId);
       fetchPackets();

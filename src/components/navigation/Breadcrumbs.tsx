@@ -95,21 +95,6 @@ const ROUTE_LABELS: Record<string, string> = {
   'vertical-config': 'Vertical Config',
 };
 
-// Tier context — inject tier label into breadcrumb trail
-const TIER_CONTEXT: Record<string, string> = {
-  council: 'Foundation',
-  intelligence: 'Foundation',
-  dcii: 'Foundation',
-  enterprise: 'Enterprise',
-  compliance: 'Enterprise',
-  governance: 'Enterprise',
-  monitor: 'Enterprise',
-  sovereign: 'Strategic',
-  collapse: 'Strategic',
-  sgas: 'Strategic',
-  sanctuary: 'Strategic',
-};
-
 interface BreadcrumbsProps {
   className?: string;
   maxItems?: number;

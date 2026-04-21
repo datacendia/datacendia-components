@@ -25,7 +25,7 @@ import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 // =============================================================================
 
 export const DataSourcesPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
 
   const sources = [
     {

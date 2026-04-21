@@ -292,21 +292,21 @@ const formatTimeAgo = (date: Date) => {
 // =============================================================================
 
 export const CrisisManagementPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   const [activeTab, setActiveTab] = useState<'dashboard' | 'incidents' | 'war-room' | 'playbooks'>(
     'dashboard'
   );
   const [selectedIncident, setSelectedIncident] = useState<Incident | null>(null);
   const [filterSeverity, setFilterSeverity] = useState<IncidentSeverity | 'all'>('all');
   const [incidents, setIncidents] = useState<Incident[]>(mockIncidents);
-  const [warRoom, setWarRoom] = useState<WarRoom>(mockWarRoom);
-  const [loading, setLoading] = useState(true);
+  const [warRoom, _setWarRoom] = useState<WarRoom>(mockWarRoom);
+  const [_loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const [alertsRes, summaryRes] = await Promise.all([
+        const [alertsRes, _summaryRes] = await Promise.all([
           api.get<any[]>('/alerts'),
           api.get<any>('/alerts/summary'),
         ]);

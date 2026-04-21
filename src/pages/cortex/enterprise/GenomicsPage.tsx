@@ -46,7 +46,6 @@ type ClinicalDomain =
   | 'pharmacology';
 type RiskLevel = 'critical' | 'high' | 'moderate' | 'low' | 'minimal';
 type TrialPhase = 'preclinical' | 'phase1' | 'phase2' | 'phase3' | 'phase4' | 'approved';
-type RegulatoryBody = 'fda' | 'ema' | 'pmda' | 'nmpa' | 'hc';
 
 interface PatientCohort {
   id: string;
@@ -59,22 +58,6 @@ interface PatientCohort {
   avgLOS: number; // Length of stay
   readmissionRate: number;
   predictedOutcome: number;
-}
-
-interface ClinicalPathway {
-  id: string;
-  name: string;
-  domain: ClinicalDomain;
-  stages: {
-    name: string;
-    avgDuration: number;
-    successRate: number;
-    cost: number;
-  }[];
-  totalPatients: number;
-  avgOutcomeScore: number;
-  complianceRate: number;
-  lastOptimized: Date;
 }
 
 interface AdverseEventPrediction {
@@ -459,7 +442,7 @@ export const GenomicsPage: React.FC = () => {
   const [fdaSubmissions] = useState<FDASubmission[]>(generateFDASubmissions);
   const [adverseEvents] = useState<AdverseEventPrediction[]>(generateAdverseEventPredictions);
   const [geneticModels] = useState<GeneticRiskModel[]>(generateGeneticModels);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Fetch real data from API
   useEffect(() => {

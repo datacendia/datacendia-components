@@ -373,7 +373,6 @@ const CATEGORY_CONFIG: Record<DecisionCategory, { icon: string; color: string; n
 
 class EnterpriseService {
   private autoDecisions: Map<string, AutoDecision> = new Map();
-  private automationRules: Map<string, AutomationRule> = new Map();
   private gpuNodes: Map<string, GPUNode> = new Map();
   private deployedModels: Map<string, DeployedModel> = new Map();
   private voiceMessages: VoiceMessage[] = [];

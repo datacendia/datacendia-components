@@ -30,7 +30,6 @@ type MessageHandler = (data: unknown) => void;
 class WebSocketClient {
   private socket: Socket | null = null;
   private handlers: Map<string, Set<MessageHandler>> = new Map();
-  private reconnectAttempts = 0;
   private maxReconnectAttempts = 5;
 
   connect(): void {
@@ -54,7 +53,6 @@ class WebSocketClient {
 
     this.socket.on('connect', () => {
       logger.info('WebSocket connected');
-      this.reconnectAttempts = 0;
     });
 
     this.socket.on('disconnect', (reason) => {

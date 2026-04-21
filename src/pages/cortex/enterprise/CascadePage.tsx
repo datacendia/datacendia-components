@@ -258,7 +258,7 @@ const CascadePage: React.FC = () => {
     },
   });
 
-  const [assetInput, setAssetInput] = useState('');
+  const [_assetInput, _setAssetInput] = useState('');
 
   // Auto-select mode based on change type
   useEffect(() => {
@@ -422,7 +422,7 @@ const CascadePage: React.FC = () => {
     const isStaffChange = title.includes('staff') || title.includes('layoff') || title.includes('headcount') ||
                           title.includes('hire') || title.includes('reduction') || description.includes('staff');
     const isProductChange = title.includes('product') || title.includes('feature') || title.includes('launch');
-    const isProcessChange = title.includes('process') || title.includes('workflow') || title.includes('policy');
+    void (title.includes('process') || title.includes('workflow') || title.includes('policy'));
 
     // Generate context-appropriate consequences
     if (isPricingChange) {
@@ -703,16 +703,6 @@ const CascadePage: React.FC = () => {
         { type: 'escalation', condition: 'Stakeholder satisfaction drops below 60%', action: 'Trigger executive review and realignment session' },
       ],
     };
-  };
-
-  const addAsset = () => {
-    if (assetInput.trim()) {
-      setChangeForm({
-        ...changeForm,
-        affectedAssets: [...changeForm.affectedAssets, assetInput.trim()],
-      });
-      setAssetInput('');
-    }
   };
 
   const removeAsset = (index: number) => {

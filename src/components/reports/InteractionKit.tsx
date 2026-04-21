@@ -301,7 +301,7 @@ export const InlineAnnotation: React.FC<{
   annotations: Annotation[];
   onAdd: (text: string) => void;
   onDelete?: (id: string) => void;
-}> = ({ targetId, targetType, annotations, onAdd, onDelete }) => {
+}> = ({ targetId, targetType: _targetType, annotations, onAdd, onDelete }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [text, setText] = useState('');
 
@@ -399,8 +399,8 @@ export const ThresholdIndicator: React.FC<{
   format?: (v: number) => string;
   showConfig?: boolean;
   onConfigChange?: (thresholds: ThresholdConfig[]) => void;
-}> = ({ value, label, thresholds, format = (v) => String(v), showConfig = false, onConfigChange }) => {
-  const [configOpen, setConfigOpen] = useState(false);
+}> = ({ value, label, thresholds, format = (v) => String(v), showConfig: _showConfig = false, onConfigChange: _onConfigChange }) => {
+  const [_configOpen, _setConfigOpen] = useState(false);
 
   const breached = thresholds.filter(t => {
     if (!t.enabled) {return false;}

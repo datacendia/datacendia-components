@@ -64,7 +64,7 @@ interface PacketListItem {
 // =============================================================================
 
 export const DecisionPacketsPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   
   // State
   const [packets, setPackets] = useState<PacketListItem[]>([]);
@@ -74,7 +74,7 @@ export const DecisionPacketsPage: React.FC = () => {
   const [isVerifying, setIsVerifying] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [filterSigned, setFilterSigned] = useState<'all' | 'signed' | 'unsigned'>('all');
-  const [error, setError] = useState<string | null>(null);
+  const [_error, setError] = useState<string | null>(null);
 
   // Load packets (mock data for now since API might not be ready)
   useEffect(() => {

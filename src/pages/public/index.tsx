@@ -779,15 +779,6 @@ export { ProductPage } from './ProductPage';
 export const AboutPage: React.FC = () => {
   const navigate = useNavigate();
 
-  const team = [
-    {
-      name: 'Stuart Rainey',
-      role: 'Founder & CEO',
-      avatar: '👨‍💼',
-      bio: 'Serial entrepreneur with 20+ years building enterprise software.',
-    },
-  ];
-
   const values = [
     {
       icon: '🔐',
@@ -947,8 +938,8 @@ export const ContactPage: React.FC = () => {
     type: 'general',
   });
   const [submitted, setSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [_isSubmitting, setIsSubmitting] = useState(false);
+  const [_error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

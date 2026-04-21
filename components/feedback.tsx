@@ -151,7 +151,7 @@ export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 // =============================================================================
 
 const Toast: React.FC<ToastProps> = ({
-  id,
+  id: _id,
   status,
   title,
   description,

@@ -377,7 +377,7 @@ export const HomePage: React.FC = () => {
           </div>
 
           <div className="grid md:grid-cols-5 gap-6">
-            {cortexSpaces.map((space, index) => (
+            {cortexSpaces.map((space, _index) => (
               <div
                 key={space.name}
                 className="p-6 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-lg transition-all cursor-pointer group"

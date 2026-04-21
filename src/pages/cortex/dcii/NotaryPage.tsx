@@ -69,7 +69,7 @@ const DEMO_KEYS: KMSKey[] = [
 export const NotaryPage: React.FC = () => {
   const [keys, setKeys] = useState<KMSKey[]>(DEMO_KEYS);
   const [status, setStatus] = useState<KMSStatus | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
   useEffect(() => {

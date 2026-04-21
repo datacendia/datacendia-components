@@ -76,7 +76,7 @@ export const PreMortemPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [agents, setAgents] = useState<Agent[]>([]);
   const [selectedAgents, setSelectedAgents] = useState<string[]>(['cfo', 'ciso', 'clo']);
-  const [ollamaStatus, setOllamaStatus] = useState({ available: false, models: [] as string[] });
+  const [_ollamaStatus, setOllamaStatus] = useState({ available: false, models: [] as string[] });
 
   // Live deliberation state
   const [showLiveView, setShowLiveView] = useState(false);

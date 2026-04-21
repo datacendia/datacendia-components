@@ -178,7 +178,7 @@ const CollapsePage: React.FC = () => {
   const [showVerificationPanel, setShowVerificationPanel] = useState(false);
   const [overrideRecord, setOverrideRecord] = useState<OverrideRecord | null>(null);
   const [verificationResult, setVerificationResult] = useState<VerificationResult | null>(null);
-  const [verifyingBundle, setVerifyingBundle] = useState(false);
+  const [_verifyingBundle, setVerifyingBundle] = useState(false);
   const [uploadedBundle, setUploadedBundle] = useState<any>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   

@@ -152,7 +152,7 @@ const LEGAL_AGENTS = [
 // =============================================================================
 
 const LegalWorkflowPage: React.FC = () => {
-  const [activeWorkflows, setActiveWorkflows] = useState<any[]>([]);
+  const [_activeWorkflows, setActiveWorkflows] = useState<any[]>([]);
 
   useEffect(() => {
     let cancelled = false;

@@ -37,7 +37,6 @@ import {
   RefreshCw,
 } from 'lucide-react';
 import { gnosisApi } from '../../../lib/api';
-import { sovereignApi, enterpriseApi } from '../../../lib/sovereignApi';
 
 interface DashboardData {
   userProfile: {
@@ -593,85 +592,6 @@ const GnosisPage = () => {
       return 'Beginner';
     }
     return 'Novice';
-  };
-
-  // RAG Document Upload Handler (Sovereign Stack Integration + Tika)
-  const handleDocumentUpload = async (file: File) => {
-    try {
-      const documentId = `doc-${Date.now()}`;
-
-      // Read file as base64 for Tika extraction
-      const arrayBuffer = await file.arrayBuffer();
-      const base64Content = btoa(
-        new Uint8Array(arrayBuffer).reduce((data, byte) => data + String.fromCharCode(byte), '')
-      );
-
-      // Use Apache Tika for intelligent text extraction (PDF, DOCX, PPTX, etc.)
-      let extractedText = '';
-      let metadata: any = {};
-
-      const tikaResult = await enterpriseApi.extractDocument(
-        base64Content,
-        file.type,
-        file.name,
-        false // useOCR - set true for scanned documents
-      );
-
-      if (tikaResult) {
-        extractedText = tikaResult.text;
-        metadata = tikaResult.metadata;
-        logger.info('[Gnosis] Tika extracted:', tikaResult.wordCount, 'words from', file.name);
-      } else {
-        // Fallback to raw text for plain text files
-        extractedText = await file.text();
-        logger.info('[Gnosis] Using raw text extraction for:', file.name);
-      }
-
-      // Upload original file to MinIO
-      await sovereignApi.storage.uploadDocument(file.name, base64Content, file.type, {
-        uploadedBy: 'gnosis',
-        type: 'learning-material',
-        ...metadata,
-      });
-      logger.info('[Gnosis] Document uploaded to MinIO:', file.name);
-
-      // Store extracted text embeddings in pgvector for RAG
-      const chunks = await sovereignApi.vector.storeDocument(documentId, extractedText, {
-        fileName: file.name,
-        type: 'learning-material',
-        extractedBy: 'tika',
-        wordCount: metadata.wordCount,
-        ...metadata,
-      });
-      logger.info('[Gnosis] Document indexed for RAG:', chunks, 'chunks');
-
-      // Queue for additional processing if needed
-      await sovereignApi.queue.queueDocumentProcessing({
-        documentId,
-        fileName: file.name,
-        fileType: file.type,
-        storageUrl: `minio://cendia-documents/${file.name}`,
-        extractText: false, // Already extracted via Tika
-        generateEmbeddings: true,
-      });
-
-      return { success: true, documentId, chunks, wordCount: metadata.wordCount };
-    } catch (error) {
-      logger.error('[Gnosis] Document upload failed:', error);
-      return { success: false, error };
-    }
-  };
-
-  // RAG Search Handler
-  const searchKnowledgeBase = async (query: string) => {
-    try {
-      const results = await sovereignApi.vector.searchSimilar(query, 5, 0.7);
-      logger.info('[Gnosis] RAG search results:', results.length);
-      return results;
-    } catch (error) {
-      logger.error('[Gnosis] RAG search failed:', error);
-      return [];
-    }
   };
 
   if (loading) {

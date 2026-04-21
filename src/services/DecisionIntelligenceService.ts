@@ -693,7 +693,7 @@ Provide analysis in JSON format:
     return result;
   }
 
-  private generateDefaultFailureModes(decision: string, budget?: number): FailureMode[] {
+  private generateDefaultFailureModes(_decision: string, budget?: number): FailureMode[] {
     const baseCost = budget || 100000;
     return [
       {
@@ -946,7 +946,7 @@ ANSWER: [suggested answer]`;
     const avgDaysStuck =
       decisions.reduce((s, d) => s + d.daysStuck, 0) / Math.max(1, totalDecisions);
     const dailyCost = decisions.reduce((s, d) => s + d.estimatedDailyCost, 0);
-    const totalAccrued = decisions.reduce((s, d) => s + d.totalCostAccrued, 0);
+    void (decisions.reduce((s, d) => s + d.totalCostAccrued, 0));
 
     // Calculate debt score
     let grade = 'A';

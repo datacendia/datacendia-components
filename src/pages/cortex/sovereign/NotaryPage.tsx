@@ -59,14 +59,14 @@ interface AuditEntry {
 }
 
 const NotaryPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'overview' | 'keys' | 'providers' | 'audit' | 'settings'>('overview');
   const [keys, setKeys] = useState<KeyInfo[]>([]);
   const [providers, setProviders] = useState<ProviderStatus[]>([]);
   const [auditLog, setAuditLog] = useState<AuditEntry[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [showSecrets, setShowSecrets] = useState(false);
-  const [selectedKey, setSelectedKey] = useState<KeyInfo | null>(null);
+  const [_isLoading, setIsLoading] = useState(true);
+  const [_showSecrets, _setShowSecrets] = useState(false);
+  const [_selectedKey, _setSelectedKey] = useState<KeyInfo | null>(null);
 
   useEffect(() => {
     loadNotaryData();
@@ -237,10 +237,6 @@ const NotaryPage: React.FC = () => {
 
   const formatDate = (dateStr: string) => {
     return new Date(dateStr).toLocaleString();
-  };
-
-  const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
   };
 
   // Stats calculations

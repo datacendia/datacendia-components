@@ -133,8 +133,8 @@ export function AgentDropdown({
   agents,
   selectedAgents,
   onSelectionChange,
-  onSelectAll,
-  onClearSelection,
+  onSelectAll: _onSelectAll,
+  onClearSelection: _onClearSelection,
   className,
   compact = false,
 }: AgentDropdownProps) {
@@ -296,7 +296,7 @@ export function AgentDropdown({
               const selectedInCategory = categoryAgents.filter((a) =>
                 selectedAgents.includes(a.id)
               ).length;
-              const onlineInCategory = categoryAgents.filter((a) => a.status === 'online').length;
+              void (categoryAgents.filter((a) => a.status === 'online').length);
 
               return (
                 <div key={categoryName} className="border-b border-neutral-100 last:border-b-0">

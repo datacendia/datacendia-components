@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Route Config — Public Routes
  *
  * React Router route definitions and lazy-loaded imports.
@@ -29,9 +29,9 @@ const HomePage = lazy(() => import('../pages/public').then((m) => ({ default: m.
 const ProductPage = lazy(() => import('../pages/public').then((m) => ({ default: m.ProductPage })));
 const AboutPage = lazy(() => import('../pages/public').then((m) => ({ default: m.AboutPage })));
 const ContactPage = lazy(() => import('../pages/public').then((m) => ({ default: m.ContactPage })));
-const ManifestoPage = lazy(() =>
+void (lazy(() =>
   import('../pages/public').then((m) => ({ default: m.ManifestoPage }))
-);
+));
 const DownloadsPage = lazy(() =>
   import('../pages/public').then((m) => ({ default: m.DownloadsPage }))
 );

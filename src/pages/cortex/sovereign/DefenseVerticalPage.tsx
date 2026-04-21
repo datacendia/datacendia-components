@@ -184,13 +184,13 @@ const StatCard: React.FC<{ icon: React.ReactNode; label: string; value: string |
 // =============================================================================
 
 export const DefenseVerticalPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'overview' | 'agents' | 'modes' | 'compliance'>('overview');
   const [summary, setSummary] = useState<DefenseSummary>(DEFAULT_SUMMARY);
   const [agents, setAgents] = useState<DefenseAgent[]>(DEFAULT_AGENTS);
   const [modes, setModes] = useState<DefenseMode[]>(DEFAULT_MODES);
-  const [isLoading, setIsLoading] = useState(true);
-  const [selectedMode, setSelectedMode] = useState<DefenseMode | null>(null);
+  const [_isLoading, setIsLoading] = useState(true);
+  const [_selectedMode, _setSelectedMode] = useState<DefenseMode | null>(null);
 
   // Load data from API on mount
   useEffect(() => {

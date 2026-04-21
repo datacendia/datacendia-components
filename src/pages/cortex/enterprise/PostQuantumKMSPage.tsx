@@ -83,7 +83,7 @@ interface SignatureResult {
 // =============================================================================
 
 export default function PostQuantumKMSPage() {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [algorithms, setAlgorithms] = useState<AlgorithmSpec[]>([]);
   const [keys, setKeys] = useState<PQKeyPair[]>([]);

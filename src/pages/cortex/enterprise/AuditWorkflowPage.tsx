@@ -410,13 +410,13 @@ export const AuditWorkflowPage: React.FC = () => {
   const [selectedTask, setSelectedTask] = useState<AuditTask | null>(null);
 
   const [audit, setAudit] = useState<Audit>(mockAudit);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const [auditsRes, evidenceRes] = await Promise.all([
+        const [auditsRes, _evidenceRes] = await Promise.all([
           api.get<any>('/govern/audits'),
           api.get<any>('/evidence'),
         ]);
@@ -520,7 +520,7 @@ export const AuditWorkflowPage: React.FC = () => {
         <div className="mt-6 flex items-center gap-4">
           <span className="text-sm text-neutral-400">Team:</span>
           <div className="flex -space-x-2">
-            {audit.team.map((member, idx) => (
+            {audit.team.map((member, _idx) => (
               <div
                 key={member.name}
                 className="w-8 h-8 rounded-full bg-primary-600 flex items-center justify-center text-xs font-medium border-2 border-neutral-800"

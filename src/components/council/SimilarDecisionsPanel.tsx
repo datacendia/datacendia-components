@@ -93,7 +93,7 @@ const MOCK_PRECEDENTS: PrecedentMatch[] = [
 
 export const SimilarDecisionsPanel: React.FC<SimilarDecisionsPanelProps> = ({
   currentQuestion,
-  deliberationId,
+  deliberationId: _deliberationId,
   className = '',
   maxResults = 5,
 }) => {

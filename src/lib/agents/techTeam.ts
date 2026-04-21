@@ -671,7 +671,7 @@ export function getAgentsByCapability(capability: string): DomainAgent[] {
  * Determine which agent should handle an error
  */
 export function assignAgentForError(error: ErrorAnalysis): string {
-  const { file, errorType, message } = error;
+  const { file, errorType: _errorType, message } = error;
 
   // Frontend errors
   if (file.includes('/components/') || file.includes('/pages/') || file.includes('.tsx')) {
@@ -713,7 +713,7 @@ export function assignAgentForError(error: ErrorAnalysis): string {
 /**
  * Generate fix prompt for an agent
  */
-export function generateFixPrompt(error: ErrorAnalysis, agent: DomainAgent): string {
+export function generateFixPrompt(error: ErrorAnalysis, _agent: DomainAgent): string {
   return `
 ## Error to Fix
 

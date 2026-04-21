@@ -49,7 +49,7 @@ export default function RegulatorySandboxPage() {
   const [regulations, setRegulations] = useState<ProposedRegulation[]>([]);
   const [tests, setTests] = useState<SandboxTest[]>([]);
   const [timeline, setTimeline] = useState<RegulatoryTimeline | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('regulations');
 
   useEffect(() => {

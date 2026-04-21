@@ -215,13 +215,6 @@ interface VetoRecord {
   outcome: 'blocked' | 'escalated' | 'overridden';
 }
 
-interface WeightChange {
-  timestamp: Date;
-  oldWeight: number;
-  newWeight: number;
-  changedBy: string;
-}
-
 // Mock data for signals
 const MOCK_SIGNALS: Signal[] = [
   {
@@ -317,7 +310,7 @@ export const VoxPage: React.FC = () => {
   const [newWeight, setNewWeight] = useState<number>(1.0);
   const [showPhilosophy, setShowPhilosophy] = useState(false);
   const [showDecisionTimeline, setShowDecisionTimeline] = useState(false);
-  const [activeTimelineDecision, setActiveTimelineDecision] = useState<string | null>(null);
+  const [_activeTimelineDecision, _setActiveTimelineDecision] = useState<string | null>(null);
   const [showSentimentChart, setShowSentimentChart] = useState(false);
   const [selectedChartStakeholder, setSelectedChartStakeholder] = useState<string | null>(null);
 
@@ -1222,7 +1215,7 @@ export const VoxPage: React.FC = () => {
             {/* Chart Area */}
             <div className="bg-slate-900 rounded-lg p-4 mb-4">
               <div className="h-64 flex items-end gap-1">
-                {SENTIMENT_HISTORY.map((month, i) => (
+                {SENTIMENT_HISTORY.map((month, _i) => (
                   <div key={month.month} className="flex-1 flex flex-col items-center">
                     <div className="w-full flex flex-col gap-0.5 h-52">
                       {(selectedChartStakeholder

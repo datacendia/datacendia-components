@@ -269,7 +269,7 @@ export function cusum(
 export function detectDrift(
   values: number[],
   baselineRatio: number = 0.7,
-  alpha: number = 0.3,
+  _alpha: number = 0.3,
   threshold: number = 2.0
 ): DriftResult {
   if (values.length < 10) {

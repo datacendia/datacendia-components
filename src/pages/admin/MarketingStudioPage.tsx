@@ -92,7 +92,7 @@ interface MarketingCopy {
 // =============================================================================
 
 export default function MarketingStudioPage() {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'video' | 'image' | 'pitch' | 'copy'>('video');
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);

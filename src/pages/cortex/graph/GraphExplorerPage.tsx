@@ -243,7 +243,7 @@ const FilterChips: React.FC<{
 export const GraphExplorerPage: React.FC = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const { t } = useLanguage();
+  const { t: _t } = useLanguage();
 
   // State
   const [nodes, setNodes] = useState<GraphNode[]>([]);

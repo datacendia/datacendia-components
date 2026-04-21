@@ -439,7 +439,7 @@ const getDaysUntil = (date: Date) => {
 // =============================================================================
 
 export const TrainingPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   const [activeTab, setActiveTab] = useState<
     'my-learning' | 'courses' | 'certifications' | 'team' | 'reports'
   >('my-learning');
@@ -447,13 +447,13 @@ export const TrainingPage: React.FC = () => {
   const [filterCategory, setFilterCategory] = useState<CourseCategory | 'all'>('all');
 
   const [courses, setCourses] = useState<Course[]>(DEFAULT_COURSES);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const [pathsRes, profileRes] = await Promise.all([
+        const [pathsRes, _profileRes] = await Promise.all([
           api.get<any>('/gnosis/paths'),
           api.get<any>('/gnosis/profile'),
         ]);

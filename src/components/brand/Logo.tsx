@@ -34,7 +34,7 @@ const sizes = {
 
 const ACCENT_COLOR = '#c9a84c';
 
-export const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full', className = '', dark = true }) => {
+export const Logo: React.FC<LogoProps> = ({ size = 'md', variant: _variant = 'full', className = '', dark = true }) => {
   const { height, fontSize } = sizes[size];
   const baseColor = dark ? '#e8e4e0' : '#1a1a1a';
 

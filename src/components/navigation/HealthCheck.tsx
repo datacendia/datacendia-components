@@ -45,12 +45,12 @@ export const HealthIndicator: React.FC<{ className?: string }> = ({ className = 
     unknown: 'bg-slate-500',
   };
 
-  const statusIcons = {
+  void ({
     healthy: <CheckCircle className="w-3 h-3" />,
     degraded: <AlertTriangle className="w-3 h-3" />,
     unhealthy: <XCircle className="w-3 h-3" />,
     unknown: <RefreshCw className="w-3 h-3 animate-spin" />,
-  };
+  });
 
   if (health.status === 'unknown') {
     return null;

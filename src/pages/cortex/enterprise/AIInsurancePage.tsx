@@ -45,7 +45,7 @@ const riskTierColors: Record<string, string> = {
 export default function AIInsurancePage() {
   const [coverageTypes, setCoverageTypes] = useState<CoverageTypeInfo[]>([]);
   const [policies, setPolicies] = useState<InsurancePolicy[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('policies');
 
   useEffect(() => {

@@ -444,7 +444,7 @@ export const OmniTranslatePage: React.FC = () => {
   const [sourceLang, setSourceLang] = useState('en');
   const [targetLang, setTargetLang] = useState('es');
   const [isTranslating, setIsTranslating] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Document translation state
   const [uploadedDocument, setUploadedDocument] = useState<UploadedDocument | null>(null);

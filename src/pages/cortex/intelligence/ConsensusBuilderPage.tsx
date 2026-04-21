@@ -61,7 +61,7 @@ export const ConsensusBuilderPage: React.FC = () => {
   const [stakeholders, setStakeholders] = useState(DEMO_STAKEHOLDERS);
   const [options, setOptions] = useState(DEMO_OPTIONS);
   const [activeOption, setActiveOption] = useState('o2');
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const load = async () => {

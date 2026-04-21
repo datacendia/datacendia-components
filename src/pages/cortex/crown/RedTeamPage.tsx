@@ -653,7 +653,7 @@ const RedTeamPage = () => {
             </h2>
 
             <div className="space-y-4">
-              {(evilTwin?.topExploits || []).map((exploit, idx) => (
+              {(evilTwin?.topExploits || []).map((exploit, _idx) => (
                 <div
                   key={exploit.id}
                   className="p-4 bg-black/30 border border-red-900/30 rounded-lg"
@@ -711,7 +711,7 @@ const RedTeamPage = () => {
               </h2>
 
               <div className="space-y-3">
-                {(evilTwin?.mostVulnerableSystems || []).map((system, idx) => (
+                {(evilTwin?.mostVulnerableSystems || []).map((system, _idx) => (
                   <div
                     key={system.system}
                     className="flex items-center justify-between p-3 bg-black/30 rounded-lg"

@@ -649,7 +649,7 @@ class OllamaService {
     synthesis: string;
     confidence: number;
   }> {
-    const _startTime = Date.now(); // Reserved for future performance metrics
+    void (Date.now()); // Reserved for future performance metrics
     const locale = options?.locale || 'en';
     const langInstruction = this.getLanguageInstruction(locale);
 

@@ -82,14 +82,6 @@ const TR_DEMO_TIMELINE: TimelineEvent[] = [
   { id: 'tr-6', timestamp: new Date(), type: 'dissent', agentName: 'Risk Analyzer', content: 'DISSENT MAINTAINED - Will accept IF deliberation preserved in audit trail' },
 ];
 
-// Fallback agents for non-TR demo scenarios
-const FALLBACK_AGENTS: AgentVisualization[] = [
-  { id: 'chief', name: 'CendiaChief', role: 'Chief Strategist', avatarColor: 'bg-blue-500', status: 'speaking', confidence: 85, currentStatement: 'Based on the analysis, I recommend we proceed...', citationCount: 3, dissenting: false },
-  { id: 'cfo', name: 'CendiaCFO', role: 'Financial Advisor', avatarColor: 'bg-green-500', status: 'listening', confidence: 72, citationCount: 2, dissenting: false },
-  { id: 'risk', name: 'CendiaRisk', role: 'Risk Analyst', avatarColor: 'bg-orange-500', status: 'thinking', confidence: 78, citationCount: 4, dissenting: false },
-  { id: 'ethics', name: 'CendiaEthics', role: 'Ethics Officer', avatarColor: 'bg-purple-500', status: 'agreeing', confidence: 90, citationCount: 2, dissenting: false },
-];
-
 // =============================================================================
 // HELPER COMPONENTS
 // =============================================================================
@@ -167,16 +159,16 @@ const SpeechBubble: React.FC<{ agent: AgentVisualization }> = ({ agent }) => {
 // =============================================================================
 
 export const DeliberationVisualizationPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [agents, setAgents] = useState<AgentVisualization[]>([]);
   const [timeline, setTimeline] = useState<TimelineEvent[]>([]);
   const [isPlaying, setIsPlaying] = useState(true);
-  const [currentRound, setCurrentRound] = useState(3);
-  const [maxRounds, setMaxRounds] = useState(10);
+  const [currentRound, _setCurrentRound] = useState(3);
+  const [maxRounds, _setMaxRounds] = useState(10);
   const [consensusLevel, setConsensusLevel] = useState(72);
-  const [showTimeline, setShowTimeline] = useState(true);
+  const [_showTimeline, _setShowTimeline] = useState(true);
   const [deliberationId, setDeliberationId] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Load active deliberation or use TR demo data
   useEffect(() => {

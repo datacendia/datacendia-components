@@ -116,7 +116,7 @@ export async function getAllFeatureFlags(): Promise<Record<FeatureFlag, boolean>
 /**
  * React hook for feature flags (simple version)
  */
-export function useFeatureFlag(flag: FeatureFlag): boolean {
+export function useFeatureFlag(_flag: FeatureFlag): boolean {
   // For now, return true by default - in production, this would use React state
   // and the async isFeatureEnabled function
   return true;

@@ -111,11 +111,6 @@ async function toggleFlag(id: string, enabled: boolean): Promise<FeatureFlag> {
   return (res as any)?.data || res;
 }
 
-async function updateFlag(id: string, data: Partial<FeatureFlag>): Promise<FeatureFlag> {
-  const res = await api.patch<any>(`${API_BASE}/features/${id}`, data);
-  return (res as any)?.data || res;
-}
-
 // =============================================================================
 // MOCK DATA
 // =============================================================================

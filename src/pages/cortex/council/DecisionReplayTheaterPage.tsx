@@ -148,11 +148,11 @@ const formatTimestamp = (ms: number): string => {
 // =============================================================================
 
 export const DecisionReplayTheaterPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [sessions, setSessions] = useState<ReplaySession[]>([]);
   const [selectedSession, setSelectedSession] = useState<ReplaySession | null>(null);
   const [frames, setFrames] = useState<ReplayFrame[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Load sessions from API on mount
   useEffect(() => {

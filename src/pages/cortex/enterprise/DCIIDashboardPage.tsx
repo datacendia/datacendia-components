@@ -529,7 +529,7 @@ function OverviewTab({ primitives, currentScore, bandStyle, conflicts, timestamp
 // IISS TAB
 // =============================================================================
 
-function IISSTab({ scores, currentScore, benchmarks, bandStyle, selectedOrg, setSelectedOrg }: any) {
+function IISSTab({ scores, currentScore, benchmarks, bandStyle: _bandStyle, selectedOrg, setSelectedOrg }: any) {
   const [expandedDim, setExpandedDim] = useState<string | null>(null);
 
   return (
@@ -746,18 +746,7 @@ function IISSTab({ scores, currentScore, benchmarks, bandStyle, selectedOrg, set
 // =============================================================================
 
 function MediaAuthTab({ assets }: { assets: any[] }) {
-  const [analyzing, setAnalyzing] = useState<string | null>(null);
-
-  const handleAnalyze = async (assetId: string) => {
-    setAnalyzing(assetId);
-    try {
-      await dciiApi(`/media/analyze/${assetId}`, { method: 'POST' });
-    } catch (err) {
-      logger.error('Analysis failed:', err);
-    } finally {
-      setAnalyzing(null);
-    }
-  };
+  const [_analyzing, _setAnalyzing] = useState<string | null>(null);
 
   const verdictColors: Record<string, string> = {
     authentic: 'text-emerald-400 bg-emerald-500/10',
@@ -1161,7 +1150,7 @@ function SimilarityTab({ decisions, selectedOrg }: { decisions: any[]; selectedO
 // SHARED COMPONENTS
 // =============================================================================
 
-function StatCard({ icon, label, value, sub, color }: { icon: React.ReactNode; label: string; value: any; sub: string; color: string }) {
+function StatCard({ icon, label, value, sub, color: _color }: { icon: React.ReactNode; label: string; value: any; sub: string; color: string }) {
   const [expanded, setExpanded] = useState(false);
   const detailData: Record<string, { columns: TableColumn[]; rows: any[] }> = {
     'IISS Score': {
@@ -1403,7 +1392,7 @@ function PrimitiveCard({ primitive, index }: { primitive: any; index: number }) 
 
   const controlColumns: TableColumn[] = [
     { key: 'name', label: 'Control', sortable: true },
-    { key: 'score', label: 'Score', sortable: true, align: 'right', render: (v: number, row: any) => (
+    { key: 'score', label: 'Score', sortable: true, align: 'right', render: (v: number, _row: any) => (
       <span className={cn('font-mono font-bold', v >= 70 ? 'text-emerald-400' : v >= 40 ? 'text-amber-400' : 'text-red-400')}>{v}%</span>
     )},
     { key: 'status', label: 'Status', render: (v: string) => <StatusBadge status={v as any} /> },

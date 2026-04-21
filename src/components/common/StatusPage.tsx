@@ -52,7 +52,7 @@ interface MaintenanceWindow {
 }
 
 const StatusPage: React.FC = () => {
-  const [services, setServices] = useState<ServiceStatus[]>([
+  const [services, _setServices] = useState<ServiceStatus[]>([
     {
       name: 'API Gateway',
       status: 'operational',
@@ -111,7 +111,7 @@ const StatusPage: React.FC = () => {
     },
   ]);
 
-  const [incidents, setIncidents] = useState<Incident[]>([
+  const [incidents, _setIncidents] = useState<Incident[]>([
     {
       id: 'inc-001',
       title: 'Elevated API latency in EU region',
@@ -137,7 +137,7 @@ const StatusPage: React.FC = () => {
     },
   ]);
 
-  const [maintenance, setMaintenance] = useState<MaintenanceWindow[]>([
+  const [maintenance, _setMaintenance] = useState<MaintenanceWindow[]>([
     {
       id: 'maint-001',
       title: 'Database maintenance',

@@ -62,7 +62,7 @@ const CATEGORY_ICONS: Record<string, React.FC<{ className?: string }>> = {
 };
 
 export const OrbitPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   const [filter, setFilter] = useState<string>('all');
   const [isScanning, setIsScanning] = useState(false);
   const [signals, setSignals] = useState(SIGNALS);

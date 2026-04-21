@@ -93,7 +93,7 @@ const ACTION_ICONS: Record<AccountabilityAction, React.ReactNode> = {
 };
 
 export default function ResponsibilityPage() {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const { user } = useAuth();
   const [activeTab, setActiveTab] = useState('dashboard');
   const [isLoading, setIsLoading] = useState(false);

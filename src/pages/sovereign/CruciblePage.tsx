@@ -2211,7 +2211,7 @@ export const CruciblePage: React.FC = () => {
               {recentSimulations.length === 0 ? (
                 <div className="text-center py-8 text-gray-500">No simulations run yet</div>
               ) : (
-                recentSimulations.map((sim, i) => (
+                recentSimulations.map((sim, _i) => (
                   <div
                     key={sim.id}
                     className="p-4 bg-slate-800 rounded-lg border border-slate-700 hover:border-purple-500/50 cursor-pointer transition-colors"

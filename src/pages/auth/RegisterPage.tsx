@@ -46,31 +46,6 @@ export const RegisterPage: React.FC = () => {
     }));
   };
 
-  // List of personal email domains that are not allowed
-  const personalEmailDomains = [
-    'gmail.com',
-    'yahoo.com',
-    'hotmail.com',
-    'outlook.com',
-    'aol.com',
-    'icloud.com',
-    'mail.com',
-    'protonmail.com',
-    'zoho.com',
-    'yandex.com',
-    'gmx.com',
-    'live.com',
-    'msn.com',
-    'me.com',
-    'qq.com',
-    '163.com',
-  ];
-
-  const isWorkEmail = (email: string): boolean => {
-    const domain = email.split('@')[1]?.toLowerCase();
-    return !!domain && !personalEmailDomains.includes(domain);
-  };
-
   const validateStep1 = () => {
     if (!formData.firstName || !formData.lastName) {
       setError(t('auth.register.errors.fullNameRequired'));

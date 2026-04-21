@@ -102,7 +102,7 @@ export const CouncilModesPage: React.FC = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [modes, setModes] = useState<CouncilMode[]>(COUNCIL_MODES);
+  const [modes, _setModes] = useState<CouncilMode[]>(COUNCIL_MODES);
 
   const filtered = modes.filter(m => {
     const matchesSearch = m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||

@@ -106,7 +106,7 @@ export function ExecutiveSummary({
   className,
 }: ExecutiveSummaryProps) {
   const [copied, setCopied] = useState(false);
-  const [showShareMenu, setShowShareMenu] = useState(false);
+  const [_showShareMenu, _setShowShareMenu] = useState(false);
 
   const handleCopy = async (format: 'tldr' | 'full' | 'email') => {
     let text = '';

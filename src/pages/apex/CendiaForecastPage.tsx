@@ -126,7 +126,7 @@ const METRICS = [
 
 export const CendiaForecastPage: React.FC = () => {
   const [activeService, setActiveService] = useState(0);
-  const [demoMode, setDemoMode] = useState(false);
+  const [_demoMode, setDemoMode] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-indigo-950">

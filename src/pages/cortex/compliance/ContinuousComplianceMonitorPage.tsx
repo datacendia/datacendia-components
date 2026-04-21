@@ -98,8 +98,8 @@ interface ComplianceAlert {
 // =============================================================================
 
 export default function ContinuousComplianceMonitorPage() {
-  const { t } = useTranslation();
-  const [loading, setLoading] = useState(false);
+  const { t: _t } = useTranslation();
+  const [_loading, _setLoading] = useState(false);
   const [frameworks, setFrameworks] = useState<ComplianceFramework[]>([]);
   const [controls, setControls] = useState<ComplianceControl[]>([]);
   const [scans, setScans] = useState<ComplianceScan[]>([]);
@@ -200,15 +200,6 @@ export default function ContinuousComplianceMonitorPage() {
       setAlerts(alerts.map(a => a.id === alertId ? { ...a, acknowledged: true } : a));
     } catch (err) {
       logger.error('Failed to acknowledge alert:', err);
-    }
-  };
-
-  const getStatusColor = (status: ComplianceStatus) => {
-    switch (status) {
-      case 'compliant': return 'text-green-500';
-      case 'warning': return 'text-yellow-500';
-      case 'non_compliant': return 'text-red-500';
-      default: return 'text-gray-500';
     }
   };
 

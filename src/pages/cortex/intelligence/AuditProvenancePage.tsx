@@ -48,7 +48,7 @@ import { RegulatorsReceiptPage } from '../compliance/RegulatorsReceiptPage';
 
 export const AuditProvenancePage: React.FC = () => {
   const [activeView, setActiveView] = useState<'lineage' | 'receipt'>('lineage');
-  const [provenanceData, setProvenanceData] = useState<any>(null);
+  const [_provenanceData, setProvenanceData] = useState<any>(null);
 
   useEffect(() => {
     let cancelled = false;

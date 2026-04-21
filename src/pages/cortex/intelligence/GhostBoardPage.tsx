@@ -98,7 +98,7 @@ export const GhostBoardPage: React.FC = () => {
   const [difficulty, setDifficulty] = useState('hard');
   const [isRunning, setIsRunning] = useState(false);
   const [result, setResult] = useState<GhostBoardResult | null>(null);
-  const [ollamaStatus, setOllamaStatus] = useState({ available: false });
+  const [_ollamaStatus, setOllamaStatus] = useState({ available: false });
 
   // Check Ollama status on mount and load recent sessions from backend
   useEffect(() => {
@@ -115,7 +115,7 @@ export const GhostBoardPage: React.FC = () => {
     return () => { cancelled = true; };
   }, []);
   const [selectedQuestion, setSelectedQuestion] = useState<BoardQuestion | null>(null);
-  const [userAnswer, setUserAnswer] = useState('');
+  const [_userAnswer, _setUserAnswer] = useState('');
 
   const runSession = async () => {
     if (!proposalTitle.trim() || !proposalContent.trim()) {

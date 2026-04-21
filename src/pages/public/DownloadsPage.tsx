@@ -41,40 +41,12 @@ interface DownloadItem {
   notes?: string;
 }
 
-interface ReleaseChannel {
-  name: string;
-  description: string;
-  badge: string;
-  badgeColor: string;
-}
-
 // =============================================================================
 // CONSTANTS
 // =============================================================================
 
 const CURRENT_VERSION = '2.4.1';
 const RELEASE_DATE = '2024-11-15';
-
-const releaseChannels: Record<string, ReleaseChannel> = {
-  stable: {
-    name: 'Stable',
-    description: 'Recommended for production use',
-    badge: 'Recommended',
-    badgeColor: 'bg-success-100 text-success-700',
-  },
-  beta: {
-    name: 'Beta',
-    description: 'Preview upcoming features',
-    badge: 'Beta',
-    badgeColor: 'bg-warning-100 text-warning-700',
-  },
-  nightly: {
-    name: 'Nightly',
-    description: 'Latest development builds',
-    badge: 'Nightly',
-    badgeColor: 'bg-neutral-100 text-neutral-700',
-  },
-};
 
 const platformInfo: Record<Platform, { name: string; icon: string; color: string }> = {
   windows: { name: 'Windows', icon: '🪟', color: 'bg-blue-500' },
@@ -300,9 +272,9 @@ const systemRequirements = {
 // =============================================================================
 
 export const DownloadsPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   const [selectedPlatform, setSelectedPlatform] = useState<Platform | 'all'>('all');
-  const [selectedChannel, setSelectedChannel] = useState<'stable' | 'beta' | 'nightly'>('stable');
+  const [_selectedChannel, _setSelectedChannel] = useState<'stable' | 'beta' | 'nightly'>('stable');
   const [detectedPlatform, setDetectedPlatform] = useState<Platform>('windows');
 
   // Detect user's platform

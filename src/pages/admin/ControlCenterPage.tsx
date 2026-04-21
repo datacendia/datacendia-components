@@ -309,36 +309,6 @@ const Toggle: React.FC<{ enabled: boolean; onChange: () => void; disabled?: bool
   </button>
 );
 
-const VisibilityBadge: React.FC<{ visibility: string; onClick?: () => void }> = ({
-  visibility,
-  onClick,
-}) => {
-  const colors = {
-    public: 'bg-green-500/20 text-green-400',
-    authenticated: 'bg-blue-500/20 text-blue-400',
-    admin: 'bg-purple-500/20 text-purple-400',
-    hidden: 'bg-neutral-500/20 text-neutral-400',
-  };
-  const icons = {
-    public: '🌐',
-    authenticated: '🔒',
-    admin: '👑',
-    hidden: '👁️‍🗨️',
-  };
-
-  return (
-    <button
-      onClick={onClick}
-      className={cn(
-        'px-2 py-1 rounded-full text-xs font-medium',
-        colors[visibility as keyof typeof colors]
-      )}
-    >
-      {icons[visibility as keyof typeof icons]} {visibility}
-    </button>
-  );
-};
-
 // =============================================================================
 // MAIN COMPONENT
 // =============================================================================

@@ -107,7 +107,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
       logger.info(`[WebSocket] Reconnected after ${attemptNumber} attempts`);
     });
 
-    newSocket.on('reconnect_attempt', (attemptNumber: number) => {
+    newSocket.on('reconnect_attempt', (_attemptNumber: number) => {
       setState(prev => ({ ...prev, connecting: true }));
       // Silent reconnect - don't spam console
     });

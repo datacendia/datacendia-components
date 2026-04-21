@@ -45,7 +45,7 @@ export const PageGuide: React.FC<PageGuideProps> = ({
 }) => {
   const storageKey = `datacendia-guide-${pageId}`;
 
-  const [isVisible, setIsVisible] = useState(true);
+  const [_isVisible, _setIsVisible] = useState(true);
   const [isSkipped, setIsSkipped] = useState(false);
   const [currentStep, setCurrentStep] = useState(0);
   const [isMinimized, setIsMinimized] = useState(false);

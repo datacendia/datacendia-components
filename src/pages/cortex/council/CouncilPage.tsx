@@ -1330,23 +1330,9 @@ export const CouncilPage: React.FC = () => {
   }, [connected, socket, streamingDecision, emit, on]);
 
   // C) Progressive disclosure - collapsible sections state
-  const [expandedSections, setExpandedSections] = useState<Record<string, Record<string, boolean>>>(
+  const [_expandedSections, _setExpandedSections] = useState<Record<string, Record<string, boolean>>>(
     {}
   );
-
-  const toggleSection = (decisionId: string, section: string) => {
-    setExpandedSections((prev) => ({
-      ...prev,
-      [decisionId]: {
-        ...prev[decisionId],
-        [section]: !prev[decisionId]?.[section],
-      },
-    }));
-  };
-
-  const isSectionExpanded = (decisionId: string, section: string) => {
-    return expandedSections[decisionId]?.[section] ?? false;
-  };
 
   // D) Agent selection - lock roster for audit
   const [isRosterLocked, setIsRosterLocked] = useState(false);

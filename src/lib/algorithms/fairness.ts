@@ -217,10 +217,8 @@ export function giniCoefficient(values: number[]): number {
   const total = sorted.reduce((s, v) => s + v, 0);
   if (total === 0) {return 0;}
 
-  let cumulativeSum = 0;
   let weightedSum = 0;
   for (let i = 0; i < n; i++) {
-    cumulativeSum += sorted[i];
     weightedSum += (2 * (i + 1) - n - 1) * sorted[i];
   }
 

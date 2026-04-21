@@ -32,11 +32,11 @@ export const DecisionDebtPage: React.FC = () => {
   const [dashboard, setDashboard] = useState<DecisionDebtDashboard | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDecision, setSelectedDecision] = useState<PendingDecision | null>(null);
-  const [showAddModal, setShowAddModal] = useState(false);
-  const [newDecisionTitle, setNewDecisionTitle] = useState('');
-  const [newDecisionDepartment, setNewDecisionDepartment] = useState('');
-  const [newDecisionOwner, setNewDecisionOwner] = useState('');
-  const [newDecisionCost, setNewDecisionCost] = useState('');
+  const [_showAddModal, _setShowAddModal] = useState(false);
+  const [_newDecisionTitle, _setNewDecisionTitle] = useState('');
+  const [_newDecisionDepartment, _setNewDecisionDepartment] = useState('');
+  const [_newDecisionOwner, _setNewDecisionOwner] = useState('');
+  const [_newDecisionCost, _setNewDecisionCost] = useState('');
 
   useEffect(() => {
     loadDashboard();
@@ -63,27 +63,6 @@ export const DecisionDebtPage: React.FC = () => {
     } finally {
       setIsLoading(false);
     }
-  };
-
-  const handleAddDecision = () => {
-    if (!newDecisionTitle.trim()) {
-      return;
-    }
-
-    decisionIntelligenceService.createPendingDecision({
-      title: newDecisionTitle,
-      department: newDecisionDepartment || 'General',
-      owner: newDecisionOwner || 'Unassigned',
-      estimatedDailyCost: parseFloat(newDecisionCost) || 1000,
-      priority: 'medium',
-    });
-
-    setNewDecisionTitle('');
-    setNewDecisionDepartment('');
-    setNewDecisionOwner('');
-    setNewDecisionCost('');
-    setShowAddModal(false);
-    loadDashboard();
   };
 
   const getPriorityColor = (priority: string) => {

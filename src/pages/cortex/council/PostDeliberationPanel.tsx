@@ -106,8 +106,8 @@ const positionColor = (p: string) => {
 
 export const PostDeliberationPanel: React.FC = () => {
   const { deliberationId } = useParams();
-  const navigate = useNavigate();
-  const [output, setOutput] = useState<DeliberationOutput>(DEMO_OUTPUT);
+  void (useNavigate());
+  const [output, _setOutput] = useState<DeliberationOutput>(DEMO_OUTPUT);
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState<'overview' | 'agents' | 'evidence'>('overview');
 

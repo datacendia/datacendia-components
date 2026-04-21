@@ -84,7 +84,7 @@ interface CarbonBudget {
 // =============================================================================
 
 export default function CarbonAwareSchedulerPage() {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [carbonIntensity, setCarbonIntensity] = useState<CarbonIntensity[]>([]);
   const [workloads, setWorkloads] = useState<Workload[]>([]);

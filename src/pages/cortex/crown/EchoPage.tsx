@@ -100,7 +100,7 @@ const EchoPage = () => {
   const [accuracy, setAccuracy] = useState<AccuracyReport | null>(null);
   const [loading, setLoading] = useState(true);
   const [period, setPeriod] = useState<'week' | 'month' | 'quarter' | 'year'>('quarter');
-  const [selectedDecision, setSelectedDecision] = useState<string | null>(null);
+  const [_selectedDecision, setSelectedDecision] = useState<string | null>(null);
 
   // Quick Action state
   const [activePanel, setActivePanel] = useState<'link' | 'report' | 'failed' | null>(null);
@@ -793,7 +793,7 @@ const EchoPage = () => {
             </div>
           ) : (
             <div className="space-y-2 max-h-64 overflow-y-auto">
-              {failedDecisions.map((d, idx) => (
+              {failedDecisions.map((d, _idx) => (
                 <div key={d.id} className="p-3 bg-neutral-800 rounded-lg border-l-2 border-red-500">
                   <div className="flex items-start justify-between">
                     <div className="flex-1 min-w-0">

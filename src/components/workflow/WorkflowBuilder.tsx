@@ -684,7 +684,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
     }
   }, [nodes, edges, workflowId, onSave]);
 
-  const selectedNode = nodes.find((n) => n.id === selectedNodeId);
+  void (nodes.find((n) => n.id === selectedNodeId));
 
   return (
     <div className="flex h-full bg-neutral-100">

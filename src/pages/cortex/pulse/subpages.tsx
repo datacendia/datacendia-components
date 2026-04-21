@@ -360,8 +360,8 @@ export const MetricsPage: React.FC = () => {
   const [timeRange, setTimeRange] = useState<'1h' | '24h' | '7d' | '30d'>('24h');
   const [category, setCategory] = useState<'all' | 'financial' | 'operational' | 'customer'>('all');
   const [metrics, setMetrics] = useState<Metric[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [_isLoading, setIsLoading] = useState(true);
+  const [_error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchMetrics = async () => {

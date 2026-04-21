@@ -159,7 +159,7 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
   const [expandedStage, setExpandedStage] = useState<string | null>(null);
   const [showJourneyExample, setShowJourneyExample] = useState(showExample);
 
-  const getColorClasses = (color: string, isActive: boolean = false) => {
+  const getColorClasses = (color: string, _isActive: boolean = false) => {
     const colors: Record<string, { bg: string; border: string; text: string; bgActive: string }> = {
       cyan: {
         bg: 'bg-cyan-500/10',

@@ -921,7 +921,7 @@ export const LegalPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-4">
-              {filteredUseCases.map((uc, idx) => (
+              {filteredUseCases.map((uc, _idx) => (
                 <div
                   key={uc.name}
                   className={`rounded-xl p-6 border ${packColors[uc.pack]} hover:border-primary-500/50 transition-all`}

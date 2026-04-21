@@ -64,7 +64,7 @@ export const TechTeamPanel: React.FC = () => {
 
   useEffect(() => {
     // Subscribe to errors
-    const unsubscribe = AutoHealService.onError((error) => {
+    const unsubscribe = AutoHealService.onError((_error) => {
       setErrors(AutoHealService.getErrorQueue());
       setStats(AutoHealService.getStats());
     });

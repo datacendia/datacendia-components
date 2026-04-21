@@ -45,7 +45,6 @@ type ClassificationLevel =
   | 'sci';
 type DeploymentMode = 'air-gapped' | 'classified-network' | 'hybrid' | 'cross-domain';
 type ThreatCategory = 'cyber' | 'kinetic' | 'information' | 'economic' | 'hybrid-warfare';
-type MissionPhase = 'planning' | 'preparation' | 'execution' | 'assessment';
 
 interface ClassifiedDocument {
   id: string;
@@ -90,22 +89,6 @@ interface WarGame {
   iterations: number;
   insights: string[];
   startDate: Date;
-  classification: ClassificationLevel;
-}
-
-interface DecisionChain {
-  id: string;
-  name: string;
-  phase: MissionPhase;
-  decisions: {
-    id: string;
-    description: string;
-    authority: string;
-    status: 'pending' | 'approved' | 'executed' | 'verified';
-    timestamp: Date;
-    verificationHash: string;
-  }[];
-  participants: string[];
   classification: ClassificationLevel;
 }
 
@@ -468,7 +451,7 @@ export const DefenseStackPage: React.FC = () => {
   const [classifiedDocs] = useState<ClassifiedDocument[]>(generateClassifiedDocs);
   const [deploymentNodes] = useState<DeploymentNode[]>(generateDeploymentNodes);
   const [auditEvents] = useState<AuditEvent[]>(generateAuditEvents);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Fetch real data from API
   useEffect(() => {

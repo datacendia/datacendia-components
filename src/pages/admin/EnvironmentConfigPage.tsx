@@ -140,10 +140,10 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
 // =============================================================================
 
 export default function EnvironmentConfigPage() {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
-  const [config, setConfig] = useState<EnvConfig | null>(null);
+  const [_config, setConfig] = useState<EnvConfig | null>(null);
   const [editedValues, setEditedValues] = useState<Record<string, string>>({});
   const [showSensitive, setShowSensitive] = useState<Record<string, boolean>>({});
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
@@ -176,7 +176,7 @@ export default function EnvironmentConfigPage() {
     }
   };
 
-  const validateValue = (key: string, value: string, validation?: string): string | null => {
+  const validateValue = (_key: string, value: string, validation?: string): string | null => {
     if (!validation) {return null;}
     
     switch (validation) {
@@ -269,9 +269,9 @@ export default function EnvironmentConfigPage() {
   };
 
   const categories = ['All', ...Array.from(new Set(ENV_SCHEMA.map(s => s.category)))];
-  const filteredSchema = selectedCategory === 'All' 
+  void (selectedCategory === 'All' 
     ? ENV_SCHEMA 
-    : ENV_SCHEMA.filter(s => s.category === selectedCategory);
+    : ENV_SCHEMA.filter(s => s.category === selectedCategory));
 
   if (loading) {
     return (

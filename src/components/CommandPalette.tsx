@@ -45,7 +45,7 @@ export function CommandPalette() {
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
-  const { t, language, setLanguage, languages } = useLanguage();
+  const { t, language: _language, setLanguage, languages } = useLanguage();
 
   // Navigation commands
   const navigationCommands: CommandItem[] = useMemo(
@@ -381,7 +381,7 @@ export function CommandPalette() {
                   <div className="px-4 py-1.5 text-xs font-medium text-gray-600 uppercase tracking-wider">
                     {getCategoryLabel(category)}
                   </div>
-                  {commands.map((cmd, idx) => {
+                  {commands.map((cmd, _idx) => {
                     const globalIdx = filteredCommands.indexOf(cmd);
                     return (
                       <button

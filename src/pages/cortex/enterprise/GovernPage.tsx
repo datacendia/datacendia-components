@@ -57,38 +57,6 @@ type EvidenceType =
   | 'report'
   | 'audit-trail';
 
-interface Regulation {
-  id: string;
-  name: string;
-  shortName: string;
-  jurisdiction: string;
-  effectiveDate: Date;
-  lastUpdated: Date;
-  version: string;
-  totalRequirements: number;
-  applicableRequirements: number;
-  sections: RegulationSection[];
-}
-
-interface RegulationSection {
-  id: string;
-  code: string;
-  title: string;
-  description: string;
-  requirements: Requirement[];
-}
-
-interface Requirement {
-  id: string;
-  code: string;
-  text: string;
-  controls: string[];
-  riskLevel: RiskLevel;
-  status: ControlStatus;
-  lastAssessed: Date;
-  evidenceCount: number;
-}
-
 interface Control {
   id: string;
   code: string;
@@ -132,21 +100,6 @@ interface Finding {
   dueDate: Date;
   owner: string;
   remediationPlan: string;
-}
-
-interface PolicyDocument {
-  id: string;
-  name: string;
-  version: string;
-  status: 'draft' | 'review' | 'approved' | 'retired';
-  owner: string;
-  department: string;
-  lastReviewed: Date;
-  nextReview: Date;
-  mappedControls: string[];
-  mappedRegulations: string[];
-  approvers: string[];
-  effectiveDate: Date;
 }
 
 interface AuditProject {
@@ -534,15 +487,15 @@ const calculateMetrics = (controls: Control[]): ComplianceMetrics => {
 
 export const GovernPage: React.FC = () => {
   const navigate = useNavigate();
-  const [controls, setControls] = useState<Control[]>(generateControls);
-  const [auditProjects, setAuditProjects] = useState<AuditProject[]>(generateAuditProjects);
+  const [controls, _setControls] = useState<Control[]>(generateControls);
+  const [auditProjects, _setAuditProjects] = useState<AuditProject[]>(generateAuditProjects);
   const [boardPackets] = useState<BoardPacket[]>(generateBoardPackets);
   const [activeTab, setActiveTab] = useState<
     'dashboard' | 'controls' | 'regulations' | 'audits' | 'board-packets'
   >('dashboard');
   const [selectedFramework, setSelectedFramework] = useState<ComplianceFramework | 'all'>('all');
   const [selectedControl, setSelectedControl] = useState<Control | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Fetch real governance data from API
   useEffect(() => {

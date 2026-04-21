@@ -47,18 +47,6 @@ type Industry =
 type SignalSeverity = 'critical' | 'high' | 'medium' | 'low' | 'info';
 type InsightCategory = 'benchmark' | 'risk' | 'opportunity' | 'trend' | 'disruption' | 'fraud';
 
-interface NetworkNode {
-  id: string;
-  industry: Industry;
-  region: string;
-  employeeRange: string;
-  revenueRange: string;
-  contributionScore: number;
-  dataQuality: number;
-  lastActive: Date;
-  anonymousId: string;
-}
-
 interface BenchmarkMetric {
   id: string;
   name: string;
@@ -90,19 +78,6 @@ interface RiskSignal {
   relatedSignals: string[];
 }
 
-interface IndustryPattern {
-  id: string;
-  name: string;
-  description: string;
-  industry: Industry;
-  adoptionRate: number;
-  avgImpact: number;
-  riskLevel: 'low' | 'medium' | 'high';
-  timeToValue: string;
-  examples: string[];
-  relatedPatterns: string[];
-}
-
 interface PricingIntelligence {
   id: string;
   category: string;
@@ -130,18 +105,6 @@ interface SupplyChainAlert {
   mitigationOptions: string[];
   detectedAt: Date;
   expectedDuration: string;
-}
-
-interface FraudPattern {
-  id: string;
-  name: string;
-  description: string;
-  detectionRate: number;
-  falsePositiveRate: number;
-  affectedIndustries: Industry[];
-  indicators: string[];
-  recommendedActions: string[];
-  reportingOrgs: number;
 }
 
 interface NetworkStats {
@@ -498,7 +461,7 @@ export const MeshPage: React.FC = () => {
     'overview' | 'benchmarks' | 'signals' | 'pricing' | 'supply-chain'
   >('overview');
   const [selectedIndustry, setSelectedIndustry] = useState<Industry | 'all'>('all');
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Fetch real data from API
   useEffect(() => {

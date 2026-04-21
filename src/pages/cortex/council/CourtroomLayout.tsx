@@ -17,7 +17,7 @@ type CourtroomLayoutProps = {
   chatEndRef: React.RefObject<HTMLElement>;
 };
 
-const CourtroomLayout = ({ result, setRecentDecisions, chatEndRef }: CourtroomLayoutProps) => {
+const CourtroomLayout = ({ result, setRecentDecisions: _setRecentDecisions, chatEndRef: _chatEndRef }: CourtroomLayoutProps) => {
   // Courtroom layout implementation
   return (
     <div className="courtroom-layout bg-neutral-900 p-4 rounded-xl">

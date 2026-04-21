@@ -46,7 +46,7 @@ export const LedgerPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'chain' | 'decisions' | 'audit' | 'export'>('chain');
   const [showNewDecision, setShowNewDecision] = useState(false);
   const [filterFramework, setFilterFramework] = useState<ComplianceFramework | 'all'>('all');
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   // Fetch real data from APIs
   const loadData = useCallback(async () => {

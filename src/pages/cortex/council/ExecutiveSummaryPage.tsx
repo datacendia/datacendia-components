@@ -56,7 +56,7 @@ const RECENT_SUMMARIES: RecentSummary[] = [
 ];
 
 export const ExecutiveSummaryPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   const [selectedTemplate, setSelectedTemplate] = useState<string>('board');
   const [selectedDeliberation, setSelectedDeliberation] = useState<string>('');
   const [isGenerating, setIsGenerating] = useState(false);

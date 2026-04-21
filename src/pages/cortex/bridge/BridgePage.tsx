@@ -347,15 +347,15 @@ const ApprovalModal: React.FC<{
 
 export const BridgePage: React.FC = () => {
   const navigate = useNavigate();
-  const { t } = useLanguage();
+  const { t: _t } = useLanguage();
 
   // State
   const [workflows, setWorkflows] = useState<ActiveWorkflow[]>(activeWorkflows);
   const [selectedWorkflow, setSelectedWorkflow] = useState<ActiveWorkflow>(activeWorkflows[0]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [_isLoading, setIsLoading] = useState(false);
 
   // Integrations
-  const [integrations, setIntegrations] = useState<Integration[]>([
+  const [integrations, _setIntegrations] = useState<Integration[]>([
     { id: '1', name: 'Salesforce', icon: '☁️', status: 'connected' },
     { id: '2', name: 'SAP', icon: '📊', status: 'connected' },
     { id: '3', name: 'Slack', icon: '💬', status: 'connected' },
@@ -364,7 +364,7 @@ export const BridgePage: React.FC = () => {
   ]);
 
   // Activity events
-  const [activityEvents, setActivityEvents] = useState<ActivityEvent[]>([
+  const [activityEvents, _setActivityEvents] = useState<ActivityEvent[]>([
     {
       id: '1',
       type: 'approval',
@@ -441,7 +441,7 @@ export const BridgePage: React.FC = () => {
 
         // Map real workflows
         if (workflowsRes.success && workflowsRes.data && Array.isArray(workflowsRes.data)) {
-          const realWorkflows: ActiveWorkflow[] = (workflowsRes.data as any[]).map((wf, idx) => ({
+          const realWorkflows: ActiveWorkflow[] = (workflowsRes.data as any[]).map((wf, _idx) => ({
             id: wf.id,
             name: wf.name,
             code: wf.id.substring(0, 8).toUpperCase(),

@@ -569,7 +569,7 @@ interface ReportSectionProps {
 export const ReportSection: React.FC<ReportSectionProps> = ({
   title, subtitle, icon, tableColumns, tableData, chartData, chartTitle,
   poiItems, onRowClick, onBarClick, defaultView = 'table', className,
-  children, accentColor,
+  children, accentColor: _accentColor,
 }) => {
   const availableViews: ViewMode[] = [];
   if (tableColumns && tableData) {availableViews.push('table');}
@@ -684,7 +684,7 @@ interface MetricCardProps {
 }
 
 export const MetricCard: React.FC<MetricCardProps> = ({
-  label, value, sublabel, icon, trend, trendValue, onClick, accentColor = 'border-blue-500/20', className,
+  label, value, sublabel, icon, trend, trendValue, onClick, accentColor: _accentColor = 'border-blue-500/20', className,
 }) => (
   <div
     className={cn(

@@ -94,7 +94,7 @@ export const WorkflowsListPage: React.FC = () => {
   const navigate = useNavigate();
   const [filter, setFilter] = useState<'all' | 'active' | 'draft' | 'paused'>('all');
   const [workflows, setWorkflows] = useState<Workflow[]>(FALLBACK_WORKFLOWS);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   React.useEffect(() => {
     const fetchWorkflows = async () => {
@@ -612,7 +612,7 @@ export const BridgeIntegrationsPage: React.FC = () => {
   const categories = ['All', 'CRM', 'ERP', 'Database', 'Analytics', 'Spreadsheet'];
   const [activeCategory, setActiveCategory] = useState('All');
   const [integrations, setIntegrations] = useState<Integration[]>(FALLBACK_INTEGRATIONS);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
 
   React.useEffect(() => {
     const fetchDataSources = async () => {

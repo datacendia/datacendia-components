@@ -257,7 +257,7 @@ export const PowerGridVisualization: React.FC<{ className?: string }> = ({ class
     return () => clearInterval(interval);
   }, []);
 
-  const _totalCapacity = sources.reduce((sum, s) => sum + s.capacity, 0); // Reserved for capacity planning
+  void (sources.reduce((sum, s) => sum + s.capacity, 0)); // Reserved for capacity planning
   const totalOutput = sources.reduce((sum, s) => sum + s.currentOutput, 0);
   const renewablePct = (sources.filter(s => ['solar', 'wind', 'hydro'].includes(s.type))
     .reduce((sum, s) => sum + s.currentOutput, 0) / totalOutput) * 100;

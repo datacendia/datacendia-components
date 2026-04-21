@@ -233,22 +233,6 @@ export default function SGASPage() {
     }
   };
 
-  const getStatusColor = (status: string) => {
-    switch (status?.toLowerCase()) {
-      case 'approved':
-      case 'allow':
-        return 'success';
-      case 'blocked':
-      case 'block':
-        return 'error';
-      case 'escalate':
-      case 'conditional':
-        return 'warning';
-      default:
-        return 'default';
-    }
-  };
-
   const getStateColor = (state: string) => {
     switch (state) {
       case 'NORMAL':

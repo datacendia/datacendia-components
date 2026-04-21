@@ -1017,8 +1017,8 @@ export const RolesSettingsPage: React.FC = () => {
 export const BillingSettingsPage: React.FC = () => {
   const { addToast } = useToast();
   const navigate = useNavigate();
-  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
-  const [showPaymentModal, setShowPaymentModal] = useState(false);
+  const [_showUpgradeModal, _setShowUpgradeModal] = useState(false);
+  const [_showPaymentModal, _setShowPaymentModal] = useState(false);
 
   return (
     <div className="max-w-4xl">
@@ -1385,7 +1385,7 @@ export const ApiKeysSettingsPage: React.FC = () => {
 
 export const IntegrationSettingsPage: React.FC = () => {
   const { addToast } = useToast();
-  const [showAddModal, setShowAddModal] = useState(false);
+  const [_showAddModal, _setShowAddModal] = useState(false);
   const [integrations, setIntegrations] = useState([
     {
       id: 'salesforce',
@@ -1654,10 +1654,10 @@ export const PreferencesSettingsPage: React.FC = () => {
 
 export const SecuritySettingsPage: React.FC = () => {
   const { addToast } = useToast();
-  const navigate = useNavigate();
+  void (useNavigate());
   const [showPasswordModal, setShowPasswordModal] = useState(false);
-  const [show2FAModal, setShow2FAModal] = useState(false);
-  const [showSSOModal, setShowSSOModal] = useState(false);
+  const [_show2FAModal, _setShow2FAModal] = useState(false);
+  const [_showSSOModal, _setShowSSOModal] = useState(false);
   const [sessions, setSessions] = useState([
     { id: 1, device: 'MacBook Pro', location: 'New York, US', current: true, lastActive: 'Now' },
     {

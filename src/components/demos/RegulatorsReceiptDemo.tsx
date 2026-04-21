@@ -404,100 +404,6 @@ const INDUSTRY_CONFIGS: Record<IndustryMode, IndustryConfig> = {
 };
 
 // =============================================================================
-// MOCK DATA (Legacy - used as fallback)
-// =============================================================================
-
-const CLINICAL_AGENTS: ClinicalAgent[] = [
-  {
-    id: 'cmo',
-    name: 'Dr. Sarah Chen',
-    role: 'Chief Medical Officer',
-    specialty: 'Clinical Oversight',
-    avatarColor: 'from-blue-500 to-cyan-500',
-    status: 'idle',
-  },
-  {
-    id: 'biostat',
-    name: 'Dr. Marcus Webb',
-    role: 'Biostatistics Lead',
-    specialty: 'Statistical Analysis',
-    avatarColor: 'from-purple-500 to-violet-500',
-    status: 'idle',
-  },
-  {
-    id: 'safety',
-    name: 'Dr. Emily Rodriguez',
-    role: 'Safety Officer',
-    specialty: 'Pharmacovigilance',
-    avatarColor: 'from-red-500 to-orange-500',
-    status: 'idle',
-  },
-  {
-    id: 'regulatory',
-    name: 'James Thompson',
-    role: 'Regulatory Affairs',
-    specialty: 'FDA/EMA Compliance',
-    avatarColor: 'from-emerald-500 to-teal-500',
-    status: 'idle',
-  },
-  {
-    id: 'quality',
-    name: 'Dr. Lisa Park',
-    role: 'Quality Assurance',
-    specialty: 'GCP Compliance',
-    avatarColor: 'from-amber-500 to-yellow-500',
-    status: 'idle',
-  },
-];
-
-const CLINICAL_DATA: ClinicalDataPoint[] = [
-  { id: 'd1', category: 'Efficacy', parameter: 'Primary Endpoint Response Rate', value: '67.3', unit: '%', status: 'normal', aiAnalysis: 'Exceeds 50% threshold per protocol' },
-  { id: 'd2', category: 'Efficacy', parameter: 'Overall Survival (median)', value: '18.4', unit: 'months', status: 'normal', aiAnalysis: 'Favorable vs. historical control (14.2 mo)' },
-  { id: 'd3', category: 'Safety', parameter: 'Grade 3+ AEs', value: '23.1', unit: '%', status: 'elevated', aiAnalysis: 'Within acceptable range but requires monitoring' },
-  { id: 'd4', category: 'Safety', parameter: 'Treatment Discontinuation', value: '8.7', unit: '%', status: 'normal', aiAnalysis: 'Below 15% threshold' },
-  { id: 'd5', category: 'PK/PD', parameter: 'Cmax', value: '847', unit: 'ng/mL', status: 'normal', aiAnalysis: 'Within therapeutic window' },
-  { id: 'd6', category: 'PK/PD', parameter: 'AUC0-24', value: '12,450', unit: 'ng·h/mL', status: 'flagged', aiAnalysis: 'Elevated in elderly subgroup - review recommended' },
-  { id: 'd7', category: 'Biomarker', parameter: 'Tumor Marker Reduction', value: '52.8', unit: '%', status: 'normal', aiAnalysis: 'Correlates with clinical response' },
-];
-
-const DELIBERATION_PHASES: DeliberationPhase[] = [
-  { id: 'p1', name: 'Data Ingestion', description: 'Agents receive and parse clinical trial data', status: 'pending' },
-  { id: 'p2', name: 'Independent Analysis', description: 'Each agent analyzes data from their specialty perspective', status: 'pending' },
-  { id: 'p3', name: 'Structured Debate', description: 'Agents present findings and challenge assumptions', status: 'pending' },
-  { id: 'p4', name: 'Consensus Building', description: 'Synthesize perspectives and reach agreement', status: 'pending' },
-  { id: 'p5', name: 'Voting & Ratification', description: 'Formal vote with confidence scores', status: 'pending' },
-  { id: 'p6', name: 'Cryptographic Signing', description: 'Each agent digitally signs the decision packet', status: 'pending' },
-];
-
-const AGENT_STATEMENTS: Record<string, string[]> = {
-  cmo: [
-    "Looking at the primary endpoint data, we see a 67.3% response rate which exceeds our pre-specified 50% threshold. This is clinically meaningful.",
-    "I want to flag the elevated AUC in the elderly subgroup. We should consider dose adjustment recommendations.",
-    "Overall, the benefit-risk profile supports moving forward, but with enhanced monitoring protocols.",
-  ],
-  biostat: [
-    "The statistical analysis shows p<0.001 for the primary endpoint with a hazard ratio of 0.68 (95% CI: 0.54-0.85).",
-    "The survival curves show sustained separation beyond 12 months, indicating durable response.",
-    "I concur with the CMO's assessment. The data meets our pre-specified success criteria.",
-  ],
-  safety: [
-    "The 23.1% Grade 3+ adverse event rate is within the expected range for this drug class.",
-    "No new safety signals identified in this interim analysis. The known risks are well-characterized.",
-    "I recommend continued safety monitoring with quarterly DSMB reviews.",
-  ],
-  regulatory: [
-    "This data package aligns with FDA guidance for accelerated approval pathway.",
-    "We have sufficient CMC documentation and the manufacturing process is validated.",
-    "I see no regulatory barriers to submission. The data supports our proposed indication.",
-  ],
-  quality: [
-    "GCP compliance has been verified across all 47 clinical sites.",
-    "Audit findings have been addressed with 3 minor deviations documented and resolved.",
-    "The clinical database is locked and validated. Ready for regulatory submission.",
-  ],
-};
-
-// =============================================================================
 // HELPER FUNCTIONS - REAL CRYPTO (calls backend KMS)
 // =============================================================================
 
@@ -533,21 +439,6 @@ const generateMerkleRoot = (data: string[]): string => {
   // Convert to hex and pad to 64 chars
   const hexHash = Math.abs(hash).toString(16).padStart(8, '0');
   return hexHash.repeat(8).substring(0, 64);
-};
-
-// Async version using real SHA-256
-const generateMerkleRootAsync = async (data: string[]): Promise<string> => {
-  try {
-    const encoder = new TextEncoder();
-    const combined = data.join('|');
-    const dataBuffer = encoder.encode(combined);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', dataBuffer);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-  } catch (error) {
-    logger.error('[RegulatorsReceipt] SHA-256 failed:', error);
-    return generateMerkleRoot(data);
-  }
 };
 
 // =============================================================================
@@ -898,8 +789,8 @@ export const RegulatorsReceiptDemo: React.FC<{
   const [currentPhaseIndex, setCurrentPhaseIndex] = useState(0);
   const [phases, setPhases] = useState<DeliberationPhase[]>(currentConfig.phases);
   const [agents, setAgents] = useState<ClinicalAgent[]>(currentConfig.agents);
-  const [currentSpeakerIndex, setCurrentSpeakerIndex] = useState(0);
-  const [statementIndex, setStatementIndex] = useState(0);
+  const [_currentSpeakerIndex, setCurrentSpeakerIndex] = useState(0);
+  const [_statementIndex, setStatementIndex] = useState(0);
   const [transcript, setTranscript] = useState<Array<{ agentId: string; statement: string; timestamp: Date; phase: string }>>([]);
   const [decisionPacket, setDecisionPacket] = useState<DecisionPacket | null>(null);
   const [showReceipt, setShowReceipt] = useState(false);
@@ -908,7 +799,7 @@ export const RegulatorsReceiptDemo: React.FC<{
   const [selectedTranscriptEntry, setSelectedTranscriptEntry] = useState<number | null>(null);
   const [ollamaConnected, setOllamaConnected] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [currentGeneratingAgent, setCurrentGeneratingAgent] = useState<string | null>(null);
+  const [_currentGeneratingAgent, setCurrentGeneratingAgent] = useState<string | null>(null);
   const [userInput, setUserInput] = useState('');
   const [awaitingUserInput, setAwaitingUserInput] = useState(false);
   const [userCanInterject, setUserCanInterject] = useState(false);
@@ -1154,10 +1045,10 @@ export const RegulatorsReceiptDemo: React.FC<{
     
     // Wait for user to either submit input or skip (10 second timeout)
     await new Promise<void>(resolve => {
-      const timeout = setTimeout(() => {
+      void (setTimeout(() => {
         setAwaitingUserInput(false);
         resolve();
-      }, 15000);
+      }, 15000));
       
       // Check periodically if user has submitted
       const checkInterval = setInterval(() => {

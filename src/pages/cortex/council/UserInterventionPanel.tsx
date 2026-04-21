@@ -64,7 +64,7 @@ const DEMO_AGENTS: LiveAgent[] = [
 
 export const UserInterventionPanel: React.FC = () => {
   const { deliberationId } = useParams();
-  const navigate = useNavigate();
+  void (useNavigate());
   const [selectedType, setSelectedType] = useState<InterventionType>('context');
   const [message, setMessage] = useState('');
   const [selectedAgents, setSelectedAgents] = useState<string[]>([]);

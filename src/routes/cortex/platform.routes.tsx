@@ -130,9 +130,9 @@ const VerticalConfigPage = lazy(() =>
 );
 
 // Tools
-const ROICalculator = lazy(() =>
+void (lazy(() =>
   import('../../pages/tools').then((m) => ({ default: m.ROICalculator }))
-);
+));
 
 // Profile & Help (MVP)
 const UserProfilePage = lazy(() =>

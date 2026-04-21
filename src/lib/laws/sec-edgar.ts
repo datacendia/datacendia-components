@@ -21,7 +21,6 @@
  */
 
 const SEC_EDGAR_API_BASE = 'https://data.sec.gov';
-const SEC_EFTS_BASE = 'https://efts.sec.gov/LATEST/search-index';
 
 // Common SEC filing types
 export type FilingType = 
@@ -94,7 +93,6 @@ export interface FullTextSearchResult {
 }
 
 class SECEdgarService {
-  private requestQueue: Promise<void> = Promise.resolve();
   private lastRequestTime: number = 0;
   private MIN_REQUEST_INTERVAL = 100; // 10 requests/second max
 
@@ -317,7 +315,7 @@ class SECEdgarService {
   /**
    * Get recent 8-K filings (material events)
    */
-  async getRecent8Ks(days: number = 7): Promise<{ company: string; cik: string; filing: SECFiling }[]> {
+  async getRecent8Ks(_days: number = 7): Promise<{ company: string; cik: string; filing: SECFiling }[]> {
     // This would require iterating through recent filings
     // For now, return empty - would need to use RSS feed or bulk data
     return [];

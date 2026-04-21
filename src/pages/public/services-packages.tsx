@@ -385,7 +385,7 @@ export const ServicesPage: React.FC = () => {
 
 export const PackagesPage: React.FC = () => {
   const navigate = useNavigate();
-  const [selectedPackage, setSelectedPackage] = useState<string | null>(null);
+  const [_selectedPackage, _setSelectedPackage] = useState<string | null>(null);
 
   const packages = [
     {

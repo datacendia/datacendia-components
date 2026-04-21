@@ -46,8 +46,8 @@ const proofTypeIcons: Record<string, React.ReactNode> = {
 
 export default function ZKPPage() {
   const [proofTypes, setProofTypes] = useState<ProofTypeInfo[]>([]);
-  const [proofs, setProofs] = useState<ZKProof[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [proofs, _setProofs] = useState<ZKProof[]>([]);
+  const [_loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('proofs');
 
   useEffect(() => {

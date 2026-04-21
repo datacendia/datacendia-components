@@ -329,13 +329,13 @@ const AnomalyCard: React.FC<{
 
 export const PulsePage: React.FC = () => {
   const navigate = useNavigate();
-  const { t } = useLanguage();
+  const { t: _t } = useLanguage();
 
   // State
   const [healthScore, setHealthScore] = useState<number | null>(null);
   const [weeklyChange, setWeeklyChange] = useState<number>(0);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [_isLoading, setIsLoading] = useState(true);
+  const [_error, setError] = useState<string | null>(null);
 
   // Health trend data (last 14 days)
   const [healthTrend, setHealthTrend] = useState<number[]>([]);

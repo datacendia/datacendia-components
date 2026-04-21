@@ -388,7 +388,7 @@ export function OpsAgentsPage() {
   const [submitting, setSubmitting] = useState(false);
   const [aiAvailable, setAiAvailable] = useState<boolean | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
   const pollingRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const selectedTaskRef = useRef<OpsTask | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);

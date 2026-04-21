@@ -313,7 +313,7 @@ const colorClasses: Record<string, { bg: string; border: string; text: string; h
 
 export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
   currentModule,
-  context,
+  context: _context,
   variant = 'inline',
   onAction,
 }) => {

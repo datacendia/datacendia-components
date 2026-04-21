@@ -445,7 +445,7 @@ const PlatformMapPage: React.FC = () => {
   const [search, setSearch] = useState('');
   const [tierFilter, setTierFilter] = useState<Tier | 'all'>('all');
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(CATEGORIES.map(c => c.id)));
-  const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
+  const [_viewMode, _setViewMode] = useState<'list' | 'grid'>('list');
 
   const toggleCategory = (id: string) => {
     setExpandedCategories(prev => {

@@ -273,9 +273,9 @@ const HashDisplay: React.FC<{ label: string; hash: string }> = ({ label, hash })
 // =============================================================================
 
 const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
   const [selectedDeliberation, setSelectedDeliberation] = useState<Deliberation | null>(null);
   const [receipt, setReceipt] = useState<Receipt | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);

@@ -25,9 +25,7 @@ import { deterministicFloat } from '../../lib/deterministic';
 import {
   HORIZON_MODES,
   INDUSTRY_BENCHMARKS,
-  CORE_HORIZON_MODES,
-  calculateAdjustedProbability,
-  getIndustryInsight,
+  CORE_HORIZON_MODES,getIndustryInsight,
 } from '../../data/horizonModes';
 import {
   CASCADE_MODES,
@@ -308,12 +306,6 @@ const HorizonPage: React.FC = () => {
   const currentCascadeMode = CASCADE_MODES[cascadeModeId];
   const currentSimulationMode = HORIZON_MODES[simulationModeId];
   const currentIndustry = INDUSTRY_BENCHMARKS[selectedIndustryId];
-  
-  // Calculate adjusted probability based on simulation mode and industry
-  const getAdjustedProbability = (baseProbability: number) => {
-    if (!currentSimulationMode || !currentIndustry) {return { probability: baseProbability, confidence: 0.7, range: [baseProbability - 0.1, baseProbability + 0.1] as [number, number] };}
-    return calculateAdjustedProbability(baseProbability, currentSimulationMode, currentIndustry);
-  };
   
   const industryInsight = currentSimulationMode && currentIndustry
     ? getIndustryInsight('growth', currentSimulationMode, currentIndustry)

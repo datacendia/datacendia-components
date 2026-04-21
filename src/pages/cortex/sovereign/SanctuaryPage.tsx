@@ -404,7 +404,7 @@ export const SanctuaryPage: React.FC = () => {
   useEffect(() => {
     const load = async () => {
       try {
-        const [diodeRes, blackboxRes] = await Promise.allSettled([
+        const [_diodeRes, _blackboxRes] = await Promise.allSettled([
           apiClient.api.get<any>('/sovereign-arch/diode/status'),
           apiClient.api.get<any>('/sovereign-organs/blackbox/status'),
         ]);

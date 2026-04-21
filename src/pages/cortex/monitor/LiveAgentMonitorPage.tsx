@@ -591,7 +591,7 @@ export const LiveAgentMonitorPage: React.FC = () => {
             { key: 'blockRate', label: 'Block Rate', align: 'right' as const, render: (v: number) => <span className={v <= 5 ? 'text-emerald-400' : v <= 15 ? 'text-amber-400' : 'text-red-400 font-bold'}>{v}%</span> },
             { key: 'avgRisk', label: 'Avg Risk', align: 'right' as const, render: (v: number) => <StatusBadge status={v >= 60 ? 'error' : v >= 40 ? 'warning' : 'success'} label={`${v}`} /> },
           ]}
-          tableData={AGENTS.map((agent, i) => {
+          tableData={AGENTS.map((agent, _i) => {
             const agentActions = actions.filter(a => a.agentId === agent.id);
             const total = Math.max(agentActions.length, 1);
             return {

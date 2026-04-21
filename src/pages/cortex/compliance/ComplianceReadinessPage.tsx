@@ -94,7 +94,7 @@ const categoryColor = (cat: string) =>
 export const ComplianceReadinessPage: React.FC = () => {
   const navigate = useNavigate();
   const [frameworks, setFrameworks] = useState<FrameworkStatus[]>(FRAMEWORKS);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;

@@ -398,7 +398,7 @@ export const GlobalModelSettings: React.FC<GlobalModelSettingsProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<'default' | 'agents'>('default');
   const defaultModelData = getModel(defaultModel);
-  const allModels = getAvailableModels();
+  void (getAvailableModels());
 
   return (
     <div className="bg-slate-900/50 rounded-xl border border-slate-700/50">

@@ -844,139 +844,14 @@ interface ZeroKnowledgeProof {
 // =============================================================================
 
 const generateEvents = (): TimelineEvent[] => {
-  const events: TimelineEvent[] = [];
-  const now = new Date();
-
-  // Comprehensive event templates with more variety
-  const templates = [
-    {
-      type: 'decision' as const,
-      titles: [
-        'Board Approved Q3 Budget Allocation',
-        'Council Greenlit Strategic Acquisition',
-        'Authorized Series C Terms Sheet',
-        'Approved Hiring Freeze Lift for Engineering',
-        'Sanctioned APAC Market Expansion',
-        'Should Sterling enter the Canadian market?',
-        'What are the expected Q4 revenue projections?',
-        'Approved vendor contract renewal - Salesforce',
-        'Council approved new pricing strategy',
-        'Board ratified executive compensation plan',
-        'Authorized $2M R&D investment',
-        'Approved partnership with Microsoft Azure',
-        'Council greenlit product roadmap Q1 2026',
-        'Sanctioned remote work policy update',
-        'Approved cybersecurity budget increase',
-        'Board approved dividend distribution',
-        'Council authorized new office lease',
-        'Approved customer success team expansion',
-        'Sanctioned AI ethics policy adoption',
-        'Board approved ESG reporting framework',
-      ],
-    },
-    {
-      type: 'metric' as const,
-      titles: [
-        'Revenue Milestone: $12.6M ARR achieved',
-        'Churn Rate Spike: 4.2% detected',
-        'NPS Score improved to 72 (+8)',
-        'Customer Acquisition Cost reduced 23%',
-        'LTV:CAC ratio hit 4.2x target',
-        'Monthly Active Users exceeded 50K',
-        'Pipeline coverage reached 3.8x',
-        'Employee satisfaction score: 82%',
-        'Support ticket resolution: 94% SLA',
-        'Product uptime: 99.97% achieved',
-        'Conversion rate improved to 3.4%',
-        'Average deal size increased 18%',
-        'Customer retention hit 94%',
-        'Gross margin improved to 78%',
-        'Sales cycle reduced to 42 days',
-      ],
-    },
-    {
-      type: 'personnel' as const,
-      titles: [
-        'VP Sales Sarah Chen departure announced',
-        'CTO Robert Williams transition to advisory',
-        'Engineering team +12 headcount approved',
-        'CFO Margaret Chen hired from Goldman',
-        'Sales team restructure completed',
-        'New CISO David Kim onboarded',
-        'VP Marketing Jennifer Park promoted',
-        'Board member Gen. Mitchell joined',
-        'Chief People Officer Emily Zhang hired',
-        'VP Product Michael Torres promoted',
-        'Engineering Director Lisa Anderson hired',
-        'Head of Legal Frank Martinez onboarded',
-        'VP Customer Success role created',
-        'Chief Revenue Officer search initiated',
-        'Board diversity initiative launched',
-      ],
-    },
-    {
-      type: 'financial' as const,
-      titles: [
-        'Series B Close: $45M at $180M valuation',
-        'Q2 Earnings Beat: +12% vs forecast',
-        'Debt Facility: $20M secured at 6.5%',
-        'R&D Tax Credit: $1.2M realized',
-        'Bridge Round: $8M completed',
-        'Revenue recognition policy updated',
-        'Accounts receivable: 98% collection rate',
-        'Operating expenses optimized -8%',
-        'Cash runway extended to 24 months',
-        'Gross burn reduced to $780K/month',
-        'Customer prepayments: $3.2M received',
-        'Vendor payment terms extended to Net 60',
-        'Insurance coverage expanded',
-        'Audit completed - clean opinion',
-        'Tax strategy review completed',
-      ],
-    },
-    {
-      type: 'milestone' as const,
-      titles: [
-        '1,000th Enterprise Customer signed',
-        'SOC2 Type II Certification achieved',
-        'GDPR Compliance audit passed',
-        'Product Hunt #1 Launch Day',
-        'First $1M ARR Contract closed',
-        'ISO 27001 Certification obtained',
-        'HIPAA Compliance verified',
-        'FedRAMP Authorization initiated',
-        '100th Fortune 500 customer',
-        'Platform 2.0 general availability',
-        'Mobile app launched on iOS/Android',
-        'API v3 released to partners',
-        'First international office opened',
-        '10,000 daily active users milestone',
-        'Strategic partnership announced',
-      ],
-    },
-    {
-      type: 'system' as const,
-      titles: [
-        'Production deployment v2.4.1 completed',
-        'Database migration to Aurora successful',
-        'CDN optimization reduced latency 40%',
-        'Security patch CVE-2025-1234 applied',
-        'Kubernetes cluster scaled to 50 nodes',
-        'Backup recovery test passed',
-        'SSL certificates renewed',
-        'API rate limiting implemented',
-        'Monitoring alerts configured',
-        'Disaster recovery drill completed',
-      ],
-    },
-  ];
+  void (new Date());
 
   // Real timeline events should come from backend API
   // This function should be replaced with actual API calls to decision/events
   return []; // Empty until real data is connected
 };
 
-const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
+const generateSnapshot = (date: Date, _mode: ChronosMode): StateSnapshot => {
   // Real state snapshots should come from backend metrics API
   // This function should be replaced with actual API calls
   return {
@@ -1014,7 +889,7 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
 };
 
 // Generate Pivotal Moments (AI-detected critical points)
-const generatePivotalMoments = (events: TimelineEvent[]): PivotalMoment[] => {
+const generatePivotalMoments = (_events: TimelineEvent[]): PivotalMoment[] => {
   // Real pivotal moments should come from backend AI detection API
   // This function should be replaced with actual API calls to /decision-intel/chronos/ai/pivotal-moments
   return []; // Empty until real data is connected
@@ -1038,7 +913,7 @@ const generateCouncilReplay = (event: TimelineEvent): CouncilReplay => {
 };
 
 // Generate Causal Chain (Impact Tracing)
-const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): CausalChain => {
+const generateCausalChain = (event: TimelineEvent, _allEvents: TimelineEvent[]): CausalChain => {
   // Real causal chains should come from backend causal analysis API
   // This function should be replaced with actual API calls
   return {
@@ -1170,37 +1045,37 @@ const generateERPConnectors = (): ERPConnector[] => [
   },
 ];
 
-const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
+const generateCRMEvents = (_days: number = 90): CRMPipelineEvent[] => {
   // Real CRM events should come from backend Salesforce API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
 };
 
-const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
+const generateERPTransactions = (_days: number = 90): ERPTransactionEvent[] => {
   // Real ERP transactions should come from backend SAP API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
 };
 
-const generateHREvents = (days: number = 180): HREvent[] => {
+const generateHREvents = (_days: number = 180): HREvent[] => {
   // Real HR events should come from backend Workday API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
 };
 
-const generateEngineeringEvents = (days: number = 90): EngineeringEvent[] => {
+const generateEngineeringEvents = (_days: number = 90): EngineeringEvent[] => {
   // Real engineering events should come from backend Jira/GitHub API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
 };
 
-const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
+const generateServiceTickets = (_days: number = 60): ServiceTicketEvent[] => {
   // Real service tickets should come from backend ServiceNow API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
 };
 
-const generateDocumentRevisions = (days: number = 180): DocumentRevisionEvent[] => {
+const generateDocumentRevisions = (_days: number = 180): DocumentRevisionEvent[] => {
   // Real document revisions should come from backend SharePoint API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
@@ -1585,7 +1460,7 @@ const generateZKProof = (
 // FINANCIAL VALIDATION EVENT GENERATOR - SOX/SEC Audit Trail
 // =============================================================================
 
-const generateFinancialValidationEvents = (count: number = 10): FinancialValidationEvent[] => {
+const generateFinancialValidationEvents = (_count: number = 10): FinancialValidationEvent[] => {
   // Real financial validation events should come from backend SOX audit API
   // This function should be replaced with actual API calls
   return []; // Empty until real data is connected
@@ -7892,7 +7767,7 @@ const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                     </div>
 
                     {/* Timeline Events along the branch */}
-                    {universe.timeline.slice(0, 5).map((event, eIdx) => {
+                    {universe.timeline.slice(0, 5).map((event, _eIdx) => {
                       const xPercent = Math.min((event.dayOffset / maxDays) * 85 + 15, 95);
                       const eventId = `${universe.id}-${event.id}`;
                       const isHovered = hoveredEvent === eventId;

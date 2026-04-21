@@ -430,7 +430,6 @@ const bottomNavigationItems: NavItem[] = [
 
 // Legacy compat
 const navigationItems = [homeItem, ...foundationGroup.items];
-const pillarItems: { id: string; labelKey: string; emoji: string; path: string; tooltip: string }[] = [];
 
 // Get current page for quick actions
 const getCurrentPage = (
@@ -847,43 +846,7 @@ const verticalPacks = [
     description: 'Basel III + EU AI Act for mid-tier EU banks',
     industry: 'Banking',
   },
-];
-
-// =============================================================================
-// ADDITIONAL CORE SERVICES
-// =============================================================================
-const additionalServices = [
-  {
-    id: 'omni-translate',
-    label: 'CendiaOmniTranslate™',
-    Icon: Languages,
-    path: '/cortex/enterprise/omni-translate',
-    description: '100-Language Enterprise Translator',
-  },
-  {
-    id: 'dissent',
-    label: 'CendiaDissent™',
-    Icon: Megaphone,
-    path: '/cortex/enterprise/dissent',
-    description: 'Protected Dissent & Whistleblower Channel (Council extension)',
-  },
-  {
-    id: 'responsibility',
-    label: 'CendiaResponsibility™',
-    Icon: UserCheck,
-    path: '/cortex/enterprise/responsibility',
-    description: 'Human Accountability Layer - TPM-signed liability transfer',
-  },
-];
-
-// REMOVED: CendiaForecast, CendiaSentry (Apex Products)
-// MOVED TO SETTINGS: Walkthroughs, Training, Gnosis
-// MOVED TO PRICING: Sovereign (deployment tier)
-// MOVED TO VISION ROADMAP: PersonaForge, Mesh, Aegis
-
-// Legacy arrays for backwards compatibility (empty or minimal)
-const premiumFeatures = [...coreSuiteFeatures];
-const apexProducts: typeof coreSuiteFeatures = []; // Removed
+]; // Removed
 
 // =============================================================================
 // ENTERPRISE FEATURES - Consolidated (many merged into Core Suite / Trust Layer)
@@ -1044,7 +1007,7 @@ const CortexLayoutInner: React.FC = () => {
   const navigate = useNavigate();
   const { t } = useLanguage();
   const { user, logout } = useAuth();
-  const { isServiceEnabled, isInitialized } = useVerticalConfig();
+  void (useVerticalConfig());
 
   // Check if user is owner/admin (bypass all service filtering)
   const isOwnerOrAdmin = useMemo(() => {
@@ -1055,11 +1018,11 @@ const CortexLayoutInner: React.FC = () => {
   }, [user?.role]);
 
   // Filter enterprise features based on enabled services
-  const filteredEnterpriseFeatures = useMemo(() => {
+  void (useMemo(() => {
     // ALWAYS show ALL enterprise features - filtering disabled for now
     logger.info('[CortexLayout] Enterprise: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', enterpriseFeatures.length, 'features');
     return enterpriseFeatures;
-  }, [isOwnerOrAdmin]);
+  }, [isOwnerOrAdmin]));
 
   // Filter sovereign features - show ALL for owner
   const filteredSovereignFeatures = useMemo(() => {
@@ -1075,7 +1038,7 @@ const CortexLayoutInner: React.FC = () => {
     return location.pathname.startsWith(path);
   };
 
-  const currentPage = getCurrentPage(location.pathname);
+  void (getCurrentPage(location.pathname));
 
   const userInitials = user?.name
     ? user.name

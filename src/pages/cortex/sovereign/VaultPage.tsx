@@ -55,7 +55,7 @@ const VaultPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'browse' | 'search' | 'legal-hold' | 'stats'>('browse');
   const [artifacts, setArtifacts] = useState<VaultArtifact[]>([]);
   const [stats, setStats] = useState<VaultStats | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
   const [selectedType, setSelectedType] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArtifact, setSelectedArtifact] = useState<VaultArtifact | null>(null);

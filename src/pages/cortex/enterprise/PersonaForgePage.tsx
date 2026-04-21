@@ -190,7 +190,7 @@ export const PersonaForgePage: React.FC = () => {
   }, [chatMessages]);
 
   const readyPersonas = personas.filter((p) => p.status === 'ready');
-  const trainingPersonas = personas.filter((p) => p.status !== 'ready');
+  void (personas.filter((p) => p.status !== 'ready'));
 
   // Real Ollama-powered chat
   const handleSendMessage = useCallback(async () => {
@@ -288,7 +288,7 @@ export const PersonaForgePage: React.FC = () => {
 
   // Start training a persona
   const handleStartTraining = (personaId: string) => {
-    personaForgeService.startTraining(personaId, (progress, status) => {
+    personaForgeService.startTraining(personaId, (_progress, _status) => {
       setPersonas(personaForgeService.getPersonas());
     });
   };

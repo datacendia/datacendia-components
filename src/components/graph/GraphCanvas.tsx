@@ -342,7 +342,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
     cyRef.current?.reset();
   }, []);
 
-  const highlightPath = useCallback((nodeIds: string[]) => {
+  void (useCallback((nodeIds: string[]) => {
     if (!cyRef.current) {
       return;
     }
@@ -360,11 +360,11 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
     cy.elements().addClass('dimmed');
     nodes.removeClass('dimmed').addClass('highlighted');
     edges.removeClass('dimmed').addClass('highlighted');
-  }, []);
+  }, []));
 
-  const clearHighlight = useCallback(() => {
+  void (useCallback(() => {
     cyRef.current?.elements().removeClass('highlighted dimmed');
-  }, []);
+  }, []));
 
   return (
     <div className={cn('relative w-full h-full bg-gray-50 rounded-lg overflow-hidden', className)}>

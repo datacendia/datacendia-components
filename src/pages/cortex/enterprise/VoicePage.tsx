@@ -67,7 +67,7 @@ export const VoicePage: React.FC = () => {
   const [userInput, setUserInput] = useState('');
   const [currentSpeaker, setCurrentSpeaker] = useState<ExecutiveRole | null>(null);
   const [isSending, setIsSending] = useState(false);
-  const [ollamaStatus, setOllamaStatus] = useState({ available: false });
+  const [_ollamaStatus, setOllamaStatus] = useState({ available: false });
   const [voiceEnabled, setVoiceEnabled] = useState(true);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);

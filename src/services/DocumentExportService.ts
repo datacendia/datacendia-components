@@ -168,7 +168,7 @@ class DocumentExportService {
           <div class="transcript-section">
             <h4>📜 Full Transcript (${d.transcript.length} entries)</h4>
             <div class="transcript-entries">
-              ${d.transcript.map((t, tIdx) => `
+              ${d.transcript.map((t, _tIdx) => `
                 <div class="transcript-entry">
                   <div class="entry-header">
                     <span class="agent-badge">${t.agentCode?.toUpperCase() || 'AGENT'}</span>
@@ -197,7 +197,7 @@ class DocumentExportService {
       </div>
     `).join('');
     
-    const timelineSections = data.contents.timeline.slice(0, 50).map((t, idx) => `
+    const timelineSections = data.contents.timeline.slice(0, 50).map((t, _idx) => `
       <tr>
         <td>${new Date(t.timestamp).toLocaleString()}</td>
         <td><span class="type-badge ${t.type}">${t.type}</span></td>

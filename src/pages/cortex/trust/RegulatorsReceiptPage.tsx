@@ -24,8 +24,8 @@ import { RedactionProvider, RedactionToggle } from '../../../components/ui/Redac
 import { api } from '../../../lib/api';
 
 const RegulatorsReceiptPage: React.FC = () => {
-  const [receipts, setReceipts] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [_receipts, setReceipts] = useState<any[]>([]);
+  const [_loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;

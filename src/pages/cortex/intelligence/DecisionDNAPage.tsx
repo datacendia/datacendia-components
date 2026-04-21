@@ -543,7 +543,7 @@ export const DecisionDNAPage: React.FC<{ embedded?: boolean }> = ({ embedded = f
   const navigate = useNavigate();
   const { user } = useAuth();
   const [decisions, setDecisions] = useState<DecisionSummary[]>([]);
-  const [isLoadingList, setIsLoadingList] = useState(true);
+  const [_isLoadingList, setIsLoadingList] = useState(true);
   const [selectedDecision, setSelectedDecision] = useState<Decision | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [_preMortemError, setPreMortemError] = useState<string | null>(null);

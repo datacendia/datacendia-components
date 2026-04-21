@@ -692,7 +692,7 @@ export const calculateProtectionScore = (
 
 // Get industry-specific guidance
 export const getIndustryGuidance = (
-  mode: DissentMode,
+  _mode: DissentMode,
   industry: IndustrySensitivityProfile
 ): string => {
   const protections = industry.whistleblowerProtections;

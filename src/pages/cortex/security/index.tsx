@@ -26,7 +26,7 @@ import { DemoDataBanner } from '../../../components/common/DemoDataBanner';
 // =============================================================================
 
 export const SecurityOverviewPage: React.FC = () => {
-  const navigate = useNavigate();
+  void (useNavigate());
   const securityScore = 85;
 
   const metrics = [
@@ -237,7 +237,7 @@ export const SecurityOverviewPage: React.FC = () => {
 
 export const AccessControlPage: React.FC = () => {
   const navigate = useNavigate();
-  const [showCreatePolicy, setShowCreatePolicy] = useState(false);
+  const [_showCreatePolicy, _setShowCreatePolicy] = useState(false);
   const accessPolicies = [
     {
       id: 1,
@@ -676,7 +676,7 @@ export const AuditLogPage: React.FC = () => {
 // =============================================================================
 
 export const SecurityPoliciesPage: React.FC = () => {
-  const [showCreatePolicy, setShowCreatePolicy] = useState(false);
+  const [_showCreatePolicy, setShowCreatePolicy] = useState(false);
   const policies = [
     {
       id: 1,

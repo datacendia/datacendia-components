@@ -46,14 +46,14 @@ interface PersonalityTraitsPanelProps {
 }
 
 export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
-  agentId,
+  agentId: _agentId,
   agentName,
   enabledTraits,
   onTraitsChange,
   compact = false,
 }) => {
   const [expandedCategories, setExpandedCategories] = useState<Set<TraitCategory>>(new Set());
-  const [showConflicts, setShowConflicts] = useState(false);
+  const [_showConflicts, _setShowConflicts] = useState(false);
 
   const categories = getTraitCategories();
   const allTraits = getAvailableTraits();

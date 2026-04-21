@@ -251,7 +251,7 @@ const TimeBarIndicator = ({ item }: { item: EvidenceItem }) => {
 export default function UEFAWalkthroughPage() {
   const [expandedEvidence, setExpandedEvidence] = useState<Set<string>>(new Set());
   const [expandedSteps, setExpandedSteps] = useState<Set<string>>(new Set());
-  const [showReceipt, setShowReceipt] = useState(false);
+  const [_showReceipt, _setShowReceipt] = useState(false);
 
   const toggleEvidence = (id: string) => {
     const next = new Set(expandedEvidence);

@@ -342,7 +342,7 @@ interface DashboardViewProps {
 const DashboardView: React.FC<DashboardViewProps> = ({
   metrics,
   activeDissents,
-  recentDissents,
+  recentDissents: _recentDissents,
 }) => {
   return (
     <div className="space-y-8">

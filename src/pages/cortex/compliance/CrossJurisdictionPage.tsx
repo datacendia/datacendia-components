@@ -76,11 +76,11 @@ interface ComplianceMatrix {
 // =============================================================================
 
 export default function CrossJurisdictionPage() {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [jurisdictions, setJurisdictions] = useState<Jurisdiction[]>([]);
   const [assessment, setAssessment] = useState<ComplianceAssessment | null>(null);
-  const [matrix, setMatrix] = useState<ComplianceMatrix | null>(null);
+  const [_matrix, setMatrix] = useState<ComplianceMatrix | null>(null);
   const [selectedSource, setSelectedSource] = useState('US_FEDERAL');
   const [selectedTarget, setSelectedTarget] = useState('EU');
   const [dataType, setDataType] = useState('personal_data');

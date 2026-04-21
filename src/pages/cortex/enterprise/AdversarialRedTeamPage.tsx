@@ -308,7 +308,7 @@ const RiskMatrix: React.FC<{ attacks: RedTeamAttack[] }> = ({ attacks }) => {
               });
               return (
                 <div key={idx} className={`${cell.color} rounded h-16 flex items-center justify-center gap-0.5 relative border border-gray-200/30 dark:border-gray-700/30`}>
-                  {attacksInCell.map((a, ai) => (
+                  {attacksInCell.map((a, _ai) => (
                     <div key={a.id} className={`w-4 h-4 rounded-full ${sevColor(a.severity)} ring-2 ring-white dark:ring-gray-800 shadow-sm`} title={a.title} />
                   ))}
                 </div>
@@ -460,7 +460,7 @@ const AttackSequenceOverlay: React.FC<{ activeIdx: number }> = ({ activeIdx }) =
 // =============================================================================
 
 export const AdversarialRedTeamPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t: _t } = useTranslation();
   const [decision, setDecision] = useState('');
   const [context, setContext] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);

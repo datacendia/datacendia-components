@@ -214,7 +214,7 @@ const dot = (st: string) =>
 export const MissionControlDashboard: React.FC = () => {
   const navigate = useNavigate();
   const { t } = useLanguage();
-  const { user } = useAuth();
+  const { user: _user } = useAuth();
   const [userName, setUserName] = useState('User');
   const [orgName, setOrgName] = useState('Your Organization');
   const [isLoading, setIsLoading] = useState(true);

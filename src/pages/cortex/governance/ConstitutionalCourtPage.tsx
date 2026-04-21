@@ -48,10 +48,10 @@ const categoryLabels: Record<string, string> = {
 };
 
 export default function ConstitutionalCourtPage() {
-  const [disputes, setDisputes] = useState<Dispute[]>([]);
+  const [disputes, _setDisputes] = useState<Dispute[]>([]);
   const [principles, setPrinciples] = useState<ConstitutionalPrinciple[]>([]);
   const [statistics, setStatistics] = useState<CourtStatistics | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [_loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('disputes');
 
   useEffect(() => {
