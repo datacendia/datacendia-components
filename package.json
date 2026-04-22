@@ -111,7 +111,8 @@
     }
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.59.0"
+    "@rollup/rollup-linux-x64-gnu": "4.59.0",
+    "@esbuild/linux-x64": "0.27.3"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.0",
