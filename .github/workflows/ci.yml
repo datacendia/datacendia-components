@@ -120,7 +120,7 @@ jobs:
 
       - name: Push schema to test database
         working-directory: backend
-        run: npx prisma db push --skip-generate --accept-data-loss
+        run: npx prisma db push --accept-data-loss
         env:
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
 
