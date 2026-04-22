@@ -110,6 +110,9 @@
       }
     }
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.59.0"
+  },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.0",
     "@pact-foundation/pact": "^13.1.0",
