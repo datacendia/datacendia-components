@@ -118,6 +118,12 @@ jobs:
         env:
           DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
 
+      - name: Push schema to test database
+        working-directory: backend
+        run: npx prisma db push --skip-generate --accept-data-loss
+        env:
+          DATABASE_URL: postgresql://datacendia:datacendia_test@localhost:5432/datacendia_test
+
       # Type-check and Lint are currently non-gating (see PLATFORM_AUDIT_2026-04-22.md).
       - name: Type check
         working-directory: backend
