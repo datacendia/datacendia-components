@@ -17,9 +17,6 @@
 import express, { Request, Response, Router } from 'express';
 import { logger } from '../utils/logger.js';
 import { authenticate, requireRole } from '../middleware/auth.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
-
-import { z } from 'zod';
 const router: Router = express.Router();
 import { prisma } from '../config/database.js';
 // =============================================================================

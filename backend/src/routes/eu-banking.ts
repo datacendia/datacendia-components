@@ -40,12 +40,12 @@ import type {
 } from '../services/verticals/eu-banking/index.js';
 
 
-const schema_2 = z.object({
+void (z.object({
   components: z.any(),
-}).passthrough();
-const schema_3 = z.object({
+}).passthrough());
+void (z.object({
   components: z.any(),
-}).passthrough();
+}).passthrough());
 
 
 const capitalAdequacySchema = z.object({
@@ -57,7 +57,7 @@ const capitalAdequacySchema = z.object({
   operationalRiskData: z.record(z.any()).optional(),
 });
 const exposuresSchema = z.object({ exposures: z.array(z.record(z.any())).min(1) });
-const componentsSchema = z.object({ components: z.record(z.any()) });
+void (z.object({ components: z.record(z.any()) }));
 const leverageSchema = z.object({
   exposures: z.array(z.record(z.any())),
   tier1Capital: z.number(),

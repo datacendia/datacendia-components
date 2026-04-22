@@ -389,7 +389,7 @@ export const snowflakeConnector: DataSourceConnector = {
         throw new Error('Authentication failed');
       }
       
-      const data = await response.json();
+      void (await response.json());
       
       return {
         success: true,
@@ -419,7 +419,7 @@ export const csvConnector: DataSourceConnector = {
   type: 'CSV_UPLOAD',
   name: 'CSV File',
   
-  async testConnection(config, credentials): Promise<ConnectionResult> {
+  async testConnection(config, _credentials): Promise<ConnectionResult> {
     // CSV files are always "connected" - we just validate the file exists
     const filePath = config.filePath as string;
     
@@ -834,7 +834,7 @@ export const hubspotConnector: DataSourceConnector = {
   type: 'HUBSPOT',
   name: 'HubSpot',
   
-  async testConnection(config, credentials): Promise<ConnectionResult> {
+  async testConnection(_config, credentials): Promise<ConnectionResult> {
     try {
       const apiKey = credentials.apiKey;
       const accessToken = credentials.accessToken;
@@ -933,7 +933,7 @@ export const oracleConnector: DataSourceConnector = {
   type: 'ORACLE',
   name: 'Oracle Database',
   
-  async testConnection(config, credentials): Promise<ConnectionResult> {
+  async testConnection(config, _credentials): Promise<ConnectionResult> {
     try {
       // Oracle connection would use oracledb package
       const host = config.host as string;
@@ -1130,7 +1130,7 @@ export const slackConnector: DataSourceConnector = {
   type: 'SLACK',
   name: 'Slack',
   
-  async testConnection(config, credentials): Promise<ConnectionResult> {
+  async testConnection(_config, credentials): Promise<ConnectionResult> {
     try {
       // Slack Bot Token auth
       const token = credentials.botToken || credentials.accessToken;

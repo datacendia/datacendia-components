@@ -219,7 +219,7 @@ export class CendiaOrbitService extends EventEmitter {
   /**
    * Import graph from Neo4j or external source
    */
-  async importFromNeo4j(neo4jDriver: unknown): Promise<void> {
+  async importFromNeo4j(_neo4jDriver: unknown): Promise<void> {
     // Neo4j graph population via neo4j-driver when configured
     // This is a placeholder for the integration
     this.emit('graph:imported', { nodeCount: this.graph.nodes.size });

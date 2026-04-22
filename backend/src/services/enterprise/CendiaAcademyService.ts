@@ -411,7 +411,7 @@ Provide a structured learning path in JSON:
     return 'expert';
   }
 
-  private generateDefaultModules(skill: string, difficulty: string): Partial<LearningModule>[] {
+  private generateDefaultModules(skill: string, _difficulty: string): Partial<LearningModule>[] {
     return [
       {
         title: `Introduction to ${skill}`,
@@ -908,7 +908,6 @@ Generate a 5-10 minute micro-course in JSON:
   } {
     const profiles = Array.from(this.profiles.values());
     const now = Date.now();
-    const thirtyDays = 30 * 24 * 60 * 60 * 1000;
     let totalCerts = 0; let activeCerts = 0;
     const expiringSoon: Array<{ employeeName: string; department: string; certName: string; expirationDate: Date; daysRemaining: number }> = [];
     const expired: Array<{ employeeName: string; department: string; certName: string; expiredDate: Date }> = [];

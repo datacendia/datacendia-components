@@ -27,7 +27,7 @@ import { SPORTS_DECISION_TEMPLATES } from '../config/sports/decision-templates.j
 import { SPORTS_COMPLIANCE_FRAMEWORKS } from '../config/sports/compliance-frameworks.js';
 
 
-const transferCreateSchema = z.object({
+void (z.object({
   organizationId: z.string().min(1),
   userId: z.string().min(1),
   playerName: z.string().min(1),
@@ -38,7 +38,7 @@ const transferCreateSchema = z.object({
   contractLength: z.number().int().optional(),
   wages: z.number().optional(),
   agentFee: z.number().optional(),
-});
+}));
 
 const transferUpdateSchema = z.object({
   userId: z.string().min(1),

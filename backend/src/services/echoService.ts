@@ -463,10 +463,10 @@ class EchoService {
 
     if (!outcome) { return null; }
 
-    const deliberation = await prisma.deliberations.findUnique({
+    void (await prisma.deliberations.findUnique({
       where: { id: deliberationId },
       include: { deliberation_votes: true },
-    });
+    }));
 
     return {
       id: outcome.id,
@@ -505,10 +505,10 @@ class EchoService {
       throw new Error('No outcome found for this decision');
     }
 
-    const deliberation = await prisma.deliberations.findUnique({
+    void (await prisma.deliberations.findUnique({
       where: { id: deliberationId },
       include: { deliberation_votes: true },
-    });
+    }));
 
     // Generate report using AI
     const isOllamaAvailable = await ollama.isAvailable();
@@ -604,7 +604,7 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
 
   private calculateDollarImpact(
     predictions: any,
-    outcomeData: any
+    _outcomeData: any
   ): number {
     let impact = 0;
     if (predictions.revenue?.actual) {
@@ -1132,7 +1132,6 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
         });
 
         for (const source of sources) {
-          const sourceConfig = source.config as any;
           const sourceMetadata = source.metadata as any;
 
           // Extract latest values from source metadata (data sources sync periodically)

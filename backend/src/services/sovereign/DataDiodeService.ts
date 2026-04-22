@@ -140,31 +140,6 @@ export interface DiodeStatistics {
 }
 
 // =============================================================================
-// GRIB PARSER (Aviation Weather)
-// =============================================================================
-
-interface GribMessage {
-  parameter: string;
-  level: string;
-  forecastTime: number;
-  validTime: Date;
-  gridSize: { lat: number; lon: number };
-  values: number[];
-  min: number;
-  max: number;
-  mean: number;
-}
-
-interface ParsedGribData {
-  edition: number;
-  center: string;
-  model: string;
-  referenceTime: Date;
-  messages: GribMessage[];
-  metadata: Record<string, any>;
-}
-
-// =============================================================================
 // DATA DIODE SERVICE
 // =============================================================================
 

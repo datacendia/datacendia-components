@@ -21,15 +21,6 @@ import { logger } from '../../utils/logger.js';
 import { credentialEvidenceService } from './CredentialEvidenceService.js';
 
 import { prisma } from '../../config/database.js';
-// Type for user with MFA fields (after prisma generate)
-interface UserWithMFA {
-  id: string;
-  email: string;
-  mfa_enabled: boolean;
-  mfa_secret: string | null;
-  mfa_backup_codes: string | null;
-  mfa_enabled_at: Date | null;
-}
 
 async function createAuditLog(data: { eventType: string; userId: string; details: Record<string, unknown> }) {
   try {

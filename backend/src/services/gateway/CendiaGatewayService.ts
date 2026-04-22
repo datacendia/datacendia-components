@@ -23,7 +23,7 @@ import { logger } from '../../utils/logger.js';
 
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
-import { scanForPII, scanForKeywords, type PIIScanResult, type PIIType } from './PIIDetector';
+import { scanForPII, scanForKeywords, type PIIScanResult } from './PIIDetector';
 
 import { prisma } from '../../config/database.js';
 // =============================================================================
@@ -31,7 +31,7 @@ import { prisma } from '../../config/database.js';
 // =============================================================================
 
 
-import type { GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest, GovernanceReceipt } from './gateway-svc-types.js';
+import type { GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest } from './gateway-svc-types.js';
 import { DEFAULT_PROVIDERS, MODEL_PRICING, RING_BUFFER_SIZE, FLUSH_BATCH_SIZE, FLUSH_INTERVAL_MS, MERKLE_LEAF_LIMIT, hashData, signData, emptyCounters, type AggregateCounters } from './gateway-svc-types.js';
 export type { GatewayProvider, GatewayPolicy, GatewayRequest, GatewayResponse, GatewayInteraction, GatewayStats, AIManifest, GovernanceReceipt } from './gateway-svc-types.js';
 
@@ -295,7 +295,7 @@ class CendiaGatewayService extends EventEmitter {
   private async captureAndSign(
     stream: ReadableStream<Uint8Array>,
     preInteraction: GatewayInteraction,
-    providerId: string,
+    _providerId: string,
     providerStartTime: number,
     requestStartTime: number,
   ): Promise<void> {
@@ -491,7 +491,7 @@ class CendiaGatewayService extends EventEmitter {
   // TEXT EXTRACTION — Normalize prompt/response text from different providers
   // ===========================================================================
 
-  private extractPromptText(provider: string, body: any): string {
+  private extractPromptText(_provider: string, body: any): string {
     if (!body) return '';
 
     // OpenAI format: { messages: [{ role, content }] }
@@ -512,7 +512,7 @@ class CendiaGatewayService extends EventEmitter {
     return JSON.stringify(body);
   }
 
-  private extractResponseText(provider: string, body: any): string {
+  private extractResponseText(_provider: string, body: any): string {
     if (!body) return '';
 
     // OpenAI: { choices: [{ message: { content } }] }
@@ -535,7 +535,7 @@ class CendiaGatewayService extends EventEmitter {
     return '';
   }
 
-  private extractUsage(provider: string, body: any): { promptTokens: number; responseTokens: number } {
+  private extractUsage(_provider: string, body: any): { promptTokens: number; responseTokens: number } {
     if (body?.usage) {
       return {
         promptTokens: body.usage.prompt_tokens || body.usage.input_tokens || 0,
@@ -545,7 +545,7 @@ class CendiaGatewayService extends EventEmitter {
     return { promptTokens: 0, responseTokens: 0 };
   }
 
-  private replacePromptText(provider: string, body: any, redactedText: string): any {
+  private replacePromptText(_provider: string, body: any, redactedText: string): any {
     const clone = JSON.parse(JSON.stringify(body));
 
     if (clone.messages && Array.isArray(clone.messages)) {

@@ -17,7 +17,6 @@
 // =============================================================================
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../services/BaseService';
-import { eventBus } from '../events/EventBus';
 import { getErrorMessage, ensureError } from '../../utils/errors.js';
 
 // =============================================================================
@@ -455,7 +454,7 @@ export abstract class BaseConnector extends BaseService {
   /**
    * Register a webhook for real-time updates
    */
-  async registerWebhook(config: WebhookConfig): Promise<string> {
+  async registerWebhook(_config: WebhookConfig): Promise<string> {
     // Override in subclasses
     throw new Error('Webhook registration not implemented');
   }
@@ -463,7 +462,7 @@ export abstract class BaseConnector extends BaseService {
   /**
    * Unregister a webhook
    */
-  async unregisterWebhook(webhookId: string): Promise<void> {
+  async unregisterWebhook(_webhookId: string): Promise<void> {
     // Override in subclasses
     throw new Error('Webhook unregistration not implemented');
   }
@@ -471,7 +470,7 @@ export abstract class BaseConnector extends BaseService {
   /**
    * Handle incoming webhook payload
    */
-  async handleWebhook(payload: any, signature?: string): Promise<void> {
+  async handleWebhook(_payload: any, _signature?: string): Promise<void> {
     // Override in subclasses
     throw new Error('Webhook handling not implemented');
   }

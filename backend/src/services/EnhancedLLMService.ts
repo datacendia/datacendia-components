@@ -18,7 +18,7 @@
 
 import { config } from '../config/index.js';
 import { logger } from '../utils/logger.js';
-import { cache, pubsub } from '../config/redis.js';
+import { cache } from '../config/redis.js';
 import { prisma } from '../config/database.js';
 import crypto from 'crypto';
 import { loadServiceRecords } from '../utils/servicePersistence.js';
@@ -509,7 +509,7 @@ export class EnhancedLLMService {
   /**
    * Select optimal model based on query and agent
    */
-  selectOptimalModel(query: string, agentId?: string, classification?: QueryClassification): string {
+  selectOptimalModel(_query: string, agentId?: string, classification?: QueryClassification): string {
     // If agent specified, use agent preferences
     if (agentId && AGENT_MODEL_PREFERENCES[agentId]) {
       const preferred = AGENT_MODEL_PREFERENCES[agentId];
@@ -705,7 +705,7 @@ ${prompt}
     models: string[],
     strategy: 'vote' | 'blend' | 'best' = 'blend'
   ): Promise<EnsembleResult> {
-    const startTime = Date.now();
+    void (Date.now());
     
     // Generate from all models in parallel
     const responses = await Promise.all(

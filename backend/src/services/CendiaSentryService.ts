@@ -26,7 +26,7 @@ import { persistServiceRecord, loadServiceRecords } from '../utils/servicePersis
 // =============================================================================
 
 
-import type { GuardrailType, GuardrailSeverity, GuardrailConfig, GuardrailResult, GuardrailIssue, SentryCheck, PIIMatch, BiasIndicator } from './sentry-svc-types.js';
+import type { GuardrailType, GuardrailSeverity, GuardrailConfig, GuardrailResult, GuardrailIssue, SentryCheck,  } from './sentry-svc-types.js';
 export type { GuardrailType, GuardrailSeverity, GuardrailConfig, GuardrailResult, GuardrailIssue, SentryCheck, PIIMatch, BiasIndicator } from './sentry-svc-types.js';
 
 
@@ -355,7 +355,7 @@ export class CendiaSentryService extends BaseService {
    */
   private checkBias(content: string, config: GuardrailConfig, startTime: number): GuardrailResult {
     const issues: GuardrailIssue[] = [];
-    const lowerContent = content.toLowerCase();
+    void (content.toLowerCase());
     
     // Gender bias patterns
     const genderBiasPatterns = [
@@ -404,7 +404,7 @@ export class CendiaSentryService extends BaseService {
   private checkHallucination(
     content: string, 
     config: GuardrailConfig, 
-    context?: Record<string, any>,
+    _context?: Record<string, any>,
     startTime: number = Date.now()
   ): GuardrailResult {
     const issues: GuardrailIssue[] = [];
@@ -461,7 +461,7 @@ export class CendiaSentryService extends BaseService {
   private checkFinancialAccuracy(
     content: string,
     config: GuardrailConfig,
-    context?: Record<string, any>,
+    _context?: Record<string, any>,
     startTime: number = Date.now()
   ): GuardrailResult {
     const issues: GuardrailIssue[] = [];
@@ -526,7 +526,7 @@ export class CendiaSentryService extends BaseService {
   private checkConfidence(
     content: string,
     config: GuardrailConfig,
-    context?: Record<string, any>,
+    _context?: Record<string, any>,
     startTime: number = Date.now()
   ): GuardrailResult {
     const issues: GuardrailIssue[] = [];

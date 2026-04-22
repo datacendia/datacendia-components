@@ -1,22 +1,4 @@
-/**
- * Service — R D Project Service
- *
- * Business logic service implementing platform capabilities.
- *
- * @exports rdProjectService, RDProject, RDMilestone, RDProjectInput, ResearchStatus, ResearchHorizon, ResearchCategory, RiskLevel
- * @module services/admin/RDProjectService
- */
 
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
-// See LICENSE file for details.
-
-// =============================================================================
-// R&D PROJECT SERVICE - Research & Development Project Management
-// CRUD operations for managing R&D projects in the platform
-// =============================================================================
-
-import { config } from '../../config/index.js';
 import { logger } from '../../utils/logger.js';
 
 import { loadServiceRecords } from '../../utils/servicePersistence.js';

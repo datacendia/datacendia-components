@@ -383,7 +383,7 @@ export async function checkCanaryToken(value: string): Promise<boolean> {
   }
 
   const canaries = await redis.hgetall('security:canaries');
-  for (const [id, json] of Object.entries(canaries)) {
+  for (const [_id, json] of Object.entries(canaries)) {
     const token = JSON.parse(json) as CanaryToken;
     if (token.value === value) {
       // ALERT! Canary triggered

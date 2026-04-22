@@ -14,7 +14,7 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
-import { protect, optionalAuth, getOrgId, canVeto, canAccessCouncil, AuthenticatedRequest } from '../security/KeycloakAuth';
+import { protect, optionalAuth, canVeto, canAccessCouncil, AuthenticatedRequest } from '../security/KeycloakAuth';
 import { policyEngine } from '../security/PolicyEngine';
 import { tikaService } from '../services/document/TikaService';
 import { minioService } from '../services/storage/MinioService';
@@ -154,7 +154,7 @@ router.post('/documents/extract-from-vault', async (req: Request, res: Response)
 /**
  * Get all policies (admin only)
  */
-router.get('/policies', protect('admin'), async (req: Request, res: Response) => {
+router.get('/policies', protect('admin'), async (_req: Request, res: Response) => {
   try {
     const policies = await policyEngine.exportPolicies();
     res.json({ success: true, data: policies });
@@ -255,7 +255,7 @@ router.post('/documents/detect-type', async (req: Request, res: Response) => {
 /**
  * Get supported document formats
  */
-router.get('/documents/formats', async (req: Request, res: Response) => {
+router.get('/documents/formats', async (_req: Request, res: Response) => {
   try {
     const types = await tikaService.getSupportedTypes();
     res.json({ success: true, data: types });
@@ -267,7 +267,7 @@ router.get('/documents/formats', async (req: Request, res: Response) => {
 /**
  * Check Tika service health
  */
-router.get('/documents/health', async (req: Request, res: Response) => {
+router.get('/documents/health', async (_req: Request, res: Response) => {
   try {
     const available = await tikaService.checkAvailability();
     res.json({ success: true, available });
@@ -283,7 +283,7 @@ router.get('/documents/health', async (req: Request, res: Response) => {
 /**
  * Get enterprise security status
  */
-router.get('/security/status', async (req: Request, res: Response) => {
+router.get('/security/status', async (_req: Request, res: Response) => {
   try {
     const [tikaHealth, policyStatus] = await Promise.all([
       tikaService.checkAvailability(),

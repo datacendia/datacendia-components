@@ -18,7 +18,6 @@
 // =============================================================================
 
 import { BaseConnector, ConnectorConfig, SyncOptions, SyncResult } from '../BaseConnector.js';
-import { ServiceHealth } from '../../services/BaseService.js';
 // Database import - using in-memory storage for now
 // import { prisma } from '../../../config/database.js';
 import * as fs from 'fs';
@@ -184,7 +183,7 @@ export class SpreadsheetConnector extends BaseConnector {
     ];
   }
 
-  async sync(options: SyncOptions): Promise<SyncResult> {
+  async sync(_options: SyncOptions): Promise<SyncResult> {
     // For spreadsheet connector, sync means processing any pending uploaded files
     const startTime = Date.now();
     const errors: Array<{ entity: string; error: string }> = [];
@@ -492,7 +491,7 @@ export class SpreadsheetConnector extends BaseConnector {
   /**
    * Detect column metadata from data
    */
-  private detectColumns(records: ParsedRow[], hasHeaders: boolean): SpreadsheetColumn[] {
+  private detectColumns(records: ParsedRow[], _hasHeaders: boolean): SpreadsheetColumn[] {
     if (records.length === 0) return [];
     
     const firstRecord = records[0];

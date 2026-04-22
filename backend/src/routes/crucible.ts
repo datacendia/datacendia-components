@@ -103,7 +103,7 @@ router.get('/status', async (req: Request, res: Response) => {
  * GET /api/v1/crucible/templates
  * Get available scenario templates
  */
-router.get('/templates', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/templates', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const templates = cendiaCrucibleService.getScenarioTemplates();
     

@@ -846,7 +846,7 @@ Analyze and provide root cause in JSON:
       }
     }
 
-    const estimatedTotal = allPredictions.reduce((s, p) => s + 5000, 0);
+    const estimatedTotal = allPredictions.reduce((s, _p) => s + 5000, 0);
     const preventable = Math.round(estimatedTotal * 0.6);
 
     const insights: string[] = [];
@@ -1001,7 +1001,7 @@ Analyze and provide root cause in JSON:
     return {
       totalSchedules: allSchedules.length, activeSchedules: active, delayedSchedules: delayed,
       materialStatus: matStatus,
-      criticalMaterials: criticalMaterials.sort((a, b) => a.status === 'critical' ? -1 : 1),
+      criticalMaterials: criticalMaterials.sort((a, _b) => a.status === 'critical' ? -1 : 1),
       scheduleAdherence: { onTime: complete, delayed, adherenceRate },
       supplierConcentration: Object.entries(supplierMap).map(([s, d]) => ({ supplier: s, materialsSupplied: d.count, criticalItems: d.critical, riskLevel: d.critical > 0 ? 'high' : d.count > 5 ? 'medium' : 'low' })),
       productionGaps, insights,

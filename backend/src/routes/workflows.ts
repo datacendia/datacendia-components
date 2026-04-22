@@ -584,8 +584,8 @@ async function executeWorkflow(
 
 async function executeNode(
   node: { id: string; type: string; config: Record<string, unknown> },
-  parameters: Record<string, unknown>,
-  previousOutputs: Record<string, unknown>
+  _parameters: Record<string, unknown>,
+  _previousOutputs: Record<string, unknown>
 ): Promise<unknown> {
   // Simplified node execution
   switch (node.type) {

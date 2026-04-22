@@ -76,7 +76,7 @@ router.get('/list', (req: Request, res: Response) => {
 });
 
 // Get connector summary by vertical
-router.get('/summary', (req: Request, res: Response) => {
+router.get('/summary', (_req: Request, res: Response) => {
   const verticals = new Map<string, { count: number; categories: Set<string> }>();
 
   for (const connector of ALL_CONNECTORS) {
@@ -143,7 +143,7 @@ router.get('/details/:id', (req: Request, res: Response) => {
 });
 
 // Get available verticals
-router.get('/verticals', (req: Request, res: Response) => {
+router.get('/verticals', (_req: Request, res: Response) => {
   const verticals = [...new Set(ALL_CONNECTORS.map(c => c.vertical))];
   
   res.json({
@@ -157,7 +157,7 @@ router.get('/verticals', (req: Request, res: Response) => {
 });
 
 // Get available regions
-router.get('/regions', (req: Request, res: Response) => {
+router.get('/regions', (_req: Request, res: Response) => {
   const regions = [...new Set(ALL_CONNECTORS.map(c => c.region))];
   
   res.json({

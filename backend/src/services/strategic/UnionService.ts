@@ -161,7 +161,7 @@ class UnionService {
     const assessmentId = uuidv4();
 
     // Enrich and normalize threats
-    const threats: Threat[] = rawThreats.map((t, i) => ({
+    const threats: Threat[] = rawThreats.map((t, _i) => ({
       id: t.id || uuidv4(),
       type: t.type || 'malware',
       severity: t.severity || 'medium',

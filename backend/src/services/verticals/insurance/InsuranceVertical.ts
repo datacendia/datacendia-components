@@ -52,7 +52,7 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
-import { EXPANDED_INSURANCE_COMPLIANCE_FRAMEWORKS, EXPANDED_INSURANCE_COMPLIANCE_MAPPINGS, EXPANDED_INSURANCE_JURISDICTION_MAP } from './InsuranceComplianceExpanded.js';
+import { EXPANDED_INSURANCE_COMPLIANCE_FRAMEWORKS,  } from './InsuranceComplianceExpanded.js';
 import {
   RateReviewDecision,
   PolicyIssuanceDecision,
@@ -61,8 +61,7 @@ import {
   SubrogationDecision,
   PolicyCancellationDecision,
   PremiumAuditDecision,
-  CoverageDisputeDecision,
-  ExpandedInsuranceDecision,
+  CoverageDisputeDecision
 } from './InsuranceDecisionTypesExpanded.js';
 import {
   RateReviewSchema,
@@ -309,7 +308,7 @@ export class BiasFairnessEngine {
 
   auditDecision(
     decisionType: string,
-    decision: 'positive' | 'negative',
+    _decision: 'positive' | 'negative',
     applicantAttributes: Record<string, unknown>,
     historicalData?: { attributes: Record<string, unknown>; decision: 'positive' | 'negative' }[]
   ): FairnessAuditResult {

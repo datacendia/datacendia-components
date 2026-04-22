@@ -25,7 +25,7 @@
 import crypto from 'crypto';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
-import { TestEvidenceLedgerService, LedgerEntry } from './TestEvidenceLedgerService.js';
+import { TestEvidenceLedgerService } from './TestEvidenceLedgerService.js';
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
@@ -785,7 +785,7 @@ export class ComplianceDashboardService extends EventEmitter {
     return priority;
   }
 
-  private generateRecommendations(gaps: ComplianceGap[], framework: ComplianceFramework): Recommendation[] {
+  private generateRecommendations(gaps: ComplianceGap[], _framework: ComplianceFramework): Recommendation[] {
     const recommendations: Recommendation[] = [];
     
     // Group gaps by type

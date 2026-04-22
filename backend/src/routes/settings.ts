@@ -204,7 +204,7 @@ router.delete('/users/:id', async (req: Request, res: Response) => {
   }
 });
 
-router.post('/users/:id/resend-invite', async (req: Request, res: Response) => {
+router.post('/users/:id/resend-invite', async (_req: Request, res: Response) => {
   try {
     // Would send email invitation
     res.json({ success: true, message: 'Invitation resent' });
@@ -451,7 +451,7 @@ router.get('/billing', async (req: Request, res: Response) => {
 // INTEGRATIONS
 // =============================================================================
 
-router.get('/integrations', async (req: Request, res: Response) => {
+router.get('/integrations', async (_req: Request, res: Response) => {
   try {
     // Return available and configured integrations
     res.json({
@@ -478,7 +478,7 @@ router.get('/integrations', async (req: Request, res: Response) => {
 // PREFERENCES
 // =============================================================================
 
-router.get('/preferences', async (req: Request, res: Response) => {
+router.get('/preferences', async (_req: Request, res: Response) => {
   try {
     res.json({
       notifications: {

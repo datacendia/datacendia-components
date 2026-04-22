@@ -181,9 +181,9 @@ class RedTeamService {
 
     try {
       // Fetch organization's security configuration
-      const org = await prisma.organizations.findUnique({
+      void (await prisma.organizations.findUnique({
         where: { id: organizationId },
-      });
+      }));
 
       // Fetch all policies and veto rules
       const policies = await prisma.security_policies.findMany({
@@ -557,7 +557,7 @@ class RedTeamService {
     objective: string,
     policies: any[],
     agents: any[],
-    organizationId: string
+    _organizationId: string
   ): Promise<ExploitPath | null> {
     // Use AI to generate realistic attack paths
     const isOllamaAvailable = await ollama.isAvailable();
@@ -646,8 +646,8 @@ Respond with only valid JSON.`;
 
   private async evaluateAttackPath(
     path: ExploitPath,
-    policies: any[],
-    agents: any[]
+    _policies: any[],
+    _agents: any[]
   ): Promise<{ achievesObjective: boolean; partialSuccess: boolean }> {
     // Evaluate if the attack path would succeed
     const successThreshold = 50;
@@ -665,7 +665,7 @@ Respond with only valid JSON.`;
       where: { organization_id: organizationId, enabled: true },
     });
 
-    const agents = await prisma.agents.count();
+    void (await prisma.agents.count());
 
     const vulns = await prisma.redteam_vulnerabilities.count({
       where: { organization_id: organizationId, status: 'active' },
@@ -753,24 +753,24 @@ Respond with only valid JSON.`;
     return ['low', 'medium'].includes(vuln.severity);
   }
 
-  private async applyPolicyPatch(patch: any, orgId: string): Promise<void> {
+  private async applyPolicyPatch(_patch: any, _orgId: string): Promise<void> {
     // Apply policy update
     logger.info('[RedTeam] Applying policy patch');
   }
 
-  private async applyConfigPatch(patch: any, orgId: string): Promise<void> {
+  private async applyConfigPatch(_patch: any, _orgId: string): Promise<void> {
     logger.info('[RedTeam] Applying config patch');
   }
 
-  private async applyPermissionPatch(patch: any, orgId: string): Promise<void> {
+  private async applyPermissionPatch(_patch: any, _orgId: string): Promise<void> {
     logger.info('[RedTeam] Applying permission patch');
   }
 
-  private async applyMonitoringPatch(patch: any, orgId: string): Promise<void> {
+  private async applyMonitoringPatch(_patch: any, _orgId: string): Promise<void> {
     logger.info('[RedTeam] Applying monitoring patch');
   }
 
-  private async applyWorkflowPatch(patch: any, orgId: string): Promise<void> {
+  private async applyWorkflowPatch(_patch: any, _orgId: string): Promise<void> {
     logger.info('[RedTeam] Applying workflow patch');
   }
 

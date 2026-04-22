@@ -397,7 +397,7 @@ Respond ONLY with a valid JSON array. If no biases detected, respond with [].`;
    */
   analyzeStatistical(text: string): BiasDetection[] {
     const detections: BiasDetection[] = [];
-    const lowerText = text.toLowerCase();
+    void (text.toLowerCase());
 
     for (const pattern of BIAS_PATTERNS) {
       for (const regex of pattern.patterns) {

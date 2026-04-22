@@ -20,7 +20,7 @@ const cascadeSchema = z.object({ organization_id: z.string().min(1), root_event:
 const forecastSchema = z.object({ organization_id: z.string().min(1), current_metrics: z.record(z.any()).optional(), recent_events: z.array(z.record(z.any())).optional(), time_horizon: z.number().optional() });
 const timelineSchema = z.object({ organization_id: z.string().min(1), start_date: z.string().optional(), end_date: z.string().optional(), events: z.array(z.record(z.any())).optional(), metrics: z.record(z.any()).optional() });
 const counterfactualSchema = z.object({ organization_id: z.string().min(1), event: z.record(z.any()), alternative_action: z.string().optional() });
-const eventCreateSchema = z.object({ event_type: z.string().min(1), category: z.string().optional(), severity: z.string().optional(), title: z.string().min(1), description: z.string().optional(), resource_type: z.string().optional(), resource_id: z.string().optional(), metadata: z.record(z.any()).optional(), impact_score: z.number().optional() });
+void (z.object({ event_type: z.string().min(1), category: z.string().optional(), severity: z.string().optional(), title: z.string().min(1), description: z.string().optional(), resource_type: z.string().optional(), resource_id: z.string().optional(), metadata: z.record(z.any()).optional(), impact_score: z.number().optional() }));
 /**
  * API Routes — Decision Intel
  *
@@ -45,7 +45,7 @@ import { prisma } from '../config/database.js';
 import { devAuth } from '../middleware/auth.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   event_type: z.any(),
   category: z.any(),
   severity: z.any(),
@@ -56,7 +56,7 @@ const schema_1 = z.object({
   metadata: z.any(),
   impact: z.any(),
   magnitude: z.any(),
-}).passthrough();
+}).passthrough());
 
 
 const router = Router();

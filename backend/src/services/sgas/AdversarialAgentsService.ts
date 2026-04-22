@@ -614,7 +614,7 @@ export class AdversarialAgentsService extends EventEmitter {
    */
   private generateFailureScenario(
     technique: AdversarialAgentConfig['techniques'][0],
-    proposal: DecisionProposal,
+    _proposal: DecisionProposal,
     rng: () => number
   ): FailureScenario {
     return {
@@ -663,7 +663,7 @@ export class AdversarialAgentsService extends EventEmitter {
    */
   private findExploitPaths(
     agent: AdversarialAgentConfig,
-    proposal: DecisionProposal,
+    _proposal: DecisionProposal,
     institutionalOutputs: InstitutionalAgentOutput[],
     rng: () => number
   ): ExploitPath[] {

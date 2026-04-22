@@ -91,7 +91,7 @@ router.get('/frameworks/:id', (req: Request, res: Response) => {
  * GET /api/compliance/five-rings
  * Get Five Rings of Sovereignty overview
  */
-router.get('/five-rings', (req: Request, res: Response) => {
+router.get('/five-rings', (_req: Request, res: Response) => {
   try {
     const overview = complianceService.getFiveRingsOverview();
     const totalControls = overview.reduce((sum, ring) => sum + ring.totalControls, 0);
@@ -723,7 +723,7 @@ router.get('/council/history', (req: Request, res: Response) => {
  * GET /api/compliance/council/statistics
  * Get compliance enforcement statistics
  */
-router.get('/council/statistics', (req: Request, res: Response) => {
+router.get('/council/statistics', (_req: Request, res: Response) => {
   try {
     const stats = complianceGuard.getStatistics();
     res.json({ success: true, data: stats });

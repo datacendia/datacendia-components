@@ -51,7 +51,7 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
-import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './ManufacturingComplianceExpanded.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS } from './ManufacturingComplianceExpanded.js';
 import {
   ProductLaunchDecision,
   SupplierQualificationDecision,
@@ -63,16 +63,6 @@ import {
   CapitalInvestmentDecision,
   ExpandedManufacturingDecision,
 } from './ManufacturingDecisionTypesExpanded.js';
-import {
-  ProductLaunchSchema,
-  SupplierQualificationSchema,
-  ProcessChangeSchema,
-  EquipmentQualificationSchema,
-  NCRDispositionSchema,
-  EnvironmentalPermitSchema,
-  WorkforceTrainingSchema,
-  CapitalInvestmentSchema,
-} from './ManufacturingDecisionSchemasExpanded.js';
 import { embeddingService } from '../../llm/EmbeddingService.js';
 import { expressionParser } from '../../../utils/RuleEngine.js';
 

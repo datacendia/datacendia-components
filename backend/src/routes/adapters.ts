@@ -37,9 +37,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { logger } from '../utils/logger.js';
 import {
   adapterManager,
-  adapterRegistry,
   RiskTier,
-  DataClassification,
   WebhookIngestAdapter,
 } from '../adapters/sovereign/index.js';
 
@@ -87,7 +85,7 @@ const requireAuditor = (req: Request, res: Response, next: NextFunction): void =
 /**
  * List available adapter types
  */
-router.get('/types', (req, res) => {
+router.get('/types', (_req, res) => {
   const types = adapterManager.listTypes();
   
   res.json({
@@ -125,7 +123,7 @@ router.get('/types/:type', (req, res) => {
 /**
  * List all running adapter instances
  */
-router.get('/instances', requireAuditor, (req, res) => {
+router.get('/instances', requireAuditor, (_req, res) => {
   const instances = adapterManager.listInstances();
   
   res.json({
@@ -352,7 +350,7 @@ router.delete('/:id', requireAdmin, async (req, res) => {
 /**
  * Get health for all adapters
  */
-router.get('/health', requireAuditor, async (req, res) => {
+router.get('/health', requireAuditor, async (_req, res) => {
   try {
     const health = await adapterManager.getAllHealth();
 
@@ -372,7 +370,7 @@ router.get('/health', requireAuditor, async (req, res) => {
 /**
  * Get metrics for all adapters
  */
-router.get('/metrics', requireAuditor, (req, res) => {
+router.get('/metrics', requireAuditor, (_req, res) => {
   const metrics = adapterManager.getAllMetrics();
 
   res.json({

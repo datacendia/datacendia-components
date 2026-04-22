@@ -32,7 +32,7 @@ import { Router, Request, Response } from 'express';
 import { regulatorySandboxService } from '../services/compliance/RegulatorySandboxService.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   name: z.any(),
   description: z.any(),
   regulationId: z.any(),
@@ -40,7 +40,7 @@ const schema_1 = z.object({
   decisionId: z.any(),
   workflowId: z.any(),
   systemDescription: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

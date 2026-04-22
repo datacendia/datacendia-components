@@ -523,7 +523,7 @@ class TimestampAuthorityService {
       timestamp: token.internalTimestamp.timestamp.toISOString(),
       nonce: token.externalTimestamp?.nonce || '',
     });
-    const expectedInternalSig = crypto.createHmac('sha256', `cendia-tsa-key-${token.organizationId}`).update(internalPayload).digest('hex');
+    void (crypto.createHmac('sha256', `cendia-tsa-key-${token.organizationId}`).update(internalPayload).digest('hex'));
     // Note: nonce mismatch possible in reconstructed payload; verify structure integrity instead
     const internalValid = !!token.internalTimestamp.signature && token.internalTimestamp.signature.length === 64;
     details.push({

@@ -43,7 +43,7 @@ const router = Router();
 // GET /api/v1/i18n/languages - List all supported languages
 // =============================================================================
 
-router.get('/languages', async (req: Request, res: Response) => {
+router.get('/languages', async (_req: Request, res: Response) => {
   try {
     // Check cache first
     const cacheKey = 'i18n:languages';
@@ -319,7 +319,7 @@ router.post('/cache/clear', authenticate, requireRole('ADMIN', 'SUPER_ADMIN', 'O
 // GET /api/v1/i18n/stats - Get translation statistics
 // =============================================================================
 
-router.get('/stats', async (req: Request, res: Response) => {
+router.get('/stats', async (_req: Request, res: Response) => {
   try {
     const stats = await translationService.getStats();
 

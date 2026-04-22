@@ -32,12 +32,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 
-const schema_2 = z.object({
+void (z.object({
   variables: z.any(),
-}).passthrough();
-const schema_3 = z.object({
+}).passthrough());
+void (z.object({
   variables: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

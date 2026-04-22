@@ -25,7 +25,7 @@ import {
   VisibilityType,
   EconomicInstabilityOutput,
 } from '../types.js';
-import { BaseCollapseAgent, AgentAnalysisParams, PolicyContext } from './BaseCollapseAgent.js';
+import { BaseCollapseAgent, AgentAnalysisParams } from './BaseCollapseAgent.js';
 
 const ECONOMIC_TRIGGERS = [
   { metric: 'UnemploymentRate', threshold: 8.5, unit: '%' },
@@ -71,7 +71,7 @@ export class EconomicInstabilityAgent extends BaseCollapseAgent {
   }
 
   async analyze(params: AgentAnalysisParams): Promise<EconomicInstabilityOutput> {
-    const { context, seed, stressMultiplier, simulationHorizonMonths } = params;
+    const { context, seed, stressMultiplier, simulationHorizonMonths: _simulationHorizonMonths } = params;
     this.initRng(seed);
 
     const failureConditions = [];

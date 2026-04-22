@@ -392,7 +392,7 @@ Synthesize into JSON:
   }
 
   private async generateExecutionPlan(
-    question: string,
+    _question: string,
     synthesis: NonNullable<SynthesisResult['synthesis']>
   ): Promise<SynthesisResult['executionPlan']> {
     const prompt = `Generate an execution plan for this decision:

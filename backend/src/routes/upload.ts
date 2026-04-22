@@ -20,7 +20,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import { spreadsheetConnector } from '../core/connectors/implementations/SpreadsheetConnector.js';
 import { getErrorMessage } from '../utils/errors.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
+import { deterministicFloat,  } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -67,7 +67,7 @@ const upload = multer({
  * GET /api/v1/upload/status
  * Check upload service status
  */
-router.get('/status', async (req: Request, res: Response) => {
+router.get('/status', async (_req: Request, res: Response) => {
   try {
     const isReady = await spreadsheetConnector.testConnection();
     res.json({

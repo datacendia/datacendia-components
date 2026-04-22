@@ -116,7 +116,7 @@ export class HealthService extends BaseService {
 
   async getSystemHealth(organizationId: string): Promise<SystemHealth> {
     // Store health check in database
-    const healthCheck = await prisma.health_checks.upsert({
+    void (await prisma.health_checks.upsert({
       where: { id: `health-${organizationId}` },
       update: { checked_at: new Date() },
       create: {
@@ -126,7 +126,7 @@ export class HealthService extends BaseService {
         status: 'HEALTHY' as any,
         metadata: {},
       },
-    });
+    }));
 
     // Perform actual health check
     return this.performHealthCheck(organizationId);

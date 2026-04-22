@@ -151,7 +151,7 @@ const SECURITY_RULES: SecurityRule[] = [
     name: 'Authentication Brute Force Detection',
     description: 'Detect multiple failed authentication attempts',
     eventType: 'AUTHENTICATION_FAILURE',
-    condition: (event) => {
+    condition: (_event) => {
       // Would check for multiple failures in short time
       return true;
     },
@@ -336,7 +336,7 @@ export class RuntimeSecurityService extends EventEmitter {
   /**
    * Determine severity based on event type and metadata
    */
-  private determineSeverity(eventType: EventType, metadata?: Record<string, any>): Severity {
+  private determineSeverity(eventType: EventType, _metadata?: Record<string, any>): Severity {
     const severityMap: Record<EventType, Severity> = {
       INTRUSION_ATTEMPT: 'CRITICAL',
       ANOMALY_DETECTED: 'MEDIUM',

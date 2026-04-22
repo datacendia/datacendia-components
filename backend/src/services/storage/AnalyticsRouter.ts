@@ -21,8 +21,8 @@
 // - Resource availability (fallback if one is down)
 // =============================================================================
 
-import { druidService, DRUID_DATASOURCES, DruidQueryResult } from './DruidService';
-import { clickhouseService, CLICKHOUSE_TABLES, ClickHouseQueryResult } from './ClickHouseService';
+import { druidService, DruidQueryResult } from './DruidService';
+import { clickhouseService, ClickHouseQueryResult } from './ClickHouseService';
 
 import { logger } from '../../utils/logger.js';
 // Routing decision reasons

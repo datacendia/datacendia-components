@@ -41,7 +41,7 @@
 import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
 import { cendiaRecallService } from './CendiaRecallService.js';
-import type { DecisionOutcome, LessonLearned } from './CendiaRecallService.js';
+import type { DecisionOutcome } from './CendiaRecallService.js';
 import { loadServiceRecords } from '../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
@@ -470,7 +470,7 @@ class CendiaRewindService {
   private identifyAdvantages(
     path: AlternativePathInput,
     riskProfile: AlternativeOutcome['riskProfile'],
-    original: DecisionOutcome
+    _original: DecisionOutcome
   ): string[] {
     const advantages: string[] = [];
 
@@ -491,7 +491,7 @@ class CendiaRewindService {
   private identifyDisadvantages(
     path: AlternativePathInput,
     riskProfile: AlternativeOutcome['riskProfile'],
-    original: DecisionOutcome
+    _original: DecisionOutcome
   ): string[] {
     const disadvantages: string[] = [];
 
@@ -746,7 +746,7 @@ class CendiaRewindService {
 
   private findPatternMatch(
     original: DecisionOutcome,
-    alternatives: AlternativeOutcome[]
+    _alternatives: AlternativeOutcome[]
   ): string | undefined {
     // Check against known patterns
     for (const [, pattern] of this.patterns) {
@@ -815,7 +815,7 @@ class CendiaRewindService {
     return results;
   }
 
-  async getPatterns(organizationId: string): Promise<CounterfactualPattern[]> {
+  async getPatterns(_organizationId: string): Promise<CounterfactualPattern[]> {
     return Array.from(this.patterns.values())
       .sort((a, b) => b.occurrences - a.occurrences);
   }

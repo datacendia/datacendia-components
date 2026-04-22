@@ -393,12 +393,6 @@ class Groth16ProofService {
 
     const writeU32 = (v: number) => { const b = Buffer.alloc(4); b.writeUInt32LE(v); parts.push(b); };
     const writeU64 = (v: bigint) => { const b = Buffer.alloc(8); b.writeBigUInt64LE(v); parts.push(b); };
-    const writeField = (v: bigint) => {
-      const buf = Buffer.alloc(32);
-      let val = v;
-      for (let i = 0; i < 32; i++) { buf[i] = Number(val & 0xFFn); val >>= 8n; }
-      parts.push(buf);
-    };
 
     // Magic "wtns"
     parts.push(Buffer.from([0x77, 0x74, 0x6e, 0x73]));

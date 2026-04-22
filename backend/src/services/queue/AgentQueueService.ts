@@ -214,7 +214,7 @@ class AgentQueueService extends EventEmitter {
     this.connection = connection;
 
     // Create queues
-    for (const [name, queueName] of Object.entries(QUEUE_NAMES)) {
+    for (const [_name, queueName] of Object.entries(QUEUE_NAMES)) {
       const queue = new Queue(queueName, { connection });
       this.queues.set(queueName, queue);
 
@@ -482,7 +482,7 @@ class AgentQueueService extends EventEmitter {
     }
 
     // Close queue events
-    for (const [name, events] of this.queueEvents) {
+    for (const [_name, events] of this.queueEvents) {
       await events.close();
     }
 

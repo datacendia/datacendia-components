@@ -77,7 +77,7 @@ const USER_CACHE_TTL_SECONDS = 60;
  */
 export const authenticate = async (
   req: Request,
-  res: Response,
+  _res: Response,
   next: NextFunction
 ): Promise<void> => {
   try {
@@ -148,7 +148,7 @@ export const authenticate = async (
  * Check if user has required role
  */
 export const requireRole = (...roles: string[]) => {
-  return (req: Request, res: Response, next: NextFunction): void => {
+  return (req: Request, _res: Response, next: NextFunction): void => {
     if (!req.user) {
       next(errors.unauthorized());
       return;
@@ -285,7 +285,7 @@ export const optionalAuth = async (
   }
 
   // Try to authenticate but don't fail
-  authenticate(req, res, (err) => {
+  authenticate(req, res, (_err) => {
     // Ignore auth errors for optional auth
     next();
   });

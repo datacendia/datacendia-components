@@ -37,9 +37,6 @@ import {
   ComplianceViolation,
   ComplianceEvidence,
   DecisionSchema,
-  BaseDecision,
-  ValidationResult,
-  DefensibleArtifact,
   AgentPreset,
   AgentCapability,
   AgentGuardrail,
@@ -56,7 +53,6 @@ import { LEGAL_COMPLIANCE_FRAMEWORKS, LEGAL_COMPLIANCE_MAPPINGS, LEGAL_JURISDICT
 import {
   LegalDecision,
   MatterContext,
-  PrivilegeLevel,
   ContractReviewDecision,
   LitigationStrategyDecision,
   SettlementApprovalDecision,
@@ -64,11 +60,7 @@ import {
   EDiscoveryProductionDecision,
   RegulatoryResponseDecision,
   MADueDiligenceDecision,
-  EmploymentDisputeDecision,
-  IPProtectionDecision,
-  DataPrivacyComplianceDecision,
-  ConflictCheckDecision,
-  ExpertEngagementDecision,
+  ConflictCheckDecision
 } from './LegalDecisionTypes.js';
 import {
   ContractReviewSchema,
@@ -208,7 +200,7 @@ export class LegalDataConnector extends DataConnector<CaseLawData | MatterManage
     return Array.from(this.sources.values());
   }
 
-  async ingest(sourceId: string, query?: Record<string, unknown>): Promise<IngestResult<CaseLawData | MatterManagementData>> {
+  async ingest(sourceId: string, _query?: Record<string, unknown>): Promise<IngestResult<CaseLawData | MatterManagementData>> {
     const source = this.sources.get(sourceId);
     if (!source || source.connectionStatus !== 'connected') {
       return {
@@ -501,7 +493,7 @@ export class LegalCouncilAgentPreset extends AgentPreset {
     }
   ];
 
-  async loadWorkflow(context: Record<string, unknown>): Promise<WorkflowStep[]> {
+  async loadWorkflow(_context: Record<string, unknown>): Promise<WorkflowStep[]> {
     return this.workflow;
   }
 

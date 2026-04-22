@@ -15,7 +15,6 @@ import { PrismaClient } from '@prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
 import pg from 'pg';
 import { config } from './index.js';
-import { logger } from '../utils/logger.js';
 
 const globalForPrisma = globalThis as unknown as {
   prisma: PrismaClient | undefined;

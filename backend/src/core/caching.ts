@@ -175,7 +175,7 @@ export const CacheKeys = {
  */
 export function cached(keyPrefix: string, ttlSeconds: number = CacheTTL.MEDIUM) {
   return function (
-    target: unknown,
+    _target: unknown,
     propertyKey: string,
     descriptor: PropertyDescriptor
   ) {

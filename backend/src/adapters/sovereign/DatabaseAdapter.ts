@@ -38,7 +38,6 @@
  */
 
 import { Readable } from 'stream';
-import crypto from 'crypto';
 import {
   SovereignAdapter,
   AdapterConfig,
@@ -200,7 +199,7 @@ export class DatabaseAdapter extends SovereignAdapter {
         this.log('info', 'Disconnecting from database...');
       },
 
-      query: async (sql: string, params?: unknown[]): Promise<unknown[]> => {
+      query: async (sql: string, _params?: unknown[]): Promise<unknown[]> => {
         // Sanitize and execute query
         // Production upgrade: use parameterized queries
         this.log('debug', 'Executing query', { sql: sql.substring(0, 100) });
@@ -353,7 +352,7 @@ export class DatabaseAdapter extends SovereignAdapter {
     return !disallowed.some(keyword => normalized.startsWith(keyword));
   }
 
-  private addWatermarkFilter(sql: string, column: string, value: unknown): string {
+  private addWatermarkFilter(sql: string, column: string, _value: unknown): string {
     // Simplified; production upgrade: use proper SQL builder
     const whereClause = `${column} > $1`;
     

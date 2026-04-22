@@ -70,10 +70,10 @@ const metricExporter = new OTLPMetricExporter({
 });
 
 // Prometheus Exporter (for Grafana scraping)
-const prometheusExporter = new PrometheusExporter({
+void (new PrometheusExporter({
   port: PROMETHEUS_PORT,
   endpoint: '/metrics',
-});
+}));
 
 // =============================================================================
 // SDK INITIALIZATION
@@ -96,7 +96,7 @@ export const sdk = new NodeSDK({
 // CUSTOM METRICS
 // =============================================================================
 
-import { metrics, Counter, Histogram, UpDownCounter } from '@opentelemetry/api';
+import { metrics,  } from '@opentelemetry/api';
 
 import { logger } from '../utils/logger.js';
 const meter = metrics.getMeter(SERVICE_NAME, SERVICE_VERSION);

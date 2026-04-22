@@ -143,7 +143,7 @@ router.post('/:connectorId/oauth/authorize', (req: Request, res: Response) => {
 // Handle OAuth callback
 router.post('/:connectorId/oauth/callback', async (req: Request, res: Response) => {
   try {
-    const { code, codeVerifier, state } = bodySchema0.parse(req.body);
+    const { code, codeVerifier, state: _state } = bodySchema0.parse(req.body);
     if (!code) {
       return res.status(400).json({
         success: false,

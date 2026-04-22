@@ -67,7 +67,7 @@ export class AdversarialAbuseAgent extends BaseCollapseAgent {
   }
 
   async analyze(params: AgentAnalysisParams): Promise<AdversarialAbuseOutput> {
-    const { context, seed, stressMultiplier } = params;
+    const { context: _context, seed, stressMultiplier } = params;
     this.initRng(seed);
 
     const failureConditions = [];

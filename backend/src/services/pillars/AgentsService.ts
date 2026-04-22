@@ -250,7 +250,7 @@ export class AgentsService extends BaseService {
     const agents = await this.getAgents(organizationId);
     
     const queriesToday = agents.reduce((sum, a) => sum + a.queriesToday, 0);
-    const totalQueries = agents.reduce((sum, a) => sum + a.queriesTotal, 0);
+    void (agents.reduce((sum, a) => sum + a.queriesTotal, 0));
     const avgResponseTime = agents.length > 0
       ? agents.reduce((sum, a) => sum + a.avgResponseTime, 0) / agents.length
       : 0;

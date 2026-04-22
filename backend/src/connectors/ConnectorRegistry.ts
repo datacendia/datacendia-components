@@ -17,7 +17,7 @@
  * =============================================================================
  */
 
-import { BaseConnector, ConnectorMetadata, ConnectorConfig } from './BaseConnector.js';
+import { BaseConnector, ConnectorMetadata } from './BaseConnector.js';
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 

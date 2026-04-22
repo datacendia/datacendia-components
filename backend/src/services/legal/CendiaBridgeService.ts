@@ -530,7 +530,7 @@ export class CendiaBridgeService extends EventEmitter {
   /**
    * Simulate case law fetch
    */
-  private async fetchCaseLawData(filters?: Record<string, any>): Promise<any[]> {
+  private async fetchCaseLawData(_filters?: Record<string, any>): Promise<any[]> {
     // Return sample case law data
     return [
       {
@@ -559,7 +559,7 @@ export class CendiaBridgeService extends EventEmitter {
   /**
    * Simulate general data fetch
    */
-  private async fetchConnectorData(dataType: DataType, filters?: Record<string, any>): Promise<any[]> {
+  private async fetchConnectorData(dataType: DataType, _filters?: Record<string, any>): Promise<any[]> {
     // Return sample data based on type
     return [
       {

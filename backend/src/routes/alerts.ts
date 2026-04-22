@@ -15,7 +15,6 @@ import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
 import crypto from 'crypto';
 import { pubsub } from '../config/redis.js';
-import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 import { druidEventStream } from '../services/DruidEventStream.js';
@@ -351,7 +350,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
 // PUT aliases for acknowledge and resolve (for REST purists)
 router.put('/:id/acknowledge', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { note } = acknowledgeSchema.parse(req.body);
+    const { note: _note } = acknowledgeSchema.parse(req.body);
     const userId = req.user!.id;
 
     const alert = await prisma.alerts.findUnique({

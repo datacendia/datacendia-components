@@ -1,30 +1,8 @@
-/**
- * Connector — F I X Connector
- *
- * External system connector for third-party integrations.
- *
- * @exports FIX_MSG_TYPES, FIX_TAGS, FIXConnectorConfig, FIXMessage, FIXOrder, FIXExecution
- * @module connectors/core/FIXConnector
- */
 
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
-// See LICENSE file for details.
-
-/**
- * =============================================================================
- * FIX PROTOCOL CONNECTOR - Financial Information eXchange
- * =============================================================================
- * Enterprise FIX 4.2/4.4/5.0 protocol implementation for trading systems,
- * order routing, and market data with session management and message sequencing.
- */
-
-import { EventEmitter } from 'events';
 import net from 'net';
 import tls from 'tls';
 import crypto from 'crypto';
-import { BaseConnector, ConnectorConfig, ConnectorMetadata, ConnectorStatus } from '../BaseConnector.js';
-import { logger } from '../../utils/logger.js';
+import { BaseConnector, ConnectorConfig, ConnectorMetadata } from '../BaseConnector.js';
 
 // =============================================================================
 // FIX MESSAGE TYPES
@@ -324,7 +302,6 @@ export abstract class FIXConnector extends BaseConnector {
   // ---------------------------------------------------------------------------
 
   protected processBuffer(): void {
-    const SOH = '\x01';
 
     while (true) {
       // Find complete message
@@ -437,7 +414,7 @@ export abstract class FIXConnector extends BaseConnector {
     this.socket?.write(message);
   }
 
-  protected handleLogon(message: FIXMessage): void {
+  protected handleLogon(_message: FIXMessage): void {
     this.inSeqNum = 1;
     this.emit('logon');
     this.log('info', 'Received logon acknowledgment');
@@ -449,7 +426,7 @@ export abstract class FIXConnector extends BaseConnector {
     this.emit('logout', text);
   }
 
-  protected handleHeartbeat(message: FIXMessage): void {
+  protected handleHeartbeat(_message: FIXMessage): void {
     this.emit('heartbeat');
   }
 
@@ -561,7 +538,7 @@ export abstract class FIXConnector extends BaseConnector {
     // Note: In real implementation, need repeating groups handling
 
     fields.set(FIX_TAGS.NoRelatedSym, String(symbols.length));
-    symbols.forEach((sym, i) => {
+    symbols.forEach((sym, _i) => {
       fields.set(FIX_TAGS.Symbol, sym);
     });
 
@@ -592,7 +569,7 @@ export abstract class FIXConnector extends BaseConnector {
   // DATA FETCH
   // ---------------------------------------------------------------------------
 
-  async fetchData(params?: Record<string, unknown>): Promise<FIXMessage[]> {
+  async fetchData(_params?: Record<string, unknown>): Promise<FIXMessage[]> {
     return Array.from(this.pendingMessages.values());
   }
 

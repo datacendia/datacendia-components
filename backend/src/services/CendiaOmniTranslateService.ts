@@ -174,7 +174,7 @@ const TIER2_LANGUAGES = new Set([
   'no', 'fi', 'cs', 'sk', 'hu', 'ro', 'bg', 'el', 'hr', 'sr'
 ]);
 
-import type { OmniTranslateLanguage, TranslationRequest, TranslationResult, BatchTranslationRequest, DocumentTranslationRequest, GlossaryTerm, TranslationMemoryEntry, LanguageDetectionResult } from './omnitranslate-types.js';
+import type { OmniTranslateLanguage, TranslationRequest, TranslationResult, BatchTranslationRequest, LanguageDetectionResult } from './omnitranslate-types.js';
 export type { OmniTranslateLanguage, TranslationRequest, TranslationResult, BatchTranslationRequest, DocumentTranslationRequest, GlossaryTerm, TranslationMemoryEntry, LanguageDetectionResult } from './omnitranslate-types.js';
 
 
@@ -558,7 +558,7 @@ ${targetLang.name} translation (provide ONLY the translation, no explanations):`
    */
   private generateDemoTranslation(
     text: string,
-    sourceLanguage: OmniTranslateLanguage,
+    _sourceLanguage: OmniTranslateLanguage,
     targetLanguage: OmniTranslateLanguage
   ): string {
     const targetLang = LANGUAGES_MAP[targetLanguage];

@@ -26,7 +26,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
+import { deterministicFloat,  } from '../../utils/deterministic.js';
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
@@ -623,7 +623,7 @@ class CanaryTripwireService extends EventEmitter {
   /**
    * Send webhook notification
    */
-  private async sendWebhook(url: string, alert: CanaryAlert): Promise<void> {
+  private async sendWebhook(url: string, _alert: CanaryAlert): Promise<void> {
     try {
       // HTTP requests via DataConnectorFramework (fetch with auth, retries, rate limiting)
       logger.info(`[CanaryTripwire] Would send webhook to ${url}`);

@@ -31,7 +31,6 @@ import {
   verifyPassword,
   createAuditLog 
 } from '../security/SecurityHardening.js';
-import crypto from 'crypto';
 
 // MFA encryption key derived from server secret
 const mfaRawKey = process.env['MFA_ENCRYPTION_KEY'];

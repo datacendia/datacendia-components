@@ -738,7 +738,7 @@ Output JSON:
     report += `| Verification Score | ${statement.verificationScore}% |\n\n`;
 
     report += `## Claims by Agent\n\n`;
-    for (const [agentId, data] of Object.entries(statement.claimsByAgent)) {
+    for (const [_agentId, data] of Object.entries(statement.claimsByAgent)) {
       report += `### ${data.agentName}\n`;
       report += `- Claims: ${data.totalClaims}\n`;
       report += `- Verified: ${data.verified}\n`;

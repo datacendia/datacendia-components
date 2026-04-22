@@ -22,7 +22,6 @@ import {
   PLATFORM_TIERS,
   PLATFORM_PILLARS,
   getPillarsForTier,
-  getServicesForTier,
   getServiceCountByTier,
   getTotalServiceCount,
   getAllPillarIds,
@@ -42,7 +41,7 @@ const router = Router();
  * GET /api/v1/platform/health
  * Overall platform health check
  */
-router.get('/health', async (req: Request, res: Response) => {
+router.get('/health', async (_req: Request, res: Response) => {
   try {
     const [serviceHealth, moduleHealth] = await Promise.all([
       serviceRegistry.healthCheckAll(),
@@ -87,7 +86,7 @@ router.get('/health/live', (_req: Request, res: Response) => {
  * GET /api/v1/platform/health/ready
  * Kubernetes readiness probe
  */
-router.get('/health/ready', async (req: Request, res: Response) => {
+router.get('/health/ready', async (_req: Request, res: Response) => {
   try {
     const serviceHealth = await serviceRegistry.healthCheckAll();
     
@@ -120,7 +119,7 @@ router.get('/health/ready', async (req: Request, res: Response) => {
  * GET /api/v1/platform/metrics
  * Platform metrics in JSON format
  */
-router.get('/metrics', (req: Request, res: Response) => {
+router.get('/metrics', (_req: Request, res: Response) => {
   try {
     const serviceMetrics = serviceRegistry.getMetricsAll();
     const eventStats = eventBus.getStats();
@@ -142,7 +141,7 @@ router.get('/metrics', (req: Request, res: Response) => {
  * GET /api/v1/platform/metrics/prometheus
  * Prometheus format metrics
  */
-router.get('/metrics/prometheus', (req: Request, res: Response) => {
+router.get('/metrics/prometheus', (_req: Request, res: Response) => {
   try {
     const serviceMetrics = serviceRegistry.getMetricsAll();
     const eventStats = eventBus.getStats();
@@ -222,7 +221,7 @@ router.get('/info', (_req: Request, res: Response) => {
  * GET /api/v1/platform/services
  * List registered services
  */
-router.get('/services', (req: Request, res: Response) => {
+router.get('/services', (_req: Request, res: Response) => {
   const states = serviceRegistry.getStateAll();
   const services = serviceRegistry.getServiceNames().map(name => ({
     name,
@@ -239,7 +238,7 @@ router.get('/services', (req: Request, res: Response) => {
  * GET /api/v1/platform/modules
  * List registered modules
  */
-router.get('/modules', (req: Request, res: Response) => {
+router.get('/modules', (_req: Request, res: Response) => {
   const modules = moduleRegistry.getLoadedModules().map(m => ({
     id: m.definition.id,
     name: m.definition.name,
@@ -258,7 +257,7 @@ router.get('/modules', (req: Request, res: Response) => {
  * GET /api/v1/platform/events
  * Event bus information
  */
-router.get('/events', (req: Request, res: Response) => {
+router.get('/events', (_req: Request, res: Response) => {
   const stats = eventBus.getStats();
   const subscriptions = eventBus.getSubscriptions();
   
@@ -312,7 +311,7 @@ router.get('/catalog', (_req: Request, res: Response) => {
  * GET /api/v1/platform/catalog/tiers
  * All tier definitions with pricing
  */
-router.get('/catalog/tiers', (req: Request, res: Response) => {
+router.get('/catalog/tiers', (_req: Request, res: Response) => {
   const tiers = getAllTierIds().map(tid => {
     const tier = PLATFORM_TIERS[tid];
     const pillars = getPillarsForTier(tid);
@@ -364,7 +363,7 @@ router.get('/catalog/tiers/:tierId', (req: Request, res: Response) => {
  * GET /api/v1/platform/catalog/pillars
  * All 12 pillars with their tier assignments
  */
-router.get('/catalog/pillars', (req: Request, res: Response) => {
+router.get('/catalog/pillars', (_req: Request, res: Response) => {
   const pillars = getAllPillarIds().map(pid => {
     const p = PLATFORM_PILLARS[pid];
     return {
@@ -410,7 +409,7 @@ router.get('/catalog/pillars/:pillarId', (req: Request, res: Response) => {
  * GET /api/v1/platform/catalog/stats
  * Service count statistics
  */
-router.get('/catalog/stats', (req: Request, res: Response) => {
+router.get('/catalog/stats', (_req: Request, res: Response) => {
   const countByTier = getServiceCountByTier();
   res.json({
     totalServices: getTotalServiceCount(),

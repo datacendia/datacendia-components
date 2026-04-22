@@ -616,7 +616,7 @@ export class RegulatorsReceiptService {
     };
   }
 
-  private async buildMediaAuthentication(deliberationId: string, deliberation: any): Promise<RegulatorsReceipt['mediaAuthentication']> {
+  private async buildMediaAuthentication(_deliberationId: string, deliberation: any): Promise<RegulatorsReceipt['mediaAuthentication']> {
     try {
       // Check if any media assets are associated with this deliberation's organization
       const orgId = deliberation.organization_id || deliberation.org_id;
@@ -707,7 +707,7 @@ export class RegulatorsReceiptService {
     }
   }
 
-  private async buildCitationList(deliberationId: string): Promise<ReceiptCitation[]> {
+  private async buildCitationList(_deliberationId: string): Promise<ReceiptCitation[]> {
     // Fetch citations from database
     return [];
   }
@@ -830,7 +830,6 @@ export class RegulatorsReceiptService {
 
   private async buildOverrideEvents(deliberationId: string, deliberation: any): Promise<ReceiptOverrideEvent[]> {
     const events: ReceiptOverrideEvent[] = [];
-    const orgId = deliberation.organization_id || deliberation.org_id;
 
     // 1. Explicit overrides from accountability_records table
     try {

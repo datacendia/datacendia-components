@@ -67,7 +67,6 @@ export type {
 } from './TimestampAuthorityService.js';
 
 import type {
-  DecisionRecord,
   PrecedentMatch,
   PrecedentSearchResult,
 } from './DecisionSimilarityService.js';

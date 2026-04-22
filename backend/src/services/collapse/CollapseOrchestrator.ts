@@ -41,7 +41,6 @@ import {
   EthicalPrinciple,
   Reversibility,
   VisibilityType,
-  PolicyContextData,
   DEFAULT_COLLAPSE_CONFIG,
   generateFailureEnvelopeId,
   generateCollapseId,
@@ -193,7 +192,7 @@ export class CollapseOrchestrator {
    */
   async runCollapseTrack(
     decisionId: string,
-    decisionText: string,
+    _decisionText: string,
     context: PolicyContext,
     seed: number
   ): Promise<CollapseTrack> {
@@ -253,7 +252,7 @@ export class CollapseOrchestrator {
    * Build Consensus Track (deterministic)
    */
   private buildConsensusTrack(
-    decisionId: string,
+    _decisionId: string,
     decisionText: string,
     confidence: number
   ): ConsensusTrack {

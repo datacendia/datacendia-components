@@ -27,7 +27,6 @@
  */
 
 import crypto from 'crypto';
-import { logger } from '../../../utils/logger.js';
 
 // =============================================================================
 // TYPES — Capital Components
@@ -931,7 +930,7 @@ export class Basel3Engine {
    * MDA calculation per CRD IV Art. 141.
    * Returns the fraction of profits that can be distributed.
    */
-  private calculateMDA(cet1Ratio: number, totalReq: number, combinedBuffer: number): number {
+  private calculateMDA(cet1Ratio: number, _totalReq: number, combinedBuffer: number): number {
     const pillar1 = 0.045;
     const bufferUsed = cet1Ratio - pillar1;
 

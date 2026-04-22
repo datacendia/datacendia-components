@@ -41,11 +41,9 @@ export type {
 
 import type {
   SimulationType, SimulationStatus, OutcomeSentiment, ImpactCategory, Severity,
-  SimulationConfig, SimulationVariable, SimulationConstraint, VariableCorrelation,
-  ScenarioDefinition, Shock,
+  SimulationConfig, ScenarioDefinition, Shock,
   SimulationResult, Universe, Impact, FailureCascade, CascadeNode,
-  CouncilDeliberation, AgentResponse, ResultSummary, UniverseSummary,
-  DigitalTwin, Department, System, KPI, EmployeeMetrics, FinancialSnapshot, Relationship,
+  CouncilDeliberation, AgentResponse, ResultSummary, DigitalTwin, Department, System, KPI, Relationship,
 } from './crucible/types.js';
 
 // Scenario Templates
@@ -1086,7 +1084,7 @@ Provide exactly 3 strategic opportunity statements. Each should be actionable an
     return affectedKPIs.includes('*') || affectedKPIs.some(k => kpiCode.includes(k));
   }
 
-  private applyShock(value: number, shock: Shock, config: SimulationConfig): number {
+  private applyShock(value: number, shock: Shock, _config: SimulationConfig): number {
     switch (shock.type) {
       case 'percentage':
         return value * (1 + shock.value / 100);
@@ -1107,15 +1105,15 @@ Provide exactly 3 strategic opportunity statements. Each should be actionable an
   }
 
   private calculateCategoryRisk(
-    category: string,
+    _category: string,
     kpiProjections: Record<string, number>,
-    scenario: ScenarioDefinition
+    _scenario: ScenarioDefinition
   ): number {
     // Base risk from scenario type
     let risk = 50;
 
     // Adjust based on KPI changes
-    for (const [kpi, value] of Object.entries(kpiProjections)) {
+    for (const [_kpi, value] of Object.entries(kpiProjections)) {
       if (value < 70) risk += 10;
       if (value < 50) risk += 20;
     }
@@ -1489,7 +1487,7 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
     lastUpdated: Date;
   }> {
     // Fetch real organization data
-    const [organization, healthScores, dataSources, alerts, simulations, metrics] = await Promise.all([
+    const [_organization, healthScores, dataSources, alerts, simulations, metrics] = await Promise.all([
       prisma.organizations.findUnique({ where: { id: organizationId } }),
       prisma.health_scores.findMany({
         where: { organization_id: organizationId },
@@ -2097,8 +2095,6 @@ Provide a quick 3-outcome analysis as JSON:
     });
 
     if (!simulation) throw new Error(`Simulation ${simulationId} not found`);
-
-    const config = simulation.config as any as SimulationConfig;
     const scenario = simulation.scenario_definition as any as ScenarioDefinition;
     const twin = simulation.digital_twin_snapshot as any as DigitalTwin;
 

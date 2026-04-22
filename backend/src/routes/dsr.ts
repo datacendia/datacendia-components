@@ -1,4 +1,4 @@
-﻿/**
+/**
  * =============================================================================
  * GDPR DATA SUBJECT REQUEST (DSR) ENDPOINTS
  * =============================================================================
@@ -53,7 +53,7 @@ const logDSRAction = async (
   userId: string,
   action: string,
   targetUserId: string,
-  metadata?: any
+  _metadata?: any
 ): Promise<void> => {
   try {
     await prisma.audit_logs.create({

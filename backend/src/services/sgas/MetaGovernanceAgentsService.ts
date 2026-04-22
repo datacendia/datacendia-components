@@ -48,8 +48,6 @@ import {
   DriftEvidence,
   GovernanceRiskReport,
   GovernanceRiskCategory,
-  RiskFactor,
-  RiskComparison,
   StructuralRecommendation,
   SystemHealthScore,
   HealthComponent,
@@ -466,8 +464,8 @@ export class MetaGovernanceAgentsService extends EventEmitter {
    */
   private gatherDriftEvidence(
     pattern: MetaGovernanceAgentConfig['detectionPatterns'][0],
-    timeRange: TimeRange,
-    rng: () => number
+    _timeRange: TimeRange,
+    _rng: () => number
   ): DriftEvidence[] {
     const evidence: DriftEvidence[] = [];
 
@@ -578,7 +576,7 @@ export class MetaGovernanceAgentsService extends EventEmitter {
   /**
    * Project impact
    */
-  private projectImpact(type: DriftType, evidence: DriftEvidence[]): string {
+  private projectImpact(type: DriftType, _evidence: DriftEvidence[]): string {
     const impacts: Record<DriftType, string> = {
       [DriftType.EMERGENCY_POWER_OVERUSE]: 'Risk of normalized emergency state undermining normal governance',
       [DriftType.SAFEGUARD_EROSION]: 'Increased vulnerability to undetected policy violations',
@@ -615,7 +613,7 @@ export class MetaGovernanceAgentsService extends EventEmitter {
    * Generate governance risk report
    */
   private generateRiskReport(
-    agent: MetaGovernanceAgentConfig,
+    _agent: MetaGovernanceAgentConfig,
     warnings: DriftWarning[],
     rng: () => number
   ): GovernanceRiskReport {
@@ -748,7 +746,7 @@ export class MetaGovernanceAgentsService extends EventEmitter {
    * Generate structural recommendations
    */
   private generateRecommendations(
-    agent: MetaGovernanceAgentConfig,
+    _agent: MetaGovernanceAgentConfig,
     warnings: DriftWarning[],
     report: GovernanceRiskReport,
     rng: () => number
@@ -802,7 +800,7 @@ export class MetaGovernanceAgentsService extends EventEmitter {
   private generateRecommendationForDrift(
     warning: DriftWarning,
     priority: number,
-    rng: () => number
+    _rng: () => number
   ): StructuralRecommendation {
     const recommendationsByType: Record<DriftType, { category: RecommendationCategory; text: string }> = {
       [DriftType.EMERGENCY_POWER_OVERUSE]: {
@@ -858,7 +856,7 @@ export class MetaGovernanceAgentsService extends EventEmitter {
    * Calculate system health score
    */
   private calculateHealthScore(
-    agent: MetaGovernanceAgentConfig,
+    _agent: MetaGovernanceAgentConfig,
     warnings: DriftWarning[],
     report: GovernanceRiskReport
   ): SystemHealthScore {

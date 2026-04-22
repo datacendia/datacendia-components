@@ -97,7 +97,6 @@ export interface KeyAuditLog {
 
 const KEY_TYPE_TO_ENUM: Record<string, string> = { usb: 'USB', nfc: 'NFC', smartcard: 'SMARTCARD', biometric: 'BIOMETRIC' };
 const ENUM_TO_KEY_TYPE: Record<string, HardwareKey['type']> = { USB: 'usb', NFC: 'nfc', SMARTCARD: 'smartcard', BIOMETRIC: 'biometric' };
-const KEY_STATUS_TO_ENUM: Record<string, string> = { active: 'ACTIVE', inactive: 'INACTIVE', lost: 'LOST', revoked: 'REVOKED' };
 const ENUM_TO_KEY_STATUS: Record<string, HardwareKey['status']> = { ACTIVE: 'active', INACTIVE: 'inactive', LOST: 'lost', REVOKED: 'revoked' };
 const KEY_EVENT_TO_ENUM: Record<string, string> = { registered: 'REGISTERED', assigned: 'ASSIGNED', used: 'USED', lost: 'LOST', revoked: 'REVOKED', recovered: 'RECOVERED' };
 const OP_TYPE_TO_ENUM: Record<string, string> = { large_transaction: 'LARGE_TRANSACTION', config_change: 'CONFIG_CHANGE', data_export: 'DATA_EXPORT', user_management: 'USER_MANAGEMENT', system_access: 'SYSTEM_ACCESS' };
@@ -548,7 +547,7 @@ export class CendiaKeyService {
     return `challenge-${Date.now()}-${crypto.randomUUID().slice(0, 16)}`;
   }
 
-  private verifyCryptoResponse(challenge: string, response: string, publicKey: string): boolean {
+  private verifyCryptoResponse(challenge: string, response: string, _publicKey: string): boolean {
     return response.length > 10 && response.includes(challenge.substring(0, 8));
   }
 

@@ -17,7 +17,6 @@
 // =============================================================================
 
 import { logger } from '../utils/logger.js';
-import { config } from '../config/index.js';
 import { WorkdayConnector } from '../connectors/enterprise/WorkdayConnector.js';
 // =============================================================================
 // TYPES
@@ -489,7 +488,7 @@ class HRIntegrationService {
         return await this.bamboohr.fetchTimeOff(employee.externalId, startDate, endDate);
       case 'workday':
         // Workday uses different API structure
-        const balance = await (this as any).workday.fetchTimeOff(employee.externalId);
+        void (await (this as any).workday.fetchTimeOff(employee.externalId));
         return []; // Transform balance to entries
       default:
         throw new Error(`Time off not supported for ${employee.provider}`);

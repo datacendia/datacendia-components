@@ -118,7 +118,7 @@ const PII_PATTERNS: Array<{ type: PIIType; pattern: RegExp; redactWith: string; 
 // =============================================================================
 
 /** Common name prefixes/titles that signal a person's name follows */
-const NAME_TITLES = /\b(Mr\.?|Mrs\.?|Ms\.?|Dr\.?|Prof\.?|Sir|Dame|Hon\.?|Rev\.?|Sgt\.?|Cpl\.?|Lt\.?|Capt\.?|Maj\.?|Col\.?|Gen\.?)\s+/gi;
+void (/\b(Mr\.?|Mrs\.?|Ms\.?|Dr\.?|Prof\.?|Sir|Dame|Hon\.?|Rev\.?|Sgt\.?|Cpl\.?|Lt\.?|Capt\.?|Maj\.?|Col\.?|Gen\.?)\s+/gi);
 
 /** Contextual name triggers: "patient John Smith", "employee Jane Doe" */
 const NAME_CONTEXT_TRIGGERS = /\b(patient|employee|client|customer|user|applicant|defendant|plaintiff|witness|claimant|beneficiary|insured|policyholder|member|subscriber|resident|tenant|borrower|guarantor)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3})\b/g;

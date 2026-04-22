@@ -25,7 +25,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
-  DataConnector, DataSource, IngestResult, ProvenanceRecord,
+  DataConnector, IngestResult, ProvenanceRecord,
   VerticalKnowledgeBase, KnowledgeDocument, RetrievalResult,
   ComplianceMapper, ComplianceFramework, ComplianceControl, ComplianceViolation, ComplianceEvidence,
   DecisionSchema, BaseDecision, ValidationResult, DefensibleArtifact,
@@ -356,7 +356,7 @@ export class PharmaceuticalComplianceMapper extends ComplianceMapper {
     return fw.controls.filter(c => ids.includes(c.id));
   }
 
-  async checkViolation(decision: PharmaceuticalDecision, frameworkId: string): Promise<ComplianceViolation[]> {
+  async checkViolation(decision: PharmaceuticalDecision, _frameworkId: string): Promise<ComplianceViolation[]> {
     const violations: ComplianceViolation[] = [];
     if (decision.type === 'clinical-trial') {
       const ct = decision as ClinicalTrialDecision;

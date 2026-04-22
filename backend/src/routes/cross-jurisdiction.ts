@@ -38,21 +38,21 @@ import { Router, Request, Response } from 'express';
 import { crossJurisdictionEngineService, Jurisdiction } from '../services/compliance/CrossJurisdictionEngineService.js';
 
 
-const schema_4 = z.object({
+void (z.object({
   sourceJurisdiction: z.any(),
   destinationJurisdiction: z.any(),
   dataTypes: z.any(),
-}).passthrough();
-const schema_5 = z.object({
+}).passthrough());
+void (z.object({
   organizationId: z.any(),
   jurisdictions: z.any(),
-}).passthrough();
-const schema_6 = z.object({
+}).passthrough());
+void (z.object({
   jurisdictions: z.any(),
-}).passthrough();
-const schema_7 = z.object({
+}).passthrough());
+void (z.object({
   jurisdictions: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

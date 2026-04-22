@@ -17,7 +17,7 @@
 // GDPR/SOX/HIPAA compliant audit trail with tamper detection
 // =============================================================================
 
-import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
+import { BaseService, ServiceHealth } from '../core/services/BaseService.js';
 import crypto from 'crypto';
 // =============================================================================
 // TYPES

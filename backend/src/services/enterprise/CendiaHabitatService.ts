@@ -898,7 +898,7 @@ Respond with a concise strategic analysis (2-3 paragraphs).`;
     insights: string[];
   } {
     const zones = this.getAllZones();
-    const buildings = new Set(zones.map(z => z.building));
+    void (new Set(zones.map(z => z.building)));
     const kwhPerSqFtAnnual = 15;
     const carbonPerKwh = 0.4; // kg CO2 per kWh
     const costPerKwh = 0.12;

@@ -600,7 +600,7 @@ export class LineageService extends BaseService {
     const entity = await this.getEntity(entityId);
     if (!entity) throw new Error('Entity not found');
 
-    const graph = await this.traceLineage(entityId, 'downstream');
+    void (await this.traceLineage(entityId, 'downstream'));
     const propagationPath: Array<{
       entityId: string; entityName: string; entityType: EntityType;
       depth: number; estimatedImpact: 'none' | 'low' | 'medium' | 'high';

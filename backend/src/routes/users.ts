@@ -16,7 +16,6 @@ import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
 import crypto from 'crypto';
 import { cache } from '../config/redis.js';
-import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
 

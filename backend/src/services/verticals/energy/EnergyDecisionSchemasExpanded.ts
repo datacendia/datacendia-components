@@ -24,10 +24,7 @@ import {
   OutagePlanningDecision,
   RenewableIntegrationDecision,
   DemandResponseDecision,
-  TransmissionUpgradeDecision,
-  FuelProcurementDecision,
-  EnvironmentalComplianceDecision,
-  AssetRetirementDecision,
+  
 } from './EnergyDecisionTypesExpanded.js';
 
 export class GenerationDispatchSchema extends DecisionSchema<GenerationDispatchDecision> {

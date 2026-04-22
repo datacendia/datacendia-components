@@ -30,7 +30,7 @@ const bodySchema0 = z.object({
   yearsExperience: z.any(),
   companySize: z.any(),
 }).passthrough();
-const bodySchema1 = z.object({
+void (z.object({
   currentSalary: z.any(),
   title: z.any(),
   level: z.any(),
@@ -38,8 +38,8 @@ const bodySchema1 = z.object({
   industry: z.any(),
   yearsExperience: z.any(),
   companySize: z.any(),
-}).passthrough();
-const bodySchema2 = z.object({
+}).passthrough());
+void (z.object({
   currentSalary: z.any(),
   title: z.any(),
   level: z.any(),
@@ -47,7 +47,7 @@ const bodySchema2 = z.object({
   industry: z.any(),
   yearsExperience: z.any(),
   companySize: z.any(),
-}).passthrough();
+}).passthrough());
 const bodySchema3 = z.object({
   roles: z.any(),
 }).passthrough();

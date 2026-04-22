@@ -306,7 +306,7 @@ class ShadowCouncilService extends EventEmitter {
    */
   private cleanupExpiredSessions(): void {
     const now = new Date();
-    for (const [id, session] of this.sessions) {
+    for (const [_id, session] of this.sessions) {
       if (session.expiresAt < now && session.status === 'active') {
         session.status = 'abandoned';
         logger.info(`[ShadowCouncil] Session expired: ${session.name}`);
@@ -442,8 +442,8 @@ class ShadowCouncilService extends EventEmitter {
    */
   private async getAgentResponse(
     agentCode: string,
-    question: string,
-    context: string | undefined,
+    _question: string,
+    _context: string | undefined,
     config: ShadowConfig
   ): Promise<ShadowAgentResponse> {
     const startTime = Date.now();

@@ -28,7 +28,7 @@ import {
 } from '../services/admin/index.js';
 import { logger } from '../utils/logger.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
+import { deterministicFloat, deterministicInt,  } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -63,19 +63,19 @@ const upgradeLicenseSchema = z.object({
   type: z.enum(['pilot', 'trial', 'foundation', 'enterprise', 'strategic', 'custom']),
 });
 
-const createUserSchema = z.object({
+void (z.object({
   email: z.string().email('Email must be valid').min(1, 'Email is required').max(255),
   password: z.string().min(8, 'Password must be at least 8 characters').max(128),
   role: z.enum(['admin', 'user']).optional().default('user'),
   metadata: z.record(z.any()).optional(),
-});
+}));
 
-const updateUserSchema = z.object({
+void (z.object({
   email: z.string().email('Email must be valid').min(1, 'Email is required').max(255).optional(),
   password: z.string().min(8, 'Password must be at least 8 characters').max(128).optional(),
   role: z.enum(['admin', 'user']).optional(),
   metadata: z.record(z.any()).optional(),
-}).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' });
+}).refine(data => Object.keys(data).length > 0, { message: 'At least one field must be provided' }));
 
 const updateFeatureSchema = z.object({
   name: z.string().min(1).max(255).optional(),
@@ -898,7 +898,7 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
     // If no real data, provide demo data
     if (Object.keys(byMode).length === 0) {
       const demoModes = ['executive', 'crisis', 'innovation', 'compliance', 'strategic', 'operational'];
-      demoModes.forEach((mode, i) => {
+      demoModes.forEach((mode, _i) => {
         byMode[mode] = {
           count: deterministicInt(0, 199, 'admin-1') + 50,
           avgConfidence: deterministicInt(0, 19, 'admin-2') + 75,

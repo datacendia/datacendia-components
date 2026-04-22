@@ -200,7 +200,7 @@ class GatewayRateLimiter {
     const bucket = this.getOrCreateBucket(config, scopeKey);
     this.refillBucket(bucket, config);
 
-    const effectiveMax = Math.floor(config.maxRequests * config.burstMultiplier);
+    void (Math.floor(config.maxRequests * config.burstMultiplier));
     const allowed = bucket.tokens > 0;
     const resetAt = new Date(bucket.windowStart + config.windowMs);
 

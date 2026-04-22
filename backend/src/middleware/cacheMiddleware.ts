@@ -21,7 +21,6 @@
 
 import { Request, Response, NextFunction } from 'express';
 import { cacheService } from '../services/cache.service.js';
-import { logger } from '../utils/logger.js';
 
 interface CacheOptions {
   ttl?: number;           // TTL in milliseconds (default: 60s)

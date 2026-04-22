@@ -20,7 +20,7 @@ import { logger } from '../utils/logger.js';
 import Redis from 'ioredis';
 import type { PrismaClient } from '@prisma/client';
 import { prisma as sharedPrisma } from '../config/database.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
+import { deterministicFloat, deterministicInt,  } from '../utils/deterministic.js';
 
 // =============================================================================
 // ANSI COLOR CODES

@@ -26,7 +26,7 @@ import {
   MinorityHarmOutput,
   PROTECTED_GROUPS,
 } from '../types.js';
-import { BaseCollapseAgent, AgentAnalysisParams, PolicyContext } from './BaseCollapseAgent.js';
+import { BaseCollapseAgent, AgentAnalysisParams } from './BaseCollapseAgent.js';
 
 const HARM_VECTORS = [
   'displacement_risk',
@@ -58,7 +58,7 @@ export class MinorityHarmAgent extends BaseCollapseAgent {
   }
 
   async analyze(params: AgentAnalysisParams): Promise<MinorityHarmOutput> {
-    const { context, seed, stressMultiplier } = params;
+    const { context: _context, seed, stressMultiplier } = params;
     this.initRng(seed);
 
     const failureConditions = [];

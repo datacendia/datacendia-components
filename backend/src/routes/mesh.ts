@@ -29,7 +29,7 @@ router.use(devAuth);
 // =============================================================================
 
 // GET /mesh/stats - Get current network statistics
-router.get('/stats', async (req: Request, res: Response) => {
+router.get('/stats', async (_req: Request, res: Response) => {
   try {
     // Get latest stats or create default
     let stats = await prisma.mesh_network_stats.findFirst({

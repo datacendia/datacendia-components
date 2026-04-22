@@ -1089,7 +1089,7 @@ Respond with a JSON array of conflicts (empty array if none):`;
   // HELPER FUNCTIONS
   // ---------------------------------------------------------------------------
 
-  private checkAccess(tier: SubscriptionTier, organizationId: string): { allowed: boolean; reason?: string } {
+  private checkAccess(tier: SubscriptionTier, _organizationId: string): { allowed: boolean; reason?: string } {
     if (!featureGating.hasFeature(tier, 'regulatoryInstantAbsorb')) {
       return {
         allowed: false,

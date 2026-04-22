@@ -203,7 +203,7 @@ export class PredictService extends BaseService {
     let confidence = model.accuracy || 85;
 
     // Compute prediction based on model type and input features hash
-    const inputHash = JSON.stringify(input).slice(0, 50);
+    void (JSON.stringify(input).slice(0, 50));
     switch (model.type) {
       case 'classification': {
         const inputValues = Object.values(input).filter(v => typeof v === 'number') as number[];
@@ -312,7 +312,7 @@ export class PredictService extends BaseService {
     };
   }
 
-  async getForecast(forecastId: string): Promise<Forecast | null> {
+  async getForecast(_forecastId: string): Promise<Forecast | null> {
     // Forecasts are generated on-demand based on models
     return null;
   }

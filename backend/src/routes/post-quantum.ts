@@ -36,19 +36,19 @@ import { Router, Request, Response } from 'express';
 import { postQuantumKMSService, PQAlgorithm } from '../services/security/PostQuantumKMSService.js';
 
 
-const schema_3 = z.object({
+void (z.object({
   algorithm: z.any(),
   strength: z.any(),
   expiresInDays: z.any(),
-}).passthrough();
-const schema_4 = z.object({
+}).passthrough());
+void (z.object({
   data: z.any(),
   keyId: z.any(),
-}).passthrough();
-const schema_5 = z.object({
+}).passthrough());
+void (z.object({
   data: z.any(),
   signature: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

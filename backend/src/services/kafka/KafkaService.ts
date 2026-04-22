@@ -31,7 +31,7 @@
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
-import { KAFKA_TOPICS, getAllTopicNames, type TopicConfig } from './KafkaTopics.js';
+import { KAFKA_TOPICS,  } from './KafkaTopics.js';
 
 // ---------------------------------------------------------------------------
 // TYPES

@@ -38,7 +38,6 @@ import { Readable } from 'stream';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
-import { EventEmitter } from 'events';
 import {
   SovereignAdapter,
   AdapterConfig,
@@ -94,7 +93,7 @@ export interface FileEvent {
 const defaultParsers: Record<string, FileParser> = {
   json: {
     extensions: ['.json'],
-    parse: async (content, filename) => {
+    parse: async (content, _filename) => {
       const start = Date.now();
       const data = JSON.parse(content.toString('utf-8'));
       const records = Array.isArray(data) ? data : [data];
@@ -111,7 +110,7 @@ const defaultParsers: Record<string, FileParser> = {
 
   ndjson: {
     extensions: ['.ndjson', '.jsonl'],
-    parse: async (content, filename) => {
+    parse: async (content, _filename) => {
       const start = Date.now();
       const lines = content.toString('utf-8').split('\n').filter(l => l.trim());
       const records = lines.map(line => JSON.parse(line));
@@ -158,7 +157,7 @@ const defaultParsers: Record<string, FileParser> = {
 
   xml: {
     extensions: ['.xml'],
-    parse: async (content, filename) => {
+    parse: async (content, _filename) => {
       const start = Date.now();
       // Simple XML to JSON; production upgrade: use proper XML parser
       const xmlString = content.toString('utf-8');

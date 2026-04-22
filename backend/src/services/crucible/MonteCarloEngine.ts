@@ -24,7 +24,6 @@ import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import {
   SimulationConfig,
-  SimulationVariable,
   ScenarioDefinition,
   DigitalTwin,
   Universe,
@@ -150,7 +149,7 @@ export class MonteCarloEngine {
   /**
    * Generate random factor based on distribution
    */
-  private generateRandomFactor(config: SimulationConfig): number {
+  private generateRandomFactor(_config: SimulationConfig): number {
     // Use Box-Muller transform for normal distribution
     const u1 = this.random();
     const u2 = this.random();
@@ -238,7 +237,7 @@ export class MonteCarloEngine {
    */
   private calculateOperationalRisk(
     kpiProjections: Record<string, number>,
-    digitalTwin: DigitalTwin
+    _digitalTwin: DigitalTwin
   ): number {
     let risk = 0;
 
@@ -266,7 +265,7 @@ export class MonteCarloEngine {
    */
   private calculateStrategicRisk(
     kpiProjections: Record<string, number>,
-    digitalTwin: DigitalTwin
+    _digitalTwin: DigitalTwin
   ): number {
     let risk = 0;
 
@@ -293,7 +292,7 @@ export class MonteCarloEngine {
    */
   private calculateComplianceRisk(
     kpiProjections: Record<string, number>,
-    digitalTwin: DigitalTwin
+    _digitalTwin: DigitalTwin
   ): number {
     let risk = 0;
 
@@ -416,7 +415,7 @@ export class MonteCarloEngine {
    * Generate human-readable outcome summary
    */
   private generateOutcomeSummary(
-    kpiProjections: Record<string, number>,
+    _kpiProjections: Record<string, number>,
     riskScores: Record<string, number>,
     sentiment: OutcomeSentiment
   ): string {

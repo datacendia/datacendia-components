@@ -53,26 +53,26 @@ const ledgerRecordSchema = z.object({
   securityControls: z.array(z.string()).optional(),
 });
 
-const ledgerBatchSchema = z.object({
+void (z.object({
   executions: z.array(ledgerRecordSchema).min(1, 'At least one execution required'),
-});
+}));
 
-const suiteCreateSchema = z.object({
+void (z.object({
   name: z.string().min(1),
   description: z.string().optional(),
   category: z.string().optional(),
   tags: z.array(z.string()).optional(),
-});
+}));
 
-const attestSchema = z.object({
+void (z.object({
   frameworkId: z.string().min(1),
   controlId: z.string().min(1),
   status: z.enum(['compliant', 'non_compliant', 'partial', 'not_applicable']),
   evidence: z.string().optional(),
   attestedBy: z.string().optional(),
-});
+}));
 
-const exportBundleSchema = z.object({
+void (z.object({
   format: z.enum(['pdf', 'json', 'zip']).default('json'),
   frameworks: z.array(z.string()).optional(),
   dateRange: z.object({
@@ -80,7 +80,7 @@ const exportBundleSchema = z.object({
     to: z.string().datetime().optional(),
   }).optional(),
   includeRawData: z.boolean().default(false),
-});
+}));
 
 const router = Router();
 
@@ -94,7 +94,7 @@ const exportService = EvidenceExportService.getInstance();
 // STATUS
 // =============================================================================
 
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   const ledgerStats = ledgerService.getStatistics();
   
   res.json({
@@ -254,7 +254,7 @@ router.get('/ledger/entries/:id/verify', async (req: Request, res: Response, nex
   }
 });
 
-router.get('/ledger/verify', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/ledger/verify', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const result = await ledgerService.verifyChain();
     
@@ -267,7 +267,7 @@ router.get('/ledger/verify', async (req: Request, res: Response, next: NextFunct
   }
 });
 
-router.get('/ledger/statistics', (req: Request, res: Response) => {
+router.get('/ledger/statistics', (_req: Request, res: Response) => {
   const stats = ledgerService.getStatistics();
   
   res.json({
@@ -276,7 +276,7 @@ router.get('/ledger/statistics', (req: Request, res: Response) => {
   });
 });
 
-router.get('/ledger/blocks', (req: Request, res: Response) => {
+router.get('/ledger/blocks', (_req: Request, res: Response) => {
   const blocks = ledgerService.getBlocks();
   
   res.json({
@@ -411,7 +411,7 @@ router.post('/ledger/suites/:id/complete', async (req: Request, res: Response, n
   }
 });
 
-router.get('/ledger/suites', (req: Request, res: Response) => {
+router.get('/ledger/suites', (_req: Request, res: Response) => {
   const suites = ledgerService.getSuites();
   
   res.json({
@@ -570,7 +570,7 @@ router.get('/reports/:id/verify', async (req: Request, res: Response, next: Next
 // COMPLIANCE ENDPOINTS
 // =============================================================================
 
-router.get('/compliance/frameworks', (req: Request, res: Response) => {
+router.get('/compliance/frameworks', (_req: Request, res: Response) => {
   const frameworks = complianceService.getFrameworks();
   
   res.json({
@@ -649,7 +649,7 @@ router.get('/compliance/attestations/:frameworkId', (req: Request, res: Response
   });
 });
 
-router.get('/compliance/scores', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/compliance/scores', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const scores = await complianceService.getAllScores();
     
@@ -688,7 +688,7 @@ router.get('/compliance/gaps/:frameworkId', async (req: Request, res: Response, 
   }
 });
 
-router.get('/compliance/dashboard', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/compliance/dashboard', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const data = await complianceService.getDashboardData();
     
@@ -798,7 +798,7 @@ router.get('/export/bundles/:id/download', (req: Request, res: Response) => {
 // ERROR HANDLER
 // =============================================================================
 
-router.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+router.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
   logger.error('[Evidence API] Error:', err);
   
   res.status(500).json({

@@ -134,7 +134,7 @@ const unionAssessmentSchema = z.object({
   threats: z.array(z.record(z.any())).optional(),
 });
 
-const orgIdSchema = z.object({ organizationId: z.string().min(1) });
+void (z.object({ organizationId: z.string().min(1) }));
 const approverIdSchema = z.object({ approverId: z.string().min(1) });
 
 const router = Router();

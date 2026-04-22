@@ -55,15 +55,6 @@ import crypto from 'crypto';
 import { AuditEvent } from '../../security/audit.service.js';
 import { prisma } from '../../config/database.js';
 import { logger } from '../../utils/logger.js';
-// =============================================================================
-// CONSTANTS
-// =============================================================================
-
-/** Hash algorithm used for all cryptographic operations */
-const HASH_ALGORITHM = 'sha256' as const;
-
-/** HMAC algorithm for signatures */
-const HMAC_ALGORITHM = 'sha256' as const;
 
 /** Default block size for ledger blocks */
 const DEFAULT_BLOCK_SIZE = 100;

@@ -57,8 +57,8 @@ export async function initializePillarsForOrg(organizationId: string): Promise<v
   logger.info(`Initializing pillars for organization: ${organizationId}`);
   
   // Check if data already seeded
-  const hasMetrics = await helmService.hasMetricsForOrg(organizationId);
-  const hasAgents = await agentsService.hasAgentsForOrg(organizationId);
+  void (await helmService.hasMetricsForOrg(organizationId));
+  void (await agentsService.hasAgentsForOrg(organizationId));
 
   logger.info(`Pillars initialized for organization: ${organizationId}`);
 }

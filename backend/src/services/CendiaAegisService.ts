@@ -1536,7 +1536,7 @@ Respond as JSON:
     const hypothesis = options?.hypothesis || await this.generateHuntHypothesis(organizationId, options?.focusArea);
 
     // Check internal data sources
-    const [signals, threats, alerts, auditLogs] = await Promise.all([
+    const [signals, threats, _alerts, auditLogs] = await Promise.all([
       prisma.aegis_signals.findMany({
         where: {
           organization_id: organizationId,

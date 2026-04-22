@@ -24,10 +24,10 @@ const bodySchema0 = z.object({
   decisionId: z.any(),
   decisionContext: z.any(),
 }).passthrough();
-const bodySchema1 = z.object({
+void (z.object({
   decisionId: z.any(),
   decisionContext: z.any(),
-}).passthrough();
+}).passthrough());
 const bodySchema2 = z.object({
   decisionId: z.any(),
   title: z.any(),

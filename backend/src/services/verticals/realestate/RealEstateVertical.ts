@@ -25,7 +25,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
-  DataConnector, DataSource, IngestResult, ProvenanceRecord,
+  DataConnector, IngestResult, ProvenanceRecord,
   VerticalKnowledgeBase, KnowledgeDocument, RetrievalResult,
   ComplianceMapper, ComplianceFramework, ComplianceControl, ComplianceViolation, ComplianceEvidence,
   DecisionSchema, BaseDecision, ValidationResult, DefensibleArtifact,

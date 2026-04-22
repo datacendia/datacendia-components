@@ -1,19 +1,4 @@
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
-// See LICENSE file for details.
 
-/**
- * CendiaReplay™ — Live Decision Replay Theater
- *
- * Generates a shareable, animated replay of any AI Council deliberation.
- * Returns a self-contained HTML page that shows each agent's reasoning,
- * confidence scores, dissents, and votes unfolding step-by-step — like
- * watching a debate replay. Works as a standalone URL or embedded page.
- *
- * @module services/visualization/DecisionReplayTheaterService
- * @exports decisionReplayTheaterService
- */
-
-import { sha256, bytesToHex, utf8ToBytes } from '../crypto/nativeCrypto.js';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
@@ -437,13 +422,13 @@ function reset() {
     return { playing: false };
   }
 
-  seekToFrame(sessionId: string, frame: number, options?: any): { currentFrame: number } {
+  seekToFrame(sessionId: string, frame: number, _options?: any): { currentFrame: number } {
     const state = this.playbackStates.get(sessionId);
     if (state) state.currentFrame = frame;
     return { currentFrame: frame };
   }
 
-  seekToTime(sessionId: string, time: number, options?: any): { currentTime: number } {
+  seekToTime(sessionId: string, time: number, _options?: any): { currentTime: number } {
     const state = this.playbackStates.get(sessionId);
     if (state) state.currentTime = time;
     return { currentTime: time };
@@ -459,7 +444,7 @@ function reset() {
     return this.playbackStates.get(sessionId) || { playing: false, speed: 1, currentFrame: 0, currentTime: 0 };
   }
 
-  async exportSession(sessionId: string, deliberationId: string): Promise<string> {
+  async exportSession(_sessionId: string, deliberationId: string): Promise<string> {
     return await this.generateReplayHTML(deliberationId);
   }
 

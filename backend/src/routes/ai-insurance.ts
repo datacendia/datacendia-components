@@ -54,29 +54,29 @@ import { Router, Request, Response } from 'express';
 import { aiInsuranceService, CoverageType } from '../services/insurance/AIInsuranceService.js';
 
 
-const schema_4 = z.object({
+void (z.object({
   organizationId: z.any(),
   coverageType: z.any(),
   requestedLimit: z.any(),
   verticalId: z.any(),
   coveredSystems: z.any(),
   termMonths: z.any(),
-}).passthrough();
-const schema_5 = z.object({
+}).passthrough());
+void (z.object({
   quoteId: z.any(),
   coveredSystems: z.any(),
   coveredDecisionTypes: z.any(),
   createdBy: z.any(),
-}).passthrough();
-const schema_6 = z.object({
+}).passthrough());
+void (z.object({
   policyId: z.any(),
   decisionId: z.any(),
   deliberationId: z.any(),
   decisionType: z.any(),
   decisionValue: z.any(),
   riskFactors: z.any(),
-}).passthrough();
-const schema_7 = z.object({
+}).passthrough());
+void (z.object({
   policyId: z.any(),
   incidentDate: z.any(),
   incidentDescription: z.any(),
@@ -84,7 +84,7 @@ const schema_7 = z.object({
   claimAmount: z.any(),
   claimType: z.any(),
   supportingDocuments: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

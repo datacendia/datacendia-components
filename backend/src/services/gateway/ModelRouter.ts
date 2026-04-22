@@ -345,7 +345,7 @@ class ModelRouter {
     return false;
   }
 
-  private getModelCost(provider: string, model: string): number {
+  private getModelCost(_provider: string, model: string): number {
     // Simplified cost lookup — full pricing is in CendiaGatewayService
     const costs: Record<string, number> = {
       'llama-3.1-8b-instant': 0.00013,

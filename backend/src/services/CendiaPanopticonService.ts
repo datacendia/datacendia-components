@@ -37,7 +37,7 @@ import { EnhancedLLMService } from './EnhancedLLMService.js';
 
 
 import { REGULATORY_FRAMEWORKS, DEFAULT_RADAR_EVENTS, DEFAULT_AI_SUMMARY, DEFAULT_AI_ACTIONS } from './panopticon-svc-types.js';
-import type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast, RegulatoryRadarEvent } from './panopticon-svc-types.js';
+import type { RegulationFramework, ComplianceGap, ViolationAlert, RegulatoryForecast, RegulatoryRadarEvent } from './panopticon-svc-types.js';
 export { REGULATORY_FRAMEWORKS } from './panopticon-svc-types.js';
 export type { RegulationFramework, Obligation, ComplianceGap, ViolationAlert, RegulatoryForecast } from './panopticon-svc-types.js';
 
@@ -174,7 +174,7 @@ Respond in JSON format with keys: complianceAreas, criticalRequirements, challen
   private async generateObligations(
     regulationId: string,
     framework: RegulationFramework,
-    parsedContent: any
+    _parsedContent: any
   ): Promise<void> {
     const prompt = `Generate ${Math.min(framework.requirements, 10)} key compliance obligations for ${framework.name} (${framework.code}).
 

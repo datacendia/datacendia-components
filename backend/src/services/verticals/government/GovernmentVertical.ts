@@ -45,7 +45,7 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
-import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './GovernmentComplianceExpanded.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS } from './GovernmentComplianceExpanded.js';
 import {
   PersonnelActionDecision,
   RegulatoryActionDecision,

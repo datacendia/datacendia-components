@@ -24,7 +24,6 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { prisma } from '../../config/database.js';
 
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================

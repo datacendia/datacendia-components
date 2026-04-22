@@ -24,7 +24,6 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
   DataConnector,
-  DataSource,
   IngestResult,
   ProvenanceRecord,
   VerticalKnowledgeBase,
@@ -400,7 +399,7 @@ export class TechnologyDataConnector extends DataConnector<CICDData | Monitoring
     for (const source of this.sources.values()) source.connectionStatus = 'disconnected';
   }
 
-  async ingest(sourceId: string, query?: Record<string, unknown>): Promise<IngestResult<CICDData | MonitoringData>> {
+  async ingest(sourceId: string, _query?: Record<string, unknown>): Promise<IngestResult<CICDData | MonitoringData>> {
     const source = this.sources.get(sourceId);
     if (!source || source.connectionStatus !== 'connected') {
       return { success: false, data: null, provenance: this.generateProvenance(sourceId, null), validationErrors: [`Source ${sourceId} not connected`] };

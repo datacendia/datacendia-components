@@ -466,7 +466,7 @@ router.get('/demo/scenarios/:id', (req: Request, res: Response) => {
 
 router.get('/demo/materials', (_req: Request, res: Response) => {
   try {
-    const materialsDir = join(__dirname, '../data/legal-demo-materials');
+    void (join(__dirname, '../data/legal-demo-materials'));
     const materials = [
       {
         id: 'trade-secret-brief',

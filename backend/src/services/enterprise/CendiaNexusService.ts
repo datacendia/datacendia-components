@@ -823,7 +823,7 @@ class CendiaNexusService extends EventEmitter {
     return deliveries;
   }
 
-  private async deliverWebhook(delivery: WebhookDelivery, subscription: WebhookSubscription, signature: string): Promise<void> {
+  private async deliverWebhook(delivery: WebhookDelivery, subscription: WebhookSubscription, _signature: string): Promise<void> {
     delivery.attempts++;
     delivery.status = 'delivered';
     delivery.deliveredAt = new Date();

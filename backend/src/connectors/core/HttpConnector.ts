@@ -19,8 +19,7 @@
  * circuit breaker pattern, and comprehensive error handling.
  */
 
-import { BaseConnector, ConnectorConfig, ConnectorMetadata, ConnectorStatus, AuthType } from '../BaseConnector.js';
-import { logger } from '../../utils/logger.js';
+import { BaseConnector, ConnectorConfig, AuthType } from '../BaseConnector.js';
 import crypto from 'crypto';
 
 // =============================================================================

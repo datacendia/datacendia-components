@@ -484,7 +484,7 @@ class GnosisService {
    */
   async updateProgress(
     pathId: string,
-    userId: string,
+    _userId: string,
     moduleId: string,
     completed: boolean,
     score?: number
@@ -680,7 +680,7 @@ Respond with JSON:
     };
   }
 
-  private async identifyAffectedRoles(deliberation: any, orgId: string): Promise<string[]> {
+  private async identifyAffectedRoles(deliberation: any, _orgId: string): Promise<string[]> {
     // Get roles mentioned in decision or context
     const context = deliberation.context as any || {};
     const mentionedRoles = context.affectedTeams || context.affectedRoles || [];
@@ -815,7 +815,7 @@ List 3-7 specific skills as a JSON array of strings.`;
   }
 
   private async getRecommendedPaths(
-    userId: string,
+    _userId: string,
     gaps: string[],
     orgId: string
   ): Promise<LearningPath[]> {
@@ -852,8 +852,8 @@ List 3-7 specific skills as a JSON array of strings.`;
 
   private async generateAssessmentFeedback(
     score: number,
-    questions: QuizQuestion[],
-    answers: Record<string, string>
+    _questions: QuizQuestion[],
+    _answers: Record<string, string>
   ): Promise<string> {
     if (score >= 90) {
       return 'Excellent! You have demonstrated mastery of this skill.';

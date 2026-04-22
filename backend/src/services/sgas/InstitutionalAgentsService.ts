@@ -49,7 +49,6 @@ import {
   AuditFlagType,
   SeverityLevel,
   InstitutionalState,
-  ExecutionMetadata,
   generateSGASId,
   hashState,
 } from './types.js';
@@ -838,7 +837,7 @@ export class InstitutionalAgentsService extends EventEmitter {
    * Determine institutional status
    */
   private determineStatus(
-    agent: InstitutionalAgentConfig,
+    _agent: InstitutionalAgentConfig,
     matches: ConstraintMatch[],
     violations: ViolationReport[]
   ): { status: InstitutionalStatus; reason: string } {
@@ -956,7 +955,7 @@ export class InstitutionalAgentsService extends EventEmitter {
    * Generate audit flags
    */
   private generateAuditFlags(
-    agent: InstitutionalAgentConfig,
+    _agent: InstitutionalAgentConfig,
     matches: ConstraintMatch[],
     violations: ViolationReport[]
   ): AuditFlag[] {
@@ -995,7 +994,7 @@ export class InstitutionalAgentsService extends EventEmitter {
   private checkOverrideAvailability(
     agent: InstitutionalAgentConfig,
     status: { status: InstitutionalStatus; reason: string },
-    violations: ViolationReport[]
+    _violations: ViolationReport[]
   ): { available: boolean; authority?: string; conditions?: string[] } {
     if (status.status === InstitutionalStatus.ALLOW) {
       return { available: false };

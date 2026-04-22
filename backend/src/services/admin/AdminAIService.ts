@@ -1,25 +1,5 @@
-/**
- * Service — Admin A I Service
- *
- * Business logic service implementing platform capabilities.
- *
- * @exports adminAIService, AdminCommand, AdminAIResponse, ConversationMessage
- * @module services/admin/AdminAIService
- */
 
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
-// See LICENSE file for details.
-
-// =============================================================================
-// ADMIN AI SERVICE - AI-Powered Administrative Assistant
-// Helps configure, manage, and carry out administrative tasks
-// =============================================================================
-
-import { config } from '../../config/index.js';
 import { featureControlService } from './FeatureControlService.js';
-import { tenantService } from './TenantService.js';
-import { licenseService } from './LicenseService.js';
 import { systemHealthService } from './SystemHealthService.js';
 import { logger } from '../../utils/logger.js';
 

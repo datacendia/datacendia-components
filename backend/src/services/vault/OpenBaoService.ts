@@ -38,7 +38,6 @@
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
-import crypto from 'crypto';
 
 // ---------------------------------------------------------------------------
 // TYPES
@@ -209,7 +208,7 @@ class OpenBaoService {
    */
   async disconnect(): Promise<void> {
     // Cancel all renewal timers
-    for (const [id, timer] of this.renewalTimers) {
+    for (const [_id, timer] of this.renewalTimers) {
       clearTimeout(timer);
     }
     this.renewalTimers.clear();

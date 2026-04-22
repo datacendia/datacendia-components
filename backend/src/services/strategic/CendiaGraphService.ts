@@ -369,8 +369,8 @@ class CendiaGraphService {
     const risks: RiskConnection[] = [];
 
     // Find all risk-type entities
-    const riskEntities = Array.from(this.entities.values())
-      .filter(e => e.organizationId === organizationId && e.type === 'risk');
+    void (Array.from(this.entities.values())
+      .filter(e => e.organizationId === organizationId && e.type === 'risk'));
 
     // Find entities connected to sanctioned/flagged entities
     const flaggedEntities = Array.from(this.entities.values())
@@ -431,7 +431,7 @@ class CendiaGraphService {
     return risks.sort((a, b) => b.riskScore - a.riskScore);
   }
 
-  private classifyRiskType(source: GraphEntity, target: GraphEntity, path: GraphPath): string {
+  private classifyRiskType(source: GraphEntity, _target: GraphEntity, path: GraphPath): string {
     const relationshipTypes = path.relationships.map(r => r.type);
     
     if (relationshipTypes.includes('owns') || relationshipTypes.includes('member_of')) {

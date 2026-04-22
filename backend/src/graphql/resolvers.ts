@@ -19,7 +19,6 @@
  */
 
 import { prisma } from '../config/database.js';
-import { logger } from '../utils/logger.js';
 import { GraphQLError } from 'graphql';
 
 // =============================================================================
@@ -185,25 +184,25 @@ export const resolvers = {
       };
     },
 
-    entities: async (_: unknown, args: { type?: string; search?: string; limit?: number }, context: GraphQLContext) => {
+    entities: async (_: unknown, _args: { type?: string; search?: string; limit?: number }, context: GraphQLContext) => {
       requireAuth(context);
       // Production upgrade: query Neo4j
       return [];
     },
 
-    entity: async (_: unknown, args: { id: string }, context: GraphQLContext) => {
+    entity: async (_: unknown, _args: { id: string }, context: GraphQLContext) => {
       requireAuth(context);
       return null;
     },
 
-    entityRelationships: async (_: unknown, args: { entityId: string; depth?: number }, context: GraphQLContext) => {
+    entityRelationships: async (_: unknown, _args: { entityId: string; depth?: number }, context: GraphQLContext) => {
       requireAuth(context);
       return [];
     },
 
     // Chronos queries
     timelineSnapshot: async (_: unknown, args: { timestamp: Date }, context: GraphQLContext) => {
-      const orgId = requireOrg(context);
+      void (requireOrg(context));
       
       return {
         timestamp: args.timestamp,
@@ -235,12 +234,12 @@ export const resolvers = {
       };
     },
 
-    timelineRange: async (_: unknown, args: { start: Date; end: Date }, context: GraphQLContext) => {
+    timelineRange: async (_: unknown, _args: { start: Date; end: Date }, context: GraphQLContext) => {
       requireAuth(context);
       return [];
     },
 
-    pivotalMoments: async (_: unknown, args: { limit?: number }, context: GraphQLContext) => {
+    pivotalMoments: async (_: unknown, _args: { limit?: number }, context: GraphQLContext) => {
       requireAuth(context);
       return [];
     },
@@ -302,7 +301,7 @@ export const resolvers = {
       };
     },
 
-    apiUsageHistory: async (_: unknown, args: { days?: number }, context: GraphQLContext) => {
+    apiUsageHistory: async (_: unknown, _args: { days?: number }, context: GraphQLContext) => {
       requireAuth(context);
       return [];
     },
@@ -553,13 +552,13 @@ export const resolvers = {
     },
 
     // Auth mutations (simplified - would integrate with auth service)
-    login: async (_: unknown, args: { email: string; password: string }) => {
+    login: async (_: unknown, _args: { email: string; password: string }) => {
       throw new GraphQLError('Use REST /auth/login endpoint', {
         extensions: { code: 'BAD_REQUEST' },
       });
     },
 
-    refreshToken: async (_: unknown, args: { refreshToken: string }) => {
+    refreshToken: async (_: unknown, _args: { refreshToken: string }) => {
       throw new GraphQLError('Use REST /auth/refresh endpoint', {
         extensions: { code: 'BAD_REQUEST' },
       });
@@ -577,7 +576,7 @@ export const resolvers = {
       });
     },
 
-    deleteAttachment: async (_: unknown, args: { id: string }, context: GraphQLContext) => {
+    deleteAttachment: async (_: unknown, _args: { id: string }, context: GraphQLContext) => {
       requireAuth(context);
       return true;
     },

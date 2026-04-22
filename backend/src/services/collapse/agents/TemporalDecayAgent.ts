@@ -68,7 +68,7 @@ export class TemporalDecayAgent extends BaseCollapseAgent {
   }
 
   async analyze(params: AgentAnalysisParams): Promise<TemporalDecayOutput> {
-    const { context, seed, stressMultiplier, simulationHorizonMonths } = params;
+    const { context: _context, seed, stressMultiplier, simulationHorizonMonths } = params;
     this.initRng(seed);
 
     const failureConditions = [];

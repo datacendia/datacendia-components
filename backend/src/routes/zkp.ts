@@ -40,7 +40,7 @@ import { Router, Request, Response } from 'express';
 import { zeroKnowledgeProofService, ProofType } from '../services/security/ZeroKnowledgeProofService.js';
 
 
-const schema_3 = z.object({
+void (z.object({
   type: z.any(),
   claim: z.any(),
   decisionId: z.any(),
@@ -50,13 +50,13 @@ const schema_3 = z.object({
   framework: z.any(),
   privateWitness: z.any(),
   requestedBy: z.any(),
-}).passthrough();
-const schema_4 = z.object({
+}).passthrough());
+void (z.object({
   verifiedBy: z.any(),
-}).passthrough();
-const schema_5 = z.object({
+}).passthrough());
+void (z.object({
   reason: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

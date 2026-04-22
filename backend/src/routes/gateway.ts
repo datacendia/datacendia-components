@@ -37,7 +37,6 @@ const schema_0 = z.object({
 import crypto from 'crypto';
 import { Router, Request, Response } from 'express';
 import CendiaGatewayService from '../services/gateway/CendiaGatewayService.js';
-import { scanForPII } from '../services/gateway/PIIDetector.js';
 import { presidioPIIService } from '../services/gateway/PresidioPIIService.js';
 import ModelRouter from '../services/gateway/ModelRouter.js';
 import { gatewayProxyServer } from '../services/gateway/GatewayProxyServer.js';
@@ -49,9 +48,9 @@ import ManifestExporter from '../services/gateway/ManifestExporter.js';
 import { gatewayFederationService } from '../services/gateway/GatewayFederationService.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   text: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 
@@ -964,7 +963,7 @@ router.post('/siem/flush', async (_req: Request, res: Response) => {
  */
 router.post('/scan', async (req: Request, res: Response) => {
   try {
-    const { text, source, domain, userId, organizationId } = req.body;
+    const { text, source, domain, userId, organizationId: _organizationId } = req.body;
     if (!text || typeof text !== 'string') {
       return res.status(400).json({ error: 'text is required' });
     }
@@ -1012,7 +1011,7 @@ router.post('/scan', async (req: Request, res: Response) => {
  */
 router.post('/browser-log', async (req: Request, res: Response) => {
   try {
-    const { source, domain, siteName, userId, organizationId, action, piiTypes, promptLength, timestamp } = req.body;
+    const { source: _source, domain, siteName, userId, organizationId, action, piiTypes, promptLength, timestamp: _timestamp } = req.body;
 
     logger.info(`[Gateway/browser-log] site=${siteName || domain} user=${userId || 'anonymous'} action=${action} pii=${(piiTypes || []).join(',')} len=${promptLength || 0}`);
 

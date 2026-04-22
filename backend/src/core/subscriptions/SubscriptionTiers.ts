@@ -18,7 +18,6 @@
 // =============================================================================
 
 import type { PillarId, PlatformTier } from '../PlatformCatalog.js';
-import { PLATFORM_PILLARS, isPillarIncludedInTier } from '../PlatformCatalog.js';
 
 // =============================================================================
 // SUBSCRIPTION TIER DEFINITIONS

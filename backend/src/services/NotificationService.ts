@@ -243,7 +243,7 @@ export class NotificationService {
             });
 
             // Use Web Push protocol (RFC 8030) via fetch
-            const keys = JSON.parse(sub.keys);
+            void (JSON.parse(sub.keys));
             await fetch(sub.endpoint, {
               method: 'POST',
               headers: {

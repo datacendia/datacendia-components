@@ -18,7 +18,6 @@ import { Router, Request, Response } from 'express';
 import { keyManagementService } from '../services/security/KeyManagementService.js';
 import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 import { z } from 'zod';
 import { prisma } from '../config/database.js';
@@ -34,11 +33,11 @@ const bodySchema1 = z.object({
   keyId: z.any(),
   encoding: z.any(),
 }).passthrough();
-const bodySchema2 = z.object({
+void (z.object({
   data: z.any(),
   keyId: z.any(),
   encoding: z.any(),
-}).passthrough();
+}).passthrough());
 const bodySchema3 = z.object({
   ciphertext: z.any(),
   keyId: z.any(),

@@ -407,7 +407,7 @@ class CrossJurisdictionConflictService {
     organizationId: string,
     organizationName: string,
     jurisdictions: Jurisdiction[],
-    assessedBy: string
+    _assessedBy: string
   ): Promise<CrossJurisdictionAssessment> {
     const frameworks = this.getFrameworksForJurisdictions(jurisdictions);
     const conflicts = this.detectConflicts(organizationId, jurisdictions);

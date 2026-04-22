@@ -28,7 +28,6 @@ import { PREMORTEM_AGENTS } from '../features/premium/PreMortem.js';
 import { 
   featureGating, 
   SUBSCRIPTION_TIERS,
-  FEATURE_DEFINITIONS,
   SubscriptionTier,
 } from '../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../utils/errors.js';

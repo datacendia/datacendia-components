@@ -51,30 +51,30 @@ import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
 
 
-const schema_5 = z.object({
+void (z.object({
   topic: z.any(),
   duration: z.any(),
   targetAudience: z.any(),
-}).passthrough();
-const schema_6 = z.object({
+}).passthrough());
+void (z.object({
   purpose: z.any(),
   platform: z.any(),
   style: z.any(),
-}).passthrough();
-const schema_7 = z.object({
+}).passthrough());
+void (z.object({
   audience: z.any(),
   focus: z.any(),
-}).passthrough();
-const schema_8 = z.object({
+}).passthrough());
+void (z.object({
   type: z.any(),
   topic: z.any(),
   tone: z.any(),
-}).passthrough();
-const schema_9 = z.object({
+}).passthrough());
+void (z.object({
   themes: z.any(),
   platforms: z.any(),
   postsPerWeek: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

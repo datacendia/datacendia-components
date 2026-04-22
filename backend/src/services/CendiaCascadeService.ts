@@ -59,8 +59,7 @@ import {
   InfluenceResult,
   NodeType,
   OrbitNode,
-  OrbitEdge,
-  EdgeType,
+  OrbitEdge
 } from './CendiaOrbitService.js';
 import { logger } from '../utils/logger.js';
 
@@ -301,7 +300,7 @@ export class CendiaCascadeService extends EventEmitter {
     const guardrails = this.generateGuardrails(mergedConsequences, changeSpec);
 
     // Step 8: Run multi-lens analysis
-    const lensAnalyses = await this.runMultiLensAnalysis(mergedConsequences, changeSpec);
+    void (await this.runMultiLensAnalysis(mergedConsequences, changeSpec));
 
     // Step 9: Calculate total risk and generate recommendation
     const totalRiskScore = this.calculateTotalRisk(mergedConsequences);
@@ -448,7 +447,7 @@ export class CendiaCascadeService extends EventEmitter {
 
   private describeConsequence(
     impact: InfluenceResult,
-    changeSpec: ChangeSpec,
+    _changeSpec: ChangeSpec,
     order: number
   ): string {
     const orderLabel = order === 1 ? 'Direct' : order === 2 ? 'Secondary' : 'Tertiary';
@@ -582,7 +581,7 @@ export class CendiaCascadeService extends EventEmitter {
     return mitigations;
   }
 
-  private suggestPrevention(consequence: ConsequenceAssessment, changeSpec: ChangeSpec): string {
+  private suggestPrevention(consequence: ConsequenceAssessment, _changeSpec: ChangeSpec): string {
     const suggestions: Record<ImpactCategory, string> = {
       [ImpactCategory.FINANCIAL]: 'Implement phased rollout with budget checkpoints',
       [ImpactCategory.OPERATIONAL]: 'Add redundancy and failover procedures',
@@ -597,7 +596,7 @@ export class CendiaCascadeService extends EventEmitter {
 
   private generateGuardrails(
     consequences: ConsequenceAssessment[],
-    changeSpec: ChangeSpec
+    _changeSpec: ChangeSpec
   ): Guardrail[] {
     const guardrails: Guardrail[] = [];
 
@@ -763,7 +762,7 @@ export class CendiaCascadeService extends EventEmitter {
   private generateRecommendation(
     totalRisk: number,
     consequences: ConsequenceAssessment[],
-    changeSpec: ChangeSpec
+    _changeSpec: ChangeSpec
   ): { action: CascadeReport['recommendation']; rationale: string; requiredApprovals?: string[] } {
     const criticalCount = consequences.filter(c => c.severity === Severity.CRITICAL).length;
     const highCount = consequences.filter(c => c.severity === Severity.HIGH).length;
@@ -801,8 +800,8 @@ export class CendiaCascadeService extends EventEmitter {
   }
 
   private generateAlternatives(
-    changeSpec: ChangeSpec,
-    consequences: ConsequenceAssessment[]
+    _changeSpec: ChangeSpec,
+    _consequences: ConsequenceAssessment[]
   ): CascadeReport['alternatives'] {
     return [
       {

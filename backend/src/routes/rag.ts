@@ -67,7 +67,7 @@ const searchSchema = z.object({
  * GET /api/v1/rag/collections
  * List all RAG collections
  */
-router.get('/collections', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/collections', async (_req: Request, res: Response, _next: NextFunction) => {
   try {
     const collections = await prisma.$queryRaw<Array<{
       collection: string;
@@ -216,7 +216,7 @@ router.delete('/collections/:collection', async (req: Request, res: Response, ne
  * GET /api/v1/rag/stats
  * Get RAG system statistics
  */
-router.get('/stats', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/stats', async (_req: Request, res: Response, _next: NextFunction) => {
   try {
     const stats = await prisma.$queryRaw<Array<{
       total_documents: bigint;

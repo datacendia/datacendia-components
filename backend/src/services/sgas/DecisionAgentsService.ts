@@ -24,7 +24,6 @@
  */
 
 import { EventEmitter } from 'events';
-import crypto from 'crypto';
 import {
   SGASAgentClass,
   DecisionAgentConfig,
@@ -40,13 +39,10 @@ import {
   ReasoningStep,
   ReasoningType,
   RejectedPath,
-  ExecutionMetadata,
-  ResourceUsage,
   SeverityLevel,
   GuardrailType,
   GuardrailAction,
   AgentGuardrail,
-  BoundedLLMConfig,
   ComputeIntensity,
   generateSGASId,
   hashState,
@@ -527,7 +523,7 @@ export class DecisionAgentsService extends EventEmitter {
   }
 
   private validateInput(
-    guardrail: AgentGuardrail,
+    _guardrail: AgentGuardrail,
     proposal: DecisionProposal
   ): { passed: boolean; reason?: string } {
     // Basic input validation
@@ -538,7 +534,7 @@ export class DecisionAgentsService extends EventEmitter {
   }
 
   private enforceScope(
-    guardrail: AgentGuardrail,
+    _guardrail: AgentGuardrail,
     proposal: DecisionProposal
   ): { passed: boolean; reason?: string } {
     // Scope enforcement - ensure proposal is within defined boundaries
@@ -791,7 +787,7 @@ export class DecisionAgentsService extends EventEmitter {
    * Identify known unknowns
    */
   private identifyUnknowns(
-    objective: DecisionObjective,
+    _objective: DecisionObjective,
     proposal: DecisionProposal,
     rng: () => number
   ): KnownUnknown[] {

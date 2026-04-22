@@ -831,7 +831,7 @@ export class CendiaResponsibilityService {
    * 10/10: Delegation Governance Audit
    * Audits delegation chains for compliance and expiration issues.
    */
-  async auditDelegations(organizationId: string): Promise<{
+  async auditDelegations(_organizationId: string): Promise<{
     totalDelegations: number;
     activeDelegations: number;
     expiredDelegations: number;

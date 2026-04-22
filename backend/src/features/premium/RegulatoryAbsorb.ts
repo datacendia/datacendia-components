@@ -19,7 +19,6 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES

@@ -578,7 +578,7 @@ export class EnterpriseRedTeamService extends EventEmitter {
 
     // Collect all tests based on categories
     let tests: RedTeamTest[] = [];
-    const _categories = options.categories || Object.values(OWASP_TOP_10_TESTS.map(t => t.category));
+    void (options.categories || Object.values(OWASP_TOP_10_TESTS.map(t => t.category)));
 
     // Add OWASP tests
     tests = tests.concat(OWASP_TOP_10_TESTS);

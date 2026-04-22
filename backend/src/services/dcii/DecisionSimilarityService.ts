@@ -350,7 +350,7 @@ class DecisionPrecedentEngine {
   }
 
   async findSimilarDecisions(options: any): Promise<any[]> {
-    const { organizationId, title, question, context, decisionType, department, urgency, tags, maxResults, minSimilarity, includeOutcomes, includeCrossDepartment } = options;
+    const { organizationId, title, question, context: _context, decisionType: _decisionType, department: _department, urgency: _urgency, tags: _tags, maxResults, minSimilarity, includeOutcomes: _includeOutcomes, includeCrossDepartment: _includeCrossDepartment } = options;
     const result = await this.findPrecedents(question || title || '', organizationId || 'default', { topK: maxResults || 10, minSimilarity: minSimilarity || 0.1 });
     return result.matches.map(m => ({
       id: m.deliberationId,
@@ -360,7 +360,7 @@ class DecisionPrecedentEngine {
     }));
   }
 
-  updateOutcome(id: string, outcome: any, outcomeDescription?: string, lessonsLearned?: string[], dissenterWasCorrect?: boolean): DecisionRecord | undefined {
+  updateOutcome(id: string, outcome: any, outcomeDescription?: string, lessonsLearned?: string[], _dissenterWasCorrect?: boolean): DecisionRecord | undefined {
     const record = this.decisionRecords.find(r => r.id === id);
     if (record) {
       record.outcome = outcome;
@@ -379,15 +379,15 @@ class DecisionPrecedentEngine {
     return this.decisionRecords.find(r => r.id === id);
   }
 
-  async detectPatterns(options?: any): Promise<any[]> {
+  async detectPatterns(_options?: any): Promise<any[]> {
     return [];
   }
 
-  getPatternsByOrganization(orgId: string, options?: any): any[] {
+  getPatternsByOrganization(_orgId: string, _options?: any): any[] {
     return [];
   }
 
-  getStats(organizationId?: string): any {
+  getStats(_organizationId?: string): any {
     return { total: this.decisionRecords.length, byOrg: {} };
   }
 

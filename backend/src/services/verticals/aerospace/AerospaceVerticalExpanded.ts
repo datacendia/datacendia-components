@@ -25,7 +25,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
-  DataConnector, DataSource, IngestResult, ProvenanceRecord,
+  DataConnector, IngestResult, ProvenanceRecord,
   VerticalKnowledgeBase, KnowledgeDocument, RetrievalResult,
   ComplianceMapper, ComplianceFramework, ComplianceControl, ComplianceViolation, ComplianceEvidence,
   DecisionSchema, BaseDecision, ValidationResult, DefensibleArtifact,
@@ -216,7 +216,7 @@ export class AerospaceComplianceMapper extends ComplianceMapper {
     return fw.controls.filter(c => ids.includes(c.id));
   }
 
-  async checkViolation(decision: AerospaceDecision, frameworkId: string): Promise<ComplianceViolation[]> {
+  async checkViolation(decision: AerospaceDecision, _frameworkId: string): Promise<ComplianceViolation[]> {
     const violations: ComplianceViolation[] = [];
     if (decision.type === 'airworthiness') {
       const ad = decision as AirworthinessDecision;

@@ -1027,7 +1027,7 @@ export class EUAIActEngine {
     return descriptions[system.domain] || 'Natural persons interacting with or affected by the AI system';
   }
 
-  private getAffectedGroups(system: AISystemDescriptor, right: FundamentalRight): string[] {
+  private getAffectedGroups(_system: AISystemDescriptor, right: FundamentalRight): string[] {
     const baseGroups = ['All customers'];
     if (right === 'non-discrimination') {
       return ['Ethnic minorities', 'Women', 'Elderly persons', 'Persons with disabilities', 'Low-income persons'];

@@ -23,7 +23,6 @@
 
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
-import ollama from './ollama.js';
 import crypto from 'crypto';
 import { recordChronosEvent } from './ChronosEventBus.js';
 import { loadServiceRecords } from '../utils/servicePersistence.js';
@@ -646,7 +645,7 @@ class CendiaDissentService {
   /**
    * Get retaliation flags for organization
    */
-  async getRetaliationFlags(organizationId: string): Promise<RetaliationFlag[]> {
+  async getRetaliationFlags(_organizationId: string): Promise<RetaliationFlag[]> {
     // Return empty for demo - no flags is good
     return [];
   }
@@ -691,7 +690,7 @@ class CendiaDissentService {
   async recordOutcomeVerification(
     dissentId: string,
     wasRight: boolean,
-    notes?: string
+    _notes?: string
   ): Promise<Dissent> {
     const dissent = this.dissentsCache.get(dissentId);
     if (!dissent) {
@@ -770,7 +769,7 @@ class CendiaDissentService {
     logger.info(`[Dissent] Notified ${dissent.decisionOwner} about dissent ${dissent.id}`);
   }
 
-  private async notifyDissenter(dissent: Dissent, response: DissentResponse): Promise<void> {
+  private async notifyDissenter(dissent: Dissent, _response: DissentResponse): Promise<void> {
     logger.info(`[Dissent] Notified dissenter about response to ${dissent.id}`);
   }
 

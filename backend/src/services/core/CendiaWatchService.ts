@@ -1185,7 +1185,6 @@ Output JSON:
     const competitors = Array.from(this.competitors.values());
     const alerts = this.alerts;
     const now = Date.now();
-    const sevenDaysAgo = now - 7 * 24 * 60 * 60 * 1000;
     const fourteenDaysAgo = now - 14 * 24 * 60 * 60 * 1000;
     const thirtyDaysAgo = now - 30 * 24 * 60 * 60 * 1000;
 

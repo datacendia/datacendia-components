@@ -20,7 +20,6 @@ import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/B
 import { eventBus } from '../../core/events/EventBus.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { getErrorMessage } from '../../utils/errors.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -340,7 +339,7 @@ export class PreMortemService extends BaseService {
   // FEATURE ACCESS CHECK
   // ---------------------------------------------------------------------------
 
-  checkAccess(tier: SubscriptionTier, organizationId: string): { allowed: boolean; reason?: string } {
+  checkAccess(tier: SubscriptionTier, _organizationId: string): { allowed: boolean; reason?: string } {
     if (!featureGating.hasFeature(tier, 'preMortem')) {
       return {
         allowed: false,

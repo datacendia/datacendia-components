@@ -60,11 +60,11 @@ const AI_DOMAINS = new Set([
 ]);
 
 // Domains we NEVER intercept (passthrough)
-const BYPASS_DOMAINS = new Set([
+void (new Set([
   'localhost',
   '127.0.0.1',
   '*.internal',
-]);
+]));
 
 // =============================================================================
 // TYPES

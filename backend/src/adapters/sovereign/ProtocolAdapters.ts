@@ -521,7 +521,7 @@ export class MQTTAdapter extends SovereignAdapter {
     return record;
   }
 
-  async validate(data: unknown): Promise<{ valid: boolean; errors?: string[] }> {
+  async validate(_data: unknown): Promise<{ valid: boolean; errors?: string[] }> {
     return { valid: true };
   }
 

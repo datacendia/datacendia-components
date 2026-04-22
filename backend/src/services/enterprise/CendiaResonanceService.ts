@@ -26,7 +26,7 @@ import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePer
 // =============================================================================
 
 
-import type { CommunicationCampaign, Audience, CampaignMessage, MessageSentiment, CommunicationChannel, CampaignMilestone, CampaignMetrics, BeliefMetric, BeliefDriver, LeakPattern, LeakSignature, CrisisResponse, CrisisStakeholder, CrisisEvent, HoldingStatement, MediaInquiry, SocialMonitoring, InternalCrisisComms, NarrativeAnalysis, NarrativeRecommendation, ContentCalendar, CalendarItem } from './resonance-types.js';
+import type { CommunicationCampaign, CampaignMessage, CampaignMetrics, BeliefMetric, LeakPattern, CrisisResponse, HoldingStatement, MediaInquiry, NarrativeAnalysis, ContentCalendar, CalendarItem } from './resonance-types.js';
 export type { CommunicationCampaign, Audience, CampaignMessage, MessageSentiment, CommunicationChannel, CampaignMilestone, CampaignMetrics, BeliefMetric, BeliefDriver, LeakPattern, LeakSignature, CrisisResponse, CrisisStakeholder, CrisisEvent, HoldingStatement, MediaInquiry, SocialMonitoring, InternalCrisisComms, NarrativeAnalysis, NarrativeRecommendation, ContentCalendar, CalendarItem } from './resonance-types.js';
 
 
@@ -309,7 +309,7 @@ Analyze for leak patterns and respond in JSON:
   // CRISIS COMMUNICATION
   // ---------------------------------------------------------------------------
 
-  initiateCrisisResponse(crisisType: string, severity: CrisisResponse['severity'], description: string): CrisisResponse {
+  initiateCrisisResponse(crisisType: string, severity: CrisisResponse['severity'], _description: string): CrisisResponse {
     const crisis: CrisisResponse = {
       id: `crisis-${Date.now()}`,
       crisisType,

@@ -556,7 +556,7 @@ function getOAuthAuthorizationUrl(integrationId: string, state: string): string 
   return urls[integrationId] || `${baseUrl}/oauth/unsupported`;
 }
 
-async function exchangeOAuthCode(integrationId: string, code: string): Promise<Record<string, unknown>> {
+async function exchangeOAuthCode(_integrationId: string, code: string): Promise<Record<string, unknown>> {
   // Production upgrade: exchange code for OAuth tokens
   // This is a placeholder implementation
   return {
@@ -658,7 +658,7 @@ async function performSync(connectionId: string): Promise<void> {
   }
 }
 
-async function discoverSchema(connection: {
+async function discoverSchema(_connection: {
   type: string;
   config: unknown;
   credentials: unknown;

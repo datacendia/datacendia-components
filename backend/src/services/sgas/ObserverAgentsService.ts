@@ -45,8 +45,6 @@ import {
   TrustComponent,
   IntegrityVerification,
   Discrepancy,
-  ReplayVerification,
-  ReplayDifference,
   AuditArtifact,
   AuditArtifactType,
   Anomaly,
@@ -544,7 +542,7 @@ export class ObserverAgentsService extends EventEmitter {
     metricId: string,
     decisionOutputs: DecisionAgentOutput[],
     institutionalOutputs: InstitutionalAgentOutput[],
-    adversarialOutputs: AdversarialAgentOutput[]
+    _adversarialOutputs: AdversarialAgentOutput[]
   ): number {
     switch (metricId) {
       case 'met_recommendation_variance':
@@ -647,7 +645,7 @@ export class ObserverAgentsService extends EventEmitter {
     return deterministicCount / outputs.length;
   }
 
-  private countHashMismatches(outputs: DecisionAgentOutput[]): number {
+  private countHashMismatches(_outputs: DecisionAgentOutput[]): number {
     // In real implementation, would compare with stored hashes
     return 0;
   }
@@ -710,7 +708,7 @@ export class ObserverAgentsService extends EventEmitter {
   /**
    * Get historical comparison
    */
-  private getHistoricalComparison(metricId: string, currentValue: number): HistoricalComparison {
+  private getHistoricalComparison(_metricId: string, currentValue: number): HistoricalComparison {
     // In real implementation, would fetch from database
     const baseline = currentValue * 0.9; // Compute baseline
     const percentChange = baseline !== 0 ? ((currentValue - baseline) / baseline) * 100 : 0;

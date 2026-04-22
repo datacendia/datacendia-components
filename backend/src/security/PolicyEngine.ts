@@ -22,7 +22,6 @@
 // =============================================================================
 
 import { newEnforcer, Enforcer } from 'casbin';
-import path from 'path';
 import { getErrorMessage } from '../utils/errors.js';
 
 import { logger } from '../utils/logger.js';

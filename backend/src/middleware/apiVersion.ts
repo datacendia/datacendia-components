@@ -39,7 +39,7 @@ export function apiVersionHeaders(req: Request, res: Response, next: NextFunctio
   // Calculate response time after response finishes
   res.on('finish', () => {
     const end = process.hrtime.bigint();
-    const durationMs = Number(end - start) / 1_000_000;
+    void (Number(end - start) / 1_000_000);
     // Header already sent by the time 'finish' fires, but we can log it
     // For the header to be visible, we set it before the response is sent via the 'header' event
   });

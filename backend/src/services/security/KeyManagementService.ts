@@ -407,8 +407,7 @@ export class KeyManagementService {
     }
   }
 
-  private async signWithAzureKeyVault(data: Buffer, keyId: string | undefined, timestamp: Date): Promise<SignatureResult> {
-    const keyName = keyId || this.config.azureKeyName || 'datacendia-signing-key';
+  private async signWithAzureKeyVault(data: Buffer, _keyId: string | undefined, timestamp: Date): Promise<SignatureResult> {
     
     // Azure Key Vault requires OAuth token
     // Azure Key Vault integration via @azure/keyvault-keys when configured
@@ -527,7 +526,7 @@ export class KeyManagementService {
     }
   }
 
-  private async verifyWithAzureKeyVault(data: Buffer, signature: string, keyId?: string): Promise<boolean> {
+  private async verifyWithAzureKeyVault(data: Buffer, signature: string, _keyId?: string): Promise<boolean> {
     logger.warn('Azure Key Vault verify requires @azure/keyvault-keys - falling back to local');
     return this.verifyWithLocalKey(data, signature, 'default');
   }
@@ -644,7 +643,7 @@ export class KeyManagementService {
     }
   }
 
-  private async encryptWithAzureKeyVault(data: Buffer, keyId?: string): Promise<EncryptionResult> {
+  private async encryptWithAzureKeyVault(data: Buffer, _keyId?: string): Promise<EncryptionResult> {
     logger.warn('Azure Key Vault encrypt requires @azure/keyvault-keys - falling back to local');
     return this.encryptWithLocalKey(data, 'default');
   }
@@ -786,7 +785,7 @@ export class KeyManagementService {
     }
   }
 
-  private async decryptWithAzureKeyVault(ciphertext: string, keyId?: string): Promise<DecryptionResult> {
+  private async decryptWithAzureKeyVault(ciphertext: string, _keyId?: string): Promise<DecryptionResult> {
     logger.warn('Azure Key Vault decrypt requires @azure/keyvault-keys - falling back to local');
     return this.decryptWithLocalKey(ciphertext, 'default');
   }
@@ -881,7 +880,7 @@ export class KeyManagementService {
     }
   }
 
-  private async createLocalKey(keyId: string, options?: { algorithm?: string }): Promise<KeyMetadata> {
+  private async createLocalKey(keyId: string, _options?: { algorithm?: string }): Promise<KeyMetadata> {
     const keyPath = path.join(this.localKeyDir, keyId);
     const publicKeyPath = `${keyPath}.pub`;
     const privateKeyPath = `${keyPath}.pem`;

@@ -25,7 +25,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
-import { persistServiceRecord, loadServiceRecords } from '../../../utils/servicePersistence.js';
+import { persistServiceRecord } from '../../../utils/servicePersistence.js';
 import {
   DataConnector,
   DataSource,
@@ -55,7 +55,7 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
-import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './HealthcareComplianceExpanded.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS } from './HealthcareComplianceExpanded.js';
 import {
   SurgeryAuthorizationDecision,
   ImagingOrderDecision,

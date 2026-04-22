@@ -25,7 +25,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
-  DataConnector, DataSource, IngestResult, ProvenanceRecord,
+  DataConnector, IngestResult, ProvenanceRecord,
   VerticalKnowledgeBase, KnowledgeDocument, RetrievalResult,
   ComplianceMapper, ComplianceFramework, ComplianceControl, ComplianceViolation, ComplianceEvidence,
   DecisionSchema, BaseDecision, ValidationResult, DefensibleArtifact,
@@ -206,7 +206,7 @@ export class MediaComplianceMapper extends ComplianceMapper {
     return fw.controls.filter(c => ids.includes(c.id));
   }
 
-  async checkViolation(decision: MediaDecision, frameworkId: string): Promise<ComplianceViolation[]> {
+  async checkViolation(decision: MediaDecision, _frameworkId: string): Promise<ComplianceViolation[]> {
     const violations: ComplianceViolation[] = [];
     if (decision.type === 'child-safety') {
       const cs = decision as ChildSafetyDecision;

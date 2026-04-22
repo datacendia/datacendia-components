@@ -52,7 +52,7 @@ import {
   VerticalImplementation,
   VerticalRegistry
 } from '../core/VerticalPattern.js';
-import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS, EXPANDED_JURISDICTION_MAP } from './EnergyComplianceExpanded.js';
+import { EXPANDED_COMPLIANCE_FRAMEWORKS, EXPANDED_COMPLIANCE_MAPPINGS } from './EnergyComplianceExpanded.js';
 import {
   GenerationDispatchDecision,
   OutagePlanningDecision,
@@ -64,12 +64,6 @@ import {
   AssetRetirementDecision,
   ExpandedEnergyDecision,
 } from './EnergyDecisionTypesExpanded.js';
-import {
-  GenerationDispatchSchema,
-  OutagePlanningSchema,
-  RenewableIntegrationSchema,
-  DemandResponseSchema,
-} from './EnergyDecisionSchemasExpanded.js';
 import { embeddingService } from '../../llm/EmbeddingService.js';
 import { logger } from '../../../utils/logger.js';
 

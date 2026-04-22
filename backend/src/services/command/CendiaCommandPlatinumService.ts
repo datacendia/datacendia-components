@@ -540,7 +540,7 @@ export class CendiaCommandPlatinumService {
     availableWorkflows: string[],
     intent: CommandIntent,
     primaryAgents: string[],
-    context: CommandContext
+    _context: CommandContext
   ): Promise<{ workflowId: string; deliberationId: string; contributions: AgentContribution[] }> {
     const workflowId = availableWorkflows[0] || 'default-workflow';
     const deliberationId = `delib-${uuidv4()}`;

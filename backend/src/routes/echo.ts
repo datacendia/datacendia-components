@@ -337,7 +337,7 @@ router.delete('/collections/:jobId', async (req: Request, res: Response, next: N
  * POST /api/v1/echo/collections/process
  * Manually trigger processing of due collection jobs
  */
-router.post('/collections/process', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/collections/process', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const result = await echoService.processDueCollections();
 

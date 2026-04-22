@@ -701,7 +701,7 @@ Provide analysis as JSON: {"cause": "likely cause", "severity": "HIGH|MEDIUM|LOW
     const gaps: Array<{ area: string; severity: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL'; description: string; recommendation: string }> = [];
 
     // Check successor coverage
-    const activatedSuccessors = successors.filter(s => s.activated);
+    void (successors.filter(s => s.activated));
     const pendingSuccessors = successors.filter(s => !s.activated);
 
     if (successors.length === 0) {

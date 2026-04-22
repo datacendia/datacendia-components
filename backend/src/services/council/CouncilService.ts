@@ -1003,7 +1003,7 @@ export class CouncilService extends EventEmitter {
     `, [deliberationId, challenger.id, target.id, challenge.targetResponseId, challengeResponse.id]);
   }
 
-  private async identifyRemainingChallenges(deliberationId: string): Promise<any[]> {
+  private async identifyRemainingChallenges(_deliberationId: string): Promise<any[]> {
     // For now, return empty - could be enhanced to continue challenging
     return [];
   }
@@ -1076,7 +1076,7 @@ export class CouncilService extends EventEmitter {
   // ===========================================================================
 
   private async runEthicsCheck(
-    deliberationId: string,
+    _deliberationId: string,
     synthesis: { synthesis: string; confidence: number }
   ): Promise<{ passed: boolean; concerns: string[] }> {
     const riskAgent = Array.from(this.agents.values()).find(a => a.code === 'risk');
@@ -1124,7 +1124,7 @@ export class CouncilService extends EventEmitter {
 
   private async retrieveRelevantMemories(
     agentIds: string[],
-    query: string
+    _query: string
   ): Promise<Map<string, AgentMemory[]>> {
     const memories = new Map<string, AgentMemory[]>();
 

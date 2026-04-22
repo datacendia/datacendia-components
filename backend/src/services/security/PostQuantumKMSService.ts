@@ -508,7 +508,7 @@ export class PostQuantumKMSService {
     pqAlgorithm: 'ML-DSA-65';
   }> {
     // Classical RSA-PSS signature
-    const { publicKey: rsaPub, privateKey: rsaPriv } = crypto.generateKeyPairSync('rsa', {
+    const { publicKey: _rsaPub, privateKey: rsaPriv } = crypto.generateKeyPairSync('rsa', {
       modulusLength: 4096,
       publicKeyEncoding: { type: 'spki', format: 'pem' },
       privateKeyEncoding: { type: 'pkcs8', format: 'pem' },

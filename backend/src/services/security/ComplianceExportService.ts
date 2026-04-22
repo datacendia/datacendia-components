@@ -349,7 +349,7 @@ class ComplianceGapScannerService {
       has_data_minimization: true,
     };
 
-    const frameworkCoverage = Object.entries(FRAMEWORKS).map(([key, fw]) => {
+    const frameworkCoverage = Object.entries(FRAMEWORKS).map(([_key, fw]) => {
       const met = fw.requirements.filter(r => checkResults[r.check] === true).length;
       return {
         framework: fw.name,
@@ -360,7 +360,7 @@ class ComplianceGapScannerService {
     });
 
     // Unmet framework requirements → findings
-    for (const [key, fw] of Object.entries(FRAMEWORKS)) {
+    for (const [_key, fw] of Object.entries(FRAMEWORKS)) {
       for (const req of fw.requirements) {
         if (!checkResults[req.check]) {
           findings.push({
@@ -501,7 +501,7 @@ class ComplianceGapScannerService {
     return Object.keys(FRAMEWORKS);
   }
 
-  async generateExport(organizationId: string, framework: string): Promise<GapScanReport> {
+  async generateExport(organizationId: string, _framework: string): Promise<GapScanReport> {
     return await this.runFullScan(organizationId);
   }
 

@@ -32,7 +32,7 @@
  */
 
 import { EventEmitter } from 'events';
-import { Readable, Writable } from 'stream';
+import { Readable } from 'stream';
 import crypto from 'crypto';
 
 // =============================================================================

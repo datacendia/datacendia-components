@@ -77,7 +77,7 @@ const iissAssessSchema = z.object({
   organizationName: z.string().optional(),
 });
 
-const iissDeliberationSchema = z.object({
+void (z.object({
   organizationId: z.string().min(1),
   deliberationId: z.string().min(1),
   deliberationTitle: z.string().optional(),
@@ -86,7 +86,7 @@ const iissDeliberationSchema = z.object({
   hasConsensus: z.boolean().optional(),
   hasDissent: z.boolean().optional(),
   evidenceCount: z.number().int().optional(),
-});
+}));
 
 const actionSchema = z.object({ action: z.string().min(1) });
 const justificationSchema = z.object({ justification: z.string().min(1) });
@@ -126,7 +126,7 @@ const compliancePacketSchema = z.object({
   packetType: z.string().optional(),
 });
 
-const timestampSchema = z.object({
+void (z.object({
   organizationId: z.string().min(1),
   data: z.string().min(1),
   description: z.string().optional(),
@@ -135,7 +135,7 @@ const timestampSchema = z.object({
   useExternal: z.boolean().optional(),
   useBlockchain: z.boolean().optional(),
   preferredTSA: z.string().optional(),
-});
+}));
 
 const batchTimestampSchema = z.object({
   organizationId: z.string().min(1),
@@ -144,7 +144,7 @@ const batchTimestampSchema = z.object({
   useBlockchain: z.boolean().optional(),
 });
 
-const similaritySearchSchema = z.object({
+void (z.object({
   organizationId: z.string().min(1),
   title: z.string().min(1),
   question: z.string().optional(),
@@ -154,7 +154,7 @@ const similaritySearchSchema = z.object({
   urgency: z.string().optional(),
   tags: z.array(z.string()).optional(),
   maxResults: z.number().int().min(1).max(50).optional(),
-});
+}));
 
 const outcomeSchema = z.object({
   outcome: z.string().min(1),

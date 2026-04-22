@@ -324,7 +324,6 @@ const DEFAULT_POLICIES: PolicyDefinition[] = [
     evaluator: (input: OPAInput): PolicyEvalResult => {
       const violations: PolicyViolation[] = [];
       const obligations: PolicyObligation[] = [];
-      const reasons: string[] = [];
 
       if (input.action !== 'delete' && input.action !== 'archive') {
         return { allow: true, violations, obligations, reasons: ['Retention check not applicable'] };

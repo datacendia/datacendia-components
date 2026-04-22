@@ -1,28 +1,6 @@
-/**
- * Connector — Web Socket Connector
- *
- * External system connector for third-party integrations.
- *
- * @exports WebSocketConnectorConfig, StreamMessage
- * @module connectors/core/WebSocketConnector
- */
 
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
-// See LICENSE file for details.
-
-/**
- * =============================================================================
- * WEBSOCKET CONNECTOR - Enterprise Real-Time Streaming
- * =============================================================================
- * Production-grade WebSocket connector for real-time data feeds with
- * automatic reconnection, heartbeat, and message queuing.
- */
-
-import { EventEmitter } from 'events';
 import WebSocket from 'ws';
-import { BaseConnector, ConnectorConfig, ConnectorMetadata, ConnectorStatus } from '../BaseConnector.js';
-import { logger } from '../../utils/logger.js';
+import { BaseConnector, ConnectorConfig,  } from '../BaseConnector.js';
 
 // =============================================================================
 // TYPES

@@ -171,53 +171,6 @@ export interface BridgeConfig {
 }
 
 // =============================================================================
-// QR ENCODING HELPERS
-// =============================================================================
-
-const ALPHANUMERIC_CHARS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-./:';
-
-function toBase45(data: Buffer): string {
-  // Base45 encoding for efficient QR alphanumeric mode
-  const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-./:';
-  let result = '';
-  
-  for (let i = 0; i < data.length; i += 2) {
-    if (i + 1 < data.length) {
-      const val = data[i] * 256 + data[i + 1];
-      result += chars[Math.floor(val / (45 * 45))];
-      result += chars[Math.floor((val % (45 * 45)) / 45)];
-      result += chars[val % 45];
-    } else {
-      const val = data[i];
-      result += chars[Math.floor(val / 45)];
-      result += chars[val % 45];
-    }
-  }
-  
-  return result;
-}
-
-function fromBase45(str: string): Buffer {
-  const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ $%*+-./:';
-  const bytes: number[] = [];
-  
-  for (let i = 0; i < str.length; i += 3) {
-    if (i + 2 < str.length) {
-      const val = chars.indexOf(str[i]) * 45 * 45 +
-                  chars.indexOf(str[i + 1]) * 45 +
-                  chars.indexOf(str[i + 2]);
-      bytes.push(Math.floor(val / 256));
-      bytes.push(val % 256);
-    } else if (i + 1 < str.length) {
-      const val = chars.indexOf(str[i]) * 45 + chars.indexOf(str[i + 1]);
-      bytes.push(val);
-    }
-  }
-  
-  return Buffer.from(bytes);
-}
-
-// =============================================================================
 // QR AIR-GAP BRIDGE SERVICE
 // =============================================================================
 
@@ -760,7 +713,7 @@ class QRAirGapBridgeService extends EventEmitter {
       }
     }
     
-    for (const [id, session] of this.captureSessions) {
+    for (const [_id, session] of this.captureSessions) {
       if (session.timeoutAt < now && session.status === 'scanning') {
         session.status = 'timeout';
         this.emit('capture:timeout', session);

@@ -40,22 +40,22 @@ import { cendiaCommandService, VerticalId, CommandContext } from '../services/co
 import { cendiaCommandPlatinumService } from '../services/command/CendiaCommandPlatinumService';
 
 
-const schema_4 = z.object({
+void (z.object({
   command: z.any(),
   context: z.any(),
-}).passthrough();
-const schema_5 = z.object({
+}).passthrough());
+void (z.object({
   command: z.any(),
   context: z.any(),
-}).passthrough();
-const schema_6 = z.object({
+}).passthrough());
+void (z.object({
   partialCommand: z.any(),
   context: z.any(),
-}).passthrough();
-const schema_7 = z.object({
+}).passthrough());
+void (z.object({
   command: z.any(),
   context: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

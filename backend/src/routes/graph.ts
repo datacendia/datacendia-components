@@ -17,7 +17,6 @@ import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 import crypto from 'crypto';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 
@@ -467,7 +466,7 @@ router.get('/search', async (req: Request, res: Response, next: NextFunction) =>
  * GET /api/v1/graph/stats
  * Get real-time knowledge graph statistics from Neo4j
  */
-router.get('/stats', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/stats', async (req: Request, res: Response, _next: NextFunction) => {
   try {
     const orgId = req.organizationId!;
     const dataSourceId = getSelectedDataSourceId(req);

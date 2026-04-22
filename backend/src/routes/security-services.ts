@@ -41,17 +41,17 @@ const schema_1 = z.object({
 import { Router, Request, Response } from 'express';
 import { immutableAuditLedger } from '../services/security/ImmutableAuditLedger.js';
 import { siemIntegration, SIEMConfig } from '../services/security/SIEMIntegration.js';
-import { complianceExportService, ComplianceFramework } from '../services/security/ComplianceExportService.js';
+import { complianceExportService } from '../services/security/ComplianceExportService.js';
 import { sbomGenerator } from '../services/security/SBOMGenerator.js';
 
 
-const schema_2 = z.object({
+void (z.object({
   organizationId: z.any(),
   startDate: z.any(),
   endDate: z.any(),
   exportedBy: z.any(),
-}).passthrough();
-const schema_3 = z.object({
+}).passthrough());
+void (z.object({
   organizationId: z.any(),
   framework: z.any(),
   startDate: z.any(),
@@ -59,7 +59,7 @@ const schema_3 = z.object({
   requestedBy: z.any(),
   includeRawLogs: z.any(),
   includeIntegrityProof: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 
@@ -286,7 +286,7 @@ router.get('/compliance/frameworks', (_req: Request, res: Response) => {
  */
 router.post('/compliance/export', async (req: Request, res: Response) => {
   try {
-    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs, includeIntegrityProof } = schema_1.parse(req.body);
+    const { organizationId, framework, startDate, endDate, requestedBy, includeRawLogs: _includeRawLogs, includeIntegrityProof: _includeIntegrityProof } = schema_1.parse(req.body);
 
     if (!organizationId || !framework || !startDate || !endDate || !requestedBy) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -354,7 +354,7 @@ router.get('/sbom', async (req: Request, res: Response) => {
  * GET /api/security/sbom/summary
  * Get SBOM summary (without full export)
  */
-router.get('/sbom/summary', async (req: Request, res: Response) => {
+router.get('/sbom/summary', async (_req: Request, res: Response) => {
   try {
     const sbom = await sbomGenerator.generatePlatformSBOM('cyclonedx');
     const licenseSummary = sbomGenerator.getLicenseSummary(sbom);

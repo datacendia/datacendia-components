@@ -18,7 +18,7 @@
  * Covers specialty lines, reinsurance, and international frameworks.
  */
 
-import { ComplianceFramework, ComplianceControl } from '../core/VerticalPattern.js';
+import { ComplianceFramework } from '../core/VerticalPattern.js';
 
 export const EXPANDED_INSURANCE_COMPLIANCE_FRAMEWORKS: ComplianceFramework[] = [
   {

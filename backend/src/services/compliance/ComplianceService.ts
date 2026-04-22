@@ -470,7 +470,7 @@ export class ComplianceService {
     };
   }
 
-  private iso42001Checklist(assessments: ComplianceAssessment[]) {
+  private iso42001Checklist(_assessments: ComplianceAssessment[]) {
     return {
       framework: 'ISO/IEC 42001', version: '2023', generatedAt: new Date().toISOString(),
       clauses: {
@@ -498,7 +498,7 @@ export class ComplianceService {
     };
   }
 
-  private nist80053Report(assessments: ComplianceAssessment[]) {
+  private nist80053Report(_assessments: ComplianceAssessment[]) {
     return {
       framework: 'NIST SP 800-53 Rev 5', generatedAt: new Date().toISOString(),
       controlFamilies: {
@@ -514,7 +514,7 @@ export class ComplianceService {
     };
   }
 
-  private soc2Logs(orgId: string): string[][] {
+  private soc2Logs(_orgId: string): string[][] {
     const headers = ['Timestamp', 'Category', 'Control', 'Event', 'User', 'Status'];
     const rows = [headers];
     const events = [
@@ -576,7 +576,7 @@ export class ComplianceService {
     };
   }
 
-  private iso27701Report(assessments: ComplianceAssessment[]) {
+  private iso27701Report(_assessments: ComplianceAssessment[]) {
     return {
       framework: 'ISO 27701', version: '2019', generatedAt: new Date().toISOString(),
       pimControls: { implemented: 42, total: 49, score: 86 },
@@ -599,7 +599,7 @@ export class ComplianceService {
     };
   }
 
-  private cobitMapping(assessments: ComplianceAssessment[]) {
+  private cobitMapping(_assessments: ComplianceAssessment[]) {
     return {
       framework: 'COBIT 2019', generatedAt: new Date().toISOString(),
       domains: {
@@ -640,7 +640,7 @@ export class ComplianceService {
     };
   }
 
-  private soxControls(assessments: ComplianceAssessment[]) {
+  private soxControls(_assessments: ComplianceAssessment[]) {
     return {
       framework: 'SOX', generatedAt: new Date().toISOString(),
       sections: {
@@ -663,7 +663,7 @@ export class ComplianceService {
     };
   }
 
-  private fedrampReport(assessments: ComplianceAssessment[]) {
+  private fedrampReport(_assessments: ComplianceAssessment[]) {
     return {
       framework: 'FedRAMP', generatedAt: new Date().toISOString(),
       impactLevel: 'Moderate',

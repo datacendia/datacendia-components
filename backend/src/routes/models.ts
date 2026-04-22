@@ -22,13 +22,10 @@ import { config } from '../config/index.js';
 import {
   MODEL_REGISTRY,
   AGENT_CONFIG,
-  getAllModels,
-  getAllAgents,
   getModelForAgent,
   setUserModelPreferences,
   getUserModelPreferences,
-  type ModelConfig,
-  type UserModelPreferences,
+  
 } from '../config/models.js';
 import { aiModelSelector, LICENSE_TIERS, type LicenseTier } from '../config/aiModels.js';
 import { logger } from '../utils/logger.js';
@@ -40,7 +37,7 @@ const router = Router();
 // GET /api/v1/models - List all available models
 // =============================================================================
 
-router.get('/', async (req: Request, res: Response) => {
+router.get('/', async (_req: Request, res: Response) => {
   try {
     // Get installed models from Ollama
     const ollamaResponse = await fetch(`${config.ollamaBaseUrl}/api/tags`);
@@ -76,7 +73,7 @@ router.get('/', async (req: Request, res: Response) => {
 // GET /api/v1/models/agents - List all agents and their model assignments
 // =============================================================================
 
-router.get('/agents', async (req: Request, res: Response) => {
+router.get('/agents', async (_req: Request, res: Response) => {
   try {
     const agents = Object.entries(AGENT_CONFIG).map(([key, agent]) => ({
       id: key,
@@ -101,7 +98,7 @@ router.get('/agents', async (req: Request, res: Response) => {
 // GET /api/v1/models/status - Check Ollama status and model availability
 // =============================================================================
 
-router.get('/status', async (req: Request, res: Response) => {
+router.get('/status', async (_req: Request, res: Response) => {
   try {
     // Check Ollama health
     const healthCheck = await fetch(`${config.ollamaBaseUrl}/api/tags`).catch(() => null);
@@ -198,7 +195,7 @@ router.post('/pull', async (req: Request, res: Response) => {
 // GET /api/v1/models/preferences - Get user model preferences
 // =============================================================================
 
-router.get('/preferences', async (req: Request, res: Response) => {
+router.get('/preferences', async (_req: Request, res: Response) => {
   try {
     const preferences = getUserModelPreferences();
     res.json({

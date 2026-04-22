@@ -38,10 +38,10 @@ import { federatedMeshService } from '../services/sovereign/FederatedMeshService
 import { portableInstanceService } from '../services/sovereign/PortableInstanceService.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   shadowDeliberationId: z.any(),
   officialDeliberationId: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

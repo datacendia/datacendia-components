@@ -62,7 +62,7 @@ export class SystemicRiskAgent extends BaseCollapseAgent {
   }
 
   async analyze(params: AgentAnalysisParams): Promise<SystemicRiskOutput> {
-    const { context, seed, stressMultiplier } = params;
+    const { context: _context, seed, stressMultiplier } = params;
     this.initRng(seed);
 
     const failureConditions = [];

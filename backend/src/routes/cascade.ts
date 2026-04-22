@@ -792,7 +792,7 @@ router.post('/graph/load', (req: Request, res: Response) => {
  * Get graph statistics
  * GET /api/v1/cascade/graph/stats
  */
-router.get('/graph/stats', (req: Request, res: Response) => {
+router.get('/graph/stats', (_req: Request, res: Response) => {
   const stats = cascadeService.getGraphStats();
   res.json(stats);
 });
@@ -924,7 +924,7 @@ router.post('/orbit/run', async (req: Request, res: Response) => {
  * List orbit runs
  * GET /api/v1/cascade/orbit/runs
  */
-router.get('/orbit/runs', (req: Request, res: Response) => {
+router.get('/orbit/runs', (_req: Request, res: Response) => {
   const runs = orbitService.listRuns();
   
   res.json({
@@ -997,7 +997,7 @@ router.get('/types/edges', (_req: Request, res: Response) => {
  * Load sample organization graph for demos
  * POST /api/v1/cascade/demo/load-sample
  */
-router.post('/demo/load-sample', (req: Request, res: Response) => {
+router.post('/demo/load-sample', (_req: Request, res: Response) => {
   // Sample organization graph
   const sampleNodes = [
     { id: 'ceo', type: NodeType.PERSON, name: 'CEO', metadata: {}, weight: 1.0, sensitivity: 0.3 },

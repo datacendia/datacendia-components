@@ -43,7 +43,7 @@
 import crypto from 'crypto';
 import { logger } from '../utils/logger.js';
 import { cendiaRecallService } from './CendiaRecallService.js';
-import type { DecisionOutcome, DetectedBias, LessonLearned } from './CendiaRecallService.js';
+import type { DetectedBias, LessonLearned } from './CendiaRecallService.js';
 import { cascadeService } from './CendiaCascadeService.js';
 import type { ChangeSpec, ChangeType, CascadeReport, ConsequenceAssessment } from './CendiaCascadeService.js';
 import { loadServiceRecords } from '../utils/servicePersistence.js';
@@ -690,7 +690,7 @@ class CendiaPredictService {
 
   private computeRecommendation(
     overallRisk: number,
-    confidence: number,
+    _confidence: number,
     cascadeRisk?: CascadeRiskSummary
   ): RiskRecommendation {
     // Factor in cascade analysis if available
@@ -1004,7 +1004,7 @@ class CendiaPredictService {
     category: RiskCategory,
     probability: number,
     evidenceCount: number,
-    request: DecisionRiskRequest
+    _request: DecisionRiskRequest
   ): string {
     const level = probability >= 50 ? 'elevated' : probability >= 25 ? 'moderate' : 'low';
     const evidenceQualifier = evidenceCount >= 5

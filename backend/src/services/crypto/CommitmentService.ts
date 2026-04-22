@@ -21,7 +21,7 @@
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
+import { sha256, bytesToHex, utf8ToBytes } from './nativeCrypto.js';
 
 // =============================================================================
 // TYPES

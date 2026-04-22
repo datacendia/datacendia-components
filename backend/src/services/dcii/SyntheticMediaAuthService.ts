@@ -475,7 +475,6 @@ class SyntheticMediaAuthService {
 
     // Check file size vs expected range for media type
     const isImage = asset.mediaType === 'image' || asset.mediaType === 'screenshot';
-    const isVideo = asset.mediaType === 'video';
     if (isImage && asset.sizeBytes > 0) {
       // Images under 50KB or over 50MB are suspicious
       if (asset.sizeBytes < 50000) {
@@ -758,7 +757,7 @@ class SyntheticMediaAuthService {
     return 'synthetic';
   }
 
-  private identifyRiskFactors(analyses: AnalysisResult[], asset: MediaAsset): RiskFactor[] {
+  private identifyRiskFactors(_analyses: AnalysisResult[], asset: MediaAsset): RiskFactor[] {
     const factors: RiskFactor[] = [];
     if (!asset.provenance.origin.hardwareAttestation?.verified) {
       factors.push({ category: 'Provenance', description: 'No hardware attestation — origin device unverified', severity: 'medium', mitigation: 'Enable TPM attestation on capture devices' });

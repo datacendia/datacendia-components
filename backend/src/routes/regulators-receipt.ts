@@ -30,20 +30,20 @@ const bodySchema0 = z.object({
 const bodySchema1 = z.object({
   receipt: z.any(),
 }).passthrough();
-const bodySchema2 = z.object({
+void (z.object({
   deliberationId: z.any(),
   generatedBy: z.any(),
   options: z.any(),
-}).passthrough();
-const bodySchema3 = z.object({
+}).passthrough());
+void (z.object({
   receipt: z.any(),
-}).passthrough();
-const bodySchema4 = z.object({
+}).passthrough());
+void (z.object({
   receipt: z.any(),
-}).passthrough();
-const bodySchema5 = z.object({
+}).passthrough());
+void (z.object({
   receipt: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

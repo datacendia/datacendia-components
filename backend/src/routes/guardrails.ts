@@ -40,11 +40,11 @@ const bodySchema3 = z.object({
   output: z.any(),
   context: z.any(),
 }).passthrough();
-const bodySchema4 = z.object({
+void (z.object({
   input: z.any(),
   output: z.any(),
   context: z.any(),
-}).passthrough();
+}).passthrough());
 const bodySchema5 = z.object({
   input: z.any(),
   output: z.any(),

@@ -720,9 +720,6 @@ Output JSON:
     // Trial conversion
     const trialing = subs.filter(s => s.status === 'trialing');
     const convertedEstimate = Math.round(trialing.length * 0.3);
-
-    // Upgrade/downgrade paths (simplified — tracks plan distribution patterns)
-    const planOrder = { standard: 1, professional: 2, enterprise: 3 };
     const allPaths: Array<{ from: string; to: string; count: number; direction: 'upgrade' | 'downgrade' }> = [
       { from: 'standard', to: 'professional', count: Math.round(subs.filter(s => s.plan === 'professional').length * 0.4), direction: 'upgrade' as const },
       { from: 'professional', to: 'enterprise', count: Math.round(subs.filter(s => s.plan === 'enterprise').length * 0.6), direction: 'upgrade' as const },

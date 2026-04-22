@@ -310,7 +310,7 @@ export class CendiaWitnessService {
     return hold;
   }
 
-  async releaseLegalHold(holdId: string, releasedBy: string): Promise<LegalHold | null> {
+  async releaseLegalHold(holdId: string, _releasedBy: string): Promise<LegalHold | null> {
     if (this.db) {
       const row = await this.db.legal_holds.update({
         where: { id: holdId },

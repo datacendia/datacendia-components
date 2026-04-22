@@ -37,9 +37,9 @@ const bodySchema1 = z.object({
 const bodySchema2 = z.object({
   reason: z.any(),
 }).passthrough();
-const bodySchema3 = z.object({
+void (z.object({
   reason: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 router.use(devAuth);

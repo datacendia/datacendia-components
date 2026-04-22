@@ -154,24 +154,24 @@ export class WebhookIngestAdapter extends SovereignAdapter {
     );
 
     // Health check
-    this.router.get('/health', (req, res) => {
+    this.router.get('/health', (_req, res) => {
       res.json(this.health);
     });
 
     // Dead letter queue management
-    this.router.get('/dead-letter', this.requireAdmin.bind(this), (req, res) => {
+    this.router.get('/dead-letter', this.requireAdmin.bind(this), (_req, res) => {
       res.json({
         count: this.deadLetterQueue.length,
         events: this.deadLetterQueue.slice(0, 100),
       });
     });
 
-    this.router.post('/dead-letter/retry', this.requireAdmin.bind(this), async (req, res) => {
+    this.router.post('/dead-letter/retry', this.requireAdmin.bind(this), async (_req, res) => {
       const results = await this.retryDeadLetterQueue();
       res.json(results);
     });
 
-    this.router.delete('/dead-letter', this.requireAdmin.bind(this), (req, res) => {
+    this.router.delete('/dead-letter', this.requireAdmin.bind(this), (_req, res) => {
       const count = this.deadLetterQueue.length;
       this.deadLetterQueue = [];
       res.json({ cleared: count });

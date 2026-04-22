@@ -18,7 +18,7 @@
  * US Federal, State, and International Government Data Sources
  */
 
-import { BaseConnector, ConnectorConfig, ConnectorMetadata } from '../BaseConnector.js';
+import { ConnectorMetadata } from '../BaseConnector.js';
 
 // =============================================================================
 // US FEDERAL AGENCIES

@@ -19,7 +19,7 @@ import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
+import { sha256, sha512, bytesToHex, hexToBytes,  } from './nativeCrypto.js';
 
 // =============================================================================
 // TYPES

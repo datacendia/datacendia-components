@@ -31,7 +31,6 @@ import {
   generateSCGEId,
   hashSCGEState,
 } from './types.js';
-import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // SEEDED RANDOM NUMBER GENERATOR

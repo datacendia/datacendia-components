@@ -848,7 +848,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
     id: string,
     template: typeof UNIVERSE_TEMPLATES[0],
     question: string,
-    context: string | undefined,
+    _context: string | undefined,
     horizonDays: number,
     index: number
   ): Universe {
@@ -935,7 +935,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
   /**
    * Get event templates based on bias
    */
-  private getEventTemplates(bias: string, question: string): Array<{
+  private getEventTemplates(bias: string, _question: string): Array<{
     title: string;
     description: string;
     type: TimelineEvent['type'];
@@ -1021,7 +1021,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
   /**
    * Generate cascade effect description
    */
-  private generateCascadeDescription(eventType?: string, index?: number): string {
+  private generateCascadeDescription(_eventType?: string, index?: number): string {
     const descriptions = [
       'Ripple effect on downstream processes',
       'Secondary impact on stakeholder confidence',
@@ -1064,7 +1064,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
   private generatePerspective(
     focus: string,
     eventType: TimelineEvent['type'],
-    impact: TimelineEvent['impact']
+    _impact: TimelineEvent['impact']
   ): string {
     const perspectives: Record<string, string[]> = {
       'strategic synthesis': [
@@ -1460,7 +1460,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
    * 10/10: Prediction Accuracy Tracker
    * Tracks how accurate past simulations were compared to actual outcomes.
    */
-  async getPredictionAccuracy(organizationId: string): Promise<{
+  async getPredictionAccuracy(_organizationId: string): Promise<{
     totalSimulations: number;
     verifiedSimulations: number;
     accuracyByHorizon: Array<{
@@ -1724,7 +1724,7 @@ class CendiaHorizonServiceClass extends EventEmitter {
    * 10/10: Strategic Foresight Dashboard
    * High-level overview of all simulations and their collective intelligence.
    */
-  async getStrategicForesightDashboard(organizationId: string): Promise<{
+  async getStrategicForesightDashboard(_organizationId: string): Promise<{
     totalSimulations: number;
     activeSimulations: number;
     avgConfidence: number;

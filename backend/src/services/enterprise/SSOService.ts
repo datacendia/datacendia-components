@@ -348,7 +348,7 @@ export class SSOService {
    * Exchange authorization code for tokens (with PKCE validation).
    * In production, this would make an HTTP POST to the token endpoint.
    */
-  async exchangeOIDCCode(idpId: string, code: string, codeVerifier: string): Promise<OIDCTokenSet> {
+  async exchangeOIDCCode(idpId: string, _code: string, codeVerifier: string): Promise<OIDCTokenSet> {
     const idp = this.idps.get(idpId);
     if (!idp || idp.protocol !== 'oidc') throw new Error(`OIDC IdP not found: ${idpId}`);
 

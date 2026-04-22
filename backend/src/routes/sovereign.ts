@@ -250,7 +250,7 @@ router.post('/druid/ingest', async (req: Request, res: Response) => {
 /**
  * Check analytics backends health (Druid + ClickHouse)
  */
-router.get('/druid/health', async (req: Request, res: Response) => {
+router.get('/druid/health', async (_req: Request, res: Response) => {
   try {
     const status = analyticsRouter.getStatus();
     res.json({ 
@@ -354,7 +354,7 @@ router.get('/storage/stats/:bucket', async (req: Request, res: Response) => {
 /**
  * Check MinIO health
  */
-router.get('/storage/health', async (req: Request, res: Response) => {
+router.get('/storage/health', async (_req: Request, res: Response) => {
   try {
     await minioService.initialize();
     res.json({ success: true, available: true });
@@ -648,7 +648,7 @@ router.post('/vector/agent-memory/recall', async (req: Request, res: Response) =
 /**
  * Check Vector service health
  */
-router.get('/vector/health', async (req: Request, res: Response) => {
+router.get('/vector/health', async (_req: Request, res: Response) => {
   try {
     await vectorService.initialize();
     res.json({ success: true, available: true });
@@ -692,7 +692,7 @@ router.post('/queue/deliberation', async (req: Request, res: Response) => {
  */
 router.post('/queue/document', async (req: Request, res: Response) => {
   try {
-    const { documentId, fileName, fileType, storageUrl, extractText, generateEmbeddings } = docProcessSchema.parse(req.body);
+    const { documentId, fileName: _fileName, fileType, storageUrl, extractText, generateEmbeddings } = docProcessSchema.parse(req.body);
     const orgId = req.organizationId! || DEFAULT_ORG;
     
     const job = await agentQueueService.addDocumentProcessing({
@@ -714,7 +714,7 @@ router.post('/queue/document', async (req: Request, res: Response) => {
 /**
  * Get queue statistics
  */
-router.get('/queue/stats', async (req: Request, res: Response) => {
+router.get('/queue/stats', async (_req: Request, res: Response) => {
   try {
     const stats = await agentQueueService.getAllQueueStats();
     res.json({ success: true, data: stats });
@@ -745,7 +745,7 @@ router.get('/queue/job/:jobId', async (req: Request, res: Response) => {
 /**
  * Check Queue service health
  */
-router.get('/queue/health', async (req: Request, res: Response) => {
+router.get('/queue/health', async (_req: Request, res: Response) => {
   try {
     await agentQueueService.initialize();
     res.json({ success: true, available: true });
@@ -815,7 +815,7 @@ router.get('/prometheus/metric/:name', async (req: Request, res: Response) => {
 /**
  * Check Prometheus health
  */
-router.get('/prometheus/health', async (req: Request, res: Response) => {
+router.get('/prometheus/health', async (_req: Request, res: Response) => {
   try {
     const prometheusUrl = process.env.PROMETHEUS_URL || 'http://localhost:9090';
     const response = await fetch(`${prometheusUrl}/-/healthy`);
@@ -837,7 +837,7 @@ interface N8nResponse {
 /**
  * Get n8n workflows
  */
-router.get('/n8n/workflows', async (req: Request, res: Response) => {
+router.get('/n8n/workflows', async (_req: Request, res: Response) => {
   try {
     const n8nUrl = process.env.N8N_URL || 'http://localhost:5678';
     const response = await fetch(`${n8nUrl}/api/v1/workflows`, {
@@ -891,7 +891,7 @@ router.post('/n8n/trigger/:workflowId', async (req: Request, res: Response) => {
 /**
  * Check n8n health
  */
-router.get('/n8n/health', async (req: Request, res: Response) => {
+router.get('/n8n/health', async (_req: Request, res: Response) => {
   try {
     const n8nUrl = process.env.N8N_URL || 'http://localhost:5678';
     const response = await fetch(`${n8nUrl}/healthz`);
@@ -917,7 +917,7 @@ interface UnleashFeatureResponse {
 /**
  * Get all feature flags
  */
-router.get('/unleash/features', async (req: Request, res: Response) => {
+router.get('/unleash/features', async (_req: Request, res: Response) => {
   try {
     const unleashUrl = process.env.UNLEASH_URL || 'http://localhost:4242';
     const response = await fetch(`${unleashUrl}/api/client/features`, {
@@ -967,7 +967,7 @@ router.get('/unleash/feature/:name', async (req: Request, res: Response) => {
 /**
  * Check Unleash health
  */
-router.get('/unleash/health', async (req: Request, res: Response) => {
+router.get('/unleash/health', async (_req: Request, res: Response) => {
   try {
     const unleashUrl = process.env.UNLEASH_URL || 'http://localhost:4242';
     const response = await fetch(`${unleashUrl}/health`);
@@ -985,7 +985,7 @@ router.get('/unleash/health', async (req: Request, res: Response) => {
 /**
  * Get health status of all sovereign services
  */
-router.get('/health', async (req: Request, res: Response) => {
+router.get('/health', async (_req: Request, res: Response) => {
   const services: Record<string, { available: boolean; latency?: number }> = {};
   
   const checkService = async (name: string, checkFn: () => Promise<boolean>) => {

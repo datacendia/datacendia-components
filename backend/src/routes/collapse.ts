@@ -1,5 +1,4 @@
 import { logger } from '../utils/logger.js';
-import { z } from 'zod';
 /**
  * API Routes — Collapse
  *
@@ -21,7 +20,7 @@ import { z } from 'zod';
 import { Router, Request, Response } from 'express';
 import { collapseOrchestrator } from '../services/collapse/index.js';
 import { PolicyContext } from '../services/collapse/agents/BaseCollapseAgent.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
+import { deterministicInt,  } from '../utils/deterministic.js';
 
 const router = Router();
 

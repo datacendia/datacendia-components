@@ -446,7 +446,7 @@ export function getFrameworksByRegion(region: ComplianceFramework['region']): Co
 }
 
 export function getRequiredDocumentationForTransaction(
-  transactionType: 'transfer' | 'contract' | 'commercial' | 'youth',
+  _transactionType: 'transfer' | 'contract' | 'commercial' | 'youth',
   frameworkIds: string[]
 ): DocumentationRequirement[] {
   const docs: DocumentationRequirement[] = [];

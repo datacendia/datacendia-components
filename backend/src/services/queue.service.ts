@@ -203,7 +203,7 @@ class QueueService extends EventEmitter {
    * Cancel a pending job
    */
   async cancelJob(jobId: string): Promise<boolean> {
-    for (const [type, queue] of this.queues.entries()) {
+    for (const [_type, queue] of this.queues.entries()) {
       const index = queue.findIndex(j => j.id === jobId);
       if (index !== -1) {
         const job = queue[index];

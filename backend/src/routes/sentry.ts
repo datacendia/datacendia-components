@@ -47,7 +47,7 @@ const bodySchema3 = z.object({
   reason: z.any(),
   correctedBy: z.any(),
 }).passthrough();
-const bodySchema4 = z.object({
+void (z.object({
   userId: z.any(),
   inputType: z.any(),
   input: z.any(),
@@ -55,7 +55,7 @@ const bodySchema4 = z.object({
   agentId: z.any(),
   modelUsed: z.any(),
   context: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

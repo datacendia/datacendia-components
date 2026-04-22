@@ -20,7 +20,6 @@
  */
 
 import { HttpConnector, HttpConnectorConfig } from './HttpConnector.js';
-import { ConnectorMetadata } from '../BaseConnector.js';
 import crypto from 'crypto';
 
 // =============================================================================

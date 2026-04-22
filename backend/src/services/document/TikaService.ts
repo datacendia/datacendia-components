@@ -1,26 +1,4 @@
-/**
- * Service — Tika Service
- *
- * Business logic service implementing platform capabilities.
- *
- * @exports SUPPORTED_FORMATS, tikaService, ExtractedDocument, DocumentMetadata
- * @module services/document/TikaService
- */
 
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
-// See LICENSE file for details.
-
-// =============================================================================
-// APACHE TIKA SERVICE - Universal Document Extraction
-// =============================================================================
-// Extracts text and metadata from any enterprise document format:
-// PDF, DOCX, PPTX, XLSX, MSG, EML, RTF, HTML, XML, and 1000+ more
-// Powers: CendiaGnosis Instant Ingest feature
-// =============================================================================
-
-// Native fetch (Node 20+) — no node-fetch dependency needed
-import FormData from 'form-data';
 import { getErrorMessage } from '../../utils/errors.js';
 
 import { logger } from '../../utils/logger.js';
@@ -115,7 +93,7 @@ class TikaService {
   async extractText(
     buffer: Buffer,
     mimeType?: string,
-    fileName?: string
+    _fileName?: string
   ): Promise<ExtractedDocument> {
     if (!this.isAvailable) {
       await this.checkAvailability();

@@ -391,7 +391,7 @@ Output JSON:
     return tickets.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
   }
 
-  resolveTicket(ticketId: string, resolution: string): void {
+  resolveTicket(ticketId: string, _resolution: string): void {
     const ticket = this.tickets.get(ticketId);
     if (ticket) {
       ticket.status = 'resolved';

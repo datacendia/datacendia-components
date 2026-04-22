@@ -25,7 +25,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import {
-  DataConnector, DataSource, IngestResult, ProvenanceRecord,
+  DataConnector, IngestResult, ProvenanceRecord,
   VerticalKnowledgeBase, KnowledgeDocument, RetrievalResult,
   ComplianceMapper, ComplianceFramework, ComplianceControl, ComplianceViolation, ComplianceEvidence,
   DecisionSchema, BaseDecision, ValidationResult, DefensibleArtifact,
@@ -432,7 +432,7 @@ export class VehicleSafetyGovernancePreset extends AgentPreset {
     { id: 'step-1', name: 'Safety Review', agentId: 'safety-reviewer', requiredInputs: ['safetyData'], expectedOutputs: ['safetyAssessment'], guardrails: [this.guardrails[0]!], timeout: 120000 }
   ];
   async loadWorkflow(): Promise<WorkflowStep[]> { return this.workflow; }
-  async enforceGuardrails(step: WorkflowStep, input: unknown): Promise<{ allowed: boolean; blockedBy?: string }> { return { allowed: true }; }
+  async enforceGuardrails(_step: WorkflowStep, _input: unknown): Promise<{ allowed: boolean; blockedBy?: string }> { return { allowed: true }; }
   trace(stepId: string, agentId: string, inputs: Record<string, unknown>): AgentTrace { const t: AgentTrace = { stepId, agentId, startedAt: new Date(), completedAt: null, inputs, outputs: null, guardrailsTriggered: [], status: 'running' }; this.traces.push(t); return t; }
 }
 

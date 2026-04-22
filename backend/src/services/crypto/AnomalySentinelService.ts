@@ -32,7 +32,6 @@
 import { EventEmitter } from 'events';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
 
 // =============================================================================
 // TYPES
@@ -294,7 +293,7 @@ export class AnomalySentinelService extends EventEmitter {
     return [];
   }
 
-  private detectConsensusCollapse(event: DeliberationEvent, state: typeof this.monitoring extends Map<string, infer V> ? V : never): Anomaly[] {
+  private detectConsensusCollapse(event: DeliberationEvent, _state: typeof this.monitoring extends Map<string, infer V> ? V : never): Anomaly[] {
     if (event.eventType !== 'confidence_update' && event.eventType !== 'decision') return [];
     if (event.confidence == null) return [];
 
@@ -317,7 +316,7 @@ export class AnomalySentinelService extends EventEmitter {
     return [];
   }
 
-  private detectResponseAnomaly(event: DeliberationEvent, state: typeof this.monitoring extends Map<string, infer V> ? V : never): Anomaly[] {
+  private detectResponseAnomaly(event: DeliberationEvent, _state: typeof this.monitoring extends Map<string, infer V> ? V : never): Anomaly[] {
     if (event.eventType !== 'agent_response') return [];
 
     const anomalies: Anomaly[] = [];

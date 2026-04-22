@@ -37,20 +37,20 @@ import { Router, Request, Response } from 'express';
 import { continuousComplianceMonitorService, ComplianceFramework, AlertStatus } from '../services/compliance/ContinuousComplianceMonitorService.js';
 
 
-const schema_4 = z.object({
+void (z.object({
   organizationId: z.any(),
   framework: z.any(),
-}).passthrough();
-const schema_5 = z.object({
+}).passthrough());
+void (z.object({
   organizationId: z.any(),
   framework: z.any(),
-}).passthrough();
-const schema_6 = z.object({
+}).passthrough());
+void (z.object({
   assignedTo: z.any(),
-}).passthrough();
-const schema_7 = z.object({
+}).passthrough());
+void (z.object({
   resolution: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

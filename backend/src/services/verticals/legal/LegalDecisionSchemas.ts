@@ -27,11 +27,7 @@ import {
   EDiscoveryProductionDecision,
   RegulatoryResponseDecision,
   MADueDiligenceDecision,
-  EmploymentDisputeDecision,
-  IPProtectionDecision,
-  DataPrivacyComplianceDecision,
-  ConflictCheckDecision,
-  ExpertEngagementDecision,
+  ConflictCheckDecision
 } from './LegalDecisionTypes.js';
 
 export class ContractReviewSchema extends DecisionSchema<ContractReviewDecision> {

@@ -193,7 +193,7 @@ class SystemHealthService {
     const start = Date.now();
     try {
       // Real Redis check — attempt connection to Redis
-      const response = await fetch('http://localhost:6379', { signal: AbortSignal.timeout(2000) }).catch(() => null);
+      void (await fetch('http://localhost:6379', { signal: AbortSignal.timeout(2000) }).catch(() => null));
       const latency = Date.now() - start;
       return {
         name: 'Redis Cache',

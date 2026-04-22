@@ -22,7 +22,6 @@
  */
 
 import { EnhancedLLMService } from './EnhancedLLMService.js';
-import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 
 interface TimelineEvent {
@@ -82,7 +81,7 @@ class ChronosAIService {
    * Analyzes events to identify critical decision points
    */
   async detectPivotalMoments(
-    organizationId: string,
+    _organizationId: string,
     events: TimelineEvent[],
     limit: number = 5
   ): Promise<PivotalMoment[]> {
@@ -142,7 +141,7 @@ Focus on events that had cascading effects, changed strategic direction, or repr
    * Traces cause-effect relationships between events
    */
   async analyzeCausalChain(
-    organizationId: string,
+    _organizationId: string,
     rootEvent: TimelineEvent,
     allEvents: TimelineEvent[]
   ): Promise<CausalLink[]> {
@@ -203,7 +202,7 @@ Only include links where there's a plausible causal relationship. Be conservativ
    * Creates realistic future scenarios based on current trends
    */
   async generateFutureScenarios(
-    organizationId: string,
+    _organizationId: string,
     currentMetrics: Record<string, number>,
     recentEvents: TimelineEvent[],
     timeHorizon: string = '12 months'
@@ -262,7 +261,7 @@ Respond in JSON:
    * Summarizes what happened during a specific period
    */
   async getTimelineInsight(
-    organizationId: string,
+    _organizationId: string,
     startDate: Date,
     endDate: Date,
     events: TimelineEvent[],
@@ -319,7 +318,7 @@ Provide a comprehensive analysis in JSON:
    * Analyzes alternate outcomes if a decision had been different
    */
   async analyzeWhatIf(
-    organizationId: string,
+    _organizationId: string,
     event: TimelineEvent,
     alternativeAction: string
   ): Promise<{ analysis: string; projectedOutcomes: Record<string, any>; confidence: number }> {

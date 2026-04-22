@@ -18,7 +18,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
+import { deterministicFloat, deterministicInt,  } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -276,7 +276,7 @@ export class LiveDemoModeService extends BaseService {
   // ---------------------------------------------------------------------------
 
   async createSession(
-    userId: string,
+    _userId: string,
     connector: DemoConnectorType,
     tier: SubscriptionTier
   ): Promise<DemoSession> {
@@ -309,7 +309,7 @@ export class LiveDemoModeService extends BaseService {
     return session;
   }
 
-  async connectSession(sessionId: string, authCode: string): Promise<DemoSession> {
+  async connectSession(sessionId: string, _authCode: string): Promise<DemoSession> {
     const session = this.activeSessions.get(sessionId);
     if (!session) {
       throw new Error('Session not found');
@@ -601,11 +601,11 @@ Respond in JSON:
   }
 
   private async generateSynthesis(
-    question: string,
+    _question: string,
     responses: AgentResponse[],
     highlights: RealDataHighlight[]
   ): Promise<string> {
-    const perspectives = responses.map(r => `${r.agentName}: ${r.perspective}`).join('\n');
+    void (responses.map(r => `${r.agentName}: ${r.perspective}`).join('\n'));
     const dataPoints = highlights.map(h => `${h.name}: ${h.value}`).join(', ');
 
     return `Based on analysis of your real ${highlights[0]?.source || 'data'} data:\n\n` +

@@ -14,7 +14,7 @@
 // Registers all platform features as monitored services
 // =============================================================================
 
-import { BaseService, ServiceConfig, ServiceHealth } from './BaseService.js';
+import { BaseService, ServiceHealth } from './BaseService.js';
 import { serviceRegistry } from './ServiceRegistry.js';
 import { prisma } from '../../config/database.js';
 import { redis } from '../../config/redis.js';

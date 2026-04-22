@@ -669,9 +669,9 @@ Respond as JSON:
     const stakeholders = await this.getStakeholders(organizationId);
     
     // Assess impacts
-    const impacts = await prisma.vox_impacts.findMany({
+    void (await prisma.vox_impacts.findMany({
       where: { decision_id: decisionId },
-    });
+    }));
 
     // Conduct votes
     const votes = await prisma.vox_votes.findMany({

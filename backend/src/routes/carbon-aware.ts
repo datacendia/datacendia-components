@@ -32,7 +32,7 @@ import { Router, Request, Response } from 'express';
 import { carbonAwareSchedulerService, WorkloadPriority, WorkloadStatus } from '../services/scheduling/CarbonAwareSchedulerService.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   name: z.any(),
   type: z.any(),
   priority: z.any(),
@@ -40,7 +40,7 @@ const schema_1 = z.object({
   estimatedEnergyWh: z.any(),
   preferredRegions: z.any(),
   maxDeferralHours: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

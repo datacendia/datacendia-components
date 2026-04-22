@@ -733,7 +733,7 @@ Respond with ONLY valid JSON:
    * Identify weaknesses from failed scenarios
    */
   private async identifyWeaknesses(
-    organizationId: string,
+    _organizationId: string,
     failures: AttackScenario[]
   ): Promise<WeaknessItem[]> {
     const weaknesses: WeaknessItem[] = [];
@@ -784,7 +784,7 @@ Respond with ONLY valid JSON:
    * Apply automatic patches to auto-fixable weaknesses
    */
   private async applyAutoPatches(
-    organizationId: string,
+    _organizationId: string,
     weaknesses: WeaknessItem[],
     config: ApotheosisConfig
   ): Promise<AutoPatch[]> {
@@ -819,7 +819,7 @@ Respond with ONLY valid JSON:
    * Create escalations for non-auto-fixable weaknesses
    */
   private async createEscalations(
-    organizationId: string,
+    _organizationId: string,
     weaknesses: WeaknessItem[],
     config: ApotheosisConfig
   ): Promise<Escalation[]> {
@@ -854,7 +854,7 @@ Respond with ONLY valid JSON:
    * Assign upskilling to humans who missed something
    */
   private async assignUpskilling(
-    organizationId: string,
+    _organizationId: string,
     weaknesses: WeaknessItem[],
     config: ApotheosisConfig
   ): Promise<UpskillAssignment[]> {
@@ -897,7 +897,7 @@ Respond with ONLY valid JSON:
    */
   private async identifyPatternBans(
     organizationId: string,
-    config: ApotheosisConfig
+    _config: ApotheosisConfig
   ): Promise<PatternBan[]> {
     const dbBans = await prisma.apotheosis_pattern_bans.findMany({
       where: { organization_id: organizationId, status: 'active' },

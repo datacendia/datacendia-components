@@ -12,7 +12,6 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
-import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
 import { sovereignMode } from '../services/sovereign/SovereignModeService.js';
 import crypto from 'crypto';
@@ -133,7 +132,7 @@ router.get('/trend', async (req: Request, res: Response, next: NextFunction) => 
  * GET /api/v1/health/systems/status
  * Get system status for all services
  */
-router.get('/systems/status', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/systems/status', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     // Check real system statuses
     const systems = await checkSystemStatuses();
@@ -161,13 +160,13 @@ async function calculateHealthScore(orgId: string) {
   const warningAlerts = alerts.filter(a => a.severity === 'WARNING').length;
 
   // Get recent metric values
-  const metricValues = await prisma.metric_values.findMany({
+  void (await prisma.metric_values.findMany({
     where: {
       metric_definitions: { organization_id: orgId },
       timestamp: { gte: weekAgo },
     },
     include: { metric_definitions: true },
-  });
+  }));
 
   // Get data sources status
   const dataSources = await prisma.data_sources.findMany({
@@ -266,7 +265,7 @@ async function calculateHealthScore(orgId: string) {
   return result;
 }
 
-async function calculateDimensionDetails(orgId: string) {
+async function calculateDimensionDetails(_orgId: string) {
   // This would calculate detailed breakdowns for each dimension
   return {
     data: {

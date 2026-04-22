@@ -46,7 +46,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -593,7 +593,7 @@ class TimeLockService extends EventEmitter {
       // Solve the time-lock puzzle
       const key = await TimeLockPuzzleGenerator.solve(
         vault.puzzle,
-        (pct, iteration) => {
+        (pct, _iteration) => {
           progress.progress = Math.round(pct);
           progress.estimatedTimeRemaining = 
             ((100 - pct) / pct) * (Date.now() - progress.startedAt!.getTime()) / 1000;

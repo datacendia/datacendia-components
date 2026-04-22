@@ -28,10 +28,10 @@ import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   query: z.any(),
   conversationHistory: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 
@@ -306,7 +306,7 @@ const PLATFORM_KNOWLEDGE = {
  */
 router.post('/query', async (req: Request, res: Response) => {
   try {
-    const { query, conversationHistory } = schema_0.parse(req.body);
+    const { query, conversationHistory: _conversationHistory } = schema_0.parse(req.body);
     const lowerQuery = (query || '').toLowerCase();
 
     // Match query to known workflows

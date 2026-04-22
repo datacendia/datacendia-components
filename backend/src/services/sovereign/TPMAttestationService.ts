@@ -25,7 +25,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../../utils/logger.js';
-import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
+import { persistServiceRecord } from '../../utils/servicePersistence.js';
 
 // =============================================================================
 // TYPES
@@ -229,7 +229,7 @@ class SoftwareTPM implements TPMInterface {
     return 'Datacendia Software TPM Simulator';
   }
   
-  async createKey(algorithm: string, keySize: number): Promise<{ handle: string; publicKey: string }> {
+  async createKey(_algorithm: string, keySize: number): Promise<{ handle: string; publicKey: string }> {
     const handle = `sw-key-${crypto.randomUUID().slice(0, 8)}`;
     
     const { publicKey, privateKey } = crypto.generateKeyPairSync('rsa', {

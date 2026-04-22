@@ -24,7 +24,6 @@ import { EventEmitter } from 'events';
 import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
-import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
 import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePersistence.js';
 
@@ -678,7 +677,7 @@ volumes:
   /**
    * Generate systemd service file
    */
-  private generateSystemdService(config: PortableInstanceConfig): string {
+  private generateSystemdService(_config: PortableInstanceConfig): string {
     return `[Unit]
 Description=Datacendia Sovereign Platform
 After=network.target docker.service

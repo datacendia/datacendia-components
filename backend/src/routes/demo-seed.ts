@@ -25,28 +25,9 @@ import { logger } from '../utils/logger.js';
  */
 
 import { Router, Request, Response } from 'express';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../utils/deterministic.js';
 
 const router = Router();
 import { prisma } from '../config/database.js';
-// =============================================================================
-// DEMO DATA DEFINITIONS
-// =============================================================================
-
-const DEMO_ORGANIZATION = {
-  id: 'demo-org-001',
-  name: 'Apex Industries (Demo)',
-  industry: 'Manufacturing',
-  employees: 12000,
-  isDemo: true
-};
-
-const DEMO_USERS = [
-  { id: 'demo-user-001', email: 'demo.ceo@datacendia.com', name: 'Michael Torres', role: 'CEO', isDemo: true },
-  { id: 'demo-user-002', email: 'demo.cfo@datacendia.com', name: 'Sarah Chen', role: 'CFO', isDemo: true },
-  { id: 'demo-user-003', email: 'demo.cio@datacendia.com', name: 'James Liu', role: 'CIO', isDemo: true },
-  { id: 'demo-user-004', email: 'demo.cro@datacendia.com', name: 'Patricia Williams', role: 'CRO', isDemo: true }
-];
 
 const DEMO_DELIBERATIONS = [
   {
@@ -960,7 +941,7 @@ router.post('/seed/:scenario', async (req: Request, res: Response) => {
  * DELETE /api/v1/demo/clear
  * Clear all demo data
  */
-router.delete('/clear', async (req: Request, res: Response) => {
+router.delete('/clear', async (_req: Request, res: Response) => {
   try {
     const results = {
       deliberations: 0,
@@ -1027,7 +1008,7 @@ router.delete('/clear', async (req: Request, res: Response) => {
  * GET /api/v1/demo/status
  * Check demo data status
  */
-router.get('/status', async (req: Request, res: Response) => {
+router.get('/status', async (_req: Request, res: Response) => {
   try {
     const status = {
       deliberations: 0,

@@ -14,20 +14,14 @@ import { z } from 'zod';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
 import crypto from 'crypto';
-import { cache, pubsub } from '../config/redis.js';
+import { pubsub } from '../config/redis.js';
 import { graph } from '../config/neo4j.js';
 import { ollama } from '../services/ollama.js';
-import { enhancedLLM, MODEL_CONFIGS } from '../services/EnhancedLLMService.js';
+import { enhancedLLM } from '../services/EnhancedLLMService.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 import { druidEventStream } from '../services/DruidEventStream.js';
-import { 
-  emitDeliberationMessage, 
-  emitDeliberationPhase, 
-  emitDeliberationComplete,
-  type DeliberationMessage 
-} from '../websocket/emitters.js';
 
 const router = Router();
 
@@ -477,50 +471,6 @@ const AGENT_MODELS: Record<string, string> = {
   regulatory: 'qwen3:32b',      // Regulatory affairs
 };
 
-// Fallback models if primary is unavailable
-const AGENT_MODEL_FALLBACKS: Record<string, string[]> = {
-  chief: ['qwen3:32b', 'llama3.2:3b'],
-  cfo: ['deepseek-r1:32b', 'llama3.2:3b'],
-  ciso: ['deepseek-r1:32b', 'llama3.2:3b'],
-  coo: ['qwen3:32b', 'deepseek-r1:32b'],
-  cmo: ['qwen3:32b', 'deepseek-r1:32b'],
-  cro: ['qwen3:32b', 'deepseek-r1:32b'],
-  cdo: ['qwen3:32b', 'deepseek-r1:32b'],
-  risk: ['deepseek-r1:32b', 'llama3.2:3b'],
-  cto: ['qwen3:32b', 'deepseek-r1:32b'],
-  chro: ['qwen3:32b', 'deepseek-r1:32b'],
-  // New agents
-  clo: ['deepseek-r1:32b', 'llama3.2:3b'],
-  cpo: ['qwen3:32b', 'deepseek-r1:32b'],
-  caio: ['qwen3:32b', 'llama3.2:3b'],
-  cso: ['qwen3:32b', 'deepseek-r1:32b'],
-  cio: ['deepseek-r1:32b', 'llama3.2:3b'],
-  cco: ['qwen3:32b', 'deepseek-r1:32b'],
-  // Core Council agents
-  analyst: ['deepseek-r1:32b', 'llama3.2:3b'],
-  arbiter: ['deepseek-r1:32b', 'llama3.2:3b'],
-  redteam: ['qwen3:32b', 'llama3.2:3b'],
-  union: ['qwen3:32b', 'deepseek-r1:32b'],
-  // Premium Auditor agents
-  'ext-auditor': ['deepseek-r1:32b', 'llama3.2:3b'],
-  'int-auditor': ['deepseek-r1:32b', 'llama3.2:3b'],
-  // Healthcare Industry Pack (Enterprise)
-  cmio: ['deepseek-r1:32b', 'llama3.2:3b'],
-  pso: ['deepseek-r1:32b', 'llama3.2:3b'],
-  hco: ['deepseek-r1:32b', 'llama3.2:3b'],
-  cod: ['qwen3:32b', 'deepseek-r1:32b'],
-  // Finance Industry Pack (Enterprise)
-  quant: ['qwen3:32b', 'llama3.2:3b'],
-  pm: ['deepseek-r1:32b', 'llama3.2:3b'],
-  'cro-finance': ['deepseek-r1:32b', 'llama3.2:3b'],
-  treasury: ['deepseek-r1:32b', 'llama3.2:3b'],
-  // Legal Industry Pack (Enterprise)
-  contracts: ['deepseek-r1:32b', 'llama3.2:3b'],
-  ip: ['deepseek-r1:32b', 'llama3.2:3b'],
-  litigation: ['deepseek-r1:32b', 'llama3.2:3b'],
-  regulatory: ['deepseek-r1:32b', 'llama3.2:3b'],
-};
-
 // Supported languages for Council responses
 const LANGUAGE_NAMES: Record<string, string> = {
   en: 'English',
@@ -610,7 +560,7 @@ router.get('/modes', async (_req: Request, res: Response, next: NextFunction) =>
  * GET /api/v1/council/agents
  * List all available AI agents
  */
-router.get('/agents', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/agents', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const agents = await prisma.agents.findMany({
       where: { is_active: true },
@@ -1748,7 +1698,6 @@ async function processDeliberation(
   question: string,
   orgId: string
 ) {
-  const phases = ['initial_analysis', 'cross_examination', 'synthesis', 'ethics_check'];
   
   try {
     // Get context
@@ -1902,7 +1851,7 @@ async function processDeliberation(
       finalRecommendation: allMessages.find(m => m.phase === 'synthesis')?.content?.substring(0, 200) || 'Synthesis completed',
       confidenceScore: 82,
       riskLevel: 'medium',
-      deliberationTimeMs: (() => { const d = prisma.deliberations.findUnique({ where: { id: deliberationId } }); return 60000; })(),
+      deliberationTimeMs: (() => { void (prisma.deliberations.findUnique({ where: { id: deliberationId } })); return 60000; })(),
       department: 'Executive',
       tags: ['council', 'deliberation'],
     });
@@ -1941,7 +1890,7 @@ async function processDeliberation(
 }
 
 // Helper: Generate follow-up questions
-function generateFollowUpQuestions(query: string, response: string): string[] {
+function generateFollowUpQuestions(_query: string, response: string): string[] {
   // Simple heuristic-based follow-up generation
   const questions: string[] = [];
   

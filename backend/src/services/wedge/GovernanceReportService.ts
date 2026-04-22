@@ -295,7 +295,7 @@ class GovernanceReportService {
       .filter(f => FRAMEWORKS[f])
       .map(f => {
         const fw = FRAMEWORKS[f];
-        const reqs = fw.requirements.map((r, i) => ({
+        const reqs = fw.requirements.map((r, _i) => ({
           id: r.id,
           requirement: r.requirement,
           status: r.checks(q),

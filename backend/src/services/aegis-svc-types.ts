@@ -68,20 +68,6 @@ export interface ThreatBriefing {
 }
 
 // =============================================================================
-// THREAT INTELLIGENCE FEEDS (Simulated sources for demo)
-// =============================================================================
-
-const THREAT_FEEDS = [
-  { source: 'CISA Alerts', type: 'CYBER' as SignalType, reliability: 0.95 },
-  { source: 'Reuters Geopolitical', type: 'GEOPOLITICAL' as SignalType, reliability: 0.9 },
-  { source: 'Supply Chain Monitor', type: 'SUPPLY_CHAIN' as SignalType, reliability: 0.85 },
-  { source: 'Financial Times Markets', type: 'FINANCIAL' as SignalType, reliability: 0.9 },
-  { source: 'Environmental Watch', type: 'ENVIRONMENTAL' as SignalType, reliability: 0.8 },
-  { source: 'Social Sentiment AI', type: 'SOCIAL' as SignalType, reliability: 0.75 },
-  { source: 'RegTech Scanner', type: 'REGULATORY' as SignalType, reliability: 0.88 },
-];
-
-// =============================================================================
 // SERVICE CLASS
 // =============================================================================
 

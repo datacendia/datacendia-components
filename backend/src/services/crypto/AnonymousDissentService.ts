@@ -30,7 +30,7 @@
 // Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
-import { ed25519, ristretto255, ristretto255_hasher } from '@noble/curves/ed25519.js';
+import { ristretto255, ristretto255_hasher } from '@noble/curves/ed25519.js';
 
 // @noble/curves v2 API - aliases for minimal code change across callsites
 const RistrettoPoint = ristretto255.Point;
@@ -39,7 +39,7 @@ const RistrettoPoint = ristretto255.Point;
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
+import { sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
 
 // =============================================================================
 // CONSTANTS
@@ -51,7 +51,7 @@ const ORDER = BigInt('7237005577332262213973186563042994240857116359379907606001
 
 // Second generator for key images (nothing-up-my-sleeve)
 // @noble/curves v2 API - hashToCurve lives on ristretto255_hasher
-const H_POINT = ristretto255_hasher.hashToCurve(sha512(utf8ToBytes('cendia-whistle-key-image-generator-v1')));
+void (ristretto255_hasher.hashToCurve(sha512(utf8ToBytes('cendia-whistle-key-image-generator-v1'))));
 
 // =============================================================================
 // TYPES
@@ -280,7 +280,7 @@ export class AnonymousDissentService {
     const sig = dissent.ringSignature;
 
     try {
-      const message = utf8ToBytes(`${dissent.deliberationId}:${dissent.statement}:${dissent.severity}`);
+      void (utf8ToBytes(`${dissent.deliberationId}:${dissent.statement}:${dissent.severity}`));
       const keyImage = RistrettoPoint.fromHex(sig.keyImage);
       const ringPoints = sig.ring.map(pk => RistrettoPoint.fromHex(pk));
       const challenges = sig.challenge.map(c => this.hexToScalar(c));
@@ -292,13 +292,13 @@ export class AnonymousDissentService {
       let reconstructedAlphaH = RistrettoPoint.ZERO;
 
       for (let i = 0; i < n; i++) {
-        const sG = G.multiply(responses[i]);
-        const cP = ringPoints[i].multiply(challenges[i]);
+        void (G.multiply(responses[i]));
+        void (ringPoints[i].multiply(challenges[i]));
         // These contribute to the aggregate
 
         const hPi = ristretto255_hasher.hashToCurve(sha512(ringPoints[i].toBytes()));
-        const sH = hPi.multiply(responses[i]);
-        const cI = keyImage.multiply(challenges[i]);
+        void (hPi.multiply(responses[i]));
+        void (keyImage.multiply(challenges[i]));
 
         // For verification, we need to check the hash matches
       }

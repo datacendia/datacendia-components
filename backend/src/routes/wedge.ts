@@ -53,7 +53,7 @@ router.post('/shadow-scan', async (req: Request, res: Response) => {
 
 router.post('/shadow-scan/ingest', async (req: Request, res: Response) => {
   try {
-    const { sourceType, organizationId, userId, userEmail, department, aiTool, provider, dataClassification, piiTypesDetected, dataSizeBytes, action, riskScore, sourceMetadata, timestamp } = req.body;
+    const { sourceType, organizationId, userId, userEmail: _userEmail, department: _department, aiTool, provider: _provider, dataClassification: _dataClassification, piiTypesDetected: _piiTypesDetected, dataSizeBytes: _dataSizeBytes, action: _action, riskScore: _riskScore, sourceMetadata: _sourceMetadata, timestamp: _timestamp } = req.body;
     if (!sourceType || !organizationId || !userId || !aiTool) {
       return res.status(400).json({ success: false, error: 'sourceType, organizationId, userId, and aiTool are required' });
     }

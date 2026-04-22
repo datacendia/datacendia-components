@@ -1,23 +1,6 @@
-/**
- * CendiaCID™ — Content-Addressed Receipt Service
- *
- * Every Regulator's Receipt gets a permanent Content Identifier (CID)
- * using the same algorithm as IPFS. The CID is derived from the content
- * itself — if a single byte changes, the CID changes. Receipts exist
- * independently of Datacendia's infrastructure.
- *
- * @module services/crypto/ContentAddressedReceiptService
- * @exports contentAddressedReceiptService
- */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
-// See LICENSE file for details.
-
-
-
-import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
+import { sha256, bytesToHex, utf8ToBytes } from './nativeCrypto.js';
 
 // =============================================================================
 // TYPES
@@ -43,13 +26,6 @@ export interface CIDVerification {
   verifiedAt: string;
   issues: string[];
 }
-
-// =============================================================================
-// CID ENCODING (CIDv1 compatible)
-// =============================================================================
-
-// Multicodec prefixes
-const DAG_JSON_CODEC = 0x0129;
 const SHA256_CODE = 0x12;
 const SHA256_LENGTH = 32;
 const CIDV1_VERSION = 0x01;

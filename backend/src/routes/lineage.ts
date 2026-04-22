@@ -12,9 +12,7 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { graph } from '../config/neo4j.js';
-import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
-import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 

@@ -19,7 +19,6 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
 import { prisma } from '../../config/database.js';
-import { deterministicFloat, deterministicInt, deterministicPercentage, deterministicPick } from '../../utils/deterministic.js';
 
 // =============================================================================
 // TYPES
@@ -195,7 +194,7 @@ export class DecisionDebtService extends BaseService {
   // FEATURE ACCESS CHECK
   // ---------------------------------------------------------------------------
 
-  checkAccess(tier: SubscriptionTier, organizationId: string): { allowed: boolean; reason?: string } {
+  checkAccess(tier: SubscriptionTier, _organizationId: string): { allowed: boolean; reason?: string } {
     if (!featureGating.hasFeature(tier, 'decisionDebtDashboard')) {
       return {
         allowed: false,
@@ -339,7 +338,7 @@ export class DecisionDebtService extends BaseService {
     return costs[priority?.toLowerCase()] || 800;
   }
 
-  private getSimulatedDecisions(organizationId: string): PendingDecision[] {
+  private getSimulatedDecisions(_organizationId: string): PendingDecision[] {
     // Deterministic demo decisions generated when no real data exists
     const now = new Date();
     
@@ -595,7 +594,7 @@ export class DecisionDebtService extends BaseService {
     return longestPath;
   }
 
-  private async calculateTrends(organizationId: string): Promise<DecisionDebtDashboard['trends']> {
+  private async calculateTrends(_organizationId: string): Promise<DecisionDebtDashboard['trends']> {
     // This would normally query historical data
     return {
       decisionsAddedLast7Days: 3,
@@ -699,7 +698,7 @@ export class DecisionDebtService extends BaseService {
     return decision;
   }
 
-  async resolveDecision(organizationId: string, decisionId: string, resolution: string): Promise<void> {
+  async resolveDecision(organizationId: string, decisionId: string, _resolution: string): Promise<void> {
     const cached = this.decisionCache.get(organizationId) || [];
     const index = cached.findIndex(d => d.id === decisionId);
     if (index !== -1) {

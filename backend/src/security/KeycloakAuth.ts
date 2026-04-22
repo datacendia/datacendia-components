@@ -226,7 +226,7 @@ export function protect(role?: CendiaRole | CendiaRole[]) {
  * Middleware: Optional authentication (populates user if token present)
  */
 export function optionalAuth() {
-  return async (req: AuthenticatedRequest, res: Response, next: NextFunction) => {
+  return async (req: AuthenticatedRequest, _res: Response, next: NextFunction) => {
     const authHeader = req.headers.authorization;
     
     if (!authHeader?.startsWith('Bearer ')) {

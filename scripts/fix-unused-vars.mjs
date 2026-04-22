@@ -314,14 +314,24 @@ function planEditsForFile(sourceFile, diags) {
         noteSkip('import-specifier-would-empty-clause');
         continue;
       }
-      // Multiple siblings: remove just this specifier plus trailing comma
+      // Multiple siblings: remove just this specifier plus a neighbouring comma.
+      // Use getStart() (not getFullStart()) so adjacent specifier edits stay non-overlapping.
       const idx = siblings.indexOf(parent);
-      const start = parent.getFullStart();
+      const text = sourceFile.text;
+      let start = parent.getStart(sourceFile);
       let end = parent.getEnd();
-      // Eat trailing comma+space if not last
       if (idx < siblings.length - 1) {
-        const text = sourceFile.text;
+        // Not last: eat trailing comma + whitespace up to the next specifier's start
         while (end < text.length && /[,\s]/.test(text[end])) end++;
+      } else {
+        // Last: eat preceding whitespace + comma, AND any optional trailing comma.
+        // Eating the trailing comma too lets coalescing merge cleanly when the
+        // penultimate specifier is also being removed (otherwise its trailing-comma
+        // eat and our leading-comma eat leave the source's own trailing comma orphaned).
+        while (start > 0 && /\s/.test(text[start - 1])) start--;
+        if (start > 0 && text[start - 1] === ',') start--;
+        while (start > 0 && /\s/.test(text[start - 1])) start--;
+        if (end < text.length && text[end] === ',') end++;
       }
       edits.push({ start, end, replacement: '' });
       stats.importRemoved++;
@@ -375,6 +385,13 @@ function planEditsForFile(sourceFile, diags) {
     if (ts.isVariableDeclaration(parent) && parent.name === ident) {
       const varStmt = ts.findAncestor(parent, ts.isVariableStatement);
       if (!varStmt) { noteSkip('var-decl-no-statement'); continue; }
+      // Skip `let`/`var`: tsc flags these as "unused" when they're written-only
+      // (never read). Removing the declaration leaves dangling assignments elsewhere.
+      const flags = varStmt.declarationList.flags;
+      if (!(flags & ts.NodeFlags.Const)) {
+        noteSkip('VariableDeclaration-mutable');
+        continue;
+      }
       const isSingle = varStmt.declarationList.declarations.length === 1;
       const noSideEffects = !parent.initializer || isSideEffectFree(parent.initializer);
       if (isSingle && noSideEffects) {
@@ -471,10 +488,25 @@ for (const [filePath, diags] of unusedByFile) {
   const edits = planEditsForFile(sourceFile, diags);
   if (edits.length === 0) continue;
 
-  // Apply edits in descending order of start position
-  edits.sort((a, b) => b.start - a.start);
-  let text = sourceFile.text;
+  // Coalesce overlapping / touching edits so adjacent splices don't corrupt each other.
+  // Rule: if two edits overlap in the original coordinates (including touching boundaries),
+  // merge them into one edit with the union range and concatenated replacement.
+  edits.sort((a, b) => a.start - b.start);
+  const merged = [];
   for (const e of edits) {
+    const last = merged[merged.length - 1];
+    if (last && e.start <= last.end) {
+      last.end = Math.max(last.end, e.end);
+      last.replacement = (last.replacement || '') + (e.replacement || '');
+    } else {
+      merged.push({ ...e });
+    }
+  }
+
+  // Apply in descending order of start so earlier positions stay valid.
+  merged.sort((a, b) => b.start - a.start);
+  let text = sourceFile.text;
+  for (const e of merged) {
     text = text.slice(0, e.start) + e.replacement + text.slice(e.end);
   }
   fs.writeFileSync(filePath, text, 'utf8');

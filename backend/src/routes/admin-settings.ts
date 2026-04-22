@@ -400,7 +400,7 @@ router.get('/category/:categoryId', async (req: Request, res: Response, next: Ne
  * GET /api/v1/admin/settings
  * Get all settings with current values
  */
-router.get('/', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const currentEnv = await readEnvFile();
     
@@ -702,7 +702,7 @@ router.post('/test/:integrationId', async (req: Request, res: Response, next: Ne
  * GET /api/v1/admin/settings/env
  * Get raw .env file (for download/backup)
  */
-router.get('/env', async (req: Request, res: Response, next: NextFunction) => {
+router.get('/env', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const content = await fs.readFile(ENV_FILE_PATH, 'utf-8');
     

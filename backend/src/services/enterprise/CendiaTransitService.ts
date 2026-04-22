@@ -26,7 +26,7 @@ import { persistServiceRecord, loadServiceRecords } from '../../utils/servicePer
 // =============================================================================
 
 
-import type { TravelRisk, RiskCategory, TravelAlert, TravelRequest, TripDestination, TravelRiskAssessment, RiskFactor, SecurityPlan, SecurityMeasure, TransportArrangement, SafeLocation, CommunicationProtocol, CheckIn, ExtractionPlan, ExtractionRoute, SecurityPersonnel, EmergencyContact, IncidentReport, IncidentEvent, TravelPolicy } from './transit-types.js';
+import type { TravelRisk, TravelAlert, TravelRequest, TripDestination, TravelRiskAssessment, RiskFactor, SecurityPlan, SecurityMeasure, TransportArrangement, SafeLocation, CheckIn, ExtractionPlan, IncidentReport, TravelPolicy } from './transit-types.js';
 export type { TravelRisk, RiskCategory, TravelAlert, TravelRequest, TripDestination, TravelRiskAssessment, RiskFactor, SecurityPlan, SecurityMeasure, TransportArrangement, SafeLocation, CommunicationProtocol, CheckIn, ExtractionPlan, ExtractionRoute, SecurityPersonnel, EmergencyContact, IncidentReport, IncidentEvent, TravelPolicy } from './transit-types.js';
 
 
@@ -282,7 +282,7 @@ Provide comprehensive risk assessment in JSON:
     return 'standard';
   }
 
-  private generateSecurityMeasures(level: SecurityPlan['level'], request: TravelRequest): SecurityMeasure[] {
+  private generateSecurityMeasures(level: SecurityPlan['level'], _request: TravelRequest): SecurityMeasure[] {
     const measures: SecurityMeasure[] = [
       {
         measure: 'Travel insurance verification',
@@ -331,7 +331,7 @@ Provide comprehensive risk assessment in JSON:
     return measures;
   }
 
-  private planTransportation(level: SecurityPlan['level'], request: TravelRequest): TransportArrangement[] {
+  private planTransportation(level: SecurityPlan['level'], _request: TravelRequest): TransportArrangement[] {
     const arrangements: TransportArrangement[] = [];
 
     if (level === 'high_risk') {

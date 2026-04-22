@@ -637,7 +637,7 @@ Analyze churn probability. Respond in JSON:
 
   private calculateHeuristicChurnProbability(
     health: CustomerHealth, 
-    engagement: CustomerEngagement[]
+    _engagement: CustomerEngagement[]
   ): number {
     let probability = 20; // Base probability
 

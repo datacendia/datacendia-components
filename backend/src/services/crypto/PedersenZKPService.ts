@@ -28,7 +28,7 @@ const RistrettoPoint = ristretto255.Point;
 
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
-import { sha256, sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
+import { sha512, bytesToHex, hexToBytes, utf8ToBytes, concatBytes } from './nativeCrypto.js';
 
 // =============================================================================
 // CONSTANTS — Ristretto255 Group

@@ -476,7 +476,7 @@ export class ContinuousComplianceMonitorService {
     ];
   }
 
-  private analyzeDriftCause(prev: ComplianceStatus, curr: ComplianceStatus): string {
+  private analyzeDriftCause(_prev: ComplianceStatus, curr: ComplianceStatus): string {
     if (curr === 'non_compliant') return 'Control implementation degraded or removed';
     if (curr === 'partial') return 'Partial control failure detected';
     if (curr === 'compliant') return 'Remediation actions completed';

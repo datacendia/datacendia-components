@@ -59,28 +59,6 @@ export interface WatchConfig {
 }
 
 // =============================================================================
-// DEFAULT WATCH CONFIGURATION
-// =============================================================================
-
-const DEFAULT_CONFIG: WatchConfig = {
-  keywords: [
-    'Sovereign AI', 'AI Council', 'Enterprise AI', 'Decision Intelligence',
-    'AI Governance', 'Corporate AI', 'Executive AI', 'AI C-Suite',
-    'Palantir', 'AI Ethics', 'Autonomous Business', 'AI Strategy',
-  ],
-  competitors: [
-    'Palantir', 'C3.ai', 'DataRobot', 'H2O.ai', 'Databricks',
-    'Microsoft Copilot', 'Google Duet', 'Salesforce Einstein',
-    'IBM Watson', 'Anthropic', 'OpenAI Enterprise',
-  ],
-  sources: [
-    'techcrunch.com', 'reuters.com', 'bloomberg.com', 'wsj.com',
-    'linkedin.com', 'twitter.com', 'patents.google.com', 'sec.gov',
-  ],
-  alertThreshold: 70,
-};
-
-// =============================================================================
 // CENDIAWATCH SERVICE
 // =============================================================================
 

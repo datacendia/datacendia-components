@@ -53,7 +53,7 @@ import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 
 
-import type { IISSBand, CertificationLevel, AssessmentStatus, IISSDimension, IISSControl, IISSFinding, IISSScore, IISSRecommendation, InsuranceImpact, RegulatoryReadiness, IISSAssessment, AssessmentAuditEntry, IISSHistoryEntry, IISSBenchmark } from './iiss-types.js';
+import type { IISSBand, IISSDimension, IISSControl, IISSFinding, IISSScore, IISSRecommendation, InsuranceImpact, RegulatoryReadiness, IISSAssessment, IISSHistoryEntry, IISSBenchmark } from './iiss-types.js';
 import { DIMENSION_DEFINITIONS, INDUSTRY_BENCHMARKS, getScoreBand, getCertificationLevel, getBandColor } from './iiss-types.js';
 export type { IISSBand, CertificationLevel, AssessmentStatus, IISSDimension, IISSControl, IISSFinding, IISSScore, IISSRecommendation, InsuranceImpact, RegulatoryReadiness, IISSAssessment, AssessmentAuditEntry, IISSHistoryEntry, IISSBenchmark } from './iiss-types.js';
 
@@ -307,7 +307,7 @@ class IISSService {
     });
   }
 
-  private evaluateControl(organizationId: string, primitive: string, controlName: string): number {
+  private evaluateControl(_organizationId: string, primitive: string, controlName: string): number {
     // DYNAMIC ASSESSMENT: Scores reflect actual platform implementation state.
     // Each control is rated on: service exists (40%), uses real DB (30%), no known gaps (30%).
     // Scores are honest — gaps documented in gatherEvidence() reduce the score.
@@ -399,7 +399,7 @@ class IISSService {
     return Math.round(score);
   }
 
-  private gatherEvidence(organizationId: string, primitive: string, controlName: string): string[] {
+  private gatherEvidence(_organizationId: string, _primitive: string, controlName: string): string[] {
     const evidenceMap: Record<string, string[]> = {
       'Cryptographic Timestamping': ['RegulatorsReceiptService: SHA-256 hashing on all packets', 'DecisionDNAService: ledgerHash + merkleRoot on exports'],
       'Event Linkage': ['ChronosEventBus: all events linked to deliberation IDs', 'EvidenceVaultService: packet-to-decision linkage'],
@@ -507,7 +507,7 @@ class IISSService {
   // RECOMMENDATIONS
   // ---------------------------------------------------------------------------
 
-  private generateRecommendations(dimensions: IISSDimension[], overallScore: number): IISSRecommendation[] {
+  private generateRecommendations(dimensions: IISSDimension[], _overallScore: number): IISSRecommendation[] {
     const recommendations: IISSRecommendation[] = [];
 
     for (const dim of dimensions) {
@@ -548,7 +548,7 @@ class IISSService {
   // INSURANCE IMPACT
   // ---------------------------------------------------------------------------
 
-  private calculateInsuranceImpact(score: number, band: IISSBand): InsuranceImpact {
+  private calculateInsuranceImpact(score: number, _band: IISSBand): InsuranceImpact {
     const basePremium = 500000;
     let savingsPercentage = 0;
     let discountTier = 'None';

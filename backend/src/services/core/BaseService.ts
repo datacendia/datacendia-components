@@ -22,7 +22,7 @@
  */
 
 import { logger } from '../../utils/logger.js';
-import { AppError, errors } from '../../middleware/errorHandler.js';
+import { AppError } from '../../middleware/errorHandler.js';
 
 // =============================================================================
 // RESULT PATTERN - Type-safe success/failure handling
@@ -253,7 +253,7 @@ export abstract class BaseService {
 /**
  * Unwrap a Result, throwing AppError if failed
  */
-export function unwrapResult<T>(result: Result<T>, serviceName: string = 'Service'): T {
+export function unwrapResult<T>(result: Result<T>, _serviceName: string = 'Service'): T {
   if (result.success) {
     return result.data;
   }

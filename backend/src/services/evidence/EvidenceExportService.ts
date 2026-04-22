@@ -28,9 +28,9 @@ import path from 'path';
 import zlib from 'zlib';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
-import { TestEvidenceLedgerService, LedgerEntry, TestSuiteSummary, VerificationResult } from './TestEvidenceLedgerService.js';
-import { SignedTestReportService, SignedReport } from './SignedTestReportService.js';
-import { ComplianceDashboardService, ComplianceScore, GapAnalysis } from './ComplianceDashboardService.js';
+import { TestEvidenceLedgerService, LedgerEntry, VerificationResult } from './TestEvidenceLedgerService.js';
+import { SignedTestReportService } from './SignedTestReportService.js';
+import { ComplianceDashboardService,  } from './ComplianceDashboardService.js';
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
 // =============================================================================
 // TYPES
@@ -435,7 +435,7 @@ export class EvidenceExportService extends EventEmitter {
 
   private async createLedgerSection(
     tempDir: string,
-    request: ExportRequest,
+    _request: ExportRequest,
     dateRange: { from: Date; to: Date }
   ): Promise<ManifestSection> {
     const sectionDir = path.join(tempDir, '02-ledger');
@@ -507,7 +507,7 @@ export class EvidenceExportService extends EventEmitter {
 
   private async createReportsSection(
     tempDir: string,
-    request: ExportRequest,
+    _request: ExportRequest,
     dateRange: { from: Date; to: Date }
   ): Promise<ManifestSection> {
     const sectionDir = path.join(tempDir, '03-reports');
@@ -805,7 +805,7 @@ ${'—•'.repeat(80)}
     `.trim();
   }
 
-  private generateTableOfContents(request: ExportRequest): string {
+  private generateTableOfContents(_request: ExportRequest): string {
     return `
 TABLE OF CONTENTS
 ${'—”€'.repeat(80)}
@@ -843,7 +843,7 @@ MANIFEST.json                   Complete file manifest with hashes
   }
 
   private async generateExecutiveSummary(
-    request: ExportRequest,
+    _request: ExportRequest,
     dateRange: { from: Date; to: Date }
   ): Promise<string> {
     const stats = this.ledgerService.getStatistics();

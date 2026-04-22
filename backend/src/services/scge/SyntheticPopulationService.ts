@@ -36,7 +36,6 @@ import {
   generateSCGEId,
   hashSCGEState,
 } from './types.js';
-import { logger } from '../../utils/logger.js';
 
 // =============================================================================
 // SEEDED RANDOM NUMBER GENERATOR
@@ -154,7 +153,7 @@ function mapToResourceScarcity(
 }
 
 function mapToComplianceVariance(
-  segment: PopulationSegment,
+  _segment: PopulationSegment,
   baseLevel: ComplianceVariance,
   rng: SeededRandom
 ): ComplianceVariance {

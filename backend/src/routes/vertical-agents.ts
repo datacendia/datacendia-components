@@ -30,14 +30,14 @@ import { Router, Request, Response } from 'express';
 import { verticalAgentsService } from '../services/VerticalAgentsService.js';
 
 
-const schema_1 = z.object({
+void (z.object({
   agentId: z.any(),
   verticalId: z.any(),
   action: z.any(),
   result: z.any(),
   duration: z.any(),
   success: z.any(),
-}).passthrough();
+}).passthrough());
 
 const router = Router();
 

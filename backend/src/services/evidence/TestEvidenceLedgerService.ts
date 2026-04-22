@@ -754,7 +754,7 @@ export class TestEvidenceLedgerService extends EventEmitter {
     return current === root;
   }
 
-  private async getExternalTimestamps(hash: string): Promise<ExternalTimestamp[]> {
+  private async getExternalTimestamps(_hash: string): Promise<ExternalTimestamp[]> {
     const timestamps: ExternalTimestamp[] = [];
     
     // Local system timestamp

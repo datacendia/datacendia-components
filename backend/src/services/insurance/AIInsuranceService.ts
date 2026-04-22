@@ -718,7 +718,7 @@ export class AIInsuranceService {
     return [...commonExclusions, ...typeSpecific[coverageType]];
   }
 
-  private getConditions(coverageType: CoverageType): string[] {
+  private getConditions(_coverageType: CoverageType): string[] {
     return [
       'Timely notification of claims (within 30 days)',
       'Cooperation with investigation',
