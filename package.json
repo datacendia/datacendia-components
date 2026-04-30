@@ -82,33 +82,23 @@
     "zustand": "^5.0.9"
   },
   "overrides": {
-    "fast-xml-parser": "5.5.8",
+    "fast-xml-parser": "5.7.2",
     "elliptic": "6.6.1",
     "multer": ">=2.1.0",
     "underscore": ">=1.13.7",
     "protobufjs": "7.5.5",
-    "@xmldom/xmldom": ">=0.8.12",
+    "@xmldom/xmldom": "0.9.10",
     "defu": ">=6.1.4",
     "effect": ">=3.20.0",
     "basic-ftp": ">=5.2.1",
     "hono": ">=4.11.7",
-    "@hono/node-server": ">=1.19.13",
-    "lodash": ">=4.17.22",
+    "@hono/node-server": "1.19.13",
+    "lodash": ">=4.17.21",
     "path-to-regexp": ">=0.1.13",
     "picomatch": ">=2.3.2",
     "socket.io-parser": ">=4.2.6",
-    "nodemailer": ">=8.0.4",
-    "minio": {
-      "fast-xml-parser": "5.5.8"
-    },
-    "@aws-sdk/xml-builder": {
-      "fast-xml-parser": "5.5.8"
-    },
-    "@azure/data-tables": {
-      "@azure/core-xml": {
-        "fast-xml-parser": "5.5.8"
-      }
-    }
+    "nodemailer": "8.0.7",
+    "uuid": "14.0.0"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "4.59.0",
