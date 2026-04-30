@@ -878,6 +878,94 @@ router.get('/regulatory/v2/conflicts', async (req: Request, res: Response) => {
 });
 
 /**
+ * GET /api/v1/premium/regulatory/v2/conflicts/pending
+ * List unresolved DIRECT conflicts for admin review.
+ * These block document approval until a human resolves them.
+ */
+router.get('/regulatory/v2/conflicts/pending', async (req: Request, res: Response) => {
+  try {
+    const organizationId = (req.query.organizationId as string) || 'demo';
+    const conflicts = await regulatoryAbsorbV2Service.getPendingDirectConflicts(organizationId);
+
+    res.json({
+      success: true,
+      organizationId,
+      count: conflicts.length,
+      conflicts,
+      policy: 'DIRECT conflicts require human resolution; "most-restrictive wins" is unsafe for orthogonal rules (e.g. erasure vs retention).',
+    });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
+  }
+});
+
+/**
+ * POST /api/v1/premium/regulatory/v2/conflicts/:id/resolve
+ * Body: { userId, resolution: 'RESOLVED_PRIORITY'|'RESOLVED_MERGED'|'RESOLVED_EXCEPTION'|'FALSE_POSITIVE',
+ *         priorityDocumentId?, notes? }
+ * Required path for DIRECT conflicts.
+ */
+router.post('/regulatory/v2/conflicts/:id/resolve', async (req: Request, res: Response) => {
+  try {
+    const { userId, resolution, priorityDocumentId, notes } = req.body || {};
+    if (!userId || !resolution) {
+      return res.status(400).json({ success: false, error: 'userId and resolution are required' });
+    }
+
+    const conflict = await regulatoryAbsorbV2Service.resolveConflict(req.params.id, userId, {
+      resolution,
+      priorityDocumentId,
+      notes,
+    });
+
+    res.json({ success: true, conflict });
+  } catch (error: unknown) {
+    res.status(400).json({ success: false, error: getErrorMessage(error) });
+  }
+});
+
+/**
+ * POST /api/v1/premium/regulatory/v2/conflicts/auto-resolve
+ * Body: { organizationId, userId? }
+ * Auto-resolves only POTENTIAL and SUPERSEDED conflicts (most-restrictive / newer wins).
+ * DIRECT conflicts are intentionally never touched.
+ */
+router.post('/regulatory/v2/conflicts/auto-resolve', async (req: Request, res: Response) => {
+  try {
+    const organizationId = req.body?.organizationId || (req.query.organizationId as string);
+    if (!organizationId) {
+      return res.status(400).json({ success: false, error: 'organizationId is required' });
+    }
+    const actor = req.body?.userId || 'system';
+    const result = await regulatoryAbsorbV2Service.autoResolveNonDirectConflicts(organizationId, actor);
+
+    res.json({
+      success: true,
+      organizationId,
+      ...result,
+      note: 'DIRECT conflicts excluded by policy; resolve via /conflicts/:id/resolve.',
+    });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
+  }
+});
+
+/**
+ * GET /api/v1/premium/regulatory/v2/constraints/active
+ * Active, non-overridden regulatory constraints for the org. This is the
+ * read API the Council/Decision Gate should hit when enforcing regulatory rules.
+ */
+router.get('/regulatory/v2/constraints/active', async (req: Request, res: Response) => {
+  try {
+    const organizationId = (req.query.organizationId as string) || 'demo';
+    const constraints = await regulatoryAbsorbV2Service.getActiveConstraints(organizationId);
+    res.json({ success: true, organizationId, count: constraints.length, constraints });
+  } catch (error: unknown) {
+    res.status(500).json({ success: false, error: getErrorMessage(error) });
+  }
+});
+
+/**
  * GET /api/v1/premium/regulatory/v2/knowledge
  * Query the V2 regulatory knowledge base (approved documents only)
  */

@@ -329,16 +329,25 @@ model regulatory_requirements {
   // Status
   is_active Boolean @default(true)
 
+  // Requirement-level conflict overrides — set when a regulatory_conflicts row
+  // is RESOLVED_PRIORITY against the *other* document's requirement. The
+  // requirement is deactivated and the conflict id is recorded for audit.
+  overridden_by_conflict_id String?
+
   created_at DateTime @default(now())
   updated_at DateTime @default(now()) @updatedAt
 
-  document regulatory_documents  @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  document regulatory_documents       @relation(fields: [document_id], references: [id], onDelete: Cascade)
   triggers regulatory_triggers[]
+  constraints regulatory_constraints[]
+  conflicts_as_req1 regulatory_conflicts[] @relation("ConflictReq1")
+  conflicts_as_req2 regulatory_conflicts[] @relation("ConflictReq2")
 
   @@index([document_id])
   @@index([category])
   @@index([severity])
   @@index([is_verified])
+  @@index([overridden_by_conflict_id])
 }
 
 model regulatory_triggers {
@@ -360,6 +369,9 @@ model regulatory_triggers {
 
   is_active Boolean @default(true)
 
+  // See regulatory_requirements.overridden_by_conflict_id
+  overridden_by_conflict_id String?
+
   created_at DateTime @default(now())
   updated_at DateTime @default(now()) @updatedAt
 
@@ -369,11 +381,13 @@ model regulatory_triggers {
   @@index([document_id])
   @@index([trigger_type])
   @@index([is_active])
+  @@index([overridden_by_conflict_id])
 }
 
 model regulatory_constraints {
-  id          String @id @default(uuid())
-  document_id String
+  id             String  @id @default(uuid())
+  document_id    String
+  requirement_id String? // links constraint to its source requirement for conflict-scoped deactivation
 
   // Constraint details
   name            String
@@ -392,14 +406,20 @@ model regulatory_constraints {
   activated_at DateTime?
   activated_by String?
 
+  // See regulatory_requirements.overridden_by_conflict_id
+  overridden_by_conflict_id String?
+
   created_at DateTime @default(now())
   updated_at DateTime @default(now()) @updatedAt
 
-  document regulatory_documents @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  document    regulatory_documents     @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  requirement regulatory_requirements? @relation(fields: [requirement_id], references: [id], onDelete: SetNull)
 
   @@index([document_id])
+  @@index([requirement_id])
   @@index([is_active])
   @@index([constraint_type])
+  @@index([overridden_by_conflict_id])
 }
 
 model regulatory_conflicts {
@@ -409,19 +429,26 @@ model regulatory_conflicts {
   document1_id String
   document2_id String
 
+  // Specific requirements that conflict (nullable for back-compat with rows
+  // created before requirement-level mapping was added).
+  requirement1_id String?
+  requirement2_id String?
+
   // Conflict details
   conflict_type ConflictType @default(POTENTIAL)
   description   String       @db.Text
 
-  // Which requirements conflict
+  // Human-readable summaries (free text from the LLM)
   requirement1_summary String? @db.Text
   requirement2_summary String? @db.Text
 
   // Resolution
-  resolution_status ConflictResolution @default(UNRESOLVED)
-  resolution_notes  String?            @db.Text
-  resolved_by       String?
-  resolved_at       DateTime?
+  resolution_status      ConflictResolution @default(UNRESOLVED)
+  resolution_notes       String?            @db.Text
+  resolved_by            String?
+  resolved_at            DateTime?
+  priority_document_id   String? // when resolution_status = RESOLVED_PRIORITY
+  priority_requirement_id String?
 
   // AI analysis
   ai_recommendation String? @db.Text
@@ -430,11 +457,15 @@ model regulatory_conflicts {
   created_at DateTime @default(now())
   updated_at DateTime @default(now()) @updatedAt
 
-  document1 regulatory_documents @relation("ConflictDoc1", fields: [document1_id], references: [id], onDelete: Cascade)
-  document2 regulatory_documents @relation("ConflictDoc2", fields: [document2_id], references: [id], onDelete: Cascade)
+  document1    regulatory_documents     @relation("ConflictDoc1", fields: [document1_id], references: [id], onDelete: Cascade)
+  document2    regulatory_documents     @relation("ConflictDoc2", fields: [document2_id], references: [id], onDelete: Cascade)
+  requirement1 regulatory_requirements? @relation("ConflictReq1", fields: [requirement1_id], references: [id], onDelete: SetNull)
+  requirement2 regulatory_requirements? @relation("ConflictReq2", fields: [requirement2_id], references: [id], onDelete: SetNull)
 
   @@index([organization_id])
   @@index([resolution_status])
+  @@index([requirement1_id])
+  @@index([requirement2_id])
 }
 
 model regulatory_audit_logs {

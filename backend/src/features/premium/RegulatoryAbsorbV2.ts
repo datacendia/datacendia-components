@@ -115,6 +115,8 @@ export interface ConflictV2 {
   id: string;
   document1Id: string;
   document2Id: string;
+  requirement1Id?: string;
+  requirement2Id?: string;
   conflictType: ConflictType;
   description: string;
   requirement1Summary?: string;
@@ -122,6 +124,8 @@ export interface ConflictV2 {
   aiRecommendation?: string;
   confidenceScore?: number;
   resolutionStatus: ConflictResolution;
+  priorityDocumentId?: string;
+  priorityRequirementId?: string;
 }
 
 export interface AbsorptionSummaryV2 {
@@ -516,21 +520,23 @@ Respond with a JSON array of requirements:`;
 
   private async detectConflictsWithLLM(
     newRequirements: RequirementV2[],
-    existingDocuments: { id: string; name: string; requirements: { title: string; description: string }[] }[]
-  ): Promise<Omit<ConflictV2, 'id'>[]> {
+    existingDocuments: { id: string; name: string; requirements: { id: string; title: string; description: string }[] }[]
+  ): Promise<(Omit<ConflictV2, 'id'> & { requirement1Id?: string; requirement2Id?: string })[]> {
     if (existingDocuments.length === 0) return [];
 
     const prompt = `You are a regulatory compliance expert. Analyze if any of the NEW requirements conflict with EXISTING requirements.
 
-NEW REQUIREMENTS:
-${JSON.stringify(newRequirements.map(r => ({ title: r.title, description: r.description })), null, 2)}
+NEW REQUIREMENTS (each has an "id"):
+${JSON.stringify(newRequirements.map(r => ({ id: r.id, title: r.title, description: r.description })), null, 2)}
 
-EXISTING REGULATIONS:
+EXISTING REGULATIONS (each requirement has an "id"):
 ${JSON.stringify(existingDocuments.map(d => ({ id: d.id, name: d.name, requirements: d.requirements.slice(0, 10) })), null, 2)}
 
 For each conflict found, provide:
 - document1Id: "new" (for the new document)
 - document2Id: The ID of the existing document
+- requirement1Id: The id of the SPECIFIC new requirement that conflicts (must match an id from NEW REQUIREMENTS)
+- requirement2Id: The id of the SPECIFIC existing requirement that conflicts (must match an id from EXISTING REGULATIONS requirements)
 - conflictType: One of: DIRECT (directly contradict), POTENTIAL (may conflict), SUPERSEDED (one replaces another)
 - description: Explanation of the conflict
 - requirement1Summary: Summary of the new requirement
@@ -721,6 +727,7 @@ Respond with a JSON array of conflicts (empty array if none):`;
         const constraint = await this.prisma.regulatory_constraints.create({
           data: {
             document_id: document.id,
+            requirement_id: req.id, // link for conflict-scoped deactivation
             name: `Constraint: ${req.title}`,
             description: req.description,
             constraint_type: 'MANDATORY',
@@ -751,7 +758,7 @@ Respond with a JSON array of conflicts (empty array if none):`;
           review_status: 'APPROVED',
         },
         include: {
-          requirements: { select: { title: true, description: true } },
+          requirements: { select: { id: true, title: true, description: true } },
         },
       });
 
@@ -764,14 +771,27 @@ Respond with a JSON array of conflicts (empty array if none):`;
         }))
       );
 
+      // Build lookup tables to validate that LLM-returned requirement IDs are real.
+      const newReqIds = new Set(requirements.map(r => r.id));
+      const existingReqIds = new Set(
+        existingDocs.flatMap(d => d.requirements.map(r => r.id))
+      );
+
       const conflicts: ConflictV2[] = [];
       for (const raw of rawConflicts) {
         if (raw.document2Id && raw.document2Id !== 'new') {
+          // Only persist requirement IDs if the LLM returned valid ones.
+          // Hallucinated IDs are dropped to null so we never link to phantom rows.
+          const req1Id = raw.requirement1Id && newReqIds.has(raw.requirement1Id) ? raw.requirement1Id : null;
+          const req2Id = raw.requirement2Id && existingReqIds.has(raw.requirement2Id) ? raw.requirement2Id : null;
+
           const conflict = await this.prisma.regulatory_conflicts.create({
             data: {
               organization_id: request.organizationId,
               document1_id: document.id,
               document2_id: raw.document2Id,
+              requirement1_id: req1Id,
+              requirement2_id: req2Id,
               conflict_type: (raw.conflictType as ConflictType) || 'POTENTIAL',
               description: raw.description || 'Potential conflict detected',
               requirement1_summary: raw.requirement1Summary,
@@ -786,6 +806,8 @@ Respond with a JSON array of conflicts (empty array if none):`;
             id: conflict.id,
             document1Id: conflict.document1_id,
             document2Id: conflict.document2_id,
+            requirement1Id: conflict.requirement1_id || undefined,
+            requirement2Id: conflict.requirement2_id || undefined,
             conflictType: conflict.conflict_type,
             description: conflict.description,
             requirement1Summary: conflict.requirement1_summary || undefined,
@@ -904,6 +926,26 @@ Respond with a JSON array of conflicts (empty array if none):`;
 
     if (!document) throw new Error('Document not found');
     if (document.review_status === 'APPROVED') throw new Error('Document already approved');
+
+    // BLOCK approval if this document has unresolved DIRECT conflicts.
+    // DIRECT conflicts are literal contradictions (e.g. GDPR right-to-erasure vs OSA retain-for-investigation)
+    // and cannot be auto-resolved by "most restrictive wins" heuristics — they require human counsel review.
+    const blockingConflicts = await this.prisma.regulatory_conflicts.findMany({
+      where: {
+        organization_id: document.organization_id,
+        conflict_type: 'DIRECT',
+        resolution_status: 'UNRESOLVED',
+        OR: [{ document1_id: documentId }, { document2_id: documentId }],
+      },
+      select: { id: true, description: true },
+    });
+    if (blockingConflicts.length > 0) {
+      const ids = blockingConflicts.map(c => c.id).join(', ');
+      throw new Error(
+        `Cannot approve: ${blockingConflicts.length} unresolved DIRECT regulatory conflict(s) involve this document (${ids}). ` +
+        `Resolve via POST /regulatory/v2/conflicts/:id/resolve before approval.`
+      );
+    }
 
     // Activate all constraints and triggers
     await this.prisma.regulatory_constraints.updateMany({
@@ -1029,16 +1071,354 @@ Respond with a JSON array of conflicts (empty array if none):`;
     }));
   }
 
+  // ---------------------------------------------------------------------------
+  // CONFLICT RESOLUTION
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Manually resolve a single conflict. Required path for DIRECT conflicts
+   * (literal contradictions) — these cannot be auto-resolved because
+   * "most-restrictive wins" is undefined when rules are orthogonal
+   * (e.g. delete-on-request vs retain-for-investigation).
+   */
+  async resolveConflict(
+    conflictId: string,
+    userId: string,
+    decision: {
+      resolution: ConflictResolution;
+      priorityDocumentId?: string; // required when resolution = RESOLVED_PRIORITY
+      notes?: string;
+    }
+  ): Promise<ConflictV2> {
+    const conflict = await this.prisma.regulatory_conflicts.findUnique({
+      where: { id: conflictId },
+    });
+    if (!conflict) throw new Error('Conflict not found');
+    if (conflict.resolution_status !== 'UNRESOLVED') {
+      throw new Error(`Conflict already resolved as ${conflict.resolution_status}`);
+    }
+
+    if (decision.resolution === 'UNRESOLVED') {
+      throw new Error('Cannot resolve a conflict to UNRESOLVED');
+    }
+
+    if (decision.resolution === 'RESOLVED_PRIORITY') {
+      if (!decision.priorityDocumentId) {
+        throw new Error('priorityDocumentId required when resolution = RESOLVED_PRIORITY');
+      }
+      if (
+        decision.priorityDocumentId !== conflict.document1_id &&
+        decision.priorityDocumentId !== conflict.document2_id
+      ) {
+        throw new Error('priorityDocumentId must be one of the two conflicting documents');
+      }
+    }
+
+    // Resolve the losing requirement (only meaningful for RESOLVED_PRIORITY).
+    let priorityRequirementId: string | null = null;
+    let losingRequirementId: string | null = null;
+    if (decision.resolution === 'RESOLVED_PRIORITY' && decision.priorityDocumentId) {
+      ({ priorityRequirementId, losingRequirementId } = this.identifyPriorityRequirement(
+        conflict,
+        decision.priorityDocumentId
+      ));
+    }
+
+    const updated = await this.prisma.regulatory_conflicts.update({
+      where: { id: conflictId },
+      data: {
+        resolution_status: decision.resolution,
+        resolution_notes: this.buildResolutionNotes(decision),
+        resolved_by: userId,
+        resolved_at: new Date(),
+        priority_document_id: decision.priorityDocumentId ?? null,
+        priority_requirement_id: priorityRequirementId,
+      },
+    });
+
+    // Cascade-deactivate the losing requirement and its dependents.
+    let cascadeSummary: { requirements: number; constraints: number; triggers: number } = {
+      requirements: 0,
+      constraints: 0,
+      triggers: 0,
+    };
+    if (decision.resolution === 'RESOLVED_PRIORITY' && losingRequirementId) {
+      cascadeSummary = await this.cascadeOverride(losingRequirementId, conflictId);
+    }
+
+    // Audit on both involved documents so the chain is intact for either side.
+    const auditDetails = {
+      conflictId,
+      conflictType: conflict.conflict_type,
+      resolution: decision.resolution,
+      priorityDocumentId: decision.priorityDocumentId,
+      priorityRequirementId: priorityRequirementId,
+      losingRequirementId: losingRequirementId,
+      cascade: cascadeSummary,
+      notes: decision.notes,
+    };
+    await this.createAuditEntry(conflict.document1_id, 'conflict_resolved', userId, 'user', auditDetails);
+    await this.createAuditEntry(conflict.document2_id, 'conflict_resolved', userId, 'user', auditDetails);
+
+    return {
+      id: updated.id,
+      document1Id: updated.document1_id,
+      document2Id: updated.document2_id,
+      requirement1Id: updated.requirement1_id || undefined,
+      requirement2Id: updated.requirement2_id || undefined,
+      conflictType: updated.conflict_type,
+      description: updated.description,
+      requirement1Summary: updated.requirement1_summary || undefined,
+      requirement2Summary: updated.requirement2_summary || undefined,
+      aiRecommendation: updated.ai_recommendation || undefined,
+      confidenceScore: updated.confidence_score || undefined,
+      resolutionStatus: updated.resolution_status,
+      priorityDocumentId: updated.priority_document_id || undefined,
+      priorityRequirementId: updated.priority_requirement_id || undefined,
+    };
+  }
+
+  /**
+   * Auto-resolve POTENTIAL and SUPERSEDED conflicts only.
+   * - POTENTIAL: pick the document whose conflicting requirement carries higher max severity
+   *   (CRITICAL > HIGH > MEDIUM > LOW > INFO). Tie → newer document.
+   * - SUPERSEDED: newer document wins (older is treated as replaced).
+   * DIRECT conflicts are NEVER touched here — they require human approval.
+   *
+   * Returns counts for reporting.
+   */
+  async autoResolveNonDirectConflicts(
+    organizationId: string,
+    actorUserId: string = 'system'
+  ): Promise<{ resolved: number; skipped: number; details: Array<{ conflictId: string; resolution: ConflictResolution; priorityDocumentId: string; reason: string }> }> {
+    const candidates = await this.prisma.regulatory_conflicts.findMany({
+      where: {
+        organization_id: organizationId,
+        resolution_status: 'UNRESOLVED',
+        conflict_type: { in: ['POTENTIAL', 'SUPERSEDED'] },
+      },
+    });
+
+    const details: Array<{ conflictId: string; resolution: ConflictResolution; priorityDocumentId: string; reason: string }> = [];
+    let skipped = 0;
+
+    for (const c of candidates) {
+      const [doc1, doc2] = await Promise.all([
+        this.prisma.regulatory_documents.findUnique({
+          where: { id: c.document1_id },
+          select: { id: true, created_at: true, requirements: { select: { severity: true } } },
+        }),
+        this.prisma.regulatory_documents.findUnique({
+          where: { id: c.document2_id },
+          select: { id: true, created_at: true, requirements: { select: { severity: true } } },
+        }),
+      ]);
+      if (!doc1 || !doc2) {
+        skipped++;
+        continue;
+      }
+
+      let priorityDocumentId: string;
+      let reason: string;
+
+      if (c.conflict_type === 'SUPERSEDED') {
+        // Newer regulation supersedes older.
+        priorityDocumentId = doc1.created_at >= doc2.created_at ? doc1.id : doc2.id;
+        reason = 'SUPERSEDED: newer document takes precedence';
+      } else {
+        // POTENTIAL: most-restrictive heuristic via max severity, tiebreak on recency.
+        const sev1 = this.maxSeverityScore(doc1.requirements.map(r => r.severity));
+        const sev2 = this.maxSeverityScore(doc2.requirements.map(r => r.severity));
+        if (sev1 > sev2) {
+          priorityDocumentId = doc1.id;
+          reason = `POTENTIAL: doc1 has higher max severity (${sev1} vs ${sev2})`;
+        } else if (sev2 > sev1) {
+          priorityDocumentId = doc2.id;
+          reason = `POTENTIAL: doc2 has higher max severity (${sev2} vs ${sev1})`;
+        } else {
+          priorityDocumentId = doc1.created_at >= doc2.created_at ? doc1.id : doc2.id;
+          reason = `POTENTIAL: equal max severity (${sev1}); newer document chosen`;
+        }
+      }
+
+      const { priorityRequirementId, losingRequirementId } = this.identifyPriorityRequirement(
+        c,
+        priorityDocumentId
+      );
+
+      await this.prisma.regulatory_conflicts.update({
+        where: { id: c.id },
+        data: {
+          resolution_status: 'RESOLVED_PRIORITY',
+          resolution_notes: `[auto] ${reason}; priority=${priorityDocumentId}`,
+          resolved_by: actorUserId,
+          resolved_at: new Date(),
+          priority_document_id: priorityDocumentId,
+          priority_requirement_id: priorityRequirementId,
+        },
+      });
+
+      const cascade = losingRequirementId
+        ? await this.cascadeOverride(losingRequirementId, c.id)
+        : { requirements: 0, constraints: 0, triggers: 0 };
+
+      const auditDetails = {
+        conflictId: c.id,
+        conflictType: c.conflict_type,
+        resolution: 'RESOLVED_PRIORITY' as ConflictResolution,
+        priorityDocumentId,
+        priorityRequirementId,
+        losingRequirementId,
+        cascade,
+        autoResolved: true,
+        reason,
+      };
+      await this.createAuditEntry(c.document1_id, 'conflict_auto_resolved', actorUserId, 'system', auditDetails);
+      await this.createAuditEntry(c.document2_id, 'conflict_auto_resolved', actorUserId, 'system', auditDetails);
+
+      details.push({ conflictId: c.id, resolution: 'RESOLVED_PRIORITY', priorityDocumentId, reason });
+    }
+
+    return { resolved: details.length, skipped, details };
+  }
+
+  /**
+   * Given a conflict and the chosen winning document, return the requirement IDs
+   * for the winner (priority) and loser (to be deactivated). Returns nulls when
+   * the conflict was not stored with requirement-level mapping (legacy rows).
+   */
+  private identifyPriorityRequirement(
+    conflict: { document1_id: string; document2_id: string; requirement1_id: string | null; requirement2_id: string | null },
+    priorityDocumentId: string
+  ): { priorityRequirementId: string | null; losingRequirementId: string | null } {
+    if (priorityDocumentId === conflict.document1_id) {
+      return {
+        priorityRequirementId: conflict.requirement1_id,
+        losingRequirementId: conflict.requirement2_id,
+      };
+    }
+    if (priorityDocumentId === conflict.document2_id) {
+      return {
+        priorityRequirementId: conflict.requirement2_id,
+        losingRequirementId: conflict.requirement1_id,
+      };
+    }
+    return { priorityRequirementId: null, losingRequirementId: null };
+  }
+
+  /**
+   * Cascade-deactivate the losing requirement and any constraints/triggers
+   * that derive from it. Stamps overridden_by_conflict_id on every row so
+   * the override is auditable and reversible.
+   *
+   * Idempotent: re-running for the same (requirement, conflict) pair is safe.
+   */
+  private async cascadeOverride(
+    losingRequirementId: string,
+    conflictId: string
+  ): Promise<{ requirements: number; constraints: number; triggers: number }> {
+    const reqUpdate = await this.prisma.regulatory_requirements.updateMany({
+      where: { id: losingRequirementId, overridden_by_conflict_id: null },
+      data: { is_active: false, overridden_by_conflict_id: conflictId },
+    });
+
+    const constraintUpdate = await this.prisma.regulatory_constraints.updateMany({
+      where: { requirement_id: losingRequirementId, overridden_by_conflict_id: null },
+      data: { is_active: false, overridden_by_conflict_id: conflictId },
+    });
+
+    const triggerUpdate = await this.prisma.regulatory_triggers.updateMany({
+      where: { requirement_id: losingRequirementId, overridden_by_conflict_id: null },
+      data: { is_active: false, overridden_by_conflict_id: conflictId },
+    });
+
+    this.logger.info(
+      `[RegulatoryAbsorbV2] Cascade override for conflict ${conflictId}: ` +
+        `requirements=${reqUpdate.count}, constraints=${constraintUpdate.count}, triggers=${triggerUpdate.count}`
+    );
+
+    return {
+      requirements: reqUpdate.count,
+      constraints: constraintUpdate.count,
+      triggers: triggerUpdate.count,
+    };
+  }
+
+  /**
+   * List unresolved DIRECT conflicts. The Sovereign OS surfaces these to admins
+   * because they block document approval and require human/legal-counsel review.
+   */
+  async getPendingDirectConflicts(organizationId: string): Promise<ConflictV2[]> {
+    const conflicts = await this.prisma.regulatory_conflicts.findMany({
+      where: {
+        organization_id: organizationId,
+        conflict_type: 'DIRECT',
+        resolution_status: 'UNRESOLVED',
+      },
+      orderBy: { created_at: 'desc' },
+    });
+
+    return conflicts.map(c => this.toConflictV2(c));
+  }
+
+  private buildResolutionNotes(decision: {
+    resolution: ConflictResolution;
+    priorityDocumentId?: string;
+    notes?: string;
+  }): string {
+    const parts: string[] = [`resolution=${decision.resolution}`];
+    if (decision.priorityDocumentId) parts.push(`priority=${decision.priorityDocumentId}`);
+    if (decision.notes) parts.push(`notes=${decision.notes}`);
+    return parts.join('; ');
+  }
+
+  private maxSeverityScore(severities: RegulatorySeverity[]): number {
+    const rank: Record<RegulatorySeverity, number> = {
+      CRITICAL: 5,
+      HIGH: 4,
+      MEDIUM: 3,
+      LOW: 2,
+      INFO: 1,
+    };
+    let max = 0;
+    for (const s of severities) {
+      const v = rank[s] ?? 0;
+      if (v > max) max = v;
+    }
+    return max;
+  }
+
   async getConflicts(organizationId: string): Promise<ConflictV2[]> {
     const conflicts = await this.prisma.regulatory_conflicts.findMany({
       where: { organization_id: organizationId },
       orderBy: { created_at: 'desc' },
     });
 
-    return conflicts.map(c => ({
+    return conflicts.map(c => this.toConflictV2(c));
+  }
+
+  private toConflictV2(c: {
+    id: string;
+    document1_id: string;
+    document2_id: string;
+    requirement1_id: string | null;
+    requirement2_id: string | null;
+    conflict_type: ConflictType;
+    description: string;
+    requirement1_summary: string | null;
+    requirement2_summary: string | null;
+    ai_recommendation: string | null;
+    confidence_score: number | null;
+    resolution_status: ConflictResolution;
+    priority_document_id: string | null;
+    priority_requirement_id: string | null;
+  }): ConflictV2 {
+    return {
       id: c.id,
       document1Id: c.document1_id,
       document2Id: c.document2_id,
+      requirement1Id: c.requirement1_id || undefined,
+      requirement2Id: c.requirement2_id || undefined,
       conflictType: c.conflict_type,
       description: c.description,
       requirement1Summary: c.requirement1_summary || undefined,
@@ -1046,6 +1426,37 @@ Respond with a JSON array of conflicts (empty array if none):`;
       aiRecommendation: c.ai_recommendation || undefined,
       confidenceScore: c.confidence_score || undefined,
       resolutionStatus: c.resolution_status,
+      priorityDocumentId: c.priority_document_id || undefined,
+      priorityRequirementId: c.priority_requirement_id || undefined,
+    };
+  }
+
+  /**
+   * Return constraints that are currently active for the org — excludes
+   * inactive (pre-approval) and conflict-overridden constraints. This is the
+   * read API the Council/Decision Gate should use when evaluating whether a
+   * decision violates regulatory rules.
+   */
+  async getActiveConstraints(organizationId: string): Promise<ConstraintV2[]> {
+    const rows = await this.prisma.regulatory_constraints.findMany({
+      where: {
+        is_active: true,
+        overridden_by_conflict_id: null,
+        document: {
+          organization_id: organizationId,
+          review_status: 'APPROVED',
+        },
+      },
+    });
+    return rows.map(c => ({
+      id: c.id,
+      name: c.name,
+      description: c.description,
+      constraintType: c.constraint_type,
+      ruleExpression: c.rule_expression,
+      appliesToAgents: c.applies_to_agents as string[],
+      appliesToDecisions: c.applies_to_decisions as string[],
+      isActive: c.is_active,
     }));
   }
 
