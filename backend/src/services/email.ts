@@ -41,47 +41,41 @@ interface EmailTemplate {
 // TRANSPORTER CONFIGURATION
 // =============================================================================
 
-// Create transporter based on environment
-const createTransporter = () => {
-  // Production SMTP transport: supports SendGrid, SES, Mailgun, or any SMTP relay
-  // Set SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS in .env
-  if (process.env.SMTP_HOST) {
-    logger.info(`[Email] Using SMTP transport: ${process.env.SMTP_HOST}:${process.env.SMTP_PORT || '587'}`);
-    return nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: parseInt(process.env.SMTP_PORT || '587'),
-      secure: process.env.SMTP_SECURE === 'true',
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-      pool: true,
-      maxConnections: 5,
-      maxMessages: 100,
-      rateLimit: 10,
-    });
-  }
+const SMTP_FALLBACK_FROM = 'Datacendia <noreply@datacendia.com>';
+const isSmtpEnabled = (): boolean => (process.env.SMTP_ENABLED ?? 'false').toLowerCase() !== 'false';
 
-  // Production without SMTP: warn loudly, return null-safe transport
-  if (process.env.NODE_ENV === 'production') {
-    logger.warn('[Email] *** SMTP_HOST not configured in production — emails will be logged but NOT delivered ***');
-    logger.warn('[Email] Set SMTP_HOST, SMTP_USER, SMTP_PASS for delivery (SendGrid: smtp.sendgrid.net, SES: email-smtp.<region>.amazonaws.com)');
+const getSmtpTransporter = () => {
+  if (!isSmtpEnabled()) {
+    logger.info('[email] SMTP disabled, skipping send');
     return null;
   }
 
-  // Development: use ethereal email (catches emails without delivering)
-  logger.info('[Email] Using ethereal dev transport (emails captured, not delivered)');
+  const host = process.env.SMTP_HOST;
+  const portValue = process.env.SMTP_PORT;
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+
+  if (!host || !portValue || !user || !pass) {
+    logger.warn('[email] SMTP not fully configured, skipping send');
+    return null;
+  }
+
+  const port = Number.parseInt(portValue, 10);
+  if (!Number.isFinite(port)) {
+    logger.warn('[email] SMTP_PORT is invalid, skipping send');
+    return null;
+  }
+
   return nodemailer.createTransport({
-    host: 'smtp.ethereal.email',
-    port: 587,
+    host,
+    port,
+    secure: port === 465,
     auth: {
-      user: process.env.ETHEREAL_USER || 'test@ethereal.email',
-      pass: process.env.ETHEREAL_PASS || 'test',
+      user,
+      pass,
     },
   });
 };
-
-const transporter = createTransporter();
 
 // =============================================================================
 // EMAIL TEMPLATES
@@ -274,30 +268,16 @@ export const emailService = {
       return true; // Return true so callers don't treat it as a failure
     }
 
-    // No transporter available (production without SMTP, or dev fallback)
-    if (!transporter) {
-      logger.warn(`[Email] No transport configured — logging email instead of sending`);
-      logger.info('='.repeat(60));
-      logger.info(`[EMAIL LOG] To: ${options.to}`);
-      logger.info(`[EMAIL LOG] Subject: ${options.subject}`);
-      logger.info(`[EMAIL LOG] Body:\n${options.text || '(HTML only)'}`);
-      logger.info('='.repeat(60));
-      return true;
-    }
+    const transporter = getSmtpTransporter();
 
-    // Local dev fallback: log to console when no SMTP configured
-    if (!process.env.SMTP_HOST && process.env.NODE_ENV !== 'production') {
-      logger.info('='.repeat(60));
-      logger.info(`[DEV EMAIL] To: ${options.to}`);
-      logger.info(`[DEV EMAIL] Subject: ${options.subject}`);
-      logger.info(`[DEV EMAIL] Body:\n${options.text || '(HTML only)'}`);
-      logger.info('='.repeat(60));
+    // No transporter available (SMTP disabled or missing config)
+    if (!transporter) {
       return true;
     }
 
     try {
       const info = await transporter.sendMail({
-        from: process.env.EMAIL_FROM || '"Datacendia" <noreply@datacendia.com>',
+        from: process.env.SMTP_FROM || SMTP_FALLBACK_FROM,
         to: options.to,
         subject: options.subject,
         text: options.text,
@@ -305,14 +285,6 @@ export const emailService = {
       });
 
       logger.info(`Email sent: ${info.messageId}`);
-      
-      // In development, log the preview URL
-      if (process.env.NODE_ENV !== 'production') {
-        const previewUrl = nodemailer.getTestMessageUrl(info as any);
-        if (previewUrl) {
-          logger.info(`Preview URL: ${previewUrl}`);
-        }
-      }
 
       return true;
     } catch (error) {
