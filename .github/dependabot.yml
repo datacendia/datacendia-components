@@ -23,14 +23,15 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     groups:
-      # Group minor/patch updates together
-      minor-and-patch:
-        patterns:
-          - "*"
+      # Patch updates are auto-merged via dependabot-auto-merge.yml
+      patch-updates:
+        update-types:
+          - "patch"
+      # Minor updates grouped but require manual review
+      minor-updates:
         update-types:
           - "minor"
-          - "patch"
-      # Keep major updates separate for review
+      # Keep major updates as individual PRs for manual review
       react:
         patterns:
           - "react"
@@ -66,12 +67,14 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     groups:
-      minor-and-patch:
-        patterns:
-          - "*"
+      # Patch updates are auto-merged via dependabot-auto-merge.yml
+      patch-updates:
+        update-types:
+          - "patch"
+      # Minor updates grouped but require manual review
+      minor-updates:
         update-types:
           - "minor"
-          - "patch"
       prisma:
         patterns:
           - "prisma"
@@ -101,12 +104,17 @@ updates:
       - "ci"
     commit-message:
       prefix: "chore(ci)"
+    groups:
+      actions-updates:
+        patterns:
+          - "*"
 
   # Docker images
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
     labels:
       - "dependencies"
       - "docker"
@@ -117,8 +125,10 @@ updates:
     directory: "/backend"
     schedule:
       interval: "weekly"
+      day: "monday"
     labels:
       - "dependencies"
       - "docker"
     commit-message:
       prefix: "chore(docker)"
+

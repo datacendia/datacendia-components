@@ -7,6 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
 [![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception%20Member-76b900.svg)](https://www.nvidia.com/en-us/startups/)
 [![License](https://img.shields.io/badge/License-Commercial-lightgrey.svg)](#license)
+[![Security Posture](https://img.shields.io/badge/Security-SOC%202%20Aligned-blue.svg)](docs/SECURITY_POSTURE.md)
 
 **The Defensible AI Platform — every decision, defensible.**
 
@@ -252,8 +253,8 @@ datacendia-components/
 │   │   │   ├── vault/      # OpenBao/Vault secrets management
 │   │   │   ├── gpu/        # RAPIDS analytics + Confidential Computing
 │   │   │   ├── streaming/  # Flink CEP real-time processing
-│   │   │   ├── verticals/  # 29 industry vertical implementations
-│   │   │   └── sovereign/  # 11 sovereign architecture patterns
+│   │   │   ├── verticals/  # 30 industry vertical implementations
+│   │   │   └── sovereign/  # 24 sovereign service implementations
 │   │   ├── middleware/     # Auth, logging, security
 │   │   ├── security/       # PolicyEngine, KeycloakAuth, KMS, HSM
 │   │   └── config/         # Database, Redis, Neo4j, inference config
@@ -455,7 +456,11 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | [Product Bible](docs/DATACENDIA_BIBLE.md) | Product vision and features |
 | [Real-World Value](docs/REAL_WORLD_VALUE.md) | Detailed use case examples |
 | [Complete Service Matrix](docs/COMPLETE_SERVICE_MATRIX.md) | Full service catalog with pricing |
-| [Verticals](docs/VERTICALS.md) | 29 industry verticals deep dive |
+| [Verticals](docs/VERTICALS.md) | 30 industry verticals deep dive |
+| [Security Posture](docs/SECURITY_POSTURE.md) | SOC 2 controls matrix for InfoSec review |
+| [SOC 2 Controls Matrix](docs/SOC2_CONTROLS_MATRIX.md) | Detailed technical controls mapping |
+| [Pilot Playbook](docs/PILOT_PLAYBOOK.md) | 30-day onboarding guide for Pilot customers |
+| [Implementation Status](docs/IMPLEMENTATION_STATUS.md) | ROADMAP items — what's implemented vs planned |
 
 ## 🔐 Environment Variables
 
