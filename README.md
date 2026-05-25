@@ -443,6 +443,15 @@ See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete ins
 | [**Benchmark: Council vs. Single-Model**](docs/BENCHMARK_COUNCIL_VS_SINGLE_MODEL.md) | Worked comparison — 3.2× more risk factors, 6× regulatory citations, dissent surfacing |
 | [Community vs Enterprise](COMMUNITY.md) | Open-core boundary — what's free, what's commercial |
 
+### Sales & Outreach Resources
+| Document | Description |
+|----------|-------------|
+| [Case Studies](docs/case-studies/README.md) | Platform demonstrations across 9 industries |
+| [Financial Services Demo](docs/case-studies/financial-services-cre-acquisition.md) | $2.3B CRE acquisition — Basel III deliberation |
+| [Healthcare Demo](docs/case-studies/healthcare-sepsis-ai-tool.md) | FDA SaMD — alert fatigue analysis |
+| [Outreach Templates](docs/outreach/README.md) | Cold email/DM templates by vertical |
+| [HN Launch Post](docs/outreach/hn-launch-post.md) | Draft Show HN post |
+
 ### Technical
 
 | Document | Description |
