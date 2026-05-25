@@ -757,8 +757,65 @@ class CendiaDissentService {
   // ===========================================================================
 
   private encryptIdentity(userId: string): string {
-    // Encryption via crypto.createCipheriv with AES-256-GCM
-    return crypto.createHash('sha256').update(userId + 'salt').digest('hex').slice(0, 16);
+    const encryptionKey = this.getEncryptionKey();
+    if (!encryptionKey) {
+      logger.warn('[Dissent] No encryption key configured; using base64 fallback for anonymized identities');
+      return `b64:${Buffer.from(userId, 'utf8').toString('base64')}`;
+    }
+
+    const iv = crypto.randomBytes(16);
+    const cipher = crypto.createCipheriv('aes-256-gcm', encryptionKey, iv);
+    const encrypted = Buffer.concat([cipher.update(userId, 'utf8'), cipher.final()]);
+    const authTag = cipher.getAuthTag();
+    const payload = Buffer.concat([encrypted, authTag]).toString('hex');
+
+    return `${iv.toString('hex')}:${payload}`;
+  }
+
+  private decryptIdentity(encryptedIdentity: string): string {
+    if (encryptedIdentity.startsWith('b64:')) {
+      return Buffer.from(encryptedIdentity.slice(4), 'base64').toString('utf8');
+    }
+
+    const encryptionKey = this.getEncryptionKey();
+    if (!encryptionKey) {
+      logger.warn('[Dissent] No encryption key configured; returning stored identity fallback as-is');
+      return encryptedIdentity;
+    }
+
+    const [ivHex, payloadHex] = encryptedIdentity.split(':');
+    if (!ivHex || !payloadHex) {
+      return encryptedIdentity;
+    }
+
+    try {
+      const payload = Buffer.from(payloadHex, 'hex');
+      if (payload.length <= 16) {
+        return encryptedIdentity;
+      }
+      const data = payload.subarray(0, payload.length - 16);
+      const authTag = payload.subarray(payload.length - 16);
+
+      const decipher = crypto.createDecipheriv('aes-256-gcm', encryptionKey, Buffer.from(ivHex, 'hex'));
+      decipher.setAuthTag(authTag);
+
+      return Buffer.concat([decipher.update(data), decipher.final()]).toString('utf8');
+    } catch {
+      return encryptedIdentity;
+    }
+  }
+
+  private getEncryptionKey(): Buffer | null {
+    const raw = process.env.DISSENT_ENCRYPTION_KEY || process.env.JWT_SECRET;
+    if (!raw || raw.trim() === '') {
+      return null;
+    }
+
+    const keyMaterial = /^[a-fA-F0-9]{64}$/.test(raw.trim())
+      ? Buffer.from(raw.trim(), 'hex')
+      : Buffer.from(raw, 'utf8');
+
+    return crypto.createHash('sha256').update(keyMaterial).digest();
   }
 
   private generateLedgerHash(id: string, content: string): string {

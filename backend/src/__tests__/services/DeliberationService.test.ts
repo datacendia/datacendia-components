@@ -404,4 +404,40 @@ describe('DeliberationService', () => {
       expect(summary.riskFactors.length).toBeGreaterThan(0);
     });
   });
+
+  describe('generatePDFReport', () => {
+    it('includes print styles for browser-based PDF output', async () => {
+      await service.initialize();
+
+      const saved = await service.saveDeliberation({
+        organizationId: 'org-123',
+        userId: 'user-456',
+        question: 'Should we launch feature X?',
+        mode: 'standard',
+        councilMode: 'executive',
+        agentResponses: [],
+        crossExaminations: [],
+        synthesis: 'Launch in phases.',
+        confidence: 0.82,
+        status: 'completed',
+      });
+
+      const html = service.generatePDFReport(saved, {
+        deliberationId: saved.id,
+        title: 'Executive Summary',
+        date: new Date(),
+        question: saved.question,
+        recommendation: 'Proceed',
+        keyFindings: ['Demand exists'],
+        riskFactors: ['Execution risk'],
+        nextSteps: ['Pilot rollout'],
+        confidence: 82,
+        dissent: [],
+        approvalStatus: 'pending',
+      });
+
+      expect(html).toContain('@media print');
+      expect(html).toContain('page-break');
+    });
+  });
 });

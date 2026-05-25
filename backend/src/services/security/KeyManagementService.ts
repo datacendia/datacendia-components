@@ -97,6 +97,7 @@ export class KeyManagementService {
   private readonly localKeyDir: string;
 
   constructor(config?: Partial<KMSConfig>) {
+    const defaultKeyPath = process.env.KEY_STORAGE_PATH || process.env.LOCAL_KEY_PATH || '/tmp/datacendia-keys';
     this.config = {
       provider: (process.env.KMS_PROVIDER as KMSProvider) || 'local',
       // AWS KMS
@@ -117,11 +118,12 @@ export class KeyManagementService {
       azureClientSecret: process.env.AZURE_CLIENT_SECRET,
       azureKeyName: process.env.AZURE_KEY_NAME || 'datacendia-signing-key',
       // Local
-      localKeyPath: process.env.LOCAL_KEY_PATH || '/var/datacendia/keys',
+      localKeyPath: defaultKeyPath,
       ...config,
     };
 
-    this.localKeyDir = this.config.localKeyPath || '/var/datacendia/keys';
+    this.localKeyDir = this.config.localKeyPath || defaultKeyPath;
+    this.ensureLocalKeyDirectory();
 
 
     this.loadFromDB().catch((err) => logger.warn('[KeyManagementService] loadFromDB failed', err));
@@ -202,9 +204,7 @@ export class KeyManagementService {
 
   private async initializeLocalKeys(): Promise<void> {
     // Ensure key directory exists
-    if (!fs.existsSync(this.localKeyDir)) {
-      fs.mkdirSync(this.localKeyDir, { recursive: true, mode: 0o700 });
-    }
+    this.ensureLocalKeyDirectory();
 
     // Load or generate default signing key
     const defaultKeyPath = path.join(this.localKeyDir, 'default-signing-key');
@@ -881,6 +881,8 @@ export class KeyManagementService {
   }
 
   private async createLocalKey(keyId: string, _options?: { algorithm?: string }): Promise<KeyMetadata> {
+    this.ensureLocalKeyDirectory();
+
     const keyPath = path.join(this.localKeyDir, keyId);
     const publicKeyPath = `${keyPath}.pub`;
     const privateKeyPath = `${keyPath}.pem`;
@@ -951,6 +953,8 @@ export class KeyManagementService {
   }
 
   private async rotateLocalKey(keyId: string): Promise<KeyMetadata> {
+    this.ensureLocalKeyDirectory();
+
     // Archive old key and create new one
     const keyPath = path.join(this.localKeyDir, keyId);
     const timestamp = Date.now();
@@ -1220,6 +1224,16 @@ export class KeyManagementService {
 
     // For cloud KMS, return the key ARN/ID hash
     return crypto.createHash('sha256').update(keyId).digest('hex');
+  }
+
+  private ensureLocalKeyDirectory(): void {
+    try {
+      if (!fs.existsSync(this.localKeyDir)) {
+        fs.mkdirSync(this.localKeyDir, { recursive: true, mode: 0o700 });
+      }
+    } catch (error) {
+      logger.warn(`[KeyManagementService] Could not initialize key directory ${this.localKeyDir}: ${(error as Error).message}`);
+    }
   }
 
 

@@ -26,6 +26,7 @@
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 import crypto from 'crypto';
+import { keyManagementService } from '../security/KeyManagementService.js';
 // iissService loaded dynamically to avoid compile-time dependency on enterprise dcii/ module
 // See buildIISSScores() for the dynamic import
 
@@ -228,9 +229,11 @@ export interface ReceiptGenerationOptions {
 export class RegulatorsReceiptService {
   private static instance: RegulatorsReceiptService;
   private readonly VERSION = '1.0.0';
+  private readonly kmsEnabled = (process.env.KMS_ENABLED ?? 'false').toLowerCase() === 'true';
 
   private constructor() {
     logger.info('ðŸ“œ RegulatorsReceiptService initialized');
+    logger.info(`[RegulatorsReceipt] Signing mode: ${this.kmsEnabled ? 'KMS' : 'HMAC-local'}`);
   }
 
   static getInstance(): RegulatorsReceiptService {
@@ -1142,12 +1145,29 @@ export class RegulatorsReceiptService {
   }
 
   private async signReceipt(receipt: RegulatorsReceipt): Promise<void> {
-    // KMS signing via KeyManagementService when configured
-    // For now, create a placeholder signature
-    receipt.cryptographicProof.signature = `SIG-${crypto.randomBytes(32).toString('hex')}`;
-    receipt.cryptographicProof.signedBy = 'datacendia-kms';
+    if (this.kmsEnabled) {
+      try {
+        const result = await keyManagementService.sign(receipt.cryptographicProof.receiptHash, 'default');
+        receipt.cryptographicProof.signature = result.signature;
+        receipt.cryptographicProof.signedBy = `kms:${result.provider}:${result.keyId}`;
+        receipt.cryptographicProof.signedAt = result.timestamp;
+        receipt.cryptographicProof.publicKeyFingerprint = await keyManagementService.getKeyFingerprint(result.keyId);
+        return;
+      } catch (error) {
+        logger.warn(`[RegulatorsReceipt] KMS signing failed, falling back to HMAC-local: ${(error as Error).message}`);
+      }
+    }
+
+    const secret = process.env.SIGNING_SECRET || 'default-dev-secret';
+    const signature = crypto
+      .createHmac('sha256', secret)
+      .update(receipt.cryptographicProof.receiptHash)
+      .digest('hex');
+
+    receipt.cryptographicProof.signature = signature;
+    receipt.cryptographicProof.signedBy = 'hmac-local';
     receipt.cryptographicProof.signedAt = new Date();
-    receipt.cryptographicProof.publicKeyFingerprint = 'SHA256:placeholder';
+    receipt.cryptographicProof.publicKeyFingerprint = crypto.createHash('sha256').update(secret).digest('hex');
   }
 
   // -------------------------------------------------------------------------
