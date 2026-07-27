@@ -76,7 +76,7 @@ services:
   # PGPOOL - Connection Pooling and Load Balancing
   # =============================================================================
   pgpool:
-    image: bitnami/pgpool:4
+    image: soldevelo/pgpool:4
     container_name: datacendia-pgpool
     environment:
       - PGPOOL_BACKEND_NODES=0:postgres-primary:5432,1:postgres-replica:5432
