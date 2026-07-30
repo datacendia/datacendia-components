@@ -10,7 +10,7 @@ async function verify() {
   // 1. PostgreSQL
   console.log('1. POSTGRESQL - Datacendia Platform Data');
   console.log('─'.repeat(50));
-  const pg = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
+  const pg = new Pool({ connectionString: process.env.DATABASE_URL || 'postgresql://datacendia:changeme@localhost:5433/datacendia' });
   const decisions = await pg.query('SELECT title, status, budget FROM decisions LIMIT 5');
   const metrics = await pg.query('SELECT name, category FROM metric_definitions LIMIT 5');
   console.log(`   Decisions: ${decisions.rowCount}`);
@@ -21,7 +21,13 @@ async function verify() {
   // 2. MySQL - CRM
   console.log('\n2. MYSQL - Enterprise CRM Data');
   console.log('─'.repeat(50));
-  const mysql_conn = await mysql.createConnection({ host: 'localhost', port: 3306, user: 'root', password: 'cendia2025', database: 'clientdata' });
+  const mysql_conn = await mysql.createConnection({
+    host: process.env.MYSQL_HOST || 'localhost',
+    port: parseInt(process.env.MYSQL_PORT || '3306'),
+    user: process.env.MYSQL_USER || 'root',
+    password: process.env.MYSQL_PASSWORD || '',
+    database: process.env.MYSQL_DATABASE || 'clientdata'
+  });
   const [accounts] = await mysql_conn.execute('SELECT name, industry, annual_revenue, tier FROM accounts ORDER BY annual_revenue DESC LIMIT 5');
   const [opps] = await mysql_conn.execute('SELECT name, stage, amount FROM opportunities ORDER BY amount DESC LIMIT 5');
   console.log(`   Top Accounts:`);
@@ -33,7 +39,13 @@ async function verify() {
   // 3. MariaDB - Analytics
   console.log('\n3. MARIADB - Analytics Warehouse');
   console.log('─'.repeat(50));
-  const maria = await mysql.createConnection({ host: 'localhost', port: 3307, user: 'root', password: 'cendia2025', database: 'analytics' });
+  const maria = await mysql.createConnection({
+    host: process.env.MARIADB_HOST || 'localhost',
+    port: parseInt(process.env.MARIADB_PORT || '3307'),
+    user: process.env.MARIADB_USER || 'root',
+    password: process.env.MARIADB_PASSWORD || '',
+    database: process.env.MARIADB_DATABASE || 'analytics'
+  });
   const [quarterly] = await maria.execute('SELECT quarter, metric_name, value, yoy_change FROM quarterly_metrics WHERE quarter = "Q4-2024" LIMIT 5');
   const [products] = await maria.execute('SELECT product_line, monthly_users, nps_score, revenue FROM product_analytics ORDER BY revenue DESC LIMIT 4');
   console.log(`   Q4-2024 Metrics:`);

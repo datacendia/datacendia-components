@@ -9,7 +9,7 @@ async function checkDatabases() {
   console.log('1. POSTGRESQL (Primary Datacendia DB)');
   console.log('-'.repeat(50));
   try {
-    const pg = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
+    const pg = new Pool({ connectionString: process.env.DATABASE_URL || 'postgresql://datacendia:changeme@localhost:5433/datacendia' });
     const decisions = await pg.query('SELECT title, status, budget, department FROM decisions LIMIT 5');
     const metrics = await pg.query(`
       SELECT md.name, md.category, mv.value, md.unit 
@@ -36,7 +36,11 @@ async function checkDatabases() {
   console.log('-'.repeat(50));
   try {
     const mysql_conn = await mysql.createConnection({
-      host: 'localhost', port: 3306, user: 'root', password: 'cendia2025', database: 'clientdata'
+      host: process.env.MYSQL_HOST || 'localhost',
+      port: parseInt(process.env.MYSQL_PORT || '3306'),
+      user: process.env.MYSQL_USER || 'root',
+      password: process.env.MYSQL_PASSWORD || '',
+      database: process.env.MYSQL_DATABASE || 'clientdata'
     });
     const [tables] = await mysql_conn.execute('SHOW TABLES');
     const [customers] = await mysql_conn.execute('SELECT * FROM customers');
@@ -53,7 +57,11 @@ async function checkDatabases() {
   console.log('-'.repeat(50));
   try {
     const maria_conn = await mysql.createConnection({
-      host: 'localhost', port: 3307, user: 'root', password: 'cendia2025', database: 'analytics'
+      host: process.env.MARIADB_HOST || 'localhost',
+      port: parseInt(process.env.MARIADB_PORT || '3307'),
+      user: process.env.MARIADB_USER || 'root',
+      password: process.env.MARIADB_PASSWORD || '',
+      database: process.env.MARIADB_DATABASE || 'analytics'
     });
     const [tables] = await maria_conn.execute('SHOW TABLES');
     const [metrics] = await maria_conn.execute('SELECT * FROM sales_metrics');

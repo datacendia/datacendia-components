@@ -475,8 +475,8 @@ const loginRes = await fetch('http://localhost:3001/api/v1/auth/login', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
-    email: 'admin@datacendia.com',
-    password: 'DatacendiaAdmin2024!'
+    email: 'your-email@company.com',
+    password: 'your-password'
   })
 });
 const { accessToken } = (await loginRes.json()).data;
