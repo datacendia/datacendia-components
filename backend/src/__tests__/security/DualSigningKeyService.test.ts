@@ -19,11 +19,38 @@
 // log stream is a signing key anyone with log access can forge with.
 // =============================================================================
 
-import { describe, it, expect, beforeAll, vi } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, vi } from 'vitest';
 import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 
 // Fixed seed; a test vector, not a secret.
 const TEST_SEED = 'b'.repeat(128);
+
+// Captured before anything is mutated so the whole set can be restored in
+// afterAll(). Vitest isolates files by default, but that is a configuration
+// choice rather than a guarantee -- under `isolate: false`, or any pool sharing
+// a process, unrestored env mutations would leak into unrelated suites.
+const MUTATED_ENV_KEYS = [
+  'CENDIA_ED25519_PRIVATE_KEY',
+  'CENDIA_DILITHIUM_PRIVATE_KEY',
+  'CENDIA_MASTER_SEED',
+] as const;
+
+const ORIGINAL_ENV: Partial<Record<(typeof MUTATED_ENV_KEYS)[number], string | undefined>> = {};
+for (const key of MUTATED_ENV_KEYS) {
+  ORIGINAL_ENV[key] = process.env[key];
+}
+
+afterAll(() => {
+  for (const key of MUTATED_ENV_KEYS) {
+    const original = ORIGINAL_ENV[key];
+    if (original === undefined) {
+      delete process.env[key];
+    } else {
+      process.env[key] = original;
+    }
+  }
+  vi.restoreAllMocks();
+});
 
 describe('DualSigningKeyService — key disclosure', () => {
   let logged: string[];
