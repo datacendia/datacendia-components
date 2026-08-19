@@ -15,6 +15,9 @@
 import { ed25519 } from '@noble/curves/ed25519.js';
 import { ml_dsa65 } from '@noble/post-quantum/ml-dsa.js';
 
+// ML-DSA-65 secret key length, fixed by FIPS 204.
+const ML_DSA_65_SECRET_KEY_BYTES = 4032;
+
 
 
 import crypto from 'crypto';
@@ -109,12 +112,21 @@ export class KeyManagementService {
         logger.info(`   Dilithium Public Key: ${this.dilithiumKeys.publicKeyHex.substring(0, 16)}...`);
         logger.info(`   Dilithium Fingerprint: ${this.dilithiumKeys.fingerprint}`);
 
-        // Log the private keys for first-boot persistence
+        // Key material is NEVER logged. Anything written here goes to stdout and
+        // from there into container logs, the hosting provider's log stream, and
+        // any aggregator downstream -- retained for as long as that pipeline
+        // retains anything, and readable by anyone with access to it. A signing
+        // key in a log is a signing key an attacker can use to produce
+        // signatures indistinguishable from ours.
+        //
+        // Fingerprints are safe to log and are enough to identify which key is
+        // running. Generate keys out-of-band and load them from a secret store.
         if (!process.env.CENDIA_ED25519_PRIVATE_KEY) {
-          logger.warn('🔐 CendiaKMS: Set these environment variables to persist keys:');
-          logger.warn(`   CENDIA_ED25519_PRIVATE_KEY=${bytesToHex(this.ed25519Keys.privateKey)}`);
-          logger.warn(`   CENDIA_DILITHIUM_PRIVATE_KEY=${bytesToHex(this.dilithiumKeys.privateKey)}`);
-          logger.warn(`   CENDIA_MASTER_SEED=${masterSeed}`);
+          logger.warn('🔐 CendiaKMS: Keys were generated randomly and will change on restart.');
+          logger.warn('   Set CENDIA_ED25519_PRIVATE_KEY, CENDIA_DILITHIUM_PRIVATE_KEY, and CENDIA_MASTER_SEED to persist them.');
+          logger.warn(`   Ed25519 Fingerprint:   ${this.ed25519Keys.fingerprint}`);
+          logger.warn(`   Dilithium Fingerprint: ${this.dilithiumKeys.fingerprint}`);
+          logger.warn('   Generate keys out-of-band and store them in your secret manager.');
         }
       }
 
@@ -184,17 +196,32 @@ export class KeyManagementService {
 
   private loadDilithiumKey(privateKeyHex: string): KeyPair {
     const privateKey = hexToBytes(privateKeyHex);
-    // Re-derive public key from private key
-    // ML-DSA private key contains the public key — extract it
-    const seed = sha256(privateKey).slice(0, 32);
-    const keys = ml_dsa65.keygen(seed);
-    const publicKeyHex = bytesToHex(keys.publicKey).substring(0, 128) + '...';
-    const fingerprint = `SHA256:${bytesToHex(sha256(keys.publicKey)).substring(0, 32)}`;
+
+    // ML-DSA-65 secret keys are a fixed 4032 bytes. Catching a wrong-sized key
+    // here gives a usable error instead of an opaque failure inside the library.
+    if (privateKey.length !== ML_DSA_65_SECRET_KEY_BYTES) {
+      throw new Error(
+        `CENDIA_DILITHIUM_PRIVATE_KEY must be ${ML_DSA_65_SECRET_KEY_BYTES} bytes ` +
+          `(${ML_DSA_65_SECRET_KEY_BYTES * 2} hex characters) for ML-DSA-65, ` +
+          `got ${privateKey.length} bytes`
+      );
+    }
+
+    // The ML-DSA secret key encodes its own public key, so recover it directly.
+    //
+    // This previously read `ml_dsa65.keygen(sha256(privateKey).slice(0, 32))`,
+    // which does not load the supplied key at all — it derives a brand new,
+    // unrelated key pair from a hash of it and returns that instead. Persisting
+    // a key via CENDIA_DILITHIUM_PRIVATE_KEY therefore produced a *different*
+    // signing key, whose public key did not match the published fingerprint.
+    const publicKey = ml_dsa65.getPublicKey(privateKey);
+    const publicKeyHex = bytesToHex(publicKey).substring(0, 128) + '...';
+    const fingerprint = `SHA256:${bytesToHex(sha256(publicKey)).substring(0, 32)}`;
 
     return {
       algorithm: 'ML-DSA-65 (Dilithium)',
-      publicKey: keys.publicKey,
-      privateKey: keys.secretKey,
+      publicKey,
+      privateKey,
       publicKeyHex,
       fingerprint,
       createdAt: new Date(),
@@ -218,7 +245,7 @@ export class KeyManagementService {
     const ed25519Sig = ed25519.sign(message, this.ed25519Keys!.privateKey);
 
     // ML-DSA-65 (Dilithium) signature
-    const dilithiumSig = ml_dsa65.sign(this.dilithiumKeys!.privateKey, message);
+    const dilithiumSig = ml_dsa65.sign(message, this.dilithiumKeys!.privateKey);
 
     return {
       ed25519: {
@@ -280,7 +307,7 @@ export class KeyManagementService {
     try {
       const sig = hexToBytes(signature.dilithium.signature);
       const pubKey = hexToBytes(signature.dilithium.publicKey);
-      dilithiumValid = ml_dsa65.verify(pubKey, message, sig);
+      dilithiumValid = ml_dsa65.verify(sig, message, pubKey);
       if (!dilithiumValid) {
         issues.push('ML-DSA-65 (Dilithium) signature verification failed');
       }
