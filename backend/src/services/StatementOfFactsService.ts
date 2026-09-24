@@ -17,6 +17,7 @@
 // This is the "show your work" layer that ensures trust and transparency
 // =============================================================================
 
+import { getOllamaBaseUrl } from '../config/ollama.js';
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { loadServiceRecords } from '../utils/servicePersistence.js';
@@ -194,7 +195,7 @@ export class StatementOfFactsService extends BaseService {
       dependencies: ['deliberation-service'],
       ...config,
     });
-    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://127.0.0.1:11434';
+    this.ollamaEndpoint = getOllamaBaseUrl();
 
 
     this.loadFromDB().catch(() => {});

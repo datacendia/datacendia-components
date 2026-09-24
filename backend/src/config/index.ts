@@ -11,6 +11,7 @@
 // Proprietary and confidential. Unauthorized copying is strictly prohibited.
 // See LICENSE file for details.
 
+import { getOllamaBaseUrl } from './ollama.js';
 import dotenv from 'dotenv';
 import { z } from 'zod';
 import fs from 'fs';
@@ -118,7 +119,7 @@ const envVars = {
   neo4jPassword: process.env.NEO4J_PASSWORD,
   inferenceProvider: process.env.INFERENCE_PROVIDER,
   inferenceFailover: process.env.INFERENCE_FAILOVER,
-  ollamaBaseUrl: process.env.OLLAMA_BASE_URL,
+  ollamaBaseUrl: getOllamaBaseUrl(),
   ollamaModel: process.env.OLLAMA_MODEL,
   ollamaModelFlagship: process.env.OLLAMA_MODEL_FLAGSHIP,
   ollamaModelFast: process.env.OLLAMA_MODEL_FAST,

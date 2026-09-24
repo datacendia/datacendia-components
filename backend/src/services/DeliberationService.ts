@@ -16,6 +16,7 @@
 // Persistent storage, executive summaries, and minutes for Council deliberations
 // =============================================================================
 
+import { getOllamaBaseUrl } from '../config/ollama.js';
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { druidEventStream } from './DruidEventStream.js';
@@ -121,7 +122,7 @@ export class DeliberationService extends BaseService {
       dependencies: ['database'],
       ...config,
     });
-    this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://127.0.0.1:11434';
+    this.ollamaEndpoint = getOllamaBaseUrl();
     this.socketServer = socketServer || null;
 
 

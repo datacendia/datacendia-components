@@ -29,6 +29,7 @@
  * =============================================================================
  */
 
+import { getOllamaBaseUrl } from '../config/ollama.js';
 import { prisma } from '../config/database.js';
 import ollamaService from './ollama.js';
 import { logger } from '../utils/logger.js';
@@ -203,7 +204,7 @@ class CendiaOmniTranslateService {
     // Check if Ollama is available
     let ollamaAvailable = false;
     try {
-      const response = await fetch('http://127.0.0.1:11434/api/tags');
+      const response = await fetch(`${getOllamaBaseUrl()}/api/tags`);
       if (response.ok) {
         ollamaAvailable = true;
         const data = await response.json() as { models?: Array<{ name: string }> };
@@ -250,7 +251,7 @@ class CendiaOmniTranslateService {
       logger.info(`[OmniTranslate] Pulling model ${TRANSLATION_MODELS.fast}...`);
       
       // Use Ollama pull API
-      const response = await fetch('http://127.0.0.1:11434/api/pull', {
+      const response = await fetch(`${getOllamaBaseUrl()}/api/pull`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: TRANSLATION_MODELS.fast, stream: false }),
