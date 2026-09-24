@@ -12,6 +12,19 @@ param(
     [string]$CorePath = "$PSScriptRoot\..\..\datacendia-core"
 )
 
+# -----------------------------------------------------------------------------
+# DISABLED (2026-09-23). This script force-copies components files over core:
+#   - 175 shared files are newer in core (CSRF, evidence, receipt, auth fixes)
+#     and would be silently overwritten;
+#   - it copied LICENSE, src/App.tsx and src/main.tsx, putting the proprietary
+#     licence and headers into the Apache 2.0 repo.
+# The open-core plan replaces it with "core upstream, Sovereign on top":
+# changes land in datacendia-core and flow down by merge, never by copy.
+# -----------------------------------------------------------------------------
+Write-Host "sync-to-core.ps1 is disabled: it overwrites fixes made in datacendia-core and copies the proprietary LICENSE." -ForegroundColor Red
+Write-Host "Make shared changes in datacendia-core instead (see the open-core plan)." -ForegroundColor Yellow
+exit 1
+
 $ComponentsPath = "$PSScriptRoot\.."
 
 # Resolve absolute paths
@@ -76,8 +89,6 @@ $backendCommunityDirs = @(
 
 # Individual files to sync
 $syncFiles = @(
-    "src/App.tsx",
-    "src/main.tsx",
     "src/vite-env.d.ts",
     "backend/src/routes/auth.ts",
     "backend/src/routes/council.ts",
@@ -92,8 +103,7 @@ $syncFiles = @(
     "COMMUNITY.md",
     "CODE_OF_CONDUCT.md",
     "SECURITY.md",
-    "CHANGELOG.md",
-    "LICENSE"
+    "CHANGELOG.md"
 )
 
 # ---------------------------------------------------------------------------
