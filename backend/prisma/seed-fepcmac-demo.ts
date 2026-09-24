@@ -4,12 +4,12 @@
 // Run with: npx ts-node prisma/seed-fepcmac-demo.ts
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 import { randomUUID } from 'crypto';
 import * as crypto from 'crypto';
 import bcrypt from 'bcryptjs';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 // FEPCMAC Demo IDs
 const DEMO_ORG_ID = 'demo-fepcmac';

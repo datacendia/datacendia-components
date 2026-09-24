@@ -2,9 +2,9 @@
 // BULK SEED - Add 10,000+ rows of realistic data
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 async function main() {
   console.log('🚀 Starting bulk data generation (100,000+ rows)...\n');

@@ -5,10 +5,10 @@
  * =============================================================================
  */
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 import crypto from 'crypto';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 // =============================================================================
 // HELPER FUNCTIONS

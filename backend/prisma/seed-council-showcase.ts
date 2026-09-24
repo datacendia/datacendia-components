@@ -3,10 +3,10 @@
 // Run with: npx tsx prisma/seed-council-showcase.ts
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 import * as crypto from 'crypto';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 const DEMO_ORG_ID = 'demo-acme-corp';
 const SHOWCASE = 'showcase-';
 
@@ -211,15 +211,18 @@ async function seedOne(def: DelibDef): Promise<void> {
     });
   }
 
+  // audit_logs.user_id references users, so only people go there; agents and
+  // the system are recorded as the actor in details.
+  const humanIds = new Set(Object.values(USERS).map((u) => u.id));
   let prevHash = '0'.repeat(64);
   for (const ae of auditActions) {
     const hash = sha(JSON.stringify({ ...ae, prevHash }));
     await prisma.audit_logs.create({
       data: {
         id: `${SHOWCASE}audit-${def.key}-${ae.action.replace(/\./g, '-')}`,
-        organization_id: DEMO_ORG_ID, user_id: ae.actor,
+        organization_id: DEMO_ORG_ID, user_id: humanIds.has(ae.actor) ? ae.actor : null,
         action: ae.action, resource_type: 'deliberation', resource_id: id,
-        details: { chain_hash: hash, previous_hash: prevHash,
+        details: { actor: ae.actor, chain_hash: hash, previous_hash: prevHash,
           ...(ae.action === 'human.review' && def.humanReview ? { reviewer: def.humanReview.reviewer, note: def.humanReview.note } : {}),
         },
         ip_address: '10.0.1.42', user_agent: 'Datacendia-Council/1.0',

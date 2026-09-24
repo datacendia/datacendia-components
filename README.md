@@ -145,7 +145,7 @@ cd datacendia-components
 docker compose -f docker-compose.demo.yml up
 ```
 
-Open **http://localhost:5173** → log in as `sarah.chen@acme.demo` (dev auth bypass, no password).
+Open **http://localhost:5173** → log in as `sarah.chen@acme.demo` with password `demo-password-2024`.
 
 You'll see a pre-seeded Acme Corporation with 5 users, 6 Council agents, 5 deliberations (completed + in-progress), 8 decisions, 12 months of metrics, and a full audit trail. ~6GB RAM required.
 

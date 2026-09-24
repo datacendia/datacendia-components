@@ -8,19 +8,32 @@ echo "╚═══════════════════════�
 
 # Wait for postgres
 echo "Waiting for PostgreSQL..."
-until wget -q --spider http://postgres:5432 2>/dev/null || pg_isready -h postgres -U datacendia_demo 2>/dev/null; do
+# Postgres doesn't speak HTTP and the image has no pg_isready, so check the
+# TCP port directly (busybox nc ships with Alpine).
+PG_HOST="${PG_HOST:-postgres}"
+PG_PORT="${PG_PORT:-5432}"
+tries=0
+until nc -z "$PG_HOST" "$PG_PORT" 2>/dev/null; do
+  tries=$((tries + 1))
+  if [ "$tries" -ge 60 ]; then
+    echo "PostgreSQL did not accept connections after 120s. Giving up."
+    exit 1
+  fi
   sleep 2
   echo "  ...waiting for PostgreSQL"
 done
 echo "PostgreSQL is ready."
 
-# Run migrations
-echo "Running Prisma migrations..."
-npx prisma migrate deploy --schema=prisma/schema 2>&1 || {
-  echo "Falling back to db push..."
-  npx prisma db push --schema=prisma/schema 2>&1 || {
-    echo "Warning: Schema push failed. Starting anyway..."
-  }
+# Create the schema. `migrate deploy` can't do it here: under Prisma 7 it finds
+# no migrations unless prisma.config.ts sets migrations.path, and the history
+# doesn't replay onto an empty database (20260304053601 re-creates
+# ledger_entries). The demo database starts empty, so sync it from the schema
+# (a no-op on restarts), and stop if that fails: every page needs these tables.
+echo "Creating database schema..."
+npx prisma db push --schema=prisma/schema 2>&1 || {
+  echo "Schema push failed; the demo cannot run without its tables."
+  echo "To start over with a fresh database: docker compose -f docker-compose.demo.yml down -v"
+  exit 1
 }
 echo "Database schema ready."
 
@@ -44,8 +57,8 @@ echo "║  Frontend:  http://localhost:5173                          ║"
 echo "║  API:       http://localhost:3001                          ║"
 echo "║  API Docs:  http://localhost:3001/api/v1                   ║"
 echo "║                                                            ║"
-echo "║  Demo Login: sarah.chen@acme.demo                         ║"
-echo "║  (dev auth bypass — no password needed)                    ║"
+echo "║  Demo login:    sarah.chen@acme.demo                       ║"
+echo "║  Password:      demo-password-2024                         ║"
 echo "╚════════════════════════════════════════════════════════════╝"
 echo ""
 
