@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed — 2026-09-23 — Demo first run, production sign-in, fresh installs
+
+- **Demo API never started** -- the entrypoint probed Postgres with `wget` (not HTTP) or `pg_isready` (not in the image) and looped forever. It now checks the TCP port with `nc` and gives up after 120s
+- **No demo user could sign in** -- the seed stored sha256 hashes; login checks bcrypt. Seeded users now get a bcrypt hash of `demo-password-2024`, which the README, compose file and banner now state instead of "no password"
+- **Production sign-in rejected** -- CSRF is enforced when `NODE_ENV=production`, but the frontend never sent a token, so login and every other anonymous write returned 403. The API client now fetches and sends the token (and uses cookies cross-origin); bearer-authenticated requests skip the check, since another origin can't set that header. Exempt paths are matched on `originalUrl`, so webhooks under `/api` are exempt again
+- **Production builds called localhost** -- without `VITE_API_URL` the client defaulted to `http://localhost:3001/api/v1`; it is same-origin `/api/v1` now
+- **Model calls from containers went to the container itself** -- 18 files read `OLLAMA_HOST`/`OLLAMA_URL` or hardcoded `127.0.0.1:11434` instead of the configured `OLLAMA_BASE_URL`. Everything resolves through `config/ollama.ts`
+- **Fresh clones couldn't install** -- `prisma.config.ts` required `DATABASE_URL` just to run `prisma generate`, and its `__dirname` schema path broke the Prisma CLI on Windows
+- **The API image couldn't build** -- the builder stage compiles `better-sqlite3` from source (no musl prebuild for Node 20.20) but had no Python or compiler, and the `prisma generate` that `npm install` runs couldn't find the multi-file schema because `prisma.config.ts` was copied in only afterwards. The builder now installs `python3 make g++` (they stay out of the runtime image) and copies the config first. The runtime image gets it too: the schema has no datasource URL, so `prisma migrate deploy` in the entrypoint reads it from there. This went unnoticed because `deploy.yml` builds images only after its tests pass, and they had failed since February
+- **The API crashed at startup in any container** -- services create their storage directories under `/var/datacendia` when their modules load; the non-root user couldn't, and the uncaught `EACCES` killed the process (the production image too, unless a volume was mounted there). The image now creates the directory for that user
+- **The demo database had no tables** -- under Prisma 7, `prisma migrate deploy` finds no migrations unless `prisma.config.ts` sets `migrations.path`, so it succeeded without creating anything and the `db push` fallback never ran. The demo entrypoint now creates the schema with `db push` and stops if that fails. The production entrypoint is unchanged: the migration history doesn't replay onto an empty database (`20260304053601` re-creates `ledger_entries`), which needs repairing before `migrations.path` can be set
+- **Seeds and maintenance scripts couldn't connect** -- Prisma 7 requires a driver adapter, and 17 scripts under `prisma/` and `scripts/` built a bare `PrismaClient`. They now share `prisma/script-client.ts`, which mirrors the app's client and loads `.env`
+- **The Council showcase seed failed** -- it wrote agent and system actors into `audit_logs.user_id`, a foreign key to `users`. Only people go there now; every entry records its actor in `details`
+- **Host files leaked into the image** -- with no `.dockerignore`, `COPY . .` laid the host's `node_modules` over the Linux install and would bake a local `.env` into a layer
+- **Defensive CRLF strip** -- the Dockerfile strips CRs from the entrypoints, in case a build context bypasses `.gitattributes`
+
+### Changed — 2026-09-23
+
+- **Smaller, faster API image** -- `COPY --chown` replaces a trailing `chown -R` that duplicated `node_modules` into a second layer
+- **`scripts/sync-to-core.ps1` disabled** -- it force-copied files over datacendia-core (175 shared files are newer there) and copied the proprietary LICENSE into the Apache repo. Shared changes now land in core first (open-core plan)
+
+### Added — 2026-09-23
+
+- **Demo smoke test** -- CI boots the demo compose stack and fails if the API crash-loops, never becomes healthy, or starts without its seed data
+
 ### Changed — 2026-04-16 (Late Afternoon) — Zero TypeScript Errors + Final Wave of Wiring
 
 #### TypeScript Compilation — 0 Errors Across Entire Monorepo
