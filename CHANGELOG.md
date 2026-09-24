@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Security — 2026-09-24
+
+- **Logged-out tokens could be revived** -- logout blacklisted the raw token string, but a JWS signature has four base64url spellings of the same bytes, so a respelled copy of a logged-out token still authenticated (reproduced: 401 for the original, 200 for the copy). The blacklist key now uses the canonical signature, which matches entries written before the change. WebSocket connections checked no blacklist at all and now refuse revoked tokens too
+- **Tampered, foreign or malformed tokens returned 500** -- only expired and `JWTInvalid` errors mapped to 401; every jose error does now, while database errors still surface as themselves
+
 ### Fixed — 2026-09-23 — Demo first run, production sign-in, fresh installs
 
 - **Demo API never started** -- the entrypoint probed Postgres with `wget` (not HTTP) or `pg_isready` (not in the image) and looped forever. It now checks the TCP port with `nc` and gives up after 120s
