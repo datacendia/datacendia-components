@@ -7,8 +7,7 @@
  * @module middleware/csrf
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
-// Proprietary and confidential. Unauthorized copying is strictly prohibited.
+﻿// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
 // See LICENSE file for details.
 
 /**
@@ -35,6 +34,8 @@ const EXEMPT_PATHS = [
   '/api/v1/webhooks',
   '/api/v1/integrations/webhook',
   '/api/v1/contact', // Public contact form uses different protection
+  '/api/v1/leads', // Public demo request form
+  '/api/v1/auth/demo-access', // Frictionless demo entry form
   '/api/v1/legal-research', // Legal research API for dev testing
   '/health',
   '/api/docs',
@@ -98,14 +99,23 @@ export const csrfProtection = (
     return next();
   }
 
-  // Skip CSRF check for exempt paths
-  if (isExemptPath(req.path)) {
+  // Skip CSRF check for exempt paths (use originalUrl — req.path is stripped when mounted at /api/)
+  if (isExemptPath(req.originalUrl)) {
     return next();
   }
 
-  // Skip in development if explicitly disabled
-  if (config.nodeEnv === 'development' && process.env['DISABLE_CSRF'] === 'true') {
-    logger.warn('⚠️  CSRF protection disabled in development');
+  // Bearer-authenticated requests can't be forged cross-site: browsers only
+  // attach ambient credentials (cookies) on their own, and another origin can't
+  // add an Authorization header without a CORS preflight this API rejects. The
+  // app authenticates with bearer tokens, so the double-submit check guards
+  // the anonymous writes (login, registration, password reset) and anything
+  // cookie-authenticated.
+  if (/^Bearer\s+\S+/i.test(req.get('authorization') ?? '')) {
+    return next();
+  }
+
+  // Skip in test environment only if explicitly disabled
+  if (config.nodeEnv === 'test' && process.env['DISABLE_CSRF'] === 'true') {
     return next();
   }
 
