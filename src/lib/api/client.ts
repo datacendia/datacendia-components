@@ -37,7 +37,9 @@ let csrfToken: string | null = null;
 let csrfRequest: Promise<string | null> | null = null;
 
 export async function getCsrfToken(forceRefresh = false): Promise<string | null> {
-  if (csrfToken && !forceRefresh) return csrfToken;
+  if (csrfToken && !forceRefresh) {
+    return csrfToken;
+  }
   if (!csrfRequest) {
     csrfRequest = fetch(`${API_BASE_URL}/csrf-token`, { credentials: 'include' })
       .then((res) => (res.ok ? res.json() : null))
@@ -54,7 +56,9 @@ export async function getCsrfToken(forceRefresh = false): Promise<string | null>
 }
 
 async function isCsrfRejection(response: Response): Promise<boolean> {
-  if (response.status !== 403) return false;
+  if (response.status !== 403) {
+    return false;
+  }
   try {
     const body = await response.clone().json();
     return typeof body?.error?.code === 'string' && body.error.code.startsWith('CSRF_');
@@ -249,7 +253,9 @@ class ApiClient {
     const isWrite = UNSAFE_METHODS.has((options.method ?? 'GET').toUpperCase());
     if (isWrite) {
       const csrf = await getCsrfToken();
-      if (csrf) headers[CSRF_HEADER] = csrf;
+      if (csrf) {
+        headers[CSRF_HEADER] = csrf;
+      }
     }
 
     // Add timeout to prevent slow loading (15 seconds)
