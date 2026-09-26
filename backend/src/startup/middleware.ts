@@ -40,6 +40,7 @@ import {
 } from '../middleware/SecurityMiddleware.js';
 import { sentry } from '../telemetry/sentry.js';
 import { apiCache, CACHE_TTLS } from '../middleware/cacheMiddleware.js';
+import { optionalAuth } from '../middleware/auth.js';
 import {
   authLimiter,
   billingLimiter,
@@ -278,9 +279,13 @@ export function setupMiddleware(app: Express): void {
   // =========================================================================
   // REDIS CACHE
   // =========================================================================
+  // Every cache entry belongs to one caller (see cacheIdentity), so the caller
+  // must be known here: routes authenticate inside their domain routers, which
+  // run after this. Without it, the cache served any user's cached response to
+  // every caller of the same URL, anonymous ones included.
+  app.use('/api/v1', optionalAuth);
   app.use('/api/v1', apiCache({
     ttl: CACHE_TTLS.DECISIONS,
-    varyByOrg: true,
     excludePaths: [
       /\/auth\//,
       /\/csrf-token/,

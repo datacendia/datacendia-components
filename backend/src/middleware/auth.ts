@@ -74,6 +74,14 @@ const JWT_SECRET = new TextEncoder().encode(config.jwtSecret);
 const USER_CACHE_TTL_SECONDS = 60;
 
 /**
+ * Token each request has already been authenticated with. optionalAuth (ahead
+ * of the response cache) and the domain routers all run authenticate, so
+ * without this one request verified its token, checked revocation and looked
+ * up its user several times.
+ */
+const authenticatedTokens = new WeakMap<Request, string>();
+
+/**
  * Verify JWT token and attach user to request
  */
 export const authenticate = async (
@@ -89,6 +97,10 @@ export const authenticate = async (
     }
 
     const token = authHeader.substring(7);
+
+    if (req.user && authenticatedTokens.get(req) === token) {
+      return next();
+    }
 
     // Verify token
     const { payload } = await jose.jwtVerify(token, JWT_SECRET) as { payload: JWTPayload };
@@ -132,7 +144,8 @@ export const authenticate = async (
 
     req.user = user!;
     req.organizationId = user!.organizationId;
-    
+    authenticatedTokens.set(req, token);
+
     next();
   } catch (error) {
     if (error instanceof jose.errors.JWTExpired) {
