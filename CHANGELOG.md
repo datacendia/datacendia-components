@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security — 2026-09-24
 
+- **Cached responses were served to anyone** -- the API response cache ran before authentication and keyed entries by URL, so any user's cached response went to every caller of the same URL within the TTL, anonymous ones included. Entries now belong to one signed-in user (or to anonymous callers only), and requests with credentials nobody resolved aren't cached
+- **The TOTP secret went to a third party** -- `/mfa/setup` returned a `qrCodeUrl` pointing at `api.qrserver.com` with the `otpauth://` URL, secret included, in its query string. It's gone; clients render the QR from `otpauthUrl`
+- **Any X-Admin-Key opened the webhook admin routes** -- the value was never checked. It's compared against a configured `adminKey` now; unset, the routes are closed
+- **Keycloak dev bypass** -- `x-bypass-auth: true` made any caller an admin whenever `NODE_ENV=development`, which the demo compose file sets. It now also needs `KEYCLOAK_DEV_BYPASS=true`
 - **Logged-out tokens could be revived** -- logout blacklisted the raw token string, but a JWS signature has four base64url spellings of the same bytes, so a respelled copy of a logged-out token still authenticated (reproduced: 401 for the original, 200 for the copy). The blacklist key now uses the canonical signature, which matches entries written before the change. WebSocket connections checked no blacklist at all and now refuse revoked tokens too
 - **Tampered, foreign or malformed tokens returned 500** -- only expired and `JWTInvalid` errors mapped to 401; every jose error does now, while database errors still surface as themselves
 
