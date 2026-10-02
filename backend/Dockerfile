@@ -3,9 +3,16 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
-COPY prisma ./prisma/
+# Native modules (better-sqlite3) ship no musl prebuild for every Node release,
+# so node-gyp compiles them here. Build tools stay in this stage only.
+RUN apk add --no-cache python3 make g++
+
+# Copy package files. prisma.config.ts has to be here too: it is the only place
+# that points Prisma 7 at the multi-file schema, and postinstall runs
+# `prisma generate`. Only the schema is copied before the install, so editing a
+# seed doesn't throw away the (slow, native-compiling) install layer.
+COPY package*.json prisma.config.ts ./
+COPY prisma/schema ./prisma/schema/
 
 # Install dependencies
 RUN npm install
@@ -30,19 +37,28 @@ RUN apk add --no-cache dumb-init
 RUN addgroup -g 1001 -S nodejs && \
     adduser -S nodejs -u 1001
 
+# Services store files under /var/datacendia/<name> by default (each path has an
+# env override) and create them at startup; as the non-root user that failed
+# with EACCES and crashed the API.
+RUN mkdir -p /var/datacendia && chown nodejs:nodejs /var/datacendia
+
 # Copy built files
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/src ./src
-COPY --from=builder /app/prisma ./prisma
-COPY --from=builder /app/package*.json ./
+# Files are owned by the runtime user at copy time. A separate chown -R
+# afterwards rewrote every file in node_modules into a second multi-GB layer.
+COPY --chown=nodejs:nodejs --from=builder /app/node_modules ./node_modules
+COPY --chown=nodejs:nodejs --from=builder /app/src ./src
+COPY --chown=nodejs:nodejs --from=builder /app/prisma ./prisma
+COPY --chown=nodejs:nodejs --from=builder /app/package*.json ./
+# The schema has no datasource url (Prisma 7); `prisma migrate deploy` in the
+# entrypoint reads it from here.
+COPY --chown=nodejs:nodejs --from=builder /app/prisma.config.ts ./
 
 # Copy entrypoint scripts
-COPY docker-entrypoint.sh ./
-COPY docker-entrypoint.demo.sh ./
-RUN chmod +x docker-entrypoint.sh docker-entrypoint.demo.sh
-
-# Set ownership
-RUN chown -R nodejs:nodejs /app
+COPY --chown=nodejs:nodejs docker-entrypoint.sh docker-entrypoint.demo.sh ./
+# Strip CRLF in case the build context came from a Windows checkout.
+RUN sed -i 's/\r$//' docker-entrypoint.sh docker-entrypoint.demo.sh && \
+    chmod +x docker-entrypoint.sh docker-entrypoint.demo.sh && \
+    chown nodejs:nodejs /app
 
 USER nodejs
 

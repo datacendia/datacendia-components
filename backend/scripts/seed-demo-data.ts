@@ -6,10 +6,11 @@
  */
 
 import 'dotenv/config';
-import { PrismaClient, UserRole, WorkflowStatus } from '@prisma/client';
+import { UserRole, WorkflowStatus } from '@prisma/client';
+import { createScriptClient } from '../prisma/script-client.js';
 import bcrypt from 'bcryptjs';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 // ============================================================================
 // CONFIGURATION

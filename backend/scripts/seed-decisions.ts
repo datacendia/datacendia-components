@@ -3,9 +3,9 @@
 // Run: npx tsx scripts/seed-decisions.ts
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from '../prisma/script-client.js';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 async function seedDecisions() {
   console.log('🧬 Seeding Decision DNA data...');

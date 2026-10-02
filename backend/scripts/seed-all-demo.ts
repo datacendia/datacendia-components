@@ -3,10 +3,11 @@
 // Run with: npx tsx scripts/seed-all-demo.ts
 // =============================================================================
 
-import { PrismaClient, AlertSeverity, AlertStatus, WorkflowStatus, DataSourceStatus, DataSourceType, ApprovalStatus, ApprovalType } from '@prisma/client';
+import { AlertSeverity, AlertStatus, WorkflowStatus, DataSourceStatus, DataSourceType, ApprovalStatus, ApprovalType } from '@prisma/client';
+import { createScriptClient } from '../prisma/script-client.js';
 import crypto from 'crypto';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 async function seedAllDemoData() {
   console.log('🚀 Seeding all demo data...\n');

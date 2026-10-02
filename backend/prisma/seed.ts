@@ -5,10 +5,11 @@
 
 /// <reference types="node" />
 
-import { PrismaClient, UserRole, WorkflowStatus } from '@prisma/client';
+import { UserRole, WorkflowStatus } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 import bcrypt from 'bcryptjs';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 // =============================================================================
 // COUNCIL AGENTS - The 6 AI Personas

@@ -99,6 +99,9 @@ export default defineConfig({
   },
   // Optimize deps for faster cold starts
   optimizeDeps: {
+    // Only crawl the app's own entry; by default Vite scans every .html file,
+    // including the browser-extension pages, which aren't part of this app.
+    entries: ['index.html'],
     include: ['react', 'react-dom', 'react-router-dom', 'clsx'],
     exclude: ['data'],
   },

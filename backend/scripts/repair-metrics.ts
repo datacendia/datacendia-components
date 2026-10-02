@@ -1,9 +1,9 @@
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from '../prisma/script-client.js';
 import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 // Improved confidence calculation logic - returns 0-1 scale
 function calculateConfidenceRaw(response: string): number {

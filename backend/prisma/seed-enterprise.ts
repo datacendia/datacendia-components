@@ -6,9 +6,9 @@
 // Run with: npx ts-node prisma/seed-enterprise.ts
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 async function seedMesh() {
   console.log('Seeding CendiaMesh™ data...');

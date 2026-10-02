@@ -106,9 +106,10 @@ describe('KeycloakAuth', () => {
       return res;
     }
 
-    it('should allow bypass in development mode', async () => {
+    it('should allow bypass in development mode when a developer opts in', async () => {
       const originalEnv = process.env['NODE_ENV'];
       process.env['NODE_ENV'] = 'development';
+      process.env['KEYCLOAK_DEV_BYPASS'] = 'true';
 
       const req = createMockReq({ bypassAuth: true });
       const res = createMockRes();
@@ -120,6 +121,27 @@ describe('KeycloakAuth', () => {
       expect(next).toHaveBeenCalled();
       expect(req.keycloakUser).toBeDefined();
       expect(req.keycloakUser?.roles).toContain('admin');
+
+      process.env['NODE_ENV'] = originalEnv;
+      delete process.env['KEYCLOAK_DEV_BYPASS'];
+    });
+
+    it('should ignore the bypass header in development without the opt-in', async () => {
+      // The demo compose file runs NODE_ENV=development; the header alone used
+      // to make any caller a Keycloak admin there.
+      const originalEnv = process.env['NODE_ENV'];
+      process.env['NODE_ENV'] = 'development';
+      delete process.env['KEYCLOAK_DEV_BYPASS'];
+
+      const req = createMockReq({ bypassAuth: true });
+      const res = createMockRes();
+      const next = vi.fn();
+
+      const middleware = protect();
+      await middleware(req, res, next);
+
+      expect(req.keycloakUser).toBeUndefined();
+      expect(res.statusCode).toBe(401);
 
       process.env['NODE_ENV'] = originalEnv;
     });

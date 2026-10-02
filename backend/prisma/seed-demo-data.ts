@@ -4,9 +4,9 @@
 // Run with: npx ts-node prisma/seed-demo-data.ts
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from './script-client.js';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 const DEMO_ORG_ID = 'demo-acme-corp';
 
 function randomDate(daysAgo: number): Date {

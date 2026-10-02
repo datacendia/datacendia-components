@@ -1,6 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+import { createScriptClient } from '../prisma/script-client.js';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 async function main() {
   const deliberations = await prisma.$queryRaw<any[]>`

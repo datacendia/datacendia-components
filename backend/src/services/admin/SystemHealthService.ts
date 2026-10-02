@@ -17,6 +17,7 @@
 // ENTERPRISE PLATINUM STANDARD - Real database alerts + real health checks
 // =============================================================================
 
+import { getOllamaBaseUrl } from '../../config/ollama.js';
 import { logger } from '../../utils/logger.js';
 import os from 'os';
 import { loadServiceRecords } from '../../utils/servicePersistence.js';
@@ -165,7 +166,7 @@ class SystemHealthService {
   private async checkOllama(): Promise<ServiceHealth> {
     const start = Date.now();
     try {
-      const response = await fetch('http://127.0.0.1:11434/api/tags', {
+      const response = await fetch(`${getOllamaBaseUrl()}/api/tags`, {
         signal: AbortSignal.timeout(5000),
       });
       const latency = Date.now() - start;

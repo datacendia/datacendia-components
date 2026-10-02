@@ -32,6 +32,7 @@
  * Fallback: Statistical keyword/pattern analysis when Ollama unavailable.
  */
 
+import { getOllamaBaseUrl } from '../../config/ollama.js';
 import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { persistServiceRecord } from '../../utils/servicePersistence.js';
@@ -234,7 +235,7 @@ export class NLPBiasDetectionService {
   private ollamaAvailable: boolean = false;
 
   constructor(config?: { ollamaUrl?: string; model?: string }) {
-    this.ollamaUrl = config?.ollamaUrl || process.env.OLLAMA_URL || 'http://127.0.0.1:11434';
+    this.ollamaUrl = config?.ollamaUrl || getOllamaBaseUrl();
     this.model = config?.model || process.env.BIAS_MODEL || 'llama3.2';
     logger.info(`[BiasGuard] NLP Bias Detection initialized — Ollama: ${this.ollamaUrl}, model: ${this.model}`);
   }

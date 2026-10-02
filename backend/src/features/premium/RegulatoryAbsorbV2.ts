@@ -16,6 +16,7 @@
 // Enterprise-grade compliance ingestion with provenance, verification, and review
 // =============================================================================
 
+import { getOllamaBaseUrl } from '../../config/ollama.js';
 import { createHash } from 'crypto';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 import { featureGating, SubscriptionTier } from '../../core/subscriptions/SubscriptionTiers.js';
@@ -187,7 +188,7 @@ export class RegulatoryAbsorbV2Service extends BaseService {
       ...config,
     });
     this.prisma = sharedPrisma as unknown as PrismaClient;
-    this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://127.0.0.1:11434';
+    this.ollamaEndpoint = getOllamaBaseUrl();
   }
 
   async initialize(): Promise<void> {

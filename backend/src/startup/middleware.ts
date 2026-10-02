@@ -40,6 +40,7 @@ import {
 } from '../middleware/SecurityMiddleware.js';
 import { sentry } from '../telemetry/sentry.js';
 import { apiCache, CACHE_TTLS } from '../middleware/cacheMiddleware.js';
+import { optionalAuth } from '../middleware/auth.js';
 import {
   authLimiter,
   billingLimiter,
@@ -173,7 +174,10 @@ export function setupMiddleware(app: Express): void {
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'X-Data-Source-Id', 'x-data-source-id'],
+    // X-CSRF-Token: the API client sends it on every write. Without it here the
+    // browser's preflight fails, so cross-origin sign-in (the demo: :5173 -> :3001)
+    // failed with "Failed to fetch".
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'X-Data-Source-Id', 'x-data-source-id', 'X-CSRF-Token'],
   }));
 
   // =========================================================================
@@ -278,9 +282,13 @@ export function setupMiddleware(app: Express): void {
   // =========================================================================
   // REDIS CACHE
   // =========================================================================
+  // Every cache entry belongs to one caller (see cacheIdentity), so the caller
+  // must be known here: routes authenticate inside their domain routers, which
+  // run after this. Without it, the cache served any user's cached response to
+  // every caller of the same URL, anonymous ones included.
+  app.use('/api/v1', optionalAuth);
   app.use('/api/v1', apiCache({
     ttl: CACHE_TTLS.DECISIONS,
-    varyByOrg: true,
     excludePaths: [
       /\/auth\//,
       /\/csrf-token/,

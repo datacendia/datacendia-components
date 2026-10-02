@@ -1,10 +1,14 @@
 import 'dotenv/config';
 import path from 'node:path';
-import { defineConfig, env } from 'prisma/config';
+import { defineConfig } from 'prisma/config';
 
 export default defineConfig({
-  schema: path.join(__dirname, 'prisma', 'schema'),
+  // Relative to this file. __dirname isn't defined when Prisma loads the
+  // config as ESM, which broke every CLI command on Windows.
+  schema: path.join('prisma', 'schema'),
   datasource: {
-    url: env('DATABASE_URL'),
+    // Optional here so `npm ci` (prisma generate) works on a fresh clone with no
+    // database configured; migrate and db commands still require it.
+    url: process.env['DATABASE_URL'] ?? '',
   },
 });

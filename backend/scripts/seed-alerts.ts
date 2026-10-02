@@ -3,10 +3,11 @@
 // Run with: npx tsx scripts/seed-alerts.ts
 // =============================================================================
 
-import { PrismaClient, AlertSeverity, AlertStatus } from '@prisma/client';
+import { AlertSeverity, AlertStatus } from '@prisma/client';
+import { createScriptClient } from '../prisma/script-client.js';
 import crypto from 'crypto';
 
-const prisma = new PrismaClient();
+const prisma = createScriptClient();
 
 const TEST_ALERTS = [
   {
