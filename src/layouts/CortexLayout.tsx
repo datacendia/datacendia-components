@@ -1244,7 +1244,9 @@ const CortexLayoutInner: React.FC = () => {
         {/* ================================================================= */}
         {/* MAIN CONTENT AREA */}
         {/* ================================================================= */}
-        <div className="flex-1 flex flex-col min-h-0">
+        {/* min-w-0: a flex item otherwise grows to its widest content, so a wide
+            header could push every page past the viewport and scroll sideways. */}
+        <div className="flex-1 flex flex-col min-h-0 min-w-0">
           {/* Header — Gold Sovereign Theme */}
           <header className="h-14 flex items-center justify-between px-4 lg:px-6 bg-[#0a0a0c] border-b border-[#c9a84c]/10 overflow-visible">
             {/* Left: Mobile menu + Logo mark + Search */}

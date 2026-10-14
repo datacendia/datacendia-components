@@ -18,6 +18,7 @@ import { authenticate } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import deliberationsRoutes from '../deliberations.js';
 import councilRoutes from '../council.js';
+import councilChatRoutes from '../council-chat.js';
 import deliberationsApiRoutes from '../deliberations-api.js';
 import decisionsRoutes from '../decisions.js';
 import councilPacketsRoutes from '../council-packets.js';
@@ -34,6 +35,7 @@ router.use(authenticate);
 
 // Community routes
 router.use('/council/deliberations', deliberationsRoutes); // Must come BEFORE /council
+router.use('/council/chat', councilChatRoutes); // The page's model calls on a hosted deployment
 router.use('/council', councilRoutes);
 router.use('/deliberations', deliberationsApiRoutes);
 router.use('/decisions', decisionsRoutes);

@@ -30,7 +30,7 @@ const bodySchema0 = z.object({
 const router = Router();
 
 // =============================================================================
-// CENDIA MIRROR� - Digital Twin
+// CENDIA MIRROR™ - Digital Twin
 // =============================================================================
 
 router.get('/mirror/dashboard', async (req: Request, res: Response) => {
@@ -108,7 +108,7 @@ router.post('/mirror/scenarios/:id/run', async (req: Request, res: Response) => 
 });
 
 // =============================================================================
-// CENDIA WITNESS� - Legal Observer
+// CENDIA WITNESS™ - Legal Observer
 // =============================================================================
 
 router.get('/witness/dashboard', async (req: Request, res: Response) => {
@@ -188,7 +188,7 @@ router.get('/witness/discovery', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// CENDIA ORACLE� - Truth Arbiter
+// CENDIA ORACLE™ - Truth Arbiter
 // =============================================================================
 
 router.get('/oracle/dashboard', async (req: Request, res: Response) => {
@@ -277,7 +277,7 @@ router.get('/oracle/disputes', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// CENDIA LEGACY� - Knowledge Archive
+// CENDIA LEGACY™ - Knowledge Archive
 // =============================================================================
 
 router.get('/legacy/dashboard', async (req: Request, res: Response) => {

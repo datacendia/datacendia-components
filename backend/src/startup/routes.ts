@@ -52,6 +52,28 @@ export function mountRoutes(app: Express): void {
   // Prometheus metrics — before middleware so scraping works without auth
   app.use('/metrics', prometheusRoutes);
 
+  // Inference provider status — public, so the browser can tell whether the
+  // Council can run through the API (POST /api/v1/council/chat) when there's
+  // no local Ollama. Mounted here: after CORS, before the /api 404 handler.
+  app.get('/api/v1/inference/status', async (_req, res) => {
+    try {
+      const { inference } = await import('../services/inference/InferenceService.js');
+      const status = inference.getStatus();
+      const health = await inference.healthCheck();
+      res.json({
+        available: health.available,
+        provider: status.activeProvider,
+        primaryProvider: status.primaryProvider,
+        failoverActive: status.failoverActive,
+        latencyMs: health.latencyMs,
+        modelsLoaded: health.modelsLoaded,
+        error: health.error,
+      });
+    } catch (err) {
+      res.json({ available: false, provider: 'unknown', error: err instanceof Error ? err.message : String(err) });
+    }
+  });
+
   // =========================================================================
   // DOMAIN ROUTERS (14 domains, ~110 route modules)
   // All paths: /api/v1/{original-path}

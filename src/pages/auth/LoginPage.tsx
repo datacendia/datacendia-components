@@ -21,6 +21,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
 import { authApi } from '../../lib/api';
+import { useAuth } from '../../contexts/AuthContext';
 import { useI18n } from '../../lib/i18n';
 import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
@@ -55,6 +56,7 @@ const SSOIcons = {
 
 export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
+  const { refreshUser } = useAuth();
   const { t } = useI18n();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -71,6 +73,8 @@ export const LoginPage: React.FC = () => {
       const response = await authApi.login({ email, password });
 
       if (response.success) {
+        // The call stored the tokens; tell the auth context about the session
+        await refreshUser();
         navigate('/cortex/dashboard');
       } else {
         setError(response.error?.message || t('auth.login.errors.invalidCredentials'));
