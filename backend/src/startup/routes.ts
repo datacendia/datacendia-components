@@ -43,6 +43,8 @@ import billingRoutes from '../routes/billing.js';
 import gatewayRoutes from '../routes/gateway.js';
 import wedgeRoutes from '../routes/wedge.js';
 import opsAgentsRoutes from '../routes/ops-agents.js';
+import marketingLeadsRoutes from '../routes/marketing-leads.js';
+import demoRequestRoutes from '../routes/demo.js';
 
 /**
  * Mount all API routes on the Express app.
@@ -73,6 +75,13 @@ export function mountRoutes(app: Express): void {
       res.json({ available: false, provider: 'unknown', error: err instanceof Error ? err.message : String(err) });
     }
   });
+
+  // Public forms from the marketing site: leads, newsletter, demo requests.
+  // Mounted ahead of the domains: council's router.use(authenticate) answers
+  // 401 to every /api/v1 path that reaches it, so a route in any later domain
+  // can't be public. Listing leads checks its own role (SUPER_ADMIN).
+  app.use('/api/v1/marketing-leads', marketingLeadsRoutes);
+  app.use('/api/v1/leads', demoRequestRoutes);
 
   // =========================================================================
   // DOMAIN ROUTERS (14 domains, ~110 route modules)

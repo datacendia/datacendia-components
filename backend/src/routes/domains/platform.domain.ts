@@ -32,7 +32,6 @@ import commandRoutes from '../command.js';
 import envConfigRoutes from '../env-config.js';
 import marketingStudioRoutes from '../marketing-studio.js';
 import platformAssistantRoutes from '../platform-assistant.js';
-import marketingLeadsRoutes from '../marketing-leads.js';
 import autoHealRoutes from '../auto-heal.js';
 
 const router = Router();
@@ -43,7 +42,6 @@ const router = Router();
 // handle their own admin-only sub-routes internally (e.g. requireRole).
 // =========================================================================
 router.use('/contact', contactRoutes);               // POST / (public lead capture)
-router.use('/marketing-leads', marketingLeadsRoutes); // POST / + /newsletter (public)
 router.use('/errors', errorRoutes);                   // POST /report (browser error reporting)
 router.use('/i18n', i18nRoutes);                      // GET /languages, /translations (public UI)
 

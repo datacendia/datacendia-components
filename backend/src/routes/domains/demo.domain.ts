@@ -15,15 +15,14 @@
 
 import { Router } from 'express';
 import { authenticate } from '../../middleware/auth.js';
-import demoRoutes from '../demo.js';
 import premiumFeatureRoutes from '../premium-features.js';
 import demoSeedRoutes from '../demo-seed.js';
 import consolidatedRoutes from '../consolidated.js';
 
 const router = Router();
 
-// /leads is public — lead capture from the marketing site.
-router.use('/leads', demoRoutes);
+// /leads (public demo requests) is mounted in startup/routes.ts, ahead of the
+// domains: an earlier domain's router.use(authenticate) blocked it here.
 
 // All other sub-routes require authentication.
 router.use('/premium', authenticate, premiumFeatureRoutes);
