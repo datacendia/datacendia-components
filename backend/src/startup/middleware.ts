@@ -317,8 +317,10 @@ export function serveFrontendStatic(app: Express): void {
 
   app.use(express.static(frontendPath, { maxAge: '1d', index: false }));
 
-  // SPA fallback: serve index.html for non-API routes
-  app.get('*', (req, res, next) => {
+  // SPA fallback: serve index.html for non-API routes. Express 5 needs a named
+  // wildcard: a bare '*' throws "Missing parameter name" when it's registered,
+  // so any start with a built frontend (production, all-in-one) crashed here.
+  app.get('/{*splat}', (req, res, next) => {
     if (req.path.startsWith('/api/') || req.path.startsWith('/health') || req.path.startsWith('/liveness') || req.path.startsWith('/readiness')) {
       return next();
     }
