@@ -49,6 +49,8 @@ const ENTERPRISE_FILES = [
   'services/CendiaVoxService.ts',
   'services/CendiaOmniTranslateService.ts',
   'services/licensing.service.ts',
+  // Licence enforcement: only enterprise routes are gated, and they load it on demand
+  'middleware/requireLicense.ts',
   // Enterprise route files (wire enterprise services to HTTP endpoints)
   'routes/enterprise.ts',
   'routes/enterprise-connectors.ts',

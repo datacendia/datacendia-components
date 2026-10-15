@@ -18,7 +18,7 @@ import { databaseBackupService } from '../services/backup/index.js';
 import { vectorDB } from '../services/vectordb/index.js';
 import { registerPlatformServices } from '../core/services/PlatformServices.js';
 import { applyPerformanceIndexes } from './applyIndexes.js';
-import { sovereignMode } from '../services/sovereign/SovereignModeService.js';
+import { loadSovereignMode } from '../utils/optionalModule.js';
 
 // =============================================================================
 // SIGNING KEY VALIDATION — Fail-fast if critical keys missing in production
@@ -78,13 +78,16 @@ export async function connectServices(): Promise<void> {
   // Validate cryptographic signing keys before any service initialization
   validateSigningKeys();
 
-  // Sovereign mode validation — fail-fast in production if offline mode is misconfigured
-  const sovereignResult = await sovereignMode.validate();
-  if (!sovereignResult.valid && config.nodeEnv === 'production') {
-    throw new Error(
-      `Sovereign mode validation failed in production:\n  ${sovereignResult.errors.join('\n  ')}\n` +
-      `System will not start in DATACENDIA_ONLINE_MODE=false without resolving these.`
-    );
+  // Sovereign mode validation (enterprise edition) — fail-fast in production if offline mode is misconfigured
+  const sovereignMode = await loadSovereignMode();
+  if (sovereignMode) {
+    const sovereignResult = await sovereignMode.validate();
+    if (!sovereignResult.valid && config.nodeEnv === 'production') {
+      throw new Error(
+        `Sovereign mode validation failed in production:\n  ${sovereignResult.errors.join('\n  ')}\n` +
+        `System will not start in DATACENDIA_ONLINE_MODE=false without resolving these.`
+      );
+    }
   }
 
   // PostgreSQL

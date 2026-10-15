@@ -126,6 +126,7 @@ The following components require a commercial license. **Do not submit PRs that 
 | `backend/src/services/CendiaOmniTranslateService.ts` | Enterprise translation (100+ languages) |
 | `backend/src/services/insurance/` | Per-decision liability coverage |
 | `backend/src/services/licensing.service.ts` | License management |
+| `backend/src/middleware/requireLicense.ts` | License tier enforcement for enterprise routes |
 
 ### Advanced Modules
 
