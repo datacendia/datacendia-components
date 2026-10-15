@@ -49,6 +49,7 @@ const schema_4 = z.object({
 
 import { Router, Request, Response } from 'express';
 import ollamaService from '../services/ollama.js';
+import { requireRole } from '../middleware/auth.js';
 
 
 void (z.object({
@@ -77,6 +78,10 @@ void (z.object({
 }).passthrough());
 
 const router = Router();
+
+// The studio writes Datacendia's own marketing and spends model time doing it.
+// It is the platform owner's tool, as its admin page and nav entry are.
+router.use(requireRole('SUPER_ADMIN'));
 
 // =============================================================================
 // TEMPLATE FALLBACKS — used when Ollama is unavailable or slow

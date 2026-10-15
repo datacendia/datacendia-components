@@ -17,6 +17,7 @@
 
 import { Router, Request, Response } from 'express';
 import { verticalConfigService } from '../services/enterprise/VerticalConfigService.js';
+import { requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 import { getErrorMessage } from '../utils/errors.js';
 
@@ -40,7 +41,11 @@ const bodySchema3 = z.object({
 
 const router = Router();
 
-// Extract user/org info from request
+// Reading the configuration is open to every member; changing which verticals
+// and services the organization runs is for its admins.
+const orgAdmin = requireRole('OWNER', 'ADMIN', 'SUPER_ADMIN');
+
+// Extract user/org info from auth middleware (never trust client-supplied headers)
 const extractContext = (req: Request) => ({
   userId: req.headers['x-user-id'] as string || 'anonymous',
   organizationId: req.headers['x-organization-id'] as string || 'default-org',
@@ -200,7 +205,7 @@ router.get('/organization', async (req: Request, res: Response): Promise<void> =
  * POST /api/v1/vertical-config/organization
  * Create organization configuration
  */
-router.post('/organization', async (req: Request, res: Response): Promise<void> => {
+router.post('/organization', orgAdmin, async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const { verticalId, customEnabledServices } = bodySchema0.parse(req.body);
@@ -228,7 +233,7 @@ router.post('/organization', async (req: Request, res: Response): Promise<void> 
  * PUT /api/v1/vertical-config/organization
  * Update organization configuration
  */
-router.put('/organization', async (req: Request, res: Response): Promise<void> => {
+router.put('/organization', orgAdmin, async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const updates = req.body;
@@ -250,7 +255,7 @@ router.put('/organization', async (req: Request, res: Response): Promise<void> =
  * POST /api/v1/vertical-config/organization/switch-vertical
  * Switch to a different vertical
  */
-router.post('/organization/switch-vertical', async (req: Request, res: Response): Promise<void> => {
+router.post('/organization/switch-vertical', orgAdmin, async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const { verticalId, preserveCustomizations = true } = bodySchema1.parse(req.body);
@@ -282,7 +287,7 @@ router.post('/organization/switch-vertical', async (req: Request, res: Response)
  * POST /api/v1/vertical-config/toggle/:serviceId
  * Toggle a single service
  */
-router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<void> => {
+router.post('/toggle/:serviceId', orgAdmin, async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const serviceId = req.params['serviceId'] as string;
@@ -312,7 +317,7 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<v
  * POST /api/v1/vertical-config/toggle-bulk
  * Toggle multiple services at once
  */
-router.post('/toggle-bulk', async (req: Request, res: Response): Promise<void> => {
+router.post('/toggle-bulk', orgAdmin, async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const { toggles } = bodySchema3.parse(req.body);

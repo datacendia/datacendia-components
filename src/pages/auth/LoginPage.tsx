@@ -18,10 +18,11 @@ import { logger } from '../../lib/logger';
 // =============================================================================
 
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
 import { authApi } from '../../lib/api';
 import { useAuth } from '../../contexts/AuthContext';
+import { returnPath } from '../../lib/auth/returnPath';
 import { useI18n } from '../../lib/i18n';
 import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
@@ -56,7 +57,10 @@ const SSOIcons = {
 
 export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { refreshUser } = useAuth();
+  // ProtectedRoute sends a signed-out visitor here with the page they asked for.
+  const redirected = typeof (location.state as { from?: unknown } | null)?.from === 'string';
   const { t } = useI18n();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -75,7 +79,7 @@ export const LoginPage: React.FC = () => {
       if (response.success) {
         // The call stored the tokens; tell the auth context about the session
         await refreshUser();
-        navigate('/cortex/dashboard');
+        navigate(returnPath(location.state), { replace: true });
       } else {
         setError(response.error?.message || t('auth.login.errors.invalidCredentials'));
       }
@@ -232,6 +236,14 @@ export const LoginPage: React.FC = () => {
 
           {/* Login Form */}
           <form onSubmit={handleSubmit} className="space-y-4">
+            {redirected && !error && (
+              <div
+                role="status"
+                className="p-3 bg-[#c9a84c]/5 border border-[#c9a84c]/20 rounded-lg text-sm text-[#c9a84c]/90"
+              >
+                {t('auth.login.signInToContinue')}
+              </div>
+            )}
             {error && (
               <div
                 role="alert"
@@ -313,7 +325,7 @@ export const LoginPage: React.FC = () => {
           <div className="mt-8 text-center space-y-2">
             <p className="text-xs text-gray-600">
               Don't have an account?{' '}
-              <Link to="/register" className="text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors">
+              <Link to="/register" state={location.state} className="text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors">
                 Create one →
               </Link>
             </p>

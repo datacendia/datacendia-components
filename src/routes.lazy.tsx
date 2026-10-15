@@ -25,6 +25,7 @@ import { RouteErrorPage } from './components/RouteErrorPage';
 // =============================================================================
 // LAYOUTS - Lazy-loaded for better code splitting
 // =============================================================================
+import { ProtectedRoute } from './components/auth/ProtectedRoute';
 const CortexLayout = lazy(() =>
   import('./layouts/CortexLayout').then((m) => ({ default: m.CortexLayout }))
 );
@@ -71,7 +72,11 @@ export const router = createBrowserRouter([
       // CORTEX APPLICATION
       {
         path: '/cortex',
-        element: <Suspense fallback={<PageLoader />}><CortexLayout /></Suspense>,
+        element: (
+          <ProtectedRoute>
+            <Suspense fallback={<PageLoader />}><CortexLayout /></Suspense>
+          </ProtectedRoute>
+        ),
         children: withinLayout(
           [
             ...cortexCoreRoutes,
@@ -90,7 +95,11 @@ export const router = createBrowserRouter([
       // TOOLS
       {
         path: '/tools',
-        element: <Suspense fallback={<PageLoader />}><CortexLayout /></Suspense>,
+        element: (
+          <ProtectedRoute>
+            <Suspense fallback={<PageLoader />}><CortexLayout /></Suspense>
+          </ProtectedRoute>
+        ),
         children: withinLayout(
           [{ path: 'roi-calculator', element: lazyLoad(() => import('./pages/tools').then((m) => ({ default: m.ROICalculator }))) }],
           '/cortex/dashboard',
