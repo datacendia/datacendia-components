@@ -16,14 +16,18 @@
 // =============================================================================
 
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
 import { authApi } from '../../lib/api';
+import { useAuth } from '../../contexts/AuthContext';
+import { returnPath } from '../../lib/auth/returnPath';
 import { useI18n } from '../../lib/i18n';
 import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
 export const RegisterPage: React.FC = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { refreshUser } = useAuth();
   const { t } = useI18n();
   const [formData, setFormData] = useState({
     firstName: '',
@@ -100,7 +104,9 @@ export const RegisterPage: React.FC = () => {
       });
 
       if (response.success) {
-        navigate('/cortex/dashboard');
+        // The call stored the tokens; tell the auth context about the session
+        await refreshUser();
+        navigate(returnPath(location.state), { replace: true });
       } else {
         setError(response.error?.message || t('auth.register.errors.registrationFailed'));
       }
@@ -418,7 +424,7 @@ export const RegisterPage: React.FC = () => {
           <div className="mt-8 text-center">
             <p className="text-xs text-gray-600">
               Already have an account?{' '}
-              <Link to="/login" className="text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors">
+              <Link to="/login" state={location.state} className="text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors">
                 Sign in →
               </Link>
             </p>

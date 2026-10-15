@@ -214,7 +214,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
     await formspreeSubmit(e);
 
     // Secondary: Backend (database persistence)
-    api.post('/api/v1/marketing-leads', {
+    api.post('/marketing-leads', {
       ...formData,
       source: 'sovereign_landing',
     }).catch((err) => logger.error('[SovereignLanding] Backend failed:', err));

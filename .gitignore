@@ -133,3 +133,13 @@ check-db.bat
 docker-compose.prod.yml
 docker-compose.prod.local.yml
 docker-compose.prod.ports-8080-8443.yml
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Stale local typecheck artefacts
+ts-errors*.txt
+
+# Contract-test output (tests/contract); regenerated on every run
+pacts/

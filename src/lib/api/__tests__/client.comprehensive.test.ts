@@ -5,13 +5,21 @@
 
 // Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, beforeAll } from 'vitest';
 
 // Mock fetch globally
 const mockFetch = vi.fn();
 vi.stubGlobal('fetch', mockFetch);
 
-import { api, tokenManager, setCurrentDataSourceId, onAuthChange } from '../client';
+import { api, tokenManager, setCurrentDataSourceId, onAuthChange, getCsrfToken } from '../client';
+
+// Writes and token refreshes send a CSRF token, fetched once from /csrf-token
+// and cached. Fetch it here, so each test's mocked response answers its own
+// request instead of being taken by that first token fetch.
+beforeAll(async () => {
+  mockFetch.mockResolvedValueOnce({ ok: true, json: () => Promise.resolve({ csrfToken: 'csrf-test' }) });
+  await getCsrfToken(true);
+});
 
 describe('TokenManager', () => {
   beforeEach(() => {

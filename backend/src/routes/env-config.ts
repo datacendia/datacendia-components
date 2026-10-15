@@ -134,10 +134,10 @@ router.get('/', async (_req: Request, res: Response) => {
     const content = fs.readFileSync(ENV_PATH, 'utf8');
     const vars = parseEnvFile(content);
     
-    // Build structured response
+    // Build structured response. Secrets leave the server masked.
     const variables = Object.entries(vars).map(([key, value]) => ({
       key,
-      value,
+      value: isSensitive(key) ? maskValue(value) : value,
       category: getCategoryForKey(key),
       description: getDescriptionForKey(key),
       required: isRequired(key),
@@ -167,23 +167,41 @@ router.get('/', async (_req: Request, res: Response) => {
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
+    // A production server's environment belongs to its deployment platform;
+    // rewriting the running server's .env over HTTP isn't offered there.
+    if (process.env.NODE_ENV === 'production') {
+      return res.status(403).json({
+        success: false,
+        error: 'Editing the environment is disabled in production. Change it in your deployment settings.',
+      });
+    }
+
     const { variables } = schema_0.parse(req.body);
-    
+
     if (!variables || typeof variables !== 'object') {
       return res.status(400).json({
         success: false,
         error: 'Invalid request body',
       });
     }
-    
+
     // Backup existing .env
+    const existing = fs.existsSync(ENV_PATH) ? parseEnvFile(fs.readFileSync(ENV_PATH, 'utf8')) : {};
     if (fs.existsSync(ENV_PATH)) {
       const backupPath = `${ENV_PATH}.backup.${Date.now()}`;
       fs.copyFileSync(ENV_PATH, backupPath);
     }
-    
+
+    // GET sends secrets masked; a masked value coming back unchanged keeps the
+    // stored secret instead of writing the mask over it.
+    const toWrite: Record<string, string> = {};
+    for (const [key, value] of Object.entries(variables as Record<string, string>)) {
+      const current = existing[key];
+      toWrite[key] = current !== undefined && isSensitive(key) && value === maskValue(current) ? current : value;
+    }
+
     // Write new .env
-    const content = serializeEnvFile(variables);
+    const content = serializeEnvFile(toWrite);
     fs.writeFileSync(ENV_PATH, content, 'utf8');
     
     res.json({
@@ -262,9 +280,17 @@ router.get('/download', async (_req: Request, res: Response) => {
       });
     }
     
+    // Secrets are masked in the download too
+    const masked = fs.readFileSync(ENV_PATH, 'utf8').split('\n').map((line) => {
+      const eq = line.indexOf('=');
+      if (line.trim().startsWith('#') || eq < 1) return line;
+      const key = line.slice(0, eq).trim();
+      const value = line.slice(eq + 1).trim();
+      return isSensitive(key) && value ? `${key}=${maskValue(value)}` : line;
+    });
     res.setHeader('Content-Type', 'text/plain');
     res.setHeader('Content-Disposition', 'attachment; filename=".env"');
-    res.sendFile(ENV_PATH);
+    res.send(masked.join('\n'));
   } catch (error) {
     logger.error('Error downloading .env:', error);
     res.status(500).json({
@@ -275,6 +301,13 @@ router.get('/download', async (_req: Request, res: Response) => {
 });
 
 // Helper functions
+
+/** Mask a sensitive value, showing only its first and last two characters. */
+function maskValue(val: string): string {
+  if (!val || val.length < 6) return '••••••••';
+  return val.substring(0, 2) + '••••••••' + val.substring(val.length - 2);
+}
+
 function getCategoryForKey(key: string): string {
   if (key.startsWith('POSTGRES_') || key === 'DATABASE_URL') return 'Database';
   if (key.startsWith('REDIS_')) return 'Cache';

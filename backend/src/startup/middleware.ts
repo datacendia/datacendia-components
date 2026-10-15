@@ -61,6 +61,12 @@ import { trackRequest } from '../routes/prometheus.js';
  * then security, then body parsing, then route-level middleware.
  */
 export function setupMiddleware(app: Express): void {
+  // Behind a reverse proxy (Railway, nginx) every request arrives from the
+  // proxy; trust its X-Forwarded-For so req.ip, and so each rate limit below,
+  // is per client rather than shared by the whole site.
+  if (config.nodeEnv === 'production') {
+    app.set('trust proxy', 1);
+  }
   // =========================================================================
   // LIVENESS PROBES — Must be before ALL middleware for K8s/Docker health checks
   // =========================================================================
@@ -193,6 +199,26 @@ export function setupMiddleware(app: Express): void {
   });
   app.use('/api/', limiter);
 
+  // Sign-in endpoints get a far smaller budget per IP: password and MFA-code
+  // guessing, account enumeration (find-account), reset-token guessing, and
+  // account and email spam (register, resend-verification).
+  const authLimiter = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: config.nodeEnv === 'production' ? 20 : 200,
+    standardHeaders: true,
+    legacyHeaders: false,
+    message: { success: false, error: { code: 'RATE_LIMITED', message: 'Too many attempts. Please wait and try again.' } },
+    skip: () => config.nodeEnv === 'test',
+  });
+  app.use(
+    [
+      '/api/v1/auth/login', '/api/v1/auth/register', '/api/v1/auth/forgot-password',
+      '/api/v1/auth/find-account', '/api/v1/auth/reset-password', '/api/v1/auth/resend-verification',
+      '/api/v1/mfa/verify', '/api/v1/mfa/verify-backup',
+    ],
+    authLimiter
+  );
+
   // =========================================================================
   // ENDPOINT-SPECIFIC RATE LIMITS (stricter than global)
   // =========================================================================
@@ -317,8 +343,10 @@ export function serveFrontendStatic(app: Express): void {
 
   app.use(express.static(frontendPath, { maxAge: '1d', index: false }));
 
-  // SPA fallback: serve index.html for non-API routes
-  app.get('*', (req, res, next) => {
+  // SPA fallback: serve index.html for non-API routes. Express 5 needs a named
+  // wildcard: a bare '*' throws "Missing parameter name" when it's registered,
+  // so any start with a built frontend (production, all-in-one) crashed here.
+  app.get('/{*splat}', (req, res, next) => {
     if (req.path.startsWith('/api/') || req.path.startsWith('/health') || req.path.startsWith('/liveness') || req.path.startsWith('/readiness')) {
       return next();
     }

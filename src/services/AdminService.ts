@@ -15,9 +15,11 @@
 // ADMIN SERVICE - Platform Owner Admin API Client
 // =============================================================================
 
-const API_BASE =
-  import.meta.env.VITE_API_URL ||
-  (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
+import { API_BASE_URL } from '../lib/api/client';
+
+// Requests go through lib/api/fetchAuth, which attaches the session (and the
+// CSRF token on writes) and refreshes it when it expires, as ApiClient does.
+const API_BASE = API_BASE_URL;
 
 // =============================================================================
 // TYPES
@@ -85,9 +87,13 @@ export interface PlatformDashboard {
   tenants: { total: number; active: number; trial: number; churned: number };
   revenue: { mrr: number; arr: number; avgPerTenant: number };
   licenses: { total: number; active: number; expiring: number; revenueAtRisk: number };
-  system: { status: string; apiRequests24h: number; avgLatency: number; errorRate: number };
   users: { total: number };
-  recentActivity: Array<{ event: string; tenant: string; time: string; isAlert?: boolean }>;
+  /** New tenants per calendar month (UTC), oldest first. */
+  tenantGrowth: Array<{ month: string; count: number }>;
+  /** MRR of active tenants by plan, largest first. */
+  revenueByPlan: Array<{ plan: string; mrr: number }>;
+  /** Latest audit events, each with the organization it happened in. */
+  recentActivity: Array<{ event: string; organization: string; time: string; isAlert?: boolean }>;
   lastUpdated: string;
 }
 
@@ -116,21 +122,29 @@ export interface HealthDashboard {
 // API CLIENT
 // =============================================================================
 
+/** A failed admin API call. The status tells a refusal (403) from an outage. */
+export class AdminRequestError extends Error {
+  constructor(
+    message: string,
+    readonly status: number
+  ) {
+    super(message);
+    this.name = 'AdminRequestError';
+  }
+}
+
 class AdminService {
   private baseUrl = `${API_BASE}/admin`;
 
   private async request<T>(endpoint: string, options?: RequestInit): Promise<T> {
     const response = await fetch(`${this.baseUrl}${endpoint}`, {
-      headers: {
-        'Content-Type': 'application/json',
-        // Add auth token here in production
-      },
+      headers: { 'Content-Type': 'application/json' },
       ...options,
     });
 
     if (!response.ok) {
       const error = await response.json().catch(() => ({ error: 'Request failed' }));
-      throw new Error(error.error || `HTTP ${response.status}`);
+      throw new AdminRequestError(error.error?.message ?? error.error ?? `HTTP ${response.status}`, response.status);
     }
 
     return response.json();

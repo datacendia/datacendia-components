@@ -36,7 +36,7 @@ const bodySchema1 = z.object({
 const router = Router();
 
 // =============================================================================
-// CENDIA MIRAGE� - Deception Technology
+// CENDIA MIRAGE™ - Deception Technology
 // =============================================================================
 
 router.get('/mirage/dashboard', async (req: Request, res: Response) => {
@@ -112,7 +112,7 @@ router.get('/mirage/intelligence', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// CENDIA KEY� - Hardware Authentication
+// CENDIA KEY™ - Hardware Authentication
 // =============================================================================
 
 router.get('/key/dashboard', async (req: Request, res: Response) => {
@@ -200,7 +200,7 @@ router.post('/key/verify', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// CENDIA MESH� - Encrypted Networking
+// CENDIA MESH™ - Encrypted Networking
 // =============================================================================
 
 router.get('/mesh/dashboard', async (req: Request, res: Response) => {
@@ -289,7 +289,7 @@ router.get('/mesh/policies', async (req: Request, res: Response) => {
 });
 
 // =============================================================================
-// CENDIA BLACK BOX� - Disaster Storage
+// CENDIA BLACK BOX™ - Disaster Storage
 // =============================================================================
 
 router.get('/blackbox/dashboard', async (req: Request, res: Response) => {
@@ -378,7 +378,7 @@ router.post('/blackbox/units/:id/verify', async (req: Request, res: Response) =>
 });
 
 // =============================================================================
-// CENDIA GLASS� - AR Integration
+// CENDIA GLASS™ - AR Integration
 // =============================================================================
 
 router.get('/glass/dashboard', async (req: Request, res: Response) => {

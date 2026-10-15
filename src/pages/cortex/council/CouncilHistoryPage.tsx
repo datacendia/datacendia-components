@@ -19,7 +19,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
-import apiClient from '../../../lib/api/client';
+import apiClient, { type ApiResponse } from '../../../lib/api/client';
+import { COUNCIL_MODES } from '../../../data/councilModes';
 import {
   Search, Clock, Brain, CheckCircle, AlertTriangle, XCircle,
   ChevronRight, Download, Calendar, Users, BarChart3,
@@ -29,8 +30,8 @@ interface HistoryItem {
   id: string;
   title: string;
   mode: string;
-  status: 'consensus' | 'split' | 'overridden' | 'abandoned';
-  consensusScore: number;
+  status: 'consensus' | 'split' | 'overridden' | 'abandoned' | 'in_progress' | 'pending';
+  consensusScore: number | null;
   duration: string;
   agentCount: number;
   date: string;
@@ -43,54 +44,157 @@ const STATUS_CONFIG: Record<string, { icon: React.FC<{ className?: string }>; co
   split: { icon: AlertTriangle, color: 'text-amber-400', label: 'Split Decision' },
   overridden: { icon: XCircle, color: 'text-red-400', label: 'Overridden' },
   abandoned: { icon: XCircle, color: 'text-neutral-500', label: 'Abandoned' },
+  in_progress: { icon: Clock, color: 'text-blue-400', label: 'In Progress' },
+  pending: { icon: Clock, color: 'text-neutral-400', label: 'Pending' },
 };
 
-const DEMO_HISTORY: HistoryItem[] = [
-  { id: 'd1', title: 'Q1 Cloud Infrastructure Migration Strategy', mode: 'Strategic Advisory', status: 'consensus', consensusScore: 87, duration: '11m 42s', agentCount: 7, date: '2026-02-14T09:30:00Z', tags: ['infrastructure', 'cloud', 'migration'], initiatedBy: 'Stuart Rainey' },
-  { id: 'd2', title: 'Vendor Selection — Enterprise Security Stack', mode: 'Vendor Selection', status: 'consensus', consensusScore: 92, duration: '8m 15s', agentCount: 5, date: '2026-02-13T14:00:00Z', tags: ['vendor', 'security', 'procurement'], initiatedBy: 'Stuart Rainey' },
-  { id: 'd3', title: 'EU AI Act Compliance Gap Assessment', mode: 'Compliance Review', status: 'consensus', consensusScore: 95, duration: '14m 22s', agentCount: 6, date: '2026-02-12T10:00:00Z', tags: ['compliance', 'eu-ai-act', 'regulation'], initiatedBy: 'Admin' },
-  { id: 'd4', title: 'Annual Budget Reallocation — R&D vs Operations', mode: 'Financial Analysis', status: 'split', consensusScore: 62, duration: '18m 05s', agentCount: 7, date: '2026-02-11T16:00:00Z', tags: ['budget', 'finance', 'resource-allocation'], initiatedBy: 'Stuart Rainey' },
-  { id: 'd5', title: 'Partnership Evaluation — TechCorp AI Division', mode: 'Strategic Advisory', status: 'consensus', consensusScore: 78, duration: '12m 30s', agentCount: 7, date: '2026-02-10T11:00:00Z', tags: ['partnership', 'strategy', 'ai'], initiatedBy: 'Stuart Rainey' },
-  { id: 'd6', title: 'Data Residency Policy — Multi-Jurisdiction', mode: 'Governance Audit', status: 'consensus', consensusScore: 89, duration: '9m 48s', agentCount: 6, date: '2026-02-09T09:00:00Z', tags: ['data', 'governance', 'jurisdiction'], initiatedBy: 'Admin' },
-  { id: 'd7', title: 'Crisis Response — Service Outage January 28', mode: 'Crisis Response', status: 'overridden', consensusScore: 71, duration: '4m 12s', agentCount: 5, date: '2026-01-28T03:15:00Z', tags: ['crisis', 'incident', 'outage'], initiatedBy: 'Stuart Rainey' },
-  { id: 'd8', title: 'Product Pricing Strategy — Enterprise Tier', mode: 'Financial Analysis', status: 'consensus', consensusScore: 83, duration: '10m 55s', agentCount: 5, date: '2026-01-25T14:30:00Z', tags: ['pricing', 'strategy', 'enterprise'], initiatedBy: 'Stuart Rainey' },
-  { id: 'd9', title: 'Hiring Plan Q2 — Engineering Team Expansion', mode: 'Talent Strategy', status: 'consensus', consensusScore: 90, duration: '7m 33s', agentCount: 5, date: '2026-01-22T10:00:00Z', tags: ['hiring', 'talent', 'engineering'], initiatedBy: 'Admin' },
-  { id: 'd10', title: 'Competitive Response — Market Disruption Alert', mode: "Devil's Advocate", status: 'split', consensusScore: 55, duration: '15m 20s', agentCount: 7, date: '2026-01-18T16:00:00Z', tags: ['competition', 'market', 'strategy'], initiatedBy: 'Stuart Rainey' },
-];
+// GET /deliberations returns Prisma rows: status is the DeliberationStatus enum
+// (PENDING | IN_PROGRESS | AWAITING_APPROVAL | COMPLETED | CANCELLED), the topic
+// is `question`, and `confidence` is 0-1. Reading them as lowercase strings sent
+// "COMPLETED" to STATUS_CONFIG, which has no such key, and the page crashed.
+// The fields of a GET /deliberations row this page reads (older payloads used other names).
+interface DeliberationRow {
+  id: string;
+  question?: string;
+  title?: string;
+  topic?: string;
+  mode?: string;
+  status?: string;
+  decision?: { status?: string; dissent?: unknown; dissenting?: unknown } | null;
+  confidence?: number | null;
+  consensus_score?: number;
+  consensusScore?: number;
+  duration?: string;
+  started_at?: string;
+  completed_at?: string;
+  config?: { agents?: unknown[]; mode?: string } | null;
+  deliberation_messages?: Array<{ agent_id?: string }>;
+  agent_count?: number;
+  agentCount?: number;
+  context?: { verticalLabel?: string; initiatedBy?: string } | null;
+  created_at?: string;
+  createdAt?: string;
+  tags?: string[];
+  initiated_by?: string;
+  initiatedBy?: string;
+}
+
+function toHistoryStatus(d: DeliberationRow): HistoryItem['status'] {
+  const status = String(d.status ?? '').toUpperCase();
+  if (status === 'CANCELLED') {return 'abandoned';}
+  if (status === 'PENDING') {return 'pending';}
+  if (status !== 'COMPLETED') {return 'in_progress';}
+  if (d.decision?.status === 'REJECTED' || d.decision?.status === 'OVERRIDDEN') {return 'overridden';}
+  // Recorded as `dissent` or `dissenting`, a view or a list of them; an empty list is no dissent
+  const dissent = d.decision?.dissent ?? d.decision?.dissenting;
+  return (Array.isArray(dissent) ? dissent.length > 0 : Boolean(dissent)) ? 'split' : 'consensus';
+}
+
+// The configured council if recorded, else the distinct agents who spoke.
+function countAgents(d: DeliberationRow): number {
+  const configured = d.config?.agents;
+  if (Array.isArray(configured) && configured.length > 0) {
+    return configured.length;
+  }
+  const speakers = new Set((d.deliberation_messages ?? []).map((m) => m.agent_id).filter(Boolean));
+  return speakers.size || d.agent_count || d.agentCount || 0;
+}
+
+function formatDuration(start?: string, end?: string): string {
+  const ms = start && end ? new Date(end).getTime() - new Date(start).getTime() : NaN;
+  if (!Number.isFinite(ms) || ms <= 0) {return '—';}
+  const mins = Math.max(1, Math.round(ms / 60000));
+  return mins >= 60 ? `${Math.floor(mins / 60)}h ${mins % 60}m` : `${mins}m`;
+}
+
+function toHistoryItem(d: DeliberationRow): HistoryItem {
+  const score = d.confidence ?? d.consensus_score ?? d.consensusScore;
+  const modeId = d.config?.mode || d.mode;
+  const vertical = d.context?.verticalLabel;
+  return {
+    id: d.id,
+    title: d.question || d.title || d.topic || 'Untitled Deliberation',
+    mode: modeId ? COUNCIL_MODES[modeId]?.name ?? modeId.charAt(0).toUpperCase() + modeId.slice(1) : 'Council',
+    status: toHistoryStatus(d),
+    consensusScore: typeof score === 'number' ? Math.round(score <= 1 ? score * 100 : score) : null,
+    duration: d.duration || formatDuration(d.started_at, d.completed_at),
+    agentCount: countAgents(d),
+    date: d.created_at || d.createdAt || new Date().toISOString(),
+    tags: d.tags || (vertical ? [vertical] : []),
+    initiatedBy: d.context?.initiatedBy || d.initiated_by || d.initiatedBy || 'User',
+  };
+}
+
+// Quote every cell; a leading =, +, - or @ (or a tab or line break before one)
+// would run as a formula in a spreadsheet.
+function csvCell(value: string | number | null): string {
+  const text = value === null ? '' : String(value);
+  const safe = /^[=+\-@\t\r\n]/.test(text) ? `'${text}` : text;
+  return `"${safe.replace(/"/g, '""')}"`;
+}
+
+// GET /deliberations returns at most 100 rows a page. History lists (and
+// exports) every page, up to MAX_PAGES so a huge workspace can't stall it.
+const PAGE_SIZE = 100;
+const MAX_PAGES = 20;
+
+type DeliberationPage = ApiResponse<DeliberationRow[]> & { pagination?: { totalPages?: number } };
+
+async function loadDeliberations(): Promise<DeliberationRow[] | null> {
+  const rows: DeliberationRow[] = [];
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    const res: DeliberationPage = await apiClient.api.get<DeliberationRow[]>('/deliberations', { page, limit: PAGE_SIZE });
+    if (!res.success || !Array.isArray(res.data)) {
+      return null;
+    }
+    rows.push(...res.data);
+    if (res.data.length < PAGE_SIZE || page >= (res.pagination?.totalPages ?? page)) {
+      break;
+    }
+  }
+  return rows;
+}
+
+// Downloads the deliberations as shown (search, filter and sort applied).
+function exportCsv(rows: HistoryItem[]): void {
+  const header = ['Title', 'Status', 'Consensus %', 'Mode', 'Agents', 'Duration', 'Date', 'Tags'];
+  const lines = rows.map((r) =>
+    [r.title, STATUS_CONFIG[r.status]?.label ?? r.status, r.consensusScore, r.mode, r.agentCount,
+      r.duration, r.date, r.tags.join('; ')].map(csvCell).join(',')
+  );
+  const blob = new Blob([[header.map(csvCell).join(','), ...lines].join('\r\n')], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = `council-history-${new Date().toISOString().slice(0, 10)}.csv`;
+  link.click();
+  URL.revokeObjectURL(url);
+}
 
 type SortField = 'date' | 'consensus' | 'duration';
 
 export const CouncilHistoryPage: React.FC = () => {
   const navigate = useNavigate();
-  const [items, setItems] = useState<HistoryItem[]>(DEMO_HISTORY);
+  const [items, setItems] = useState<HistoryItem[]>([]);
+  const [loadFailed, setLoadFailed] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [sortBy, setSortBy] = useState<SortField>('date');
-  const [_isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Load real data from API
   useEffect(() => {
     const load = async () => {
       setIsLoading(true);
       try {
-        const res = await apiClient.api.get<any[]>('/deliberations');
-        if (res.success && Array.isArray(res.data) && res.data.length > 0) {
-          const mapped = res.data.map((d: any) => ({
-            id: d.id,
-            title: d.title || d.topic || 'Untitled Deliberation',
-            mode: d.mode || 'Strategic Advisory',
-            status: d.status === 'completed' ? 'consensus' : d.status || 'consensus',
-            consensusScore: d.consensus_score || d.consensusScore || 80,
-            duration: d.duration || '—',
-            agentCount: d.agent_count || d.agentCount || 7,
-            date: d.created_at || d.createdAt || new Date().toISOString(),
-            tags: d.tags || [],
-            initiatedBy: d.initiated_by || d.initiatedBy || 'User',
-          }));
-          setItems(mapped);
+        const rows = await loadDeliberations();
+        if (rows) {
+          setItems(rows.map(toHistoryItem));
+        } else {
+          setLoadFailed(true);
         }
       } catch {
-        // Keep demo data
+        setLoadFailed(true);
       } finally {
         setIsLoading(false);
       }
@@ -108,14 +212,15 @@ export const CouncilHistoryPage: React.FC = () => {
     })
     .sort((a, b) => {
       if (sortBy === 'date') {return new Date(b.date).getTime() - new Date(a.date).getTime();}
-      if (sortBy === 'consensus') {return b.consensusScore - a.consensusScore;}
+      if (sortBy === 'consensus') {return (b.consensusScore ?? -1) - (a.consensusScore ?? -1);}
       return 0;
     });
 
+  const scores = items.map(i => i.consensusScore).filter((s): s is number => s !== null);
   const stats = {
     total: items.length,
     consensus: items.filter(i => i.status === 'consensus').length,
-    avgScore: Math.round(items.reduce((s, i) => s + i.consensusScore, 0) / items.length),
+    avgScore: scores.length ? Math.round(scores.reduce((s, v) => s + v, 0) / scores.length) : 0,
   };
 
   return (
@@ -131,8 +236,12 @@ export const CouncilHistoryPage: React.FC = () => {
           <h1 className="text-2xl" style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontWeight: 300, letterSpacing: '0.35em', color: '#e8e4e0' }}>COUNCIL HISTORY</h1>
           <p className="text-sm text-neutral-500 mt-0.5">Browse and search all past deliberations</p>
         </div>
-        <button className="px-3 py-2 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:bg-neutral-800 flex items-center gap-2">
-          <Download className="w-4 h-4" /> Export All
+        <button
+          onClick={() => exportCsv(filtered)}
+          disabled={filtered.length === 0}
+          className="px-3 py-2 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:bg-neutral-800 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-2"
+        >
+          <Download className="w-4 h-4" /> Export CSV
         </button>
       </div>
 
@@ -194,7 +303,7 @@ export const CouncilHistoryPage: React.FC = () => {
       {/* Results */}
       <div className="space-y-2">
         {filtered.map(item => {
-          const statusCfg = STATUS_CONFIG[item.status];
+          const statusCfg = STATUS_CONFIG[item.status] ?? STATUS_CONFIG['in_progress'];
           return (
             <div
               key={item.id}
@@ -229,8 +338,9 @@ export const CouncilHistoryPage: React.FC = () => {
                   <div className="text-right">
                     <p className="text-xs text-neutral-500">Consensus</p>
                     <p className={cn('text-lg font-bold',
-                      item.consensusScore >= 80 ? 'text-green-400' : item.consensusScore >= 60 ? 'text-amber-400' : 'text-red-400'
-                    )}>{item.consensusScore}%</p>
+                      item.consensusScore === null ? 'text-neutral-500'
+                        : item.consensusScore >= 80 ? 'text-green-400' : item.consensusScore >= 60 ? 'text-amber-400' : 'text-red-400'
+                    )}>{item.consensusScore === null ? '—' : `${item.consensusScore}%`}</p>
                   </div>
                   <ChevronRight className="w-4 h-4 text-neutral-600 group-hover:text-neutral-400" />
                 </div>
@@ -240,7 +350,27 @@ export const CouncilHistoryPage: React.FC = () => {
         })}
       </div>
 
-      {filtered.length === 0 && (
+      {isLoading && (
+        <p className="text-center py-12 text-neutral-500 text-sm">Loading deliberations…</p>
+      )}
+
+      {!isLoading && loadFailed && (
+        <p className="text-center py-12 text-red-400 text-sm">The deliberations could not be loaded.</p>
+      )}
+
+      {!isLoading && !loadFailed && items.length === 0 && (
+        <div className="text-center py-12">
+          <p className="text-neutral-400 text-sm mb-4">No deliberations in this workspace yet.</p>
+          <button
+            onClick={() => navigate('/cortex/council')}
+            className="px-4 py-2 rounded-lg bg-primary-600 hover:bg-primary-700 text-white text-sm"
+          >
+            Ask the Council
+          </button>
+        </div>
+      )}
+
+      {items.length > 0 && filtered.length === 0 && (
         <div className="text-center py-12">
           <Search className="w-10 h-10 text-neutral-700 mx-auto mb-3" />
           <p className="text-neutral-500 text-sm">No deliberations match your search</p>

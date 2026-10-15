@@ -95,6 +95,9 @@ export interface OrganizationSettings {
   timezone?: string;
   dateFormat?: string;
   currency?: string;
+  numberFormat?: string;
+  primaryContact?: string;
+  primaryEmail?: string;
 }
 
 // Graph Types

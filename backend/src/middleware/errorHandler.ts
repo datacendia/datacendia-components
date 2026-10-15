@@ -70,7 +70,7 @@ export const errorHandler = (
   err: Error,
   req: Request,
   res: Response,
-  _next: NextFunction
+  next: NextFunction
 ): void => {
   // Log the error
   if (err instanceof AppError) {
@@ -96,6 +96,13 @@ export const errorHandler = (
       path: req.path,
       method: req.method,
     });
+  }
+
+  // A handler can fail after it started answering (rejected promises reach
+  // here now); Express's default handler then closes the connection.
+  if (res.headersSent) {
+    next(err);
+    return;
   }
 
   // Handle Zod validation errors

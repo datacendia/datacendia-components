@@ -45,6 +45,17 @@ interface SearchSuggestion {
   type: string;
 }
 
+// Why the canvas shows the built-in sample graph instead of the organization's.
+// 'empty' is for the whole graph; 'entity-missing' for one entity's lineage.
+type SampleReason = 'unavailable' | 'failed' | 'empty' | 'entity-missing';
+
+const SAMPLE_NOTICE: Record<SampleReason, string> = {
+  unavailable: "Sample graph. The knowledge graph database (Neo4j) isn't connected in this deployment.",
+  failed: "Sample graph. Your organization's graph couldn't be loaded.",
+  empty: 'Sample graph. Your organization has no graph entities yet.',
+  'entity-missing': "Sample graph. That entity isn't in your organization's graph.",
+};
+
 // Node colors by type (dark theme optimized)
 const nodeColors: Record<string, { bg: string; border: string; glow: string }> = {
   dataset: { bg: '#1E3A5F', border: '#3B82F6', glow: 'rgba(59, 130, 246, 0.3)' },
@@ -254,6 +265,7 @@ export const GraphExplorerPage: React.FC = () => {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [sampleReason, setSampleReason] = useState<SampleReason | null>(null);
 
   // Search suggestions
   const suggestions = useMemo<SearchSuggestion[]>(() => {
@@ -280,9 +292,52 @@ export const GraphExplorerPage: React.FC = () => {
     );
   }, []);
 
+  // Fallback demo data when backend is unavailable
+  const demoNodes: GraphNode[] = useMemo(() => [
+    { id: 'n1', type: 'dataset', name: 'Revenue Dataset', properties: { source: 'Snowflake', quality: '98%' } },
+    { id: 'n2', type: 'dataset', name: 'Customer CRM', properties: { source: 'Salesforce', quality: '95%' } },
+    { id: 'n3', type: 'metric', name: 'Monthly Revenue', properties: { value: '$2.4M', trend: '+12%' } },
+    { id: 'n4', type: 'metric', name: 'Churn Rate', properties: { value: '2.1%', trend: '+0.3%' } },
+    { id: 'n5', type: 'metric', name: 'NPS Score', properties: { value: '72', trend: '+5' } },
+    { id: 'n6', type: 'process', name: 'Monthly Close', properties: { frequency: 'Monthly', owner: 'Finance' } },
+    { id: 'n7', type: 'process', name: 'Churn Analysis', properties: { frequency: 'Weekly', owner: 'CS Team' } },
+    { id: 'n8', type: 'entity', name: 'Acme Corp', properties: { tier: 'Enterprise', arr: '$480K' } },
+    { id: 'n9', type: 'entity', name: 'TechStart Inc', properties: { tier: 'Growth', arr: '$120K' } },
+    { id: 'n10', type: 'report', name: 'Board Deck Q4', properties: { lastUpdated: '2 days ago' } },
+    { id: 'n11', type: 'dashboard', name: 'Executive Dashboard', properties: { views: '847/mo' } },
+    { id: 'n12', type: 'workflow', name: 'Revenue Recognition', properties: { status: 'Active' } },
+    { id: 'n13', type: 'dataset', name: 'Product Usage', properties: { source: 'Mixpanel', quality: '92%' } },
+    { id: 'n14', type: 'metric', name: 'DAU/MAU Ratio', properties: { value: '0.42', trend: '+3%' } },
+    { id: 'n15', type: 'process', name: 'Council Deliberation', properties: { frequency: 'On-demand', owner: 'AI Council' } },
+  ], []);
+
+  const demoEdges: GraphEdge[] = useMemo(() => [
+    { source: 'n1', target: 'n3', type: 'feeds' },
+    { source: 'n2', target: 'n4', type: 'feeds' },
+    { source: 'n2', target: 'n5', type: 'feeds' },
+    { source: 'n1', target: 'n6', type: 'transforms' },
+    { source: 'n2', target: 'n7', type: 'transforms' },
+    { source: 'n8', target: 'n2', type: 'related' },
+    { source: 'n9', target: 'n2', type: 'related' },
+    { source: 'n3', target: 'n10', type: 'feeds' },
+    { source: 'n3', target: 'n11', type: 'feeds' },
+    { source: 'n4', target: 'n11', type: 'feeds' },
+    { source: 'n5', target: 'n11', type: 'feeds' },
+    { source: 'n6', target: 'n12', type: 'derives' },
+    { source: 'n13', target: 'n14', type: 'feeds' },
+    { source: 'n14', target: 'n11', type: 'feeds' },
+    { source: 'n7', target: 'n15', type: 'transforms' },
+    { source: 'n10', target: 'n15', type: 'related' },
+  ], []);
+
   // Load graph data from API
   useEffect(() => {
     const loadGraph = async () => {
+      let loadedNodes: GraphNode[] = [];
+      let loadedEdges: GraphEdge[] = [];
+      let failure: SampleReason | null = null;
+      const failureOf = (code?: string): SampleReason => (code === 'GRAPH_UNAVAILABLE' ? 'unavailable' : 'failed');
+
       try {
         setIsLoading(true);
         setError(null);
@@ -292,15 +347,27 @@ export const GraphExplorerPage: React.FC = () => {
         if (entityId) {
           // Load lineage for specific entity
           const lineageRes = await lineageApi.getLineage(entityId, { direction: 'both', depth: 3 });
+          if (!lineageRes.success) {
+            failure = failureOf(lineageRes.error?.code);
+          }
           if (lineageRes.success && lineageRes.data) {
             const data = lineageRes.data as any;
-            const lineageNodes: GraphNode[] = (data.entities || data.nodes || []).map((e: any) => ({
+            // The entity itself comes back as `root`. One without links has
+            // nothing else, and it still belongs on the canvas.
+            const lineageNodes = new Map<string, { id: string }>();
+            const candidates: Array<{ id?: string } | undefined> = [data.root, ...(data.entities || data.nodes || [])];
+            for (const e of candidates) {
+              if (e?.id && !lineageNodes.has(e.id)) {
+                lineageNodes.set(e.id, e as { id: string });
+              }
+            }
+            loadedNodes = [...lineageNodes.values()].map((e: any) => ({
               id: e.id,
               type: e.type || 'entity',
               name: e.name || e.label || e.id,
               properties: e.properties || {},
             }));
-            const lineageEdges: GraphEdge[] = (data.relationships || data.edges || []).map(
+            loadedEdges = (data.relationships || data.edges || []).map(
               (r: any, idx: number) => ({
                 id: r.id || `edge-${idx}`,
                 source: r.sourceId || r.source,
@@ -309,24 +376,23 @@ export const GraphExplorerPage: React.FC = () => {
                 label: r.label || r.type,
               })
             );
-            setNodes(lineageNodes);
-            setEdges(lineageEdges);
           }
         } else {
           // Load full graph (nodes + relationships)
           const graphRes = await graphApi.getEntities({ pageSize: 100 });
+          if (!graphRes.success) {
+            failure = failureOf(graphRes.error?.code);
+          }
           if (graphRes.success && graphRes.data) {
             const entities = graphRes.data as GraphEntity[];
-            const graphNodes: GraphNode[] = entities.map((e) => ({
+            loadedNodes = entities.map((e) => ({
               id: e.id,
               type: e.type,
               name: e.name,
               properties: e.properties,
             }));
 
-            setNodes(graphNodes);
-
-            // Fetch relationships between the loaded nodes using the generic graph query API
+            // Fetch relationships between the loaded nodes
             try {
               const relQuery = `
                 MATCH (source {organizationId: $_orgId})-[r]->(target {organizationId: $_orgId})
@@ -335,11 +401,11 @@ export const GraphExplorerPage: React.FC = () => {
               `;
 
               const relRes = await graphApi.executeQuery(relQuery, {
-                nodeIds: graphNodes.map((n) => n.id),
+                nodeIds: loadedNodes.map((n) => n.id),
               });
 
               if (relRes.success && Array.isArray(relRes.data)) {
-                const graphEdges: GraphEdge[] = (relRes.data as any[])
+                loadedEdges = (relRes.data as any[])
                   .map((row: any) => ({
                     source: String(row.sourceId ?? row.source ?? ''),
                     target: String(row.targetId ?? row.target ?? ''),
@@ -347,82 +413,59 @@ export const GraphExplorerPage: React.FC = () => {
                     properties: row.properties || {},
                   }))
                   .filter((e) => e.source && e.target);
-
-                setEdges(graphEdges);
-              } else {
-                setEdges([]);
               }
             } catch (relErr) {
               logger.error('Graph relationships load error:', relErr);
-              setEdges([]);
             }
           }
         }
       } catch (err) {
         logger.error('Graph load error:', err);
-        // Use fallback demo data when backend is unavailable
-        const demoNodes: GraphNode[] = [
-          { id: 'n1', type: 'dataset', name: 'Revenue Dataset', properties: { source: 'Snowflake', quality: '98%' } },
-          { id: 'n2', type: 'dataset', name: 'Customer CRM', properties: { source: 'Salesforce', quality: '95%' } },
-          { id: 'n3', type: 'metric', name: 'Monthly Revenue', properties: { value: '$2.4M', trend: '+12%' } },
-          { id: 'n4', type: 'metric', name: 'Churn Rate', properties: { value: '2.1%', trend: '+0.3%' } },
-          { id: 'n5', type: 'metric', name: 'NPS Score', properties: { value: '72', trend: '+5' } },
-          { id: 'n6', type: 'process', name: 'Monthly Close', properties: { frequency: 'Monthly', owner: 'Finance' } },
-          { id: 'n7', type: 'process', name: 'Churn Analysis', properties: { frequency: 'Weekly', owner: 'CS Team' } },
-          { id: 'n8', type: 'entity', name: 'Acme Corp', properties: { tier: 'Enterprise', arr: '$480K' } },
-          { id: 'n9', type: 'entity', name: 'TechStart Inc', properties: { tier: 'Growth', arr: '$120K' } },
-          { id: 'n10', type: 'report', name: 'Board Deck Q4', properties: { lastUpdated: '2 days ago' } },
-          { id: 'n11', type: 'dashboard', name: 'Executive Dashboard', properties: { views: '847/mo' } },
-          { id: 'n12', type: 'workflow', name: 'Revenue Recognition', properties: { status: 'Active' } },
-          { id: 'n13', type: 'dataset', name: 'Product Usage', properties: { source: 'Mixpanel', quality: '92%' } },
-          { id: 'n14', type: 'metric', name: 'DAU/MAU Ratio', properties: { value: '0.42', trend: '+3%' } },
-          { id: 'n15', type: 'process', name: 'Council Deliberation', properties: { frequency: 'On-demand', owner: 'AI Council' } },
-        ];
-        const demoEdges: GraphEdge[] = [
-          { source: 'n1', target: 'n3', type: 'feeds' },
-          { source: 'n2', target: 'n4', type: 'feeds' },
-          { source: 'n2', target: 'n5', type: 'feeds' },
-          { source: 'n1', target: 'n6', type: 'transforms' },
-          { source: 'n2', target: 'n7', type: 'transforms' },
-          { source: 'n8', target: 'n2', type: 'related' },
-          { source: 'n9', target: 'n2', type: 'related' },
-          { source: 'n3', target: 'n10', type: 'feeds' },
-          { source: 'n3', target: 'n11', type: 'feeds' },
-          { source: 'n4', target: 'n11', type: 'feeds' },
-          { source: 'n5', target: 'n11', type: 'feeds' },
-          { source: 'n6', target: 'n12', type: 'derives' },
-          { source: 'n13', target: 'n14', type: 'feeds' },
-          { source: 'n14', target: 'n11', type: 'feeds' },
-          { source: 'n7', target: 'n15', type: 'transforms' },
-          { source: 'n10', target: 'n15', type: 'related' },
-        ];
-        setNodes(demoNodes);
-        setEdges(demoEdges);
-        setError(null);
-      } finally {
-        setIsLoading(false);
+        failure = 'failed';
       }
+
+      // Fallback: if no data was loaded, show the sample graph, and say why
+      if (loadedNodes.length === 0) {
+        loadedNodes = demoNodes;
+        loadedEdges = demoEdges;
+        setSampleReason(failure ?? (searchParams.get('entity') ? 'entity-missing' : 'empty'));
+      } else {
+        setSampleReason(null);
+      }
+
+      setNodes(loadedNodes);
+      setEdges(loadedEdges);
+      setError(null);
+      setIsLoading(false);
     };
 
     loadGraph();
-  }, [searchParams]);
+  }, [searchParams, demoNodes, demoEdges]);
 
-  // Handle node selection from GraphCanvas
-  const handleNodeSelect = useCallback((node: GraphNode | null) => {
-    if (node) {
+  // Handle node selection from GraphCanvas. The details come from the graph:
+  // links are counted, and an owner shows only when the node records one.
+  const handleNodeSelect = useCallback(
+    (node: GraphNode | null) => {
+      if (!node) {
+        setSelectedEntity(null);
+        return;
+      }
+      // GraphCanvas (Cytoscape) draws copies of these edges, so their ends stay ids.
+      const owner = node.properties?.owner;
       setSelectedEntity({
         id: node.id,
         type: node.type,
         name: node.name,
         properties: node.properties,
-        owner: 'Data Team',
-        lastUpdated: 'Recently',
-        connections: { incoming: 5, outgoing: 3 },
+        owner: typeof owner === 'string' ? owner : undefined,
+        connections: {
+          incoming: edges.filter((e) => e.target === node.id).length,
+          outgoing: edges.filter((e) => e.source === node.id).length,
+        },
       });
-    } else {
-      setSelectedEntity(null);
-    }
-  }, []);
+    },
+    [edges]
+  );
 
   // Handle node double-click (drill down)
   const handleNodeDoubleClick = useCallback(
@@ -534,6 +577,14 @@ export const GraphExplorerPage: React.FC = () => {
 
       {/* Graph Canvas */}
       <div className="flex-1 relative bg-neutral-950">
+        {sampleReason && !isLoading && (
+          <div
+            role="status"
+            className="absolute top-3 left-1/2 -translate-x-1/2 z-10 max-w-[90%] px-3 py-1.5 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-200 text-xs text-center"
+          >
+            {SAMPLE_NOTICE[sampleReason]}
+          </div>
+        )}
         {isLoading ? (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="flex flex-col items-center gap-3">

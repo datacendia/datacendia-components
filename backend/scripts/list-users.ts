@@ -6,7 +6,7 @@
  *   npx tsx scripts/list-users.ts
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 
 import { PrismaClient } from '@prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';

@@ -43,6 +43,8 @@ import billingRoutes from '../routes/billing.js';
 import gatewayRoutes from '../routes/gateway.js';
 import wedgeRoutes from '../routes/wedge.js';
 import opsAgentsRoutes from '../routes/ops-agents.js';
+import marketingLeadsRoutes from '../routes/marketing-leads.js';
+import demoRequestRoutes from '../routes/demo.js';
 
 /**
  * Mount all API routes on the Express app.
@@ -51,6 +53,35 @@ import opsAgentsRoutes from '../routes/ops-agents.js';
 export function mountRoutes(app: Express): void {
   // Prometheus metrics — before middleware so scraping works without auth
   app.use('/metrics', prometheusRoutes);
+
+  // Inference provider status — public, so the browser can tell whether the
+  // Council can run through the API (POST /api/v1/council/chat) when there's
+  // no local Ollama. Mounted here: after CORS, before the /api 404 handler.
+  app.get('/api/v1/inference/status', async (_req, res) => {
+    try {
+      const { inference } = await import('../services/inference/InferenceService.js');
+      const status = inference.getStatus();
+      const health = await inference.healthCheck();
+      res.json({
+        available: health.available,
+        provider: status.activeProvider,
+        primaryProvider: status.primaryProvider,
+        failoverActive: status.failoverActive,
+        latencyMs: health.latencyMs,
+        modelsLoaded: health.modelsLoaded,
+        error: health.error,
+      });
+    } catch (err) {
+      res.json({ available: false, provider: 'unknown', error: err instanceof Error ? err.message : String(err) });
+    }
+  });
+
+  // Public forms from the marketing site: leads, newsletter, demo requests.
+  // Mounted ahead of the domains: council's router.use(authenticate) answers
+  // 401 to every /api/v1 path that reaches it, so a route in any later domain
+  // can't be public. Listing leads checks its own role (SUPER_ADMIN).
+  app.use('/api/v1/marketing-leads', marketingLeadsRoutes);
+  app.use('/api/v1/leads', demoRequestRoutes);
 
   // =========================================================================
   // DOMAIN ROUTERS (14 domains, ~110 route modules)

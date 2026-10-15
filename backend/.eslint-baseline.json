@@ -1,0 +1,1624 @@
+{
+  "src/adapters/ClientHostedAdapter.ts": {
+    "@typescript-eslint/ban-ts-comment": 2,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "security/detect-unsafe-regex": 1
+  },
+  "src/adapters/sovereign/DatabaseAdapter.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "n/no-sync": 3
+  },
+  "src/adapters/sovereign/FileWatcherAdapter.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "security/detect-non-literal-fs-filename": 9,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/adapters/sovereign/WebhookIngestAdapter.ts": {
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/config/aiModels.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/config/index.ts": {
+    "@typescript-eslint/ban-ts-comment": 1,
+    "security/detect-non-literal-fs-filename": 1
+  },
+  "src/connectors/BaseConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/connectors/core/ConnectorFactory.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/connectors/core/FHIRConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/connectors/core/FIXConnector.ts": {
+    "@typescript-eslint/no-non-null-assertion": 5,
+    "no-constant-condition": 1,
+    "no-control-regex": 1
+  },
+  "src/connectors/core/HttpConnector.ts": {
+    "no-case-declarations": 3
+  },
+  "src/connectors/core/OAuth2Service.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/connectors/enterprise/GitHubConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/connectors/enterprise/HubSpotConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/connectors/enterprise/JiraConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 7
+  },
+  "src/connectors/enterprise/MicrosoftTeamsConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/connectors/enterprise/OracleConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/connectors/enterprise/SalesforceConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/connectors/enterprise/SAPConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 17
+  },
+  "src/connectors/enterprise/ServiceNowConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 12
+  },
+  "src/connectors/enterprise/SlackConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/connectors/enterprise/WorkdayConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/connectors/government/FREDConnector.ts": {
+    "no-case-declarations": 1
+  },
+  "src/connectors/government/NOAAConnector.ts": {
+    "no-case-declarations": 1
+  },
+  "src/connectors/government/SECConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "no-case-declarations": 1
+  },
+  "src/core/connectors/BaseConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "no-case-declarations": 1
+  },
+  "src/core/connectors/implementations/PostgreSQLConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/core/connectors/implementations/SpreadsheetConnector.ts": {
+    "@typescript-eslint/no-explicit-any": 11,
+    "@typescript-eslint/no-non-null-assertion": 4,
+    "n/no-sync": 8,
+    "no-case-declarations": 3,
+    "prefer-const": 1,
+    "security/detect-non-literal-fs-filename": 8
+  },
+  "src/core/events/EventBus.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 3,
+    "@typescript-eslint/no-unused-vars": 1,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/core/services/BaseService.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/core/services/PlatformServices.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/core/services/ServiceRegistry.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "n/no-process-exit": 2
+  },
+  "src/data/workflow-ingestion-test.ts": {
+    "n/no-process-exit": 1,
+    "n/no-sync": 1,
+    "security/detect-non-literal-fs-filename": 1
+  },
+  "src/database/seed.ts": {
+    "n/no-process-exit": 1
+  },
+  "src/features/premium/DecisionDebt.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/features/premium/GhostBoard.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/features/premium/LiveDemoMode.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/features/premium/PreMortem.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/features/premium/RegulatoryAbsorb.ts": {
+    "security/detect-unsafe-regex": 3
+  },
+  "src/features/premium/RegulatoryAbsorbV2.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "security/detect-unsafe-regex": 2
+  },
+  "src/instrumentation/telemetry.ts": {
+    "n/no-process-exit": 2
+  },
+  "src/middleware/apiVersion.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/middleware/auth.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-namespace": 1,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/middleware/cacheMiddleware.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/middleware/correlationId.ts": {
+    "@typescript-eslint/no-namespace": 1
+  },
+  "src/middleware/csrf.ts": {
+    "no-irregular-whitespace": 1
+  },
+  "src/middleware/healthCheck.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/middleware/rateLimiter.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/middleware/requestLogger.ts": {
+    "@typescript-eslint/no-namespace": 1
+  },
+  "src/middleware/SecurityMiddleware.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "prefer-const": 1,
+    "security/detect-non-literal-regexp": 3,
+    "security/detect-unsafe-regex": 8
+  },
+  "src/middleware/sportsAuth.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/middleware/validate.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/admin-settings.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/routes/admin.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/routes/aegis.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/routes/ai-insurance.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/routes/alerts.ts": {
+    "@typescript-eslint/no-non-null-assertion": 20
+  },
+  "src/routes/apotheosis.ts": {
+    "@typescript-eslint/no-non-null-assertion": 9
+  },
+  "src/routes/audit-packages.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/routes/auth.ts": {
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/autopilot.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/routes/billing.ts": {
+    "@typescript-eslint/no-explicit-any": 14,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/routes/carbon-aware.ts": {
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/collapse.ts": {
+    "@typescript-eslint/no-explicit-any": 8,
+    "@typescript-eslint/no-non-null-assertion": 7,
+    "@typescript-eslint/no-var-requires": 2
+  },
+  "src/routes/compliance-monitor.ts": {
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/compliance-platinum.ts": {
+    "@typescript-eslint/no-explicit-any": 15
+  },
+  "src/routes/compliance.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/routes/connectors.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/routes/consolidated.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/routes/core.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/routes/cortex-core.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/council-packets.ts": {
+    "@typescript-eslint/no-explicit-any": 31
+  },
+  "src/routes/council.ts": {
+    "@typescript-eslint/no-explicit-any": 26,
+    "@typescript-eslint/no-non-null-assertion": 21
+  },
+  "src/routes/credential-evidence.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/routes/cross-jurisdiction.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/routes/crucible-enterprise.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/crucible.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 21
+  },
+  "src/routes/data-sources.ts": {
+    "@typescript-eslint/no-non-null-assertion": 12
+  },
+  "src/routes/dcii.ts": {
+    "@typescript-eslint/no-explicit-any": 17,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "no-irregular-whitespace": 1
+  },
+  "src/routes/decision-intel.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 18
+  },
+  "src/routes/defense.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/routes/deliberations-api.ts": {
+    "@typescript-eslint/no-non-null-assertion": 9
+  },
+  "src/routes/deliberations.ts": {
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/routes/demo-seed.ts": {
+    "@typescript-eslint/no-explicit-any": 45
+  },
+  "src/routes/dissent.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 12
+  },
+  "src/routes/domains/_enterprise.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/routes/druid.ts": {
+    "@typescript-eslint/no-explicit-any": 6,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/dsr.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/routes/echo.ts": {
+    "@typescript-eslint/no-non-null-assertion": 9
+  },
+  "src/routes/enterprise-connectors.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/routes/enterprise.ts": {
+    "n/no-sync": 1
+  },
+  "src/routes/env-config.ts": {
+    "@typescript-eslint/ban-ts-comment": 1,
+    "n/no-sync": 10
+  },
+  "src/routes/eternal.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 8
+  },
+  "src/routes/eu-banking.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/routes/evidence-vault.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/routes/evidence.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/fhir.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/routes/flink.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/routes/forecasting.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/forecasts.ts": {
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/gateway.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "no-constant-condition": 1
+  },
+  "src/routes/gnosis.ts": {
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/graph.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 12
+  },
+  "src/routes/guardrails.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/routes/health.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/routes/i18n.ts": {
+    "@typescript-eslint/ban-ts-comment": 2,
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/routes/industrial-services.ts": {
+    "@typescript-eslint/no-unused-vars": 1
+  },
+  "src/routes/integrations.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 10,
+    "n/no-sync": 1
+  },
+  "src/routes/kafka.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/routes/kms.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/ledger.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 9
+  },
+  "src/routes/legal-research.ts": {
+    "@typescript-eslint/ban-ts-comment": 1,
+    "@typescript-eslint/no-explicit-any": 6,
+    "n/no-sync": 3,
+    "security/detect-non-literal-fs-filename": 1
+  },
+  "src/routes/legal-services.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/routes/legal.ts": {
+    "@typescript-eslint/no-explicit-any": 15
+  },
+  "src/routes/lineage.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/routes/marketing-studio.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/routes/metrics.ts": {
+    "@typescript-eslint/no-non-null-assertion": 9
+  },
+  "src/routes/mfa.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4,
+    "no-useless-catch": 6
+  },
+  "src/routes/models.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/notifications.ts": {
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/omnitranslate.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/routes/opa.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/routes/openbao.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/ops-agents.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/routes/organizations.ts": {
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/panopticon.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 16
+  },
+  "src/routes/persona.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/routes/pillars.ts": {
+    "@typescript-eslint/no-explicit-any": 12,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/platform-assistant.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "no-inner-declarations": 1
+  },
+  "src/routes/post-quantum.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3,
+    "@typescript-eslint/no-unused-vars": 2
+  },
+  "src/routes/premium-features.ts": {
+    "@typescript-eslint/no-explicit-any": 14,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/routes/rapids.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/recall.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/routes/redteam.ts": {
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/regulators-receipt.ts": {
+    "@typescript-eslint/no-explicit-any": 6,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/regulatory-sandbox.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/responsibility.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/routes/roi-metrics.ts": {
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/scge.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/scheduler.ts": {
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/schema.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/security-services.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/routes/sentry.ts": {
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/routes/settings.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/routes/sovereign-arch.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 19
+  },
+  "src/routes/sovereign.ts": {
+    "@typescript-eslint/no-explicit-any": 11,
+    "@typescript-eslint/no-non-null-assertion": 12,
+    "n/no-sync": 1,
+    "security/detect-non-literal-fs-filename": 2,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/routes/sports.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/routes/strategic.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/routes/summaries.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/routes/symbiont.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 8
+  },
+  "src/routes/temporal.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/routes/union.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/routes/upload.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "n/no-sync": 2,
+    "security/detect-non-literal-fs-filename": 2
+  },
+  "src/routes/users.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 17
+  },
+  "src/routes/vault.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/routes/vertical-config.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/routes/veto.ts": {
+    "@typescript-eslint/no-explicit-any": 6,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/routes/visualization.ts": {
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/routes/vox.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 10
+  },
+  "src/routes/workflows.ts": {
+    "@typescript-eslint/ban-ts-comment": 1,
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 10
+  },
+  "src/routes/zkp.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/scripts/live-monitor.ts": {
+    "n/no-process-exit": 1,
+    "no-control-regex": 1
+  },
+  "src/security/audit.service.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/security/DefenseInDepth.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "no-control-regex": 3,
+    "no-useless-escape": 4,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/security/Honeypot.ts": {
+    "@typescript-eslint/ban-types": 1,
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/security/index.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 3,
+    "security/detect-unsafe-regex": 1
+  },
+  "src/security/KeycloakAuth.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/security/PolicyEngine.ts": {
+    "@typescript-eslint/no-non-null-assertion": 9
+  },
+  "src/security/SecurityHardening.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "no-useless-escape": 1
+  },
+  "src/services/admin/AdminAIService.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "security/detect-unsafe-regex": 1
+  },
+  "src/services/admin/FeatureControlService.ts": {
+    "@typescript-eslint/no-explicit-any": 12,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/admin/LicenseService.ts": {
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/services/admin/RDProjectService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/admin/SystemHealthService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/admin/TenantService.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/admin/UserManagementService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/backup/DatabaseBackupService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "n/no-sync": 6,
+    "security/detect-non-literal-fs-filename": 9
+  },
+  "src/services/cache.service.ts": {
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/services/cache/RedisCacheService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/CendiaAegisService.ts": {
+    "@typescript-eslint/no-explicit-any": 24,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/CendiaApotheosisService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/CendiaAuditService.ts": {
+    "@typescript-eslint/no-explicit-any": 9,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/CendiaCascadeService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/CendiaCrucibleService.ts": {
+    "@typescript-eslint/no-explicit-any": 44,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/CendiaDissentService.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/CendiaEternalService.ts": {
+    "@typescript-eslint/no-explicit-any": 13
+  },
+  "src/services/CendiaHorizonService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/CendiaNarrativesService.ts": {
+    "@typescript-eslint/no-explicit-any": 15
+  },
+  "src/services/CendiaOmniTranslateService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "security/detect-non-literal-regexp": 3
+  },
+  "src/services/CendiaOrbitService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/services/CendiaPanopticonService.ts": {
+    "@typescript-eslint/no-explicit-any": 43
+  },
+  "src/services/CendiaPredictService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/CendiaRecallService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/CendiaResponsibilityService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-unused-vars": 1
+  },
+  "src/services/CendiaRewindService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/CendiaSentryService.ts": {
+    "@typescript-eslint/no-explicit-any": 12,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "@typescript-eslint/no-unused-vars": 1,
+    "no-irregular-whitespace": 4,
+    "security/detect-non-literal-regexp": 7,
+    "security/detect-unsafe-regex": 7
+  },
+  "src/services/CendiaSymbiontService.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/services/CendiaVoxService.ts": {
+    "@typescript-eslint/no-explicit-any": 12
+  },
+  "src/services/ChronosAIService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/ChronosEventBus.ts": {
+    "@typescript-eslint/no-explicit-any": 12,
+    "prefer-const": 1
+  },
+  "src/services/collapse/agents/AdversarialAbuseAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/BaseCollapseAgent.ts": {
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/collapse/agents/EconomicInstabilityAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/LegitimacyCollapseAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/MinorityHarmAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/NarrativeWeaponizationAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/PoliticalBacklashAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/SystemicRiskAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/agents/TemporalDecayAgent.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/collapse/CollapseOrchestrator.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/collapse/types.ts": {
+    "no-irregular-whitespace": 1,
+    "prefer-const": 2
+  },
+  "src/services/command/CendiaCommandPlatinumService.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/command/CendiaCommandService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/compliance/ComplianceEnforcer.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/compliance/ComplianceService.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/services/compliance/ContinuousComplianceMonitorService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/compliance/CrossJurisdictionEngineService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/compliance/EUDigitalRegulationService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/compliance/RegulatorySandboxService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/connectors/index.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/connectors/IntegrationConnectors.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/consolidated/index.ts": {
+    "@typescript-eslint/no-explicit-any": 16,
+    "n/no-sync": 1
+  },
+  "src/services/core/CendiaBrandService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 17,
+    "prefer-const": 1
+  },
+  "src/services/core/CendiaFoundryService.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/core/CendiaRevenueService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/core/CendiaSupportService.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/core/CendiaWatchService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 7,
+    "no-irregular-whitespace": 1
+  },
+  "src/services/cortex/CortexCoreService.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "prefer-const": 1
+  },
+  "src/services/cortex/PillarAggregator.ts": {
+    "@typescript-eslint/no-explicit-any": 23
+  },
+  "src/services/council/AdversarialRedTeamService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "no-irregular-whitespace": 1
+  },
+  "src/services/council/CouncilDecisionPacketService.ts": {
+    "@typescript-eslint/no-unused-vars": 1,
+    "security/detect-possible-timing-attacks": 1
+  },
+  "src/services/council/CouncilService.ts": {
+    "@typescript-eslint/no-explicit-any": 11,
+    "@typescript-eslint/no-unused-vars": 1,
+    "prefer-const": 1
+  },
+  "src/services/council/CouncilWebSocket.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/council/LegalToolExecutor.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/council/PromptVersioningService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/services/crucible/EnterpriseRedTeamService.ts": {
+    "@typescript-eslint/no-explicit-any": 26,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/crucible/RuntimeSecurityService.ts": {
+    "@typescript-eslint/no-explicit-any": 12,
+    "security/detect-unsafe-regex": 2
+  },
+  "src/services/crucible/SBOMService.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "security/detect-non-literal-fs-filename": 2
+  },
+  "src/services/crypto/AnomalySentinelService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/crypto/AnonymousDissentService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/crypto/DualSigningKeyService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 12
+  },
+  "src/services/crypto/VerifiableDelayService.ts": {
+    "prefer-const": 1
+  },
+  "src/services/dcii/CognitiveBiasMitigationService.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/services/dcii/CrossJurisdictionConflictService.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/dcii/DecisionSimilarityService.ts": {
+    "@typescript-eslint/no-explicit-any": 13
+  },
+  "src/services/dcii/IISSService.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/dcii/index.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/dcii/NLPBiasDetectionService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/dcii/SyntheticMediaAuthService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/dcii/TimestampAuthorityService.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/DecisionService.ts": {
+    "@typescript-eslint/no-explicit-any": 20
+  },
+  "src/services/DeliberationService.ts": {
+    "@typescript-eslint/no-explicit-any": 23,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/document/PDFGeneratorService.ts": {
+    "n/no-sync": 2,
+    "security/detect-non-literal-fs-filename": 3
+  },
+  "src/services/document/TikaService.ts": {
+    "@typescript-eslint/no-explicit-any": 10
+  },
+  "src/services/DruidEventStream.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/echoService.ts": {
+    "@typescript-eslint/no-explicit-any": 29,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/EnhancedLLMService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "no-case-declarations": 1
+  },
+  "src/services/enterprise/CendiaAcademyService.ts": {
+    "@typescript-eslint/no-explicit-any": 8,
+    "@typescript-eslint/no-unused-vars": 1
+  },
+  "src/services/enterprise/CendiaDocketService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "prefer-const": 2
+  },
+  "src/services/enterprise/CendiaEquityService.ts": {
+    "@typescript-eslint/no-explicit-any": 7
+  },
+  "src/services/enterprise/CendiaFactoryService.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "no-irregular-whitespace": 1
+  },
+  "src/services/enterprise/CendiaGuardianService.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/enterprise/CendiaHabitatService.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/services/enterprise/CendiaInventumService.ts": {
+    "@typescript-eslint/no-explicit-any": 8,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/enterprise/CendiaNerveService.ts": {
+    "@typescript-eslint/no-explicit-any": 8,
+    "@typescript-eslint/no-non-null-assertion": 11
+  },
+  "src/services/enterprise/CendiaNexusService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-unused-vars": 2,
+    "n/no-sync": 1
+  },
+  "src/services/enterprise/CendiaProcureService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/enterprise/CendiaRainmakerService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/enterprise/CendiaRegentService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/enterprise/CendiaResonanceService.ts": {
+    "@typescript-eslint/no-explicit-any": 14,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "@typescript-eslint/no-unused-vars": 1
+  },
+  "src/services/enterprise/CendiaScoutService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/enterprise/CendiaTransitService.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/services/enterprise/CultureIntegrationService.ts": {
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/services/enterprise/SSOService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/enterprise/VerticalConfigService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/evidence/ComplianceDashboardService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/evidence/EvidenceExportService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "n/no-sync": 46,
+    "security/detect-non-literal-fs-filename": 42
+  },
+  "src/services/evidence/EvidenceVaultService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/evidence/RegulatorsReceiptService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/evidence/SignedTestReportService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 4,
+    "n/no-sync": 9,
+    "security/detect-non-literal-fs-filename": 12
+  },
+  "src/services/evidence/TestEvidenceLedgerService.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "@typescript-eslint/no-var-requires": 5,
+    "n/no-sync": 17,
+    "security/detect-non-literal-fs-filename": 11
+  },
+  "src/services/ExecutiveSummaryService.ts": {
+    "@typescript-eslint/ban-ts-comment": 3,
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/services/express/EchoExpressService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/forecasting/FREDDataService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/forecasting/TimeSeriesForecaster.ts": {
+    "@typescript-eslint/no-unused-vars": 1,
+    "prefer-const": 5
+  },
+  "src/services/gateway/CendiaGatewayService.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 16,
+    "no-constant-condition": 1
+  },
+  "src/services/gateway/gateway-svc-types.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/gateway/GatewayFederationService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/gateway/GatewayProxyServer.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/gateway/ModelRouter.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 6
+  },
+  "src/services/gateway/PIIDetector.ts": {
+    "no-useless-escape": 5,
+    "security/detect-non-literal-regexp": 3,
+    "security/detect-unsafe-regex": 4
+  },
+  "src/services/gateway/PIIEvaluationMetrics.ts": {
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/gateway/RateLimiter.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/gateway/ShadowAIDetector.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/gateway/SIEMIntegration.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/gateway/WebhookNotifier.ts": {
+    "@typescript-eslint/no-explicit-any": 6,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "prefer-const": 1
+  },
+  "src/services/gnosisService.ts": {
+    "@typescript-eslint/no-explicit-any": 11,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/governance/AIConstitutionalCourtService.ts": {
+    "@typescript-eslint/no-explicit-any": 8,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/gpu/ConfidentialComputeService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/gpu/RAPIDSService.ts": {
+    "@typescript-eslint/no-explicit-any": 6,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/graphIngestion.ts": {
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/services/guardrails/NeMoGuardrailsEngine.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "prefer-const": 3,
+    "security/detect-non-literal-regexp": 1,
+    "security/detect-unsafe-regex": 4
+  },
+  "src/services/HRIntegrationService.ts": {
+    "@typescript-eslint/no-explicit-any": 9,
+    "n/no-sync": 2,
+    "no-case-declarations": 2
+  },
+  "src/services/i18n/TranslationService.ts": {
+    "@typescript-eslint/ban-ts-comment": 4,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/services/inference/AnthropicProvider.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/inference/OpenAIProvider.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/insurance/AIInsuranceService.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/services/kafka/KafkaEventBridge.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/kafka/KafkaService.ts": {
+    "@typescript-eslint/no-explicit-any": 9,
+    "prefer-const": 1
+  },
+  "src/services/legal/CendiaBridgeService.ts": {
+    "@typescript-eslint/no-explicit-any": 18,
+    "n/no-sync": 4,
+    "security/detect-non-literal-fs-filename": 3
+  },
+  "src/services/legal/CendiaGovernService.ts": {
+    "@typescript-eslint/no-explicit-any": 18
+  },
+  "src/services/legal/CendiaVetoService.ts": {
+    "@typescript-eslint/no-explicit-any": 8,
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/services/legal/LegalResearchService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/legal/LegalVerticalService.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/services/licensing.service.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/llm/ChainOfThought.ts": {
+    "no-useless-escape": 1
+  },
+  "src/services/llm/EmbeddingService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/llm/QueryRouter.ts": {
+    "no-useless-escape": 4
+  },
+  "src/services/llm/RAGService.ts": {
+    "@typescript-eslint/no-explicit-any": 7
+  },
+  "src/services/MarketSalaryService.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/services/metrics/ROIMetricsService.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/opa/OPAService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/PantheonMemoryService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "security/detect-unsafe-regex": 2
+  },
+  "src/services/pillars/AgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/pillars/EthicsService.ts": {
+    "@typescript-eslint/no-explicit-any": 21
+  },
+  "src/services/pillars/FlowService.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  },
+  "src/services/pillars/GuardService.ts": {
+    "@typescript-eslint/no-explicit-any": 16
+  },
+  "src/services/pillars/HealthService.ts": {
+    "@typescript-eslint/no-explicit-any": 10
+  },
+  "src/services/pillars/HelmService.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/pillars/LineageService.ts": {
+    "@typescript-eslint/no-explicit-any": 15,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/pillars/PredictService.ts": {
+    "@typescript-eslint/no-explicit-any": 11,
+    "prefer-const": 1
+  },
+  "src/services/PostDeliberationService.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "no-case-declarations": 4
+  },
+  "src/services/queue.service.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/queue/AgentQueueService.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/services/redteamService.ts": {
+    "@typescript-eslint/no-explicit-any": 26
+  },
+  "src/services/scge/EventInjectionService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/scge/PolicyInjectionService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/scge/StressorLibraryService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/scge/SyntheticPopulationService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/scge/types.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/scheduler/EnterpriseSchedulerService.ts": {
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/services/scheduling/CarbonAwareSchedulerService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/schema/SchemaMapper.ts": {
+    "@typescript-eslint/no-explicit-any": 15,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "no-case-declarations": 3,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/services/security/ComplianceExportService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/security/CredentialEvidenceService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/security/groth16/Groth16ProofService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "n/no-sync": 8,
+    "security/detect-non-literal-fs-filename": 5
+  },
+  "src/services/security/HSMAdapter.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "n/no-sync": 2
+  },
+  "src/services/security/ImmutableAuditLedger.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3,
+    "no-useless-catch": 1
+  },
+  "src/services/security/KeyManagementService.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "n/no-sync": 19,
+    "security/detect-non-literal-fs-filename": 17
+  },
+  "src/services/security/MFAService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/security/PostQuantumKMSService.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-unused-vars": 2,
+    "n/no-sync": 1
+  },
+  "src/services/security/SBOMGenerator.ts": {
+    "n/no-sync": 4,
+    "security/detect-non-literal-fs-filename": 4
+  },
+  "src/services/security/SIEMIntegration.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "no-case-declarations": 1
+  },
+  "src/services/security/ZeroKnowledgeProofService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/sgas/AdversarialAgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/sgas/DecisionAgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/sgas/InstitutionalAgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/sgas/MetaGovernanceAgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/sgas/ObserverAgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/sgas/SGASOrchestrator.ts": {
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-non-null-assertion": 7
+  },
+  "src/services/sovereign/CanaryTripwireService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "n/no-sync": 4,
+    "security/detect-non-literal-fs-filename": 4
+  },
+  "src/services/sovereign/CendiaBlackBoxService.ts": {
+    "@typescript-eslint/no-explicit-any": 11
+  },
+  "src/services/sovereign/CendiaGlassService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/sovereign/CendiaKeyService.ts": {
+    "@typescript-eslint/no-explicit-any": 18
+  },
+  "src/services/sovereign/CendiaLegacyService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/sovereign/CendiaMirageService.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/sovereign/CendiaMirrorService.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/sovereign/CendiaOracleService.ts": {
+    "@typescript-eslint/no-explicit-any": 26
+  },
+  "src/services/sovereign/CendiaVaultService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/sovereign/CendiaWitnessService.ts": {
+    "@typescript-eslint/no-explicit-any": 36,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/sovereign/DataDiodeService.ts": {
+    "@typescript-eslint/no-explicit-any": 21,
+    "@typescript-eslint/no-non-null-assertion": 3,
+    "n/no-sync": 22,
+    "no-control-regex": 1,
+    "security/detect-non-literal-fs-filename": 22,
+    "security/detect-non-literal-regexp": 1
+  },
+  "src/services/sovereign/DecisionDNAService.ts": {
+    "@typescript-eslint/no-explicit-any": 13,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "n/no-sync": 9,
+    "security/detect-non-literal-fs-filename": 9
+  },
+  "src/services/sovereign/DeterministicReplayService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "n/no-sync": 7,
+    "security/detect-non-literal-fs-filename": 6
+  },
+  "src/services/sovereign/EncryptedMeshService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/sovereign/FederatedMeshService.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "n/no-sync": 18,
+    "security/detect-non-literal-fs-filename": 15
+  },
+  "src/services/sovereign/LocalRLHFService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "n/no-sync": 22,
+    "no-case-declarations": 1,
+    "security/detect-non-literal-fs-filename": 20
+  },
+  "src/services/sovereign/OfflineLicenseService.ts": {
+    "@typescript-eslint/no-var-requires": 1,
+    "n/no-sync": 4,
+    "security/detect-non-literal-fs-filename": 3
+  },
+  "src/services/sovereign/PortableInstanceService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "n/no-sync": 13,
+    "prefer-const": 2,
+    "security/detect-non-literal-fs-filename": 13
+  },
+  "src/services/sovereign/QRAirGapBridgeService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "n/no-sync": 2
+  },
+  "src/services/sovereign/ShadowCouncilService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/sovereign/TimeLockService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2,
+    "@typescript-eslint/no-unused-vars": 1,
+    "n/no-sync": 3,
+    "prefer-const": 1,
+    "security/detect-non-literal-fs-filename": 3
+  },
+  "src/services/sovereign/TPMAttestationService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 8,
+    "@typescript-eslint/no-var-requires": 3,
+    "n/no-sync": 7,
+    "security/detect-non-literal-fs-filename": 5
+  },
+  "src/services/sports/SportsDecisionService.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/sports/SportsKnowledgeBase.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/StatementOfFactsService.ts": {
+    "@typescript-eslint/no-explicit-any": 3,
+    "no-case-declarations": 3
+  },
+  "src/services/storage/AnalyticsRouter.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/storage/ClickHouseService.ts": {
+    "@typescript-eslint/no-explicit-any": 11,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/storage/DruidService.ts": {
+    "@typescript-eslint/no-explicit-any": 9
+  },
+  "src/services/storage/MinioService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/storage/VectorService.ts": {
+    "@typescript-eslint/no-explicit-any": 8
+  },
+  "src/services/strategic/CendiaGraphService.ts": {
+    "@typescript-eslint/no-explicit-any": 7,
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/strategic/CendiaIngestService.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/strategic/LogicGateService.ts": {
+    "@typescript-eslint/no-explicit-any": 4,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/strategic/RDPService.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/services/strategic/SynthesisEngineService.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/strategic/UnionService.ts": {
+    "@typescript-eslint/no-explicit-any": 7
+  },
+  "src/services/strategic/WarGamesService.ts": {
+    "@typescript-eslint/no-explicit-any": 6,
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "no-case-declarations": 3
+  },
+  "src/services/streaming/FlinkCEPService.ts": {
+    "@typescript-eslint/no-explicit-any": 5,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/temporal/TemporalService.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/vault/OpenBaoService.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/services/vectordb/VectorDBService.ts": {
+    "@typescript-eslint/no-explicit-any": 3
+  },
+  "src/services/VerticalAgentsService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/verticals/aerospace/AerospaceVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/aerospace/AerospaceVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/agriculture/AgricultureVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/agriculture/AgricultureVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/verticals/automotive/AutomotiveVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/automotive/AutomotiveVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/construction/ConstructionVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/construction/ConstructionVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/defense/DefenseVerticalService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/verticals/education/EducationVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/verticals/energy/EnergyVertical.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/services/verticals/financial/FinancialVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/government/GovernmentVertical.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/verticals/healthcare/HealthcareVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/services/verticals/hospitality/HospitalityVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/hospitality/HospitalityVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/insurance/InsuranceVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 5
+  },
+  "src/services/verticals/internal/DatacendiaInternalService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 4
+  },
+  "src/services/verticals/manufacturing/ManufacturingVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/media/MediaVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/media/MediaVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/meta/VerticalSentinelService.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1,
+    "no-constant-condition": 1
+  },
+  "src/services/verticals/nonprofit/NonprofitVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/pharmaceutical/PharmaceuticalVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/pharmaceutical/PharmaceuticalVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/professional/ProfessionalVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/realestate/RealEstateVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/verticals/retail/RetailVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/retail/RetailVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 2
+  },
+  "src/services/verticals/sports/SportsVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/technology/TechnologyVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 3
+  },
+  "src/services/verticals/telecom/TelecomVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/telecom/TelecomVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/verticals/transportation/TransportationVertical.ts": {
+    "@typescript-eslint/no-non-null-assertion": 13
+  },
+  "src/services/verticals/transportation/TransportationVerticalExpanded.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/services/visualization/DecisionReplayTheaterService.ts": {
+    "@typescript-eslint/no-explicit-any": 5
+  },
+  "src/services/visualization/DeliberationVisualizationService.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/services/webhook.service.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/startup/middleware.ts": {
+    "@typescript-eslint/no-explicit-any": 1,
+    "@typescript-eslint/no-unused-vars": 1,
+    "n/no-sync": 2
+  },
+  "src/startup/routes.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/telemetry/sentry.ts": {
+    "@typescript-eslint/no-explicit-any": 6
+  },
+  "src/types/kafkajs.d.ts": {
+    "@typescript-eslint/no-explicit-any": 2
+  },
+  "src/types/snarkjs.d.ts": {
+    "@typescript-eslint/no-explicit-any": 31
+  },
+  "src/types/ws.d.ts": {
+    "@typescript-eslint/no-explicit-any": 10,
+    "@typescript-eslint/no-unused-vars": 1
+  },
+  "src/utils/circuitBreaker.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/utils/deterministic.ts": {
+    "@typescript-eslint/no-non-null-assertion": 1
+  },
+  "src/utils/permissions.ts": {
+    "@typescript-eslint/no-explicit-any": 1
+  },
+  "src/utils/RuleEngine.ts": {
+    "@typescript-eslint/no-non-null-assertion": 8,
+    "security/detect-non-literal-regexp": 1,
+    "security/detect-possible-timing-attacks": 5,
+    "security/detect-unsafe-regex": 3
+  },
+  "src/websocket/SocketServer.ts": {
+    "@typescript-eslint/no-explicit-any": 4
+  }
+}

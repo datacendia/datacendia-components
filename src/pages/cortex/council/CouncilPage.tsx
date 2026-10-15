@@ -23,6 +23,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
 import { councilApi } from '../../../lib/api';
 import { ollamaService, type DomainAgent } from '../../../lib/ollama';
+import { apiInferenceAvailable } from '../../../lib/ollama/apiTransport';
 import { sovereignApi, enterpriseApi, vaultApi } from '../../../lib/sovereignApi';
 import { COUNCIL_MODES } from '../../../data/councilModes';
 import { ledgerService } from '../../../services/LedgerService';
@@ -734,6 +735,13 @@ const MODE_TRANSLATIONS: Record<string, Record<string, { name: string; directive
   },
 };
 
+// Errors about AI availability, which the status poll clears once AI is back.
+// Any other error (a deliberation that failed) stays until the user acts.
+const AI_NOT_CONFIGURED = 'AI agents are not configured. Please contact your administrator to set up an AI provider.';
+const AI_UNAVAILABLE = 'AI agents are temporarily unavailable. Please try again later.';
+const DELIBERATION_INTERRUPTED =
+  'This deliberation was interrupted when the page was left or reloaded. If it finished in the background, it is in Council History.';
+
 export const CouncilPage: React.FC = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
@@ -762,7 +770,14 @@ export const CouncilPage: React.FC = () => {
   const [recentDecisions, setRecentDecisions] = useState<QueryResult[]>(() => {
     try {
       const saved = localStorage.getItem('council_deliberations');
-      return saved ? JSON.parse(saved) : [];
+      const decisions: QueryResult[] = saved ? JSON.parse(saved) : [];
+      // A deliberation streams into this page. One saved mid-run was cut off when
+      // the page was left or reloaded, and would otherwise stay "In Review" forever.
+      return decisions.map((d) =>
+        d.currentPhase && d.currentPhase !== 'completed' && d.currentPhase !== 'failed'
+          ? { ...d, currentPhase: 'failed', response: DELIBERATION_INTERRUPTED }
+          : d
+      );
     } catch { return []; }
   });
   const [isLoading, setIsLoading] = useState(true);
@@ -1016,14 +1031,20 @@ export const CouncilPage: React.FC = () => {
     }
   }, [selectedMode]);
 
-  // Load agents from Ollama service
+  // Load agents — check backend inference status first (supports cloud providers)
   useEffect(() => {
     const loadAgents = async () => {
       try {
         setIsLoading(true);
         setError(null);
 
-        // Check Ollama availability and get agents
+        // The API's inference provider (OpenAI, Anthropic, Ollama on the server, ...)
+        const backendAIAvailable = await apiInferenceAvailable();
+        if (backendAIAvailable) {
+          logger.info('[Council] Backend AI provider available');
+        }
+
+        // Also check local Ollama availability (for local dev)
         await ollamaService.checkAvailability();
         const ollamaAgents = ollamaService.getAgents();
 
@@ -1036,7 +1057,7 @@ export const CouncilPage: React.FC = () => {
             description: a.description,
             avatar: a.avatar,
             color: a.color,
-            status: a.status,
+            status: backendAIAvailable ? ('online' as const) : a.status,
             capabilities: a.capabilities,
             ...(a.premium !== undefined && { premium: a.premium }),
             ...(a.premiumPackage !== undefined && { premiumPackage: a.premiumPackage }),
@@ -1044,13 +1065,11 @@ export const CouncilPage: React.FC = () => {
           }))
         );
 
-        const status = ollamaService.getStatus();
-        if (!status.available) {
-          setError(
-            'Ollama is not running. Please start Ollama to enable AI agents. Run: ollama serve'
-          );
-        } else {
-          // Pre-warm all models in background for instant deliberations
+        const ollamaStatus = ollamaService.getStatus();
+        if (!backendAIAvailable && !ollamaStatus.available) {
+          setError(AI_NOT_CONFIGURED);
+        } else if (ollamaStatus.available) {
+          // Pre-warm Ollama models in background for instant deliberations
           logger.info('[Council] Pre-warming models in background...');
           ollamaService.preWarmModels((model, index, total) => {
             logger.info(`[Council] Warming model ${index}/${total}: ${model}`);
@@ -1059,19 +1078,8 @@ export const CouncilPage: React.FC = () => {
           });
         }
       } catch (err) {
-        logger.error('Ollama connection error:', err);
-        // Use fallback demo agents when Ollama/backend is unavailable
-        setAgents([
-          { id: 'chief', code: 'chief', name: 'The Chief', role: 'Strategic Orchestrator', description: 'Oversees multi-agent deliberation and synthesizes recommendations', avatar: '👔', color: '#6366F1', status: 'online', capabilities: ['Strategic Planning', 'Synthesis', 'Conflict Resolution'] },
-          { id: 'cfo', code: 'cfo', name: 'CFO Agent', role: 'Financial Analyst', description: 'Analyzes financial implications, ROI, and fiscal risk', avatar: '💰', color: '#10B981', status: 'online', capabilities: ['Financial Modeling', 'Risk Assessment', 'Budget Analysis'] },
-          { id: 'coo', code: 'coo', name: 'COO Agent', role: 'Operations Expert', description: 'Evaluates operational feasibility and efficiency impact', avatar: '⚙️', color: '#F59E0B', status: 'online', capabilities: ['Process Optimization', 'Resource Planning', 'Scalability'] },
-          { id: 'ciso', code: 'ciso', name: 'CISO Agent', role: 'Security Advisor', description: 'Assesses security risks, compliance, and data protection', avatar: '🔒', color: '#EF4444', status: 'online', capabilities: ['Threat Analysis', 'Compliance', 'Data Protection'] },
-          { id: 'cto', code: 'cto', name: 'CTO Agent', role: 'Technology Strategist', description: 'Evaluates technical architecture and innovation opportunities', avatar: '💻', color: '#8B5CF6', status: 'online', capabilities: ['Architecture Review', 'Tech Strategy', 'Innovation'] },
-          { id: 'cmo', code: 'cmo', name: 'CMO Agent', role: 'Market Analyst', description: 'Analyzes market dynamics, customer impact, and brand implications', avatar: '📢', color: '#EC4899', status: 'online', capabilities: ['Market Analysis', 'Customer Insights', 'Brand Strategy'] },
-          { id: 'chro', code: 'chro', name: 'CHRO Agent', role: 'People & Culture', description: 'Evaluates talent, culture, and organizational impact', avatar: '👥', color: '#14B8A6', status: 'online', capabilities: ['Talent Strategy', 'Culture Impact', 'Change Management'] },
-          { id: 'legal', code: 'legal', name: 'Legal Agent', role: 'Legal Counsel', description: 'Reviews legal implications, regulatory compliance, and contractual risks', avatar: '⚖️', color: '#64748B', status: 'online', capabilities: ['Legal Analysis', 'Regulatory Review', 'Contract Assessment'] },
-        ]);
-        setError('Ollama is not running. Showing demo agents. Start Ollama for live AI deliberation.');
+        setError(AI_UNAVAILABLE);
+        logger.error('Council agent loading error:', err);
       } finally {
         setIsLoading(false);
       }
@@ -1079,8 +1087,9 @@ export const CouncilPage: React.FC = () => {
 
     loadAgents();
 
-    // Refresh agent status every 10 seconds
+    // Refresh agent status every 30 seconds
     const interval = setInterval(async () => {
+      const backendAIAvailable = await apiInferenceAvailable();
       await ollamaService.checkAvailability();
       const ollamaAgents = ollamaService.getAgents();
       setAgents(
@@ -1092,14 +1101,19 @@ export const CouncilPage: React.FC = () => {
           description: a.description,
           avatar: a.avatar,
           color: a.color,
-          status: a.status,
+          status: backendAIAvailable ? ('online' as const) : a.status,
           capabilities: a.capabilities,
           ...(a.premium !== undefined && { premium: a.premium }),
           ...(a.premiumPackage !== undefined && { premiumPackage: a.premiumPackage }),
           ...(a.premiumPrice !== undefined && { premiumPrice: a.premiumPrice }),
         }))
       );
-    }, 10000);
+
+      // Clear an availability error once AI is back
+      if (backendAIAvailable || ollamaService.getStatus().available) {
+        setError((prev) => (prev === AI_NOT_CONFIGURED || prev === AI_UNAVAILABLE ? null : prev));
+      }
+    }, 30000);
 
     return () => clearInterval(interval);
   }, []);
@@ -1382,10 +1396,12 @@ export const CouncilPage: React.FC = () => {
     setAttachedFiles([]);
     setExtractedContent('');
 
+    let activeDecisionId: string | null = null;
     try {
       if (queryMode === 'deliberation') {
         // Create initial streaming decision
         const decisionId = `decision-${Date.now()}`;
+        activeDecisionId = decisionId;
         const agentIds = selectedAgents.length > 0 ? selectedAgents : onlineAgents.map((a) => a.id);
 
         // Queue the deliberation job in the sovereign stack (BullMQ)
@@ -1676,13 +1692,27 @@ export const CouncilPage: React.FC = () => {
         setRecentDecisions((prev) => [newDecision, ...prev].slice(0, 10));
       }
     } catch (err: any) {
-      setError(err.message || 'Failed to process request. Ensure Ollama is running.');
+      const message = err.message || 'Failed to process request. Ensure Ollama is running.';
+      setError(message);
       logger.error('Query error:', err);
+      // A deliberation that couldn't run used to stay "In Review" forever.
+      if (activeDecisionId) {
+        const failedId = activeDecisionId;
+        setStreamingDecision(null);
+        setCurrentPhase('');
+        setRecentDecisions((prev) =>
+          prev.map((d) => (d.id === failedId ? { ...d, currentPhase: 'failed', response: message } : d))
+        );
+        setDeliberations((prev) => prev.filter((d) => d.id !== failedId));
+      }
     } finally {
       setIsProcessing(false);
       // Note: Decision context storage moved to onComplete callback for accurate data
     }
   };
+
+  // Re-read on each render; `agents` refreshes from the same service every 30 seconds
+  const modelFallbacks = ollamaService.getModelFallbacks();
 
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
@@ -1767,6 +1797,13 @@ export const CouncilPage: React.FC = () => {
             </button>
           </div>
         </div>
+        {/* Agents on a stand-in model: say so rather than falling back silently */}
+        {modelFallbacks.length > 0 && (
+          <p className="mt-3 text-xs text-amber-400/90">
+            Agents are running on {[...new Set(modelFallbacks.map((f) => f.model))].join(', ')}: the models they
+            were tuned on ({[...new Set(modelFallbacks.map((f) => f.preferred))].join(', ')}) are not installed in Ollama.
+          </p>
+        )}
       </div>
 
       {/* ================================================================= */}
@@ -3222,7 +3259,9 @@ export const CouncilPage: React.FC = () => {
                       )}
                     >
                       {!result.confidence || result.confidence === 0
-                        ? result.currentPhase && result.currentPhase !== 'completed'
+                        ? result.currentPhase === 'failed'
+                          ? '✕ Not completed'
+                          : result.currentPhase && result.currentPhase !== 'completed'
                           ? '◐ Calibrating...'
                           : result.agentResponses?.length === 0
                             ? '○ Pending Evidence'
@@ -3281,12 +3320,16 @@ export const CouncilPage: React.FC = () => {
                       <span
                         className={cn(
                           'px-3 py-1.5 rounded-full text-xs font-semibold',
-                          result.currentPhase === 'completed' || !result.currentPhase
+                          result.currentPhase === 'failed'
+                            ? 'bg-red-900/40 text-red-400 border border-red-800'
+                            : result.currentPhase === 'completed' || !result.currentPhase
                             ? 'bg-green-900/50 text-green-400 border border-green-700'
                             : 'bg-yellow-900/50 text-yellow-400 border border-yellow-700'
                         )}
                       >
-                        {result.currentPhase === 'completed' || !result.currentPhase
+                        {result.currentPhase === 'failed'
+                          ? '✕ Not completed'
+                          : result.currentPhase === 'completed' || !result.currentPhase
                           ? '✓ Logged'
                           : '◐ In Review'}
                       </span>
@@ -3362,8 +3405,15 @@ export const CouncilPage: React.FC = () => {
                   </div>
                 </div>
 
+                {/* Why a deliberation didn't run */}
+                {result.currentPhase === 'failed' && (
+                  <div className="mb-4 ml-14 rounded-lg border border-red-900/60 bg-red-950/30 px-4 py-3 text-sm text-red-300">
+                    {result.response || 'The Council could not complete this deliberation.'}
+                  </div>
+                )}
+
                 {/* Phase Indicator */}
-                {result.currentPhase && result.currentPhase !== 'completed' && (
+                {result.currentPhase && result.currentPhase !== 'completed' && result.currentPhase !== 'failed' && (
                   <div className="flex items-center gap-2 mb-4 ml-14">
                     <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
                     <span className="text-xs text-orange-400 font-mono uppercase">
@@ -3548,8 +3598,8 @@ export const CouncilPage: React.FC = () => {
                     </div>
                   )}
 
-                  {/* USER INPUT - Sticky at bottom like Teams/WhatsApp */}
-                  {result.currentPhase !== 'completed' && (
+                  {/* USER INPUT - Sticky at bottom like Teams/WhatsApp (not on a failed run: nothing would receive it) */}
+                  {result.currentPhase !== 'completed' && result.currentPhase !== 'failed' && (
                     <div className="sticky bottom-0 bg-neutral-900/95 backdrop-blur-sm pt-3 pb-2 -mx-5 px-5 mt-4 border-t border-neutral-700/50">
                       <form 
                         onSubmit={(e) => {
@@ -3656,8 +3706,8 @@ export const CouncilPage: React.FC = () => {
                     </div>
                   )}
 
-                  {/* FINAL: Council Synthesis/Recommendation */}
-                  {result.response && (
+                  {/* FINAL: Council Synthesis/Recommendation (a failed run's response is its reason) */}
+                  {result.response && result.currentPhase !== 'failed' && (
                     <div className="mt-4 pt-4 border-t border-neutral-700/50">
                       <div className="flex items-start gap-3">
                         <div className="flex-shrink-0">

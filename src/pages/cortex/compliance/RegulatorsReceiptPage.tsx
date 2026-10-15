@@ -20,6 +20,7 @@ import { logger } from '../../../lib/logger';
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { api } from '../../../lib/api';
+import { API_BASE_URL, tokenManager } from '../../../lib/api/client';
 import { RedactionProvider, RedactionToggle, RedactedText, RedactedCode, useRedaction } from '../../../components/ui/RedactedText';
 import {
   FileText,
@@ -355,9 +356,8 @@ const RegulatorsReceiptPageInner: React.FC<{ embedded?: boolean }> = ({ embedded
   const handleDownloadPdf = async (format: 'court' | 'standard' | 'evidence' = 'court') => {
     if (!selectedDeliberation) {return;}
     try {
-      const token = localStorage.getItem('dc_access_token');
-      const baseUrl = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
-      const response = await fetch(`${baseUrl}/regulators-receipt/generate-pdf`, {
+      const token = tokenManager.getAccessToken();
+      const response = await fetch(`${API_BASE_URL}/regulators-receipt/generate-pdf`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
