@@ -7,7 +7,7 @@
  * @module lib/auth/returnPath
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // See LICENSE file for details.
 
 export const DEFAULT_AFTER_SIGN_IN = '/cortex/dashboard';

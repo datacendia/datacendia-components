@@ -7,7 +7,7 @@
  * @module lib/api/fetchAuth
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // See LICENSE file for details.
 
 // About thirty modules call fetch() on the API directly instead of going through

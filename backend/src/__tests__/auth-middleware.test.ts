@@ -7,7 +7,7 @@
  * WebSocket alike.
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // See LICENSE file for details.
 
 import { describe, it, expect, vi, beforeEach } from 'vitest';

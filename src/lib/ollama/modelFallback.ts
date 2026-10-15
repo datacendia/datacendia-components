@@ -7,7 +7,7 @@
  * @module lib/ollama/modelFallback
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // See LICENSE file for details.
 
 // Agents name the model they were tuned on (qwen2.5:14b or :7b). On a machine

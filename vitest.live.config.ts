@@ -6,7 +6,7 @@
  *   docker compose -f docker-compose.demo.yml up -d && npm run test:live
  */
 
-// Copyright (c) 2024-2026 Datacendia, LLC. Licensed under Apache 2.0.
+// Copyright (c) 2024-2026 Datacendia, LLC All Rights Reserved.
 // See LICENSE file for details.
 
 import { defineConfig } from 'vitest/config';
