@@ -66,7 +66,7 @@ describe('AdminDashboardPage', () => {
     expect(await screen.findByText('The dashboard could not be loaded')).toBeTruthy();
     expect(screen.getByText('Failed to load dashboard')).toBeTruthy();
     fireEvent.click(screen.getByText('Try again'));
-    expect(await screen.findByText('$10,500.00')).toBeTruthy();
+    expect(await screen.findByText('$10,500')).toBeTruthy();
     expect(getDashboard).toHaveBeenCalledTimes(2);
     expect(screen.queryByText('The dashboard could not be loaded')).toBeNull();
   });
@@ -77,20 +77,20 @@ describe('AdminDashboardPage', () => {
       .mockResolvedValueOnce(DASHBOARD)
       .mockRejectedValueOnce(new AdminRequestError('Insufficient permissions', 403));
     renderPage();
-    expect(await screen.findByText('$10,500.00')).toBeTruthy();
+    expect(await screen.findByText('$10,500')).toBeTruthy();
     await act(async () => {
       await vi.advanceTimersByTimeAsync(30_000);
     });
     expect(await screen.findByText('For platform operators')).toBeTruthy();
-    expect(screen.queryByText('$10,500.00')).toBeNull();
+    expect(screen.queryByText('$10,500')).toBeNull();
   });
 
   it('shows the figures the API returns', async () => {
     getDashboard.mockResolvedValue(DASHBOARD);
     renderPage();
-    expect(await screen.findByText('$10,500.00')).toBeTruthy();
+    expect(await screen.findByText('$10,500')).toBeTruthy();
     expect(screen.getByText('3 active · 2 on trial')).toBeTruthy();
-    expect(screen.getByText('ARR $126,000.00')).toBeTruthy();
+    expect(screen.getByText('ARR $126,000')).toBeTruthy();
     expect(screen.getByText('1 expiring within 30 days')).toBeTruthy();
     expect(screen.getByText('Enterprise')).toBeTruthy();
     expect(screen.getByText('Oct')).toBeTruthy();

@@ -37,6 +37,11 @@ vi.mock('../config/database.js', () => ({
         organizations: { id: 'org-1' }, preferences: {},
       })),
     },
+    // The route stores leads through the shared client
+    demo_requests: {
+      create: vi.fn(async ({ data }: { data: { id: string } }) => ({ id: data.id })),
+      findMany: vi.fn(async () => [{ id: 'mktg-1' }]),
+    },
   },
 }));
 vi.mock('@prisma/client', () => ({

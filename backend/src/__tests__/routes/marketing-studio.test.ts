@@ -30,9 +30,36 @@ vi.mock('../../services/ollama.js', () => {
 
 import marketingStudioRoutes from '../../routes/marketing-studio.js';
 
-const app = express();
-app.use(express.json());
-app.use('/api/v1/marketing-studio', marketingStudioRoutes);
+// The studio is for platform operators (SUPER_ADMIN). Stands in for
+// authenticate: an app whose requests arrive signed in with `role`, or
+// signed out when there is none.
+const studioAs = (role?: string) => {
+  const studio = express();
+  studio.use(express.json());
+  studio.use((req, _res, next) => {
+    if (role) {
+      (req as express.Request & { user?: { id: string; role: string } }).user = { id: 'usr-1', role };
+    }
+    next();
+  });
+  studio.use('/api/v1/marketing-studio', marketingStudioRoutes);
+  return studio;
+};
+
+// The tests below run as a platform operator
+const app = studioAs('SUPER_ADMIN');
+
+describe('Marketing Studio access', () => {
+  it('turns away a signed-out request', async () => {
+    const res = await request(studioAs()).post('/api/v1/marketing-studio/video-script').send({ topic: 'x' });
+    expect(res.status).toBe(401);
+  });
+
+  it("turns away an organization's own admin", async () => {
+    const res = await request(studioAs('ADMIN')).post('/api/v1/marketing-studio/video-script').send({ topic: 'x' });
+    expect(res.status).toBe(403);
+  });
+});
 
 describe('Marketing Studio API', () => {
   describe('POST /video-script', () => {
