@@ -1,6 +1,8 @@
 {
   "name": "datacendia-api",
   "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
   "description": "Datacendia Platform Backend API",
   "main": "dist/index.js",
   "prisma": {
@@ -44,7 +46,7 @@
     "@noble/curves": "^2.2.0",
     "@noble/post-quantum": "^0.5.4",
     "@opentelemetry/api": "^1.9.0",
-    "@opentelemetry/auto-instrumentations-node": "^0.67.2",
+    "@opentelemetry/auto-instrumentations-node": "^0.81.0",
     "@opentelemetry/exporter-metrics-otlp-http": "^0.208.0",
     "@opentelemetry/exporter-prometheus": "^0.208.0",
     "@opentelemetry/exporter-trace-otlp-http": "^0.208.0",
@@ -54,7 +56,7 @@
     "@opentelemetry/sdk-trace-base": "^2.2.0",
     "@prisma/adapter-pg": "^7.4.2",
     "@prisma/client": "^7.4.2",
-    "axios": "^1.13.2",
+    "axios": "^1.20.0",
     "bcryptjs": "^2.4.3",
     "better-sqlite3": "^12.5.0",
     "bullmq": "^5.66.0",
@@ -80,7 +82,7 @@
     "mammoth": "^1.11.0",
     "minio": "^8.0.6",
     "mongodb": "^6.3.0",
-    "multer": "^2.1.0",
+    "multer": "^2.4.0",
     "mysql2": "^3.16.0",
     "neo4j-driver": "^5.15.0",
     "nodemailer": "^8.0.5",
@@ -125,7 +127,7 @@
     "supertest": "^7.1.4",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.1.11"
   },
   "engines": {
     "node": ">=20.0.0"
