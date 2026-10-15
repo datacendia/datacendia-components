@@ -22,7 +22,6 @@
 // =============================================================================
 
 import { Router } from 'express';
-import { requireLicense } from '../../middleware/requireLicense.js';
 
 /**
  * Enterprise route definition.
@@ -51,6 +50,9 @@ export function mountEnterpriseRoutes(
       try {
         const mod = await loader();
         if (pillar) {
+          // Licence enforcement is enterprise code too: loaded only when an
+          // enterprise route exists to gate
+          const { requireLicense } = await import('../../middleware/requireLicense.js');
           router.use(path, requireLicense(pillar), mod.default);
         } else {
           router.use(path, mod.default);

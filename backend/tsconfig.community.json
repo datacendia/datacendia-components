@@ -76,6 +76,7 @@
 
     // Licensing
     "src/services/licensing.service.ts",
+    "src/middleware/requireLicense.ts",
 
     // =========================================================================
     // ENTERPRISE ROUTE FILES — wire enterprise services to HTTP endpoints

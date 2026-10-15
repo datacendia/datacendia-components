@@ -19,7 +19,7 @@
 import { Router, Request, Response } from 'express';
 import { prisma } from '../config/database.js';
 import os from 'os';
-import { sovereignMode } from '../services/sovereign/SovereignModeService.js';
+import { loadSovereignMode } from '../utils/optionalModule.js';
 
 const router = Router();
 
@@ -123,20 +123,23 @@ router.get('/', async (_req: Request, res: Response) => {
     lines.push('datacendia_service_up{service="api"} 1');
     lines.push('datacendia_service_up{service="database"} 1');
 
-    // Sovereign mode metrics
-    const sovStatus = sovereignMode.getStatus();
-    lines.push('# HELP datacendia_sovereign_online_mode Sovereign online mode (1=online, 0=offline/sovereign)');
-    lines.push('# TYPE datacendia_sovereign_online_mode gauge');
-    lines.push(`datacendia_sovereign_online_mode ${sovStatus.onlineMode ? 1 : 0}`);
-    lines.push('# HELP datacendia_sovereign_cloud_ai Cloud AI enabled (1=yes, 0=no)');
-    lines.push('# TYPE datacendia_sovereign_cloud_ai gauge');
-    lines.push(`datacendia_sovereign_cloud_ai ${sovStatus.cloudAI ? 1 : 0}`);
-    lines.push('# HELP datacendia_sovereign_external_data External data feeds enabled');
-    lines.push('# TYPE datacendia_sovereign_external_data gauge');
-    lines.push(`datacendia_sovereign_external_data ${sovStatus.externalData ? 1 : 0}`);
-    lines.push('# HELP datacendia_sovereign_external_notify External notifications enabled');
-    lines.push('# TYPE datacendia_sovereign_external_notify gauge');
-    lines.push(`datacendia_sovereign_external_notify ${sovStatus.externalNotify ? 1 : 0}`);
+    // Sovereign mode metrics (enterprise edition only)
+    const sovereignMode = await loadSovereignMode();
+    if (sovereignMode) {
+      const sovStatus = sovereignMode.getStatus();
+      lines.push('# HELP datacendia_sovereign_online_mode Sovereign online mode (1=online, 0=offline/sovereign)');
+      lines.push('# TYPE datacendia_sovereign_online_mode gauge');
+      lines.push(`datacendia_sovereign_online_mode ${sovStatus.onlineMode ? 1 : 0}`);
+      lines.push('# HELP datacendia_sovereign_cloud_ai Cloud AI enabled (1=yes, 0=no)');
+      lines.push('# TYPE datacendia_sovereign_cloud_ai gauge');
+      lines.push(`datacendia_sovereign_cloud_ai ${sovStatus.cloudAI ? 1 : 0}`);
+      lines.push('# HELP datacendia_sovereign_external_data External data feeds enabled');
+      lines.push('# TYPE datacendia_sovereign_external_data gauge');
+      lines.push(`datacendia_sovereign_external_data ${sovStatus.externalData ? 1 : 0}`);
+      lines.push('# HELP datacendia_sovereign_external_notify External notifications enabled');
+      lines.push('# TYPE datacendia_sovereign_external_notify gauge');
+      lines.push(`datacendia_sovereign_external_notify ${sovStatus.externalNotify ? 1 : 0}`);
+    }
 
     // Business metrics (best-effort from database)
     try {

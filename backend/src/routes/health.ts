@@ -13,7 +13,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { devAuth } from '../middleware/auth.js';
-import { sovereignMode } from '../services/sovereign/SovereignModeService.js';
+import { loadSovereignMode } from '../utils/optionalModule.js';
 import crypto from 'crypto';
 
 const router = Router();
@@ -365,13 +365,16 @@ async function checkSystemStatuses() {
     latency: '5ms',
   });
 
-  // Sovereign mode status
-  const sovereign = sovereignMode.getStatus();
-  systems.push({
-    name: 'Sovereign Mode',
-    status: sovereign.onlineMode ? 'online' : 'offline (sovereign)',
-    latency: null,
-  });
+  // Sovereign mode status (enterprise edition only)
+  const sovereignMode = await loadSovereignMode();
+  if (sovereignMode) {
+    const sovereign = sovereignMode.getStatus();
+    systems.push({
+      name: 'Sovereign Mode',
+      status: sovereign.onlineMode ? 'online' : 'offline (sovereign)',
+      latency: null,
+    });
+  }
 
   return systems;
 }
@@ -382,6 +385,13 @@ async function checkSystemStatuses() {
  * Used by admin UI and air-gapped deployment validation tooling.
  */
 router.get('/sovereign', async (_req: Request, res: Response) => {
+  const sovereignMode = await loadSovereignMode();
+  if (!sovereignMode) {
+    return res.status(404).json({
+      success: false,
+      error: 'Sovereign mode is part of the enterprise edition.',
+    });
+  }
   res.json({
     success: true,
     data: sovereignMode.getStatus(),
