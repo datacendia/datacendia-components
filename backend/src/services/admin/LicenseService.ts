@@ -17,6 +17,7 @@
 // Uses real Prisma database queries - NO MOCK DATA
 // =============================================================================
 
+import crypto from 'crypto';
 import { logger } from '../../utils/logger.js';
 import { prisma } from '../../config/database.js';
 // =============================================================================
@@ -154,7 +155,8 @@ class LicenseService {
 
   private generateLicenseKey(type: string): string {
     const prefix = type.substring(0, 3).toUpperCase();
-    const random = Math.random().toString(36).substring(2, 10).toUpperCase();
+    // 64 bits from the OS random source: Math.random keys can be predicted
+    const random = crypto.randomBytes(8).toString('hex').toUpperCase();
     const timestamp = Date.now().toString(36).toUpperCase();
     return `DC-${prefix}-${random}-${timestamp}`;
   }

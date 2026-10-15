@@ -14,7 +14,7 @@
 // =============================================================================
 
 import { Router } from 'express';
-import { authenticate } from '../../middleware/auth.js';
+import { authenticate, requireRole } from '../../middleware/auth.js';
 import { mountEnterpriseRoutes } from './_enterprise.js';
 import platformRoutes from '../platform.js';
 import coreRoutes from '../core.js';
@@ -58,7 +58,8 @@ router.use('/notifications', authenticate, notificationsRoutes);
 router.use('/upload', authenticate, uploadRoutes);
 router.use('/schema', authenticate, schemaRoutes);
 router.use('/command', authenticate, commandRoutes);
-router.use('/admin/env-config', authenticate, envConfigRoutes);
+// The server's own .env (secrets masked): platform operators only.
+router.use('/admin/env-config', authenticate, requireRole('SUPER_ADMIN'), envConfigRoutes);
 router.use('/marketing-studio', authenticate, marketingStudioRoutes);
 router.use('/platform-assistant', authenticate, platformAssistantRoutes);
 router.use('/auto-heal', authenticate, autoHealRoutes);
