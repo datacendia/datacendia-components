@@ -41,6 +41,7 @@ import {
   OrganizationDissentMetrics
 } from '../services/CendiaDissentService.js';
 import { logger } from '../utils/logger.js';
+import type { ExecuteValues } from 'mysql2';
 
 // =============================================================================
 // MONGODB HELPER FUNCTIONS
@@ -315,11 +316,11 @@ export class ClientHostedAdapter implements DataAdapter {
 
     return {
       async query<T>(sql: string, params?: unknown[]): Promise<T[]> {
-        const [rows] = await pool.execute(sql, params);
+        const [rows] = await pool.execute(sql, params as ExecuteValues | undefined);
         return rows as T[];
       },
       async execute(sql: string, params?: unknown[]): Promise<{ affectedRows: number }> {
-        const [result] = await pool.execute(sql, params) as unknown as [{ affectedRows: number }];
+        const [result] = await pool.execute(sql, params as ExecuteValues | undefined) as unknown as [{ affectedRows: number }];
         return { affectedRows: result.affectedRows };
       },
       async transaction<T>(fn: (client: SQLClient) => Promise<T>): Promise<T> {
@@ -328,11 +329,11 @@ export class ClientHostedAdapter implements DataAdapter {
           await connection.beginTransaction();
           const wrappedClient: SQLClient = {
             async query<T>(sql: string, params?: unknown[]): Promise<T[]> {
-              const [rows] = await connection.execute(sql, params);
+              const [rows] = await connection.execute(sql, params as ExecuteValues | undefined);
               return rows as T[];
             },
             async execute(sql: string, params?: unknown[]): Promise<{ affectedRows: number }> {
-              const [result] = await connection.execute(sql, params) as unknown as [{ affectedRows: number }];
+              const [result] = await connection.execute(sql, params as ExecuteValues | undefined) as unknown as [{ affectedRows: number }];
               return { affectedRows: result.affectedRows };
             },
             transaction: () => { throw new Error('Nested transactions not supported'); },

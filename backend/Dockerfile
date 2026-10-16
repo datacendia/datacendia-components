@@ -14,8 +14,10 @@ RUN apk add --no-cache python3 make g++
 COPY package*.json prisma.config.ts ./
 COPY prisma/schema ./prisma/schema/
 
-# Install dependencies
-RUN npm install
+# Install dependencies. npm 10.8 (bundled with node:20) crashes resolving this
+# tree without a lockfile ("Cannot read properties of null (reading 'edgesOut')"),
+# so use npm 11 for the install.
+RUN npm install -g npm@11 && npm install
 
 # Generate Prisma client
 RUN npx prisma generate
